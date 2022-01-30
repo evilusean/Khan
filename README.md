@@ -1,6 +1,4 @@
-# Kaggle
-Python Started: 15 Dec 2021
-# Khan
+# Khan Academy Algebra
 Algebra Foundations:
 
 https://www.khanacademy.org/math/algebra-basics/basic-alg-foundations
