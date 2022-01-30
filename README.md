@@ -1,4 +1,5 @@
-# Khan Academy Algebra
+# Khan Academy
+# Algebra
 Algebra Foundations:
 
 https://www.khanacademy.org/math/algebra-basics/basic-alg-foundations
