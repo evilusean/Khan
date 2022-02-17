@@ -34,9 +34,15 @@ https://www.khanacademy.org/math/algebra-basics/alg-basics-graphing-lines-and-sl
 
 Start: 31Jan2022
 
-End:
+End: 17Feb2022
 
 Systems of equations:
+
+https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations
+
+Start: 18Feb2022
+
+End:
 
 Expressions with exponents:
 
