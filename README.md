@@ -42,9 +42,15 @@ https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations
 
 Start: 18Feb2022
 
-End:
+End:03March2022
 
 Expressions with exponents:
+
+https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents
+
+Started:04March2022
+
+Ended:
 
 Quadratics and polynomials:
 
