@@ -48,7 +48,7 @@ Expressions with exponents:
 
 https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-exponents
 
-Started:04March2022
+Started:16March2022
 
 Ended:
 
