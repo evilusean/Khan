@@ -50,8 +50,12 @@ https://www.khanacademy.org/math/algebra-basics/alg-basics-expressions-with-expo
 
 Started:16March2022
 
-Ended:
+Ended:20March2022
 
 Quadratics and polynomials:
+
+Started:21March2022
+
+Ended:
 
 Equations and geometry:
