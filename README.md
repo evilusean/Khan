@@ -54,12 +54,18 @@ Ended:20March2022
 
 Quadratics and polynomials:
 
+https://www.khanacademy.org/math/algebra-basics/alg-basics-quadratics-and-polynomials
+
 Started:21March2022
 
 Ended:04April2022
 
 Equations and geometry:
 
+https://www.khanacademy.org/math/algebra-basics/alg-basics-equations-and-geometry
+
 Started:05April2022
 
 Ended:
+
+
