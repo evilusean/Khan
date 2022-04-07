@@ -73,8 +73,10 @@ Started:05April2022
 Ended:06 April 2022
 
 #New Course
+
 #Algebra 1
-Course Started: 06 April 2022
+
+Course Start: 06 April 2022
 
 Course End:
 
