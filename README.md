@@ -2,6 +2,8 @@
 
 # Algebra
 
+Course Full Completed:04April2022
+
 https://www.khanacademy.org/math/algebra-basics
 
 Algebra Foundations:
@@ -67,6 +69,18 @@ https://www.khanacademy.org/math/algebra-basics/alg-basics-equations-and-geometr
 Started:05April2022
 
 Ended:06 April 2022
+
+#Algebra 1
+
+https://www.khanacademy.org/math/algebra
+
+Algebra Foundations
+
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra
+
+Start: 06April2022
+
+End:
 
 
 
