@@ -2,7 +2,9 @@
 
 # Algebra
 
-Course Full Completed:04April2022
+Course Start:04 Jan 2022
+
+Course End:04April2022
 
 https://www.khanacademy.org/math/algebra-basics
 
@@ -70,7 +72,11 @@ Started:05April2022
 
 Ended:06 April 2022
 
+#New Course
 #Algebra 1
+Course Started: 06 April 2022
+
+Course End:
 
 https://www.khanacademy.org/math/algebra
 
