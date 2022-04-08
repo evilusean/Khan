@@ -88,6 +88,14 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra
 
 Start: 06April2022
 
+End: 07April2022
+
+Solving Equations and inequalities
+
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities
+
+Start:08April2022
+
 End:
 
 
