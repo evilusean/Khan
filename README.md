@@ -112,5 +112,12 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equat
 
 Start:15April2022
 
-End:
+End: 16April2022
 
+Systems of Equations:
+
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations
+
+Start:17April2022
+
+End:
