@@ -128,4 +128,12 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:inequalities-systems-
 
 Start:05May2022
 
+End:08May2022
+
+Unit: Functions
+
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:functions
+
+Start:09May2022
+
 End:
