@@ -136,4 +136,12 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:functions
 
 Start:09May2022
 
+End:23May2022
+
+Unit: Sequences
+
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:sequences
+
+Start:24May2022
+
 End:
