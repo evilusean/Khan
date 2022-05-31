@@ -152,4 +152,14 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:absolute-value-piecew
 
 Start:29May2022
 
+End:31May2022
+
+Unit: Exponents & radicals
+
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:rational-exponents-radicals
+
+Start:01June2022
+
 End:
+
+
