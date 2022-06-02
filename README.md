@@ -160,6 +160,16 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:rational-exponents-ra
 
 Start:01June2022
 
+End:02June2022
+
+Unit: Exponential growth & decay
+
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:exponential-growth-decay
+
+Start:03June2022
+
 End:
+
+
 
 
