@@ -168,6 +168,14 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:exponential-growth-de
 
 Start:03June2022
 
+End:08June2022
+
+Unit: Quadratics: Multiplying & factoring
+
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring
+
+Start:09June2022
+
 End:
 
 
