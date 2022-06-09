@@ -176,8 +176,15 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplyin
 
 Start:09June2022
 
-End:
+End:10June2022
 
+Unit: Quadratic functions & equations
+
+khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations
+
+Start:11June2022
+
+End:
 
 
 
