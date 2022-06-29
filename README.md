@@ -78,7 +78,7 @@ Ended:06 April 2022
 
 Course Start: 06 April 2022
 
-Course End:
+Course End:22June2022
 
 https://www.khanacademy.org/math/algebra
 
@@ -184,7 +184,7 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-e
 
 Start:11June2022
 
-End:
+End:29June2022
 
 
 
