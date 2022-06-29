@@ -186,5 +186,15 @@ Start:11June2022
 
 End:29June2022
 
+#########################################
 
+New Course:
+
+Pre-Calculus
+
+https://www.khanacademy.org/math/get-ready-for-ap-calc
+
+Start:30June2022
+
+End:
 
