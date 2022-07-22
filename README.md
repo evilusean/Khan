@@ -205,4 +205,12 @@ https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-rea
 
 Start:30June2022
 
+End:22July2022
+
+2Unit: Get ready for differentiation: definition and basic derivative rules
+
+https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-differentiation-1
+
+Start:23July2022
+
 End:
