@@ -213,4 +213,12 @@ https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-rea
 
 Start:23July2022
 
+End:25July2022
+
+3Get ready for differentiation: composite, implicit, and inverse functions
+
+https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-differentiation-2
+
+Start:26July2022
+
 End:
