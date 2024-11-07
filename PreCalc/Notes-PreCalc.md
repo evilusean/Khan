@@ -6,6 +6,9 @@ Since I want to take Electrical Engineering, I need to get my math up, So I can 
 Changed notes to '.md' so I can edit in obsidian, better UI than github, looks prettier.
 
 #### 1:Limits and Continuity-2024-11-07
-###### Evaluating Functions :
-
+###### Evaluating Functions-2024-11-07 :
+https://www.youtube.com/watch?v=kvGsIo1TmsM&t=2s&ab_channel=KhanAcademy
+- Function = Takes an input and returns an output.
+- `f(x)` most used way to describe a function
+- `y = x + 1` This can also be a function
 
