@@ -69,7 +69,7 @@ When we have $(h \circ g)(x)$, it means we're plugging function $g(x)$ into fu
 - $g(x) = x + 4$
 - $h(x) = x^2 - 2x$
 - To find $(h \circ g)(x)$:
-- Take $g(x)$ and wherever you see $x$ in $h(x)$, replace it with $g(x)$
+- *Take $g(x)$ and wherever you see $x$ in $h(x)$, replace it with $g(x)$*
 - So we replace every $x$ in $h(x) = x^2 - 2x$ with $(x + 4)$
 - Let's follow the steps:
 - Start with $h(x) = x^2 - 2x$
@@ -84,18 +84,25 @@ When we have $(h \circ g)(x)$, it means we're plugging function $g(x)$ into fu
 This is how we get the final composed function $(h \circ g)(x) = x^2 + 6x + 8$
 To find $(h \circ g)(-2)$, you would simply plug in $x = -2$ into this final function:
 $(-2)^2 + 6(-2) + 8 = 4 - 12 + 8 = 0$
-
-
-
-
-
-
-
-
-
-
-
-
+- - - 
+$f(x)=3x-5$
+$g(x)=3-2x$
+Evaluate $(g\circ f)(3)$
+3 * 3 = 9 - 5 = 4 
+-2(4) = -8 + 3 = `-5`
+- - -
+$f(t)=t-2$
+$g(t)=t^2+5$
+Find $(g\circ f)(t)$
+Replace all instances of t with `t-2` so ${t}^{2}$ = $(t-2)(t-2)+5$ = t2 -4t + 9
+- - -
+$f(t)=t-2$
+$g(t)=t^2+5$
+Find $(f\circ g)(t)$
+Replace all instances of t with ${t}^{2}+5$ = ${t}^{2}+3$ 
+- *After you know the trick, it's way easier. Replace the first ones `g(t)` with the second ones* `f(t)` 
+###### Evaluating composite functions
+https://www.youtube.com/watch?v=lxtlwnCV-HM&ab_channel=KhanAcademy
 
 
 
