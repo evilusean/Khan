@@ -63,7 +63,27 @@ In general, to indicate function `f` composed with function `g`, we can write�
 $(f\circ g)(x)=f(g(x))$
 - - -
 ![[20241107062744.png]]
-
+I'll break down how to solve this composition of functions step by step.
+When we have $(h \circ g)(x)$, it means we're plugging function $g(x)$ into function $h(x)$. Let's follow the solution:
+- First, we identify our functions:
+- $g(x) = x + 4$
+- $h(x) = x^2 - 2x$
+- To find $(h \circ g)(x)$:
+- Take $g(x)$ and wherever you see $x$ in $h(x)$, replace it with $g(x)$
+- So we replace every $x$ in $h(x) = x^2 - 2x$ with $(x + 4)$
+- Let's follow the steps:
+- Start with $h(x) = x^2 - 2x$
+- Replace $x$ with $(x + 4)$:
+- $(x + 4)^2 - 2(x + 4)$
+- Then expand:
+- $(x + 4)^2$ becomes $x^2 + 8x + 16$ (using FOIL)
+- $-2(x + 4)$ becomes $-2x - 8$
+- Combine all terms:
+- $x^2 + 8x + 16 - 2x - 8$
+- $= x^2 + 6x + 8$ (final answer)
+This is how we get the final composed function $(h \circ g)(x) = x^2 + 6x + 8$
+To find $(h \circ g)(-2)$, you would simply plug in $x = -2$ into this final function:
+$(-2)^2 + 6(-2) + 8 = 4 - 12 + 8 = 0$
 
 
 
