@@ -38,15 +38,21 @@ https://www.youtube.com/watch?v=wUNWjd4bMmw&ab_channel=KhanAcademy
 $f(x) = {x}^{2}-1$
 - composing function = to build up a function by composing one function of others function, *nested functions* = $f(g(2))$ = Take the number 2, put it through the function `g` take that output an d put it through `f`
 - in the video he has a chart where he is getting his $g(t)$ and a graph for $h(2)$ - so can't work out the formula
-
-
-
-
-
-
-
-
-
+###### Intro to composing functions-Text :
+ the amount of corn, `C`, in kilograms (kg), that he expects to produce if he plants corn on `a` acres of land.
+- $C(a) = 7500a - 1500$
+- If he planted 2 acres : $C( 2) = 7500( 2)-1500= {13{,}{500}}$ 
+What Cam really wants to know is how much money he will make from selling this corn. So he uses the following function to predict the amount of money, `M` in dollars, that he will earn from selling `c` kilograms of corn.
+- $M(c) = 0.9c - 50$
+So if Cam produces \[13{,}500\text{ kg}\] of corn, he can expect to make 
+- $M({13{,}500})=0.9({13{,}500})-50=\${12{,}100}$
+Notice that Cam has to use _two_ separate functions to get from acres planted to expected earnings. The first function, `C`, takes acres to corn, while the second function, `M`, takes corn to money.
+So, to find a general rule that converts \[a\] acres directly into expected earnings, we can find the expression 
+- $M(C(a))$
+The function below converts acres planted directly into expected earnings. Let's use this new function to predict the amount of money that Cam would make from planting corn on two acres.
+- $M(C(a))=6750a-1400$
+- $M(C(2))=6750(2)-1400=\$12{,}100$
+**composite function**. = Instead of substituting acres planted into the corn function, and then substituting the amount of corn produced into the money function, we found a function that takes the acres planted directly to the expected earnings.
 
 
 
