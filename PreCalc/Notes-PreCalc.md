@@ -1,6 +1,6 @@
 Start: 07November2024
 
-### Preamble:
+#### Preamble:
 I had no notes on any of my courses, up until now, past sean appears to have just been copying and pasting syllabus'(i?) till now, started 2 years ago, because I thought 'you need math to code' - Nope. 
 Since I want to take Electrical Engineering, I need to get my math up, So I can level up IRL, and escape frozen decadent rent seeking parasite infested overpriced economic zone failed state canada
 Changed notes to '.md' so I can edit in obsidian, better UI than github, looks prettier.
@@ -34,7 +34,10 @@ https://www.youtube.com/watch?v=qSktOkaW6EA&ab_channel=KhanAcademy
 What is the value other than -5 for which $f(x) = f(-5)$ x = 4
 #### 3:Composing functions-2024-11-07
 ###### Intro to composing functions:
-
+https://www.youtube.com/watch?v=wUNWjd4bMmw&ab_channel=KhanAcademy
+$f(x) = {x}^{2}-1$
+- composing function = to build up a function by composing one function of others function, *nested functions* = $f(g(2))$ = Take the number 2, put it through the function `g` take that output an d put it through `f`
+- in the video he has a chart where he is getting his $g(t)$ and a graph for $h(2)$ - so can't work out the formula
 
 
 
