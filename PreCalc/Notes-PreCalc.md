@@ -100,13 +100,13 @@ $f(t)=t-2$
 $g(t)=t^2+5$
 Find $(f\circ g)(t)$
 Replace all instances of t with ${t}^{2}+5$ = ${t}^{2}+3$ 
-- *After you know the trick, it's way easier. Replace the first ones `g(t)` with the second ones* `f(t)` 
-###### Evaluating composite functions
+- *After you know the trick, it's way easier. Replace the first ones `g(t)` with the second ones* `f(t)` - I was wondering why you didn't have to balance each side of the equation at the start, it's replacement instead
+###### Evaluating composite functions :
 https://www.youtube.com/watch?v=lxtlwnCV-HM&ab_channel=KhanAcademy
 $g(x) = {x}^{2} + 5x - 3$
 $h(y) = {3(y-1)}^{2} - 5$
 $(h \circ g)(-6) = ?$ you can rewrite this equation as $h(g(-6))$
-g(-6) = (-6)(-6) + 5(-6) - 3 = 36 -30 -3 = `3` 
+`g(-6)` = (-6)(-6) + 5(-6) - 3 = 36 -30 -3 = `3` 
 `h(3)` =  $3{(3-1)}^{2}-5$ = $3{(2)}^{2} -5$ = 12 - 5 = `7`
 - '$\circ$' \#  the circle isn't just a weird way of saying multiply, it's actually a symbol that stands for *function composition symbol* 
 
