@@ -136,4 +136,5 @@ ${t}^{2} - 5t, t \geq -10$ \# this will have us replace the 't' with -10, so rep
 $f(-10) = {-10}^{2}-5(-10)$ = 100 + 50 = *150*
 - use the correct case for the function, there will be multiple intervals, so h(-3) would use the case with the value for -3, if that's unclear, just watch the video again around 1:45, it's only 5 mins long - don't want to write out all the superfluous stuff
 ${x}^{3}$ = ${-3}^{3}$ = *-27*
-###### 
+###### Evaluate piecewise functions :
+[Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:piecewise-functions/e/evaluating-piecewise-functions)
