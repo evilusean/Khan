@@ -129,4 +129,11 @@ https://www.youtube.com/watch?v=tedzsRH0Jas&ab_channel=KhanAcademy
 *PieceWise Function* = A function that is defined piece by piece for different intervals
 for each interval or section it is defined as '$-9, -9<x\geq -5$' \# this will show that for the x axis -9 to -5, the value will be 9 on the y axis(yes, each one, it is flat), notice the ',' comma seperates the y value from x values, each interval will be multiple numbers on the x axis
 - also note, that an interval is defined on the graph with an open $\circ$ circle to a closed circle
-
+- also note, that all three cases are wrapped in the same '{' large curly brace
+###### Worked example: evaluating piecewise functions
+https://www.youtube.com/watch?v=hg2HR9zJFq4&ab_channel=KhanAcademy
+${t}^{2} - 5t, t \geq -10$ \# this will have us replace the 't' with -10, so replace an 't'
+$f(-10) = {-10}^{2}-5(-10)$ = 100 + 50 = *150*
+- use the correct case for the function, there will be multiple intervals, so h(-3) would use the case with the value for -3, if that's unclear, just watch the video again around 1:45, it's only 5 mins long - don't want to write out all the superfluous stuff
+${x}^{3}$ = ${-3}^{3}$ = *-27*
+###### 
