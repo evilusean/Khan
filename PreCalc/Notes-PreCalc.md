@@ -109,4 +109,7 @@ $(h \circ g)(-6) = ?$ you can rewrite this equation as $h(g(-6))$
 `g(-6)` = (-6)(-6) + 5(-6) - 3 = 36 -30 -3 = `3` 
 `h(3)` =  $3{(3-1)}^{2}-5$ = $3{(2)}^{2} -5$ = 12 - 5 = `7`
 - '$\circ$' \#  the circle isn't just a weird way of saying multiply, it's actually a symbol that stands for *function composition symbol* 
-
+###### Evaluate composite functions-2024-11-09
+$g(x) = \frac{3}{x-2}$
+$h(x) = 9x$
+not writing out each question, each one is a pargraph. 
