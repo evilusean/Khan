@@ -119,3 +119,14 @@ https://www.youtube.com/watch?v=oORnGaJp1pk&ab_channel=KhanAcademy
 Answer = 1 \# take the input of f (-5) and use that for g(-2)
 ###### Evaluate composite functions: graphs & tables
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:untitled-447/e/evaluate-composite-functions-from-graphs-and-tables)
+###### Quiz 1:
+[Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:untitled-447/quiz/xa350bf684c056c5c:get-ready-for-limits-and-continuity-quiz-1)
+Future Sean : anything to the ${x}^{0}$ 0th power is equal to 1. I got one wrong because I assumed 0 = 0, even fractions.
+
+##### Piecewise Functions-2024-11-09 :
+###### Introduction to piecewise functions
+https://www.youtube.com/watch?v=tedzsRH0Jas&ab_channel=KhanAcademy
+*PieceWise Function* = A function that is defined piece by piece for different intervals
+for each interval or section it is defined as '$-9, -9<x\geq -5$' \# this will show that for the x axis -9 to -5, the value will be 9 on the y axis(yes, each one, it is flat), notice the ',' comma seperates the y value from x values, each interval will be multiple numbers on the x axis
+- also note, that an interval is defined on the graph with an open $\circ$ circle to a closed circle
+
