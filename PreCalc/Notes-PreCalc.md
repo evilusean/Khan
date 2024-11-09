@@ -113,3 +113,7 @@ $(h \circ g)(-6) = ?$ you can rewrite this equation as $h(g(-6))$
 $g(x) = \frac{3}{x-2}$
 $h(x) = 9x$
 not writing out each question, each one is a pargraph. 
+
+###### Evaluating composite functions: using graphs
+https://www.youtube.com/watch?v=oORnGaJp1pk&ab_channel=KhanAcademy
+Answer = 1 \# take the input of f (-5) and use that for g(-2)
