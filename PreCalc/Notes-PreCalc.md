@@ -117,3 +117,5 @@ not writing out each question, each one is a pargraph.
 ###### Evaluating composite functions: using graphs
 https://www.youtube.com/watch?v=oORnGaJp1pk&ab_channel=KhanAcademy
 Answer = 1 \# take the input of f (-5) and use that for g(-2)
+###### Evaluate composite functions: graphs & tables
+[Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:untitled-447/e/evaluate-composite-functions-from-graphs-and-tables)
