@@ -5,6 +5,7 @@ I had no notes on any of my courses, up until now, past sean appears to have jus
 Since I want to take Electrical Engineering, I need to get my math up, So I can level up IRL, and escape frozen decadent rent seeking parasite infested overpriced economic zone failed state canada
 Changed notes to '.md' so I can edit in obsidian, better UI than github, looks prettier.
 
+### [Unit 1: Get ready for limits and continuity](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity)
 #### 1:Limits and Continuity-2024-11-07
 ##### Evaluating Functions-2024-11-07 :
 https://www.youtube.com/watch?v=kvGsIo1TmsM&t=2s&ab_channel=KhanAcademy
@@ -123,7 +124,7 @@ Answer = 1 \# take the input of f (-5) and use that for g(-2)
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:untitled-447/quiz/xa350bf684c056c5c:get-ready-for-limits-and-continuity-quiz-1)
 Future Sean : anything to the ${x}^{0}$ 0th power is equal to 1. I got one wrong because I assumed 0 = 0, even fractions.
 
-##### Piecewise Functions-2024-11-09 :
+#### 4:Piecewise Functions-2024-11-09 :
 ###### Introduction to piecewise functions
 https://www.youtube.com/watch?v=tedzsRH0Jas&ab_channel=KhanAcademy
 *PieceWise Function* = A function that is defined piece by piece for different intervals
@@ -149,6 +150,6 @@ you can also do sloped lines, it doesn't have to be a flat interval, use formula
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:piecewise-functions/e/piecewise-graphs-linear)
 ###### Quiz 2:
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:piecewise-functions/quiz/xa350bf684c056c5c:get-ready-for-limits-and-continuity-quiz-2)
-##### [Introduction to factoring](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:introduction-to-factoring/v/factors-and-divisibility-in-algebra "Introduction to factoring")
+#### [5:Introduction to factoring](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:introduction-to-factoring/v/factors-and-divisibility-in-algebra "Introduction to factoring")
 ###### Intro to factors & divisibility
 https://www.youtube.com/watch?v=SjN3_xCJamA
