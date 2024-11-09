@@ -130,7 +130,8 @@ https://www.youtube.com/watch?v=tedzsRH0Jas&ab_channel=KhanAcademy
 for each interval or section it is defined as '$-9, -9<x\geq -5$' \# this will show that for the x axis -9 to -5, the value will be 9 on the y axis(yes, each one, it is flat), notice the ',' comma seperates the y value from x values, each interval will be multiple numbers on the x axis
 - also note, that an interval is defined on the graph with an open $\circ$ circle to a closed circle
 - also note, that all three cases are wrapped in the same '{' large curly brace
-- open circle means that it is < closed circle means $\geq or \leq$
+- open circle means that it is < or >
+- closed circle means $\geq or \leq$
 ###### Worked example: evaluating piecewise functions
 https://www.youtube.com/watch?v=hg2HR9zJFq4&ab_channel=KhanAcademy
 ${t}^{2} - 5t, t \geq -10$ \# this will have us replace the 't' with -10, so replace an 't'
@@ -141,3 +142,7 @@ ${x}^{3}$ = ${-3}^{3}$ = *-27*
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:piecewise-functions/e/evaluating-piecewise-functions)
 ###### Evaluate step functions :
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:piecewise-functions/e/evaluate-step-functions-from-their-graph)
+###### Worked example: graphing piecewise functions
+https://www.youtube.com/watch?v=PQiXRrT_14o&ab_channel=KhanAcademy
+you can also do sloped lines, it doesn't have to be a flat interval, use formulas that include 'x'
+
