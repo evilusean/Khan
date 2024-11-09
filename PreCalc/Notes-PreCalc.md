@@ -147,3 +147,5 @@ https://www.youtube.com/watch?v=PQiXRrT_14o&ab_channel=KhanAcademy
 you can also do sloped lines, it doesn't have to be a flat interval, use formulas that include 'x'
 ###### Piecewise functions graphs
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:piecewise-functions/e/piecewise-graphs-linear)
+###### Quiz 2:
+[Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:piecewise-functions/quiz/xa350bf684c056c5c:get-ready-for-limits-and-continuity-quiz-2)
