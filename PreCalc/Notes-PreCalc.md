@@ -149,3 +149,6 @@ you can also do sloped lines, it doesn't have to be a flat interval, use formula
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:piecewise-functions/e/piecewise-graphs-linear)
 ###### Quiz 2:
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:piecewise-functions/quiz/xa350bf684c056c5c:get-ready-for-limits-and-continuity-quiz-2)
+##### [Introduction to factoring](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:introduction-to-factoring/v/factors-and-divisibility-in-algebra "Introduction to factoring")
+###### Intro to factors & divisibility
+https://www.youtube.com/watch?v=SjN3_xCJamA
