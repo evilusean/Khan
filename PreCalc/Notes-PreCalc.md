@@ -153,3 +153,7 @@ you can also do sloped lines, it doesn't have to be a flat interval, use formula
 #### [5:Introduction to factoring](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:introduction-to-factoring/v/factors-and-divisibility-in-algebra "Introduction to factoring")
 ###### Intro to factors & divisibility
 https://www.youtube.com/watch?v=SjN3_xCJamA
+*Factor* = 
+What are the factors of 12(what can multiply to get 12) = 1, 2, 3, 4, 6, 12
+	`1 * 12 = 12` or `2 * 6 = 12` or `3 * 4 = 12` 
+Is it divisible by a `#` ?
