@@ -154,10 +154,12 @@ you can also do sloped lines, it doesn't have to be a flat interval, use formula
 ###### Intro to factors & divisibility
 https://www.youtube.com/watch?v=SjN3_xCJamA
 *Factor* = A _factor_ of a number is a number that divides the given number evenly or exactly, leaving no remainder
-What are the factors of 12(what can multiply to get 12) = 1, 2, 3, 4, 6, 12
+What are the factors of *12*(what can multiply to get 12) = 1, 2, 3, 4, 6, 12
 	`1 * 12 = 12` or `2 * 6 = 12` or `3 * 4 = 12` 
 Is it divisible by a `#` ?
 $(x+3)(x+7) = {x}^{2} + 10x + 21$ 
 since we multiplied (FOIL) to get :
 ${x}^{2} + 10x + 21$ is a divisible by $(x+3) or  (x+7)$ 
 $(x+3) or  (x+7)$ is a factor of ${x}^{2} + 10x + 21$
+###### Intro to factors & divisibility-Text:
+[Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:introduction-to-factoring/a/intro-to-polynomial-factors-and-divisibility)
