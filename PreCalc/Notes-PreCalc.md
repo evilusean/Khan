@@ -161,7 +161,7 @@ $(x+3)(x+7) = {x}^{2} + 10x + 21$
 since we multiplied (FOIL) to get :
 ${x}^{2} + 10x + 21$ is a divisible by $(x+3) or  (x+7)$ 
 $(x+3) or  (x+7)$ is a factor of ${x}^{2} + 10x + 21$
-###### Intro to factors & divisibility-Text:
+###### Intro to factors & divisibility-Text-2024-11-13:
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:introduction-to-factoring/a/intro-to-polynomial-factors-and-divisibility)
 A **monomial** is an expression that is the product of constants and nonnegative integer powers of `x`, like $3x^2$. 
 A **polynomial** is an expression that consists of a sum of monomials, like $3x^2+6x-1$
@@ -180,3 +180,7 @@ A **polynomial** is an expression that consists of a sum of monomials, like $
 - *Why are we interested in factoring polynomials?*
 - Just as factoring integers turned out to be very useful for a variety of applications, so is polynomial factorization!
 - Specifically, polynomial factorization is very useful in solving quadratic equations and simplifying rational expressions.
+###### Factoring with the distributive property-2024-11-13:
+https://www.youtube.com/watch?v=mbb3msmX2xs&ab_channel=KhanAcademy
+$4x +18$ rewrite as a product of 2 expressions (refactor it) = $2(2x) + 2(9) = 2(2x+9)$
+$12 + 32y= 4(3) + 4(8y) = 4(3 + 8y)$
