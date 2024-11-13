@@ -163,3 +163,6 @@ ${x}^{2} + 10x + 21$ is a divisible by $(x+3) or  (x+7)$
 $(x+3) or  (x+7)$ is a factor of ${x}^{2} + 10x + 21$
 ###### Intro to factors & divisibility-Text:
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:introduction-to-factoring/a/intro-to-polynomial-factors-and-divisibility)
+A **monomial** is an expression that is the product of constants and nonnegative integer powers of `x`, like $3x^2$. 
+A **polynomial** is an expression that consists of a sum of monomials, like $3x^2+6x-1$
+
