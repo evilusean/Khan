@@ -176,3 +176,7 @@ A **polynomial** is an expression that consists of a sum of monomials, like $
 - In general, if $p=q*r$ for polynomials `p`, `q`, and `r`, then we know the following:
 - \[q\] and \[r\] are factors of \[p\].
 - \[p\] is divisible by \[q\] and \[r\].
+- If something is divisible by something else then that something else is a factor
+- *Why are we interested in factoring polynomials?*
+- Just as factoring integers turned out to be very useful for a variety of applications, so is polynomial factorization!
+- Specifically, polynomial factorization is very useful in solving quadratic equations and simplifying rational expressions.
