@@ -165,4 +165,14 @@ $(x+3) or  (x+7)$ is a factor of ${x}^{2} + 10x + 21$
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:introduction-to-factoring/a/intro-to-polynomial-factors-and-divisibility)
 A **monomial** is an expression that is the product of constants and nonnegative integer powers of `x`, like $3x^2$. 
 A **polynomial** is an expression that consists of a sum of monomials, like $3x^2+6x-1$
-
+- In this lesson, we will explore the relationship between factors and divisibility in polynomials and also learn how to determine if one polynomial is a factor of another.
+- In general, two integers that multiply to obtain a number are considered **factors** of that number.
+- For example, since $14=2* 7$, we know that \[2\] and \[7\] are **factors** of 14.
+- When two or more polynomials are multiplied, we call each of these polynomials **factors** of the product.
+-  $2x(x+3)=2x^2+6x$. This means that `2x` and `(x+3)` are factors of $2x^2+6x$.
+- Also, one polynomial is **divisible** by another polynomial if the quotient is also a polynomial.
+- *Quotient* = A result obtained by dividing one quantity by another
+-  $\frac{6x^2}{3x}=2x$  then $6x^2$ is divisible by `3x` and `2x`.
+- In general, if $p=q*r$ for polynomials `p`, `q`, and `r`, then we know the following:
+- \[q\] and \[r\] are factors of \[p\].
+- \[p\] is divisible by \[q\] and \[r\].
