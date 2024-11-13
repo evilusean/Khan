@@ -184,3 +184,5 @@ A **polynomial** is an expression that consists of a sum of monomials, like $
 https://www.youtube.com/watch?v=mbb3msmX2xs&ab_channel=KhanAcademy
 $4x +18$ rewrite as a product of 2 expressions (refactor it) = $2(2x) + 2(9) = 2(2x+9)$
 $12 + 32y= 4(3) + 4(8y) = 4(3 + 8y)$
+###### GCF factoring introduction-Quiz-2024-11-13:
+[Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:introduction-to-factoring/e/gcf-factoring-introduction)
