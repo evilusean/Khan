@@ -208,3 +208,8 @@ $(x+2)(x+4) = x^{2}+6x+8$
  - In general, the sum-product method is only applicable when we can actually write a trinomial as $(x+m)(x+n)$ for some integers `m` and `n`.
 - This means that the leading term of the trinomial must be $x^2$ (and not, for instance, $2x^2$) in order to even consider this method. This is because the product of `(x+m)` and `(x+n)` will always be a polynomial with a leading term of $x^2$.
 - not all trinomials with $x^2$ as a leading term can be factored. For example, $x^2+2x+2$ cannot be factored because there are no two integers whose sum is 2 and whose product is 2.
+$x^{2}+5xy+6y^{2}$ = $(x+2y)(x+3y)$ = Uses the same process just with `y` though
+ $x^4-5x^2+6$ = $(x^{2})^{2}-5x^{2}+6$ = $(x^{2}-2)(x^{2}-3)$
+ 
+ 
+
