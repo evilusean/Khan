@@ -187,6 +187,7 @@ $12 + 32y= 4(3) + 4(8y) = 4(3 + 8y)$
 ###### GCF factoring introduction-Quiz-2024-11-13:
 [Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:introduction-to-factoring/e/gcf-factoring-introduction)
 #### [6:Factoring quadratics intro](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:factoring-quadratics-intro/v/factoring-simple-quadratic-expression "Factoring quadratics intro")
+###### Factoring quadratics as (x+a)(x+b)-2024-11-13:
 https://www.youtube.com/watch?v=D3a8NnpQ2vU&ab_channel=KhanAcademy
 $x^{2}-3x-10$ Factor this as the product of 2 binomials $(x+a)(x+b)$
 $x^{2}+ax+bx+ab$ using FOIL this is what you should get
