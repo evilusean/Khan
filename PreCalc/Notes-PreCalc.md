@@ -193,3 +193,4 @@ $x^{2}-3x-10$ Factor this as the product of 2 binomials $(x+a)(x+b)$
 $x^{2}+ax+bx+ab$ using FOIL this is what you should get
 `ax + bx` needs to equal `-3x` and multiply to `-10`
 Answer : $(x + 2)(x - 5)$
+###### Factoring quadratics: leading coefficient = 1
