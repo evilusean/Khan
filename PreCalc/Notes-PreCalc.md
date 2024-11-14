@@ -210,6 +210,5 @@ $(x+2)(x+4) = x^{2}+6x+8$
 - not all trinomials with $x^2$ as a leading term can be factored. For example, $x^2+2x+2$ cannot be factored because there are no two integers whose sum is 2 and whose product is 2.
 $x^{2}+5xy+6y^{2}$ = $(x+2y)(x+3y)$ = Uses the same process just with `y` though
  $x^4-5x^2+6$ = $(x^{2})^{2}-5x^{2}+6$ = $(x^{2}-2)(x^{2}-3)$
- 
- 
+###### Factoring quadratics as (x+a)(x+b) (example 2) 
 
