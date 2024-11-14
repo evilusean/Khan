@@ -194,3 +194,4 @@ $x^{2}+ax+bx+ab$ using FOIL this is what you should get
 `ax + bx` needs to equal `-3x` and multiply to `-10`
 Answer : $(x + 2)(x - 5)$
 ###### Factoring quadratics: leading coefficient = 1
+[Link](https://www.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c:get-ready-for-limits-and-continuity/xa350bf684c056c5c:factoring-quadratics-intro/a/factoring-quadratics-leading-coefficient-1)
