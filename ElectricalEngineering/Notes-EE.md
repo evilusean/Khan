@@ -11,3 +11,10 @@ I figure I'll start both math, pre-calculus for review, and Electrical Engineeri
 - one place we get 'charges' is from copper wire `Cu 29` = 29 protons and electrons(neutral, same amount), that last orbital on copper has just one electron, which is the easiest to pull away and have it participate in conduction 
 - current = `q/sec` (charge per second)
 - Shockingly(heh), water does not conduct, $H^2O$ has no free electrons, you need to add some NaCl(salt) to allow it to conduct - this goes against conventional wisdom "don't be in the water when there is lightning" - `Na`(sodiums) wil go towards the `+` positive charge and the `Cl`(chlorine) will go towards the `-` charge
+### Current Direction-2024-11-25
+[Video Link](https://youtu.be/4frpZ4Q0q58)
+- +Current = $q^-$ = Movement of charge the electrons move towards the  $q^-$ 
+- $q/sec$ = amount of current flowing at any given time
+- _1747_ - `Ben Franklin` said that the charges of an electron move _1747_ - he assigned the `+` and `-` to the electron charge, before people knew there was an electron charge 
+- _1897_ - `JJ Thompson` discovered the electron charge $e^-$ 150 years after Ben Franklin
+- 
