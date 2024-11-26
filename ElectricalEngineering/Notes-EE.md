@@ -18,9 +18,11 @@ I figure I'll start both math, pre-calculus for review, and Electrical Engineeri
 - _1747_ - `Ben Franklin` said that the charges of an electron move _1747_ - he assigned the `+` and `-` to the electron charge, before people knew there was an electron charge 
 - _1897_ - `JJ Thompson` discovered the electron charge $e^-$ 150 years after Ben Franklin
 - So, because of this the `-` negative symbol is actually inverted from the `+` symbol, the `-` negative symbol actually pushes out and the `+` symbol actually receives electrons - counterintuitive
+- Just out of curiosity, has anyone actually seen an electron? Even with a so called 'Electron Microscope' - or is it just one of those 'trust me, bro' things that we just regurgitate to each other for decades - we can define the behaviour (+/- charges of each element +attractSean), but not what it is. - just looked it up, it is one of those 'trust me, bro' things, Lol, Lmao. We don't even know what we don't know. 
 ### Voltage-2024-11-25
 [Video Link](https://youtu.be/k9SwNST1eW0)
 [Voltage Wiki](https://en.wikipedia.org/wiki/Voltage)
 - Voltage $\Delta V$= current flow rate = Latin Volt 'Roll' 'Turn' 'Round' = amount of charge per second
 - Voltage = Potential Energy 
-- Gravity and Voltage are similar ideas - Potential Energy from an object at the top of a mountain is converted to kinetic energy through gravity, along the way down the kinetic energy bumps into trees - Instead of a mountain, you have a bettery, which delivers electrons to the top of the mountain(`-`battery), if you release it, the electrons return to the bottom of the mountain`+`, along the way down the mountain, you can put in different circuit components(resistors/capacitors/etc) - the amount of voltage is proportional to the height of the mountain, a high voltage, is a high mountain
+- Gravity and Voltage are similar ideas - Potential Energy from an object at the top of a mountain is converted to kinetic energy through gravity, along the way down the kinetic energy bumps into trees - Instead of a mountain, you have a battery, which delivers electrons to the top of the mountain(`-`battery), if you release it, the electrons return to the bottom of the mountain`+`, along the way down the mountain, you can put in different circuit components(resistors/capacitors/etc) - the amount of voltage is proportional to the height of the mountain, a high voltage, is a high mountain
+### Conventional current direction-2024-11-26
