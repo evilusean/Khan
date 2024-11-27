@@ -98,4 +98,24 @@ Electrostatics: The electrostatics section has the most advanced topics we cover
 #### Chemistry
 
 - High school chemistry: [elements, atoms](https://www.khanacademy.org/v/elements-and-atoms), the [electron and nucleus](https://www.khanacademy.org/a/discovery-of-the-electron-and-nucleus), [mole](https://www.khanacademy.org/v/the-mole-and-avogadro-s-number)
-### Basic electrical quantities: current, voltage, power-2024-11-26
+### Basic electrical quantities: current, voltage, power-2024-11-27
+[Lesson Link](https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/a/ee-voltage-and-current)
+- Voltage and current are the cornerstone concepts in electricity. 
+- **Power** = which is what happens when voltage and current act together.
+- **Charge** = We observe a force between objects, that, like gravity, acts at a distance. The source of this force has been given the name **charge**. A very noticeable thing about electric force is that it is large, far greater than the force of gravity. Unlike gravity, however, there are two types of electric charge. Opposite types of charge attract, and like types of charge repel. Gravity has only one type: it only attracts, never repels.
+- **Conductors** = are made of atoms whose outer, or valence, electrons have relatively weak bonds to their nuclei, When a bunch of metal atoms are together, they gladly share their outer electrons with each other, creating a "swarm" of electrons not associated with a particular nucleus. A very small electric force can make the electron swarm move. Copper, gold, silver, and aluminum are good conductors. So is saltwater.
+- **Insulators** = are materials whose outer electrons are tightly bound to their nuclei. Modest electric forces are not able to pull these electrons free. When an electric force is applied, the electron clouds around the atom stretch and deform in response to the force, but the electrons do not depart. Glass, plastic, stone, and air are insulators. Even for insulators, though, electric force can always be turned up high enough to rip electrons away—this is called breakdown. That's what is happening to air molecules when you see a spark.
+- **Semiconductor** = materials fall between insulators and conductors. They usually act like insulators, but we can make them act like conductors under certain circumstances. The most well-known semiconductor material is Silicon (atomic number \[14\]). Our ability to finely control the insulating and conducting properties of silicon allows us to create modern marvels like computers and mobile phones.
+- **Current** is the flow of charge. Current is reported as the number of charges per unit time passing through a boundary. Visualize placing a boundary all the way through a wire. Station yourself near the boundary and count the number of charges passing by. Report how much charge passed through the boundary in one second. We assign a _positive_ sign to current corresponding to the direction a _positive_ charge would be moving.
+- Since current is the amount of charge passing through a boundary in a fixed amount of time, it can be expressed mathematically using the following equation:
+	$$i = \frac{dq}{dt}$$
+- The \[d\] in $\frac{dq}{dt}$ is notation from calculus, it means _differential_.  You can think of \[d\] as meaning "a tiny change in ..."
+- For example, the expression \[dt\] means _a tiny change in time_. When you see \[d\] in a ratio, like $\frac{dq}{dt}$, it means, "a tiny change in \[q\] (charge) for each tiny change in \[t\] (time)." An expression like $\frac{dq}{dt}$ is called a [derivative](https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/a/w/v/calculus-derivatives-1-new-hd-version), and it is what you study in [Differential Calculus](https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/a/w/differential-calculus).
+- *Voltage*  =  For a charged particle \[q\], a voltage \[V\] corresponds to a change in potential energy, $\Delta U = qV$ $$V = \dfrac{\Delta U}{q}$$
+- *Power* = is defined as the rate energy (\[\U\]) is transformed or transferred over time. We measure power in units of joules/second, also known as _watts_.
+	$1{watt} = 1{joule}/{second}$
+$${power} = \frac{dU}{dt}$$
+- An electric circuit is capable of transferring power. Current is the rate of flow of charge, and voltage measures the energy transferred per unit of charge. We can insert these definitions into the equation for power:
+$${power} = \frac{dU}{dt} = \frac{dU}{dq} \cdot \frac{dq}{dt} = v i$$
+- Electrical power is the product of voltage times current. in units of watts.
+### 
