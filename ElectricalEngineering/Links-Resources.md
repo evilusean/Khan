@@ -2,6 +2,9 @@ WaveLength Division Multiplexing(how fibreoptics send so much data in underseas 
 https://en.wikipedia.org/wiki/Wavelength-division_multiplexing
 Ionization (gain an electrical charge-radiation):
 https://en.wikipedia.org/wiki/Ionization
+Ionosphere=Aurora :
+https://en.wikipedia.org/wiki/Ionosphere
+https://en.wikipedia.org/wiki/Aurora
 
 ElectricSean :
 Electrical Wiring Basics :
