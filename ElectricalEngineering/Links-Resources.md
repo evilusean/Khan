@@ -7,6 +7,9 @@ https://en.wikipedia.org/wiki/Ionization
 Ionosphere=Aurora :
 https://en.wikipedia.org/wiki/Ionosphere
 https://en.wikipedia.org/wiki/Aurora
+James Clerk Maxwell(Maxwells Equations-ElectroMagnetism) :
+https://en.wikipedia.org/wiki/James_Clerk_Maxwell
+https://en.wikipedia.org/wiki/Maxwell%27s_equations
 
 ElectricSean :
 Electrical Wiring Basics :
