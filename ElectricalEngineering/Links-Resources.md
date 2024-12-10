@@ -10,6 +10,8 @@ https://en.wikipedia.org/wiki/Aurora
 James Clerk Maxwell(Maxwells Equations-ElectroMagnetism) :
 https://en.wikipedia.org/wiki/James_Clerk_Maxwell
 https://en.wikipedia.org/wiki/Maxwell%27s_equations
+Oliver Heaviside :
+https://en.wikipedia.org/wiki/Oliver_Heaviside
 
 ElectricSean :
 Electrical Wiring Basics :
