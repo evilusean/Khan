@@ -18,3 +18,5 @@ Electrical Wiring Basics :
 https://www.youtube.com/watch?v=syaGf_XUMxA&ab_channel=BrettleyBuilt
 Avoid Disaster! 8 FATAL Outlet Mistakes Most DIYers Unknowingly Make! (Step 1 = PreventSean) - Don't mess with capactitators/microwaves:
 https://www.youtube.com/watch?v=Tu8RBQ0ChaI&ab_channel=HowToHome
+Capacitors Explained - The basics how capacitors work working principle :
+https://www.youtube.com/watch?v=X4EUwTwZ110&ab_channel=TheEngineeringMindset
