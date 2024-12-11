@@ -10,6 +10,7 @@ https://en.wikipedia.org/wiki/Aurora
 James Clerk Maxwell(Maxwells Equations-ElectroMagnetism) :
 https://en.wikipedia.org/wiki/James_Clerk_Maxwell
 https://en.wikipedia.org/wiki/Maxwell%27s_equations
+https://archive.org/details/ATreatiseOnElectricityMagnetism/A%20Treatise%20on%20Electricity%20%26%20Magnetism%203/
 Oliver Heaviside :
 https://en.wikipedia.org/wiki/Oliver_Heaviside
 
