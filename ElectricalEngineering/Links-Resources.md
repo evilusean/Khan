@@ -13,6 +13,8 @@ https://en.wikipedia.org/wiki/Maxwell%27s_equations
 https://archive.org/details/ATreatiseOnElectricityMagnetism/A%20Treatise%20on%20Electricity%20%26%20Magnetism%203/
 Oliver Heaviside :
 https://en.wikipedia.org/wiki/Oliver_Heaviside
+Studebaker(electric vehicles since the 1800's, '"tesla"' doesn't use any of Tesla's tech ) :
+https://en.wikipedia.org/wiki/Studebaker
 
 ElectricSean :
 Electrical Wiring Basics :
