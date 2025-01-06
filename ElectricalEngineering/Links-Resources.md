@@ -23,3 +23,4 @@ Avoid Disaster! 8 FATAL Outlet Mistakes Most DIYers Unknowingly Make! (Step 1 = 
 https://www.youtube.com/watch?v=Tu8RBQ0ChaI&ab_channel=HowToHome
 Capacitors Explained - The basics how capacitors work working principle :
 https://www.youtube.com/watch?v=X4EUwTwZ110&ab_channel=TheEngineeringMindset
+5 Formulas Every Electrician should know : https://www.youtube.com/watch?v=-oHzc_DbaGw&ab_channel=ElectricianU
