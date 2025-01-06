@@ -119,3 +119,4 @@ $${power} = \frac{dU}{dt}$$
 $${power} = \frac{dU}{dt} = \frac{dU}{dq} \cdot \frac{dq}{dt} = v i$$
 - Electrical power is the product of voltage times current. in units of watts.
 ### Numbers in electrical engineering-2024-11-27
+[Links](https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/a/ee-numbers-in-electrical-engineering)
