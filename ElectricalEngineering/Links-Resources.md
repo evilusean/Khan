@@ -15,6 +15,8 @@ Oliver Heaviside :
 https://en.wikipedia.org/wiki/Oliver_Heaviside
 Studebaker(electric vehicles since the 1800's, '"tesla"' doesn't use any of Tesla's tech ) :
 https://en.wikipedia.org/wiki/Studebaker
+Feynman on Magnets(How do they work? -> proceeds to ramble for 8 minutes):
+https://www.youtube.com/watch?v=MO0r930Sn_8
 
 ElectricSean :
 Electrical Wiring Basics :
