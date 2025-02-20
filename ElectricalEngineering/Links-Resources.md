@@ -17,6 +17,8 @@ Studebaker(electric vehicles since the 1800's, '"tesla"' doesn't use any of Tesl
 https://en.wikipedia.org/wiki/Studebaker
 Feynman on Magnets(How do they work? -> proceeds to ramble for 8 minutes):
 https://www.youtube.com/watch?v=MO0r930Sn_8
+Snow (cold=absence of heat=faster atom movement=ConvectionVsRadiationVsConduction)
+https://www.youtube.com/watch?v=E_GVQDQjbUw
 
 ElectricSean :
 Electrical Wiring Basics :
