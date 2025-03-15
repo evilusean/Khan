@@ -19,6 +19,8 @@ Feynman on Magnets(How do they work? -> proceeds to ramble for 8 minutes):
 https://www.youtube.com/watch?v=MO0r930Sn_8
 Snow (cold=absence of heat=faster atom movement=ConvectionVsRadiationVsConduction)
 https://www.youtube.com/watch?v=E_GVQDQjbUw
+AnimaSean Vs Physics :
+https://www.youtube.com/watch?v=ErMSHiQRnc8
 
 ElectricSean :
 Electrical Wiring Basics :
