@@ -31,3 +31,4 @@ Capacitors Explained - The basics how capacitors work working principle :
 https://www.youtube.com/watch?v=X4EUwTwZ110&ab_channel=TheEngineeringMindset
 5 Formulas Every Electrician should know : https://www.youtube.com/watch?v=-oHzc_DbaGw&ab_channel=ElectricianU
 Antennas (just bending the same wire different ways changes the gain/frequency/Hz) : https://en.wikipedia.org/wiki/Antenna_types https://en.wikipedia.org/wiki/Gain_(antenna)
+500Watt Micro Hydro Power - Escape the conformie normie herd hordes vaxmaxx taxmaxxers - Off Grid Power SolUSeans : https://www.youtube.com/watch?v=C648GL7ABmM
