@@ -21,6 +21,9 @@ Snow (cold=absence of heat=faster atom movement=ConvectionVsRadiationVsConductio
 https://www.youtube.com/watch?v=E_GVQDQjbUw
 AnimaSean Vs Physics :
 https://www.youtube.com/watch?v=ErMSHiQRnc8
+Induction Heaters :
+https://www.youtube.com/watch?v=8i2OVqWo9s0
+https://en.wikipedia.org/wiki/Induction_cooking
 
 ElectricSean :
 Electrical Wiring Basics :
