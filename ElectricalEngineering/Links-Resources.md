@@ -26,6 +26,9 @@ https://www.youtube.com/watch?v=8i2OVqWo9s0
 https://en.wikipedia.org/wiki/Induction_cooking
 https://en.wikipedia.org/wiki/Eddy_current
 https://en.wikipedia.org/wiki/Electromagnetic_induction
+MagLev Trains :
+https://en.wikipedia.org/wiki/Maglev
+https://resident.com/vehicles-and-transportation/2025/05/09/chinas-maglev-marvel-leaving-america-in-the-dust-at-620-mph
 
 ElectricSean :
 Electrical Wiring Basics :
