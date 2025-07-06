@@ -43,3 +43,5 @@ Antennas (just bending the same wire different ways changes the gain/frequency/H
 
 FCC - General Chemistry – Full University Course (34 hours - 2025) :
 https://www.youtube.com/watch?v=6OV3tmt9uhs&ab_channel=freeCodeCamp.org
+Euclids Elements - Coloured Instead of Lettered : 
+https://archive.org/details/firstsixbooksofe00byrn
