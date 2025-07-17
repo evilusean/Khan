@@ -48,3 +48,4 @@ https://archive.org/details/firstsixbooksofe00byrn
 LaRouche(RIP) Vs Euclid : Pedagogicals : 
 https://web.archive.org/web/20080113132327/http://wlym.com/tiki/tiki-index.php?page=Pedagogicals
 https://larouchepub.com/lar/2023/5040-your_mission_is_to_learn_to_th-lar.html
+SED - Pully (Mechanical Advantage - Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes) :  https://www.youtube.com/watch?v=M2w3NZzPwOM
