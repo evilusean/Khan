@@ -29,6 +29,8 @@ https://en.wikipedia.org/wiki/Electromagnetic_induction
 MagLev Trains :
 https://en.wikipedia.org/wiki/Maglev
 https://resident.com/vehicles-and-transportation/2025/05/09/chinas-maglev-marvel-leaving-america-in-the-dust-at-620-mph
+James Clerk Maxwell -> Oliver Heaviside -> Max Planck -> Michael Faraday -> André-Marie Ampère -> Nikola Tesla
+The Force That Physics Erased: Ampère’s Forgotten Law : https://www.youtube.com/watch?v=YHykWjtVdNM
 
 ElectricSean :
 Electrical Wiring Basics :
