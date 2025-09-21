@@ -42,6 +42,8 @@ https://www.youtube.com/watch?v=X4EUwTwZ110&ab_channel=TheEngineeringMindset
 5 Formulas Every Electrician should know : https://www.youtube.com/watch?v=-oHzc_DbaGw&ab_channel=ElectricianU
 Antennas (just bending the same wire different ways changes the gain/frequency/Hz) : https://en.wikipedia.org/wiki/Antenna_types https://en.wikipedia.org/wiki/Gain_(antenna)
 500Watt Micro Hydro Power - Escape the conformie normie herd hordes vaxmaxx taxmaxxers - Off Grid Power SolUSeans : https://www.youtube.com/watch?v=C648GL7ABmM
+PVC Conduit Electrical Cable Color Codes : https://www.ledestube.com/what-are-the-color-codes-for-pvc-conduit/
+PVC Conduit (Schedule 40 Vs 80 + Others) For Electrical Use : https://championfiberglass.com/8-types-of-electrical-conduit-and-their-uses/ https://www.ledestube.com/pvc-electrical-conduit-and-building-codes-understanding-the-requirements-for-electrical-installations/
 
 FCC - General Chemistry – Full University Course (34 hours - 2025) :
 https://www.youtube.com/watch?v=6OV3tmt9uhs&ab_channel=freeCodeCamp.org
@@ -51,4 +53,4 @@ LaRouche(RIP) Vs Euclid : Pedagogicals :
 https://web.archive.org/web/20080113132327/http://wlym.com/tiki/tiki-index.php?page=Pedagogicals
 https://larouchepub.com/lar/2023/5040-your_mission_is_to_learn_to_th-lar.html
 SED - Pully (Mechanical Advantage - Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes) :  https://www.youtube.com/watch?v=M2w3NZzPwOM
-1700  Free University Courses (but no degREEEEE piece of paper) : https://www.openculture.com/freeonlinecourses
+1700  Free University Courses (but no degREEEEE piece of paper) : https://www.openculture.com/freeonlinecourses 
