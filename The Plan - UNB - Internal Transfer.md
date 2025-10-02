@@ -28,6 +28,8 @@ Reduced Risk: If you find the material too difficult, you haven't wasted four ye
   which still satisfies the degree requirement for both the JET Programme and corporate jobs in Japan.
 Saves Time: You are completing the necessary courses while earning degree credits, making it the most efficient way to catch up.
 
+--- 
+
 ## The Essential Study List for Internal Transfer
 
 You need to prioritize the core **Math and Physics** topics, as these are the courses that will determine your first-year GPA and, therefore, your transfer eligibility.
@@ -84,3 +86,49 @@ While Math and Physics are the most important for your GPA, studying these will 
 Your goal isn't just to pass; it's to earn an **A- average or better** in these courses to secure the internal transfer, which means rigorous, consistent practice.
 
 You can check out this video for more context on the math involved in engineering. [All The Math You Need For Engineering: The Ultimate Guide](https://www.youtube.com/watch?v=2scszCY2oUo). The video breaks down all the high-level math you'll need to master to succeed in an engineering degree.
+
+---
+## Khan Academy Study Sequence :
+You should start with **Pre-calculus** and work your way up to the advanced math topics, integrating the physics courses as you go.
+
+### Phase 1: Foundation (Approx. 2 Months)
+
+The goal here is to quickly eliminate any weaknesses in your algebraic, geometric, and trigonometric skills. This is the material your university professor will assume you already know.
+
+1. **Algebra 1 & Algebra 2:** Review these rapidly. Look for gaps in topics like quadratic equations, factoring, rational expressions, and complex numbers.
+    
+2. **Trigonometry:** This is vital for Physics. Master the **unit circle**, trigonometric identities, and solving triangles (sine/cosine law).
+    
+3. **Pre-calculus:** This course bridges the gap between high school algebra and university calculus. Focus heavily on **functions** (domain/range, inverses, compositions) and **exponential/logarithmic functions**.
+    
+
+### Phase 2: Core Engineering Math (Approx. 2.5 Months)
+
+These are the most important courses that directly correspond to your first-year university GPA.
+
+4. **Calculus 1 (Differential Calculus):** Master the concept of **limits**, all **differentiation rules** (power, product, quotient, chain), and applications like optimization and related rates.
+    
+5. **Calculus 2 (Integral Calculus):** Focus on the **Fundamental Theorem of Calculus**, **integration techniques** (substitution, parts), and applications such as finding areas and volumes.
+    
+6. **Physics (High School Level):** Do a quick review of the mechanics section (forces, motion, energy) before tackling the calculus-based physics.
+    
+
+### Phase 3: Advanced Math and Physics Integration (Approx. 1.5 Months)
+
+These subjects are typically covered in the second semester of first year or the start of second year. A head start here will make the end of your first year much less stressful.
+
+7. **Linear Algebra:** This course is crucial for all engineering and coding. Focus on **Vectors**, **Matrices** (operations, determinants, inverses), and solving systems of linear equations.
+    
+8. **Physics (College/AP Level):** Switch to the calculus-based physics material. You need to apply your Calculus 1 skills to:
+    
+    - **Classical Mechanics:** Applying derivatives and integrals to concepts like velocity, acceleration, work, and potential energy.
+        
+    - **Electricity and Magnetism:** Reviewing charge, electric fields, circuits (Ohm's Law, Kirchhoff's Laws), and magnetic forces.
+
+#### How to Study Effectively
+
+- **Practice is Key:** For Engineering, knowing the material is not enough—you must be able to solve problems quickly and accurately under pressure. Do _all_ the practice exercises on Khan Academy.
+    
+- **Targeted Review:** When starting a new topic, always review the **Prerequisite Skills** section first. If you struggle with a specific problem type, stop and go back to the relevant lower-level course (e.g., if you fail at a rational expression in Pre-calculus, go back to Algebra 2).
+    
+- **Focus on the "Why":** Since you have a coding background, try to understand the mathematical concepts intuitively (e.g., a derivative is a **rate of change**; an integral is an **accumulation**). This will help you apply the math to physics and engineering problems.
