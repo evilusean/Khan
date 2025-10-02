@@ -28,3 +28,59 @@ Reduced Risk: If you find the material too difficult, you haven't wasted four ye
   which still satisfies the degree requirement for both the JET Programme and corporate jobs in Japan.
 Saves Time: You are completing the necessary courses while earning degree credits, making it the most efficient way to catch up.
 
+## The Essential Study List for Internal Transfer
+
+You need to prioritize the core **Math and Physics** topics, as these are the courses that will determine your first-year GPA and, therefore, your transfer eligibility.
+
+### 1. Mathematics (The Most Critical)
+
+The Math sequence is the single biggest predictor of success in Engineering. Focus on mastering these concepts:
+
+|Course|Core Topics to Master|Importance|
+|---|---|---|
+|**Calculus I (Differential Calculus)**|**Limits** and Continuity. **Derivatives** (rules, chain rule, implicit differentiation). Applications of the derivative (related rates, optimization, graphing).|**Highest.** Essential for all of Physics.|
+|**Linear Algebra**|**Vectors** (2D/3D, dot and cross products). **Matrices** (operations, inverses, determinants). Solving systems of linear equations.|**High.** Key for digital systems and circuits.|
+|**Calculus II (Integral Calculus)**|**Integrals** (basic, substitution). Applications of the integral (area, volume, work). Fundamental Theorem of Calculus.|**High.** Essential for electrical circuits and advanced physics.|
+|**Pre-Calculus/Trigonometry**|Review of trigonometric identities, logs, exponentials, and complex algebra.|**Foundation.** Must be quick and accurate.|
+
+
+**Study Tip:** Work through high school or introductory university-level textbooks. Since you are applying as a mature student, look for practice problems that focus on applications rather than just theory.
+
+---
+## 2. Physics (Calculus-Based)
+
+Engineering Physics is fundamentally about applying Calculus to real-world problems. Your study should mirror the two major physics courses in the first year:
+
+| Course                                   | Core Topics to Master                                                                                                                                                                | Importance                                                                |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| **Physics I (Mechanics)**                | **Kinematics** (motion, velocity, acceleration). **Newton's Laws** (free body diagrams are essential!). **Work, Energy, and Power.** **Momentum and Collisions.** Rotational Motion. | **Highest.** Heavily relies on Calculus I concepts.                       |
+| **Physics II (Electricity & Magnetism)** | **Electrostatics** (Coulomb's Law, Electric Fields). **DC Circuits** (Ohm's Law, Kirchhoff's Laws). **Magnetism** and Magnetic Fields.                                               | **High.** Directly relates to your Electrical Engineering specialization. |
+
+**Study Tip:** Do **calculus-based** physics problems. For example, instead of using a constant acceleration formula, use integration to find the position from the acceleration function.
+
+---
+
+## 3. Engineering & Programming Fundamentals
+
+While Math and Physics are the most important for your GPA, studying these will help your transition immensely:
+
+|Course|Core Topics to Master|Importance|
+|---|---|---|
+|**Intro to Programming (Coding)**|**C/C++ or Python** fundamentals. Basic control structures (loops, if/else). Functions and basic algorithms.|**High.** Your four years of experience should make this a GPA booster.|
+|**Electric Circuits (Basic)**|Basic circuit components (resistors, capacitors, inductors). Series and parallel circuits. **Ohm's Law (V=IR)** and **Kirchhoff's Laws** (voltage and current laws).|**Moderate.** Prepares you for the first core EE course.|
+|**Engineering Graphics/Design**|Practice basic 2D and 3D visualization.|**Lowest priority for transfer GPA,** but essential for the course.|
+
+---
+
+## Your 6-Month Plan:
+
+1. **Months 1-2 (Foundation):** Aggressively review/learn Pre-Calculus/Trigonometry and master all of **Calculus I (Differential Calculus)**.
+    
+2. **Months 3-4 (Core I):** Master **Physics I (Mechanics)**, using your new Calculus skills. Start learning **Linear Algebra**.
+    
+3. **Months 5-6 (Core II):** Master **Calculus II (Integral Calculus)** and **Physics II (Electricity & Magnetism)**. Review your existing programming knowledge.
+    
+
+Your goal isn't just to pass; it's to earn an **A- average or better** in these courses to secure the internal transfer, which means rigorous, consistent practice.
+
+You can check out this video for more context on the math involved in engineering. [All The Math You Need For Engineering: The Ultimate Guide](https://www.youtube.com/watch?v=2scszCY2oUo). The video breaks down all the high-level math you'll need to master to succeed in an engineering degree.
