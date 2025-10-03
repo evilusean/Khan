@@ -48,3 +48,4 @@ https://lib.unb.ca/guides/electrical-engineering
 - [Electronic Technology Handbook](https://login.proxy.hil.unb.ca/login?url=https://www-accessengineeringlibrary-com.proxy.hil.unb.ca/content/book/9780070580480) [](https://lib.unb.ca/guides/electrical-engineering#description-3729-1638562553)
 - [Electro-Optics Handbook](https://login.proxy.hil.unb.ca/login?url=https://www-accessengineeringlibrary-com.proxy.hil.unb.ca/content/book/9780070687165) [](https://lib.unb.ca/guides/electrical-engineering#description-3730-420753572)
 - [Antenna Engineering Handbook](https://login.proxy.hil.unb.ca/login?url=https://www-accessengineeringlibrary-com.proxy.hil.unb.ca/content/book/9781259644696)
+
