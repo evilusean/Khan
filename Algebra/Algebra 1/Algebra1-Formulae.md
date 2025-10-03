@@ -5,6 +5,8 @@ $$m = \frac{y_2 - y_1}{x_2 - x_1}$$
 
 **Slope-Intercept Form:**
 $$y = mx + b$$
+**Standard Form:**
+$$Ax + By = C$$
 
 **Point-Slope Form:**
 $$y - y_1 = m(x - x_1)$$
