@@ -101,7 +101,26 @@ The goal here is to quickly eliminate any weaknesses in your algebraic, geometri
     
 3. **Pre-calculus:** This course bridges the gap between high school algebra and university calculus. Focus heavily on **functions** (domain/range, inverses, compositions) and **exponential/logarithmic functions**.
     
+#### Algebra : 
+##### 1. The "Skip & Test" Approach
 
+Do not treat Algebra 1 and 2 like brand-new subjects. Instead, use them as diagnostic tools to identify and fill specific knowledge gaps.
+
+- **Watch Videos for Concepts You Forgot:** Only watch the videos if the concept is completely unfamiliar or if you haven't seen it in years (e.g., complex fractions, specific factoring methods).
+    
+- **Prioritize Practice:** **Focus all your energy on the practice questions, quizzes, and unit tests.** This is the most efficient use of your time.
+    
+- **The 80/20 Rule:** If you consistently score **80% or higher** on a topic's practice set, move on. If you score below 80%, watch the relevant videos and retry the practice set until you reach the threshold.
+    
+#### Time Goal: 2 to 4 Weeks
+
+To stay on track for your 6-month goal and to have enough time for the critical Calculus and Physics material, you should aim to complete all the necessary review in:
+
+|Course|Recommended Time Goal|
+|---|---|
+|**Algebra 1 Review**|**3 - 7 days**|
+|**Algebra 2 Review**|**1 - 2 weeks**|
+|**Total Algebra Time**|**2 to 4 weeks maximum**|
 ### Phase 2: Core Engineering Math (Approx. 2.5 Months)
 
 These are the most important courses that directly correspond to your first-year university GPA.
@@ -132,3 +151,4 @@ These subjects are typically covered in the second semester of first year or the
 - **Targeted Review:** When starting a new topic, always review the **Prerequisite Skills** section first. If you struggle with a specific problem type, stop and go back to the relevant lower-level course (e.g., if you fail at a rational expression in Pre-calculus, go back to Algebra 2).
     
 - **Focus on the "Why":** Since you have a coding background, try to understand the mathematical concepts intuitively (e.g., a derivative is a **rate of change**; an integral is an **accumulation**). This will help you apply the math to physics and engineering problems.
+
