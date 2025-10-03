@@ -9,3 +9,7 @@ https://www.youtube.com/watch?v=zPgfIOWVnF4
 
 Desmos - Graphing Calculator :
 https://www.desmos.com/calculator
+Qalculate! is primarily a desktop calculator with powerful symbolic features, but it has a **built-in graphing function**: 
+'sudo pacman -S qalculate-qt'
+SageMath is a comprehensive Computer Algebra System (CAS) built upon Python and many other specialized packages. It offers the **most robust and flexible plotting capabilities** :
+'sudo pacman -S sagemath'
