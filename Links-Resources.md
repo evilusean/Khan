@@ -4,5 +4,9 @@ https://en.wikipedia.org/wiki/C._H._Douglas
 FCC - Calculus 1 - Full College Course :
 https://www.youtube.com/watch?v=HfACrKJ_Y2w
 
-FCC - College Calculus – Full Course with Python Code
+FCC - College Calculus – Full Course with Python Code :
 https://www.youtube.com/watch?v=VDFRpjQVaME
+
+Becoming Good at Math Is Easy (Just Copy This Asian Formula - Fundamentals, Breakdown problem, Give up early, Solve the problem 3 different ways, 'Error Notebook' write down your mistakes in a notebook and deconstruct them to find out what you did wrong(1 page for problem, second page for mistakes), Feynmann Method) :
+https://www.youtube.com/watch?v=RNxCkEYdrG8
+
