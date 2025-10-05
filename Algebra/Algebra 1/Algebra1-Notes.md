@@ -65,5 +65,5 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequ
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb11595b61c86:word-problems-multiple-units/test/x2f8bb11595b61c86:working-units-unit-test
 ## Unit 4: # Linear equations & graphs-2025-10-05:
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs
-#### Quiz 1
+#### Quiz 1 (4/6 = 66% - Forgot a '-' negative sign for slope - missclicked on graph (2,2 instead of 2,3))
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:slope/quiz/x2f8bb11595b61c86:linear-equations-graphs-quiz-1
