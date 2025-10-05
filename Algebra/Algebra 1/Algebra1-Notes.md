@@ -60,4 +60,6 @@ This is the standard case, where one specific number satisfies the equation.
 #### Quiz 3 (3/5 = 60% - 'x = 11.33' doesn't work, but 'x = 34/3' does, idk, also forgot to reduce a fraction '-28/34' instead needed '-14/17') :
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:compound-inequalities/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-3
 #### Unit Test (7/10 = 70% - When you inverse('-x' into a 'x') a '-' to the other side with the constant, a greater than sign becomes a less than sign - you can divide by variables and constants x(-p+8) in order to balance an equation for finding x, you can also simplify if both the numerator and denominator are negative to make them a positive)
-## Unit 3: Working with Units :
+## Unit 3: Working with Units - 2025-10-05 :
+#### Unit Test (9/10 = 90% - misread a question, something to do with a microgram - 1/1000 of a miligram which is 1/1000th of a gram)
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb11595b61c86:word-problems-multiple-units/test/x2f8bb11595b61c86:working-units-unit-test
