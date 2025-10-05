@@ -108,3 +108,36 @@ $$\mathbf{m = \frac{y_2 - y_1}{x_2 - x_1}}$$
     Point: $(\mathbf{2, 3})$
 3.  **Point-Slope Form:**
     $$\mathbf{y - 3 = -2(x - 2)}$$
+#### Quiz 3 (/6 =  -)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
