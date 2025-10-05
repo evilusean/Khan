@@ -31,6 +31,8 @@ https://en.wikipedia.org/wiki/Maglev
 https://resident.com/vehicles-and-transportation/2025/05/09/chinas-maglev-marvel-leaving-america-in-the-dust-at-620-mph
 James Clerk Maxwell -> Oliver Heaviside -> Max Planck -> Michael Faraday -> André-Marie Ampère -> Nikola Tesla
 The Force That Physics Erased: Ampère’s Forgotten Law : https://www.youtube.com/watch?v=YHykWjtVdNM
+Tesla’s 3-6-9 and Vortex Math: Is this really the key to the universe?
+https://www.youtube.com/watch?v=6ZrO90AI0c8
 
 ElectricSean :
 Electrical Wiring Basics :
