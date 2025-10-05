@@ -67,3 +67,5 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb1
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs
 #### Quiz 1 (4/6 = 66% - Forgot a '-' negative sign for slope - missclicked on graph (2,2 instead of 2,3))
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:slope/quiz/x2f8bb11595b61c86:linear-equations-graphs-quiz-1
+#### Quiz 2 (/5 =  - )
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:x-intercepts-and-y-intercepts/quiz/x2f8bb11595b61c86:linear-equations-graphs-quiz-2
