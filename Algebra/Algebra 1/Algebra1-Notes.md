@@ -11,3 +11,5 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:division-zero/test/x2f8bb11595b61c86:foundation-algebra-unit-test
 ## Unit 2: Solving Equations and Inequalities :
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities
+#### Quit 1 (4/5 = 80% - added when I should of subtracted):
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-equations-parentheses/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-1
