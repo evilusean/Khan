@@ -22,7 +22,39 @@ $$m_1 = m_2$$
 
 **Perpendicular Lines:**
 $$m_1 = -\frac{1}{m_2}$$
+### 💡 Three Methods to Solve Systems of Linear Equations
 
+A system of linear equations involves finding the point $(\mathbf{x, y})$ where two or more lines intersect. There are three primary methods for finding this solution:
+
+---
+
+#### 1. Graphing 📉
+
+* **Goal:** Plot both lines and physically identify the point of intersection.
+* **Best When:** The question asks for a visual solution, or you expect the intersection point to be simple, exact integers (e.g., $(2, -3)$).
+* **Process:** Convert equations to **Slope-Intercept Form ($\mathbf{y = mx + b}$)**, then graph the lines and look for the common point.
+
+---
+
+#### 2. Substitution 🔄
+
+* **Goal:** Replace a variable in one equation with an equivalent expression from the other equation to reduce the system to a single variable.
+* **Best When:** One of the variables in either equation already has a coefficient of **1** or **-1** (making it easy to isolate).
+* **Process:**
+    1.  Isolate one variable (e.g., $y = 3x - 5$).
+    2.  Substitute that expression into the other equation.
+    3.  Solve for the remaining variable.
+
+---
+
+#### 3. Elimination (or Addition) ➕➖
+
+* **Goal:** Add or subtract the equations to cancel out one of the variables.
+* **Best When:** Equations are in **Standard Form ($\mathbf{Ax + By = C}$)**, and coefficients are easily made opposites (e.g., $4y$ and $-4y$).
+* **Process:**
+    1.  Multiply one or both equations so that one set of coefficients are **opposites** (like $2x$ and $-2x$).
+    2.  Add the equations to **eliminate** that variable.
+    3.  Solve for the remaining variable.
 ---
 
 ## II. Laws of Exponents
