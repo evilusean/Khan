@@ -1,7 +1,7 @@
 Start: 02October2025
 [Course](https://www.khanacademy.org/math/algebra)
 
-## Unit 1: Algebra foundations :
+## Unit 1: Algebra foundations-2025-10-04 :
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra
 #### Quiz 1 (4/5 = 80% - wasn't paying attention):
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:substitute-evaluate-expression/quiz/x2f8bb11595b61c86:foundation-algebra-quiz-1?referrer=upsell
@@ -9,7 +9,7 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:equivalent-expressions-intro/quiz/x2f8bb11595b61c86:foundation-algebra-quiz-2
 #### Unit Test (100%) :
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:division-zero/test/x2f8bb11595b61c86:foundation-algebra-unit-test
-## Unit 2: Solving Equations and Inequalities :
+## Unit 2: Solving Equations and Inequalities-2025-10-04 :
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities
 #### Quiz 1 (4/5 = 80% - added when I should of subtracted):
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-equations-parentheses/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-1
@@ -61,5 +61,5 @@ This is the standard case, where one specific number satisfies the equation.
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:compound-inequalities/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-3
 #### Unit Test (7/10 = 70% - When you inverse('-x' into a 'x') a '-' to the other side with the constant, a greater than sign becomes a less than sign - you can divide by variables and constants x(-p+8) in order to balance an equation for finding x, you can also simplify if both the numerator and denominator are negative to make them a positive)
 ## Unit 3: Working with Units - 2025-10-05 :
-#### Unit Test (9/10 = 90% - misread a question, something to do with a microgram - 1/1000 of a miligram which is 1/1000th of a gram)
+#### Unit Test (9/10 = 90% - misread a question, something to do with a microgram μg is 1/1000 of a miligram which is 1/1000th of a gram = 1/1,000,000 millionth of a gram)
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb11595b61c86:word-problems-multiple-units/test/x2f8bb11595b61c86:working-units-unit-test
