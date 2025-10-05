@@ -63,3 +63,5 @@ https://pastpapers.co/
 
 Engineering Degrees Ranked by Difficulty (Tier List) :
 https://www.youtube.com/watch?v=KIIh7XRDmuQ
+Circuits Finally Made Sense When I Saw This One Diagram (V=IR) (Voltage=Current * Resistance) :
+https://www.youtube.com/watch?v=rzLKns787Uk
