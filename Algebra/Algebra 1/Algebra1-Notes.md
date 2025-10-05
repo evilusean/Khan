@@ -13,5 +13,5 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities
 #### Quiz 1 (4/5 = 80% - added when I should of subtracted):
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-equations-parentheses/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-1
-#### Quiz 2 () :
+#### Quiz 2 (4/5 = 80% - apparently '50 = 50' is an infinite number of solutions) :
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-eqns-unknown-coefficients/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-2
