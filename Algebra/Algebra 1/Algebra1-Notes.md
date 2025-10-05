@@ -77,3 +77,34 @@ $$y - y_1 = m(x - x_1)$$
 > * $(x_1, y_1)$: A single, specific point on the line.
 > * $(x, y)$: Represents any other point on the line.
 > **Usage:** This is the best starting point when given a slope and a point. It can be algebraically rearranged (by distributing $m$ and adding $y_1$) to the Slope-Intercept Form.
+##### Linear Equations: Forms and Conversions
+
+| Form | Equation | Purpose | How to Use / Key Features |
+| :--- | :--- | :--- | :--- |
+| **Point-Slope** | **$y - y_1 = m(x - x_1)$** | Writing an equation given a **point** and the **slope**. | Requires a known slope ($\mathbf{m}$) and any point ($\mathbf{x_1, y_1}$) on the line. |
+| **Slope-Intercept**| $\mathbf{y = mx + b}$ | Graphing and identifying the rate of change. | Easily shows the slope ($\mathbf{m}$) and the **y-intercept** ($\mathbf{b}$). |
+| **Standard** | $\mathbf{Ax + By = C}$ | Often used for systems of equations; A, B, and C are integers; A is typically positive. | Slope ($\mathbf{m}$) is found by calculating **$-\frac{A}{B}$**. |
+
+---
+
+##### Key Concepts from Practice
+
+###### 1. Slope Formula
+The slope ($\mathbf{m}$) between any two points $(\mathbf{x_1, y_1})$ and $(\mathbf{x_2, y_2})$ is:
+$$\mathbf{m = \frac{y_2 - y_1}{x_2 - x_1}}$$
+
+###### 2. Parallel and Perpendicular Slopes
+* **Parallel Lines:** Have the **same slope** ($\mathbf{m_1 = m_2}$).
+* **Perpendicular Lines:** Have slopes that are **negative reciprocals** ($\mathbf{m_1 = -\frac{1}{m_2}}$).
+
+###### 3. Conversion Example (Standard to Point-Slope)
+**Problem:** Write $\mathbf{6x + 3y = 21}$ in point-slope form using the point where $\mathbf{x=2}$.
+
+1.  **Find Slope ($\mathbf{m}$):**
+    $3y = -6x + 21 \implies y = -2x + 7$
+    $\mathbf{m = -2}$
+2.  **Find Point $(\mathbf{x_1, y_1})$:**
+    When $x=2$: $y = -2(2) + 7 = 3$
+    Point: $(\mathbf{2, 3})$
+3.  **Point-Slope Form:**
+    $$\mathbf{y - 3 = -2(x - 2)}$$
