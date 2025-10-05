@@ -33,6 +33,8 @@ James Clerk Maxwell -> Oliver Heaviside -> Max Planck -> Michael Faraday -> Andr
 The Force That Physics Erased: Ampère’s Forgotten Law : https://www.youtube.com/watch?v=YHykWjtVdNM
 Tesla’s 3-6-9 and Vortex Math: Is this really the key to the universe?
 https://www.youtube.com/watch?v=6ZrO90AI0c8
+Tesla Valve | The complete physics
+https://www.youtube.com/watch?v=suIAo0EYwOE
 
 ElectricSean :
 Electrical Wiring Basics :
