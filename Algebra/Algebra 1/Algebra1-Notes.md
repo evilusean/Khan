@@ -15,3 +15,6 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequ
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-equations-parentheses/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-1
 #### Quiz 2 (4/5 = 80% - apparently '50 = 50' is an infinite number of solutions) :
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-eqns-unknown-coefficients/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-2
+#### Quiz 3 (3/5 = 60% - 'x = 11.33' doesn't work, but 'x = 34/3' does, idk, also forgot to reduce a fraction '-28/34' instead needed '-14/17') :
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:compound-inequalities/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-3
+
