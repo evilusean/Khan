@@ -15,9 +15,6 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequ
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-equations-parentheses/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-1
 #### Quiz 2 (4/5 = 80% - apparently '50 = 50' is an infinite number of solutions) :
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-eqns-unknown-coefficients/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-2
-#### Quiz 3 (3/5 = 60% - 'x = 11.33' doesn't work, but 'x = 34/3' does, idk, also forgot to reduce a fraction '-28/34' instead needed '-14/17') :
-https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:compound-inequalities/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-3
-#### Unit Test (7/10 = 70% - When you inverse('-x' into a 'x') a '-' to the other side with the constant, a greater than sign becomes a less than sign - you can divide by variables and constants x(-p+8) in order to balance an equation for finding x, you can also simplify if both the numerator and denominator at negative to make them a positive - )
 ##### 🎯 Linear Equations: Determining the Number of Solutions
 
 To determine the number of solutions for a linear equation in the form $\text{ax} + \text{b} = \text{cx} + \text{d}$, always **fully simplify** the equation first. The result of the simplification determines the solution set.
@@ -60,3 +57,6 @@ This is the standard case, where one specific number satisfies the equation.
 * **Example Result:**
     $$\text{3x = 9}$$
     $$\text{x = 3}$$
+#### Quiz 3 (3/5 = 60% - 'x = 11.33' doesn't work, but 'x = 34/3' does, idk, also forgot to reduce a fraction '-28/34' instead needed '-14/17') :
+https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:compound-inequalities/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-3
+#### Unit Test (7/10 = 70% - When you inverse('-x' into a 'x') a '-' to the other side with the constant, a greater than sign becomes a less than sign - you can divide by variables and constants x(-p+8) in order to balance an equation for finding x, you can also simplify if both the numerator and denominator at negative to make them a positive - )
