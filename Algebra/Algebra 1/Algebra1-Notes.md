@@ -65,7 +65,15 @@ https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequ
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb11595b61c86:word-problems-multiple-units/test/x2f8bb11595b61c86:working-units-unit-test
 ## Unit 4: # Linear equations & graphs-2025-10-05:
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs
-#### Quiz 1 (4/6 = 66% - Forgot a '-' negative sign for slope - missclicked on graph (2,2 instead of 2,3))
+#### Quiz 1 (4/6 = 66% - Forgot a '-' negative sign for slope - missclicked on graph (2,2 instead of 2,3) - careless)
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:slope/quiz/x2f8bb11595b61c86:linear-equations-graphs-quiz-1
-#### Quiz 2 (/5 =  - )
+#### Quiz 2 (4/5 = 80% - Messed up, and had the position of (y,x) instead of (x,y) for the y intercept - also took a tangent and practiced slope intercept form for almost an hour to do this test )
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:x-intercepts-and-y-intercepts/quiz/x2f8bb11595b61c86:linear-equations-graphs-quiz-2
+**Point-Slope Form:**
+$$y - y_1 = m(x - x_1)$$
+> **Description:** This form allows you to write the equation of a line if you know the slope and only one point. It is derived directly from the Slope Formula.
+> **Breakdown:**
+> * $m$: The slope.
+> * $(x_1, y_1)$: A single, specific point on the line.
+> * $(x, y)$: Represents any other point on the line.
+> **Usage:** This is the best starting point when given a slope and a point. It can be algebraically rearranged (by distributing $m$ and adding $y_1$) to the Slope-Intercept Form.
