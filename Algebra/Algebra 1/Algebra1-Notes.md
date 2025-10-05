@@ -59,4 +59,5 @@ This is the standard case, where one specific number satisfies the equation.
     $$\text{x = 3}$$
 #### Quiz 3 (3/5 = 60% - 'x = 11.33' doesn't work, but 'x = 34/3' does, idk, also forgot to reduce a fraction '-28/34' instead needed '-14/17') :
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:compound-inequalities/quiz/x2f8bb11595b61c86:solve-equations-inequalities-quiz-3
-#### Unit Test (7/10 = 70% - When you inverse('-x' into a 'x') a '-' to the other side with the constant, a greater than sign becomes a less than sign - you can divide by variables and constants x(-p+8) in order to balance an equation for finding x, you can also simplify if both the numerator and denominator at negative to make them a positive - )
+#### Unit Test (7/10 = 70% - When you inverse('-x' into a 'x') a '-' to the other side with the constant, a greater than sign becomes a less than sign - you can divide by variables and constants x(-p+8) in order to balance an equation for finding x, you can also simplify if both the numerator and denominator are negative to make them a positive)
+## Unit 3: Working with Units :

@@ -56,3 +56,6 @@ SED - Pully (Mechanical Advantage - Give me a lever long enough and a fulcrum on
 1700  Free University Courses (but no degREEEEE piece of paper) : https://www.openculture.com/freeonlinecourses 
 PastPapers - Get the last years test for the exam you are taking, and practice on that :
 https://pastpapers.co/
+
+Engineering Degrees Ranked by Difficulty (Tier List) :
+https://www.youtube.com/watch?v=KIIh7XRDmuQ
