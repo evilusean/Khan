@@ -5,8 +5,6 @@ https://www.youtube.com/watch?v=zPgfIOWVnF4
 Notes :
 https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy8zYjAzMDlhNTc5ZWJkNjM2L0VUYlc2M21sQ1FNZ2dEdXdyQUFBQUFBQm1xV3RlcVgtbVU2SkZ3LUhIVk9xU0E%5FZT16M3QwNnc&cid=3B0309A579EBD636&id=3B0309A579EBD636%2144208&parId=root&o=OneUp
 
-## Algebra Basics :
-Variable = A letter that represents a number
 ### 📝 Algebra 1 Essential Formulas: Detailed Explanations & Breakdowns
 
 ---
@@ -217,10 +215,169 @@ $$y = \frac{k}{x} \quad \text{or} \quad y \propto \frac{1}{x}$$
 > **Breakdown:** The **product** $y \cdot x$ is always a **constant ($k$)**. As $x$ increases, $y$ decreases proportionally (and vice-versa). The graph is a hyperbola.
 
 **Joint Variation:**
+$$y = kxz$$
+> **Description:** $y$ varies directly with **two or more** variables ($x$ and $z$).
+> **Usage:** Use a given set of values for $y, x,$ and $z$ to solve for the constant $k$, and then write the complete variation equation.
+
+**Combined Variation:**
+$$y = \frac{kx}{z}$$
+> **Description:** A relationship combining direct and inverse variation. $y$ varies **directly** with $x$ and **inversely** with $z$.
+
+---
+#### VIII. Radicals and Square Roots
+
+**Square Root:**
+$$\sqrt{x}$$
+> **Description:** Refers to the **principal (positive) square root**. Asks: "What non-negative number multiplied by itself equals $x$?"
+> **Restriction:** For real numbers, the radicand ($x$) must be **non-negative** ($x \geq 0$).
+
+**Cube Root:**
+$$\sqrt[3]{x}$$
+> **Description:** The inverse operation of cubing a number. Asks: "What number multiplied by itself three times equals $x$?"
+> **Note:** The radicand ($x$) **can be negative** for cube roots.
+
+**nth Root:**
+$$\sqrt[n]{x}$$
+> **Description:** The generalized radical form where $n$ is the **index** (or degree).
+> **Note:** If $n$ is **even**, $x$ must be $\geq 0$. If $n$ is **odd**, $x$ can be any real number.
+
+**Properties:**
+
+$$\sqrt{a^2} = |a|$$
+> **Description:** The square root of a perfect square is the **absolute value** of the term.
+> **Reason:** This ensures the result is always positive, as the $\sqrt{}$ symbol means the principal (positive) root.
+
+$$\sqrt{ab} = \sqrt{a} \cdot \sqrt{b}$$
+> **Description:** The square root of a product can be split into the product of the square roots.
+> **Usage:** This is the primary rule for **simplifying radicals** by factoring out the largest perfect square (e.g., $\sqrt{72} = \sqrt{36 \cdot 2} = 6\sqrt{2}$).
+
+$$\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}$$
+> **Description:** The square root of a quotient can be split into the quotient of the square roots.
+> **Usage:** Used in the process of **rationalizing the denominator** (ensuring no radical remains in the denominator).
+
+$$\sqrt{a^2 + b^2}$$
+> **Crucial Note:** This expression **cannot be simplified** to $a + b$. It is a common algebraic error to assume you can split the root across the addition sign.
+> **Context:** This exact form appears inside the **Distance Formula**.
+
+---
+#### IX. Key Definitions
+
+**Expression** ✍️
+> **Definition:** A mathematical phrase that contains **numbers, variables, and/or operations** but **does NOT contain an equal sign (=)**.
+> **Example:** $3x^2 - 5y + 1$
+
+**Equation** $\text{(=)}$
+> **Definition:** A statement asserting that **two expressions are equal** to each other. It must contain an **equal sign (=)**.
+> **Example:** $2x - 7 = 15$
+
+**Inequality** ($\neq$)
+> **Definition:** A mathematical statement asserting that **two expressions are NOT equal** to each other. It uses inequality symbols ($\mathbf{<, >, \leq, \geq}$).
+> **Example:** $3x + 1 \leq 10$
+
+**Polynomial** 🧩
+> **Definition:** An expression consisting of **one or more terms** added or subtracted, where the exponents on the variables are always **non-negative integers**.
+> **Example:** $5x^3 - 2x^2 + 7x - 4$
+
+**Monomial** (1 Term)
+> **Definition:** A polynomial with **exactly one term**.
+> **Example:** $12$, $5y$, $-3x^2z^4$
+
+**Binomial** (2 Terms)
+> **Definition:** A polynomial with **exactly two terms** separated by an addition or subtraction sign.
+> **Example:** $x + 4$, $a^2 - b^2$
+
+**Trinomial** (3 Terms)
+> **Definition:** A polynomial with **exactly three terms** separated by addition or subtraction signs.
+> **Example:** $x^2 - 5x + 6$
+
+**Like Terms** (Matching Variables)
+> **Definition:** Terms that have the **exact same variables raised to the exact same powers**.
+> **Example:** $5x^2y$ and $-11x^2y$ are like terms.
+
+**Coefficient** (The Number)
+> **Definition:** The **numerical factor** of a term that contains a variable.
+> **Example:** In the term $-5x^3$, the coefficient is $\mathbf{-5}$.
+## Algebra Basics :
+**Variable** = A letter that represents a number
+**Expression** ✍️
+> **Definition:** A mathematical phrase that contains **numbers, variables, and/or operations** but **does NOT contain an equal sign (=)**.
+> **Example:** $3x^2 - 5y + 1$
+
+**Equation** $\text{(=)}$
+> **Definition:** A statement asserting that **two expressions are equal** to each other. It must contain an **equal sign (=)**.
+> **Example:** $2x - 7 = 15$
+
+**Inequality** ($\neq$)
+> **Definition:** A mathematical statement asserting that **two expressions are NOT equal** to each other. It uses inequality symbols ($\mathbf{<, >, \leq, \geq}$).
+> **Example:** $3x + 1 \leq 10$
+
+**Polynomial** 🧩
+> **Definition:** An expression consisting of **one or more terms** added or subtracted, where the exponents on the variables are always **non-negative integers**.
+> **Example:** $5x^3 - 2x^2 + 7x - 4$
+
+**Monomial** (1 Term)
+> **Definition:** A polynomial with **exactly one term**.
+> **Example:** $12$, $5y$, $-3x^2z^4$
+
+**Binomial** (2 Terms)
+> **Definition:** A polynomial with **exactly two terms** separated by an addition or subtraction sign.
+> **Example:** $x + 4$, $a^2 - b^2$
+
+**Trinomial** (3 Terms)
+> **Definition:** A polynomial with **exactly three terms** separated by addition or subtraction signs.
+> **Example:** $x^2 - 5x + 6$
+
+**Like Terms** (Matching Variables)
+> **Definition:** Terms that have the **exact same variables raised to the exact same powers**.
+> **Example:** $5x^2y$ and $-11x^2y$ are like terms.
+
+**Coefficient** (The Number)
+> **Definition:** The **numerical factor** of a term that contains a variable.
+> **Example:** In the term $-5x^3$, the coefficient is $\mathbf{-5}$.
+
 You can add, multiply **Like Terms** 
 You can also multiply and divide **expressions** with **Unlike Terms**
-If you divide 
 
+### 💡 Why Variables Cancel in a Fraction ($\frac{3x}{4x}$)
+
+The process of "dropping" or canceling a variable in a fraction is based on two core algebraic rules: the definition of a fraction and the rules of exponents.
+
+---
+
+##### 1. The Multiplicative Identity (Cancellation)
+
+The simplest explanation is that a fraction represents division, and **any non-zero quantity divided by itself equals 1** (the Multiplicative Identity).
+
+$$\frac{3x}{4x} = \frac{3 \cdot x}{4 \cdot x} = \frac{3}{4} \cdot \frac{x}{x}$$
+
+* Provided that $\mathbf{x \neq 0}$, the term $\mathbf{\frac{x}{x}}$ is equal to $\mathbf{1}$.
+* Therefore, the expression simplifies to $\mathbf{\frac{3}{4} \cdot 1 = \frac{3}{4}}$.
+
+---
+
+##### 2. The Quotient Rule for Exponents
+
+The formal algebraic justification uses the Quotient Rule for Exponents: $\mathbf{\frac{a^n}{a^m} = a^{n-m}}$.
+
+* In the expression $\mathbf{\frac{3x}{4x}}$, the terms $x$ in the numerator and denominator both have an implied exponent of $\mathbf{1}$.
+$$\frac{3x^1}{4x^1} = \frac{3}{4} \cdot \frac{x^1}{x^1}$$
+
+* Applying the Quotient Rule to the variables:
+$$\frac{x^1}{x^1} = x^{1-1} = x^0$$
+
+* The **Zero Exponent Rule** states that any non-zero base raised to the power of zero is **1** ($\mathbf{x^0 = 1}$).
+
+* Substituting this back, we get:
+$$\frac{3}{4} \cdot x^0 = \frac{3}{4} \cdot 1 = \frac{3}{4}$$
+
+---
+
+##### ⚠️ Key Restriction
+
+**The Cancellation is only valid when the variable is non-zero.**
+
+* You must state the restriction: $\mathbf{x \neq 0}$.
+* If $\mathbf{x}$ were $0$, the original expression would be $\mathbf{\frac{3(0)}{4(0)} = \frac{0}{0}}$, which is an **indeterminate form** (and undefined division).
 
 
 
