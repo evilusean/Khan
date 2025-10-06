@@ -110,7 +110,7 @@ $$\mathbf{m = \frac{y_2 - y_1}{x_2 - x_1}}$$
     $$\mathbf{y - 3 = -2(x - 2)}$$
 #### Quiz 3 (6/6 = 100%)
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:modeling-with-linear-equations-and-inequalities/quiz/x2f8bb11595b61c86:linear-equations-graphs-quiz-3
-#### Unit Test (/16 =  -)
+#### Unit Test (11/16 = 69% - was given a set of y coords, and forgot to add them to the slope point form (y-y1) - Forgot to reduce fractions (20/8 = 5/2) so my y intercept was off - graphs were bad, 2 questions got wrong because the graphs were garbage )
 https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:modeling-with-linear-equations-and-inequalities/test/x2f8bb11595b61c86:linear-equations-graphs-unit-test
 
 
