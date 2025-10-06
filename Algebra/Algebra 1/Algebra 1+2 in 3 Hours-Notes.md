@@ -447,11 +447,11 @@ The primary goal of solving an algebraic equation is to **isolate the variable**
 
 The process relies on the **Properties of Equality**, which state that any mathematical operation applied to one side of the equation must also be applied to the other side to maintain balance.
 
-### Key Properties Used
+#### Key Properties Used
 * **Addition/Subtraction Property of Equality:** Used to move terms (variables or constants) across the equals sign.
 * **Multiplication/Division Property of Equality:** Used to eliminate the coefficient and solve for the variable (e.g., dividing by $\mathbf{4}$ in $\mathbf{4x = 8}$).
 
-### Steps for Solving Equations
+#### Steps for Solving Equations
 
 1.  **Simplify Both Sides**
     * **Distribute** to eliminate parentheses (e.g., $\mathbf{3(x + 2)}$).
@@ -468,6 +468,41 @@ The process relies on the **Properties of Equality**, which state that any mathe
 
 4.  **Check Your Answer**
     * Substitute the final solution back into the **original equation** to ensure the left side equals the right side.
+
+Anything you do on one side you have to do on the other
+
+### Solution: Solving Linear Inequalities
+
+Solving linear inequalities in Algebra 1 follows the same basic steps as solving equations (using the properties of equality to isolate the variable), but with one critical rule change.
+
+#### Primary Difference
+
+* **Equations** ($\mathbf{=}$) result in a **single numerical solution** (e.g., $\mathbf{x = 5}$).
+* **Inequalities** ($\mathbf{<, >, \le, \ge}$) result in a **range of values** (e.g., $\mathbf{x > 5}$).
+
+#### The Critical Rule
+
+The most important rule when solving inequalities is:
+
+**You MUST reverse the direction of the inequality sign when you multiply or divide both sides by a negative number.**
+
+#### Example of the Rule
+Consider the inequality $\mathbf{-5x + 1 \ge 16}$:
+
+1.  Subtract $\mathbf{1}$ from both sides:
+    $$\mathbf{-5x \ge 15}$$
+
+2.  Divide by $\mathbf{-5}$ and **reverse the sign** ($\mathbf{\ge}$ becomes $\mathbf{\le}$):
+    $$\mathbf{\frac{-5x}{-5} \le \frac{15}{-5}}$$
+
+3.  Simplify:
+    $$\mathbf{x \le -3}$$
+
+#### Graphing the Solution
+The final solution ($\mathbf{x \le -3}$) can be represented on a number line:
+
+* **Closed Circle** at $\mathbf{-3}$ (because of $\mathbf{\le}$, meaning $\mathbf{-3}$ is included).
+* Shade to the **left** (representing all numbers less than or equal to $\mathbf{-3}$).
 
 
 
