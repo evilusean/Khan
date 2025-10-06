@@ -439,6 +439,9 @@ $$\frac{3}{4} \cdot x^0 = \frac{3}{4} \cdot 1 = \frac{3}{4}$$
     $$4(8) = 12 + 20$$
     $$32 = 32$$
 * **RELATIONSHIP:** This property connects multiplication and addition by showing that multiplying a sum by a number is the same as multiplying each term of the sum individually and then adding the products.
+## Solving Equations :
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=8m43s
+
 
 
 
