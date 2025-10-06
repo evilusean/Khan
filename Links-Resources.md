@@ -1,6 +1,9 @@
 Adam Smith Vs Marx Vs C.H. Douglas :
 https://en.wikipedia.org/wiki/C._H._Douglas
 
+FCC - College Algebra - Full Course :
+https://www.youtube.com/watch?v=LwCRRUa8yTU
+
 FCC - Calculus 1 - Full College Course :
 https://www.youtube.com/watch?v=HfACrKJ_Y2w
 
