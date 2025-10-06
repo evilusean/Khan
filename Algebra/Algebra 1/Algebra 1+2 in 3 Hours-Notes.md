@@ -520,7 +520,47 @@ The final solution ($\mathbf{x \le -3}$) can be represented on a number line:
 * **Closed Circle** at $\mathbf{-3}$ (because of $\mathbf{\le}$, meaning $\mathbf{-3}$ is included).
 * Shade to the **left** (representing all numbers less than or equal to $\mathbf{-3}$).
 
+### Algebra 1 Notes: Slope and Rate of Change 📈
 
+Slope is a fundamental concept that measures the **steepness** and **direction** of a straight line. It is also known as the **Rate of Change** because it tells us how quickly the dependent variable ($\mathbf{y}$) changes relative to the independent variable ($\mathbf{x}$).
+
+#### 1. The Slope Formula (Rise Over Run)
+
+Slope is the ratio of the change in the vertical axis ($\mathbf{y}$) to the change in the horizontal axis ($\mathbf{x}$).
+
+* **Verbal Formula:**
+    $$\mathbf{\text{Slope} = \frac{\text{Rise}}{\text{Run}} = \frac{\text{Change in } y}{\text{Change in } x}}$$
+
+* **Algebraic Formula:** Given any two points $\mathbf{(x_1, y_1)}$ and $\mathbf{(x_2, y_2)}$, the slope ($\mathbf{m}$) is:
+    $$\mathbf{m = \frac{y_2 - y_1}{x_2 - x_1}}$$
+
+#### 2. The Four Types of Slope
+
+The sign and value of the slope indicate the line's behavior:
+
+| Type | Direction (Left to Right) | Value of $\mathbf{m}$ | Example Line |
+| :--- | :--- | :--- | :--- |
+| **Positive** | **Rises** | $\mathbf{m > 0}$ | $\mathbf{y = 2x + 1}$ |
+| **Negative** | **Falls** | $\mathbf{m < 0}$ | $\mathbf{y = -x + 5}$ |
+| **Zero** | **Horizontal** (Flat) | $\mathbf{m = 0}$ | $\mathbf{y = 3}$ |
+| **Undefined** | **Vertical** | $\mathbf{\text{Denominator is } 0}$ | $\mathbf{x = -2}$ |
+
+#### 3. Slope in Context: Rate of Change
+
+In word problems, the slope represents a rate and **must** include units.
+
+* **Units:** Always "Units of $\mathbf{y}$ **per** Unit of $\mathbf{x}$."
+    * Example: If $\mathbf{y}$ is cost and $\mathbf{x}$ is hours, the slope is the cost per hour.
+* **Interpretation:** A **positive** slope means the quantity is increasing, and a **negative** slope means the quantity is decreasing.
+
+#### 4. Importance in Linear Equations
+
+The slope ($\mathbf{m}$) is the key component in the **Slope-Intercept Form**, which is used for graphing and analyzing linear relationships:
+
+$$\mathbf{y = mx + b}$$
+
+* $\mathbf{m}$ is the **slope** (rate of change).
+* $\mathbf{b}$ is the **y-intercept** (the starting point/value when $\mathbf{x = 0}$).
 
 
 
