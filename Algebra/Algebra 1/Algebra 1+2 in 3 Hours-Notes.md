@@ -298,6 +298,7 @@ $$\sqrt{a^2 + b^2}$$
 > **Definition:** The **numerical factor** of a term that contains a variable.
 > **Example:** In the term $-5x^3$, the coefficient is $\mathbf{-5}$.
 ## Algebra Basics :
+### Basic Definitions :
 **Variable** = A letter that represents a number
 **Expression** ✍️
 > **Definition:** A mathematical phrase that contains **numbers, variables, and/or operations** but **does NOT contain an equal sign (=)**.
@@ -484,7 +485,7 @@ Solving linear inequalities in Algebra 1 follows the same basic steps as solving
 
 The most important rule when solving inequalities is:
 
-**You MUST reverse the direction of the inequality sign when you multiply or divide both sides by a negative number.**
+==You MUST reverse the direction of the inequality sign when you multiply or divide both sides by a negative number.==
 
 #### Example of the Rule
 Consider the inequality $\mathbf{-5x + 1 \ge 16}$:
@@ -499,11 +500,25 @@ Consider the inequality $\mathbf{-5x + 1 \ge 16}$:
     $$\mathbf{x \le -3}$$
 
 #### Graphing the Solution
+
+The final solution is a range of numbers graphed on a number line. The type of circle used on the boundary point is determined by the inequality symbol.
+
+#### Open vs. Closed Circles (Graphing Rules)
+
+The circle type indicates whether the boundary number itself is part of the solution set:
+
+* **Open Circle (Boundary NOT Included):**
+    * Use for the "strict" inequalities: $\mathbf{<}$ (less than) or $\mathbf{>}$ (greater than).
+    * The point is not a solution.
+
+* **Closed Circle (Boundary IS Included):**
+    * Use for the "inclusive" inequalities: $\mathbf{\le}$ (less than or equal to) or $\mathbf{\ge}$ (greater than or equal to).
+    * The point is a solution.
+
 The final solution ($\mathbf{x \le -3}$) can be represented on a number line:
 
 * **Closed Circle** at $\mathbf{-3}$ (because of $\mathbf{\le}$, meaning $\mathbf{-3}$ is included).
 * Shade to the **left** (representing all numbers less than or equal to $\mathbf{-3}$).
-
 
 
 
