@@ -632,3 +632,41 @@ Here are common inequality types converted to interval notation:
 | $\mathbf{x \le 7}$      | All numbers less than or equal to $\mathbf{7}$.                              | $\mathbf{(-\infty, 7]}$      |
 | $\mathbf{-1 \le x < 4}$ | All numbers between $\mathbf{-1}$ and $\mathbf{4}$, including $\mathbf{-1}$. | $\mathbf{[-1, 4)}$           |
 | **All Real Numbers**    | Entire number line.                                                          | $\mathbf{(-\infty, \infty)}$ |
+
+### Graphing Linear Inequalities(shading, dash vs solid lines) 📝
+
+Graphing a linear inequality involves representing the **range of solutions** on a coordinate plane, which requires two specific decisions: the **boundary line style** and the **shading direction**.
+
+---
+
+#### 1. The Boundary Line (Dashed vs. Solid)
+
+The line itself is called the boundary. Its style depends on whether the inequality is strict or inclusive.
+
+| Inequality Symbol | Line Style | Boundary Included? | Rule |
+| :--- | :--- | :--- | :--- |
+| $\mathbf{<}$ or $\mathbf{>}$ | **Dashed/Dotted** | **No** | Use when the points on the line are **NOT** solutions. |
+| $\mathbf{\le}$ or $\mathbf{\ge}$ | **Solid** | **Yes** | Use when the points on the line **ARE** solutions. |
+
+---
+
+#### 2. Shading the Solution Area
+
+Shading indicates the region of the plane that contains all the solutions.
+
+#### A. Shading Rule (Quick Method for $\mathbf{y = mx + b}$ form)
+
+If the inequality is already solved for $\mathbf{y}$:
+
+* **Shade Above:** Use for **Greater Than** ($\mathbf{y >}$ or $\mathbf{y \ge}$).
+* **Shade Below:** Use for **Less Than** ($\mathbf{y <}$ or $\mathbf{y \le}$).
+
+#### B. The Test Point Method (Universal Check)
+
+This method always works, especially for vertical/horizontal lines or complex inequalities:
+
+1.  **Choose a Test Point:** Select a simple point **not on the line** (e.g., the origin, $\mathbf{(0, 0)}$).
+2.  **Substitute:** Plug the test point's $\mathbf{x}$ and $\mathbf{y}$ values into the original inequality.
+3.  **Shade Based on Result:**
+    * **If TRUE:** Shade the region **containing** the test point.
+    * **If FALSE:** Shade the region **not containing** the test point.
