@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=zPgfIOWVnF4
 Notes :
 https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy8zYjAzMDlhNTc5ZWJkNjM2L0VUYlc2M21sQ1FNZ2dEdXdyQUFBQUFBQm1xV3RlcVgtbVU2SkZ3LUhIVk9xU0E%5FZT16M3QwNnc&cid=3B0309A579EBD636&id=3B0309A579EBD636%2144208&parId=root&o=OneUp
 
-### 📝 Algebra 1 Essential Formulas: Detailed Explanations & Breakdowns
+## 📝 Algebra 1 Essential Formulas: Detailed Explanations & Breakdowns
 
 ---
 
@@ -442,7 +442,7 @@ $$\frac{3}{4} \cdot x^0 = \frac{3}{4} \cdot 1 = \frac{3}{4}$$
 * **RELATIONSHIP:** This property connects multiplication and addition by showing that multiplying a sum by a number is the same as multiplying each term of the sum individually and then adding the products.
 ## Solving Equations :
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=8m43s
-### Solution: Solving Linear Equations
+### Solving Linear Equations
 
 The primary goal of solving an algebraic equation is to **isolate the variable** (e.g., $\mathbf{x}$) to determine the value that makes the equation true.
 
@@ -472,7 +472,7 @@ The process relies on the **Properties of Equality**, which state that any mathe
 
 Anything you do on one side you have to do on the other
 
-### Solution: Solving Linear Inequalities
+### Solving Linear Inequalities (when multiplying or dividing, flip the sign)
 
 Solving linear inequalities in Algebra 1 follows the same basic steps as solving equations (using the properties of equality to isolate the variable), but with one critical rule change.
 
@@ -520,7 +520,7 @@ The final solution ($\mathbf{x \le -3}$) can be represented on a number line:
 * **Closed Circle** at $\mathbf{-3}$ (because of $\mathbf{\le}$, meaning $\mathbf{-3}$ is included).
 * Shade to the **left** (representing all numbers less than or equal to $\mathbf{-3}$).
 
-### Algebra 1 Notes: Slope and Rate of Change 📈
+### Slope and Rate of Change 📈
 
 Slope is a fundamental concept that measures the **steepness** and **direction** of a straight line. It is also known as the **Rate of Change** because it tells us how quickly the dependent variable ($\mathbf{y}$) changes relative to the independent variable ($\mathbf{x}$).
 
@@ -562,7 +562,7 @@ $$\mathbf{y = mx + b}$$
 * $\mathbf{m}$ is the **slope** (rate of change).
 * $\mathbf{b}$ is the **y-intercept** (the starting point/value when $\mathbf{x = 0}$).
 
-### Algebra 1 Notes: The Distance Formula 📏
+### The Distance Formula 📏
 
 The **Distance Formula** is used to find the straight-line length ($\mathbf{d}$) between any two points in a coordinate plane.
 
@@ -596,7 +596,7 @@ $$\mathbf{d = \sqrt{(3)^2 + (4)^2}}$$
 $$\mathbf{d = \sqrt{9 + 16}}$$
 $$\mathbf{d = \sqrt{25}}$$
 $$\mathbf{d = 5}$$
-### Algebra 1 Notes: Interval Notation
+### Interval Notation
 
 **Interval Notation** is a concise way to represent a set of **real numbers** that are solutions to an inequality. It uses parentheses and brackets to show whether the endpoints of the set are included or excluded.
 
