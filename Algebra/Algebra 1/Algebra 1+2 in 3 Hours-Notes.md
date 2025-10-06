@@ -380,6 +380,65 @@ $$\frac{3}{4} \cdot x^0 = \frac{3}{4} \cdot 1 = \frac{3}{4}$$
 * If $\mathbf{x}$ were $0$, the original expression would be $\mathbf{\frac{3(0)}{4(0)} = \frac{0}{0}}$, which is an **indeterminate form** (and undefined division).
 
 
+### Properties of Real Numbers
+
+---
+
+#### Commutative Property of Addition
+
+* **DEFINITION (Algebraic):**
+    $$a + b = b + a$$
+* **EXAMPLE (Numerical):**
+    $$5 + 8 = 8 + 5$$
+    $$13 = 13$$
+* **ROLE:** This property states that the **order** in which you add two or more numbers does **not** change the sum. You can swap the positions of the terms being added.
+
+---
+
+#### Commutative Property of Multiplication
+
+* **DEFINITION (Algebraic):**
+    $$a \cdot b = b \cdot a$$
+* **EXAMPLE (Numerical):**
+    $$6 \cdot 4 = 4 \cdot 6$$
+    $$24 = 24$$
+* **ROLE:** This property states that the **order** in which you multiply two or more factors does **not** change the product. You can swap the positions of the factors.
+
+---
+
+#### Associative Property of Addition
+
+* **DEFINITION (Algebraic):**
+    $$(a + b) + c = a + (b + c)$$
+* **EXAMPLE (Numerical):**
+    $$(2 + 3) + 7 = 2 + (3 + 7)$$
+    $$5 + 7 = 2 + 10$$
+    $$12 = 12$$
+* **WHAT CHANGES:** This property states that the way you **group** (using parentheses) three or more numbers being added does **not** change the sum. The order of the terms remains the same; only the grouping changes.
+
+---
+
+#### Associative Property of Multiplication
+
+* **DEFINITION (Algebraic):**
+    $$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$
+* **EXAMPLE (Numerical):**
+    $$(5 \cdot 2) \cdot 4 = 5 \cdot (2 \cdot 4)$$
+    $$10 \cdot 4 = 5 \cdot 8$$
+    $$40 = 40$$
+* **WHAT REMAINS THE SAME:** This property states that the way you **group** (using parentheses) three or more numbers being multiplied does **not** change the product. The order of the factors remains the same; only the grouping changes.
+
+---
+
+#### Distributive Property of Multiplication over Addition
+
+* **DEFINITION (Algebraic):**
+    $$a(b + c) = ab + ac$$
+* **EXAMPLE (Numerical):**
+    $$4(3 + 5) = 4(3) + 4(5)$$
+    $$4(8) = 12 + 20$$
+    $$32 = 32$$
+* **RELATIONSHIP:** This property connects multiplication and addition by showing that multiplying a sum by a number is the same as multiplying each term of the sum individually and then adding the products.
 
 
 
