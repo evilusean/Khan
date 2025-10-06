@@ -4,6 +4,9 @@ https://en.wikipedia.org/wiki/C._H._Douglas
 FCC - College Algebra - Full Course :
 https://www.youtube.com/watch?v=LwCRRUa8yTU
 
+FCC - Precalculus Course :
+https://www.youtube.com/watch?v=eI4an8aSsgw
+
 FCC - Calculus 1 - Full College Course :
 https://www.youtube.com/watch?v=HfACrKJ_Y2w
 
