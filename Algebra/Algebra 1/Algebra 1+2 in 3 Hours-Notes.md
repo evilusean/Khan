@@ -596,3 +596,39 @@ $$\mathbf{d = \sqrt{(3)^2 + (4)^2}}$$
 $$\mathbf{d = \sqrt{9 + 16}}$$
 $$\mathbf{d = \sqrt{25}}$$
 $$\mathbf{d = 5}$$
+### Algebra 1 Notes: Interval Notation
+
+**Interval Notation** is a concise way to represent a set of **real numbers** that are solutions to an inequality. It uses parentheses and brackets to show whether the endpoints of the set are included or excluded.
+
+---
+
+#### 1. Key Symbols and Meanings
+
+The choice between a parenthesis and a bracket is the most critical element, as it indicates the type of boundary.
+
+| Symbol | Meaning | Inequality Symbol | Graphing Equivalent | Inclusion |
+| :--- | :--- | :--- | :--- | :--- |
+| **Parenthesis** $\mathbf{( \ )}$ | **Open** interval | $\mathbf{<}$ or $\mathbf{>}$ | **Open Circle** ($\mathbf{\circ}$) | **NOT Included** |
+| **Bracket** $\mathbf{[ \ ]}$ | **Closed** interval | $\mathbf{\le}$ or $\mathbf{\ge}$ | **Closed Circle** ($\mathbf{\bullet}$) | **IS Included** |
+
+---
+
+#### 2. The Infinity Rule
+
+The concepts of **infinity** ($\mathbf{\infty}$) and **negative infinity** ($\mathbf{-\infty}$) represent bounds that the set approaches but never reaches.
+
+* **Rule:** Infinity and negative infinity **ALWAYS** use a **parenthesis** $\mathbf{( \ )}$ in interval notation.
+    * *Example:* $\mathbf{x > 5}$ is written as $\mathbf{(5, \infty)}$.
+
+---
+
+#### 3. Examples of Conversions
+
+Here are common inequality types converted to interval notation:
+
+| Inequality              | Graph Description                                                            | Interval Notation            |
+| :---------------------- | :--------------------------------------------------------------------------- | :--------------------------- |
+| $\mathbf{x > -2}$       | All numbers greater than $\mathbf{-2}$.                                      | $\mathbf{(-2, \infty)}$      |
+| $\mathbf{x \le 7}$      | All numbers less than or equal to $\mathbf{7}$.                              | $\mathbf{(-\infty, 7]}$      |
+| $\mathbf{-1 \le x < 4}$ | All numbers between $\mathbf{-1}$ and $\mathbf{4}$, including $\mathbf{-1}$. | $\mathbf{[-1, 4)}$           |
+| **All Real Numbers**    | Entire number line.                                                          | $\mathbf{(-\infty, \infty)}$ |
