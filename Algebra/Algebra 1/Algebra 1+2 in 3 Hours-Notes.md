@@ -562,27 +562,37 @@ $$\mathbf{y = mx + b}$$
 * $\mathbf{m}$ is the **slope** (rate of change).
 * $\mathbf{b}$ is the **y-intercept** (the starting point/value when $\mathbf{x = 0}$).
 
+### Algebra 1 Notes: The Distance Formula 📏
 
+The **Distance Formula** is used to find the straight-line length ($\mathbf{d}$) between any two points in a coordinate plane.
 
+#### 1. Formula Derivation (Pythagorean Theorem)
 
+The Distance Formula is derived directly from the **Pythagorean Theorem** ($\mathbf{a^2 + b^2 = c^2}$).
 
+* The distance $\mathbf{d}$ is the hypotenuse ($\mathbf{c}$).
+* The difference in $\mathbf{x}$-coordinates ($\mathbf{x_2 - x_1}$) is one leg ($\mathbf{a}$).
+* The difference in $\mathbf{y}$-coordinates ($\mathbf{y_2 - y_1}$) is the other leg ($\mathbf{b}$).
 
+#### 2. The Formula
 
+Given two points $\mathbf{P_1}$ at $\mathbf{(x_1, y_1)}$ and $\mathbf{P_2}$ at $\mathbf{(x_2, y_2)}$, the distance $\mathbf{d}$ is:
 
+$$\mathbf{d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}}$$
 
+#### 3. Steps for Calculation
 
+1.  **Find the change in $\mathbf{x}$** and square the result: $\mathbf{(x_2 - x_1)^2}$.
+2.  **Find the change in $\mathbf{y}$** and square the result: $\mathbf{(y_2 - y_1)^2}$.
+3.  **Add** the two squared results.
+4.  **Take the square root** of the sum to find $\mathbf{d}$.
 
+#### 4. Example
 
+To find the distance between $\mathbf{(1, 2)}$ and $\mathbf{(4, 6)}$:
 
-
-
-
-
-
-
-
-
-
-
-
-
+$$\mathbf{d = \sqrt{(4 - 1)^2 + (6 - 2)^2}}$$
+$$\mathbf{d = \sqrt{(3)^2 + (4)^2}}$$
+$$\mathbf{d = \sqrt{9 + 16}}$$
+$$\mathbf{d = \sqrt{25}}$$
+$$\mathbf{d = 5}$$
