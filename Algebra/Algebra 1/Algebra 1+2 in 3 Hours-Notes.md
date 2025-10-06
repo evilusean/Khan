@@ -441,7 +441,33 @@ $$\frac{3}{4} \cdot x^0 = \frac{3}{4} \cdot 1 = \frac{3}{4}$$
 * **RELATIONSHIP:** This property connects multiplication and addition by showing that multiplying a sum by a number is the same as multiplying each term of the sum individually and then adding the products.
 ## Solving Equations :
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=8m43s
+### Solution: Solving Linear Equations
 
+The primary goal of solving an algebraic equation is to **isolate the variable** (e.g., $\mathbf{x}$) to determine the value that makes the equation true.
+
+The process relies on the **Properties of Equality**, which state that any mathematical operation applied to one side of the equation must also be applied to the other side to maintain balance.
+
+### Key Properties Used
+* **Addition/Subtraction Property of Equality:** Used to move terms (variables or constants) across the equals sign.
+* **Multiplication/Division Property of Equality:** Used to eliminate the coefficient and solve for the variable (e.g., dividing by $\mathbf{4}$ in $\mathbf{4x = 8}$).
+
+### Steps for Solving Equations
+
+1.  **Simplify Both Sides**
+    * **Distribute** to eliminate parentheses (e.g., $\mathbf{3(x + 2)}$).
+    * **Combine like terms** (e.g., $\mathbf{5x - 2x}$).
+
+2.  **Collect Variables**
+    * Use addition or subtraction to move all **variable terms** ($\mathbf{x}$ terms) to one side of the equation (often the side that keeps the coefficient positive).
+    * Move all **constant terms** (plain numbers) to the opposite side.
+
+3.  **Isolate the Variable**
+    * Use multiplication or division to make the coefficient of the variable equal to $\mathbf{1}$.
+    * Example: To solve $\mathbf{4x = 12}$, divide both sides by $\mathbf{4}$:
+        $$\mathbf{\frac{4x}{4} = \frac{12}{4} \implies x = 3}$$
+
+4.  **Check Your Answer**
+    * Substitute the final solution back into the **original equation** to ensure the left side equals the right side.
 
 
 
