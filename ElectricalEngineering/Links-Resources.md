@@ -67,3 +67,5 @@ Circuits Finally Made Sense When I Saw This One Diagram (V=IR) (Voltage=Current 
 https://www.youtube.com/watch?v=rzLKns787Uk
 4 Years of Electrical Engineering in 26 Minutes :
 https://www.youtube.com/watch?v=ngo3ZTrT69A
+Casually Explained: Engineering :
+https://www.youtube.com/watch?v=tqcThEqoYmA
