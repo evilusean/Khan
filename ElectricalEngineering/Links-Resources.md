@@ -61,6 +61,9 @@ SED - Pully (Mechanical Advantage - Give me a lever long enough and a fulcrum on
 PastPapers - Get the last years test for the exam you are taking, and practice on that :
 https://pastpapers.co/
 
+Book to buy when failed state of canada gets its postal system working again, saving here for future Sean :
+https://www.amazon.ca/Essential-Calculus-Practice-Workbook-Solutions/dp/1941691242
+
 Engineering Degrees Ranked by Difficulty (Tier List) :
 https://www.youtube.com/watch?v=KIIh7XRDmuQ
 Circuits Finally Made Sense When I Saw This One Diagram (V=IR) (Voltage=Current * Resistance) :
