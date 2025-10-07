@@ -670,3 +670,5 @@ This method always works, especially for vertical/horizontal lines or complex in
 3.  **Shade Based on Result:**
     * **If TRUE:** Shade the region **containing** the test point.
     * **If FALSE:** Shade the region **not containing** the test point.
+## Systems of Equations :
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=36m10s
