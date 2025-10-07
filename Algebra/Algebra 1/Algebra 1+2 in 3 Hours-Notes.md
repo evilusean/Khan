@@ -810,3 +810,4 @@ $$\begin{cases} \mathbf{y > 2x - 1} & \text{(Line A)} \\ \mathbf{y \le -x + 4} &
     * **Shading:** Below (because of $\mathbf{\le}$).
 
 The **solution** is the area that is **above the dashed line A** AND **below the solid line B**.
+### Absolute Value Equations :
