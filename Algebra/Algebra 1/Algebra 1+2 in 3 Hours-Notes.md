@@ -810,4 +810,68 @@ $$\begin{cases} \mathbf{y > 2x - 1} & \text{(Line A)} \\ \mathbf{y \le -x + 4} &
     * **Shading:** Below (because of $\mathbf{\le}$).
 
 The **solution** is the area that is **above the dashed line A** AND **below the solid line B**.
-### Absolute Value Equations :
+### Solving Absolute Value Equations 🎯
+
+The **absolute value** ($\mathbf{|x|}$) of a number is its distance from zero. Since distance is always non-negative, the expression inside the bars must equal the target value ($\mathbf{c}$) OR its opposite ($\mathbf{-c}$).
+
+---
+
+#### 1. The Core Rule
+
+To solve any absolute value equation of the form $\mathbf{|ax + b| = c}$, you **MUST** set up and solve two separate linear equations.
+
+| Case | Equation | Rationale |
+| :--- | :--- | :--- |
+| **Positive Case** | $\mathbf{ax + b = c}$ | The expression equals the positive distance. |
+| **Negative Case** | $\mathbf{ax + b = -c}$ | The expression equals the negative distance. |
+
+---
+
+#### 2. Example A: Basic Two-Step Solve
+
+Solve the equation: $\mathbf{|3x + 6| = 15}$
+
+**Step 1: Set up both cases.**
+* **Positive:** $\mathbf{3x + 6 = 15}$
+* **Negative:** $\mathbf{3x + 6 = -15}$
+
+**Step 2: Solve the Positive Case.**
+$$\mathbf{3x + 6 = 15}$$
+$$\mathbf{3x = 9}$$
+$$\mathbf{x = 3}$$
+
+**Step 3: Solve the Negative Case.**
+$$\mathbf{3x + 6 = -15}$$
+$$\mathbf{3x = -21}$$
+$$\mathbf{x = -7}$$
+
+**Solutions:** $\mathbf{x = 3}$ and $\mathbf{x = -7}$.
+
+---
+
+#### 3. Example B: Isolate the Absolute Value First
+
+If there are numbers outside the absolute value bars, you **must isolate** the absolute value expression before setting up the two cases.
+
+Solve the equation: $\mathbf{2|x - 5| + 3 = 13}$
+
+**Step 1: Isolate the absolute value.**
+$$\mathbf{2|x - 5| + 3 = 13}$$
+$$\mathbf{2|x - 5| = 10}$$  (Subtract $\mathbf{3}$)
+$$\mathbf{|x - 5| = 5}$$    (Divide by $\mathbf{2}$)
+
+**Step 2: Set up and solve both cases.**
+
+* **Positive:** $\mathbf{x - 5 = 5} \rightarrow \mathbf{x = 10}$
+* **Negative:** $\mathbf{x - 5 = -5} \rightarrow \mathbf{x = 0}$
+
+**Solutions:** $\mathbf{x = 10}$ and $\mathbf{x = 0}$.
+
+---
+
+#### 4. The No Solution Case (Important!)
+
+If the absolute value expression is isolated and set equal to a **negative number**, there is **No Solution**.
+
+* **Example:** $\mathbf{|x + 1| = -4}$
+* **Reason:** An absolute value can never result in a negative number.
