@@ -672,17 +672,17 @@ This method always works, especially for vertical/horizontal lines or complex in
     * **If FALSE:** Shade the region **not containing** the test point.
 ## Systems of Equations :
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=36m10s
-### Systems of Linear Equations 🧩
+### Systems of Linear Equations/Inequalities 🧩
 
 A **System of Linear Equations** is a set of two or more linear equations with the same set of variables (x and y). The **solution** is the ordered pair (x,y) that makes _all_ equations in the system true simultaneously.
 
 ---
 
-### 1. Methods for Solving Systems
+#### 1. Methods for Solving Systems
 
 There are three primary methods for solving systems of linear equations:
 
-#### A. Substitution Method (Best when a variable is isolated)
+##### A. Substitution Method (Best when a variable is isolated)
 
 1. **Isolate:** Solve one equation for one variable (e.g., y=…).
     
@@ -710,7 +710,7 @@ There are three primary methods for solving systems of linear equations:
 
 ---
 
-#### B. Elimination Method (Best when in Standard Form Ax+By=C)
+##### B. Elimination Method (Best when in Standard Form Ax+By=C)
 
 The goal is to eliminate one variable by adding or subtracting the equations.
 
@@ -740,7 +740,7 @@ The goal is to eliminate one variable by adding or subtracting the equations.
 
 ---
 
-#### C. Graphing Method
+##### C. Graphing Method
 
 1. **Convert:** Write both equations in **Slope-Intercept Form** (y=mx+b).
     
@@ -751,10 +751,11 @@ The goal is to eliminate one variable by adding or subtracting the equations.
 
 ---
 
-### 2. Types of Solutions (Algebraic and Graphical Outcomes)
+#### 2. Types of Solutions (Algebraic and Graphical Outcomes)
 
-|Algebraic Result|Graphical Result|Number of Solutions|
-|---|---|---|
-|x=number|**Intersecting Lines**|**One Solution** (x,y)|
-|Variables cancel; False statement (3=5)|**Parallel Lines**|**No Solution** (∅)|
-|Variables cancel; True statement (4=4)|**Same Line** (Coincident)|**Infinitely Many Solutions**|
+| Algebraic Result                        | Graphical Result           | Number of Solutions           |
+| --------------------------------------- | -------------------------- | ----------------------------- |
+| x=number                                | **Intersecting Lines**     | **One Solution** (x,y)        |
+| Variables cancel; False statement (3=5) | **Parallel Lines**         | **No Solution** (∅)           |
+| Variables cancel; True statement (4=4)  | **Same Line** (Coincident) | **Infinitely Many Solutions** |
+### Graphing Systems of Inequalities :
