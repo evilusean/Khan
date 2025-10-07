@@ -874,4 +874,6 @@ $$\mathbf{|x - 5| = 5}$$    (Divide by $\mathbf{2}$)
 If the absolute value expression is isolated and set equal to a **negative number**, there is **No Solution**.
 
 * **Example:** $\mathbf{|x + 1| = -4}$
-* **Reason:** An absolute value can never result in a negative number.
+* **Reason:** ==An absolute value can never result in a negative number.==
+## Fundamental Theorem of Arithmetic :
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=58m45s
