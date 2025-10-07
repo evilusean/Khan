@@ -758,4 +758,55 @@ The goal is to eliminate one variable by adding or subtracting the equations.
 | x=number                                | **Intersecting Lines**     | **One Solution** (x,y)        |
 | Variables cancel; False statement (3=5) | **Parallel Lines**         | **No Solution** (∅)           |
 | Variables cancel; True statement (4=4)  | **Same Line** (Coincident) | **Infinitely Many Solutions** |
-### Graphing Systems of Inequalities :
+### Graphing Systems of Inequalities 📝
+
+A **System of Linear Inequalities** is a set of two or more inequalities with the same variables. The **solution** to the system is the region on the coordinate plane where the shaded areas of all inequalities **overlap**.
+
+---
+
+#### 1. Graphing Each Boundary Line
+
+For each inequality, treat it as an equation ($\mathbf{y = mx + b}$) to find the boundary line, but use the correct style based on the inequality symbol:
+
+| Symbol | Line Style | Boundary Included? | Graphing Equivalent |
+| :--- | :--- | :--- | :--- |
+| $\mathbf{<}$ or $\mathbf{>}$ | **Dashed/Dotted** | No | Used for **strict** inequalities. |
+| $\mathbf{\le}$ or $\mathbf{\ge}$ | **Solid** | Yes | Used for **inclusive** inequalities. |
+
+---
+
+#### 2. Determining the Shading Region
+
+The final solution is the area where *all* conditions are met.
+
+**Method A: Quick Shading Rule (When y is isolated)**
+
+* **Shade ABOVE:** For $\mathbf{y >}$ or $\mathbf{y \ge}$ (Greater Than).
+* **Shade BELOW:** For $\mathbf{y <}$ or $\mathbf{y \le}$ (Less Than).
+
+**Method B: The Test Point (Universal Check)**
+
+1.  Pick a point **not on the line** (e.g., the origin $\mathbf{(0, 0)}$).
+2.  Substitute $\mathbf{(x, y)}$ into the inequality.
+3.  **If TRUE:** Shade the region **containing** the test point.
+4.  **If FALSE:** Shade the region **not containing** the test point.
+
+---
+
+#### 3. The Solution to the System
+
+1.  Graph the first inequality, including the correct line style and light shading.
+2.  Graph the second inequality on the **same plane**, using the correct line style and shading.
+3.  The **Solution Region** is the area where the two shaded regions **overlap** (often called the feasible region). This overlapping area is the *only* part that should be shaded darkly or highlighted as the final answer.
+
+**Example:** Find the solution to the system:
+$$\begin{cases} \mathbf{y > 2x - 1} & \text{(Line A)} \\ \mathbf{y \le -x + 4} & \text{(Line B)} \end{cases}$$
+
+1.  **Line A ($\mathbf{y > 2x - 1}$):**
+    * **Line:** Dashed (because of $\mathbf{>}$).
+    * **Shading:** Above (because of $\mathbf{>}$).
+2.  **Line B ($\mathbf{y \le -x + 4}$):**
+    * **Line:** Solid (because of $\mathbf{\le}$).
+    * **Shading:** Below (because of $\mathbf{\le}$).
+
+The **solution** is the area that is **above the dashed line A** AND **below the solid line B**.
