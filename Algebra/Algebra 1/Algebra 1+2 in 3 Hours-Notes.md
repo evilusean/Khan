@@ -672,3 +672,89 @@ This method always works, especially for vertical/horizontal lines or complex in
     * **If FALSE:** Shade the region **not containing** the test point.
 ## Systems of Equations :
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=36m10s
+### Systems of Linear Equations 🧩
+
+A **System of Linear Equations** is a set of two or more linear equations with the same set of variables (x and y). The **solution** is the ordered pair (x,y) that makes _all_ equations in the system true simultaneously.
+
+---
+
+### 1. Methods for Solving Systems
+
+There are three primary methods for solving systems of linear equations:
+
+#### A. Substitution Method (Best when a variable is isolated)
+
+1. **Isolate:** Solve one equation for one variable (e.g., y=…).
+    
+2. **Substitute:** Plug that expression into the _other_ equation.
+    
+3. **Solve** the resulting single-variable equation.
+    
+4. **Back-Substitute** the value to find the second variable.
+    
+
+**Example:**
+
+{y=x+12x+y=7​
+
+1. Substitute (x+1) for y in the second equation:
+    
+    2x+(x+1)=7
+    
+2. Solve for x: 3x+1=7→3x=6→x=2
+    
+3. Find y: y=2+1→y=3
+    
+4. **Solution:** (2,3)
+    
+
+---
+
+#### B. Elimination Method (Best when in Standard Form Ax+By=C)
+
+The goal is to eliminate one variable by adding or subtracting the equations.
+
+1. **Align:** Write both equations in **Standard Form**.
+    
+2. **Multiply (if needed):** Multiply one or both equations so that one variable has **opposite coefficients** (e.g., +4x and −4x).
+    
+3. **Add/Subtract** the equations to eliminate a variable.
+    
+4. **Solve & Back-Substitute** to find the values of x and y.
+    
+
+**Example:**
+
+{3x+2y=8−3x+y=4​
+
+1. The x coefficients (3 and −3) are opposites.
+    
+2. **Add** the equations: (3x+(−3x))+(2y+y)=8+4→3y=12
+    
+3. Solve for y: y=4
+    
+4. Find x: −3x+4=4→−3x=0→x=0
+    
+5. **Solution:** (0,4)
+    
+
+---
+
+#### C. Graphing Method
+
+1. **Convert:** Write both equations in **Slope-Intercept Form** (y=mx+b).
+    
+2. **Graph** both lines on the same coordinate plane.
+    
+3. The **intersection point** (x,y) is the solution.
+    
+
+---
+
+### 2. Types of Solutions (Algebraic and Graphical Outcomes)
+
+|Algebraic Result|Graphical Result|Number of Solutions|
+|---|---|---|
+|x=number|**Intersecting Lines**|**One Solution** (x,y)|
+|Variables cancel; False statement (3=5)|**Parallel Lines**|**No Solution** (∅)|
+|Variables cancel; True statement (4=4)|**Same Line** (Coincident)|**Infinitely Many Solutions**|
