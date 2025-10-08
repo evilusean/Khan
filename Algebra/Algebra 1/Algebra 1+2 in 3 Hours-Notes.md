@@ -1020,3 +1020,63 @@ Simplify the expression: $\mathbf{(3x^2y^4) \cdot (2x^3y^{-1})}$
 
 3.  **Simplify Exponents:**
     $$\mathbf{6x^5y^3}$$
+###  Radicals and Perfect Squares (Simplifying Roots) 🔲
+
+A **Radical Expression** is an expression that contains a square root symbol ($\mathbf{\sqrt{}}$). The goal in algebra is to **simplify** the radical as much as possible.
+
+---
+
+#### 1. Perfect Squares (The Foundation)
+
+A **perfect square** is the result of multiplying an integer by itself. Recognizing these numbers is key to simplifying radicals.
+
+| Integer ($\mathbf{n}$) | Perfect Square ($\mathbf{n^2}$) | Square Root ($\mathbf{\sqrt{n^2}}$) |
+| :--- | :--- | :--- |
+| $\mathbf{1}$ | $\mathbf{1}$ | $\mathbf{1}$ |
+| $\mathbf{2}$ | $\mathbf{4}$ | $\mathbf{2}$ |
+| $\mathbf{3}$ | $\mathbf{9}$ | $\mathbf{3}$ |
+| $\mathbf{4}$ | $\mathbf{16}$ | $\mathbf{4}$ |
+| $\mathbf{5}$ | $\mathbf{25}$ | $\mathbf{5}$ |
+| $\mathbf{10}$ | $\mathbf{100}$ | $\mathbf{10}$ |
+| $\mathbf{12}$ | $\mathbf{144}$ | $\mathbf{12}$ |
+
+---
+
+#### 2. Simplifying Radical Expressions
+
+The **Product Rule for Radicals** states that the square root of a product is the product of the square roots: $\mathbf{\sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b}}$.
+
+To simplify $\mathbf{\sqrt{N}}$, find the largest factor of $\mathbf{N}$ that is a perfect square.
+
+**Procedure:**
+
+1.  **Factor:** Find the **largest perfect square factor** of the number inside the radical ($\mathbf{N}$).
+2.  **Separate:** Rewrite the radical as the product of the square root of the perfect square and the square root of the remaining factor.
+3.  **Simplify:** Take the square root of the perfect square factor and leave the remainder under the radical.
+
+**Example 1: Numerical Simplification**
+
+Simplify $\mathbf{\sqrt{50}}$.
+
+1.  **Largest Perfect Square Factor:** The largest perfect square that divides $\mathbf{50}$ is $\mathbf{25}$.
+2.  **Separate:** $\mathbf{\sqrt{50} = \sqrt{25 \cdot 2}}$
+3.  **Simplify:** $\mathbf{\sqrt{25} \cdot \sqrt{2} = 5\sqrt{2}}$
+
+**Example 2: Simplification with Variables**
+
+The square root of a variable with an exponent is simplified by dividing the exponent by $\mathbf{2}$.
+
+Simplify $\mathbf{\sqrt{x^7}}$.
+
+1.  **Identify Largest Even Power:** The largest perfect square factor of $\mathbf{x^7}$ is $\mathbf{x^6}$ (since $6$ is the largest even number less than $7$).
+2.  **Separate:** $\mathbf{\sqrt{x^7} = \sqrt{x^6 \cdot x^1}}$
+3.  **Simplify:** $\mathbf{\sqrt{x^6} \cdot \sqrt{x} = x^3\sqrt{x}}$
+
+**Example 3: Combined Simplification**
+
+Simplify $\mathbf{\sqrt{72x^5}}$.
+
+1.  **Factor:** $\mathbf{\sqrt{72x^5} = \sqrt{(36 \cdot 2) \cdot (x^4 \cdot x)}}$
+2.  **Separate Perfect Squares:** $\mathbf{\sqrt{36} \cdot \sqrt{x^4} \cdot \sqrt{2x}}$
+3.  **Simplify:** $\mathbf{6 \cdot x^2 \cdot \sqrt{2x}}$
+4.  **Final Answer:** $\mathbf{6x^2\sqrt{2x}}$
