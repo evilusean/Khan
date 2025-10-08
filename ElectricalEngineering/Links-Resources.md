@@ -63,6 +63,8 @@ https://pastpapers.co/
 
 Essential Calculus Skills Practice Workbook with Full Solutions Paperback – Chris McMullen : 
 https://www.amazon.ca/Essential-Calculus-Practice-Workbook-Solutions/dp/1941691242
+Listen to music without lyrics - Lofi:
+https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow
 
 Engineering Degrees Ranked by Difficulty (Tier List) :
 https://www.youtube.com/watch?v=KIIh7XRDmuQ
