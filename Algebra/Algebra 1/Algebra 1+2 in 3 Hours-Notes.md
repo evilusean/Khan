@@ -915,3 +915,44 @@ The process of breaking a composite number down into its prime factors is called
 **Uniqueness:** No matter how you start the factor tree, the final unique result will **always** be $\mathbf{2^3 \times 3^2}$.
 - Tangent : I was literally going to write an app that does factorization as a fun little side project, and paste Sean already did it : https://github.com/evilusean/Pysean/blob/main/FactorFinder
 - Also found FibonnacSean : https://github.com/evilusean/Pysean/blob/main/FibonaccSean
+### Algebra 1 Notes: Greatest Common Factor (GCF) 🎯
+
+The **Greatest Common Factor (GCF)** of two or more integers is the **largest positive integer** that divides into each of the numbers without leaving a remainder.
+
+---
+
+#### 1. Definition and Use
+
+* **Definition:** The largest number that is a factor of every number in a given set.
+* **Primary Use in Algebra:** GCF is essential for **simplifying fractions** and performing **polynomial factoring** (e.g., Factoring out the GCF).
+
+---
+
+#### 2. Method: Prime Factorization
+
+The most reliable method for finding the GCF is breaking down the numbers into their prime components.
+
+1.  **Prime Factorization:** Find the prime factorization of each number, writing the result using exponents.
+2.  **Identify Common Primes:** List only the prime factors that **all** numbers share.
+3.  **Use Lowest Exponent:** For each common prime factor, choose the **lowest power** (exponent) that appears in any of the factorizations.
+4.  **Multiply:** Multiply these common factors (raised to their lowest powers) to get the GCF.
+
+---
+
+#### 3. Example
+
+Find the GCF of $\mathbf{54}$ and $\mathbf{90}$.
+
+**Step 1: Prime Factorization**
+* $$\mathbf{54 = 2^1 \times 3^3}$$
+* $$\mathbf{90 = 2^1 \times 3^2 \times 5^1}$$
+
+**Step 2 & 3: Identify Common Factors with Lowest Exponents**
+* **Common Prime 2:** Both have $\mathbf{2^1}$. (Lowest is $\mathbf{2^1}$).
+* **Common Prime 3:** Exponents are $\mathbf{3^3}$ and $\mathbf{3^2}$. (Lowest is $\mathbf{3^2}$).
+* (5 is not common, so it is ignored).
+
+**Step 4: Calculate the GCF**
+$$\mathbf{GCF} = 2^1 \times 3^2$$
+$$\mathbf{GCF} = 2 \times 9$$
+$$\mathbf{GCF = 18}$$
