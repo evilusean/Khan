@@ -918,3 +918,6 @@ The process of breaking a composite number down into its prime factors is called
     
 
 **Uniqueness:** No matter how you start the factor tree (e.g., 72=6×12 or 72=2×36), the final result will **always** be 23×32.
+- Tangent : I was literally going to write an app that does factorization as a fun little side project, and paste Sean already did it : https://github.com/evilusean/Pysean/blob/main/FactorFinder
+- Also found FibonnacSean : https://github.com/evilusean/Pysean/blob/main/FibonaccSean
+- 
