@@ -877,3 +877,44 @@ If the absolute value expression is isolated and set equal to a **negative numbe
 * **Reason:** ==An absolute value can never result in a negative number.==
 ## Fundamental Theorem of Arithmetic :
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=58m45s
+### Fundamental Theorem of Arithmetic (Prime Factorization)
+
+The **Fundamental Theorem of Arithmetic** (also called the Unique Factorization Theorem) is a core concept in number theory and forms the basis for many algebraic techniques involving fractions, factoring, and least common multiples.
+
+#### Definition
+
+The theorem states that **every integer greater than 1** is either a **prime number** itself or can be represented as a **product of prime numbers**, and this representation is **unique** (except for the order of the factors).
+
+- **Prime Number:** A whole number greater than 1 whose only factors are 1 and itself (e.g., 2, 3, 5, 7, 11).
+    
+- **Composite Number:** A whole number greater than 1 that has more than two factors (e.g., 4, 6, 8, 9, 10).
+    
+
+#### Procedure for Prime Factorization
+
+The process of breaking a composite number down into its prime factors is called **Prime Factorization**. This is typically done using a **Factor Tree**.
+
+**Example:** Find the prime factorization of the number **72**.
+
+1. **Start:** Begin with the number 72. Find any two factors that multiply to 72 (e.g., 8 and 9).
+    
+    72=8×9
+    
+2. **Continue Factoring:** Break down the composite factors (8 and 9) until all branches end in a prime number.
+    
+    - Factor 8: 8=2×4. (2 is prime; 4 is composite).
+        
+    - Factor 4: 4=2×2. (Both 2s are prime).
+        
+    - Factor 9: 9=3×3. (Both 3s are prime).
+        
+3. **Collect Prime Factors:** Gather all the prime numbers at the ends of the branches: 2,2,2,3,3.
+    
+4. **Write the Final Prime Factorization:** Write the primes as a product, using exponents for repeated factors.
+    
+    72=2×2×2×3×3
+    
+    72=23×32
+    
+
+**Uniqueness:** No matter how you start the factor tree (e.g., 72=6×12 or 72=2×36), the final result will **always** be 23×32.
