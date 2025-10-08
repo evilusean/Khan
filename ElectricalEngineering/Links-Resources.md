@@ -65,6 +65,8 @@ Essential Calculus Skills Practice Workbook with Full Solutions Paperback – C
 https://www.amazon.ca/Essential-Calculus-Practice-Workbook-Solutions/dp/1941691242
 Listen to music without lyrics - Lofi:
 https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow
+Get a timer to time sessions (2 hours) - Future Sean problem :
+https://wiki.archlinux.org/title/List_of_applications/Other#Timers
 
 Engineering Degrees Ranked by Difficulty (Tier List) :
 https://www.youtube.com/watch?v=KIIh7XRDmuQ
