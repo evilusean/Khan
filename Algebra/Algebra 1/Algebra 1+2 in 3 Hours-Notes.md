@@ -877,7 +877,7 @@ If the absolute value expression is isolated and set equal to a **negative numbe
 * **Reason:** ==An absolute value can never result in a negative number.==
 ## Fundamental Theorem of Arithmetic :
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=58m45s
-### Algebra 1 Notes: Fundamental Theorem of Arithmetic (Prime Factorization)
+### Fundamental Theorem of Arithmetic (Prime Factorization)
 
 The **Fundamental Theorem of Arithmetic** (also called the Unique Factorization Theorem) is a core concept in number theory and forms the basis for many algebraic techniques involving fractions, factoring, and least common multiples.
 
@@ -915,7 +915,7 @@ The process of breaking a composite number down into its prime factors is called
 **Uniqueness:** No matter how you start the factor tree, the final unique result will **always** be $\mathbf{2^3 \times 3^2}$.
 - Tangent : I was literally going to write an app that does factorization as a fun little side project, and paste Sean already did it : https://github.com/evilusean/Pysean/blob/main/FactorFinder
 - Also found FibonnacSean : https://github.com/evilusean/Pysean/blob/main/FibonaccSean
-### Algebra 1 Notes: Greatest Common Factor (GCF) 🎯
+### Greatest Common Factor (GCF) 🎯
 
 The **Greatest Common Factor (GCF)** of two or more integers is the **largest positive integer** that divides into each of the numbers without leaving a remainder.
 
@@ -956,3 +956,67 @@ Find the GCF of $\mathbf{54}$ and $\mathbf{90}$.
 $$\mathbf{GCF} = 2^1 \times 3^2$$
 $$\mathbf{GCF} = 2 \times 9$$
 $$\mathbf{GCF = 18}$$
+### Polynomials and Exponent Rules 💡
+
+A **Polynomial** is an expression consisting of variables and coefficients that involves only the operations of **addition, subtraction, multiplication**, and **non-negative integer exponents** of variables.
+
+---
+
+#### 1. Fundamental Exponent Rules (Simplifying Polynomials)
+
+These rules are used to simplify polynomials, especially when multiplying or dividing terms with the same base ($\mathbf{x}$).
+
+| Rule Name | Rule | Example | Principle |
+| :--- | :--- | :--- | :--- |
+| **Product Rule** (Multiplying) | $\mathbf{x^a \cdot x^b = x^{a+b}}$ | $\mathbf{x^3 \cdot x^5 = x^{3+5} = x^8}$ | When bases are multiplied, **add** the exponents. |
+| **Quotient Rule** (Dividing) | $\mathbf{\frac{x^a}{x^b} = x^{a-b}}$ | $\mathbf{\frac{x^7}{x^3} = x^{7-3} = x^4}$ | When bases are divided, **subtract** the exponents. |
+| **Power Rule** | $\mathbf{(x^a)^b = x^{a \cdot b}}$ | $\mathbf{(x^4)^2 = x^{4 \cdot 2} = x^8}$ | Raise a power to a power by **multiplying** the exponents. |
+
+---
+
+#### 2. Special Exponent Rules (Zero and Negative Exponents)
+
+These rules define how to handle special cases that arise from the Quotient Rule.
+
+**A. Zero Exponent Rule**
+
+* **Rule:** Any non-zero base raised to the power of zero equals **1**.
+* $$\mathbf{x^0 = 1}$$
+* **Derivation Example:**
+    $$\mathbf{\frac{x^a}{x^a} = x^{a-a} = x^0}$$
+    Since any non-zero number divided by itself is $\mathbf{1}$, it follows that:
+    $$\mathbf{\frac{x^a}{x^a} = 1}$$
+    Therefore, $\mathbf{x^0 = 1}$.
+
+**B. Negative Exponent Rule**
+
+* **Rule:** A negative exponent indicates the **reciprocal** of the base raised to the positive exponent. Negative exponents **do not** make the overall expression negative.
+* $$\mathbf{x^{-a} = \frac{1}{x^a}}$$
+* **Derivation Example:**
+    $$\mathbf{\frac{x^3}{x^5} = x^{3-5} = x^{-2}}$$
+    $$\mathbf{\frac{x^3}{x^5} = \frac{x \cdot x \cdot x}{x \cdot x \cdot x \cdot x \cdot x} = \frac{1}{x \cdot x} = \frac{1}{x^2}}$$
+    Therefore, $\mathbf{x^{-2} = \frac{1}{x^2}}$.
+
+---
+
+#### 3. Combining Rules (Multiplication and Reciprocal)
+
+The following two expressions are equivalent ways of showing a term multiplied by its reciprocal, illustrating how the exponent rules simplify to $\mathbf{1}$.
+
+* $$\mathbf{x^a \cdot \frac{1}{x^a} = x^a \cdot x^{-a} = x^{a + (-a)} = x^0 = 1}$$
+* $$\mathbf{x^{a-a} = x^0 = 1}$$
+
+---
+
+#### 4. Simplifying Polynomials Example
+
+Simplify the expression: $\mathbf{(3x^2y^4) \cdot (2x^3y^{-1})}$
+
+1.  **Group Coefficients and Bases:**
+    $$\mathbf{(3 \cdot 2) \cdot (x^2 \cdot x^3) \cdot (y^4 \cdot y^{-1})}$$
+
+2.  **Apply Product Rule to Bases:**
+    $$\mathbf{6 \cdot x^{2+3} \cdot y^{4+(-1)}}$$
+
+3.  **Simplify Exponents:**
+    $$\mathbf{6x^5y^3}$$
