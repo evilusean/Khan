@@ -1220,5 +1220,95 @@ Solve: $\mathbf{(2x - y)(x + 5y - 1)}$
 
 5.  **Final Answer (Standard Form):**
     $$\mathbf{2x^2 + 9xy - 5y^2 - 2x + y}$$
-### Factoring Trinomials :
+### Factoring Trinomials and Special Forms 🛠️
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=1h31m
+
+Factoring a trinomial ($\mathbf{ax^2 + bx + c}$) is the process of reversing polynomial multiplication (FOIL) to rewrite the expression as a product of two binomials.
+
+---
+
+#### 1. Factoring General Trinomials ($\mathbf{a=1}$)
+
+For a trinomial of the form $\mathbf{x^2 + bx + c}$, the goal is to find two numbers ($\mathbf{p}$ and $\mathbf{q}$) that satisfy two conditions:
+
+* **Product Condition:** $\mathbf{p \cdot q = c}$ (They multiply to the constant term)
+* **Sum Condition:** $\mathbf{p + q = b}$ (They add up to the middle coefficient)
+
+The factored form is $\mathbf{(x + p)(x + q)}$.
+
+**Example:** Factor $\mathbf{x^2 + 5x + 6}$
+
+1.  Find two numbers that multiply to $\mathbf{6}$ and add to $\mathbf{5}$.
+    $$\text{Factors of 6: } (1, 6), (2, 3)$$
+2.  The pair $\mathbf{2}$ and $\mathbf{3}$ works ($\mathbf{2 \cdot 3 = 6}$ and $\mathbf{2 + 3 = 5}$).
+3.  **Final Factored Form:** $\mathbf{(x + 2)(x + 3)}$
+
+---
+
+#### 2. Factoring by Grouping ($\mathbf{a \neq 1}$)
+
+For trinomials where $\mathbf{a > 1}$ ($\mathbf{ax^2 + bx + c}$), use the **a-c Method** (Factoring by Grouping).
+
+**Procedure:**
+
+1.  **Find the Product:** Calculate $\mathbf{a \cdot c}$.
+2.  **Find the Pair:** Find two numbers ($\mathbf{p}$ and $\mathbf{q}$) that multiply to $\mathbf{a \cdot c}$ and add to $\mathbf{b}$.
+3.  **Rewrite:** Rewrite the middle term ($\mathbf{bx}$) using $\mathbf{p}$ and $\mathbf{q}$: $\mathbf{ax^2 + px + qx + c}$.
+4.  **Group:** Group the terms into two pairs and factor the $\mathbf{GCF}$ from each pair.
+5.  **Final Factor:** Factor out the common binomial factor.
+
+**Example:** Factor $\mathbf{2x^2 + 7x + 3}$
+
+1.  **a $\cdot$ c:** $\mathbf{2 \cdot 3 = 6}$.
+2.  **Find Pair:** Numbers that multiply to $\mathbf{6}$ and add to $\mathbf{7}$ are $\mathbf{6}$ and $\mathbf{1}$.
+3.  **Rewrite:** $\mathbf{2x^2 + 6x + 1x + 3}$
+4.  **Group:** $\mathbf{(2x^2 + 6x) + (x + 3)}$
+5.  **Factor GCF:** $\mathbf{2x(x + 3) + 1(x + 3)}$
+6.  **Final Answer:** $\mathbf{(2x + 1)(x + 3)}$
+
+---
+
+#### 3. Special Factoring Form: Perfect Square Trinomials (PST)
+
+A **Perfect Square Trinomial** is a trinomial that results from squaring a binomial, making it factorable into two identical binomials.
+
+* **Form 1:** $\mathbf{a^2 + 2ab + b^2 = (a + b)^2}$
+* **Form 2:** $\mathbf{a^2 - 2ab + b^2 = (a - b)^2}$
+
+**Identifying a PST:**
+1.  The first term ($\mathbf{a^2}$) and the last term ($\mathbf{b^2}$) are both **perfect squares**.
+2.  The middle term ($\mathbf{2ab}$) is **twice the product** of the square roots of the first and last terms.
+
+**Example:** Factor $\mathbf{9x^2 - 30x + 25}$
+1.  $\mathbf{\sqrt{9x^2} = 3x}$ ($\mathbf{a=3x}$) and $\mathbf{\sqrt{25} = 5}$ ($\mathbf{b=5}$).
+2.  Check Middle Term: $\mathbf{2ab = 2(3x)(5) = 30x}$. (Matches!)
+3.  **Final Factored Form:** $\mathbf{(3x - 5)^2}$
+
+---
+
+#### 4. Factoring Exponents and GCF
+
+Always look for a **Greatest Common Factor (GCF)** first, especially with variables. When factoring a GCF, use the **smallest exponent** present in all terms.
+
+**Factoring Exponent Rule:** $\mathbf{x^a + x^b = x^{\min(a,b)} \cdot (x^{a - \min(a,b)} + x^{b - \min(a,b)})}$
+
+**Example:** Factor $\mathbf{4x^5 - 8x^3 + 12x^2}$
+
+1.  **GCF (Coefficients):** $\mathbf{4}$
+2.  **GCF (Variables):** Smallest exponent of $\mathbf{x}$ is $\mathbf{x^2}$.
+3.  **Overall GCF:** $\mathbf{4x^2}$
+4.  **Factor Out GCF:** $\mathbf{4x^2(\hphantom{x})}$
+5.  **Use Subtraction Rule to find remaining exponents:**
+    * $\mathbf{4x^5 / 4x^2 = 1x^{5-2} = x^3}$
+    * $\mathbf{-8x^3 / 4x^2 = -2x^{3-2} = -2x^1}$
+    * $\mathbf{+12x^2 / 4x^2 = +3x^{2-2} = 3x^0 = 3}$
+6.  **Final Answer:** $\mathbf{4x^2(x^3 - 2x + 3)}$
+
+---
+
+#### 5. Note on Perfect Cubes
+
+The term **Perfect Cube** is related to the **Sum or Difference of Cubes** factoring patterns, which are different from trinomial factoring.
+
+* **Sum of Cubes:** $\mathbf{a^3 + b^3 = (a + b)(a^2 - ab + b^2)}$
+* **Difference of Cubes:** $\mathbf{a^3 - b^3 = (a - b)(a^2 + ab + b^2)}$
