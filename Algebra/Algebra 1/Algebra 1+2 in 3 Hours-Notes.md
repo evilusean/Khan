@@ -1382,3 +1382,66 @@ $$\mathbf{\hphantom{-4}} \text{ | } \mathbf{1} \quad \mathbf{-2} \quad \mathbf{3
 **Final Answer:** $$\mathbf{x^2 - 2x + 3}$$
 ### Quadratic Formula :
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=1h46m45s
+
+The **Quadratic Formula** is an algebraic tool used to find the solutions (roots, zeros, or x-intercepts) of any **quadratic equation** in standard form.
+
+---
+
+#### 1. The Standard Form and The Formula
+
+The formula works for any quadratic equation written in the **Standard Form**:
+$$\mathbf{ax^2 + bx + c = 0}$$
+
+The **Quadratic Formula** is:
+$$\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$$
+
+* **Variables:** $\mathbf{a}$, $\mathbf{b}$, and $\mathbf{c}$ are the coefficients from the standard form equation.
+* **Result:** The formula provides **two** potential solutions due to the $\mathbf{\pm}$ sign: $\mathbf{x_1}$ (using the $+$) and $\mathbf{x_2}$ (using the $-$).
+
+---
+
+#### 2. The Discriminant ($\mathbf{D}$)
+
+The expression **under the square root** is called the **Discriminant** ($\mathbf{D}$). It determines the number and type of solutions the equation has.
+
+$$\mathbf{D = b^2 - 4ac}$$
+
+| Value of D | Number and Type of Solutions (Roots) |
+| :--- | :--- |
+| $\mathbf{D > 0}$ (Positive) | **Two** distinct real solutions. |
+| $\mathbf{D = 0}$ | **One** real solution (a double root). |
+| $\mathbf{D < 0}$ (Negative) | **Zero** real solutions (Two complex/imaginary solutions). |
+
+---
+
+#### 3. Step-by-Step Use
+
+**Example:** Solve $\mathbf{3x^2 - 5x + 2 = 0}$ using the formula.
+
+**Step 1: Identify $\mathbf{a, b, c}$**
+* Ensure the equation is set to zero ($\mathbf{= 0}$).
+* Identify the coefficients: $\mathbf{a=3}$, $\mathbf{b=-5}$, $\mathbf{c=2}$.
+
+**Step 2: Calculate the Discriminant (Optional, but recommended)**
+* Substitute values into $\mathbf{D = b^2 - 4ac}$:
+    $$\mathbf{D = (-5)^2 - 4(3)(2)}$$
+    $$\mathbf{D = 25 - 24}$$
+    $$\mathbf{D = 1}$$
+* **Analysis:** Since $\mathbf{D > 0}$, there are two real solutions.
+
+**Step 3: Substitute Values into the Formula**
+* Substitute $\mathbf{a, b, c}$ into the full formula:
+    $$\mathbf{x = \frac{-(-5) \pm \sqrt{(-5)^2 - 4(3)(2)}}{2(3)}}$$
+
+**Step 4: Simplify**
+* Simplify the numerator and denominator:
+    $$\mathbf{x = \frac{5 \pm \sqrt{1}}{6}}$$
+    $$\mathbf{x = \frac{5 \pm 1}{6}}$$
+
+**Step 5: Separate and Find the Solutions**
+* **Solution 1 (Using +):**
+    $$\mathbf{x_1 = \frac{5 + 1}{6} = \frac{6}{6} = 1}$$
+* **Solution 2 (Using -):**
+    $$\mathbf{x_2 = \frac{5 - 1}{6} = \frac{4}{6} = \frac{2}{3}}$$
+
+**Final Answer:** The solutions are $\mathbf{x = 1}$ and $\mathbf{x = 2/3}$.
