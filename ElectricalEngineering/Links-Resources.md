@@ -67,6 +67,8 @@ Listen to music without lyrics - Lofi:
 https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow
 Get a timer to time sessions (2 hours) - Future Sean problem :
 https://wiki.archlinux.org/title/List_of_applications/Other#Timers
+Xournal++ = NoteTaking App (works with a stylus/built in latex support/geometry tools/PDF annotation) :
+'sudo pacman -S xournalpp'
 
 Engineering Degrees Ranked by Difficulty (Tier List) :
 https://www.youtube.com/watch?v=KIIh7XRDmuQ
