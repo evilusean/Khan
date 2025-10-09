@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=zPgfIOWVnF4
 Notes :
 https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy8zYjAzMDlhNTc5ZWJkNjM2L0VUYlc2M21sQ1FNZ2dEdXdyQUFBQUFBQm1xV3RlcVgtbVU2SkZ3LUhIVk9xU0E%5FZT16M3QwNnc&cid=3B0309A579EBD636&id=3B0309A579EBD636%2144208&parId=root&o=OneUp
 
+Future Sean : Around 'Synthetic Division' started to get lost, going to need to review, just trying to finish the tutorial before I do
+
 ## 📝 Algebra 1 Essential Formulas: Detailed Explanations & Breakdowns
 
 ---
