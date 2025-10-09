@@ -1520,3 +1520,5 @@ To add or subtract, you must have a **Least Common Denominator (LCD)**.
 2.  **Adjust Numerators:** Multiply the numerator and denominator of each fraction by the factor(s) needed to create the LCD.
 3.  **Combine:** Add or subtract the numerators (distributing the subtraction sign if necessary).
 4.  **Simplify:** Simplify the resulting fraction by factoring and canceling any final common terms.
+### Functions :
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h45s
