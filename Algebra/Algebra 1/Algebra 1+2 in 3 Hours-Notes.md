@@ -1314,3 +1314,69 @@ The term **Perfect Cube** is related to the **Sum or Difference of Cubes** facto
 * **Difference of Cubes:** $\mathbf{a^3 - b^3 = (a - b)(a^2 + ab + b^2)}$
 ### Synthetic Division ➗
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=1h39m45s
+**Synthetic Division** is a quick, shorthand method for dividing a **polynomial** by a **linear binomial** of the form $\mathbf{(x - k)}$. It is much faster and simpler than long division.
+
+---
+
+#### 1. When to Use Synthetic Division
+
+* **Divisor Must Be Linear:** The divisor must be in the form $\mathbf{(x - k)}$ or $\mathbf{(x + k)}$.
+    * **Example (OK):** $\mathbf{(x - 3)}$, $\mathbf{(x + 5)}$, $\mathbf{(x - 1/2)}$
+    * **Example (NOT OK):** $\mathbf{(x^2 + 1)}$, $\mathbf{(2x - 1)}$ (You must factor out the 2 first).
+
+---
+
+#### 2. The Setup
+
+To divide a polynomial $P(x)$ by $\mathbf{(x - k)}$:
+
+1.  **Identify $k$:** Set the divisor equal to zero to find $\mathbf{k}$.
+    * If the divisor is $\mathbf{(x - 3)}$, then $\mathbf{k = 3}$.
+    * If the divisor is $\mathbf{(x + 5)}$, then $\mathbf{k = -5}$.
+2.  **Standard Form:** Ensure the polynomial $P(x)$ is written in **standard form** (highest exponent first).
+3.  **Placeholders:** If any term is missing (e.g., no $\mathbf{x^2}$ term), you **must** use a $\mathbf{0}$ as a placeholder for its coefficient.
+4.  **Write Coefficients:** Write the coefficients of the polynomial in a row.
+
+$$\text{Setup: } \mathbf{k} \text{ | } \mathbf{a} \quad \mathbf{b} \quad \mathbf{c} \quad \mathbf{d} \dots$$
+
+---
+
+#### 3. The Procedure
+
+Follow these steps for every coefficient:
+
+1.  **Drop:** Bring the **first coefficient** ($\mathbf{a}$) straight down below the line.
+2.  **Multiply:** Multiply the number you just wrote ($\mathbf{a}$) by $\mathbf{k}$. Write the result under the next coefficient ($\mathbf{b}$).
+3.  **Add:** Add the numbers in the second column ($\mathbf{b}$ and the product). Write the result below the line.
+4.  **Repeat:** Continue the multiply-and-add cycle until you reach the end.
+
+---
+
+#### 4. Interpreting the Result
+
+The numbers below the line represent the coefficients of the **quotient polynomial** and the **remainder**.
+
+$$\text{Result: } \mathbf{a} \quad \mathbf{\text{coeff}_2} \quad \mathbf{\text{coeff}_1} \quad \mathbf{\text{Remainder}}$$
+
+1.  The **last number** is the **Remainder ($\mathbf{R}$)**.
+2.  The remaining numbers are the coefficients of the quotient, starting with an exponent **one less** than the original polynomial's highest exponent.
+
+$$\mathbf{\text{Quotient} = (\text{coeff}_2)x^2 + (\text{coeff}_1)x + \text{Constant} + \frac{R}{\text{Divisor}}}$$
+
+---
+
+#### 5. Example: $\mathbf{(x^3 + 2x^2 - 5x + 12) \div (x + 4)}$
+
+1.  **Identify $k$:** Divisor is $\mathbf{(x + 4)}$, so $\mathbf{k = -4}$.
+2.  **Coefficients:** $\mathbf{1, 2, -5, 12}$. (No missing terms).
+
+$$\mathbf{-4} \text{ | } \mathbf{1} \quad \mathbf{2} \quad \mathbf{-5} \quad \mathbf{12}$$
+$$\mathbf{\hphantom{-4}} \text{ | } \mathbf{\hphantom{1}} \quad \mathbf{-4} \quad \mathbf{8} \quad \mathbf{-12}$$
+$$\mathbf{\hphantom{-4}} \text{ | } \mathbf{\hphantom{1}} \quad \mathbf{\hphantom{2}} \quad \mathbf{\hphantom{-5}} \quad \mathbf{\hphantom{12}}$$
+$$\mathbf{\hphantom{-4}} \text{ | } \mathbf{1} \quad \mathbf{-2} \quad \mathbf{3} \quad \mathbf{0}$$
+
+* **Remainder:** $\mathbf{0}$
+* **Quotient Coefficients:** $\mathbf{1, -2, 3}$
+* **Quotient Polynomial:** Since the original polynomial was degree 3, the quotient starts at degree 2.
+
+**Final Answer:** $$\mathbf{x^2 - 2x + 3}$$
