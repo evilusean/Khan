@@ -1445,5 +1445,76 @@ $$\mathbf{D = b^2 - 4ac}$$
     $$\mathbf{x_2 = \frac{5 - 1}{6} = \frac{4}{6} = \frac{2}{3}}$$
 
 **Final Answer:** The solutions are $\mathbf{x = 1}$ and $\mathbf{x = 2/3}$.
-### Rational Expressions :
+### Rational Expressions (Fractions with Polynomials) 🧩:
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=1h48m50s
+
+A **Rational Expression** is a fraction where both the numerator and the denominator are **polynomials**. It is essentially the ratio of two polynomials.
+
+$$\text{Example: } \mathbf{\frac{x^2 - 4}{x + 2}} \quad \text{or} \quad \mathbf{\frac{3a + 9}{a^2 - 1}}$$
+
+---
+
+#### 1. The Fundamental Rule: Excluded Values
+
+The most important rule for rational expressions is that the **denominator can never equal zero**. This defines the **Excluded Values** (or domain restrictions).
+
+**Procedure to find Excluded Values:**
+
+1.  Set the **denominator** equal to zero.
+2.  Solve the resulting equation for the variable(s).
+3.  These values are the domain restrictions—the numbers the variable **cannot** equal.
+
+**Example:** Find the excluded value for $\mathbf{\frac{5x}{x - 3}}$
+
+1.  Set denominator to zero: $\mathbf{x - 3 = 0}$
+2.  Solve: $\mathbf{x = 3}$
+3.  **Excluded Value:** $\mathbf{x \neq 3}$
+
+---
+
+#### 2. Simplifying Rational Expressions
+
+Simplifying (or reducing) rational expressions requires factoring both the numerator and the denominator and then canceling common factors.
+
+**Procedure:**
+
+1.  **Factor:** Completely factor the numerator and the denominator. Use all factoring techniques (GCF, trinomial factoring, Difference of Squares).
+2.  **Cancel:** Identify and cancel any identical factors that appear in **both** the numerator and the denominator.
+
+**Example:** Simplify $\mathbf{\frac{x^2 + 5x + 6}{x + 2}}$
+
+1.  **Factor:**
+    * Numerator: $\mathbf{x^2 + 5x + 6 = (x + 2)(x + 3)}$
+    * Denominator: $\mathbf{(x + 2)}$
+    $$\mathbf{\frac{(x + 2)(x + 3)}{(x + 2)}}$$
+2.  **Cancel:** Cancel the common factor $\mathbf{(x + 2)}$.
+3.  **Simplified Form:** $\mathbf{x + 3}$
+    *(Note: The excluded value here is still $x \neq -2$, even though the simplified form doesn't show it.)*
+
+---
+
+#### 3. Multiplying and Dividing Rational Expressions
+
+**A. Multiplication**
+
+* **Rule:** Multiply the numerators and multiply the denominators. $\mathbf{\frac{A}{B} \cdot \frac{C}{D} = \frac{AC}{BD}}$
+* **Best Practice:** Factor all parts first, cancel common factors **diagonally** and **vertically**, and then multiply the remaining terms.
+
+**B. Division**
+
+* **Rule:** Change the operation to multiplication and use the **reciprocal** (flip) of the second fraction (**"Keep, Change, Flip"**).
+* $\mathbf{\frac{A}{B} \div \frac{C}{D} = \frac{A}{B} \cdot \frac{D}{C}}$
+* Then, follow the steps for multiplication (factor, cancel, multiply).
+
+---
+
+#### 4. Adding and Subtracting Rational Expressions
+
+To add or subtract, you must have a **Least Common Denominator (LCD)**.
+
+**Procedure:**
+
+1.  **Find LCD:** Factor all denominators and find the LCD by taking every unique factor, raised to its highest power.
+2.  **Adjust Numerators:** Multiply the numerator and denominator of each fraction by the factor(s) needed to create the LCD.
+3.  **Combine:** Add or subtract the numerators (distributing the subtraction sign if necessary).
+4.  **Simplify:** Simplify the resulting fraction by factoring and canceling any final common terms.
