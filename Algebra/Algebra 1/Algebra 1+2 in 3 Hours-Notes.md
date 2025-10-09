@@ -1151,3 +1151,72 @@ Simplify $\mathbf{\sqrt{72x^5}}$.
 3.  **Simplify:** $\mathbf{6 \cdot x^2 \cdot \sqrt{2x}}$
 4.  **Final Answer:** $\mathbf{6x^2\sqrt{2x}}$
 
+### Multiplying Polynomials (FOIL & Distribution) ✖️
+
+Multiplying polynomials involves ensuring **every term** in the first polynomial is multiplied by **every term** in the second polynomial.
+
+---
+
+#### 1. The FOIL Method (For Binomials Only)
+
+The **FOIL** method is a mnemonic used specifically for multiplying two **binomials** (polynomials with two terms).
+
+* **F**irst: Multiply the **F**irst terms of each binomial.
+* **O**uter: Multiply the **O**uter (outside) terms.
+* **I**nner: Multiply the **I**nner (inside) terms.
+* **L**ast: Multiply the **L**ast terms of each binomial.
+
+**Example A: Simple Binomial Multiplication**
+
+Solve: $\mathbf{(x - 4)(x - 4)}$
+
+1.  **F**irst: $\mathbf{x \cdot x = x^2}$
+2.  **O**uter: $\mathbf{x \cdot (-4) = -4x}$
+3.  **I**nner: $\mathbf{(-4) \cdot x = -4x}$
+4.  **L**ast: $\mathbf{(-4) \cdot (-4) = +16}$
+5.  **Combine Like Terms:** $\mathbf{x^2 - 4x - 4x + 16}$
+6.  **Final Answer:** $\mathbf{x^2 - 8x + 16}$
+    *(Note: This is a Perfect Square Trinomial, which is the result of 'Completing the Square').*
+
+**Example B: Binomials with Coefficients**
+
+Solve: $\mathbf{(y - 1)(2y + 3)}$
+
+1.  **F**irst: $\mathbf{y \cdot 2y = 2y^2}$
+2.  **O**uter: $\mathbf{y \cdot (+3) = +3y}$
+3.  **I**nner: $\mathbf{(-1) \cdot 2y = -2y}$
+4.  **L**ast: $\mathbf{(-1) \cdot (+3) = -3}$
+5.  **Combine Like Terms:** $\mathbf{2y^2 + 3y - 2y - 3}$
+6.  **Final Answer:** $\mathbf{2y^2 + y - 3}$
+
+---
+
+#### 2. The Distributive Property (For All Polynomials)
+
+When multiplying a binomial by a trinomial (or any larger polynomial), the **Distributive Property** must be used. FOIL is simply a specialized version of this.
+
+**Procedure:**
+Multiply **every term** in the first polynomial by **every term** in the second polynomial.
+
+**Example C: Binomial by Trinomial**
+
+Solve: $\mathbf{(2x - y)(x + 5y - 1)}$
+
+1.  **Distribute $\mathbf{2x}$ to the Trinomial:**
+    * $\mathbf{2x \cdot x = 2x^2}$
+    * $\mathbf{2x \cdot 5y = +10xy}$
+    * $\mathbf{2x \cdot (-1) = -2x}$
+
+2.  **Distribute $\mathbf{-y}$ to the Trinomial:**
+    * $\mathbf{-y \cdot x = -xy}$
+    * $\mathbf{-y \cdot 5y = -5y^2}$
+    * $\mathbf{-y \cdot (-1) = +y}$
+
+3.  **Combine All Terms:**
+    $$\mathbf{2x^2 + 10xy - 2x - xy - 5y^2 + y}$$
+
+4.  **Combine Like Terms** ($\mathbf{10xy}$ and $\mathbf{-xy}$):
+    $$\mathbf{2x^2 + 9xy - 5y^2 - 2x + y}$$
+
+5.  **Final Answer (Standard Form):**
+    $$\mathbf{2x^2 + 9xy - 5y^2 - 2x + y}$$
