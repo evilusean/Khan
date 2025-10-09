@@ -1096,7 +1096,7 @@ Simplify $\mathbf{\sqrt{72x^5}}$.
 
 ---
 
-#### 1. Perfect Squares (The Foundation)
+### 1. Perfect Squares (The Foundation)
 
 A **perfect square** is the result of multiplying an integer by itself. Recognizing these numbers is key to simplifying radicals.
 
