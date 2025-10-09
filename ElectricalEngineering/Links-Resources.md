@@ -68,7 +68,8 @@ https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow
 Get a timer to time sessions (2 hours) - Future Sean problem :
 https://wiki.archlinux.org/title/List_of_applications/Other#Timers
 Xournal++ = NoteTaking App (works with a stylus/built in latex support/geometry tools/PDF annotation) :
-'sudo pacman -S xournalpp'
+'sudo pacman -S xournalpp' # installs xournal, save the trees, work it out by hand electronically
+'sudo pacman -S texlive-core' # required to use latex with xournal
 
 Engineering Degrees Ranked by Difficulty (Tier List) :
 https://www.youtube.com/watch?v=KIIh7XRDmuQ
