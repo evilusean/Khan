@@ -1312,3 +1312,5 @@ The term **Perfect Cube** is related to the **Sum or Difference of Cubes** facto
 
 * **Sum of Cubes:** $\mathbf{a^3 + b^3 = (a + b)(a^2 - ab + b^2)}$
 * **Difference of Cubes:** $\mathbf{a^3 - b^3 = (a - b)(a^2 + ab + b^2)}$
+### Synthetic Division ➗
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=1h39m45s
