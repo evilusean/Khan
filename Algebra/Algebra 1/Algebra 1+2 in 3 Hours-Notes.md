@@ -1380,3 +1380,5 @@ $$\mathbf{\hphantom{-4}} \text{ | } \mathbf{1} \quad \mathbf{-2} \quad \mathbf{3
 * **Quotient Polynomial:** Since the original polynomial was degree 3, the quotient starts at degree 2.
 
 **Final Answer:** $$\mathbf{x^2 - 2x + 3}$$
+### Quadratic Formula :
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=1h46m45s
