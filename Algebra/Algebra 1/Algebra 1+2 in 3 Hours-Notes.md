@@ -1220,3 +1220,5 @@ Solve: $\mathbf{(2x - y)(x + 5y - 1)}$
 
 5.  **Final Answer (Standard Form):**
     $$\mathbf{2x^2 + 9xy - 5y^2 - 2x + y}$$
+### Factoring Trinomials :
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=1h31m
