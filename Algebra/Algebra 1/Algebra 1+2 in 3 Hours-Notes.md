@@ -1445,3 +1445,5 @@ $$\mathbf{D = b^2 - 4ac}$$
     $$\mathbf{x_2 = \frac{5 - 1}{6} = \frac{4}{6} = \frac{2}{3}}$$
 
 **Final Answer:** The solutions are $\mathbf{x = 1}$ and $\mathbf{x = 2/3}$.
+### Rational Expressions :
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=1h48m50s
