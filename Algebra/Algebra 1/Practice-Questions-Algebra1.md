@@ -32,3 +32,23 @@ Given the polynomial $P(x) = 3x^5 - x^4 + 10x^3 - 2x + 5$, use synthetic divisio
 1.  Determine the remainder $R$.
 2.  State the quotient $Q(x)$.
 What does the Remainder Theorem tell you about the value of $P(1)$?
+#### Date: 2025-10-10
+#### Subject: Synthetic Division (Set 2)
+
+#### Question 4
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Use synthetic division to evaluate $P(-3)$ for the polynomial $P(x) = x^4 - 6x^3 + 2x^2 - 4x + 10$. What does the result tell you about the linear factor $(x+3)$?
+
+#### Question 5
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+The volume $V(x)$ of a rectangular prism is given by the polynomial $V(x) = 3x^3 + 14x^2 + 7x - 6$. If one side length is known to be $(3x - 1)$, use synthetic division to find the polynomial $A(x)$ representing the area of the base (i.e., the quotient of the division).
+
+#### Question 6
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+A polynomial division resulted in the quotient $Q(x) = x^3 - 5x + 8$ and the remainder $R = -2$. If the divisor was $D(x) = x + 4$, write the original dividend $P(x)$ in standard form. (Hint: Use the formula $P(x) = D(x) \cdot Q(x) + R$).
