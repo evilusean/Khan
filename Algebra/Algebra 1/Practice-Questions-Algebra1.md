@@ -25,7 +25,7 @@ Use synthetic division to find the quotient $Q(x)$ and the remainder $R$ when th
 - [x] Added to Anki ✅ 2025-10-10
 Perform synthetic division to divide the polynomial $P(x) = 6x^3 - 7x^2 + 5x - 8$ by the binomial $D(x) = 2x - 1$. State the correct final quotient $Q(x)$ and the remainder $R$.
 #### Question 3
-- [ ] Completed
+- [x] Completed ✅ 2025-10-10
 - [ ] Correct
 - [x] Added to Anki ✅ 2025-10-10
 Given the polynomial $P(x) = 3x^5 - x^4 + 10x^3 - 2x + 5$, use synthetic division with the divisor $D(x) = x - 1$ to accomplish two things:
