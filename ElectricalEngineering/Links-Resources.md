@@ -71,8 +71,7 @@ Xournal++ = NoteTaking App (works with a stylus/built in latex support/geometry 
 'sudo pacman -S xournalpp' # installs xournal, save the trees, work it out by hand electronically
 'sudo pacman -S texlive-core' # required to use latex with xournal
 'sudo pacman -S xf86-input-wacom libwacom' # get wacom stylus tablet working with xournalpp
-'yay -S opentabletdriver' # get options, with split monitors I can only work with half a screen, and stylus buttons don't erase or move properly
-'otd-gui' # opens opentabletdriver
+
 
 
 Engineering Degrees Ranked by Difficulty (Tier List) :
