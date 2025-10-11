@@ -116,3 +116,27 @@ Simplify the expression $\frac{x^2 - 3x - 10}{x^2 - 2x - 15}$. State any exclude
 - [x] Correct ✅ 2025-10-11
 - [x] Added to Anki ✅ 2025-10-11
 Simplify the expression $\frac{10 - 2y}{y^2 - 25}$. State any excluded values.
+
+#### Date: 2025-10-11
+#### Subject: Rational Expressions (Set 2: Multiplication/Division)
+
+#### Question 4
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Multiply and simplify the expression: $$\frac{x^2 - 16}{x^2 + 7x + 12} \cdot \frac{x + 3}{x - 4}$$
+State all excluded values.
+
+#### Question 5
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Divide and simplify the expression: $$\frac{3a^2 - 15a}{a^2 - 9} \div \frac{a - 5}{a^2 - 6a + 9}$$
+State all excluded values.
+
+#### Question 6
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Multiply and simplify the expression: $$\frac{2x^2 + 5x - 3}{4x^2 - 4x + 1} \cdot \frac{2x^2 - 7x + 3}{x^2 + 4x - 5}$$
+State all excluded values.
