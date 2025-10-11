@@ -261,45 +261,44 @@ These tools are used to quickly divide polynomials by linear factors and evaluat
 
 #### 1. Synthetic Division
 
-Synthetic division is the rapid method for dividing a polynomial, $P(x)$, by a linear binomial of the form $\mathbf{(x - k)}$.
+Synthetic division is the rapid method for dividing a **Dividend Polynomial, $\mathbf{P(x)}$**, by a **linear Divisor** of the form $\mathbf{(x - k)}$.
 
 * **Divisor Form:** $\mathbf{(x - k)}$
-* **Term Used for Division:** $\mathbf{k}$ (the root of the divisor)
+* **Term Used for Division:** $\mathbf{k}$ (the root/zero of the divisor).
 
 **Setup Notation:**
-The divisor $\mathbf{(x - k)}$ is represented by the root $\mathbf{k}$, followed by the coefficients of $P(x)$, including zeros for missing terms:
+The divisor $\mathbf{(x - k)}$ is represented by the root $\mathbf{k}$. The $\mathbf{c_n}$ terms are the coefficients of $\mathbf{P(x)}$ (use $\mathbf{0}$ for missing powers).
 
 $$\mathbf{k} \text{ | } \mathbf{c_n} \quad \mathbf{c_{n-1}} \quad \mathbf{\dots} \quad \mathbf{c_1} \quad \mathbf{c_0}$$
 
-**Result (The Quotient $Q(x)$ and Remainder $R$):**
-When $P(x)$ is divided by $\mathbf{(x - k)}$, the result is the quotient $Q(x)$ plus the remainder $R$ over the divisor:
+**Result (The Quotient $\mathbf{Q(x)}$ and Remainder $\mathbf{R}$):**
+The result consists of the **Quotient Polynomial, $\mathbf{Q(x)}$**, and a **constant Remainder, $\mathbf{R}$**. The degree of $\mathbf{Q(x)}$ is always one less than the degree of $\mathbf{P(x)}$.
 
 $$\mathbf{\frac{P(x)}{x - k} = Q(x) + \frac{R}{x - k}}$$
-
-* The degree of $Q(x)$ is always **one less** than the degree of $P(x)$.
 
 ---
 
 #### 2. The Remainder Theorem
 
-The Remainder Theorem provides a shortcut to finding the remainder of polynomial division and is equivalent to evaluating the function.
+This theorem provides a shortcut to finding the remainder of polynomial division, which is equivalent to evaluating the function.
 
 **Formula:**
-If a polynomial $\mathbf{P(x)}$ is divided by $\mathbf{(x - k)}$, then the remainder $\mathbf{R}$ is equal to $\mathbf{P(k)}$.
+If $\mathbf{P(x)}$ is divided by $\mathbf{(x - k)}$, the remainder $\mathbf{R}$ is equal to the value of $\mathbf{P(x)}$ evaluated at $x=k$.
 
 $$\mathbf{R = P(k)}$$
 
 **Application:**
-To find the value of $P(3)$, you can either substitute $x=3$ into the polynomial **or** use synthetic division with $\mathbf{k=3}$. The last number obtained in the synthetic division process will be the remainder, $\mathbf{R}$, which is equal to $\mathbf{P(3)}$.
+To find the value of $P(3)$, the remainder $\mathbf{R}$ obtained from synthetic division with $\mathbf{k=3}$ will be equal to $\mathbf{P(3)}$.
 
 ---
 
 #### 3. The Factor Theorem
 
-The Factor Theorem is a direct consequence of the Remainder Theorem, establishing a condition for when a linear binomial is a factor.
+A consequence of the Remainder Theorem that establishes when a linear binomial is a factor of a polynomial.
 
 **Formula:**
+The binomial $\mathbf{(x - k)}$ is a factor of $\mathbf{P(x)}$ if and only if the remainder $\mathbf{P(k)}$ is zero.
 
 $$\mathbf{(x - k) \text{ is a factor of } P(x) \iff P(k) = 0}$$
 
-* If the remainder $\mathbf{R}$ (or $\mathbf{P(k)}$) equals **zero**, then $\mathbf{(x - k)}$ is a factor of $P(x)$, and $k$ is a root (or zero) of the polynomial.
+* **Condition:** If the remainder $\mathbf{R}$ (or $\mathbf{P(k)}$) equals **zero**, then $\mathbf{k}$ is a root (or zero) of the polynomial.
