@@ -73,3 +73,24 @@ Given the polynomial $P(x) = x^4 - 2x^3 + 7x - 4$, perform synthetic division us
 - [x] Correct ✅ 2025-10-11
 - [ ] Added to Anki
 Perform synthetic division to divide $P(x) = 2x^3 - 3x^2 + 4x - 1$ by $D(x) = x - 3$. What is the remainder $R$? Based on the Remainder Theorem, what does this tell you about the value of $P(3)$?
+
+#### Date: 2025-10-11
+#### Subject: Synthetic Division (Set 3)
+
+#### Question 10
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+The division of a polynomial $P(x) = 4x^3 + ax^2 - 19x + 6$ by the binomial $D(x) = x - 2$ results in a remainder of $R = 0$. Use synthetic division and the Remainder Theorem to find the value of the unknown coefficient $a$.
+
+#### Question 11
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Perform synthetic division to divide the polynomial $P(x) = 9x^5 + 12x^4 - 2x^2 + 5$ by the binomial $D(x) = 3x + 4$. State the quotient $Q(x)$ in standard form and the remainder $R$. (Remember to use zero placeholders and to adjust the quotient).
+
+#### Question 12
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Find the quotient $Q(x)$ and the remainder $R$ when $P(x) = x^4 - 10x^3 + 5$ is divided by $D(x) = x - 10$. Write your final answer in the mixed form $Q(x) + \frac{R}{D(x)}$. (Be careful with missing terms and coefficients.)
