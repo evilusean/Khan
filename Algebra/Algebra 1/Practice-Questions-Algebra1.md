@@ -140,3 +140,27 @@ State all excluded values.
 - [x] Added to Anki ✅ 2025-10-11
 Multiply and simplify the expression: $$\frac{2x^2 + 5x - 3}{4x^2 - 4x + 1} \cdot \frac{2x^2 - 7x + 3}{x^2 + 4x - 5}$$
 State all excluded values.
+
+#### Date: 2025-10-11
+#### Subject: Rational Expressions (Set 3: Addition/Subtraction)
+
+#### Question 7
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Add and simplify the expression: $$\frac{5x}{2x + 6} + \frac{x^2 - 1}{x^2 + 5x + 6}$$
+State all excluded values.
+
+#### Question 8
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Subtract and simplify the expression: $$\frac{x}{3x^2 + 4x - 4} - \frac{1}{x^2 + x - 2}$$
+State all excluded values.
+
+#### Question 9
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Subtract and simplify the expression: $$\frac{2}{x^2 - 4} - \frac{x}{x^2 + 4x + 4}$$
+State all excluded values.
