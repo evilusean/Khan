@@ -57,8 +57,8 @@ A polynomial division resulted in the quotient $Q(x) = x^3 - 5x + 8$ and the rem
 #### Subject: Synthetic Division (Beginner)
 
 #### Question 7
-- [ ] Completed
-- [ ] Correct
+- [x] Completed ✅ 2025-10-11
+- [x] Correct ✅ 2025-10-11
 - [ ] Added to Anki
 Use synthetic division to divide the polynomial $P(x) = x^3 + 5x^2 - x - 25$ by the binomial $D(x) = x - 2$. Find the remainder $R$ and the quotient $Q(x)$.
 
