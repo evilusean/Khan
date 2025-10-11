@@ -251,3 +251,55 @@ $$\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}$$
 $$\sqrt{a^2 + b^2}$$
 > **Crucial Note:** This expression **cannot be simplified** to $a + b$. It is a common algebraic error to assume you can split the root across the addition sign.
 > **Context:** This exact form appears inside the **Distance Formula**.
+## IX. Polynomial Division and Roots
+
+### 💡 Synthetic Division and The Remainder Theorem
+
+These tools are used to quickly divide polynomials by linear factors and evaluate polynomials at specific values.
+
+---
+
+#### 1. Synthetic Division
+
+Synthetic division is the rapid method for dividing a polynomial, $P(x)$, by a linear binomial of the form $\mathbf{(x - k)}$.
+
+* **Divisor Form:** $\mathbf{(x - k)}$
+* **Term Used for Division:** $\mathbf{k}$ (the root of the divisor)
+
+**Setup Notation:**
+The divisor $\mathbf{(x - k)}$ is represented by the root $\mathbf{k}$, followed by the coefficients of $P(x)$, including zeros for missing terms:
+
+$$\mathbf{k} \text{ | } \mathbf{c_n} \quad \mathbf{c_{n-1}} \quad \mathbf{\dots} \quad \mathbf{c_1} \quad \mathbf{c_0}$$
+
+**Result (The Quotient $Q(x)$ and Remainder $R$):**
+When $P(x)$ is divided by $\mathbf{(x - k)}$, the result is the quotient $Q(x)$ plus the remainder $R$ over the divisor:
+
+$$\mathbf{\frac{P(x)}{x - k} = Q(x) + \frac{R}{x - k}}$$
+
+* The degree of $Q(x)$ is always **one less** than the degree of $P(x)$.
+
+---
+
+#### 2. The Remainder Theorem
+
+The Remainder Theorem provides a shortcut to finding the remainder of polynomial division and is equivalent to evaluating the function.
+
+**Formula:**
+If a polynomial $\mathbf{P(x)}$ is divided by $\mathbf{(x - k)}$, then the remainder $\mathbf{R}$ is equal to $\mathbf{P(k)}$.
+
+$$\mathbf{R = P(k)}$$
+
+**Application:**
+To find the value of $P(3)$, you can either substitute $x=3$ into the polynomial **or** use synthetic division with $\mathbf{k=3}$. The last number obtained in the synthetic division process will be the remainder, $\mathbf{R}$, which is equal to $\mathbf{P(3)}$.
+
+---
+
+#### 3. The Factor Theorem
+
+The Factor Theorem is a direct consequence of the Remainder Theorem, establishing a condition for when a linear binomial is a factor.
+
+**Formula:**
+
+$$\mathbf{(x - k) \text{ is a factor of } P(x) \iff P(k) = 0}$$
+
+* If the remainder $\mathbf{R}$ (or $\mathbf{P(k)}$) equals **zero**, then $\mathbf{(x - k)}$ is a factor of $P(x)$, and $k$ is a root (or zero) of the polynomial.
