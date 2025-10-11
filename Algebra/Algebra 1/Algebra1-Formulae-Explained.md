@@ -302,3 +302,14 @@ The binomial $\mathbf{(x - k)}$ is a factor of $\mathbf{P(x)}$ if and only if th
 $$\mathbf{(x - k) \text{ is a factor of } P(x) \iff P(k) = 0}$$
 
 * **Condition:** If the remainder $\mathbf{R}$ (or $\mathbf{P(k)}$) equals **zero**, then $\mathbf{k}$ is a root (or zero) of the polynomial.
+### Terminology Explanation for Polynomial Division
+
+| Variable / Term | Role | Detailed Explanation |
+| :--- | :--- | :--- |
+| **$\mathbf{P(x)}$** | **Dividend Polynomial** | This is the main polynomial (the function) being divided. It must be in standard form (highest power first). |
+| **$\mathbf{(x - k)}$** | **Divisor (Linear Factor)** | This is the binomial you are dividing by. **It must be linear** (x raised to the power of 1). |
+| **$\mathbf{k}$** | **Test Root / Zero** | This is the number used in the synthetic division setup. It is derived from the divisor: you solve $\mathbf{x - k = 0}$ to find $x=k$. **Example: If the divisor is $\mathbf{(x+4)}$, then $\mathbf{k = -4}$.** |
+| **$\mathbf{c_n, c_{n-1}, \dots}$** | **Coefficients** | These are the numerical parts of the polynomial $\mathbf{P(x)}$ written in descending order of powers. **You must use $\mathbf{0}$ as a coefficient for any missing power.** |
+| **$\mathbf{Q(x)}$** | **Quotient Polynomial** | This is the result of the division (the answer). Its coefficients are the numbers below the line in the synthetic division process. Its highest power is always one less than $\mathbf{P(x)}$. |
+| **$\mathbf{R}$** | **Remainder (Constant)** | This is the very last number resulting from the synthetic division. It is the constant term left over. **If $\mathbf{R=0}$, then $\mathbf{k}$ is a root and $\mathbf{(x-k)}$ is a factor.** |
+| **$\mathbf{P(k)}$** | **Function Evaluation** | This notation means you are substituting the value $\mathbf{k}$ into the polynomial $\mathbf{P(x)}$. According to the Remainder Theorem, this value is equal to $\mathbf{R}$. |
