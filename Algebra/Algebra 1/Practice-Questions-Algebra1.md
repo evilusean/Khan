@@ -100,7 +100,7 @@ Find the quotient $Q(x)$ and the remainder $R$ when $P(x) = x^4 - 10x^3 + 5$ is 
 #### Subject: Rational Expressions (Set 1)
 
 #### Question 1
-- [ ] Completed
+- [x] Completed ✅ 2025-10-11
 - [ ] Correct
 - [ ] Added to Anki
 Simplify the rational expression $\frac{4x - 8}{x^2 - 4}$. State any excluded values (restrictions on $x$).
