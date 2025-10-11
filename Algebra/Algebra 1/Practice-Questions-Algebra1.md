@@ -121,8 +121,8 @@ Simplify the expression $\frac{10 - 2y}{y^2 - 25}$. State any excluded values.
 #### Subject: Rational Expressions (Set 2: Multiplication/Division)
 
 #### Question 4
-- [ ] Completed
-- [ ] Correct
+- [x] Completed ✅ 2025-10-11
+- [x] Correct ✅ 2025-10-11
 - [ ] Added to Anki
 Multiply and simplify the expression: $$\frac{x^2 - 16}{x^2 + 7x + 12} \cdot \frac{x + 3}{x - 4}$$
 State all excluded values.
