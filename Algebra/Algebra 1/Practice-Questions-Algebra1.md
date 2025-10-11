@@ -94,3 +94,25 @@ Perform synthetic division to divide the polynomial $P(x) = 9x^5 + 12x^4 - 2x^2 
 - [x] Correct ✅ 2025-10-11
 - [ ] Added to Anki
 Find the quotient $Q(x)$ and the remainder $R$ when $P(x) = x^4 - 10x^3 + 5$ is divided by $D(x) = x - 10$. Write your final answer in the mixed form $Q(x) + \frac{R}{D(x)}$. (Be careful with missing terms and coefficients.)
+
+### Rational Expressions - Practice Questions :
+#### Date: 2025-10-11
+#### Subject: Rational Expressions (Set 1)
+
+#### Question 1
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Simplify the rational expression $\frac{4x - 8}{x^2 - 4}$. State any excluded values (restrictions on $x$).
+
+#### Question 2
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Simplify the expression $\frac{x^2 - 3x - 10}{x^2 - 2x - 15}$. State any excluded values.
+
+#### Question 3
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Simplify the expression $\frac{10 - 2y}{y^2 - 25}$. State any excluded values.
