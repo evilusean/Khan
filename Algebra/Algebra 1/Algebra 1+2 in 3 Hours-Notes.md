@@ -1382,6 +1382,47 @@ $$\mathbf{\hphantom{-4}} \text{ | } \mathbf{1} \quad \mathbf{-2} \quad \mathbf{3
 * **Quotient Polynomial:** Since the original polynomial was degree 3, the quotient starts at degree 2.
 
 **Final Answer:** $$\mathbf{x^2 - 2x + 3}$$
+### X. Theorems for Polynomial Roots 🧪
+
+These theorems relate the remainder of polynomial division to the roots (zeros) of the polynomial, $\mathbf{P(x)}$.
+
+---
+
+#### 1. The Remainder Theorem
+
+The Remainder Theorem provides a shortcut for evaluating a polynomial at a specific value $\mathbf{k}$.
+
+**Concept:** The remainder ($\mathbf{R}$) obtained when dividing a polynomial ($\mathbf{P(x)}$) by a linear divisor ($\mathbf{x - k}$) is exactly equal to the value of the polynomial when evaluated at $\mathbf{x = k}$.
+
+**Formula:**
+$$\mathbf{R = P(k)}$$
+
+| Term | Meaning in Context |
+| :--- | :--- |
+| **$\mathbf{P(x)}$** | The **Dividend Polynomial** being evaluated. |
+| **$\mathbf{x - k}$** | The **Divisor**; $\mathbf{k}$ is the value used in synthetic division. |
+| **$\mathbf{R}$** | The **Remainder** from synthetic division. |
+| **$\mathbf{P(k)}$** | The **output** of the polynomial when $\mathbf{x = k}$. |
+
+**Application:** To find $\mathbf{P(5)}$, you can either substitute $x=5$ into $P(x)$ OR use synthetic division with $\mathbf{k=5}$; the result will be $\mathbf{R}$.
+
+---
+
+#### 2. The Factor Theorem
+
+The Factor Theorem is a direct extension of the Remainder Theorem, establishing when a binomial is a factor of a polynomial.
+
+**Concept:** A linear binomial $\mathbf{(x - k)}$ is a factor of the polynomial $\mathbf{P(x)}$ if and only if the remainder of the division is zero.
+
+**Formula:**
+$$\mathbf{(x - k) \text{ is a factor of } P(x) \iff P(k) = 0}$$
+
+| Condition | Conclusion |
+| :--- | :--- |
+| **If $\mathbf{P(k) = 0}$** | $\mathbf{(x - k)}$ **IS** a factor of $P(x)$, and $\mathbf{k}$ is a root/zero. |
+| **If $\mathbf{P(k) \neq 0}$** | $\mathbf{(x - k)}$ is **NOT** a factor of $P(x)$. |
+
+**Application:** To check if $\mathbf{(x + 2)}$ is a factor of $P(x)$, use synthetic division with $\mathbf{k = -2}$. If the remainder is $0$, it is a factor.
 ### Quadratic Formula :
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=1h46m45s
 
