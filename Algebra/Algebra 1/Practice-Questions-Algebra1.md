@@ -128,7 +128,7 @@ Multiply and simplify the expression: $$\frac{x^2 - 16}{x^2 + 7x + 12} \cdot \fr
 State all excluded values.
 
 #### Question 5
-- [ ] Completed
+- [x] Completed ✅ 2025-10-11
 - [ ] Correct
 - [ ] Added to Anki
 Divide and simplify the expression: $$\frac{3a^2 - 15a}{a^2 - 9} \div \frac{a - 5}{a^2 - 6a + 9}$$
