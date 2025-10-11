@@ -52,3 +52,24 @@ The volume $V(x)$ of a rectangular prism is given by the polynomial $V(x) = 3x^3
 - [ ] Correct
 - [x] Added to Anki ✅ 2025-10-10
 A polynomial division resulted in the quotient $Q(x) = x^3 - 5x + 8$ and the remainder $R = -2$. If the divisor was $D(x) = x + 4$, write the original dividend $P(x)$ in standard form. (Hint: Use the formula $P(x) = D(x) \cdot Q(x) + R$).
+
+#### Date: 2025-10-11
+#### Subject: Synthetic Division (Beginner)
+
+#### Question 7
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Use synthetic division to divide the polynomial $P(x) = x^3 + 5x^2 - x - 25$ by the binomial $D(x) = x - 2$. Find the remainder $R$ and the quotient $Q(x)$.
+
+#### Question 8
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Given the polynomial $P(x) = x^4 - 2x^3 + 7x - 4$, perform synthetic division using the divisor $D(x) = x + 1$. What are the coefficients of the resulting quotient $Q(x)$?
+
+#### Question 9
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Perform synthetic division to divide $P(x) = 2x^3 - 3x^2 + 4x - 1$ by $D(x) = x - 3$. What is the remainder $R$? Based on the Remainder Theorem, what does this tell you about the value of $P(3)$?
