@@ -69,7 +69,7 @@ Use synthetic division to divide the polynomial $P(x) = x^3 + 5x^2 - x - 25$ by 
 Given the polynomial $P(x) = x^4 - 2x^3 + 7x - 4$, perform synthetic division using the divisor $D(x) = x + 1$. What are the coefficients of the resulting quotient $Q(x)$?
 
 #### Question 9
-- [ ] Completed
-- [ ] Correct
+- [x] Completed ✅ 2025-10-11
+- [x] Correct ✅ 2025-10-11
 - [ ] Added to Anki
 Perform synthetic division to divide $P(x) = 2x^3 - 3x^2 + 4x - 1$ by $D(x) = x - 3$. What is the remainder $R$? Based on the Remainder Theorem, what does this tell you about the value of $P(3)$?
