@@ -130,13 +130,13 @@ State all excluded values.
 #### Question 5
 - [x] Completed ✅ 2025-10-11
 - [ ] Correct
-- [ ] Added to Anki
+- [x] Added to Anki ✅ 2025-10-11
 Divide and simplify the expression: $$\frac{3a^2 - 15a}{a^2 - 9} \div \frac{a - 5}{a^2 - 6a + 9}$$
 State all excluded values.
 
 #### Question 6
-- [ ] Completed
+- [x] Completed ✅ 2025-10-11
 - [ ] Correct
-- [ ] Added to Anki
+- [x] Added to Anki ✅ 2025-10-11
 Multiply and simplify the expression: $$\frac{2x^2 + 5x - 3}{4x^2 - 4x + 1} \cdot \frac{2x^2 - 7x + 3}{x^2 + 4x - 5}$$
 State all excluded values.
