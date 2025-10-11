@@ -84,9 +84,9 @@ Perform synthetic division to divide $P(x) = 2x^3 - 3x^2 + 4x - 1$ by $D(x) = x 
 The division of a polynomial $P(x) = 4x^3 + ax^2 - 19x + 6$ by the binomial $D(x) = x - 2$ results in a remainder of $R = 0$. Use synthetic division and the Remainder Theorem to find the value of the unknown coefficient $a$.
 
 #### Question 11
-- [ ] Completed
+- [x] Completed ✅ 2025-10-11
 - [ ] Correct
-- [ ] Added to Anki
+- [x] Added to Anki ✅ 2025-10-11
 Perform synthetic division to divide the polynomial $P(x) = 9x^5 + 12x^4 - 2x^2 + 5$ by the binomial $D(x) = 3x + 4$. State the quotient $Q(x)$ in standard form and the remainder $R$. (Remember to use zero placeholders and to adjust the quotient).
 
 #### Question 12
