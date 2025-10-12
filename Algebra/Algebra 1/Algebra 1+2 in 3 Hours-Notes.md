@@ -1624,3 +1624,5 @@ The domain of polynomials is generally **all real numbers**, but restrictions co
     $$\mathbf{f(x) = \frac{1}{x - 5} \implies x \neq 5}$$
 2.  **Square Roots (Radical Functions):** The value inside the square root **must be non-negative** ($\mathbf{\ge 0}$).
     $$\mathbf{f(x) = \sqrt{x + 2} \implies x + 2 \ge 0 \implies x \ge -2}$$
+### Inverse Functions :
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h9m05s
