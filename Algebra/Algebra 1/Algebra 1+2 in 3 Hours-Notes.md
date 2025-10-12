@@ -1672,3 +1672,5 @@ Use these four algebraic steps to find the inverse of a function, $\mathbf{f(x)}
 The graph of a function and its inverse are **reflections** of each other across the line $\mathbf{y = x}$.
 
 * If the point $\mathbf{(a, b)}$ is on the graph of $\mathbf{f(x)}$, then the point $\mathbf{(b, a)}$ must be on the graph of $\mathbf{f^{-1}(x)}$.
+### Graphing Functions :
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h10m12s
