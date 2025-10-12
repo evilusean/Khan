@@ -1724,3 +1724,65 @@ The general transformed form is: $$\mathbf{y = a \cdot f(x - h) + k}$$
 ### Asymptotes (Boundaries of a Graph) 🛑
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h21m10s
 
+An **Asymptote** is a line that a function's graph approaches but never touches or crosses as the input ($\mathbf{x}$) or output ($\mathbf{y}$) values tend toward infinity or negative infinity.
+
+Asymptotes define the boundaries or restricted areas of a graph, most commonly found in **Rational Functions** ($\mathbf{f(x) = \frac{P(x)}{Q(x)}}$).
+
+---
+
+### 1. Vertical Asymptotes (VA)
+
+**Vertical Asymptotes** are vertical lines ($\mathbf{x = \text{a number}}$) that the graph cannot cross. They are directly related to the **Excluded Values** of the function's domain.
+
+* **Source:** They occur at the $\mathbf{x}$-values that make the **denominator zero** and **do not** cancel out with a factor in the numerator.
+
+**Rule:**
+Set the denominator $\mathbf{Q(x)}$ equal to zero and solve for $\mathbf{x}$, *after* simplifying the rational expression.
+
+**Example:** Find the VA of $\mathbf{f(x) = \frac{x + 1}{x - 4}}$
+
+1.  Denominator: $\mathbf{x - 4}$
+2.  Set to zero: $\mathbf{x - 4 = 0}$
+3.  **Vertical Asymptote:** $\mathbf{x = 4}$ (The graph approaches $x=4$ but never touches it).
+
+---
+
+### 2. Horizontal Asymptotes (HA)
+
+**Horizontal Asymptotes** are horizontal lines ($\mathbf{y = \text{a number}}$) that the graph approaches as $\mathbf{x}$ goes to $\mathbf{\pm \infty}$. They are determined by comparing the **degree** (highest exponent) of the numerator ($\mathbf{N}$) and the denominator ($\mathbf{D}$).
+
+Let $\mathbf{n}$ be the degree of the numerator and $\mathbf{m}$ be the degree of the denominator.
+
+| Case (Degree Comparison) | Rule | Horizontal Asymptote ($\mathbf{y = \dots}$) |
+| :--- | :--- | :--- |
+| **Case 1: $\mathbf{n < m}$** (Bottom Heavy) | The denominator grows faster than the numerator. | $\mathbf{y = 0}$ (The x-axis) |
+| **Case 2: $\mathbf{n = m}$** (Equal Degrees) | The function approaches the ratio of the leading coefficients. | $\mathbf{y = \frac{\text{Leading Coefficient of N}}{\text{Leading Coefficient of D}}}$ |
+| **Case 3: $\mathbf{n > m}$** (Top Heavy) | The numerator grows much faster than the denominator. | **No Horizontal Asymptote** (The function has a slant/oblique asymptote instead). |
+
+**Example 1 (Bottom Heavy):** $\mathbf{f(x) = \frac{x^2}{x^3 + 1}}$
+* $\mathbf{n=2}$, $\mathbf{m=3}$. Since $\mathbf{2 < 3}$, the HA is $\mathbf{y = 0}$.
+
+**Example 2 (Equal Degrees):** $\mathbf{f(x) = \frac{3x^2 - x + 1}{x^2 + 5}}$
+* $\mathbf{n=2}$, $\mathbf{m=2}$. The leading coefficients are $3$ and $1$. The HA is $\mathbf{y = \frac{3}{1} = 3}$.
+
+---
+
+### 3. Holes (Removable Discontinuities)
+
+A **Hole** is a single point where the graph is undefined. It is a "missing point" in the graph, not a line boundary.
+
+* **Source:** A hole occurs at an $\mathbf{x}$-value that makes the **denominator zero** but **does** cancel out with an identical factor in the numerator.
+
+**Rule:**
+1.  Factor the numerator and denominator.
+2.  Cancel the common factor $\mathbf{(x - a)}$.
+3.  A hole exists at $\mathbf{x = a}$.
+4.  To find the $\mathbf{y}$-coordinate of the hole, substitute $\mathbf{x = a}$ into the simplified (cancelled) expression.
+
+**Example:** Find the hole of $\mathbf{f(x) = \frac{x^2 - 4}{x - 2}}$
+
+1.  Factor: $\mathbf{f(x) = \frac{(x - 2)(x + 2)}{(x - 2)}}$
+2.  Cancel $\mathbf{(x - 2)}$. A hole exists at $\mathbf{x = 2}$.
+3.  Simplified function: $\mathbf{g(x) = x + 2}$
+4.  Find y-coordinate: $\mathbf{g(2) = 2 + 2 = 4}$.
+5.  **Hole Location:** $\mathbf{(2, 4)}$
