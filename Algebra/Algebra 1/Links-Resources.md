@@ -16,3 +16,6 @@ Qalculate! is primarily a desktop calculator with powerful symbolic features, bu
 'sudo pacman -S qalculate-qt'
 SageMath is a comprehensive Computer Algebra System (CAS) built upon Python and many other specialized packages. It offers the **most robust and flexible plotting capabilities** :
 'sudo pacman -S sagemath'
+
+Free Textbooks for many subjects :
+https://openstax.org/
