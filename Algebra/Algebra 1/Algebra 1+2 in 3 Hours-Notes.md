@@ -1721,3 +1721,6 @@ The general transformed form is: $$\mathbf{y = a \cdot f(x - h) + k}$$
 * **$\mathbf{h = 3}$:** Shift **Right 3** units.
 * **$\mathbf{k = 1}$:** Shift **Up 1** unit. (New vertex at $\mathbf{(3, 1)}$)
 * **$\mathbf{a = -2}$:** Vertical **Stretch** (by a factor of 2) and **Reflection** across the x-axis (opens downward).
+### Asymptotes (Boundaries of a Graph) 🛑
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h21m10s
+
