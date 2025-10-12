@@ -152,7 +152,7 @@ Add and simplify the expression: $$\frac{5x}{2x + 6} + \frac{x^2 - 1}{x^2 + 5x +
 State all excluded values.
 
 #### Question 8
-- [ ] Completed
+- [x] Completed ✅ 2025-10-12
 - [ ] Correct
 - [ ] Added to Anki
 Subtract and simplify the expression: $$\frac{x}{3x^2 + 4x - 4} - \frac{1}{x^2 + x - 2}$$
