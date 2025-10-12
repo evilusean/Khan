@@ -147,20 +147,20 @@ State all excluded values.
 #### Question 7
 - [x] Completed ✅ 2025-10-12
 - [ ] Correct
-- [ ] Added to Anki
+- [x] Added to Anki ✅ 2025-10-12
 Add and simplify the expression: $$\frac{5x}{2x + 6} + \frac{x^2 - 1}{x^2 + 5x + 6}$$
 State all excluded values.
 
 #### Question 8
 - [x] Completed ✅ 2025-10-12
 - [ ] Correct
-- [ ] Added to Anki
+- [x] Added to Anki ✅ 2025-10-12
 Subtract and simplify the expression: $$\frac{x}{3x^2 + 4x - 4} - \frac{1}{x^2 + x - 2}$$
 State all excluded values.
 
 #### Question 9
-- [ ] Completed
+- [x] Completed ✅ 2025-10-12
 - [ ] Correct
-- [ ] Added to Anki
+- [x] Added to Anki ✅ 2025-10-12
 Subtract and simplify the expression: $$\frac{2}{x^2 - 4} - \frac{x}{x^2 + 4x + 4}$$
 State all excluded values.
