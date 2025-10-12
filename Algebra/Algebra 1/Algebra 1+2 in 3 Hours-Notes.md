@@ -1624,5 +1624,51 @@ The domain of polynomials is generally **all real numbers**, but restrictions co
     $$\mathbf{f(x) = \frac{1}{x - 5} \implies x \neq 5}$$
 2.  **Square Roots (Radical Functions):** The value inside the square root **must be non-negative** ($\mathbf{\ge 0}$).
     $$\mathbf{f(x) = \sqrt{x + 2} \implies x + 2 \ge 0 \implies x \ge -2}$$
-### Inverse Functions :
+### Inverse Functions ↩️
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h9m05s
+
+An **Inverse Function** (denoted $\mathbf{f^{-1}(x)}$) is a function that "undoes" the action of the original function $\mathbf{f(x)}$. When composed, an inverse function takes the output ($\mathbf{y}$) of the original function and returns the original input ($\mathbf{x}$).
+
+---
+
+#### 1. Definition and Notation
+
+* **Notation:** The inverse of $\mathbf{f(x)}$ is written as $\mathbf{f^{-1}(x)}$ (read as "f-inverse of x").
+    * **Caution:** The $\mathbf{-1}$ is NOT an exponent; $\mathbf{f^{-1}(x) \neq \frac{1}{f(x)}}$.
+* **Key Property:** If $\mathbf{f(a) = b}$, then the inverse must satisfy $\mathbf{f^{-1}(b) = a}$.
+* **Composition Rule:** When a function and its inverse are composed, they result in the input:
+    $$\mathbf{f(f^{-1}(x)) = x} \quad \text{and} \quad \mathbf{f^{-1}(f(x)) = x}$$
+
+---
+
+#### 2. Relationship between Domain and Range
+
+The domain and range of a function and its inverse are simply swapped.
+
+| Function | Input/Output |
+| :--- | :--- |
+| **Original Function ($\mathbf{f(x)}$)** | Domain is the $\mathbf{x}$-values; Range is the $\mathbf{y}$-values. |
+| **Inverse Function ($\mathbf{f^{-1}(x)}$)** | Domain is the original Range; Range is the original Domain. |
+
+---
+
+#### 3. Step-by-Step Procedure for Finding the Inverse
+
+Use these four algebraic steps to find the inverse of a function, $\mathbf{f(x)}$.
+
+**Example:** Find the inverse of $\mathbf{f(x) = 2x + 3}$.
+
+| Step | Operation | Example (f(x) = 2x + 3) |
+| :--- | :--- | :--- |
+| **1. Replace $\mathbf{f(x)}$ with $\mathbf{y}$** | Simplifies the notation. | $$\mathbf{y = 2x + 3}$$ |
+| **2. Swap $\mathbf{x}$ and $\mathbf{y}$** | This reverses the input and output roles of the function. | $$\mathbf{x = 2y + 3}$$ |
+| **3. Solve for $\mathbf{y}$** | Isolate the new $\mathbf{y}$ variable. | $$\mathbf{x - 3 = 2y \implies y = \frac{x - 3}{2}}$$ |
+| **4. Replace $\mathbf{y}$ with $\mathbf{f^{-1}(x)}$** | Rewrite the equation using inverse function notation. | $$\mathbf{f^{-1}(x) = \frac{x - 3}{2}}$$ |
+
+---
+
+#### 4. Graphical Relationship
+
+The graph of a function and its inverse are **reflections** of each other across the line $\mathbf{y = x}$.
+
+* If the point $\mathbf{(a, b)}$ is on the graph of $\mathbf{f(x)}$, then the point $\mathbf{(b, a)}$ must be on the graph of $\mathbf{f^{-1}(x)}$.
