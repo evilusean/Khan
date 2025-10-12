@@ -193,3 +193,50 @@ $$\mathbf{\frac{P(x)}{x - k} = Q(x) + \frac{R}{x - k}}$$
 * The degree of $Q(x)$ is always **one less** than the degree of $P(x)$.
 
 ---
+## XI. Logarithm Formulae (Quick Reference)
+
+### 1. Definition and Equivalence
+
+**Logarithmic Form:**
+$$\mathbf{\log_b(y) = x}$$
+
+**Equivalent Exponential Form:**
+$$\mathbf{b^x = y}$$
+
+### 2. General Properties
+
+**Product Rule (Expansion):**
+$$\mathbf{\log_b(xy) = \log_b(x) + \log_b(y)}$$
+
+**Quotient Rule (Expansion):**
+$$\mathbf{\log_b\left(\frac{x}{y}\right) = \log_b(x) - \log_b(y)}$$
+
+**Power Rule:**
+$$\mathbf{\log_b(x^p) = p \cdot \log_b(x)}$$
+
+### 3. Special Bases
+
+**Common Logarithm (Base 10):**
+$$\mathbf{\log(x)} \quad \iff \quad \mathbf{\log_{10}(x)}$$
+
+**Natural Logarithm (Base e):**
+$$\mathbf{\ln(x)} \quad \iff \quad \mathbf{\log_{e}(x)}$$
+
+### 4. Identity and Inverse Properties
+
+**Log of the Base:**
+$$\mathbf{\log_b(b) = 1}$$
+
+**Log of One:**
+$$\mathbf{\log_b(1) = 0}$$
+
+**Inverse Property 1:**
+$$\mathbf{\log_b(b^x) = x}$$
+
+**Inverse Property 2:**
+$$\mathbf{b^{\log_b(x)} = x}$$
+
+### 5. Change of Base
+
+**Change of Base Formula:**
+$$\mathbf{\log_b(y) = \frac{\log_a(y)}{\log_a(b)}}$$
