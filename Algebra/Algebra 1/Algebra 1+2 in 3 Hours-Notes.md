@@ -1672,5 +1672,52 @@ Use these four algebraic steps to find the inverse of a function, $\mathbf{f(x)}
 The graph of a function and its inverse are **reflections** of each other across the line $\mathbf{y = x}$.
 
 * If the point $\mathbf{(a, b)}$ is on the graph of $\mathbf{f(x)}$, then the point $\mathbf{(b, a)}$ must be on the graph of $\mathbf{f^{-1}(x)}$.
-### Graphing Functions :
+### Graphing Functions 📈
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h10m12s
+
+Graphing involves plotting the set of ordered pairs ($\mathbf{x, y}$) that make a function true. The shape of the graph is determined by the function's type (linear, quadratic, absolute value, etc.).
+
+---
+
+### 1. Key Graph Components
+
+| Component | Definition | How to Find on Graph |
+| :--- | :--- | :--- |
+| **Domain** | All possible **input** ($\mathbf{x}$) values. | Read the graph from **left to right** ($\mathbf{-\infty}$ to $\mathbf{+\infty}$). |
+| **Range** | All possible **output** ($\mathbf{y}$) values. | Read the graph from **bottom to top** ($\mathbf{-\infty}$ to $\mathbf{+\infty}$). |
+| **x-intercept** | The point(s) where the graph crosses the $\mathbf{x}$-axis ($\mathbf{y=0}$). | The solutions/roots/zeros of the equation $\mathbf{f(x) = 0}$. |
+| **y-intercept** | The point where the graph crosses the $\mathbf{y}$-axis ($\mathbf{x=0}$). | The value $\mathbf{f(0)}$. |
+| **Vertex** | The minimum or maximum point of a parabola or absolute value graph. | The turning point of the graph. |
+
+---
+
+### 2. Common Function Types and Shapes
+
+| Function Type      | General Form                 | Shape Example                                                 |       |                |
+| :----------------- | :--------------------------- | :------------------------------------------------------------ | ----- | -------------- |
+| **Linear**         | $\mathbf{y = mx + b}$        | A **straight line**.                                          |       |                |
+| **Quadratic**      | $\mathbf{y = ax^2 + bx + c}$ | A **parabola** ($\mathbf{U}$-shape or $\mathbf{\cap}$-shape). |       |                |
+| **Absolute Value** | $\mathbf{y = a               | x - h                                                         | + k}$ | A **V-shape**. |
+| **Cubic**          | $\mathbf{y = ax^3 + \dots}$  | An **S-curve**.                                               |       |                |
+
+---
+
+### 3. Function Transformations
+
+Function transformations allow you to graph complex functions by understanding how they shift, stretch, or reflect a simple **Parent Function** (e.g., $\mathbf{f(x) = x^2}$ or $\mathbf{f(x) = |x|}$).
+
+The general transformed form is: $$\mathbf{y = a \cdot f(x - h) + k}$$
+
+| Transformation | Variable | Effect on the Graph |
+| :--- | :--- | :--- |
+| **Vertical Shift** | $\mathbf{+k}$ (outside $f(x)$) | Moves the graph $\mathbf{k}$ units **UP** ($\mathbf{+k}$) or **DOWN** ($\mathbf{-k}$). |
+| **Horizontal Shift** | $\mathbf{-h}$ (inside $f(x)$) | Moves the graph $\mathbf{h}$ units **RIGHT** ($\mathbf{-h}$) or **LEFT** ($\mathbf{+h}$). *(It's the opposite of the sign!)* |
+| **Vertical Stretch/Compress** | $\mathbf{a}$ (coefficient) | **Stretch** if $\mathbf{|a| > 1}$ (narrower); **Compress** if $\mathbf{0 < |a| < 1}$ (wider). |
+| **Reflection** | $\mathbf{-a}$ (negative sign on $\mathbf{a}$) | Reflects the graph across the **x-axis** (flips it upside down). |
+
+**Example:** Graph $\mathbf{f(x) = -2|x - 3| + 1}$
+
+* **Parent Function:** $\mathbf{|x|}$ (V-shape, vertex at $\mathbf{(0, 0)}$)
+* **$\mathbf{h = 3}$:** Shift **Right 3** units.
+* **$\mathbf{k = 1}$:** Shift **Up 1** unit. (New vertex at $\mathbf{(3, 1)}$)
+* **$\mathbf{a = -2}$:** Vertical **Stretch** (by a factor of 2) and **Reflection** across the x-axis (opens downward).
