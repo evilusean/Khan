@@ -1899,3 +1899,81 @@ The general form is $\mathbf{\log_b(y)}$, where $b$ can be any valid positive ba
 1.  $$\mathbf{\log_2(8^3)} = \mathbf{3 \cdot \log_2(8)}$$
     * Since $\mathbf{\log_2(8) = 3}$, the total result is $\mathbf{3 \cdot 3 = 9}$.
 2.  $$\mathbf{\ln(x^4)} = \mathbf{4 \cdot \ln(x)}$$
+## XI. Exponents, Radicals, and Logarithms
+
+### 1. Rational Exponents and Radicals
+
+These formulas define the relationship between fractional exponents and roots (radicals).
+
+* **Fractional Exponent to Radical Form:** The denominator ($\mathbf{b}$) of the fraction becomes the root index, and the numerator ($\mathbf{a}$) becomes the exponent inside or outside the radical.
+    $$\mathbf{x^{a/b} = \sqrt[b]{x}^a} \quad \text{or} \quad \mathbf{x^{a/b} = \sqrt[b]{x^a}}$$
+
+    * *Note: These two forms are equivalent.*
+
+* **Radical to Fractional Exponent Form:** The root index ($\mathbf{n}$) becomes the denominator of the exponent.
+    $$\mathbf{\sqrt[n]{x} = x^{1/n}}$$
+
+---
+
+### 2. Logarithm Properties and Forms
+
+These rules demonstrate conversions between forms and how to expand or condense logarithmic expressions, specifically using the **Natural Log ($\mathbf{\ln}$)**.
+
+* **General Logarithmic Form:** This is the base notation for all logarithms, where $\mathbf{a}$ is the base and $\mathbf{b}$ is the argument.
+    $$\mathbf{\log_a{b}}$$
+
+* **Logarithm Product/Sum Rule (Expansion):** The log of a product is the sum of the logs.
+    $$\mathbf{\ln(x^2) + \ln(3) + \ln(y) = \ln(3x^2y)}$$
+    * *Note: This reverses the expansion process. The Power Rule ($\mathbf{\ln(x^2) = 2\ln(x)}$) is used for the first term during expansion.*
+
+* **Logarithm Quotient Rule (Condensation):** Subtraction of logs (like $\mathbf{\ln(x^2) - \ln(3)}$) means the arguments were divided.
+    $$\mathbf{\ln(x^2) - \ln(3) = \ln(\frac{x^2}{3})}$$
+
+* **Logarithm Expression (Condensation Example):** A full example combining the sum and difference rules.
+    $$\mathbf{\ln(x^2) - \ln(3) + \ln(y) = \ln\left(\frac{x^2y}{3}\right)}$$
+
+* **Inverse Property/Power Rule Example:** This uses the relationship between $\mathbf{\ln}$ (log base $\mathbf{e}$) and $\mathbf{e}$.
+    $$\mathbf{\ln(10^3) = 3 \cdot \ln(10)}$$
+    * *Note: The number 3 has been moved from the exponent to the coefficient using the **Power Rule**.*
+
+---
+
+## XII. Systems of Linear Equations
+
+These examples illustrate systems of equations solvable by **Substitution** and **Elimination**.
+
+### 1. Substitution Method Example
+
+Used when one variable is already isolated (or easy to isolate).
+
+* **Equation 1 (Isolated):** $$\mathbf{y = 3x - 1}$$
+* **Equation 2 (Standard):** $$\mathbf{2x + y = 9}$$
+
+* **Solving Process:** Substitute the expression for $\mathbf{y}$ from Equation 1 into the $\mathbf{y}$ in Equation 2.
+    $$\mathbf{2x + (3x - 1) = 9}$$
+
+### 2. Elimination/Multiplication Method Example
+
+Used when equations are in standard form and coefficients can be easily made opposites.
+
+* **Equation 1:** $$\mathbf{2x + y = 7}$$
+* **Equation 2:** $$\mathbf{x - 3y = 0}$$
+
+* **Solving Process:** To eliminate $\mathbf{x}$, multiply Equation 2 by $\mathbf{-2}$. To eliminate $\mathbf{y}$, multiply Equation 1 by $\mathbf{3}$.
+
+---
+
+## XIII. Polynomial Multiplication (FOIL and Distribution)
+
+These examples show how to multiply polynomials, which is the reverse of factoring.
+
+### 1. FOIL (First, Outer, Inner, Last)
+
+* **Perfect Square Binomial:** $$\mathbf{(x - 4)(x - 4) = x^2 - 8x + 16}$$
+* **Standard Binomials:** $$\mathbf{(y - 1)(2y + 3) = 2y^2 + 3y - 2y - 3 = 2y^2 + y - 3}$$
+
+### 2. Distributive Property (Binomial $\times$ Trinomial)
+
+* **General Multiplication:** Every term in the first polynomial multiplies every term in the second.
+    $$\mathbf{(2x - y)(x + 5y - 1) = 2x^2 + 10xy - 2x - xy - 5y^2 + y}$$
+    $$\mathbf{= 2x^2 + 9xy - 5y^2 - 2x + y}$$
