@@ -313,3 +313,92 @@ $$\mathbf{(x - k) \text{ is a factor of } P(x) \iff P(k) = 0}$$
 | **$\mathbf{Q(x)}$**                | **Quotient Polynomial**     | This is the result of the division (the answer). Its coefficients are the numbers below the line in the synthetic division process. Its highest power is always one less than $\mathbf{P(x)}$.                  |
 | **$\mathbf{R}$**                   | **Remainder (Constant)**    | This is the very last number resulting from the synthetic division. It is the constant term left over. **If $\mathbf{R=0}$, then $\mathbf{k}$ is a root and $\mathbf{(x-k)}$ is a factor.**                     |
 | **$\mathbf{P(k)}$**                | **Function Evaluation**     | This notation means you are substituting the value $\mathbf{k}$ into the polynomial $\mathbf{P(x)}$. According to the Remainder Theorem, this value is equal to $\mathbf{R}$.                                   |
+## XII. Detailed Logarithm Formulas and Examples 📝
+
+### 1. Definition and Form Conversion
+
+**Formula:**
+$$\mathbf{\log_b(y) = x} \iff \mathbf{b^x = y}$$
+
+**Explanation:**
+This formula is the foundation of logarithms. The logarithm ($\mathbf{x}$) is the **exponent** you need to raise the **base ($\mathbf{b}$)** to in order to get the **argument ($\mathbf{y}$)**. Logs are the inverse operation of exponents.
+
+| Term | Role |
+| :--- | :--- |
+| **$\mathbf{b}$** | The **Base** (must be $\mathbf{b > 0}$ and $\mathbf{b \neq 1}$). |
+| **$\mathbf{x}$** | The **Logarithm/Exponent** (the result). |
+| **$\mathbf{y}$** | The **Argument** (must be $\mathbf{y > 0}$). |
+
+**Worked Example:**
+* **Problem:** Solve $\mathbf{\log_5(25) = x}$.
+* **Step 1:** Convert to exponential form: $\mathbf{5^x = 25}$.
+* **Step 2:** Solve: Since $\mathbf{5^2 = 25}$, then $\mathbf{x = 2}$.
+
+---
+
+### 2. The Product Rule (Condensing and Expanding)
+
+**Formula:**
+$$\mathbf{\log_b(xy) = \log_b(x) + \log_b(y)}$$
+
+**Explanation:**
+When expanding a logarithm, multiplication inside the log becomes addition outside the log. When condensing, addition outside the log becomes multiplication inside.
+
+**Worked Example (Expansion):**
+* **Problem:** Expand $\mathbf{\log(5a)}$.
+* **Step 1:** Apply Product Rule to the multiplication $\mathbf{5 \cdot a}$.
+* **Result:** $\mathbf{\log(5) + \log(a)}$
+
+---
+
+### 3. The Quotient Rule (Condensing and Expanding)
+
+**Formula:**
+$$\mathbf{\log_b\left(\frac{x}{y}\right) = \log_b(x) - \log_b(y)}$$
+
+**Explanation:**
+Division inside the log becomes subtraction outside the log. When condensing, subtraction outside the log becomes division inside. The argument of the subtracted log always goes in the denominator.
+
+**Worked Example (Condensation):**
+* **Problem:** Condense $\mathbf{\ln(x^2) - \ln(3)}$.
+* **Step 1:** Apply Quotient Rule to the subtraction.
+* **Result:** $\mathbf{\ln\left(\frac{x^2}{3}\right)}$
+
+---
+
+### 4. The Power Rule
+
+**Formula:**
+$$\mathbf{\log_b(x^p) = p \cdot \log_b(x)}$$
+
+**Explanation:**
+This is the most powerful rule for solving equations. The exponent ($\mathbf{p}$) of the argument can be moved to the front of the logarithm as a multiplier (coefficient).
+
+| Term | Role |
+| :--- | :--- |
+| **$\mathbf{p}$** | The **Exponent** that moves to the front. |
+
+**Worked Example:**
+* **Problem:** Simplify $\mathbf{\log_2(4^5)}$.
+* **Step 1:** Apply Power Rule to move the exponent $\mathbf{5}$ to the front: $\mathbf{5 \cdot \log_2(4)}$.
+* **Step 2:** Evaluate the remaining log: $\mathbf{\log_2(4) = 2}$.
+* **Result:** $\mathbf{5 \cdot 2 = 10}$
+
+---
+
+### 5. Change of Base Formula
+
+**Formula:**
+$$\mathbf{\log_b(y) = \frac{\log_a(y)}{\log_a(b)}}$$
+
+**Explanation:**
+This allows you to evaluate any log (base $\mathbf{b}$) using a calculator, which typically only uses base $\mathbf{10}$ ($\mathbf{\log}$) or base $\mathbf{e}$ ($\mathbf{\ln}$). The new base $\mathbf{a}$ is usually $10$ or $e$.
+
+* **Argument ($\mathbf{y}$)** goes on top.
+* **Old Base ($\mathbf{b}$)** goes on the bottom.
+
+**Worked Example:**
+* **Problem:** Evaluate $\mathbf{\log_7(50)}$ using a calculator.
+* **Step 1:** Choose a new base, say base 10.
+* **Step 2:** Apply the formula: $\mathbf{\frac{\log(50)}{\log(7)}}$.
+* **Result:** $\mathbf{\approx \frac{1.699}{0.845} \approx 2.007}$
