@@ -1789,4 +1789,65 @@ A **Hole** is a single point where the graph is undefined. It is a "missing poin
 
 ### Logarithmic Expressions (Logs) 🧮 : 
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h23m21s
-A **Logarithm** is simply the **exponent** to which a specific base must be raised to obtain a certain number. Logarithms are the inverse of exponential functions. --- ### 1. The Logarithmic Definition The key to understanding logs is converting between exponential form and logarithmic form. | Form | Equation | Read As | Definition | | :--- | :--- | :--- | :--- | | **Exponential** | $$\mathbf{b^x = y}$$ | "$b$ to the power of $x$ equals $y$" | The base $b$ raised to the exponent $x$ gives $y$. | | **Logarithmic** | $$\mathbf{\log_b(y) = x}$$ | "Log base $b$ of $y$ equals $x$" | The exponent $x$ needed on base $b$ to get $y$. | **Key Constraints:** * The **Base $\mathbf{b}$** must be positive ($\mathbf{b > 0}$) and $\mathbf{b \neq 1}$. * The **Argument $\mathbf{y}$** must be positive ($\mathbf{y > 0}$). **Example Conversion:** * $$\mathbf{3^4 = 81} \implies \mathbf{\log_3(81) = 4}$$ * $$\mathbf{\log_{10}(1000) = 3} \implies \mathbf{10^3 = 1000}$$ --- ### 2. Common Logarithms Certain bases have special notation used frequently in math and science: | Logarithm Type | Notation | Implied Base | Exponential Form | | :--- | :--- | :--- | :--- | | **Common Log** | $$\mathbf{\log(x)}$$ | $$\mathbf{b = 10}$$ | $$\mathbf{10^y = x}$$ | | **Natural Log** | $$\mathbf{\ln(x)}$$ | $$\mathbf{b = e \approx 2.718}$$ | $$\mathbf{e^y = x}$$ | --- ### 3. Logarithm Properties (The Rules of Exponents for Logs) Since logs are exponents, they follow similar rules for multiplication, division, and powers. | Rule Name | Logarithmic Property | Corresponding Exponent Rule | | :--- | :--- | :--- | | **Product Rule** | $$\mathbf{\log_b(xy) = \log_b(x) + \log_b(y)}$$ | $$\mathbf{b^{m+n} = b^m \cdot b^n}$$ | | **Quotient Rule** | $$\mathbf{\log_b(\frac{x}{y}) = \log_b(x) - \log_b(y)}$$ | $$\mathbf{b^{m-n} = \frac{b^m}{b^n}}$$ | | **Power Rule** | $$\mathbf{\log_b(x^p) = p \cdot \log_b(x)}$$ | $$\mathbf{(b^m)^p = b^{m \cdot p}}$$ | **Special Properties:** | Property | Rule | Reason | | :--- | :--- | :--- | | **Log of the Base** | $$\mathbf{\log_b(b) = 1}$$ | Because $\mathbf{b^1 = b}$. | | **Log of One** | $$\mathbf{\log_b(1) = 0}$$ | Because $\mathbf{b^0 = 1}$. | | **Inverse Property 1** | $$\mathbf{\log_b(b^x) = x}$$ | The $\log$ and the base cancel out. | | **Inverse Property 2** | $$\mathbf{b^{\log_b(x)} = x}$$ | The base and the $\log$ cancel out. | --- ### 4. Change of Base Formula Used to evaluate a logarithm with any base $b$ using a calculator (which typically only has $\log_{10}$ or $\ln$). $$\mathbf{\log_b(y) = \frac{\log_a(y)}{\log_a(b)} \quad \text{or commonly:} \quad \frac{\log(y)}{\log(b)} \quad \text{or} \quad \frac{\ln(y)}{\ln(b)}}$$
+
+A **Logarithm** is simply the **exponent** to which a specific base must be raised to obtain a certain number. Logarithms are the inverse of exponential functions.
+
+---
+
+### 1. The Logarithmic Definition
+
+The key to understanding logs is converting between exponential form and logarithmic form.
+
+| Form | Equation | Read As | Definition |
+| :--- | :--- | :--- | :--- |
+| **Exponential** | $$\mathbf{b^x = y}$$ | "$b$ to the power of $x$ equals $y$" | The base $b$ raised to the exponent $x$ gives $y$. |
+| **Logarithmic** | $$\mathbf{\log_b(y) = x}$$ | "Log base $b$ of $y$ equals $x$" | The exponent $x$ needed on base $b$ to get $y$. |
+
+**Key Constraints:**
+* The **Base $\mathbf{b}$** must be positive ($\mathbf{b > 0}$) and $\mathbf{b \neq 1}$.
+* The **Argument $\mathbf{y}$** must be positive ($\mathbf{y > 0}$).
+
+**Example Conversion:**
+
+* $$\mathbf{3^4 = 81} \implies \mathbf{\log_3(81) = 4}$$
+* $$\mathbf{\log_{10}(1000) = 3} \implies \mathbf{10^3 = 1000}$$
+
+---
+
+### 2. Common Logarithms
+
+Certain bases have special notation used frequently in math and science:
+
+| Logarithm Type | Notation | Implied Base | Exponential Form |
+| :--- | :--- | :--- | :--- |
+| **Common Log** | $$\mathbf{\log(x)}$$ | $$\mathbf{b = 10}$$ | $$\mathbf{10^y = x}$$ |
+| **Natural Log** | $$\mathbf{\ln(x)}$$ | $$\mathbf{b = e \approx 2.718}$$ | $$\mathbf{e^y = x}$$ |
+
+---
+
+### 3. Logarithm Properties (The Rules of Exponents for Logs)
+
+Since logs are exponents, they follow similar rules for multiplication, division, and powers.
+
+| Rule Name | Logarithmic Property | Corresponding Exponent Rule |
+| :--- | :--- | :--- |
+| **Product Rule** | $$\mathbf{\log_b(xy) = \log_b(x) + \log_b(y)}$$ | $$\mathbf{b^{m+n} = b^m \cdot b^n}$$ |
+| **Quotient Rule** | $$\mathbf{\log_b(\frac{x}{y}) = \log_b(x) - \log_b(y)}$$ | $$\mathbf{b^{m-n} = \frac{b^m}{b^n}}$$ |
+| **Power Rule** | $$\mathbf{\log_b(x^p) = p \cdot \log_b(x)}$$ | $$\mathbf{(b^m)^p = b^{m \cdot p}}$$ |
+
+**Special Properties:**
+
+| Property | Rule | Reason |
+| :--- | :--- | :--- |
+| **Log of the Base** | $$\mathbf{\log_b(b) = 1}$$ | Because $\mathbf{b^1 = b}$. |
+| **Log of One** | $$\mathbf{\log_b(1) = 0}$$ | Because $\mathbf{b^0 = 1}$. |
+| **Inverse Property 1** | $$\mathbf{\log_b(b^x) = x}$$ | The $\log$ and the base cancel out. |
+| **Inverse Property 2** | $$\mathbf{b^{\log_b(x)} = x}$$ | The base and the $\log$ cancel out. |
+
+---
+
+### 4. Change of Base Formula
+
+Used to evaluate a logarithm with any base $b$ using a calculator (which typically only has $\log_{10}$ or $\ln$).
+
+$$\mathbf{\log_b(y) = \frac{\log_a(y)}{\log_a(b)} \quad \text{or commonly:} \quad \frac{\log(y)}{\log(b)} \quad \text{or} \quad \frac{\ln(y)}{\ln(b)}}$$
