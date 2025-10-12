@@ -1787,7 +1787,7 @@ A **Hole** is a single point where the graph is undefined. It is a "missing poin
 4.  Find y-coordinate: $\mathbf{g(2) = 2 + 2 = 4}$.
 5.  **Hole Location:** $\mathbf{(2, 4)}$
 
-### Logarithmic Expressions (Logs) 🧮 : 
+## Logarithmic Expressions (Logs) 🧮 : 
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h23m21s
 
 A **Logarithm** is simply the **exponent** to which a specific base must be raised to obtain a certain number. Logarithms are the inverse of exponential functions.
@@ -1851,3 +1851,51 @@ Since logs are exponents, they follow similar rules for multiplication, division
 Used to evaluate a logarithm with any base $b$ using a calculator (which typically only has $\log_{10}$ or $\ln$).
 
 $$\mathbf{\log_b(y) = \frac{\log_a(y)}{\log_a(b)} \quad \text{or commonly:} \quad \frac{\log(y)}{\log(b)} \quad \text{or} \quad \frac{\ln(y)}{\ln(b)}}$$
+
+### Types of Logarithms and Euler's Number 🌐
+
+A **Logarithm** is the exponent a base must be raised to in order to get a number ($\mathbf{\log_b(y) = x} \iff \mathbf{b^x = y}$). The type of logarithm is determined by the base ($\mathbf{b}$).
+
+---
+
+### 1. Common Logarithm (Base 10)
+
+The **Common Logarithm** is the log function used when no base is explicitly written. It's the base of our decimal system.
+
+* **Base:** $\mathbf{b = 10}$
+* **Notation:** $$\mathbf{\log(x)}$$
+* **Definition:** $$\mathbf{\log(x) = y} \iff \mathbf{10^y = x}$$
+* **Calculator:** This is the standard "log" button on most calculators.
+
+**Example:**
+* $$\mathbf{\log(100) = 2} \quad \text{because} \quad \mathbf{10^2 = 100}$$
+
+---
+
+### 2. Natural Logarithm (Base $e$)
+
+The **Natural Logarithm** is one of the most important logarithms in mathematics and finance, as it is the inverse of the natural exponential function $\mathbf{e^x}$.
+
+* **Base:** $\mathbf{b = e}$ (Euler's Number)
+* **Notation:** $$\mathbf{\ln(x)}$$
+* **Definition:** $$\mathbf{\ln(x) = y} \iff \mathbf{e^y = x}$$
+* **Calculator:** This is the standard "ln" button on most calculators.
+
+#### Defining Euler's Number ($\mathbf{e}$)
+* **Value:** $\mathbf{e}$ is an irrational number, approximately $\mathbf{e \approx 2.71828}$.
+* **Concept:** It represents the limit of continuous growth, often defined as:
+    $$\mathbf{e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n}$$
+
+---
+
+### 3. General Logarithm and the Power Rule
+
+The general form is $\mathbf{\log_b(y)}$, where $b$ can be any valid positive base (not equal to 1). A key property applies when the argument of the log is a number raised to a power.
+
+* **Formula:** $$\mathbf{\log_b(a^p) = p \cdot \log_b(a)}$$
+* **Rule:** The exponent ($\mathbf{p}$) of the argument ($\mathbf{a}$) can be moved to the front of the logarithm as a **coefficient**. This is called the **Power Rule** for Logarithms.
+
+**Examples:**
+1.  $$\mathbf{\log_2(8^3)} = \mathbf{3 \cdot \log_2(8)}$$
+    * Since $\mathbf{\log_2(8) = 3}$, the total result is $\mathbf{3 \cdot 3 = 9}$.
+2.  $$\mathbf{\ln(x^4)} = \mathbf{4 \cdot \ln(x)}$$
