@@ -1786,3 +1786,6 @@ A **Hole** is a single point where the graph is undefined. It is a "missing poin
 3.  Simplified function: $\mathbf{g(x) = x + 2}$
 4.  Find y-coordinate: $\mathbf{g(2) = 2 + 2 = 4}$.
 5.  **Hole Location:** $\mathbf{(2, 4)}$
+
+### Logarithims : 
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h23m21s
