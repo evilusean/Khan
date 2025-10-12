@@ -1561,5 +1561,66 @@ To add or subtract, you must have a **Least Common Denominator (LCD)**.
 2.  **Adjust Numerators:** Multiply the numerator and denominator of each fraction by the factor(s) needed to create the LCD.
 3.  **Combine:** Add or subtract the numerators (distributing the subtraction sign if necessary).
 4.  **Simplify:** Simplify the resulting fraction by factoring and canceling any final common terms.
-### Functions :
+## Functions :
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h45s
+### Functions and Relations ⚙️
+
+A **Function** is a special type of **Relation** where every input ($\mathbf{x}$) has exactly one output ($\mathbf{y}$).
+
+---
+
+#### 1. Relations vs. Functions
+
+| Term | Definition | Key Rule |
+| :--- | :--- | :--- |
+| **Relation** | Any set of ordered pairs ($\mathbf{(x, y)}$). | No restrictions. |
+| **Function** | A relation where no two ordered pairs have the same **x-value** and different **y-values**. | Each **input** ($\mathbf{x}$) has exactly **one output** ($\mathbf{y}$). |
+
+**Testing for a Function**
+
+* **Mapping Diagram:** No input arrow should split to two different outputs.
+* **Vertical Line Test (VLT):** If a vertical line drawn anywhere on the graph intersects the graph at **more than one point**, the graph is **NOT** a function.
+
+---
+
+#### 2. Function Notation and Evaluation
+
+**A. Function Notation**
+
+* Instead of $\mathbf{y = \dots}$, we write $\mathbf{f(x) = \dots}$ (read as **"f of x"**).
+* $\mathbf{f(x)}$ is simply a substitute for the dependent variable $\mathbf{y}$.
+
+$$\mathbf{y = 3x - 1} \quad \text{is the same as} \quad \mathbf{f(x) = 3x - 1}$$
+
+**B. Evaluating Functions**
+
+Evaluating a function means finding the output ($\mathbf{y}$ or $\mathbf{f(x)}$) for a specific input ($\mathbf{x}$).
+
+**Example:** Given $\mathbf{f(x) = x^2 + 2x - 3}$, find $\mathbf{f(4)}$.
+
+1.  **Substitute:** Replace every $\mathbf{x}$ in the function with the input value ($\mathbf{4}$).
+    $$\mathbf{f(4) = (4)^2 + 2(4) - 3}$$
+2.  **Simplify:**
+    $$\mathbf{f(4) = 16 + 8 - 3}$$
+3.  **Result:**
+    $$\mathbf{f(4) = 21}$$
+
+---
+
+#### 3. Domain and Range
+
+These terms describe the set of possible input and output values for a function.
+
+| Term | Definition | Meaning |
+| :--- | :--- | :--- |
+| **Domain** | The set of all possible **input** values ($\mathbf{x}$). | What **x-values** the graph covers (left to right). |
+| **Range** | The set of all possible **output** values ($\mathbf{y}$). | What **y-values** the graph covers (bottom to top). |
+
+**Identifying Restrictions (Domain):**
+
+The domain of polynomials is generally **all real numbers**, but restrictions commonly occur in two cases:
+
+1.  **Fractions (Rational Functions):** The denominator **cannot be zero**.
+    $$\mathbf{f(x) = \frac{1}{x - 5} \implies x \neq 5}$$
+2.  **Square Roots (Radical Functions):** The value inside the square root **must be non-negative** ($\mathbf{\ge 0}$).
+    $$\mathbf{f(x) = \sqrt{x + 2} \implies x + 2 \ge 0 \implies x \ge -2}$$
