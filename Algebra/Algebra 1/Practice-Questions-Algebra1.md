@@ -145,7 +145,7 @@ State all excluded values.
 #### Subject: Rational Expressions (Set 3: Addition/Subtraction)
 
 #### Question 7
-- [ ] Completed
+- [x] Completed ✅ 2025-10-12
 - [ ] Correct
 - [ ] Added to Anki
 Add and simplify the expression: $$\frac{5x}{2x + 6} + \frac{x^2 - 1}{x^2 + 5x + 6}$$
