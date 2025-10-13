@@ -1886,7 +1886,7 @@ The **Natural Logarithm** is one of the most important logarithms in mathematics
 * **Concept:** It represents the limit of continuous growth, often defined as:
     $$\mathbf{e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n}$$
 You can use it to calculate the interest (if you had 200% returns, then $e^2$ = 2.7182 * 2.7182 = 7.389% interest returned)
-### XIII. Applications of Euler's Number ($\mathbf{e}$) 🧑‍💻
+### Applications of Euler's Number ($\mathbf{e}$) 🧑‍💻
 
 **Euler's Number ($\mathbf{e \approx 2.718}$)** is the base of the **Natural Logarithm ($\mathbf{\ln}$)** and the base for continuous growth in mathematics, finance, and science.
 
