@@ -22,3 +22,6 @@ SageMath is a comprehensive Computer Algebra System (CAS) built upon Python and 
 
 Free Textbooks for many subjects :
 https://openstax.org/
+
+Anyone Can Be a Math Person Once They Know the Best Learning Techniques | Po-Shen Loh | Big Think (Why missing 3 months of high school in a year cripples your ability to do math) :
+https://www.youtube.com/watch?v=M7febmLhS6E
