@@ -9,3 +9,6 @@ https://www.youtube.com/watch?v=NWXezo9YFfY
 
 Desmos - Graphing Calculator :
 https://www.desmos.com/calculator
+
+Free Textbooks for many subjects :
+https://openstax.org/
