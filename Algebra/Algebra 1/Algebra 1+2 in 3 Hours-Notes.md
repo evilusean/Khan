@@ -1957,16 +1957,10 @@ $$\mathbf{A = Pe^{rt}}$$
 
 * **Problem:** Find the final amount if $\mathbf{\$1000}$ is invested at $\mathbf{5\%}$ interest compounded continuously for $\mathbf{10}$ years.
 * **Given:** $\mathbf{P=1000}$, $\mathbf{r=0.05}$, $\mathbf{t=10}$.
-
-| Step | Operation | Calculation | Result |
-| :--- | :--- | :--- | :--- |
-| **1. Substitute Values** | Sub in $\mathbf{P, r, t}$. | $$\mathbf{A = 1000 \cdot e^{(0.05 \cdot 10)}}$$ | |
-| **2. Simplify Exponent** | $\mathbf{0.05 \cdot 10 = 0.5}$. | $$\mathbf{A = 1000 \cdot e^{0.5}}$$ | |
-| **3. Calculate $\mathbf{e}$ Term** | Use a calculator for $\mathbf{e^{0.5} \approx 1.6487}$. | $$\mathbf{A \approx 1000 \cdot 1.6487}$$ | |
-| **4. Final Result** | Multiply by $\mathbf{1000}$. | $$\mathbf{A \approx 1648.72}$$ | Final amount is $\mathbf{\$1648.72}$. |
+**4. Final Result**  Multiply by $\mathbf{1000}$. | $$\mathbf{A \approx 1648.72}$$ | Final amount is $\mathbf{\$1648.72}$. |
 ---
 
-### 3. General Logarithm and the Power Rule
+### General Logarithm and the Power Rule
 
 The general form is $\mathbf{\log_b(y)}$, where $b$ can be any valid positive base (not equal to 1). A key property applies when the argument of the log is a number raised to a power.
 
@@ -1977,7 +1971,7 @@ The general form is $\mathbf{\log_b(y)}$, where $b$ can be any valid positive ba
 1.  $$\mathbf{\log_2(8^3)} = \mathbf{3 \cdot \log_2(8)}$$
     * Since $\mathbf{\log_2(8) = 3}$, the total result is $\mathbf{3 \cdot 3 = 9}$.
 2.  $$\mathbf{\ln(x^4)} = \mathbf{4 \cdot \ln(x)}$$
-## XI. Exponents, Radicals, and Logarithms
+### XI. Exponents, Radicals, and Logarithms
 
 ### 1. Rational Exponents and Radicals
 
