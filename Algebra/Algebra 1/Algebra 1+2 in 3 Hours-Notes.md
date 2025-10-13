@@ -2017,3 +2017,51 @@ These rules demonstrate conversions between forms and how to expand or condense 
 ### Logarithmic Functions 📊
 https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h41m45s
 
+A **Logarithmic Function** is the inverse of an exponential function. It is written in the form $\mathbf{f(x) = \log_b(x)}$.
+
+---
+
+### 1. Key Characteristics and Inverse Relationship
+
+| Property | Exponential Function $\mathbf{f(x) = b^x}$ | Logarithmic Function $\mathbf{f^{-1}(x) = \log_b(x)}$ |
+| :--- | :--- | :--- |
+| **Inverse** | Takes an $\mathbf{x}$ and returns $\mathbf{y}$. | Takes $\mathbf{y}$ and returns the original $\mathbf{x}$. |
+| **Domain (Inputs)** | All Real Numbers ($\mathbf{-\infty, \infty}$) | $\mathbf{x > 0}$ (Only positive numbers can be arguments). |
+| **Range (Outputs)** | $\mathbf{y > 0}$ (The result is always positive). | All Real Numbers ($\mathbf{-\infty, \infty}$). |
+| **Key Point** | Crosses the y-axis at $\mathbf{(0, 1)}$ ($\mathbf{b^0 = 1}$). | Crosses the x-axis at $\mathbf{(1, 0)}$ ($\mathbf{\log_b(1) = 0}$). |
+| **Asymptote** | Horizontal Asymptote at $\mathbf{y = 0}$. | **Vertical Asymptote** at $\mathbf{x = 0}$. |
+
+---
+
+### 2. Domain Restrictions
+
+The domain of a logarithmic function is severely restricted, unlike a polynomial. The argument of the logarithm must always be strictly positive.
+
+* **Rule:** The argument ($\mathbf{M}$) of the log must satisfy $\mathbf{M > 0}$.
+
+**Example:** Find the domain of $\mathbf{f(x) = \log(x - 4)}$.
+
+1.  **Set Argument > 0:** $$\mathbf{x - 4 > 0}$$
+2.  **Solve:** $$\mathbf{x > 4}$$
+3.  **Domain:** $\mathbf{(4, \infty)}$
+
+*The function has a vertical asymptote at $\mathbf{x = 4}$.*
+
+---
+
+### 3. Graphing Logarithmic Functions
+
+The graph of $\mathbf{f(x) = \log_b(x)}$ is the reflection of $\mathbf{y = b^x}$ across the line $\mathbf{y = x}$.
+
+**General Shape:**
+* All logarithmic graphs pass through the point $\mathbf{(1, 0)}$.
+* The curve runs parallel to the **Vertical Asymptote** ($\mathbf{x = 0}$ or the $y$-axis).
+
+**Transformations:**
+Logarithmic functions follow the same transformation rules as other functions, based on the general form $\mathbf{y = a \cdot \log_b(x - h) + k}$.
+
+| Transformation | Variable | Effect on the Graph |
+| :--- | :--- | :--- |
+| **Horizontal Shift** | $\mathbf{h}$ (inside log) | Shifts the **Vertical Asymptote** to $\mathbf{x = h}$. |
+| **Vertical Shift** | $\mathbf{+k}$ (outside log) | Shifts the graph **Up** ($\mathbf{+k}$) or **Down** ($\mathbf{-k}$). |
+| **Reflection/Stretch** | $\mathbf{a}$ (coefficient) | Reflects across the $\mathbf{x}$-axis if $\mathbf{a}$ is negative. |
