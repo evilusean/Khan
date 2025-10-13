@@ -1886,6 +1886,83 @@ The **Natural Logarithm** is one of the most important logarithms in mathematics
 * **Concept:** It represents the limit of continuous growth, often defined as:
     $$\mathbf{e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n}$$
 You can use it to calculate the interest (if you had 200% returns, then $e^2$ = 2.7182 * 2.7182 = 7.389% interest returned)
+### XIII. Applications of Euler's Number ($\mathbf{e}$) 🧑‍💻
+
+**Euler's Number ($\mathbf{e \approx 2.718}$)** is the base of the **Natural Logarithm ($\mathbf{\ln}$)** and the base for continuous growth in mathematics, finance, and science.
+
+---
+
+#### 1. Evaluating Natural Logarithms ($\mathbf{\ln}$)
+
+The core use of $e$ in Algebra is understanding its inverse relationship with the Natural Log, $\mathbf{\ln}$.
+
+**Formula:**
+$$\mathbf{\ln(y) = x} \iff \mathbf{e^x = y}$$
+
+**Example 1: Solving $\mathbf{\ln(e^5)}$**
+
+This uses the **Inverse Property $\mathbf{\ln(e^x) = x}$**.
+
+| Step | Operation | Expression | Explanation |
+| :--- | :--- | :--- | :--- |
+| **1. Apply Inverse Property** | The natural log ($\mathbf{\ln}$) and its base ($\mathbf{e}$) cancel each other out. | $$\mathbf{\ln(e^5) = 5}$$ | The exponent **$5$** is the answer. |
+| **2. Final Result** | | $$\mathbf{5}$$ | |
+
+**Example 2: Solving $\mathbf{\ln(\frac{1}{e^2}) = x}$**
+
+This requires using exponent rules before applying the inverse property.
+
+| Step | Operation | Expression | Explanation |
+| :--- | :--- | :--- | :--- |
+| **1. Use Negative Exponent Rule** | Move $e^2$ to the numerator by changing the sign of the exponent. | $$\mathbf{\ln(e^{-2})}$$ | $$\mathbf{\frac{1}{e^2} = e^{-2}}$$ |
+| **2. Apply Inverse Property** | The $\mathbf{\ln}$ and $\mathbf{e}$ cancel. | $$\mathbf{-2}$$ | The remaining exponent is the solution. |
+| **3. Final Result** | | $$\mathbf{-2}$$ | |
+
+---
+
+#### 2. Simplifying Exponential Expressions with Base $e$
+
+This demonstrates the other Inverse Property: $\mathbf{e^{\ln(x)} = x}$.
+
+**Example 3: Solving $\mathbf{e^{2 \cdot \ln(3)}}$**
+
+This requires the **Power Rule for Logs** to simplify the exponent first.
+
+| Step | Operation | Expression | Explanation |
+| :--- | :--- | :--- | :--- |
+| **1. Apply Log Power Rule** | Move the coefficient $\mathbf{2}$ back up into the log argument as an exponent. | $$\mathbf{e^{\ln(3^2)}}$$ | $\mathbf{p \cdot \ln(x) = \ln(x^p)}$ |
+| **2. Simplify the Exponent** | Calculate $3^2$. | $$\mathbf{e^{\ln(9)}}$$ | |
+| **3. Apply Inverse Property** | The base $\mathbf{e}$ and the exponent $\mathbf{\ln}$ cancel each other out. | $$\mathbf{9}$$ | The remaining argument is the solution. |
+| **4. Final Result** | | $$\mathbf{9}$$ | |
+
+---
+
+#### 3. Continuous Compounding Formula
+
+$e$ is used in models for continuous growth, such as compound interest.
+
+**Formula (Continuous Compounding):**
+$$\mathbf{A = Pe^{rt}}$$
+
+| Term | Meaning |
+| :--- | :--- |
+| **$\mathbf{A}$** | Final amount (value after $t$ years). |
+| **$\mathbf{P}$** | Principal amount (initial investment). |
+| **$\mathbf{r}$** | Annual interest rate (as a decimal). |
+| **$\mathbf{t}$** | Time in years. |
+| **$\mathbf{e}$** | Euler's Number (constant $\approx 2.718$). |
+
+**Example 4: Calculating Compounding**
+
+* **Problem:** Find the final amount if $\mathbf{\$1000}$ is invested at $\mathbf{5\%}$ interest compounded continuously for $\mathbf{10}$ years.
+* **Given:** $\mathbf{P=1000}$, $\mathbf{r=0.05}$, $\mathbf{t=10}$.
+
+| Step | Operation | Calculation | Result |
+| :--- | :--- | :--- | :--- |
+| **1. Substitute Values** | Sub in $\mathbf{P, r, t}$. | $$\mathbf{A = 1000 \cdot e^{(0.05 \cdot 10)}}$$ | |
+| **2. Simplify Exponent** | $\mathbf{0.05 \cdot 10 = 0.5}$. | $$\mathbf{A = 1000 \cdot e^{0.5}}$$ | |
+| **3. Calculate $\mathbf{e}$ Term** | Use a calculator for $\mathbf{e^{0.5} \approx 1.6487}$. | $$\mathbf{A \approx 1000 \cdot 1.6487}$$ | |
+| **4. Final Result** | Multiply by $\mathbf{1000}$. | $$\mathbf{A \approx 1648.72}$$ | Final amount is $\mathbf{\$1648.72}$. |
 ---
 
 ### 3. General Logarithm and the Power Rule
