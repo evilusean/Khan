@@ -35,6 +35,8 @@ Tesla’s 3-6-9 and Vortex Math: Is this really the key to the universe?
 https://www.youtube.com/watch?v=6ZrO90AI0c8
 Tesla Valve | The complete physics
 https://www.youtube.com/watch?v=suIAo0EYwOE
+Tesla Turbine | The interesting physics behind it :
+https://www.youtube.com/watch?v=AfCyzIbpLN4
 
 ElectricSean :
 Electrical Wiring Basics :
