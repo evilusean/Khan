@@ -2014,3 +2014,6 @@ These rules demonstrate conversions between forms and how to expand or condense 
     * *Note: The number 3 has been moved from the exponent to the coefficient using the **Power Rule**.*
 
 ---
+### Logarithmic Functions 📊
+https://www.youtube.com/watch?v=zPgfIOWVnF4&t=2h41m45s
+
