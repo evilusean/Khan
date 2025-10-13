@@ -83,7 +83,7 @@ https://www.youtube.com/watch?v=rzLKns787Uk
 4 Years of Electrical Engineering in 26 Minutes :
 https://www.youtube.com/watch?v=ngo3ZTrT69A
 
-Engineering Degrees Ranked By Difficulty/Pay (Tier List - 'Computer Engineering' = ROI/easiest)
+Engineering Degrees Ranked By Difficulty/Pay (Tier List - 'Computer Engineering' = C Tier Highest ROI/easiest - 'EE' = B Tier (harder, less pay))
 https://www.youtube.com/watch?v=DAK_UT894sc
 
 Casually Explained: Engineering :
