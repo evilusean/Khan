@@ -83,6 +83,9 @@ https://www.youtube.com/watch?v=rzLKns787Uk
 4 Years of Electrical Engineering in 26 Minutes :
 https://www.youtube.com/watch?v=ngo3ZTrT69A
 
+Engineering Degrees Ranked By Difficulty/Pay (Tier List)
+https://www.youtube.com/watch?v=DAK_UT894sc
+
 Casually Explained: Engineering :
 https://www.youtube.com/watch?v=tqcThEqoYmA
 The Map of Engineering :
