@@ -64,7 +64,8 @@ PastPapers - Get the last years test for the exam you are taking, and practice o
 https://pastpapers.co/
 MIT - OpenCourseWare - # [Introduction to Electrical Engineering and Computer Science I](https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/) :
 https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/
-
+Lec 1 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011 :
+https://www.youtube.com/watch?v=3S4cNfl0YF0
 
 Essential Calculus Skills Practice Workbook with Full Solutions Paperback – Chris McMullen : 
 https://www.amazon.ca/Essential-Calculus-Practice-Workbook-Solutions/dp/1941691242
