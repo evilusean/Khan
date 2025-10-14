@@ -59,13 +59,15 @@ LaRouche(RIP) Vs Euclid : Pedagogicals :
 https://web.archive.org/web/20080113132327/http://wlym.com/tiki/tiki-index.php?page=Pedagogicals
 https://larouchepub.com/lar/2023/5040-your_mission_is_to_learn_to_th-lar.html
 SED - Pully (Mechanical Advantage - Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes) :  https://www.youtube.com/watch?v=M2w3NZzPwOM
-1700  Free University Courses (but no degREEEEE piece of paper) : https://www.openculture.com/freeonlinecourses 
-PastPapers - Get the last years test for the exam you are taking, and practice on that :
-https://pastpapers.co/
+1700  Free University Courses (but no degREEEEE piece of paper) : https://www.openculture.com/freeonlinecourses
+MIT- OpenCourseWare (free courses, with lectures) :
+https://ocw.mit.edu/
 MIT - OpenCourseWare - # [Introduction to Electrical Engineering and Computer Science I](https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/) :
 https://ocw.mit.edu/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/
 Lec 1 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011 :
 https://www.youtube.com/watch?v=3S4cNfl0YF0
+PastPapers - Get the last years test for the exam you are taking, and practice on that :
+https://pastpapers.co/
 
 Essential Calculus Skills Practice Workbook with Full Solutions Paperback – Chris McMullen : 
 https://www.amazon.ca/Essential-Calculus-Practice-Workbook-Solutions/dp/1941691242
