@@ -1,3 +1,5 @@
+Future Sean Prompt :
+'give me 2 obsidian codeblocks, one the 'symbols-formulae' with a minimalist one line per symbol or formulae, and a second code block for 'symbols-formulae-explained' with a full explanation of each symbol or formulae for these notes :'
 ### Set Theory Symbols :
 
 | Symbol/Formula | LaTeX Code | Explanation |
