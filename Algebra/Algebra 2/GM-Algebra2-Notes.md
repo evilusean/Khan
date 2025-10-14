@@ -58,4 +58,4 @@ $$C = \{1, 3, 5, 7, 9\}$$
 * **Is NOT a member of:** $12 \notin U$
 * **Is a subset of:** $B \subset U$
 * **No solution/Empty Set:** $A \cap C = \emptyset$ (The intersection of A and C is the empty set)
-
+## Algebra II - Lesson 2: Sets 2 : 14October2025
