@@ -164,3 +164,27 @@ State all excluded values.
 - [x] Added to Anki ✅ 2025-10-12
 Subtract and simplify the expression: $$\frac{2}{x^2 - 4} - \frac{x}{x^2 + 4x + 4}$$
 State all excluded values.
+
+#### Date: 2025-10-13
+#### Subject: Radical Expressions
+
+#### Question 13
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Simplify the radical: $$\sqrt{x^9 y^2}$$
+**Final Answer:**
+
+#### Question 14
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Simplify the radical: $$\sqrt{20 a^5 b^{10}}$$
+**Final Answer:**
+
+#### Question 15
+- [ ] Completed
+- [ ] Correct
+- [ ] Added to Anki
+Simplify the radical: $$\sqrt{49 x^{11}}$$
+**Final Answer:**
