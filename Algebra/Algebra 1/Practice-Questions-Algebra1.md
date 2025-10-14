@@ -169,22 +169,22 @@ State all excluded values.
 #### Subject: Radical Expressions
 
 #### Question 13
-- [ ] Completed
-- [ ] Correct
+- [x] Completed ✅ 2025-10-13
+- [x] Correct ✅ 2025-10-13
 - [ ] Added to Anki
 Simplify the radical: $$\sqrt{x^9 y^2}$$
 **Final Answer:**
 
 #### Question 14
-- [ ] Completed
+- [x] Completed ✅ 2025-10-13
 - [ ] Correct
-- [ ] Added to Anki
+- [x] Added to Anki ✅ 2025-10-13
 Simplify the radical: $$\sqrt{20 a^5 b^{10}}$$
 **Final Answer:**
 
 #### Question 15
-- [ ] Completed
-- [ ] Correct
-- [ ] Added to Anki
+- [x] Completed ✅ 2025-10-13
+- [x] Correct ✅ 2025-10-13
+- [x] Added to Anki ✅ 2025-10-13
 Simplify the radical: $$\sqrt{49 x^{11}}$$
 **Final Answer:**
