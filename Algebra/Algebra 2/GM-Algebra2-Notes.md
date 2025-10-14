@@ -58,6 +58,13 @@ $$C = \{1, 3, 5, 7, 9\}$$
 * **Is NOT a member of:** $12 \notin U$
 * **Is a subset of:** $B \subset U$
 * **No solution/Empty Set:** $A \cap C = \emptyset$ (The intersection of A and C is the empty set)
+
 ## Algebra II - Lesson 2: Sets 2 : 14October2025
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=24m
-
+- 'Venn Diagram' = A way to visually represent the relationship between sets
+- $\mathbf{A^c}$ or $\mathbf{A'}$ : 'A Complement' or 'A Prime' of Set A (Elements NOT in A) = Will contain all the elements in set 'U' (Universal Set) that ARE NOT members of 'Set A'
+- $\cup$  : 'Union' = Will contain everything of the sets that are united(unionized?), without double listing elements
+- $A \cup B$ :  Will contain ALL the elements of set 'A' and 'B' without double listing them
+-  $\cap$ : 'Intersection' = will contain only the terms in BOTH SETS that are intersected
+-  $A \cap B$ : Intersection of set 'A' and 'B' = will contain only the terms that are in BOTH SETS
+- 
