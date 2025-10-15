@@ -125,3 +125,57 @@ $$-20x + 4x = -105 + 56x + 12 - 10x$$
 
 **Final Equation Ready to Solve:**
 $$-16x = 46x - 93$$
+**Step 1: Isolate x-terms by subtracting 46x from both sides.** $$-16x - 46x = -93$$ $$-62x = -93$$ **Step 2: Solve for x by dividing both sides by -62.** $$x = \frac{-93}{-62}$$ **Step 3: Simplify the fraction.** Both 93 and 62 are divisible by 31 (since $93 = 3 \times 31$ and $62 = 2 \times 31$). The negative signs cancel. $$x = \frac{93 \div 31}{62 \div 31}$$ $$x = \frac{3}{2}$$ **Check for Excluded Values:** The original denominators were 5, 4, 5, 5, and 2. Since none of the original denominators contained the variable $x$, there are **no excluded values ($\emptyset$)**. Therefore, the solution is valid. **Final Solution:** $$x = \frac{3}{2}$$
+### Solving the Equation WITHOUT a Full LCD Strategy = Same Result, more steps, harder
+
+**Original Equation:**
+$$-x + \frac{x}{5} = \frac{-21}{4} + \frac{14x}{5} + \frac{3}{5} - \frac{x}{2}$$
+
+***
+
+**Step 1: Simplify the Left Side (Common Denominator is 5).**
+$$-x + \frac{x}{5} = \frac{-5x}{5} + \frac{x}{5} = \mathbf{\frac{-4x}{5}}$$
+
+**Step 2: Simplify Constants on the Right Side (Common Denominator is 5 for the two constant fractions).**
+$$\frac{14x}{5} - \frac{x}{2} + \left( \frac{-21}{4} + \frac{3}{5} \right)$$
+*Combine constants with common denominator 20:*
+$$\frac{-21}{4} + \frac{3}{5} = \frac{-21 \cdot 5}{20} + \frac{3 \cdot 4}{20} = \frac{-105 + 12}{20} = \mathbf{\frac{-93}{20}}$$
+
+**New Equation:**
+$$\frac{-4x}{5} = \frac{14x}{5} - \frac{x}{2} + \frac{-93}{20}$$
+
+***
+
+**Step 3: Move all x-terms to the Left Side.**
+
+$$\frac{-4x}{5} - \frac{14x}{5} + \frac{x}{2} = \frac{-93}{20}$$
+
+**Step 4: Combine the first two x-terms (Common Denominator 5).**
+$$\frac{-4x - 14x}{5} + \frac{x}{2} = \frac{-93}{20}$$
+$$\frac{-18x}{5} + \frac{x}{2} = \frac{-93}{20}$$
+
+***
+
+**Step 5: Combine the remaining x-terms (Common Denominator is 10).**
+$$\frac{-18x \cdot 2}{5 \cdot 2} + \frac{x \cdot 5}{2 \cdot 5} = \frac{-93}{20}$$
+$$\frac{-36x}{10} + \frac{5x}{10} = \frac{-93}{20}$$
+$$\frac{-31x}{10} = \frac{-93}{20}$$
+
+***
+
+**Step 6: Solve for x.**
+
+1.  **Cross-Multiply (Allowed because it's Fraction = Fraction):**
+    $$-31x \cdot 20 = -93 \cdot 10$$
+    $$-620x = -930$$
+
+2.  **Divide both sides by -620:**
+    $$x = \frac{-930}{-620}$$
+    $$x = \frac{93}{62}$$
+
+3.  **Simplify (Divide by 31):**
+    $$x = \frac{93 \div 31}{62 \div 31}$$
+    $$\mathbf{x = \frac{3}{2}}$$
+
+**Final Solution:**
+$$\mathbf{x = \frac{3}{2}}$$
