@@ -81,3 +81,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=24m
 | **$$\cap$$** | **'Intersection'** = Contains **only** the elements common to both sets. | $A \cap B = \{4, 5\}$ |
 | **$$A \cap B$$** | **Intersection of** set 'A' and 'B'. | **(Same as above)** $$\mathbf{\{4, 5\}}$$ |
 ## Algebra II - Lesson 3 - Solving Linear Equations - 14October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=41m5s
