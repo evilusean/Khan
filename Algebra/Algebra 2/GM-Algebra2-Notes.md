@@ -91,7 +91,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=41m5s
 - Find x : Your main goal is to isolate the variable
 ## Algebra II - Lesson 4 - Solving Linear Equations in One Variable - 15October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=59m
-- To clear an equation of fractions, we multiply both sides by the LCD (Lowest common denominator) of alll fractions - clear the equation of fractions to make it easier to get the answer (this isn't mandatory, just makes it easier to work with)
+- To clear an equation of fractions, we multiply both sides by the **LCD (Lowest common denominator)** of alll fractions - clear the equation of fractions to make it easier to get the answer (this isn't mandatory, just makes it easier to work with)
 - Problem 1) (completed below, added to anki)
 
 $$-x + \frac{x}{5} = \frac{-21}{4} + \frac{14x}{5} + \frac{3}{5} - \frac{x}{2}$$
@@ -106,9 +106,9 @@ $$-1.8x -2.06x = -2.9x + 2.4$$
 - For most problems with decimals, you just need to use a calculator, and don't have to clear the decimal place, unless explicitly told to show your work, so you will rarely run into these, you should still know how to do it, though
 - Problem 4)
 $$1.4y - 2.359 = -0.607 - 0.06y$$
-- 'Conditional Equation' = An equation that has exactly one solution ($5x + 1 = 31$ only $x=6$ is a correct answer, where '31 = 31', if you plug any other number in for x, you will not get a true statement)
-- 'Contradiction' = An equation with no solution is referred to as a contradiction (if the 'x' terms cancel eachother out in the equation, so there is no 'x', that is a contradiction, and it will produce a 'false statement' and has 'no solution')
-- 'Identity' = An equation with an unlimited/infinite number of solutions is called an identity ($6-8x=3(2-x)-5x$, $6-8x=6-8x$, $6 = 6$, a true statement and there are an infinite number of solutions where 'x' can be anything)
+- **'Conditional Equation'** = An equation that has exactly one solution ($5x + 1 = 31$ only $x=6$ is a correct answer, where '31 = 31', if you plug any other number in for x, you will not get a true statement)
+- '**Contradiction'** = An equation with no solution is referred to as a contradiction (if the 'x' terms cancel eachother out in the equation, so there is no 'x', that is a contradiction, and it will produce a 'false statement' and has 'no solution')
+- **'Identity'**= An equation with an unlimited/infinite number of solutions is called an identity ($6-8x=3(2-x)-5x$, $6-8x=6-8x$, $6 = 6$, a true statement and there are an infinite number of solutions where 'x' can be anything)
 
 ### Problem 1) Clearing Fractions by Multiplying by the LCD (20)
 
@@ -238,3 +238,5 @@ $$x = \frac{2.4}{-0.96}$$
 *(To simplify the calculation, temporarily multiply the numerator and denominator by 100 to remove decimals: $\frac{240}{-96}$)*
 $$x = -\frac{240}{96}$$
 $$x = -\frac{5}{2} \quad \text{or} \quad x = -2.5$$
+## Algebra II - Lesson 5 - Converting a Repeating Decimal into a Fraction - 15October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=1h30m20s
