@@ -59,7 +59,7 @@ $$C = \{1, 3, 5, 7, 9\}$$
 * **Is a subset of:** $B \subset U$
 * **No solution/Empty Set:** $A \cap C = \emptyset$ (The intersection of A and C is the empty set)
 
-## Algebra II - Lesson 2 - Sets 2 - 14October2025
+## Algebra II - Lesson 2 - Sets 2 - 14October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=24m
 - 'Venn Diagram' = A way to visually represent the relationship between sets
 - $\mathbf{A^c}$ or $\mathbf{A'}$ : 'A Complement' or 'A Prime' of Set A (Elements NOT in A) = Will contain all the elements in set 'U' (Universal Set) that ARE NOT members of 'Set A'
@@ -89,4 +89,5 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=41m5s
 - **'Multiplication Property of Equality'** = if you multiply(or divide) one side, you need to mutliply(or divide) the other side as well with the same non-zero number, it will not effect the solution 
 - **Steps to Solve** : 1) Simplify Each Side Seperately, 2) Isolate the variable terms on one side of the equation, 3) Isolate the Variable, 4) Check the solution in the original equation (To check, just plug in the value you get and check if the equality still holds true)
 - Find x : Your main goal is to isolate the variable
-- 
+## Algebra II - Lesson 4 - Solving Linear Equations in One Variable - 15October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=59m
