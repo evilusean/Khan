@@ -240,3 +240,17 @@ $$x = -\frac{240}{96}$$
 $$x = -\frac{5}{2} \quad \text{or} \quad x = -2.5$$
 ## Algebra II - Lesson 5 - Converting a Repeating Decimal into a Fraction - 15October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=1h30m20s
+- **Repeating Decimal** = A decimal that repeats the same digit or pattern of digits forever.
+- Examples of Repeating Decimals :
+
+|    Fraction     |     Decimal Representation     | Read As                                                |
+| :-------------: | :----------------------------: | :----------------------------------------------------- |
+|  $\frac{1}{3}$  |      $0.\mathbf{\bar{3}}$      | Zero point three repeating                             |
+|  $\frac{1}{6}$  |     $0.1\mathbf{\bar{6}}$      | Zero point one six repeating                           |
+|  $\frac{1}{9}$  |      $0.\mathbf{\bar{1}}$      | Zero point one repeating                               |
+| $\frac{2}{11}$  |   $0.\mathbf{\overline{18}}$   | Zero point one eight repeating                         |
+| $\frac{5}{12}$  |     $0.41\mathbf{\bar{6}}$     | Zero point four one six repeating                      |
+|  $\frac{1}{7}$  | $0.\mathbf{\overline{142857}}$ | Zero point one four two eight five seven repeating     |
+| $\frac{44}{45}$ |   $0.9\mathbf{\overline{7}}$   | Zero point nine seven, repeating infinitely, of course |
+- 44/45 = 0.97 repeating = he does a bunch of things where he multiplies the equation by 10, get's 8.8, then subtract x, then multiply by 10(again), then divide by 90.... bro, just round up or down, this is tedious just watching, I'm not typing all that out
+- $10^n$ where $^n$ is the number of digits in the repeating string (so if 2 digits repeat infinitely, then do 2, etc)
