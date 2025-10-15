@@ -91,3 +91,31 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=41m5s
 - Find x : Your main goal is to isolate the variable
 ## Algebra II - Lesson 4 - Solving Linear Equations in One Variable - 15October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=59m
+- To clear an equation of fractions, we multiply both sides by the LCD (Lowest common denominator) of alll fractions - clear the equation of fractions to make it easier to get the answer (this isn't mandatory, just makes it easier to work with)
+
+$$\frac{-x}{5} + \frac{1x}{5} = \frac{-21}{4} + \frac{14x}{5} + \frac{3}{5} - \frac{1x}{2}$$
+- $5 x 4 = 20$ , so the LCD is 20, so multiply both sides of the equation by 20, worked equation below
+- 
+#### Clearing Fractions by Multiplying by the LCD (20)
+
+**Original Equation:**
+$$\frac{-x}{5} + \frac{1x}{5} = \frac{-21}{4} + \frac{14x}{5} + \frac{3}{5} - \frac{1x}{2}$$
+
+**Step 1: Multiply every term by the LCD, 20.**
+$$20\left(\frac{-x}{5}\right) + 20\left(\frac{x}{5}\right) = 20\left(\frac{-21}{4}\right) + 20\left(\frac{14x}{5}\right) + 20\left(\frac{3}{5}\right) - 20\left(\frac{x}{2}\right)$$
+
+**Step 2: Cancel denominators and multiply the remainders.**
+* $20/5 = 4 \implies 4(-x) + 4(x)$
+* $20/4 = 5 \implies 5(-21)$
+* $20/5 = 4 \implies 4(14x) + 4(3)$
+* $20/2 = 10 \implies -10(x)$
+
+**Intermediate Result (No Fractions):**
+$$-4x + 4x = -105 + 56x + 12 - 10x$$
+
+**Step 3: Combine Like Terms on each side.**
+* Left Side: $-4x + 4x = \mathbf{0}$
+* Right Side: $(56x - 10x) + (-105 + 12) = \mathbf{46x - 93}$
+
+**Final Equation Ready to Solve:**
+$$0 = 46x - 93$$
