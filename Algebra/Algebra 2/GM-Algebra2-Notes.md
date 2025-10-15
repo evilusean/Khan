@@ -82,4 +82,11 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=24m
 | **$$A \cap B$$** | **Intersection of** set 'A' and 'B'. | **(Same as above)** $$\mathbf{\{4, 5\}}$$ |
 ## Algebra II - Lesson 3 - Solving Linear Equations - 14October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=41m5s
+- $ax + b = c$ : first degree linear equation (since 'a' is raised to the first power of 'x')
+- 'a', 'b', and 'c' are representing real numbers, 'a' is the coefficient to 'x' and can not be 0
+- $2x + 3 = 9$ , $x = 3$ , when you plug in '3' in to x for the equation, it should create a true statement (9=9)
+- **'Addition Property Of Equality'** = You can add the same value to both sides of the equation, and it will not effect the solution
+- **'Multiplication Property of Equality'** = if you multiply(or divide) one side, you need to mutliply(or divide) the other side as well with the same non-zero number, it will not effect the solution 
+- **Steps to Solve** : 1) Simplify Each Side Seperately, 2) Isolate the variable terms on one side of the equation, 3) Isolate the Variable, 4) Check the solution in the original equation (To check, just plug in the value you get and check if the equality still holds true)
+- Find x : Your main goal is to isolate the variable
 - 
