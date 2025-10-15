@@ -3,7 +3,7 @@ Started : 14October2025
 GreeneMath - Algebra 2 Full Course :
 https://www.youtube.com/watch?v=2wrPGtP61fo
 
-## Algebra II - Lesson1 - Sets1 - 14October2025 :
+## Algebra II - Lesson 1 - Sets 1 - 14October2025 :
 - A Set is a collection of things : it should be clear whether something belongs to the set or not - they should fit a certain profile/definition
 - Examples of Sets : Whole Numbers {0, 1, 2,3...}, 
 - The numbers in the set are known as the 'members' or 'elements' of the set
@@ -59,7 +59,7 @@ $$C = \{1, 3, 5, 7, 9\}$$
 * **Is a subset of:** $B \subset U$
 * **No solution/Empty Set:** $A \cap C = \emptyset$ (The intersection of A and C is the empty set)
 
-## Algebra II - Lesson 2: Sets 2 : 14October2025
+## Algebra II - Lesson 2 - Sets 2 - 14October2025
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=24m
 - 'Venn Diagram' = A way to visually represent the relationship between sets
 - $\mathbf{A^c}$ or $\mathbf{A'}$ : 'A Complement' or 'A Prime' of Set A (Elements NOT in A) = Will contain all the elements in set 'U' (Universal Set) that ARE NOT members of 'Set A'
@@ -82,3 +82,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=24m
 | **$$A \cap B$$** | **Intersection of** set 'A' and 'B'. | **(Same as above)** $$\mathbf{\{4, 5\}}$$ |
 ## Algebra II - Lesson 3 - Solving Linear Equations - 14October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=41m5s
+- 
