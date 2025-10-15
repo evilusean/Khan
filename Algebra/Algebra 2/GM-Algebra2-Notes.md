@@ -67,4 +67,16 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=24m
 - $A \cup B$ :  Will contain ALL the elements of set 'A' and 'B' without double listing them
 -  $\cap$ : 'Intersection' = will contain only the terms in BOTH SETS that are intersected
 -  $A \cap B$ : Intersection of set 'A' and 'B' = will contain only the terms that are in BOTH SETS
-- 
+### Set Operations for Union and Intersection :
+
+**Universal Set (U):** $$U = \{1, 2, 3, 4, 5, 6, 7, 8, 9\}$$
+**Set A:** $$A = \{1, 2, 3, 4, 5\}$$
+**Set B:** $$B = \{4, 5, 6, 7\}$$
+
+| Symbol/Operation | Definition | Example |
+| :--- | :--- | :--- |
+| **$\mathbf{A^c}$ or $\mathbf{A'}$** | **'A Complement'** (Elements NOT in A) = All elements in $U$ that are NOT in $A$. | $A^c = \{6, 7, 8, 9\}$ |
+| **$$\cup$$** | **'Union'** = Combine all elements from the sets, without listing duplicates. | $A \cup B = \{1, 2, 3, 4, 5, 6, 7\}$ |
+| **$$A \cup B$$** | Will contain **ALL** the elements of set 'A' and 'B'. | **(Same as above)** $$\mathbf{\{1, 2, 3, 4, 5, 6, 7\}}$$ |
+| **$$\cap$$** | **'Intersection'** = Contains **only** the elements common to both sets. | $A \cap B = \{4, 5\}$ |
+| **$$A \cap B$$** | **Intersection of** set 'A' and 'B'. | **(Same as above)** $$\mathbf{\{4, 5\}}$$ |
