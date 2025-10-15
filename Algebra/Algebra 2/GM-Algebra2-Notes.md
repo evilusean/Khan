@@ -92,12 +92,25 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=41m5s
 ## Algebra II - Lesson 4 - Solving Linear Equations in One Variable - 15October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=59m
 - To clear an equation of fractions, we multiply both sides by the LCD (Lowest common denominator) of alll fractions - clear the equation of fractions to make it easier to get the answer (this isn't mandatory, just makes it easier to work with)
+- Problem 1) (completed below, added to anki)
 
 $$-x + \frac{x}{5} = \frac{-21}{4} + \frac{14x}{5} + \frac{3}{5} - \frac{x}{2}$$
 - $5 x 4 = 20$ , so the LCD is 20, so multiply both sides of the equation by 20, worked equation below 
 - The LCD is the smallest number divisible by all these denominators.
-- 
-### Clearing Fractions by Multiplying by the LCD (20)
+- Problem 2) (added to anki)
+$$2\left[x - \frac{5}{3}\right] = \frac{11}{3} - \frac{3x}{2}$$
+- Similarly when an equation contains decimals, we can clear the decimals by multiplying both sides by the appropriate power of 10
+- Problem 3) (completed below, added to anki)
+$$-1.8x -2.06x = -2.9x + 2.4$$
+- A good rule to use, is that if you have an equation with decimals, involved, use decimals as the answer - If you have an equation with fractions involved, use fractions as the answer, etc. 
+- For most problems with decimals, you just need to use a calculator, and don't have to clear the decimal place, unless explicitly told to show your work, so you will rarely run into these, you should still know how to do it, though
+- Problem 4)
+$$1.4y - 2.359 = -0.607 - 0.06y$$
+- 'Conditional Equation' = An equation that has exactly one solution ($5x + 1 = 31$ only $x=6$ is a correct answer, where '31 = 31', if you plug any other number in for x, you will not get a true statement)
+- 'Contradiction' = An equation with no solution is referred to as a contradiction (if the 'x' terms cancel eachother out in the equation, so there is no 'x', that is a contradiction, and it will produce a 'false statement' and has 'no solution')
+- 'Identity' = An equation with an unlimited/infinite number of solutions is called an identity ($6-8x=3(2-x)-5x$, $6-8x=6-8x$, $6 = 6$, a true statement and there are an infinite number of solutions where 'x' can be anything)
+
+### Problem 1) Clearing Fractions by Multiplying by the LCD (20)
 
 **Original Equation (Based on visual inspection):**
 $$-x + \frac{x}{5} = \frac{-21}{4} + \frac{14x}{5} + \frac{3}{5} - \frac{x}{2}$$
@@ -126,7 +139,7 @@ $$-20x + 4x = -105 + 56x + 12 - 10x$$
 **Final Equation Ready to Solve:**
 $$-16x = 46x - 93$$
 **Step 1: Isolate x-terms by subtracting 46x from both sides.** $$-16x - 46x = -93$$ $$-62x = -93$$ **Step 2: Solve for x by dividing both sides by -62.** $$x = \frac{-93}{-62}$$ **Step 3: Simplify the fraction.** Both 93 and 62 are divisible by 31 (since $93 = 3 \times 31$ and $62 = 2 \times 31$). The negative signs cancel. $$x = \frac{93 \div 31}{62 \div 31}$$ $$x = \frac{3}{2}$$ **Check for Excluded Values:** The original denominators were 5, 4, 5, 5, and 2. Since none of the original denominators contained the variable $x$, there are **no excluded values ($\emptyset$)**. Therefore, the solution is valid. **Final Solution:** $$x = \frac{3}{2}$$
-### Solving the Equation WITHOUT a Full LCD Strategy = Same Result, more steps, harder
+### Problem 1) Solving the Equation WITHOUT a Full LCD Strategy = Same Result, more steps, harder
 
 **Original Equation:**
 $$-x + \frac{x}{5} = \frac{-21}{4} + \frac{14x}{5} + \frac{3}{5} - \frac{x}{2}$$
@@ -179,3 +192,49 @@ $$\frac{-31x}{10} = \frac{-93}{20}$$
 
 **Final Solution:**
 $$\mathbf{x = \frac{3}{2}}$$
+### Problem 3 - Solution Method 1: Linear Equations - Clearing Decimals
+
+**Original Equation:**
+$$-1.8x - 2.06x = -2.9x + 2.4$$
+
+**Step 1: Multiply the entire equation by 100 (LCD of 1, 10, 100).**
+$$100(-1.8x - 2.06x) = 100(-2.9x + 2.4)$$
+
+**Resulting Integer Equation:**
+$$-180x - 206x = -290x + 240$$
+
+**Step 2: Combine Like Terms.**
+$$-386x = -290x + 240$$
+
+**Step 3: Isolate x-terms (Add 290x to both sides).**
+$$-386x + 290x = 240$$
+$$-96x = 240$$
+
+**Step 4: Solve for x (Divide by -96).**
+$$x = \frac{240}{-96}$$
+
+**Step 5: Simplify (Divide numerator and denominator by 48).**
+$$x = -\frac{5}{2} \quad \text{or} \quad x = -2.5$$
+### Problem 3 - Solution Method 2: Linear Equations - Solving with Decimals
+
+**Original Equation:**
+$$-1.8x - 2.06x = -2.9x + 2.4$$
+
+**Step 1: Combine Like Terms on the Left Side.**
+$$(-1.8 - 2.06)x = -3.86x$$
+$$-3.86x = -2.9x + 2.4$$
+
+**Step 2: Isolate x-terms (Add 2.9x to both sides).**
+$$-3.86x + 2.9x = 2.4$$
+
+**Step 3: Combine x-terms.**
+$$(-3.86 + 2.9)x = -0.96x$$
+$$-0.96x = 2.4$$
+
+**Step 4: Solve for x (Divide by -0.96).**
+$$x = \frac{2.4}{-0.96}$$
+
+**Step 5: Simplify to Fraction/Decimal.**
+*(To simplify the calculation, temporarily multiply the numerator and denominator by 100 to remove decimals: $\frac{240}{-96}$)*
+$$x = -\frac{240}{96}$$
+$$x = -\frac{5}{2} \quad \text{or} \quad x = -2.5$$
