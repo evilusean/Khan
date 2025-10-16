@@ -275,3 +275,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h9m10s
 - **Is Means Equals** = Is = Equals
 - **Commutative** = placement doesn't matter, addition and multiplication are commutative, subtraction and division are not (the order matters where you put the '-' or '/' sign on the terms), so take your time when you are reading so you know where to place the symbols correctly, how many times have I gotten something wrong because I left out a '-' or forgot to simplify
 ## Algebra II - Lesson 8 - Applications of Linear Equations II - 16October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h30m
