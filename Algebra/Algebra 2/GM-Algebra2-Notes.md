@@ -265,3 +265,5 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=1h48m45s
 - f = 9/5c + 32 (fahrenheit = 9/5 celsius + 32)
 - multiply a fraction by its reciprocal to cancel it out 9/5c * 5/9c, what you do on one side do on the other
 - 5/9(f-32) = c
+## Algebra II - Lesson 7 - Applications of Linear Equations I :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h9m10s
