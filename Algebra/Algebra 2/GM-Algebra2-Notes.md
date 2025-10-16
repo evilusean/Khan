@@ -256,3 +256,12 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=1h30m20s
 - $10^n$ where $^n$ is the number of digits in the repeating string (so if 2 digits repeat infinitely, then do 2, etc)
 ## Algebra II - Lesson 6 - Solving for a Specified Variable - 15October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=1h48m45s
+- d = rt (distance = rate * time)
+- r = d/t (rate of speed = distance / time)
+- t = d/r (time = distance / rate)
+- You can manipulate your formulas to get what you need out of it
+- p = 2l + 2w (perimeter of a rectangle = 2 Length + 2 Width)
+-  p = 40 feet, w = 7 feet, you can now solve the equation to find the missing variable
+- f = 9/5c + 32 (fahrenheit = 9/5 celsius + 32)
+- multiply a fraction by its reciprocal to cancel it out 9/5c * 5/9c, what you do on one side do on the other
+- 5/9(f-32) = c
