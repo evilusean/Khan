@@ -276,3 +276,52 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h9m10s
 - **Commutative** = placement doesn't matter, addition and multiplication are commutative, subtraction and division are not (the order matters where you put the '-' or '/' sign on the terms), so take your time when you are reading so you know where to place the symbols correctly, how many times have I gotten something wrong because I left out a '-' or forgot to simplify
 ## Algebra II - Lesson 8 - Applications of Linear Equations II - 16October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h30m
+- There are generally only 3 types of word problems you will run into during Algebra I / II
+- 6 Step Process to Solving a word problem :
+1) Read the problem and determine the question(s) to be answered
+2) Assign a variable to represent the unknown, sometimes more than one unknown
+3) Write an equation
+4) Solve an equation
+5) Write the answer in terms of the question(s) asked 
+6) Check the answer using the words of the problem
+- Problem 1) Marci and Steven are siblings. Marci is four years older than Steven. If their combined age is 34, how old is Marci? How old is Steven? 
+  **'S' = Stevens Age, 
+  'M' = Marcis Age(S +4).**  
+  $S + (S+4) = 34$ 
+  $2S + 4 = 34$
+  $2S = 30$
+  $S = 15$
+  Steven is 15 years old, while Marci is 19 years old. 
+  Doing it starting with Marcis age :
+  M = S + S - 4 = 34 
+  2S = 38
+  M = 19
+  M - 4 = S
+  S = 15
+- Problem 2) During the **16-game** 2012 NFL regular season, **the Broncos, Chargers, and Raiders combined to win a total of 24 games.** The Chargers won 3 more games than the Raiders but won 6 fewer games than the Broncos. Find the regular season win/loss record for each team. 
+  **X =  Number of games won by the chargers**
+  **X - 3 = Number of games won by the raiders**
+  **X+6 = Number of games won by the broncos**
+  $X + X -3 + X + 6 = 24$
+  3X + 3 = 24
+  3X = 21
+  X = 7 
+  There are 7 games won by the chargers and lost 9 games, 4 games won by the raiders and lost 12, and 13 games won by the broncos and lost 3. 
+- Problem 3)  Mark's retail clothing store currently has an inventory level of $585,000. This was an increase of 150% from one year ago. How much was the value of the inventory one year ago?
+  **X = The value of inventory one year ago**
+  X + 1.5X = 585,000$
+  2.5X = 585,000$
+  X = 234,000$
+  The value of the inventory one year ago was 234,000$
+- Problem 4) (added to anki) Gene invested $2000 for 3 years and earned a total of $300 in simple interest. What was his interest rate?
+  **I = prt**, I = interest, p = principal, r = rate, t = time
+  I / pt = r 
+  300 / (2000)(3) = r
+  r = 0.05 
+  The interest rate was 5%.
+- 
+   
+
+
+
+
