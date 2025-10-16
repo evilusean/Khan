@@ -9,6 +9,8 @@ https://www.youtube.com/watch?v=uMfnJ6TJinc
 
 Desmos Geometry Calculator :
 https://www.desmos.com/geometry
+Geometry Challenges :
+https://sciencevsmagic.net/geo/
 
 Euclids Elements :
 https://elements.ratherthanpaper.com/1.1  
