@@ -265,5 +265,13 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=1h48m45s
 - f = 9/5c + 32 (fahrenheit = 9/5 celsius + 32)
 - multiply a fraction by its reciprocal to cancel it out 9/5c * 5/9c, what you do on one side do on the other
 - 5/9(f-32) = c
-## Algebra II - Lesson 7 - Applications of Linear Equations I :
+## Algebra II - Lesson 7 - Applications of Linear Equations I - 16October2025:
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h9m10s
+- how to decode word problems so they make sense, and you can turn them into an equation to use :
+- **Common Addition Phrases** = 'The Sum Of', 'More Than', 'Plus', 'Added to', 'Increased by', 
+- **Phrases for Subtraction** = 'Less than', 'Less', 'Decreased by', 'Minus', 'Subtracted From'
+- **Phrases for Multiplication** = 'Times', 'Multiplied by', 'Of'(fractions), 'Product of'
+- **Phrases for Division** = 'Quotient of', 'Divided by', 
+- **Is Means Equals** = Is = Equals
+- **Commutative** = placement doesn't matter, addition and multiplication are commutative, subtraction and division are not (the order matters where you put the '-' or '/' sign on the terms), so take your time when you are reading so you know where to place the symbols correctly, how many times have I gotten something wrong because I left out a '-' or forgot to simplify
+- 
