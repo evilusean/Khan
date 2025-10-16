@@ -254,3 +254,5 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=1h30m20s
 | $\frac{44}{45}$ |   $0.9\mathbf{\overline{7}}$   | Zero point nine seven, repeating infinitely, of course |
 - 44/45 = 0.97 repeating = he does a bunch of things where he multiplies the equation by 10, get's 8.8, then subtract x, then multiply by 10(again), then divide by 90.... bro, just round up or down, this is tedious just watching, I'm not typing all that out
 - $10^n$ where $^n$ is the number of digits in the repeating string (so if 2 digits repeat infinitely, then do 2, etc)
+## Algebra II - Lesson 6 - Solving for a Specified Variable - 15October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=1h48m45s
