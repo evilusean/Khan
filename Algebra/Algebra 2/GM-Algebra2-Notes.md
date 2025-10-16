@@ -319,7 +319,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h30m
   300 / (2000)(3) = r
   r = 0.05 
   The interest rate was 5%.
-- 
+## Algebra II - Lesson 9 - Applications of Linear Equations III - 16October2025 :
+
    
 
 
