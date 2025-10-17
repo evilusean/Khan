@@ -9,7 +9,8 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY
 GreeneMath - Trigonometry Practice Tests+Solutions (33hours) :
 https://www.youtube.com/watch?v=i6gIyD-FbkQ
 https://greenemath.com/Precalculus.html#trig-functions
-
+GreeneMath - 100 Fully Solved Trigonometric Equations and Inequalities (10 hours) :
+https://www.youtube.com/watch?v=qz3TX7ZnnZw
 
 Where do Sin, Cos and Tan Actually Come From - Origins of Trigonometry - Part 1 :
 https://www.youtube.com/watch?v=uMfnJ6TJinc
