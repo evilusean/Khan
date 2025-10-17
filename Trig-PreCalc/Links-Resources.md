@@ -11,6 +11,8 @@ https://www.youtube.com/watch?v=i6gIyD-FbkQ
 https://greenemath.com/Precalculus.html#trig-functions
 GreeneMath - 100 Fully Solved Trigonometric Equations and Inequalities (10 hours) :
 https://www.youtube.com/watch?v=qz3TX7ZnnZw
+GreeneMath - Solving Trigonometric Equations and Inequalities Full Course (5 hours) :
+https://www.youtube.com/watch?v=FxDii9MkSpA
 
 Where do Sin, Cos and Tan Actually Come From - Origins of Trigonometry - Part 1 :
 https://www.youtube.com/watch?v=uMfnJ6TJinc
