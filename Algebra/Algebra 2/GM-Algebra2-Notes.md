@@ -321,7 +321,14 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h30m
   The interest rate was 5%.
 ## Algebra II - Lesson 9 - Applications of Linear Equations III - 17October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h53m36s
+- Problem 1) (added to anki) An alcohol solution was made by mixing **3 gallons of an 80% alcohol solution** and **4 gallons of a 52% alcohol solution**. Find the concentratiowf the new mixture. 
+   $\frac{Pure amount of the substance}{Total amount of the mixture} = concentration of the substance$ Pure amount of the substance / Total amount of the mixture = concentration of the substance (mathjax formattingiswierd)
+   3 Gallons of 80% = 3 * 0.8 = 2.4 gallons
+   4 gallons of 52% = 4 * 0.52 = 2.08 gallons
+   $\frac{2.4 + 2.08}{3 + 4}$ = 0.64 = 64%
+   The new mixture is 64% alcohol
 - 
+
 
 
 
