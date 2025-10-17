@@ -1,7 +1,7 @@
 GreeneMath - Algebra 1 Full Course - Play in background while doing Algebra quizzes - very detailed, has timestamps, can use as reference (26 hours) :
 https://www.youtube.com/watch?v=GAN-jgzYsIo
 
-GreeneMath - Algebra 2 Full Course :
+GreeneMath - Algebra 2 Full Course (35 hours) :
 https://www.youtube.com/watch?v=2wrPGtP61fo
 GreeneMath - Algebra 2 - Practice Sets Tests/Questions/Solutions (2 days) :
 https://www.youtube.com/watch?v=MF1r7MW8UvQ
