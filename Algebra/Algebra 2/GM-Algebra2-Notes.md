@@ -508,4 +508,58 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h19m
 - **Compound Inequality** = A compound inequality consists of two inequalities linked by **And** or **Or**
 - **And** inequality how to solve steps : 1) Solve each inequality seperately, 2) the solution set contains all numbers that satisfy *both inequalities* - if you don't get a solution that can satisfy BOTH inequalities / overlap - then you have NO SOLUTION
 - **Or** inequalities and how to solve steps : 1) solve each inequality separately, 2) the solution set contains all numbers that satisfy either inequality 
-- 
+### Compound Inequalities
+
+**Definition:** Two or more inequalities joined by the words **AND** or **OR**.
+
+| Type | Definition | Solution Set |
+| :--- | :--- | :--- |
+| **AND** | The variable must satisfy **BOTH** inequalities. (Intersection) | The overlapping region on the number line. |
+| **OR** | The variable must satisfy **AT LEAST ONE** of the inequalities. (Union) | All regions covered by either inequality. |
+
+---
+
+#### Case 1: "AND" Compound Inequality (Intersection)
+
+**Problem:** Solve $-5 < 2x + 1 \le 11$
+
+**Step 1: Isolate the variable ($x$) in the middle.**
+* Subtract 1 from all three parts:
+    $$-5 - 1 < 2x + 1 - 1 \le 11 - 1$$
+    $$-6 < 2x \le 10$$
+
+**Step 2: Solve for $x$.**
+* Divide all three parts by 2:
+    $$\frac{-6}{2} < \frac{2x}{2} \le \frac{10}{2}$$
+    $$\mathbf{-3 < x \le 5}$$
+
+**Step 3: Interval Notation (The Overlap):**
+* Since $x$ must be greater than $-3$ AND less than or equal to $5$, the solution is a single interval.
+    $$\mathbf{(-3, 5]}$$
+
+**Step 4: Set Notation:**
+$$\mathbf{\{x \mid -3 < x \le 5\}}$$
+
+---
+
+#### Case 2: "OR" Compound Inequality (Union)
+
+**Problem:** Solve $3x + 4 \le 10$ **OR** $x - 7 > 2$
+
+**Step 1: Solve each inequality separately.**
+
+| Left Inequality (OR) | Right Inequality (OR) |
+| :--- | :--- |
+| $3x + 4 \le 10$ | $x - 7 > 2$ |
+| $3x \le 6$ | $x > 9$ |
+| $\mathbf{x \le 2}$ | $\mathbf{x > 9}$ |
+
+**Step 2: Combine the solutions using "OR".**
+* The solution includes all values $\le 2$ *plus* all values $> 9$.
+
+**Step 3: Interval Notation (The Combined Regions):**
+* Use the **Union** symbol ($\cup$) to join the two separate intervals.
+    $$\mathbf{(-\infty, 2] \cup (9, \infty)}$$
+
+**Step 4: Set Notation:**
+$$\mathbf{\{x \mid x \le 2 \text{ or } x > 9\}}$$
