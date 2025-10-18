@@ -507,7 +507,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=13687s
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h19m
 - **Compound Inequality** = A compound inequality consists of two inequalities linked by **And** or **Or**
 - **And** inequality how to solve steps : 1) Solve each inequality seperately, 2) the solution set contains all numbers that satisfy *both inequalities* - if you don't get a solution that can satisfy BOTH inequalities / overlap - then you have NO SOLUTION
-- **Or** inequalities and how to solve steps : 1) solve each inequality separately, 2) the solution set contains all numbers that satisfy either inequality 
+- **Or** inequalities and how to solve steps : 1) solve each inequality separately, 2) the solution set contains all numbers that satisfy *either inequality* - if you have an element that is common to both, list it only once. The *union* of the two sets.
 ### Compound Inequalities
 
 **Definition:** Two or more inequalities joined by the words **AND** or **OR**.
