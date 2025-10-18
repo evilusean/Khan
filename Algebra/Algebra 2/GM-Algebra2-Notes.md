@@ -327,7 +327,72 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h53m36s
    4 gallons of 52% = 4 * 0.52 = 2.08 gallons
    $\frac{2.4 + 2.08}{3 + 4}$ = 0.64 = 64%
    The new mixture is 64% alcohol
-- 
+-  Problem 2) (answered below, added to anki) Jennifer asked you to make **12 gallons** of fruit punch that contains **48% fruit juice** by mixing together Betty's Fruit Juice and Calvin's Fruit Juice. Betty's Fruit Juice is 38% fruit juice, while Calvin's Fruit Juice is 53% fruit juice. How many gallons of each are needed?
+### Mixture Problem: Solving for Fruit Punch Gallons
+
+**Goal:** Create 12 gallons of 48% fruit juice.
+**Mixtures:** Betty's (38% juice) and Calvin's (53% juice).
+
+---
+
+#### 1. Define Variables
+
+Let $B$ be the number of gallons of **Betty's** juice (38%).
+Let $C$ be the number of gallons of **Calvin's** juice (53%).
+
+---
+
+#### 2. Set Up the System of Equations
+
+We need two equations: one for the **Total Volume** and one for the **Total Amount of Pure Juice**.
+
+**Equation 1: Total Volume (Gallons)**
+The gallons of Betty's plus the gallons of Calvin's must equal the final 12 gallons.
+$$B + C = 12$$
+
+**Equation 2: Total Pure Juice (Juice Content)**
+The amount of pure juice from Betty's ($0.38B$) plus the amount of pure juice from Calvin's ($0.53C$) must equal the amount of pure juice in the final mixture ($48\%$ of 12 gallons).
+$$0.38B + 0.53C = 0.48(12)$$
+$$0.38B + 0.53C = 5.76$$
+
+---
+
+#### 3. Solve the System (Using Substitution)
+
+It's easiest to solve Equation 1 for $B$ and substitute it into Equation 2.
+
+**A. Isolate B (from Eq 1):**
+$$B = 12 - C$$
+
+**B. Substitute (12 - C) into Eq 2:**
+$$0.38(12 - C) + 0.53C = 5.76$$
+
+**C. Distribute and Simplify:**
+$$4.56 - 0.38C + 0.53C = 5.76$$
+$$4.56 + 0.15C = 5.76$$
+
+**D. Isolate C (Subtract 4.56 from both sides):**
+$$0.15C = 5.76 - 4.56$$
+$$0.15C = 1.20$$
+
+**E. Solve for C (Divide by 0.15):**
+$$C = \frac{1.20}{0.15}$$
+$$\mathbf{C = 8 \text{ gallons}}$$
+
+---
+
+#### 4. Find B (Substitute C=8 back into B = 12 - C)
+
+$$B = 12 - 8$$
+$$\mathbf{B = 4 \text{ gallons}}$$
+
+---
+
+#### 5. Final Answer
+
+**Betty's Juice (38%):** 4 gallons
+**Calvin's Juice (53%):** 8 gallons
+
 
 
 
