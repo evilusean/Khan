@@ -503,4 +503,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=13687s
 - To check your inequality : Change the inequality to '=' and check if 'x' is = to a true statement, establish solution and non solution regions/boundaries, then check one on each side, tedious
 - Graphing : same as above, this video is largely just review, open circle excluded, fully filled circle for included or use parenthesis/brackets, and shade the solution area
 - **Three Part Inequality** = '8 < 8 -5a < 38' : '8 -5a' is greater than 8, and less than 38, both conditions need to be met, 2 options : seperate and solve and put back together, or solve and do same thing to each part by isolating 'a' in middle and do everything to both sides : subtract '8' from both sides and divide both sides by '-5' to isolate, since you are dividing by a negative, the equality signs must flip : '0 > a > -6', but you need to rearrange, so, flip the symbols again, '-6 < a < 0' = 'a' is greater than negative six and less than 0 : or (-6, 0) for interval notation
-- 
+## Algebra II - Lesson 12 - Compound Inequalities - 18October2025 :
