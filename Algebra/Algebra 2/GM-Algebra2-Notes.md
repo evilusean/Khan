@@ -328,9 +328,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h53m36s
    $\frac{2.4 + 2.08}{3 + 4}$ = 0.64 = 64%
    The new mixture is 64% alcohol
 -  Problem 2) (answered below, added to anki) Jennifer asked you to make **12 gallons** of fruit punch that contains **48% fruit juice** by mixing together Betty's Fruit Juice and Calvin's Fruit Juice. Betty's Fruit Juice is 38% fruit juice, while Calvin's Fruit Juice is 53% fruit juice. How many gallons of each are needed?
-- Problem 3) For a bill totaling $1105, a clerk received: hundreds, twenties, and ones only. There were 6 times as many 20's as 100's and 25 fewer 1's than 20's. How much of each type of bill was received?
-
+- Problem 3) (answered below, added to anki) For a bill totaling $1105, a clerk received: hundreds, twenties, and ones only.  There were 6 times as many 20's as 100's and 25 fewer 1's than 20's. How much of each type of bill was received?
+- Problem 4) (solved below, added to anki) A passenger plane left Rome and flew south. 2 hours later, a cargo plane left from the same location and flew 80mph faster in an effort to catch up. After 7 hours of flying, the cargo plane caught up. What was the passenger plane's average rate of speed in mph?
 ### Problem 2) Mixture Problem: Solving for Fruit Punch Gallons
+-  Problem 2) (answered below, added to anki) Jennifer asked you to make **12 gallons** of fruit punch that contains **48% fruit juice** by mixing together Betty's Fruit Juice and Calvin's Fruit Juice. Betty's Fruit Juice is 38% fruit juice, while Calvin's Fruit Juice is 53% fruit juice. How many gallons of each are needed?
 
 **Goal:** Create 12 gallons of 48% fruit juice.
 **Mixtures:** Betty's (38% juice) and Calvin's (53% juice).
@@ -396,6 +397,7 @@ $$\mathbf{B = 4 \text{ gallons}}$$
 **Calvin's Juice (53%):** 8 gallons
 
 ### Problem 3) Word Problem: Multi-Constraint System (Bill Totals)
+- Problem 3) (answered below, added to anki) For a bill totaling $1105, a clerk received: hundreds, twenties, and ones only.  There were 6 times as many 20's as 100's and 25 fewer 1's than 20's. How much of each type of bill was received?
 
 **Problem Equation:** $$100H + 20T + 1O = 1105$$
 
@@ -435,6 +437,44 @@ $$\mathbf{x = 30}$$
 * $T = x = 30$ (Twenties)
 * $H = x/6 = 30/6 = 5$ (Hundreds)
 * $O = x - 25 = 30 - 25 = 5$ (Ones)
+### Problem 4) Word Problem: Uniform Motion (Catch-Up Time)
+- Problem 4) (solved below, added to anki) A passenger plane left Rome and flew south. 2 hours later, a cargo plane left from the same location and flew 80mph faster in an effort to catch up. After 7 hours of flying, the cargo plane caught up. What was the passenger plane's average rate of speed in mph?
+**Goal:** Find the average rate of speed ($P$) of the passenger plane.
 
+**Key Principle:** The distance traveled by both planes is equal ($D_{\text{passenger}} = D_{\text{cargo}}$).
+
+---
+
+#### 1. Determine Time and Rate Variables
+
+| Plane | Rate (R) | Time (T) | Distance (D) |
+| :--- | :--- | :--- | :--- |
+| **Passenger (P)** | $P$ | $7 \text{ hrs} + 2 \text{ hrs} = 9$ | $9P$ |
+| **Cargo (C)** | $P + 80$ | $7$ hrs | $7(P + 80)$ |
+
+---
+
+#### 2. Set Up the Equation ($D_{\text{passenger}} = D_{\text{cargo}}$)
+
+$$9P = 7(P + 80)$$
+
+#### 3. Solve for P
+
+**A. Distribute:**
+$$9P = 7P + 560$$
+
+**B. Isolate the variable:** Subtract $7P$ from both sides.
+$$9P - 7P = 560$$
+$$2P = 560$$
+
+**C. Final Division:**
+$$P = \frac{560}{2}$$
+$$\mathbf{P = 280}$$
+
+---
+
+#### 4. Final Answer
+
+The passenger plane's average rate of speed was **280 mph**.
 
 
