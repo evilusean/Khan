@@ -490,5 +490,5 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=12361s
 - '(' ')' parenthesis exclude a number from the interval (2, 5) = anything larger than 2, anything less than 5, excluding 2 and 5 or '2 < x < 5'
 - '[' ']' when you want to include a number, use a bracket [7, 9] : 7 <=  x <= 9 = x is greater than equal to 7, less than equal to 9
 - $(-\infty, 5]$  Negative infinity, less than equal to 5, note that infinity needs a negative sign and a parenthesis
-## Algebra II - Lesson 11 - Linear Inequalities - 17October2025 :
+## Algebra II - Lesson 11 - Linear Inequalities - 18October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=13687s
