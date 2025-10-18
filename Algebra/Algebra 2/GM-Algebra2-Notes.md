@@ -506,5 +506,6 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=13687s
 ## Algebra II - Lesson 12 - Compound Inequalities - 18October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h19m
 - **Compound Inequality** = A compound inequality consists of two inequalities linked by **And** or **Or**
-- **And** inequality how to solve steps : 1) Solve each inequality seperately, 2) the solution set contains all numbers that satisfy both inequalities
+- **And** inequality how to solve steps : 1) Solve each inequality seperately, 2) the solution set contains all numbers that satisfy *both inequalities* - if you don't get a solution that can satisfy BOTH inequalities / overlap - then you have NO SOLUTION
+- **Or** inequalities and how to solve steps : 1) solve each inequality separately, 2) the solution set contains all numbers that satisfy either inequality 
 - 
