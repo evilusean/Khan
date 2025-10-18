@@ -505,3 +505,6 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=13687s
 - **Three Part Inequality** = '8 < 8 -5a < 38' : '8 -5a' is greater than 8, and less than 38, both conditions need to be met, 2 options : seperate and solve and put back together, or solve and do same thing to each part by isolating 'a' in middle and do everything to both sides : subtract '8' from both sides and divide both sides by '-5' to isolate, since you are dividing by a negative, the equality signs must flip : '0 > a > -6', but you need to rearrange, so, flip the symbols again, '-6 < a < 0' = 'a' is greater than negative six and less than 0 : or (-6, 0) for interval notation
 ## Algebra II - Lesson 12 - Compound Inequalities - 18October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h19m
+- **Compound Inequality** = A compound inequality consists of two inequalities linked by **And** or **Or**
+- **And** inequality how to solve steps : 1) Solve each inequality seperately, 2) the solution set contains all numbers that satisfy both inequalities
+- 
