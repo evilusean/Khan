@@ -88,6 +88,8 @@ Circuits Finally Made Sense When I Saw This One Diagram (V=IR) (Voltage=Current 
 https://www.youtube.com/watch?v=rzLKns787Uk
 4 Years of Electrical Engineering in 26 Minutes :
 https://www.youtube.com/watch?v=ngo3ZTrT69A
+The scariest thing you learn in Electrical Engineering | The Smith Chart :
+https://www.youtube.com/watch?v=pXWbdxOAuDs
 
 Engineering Degrees Ranked By Difficulty/Pay (Tier List - 'Computer Engineering' = C Tier Highest ROI/easiest - 'EE' = B Tier (harder, less pay))
 https://www.youtube.com/watch?v=DAK_UT894sc
