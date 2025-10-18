@@ -328,7 +328,9 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=2h53m36s
    $\frac{2.4 + 2.08}{3 + 4}$ = 0.64 = 64%
    The new mixture is 64% alcohol
 -  Problem 2) (answered below, added to anki) Jennifer asked you to make **12 gallons** of fruit punch that contains **48% fruit juice** by mixing together Betty's Fruit Juice and Calvin's Fruit Juice. Betty's Fruit Juice is 38% fruit juice, while Calvin's Fruit Juice is 53% fruit juice. How many gallons of each are needed?
-### Mixture Problem: Solving for Fruit Punch Gallons
+- Problem 3) For a bill totaling $1105, a clerk received: hundreds, twenties, and ones only. There were 6 times as many 20's as 100's and 25 fewer 1's than 20's. How much of each type of bill was received?
+
+### Problem 2) Mixture Problem: Solving for Fruit Punch Gallons
 
 **Goal:** Create 12 gallons of 48% fruit juice.
 **Mixtures:** Betty's (38% juice) and Calvin's (53% juice).
@@ -393,8 +395,46 @@ $$\mathbf{B = 4 \text{ gallons}}$$
 **Betty's Juice (38%):** 4 gallons
 **Calvin's Juice (53%):** 8 gallons
 
+### Problem 3) Word Problem: Multi-Constraint System (Bill Totals)
 
+**Problem Equation:** $$100H + 20T + 1O = 1105$$
 
+**Constraints (in terms of x=T):**
+* $T = x$
+* $H = T/6 \implies H = x/6$
+* $O = T - 25 \implies O = x - 25$
+
+---
+
+#### 1. Formulate the Equation
+
+Substitute all variables into the value equation:
+$$100\left(\frac{x}{6}\right) + 20x + (x - 25) = 1105$$
+
+#### 2. Simplify and Solve
+
+**A. Simplify Coefficients:**
+$$\frac{50x}{3} + 20x + x - 25 = 1105$$
+
+**B. Combine $x$ terms and move constant:**
+$$\frac{50x}{3} + 21x = 1105 + 25$$
+$$\frac{50x}{3} + \frac{63x}{3} = 1130$$
+
+**C. Combine fractions:**
+$$\frac{113x}{3} = 1130$$
+
+**D. Solve for x:**
+$$113x = 3390$$
+$$x = \frac{3390}{113}$$
+$$\mathbf{x = 30}$$
+
+---
+
+#### 3. Final Answer
+
+* $T = x = 30$ (Twenties)
+* $H = x/6 = 30/6 = 5$ (Hundreds)
+* $O = x - 25 = 30 - 25 = 5$ (Ones)
 
 
 
