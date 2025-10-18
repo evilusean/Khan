@@ -480,9 +480,9 @@ The passenger plane's average rate of speed was **280 mph**.
 ## Algebra II - Lesson 10 - Interval Notation - 17October2025 : 
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=12361s
 - **Interval Notation** = Allows us to notate a specific range of numbers on a number line
-- {x | x = 7 } = Set builder notation for saying 'the set of all elements x | such that x = 7'
 - **Set Builder Notation** = { x | x has a certain property } syntax
 - {x | -2 < x < 5 } = The set of all elements in set X  such that x is greater than -2 and less than 5
+- {x | x = 7 } = Set builder notation for saying 'the set of all elements x | such that x = 7'
 - x > 7 = you can use an open circle on a number line or a parnthesis '(' and shade on the number line to indicate that it continues
 - X >= 5 = x greater than equal to 5 = use a filled in circle or a '[' bracket and shade after to show the solution region
 - x < 3 = use an open circle or a parenthesis ')' and shade before 
@@ -491,3 +491,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=12361s
 - '[' ']' when you want to include a number, use a bracket [7, 9] : 7 <=  x <= 9 = x is greater than equal to 7, less than equal to 9
 - $(-\infty, 5]$  Negative infinity, less than equal to 5, note that infinity needs a negative sign and a parenthesis
 ## Algebra II - Lesson 11 - Linear Inequalities - 17October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=13687s
