@@ -478,6 +478,7 @@ $$\mathbf{P = 280}$$
 The passenger plane's average rate of speed was **280 mph**.
 
 ## Algebra II - Lesson 10 - Interval Notation - 17October2025 : 
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=12361s
 - **Interval Notation** = Allows us to notate a specific range of numbers on a number line
 - {x | x = 7 } = Set builder notation for saying 'the set of all elements x | such that x = 7'
 - **Set Builder Notation** = { x | x has a certain property } syntax
