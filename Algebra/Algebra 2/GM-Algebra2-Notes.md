@@ -495,9 +495,12 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=13687s
 - $ax+b<c$ : a, b, and c are real numbers. a is not allowed to be 0. 
 - The main difference between an equation('=') and inequalitie is the greater/less than symbol
 - Same as always, you are trying to find 'x', isolate the value by adding/subtracting/multiplying/dividing
-- **The Multiplication Property of Inequality** = If you multiply both sides by any non-zero positive number, it won't effect the final solution. *If you multiply both sides by a negative number, YOU MUST FLIP THE DIRECTION OF THE INEQUALITY SYMBOL* 
+- **The Multiplication Property of Inequality** = If you multiply both sides by any non-zero positive number, it won't effect the final solution. *If you multiply both sides by a negative number, YOU MUST FLIP THE DIRECTION OF THE INEQUALITY SYMBOL* : Also when you are *dividing by a negative, you need to flip the signs as well*
 - big number not always bigger says grug, -2 > -5,  -5 is still the smaller number
-- **Interval Notation** = (smallest value, largest value), so if x <= 6 = $(-\infty, 6]$
+- **Interval Notation** = (smallest value, largest value), so if x <= 6 = $(-\infty, 6]$, the ']' bracket indicates that six is part of the solution, always use a parenthesis with infinity
 - '(' ')' parenthesis exclude a number from the interval (2, 5) = anything larger than 2, anything less than 5, excluding 2 and 5 or '2 < x < 5'
 - '[' ']' when you want to include a number, use a bracket [7, 9] : 7 <=  x <= 9 = x is greater than equal to 7, less than equal to 9
+- To check your inequality : Change the inequality to '=' and check if 'x' is = to a true statement, establish solution and non solution regions/boundaries, then check one on each side, tedious
+- Graphing : same as above, this video is largely just review, open circle excluded, fully filled circle for included or use parenthesis/brackets, and shade the solution area
+- **Three Part Inequality** = '8 < 8 -5a < 38' : '8 -5a' is greater than 8, and less than 38, both conditions need to be met, 2 options : seperate and solve and put back together, or solve and do same thing to each part by isolating 'a' in middle and do everything to both sides : subtract '8' from both sides and divide both sides by '-5' to isolate, since you are dividing by a negative, the equality signs must flip : '0 > a > -6', but you need to rearrange, so, flip the symbols again, '-6 < a < 0' = 'a' is greater than negative six and less than 0 : or (-6, 0) for interval notation
 - 
