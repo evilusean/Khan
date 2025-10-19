@@ -570,7 +570,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
 - | -6 | = 6
 - **Opposites** = Are numbers that have the same absolute value : 3, -3 and 5, -5 are opposites
 - | x | = 7 : x could be 7, -7
-- Problem 1)
+- Problem 1) (added to anki)
   | 6n + 10 | = 64 : could be +64 or -64 
   Scenario 1 = Positive :
   6n + 10-10 = 64 -10 : 6n /6 = 54 / 6 : n = 9
@@ -581,12 +581,12 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
   |6 * 9 + 10 | = 64
   | 6 * -(37 / 3) + 10 | = 64 : | 2 * -37 + 10 | = 64 :  |  -74 + 10 | = 64
   Both are true, both solutions are correct, both can work
-- Problem 2)
+- Problem 2) (added to anki)
   |10 x + 10 | = 20 : could be equal to 20 or -20 
   |10x + 10 - 10| = 20 -10 : | 10x | = 10 : x = 1
   |10 x + 10 | = -20 : |10x +10 -10| = -20 -10 | 10x| = -30 : x = -3
   {-3, 1} are the solution set
-- Problem 3)
+- Problem 3) (added to anki)
   -5 -4|-8 + k | = -17 : +5 -5  -4|-8 + k | = - 17 +5 :
   (-4|-8 + k |) /-4  = (-12) /-4 : | -8 + k | = 3 : 
   | -8 + k | = 3 : could be +3 or -3
@@ -599,16 +599,16 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
 - Common Trap Questions :
   | x | = -7 : An absolute value can not be negative, No Solution
   | x + 3 | = 0 : You can only get one value 'x = -3'
-- Problem 4)
+- Problem 4) (added to anki)
   -7|2x +2| - 4 = 52
   No Solution, an absolute value can not be negative
-- Problem 5)
+- Problem 5) (added to anki) 
   -6|3y + 1| -2 = -2 
   -6|3y +1| -2 +2 = -2 + 2 : (-6|3y + 1|)/-6 = 0 /-6 
   |3y + 1| = 0 : only one possibility '3y + 1 = 0' : 3y = -1 : y = -1/3
   {-1/3}
 - Two expressions or two numbers can only have the same absolute value if 1) They are equal, 2) they are opposites
-- Problem 6)
+- Problem 6) (added to anki)
   |5x -3| = |2x +2| 
   5x -3 = 2x+ 2 OR 5x-3 = -(2x+2) : | 3| = |-3|
   5x -3 = 2x +2 : 5x -2x -3 +3 = 2x -2x +2 + 3 : 3x = 5 : x = 5/3
@@ -617,7 +617,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
   |5(1/7) -3| = |2(1/7)+2| : |5/7 -21/7| = |2/7 + 14/7| : |-16/7| = |16/7|
   |5(5/3) -3| = |2(5/3) +2| : | 25/3 - 9/3 | = | 10/3 + 6/3|  : |16/3| = |16/3|
   Both statements are true, checks out
-- Problem 7)
+- Problem 7) (added to anki)
   |3x-9| = |12x +15| 
   3x-9 = 12x +15 OR -(3x-9) = 12x+15
   3x-12x -9 + 9 = 12x-12x +15 +9 : -9x = 24 : -9x / -9 = 24 / -9 : x = -8/3 
