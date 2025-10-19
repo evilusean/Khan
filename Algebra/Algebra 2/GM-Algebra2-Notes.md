@@ -628,7 +628,20 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
 - Where? How? **Absolute Value** means the distance away from '0' so you need a positive and negative. 
 - For absolute value inequalities, you will need a negative AND a positive for each one - **The sign will also be flipped when doing the opposite values** 
 - *When dividing or multiplying by a negative, don't forget to FLIP the sign*
+- For > greater than you need to use an 'OR' with a compound inequality, for < less than you need to use an 'AND' to get the correct solution sets
 - Problem 1) |x| $\ge$ 2 : So you will need both a negative and positive for these as well, so $(-\infty, -2) \cup (2, \infty)$ is the solution set (any number that is less than $\le$ -2 Union with any number that is  $\ge$ greater than equal to 2)
-- Problem 2) |x| > 7 : $(-\infty, -7) \cup (7, \infty)$
-  
-  
+- Problem 2) |x| > 7 : $(-\infty, -7) \cup (7, \infty)$ : x > 7 or x < -7
+- Problem 3) |x| < 3 : 
+  x <3 OR x > -3 : maps EACH solution, positive and negative
+  x < k AND x > -k : creates a solution range 
+  -3 < x > 3  : another way to express the solution range
+  (-3, 3) : solution set
+- Problem 4) |x| < 10 : -10 < x < 10
+  (-10, 10) : interval notation
+- Problem 5) |2n -3| > 13 :  
+  2n -3 > 13 OR 2n -3 < -13
+  2n -3 +3 > 13 + 3 : 2n > 16 : n > 8
+  2n -3 +3 < -13 +3 : 2n < -10 : n < -5
+  $(-\infty, -5) \cup (8, \infty)$
+   
+ 
