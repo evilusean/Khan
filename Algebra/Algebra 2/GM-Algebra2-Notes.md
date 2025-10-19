@@ -607,6 +607,16 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
   -6|3y +1| -2 +2 = -2 + 2 : (-6|3y + 1|)/-6 = 0 /-6 
   |3y + 1| = 0 : only one possibility '3y + 1 = 0' : 3y = -1 : y = -1/3
   {-1/3}
+- Two expressions or two numbers can only have the same absolute value if 1) They are equal, 2) they are opposites
+- |5x -3| = |2x +2| 
+  5x -3 = 2x+ 2 OR 5x-3 = -(2x+2) : | 3| = |-3|
+  5x -3 = 2x +2 : 5x -2x -3 +3 = 2x -2x +2 + 3 : 3x = 5 : x = 5/3
+  5x -3 = -2x -2 : 5x+2x -3 +3 = -2x +2x -2 +3 : 7x = 1 : x = 1/7
+  {1/7, 5/3} is the solution set
+  |5(1/7) -3| = |2(1/7)+2| : |5/7 -21/7| = |2/7 + 14/7| : |-16/7| = |16/7|
+  |5(5/3) -3| = |2(5/3) +2| : | 25/3 - 9/3 | = | 10/3 + 6/3|  : |16/3| = |16/3|
+  Both statements are true, checks out
+- 
   
   
   
