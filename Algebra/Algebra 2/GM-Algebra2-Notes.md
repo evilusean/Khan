@@ -596,5 +596,12 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
   -5 -4|-8 + 5| = -17 : -5 -4| -3 | = -17 : -5 -4(3) = -17 : -5 -12 = -17 : -17 = -17
   -5 -4|-8 + 11| = -17 : -5 -4(3) = -17 : -5 -12 = -17 : -17 = -17
   both solutions are true
+- Common Trap Questions :
+  | x | = -7 : An absolute value can not be negative, No Solution
+- Problem 4)
+  -7|2x +2| - 4 = 52
+  No Solution, an absolute value can not be negative
 - 
+  
+  
   
