@@ -565,3 +565,5 @@ $$\mathbf{\{x \mid -3 < x \le 5\}}$$
 $$\mathbf{\{x \mid x \le 2 \text{ or } x > 9\}}$$
 ## Algebra II - Lesson 13 - Solving Absolute Value Equations - 19October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
+- **Absolute Value** = '| |'= The absolute value of a number is the distance between that number and zero on the number line (+, -)
+- 
