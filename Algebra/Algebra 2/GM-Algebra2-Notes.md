@@ -643,5 +643,11 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
   2n -3 +3 > 13 + 3 : 2n > 16 : n > 8
   2n -3 +3 < -13 +3 : 2n < -10 : n < -5
   $(-\infty, -5) \cup (8, \infty)$
-   
+- Problem 6) $|-10x -8| \ge 12$
+  $-10x - 8 \ge 12 OR -10x -8 \le -12$
+  -10x -8 + 8 >= 12 + 8 : x <= -2
+  -10x -8 + 8 <= -12 + 8 : -10x <= -4 : x >= 2/5
+  $(-\infty, -2] \cup [2/5, \infty)$
+- 
+  
  
