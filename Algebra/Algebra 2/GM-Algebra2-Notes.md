@@ -570,7 +570,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
 - | -6 | = 6
 - **Opposites** = Are numbers that have the same absolute value : 3, -3 and 5, -5 are opposites
 - | x | = 7 : x could be 7, -7
-- | 6n + 10 | = 64 : x could be +64 or -64 
+- Problem 1)
+  | 6n + 10 | = 64 : could be +64 or -64 
   Scenario 1 = Positive :
   6n + 10-10 = 64 -10 : 6n /6 = 54 / 6 : n = 9
   Scenario 2 = Negative :
@@ -580,4 +581,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
   |6 * 9 + 10 | = 64
   | 6 * -(37 / 3) + 10 | = 64 : | 2 * -37 + 10 | = 64 :  |  -74 + 10 | = 64
   Both are true, both solutions are correct, both can work
-- 
+- Problem 2)
+  |10 x + 10 | = 20 : could be equal to 20 or -20 
+  |10x + 10 - 10| = 20 -10 : | 10x | = 10 : x = 1
+  |10 x + 10 | = -20 : |10x +10 -10| = -20 -10 | 10x| = -30 : x = -3
+  {-3, 1} are the solution set
+- Problem 3)
+  -5 -4 |-8 + k | = -17
