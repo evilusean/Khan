@@ -624,6 +624,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
   -(3x-9) = 12x+15 : -3x -12x +9 -9 = 12x -12x+15 -9 : -15x = 6 : x = -2/5
   {-8/3, -2/5} is the solution
 ## Algebra II - Lesson 14 - Solving Absolute Value Inequalities - 19October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
 
   
   
