@@ -628,7 +628,9 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
 - Where? How? **Absolute Value** means the distance away from '0' so you need a positive and negative. 
 - For absolute value inequalities, you will need a negative AND a positive for each one - **The sign will also be flipped when doing the opposite values** 
 - *When dividing or multiplying by a negative, don't forget to FLIP the sign*
-- For > greater than you need to use an 'OR' with a compound inequality, for < less than you need to use an 'AND' to get the correct solution sets
+- For > greater than you need to use an 'OR' with a compound inequality, for < less than you need to use an 'AND' to get the correct solution sets, formulas/syntax below :
+- |x| > k : x > k OR x < -k
+- |x| < k : x < k AND x > -k
 - Problem 1) |x| $\ge$ 2 : So you will need both a negative and positive for these as well, so $(-\infty, -2) \cup (2, \infty)$ is the solution set (any number that is less than $\le$ -2 Union with any number that is  $\ge$ greater than equal to 2)
 - Problem 2) |x| > 7 : $(-\infty, -7) \cup (7, \infty)$ : x > 7 or x < -7
 - Problem 3) |x| < 3 : 
@@ -648,6 +650,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
   -10x -8 + 8 >= 12 + 8 : x <= -2
   -10x -8 + 8 <= -12 + 8 : -10x <= -4 : x >= 2/5
   $(-\infty, -2] \cup [2/5, \infty)$
-- 
-  
+- Problem 7) 8|-8x +2| -2 > 110 
+  -8x + 2 > 14 OR -8x + 2 < -14
+  -8x +2 -2 > 14 -2 : -8x > 12 : x < -12/8 : x < -3/2
+  -8x +2 -2 < -14 -2 : -8x < -16 : x > 2
+  x < -3/2 OR x > 2
+  $(-\infty,-3/2) \cup (2, \infty)$
  
