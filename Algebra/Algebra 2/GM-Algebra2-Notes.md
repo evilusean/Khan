@@ -631,7 +631,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
 - For > greater than you need to use an 'OR' with a compound inequality, for < less than you need to use an 'AND' to get the correct solution sets, formulas/syntax below :
 - |x| > k : x > k OR x < -k
 - |x| < k : x < k AND x > -k
-- Make sure you ISOLATE the absolute value operation as much as you can before making your inequality statements 
+- Make sure you ISOLATE the absolute value operation as much as you can before making your inequality statements, aka clear everything OUTSIDE of the '| |' absolutes must be worked into the inequality, for example : '7|10k + 3| + 7 < 28' should be worked down to : '|10k +3| < 3' BEFORE doing your 'AND' or 'OR' statements
 - Problem 1) |x| $\ge$ 2 : So you will need both a negative and positive for these as well, so $(-\infty, -2) \cup (2, \infty)$ is the solution set (any number that is less than $\le$ -2 Union with any number that is  $\ge$ greater than equal to 2)
 - Problem 2) |x| > 7 : $(-\infty, -7) \cup (7, \infty)$ : x > 7 or x < -7
 - Problem 3) |x| < 3 : 
@@ -669,4 +669,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
    -3 -3 < 10k +3 -3 < 3 -3 : -6 < 10k < 0 : -6/10 < k < 0
    -3/5 < k < 0
    (-3/5, 0)
+ - Problem 10) $5|-3+8x| +2 \ge -53$  
+   $5|-3 + 8x| +2 - 2 \ge -53 -2$ : $(5|-3+8x|)/5 \ge -55/5$ : $|-3+8x|\ge -11$
+   $|-3+8x|\ge -11$ 
+   No Solution, You can't have an absolute value be a negative.
+   
+   
    
