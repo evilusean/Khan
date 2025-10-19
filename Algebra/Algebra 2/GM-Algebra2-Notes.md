@@ -566,4 +566,18 @@ $$\mathbf{\{x \mid x \le 2 \text{ or } x > 9\}}$$
 ## Algebra II - Lesson 13 - Solving Absolute Value Equations - 19October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
 - **Absolute Value** = '| |'= The absolute value of a number is the distance between that number and zero on the number line (+, -)
+- The absolute value of a positive number is just the number, the absolute value of a negative number is just the number (not negative)
+- | -6 | = 6
+- **Opposites** = Are numbers that have the same absolute value : 3, -3 and 5, -5 are opposites
+- | x | = 7 : x could be 7, -7
+- | 6n + 10 | = 64 : x could be +64 or -64 
+  Scenario 1 = Positive :
+  6n + 10-10 = 64 -10 : 6n /6 = 54 / 6 : n = 9
+  Scenario 2 = Negative :
+  6n + 10-10 = -64-10 : 6n = -74 : 6n / 6 = -74 / 6 : n = -37 / 3 
+  { -37 / 3, 9 } are the solution set
+  Check the solutions :
+  |6 * 9 + 10 | = 64
+  | 6 * -(37 / 3) + 10 | = 64 : | 2 * -37 + 10 | = 64 :  |  -74 + 10 | = 64
+  Both are true, both solutions are correct, both can work
 - 
