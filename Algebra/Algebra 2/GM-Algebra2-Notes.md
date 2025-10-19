@@ -625,6 +625,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
   {-8/3, -2/5} is the solution
 ## Algebra II - Lesson 14 - Solving Absolute Value Inequalities - 19October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
-- Problem 1) |x| >2 : So you will need both a negative and positive for these as well, so $(-\infty, -2) \cup (2, \infty)$ is the solution set (any number that is less than $\le$ -2 Union with any number that is  $\ge$ greater than equal to 2)
+- Where? How? **Absolute Value** means the distance away from '0' so you need a positive and negative. 
+- For absolute value inequalities, you will need a negative AND a positive for each one - **The sign will also be flipped when doing the opposite values** 
+- *When dividing or multiplying by a negative, don't forget to FLIP the sign*
+- Problem 1) |x| $\ge$ 2 : So you will need both a negative and positive for these as well, so $(-\infty, -2) \cup (2, \infty)$ is the solution set (any number that is less than $\le$ -2 Union with any number that is  $\ge$ greater than equal to 2)
+- Problem 2) |x| > 7 : $(-\infty, -7) \cup (7, \infty)$
   
   
