@@ -632,36 +632,45 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
 - |x| > k : x > k OR x < -k
 - |x| < k : x < k AND x > -k
 - Make sure you ISOLATE the absolute value operation as much as you can before making your inequality statements, aka clear everything OUTSIDE of the '| |' absolutes must be worked into the inequality, for example : '7|10k + 3| + 7 < 28' should be worked down to : '|10k +3| < 3' BEFORE doing your 'AND' or 'OR' statements
-- Problem 1) |x| $\ge$ 2 : So you will need both a negative and positive for these as well, so $(-\infty, -2) \cup (2, \infty)$ is the solution set (any number that is less than $\le$ -2 Union with any number that is  $\ge$ greater than equal to 2)
-- Problem 2) |x| > 7 : $(-\infty, -7) \cup (7, \infty)$ : x > 7 or x < -7
-- Problem 3) |x| < 3 : 
+- Problem 1) (added to anki)
+   |x| $\ge$ 2 : So you will need both a negative and positive for these as well, so $(-\infty, -2) \cup (2, \infty)$ is the solution set (any number that is less than $\le$ -2 Union with any number that is  $\ge$ greater than equal to 2)
+- Problem 2)(added to anki)
+   |x| > 7 : $(-\infty, -7) \cup (7, \infty)$ : x > 7 or x < -7
+- Problem 3) (added to anki)
+  |x| < 3 : 
   x <3 OR x > -3 : maps EACH solution, positive and negative
   x < k AND x > -k : creates a solution range 
   -3 < x > 3  : another way to express the solution range
   (-3, 3) : solution set
-- Problem 4) |x| < 10 : -10 < x < 10
+- Problem 4) (added to anki)
+  |x| < 10 : -10 < x < 10
   (-10, 10) : interval notation
-- Problem 5) |2n -3| > 13 :  
+- Problem 5) (added to anki)
+  |2n -3| > 13 :  
   2n -3 > 13 OR 2n -3 < -13
   2n -3 +3 > 13 + 3 : 2n > 16 : n > 8
   2n -3 +3 < -13 +3 : 2n < -10 : n < -5
   $(-\infty, -5) \cup (8, \infty)$
-- Problem 6) $|-10x -8| \ge 12$
+- Problem 6) (added to anki)
+  $|-10x -8| \ge 12$
   $-10x - 8 \ge 12 OR -10x -8 \le -12$
   -10x -8 + 8 >= 12 + 8 : x <= -2
   -10x -8 + 8 <= -12 + 8 : -10x <= -4 : x >= 2/5
   $(-\infty, -2] \cup [2/5, \infty)$
-- Problem 7) 8|-8x +2| -2 > 110 
+- Problem 7)(added to anki)
+   8|-8x +2| -2 > 110 
   -8x + 2 > 14 OR -8x + 2 < -14
   -8x +2 -2 > 14 -2 : -8x > 12 : x < -12/8 : x < -3/2
   -8x +2 -2 < -14 -2 : -8x < -16 : x > 2
   x < -3/2 OR x > 2
   $(-\infty,-3/2) \cup (2, \infty)$
- - Problem 8) |-6-4n| < 6
+ - Problem 8) (added to anki)
+   |-6-4n| < 6
    -6 -4n < 6 AND -6 -4n > -6
    -6 < -6 -4n < 6 : -6 + 6 < 6 + 6 -4n < 6 + 6 : 0 < -4n < 12 : 0 > n > -3
    -3 < n < 0
- - Problem 9) 7|10k + 3| + 7 < 28
+ - Problem 9) (added to anki)
+   7|10k + 3| + 7 < 28
    7|10k +3| + 7 - 7 < 28 -7 : (7|10k +3|) / 7 > 21 /7 : 
    |10k +3| < 3
    10k +3 < 3 AND 10k +3 > -3 
@@ -669,7 +678,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
    -3 -3 < 10k +3 -3 < 3 -3 : -6 < 10k < 0 : -6/10 < k < 0
    -3/5 < k < 0
    (-3/5, 0)
- - Problem 10) $5|-3+8x| +2 \ge -53$  
+ - Problem 10) (added to anki)
+   $5|-3+8x| +2 \ge -53$  
    $5|-3 + 8x| +2 - 2 \ge -53 -2$ : $(5|-3+8x|)/5 \ge -55/5$ : $|-3+8x|\ge -11$
    $|-3+8x|\ge -11$ 
    No Solution, You can't have an absolute value be a negative.
