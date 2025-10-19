@@ -656,4 +656,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
   -8x +2 -2 < -14 -2 : -8x < -16 : x > 2
   x < -3/2 OR x > 2
   $(-\infty,-3/2) \cup (2, \infty)$
- 
+ - Problem 8) |-6-4n| < 6
+   -6 -4n < 6 AND -6 -4n > -6
+   -6 < -6 -4n < 6 : -6 + 6 < 6 + 6 -4n < 6 + 6 : 0 < -4n < 12 : 0 > n > -3
+   -3 < n < 0
