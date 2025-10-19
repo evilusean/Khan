@@ -598,10 +598,16 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=4h52m15s
   both solutions are true
 - Common Trap Questions :
   | x | = -7 : An absolute value can not be negative, No Solution
+  | x + 3 | = 0 : You can only get one value 'x = -3'
 - Problem 4)
   -7|2x +2| - 4 = 52
   No Solution, an absolute value can not be negative
-- 
+- Problem 5)
+  -6|3y + 1| -2 = -2 
+  -6|3y +1| -2 +2 = -2 + 2 : (-6|3y + 1|)/-6 = 0 /-6 
+  |3y + 1| = 0 : only one possibility '3y + 1 = 0' : 3y = -1 : y = -1/3
+  {-1/3}
+  
   
   
   
