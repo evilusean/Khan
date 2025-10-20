@@ -702,3 +702,14 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h3m10s
 **Completed Points:** $(0, 4)$, $(-3, 0)$, and $(3, 8)$.
 
 ---
+### Table of Values for $-x + 7y = 28$
+
+| $x$ | $y$ | Calculation |
+| :---: | :---: | :--- |
+| **7** | **5** | $-7 + 7y = 28 \implies 7y = 35 \implies y = 5$ |
+| **-7** | **3** | $-x + 7(3) = 28 \implies -x + 21 = 28 \implies -x = 7 \implies x = -7$ |
+| **-28** | **0** | $-x + 7(0) = 28 \implies -x = 28 \implies x = -28$ |
+**Completed Points:** $(7, 5)$, $(-7, 3)$, and $(-28, 0)$.
+
+---
+
