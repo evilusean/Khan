@@ -685,6 +685,20 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
    No Solution, You can't have an absolute value be a negative.
 ## Algebra II - Lesson 15 - Linear Equations in Two Variables - 20October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h3m10s
-- Linear equations with only one variable generally only have one answer (find x, oh look, there it is)
-- A linear equation in two variables is of the form : **ax + by = c** 
+- Linear equations with only one variable generally only have one answer (find x, oh look, there it is) - with 2 variables, there is no longer one solution, there is an infinite number of solutions
+- **Standard Form of a Linear Equation** : **ax + by = c** A linear equation in two variables is of the form : **ax + by = c** , 'a' 'b' and 'c' are real numbers, 'a' and 'b' can not be '0' zero at the same time
 - If there are exponents (besides ^1), then it is not a linear equation. For example :  $ax^2 + by^2 = c$ is not a linear equation
+- **Ordered Pair** = A solution to a linear equation in two variables is called an ordered pair : **(x, y)** - 'X' is always first, 'Y' is always second
+- To solve a linear equation with 2 variables, plug in a number for one of the variables, and solve for the other one. - Pick something for 'X', solve for 'Y'. Pick something for 'Y', solve for 'X'
+- **Table of Values** : Many ordered pairs, used for graphing, if a value for 'x' is -, you get - for 'Y'  
+### Table of Values for $4x - 3y = -12$
+
+| $x$ | $y$ | Calculation |
+| :---: | :---: | :--- |
+| **0** | **4** | $4(0) - 3y = -12 \implies -3y = -12 \implies y = 4$ |
+| **-3** | **0** | $4x - 3(0) = -12 \implies 4x = -12 \implies x = -3$ |
+| **3** | **8** | $4(3) - 3y = -12 \implies 12 - 3y = -12 \implies -3y = -24 \implies y = 8$ |
+
+**Completed Points:** $(0, 4)$, $(-3, 0)$, and $(3, 8)$.
+
+---
