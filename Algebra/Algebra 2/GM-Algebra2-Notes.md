@@ -685,3 +685,6 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
    No Solution, You can't have an absolute value be a negative.
 ## Algebra II - Lesson 15 - Linear Equations in Two Variables - 20October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h3m10s
+- Linear equations with only one variable generally only have one answer (find x, oh look, there it is)
+- A linear equation in two variables is of the form : **ax + by = c** 
+- If there are exponents (besides ^1), then it is not a linear equation. For example :  $ax^2 + by^2 = c$ is not a linear equation
