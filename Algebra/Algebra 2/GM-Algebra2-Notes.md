@@ -716,8 +716,18 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h3m10s
 - **Cartesian Coordinate System** = sum ergo cogito, cogito ergo sum. A fancy way to say graph
 - **Rectangular Coordinate System** = yet another name for a graph
 - **Origin** = **(0, 0)** 
-- **X-Axis** = Goes left to right
-- **Y-Axis** = Goes up and down
+- **X-Axis** = Goes left to right, Horizontal
+- **Y-Axis** = Goes up and down, Vertical
 - **Quadrants** = 4 Quadrants, Counterclockwise : Quadrant I = Top right, (+, +) - Quadrant II = Top Left (-, +) - Quadrant III = Bottom Left (-, -) - Quadrant IV = Bottom Right (+, -)
 ## Algebra II - Lesson 16 - Graphing Linear Equations - 20October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h26m25s
+ - **Cartesian Coordinate System** = sum ergo cogito, cogito ergo sum. A fancy way to say graph
+- **Rectangular Coordinate System** = yet another name for a graph
+- **Origin** = **(0, 0)** 
+- **X-Axis** = Goes left to right, Horizontal
+- **Y-Axis** = Goes up and down, Vertical
+- **Quadrants** = 4 Quadrants, Counterclockwise : Quadrant I = Top right, (+, +) - Quadrant II = Top Left (-, +) - Quadrant III = Bottom Left (-, -) - Quadrant IV = Bottom Right (+, -)
+- After plotting your ordered pairs, you should get a line, draw a line through it, with arrows to indicate that it keeps going, commonly you would label the line with the equation
+- **X Intercept** = Where your graph crosses the X-Axis
+- **Y-Intercept** = Where your graph cross the Y-Axis
+- 
