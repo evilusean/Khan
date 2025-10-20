@@ -688,7 +688,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h3m10s
 - Linear equations with only one variable generally only have one answer (find x, oh look, there it is) - with 2 variables, there is no longer one solution, there is an infinite number of solutions
 - **Standard Form of a Linear Equation** : **ax + by = c** A linear equation in two variables is of the form : **ax + by = c** , 'a' 'b' and 'c' are real numbers, 'a' and 'b' can not be '0' zero at the same time
 - If there are exponents (besides ^1), then it is not a linear equation. For example :  $ax^2 + by^2 = c$ is not a linear equation
-- **Ordered Pair** = A solution to a linear equation in two variables is called an ordered pair : **(x, y)** - 'X' is always first, 'Y' is always second
+- **Ordered Pair** = A solution to a linear equation in two variables is called an ordered pair : **(x, y)** - *'X' is always first, 'Y' is always second*
 - To solve a linear equation with 2 variables, plug in a number for one of the variables, and solve for the other one. - Pick something for 'X', solve for 'Y'. Pick something for 'Y', solve for 'X'
 - **Table of Values** : Many ordered pairs, used for graphing, if a value for 'x' is -, you get - for 'Y'  
 ### Table of Values for $4x - 3y = -12$
@@ -704,12 +704,12 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h3m10s
 ---
 ### Table of Values for $-x + 7y = 28$
 
-| $x$ | $y$ | Calculation |
-| :---: | :---: | :--- |
-| **7** | **5** | $-7 + 7y = 28 \implies 7y = 35 \implies y = 5$ |
+|  $x$   |  $y$  | Calculation                                                            |
+| :----: | :---: | :--------------------------------------------------------------------- |
+| **7**  | **5** | $-7 + 7y = 28 \implies 7y = 35 \implies y = 5$                         |
 | **-7** | **3** | $-x + 7(3) = 28 \implies -x + 21 = 28 \implies -x = 7 \implies x = -7$ |
-| **-28** | **0** | $-x + 7(0) = 28 \implies -x = 28 \implies x = -28$ |
-**Completed Points:** $(7, 5)$, $(-7, 3)$, and $(-28, 0)$.
+| **0**  | **4** | $-(0) + 7y = 28 \implies 7y = 28 \implies y = 4$                       |
+**Completed Points:** $(7, 5)$, $(-7, 3)$, and $(0, 4)$.
 
 ---
 
