@@ -712,4 +712,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h3m10s
 **Completed Points:** $(7, 5)$, $(-7, 3)$, and $(0, 4)$.
 
 ---
-
+- What do you with your ordered pairs? You plot them on your **coordinate plane** aka graphing
+- **Cartesian Coordinate System** = sum ergo cogito, cogito ergo sum. A fancy way to say graph
+- **Rectangular Coordinate System** = yet another name for a graph
+- **Origin** = **(0, 0)** 
+- **X-Axis** = Goes left to right
+- **Y-Axis** = Goes up and down
+- **Quadrants** = 4 Quadrants, Counterclockwise : Quadrant I = Top right, (+, +) - Quadrant II = Top Left (-, +) - Quadrant III = Bottom Left (-, -) - Quadrant IV = Bottom Right (+, -)
