@@ -728,6 +728,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h26m25s
 - **Y-Axis** = Goes up and down, Vertical
 - **Quadrants** = 4 Quadrants, Counterclockwise : Quadrant I = Top right, (+, +) - Quadrant II = Top Left (-, +) - Quadrant III = Bottom Left (-, -) - Quadrant IV = Bottom Right (+, -)
 - After plotting your ordered pairs, you should get a line, draw a line through it, with arrows to indicate that it keeps going, commonly you would label the line with the equation
-- **X Intercept** = Where your graph crosses the X-Axis
-- **Y-Intercept** = Where your graph cross the Y-Axis
+- **X Intercept** = Where your graph crosses the X-Axis, to find this, simply plug '0' into 'x' and solve for 'y'
+- **Y-Intercept** = Where your graph cross the Y-Axis, to find this, simply plug '0' into 'y' and solve for 'x'
+- **The Intercept Method** = '0' is easy to work with, so just find the 'x intercept' and 'y intercept' and one point as a check to graph
 - 
