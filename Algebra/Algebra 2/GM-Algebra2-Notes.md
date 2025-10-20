@@ -731,4 +731,40 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h26m25s
 - **X Intercept** = Where your graph crosses the X-Axis, to find this, simply plug '0' into 'x' and solve for 'y'
 - **Y-Intercept** = Where your graph cross the Y-Axis, to find this, simply plug '0' into 'y' and solve for 'x'
 - **The Intercept Method** = '0' is easy to work with, so just find the 'x intercept' and 'y intercept' - you can graph it with just 2 points, but you want one arbitrary point as a check, you want to end up with integers, not decimals or fractions
-- 
+### Graphing $-x + 4y = -4$ using the Intercept Method
+
+**Equation:** $-x + 4y = -4$
+
+---
+
+#### 1. Find the x-intercept (Set $y = 0$)
+
+* Substitute $y = 0$ into the equation:
+    $$-x + 4(0) = -4$$
+    $$-x = -4$$
+    $$x = 4$$
+* **x-intercept point:** **$(4, 0)$**
+
+---
+
+#### 2. Find the y-intercept (Set $x = 0$)
+
+* Substitute $x = 0$ into the equation:
+    $$-(0) + 4y = -4$$
+    $$4y = -4$$
+    $$y = -1$$
+* **y-intercept point:** **$(0, -1)$**
+
+---
+
+#### 3. Plotting Points and Check Point
+
+* **Plot these two intercepts:** $(4, 0)$ and $(0, -1)$.
+* Draw a straight line connecting them.
+
+* **Check Point:** $(8, 1)$
+    * Substitute $x = 8$ and $y = 1$ into the original equation:
+        $$-(8) + 4(1) = -4$$
+        $$-8 + 4 = -4$$
+        $$-4 = -4 \quad \checkmark$$
+    * Since $-4 = -4$, the point $(8, 1)$ **is on the line**. This confirms our line is drawn correctly.
