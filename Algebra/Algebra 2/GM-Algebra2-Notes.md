@@ -683,6 +683,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
    $5|-3 + 8x| +2 - 2 \ge -53 -2$ : $(5|-3+8x|)/5 \ge -55/5$ : $|-3+8x|\ge -11$
    $|-3+8x|\ge -11$ 
    No Solution, You can't have an absolute value be a negative.
-   
-   
-   
+## Algebra II - Lesson 15 - Linear Equations in Two Variables - 20October2025 :
