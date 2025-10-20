@@ -684,3 +684,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=5h30m40s
    $|-3+8x|\ge -11$ 
    No Solution, You can't have an absolute value be a negative.
 ## Algebra II - Lesson 15 - Linear Equations in Two Variables - 20October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h3m10s
