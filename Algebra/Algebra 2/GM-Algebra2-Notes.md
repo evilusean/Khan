@@ -768,3 +768,14 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h26m25s
         $$-8 + 4 = -4$$
         $$-4 = -4 \quad \checkmark$$
     * Since $-4 = -4$, the point $(8, 1)$ **is on the line**. This confirms our line is drawn correctly.
+### Plot for $-x + 4y = -4$
+
+```chart
+type: line
+labels: [0, 4, 8]
+series:
+    - name: "y-values"
+      data: [-1, 0, 1]
+      borderColor: '#90CAF9'
+      fill: false
+```
