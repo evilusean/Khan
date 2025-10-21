@@ -909,7 +909,7 @@ $$m = 6$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=7h23m15s
 - **y = mx + b** : The quickest way to get the slope is to solve for 'y' aka 'slop intercept form'
 - Slope intercept form is also the fastest way to graph a linear equation with 2 variables
-- **Perpendicular Lines** =  2 perpendicular lines have slopes whose product is -1 $$\mathbf{m_1 = -\frac{1}{m_2}}$$
+- **Perpendicular Lines** =  2 perpendicular lines have slopes whose product is -1, they will intersect at a 90 degree angle $$\mathbf{m_1 = -\frac{1}{m_2}}$$
 - **Parralel Lines** = 2 non vertical lines that have the same slope are parallel ( if 2 lines have the same slope, but a different y-intercept, they are parallel)
 ### Perpendicular Lines Rule
 
