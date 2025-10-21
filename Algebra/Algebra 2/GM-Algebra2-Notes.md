@@ -992,3 +992,49 @@ $$\mathbf{m_2 = \frac{4}{3}}$$
 
 **Conclusion:**
 The slopes are $\mathbf{-\frac{1}{3}}$ and $\mathbf{\frac{4}{3}}$. Since their product is $\left(-\frac{1}{3}\right) \cdot \left(\frac{4}{3}\right) = -\frac{4}{9} \neq -1$, the lines are **NOT perpendicular or parallel**.
+### Solving Perpendicular Linear Equations (7x + 4y = 8) (-4x + 7y = -21)
+
+**Rule:** Two lines are perpendicular if the product of their slopes ($m_1 \cdot m_2$) is $\mathbf{-1}$.
+
+**Equations:**
+1.  $$7x + 4y = 8$$
+2.  $$-4x + 7y = -21$$
+
+---
+
+#### 1. Find the Slope of Line 1 ($m_1$)
+
+*Convert to slope-intercept form ($y = m_1x + b$):*
+$$7x + 4y = 8$$
+$$4y = -7x + 8$$
+$$y = \frac{-7}{4}x + 2$$
+$$\mathbf{m_1 = -\frac{7}{4}}$$
+
+---
+
+#### 2. Find the Slope of Line 2 ($m_2$)
+
+*Convert to slope-intercept form ($y = m_2x + b$):*
+$$-4x + 7y = -21$$
+$$7y = 4x - 21$$
+$$y = \frac{4}{7}x - 3$$
+$$\mathbf{m_2 = \frac{4}{7}}$$
+
+---
+
+#### 3. Check the Perpendicularity Condition
+
+*Compare the slopes: $m_1 = -\frac{7}{4}$ and $m_2 = \frac{4}{7}$.*
+
+* **Opposite Reciprocal Check:**
+    * The reciprocal of $\frac{7}{4}$ is $\frac{4}{7}$.
+    * The opposite sign of a negative slope is positive.
+    * The slopes are indeed opposite reciprocals.
+
+* **Product Check:**
+    $$m_1 \cdot m_2 = \left(-\frac{7}{4}\right) \cdot \left(\frac{4}{7}\right) = \mathbf{-1 \quad (\checkmark)}$$
+
+---
+
+**Conclusion:**
+Since $m_1 \cdot m_2 = -1$, the lines are **perpendicular**.
