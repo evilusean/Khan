@@ -731,6 +731,9 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h26m25s
 - **X Intercept** = Where your graph crosses the X-Axis, to find this, simply plug '0' into 'x' and solve for 'y'
 - **Y-Intercept** = Where your graph cross the Y-Axis, to find this, simply plug '0' into 'y' and solve for 'x'
 - **The Intercept Method** = '0' is easy to work with, so just find the 'x intercept' and 'y intercept' - you can graph it with just 2 points, but you want one arbitrary point as a check, you want to end up with integers, not decimals or fractions
+- **ax + by +c(0)** We often see equations whose 'x' and 'y' intercepts occurs at the origin (0,0), this will always have a 'c'= 0 zero
+- **y = k**  = Graphing horizontal lines will have an equation like this - Y will always be the same, no matter what (it's flat, horizontal straight line, forever), no matter what you plug in for 'x' it will always be the same 'y'
+- **x = k** = Graphing a vertical line will have an equation like this, since 'y = 0', x will always have the same value, and be vertical
 ### Graphing $-x + 4y = -4$ using the Intercept Method
 
 **Equation:** $-x + 4y = -4$
