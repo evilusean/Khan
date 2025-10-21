@@ -772,6 +772,12 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h26m25s
 
 ```chart
 type: line
+# Set the desired range for the X-axis
+x-min: -10
+x-max: 10
+# Set the desired range for the Y-axis
+y-min: -10
+y-max: 10
 labels: [0, 4, 8]
 series:
     - name: "y-values"
