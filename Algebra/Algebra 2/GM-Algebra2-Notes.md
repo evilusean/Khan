@@ -792,7 +792,7 @@ series:
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h54m
 - **Slope** = $\frac{Rise}{Run}$ = The ratio of vertical change (Rise) to horizontal change (Run) 
 - **Slope Formula from 2 points** = $m = \frac{y2-y1}{x2-x1}$ = 'm' stands for slope, $x1 -x2 \neq 0$, You can not divide by 0, so make sure the 2 points you pick don't equal 0 when subtracted
-- **Subscript** = $y2$ = the number after the variable is called a subscript - the order you place the subscripts on the ordered pairs (x, y) doesn't matter, you will get the same result regardless, just be consistent
+- **Subscript** = $y2$ = y sub 2 = the number after the variable is called a subscript - the order you place the subscripts on the ordered pairs (x, y) doesn't matter, you will get the same result regardless, just be consistent
 - $m = -\frac{5}{8}$ if the slope is negative, you can swap it, if the rise goes down 5, the run is eight, if the rise goes up 5, the run goes back 8 - a negative value on y = you are going down, a negative value on the x means it goes to the left
 ### Slope Calculation : (-13,2) (19,-18)
 
@@ -838,3 +838,24 @@ $$\mathbf{m = -\frac{16}{5}}$$
 
 **Final Slope:**
 $$m = -\frac{16}{5}$$
+### Slope Calculation (-7, -9) (-14, 12)
+
+**Given Points:**
+$$P_1 = (-7, -9) \quad \implies \quad x_1 = -7, y_1 = -9$$
+$$P_2 = (-14, 12) \quad \implies \quad x_2 = -14, y_2 = 12$$
+
+**Slope Formula:**
+$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+
+**Step 1: Substitute the values.**
+$$m = \frac{12 - (-9)}{-14 - (-7)}$$
+
+**Step 2: Simplify the numerator and denominator.**
+$$m = \frac{12 + 9}{-14 + 7}$$
+$$m = \frac{21}{-7}$$
+
+**Step 3: Write the final reduced slope.**
+$$\mathbf{m = -3}$$
+
+**Final Slope:**
+$$m = -3$$
