@@ -790,3 +790,7 @@ series:
 ```
 ## Algebra II - Lesson 17 - The Slope of a Line - 21October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h54m
+- **Slope** = $\frac{Rise}{Run}$ = The ratio of vertical change (Rise) to horizontal change (Run) 
+- **Slope Formula from 2 points** = $m = \frac{y2-y1}{x2-x1}$ = 'm' stands for slope, $x1 -x2 \neq 0$, You can not divide by 0, so make sure the 2 points you pick don't equal 0 when subtracted
+- **Subscript** = $y2$ = the number after the variable is called a subscript
+- 
