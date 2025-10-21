@@ -909,3 +909,23 @@ $$m = 6$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=7h23m15s
 - **y = mx + b** : The quickest way to get the slope is to solve for 'y' aka 'slop intercept form'
 - Slope intercept form is also the fastest way to graph a linear equation with 2 variables
+### Finding the Slope from Standard Form (5x - 4y = 12)
+
+**Equation:**
+$$5x - 4y = -12$$
+
+**Step 1: Isolate the y-term.**
+*Subtract $5x$ from both sides:*
+$$-4y = -5x - 12$$
+
+**Step 2: Solve for positive y.**
+*Divide every term on both sides by -4:*
+$$\frac{-4y}{-4} = \frac{-5x}{-4} - \frac{12}{-4}$$
+$$y = \frac{5}{4}x + 3$$
+
+**Step 3: Identify the slope (m).**
+The equation is now in the form $y = mx + b$. The coefficient of $x$ is the slope ($m$).
+$$\mathbf{m = \frac{5}{4}}$$
+
+**Final Slope:**
+$$m = \frac{5}{4}$$
