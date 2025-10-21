@@ -789,3 +789,4 @@ series:
       fill: false
 ```
 ## Algebra II - Lesson 17 - The Slope of a Line - 21October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h54m
