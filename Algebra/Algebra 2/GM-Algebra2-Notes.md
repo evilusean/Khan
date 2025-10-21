@@ -948,3 +948,47 @@ $$\mathbf{m = \frac{5}{4}}$$
 
 **Final Slope:**
 $$m = \frac{5}{4}$$
+### Solving Linear Equations (x+3y =12) (4x-3y = 3)
+
+**Rule:** Two lines are perpendicular if the product of their slopes ($m_1 \cdot m_2$) is $\mathbf{-1}$, meaning their slopes are opposite reciprocals.
+
+**Equations:**
+1.  $$x + 3y = 12$$
+2.  $$4x - 3y = 3$$
+
+---
+
+#### 1. Find the Slope of Line 1 ($m_1$)
+
+*Convert to slope-intercept form ($y = m_1x + b$):*
+$$x + 3y = 12$$
+$$3y = -x + 12$$
+$$y = -\frac{1}{3}x + 4$$
+$$\mathbf{m_1 = -\frac{1}{3}}$$
+
+---
+
+#### 2. Find the Slope of Line 2 ($m_2$)
+
+*Convert to slope-intercept form ($y = m_2x + b$):*
+$$4x - 3y = 3$$
+$$-3y = -4x + 3$$
+$$y = \frac{-4x}{-3} + \frac{3}{-3}$$
+$$y = \frac{4}{3}x - 1$$
+$$\mathbf{m_2 = \frac{4}{3}}$$
+
+---
+
+#### 3. Check the Perpendicularity Condition
+
+*Compare the slopes: $m_1 = -\frac{1}{3}$ and $m_2 = \frac{4}{3}$.*
+
+* Are they **opposite reciprocals**?
+    * The reciprocal of $-\frac{1}{3}$ is $-3$.
+    * The opposite reciprocal of $-\frac{1}{3}$ is $\mathbf{+3}$.
+* **Since $\frac{4}{3} \neq 3$**, the lines are **NOT** perpendicular.
+
+---
+
+**Conclusion:**
+The slopes are $\mathbf{-\frac{1}{3}}$ and $\mathbf{\frac{4}{3}}$. Since their product is $\left(-\frac{1}{3}\right) \cdot \left(\frac{4}{3}\right) = -\frac{4}{9} \neq -1$, the lines are **NOT perpendicular or parallel**.
