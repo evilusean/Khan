@@ -864,3 +864,24 @@ $$\mathbf{m = -3}$$
 
 **Final Slope:**
 $$m = -3$$
+### Finding the Slope from Standard Form (x-y = 28)
+
+**Equation:**
+$$x - y = 28$$
+
+**Step 1: Isolate the y-term.**
+*Subtract x from both sides:*
+$$-y = -x + 28$$
+
+**Step 2: Solve for positive y.**
+*Multiply or divide both sides by -1:*
+$$(-1)(-y) = (-1)(-x + 28)$$
+$$y = x - 28$$
+
+**Step 3: Identify the slope (m).**
+The equation is now in the form $y = mx + b$. The coefficient of $x$ is the slope ($m$).
+$$y = \mathbf{1}x - 28$$
+$$\mathbf{m = 1}$$
+
+**Final Slope:**
+$$m = 1$$
