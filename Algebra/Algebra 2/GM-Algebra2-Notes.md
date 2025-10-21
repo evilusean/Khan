@@ -909,6 +909,25 @@ $$m = 6$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=7h23m15s
 - **y = mx + b** : The quickest way to get the slope is to solve for 'y' aka 'slop intercept form'
 - Slope intercept form is also the fastest way to graph a linear equation with 2 variables
+- **Perpendicular Lines** =  2 perpendicular lines have slopes whose product is -1 $$\mathbf{m_1 = -\frac{1}{m_2}}$$
+- **Parralel Lines** = 2 non vertical lines that have the same slope are parallel ( if 2 lines have the same slope, but a different y-intercept, they are parallel)
+### Perpendicular Lines Rule
+
+**Rule:** Two non-vertical lines are perpendicular if and only if their slopes ($m_1$ and $m_2$) are **opposite reciprocals**.
+
+**Formula (Condition for Perpendicularity):**
+$$\mathbf{m_1 = -\frac{1}{m_2}}$$
+
+**Alternatively:** The product of their slopes must equal $-1$.
+$$\mathbf{m_1 \cdot m_2 = -1}$$
+
+**Steps to Find the Perpendicular Slope:**
+1.  **Flip** the original slope (find the reciprocal).
+2.  **Change the sign** (find the opposite).
+
+**Example:**
+* If $m_1 = \frac{4}{5}$, then $m_2 = -\frac{5}{4}$.
+* If $m_1 = -3$, then $m_2 = \frac{1}{3}$.
 ### Finding the Slope from Standard Form (5x - 4y = 12)
 
 **Equation:**
