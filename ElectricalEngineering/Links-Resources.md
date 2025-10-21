@@ -7,6 +7,8 @@ https://en.wikipedia.org/wiki/Ionization
 Ionosphere=Aurora :
 https://en.wikipedia.org/wiki/Ionosphere
 https://en.wikipedia.org/wiki/Aurora
+Biefeld–Brown effect :
+https://en.wikipedia.org/wiki/Biefeld%E2%80%93Brown_effect
 James Clerk Maxwell(Maxwells Equations-ElectroMagnetism) :
 https://en.wikipedia.org/wiki/James_Clerk_Maxwell
 https://en.wikipedia.org/wiki/Maxwell%27s_equations
