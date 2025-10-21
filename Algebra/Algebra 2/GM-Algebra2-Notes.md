@@ -793,6 +793,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h54m
 - **Slope** = $\frac{Rise}{Run}$ = The ratio of vertical change (Rise) to horizontal change (Run) 
 - **Slope Formula from 2 points** = $m = \frac{y2-y1}{x2-x1}$ = 'm' stands for slope, $x1 -x2 \neq 0$, You can not divide by 0, so make sure the 2 points you pick don't equal 0 when subtracted
 - **Subscript** = $y2$ = the number after the variable is called a subscript - the order you place the subscripts on the ordered pairs (x, y) doesn't matter, you will get the same result regardless, just be consistent
+- $m = -\frac{5}{8}$ if the slope is negative, you can swap it, if the rise goes down 5, the run is eight, if the rise goes up 5, the run goes back 8 - a negative value on y = you are going down, a negative value on the x means it goes to the left
 ### Slope Calculation : (-13,2) (19,-18)
 
 **Given Points:**
@@ -816,3 +817,24 @@ $$\mathbf{m = -\frac{5}{8}}$$
 
 **Final Slope:**
 $$m = -\frac{5}{8}$$
+### Slope Calculation (15, -10) (10, 6)
+
+**Given Points:**
+$$P_1 = (15, -10) \quad \implies \quad x_1 = 15, y_1 = -10$$
+$$P_2 = (10, 6) \quad \implies \quad x_2 = 10, y_2 = 6$$
+
+**Slope Formula:**
+$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+
+**Step 1: Substitute the values.**
+$$m = \frac{6 - (-10)}{10 - 15}$$
+
+**Step 2: Simplify the numerator and denominator.**
+$$m = \frac{6 + 10}{-5}$$
+$$m = \frac{16}{-5}$$
+
+**Step 3: Write the final reduced slope.**
+$$\mathbf{m = -\frac{16}{5}}$$
+
+**Final Slope:**
+$$m = -\frac{16}{5}$$
