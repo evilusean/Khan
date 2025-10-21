@@ -885,3 +885,23 @@ $$\mathbf{m = 1}$$
 
 **Final Slope:**
 $$m = 1$$
+### Finding the Slope from Standard Form (6x - y = 8)
+
+**Equation:**
+$$6x - y = -8$$
+
+**Step 1: Isolate the y-term.**
+*Subtract $6x$ from both sides:*
+$$-y = -6x - 8$$
+
+**Step 2: Solve for positive y.**
+*Multiply or divide both sides by -1:*
+$$(-1)(-y) = (-1)(-6x - 8)$$
+$$y = 6x + 8$$
+
+**Step 3: Identify the slope (m).**
+The equation is now in the form $y = mx + b$. The coefficient of $x$ is the slope ($m$).
+$$\mathbf{m = 6}$$
+
+**Final Slope:**
+$$m = 6$$
