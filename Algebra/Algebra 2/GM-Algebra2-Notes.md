@@ -794,6 +794,11 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h54m
 - **Slope Formula from 2 points** = $m = \frac{y2-y1}{x2-x1}$ = 'm' stands for slope, $x1 -x2 \neq 0$, You can not divide by 0, so make sure the 2 points you pick don't equal 0 when subtracted
 - **Subscript** = $y2$ = y sub 2 = the number after the variable is called a subscript - the order you place the subscripts on the ordered pairs (x, y) doesn't matter, you will get the same result regardless, just be consistent
 - $m = -\frac{5}{8}$ if the slope is negative, you can swap it, if the rise goes down 5, the run is eight, if the rise goes up 5, the run goes back 8 - a negative value on y = you are going down, a negative value on the x means it goes to the left
+- y = 3 : The slope of any horizontal line is always zero - no matter what you choose for 'x', 'y' is always 3
+- x = -4 : The slope of a vertical line is 'undefined' (since you are dividing by 0)
+- $+\frac{3}{5}$ = A positively sloped line rises as we move to the right (x+, y+)
+- $+\frac{3}{2}$a negatively sloped line goes down as we move to the right (x+, y-)
+- $y = mx + b$ = slope intercept form, 'm' is the slope, 'b' is the y intercept - so just solve the equation for 'y' and the coefficient of 'x' is the slope
 ### Slope Calculation : (-13,2) (19,-18)
 
 **Given Points:**
