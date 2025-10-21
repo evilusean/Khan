@@ -907,3 +907,5 @@ $$\mathbf{m = 6}$$
 $$m = 6$$
 ## Algebra II - Lesson 18 - More on Slope - 21October2025 : 
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=7h23m15s
+- **y = mx + b** : The quickest way to get the slope is to solve for 'y' aka 'slop intercept form'
+- Slope intercept form is also the fastest way to graph a linear equation with 2 variables
