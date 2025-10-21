@@ -788,3 +788,4 @@ series:
       borderColor: '#90CAF9'
       fill: false
 ```
+## Algebra II - Lesson 17 - The Slope of a Line - 21October2025 :
