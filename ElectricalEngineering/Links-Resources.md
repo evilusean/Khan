@@ -39,6 +39,8 @@ Tesla Valve | The complete physics
 https://www.youtube.com/watch?v=suIAo0EYwOE
 Tesla Turbine | The interesting physics behind it :
 https://www.youtube.com/watch?v=AfCyzIbpLN4
+Bernouilli Principle (High vs Low Pressure) :
+https://en.wikipedia.org/wiki/Bernoulli%27s_principle
 
 ElectricSean :
 Electrical Wiring Basics :
