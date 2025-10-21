@@ -792,5 +792,27 @@ series:
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=6h54m
 - **Slope** = $\frac{Rise}{Run}$ = The ratio of vertical change (Rise) to horizontal change (Run) 
 - **Slope Formula from 2 points** = $m = \frac{y2-y1}{x2-x1}$ = 'm' stands for slope, $x1 -x2 \neq 0$, You can not divide by 0, so make sure the 2 points you pick don't equal 0 when subtracted
-- **Subscript** = $y2$ = the number after the variable is called a subscript
-- 
+- **Subscript** = $y2$ = the number after the variable is called a subscript - the order you place the subscripts on the ordered pairs (x, y) doesn't matter, you will get the same result regardless, just be consistent
+### Slope Calculation : (-13,2) (19,-18)
+
+**Given Points:**
+$$P_1 = (-13, 2) \quad \implies \quad x_1 = -13, y_1 = 2$$
+$$P_2 = (19, -18) \quad \implies \quad x_2 = 19, y_2 = -18$$
+
+**Slope Formula:**
+$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+
+**Step 1: Substitute the values.**
+$$m = \frac{-18 - 2}{19 - (-13)}$$
+
+**Step 2: Simplify the numerator and denominator.**
+$$m = \frac{-20}{19 + 13}$$
+$$m = \frac{-20}{32}$$
+
+**Step 3: Reduce the fraction.**
+*Divide the numerator and denominator by the GCF (4):*
+$$m = \frac{-20 \div 4}{32 \div 4}$$
+$$\mathbf{m = -\frac{5}{8}}$$
+
+**Final Slope:**
+$$m = -\frac{5}{8}$$
