@@ -905,3 +905,4 @@ $$\mathbf{m = 6}$$
 
 **Final Slope:**
 $$m = 6$$
+## Algebra II - Lesson 18 - More on Slope - 21October2025 : 
