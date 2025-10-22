@@ -1120,3 +1120,35 @@ $$\mathbf{y = x + 3}$$
 
 **Final Slope-Intercept Form:**
 $$\mathbf{y = x + 3}$$
+### Point-Slope to Slope-Intercept Conversion (m=2/3 (-3,3))
+
+**Given:**
+* Slope $\mathbf{m = \frac{2}{3}}$
+* Point $\mathbf{(x_1, y_1) = (-3, 3)}$
+
+**Goal:** Convert $y - y_1 = m(x - x_1)$ to $y = mx + b$.
+
+---
+
+#### 1. Substitute into Point-Slope Form
+
+$$y - y_1 = m(x - x_1)$$
+$$y - 3 = \frac{2}{3}(x - (-3))$$
+$$y - 3 = \frac{2}{3}(x + 3)$$
+
+#### 2. Distribute the Slope ($m$)
+
+*Multiply $\frac{2}{3}$ by each term inside the parentheses:*
+$$y - 3 = \left(\frac{2}{3} \cdot x\right) + \left(\frac{2}{3} \cdot 3\right)$$
+$$y - 3 = \frac{2}{3}x + 2$$
+
+#### 3. Isolate $y$ (Slope-Intercept Form)
+
+*Add 3 to both sides:*
+$$y = \frac{2}{3}x + 2 + 3$$
+$$\mathbf{y = \frac{2}{3}x + 5}$$
+
+---
+
+**Final Slope-Intercept Form:**
+$$\mathbf{y = \frac{2}{3}x + 5}$$
