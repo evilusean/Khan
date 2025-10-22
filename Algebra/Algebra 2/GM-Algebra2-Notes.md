@@ -1041,7 +1041,7 @@ Since $m_1 \cdot m_2 = -1$, the lines are **perpendicular**.
 ## Algebra II - Lesson 19 - Forms of a Line -  22October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=7h50m10s
 - **Slope-Intercept Form** = **y = mx + b** m = slope (coefficient of 'x) + b(y intercept)
-- **Point - Slope Form** = $\mathbf{y - y_1 = m(x - x_1)}$ 
+- **Point - Slope Form** = $\mathbf{y - y_1 = m(x - x_1)}$ : Use this when you know the slope and a single point on the line, or you have 2 points, solve for 'y' and get slope intercept form
 ### Point-Slope Form Formula
 
 **Formula:**
@@ -1058,3 +1058,34 @@ $$\mathbf{y - y_1 = m(x - x_1)}$$
 | **$y_1$ and $x_1$** | **Specific Point** | The known, single ordered pair $(\mathbf{x_1}, \mathbf{y_1})$ that the line passes through. |
 
 **Purpose:** This form is used when you know the **slope ($m$)** and one **point $(x_1, y_1)$** of a line. It is often the first step before converting the equation to the final slope-intercept form ($y = mx + b$).
+### Point-Slope to Slope-Intercept Conversion (m=1/2 (2,4))
+
+**Given:**
+* Slope $\mathbf{m = \frac{1}{2}}$
+* Point $\mathbf{(x_1, y_1) = (2, 4)}$
+
+**Goal:** Convert $y - y_1 = m(x - x_1)$ to $y = mx + b$.
+
+---
+
+#### 1. Substitute into Point-Slope Form
+
+$$y - y_1 = m(x - x_1)$$
+$$y - 4 = \frac{1}{2}(x - 2)$$
+
+#### 2. Distribute the Slope ($m$)
+
+*Multiply $\frac{1}{2}$ by each term inside the parentheses:*
+$$y - 4 = \frac{1}{2}x - \left(\frac{1}{2} \cdot 2\right)$$
+$$y - 4 = \frac{1}{2}x - 1$$
+
+#### 3. Isolate $y$ (Slope-Intercept Form)
+
+*Add 4 to both sides:*
+$$y = \frac{1}{2}x - 1 + 4$$
+$$\mathbf{y = \frac{1}{2}x + 3}$$
+
+---
+
+**Final Slope-Intercept Form:**
+$$\mathbf{y = \frac{1}{2}x + 3}$$
