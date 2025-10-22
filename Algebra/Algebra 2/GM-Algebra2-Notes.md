@@ -1152,3 +1152,47 @@ $$\mathbf{y = \frac{2}{3}x + 5}$$
 
 **Final Slope-Intercept Form:**
 $$\mathbf{y = \frac{2}{3}x + 5}$$
+### Finding the Equation of a Line from Two Points (-2,4) (4, -5)
+
+**Given Points:**
+$$P_1 = (-2, 4) \quad \implies \quad x_1 = -2, y_1 = 4$$
+$$P_2 = (4, -5) \quad \implies \quad x_2 = 4, y_2 = -5$$
+
+---
+
+#### 1. Calculate the Slope (m)
+
+**Slope Formula:** $m = \frac{y_2 - y_1}{x_2 - x_1}$
+
+$$m = \frac{-5 - 4}{4 - (-2)}$$
+$$m = \frac{-9}{4 + 2}$$
+$$m = \frac{-9}{6}$$
+*Reduce the fraction by dividing by 3:*
+$$\mathbf{m = -\frac{3}{2}}$$
+
+---
+
+#### 2. Use Point-Slope Form
+
+*Use the calculated slope ($m = -\frac{3}{2}$) and one of the points, e.g., $P_1(-2, 4)$.*
+
+**Point-Slope Form:** $y - y_1 = m(x - x_1)$
+
+$$y - 4 = -\frac{3}{2}(x - (-2))$$
+$$y - 4 = -\frac{3}{2}(x + 2)$$
+
+#### 3. Convert to Slope-Intercept Form
+
+**A. Distribute the slope:**
+$$y - 4 = -\frac{3}{2}x - \left(\frac{3}{2} \cdot 2\right)$$
+$$y - 4 = -\frac{3}{2}x - 3$$
+
+**B. Isolate y:**
+*Add 4 to both sides:*
+$$y = -\frac{3}{2}x - 3 + 4$$
+$$\mathbf{y = -\frac{3}{2}x + 1}$$
+
+---
+
+**Final Slope-Intercept Equation:**
+$$\mathbf{y = -\frac{3}{2}x + 1}$$
