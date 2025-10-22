@@ -1089,3 +1089,34 @@ $$\mathbf{y = \frac{1}{2}x + 3}$$
 
 **Final Slope-Intercept Form:**
 $$\mathbf{y = \frac{1}{2}x + 3}$$
+### Point-Slope to Slope-Intercept Conversion (m = 1 (-5, -2))
+
+**Given:**
+* Slope $\mathbf{m = 1}$
+* Point $\mathbf{(x_1, y_1) = (-5, -2)}$
+
+**Goal:** Convert $y - y_1 = m(x - x_1)$ to $y = mx + b$.
+
+---
+
+#### 1. Substitute into Point-Slope Form
+
+$$y - y_1 = m(x - x_1)$$
+$$y - (-2) = 1(x - (-5))$$
+$$y + 2 = 1(x + 5)$$
+
+#### 2. Distribute the Slope ($m$)
+
+*The slope is 1, so the expression remains the same:*
+$$y + 2 = x + 5$$
+
+#### 3. Isolate $y$ (Slope-Intercept Form)
+
+*Subtract 2 from both sides:*
+$$y = x + 5 - 2$$
+$$\mathbf{y = x + 3}$$
+
+---
+
+**Final Slope-Intercept Form:**
+$$\mathbf{y = x + 3}$$
