@@ -1038,3 +1038,4 @@ $$\mathbf{m_2 = \frac{4}{7}}$$
 
 **Conclusion:**
 Since $m_1 \cdot m_2 = -1$, the lines are **perpendicular**.
+## Algebra II - Lesson 19 - Forms of a Line -  22October2025 :
