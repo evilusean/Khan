@@ -1040,3 +1040,21 @@ $$\mathbf{m_2 = \frac{4}{7}}$$
 Since $m_1 \cdot m_2 = -1$, the lines are **perpendicular**.
 ## Algebra II - Lesson 19 - Forms of a Line -  22October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=7h50m10s
+- **Slope-Intercept Form** = **y = mx + b** m = slope (coefficient of 'x) + b(y intercept)
+- **Point - Slope Form** = $\mathbf{y - y_1 = m(x - x_1)}$ 
+### Point-Slope Form Formula
+
+**Formula:**
+$$\mathbf{y - y_1 = m(x - x_1)}$$
+
+---
+
+**Term Definitions:**
+
+| Term | Meaning | Description |
+| :---: | :--- | :--- |
+| **$y$ and $x$** | **Variables** | Represent any point $(x, y)$ that lies on the line. They are the variables that remain in the final equation. |
+| **$m$** | **Slope** | The steepness or rate of change of the line. It is calculated as "rise over run" ($\frac{\Delta y}{\Delta x}$). |
+| **$y_1$ and $x_1$** | **Specific Point** | The known, single ordered pair $(\mathbf{x_1}, \mathbf{y_1})$ that the line passes through. |
+
+**Purpose:** This form is used when you know the **slope ($m$)** and one **point $(x_1, y_1)$** of a line. It is often the first step before converting the equation to the final slope-intercept form ($y = mx + b$).
