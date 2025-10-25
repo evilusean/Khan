@@ -1258,3 +1258,53 @@ $$3x + 2y = -4$$
 
 **Final Standard Form Equation:**
 $$\mathbf{3x + 2y = -4}$$
+### Convert to Standard Form - Equation of a Parallel Line (to Standard Form) (through (-5, 3) - paralllel to : y = -7/5x + 3)
+
+**Given:**
+* Point: $\mathbf{(-5, 3)}$
+* Parallel to: $\mathbf{y = -\frac{7}{5}x + 3}$
+
+**Goal:** Find the equation of the new line in Standard Form ($Ax + By = C$).
+
+---
+
+#### 1. Determine the Slope of the New Line
+
+* **Rule for Parallel Lines:** Parallel lines have the **same slope**.
+* The given line $y = -\frac{7}{5}x + 3$ is in slope-intercept form ($y = mx + b$), so its slope is $\mathbf{m = -\frac{7}{5}}$.
+* Therefore, the slope of our new line is also $\mathbf{m = -\frac{7}{5}}$.
+
+---
+
+#### 2. Use Point-Slope Form
+
+* Use the slope $m = -\frac{7}{5}$ and the given point $(x_1, y_1) = (-5, 3)$.
+* **Point-Slope Formula:** $y - y_1 = m(x - x_1)$
+
+    $$y - 3 = -\frac{7}{5}(x - (-5))$$
+    $$y - 3 = -\frac{7}{5}(x + 5)$$
+
+---
+
+#### 3. Convert to Standard Form ($Ax + By = C$)
+
+**A. Distribute the slope:**
+$$y - 3 = -\frac{7}{5}x - \left(\frac{7}{5} \cdot 5\right)$$
+$$y - 3 = -\frac{7}{5}x - 7$$
+
+**B. Eliminate the fraction:**
+* Multiply every term by **5** to clear the denominator.
+    $$5(y) - 5(3) = 5\left(-\frac{7}{5}x\right) - 5(7)$$
+    $$5y - 15 = -7x - 35$$
+
+**C. Rearrange to $Ax + By = C$ (ensure A is positive):**
+* Move the $x$-term ($-7x$) to the left side by adding $7x$ to both sides.
+* Move the constant term ($-15$) to the right side by adding $15$ to both sides.
+    $$7x + 5y - 15 = -35$$
+    $$7x + 5y = -35 + 15$$
+    $$\mathbf{7x + 5y = -20}$$
+
+---
+
+**Final Equation in Standard Form:**
+$$\mathbf{7x + 5y = -20}$$
