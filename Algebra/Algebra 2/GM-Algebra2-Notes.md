@@ -1042,6 +1042,7 @@ Since $m_1 \cdot m_2 = -1$, the lines are **perpendicular**.
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=7h50m10s
 - **Slope-Intercept Form** = **y = mx + b** m = slope (coefficient of 'x) + b(y intercept)
 - **Point - Slope Form** = $\mathbf{y - y_1 = m(x - x_1)}$ : Use this when you know the slope and a single point on the line, or you have 2 points, solve for 'y' and get slope intercept form
+- **Standard Form** = $ax + by = c$ : write a and b like that, and 'a' or 'b' can not by '0' for standard form, strict definition 'a' 'b' and 'c' are integers (no fractions/decimals) 'a' 'b' 'c' can have no common factor except 1
 ### Point-Slope Form Formula
 
 **Formula:**
@@ -1227,3 +1228,33 @@ $$\mathbf{y = -6x - 5}$$
 
 **Final Slope-Intercept Equation:**
 $$\mathbf{y = -6x - 5}$$
+### Standard Form Conversion (m=-3/2) (y intercept = (0, -2))
+
+**Goal:** Convert from $m = -\frac{3}{2}$ and $b = -2$ to $Ax + By = C$.
+
+**Given:** 
+* Slope $\mathbf{m = -\frac{3}{2}}$
+* Y-intercept $\mathbf{b = -2}$ (from the point $(0, -2)$)
+
+---
+
+#### 1. Start with Slope-Intercept Form
+
+$$y = mx + b$$
+$$y = -\frac{3}{2}x - 2$$
+
+#### 2. Eliminate the Fraction
+
+*To remove the denominator of 2, multiply every term by **2**.*
+$$2 \cdot y = 2 \cdot \left(-\frac{3}{2}x\right) - 2 \cdot 2$$
+$$2y = -3x - 4$$
+
+#### 3. Rearrange to Standard Form ($Ax + By = C$)
+
+*Move the $x$-term ($-\mathbf{3x}$) to the left side by adding $3x$ to both sides.*
+$$3x + 2y = -4$$
+
+---
+
+**Final Standard Form Equation:**
+$$\mathbf{3x + 2y = -4}$$
