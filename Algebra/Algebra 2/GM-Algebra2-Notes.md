@@ -1308,3 +1308,45 @@ $$y - 3 = -\frac{7}{5}x - 7$$
 
 **Final Equation in Standard Form:**
 $$\mathbf{7x + 5y = -20}$$
+### Equation of a Perpendicular Line (to Standard Form) (through (2, -3) perpendicular to : y = 2x -1)
+
+**Goal:** Find the equation of a line perpendicular to $y = 2x - 1$ and passing through $(2, -3)$, then convert to Standard Form ($Ax + By = C$).
+
+---
+
+#### 1. Determine the Slope of the New Line ($m$)
+
+* **Given Line Slope ($m_{\text{given}}$):** The slope of $y = 2x - 1$ is $\mathbf{m_{\text{given}} = 2}$.
+* **Rule for Perpendicular Lines:** The slope of the new line ($m$) must be the **opposite reciprocal** of $m_{\text{given}}$.
+    $$\mathbf{m} = -\frac{1}{2}$$
+
+---
+
+#### 2. Use Point-Slope Form
+
+* Use the perpendicular slope $m = -\frac{1}{2}$ and the given point $(x_1, y_1) = (2, -3)$.
+* **Point-Slope Formula:** $y - y_1 = m(x - x_1)$
+
+    $$y - (-3) = -\frac{1}{2}(x - 2)$$
+    $$y + 3 = -\frac{1}{2}(x - 2)$$
+
+---
+
+#### 3. Convert to Standard Form ($Ax + By = C$)
+
+**A. Eliminate the fraction:**
+* Multiply every term by **2** to clear the denominator.
+    $$2(y) + 2(3) = 2\left(-\frac{1}{2}\right)(x - 2)$$
+    $$2y + 6 = -1(x - 2)$$
+    $$2y + 6 = -x + 2$$
+
+**B. Rearrange to $Ax + By = C$ (ensure A is positive):**
+* Move the $x$-term ($-x$) to the left side by adding $x$.
+* Move the constant term ($6$) to the right side by subtracting $6$.
+    $$x + 2y = 2 - 6$$
+    $$\mathbf{x + 2y = -4}$$
+
+---
+
+**Final Equation in Standard Form:**
+$$\mathbf{x + 2y = -4}$$
