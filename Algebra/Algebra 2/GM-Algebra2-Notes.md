@@ -1196,3 +1196,34 @@ $$\mathbf{y = -\frac{3}{2}x + 1}$$
 
 **Final Slope-Intercept Equation:**
 $$\mathbf{y = -\frac{3}{2}x + 1}$$
+### Finding the Equation of a Line from Two Points (-1, 1) (0, -5)
+
+**Given Points:**
+$$P_1 = (-1, 1) \quad \implies \quad x_1 = -1, y_1 = 1$$
+$$P_2 = (0, -5) \quad \implies \quad x_2 = 0, y_2 = -5 \quad (\text{This is the y-intercept, so } b=-5)$$
+
+---
+
+#### 1. Calculate the Slope (m)
+
+**Slope Formula:** $m = \frac{y_2 - y_1}{x_2 - x_1}$
+
+$$m = \frac{-5 - 1}{0 - (-1)}$$
+$$m = \frac{-6}{0 + 1}$$
+$$\mathbf{m = -6}$$
+
+---
+
+#### 2. Use Slope-Intercept Form
+
+*We use the calculated slope $m = -6$ and the known $y$-intercept $b = -5$.*
+
+**Slope-Intercept Form:** $y = mx + b$
+
+$$y = (-6)x + (-5)$$
+$$\mathbf{y = -6x - 5}$$
+
+---
+
+**Final Slope-Intercept Equation:**
+$$\mathbf{y = -6x - 5}$$
