@@ -1359,7 +1359,43 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h16m50s
 - **Strict Inequality** : '<' or '>' means that the boundary line is NOT part of the solution = **Dashed Line**
 - **Non-Strict Inequality** : '$\ge$' or '$\le$' means that the boundary line IS part of the solution = **Solid Line**
 - **Graphing a Linear Inequality in Two Variables** = Siimply Replace the inequality symbol with an equality symbol, then graph the resulting line (**Boundary Line**)
-- 2 Ways to Solve :
+- 2 Ways to Solve/Graph :
 	1) Test Point : (0,0) if the inequality holds true, shade everything in that region, if false, shade everything on the other side of the line : 2x + y < 3 : 0x + 0y < 3 : 0 < 3 : True : Shade everything on the side of the line with the test point, that is the solution region
-	2) Solving for 'Y' : **Point Slope Form** : y < -2x + 3 : if you have a '<' 'less than' symbol, shade below the line, a '>' 'greater than' symbol, shade above
-- 
+	2) Solving for 'Y' : **Point Slope Form** : y < -2x + 3 : if you have a '<' 'less than' symbol, shade below the line, a '>' 'greater than' symbol, shade above (faster than using a testpoint)
+### Solving Linear Inequality: $5x - 3y \ge 15$
+
+**Goal:** Isolate $y$ to convert the inequality into a graphable form ($y \le mx + b$ or $y \ge mx + b$).
+
+**Inequality:**
+$$5x - 3y \ge 15$$
+
+---
+
+#### 1. Isolate the $y$ term
+
+*Subtract $5x$ from both sides:*
+$$-3y \ge -5x + 15$$
+
+#### 2. Solve for $y$
+
+*Divide every term by $\mathbf{-3}$.*
+
+$$\text{**CRITICAL STEP:** When multiplying or dividing an inequality by a negative number, you MUST **flip the inequality sign** ($\ge$ becomes $\le$).}$$
+
+$$\frac{-3y}{-3} \le \frac{-5x}{-3} + \frac{15}{-3}$$
+
+$$y \le \frac{5}{3}x - 5$$
+
+---
+
+#### 3. Final Solution (Graphing Form)
+
+The solution to the inequality is:
+$$\mathbf{y \le \frac{5}{3}x - 5}$$
+
+**Interpretation for Graphing:**
+* **Boundary Line:** The boundary line is $y = \frac{5}{3}x - 5$.
+    * Slope ($m$): $\frac{5}{3}$
+    * Y-intercept ($b$): $-5$
+* **Line Type:** The $\le$ symbol means the line should be **solid** (to include points on the line).
+* **Shading:** The $y \le \dots$ means you shade the region **below** the boundary line.
