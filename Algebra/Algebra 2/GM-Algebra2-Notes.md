@@ -1362,6 +1362,9 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h16m50s
 - 2 Ways to Solve/Graph :
 	1) Test Point : (0,0) if the inequality holds true, shade everything in that region, if false, shade everything on the other side of the line : 2x + y < 3 : 0x + 0y < 3 : 0 < 3 : True : Shade everything on the side of the line with the test point, that is the solution region
 	2) Solving for 'Y' : **Point Slope Form** : y < -2x + 3 : if you have a '<' 'less than' symbol, shade below the line, a '>' 'greater than' symbol, shade above (faster than using a testpoint)
+	 - Note : You can use the test point in either the **Standard Form** or **Point Slope Form** and if the test point is true, it's within the solution region, false is outside.
+- Special Case (Horizontal Line) : Y > 1 : Since x will always be zero, you get a horizontal line
+- Special Case (Vertical Line) : X $\ge$ -3 : since y will always be zero, you get a vertical line 
 ### Solving Linear Inequality: $5x - 3y \ge 15$
 
 **Goal:** Isolate $y$ to convert the inequality into a graphable form ($y \le mx + b$ or $y \ge mx + b$).
@@ -1380,7 +1383,8 @@ $$-3y \ge -5x + 15$$
 
 *Divide every term by $\mathbf{-3}$.*
 
-$$\text{**CRITICAL STEP:** When multiplying or dividing an inequality by a negative number, you MUST **flip the inequality sign** ($\ge$ becomes $\le$).}$$
+$$\text{**CRITICAL STEP:** When multiplying or dividing an inequality 
+by a negative number, you MUST **flip the inequality sign** ($\ge$ becomes $\le$).}$$
 
 $$\frac{-3y}{-3} \le \frac{-5x}{-3} + \frac{15}{-3}$$
 
