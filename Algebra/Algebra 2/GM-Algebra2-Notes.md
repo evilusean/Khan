@@ -1360,6 +1360,6 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h16m50s
 - **Non-Strict Inequality** : '$\ge$' or '$\le$' means that the boundary line IS part of the solution = **Solid Line**
 - **Graphing a Linear Inequality in Two Variables** = Siimply Replace the inequality symbol with an equality symbol, then graph the resulting line (**Boundary Line**)
 - 2 Ways to Solve :
-	1) Test Point 
-	2) Solving for 'Y'
+	1) Test Point : (0,0) if the inequality holds true, shade everything in that region, if false, shade everything on the other side of the line : 2x + y < 3 : 0x + 0y < 3 : 0 < 3 : True : Shade everything on the side of the line with the test point, that is the solution region
+	2) Solving for 'Y' : **Point Slope Form** : y < -2x + 3 : if you have a '<' 'less than' symbol, shade below the line, a '>' 'greater than' symbol, shade above
 - 
