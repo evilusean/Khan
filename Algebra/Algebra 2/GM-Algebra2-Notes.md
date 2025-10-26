@@ -1352,3 +1352,10 @@ $$\mathbf{7x + 5y = -20}$$
 $$\mathbf{x + 2y = -4}$$
 ## Algebra II - Lesson 20 - Linear Inequalities in Two Variables - 26October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h16m50s
+- $ax + by < c$ : **Standard Form** this is a linear inequality, same as linear equalities just a different sign - 'a' 'b' and 'c' are real numbers, 'a' and 'b' are not BOTH zero 
+- **Solution Region** = Any orderered pair (x, y) that satisfies the inequality
+- **Non-Solution Region** = Any orderered pair (x, y) that do not satisfy the inequality
+- **Boundary Line** = A line that seperates the solution region from the non-solution region
+- **Strict Inequality** : '<' or '>' means that the boundary line is NOT part of the solution
+- **Non-Strict Inequality** : '$\ge$' or '$\le$' means that the boundary line IS part of the solution
+- 
