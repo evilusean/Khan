@@ -1356,6 +1356,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h16m50s
 - **Solution Region** = Any orderered pair (x, y) that satisfies the inequality
 - **Non-Solution Region** = Any orderered pair (x, y) that do not satisfy the inequality
 - **Boundary Line** = A line that seperates the solution region from the non-solution region
-- **Strict Inequality** : '<' or '>' means that the boundary line is NOT part of the solution
-- **Non-Strict Inequality** : '$\ge$' or '$\le$' means that the boundary line IS part of the solution
+- **Strict Inequality** : '<' or '>' means that the boundary line is NOT part of the solution = **Dashed Line**
+- **Non-Strict Inequality** : '$\ge$' or '$\le$' means that the boundary line IS part of the solution = **Solid Line**
+- **Graphing a Linear Inequality in Two Variables** = Siimply Replace the inequality symbol with an equality symbol, then graph the resulting line (**Boundary Line**)
+- 2 Ways to Solve :
+	1) Test Point 
+	2) Solving for 'Y'
 - 
