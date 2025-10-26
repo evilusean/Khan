@@ -1403,3 +1403,59 @@ $$\mathbf{y \le \frac{5}{3}x - 5}$$
     * Y-intercept ($b$): $-5$
 * **Line Type:** The $\le$ symbol means the line should be **solid** (to include points on the line).
 * **Shading:** The $y \le \dots$ means you shade the region **below** the boundary line.
+### Solving System of Linear Inequalities (x + y < 3 AND -3x + y $\ge$ -1) 
+
+**Goal:** Graph the two inequalities to find the common shaded region.
+
+**Inequalities:**
+1.  $$x + y < 3$$
+2.  $$-3x + y \ge -1$$
+
+---
+
+#### 1. Convert Inequality 1 to Graphing Form ($y = mx + b$)
+
+$$x + y < 3$$
+*Subtract $x$ from both sides:*
+$$\mathbf{y < -x + 3}$$
+
+* **Boundary Line:** $y = -x + 3$
+* **Line Type:** **Dashed** (due to $<$ )
+* **Shading:** **Below** the line (due to $<$ )
+
+---
+
+#### 2. Convert Inequality 2 to Graphing Form ($y = mx + b$)
+
+$$-3x + y \ge -1$$
+*Add $3x$ to both sides:*
+$$\mathbf{y \ge 3x - 1}$$
+
+* **Boundary Line:** $y = 3x - 1$
+* **Line Type:** **Solid** (due to $\ge$ )
+* **Shading:** **Above** the line (due to $\ge$ )
+
+---
+
+#### 3. Find the Point of Intersection (The Corner of the Solution Region)
+
+The solution region is bounded by the intersection of the two boundary lines:
+$$y = -x + 3$$
+$$y = 3x - 1$$
+
+* **Set equations equal:**
+    $$-x + 3 = 3x - 1$$
+* **Solve for x:**
+    $$4 = 4x$$
+    $$\mathbf{x = 1}$$
+* **Solve for y (Substitute $x=1$):**
+    $$y = -(1) + 3$$
+    $$\mathbf{y = 2}$$
+
+The boundary lines intersect at the point **(1, 2)**.
+
+---
+
+#### Solution Summary
+
+The solution is the region that is **BELOW the line $y = -x + 3$** AND **ABOVE or ON the line $y = 3x - 1$**, with the corner point being **(1, 2)**.
