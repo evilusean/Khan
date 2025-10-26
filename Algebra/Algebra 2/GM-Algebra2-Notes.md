@@ -1365,6 +1365,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h16m50s
 	 - Note : You can use the test point in either the **Standard Form** or **Point Slope Form** and if the test point is true, it's within the solution region, false is outside.
 - Special Case (Horizontal Line) : Y > 1 : Since x will always be zero, you get a horizontal line
 - Special Case (Vertical Line) : X $\ge$ -3 : since y will always be zero, you get a vertical line 
+- For solving **Compound Inequalities** example : x + y < 3 AND -3x + y $\ge$ -1 (completed below) you are solving to look for the intersection of the 2 solution sets, looking for the section of the coordinate plane that is the overlap, that satisfies **BOTH** inequalities - **TO Solve** : Solve each for 'Y' using **Point Slope Form** Then Graph each, and then look for overlap
+- '**AND**' and '**OR**' the difference between these 2 keywords means : **AND** The solution is **BOTH** the inequalities. **OR** means the solution satisfies just one of the solution sets 
 ### Solving Linear Inequality: $5x - 3y \ge 15$
 
 **Goal:** Isolate $y$ to convert the inequality into a graphable form ($y \le mx + b$ or $y \ge mx + b$).
