@@ -1350,5 +1350,5 @@ $$\mathbf{7x + 5y = -20}$$
 
 **Final Equation in Standard Form:**
 $$\mathbf{x + 2y = -4}$$
-## Algebra II - Lesson 20 - Linear Inequalities in Two Variables - 25October2025 :
+## Algebra II - Lesson 20 - Linear Inequalities in Two Variables - 26October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h16m50s
