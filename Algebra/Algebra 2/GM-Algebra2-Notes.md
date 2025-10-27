@@ -1461,5 +1461,5 @@ The boundary lines intersect at the point **(1, 2)**.
 #### Solution Summary
 
 The solution is the region that is **BELOW the line $y = -x + 3$** AND **ABOVE or ON the line $y = 3x - 1$**, with the corner point being **(1, 2)**.
-## Algebra II - Lesson 21 - Introduction to Functions - 26October2025 :
+## Algebra II - Lesson 21 - Introduction to Functions - 27October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h52m15s
