@@ -1472,4 +1472,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h52m15s
 - **Domain** = **First Components** = A set of allowed values/inputs for the independant variable 'x' 
 - **Range** = **Second Components** = A set of allowable values for your dependant variable 'y'
 - **Function** = A special type of relation. Each member of the domain must correspond to EXACTLY ONE member of the range - Each 'x' value must link up to exactly one 'y' value -  IF YOU HAVE DUPLICATE "**X**" VALUES, IT IS NOT A FUNCTION, a 'Y' value can be linked to two different x values, only 'X' can't be duped
-- 
+## Algebra II - Lesson 22 - More on Functions - 27October2025 :
