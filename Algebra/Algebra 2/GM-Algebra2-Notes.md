@@ -1507,3 +1507,36 @@ The circle extends from $y = -1$ to $y = 1$.
 | :-------------- | :------------------------------------- |
 | **Set-Builder** | $$\mathbf{\{y \mid -1 \le y \le 1\}}$$ |
 | **Interval**    | $$\mathbf{[-1, 1]}$$                   |
+### 📝 The "Plus or Minus" Rule (Solving for $x^2$ or $y^2$)
+
+**The Rule:** When solving an equation by taking the square root of a **squared variable** ($x^2$ or $y^2$), you must include the $\mathbf{\pm}$ sign on the opposite side of the equation.
+
+**Example:**
+If $$y^2 = 9$$
+Then $$\sqrt{y^2} = \pm\sqrt{9}$$
+$$\mathbf{y = \pm 3}$$
+
+---
+
+#### Why the $\pm$ is Necessary (The Two Solutions)
+
+The $\pm$ sign reflects the fact that **two different numbers**, a positive one and a negative one, can be squared to yield the same positive result.
+
+| Number | Squared Result |
+| :---: | :---: |
+| **3** | $(3)^2 = 9$ |
+| **-3** | $(-3)^2 = 9$ |
+
+Since the original equation ($y^2 = 9$) does not tell you whether $y$ was positive or negative before it was squared, you must account for **both possibilities** to capture all valid solutions. If you only wrote $y = 3$, you would lose the solution $y = -3$.
+
+---
+
+#### Key Distinction: Square Root Function vs. Solving an Equation
+
+1.  **The Square Root Function ($\sqrt{x}$):**
+    * The radical symbol ($\sqrt{ }$) *always* means the **principal (non-negative) square root**.
+    * Example: $\sqrt{25}$ is only $\mathbf{5}$ (never $-5$).
+
+2.  **Solving an Equation ($y^2 = 25$):**
+    * You are performing an operation (taking the root) to **both sides** to find the unknown value $y$.
+    * You are asking: "What number(s) squared equals 25?" The answer is **both** $5$ and $-5$. You introduce the $\pm$ to represent the two possible values of $y$.
