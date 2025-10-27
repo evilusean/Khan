@@ -1467,7 +1467,9 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h52m15s
 - All functions are relations, but not all relations are functions.
 - {(0, 0), (1, 12), (12 ,24), .. (0, 450)} : What a set of ordered pairs looks like aka a Relation
 - **x** is the input variable and **y** is the output variable, the value of 'y' is dependant on the value of 'x'
-- **Dependant Variable** = Dependant on another input variable for it's value (output variable)
-- **Independant Variable** = Not dependant on another variable (input varaible)
+- **Dependant Variable** = Dependant on another input variable for it's value (output variable, 'Y')
+- **Independant Variable** = Not dependant on another variable (input varaible, 'X')
 - **Domain** = **First Components** = A set of allowed values/inputs for the independant variable 'x' 
 - **Range** = **Second Components** = A set of allowable values for your dependant variable 'y'
+- **Function** = A special type of relation. Each member of the domain must correspond to EXACTLY ONE member of the range - Each 'x' value must link up to exactly one 'y' value -  IF YOU HAVE DUPLICATE "**X**" VALUES, IT IS NOT A FUNCTION, a 'Y' value can be linked to two different x values, only 'X' can't be duped
+- 
