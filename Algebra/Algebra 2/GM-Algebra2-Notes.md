@@ -1481,7 +1481,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=9h16m20s
 - $\text{All Real Numbers: } \quad \left(-\infty, \infty\right)$ : All real numbers that can be used for the domain can be represented with $\left(-\infty, \infty\right)$ 
 - $y^2$ = x : This is not a function. 
 - $\text{Domain= } \{x \mid x \ge 0\}$ or $[0, \infty)$. Range = $\left(-\infty, \infty\right)$
-- $x^2 + y^2 = 1$ : This is not a function (It's a unit circle)
+- $x^2 + y^2 = 1$ : This is not a function (It's a unit circle) (Example below) 
+- The $\mathbf{\text{plus or minus}}$ ($\pm$) rule is used when solving an equation by taking the square root of a squared variable, ensuring you account for both the **positive** and **negative** roots, as both values squared yield the same result. (Example below)
 ### Domain and Range for the Circle $x^2 + y^2 = 1$
 
 **Description:** This equation defines a circle centered at the origin with a radius of 1.
@@ -1540,3 +1541,32 @@ Since the original equation ($y^2 = 9$) does not tell you whether $y$ was positi
 2.  **Solving an Equation ($y^2 = 25$):**
     * You are performing an operation (taking the root) to **both sides** to find the unknown value $y$.
     * You are asking: "What number(s) squared equals 25?" The answer is **both** $5$ and $-5$. You introduce the $\pm$ to represent the two possible values of $y$.
+### Domain and Range for the Reciprocal Function $y = \frac{1}{x}$ (Asymptote)
+
+**Description:** This function creates a graph called a hyperbola, which has vertical and horizontal asymptotes at the axes.
+
+---
+
+#### 1. Domain (Possible x-values)
+
+The domain is restricted because the denominator cannot be zero.
+
+* **Restriction:** $x \neq 0$
+
+| Notation | Formula |
+| :--- | :--- |
+| **Set-Builder** | $$\mathbf{\{x \mid x \neq 0\}}$$ |
+| **Interval** | $$\mathbf{(-\infty, 0) \cup (0, \infty)}$$ |
+
+---
+
+#### 2. Range (Possible y-values)
+
+The range is restricted because the numerator (1) is never zero, so the fraction can never equal zero.
+
+* **Restriction:** $y \neq 0$
+
+| Notation        | Formula                                    |
+| :-------------- | :----------------------------------------- |
+| **Set-Builder** | $$\mathbf{\{y \mid y \neq 0\}}$$           |
+| **Interval**    | $$\mathbf{(-\infty, 0) \cup (0, \infty)}$$ |
