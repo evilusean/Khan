@@ -1477,12 +1477,14 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=9h16m20s
 - **Function** = A special type of relation. Each member of the domain must correspond to EXACTLY ONE member of the range - Each 'x' value must link up to exactly one 'y' value -  IF YOU HAVE DUPLICATE "**X**" VALUES, IT IS NOT A FUNCTION, a 'Y' value can be linked to two different x values, only 'X' can't be duped - Each 'X' value can only be linked up to ONE unique 'Y' value - Different 'X' values CAN correspond to the same 'Y' value 
 - $y = 2x + 7$ : Domain = $\left(-\infty, \infty\right)$ Range = $\left(-\infty, \infty\right)$ : You can look at an equation and see if it's a function using the...
 - **Vertical Line Test** = If a vertical line on a graph touches more than 1 point, it is not a function (because 'x' can not have 2 of the same values for a given 'x' value)
+- Notes on finding the domains/ranges : You can't divide by zero, you can't take the square root of a negative number and get a real number, when we square a number the result is non-negative
 - $y =6$ : technically, this is a function, because every 'x' value has only one 'y' value
 - $\text{All Real Numbers: } \quad \left(-\infty, \infty\right)$ : All real numbers that can be used for the domain can be represented with $\left(-\infty, \infty\right)$ 
 - $y^2$ = x : This is not a function. 
 - $\text{Domain= } \{x \mid x \ge 0\}$ or $[0, \infty)$. Range = $\left(-\infty, \infty\right)$
 - $x^2 + y^2 = 1$ : This is not a function (It's a unit circle) (Example below) 
 - The $\mathbf{\text{plus or minus}}$ ($\pm$) rule is used when solving an equation by taking the square root of a squared variable, ensuring you account for both the **positive** and **negative** roots, as both values squared yield the same result. (Example below)
+- $y = \frac{1}{x}$ : This is a function. (also an asymptote) (Example Below)
 ### Domain and Range for the Circle $x^2 + y^2 = 1$
 
 **Description:** This equation defines a circle centered at the origin with a radius of 1.
@@ -1553,10 +1555,10 @@ The domain is restricted because the denominator cannot be zero.
 
 * **Restriction:** $x \neq 0$
 
-| Notation | Formula |
-| :--- | :--- |
-| **Set-Builder** | $$\mathbf{\{x \mid x \neq 0\}}$$ |
-| **Interval** | $$\mathbf{(-\infty, 0) \cup (0, \infty)}$$ |
+| Notation        | Formula                                    |
+| :-------------- | :----------------------------------------- |
+| **Set-Builder** | $$\mathbf{\{x \mid x \neq 0\}}$$           |
+| **Interval**    | $$\mathbf{(-\infty, 0) \cup (0, \infty)}$$ |
 
 ---
 
