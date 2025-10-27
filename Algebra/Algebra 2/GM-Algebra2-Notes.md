@@ -1471,6 +1471,11 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h52m15s
 - **Independant Variable** = Not dependant on another variable (input varaible, 'X')
 - **Domain** = **First Components** = A set of allowed values/inputs for the independant variable 'x' 
 - **Range** = **Second Components** = A set of allowable values for your dependant variable 'y'
-- **Function** = A special type of relation. Each member of the domain must correspond to EXACTLY ONE member of the range - Each 'x' value must link up to exactly one 'y' value -  IF YOU HAVE DUPLICATE "**X**" VALUES, IT IS NOT A FUNCTION, a 'Y' value can be linked to two different x values, only 'X' can't be duped
+- **Function** = A special type of relation. Each member of the domain must correspond to EXACTLY ONE member of the range - Each 'x' value must link up to exactly one 'y' value -  IF YOU HAVE DUPLICATE "**X**" VALUES, IT IS NOT A FUNCTION, a 'Y' value can be linked to two different x values, only 'X' can't be duped - Each 'X' value can only be linked up to ONE unique 'Y' value - Different 'X' values CAN correspond to the same 'Y' value 
 ## Algebra II - Lesson 22 - More on Functions - 27October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=9h16m20s
+- **Function** = A special type of relation. Each member of the domain must correspond to EXACTLY ONE member of the range - Each 'x' value must link up to exactly one 'y' value -  IF YOU HAVE DUPLICATE "**X**" VALUES, IT IS NOT A FUNCTION, a 'Y' value can be linked to two different x values, only 'X' can't be duped - Each 'X' value can only be linked up to ONE unique 'Y' value - Different 'X' values CAN correspond to the same 'Y' value 
+- $y = 2x + 7$ : You can look at an equation and see if it's a function using the...
+- **Vertical Line Test** = If a vertical line on a graph touches more than 1 point, it is not a function (because 'x' can not have 2 of the same values for a given 'x' value)
+- $y =6$ : technically, this is a function, because every 'x' value has only one 'y' value
+- 
