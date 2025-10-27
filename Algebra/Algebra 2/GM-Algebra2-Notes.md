@@ -1463,3 +1463,11 @@ The boundary lines intersect at the point **(1, 2)**.
 The solution is the region that is **BELOW the line $y = -x + 3$** AND **ABOVE or ON the line $y = 3x - 1$**, with the corner point being **(1, 2)**.
 ## Algebra II - Lesson 21 - Introduction to Functions - 27October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=8h52m15s
+- **Relation** = A set of ordered pairs - it is useful in mathematics to describe one quantity with it's RELATION to another
+- All functions are relations, but not all relations are functions.
+- {(0, 0), (1, 12), (12 ,24), .. (0, 450)} : What a set of ordered pairs looks like aka a Relation
+- **x** is the input variable and **y** is the output variable, the value of 'y' is dependant on the value of 'x'
+- **Dependant Variable** = Dependant on another input variable for it's value (output variable)
+- **Independant Variable** = Not dependant on another variable (input varaible)
+- **Domain** = **First Components** = A set of allowed values/inputs for the independant variable 'x' 
+- **Range** = **Second Components** = A set of allowable values for your dependant variable 'y'
