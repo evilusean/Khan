@@ -1481,3 +1481,29 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=9h16m20s
 - $\text{All Real Numbers: } \quad \left(-\infty, \infty\right)$ : All real numbers that can be used for the domain can be represented with $\left(-\infty, \infty\right)$ 
 - $y^2$ = x : This is not a function. 
 - $\text{Domain= } \{x \mid x \ge 0\}$ or $[0, \infty)$. Range = $\left(-\infty, \infty\right)$
+- $x^2 + y^2 = 1$ : This is not a function (It's a unit circle)
+### Domain and Range for the Circle $x^2 + y^2 = 1$
+
+**Description:** This equation defines a circle centered at the origin with a radius of 1.
+
+---
+
+#### 1. Domain (Possible x-values)
+
+The circle extends from $x = -1$ to $x = 1$.
+
+| Notation | Formula |
+| :--- | :--- |
+| **Set-Builder** | $$\mathbf{\{x \mid -1 \le x \le 1\}}$$ |
+| **Interval** | $$\mathbf{[-1, 1]}$$ |
+
+---
+
+#### 2. Range (Possible y-values)
+
+The circle extends from $y = -1$ to $y = 1$.
+
+| Notation        | Formula                                |
+| :-------------- | :------------------------------------- |
+| **Set-Builder** | $$\mathbf{\{y \mid -1 \le y \le 1\}}$$ |
+| **Interval**    | $$\mathbf{[-1, 1]}$$                   |
