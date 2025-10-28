@@ -1678,3 +1678,56 @@ $$-5 \cdot (-2z) = \mathbf{+10z}$$
 $$-5 \cdot (+1) = -5$$
 
 So, the $\mathbf{-2z}$ is the middle term generated when you expand $(z-1)^2$ before the $-5$ is distributed.
+### 📝 Implicit Function Evaluation
+
+**Given Implicit Equation:**
+$$x^4 - x^2 + 2y = 10$$
+
+**Goal:** Find $f(0)$, $f(-2)$, and $f(5)$.
+
+---
+
+#### 1. Convert to Explicit Function $f(x)$
+
+*Isolate $y$ by subtracting $x^4$ and $-x^2$ from both sides:*
+$$2y = 10 - x^4 + x^2$$
+
+*Divide every term by 2:*
+$$y = \frac{10}{2} - \frac{x^4}{2} + \frac{x^2}{2}$$
+
+**Explicit Function ($f(x)$):**
+$$\mathbf{f(x) = 5 - \frac{1}{2}x^4 + \frac{1}{2}x^2}$$
+
+---
+
+#### 2. Evaluate $f(0)$
+
+*Substitute $x = 0$ into the function:*
+$$f(0) = 5 - \frac{1}{2}(0)^4 + \frac{1}{2}(0)^2$$
+$$f(0) = 5 - 0 + 0$$
+$$\mathbf{f(0) = 5}$$
+
+---
+
+#### 3. Evaluate $f(-2)$
+
+*Substitute $x = -2$ into the function:*
+$$f(-2) = 5 - \frac{1}{2}(-2)^4 + \frac{1}{2}(-2)^2$$
+$$f(-2) = 5 - \frac{1}{2}(16) + \frac{1}{2}(4)$$
+$$f(-2) = 5 - 8 + 2$$
+$$\mathbf{f(-2) = -1}$$
+
+---
+
+#### 4. Evaluate $f(5)$
+
+*Substitute $x = 5$ into the function:*
+$$f(5) = 5 - \frac{1}{2}(5)^4 + \frac{1}{2}(5)^2$$
+$$f(5) = 5 - \frac{1}{2}(625) + \frac{1}{2}(25)$$
+$$f(5) = 5 - \frac{625}{2} + \frac{25}{2}$$
+
+*Combine the fractions (common denominator of 2):*
+$$f(5) = \frac{10}{2} - \frac{625}{2} + \frac{25}{2}$$
+$$f(5) = \frac{10 - 625 + 25}{2}$$
+$$f(5) = \frac{-590}{2}$$
+$$\mathbf{f(5) = -295}$$
