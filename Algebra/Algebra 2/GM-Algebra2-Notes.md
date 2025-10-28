@@ -1590,7 +1590,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=9h49m45s
 - **Explicit Form** = A function is in explicit form when it is solved for the dependant variable: $y = f(x) = 3x - 5$ 
 - **Implicit Form** = When the function is not solved for the dependant variable, we say it's in implicit form : $-5 = -3x + y$ 
 - **Implicit Differentation** = It means that the function is NOT solved for 'y' - just solve for 'y' to get it back to **Explicit Form** then solve for $f(x)$ after 
-- 
+- *()* = Use Parenthesis when substituting values, it will stop you from making mistakes
 ### 📝 Function Evaluation: $f(z - 1)$
 
 **Given Function:**
@@ -1731,3 +1731,4 @@ $$f(5) = \frac{10}{2} - \frac{625}{2} + \frac{25}{2}$$
 $$f(5) = \frac{10 - 625 + 25}{2}$$
 $$f(5) = \frac{-590}{2}$$
 $$\mathbf{f(5) = -295}$$
+## Algebra II - Lesson 24 - Variation - 28October2025 :
