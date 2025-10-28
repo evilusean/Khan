@@ -1580,4 +1580,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=9h49m45s
 - eventually you move on from the above two examples where 'y'(dependant) gets it's value from 'x'(strong, independant) to 'f(x)' which does the same thing as 'y = x + c'
 - **f, g, h** = functions are generally named with these letters **f(x), g(x), h(x)**
 - **f(x)** = means a *function* of *x*
+- $y = x^4 -3x + 7$ is the same thing as $f(x) = x^4 -3x + 7$ 
+- $f(2)$ = simply means what is the value when the function is 2, just plug 2 in for x and solve.
+- $f(a)$ = you can also use variables, doesn't change anything, just changing letter :
+  $f(x) = 3x -1$ : $f(a) = 3a -1$   
+- $f(a + 2)$ = 3(a + 2) - 1  : 
+  f(a + 2) = 3a + 6 -1 : 3a +5 
 - 
