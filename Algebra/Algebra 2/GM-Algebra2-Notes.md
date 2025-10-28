@@ -1575,3 +1575,9 @@ The range is restricted because the numerator (1) is never zero, so the fraction
 
 ## Algebra II - Lesson 23 - Function Notation - 28October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=9h49m45s
+- $y = x + 3$ is a function
+- $y = x^2 - 5$ is a function
+- eventually you move on from the above two examples where 'y'(dependant) gets it's value from 'x'(strong, independant) to 'f(x)' which does the same thing as 'y = x + c'
+- **f, g, h** = functions are generally named with these letters **f(x), g(x), h(x)**
+- **f(x)** = means a *function* of *x*
+- 
