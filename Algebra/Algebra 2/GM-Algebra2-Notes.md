@@ -1746,6 +1746,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h13m
   2) rewrite the equation with the known value for 'k'
   3) substitute what is give and solve
 ### 💰 Joint Variation Problem: Simple Interest
+**Problem:** For a given principal, the amount of simple interest earned varies jointly with rate and time. If $9000 was earned after 6 years at 3% annual simple interest, how much would be earned after 10 years at 12% annual simple interest?
 
 **Variation Model:**
 $$\mathbf{I = Prt}$$$$\mathbf{I = krt}$$
@@ -1787,6 +1788,8 @@ $$\mathbf{I_2 = 60,000}$$
 
 The amount that would be earned after 10 years at 12% annual simple interest is **\$60,000**.
 ### 🚗 Inverse Variation Problem: Speed and Time
+
+**Problem:** Over a given distance, speed varies inversely with time. If a car travels a set distance in 10 hours going 110 mph, what speed is needed to go the same distance in 4 hours?
 
 **Model:** Speed ($r$) varies inversely with Time ($t$).
 $$\mathbf{rt = k} \quad \text{or} \quad \mathbf{r_1 t_1 = r_2 t_2}$$
