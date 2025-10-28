@@ -1733,3 +1733,10 @@ $$f(5) = \frac{-590}{2}$$
 $$\mathbf{f(5) = -295}$$
 ## Algebra II - Lesson 24 - Variation - 28October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h13m
+- **Direct Variation** : $y = kx$ : 'y' varies directly with(as) 'x' if there exists a real number 'k' such that $y = kx$ :
+- 'k' = ~~konstant~~ **Constant of Variation** = **Constant of Proportionality**(samething) =  doesn't change  - if 'k > 0' as 'x' increase, y increases - as 'x' decreases, 'y' decreases
+- $y = 2x$ : this is a Direct Variation, if 'x' goes up, so does 'y'
+- $y = mx + b$ : this is also a Direct Variation (if 'b' y intercept is 0 and slope is 2, literally the same as above)
+- **Direct Variation as a Power** : $y = kx^n$ : y varies directly with the 'n'th power of x if there exists a real number 'k' such that : $y = kx^n$
+- **Inverse Variation** : $\mathbf{y = \frac{k}{x}}$ : For inverse variation, 'y' depends on some constant value 'k', divided by 'x'
+- 
