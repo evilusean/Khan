@@ -1574,3 +1574,4 @@ The range is restricted because the numerator (1) is never zero, so the fraction
 | **Interval**    | $$\mathbf{(-\infty, 0) \cup (0, \infty)}$$ |
 
 ## Algebra II - Lesson 23 - Function Notation - 28October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=9h49m45s
