@@ -1586,4 +1586,52 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=9h49m45s
   $f(x) = 3x -1$ : $f(a) = 3a -1$   
 - $f(a + 2)$ = 3(a + 2) - 1  : 
   f(a + 2) = 3a + 6 -1 : 3a +5 
-- 
+### 📝 Function Evaluation: $f(z - 1)$
+
+**Given Function:**
+$$f(x) = -5x^2 - 3x - 7$$
+
+**Goal:** Evaluate $f(z - 1)$.
+
+---
+
+#### 1. Substitute $(z - 1)$ for $x$
+
+$$f(z - 1) = -5(z - 1)^2 - 3(z - 1) - 7$$
+
+---
+
+#### 2. Expand the Squared Term
+
+*Use the formula for squaring a binomial: $(a - b)^2 = a^2 - 2ab + b^2$*
+$$(z - 1)^2 = z^2 - 2(z)(1) + 1^2 = z^2 - 2z + 1$$
+
+*Substitute this back into the expression:*
+$$f(z - 1) = -5(z^2 - 2z + 1) - 3(z - 1) - 7$$
+
+---
+
+#### 3. Distribute the Coefficients
+
+*Distribute $-5$ into the first parentheses.*
+*Distribute $-3$ into the second parentheses.*
+
+$$f(z - 1) = (-5z^2 + 10z - 5) + (-3z + 3) - 7$$
+
+---
+
+#### 4. Combine Like Terms
+
+*Group terms by the power of z:*
+
+$$\text{z}^2 \text{ terms: } \quad -5z^2$$
+$$\text{z terms: } \quad 10z - 3z = 7z$$
+$$\text{Constant terms: } \quad -5 + 3 - 7 = -2 - 7 = -9$$
+
+---
+
+#### 5. Final Simplified Function
+
+*Combine the simplified terms:*
+
+$$\mathbf{f(z - 1) = -5z^2 + 7z - 9}$$
