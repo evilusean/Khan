@@ -1586,6 +1586,11 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=9h49m45s
   $f(x) = 3x -1$ : $f(a) = 3a -1$   
 - $f(a + 2)$ = 3(a + 2) - 1  : 
   f(a + 2) = 3a + 6 -1 : 3a +5 
+- Squaring a binomial means multiplying it by itself $(z -1)^2$ isn't $(z^2 - 1^2)$ It's $(z-1)(z-1)$
+- **Explicit Form** = A function is in explicit form when it is solved for the dependant variable: $y = f(x) = 3x - 5$ 
+- **Implicit Form** = When the function is not solved for the dependant variable, we say it's in implicit form : $-5 = -3x + y$ 
+- **Implicit Differentation** = It means that the function is NOT solved for 'y' - just solve for 'y' to get it back to **Explicit Form** then solve for $f(x)$ after 
+- 
 ### 📝 Function Evaluation: $f(z - 1)$
 
 **Given Function:**
