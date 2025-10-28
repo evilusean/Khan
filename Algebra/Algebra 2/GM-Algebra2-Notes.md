@@ -1572,3 +1572,5 @@ The range is restricted because the numerator (1) is never zero, so the fraction
 | :-------------- | :----------------------------------------- |
 | **Set-Builder** | $$\mathbf{\{y \mid y \neq 0\}}$$           |
 | **Interval**    | $$\mathbf{(-\infty, 0) \cup (0, \infty)}$$ |
+
+## Algebra II - Lesson 23 - Function Notation - 28October2025 :
