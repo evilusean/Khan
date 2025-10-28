@@ -1748,7 +1748,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h13m
 ### 💰 Joint Variation Problem: Simple Interest
 
 **Variation Model:**
-$$\mathbf{I = krt}$$
+$$\mathbf{I = Prt}$$$$\mathbf{I = krt}$$
 *Where $I$ is Interest, $r$ is Rate, $t$ is Time, and $k$ is the constant (Principal).*
 
 ---
@@ -1786,3 +1786,42 @@ $$\mathbf{I_2 = 60,000}$$
 #### 3. Final Answer
 
 The amount that would be earned after 10 years at 12% annual simple interest is **\$60,000**.
+### 🚗 Inverse Variation Problem: Speed and Time
+
+**Model:** Speed ($r$) varies inversely with Time ($t$).
+$$\mathbf{rt = k} \quad \text{or} \quad \mathbf{r_1 t_1 = r_2 t_2}$$
+*(Where $k$ is the constant distance, $d$)*
+
+---
+
+#### 1. Use the First Scenario to Find the Constant ($k$)
+
+**Given Scenario 1 ($r_1, t_1$):**
+* Time ($t_1$): $10$ hours
+* Speed ($r_1$): $110$ mph
+
+*Calculate the constant $k$ (the distance):*
+$$k = r_1 t_1$$
+$$k = (110 \text{ mph}) \cdot (10 \text{ hours})$$
+$$\mathbf{k = 1100} \quad \text{(miles)}$$
+
+---
+
+#### 2. Use the Constant ($k$) and the Second Scenario to Find the New Speed ($r_2$)
+
+**Given Scenario 2 ($r_2, t_2$):**
+* Distance ($k$): $1100$ miles
+* Time ($t_2$): $4$ hours
+* Speed ($r_2$): **Unknown**
+
+*Use the formula to solve for $r_2$:*
+$$r_2 t_2 = k$$
+$$r_2 \cdot (4) = 1100$$
+$$r_2 = \frac{1100}{4}$$
+$$\mathbf{r_2 = 275}$$
+
+---
+
+#### 3. Final Answer
+
+The speed needed to go the same distance in 4 hours is **275 mph**.
