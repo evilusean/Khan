@@ -1635,3 +1635,41 @@ $$\text{Constant terms: } \quad -5 + 3 - 7 = -2 - 7 = -9$$
 *Combine the simplified terms:*
 
 $$\mathbf{f(z - 1) = -5z^2 + 7z - 9}$$
+### 📝 Explanation: Where Does -2z Come From in $(z - 1)^2$?
+
+The error in thinking is often that $(a-b)^2 = a^2 - b^2$, but that is **INCORRECT**.
+
+#### 1. The Correct Way to Square a Binomial
+
+Squaring a binomial means multiplying it by itself:
+$$(z - 1)^2 \quad \text{is the same as} \quad (z - 1)(z - 1)$$
+
+#### 2. Using the FOIL Method
+
+You must multiply every term in the first parentheses by every term in the second:
+
+$$\mathbf{F} (\text{First}): \quad z \cdot z = z^2$$
+$$\mathbf{O} (\text{Outer}): \quad z \cdot (-1) = -z$$
+$$\mathbf{I} (\text{Inner}): \quad -1 \cdot z = -z$$
+$$\mathbf{L} (\text{Last}): \quad -1 \cdot (-1) = +1$$
+
+#### 3. Combining Like Terms
+
+When you add the four resulting terms together, you get:
+$$z^2 \quad \underbrace{-z - z}_{\text{These are the z-terms!}} \quad + 1$$
+
+$$\mathbf{(z - 1)^2 = z^2 - 2z + 1}$$
+
+---
+
+#### Where your specific term comes from:
+
+In your full problem, you had $-5$ multiplied by this result:
+$$-5(z^2 - 2z + 1)$$
+
+When you distribute the $-5$:
+$$-5 \cdot z^2 = -5z^2$$
+$$-5 \cdot (-2z) = \mathbf{+10z}$$
+$$-5 \cdot (+1) = -5$$
+
+So, the $\mathbf{-2z}$ is the middle term generated when you expand $(z-1)^2$ before the $-5$ is distributed.
