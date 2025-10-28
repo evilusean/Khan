@@ -1732,3 +1732,4 @@ $$f(5) = \frac{10 - 625 + 25}{2}$$
 $$f(5) = \frac{-590}{2}$$
 $$\mathbf{f(5) = -295}$$
 ## Algebra II - Lesson 24 - Variation - 28October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h13m
