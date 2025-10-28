@@ -1733,10 +1733,56 @@ $$f(5) = \frac{-590}{2}$$
 $$\mathbf{f(5) = -295}$$
 ## Algebra II - Lesson 24 - Variation - 28October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h13m
-- **Direct Variation** : $y = kx$ : 'y' varies directly with(as) 'x' if there exists a real number 'k' such that $y = kx$ :
+- **Direct Variation** : $y = kx$ : 'y' varies directly with(as) 'x' if there exists a real number 'k' such that $y = kx$ : to find 'k', simply divide 'y' by 'x'
 - 'k' = ~~konstant~~ **Constant of Variation** = **Constant of Proportionality**(samething) =  doesn't change  - if 'k > 0' as 'x' increase, y increases - as 'x' decreases, 'y' decreases
 - $y = 2x$ : this is a Direct Variation, if 'x' goes up, so does 'y'
 - $y = mx + b$ : this is also a Direct Variation (if 'b' y intercept is 0 and slope is 2, literally the same as above)
 - **Direct Variation as a Power** : $y = kx^n$ : y varies directly with the 'n'th power of x if there exists a real number 'k' such that : $y = kx^n$
-- **Inverse Variation** : $\mathbf{y = \frac{k}{x}}$ : For inverse variation, 'y' depends on some constant value 'k', divided by 'x'
-- 
+- **Inverse Variation** : $\mathbf{y = \frac{k}{x}}$ : For inverse variation, 'y' depends on some constant value 'k', divided by 'x' - We can use our distance formula as an example. Think about using distance as a constant, time now varies inversely with the rate : $\mathbf{d = r t}$ : $\mathbf{r = \frac{d}{t}}$ : $\mathbf{t = \frac{d}{r}}$ - if you increase 'x', then 'y' will decrease, they are inversely related. 
+- **Inverse Variation as a Power** : $\mathbf{y = \frac{k}{x^n}}$ : Same as above, just more power. (raised to a power on 'x' independant variable)
+- **Joint Variation** : $y = kxz$ : This occurs with the product of two or more variables, sometimes raised to powers - same difficulty, just more tedious -  'y' varies directly from 'x' and 'z' if there is a constant 'k' such that $y = kxz$
+- **Solving Variation Problems** :
+  1) Start by finding the value for 'k'
+  2) rewrite the equation with the known value for 'k'
+  3) substitute what is give and solve
+### 💰 Joint Variation Problem: Simple Interest
+
+**Variation Model:**
+$$\mathbf{I = krt}$$
+*Where $I$ is Interest, $r$ is Rate, $t$ is Time, and $k$ is the constant (Principal).*
+
+---
+
+#### 1. Use the First Scenario to Find the Constant ($k$)
+
+**Given:** $I_1 = \$9000$, $t_1 = 6$ years, $r_1 = 3\% = 0.03$.
+
+*Substitute the values into the formula:*
+$$9000 = k \cdot (0.03) \cdot (6)$$
+$$9000 = k \cdot (0.18)$$
+
+*Solve for the constant $k$ (the Principal):*
+$$k = \frac{9000}{0.18}$$
+$$\mathbf{k = 50,000}$$
+
+*The constant of variation ($k$) is $\mathbf{\$50,000}$ (the principal amount).*
+
+---
+
+#### 2. Use the Constant ($k$) and the Second Scenario to Find the New Interest ($I_2$)
+
+**Given:** $k = 50,000$, $t_2 = 10$ years, $r_2 = 12\% = 0.12$.
+
+*Use the formula again with the new values:*
+$$I_2 = k \cdot r_2 \cdot t_2$$
+$$I_2 = 50000 \cdot (0.12) \cdot (10)$$
+
+*Multiply the terms:*
+$$I_2 = 50000 \cdot (1.20)$$
+$$\mathbf{I_2 = 60,000}$$
+
+---
+
+#### 3. Final Answer
+
+The amount that would be earned after 10 years at 12% annual simple interest is **\$60,000**.
