@@ -1838,7 +1838,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h35m20s
 - One Solution = The two lines intersect at one and only one point - The system is consistent and the equations are independant
 ## Algebra II - Lesson 26 - Solving Systems of Linear Equations by Substitituion - 29October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h54m5s
-- Solving Linear Systems in two variables with sunstitution :
+- **Solving Linear Systems in two variables with Substitution** :
   1) Solve one of the equations for one of the variables
   2) Substitute for that variable in the other equation
 - Substitution works best when you have a coefficient for one of the variables that is a '1' or '-1'
@@ -2184,3 +2184,13 @@ $$y = \frac{-x}{-2} - \frac{4}{-2}$$
 $$\mathbf{\left\{(x, y) \mid y = \frac{1}{2}x + 2\right\}}$$
 ## Algebra II - Lesson 27 - Solving Systems of Linear Equations by Elimination - 29October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=11h27m45s
+- Use elimination when you have one pair of variable terms as opposites like (-5x, 5x) or (-10y, 10y)
+- eliminate one of the variables from the system so you have a 1 variable equation that you can solve, which you can then plug back in to one of the original equations and solve for the other variable
+- **Standard Form** : $ax + by = c$ : 'a', 'b', and 'c' are real numbers, and both 'a' and 'b' can not be 0
+- **Solving Linear Systems in two Variables with Elimination** :
+  1) place both equations in $ax + by = c$ : **Standard Form** 
+  2) Transform one or both equations in a way that one pair on variable terms are opposites
+  3) Add the left sides and set this equal to the sum of the right sides - you will have found the value of one the variables through this step
+  4) Solve the resulting equation and find the other unknown using substitution
+  5) Check the result: plug in 'x' and 'y' in both original equations - for you to have a solution for a system, it must work in both equations
+- 
