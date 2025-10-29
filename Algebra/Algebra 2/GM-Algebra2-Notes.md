@@ -1837,3 +1837,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h35m20s
   2) Infinite Number of Solutions : Same Line (always touch - same slope) - The equation is dependant
 - One Solution = The two lines intersect at one and only one point - The system is consistent and the equations are independant
 ## Algebra II - Lesson 26 - Solving Systems of Linear Equations by Substitituion - 29October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h54m5s
