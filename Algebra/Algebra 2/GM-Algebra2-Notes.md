@@ -1828,3 +1828,4 @@ $$\mathbf{r_2 = 275}$$
 #### 3. Final Answer
 
 The speed needed to go the same distance in 4 hours is **275 mph**.
+## Algebra II - Lesson 25 - Solving Systems of Linear Equations by Graphing - 28October2025 :
