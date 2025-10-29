@@ -2127,3 +2127,58 @@ $$\mathbf{x = -8}$$
 
 The solution is the ordered pair $\mathbf{(x, y)}$.
 $$\mathbf{(-8, 5)}$$
+### 💡 Solving System of Equations by Substitution ($-4x + 8y = 16$ and $x - 2y = -4$)
+
+**Given Equations:**
+1.  $$\mathbf{-4x + 8y = 16}$$
+2.  $$\mathbf{x - 2y = -4}$$
+
+---
+
+#### 1. Isolate a Variable in One Equation
+
+*Solve Equation 2 for $\mathbf{x}$.* (This is the easiest variable to isolate.)
+$$x - 2y = -4$$
+*Add $2y$ to both sides:*
+$$\mathbf{x = 2y - 4} \quad \text{(Eq. 3)}$$
+
+---
+
+#### 2. Substitute the Expression into the Other Equation
+
+*Substitute the expression for $\mathbf{x}$ (from Eq. 3) into Equation 1.*
+$$-4\mathbf{(2y - 4)} + 8y = 16$$
+
+---
+
+#### 3. Solve the New Equation for $y$
+
+**A. Distribute:**
+$$-8y + 16 + 8y = 16$$
+
+**B. Combine Like Terms:**
+*Combine the $y$ terms:*
+$$(-8y + 8y) + 16 = 16$$
+$$0y + 16 = 16$$
+$$16 = 16$$
+
+---
+
+#### 4. Analyze the Result
+
+The variables have been completely eliminated, and the resulting statement is a **true equality**.
+
+* **Since $\mathbf{16 = 16}$ is a true statement, the system has infinitely many solutions.** This means the two original equations represent the same line.
+
+---
+
+#### 5. Final Solution
+
+The solution set is all points $(x, y)$ that lie on the line defined by the equation. We express this by stating one of the equations solved for $y$ (Slope-Intercept Form):
+
+*Start with $x - 2y = -4$:*
+$$-2y = -x - 4$$
+$$y = \frac{-x}{-2} - \frac{4}{-2}$$
+
+**Solution Set:**
+$$\mathbf{\left\{(x, y) \mid y = \frac{1}{2}x + 2\right\}}$$
