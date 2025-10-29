@@ -1838,3 +1838,12 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h35m20s
 - One Solution = The two lines intersect at one and only one point - The system is consistent and the equations are independant
 ## Algebra II - Lesson 26 - Solving Systems of Linear Equations by Substitituion - 29October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h54m5s
+- Solving Linear Systems in two variables with sunstitution :
+  1) Solve one of the equations for one of the variables
+  2) Substitute for that variable in the other equation
+- Substitution works best when you have a coefficient for one of the variables that is a '1' or '-1'
+- You should use substitution when one of equations is in the form of 'y = ...' or 'x = ....' and you just need to plug in the known variable into the other equation, then solve for the other unknown (plug in x, solve for y with the new value(solution), find x after solving for 'y' - just typing that out sounds confusing, just be good at math, bro)
+- Plug in for the known variable in either original equation, then solve for the other unknown
+- the value you use to plug in will be part of the ordered pair, plug in '2' for 'x' and you solve for 'y' and find '7' giving you the ordered pair of (2, 7)
+- Check the result : Plug in for 'x' and 'y' in both original equations
+- 
