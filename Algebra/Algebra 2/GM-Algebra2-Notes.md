@@ -1830,3 +1830,10 @@ $$\mathbf{r_2 = 275}$$
 The speed needed to go the same distance in 4 hours is **275 mph**.
 ## Algebra II - Lesson 25 - Solving Systems of Linear Equations by Graphing - 28October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h35m20s
+- The 'Answer' for systems of equations is the **Point of intersection** where both lines touch and satisfies both equations
+- For systems of equations, you can test your ordered pair answer (x, y) by plugging in the values to BOTH linear equations and they should both give a true statement like '-3 = -3' or whatever
+- **Special Case Scenarios** :
+  1) No Solution : Parallel Lines (never touch - same slope) - The system is inconsistent 
+  2) Infinite Number of Solutions : Same Line (always touch - same slope) - The equation is dependant
+- One Solution = The two lines intersect at one and only one point - The system is consistent and the equations are independant
+- 
