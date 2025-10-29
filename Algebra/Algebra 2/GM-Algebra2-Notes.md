@@ -1900,3 +1900,59 @@ $$\mathbf{x = 5}$$
 
 The solution is the ordered pair $\mathbf{(x, y)}$.
 $$\mathbf{(5, 0)}$$
+### 💡 Solving System of Equations by Substitution (-3x + y = 9) (-7x -8y = -10)
+
+**Given Equations:**
+1.  $$\mathbf{-3x + y = 9}$$
+2.  $$\mathbf{-7x - 8y = -10}$$
+
+---
+
+#### 1. Isolate a Variable in One Equation
+
+*Solve Equation 1 for $\mathbf{y}$.*
+$$-3x + y = 9$$
+*Add $3x$ to both sides:*
+$$\mathbf{y = 3x + 9} \quad \text{(Eq. 3)}$$
+
+---
+
+#### 2. Substitute the Expression into the Other Equation
+
+*Substitute the expression for $\mathbf{y}$ (from Eq. 3) into Equation 2.*
+$$-7x - 8\mathbf{(3x + 9)} = -10$$
+
+---
+
+#### 3. Solve the New Equation for $x$
+
+**A. Distribute:**
+$$-7x - 24x - 72 = -10$$
+
+**B. Combine $x$ terms and Constants:**
+$$-31x - 72 = -10$$
+
+**C. Isolate $x$:**
+*Add 72 to both sides:*
+$$-31x = -10 + 72$$
+$$-31x = 62$$
+*Divide by -31:*
+$$x = \frac{62}{-31}$$
+$$\mathbf{x = -2}$$
+
+---
+
+#### 4. Substitute $x$ Back to Find $y$
+
+*Substitute $\mathbf{x = -2}$ back into the simplest equation, Equation 3:*
+$$y = 3x + 9$$
+$$y = 3(-2) + 9$$
+$$y = -6 + 9$$
+$$\mathbf{y = 3}$$
+
+---
+
+#### 5. Final Solution (Point of Intersection)
+
+The solution is the ordered pair $\mathbf{(x, y)}$.
+$$\mathbf{(-2, 3)}$$
