@@ -2193,4 +2193,50 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=11h27m45s
   3) Add the left sides and set this equal to the sum of the right sides - you will have found the value of one the variables through this step
   4) Solve the resulting equation and find the other unknown using substitution
   5) Check the result: plug in 'x' and 'y' in both original equations - for you to have a solution for a system, it must work in both equations
-- 
+### ❌ Solving System of Equations by Elimination ($3x - y = 5$ and $4y = 3x + 7$)
+
+**Given Equations (and Standard Form Conversion):**
+1.  $$\mathbf{3x - y = 5}$$
+2.  $$\mathbf{4y = 3x + 7} \quad \implies \quad \mathbf{-3x + 4y = 7}$$
+
+---
+
+#### 1. Prepare for Elimination
+
+*The $x$ coefficients ($3x$ and $-3x$) are already opposites.*
+*No multiplication is needed.*
+
+$$\text{Eq. 1: } \quad 3x - y = 5$$
+$$\text{Eq. 2: } \quad -3x + 4y = 7$$
+
+---
+
+#### 2. Add the Equations Together (Eliminating $x$)
+
+*Add Equation 1 and Equation 2:*
+$$\begin{array}{rcl} 3x - y &=& 5 \\ + \quad -3x + 4y &=& 7 \\ \hline 0x + 3y &=& 12 \end{array}$$
+
+#### 3. Solve for $y$
+
+$$3y = 12$$
+*Divide by 3:*
+$$\mathbf{y = 4}$$
+
+---
+
+#### 4. Substitute $y$ Back to Find $x$
+
+*Substitute $\mathbf{y = 4}$ into the simplest original equation (Equation 1):*
+$$3x - y = 5$$
+$$3x - (4) = 5$$
+$$3x = 5 + 4$$
+$$3x = 9$$
+*Divide by 3:*
+$$\mathbf{x = 3}$$
+
+---
+
+#### 5. Final Solution (Point of Intersection)
+
+The solution is the ordered pair $\mathbf{(x, y)}$.
+$$\mathbf{(3, 4)}$$
