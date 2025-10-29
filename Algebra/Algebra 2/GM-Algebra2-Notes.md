@@ -2014,3 +2014,61 @@ $$\mathbf{x = -5}$$
 
 The solution is the ordered pair $\mathbf{(x, y)}$.
 $$\mathbf{(-5, 6)}$$
+### 💡 Solving System of Equations by Substitution ($6x + 3y = -12$ and $-x + 3y = 23$)
+
+**Given Equations:**
+1.  $$\mathbf{6x + 3y = -12}$$
+2.  $$\mathbf{-x + 3y = 23}$$
+
+---
+
+#### 1. Isolate a Variable in One Equation
+
+*Solve Equation 2 for $\mathbf{x}$.* (This is done because it has a coefficient of $-1$.)
+$$-x + 3y = 23$$
+*Subtract $3y$ from both sides:*
+$$-x = -3y + 23$$
+*Multiply by $-1$ to solve for positive $x$:*
+$$\mathbf{x = 3y - 23} \quad \text{(Eq. 3)}$$
+
+---
+
+#### 2. Substitute the Expression into the Other Equation
+
+*Substitute the expression for $\mathbf{x}$ (from Eq. 3) into Equation 1.*
+$$6\mathbf{(3y - 23)} + 3y = -12$$
+
+---
+
+#### 3. Solve the New Equation for $y$
+
+**A. Distribute:**
+$$18y - 138 + 3y = -12$$
+
+**B. Combine $y$ terms and Constants:**
+$$21y - 138 = -12$$
+
+**C. Isolate $y$:**
+*Add 138 to both sides:*
+$$21y = -12 + 138$$
+$$21y = 126$$
+*Divide by 21:*
+$$y = \frac{126}{21}$$
+$$\mathbf{y = 6}$$
+
+---
+
+#### 4. Substitute $y$ Back to Find $x$
+
+*Substitute $\mathbf{y = 6}$ back into the simplest equation, Equation 3:*
+$$x = 3y - 23$$
+$$x = 3(6) - 23$$
+$$x = 18 - 23$$
+$$\mathbf{x = -5}$$
+
+---
+
+#### 5. Final Solution (Point of Intersection)
+
+The solution is the ordered pair $\mathbf{(x, y)}$.
+$$\mathbf{(-5, 6)}$$
