@@ -1846,4 +1846,57 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h54m5s
 - Plug in for the known variable in either original equation, then solve for the other unknown
 - the value you use to plug in will be part of the ordered pair, plug in '2' for 'x' and you solve for 'y' and find '7' giving you the ordered pair of (2, 7)
 - Check the result : Plug in for 'x' and 'y' in both original equations
-- 
+### 💡 Solving System of Equations by Substitution (x+y = 5) (-2x -5y = 10)
+
+**Given Equations:**
+1.  $$\mathbf{x + y = 5}$$
+2.  $$\mathbf{-2x - 5y = -10}$$
+
+---
+
+#### 1. Isolate a Variable in One Equation
+
+*Solve Equation 1 for $\mathbf{x}$.* (This is the easiest variable to isolate.)
+$$x + y = 5$$
+*Subtract $y$ from both sides:*
+$$\mathbf{x = 5 - y} \quad \text{(Eq. 3)}$$
+
+---
+
+#### 2. Substitute the Expression into the Other Equation
+
+*Substitute the expression for $\mathbf{x}$ (from Eq. 3) into Equation 2.*
+$$-2x - 5y = -10$$
+$$-2\mathbf{(5 - y)} - 5y = -10$$
+
+---
+
+#### 3. Solve the New Equation for $y$
+
+**A. Distribute:**
+$$-10 + 2y - 5y = -10$$
+
+**B. Combine $y$ terms and Constants:**
+$$-10 - 3y = -10$$
+
+**C. Isolate $y$:**
+*Add 10 to both sides:*
+$$-3y = -10 + 10$$
+$$-3y = 0$$
+$$\mathbf{y = 0}$$
+
+---
+
+#### 4. Substitute $y$ Back to Find $x$
+
+*Substitute $\mathbf{y = 0}$ back into the simplest equation, Equation 3:*
+$$x = 5 - y$$
+$$x = 5 - (0)$$
+$$\mathbf{x = 5}$$
+
+---
+
+#### 5. Final Solution (Point of Intersection)
+
+The solution is the ordered pair $\mathbf{(x, y)}$.
+$$\mathbf{(5, 0)}$$
