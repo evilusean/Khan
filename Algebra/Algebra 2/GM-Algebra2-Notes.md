@@ -2070,3 +2070,60 @@ The variables have been completely eliminated, and the resulting statement is **
 **Final Conclusion:**
 The system is **inconsistent**, meaning the lines are parallel and never intersect.
 $$\mathbf{\text{No Solution}}$$
+### 💡 Solving System of Equations by Substitution ($-2x - 2y = 6$ and $4x + 6y = -2$)
+
+**Given Equations:**
+1.  $$\mathbf{-2x - 2y = 6}$$
+2.  $$\mathbf{4x + 6y = -2}$$
+
+---
+
+#### 1. Isolate a Variable in One Equation
+
+*Solve Equation 1 for $\mathbf{x}$.* (This is the easiest to isolate since all terms are divisible by $-2$).
+$$-2x - 2y = 6$$
+*Divide every term by $-2$:*
+$$x + y = -3$$
+*Solve for $x$:*
+$$\mathbf{x = -y - 3} \quad \text{(Eq. 3)}$$
+
+---
+
+#### 2. Substitute the Expression into the Other Equation
+
+*Substitute the expression for $\mathbf{x}$ (from Eq. 3) into Equation 2.*
+$$4\mathbf{(-y - 3)} + 6y = -2$$
+
+---
+
+#### 3. Solve the New Equation for $y$
+
+**A. Distribute:**
+$$-4y - 12 + 6y = -2$$
+
+**B. Combine $y$ terms and Constants:**
+$$2y - 12 = -2$$
+
+**C. Isolate $y$:**
+*Add 12 to both sides:*
+$$2y = -2 + 12$$
+$$2y = 10$$
+*Divide by 2:*
+$$\mathbf{y = 5}$$
+
+---
+
+#### 4. Substitute $y$ Back to Find $x$
+
+*Substitute $\mathbf{y = 5}$ back into the simplest equation, Equation 3:*
+$$x = -y - 3$$
+$$x = -(5) - 3$$
+$$x = -8$$
+$$\mathbf{x = -8}$$
+
+---
+
+#### 5. Final Solution (Point of Intersection)
+
+The solution is the ordered pair $\mathbf{(x, y)}$.
+$$\mathbf{(-8, 5)}$$
