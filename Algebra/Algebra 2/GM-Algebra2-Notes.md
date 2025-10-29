@@ -1845,7 +1845,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=10h54m5s
 - You should use substitution when one of equations is in the form of 'y = ...' or 'x = ....' and you just need to plug in the known variable into the other equation, then solve for the other unknown (plug in x, solve for y with the new value(solution), find x after solving for 'y' - just typing that out sounds confusing, just be good at math, bro)
 - Plug in for the known variable in either original equation, then solve for the other unknown
 - the value you use to plug in will be part of the ordered pair, plug in '2' for 'x' and you solve for 'y' and find '7' giving you the ordered pair of (2, 7)
-- Check the result : Plug in for 'x' and 'y' in both original equations
+- Check the result : Plug in for 'x' and 'y' in both original equations and make sure that both sides of the equations are balanced '12 = 12' or whatever
 ### 💡 Solving System of Equations by Substitution (x+y = 5) (-2x -5y = 10)
 
 **Given Equations:**
@@ -2014,61 +2014,59 @@ $$\mathbf{x = -5}$$
 
 The solution is the ordered pair $\mathbf{(x, y)}$.
 $$\mathbf{(-5, 6)}$$
-### 💡 Solving System of Equations by Substitution ($6x + 3y = -12$ and $-x + 3y = 23$)
+
+### 💡 Solving System of Equations by Substitution ($6x - 21y = 2$ and $-2x + 7y = 1$)
 
 **Given Equations:**
-1.  $$\mathbf{6x + 3y = -12}$$
-2.  $$\mathbf{-x + 3y = 23}$$
+1.  $$\mathbf{6x - 21y = 2}$$
+2.  $$\mathbf{-2x + 7y = 1}$$
 
 ---
 
 #### 1. Isolate a Variable in One Equation
 
-*Solve Equation 2 for $\mathbf{x}$.* (This is done because it has a coefficient of $-1$.)
-$$-x + 3y = 23$$
-*Subtract $3y$ from both sides:*
-$$-x = -3y + 23$$
-*Multiply by $-1$ to solve for positive $x$:*
-$$\mathbf{x = 3y - 23} \quad \text{(Eq. 3)}$$
+*Solve Equation 2 for $\mathbf{x}$ to avoid dealing with fractions early on.*
+
+$$-2x + 7y = 1$$
+*Subtract $7y$ from both sides:*
+$$-2x = -7y + 1$$
+*Divide by $-2$:*
+$$x = \frac{-7y}{-2} + \frac{1}{-2}$$
+$$\mathbf{x = \frac{7}{2}y - \frac{1}{2}} \quad \text{(Eq. 3)}$$
 
 ---
 
 #### 2. Substitute the Expression into the Other Equation
 
 *Substitute the expression for $\mathbf{x}$ (from Eq. 3) into Equation 1.*
-$$6\mathbf{(3y - 23)} + 3y = -12$$
+$$6\mathbf{\left(\frac{7}{2}y - \frac{1}{2}\right)} - 21y = 2$$
 
 ---
 
 #### 3. Solve the New Equation for $y$
 
 **A. Distribute:**
-$$18y - 138 + 3y = -12$$
+*Distribute the $6$ to both terms in the parentheses.*
+$$\left(6 \cdot \frac{7}{2}y\right) - \left(6 \cdot \frac{1}{2}\right) - 21y = 2$$
+$$\left(3 \cdot 7y\right) - 3 - 21y = 2$$
+$$21y - 3 - 21y = 2$$
 
-**B. Combine $y$ terms and Constants:**
-$$21y - 138 = -12$$
-
-**C. Isolate $y$:**
-*Add 138 to both sides:*
-$$21y = -12 + 138$$
-$$21y = 126$$
-*Divide by 21:*
-$$y = \frac{126}{21}$$
-$$\mathbf{y = 6}$$
+**B. Combine Like Terms:**
+*Combine the $y$ terms:*
+$$(21y - 21y) - 3 = 2$$
+$$0 - 3 = 2$$
+$$-3 = 2$$
 
 ---
 
-#### 4. Substitute $y$ Back to Find $x$
+#### 4. Analyze the Result
 
-*Substitute $\mathbf{y = 6}$ back into the simplest equation, Equation 3:*
-$$x = 3y - 23$$
-$$x = 3(6) - 23$$
-$$x = 18 - 23$$
-$$\mathbf{x = -5}$$
+The variables have been completely eliminated, and the resulting statement is **false**.
+
+* **Since $\mathbf{-3 = 2}$ is a contradiction, there is NO solution that satisfies both equations.**
 
 ---
 
-#### 5. Final Solution (Point of Intersection)
-
-The solution is the ordered pair $\mathbf{(x, y)}$.
-$$\mathbf{(-5, 6)}$$
+**Final Conclusion:**
+The system is **inconsistent**, meaning the lines are parallel and never intersect.
+$$\mathbf{\text{No Solution}}$$
