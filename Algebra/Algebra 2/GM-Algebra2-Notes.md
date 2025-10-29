@@ -2182,3 +2182,4 @@ $$y = \frac{-x}{-2} - \frac{4}{-2}$$
 
 **Solution Set:**
 $$\mathbf{\left\{(x, y) \mid y = \frac{1}{2}x + 2\right\}}$$
+## Algebra II - Lesson 27 - Solving Systems of Linear Equations by Elimination - 29October2025 :
