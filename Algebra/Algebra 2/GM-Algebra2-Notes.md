@@ -2193,6 +2193,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=11h27m45s
   3) Add the left sides and set this equal to the sum of the right sides - you will have found the value of one the variables through this step
   4) Solve the resulting equation and find the other unknown using substitution
   5) Check the result: plug in 'x' and 'y' in both original equations - for you to have a solution for a system, it must work in both equations
+- when you add the terms from the first equation to the second equation, technically, you are performing the same action on both sides, because $ax + by = c$  the '=' sign means you are adding the same thing to both sides
 ### ❌ Solving System of Equations by Elimination ($3x - y = 5$ and $4y = 3x + 7$)
 
 **Given Equations (and Standard Form Conversion):**
@@ -2240,3 +2241,52 @@ $$\mathbf{x = 3}$$
 
 The solution is the ordered pair $\mathbf{(x, y)}$.
 $$\mathbf{(3, 4)}$$
+### ❌ Solving System of Equations by Elimination ($-5x - 6y = 13$ and $-7 + x = -6y$)
+
+**Given Equations (and Standard Form Conversion):**
+1.  $$\mathbf{-5x - 6y = 13}$$
+2.  $$\mathbf{-7 + x = -6y} \quad \implies \quad \mathbf{x + 6y = 7}$$
+
+---
+
+#### 1. Prepare for Elimination
+
+*The $y$ coefficients ($-6y$ and $+6y$) are already opposites.*
+*No multiplication is needed.*
+
+$$\text{Eq. 1: } \quad -5x - 6y = 13$$
+$$\text{Eq. 2: } \quad x + 6y = 7$$
+
+---
+
+#### 2. Add the Equations Together (Eliminating $y$)
+
+*Add Equation 1 and Equation 2:*
+$$\begin{array}{rcl} -5x - 6y &=& 13 \\ + \quad x + 6y &=& 7 \\ \hline -4x + 0y &=& 20 \end{array}$$
+
+#### 3. Solve for $x$
+
+$$-4x = 20$$
+*Divide by $-4$:*
+$$x = \frac{20}{-4}$$
+$$\mathbf{x = -5}$$
+
+---
+
+#### 4. Substitute $x$ Back to Find $y$
+
+*Substitute $\mathbf{x = -5}$ into the simplest original equation (the rearranged Equation 2):*
+$$x + 6y = 7$$
+$$-5 + 6y = 7$$
+*Add 5 to both sides:*
+$$6y = 7 + 5$$
+$$6y = 12$$
+*Divide by 6:*
+$$\mathbf{y = 2}$$
+
+---
+
+#### 5. Final Solution (Point of Intersection)
+
+The solution is the ordered pair $\mathbf{(x, y)}$.
+$$\mathbf{(-5, 2)}$$
