@@ -2336,3 +2336,66 @@ $$\mathbf{y = 1}$$
 
 The solution is the ordered pair $\mathbf{(x, y)}$.
 $$\mathbf{(3, 1)}$$
+### ❌ Solving System of Equations by Elimination ($-3 = 3y + 3x$ and $\frac{7y}{4} = x + \frac{15}{4}$)
+
+**Given Equations (and Standard Form Conversion):**
+1.  $$-3 = 3y + 3x \quad \implies \quad \mathbf{-3x - 3y = -3} \quad \text{(Eq. 1')}$$
+2.  $$\frac{7y}{4} = x + \frac{15}{4}$$
+
+*Clear fractions in Eq. 2 by multiplying by 4:*
+$$4 \cdot \left(\frac{7y}{4}\right) = 4 \cdot (x) + 4 \cdot \left(\frac{15}{4}\right)$$
+$$7y = 4x + 15$$
+
+*Rearrange to Standard Form:*
+$$\mathbf{-4x + 7y = 15} \quad \text{(Eq. 2')}$$
+
+---
+
+#### 1. Prepare for Elimination (Eliminating $x$)
+
+*We will eliminate $x$. The $x$ coefficients are $-3$ and $-4$. The Least Common Multiple is $12$.*
+
+*Multiply Eq. 1' by $\mathbf{4}$:*
+$$4(-3x - 3y = -3) \quad \implies \quad \mathbf{-12x - 12y = -12} \quad \text{(Eq. 3)}$$
+
+*Multiply Eq. 2' by $\mathbf{-3}$:*
+$$-3(-4x + 7y = 15) \quad \implies \quad \mathbf{12x - 21y = -45} \quad \text{(Eq. 4)}$$
+
+---
+
+#### 2. Add the Equations Together (Eliminating $x$)
+
+*Add Equation 3 and Equation 4:*
+$$\begin{array}{rcl} -12x - 12y &=& -12 \\ + \quad 12x - 21y &=& -45 \\ \hline 0x - 33y &=& -57 \end{array}$$
+
+#### 3. Solve for $y$
+
+$$-33y = -57$$
+*Divide by $-33$ and simplify the fraction (divide numerator and denominator by 3):*
+$$\mathbf{y = \frac{-57}{-33} = \frac{19}{11}}$$
+
+---
+
+#### 4. Substitute $y$ Back to Find $x$
+
+*Substitute $\mathbf{y = \frac{19}{11}}$ into the simplest rearranged equation (Eq. 1', $-3x - 3y = -3$):*
+$$-3x - 3\left(\frac{19}{11}\right) = -3$$
+$$-3x - \frac{57}{11} = -3$$
+
+*Isolate the $x$ term:*
+$$-3x = -3 + \frac{57}{11}$$
+*Get a common denominator for the right side ($-\frac{33}{11} + \frac{57}{11}$):*
+$$-3x = \frac{24}{11}$$
+
+*Solve for $x$ by dividing by $-3$ (which is the same as multiplying by $-\frac{1}{3}$):*
+$$x = \frac{24}{11} \cdot \left(-\frac{1}{3}\right)$$
+$$x = -\frac{8}{11}$$
+$$\mathbf{x = -\frac{8}{11}}$$
+
+---
+
+#### 5. Final Solution (Point of Intersection)
+
+The solution is the ordered pair $\mathbf{(x, y)}$.
+$$\mathbf{\left(-\frac{8}{11}, \frac{19}{11}\right)}$$
+
