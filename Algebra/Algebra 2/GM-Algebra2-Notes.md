@@ -2495,3 +2495,4 @@ $$y = 4x - 1$$
 
 $$\mathbf{\left\{(x, y) \mid y = 4x - 1\right\}}$$
 ## Algebra II - Lesson 28 - Solving Systems of Linear Equations in three Variables - 30October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=11h59m
