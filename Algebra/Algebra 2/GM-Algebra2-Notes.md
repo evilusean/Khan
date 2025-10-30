@@ -2290,3 +2290,49 @@ $$\mathbf{y = 2}$$
 
 The solution is the ordered pair $\mathbf{(x, y)}$.
 $$\mathbf{(-5, 2)}$$
+### ❌ Solving System of Equations by Elimination ($2x - 6y = 0$ and $-5x - 3y = -18$)
+
+**Given Equations:**
+1.  $$\mathbf{2x - 6y = 0}$$
+2.  $$\mathbf{-5x - 3y = -18}$$
+
+---
+
+#### 1. Prepare for Elimination (Eliminating $y$)
+
+*Multiply Equation 2 by $\mathbf{-2}$ so the $y$ coefficients become opposites ($-6y$ and $+6y$).*
+
+$$\text{-2} \cdot (-5x - 3y = -18) \quad \implies \quad \mathbf{10x + 6y = 36} \quad \text{(Eq. 3)}$$
+
+---
+
+#### 2. Add the Equations Together (Eliminating $y$)
+
+*Add Equation 1 and the new Equation 3:*
+$$\begin{array}{rcl} 2x - 6y &=& 0 \\ + \quad 10x + 6y &=& 36 \\ \hline 12x + 0y &=& 36 \end{array}$$
+
+#### 3. Solve for $x$
+
+$$12x = 36$$
+*Divide by 12:*
+$$\mathbf{x = 3}$$
+
+---
+
+#### 4. Substitute $x$ Back to Find $y$
+
+*Substitute $\mathbf{x = 3}$ into the simplest original equation (Equation 1):*
+$$2x - 6y = 0$$
+$$2(3) - 6y = 0$$
+$$6 - 6y = 0$$
+*Subtract 6 from both sides:*
+$$-6y = -6$$
+*Divide by $-6$:*
+$$\mathbf{y = 1}$$
+
+---
+
+#### 5. Final Solution (Point of Intersection)
+
+The solution is the ordered pair $\mathbf{(x, y)}$.
+$$\mathbf{(3, 1)}$$
