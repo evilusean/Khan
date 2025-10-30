@@ -2194,6 +2194,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=11h27m45s
   4) Solve the resulting equation and find the other unknown using substitution
   5) Check the result: plug in 'x' and 'y' in both original equations - for you to have a solution for a system, it must work in both equations
 - when you add the terms from the first equation to the second equation, technically, you are performing the same action on both sides, because $ax + by = c$  the '=' sign means you are adding the same thing to both sides
+- When the variables are eliminated : the statement is true = infinitely many solutions - the statement is false = no solution
 ### ❌ Solving System of Equations by Elimination ($3x - y = 5$ and $4y = 3x + 7$)
 
 **Given Equations (and Standard Form Conversion):**
@@ -2399,3 +2400,48 @@ $$\mathbf{x = -\frac{8}{11}}$$
 The solution is the ordered pair $\mathbf{(x, y)}$.
 $$\mathbf{\left(-\frac{8}{11}, \frac{19}{11}\right)}$$
 
+
+
+### ❌ Solving System of Equations by Elimination ($14y + 21x = -14$ and $-3x = 5 + 2y$)
+
+**Given Equations (and Standard Form Conversion):**
+1.  $$14y + 21x = -14$$
+    *Rearrange and simplify by dividing all terms by 7:*
+    $$21x + 14y = -14 \quad \implies \quad \mathbf{3x + 2y = -2} \quad \text{(Eq. 1')}$$
+2.  $$-3x = 5 + 2y$$
+    *Rearrange to Standard Form:*
+    $$\mathbf{-3x - 2y = 5} \quad \text{(Eq. 2')}$$
+
+---
+
+#### 1. Prepare for Elimination
+
+*The $x$ coefficients ($3x$ and $-3x$) are opposites.*
+*The $y$ coefficients ($2y$ and $-2y$) are also opposites.*
+*No multiplication is needed.*
+
+$$\text{Eq. 1': } \quad 3x + 2y = -2$$
+$$\text{Eq. 2': } \quad -3x - 2y = 5$$
+
+---
+
+#### 2. Add the Equations Together (Eliminating Both Variables)
+
+*Add Equation 1' and Equation 2':*
+$$\begin{array}{rcl} 3x + 2y &=& -2 \\ + \quad -3x - 2y &=& 5 \\ \hline 0x + 0y &=& 3 \end{array}$$
+
+#### 3. Analyze the Result
+
+The variables have all been eliminated, leaving a simple constant equation:
+$$0 = 3$$
+
+* **Since the statement $\mathbf{0 = 3}$ is false (a contradiction), there is NO solution that satisfies both equations simultaneously.**
+
+---
+
+#### 4. Conclusion
+
+This system is **inconsistent**. The two lines are **parallel** (they have the same slope but different $y$-intercepts) and therefore never intersect.
+
+**Final Solution:**
+$$\mathbf{\text{No Solution}}$$
