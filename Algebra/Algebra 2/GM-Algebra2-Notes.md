@@ -2445,3 +2445,52 @@ This system is **inconsistent**. The two lines are **parallel** (they have the s
 
 **Final Solution:**
 $$\mathbf{\text{No Solution}}$$
+### ❌ Solving System of Equations by Elimination ($32x - 8 = 8y$ and $-30y = -120x + 30$)
+
+**Given Equations (and Standard Form Conversion):**
+1.  $$32x - 8 = 8y$$
+    *Rearrange to Standard Form and simplify by dividing by 8:*
+    $$32x - 8y = 8 \quad \implies \quad \mathbf{4x - y = 1} \quad \text{(Eq. 1')}$$
+2.  $$-30y = -120x + 30$$
+    *Rearrange to Standard Form and simplify by dividing by $-30$:*
+    $$120x - 30y = 30 \quad \implies \quad \mathbf{-4x + y = -1} \quad \text{(Eq. 2')}$$
+
+---
+
+#### 1. Prepare for Elimination
+
+*The $x$ coefficients ($4x$ and $-4x$) are already opposites.*
+*The $y$ coefficients ($-y$ and $+y$) are also already opposites.*
+*No multiplication is needed.*
+
+$$\text{Eq. 1': } \quad 4x - y = 1$$
+$$\text{Eq. 2': } \quad -4x + y = -1$$
+
+---
+
+#### 2. Add the Equations Together (Eliminating Both Variables)
+
+*Add Equation 1' and Equation 2':*
+$$\begin{array}{rcl} 4x - y &=& 1 \\ + \quad -4x + y &=& -1 \\ \hline 0x + 0y &=& 0 \end{array}$$
+
+#### 3. Analyze the Result
+
+The variables have all been eliminated, leaving a simple constant equation:
+$$0 = 0$$
+
+* **Since the statement $\mathbf{0 = 0}$ is a true equality, the system has infinitely many solutions.** This means the two original equations represent the same line.
+
+---
+
+#### 4. Conclusion
+
+This system is **dependent** and consistent. The two lines coincide.
+
+**Final Solution:**
+The solution set is all points $(x, y)$ that lie on the line defined by the equation. We express this by stating one of the equations solved for $y$ (Slope-Intercept Form, using Eq. 1'):
+
+$$4x - y = 1$$
+$$-y = -4x + 1$$
+$$y = 4x - 1$$
+
+$$\mathbf{\left\{(x, y) \mid y = 4x - 1\right\}}$$
