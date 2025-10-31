@@ -2812,3 +2812,46 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=12h37m40s
   2) Assign a variable to represent each unknown.
   3) Write a system of equations
   4) Solve the system and check (you can't have -7 passengers, answer should be reasonable)
+### 🎭 Fall Musical Ticket Problem Solution
+
+#### 1. Initial Problem
+Beth's school sold **12 senior** and **16 child** tickets for **$336** (Day 1).
+They sold **15 senior** and **11 child** tickets for **$312** (Day 2).
+Find the price of a senior ticket ($s$) and a child ticket ($c$).
+
+#### 2. System of Equations
+Let $s$ = senior ticket price, $c$ = child ticket price.
+
+Equation 1 (Day 1): $12s + 16c = 336$
+Equation 2 (Day 2): $15s + 11c = 312$
+
+#### 3. Solving by Elimination
+To eliminate $s$, multiply Eq 1 by 5 and Eq 2 by -4 (LCM of 12 and 15 is 60).
+
+(Eq 1) $\times 5: \quad 60s + 80c = 1680$
+(Eq 2) $\times -4: -60s - 44c = -1248$
+$$
+\begin{array}{rcl}
+(60s + 80c) + (-60s - 44c) &=& 1680 + (-1248) \\
+36c &=& 432 \\
+c &=& \frac{432}{36} \\
+\mathbf{c} &=& \mathbf{12}
+\end{array}
+$$
+
+#### 4. Solving for $s$
+Substitute $c=12$ into Equation 1:
+$$
+\begin{array}{rcl}
+12s + 16(12) &=& 336 \\
+12s + 192 &=& 336 \\
+12s &=& 336 - 192 \\
+12s &=& 144 \\
+s &=& \frac{144}{12} \\
+\mathbf{s} &=& \mathbf{12}
+\end{array}
+$$
+
+#### 5. Final Answer
+**Senior Ticket Price ($s$):** \$12
+**Child Ticket Price ($c$):** \$12
