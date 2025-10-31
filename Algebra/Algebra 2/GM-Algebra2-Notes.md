@@ -3016,5 +3016,5 @@ $$
 |   **C.D.** ($C$)    |   **$3,000**    |
 | **Bond Fund** ($B$) |   **$38,000**   |
 |      **TOTAL**      |   **$86,000**   |
-## Algebra II - Lesson 30 - Solving Linear Systems in two Variables using Matrix Methods - 31Oct2025 :
+## Algebra II - Lesson 30 - Solving Linear Systems in two Variables using Matrix Methods(Gaussian Elimination) - 31Oct2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=13h17m30s
