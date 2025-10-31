@@ -3016,3 +3016,4 @@ $$
 |   **C.D.** ($C$)    |   **$3,000**    |
 | **Bond Fund** ($B$) |   **$38,000**   |
 |      **TOTAL**      |   **$86,000**   |
+## Algebra II - Lesson 30 - Solving Linear Systems in two Variables using Matrix Methods - 31Oct2025 :
