@@ -2812,46 +2812,56 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=12h37m40s
   2) Assign a variable to represent each unknown.
   3) Write a system of equations
   4) Solve the system and check (you can't have -7 passengers, answer should be reasonable)
-### 🎭 Fall Musical Ticket Problem Solution
+### 🎭 Fall Musical Ticket Problem Solution (Substitution Method)
 
 #### 1. Initial Problem
-Beth's school sold **12 senior** and **16 child** tickets for **$336** (Day 1).
-They sold **15 senior** and **11 child** tickets for **$312** (Day 2).
-Find the price of a senior ticket ($s$) and a child ticket ($c$).
+Beth's school sold **16 child** ($x$) and **12 senior** ($y$) tickets for **$336** (Day 1).
+They sold **11 child** ($x$) and **15 senior** ($y$) tickets for **$312** (Day 2).
+Find the price of a child ticket ($x$) and a senior ticket ($y$).
 
-#### 2. System of Equations
-Let $s$ = senior ticket price, $c$ = child ticket price.
+#### 2. System of Equations (Revised Variables)
+Equation 1 (Day 1): $16x + 12y = 336$
+Equation 2 (Day 2): $11x + 15y = 312$
 
-Equation 1 (Day 1): $12s + 16c = 336$
-Equation 2 (Day 2): $15s + 11c = 312$
-
-#### 3. Solving by Elimination
-To eliminate $s$, multiply Eq 1 by 5 and Eq 2 by -4 (LCM of 12 and 15 is 60).
-
-(Eq 1) $\times 5: \quad 60s + 80c = 1680$
-(Eq 2) $\times -4: -60s - 44c = -1248$
+#### 3. Solve Equation 1 for $y$
+Isolate $y$ in Equation 1:
 $$
 \begin{array}{rcl}
-(60s + 80c) + (-60s - 44c) &=& 1680 + (-1248) \\
-36c &=& 432 \\
-c &=& \frac{432}{36} \\
-\mathbf{c} &=& \mathbf{12}
+16x + 12y &=& 336 \\
+12y &=& 336 - 16x \\
+y &=& \frac{336 - 16x}{12} \\
+y &=& \frac{336}{12} - \frac{16x}{12} \\
+\mathbf{y} &=& \mathbf{28 - \frac{4}{3}x} \quad \text{(Equation 3)}
 \end{array}
 $$
 
-#### 4. Solving for $s$
-Substitute $c=12$ into Equation 1:
+#### 4. Solve for $x$ (Child Ticket Price)
+Substitute Equation 3 into Equation 2:
 $$
 \begin{array}{rcl}
-12s + 16(12) &=& 336 \\
-12s + 192 &=& 336 \\
-12s &=& 336 - 192 \\
-12s &=& 144 \\
-s &=& \frac{144}{12} \\
-\mathbf{s} &=& \mathbf{12}
+11x + 15y &=& 312 \\
+11x + 15\left(28 - \frac{4}{3}x\right) &=& 312 \\
+11x + (15 \times 28) - (15 \times \frac{4}{3}x) &=& 312 \\
+11x + 420 - 20x &=& 312 \\
+-9x &=& 312 - 420 \\
+-9x &=& -108 \\
+x &=& \frac{-108}{-9} \\
+\mathbf{x} &=& \mathbf{12}
 \end{array}
 $$
 
-#### 5. Final Answer
-**Senior Ticket Price ($s$):** \$12
-**Child Ticket Price ($c$):** \$12
+#### 5. Solve for $y$ (Senior Ticket Price)
+Substitute $x=12$ back into Equation 3:
+$$
+\begin{array}{rcl}
+y &=& 28 - \frac{4}{3}x \\
+y &=& 28 - \frac{4}{3}(12) \\
+y &=& 28 - 4(4) \\
+y &=& 28 - 16 \\
+\mathbf{y} &=& \mathbf{12}
+\end{array}
+$$
+
+#### 6. Final Answer
+**Child Ticket Price ($x$):** \$12
+**Senior Ticket Price ($y$):** \$12
