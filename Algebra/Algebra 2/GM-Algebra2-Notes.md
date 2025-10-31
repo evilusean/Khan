@@ -2496,3 +2496,12 @@ $$y = 4x - 1$$
 $$\mathbf{\left\{(x, y) \mid y = 4x - 1\right\}}$$
 ## Algebra II - Lesson 28 - Solving Systems of Linear Equations in three Variables - 30October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=11h59m
+- **Ordered Triple** : $ax + by +cz = k$ : 'a' 'b' 'c' and 'k' are real numbers, and 'a' 'b' 'c' are not all zero at the same time
+- $(x,y,z)$ : - 4x +2y -3z = -14 : (1,0,6) :  so plug in '1' for 'x' - '0' for 'y' - '6' for 'z' and you should get a true statement
+- **Solving a Linear System in three variables** : 
+  1) Write as $ax + by + cz = k$ 
+  2) Use elimination to eliminate one of the variables from any two equations
+  3) Eliminate the *same variable* from any other two equations (if you eliminated 'x', eliminate 'x' again) to get a linear equation in 2 variables
+  4) Solve the linear system in two variables, use the result to find the third unknown - once you know what two of the variables are, you can find the third unknown
+  5) Check the result in each equation : plug in for each 'x', 'y', and 'z' in each original equation
+  - 
