@@ -2745,3 +2745,62 @@ The solution is the ordered triple $(x, y, z)$.
 $$\mathbf{(-2, 2, 1)}$$
 
 ---
+### ❌ Solving an Inconsistent 3x3 System by Elimination (Eq 1: $-2x + 4y + 4z = 4$, Eq 2: $4x - 4y - 6z = -18$, Eq 3: $-5x - 2y + 4z = -2$)
+
+**System:** (Eq 1: $-2x + 4y + 4z = 4$, Eq 2: $4x - 4y - 6z = -18$, Eq 3: $-5x - 2y + 4z = -2$)
+
+**Goal:** Convert all to Standard Form ($\mathbf{Ax + By + Cz = D}$) and eliminate $y$.
+
+---
+
+#### Step 1: Convert to Standard Form and Simplify
+
+1.  $$-2x + 4y + 4z = 4 \quad \implies \quad \mathbf{-x + 2y + 2z = 2} \quad \text{(Eq. 1')}$$ (Divided by 2)
+2.  $$4x - 4y - 6z = -18 \quad \implies \quad \mathbf{2x - 2y - 3z = -9} \quad \text{(Eq. 2')}$$ (Divided by 2)
+3.  $$-5x - 2y + 4z = -2 \quad \implies \quad \mathbf{-5x - 2y + 4z = -2} \quad \text{(Eq. 3')}$$
+
+---
+
+#### Step 2: Create a Simplified 2x2 System (Eliminate $y$)
+
+**Pair A: Eliminate $y$ from Eq. 1' and Eq. 2'**
+*The $y$ coefficients ($2y$ and $-2y$) are already opposites.*
+*Add the two equations directly:*
+$$\begin{array}{rcl} -x + 2y + 2z &=& 2 \\ + \quad 2x - 2y - 3z &=& -9 \\ \hline x + 0y - z &=& -7 \end{array}$$
+$$\mathbf{x - z = -7} \quad \text{(Eq. 4)}$$
+
+**Pair B: Eliminate $y$ from Eq. 2' and Eq. 3'**
+*The $y$ coefficients ($-2y$ and $-2y$) are the same. Add them after multiplying Eq. 3' by $\mathbf{-1}$.*
+*Multiply Eq. 3' by $\mathbf{-1}$:*
+$$-1 \cdot (-5x - 2y + 4z = -2) \quad \implies \quad 5x + 2y - 4z = 2$$
+*Add the modified Eq. 3' and Eq. 2':*
+$$\begin{array}{rcl} 2x - 2y - 3z &=& -9 \\ + \quad 5x + 2y - 4z &=& 2 \\ \hline 7x + 0y - 7z &=& -7 \end{array}$$
+*Simplify by dividing by $7$:*
+$$\mathbf{x - z = -1} \quad \text{(Eq. 5)}$$
+
+---
+
+#### Step 3: Solve the New 2x2 System (Eq. 4 and Eq. 5)
+
+*The new system contains only $x$ and $z$:*
+$$\text{4: } \quad \mathbf{x - z = -7}$$
+$$\text{5: } \quad \mathbf{x - z = -1}$$
+
+*Subtract Eq. 5 from Eq. 4:*
+$$\begin{array}{rcl} x - z &=& -7 \\ - \quad (x - z) &=& -(-1) \\ \hline 0x + 0z &=& -6 \end{array}$$
+
+*The resulting statement is:*
+$$0 = -6$$
+
+---
+
+#### Step 4: Analyze the Result
+
+* **Since the statement $\mathbf{0 = -6}$ is false (a contradiction), there is NO solution that satisfies all three equations simultaneously.**
+
+---
+
+#### Final Conclusion
+
+This system is **inconsistent**.
+$$\mathbf{\text{No Solution}}$$
