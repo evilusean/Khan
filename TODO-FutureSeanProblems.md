@@ -3,5 +3,5 @@ Study factoring polynomials with coefficients
 Study adding/subtracting rational expressions
 Practice Motion word problems (if a train leaves at.... going...) d=rt
 Practice Set Notation + Set Builder Notation
-
+Solving Systems of Linear Equations in three Variables
 

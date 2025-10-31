@@ -2663,5 +2663,3 @@ The solution is the ordered triple $(x, y, z)$.
 $$\mathbf{\left(-1, \frac{4}{3}, \frac{2}{3}\right)}$$
 
 ---
-
-Would you like the notes for the last remaining linear function problem: finding the equation of the line **parallel** to $y = -\frac{7}{5}x + 3$ and passing through $(-5, 3)$?
