@@ -2865,3 +2865,47 @@ $$
 #### 6. Final Answer
 **Child Ticket Price ($x$):** \$12
 **Senior Ticket Price ($y$):** \$12
+### 🌊 Boat and Current Problem Solution
+
+#### 1. Variables and Equations
+This problem uses the formula **Distance = Rate × Time ($d = rt$)**.
+
+* Let **$x$** = Speed of the boat in still water (mph).
+* Let **$y$** = Speed of the current (mph).
+
+| Direction | Rate ($r$) | Time ($t$) | Distance ($d$) | Equation |
+| :---: | :---: | :---: | :---: | :---: |
+| **Downstream** | $x + y$ | 3 hours | 45 miles | $3(x + y) = 45$ |
+| **Upstream** | $x - y$ | 5 hours | 45 miles | $5(x - y) = 45$ |
+
+#### 2. Simplified System of Equations
+Divide by the time to simplify the rates:
+
+* **Eq. 1 (Downstream):** $\frac{3(x + y)}{3} = \frac{45}{3} \implies \mathbf{x + y = 15}$
+* **Eq. 2 (Upstream):** $\frac{5(x - y)}{5} = \frac{45}{5} \implies \mathbf{x - y = 9}$
+
+#### 3. Solving for $x$ (Boat Speed)
+Use the **Elimination Method** by adding the two simplified equations:
+$$
+\begin{array}{rcl}
+(x + y) + (x - y) &=& 15 + 9 \\
+2x &=& 24 \\
+x &=& \frac{24}{2} \\
+\mathbf{x} &=& \mathbf{12}
+\end{array}
+$$
+
+#### 4. Solving for $y$ (Current Speed)
+Substitute $x=12$ back into the simplified Equation 1:
+$$
+\begin{array}{rcl}
+x + y &=& 15 \\
+12 + y &=& 15 \\
+y &=& 15 - 12 \\
+\mathbf{y} &=& \mathbf{3}
+\end{array}
+$$
+
+#### 5. Final Answer
+* **Speed of the boat in still water ($x$):** **12 mph**
+* **Speed of the current ($y$):** **3 mph**
