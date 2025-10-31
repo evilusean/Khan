@@ -2663,3 +2663,85 @@ The solution is the ordered triple $(x, y, z)$.
 $$\mathbf{\left(-1, \frac{4}{3}, \frac{2}{3}\right)}$$
 
 ---
+### 🧠 Solving a 3x3 System by Elimination (Eq 1: $-x + 4y - 6z = 4$, Eq 2: $-4x - 5z = 3$, Eq 3: $x + 6y + 2z = 12$)
+
+**System:** (Eq 1: $-x + 4y - 6z = 4$, Eq 2: $-4x - 5z = 3$, Eq 3: $x + 6y + 2z = 12$)
+
+**Goal:** Convert all to Standard Form ($\mathbf{Ax + By + Cz = D}$) and eliminate $y$.
+
+---
+
+#### Step 1: Convert to Standard Form
+
+1.  $$-x + 4y - 6z = 4 \quad \implies \quad \mathbf{-x + 4y - 6z = 4} \quad \text{(Eq. 1')}$$
+2.  $$-4x = 5z + 3 \quad \implies \quad \mathbf{-4x + 0y - 5z = 3} \quad \text{(Eq. 2')}$$
+3.  $$6y + 2z = -x + 12 \quad \implies \quad \mathbf{x + 6y + 2z = 12} \quad \text{(Eq. 3')}$$
+
+---
+
+#### Step 2: Create a Simplified 2x2 System (Eliminate $y$)
+
+*Since Eq. 2' already has $0y$, we only need to eliminate $y$ from Eq. 1' and Eq. 3'. The LCM of $4y$ and $6y$ is $12y$.*
+
+**Eliminate $y$ from Eq. 1' and Eq. 3'**
+
+*Multiply Eq. 1' by $\mathbf{3}$:*
+$$3 \cdot (-x + 4y - 6z = 4) \quad \implies \quad -3x + 12y - 18z = 12$$
+
+*Multiply Eq. 3' by $\mathbf{-2}$ to get $-12y$ (opposite of $12y$):*
+$$-2 \cdot (x + 6y + 2z = 12) \quad \implies \quad -2x - 12y - 4z = -24$$
+
+*Add the two modified equations:*
+$$\begin{array}{rcl} -3x + 12y - 18z &=& 12 \\ + \quad -2x - 12y - 4z &=& -24 \\ \hline -5x + 0y - 22z &=& -12 \end{array}$$
+$$\mathbf{-5x - 22z = -12} \quad \text{(Eq. 4)}$$
+
+---
+
+#### Step 3: Solve the New 2x2 System (Eq. 2' and Eq. 4)
+
+*The new system is:*
+$$\text{2': } \quad \mathbf{-4x - 5z = 3}$$
+$$\text{4: } \quad \mathbf{-5x - 22z = -12}$$
+
+*Eliminate $x$. Multiply Eq. 2' by $\mathbf{5}$ and Eq. 4 by $\mathbf{-4}$ (LCM is $20$):*
+
+$$5 \cdot (-4x - 5z = 3) \quad \implies \quad -20x - 25z = 15$$
+$$-4 \cdot (-5x - 22z = -12) \quad \implies \quad 20x + 88z = 48$$
+
+*Add the two modified equations:*
+$$\begin{array}{rcl} -20x - 25z &=& 15 \\ + \quad 20x + 88z &=& 48 \\ \hline 0x + 63z &=& 63 \end{array}$$
+
+*Solve for $z$:*
+$$63z = 63$$
+$$\mathbf{z = 1}$$
+
+---
+
+#### Step 4: Back-Substitute to Find $x$
+
+*Substitute $\mathbf{z = 1}$ into the simplest 2x2 equation (Eq. 2'):*
+$$-4x - 5z = 3$$
+$$-4x - 5(1) = 3$$
+$$-4x - 5 = 3$$
+$$-4x = 8$$
+$$\mathbf{x = -2}$$
+
+---
+
+#### Step 5: Back-Substitute to Find $y$
+
+*Substitute $\mathbf{x = -2}$ and $\mathbf{z = 1}$ into the simplest original equation (Eq. 3'):*
+$$x + 6y + 2z = 12$$
+$$(-2) + 6y + 2(1) = 12$$
+$$-2 + 6y + 2 = 12$$
+$$6y = 12$$
+$$\mathbf{y = 2}$$
+
+---
+
+#### Final Solution
+
+The solution is the ordered triple $(x, y, z)$.
+$$\mathbf{(-2, 2, 1)}$$
+
+---
