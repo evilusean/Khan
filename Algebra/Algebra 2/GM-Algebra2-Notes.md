@@ -2805,3 +2805,4 @@ $$0 = -6$$
 This system is **inconsistent**.
 $$\mathbf{\text{No Solution}}$$
 ## Algebra II - Lesson 29 - Applications of Linear Systems - 31October2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=12h37m40s
