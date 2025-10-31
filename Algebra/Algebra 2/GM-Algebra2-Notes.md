@@ -2504,4 +2504,76 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=11h59m
   3) Eliminate the *same variable* from any other two equations (if you eliminated 'x', eliminate 'x' again) to get a linear equation in 2 variables
   4) Solve the linear system in two variables, use the result to find the third unknown - once you know what two of the variables are, you can find the third unknown
   5) Check the result in each equation : plug in for each 'x', 'y', and 'z' in each original equation
-  - 
+### 🧠 Solving a 3x3 System by Elimination ($-6x + 4y + z = 20$, $-2x - 6y - 5z = -22$, and $2x - 2y + 4z = 10$)
+
+**Given System:**
+1.  $$\mathbf{-6x + 4y + z = 20}$$
+2.  $$\mathbf{-2x - 6y - 5z = -22}$$
+3.  $$\mathbf{2x - 2y + 4z = 10}$$
+
+---
+
+#### Step 1: Create a Simplified 2x2 System (Eliminate $x$)
+
+**Pair A: Eliminate $x$ from Eq. 2 and Eq. 3**
+*The $x$ coefficients ($-2x$ and $2x$) are already opposites.*
+*Add the two equations directly:*
+$$\begin{array}{rcl} -2x - 6y - 5z &=& -22 \\ + \quad 2x - 2y + 4z &=& 10 \\ \hline 0x - 8y - z &=& -12 \end{array}$$
+$$\mathbf{-8y - z = -12} \quad \text{(Eq. 4)}$$
+
+**Pair B: Eliminate $x$ from Eq. 1 and Eq. 3**
+*Multiply Eq. 3 by $\mathbf{3}$ so the $x$ coefficients become opposites ($-6x$ and $6x$).*
+$$3 \cdot (2x - 2y + 4z = 10) \quad \implies \quad 6x - 6y + 12z = 30$$
+*Add the modified Eq. 3 and Eq. 1:*
+$$\begin{array}{rcl} -6x + 4y + z &=& 20 \\ + \quad 6x - 6y + 12z &=& 30 \\ \hline 0x - 2y + 13z &=& 50 \end{array}$$
+$$\mathbf{-2y + 13z = 50} \quad \text{(Eq. 5)}$$
+
+---
+
+#### Step 2: Solve the 2x2 System (Eq. 4 and Eq. 5)
+
+*The new system is:*
+4.  $$-8y - z = -12$$
+5.  $$-2y + 13z = 50$$
+
+*Eliminate $y$. Multiply Eq. 5 by $\mathbf{-4}$ to get $8y$ (opposite of $-8y$).*
+$$-4 \cdot (-2y + 13z = 50) \quad \implies \quad 8y - 52z = -200$$
+
+*Add the modified Eq. 5 and Eq. 4:*
+$$\begin{array}{rcl} -8y - z &=& -12 \\ + \quad 8y - 52z &=& -200 \\ \hline 0y - 53z &=& -212 \end{array}$$
+
+*Solve for $z$:*
+$$-53z = -212$$
+$$z = \frac{-212}{-53}$$
+$$\mathbf{z = 4}$$
+
+---
+
+#### Step 3: Back-Substitute to Find $y$
+
+*Substitute $\mathbf{z = 4}$ into the simplest 2x2 equation (Eq. 4):*
+$$-8y - z = -12$$
+$$-8y - (4) = -12$$
+$$-8y = -12 + 4$$
+$$-8y = -8$$
+$$\mathbf{y = 1}$$
+
+---
+
+#### Step 4: Back-Substitute to Find $x$
+
+*Substitute $\mathbf{y = 1}$ and $\mathbf{z = 4}$ into the simplest original equation (Eq. 3):*
+$$2x - 2y + 4z = 10$$
+$$2x - 2(1) + 4(4) = 10$$
+$$2x - 2 + 16 = 10$$
+$$2x + 14 = 10$$
+$$2x = 10 - 14$$
+$$2x = -4$$
+$$\mathbf{x = -2}$$
+
+---
+
+#### Final Solution
+
+The solution is the ordered triple $(x, y, z)$.
+$$\mathbf{(-2, 1, 4)}$$
