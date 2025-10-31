@@ -2577,3 +2577,94 @@ $$\mathbf{x = -2}$$
 
 The solution is the ordered triple $(x, y, z)$.
 $$\mathbf{(-2, 1, 4)}$$
+### 🧠 Solving a 3x3 System by Elimination ($-3x + 18y = 19 + 12z$, $-9x - 6z = -19 + 18y$, and $-6y - 12z = 2 + 18x$)
+
+**Goal:** Convert to Standard Form $\mathbf{Ax + By + Cz = D}$ and solve.
+
+---
+
+#### Step 1: Convert to Standard Form
+
+1.  $$\mathbf{-3x + 18y - 12z = 19}$$
+2.  $$-9x - 18y - 6z = -19$$
+    *Divide by $-3$ to simplify:*
+    $$\mathbf{3x + 6y + 2z = \frac{19}{3}} \quad \text{(Eq. 2')}$$
+3.  $$-18x - 6y - 12z = 2$$
+    *Divide by $-2$ to simplify:*
+    $$\mathbf{9x + 3y + 6z = -1} \quad \text{(Eq. 3')}$$
+
+---
+
+#### Step 2: Create a Simplified 2x2 System (Eliminate $x$)
+
+**Pair A: Eliminate $x$ from Eq. 1 and Eq. 2'**
+*The $x$ coefficients ($-3x$ and $3x$) are opposites.*
+*Add the two equations directly:*
+$$\begin{array}{rcl} -3x + 18y - 12z &=& 19 \\ + \quad 3x + 6y + 2z &=& \frac{19}{3} \\ \hline 0x + 24y - 10z &=& 19 + \frac{19}{3} \end{array}$$
+*Simplify the constant term: $19 + \frac{19}{3} = \frac{57}{3} + \frac{19}{3} = \frac{76}{3}$*
+$$\mathbf{24y - 10z = \frac{76}{3}} \quad \text{(Eq. 4)}$$
+
+**Pair B: Eliminate $x$ from Eq. 1 and Eq. 3'**
+*Multiply Eq. 1 by $\mathbf{-3}$ so the $x$ coefficients become opposites ($-3x \cdot -3 = 9x$, which is the opposite of $-9x$ in Eq. 3').*
+$$-3 \cdot (-3x + 18y - 12z = 19) \quad \implies \quad 9x - 54y + 36z = -57$$
+*Add the modified Eq. 1 and Eq. 3':*
+$$\begin{array}{rcl} 9x - 54y + 36z &=& -57 \\ + \quad -9x - 3y - 6z &=& 1 \\ \hline 0x - 57y + 30z &=& -56 \end{array}$$
+$$\mathbf{-57y + 30z = -56} \quad \text{(Eq. 5)}$$
+
+---
+
+#### Step 3: Solve the 2x2 System (Eq. 4 and Eq. 5)
+
+*This system is complex due to the large coefficients and fractions. We must solve for $y$ or $z$ to proceed. The Least Common Multiple for $y$ (24 and 57) is 456; the LCM for $z$ (10 and 30) is 30.*
+
+*Eliminate $z$. Multiply Eq. 4 by $\mathbf{3}$.*
+$$3 \cdot \left(24y - 10z = \frac{76}{3}\right) \quad \implies \quad \mathbf{72y - 30z = 76} \quad \text{(Eq. 6)}$$
+
+*Add Eq. 6 and Eq. 5:*
+$$\begin{array}{rcl} 72y - 30z &=& 76 \\ + \quad -57y + 30z &=& -56 \\ \hline 15y + 0z &=& 20 \end{array}$$
+
+*Solve for $y$:*
+$$15y = 20$$
+$$\mathbf{y = \frac{20}{15} = \frac{4}{3}}$$
+
+---
+
+#### Step 4: Back-Substitute to Find $z$
+
+*Substitute $\mathbf{y = \frac{4}{3}}$ into the simplest 2x2 equation (Eq. 4, without the $3$ multiplier):*
+$$24y - 10z = \frac{76}{3}$$
+$$24\left(\frac{4}{3}\right) - 10z = \frac{76}{3}$$
+$$8 \cdot 4 - 10z = \frac{76}{3}$$
+$$32 - 10z = \frac{76}{3}$$
+
+*Isolate $z$:*
+$$-10z = \frac{76}{3} - 32$$
+$$-10z = \frac{76}{3} - \frac{96}{3}$$
+$$-10z = -\frac{20}{3}$$
+
+*Divide by $-10$ (multiply by $-\frac{1}{10}$):*
+$$z = -\frac{20}{3} \cdot \left(-\frac{1}{10}\right)$$
+$$\mathbf{z = \frac{2}{3}}$$
+
+---
+
+#### Step 5: Back-Substitute to Find $x$
+
+*Substitute $\mathbf{y = \frac{4}{3}}$ and $\mathbf{z = \frac{2}{3}}$ into the simplest original equation (Eq. 2', $3x + 6y + 2z = \frac{19}{3}$):*
+$$3x + 6\left(\frac{4}{3}\right) + 2\left(\frac{2}{3}\right) = \frac{19}{3}$$
+$$3x + 2 \cdot 4 + \frac{4}{3} = \frac{19}{3}$$
+$$3x + 8 + \frac{4}{3} = \frac{19}{3}$$
+
+*Isolate $x$:*
+$$3x = \frac{19}{3} - 8 - \frac{4}{3}$$
+$$3x = \frac{15}{3} - 8$$
+$$3x = 5 - 8$$
+$$3x = -3$$
+$$\mathbf{x = -1}$$
+
+---
+
+#### Final Solution
+
+The solution is the ordered triple $(x, y, z)$.
+$$\mathbf{\left(-1, \frac{4}{3}, \frac{2}{3}\right)}$$
