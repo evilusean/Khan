@@ -2806,3 +2806,9 @@ This system is **inconsistent**.
 $$\mathbf{\text{No Solution}}$$
 ## Algebra II - Lesson 29 - Applications of Linear Systems - 31October2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=12h37m40s
+- Word Problems : you have to dig through the information, and generate a problem, then solve it,  check it. instead of just doing with it as is given - It helps if you have a procedure to guide you through doing word problems.
+- **Solving Applications of Linear Systems** :
+  1) Read the problem and determine the main objective
+  2) Assign a variable to represent each unknown.
+  3) Write a system of equations
+  4) Solve the system and check (you can't have -7 passengers, answer should be reasonable)
