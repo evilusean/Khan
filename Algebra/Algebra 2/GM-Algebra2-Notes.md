@@ -2812,6 +2812,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=12h37m40s
   2) Assign a variable to represent each unknown.
   3) Write a system of equations
   4) Solve the system and check (you can't have -7 passengers, answer should be reasonable)
+- If you have 3 unknown variables, you need 3 equations, if you have 2, you need 2. If you have 17 unknown variables, you need 17 equations... etc
 ### 🎭 Fall Musical Ticket Problem Solution (Substitution Method)
 
 #### 1. Initial Problem
@@ -2867,6 +2868,8 @@ $$
 **Senior Ticket Price ($y$):** \$12
 ### 🌊 Boat and Current Problem Solution
 
+A boat traveled 45 miles downstream and back. The trip downstream took 3 hours, while the trip back took 5 hours. Find the average speed of the boat in still water, along with the speed of the current.
+
 #### 1. Variables and Equations
 This problem uses the formula **Distance = Rate × Time ($d = rt$)**.
 
@@ -2909,3 +2912,107 @@ $$
 #### 5. Final Answer
 * **Speed of the boat in still water ($x$):** **12 mph**
 * **Speed of the current ($y$):** **3 mph**
+### 💰 Investment Problem
+
+#### Initial Problem
+James won **$86,000** in the local lottery and invested the whole amount in three funds:
+* **REIT** pays **6%** annual simple interest.
+* **C.D.** pays **2%** annual simple interest.
+* **Bond Fund** pays **3%** annual simple interest.
+
+The total annual simple interest from the three investments was **$3,900**. The annual simple interest earned from the REIT was **$900 less than three times** the amount earned from the bond fund and the C.D. combined. Find how much was invested in each.
+
+**I = Prt** : Interest = Principal * rate * time 
+
+---
+
+#### 1. Define Variables
+Let $R$, $C$, and $B$ represent the amount (principal) invested in each fund:
+
+* Let **$R$** = Amount invested in the **REIT** (6%).
+* Let **$C$** = Amount invested in the **C.D.** (2%).
+* Let **$B$** = Amount invested in the **Bond Fund** (3%).
+
+The interest earned for each is $0.06R$, $0.02C$, and $0.03B$.
+
+#### 2. Set Up the System of Equations
+
+**Equation A (Total Principal):** The sum of the investments equals the total lottery winnings.
+$$\mathbf{R + C + B = 86,000} \quad \text{(Eq. A)}$$
+
+**Equation B (Total Interest):** The sum of the interest earned equals $3,900$.
+$$\mathbf{0.06R + 0.02C + 0.03B = 3,900} \quad \text{(Eq. B)}$$
+
+**Equation C (Interest Relationship):** The interest from the REIT ($0.06R$) is $900 less than three times the sum of the interest from the C.D. and the Bond Fund.
+$$0.06R = 3(0.02C + 0.03B) - 900$$
+$$\mathbf{0.06R = 0.06C + 0.09B - 900} \quad \text{(Eq. C)}$$
+
+#### 3. Simplify and Solve
+
+**Simplify Equation B:** Multiply by 100 to clear the decimals.
+$$6R + 2C + 3B = 390,000 \quad \text{(Eq. 4)}$$
+
+**Simplify Equation C:**
+$$0.06R - 0.06C - 0.09B = -900$$
+Multiply by 100 to clear the decimals.
+$$6R - 6C - 9B = -90,000 \quad \text{(Eq. 5)}$$
+
+**Combine Equations 4 and 5 (Eliminate $R$):** Subtract Eq. 5 from Eq. 4.
+$$
+\begin{array}{rcl}
+(6R + 2C + 3B) - (6R - 6C - 9B) &=& 390,000 - (-90,000) \\
+6R - 6R + 2C - (-6C) + 3B - (-9B) &=& 390,000 + 90,000 \\
+8C + 12B &=& 480,000
+\end{array}
+$$
+Divide by 4 to simplify:
+$$\mathbf{2C + 3B = 120,000} \quad \text{(Eq. 6)}$$
+
+**Combine Equations A and 4 (Eliminate $R$):** Multiply Eq. A by 6 and subtract Eq. 4.
+$$
+\begin{array}{rcl}
+6(R + C + B) = 6(86,000) &\implies& 6R + 6C + 6B = 516,000 \\
+(6R + 6C + 6B) - (6R + 2C + 3B) &=& 516,000 - 390,000 \\
+4C + 3B &=& 126,000 \quad \text{(Eq. 7)}
+\end{array}
+$$
+
+**Combine Equations 6 and 7 (Solve for $C$ and $B$):** Subtract Eq. 6 from Eq. 7.
+$$
+\begin{array}{rcl}
+(4C + 3B) - (2C + 3B) &=& 126,000 - 120,000 \\
+2C &=& 6,000 \\
+C &=& \frac{6,000}{2} \\
+\mathbf{C} &=& \mathbf{3,000}
+\end{array}
+$$
+Substitute $C=3,000$ into Eq. 6:
+$$
+\begin{array}{rcl}
+2(3,000) + 3B &=& 120,000 \\
+6,000 + 3B &=& 120,000 \\
+3B &=& 114,000 \\
+B &=& \frac{114,000}{3} \\
+\mathbf{B} &=& \mathbf{38,000}
+\end{array}
+$$
+
+**Solve for $R$:** Substitute $C=3,000$ and $B=38,000$ into Eq. A.
+$$
+\begin{array}{rcl}
+R + C + B &=& 86,000 \\
+R + 3,000 + 38,000 &=& 86,000 \\
+R + 41,000 &=& 86,000 \\
+R &=& 86,000 - 41,000 \\
+\mathbf{R} &=& \mathbf{45,000}
+\end{array}
+$$
+
+#### 4. Final Investment Amounts
+
+|        Fund         | Amount Invested |
+| :-----------------: | :-------------: |
+|   **REIT** ($R$)    |   **$45,000**   |
+|   **C.D.** ($C$)    |   **$3,000**    |
+| **Bond Fund** ($B$) |   **$38,000**   |
+|      **TOTAL**      |   **$86,000**   |
