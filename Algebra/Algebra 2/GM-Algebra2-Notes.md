@@ -3035,6 +3035,13 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=13h17m30s
 0 & 1 & | & c
 \end{bmatrix}
 $$
+- **Reduced Row Echelon Form** :  You want '1's going down the diagonal starting at top left, the coefficients are going to be '0', and real numbers on the right side of the vertical bar - This will show the 'x' and 'y' intercepts, and already be solved - slightly faster than Row Echelon Form (REF) because you don't need to plug in values to find the solution
+  $$
+\begin{bmatrix}
+1 & 0 & | & a \\
+0 & 1 & | & b
+\end{bmatrix}
+$$
 ### 📝 Systems of Linear Equations to Augmented Matrix
 
 This process is the **first step** in solving a system of linear equations using matrix methods (like Gaussian elimination).
