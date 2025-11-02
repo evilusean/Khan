@@ -3090,3 +3090,99 @@ $$
 $$
 
 * **Note:** Always include the **sign** of the coefficient. If a variable is missing, its coefficient is **0**.
+### 📝 Solving System of Equations using Row Echelon Form (REF)
+
+**Goal:** Transform the augmented matrix into **Row Echelon Form** (upper triangular with leading 1s) to solve for $x$ and $y$.
+
+**Initial Augmented Matrix:**
+$$
+\begin{bmatrix}
+2 & -5 & | & -14 \\
+7 & -7 & | & 14
+\end{bmatrix}
+$$
+
+---
+
+#### **Step 1: Get a leading 1 in $R_1$ (Row 1)**
+
+**Operation:** $R_1 \leftarrow \frac{1}{2} R_1$
+
+$$
+\begin{bmatrix}
+2 \cdot \frac{1}{2} & -5 \cdot \frac{1}{2} & | & -14 \cdot \frac{1}{2} \\
+7 & -7 & | & 14
+\end{bmatrix}
+\quad \rightarrow \quad
+\begin{bmatrix}
+\mathbf{1} & -\frac{5}{2} & | & -7 \\
+7 & -7 & | & 14
+\end{bmatrix}
+$$
+
+---
+
+#### **Step 2: Get a 0 in $R_2, C_1$ (Row 2, Column 1)**
+
+**Operation:** $R_2 \leftarrow R_2 - 7R_1$
+
+* $R_2$ calculation:
+    * $7 - 7(1) = \mathbf{0}$
+    * $-7 - 7(-\frac{5}{2}) = -7 + \frac{35}{2} = \frac{-14}{2} + \frac{35}{2} = \mathbf{\frac{21}{2}}$
+    * $14 - 7(-7) = 14 + 49 = \mathbf{63}$
+
+$$
+\begin{bmatrix}
+1 & -\frac{5}{2} & | & -7 \\
+\mathbf{0} & \frac{21}{2} & | & 63
+\end{bmatrix}
+$$
+
+---
+
+#### **Step 3: Get a leading 1 in $R_2$**
+
+**Operation:** $R_2 \leftarrow \frac{2}{21} R_2$
+
+* $R_2$ calculation:
+    * $\frac{21}{2} \cdot \frac{2}{21} = \mathbf{1}$
+    * $63 \cdot \frac{2}{21} = 3 \cdot 2 = \mathbf{6}$
+
+$$
+\begin{bmatrix}
+1 & -\frac{5}{2} & | & -7 \\
+0 & \mathbf{1} & | & 6
+\end{bmatrix}
+$$
+
+This is the **Row Echelon Form (REF)**.
+
+---
+
+#### **Step 4: Back Substitution to Find Variables**
+
+Convert the REF matrix back into linear equations:
+
+1.  **Row 2:** $0x + 1y = 6 \quad \rightarrow \quad \mathbf{y = 6}$
+2.  **Row 1:** $1x - \frac{5}{2}y = -7$
+
+Substitute $y=6$ into the first equation:
+$$
+x - \frac{5}{2}(6) = -7
+$$
+$$
+x - 15 = -7
+$$
+$$
+x = -7 + 15
+$$
+$$
+\mathbf{x = 8}
+$$
+
+---
+
+### **✅ Solution**
+$$
+(x, y) = (8, 6)
+$$
