@@ -3023,7 +3023,18 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=13h17m30s
 - **Columns** = Vertical
 - A matrix is named according to the number of rows and columns it contains : 3 rows by 4 columns would be a *3x4* matrix
 - **Square Matrix** = has the same number of rows and columns
-- **Augmented Matrix** = 
+- **Augmented Matrix** = Takes a linear equation and turns it into a matrix array, only using the coefficients, example below :
+- We can manipulate our matrix using row operations. These produce matrices that lead to linear systems with the same solution set as the original system. There are 3 types :
+  1)  We can interchange any two rows
+  2)  We can multiply any row by a non-zero number
+  3)  We can multiply a row by a real number and add this to the corresponding elements of any other row (similar to using elimination method - multiply the ENTIRE ROW, not just parts)
+- **Row Echelon Form** :  You want '1's going down the diagonal starting at top left, beneath the '1's put a zero, with real numbers above and to the side - If you know '0x 1y = c' you can just plug in for 'y' and find 'x'
+  $$
+\begin{bmatrix}
+1 & a & | & b \\
+0 & 1 & | & c
+\end{bmatrix}
+$$
 ### 📝 Systems of Linear Equations to Augmented Matrix
 
 This process is the **first step** in solving a system of linear equations using matrix methods (like Gaussian elimination).
