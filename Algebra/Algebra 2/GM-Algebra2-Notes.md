@@ -3384,3 +3384,4 @@ $$
 (x, y) = (0, -4)
 $$
 ## Algebra II - Lesson 31 - Solving Linear Systems in three Variables using Matrix Methods (Augmented Matrices, Row Echelon Form, Gaussian Elimination) :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=13h50m
