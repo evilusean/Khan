@@ -3024,3 +3024,58 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=13h17m30s
 - A matrix is named according to the number of rows and columns it contains : 3 rows by 4 columns would be a *3x4* matrix
 - **Square Matrix** = has the same number of rows and columns
 - **Augmented Matrix** = 
+### 📝 Systems of Linear Equations to Augmented Matrix
+
+This process is the **first step** in solving a system of linear equations using matrix methods (like Gaussian elimination).
+
+---
+
+#### **System of Equations**
+
+The system must be in the standard form: $\mathbf{ax + by = c}$.
+
+* **Example System:**
+    * $2x - 5y = -14$
+    * $7x - 7y = 14$
+
+---
+
+#### **Augmented Matrix Structure**
+
+An **augmented matrix** combines the **coefficients** of the variables and the **constants**.
+
+1.  **Coefficients:** The numbers multiplying the variables ($x$ and $y$).
+2.  **Constants:** The numbers on the right side of the equals sign.
+
+* A **vertical bar** ($|$) separates the coefficients from the constants.
+
+$$
+\begin{bmatrix}
+\text{Coeff. } x & \text{Coeff. } y & \vdots & \text{Constant} \\
+\end{bmatrix}
+$$
+
+---
+
+#### **Conversion Steps**
+
+1.  **Ensure Standard Form:** All equations must be $ax + by = c$.
+2.  **Extract Row 1 (Eq. 1):** Take the coefficients and constant from the first equation.
+    * $2x - 5y = -14 \rightarrow [2 \quad -5 \quad | \quad -14]$
+3.  **Extract Row 2 (Eq. 2):** Take the coefficients and constant from the second equation.
+    * $7x - 7y = 14 \rightarrow [7 \quad -7 \quad | \quad 14]$
+
+---
+
+#### **Final Augmented Matrix**
+
+For the example system:
+
+$$
+\begin{bmatrix}
+2 & -5 & | & -14 \\
+7 & -7 & | & 14
+\end{bmatrix}
+$$
+
+* **Note:** Always include the **sign** of the coefficient. If a variable is missing, its coefficient is **0**.
