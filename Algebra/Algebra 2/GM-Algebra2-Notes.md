@@ -3018,4 +3018,9 @@ $$
 |      **TOTAL**      |   **$86,000**   |
 ## Algebra II - Lesson 30 - Solving Linear Systems in two Variables using Matrix Methods(Gaussian Elimination) - 31Oct2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=13h17m30s
-- 
+- **Matrix** = [ ] is an ordered array of numbers - a way to store numerical information
+- **Rows** = Horizontal
+- **Columns** = Vertical
+- A matrix is named according to the number of rows and columns it contains : 3 rows by 4 columns would be a *3x4* matrix
+- **Square Matrix** = has the same number of rows and columns
+- **Augmented Matrix** = 
