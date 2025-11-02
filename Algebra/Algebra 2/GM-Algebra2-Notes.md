@@ -3261,3 +3261,118 @@ $$
 $$
 (x, y) = (8, -5)
 $$
+### 📝 Solving: $5x - 6y = 24$ and $2x + 7y = -28$ Using Augmented Matrices, Row Echelon Form(REF), and Reduced Row Echelon Form (RREF)
+
+**Method:** Augmented Matrix to Row Echelon Form (REF) then Reduced Row Echelon Form (RREF)
+
+---
+
+#### **Step 1: Augmented Matrix Conversion**
+
+The system of equations is converted into an augmented matrix:
+
+$$
+\begin{bmatrix}
+5 & -6 & | & 24 \\
+2 & 7 & | & -28
+\end{bmatrix}
+$$
+
+---
+
+#### **Step 2: Achieve Row Echelon Form (REF)**
+
+The goal for REF is: $\begin{bmatrix} 1 & a & | & b \\ 0 & 1 & | & c \end{bmatrix}$
+
+**2A. Get leading 1 in $R_1$**
+
+**Strategy:** Instead of directly multiplying by $\frac{1}{5}$ (which creates fractions immediately), let's swap rows or use a combination to get a smaller leading number if possible, or force a 1.
+Let's try: $R_1 \leftarrow R_1 - 2R_2$
+(This makes $5 - 2(2) = 1$, which is ideal!)
+
+* *Calculation for $R_1$:*
+    * $5 - 2(2) = \mathbf{1}$
+    * $-6 - 2(7) = -6 - 14 = \mathbf{-20}$
+    * $24 - 2(-28) = 24 + 56 = \mathbf{80}$
+
+$$
+\begin{bmatrix}
+\mathbf{1} & \mathbf{-20} & | & \mathbf{80} \\
+2 & 7 & | & -28
+\end{bmatrix}
+$$
+
+**2B. Get 0 in $R_2, C_1$**
+
+**Operation:** $R_2 \leftarrow R_2 - 2R_1$
+
+* *Calculation for $R_2$:*
+    * $2 - 2(1) = \mathbf{0}$
+    * $7 - 2(-20) = 7 + 40 = \mathbf{47}$
+    * $-28 - 2(80) = -28 - 160 = \mathbf{-188}$
+
+$$
+\begin{bmatrix}
+1 & -20 & | & 80 \\
+\mathbf{0} & \mathbf{47} & | & \mathbf{-188}
+\end{bmatrix}
+$$
+
+**2C. Get leading 1 in $R_2$**
+
+**Operation:** $R_2 \leftarrow \frac{1}{47} R_2$
+
+* *Calculation for $R_2$:*
+    * $47 \cdot \frac{1}{47} = \mathbf{1}$
+    * $-188 \cdot \frac{1}{47} = \mathbf{-4}$ (Since $47 \times 4 = 188$)
+
+$$
+\begin{bmatrix}
+1 & -20 & | & 80 \\
+0 & \mathbf{1} & | & \mathbf{-4}
+\end{bmatrix}
+$$
+
+This is the **Row Echelon Form (REF)**.
+
+---
+
+#### **Step 3: Achieve Reduced Row Echelon Form (RREF)**
+
+The goal for RREF is: $\begin{bmatrix} 1 & 0 & | & x \\ 0 & 1 & | & y \end{bmatrix}$
+
+**3A. Get 0 in $R_1, C_2$**
+
+We need to make the '$-20$' in $R_1$ a '0' using $R_2$ (which has the leading 1 in $C_2$).
+
+**Operation:** $R_1 \leftarrow R_1 + 20R_2$
+
+* *Calculation for $R_1$:*
+    * $1 + 20(0) = \mathbf{1}$
+    * $-20 + 20(1) = \mathbf{0}$
+    * $80 + 20(-4) = 80 - 80 = \mathbf{0}$
+
+$$
+\begin{bmatrix}
+\mathbf{1} & \mathbf{0} & | & \mathbf{0} \\
+0 & 1 & | & -4
+\end{bmatrix}
+$$
+
+This is the **Reduced Row Echelon Form (RREF)**.
+
+---
+
+#### **Step 4: Extract Solution from RREF**
+
+Convert the RREF matrix back to equations:
+
+1.  **Row 1:** $1x + 0y = 0 \quad \rightarrow \quad \mathbf{x = 0}$
+2.  **Row 2:** $0x + 1y = -4 \quad \rightarrow \quad \mathbf{y = -4}$
+
+---
+
+#### **✅ Solution**
+$$
+(x, y) = (0, -4)
+$$
