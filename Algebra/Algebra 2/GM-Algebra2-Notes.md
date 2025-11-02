@@ -3186,3 +3186,78 @@ $$
 $$
 (x, y) = (8, 6)
 $$
+### 📝 Solving: $-9x - 9y = -27$ and $-5x - 4y = -20$ using Row Echelon Form: 
+
+**Method:** Augmented Matrix to Row Echelon Form (REF)
+
+---
+
+#### **Step 1: Augmented Matrix Conversion**
+
+The system of equations is converted by taking the coefficients and constants:
+
+$$
+\begin{bmatrix}
+-9 & -9 & | & -27 \\
+-5 & -4 & | & -20
+\end{bmatrix}
+$$
+
+---
+
+#### **Step 2: Achieve Row Echelon Form (REF)**
+
+The goal is to get: $\begin{bmatrix} 1 & a & | & b \\ 0 & 1 & | & c \end{bmatrix}$
+
+**2A. Get leading 1 in $R_1$**
+
+**Operation:** $R_1 \leftarrow -\frac{1}{9} R_1$ (Divide $R_1$ by $-9$)
+
+$$
+\begin{bmatrix}
+\mathbf{1} & \mathbf{1} & | & \mathbf{3} \\
+-5 & -4 & | & -20
+\end{bmatrix}
+$$
+
+**2B. Get 0 in $R_2, C_1$**
+
+**Operation:** $R_2 \leftarrow R_2 + 5R_1$
+
+* *Calculation:* $-5 + 5(1) = 0$; $-4 + 5(1) = 1$; $-20 + 5(3) = -5$
+
+$$
+\begin{bmatrix}
+1 & 1 & | & 3 \\
+\mathbf{0} & \mathbf{1} & | & \mathbf{-5}
+\end{bmatrix}
+$$
+
+This is the **Row Echelon Form (REF)**.
+
+---
+
+#### **Step 3: Back Substitution**
+
+Convert the REF matrix back to equations:
+
+1.  **Row 2:** $0x + 1y = -5 \quad \rightarrow \quad \mathbf{y = -5}$
+2.  **Row 1:** $x + y = 3$
+
+Substitute $y = -5$ into the Row 1 equation:
+$$
+x + (-5) = 3
+$$
+$$
+x = 3 + 5
+$$
+$$
+\mathbf{x = 8}
+$$
+
+---
+
+#### **✅ Solution**
+$$
+(x, y) = (8, -5)
+$$
