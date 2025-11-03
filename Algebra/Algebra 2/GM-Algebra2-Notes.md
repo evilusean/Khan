@@ -3649,3 +3649,147 @@ When the RREF process yields a row of all zeros to the left of the augmentation 
 
 #### **✅ Solution**
 The system is **inconsistent**. No solution exists.
+
+### 📝 Solving $3 \times 3$ System using RREF (Unique Solution)
+
+**System of Equations:**
+* $E_1$: $x - 3y + 6z = 11$
+* $E_2$: $6x + 5y + 7z = 13$
+* $E_3$: $3x - 2y - z = -34$
+
+---
+
+#### **Step 1: Initial Augmented Matrix**
+
+$$
+\begin{bmatrix}
+1 & -3 & 6 & | & 11 \\
+6 & 5 & 7 & | & 13 \\
+3 & -2 & -1 & | & -34
+\end{bmatrix}
+$$
+
+---
+
+#### **Step 2: Achieve Row Echelon Form (REF)**
+
+*(Goal: $\begin{bmatrix} 1 & a & b \\ 0 & 1 & d \\ 0 & 0 & 1 \end{bmatrix}$ in the coefficient block)*
+
+**2A. Get 0s below $R_1$'s leading 1**
+
+**Operations:**
+* $R_2 \leftarrow R_2 - 6R_1$
+* $R_3 \leftarrow R_3 - 3R_1$
+
+$$
+\begin{bmatrix}
+1 & -3 & 6 & | & 11 \\
+\mathbf{0} & 23 & -29 & | & -53 \\
+\mathbf{0} & 7 & -19 & | & -67
+\end{bmatrix}
+$$
+
+**2B. Get leading 1 in $R_2, C_2$**
+
+**Operation (Strategy: Get a smaller number in $R_2$ first):** $R_2 \leftarrow R_2 - 3R_3$
+* *Calculation for $R_2$:* $23-3(7) = \mathbf{2}$; $-29-3(-19) = -29+57 = \mathbf{28}$; $-53-3(-67) = -53+201 = \mathbf{148}$
+
+$$
+\begin{bmatrix}
+1 & -3 & 6 & | & 11 \\
+0 & \mathbf{2} & \mathbf{28} & | & \mathbf{148} \\
+0 & 7 & -19 & | & -67
+\end{bmatrix}
+$$
+
+**Operation:** $R_2 \leftarrow \frac{1}{2} R_2$ (Simplify $R_2$)
+
+$$
+\begin{bmatrix}
+1 & -3 & 6 & | & 11 \\
+0 & \mathbf{1} & \mathbf{14} & | & \mathbf{74} \\
+0 & 7 & -19 & | & -67
+\end{bmatrix}
+$$
+
+**2C. Get 0s below $R_2$'s leading 1**
+
+**Operation:** $R_3 \leftarrow R_3 - 7R_2$
+* *Calculation for $R_3$:* $7-7(1)=\mathbf{0}$; $-19-7(14) = -19-98 = \mathbf{-117}$; $-67-7(74) = -67-518 = \mathbf{-585}$
+
+$$
+\begin{bmatrix}
+1 & -3 & 6 & | & 11 \\
+0 & 1 & 14 & | & 74 \\
+0 & 0 & -117 & | & -585
+\end{bmatrix}
+$$
+
+**2D. Get leading 1 in $R_3, C_3$**
+
+**Operation:** $R_3 \leftarrow -\frac{1}{117} R_3$
+* *Calculation for $R_3$:* $-585 \div -117 = \mathbf{5}$
+
+$$
+\begin{bmatrix}
+1 & -3 & 6 & | & 11 \\
+0 & 1 & 14 & | & 74 \\
+0 & 0 & \mathbf{1} & | & \mathbf{5}
+\end{bmatrix}
+$$
+
+This is the **Row Echelon Form (REF)**.
+
+---
+
+#### **Step 3: Achieve Reduced Row Echelon Form (RREF)**
+
+*(Goal: $\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$ in the coefficient block)*
+
+**3A. Eliminate entries above $R_3$'s leading 1**
+
+**Operations:** (Use $R_3$ to eliminate entries in $C_3$)
+* $R_2 \leftarrow R_2 - 14R_3$
+* $R_1 \leftarrow R_1 - 6R_3$
+
+* *New $R_2$:* $74 - 14(5) = 74 - 70 = \mathbf{4}$
+* *New $R_1$:* $11 - 6(5) = 11 - 30 = \mathbf{-19}$
+
+$$
+\begin{bmatrix}
+1 & -3 & \mathbf{0} & | & -19 \\
+0 & 1 & \mathbf{0} & | & 4 \\
+0 & 0 & 1 & | & 5
+\end{bmatrix}
+$$
+
+**3B. Eliminate entries above $R_2$'s leading 1**
+
+**Operation:** (Use $R_2$ to eliminate entry in $R_1, C_2$)
+* $R_1 \leftarrow R_1 + 3R_2$
+
+* *New $R_1$:* $-19 + 3(4) = -19 + 12 = \mathbf{-7}$
+
+$$
+\begin{bmatrix}
+\mathbf{1} & \mathbf{0} & 0 & | & \mathbf{-7} \\
+0 & 1 & 0 & | & 4 \\
+0 & 0 & 1 & | & 5
+\end{bmatrix}
+$$
+
+This is the **Reduced Row Echelon Form (RREF)**.
+
+---
+
+#### **Step 4: Extract Solution from RREF**
+
+The matrix corresponds directly to the solution:
+* $x = -7$
+* $y = 4$
+* $z = 5$
+
+**Final Solution:**
+$$
+(x, y, z) = (-7, 4, 5)
+$$
