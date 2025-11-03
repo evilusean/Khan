@@ -3794,3 +3794,4 @@ $$
 (x, y, z) = (-7, 4, 5)
 $$
 ## Algebra II - Lesson 32 - Solving Systems of Linear Equalities - 03November2025 : 
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h25m55s
