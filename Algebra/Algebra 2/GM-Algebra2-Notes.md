@@ -3415,3 +3415,7 @@ A matrix is in RREF if it satisfies the conditions for REF **PLUS** the followin
     0 & 0 & \mathbf{1} & | & f
     \end{bmatrix}
     $$
+- We can manipulate our matrix using row operations. These produce matrices that lead to linear systems with the same solution set as the original system. There are 3 types :
+  1)  We can interchange any two rows
+  2)  We can multiply any row by a non-zero number
+  3)  We can multiply a row by a real number and add this to the corresponding elements of any other row (similar to using elimination method - multiply the ENTIRE ROW, not just parts)
