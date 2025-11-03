@@ -3385,3 +3385,33 @@ $$
 $$
 ## Algebra II - Lesson 31 - Solving Linear Systems in three Variables using Matrix Methods (Augmented Matrices, Row Echelon Form, Gaussian Elimination) - 03November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=13h50m
+- **Matrix Methods** = Allow you to solve very large matrix systems very quickly using a computer
+**1. Row Echelon Form (REF)**
+
+A matrix is in REF if it satisfies the following three conditions:
+* Any rows consisting entirely of zeros are at the bottom of the matrix.
+* The **leading entry** (first non-zero number) in each non-zero row is a **1** (called the **leading 1** or **pivot**).
+* Each leading 1 is to the right of the leading 1 in the row immediately above it.
+
+* **Visual Structure:**
+    $$
+    \begin{bmatrix}
+    \mathbf{1} & a & b & | & c \\
+    0 & \mathbf{1} & d & | & e \\
+    0 & 0 & \mathbf{1} & | & f
+    \end{bmatrix}
+    $$
+
+**2. Reduced Row Echelon Form (RREF)**
+
+A matrix is in RREF if it satisfies the conditions for REF **PLUS** the following condition:
+* Each column that contains a leading 1 has zeros everywhere else. (All entries *above* and *below* the leading 1 must be zero).
+
+* **Visual Structure:**
+    $$
+    \begin{bmatrix}
+    \mathbf{1} & 0 & 0 & | & c \\
+    0 & \mathbf{1} & 0 & | & e \\
+    0 & 0 & \mathbf{1} & | & f
+    \end{bmatrix}
+    $$
