@@ -3419,7 +3419,7 @@ A matrix is in RREF if it satisfies the conditions for REF **PLUS** the followin
   1)  We can interchange any two rows
   2)  We can multiply any row by a non-zero number
   3)  We can multiply a row by a real number and add this to the corresponding elements of any other row (similar to using elimination method - multiply the ENTIRE ROW, not just parts)
-- After getting the first column of (1, 0, 0) going down, it's easier to start on the next diagonal '1' on row 2 than it is to get the next '0' on row 1, because once you have a '1' on row 2 you can use it to cancel out the other variables on the 2nd column.... that's confusing AF typing it, no way I'm going to remember that. **Future Sean After gettting (1,0,0) on the first column, go for row 2's column 2 and make it '1' instead of clearing row 1 column 2 to '0', do that after**
+- After getting the first column of (1, 0, 0) going down, it's easier to start on the next diagonal '1' on row 2 than it is to get the next '0' on row 1, because once you have a '1' on row 2 you can use it to cancel out the other variables on the 2nd column.... that's confusing AF typing it, no way I'm going to remember that. **Future Sean After gettting (1,0,0) on the first column, go for row 2's column 2 and make it '1' instead of clearing row 1 column 2 to '0', do that after - CLEAR THE DIAGONAL '1's FIRST THEN USE THE '1's TO CLEAR THE REST OF THE COLUMNS**
 - 
 ### 📝 Solving $3 \times 3$ System using Reduced Row Echelon Form (RREF)
 
@@ -3567,3 +3567,85 @@ Convert the RREF matrix back to equations:
 $$
 (x, y, z) = (0, -5, -1)
 $$
+### 📝 Solving System with Infinite or No Solutions (RREF Method)
+
+**System of Equations:**
+* $E_1$: $-4x - 4y - 4z = 12$
+* $E_2$: $-3x - 3y - 2z = 0$
+* $E_3$: $-x - y - 3z = 26$
+
+---
+
+#### **Step 1: Initial Augmented Matrix**
+
+$$
+\begin{bmatrix}
+-4 & -4 & -4 & | & 12 \\
+-3 & -3 & -2 & | & 0 \\
+-1 & -1 & -3 & | & 26
+\end{bmatrix}
+$$
+
+---
+
+#### **Step 2: Achieve Reduced Row Echelon Form (RREF)**
+
+**2A. Get leading 1 in $R_1, C_1$**
+
+**Operation:** $R_1 \leftarrow -\frac{1}{4} R_1$ (Simplify $R_1$)
+$$
+\begin{bmatrix}
+\mathbf{1} & \mathbf{1} & \mathbf{1} & | & \mathbf{-3} \\
+-3 & -3 & -2 & | & 0 \\
+-1 & -1 & -3 & | & 26
+\end{bmatrix}
+$$
+
+**2B. Get 0s below $R_1$'s leading 1**
+
+**Operations:**
+* $R_2 \leftarrow R_2 + 3R_1$
+* $R_3 \leftarrow R_3 + 1R_1$
+
+* *Notice $C_2$ and $C_1$ are identical, indicating a **free variable** ($y$).*
+
+| Row | x | y | z | Constant |
+| :---: | :---: | :---: | :---: | :---: |
+| $R_2$ new: | $-3+3(1)=\mathbf{0}$ | $-3+3(1)=\mathbf{0}$ | $-2+3(1)=\mathbf{1}$ | $0+3(-3)=\mathbf{-9}$ |
+| $R_3$ new: | $-1+1(1)=\mathbf{0}$ | $-1+1(1)=\mathbf{0}$ | $-3+1(1)=\mathbf{-2}$ | $26+1(-3)=\mathbf{23}$ |
+
+$$
+\begin{bmatrix}
+1 & 1 & 1 & | & -3 \\
+\mathbf{0} & \mathbf{0} & 1 & | & -9 \\
+\mathbf{0} & \mathbf{0} & -2 & | & 23
+\end{bmatrix}
+$$
+
+**2C. Get 0 below $R_2$'s leading 1 ($R_2, C_3$)**
+
+**Operation:** $R_3 \leftarrow R_3 + 2R_2$
+* *Calculation for $R_3$:* $0+2(0)=\mathbf{0}$; $0+2(0)=\mathbf{0}$; $-2+2(1)=\mathbf{0}$; $23+2(-9)=23-18=\mathbf{5}$
+
+$$
+\begin{bmatrix}
+1 & 1 & 1 & | & -3 \\
+0 & 0 & 1 & | & -9 \\
+\mathbf{0} & \mathbf{0} & \mathbf{0} & | & \mathbf{5}
+\end{bmatrix}
+$$
+
+**Interpretation of Final Row:** The third row states $0x + 0y + 0z = 5$, or $0 = 5$. This is a **false statement**. - Row 3 states : '0x' + '0y' + '0z' = 5 : which is impossible, so the statement is false
+
+---
+
+#### **Step 3: Conclusion from RREF**
+
+When the RREF process yields a row of all zeros to the left of the augmentation bar, but a non-zero number to the right (e.g., $[0 \quad 0 \quad 0 \mid 5]$), the system is **inconsistent**.
+
+**Final Result:** There is **no solution** to this system of linear equations.
+
+---
+
+#### **✅ Solution**
+The system is **inconsistent**. No solution exists.
