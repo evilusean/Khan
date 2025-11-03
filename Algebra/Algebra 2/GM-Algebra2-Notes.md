@@ -3419,3 +3419,151 @@ A matrix is in RREF if it satisfies the conditions for REF **PLUS** the followin
   1)  We can interchange any two rows
   2)  We can multiply any row by a non-zero number
   3)  We can multiply a row by a real number and add this to the corresponding elements of any other row (similar to using elimination method - multiply the ENTIRE ROW, not just parts)
+- After getting the first column of (1, 0, 0) going down, it's easier to start on the next diagonal '1' on row 2 than it is to get the next '0' on row 1, because once you have a '1' on row 2 you can use it to cancel out the other variables on the 2nd column.... that's confusing AF typing it, no way I'm going to remember that. **Future Sean After gettting (1,0,0) on the first column, go for row 2's column 2 and make it '1' instead of clearing row 1 column 2 to '0', do that after**
+- 
+### 📝 Solving $3 \times 3$ System using Reduced Row Echelon Form (RREF)
+
+**System of Equations:**
+* $E_1$: $-x + 2y - z = -9$
+* $E_2$: $-3x + 2y + 4z = -14$
+* $E_3$: $-4x + 3y + 6z = -21$
+
+---
+
+#### **Step 1: Initial Augmented Matrix**
+
+$$
+\begin{bmatrix}
+-1 & 2 & -1 & | & -9 \\
+-3 & 2 & 4 & | & -14 \\
+-4 & 3 & 6 & | & -21
+\end{bmatrix}
+$$
+
+---
+
+#### **Step 2: Achieve Row Echelon Form (REF)**
+
+**2A. Get leading 1 in $R_1, C_1$**
+
+**Operation:** $R_1 \leftarrow -1R_1$
+$$
+\begin{bmatrix}
+\mathbf{1} & -2 & 1 & | & 9 \\
+-3 & 2 & 4 & | & -14 \\
+-4 & 3 & 6 & | & -21
+\end{bmatrix}
+$$
+
+**2B. Get 0s below $R_1$'s leading 1**
+
+**Operations:**
+* $R_2 \leftarrow R_2 + 3R_1$
+* $R_3 \leftarrow R_3 + 4R_1$
+
+$$
+\begin{bmatrix}
+1 & -2 & 1 & | & 9 \\
+\mathbf{0} & -4 & 7 & | & 13 \\
+\mathbf{0} & -5 & 10 & | & 15
+\end{bmatrix}
+$$
+
+**2C. Get leading 1 in $R_2, C_2$**
+
+**Strategy:** Simplify $R_3$ first since $(-5, 10, 15)$ is divisible by 5.
+* **Operation:** $R_3 \leftarrow -\frac{1}{5} R_3$
+$$
+\begin{bmatrix}
+1 & -2 & 1 & | & 9 \\
+0 & -4 & 7 & | & 13 \\
+0 & \mathbf{1} & -2 & | & -3
+\end{bmatrix}
+$$
+* **Operation:** $R_2 \leftrightarrow R_3$ (Swap to get the '1' into $R_2$)
+$$
+\begin{bmatrix}
+1 & -2 & 1 & | & 9 \\
+0 & \mathbf{1} & -2 & | & -3 \\
+0 & -4 & 7 & | & 13
+\end{bmatrix}
+$$
+
+**2D. Get 0s below $R_2$'s leading 1**
+
+**Operation:** $R_3 \leftarrow R_3 + 4R_2$
+* *Calculation for $R_3$:* $0$; $-4+4(1)=\mathbf{0}$; $7+4(-2)=\mathbf{-1}$; $13+4(-3)=\mathbf{1}$
+
+$$
+\begin{bmatrix}
+1 & -2 & 1 & | & 9 \\
+0 & 1 & -2 & | & -3 \\
+0 & 0 & -1 & | & 1
+\end{bmatrix}
+$$
+
+**2E. Get leading 1 in $R_3, C_3$**
+
+**Operation:** $R_3 \leftarrow -1R_3$
+
+$$
+\begin{bmatrix}
+1 & -2 & 1 & | & 9 \\
+0 & 1 & -2 & | & -3 \\
+0 & 0 & \mathbf{1} & | & \mathbf{-1}
+\end{bmatrix}
+$$
+
+This is the **Row Echelon Form (REF)**.
+
+---
+
+#### **Step 3: Achieve Reduced Row Echelon Form (RREF)**
+
+The goal is to eliminate all non-zero entries *above* the leading 1s.
+
+**3A. Eliminate entries above $R_3$'s leading 1**
+
+**Operations:** (Use $R_3$ to eliminate entries in $C_3$)
+* $R_2 \leftarrow R_2 + 2R_3$
+* $R_1 \leftarrow R_1 - R_3$
+
+$$
+\begin{bmatrix}
+1 & -2 & \mathbf{0} & | & 10 \\
+0 & 1 & \mathbf{0} & | & -5 \\
+0 & 0 & 1 & | & -1
+\end{bmatrix}
+$$
+
+**3B. Eliminate entries above $R_2$'s leading 1**
+
+**Operation:** (Use $R_2$ to eliminate entry in $R_1, C_2$)
+* $R_1 \leftarrow R_1 + 2R_2$
+
+* *Calculation for $R_1$:* $1+2(0)=\mathbf{1}$; $-2+2(1)=\mathbf{0}$; $0+2(0)=\mathbf{0}$; $10+2(-5)=\mathbf{0}$
+
+$$
+\begin{bmatrix}
+\mathbf{1} & \mathbf{0} & \mathbf{0} & | & \mathbf{0} \\
+0 & 1 & 0 & | & -5 \\
+0 & 0 & 1 & | & -1
+\end{bmatrix}
+$$
+
+This is the **Reduced Row Echelon Form (RREF)**.
+
+---
+
+#### **Step 4: Extract Solution from RREF**
+
+Convert the RREF matrix back to equations:
+
+* $1x + 0y + 0z = 0 \quad \rightarrow \quad \mathbf{x = 0}$
+* $0x + 1y + 0z = -5 \quad \rightarrow \quad \mathbf{y = -5}$
+* $0x + 0y + 1z = -1 \quad \rightarrow \quad \mathbf{z = -1}$
+
+**Final Solution:**
+$$
+(x, y, z) = (0, -5, -1)
+$$
