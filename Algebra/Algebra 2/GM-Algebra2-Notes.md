@@ -3016,7 +3016,7 @@ $$
 |   **C.D.** ($C$)    |   **$3,000**    |
 | **Bond Fund** ($B$) |   **$38,000**   |
 |      **TOTAL**      |   **$86,000**   |
-## Algebra II - Lesson 30 - Solving Linear Systems in two Variables using Matrix Methods(Gaussian Elimination) - 01November2025 :
+## Algebra II - Lesson 30 - Solving Linear Systems in two Variables using Matrix Methods(Gaussian Elimination) - 02November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=13h17m30s
 - **Matrix** = [ ] is an ordered array of numbers - a way to store numerical information
 - **Rows** = Horizontal
@@ -3383,5 +3383,5 @@ Convert the RREF matrix back to equations:
 $$
 (x, y) = (0, -4)
 $$
-## Algebra II - Lesson 31 - Solving Linear Systems in three Variables using Matrix Methods (Augmented Matrices, Row Echelon Form, Gaussian Elimination) - 01November2025 :
+## Algebra II - Lesson 31 - Solving Linear Systems in three Variables using Matrix Methods (Augmented Matrices, Row Echelon Form, Gaussian Elimination) - 03November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=13h50m
