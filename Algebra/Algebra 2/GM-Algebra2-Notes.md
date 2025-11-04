@@ -3793,5 +3793,7 @@ The matrix corresponds directly to the solution:
 $$
 (x, y, z) = (-7, 4, 5)
 $$
-## Algebra II - Lesson 32 - Solving Systems of Linear Equalities(Graphing Systems of Inequalities) - 03November2025 : 
+## Algebra II - Lesson 32 - Solving Systems of Linear Inequalities(Graphing Systems of Inequalities) - 03November2025 : 
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h25m55s
+- For INEQUALITIES (greater than/less than) the solution is where the 2 areas overlap and the plane that satisfies both equations
+- 
