@@ -3816,3 +3816,44 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h39m50s
 - **Power of a Power Rule** : $\mathbf{(a^m)^n = a^{m \cdot n}}$ : This rule states that when you raise a power to another power, you **multiply** the exponents
 - **Power of a Product Rule** : $\mathbf{(ab)^m = a^m b^m}$ : This rule states that when a product is raised to an exponent, you apply the exponent to **each factor** inside the parentheses.
 - **Power of a Quotient Rule** : $\mathbf{\left[\frac{a}{b}\right]^m = \frac{a^m}{b^m}}$ : This rule states that when a quotient (fraction) is raised to an exponent, you apply the exponent to both the **numerator** and the **denominator**.
+### 📝 Solving $(6xy)^4$ using the Power of a Product Rule
+
+**Goal:** Simplify the expression $(6xy)^4$ by applying the exponent to every factor inside the parentheses.
+
+---
+
+#### **Rule Applied**
+
+This expression uses the **Power of a Product Rule**:
+$$
+\mathbf{(ab)^m = a^m b^m}
+$$
+In this case, the base being raised to the power of 4 has **three factors**:
+* $a = 6$ (a constant)
+* $b = x$ (a variable)
+* $c = y$ (a variable)
+
+The rule extends to three factors: $\mathbf{(abc)^m = a^m b^m c^m}$.
+
+---
+
+#### **Solution Steps**
+
+1.  **Identify Factors and Exponent:**
+    * Factors: $6$, $x$, $y$
+    * Outer Exponent: 4
+
+2.  **Apply Exponent to Each Factor:**
+    $$
+    (6xy)^4 = 6^4 \cdot x^4 \cdot y^4
+    $$
+
+3.  **Calculate the Constant Factor:**
+    * $6^4 = 6 \times 6 \times 6 \times 6$
+    * $6^2 = 36$
+    * $36 \times 36 = 1296$
+
+4.  **Final Simplified Expression:**
+    $$
+    (6xy)^4 = \mathbf{1296x^4y^4}
+    $$
