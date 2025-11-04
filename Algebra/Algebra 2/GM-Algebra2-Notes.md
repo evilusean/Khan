@@ -3795,5 +3795,8 @@ $$
 $$
 ## Algebra II - Lesson 32 - Solving Systems of Linear Inequalities(Graphing Systems of Inequalities) - 03November2025 : 
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h25m55s
-- For INEQUALITIES (greater than/less than) the solution is where the 2 areas overlap and the plane that satisfies both equations
+- For systems of INEQUALITIES (greater than/less than) the solution is where the 2 areas overlap and the plane that satisfies both inequalities
+- I've already done this stuff already, dashed lines for (< >) greater than / less than - shade above for greater than, shade below for less than - solid line for greater than equal to / less than equal to
+- When you multiply or divide by a negative you need to flip the direction of the inequality
+- Not gonna do all the problems for this, I already know this stuff
 - 
