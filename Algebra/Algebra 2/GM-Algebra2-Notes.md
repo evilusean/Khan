@@ -3812,4 +3812,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h39m50s
     $$
     * **Rule:** A base with a negative exponent in the **numerator** moves to the **denominator** and the exponent becomes positive. A base with a negative exponent in the **denominator** moves to the **numerator** and the exponent becomes positive.
     * **Condition:** Neither $x$ nor $y$ can be zero.
-- 
+- **Quotient Rule for Exponents (Division Rule)** : $\mathbf{\frac{a^m}{a^n} = a^{m-n}}$ : When dividing two exponential expressions that have the **same base**, you **subtract** the exponent of the denominator ($n$) from the exponent of the numerator ($m$).
+- **Power of a Power Rule** : $\mathbf{(a^m)^n = a^{m \cdot n}}$ : This rule states that when you raise a power to another power, you **multiply** the exponents
+- **Power of a Product Rule** : $\mathbf{(ab)^m = a^m b^m}$ : This rule states that when a product is raised to an exponent, you apply the exponent to **each factor** inside the parentheses.
+- **Power of a Quotient Rule** : $\mathbf{\left[\frac{a}{b}\right]^m = \frac{a^m}{b^m}}$ : This rule states that when a quotient (fraction) is raised to an exponent, you apply the exponent to both the **numerator** and the **denominator**.
