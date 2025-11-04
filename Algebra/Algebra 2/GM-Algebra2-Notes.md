@@ -3817,6 +3817,30 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h39m50s
 - **Power of a Product Rule** : $\mathbf{(ab)^m = a^m b^m}$ : This rule states that when a product is raised to an exponent, you apply the exponent to **each factor** inside the parentheses.
 - **Power of a Quotient Rule** : $\mathbf{\left[\frac{a}{b}\right]^m = \frac{a^m}{b^m}}$ : This rule states that when a quotient (fraction) is raised to an exponent, you apply the exponent to both the **numerator** and the **denominator**.
 - When doing something like $(6xy)^4$ don't forget to raise the coefficient(6) to the power as well
+### 📝 Exponents and Negative Bases
+
+#### **The Rule**
+
+The sign of the result depends entirely on whether the exponent is **even** or **odd**.
+
+* **Even Exponent:** If the exponent ($n$) is even, the result is always **positive**.
+* **Odd Exponent:** If the exponent ($n$) is odd, the result is always **negative** (matching the original base's sign).
+
+---
+
+#### **Examples**
+
+| Expression | Calculation | Result | Sign |
+| :---: | :---: | :---: | :---: |
+| $(-2)^2$ | $(-2) \times (-2)$ | **4** | Positive (Even Power) |
+| $(-2)^3$ | $(-2) \times (-2) \times (-2)$ | **-8** | Negative (Odd Power) |
+| $(-3)^4$ | $(-3) \times (-3) \times (-3) \times (-3)$ | **81** | Positive (Even Power) |
+
+---
+
+#### **Sentence Summary**
+
+When a negative base is multiplied by itself an **even** number of times, the negative signs cancel out in pairs, yielding a **positive** result; when multiplied an **odd** number of times, one negative sign is left over, making the result **negative**.
 ### 📝 Solving $(6xy)^4$ using the Power of a Product Rule
 
 **Goal:** Simplify the expression $(6xy)^4$ by applying the exponent to every factor inside the parentheses.
