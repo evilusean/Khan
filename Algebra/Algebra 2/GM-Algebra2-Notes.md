@@ -3801,3 +3801,15 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h25m55s
 - Not gonna do all the problems for this, I already know this stuff
 ## Algebra II - Lesson 33 - Review The Rules of Exponents - 04November2025 : 
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h39m50s
+- **Product Rule for exponents** : $\mathbf{x^a \cdot x^b = x^{a+b}}$ : multiplying 2 exponents with the same base(d) means you add the exponents together
+- **Power of Zero** : $x^0 = 1$ :  Anything raised to the '0'th power is 1 (there's some deep platonic lore here : A110ne = m0nad)
+- **Negative Exponents** : $\mathbf{x^{-m} = \frac{1}{x^m}}$  : **Rule:** Any non-zero base ($x$) raised to a negative exponent ($-m$) is equal to the reciprocal of that base raised to the **positive** exponent ($m$).
+- **Inverse Negative Exponents** : $$
+    \frac{1}{x^{-m}} = x^m
+    $$
+- **Negative Exponents in Fractions** : $$
+    \mathbf{\frac{x^{-m}}{y^{-n}} = \frac{y^n}{x^m}}
+    $$
+    * **Rule:** A base with a negative exponent in the **numerator** moves to the **denominator** and the exponent becomes positive. A base with a negative exponent in the **denominator** moves to the **numerator** and the exponent becomes positive.
+    * **Condition:** Neither $x$ nor $y$ can be zero.
+- 
