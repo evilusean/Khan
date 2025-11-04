@@ -3799,4 +3799,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h25m55s
 - I've already done this stuff already, dashed lines for (< >) greater than / less than - shade above for greater than, shade below for less than - solid line for greater than equal to / less than equal to
 - When you multiply or divide by a negative you need to flip the direction of the inequality
 - Not gonna do all the problems for this, I already know this stuff
-- 
+## Algebra II - Lesson 33 - Review The Rules of Exponents - 03November2025 : 
