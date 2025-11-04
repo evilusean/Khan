@@ -3816,6 +3816,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h39m50s
 - **Power of a Power Rule** : $\mathbf{(a^m)^n = a^{m \cdot n}}$ : This rule states that when you raise a power to another power, you **multiply** the exponents
 - **Power of a Product Rule** : $\mathbf{(ab)^m = a^m b^m}$ : This rule states that when a product is raised to an exponent, you apply the exponent to **each factor** inside the parentheses.
 - **Power of a Quotient Rule** : $\mathbf{\left[\frac{a}{b}\right]^m = \frac{a^m}{b^m}}$ : This rule states that when a quotient (fraction) is raised to an exponent, you apply the exponent to both the **numerator** and the **denominator**.
+- When doing something like $(6xy)^4$ don't forget to raise the coefficient(6) to the power as well
 ### 📝 Solving $(6xy)^4$ using the Power of a Product Rule
 
 **Goal:** Simplify the expression $(6xy)^4$ by applying the exponent to every factor inside the parentheses.
@@ -3857,3 +3858,70 @@ The rule extends to three factors: $\mathbf{(abc)^m = a^m b^m c^m}$.
     $$
     (6xy)^4 = \mathbf{1296x^4y^4}
     $$
+### 📝 Complete Exponent Simplification
+
+**Initial Expression:**
+$$
+\mathbf{\frac{2a^{-1}b^0}{(a^{-5})^{-5} \cdot -2a^{-4}b^2a^2}}
+$$
+
+---
+
+#### **Step 1: Simplify the Numerator (Zero Exponent Rule)**
+
+* **Rule:** $x^0 = 1$
+* **Action:** $b^0 = 1$.
+$$
+\text{Numerator} \rightarrow 2a^{-1}(1) = \mathbf{2a^{-1}}
+$$
+
+---
+
+#### **Step 2: Simplify Denominator Terms**
+
+**A. Power of a Power Rule**
+* **Rule:** $(x^m)^n = x^{m \cdot n}$
+* **Action:** $(a^{-5})^{-5} = a^{(-5) \cdot (-5)} = \mathbf{a^{25}}$
+
+**B. Product Rule**
+* **Rule:** $x^m \cdot x^n = x^{m+n}$
+* **Action:** Group constants and like bases.
+    $$
+    \text{Denominator} = (a^{25}) \cdot (-2) \cdot (a^{-4}a^2) \cdot (b^2)
+    $$
+    $$
+    \text{Base } a \text{:} \quad a^{25 + (-4) + 2} = a^{23}
+    $$
+    $$
+    \text{Simplified Denominator} \rightarrow \mathbf{-2a^{23}b^2}
+    $$
+
+---
+
+#### **Step 3: Combine and Simplify the Fraction**
+
+**New Expression:**
+$$
+\frac{2a^{-1}}{-2a^{23}b^2}
+$$
+
+**A. Simplify Constants and Quotient Rule**
+* **Constants:** $\frac{2}{-2} = -1$
+* **Quotient Rule:** $\frac{a^m}{a^n} = a^{m-n}$
+    $$
+    \text{Base } a \text{:} \quad a^{-1 - 23} = a^{-24}
+    $$
+    $$
+    \text{Base } b \text{:} \quad b^2 \text{ remains in the denominator.}
+    $$
+    $$\text{Expression becomes} \rightarrow -1 a^{-24} \frac{1}{b^2}$$
+
+---
+
+#### **Step 4: Final Form (Negative Exponent Rule)**
+
+* **Rule:** $x^{-m} = \frac{1}{x^m}$
+* **Action:** Move $a^{-24}$ to the denominator to make its exponent positive.
+$$
+\mathbf{- \frac{1}{a^{24}b^2}}
+$$
