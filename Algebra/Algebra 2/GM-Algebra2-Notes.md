@@ -4095,3 +4095,6 @@ $$
 $$
 ## Algebra II - Lesson 34 - Adding and Subtracting Polynomials - 04November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=15h7m45s
+- **Term** = a number, variable, or the product of a number and one or more variables rasied to powers. Terms are seperated by '+' or '-' symbols
+- **Polynomial** = is either a single term or a finite sum of terms where all variables have whole number exponents and there are no variables in any denominator
+- 
