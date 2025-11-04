@@ -3817,6 +3817,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=14h39m50s
 - **Power of a Product Rule** : $\mathbf{(ab)^m = a^m b^m}$ : This rule states that when a product is raised to an exponent, you apply the exponent to **each factor** inside the parentheses.
 - **Power of a Quotient Rule** : $\mathbf{\left[\frac{a}{b}\right]^m = \frac{a^m}{b^m}}$ : This rule states that when a quotient (fraction) is raised to an exponent, you apply the exponent to both the **numerator** and the **denominator**.
 - When doing something like $(6xy)^4$ don't forget to raise the coefficient(6) to the power as well
+- Also remember that ' $-2y^2 * -x^-2y^6$ '  '-x' is the same as '-1 * x' and the negative symbol on the coefficients will cancel out (-2 * -1 = 2)
 ### 📝 Exponents and Negative Bases
 
 #### **The Rule**
@@ -4021,4 +4022,74 @@ $$
 
 $$
 \text{Final Answer} = \mathbf{\frac{2y^4}{x^4}}
+$$
+### 📝 Complete Exponent Simplification (Power of a Quotient)
+
+**Initial Expression:**
+$$
+\mathbf{\left[\frac{2x^0y^4z^7 \cdot 2zy^5}{2x^8y^7z^8}\right]^6}
+$$
+
+---
+
+#### **Step 1: Simplify the Numerator (Product Rule)**
+
+* **Rules:** $x^0 = 1$ (Zero Exponent Rule) and $x^m \cdot x^n = x^{m+n}$ (Product Rule).
+* **Action:** Simplify $x^0$, then multiply constants and combine like bases.
+
+1.  **Zero Exponent:** $x^0 = 1$.
+    $$
+    \text{Numerator} \rightarrow 2(1)y^4z^7 \cdot 2zy^5
+    $$
+2.  **Constants:** $2 \cdot 2 = \mathbf{4}$
+3.  **Base $y$:** $y^4 \cdot y^5 = y^{4+5} = \mathbf{y^9}$
+4.  **Base $z$:** $z^7 \cdot z^1 = z^{7+1} = \mathbf{z^8}$
+
+$$
+\text{Simplified Numerator} \rightarrow \mathbf{4y^9z^8}
+$$
+
+**New Expression (Inside Brackets):**
+$$
+\left[\frac{4y^9z^8}{2x^8y^7z^8}\right]^6
+$$
+
+---
+
+#### **Step 2: Simplify the Inner Fraction (Quotient Rule)**
+
+* **Rule:** $\frac{x^m}{x^n} = x^{m-n}$ (Quotient Rule).
+* **Action:** Divide constants and subtract exponents for like bases.
+
+1.  **Constants:** $\frac{4}{2} = \mathbf{2}$
+2.  **Base $x$:** $x^8$ is only in the denominator $\rightarrow \mathbf{x^{-8}}$ (or $\frac{1}{x^8}$)
+3.  **Base $y$:** $y^{9-7} = \mathbf{y^2}$
+4.  **Base $z$:** $z^{8-8} = z^0 = \mathbf{1}$
+
+$$
+\text{Simplified Inner Term} \rightarrow \mathbf{\frac{2y^2}{x^8}}
+$$
+
+**New Expression:**
+$$
+\mathbf{\left(\frac{2y^2}{x^8}\right)^6}
+$$
+
+---
+
+#### **Step 3: Apply the Outer Exponent (Power of a Quotient Rule)**
+
+* **Rule:** $\left(\frac{a}{b}\right)^m = \frac{a^m}{b^m}$ and $(x^m)^n = x^{mn}$ (Power Rules).
+* **Action:** Apply the exponent 6 to every factor in the numerator and denominator.
+
+1.  **Constant:** $2^6 = 2 \times 2 \times 2 \times 2 \times 2 \times 2 = \mathbf{64}$
+2.  **Base $y$:** $(y^2)^6 = y^{2 \cdot 6} = \mathbf{y^{12}}$
+3.  **Base $x$:** $(x^8)^6 = x^{8 \cdot 6} = \mathbf{x^{48}}$
+
+---
+
+#### **Step 4: Final Simplified Expression**
+
+$$
+\mathbf{\frac{64y^{12}}{x^{48}}}
 $$
