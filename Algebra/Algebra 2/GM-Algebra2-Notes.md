@@ -3925,3 +3925,76 @@ $$
 $$
 \mathbf{- \frac{1}{a^{24}b^2}}
 $$
+### 📝 Complete Exponent Simplification
+
+**Initial Expression:**
+$$
+\mathbf{\frac{(-2x^{-3}y^6)^2}{-2y^2 \cdot -x^{-2}y^6}}
+$$
+
+---
+
+#### **Step 1: Simplify the Numerator (Power of a Product Rule)**
+
+* **Rule:** $(abc)^m = a^m b^m c^m$ and $(x^m)^n = x^{mn}$
+* **Action:** Apply the exponent 2 to every factor inside the parentheses.
+    * **Constant:** $(-2)^2 = \mathbf{4}$
+    * **Base $x$:** $(x^{-3})^2 = x^{-3 \cdot 2} = x^{-6}$
+    * **Base $y$:** $(y^6)^2 = y^{6 \cdot 2} = y^{12}$
+
+$$
+\text{Numerator} \rightarrow \mathbf{4x^{-6}y^{12}}
+$$
+
+---
+
+#### **Step 2: Simplify the Denominator (Product Rule)**
+
+* **Rule:** $x^m \cdot x^n = x^{m+n}$
+* **Action:** Group and multiply constants and like bases.
+    * **Constants:** $(-2) \cdot (-1) = \mathbf{2}$ (Since $-x^{-2}$ is $-1x^{-2}$)
+    * **Base $x$:** $x^{-2}$
+    * **Base $y$:** $y^2 \cdot y^6 = y^{2+6} = y^8$
+
+$$
+\text{Denominator} \rightarrow \mathbf{2x^{-2}y^{8}}
+$$
+
+---
+
+#### **Step 3: Combine and Simplify the Fraction (Quotient Rule)**
+
+**New Expression:**
+$$
+\mathbf{\frac{4x^{-6}y^{12}}{2x^{-2}y^{8}}}
+$$
+
+**A. Simplify Constants:**
+$$
+\frac{4}{2} = \mathbf{2}
+$$
+
+**B. Simplify Base $x$ (Quotient Rule):**
+$$
+x^{-6 - (-2)} = x^{-6 + 2} = \mathbf{x^{-4}}
+$$
+
+**C. Simplify Base $y$ (Quotient Rule):**
+$$
+y^{12 - 8} = \mathbf{y^4}
+$$
+
+$$
+\text{Result} \rightarrow \mathbf{2x^{-4}y^4}
+$$
+
+---
+
+#### **Step 4: Final Form (Negative Exponent Rule)**
+
+* **Rule:** $x^{-m} = \frac{1}{x^m}$
+* **Action:** Move $x^{-4}$ to the denominator to make its exponent positive. $y^4$ and $2$ remain in the numerator.
+
+$$
+\text{Final Answer} = \mathbf{\frac{2y^4}{x^4}}
+$$
