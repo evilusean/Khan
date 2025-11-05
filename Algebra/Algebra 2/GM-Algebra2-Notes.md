@@ -4097,4 +4097,12 @@ $$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=15h7m45s
 - **Term** = a number, variable, or the product of a number and one or more variables rasied to powers. Terms are seperated by '+' or '-' symbols
 - **Polynomial** = is either a single term or a finite sum of terms where all variables have whole number exponents and there are no variables in any denominator
+- **Standard Form** = A Polynomial is written in standard form when the powers/exponents are in descending order 
+- **Degree of the Term** = The degree of a term in a polynomial is the sum of the exponents on the variables of the term 
+- $3x^7y^5$ : would be '7 + 5' = 12th degree for the term
+- **The Degree of the Polynomial** = The greatest degree of any term in the polynomial is known as the degree of the polynomial
+- $4x^5 + 2x^3 - 7$ : the degree of the polynomial would be '5'
+- $-x^7y^3 + 7x^9y^5 - 3xy + 8$ : '9 + 5' the degree of the polynomial would be '14'
+- Adding and subtracting polynomials = simply combine like terms (same power/exponent)
+- $(5m^3 - 6m^2 + 8m) - (3m^3 + 5m^2)$ : don't forget to distribute the '-' negative sign to all terms in the parenthesis '$+ (-1)(3m^3 +5m^2)$' multiply it by '-1' so you remember
 - 
