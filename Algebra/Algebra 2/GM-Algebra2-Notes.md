@@ -4159,3 +4159,55 @@ Write the combined expression in descending order of power.
 $$
 \mathbf{56x^4 + 106x^3 + 99x^2 + 52x + 10}
 $$
+### 📝 Multiplying Polynomials: $7b(6b + 3)(3b - 3)$
+
+**Goal:** Simplify the expression by factoring common terms, multiplying the binomials, and distributing the final monomial.
+
+---
+
+#### **Step 1: Simplify Binomials by Factoring GCF**
+
+Factor out the Greatest Common Factor (GCF) from each binomial term.
+
+1.  $(6b + 3) = \mathbf{3(2b + 1)}$
+2.  $(3b - 3) = \mathbf{3(b - 1)}$
+
+**Rewritten Expression:**
+$$
+7b \cdot 3(2b + 1) \cdot 3(b - 1)
+$$
+
+---
+
+#### **Step 2: Multiply Constants and Binomials**
+
+1.  **Multiply Constants:** $7 \cdot 3 \cdot 3 = \mathbf{63}$
+    $$
+    63b(2b + 1)(b - 1)
+    $$
+2.  **Multiply Binomials (FOIL):** $(2b + 1)(b - 1)$
+    * $2b \cdot b = 2b^2$
+    * $2b \cdot (-1) = -2b$
+    * $1 \cdot b = +b$
+    * $1 \cdot (-1) = -1$
+    * **Result:** $2b^2 - 2b + b - 1 = \mathbf{2b^2 - b - 1}$
+
+---
+
+#### **Step 3: Distribute the Final Monomial**
+
+Multiply the term $63b$ into the resulting trinomial $2b^2 - b - 1$.
+
+* $63b \cdot 2b^2 = \mathbf{126b^3}$
+* $63b \cdot (-b) = \mathbf{-63b^2}$
+* $63b \cdot (-1) = \mathbf{-63b}$
+
+---
+
+#### **Step 4: Final Simplified Result**
+
+The fully expanded polynomial is:
+
+$$
+\mathbf{126b^3 - 63b^2 - 63b}
+$$
