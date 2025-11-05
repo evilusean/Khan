@@ -4210,3 +4210,67 @@ $$
 $$
 
 **(Note: This result is identical to the one obtained by simplifying first, confirming the algebra is correct.)**
+
+### 📝 Multiplying Three Binomials: $(3x + 2y)(4x - 4y)(6x - 1)$
+
+**Goal:** Expand the expression by multiplying the first two binomials, and then multiplying the resulting trinomial by the third binomial.
+
+---
+
+#### **Step 1: Multiply the First Two Binomials (FOIL)**
+
+Multiply $(3x + 2y)$ by $(4x - 4y)$.
+
+1.  **First:** $(3x)(4x) = 12x^2$
+2.  **Outer:** $(3x)(-4y) = -12xy$
+3.  **Inner:** $(2y)(4x) = +8xy$
+4.  **Last:** $(2y)(-4y) = -8y^2$
+
+**Combine Like Terms:** $-12xy + 8xy = -4xy$
+
+$$
+(3x + 2y)(4x - 4y) = \mathbf{12x^2 - 4xy - 8y^2}
+$$
+
+---
+
+#### **Step 2: Multiply the Resulting Trinomial by the Third Binomial**
+
+Multiply $(12x^2 - 4xy - 8y^2)$ by $(6x - 1)$. We must distribute both $6x$ and $-1$ across the trinomial.
+
+**A. Distribute $6x$:**
+* $6x \cdot 12x^2 = 72x^3$
+* $6x \cdot (-4xy) = -24x^2y$
+* $6x \cdot (-8y^2) = -48xy^2$
+
+**B. Distribute $-1$:**
+* $-1 \cdot 12x^2 = -12x^2$
+* $-1 \cdot (-4xy) = +4xy$
+* $-1 \cdot (-8y^2) = +8y^2$
+
+---
+
+#### **Step 3: Combine Like Terms**
+
+Sum the results from Step 2A and 2B. Arrange terms by degree and alphabetical order within degrees:
+
+* **$x^3$ terms:** $72x^3$
+* **$x^2$ terms:** $-12x^2$
+* **$x^2y$ terms:** $-24x^2y$
+* **$xy^2$ terms:** $-48xy^2$
+* **$xy$ terms:** $+4xy$
+* **$y^2$ terms:** $+8y^2$
+
+**(Note: There are no exact like terms to combine in this specific set of results.)**
+
+---
+
+#### **Step 4: Final Expanded Result**
+
+The fully expanded polynomial is:
+
+$$
+\mathbf{72x^3 - 24x^2y - 12x^2 - 48xy^2 + 4xy + 8y^2}
+$$
+
+*(If you were to simplify by factoring $4x-4y=4(x-y)$ first, the final answer would look algebraically different but would be equivalent.)*
