@@ -4106,3 +4106,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=15h7m45s
 - Adding and subtracting polynomials = simply combine like terms (same power/exponent)
 - $(5m^3 - 6m^2 + 8m) - (3m^3 + 5m^2)$ : don't forget to distribute the '-' negative sign to all terms in the parenthesis '$+ (-1)(3m^3 +5m^2)$' multiply it by '-1' so you remember
 ## Algebra II - Lesson 35 - Multiplying Polynomials - 05November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=15h43m45s
