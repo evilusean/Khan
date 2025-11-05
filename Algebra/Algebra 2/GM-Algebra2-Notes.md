@@ -4110,6 +4110,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=15h43m45s
 - We can Multiply any two terms together using our commutative(multiply in any order) and associative(grouping doesnt matter) properties
 - When we multiply 2 polynomials together, we use our distributive property(multiply everything in the parenthesis by everything outside the parenthesis - coefficients, variables and exponents)
 - **FOIL** = When multiplying 2 binomials, First, Outer, Inner, Last - when multiplying 2 binomials, you have to multiply EACH TERM - then combine like terms
+- We can multiply more than two polynomials by multiplying pairs of polynomials until we have our product see '$7b(6b + 3)(3b - 3)$' below
+- 
 ### 📝 Multiplying Trinomials: $(7x^2 + 8x + 2)(8x^2 + 6x + 5)$
 
 #### **Step 1: Distribute Each Term**
@@ -4159,55 +4161,52 @@ Write the combined expression in descending order of power.
 $$
 \mathbf{56x^4 + 106x^3 + 99x^2 + 52x + 10}
 $$
-### 📝 Multiplying Polynomials: $7b(6b + 3)(3b - 3)$
+### 📝 Multiplying Trinomials ($\mathbf{7b(6b + 3)(3b - 3)}$)
 
-**Goal:** Simplify the expression by factoring common terms, multiplying the binomials, and distributing the final monomial.
-
----
-
-#### **Step 1: Simplify Binomials by Factoring GCF**
-
-Factor out the Greatest Common Factor (GCF) from each binomial term.
-
-1.  $(6b + 3) = \mathbf{3(2b + 1)}$
-2.  $(3b - 3) = \mathbf{3(b - 1)}$
-
-**Rewritten Expression:**
+**Expression:**
 $$
-7b \cdot 3(2b + 1) \cdot 3(b - 1)
+\mathbf{7b(6b + 3)(3b - 3)}
 $$
 
 ---
 
-#### **Step 2: Multiply Constants and Binomials**
+#### **Step 1: Multiply the Binomials (FOIL)**
 
-1.  **Multiply Constants:** $7 \cdot 3 \cdot 3 = \mathbf{63}$
-    $$
-    63b(2b + 1)(b - 1)
-    $$
-2.  **Multiply Binomials (FOIL):** $(2b + 1)(b - 1)$
-    * $2b \cdot b = 2b^2$
-    * $2b \cdot (-1) = -2b$
-    * $1 \cdot b = +b$
-    * $1 \cdot (-1) = -1$
-    * **Result:** $2b^2 - 2b + b - 1 = \mathbf{2b^2 - b - 1}$
+Multiply $(6b + 3)$ by $(3b - 3)$ first.
 
----
+1.  **First:** $(6b) \cdot (3b) = 18b^2$
+2.  **Outer:** $(6b) \cdot (-3) = -18b$
+3.  **Inner:** $(3) \cdot (3b) = +9b$
+4.  **Last:** $(3) \cdot (-3) = -9$
 
-#### **Step 3: Distribute the Final Monomial**
+**Combine Like Terms:** $-18b + 9b = -9b$
 
-Multiply the term $63b$ into the resulting trinomial $2b^2 - b - 1$.
-
-* $63b \cdot 2b^2 = \mathbf{126b^3}$
-* $63b \cdot (-b) = \mathbf{-63b^2}$
-* $63b \cdot (-1) = \mathbf{-63b}$
+$$
+(6b + 3)(3b - 3) = \mathbf{18b^2 - 9b - 9}
+$$
 
 ---
 
-#### **Step 4: Final Simplified Result**
+#### **Step 2: Distribute the Monomial**
+
+Multiply the result from Step 1 by the monomial $7b$.
+
+$$
+7b \cdot (18b^2 - 9b - 9)
+$$
+
+1.  $7b \cdot 18b^2 = (7 \cdot 18)b^{1+2} = \mathbf{126b^3}$
+2.  $7b \cdot (-9b) = (7 \cdot -9)b^{1+1} = \mathbf{-63b^2}$
+3.  $7b \cdot (-9) = (7 \cdot -9)b = \mathbf{-63b}$
+
+---
+
+#### **Step 3: Final Expanded Result**
 
 The fully expanded polynomial is:
 
 $$
 \mathbf{126b^3 - 63b^2 - 63b}
 $$
+
+**(Note: This result is identical to the one obtained by simplifying first, confirming the algebra is correct.)**
