@@ -4107,3 +4107,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=15h7m45s
 - $(5m^3 - 6m^2 + 8m) - (3m^3 + 5m^2)$ : don't forget to distribute the '-' negative sign to all terms in the parenthesis '$+ (-1)(3m^3 +5m^2)$' multiply it by '-1' so you remember
 ## Algebra II - Lesson 35 - Multiplying Polynomials - 05November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=15h43m45s
+- We can Multiply any two terms together using our commutative(multiply in any order) and associative(grouping doesnt matter) properties
+- When we multiply 2 polynomials together, we use our distributive property(multiply everything in the parenthesis by everything outside the parenthesis - coefficients, variables and exponents)
+- **FOIL** = When multiplying 2 binomials, First, Outer, Inner, Last - when multiplying 2 binomials, you have to multiply EACH TERM - then combine like terms
+- 
