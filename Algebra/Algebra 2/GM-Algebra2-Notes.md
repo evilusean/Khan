@@ -4275,3 +4275,4 @@ $$
 
 *(If you were to simplify by factoring $4x-4y=4(x-y)$ first, the final answer would look algebraically different but would be equivalent.)*
 ## Algebra II - Lesson 36 - Special Products - 05November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=16h10m23s
