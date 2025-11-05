@@ -4110,4 +4110,52 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=15h43m45s
 - We can Multiply any two terms together using our commutative(multiply in any order) and associative(grouping doesnt matter) properties
 - When we multiply 2 polynomials together, we use our distributive property(multiply everything in the parenthesis by everything outside the parenthesis - coefficients, variables and exponents)
 - **FOIL** = When multiplying 2 binomials, First, Outer, Inner, Last - when multiplying 2 binomials, you have to multiply EACH TERM - then combine like terms
-- 
+### 📝 Multiplying Trinomials: $(7x^2 + 8x + 2)(8x^2 + 6x + 5)$
+
+#### **Step 1: Distribute Each Term**
+
+Multiply each term from the first trinomial by every term in the second trinomial.
+
+**1. Distribute $7x^2$:**
+* $7x^2 \cdot 8x^2 = 56x^4$
+* $7x^2 \cdot 6x = 42x^3$
+* $7x^2 \cdot 5 = 35x^2$
+**(Result 1: $56x^4 + 42x^3 + 35x^2$)**
+
+**2. Distribute $8x$:**
+* $8x \cdot 8x^2 = 64x^3$
+* $8x \cdot 6x = 48x^2$
+* $8x \cdot 5 = 40x$
+**(Result 2: $64x^3 + 48x^2 + 40x$)**
+
+**3. Distribute $2$:**
+* $2 \cdot 8x^2 = 16x^2$
+* $2 \cdot 6x = 12x$
+* $2 \cdot 5 = 10$
+**(Result 3: $16x^2 + 12x + 10$)**
+
+---
+
+#### **Step 2: Combine Like Terms**
+
+Sum all the results from Step 1, grouping terms by their exponent (degree):
+
+$$
+(56x^4 + 42x^3 + 35x^2) + (64x^3 + 48x^2 + 40x) + (16x^2 + 12x + 10)
+$$
+
+* **$x^4$ terms:** $56x^4$
+* **$x^3$ terms:** $42x^3 + 64x^3 = \mathbf{106x^3}$
+* **$x^2$ terms:** $35x^2 + 48x^2 + 16x^2 = 99x^2$
+* **$x^1$ terms:** $40x + 12x = \mathbf{52x}$
+* **Constant terms:** $10$
+
+---
+
+#### **Step 3: Final Simplified Result**
+
+Write the combined expression in descending order of power.
+
+$$
+\mathbf{56x^4 + 106x^3 + 99x^2 + 52x + 10}
+$$
