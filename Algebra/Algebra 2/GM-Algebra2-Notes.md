@@ -4283,6 +4283,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=16h10m23s
 - $(x + y)^2 = x^2 + 2xy + y^2$ : when you have a '+' sign, you get '+'
 - $(x - y)^2 = x^2 -2xy +y^2$  : when you have a '-' sign, you get '-' and '+'
 - $(7n^2 +8)^2 = 49n^4 + 112n^2 + 64$ 
+- If you want to save Future Sean the most time and errors, learn the cubes, because they take longer to do, more tedious, more steps, more chances to mess up and forget a symbol or whatever - what would normally take you minutes to find only takes seconds when you git gud
 - $\mathbf{(x + y)^3 = x^3 + 3x^2y + 3xy^2 + y^3}$ : binomial cubed '+'
 - $\mathbf{(x - y)^3 = x^3 - 3x^2y + 3xy^2 - y^3}$ : binomial cubed '-' (2nd term and 4th term have a '-' sign in front)
 ### 📝 Expanding the Cube of a Binomial: $(x + 3)^3$
