@@ -4274,7 +4274,7 @@ $$
 $$
 
 *(If you were to simplify by factoring $4x-4y=4(x-y)$ first, the final answer would look algebraically different but would be equivalent.)*
-## Algebra II - Lesson 36 - Special Products - 05November2025 :
+## Algebra II - Lesson 36 - Special Products of Binomials - Difference of Squares - 05November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=16h10m23s
 - There are special binomial products that you will get frequently that you should probably memorize for future Sean, since you will run into them often
 - $(x + y)(x - y) = x^2 - y^2$ : Difference of 2 squares - middle 2 terms cancel
@@ -4285,4 +4285,63 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=16h10m23s
 - $(7n^2 +8)^2 = 49n^4 + 112n^2 + 64$ 
 - $\mathbf{(x + y)^3 = x^3 + 3x^2y + 3xy^2 + y^3}$ : binomial cubed '+'
 - $\mathbf{(x - y)^3 = x^3 - 3x^2y + 3xy^2 - y^3}$ : binomial cubed '-' (2nd term and 4th term have a '-' sign in front)
-- 
+### 📝 Expanding the Cube of a Binomial: $(x + 3)^3$
+
+**Goal:** Expand $(x + 3)^3$ using the Cube of a Sum formula.
+
+---
+
+#### **Formula Used**
+
+We use the **Cube of a Sum** formula:
+$$
+\mathbf{(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3}
+$$
+
+* In the expression $(x + 3)^3$:
+    * $a = x$
+    * $b = 3$
+
+---
+
+#### **Step 1: Substitute and Expand**
+
+Substitute $a=x$ and $b=3$ into the formula.
+
+$$
+(x + 3)^3 = (x)^3 + 3(x)^2(3) + 3(x)(3)^2 + (3)^3
+$$
+
+---
+
+#### **Step 2: Simplify Each Term**
+
+1.  **Term 1 (First Term Cubed):**
+    $$
+    x^3
+    $$
+
+2.  **Term 2 ($3a^2b$):**
+    $$
+    3 \cdot x^2 \cdot 3 = \mathbf{9x^2}
+    $$
+
+3.  **Term 3 ($3ab^2$):**
+    $$
+    3 \cdot x \cdot (3^2) = 3 \cdot x \cdot 9 = \mathbf{27x}
+    $$
+
+4.  **Term 4 (Last Term Cubed):**
+    $$
+    3^3 = 3 \cdot 3 \cdot 3 = \mathbf{27}
+    $$
+
+---
+
+#### **Step 3: Final Expanded Result**
+
+Combine all simplified terms.
+
+$$
+\mathbf{x^3 + 9x^2 + 27x + 27}
+$$
