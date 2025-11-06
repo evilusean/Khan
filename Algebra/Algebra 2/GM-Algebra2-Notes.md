@@ -4345,3 +4345,63 @@ Combine all simplified terms.
 $$
 \mathbf{x^3 + 9x^2 + 27x + 27}
 $$
+### 📝 Expanding the Cube of a Binomial: $(x - 2)^3$
+
+**Goal:** Expand $(x - 2)^3$ using the Cube of a Difference formula.
+
+---
+
+#### **Formula Used**
+
+We use the **Cube of a Difference** formula (which alternates signs: +, -, +, -):
+$$
+\mathbf{(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3}
+$$
+
+* In the expression $(x - 2)^3$:
+    * $a = x$
+    * $b = 2$
+
+---
+
+#### **Step 1: Substitute and Expand**
+
+Substitute $a=x$ and $b=2$ into the formula. Note that we only substitute the positive value of $b=2$; the minus signs are part of the formula itself.
+
+$$
+(x - 2)^3 = (x)^3 - 3(x)^2(2) + 3(x)(2)^2 - (2)^3
+$$
+
+---
+
+#### **Step 2: Simplify Each Term**
+
+1.  **Term 1 ($a^3$):**
+    $$
+    x^3
+    $$
+
+2.  **Term 2 ($-3a^2b$):**
+    $$
+    -3 \cdot x^2 \cdot 2 = \mathbf{-6x^2}
+    $$
+
+3.  **Term 3 ($+3ab^2$):**
+    $$
+    +3 \cdot x \cdot (2^2) = 3 \cdot x \cdot 4 = \mathbf{+12x}
+    $$
+
+4.  **Term 4 ($-b^3$):**
+    $$
+    -(2^3) = -\mathbf{8}
+    $$
+
+---
+
+#### **Step 3: Final Expanded Result**
+
+Combine all simplified terms.
+
+$$
+\mathbf{x^3 - 6x^2 + 12x - 8}
+$$
