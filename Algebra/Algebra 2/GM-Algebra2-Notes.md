@@ -4468,3 +4468,62 @@ $$
 $$
 ## Algebra II - Lesson 37 - Dividing Polynomials - 06November 2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=1637m5s
+- 
+### 📝 Polynomial Long Division
+
+**Problem:** Divide $45n + 5n^3 - 18 + 38n^2$ by $n + 6$.
+
+#### **Step 1: Rewrite Dividend in Standard Form**
+
+The dividend (numerator) must be arranged in descending order of powers:
+$$
+\text{Dividend} = 5n^3 + 38n^2 + 45n - 18
+$$
+The divisor (denominator) is $n + 6$.
+
+---
+
+#### **Step 2: Perform Long Division**
+
+**A. Find the first term of the quotient:**
+* Divide the first term of the dividend ($5n^3$) by the first term of the divisor ($n$).
+    $$
+    \frac{5n^3}{n} = \mathbf{5n^2}
+    $$
+* Multiply $5n^2$ by the divisor ($n + 6$): $5n^2(n + 6) = 5n^3 + 30n^2$
+* Subtract this result from the dividend:
+    $$
+    (5n^3 + 38n^2) - (5n^3 + 30n^2) = \mathbf{8n^2}
+    $$
+* Bring down the next term ($+45n$). New dividend: $8n^2 + 45n - 18$.
+
+**B. Find the second term of the quotient:**
+* Divide the new first term ($8n^2$) by $n$.
+    $$
+    \frac{8n^2}{n} = \mathbf{+8n}
+    $$
+* Multiply $8n$ by the divisor: $8n(n + 6) = 8n^2 + 48n$
+* Subtract this result:
+    $$
+    (8n^2 + 45n) - (8n^2 + 48n) = \mathbf{-3n}
+    $$
+* Bring down the next term ($-18$). New dividend: $-3n - 18$.
+
+**C. Find the third term of the quotient:**
+* Divide the new first term ($-3n$) by $n$.
+    $$
+    \frac{-3n}{n} = \mathbf{-3}
+    $$
+* Multiply $-3$ by the divisor: $-3(n + 6) = -3n - 18$
+* Subtract this result:
+    $$
+    (-3n - 18) - (-3n - 18) = \mathbf{0}
+    $$
+
+---
+
+#### **Step 3: Final Result**
+
+Since the remainder is 0, the quotient is the final answer.
+
+**Quotient (Answer):** $\mathbf{5n^2 + 8n - 3}$
