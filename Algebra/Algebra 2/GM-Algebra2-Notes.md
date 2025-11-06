@@ -4402,6 +4402,10 @@ $$
 #### **Step 3: Final Expanded Result**
 
 Combine all simplified terms.
+
+$$
+\mathbf{x^3 - 6x^2 + 12x - 8}
+$$
 ### 📝 Expanding the Cube of a Binomial: $(6z - 4x)^3$
 
 **Goal:** Expand the expression using the Cube of a Difference formula.
