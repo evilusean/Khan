@@ -4469,7 +4469,8 @@ $$
 ## Algebra II - Lesson 37 - Dividing Polynomials - 06November 2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=1637m5s
 - **DMSBR** = Divivde, Multiply, Subtract, Bringdown, Repeat/Remainder = Family Mnemonic : Dad, Mom, Sister, Brother, Rover = Used in long division
-- For doing long division on polynomials, you want to put the polynomial in standard form first, then leading terms go with leading terms (example below - 'n' is the leading term, so you divide by that first on the leading term, get the amount '$5n^3 / n = 5n^2$ and THEN multiply that by the second term, subtract the new multiplied term by the next term(bringdown), take the remainder, and repeat.. )
+- For doing long division on polynomials, you want to put the polynomial in standard form first, then leading terms go with leading terms (example below - 'n' is the leading term, so you divide by that first on the leading term, get the amount '$5n^3 / n = 5n^2$ and THEN multiply that by the divisor terms, subtract the new multiplied term by the next term(bringdown), take the remainder, and repeat.. )
+- when converting a polynomial to standard form and you have missing terms, use '0' zero as a placeholder - YOU NEED TO DO THIS FOR BOTH THE NUMERATOR (TOP) and DENOMINATOR (bottom), convert BOTH to standard forms, and if a term is missing replace it with '0' like the example below using $0x^2$ and $0x$  as placeholder
 ### 📝 Polynomial Long Division
 
 **Problem:** Divide $45n + 5n^3 - 18 + 38n^2$ by $n + 6$.
@@ -4578,3 +4579,57 @@ The dividend (numerator) must be arranged in descending order of powers, and any
 Since the remainder is 0, the quotient is the final answer.
 
 **Quotient (Answer):** $\mathbf{8x^2 + 3x + 10}$
+### 📝 Polynomial Long Division (With remainder)
+
+**Problem:** Divide $m^3 + 10m^2 + 27m + 12$ by $m + 5$.
+
+---
+
+#### **Step 1: Setup**
+
+The dividend and divisor are already in standard form with no missing terms.
+
+* **Dividend:** $m^3 + 10m^2 + 27m + 12$
+* **Divisor:** $m + 5$
+
+---
+
+#### **Step 2: Perform Long Division**
+
+**A. Find the first term of the quotient ($m^2$):**
+* **Divide:** $\frac{m^3}{m} = m^2$
+* **Multiply:** $m^2(m + 5) = m^3 + 5m^2$
+* **Subtract:**
+    $$
+    (m^3 + 10m^2) - (m^3 + 5m^2) = \mathbf{5m^2}
+    $$
+* Bring down the next term ($+27m$). New dividend: $5m^2 + 27m + 12$.
+
+**B. Find the second term of the quotient ($+5m$):**
+* **Divide:** $\frac{5m^2}{m} = 5m$
+* **Multiply:** $5m(m + 5) = 5m^2 + 25m$
+* **Subtract:**
+    $$
+    (5m^2 + 27m) - (5m^2 + 25m) = \mathbf{2m}
+    $$
+* Bring down the next term ($+12$). New dividend: $2m + 12$.
+
+**C. Find the third term of the quotient ($+2$):**
+* **Divide:** $\frac{2m}{m} = 2$
+* **Multiply:** $2(m + 5) = 2m + 10$
+* **Subtract:**
+    $$
+    (2m + 12) - (2m + 10) = \mathbf{2}
+    $$
+
+**Remainder:** The remainder is $2$.
+
+---
+
+#### **Step 3: Final Result**
+
+The quotient is $m^2 + 5m + 2$ with a remainder of 2.
+
+$$
+\text{Answer} = \mathbf{m^2 + 5m + 2 + \frac{2}{m + 5}}
+$$
