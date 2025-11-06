@@ -4468,7 +4468,8 @@ $$
 $$
 ## Algebra II - Lesson 37 - Dividing Polynomials - 06November 2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=1637m5s
-- 
+- **DMSBR** = Divivde, Multiply, Subtract, Bringdown, Repeat/Remainder = Family Mnemonic : Dad, Mom, Sister, Brother, Rover = Used in long division
+- For doing long division on polynomials, you want to put the polynomial in standard form first, then leading terms go with leading terms (example below - 'n' is the leading term, so you divide by that first on the leading term, get the amount '$5n^3 / n = 5n^2$ and THEN multiply that by the second term, subtract the new multiplied term by the next term(bringdown), take the remainder, and repeat.. )
 ### 📝 Polynomial Long Division
 
 **Problem:** Divide $45n + 5n^3 - 18 + 38n^2$ by $n + 6$.
