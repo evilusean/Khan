@@ -4467,3 +4467,4 @@ $$
 \mathbf{-64x^3 + 288x^2z - 432xz^2 + 216z^3}
 $$
 ## Algebra II - Lesson 37 - Dividing Polynomials - 06November 2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=1637m5s
