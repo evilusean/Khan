@@ -4276,3 +4276,8 @@ $$
 *(If you were to simplify by factoring $4x-4y=4(x-y)$ first, the final answer would look algebraically different but would be equivalent.)*
 ## Algebra II - Lesson 36 - Special Products - 05November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=16h10m23s
+- There are special binomial products that you will get frequently that you should probably memorize for future Sean, since you will run into them often
+- $(x + y)(x - y) = x^2 - y^2$ : Difference of 2 squares - middle 2 terms cancel
+- $(x + 1)(x - 1) = x^2 -1$ : Difference of 2 squares
+- $(8a -6)(8a + 6) = 64a^2 - 36$ : Difference of 2 squares
+- 
