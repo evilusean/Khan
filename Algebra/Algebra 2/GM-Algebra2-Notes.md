@@ -4280,4 +4280,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=16h10m23s
 - $(x + y)(x - y) = x^2 - y^2$ : Difference of 2 squares - middle 2 terms cancel
 - $(x + 1)(x - 1) = x^2 -1$ : Difference of 2 squares
 - $(8a -6)(8a + 6) = 64a^2 - 36$ : Difference of 2 squares
+- $(x + y)^2 = x^2 + 2xy + y^2$ : when you have a '+' sign, you get '+'
+- $(x - y)^2 = x^2 -2xy +y^2$  : when you have a '-' sign, you get '-' and '+'
+- $(7n^2 +8)^2 = 49n^4 + 112n^2 + 64$ 
 - 
