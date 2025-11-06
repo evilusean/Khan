@@ -4528,3 +4528,53 @@ The divisor (denominator) is $n + 6$.
 Since the remainder is 0, the quotient is the final answer.
 
 **Quotient (Answer):** $\mathbf{5n^2 + 8n - 3}$
+### 📝 Polynomial Long Division (With Missing Terms)
+
+**Problem:** Divide $32x^4 - 15x - 50 + 12x^3$ by $4x^2 - 5$.
+
+---
+
+#### **Step 1: Rewrite with Standard Form and Placeholders**
+
+The dividend (numerator) must be arranged in descending order of powers, and any missing terms (like $x^2$ in the numerator) must be represented with a $0$ coefficient.
+
+* **Dividend:** $32x^4 + 12x^3 + \mathbf{0x^2} - 15x - 50$
+* **Divisor:** $4x^2 + \mathbf{0x} - 5$
+
+---
+
+#### **Step 2: Perform Long Division**
+
+**A. Find the first term of the quotient ($8x^2$):**
+* **Divide:** $\frac{32x^4}{4x^2} = 8x^2$
+* **Multiply:** $8x^2(4x^2 + 0x - 5) = 32x^4 + 0x^3 - 40x^2$
+* **Subtract:**
+    $$
+    (32x^4 + 12x^3 + 0x^2) - (32x^4 + 0x^3 - 40x^2) = \mathbf{12x^3 + 40x^2}
+    $$
+* Bring down the next term ($-15x$). New dividend: $12x^3 + 40x^2 - 15x - 50$.
+
+**B. Find the second term of the quotient ($+3x$):**
+* **Divide:** $\frac{12x^3}{4x^2} = 3x$
+* **Multiply:** $3x(4x^2 + 0x - 5) = 12x^3 + 0x^2 - 15x$
+* **Subtract:**
+    $$
+    (12x^3 + 40x^2 - 15x) - (12x^3 + 0x^2 - 15x) = \mathbf{40x^2}
+    $$
+* Bring down the next term ($-50$). New dividend: $40x^2 - 50$.
+
+**C. Find the third term of the quotient ($+10$):**
+* **Divide:** $\frac{40x^2}{4x^2} = 10$
+* **Multiply:** $10(4x^2 + 0x - 5) = 40x^2 + 0x - 50$
+* **Subtract:**
+    $$
+    (40x^2 - 50) - (40x^2 - 50) = \mathbf{0}
+    $$
+
+---
+
+#### **Step 3: Final Result**
+
+Since the remainder is 0, the quotient is the final answer.
+
+**Quotient (Answer):** $\mathbf{8x^2 + 3x + 10}$
