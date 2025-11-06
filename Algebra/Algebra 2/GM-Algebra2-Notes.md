@@ -4471,6 +4471,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=1637m5s
 - **DMSBR** = Divivde, Multiply, Subtract, Bringdown, Repeat/Remainder = Family Mnemonic : Dad, Mom, Sister, Brother, Rover = Used in long division
 - For doing long division on polynomials, you want to put the polynomial in standard form first, then leading terms go with leading terms (example below - 'n' is the leading term, so you divide by that first on the leading term, get the amount '$5n^3 / n = 5n^2$ and THEN multiply that by the divisor terms, subtract the new multiplied term by the next term(bringdown), take the remainder, and repeat.. )
 - when converting a polynomial to standard form and you have missing terms, use '0' zero as a placeholder - YOU NEED TO DO THIS FOR BOTH THE NUMERATOR (TOP) and DENOMINATOR (bottom), convert BOTH to standard forms, and if a term is missing replace it with '0' like the example below using $0x^2$ and $0x$  as placeholder
+- if you want to check your result, just multiply the quotient by ther divisor and add the remainder
 ### 📝 Polynomial Long Division
 
 **Problem:** Divide $45n + 5n^3 - 18 + 38n^2$ by $n + 6$.
