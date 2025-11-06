@@ -4406,3 +4406,63 @@ Combine all simplified terms.
 $$
 \mathbf{x^3 - 6x^2 + 12x - 8}
 $$
+Here are the Obsidian notes for expanding the binomial $(6z - 4x)^3$ using the Cube of a Difference formula.### 📝 Expanding the Cube of a Binomial: $(6z - 4x)^3$
+
+**Goal:** Expand the expression using the Cube of a Difference formula.
+
+---
+
+#### **Formula Used**
+
+We use the **Cube of a Difference** formula:
+$$
+\mathbf{(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3}
+$$
+
+* In the expression $(6z - 4x)^3$:
+    * $\mathbf{a = 6z}$
+    * $\mathbf{b = 4x}$
+
+---
+
+#### **Step 1: Substitution**
+
+Substitute $a=6z$ and $b=4x$ into the formula structure:
+
+$$
+(6z)^3 - 3(6z)^2(4x) + 3(6z)(4x)^2 - (4x)^3
+$$
+
+---
+
+#### **Step 2: Simplify Each Term**
+
+1.  **Term 1 ($a^3$):**
+    $$
+    (6z)^3 = 6^3 z^3 = \mathbf{216z^3}
+    $$
+
+2.  **Term 2 ($-3a^2b$):**
+    $$
+    -3(6z)^2(4x) = -3(36z^2)(4x) = -(3 \cdot 36 \cdot 4)z^2x = \mathbf{-432z^2x}
+    $$
+
+3.  **Term 3 ($+3ab^2$):**
+    $$
+    +3(6z)(4x)^2 = +3(6z)(16x^2) = +(3 \cdot 6 \cdot 16)zx^2 = \mathbf{+288zx^2}
+    $$
+
+4.  **Term 4 ($-b^3$):**
+    $$
+    -(4x)^3 = -(4^3 x^3) = \mathbf{-64x^3}
+    $$
+
+---
+
+#### **Step 3: Final Expanded Result**
+
+Combine the simplified terms, typically arranging in descending order of one variable (e.g., $x$) for convention.
+
+$$
+\mathbf{-64x^3 + 288x^2z - 432xz^2 + 216z^3}
+$$
