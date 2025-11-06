@@ -4466,3 +4466,4 @@ Combine the simplified terms, typically arranging in descending order of one var
 $$
 \mathbf{-64x^3 + 288x^2z - 432xz^2 + 216z^3}
 $$
+## Algebra II - Lesson 37 - Dividing Polynomials - 06November 2025 :
