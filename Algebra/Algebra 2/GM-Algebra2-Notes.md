@@ -4885,3 +4885,65 @@ $$
 $$
 \mathbf{(f \cdot g)(-1) = -21}
 $$
+### 📝 Dividing and Evaluating Polynomial Functions: $(f/g)(-4)$
+
+**Given Functions:**
+* $f(x) = x^3 + 7x^2 - 9x - 4$
+* $g(x) = x + 8$
+
+**Goal:** Calculate $(f/g)(-4)$, which is equal to $\frac{f(-4)}{g(-4)}$.
+
+---
+
+#### **Step 1: Evaluate $f(x)$ at $x=-4$**
+
+Substitute $x=-4$ into $f(x)$.
+
+$$
+f(-4) = (-4)^3 + 7(-4)^2 - 9(-4) - 4
+$$
+
+1.  **Calculate Powers:**
+    * $(-4)^3 = -64$
+    * $(-4)^2 = 16$
+    $$
+    f(-4) = -64 + 7(16) - 9(-4) - 4
+    $$
+
+2.  **Multiply:**
+    $$
+    f(-4) = -64 + 112 + 36 - 4
+    $$
+
+3.  **Final Sum:**
+    $$
+    f(-4) = 48 + 36 - 4 = 84 - 4 = \mathbf{80}
+    $$
+
+---
+
+#### **Step 2: Evaluate $g(x)$ at $x=-4$**
+
+Substitute $x=-4$ into $g(x)$.
+
+$$
+g(-4) = -4 + 8 = \mathbf{4}
+$$
+
+---
+
+#### **Step 3: Calculate the Quotient**
+
+Divide the result from Step 1 by the result from Step 2.
+
+$$
+(f/g)(-4) = \frac{f(-4)}{g(-4)} = \frac{80}{4} = \mathbf{20}
+$$
+
+---
+
+#### **Final Result**
+
+$$
+\mathbf{(f/g)(-4) = 20}
+$$
