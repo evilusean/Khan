@@ -4635,3 +4635,4 @@ $$
 \text{Answer} = \mathbf{m^2 + 5m + 2 + \frac{2}{m + 5}}
 $$
 ## Algebra II - Lesson 38 - Synthetic Division - 06November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h6m25s
