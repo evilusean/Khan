@@ -4948,3 +4948,4 @@ $$
 \mathbf{(f/g)(-4) = 20}
 $$
 ## Algebra II - Lesson 40 - Factoring out the GCF(Greatest Common Factor) - 07November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h57m50s
