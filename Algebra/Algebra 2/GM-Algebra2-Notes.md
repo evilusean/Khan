@@ -4819,3 +4819,69 @@ $$
 $$
 \mathbf{(f + g + h)(-1) = -5}
 $$
+### 📝 Multiplying and Evaluating Polynomial Functions: $(f \cdot g)(-1)$
+
+**Given Functions:**
+* $f(x) = 2x + 5$
+* $g(x) = 3x^2 + 4x - 6$
+
+---
+
+#### **Method 1: Multiply First, Then Evaluate**
+
+**Step 1a: Find the Product Function, $(f \cdot g)(x)$**
+Multiply $f(x)$ by $g(x)$ using the distributive property.
+
+$$
+(f \cdot g)(x) = (2x + 5)(3x^2 + 4x - 6)
+$$
+Distribute $2x$: $2x(3x^2) + 2x(4x) + 2x(-6) = 6x^3 + 8x^2 - 12x$
+Distribute $5$: $5(3x^2) + 5(4x) + 5(-6) = 15x^2 + 20x - 30$
+
+**Combine Like Terms:**
+$$
+(f \cdot g)(x) = 6x^3 + (8x^2 + 15x^2) + (-12x + 20x) - 30
+$$
+$$
+(f \cdot g)(x) = 6x^3 + 23x^2 + 8x - 30
+$$
+
+**Step 1b: Evaluate the Product Function at $x=-1$**
+Substitute $x=-1$ into the result.
+$$
+(f \cdot g)(-1) = 6(-1)^3 + 23(-1)^2 + 8(-1) - 30
+$$
+$$
+(f \cdot g)(-1) = 6(-1) + 23(1) - 8 - 30
+$$
+$$
+(f \cdot g)(-1) = -6 + 23 - 8 - 30
+$$
+$$
+(f \cdot g)(-1) = 17 - 8 - 30 = 9 - 30 = \mathbf{-21}
+$$
+
+---
+
+#### **Method 2: Evaluate First, Then Multiply (Easier)**
+
+**Step 2a: Evaluate $f(-1)$ and $g(-1)$ Separately**
+$$
+f(-1) = 2(-1) + 5 = -2 + 5 = \mathbf{3}
+$$
+$$
+g(-1) = 3(-1)^2 + 4(-1) - 6 = 3(1) - 4 - 6 = 3 - 10 = \mathbf{-7}
+$$
+
+**Step 2b: Multiply the Results**
+$$
+(f \cdot g)(-1) = f(-1) \cdot g(-1) = 3 \cdot (-7) = \mathbf{-21}
+$$
+
+---
+
+#### **Final Result**
+
+$$
+\mathbf{(f \cdot g)(-1) = -21}
+$$
