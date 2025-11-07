@@ -4636,3 +4636,9 @@ $$
 $$
 ## Algebra II - Lesson 38 - Synthetic Division - 06November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h6m25s
+- When we didvide a polynomial by a binomial of the form $x - k$, we can use a shortcut known as synthetic division
+- You want to write the polynomial in standard form and replace any missing terms with '$0x^n$', then get the constant, which is 'k' 
+- x + 3 = x - (-3) : if you write it like this and ignore the first '-' sign, you can just take '-3' and that would be 'k'
+- similar to matrices, you just use the coefficients and leave the variables/exponents out
+- if you have a '0' in the final positon, that means you have no remainder
+- 
