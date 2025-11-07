@@ -4695,3 +4695,65 @@ Combine the simplified terms to write the final polynomial.
 $$
 \mathbf{(f - g)(x) = -9x^4 + 21x^3 + 23x^2}
 $$
+### 📝 Adding and Evaluating Polynomial Functions: $(f + g)(2)$
+
+**Given Functions:**
+* $f(x) = 14x^4 - 8x^3 + 11x$
+* $g(x) = -3x^4 - 5x - 3$
+
+---
+
+#### **Step 1: Find the Sum Function, $(f + g)(x)$**
+
+Combine $f(x)$ and $g(x)$ by grouping and adding like terms.
+
+$$
+(f + g)(x) = (14x^4 - 8x^3 + 11x) + (-3x^4 - 5x - 3)
+$$
+
+1.  **$x^4$ Terms:** $14x^4 - 3x^4 = \mathbf{11x^4}$
+2.  **$x^3$ Terms:** $-8x^3$ (no other $x^3$ term)
+3.  **$x$ Terms:** $11x - 5x = \mathbf{+6x}$
+4.  **Constant Term:** $-3$
+
+$$
+(f + g)(x) = \mathbf{11x^4 - 8x^3 + 6x - 3}
+$$
+
+---
+
+#### **Step 2: Evaluate the Sum Function at $x=2$**
+
+Substitute $x=2$ into the resulting sum function $(f + g)(x)$.
+
+$$
+(f + g)(2) = 11(2)^4 - 8(2)^3 + 6(2) - 3
+$$
+
+1.  **Calculate Powers:**
+    * $2^4 = 16$
+    * $2^3 = 8$
+    $$
+    (f + g)(2) = 11(16) - 8(8) + 6(2) - 3
+    $$
+
+2.  **Multiply:**
+    $$
+    (f + g)(2) = 176 - 64 + 12 - 3
+    $$
+
+3.  **Final Calculation:**
+    $$
+    (f + g)(2) = 112 + 12 - 3
+    $$
+    $$
+    (f + g)(2) = 124 - 3 = \mathbf{121}
+    $$
+
+---
+
+#### **Final Result**
+
+$$
+\mathbf{(f + g)(2) = 121}
+$$
