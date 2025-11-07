@@ -4645,7 +4645,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h6m25s
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h28m40s
 - $f(x) = -x^3 + 5x - 10$ : find: f(0), f(2), f(-2) : how a function looks, replace 'x' with the value you are solving for
 - **Adding a Function** : $(f + g)(x) = f(x) + g(x)$ : take 'f(x)' and add it with 'g(x)' combining like terms
-- **Subtracting a Function** : $(f- g)(x) = f(x) - g(x)$ : 
+- **Subtracting a Function** : $(f- g)(x) = f(x) - g(x)$ : when subtracting, make sure you put  all the terms in a parenthesis, so you don't just subtract the first term
+- If you are given the term for 'x' like : $(f + g)(2)$ : simply plug '2' in for 'x' and sum the 2 
 ### 📝 Subtracting Polynomial Functions: $(f - g)(x)$
 
 **Given Functions:**
