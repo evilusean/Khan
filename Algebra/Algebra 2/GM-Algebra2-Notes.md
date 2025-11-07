@@ -4642,3 +4642,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h6m25s
 - similar to matrices, you just use the coefficients and leave the variables/exponents out
 - if you have a '0' in the final positon, that means you have no remainder
 ## Algebra II - Lesson 39 - Polynomial Functions - 07November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h28m40s
