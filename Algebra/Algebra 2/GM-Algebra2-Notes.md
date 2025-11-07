@@ -4634,3 +4634,4 @@ The quotient is $m^2 + 5m + 2$ with a remainder of 2.
 $$
 \text{Answer} = \mathbf{m^2 + 5m + 2 + \frac{2}{m + 5}}
 $$
+## Algebra II - Lesson 38 - Synthetic Division - 06November2025 :
