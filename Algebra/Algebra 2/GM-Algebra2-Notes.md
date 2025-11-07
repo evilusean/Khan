@@ -4643,3 +4643,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h6m25s
 - if you have a '0' in the final positon, that means you have no remainder
 ## Algebra II - Lesson 39 - Polynomial Functions - 07November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h28m40s
+- $f(x) = -x^3 + 5x - 10$ : find: f(0), f(2), f(-2) : how a function looks, replace 'x' with the value you are solving for
+- **Adding a Function** : $(f + g)(x) = f(x) + g(x)$ : take 'f(x)' and add it with 'g(x)' combining like terms
+- **Subtracting a Function** : $(f- g)(x) = f(x) - g(x)$
+- 
+
