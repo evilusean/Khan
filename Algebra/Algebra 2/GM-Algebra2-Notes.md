@@ -4647,6 +4647,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h28m40s
 - **Adding a Function** : $(f + g)(x) = f(x) + g(x)$ : take 'f(x)' and add it with 'g(x)' combining like terms
 - **Subtracting a Function** : $(f- g)(x) = f(x) - g(x)$ : when subtracting, make sure you put  all the terms in a parenthesis, so you don't just subtract the first term
 - If you are given the term for 'x' like : $(f + g)(2)$ : simply plug '2' in for 'x' and sum the 2 
+- '$11(2)^4$' when multiplying something like this, multiply the *exponent first* 
 ### 📝 Subtracting Polynomial Functions: $(f - g)(x)$
 
 **Given Functions:**
@@ -4756,4 +4757,63 @@ $$
 
 $$
 \mathbf{(f + g)(2) = 121}
+$$
+### 📝 Summing and Evaluating Three Polynomial Functions: $(f + g + h)(-1)$
+
+**Given Functions:**
+* $f(x) = 5x^2 + 14x + 12$
+* $g(x) = 14x^3 - 12x^2$
+* $h(x) = 7x^2 - 11x$
+
+---
+
+#### **Step 1: Find the Sum Function, $(f + g + h)(x)$**
+
+Combine the three functions by grouping and adding like terms. First, ensure all terms are arranged in descending order of power.
+
+$$
+(f + g + h)(x) = (5x^2 + 14x + 12) + (14x^3 - 12x^2) + (7x^2 - 11x)
+$$
+
+1.  **$x^3$ Terms:** $14x^3$
+2.  **$x^2$ Terms:** $5x^2 - 12x^2 + 7x^2 = (5 - 12 + 7)x^2 = \mathbf{0x^2}$
+3.  **$x$ Terms:** $14x - 11x = \mathbf{+3x}$
+4.  **Constant Terms:** $+12$
+
+$$
+(f + g + h)(x) = \mathbf{14x^3 + 3x + 12}
+$$
+
+---
+
+#### **Step 2: Evaluate the Sum Function at $x=-1$**
+
+Substitute $x=-1$ into the resulting sum function $(f + g + h)(x)$.
+
+$$
+(f + g + h)(-1) = 14(-1)^3 + 3(-1) + 12
+$$
+
+1.  **Calculate Powers:**
+    * $(-1)^3 = -1$ (Negative base raised to an odd power is negative.)
+    $$
+    (f + g + h)(-1) = 14(-1) + 3(-1) + 12
+    $$
+
+2.  **Multiply:**
+    $$
+    (f + g + h)(-1) = -14 - 3 + 12
+    $$
+
+3.  **Final Calculation:**
+    $$
+    (f + g + h)(-1) = -17 + 12 = \mathbf{-5}
+    $$
+
+---
+
+#### **Final Result**
+
+$$
+\mathbf{(f + g + h)(-1) = -5}
 $$
