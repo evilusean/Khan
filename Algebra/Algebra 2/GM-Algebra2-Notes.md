@@ -4648,6 +4648,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h28m40s
 - **Subtracting a Function** : $(f- g)(x) = f(x) - g(x)$ : when subtracting, make sure you put  all the terms in a parenthesis, so you don't just subtract the first term
 - If you are given the term for 'x' like : $(f + g)(2)$ : simply plug '2' in for 'x' and sum the 2 
 - '$11(2)^4$' when multiplying something like this, multiply the *exponent first* 
+- **Multiply a Function** : $(f \cdot g)(x) = f(x) \cdot g(x)$ : same concept, just plug in for the 'x'  values and multiply 
+- **Divide a Function** : 
 ### 📝 Subtracting Polynomial Functions: $(f - g)(x)$
 
 **Given Functions:**
