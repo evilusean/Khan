@@ -4645,6 +4645,52 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h6m25s
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h28m40s
 - $f(x) = -x^3 + 5x - 10$ : find: f(0), f(2), f(-2) : how a function looks, replace 'x' with the value you are solving for
 - **Adding a Function** : $(f + g)(x) = f(x) + g(x)$ : take 'f(x)' and add it with 'g(x)' combining like terms
-- **Subtracting a Function** : $(f- g)(x) = f(x) - g(x)$
-- 
+- **Subtracting a Function** : $(f- g)(x) = f(x) - g(x)$ : 
+### 📝 Subtracting Polynomial Functions: $(f - g)(x)$
 
+**Given Functions:**
+* $f(x) = -11x^4 + 10x^3 + 14x^2$
+* $g(x) = -2x^4 - 11x^3 - 9x^2$
+
+---
+
+#### **Step 1: Write the Subtraction Expression**
+
+The operation $(f - g)(x)$ means $f(x) - g(x)$. It is critical to **distribute the negative sign** across all terms in $g(x)$.
+
+$$
+(f - g)(x) = (-11x^4 + 10x^3 + 14x^2) - (-2x^4 - 11x^3 - 9x^2)
+$$
+
+$$
+(f - g)(x) = -11x^4 + 10x^3 + 14x^2 \mathbf{+ 2x^4 + 11x^3 + 9x^2}
+$$
+
+---
+
+#### **Step 2: Group and Combine Like Terms**
+
+Group the coefficients for terms with the same exponent ($x^4, x^3, x^2$).
+
+* **$x^4$ Terms:**
+    $$
+    -11x^4 + 2x^4 = \mathbf{-9x^4}
+    $$
+* **$x^3$ Terms:**
+    $$
+    +10x^3 + 11x^3 = \mathbf{+21x^3}
+    $$
+* **$x^2$ Terms:**
+    $$
+    +14x^2 + 9x^2 = \mathbf{+23x^2}
+    $$
+
+---
+
+#### **Step 3: Final Result**
+
+Combine the simplified terms to write the final polynomial.
+
+$$
+\mathbf{(f - g)(x) = -9x^4 + 21x^3 + 23x^2}
+$$
