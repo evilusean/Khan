@@ -5056,3 +5056,33 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=18h26m30s
   3) Factor the GCF out of each group, we should be left with a common binomial factor
   4) In some cases, we must try a different grouping
 - **GCF = Greatest Common Factor** = The greatest common factor is the largest term that each term of the polynomial is divisible by
+- **Common Binomial Factor** = is a two-term polynomial expression (a binomial) that is shared between two or more terms in a larger expression, allowing it to be factored out using the distributive property, most often seen after factoring by grouping.
+### Factoring by Grouping: 18n³ + 21n² - 6n - 7
+
+The polynomial to factor is:
+$$18n^3 + 21n^2 - 6n - 7$$
+
+#### Step 1: Group the Terms
+Group the first two terms and the last two terms, keeping the negative sign with the third term.
+$$(18n^3 + 21n^2) + (-6n - 7)$$
+
+#### Step 2: Factor out the GCF from Each Group
+1.  **First Group** $(18n^3 + 21n^2)$:
+    * The Greatest Common Factor (GCF) is **$3n^2$**.
+    * $$3n^2(6n + 7)$$
+2.  **Second Group** $(-6n - 7)$:
+    * The GCF is **$-1$** (factoring out $-1$ yields the matching binomial $(6n+7)$).
+    * $$-1(6n + 7)$$
+
+#### Step 3: Rewrite the Expression
+Combine the factored groups:
+$$3n^2(6n + 7) - 1(6n + 7)$$
+
+#### Step 4: Factor out the Common Binomial
+Factor out the common binomial factor, $(6n + 7)$:
+$$(6n + 7)(3n^2 - 1)$$
+
+---
+
+#### Final Factored Form
+$$(6n + 7)(3n^2 - 1)$$
