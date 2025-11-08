@@ -5057,6 +5057,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=18h26m30s
   4) In some cases, we must try a different grouping
 - **GCF = Greatest Common Factor** = The greatest common factor is the largest term that each term of the polynomial is divisible by
 - **Common Binomial Factor** = is a two-term polynomial expression (a binomial) that is shared between two or more terms in a larger expression, allowing it to be factored out using the distributive property, most often seen after factoring by grouping.
+- When factoring while grouping, in alot of cases there is more than one way to group the terms and it will still work, and give the same answer 
 ### Factoring by Grouping: 18n³ + 21n² - 6n - 7
 
 The polynomial to factor is:
@@ -5086,3 +5087,131 @@ $$(6n + 7)(3n^2 - 1)$$
 
 #### Final Factored Form
 $$(6n + 7)(3n^2 - 1)$$
+
+***
+### Alternative Grouping: $18n^3 - 6n$ and $21n^2 - 7$
+
+The original expression is: $18n^3 + 21n^2 - 6n - 7$.
+
+#### Step A1: Rearrange and Group the Terms
+Rearrange the terms to put the requested groups together, making sure to include the negative sign with the $6n$:
+$$(18n^3 - 6n) + (21n^2 - 7)$$
+
+#### Step A2: Factor out the GCF from Each Group
+1.  **First Group** $(18n^3 - 6n)$:
+    * The GCF is **$6n$**.
+    * $$6n(3n^2 - 1)$$
+2.  **Second Group** $(21n^2 - 7)$:
+    * The GCF is **$7$**.
+    * $$7(3n^2 - 1)$$
+
+#### Step A3: Rewrite the Expression
+Combine the factored groups:
+$$6n(3n^2 - 1) + 7(3n^2 - 1)$$
+
+#### Step A4: Factor out the Common Binomial
+Factor out the common binomial factor, **$(3n^2 - 1)$**:
+$$(3n^2 - 1)(6n + 7)$$
+
+---
+
+#### Final Factored Form (Alternative Grouping)
+$$(3n^2 - 1)(6n + 7)$$
+
+***
+*Note: Since multiplication is commutative ($A \cdot B = B \cdot A$), the result is the same regardless of which valid grouping is chosen.*
+### Factoring by Grouping: 18n³ + 21n² - 6n - 7
+
+The polynomial to factor is:
+$$18n^3 + 21n^2 - 6n - 7$$
+
+#### Step 1: Group the Terms
+Group the first two terms and the last two terms, keeping the negative sign with the third term.
+$$(18n^3 + 21n^2) + (-6n - 7)$$
+
+#### Step 2: Factor out the GCF from Each Group
+1.  **First Group** $(18n^3 + 21n^2)$:
+    * The Greatest Common Factor (GCF) is **$3n^2$**.
+    * $$3n^2(6n + 7)$$
+2.  **Second Group** $(-6n - 7)$:
+    * The GCF is **$-1$** (factoring out $-1$ yields the matching binomial $(6n+7)$).
+    * $$-1(6n + 7)$$
+
+#### Step 3: Rewrite the Expression
+Combine the factored groups:
+$$3n^2(6n + 7) - 1(6n + 7)$$
+
+#### Step 4: Factor out the Common Binomial
+Factor out the common binomial factor, $(6n + 7)$:
+$$(6n + 7)(3n^2 - 1)$$
+
+---
+
+#### Final Factored Form
+$$(6n + 7)(3n^2 - 1)$$
+
+***
+### Common Binomial Factor
+
+A **common binomial factor** is a two-term polynomial expression (a binomial) that is shared between two or more terms in a larger expression, allowing it to be factored out using the distributive property, most often seen after factoring by grouping.
+
+***
+### Alternative Grouping: $18n^3 - 6n$ and $21n^2 - 7$
+
+The original expression is: $18n^3 + 21n^2 - 6n - 7$.
+
+#### Step A1: Rearrange and Group the Terms
+Rearrange the terms to put the requested groups together, making sure to include the negative sign with the $6n$:
+$$(18n^3 - 6n) + (21n^2 - 7)$$
+
+#### Step A2: Factor out the GCF from Each Group
+1.  **First Group** $(18n^3 - 6n)$:
+    * The GCF is **$6n$**.
+    * $$6n(3n^2 - 1)$$
+2.  **Second Group** $(21n^2 - 7)$:
+    * The GCF is **$7$**.
+    * $$7(3n^2 - 1)$$
+
+#### Step A3: Rewrite the Expression
+Combine the factored groups:
+$$6n(3n^2 - 1) + 7(3n^2 - 1)$$
+
+#### Step A4: Factor out the Common Binomial
+Factor out the common binomial factor, **$(3n^2 - 1)$**:
+$$(3n^2 - 1)(6n + 7)$$
+
+---
+
+#### Final Factored Form (Alternative Grouping)
+$$(3n^2 - 1)(6n + 7)$$
+
+***
+### Factoring by Grouping: $49x^3 + 35x^2 - 42x - 30$
+
+The polynomial to factor is:
+$$49x^3 + 35x^2 - 42x - 30$$
+
+#### Step B1: Group the Terms
+Group the first two terms and the last two terms, making sure to keep the negative sign with the third term.
+$$(49x^3 + 35x^2) + (-42x - 30)$$
+
+#### Step B2: Factor out the GCF from Each Group
+1.  **First Group** $(49x^3 + 35x^2)$:
+    * The Greatest Common Factor (GCF) is **$7x^2$**.
+    * $$7x^2(7x + 5)$$
+2.  **Second Group** $(-42x - 30)$:
+    * The GCF is **$-6$** (factoring out a negative is key to getting the matching binomial).
+    * $$-6(7x + 5)$$
+
+#### Step B3: Rewrite the Expression
+Combine the factored groups:
+$$7x^2(7x + 5) - 6(7x + 5)$$
+
+#### Step B4: Factor out the Common Binomial
+Factor out the common binomial factor, **$(7x + 5)$**:
+$$(7x + 5)(7x^2 - 6)$$
+
+---
+
+#### Final Factored Form
+$$(7x + 5)(7x^2 - 6)$$
