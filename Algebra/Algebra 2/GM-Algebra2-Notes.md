@@ -5280,3 +5280,168 @@ $$5(5b + 3)(3a - 2)$$
 
 #### Final Factored Form
 $$5(5b + 3)(3a - 2)$$
+### Factoring by Grouping: 18n³ + 21n² - 6n - 7
+
+The polynomial to factor is:
+$$18n^3 + 21n^2 - 6n - 7$$
+
+#### Step 1: Group the Terms
+Group the first two terms and the last two terms, keeping the negative sign with the third term.
+$$(18n^3 + 21n^2) + (-6n - 7)$$
+
+#### Step 2: Factor out the GCF from Each Group
+1.  **First Group** $(18n^3 + 21n^2)$:
+    * The Greatest Common Factor (GCF) is **$3n^2$**.
+    * $$3n^2(6n + 7)$$
+2.  **Second Group** $(-6n - 7)$:
+    * The GCF is **$-1$** (factoring out $-1$ yields the matching binomial $(6n+7)$).
+    * $$-1(6n + 7)$$
+
+#### Step 3: Rewrite the Expression
+Combine the factored groups:
+$$3n^2(6n + 7) - 1(6n + 7)$$
+
+#### Step 4: Factor out the Common Binomial
+Factor out the common binomial factor, $(6n + 7)$:
+$$(6n + 7)(3n^2 - 1)$$
+
+---
+
+#### Final Factored Form
+$$(6n + 7)(3n^2 - 1)$$
+
+***
+### Common Binomial Factor
+
+A **common binomial factor** is a two-term polynomial expression (a binomial) that is shared between two or more terms in a larger expression, allowing it to be factored out using the distributive property, most often seen after factoring by grouping.
+
+***
+### Alternative Grouping: $18n^3 - 6n$ and $21n^2 - 7$
+
+The original expression is: $18n^3 + 21n^2 - 6n - 7$.
+
+#### Step A1: Rearrange and Group the Terms
+Rearrange the terms to put the requested groups together, making sure to include the negative sign with the $6n$:
+$$(18n^3 - 6n) + (21n^2 - 7)$$
+
+#### Step A2: Factor out the GCF from Each Group
+1.  **First Group** $(18n^3 - 6n)$:
+    * The GCF is **$6n$**.
+    * $$6n(3n^2 - 1)$$
+2.  **Second Group** $(21n^2 - 7)$:
+    * The GCF is **$7$**.
+    * $$7(3n^2 - 1)$$
+
+#### Step A3: Rewrite the Expression
+Combine the factored groups:
+$$6n(3n^2 - 1) + 7(3n^2 - 1)$$
+
+#### Step A4: Factor out the Common Binomial
+Factor out the common binomial factor, **$(3n^2 - 1)$**:
+$$(3n^2 - 1)(6n + 7)$$
+
+---
+
+#### Final Factored Form (Alternative Grouping)
+$$(3n^2 - 1)(6n + 7)$$
+
+***
+### Factoring by Grouping: $49x^3 + 35x^2 - 42x - 30$
+
+The polynomial to factor is:
+$$49x^3 + 35x^2 - 42x - 30$$
+
+#### Step B1: Group the Terms
+Group the first two terms and the last two terms, making sure to keep the negative sign with the third term.
+$$(49x^3 + 35x^2) + (-42x - 30)$$
+
+#### Step B2: Factor out the GCF from Each Group
+1.  **First Group** $(49x^3 + 35x^2)$:
+    * The Greatest Common Factor (GCF) is **$7x^2$**.
+    * $$7x^2(7x + 5)$$
+2.  **Second Group** $(-42x - 30)$:
+    * The GCF is **$-6$** (factoring out a negative is key to getting the matching binomial).
+    * $$-6(7x + 5)$$
+
+#### Step B3: Rewrite the Expression
+Combine the factored groups:
+$$7x^2(7x + 5) - 6(7x + 5)$$
+
+#### Step B4: Factor out the Common Binomial
+Factor out the common binomial factor, **$(7x + 5)$**:
+$$(7x + 5)(7x^2 - 6)$$
+
+---
+
+#### Final Factored Form
+$$(7x + 5)(7x^2 - 6)$$
+
+***
+### Factoring by Grouping: $75ab - 30 + 45a - 50b$ (Starting with GCF)
+
+The polynomial to factor is:
+$$75ab - 30 + 45a - 50b$$
+
+#### Step 0: Factor out the Greatest Common Factor (GCF)
+The GCF of all four terms is **5**.
+$$5(15ab - 6 + 9a - 10b)$$
+
+#### Step C1: Rearrange and Group the Terms (Inside the Parentheses)
+Rearrange the terms inside the parentheses to match the requested grouping: $(15ab - 10b)$ and $(9a - 6)$.
+$$5[(15ab - 10b) + (9a - 6)]$$
+
+#### Step C2: Factor out the GCF from Each Group
+1.  **First Group** $(15ab - 10b)$:
+    * The GCF is **$5b$**.
+    * $$5b(3a - 2)$$
+2.  **Second Group** $(9a - 6)$:
+    * The GCF is **$3$**.
+    * $$3(3a - 2)$$
+
+#### Step C3: Rewrite the Expression
+Combine the factored groups (keeping the initial GCF, 5, outside):
+$$5[5b(3a - 2) + 3(3a - 2)]$$
+
+#### Step C4: Factor out the Common Binomial
+Factor out the common binomial factor, **$(3a - 2)$**:
+$$5(3a - 2)(5b + 3)$$
+
+---
+
+#### Final Factored Form
+$$5(3a - 2)(5b + 3)$$
+
+***
+### Factoring by Grouping: $56n^2ab - 40n^2ma + 70n^2a^2 - 32n^2mb$
+
+The polynomial to factor is:
+$$56n^2ab - 40n^2ma + 70n^2a^2 - 32n^2mb$$
+
+#### Step D0: Factor out the Greatest Common Factor (GCF)
+The GCF of all four terms is **$2n^2$**.
+$$2n^2(28ab - 20ma + 35a^2 - 16mb)$$
+
+#### Step D1: Rearrange and Group the Terms (Inside the Parentheses)
+Rearrange the terms inside the parentheses to match the requested grouping: **$(35a^2 + 28ab) + (-20am - 16mb)$**.
+$$2n^2[(35a^2 + 28ab) + (-20am - 16mb)]$$
+
+#### Step D2: Factor out the GCF from Each Group
+1.  **First Group** $(35a^2 + 28ab)$:
+    * The GCF is **$7a$**.
+    * $$7a(5a + 4b)$$
+2.  **Second Group** $(-20am - 16mb)$:
+    * The GCF is **$-4m$** (factoring out the negative is necessary to match the first binomial).
+    * $$-4m(5a + 4b)$$
+
+#### Step D3: Rewrite the Expression
+Combine the factored groups (keeping the initial GCF, $2n^2$, outside):
+$$2n^2[7a(5a + 4b) - 4m(5a + 4b)]$$
+
+#### Step D4: Factor out the Common Binomial
+Factor out the common binomial factor, **$(5a + 4b)$**:
+$$2n^2(5a + 4b)(7a - 4m)$$
+
+---
+
+#### Final Factored Form
+$$2n^2(5a + 4b)(7a - 4m)$$
