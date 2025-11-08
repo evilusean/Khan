@@ -5050,3 +5050,9 @@ $$
 $$
 ## Algebra II - Lesson 41 - Factoring By Grouping - 08November2025 : 
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=18h26m30s
+- **Factoring by Grouping** steps : 
+  1) Look for the GCF of all terms, when this is not 1, factor this term out to begin
+  2) Arrange the terms in two groups of two terms each, such that each group has a common factor
+  3) Factor the GCF out of each group, we should be left with a common binomial factor
+  4) In some cases, we must try a different grouping
+- **GCF = Greatest Common Factor** = The greatest common factor is the largest term that each term of the polynomial is divisible by

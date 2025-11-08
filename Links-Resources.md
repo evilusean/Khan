@@ -4,8 +4,11 @@ https://en.wikipedia.org/wiki/C._H._Douglas
 FCC - College Algebra - Full Course :
 https://www.youtube.com/watch?v=LwCRRUa8yTU
 
-FCC - Precalculus Course :
+FCC - Precalculus Course (5 hours) :
 https://www.youtube.com/watch?v=eI4an8aSsgw
+
+GM -Trigonometry Full Course (22 hours) :
+https://www.youtube.com/watch?v=rBT1iAqlzHY
 
 FCC - Calculus 1 - Full College Course :
 https://www.youtube.com/watch?v=HfACrKJ_Y2w
