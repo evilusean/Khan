@@ -4952,6 +4952,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h57m50s
 - **GCF = Greatest Common Factor** = The greatest common factor is the largest term that each term of the polynomial is divisible by
 - $6x^2, 12x, 18x^5$ : GCF would by $6x$ 
 - Do prime factorization (break it down) and the GCF will be the numbers from the factorization that are shared between each term, then multiply them together to get the GCF
+- If it's not common to everything, it can't be a part of the GCF : 'y' not example below
+- Factoring is just reversing the distributive property
 ### 📝 Finding the Greatest Common Factor (GCF)
 
 **Expressions:**
@@ -4999,4 +5001,49 @@ $$
 
 $$
 \mathbf{GCF = 7xy^2}
+$$
+### 📝 Factoring a Polynomial by GCF (Negative Leading Term)
+
+**Expression:**
+$$
+\mathbf{-28x^4y^4 + 24xy^3 + 32xy^2}
+$$
+
+---
+
+#### **Step 1: Determine the Greatest Common Factor (GCF)**
+
+Find the GCF of the coefficients and the variables. Since the leading term ($-28x^4y^4$) is negative, we factor out a **negative** GCF.
+
+1.  **GCF of Coefficients (28, 24, 32):** The greatest common factor for the numbers is **4**. Since we factor out the negative sign, the coefficient GCF is **-4**.
+    * $28 = 4 \cdot 7$
+    * $24 = 4 \cdot 6$
+    * $32 = 4 \cdot 8$
+
+2.  **GCF of Variables ($x$):** The lowest power of $x$ present in all three terms is $x^1$ (from $24xy^3$ and $32xy^2$). The first term has $x^4$.
+    * $\text{GCF}(x) = \mathbf{x}$
+
+3.  **GCF of Variables ($y$):** The lowest power of $y$ present in all three terms is $y^2$ (from $32xy^2$).
+    * $\text{GCF}(y) = \mathbf{y^2}$
+
+**Overall GCF:** $\mathbf{-4xy^2}$
+
+---
+
+#### **Step 2: Divide Each Term by the GCF**
+
+Divide each term of the original polynomial by the GCF ($\mathbf{-4xy^2}$).
+
+1.  $\frac{-28x^4y^4}{-4xy^2} = \mathbf{7x^3y^2}$ (The negative signs cancel.)
+2.  $\frac{+24xy^3}{-4xy^2} = \mathbf{-6y}$ (The signs are different, resulting in a negative.)
+3.  $\frac{+32xy^2}{-4xy^2} = \mathbf{-8}$ (The signs are different, resulting in a negative.)
+
+---
+
+#### **Step 3: Write the Factored Form**
+
+Write the GCF outside the parentheses, followed by the resulting expression from Step 2.
+
+$$
+\mathbf{-4xy^2(7x^3y^2 - 6y - 8)}
 $$
