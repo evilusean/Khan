@@ -4954,6 +4954,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h57m50s
 - Do prime factorization (break it down) and the GCF will be the numbers from the factorization that are shared between each term, then multiply them together to get the GCF
 - If it's not common to everything, it can't be a part of the GCF : 'y' not example below
 - Factoring is just reversing the distributive property
+- if all the terms are '-' negative, you can factor the negative symbol as well
 ### 📝 Finding the Greatest Common Factor (GCF)
 
 **Expressions:**
