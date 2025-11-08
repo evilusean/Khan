@@ -5215,3 +5215,68 @@ $$(7x + 5)(7x^2 - 6)$$
 
 #### Final Factored Form
 $$(7x + 5)(7x^2 - 6)$$
+### Factoring by Grouping: $75ab - 30 + 45a - 50b$ 
+The polynomial to factor is:
+$$75ab - 30 + 45a - 50b$$
+
+#### Step 0: Factor out the Greatest Common Factor (GCF)
+The GCF of all four terms is **5**.
+$$5(15ab - 6 + 9a - 10b)$$
+
+#### Step C1: Rearrange and Group the Terms (Inside the Parentheses)
+Rearrange the terms inside the parentheses to match the requested grouping: $(15ab - 10b)$ and $(9a - 6)$.
+$$5[(15ab - 10b) + (9a - 6)]$$
+
+#### Step C2: Factor out the GCF from Each Group
+1.  **First Group** $(15ab - 10b)$:
+    * The GCF is **$5b$**.
+    * $$5b(3a - 2)$$
+2.  **Second Group** $(9a - 6)$:
+    * The GCF is **$3$**.
+    * $$3(3a - 2)$$
+
+#### Step C3: Rewrite the Expression
+Combine the factored groups (keeping the initial GCF, 5, outside):
+$$5[5b(3a - 2) + 3(3a - 2)]$$
+
+#### Step C4: Factor out the Common Binomial
+Factor out the common binomial factor, **$(3a - 2)$**:
+$$5(3a - 2)(5b + 3)$$
+
+---
+
+#### Final Factored Form
+$$5(3a - 2)(5b + 3)$$
+### Factoring by Grouping: $75ab - 30 + 45a - 50b$ (Alternative Grouping)
+
+The polynomial to factor is:
+$$75ab - 30 + 45a - 50b$$
+
+#### Step 0: Factor out the Greatest Common Factor (GCF)
+The GCF of all four terms is **5**.
+$$5(15ab - 6 + 9a - 10b)$$
+
+#### Step C1: Rearrange and Group the Terms (Inside the Parentheses)
+Rearrange the terms inside the parentheses to facilitate grouping (e.g., terms with 'a' together, terms with 'b' together):
+$$5[(15ab + 9a) + (-10b - 6)]$$
+
+#### Step C2: Factor out the GCF from Each Group
+1.  **First Group** $(15ab + 9a)$:
+    * The GCF is **$3a$**.
+    * $$3a(5b + 3)$$
+2.  **Second Group** $(-10b - 6)$:
+    * The GCF is **$-2$** (factoring out $-2$ yields the matching binomial).
+    * $$-2(5b + 3)$$
+
+#### Step C3: Rewrite the Expression
+Combine the factored groups (remember to keep the initial GCF, 5, outside):
+$$5[3a(5b + 3) - 2(5b + 3)]$$
+
+#### Step C4: Factor out the Common Binomial
+Factor out the common binomial factor, **$(5b + 3)$**:
+$$5(5b + 3)(3a - 2)$$
+
+---
+
+#### Final Factored Form
+$$5(5b + 3)(3a - 2)$$

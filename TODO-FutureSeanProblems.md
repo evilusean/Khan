@@ -18,3 +18,6 @@ Solving Linear Systems in three Variables using Matrix Methods (Reduced Row Eche
 
 Polynomial Long Division
 
+Factoring By Grouping
+
+
