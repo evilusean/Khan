@@ -4949,3 +4949,6 @@ $$
 $$
 ## Algebra II - Lesson 40 - Factoring out the GCF(Greatest Common Factor) - 07November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h57m50s
+- **GCF = Greatest Common Factor** = The greatest common factor is the largest term that each term of the polynomial is divisible by
+- $6x^2, 12x, 18x^5$ : GCF would by $6x$ 
+- 
