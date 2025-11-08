@@ -5048,3 +5048,4 @@ Write the GCF outside the parentheses, followed by the resulting expression from
 $$
 \mathbf{-4xy^2(7x^3y^2 - 6y - 8)}
 $$
+## Algebra II - Lesson 41 - Factoring By Grouping - 08November2025 : 
