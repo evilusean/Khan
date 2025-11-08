@@ -5445,3 +5445,4 @@ $$2n^2(5a + 4b)(7a - 4m)$$
 
 #### Final Factored Form
 $$2n^2(5a + 4b)(7a - 4m)$$
+## Algebra II - Lesson 42 - Factoring Trinomials with a Leading Coefficient of 1 - 08November2025 :
