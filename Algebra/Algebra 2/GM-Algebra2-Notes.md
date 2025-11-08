@@ -5049,3 +5049,4 @@ $$
 \mathbf{-4xy^2(7x^3y^2 - 6y - 8)}
 $$
 ## Algebra II - Lesson 41 - Factoring By Grouping - 08November2025 : 
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=18h26m30s
