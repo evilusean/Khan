@@ -4951,4 +4951,52 @@ $$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=17h57m50s
 - **GCF = Greatest Common Factor** = The greatest common factor is the largest term that each term of the polynomial is divisible by
 - $6x^2, 12x, 18x^5$ : GCF would by $6x$ 
-- 
+- Do prime factorization (break it down) and the GCF will be the numbers from the factorization that are shared between each term, then multiply them together to get the GCF
+### 📝 Finding the Greatest Common Factor (GCF)
+
+**Expressions:**
+$$
+\mathbf{14y^2x, \quad 21x^3y^2, \quad 42x^9y^3}
+$$
+
+---
+
+#### **Step 1: Find the GCF of the Coefficients**
+
+Determine the largest number that divides evenly into the coefficients (14, 21, and 42).
+
+* **Prime Factors:**
+    * $14 = 2 \cdot 7$
+    * $21 = 3 \cdot 7$
+    * $42 = 2 \cdot 3 \cdot 7$
+
+* **Coefficient GCF:** The common factor is **7**.
+
+---
+
+#### **Step 2: Find the GCF of the Variable Terms**
+
+For each variable, the GCF is the lowest power present across all terms.
+
+| Variable | Powers Present | Lowest Power (GCF) |
+| :---: | :---: | :---: |
+| $x$ | $x^1, x^3, x^9$ | $\mathbf{x^1}$ |
+| $y$ | $y^2, y^2, y^3$ | $\mathbf{y^2}$ |
+
+---
+
+#### **Step 3: Combine the Results**
+
+Multiply the GCFs of the coefficients and the variables.
+
+$$
+\text{GCF} = (7) \cdot (x) \cdot (y^2)
+$$
+
+---
+
+#### **Final Result**
+
+$$
+\mathbf{GCF = 7xy^2}
+$$
