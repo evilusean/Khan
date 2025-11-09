@@ -5489,4 +5489,29 @@ $$= x^2 + 2x - 35$$ (Matches the original trinomial)
 ---
 
 #### Final Factored Form
-$$(x + 7)(x - 5)$$
+$$(x + 7)(x - 5)$$ 
+### Factoring a Trinomial with GCF: $4r^2 + 20r + 16$
+
+The trinomial to factor is:
+$$4r^2 + 20r + 16$$
+
+#### Step 1: Factor out the Greatest Common Factor (GCF)
+The GCF of $4, 20,$ and $16$ is **4**.
+$$4(r^2 + 5r + 4)$$
+
+#### Step 2: Factor the Simplified Trinomial
+Now, factor the trinomial inside the parentheses: $r^2 + 5r + 4$.
+Find two numbers ($p$ and $q$) such that:
+* $p \cdot q = 4$ (The constant term)
+* $p + q = 5$ (The coefficient of the $r$ term)
+
+The two numbers are **4** and **1** (since $4 \cdot 1 = 4$ and $4 + 1 = 5$).
+
+#### Step 3: Write the Factored Form
+Replace the trinomial with its binomial factors, keeping the GCF (4) outside:
+$$4(r + 4)(r + 1)$$
+
+---
+
+#### Final Factored Form
+$$4(r + 4)(r + 1)$$
