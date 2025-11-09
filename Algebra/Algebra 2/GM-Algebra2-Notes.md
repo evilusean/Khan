@@ -5675,3 +5675,46 @@ $$(8x + 3)(x + 6)$$
 
 #### Final Factored Form
 $$(8x + 3)(x + 6)$$
+### Factoring a Trinomial ($ax^2 + bx + c$) by Grouping: $10x^2 + 43x - 9$
+
+The trinomial to factor is:
+$$10x^2 + 43x - 9$$
+($a=10$, $b=43$, $c=-9$)
+
+#### Step 1: Find the Product $a \cdot c$
+Calculate the product of the leading coefficient ($a=10$) and the constant term ($c=-9$).
+$$a \cdot c = 10 \cdot (-9) = -90$$
+
+#### Step 2: Find two numbers ($p$ and $q$)
+Find two numbers that:
+* **Multiply** to $-90$
+* **Add up** to $43$ (The coefficient of the $x$ term, $b$)
+
+Since the product is negative, one number must be positive and one must be negative. Since the sum is a large positive number, the positive factor must be much larger than the negative factor.
+The two numbers are **45** and **-2** (since $45 \cdot (-2) = -90$ and $45 + (-2) = 43$).
+
+#### Step 3: Rewrite the middle term
+Rewrite the middle term, $43x$, using the two numbers found ($45x$ and $-2x$).
+$$10x^2 + 45x - 2x - 9$$
+
+#### Step 4: Factor by Grouping
+Group the first two terms and the last two terms:
+$$(10x^2 + 45x) + (-2x - 9)$$
+
+1.  **First Group** $(10x^2 + 45x)$:
+    * The Greatest Common Factor (GCF) is **$5x$**.
+    * $$5x(2x + 9)$$
+2.  **Second Group** $(-2x - 9)$:
+    * The GCF is **$-1$** (factoring out $-1$ is crucial to make the binomial match).
+    * $$-1(2x + 9)$$
+
+#### Step 5: Factor out the Common Binomial
+The expression is now:
+$$5x(2x + 9) - 1(2x + 9)$$
+Factor out the common binomial factor, **$(2x + 9)$**:
+$$(2x + 9)(5x - 1)$$
+
+---
+
+#### Final Factored Form
+$$(2x + 9)(5x - 1)$$
