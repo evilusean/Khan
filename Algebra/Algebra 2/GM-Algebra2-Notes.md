@@ -5574,7 +5574,7 @@ $$(x + 1y)(x + 7y)$$
 
 #### Final Factored Form
 $$(x + y)(x + 7y)$$
-## Algebra II - Lesson 43 - Factoring Trinomials with a Leading Coefficient that is not 1 (Factoring by Grouping) - AC Method - 08November2025 :
+## Algebra II - Lesson 43 - Factoring Trinomials with a Leading Coefficient that is not 1 (Factoring by Grouping) - AC Method - 09November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h6m
 - When factoring, just go down the list (1, 2, 3, 4) etc, and see what times what equals the number of the product, then you look at the list you have and see what sums you can get for the correct factoring
 - There's 2 ways to find the Factor when the leading coefficient isn't a 1 :
@@ -5860,3 +5860,5 @@ $$3(x + 3y)(4x - y)$$
 
 #### Final Factored Form
 $$3(x + 3y)(4x - y)$$
+## Algebra II - Lesson 44 - Factoring Trinomials with a Leading Coefficient that is not 1 (Reverse FOIL - Trial and Error) - 09November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h28m20s
