@@ -5447,3 +5447,8 @@ $$2n^2(5a + 4b)(7a - 4m)$$
 $$2n^2(5a + 4b)(7a - 4m)$$
 ## Algebra II - Lesson 42 - Factoring Trinomials with a Leading Coefficient of 1 - 09November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=18h50m45s
+- **Trinomial** : $ax^2 + bx +c$ : a polynomial with three terms
+- **Leading Coefficent of 1** : means that the first term '$ax^2$' the 'a' is '1'
+- $(x+3)(x+9) = x^2 + 12x + 27$ : using FOIL and the distributive property we can get the answer, but to factor it back we can find 2 numbers that can 'sum'(add) up to '12' and 'product'(multiply) up to '27'
+- if you want a 'positive product' and a 'negative sum' you need $(x - c)(x -k)$ 
+- 
