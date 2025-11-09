@@ -77,7 +77,7 @@ PastPapers - Get the last years test for the exam you are taking, and practice o
 https://pastpapers.co/
 MIT - Power Electronics : 
 https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/
-https://www.youtube.com/watch?v=f7oXhDatwtY
+https://www.youtube.com/playlist?list=PLUl4u3cNGP62UTc77mJoubhDELSC8lfR0
 
 Essential Calculus Skills Practice Workbook with Full Solutions Paperback – Chris McMullen : 
 https://www.amazon.ca/Essential-Calculus-Practice-Workbook-Solutions/dp/1941691242
