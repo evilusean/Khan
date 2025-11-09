@@ -5515,3 +5515,32 @@ $$4(r + 4)(r + 1)$$
 
 #### Final Factored Form
 $$4(r + 4)(r + 1)$$
+### Factoring a Trinomial with GCF: $6p^4 - 84p^3 + 240p^2$
+
+The trinomial to factor is:
+$$6p^4 - 84p^3 + 240p^2$$
+
+#### Step 1: Factor out the Greatest Common Factor (GCF)
+The GCF of the coefficients ($6, 84, 240$) is **6**.
+The GCF of the variables ($p^4, p^3, p^2$) is **$p^2$**.
+The overall GCF is **$6p^2$**.
+
+Factor out $6p^2$:
+$$6p^2(p^2 - 14p + 40)$$
+
+#### Step 2: Factor the Remaining Trinomial
+Now, factor the trinomial inside the parentheses: $p^2 - 14p + 40$.
+Find two numbers ($p$ and $q$) such that:
+* $p \cdot q = 40$ (The constant term, $c$)
+* $p + q = -14$ (The coefficient of the $p$ term, $b$)
+
+Since the product is positive and the sum is negative, both numbers must be negative. The two numbers are **-4** and **-10** (since $(-4) \cdot (-10) = 40$ and $(-4) + (-10) = -14$).
+
+#### Step 3: Write the Fully Factored Form
+Replace the trinomial with its binomial factors, keeping the GCF ($6p^2$) outside:
+$$6p^2(p - 4)(p - 10)$$
+
+---
+
+#### Final Factored Form
+$$6p^2(p - 4)(p - 10)$$
