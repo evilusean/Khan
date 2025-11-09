@@ -5718,3 +5718,46 @@ $$(2x + 9)(5x - 1)$$
 
 #### Final Factored Form
 $$(2x + 9)(5x - 1)$$
+### Factoring a Trinomial ($ax^2 + bx + c$) by Grouping: $6x^2 - 5x - 25$
+
+The trinomial to factor is:
+$$6x^2 - 5x - 25$$
+($a=6$, $b=-5$, $c=-25$)
+
+#### Step 1: Find the Product $a \cdot c$
+Calculate the product of the leading coefficient ($a=6$) and the constant term ($c=-25$).
+$$a \cdot c = 6 \cdot (-25) = -150$$
+
+#### Step 2: Find two numbers ($p$ and $q$)
+Find two numbers that:
+* **Multiply** to $-150$
+* **Add up** to $-5$ (The coefficient of the $x$ term, $b$)
+
+Since the product is negative, one number must be positive and one must be negative. Since the sum is negative, the larger factor (in absolute value) must be negative.
+The two numbers are **10** and **-15** (since $10 \cdot (-15) = -150$ and $10 + (-15) = -5$).
+
+#### Step 3: Rewrite the middle term
+Rewrite the middle term, $-5x$, using the two numbers found ($10x$ and $-15x$).
+$$6x^2 + 10x - 15x - 25$$
+
+#### Step 4: Factor by Grouping
+Group the first two terms and the last two terms:
+$$(6x^2 + 10x) + (-15x - 25)$$
+
+1.  **First Group** $(6x^2 + 10x)$:
+    * The Greatest Common Factor (GCF) is **$2x$**.
+    * $$2x(3x + 5)$$
+2.  **Second Group** $(-15x - 25)$:
+    * The GCF is **$-5$** (factoring out $-5$ is crucial to make the binomial match).
+    * $$-5(3x + 5)$$
+
+#### Step 5: Factor out the Common Binomial
+The expression is now:
+$$2x(3x + 5) - 5(3x + 5)$$
+Factor out the common binomial factor, **$(3x + 5)$**:
+$$(3x + 5)(2x - 5)$$
+
+---
+
+#### Final Factored Form
+$$(3x + 5)(2x - 5)$$
