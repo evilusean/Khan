@@ -5811,3 +5811,52 @@ $$2(x - 2y)(4x - 5y)$$
 
 #### Final Factored Form
 $$2(x - 2y)(4x - 5y)$$
+### Factoring a Two-Variable Trinomial by Grouping: $12x^2 + 33xy - 9y^2$
+
+The trinomial to factor is:
+$$12x^2 + 33xy - 9y^2$$
+
+#### Step 1: Factor out the Greatest Common Factor (GCF)
+The GCF of the coefficients ($12, 33,$ and $9$) is **3**.
+$$3(4x^2 + 11xy - 3y^2)$$
+
+#### Step 2: Apply the AC Method (on the inner trinomial)
+We need to factor $4x^2 + 11xy - 3y^2$.
+($a=4$, $b=11$, $c=-3$).
+
+Find the product $a \cdot c$:
+$$4 \cdot (-3) = -12$$
+
+#### Step 3: Find two numbers ($p$ and $q$)
+Find two numbers that:
+* **Multiply** to $-12$
+* **Add up** to $11$ (The coefficient of the $xy$ term)
+
+The two numbers are **12** and **-1** (since $12 \cdot (-1) = -12$ and $12 + (-1) = 11$).
+
+#### Step 4: Rewrite the middle term
+Rewrite the middle term, $11xy$, using the two numbers found ($12xy$ and $-1xy$).
+Remember to keep the initial GCF (3) outside:
+$$3[4x^2 + 12xy - 1xy - 3y^2]$$
+
+#### Step 5: Factor by Grouping (Inside the brackets)
+Group the terms inside the brackets:
+$$3[(4x^2 + 12xy) + (-1xy - 3y^2)]$$
+
+1.  **First Group** $(4x^2 + 12xy)$:
+    * The GCF is **$4x$**.
+    * $$4x(x + 3y)$$
+2.  **Second Group** $(-1xy - 3y^2)$:
+    * The GCF is **$-y$** (factoring out $-y$ is crucial to make the binomial match).
+    * $$-y(x + 3y)$$
+
+#### Step 6: Factor out the Common Binomial
+The expression is now:
+$$3[4x(x + 3y) - y(x + 3y)]$$
+Factor out the common binomial factor, **$(x + 3y)$**:
+$$3(x + 3y)(4x - y)$$
+
+---
+
+#### Final Factored Form
+$$3(x + 3y)(4x - y)$$
