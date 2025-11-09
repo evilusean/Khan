@@ -5580,3 +5580,46 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h6m
 - There's 2 ways to find the Factor when the leading coefficient isn't a 1 :
 	1) Reversing the FOIL process
 	2) Factoring by group 
+- **Factoring by grouping (with leading coefficient of non 1)** = **AC Method** : $ax^2 + bx + c$ :  'a' = the coefficient for the squared variable, 'b' = the coefficient for the variable raised to the first power, 'c' is the constant : You need to find a product(multiply) of 'ac' (so you will need to multiply 'a' * 'c' and then factor it for 2 numbers that can sum to 'b', but wait, theres more, after finding your 2 numbers, plug them in to a new polynomial in the format of $ax^2 + px + qx +c$ where 'p' and 'q' are the 2 numbers that can sum to 'b', but seperated, now, factoring by grouping and pull out the common factors again from the grouped numbers, and then find a *common binomial factor* and then take the terms outside of the CBF and create a second '()' parenthesis term) and a sum(add) of 'b' 
+-
+### Factoring a Trinomial ($ax^2 + bx + c$) by Grouping: $8x^2 + 51x + 18$
+
+The trinomial to factor is:
+$$8x^2 + 51x + 18$$
+
+#### Step 1: Find the Product $a \cdot c$
+Multiply the coefficient of the $x^2$ term ($a=8$) by the constant term ($c=18$).
+$$a \cdot c = 8 \cdot 18 = 144$$
+
+#### Step 2: Find two numbers
+Find two numbers ($p$ and $q$) that:
+* **Multiply** to $144$
+* **Add up** to $51$ (The coefficient of the $x$ term, $b$)
+
+The two numbers are **3** and **48** (since $3 \cdot 48 = 144$ and $3 + 48 = 51$).
+
+#### Step 3: Rewrite the middle term
+Rewrite the middle term, $51x$, using the two numbers found (3 and 48).
+$$8x^2 + 3x + 48x + 18$$
+
+#### Step 4: Factor by Grouping
+Group the first two terms and the last two terms:
+$$(8x^2 + 3x) + (48x + 18)$$
+
+1.  **First Group** $(8x^2 + 3x)$:
+    * The Greatest Common Factor (GCF) is **$x$**.
+    * $$x(8x + 3)$$
+2.  **Second Group** $(48x + 18)$:
+    * The GCF is **$6$**.
+    * $$6(8x + 3)$$
+
+#### Step 5: Factor out the Common Binomial
+The expression is now:
+$$x(8x + 3) + 6(8x + 3)$$
+Factor out the common binomial factor, **$(8x + 3)$**:
+$$(8x + 3)(x + 6)$$
+
+---
+
+#### Final Factored Form
+$$(8x + 3)(x + 6)$$
