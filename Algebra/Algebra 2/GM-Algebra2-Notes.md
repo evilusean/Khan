@@ -5761,3 +5761,53 @@ $$(3x + 5)(2x - 5)$$
 
 #### Final Factored Form
 $$(3x + 5)(2x - 5)$$
+### Factoring a Two-Variable Trinomial by Grouping: $8x^2 - 26xy + 20y^2$
+
+The trinomial to factor is:
+$$8x^2 - 26xy + 20y^2$$
+
+#### Step 1: Factor out the Greatest Common Factor (GCF)
+The GCF of the coefficients ($8, 26,$ and $20$) is **2**.
+$$2(4x^2 - 13xy + 10y^2)$$
+
+#### Step 2: Apply the AC Method (on the inner trinomial)
+We need to factor $4x^2 - 13xy + 10y^2$.
+($a=4$, $b=-13$, $c=10$).
+
+Find the product $a \cdot c$:
+$$4 \cdot 10 = 40$$
+
+#### Step 3: Find two numbers ($p$ and $q$)
+Find two numbers that:
+* **Multiply** to $40$
+* **Add up** to $-13$ (The coefficient of the $xy$ term)
+
+Since the product is positive and the sum is negative, both numbers must be negative.
+The two numbers are **-8** and **-5** (since $(-8) \cdot (-5) = 40$ and $(-8) + (-5) = -13$).
+
+#### Step 4: Rewrite the middle term
+Rewrite the middle term, $-13xy$, using the two numbers found ($-8xy$ and $-5xy$).
+Remember to keep the initial GCF (2) outside:
+$$2[4x^2 - 8xy - 5xy + 10y^2]$$
+
+#### Step 5: Factor by Grouping (Inside the brackets)
+Group the terms inside the brackets:
+$$2[(4x^2 - 8xy) + (-5xy + 10y^2)]$$
+
+1.  **First Group** $(4x^2 - 8xy)$:
+    * The GCF is **$4x$**.
+    * $$4x(x - 2y)$$
+2.  **Second Group** $(-5xy + 10y^2)$:
+    * The GCF is **$-5y$** (factoring out $-5y$ is crucial to make the binomial match).
+    * $$-5y(x - 2y)$$
+
+#### Step 6: Factor out the Common Binomial
+The expression is now:
+$$2[4x(x - 2y) - 5y(x - 2y)]$$
+Factor out the common binomial factor, **$(x - 2y)$**:
+$$2(x - 2y)(4x - 5y)$$
+
+---
+
+#### Final Factored Form
+$$2(x - 2y)(4x - 5y)$$
