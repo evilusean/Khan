@@ -5581,7 +5581,59 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h6m
 	1) Reversing the FOIL process
 	2) Factoring by group 
 - **Factoring by grouping (with leading coefficient of non 1)** = **AC Method** : $ax^2 + bx + c$ :  'a' = the coefficient for the squared variable, 'b' = the coefficient for the variable raised to the first power, 'c' is the constant : You need to find a product(multiply) of 'ac' (so you will need to multiply 'a' * 'c' and then factor it for 2 numbers that can sum to 'b', but wait, theres more, after finding your 2 numbers, plug them in to a new polynomial in the format of $ax^2 + px + qx +c$ where 'p' and 'q' are the 2 numbers that can sum to 'b', but seperated, now, factoring by grouping and pull out the common factors again from the grouped numbers, and then find a *common binomial factor* and then take the terms outside of the CBF and create a second '()' parenthesis term) and a sum(add) of 'b' 
--
+### Factoring Trinomials with a Non-1 Leading Coefficient (The AC Method)
+
+The **AC Method** is a technique used to factor a trinomial in the standard form $\mathbf{ax^2 + bx + c}$ when the leading coefficient, **$a$**, is not equal to 1. It is essentially an application of **factoring by grouping**.
+
+**Key Terms:**
+* **$a$**: The coefficient of the squared term ($x^2$).
+* **$b$**: The coefficient of the linear term ($x$).
+* **$c$**: The constant term.
+
+---
+
+#### The AC Method Steps
+
+The goal is to split the middle term, **$bx$**, into two new terms, **$px$** and **$qx$**, so that the trinomial can be factored by grouping.
+
+1.  **Find the Product $a \cdot c$**: Calculate the product of the leading coefficient ($a$) and the constant term ($c$).
+2.  **Find the Numbers ($p$ and $q$)**: Find two numbers, $p$ and $q$, that satisfy two conditions:
+    * **Multiply** to the product $a \cdot c$.
+    * **Add up** to the middle coefficient $b$.
+3.  **Rewrite the Trinomial**: Substitute the middle term $bx$ with the two new terms, $px$ and $qx$:
+    $$ax^2 + px + qx + c$$
+4.  **Factor by Grouping**: Group the first two terms and the last two terms, then factor out the Greatest Common Factor (GCF) from each group.
+5.  **Identify and Factor out the Common Binomial Factor (CBF)**: The two resulting terms should share a common binomial factor. Factor out this CBF to get the final factored form.
+
+---
+
+#### Example: Factoring $2x^2 + 5x - 12$
+
+**Problem:** $2x^2 + 5x - 12$
+($a=2$, $b=5$, $c=-12$)
+
+1.  **Find $a \cdot c$**:
+    $$2 \cdot (-12) = -24$$
+
+2.  **Find two numbers ($p, q$)** that multiply to **-24** and add up to **5**:
+    * The numbers are **8** and **-3** ($8 \cdot -3 = -24$ and $8 + (-3) = 5$).
+
+3.  **Rewrite the trinomial** using $8x$ and $-3x$:
+    $$2x^2 + 8x - 3x - 12$$
+
+4.  **Factor by Grouping**:
+    $$(2x^2 + 8x) + (-3x - 12)$$
+    * Factor GCF from the first group: $$2x(x + 4)$$
+    * Factor GCF from the second group (must factor out **$-3$** to get the matching binomial): $$-3(x + 4)$$
+
+5.  **Factor out the Common Binomial Factor**:
+    $$2x\underbrace{(x + 4)}_{\text{CBF}} - 3\underbrace{(x + 4)}_{\text{CBF}}$$
+    $$(x + 4)(2x - 3)$$
+
+---
+
+#### Final Factored Form
+$$(x + 4)(2x - 3)$$
 ### Factoring a Trinomial ($ax^2 + bx + c$) by Grouping: $8x^2 + 51x + 18$
 
 The trinomial to factor is:
