@@ -5451,4 +5451,42 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=18h50m45s
 - **Leading Coefficent of 1** : means that the first term '$ax^2$' the 'a' is '1'
 - $(x+3)(x+9) = x^2 + 12x + 27$ : using FOIL and the distributive property we can get the answer, but to factor it back we can find 2 numbers that can 'sum'(add) up to '12' and 'product'(multiply) up to '27'
 - if you want a 'positive product' and a 'negative sum' you need $(x - c)(x -k)$ 
-- 
+### Factoring a Trinomial: $x^2 + 2x - 35$
+
+The trinomial to factor is:
+$$x^2 + 2x - 35$$
+
+#### Goal
+Find two numbers ($p$ and $q$) such that:
+* $p \cdot q = -35$ (The constant term, $c$)
+* $p + q = 2$ (The coefficient of the $x$ term, $b$)
+
+#### Step 1: Find the factors of -35
+List the pairs of integers that multiply to -35:
+* -1 and 35
+* 1 and -35
+* -5 and 7
+* 5 and -7
+
+#### Step 2: Check the sums
+Check which pair adds up to 2:
+* $-1 + 35 = 34$
+* $1 + (-35) = -34$
+* **$-5 + 7 = 2$** (This is the correct pair!)
+* $5 + (-7) = -2$
+
+The two numbers are **7** and **-5**.
+
+#### Step 3: Write the Factored Form
+Use the two numbers found to write the binomial factors:
+$$(x + 7)(x - 5)$$
+
+#### Step 4: Verification (Optional)
+Expand the factored form to check:
+$$(x + 7)(x - 5) = x^2 - 5x + 7x - 35$$
+$$= x^2 + 2x - 35$$ (Matches the original trinomial)
+
+---
+
+#### Final Factored Form
+$$(x + 7)(x - 5)$$
