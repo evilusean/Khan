@@ -5544,3 +5544,33 @@ $$6p^2(p - 4)(p - 10)$$
 
 #### Final Factored Form
 $$6p^2(p - 4)(p - 10)$$
+### Factoring a Two-Variable Trinomial: $x^2 + 8xy + 7y^2$
+
+The trinomial to factor is:
+$$x^2 + 8xy + 7y^2$$
+
+#### Goal
+Find two coefficients ($p$ and $q$) such that:
+* $p \cdot q = 7$ (The constant term coefficient, $c$)
+* $p + q = 8$ (The coefficient of the $xy$ term, $b$)
+
+#### Step 1: Find the factors
+List the pairs of integers that multiply to 7:
+* 1 and 7
+* -1 and -7
+
+#### Step 2: Check the sums
+Check which pair adds up to 8:
+* **$1 + 7 = 8$** (This is the correct pair!)
+* $-1 + (-7) = -8$
+
+The two coefficients are **1** and **7**.
+
+#### Step 3: Write the Factored Form
+The factors must include the variable $y$ in the second term to correctly produce the $xy$ and $y^2$ terms upon expansion:
+$$(x + 1y)(x + 7y)$$
+
+---
+
+#### Final Factored Form
+$$(x + y)(x + 7y)$$
