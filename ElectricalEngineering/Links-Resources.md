@@ -75,6 +75,9 @@ Lec 1 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I
 https://www.youtube.com/watch?v=3S4cNfl0YF0
 PastPapers - Get the last years test for the exam you are taking, and practice on that :
 https://pastpapers.co/
+MIT - Power Electronics : 
+https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/
+https://www.youtube.com/watch?v=f7oXhDatwtY
 
 Essential Calculus Skills Practice Workbook with Full Solutions Paperback – Chris McMullen : 
 https://www.amazon.ca/Essential-Calculus-Practice-Workbook-Solutions/dp/1941691242
