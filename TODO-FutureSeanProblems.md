@@ -21,3 +21,5 @@ Polynomial Long Division
 Factoring By Grouping With a leading coefficient of 1
 
 Factoring By Grouping With a leading coefficient of not 1 (AC Method)
+
+Factoring By Grouping With a leading coefficient of not 1 (Reverse Foil Method)
