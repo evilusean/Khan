@@ -6003,3 +6003,4 @@ $$2(x + 2y)(4x + 9y)$$
 
 #### Final Factored Form
 $$2(x + 2y)(4x + 9y)$$
+## Algebra II - Lesson 45 - Factoring Polynomials using Substitution - 10November2025 :
