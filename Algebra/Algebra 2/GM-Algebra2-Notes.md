@@ -5862,3 +5862,5 @@ $$3(x + 3y)(4x - y)$$
 $$3(x + 3y)(4x - y)$$
 ## Algebra II - Lesson 44 - Factoring Trinomials with a Leading Coefficient that is not 1 (Reverse FOIL - Trial and Error) - 10November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h28m20s
+- **FOIL** = First Terms, Outer Terms, Inner Terms, Last Terms - used for 2 pairs of binomials
+- **Reverse Foil Process** : First Solve for the first term generally the leading term and coefficient multiplied by 'x' or whatever, next solve for the 'c' (what times what would multiply to 'c') but the outer and inner can combine to give you the correct outer and inner 
