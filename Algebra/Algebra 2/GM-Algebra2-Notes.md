@@ -5864,6 +5864,11 @@ $$3(x + 3y)(4x - y)$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h28m20s
 - **FOIL** = First Terms, Outer Terms, Inner Terms, Last Terms - used for 2 pairs of binomials
 - **Reverse Foil Process** : First Solve for the first term generally the leading term and coefficient multiplied by 'x' or whatever, next solve for the 'c' (what times what would multiply to 'c') but the outer and inner can combine to give you the correct outer and inner 
+- **Leading Coefficient that isn't prime** = If you have a leading coefficient that isn't prime, you need to also go through all the factors of that as well, 
+- You should also pull out any common factors before beginning (like, if everything is divisible by 2, pull out the 2)
+- when you plug in numbers to test them in trial and error, if you have common factors on both binomials, you can remove them, because it won't work, it should already be reduced
+- if the trinomial has a constant with the final term as a '+' and a middle term as a '-' negative, then you know it's multiply a negative by a negative
+
 ### Factoring Trinomials with $a \neq 1$: Reverse FOIL (Trial and Error)
 
 The **Reverse FOIL** method is a trial-and-error strategy used to factor a trinomial in the form $\mathbf{ax^2 + bx + c}$ when the leading coefficient, **$a$**, is not equal to 1. This method requires systematically checking factor combinations until the correct middle term, $bx$, is achieved.
@@ -5959,3 +5964,42 @@ $$(2x - 7)(5x - 4)$$
 #### Step 3: Final Factored Form
 Combine the GCF with the binomial factors.
 $$4(2x - 7)(5x - 4)$$
+### Factoring a Trinomial with GCF & Reverse FOIL: $8x^2 + 34xy + 36y^2$
+
+The trinomial to factor is:
+$$8x^2 + 34xy + 36y^2$$
+
+#### Step 1: Factor out the Greatest Common Factor (GCF)
+The GCF of the coefficients (8, 34, and 36) is **2**.
+$$2(4x^2 + 17xy + 18y^2)$$
+
+#### Step 2: Apply Reverse FOIL to the Inner Trinomial
+We must factor the simplified trinomial: $4x^2 + 17xy + 18y^2$.
+($a=4$, $b=17$, $c=18$).
+
+* **Factor $a$ (4)**: Possible factors are (1, 4) and (2, 2).
+* **Factor $c$ (18)**: Since $b$ is positive, we only test positive factors: (1, 18), (2, 9), (3, 6). The factors of $c$ will be multiplied by $y$.
+
+#### Step 3: Test ALL Combinations (Find $b=17$)
+We look for a combination where the sum of the **Outer** and **Inner** products is $17xy$.
+
+| $a$ Factors | $c$ Factors | Test Combination | Outer + Inner Product (Target: 17xy) | Result |
+| :---: | :---: | :---: | :---: | :---: |
+| (1, 4) | (1, 18) | $(x+y)(4x+18y)$ | $18xy + 4xy = 22xy$ | NO |
+| (1, 4) | (18, 1) | $(x+18y)(4x+y)$ | $xy + 72xy = 73xy$ | NO |
+| (1, 4) | (2, 9) | $(x+2y)(4x+9y)$ | $9xy + 8xy = \mathbf{17xy}$ | **YES** |
+| (1, 4) | (9, 2) | $(x+9y)(4x+2y)$ | $2xy + 36xy = 38xy$ | NO |
+| (1, 4) | (3, 6) | $(x+3y)(4x+6y)$ | $6xy + 12xy = 18xy$ | NO |
+| (1, 4) | (6, 3) | $(x+6y)(4x+3y)$ | $3xy + 24xy = 27xy$ | NO |
+| (2, 2) | (1, 18) | $(2x+y)(2x+18y)$ | $36xy + 2xy = 38xy$ | NO |
+| (2, 2) | (2, 9) | $(2x+2y)(2x+9y)$ | $18xy + 4xy = 22xy$ | NO |
+| (2, 2) | (3, 6) | $(2x+3y)(2x+6y)$ | $12xy + 6xy = 18xy$ | NO |
+
+#### Step 4: Write the Final Factored Form
+Combine the initial GCF (2) with the two binomial factors:
+$$2(x + 2y)(4x + 9y)$$
+
+---
+
+#### Final Factored Form
+$$2(x + 2y)(4x + 9y)$$
