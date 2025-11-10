@@ -5939,3 +5939,23 @@ We systematically check the sum of the **Outer** and **Inner** products until it
 #### Final Factored Form
 The correct combination is $(x+7)(2x+9)$.
 $$(x + 7)(2x + 9)$$
+### Factoring Trinomials with a $\neq 1$: Reverse FOIL ($40x^2 - 172x + 112$)
+
+**Problem:** $40x^2 - 172x + 112$
+
+#### Step 1: Factor out the Greatest Common Factor (GCF)
+The GCF is 4.
+$$4(10x^2 - 43x + 28)$$
+
+#### Step 2: Apply Reverse FOIL to $10x^2 - 43x + 28$
+Find factors for $a=10$ (e.g., (2, 5)) and $c=28$ (e.g., (-7, -4)).
+
+Test Combination (Outer + Inner products must equal -43x):
+$$(2x - 7)(5x - 4)$$
+* Outer: $2x \cdot (-4) = -8x$
+* Inner: $-7 \cdot 5x = -35x$
+* Sum: $-8x - 35x = -43x$ (Match!)
+
+#### Step 3: Final Factored Form
+Combine the GCF with the binomial factors.
+$$4(2x - 7)(5x - 4)$$
