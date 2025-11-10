@@ -5909,3 +5909,33 @@ $$(\square x + \square)(\square x + \square)$$
 #### Final Factored Form
 The correct combination is $(x+2)(3x+4)$.
 $$(x + 2)(3x + 4)$$
+### Factoring Trinomials with Reverse Foil ( $2x^2 + 23x + 63$)
+
+**Problem:** $2x^2 + 23x + 63$
+($a=2$, $b=23$, $c=63$)
+
+#### Step 1: Factor the $a$ Term (2)
+The only factors for the leading coefficient $a=2$ are (1, 2).
+* Starting form: $$(1x \quad \square)(2x \quad \square)$$
+
+#### Step 2: Factor the $c$ Term (63)
+Possible factors for the constant term $c=63$ are:
+* (1, 63), (63, 1)
+* (3, 21), (21, 3)
+* (7, 9), (9, 7)
+*(Since $b=23$ is positive, we only test positive factor pairs.)*
+
+#### Step 3: Test Combinations (Find $b=23$)
+We systematically check the sum of the **Outer** and **Inner** products until it equals the middle term, **$23x$**.
+
+| $a$ Factors | $c$ Factors | Test Combination | Outer Product + Inner Product (Target: 23x) | Result |
+| :---: | :---: | :---: | :---: | :---: |
+| (1, 2) | (1, 63) | $(x+1)(2x+63)$ | $(63x) + (2x) = 65x$ | NO |
+| (1, 2) | (63, 1) | $(x+63)(2x+1)$ | $(x) + (126x) = 127x$ | NO |
+| (1, 2) | (3, 21) | $(x+3)(2x+21)$ | $(21x) + (6x) = 27x$ | NO |
+| (1, 2) | (21, 3) | $(x+21)(2x+3)$ | $(3x) + (42x) = 45x$ | NO |
+| (1, 2) | (7, 9) | $(x+7)(2x+9)$ | $(9x) + (14x) = \mathbf{23x}$ | **YES** |
+
+#### Final Factored Form
+The correct combination is $(x+7)(2x+9)$.
+$$(x + 7)(2x + 9)$$
