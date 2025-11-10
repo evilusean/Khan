@@ -5860,5 +5860,5 @@ $$3(x + 3y)(4x - y)$$
 
 #### Final Factored Form
 $$3(x + 3y)(4x - y)$$
-## Algebra II - Lesson 44 - Factoring Trinomials with a Leading Coefficient that is not 1 (Reverse FOIL - Trial and Error) - 09November2025 :
+## Algebra II - Lesson 44 - Factoring Trinomials with a Leading Coefficient that is not 1 (Reverse FOIL - Trial and Error) - 10November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h28m20s
