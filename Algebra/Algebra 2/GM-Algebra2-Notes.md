@@ -5864,3 +5864,48 @@ $$3(x + 3y)(4x - y)$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h28m20s
 - **FOIL** = First Terms, Outer Terms, Inner Terms, Last Terms - used for 2 pairs of binomials
 - **Reverse Foil Process** : First Solve for the first term generally the leading term and coefficient multiplied by 'x' or whatever, next solve for the 'c' (what times what would multiply to 'c') but the outer and inner can combine to give you the correct outer and inner 
+### Factoring Trinomials with $a \neq 1$: Reverse FOIL (Trial and Error)
+
+The **Reverse FOIL** method is a trial-and-error strategy used to factor a trinomial in the form $\mathbf{ax^2 + bx + c}$ when the leading coefficient, **$a$**, is not equal to 1. This method requires systematically checking factor combinations until the correct middle term, $bx$, is achieved.
+
+**Contrast with AC Method:**
+* **AC Method (Grouping):** Guaranteed to work if the trinomial is factorable; involves more writing.
+* **Reverse FOIL (Trial & Error):** Faster if the correct combination is found quickly; involves more mental calculation.
+
+---
+
+#### Reverse FOIL Steps
+
+The factored form will be a product of two binomials:
+$$(\square x + \square)(\square x + \square)$$
+
+1.  **Factor the $a$ Term**: Find all pairs of factors for the leading coefficient, **$a$**. These factors will go into the first position of each parenthesis.
+    * *Example: If $a=6$, try factors (1, 6) and (2, 3).*
+2.  **Factor the $c$ Term**: Find all pairs of factors for the constant term, **$c$**. These factors will go into the second position of each parenthesis.
+    * *Example: If $c=8$, try factors (1, 8), (2, 4), (-1, -8), (-2, -4).*
+3.  **Test Combinations (The FOIL Check)**: Systematically test combinations of the $a$ factors and $c$ factors. Use the **O**uter and **I**nner products from the FOIL method to see if their sum equals the middle term, **$b$**.
+    * $(\mathbf{F} + \mathbf{O} + \mathbf{I} + \mathbf{L})$ must equal $ax^2 + bx + c$.
+    * Only the sum of $\mathbf{O}$uter and $\mathbf{I}$nner terms must equal $bx$.
+
+---
+
+#### Example: Factoring $3x^2 + 10x + 8$
+
+**Problem:** $3x^2 + 10x + 8$
+($a=3$, $b=10$, $c=8$)
+
+1.  **Factor $a$ (3)**: The only factors for $a=3$ are (1, 3).
+    * Starting form: $$(1x \quad \square)(3x \quad \square)$$
+2.  **Factor $c$ (8)**: Possible factors for $c=8$ are (1, 8), (8, 1), (2, 4), and (4, 2). Since $b$ is positive, we only test positive factors.
+3.  **Test Combinations** (Find $b=10$): We only need to check the sum of the **Outer** and **Inner** products.
+
+| $a$ Factors | $c$ Factors | Test Combination | Outer + Inner Product (Should equal 10x) |
+| :---: | :---: | :---: | :---: |
+| (1, 3) | (1, 8) | $(x+1)(3x+8)$ | $(8x) + (3x) = 11x$ (**NO**) |
+| (1, 3) | (8, 1) | $(x+8)(3x+1)$ | $(x) + (24x) = 25x$ (**NO**) |
+| (1, 3) | (2, 4) | $(x+2)(3x+4)$ | $(4x) + (6x) = \mathbf{10x}$ (**YES**) |
+| (1, 3) | (4, 2) | $(x+4)(3x+2)$ | $(2x) + (12x) = 14x$ (**NO**) |
+
+#### Final Factored Form
+The correct combination is $(x+2)(3x+4)$.
+$$(x + 2)(3x + 4)$$
