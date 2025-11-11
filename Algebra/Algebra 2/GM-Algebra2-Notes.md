@@ -6184,3 +6184,63 @@ $$2(5x + 3)^2$$
 
 #### Final Factored Form
 $$2(5x + 3)^2$$
+### Factoring a Perfect Square Trinomial (PST) ($49n^4 - 42n^2 + 9$)
+
+**Problem:** $49n^4 - 42n^2 + 9$
+
+#### Step 1: Check for PST Structure
+We check if the first and last terms are perfect squares and if the middle term fits the $2xy$ rule.
+
+1.  **Find the square root of the first term ($x$):**
+    $$\sqrt{49n^4} = \mathbf{7n^2}$$
+    (This is the first term, $x$, of the binomial)
+2.  **Find the square root of the last term ($y$):**
+    $$\sqrt{9} = \mathbf{3}$$
+    (This is the second term, $y$, of the binomial)
+3.  **Check the middle term (Should be $-2xy$):**
+    $$-2 \cdot (7n^2) \cdot (3) = -42n^2$$
+    Since the middle term **is** $-42n^2$, this is a Perfect Square Trinomial.
+
+#### Step 2: Write the Factored Form
+Use the PST formula $x^2 - 2xy + y^2 = (x - y)^2$ with $x=7n^2$ and $y=3$.
+
+$$(7n^2 - 3)^2$$
+
+---
+
+#### Final Factored Form
+$$(7n^2 - 3)^2$$
+### Factoring Multi-Step Polynomials (PST and Difference of Squares) ($9x^2 - 24x + 16 - y^2$)
+
+**Problem:** $9x^2 - 24x + 16 - y^2$
+
+#### Step 1: Factor the Perfect Square Trinomial (PST)
+Enclose the first three terms in parentheses:
+$$(9x^2 - 24x + 16) - y^2$$
+
+1.  **Check the PST:**
+    * $\sqrt{9x^2} = 3x$
+    * $\sqrt{16} = 4$
+    * Middle term check: $2 \cdot (3x) \cdot (-4) = -24x$ (**Match!**)
+
+2.  **Rewrite the PST:**
+    $$(3x - 4)^2 - y^2$$
+
+#### Step 2: Apply the Difference of Squares (DOS)
+The expression is now in the form $\mathbf{A^2 - B^2}$, where:
+* $\mathbf{A} = (3x - 4)$
+* $\mathbf{B} = y$
+
+Apply the DOS formula: $A^2 - B^2 = (A - B)(A + B)$
+
+$$((3x - 4) - y)((3x - 4) + y)$$
+
+#### Step 3: Remove Inner Parentheses and Reorder
+Remove the parentheses and write the variables in alphabetical order for the final form.
+
+$$(3x - y - 4)(3x + y - 4)$$
+
+---
+
+#### Final Factored Form
+$$(3x - y - 4)(3x + y - 4)$$
