@@ -6342,3 +6342,5 @@ Neither resulting factor can be factored further.
 
 #### Final Factored Form
 $$(m^3 - 7)(m^6 + 7m^3 + 49)$$
+## Algebra II - Lesson 47 - Solving Polynomial Equations by Factoring - 11November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=20h25m20s
