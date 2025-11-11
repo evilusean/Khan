@@ -6126,3 +6126,6 @@ Distribute the 2 in each bracket and combine constants:
 $$(2x - 7)(2x - 15)$$
 ## Algebra II -Lesson 46 - Special Factoring - 11November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=20h7m
+- You are going to come accross these so often, that it's beneficial to just memorize the formulas
+- **Difference of Two Squares** : $x^2 y^2 = (x + y)(x - y)$ : The 2 middle terms cancel eachother
+- 
