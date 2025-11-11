@@ -6124,3 +6124,4 @@ Distribute the 2 in each bracket and combine constants:
 
 #### Final Factored Form
 $$(2x - 7)(2x - 15)$$
+## Algebra II -Lesson 46 - Special Factoring - 11November2025 :
