@@ -6007,7 +6007,7 @@ $$2(x + 2y)(4x + 9y)$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h50m
 - You can replace any 'x' to the power value with a new variable to make it easier to read
 - When you make a substitution, you must replace it at the end with the original values
-- $ax^2 + bx^1 + c$ : as long as the value you are substituting is in a '2' to '1' variable for 'a' to 'b' ratio, you can use this method
+- $ax^2 + bx^1 + c$ : as long as the value you are substituting is in a '2' to '1' variable exponent power for 'a' to 'b' ratio, you can use this method
 ### Factoring a Quadratic-like Trinomial (Substitution Method) ($7x^4 + 20x^2 + 12$)
 
 **Problem:** $7x^4 + 20x^2 + 12$
@@ -6082,3 +6082,45 @@ $$3(3x^3 - 1)(3x^3 - 5)$$
 
 #### Final Factored Form
 $$3(3x^3 - 1)(3x^3 - 5)$$
+### Factoring a Complex Quadratic Form (Substitution Method)($4(x - 5)^2 - 4(x - 5) - 15$)
+
+**Problem:** $4(x - 5)^2 - 4(x - 5) - 15$
+
+#### Step 1: Substitution
+Let **$q$** be the substitute for the repeated binomial:
+$$q = (x - 5)$$
+Rewrite the original expression in terms of $q$:
+$$4q^2 - 4q - 15$$
+
+#### Step 2: Factor the Simplified Trinomial ($4q^2 - 4q - 15$)
+We use the **AC Method** (Factoring by Grouping) or **Reverse FOIL** on the trinomial $4q^2 - 4q - 15$. We'll use the AC Method here for clarity.
+
+* $a \cdot c = 4 \cdot (-15) = -60$.
+* Two numbers that multiply to $-60$ and add to $-4$ are **$6$** and **$-10$**.
+
+Rewrite the middle term:
+$$4q^2 + 6q - 10q - 15$$
+
+Factor by Grouping:
+$$(4q^2 + 6q) + (-10q - 15)$$
+$$2q(2q + 3) - 5(2q + 3)$$
+
+Factor out the Common Binomial Factor:
+$$(2q + 3)(2q - 5)$$
+
+#### Step 3: Substitute Back
+Substitute the original term $(x - 5)$ back in for $q$:
+$$[2(x - 5) + 3] [2(x - 5) - 5]$$
+
+#### Step 4: Simplify the Factors
+Distribute the 2 in each bracket and combine constants:
+
+* **First Factor:**
+  $$2x - 10 + 3 = 2x - 7$$
+* **Second Factor:**
+  $$2x - 10 - 5 = 2x - 15$$
+
+---
+
+#### Final Factored Form
+$$(2x - 7)(2x - 15)$$
