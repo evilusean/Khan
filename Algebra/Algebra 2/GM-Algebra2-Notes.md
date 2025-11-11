@@ -6005,3 +6005,41 @@ $$2(x + 2y)(4x + 9y)$$
 $$2(x + 2y)(4x + 9y)$$
 ## Algebra II - Lesson 45 - Factoring Polynomials using Substitution - 10November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h50m
+- You can replace any 'x' to the power value with a new variable to make it easier to read
+### Factoring a Quadratic-like Trinomial (Substitution Method) ($7x^4 + 20x^2 + 12$)
+
+**Problem:** $7x^4 + 20x^2 + 12$
+
+This polynomial is "quadratic-like" because the highest exponent ($x^4$) is double the middle exponent ($x^2$).
+
+#### Step 1: Substitution
+Let **$u$** be the substitute for the middle term's variable part:
+$$u = x^2$$
+Rewrite the original polynomial in terms of $u$:
+$$7u^2 + 20u + 12$$
+
+#### Step 2: Factor the Simplified Trinomial (Reverse FOIL)
+We factor $7u^2 + 20u + 12$ using trial and error.
+* **$a=7$** factors: (1, 7).
+* **$c=12$** factors: (1, 12), (2, 6), (3, 4).
+* **Target sum for O + I:** $20u$.
+
+**Test Combination:** $(u + 2)(7u + 6)$
+* Outer Product: $u \cdot 6 = 6u$
+* Inner Product: $2 \cdot 7u = 14u$
+* Sum of O + I: $6u + 14u = 20u$ (**Match**)
+
+The factored form in $u$ is:
+$$(u + 2)(7u + 6)$$
+
+#### Step 3: Substitute Back
+Substitute $x^2$ back in for $u$.
+$$(x^2 + 2)(7x^2 + 6)$$
+
+#### Step 4: Check for Further Factoring
+Neither binomial is a difference of squares, and they cannot be factored further.
+
+---
+
+#### Final Factored Form
+$$(x^2 + 2)(7x^2 + 6)$$
