@@ -6006,6 +6006,8 @@ $$2(x + 2y)(4x + 9y)$$
 ## Algebra II - Lesson 45 - Factoring Polynomials using Substitution - 10November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=19h50m
 - You can replace any 'x' to the power value with a new variable to make it easier to read
+- When you make a substitution, you must replace it at the end with the original values
+- $ax^2 + bx^1 + c$ : as long as the value you are substituting is in a '2' to '1' variable for 'a' to 'b' ratio, you can use this method
 ### Factoring a Quadratic-like Trinomial (Substitution Method) ($7x^4 + 20x^2 + 12$)
 
 **Problem:** $7x^4 + 20x^2 + 12$
