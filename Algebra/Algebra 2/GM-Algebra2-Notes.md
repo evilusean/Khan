@@ -6128,7 +6128,8 @@ $$(2x - 7)(2x - 15)$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=20h7m
 - You are going to come accross these so often, that it's beneficial to just memorize the formulas
 - **Difference of Two Squares** : $x^2 y^2 = (x + y)(x - y)$ : The 2 middle terms cancel eachother
-- 
+- **Perfect Square Trinomial (Addition)** : $x^2 + 2xy + y^2 = (x + y)^2$ : The middle term is **double the product** of the terms being squared.
+- **Perfect Square Trinomial (Subtraction)** : $x^2 - 2xy + y^2 = (x - y)^2$ : The middle term is **double the negative product** of the terms being squared.
 ### Factoring Binomials: Difference of Squares ($4x^2 - 1$)
 
 The **Difference of Squares** formula is used to factor binomials in the form $\mathbf{a^2 - b^2}$.
@@ -6154,3 +6155,32 @@ $$a^2 - b^2 = (a - b)(a + b)$$
 
 #### Final Factored Form
 $$(2x - 1)(2x + 1)$$
+### Factoring a Perfect Square Trinomial (PST) ($50x^2 + 60x + 18$)
+
+**Problem:** $50x^2 + 60x + 18$
+
+#### Step 1: Factor out the Greatest Common Factor (GCF)
+The GCF of 50, 60, and 18 is **2**.
+$$2(25x^2 + 30x + 9)$$
+
+#### Step 2: Identify PST Components
+We focus on the trinomial inside the parentheses: $25x^2 + 30x + 9$. We check if it fits the PST formula: $x^2 + 2xy + y^2 = (x + y)^2$.
+
+1.  **Find the square root of the first term ($x$):**
+    $$\sqrt{25x^2} = \mathbf{5x}$$
+2.  **Find the square root of the last term ($y$):**
+    $$\sqrt{9} = \mathbf{3}$$
+3.  **Check the middle term ($2xy$):**
+    $$2 \cdot (5x) \cdot (3) = 30x$$
+    Since the middle term **is** $30x$, this is a Perfect Square Trinomial!
+
+#### Step 3: Write the Factored Form
+The factored form of the trinomial is the square of the binomial: $(5x + 3)^2$.
+
+Combine this with the initial GCF:
+$$2(5x + 3)^2$$
+
+---
+
+#### Final Factored Form
+$$2(5x + 3)^2$$
