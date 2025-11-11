@@ -6130,6 +6130,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=20h7m
 - **Difference of Two Squares** : $x^2 y^2 = (x + y)(x - y)$ : The 2 middle terms cancel eachother
 - **Perfect Square Trinomial (Addition)** : $x^2 + 2xy + y^2 = (x + y)^2$ : The middle term is **double the product** of the terms being squared.
 - **Perfect Square Trinomial (Subtraction)** : $x^2 - 2xy + y^2 = (x - y)^2$ : The middle term is **double the negative product** of the terms being squared.
+- **Sum of Two Cubes** : $x^3 + y^3 = (x + y)(x^2 - xy + y^2)$ : The trinomial factor has a **negative** middle term and always has a **positive** last term. '+' positive first parenthesis in (x +y) , '-' negative first term on second parenthesis : *The first sign is always going to match, the second sign is not going to match, and the third sign is always positive*
+- **Difference of Two Cubes** : $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$ : The trinomial factor has a **positive** middle term and always has a **positive** last term.  '-' negative first parenthesis in (x - y) , '+' positive terms on second parenthesis *The first sign is always going to match, the second sign is not going to match, and the third sign is always positive*
 ### Factoring Binomials: Difference of Squares ($4x^2 - 1$)
 
 The **Difference of Squares** formula is used to factor binomials in the form $\mathbf{a^2 - b^2}$.

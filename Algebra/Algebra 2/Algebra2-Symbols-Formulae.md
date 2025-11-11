@@ -20,6 +20,11 @@ distance formula(pythagorean theorem) = $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2
 distance(motion) = rate * time 
 $\frac{Pure amount of the substance}{Total amount of the mixture} = concentration of the substance$
 
-
+## Special Factors :
+- **Difference of Two Squares** : $x^2 y^2 = (x + y)(x - y)$ : The 2 middle terms cancel eachother
+- **Perfect Square Trinomial (Addition)** : $x^2 + 2xy + y^2 = (x + y)^2$ : The middle term is **double the product** of the terms being squared.
+- **Perfect Square Trinomial (Subtraction)** : $x^2 - 2xy + y^2 = (x - y)^2$ : The middle term is **double the negative product** of the terms being squared.
+- **Sum of Two Cubes** : $x^3 + y^3 = (x + y)(x^2 - xy + y^2)$ : The trinomial factor has a **negative** middle term and always has a **positive** last term. '+' positive first parenthesis in (x +y) , '-' negative first term on second parenthesis : *The first sign is always going to match, the second sign is not going to match, and the third sign is always positive*
+- **Difference of Two Cubes** : $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$ : The trinomial factor has a **positive** middle term and always has a **positive** last term.  '-' negative first parenthesis in (x - y) , '+' positive terms on second parenthesis *The first sign is always going to match, the second sign is not going to match, and the third sign is always positive*
 
 
