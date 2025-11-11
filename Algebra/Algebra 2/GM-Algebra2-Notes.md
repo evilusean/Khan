@@ -6045,3 +6045,40 @@ Neither binomial is a difference of squares, and they cannot be factored further
 
 #### Final Factored Form
 $$(x^2 + 2)(7x^2 + 6)$$
+### Factoring a Quadratic-like Trinomial (Substitution Method)( $27x^6 - 54x^3 + 15$)
+
+**Problem:** $27x^6 - 54x^3 + 15$
+
+#### Step 1: Factor out the Greatest Common Factor (GCF)
+The GCF of 27, 54, and 15 is **3**.
+$$3(9x^6 - 18x^3 + 5)$$
+
+#### Step 2: Substitution
+Let **$z$** represent the variable part of the middle term:
+$$z = x^3$$
+Rewrite the expression in terms of $z$:
+$$3(9z^2 - 18z + 5)$$
+
+#### Step 3: Factor the Inner Trinomial ($9z^2 - 18z + 5$)
+We use the AC Method (Grouping) on the trinomial $9z^2 - 18z + 5$.
+* $a \cdot c = 9 \cdot 5 = 45$.
+* Two numbers that multiply to 45 and add to $-18$ are **$-3$** and **$-15$**.
+
+Rewrite the middle term:
+$$3[9z^2 - 3z - 15z + 5]$$
+
+Factor by Grouping:
+$$3[(9z^2 - 3z) + (-15z + 5)]$$
+$$3[3z(3z - 1) - 5(3z - 1)]$$
+
+Factor out the Common Binomial Factor:
+$$3(3z - 1)(3z - 5)$$
+
+#### Step 4: Substitute Back
+Substitute $x^3$ back in for $z$:
+$$3(3x^3 - 1)(3x^3 - 5)$$
+
+---
+
+#### Final Factored Form
+$$3(3x^3 - 1)(3x^3 - 5)$$
