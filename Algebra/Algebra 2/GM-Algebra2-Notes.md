@@ -6491,3 +6491,37 @@ The three solutions to the cubic equation are:
 $$x = 0, \quad x = -1, \quad \text{and} \quad x = -\frac{7}{4}$$
 ## Algebra II - Lesson 48 - Rational Expressions / Functions - 12November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=20h47m05s
+- A **rational number** is the quotient of 2 integers : like 2/3 or 5/7
+- **Rational Expression** = is the quotient of 2 polynomials
+- $\frac{p}{q}$ where $q$ can not be zero, because it is undefined - non-zero denominator
+- The **Domain** of a rational function includes all values that result in a non-zero denominator
+- Domain : {$x|x\ne0$} : the set of all values for x such that 'x' does not equal '0'
+- 
+### Examples of Rational Numbers ($\mathbb{Q}$)
+- **Common Fractions** : $\frac{2}{3}, \frac{7}{4}, \frac{1}{9}$
+- **Integers (as fractions over 1)** : $5 = \frac{5}{1}, -8 = \frac{-8}{1}, 0 = \frac{0}{1}$
+- **Negative Fractions** : $-\frac{11}{2}, -\frac{3}{10}$
+- **Terminating Decimals** : $0.75 = \frac{3}{4}, -1.4 = -\frac{14}{10} = -\frac{7}{5}$
+- **Repeating Decimals** : $0.\overline{3} = \frac{1}{3}, 0.\overline{45} = \frac{45}{99} = \frac{5}{11}$
+- **Mixed Numbers** : $3\frac{1}{2} = \frac{7}{2}, -4\frac{3}{4} = -\frac{19}{4}$
+### Simplifying a Rational Expression ($\frac{12a - 16}{12}$)
+
+**Problem:** Simplify the expression $\frac{12a - 16}{12}$
+
+#### Step 1: Factor the Numerator
+Find the Greatest Common Factor (GCF) of the numerator, $12a - 16$.
+* The GCF of 12 and 16 is **4**.
+$$\frac{4(3a - 4)}{12}$$
+
+#### Step 2: Simplify by Canceling Common Factors
+Cancel the common factor between the numerator (4) and the denominator (12).
+* $\frac{4}{12}$ simplifies to $\frac{1}{3}$.
+$$\frac{4(3a - 4)}{4 \cdot 3}$$
+
+#### Step 3: Write the Final Simplified Form
+$$\frac{3a - 4}{3}$$
+
+---
+
+#### Final Simplified Form
+$$\frac{3a - 4}{3}$$
