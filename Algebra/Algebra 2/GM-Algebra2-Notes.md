@@ -6496,7 +6496,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=20h47m05s
 - $\frac{p}{q}$ where $q$ can not be zero, because it is undefined - non-zero denominator
 - The **Domain** of a rational function includes all values that result in a non-zero denominator
 - Domain : {$x|x\ne0$} : the set of all values for x such that 'x' does not equal '0'
-- 
+- When you cancel terms out from rational expressions, information is lost, so make sure you get your restricted values (which cause the denominator to be 0) using the zero product rule BEFORE you cancel values in the numerator and denominator
 ### Examples of Rational Numbers ($\mathbb{Q}$)
 - **Common Fractions** : $\frac{2}{3}, \frac{7}{4}, \frac{1}{9}$
 - **Integers (as fractions over 1)** : $5 = \frac{5}{1}, -8 = \frac{-8}{1}, 0 = \frac{0}{1}$
@@ -6551,3 +6551,73 @@ $$\frac{x - 8}{6}$$
 
 #### Final Simplified Form
 $$\frac{x - 8}{6}$$
+### Simplifying a Complex Rational Expression ($\frac{3x^3 - 14x^2 + 16x}{15x^3 - 39x^2 + 18x}$)
+
+**Problem:** Simplify $\frac{3x^3 - 14x^2 + 16x}{15x^3 - 39x^2 + 18x}$
+
+#### Step 1: Factor out the GCF from the Numerator
+The GCF of the numerator is $\mathbf{x}$.
+$$\text{Numerator: } x(3x^2 - 14x + 16)$$
+
+#### Step 2: Factor the Trinomial in the Numerator
+Factor $3x^2 - 14x + 16$ using the AC Method.
+* $a \cdot c = 3 \cdot 16 = 48$.
+* Two numbers that multiply to 48 and add to -14 are **-6** and **-8**.
+* $$x(3x^2 - 6x - 8x + 16)$$
+* $$x[3x(x - 2) - 8(x - 2)]$$
+* **Factored Numerator: ** $$x(x - 2)(3x - 8)$$
+
+#### Step 3: Factor out the GCF from the Denominator
+The GCF of the denominator is $\mathbf{3x}$.
+$$\text{Denominator: } 3x(5x^2 - 13x + 6)$$
+
+#### Step 4: Factor the Trinomial in the Denominator
+Factor $5x^2 - 13x + 6$ using the AC Method.
+* $a \cdot c = 5 \cdot 6 = 30$.
+* Two numbers that multiply to 30 and add to -13 are **-10** and **-3**.
+* $$3x(5x^2 - 10x - 3x + 6)$$
+* $$3x[5x(x - 2) - 3(x - 2)]$$
+* **Factored Denominator: ** $$3x(x - 2)(5x - 3)$$
+
+#### Step 5: Cancel Common Factors
+Rewrite the full expression and cancel the common factors ($x$ and $(x - 2)$):
+$$\frac{\cancel{x} \cancel{(x - 2)}(3x - 8)}{3\cancel{x} \cancel{(x - 2)}(5x - 3)}$$
+
+---
+
+#### Final Simplified Form
+$$\frac{3x - 8}{3(5x - 3)}$$
+### Simplifying a Rational Expression by Factoring (Grouping) ($\frac{6x^2 + 9xy - 2xy - 3y^2}{-3x + y}$)
+
+**Problem:** Simplify $\frac{6x^2 + 9xy - 2xy - 3y^2}{-3x + y}$
+
+#### Step 1: Factor the Numerator by Grouping
+Factor the four-term numerator: $(6x^2 + 9xy) + (-2xy - 3y^2)$.
+
+1.  **First Group:** Factor out the GCF, $\mathbf{3x}$.
+    $$3x(2x + 3y)$$
+2.  **Second Group:** Factor out the GCF, $\mathbf{-y}$.
+    $$-y(2x + 3y)$$
+3.  **Factored Numerator:** Factor out the common binomial $(2x + 3y)$.
+    $$(2x + 3y)(3x - y)$$
+
+#### Step 2: Factor the Denominator
+The denominator is $-3x + y$. We can factor out a **$-1$** to make it easier to compare with the numerator's factor:
+$$\text{Denominator: } -1(3x - y)$$
+
+#### Step 3: Rewrite the Expression
+Substitute the factored forms back into the expression:
+$$\frac{(2x + 3y)(3x - y)}{-1(3x - y)}$$
+
+#### Step 4: Cancel Common Factors
+Cancel the common factor $(3x - y)$ from the numerator and the denominator.
+$$\frac{2x + 3y}{-1}$$
+
+#### Step 5: Final Simplification
+Divide the numerator by $-1$ to complete the simplification.
+$$-(2x + 3y) \quad \text{or} \quad -2x - 3y$$
+
+---
+
+#### Final Simplified Form
+$$-2x - 3y$$
