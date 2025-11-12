@@ -6525,3 +6525,29 @@ $$\frac{3a - 4}{3}$$
 
 #### Final Simplified Form
 $$\frac{3a - 4}{3}$$
+### Simplifying a Rational Expression ($\frac{x^2 - 9x + 8}{6x - 6}$)
+
+**Problem:** Simplify the expression $\frac{x^2 - 9x + 8}{6x - 6}$
+
+#### Step 1: Factor the Numerator (Trinomial)
+Factor the numerator $x^2 - 9x + 8$.
+* Find two numbers that multiply to $+8$ and add to $-9$: **-8** and **-1**.
+$$\text{Numerator: } (x - 8)(x - 1)$$
+
+#### Step 2: Factor the Denominator (GCF)
+Factor the denominator $6x - 6$.
+* The GCF is **6**.
+$$\text{Denominator: } 6(x - 1)$$
+
+#### Step 3: Rewrite the Expression
+Substitute the factored forms back into the expression:
+$$\frac{(x - 8)(x - 1)}{6(x - 1)}$$
+
+#### Step 4: Cancel Common Factors
+Cancel the common factor $(x - 1)$ from the numerator and the denominator.
+$$\frac{x - 8}{6}$$
+
+---
+
+#### Final Simplified Form
+$$\frac{x - 8}{6}$$
