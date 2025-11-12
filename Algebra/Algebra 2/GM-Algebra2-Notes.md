@@ -6489,3 +6489,4 @@ Set each factor containing a variable equal to zero and solve for $x$.
 #### Final Solution
 The three solutions to the cubic equation are:
 $$x = 0, \quad x = -1, \quad \text{and} \quad x = -\frac{7}{4}$$
+## Algebra II - Lesson 48 - Rational Expressions / Functions - 12November2025 :
