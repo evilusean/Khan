@@ -6344,3 +6344,38 @@ Neither resulting factor can be factored further.
 $$(m^3 - 7)(m^6 + 7m^3 + 49)$$
 ## Algebra II - Lesson 47 - Solving Polynomial Equations by Factoring - 11November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=20h25m20s
+- In some cases, polynomial equations can be solved using factoring. This technique revolves around using the *zero - factor property* or *zero product property*
+- **Zero Factor Property** : if $a \cdot b = 0$ then $a = 0, b = 0$  or a and b = 0
+- **Quadratic Equation** : $ax^2 + bx + c = 0$ : A quadratic equation is one where the highest power is 2
+- **Solving a Quadratic Equation by Factoring** :
+  1) Write the equation in standard form : $ax^2 + bx + c = 0$
+  2) Factor the left side
+  3) Use the zero product property and set each factor with a variable equal to zero
+  4) Solve the equation and check
+### Solving a Quadratic Equation by Factoring ($x^2 - 12x = -36$)
+
+**Problem:** $x^2 - 12x = -36$
+
+#### Step 1: Set the Equation to Zero
+Add 36 to both sides of the equation to put it in the standard form $ax^2 + bx + c = 0$.
+$$x^2 - 12x + 36 = 0$$
+
+#### Step 2: Factor the Trinomial (PST)
+The trinomial $x^2 - 12x + 36$ is a **Perfect Square Trinomial** because:
+* The first term ($\sqrt{x^2}$) is $x$.
+* The last term ($\sqrt{36}$) is $6$.
+* The middle term is $-2 \cdot (x) \cdot (6) = -12x$.
+
+The factored form is $\mathbf{(x - 6)^2}$.
+$$(x - 6)^2 = 0$$
+
+#### Step 3: Solve for $\mathbf{x}$
+Set the binomial factor equal to zero:
+$$x - 6 = 0$$
+$$x = 6$$
+
+---
+
+#### Final Solution
+The equation has one real solution (a root with multiplicity 2):
+$$x = 6$$
