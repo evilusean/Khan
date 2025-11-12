@@ -6379,3 +6379,113 @@ $$x = 6$$
 #### Final Solution
 The equation has one real solution (a root with multiplicity 2):
 $$x = 6$$
+### Solving a Quadratic Equation by Factoring (GCF Method) ($7x^2 + 84 = -7x^2 - 77x$)
+
+**Problem:** $7x^2 + 84 = -7x^2 - 77x$
+
+#### Step 1: Set the Equation to Zero (Standard Form)
+Move all terms to one side of the equation to put it in the standard form $ax^2 + bx + c = 0$.
+
+* Add $7x^2$ and $77x$ to both sides:
+    $$7x^2 + 7x^2 + 77x + 84 = 0$$
+* Combine like terms:
+    $$14x^2 + 77x + 84 = 0$$
+
+#### Step 2: Factor out the Greatest Common Factor (GCF)
+The GCF of 14, 77, and 84 is **7**.
+$$7(2x^2 + 11x + 12) = 0$$
+
+#### Step 3: Factor the Trinomial
+Factor the inner trinomial $2x^2 + 11x + 12$ using the AC Method or Reverse FOIL.
+
+* $a \cdot c = 2 \cdot 12 = 24$.
+* Find two numbers that multiply to 24 and add to 11: **8** and **3**.
+
+* Rewrite the middle term:
+    $$7(2x^2 + 8x + 3x + 12) = 0$$
+* Factor by Grouping:
+    $$7[2x(x + 4) + 3(x + 4)] = 0$$
+* Final factored expression:
+    $$7(x + 4)(2x + 3) = 0$$
+
+#### Step 4: Solve for $\mathbf{x}$ (Zero Product Property)
+Set each factor containing a variable equal to zero.
+
+1.  $$x + 4 = 0 \quad \implies \quad x = -4$$
+2.  $$2x + 3 = 0 \quad \implies \quad 2x = -3 \quad \implies \quad x = -\frac{3}{2}$$
+
+---
+
+#### Final Solution
+The two solutions to the quadratic equation are:
+$$x = -4 \quad \text{and} \quad x = -\frac{3}{2}$$
+### Solving a Quadratic Equation by Factoring (AC Method) ($25x^2 - 16x + 3 = -x + 1$)
+
+**Problem:** $25x^2 - 16x + 3 = -x + 1$
+
+#### Step 1: Set the Equation to Zero (Standard Form)
+Move all terms from the right side to the left side to put it in the standard form $ax^2 + bx + c = 0$.
+
+* Add $x$ and subtract $1$ from both sides:
+    $$25x^2 - 16x + x + 3 - 1 = 0$$
+* Combine like terms:
+    $$25x^2 - 15x + 2 = 0$$
+
+#### Step 2: Factor the Trinomial
+Factor the trinomial $25x^2 - 15x + 2$ using the **AC Method**.
+
+* Calculate $a \cdot c$: $25 \cdot 2 = \mathbf{50}$.
+* Find two numbers that multiply to $\mathbf{50}$ and add to $b = \mathbf{-15}$: **-10** and **-5**.
+
+* Rewrite the middle term:
+    $$25x^2 - 10x - 5x + 2 = 0$$
+* Factor by Grouping:
+    $$(25x^2 - 10x) + (-5x + 2) = 0$$
+    $$5x(5x - 2) - 1(5x - 2) = 0$$
+* Final factored expression:
+    $$(5x - 2)(5x - 1) = 0$$
+
+#### Step 3: Solve for $\mathbf{x}$ (Zero Product Property)
+Set each factor equal to zero and solve for $x$.
+
+1.  $$5x - 2 = 0 \quad \implies \quad 5x = 2 \quad \implies \quad x = \frac{2}{5}$$
+2.  $$5x - 1 = 0 \quad \implies \quad 5x = 1 \quad \implies \quad x = \frac{1}{5}$$
+
+---
+
+#### Final Solution
+The two solutions to the quadratic equation are:
+$$x = \frac{2}{5} \quad \text{and} \quad x = \frac{1}{5}$$
+### Solving a Quadratic/Cubic Equation by Factoring ($8x^3 + 22x^2 + 14x = 0$)
+
+**Problem:** $8x^3 + 22x^2 + 14x = 0$
+
+#### Step 1: Factor out the Greatest Common Factor (GCF)
+The GCF for $8x^3$, $22x^2$, and $14x$ is $\mathbf{2x}$.
+$$2x(4x^2 + 11x + 7) = 0$$
+
+#### Step 2: Factor the Trinomial
+Factor the inner trinomial $4x^2 + 11x + 7$ using the **AC Method**.
+
+* Calculate $a \cdot c$: $4 \cdot 7 = \mathbf{28}$.
+* Find two numbers that multiply to $\mathbf{28}$ and add to $b = \mathbf{11}$: **4** and **7**.
+
+* Rewrite the middle term:
+    $$2x(4x^2 + 4x + 7x + 7) = 0$$
+* Factor by Grouping:
+    $$2x[4x(x + 1) + 7(x + 1)] = 0$$
+* Final factored expression:
+    $$2x(x + 1)(4x + 7) = 0$$
+
+#### Step 3: Solve for $\mathbf{x}$ (Zero Product Property)
+Set each factor containing a variable equal to zero and solve for $x$.
+
+1.  $$2x = 0 \quad \implies \quad x = 0$$
+2.  $$x + 1 = 0 \quad \implies \quad x = -1$$
+3.  $$4x + 7 = 0 \quad \implies \quad 4x = -7 \quad \implies \quad x = -\frac{7}{4}$$
+
+---
+
+#### Final Solution
+The three solutions to the cubic equation are:
+$$x = 0, \quad x = -1, \quad \text{and} \quad x = -\frac{7}{4}$$
