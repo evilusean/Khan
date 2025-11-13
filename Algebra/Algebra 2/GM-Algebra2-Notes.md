@@ -6923,3 +6923,7 @@ $$\frac{2}{1} \cdot \frac{1}{45x^3} = \frac{2}{45x^3}$$
 $$\mathbf{\frac{2}{45x^3}}$$
 ## Algebra II - Lesson 50 - Adding and Subtracting Rational Expressions - 13November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=21h30m30s
+- When we add or subtract *Rational Expressions*, we follow the same rules we learned with fractions : 
+- When the **Denominators** are the *same* you just add(or subtract) the **numerators** over the common denominator (the bottom numbers need to be the same, anything you do to the bottom, you need to do to the top) - simplify after adding/subtracting 
+- **LCD** = **Lowest Common Denominator** = The smallest number that is shared by both fractions/rational expressions
+- 
