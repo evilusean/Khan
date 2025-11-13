@@ -6924,6 +6924,93 @@ $$\mathbf{\frac{2}{45x^3}}$$
 ## Algebra II - Lesson 50 - Adding and Subtracting Rational Expressions - 13November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=21h30m30s
 - When we add or subtract *Rational Expressions*, we follow the same rules we learned with fractions : 
-- When the **Denominators** are the *same* you just add(or subtract) the **numerators** over the common denominator (the bottom numbers need to be the same, anything you do to the bottom, you need to do to the top) - simplify after adding/subtracting 
+- When the **Denominators** are the *same* you just add(or subtract) the **numerators** over the common denominator (the bottom numbers need to be the same, anything you do to the bottom, you need to do to the top) - simplify/factor after adding/subtracting 
 - **LCD** = **Lowest Common Denominator** = The smallest number that is shared by both fractions/rational expressions
-- 
+- When you are subtracting, don't just subtract the first term, wrap it in parenthesis so future Sean knows that you are subtracting BOTH (or more) terms in the polynomial - also add parenthesis when you are multiplying terms to get a LCD
+### ➕ Adding Rational Expressions with Common Denominators ($\frac{x - 4y}{6xy} + \frac{x + 3y}{6xy}$)
+
+**Problem:**
+$$\frac{x - 4y}{6xy} + \frac{x + 3y}{6xy}$$
+
+---
+
+#### 1. Combine the Numerators
+
+Since the denominators are already the same, we combine the numerators over the single common denominator. **Be careful to include the terms from the second numerator completely.**
+
+$$\frac{(x - 4y) + (x + 3y)}{6xy}$$
+
+---
+
+#### 2. Simplify the Numerator
+
+Combine the like terms in the numerator:
+
+* Combine the **$x$** terms: $x + x = 2x$
+* Combine the **$y$** terms: $-4y + 3y = -y$
+
+$$\frac{2x - y}{6xy}$$
+
+---
+
+#### 3. Final Simplified Expression
+
+Since there is no Greatest Common Factor (GCF) that can be factored from the entire numerator ($2x - y$) to cancel with the denominator ($6xy$), the expression is fully simplified.
+
+**Final Answer:**
+$$\mathbf{\frac{2x - y}{6xy}}$$
+### ➕ Adding Rational Expressions with Unlike Denominators ($\frac{4}{p + 4} + \frac{3p}{p - 4}$)
+
+**Problem:**
+$$\frac{4}{p + 4} + \frac{3p}{p - 4}$$
+
+---
+
+#### 1. Determine the LCD (Least Common Denominator)
+
+Since the two denominators, $(p + 4)$ and $(p - 4)$, are not factorable and do not share any common factors, the LCD is their product.
+
+$$\mathbf{LCD = (p + 4)(p - 4)}$$
+
+---
+
+#### 2. Rewrite Each Fraction with the LCD
+
+We multiply each fraction by a form of 1 to get the common denominator:
+
+* **First Fraction:** Multiply by $\frac{(p - 4)}{(p - 4)}$
+    $$\frac{4}{p + 4} \cdot \frac{(p - 4)}{(p - 4)} = \frac{4(p - 4)}{(p + 4)(p - 4)}$$
+
+* **Second Fraction:** Multiply by $\frac{(p + 4)}{(p + 4)}$
+    $$\frac{3p}{p - 4} \cdot \frac{(p + 4)}{(p + 4)} = \frac{3p(p + 4)}{(p - 4)(p + 4)}$$
+
+---
+
+#### 3. Combine the Numerators
+
+Now we combine the numerators over the common denominator:
+
+$$\frac{4(p - 4) + 3p(p + 4)}{(p + 4)(p - 4)}$$
+
+---
+
+#### 4. Simplify the Numerator
+
+**A. Distribute:**
+$$4p - 16 + 3p^2 + 12p$$
+
+**B. Combine Like Terms:**
+* $p^2$ term: $3p^2$
+* $p$ terms: $4p + 12p = 16p$
+* Constant term: $-16$
+
+$$\frac{3p^2 + 16p - 16}{(p + 4)(p - 4)}$$
+
+---
+
+#### 5. Final Check for Simplification
+
+Check if the numerator $3p^2 + 16p - 16$ can be factored to cancel with the denominator $(p + 4)$ or $(p - 4)$. (Factors of $3 \cdot -16 = -48$ that sum to 16 are not integers, so the numerator is prime).
+
+**Final Answer:**
+$$\mathbf{\frac{3p^2 + 16p - 16}{(p + 4)(p - 4)}}$$
