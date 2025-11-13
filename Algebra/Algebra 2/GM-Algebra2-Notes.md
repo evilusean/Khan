@@ -6621,3 +6621,5 @@ $$-(2x + 3y) \quad \text{or} \quad -2x - 3y$$
 
 #### Final Simplified Form
 $$-2x - 3y$$
+## Algebra II - Lesson 49 - Multiplying and Dividing Rational Expressions - 12November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=21h11m
