@@ -6807,3 +6807,117 @@ $$\frac{-2}{1} \cdot \frac{1}{-1} = \frac{-2}{-1}$$
 
 **Final Simplified Expression:**
 $$\mathbf{2}$$
+### ➗ Rational Expression Division: Step-by-Step ($\frac{49n - 28}{4n} \div \frac{35n^2 - 20n}{5n}$)
+
+**Problem:**
+$$\frac{49n - 28}{4n} \div \frac{35n^2 - 20n}{5n}$$
+
+---
+
+#### 1. Convert Division to Multiplication (Keep-Change-Flip)
+
+The first step is to rewrite the expression as a multiplication by taking the **reciprocal** of the second fraction:
+
+$$\frac{49n - 28}{4n} \cdot \frac{5n}{35n^2 - 20n}$$
+
+---
+
+#### 2. Factor All Polynomials
+
+We **factor** each polynomial completely to find common terms.
+
+* **Numerator 1:** $49n - 28$
+    * Factor out the **GCF (7)**: $\mathbf{7(7n - 4)}$
+
+* **Denominator 1:** $4n$
+    * **Result:** $\mathbf{4n}$
+
+* **Numerator 2:** $5n$
+    * **Result:** $\mathbf{5n}$
+
+* **Denominator 2:** $35n^2 - 20n$
+    * Factor out the **GCF ($5n$)**: $\mathbf{5n(7n - 4)}$
+
+---
+
+#### 3. Rewrite and Cancel Common Factors
+
+Substitute the factored forms and **cancel** the identical factors across the numerator and denominator:
+
+$$\frac{7(7n - 4)}{4n} \cdot \frac{5n}{5n(7n - 4)}$$
+
+We can cancel the following:
+* $\mathbf{(7n - 4)}$
+* $\mathbf{5n}$
+
+$$\frac{7\cancel{(7n - 4)}}{4\cancel{n}} \cdot \frac{\cancel{5n}}{\cancel{5n}\cancel{(7n - 4)}}$$
+
+---
+
+#### 4. Final Answer
+
+Multiply the remaining terms:
+
+$$\frac{7}{4n} \cdot \frac{1}{1} = \frac{7}{4n}$$
+
+**Final Simplified Expression:**
+$$\mathbf{\frac{7}{4n}}$$
+### ➗ Rational Expression Division: Step-by-Step ($\frac{6x^2 + 10x}{15x^2 + 13x - 20} \div \frac{45x^4}{5x - 4}$)
+
+**Problem:**
+$$\frac{6x^2 + 10x}{15x^2 + 13x - 20} \div \frac{45x^4}{5x - 4}$$
+
+---
+
+#### 1. Convert Division to Multiplication (Keep-Change-Flip)
+
+We rewrite the expression by multiplying the first fraction by the **reciprocal** of the second:
+
+$$\frac{6x^2 + 10x}{15x^2 + 13x - 20} \cdot \frac{5x - 4}{45x^4}$$
+
+---
+
+#### 2. Factor All Polynomials
+
+We **factor** each polynomial completely to prepare for cancellation.
+
+* **Numerator 1:** $6x^2 + 10x$
+    * Factor out the **GCF ($2x$)**: $\mathbf{2x(3x + 5)}$
+
+* **Denominator 1:** $15x^2 + 13x - 20$
+    * Factor the trinomial ($ac = 15 \cdot (-20) = -300$, factors sum to 13: 25 and -12):
+        $15x^2 + 25x - 12x - 20$
+        $= 5x(3x + 5) - 4(3x + 5)$
+    * **Result:** $\mathbf{(5x - 4)(3x + 5)}$
+
+* **Numerator 2:** $5x - 4$
+    * Already factored: $\mathbf{(5x - 4)}$
+
+* **Denominator 2:** $45x^4$
+    * Already factored: $\mathbf{45x^4}$
+
+---
+
+#### 3. Rewrite and Cancel Common Factors
+
+Substitute the factored forms and **cancel** the identical factors:
+
+$$\frac{2x(3x + 5)}{(5x - 4)(3x + 5)} \cdot \frac{(5x - 4)}{45x^4}$$
+
+We can cancel the following:
+* $\mathbf{(3x + 5)}$
+* $\mathbf{(5x - 4)}$
+* The terms with $x$: $\frac{x}{x^4}$ simplifies to $\frac{1}{x^3}$.
+
+$$\frac{2\cancel{x}\cancel{(3x + 5)}}{\cancel{(5x - 4)}\cancel{(3x + 5)}} \cdot \frac{\cancel{(5x - 4)}}{45x^4}$$
+
+---
+
+#### 4. Final Answer
+
+Multiply the remaining terms:
+
+$$\frac{2}{1} \cdot \frac{1}{45x^3} = \frac{2}{45x^3}$$
+
+**Final Simplified Expression:**
+$$\mathbf{\frac{2}{45x^3}}$$
