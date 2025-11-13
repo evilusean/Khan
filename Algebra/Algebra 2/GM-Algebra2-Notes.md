@@ -6625,6 +6625,7 @@ $$-2x - 3y$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=21h11m
 - When we multiply or divide rational expressions, we follow the same rules as with fractions
 - First check the fractions are simplified, then check if you can cross cancel, then attempt to factor and cancel 
+- To divide rational expressions, multiply the first rational expression by the reciprocal of the second (KCF)
 ### Multiplying and Simplifying Rational Expressions ($\frac{n^2 - 3n - 18}{5n + 15} \cdot \frac{8n^2 - 32n}{n - 4}$)
 
 **Problem:** Multiply $\frac{n^2 - 3n - 18}{5n + 15} \cdot \frac{8n^2 - 32n}{n - 4}$
@@ -6693,3 +6694,116 @@ $$\frac{6 \cdot (-1)}{16a^2} = -\frac{6}{16a^2} = -\frac{3}{8a^2}$$
 
 #### Final Simplified Form
 $$-\frac{3}{8a^2}$$
+### ✖️ Rational Expression Multiplication: Step-by-Step ($\frac{7x^2 + 73x + 90}{14x^2 - 22x - 60} \cdot \frac{2x - 6}{10x^2 - 40x}$)
+
+**Problem:**
+$$\frac{7x^2 + 73x + 90}{14x^2 - 22x - 60} \cdot \frac{2x - 6}{10x^2 - 40x}$$
+
+---
+
+#### Step 1: Factor Each Polynomial
+
+The key to multiplying rational expressions is to **factor every component** completely.
+
+#### **Numerator 1: $7x^2 + 73x + 90$**
+* Trinomial factoring ($ac=630$, sums to 73):
+    $7x^2 + 73x + 90 = 7x^2 + 63x + 10x + 90$
+    $= 7x(x + 9) + 10(x + 9)$
+    **Result: $(7x + 10)(x + 9)$**
+
+#### **Denominator 1: $14x^2 - 22x - 60$**
+* Factor out the **GCF (2)** first:
+    $2(7x^2 - 11x - 30)$
+* Factor the trinomial ($ac=-210$, sums to -11):
+    $2(7x^2 - 21x + 10x - 30)$
+    $= 2[7x(x - 3) + 10(x - 3)]$
+    **Result: $2(7x + 10)(x - 3)$**
+
+#### **Numerator 2: $2x - 6$**
+* Factor out the **GCF (2)**:
+    **Result: $2(x - 3)$**
+
+#### **Denominator 2: $10x^2 - 40x$**
+* Factor out the **GCF ($10x$)**:
+    **Result: $10x(x - 4)$**
+
+---
+
+#### Step 2: Rewrite and Cancel Common Factors
+
+Substitute the factored polynomials into the expression:
+
+$$\frac{(7x + 10)(x + 9)}{2(7x + 10)(x - 3)} \cdot \frac{2(x - 3)}{10x(x - 4)}$$
+
+We can **cancel** factors that appear in both a numerator and a denominator:
+
+* $\cancel{(7x + 10)}$
+* $\cancel{2}$
+* $\cancel{(x - 3)}$
+
+$$\frac{\cancel{(7x + 10)}(x + 9)}{\cancel{2}\cancel{(7x + 10)}\cancel{(x - 3)}} \cdot \frac{\cancel{2}\cancel{(x - 3)}}{10x(x - 4)}$$
+
+---
+
+#### Step 3: Final Answer
+
+Multiply the remaining factors:
+
+$$\frac{(x + 9) \cdot 1}{1 \cdot 10x(x - 4)}$$
+
+**Final Simplified Expression:**
+$$\frac{x + 9}{10x(x - 4)}$$
+### ➗ Rational Expression Division: Step-by-Step ($\frac{-2a + 2}{a - 1} \div \frac{40 - 5a}{5a - 40}$)
+
+**Problem:**
+$$\frac{-2a + 2}{a - 1} \div \frac{40 - 5a}{5a - 40}$$
+
+---
+
+#### 1. Convert Division to Multiplication
+
+The first step in dividing rational expressions is to **Keep-Change-Flip** (multiply the first fraction by the reciprocal of the second):
+
+$$\frac{-2a + 2}{a - 1} \cdot \frac{5a - 40}{40 - 5a}$$
+
+---
+
+#### 2. Factor All Polynomials
+
+We **factor** each polynomial completely to identify common terms for cancellation.
+
+* **Numerator 1:** $-2a + 2$
+    * Factor out **$-2$**: $\mathbf{-2(a - 1)}$
+
+* **Denominator 1:** $a - 1$
+    * **Result:** $\mathbf{(a - 1)}$
+
+* **Numerator 2:** $5a - 40$
+    * Factor out **$5$**: $\mathbf{5(a - 8)}$
+
+* **Denominator 2:** $40 - 5a$
+    * Factor out **$-5$** to match the term in the numerator: $\mathbf{-5(a - 8)}$
+
+---
+
+#### 3. Rewrite and Cancel Common Factors
+
+Substitute the factored forms and **cancel** the identical factors across the numerator and denominator:
+
+$$\frac{-2\cancel{(a - 1)}}{\cancel{(a - 1)}} \cdot \frac{\cancel{5}\cancel{(a - 8)}}{\cancel{-5}\cancel{(a - 8)}}$$
+
+The cancelled terms are:
+* $\mathbf{(a - 1)}$
+* $\mathbf{(a - 8)}$
+* The constants $\frac{5}{-5}$ simplifies to $\mathbf{-1}$.
+
+---
+
+#### 4. Final Answer
+
+Multiply the remaining coefficients:
+
+$$\frac{-2}{1} \cdot \frac{1}{-1} = \frac{-2}{-1}$$
+
+**Final Simplified Expression:**
+$$\mathbf{2}$$
