@@ -6921,3 +6921,4 @@ $$\frac{2}{1} \cdot \frac{1}{45x^3} = \frac{2}{45x^3}$$
 
 **Final Simplified Expression:**
 $$\mathbf{\frac{2}{45x^3}}$$
+## Algebra II - Lesson 50 - Adding and Subtracting Rational Expressions - 13November2025 :
