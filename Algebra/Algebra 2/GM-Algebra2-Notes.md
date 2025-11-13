@@ -7089,3 +7089,54 @@ $$\frac{7 - 16n^2}{2n^2(n - 3)}$$
 Since the numerator ($7 - 16n^2$) is not factorable in a way that allows cancellation with any part of the denominator, the expression is fully simplified.
 
 $$\mathbf{\frac{7 - 16n^2}{2n^2(n - 3)}}$$
+### ➕ Adding Rational Expressions: $\frac{6p - 8}{3p^2 + 20p - 7} + \frac{13p - 11}{p^2 + 6p - 7}$
+
+---
+
+#### 1. Factor Denominators to Find the LCD
+
+We must factor both denominators completely to find the Least Common Denominator (LCD).
+
+* **Denominator 1:** $3p^2 + 20p - 7$ (Factors of $3 \cdot -7 = -21$ that sum to 20 are 21 and -1)
+    $$3p^2 + 21p - 1p - 7 = 3p(p + 7) - 1(p + 7) = \mathbf{(3p - 1)(p + 7)}$$
+
+* **Denominator 2:** $p^2 + 6p - 7$ (Factors of -7 that sum to 6 are 7 and -1)
+    $$\mathbf{(p + 7)(p - 1)}$$
+
+* **Determine the LCD:** The LCD includes all unique factors:
+    $$\mathbf{LCD = (3p - 1)(p + 7)(p - 1)}$$
+
+---
+
+#### 2. Rewrite Each Fraction with the LCD
+
+* **First Fraction:** $\frac{6p - 8}{(3p - 1)(p + 7)}$
+    * Needs the factor $(p - 1)$:
+        $$\frac{(6p - 8)(p - 1)}{(3p - 1)(p + 7)(p - 1)}$$
+
+* **Second Fraction:** $\frac{13p - 11}{(p + 7)(p - 1)}$
+    * Needs the factor $(3p - 1)$:
+        $$\frac{(13p - 11)(3p - 1)}{(p + 7)(p - 1)(3p - 1)}$$
+
+---
+
+#### 3. Expand and Combine the Numerators
+
+We place the expanded numerators over the common denominator.
+
+**A. Expand Numerator 1:** $(6p - 8)(p - 1)$
+$$6p^2 - 6p - 8p + 8 = 6p^2 - 14p + 8$$
+
+**B. Expand Numerator 2:** $(13p - 11)(3p - 1)$
+$$39p^2 - 13p - 33p + 11 = 39p^2 - 46p + 11$$
+
+**C. Combine the expanded numerators (Addition):**
+$$(6p^2 - 14p + 8) + (39p^2 - 46p + 11)$$
+$$=(6p^2 + 39p^2) + (-14p - 46p) + (8 + 11)$$
+$$\mathbf{45p^2 - 60p + 19}$$
+
+---
+
+#### 4. Final Answer
+
+$$\mathbf{\frac{45p^2 - 60p + 19}{(3p - 1)(p + 7)(p - 1)}}$$
