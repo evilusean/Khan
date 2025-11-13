@@ -6924,7 +6924,7 @@ $$\mathbf{\frac{2}{45x^3}}$$
 ## Algebra II - Lesson 50 - Adding and Subtracting Rational Expressions - 13November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=21h30m30s
 - When we add or subtract *Rational Expressions*, we follow the same rules we learned with fractions : 
-- When the **Denominators** are the *same* you just add(or subtract) the **numerators** over the common denominator (the bottom numbers need to be the same, anything you do to the bottom, you need to do to the top) - simplify/factor after adding/subtracting 
+- When the **Denominators** are the *same* you just add(or subtract) the **numerators** over the common denominator (the bottom numbers need to be the same, anything you do to the bottom, you need to do to the top) - simplify/factor before getting LCD and simplify/factor after adding/subtracting 
 - **LCD** = **Lowest Common Denominator** = The smallest number that is shared by both fractions/rational expressions
 - When you are subtracting, don't just subtract the first term, wrap it in parenthesis so future Sean knows that you are subtracting BOTH (or more) terms in the polynomial - also add parenthesis when you are multiplying terms to get a LCD
 ### ➕ Adding Rational Expressions with Common Denominators ($\frac{x - 4y}{6xy} + \frac{x + 3y}{6xy}$)
@@ -7014,3 +7014,78 @@ Check if the numerator $3p^2 + 16p - 16$ can be factored to cancel with the deno
 
 **Final Answer:**
 $$\mathbf{\frac{3p^2 + 16p - 16}{(p + 4)(p - 4)}}$$
+### ➕ Adding Rational Expressions: $\frac{4}{2n^2 - 12n} + \frac{7n}{2}$
+
+---
+
+#### 1. Factor Denominators and Find the LCD
+
+* **Denominator 1:** Factor out the GCF:
+    $$2n^2 - 12n = \mathbf{2n(n - 6)}$$
+* **Denominator 2:** $\mathbf{2}$
+* The **LCD** must contain $2n$ and $(n - 6)$:
+    $$\mathbf{LCD = 2n(n - 6)}$$
+
+---
+
+#### 2. Rewrite Each Fraction with the LCD
+
+* **First Fraction:** Already has the LCD.
+    $$\frac{4}{2n(n - 6)}$$
+
+* **Second Fraction:** Needs $n(n - 6)$ in the denominator:
+    $$\frac{7n}{2} \cdot \frac{n(n - 6)}{n(n - 6)} = \frac{7n^2(n - 6)}{2n(n - 6)} = \frac{7n^3 - 42n^2}{2n(n - 6)}$$
+
+---
+
+#### 3. Combine and Simplify the Numerators
+
+We combine the numerators over the common denominator and arrange in standard order:
+
+$$\frac{4 + (7n^3 - 42n^2)}{2n(n - 6)} = \frac{7n^3 - 42n^2 + 4}{2n(n - 6)}$$
+
+---
+
+#### 4. Final Answer
+
+The numerator is not factorable, so the expression is simplified.
+
+$$\mathbf{\frac{7n^3 - 42n^2 + 4}{2n(n - 6)}}$$
+### ➖ Subtracting Rational Expressions: $\frac{7}{2n^3 - 6n^2} - \frac{8}{n - 3}$
+
+---
+
+#### 1. Factor Denominators to Find the LCD
+
+* **Denominator 1:** Factor out the GCF, $2n^2$:
+    $$2n^3 - 6n^2 = \mathbf{2n^2(n - 3)}$$
+* **Denominator 2:** $\mathbf{(n - 3)}$
+* **Determine the LCD:** The LCD must include all unique factors: $2n^2$ and $(n - 3)$.
+    $$\mathbf{LCD = 2n^2(n - 3)}$$
+
+---
+
+#### 2. Rewrite Each Fraction with the LCD
+
+* **First Fraction:** $\frac{7}{2n^2(n - 3)}$
+    * This fraction already has the LCD.
+
+* **Second Fraction:** $\frac{8}{n - 3}$
+    * This fraction needs $2n^2$ in the denominator:
+        $$\frac{8}{n - 3} \cdot \frac{2n^2}{2n^2} = \frac{16n^2}{2n^2(n - 3)}$$
+
+---
+
+#### 3. Combine the Numerators (Subtract!)
+
+We subtract the numerators over the common denominator. **Crucially, the entire second numerator ($16n^2$) must be subtracted.**
+
+$$\frac{7 - 16n^2}{2n^2(n - 3)}$$
+
+---
+
+#### 4. Final Answer
+
+Since the numerator ($7 - 16n^2$) is not factorable in a way that allows cancellation with any part of the denominator, the expression is fully simplified.
+
+$$\mathbf{\frac{7 - 16n^2}{2n^2(n - 3)}}$$
