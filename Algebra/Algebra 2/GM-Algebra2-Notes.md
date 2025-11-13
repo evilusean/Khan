@@ -6924,7 +6924,7 @@ $$\mathbf{\frac{2}{45x^3}}$$
 ## Algebra II - Lesson 50 - Adding and Subtracting Rational Expressions - 13November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=21h30m30s
 - When we add or subtract *Rational Expressions*, we follow the same rules we learned with fractions : 
-- When the **Denominators** are the *same* you just add(or subtract) the **numerators** over the common denominator (the bottom numbers need to be the same, anything you do to the bottom, you need to do to the top) - simplify/factor before getting LCD and simplify/factor after adding/subtracting 
+- When the **Denominators** are the *same* you just add(or subtract) the **numerators** over the common denominator (the bottom numbers need to be the same, anything you do to the bottom, you need to do to the top) - simplify/factor before getting LCD and simplify/factor after adding/subtracting - then attempt to cancel any shared terms from the numerator and denominator
 - **LCD** = **Lowest Common Denominator** = The smallest number that is shared by both fractions/rational expressions
 - When you are subtracting, don't just subtract the first term, wrap it in parenthesis so future Sean knows that you are subtracting BOTH (or more) terms in the polynomial - also add parenthesis when you are multiplying terms to get a LCD
 ### ➕ Adding Rational Expressions with Common Denominators ($\frac{x - 4y}{6xy} + \frac{x + 3y}{6xy}$)
@@ -7140,3 +7140,70 @@ $$\mathbf{45p^2 - 60p + 19}$$
 #### 4. Final Answer
 
 $$\mathbf{\frac{45p^2 - 60p + 19}{(3p - 1)(p + 7)(p - 1)}}$$
+### ➖ Subtracting Rational Expressions: $\frac{5x - 5}{x^3 + 3x^2 - x - 3} - \frac{2x + 7}{x^2 + 4x + 3}$
+
+---
+
+#### 1. Factor All Denominators and Numerators
+
+We factor all polynomials to identify the Least Common Denominator (LCD) and any initial cancellations.
+
+* **Numerator 1:** Factor GCF (5):
+    $$5x - 5 = \mathbf{5(x - 1)}$$
+
+* **Denominator 1:** Factor by Grouping:
+    $$x^3 + 3x^2 - x - 3 = x^2(x + 3) - 1(x + 3) = (x^2 - 1)(x + 3) = \mathbf{(x - 1)(x + 1)(x + 3)}$$
+
+* **Denominator 2:** Factor Trinomial (Factors of 3 that sum to 4 are 3 and 1):
+    $$\mathbf{(x + 3)(x + 1)}$$
+
+* **Determine the LCD:** The LCD includes all unique factors from both denominators:
+    $$\mathbf{LCD = (x - 1)(x + 1)(x + 3)}$$
+
+---
+
+#### 2. Simplify the First Fraction
+
+Notice that the numerator and denominator of the first fraction share a factor of $(x - 1)$. We simplify it *before* finding the common denominator.
+
+$$\frac{5\cancel{(x - 1)}}{\cancel{(x - 1)}(x + 1)(x + 3)} = \frac{5}{(x + 1)(x + 3)}$$
+
+The problem is now:
+$$\frac{5}{(x + 1)(x + 3)} - \frac{2x + 7}{(x + 3)(x + 1)}$$
+
+---
+
+#### 3. Rewrite Fractions with the LCD
+
+* **LCD Check:** The denominators are now identical: **$(x + 1)(x + 3)$**. No further multiplication is required.
+
+---
+
+#### 4. Combine the Numerators (Subtract!)
+
+Subtract the numerators over the common denominator. **Crucially, the entire second numerator $(2x + 7)$ must be placed in parentheses and subtracted.**
+
+$$\frac{5 - (2x + 7)}{(x + 1)(x + 3)}$$
+
+---
+
+#### 5. Simplify the Final Numerator
+
+Distribute the negative sign and combine like terms:
+
+$$5 - 2x - 7 = -2x - 2$$
+
+Now, factor the numerator to check for final cancellations:
+$$-2x - 2 = \mathbf{-2(x + 1)}$$
+
+---
+
+#### 6. Final Cancellation
+
+Substitute the factored numerator back into the expression and cancel the remaining common factor $(x + 1)$.
+
+$$\frac{-2\cancel{(x + 1)}}{\cancel{(x + 1)}(x + 3)}$$
+
+#### 7. Final Answer
+
+$$\mathbf{\frac{-2}{x + 3}}$$
