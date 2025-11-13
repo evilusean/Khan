@@ -6623,3 +6623,39 @@ $$-(2x + 3y) \quad \text{or} \quad -2x - 3y$$
 $$-2x - 3y$$
 ## Algebra II - Lesson 49 - Multiplying and Dividing Rational Expressions - 12November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=21h11m
+- When we multiply or divide rational expressions, we follow the same rules as with fractions
+- First check the fractions are simplified, then check if you can cross cancel, then attempt to factor and cancel 
+### Multiplying and Simplifying Rational Expressions ($\frac{x^2 - 1}{x^2 + 7x + 6} \cdot \frac{x^2 - 2x - 3}{x^2 - 4x + 3}$)
+
+**Problem:** Multiply $\frac{x^2 - 1}{x^2 + 7x + 6} \cdot \frac{x^2 - 2x - 3}{x^2 - 4x + 3}$
+
+#### Step 1: Factor All Polynomials
+
+| Polynomial | Factoring Method | Factored Form |
+| :---: | :---: | :---: |
+| **$x^2 - 1$** (Numerator 1) | Difference of Squares | $$(x - 1)(x + 1)$$ |
+| **$x^2 + 7x + 6$** (Denominator 1) | Trinomial (Mult to 6, Add to 7) | $$(x + 1)(x + 6)$$ |
+| **$x^2 - 2x - 3$** (Numerator 2) | Trinomial (Mult to -3, Add to -2) | $$(x - 3)(x + 1)$$ |
+| **$x^2 - 4x + 3$** (Denominator 2) | Trinomial (Mult to 3, Add to -4) | $$(x - 3)(x - 1)$$ |
+
+#### Step 2: Rewrite the Multiplication Problem
+Substitute the factored forms back into the expression:
+$$\frac{(x - 1)(x + 1)}{(x + 1)(x + 6)} \cdot \frac{(x - 3)(x + 1)}{(x - 3)(x - 1)}$$
+
+#### Step 3: Cancel Common Factors
+Cancel factors that appear in both a numerator and a denominator:
+* **$(x - 1)$** cancels with $(x - 1)$
+* **$(x + 1)$** cancels with one $(x + 1)$
+* **$(x - 3)$** cancels with $(x - 3)$
+
+$$\frac{\cancel{(x - 1)} \cancel{(x + 1)}}{\cancel{(x + 1)}(x + 6)} \cdot \frac{\cancel{(x - 3)}(x + 1)}{\cancel{(x - 3)} \cancel{(x - 1)}}$$
+
+#### Step 4: Write the Final Simplified Form
+The only terms remaining are the one un-canceled $(x + 1)$ in the numerator and $(x + 6)$ in the denominator.
+
+$$\frac{x + 1}{x + 6}$$
+
+---
+
+#### Final Simplified Form
+$$\frac{x + 1}{x + 6}$$
