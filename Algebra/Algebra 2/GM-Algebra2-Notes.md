@@ -6625,37 +6625,71 @@ $$-2x - 3y$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=21h11m
 - When we multiply or divide rational expressions, we follow the same rules as with fractions
 - First check the fractions are simplified, then check if you can cross cancel, then attempt to factor and cancel 
-### Multiplying and Simplifying Rational Expressions ($\frac{x^2 - 1}{x^2 + 7x + 6} \cdot \frac{x^2 - 2x - 3}{x^2 - 4x + 3}$)
+### Multiplying and Simplifying Rational Expressions ($\frac{n^2 - 3n - 18}{5n + 15} \cdot \frac{8n^2 - 32n}{n - 4}$)
 
-**Problem:** Multiply $\frac{x^2 - 1}{x^2 + 7x + 6} \cdot \frac{x^2 - 2x - 3}{x^2 - 4x + 3}$
+**Problem:** Multiply $\frac{n^2 - 3n - 18}{5n + 15} \cdot \frac{8n^2 - 32n}{n - 4}$
 
 #### Step 1: Factor All Polynomials
 
 | Polynomial | Factoring Method | Factored Form |
 | :---: | :---: | :---: |
-| **$x^2 - 1$** (Numerator 1) | Difference of Squares | $$(x - 1)(x + 1)$$ |
-| **$x^2 + 7x + 6$** (Denominator 1) | Trinomial (Mult to 6, Add to 7) | $$(x + 1)(x + 6)$$ |
-| **$x^2 - 2x - 3$** (Numerator 2) | Trinomial (Mult to -3, Add to -2) | $$(x - 3)(x + 1)$$ |
-| **$x^2 - 4x + 3$** (Denominator 2) | Trinomial (Mult to 3, Add to -4) | $$(x - 3)(x - 1)$$ |
+| **$n^2 - 3n - 18$** (Numerator 1) | Trinomial (Mult to -18, Add to -3) | $$(n - 6)(n + 3)$$ |
+| **$5n + 15$** (Denominator 1) | GCF (5) | $$5(n + 3)$$ |
+| **$8n^2 - 32n$** (Numerator 2) | GCF ($8n$) | $$8n(n - 4)$$ |
+| **$n - 4$** (Denominator 2) | Cannot be factored further | $$(n - 4)$$ |
 
 #### Step 2: Rewrite the Multiplication Problem
 Substitute the factored forms back into the expression:
-$$\frac{(x - 1)(x + 1)}{(x + 1)(x + 6)} \cdot \frac{(x - 3)(x + 1)}{(x - 3)(x - 1)}$$
+$$\frac{(n - 6)(n + 3)}{5(n + 3)} \cdot \frac{8n(n - 4)}{(n - 4)}$$
 
 #### Step 3: Cancel Common Factors
 Cancel factors that appear in both a numerator and a denominator:
-* **$(x - 1)$** cancels with $(x - 1)$
-* **$(x + 1)$** cancels with one $(x + 1)$
-* **$(x - 3)$** cancels with $(x - 3)$
+* **$(n + 3)$** cancels with $(n + 3)$
+* **$(n - 4)$** cancels with $(n - 4)$
 
-$$\frac{\cancel{(x - 1)} \cancel{(x + 1)}}{\cancel{(x + 1)}(x + 6)} \cdot \frac{\cancel{(x - 3)}(x + 1)}{\cancel{(x - 3)} \cancel{(x - 1)}}$$
+$$\frac{(n - 6) \cancel{(n + 3)}}{5 \cancel{(n + 3)}} \cdot \frac{8n \cancel{(n - 4)}}{\cancel{(n - 4)}}$$
 
 #### Step 4: Write the Final Simplified Form
-The only terms remaining are the one un-canceled $(x + 1)$ in the numerator and $(x + 6)$ in the denominator.
+Multiply the remaining terms:
+* **Numerator:** $(n - 6) \cdot 8n = 8n(n - 6)$
+* **Denominator:** $5 \cdot 1 = 5$
 
-$$\frac{x + 1}{x + 6}$$
+$$\frac{8n(n - 6)}{5}$$
 
 ---
 
 #### Final Simplified Form
-$$\frac{x + 1}{x + 6}$$
+$$\frac{8n(n - 6)}{5}$$
+### Multiplying and Simplifying Rational Expressions ($\frac{a + 3}{2a + 6} \cdot \frac{30a - 48}{64a^2 - 40a^3}$)
+
+**Problem:** Multiply $\frac{a + 3}{2a + 6} \cdot \frac{30a - 48}{64a^2 - 40a^3}$
+
+#### Step 1: Factor All Polynomials
+
+| Polynomial | Factoring Method | Factored Form |
+| :---: | :---: | :---: |
+| **$a + 3$** (Numerator 1) | Cannot be factored | $$(a + 3)$$ |
+| **$2a + 6$** (Denominator 1) | GCF (2) | $$2(a + 3)$$ |
+| **$30a - 48$** (Numerator 2) | GCF (6) | $$6(5a - 8)$$ |
+| **$64a^2 - 40a^3$** (Denominator 2) | GCF ($8a^2$) | $$8a^2(8 - 5a)$$ |
+
+#### Step 2: Rewrite the Multiplication Problem
+Substitute the factored forms back into the expression:
+$$\frac{a + 3}{2(a + 3)} \cdot \frac{6(5a - 8)}{8a^2(8 - 5a)}$$
+
+#### Step 3: Cancel Common Factors
+We can cancel:
+1.  **Binomial Factors:** Notice $(5a - 8)$ and $(8 - 5a)$ are opposites, so they cancel to **$-1$**.
+2.  **Number Factors:** $\frac{6}{2 \cdot 8} = \frac{6}{16}$, which simplifies to $\frac{3}{8}$.
+3.  **Binomial $(a + 3)$** cancels with $(a + 3)$.
+
+$$\frac{\cancel{(a + 3)}}{2 \cancel{(a + 3)}} \cdot \frac{6 \cancel{(5a - 8)}}{8a^2 \cancel{(8 - 5a)}}$$
+$$\text{Simplified Factor: } \frac{1}{2} \cdot \frac{6 \cdot (-1)}{8a^2}$$
+
+#### Step 4: Write the Final Simplified Form
+$$\frac{6 \cdot (-1)}{16a^2} = -\frac{6}{16a^2} = -\frac{3}{8a^2}$$
+
+---
+
+#### Final Simplified Form
+$$-\frac{3}{8a^2}$$
