@@ -7207,5 +7207,5 @@ $$\frac{-2\cancel{(x + 1)}}{\cancel{(x + 1)}(x + 3)}$$
 #### 7. Final Answer
 
 $$\mathbf{\frac{-2}{x + 3}}$$
-## Algebra II - Lesson 51 - Complex Fractions - 13November2025 :
+## Algebra II - Lesson 51 - Complex Fractions - 14November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h01m50s
