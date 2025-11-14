@@ -7255,3 +7255,42 @@ $$\frac{100}{9} \cdot \frac{1}{10}$$
 #### 4. Final Answer
 
 $$\mathbf{\frac{10}{9}}$$
+### ➗ Solving a Complex Fraction: $\frac{\frac{x^2}{5} + \frac{25}{xy + 2x}}{\frac{25}{x^2}}$
+
+---
+
+#### 1. Simplify the Numerator (Addition)
+
+The numerator is $\frac{x^2}{5} + \frac{25}{xy + 2x}$.
+
+* **Factor Denominator 2:** $xy + 2x = \mathbf{x(y + 2)}$
+* **LCD:** The LCD for $5$ and $x(y + 2)$ is $\mathbf{5x(y + 2)}$.
+
+* **Rewrite and Add Fractions:**
+    $$\frac{x^2}{5} \cdot \frac{x(y + 2)}{x(y + 2)} + \frac{25}{x(y + 2)} \cdot \frac{5}{5} = \frac{x^3(y + 2) + 125}{5x(y + 2)}$$
+
+* **Simplified Numerator:**
+    $$\mathbf{\frac{x^3y + 2x^3 + 125}{5x(y + 2)}}$$
+
+---
+
+#### 2. Rewrite as Multiplication (Keep-Change-Flip)
+
+The complex fraction is equivalent to the numerator multiplied by the reciprocal of the denominator ($\frac{25}{x^2}$ becomes $\frac{x^2}{25}$):
+
+$$\frac{x^3y + 2x^3 + 125}{5x(y + 2)} \cdot \frac{x^2}{25}$$
+
+---
+
+#### 3. Perform the Multiplication
+
+Multiply straight across. We can simplify the monomial terms in the denominator ($5x \cdot 25 = 125x$) and distribute the $x^2$ in the numerator.
+
+* **Final Numerator:** $x^2(x^3y + 2x^3 + 125) = \mathbf{x^5y + 2x^5 + 125x^2}$
+* **Final Denominator:** $125x(y + 2) = \mathbf{125xy + 250x}$
+
+---
+
+#### 4. Final Answer
+
+$$\mathbf{\frac{x^5y + 2x^5 + 125x^2}{125x(y + 2)}}$$
