@@ -7420,3 +7420,4 @@ $$3y + 66 = \mathbf{3(y + 22)}$$
 Combine the simplified numerator and denominator:
 
 $$\mathbf{\frac{3(y + 22)}{(x - 6)(y + 10)}}$$
+## Algebra II - Lesson 52 - Solving Equations with Rational Expressions - 14November2025 :
