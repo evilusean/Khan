@@ -7475,3 +7475,70 @@ We compare the solution to the excluded values ($m \neq 0, -5$).
 Since $m = 3$ is not one of the excluded values, it is a valid solution.
 
 $$\mathbf{Solution: m = 3}$$
+### 📝 Solving a Rational Equation: $\frac{x^2 + x - 2}{x^2 - 16} + \frac{x}{x + 4} = \frac{1}{x - 4}$
+
+---
+
+#### 1. Factor All Denominators and Find the LCD
+
+We must factor all denominators to find the Least Common Denominator (LCD).
+
+* **Denominator 1:** $x^2 - 16$ (Difference of Squares)
+    $$\mathbf{(x - 4)(x + 4)}$$
+* **Denominator 2:** $\mathbf{x + 4}$
+* **Denominator 3:** $\mathbf{x - 4}$
+* **Least Common Denominator (LCD):** $\mathbf{(x - 4)(x + 4)}$
+
+---
+
+#### 2. Identify Excluded Values
+
+Set the factors of the LCD to zero to find values that make the denominators undefined:
+* $x - 4 \neq 0 \implies x \neq 4$
+* $x + 4 \neq 0 \implies x \neq -4$
+* **Excluded Values:** $\mathbf{x \neq 4, -4}$
+
+---
+
+#### 3. Clear the Denominators by Multiplying by the LCD
+
+Multiply every term on both sides of the equation by the LCD, $(x - 4)(x + 4)$.
+
+$$(x - 4)(x + 4) \cdot \frac{x^2 + x - 2}{(x - 4)(x + 4)} + (x - 4)(x + 4) \cdot \frac{x}{x + 4} = (x - 4)(x + 4) \cdot \frac{1}{x - 4}$$
+
+* **Cancel the denominators in each term:**
+    $$x^2 + x - 2 + x(x - 4) = 1(x + 4)$$
+
+---
+
+#### 4. Simplify and Solve the Resulting Equation
+
+* **Simplify:**
+    $$x^2 + x - 2 + x^2 - 4x = x + 4$$
+
+* **Combine like terms (LHS):**
+    $$(x^2 + x^2) + (x - 4x) - 2 = x + 4$$
+    $$2x^2 - 3x - 2 = x + 4$$
+
+* **Set the equation to zero (Quadratic Form):**
+    $$2x^2 - 3x - x - 2 - 4 = 0$$
+    $$\mathbf{2x^2 - 4x - 6 = 0}$$
+
+* **Divide by 2 to simplify:**
+    $$x^2 - 2x - 3 = 0$$
+
+* **Factor the quadratic:** (Factors of -3 that sum to -2 are -3 and 1)
+    $$(x - 3)(x + 1) = 0$$
+
+* **Possible Solutions:**
+    $$x - 3 = 0 \implies \mathbf{x = 3}$$
+    $$x + 1 = 0 \implies \mathbf{x = -1}$$
+
+---
+
+#### 5. Check the Solutions
+
+We compare the solutions to the excluded values ($x \neq 4, -4$).
+Both $x = 3$ and $x = -1$ are valid solutions.
+
+$$\mathbf{Solutions: x = 3, -1}$$
