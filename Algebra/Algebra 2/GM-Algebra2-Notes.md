@@ -7213,7 +7213,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h01m50s
 - **Main Division** = the main bar dividing the fractions 
 - *2 Ways to find the solutions* :
   1) Do the numerator and denominator seperately
-  2) Find a common LCD for all fractions involved(generally faster method)
+  2) Find a common LCD for all fractions involved(generally faster method) - What you are trying to do, is during the multiplication phase, find all the prime factors required to cancel out the denominators so you are only left with the numerators multiplied by what is remaining, so you need to multiply by every value that is a prime factor in the denominator at least once, it's not actually that you are trying to find a LCD to make all the denominators the same(like when adding or subtracting a rational expression), you are trying to cancel the denominator altogether, and what you do to the denominator bottom, you do to the top on the numerator - so you cancel the bottom, and with what remains you multiply it by the numerator
 - **LCD** = Lowest Common Denominator = The smallest number that can be found to fit all the denominators
 - The largets number of repeats on any part of the LCD 
 ### ➗ Solving a Complex Fraction: $\frac{\frac{25}{9} + \frac{25}{3}}{10}$
@@ -7355,3 +7355,68 @@ $$= 3(x + 6) - (y + 3)(x - 5)$$
 Combine the simplified numerator and denominator:
 
 $$\mathbf{\frac{-11(y + 3)}{5y - xy + 33}}$$
+### ➗ Solving a Complex Fraction (LCD Method) ($\frac{\frac{1}{3} + \frac{5}{y + 7}}{\frac{x - 6}{9} + \frac{x - 6}{3y + 21}}$)
+
+**Problem:**
+$$\frac{\frac{1}{3} + \frac{5}{y + 7}}{\frac{x - 6}{9} + \frac{x - 6}{3y + 21}}$$
+
+---
+
+#### 1. Determine the Overall LCD
+
+First, factor all unique denominators in the simple fractions:
+* $y + 7$
+* $9$
+* $3y + 21 = \mathbf{3(y + 7)}$
+* The set of denominators is: $\{3, (y+7), 9, 3(y+7)\}$
+* The **Overall LCD** must contain the numerical factor 9 and the binomial factor $(y + 7)$:
+    $$\mathbf{LCD = 9(y + 7)}$$
+
+---
+
+#### 2. Multiply Numerator and Denominator by the LCD
+
+Multiply the entire main numerator and the entire main denominator by the Overall LCD, $9(y + 7)$.
+
+$$\frac{\left(\frac{1}{3} + \frac{5}{y + 7}\right) \cdot 9(y + 7)}{\left(\frac{x - 6}{9} + \frac{x - 6}{3(y + 7)}\right) \cdot 9(y + 7)}$$
+
+---
+
+#### 3. Simplify the Numerator
+
+Distribute $9(y + 7)$ across the two terms in the numerator:
+
+* Term 1: $\frac{1}{\cancel{3}} \cdot \cancel{9}^3 (y + 7) = 3(y + 7)$
+* Term 2: $\frac{5}{\cancel{y + 7}} \cdot 9 \cancel{(y + 7)} = 45$
+
+* **Combined Numerator:** $3(y + 7) + 45 = 3y + 21 + 45 = \mathbf{3y + 66}$
+
+---
+
+#### 4. Simplify the Denominator
+
+Distribute $9(y + 7)$ across the two terms in the denominator:
+
+* Term 1: $\frac{x - 6}{\cancel{9}} \cdot \cancel{9}(y + 7) = (x - 6)(y + 7)$
+* Term 2: $\frac{x - 6}{\cancel{3(y + 7)}} \cdot \cancel{9}^3 \cancel{(y + 7)} = 3(x - 6)$
+
+* **Combined Denominator:** $(x - 6)(y + 7) + 3(x - 6)$
+* **Factor out the common term** $(x - 6)$:
+    $$(x - 6) [ (y + 7) + 3 ]$$
+* **Simplify the inner bracket:** $y + 7 + 3 = \mathbf{y + 10}$
+* **Simplified Denominator:** $\mathbf{(x - 6)(y + 10)}$
+
+---
+
+#### 5. Factor the Numerator for Final Simplification
+
+Factor the simplified numerator:
+$$3y + 66 = \mathbf{3(y + 22)}$$
+
+---
+
+#### 6. Final Answer
+
+Combine the simplified numerator and denominator:
+
+$$\mathbf{\frac{3(y + 22)}{(x - 6)(y + 10)}}$$
