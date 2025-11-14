@@ -7424,4 +7424,54 @@ $$\mathbf{\frac{3(y + 22)}{(x - 6)(y + 10)}}$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h22m10s
 - When solving a linear equation with fractions, we are able to clear the fractions by multiplying bothsides by the LCD of all denominators
 - We must think closely about *restriced values*. We must check our solution(s) to ensure we do not end up with a denominator of 0.
-- 
+### 📝 Solving a Rational Equation: $\frac{1}{m + 5} + \frac{1}{m^2 + 5m} = \frac{4}{m^2 + 5m}$
+
+---
+
+#### 1. Factor All Denominators and Find the LCD
+
+* **Denominator 1:** $\mathbf{m + 5}$
+* **Denominator 2:** $m^2 + 5m = \mathbf{m(m + 5)}$
+* **Denominator 3:** $m^2 + 5m = \mathbf{m(m + 5)}$
+* **Least Common Denominator (LCD):** $\mathbf{m(m + 5)}$
+
+---
+
+#### 2. Identify Excluded Values
+
+The denominators cannot be zero. We set the factors of the LCD equal to zero and solve:
+* $m \neq 0$
+* $m + 5 \neq 0 \implies m \neq -5$
+* **Excluded Values:** $\mathbf{m \neq 0, -5}$
+
+---
+
+#### 3. Clear the Denominators by Multiplying by the LCD
+
+Multiply every term on both sides of the equation by the LCD, $m(m + 5)$.
+
+$$m(m + 5) \cdot \frac{1}{m + 5} + m(m + 5) \cdot \frac{1}{m(m + 5)} = m(m + 5) \cdot \frac{4}{m(m + 5)}$$
+
+* **Cancel the denominators:**
+    $$m(1) + 1 = 4$$
+
+---
+
+#### 4. Solve the Linear Equation
+
+The resulting equation is a simple linear equation:
+
+$$m + 1 = 4$$
+
+* Subtract 1 from both sides:
+    $$m = 4 - 1$$
+    $$\mathbf{m = 3}$$
+
+---
+
+#### 5. Check the Solution
+
+We compare the solution to the excluded values ($m \neq 0, -5$).
+Since $m = 3$ is not one of the excluded values, it is a valid solution.
+
+$$\mathbf{Solution: m = 3}$$
