@@ -7215,6 +7215,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h01m50s
   1) Do the numerator and denominator seperately
   2) Find a common LCD for all fractions involved(generally faster method)
 - **LCD** = Lowest Common Denominator = The smallest number that can be found to fit all the denominators
+- The largets number of repeats on any part of the LCD 
 ### ➗ Solving a Complex Fraction: $\frac{\frac{25}{9} + \frac{25}{3}}{10}$
 
 ---
@@ -7294,3 +7295,63 @@ Multiply straight across. We can simplify the monomial terms in the denominator 
 #### 4. Final Answer
 
 $$\mathbf{\frac{x^5y + 2x^5 + 125x^2}{125x(y + 2)}}$$
+### ➗ Solving a Complex Fraction (LCD Method) ($\frac{\frac{y + 3}{x + 6} - \frac{y + 3}{x - 5}}{\frac{3}{x - 5} - \frac{y + 3}{x + 6}}$)
+
+**Problem:**
+$$\frac{\frac{y + 3}{x + 6} - \frac{y + 3}{x - 5}}{\frac{3}{x - 5} - \frac{y + 3}{x + 6}}$$
+
+---
+
+#### 1. Determine the Overall LCD
+
+The denominators in all four simple fractions are $(x + 6)$, $(x - 5)$, and $(y + 3)$ (in the numerators). We only consider the **denominators** of the simple fractions when finding the LCD for the entire expression.
+
+* **Simple Denominators:** $(x + 6)$, $(x - 5)$
+* **Overall LCD:** $\mathbf{(x + 6)(x - 5)}$
+
+---
+
+#### 2. Multiply Numerator and Denominator by the LCD
+
+Multiply the main numerator and the main denominator of the complex fraction by the Overall LCD:
+
+$$\frac{\left(\frac{y + 3}{x + 6} - \frac{y + 3}{x - 5}\right) \cdot (x + 6)(x - 5)}{\left(\frac{3}{x - 5} - \frac{y + 3}{x + 6}\right) \cdot (x + 6)(x - 5)}$$
+
+---
+
+#### 3. Simplify the Numerator
+
+Distribute the LCD across the two terms in the numerator:
+
+$$\frac{y + 3}{\cancel{x + 6}} \cdot \cancel{(x + 6)}(x - 5) - \frac{y + 3}{\cancel{x - 5}} \cdot (x + 6)\cancel{(x - 5)}$$
+
+$$= (y + 3)(x - 5) - (y + 3)(x + 6)$$
+
+* **Factor out the common term** $(y + 3)$:
+$$(y + 3) [ (x - 5) - (x + 6) ]$$
+
+* **Simplify the inner bracket:** $x - 5 - x - 6 = \mathbf{-11}$
+* **Simplified Numerator:** $\mathbf{-11(y + 3)}$
+
+---
+
+#### 4. Simplify the Denominator
+
+Distribute the LCD across the two terms in the denominator:
+
+$$\frac{3}{\cancel{x - 5}} \cdot (x + 6)\cancel{(x - 5)} - \frac{y + 3}{\cancel{x + 6}} \cdot \cancel{(x + 6)}(x - 5)$$
+
+$$= 3(x + 6) - (y + 3)(x - 5)$$
+
+* **Expand:** $3x + 18 - (xy - 5y + 3x - 15)$
+* **Apply the negative sign:** $3x + 18 - xy + 5y - 3x + 15$
+* **Combine like terms** ($3x$ and $-3x$ cancel):
+* **Simplified Denominator:** $\mathbf{5y - xy + 33}$
+
+---
+
+#### 5. Final Answer
+
+Combine the simplified numerator and denominator:
+
+$$\mathbf{\frac{-11(y + 3)}{5y - xy + 33}}$$
