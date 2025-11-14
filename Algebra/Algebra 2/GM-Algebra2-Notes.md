@@ -7421,3 +7421,4 @@ Combine the simplified numerator and denominator:
 
 $$\mathbf{\frac{3(y + 22)}{(x - 6)(y + 10)}}$$
 ## Algebra II - Lesson 52 - Solving Equations with Rational Expressions - 14November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h22m10s
