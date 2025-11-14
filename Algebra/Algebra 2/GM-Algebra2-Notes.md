@@ -7211,6 +7211,10 @@ $$\mathbf{\frac{-2}{x + 3}}$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h01m50s
 - **Complex Fraction** = A fraction within a fraction (we heard you like fractions)
 - **Main Division** = the main bar dividing the fractions 
+- *2 Ways to find the solutions* :
+  1) Do the numerator and denominator seperately
+  2) Find a common LCD for all fractions involved(generally faster method)
+- **LCD** = Lowest Common Denominator = The smallest number that can be found to fit all the denominators
 ### ➗ Solving a Complex Fraction: $\frac{\frac{25}{9} + \frac{25}{3}}{10}$
 
 ---
