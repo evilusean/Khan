@@ -7209,3 +7209,45 @@ $$\frac{-2\cancel{(x + 1)}}{\cancel{(x + 1)}(x + 3)}$$
 $$\mathbf{\frac{-2}{x + 3}}$$
 ## Algebra II - Lesson 51 - Complex Fractions - 14November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h01m50s
+- **Complex Fraction** = A fraction within a fraction (we heard you like fractions)
+- **Main Division** = the main bar dividing the fractions 
+### ➗ Solving a Complex Fraction: $\frac{\frac{25}{9} + \frac{25}{3}}{10}$
+
+---
+
+#### 1. Simplify the Numerator (Addition)
+
+The numerator is $\frac{25}{9} + \frac{25}{3}$. The Least Common Denominator (LCD) for 9 and 3 is **9**.
+
+* Rewrite the second fraction with the LCD:
+    $$\frac{25}{3} \cdot \frac{3}{3} = \frac{75}{9}$$
+* Add the fractions:
+    $$\frac{25}{9} + \frac{75}{9} = \frac{25 + 75}{9} = \mathbf{\frac{100}{9}}$$
+
+---
+
+#### 2. Rewrite the Complex Fraction as Division
+
+Now we substitute the simplified numerator back into the complex fraction:
+
+$$\frac{\frac{100}{9}}{10} = \frac{100}{9} \div 10$$
+
+* Rewrite the whole number 10 as a fraction:
+    $$\frac{100}{9} \div \frac{10}{1}$$
+
+---
+
+#### 3. Perform the Division
+
+To divide, we use **Keep-Change-Flip** (multiply by the reciprocal of the second fraction).
+
+$$\frac{100}{9} \cdot \frac{1}{10}$$
+
+* Cancel the common factor of 10 between 100 and 10:
+    $$\frac{100^{\div 10}}{9} \cdot \frac{1}{10^{\div 10}} = \frac{10}{9} \cdot \frac{1}{1}$$
+
+---
+
+#### 4. Final Answer
+
+$$\mathbf{\frac{10}{9}}$$
