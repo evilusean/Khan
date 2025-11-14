@@ -7422,3 +7422,6 @@ Combine the simplified numerator and denominator:
 $$\mathbf{\frac{3(y + 22)}{(x - 6)(y + 10)}}$$
 ## Algebra II - Lesson 52 - Solving Equations with Rational Expressions - 14November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h22m10s
+- When solving a linear equation with fractions, we are able to clear the fractions by multiplying bothsides by the LCD of all denominators
+- We must think closely about *restriced values*. We must check our solution(s) to ensure we do not end up with a denominator of 0.
+- 
