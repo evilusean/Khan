@@ -7542,3 +7542,70 @@ We compare the solutions to the excluded values ($x \neq 4, -4$).
 Both $x = 3$ and $x = -1$ are valid solutions.
 
 $$\mathbf{Solutions: x = 3, -1}$$
+### 📝 Solving a Rational Equation: $\frac{1}{b^3 + 5b^2 + 6b} + \frac{1}{b + 2} = \frac{1}{2b^2 + 10b + 12}$
+
+---
+
+#### 1. Factor All Denominators and Find the LCD
+
+* **Denominator 1:** Factor out GCF ($b$), then factor the quadratic ($b^2 + 5b + 6 = (b+3)(b+2)$):
+    $$b^3 + 5b^2 + 6b = \mathbf{b(b + 3)(b + 2)}$$
+* **Denominator 2:** $\mathbf{b + 2}$
+* **Denominator 3:** Factor out GCF (2), then factor the quadratic ($b^2 + 5b + 6 = (b+3)(b+2)$):
+    $$2b^2 + 10b + 12 = 2(b^2 + 5b + 6) = \mathbf{2(b + 3)(b + 2)}$$
+
+* **Least Common Denominator (LCD):** The LCD must include all unique factors: $2$, $b$, $(b + 3)$, and $(b + 2)$.
+    $$\mathbf{LCD = 2b(b + 3)(b + 2)}$$
+
+---
+
+#### 2. Identify Excluded Values
+
+Set the factors of the LCD equal to zero to find values that make the denominators undefined:
+* $2b \neq 0 \implies \mathbf{b \neq 0}$
+* $b + 3 \neq 0 \implies \mathbf{b \neq -3}$
+* $b + 2 \neq 0 \implies \mathbf{b \neq -2}$
+
+---
+
+#### 3. Clear the Denominators by Multiplying by the LCD
+
+Multiply every term by the LCD, $2b(b + 3)(b + 2)$.
+
+* **Term 1:** $\cancel{2b(b + 3)(b + 2)} \cdot \frac{1}{\cancel{b(b + 3)(b + 2)}} = 2$
+* **Term 2:** $2b(b + 3)\cancel{(b + 2)} \cdot \frac{1}{\cancel{b + 2}} = 2b(b + 3)$
+* **Term 3:** $\cancel{2}(b + 3)(b + 2) \cdot \frac{1}{\cancel{2(b + 3)(b + 2)}} = b$
+
+* **Resulting Equation:**
+    $$2 + 2b(b + 3) = b$$
+
+---
+
+#### 4. Simplify and Solve the Resulting Quadratic Equation
+
+* **Simplify and Distribute:**
+    $$2 + 2b^2 + 6b = b$$
+
+* **Set the equation to zero (Standard Form $ax^2 + bx + c = 0$):**
+    $$2b^2 + 6b - b + 2 = 0$$
+    $$\mathbf{2b^2 + 5b + 2 = 0}$$
+
+* **Factor the quadratic:** (Look for factors of $a \cdot c = 4$ that sum to $b = 5$: 4 and 1)
+    $$2b^2 + 4b + 1b + 2 = 0$$
+    $$2b(b + 2) + 1(b + 2) = 0$$
+    $$\mathbf{(2b + 1)(b + 2) = 0}$$
+
+* **Possible Solutions (Zero Product Property):**
+    $$2b + 1 = 0 \implies 2b = -1 \implies \mathbf{b = -\frac{1}{2}}$$
+    $$b + 2 = 0 \implies \mathbf{b = -2}$$
+
+---
+
+#### 5. Check the Solutions
+
+We compare the possible solutions to the excluded values ($b \neq 0, -3, -2$).
+
+* $b = -\frac{1}{2}$ is **valid**.
+* $b = -2$ is an **excluded value** (it makes the original denominators zero), so this is an **extraneous solution** and must be rejected.
+
+$$\mathbf{Solution: b = -\frac{1}{2}}$$
