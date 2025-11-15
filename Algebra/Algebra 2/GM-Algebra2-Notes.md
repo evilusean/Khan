@@ -7707,3 +7707,57 @@ $$\mathbf{\frac{D}{50} = \frac{D}{80} + 9}$$
 #### 4. Final Answer
 
 The total distance to his parent's house is **1,200 miles**.
+
+### 👷 Work Rate Word Problem: Combined Time
+
+**Problem:**
+It takes Cody 9 hours to tar a roof. Trevor can tar the same roof in 5 hours. If they work together, how long would it take them?
+
+**Goal:** Find the time it takes them to complete the job together, $\mathbf{t}$.
+
+---
+
+#### 1. Define Individual Work Rates
+
+A work rate is expressed as $\frac{\text{1 job}}{\text{Time}}$.
+
+* Let $t$ be the time it takes them to complete the job together (hours).
+* **Cody's Rate ($R_C$):** $\frac{1}{9}$ job per hour.
+* **Trevor's Rate ($R_T$):** $\frac{1}{5}$ job per hour.
+* **Combined Rate ($R_{\text{combined}}$):** $\frac{1}{t}$ job per hour.
+
+---
+
+#### 2. Set Up the Rational Equation
+
+The sum of their individual rates equals their combined rate:
+$$R_C + R_T = R_{\text{combined}}$$
+
+$$\mathbf{\frac{1}{9} + \frac{1}{5} = \frac{1}{t}}$$
+
+---
+
+#### 3. Solve the Equation using the LCD Method
+
+* **Find the LCD:** The LCD of 9, 5, and $t$ is $9 \cdot 5 \cdot t = \mathbf{45t}$.
+* **Multiply every term by $45t$:**
+
+$$45t \cdot \frac{1}{9} + 45t \cdot \frac{1}{5} = 45t \cdot \frac{1}{t}$$
+
+* **Simplify and clear denominators:**
+    $$5t + 9t = 45$$
+
+* **Combine like terms:**
+    $$14t = 45$$
+
+* **Solve for t:**
+    $$t = \frac{45}{14}$$
+
+* **Convert to a Mixed Number (Optional for context):**
+    $$t = 3\frac{3}{14} \text{ hours}$$
+
+---
+
+#### 4. Final Answer
+
+It would take them $\mathbf{\frac{45}{14}}$ hours (or approximately $3.21$ hours) to tar the roof together.
