@@ -7614,7 +7614,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h47m25s
 ### 🛶 Rational Equation Word Problem: Boat Speed
 
 **Problem:**
-A river boat travels 75 miles against the current in the same amount of time as it goes 125 miles with the current. If the speed of the current is 5 mph, what is the speed of the boat in still water?
+A river boat travels 75 miles against the current in the same amount of time as it goes 125 miles with the current. If the speed of the current is 5 mph, what is 
+\the speed of the boat in still water?
 
 ---
 
@@ -7761,3 +7762,4 @@ $$45t \cdot \frac{1}{9} + 45t \cdot \frac{1}{5} = 45t \cdot \frac{1}{t}$$
 #### 4. Final Answer
 
 It would take them $\mathbf{\frac{45}{14}}$ hours (or approximately $3.21$ hours) to tar the roof together.
+## Algebra II - Lesson 54 - Radical Expression - 15November2025 : 
