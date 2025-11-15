@@ -7763,3 +7763,4 @@ $$45t \cdot \frac{1}{9} + 45t \cdot \frac{1}{5} = 45t \cdot \frac{1}{t}$$
 
 It would take them $\mathbf{\frac{45}{14}}$ hours (or approximately $3.21$ hours) to tar the roof together.
 ## Algebra II - Lesson 54 - Radical Expression - 15November2025 : 
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h13m45s
