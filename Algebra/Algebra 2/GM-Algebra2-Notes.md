@@ -7611,3 +7611,47 @@ We compare the possible solutions to the excluded values ($b \neq 0, -3, -2$).
 $$\mathbf{Solution: b = -\frac{1}{2}}$$
 ## Algebra II - Lesson 53 - Applications of Rational Expressions - 15November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h47m25s
+### 🛶 Rational Equation Word Problem: Boat Speed
+
+**Problem:**
+A river boat travels 75 miles against the current in the same amount of time as it goes 125 miles with the current. If the speed of the current is 5 mph, what is the speed of the boat in still water?
+
+---
+
+#### 1. Define Variables and Rates
+
+We use the relationship: $\text{Time} = \frac{\text{Distance}}{\text{Speed}}$. The key condition is $\mathbf{T_{\text{Upstream}} = T_{\text{Downstream}}}$.
+
+* Let $\mathbf{x}$ be the speed of the boat in still water (mph).
+* Current speed is $5$ mph.
+* **Rate Upstream (Against Current):** $x - 5$
+* **Rate Downstream (With Current):** $x + 5$
+* **Distance Upstream:** $75$ miles
+* **Distance Downstream:** $125$ miles
+
+---
+
+#### 2. Set Up and Solve the Rational Equation
+
+Set the time expressions equal to each other:
+$$\frac{75}{x - 5} = \frac{125}{x + 5}$$
+
+* **Cross-Multiply:**
+    $$75(x + 5) = 125(x - 5)$$
+
+* **Distribute:**
+    $$75x + 375 = 125x - 625$$
+
+* **Solve for x (Isolate x):**
+    $$375 + 625 = 125x - 75x$$
+    $$1000 = 50x$$
+
+* **Final Calculation:**
+    $$x = \frac{1000}{50}$$
+    $$\mathbf{x = 20}$$
+
+---
+
+#### 3. Final Answer
+
+The speed of the boat in still water is **20 mph**.
