@@ -7655,3 +7655,55 @@ $$\frac{75}{x - 5} = \frac{125}{x + 5}$$
 #### 3. Final Answer
 
 The speed of the boat in still water is **20 mph**.
+### 🚗 Rational Expression Word Problem: Distance, Rate, Time
+
+**Problem:**
+Jeff traveled to his parent's house by car. On the trip there, he averaged 80 mph. On the trip back, due to road construction, he only averaged 50 mph. If he spent 9 more hours driving on the way back, what was the total distance to his parent's house?
+
+**Goal:** Find the total distance to his parent's house, $\mathbf{D}$.
+
+---
+
+#### 1. Define Variables and Time Expressions
+
+The core relationship is that the time back ($T_{\text{back}}$) was 9 hours longer than the time there ($T_{\text{there}}$).
+$$\mathbf{T_{\text{back}} = T_{\text{there}} + 9}$$
+
+We use the formula $T = \frac{D}{R}$ (Time = Distance / Rate).
+
+* Let $\mathbf{D}$ be the distance to the parents' house (miles).
+* **Time There ($T_{\text{there}}$):** $\frac{\text{Distance}}{\text{Rate There}} = \frac{D}{80}$
+* **Time Back ($T_{\text{back}}$):** $\frac{\text{Distance}}{\text{Rate Back}} = \frac{D}{50}$
+
+---
+
+#### 2. Set Up the Rational Equation
+
+Substitute the time expressions into the core relationship:
+
+$$\mathbf{\frac{D}{50} = \frac{D}{80} + 9}$$
+
+---
+
+#### 3. Solve the Equation using the LCD Method
+
+* **Find the LCD:** The LCD of 50, 80, and 1 is 400.
+* **Multiply every term by 400:**
+    $$400 \cdot \frac{D}{50} = 400 \cdot \frac{D}{80} + 400 \cdot 9$$
+
+* **Simplify and clear denominators:**
+    $$8D = 5D + 3600$$
+
+* **Isolate the D term (Subtract 5D from both sides):**
+    $$8D - 5D = 3600$$
+    $$3D = 3600$$
+
+* **Solve for D (Divide by 3):**
+    $$D = \frac{3600}{3}$$
+    $$\mathbf{D = 1200}$$
+
+---
+
+#### 4. Final Answer
+
+The total distance to his parent's house is **1,200 miles**.
