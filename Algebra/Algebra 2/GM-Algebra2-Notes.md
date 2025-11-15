@@ -7609,5 +7609,5 @@ We compare the possible solutions to the excluded values ($b \neq 0, -3, -2$).
 * $b = -2$ is an **excluded value** (it makes the original denominators zero), so this is an **extraneous solution** and must be rejected.
 
 $$\mathbf{Solution: b = -\frac{1}{2}}$$
-## Algebra II - Lesson 53 - Applications of Rational Expressions - 14November2025 :
+## Algebra II - Lesson 53 - Applications of Rational Expressions - 15November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=22h47m25s
