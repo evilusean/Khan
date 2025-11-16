@@ -7952,6 +7952,7 @@ $$x^{10/3}$$
 ## Algebra II - Lesson 55 - Simplifying Radicals - 16November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h47m40s
 - **Product Rule For Radicals** : $\sqrt[n]{a} \cdot \sqrt[n]{b} = \sqrt[n]{a \cdot b}$ : allows you to combine or separate radicals that have the exact same **index** (the type of root, e.g., square root, cube root). This rule is crucial for both multiplying expressions and simplifying single radicals.
+- **Quotient Rule ForRadicals** : $\sqrt[n]{\frac{a}{b}} = \frac{\sqrt[n]{a}}{\sqrt[n]{b}}$ : It is easier to use the Quotient Rule for $\sqrt{\frac{1}{4}}$ because calculating $\frac{\sqrt{1}}{\sqrt{4}}$ directly yields $\frac{1}{2}$ without needing to recognize or calculate the decimal or fractional square root of $0.25$ or $\frac{1}{4}$.
 ### 🧮 Product Rules for Radicals
 
 The **Product Rule for Radicals** allows you to combine or separate radicals that have the exact same **index** (the type of root, e.g., square root, cube root). This rule is crucial for both multiplying expressions and simplifying single radicals.
