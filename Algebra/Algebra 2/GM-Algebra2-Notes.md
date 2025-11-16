@@ -8421,35 +8421,5 @@ The simplified form is **$-8x\sqrt[7]{3x^3y^4z^5}$**.
 3.  **Combine Terms:** Multiply the terms outside the radical:
     $$-8x\sqrt[7]{3x^3y^4z^5}$$
 
----
-
-#### 2. Simplifying the Exponential Expression: $\frac{(x^2)^{2/3} \cdot x^{1/2}}{x^{-3/2}}$
-
-The simplified form is **$x^{10/3}$**.
-
-##### Step-by-Step Solution
-
-1.  **Simplify Numerator (Power of a Power):** $(x^2)^{2/3} = x^{2 \cdot \frac{2}{3}} = x^{4/3}$.
-    *The expression is now: $\frac{x^{4/3} \cdot x^{1/2}}{x^{-3/2}}$*
-
-2.  **Combine Numerator (Product Rule):** Add the exponents $\frac{4}{3} + \frac{1}{2} = \frac{8}{6} + \frac{3}{6} = \frac{11}{6}$.
-    *The expression is now: $\frac{x^{11/6}}{x^{-3/2}}$*
-
-3.  **Apply Quotient Rule:** Subtract the exponents: $\frac{11}{6} - \left(-\frac{3}{2}\right) = \frac{11}{6} + \frac{9}{6} = \frac{20}{6}$.
-
-4.  **Reduce Exponent:** $\frac{20}{6} = \frac{10}{3}$.
-
----
-
-#### 3. Simplifying the Exponential Expression: $\frac{(m^3)^2 \cdot m^2}{m^{1/2}}$
-
-The simplified form is **$m^{15/2}$**.
-
-##### Step-by-Step Solution
-
-1.  **Simplify Numerator (Power of a Power):** $(m^3)^2 = m^{3 \cdot 2} = m^6$.
-
-2.  **Combine Numerator (Product Rule):** $m^6 \cdot m^2 = m^{6+2} = m^8$.
-    *The expression is now: $\frac{m^8}{m^{1/2}}$*
-
-3.  **Apply Quotient Rule:** Subtract the exponents: $8 - \frac{1}{2} = \frac{16}{2} - \frac{1}{2} = \frac{15}{2}$.
+## Algebra II - Lesson 56 - Finding the Distance between 2 points - 16November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=24h14m20s
