@@ -8253,3 +8253,99 @@ $$x^{1/2} = \sqrt[2]{x} = \sqrt{x}$$
 The simplified form of $\sqrt[4]{x^2}$ is:
 
 $$\sqrt{x}$$
+### 📝 Simplifying $\sqrt[20]{y^5}$
+
+---
+
+#### Problem
+
+Simplify the radical expression:
+
+$$\sqrt[20]{y^5}$$
+
+#### Step-by-Step Solution
+
+##### 1. Convert to a Fractional Exponent
+
+Rewrite the radical expression $\sqrt[n]{y^m}$ in its exponential form $y^{m/n}$.
+The index ($n$) is 20 and the exponent ($m$) is 5:
+
+$$\sqrt[20]{y^5} = y^{5/20}$$
+
+##### 2. Reduce the Fractional Exponent
+
+Identify the greatest common factor (GCF) between the numerator (5) and the denominator (20), which is 5. Divide both parts of the fraction by 5:
+
+$$\frac{5}{20} = \frac{5 \div 5}{20 \div 5} = \frac{1}{4}$$
+
+So, the expression becomes:
+$$y^{1/4}$$
+
+##### 3. Convert Back to Radical Form
+
+Convert the fractional exponent back to the simplified radical form, using $y^{1/n} = \sqrt[n]{y}$:
+
+$$y^{1/4} = \sqrt[4]{y}$$
+
+---
+
+#### Final Simplified Answer
+
+The simplified form of $\sqrt[20]{y^5}$ is:
+
+$$\sqrt[4]{y}$$
+### 📝 Simplifying $\sqrt[3]{320}$
+
+---
+
+#### Problem
+
+Simplify the radical expression:
+
+$$\sqrt[3]{320}$$
+
+#### Step-by-Step Solution
+
+##### 1. Identify Perfect Cubes
+
+First, list the first few perfect cubes to check for factors of 320:
+* $1^3 = 1$
+* $2^3 = 8$
+* $3^3 = 27$
+* $4^3 = 64$
+* $5^3 = 125$
+* $6^3 = 216$
+* $7^3 = 343$ (Too large)
+
+##### 2. Find the Largest Perfect Cube Factor
+
+Check which of the perfect cubes (8, 27, 64, 125, 216) is the largest factor of 320:
+* $320 \div 125 \rightarrow$ not a whole number
+* $320 \div 64 = 5$
+* $320 \div 27 \rightarrow$ not a whole number
+* $320 \div 8 = 40$
+
+The **largest perfect cube factor** of 320 is **64**, since $320 = 64 \cdot 5$.
+
+##### 3. Apply the Product Rule for Radicals
+
+Rewrite the radical using the factors and apply the separation rule $\sqrt[n]{a \cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b}$:
+
+$$\sqrt[3]{320} = \sqrt[3]{64 \cdot 5}$$
+$$\sqrt[3]{64} \cdot \sqrt[3]{5}$$
+
+##### 4. Final Simplification
+
+Evaluate the cube root of the perfect cube factor:
+$$\sqrt[3]{64} = 4$$
+
+Combine the results:
+$$4\sqrt[3]{5}$$
+
+---
+
+#### Final Simplified Answer
+
+The simplified form of $\sqrt[3]{320}$ is:
+
+$$4\sqrt[3]{5}$$
