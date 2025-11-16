@@ -7952,4 +7952,48 @@ $$x^{10/3}$$
 ## Algebra II - Lesson 55 - Simplifying Radicals - 16November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h47m40s
 - **Product Rule For Radicals** : $\sqrt[n]{a} \cdot \sqrt[n]{b} = \sqrt[n]{a \cdot b}$ : allows you to combine or separate radicals that have the exact same **index** (the type of root, e.g., square root, cube root). This rule is crucial for both multiplying expressions and simplifying single radicals.
-- 
+### ➗ Simplifying Radical Multiplication ($\sqrt[7]{20x^3} \cdot \sqrt[7]{10x}$)
+
+---
+
+#### Problem
+
+Simplify the following expression:
+
+$$\sqrt[7]{20x^3} \cdot \sqrt[7]{10x}$$
+
+#### Step-by-Step Solution
+
+##### 1. Combine Radicals (Product Rule)
+
+Since both radicals have the same index ($n=7$), we can use the **Multiplication Rule** $\sqrt[n]{a} \cdot \sqrt[n]{b} = \sqrt[n]{a \cdot b}$ to combine them under a single radical:
+
+$$\sqrt[7]{20x^3 \cdot 10x}$$
+
+Multiply the terms inside the radical:
+* **Coefficients:** $20 \cdot 10 = 200$
+* **Variables:** $x^3 \cdot x = x^{3+1} = x^4$
+
+The expression is now:
+$$\sqrt[7]{200x^4}$$
+
+##### 2. Simplify the Radical
+
+To simplify, we look for **perfect $7^{th}$ power factors** within $200x^4$.
+
+* **Variable term $x^4$:** Since $4$ is less than the index $7$, $x^4$ cannot be simplified further.
+* **Coefficient term $200$:** We check for perfect $7^{th}$ powers that divide 200.
+    * $1^7 = 1$
+    * $2^7 = 128$
+    * $3^7 = 2187$ (Too large)
+
+Since $128$ is the largest perfect $7^{th}$ power less than 200, we can rewrite $200$ as $128 \cdot \frac{200}{128} \approx 128 \cdot 1.56$. Since the division does not result in a whole number, **128 is not a factor of 200**.
+
+Since no perfect $7^{th}$ powers (other than 1) are factors of 200, the coefficient cannot be simplified.
+
+---
+
+#### Final Simplified Answer
+
+The expression is already in its simplest form after multiplication:
+$$\sqrt[7]{200x^4}$$
