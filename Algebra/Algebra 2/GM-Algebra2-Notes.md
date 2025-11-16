@@ -8000,10 +8000,10 @@ To simplify a radical like $\sqrt[n]{x}$, you must factor $x$ into $a \cdot b$, 
 
 The ability to move between the combined form ($\sqrt[n]{ab}$) and the separated form ($\sqrt[n]{a} \cdot \sqrt[n]{b}$) is what makes the product rule fundamental to working with radicals.
 
-| Rule | Function | When to Use |
-| :--- | :--- | :--- |
-| **Multiplication** | $\sqrt[n]{a} \cdot \sqrt[n]{b} \rightarrow \sqrt[n]{a \cdot b}$ | When multiplying radical expressions. |
-| **Separation** | $\sqrt[n]{a \cdot b} \rightarrow \sqrt[n]{a} \cdot \sqrt[n]{b}$ | When simplifying a single radical by removing perfect $n^{th}$ powers. |
+| Rule               | Function                                                        | When to Use                                                            |
+| :----------------- | :-------------------------------------------------------------- | :--------------------------------------------------------------------- |
+| **Multiplication** | $\sqrt[n]{a} \cdot \sqrt[n]{b} \rightarrow \sqrt[n]{a \cdot b}$ | When multiplying radical expressions.                                  |
+| **Separation**     | $\sqrt[n]{a \cdot b} \rightarrow \sqrt[n]{a} \cdot \sqrt[n]{b}$ | When simplifying a single radical by removing perfect $n^{th}$ powers. |
 ### ➗ Simplifying Radical Multiplication ($\sqrt[7]{20x^3} \cdot \sqrt[7]{10x}$)
 
 ---
