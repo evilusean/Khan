@@ -7818,3 +7818,47 @@ Substitute the simplified exponent back onto the base:
 $$5^1$$
 
 $$\mathbf{5}$$
+### ➗ Simplifying Rational Exponents: Product and Quotient Rules
+
+**Problem:**
+$$\frac{m^2}{m^{1/3}m^{2/3}m^{1/3}}$$
+
+---
+
+#### 1. Simplify the Denominator (Product Rule)
+
+When multiplying powers with the same base, you **keep the base** and **add the exponents**.
+$$\mathbf{a^m \cdot a^n = a^{m+n}}$$
+
+* **Add the fractional exponents in the denominator:**
+    $$\text{Exponent Sum} = \frac{1}{3} + \frac{2}{3} + \frac{1}{3}$$
+    $$\text{Exponent Sum} = \frac{1 + 2 + 1}{3} = \frac{4}{3}$$
+
+* **New Expression:**
+    $$\mathbf{\frac{m^2}{m^{4/3}}}$$
+
+---
+
+#### 2. Apply the Quotient Rule
+
+When dividing powers with the same base, you **keep the base** and **subtract the exponents**.
+$$\mathbf{\frac{a^m}{a^n} = a^{m-n}}$$
+
+* **Subtract the exponents:**
+    $$m^{2 - 4/3}$$
+
+---
+
+#### 3. Perform Subtraction of Exponents
+
+To subtract, we need a common denominator. Rewrite $2$ as a fraction with a denominator of 3: $2 = \frac{6}{3}$.
+
+$$\text{Exponent} = \frac{6}{3} - \frac{4}{3} = \frac{6 - 4}{3} = \mathbf{\frac{2}{3}}$$
+
+---
+
+#### 4. Final Simplified Result
+
+The simplified expression is:
+
+$$\mathbf{m^{2/3}}$$
