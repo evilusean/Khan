@@ -7862,3 +7862,43 @@ $$\text{Exponent} = \frac{6}{3} - \frac{4}{3} = \frac{6 - 4}{3} = \mathbf{\frac{
 The simplified expression is:
 
 $$\mathbf{m^{2/3}}$$
+### 📐 Exponential Expression Simplification 
+
+---
+
+#### Problem
+
+Simplify the expression:
+
+$$\frac{(m^3)^2 \cdot m^2}{m^{1/2}}$$
+
+#### Step-by-Step Solution
+
+##### 1. Power of a Power
+Apply the rule $(a^b)^c = a^{b \cdot c}$ to the first term, $(m^3)^2$:
+$$(m^3)^2 = m^{3 \times 2} = m^6$$
+
+The expression becomes:
+$$\frac{m^6 \cdot m^2}{m^{1/2}}$$
+
+##### 2. Product Rule (Numerator)
+Apply the rule $a^b \cdot a^c = a^{b+c}$ to the numerator $m^6 \cdot m^2$:
+$$m^6 \cdot m^2 = m^{6+2} = m^8$$
+
+The expression becomes:
+$$\frac{m^8}{m^{1/2}}$$
+
+##### 3. Quotient Rule
+Apply the rule $\frac{a^b}{a^c} = a^{b-c}$ to the fraction:
+$$\frac{m^8}{m^{1/2}} = m^{8 - 1/2}$$
+
+##### 4. Final Exponent Calculation
+Calculate the exponent $8 - \frac{1}{2}$:
+$$8 - \frac{1}{2} = \frac{16}{2} - \frac{1}{2} = \frac{15}{2}$$
+
+---
+
+#### Final Simplified Answer
+
+The result is:
+$$m^{15/2}$$
