@@ -7778,3 +7778,6 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h13m45s
 * **Radicand ($\mathbf{a}$):** The number or expression written inside the radical symbol.
 - $\mathbf{\sqrt[3]{8}}$ : what multiplied by itself 3 times gives 8? $2 \cdot 2 \cdot 2 = 8$
 - $\mathbf{\sqrt[2]{a}}$ If the index isn't shown, it's assumed to be '2' 
+- $\mathbf{\sqrt[n]{a^n}}$ : If $n$ is even and $n > 0$ then you get the absolute value of  | a |, a negative will turn into a positive. - The powers/index will cancel eachother 
+- $\mathbf{\sqrt[n]{a^n}}$ : If $n$ is odd and $n > 0$ : $n$ will cancel eachother out and you are left with $a$ - if  'a' is negative, an odd number of exponents will give you a negative 
+- 
