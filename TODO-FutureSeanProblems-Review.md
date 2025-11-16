@@ -32,3 +32,5 @@ Rational Expressions
 
 Complex Fractions with Rational Expressions
 
+Radicals - Exponent Form (This still doesn't make sense to me, the numerator and denominator become what?)
+

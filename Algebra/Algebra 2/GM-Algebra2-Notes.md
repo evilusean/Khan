@@ -7957,6 +7957,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h47m40s
   1) The Radicand contains no factor that is raised to a power which is greater than or equal to the index - To simplify $\sqrt{20}$, we use the Product Rule for Radicals to factor out the largest perfect square factor, which is 4, resulting in $\sqrt{4 \cdot 5}$, which simplifies to $2\sqrt{5}$.
   2) The Radicand has no fractions - To simplify $\sqrt{\frac{5}{36}}$, we apply the Quotient Rule for Radicals to separate it into $\frac{\sqrt{5}}{\sqrt{36}}$, which then simplifies to $\frac{\sqrt{5}}{6}$.
   3) No denominator contains a Radical - use the process of **Rationalising the Denominator** to fix
+  4) There can be no common factor between the index of the radical and the exponent of the radicand - The radical $\sqrt[4]{4^2}$ (the fourth root of 4 to the power of 2) violates the principle, as it can be simplified because the **index (4) and the exponent of the radicand (2) share a common factor of 2**, allowing the radical to be rewritten as $\sqrt{4}$, which evaluates to 2.
 -  **Rationalising the Denominator** : To rationalize the denominator in $\frac{1}{\sqrt{2}}$, we **multiply both the numerator and the denominator by $\sqrt{2}$** to eliminate the radical in the denominator, resulting in the simplified equivalent fraction $\frac{\sqrt{2}}{2}$.
 ### 🧮 Product Rules for Radicals
 
@@ -8210,3 +8211,45 @@ $$\frac{\sqrt[5]{-1}}{\sqrt[5]{32}} = \frac{-1}{2}$$
 
 The expression $\sqrt[5]{\frac{-1}{32}}$ simplifies to:
 $$-\frac{1}{2}$$
+### 📝 Simplifying $\sqrt[4]{x^2}$
+
+---
+
+#### Problem
+
+Simplify the radical expression:
+
+$$\sqrt[4]{x^2}$$
+
+#### Step-by-Step Solution
+
+##### 1. Convert to a Fractional Exponent
+
+A radical expression $\sqrt[n]{x^m}$ can be rewritten as an expression with a fractional exponent $x^{m/n}$.
+
+In this case, the index ($n$) is 4 and the exponent ($m$) is 2:
+
+$$\sqrt[4]{x^2} = x^{2/4}$$
+
+##### 2. Reduce the Fractional Exponent
+
+The fraction $\frac{2}{4}$ can be reduced by dividing both the numerator and the denominator by their greatest common factor, which is 2:
+
+$$\frac{2}{4} = \frac{1}{2}$$
+
+So, the expression becomes:
+$$x^{1/2}$$
+
+##### 3. Convert Back to Radical Form
+
+Convert the fractional exponent back to radical form using $x^{1/n} = \sqrt[n]{x}$:
+
+$$x^{1/2} = \sqrt[2]{x} = \sqrt{x}$$
+
+---
+
+#### Final Simplified Answer
+
+The simplified form of $\sqrt[4]{x^2}$ is:
+
+$$\sqrt{x}$$
