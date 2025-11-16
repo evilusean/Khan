@@ -7782,5 +7782,5 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h13m45s
 - $\mathbf{\sqrt[n]{a^n}}$ : If $n$ is odd and $n > 0$ : $n$ will cancel eachother out and you are left with $a$ - if  'a' is negative, an odd number of exponents will give you a negative 
 - $a^1/n$ = $\mathbf{\sqrt[n]{a}}$ : **Fractional Exponents** or **Rational Exponents** : 'a' raised to the power of 1 over 'n' is equal to the 'n'th root of 'a'  - the 'n'  of the exponent becomes the index
 - $4^1/2$ = $\mathbf{\sqrt[2]{4}}$ : '4' raised to the one over 2 power is the same as the square root of 4
-- $a^1m/n$ = ($\mathbf{\sqrt[n]{a}}$ )$^m$ : they are the same, 'a' to the power of 'm/n' is the same as the square root of 'a' raised to the power 'm' -  *The Denominator becomes the index* - *The numerator becomes the power you raise that result to afterwards*
+- $a^m/n$ = ($\mathbf{\sqrt[n]{a}}$ )$^m$ : they are the same, 'a' to the power of 'm/n' is the same as the square root of 'a' raised to the power 'm' -  *The Denominator becomes the index* - *The numerator becomes the power you raise that result to afterwards*
 - 
