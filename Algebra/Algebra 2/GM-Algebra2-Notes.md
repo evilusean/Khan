@@ -7953,6 +7953,11 @@ $$x^{10/3}$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h47m40s
 - **Product Rule For Radicals** : $\sqrt[n]{a} \cdot \sqrt[n]{b} = \sqrt[n]{a \cdot b}$ : allows you to combine or separate radicals that have the exact same **index** (the type of root, e.g., square root, cube root). This rule is crucial for both multiplying expressions and simplifying single radicals.
 - **Quotient Rule ForRadicals** : $\sqrt[n]{\frac{a}{b}} = \frac{\sqrt[n]{a}}{\sqrt[n]{b}}$ : It is easier to use the Quotient Rule for $\sqrt{\frac{1}{4}}$ because calculating $\frac{\sqrt{1}}{\sqrt{4}}$ directly yields $\frac{1}{2}$ without needing to recognize or calculate the decimal or fractional square root of $0.25$ or $\frac{1}{4}$.
+- **Simplified Radical** : 
+  1) The Radicand contains no factor that is raised to a power which is greater than or equal to the index - To simplify $\sqrt{20}$, we use the Product Rule for Radicals to factor out the largest perfect square factor, which is 4, resulting in $\sqrt{4 \cdot 5}$, which simplifies to $2\sqrt{5}$.
+  2) The Radicand has no fractions - To simplify $\sqrt{\frac{5}{36}}$, we apply the Quotient Rule for Radicals to separate it into $\frac{\sqrt{5}}{\sqrt{36}}$, which then simplifies to $\frac{\sqrt{5}}{6}$.
+  3) No denominator contains a Radical - use the process of **Rationalising the Denominator** to fix
+-  **Rationalising the Denominator** : To rationalize the denominator in $\frac{1}{\sqrt{2}}$, we **multiply both the numerator and the denominator by $\sqrt{2}$** to eliminate the radical in the denominator, resulting in the simplified equivalent fraction $\frac{\sqrt{2}}{2}$.
 ### 🧮 Product Rules for Radicals
 
 The **Product Rule for Radicals** allows you to combine or separate radicals that have the exact same **index** (the type of root, e.g., square root, cube root). This rule is crucial for both multiplying expressions and simplifying single radicals.
