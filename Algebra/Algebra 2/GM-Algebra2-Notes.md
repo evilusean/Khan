@@ -8004,6 +8004,54 @@ The ability to move between the combined form ($\sqrt[n]{ab}$) and the separated
 | :----------------- | :-------------------------------------------------------------- | :--------------------------------------------------------------------- |
 | **Multiplication** | $\sqrt[n]{a} \cdot \sqrt[n]{b} \rightarrow \sqrt[n]{a \cdot b}$ | When multiplying radical expressions.                                  |
 | **Separation**     | $\sqrt[n]{a \cdot b} \rightarrow \sqrt[n]{a} \cdot \sqrt[n]{b}$ | When simplifying a single radical by removing perfect $n^{th}$ powers. |
+### ➗ Quotient Rule for Radicals
+
+The **Quotient Rule for Radicals** is used when dealing with the division of radical expressions that share the same **index** ($n$). It allows you to move between a single radical covering a fraction and a fraction made of two separate radicals.
+
+---
+
+#### Formal Definition and Formula
+
+The rule states that the $n^{th}$ root of a quotient is equal to the quotient of the $n^{th}$ roots.
+
+**Formula:**
+$$\sqrt[n]{\frac{a}{b}} = \frac{\sqrt[n]{a}}{\sqrt[n]{b}}$$
+
+* **Condition:** The index $n$ must be the same for the numerator and denominator. The value $b$ cannot be zero.
+
+#### Two Main Applications
+
+The Quotient Rule is primarily used in two ways to simplify expressions:
+
+##### 1. Separation (Simplifying a Fraction Under a Radical)
+
+You use this when a fraction is already entirely under a single radical sign. Separating it allows you to simplify the numerator and denominator independently.
+
+* **When to Use:** When the radicands (numerator $a$ and denominator $b$) are perfect $n^{th}$ powers or contain factors that are perfect $n^{th}$ powers.
+
+* **Example:** Simplify $\sqrt{\frac{81}{49}}$
+    $$\sqrt{\frac{81}{49}} = \frac{\sqrt{81}}{\sqrt{49}} = \frac{9}{7}$$
+
+##### 2. Combination (Dividing Two Radicals)
+
+You use this when you have a fraction composed of a radical in the numerator and a radical in the denominator. Combining them allows you to simplify the fraction inside the radical before taking the root.
+
+* **When to Use:** When the radicands form a fraction that is easy to reduce, or when the quotient of the radicands is a perfect $n^{th}$ power.
+
+* **Example:** Simplify $\frac{\sqrt[3]{16}}{\sqrt[3]{2}}$
+    $$\frac{\sqrt[3]{16}}{\sqrt[3]{2}} = \sqrt[3]{\frac{16}{2}} = \sqrt[3]{8}$$
+* **Final Result:** $\sqrt[3]{8} = 2$
+
+---
+
+#### 💡 Requirement for Simplification
+
+A radical expression is **not** considered fully simplified if:
+
+* It has a **fraction** inside the radical ($\sqrt[n]{\frac{a}{b}}$).
+* It has a **radical** in the denominator ($\frac{a}{\sqrt[n]{b}}$).
+
+The Quotient Rule is the first step in addressing these issues, often followed by **rationalizing the denominator** to satisfy the second rule.
 ### ➗ Simplifying Radical Multiplication ($\sqrt[7]{20x^3} \cdot \sqrt[7]{10x}$)
 
 ---
