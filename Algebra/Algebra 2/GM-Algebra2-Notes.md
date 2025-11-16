@@ -7764,3 +7764,14 @@ $$45t \cdot \frac{1}{9} + 45t \cdot \frac{1}{5} = 45t \cdot \frac{1}{t}$$
 It would take them $\mathbf{\frac{45}{14}}$ hours (or approximately $3.21$ hours) to tar the roof together.
 ## Algebra II - Lesson 54 - Radical Expression - 15November2025 : 
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h13m45s
+- Recall that the square root of a number (q) is any number that when multiplied by itself gives us the number (q) back. 4 x 4 = 16, 16 is a perfect square. 
+- The square root of 16 can be '4' or NEGATIVE '-4', both will work.
+- **Principal Square Root** = $\sqrt{16}$ = 4  The positive square root
+- $-\sqrt{16}$ = -4 : put a 'negative' sign in front of the square root to let them know you want the negative 
+- $\pm\sqrt{25}$  = $\pm5$  : +-  plus or minus sign, could be both possibilities
+- $\mathbf{\sqrt[n]{a}}$ : The notation $\mathbf{\sqrt[n]{a}}$ is used to define the $\mathbf{n}$-th root of $a$.
+- **Radical Symbol ($\sqrt{}$):** The symbol used to denote a root.
+* **Index ($\mathbf{n}$):** or **Order** : The small number placed above and to the left of the radical symbol. It indicates which root you are taking (e.g., $n=3$ for cube root, $n=4$ for fourth root). If no number is shown (like in $\sqrt{a}$), the index is implicitly 2 (square root).
+* **Radicand ($\mathbf{a}$):** The number or expression written inside the radical symbol.
+- $\mathbf{\sqrt[3]{8}}$ : what multiplied by itself 3 times gives 8? $2 \cdot 2 \cdot 2 = 8$
+- 
