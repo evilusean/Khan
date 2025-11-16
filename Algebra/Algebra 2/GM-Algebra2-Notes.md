@@ -7950,3 +7950,4 @@ Reduce the fraction: $\frac{20}{6} = \frac{10}{3}$.
 The simplified expression is:
 $$x^{10/3}$$
 ## Algebra II - Lesson 55 - Simplifying Radicals - 16November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h47m40s
