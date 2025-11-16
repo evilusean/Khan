@@ -8166,3 +8166,42 @@ $$\frac{2}{6} = \frac{1}{3}$$
 
 The expression $\sqrt[3]{\frac{8}{216}}$ simplifies and reduces to:
 $$\frac{1}{3}$$
+### ➗ Quotient Rule Solution ($\sqrt[5]{\frac{-1}{32}}$)
+
+---
+
+#### Problem
+
+Solve and simplify the expression:
+
+$$\sqrt[5]{\frac{-1}{32}}$$
+
+#### Step-by-Step Solution
+
+##### 1. Apply the Quotient Rule
+
+Separate the single radical into the fifth root of the numerator and the fifth root of the denominator, using the rule $\sqrt[n]{\frac{a}{b}} = \frac{\sqrt[n]{a}}{\sqrt[n]{b}}$:
+
+$$\sqrt[5]{\frac{-1}{32}} = \frac{\sqrt[5]{-1}}{\sqrt[5]{32}}$$
+
+##### 2. Evaluate the Numerator
+
+Since the index ($n=5$) is **odd**, the fifth root of a negative number is defined and negative:
+$$\sqrt[5]{-1} = -1$$
+
+##### 3. Evaluate the Denominator
+
+Find the fifth root of 32:
+$$\sqrt[5]{32} = 2$$
+
+##### 4. Final Answer
+
+Combine the simplified numerator and denominator:
+$$\frac{\sqrt[5]{-1}}{\sqrt[5]{32}} = \frac{-1}{2}$$
+
+---
+
+#### Final Simplified Answer
+
+The expression $\sqrt[5]{\frac{-1}{32}}$ simplifies to:
+$$-\frac{1}{2}$$
