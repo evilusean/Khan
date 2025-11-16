@@ -7767,7 +7767,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h13m45s
 - Recall that the square root of a number (q) is any number that when multiplied by itself gives us the number (q) back. 4 x 4 = 16, 16 is a perfect square. 
 - The square root of 16 can be '4' or NEGATIVE '-4', both will work.
 - **Principal Square Root** = $\sqrt{16}$ = 4  The positive square root
-- $-\sqrt{16}$ = -4 : put a 'negative' sign in front of the square root to let them know you want the negative 
+- $-\sqrt{16}$ = -4 : put a 'negative' sign in front of the square root to let them know
+   you want the negative 
 - $\pm\sqrt{25}$  = $\pm5$  : +-  plus or minus sign, could be both possibilities
 - $\mathbf{\sqrt[n]{a}}$ : The notation $\mathbf{\sqrt[n]{a}}$ is used to define the $\mathbf{n}$-th root of $a$. 
 - If $n$ is even and $a \ge 0$ (a is not a negative value) you will have 2 sets of notation, *principal* and *negative* 
@@ -7948,3 +7949,4 @@ Reduce the fraction: $\frac{20}{6} = \frac{10}{3}$.
 
 The simplified expression is:
 $$x^{10/3}$$
+## Algebra II - Lesson 55 - Simplifying Radicals - 16November2025 :
