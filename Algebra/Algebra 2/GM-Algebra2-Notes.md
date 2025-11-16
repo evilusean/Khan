@@ -7784,4 +7784,37 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h13m45s
 - $4^1/2$ = $\mathbf{\sqrt[2]{4}}$ : '4' raised to the one over 2 power is the same as the square root of 4
 - $a^m/n$ = ($\mathbf{\sqrt[n]{a}}$ )$^m$ : they are the same, 'a' to the power of 'm/n' is the same as the square root of 'a' raised to the power 'm' -  *The Denominator becomes the index* - *The numerator becomes the power you raise that result to afterwards*
 - $x^-1$ = $\frac {1}{x}$    If you raise a number to the power of negative one, it simply wants the reciprocal of that number under '1' 
-- 
+### ➗ Simplifying Rational Exponents: Quotient Rule
+
+**Problem:**
+$$\frac{5^{5/3}}{5^{2/3}}$$
+
+---
+
+#### 1. Apply the Quotient Rule for Exponents
+
+When dividing powers with the same base, you **keep the base** and **subtract the exponents**.
+$$\mathbf{\frac{a^m}{a^n} = a^{m-n}}$$
+
+Applying this rule to the problem:
+$$5^{5/3 - 2/3}$$
+
+---
+
+#### 2. Perform Subtraction on the Fractional Exponents
+
+Since the denominators are already the same, we can subtract the numerators directly.
+
+$$\text{Exponent} = \frac{5}{3} - \frac{2}{3} = \frac{5 - 2}{3} = \frac{3}{3}$$
+
+$$\frac{3}{3} = \mathbf{1}$$
+
+---
+
+#### 3. Final Simplification
+
+Substitute the simplified exponent back onto the base:
+
+$$5^1$$
+
+$$\mathbf{5}$$
