@@ -7769,8 +7769,11 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h13m45s
 - **Principal Square Root** = $\sqrt{16}$ = 4  The positive square root
 - $-\sqrt{16}$ = -4 : put a 'negative' sign in front of the square root to let them know you want the negative 
 - $\pm\sqrt{25}$  = $\pm5$  : +-  plus or minus sign, could be both possibilities
-- $\mathbf{\sqrt[n]{a}}$ : The notation $\mathbf{\sqrt[n]{a}}$ is used to define the $\mathbf{n}$-th root of $a$.
-- **Radical Symbol ($\sqrt{}$):** The symbol used to denote a root.
+- $\mathbf{\sqrt[n]{a}}$ : The notation $\mathbf{\sqrt[n]{a}}$ is used to define the $\mathbf{n}$-th root of $a$. 
+- If $n$ is even and $a \ge 0$ (a is not a negative value) you will have 2 sets of notation, *principal* and *negative* 
+- If $n$ is even and $a < 0$ (a is a negative value) will be *not a real number* (THAT NUMBER IS NOT REAL!)
+- If $n$ is odd : You will only have one root, since it is allowed to be negative. $\mathbf{\sqrt[3]{-8}}$ = $-2 \cdot -2 \cdot -2 = 8$
+- **Radical Symbol ($\sqrt{}$):** The symbol used to denote a root. 
 * **Index ($\mathbf{n}$):** or **Order** : The small number placed above and to the left of the radical symbol. It indicates which root you are taking (e.g., $n=3$ for cube root, $n=4$ for fourth root). If no number is shown (like in $\sqrt{a}$), the index is implicitly 2 (square root).
 * **Radicand ($\mathbf{a}$):** The number or expression written inside the radical symbol.
 - $\mathbf{\sqrt[3]{8}}$ : what multiplied by itself 3 times gives 8? $2 \cdot 2 \cdot 2 = 8$
