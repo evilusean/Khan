@@ -7952,6 +7952,58 @@ $$x^{10/3}$$
 ## Algebra II - Lesson 55 - Simplifying Radicals - 16November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=23h47m40s
 - **Product Rule For Radicals** : $\sqrt[n]{a} \cdot \sqrt[n]{b} = \sqrt[n]{a \cdot b}$ : allows you to combine or separate radicals that have the exact same **index** (the type of root, e.g., square root, cube root). This rule is crucial for both multiplying expressions and simplifying single radicals.
+### 🧮 Product Rules for Radicals
+
+The **Product Rule for Radicals** allows you to combine or separate radicals that have the exact same **index** (the type of root, e.g., square root, cube root). This rule is crucial for both multiplying expressions and simplifying single radicals.
+
+---
+
+#### 1. Multiplication Rule (Combining Radicals)
+
+This is used to multiply two radicals with the same index $n$.
+
+**Formula:**
+$$\sqrt[n]{a} \cdot \sqrt[n]{b} = \sqrt[n]{a \cdot b}$$
+
+**Explanation:**
+You can multiply the **radicands** (the values under the radical sign) and place the result under a single radical sign, as long as the index $n$ is identical for all terms.
+
+**Example (Square Root, $n=2$):**
+$$\sqrt{8} \cdot \sqrt{2} = \sqrt{8 \cdot 2} = \sqrt{16} = 4$$
+
+**Example (Cube Root, $n=3$):**
+$$\sqrt[3]{4} \cdot \sqrt[3]{16} = \sqrt[3]{4 \cdot 16} = \sqrt[3]{64} = 4$$
+
+---
+
+#### 2. Separation Rule (Simplifying Radicals)
+
+This is the reverse application, used to break a single radical into a product of two or more radicals for **simplification**.
+
+**Formula:**
+$$\sqrt[n]{a \cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b}$$
+
+**Explanation:**
+To simplify a radical like $\sqrt[n]{x}$, you must factor $x$ into $a \cdot b$, where $a$ is the largest possible **perfect $n^{th}$ power**. This allows $\sqrt[n]{a}$ to be evaluated, leaving the rest under the radical $\sqrt[n]{b}$.
+
+**Example (Simplifying $\sqrt{45}$):**
+1. Factor 45 using the largest perfect square (9):
+   $$\sqrt{45} = \sqrt{9 \cdot 5}$$
+2. Separate the factors:
+   $$\sqrt{9 \cdot 5} = \sqrt{9} \cdot \sqrt{5}$$
+3. Evaluate the perfect square:
+   $$\sqrt{9} \cdot \sqrt{5} = 3\sqrt{5}$$
+
+---
+
+#### 🔑 Summary of Key Usage
+
+The ability to move between the combined form ($\sqrt[n]{ab}$) and the separated form ($\sqrt[n]{a} \cdot \sqrt[n]{b}$) is what makes the product rule fundamental to working with radicals.
+
+| Rule | Function | When to Use |
+| :--- | :--- | :--- |
+| **Multiplication** | $\sqrt[n]{a} \cdot \sqrt[n]{b} \rightarrow \sqrt[n]{a \cdot b}$ | When multiplying radical expressions. |
+| **Separation** | $\sqrt[n]{a \cdot b} \rightarrow \sqrt[n]{a} \cdot \sqrt[n]{b}$ | When simplifying a single radical by removing perfect $n^{th}$ powers. |
 ### ➗ Simplifying Radical Multiplication ($\sqrt[7]{20x^3} \cdot \sqrt[7]{10x}$)
 
 ---
