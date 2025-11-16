@@ -8098,3 +8098,29 @@ Since no perfect $7^{th}$ powers (other than 1) are factors of 200, the coeffici
 
 The expression is already in its simplest form after multiplication:
 $$\sqrt[7]{200x^4}$$
+### ➗ Quotient Rule Solution ($\sqrt{\frac{7}{25}}$)
+
+---
+
+#### Problem
+
+Use the Quotient Rule to simplify the expression:
+
+$$\sqrt{\frac{7}{25}}$$
+
+#### Step-by-Step Solution
+
+##### 1. Apply the Quotient Rule
+
+The Quotient Rule allows us to separate the single radical covering the fraction into a radical in the numerator and a radical in the denominator:
+$$\sqrt{\frac{7}{25}} = \frac{\sqrt{7}}{\sqrt{25}}$$
+
+##### 2. Simplify the Denominator
+
+Evaluate the square root in the denominator:
+$$\sqrt{25} = 5$$
+
+##### 3. Final Simplified Answer
+
+The numerator $\sqrt{7}$ cannot be simplified further as 7 has no perfect square factors (other than 1). Combining the terms yields the final result:
+$$\frac{\sqrt{7}}{5}$$
