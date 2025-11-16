@@ -8372,6 +8372,30 @@ The simplified form is **$8x^2\sqrt[3]{2x^2}$**.
 
 3.  **Combine Terms:** Multiply the terms outside the radical:
     $$8x^2\sqrt[3]{2x^2}$$
+    ### 📝 Combined Simplification Solutions ($\sqrt{5} \cdot \sqrt[3]{7}$)
+
+---
+
+#### 1. Multiplying Radicals with Different Indices: $\sqrt{5} \cdot \sqrt[3]{7}$
+
+The simplified form is **$\sqrt[6]{1225}$**.
+
+##### Step-by-Step Solution
+
+1.  **Convert to Fractional Exponents:**
+    $$\sqrt{5} \cdot \sqrt[3]{7} = 5^{1/2} \cdot 7^{1/3}$$
+
+2.  **Find Common Denominator:** The least common multiple (LCM) of the denominators (2 and 3) is 6.
+    $$5^{1/2} = 5^{3/6}$$
+    $$7^{1/3} = 7^{2/6}$$
+
+3.  **Apply Power of a Power and Product Rule:**
+    $$5^{3/6} \cdot 7^{2/6} = (5^3)^{1/6} \cdot (7^2)^{1/6} = (5^3 \cdot 7^2)^{1/6}$$
+
+4.  **Simplify and Convert Back to Radical Form:**
+    $$5^3 = 125$$
+    $$7^2 = 49$$
+    $$(125 \cdot 49)^{1/6} = (6125)^{1/6} = \sqrt[6]{6125}$$
 
 ### 📝 Combined Simplification Solutions ($4\sqrt[7]{-384x^{10}y^4z^5}$)
 **This one Is TEDIOUS AF, Future Sean. Do Not Make An Anki Card on This One. Suffer. **
