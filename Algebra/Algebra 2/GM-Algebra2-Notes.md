@@ -7902,3 +7902,49 @@ $$8 - \frac{1}{2} = \frac{16}{2} - \frac{1}{2} = \frac{15}{2}$$
 
 The result is:
 $$m^{15/2}$$
+### 📝 Exponential Expression Simplification
+
+---
+
+#### Problem
+
+Simplify the expression:
+
+$$\frac{(x^2)^{2/3} \cdot x^{1/2}}{x^{-3/2}}$$
+
+#### Step-by-Step Solution
+
+##### 1. Power of a Power (Numerator)
+
+First, apply the rule $(a^b)^c = a^{b \cdot c}$:
+$$(x^2)^{2/3} = x^{2 \cdot \frac{2}{3}} = x^{4/3}$$
+
+The expression becomes:
+$$\frac{x^{4/3} \cdot x^{1/2}}{x^{-3/2}}$$
+
+##### 2. Product Rule (Numerator)
+
+Next, apply the rule $a^b \cdot a^c = a^{b+c}$. We must add the exponents $\frac{4}{3} + \frac{1}{2}$ using a common denominator of 6:
+$$\frac{4}{3} + \frac{1}{2} = \frac{8}{6} + \frac{3}{6} = \frac{11}{6}$$
+
+The numerator simplifies to $x^{11/6}$, and the expression becomes:
+$$\frac{x^{11/6}}{x^{-3/2}}$$
+
+##### 3. Quotient Rule
+
+Apply the rule $\frac{a^b}{a^c} = a^{b-c}$. Remember that subtracting a negative exponent is equivalent to adding a positive one:
+$$x^{\frac{11}{6} - (-\frac{3}{2})} = x^{\frac{11}{6} + \frac{3}{2}}$$
+
+##### 4. Final Exponent Calculation
+
+Add the exponents $\frac{11}{6} + \frac{3}{2}$ using a common denominator of 6:
+$$\frac{11}{6} + \frac{3}{2} = \frac{11}{6} + \frac{3 \cdot 3}{2 \cdot 3} = \frac{11}{6} + \frac{9}{6} = \frac{20}{6}$$
+
+Reduce the fraction: $\frac{20}{6} = \frac{10}{3}$.
+
+---
+
+#### Final Simplified Answer
+
+The simplified expression is:
+$$x^{10/3}$$
