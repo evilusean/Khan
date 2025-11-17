@@ -8452,4 +8452,38 @@ $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=24h30m20s
 - Add and subtract radical expressions using the distributive property (combine like terms - they will need to be the same *index* and *radicand*) 
 - Or you can factor out the square root/radical then do addition/subtraction (multiply everything by the square root of the *radicand* to get rid of it)
-- 
+- If you can further simplify and factor a square root, by pulling out a square like $\sqrt{24} = \sqrt{4} \cdot \sqrt{6}$ and then multiplying it by what you have outside the square root
+### 📝 Subtracting and Simplifying Radicals ($2\sqrt{24} - 8\sqrt{24}$)
+
+---
+
+#### Problem
+
+Subtract and simplify the radical expression:
+
+$$2\sqrt{24} - 8\sqrt{24}$$
+
+#### Step-by-Step Solution
+
+##### 1. Combine Like Radicals
+
+Since both terms have the exact same radical, $\sqrt{24}$, we can combine the coefficients (the numbers outside the radical):
+$$(2 - 8)\sqrt{24} = -6\sqrt{24}$$
+
+##### 2. Simplify the Remaining Radical
+
+Factor the radicand (24) to find the largest perfect square factor, which is 4 ($4 \times 6 = 24$). Use the **Product Rule** for radicals:
+$$-6\sqrt{4 \cdot 6} = -6 \cdot \sqrt{4} \cdot \sqrt{6}$$
+
+##### 3. Evaluate and Multiply
+
+Evaluate the square root of the perfect square and multiply it by the external coefficient:
+$$-6 \cdot 2 \cdot \sqrt{6} = -12\sqrt{6}$$
+
+---
+
+#### Final Simplified Answer
+
+The expression $2\sqrt{24} - 8\sqrt{24}$ simplifies to:
+
+$$-12\sqrt{6}$$
