@@ -8670,3 +8670,51 @@ Since the remaining radicals ($\sqrt[3]{3}$ and $\sqrt[3]{2}$) are different, th
 The expression $3\sqrt[3]{24} - 3\sqrt[3]{54} - 2\sqrt[3]{16}$ simplifies to:
 
 $$6\sqrt[3]{3} - 13\sqrt[3]{2}$$
+### 📝 Combining and Simplifying Cube Roots ($-2\sqrt[3]{162} - 4\sqrt[3]{48} - 4\sqrt[3]{5} - \sqrt[3]{6}$)
+
+
+---
+
+#### Problem
+
+Combine and simplify the radical expression:
+
+$$-2\sqrt[3]{162} - 4\sqrt[3]{48} - 4\sqrt[3]{5} - \sqrt[3]{6}$$
+
+#### Step-by-Step Solution
+
+The goal is to simplify each cube root ($\sqrt[3]{...}$) by factoring out the largest perfect cube ($2^3=8$, $3^3=27$, etc.) to find common radicals for combination.
+
+##### 1. Simplify the First Term ($-2\sqrt[3]{162}$)
+Factor $162$ using the largest perfect cube factor, 27:
+$$-2\sqrt[3]{27 \cdot 6} = -2 \cdot \sqrt[3]{27} \cdot \sqrt[3]{6}$$
+$$-2 \cdot 3 \cdot \sqrt[3]{6} = -6\sqrt[3]{6}$$
+
+##### 2. Simplify the Second Term ($-4\sqrt[3]{48}$)
+Factor $48$ using the largest perfect cube factor, 8:
+$$-4\sqrt[3]{8 \cdot 6} = -4 \cdot \sqrt[3]{8} \cdot \sqrt[3]{6}$$
+$$-4 \cdot 2 \cdot \sqrt[3]{6} = -8\sqrt[3]{6}$$
+
+##### 3. Simplify the Remaining Terms
+* $-4\sqrt[3]{5}$: The radicand (5) has no perfect cube factors, so it remains $-4\sqrt[3]{5}$.
+* $-\sqrt[3]{6}$: The radicand (6) has no perfect cube factors, so it remains $-\sqrt[3]{6}$ (coefficient is $-1$).
+
+##### 4. Rewrite the Full Expression and Combine Like Terms
+
+Substitute the simplified terms back into the expression:
+$$-6\sqrt[3]{6} - 8\sqrt[3]{6} - 4\sqrt[3]{5} - 1\sqrt[3]{6}$$
+
+Combine the terms that share the radical $\sqrt[3]{6}$:
+$$(-6 - 8 - 1)\sqrt[3]{6} - 4\sqrt[3]{5}$$
+
+##### 5. Final Calculation
+
+$$-15\sqrt[3]{6} - 4\sqrt[3]{5}$$
+
+---
+
+#### Final Simplified Answer
+
+The expression simplifies to:
+
+$$-15\sqrt[3]{6} - 4\sqrt[3]{5}$$
