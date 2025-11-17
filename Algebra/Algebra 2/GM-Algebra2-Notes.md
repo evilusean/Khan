@@ -8452,7 +8452,7 @@ $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=24h30m20s
 - Add and subtract radical expressions using the distributive property (combine like terms - they will need to be the same *index* and *radicand*) 
 - Or you can factor out the square root/radical then do addition/subtraction (multiply everything by the square root of the *radicand* to get rid of it)
-- If you can further simplify and factor a square root, by pulling out a square like $\sqrt{24} = \sqrt{4} \cdot \sqrt{6}$ and then multiplying it by what you have outside the square root
+- If you can further simplify and factor a square root, by pulling out a perfect square like $\sqrt{24} = \sqrt{4} \cdot \sqrt{6}$ and then multiplying it by what you have outside the square root - You should attempt to factor before and after addition/subtraction
 ### 📝 Subtracting and Simplifying Radicals ($2\sqrt{24} - 8\sqrt{24}$)
 
 ---
@@ -8487,3 +8487,43 @@ $$-6 \cdot 2 \cdot \sqrt{6} = -12\sqrt{6}$$
 The expression $2\sqrt{24} - 8\sqrt{24}$ simplifies to:
 
 $$-12\sqrt{6}$$
+### 📝 Combining and Simplifying Radicals ($2\sqrt{20} - 3\sqrt{5} + 2\sqrt{5}$)
+
+---
+
+#### Problem
+
+Combine and simplify the radical expression:
+
+$$2\sqrt{20} - 3\sqrt{5} + 2\sqrt{5}$$
+
+#### Step-by-Step Solution
+
+##### 1. Simplify the First Term ($2\sqrt{20}$)
+
+The terms can only be combined if the radicals are the same. First, simplify $\sqrt{20}$ by finding the largest perfect square factor (4):
+$$\sqrt{20} = \sqrt{4 \cdot 5} = \sqrt{4} \cdot \sqrt{5} = 2\sqrt{5}$$
+Substitute this back into the first term:
+$$2\sqrt{20} = 2 \cdot (2\sqrt{5}) = 4\sqrt{5}$$
+
+##### 2. Rewrite the Full Expression
+
+Substitute the simplified term back into the original expression:
+$$4\sqrt{5} - 3\sqrt{5} + 2\sqrt{5}$$
+
+##### 3. Combine Like Radicals
+
+Since all radicals are now $\sqrt{5}$, combine the coefficients:
+$$(4 - 3 + 2)\sqrt{5}$$
+
+##### 4. Final Calculation
+
+$$3\sqrt{5}$$
+
+---
+
+#### Final Simplified Answer
+
+The expression $2\sqrt{20} - 3\sqrt{5} + 2\sqrt{5}$ simplifies to:
+
+$$3\sqrt{5}$$
