@@ -8450,3 +8450,6 @@ $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 4.  Take the **square root** of the sum to find the distance, $d$.
 ## Algebra II - Lesson 57 - Adding and Subtracting Radical Expressions - 17November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=24h30m20s
+- Add and subtract radical expressions using the distributive property (combine like terms - they will need to be the same *index* and *radicand*) 
+- Or you can factor out the square root/radical then do addition/subtraction (multiply everything by the square root of the *radicand* to get rid of it)
+- 
