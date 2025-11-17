@@ -8527,3 +8527,49 @@ $$3\sqrt{5}$$
 The expression $2\sqrt{20} - 3\sqrt{5} + 2\sqrt{5}$ simplifies to:
 
 $$3\sqrt{5}$$
+### 📝 Combining and Simplifying Radicals ($2\sqrt{6} - 3\sqrt{5} - 3\sqrt{45}$)
+
+---
+
+#### Problem
+
+Combine and simplify the radical expression:
+
+$$2\sqrt{6} - 3\sqrt{5} - 3\sqrt{45}$$
+
+#### Step-by-Step Solution
+
+##### 1. Simplify the Third Term ($3\sqrt{45}$)
+
+The terms can only be combined if the radicals are the same. First, simplify $\sqrt{45}$ by finding the largest perfect square factor, which is 9:
+$$\sqrt{45} = \sqrt{9 \cdot 5} = \sqrt{9} \cdot \sqrt{5} = 3\sqrt{5}$$
+Substitute this back into the third term:
+$$3\sqrt{45} = 3 \cdot (3\sqrt{5}) = 9\sqrt{5}$$
+
+##### 2. Check Other Terms
+
+* $2\sqrt{6}$: $\sqrt{6}$ has no perfect square factors (factors are 1, 2, 3, 6). This term cannot be simplified further.
+* $-3\sqrt{5}$: This term is already simplified.
+
+##### 3. Rewrite the Full Expression
+
+Substitute the simplified term back into the original expression:
+$$2\sqrt{6} - 3\sqrt{5} - 9\sqrt{5}$$
+
+##### 4. Combine Like Radicals
+
+Combine the terms that share the radical $\sqrt{5}$ (the coefficients are $-3$ and $-9$):
+$$2\sqrt{6} + (-3 - 9)\sqrt{5}$$
+$$2\sqrt{6} - 12\sqrt{5}$$
+
+##### 5. Final Simplification
+
+Since the remaining radicals ($\sqrt{6}$ and $\sqrt{5}$) are different, the expression is fully simplified.
+
+---
+
+#### Final Simplified Answer
+
+The expression $2\sqrt{6} - 3\sqrt{5} - 3\sqrt{45}$ simplifies to:
+
+$$2\sqrt{6} - 12\sqrt{5}$$
