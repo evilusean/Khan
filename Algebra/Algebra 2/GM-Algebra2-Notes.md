@@ -8767,3 +8767,4 @@ The expression $-2\sqrt[3]{32} - \sqrt[3]{108} + 2\sqrt[3]{256} + 4\sqrt[3]{4}$ 
 
 $$5\sqrt[3]{4}$$
 ## Algebra II - Lesson 58 - Rationalizing the Denominator - 17November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=24h49m35s
