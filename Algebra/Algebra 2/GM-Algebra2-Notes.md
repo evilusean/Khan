@@ -8624,3 +8624,49 @@ Since the remaining radicals ($\sqrt{5}$ and $\sqrt{6}$) are different, the expr
 The expression $2\sqrt{20} - \sqrt{45} + 3\sqrt{54}$ simplifies to:
 
 $$\sqrt{5} + 9\sqrt{6}$$
+### 📝 Combining and Simplifying Cube Roots ($3\sqrt[3]{24} - 3\sqrt[3]{54} - 2\sqrt[3]{16}$)
+
+---
+
+#### Problem
+
+Combine and simplify the radical expression:
+
+$$3\sqrt[3]{24} - 3\sqrt[3]{54} - 2\sqrt[3]{16}$$
+
+#### Step-by-Step Solution
+
+The goal is to simplify each term to find a common radical, if one exists, then combine the coefficients. The largest perfect cube factors are: $8 = 2^3$ and $27 = 3^3$.
+
+##### 1. Simplify the First Term ($3\sqrt[3]{24}$)
+Factor $24$ using the largest perfect cube, 8:
+$$3\sqrt[3]{8 \cdot 3} = 3 \cdot \sqrt[3]{8} \cdot \sqrt[3]{3} = 3 \cdot 2 \cdot \sqrt[3]{3} = 6\sqrt[3]{3}$$
+
+##### 2. Simplify the Second Term ($-3\sqrt[3]{54}$)
+Factor $54$ using the largest perfect cube, 27:
+$$-3\sqrt[3]{27 \cdot 2} = -3 \cdot \sqrt[3]{27} \cdot \sqrt[3]{2} = -3 \cdot 3 \cdot \sqrt[3]{2} = -9\sqrt[3]{2}$$
+
+##### 3. Simplify the Third Term ($-2\sqrt[3]{16}$)
+Factor $16$ using the largest perfect cube, 8:
+$$-2\sqrt[3]{8 \cdot 2} = -2 \cdot \sqrt[3]{8} \cdot \sqrt[3]{2} = -2 \cdot 2 \cdot \sqrt[3]{2} = -4\sqrt[3]{2}$$
+
+##### 4. Rewrite the Full Expression and Combine Like Terms
+
+Substitute the simplified terms back into the original expression:
+$$6\sqrt[3]{3} - 9\sqrt[3]{2} - 4\sqrt[3]{2}$$
+
+Combine the terms containing $\sqrt[3]{2}$:
+$$6\sqrt[3]{3} + (-9 - 4)\sqrt[3]{2}$$
+$$6\sqrt[3]{3} - 13\sqrt[3]{2}$$
+
+##### 5. Final Simplification
+
+Since the remaining radicals ($\sqrt[3]{3}$ and $\sqrt[3]{2}$) are different, the expression is fully simplified.
+
+---
+
+#### Final Simplified Answer
+
+The expression $3\sqrt[3]{24} - 3\sqrt[3]{54} - 2\sqrt[3]{16}$ simplifies to:
+
+$$6\sqrt[3]{3} - 13\sqrt[3]{2}$$
