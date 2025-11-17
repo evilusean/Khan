@@ -8718,3 +8718,51 @@ $$-15\sqrt[3]{6} - 4\sqrt[3]{5}$$
 The expression simplifies to:
 
 $$-15\sqrt[3]{6} - 4\sqrt[3]{5}$$
+### 📝 Combining and Simplifying Cube Roots ($-2\sqrt[3]{32} - \sqrt[3]{108} + 2\sqrt[3]{256} + 4\sqrt[3]{4}$)
+
+---
+
+#### Problem
+
+Combine and simplify the radical expression:
+
+$$-2\sqrt[3]{32} - \sqrt[3]{108} + 2\sqrt[3]{256} + 4\sqrt[3]{4}$$
+
+#### Step-by-Step Solution
+
+To combine these terms, we must simplify each cube root ($\sqrt[3]{...}$) by factoring out the largest perfect cube ($8, 27, 64,$ etc.) to find common radicals.
+
+##### 1. Simplify the First Term ($-2\sqrt[3]{32}$)
+Factor $32$ using the largest perfect cube factor, 8:
+$$-2\sqrt[3]{8 \cdot 4} = -2 \cdot \sqrt[3]{8} \cdot \sqrt[3]{4}$$
+$$-2 \cdot 2 \cdot \sqrt[3]{4} = -4\sqrt[3]{4}$$
+
+##### 2. Simplify the Second Term ($-\sqrt[3]{108}$)
+Factor $108$ using the largest perfect cube factor, 27:
+$$-\sqrt[3]{27 \cdot 4} = -1 \cdot \sqrt[3]{27} \cdot \sqrt[3]{4}$$
+$$-1 \cdot 3 \cdot \sqrt[3]{4} = -3\sqrt[3]{4}$$
+
+##### 3. Simplify the Third Term ($2\sqrt[3]{256}$)
+Factor $256$ using the largest perfect cube factor, 64:
+$$2\sqrt[3]{64 \cdot 4} = 2 \cdot \sqrt[3]{64} \cdot \sqrt[3]{4}$$
+$$2 \cdot 4 \cdot \sqrt[3]{4} = 8\sqrt[3]{4}$$
+
+##### 4. Rewrite the Full Expression and Combine Like Terms
+
+All simplified radicals share the common term $\sqrt[3]{4}$. Substitute the simplified terms back into the expression:
+$$-4\sqrt[3]{4} - 3\sqrt[3]{4} + 8\sqrt[3]{4} + 4\sqrt[3]{4}$$
+
+Combine the coefficients:
+$$(-4 - 3 + 8 + 4)\sqrt[3]{4}$$
+
+##### 5. Final Calculation
+
+$$(-7 + 12)\sqrt[3]{4} = 5\sqrt[3]{4}$$
+
+---
+
+#### Final Simplified Answer
+
+The expression $-2\sqrt[3]{32} - \sqrt[3]{108} + 2\sqrt[3]{256} + 4\sqrt[3]{4}$ simplifies to:
+
+$$5\sqrt[3]{4}$$
