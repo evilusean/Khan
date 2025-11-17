@@ -8448,3 +8448,4 @@ $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 2.  **Subtract the $y$-coordinates** ($y_2 - y_1$) and square the result.
 3.  **Add** the two squared results together.
 4.  Take the **square root** of the sum to find the distance, $d$.
+## Algebra II - Lesson 57 - Adding and Subtracting Radical Expressions - 17November2025 :
