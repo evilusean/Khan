@@ -8766,3 +8766,4 @@ $$(-7 + 12)\sqrt[3]{4} = 5\sqrt[3]{4}$$
 The expression $-2\sqrt[3]{32} - \sqrt[3]{108} + 2\sqrt[3]{256} + 4\sqrt[3]{4}$ simplifies to:
 
 $$5\sqrt[3]{4}$$
+## Algebra II - Lesson 58 - Rationalizing the Denominator - 17November2025 :
