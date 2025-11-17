@@ -8423,3 +8423,28 @@ The simplified form is **$-8x\sqrt[7]{3x^3y^4z^5}$**.
 
 ## Algebra II - Lesson 56 - Finding the Distance between 2 points - 16November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=24h14m20s
+- **Pythagorean Theorem** = $a^2 + b^2 = c^2$ : 'c' is *hypoteneuse* Only works on right triangles (90 degrees corner)
+- One Method to get the distance between 2 points : Get 2 points as ordered pairs (x, y), create a right hand triangle, take an 'x' value from one of the ordered pairs, and take a 'y' value from the other to get the corner of the right hand triangle, where as the distance between the 2 points is the *hypoteneuse*, use absolute values(you dont want a negative distance) to get the distance of the 'x' and the 'y' from your newly created corner of triangle for 'a' and 'b'
+- **Distance Formula** = $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ : The Distance Formula is derived from the **Pythagorean Theorem** and is used to find the length, $d$, of the straight line segment between any two points in a Cartesian coordinate system, $(x_1, y_1)$ and $(x_2, y_2)$. - It doesn't matter what you label was $x_1, x_2$. 'd' is the *hypoteneuse* 
+### 📏 The Distance Formula
+
+---
+
+#### Formula Definition
+
+The Distance Formula is derived from the **Pythagorean Theorem** and is used to find the length, $d$, of the straight line segment between any two points in a Cartesian coordinate system, $(x_1, y_1)$ and $(x_2, y_2)$.
+
+#### The Formula
+
+Given two points $(x_1, y_1)$ and $(x_2, y_2)$, the distance $d$ between them is:
+
+$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+
+---
+
+#### 💡 How to Use the Formula
+
+1.  **Subtract the $x$-coordinates** ($x_2 - x_1$) and square the result.
+2.  **Subtract the $y$-coordinates** ($y_2 - y_1$) and square the result.
+3.  **Add** the two squared results together.
+4.  Take the **square root** of the sum to find the distance, $d$.
