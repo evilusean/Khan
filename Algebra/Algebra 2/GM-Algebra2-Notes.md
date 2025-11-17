@@ -8573,3 +8573,54 @@ Since the remaining radicals ($\sqrt{6}$ and $\sqrt{5}$) are different, the expr
 The expression $2\sqrt{6} - 3\sqrt{5} - 3\sqrt{45}$ simplifies to:
 
 $$2\sqrt{6} - 12\sqrt{5}$$
+### 📝 Combining and Simplifying Radicals ($2\sqrt{20} - \sqrt{45} + 3\sqrt{54}$)
+
+---
+
+#### Problem
+
+Combine and simplify the radical expression:
+
+$$2\sqrt{20} - \sqrt{45} + 3\sqrt{54}$$
+
+#### Step-by-Step Solution
+
+##### 1. Simplify the First Term ($2\sqrt{20}$)
+
+Factor the radicand (20) using the largest perfect square (4):
+$$\sqrt{20} = \sqrt{4 \cdot 5} = 2\sqrt{5}$$
+The term becomes:
+$$2\sqrt{20} = 2 \cdot (2\sqrt{5}) = 4\sqrt{5}$$
+
+##### 2. Simplify the Second Term ($\sqrt{45}$)
+
+Factor the radicand (45) using the largest perfect square (9):
+$$\sqrt{45} = \sqrt{9 \cdot 5} = 3\sqrt{5}$$
+
+##### 3. Simplify the Third Term ($3\sqrt{54}$)
+
+Factor the radicand (54) using the largest perfect square (9):
+$$\sqrt{54} = \sqrt{9 \cdot 6} = 3\sqrt{6}$$
+The term becomes:
+$$3\sqrt{54} = 3 \cdot (3\sqrt{6}) = 9\sqrt{6}$$
+
+##### 4. Rewrite the Full Expression and Combine Like Terms
+
+Substitute the simplified terms back into the original expression:
+$$4\sqrt{5} - 3\sqrt{5} + 9\sqrt{6}$$
+
+Combine the terms containing $\sqrt{5}$:
+$$(4 - 3)\sqrt{5} + 9\sqrt{6}$$
+$$1\sqrt{5} + 9\sqrt{6}$$
+
+##### 5. Final Simplification
+
+Since the remaining radicals ($\sqrt{5}$ and $\sqrt{6}$) are different, the expression is fully simplified.
+
+---
+
+#### Final Simplified Answer
+
+The expression $2\sqrt{20} - \sqrt{45} + 3\sqrt{54}$ simplifies to:
+
+$$\sqrt{5} + 9\sqrt{6}$$
