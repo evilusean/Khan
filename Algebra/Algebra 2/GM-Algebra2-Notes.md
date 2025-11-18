@@ -9357,3 +9357,60 @@ $$\text{Final Answer} = \frac{-4 + 4x^2\sqrt{3}}{1 - 3x^4}$$
 #### 🧠 Key Takeaway
 
 Always **fully simplify** radicals *before* attempting rationalization to ensure the final form is in the simplest terms. The conjugate method guarantees a rational (non-radical) denominator through the **difference of squares** property.
+### 📝 Rationalizing the Denominator: Two Radical Terms ($\frac{6a}{\sqrt{3a^2} - \sqrt{2a^2}}$)
+
+The expression to rationalize is:
+$$\frac{6a}{\sqrt{3a^2} - \sqrt{2a^2}}$$
+
+#### 1. Initial Simplification of Radicals
+
+First, simplify both radical terms in the denominator using the property $\sqrt{xy} = \sqrt{x}\sqrt{y}$ and assuming $a$ is positive so $\sqrt{a^2} = a$.
+
+* **First term:** $\sqrt{3a^2} = \sqrt{a^2} \cdot \sqrt{3} = a\sqrt{3}$
+* **Second term:** $\sqrt{2a^2} = \sqrt{a^2} \cdot \sqrt{2} = a\sqrt{2}$
+
+The simplified expression is:
+$$\frac{6a}{a\sqrt{3} - a\sqrt{2}}$$
+
+#### 2. Factor the Denominator and Simplify the Expression
+
+The denominator has a common factor of $a$. Factor it out:
+$$\frac{6a}{a(\sqrt{3} - \sqrt{2})}$$
+
+Cancel the common factor $a$ from the numerator and the denominator:
+$$\frac{6}{\sqrt{3} - \sqrt{2}}$$
+
+#### 3. Identify the Conjugate
+
+The simplified denominator is $\sqrt{3} - \sqrt{2}$. The conjugate is obtained by changing the sign between the two terms:
+$$\text{Conjugate} = \sqrt{3} + \sqrt{2}$$
+
+#### 4. Multiply by the Conjugate
+
+Multiply the fraction by $\frac{\text{Conjugate}}{\text{Conjugate}}$:
+$$\frac{6}{\sqrt{3} - \sqrt{2}} \times \frac{\sqrt{3} + \sqrt{2}}{\sqrt{3} + \sqrt{2}}$$
+
+#### 5. Simplify the Denominator (Difference of Squares)
+
+Use the formula $(a - b)(a + b) = a^2 - b^2$:
+$$\text{Denominator} = (\sqrt{3})^2 - (\sqrt{2})^2$$
+$$\text{Denominator} = 3 - 2 = 1$$
+
+#### 6. Simplify the Numerator
+
+Distribute the 6:
+$$\text{Numerator} = 6(\sqrt{3} + \sqrt{2})$$
+$$\text{Numerator} = 6\sqrt{3} + 6\sqrt{2}$$
+
+#### 7. Final Rationalized Expression
+
+Combine the simplified numerator over the denominator (which is 1):
+
+$$\text{Final Answer} = \frac{6\sqrt{3} + 6\sqrt{2}}{1}$$
+$$\text{Final Answer} = 6\sqrt{3} + 6\sqrt{2}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When working with radicals, the absolute first step should be to **simplify all radicals** before applying any other operation, such as finding the conjugate. In this problem, initial simplification allowed for the **cancellation of 'a'**, which significantly simplified the conjugation process.
