@@ -9157,6 +9157,7 @@ $$-\frac{n\sqrt[3]{9}}{3} - \frac{3\sqrt[3]{4}}{10}$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=25h16m
 - A **conjugate** =  is a pair of binomials (expressions with two terms) that are identical except for the sign connecting the two terms. If the original binomial is $a + b$, its conjugate is $a - b$. If the original binomial is $a - b$, its conjugate is $a + b$. - When you work it out, you get a difference of squares $a^2 + b^2$ where the middle terms cancel eachother out
 - To clear a denominator with more than just a square root, what you need to do is multiply BOTH the numerator and denominator by the conjugate of the denominator - which will leave you with a radical free denominator
+- You will want to simplify (if you can) before doing the conjugate
 ### 📝 Definition and Use of a Conjugate
 
 ---
@@ -9312,40 +9313,47 @@ The expression $\frac{2}{4\sqrt{2} - 2\sqrt{5}}$ simplifies and rationalizes to:
 $$\frac{2\sqrt{2} + \sqrt{5}}{3}$$
 ### 📝 Rationalizing the Denominator using the Conjugate Method ($\frac{4}{-1 - \sqrt{3x^4}}$)
 
-The expression to rationalize is:
+The initial expression is:
 $$\frac{4}{-1 - \sqrt{3x^4}}$$
 
-#### 1. Identify the Conjugate
+#### 1. Initial Simplification of the Radical
 
-The denominator is $-1 - \sqrt{3x^4}$. The conjugate is obtained by changing the sign of the radical term:
-$$\text{Conjugate} = -1 + \sqrt{3x^4}$$
+First, simplify the radical term $\sqrt{3x^4}$:
+$$\sqrt{3x^4} = \sqrt{x^4} \cdot \sqrt{3} = x^{4/2}\sqrt{3} = x^2\sqrt{3}$$
 
-#### 2. Multiply by the Conjugate
+The rational expression becomes:
+$$\frac{4}{-1 - x^2\sqrt{3}}$$
 
-Multiply the fraction by the conjugate divided by itself:
-$$\frac{4}{-1 - \sqrt{3x^4}} \times \frac{-1 + \sqrt{3x^4}}{-1 + \sqrt{3x^4}}$$
+#### 2. Identify the Conjugate
 
-#### 3. Simplify the Denominator (Difference of Squares)
+The new denominator is $-1 - x^2\sqrt{3}$. The conjugate is obtained by changing the sign of the radical term:
+$$\text{Conjugate} = -1 + x^2\sqrt{3}$$
 
-Use the formula $(a - b)(a + b) = a^2 - b^2$, where $a = -1$ and $b = \sqrt{3x^4}$:
-$$\text{Denominator} = (-1)^2 - \left(\sqrt{3x^4}\right)^2$$
-$$\text{Denominator} = 1 - 3x^4$$
+#### 3. Multiply by the Conjugate
 
-#### 4. Simplify the Numerator
+Multiply the fraction by $\frac{\text{Conjugate}}{\text{Conjugate}}$:
+$$\frac{4}{-1 - x^2\sqrt{3}} \times \frac{-1 + x^2\sqrt{3}}{-1 + x^2\sqrt{3}}$$
+
+#### 4. Simplify the Denominator (Difference of Squares)
+
+Use the formula $(a - b)(a + b) = a^2 - b^2$, where $a = -1$ and $b = x^2\sqrt{3}$:
+$$\text{Denominator} = (-1)^2 - \left(x^2\sqrt{3}\right)^2$$
+$$\text{Denominator} = 1 - (x^4 \cdot 3) = 1 - 3x^4$$
+
+#### 5. Simplify the Numerator
 
 Distribute the 4:
-$$\text{Numerator} = 4(-1 + \sqrt{3x^4})$$
-$$\text{Numerator} = -4 + 4\sqrt{3x^4}$$
+$$\text{Numerator} = 4(-1 + x^2\sqrt{3})$$
+$$\text{Numerator} = -4 + 4x^2\sqrt{3}$$
 
-#### 5. Final Rationalized Expression
+#### 6. Final Rationalized Expression
 
-Combine the simplified numerator and denominator. Since $\sqrt{x^4} = x^2$, the final radical can be written in a simplified form: $\sqrt{3x^4} = x^2\sqrt{3}$.
+Combine the simplified numerator and denominator:
 
 $$\text{Final Answer} = \frac{-4 + 4x^2\sqrt{3}}{1 - 3x^4}$$
 
 ***
 
-#### 🧠 Key Note
+#### 🧠 Key Takeaway
 
-The step to eliminate the radical term is achieved because multiplying the terms by the conjugate removes the middle terms in the expansion, leaving only the difference of squares:
-$$(-1 - \sqrt{3x^4})(-1 + \sqrt{3x^4}) = (-1)^2 - (\sqrt{3x^4})^2 = 1 - 3x^4$$
+Always **fully simplify** radicals *before* attempting rationalization to ensure the final form is in the simplest terms. The conjugate method guarantees a rational (non-radical) denominator through the **difference of squares** property.
