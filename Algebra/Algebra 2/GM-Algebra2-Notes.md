@@ -9153,3 +9153,4 @@ $$-\frac{n}{3}\sqrt[3]{9} - \frac{3}{10}\sqrt[3]{4}$$
 The expression $\frac{5\sqrt[3]{2n^4} + 3\sqrt[3]{3n}}{5\sqrt[3]{-6n}}$ simplifies and rationalizes to:
 
 $$-\frac{n\sqrt[3]{9}}{3} - \frac{3\sqrt[3]{4}}{10}$$
+## Algebra II - Lesson 59 - Rationalizing a Binomial Denominator - 18November2025 : 
