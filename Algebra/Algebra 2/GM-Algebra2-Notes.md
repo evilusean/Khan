@@ -8942,3 +8942,65 @@ $$\frac{2\sqrt{5} + 15\sqrt{v}}{20v^2}$$
 The expression $\frac{2 + 3\sqrt{5v}}{2\sqrt{20v^4}}$ simplifies and rationalizes to:
 
 $$\frac{2\sqrt{5} + 15\sqrt{v}}{20v^2}$$
+### 📝 Rationalizing a Cube Root Denominator ($\frac{3\sqrt[3]{4r^2}}{5\sqrt[3]{25r}}$)
+
+---
+
+#### Problem
+
+Rationalize the denominator and simplify the expression:
+
+$$\frac{3\sqrt[3]{4r^2}}{5\sqrt[3]{25r}}$$
+
+#### Step-by-Step Solution
+
+##### 1. Analyze the Denominator
+
+The denominator is $5\sqrt[3]{25r}$. To rationalize, we need to multiply the radicand ($25r$) by a factor that results in a perfect cube.
+
+* To make $25$ a perfect cube ($125 = 5^3$), we need a factor of $5$ ($25 \cdot 5 = 125$).
+* To make $r$ a perfect cube ($r^3$), we need a factor of $r^2$ ($r \cdot r^2 = r^3$).
+
+The rationalizing factor is $\sqrt[3]{5r^2}$.
+
+##### 2. Multiply by the Rationalizing Factor
+
+Multiply the numerator and denominator by $\sqrt[3]{5r^2}$:
+
+$$\frac{3\sqrt[3]{4r^2}}{5\sqrt[3]{25r}} \cdot \frac{\sqrt[3]{5r^2}}{\sqrt[3]{5r^2}}$$
+
+##### 3. Multiply the Denominators
+
+The denominator simplifies to a rational number:
+$$5 \cdot \sqrt[3]{25r \cdot 5r^2} = 5 \cdot \sqrt[3]{125r^3}$$
+$$5 \cdot (5r) = 25r$$
+
+##### 4. Multiply the Numerators
+
+The numerator is simplified:
+$$3 \cdot \sqrt[3]{4r^2 \cdot 5r^2} = 3\sqrt[3]{20r^4}$$
+
+##### 5. Simplify the Radical in the Numerator ($3\sqrt[3]{20r^4}$)
+
+Factor out any perfect cube terms from $20r^4$: only $r^3$ can be factored out ($r^4 = r^3 \cdot r$):
+$$3\sqrt[3]{r^3 \cdot 20r} = 3 \cdot r\sqrt[3]{20r} = 3r\sqrt[3]{20r}$$
+
+##### 6. Final Combined Expression
+
+Substitute the simplified numerator and the denominator:
+
+$$\frac{3r\sqrt[3]{20r}}{25r}$$
+
+##### 7. Final Simplification
+
+Cancel the common factor of $r$ between the numerator and denominator:
+
+$$\frac{3\sqrt[3]{20r}}{25}$$
+
+---
+
+#### Final Simplified and Rationalized Answer
+
+The expression $\frac{3\sqrt[3]{4r^2}}{5\sqrt[3]{25r}}$ simplifies and rationalizes to:
+
+$$\frac{3\sqrt[3]{20r}}{25}$$
