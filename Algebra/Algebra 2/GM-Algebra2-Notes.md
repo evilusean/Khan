@@ -8772,6 +8772,11 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=24h49m35s
 - You don't want a radical in the denominator - To get rid of a radical in the denominator, simply multiply BOTH the numerator and denominator by that radical $\sqrt{2} \cdot \sqrt{2} = \sqrt{4} = 2$ 
 - You are allowed to have a numerator that contains a radical
 - When you multiply a radical by a radical with the same integer, it follows normal multiplication rules, so you multiply them instead of adding (like exponents)
+- if you have a variable in the $\sqrt{x^2}$ you can cancel it if it has an exponent greater than 2, because what's the square root of $x^2$?  'x'
+- When you multiply the numerator, don't forget to multiply everything, not just the square roots that are seperated by a '-' or '+', you need to use the distributive property
+- When you cancel a $\sqrt{x}$ square root with a variable, don't forget, you aren't getting rid of it, you are just replacing it with 'x', so 'canceling' really just means removing the square root sign
+- When you are multiplying a square root with another square root, you can factor and pull out during the process, for example $\sqrt{5} \cdot \sqrt{15} = \sqrt{5} \sqrt{5} \sqrt{3}$ since 2 square roots of $\sqrt{5}$ is equal to $\sqrt{25} = 5$ you can just pull out the '5' right there and simplify
+- 
 ### 📝 Simplifying and Rationalizing the Denominator ($\frac{4\sqrt{9}}{2\sqrt{6}}$)
 
 ---
@@ -8816,3 +8821,124 @@ $$\sqrt{6}$$
 The expression $\frac{4\sqrt{9}}{2\sqrt{6}}$ simplifies and rationalizes to:
 
 $$\sqrt{6}$$
+### 📝 Simplifying and Rationalizing a Complex Radical Expression ($\frac{4 - \sqrt{5b^2}}{5\sqrt{15b^3}}$)
+
+---
+
+#### Problem
+
+Simplify the expression and rationalize the denominator:
+
+$$\frac{4 - \sqrt{5b^2}}{5\sqrt{15b^3}}$$
+
+(Assume $b > 0$ for the square roots to be real.)
+
+#### Step-by-Step Solution
+
+##### 1. Simplify Radicals in the Numerator and Denominator
+
+* **Numerator:** $\sqrt{5b^2} = \sqrt{b^2} \cdot \sqrt{5} = b\sqrt{5}$
+* **Denominator:** $\sqrt{15b^3} = \sqrt{b^2 \cdot 15b} = b\sqrt{15b}$
+
+Rewrite the expression:
+$$\frac{4 - b\sqrt{5}}{5 \cdot b\sqrt{15b}} = \frac{4 - b\sqrt{5}}{5b\sqrt{15b}}$$
+
+##### 2. Rationalize the Denominator
+
+To eliminate the radical $\sqrt{15b}$ from the denominator, multiply the numerator and the denominator by $\sqrt{15b}$:
+
+$$\frac{4 - b\sqrt{5}}{5b\sqrt{15b}} \cdot \frac{\sqrt{15b}}{\sqrt{15b}}$$
+
+##### 3. Multiply the Denominators
+
+The denominator simplifies to:
+$$5b \cdot (\sqrt{15b} \cdot \sqrt{15b}) = 5b \cdot 15b = 75b^2$$
+
+##### 4. Multiply the Numerators
+
+Distribute $\sqrt{15b}$ across the numerator $(4 - b\sqrt{5})$:
+$$\sqrt{15b} \cdot 4 - \sqrt{15b} \cdot b\sqrt{5}$$
+$$4\sqrt{15b} - b\sqrt{15b \cdot 5}$$
+$$4\sqrt{15b} - b\sqrt{75b}$$
+
+##### 5. Simplify the Radical in the Numerator ($b\sqrt{75b}$)
+Factor $75$ using the largest perfect square, 25:
+$$b\sqrt{25 \cdot 3b} = b \cdot 5\sqrt{3b} = 5b\sqrt{3b}$$
+
+##### 6. Final Combined Expression
+
+Substitute the simplified numerator and the denominator:
+
+$$\frac{4\sqrt{15b} - 5b\sqrt{3b}}{75b^2}$$
+
+---
+
+#### Final Simplified and Rationalized Answer
+
+The expression $\frac{4 - \sqrt{5b^2}}{5\sqrt{15b^3}}$ simplifies and rationalizes to:
+
+$$\frac{4\sqrt{15b} - 5b\sqrt{3b}}{75b^2}$$
+### 📝 Simplifying and Rationalizing a Complex Radical Expression ($\frac{2 + 3\sqrt{5v}}{2\sqrt{20v^4}}$)
+
+---
+
+#### Problem
+
+Simplify the expression and rationalize the denominator:
+
+$$\frac{2 + 3\sqrt{5v}}{2\sqrt{20v^4}}$$
+
+#### Step-by-Step Solution
+
+##### 1. Simplify the Denominator Radical ($\sqrt{20v^4}$)
+
+Factor out the largest perfect square terms from $20v^4$: $20 = 4 \cdot 5$ and $v^4 = (v^2)^2$.
+
+$$\sqrt{20v^4} = \sqrt{4v^4 \cdot 5} = \sqrt{4v^4} \cdot \sqrt{5} = 2v^2\sqrt{5}$$
+
+##### 2. Rewrite the Full Denominator
+
+Substitute the simplified radical back into the denominator $2\sqrt{20v^4}$:
+
+$$2 \cdot (2v^2\sqrt{5}) = 4v^2\sqrt{5}$$
+
+##### 3. Rewrite the Full Expression
+
+$$\frac{2 + 3\sqrt{5v}}{4v^2\sqrt{5}}$$
+
+##### 4. Rationalize the Denominator
+
+To eliminate the radical $\sqrt{5}$ from the denominator, multiply the numerator and the denominator by $\sqrt{5}$:
+
+$$\frac{2 + 3\sqrt{5v}}{4v^2\sqrt{5}} \cdot \frac{\sqrt{5}}{\sqrt{5}}$$
+
+##### 5. Multiply the Denominators
+
+$$4v^2 \cdot (\sqrt{5} \cdot \sqrt{5}) = 4v^2 \cdot 5 = 20v^2$$
+
+##### 6. Multiply the Numerators
+
+Distribute $\sqrt{5}$ across the numerator $(2 + 3\sqrt{5v})$:
+
+$$\sqrt{5} \cdot 2 + \sqrt{5} \cdot 3\sqrt{5v}$$
+$$2\sqrt{5} + 3\sqrt{5 \cdot 5v}$$
+$$2\sqrt{5} + 3\sqrt{25v}$$
+
+##### 7. Simplify the Second Term in the Numerator ($3\sqrt{25v}$)
+
+Factor out the perfect square 25:
+$$3\sqrt{25 \cdot v} = 3 \cdot 5\sqrt{v} = 15\sqrt{v}$$
+
+##### 8. Final Combined Expression
+
+Substitute the simplified numerator and the denominator:
+
+$$\frac{2\sqrt{5} + 15\sqrt{v}}{20v^2}$$
+
+---
+
+#### Final Simplified and Rationalized Answer
+
+The expression $\frac{2 + 3\sqrt{5v}}{2\sqrt{20v^4}}$ simplifies and rationalizes to:
+
+$$\frac{2\sqrt{5} + 15\sqrt{v}}{20v^2}$$
