@@ -9155,7 +9155,8 @@ The expression $\frac{5\sqrt[3]{2n^4} + 3\sqrt[3]{3n}}{5\sqrt[3]{-6n}}$ simplifi
 $$-\frac{n\sqrt[3]{9}}{3} - \frac{3\sqrt[3]{4}}{10}$$
 ## Algebra II - Lesson 59 - Rationalizing a Binomial Denominator - 18November2025 : 
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=25h16m
-- A **conjugate** =  is a pair of binomials (expressions with two terms) that are identical except for the sign connecting the two terms. If the original binomial is $a + b$, its conjugate is $a - b$. If the original binomial is $a - b$, its conjugate is $a + b$.
+- A **conjugate** =  is a pair of binomials (expressions with two terms) that are identical except for the sign connecting the two terms. If the original binomial is $a + b$, its conjugate is $a - b$. If the original binomial is $a - b$, its conjugate is $a + b$. - When you work it out, you get a difference of squares $a^2 + b^2$ where the middle terms cancel eachother out
+- To clear a denominator with more than just a square root, what you need to do is multiply BOTH the numerator and denominator by the conjugate of the denominator - which will leave you with a radical free denominator
 ### 📝 Definition and Use of a Conjugate
 
 ---
@@ -9195,3 +9196,63 @@ Rationalizing means removing the radical from the denominator. When the denomina
 | **3. Simplify Denominator** | Use the difference of squares formula, $a^2 - b^2$: | $$(2)^2 - (\sqrt{3})^2 = 4 - 3 = 1$$ |
 | **4. Simplify Numerator** | Distribute the 10 across the conjugate: | $$10(2 + \sqrt{3}) = 20 + 10\sqrt{3}$$ |
 | **5. Final Answer** | Combine the simplified parts: | $$\frac{20 + 10\sqrt{3}}{1} = 20 + 10\sqrt{3}$$ |
+### 📝 Rationalizing the Denominator using the Conjugate ($\frac{4}{-5 - 3\sqrt{3}}$)
+
+---
+
+#### Problem
+
+Rationalize the denominator of the expression using the conjugate:
+
+$$\frac{4}{-5 - 3\sqrt{3}}$$
+
+#### Step-by-Step Solution
+
+##### 1. Identify the Conjugate
+
+The denominator is a binomial: $-5 - 3\sqrt{3}$.
+The **conjugate** is formed by changing the sign between the two terms: $\mathbf{-5 + 3\sqrt{3}}$.
+
+##### 2. Multiply by the Conjugate
+
+Multiply the numerator and the denominator by the conjugate $\mathbf{-5 + 3\sqrt{3}}$:
+
+$$\frac{4}{(-5 - 3\sqrt{3})} \cdot \frac{(-5 + 3\sqrt{3})}{(-5 + 3\sqrt{3})}$$
+
+##### 3. Simplify the Denominator
+
+Use the **Difference of Squares** formula: $(a - b)(a + b) = a^2 - b^2$.
+Here, $a = -5$ and $b = 3\sqrt{3}$.
+
+$$\text{Denominator} = (-5)^2 - (3\sqrt{3})^2$$
+$$\text{Denominator} = 25 - (9 \cdot 3)$$
+$$\text{Denominator} = 25 - 27$$
+$$\text{Denominator} = -2$$
+
+##### 4. Simplify the Numerator
+
+Distribute the $4$ across the conjugate:
+
+$$\text{Numerator} = 4(-5 + 3\sqrt{3})$$
+$$\text{Numerator} = -20 + 12\sqrt{3}$$
+
+##### 5. Final Combined Expression
+
+Substitute the simplified numerator and denominator:
+
+$$\frac{-20 + 12\sqrt{3}}{-2}$$
+
+##### 6. Final Simplification
+
+Divide every term in the numerator by the denominator, $-2$:
+
+$$\frac{-20}{-2} + \frac{12\sqrt{3}}{-2}$$
+$$10 - 6\sqrt{3}$$
+
+---
+
+#### Final Simplified and Rationalized Answer
+
+The expression $\frac{4}{-5 - 3\sqrt{3}}$ simplifies and rationalizes to:
+
+$$10 - 6\sqrt{3}$$
