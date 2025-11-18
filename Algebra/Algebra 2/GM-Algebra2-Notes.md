@@ -9479,3 +9479,91 @@ $$\text{Final Answer} = \frac{6x\sqrt{3x} + 12\sqrt{5x} + 24x^3\sqrt{3x} + 48x^2
 For expressions with variables under the radical:
 1.  **Always** factor out any perfect square terms (like $x^2$) from under the radical first.
 2.  After using the difference of squares, the denominator will contain **no radicals** but may still have a common variable factor ($9x$ in this case), which should be factored out for the simplest final presentation.
+### 📝 Rationalizing a Denominator with Three Terms ($\frac{4}{\sqrt{3} + \sqrt{7} - \sqrt{6}}$)
+
+The expression to rationalize is:
+$$\frac{4}{\sqrt{3} + \sqrt{7} - \sqrt{6}}$$
+
+Since the denominator has three terms, we must **group two terms** together and treat the expression as a binomial $(A - B)$ to apply the conjugate method.
+
+#### 1. Grouping and Identifying the First Conjugate
+
+Group the first two terms: $A = (\sqrt{3} + \sqrt{7})$ and $B = \sqrt{6}$.
+The denominator is $(\sqrt{3} + \sqrt{7}) - \sqrt{6}$.
+The **first conjugate** is $(\sqrt{3} + \sqrt{7}) + \sqrt{6}$.
+
+#### 2. Apply the First Conjugate
+
+Multiply the fraction by $\frac{(\sqrt{3} + \sqrt{7}) + \sqrt{6}}{(\sqrt{3} + \sqrt{7}) + \sqrt{6}}$.
+
+**Numerator (N1):**
+$$N_1 = 4(\sqrt{3} + \sqrt{7} + \sqrt{6})$$
+$$N_1 = 4\sqrt{3} + 4\sqrt{7} + 4\sqrt{6}$$
+
+**Denominator (D1):**
+Using the difference of squares $(A-B)(A+B) = A^2 - B^2$:
+$$D_1 = (\sqrt{3} + \sqrt{7})^2 - (\sqrt{6})^2$$
+$$D_1 = ((\sqrt{3})^2 + 2\sqrt{3}\sqrt{7} + (\sqrt{7})^2) - 6$$
+$$D_1 = (3 + 2\sqrt{21} + 7) - 6$$
+$$D_1 = 10 + 2\sqrt{21} - 6$$
+$$D_1 = 4 + 2\sqrt{21}$$
+
+The expression is now:
+$$\frac{4\sqrt{3} + 4\sqrt{7} + 4\sqrt{6}}{4 + 2\sqrt{21}}$$
+
+#### 3. Identify the Second Conjugate
+
+The new denominator is $4 + 2\sqrt{21}$. The **second conjugate** is $4 - 2\sqrt{21}$.
+
+#### 4. Apply the Second Conjugate
+
+Multiply the new expression by $\frac{4 - 2\sqrt{21}}{4 - 2\sqrt{21}}$.
+
+**Denominator (D2):**
+Using the difference of squares:
+$$D_2 = (4)^2 - (2\sqrt{21})^2$$
+$$D_2 = 16 - (4 \cdot 21)$$
+$$D_2 = 16 - 84$$
+$$D_2 = -68$$
+
+**Numerator (N2):**
+$N_2 = (4\sqrt{3} + 4\sqrt{7} + 4\sqrt{6})(4 - 2\sqrt{21})$
+Factor out 4 from the first part and 2 from the second part:
+$N_2 = 4(\sqrt{3} + \sqrt{7} + \sqrt{6}) \cdot 2(2 - \sqrt{21})$
+$N_2 = 8(\sqrt{3} + \sqrt{7} + \sqrt{6})(2 - \sqrt{21})$
+
+Distribute the terms inside the parentheses (this is complex, but necessary):
+$N_2 = 8 [ 2\sqrt{3} - \sqrt{3}\sqrt{21} + 2\sqrt{7} - \sqrt{7}\sqrt{21} + 2\sqrt{6} - \sqrt{6}\sqrt{21} ]$
+
+Simplify the product terms (since $21 = 3 \cdot 7$):
+* $\sqrt{3}\sqrt{21} = \sqrt{3 \cdot 3 \cdot 7} = 3\sqrt{7}$
+* $\sqrt{7}\sqrt{21} = \sqrt{7 \cdot 7 \cdot 3} = 7\sqrt{3}$
+* $\sqrt{6}\sqrt{21} = \sqrt{3 \cdot 2 \cdot 3 \cdot 7} = 3\sqrt{14}$
+
+Substitute these back into $N_2$:
+$N_2 = 8 [ 2\sqrt{3} - 3\sqrt{7} + 2\sqrt{7} - 7\sqrt{3} + 2\sqrt{6} - 3\sqrt{14} ]$
+
+Combine like terms ($\sqrt{3}$ terms and $\sqrt{7}$ terms):
+$N_2 = 8 [ (2\sqrt{3} - 7\sqrt{3}) + (-3\sqrt{7} + 2\sqrt{7}) + 2\sqrt{6} - 3\sqrt{14} ]$
+$N_2 = 8 [ -5\sqrt{3} - \sqrt{7} + 2\sqrt{6} - 3\sqrt{14} ]$
+
+#### 5. Write the Final Expression
+
+$$\text{Final Expression} = \frac{8 [ -5\sqrt{3} - \sqrt{7} + 2\sqrt{6} - 3\sqrt{14} ]}{-68}$$
+
+Simplify the fraction by dividing 8 and -68 by their GCF, which is 4:
+$$\text{Final Answer} = \frac{2 [ -5\sqrt{3} - \sqrt{7} + 2\sqrt{6} - 3\sqrt{14} ]}{-17}$$
+
+To eliminate the negative sign in the denominator, multiply the entire numerator by $-1$ and the denominator by $-1$:
+$$\text{Final Answer} = \frac{-2 [ -5\sqrt{3} - \sqrt{7} + 2\sqrt{6} - 3\sqrt{14} ]}{17}$$
+
+$$\text{Final Answer} = \frac{10\sqrt{3} + 2\sqrt{7} - 4\sqrt{6} + 6\sqrt{14}}{17}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+To rationalize a denominator with **three radical terms**, the process involves:
+1.  **Grouping** two terms, treating the expression as a binomial $(A \pm B)$.
+2.  Multiplying by the **first conjugate** to reduce the denominator to an expression with only **one radical term**.
+3.  Multiplying by the **second conjugate** to complete the rationalization.
