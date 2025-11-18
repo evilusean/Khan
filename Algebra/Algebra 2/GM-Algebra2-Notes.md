@@ -8772,4 +8772,47 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=24h49m35s
 - You don't want a radical in the denominator - To get rid of a radical in the denominator, simply multiply BOTH the numerator and denominator by that radical $\sqrt{2} \cdot \sqrt{2} = \sqrt{4} = 2$ 
 - You are allowed to have a numerator that contains a radical
 - When you multiply a radical by a radical with the same integer, it follows normal multiplication rules, so you multiply them instead of adding (like exponents)
-- 
+### 📝 Simplifying and Rationalizing the Denominator ($\frac{4\sqrt{9}}{2\sqrt{6}}$)
+
+---
+
+#### Problem
+
+Simplify the expression and rationalize the denominator:
+
+$$\frac{4\sqrt{9}}{2\sqrt{6}}$$
+
+#### Step-by-Step Solution
+
+##### 1. Simplify the Numerator
+
+The term $\sqrt{9}$ is a perfect square, so simplify the numerator:
+$$4\sqrt{9} = 4 \cdot 3 = 12$$
+
+##### 2. Rewrite the Expression
+
+Substitute the simplified numerator back into the fraction:
+$$\frac{12}{2\sqrt{6}}$$
+
+##### 3. Simplify the Fraction
+
+Reduce the numerical part of the fraction ($\frac{12}{2}$):
+$$\frac{6}{\sqrt{6}}$$
+
+##### 4. Rationalize the Denominator
+
+To rationalize, multiply the numerator and the denominator by the radical in the denominator ($\sqrt{6}$):
+$$\frac{6}{\sqrt{6}} \cdot \frac{\sqrt{6}}{\sqrt{6}} = \frac{6\sqrt{6}}{6}$$ $\sqrt{6} \cdot \sqrt{6} = \sqrt{36} = 6$ So you can cancel the '6' in both numerator and denominator 
+
+##### 5. Final Simplification
+
+Cancel the common factor of 6 in the numerator and denominator:
+$$\sqrt{6}$$
+
+---
+
+#### Final Simplified and Rationalized Answer
+
+The expression $\frac{4\sqrt{9}}{2\sqrt{6}}$ simplifies and rationalizes to:
+
+$$\sqrt{6}$$
