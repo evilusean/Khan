@@ -9154,3 +9154,5 @@ The expression $\frac{5\sqrt[3]{2n^4} + 3\sqrt[3]{3n}}{5\sqrt[3]{-6n}}$ simplifi
 
 $$-\frac{n\sqrt[3]{9}}{3} - \frac{3\sqrt[3]{4}}{10}$$
 ## Algebra II - Lesson 59 - Rationalizing a Binomial Denominator - 18November2025 : 
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=25h16m
+
