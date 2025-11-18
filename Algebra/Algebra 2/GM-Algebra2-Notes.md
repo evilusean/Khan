@@ -9414,3 +9414,68 @@ $$\text{Final Answer} = 6\sqrt{3} + 6\sqrt{2}$$
 #### 🧠 Key Takeaway
 
 When working with radicals, the absolute first step should be to **simplify all radicals** before applying any other operation, such as finding the conjugate. In this problem, initial simplification allowed for the **cancellation of 'a'**, which significantly simplified the conjugation process.
+### 📝 Rationalizing the Denominator: Complex Expression ($\frac{2 + 8\sqrt{x^4}}{3\sqrt{3x^3} - 6\sqrt{5x}}$)
+
+The expression to rationalize is:
+$$\frac{2 + 8\sqrt{x^4}}{3\sqrt{3x^3} - 6\sqrt{5x}}$$
+
+#### 1. Initial Simplification of Numerator and Denominator Radicals
+
+Simplify all radical terms, assuming $x > 0$:
+
+* **Numerator radical:** $\sqrt{x^4} = x^{4/2} = x^2$
+    * *Numerator becomes:* $2 + 8x^2$
+
+* **Denominator first term:** $3\sqrt{3x^3} = 3\sqrt{3 \cdot x^2 \cdot x} = 3 \cdot x \sqrt{3x}$
+    * *Denominator first term becomes:* $3x\sqrt{3x}$
+
+* **Denominator second term:** $6\sqrt{5x}$ (Cannot be simplified further)
+    * *Denominator second term remains:* $6\sqrt{5x}$
+
+The simplified expression is:
+$$\frac{2 + 8x^2}{3x\sqrt{3x} - 6\sqrt{5x}}$$
+
+#### 2. Identify the Conjugate
+
+The denominator is $3x\sqrt{3x} - 6\sqrt{5x}$. The conjugate is:
+$$\text{Conjugate} = 3x\sqrt{3x} + 6\sqrt{5x}$$
+
+#### 3. Multiply by the Conjugate
+
+Multiply the simplified fraction by $\frac{\text{Conjugate}}{\text{Conjugate}}$:
+$$\frac{2 + 8x^2}{3x\sqrt{3x} - 6\sqrt{5x}} \times \frac{3x\sqrt{3x} + 6\sqrt{5x}}{3x\sqrt{3x} + 6\sqrt{5x}}$$
+
+#### 4. Simplify the Denominator (Difference of Squares)
+
+Use the formula $(a - b)(a + b) = a^2 - b^2$, where $a = 3x\sqrt{3x}$ and $b = 6\sqrt{5x}$:
+
+$$\text{Denominator} = (3x\sqrt{3x})^2 - (6\sqrt{5x})^2$$
+$$\text{Denominator} = (3x)^2 (\sqrt{3x})^2 - (6^2)(\sqrt{5x})^2$$
+$$\text{Denominator} = (9x^2)(3x) - (36)(5x)$$
+$$\text{Denominator} = 27x^3 - 180x$$
+
+#### 5. Simplify the Numerator (Distribute)
+
+Multiply the two binomials:
+$$\text{Numerator} = (2 + 8x^2)(3x\sqrt{3x} + 6\sqrt{5x})$$
+$$\text{Numerator} = 2(3x\sqrt{3x}) + 2(6\sqrt{5x}) + 8x^2(3x\sqrt{3x}) + 8x^2(6\sqrt{5x})$$
+$$\text{Numerator} = 6x\sqrt{3x} + 12\sqrt{5x} + 24x^3\sqrt{3x} + 48x^2\sqrt{5x}$$
+
+#### 6. Factor the Denominator
+
+Factor out the Greatest Common Factor ($9x$) from the denominator:
+$$\text{Denominator} = 9x(3x^2 - 20)$$
+
+#### 7. Final Rationalized Expression
+
+Combine the simplified numerator and factored denominator:
+
+$$\text{Final Answer} = \frac{6x\sqrt{3x} + 12\sqrt{5x} + 24x^3\sqrt{3x} + 48x^2\sqrt{5x}}{9x(3x^2 - 20)}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+For expressions with variables under the radical:
+1.  **Always** factor out any perfect square terms (like $x^2$) from under the radical first.
+2.  After using the difference of squares, the denominator will contain **no radicals** but may still have a common variable factor ($9x$ in this case), which should be factored out for the simplest final presentation.
