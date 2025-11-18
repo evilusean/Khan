@@ -8768,3 +8768,8 @@ The expression $-2\sqrt[3]{32} - \sqrt[3]{108} + 2\sqrt[3]{256} + 4\sqrt[3]{4}$ 
 $$5\sqrt[3]{4}$$
 ## Algebra II - Lesson 58 - Rationalizing the Denominator - 17November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=24h49m35s
+- First thing you should do is attempt to simplify the radicals
+- You don't want a radical in the denominator - To get rid of a radical in the denominator, simply multiply BOTH the numerator and denominator by that radical $\sqrt{2} \cdot \sqrt{2} = \sqrt{4} = 2$ 
+- You are allowed to have a numerator that contains a radical
+- When you multiply a radical by a radical with the same integer, it follows normal multiplication rules, so you multiply them instead of adding (like exponents)
+- 
