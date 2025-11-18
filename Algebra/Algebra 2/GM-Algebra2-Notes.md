@@ -9155,4 +9155,43 @@ The expression $\frac{5\sqrt[3]{2n^4} + 3\sqrt[3]{3n}}{5\sqrt[3]{-6n}}$ simplifi
 $$-\frac{n\sqrt[3]{9}}{3} - \frac{3\sqrt[3]{4}}{10}$$
 ## Algebra II - Lesson 59 - Rationalizing a Binomial Denominator - 18November2025 : 
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=25h16m
+- A **conjugate** =  is a pair of binomials (expressions with two terms) that are identical except for the sign connecting the two terms. If the original binomial is $a + b$, its conjugate is $a - b$. If the original binomial is $a - b$, its conjugate is $a + b$.
+### 📝 Definition and Use of a Conjugate
 
+---
+
+#### 💡 Definition of a Conjugate
+
+A **conjugate** is a pair of binomials (expressions with two terms) that are identical except for the sign connecting the two terms. 
+* If the original binomial is $a + b$, its conjugate is $a - b$.
+* If the original binomial is $a - b$, its conjugate is $a + b$.
+
+The key property of a conjugate pair is that when multiplied together, the result is always the **difference of squares**, which eliminates the middle terms:
+$$(a + b)(a - b) = a^2 - ab + ab - b^2 = a^2 - b^2$$
+
+---
+
+#### 🛠️ Application in Rationalizing Denominators
+
+The primary use of conjugates in algebra is to **rationalize a binomial denominator** containing square roots.
+
+Rationalizing means removing the radical from the denominator. When the denominator is a single term (e.g., $\sqrt{3}$), you multiply by that radical. When the denominator is a binomial with a radical (e.g., $2 + \sqrt{3}$), you must multiply by its conjugate to eliminate the root.
+
+##### Example 1: Rationalizing with a Radical Conjugate
+
+| Original Denominator | Conjugate | Product (Difference of Squares) | Result |
+| :---: | :---: | :---: | :---: |
+| $4 + \sqrt{5}$ | $4 - \sqrt{5}$ | $(4)^2 - (\sqrt{5})^2$ | $16 - 5 = 11$ |
+| $3\sqrt{2} - 7$ | $3\sqrt{2} + 7$ | $(3\sqrt{2})^2 - (7)^2$ | $18 - 49 = -31$ |
+
+##### Step-by-Step Example
+
+**Problem:** Rationalize the denominator of the expression $\frac{10}{2 - \sqrt{3}}$.
+
+| Step | Action | Calculation |
+| :--- | :--- | :--- |
+| **1. Identify Conjugate** | The denominator is $2 - \sqrt{3}$. The conjugate is **$2 + \sqrt{3}$**. | N/A |
+| **2. Multiply** | Multiply the numerator and denominator by the conjugate. | $$\frac{10}{2 - \sqrt{3}} \cdot \frac{2 + \sqrt{3}}{2 + \sqrt{3}}$$ |
+| **3. Simplify Denominator** | Use the difference of squares formula, $a^2 - b^2$: | $$(2)^2 - (\sqrt{3})^2 = 4 - 3 = 1$$ |
+| **4. Simplify Numerator** | Distribute the 10 across the conjugate: | $$10(2 + \sqrt{3}) = 20 + 10\sqrt{3}$$ |
+| **5. Final Answer** | Combine the simplified parts: | $$\frac{20 + 10\sqrt{3}}{1} = 20 + 10\sqrt{3}$$ |
