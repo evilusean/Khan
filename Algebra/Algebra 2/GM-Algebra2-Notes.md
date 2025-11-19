@@ -9616,3 +9616,59 @@ $$\text{Solution: } p = 21$$
 #### 🧠 Note on the Square Root
 
 Remember that $\sqrt{x}$ by convention refers to the **principal (positive) square root** of $x$. This is why the positive value $5$ is the only value we check against, and why $p=21$ is a valid solution.
+
+### 📝 Solving an Equation with Two Radical Terms ($\sqrt{3x - 16} = \sqrt{19 - 2x}$)
+
+The equation to solve is:
+$$\sqrt{3x - 16} = \sqrt{19 - 2x}$$
+
+#### 1. Eliminate the Radicals
+
+Since both radical terms are already isolated on opposite sides of the equation, we can eliminate them by **squaring both sides**:
+
+$$(\sqrt{3x - 16})^2 = (\sqrt{19 - 2x})^2$$
+$$3x - 16 = 19 - 2x$$
+
+#### 2. Solve the Linear Equation
+
+Now, collect the $x$ terms on one side and the constant terms on the other.
+
+Add $2x$ to both sides:
+$$3x + 2x - 16 = 19$$
+$$5x - 16 = 19$$
+
+Add $16$ to both sides:
+$$5x = 19 + 16$$
+$$5x = 35$$
+
+Divide by 5:
+$$x = \frac{35}{5}$$
+$$x = 7$$
+
+#### 3. Check for Extraneous Solutions
+
+Substitute the proposed solution $x = 7$ back into the original equation $\sqrt{3x - 16} = \sqrt{19 - 2x}$ to check for validity.
+
+**Left Side (LS):**
+$$LS = \sqrt{3(7) - 16}$$
+$$LS = \sqrt{21 - 16}$$
+$$LS = \sqrt{5}$$
+
+**Right Side (RS):**
+$$RS = \sqrt{19 - 2(7)}$$
+$$RS = \sqrt{19 - 14}$$
+$$RS = \sqrt{5}$$
+
+Since $LS = RS$, the solution $x = 7$ is **valid**.
+
+$$\text{Solution: } x = 7$$
+
+***
+
+#### 🧠 Note on Domain
+
+For a solution to be physically possible, the expression under **every** square root must be greater than or equal to zero.
+1. $3x - 16 \ge 0 \implies x \ge 16/3 \approx 5.33$
+2. $19 - 2x \ge 0 \implies 19 \ge 2x \implies x \le 9.5$
+
+Our solution, $x=7$, falls within the valid domain $5.33 \le x \le 9.5$, confirming its reasonableness before the final check.
