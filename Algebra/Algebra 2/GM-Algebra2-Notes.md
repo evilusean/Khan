@@ -9881,7 +9881,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h14m30s
 - $i^2 = -1$ : $\sqrt{i^2} = \sqrt{-1}$ : $i = \sqrt{-1}$ :  **Imaginary Unit** : When you want to take the square root of a negative number
 - Don't get confused with the difference between $- \sqrt{9}$ = -3 and $\sqrt{-9}$  = No Real Solution : 
 - $i = \sqrt{-1}$ : $\sqrt{-9} = \sqrt{-1} \cdot \sqrt{9}$ : $\sqrt{-9} = i \cdot \sqrt{9}$ : 3i 
-- 
+- When working with multiplication and division, we must change the form first. 
 ### 📝 Definition of the Imaginary Unit ($i$)
 
 The imaginary unit, denoted as **$i$**, is a mathematical concept defined to be the solution to the equation $x^2 = -1$.
@@ -9959,3 +9959,45 @@ This radical can be simplified because the real number 20 contains the perfect s
 #### 🧠 Key Takeaway
 
 Always simplify the non-negative radical ($\sqrt{a}$) **after** separating the $\sqrt{-1}$ term. The final simplified form should place the real number factor (if any) before $i$, and $i$ before the radical (e.g., $2i\sqrt{5}$ is standard).
+### 📝 Multiplying Negative Radicals ($\sqrt{-2} \cdot \sqrt{-18}$)
+
+The problem is to solve:
+$$\sqrt{-2} \cdot \sqrt{-18}$$
+
+**Crucial Step**: Before multiplying, you **must** convert the negative radicals into imaginary numbers using the definition $i = \sqrt{-1}$. If you multiply first, you will get the incorrect answer $\sqrt{(-2)(-18)} = \sqrt{36} = 6$.
+
+#### 1. Convert to Imaginary Numbers
+
+Apply the rule $\sqrt{-a} = i\sqrt{a}$ to both factors:
+
+* $$\sqrt{-2} = i\sqrt{2}$$
+* $$\sqrt{-18} = i\sqrt{18}$$
+
+The expression becomes:
+$$(i\sqrt{2}) \cdot (i\sqrt{18})$$
+
+#### 2. Multiply the Terms
+
+Multiply the imaginary parts ($i \cdot i$) and the radical parts ($\sqrt{2} \cdot \sqrt{18}$):
+
+$$i^2 \cdot (\sqrt{2} \cdot \sqrt{18})$$
+$$i^2 \cdot \sqrt{2 \cdot 18}$$
+$$i^2 \cdot \sqrt{36}$$
+
+#### 3. Simplify $i^2$ and the Radical
+
+Substitute $i^2 = -1$ and simplify $\sqrt{36}$:
+
+$$(-1) \cdot 6$$
+$$-6$$
+
+$$\text{Final Answer: } -6$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Always convert all negative radicals to their imaginary form ($i\sqrt{a}$) **before** multiplying or dividing.
+
+$$\sqrt{-a} \cdot \sqrt{-b} \ne \sqrt{ab}$$
+$$\sqrt{-a} \cdot \sqrt{-b} = (i\sqrt{a})(i\sqrt{b}) = i^2\sqrt{ab} = -\sqrt{ab}$$
