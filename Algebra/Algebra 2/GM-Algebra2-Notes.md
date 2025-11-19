@@ -10157,3 +10157,61 @@ $$\text{Final Answer: } 5$$
 
 When dividing two negative radicals, the result is always a **positive real number**. The imaginary parts cancel, making the operation equivalent to dividing the positive versions of the original numbers:
 $$\frac{\sqrt{-a}}{\sqrt{-b}} = \frac{\sqrt{a}}{\sqrt{b}}$$
+### 📝 Dividing Radicals with an Imaginary Denominator ($\frac{\sqrt{28}}{\sqrt{-7}}$)
+
+The expression to solve is:
+$$\frac{\sqrt{28}}{\sqrt{-7}}$$
+
+#### 1. Convert the Negative Radical to Imaginary Form
+
+First, convert the denominator using the definition $i = \sqrt{-1}$:
+
+$$\sqrt{-7} = i\sqrt{7}$$
+
+The expression becomes:
+$$\frac{\sqrt{28}}{i\sqrt{7}}$$
+
+#### 2. Simplify the Numerator
+
+Simplify the radical in the numerator. Since $28 = 4 \cdot 7$:
+
+$$\sqrt{28} = \sqrt{4 \cdot 7} = \sqrt{4} \cdot \sqrt{7} = 2\sqrt{7}$$
+
+The expression now is:
+$$\frac{2\sqrt{7}}{i\sqrt{7}}$$
+
+#### 3. Cancel Common Factors
+
+Cancel the common radical factor $\sqrt{7}$ from the numerator and denominator:
+
+$$\frac{2\cancel{\sqrt{7}}}{i\cancel{\sqrt{7}}} = \frac{2}{i}$$
+
+#### 4. Rationalize the Denominator (Eliminate $i$ from the Denominator)
+
+To simplify the expression completely, we must eliminate the imaginary unit $i$ from the denominator. Multiply the numerator and denominator by $i$:
+
+$$\frac{2}{i} \cdot \frac{i}{i}$$
+
+* **Numerator:** $2 \cdot i = 2i$
+* **Denominator:** $i \cdot i = i^2$
+
+Substitute the definition $\mathbf{i^2 = -1}$ in the denominator:
+
+$$\frac{2i}{-1}$$
+
+#### 5. Final Simplification
+
+Divide by $-1$:
+
+$$\frac{2i}{-1} = -2i$$
+
+$$\text{Final Answer: } -2i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When dividing by a radical containing $-1$:
+1.  **Always convert** the $\sqrt{-a}$ term to $i\sqrt{a}$ first.
+2.  If $i$ remains in the denominator, you must **rationalize** by multiplying the entire fraction by $\mathbf{\frac{i}{i}}$.
+3.  This uses the property $\mathbf{i^2 = -1}$ to convert the imaginary denominator into a real number.
