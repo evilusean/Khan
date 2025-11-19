@@ -9672,3 +9672,65 @@ For a solution to be physically possible, the expression under **every** square 
 2. $19 - 2x \ge 0 \implies 19 \ge 2x \implies x \le 9.5$
 
 Our solution, $x=7$, falls within the valid domain $5.33 \le x \le 9.5$, confirming its reasonableness before the final check.
+### 📝 Solving a Radical Equation Resulting in a Quadratic ($8 + \sqrt{34 - 3b} = b$)
+
+The equation to solve is:
+$$8 + \sqrt{34 - 3b} = b$$
+
+#### 1. Isolate the Radical Term
+
+Subtract 8 from both sides to isolate the radical:
+$$\sqrt{34 - 3b} = b - 8$$
+
+#### 2. Square Both Sides
+
+Square both sides of the equation to eliminate the radical. **Be careful to correctly expand the binomial on the right side:** $(b - 8)^2$:
+
+$$(\sqrt{34 - 3b})^2 = (b - 8)^2$$
+$$34 - 3b = b^2 - 16b + 64$$
+
+#### 3. Rearrange into a Quadratic Equation
+
+Move all terms to one side to set the quadratic equal to zero:
+
+$$0 = b^2 - 16b + 3b + 64 - 34$$
+$$0 = b^2 - 13b + 30$$
+
+#### 4. Solve the Quadratic Equation
+
+Factor the quadratic expression $b^2 - 13b + 30 = 0$. We look for two numbers that multiply to 30 and add up to -13. These numbers are -10 and -3.
+
+$$(b - 10)(b - 3) = 0$$
+
+This gives two possible solutions:
+$$b = 10 \quad \text{or} \quad b = 3$$
+
+#### 5. Check for Extraneous Solutions
+
+We must check both proposed solutions in the **original equation**: $8 + \sqrt{34 - 3b} = b$.
+
+##### Check 1: $b = 10$
+
+$$8 + \sqrt{34 - 3(10)} \stackrel{?}{=} 10$$
+$$8 + \sqrt{34 - 30} \stackrel{?}{=} 10$$
+$$8 + \sqrt{4} \stackrel{?}{=} 10$$
+$$8 + 2 \stackrel{?}{=} 10$$
+$$10 = 10 \quad \text{(True)}$$
+**$b = 10$ is a valid solution.**
+
+##### Check 2: $b = 3$
+
+$$8 + \sqrt{34 - 3(3)} \stackrel{?}{=} 3$$
+$$8 + \sqrt{34 - 9} \stackrel{?}{=} 3$$
+$$8 + \sqrt{25} \stackrel{?}{=} 3$$
+$$8 + 5 \stackrel{?}{=} 3$$
+$$13 = 3 \quad \text{(False)}$$
+**$b = 3$ is an extraneous solution.**
+
+$$\text{Final Solution: } b = 10$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When solving a radical equation that leads to a quadratic, **both** solutions from the quadratic equation **must** be checked in the original radical equation. In this case, $b=3$ was introduced when we squared both sides, making it **extraneous**. Also, note the important constraint: the right side, $b-8$, must be $\ge 0$ since it equals a positive square root. This means $b \ge 8$, which immediately rules out $b=3$.
