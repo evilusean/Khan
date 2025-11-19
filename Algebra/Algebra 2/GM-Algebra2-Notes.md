@@ -9875,3 +9875,4 @@ $$\text{Solutions: } x = 4 \text{ and } x = -5$$
 
 For equations involving **odd roots** (like cubic roots, $\sqrt[3]{}$), cubing or raising to the $n^{th}$ power does **not** introduce extraneous solutions because odd roots preserve the sign of the value under the radical. Therefore, all algebraically derived solutions will be valid.
 ## Algebra II - Lesson 61 - Complex Numbers - 19November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h14m30s
