@@ -9576,6 +9576,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=25h46m05s
   3) Repeat the previous two steps if neccesary
   4) Solve the equation, ahd check all solutions in the original equation
 - When you want to get rid of a radical sign in an equation, just square both sides
+- When you square one side of an equation with something like $b - 8$ you need to expand it fully (not just the 'b' or the '8'), so it becomes $(b-8)^2$ which means you need to expand it using *FOIL* so it's $(b - 8)(b -8)$ = $b^2 - 16b + 64$ 
 ### 📝 Radical Equation Solution ($\sqrt{p + 4} = 5$)
 
 The equation from the image is:
@@ -9734,3 +9735,142 @@ $$\text{Final Solution: } b = 10$$
 #### 🧠 Key Takeaway
 
 When solving a radical equation that leads to a quadratic, **both** solutions from the quadratic equation **must** be checked in the original radical equation. In this case, $b=3$ was introduced when we squared both sides, making it **extraneous**. Also, note the important constraint: the right side, $b-8$, must be $\ge 0$ since it equals a positive square root. This means $b \ge 8$, which immediately rules out $b=3$.
+
+### 📝 Solving an Equation with Two Radicals (Double Squaring) ($\sqrt{9k - 2} = 4 + \sqrt{4 - k}$)
+
+The equation to solve is:
+$$\sqrt{9k - 2} = 4 + \sqrt{4 - k}$$
+
+#### 1. Square Both Sides (First Time)
+
+The radicals are already isolated on opposite sides. Square both sides:
+
+$$(\sqrt{9k - 2})^2 = (4 + \sqrt{4 - k})^2$$
+$$9k - 2 = (4)^2 + 2(4)(\sqrt{4 - k}) + (\sqrt{4 - k})^2$$
+$$9k - 2 = 16 + 8\sqrt{4 - k} + (4 - k)$$
+$$9k - 2 = 20 - k + 8\sqrt{4 - k}$$
+
+#### 2. Isolate the Remaining Radical Term
+
+Move all non-radical terms to the left side to isolate $8\sqrt{4 - k}$:
+
+$$9k + k - 2 - 20 = 8\sqrt{4 - k}$$
+$$10k - 22 = 8\sqrt{4 - k}$$
+
+Divide the entire equation by 2 to simplify the numbers:
+$$5k - 11 = 4\sqrt{4 - k}$$
+
+#### 3. Square Both Sides (Second Time)
+
+Square both sides again to eliminate the final radical. **Be careful to expand the binomial on the left side** $(5k - 11)^2$:
+
+$$(5k - 11)^2 = (4\sqrt{4 - k})^2$$
+$$(5k)^2 - 2(5k)(11) + 11^2 = 4^2 (\sqrt{4 - k})^2$$
+$$25k^2 - 110k + 121 = 16(4 - k)$$
+$$25k^2 - 110k + 121 = 64 - 16k$$
+
+#### 4. Rearrange into a Quadratic Equation
+
+Move all terms to the left side to set the quadratic equal to zero:
+
+$$25k^2 - 110k + 16k + 121 - 64 = 0$$
+$$25k^2 - 94k + 57 = 0$$
+
+#### 5. Solve the Quadratic Equation
+
+Use factoring or the quadratic formula. Since $25k^2 - 94k + 57 = 0$ is factorable, we use factoring:
+$$(25k - 19)(k - 3) = 0$$
+
+This gives two possible solutions:
+$$25k - 19 = 0 \implies k = \frac{19}{25}$$
+$$k - 3 = 0 \implies k = 3$$
+
+#### 6. Check for Extraneous Solutions
+
+We must check both proposed solutions in the **original equation**: $\sqrt{9k - 2} = 4 + \sqrt{4 - k}$.
+
+##### Check 1: $k = 3$
+
+$$\sqrt{9(3) - 2} \stackrel{?}{=} 4 + \sqrt{4 - 3}$$
+$$\sqrt{27 - 2} \stackrel{?}{=} 4 + \sqrt{1}$$
+$$\sqrt{25} \stackrel{?}{=} 4 + 1$$
+$$5 = 5 \quad \text{(True)}$$
+**$k = 3$ is a valid solution.**
+
+##### Check 2: $k = \frac{19}{25}$
+
+Substitute $k = 0.76$:
+$$\sqrt{9(0.76) - 2} \stackrel{?}{=} 4 + \sqrt{4 - 0.76}$$
+$$\sqrt{6.84 - 2} \stackrel{?}{=} 4 + \sqrt{3.24}$$
+$$\sqrt{4.84} \stackrel{?}{=} 4 + 1.8$$
+$$2.2 \stackrel{?}{=} 5.8 \quad \text{(False)}$$
+**$k = \frac{19}{25}$ is an extraneous solution.**
+
+$$\text{Final Solution: } k = 3$$
+
+***
+
+#### 🧠 Key Takeaway
+
+A radical equation requiring **two steps of squaring** will always lead to a quadratic equation. This dramatically increases the chance of generating **extraneous solutions**. The process is:
+1. Isolate one radical.
+2. Square both sides.
+3. Isolate the *remaining* radical (or simplify to isolate the power, as in the quadratic form).
+4. Square both sides again.
+5. Solve the resulting non-radical equation.
+6. **Check all resulting solutions** in the original equation.
+### 📝 Solving an Equation with Cubic Roots ($\sqrt[3]{31 - x} = \sqrt[3]{x^2 + 11}$)
+
+The equation to solve is:
+$$\sqrt[3]{31 - x} = \sqrt[3]{x^2 + 11}$$
+
+#### 1. Eliminate the Cubic Roots
+
+Since the cubic root terms are already isolated on opposite sides of the equation, we can eliminate them by **cubing both sides**:
+
+$$\left(\sqrt[3]{31 - x}\right)^3 = \left(\sqrt[3]{x^2 + 11}\right)^3$$
+$$31 - x = x^2 + 11$$
+
+#### 2. Rearrange into a Quadratic Equation
+
+Move all terms to one side to set the quadratic equal to zero:
+
+$$0 = x^2 + x + 11 - 31$$
+$$0 = x^2 + x - 20$$
+
+#### 3. Solve the Quadratic Equation
+
+Factor the quadratic expression $x^2 + x - 20 = 0$. We look for two numbers that multiply to $-20$ and add up to $1$. These numbers are $5$ and $-4$.
+
+$$(x + 5)(x - 4) = 0$$
+
+This gives two possible solutions:
+$$x + 5 = 0 \implies x = -5$$
+$$x - 4 = 0 \implies x = 4$$
+
+#### 4. Check the Solutions (Optional but Recommended)
+
+While cubing an equation does not introduce extraneous solutions, it is good practice to check the solutions, especially for potential arithmetic errors.
+
+##### Check 1: $x = -5$
+
+$$\sqrt[3]{31 - (-5)} \stackrel{?}{=} \sqrt[3]{(-5)^2 + 11}$$
+$$\sqrt[3]{36} \stackrel{?}{=} \sqrt[3]{25 + 11}$$
+$$\sqrt[3]{36} = \sqrt[3]{36} \quad \text{(True)}$$
+**$x = -5$ is a valid solution.**
+
+##### Check 2: $x = 4$
+
+$$\sqrt[3]{31 - 4} \stackrel{?}{=} \sqrt[3]{(4)^2 + 11}$$
+$$\sqrt[3]{27} \stackrel{?}{=} \sqrt[3]{16 + 11}$$
+$$\sqrt[3]{27} = \sqrt[3]{27}$$
+$$3 = 3 \quad \text{(True)}$$
+**$x = 4$ is a valid solution.**
+
+$$\text{Solutions: } x = 4 \text{ and } x = -5$$
+
+***
+
+#### 🧠 Key Takeaway
+
+For equations involving **odd roots** (like cubic roots, $\sqrt[3]{}$), cubing or raising to the $n^{th}$ power does **not** introduce extraneous solutions because odd roots preserve the sign of the value under the radical. Therefore, all algebraically derived solutions will be valid.
