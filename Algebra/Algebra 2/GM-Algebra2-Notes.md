@@ -9575,4 +9575,44 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=25h46m05s
   2) Raise both sides of the equation to a power equal to the index of the radical
   3) Repeat the previous two steps if neccesary
   4) Solve the equation, ahd check all solutions in the original equation
-- 
+- When you want to get rid of a radical sign in an equation, just square both sides
+### 📝 Radical Equation Solution ($\sqrt{p + 4} = 5$)
+
+The equation from the image is:
+$$\sqrt{p + 4} = 5$$
+
+#### 1. Isolate the Radical Term
+
+In this case, the entire radical term $\sqrt{p + 4}$ is already isolated on the left side of the equation.
+
+#### 2. Square Both Sides
+
+To eliminate the square root, square both sides of the equation:
+
+$$(\sqrt{p + 4})^2 = (5)^2$$
+$$p + 4 = 25$$
+
+#### 3. Solve for p
+
+Subtract 4 from both sides to solve for $p$:
+
+$$p = 25 - 4$$
+$$p = 21$$
+
+#### 4. Check for Extraneous Solutions
+
+Substitute the proposed solution $p = 21$ back into the original equation $\sqrt{p + 4} = 5$:
+
+$$\sqrt{(21) + 4} \stackrel{?}{=} 5$$
+$$\sqrt{25} \stackrel{?}{=} 5$$
+$$5 = 5 \quad \text{(True)}$$
+
+Since the left side equals the right side, the solution $p = 21$ is **valid**.
+
+$$\text{Solution: } p = 21$$
+
+***
+
+#### 🧠 Note on the Square Root
+
+Remember that $\sqrt{x}$ by convention refers to the **principal (positive) square root** of $x$. This is why the positive value $5$ is the only value we check against, and why $p=21$ is a valid solution.
