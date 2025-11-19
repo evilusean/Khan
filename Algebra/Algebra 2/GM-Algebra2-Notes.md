@@ -9880,7 +9880,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h14m30s
 - $x^2 + 1 = 0$ : $x^2 = -1$ : Using real numbers, you can not get a solution, because what number squared is equal to '-1' 
 - $i^2 = -1$ : $\sqrt{i^2} = \sqrt{-1}$ : $i = \sqrt{-1}$ :  **Imaginary Unit** : When you want to take the square root of a negative number
 - Don't get confused with the difference between $- \sqrt{9}$ = -3 and $\sqrt{-9}$  = No Real Solution : 
-- $i = \sqrt{-1}$ : $\sqrt{-9} = \sqrt{-1} \cdot \sqrt{9}$ : $\sqrt{-9} = i \cdot \sqrt{9}$ : 
+- $i = \sqrt{-1}$ : $\sqrt{-9} = \sqrt{-1} \cdot \sqrt{9}$ : $\sqrt{-9} = i \cdot \sqrt{9}$ : 3i 
 - 
 ### 📝 Definition of the Imaginary Unit ($i$)
 
@@ -9918,3 +9918,44 @@ To take the square root of any negative number, we use the property $\sqrt{ab} =
 $$\sqrt{-a} = i\sqrt{a}$$
 
 This process allows us to express the square root of any negative number as a **real number multiple of the imaginary unit $i$**.
+### 📝 Simplifying Negative Radicals Using the Imaginary Unit ($i$)
+
+The goal is to simplify $\sqrt{-a}$ into the form $i\sqrt{a}$ and then simplify the radical $\sqrt{a}$ if possible.
+
+#### 1. Solving $\sqrt{-10}$
+
+This radical cannot be simplified further as the real number 10 has no perfect square factors (besides 1).
+
+* **Step 1: Factor out $\sqrt{-1}$**
+    $$\sqrt{-10} = \sqrt{(-1) \cdot 10}$$
+    $$\sqrt{-10} = \sqrt{-1} \cdot \sqrt{10}$$
+
+* **Step 2: Substitute $i$**
+    $$\sqrt{-10} = i\sqrt{10}$$
+
+#### 2. Solving $\sqrt{-20}$
+
+This radical can be simplified because the real number 20 contains the perfect square factor 4 ($20 = 4 \cdot 5$).
+
+* **Step 1: Factor out $\sqrt{-1}$**
+    $$\sqrt{-20} = \sqrt{(-1) \cdot 20}$$
+    $$\sqrt{-20} = \sqrt{-1} \cdot \sqrt{20}$$
+
+* **Step 2: Substitute $i$ and factor the real part**
+    $$\sqrt{-20} = i\sqrt{4 \cdot 5}$$
+    $$\sqrt{-20} = i\sqrt{4} \cdot \sqrt{5}$$
+
+* **Step 3: Simplify the perfect square**
+    $$\sqrt{-20} = i \cdot 2 \cdot \sqrt{5}$$
+    $$\sqrt{-20} = 2i\sqrt{5}$$
+
+***
+
+#### ✅ Final Answers
+
+* **$$\sqrt{-10} = i\sqrt{10}$$**
+* **$$\sqrt{-20} = 2i\sqrt{5}$$**
+
+#### 🧠 Key Takeaway
+
+Always simplify the non-negative radical ($\sqrt{a}$) **after** separating the $\sqrt{-1}$ term. The final simplified form should place the real number factor (if any) before $i$, and $i$ before the radical (e.g., $2i\sqrt{5}$ is standard).
