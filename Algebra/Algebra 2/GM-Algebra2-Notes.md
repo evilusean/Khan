@@ -9569,3 +9569,10 @@ To rationalize a denominator with **three radical terms**, the process involves:
 3.  Multiplying by the **second conjugate** to complete the rationalization.
 ## Algebra II - Lesson 60 - Solving Equations with Radicals - 19November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=25h46m05s
+- IF both sides of an equation are raised to the same power, all solutions of the original equation are solutions to the new equation - It doesn't go in reverse though, some information is lost (like if you square x=3 $x^2 = 9$ the solution set can be { -3,  3} ) each solution to the new equation isn't neccesarily a solution to the old equation, this is known as an **Extraneous Solution** - So when you get your solution, you need to plug them back in to the old equation and see if they work or don't work
+- **Steps for Solving Equations with Radicals** : 
+  1) Isolate one of the radicals
+  2) Raise both sides of the equation to a power equal to the index of the radical
+  3) Repeat the previous two steps if neccesary
+  4) Solve the equation, ahd check all solutions in the original equation
+- 
