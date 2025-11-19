@@ -9918,6 +9918,28 @@ To take the square root of any negative number, we use the property $\sqrt{ab} =
 $$\sqrt{-a} = i\sqrt{a}$$
 
 This process allows us to express the square root of any negative number as a **real number multiple of the imaginary unit $i$**.
+### 🧠 The Core Definitions of $i$ and $i^2$
+
+* **The Imaginary Unit ($i$) is equal to the square root of negative 1.**
+    * $$i = \sqrt{-1}$$
+    * $i$ is an imaginary number.
+
+* **$i^2$ is equal to negative 1.**
+    * $$i^2 = -1$$
+    * $i^2$ is a **real number** (specifically, $-1$).
+
+---
+
+#### Why they are different:
+
+The relationship is that **squaring $i$ gives you $-1$**:
+
+$$i^2 = (\sqrt{-1})^2 = -1$$
+
+If $i$ itself were equal to $-1$, then $i$ would be a real number, which contradicts its definition as an imaginary unit.
+
+* $i = \text{Imaginary}$
+* $i^2 = \text{Real}$
 ### 📝 Simplifying Negative Radicals Using the Imaginary Unit ($i$)
 
 The goal is to simplify $\sqrt{-a}$ into the form $i\sqrt{a}$ and then simplify the radical $\sqrt{a}$ if possible.
