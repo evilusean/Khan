@@ -10001,3 +10001,58 @@ Always convert all negative radicals to their imaginary form ($i\sqrt{a}$) **bef
 
 $$\sqrt{-a} \cdot \sqrt{-b} \ne \sqrt{ab}$$
 $$\sqrt{-a} \cdot \sqrt{-b} = (i\sqrt{a})(i\sqrt{b}) = i^2\sqrt{ab} = -\sqrt{ab}$$
+### 📝 Multiplying Multiple Radicals with Imaginary Units ($\sqrt{-8} \cdot \sqrt{-4} \cdot \sqrt{2}$)
+
+The expression to solve is:
+$$\sqrt{-8} \cdot \sqrt{-4} \cdot \sqrt{2}$$
+
+#### 1. Convert Negative Radicals to Imaginary Form
+
+Convert $\sqrt{-8}$ and $\sqrt{-4}$ to the form $i\sqrt{a}$:
+
+* **$$\sqrt{-8} = i\sqrt{8}$$**
+* **$$\sqrt{-4} = i\sqrt{4}$$**
+* **$$\sqrt{2}$$** (remains unchanged)
+
+The expression becomes:
+$$(i\sqrt{8}) \cdot (i\sqrt{4}) \cdot (\sqrt{2})$$
+
+#### 2. Simplify the Imaginary Unit and the Radicals
+
+Simplify the terms within the expression:
+
+* **Imaginary terms:** $i \cdot i = i^2$
+* **$\sqrt{4}$ simplifies to 2**
+* **$\sqrt{8}$ simplifies to $2\sqrt{2}$** ($\sqrt{8} = \sqrt{4 \cdot 2} = 2\sqrt{2}$)
+
+Substitute the simplified values back into the expression:
+$$(i \cdot 2\sqrt{2}) \cdot (i \cdot 2) \cdot (\sqrt{2})$$
+
+#### 3. Group and Multiply
+
+Group the real numbers, the imaginary units, and the radicals:
+
+$$\text{Real Numbers: } 2 \cdot 2 = 4$$
+$$\text{Imaginary Units: } i \cdot i = i^2$$
+$$\text{Radicals: } \sqrt{2} \cdot \sqrt{2} = 2$$
+
+Multiply the grouped parts:
+$$\text{Result} = (4) \cdot (i^2) \cdot (2)$$
+
+#### 4. Final Simplification
+
+Substitute the definition $i^2 = -1$:
+$$\text{Result} = 4 \cdot (-1) \cdot 2$$
+$$\text{Result} = -8$$
+
+$$\text{Final Answer: } -8$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When solving mixed radical multiplication:
+1.  **Convert first:** Change all $\sqrt{-a}$ to $i\sqrt{a}$.
+2.  **Simplify individual radicals:** Simplify terms like $\sqrt{8}$ or $\sqrt{4}$.
+3.  **Combine like terms:** Group all real coefficients, all $i$ terms, and all radical terms.
+4.  **Substitute $i^2 = -1$** to get the final result, which in this case is a real number.
