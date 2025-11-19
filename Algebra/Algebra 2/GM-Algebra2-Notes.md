@@ -9883,7 +9883,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h14m30s
 - $i = \sqrt{-1}$ : $\sqrt{-9} = \sqrt{-1} \cdot \sqrt{9}$ : $\sqrt{-9} = i \cdot \sqrt{9}$ : 3i 
 - When working with multiplication and division, we must change the form first. 
 - A **complex number** is formed using the *imaginary unit* along with our *real numbers* : Let 'a' and 'b' be any two real numbers : $a + bi$ - In order to add or subtract complex numbers, we use our commutative, associative, and distributive properties. - To add complex numbers, you combine the **real parts** and combine the **imaginary parts** separately.
-- 
+- $a + bi$ : **Standard Form of a Complex Number** 
 ### 📝 Definition of the Imaginary Unit ($i$)
 
 The imaginary unit, denoted as **$i$**, is a mathematical concept defined to be the solution to the equation $x^2 = -1$.
@@ -10253,6 +10253,42 @@ $$\text{Final Answer: } 12 + 9i$$
 
 #### 🧠 Key Takeaway
 
-Adding complex numbers is similar to adding polynomials; you **combine like terms**. The real number part and the imaginary number part are treated as separate, non-mixing components of the complex number system. ```
+Adding complex numbers is similar to adding polynomials; you **combine like terms**. The real number part and the imaginary number part are treated as separate, non-mixing components of the complex number system. 
+### 📝 Subtracting and Adding Complex Numbers ($-2 + (-2 + i) - (6 - 12i)$)
 
-Would you like me to solve one of the other five problems from the images, or would you like to review subtracting or multiplying complex numbers next?
+The expression to solve is:
+$$-2 + (-2 + i) - (6 - 12i)$$
+
+#### 1. Distribute the Signs
+
+First, remove the parentheses by distributing the implied positive sign and the negative sign:
+
+$$\text{Expression} = -2 - 2 + i - 6 - (-12i)$$
+$$\text{Expression} = -2 - 2 + i - 6 + 12i$$
+
+#### 2. Group the Real and Imaginary Parts
+
+Group the real numbers (those without $i$) and the imaginary numbers (those with $i$) separately:
+
+$$\text{Real Parts} = -2 - 2 - 6$$
+$$\text{Imaginary Parts} = i + 12i$$
+
+#### 3. Perform the Addition/Subtraction
+
+Sum the grouped terms:
+
+* **Real Sum:** $-2 - 2 - 6 = -10$
+* **Imaginary Sum:** $i + 12i = 13i$
+
+#### 4. Final Complex Number
+
+Combine the resulting real and imaginary parts into the standard form $a + bi$:
+
+$$\text{Final Answer: } -10 + 13i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Operations on complex numbers are performed by treating the **real parts** and the **imaginary parts** as separate, non-mixing variables. The critical step is correctly distributing the negative sign when subtracting a complex number:
+$$-(c - di) = -c + di$$
