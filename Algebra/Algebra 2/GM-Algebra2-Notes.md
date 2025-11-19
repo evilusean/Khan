@@ -10410,3 +10410,51 @@ $$\text{Final Answer: } 6 + 42i$$
 #### 🧠 Key Takeaway
 
 Multiplying complex numbers is essentially a **four-step distribution** followed by a **simplification step** where $\mathbf{i^2}$ is always converted to $\mathbf{-1}$. This conversion is crucial, as it transforms the $i^2$ term from an imaginary component back into a real number.
+### 📝 Multiplying Three Complex Numbers
+
+The expression to solve is:
+$$(3 + 5i)(-7 + 5i)(3 + 7i)$$
+
+We will solve this by multiplying the first two binomials, simplifying the result, and then multiplying by the third binomial.
+
+#### 1. Multiply the First Two Binomials ($z_1 \cdot z_2$)
+
+$$z_1 \cdot z_2 = (3 + 5i)(-7 + 5i)$$
+
+Use the **FOIL** method (First, Outer, Inner, Last):
+$$\text{Product}_1 = (3)(-7) + (3)(5i) + (5i)(-7) + (5i)(5i)$$
+$$\text{Product}_1 = -21 + 15i - 35i + 25i^2$$
+
+Substitute $\mathbf{i^2 = -1}$ and combine like terms:
+$$\text{Product}_1 = -21 - 20i + 25(-1)$$
+$$\text{Product}_1 = -21 - 25 - 20i$$
+$$\text{Product}_1 = -46 - 20i$$
+
+#### 2. Multiply the Result by the Third Binomial ($\text{Product}_1 \cdot z_3$)
+
+Now, multiply the result from Step 1 by the third binomial $(3 + 7i)$:
+$$\text{Final Product} = (-46 - 20i)(3 + 7i)$$
+
+Use the **FOIL** method again:
+$$\text{Final Product} = (-46)(3) + (-46)(7i) + (-20i)(3) + (-20i)(7i)$$
+
+#### 3. Perform the Final Multiplication
+
+$$\text{Final Product} = -138 - 322i - 60i - 140i^2$$
+
+Substitute $\mathbf{i^2 = -1}$ and combine like terms:
+$$\text{Final Product} = -138 - 382i - 140(-1)$$
+$$\text{Final Product} = -138 + 140 - 382i$$
+$$\text{Final Product} = 2 - 382i$$
+
+#### 4. Final Complex Number
+
+The result is in the standard form $a + bi$.
+
+$$\text{Final Answer: } 2 - 382i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When multiplying three or more complex numbers, always multiply them in **pairs**. Remember that after each multiplication step, you must simplify the result by combining like terms and converting any $i^2$ term into a **real number** (by substituting $i^2 = -1$) before proceeding to the next multiplication.
