@@ -9882,6 +9882,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h14m30s
 - Don't get confused with the difference between $- \sqrt{9}$ = -3 and $\sqrt{-9}$  = No Real Solution : 
 - $i = \sqrt{-1}$ : $\sqrt{-9} = \sqrt{-1} \cdot \sqrt{9}$ : $\sqrt{-9} = i \cdot \sqrt{9}$ : 3i 
 - When working with multiplication and division, we must change the form first. 
+- A **complex number** is formed using the *imaginary unit* along with our *real numbers* : Let 'a' and 'b' be any two real numbers : $a + bi$ - In order to add or subtract complex numbers, we use our commutative, associative, and distributive properties. - To add complex numbers, you combine the **real parts** and combine the **imaginary parts** separately.
+- 
 ### 📝 Definition of the Imaginary Unit ($i$)
 
 The imaginary unit, denoted as **$i$**, is a mathematical concept defined to be the solution to the equation $x^2 = -1$.
@@ -10215,3 +10217,42 @@ When dividing by a radical containing $-1$:
 1.  **Always convert** the $\sqrt{-a}$ term to $i\sqrt{a}$ first.
 2.  If $i$ remains in the denominator, you must **rationalize** by multiplying the entire fraction by $\mathbf{\frac{i}{i}}$.
 3.  This uses the property $\mathbf{i^2 = -1}$ to convert the imaginary denominator into a real number.
+### 📝 Adding Complex Numbers ($(8 + 2i) + (4 + 7i)$)
+
+The expression to solve is the addition of two complex numbers:
+$$(8 + 2i) + (4 + 7i)$$
+
+#### 1. Definition of Complex Addition
+
+To add complex numbers, you combine the **real parts** and combine the **imaginary parts** separately.
+
+Let $z_1 = a + bi$ and $z_2 = c + di$.
+$$z_1 + z_2 = (a + c) + (b + d)i$$
+
+#### 2. Group the Real and Imaginary Parts
+
+Identify the terms:
+* **Real Parts:** $8$ and $4$
+* **Imaginary Parts:** $2i$ and $7i$
+
+Group them together:
+$$\text{Sum} = (8 + 4) + (2i + 7i)$$
+
+#### 3. Perform the Addition
+
+Sum the grouped terms:
+$$\text{Sum} = 12 + 9i$$
+
+#### 4. Final Complex Number
+
+The result is in the standard form $a + bi$.
+
+$$\text{Final Answer: } 12 + 9i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Adding complex numbers is similar to adding polynomials; you **combine like terms**. The real number part and the imaginary number part are treated as separate, non-mixing components of the complex number system. ```
+
+Would you like me to solve one of the other five problems from the images, or would you like to review subtracting or multiplying complex numbers next?
