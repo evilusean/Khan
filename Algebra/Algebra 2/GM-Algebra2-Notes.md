@@ -9882,8 +9882,9 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h14m30s
 - Don't get confused with the difference between $- \sqrt{9}$ = -3 and $\sqrt{-9}$  = No Real Solution : 
 - $i = \sqrt{-1}$ : $\sqrt{-9} = \sqrt{-1} \cdot \sqrt{9}$ : $\sqrt{-9} = i \cdot \sqrt{9}$ : 3i 
 - When working with multiplication and division, we must change the form first. 
-- A **complex number** is formed using the *imaginary unit* along with our *real numbers* : Let 'a' and 'b' be any two real numbers : $a + bi$ - In order to add or subtract complex numbers, we use our commutative, associative, and distributive properties. - To add complex numbers, you combine the **real parts** and combine the **imaginary parts** separately.
+- A **complex number** is formed using the *imaginary unit* along with our *real numbers* : Let 'a' and 'b' be any two real numbers : $a + bi$ - In order to add or subtract complex numbers, we use our commutative, associative, and distributive properties. - To add complex numbers, you combine the **real parts** and combine the **imaginary parts** separately. - basically, you are combing like terms
 - $a + bi$ : **Standard Form of a Complex Number** 
+- We Multiply two complex numbers using the same methods we used for polynomials 
 ### 📝 Definition of the Imaginary Unit ($i$)
 
 The imaginary unit, denoted as **$i$**, is a mathematical concept defined to be the solution to the equation $x^2 = -1$.
@@ -10292,3 +10293,80 @@ $$\text{Final Answer: } -10 + 13i$$
 
 Operations on complex numbers are performed by treating the **real parts** and the **imaginary parts** as separate, non-mixing variables. The critical step is correctly distributing the negative sign when subtracting a complex number:
 $$-(c - di) = -c + di$$
+### 📝 Adding Three Complex Numbers ($(7 + 4i) + (-8 + 8i) + (2 - 2i)$)
+
+The expression to solve is the addition of three complex numbers:
+$$(7 + 4i) + (-8 + 8i) + (2 - 2i)$$
+
+#### 1. Definition of Complex Addition
+
+To add complex numbers, you **combine the real parts** and **combine the imaginary parts** separately.
+
+Let the expression be $z_1 + z_2 + z_3$:
+$$z = (a_1 + a_2 + a_3) + (b_1 + b_2 + b_3)i$$
+
+#### 2. Group the Real and Imaginary Parts
+
+Identify and group the terms:
+
+* **Real Parts:** $7$, $-8$, and $2$
+* **Imaginary Parts:** $4i$, $8i$, and $-2i$
+
+Group them together:
+$$\text{Sum} = (7 + (-8) + 2) + (4i + 8i - 2i)$$
+
+#### 3. Perform the Addition/Subtraction
+
+Sum the grouped terms:
+
+* **Real Sum:** $7 - 8 + 2 = 1$
+* **Imaginary Sum:** $(4 + 8 - 2)i = (12 - 2)i = 10i$
+
+#### 4. Final Complex Number
+
+Combine the resulting real and imaginary parts into the standard form $a + bi$:
+
+$$\text{Final Answer: } 1 + 10i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Adding and subtracting multiple complex numbers is simplified by using the commutative and associative properties of addition. You can regroup the terms by color-coding or simply listing the real and imaginary components separately before summing them up.
+### 📝 Multiplying Complex Numbers (Monomial by Binomial) ($(-2i)(-5 - 2i)$)
+
+The expression to solve is:
+$$(-2i)(-5 - 2i)$$
+
+#### 1. Distribute the Monomial
+
+Multiply the term $-2i$ by each term inside the parentheses ($-5$ and $-2i$):
+
+$$\text{Product} = (-2i) \cdot (-5) + (-2i) \cdot (-2i)$$
+
+#### 2. Perform the Multiplication
+
+* **First Term:** $(-2i) \cdot (-5) = 10i$
+* **Second Term:** $(-2i) \cdot (-2i) = 4i^2$
+
+The expression becomes:
+$$\text{Product} = 10i + 4i^2$$
+
+#### 3. Substitute $i^2 = -1$
+
+Substitute the definition $\mathbf{i^2 = -1}$ into the second term:
+
+$$\text{Product} = 10i + 4(-1)$$
+$$\text{Product} = 10i - 4$$
+
+#### 4. Final Complex Number
+
+Write the result in the standard complex form $\mathbf{a + bi}$ (Real Part + Imaginary Part):
+
+$$\text{Final Answer: } -4 + 10i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When multiplying complex numbers, the most critical step is to substitute $\mathbf{i^2 = -1}$. This conversion moves the term from the imaginary component back into the real component, which is why the final answer is a complex number in the form $a+bi$.
