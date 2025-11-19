@@ -9879,3 +9879,13 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h14m30s
 - When you square a number the result is non negative.
 - $x^2 + 1 = 0$ : $x^2 = -1$ : Using real numbers, you can not get a solution, because what number squared is equal to '-1' 
 - $i^2 = -1$ : $\sqrt{i^2} = \sqrt{-1}$ : $i = \sqrt{-1}$ :  **Imaginary Unit** : When you want to take the square root of a negative number
+- 
+### 📝 Definition of the Imaginary Unit ($i$)
+
+The imaginary unit, denoted as **$i$**, is a mathematical concept defined to be the solution to the equation $x^2 = -1$.
+
+$$-i^2 = -1$$
+$$\sqrt{i^2} = \sqrt{-1}$$
+$$i = \sqrt{-1}$$
+
+**Imaginary Unit**: When you want to take the square root of a negative number, the result is expressed as a multiple of the imaginary unit $i$, which is **defined as the principal square root of negative one**. This unit allows us to **extend the real number system to the complex number system** to solve all polynomial equations, such as $x^2 + 1 = 0$, which have no solution in the real number system.
