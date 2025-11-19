@@ -10056,3 +10056,50 @@ When solving mixed radical multiplication:
 2.  **Simplify individual radicals:** Simplify terms like $\sqrt{8}$ or $\sqrt{4}$.
 3.  **Combine like terms:** Group all real coefficients, all $i$ terms, and all radical terms.
 4.  **Substitute $i^2 = -1$** to get the final result, which in this case is a real number.
+### 📝 Multiplying a Negative Radical by a Positive Radical
+
+The expression to solve is:
+$$\sqrt{-5} \cdot \sqrt{8}$$
+
+#### 1. Convert the Negative Radical to Imaginary Form
+
+The crucial first step is to use the definition $i = \sqrt{-1}$ to convert the negative radical:
+
+$$\sqrt{-5} = \sqrt{(-1) \cdot 5}$$
+$$\sqrt{-5} = \sqrt{-1} \cdot \sqrt{5}$$
+$$\sqrt{-5} = i\sqrt{5}$$
+
+The expression now is:
+$$(i\sqrt{5}) \cdot \sqrt{8}$$
+
+#### 2. Simplify the Real Radical Term
+
+Simplify $\sqrt{8}$ by factoring out the perfect square factor 4 ($\sqrt{8} = \sqrt{4 \cdot 2}$):
+
+$$\sqrt{8} = \sqrt{4} \cdot \sqrt{2}$$
+$$\sqrt{8} = 2\sqrt{2}$$
+
+#### 3. Multiply the Simplified Terms
+
+Multiply the simplified imaginary term by the simplified real term:
+$$(i\sqrt{5}) \cdot (2\sqrt{2})$$
+
+Group the coefficients, the $i$ term, and the radical terms:
+$$\text{Coefficients: } 2$$
+$$\text{Imaginary: } i$$
+$$\text{Radicals: } \sqrt{5} \cdot \sqrt{2} = \sqrt{5 \cdot 2} = \sqrt{10}$$
+
+Multiply them together, maintaining the standard order (Coefficient $\rightarrow i \rightarrow$ Radical):
+$$2 \cdot i \cdot \sqrt{10}$$
+$$2i\sqrt{10}$$
+
+$$\text{Final Answer: } 2i\sqrt{10}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When multiplying radicals where only **one** radical is negative:
+1.  Convert the negative radical using $i$.
+2.  The product will remain an imaginary number (in the form $ai\sqrt{b}$) because there is no $i^2$ term to convert to $-1$.
+3.  Always simplify the radicals ($\sqrt{5}$ and $\sqrt{8}$ in this case) *before* or *during* the multiplication step.
