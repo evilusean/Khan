@@ -9567,5 +9567,5 @@ To rationalize a denominator with **three radical terms**, the process involves:
 1.  **Grouping** two terms, treating the expression as a binomial $(A \pm B)$.
 2.  Multiplying by the **first conjugate** to reduce the denominator to an expression with only **one radical term**.
 3.  Multiplying by the **second conjugate** to complete the rationalization.
-## Algebra II - Lesson 60 - Solving Equations with Radicals - 18November2025 :
+## Algebra II - Lesson 60 - Solving Equations with Radicals - 19November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=25h46m05s
