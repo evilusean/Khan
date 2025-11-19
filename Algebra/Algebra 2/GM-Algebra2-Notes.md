@@ -10370,3 +10370,43 @@ $$\text{Final Answer: } -4 + 10i$$
 #### 🧠 Key Takeaway
 
 When multiplying complex numbers, the most critical step is to substitute $\mathbf{i^2 = -1}$. This conversion moves the term from the imaginary component back into the real component, which is why the final answer is a complex number in the form $a+bi$.
+### 📝 Multiplying Two Complex Numbers (FOIL Method) ($(-2 + 6i)(6 - 3i)$)
+
+The expression to solve is the multiplication of two complex numbers:
+$$(-2 + 6i)(6 - 3i)$$
+
+We will use the **FOIL** method (First, Outer, Inner, Last) to distribute all terms:
+
+#### 1. Apply the FOIL Method
+
+$$\text{Product} = \underbrace{(-2)(6)}_{\text{First}} + \underbrace{(-2)(-3i)}_{\text{Outer}} + \underbrace{(6i)(6)}_{\text{Inner}} + \underbrace{(6i)(-3i)}_{\text{Last}}$$
+
+#### 2. Perform the Multiplication
+
+$$\text{Product} = -12 + 6i + 36i - 18i^2$$
+
+#### 3. Substitute $i^2 = -1$
+
+Substitute the definition $\mathbf{i^2 = -1}$ into the last term:
+
+$$\text{Product} = -12 + 6i + 36i - 18(-1)$$
+$$\text{Product} = -12 + 6i + 36i + 18$$
+
+#### 4. Group and Combine Like Terms
+
+Group the **real parts** and the **imaginary parts** separately:
+
+$$\text{Real Parts} = -12 + 18 = 6$$
+$$\text{Imaginary Parts} = 6i + 36i = 42i$$
+
+#### 5. Final Complex Number
+
+Combine the resulting parts into the standard form $\mathbf{a + bi}$:
+
+$$\text{Final Answer: } 6 + 42i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Multiplying complex numbers is essentially a **four-step distribution** followed by a **simplification step** where $\mathbf{i^2}$ is always converted to $\mathbf{-1}$. This conversion is crucial, as it transforms the $i^2$ term from an imaginary component back into a real number.
