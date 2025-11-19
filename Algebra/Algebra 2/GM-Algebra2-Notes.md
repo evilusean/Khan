@@ -10125,3 +10125,35 @@ When multiplying radicals where only **one** radical is negative:
 1.  Convert the negative radical using $i$.
 2.  The product will remain an imaginary number (in the form $ai\sqrt{b}$) because there is no $i^2$ term to convert to $-1$.
 3.  Always simplify the radicals ($\sqrt{5}$ and $\sqrt{8}$ in this case) *before* or *during* the multiplication step.
+### 📝 Solving Division of Negative Radicals ($\frac{\sqrt{-100}}{\sqrt{-4}}$)
+
+The problem to solve is the division of two negative square roots:
+$$\frac{\sqrt{-100}}{\sqrt{-4}}$$
+
+#### 1. Convert to Imaginary Numbers (Critical Step)
+
+The property $\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}$ is **not valid** when $a$ and $b$ are negative. We must first convert using the definition $\mathbf{i = \sqrt{-1}}$:
+
+* **Numerator:** $\sqrt{-100} = i\sqrt{100}$
+* **Denominator:** $\sqrt{-4} = i\sqrt{4}$
+
+The expression becomes:
+$$\frac{i\sqrt{100}}{i\sqrt{4}}$$
+
+#### 2. Simplify the Imaginary Unit and Radicals
+
+* The imaginary units $\mathbf{i}$ in the numerator and denominator **cancel out** ($\frac{i}{i} = 1$).
+* Simplify the remaining real radicals:
+
+$$\frac{\cancel{i}\sqrt{100}}{\cancel{i}\sqrt{4}} = \frac{10}{2}$$
+
+#### 3. Final Result
+
+$$\text{Final Answer: } 5$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When dividing two negative radicals, the result is always a **positive real number**. The imaginary parts cancel, making the operation equivalent to dividing the positive versions of the original numbers:
+$$\frac{\sqrt{-a}}{\sqrt{-b}} = \frac{\sqrt{a}}{\sqrt{b}}$$
