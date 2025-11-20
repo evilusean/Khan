@@ -11105,7 +11105,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=27h22m10s
   - *'-'* negative means *2 solutions that involve the imaginary unit $i$*
   - **Real Solution** : Solutions that do not involve the imaginary unit $i$.
   -  **Complex Solution** : Solutions that involve the imaginary unit $i$ (i.e., the square root of a negative number). These always occur in **conjugate pairs** ($a+bi$ and $a-bi$).
-- When plugging in your values, pay attention to the signs, very important
+- When plugging in your values, pay attention to the signs, very important, '-b' subtracting a negative is a positive, if you have a subtraction in the standard form equation, that is also a negative.
+- Whether you use *Factoring* or *The Quadratic Formula* or *Completing the Square* you will get the same result
 ### 🧠 Derivation of the Quadratic Formula (Using Completing the Square)
 
 The goal is to solve the generic standard form equation for $x$:
@@ -11242,3 +11243,48 @@ $$\text{Solutions: } x = \frac{3}{2} \text{ and } x = 1$$
 #### 🧠 Key Takeaway
 
 If the discriminant ($\mathbf{b^2 - 4ac}$) is a **perfect square** greater than zero, the quadratic equation is actually **factorable**, and the solutions will always be rational numbers.
+### 📝 Solving $8x^2 + 6 = 0$ Using the Quadratic Formula
+
+The equation is in the standard form $ax^2 + bx + c = 0$, with the coefficients:
+* $a = 8$
+* $b = 0$
+* $c = 6$
+
+#### 1. State the Formula and Substitute Values
+
+The Quadratic Formula is:
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+Substitute the coefficients $a=8$, $b=0$, and $c=6$:
+$$x = \frac{-(0) \pm \sqrt{(0)^2 - 4(8)(6)}}{2(8)}$$
+
+#### 2. Simplify the Discriminant ($\Delta = b^2 - 4ac$)
+
+Calculate the term under the square root:
+$$\text{Discriminant} = 0 - 192$$
+$$\mathbf{\text{Discriminant} = -192}$$
+
+Since the discriminant is negative ($\Delta < 0$), the equation has two complex conjugate solutions.
+
+#### 3. Calculate and Simplify the Solutions
+
+Substitute the simplified discriminant back into the formula:
+$$x = \frac{0 \pm \sqrt{-192}}{16}$$
+$$x = \pm \frac{\sqrt{-192}}{16}$$
+
+Simplify the imaginary radical $\sqrt{-192}$ by factoring out $i = \sqrt{-1}$ and the largest perfect square factor of 192 ($\sqrt{192} = \sqrt{64 \cdot 3} = 8\sqrt{3}$):
+$$\sqrt{-192} = i\sqrt{192} = 8i\sqrt{3}$$
+
+Substitute the simplified radical and reduce the fraction:
+$$x = \pm \frac{8i\sqrt{3}}{16}$$
+$$x = \pm \frac{i\sqrt{3}}{2}$$
+
+$$\text{Solutions: } x = \frac{\sqrt{3}}{2}i \text{ and } x = -\frac{\sqrt{3}}{2}i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When the $x$ term ($bx$) is missing (i.e., $b=0$), the simplest method for solving $ax^2 + c = 0$ is usually the **Square Root Property** (isolating $x^2$ and taking the square root).
+
+If the constant term ($c$) is positive, solving for $x^2$ will result in a negative number, immediately telling you the solution will be a pair of **complex conjugates**.
