@@ -11100,11 +11100,12 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=27h22m10s
 - $ax^2 + bx + c = 0$ : **Standard Form of a Quadratic Equation** : Your equation MUST be in this form to use the quadratic equation
 - **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
 - **Discriminant** : $b^2 - 4ac$ : Will let you know what type of solution you have
-  - **Real Solution** : Solutions that do not involve the imaginary unit $i$.
-  -  **Complex Solution** : Solutions that involve the imaginary unit $i$ (i.e., the square root of a negative number). These always occur in **conjugate pairs** ($a+bi$ and $a-bi$).
   - *'0'* means only *one solution*
   - *'+'* positive means *2 solutions*
-  - *'-'* negative means 2 solutions that involve the imaginary unit $i$ 
+  - *'-'* negative means *2 solutions that involve the imaginary unit $i$*
+  - **Real Solution** : Solutions that do not involve the imaginary unit $i$.
+  -  **Complex Solution** : Solutions that involve the imaginary unit $i$ (i.e., the square root of a negative number). These always occur in **conjugate pairs** ($a+bi$ and $a-bi$).
+- When plugging in your values, pay attention to the signs, very important
 ### 🧠 Derivation of the Quadratic Formula (Using Completing the Square)
 
 The goal is to solve the generic standard form equation for $x$:
@@ -11196,3 +11197,48 @@ The discriminant is the expression found under the radical in the Quadratic Form
     * If $\Delta$ is **Not a Perfect Square** (e.g., 5, 7, 10, 11...), the two real solutions will be **irrational** (will involve a radical).
 
 * **Complex Solution** : Solutions that involve the imaginary unit $i$ (i.e., the square root of a negative number). These always occur in **conjugate pairs** ($a+bi$ and $a-bi$).
+### 📝 Solving a Quadratic Equation Using the Formula ($2x^2 - 5x + 3 = 0$)
+
+The equation to solve is:
+$$2x^2 - 5x + 3 = 0$$
+
+The equation is already in the standard form $ax^2 + bx + c = 0$, with the coefficients:
+* $a = 2$
+* $b = -5$
+* $c = 3$
+
+#### 1. State the Formula and Substitute Values
+
+The Quadratic Formula is:
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+Substitute the coefficients:
+$$x = \frac{-(-5) \pm \sqrt{(-5)^2 - 4(2)(3)}}{2(2)}$$
+
+#### 2. Simplify the Discriminant ($\Delta = b^2 - 4ac$)
+
+Simplify the terms under the square root:
+$$\text{Discriminant} = 25 - 24$$
+$$\mathbf{\text{Discriminant} = 1}$$
+
+Since the discriminant is $\mathbf{1}$ (a positive perfect square), the equation has two distinct rational solutions.
+
+#### 3. Calculate the Solutions
+
+Substitute the simplified discriminant back into the formula:
+$$x = \frac{5 \pm \sqrt{1}}{4}$$
+$$x = \frac{5 \pm 1}{4}$$
+
+* **Solution 1 (using +1):**
+    $$x_1 = \frac{5 + 1}{4} = \frac{6}{4} = \mathbf{\frac{3}{2}}$$
+
+* **Solution 2 (using -1):**
+    $$x_2 = \frac{5 - 1}{4} = \frac{4}{4} = \mathbf{1}$$
+
+$$\text{Solutions: } x = \frac{3}{2} \text{ and } x = 1$$
+
+***
+
+#### 🧠 Key Takeaway
+
+If the discriminant ($\mathbf{b^2 - 4ac}$) is a **perfect square** greater than zero, the quadratic equation is actually **factorable**, and the solutions will always be rational numbers.
