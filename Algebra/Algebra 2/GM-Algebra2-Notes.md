@@ -11034,3 +11034,64 @@ $$\text{Solutions: } x = -8 + 5\sqrt{2} \text{ and } x = -8 - 5\sqrt{2}$$
 #### 🧠 Key Takeaway
 
 **Completing the Square** is the preferred method when the $a$ coefficient is 1 and the $b$ coefficient is an even number. The solution is always written by moving the final constant to the front of the $\pm$ term, resulting in the form $\mathbf{x = -\frac{b}{2a} \pm \text{simplified radical}}$.
+### 📝 Solving $ax^2 + bx + c = 0$ by Completing the Square ($5x^2 - 8x - 21 = 0$)
+
+The equation to solve is:
+$$5x^2 - 8x - 21 = 0$$
+
+The coefficients are $a=5$, $b=-8$, and $c=-21$.
+
+#### 1. Make the Leading Coefficient $a=1$
+
+Divide the entire equation by $a=5$:
+$$\frac{5x^2}{5} - \frac{8x}{5} - \frac{21}{5} = 0$$
+$$x^2 - \frac{8}{5}x - \frac{21}{5} = 0$$
+
+#### 2. Isolate the Variable Terms
+
+Move the constant term to the right side of the equation:
+$$x^2 - \frac{8}{5}x = \frac{21}{5}$$
+
+#### 3. Complete the Square
+
+Calculate the value to add to both sides using $\mathbf{\left(\frac{b}{2}\right)^2}$:
+
+1.  Calculate $\frac{b}{2}$:
+    $$\frac{1}{2} \cdot \left(-\frac{8}{5}\right) = -\frac{4}{5}$$
+2.  Square the result:
+    $$\left(-\frac{4}{5}\right)^2 = \frac{16}{25}$$
+
+Add $\frac{16}{25}$ to both sides. To add the fractions on the right, convert $\frac{21}{5}$ to a denominator of 25: $\frac{21 \cdot 5}{5 \cdot 5} = \frac{105}{25}$.
+
+$$x^2 - \frac{8}{5}x + \frac{16}{25} = \frac{105}{25} + \frac{16}{25}$$
+$$x^2 - \frac{8}{5}x + \frac{16}{25} = \frac{121}{25}$$
+
+#### 4. Factor the Perfect Square Trinomial
+
+Factor the left side into the form $\left(x + \frac{b}{2}\right)^2$:
+$$\left(x - \frac{4}{5}\right)^2 = \frac{121}{25}$$
+
+#### 5. Apply the Square Root Property
+
+Take the square root of both sides, remembering the $\pm$ sign:
+$$x - \frac{4}{5} = \pm \sqrt{\frac{121}{25}}$$
+$$x - \frac{4}{5} = \pm \frac{11}{5}$$
+
+#### 6. Isolate $x$ and Find Solutions
+
+Add $\frac{4}{5}$ to both sides:
+$$x = \frac{4}{5} \pm \frac{11}{5}$$
+
+* **Solution 1 (using +):**
+    $$x_1 = \frac{4 + 11}{5} = \frac{15}{5} = \mathbf{3}$$
+
+* **Solution 2 (using -):**
+    $$x_2 = \frac{4 - 11}{5} = \frac{-7}{5} = \mathbf{-\frac{7}{5}}$$
+
+$$\text{Solutions: } x = 3 \text{ and } x = -\frac{7}{5}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When the leading coefficient $\mathbf{a \ne 1}$, the first step in Completing the Square **must** be to divide the entire equation by $a$. This introduces fractions (like $-\frac{8}{5}$ and $-\frac{21}{5}$), requiring careful calculation of $\left(\frac{b}{2}\right)^2$ and proper fraction addition. The benefit is that the resulting factorable square term $\left(x + \frac{b}{2}\right)^2$ is immediately ready for the Square Root Property.
