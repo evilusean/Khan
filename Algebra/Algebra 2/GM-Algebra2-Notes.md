@@ -11168,3 +11168,28 @@ This is the **Quadratic Formula**.
 #### 🧠 Key Takeaway
 
 The derivation shows that the Quadratic Formula is simply the **end result** of applying the **Completing the Square** method to a generic quadratic equation. The term $\mathbf{b^2 - 4ac}$ is known as the **discriminant** ($\Delta$) and determines the nature of the solutions (real or complex).
+### 🧠 The Discriminant ($\Delta$) and the Nature of Solutions
+
+The discriminant is the expression found under the radical in the Quadratic Formula. It determines the number and type of roots (solutions) for any quadratic equation in the form $ax^2 + bx + c = 0$.
+
+- **Discriminant** : $\Delta = \mathbf{b^2 - 4ac}$ : Will let you know what type of solution you have.
+
+---
+
+#### 1. Three Types of Solutions
+
+| Value of $\mathbf{\Delta}$ | Name of Solution | Interpretation |
+| :---: | :---: | :---: |
+| **$\Delta > 0$** (Positive) | **Two Distinct Real Solutions** | The parabola crosses the x-axis at **two** different points. |
+| **$\Delta = 0$** (Zero) | **One Real Solution** (A repeated root) | The parabola touches the x-axis at exactly **one** point (the vertex). |
+| **$\Delta < 0$** (Negative) | **Two Complex Conjugate Solutions** | The parabola **does not cross** the x-axis. The solutions involve the imaginary unit $i$. |
+
+---
+
+#### 2. Extra Notes and Key Takeaways
+
+* **Real Solution** : Solutions that do not involve the imaginary unit $i$.
+    * If $\Delta$ is a **Perfect Square** (e.g., 4, 9, 16, 25...), the two real solutions will be **rational** (can be written as a fraction).
+    * If $\Delta$ is **Not a Perfect Square** (e.g., 5, 7, 10, 11...), the two real solutions will be **irrational** (will involve a radical).
+
+* **Complex Solution** : Solutions that involve the imaginary unit $i$ (i.e., the square root of a negative number). These always occur in **conjugate pairs** ($a+bi$ and $a-bi$).
