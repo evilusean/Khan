@@ -11107,6 +11107,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=27h22m10s
   -  **Complex Solution** : Solutions that involve the imaginary unit $i$ (i.e., the square root of a negative number). These always occur in **conjugate pairs** ($a+bi$ and $a-bi$).
 - When plugging in your values, pay attention to the signs, very important, '-b' subtracting a negative is a positive, if you have a subtraction in the standard form equation, that is also a negative.
 - Whether you use *Factoring* or *The Quadratic Formula* or *Completing the Square* you will get the same result
+- if you are missing your 'bx' or 'c' term, it can just be '0' the only term that can not be '0' is 'a'
 ### 🧠 Derivation of the Quadratic Formula (Using Completing the Square)
 
 The goal is to solve the generic standard form equation for $x$:
@@ -11288,3 +11289,100 @@ $$\text{Solutions: } x = \frac{\sqrt{3}}{2}i \text{ and } x = -\frac{\sqrt{3}}{2
 When the $x$ term ($bx$) is missing (i.e., $b=0$), the simplest method for solving $ax^2 + c = 0$ is usually the **Square Root Property** (isolating $x^2$ and taking the square root).
 
 If the constant term ($c$) is positive, solving for $x^2$ will result in a negative number, immediately telling you the solution will be a pair of **complex conjugates**.
+### 📝 Solving $14x^2 - x + 9 = -4x + 9x^2$ Using the Quadratic Formula
+
+#### 1. Rearrange into Standard Form ($ax^2 + bx + c = 0$)
+
+Move all terms to the left side of the equation to set it equal to zero:
+
+* **Move $9x^2$**: $14x^2 - 9x^2 - x + 9 = -4x + 9x^2 - 9x^2$
+    $$5x^2 - x + 9 = -4x$$
+* **Move $-4x$**: $5x^2 - x + 4x + 9 = -4x + 4x$
+    $$\mathbf{5x^2 + 3x + 9 = 0}$$
+
+The coefficients are: $a = 5$, $b = 3$, and $c = 9$.
+
+#### 2. Apply the Quadratic Formula and Substitute Values
+
+The Quadratic Formula is:
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+Substitute the coefficients $a=5$, $b=3$, and $c=9$:
+$$x = \frac{-(3) \pm \sqrt{(3)^2 - 4(5)(9)}}{2(5)}$$
+
+#### 3. Simplify the Discriminant ($\Delta = b^2 - 4ac$)
+
+Calculate the term under the square root:
+$$\text{Discriminant} = 9 - 4(45)$$
+$$\text{Discriminant} = 9 - 180$$
+$$\mathbf{\text{Discriminant} = -171}$$
+
+Since the discriminant is negative ($\Delta < 0$), the equation has two complex conjugate solutions.
+
+#### 4. Calculate and Simplify the Solutions
+
+Substitute the simplified discriminant back into the formula:
+$$x = \frac{-3 \pm \sqrt{-171}}{10}$$
+
+Simplify the imaginary radical $\sqrt{-171}$ by factoring out $i = \sqrt{-1}$. Find the largest perfect square factor of 171 ($171 = 9 \cdot 19$):
+$$\sqrt{-171} = i\sqrt{171} = i\sqrt{9 \cdot 19} = 3i\sqrt{19}$$
+
+Substitute the simplified radical:
+$$x = \frac{-3 \pm 3i\sqrt{19}}{10}$$
+
+$$\text{Solutions: } x = \frac{-3 + 3i\sqrt{19}}{10} \text{ and } x = \frac{-3 - 3i\sqrt{19}}{10}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Always begin by putting the equation in **standard form** ($ax^2 + bx + c = 0$). When the discriminant ($\Delta$) is negative, the solution will have a **real part** ($-\frac{b}{2a}$) and an **imaginary part** ($\frac{\pm i\sqrt{|\Delta|}}{2a}$), which are separated over the common denominator.
+### 📝 Solving $x^2 + 8x - 25 = -6$ Using the Quadratic Formula
+
+#### 1. Rearrange into Standard Form ($ax^2 + bx + c = 0$)
+
+Add 6 to both sides of the equation:
+$$x^2 + 8x - 25 + 6 = -6 + 6$$
+$$\mathbf{x^2 + 8x - 19 = 0}$$
+
+The coefficients are: $a = 1$, $b = 8$, and $c = -19$.
+
+#### 2. Apply the Quadratic Formula and Substitute Values
+
+The Quadratic Formula is:
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+Substitute the coefficients $a=1$, $b=8$, and $c=-19$:
+$$x = \frac{-(8) \pm \sqrt{(8)^2 - 4(1)(-19)}}{2(1)}$$
+
+#### 3. Simplify the Discriminant ($\Delta = b^2 - 4ac$)
+
+Calculate the term under the square root:
+$$\text{Discriminant} = 64 - 4(-19)$$
+$$\text{Discriminant} = 64 + 76$$
+$$\mathbf{\text{Discriminant} = 140}$$
+
+Since the discriminant is positive but not a perfect square, the equation has two distinct irrational solutions.
+
+#### 4. Calculate and Simplify the Solutions
+
+Substitute the simplified discriminant back into the formula:
+$$x = \frac{-8 \pm \sqrt{140}}{2}$$
+
+Simplify the radical $\sqrt{140}$ by finding the largest perfect square factor ($140 = 4 \cdot 35$):
+$$\sqrt{140} = \sqrt{4 \cdot 35} = 2\sqrt{35}$$
+
+Substitute the simplified radical:
+$$x = \frac{-8 \pm 2\sqrt{35}}{2}$$
+
+Divide both terms in the numerator by the denominator (2):
+$$x = \frac{-8}{2} \pm \frac{2\sqrt{35}}{2}$$
+$$\mathbf{x = -4 \pm \sqrt{35}}$$
+
+$$\text{Solutions: } x = -4 + \sqrt{35} \text{ and } x = -4 - \sqrt{35}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When the final expression is in the form $\mathbf{\frac{A \pm B\sqrt{C}}{D}}$, you must check if the numbers A, B, and D share a common factor to fully simplify the answer (in this case, 8, 2, and 2 all share a factor of 2, allowing for simplification). The solutions are **irrational conjugates**.
