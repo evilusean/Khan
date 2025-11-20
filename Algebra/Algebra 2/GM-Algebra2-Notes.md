@@ -11097,3 +11097,74 @@ $$\text{Solutions: } x = 3 \text{ and } x = -\frac{7}{5}$$
 When the leading coefficient $\mathbf{a \ne 1}$, the first step in Completing the Square **must** be to divide the entire equation by $a$. This introduces fractions (like $-\frac{8}{5}$ and $-\frac{21}{5}$), requiring careful calculation of $\left(\frac{b}{2}\right)^2$ and proper fraction addition. The benefit is that the resulting factorable square term $\left(x + \frac{b}{2}\right)^2$ is immediately ready for the Square Root Property.
 ## Algebra II - Lesson 63 - The Quadratic Formula - 20November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=27h22m10s
+- $ax^2 + bx + c = 0$ : **Standard Form of a Quadratic Equation** : Your equation MUST be in this form to use the quadratic equation
+- **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
+- **Discriminant** : $b^2 - 4ac$ : Will let you know what type of solution you have
+  - **Real Solution** :
+  - 
+### 🧠 Derivation of the Quadratic Formula (Using Completing the Square)
+
+The goal is to solve the generic standard form equation for $x$:
+$$ax^2 + bx + c = 0$$
+
+#### 1. Isolate the Variable Terms and Make $a=1$
+
+First, move the constant term ($c$) to the right side:
+$$ax^2 + bx = -c$$
+
+Next, divide the entire equation by the leading coefficient ($a$) so that the $x^2$ term has a coefficient of 1:
+$$\frac{ax^2}{a} + \frac{bx}{a} = -\frac{c}{a}$$
+$$x^2 + \frac{b}{a}x = -\frac{c}{a}$$
+
+---
+
+#### 2. Complete the Square
+
+Identify the coefficient of the $x$ term, which is $\frac{b}{a}$. Calculate the value required to complete the square using $\mathbf{\left(\frac{1}{2} \cdot \text{coefficient}\right)^2}$:
+
+1.  Calculate half of the $x$-coefficient:
+    $$\frac{1}{2} \cdot \left(\frac{b}{a}\right) = \frac{b}{2a}$$
+2.  Square the result:
+    $$\left(\frac{b}{2a}\right)^2 = \frac{b^2}{4a^2}$$
+
+Add this value to **both sides** of the equation:
+$$x^2 + \frac{b}{a}x + \frac{b^2}{4a^2} = -\frac{c}{a} + \frac{b^2}{4a^2}$$
+
+---
+
+#### 3. Factor the Perfect Square and Combine Terms
+
+Factor the left side into a squared binomial, $\left(\mathbf{x + \frac{b}{2a}}\right)^2$:
+$$\left(x + \frac{b}{2a}\right)^2 = -\frac{c}{a} + \frac{b^2}{4a^2}$$
+
+Combine the fractions on the right side using the common denominator $\mathbf{4a^2}$:
+$$\left(x + \frac{b}{2a}\right)^2 = -\frac{c \cdot (4a)}{a \cdot (4a)} + \frac{b^2}{4a^2}$$
+$$\left(x + \frac{b}{2a}\right)^2 = \frac{-4ac}{4a^2} + \frac{b^2}{4a^2}$$
+$$\left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a^2}$$
+
+---
+
+#### 4. Apply the Square Root Property
+
+Take the square root of both sides, remembering the $\pm$ sign:
+$$x + \frac{b}{2a} = \pm \sqrt{\frac{b^2 - 4ac}{4a^2}}$$
+
+Simplify the denominator of the radical ($\sqrt{4a^2} = 2a$):
+$$x + \frac{b}{2a} = \pm \frac{\sqrt{b^2 - 4ac}}{2a}$$
+
+---
+
+#### 5. Isolate $x$ (The Final Formula)
+
+Subtract $\frac{b}{2a}$ from both sides. Since the denominators are the same ($2a$), combine the terms:
+
+$$x = -\frac{b}{2a} \pm \frac{\sqrt{b^2 - 4ac}}{2a}$$
+$$\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$$
+
+This is the **Quadratic Formula**. 
+
+***
+
+#### 🧠 Key Takeaway
+
+The derivation shows that the Quadratic Formula is simply the **end result** of applying the **Completing the Square** method to a generic quadratic equation. The term $\mathbf{b^2 - 4ac}$ is known as the **discriminant** ($\Delta$) and determines the nature of the solutions (real or complex).
