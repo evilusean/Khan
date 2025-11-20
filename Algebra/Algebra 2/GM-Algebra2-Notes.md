@@ -10714,4 +10714,115 @@ For division problems, the final answer must always be presented in the standard
 ## Algebra II - Lesson 63 - The Square Root Property and Completing the Square - 20November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h53m30s
 - $ax^2 + bx +c = 0$ : **Standard Form of Quadratic Equation** : a quadratic equation has a squared term and no terms of higher degree, 'a' 'b' and 'c' can be any real number except 'a' is not allowed to be '0'
-- 
+- **Square Root Property** : $x^2 = k$ means that $x = \sqrt{k}$ or $x = -\sqrt{k}$ : $\pm$ it could be positive or negative
+### 📝 The Square Root Property
+
+The **Square Root Property** is a method used to solve quadratic equations that can be written in the form $\mathbf{x^2 = k}$ or $\mathbf{(ax + b)^2 = k}$. It provides a direct path to the solution without needing to factor.
+
+#### 1. Definition and Rule
+If $x^2 = k$, then the solution for $x$ must be the positive or negative square root of $k$:
+$$x = \pm \sqrt{k}$$
+
+---
+
+#### 2. Fully Worked Examples
+
+The nature of the solutions depends on the value of $k$:
+
+##### A. Case 1: $k > 0$ (Two Real Solutions)
+
+**Problem:** Solve $x^2 = 25$
+
+1.  **Apply the Property:** Take the square root of both sides, remembering the $\pm$ sign.
+    $$x = \pm \sqrt{25}$$
+2.  **Simplify:**
+    $$\mathbf{x = \pm 5}$$
+    *Solutions are $x=5$ and $x=-5$.*
+
+---
+
+##### B. Case 2: $k < 0$ (Two Complex Solutions)
+
+**Problem:** Solve $x^2 = -9$
+
+1.  **Apply the Property:**
+    $$x = \pm \sqrt{-9}$$
+2.  **Simplify using $i = \sqrt{-1}$:**
+    $$x = \pm \sqrt{9} \cdot \sqrt{-1}$$
+    $$x = \pm 3i$$
+    *Solutions are $x=3i$ and $x=-3i$.*
+
+---
+
+##### C. Case 3: Binomial Squared
+
+**Problem:** Solve $(x - 4)^2 = 7$
+
+1.  **Apply the Property:** Take the square root of both sides.
+    $$x - 4 = \pm \sqrt{7}$$
+2.  **Isolate $x$:** Add 4 to both sides.
+    $$x = 4 \pm \sqrt{7}$$
+    *Solutions are $x = 4 + \sqrt{7}$ and $x = 4 - \sqrt{7}$.*
+
+---
+
+#### 🧠 Key Takeaways
+
+1.  **Never Forget $\pm$:** The single most common error is forgetting the "plus or minus" $(\pm)$. Squaring a positive number yields a positive result, and squaring a negative number also yields a positive result. Therefore, every non-zero result $k$ has two corresponding roots.
+2.  **Isolate First:** The property can only be applied after the $x^2$ term (or the squared binomial) is completely **isolated** on one side of the equation.
+3.  **Complex Numbers:** If $k$ is negative, the solutions involve the imaginary unit $i$.
+### 📝 Solving Quadratic Equations by Factoring ($ax^2 + bx + c = 0$) ($2x^2 - 3x - 9 = 0$)
+
+The equation to solve is:
+$$2x^2 - 3x - 9 = 0$$
+
+This is a quadratic equation where $a=2$, $b=-3$, and $c=-9$. We will use factoring (specifically, the AC method or grouping) to find the solutions.
+
+#### 1. Find the AC Product and Factors
+
+1.  Calculate the product $ac$:
+    $$ac = (2)(-9) = -18$$
+2.  Find two factors of $-18$ that sum up to $b = -3$.
+    *Factors of -18:* $(-1, 18), (1, -18), (-2, 9), (2, -9), (-3, 6), (\mathbf{3, -6})$
+    *Sum:* $3 + (-6) = -3$. These are the correct factors.
+
+#### 2. Rewrite the Equation (Split the Middle Term)
+
+Replace the middle term ($-3x$) with the two new terms found in Step 1 ($3x$ and $-6x$):
+$$2x^2 + 3x - 6x - 9 = 0$$
+
+#### 3. Group and Factor by Grouping
+
+Group the first two terms and the last two terms:
+$$(2x^2 + 3x) + (-6x - 9) = 0$$
+
+Factor out the greatest common factor (GCF) from each group:
+* **First group GCF is $x$**: $x(2x + 3)$
+* **Second group GCF is $-3$**: $-3(2x + 3)$
+
+The equation becomes:
+$$x(2x + 3) - 3(2x + 3) = 0$$
+
+#### 4. Factor out the Common Binomial
+
+Factor out the common binomial term $(2x + 3)$:
+$$(2x + 3)(x - 3) = 0$$
+
+#### 5. Solve for $x$ (Zero Product Property)
+
+Set each factor equal to zero and solve for $x$:
+
+* **Factor 1:** $2x + 3 = 0$
+    $$2x = -3$$
+    $$\mathbf{x = -\frac{3}{2}}$$
+
+* **Factor 2:** $x - 3 = 0$
+    $$\mathbf{x = 3}$$
+
+$$\text{Solutions: } x = 3 \text{ and } x = -\frac{3}{2}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Factoring is often the fastest method for solving a quadratic equation if the equation is factorable. When $a \ne 1$, the **AC method** (or grouping) is the most reliable systematic approach. Always check that the two binomial factors resulting from the grouping step are identical.
