@@ -10826,3 +10826,41 @@ $$\text{Solutions: } x = 3 \text{ and } x = -\frac{3}{2}$$
 #### 🧠 Key Takeaway
 
 Factoring is often the fastest method for solving a quadratic equation if the equation is factorable. When $a \ne 1$, the **AC method** (or grouping) is the most reliable systematic approach. Always check that the two binomial factors resulting from the grouping step are identical.
+### 📝 Solving $ax^2 + c = k$ Using the Square Root Property (Complex Solutions)
+
+The equation to solve is:
+$$2x^2 + 3 = -19$$
+
+#### 1. Isolate the Squared Term ($x^2$)
+
+Subtract 3 from both sides of the equation:
+$$2x^2 = -19 - 3$$
+$$2x^2 = -22$$
+
+Divide both sides by 2:
+$$x^2 = \frac{-22}{2}$$
+$$x^2 = -11$$
+
+#### 2. Apply the Square Root Property
+
+Take the square root of both sides, remembering to include the $\pm$ sign. Since the number under the radical is negative, the solutions will be complex.
+
+$$x = \pm \sqrt{-11}$$
+
+#### 3. Simplify using the Imaginary Unit ($i$)
+
+Factor out $\sqrt{-1}$ and substitute the definition $\mathbf{i = \sqrt{-1}}$:
+
+$$x = \pm \sqrt{11} \cdot \sqrt{-1}$$
+$$x = \pm i\sqrt{11}$$
+
+$$\text{Solutions: } x = i\sqrt{11} \text{ and } x = -i\sqrt{11}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When solving $x^2 = k$:
+1.  Always **isolate $x^2$** first.
+2.  If the resulting constant $k$ is **negative** (as $k=-11$ here), the solutions will be a pair of **complex conjugates** involving the imaginary unit $i$.
+3.  The radical $\sqrt{11}$ cannot be simplified further, so it remains in the final answer.
