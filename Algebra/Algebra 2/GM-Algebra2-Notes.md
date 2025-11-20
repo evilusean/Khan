@@ -11100,8 +11100,11 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=27h22m10s
 - $ax^2 + bx + c = 0$ : **Standard Form of a Quadratic Equation** : Your equation MUST be in this form to use the quadratic equation
 - **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
 - **Discriminant** : $b^2 - 4ac$ : Will let you know what type of solution you have
-  - **Real Solution** :
-  - 
+  - **Real Solution** : Solutions that do not involve the imaginary unit $i$.
+  -  **Complex Solution** : Solutions that involve the imaginary unit $i$ (i.e., the square root of a negative number). These always occur in **conjugate pairs** ($a+bi$ and $a-bi$).
+  - *'0'* means only *one solution*
+  - *'+'* positive means *2 solutions*
+  - *'-'* negative means 2 solutions that involve the imaginary unit $i$ 
 ### 🧠 Derivation of the Quadratic Formula (Using Completing the Square)
 
 The goal is to solve the generic standard form equation for $x$:
