@@ -10712,3 +10712,4 @@ $$\text{Final Answer: } \frac{32}{37} + \frac{67}{37}i$$
 
 For division problems, the final answer must always be presented in the standard complex form $a+bi$. This often requires separating the single fraction into two fractions after rationalization.
 ## Algebra II - Lesson 63 - The Square Root Property and Completing the Square - 20November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h53m30s
