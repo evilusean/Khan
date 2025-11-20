@@ -10864,3 +10864,106 @@ When solving $x^2 = k$:
 1.  Always **isolate $x^2$** first.
 2.  If the resulting constant $k$ is **negative** (as $k=-11$ here), the solutions will be a pair of **complex conjugates** involving the imaginary unit $i$.
 3.  The radical $\sqrt{11}$ cannot be simplified further, so it remains in the final answer.
+### 📝 Solving $(x + a)^2 + c = k$ Using the Square Root Property ($(x + 12)^2 - 15 = 181$)
+
+The equation to solve is:
+$$(x + 12)^2 - 15 = 181$$
+
+This problem is solved by isolating the squared term and then applying the Square Root Property.
+
+#### 1. Isolate the Squared Binomial
+
+Add 15 to both sides of the equation:
+$$(x + 12)^2 = 181 + 15$$
+$$(x + 12)^2 = 196$$
+
+#### 2. Apply the Square Root Property
+
+Take the square root of both sides, remembering to include the $\pm$ sign:
+$$x + 12 = \pm \sqrt{196}$$
+
+Calculate the principal square root of 196:
+$$x + 12 = \pm 14$$
+
+#### 3. Isolate $x$
+
+Subtract 12 from both sides to isolate $x$:
+$$x = -12 \pm 14$$
+
+#### 4. Find the Two Solutions
+
+Separate the $\pm$ into two distinct equations to find the two possible values for $x$:
+
+* **Solution 1 (using +14):**
+    $$x_1 = -12 + 14$$
+    $$\mathbf{x_1 = 2}$$
+
+* **Solution 2 (using -14):**
+    $$x_2 = -12 - 14$$
+    $$\mathbf{x_2 = -26}$$
+
+$$\text{Solutions: } x = 2 \text{ and } x = -26$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When solving a squared binomial equal to a constant, the goal is to peel away the surrounding terms one by one:
+1.  **Addition/Subtraction:** Eliminate terms outside the parenthesis first (e.g., the $-15$).
+2.  **Square Root Property:** Apply $\pm\sqrt{}$ to both sides to remove the exponent.
+3.  **Isolate the Variable:** Solve the resulting linear equations for the two final answers.
+### 📝 Solving a Quadratic Equation by Completing the Square ($x^2 + 16x + 14 = 0$)
+
+The equation to solve is:
+$$x^2 + 16x + 14 = 0$$
+
+The coefficients are $a=1$, $b=16$, and $c=14$.
+
+#### 1. Isolate the Constant Term
+
+Move the constant term ($c$) to the right side of the equation:
+$$x^2 + 16x = -14$$
+
+#### 2. Complete the Square
+
+To complete the square, find the value to add to both sides using the formula $\mathbf{\left(\frac{b}{2}\right)^2}$:
+
+1.  Calculate $\frac{b}{2}$:
+    $$\frac{16}{2} = 8$$
+2.  Square the result:
+    $$(8)^2 = 64$$
+
+Add 64 to both sides of the equation:
+$$x^2 + 16x + 64 = -14 + 64$$
+$$x^2 + 16x + 64 = 50$$
+
+#### 3. Factor the Perfect Square Trinomial
+
+Factor the left side into a squared binomial, which is $\left(x + \frac{b}{2}\right)^2$:
+$$(x + 8)^2 = 50$$
+
+#### 4. Apply the Square Root Property
+
+Take the square root of both sides, remembering the $\pm$ sign:
+$$x + 8 = \pm \sqrt{50}$$
+
+#### 5. Simplify the Radical
+
+Simplify the radical $\sqrt{50}$ by factoring out the largest perfect square (25):
+$$\sqrt{50} = \sqrt{25 \cdot 2} = 5\sqrt{2}$$
+
+Substitute the simplified radical back into the equation:
+$$x + 8 = \pm 5\sqrt{2}$$
+
+#### 6. Isolate $x$
+
+Subtract 8 from both sides to get the final solution:
+$$x = -8 \pm 5\sqrt{2}$$
+
+$$\text{Solutions: } x = -8 + 5\sqrt{2} \text{ and } x = -8 - 5\sqrt{2}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+**Completing the Square** is the preferred method when the $a$ coefficient is 1 and the $b$ coefficient is an even number. The solution is always written by moving the final constant to the front of the $\pm$ term, resulting in the form $\mathbf{x = -\frac{b}{2a} \pm \text{simplified radical}}$.
