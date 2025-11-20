@@ -9885,6 +9885,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h14m30s
 - A **complex number** is formed using the *imaginary unit* along with our *real numbers* : Let 'a' and 'b' be any two real numbers : $a + bi$ - In order to add or subtract complex numbers, we use our commutative, associative, and distributive properties. - To add complex numbers, you combine the **real parts** and combine the **imaginary parts** separately. - basically, you are combing like terms
 - $a + bi$ : **Standard Form of a Complex Number** 
 - We Multiply two complex numbers using the same methods we used for polynomials 
+- When dividing complex numbers, the conjugates $(a + bi)(a -bi) = a^2 + b^2$ notice that a negative times a positive gives a positive, since $i^2$ is '-1'
+- $(a + bi)(a -bi) = a^2 -abi + abi - b^2 i^2$ = $a^2 + b^2$
+- The quotient of 2 complex numbers is a comlex number : $\frac{7}{3i}$ = $\frac{7i}{-3}$ (multiplied by 'i' to clear the radical on denominator)
+- since 'i' is $\sqrt{-1}$ you can not leave it in the denominator because it's a radical
 ### 📝 Definition of the Imaginary Unit ($i$)
 
 The imaginary unit, denoted as **$i$**, is a mathematical concept defined to be the solution to the equation $x^2 = -1$.
@@ -9943,6 +9947,105 @@ If $i$ itself were equal to $-1$, then $i$ would be a real number, which contrad
 
 * $i = \text{Imaginary}$
 * $i^2 = \text{Real}$
+### 🧠 Complex Conjugates: The Key to Division
+
+The **complex conjugate** is a fundamental tool used in complex arithmetic, primarily to **rationalize the denominator** when performing division. 
+
+[Image of complex conjugate on a complex plane]
+
+
+#### 1. Definition of the Complex Conjugate
+
+For any complex number $z = a + bi$, the complex conjugate, denoted as $\bar{z}$, is found by simply **changing the sign of the imaginary part**.
+
+| Complex Number ($z$) | Complex Conjugate ($\bar{z}$) |
+| :---: | :---: |
+| $2 + 5i$ | $2 - 5i$ |
+| $-7 - i$ | $-7 + i$ |
+| $4i$ (or $0 + 4i$) | $-4i$ (or $0 - 4i$) |
+
+#### 2. The Conjugate Property
+
+When you multiply a complex number by its conjugate, the imaginary terms always **cancel out**, resulting in a **positive real number**.
+
+Let $z = a + bi$ and $\bar{z} = a - bi$. We use the **Difference of Squares** formula: $(A+B)(A-B) = A^2 - B^2$.
+
+$$z \cdot \bar{z} = (a + bi)(a - bi)$$
+$$z \cdot \bar{z} = a^2 - (bi)^2$$
+$$z \cdot \bar{z} = a^2 - b^2i^2$$
+
+Since $\mathbf{i^2 = -1}$:
+$$z \cdot \bar{z} = a^2 - b^2(-1)$$
+$$\mathbf{z \cdot \bar{z} = a^2 + b^2}$$
+
+#### 3. Fully Worked Example
+
+Multiply the complex number $3 + 4i$ by its conjugate, $3 - 4i$:
+
+$$\text{Product} = (3 + 4i)(3 - 4i)$$
+$$\text{Product} = (3)^2 + (4)^2$$
+$$\text{Product} = 9 + 16$$
+$$\mathbf{\text{Product} = 25}$$
+
+Notice the final result is a **positive real number** ($\mathbf{25}$), and it has **no imaginary component**. This is why the conjugate is used to remove the imaginary part from a denominator.
+
+***
+
+#### 🧠 Key Takeaway
+
+Multiplying by the conjugate is the key to division:
+$$\frac{c+di}{a+bi} = \frac{c+di}{a+bi} \cdot \frac{a-bi}{a-bi} = \frac{\text{New Numerator}}{\mathbf{a^2 + b^2}}$$
+### 🧠 Powers of the Imaginary Unit ($i$)
+
+The powers of the imaginary unit $i$ follow a cyclical pattern that repeats every four exponents. This cycle allows you to simplify $i^n$ for any integer exponent $n$.
+
+#### 1. The Four-Term Cycle (The Foundation)
+
+The sequence of the first four powers of $i$ is the basis for all simplifications:
+
+| Power | Calculation | Result |
+| :---: | :---: | :----: |
+| $i^1$ | $i$ | $i$ |
+| $i^2$ | $i \cdot i$ | $-1$ |
+| $i^3$ | $i^2 \cdot i$ | $-i$ |
+| $i^4$ | $i^2 \cdot i^2$ | $1$ |
+
+**Key Principle**: Since $i^4 = 1$, any factor of $i^4$ can be ignored, as multiplying by 1 does not change the value.
+
+---
+
+#### 2. The Simplification Method
+
+To find the value of $i^n$ for any integer $n$, you only need to determine where the exponent falls within the repeating cycle.
+
+**Step 1: Divide the Exponent by 4**
+Divide the exponent $n$ by 4 to find the whole number of cycles and the remainder.
+
+$$n \div 4 = Q \text{ remainder } r$$
+*(Where $Q$ is the quotient and $r$ is the remainder: 0, 1, 2, or 3)*
+
+**Step 2: Use the Remainder ($r$)**
+The value of $i^n$ is equal to the value of $i^r$.
+
+$$i^n = i^{4Q + r} = (i^4)^Q \cdot i^r = (1)^Q \cdot i^r = \mathbf{i^r}$$
+
+**Step 3: Match the Remainder to the Cycle Result**
+Use the remainder $r$ to find the final simplified value:
+
+* If the remainder is $1$, the result is $\mathbf{i}$.
+* If the remainder is $2$, the result is $\mathbf{-1}$.
+* If the remainder is $3$, the result is $\mathbf{-i}$.
+* If the remainder is $0$, the result is $\mathbf{1}$ (since $i^4 = 1$).
+
+#### 3. Fully Worked Example: $i^{35}$
+
+Find the simplified value of $i^{35}$:
+
+1.  **Divide by 4:** $35 \div 4 = 8 \text{ with a remainder of } 3$.
+2.  **Use Remainder:** $i^{35} = i^3$.
+3.  **Result:** Since $i^3 = -i$, the final simplified value is $\mathbf{-i}$.
+
+$$\text{Solution: } i^{35} = -i$$
 ### 📝 Simplifying Negative Radicals Using the Imaginary Unit ($i$)
 
 The goal is to simplify $\sqrt{-a}$ into the form $i\sqrt{a}$ and then simplify the radical $\sqrt{a}$ if possible.
@@ -10410,7 +10513,7 @@ $$\text{Final Answer: } 6 + 42i$$
 #### 🧠 Key Takeaway
 
 Multiplying complex numbers is essentially a **four-step distribution** followed by a **simplification step** where $\mathbf{i^2}$ is always converted to $\mathbf{-1}$. This conversion is crucial, as it transforms the $i^2$ term from an imaginary component back into a real number.
-### 📝 Multiplying Three Complex Numbers
+### 📝 Multiplying Three Complex Numbers ($(3 + 5i)(-7 + 5i)(3 + 7i)$)
 
 The expression to solve is:
 $$(3 + 5i)(-7 + 5i)(3 + 7i)$$
@@ -10458,3 +10561,153 @@ $$\text{Final Answer: } 2 - 382i$$
 #### 🧠 Key Takeaway
 
 When multiplying three or more complex numbers, always multiply them in **pairs**. Remember that after each multiplication step, you must simplify the result by combining like terms and converting any $i^2$ term into a **real number** (by substituting $i^2 = -1$) before proceeding to the next multiplication.
+### 📝 Rationalizing an Imaginary Monomial Denominator
+
+The expression to solve is:
+$$\frac{4}{6i}$$
+
+#### 1. Initial Simplification
+
+Simplify the real numbers in the fraction first by dividing the numerator (4) and the denominator (6) by their greatest common factor, 2:
+
+$$\frac{4}{6i} = \frac{2}{3i}$$
+
+#### 2. Rationalize the Denominator
+
+To eliminate the imaginary unit $i$ from the denominator, multiply the numerator and the denominator by $\mathbf{i}$:
+
+$$\frac{2}{3i} \cdot \frac{i}{i}$$
+
+* **Numerator:** $2 \cdot i = 2i$
+* **Denominator:** $3i \cdot i = 3i^2$
+
+#### 3. Substitute $i^2 = -1$
+
+Substitute the definition $\mathbf{i^2 = -1}$ into the denominator:
+
+$$\frac{2i}{3(-1)}$$
+$$\frac{2i}{-3}$$
+
+#### 4. Final Complex Number
+
+Move the negative sign to the front or the numerator to get the standard form of the final answer:
+
+$$\text{Final Answer: } -\frac{2i}{3}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+To rationalize a denominator containing only an imaginary unit $bi$ (where $b \ne 0$):
+1.  **Multiply by $\mathbf{\frac{i}{i}}$**. This is equivalent to multiplying by $\frac{b i}{b i}$ but is simpler.
+2.  The denominator becomes $b i^2$, which simplifies to the **positive real number $\mathbf{-b}$**.
+3.  The final answer must be written in the form $a+bi$. Since the real part is zero, the answer is just the imaginary part.
+### 📝 Dividing Complex Numbers Using the Conjugate ($\frac{2 + 6i}{4 - 3i}$)
+
+The expression to solve is:
+$$\frac{2 + 6i}{4 - 3i}$$
+
+#### 1. Identify the Complex Conjugate
+
+The denominator is $4 - 3i$. The complex conjugate is found by changing the sign of the imaginary part:
+$$\text{Conjugate} = 4 + 3i$$
+
+#### 2. Multiply by the Conjugate
+
+Multiply both the numerator and the denominator by the conjugate $\frac{4 + 3i}{4 + 3i}$:
+
+$$\text{Fraction} = \frac{2 + 6i}{4 - 3i} \cdot \frac{4 + 3i}{4 + 3i}$$
+
+#### 3. Simplify the Denominator (Difference of Squares)
+
+The denominator simplifies to $a^2 + b^2$ where $a=4$ and $b=3$:
+
+$$\text{Denominator} = (4)^2 + (3)^2$$
+$$\text{Denominator} = 16 + 9$$
+$$\mathbf{\text{Denominator} = 25}$$
+
+#### 4. Simplify the Numerator (FOIL Method)
+
+Use the FOIL method to multiply the two binomials in the numerator:
+
+$$\text{Numerator} = (2)(4) + (2)(3i) + (6i)(4) + (6i)(3i)$$
+$$\text{Numerator} = 8 + 6i + 24i + 18i^2$$
+
+Substitute $\mathbf{i^2 = -1}$ and combine like terms:
+
+$$\text{Numerator} = 8 + 30i + 18(-1)$$
+$$\text{Numerator} = 8 - 18 + 30i$$
+$$\mathbf{\text{Numerator} = -10 + 30i}$$
+
+#### 5. Final Result in Standard Form
+
+Combine the simplified numerator and denominator:
+
+$$\text{Final Result} = \frac{-10 + 30i}{25}$$
+
+Separate the real and imaginary parts to write the answer in the standard form $a + bi$:
+
+$$\text{Final Answer} = \frac{-10}{25} + \frac{30}{25}i$$
+
+Simplify the fractions by dividing the coefficients by their greatest common factor (5):
+
+$$\text{Final Answer: } -\frac{2}{5} + \frac{6}{5}i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Dividing complex numbers is a two-step multiplication process:
+1.  **Multiply by the conjugate** to eliminate the imaginary part of the denominator.
+2.  **Simplify and separate** the resulting fraction into the $a+bi$ form.
+### 📝 Dividing Complex Numbers: Full Conjugate Problem ($\frac{-10 + 7i}{1 + 6i}$)
+
+The expression to solve is:
+$$\frac{-10 + 7i}{1 + 6i}$$
+
+#### 1. Identify the Complex Conjugate
+
+The denominator is $1 + 6i$. The complex conjugate is:
+$$\text{Conjugate} = 1 - 6i$$
+
+#### 2. Multiply by the Conjugate
+
+Multiply both the numerator and the denominator by $\frac{1 - 6i}{1 - 6i}$:
+
+$$\text{Fraction} = \frac{-10 + 7i}{1 + 6i} \cdot \frac{1 - 6i}{1 - 6i}$$
+
+#### 3. Simplify the Denominator (Difference of Squares)
+
+Use the property $(a + bi)(a - bi) = a^2 + b^2$, where $a=1$ and $b=6$:
+
+$$\text{Denominator} = (1)^2 + (6)^2$$
+$$\text{Denominator} = 1 + 36$$
+$$\mathbf{\text{Denominator} = 37}$$
+
+#### 4. Simplify the Numerator (FOIL Method)
+
+Use the FOIL method to multiply the two binomials in the numerator:
+$$(-10 + 7i)(1 - 6i)$$
+
+$$\text{Numerator} = (-10)(1) + (-10)(-6i) + (7i)(1) + (7i)(-6i)$$
+$$\text{Numerator} = -10 + 60i + 7i - 42i^2$$
+
+Substitute $\mathbf{i^2 = -1}$ and combine like terms:
+
+$$\text{Numerator} = -10 + 67i - 42(-1)$$
+$$\text{Numerator} = -10 + 42 + 67i$$
+$$\mathbf{\text{Numerator} = 32 + 67i}$$
+
+#### 5. Final Result in Standard Form
+
+Combine the simplified numerator and denominator and separate into the $a + bi$ form:
+
+$$\text{Final Answer} = \frac{32 + 67i}{37}$$
+
+$$\text{Final Answer: } \frac{32}{37} + \frac{67}{37}i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+For division problems, the final answer must always be presented in the standard complex form $a+bi$. This often requires separating the single fraction into two fractions after rationalization.
