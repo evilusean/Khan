@@ -10711,10 +10711,12 @@ $$\text{Final Answer: } \frac{32}{37} + \frac{67}{37}i$$
 #### 🧠 Key Takeaway
 
 For division problems, the final answer must always be presented in the standard complex form $a+bi$. This often requires separating the single fraction into two fractions after rationalization.
-## Algebra II - Lesson 63 - The Square Root Property and Completing the Square - 20November2025 :
+## Algebra II - Lesson 62 - The Square Root Property and Completing the Square - 20November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h53m30s
 - $ax^2 + bx +c = 0$ : **Standard Form of Quadratic Equation** : a quadratic equation has a squared term and no terms of higher degree, 'a' 'b' and 'c' can be any real number except 'a' is not allowed to be '0'
 - **Square Root Property** : $x^2 = k$ means that $x = \sqrt{k}$ or $x = -\sqrt{k}$ : $\pm$ it could be positive or negative
+- **Completing the Square** is an algebraic technique used to rewrite a quadratic expression of the form $\mathbf{x^2 + bx}$ into a perfect square trinomial, $\mathbf{(x + d)^2}$. This allows the resulting equation to be solved easily using the **Square Root Property**. - Make sure the squared term has a coefficient of 1 
+- 
 ### 📝 The Square Root Property
 
 The **Square Root Property** is a method used to solve quadratic equations that can be written in the form $\mathbf{x^2 = k}$ or $\mathbf{(ax + b)^2 = k}$. It provides a direct path to the solution without needing to factor.
@@ -10771,6 +10773,66 @@ The nature of the solutions depends on the value of $k$:
 1.  **Never Forget $\pm$:** The single most common error is forgetting the "plus or minus" $(\pm)$. Squaring a positive number yields a positive result, and squaring a negative number also yields a positive result. Therefore, every non-zero result $k$ has two corresponding roots.
 2.  **Isolate First:** The property can only be applied after the $x^2$ term (or the squared binomial) is completely **isolated** on one side of the equation.
 3.  **Complex Numbers:** If $k$ is negative, the solutions involve the imaginary unit $i$.
+### 🧠 Completing the Square
+
+**Completing the Square** is an algebraic technique used to rewrite a quadratic expression of the form $\mathbf{x^2 + bx}$ into a perfect square trinomial, $\mathbf{(x + d)^2}$. This allows the resulting equation to be solved easily using the **Square Root Property**.
+
+#### 1. The Core Idea: Creating a Perfect Square
+
+A **perfect square trinomial** is a trinomial that can be factored as $(x + d)^2$ or $(x - d)^2$.
+
+For an expression in the form $\mathbf{x^2 + bx + c}$:
+* The required constant term $\mathbf{c}$ must be equal to $\left(\frac{b}{2}\right)^2$.
+
+| Initial Expression | Value to Add ($\left(\frac{b}{2}\right)^2$) | Perfect Square Trinomial | Factored Form |
+| :---: | :---: | :---: | :---: |
+| $x^2 + 10x$ | $\left(\frac{10}{2}\right)^2 = \mathbf{25}$ | $x^2 + 10x + 25$ | $(x + 5)^2$ |
+| $x^2 - 6x$ | $\left(\frac{-6}{2}\right)^2 = \mathbf{9}$ | $x^2 - 6x + 9$ | $(x - 3)^2$ |
+
+---
+
+#### 2. Solving an Equation by Completing the Square
+
+Use this four-step process to solve a quadratic equation of the form $\mathbf{ax^2 + bx + c = 0}$.
+
+##### Step 1: Ensure $a = 1$
+
+If $a \ne 1$, divide the entire equation by the coefficient $a$.
+$$\frac{ax^2}{a} + \frac{bx}{a} + \frac{c}{a} = 0$$
+
+##### Step 2: Isolate the Variable Terms
+
+Move the constant term to the right side of the equation:
+$$x^2 + bx = -c$$
+
+##### Step 3: Complete the Square
+
+1.  Calculate the value to complete the square: $\mathbf{\left(\frac{b}{2}\right)^2}$.
+2.  Add this value to **both sides** of the equation to maintain balance.
+$$x^2 + bx + \left(\frac{b}{2}\right)^2 = -c + \left(\frac{b}{2}\right)^2$$
+
+##### Step 4: Solve using the Square Root Property
+
+1.  Factor the left side into a squared binomial: $\left(\mathbf{x + \frac{b}{2}}\right)^2$.
+2.  Take the square root of both sides, remembering the $\pm$ sign.
+3.  Isolate $x$ to find the final solutions.
+
+---
+
+#### 3. General Solution and Vertex Form
+
+When completing the square on the general equation $x^2 + bx + c = 0$:
+
+$$x^2 + bx + \left(\frac{b}{2}\right)^2 = c + \left(\frac{b}{2}\right)^2$$
+
+This results in the **vertex form** of a parabola:
+$$\left(x + \frac{b}{2}\right)^2 - \left[c - \left(\frac{b}{2}\right)^2\right] = 0$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Completing the Square is not only a solving method but a transformation tool. When applied to $f(x) = ax^2 + bx + c$, it rewrites the function into the **vertex form** $f(x) = a(x-h)^2 + k$, where $(h, k)$ is the vertex of the parabola.
 ### 📝 Solving Quadratic Equations by Factoring ($ax^2 + bx + c = 0$) ($2x^2 - 3x - 9 = 0$)
 
 The equation to solve is:
