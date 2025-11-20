@@ -10715,8 +10715,13 @@ For division problems, the final answer must always be presented in the standard
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=26h53m30s
 - $ax^2 + bx +c = 0$ : **Standard Form of Quadratic Equation** : a quadratic equation has a squared term and no terms of higher degree, 'a' 'b' and 'c' can be any real number except 'a' is not allowed to be '0'
 - **Square Root Property** : $x^2 = k$ means that $x = \sqrt{k}$ or $x = -\sqrt{k}$ : $\pm$ it could be positive or negative
-- **Completing the Square** is an algebraic technique used to rewrite a quadratic expression of the form $\mathbf{x^2 + bx}$ into a perfect square trinomial, $\mathbf{(x + d)^2}$. This allows the resulting equation to be solved easily using the **Square Root Property**. - Make sure the squared term has a coefficient of 1 
-- 
+- **Completing the Square** is an algebraic technique used to rewrite a quadratic expression of the form $\mathbf{x^2 + bx}$ into a perfect square trinomial, $\mathbf{(x + d)^2}$. This allows the resulting equation to be solved easily using the **Square Root Property**. - 
+- **Completing the Square Process** : 
+  1) Make sure the squared term has a coefficient of 1 
+  2) Move all variable terms to one side and the constant to the other
+  3) Multiply the coefficient of the x term by 1/2, then square it
+  4) Add the result to both sides of the equation
+  5) Factor the left side and solve the equation using the square root property (You will get a *perfect square trinomial* to turn into a *binomial squared*)
 ### 📝 The Square Root Property
 
 The **Square Root Property** is a method used to solve quadratic equations that can be written in the form $\mathbf{x^2 = k}$ or $\mathbf{(ax + b)^2 = k}$. It provides a direct path to the solution without needing to factor.
