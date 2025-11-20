@@ -11386,3 +11386,58 @@ $$\text{Solutions: } x = -4 + \sqrt{35} \text{ and } x = -4 - \sqrt{35}$$
 #### 🧠 Key Takeaway
 
 When the final expression is in the form $\mathbf{\frac{A \pm B\sqrt{C}}{D}}$, you must check if the numbers A, B, and D share a common factor to fully simplify the answer (in this case, 8, 2, and 2 all share a factor of 2, allowing for simplification). The solutions are **irrational conjugates**.
+### 📝 Solving $-9x^2 - 4x + 8 = 4$ Using the Quadratic Formula
+
+#### 1. Rearrange into Standard Form ($ax^2 + bx + c = 0$)
+
+Subtract 4 from both sides of the equation to set it equal to zero:
+$$-9x^2 - 4x + 8 - 4 = 0$$
+$$\mathbf{-9x^2 - 4x + 4 = 0}$$
+
+The coefficients are: $a = -9$, $b = -4$, and $c = 4$.
+
+#### 2. Apply the Quadratic Formula and Substitute Values
+
+The Quadratic Formula is:
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+Substitute the coefficients $a=-9$, $b=-4$, and $c=4$:
+$$x = \frac{-(-4) \pm \sqrt{(-4)^2 - 4(-9)(4)}}{2(-9)}$$
+
+#### 3. Simplify the Discriminant ($\Delta = b^2 - 4ac$)
+
+Calculate the term under the square root:
+$$\text{Discriminant} = 16 - 4(-36)$$
+$$\text{Discriminant} = 16 + 144$$
+$$\mathbf{\text{Discriminant} = 160}$$
+
+Since the discriminant is positive but not a perfect square, the equation has two distinct irrational solutions.
+
+#### 4. Calculate and Simplify the Solutions
+
+Substitute the simplified discriminant back into the formula:
+$$x = \frac{4 \pm \sqrt{160}}{-18}$$
+
+Simplify the radical $\sqrt{160}$ by finding the largest perfect square factor ($160 = 16 \cdot 10$):
+$$\sqrt{160} = \sqrt{16 \cdot 10} = 4\sqrt{10}$$
+
+Substitute the simplified radical:
+$$x = \frac{4 \pm 4\sqrt{10}}{-18}$$
+
+Divide all terms by the common factor, 2, and move the negative sign from the denominator to the numerator (which flips the signs):
+$$x = \frac{4 \div 2 \pm 4\sqrt{10} \div 2}{-18 \div 2}$$
+$$x = \frac{2 \pm 2\sqrt{10}}{-9}$$
+
+Multiply the numerator by $-1$ to remove the negative sign in the denominator:
+$$x = \frac{-(2 \pm 2\sqrt{10})}{9} = \frac{-2 \mp 2\sqrt{10}}{9}$$
+
+Since $\pm$ and $\mp$ represent the same set of solutions, we write the final form:
+$$\mathbf{x = \frac{-2 \pm 2\sqrt{10}}{9}}$$
+
+$$\text{Solutions: } x = \frac{-2 + 2\sqrt{10}}{9} \text{ and } x = \frac{-2 - 2\sqrt{10}}{9}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When the **leading coefficient ($a$) is negative**, it's usually best to keep the negative sign in the denominator ($2a$). In the final step, simplify by dividing all terms by a common factor, and then distribute the negative sign from the denominator into the numerator to present the final answer in a standard format.
