@@ -11095,3 +11095,4 @@ $$\text{Solutions: } x = 3 \text{ and } x = -\frac{7}{5}$$
 #### 🧠 Key Takeaway
 
 When the leading coefficient $\mathbf{a \ne 1}$, the first step in Completing the Square **must** be to divide the entire equation by $a$. This introduces fractions (like $-\frac{8}{5}$ and $-\frac{21}{5}$), requiring careful calculation of $\left(\frac{b}{2}\right)^2$ and proper fraction addition. The benefit is that the resulting factorable square term $\left(x + \frac{b}{2}\right)^2$ is immediately ready for the Square Root Property.
+## Algebra II - Lesson 63 - The Quadratic Formula - 20November2025 :
