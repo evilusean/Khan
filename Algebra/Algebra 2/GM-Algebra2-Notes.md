@@ -11443,3 +11443,4 @@ $$\text{Solutions: } x = \frac{-2 + 2\sqrt{10}}{9} \text{ and } x = \frac{-2 - 2
 When the **leading coefficient ($a$) is negative**, it's usually best to keep the negative sign in the denominator ($2a$). In the final step, simplify by dividing all terms by a common factor, and then distribute the negative sign from the denominator into the numerator to present the final answer in a standard format.
 
 ## Algebra II - Lesson 64 - Solving Equations that are Quadratic in Form - 22November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=27h49m55s
