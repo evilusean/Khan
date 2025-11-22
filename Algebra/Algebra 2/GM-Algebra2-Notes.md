@@ -11446,6 +11446,7 @@ When the **leading coefficient ($a$) is negative**, it's usually best to keep th
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=27h49m55s
 - **Quadratic in Form** : $9x^4 + 3x^2 -20 = 0$ : $ax^2 + bx^1 + c = 0$ : When a non-quadratic equation can be written as a quadratic equation, we say it is quadratic in form - you could make a substitution and create a quadratic equation, solve it in the same way you solve a quadratic equation - 3 terms where $ax^2$  is double the exponent or $bx^1$   with a constant 
 - **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
+- Instead of 2 solutions, you will often times get 4
 ### 📝 Solving Quadratic-in-Form: $9x^4 + 3x^2 - 20 = 0$
 
 This equation is quadratic in form because the exponent of the leading term ($x^4$) is double the exponent of the middle term ($x^2$).
@@ -11587,3 +11588,52 @@ $$\text{Solutions: } x = 3, x = -3, x = i, \text{ and } x = -i$$
 #### 🧠 Key Takeaway
 
 Always check for a **common factor** to simplify the quadratic-in-form equation before beginning substitution. This makes the factoring or Quadratic Formula calculations much easier. This type of equation, which factors perfectly, yields **two real integer roots** and **two complex integer roots** (imaginary numbers without a radical).
+### 📝 Solving Quadratic-in-Form: $2(3x + 2)^2 - 12(3x + 2) - 32 = 0$
+
+#### 1. Simplify the Equation
+
+Notice that all coefficients (2, -12, -32) are divisible by 2. Divide the entire equation by 2 to simplify:
+$$\frac{2(3x + 2)^2}{2} - \frac{12(3x + 2)}{2} - \frac{32}{2} = 0$$
+$$\mathbf{(3x + 2)^2 - 6(3x + 2) - 16 = 0}$$
+
+#### 2. Perform G-Substitution
+
+Let the substitution be $\mathbf{g = 3x + 2}$.
+Then, $\mathbf{g^2 = (3x + 2)^2}$.
+
+Substitute $g$ and $g^2$ into the simplified equation:
+$$g^2 - 6g - 16 = 0$$
+
+#### 3. Solve the Quadratic Equation for $g$ (Factoring Method)
+
+This equation can be solved quickly by factoring. We need two numbers that multiply to $c=-16$ and add to $b=-6$. These numbers are $-8$ and $2$.
+$$(g - 8)(g + 2) = 0$$
+
+Set each factor to zero to find the solutions for $g$:
+* $g - 8 = 0 \implies \mathbf{g_1 = 8}$
+* $g + 2 = 0 \implies \mathbf{g_2 = -2}$
+
+#### 4. Substitute Back and Solve for $x$
+
+Substitute $3x + 2$ back in for $g$ and solve the two resulting linear equations for $x$.
+
+* **Case 1: $g = 8$**
+    $$3x + 2 = 8$$
+    $$3x = 8 - 2$$
+    $$3x = 6$$
+    $$x = \frac{6}{3}$$
+    $$\mathbf{x_1 = 2}$$
+
+* **Case 2: $g = -2$**
+    $$3x + 2 = -2$$
+    $$3x = -2 - 2$$
+    $$3x = -4$$
+    $$\mathbf{x_2 = -\frac{4}{3}}$$
+
+$$\text{Solutions: } x = 2 \text{ and } x = -\frac{4}{3}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When the substitution is a complex linear expression (like $3x+2$), the solutions for $x$ will not involve square roots unless the solutions for the substitution variable ($g$) are themselves negative or non-perfect squares. After finding the values for $g$, the original problem is reduced to solving two simple **linear equations**.
