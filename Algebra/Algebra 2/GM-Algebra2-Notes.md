@@ -11639,3 +11639,10 @@ $$\text{Solutions: } x = 2 \text{ and } x = -\frac{4}{3}$$
 When the substitution is a complex linear expression (like $3x+2$), the solutions for $x$ will not involve square roots unless the solutions for the substitution variable ($g$) are themselves negative or non-perfect squares. After finding the values for $g$, the original problem is reduced to solving two simple **linear equations**.
 ## Algebra II - Lesson 65 - Graphing Parabolas - 22November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h15m50s
+- The graph of any quadratic equation is a *parabola*
+- $f(x) = x^2$ : every input you put into x will get squared, creating a parabola shape as you plot the points - $f(x)$ is just 'y' 
+- Graphing Parabolas is more difficult than linear graphing, you will either need a graphing calculator or a graphing software like desmos
+- **Origin** = (0, 0)
+- **Vertex** = The lowest or highest point on your graph (peak)
+- **Shift** : $f(x) = x^2 + 3$ : just square 'x' and add '3' to get 'y', it *shifts* the position up by 3 units - it reminds me of 'y = mx + b'
+- 
