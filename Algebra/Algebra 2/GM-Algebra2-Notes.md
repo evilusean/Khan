@@ -11540,3 +11540,50 @@ $$\text{Solutions: } x = \frac{\sqrt{5}}{2}, x = -\frac{\sqrt{5}}{2}, x = \frac{
 #### 🧠 Key Takeaway
 
 When solving quadratic-in-form equations, the $\mathbf{u/q}$-substitution method allows you to use familiar quadratic techniques. The final four roots will consist of **two real roots** (from $q>0$) and **two complex conjugate roots** (from $q<0$).
+### 📝 Solving Quadratic-in-Form: $3x^4 - 24x^2 - 27 = 0$
+
+#### 1. Simplify the Equation
+
+Notice that all coefficients (3, -24, -27) are divisible by 3. Divide the entire equation by 3 to simplify:
+$$\frac{3x^4}{3} - \frac{24x^2}{3} - \frac{27}{3} = 0$$
+$$\mathbf{x^4 - 8x^2 - 9 = 0}$$
+
+#### 2. Perform U-Substitution
+
+Let the substitution be $\mathbf{u = x^2}$.
+Then, $\mathbf{u^2 = x^4}$.
+
+Substitute $u$ and $u^2$ into the simplified equation:
+$$u^2 - 8u - 9 = 0$$
+
+#### 3. Solve the Quadratic Equation for $u$ (Factoring Method)
+
+Since the discriminant will be a perfect square, this equation can be solved easily by **factoring** or using the quadratic formula. Given that $a=1$, factoring is fastest:
+We need two numbers that multiply to $c=-9$ and add to $b=-8$. These numbers are $-9$ and $1$.
+$$(u - 9)(u + 1) = 0$$
+
+Set each factor to zero to find the solutions for $u$:
+* $u - 9 = 0 \implies \mathbf{u_1 = 9}$
+* $u + 1 = 0 \implies \mathbf{u_2 = -1}$
+
+#### 4. Substitute Back and Solve for $x$
+
+Substitute $x^2$ back in for $u$ and solve for $x$ using the Square Root Property ($\mathbf{x = \pm \sqrt{u}}$).
+
+* **Case 1: $u = 9$**
+    $$x^2 = 9$$
+    $$x = \pm \sqrt{9}$$
+    $$x = \pm 3$$
+
+* **Case 2: $u = -1$**
+    $$x^2 = -1$$
+    $$x = \pm \sqrt{-1}$$
+    $$x = \pm i$$
+
+$$\text{Solutions: } x = 3, x = -3, x = i, \text{ and } x = -i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Always check for a **common factor** to simplify the quadratic-in-form equation before beginning substitution. This makes the factoring or Quadratic Formula calculations much easier. This type of equation, which factors perfectly, yields **two real integer roots** and **two complex integer roots** (imaginary numbers without a radical).
