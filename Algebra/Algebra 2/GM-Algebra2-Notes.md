@@ -11496,3 +11496,47 @@ $$\text{Solutions: } x = \frac{2\sqrt{3}}{3}, x = -\frac{2\sqrt{3}}{3}, x = \fra
 #### 🧠 Key Takeaway
 
 A fourth-degree polynomial equation ($x^4$) will have **four** roots, which may be real or complex. The U-substitution technique reduces the complexity to a standard quadratic, but you must remember the final step: **un-substitute** ($x^2=z$) and take the square root to find all four $x$ values. When $z$ is negative, the resulting $x$ values are always **complex**.
+### 📝 Solving Quadratic-in-Form: $8x^4 + 10x^2 - 25 = 0$
+
+#### 1. Perform Q-Substitution
+
+This equation is quadratic in form. Use the substitution $\mathbf{q = x^2}$ and $\mathbf{q^2 = x^4}$ to transform it into a standard quadratic equation:
+$$8q^2 + 10q - 25 = 0$$
+
+#### 2. Solve the Quadratic Equation for $q$
+
+Use the Quadratic Formula with coefficients $a=8$, $b=10$, and $c=-25$:
+$$q = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$q = \frac{-(10) \pm \sqrt{(10)^2 - 4(8)(-25)}}{2(8)}$$
+
+* **Simplify the Discriminant**:
+    $$\Delta = 100 - 4(-200) = 100 + 800 = 900$$
+* **Calculate the Solutions for $q$**:
+    $$q = \frac{-10 \pm \sqrt{900}}{16}$$
+    $$q = \frac{-10 \pm 30}{16}$$
+
+    * $q_1 = \frac{-10 + 30}{16} = \frac{20}{16} = \mathbf{\frac{5}{4}}$
+    * $q_2 = \frac{-10 - 30}{16} = \frac{-40}{16} = \mathbf{-\frac{5}{2}}$
+
+#### 3. Substitute Back and Solve for $x$
+
+Substitute $x^2$ back in for $q$ and solve for $x$ using the Square Root Property ($\mathbf{x = \pm \sqrt{q}}$).
+
+* **Case 1: $q = \frac{5}{4}$**
+    $$x^2 = \frac{5}{4}$$
+    $$x = \pm \sqrt{\frac{5}{4}} = \pm \frac{\sqrt{5}}{\sqrt{4}}$$
+    $$x = \pm \frac{\sqrt{5}}{2}$$
+
+* **Case 2: $q = -\frac{5}{2}$**
+    $$x^2 = -\frac{5}{2}$$
+    $$x = \pm \sqrt{-\frac{5}{2}} = \pm i \frac{\sqrt{5}}{\sqrt{2}}$$
+    Rationalize the denominator:
+    $$x = \pm i \frac{\sqrt{5}\sqrt{2}}{\sqrt{2}\sqrt{2}} = \pm i \frac{\sqrt{10}}{2}$$
+
+$$\text{Solutions: } x = \frac{\sqrt{5}}{2}, x = -\frac{\sqrt{5}}{2}, x = \frac{\sqrt{10}}{2}i, \text{ and } x = -\frac{\sqrt{10}}{2}i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When solving quadratic-in-form equations, the $\mathbf{u/q}$-substitution method allows you to use familiar quadratic techniques. The final four roots will consist of **two real roots** (from $q>0$) and **two complex conjugate roots** (from $q<0$).
