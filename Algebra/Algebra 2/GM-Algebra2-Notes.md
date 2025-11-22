@@ -11446,4 +11446,53 @@ When the **leading coefficient ($a$) is negative**, it's usually best to keep th
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=27h49m55s
 - **Quadratic in Form** : $9x^4 + 3x^2 -20 = 0$ : $ax^2 + bx^1 + c = 0$ : When a non-quadratic equation can be written as a quadratic equation, we say it is quadratic in form - you could make a substitution and create a quadratic equation, solve it in the same way you solve a quadratic equation - 3 terms where $ax^2$  is double the exponent or $bx^1$   with a constant 
 - **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
-- 
+### 📝 Solving Quadratic-in-Form: $9x^4 + 3x^2 - 20 = 0$
+
+This equation is quadratic in form because the exponent of the leading term ($x^4$) is double the exponent of the middle term ($x^2$).
+
+#### 1. Perform U-Substitution
+
+Let the variable substitution be $\mathbf{z = x^2}$.
+Then, $\mathbf{z^2 = (x^2)^2 = x^4}$.
+
+Substitute $z$ and $z^2$ into the original equation:
+$$9z^2 + 3z - 20 = 0$$
+
+#### 2. Solve the Quadratic Equation for $z$
+
+Use the Quadratic Formula with coefficients $a=9$, $b=3$, and $c=-20$:
+$$z = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$z = \frac{-(3) \pm \sqrt{(3)^2 - 4(9)(-20)}}{2(9)}$$
+
+* **Simplify the Discriminant**:
+    $$\Delta = 9 - 4(-180) = 9 + 720 = 729$$
+* **Calculate the Solutions for $z$**:
+    $$z = \frac{-3 \pm \sqrt{729}}{18}$$
+    $$z = \frac{-3 \pm 27}{18}$$
+
+    * $z_1 = \frac{-3 + 27}{18} = \frac{24}{18} = \mathbf{\frac{4}{3}}$
+    * $z_2 = \frac{-3 - 27}{18} = \frac{-30}{18} = \mathbf{-\frac{5}{3}}$
+
+#### 3. Substitute Back and Solve for $x$
+
+Now, substitute $x^2$ back in for $z$ and solve for $x$ using the Square Root Property ($\mathbf{x = \pm \sqrt{z}}$).
+
+* **Case 1: $z = \frac{4}{3}$**
+    $$x^2 = \frac{4}{3}$$
+    $$x = \pm \sqrt{\frac{4}{3}} = \pm \frac{\sqrt{4}}{\sqrt{3}} = \pm \frac{2}{\sqrt{3}}$$
+    Rationalize the denominator:
+    $$x = \pm \frac{2\sqrt{3}}{3}$$
+
+* **Case 2: $z = -\frac{5}{3}$**
+    $$x^2 = -\frac{5}{3}$$
+    $$x = \pm \sqrt{-\frac{5}{3}} = \pm i \frac{\sqrt{5}}{\sqrt{3}}$$
+    Rationalize the denominator:
+    $$x = \pm i \frac{\sqrt{5}\sqrt{3}}{\sqrt{3}\sqrt{3}} = \pm i \frac{\sqrt{15}}{3}$$
+
+$$\text{Solutions: } x = \frac{2\sqrt{3}}{3}, x = -\frac{2\sqrt{3}}{3}, x = \frac{\sqrt{15}}{3}i, \text{ and } x = -\frac{\sqrt{15}}{3}i$$
+
+***
+
+#### 🧠 Key Takeaway
+
+A fourth-degree polynomial equation ($x^4$) will have **four** roots, which may be real or complex. The U-substitution technique reduces the complexity to a standard quadratic, but you must remember the final step: **un-substitute** ($x^2=z$) and take the square root to find all four $x$ values. When $z$ is negative, the resulting $x$ values are always **complex**.
