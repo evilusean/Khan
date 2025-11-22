@@ -35,3 +35,5 @@ Complex Fractions with Rational Expressions
 Radicals - Exponent Form (This still doesn't make sense to me, the numerator and denominator become what?)
 
 Factoring and using the **Zero Product Property** ($x^2 + x + c = 0$) to find the solutions - Quadratic Trinomial, Difference of Squares, 
+
+- **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
