@@ -19,6 +19,7 @@ Perpendicular Lines = $m_1 = -\frac{1}{m_2}$
 distance formula(pythagorean theorem) = $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
 distance(motion) = rate * time 
 $\frac{Pure amount of the substance}{Total amount of the mixture} = concentration of the substance$
+- **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
 
 ## Special Factors :
 - **Difference of Two Squares** : $x^2 y^2 = (x + y)(x - y)$ : The 2 middle terms cancel eachother

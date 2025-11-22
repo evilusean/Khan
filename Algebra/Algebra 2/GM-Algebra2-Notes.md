@@ -11444,3 +11444,6 @@ When the **leading coefficient ($a$) is negative**, it's usually best to keep th
 
 ## Algebra II - Lesson 64 - Solving Equations that are Quadratic in Form - 22November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=27h49m55s
+- **Quadratic in Form** : $9x^4 + 3x^2 -20 = 0$ : $ax^2 + bx^1 + c = 0$ : When a non-quadratic equation can be written as a quadratic equation, we say it is quadratic in form - you could make a substitution and create a quadratic equation, solve it in the same way you solve a quadratic equation - 3 terms where $ax^2$  is double the exponent or $bx^1$   with a constant 
+- **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
+- 
