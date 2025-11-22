@@ -11637,3 +11637,4 @@ $$\text{Solutions: } x = 2 \text{ and } x = -\frac{4}{3}$$
 #### 🧠 Key Takeaway
 
 When the substitution is a complex linear expression (like $3x+2$), the solutions for $x$ will not involve square roots unless the solutions for the substitution variable ($g$) are themselves negative or non-perfect squares. After finding the values for $g$, the original problem is reduced to solving two simple **linear equations**.
+## Algebra II - Lesson 65 - Graphing Parabolas - 22November2025 :
