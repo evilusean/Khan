@@ -11793,3 +11793,53 @@ $$\text{Vertex: } (h, k) = \left(-\frac{3}{2}, -\frac{49}{4}\right)$$
 #### 🧠 Key Takeaway
 
 When converting to vertex form, the number you add to **complete the square** inside the parentheses must be **subtracted** immediately outside the parentheses to keep the function equivalent to the original. If you use the alternative method of $h = -\frac{b}{2a}$, you get $h = -\frac{3}{2(1)} = -\frac{3}{2}$, which confirms the $h$-value found by completing the square.
+### 📝 Converting Standard Form to Vertex Form: $f(x) = 3x^2 + 5x + 7$
+
+The goal is to convert the standard form $f(x) = 3x^2 + 5x + 7$ to the vertex form $f(x) = a(x - h)^2 + k$.
+
+#### 1. Factor out the Leading Coefficient ($a$)
+
+Factor out the coefficient $a=3$ from the $x^2$ and $x$ terms only:
+$$f(x) = 3\left(x^2 + \frac{5}{3}x\right) + 7$$
+
+#### 2. Complete the Square
+
+Identify the new $x$ coefficient, $b' = \frac{5}{3}$. Calculate the value to add and subtract using $\mathbf{\left(\frac{b'}{2}\right)^2}$:
+
+1.  Calculate $\frac{b'}{2}$ (dividing a fraction by 2 is the same as multiplying the denominator by 2):
+    $$\frac{5}{3} \div 2 = \frac{5}{6}$$
+2.  Square the result:
+    $$\left(\frac{5}{6}\right)^2 = \frac{25}{36}$$
+
+Add and subtract this value **inside** the parentheses:
+$$f(x) = 3\left(x^2 + \frac{5}{3}x + \frac{25}{36} - \frac{25}{36}\right) + 7$$
+
+#### 3. Move the Subtracted Term Outside
+
+Move the subtracted term $\left(-\frac{25}{36}\right)$ outside the parentheses. Remember that it must be **multiplied** by the factored coefficient, $a=3$:
+$$f(x) = 3\left(x^2 + \frac{5}{3}x + \frac{25}{36}\right) + 7 - 3\left(\frac{25}{36}\right)$$
+
+Simplify the term outside: $3\left(\frac{25}{36}\right) = \frac{75}{36}$. Reducing the fraction $\frac{75}{36}$ by 3 gives $\frac{25}{12}$:
+$$f(x) = 3\left(x^2 + \frac{5}{3}x + \frac{25}{36}\right) + 7 - \frac{25}{12}$$
+
+#### 4. Factor the Perfect Square Trinomial
+
+Factor the terms inside the parentheses into a squared binomial, $\left(\mathbf{x + \frac{b'}{2}}\right)^2$:
+$$f(x) = 3\left(x + \frac{5}{6}\right)^2 + 7 - \frac{25}{12}$$
+
+#### 5. Combine the Constants
+
+Find a common denominator for the constants on the right side. Convert $7$ to $\frac{84}{12}$:
+$$f(x) = 3\left(x + \frac{5}{6}\right)^2 + \frac{84}{12} - \frac{25}{12}$$
+$$f(x) = 3\left(x + \frac{5}{6}\right)^2 + \frac{84 - 25}{12}$$
+$$\mathbf{f(x) = 3\left(x + \frac{5}{6}\right)^2 + \frac{59}{12}}$$
+
+This is the **Vertex Form** of the function.
+
+$$\text{Vertex: } (h, k) = \left(-\frac{5}{6}, \frac{59}{12}\right)$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When the **leading coefficient ($a$) is not 1**, you must **factor it out** of the variable terms before completing the square. Remember that the term you subtract outside the parentheses must be multiplied by $a$ to correctly balance the equation. This process is guaranteed to reveal the vertex $(h, k)$.
