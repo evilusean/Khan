@@ -12027,3 +12027,39 @@ $$\text{Conclusion: The function has 0 x-intercepts.}$$
 #### 🧠 Key Takeaway
 
 A **negative discriminant** ($\Delta < 0$) indicates that the parabola never intersects the x-axis. The solutions to the corresponding equation ($5x^2 - 3x + 10 = 0$) would be **two complex conjugate numbers**, meaning there are no *real* roots.
+### 📝 Finding the Number of X-Intercepts using the Discriminant: $f(x) = -7x^2 - 2x + 1$
+
+The discriminant ($\mathbf{\Delta = b^2 - 4ac}$) tells us the nature and number of real solutions (x-intercepts) for a quadratic equation.
+
+#### 1. Identify Coefficients
+
+First, identify the coefficients $a$, $b$, and $c$ from the standard form $f(x) = ax^2 + bx + c$:
+$$a = -7$$
+$$b = -2$$
+$$c = 1$$
+
+#### 2. Calculate the Discriminant ($\Delta$)
+
+Substitute the values into the discriminant formula:
+$$\Delta = b^2 - 4ac$$
+$$\Delta = (-2)^2 - 4(-7)(1)$$
+$$\Delta = 4 - (-28)$$
+$$\Delta = 4 + 28$$
+$$\mathbf{\Delta = 32}$$
+
+#### 3. Determine the Number of X-Intercepts
+
+The rules for the discriminant are:
+* If $\mathbf{\Delta > 0}$, there are **two distinct real solutions** (two x-intercepts).
+* If $\Delta = 0$, there is one real solution (one x-intercept).
+* If $\Delta < 0$, there are no real solutions (zero x-intercepts).
+
+Since the calculated discriminant is $\mathbf{\Delta = 32}$, which is greater than zero, the function has **two distinct real solutions**.
+
+$$\text{Conclusion: The function has 2 x-intercepts.}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+A **positive discriminant** ($\Delta > 0$) guarantees that the parabola will cross the x-axis at two different points, regardless of whether the parabola opens up ($a>0$) or down ($a<0$). Since $a=-7$ here, the parabola opens down, but it still has two real roots.
