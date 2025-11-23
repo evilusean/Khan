@@ -11719,13 +11719,13 @@ The vertex form reveals the vertex $(h, k)$ immediately. We use **Completing the
 Factor the leading coefficient, **$a$**, out of the $x^2$ and $x$ terms only:
 $$f(x) = a\left(x^2 + \frac{b}{a}x\right) + c$$
 
-#### 2. Prepare to Complete the Square
+#### 2. Prepare to Complete the Square (Explicit Calculation)
 
-Identify the new coefficient of the $x$ term, $b' = \frac{b}{a}$. To complete the square, we need to calculate $\left(\frac{b'}{2}\right)^2$:
+Identify the new $x$ coefficient, $b' = \frac{b}{a}$. To complete the square, we need to calculate $\left(\frac{b'}{2}\right)^2$. This is done by taking the $x$ coefficient, multiplying by $\frac{1}{2}$ (or dividing by 2), and then squaring the result:
 
-1.  Calculate $\frac{b'}{2}$ (divide the $x$ coefficient by 2):
-    $$\frac{b}{a} \div 2 = \frac{b}{2a}$$
-2.  Square the result:
+1.  **Multiply by $\frac{1}{2}$** (finding the term $d$):
+    $$\frac{b}{a} \cdot \frac{1}{2} = \frac{b}{2a}$$
+2.  **Square the result** (finding the constant $d^2$):
     $$\left(\frac{b}{2a}\right)^2 = \frac{b^2}{4a^2}$$
 
 #### 3. Complete the Square
@@ -11735,7 +11735,7 @@ $$f(x) = a\left(x^2 + \frac{b}{a}x + \frac{b^2}{4a^2} - \frac{b^2}{4a^2}\right) 
 
 #### 4. Move the Subtracted Term Outside
 
-Move the subtracted term $\left(-\frac{b^2}{4a^2}\right)$ outside the parentheses. Since this term is inside the group factored by **$a$**, it must be multiplied by $a$ when moved outside:
+Move the subtracted term $\left(-\frac{b^2}{4a^2}\right)$ outside the parentheses. Since it was inside the group factored by **$a$**, it must be multiplied by $a$ when moved outside:
 $$f(x) = a\left(x^2 + \frac{b}{a}x + \frac{b^2}{4a^2}\right) + c - a\left(\frac{b^2}{4a^2}\right)$$
 
 Simplify the term outside: $a \cdot \frac{b^2}{4a^2} = \frac{b^2}{4a}$:
@@ -11743,7 +11743,7 @@ $$f(x) = a\left(x^2 + \frac{b}{a}x + \frac{b^2}{4a^2}\right) + c - \frac{b^2}{4a
 
 #### 5. Factor the Perfect Square Trinomial
 
-Factor the trinomial inside the parentheses into the squared binomial $\left(x + \frac{b'}{2}\right)^2 = \left(x + \frac{b}{2a}\right)^2$:
+Factor the trinomial inside the parentheses into the squared binomial $\left(x + \frac{b}{2a}\right)^2$:
 $$f(x) = a\left(x + \frac{b}{2a}\right)^2 + c - \frac{b^2}{4a}$$
 
 #### 6. Combine the Constants (Derive $k$)
@@ -11757,57 +11757,15 @@ $$f(x) = a\left(x + \frac{b}{2a}\right)^2 + \frac{4ac - b^2}{4a}$$
 By matching this result to the target form $f(x) = a(x - h)^2 + k$:
 $$\mathbf{f(x) = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \left(\frac{4ac - b^2}{4a}\right)}$$
 
-We have derived the components of the vertex:
-* **$h = -\frac{b}{2a}$** (The $x$-coordinate of the vertex)
-* **$k = \frac{4ac - b^2}{4a}$** (The $y$-coordinate of the vertex, or $f(-\frac{b}{2a})$)
+The expressions for the vertex components are:
+* **$h = -\frac{b}{2a}$**
+* **$k = \frac{4ac - b^2}{4a}$**
 
 ---
 
 #### 🔑 Key Takeaway
 
-The most critical step is **Step 4**, where the subtracted term $\left(-\frac{b^2}{4a^2}\right)$ must be multiplied by the factored $a$ when it exits the parentheses, resulting in the clean term $-\frac{b^2}{4a}$. This multiplication is what correctly defines the $k$ value. The $h$-value, $h = -\frac{b}{2a}$, is derived from the term added to complete the square, $\frac{b}{2a}$.
-### 📝 Converting Standard Form to Vertex Form: $f(x) = x^2 - 9x + 7$
-
-The goal is to convert the standard form $f(x) = x^2 - 9x + 7$ to the vertex form $f(x) = a(x - h)^2 + k$, where $(h, k)$ is the vertex.
-
-#### 1. Group Variable Terms
-
-Group the $x^2$ and $x$ terms together, and move the constant outside the group. Since $a=1$, we can skip the division step.
-$$f(x) = (x^2 - 9x) + 7$$
-
-#### 2. Complete the Square
-
-Identify the coefficient of the $x$ term, $b=-9$. Calculate the value to add and subtract using $\mathbf{\left(\frac{b}{2}\right)^2}$:
-
-1.  Calculate $\frac{b}{2}$:
-    $$\frac{-9}{2} = -\frac{9}{2}$$
-2.  Square the result:
-    $$\left(-\frac{9}{2}\right)^2 = \frac{81}{4}$$
-
-Add and subtract this value immediately after the $x$ term (this does not change the function's value):
-$$f(x) = \left(x^2 - 9x + \frac{81}{4}\right) + 7 - \frac{81}{4}$$
-
-#### 3. Factor the Perfect Square Trinomial
-
-Factor the terms inside the parentheses into a squared binomial, $\left(\mathbf{x + \frac{b}{2}}\right)^2$:
-$$f(x) = \left(x - \frac{9}{2}\right)^2 + 7 - \frac{81}{4}$$
-
-#### 4. Combine the Constants
-
-Find a common denominator for the constants on the right side. Convert $7$ to $\frac{28}{4}$:
-$$f(x) = \left(x - \frac{9}{2}\right)^2 + \frac{28}{4} - \frac{81}{4}$$
-$$f(x) = \left(x - \frac{9}{2}\right)^2 + \frac{28 - 81}{4}$$
-$$\mathbf{f(x) = \left(x - \frac{9}{2}\right)^2 - \frac{53}{4}}$$
-
-This is the **Vertex Form** of the function.
-
-$$\text{Vertex: } (h, k) = \left(\frac{9}{2}, -\frac{53}{4}\right)$$
-
-***
-
-#### 🧠 Key Takeaway
-
-Completing the square with an **odd $b$ term** (like -9) requires working carefully with fractions. The vertex $h$-value will be $\frac{b}{2a}$ (here, $\frac{-9}{2(1)} = \frac{9}{2}$), and the $k$-value is found by combining the remaining constant terms. The vertex form immediately reveals the parabola's vertex.
+The step-by-step calculation shows that dividing the new $x$ coefficient $\left(\frac{b}{a}\right)$ by two is equivalent to multiplying it by $\frac{1}{2}$, yielding $\frac{b}{2a}$. Squaring this result $\left(\frac{b}{2a}\right)^2$ provides the exact term $\left(\frac{b^2}{4a^2}\right)$ required to complete the square.
 ### 📝 Converting Standard Form to Vertex Form: $f(x) = x^2 + 3x - 10$
 
 The goal is to convert $f(x) = x^2 + 3x - 10$ to the vertex form $f(x) = a(x - h)^2 + k$.
