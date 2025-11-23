@@ -11656,6 +11656,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h40m35s
 - **Standard Form** : $f(x) = ax^2 + bx +c$ 
 - **Vertex Form** : $a(x-h)^2 + k$ 
 - Be very careful with signs, if '-h' is not a negative number (addition sign instead) it would be a '-'negative' vertex
+- When the leading coefficent for the $x^2$ term is not zero, you need to divide the $x^2 x^1$ terms by the coefficient AND also the number you are ADDING and SUBTRACTING from the 'completing the square' process 
 ### 📝 Concept Explanation: Why We Complete the Square
 
 The reason we **cut the x¹ coefficient in half and square it** when converting a quadratic function from standard form to vertex form is to create a **Perfect Square Trinomial (PST)**, which is the necessary step for the method called **Completing the Square**.
@@ -11709,6 +11710,62 @@ The entire process is a technique to force $x^2 + bx$ to fit the algebraic templ
 
 * **Divide by 2** ($\frac{b}{2}$): Finds the term ($d$) that belongs inside the factored square.
 * **Square it** ($\left(\frac{b}{2}\right)^2$): Calculates the constant term ($d^2$) required to complete the trinomial so it can be factored.
+### 📝 Deriving the Vertex Form $f(x) = a(x - h)^2 + k$ from $f(x) = ax^2 + bx + c$
+
+The vertex form reveals the vertex $(h, k)$ immediately. We use **Completing the Square** on the general standard form to find the expressions for $h$ and $k$.
+
+#### 1. Group Terms and Factor out 'a'
+
+Factor the leading coefficient, **$a$**, out of the $x^2$ and $x$ terms only:
+$$f(x) = a\left(x^2 + \frac{b}{a}x\right) + c$$
+
+#### 2. Prepare to Complete the Square
+
+Identify the new coefficient of the $x$ term, $b' = \frac{b}{a}$. To complete the square, we need to calculate $\left(\frac{b'}{2}\right)^2$:
+
+1.  Calculate $\frac{b'}{2}$ (divide the $x$ coefficient by 2):
+    $$\frac{b}{a} \div 2 = \frac{b}{2a}$$
+2.  Square the result:
+    $$\left(\frac{b}{2a}\right)^2 = \frac{b^2}{4a^2}$$
+
+#### 3. Complete the Square
+
+Add and subtract the required term $\frac{b^2}{4a^2}$ **inside** the parentheses:
+$$f(x) = a\left(x^2 + \frac{b}{a}x + \frac{b^2}{4a^2} - \frac{b^2}{4a^2}\right) + c$$
+
+#### 4. Move the Subtracted Term Outside
+
+Move the subtracted term $\left(-\frac{b^2}{4a^2}\right)$ outside the parentheses. Since this term is inside the group factored by **$a$**, it must be multiplied by $a$ when moved outside:
+$$f(x) = a\left(x^2 + \frac{b}{a}x + \frac{b^2}{4a^2}\right) + c - a\left(\frac{b^2}{4a^2}\right)$$
+
+Simplify the term outside: $a \cdot \frac{b^2}{4a^2} = \frac{b^2}{4a}$:
+$$f(x) = a\left(x^2 + \frac{b}{a}x + \frac{b^2}{4a^2}\right) + c - \frac{b^2}{4a}$$
+
+#### 5. Factor the Perfect Square Trinomial
+
+Factor the trinomial inside the parentheses into the squared binomial $\left(x + \frac{b'}{2}\right)^2 = \left(x + \frac{b}{2a}\right)^2$:
+$$f(x) = a\left(x + \frac{b}{2a}\right)^2 + c - \frac{b^2}{4a}$$
+
+#### 6. Combine the Constants (Derive $k$)
+
+Combine the constant terms outside the parentheses to derive the expression for $k$. Find a common denominator, $4a$:
+$$f(x) = a\left(x + \frac{b}{2a}\right)^2 + \frac{4ac}{4a} - \frac{b^2}{4a}$$
+$$f(x) = a\left(x + \frac{b}{2a}\right)^2 + \frac{4ac - b^2}{4a}$$
+
+#### 7. Final Vertex Form ($h$ and $k$)
+
+By matching this result to the target form $f(x) = a(x - h)^2 + k$:
+$$\mathbf{f(x) = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \left(\frac{4ac - b^2}{4a}\right)}$$
+
+We have derived the components of the vertex:
+* **$h = -\frac{b}{2a}$** (The $x$-coordinate of the vertex)
+* **$k = \frac{4ac - b^2}{4a}$** (The $y$-coordinate of the vertex, or $f(-\frac{b}{2a})$)
+
+---
+
+#### 🔑 Key Takeaway
+
+The most critical step is **Step 4**, where the subtracted term $\left(-\frac{b^2}{4a^2}\right)$ must be multiplied by the factored $a$ when it exits the parentheses, resulting in the clean term $-\frac{b^2}{4a}$. This multiplication is what correctly defines the $k$ value. The $h$-value, $h = -\frac{b}{2a}$, is derived from the term added to complete the square, $\frac{b}{2a}$.
 ### 📝 Converting Standard Form to Vertex Form: $f(x) = x^2 - 9x + 7$
 
 The goal is to convert the standard form $f(x) = x^2 - 9x + 7$ to the vertex form $f(x) = a(x - h)^2 + k$, where $(h, k)$ is the vertex.
