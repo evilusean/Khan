@@ -11767,6 +11767,47 @@ The expressions for the vertex components are:
 #### 🔑 Key Takeaway
 
 The step-by-step calculation shows that dividing the new $x$ coefficient $\left(\frac{b}{a}\right)$ by two is equivalent to multiplying it by $\frac{1}{2}$, yielding $\frac{b}{2a}$. Squaring this result $\left(\frac{b}{2a}\right)^2$ provides the exact term $\left(\frac{b^2}{4a^2}\right)$ required to complete the square.
+### 📝 The Discriminant and Types of Solutions
+
+The image displays the three conditions for the **discriminant**, which is the expression found **under the radical** sign in the Quadratic Formula: $\mathbf{\Delta = b^2 - 4ac}$.
+
+The discriminant determines the nature (real or complex) and the number of solutions (roots or x-intercepts) for any quadratic equation in standard form ($ax^2 + bx + c = 0$). 
+
+---
+
+#### 1. Three Conditions of the Discriminant
+
+The sign of the discriminant tells us everything about the solutions:
+
+* **Case 1: $b^2 - 4ac > 0$** (Positive Discriminant)
+    * **Result:** **Two Real Solutions** (The graph, a parabola, crosses the x-axis twice.)
+    * **Explanation:** Since the value under the square root is positive, the Quadratic Formula will result in two different real numbers: $x = \frac{-b \pm (\text{a positive real number})}{2a}$.
+
+* **Case 2: $b^2 - 4ac = 0$** (Zero Discriminant)
+    * **Result:** **One Real Solution** (or two identical real solutions) (The parabola touches the x-axis exactly once at the vertex.)
+    * **Explanation:** Since the value under the square root is zero, the $\pm$ term disappears: $x = \frac{-b \pm 0}{2a}$. This leaves only one unique real solution: $x = -\frac{b}{2a}$.
+
+* **Case 3: $b^2 - 4ac < 0$** (Negative Discriminant)
+    * **Result:** **No Real Solution** (The parabola never crosses the x-axis; it floats entirely above or below it.)
+    * **Explanation:** Since the value under the square root is negative, the solutions involve $\sqrt{\text{a negative number}}$, meaning they are **two complex conjugate solutions** (involving the imaginary unit $i$).
+
+---
+
+#### 💡 Example: $2x^2 - 5x + 3 = 0$ (image\_655d5c.png)
+
+* **Coefficients:** $a=2, b=-5, c=3$
+* **Calculate $\Delta$:**
+    $$\Delta = b^2 - 4ac$$
+    $$\Delta = (-5)^2 - 4(2)(3)$$
+    $$\Delta = 25 - 24$$
+    $$\Delta = 1$$
+* **Result:** Since $\mathbf{\Delta = 1 > 0}$, the equation has **two distinct real solutions**.
+
+***
+
+#### 🔑 Key Takeaway
+
+The discriminant is the **quickest test** to determine the fundamental nature of the roots of any quadratic equation before you commit to solving the entire equation. If you get a negative discriminant, you immediately know the roots are complex.
 ### 📝 Converting Standard Form to Vertex Form: $f(x) = x^2 + 3x - 10$
 
 The goal is to convert $f(x) = x^2 + 3x - 10$ to the vertex form $f(x) = a(x - h)^2 + k$.
