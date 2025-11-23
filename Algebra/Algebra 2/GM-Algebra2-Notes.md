@@ -11655,3 +11655,45 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h15m50s
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h40m35s
 - **Standard Form** : $f(x) = ax^2 + bx +c$ 
 - **Vertex Form** : $a(x-h)^2 + k$ 
+### 📝 Converting Standard Form to Vertex Form: $f(x) = x^2 - 9x + 7$
+
+The goal is to convert the standard form $f(x) = x^2 - 9x + 7$ to the vertex form $f(x) = a(x - h)^2 + k$, where $(h, k)$ is the vertex.
+
+#### 1. Group Variable Terms
+
+Group the $x^2$ and $x$ terms together, and move the constant outside the group. Since $a=1$, we can skip the division step.
+$$f(x) = (x^2 - 9x) + 7$$
+
+#### 2. Complete the Square
+
+Identify the coefficient of the $x$ term, $b=-9$. Calculate the value to add and subtract using $\mathbf{\left(\frac{b}{2}\right)^2}$:
+
+1.  Calculate $\frac{b}{2}$:
+    $$\frac{-9}{2} = -\frac{9}{2}$$
+2.  Square the result:
+    $$\left(-\frac{9}{2}\right)^2 = \frac{81}{4}$$
+
+Add and subtract this value immediately after the $x$ term (this does not change the function's value):
+$$f(x) = \left(x^2 - 9x + \frac{81}{4}\right) + 7 - \frac{81}{4}$$
+
+#### 3. Factor the Perfect Square Trinomial
+
+Factor the terms inside the parentheses into a squared binomial, $\left(\mathbf{x + \frac{b}{2}}\right)^2$:
+$$f(x) = \left(x - \frac{9}{2}\right)^2 + 7 - \frac{81}{4}$$
+
+#### 4. Combine the Constants
+
+Find a common denominator for the constants on the right side. Convert $7$ to $\frac{28}{4}$:
+$$f(x) = \left(x - \frac{9}{2}\right)^2 + \frac{28}{4} - \frac{81}{4}$$
+$$f(x) = \left(x - \frac{9}{2}\right)^2 + \frac{28 - 81}{4}$$
+$$\mathbf{f(x) = \left(x - \frac{9}{2}\right)^2 - \frac{53}{4}}$$
+
+This is the **Vertex Form** of the function.
+
+$$\text{Vertex: } (h, k) = \left(\frac{9}{2}, -\frac{53}{4}\right)$$
+
+***
+
+#### 🧠 Key Takeaway
+
+Completing the square with an **odd $b$ term** (like -9) requires working carefully with fractions. The vertex $h$-value will be $\frac{b}{2a}$ (here, $\frac{-9}{2(1)} = \frac{9}{2}$), and the $k$-value is found by combining the remaining constant terms. The vertex form immediately reveals the parabola's vertex.
