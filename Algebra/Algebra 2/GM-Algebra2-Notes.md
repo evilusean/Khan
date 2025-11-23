@@ -11658,6 +11658,12 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h40m35s
 - **Vertex Formula** (from standard form) : $\mathbf{f(x) = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \left(\frac{4ac - b^2}{4a}\right)}$ : The expressions for the vertex components are: * **$h = -\frac{b}{2a}$,** $k = \frac{4ac - b^2}{4a}$ : You can just plug in values now that you have the formula
 - Be very careful with signs, if '-h' is not a negative number (addition sign instead) it would be a '-'negative' vertex
 - When the leading coefficent for the $x^2$ term is not zero, you need to divide the $x^2 x^1$ terms by the coefficient AND also the number you are ADDING and SUBTRACTING from the 'completing the square' process 
+- **Graphing Quadratic Equations** : 
+  1) if $a > 0$ the parabola opens up : if $a < 0$ the parabola opens down 
+  2) First, Locate the vertex $(h,k) = (x,y)$ : $a(x-h)^2 + k$ 
+  3) Plot the incercepts set $f(x) = 0$ to find 'x intercept', set $f(0)$ to find the y-intercept (replace the 'x' in the standard form equation with '0')  : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ <- use that to find 'x'
+  4) Plot additional points as needed
+  5) Sketch the graph
 ### 📝 Concept Explanation: Why We Complete the Square
 
 The reason we **cut the x¹ coefficient in half and square it** when converting a quadratic function from standard form to vertex form is to create a **Perfect Square Trinomial (PST)**, which is the necessary step for the method called **Completing the Square**.
