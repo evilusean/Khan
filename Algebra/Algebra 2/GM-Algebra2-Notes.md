@@ -11645,4 +11645,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h15m50s
 - **Origin** = (0, 0)
 - **Vertex** = The lowest or highest point on your graph (peak)
 - **Shift** : $f(x) = x^2 + 3$ : just square 'x' and add '3' to get 'y', it *shifts* the position up by 3 units - it reminds me of 'y = mx + b'
+- **Vertical Shift** : $f(x) = x^2 + k$ : When working with parabolas - you will shift 'up' $k$ units if $k > 0$ - or shift down |k| units if $k< 0$ - The *vertex* for a function in this form occurs at (0, k)
+- **Horizontal Shift** : $f(x) = (x-1)^2$ : This creates a horizontal shift to the right by 1 unit of 'x' - The 'x' value needs to be one unit larger to gain the same value - the *vertex* shifts by the amount added or subtracted to 'x' before squaring, 'negative-subtract' goes to the right(positive side), while 'positive+add' shifts left(negative side) (counterintuitive)
+  - $f(x) = (x-h)^2$ : When Working with parabolas, $h >0$ will be shifted $h$ units right - $h<0$ will be shifted |$h$| units left - the *Vertex* for a function of this form occurs at ($h$, 0) - What number can you plug in to 'x' that will give you '0'? That's the *vertex*
+- $f(x) = (x-2)^2 + 3$ : In tougher examples, we combine a vertical and horizontal shift. (for the verex, shift right 2 - Shift up 3)
+- $f(x) = a(x-h)^2 + k : a \ne 0$ : The vertex occurs at (h, k), vertical line of 'x = h' as its axis, the graph opens up if a > 0 and down if a < 0
+- $f(x) = -x^2$ : inverts/flips the parabola (it faces downwards) - If you have a negative coefficeint on the squard variable, it's inverted
 - 
