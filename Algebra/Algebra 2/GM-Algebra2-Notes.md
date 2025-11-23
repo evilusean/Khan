@@ -11652,3 +11652,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h15m50s
 - $f(x) = a(x-h)^2 + k : a \ne 0$ : The vertex occurs at (h, k), vertical line of 'x = h' as its axis, the graph opens up if a > 0 and down if a < 0
 - $f(x) = -x^2$ : inverts/flips the parabola (it faces downwards) - If you have a negative coefficeint on the squard variable, it's inverted
 ## Algebra II - Lesson 66 - More on Parabolas - 23November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h40m35s
