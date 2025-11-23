@@ -11992,3 +11992,38 @@ The vertex is $\mathbf{\left(\frac{2}{3}, \frac{14}{3}\right)}$.
 #### 🧠 Key Takeaway
 
 When using the vertex formula and $h$ is a fraction (as often happens when $b$ is not a multiple of $2a$), the calculation for $k$ requires careful **fraction arithmetic** to substitute the fraction value back into the original function and simplify the constants. This method is mathematically equivalent to completing the square.
+### 📝 Finding the Number of X-Intercepts using the Discriminant: $f(x) = 5x^2 - 3x + 10$
+
+The discriminant ($\mathbf{\Delta = b^2 - 4ac}$) tells us the nature and number of real solutions (x-intercepts) for a quadratic equation.
+
+#### 1. Identify Coefficients
+
+First, identify the coefficients $a$, $b$, and $c$ from the standard form $f(x) = ax^2 + bx + c$:
+$$a = 5$$
+$$b = -3$$
+$$c = 10$$
+
+#### 2. Calculate the Discriminant ($\Delta$)
+
+Substitute the values into the discriminant formula:
+$$\Delta = b^2 - 4ac$$
+$$\Delta = (-3)^2 - 4(5)(10)$$
+$$\Delta = 9 - 200$$
+$$\mathbf{\Delta = -191}$$
+
+#### 3. Determine the Number of X-Intercepts
+
+The rule for the discriminant is:
+* If $\Delta > 0$, there are two real solutions (two x-intercepts).
+* If $\Delta = 0$, there is one real solution (one x-intercept).
+* If $\mathbf{\Delta < 0}$, there are **no real solutions** (zero x-intercepts).
+
+Since the calculated discriminant is $\mathbf{\Delta = -191}$, which is less than zero, the function has **no real solutions**.
+
+$$\text{Conclusion: The function has 0 x-intercepts.}$$
+
+***
+
+#### 🧠 Key Takeaway
+
+A **negative discriminant** ($\Delta < 0$) indicates that the parabola never intersects the x-axis. The solutions to the corresponding equation ($5x^2 - 3x + 10 = 0$) would be **two complex conjugate numbers**, meaning there are no *real* roots.
