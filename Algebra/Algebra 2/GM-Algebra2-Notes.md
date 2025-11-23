@@ -11655,6 +11655,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h15m50s
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h40m35s
 - **Standard Form** : $f(x) = ax^2 + bx +c$ 
 - **Vertex Form** : $a(x-h)^2 + k$ 
+- Be very careful with signs, if '-h' is not a negative number (addition sign instead) it would be a '-'negative' vertex
 ### 📝 Converting Standard Form to Vertex Form: $f(x) = x^2 - 9x + 7$
 
 The goal is to convert the standard form $f(x) = x^2 - 9x + 7$ to the vertex form $f(x) = a(x - h)^2 + k$, where $(h, k)$ is the vertex.
@@ -11697,3 +11698,45 @@ $$\text{Vertex: } (h, k) = \left(\frac{9}{2}, -\frac{53}{4}\right)$$
 #### 🧠 Key Takeaway
 
 Completing the square with an **odd $b$ term** (like -9) requires working carefully with fractions. The vertex $h$-value will be $\frac{b}{2a}$ (here, $\frac{-9}{2(1)} = \frac{9}{2}$), and the $k$-value is found by combining the remaining constant terms. The vertex form immediately reveals the parabola's vertex.
+### 📝 Converting Standard Form to Vertex Form: $f(x) = x^2 + 3x - 10$
+
+The goal is to convert $f(x) = x^2 + 3x - 10$ to the vertex form $f(x) = a(x - h)^2 + k$.
+
+#### 1. Group Variable Terms
+
+Group the $x^2$ and $x$ terms together. Since $a=1$, no division is required.
+$$f(x) = (x^2 + 3x) - 10$$
+
+#### 2. Complete the Square
+
+Identify the coefficient of the $x$ term, $b=3$. Calculate the value to add and subtract using $\mathbf{\left(\frac{b}{2}\right)^2}$:
+
+1.  Calculate $\frac{b}{2}$:
+    $$\frac{3}{2}$$
+2.  Square the result:
+    $$\left(\frac{3}{2}\right)^2 = \frac{9}{4}$$
+
+Add and subtract this value inside the function:
+$$f(x) = \left(x^2 + 3x + \frac{9}{4}\right) - 10 - \frac{9}{4}$$
+
+#### 3. Factor the Perfect Square Trinomial
+
+Factor the terms inside the parentheses into a squared binomial, $\left(\mathbf{x + \frac{b}{2}}\right)^2$:
+$$f(x) = \left(x + \frac{3}{2}\right)^2 - 10 - \frac{9}{4}$$
+
+#### 4. Combine the Constants
+
+Find a common denominator for the constants on the right side. Convert $-10$ to $-\frac{40}{4}$:
+$$f(x) = \left(x + \frac{3}{2}\right)^2 - \frac{40}{4} - \frac{9}{4}$$
+$$f(x) = \left(x + \frac{3}{2}\right)^2 + \frac{-40 - 9}{4}$$
+$$\mathbf{f(x) = \left(x + \frac{3}{2}\right)^2 - \frac{49}{4}}$$
+
+This is the **Vertex Form** of the function.
+
+$$\text{Vertex: } (h, k) = \left(-\frac{3}{2}, -\frac{49}{4}\right)$$
+
+***
+
+#### 🧠 Key Takeaway
+
+When converting to vertex form, the number you add to **complete the square** inside the parentheses must be **subtracted** immediately outside the parentheses to keep the function equivalent to the original. If you use the alternative method of $h = -\frac{b}{2a}$, you get $h = -\frac{3}{2(1)} = -\frac{3}{2}$, which confirms the $h$-value found by completing the square.

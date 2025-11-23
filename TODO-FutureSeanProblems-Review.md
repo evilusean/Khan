@@ -39,6 +39,6 @@ Factoring and using the **Zero Product Property** ($x^2 + x + c = 0$) to find th
 - $i$ imaginary numbers, I still have no idea what a '-i' is despite writing it down - I thought that the entire purpose of '-i' is to transfer the negative outside of a square root, but if we negative a negative... what?
 
 - **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
-- Quadratics - converting between forms  : 
+- Quadratics - converting between forms - I still don't understand the concept 'Cut it in half and square it' and how that gives the answer while equation stays balanced : 
   - **Standard Form** : $f(x) = ax^2 + bx +c$ 
 - **Vertex Form** : $a(x-h)^2 + k$ 
