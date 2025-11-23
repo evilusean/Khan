@@ -11901,3 +11901,53 @@ The vertex is $\mathbf{(-1, -15)}$.
 #### 🧠 Key Takeaway
 
 When the leading coefficient $\mathbf{a \neq 1}$, the $\mathbf{a}$ value carries directly over to the vertex form $f(x) = \mathbf{a}(x - h)^2 + k$. Using the vertex formula, $h = -\frac{b}{2a}$, is often the fastest way to solve these problems, particularly when $b$ is a multiple of $2a$, resulting in a simple integer $h$-value.
+### 📝 Converting to Vertex Form using the Vertex Formula: $f(x) = 3x^2 - 4x + 6$
+
+The goal is to convert $f(x) = 3x^2 - 4x + 6$ to the vertex form $f(x) = a(x - h)^2 + k$.
+
+#### 1. Identify Coefficients and $a$
+
+Identify the coefficients $a$, $b$, and $c$ from the standard form:
+$$a = 3, \quad b = -4, \quad c = 6$$
+
+#### 2. Calculate the $x$-coordinate of the Vertex ($h$)
+
+Use the vertex formula for $h$:
+$$h = -\frac{b}{2a}$$
+
+Substitute $a=3$ and $b=-4$:
+$$h = -\frac{(-4)}{2(3)}$$
+$$h = \frac{4}{6}$$
+$$\mathbf{h = \frac{2}{3}}$$
+
+#### 3. Calculate the $y$-coordinate of the Vertex ($k$)
+
+The $y$-coordinate $k$ is found by substituting the $h$-value back into the original function: $\mathbf{k = f(h)}$.
+$$k = f\left(\frac{2}{3}\right) = 3\left(\frac{2}{3}\right)^2 - 4\left(\frac{2}{3}\right) + 6$$
+
+* **Simplify the squared term:**
+    $$3\left(\frac{4}{9}\right) = \frac{12}{9} = \frac{4}{3}$$
+
+* **Simplify the linear term:**
+    $$-4\left(\frac{2}{3}\right) = -\frac{8}{3}$$
+
+* **Substitute back and combine:**
+    $$k = \frac{4}{3} - \frac{8}{3} + 6$$
+    $$k = -\frac{4}{3} + 6$$
+
+* **Combine constants (use common denominator 3):**
+    $$k = -\frac{4}{3} + \frac{18}{3}$$
+    $$\mathbf{k = \frac{14}{3}}$$
+
+#### 4. Write the Vertex Form
+
+Substitute $a=3$, $h=\frac{2}{3}$, and $k=\frac{14}{3}$ into the vertex form $f(x) = a(x - h)^2 + k$:
+$$\mathbf{f(x) = 3\left(x - \frac{2}{3}\right)^2 + \frac{14}{3}}$$
+
+The vertex is $\mathbf{\left(\frac{2}{3}, \frac{14}{3}\right)}$.
+
+***
+
+#### 🧠 Key Takeaway
+
+When using the vertex formula and $h$ is a fraction (as often happens when $b$ is not a multiple of $2a$), the calculation for $k$ requires careful **fraction arithmetic** to substitute the fraction value back into the original function and simplify the constants. This method is mathematically equivalent to completing the square.
