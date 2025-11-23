@@ -22,6 +22,8 @@ $\frac{Pure amount of the substance}{Total amount of the mixture} = concentratio
 - **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
   -  **Standard Form** : $f(x) = ax^2 + bx +c$ 
 - **Vertex Form** : $a(x-h)^2 + k$ 
+- **Vertex Formula** (from standard form) : $\mathbf{f(x) = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \left(\frac{4ac - b^2}{4a}\right)}$ : The expressions for the vertex components are: * **$h = -\frac{b}{2a}$,** $k = \frac{4ac - b^2}{4a}$
+* **
 
 ## Special Factors :
 - **Difference of Two Squares** : $x^2 y^2 = (x + y)(x - y)$ : The 2 middle terms cancel eachother

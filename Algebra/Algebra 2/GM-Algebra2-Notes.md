@@ -11655,6 +11655,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h15m50s
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=28h40m35s
 - **Standard Form** : $f(x) = ax^2 + bx +c$ 
 - **Vertex Form** : $a(x-h)^2 + k$ 
+- **Vertex Formula** (from standard form) : $\mathbf{f(x) = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \left(\frac{4ac - b^2}{4a}\right)}$ : The expressions for the vertex components are: * **$h = -\frac{b}{2a}$,** $k = \frac{4ac - b^2}{4a}$ : You can just plug in values now that you have the formula
 - Be very careful with signs, if '-h' is not a negative number (addition sign instead) it would be a '-'negative' vertex
 - When the leading coefficent for the $x^2$ term is not zero, you need to divide the $x^2 x^1$ terms by the coefficient AND also the number you are ADDING and SUBTRACTING from the 'completing the square' process 
 ### 📝 Concept Explanation: Why We Complete the Square

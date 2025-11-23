@@ -42,3 +42,4 @@ Factoring and using the **Zero Product Property** ($x^2 + x + c = 0$) to find th
 - Quadratics - converting between forms - I still don't understand the concept 'Cut it in half and square it' and how that gives the answer while equation stays balanced - It's to 'complete the square and get a perfect square trinomial' to get right form : 
   - **Standard Form** : $f(x) = ax^2 + bx +c$ 
 - **Vertex Form** : $a(x-h)^2 + k$ 
+  - **Vertex Formula** (from standard form) : $\mathbf{f(x) = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \left(\frac{4ac - b^2}{4a}\right)}$ : The expressions for the vertex components are: * **$h = -\frac{b}{2a}$,** $k = \frac{4ac - b^2}{4a}$
