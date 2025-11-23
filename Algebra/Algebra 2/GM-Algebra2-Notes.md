@@ -11859,3 +11859,45 @@ $$\text{Vertex: } (h, k) = \left(-\frac{5}{6}, \frac{59}{12}\right)$$
 #### 🧠 Key Takeaway
 
 When the **leading coefficient ($a$) is not 1**, you must **factor it out** of the variable terms before completing the square. Remember that the term you subtract outside the parentheses must be multiplied by $a$ to correctly balance the equation. This process is guaranteed to reveal the vertex $(h, k)$.
+### 📝 Converting to Vertex Form using the Vertex Formula: $f(x) = 8x^2 + 16x - 7$
+
+The goal is to convert $f(x) = 8x^2 + 16x - 7$ to the vertex form $f(x) = a(x - h)^2 + k$.
+
+#### 1. Identify Coefficients and $a$
+
+Identify the coefficients $a$, $b$, and $c$ from the standard form:
+$$a = 8, \quad b = 16, \quad c = -7$$
+
+#### 2. Calculate the $x$-coordinate of the Vertex ($h$)
+
+Use the vertex formula for $h$:
+$$h = -\frac{b}{2a}$$
+
+Substitute $a=8$ and $b=16$:
+$$h = -\frac{16}{2(8)}$$
+$$h = -\frac{16}{16}$$
+$$\mathbf{h = -1}$$
+
+#### 3. Calculate the $y$-coordinate of the Vertex ($k$)
+
+The $y$-coordinate $k$ is found by substituting the $h$-value back into the original function: $\mathbf{k = f(h)}$.
+$$k = f(-1) = 8(-1)^2 + 16(-1) - 7$$
+
+$$k = 8(1) - 16 - 7$$
+$$k = 8 - 16 - 7$$
+$$k = -8 - 7$$
+$$\mathbf{k = -15}$$
+
+#### 4. Write the Vertex Form
+
+Substitute $a=8$, $h=-1$, and $k=-15$ into the vertex form $f(x) = a(x - h)^2 + k$:
+$$f(x) = 8(x - (-1))^2 + (-15)$$
+$$\mathbf{f(x) = 8(x + 1)^2 - 15}$$
+
+The vertex is $\mathbf{(-1, -15)}$.
+
+***
+
+#### 🧠 Key Takeaway
+
+When the leading coefficient $\mathbf{a \neq 1}$, the $\mathbf{a}$ value carries directly over to the vertex form $f(x) = \mathbf{a}(x - h)^2 + k$. Using the vertex formula, $h = -\frac{b}{2a}$, is often the fastest way to solve these problems, particularly when $b$ is a multiple of $2a$, resulting in a simple integer $h$-value.
