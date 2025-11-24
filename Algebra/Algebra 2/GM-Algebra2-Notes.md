@@ -12077,6 +12077,11 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=29h23m45s
   2) These solutions will set up the intervals on the number line
   3) We substitute a test point from each interval into the original inequality
   4) The endpoints are included in the solution set for a non-strict inequality and excluded for a strict inequality
+- The easeiest **Test Point** to use is '0' - You can use multiple test points for multiple intervals(since quadratic have multiple answers in the {solution set}) if the number you plug into the test point for 'x' is 'true' it is part of the solution set, if 'false' it is not part of the solution set -  The 'Solutions' will show the 'x Intercept(s)' on the graph for your parabola
+- **Boundary Points** = Where you go from a solution region to a non-solution region
+- The shading(where to shade) and lines(dashed vs straight line) are similar to *Linear Inequalities*
+- Just using a graphing calculator/software, bro. (Tedious AF to graph and shade everything corectly)
+- 
 ### 📝 Solving Quadratic Inequality using the Quadratic Formula: $3x^2 - 10x + 3 > 0$
 
 To solve the inequality $3x^2 - 10x + 3 > 0$, we first find the critical points (roots) by solving the equality $3x^2 - 10x + 3 = 0$ using the Quadratic Formula: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
