@@ -12081,6 +12081,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=29h23m45s
 - **Boundary Points** = Where you go from a solution region to a non-solution region
 - The shading(where to shade) and lines(dashed vs straight line) are similar to *Linear Inequalities*
 - Just using a graphing calculator/software, bro. (Tedious AF to graph and shade everything corectly)
+- Remember to **reverse the inequality sign** (from $>$ to $<$) when dividing by a negative coefficient 
 - 
 ### 📝 Solving Quadratic Inequality using the Quadratic Formula: $3x^2 - 10x + 3 > 0$
 
@@ -12132,3 +12133,55 @@ The solution includes all $x$-values less than the smaller root or greater than 
 #### 🔑 Key Takeaway
 
 When solving a quadratic inequality using the formula, the formula's primary role is to find the **critical points** quickly. The final step always involves testing the intervals or analyzing the parabola's shape and position relative to the $x$-axis to determine the correct solution set.
+### 📝 Solving Quadratic Inequality using the Quadratic Formula: $-2x^2 - 5x + 96 > -9x$
+
+The goal is to find the $x$-intervals where the inequality is true.
+
+#### 1. Rearrange to Standard Form
+
+Move terms to one side and simplify the inequality:
+$$-2x^2 - 5x + 96 > -9x$$
+$$\text{Add } 9x \text{ to both sides:}$$
+$$-2x^2 + 4x + 96 > 0$$
+
+To simplify the parabola analysis, divide by $-2$. **(Reverse the inequality sign):**
+$$\mathbf{x^2 - 2x - 48 < 0}$$
+We solve the equality $x^2 - 2x - 48 = 0$ for the critical points.
+
+#### 2. Find the Critical Points (Roots)
+
+We use the Quadratic Formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ with coefficients $a=1$, $b=-2$, $c=-48$.
+
+* **Calculate Discriminant ($\Delta$):**
+    $$\Delta = (-2)^2 - 4(1)(-48)$$
+    $$\Delta = 4 + 192 = 196$$
+
+* **Apply Quadratic Formula:**
+    $$x = \frac{-(-2) \pm \sqrt{196}}{2(1)}$$
+    $$x = \frac{2 \pm 14}{2}$$
+
+* **Find Roots:**
+    $$x_1 = \frac{2 + 14}{2} = 8$$
+    $$x_2 = \frac{2 - 14}{2} = -6$$
+
+The critical points (roots) are $\mathbf{x = -6}$ and $\mathbf{x = 8}$.
+
+#### 3. Parabola Analysis and Solution
+
+We analyze the inequality $\mathbf{x^2 - 2x - 48 < 0}$.
+
+1.  **Shape:** Since $a=1$ is positive, the parabola opens **upwards**.
+2.  **Inequality Check:** The inequality requires the function to be **less than 0** ($< 0$), which means we look for the region where the upward-opening parabola is **below** the $x$-axis.
+3.  This region is the **inner interval** between the roots.
+
+* **Interval Notation:**
+    $$\mathbf{(-6, 8)}$$
+
+* **Set Notation:**
+    $$\mathbf{\{x \mid -6 < x < 8\}}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+Remember to **reverse the inequality sign** (from $>$ to $<$) when dividing by a negative coefficient (like dividing by $-2$ in Step 1). The final solution is determined by analyzing the sign of the simplified quadratic ($x^2 - 2x - 48$) and its associated parabola.
