@@ -12077,3 +12077,53 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=29h23m45s
   2) These solutions will set up the intervals on the number line
   3) We substitute a test point from each interval into the original inequality
   4) The endpoints are included in the solution set for a non-strict inequality and excluded for a strict inequality
+### 📝 Solving Quadratic Inequality using the Quadratic Formula: $3x^2 - 10x + 3 > 0$
+
+To solve the inequality $3x^2 - 10x + 3 > 0$, we first find the critical points (roots) by solving the equality $3x^2 - 10x + 3 = 0$ using the Quadratic Formula: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
+
+#### 1. Identify Coefficients and Calculate Roots
+
+* **Coefficients:** $a = 3$, $b = -10$, $c = 3$.
+* **Calculate Discriminant ($\Delta$):**
+    $$\Delta = b^2 - 4ac$$
+    $$\Delta = (-10)^2 - 4(3)(3)$$
+    $$\Delta = 100 - 36$$
+    $$\Delta = 64$$
+
+* **Apply Quadratic Formula:**
+    $$x = \frac{-(-10) \pm \sqrt{64}}{2(3)}$$
+    $$x = \frac{10 \pm 8}{6}$$
+
+* **Find Critical Point 1 ($x_1$):**
+    $$x_1 = \frac{10 + 8}{6} = \frac{18}{6}$$
+    $$\mathbf{x_1 = 3}$$
+
+* **Find Critical Point 2 ($x_2$):**
+    $$x_2 = \frac{10 - 8}{6} = \frac{2}{6}$$
+    $$\mathbf{x_2 = \frac{1}{3}}$$
+
+The critical points are $\mathbf{x = \frac{1}{3}}$ and $\mathbf{x = 3}$.
+
+#### 2. Parabola Analysis
+
+Now we analyze the graph of $f(x) = 3x^2 - 10x + 3$ to determine the intervals where $f(x) > 0$.
+
+1.  **Shape:** Since $a = 3$ is positive, the parabola opens **upwards**.
+2.  **Roots:** The parabola crosses the $x$-axis at $x=\frac{1}{3}$ and $x=3$.
+3.  **Inequality Check:** We are looking for where $f(x) > 0$ (where the parabola is **above** the $x$-axis).
+    * Since the parabola opens up, it is above the $x$-axis on the segments **outside** its roots. 
+#### 3. State the Solution
+
+The solution includes all $x$-values less than the smaller root or greater than the larger root. Since the inequality is strictly greater than ($>$), the endpoints are not included.
+
+* **Interval Notation:**
+    $$\mathbf{\left(-\infty, \frac{1}{3}\right) \cup (3, \infty)}$$
+
+* **Set Notation:**
+    $$\mathbf{\left\{x \mid x < \frac{1}{3} \text{ or } x > 3\right\}}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When solving a quadratic inequality using the formula, the formula's primary role is to find the **critical points** quickly. The final step always involves testing the intervals or analyzing the parabola's shape and position relative to the $x$-axis to determine the correct solution set.
