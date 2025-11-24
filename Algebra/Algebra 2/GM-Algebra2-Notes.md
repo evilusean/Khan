@@ -12247,3 +12247,66 @@ The solution is the interval where the fraction is positive ($> 0$). We use pare
 #### 🔑 Key Takeaway
 
 The crucial first step in solving rational inequalities is always **rearranging the expression** so that one side is zero (Step 1). The final solution **must always exclude** any value that makes the denominator zero (in this case, $x \neq -3$), as the expression is undefined there.
+### 📝 Solving Rational Inequality: $\frac{x - 2}{x + 2} \le 2$
+
+The goal is to find the intervals of $x$ that satisfy the inequality. We must first rearrange it so that one side is zero.
+
+#### 1. Rearrange to Standard Form $\frac{P(x)}{Q(x)} \le 0$
+
+Subtract 2 from both sides and find a common denominator:
+$$\frac{x - 2}{x + 2} - 2 \le 0$$
+
+* **Rewrite 2 with the common denominator $(x+2)$:**
+    $$2 = 2 \cdot \frac{x + 2}{x + 2} = \frac{2(x + 2)}{x + 2}$$
+
+* **Combine the fractions:**
+    $$\frac{x - 2}{x + 2} - \frac{2(x + 2)}{x + 2} \le 0$$
+    $$\frac{(x - 2) - (2x + 4)}{x + 2} \le 0$$
+    $$\frac{x - 2 - 2x - 4}{x + 2} \le 0$$
+    $$\mathbf{\frac{-x - 6}{x + 2} \le 0}$$
+
+#### 2. Find Critical Points (Zeros and Undefined Points)
+
+The critical points are the values that make the numerator or the denominator zero.
+
+* **Numerator Critical Point (Zero):**
+    $$-x - 6 = 0$$
+    $$-x = 6$$
+    $$\mathbf{x = -6}$$
+    (This value *will* be included in the solution because of $\le$).
+
+* **Denominator Critical Point (Undefined Point):**
+    $$x + 2 = 0$$
+    $$\mathbf{x = -2}$$
+    (This value **must always be excluded** from the solution because the expression is undefined here).
+
+#### 3. Perform Sign Analysis
+
+The critical points $x = -6$ and $x = -2$ divide the number line into three intervals: $(-\infty, -6)$, $(-6, -2)$, and $(-2, \infty)$. We check the sign of the expression $\frac{-x - 6}{x + 2}$ in each interval.
+
+| Interval | Test Value ($x$) | Numerator Sign ($-x - 6$) | Denominator Sign ($x + 2$) | Fraction Sign ($\frac{\text{Num}}{\text{Den}}$) | $\frac{P(x)}{Q(x)} \le 0$ (True/False) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **$(-\infty, -6)$** | **$x=-7$** | **Positive (1)** | **Negative (-5)** | **Negative (-)** | **TRUE** |
+| $(-6, -2)$ | $x=-3$ | Negative (-3) | Negative (-1) | Positive (+) | **FALSE** |
+| **$(-2, \infty)$** | **$x=0$** | **Negative (-6)** | **Positive (2)** | **Negative (-)** | **TRUE** |
+
+#### 4. State the Solution
+
+The solution includes the intervals where the fraction is negative or zero.
+* **$x = -6$** (from the numerator) is **included** (use brackets $[$).
+* **$x = -2$** (from the denominator) is **excluded** (use parentheses $)$).
+
+* **Interval Notation:**
+    $$\mathbf{(-\infty, -6] \cup (-2, \infty)}$$
+
+* **Set Notation:**
+    $$\mathbf{\{x \mid x \le -6 \text{ or } x > -2\}}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+For rational inequalities involving $\le$ or $\ge$:
+1.  **Numerator roots** are **included** (brackets).
+2.  **Denominator roots** are **always excluded** (parentheses), as they cause division by zero.
+3.  The final solution is determined by the intervals that match the inequality sign (negative for $\le 0$, positive for $\ge 0$).
