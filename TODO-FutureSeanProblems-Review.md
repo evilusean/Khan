@@ -45,3 +45,5 @@ Factoring and using the **Zero Product Property** ($x^2 + x + c = 0$) to find th
   - **Standard Form** : $f(x) = ax^2 + bx +c$ 
 - **Vertex Form** : $a(x-h)^2 + k$ 
   - **Vertex Formula** (from standard form) : $\mathbf{f(x) = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \left(\frac{4ac - b^2}{4a}\right)}$ : The expressions for the vertex components are: * **$h = -\frac{b}{2a}$,** $k = \frac{4ac - b^2}{4a}$ 
+
+Solving/Graphing Quadratic Inequalities and Rational Inequalities 
