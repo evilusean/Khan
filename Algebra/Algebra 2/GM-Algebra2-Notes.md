@@ -12071,3 +12071,9 @@ $$\text{Conclusion: The function has 2 x-intercepts.}$$
 A **positive discriminant** ($\Delta > 0$) guarantees that the parabola will cross the x-axis at two different points, regardless of whether the parabola opens up ($a>0$) or down ($a<0$). Since $a=-7$ here, the parabola opens down, but it still has two real roots.
 ## Algebra II - Lesson 67 - Quadratic and Rational Inequalities - 24November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=29h23m45s
+- **Quadratic Inequality** : $ax^2 + bx + c > 0$ : $a \ne 0$ : Similar to linear expressions, this is what a quadratic ineuqality is, just replace the '=' equals sign with a '>' '<' '$\le$' '$\ge$'sign
+- **Solving a Quadratic Inequality** : 
+  1) Write the inequality as an equation and solve
+  2) These solutions will set up the intervals on the number line
+  3) We substitute a test point from each interval into the original inequality
+  4) The endpoints are included in the solution set for a non-strict inequality and excluded for a strict inequality
