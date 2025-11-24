@@ -12190,3 +12190,60 @@ We analyze the inequality $\mathbf{x^2 - 2x - 48 < 0}$.
 #### 🔑 Key Takeaway
 
 Remember to **reverse the inequality sign** (from $>$ to $<$) when dividing by a negative coefficient (like dividing by $-2$ in Step 1). The final solution is determined by analyzing the sign of the simplified quadratic ($x^2 - 2x - 48$) and its associated parabola.
+### 📝 Solving Rational Inequality: $\frac{x + 1}{x + 3} > 5$
+
+The goal is to find the intervals of $x$ that satisfy the inequality. We cannot cross-multiply by $(x+3)$ because we don't know if it's positive or negative.
+
+#### 1. Rearrange to Standard Form
+
+Move all terms to one side so the inequality is set to zero, then find a common denominator:
+$$\frac{x + 1}{x + 3} - 5 > 0$$
+
+* **Rewrite 5 with the common denominator $(x+3)$:**
+    $$5 = 5 \cdot \frac{x + 3}{x + 3} = \frac{5(x + 3)}{x + 3}$$
+
+* **Combine the fractions:**
+    $$\frac{x + 1}{x + 3} - \frac{5(x + 3)}{x + 3} > 0$$
+    $$\frac{(x + 1) - (5x + 15)}{x + 3} > 0$$
+    $$\frac{x + 1 - 5x - 15}{x + 3} > 0$$
+    $$\mathbf{\frac{-4x - 14}{x + 3} > 0}$$
+
+#### 2. Find Critical Points (Zeros and Undefined Points)
+
+The critical points are the values that make the numerator or the denominator equal to zero.
+
+* **Numerator Critical Point (Zero):**
+    $$-4x - 14 = 0$$
+    $$-4x = 14$$
+    $$x = -\frac{14}{4}$$
+    $$\mathbf{x = -\frac{7}{2} \text{ or } -3.5}$$
+
+* **Denominator Critical Point (Undefined Point):**
+    $$x + 3 = 0$$
+    $$\mathbf{x = -3}$$
+
+#### 3. Perform Sign Analysis
+
+The critical points $x = -3.5$ and $x = -3$ divide the number line into three intervals: $(-\infty, -3.5)$, $(-3.5, -3)$, and $(-3, \infty)$. We check the sign of the full rational expression $\frac{-4x - 14}{x + 3}$ in each interval.
+
+| Interval | Test Value ($x$) | Numerator Sign ($-4x - 14$) | Denominator Sign ($x + 3$) | Fraction Sign ($\frac{\text{Num}}{\text{Den}}$) | $\frac{P(x)}{Q(x)} > 0$ (True/False) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $(-\infty, -3.5)$ | $x=-4$ | Positive (2) | Negative (-1) | Negative (-) | **FALSE** |
+| **$(-3.5, -3)$** | **$x=-3.25$** | **Positive (1)** | **Positive (0.25)** | **Positive (+)** | **TRUE** |
+| $(-3, \infty)$ | $x=0$ | Negative (-14) | Positive (3) | Negative (-) | **FALSE** |
+
+#### 4. State the Solution
+
+The solution is the interval where the fraction is positive ($> 0$). We use parentheses for the endpoints because the inequality is strictly greater than ($>$) and the denominator is always excluded.
+
+* **Interval Notation:**
+    $$\mathbf{\left(-\frac{7}{2}, -3\right)}$$
+
+* **Set Notation:**
+    $$\mathbf{\left\{x \mid -\frac{7}{2} < x < -3\right\}}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+The crucial first step in solving rational inequalities is always **rearranging the expression** so that one side is zero (Step 1). The final solution **must always exclude** any value that makes the denominator zero (in this case, $x \neq -3$), as the expression is undefined there.
