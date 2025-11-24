@@ -12312,3 +12312,13 @@ For rational inequalities involving $\le$ or $\ge$:
 3.  The final solution is determined by the intervals that match the inequality sign (negative for $\le 0$, positive for $\ge 0$).
 ## Algebra II - Lesson 68 - Inverse Functions - 24November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=29h55m50s
+- **Function** : $f(x)$ : A relation where each x- value corresponds to exactly one y-value - A function is allowed to have y-values that correspond to different x -values (multiple 'x' values can be the same 'y', but multiple 'y's can not be the same 'x' - each input(x) must have the same output(y) - *deterministic*)
+- $(x,y)$ : 'x' represents the domain (allowable inputs), 'y' represents the range (outputs)
+- **One-To-One Function** : Each *x-value* corresponds to ONE *y-value*  -Each *y-value* corresponds to ONE *x-value* - If you have a **One-To-One Function** you can create an **Inverse Function** by interchanging *x* and *y* 
+- **Inverse Function** : $f^{-1}(x)$ : $(x,y) = (y,x)$ Your domain(x) becomes your range(y) and your range(y) becomes  your domain(x) - If you have a **One-To-One Function** you can create an **Inverse Function** by interchanging *x* and *y* - this is the notation to use an inverse function 'F Inverse' is how it's said, It's NOT a $f^{-1}$ negative one exponent($\frac{1}{f(x)}$) , It's an inverse function NOT AN EXPONENT 
+- $f^{-1}$ consists of all ordered pairs (y,x) - where (x,y) are the components of $f$ 
+- $f(f^{-1}(x)) = x$ : this equation is asking for 'what is y in the inverse' which is #(2) below - Plug into the original function to get 'x' : $f(\frac{x-3}{2}) = x$ 
+- $f^{-1}(f(x)) = x$ : this equation is asking plugging in 'y' from the original equation to get x back : $f^{-1}(2x + 3) = x$  
+- $f(x) =  y$ : in order to swap them $f(x) = 2x +3 : y = 2x +3 : x = 2y +3$ : $\frac{x-3}{2} = y$ : <- that is just the chain of causality and swapping f(x) -> y -> x -> then solve for 'y' to get the inverse So: your 2 equations would be :
+  1) $f(x) = 2x + 3$ 
+  2) $f^{-1}(x) = \frac{x-3}{2}$ 
