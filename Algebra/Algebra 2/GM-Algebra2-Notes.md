@@ -12077,12 +12077,17 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=29h23m45s
   2) These solutions will set up the intervals on the number line
   3) We substitute a test point from each interval into the original inequality
   4) The endpoints are included in the solution set for a non-strict inequality and excluded for a strict inequality
-- The easeiest **Test Point** to use is '0' - You can use multiple test points for multiple intervals(since quadratic have multiple answers in the {solution set}) if the number you plug into the test point for 'x' is 'true' it is part of the solution set, if 'false' it is not part of the solution set -  The 'Solutions' will show the 'x Intercept(s)' on the graph for your parabola
+- The easeiest **Test Point** to use is '0' - You can use multiple test points for multiple intervals(since quadratic have multiple answers in the {solution set}) if the number you plug into the test point for 'x' is 'true' it is part of the solution set, if 'false' it is not part of the solution set -  The 'Solutions' will show the 'x Intercept(s)' on the graph for your parabola - He took each solution in the solutions set and created intervals on a numberline and then did a test point on each interval to prove true or false then write an equation like $\mathbf{\left(-\infty, \frac{1}{3}\right) \cup (3, \infty)}$ or $\mathbf{\left\{x \mid x < \frac{1}{3} \text{ or } x > 3\right\}}$ to show where the boundary points/x intercepts are, and where to shade
 - **Boundary Points** = Where you go from a solution region to a non-solution region
 - The shading(where to shade) and lines(dashed vs straight line) are similar to *Linear Inequalities*
 - Just using a graphing calculator/software, bro. (Tedious AF to graph and shade everything corectly)
 - Remember to **reverse the inequality sign** (from $>$ to $<$) when dividing by a negative coefficient 
-- 
+- **Solving a Rational Inequality** : 
+  1) Write the inequality such that '0' is on one side and a single fraction is on the other
+  2) Find all value that make the numerator or denominator 0 ( any value that creates a 0 denominator is excluded from the solution set)
+  3) Use the values to create intervals on the number line
+  4) Test a number from each interval to determine the solution set
+  5) Endpoints are included when they do not make the denominator zero, and we have a non-strict inequality
 ### 📝 Solving Quadratic Inequality using the Quadratic Formula: $3x^2 - 10x + 3 > 0$
 
 To solve the inequality $3x^2 - 10x + 3 > 0$, we first find the critical points (roots) by solving the equality $3x^2 - 10x + 3 = 0$ using the Quadratic Formula: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
