@@ -12311,3 +12311,4 @@ For rational inequalities involving $\le$ or $\ge$:
 2.  **Denominator roots** are **always excluded** (parentheses), as they cause division by zero.
 3.  The final solution is determined by the intervals that match the inequality sign (negative for $\le 0$, positive for $\ge 0$).
 ## Algebra II - Lesson 68 - Inverse Functions - 24November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=29h55m50s
