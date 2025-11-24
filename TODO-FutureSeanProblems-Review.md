@@ -1,5 +1,7 @@
 Create a cheetsheet with most used formulas I learned in Algebra I + II
 
+**Future Sean** : Besides anki card reviews, try to do these in a few months, if you forget in a few months (likely), watch some https://www.youtube.com/channel/UCEWpbFLzoYGPfuWUMFPSaoA - The Organic Chemistry Tutor - Videos on whatever subject, he does a very good job explaining with examples quickly almost every math subject I've come accross (can also add those to anki for Future Future Sean) - Right now, I'm just trying to finish Algebra2 by the end of the month, and don't have much time to practice / review so I can start precalc fresh in december
+
 Study factoring polynomials with coefficients 
 
 Study adding/subtracting rational expressions
