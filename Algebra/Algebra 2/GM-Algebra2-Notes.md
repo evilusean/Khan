@@ -12704,3 +12704,44 @@ $$-6p = 4$$
 #### 🔑 Key Takeaway
 
 When solving exponential equations involving fractions, use the **negative exponent rule** ($b^{-m} = \frac{1}{b^m}$) to rewrite the fraction as a whole number base with a negative exponent. This enables you to find a common base for the entire equation.
+### 💡 Solving Exponential Equation: $\mathbf{216^{-3b - 2} = 36}$
+
+The goal is to solve for $b$ by expressing both sides with the common base $\mathbf{6}$.
+
+#### 1. Express Both Sides with the Common Base 6
+
+* **Rewrite the left side (216):**
+    $$216 = 6 \cdot 36 = 6 \cdot 6^2 = 6^3$$
+    Substitute this into the equation:
+    $$\left(6^3\right)^{-3b - 2} = 36$$
+
+* **Rewrite the right side (36):**
+    $$\mathbf{36 = 6^2}$$
+
+The equation becomes:
+$$\left(6^3\right)^{-3b - 2} = 6^2$$
+
+#### 2. Simplify the Left Exponent
+
+Use the power rule for exponents, $(b^m)^n = b^{m \cdot n}$. Multiply the exponents:
+$$6^{3(-3b - 2)} = 6^2$$
+$$6^{-9b - 6} = 6^2$$
+
+#### 3. Equate the Exponents and Solve for $b$
+
+Since the bases are equal, the exponents must be equal (One-to-One Property):
+$$-9b - 6 = 2$$
+
+* **Add 6 to both sides:**
+    $$-9b = 2 + 6$$
+    $$-9b = 8$$
+
+* **Divide by -9:**
+    $$b = \frac{8}{-9}$$
+    $$\mathbf{b = -\frac{8}{9}}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+For equations with large bases like 216 and 36, look for the **greatest common base** (in this case, 6) that can express both numbers as powers. Once the bases are equal, the problem simplifies into solving a basic linear equation.
