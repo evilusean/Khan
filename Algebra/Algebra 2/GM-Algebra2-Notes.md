@@ -12568,3 +12568,4 @@ For rational functions, the algebra to solve for $y$ involves isolating the term
 * The inverse function has a vertical asymptote at $\mathbf{x=-2}$ and a horizontal asymptote at $\mathbf{y=1}$.
 The asymptotes of the inverse are simply the swapped values of the asymptotes of the original function.
 ## Algebra II - Lesson 69 - Exponential Functions - 25November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=30h34m10s
