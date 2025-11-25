@@ -12909,3 +12909,67 @@ Find the inverse of $\mathbf{f(x) = 5^{x}}$
 * The inverse of an exponential function is a **logarithmic function** with the **same base ($\mathbf{a}$)**.
 * The **domain** of the exponential function ($\mathbf{-\infty, \infty}$) becomes the **range** of the logarithmic function.
 * The **range** of the exponential function ($y > 0$) becomes the **domain** of the logarithmic function ($\mathbf{x > 0}$). The argument of a logarithm can never be zero or negative.
+### 🔄 Converting Exponential Form to Logarithmic Form ($\mathbf{4^2 = 16}$)
+
+The logarithmic form is simply another way to write an exponential relationship. It asks the question: "**To what power do I raise the base to get the argument?**"
+
+#### 1. General Conversion Rule
+
+| Form | Equation | Breakdown |
+| :---: | :---: | :---: |
+| **Exponential** | $$\mathbf{a^y = x}$$ | The **base** ($a$) raised to the **exponent** ($y$) equals the **argument** ($x$). |
+| **Logarithmic** | $$\mathbf{y = \log_a(x)}$$ | The **exponent** ($y$) equals the logarithm, base **base** ($a$), of the **argument** ($x$). |
+
+---
+
+#### 2. Worked Example
+
+Convert the numerical exponential equation $\mathbf{4^2 = 16}$ into logarithmic form (image\_92ea90.png).
+
+1.  **Identify Components:**
+    * Base ($\mathbf{a}$) = 4
+    * Exponent ($\mathbf{y}$) = 2
+    * Argument ($\mathbf{x}$) = 16
+
+2.  **Apply Conversion ($y = \log_a(x)$):**
+    $$\mathbf{2 = \log_4(16)}$$
+
+**Interpretation:** The log expression asks, "To what power must 4 be raised to equal 16?" The answer is 2.
+
+***
+
+#### 🔑 Key Takeaway
+
+The logarithm is fundamentally the **exponent**. When you convert $a^y = x$ to $\log_a(x) = y$, you are isolating the exponent ($y$) on one side. This conversion is vital for solving exponential equations when bases cannot be easily matched.
+### 🔄 Converting Exponential Form: $\mathbf{5^3 = 125}$ to Logarithmic Form
+
+The logarithmic form is fundamentally the **inverse operation** of the exponential form. It isolates the exponent, asking, "**To what power must the base be raised to get the argument?**"
+
+#### 1. General Conversion Rule
+
+The general rule for conversion is:
+$$\mathbf{\text{Exponential Form: } a^y = x \quad \iff \quad \text{Logarithmic Form: } y = \log_a(x)}$$
+
+| Term | Role in Exponential ($a^y = x$) | Role in Logarithmic ($\log_a(x) = y$) | Value in Example |
+| :---: | :---: | :---: | :---: |
+| **Base** | $a$ | $a$ (subscript) | 5 |
+| **Exponent** | $y$ | $y$ (isolated) | 3 |
+| **Argument** | $x$ | $x$ (inside log) | 125 |
+
+---
+
+#### 2. Worked Example Conversion
+
+Convert the numerical exponential equation $\mathbf{5^3 = 125}$ into logarithmic form.
+
+* **Identify:** Base $a=5$, Exponent $y=3$, Argument $x=125$.
+* **Apply Rule ($y = \log_a(x)$):**
+    $$\mathbf{3 = \log_5(125)}$$
+
+**Interpretation:** The log expression asks, "To what power must **5** be raised to equal **125**?" The answer is **3**.
+
+***
+
+#### 🔑 Key Takeaway
+
+The $\mathbf{\text{logarithm IS the exponent}}$. This relationship is crucial because it allows you to solve for unknown exponents, which is impossible using only basic algebra. When converting, always ensure the **base** of the exponentiation becomes the **base** of the logarithm.
