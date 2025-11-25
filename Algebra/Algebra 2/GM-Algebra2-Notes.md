@@ -13058,3 +13058,50 @@ To solve any logarithmic equation of the form $\mathbf{\log_a(\text{expression})
 2.  **Use the Logarithmic Definition** to convert it into the exponential relationship: $\mathbf{a^y = \text{expression}}$.
 3.  **Solve** the simplified equation.
 4.  Always **verify your solution** by ensuring the argument of the original logarithm is positive. If $3x \le 0$, the solution would be extraneous.
+### 💡 Solving Logarithmic Equation: $\mathbf{\log_5(-4x + 5) = 2}$
+
+The goal is to solve for $x$ by converting the equation from logarithmic form to exponential form and then solving the resulting linear equation.
+
+#### 1. Convert to Exponential Form
+
+Recall the conversion rule: $\mathbf{\log_a(\text{Argument}) = y \iff a^y = \text{Argument}}$.
+
+* **Identify Components:**
+    * Base ($\mathbf{a}$) = 5
+    * Exponent ($\mathbf{y}$) = 2
+    * Argument = $\mathbf{-4x + 5}$
+
+* **Apply Conversion ($a^y = \text{Argument}$):**
+    $$5^2 = -4x + 5$$
+
+---
+
+#### 2. Solve the Resulting Linear Equation for $x$
+
+* **Calculate $5^2$:**
+    $$25 = -4x + 5$$
+
+* **Subtract 5 from both sides:**
+    $$25 - 5 = -4x$$
+    $$20 = -4x$$
+
+* **Divide by -4:**
+    $$x = \frac{20}{-4}$$
+    $$\mathbf{x = -5}$$
+
+#### 3. Final Solution and Domain Check
+
+The solution is $\mathbf{x = -5}$.
+
+**Domain Check:**
+The argument of the logarithm, $-4x + 5$, must be strictly positive: $\mathbf{-4x + 5 > 0}$.
+
+Substitute $x = -5$ into the argument:
+$$-4(-5) + 5 = 20 + 5 = 25$$
+Since $25 > 0$, the solution $\mathbf{x = -5}$ is valid.
+
+***
+
+#### 🔑 Key Takeaway
+
+To solve any isolated logarithmic equation, **convert to its exponential equivalent**. After finding a potential solution, it is **mandatory** to check it in the original equation to ensure the argument of the logarithm remains **positive**. If the argument were zero or negative, the solution would be extraneous (not valid).
