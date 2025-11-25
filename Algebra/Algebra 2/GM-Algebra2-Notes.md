@@ -12322,6 +12322,10 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=29h55m50s
 - $f(x) =  y$ : in order to swap them $f(x) = 2x +3 : y = 2x +3 : x = 2y +3$ : $\frac{x-3}{2} = y$ : <- that is just the chain of causality and swapping f(x) -> y -> x -> then solve for 'y' to get the inverse So: your 2 equations would be :
   1) $f(x) = 2x + 3$ 
   2) $f^{-1}(x) = \frac{x-3}{2}$ 
+- If you want to check if a function is a one to one, simply check for duplicate x AND y values
+- **Vertical Line Test** = How to test if something is a *One to one function* draw a straight line on a graph of your function, if it touches at any point twice, for each 'x' more than one 'y', it is not a one to one
+- **Horizontal Line Test** = If any horizontal line intersects the graph of a function in no more than one spot, the function is one to one
+- 
 ### 📝 Inverse Function Composition: $\mathbf{f(f^{-1}(x)) = x}$ and $\mathbf{f^{-1}(f(x)) = x}$
 
 These two equations define the property of **inverse functions**: when you compose a function with its inverse (in either order), the result is always the original input, $x$. This is called the **Identity Function**.
