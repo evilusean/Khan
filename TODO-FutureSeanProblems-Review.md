@@ -48,6 +48,14 @@ Factoring and using the **Zero Product Property** ($x^2 + x + c = 0$) to find th
 
 Solving/Graphing Quadratic Inequalities and Rational Inequalities 
 
-Exponential and Logarithmic Functions :
+Exponential and Logarithmic Functions (Logarithmic Form Vs Exponential Form) :
 **Logarithmic Function** : $f(x) = \log_a(x)$ : $a > 0, x > 0, a \neq 1$ : **Base ($a$):** Must be a positive number and cannot be equal to 1. **Argument ($x$):** Must be strictly positive ($x > 0$), which defines the **domain** of the function. : 
 **Exponential Function** : $f(x) = a^x$ : $a > 0, a \ne 1$ where 'x' is any real number greater than 0 and 'a' is not 1
+The general rule for conversion is:
+$$\mathbf{\text{Exponential Form: } a^y = x \quad \iff \quad \text{Logarithmic Form: } y = \log_a(x)}$$
+
+|     Term     | Role in Exponential ($a^y = x$) | Role in Logarithmic ($\log_a(x) = y$) | Value in Example |
+| :----------: | :-----------------------------: | :-----------------------------------: | :--------------: |
+|   **Base**   |               $a$               |            $a$ (subscript)            |        10        |
+| **Exponent** |               $y$               |            $y$ (isolated)             |        -2        |
+| **Argument** |               $x$               |           $x$ (inside log)            | $\frac{1}{100}$  |

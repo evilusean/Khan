@@ -12982,11 +12982,11 @@ The logarithmic form is fundamentally the **inverse operation** of the exponenti
 The general rule for conversion is:
 $$\mathbf{\text{Exponential Form: } a^y = x \quad \iff \quad \text{Logarithmic Form: } y = \log_a(x)}$$
 
-| Term | Role in Exponential ($a^y = x$) | Role in Logarithmic ($\log_a(x) = y$) | Value in Example |
-| :---: | :---: | :---: | :---: |
-| **Base** | $a$ | $a$ (subscript) | 10 |
-| **Exponent** | $y$ | $y$ (isolated) | -2 |
-| **Argument** | $x$ | $x$ (inside log) | $\frac{1}{100}$ |
+|     Term     | Role in Exponential ($a^y = x$) | Role in Logarithmic ($\log_a(x) = y$) | Value in Example |
+| :----------: | :-----------------------------: | :-----------------------------------: | :--------------: |
+|   **Base**   |               $a$               |            $a$ (subscript)            |        10        |
+| **Exponent** |               $y$               |            $y$ (isolated)             |        -2        |
+| **Argument** |               $x$               |           $x$ (inside log)            | $\frac{1}{100}$  |
 
 ---
 
@@ -13008,3 +13008,53 @@ $$\mathbf{-2 = \log\left(\frac{1}{100}\right)}$$
 #### 🔑 Key Takeaway
 
 A **negative exponent** in the exponential form translates to a **negative result** in the logarithmic form. The base 10 logarithm ($\log_{10}$) is commonly used in science and engineering and is often denoted as just $\log$.
+### 💡 Solving Logarithmic Equation: $\mathbf{3 = \log_{10}(3x)}$
+
+The goal is to solve for $x$ by converting the equation from logarithmic form to exponential form.
+
+#### 1. Analyze the Logarithmic Form
+
+The equation is already in the isolated form $\mathbf{y = \log_a(x)}$.
+
+* **Original Equation:** $\mathbf{3 = \log_{10}(3x)}$
+* **Identify Components:**
+    * Base ($\mathbf{a}$) = 10
+    * Exponent ($\mathbf{y}$) = 3
+    * Argument ($\mathbf{x}$ in the formula, which is $\mathbf{3x}$ here)
+
+---
+
+#### 2. Convert to Exponential Form
+
+We use the conversion rule: $\mathbf{y = \log_a(\text{Argument}) \iff a^y = \text{Argument}}$.
+
+* **Apply Conversion:**
+    $$10^3 = 3x$$
+
+---
+
+#### 3. Solve the Resulting Linear Equation for $x$
+
+* **Calculate $10^3$:**
+    $$1000 = 3x$$
+
+* **Divide by 3:**
+    $$\mathbf{x = \frac{1000}{3}}$$
+
+#### 4. Final Solution and Domain Check
+
+The solution to the equation is $\mathbf{x = \frac{1000}{3}}$.
+
+**Domain Check:**
+The argument of the logarithm, $3x$, must be strictly positive: $\mathbf{3x > 0}$.
+Since $\frac{1000}{3}$ is a positive value, $3\left(\frac{1000}{3}\right) = 1000$, which is $> 0$. The solution is valid.
+
+***
+
+#### 🔑 Key Takeaway
+
+To solve any logarithmic equation of the form $\mathbf{\log_a(\text{expression}) = y}$:
+1.  **Isolate** the logarithm (which is already done here).
+2.  **Use the Logarithmic Definition** to convert it into the exponential relationship: $\mathbf{a^y = \text{expression}}$.
+3.  **Solve** the simplified equation.
+4.  Always **verify your solution** by ensuring the argument of the original logarithm is positive. If $3x \le 0$, the solution would be extraneous.
