@@ -12579,6 +12579,13 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=30h34m10s
 - *The Domain* : Inputs, Set of all allowable 'x' values consists of all real numbers $(-\infty, \infty)$
 - *The Range* : Outputs, Set of all available 'y' values consists of all positive numbers $(0, \infty)$  
 - *The Base* = 'a' : When 'a > 1', the graph rises from left to right - When '0 < a < 1', the graph will fall from left to right
+- **Exponential Equation** :  $2^x = 16$  : Is an equation with a variable in the exponent - If $a^x = a^y$ Then 'x = y'
+- **Solving an Exponential Equation** :
+  1) Each side must have the same base
+  2) Simplify the exponents
+  3) Set the exponents equal to eachother
+  4) Solve the resulting equation
+  5) Check with substitution
 ### 📈 Exponential Function Value Map: $\mathbf{f(x) = 2^x}$
 
 This chart maps the requested input values ($x$) to their corresponding output values ($f(x)$) for the base-2 exponential function.
@@ -12615,3 +12622,47 @@ This chart maps the requested input values ($x$) to their corresponding output v
 
 1.  **Exponential Decay:** Because the base $\mathbf{b = \frac{1}{2}}$ is between $\mathbf{0}$ and $\mathbf{1}$ ($0 < b < 1$), this function represents **exponential decay**. As $x$ increases, the $y$-value decreases.
 2.  **Negative Exponents:** A negative exponent results in the **reciprocal** of the base raised to the positive exponent. For example, $\left(\frac{1}{2}\right)^{-3} = \left(\frac{2}{1}\right)^3 = 8$.
+### 💡 Solving Exponential Equation: $\mathbf{2^{3x - 3} = 64}$
+
+The goal is to solve for $x$ by equating the exponents after expressing both sides of the equation with the same base.
+
+#### 1. Express Both Sides with the Same Base
+
+We notice the base on the left is $\mathbf{2}$. We must determine what power of 2 equals 64:
+$$2^1 = 2$$
+$$2^2 = 4$$
+$$2^3 = 8$$
+$$2^4 = 16$$
+$$2^5 = 32$$
+$$2^6 = 64$$
+
+Substitute $2^6$ for 64 in the original equation:
+$$2^{3x - 3} = 2^6$$
+
+#### 2. Equate the Exponents
+
+Since the bases are equal, the exponents must be equal:
+$$3x - 3 = 6$$
+
+#### 3. Solve the Linear Equation for $x$
+
+* **Add 3 to both sides:**
+    $$3x = 6 + 3$$
+    $$3x = 9$$
+
+* **Divide by 3:**
+    $$x = \frac{9}{3}$$
+    $$\mathbf{x = 3}$$
+
+#### 4. Verification
+
+Plug $x=3$ back into the original equation:
+$$2^{3(3) - 3} = 2^{9 - 3} = 2^6 = 64$$
+$$64 = 64$$
+The solution is correct.
+
+***
+
+#### 🔑 Key Takeaway
+
+To solve exponential equations where the variable is in the exponent, the best strategy is often to find a **common base** for both sides. Once the bases are equal, the $\mathbf{One-to-One Property of Exponential Functions}$ allows you to set the exponents equal to each other, turning the exponential equation into a simpler linear or quadratic equation.
