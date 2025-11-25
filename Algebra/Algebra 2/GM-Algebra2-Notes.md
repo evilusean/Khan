@@ -12578,4 +12578,22 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=30h34m10s
 - **Asymptote** : Exponential functions are *Asymptotes*, the graph approaches the x-axis, but will never touch it.
 - *The Domain* : Inputs, Set of all allowable 'x' values consists of all real numbers $(-\infty, \infty)$
 - *The Range* : Outputs, Set of all available 'y' values consists of all positive numbers $(0, \infty)$  
-- *The Base* = 'a' : When 'a > 1', the graph rises from left to right - When '0 < a < 1', the graph will fall from left to right 
+- *The Base* = 'a' : When 'a > 1', the graph rises from left to right - When '0 < a < 1', the graph will fall from left to right
+### 📈 Exponential Function Value Map: $\mathbf{f(x) = 2^x}$
+
+This chart maps the requested input values ($x$) to their corresponding output values ($f(x)$) for the base-2 exponential function.
+
+| $x$ (Input) | Calculation ($f(x) = 2^x$) | $y$ (Output) |
+| :---: | :---: | :---: |
+| **-4** | $2^{-4} = \frac{1}{2^4}$ | $\mathbf{\frac{1}{16}}$ |
+| **-1** | $2^{-1} = \frac{1}{2}$ | $\mathbf{\frac{1}{2}}$ |
+| **0** | $2^0$ | $\mathbf{1}$ |
+| **1** | $2^1$ | $\mathbf{2}$ |
+| **3** | $2^3$ | $\mathbf{8}$ |
+
+***
+
+#### 🔑 Key Takeaway
+
+1.  **Zero Exponent:** Any non-zero base raised to the power of $\mathbf{0}$ is always $\mathbf{1}$. This means all exponential functions of the form $f(x) = b^x$ (where $b > 0$ and $b \neq 1$) pass through the point $(\mathbf{0, 1})$.
+2.  **Negative Exponents:** A negative exponent results in the **reciprocal** of the base raised to the positive exponent. For example, $2^{-4} = \frac{1}{2^4}$.
