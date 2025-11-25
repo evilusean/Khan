@@ -12426,3 +12426,38 @@ $$\mathbf{f^{-1}(x) = \frac{2x + 10}{3}}$$
 #### 🔑 Key Takeaway
 
 Finding the inverse function essentially **reverses the order of operations**. The original function: $x \to \text{multiply by } 3 \to \text{subtract } 10 \to \text{divide by } 2$. The inverse function: $x \to \text{multiply by } 2 \to \text{add } 10 \to \text{divide by } 3$. This shows the inverse function uses inverse operations in the reverse order.
+### 📝 Finding the Inverse Function: $\mathbf{f(x) = \frac{-4x}{5}}$
+
+The process of finding the inverse function, $\mathbf{f^{-1}(x)}$, involves three main steps: 1) Replace $f(x)$ with $y$, 2) Swap $x$ and $y$, and 3) Solve for the new $y$.
+
+#### 1. Set $f(x) = y$
+
+Write the function using $y$:
+$$y = \frac{-4x}{5}$$
+
+#### 2. Swap $x$ and $y$
+
+Exchange the positions of $x$ and $y$ in the equation:
+$$x = \frac{-4y}{5}$$
+
+#### 3. Solve for $y$ (Isolate the variable)
+
+* **Multiply both sides by 5:**
+    $$5x = -4y$$
+
+* **Divide both sides by -4:**
+    $$y = \frac{5x}{-4}$$
+    $$y = -\frac{5x}{4}$$
+
+#### 4. State the Inverse Function
+
+Replace $y$ with $f^{-1}(x)$:
+$$\mathbf{f^{-1}(x) = -\frac{5x}{4}}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+For linear functions, finding the inverse is simply performing the inverse operations in the reverse order.
+The original function $f(x)$ takes $x$, multiplies it by $-\frac{4}{5}$.
+The inverse function $f^{-1}(x)$ takes $x$ and multiplies it by the reciprocal of $-\frac{4}{5}$, which is $\mathbf{-\frac{5}{4}}$.
