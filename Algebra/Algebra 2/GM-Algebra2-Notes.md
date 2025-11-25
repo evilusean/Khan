@@ -12526,3 +12526,44 @@ $$\mathbf{f^{-1}(x) = (x - 3)^3}$$
 #### 🔑 Key Takeaway
 
 For functions involving roots, the final step in finding the inverse is often raising both sides to a power that matches the root's index. The inverse of **adding 3** and then **taking the cube root** is **subtracting 3** and then **cubing the result**.
+### 📝 Finding the Inverse Function: $\mathbf{f(x) = \frac{3}{x - 1} - 2}$
+
+The process for finding the inverse function, $\mathbf{f^{-1}(x)}$, is: 1) Replace $f(x)$ with $y$, 2) Swap $x$ and $y$, and 3) Solve for the new $y$.
+
+#### 1. Set $f(x) = y$
+
+Write the function using $y$:
+$$y = \frac{3}{x - 1} - 2$$
+
+#### 2. Swap $x$ and $y$
+
+Exchange the positions of $x$ and $y$ in the equation:
+$$x = \frac{3}{y - 1} - 2$$
+
+#### 3. Solve for $y$ (Isolate the variable)
+
+* **Add 2 to both sides:**
+    $$x + 2 = \frac{3}{y - 1}$$
+
+* **Multiply by $(y - 1)$ to get $y$ out of the denominator:**
+    $$(x + 2)(y - 1) = 3$$
+
+* **Divide by $(x + 2)$:**
+    $$y - 1 = \frac{3}{x + 2}$$
+
+* **Add 1 to both sides:**
+    $$y = \frac{3}{x + 2} + 1$$
+
+#### 4. State the Inverse Function
+
+Replace $y$ with $f^{-1}(x)$:
+$$\mathbf{f^{-1}(x) = \frac{3}{x + 2} + 1}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+For rational functions, the algebra to solve for $y$ involves isolating the term with $y$, often by cross-multiplication or by manipulating the terms until $y$ is isolated in the numerator.
+* The original function has a vertical asymptote at $\mathbf{x=1}$ and a horizontal asymptote at $\mathbf{y=-2}$.
+* The inverse function has a vertical asymptote at $\mathbf{x=-2}$ and a horizontal asymptote at $\mathbf{y=1}$.
+The asymptotes of the inverse are simply the swapped values of the asymptotes of the original function.
