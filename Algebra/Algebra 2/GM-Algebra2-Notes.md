@@ -12597,3 +12597,21 @@ This chart maps the requested input values ($x$) to their corresponding output v
 
 1.  **Zero Exponent:** Any non-zero base raised to the power of $\mathbf{0}$ is always $\mathbf{1}$. This means all exponential functions of the form $f(x) = b^x$ (where $b > 0$ and $b \neq 1$) pass through the point $(\mathbf{0, 1})$.
 2.  **Negative Exponents:** A negative exponent results in the **reciprocal** of the base raised to the positive exponent. For example, $2^{-4} = \frac{1}{2^4}$.
+### 📉 Exponential Function Value Map: $\mathbf{f(x) = \left(\frac{1}{2}\right)^x}$
+
+This chart maps the requested input values ($x$) to their corresponding output values ($f(x)$) for the base-$1/2$ exponential function, which demonstrates exponential decay.
+
+| $x$ (Input) | Calculation ($f(x) = \left(\frac{1}{2}\right)^x$) | $y$ (Output) |
+| :---: | :---: | :---: |
+| **-3** | $\left(\frac{1}{2}\right)^{-3} = 2^3$ | $\mathbf{8}$ |
+| **-1** | $\left(\frac{1}{2}\right)^{-1} = 2^1$ | $\mathbf{2}$ |
+| **0** | $\left(\frac{1}{2}\right)^0$ | $\mathbf{1}$ |
+| **1** | $\left(\frac{1}{2}\right)^1$ | $\mathbf{\frac{1}{2}}$ |
+| **2** | $\left(\frac{1}{2}\right)^2$ | $\mathbf{\frac{1}{4}}$ |
+
+***
+
+#### 🔑 Key Takeaway
+
+1.  **Exponential Decay:** Because the base $\mathbf{b = \frac{1}{2}}$ is between $\mathbf{0}$ and $\mathbf{1}$ ($0 < b < 1$), this function represents **exponential decay**. As $x$ increases, the $y$-value decreases.
+2.  **Negative Exponents:** A negative exponent results in the **reciprocal** of the base raised to the positive exponent. For example, $\left(\frac{1}{2}\right)^{-3} = \left(\frac{2}{1}\right)^3 = 8$.
