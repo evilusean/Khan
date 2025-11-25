@@ -12322,3 +12322,68 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=29h55m50s
 - $f(x) =  y$ : in order to swap them $f(x) = 2x +3 : y = 2x +3 : x = 2y +3$ : $\frac{x-3}{2} = y$ : <- that is just the chain of causality and swapping f(x) -> y -> x -> then solve for 'y' to get the inverse So: your 2 equations would be :
   1) $f(x) = 2x + 3$ 
   2) $f^{-1}(x) = \frac{x-3}{2}$ 
+### 📝 Inverse Function Composition: $\mathbf{f(f^{-1}(x)) = x}$ and $\mathbf{f^{-1}(f(x)) = x}$
+
+These two equations define the property of **inverse functions**: when you compose a function with its inverse (in either order), the result is always the original input, $x$. This is called the **Identity Function**.
+
+Let's use the function $f(x) = 2x + 3$.
+#### 1. Find the Inverse Function $f^{-1}(x)$
+
+First, we find the inverse of $f(x) = 2x + 3$.
+
+1.  **Replace $f(x)$ with $y$**: $y = 2x + 3$
+2.  **Swap $x$ and $y$**: $x = 2y + 3$
+3.  **Solve for $y$**:
+    $$x - 3 = 2y$$
+    $$y = \frac{x - 3}{2}$$
+4.  **Replace $y$ with $f^{-1}(x)$**: $\mathbf{f^{-1}(x) = \frac{x - 3}{2}}$
+
+---
+
+#### I. The Rule: $\mathbf{f(f^{-1}(x)) = x}$
+
+**Concept:** This asks, "If I take an output from the inverse function and put it into the original function, I get back the original input $x$."
+
+**Your Interpretation:** *This equation is asking for 'what is y in the inverse' which is #(2) below - Plug into the original function to get 'x'.* (This is essentially correct, as $f^{-1}(x)$ is the input to $f$.)
+
+**Fully Worked Example:**
+
+Given $f(x) = 2x + 3$ and $f^{-1}(x) = \frac{x - 3}{2}$, we substitute $f^{-1}(x)$ into $f(x)$.
+
+1.  **Substitute $f^{-1}(x)$ into $f(x)$:**
+    $$f(f^{-1}(x)) = f\left(\frac{x - 3}{2}\right)$$
+
+2.  **Apply the rule for $f(x)$:** (Replace every $x$ in $2x + 3$ with $\frac{x - 3}{2}$)
+    $$f\left(\frac{x - 3}{2}\right) = 2\left(\frac{x - 3}{2}\right) + 3$$
+
+3.  **Simplify:**
+    $$f(f^{-1}(x)) = (x - 3) + 3$$
+    $$\mathbf{f(f^{-1}(x)) = x}$$
+
+---
+
+#### II. The Rule: $\mathbf{f^{-1}(f(x)) = x}$
+
+**Concept:** This asks, "If I take an output from the original function and put it into the inverse function, I get back the original input $x$."
+
+**Your Interpretation:** *This equation is asking plugging in 'y' from the original equation to get x back.* (This is also correct, as $f(x)$ is the output of the original function and the input to $f^{-1}$.)
+
+**Fully Worked Example:**
+
+Given $f(x) = 2x + 3$ and $f^{-1}(x) = \frac{x - 3}{2}$, we substitute $f(x)$ into $f^{-1}(x)$.
+
+1.  **Substitute $f(x)$ into $f^{-1}(x)$:**
+    $$f^{-1}(f(x)) = f^{-1}(2x + 3)$$
+
+2.  **Apply the rule for $f^{-1}(x)$:** (Replace every $x$ in $\frac{x - 3}{2}$ with $2x + 3$)
+    $$f^{-1}(2x + 3) = \frac{(2x + 3) - 3}{2}$$
+
+3.  **Simplify:**
+    $$f^{-1}(f(x)) = \frac{2x}{2}$$
+    $$\mathbf{f^{-1}(f(x)) = x}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+If and only if **both** compositions result in $x$, the functions are true inverses. The order of composition does not matter—they "undo" each other perfectly, returning the original input. This property is used to **verify inverses**.
