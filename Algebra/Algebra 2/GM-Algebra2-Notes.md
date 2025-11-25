@@ -12973,3 +12973,38 @@ Convert the numerical exponential equation $\mathbf{5^3 = 125}$ into logarithmic
 #### 🔑 Key Takeaway
 
 The $\mathbf{\text{logarithm IS the exponent}}$. This relationship is crucial because it allows you to solve for unknown exponents, which is impossible using only basic algebra. When converting, always ensure the **base** of the exponentiation becomes the **base** of the logarithm.
+### 🔄 Converting Exponential Form: $\mathbf{10^{-2} = \frac{1}{100}}$ to Logarithmic Form
+
+The logarithmic form is fundamentally the **inverse operation** of the exponential form. It isolates the exponent, asking, "**To what power must the base be raised to get the argument?**"
+
+#### 1. General Conversion Rule
+
+The general rule for conversion is:
+$$\mathbf{\text{Exponential Form: } a^y = x \quad \iff \quad \text{Logarithmic Form: } y = \log_a(x)}$$
+
+| Term | Role in Exponential ($a^y = x$) | Role in Logarithmic ($\log_a(x) = y$) | Value in Example |
+| :---: | :---: | :---: | :---: |
+| **Base** | $a$ | $a$ (subscript) | 10 |
+| **Exponent** | $y$ | $y$ (isolated) | -2 |
+| **Argument** | $x$ | $x$ (inside log) | $\frac{1}{100}$ |
+
+---
+
+#### 2. Worked Example Conversion
+
+Convert the numerical exponential equation $\mathbf{10^{-2} = \frac{1}{100}}$ into logarithmic form.
+
+* **Identify:** Base $a=10$, Exponent $y=-2$, Argument $x=\frac{1}{100}$.
+* **Apply Rule ($y = \log_a(x)$):**
+    $$\mathbf{-2 = \log_{10}\left(\frac{1}{100}\right)}$$
+
+**Note on Common Logarithms:** Since the base is 10, this is the **Common Logarithm**. It is often written without the subscript:
+$$\mathbf{-2 = \log\left(\frac{1}{100}\right)}$$
+
+**Interpretation:** The log expression asks, "To what power must **10** be raised to equal **1/100**?" The answer is **-2**.
+
+***
+
+#### 🔑 Key Takeaway
+
+A **negative exponent** in the exponential form translates to a **negative result** in the logarithmic form. The base 10 logarithm ($\log_{10}$) is commonly used in science and engineering and is often denoted as just $\log$.
