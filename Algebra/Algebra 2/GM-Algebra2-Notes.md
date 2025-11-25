@@ -12796,3 +12796,53 @@ For complicated exponential equations, the procedure is sequential:
 2. **Power Rule:** Simplify expressions with exponents raised to exponents (Step 2).
 3. **Product/Quotient Rule:** Combine terms on each side into a single base (Step 3).
 4. **Equate:** Set the resulting exponents equal to each other (Step 4).
+### 💡 Solving Exponential Equation: $\mathbf{64^{3p + 3} \cdot \left(\frac{1}{8}\right)^{2p} = 64^{-p - 3}}$
+
+The goal is to solve for $p$ by expressing all bases (64 and $\frac{1}{8}$) as powers of the common base $\mathbf{8}$.
+
+#### 1. Express All Bases with the Common Base 8
+
+* **Rewrite 64:**
+    $$64 = 8^2$$
+* **Rewrite $\frac{1}{8}$:**
+    $$\frac{1}{8} = 8^{-1}$$
+
+Substitute these into the original equation:
+$$\left(8^2\right)^{3p + 3} \cdot \left(8^{-1}\right)^{2p} = \left(8^2\right)^{-p - 3}$$
+
+#### 2. Simplify Exponents using the Power Rule $(b^m)^n = b^{m \cdot n}$
+
+Multiply the outer and inner exponents on both sides:
+$$8^{2(3p + 3)} \cdot 8^{-1(2p)} = 8^{2(-p - 3)}$$
+$$8^{6p + 6} \cdot 8^{-2p} = 8^{-2p - 6}$$
+
+#### 3. Combine Exponents on the Left Side using the Product Rule $b^m \cdot b^n = b^{m+n}$
+
+Add the exponents on the left side:
+$$8^{(6p + 6) + (-2p)} = 8^{-2p - 6}$$
+$$8^{4p + 6} = 8^{-2p - 6}$$
+
+#### 4. Equate the Exponents and Solve for $p$
+
+Since the bases are equal, the exponents must be equal (One-to-One Property):
+$$4p + 6 = -2p - 6$$
+
+* **Add $2p$ to both sides (group $p$ terms):**
+    $$6p + 6 = -6$$
+
+* **Subtract 6 from both sides (group constant terms):**
+    $$6p = -6 - 6$$
+    $$6p = -12$$
+
+* **Divide by 6:**
+    $$p = \frac{-12}{6}$$
+    $$\mathbf{p = -2}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+For exponential equations with multiple terms and fractions, use the common base strategy:
+1.  **Identify the simplest common base** (e.g., 8 is simpler than 2, as $8^2 = 64$).
+2.  **Use negative exponents** for fractions ($\frac{1}{8} = 8^{-1}$).
+3.  **Use exponent rules** (Power and Product) to simplify the equation to the form $b^A = b^B$, which allows you to solve the resulting linear equation $A = B$.
