@@ -12493,3 +12493,36 @@ $$\mathbf{f^{-1}(x) = \sqrt[3]{x + 2}}$$
 #### 🔑 Key Takeaway
 
 The inverse of a cubing operation ($\mathbf{x^3}$) is the **cube root operation** ($\mathbf{\sqrt[3]{x}}$). This function $f(x)$ is defined for all real numbers and is one-to-one, meaning its inverse $f^{-1}(x)$ is also a function defined for all real numbers.
+### 📝 Finding the Inverse Function: $\mathbf{f(x) = \sqrt[3]{x} + 3}$
+
+The process for finding the inverse function, $\mathbf{f^{-1}(x)}$, is: 1) Replace $f(x)$ with $y$, 2) Swap $x$ and $y$, and 3) Solve for the new $y$.
+
+#### 1. Set $f(x) = y$
+
+Write the function using $y$:
+$$y = \sqrt[3]{x} + 3$$
+
+#### 2. Swap $x$ and $y$
+
+Exchange the positions of $x$ and $y$ in the equation:
+$$x = \sqrt[3]{y} + 3$$
+
+#### 3. Solve for $y$ (Isolate the variable)
+
+* **Subtract 3 from both sides:**
+    $$x - 3 = \sqrt[3]{y}$$
+
+* **Cube both sides to eliminate the cube root:**
+    $$(x - 3)^3 = (\sqrt[3]{y})^3$$
+    $$(x - 3)^3 = y$$
+
+#### 4. State the Inverse Function
+
+Replace $y$ with $f^{-1}(x)$:
+$$\mathbf{f^{-1}(x) = (x - 3)^3}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+For functions involving roots, the final step in finding the inverse is often raising both sides to a power that matches the root's index. The inverse of **adding 3** and then **taking the cube root** is **subtracting 3** and then **cubing the result**.
