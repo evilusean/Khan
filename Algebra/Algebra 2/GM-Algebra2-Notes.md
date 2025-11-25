@@ -12848,3 +12848,64 @@ For exponential equations with multiple terms and fractions, use the common base
 3.  **Use exponent rules** (Power and Product) to simplify the equation to the form $b^A = b^B$, which allows you to solve the resulting linear equation $A = B$.
 ## Algebra II - Lesson 70 - Logarithmic Functions - 25November2025 : 
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=30h58m25s
+- **Logarithmic Function** : $f(x) = \log_a(x)$ : $a > 0, x > 0, a \neq 1$ : **Base ($a$):** Must be a positive number and cannot be equal to 1. **Argument/Power/Result ($x$):** Must be strictly positive ($x > 0$), which defines the **domain** of the function. : 
+- It is said 'Log base a of x' 
+- The **Inverse** of an **Exponential Function** is a **Logarithmic Function** 
+- $x = a^y$ (exponential form) is the same as $y = log_a(x)$ (logarithmic form)
+- $\log_a(x)$ : Log Base 'a' of 'x' is just the exponent to which the base 'a' must be raised to, to obtain 'x' : $a^? = x$ 
+- $\log_3(9)$ Log Basse 3 or 9 is asking what power '3' needs to be raised to to get '9' : $3^? = 9$ 
+
+### 🔄 Finding the Inverse: Exponential to Logarithm
+
+This process shows how to find the inverse of an exponential function by converting its form to a logarithm.
+
+We will use the general exponential function: $\mathbf{f(x) = a^x}$
+
+#### 1. Start with the Function and Swap $x$ and $y$
+
+The standard exponential function is defined as:
+$$\text{Original Function: } f(x) = a^x$$
+
+* **Step 1a: Replace $f(x)$ with $y$**
+    $$y = a^x$$
+* **Step 1b: Swap $x$ and $y$** (This is the defining algebraic action for finding the inverse.)
+    $$\mathbf{x = a^y}$$
+
+---
+
+#### 2. Solve for $y$ using the Logarithmic Definition
+
+At this point, $y$ is trapped as an exponent. To solve for $y$, we must use the **definition of a logarithm**.
+
+| Exponential Form | Logarithmic Form |
+| :---: | :---: |
+| **Base** $^{\text{Exponent}}$ **= Argument** | **Exponent = $\log_{\text{Base}}$ (Argument)** |
+
+Applying this definition to our swapped equation $x = a^y$:
+
+| $x = a^y$ | $\mathbf{y = \log_a(x)}$ |
+| :---: | :---: |
+
+---
+
+#### 3. State the Inverse Function
+
+The final result, after solving for $y$, is the inverse function $\mathbf{f^{-1}(x)}$:
+$$\mathbf{f^{-1}(x) = \log_a(x)}$$
+
+#### Fully Worked Example
+
+Find the inverse of $\mathbf{f(x) = 5^{x}}$
+
+1.  **Start:** $y = 5^x$
+2.  **Swap:** $x = 5^y$
+3.  **Log Definition:** $\mathbf{y = \log_5(x)}$
+4.  **Inverse:** $f^{-1}(x) = \log_5(x)$
+
+***
+
+#### 🔑 Key Takeaway
+
+* The inverse of an exponential function is a **logarithmic function** with the **same base ($\mathbf{a}$)**.
+* The **domain** of the exponential function ($\mathbf{-\infty, \infty}$) becomes the **range** of the logarithmic function.
+* The **range** of the exponential function ($y > 0$) becomes the **domain** of the logarithmic function ($\mathbf{x > 0}$). The argument of a logarithm can never be zero or negative.
