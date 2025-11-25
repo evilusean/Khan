@@ -12666,3 +12666,41 @@ The solution is correct.
 #### 🔑 Key Takeaway
 
 To solve exponential equations where the variable is in the exponent, the best strategy is often to find a **common base** for both sides. Once the bases are equal, the $\mathbf{One-to-One Property of Exponential Functions}$ allows you to set the exponents equal to each other, turning the exponential equation into a simpler linear or quadratic equation.
+### 💡 Solving Exponential Equation: $\mathbf{\left(\frac{1}{9}\right)^{3p} = 81}$
+
+The goal is to solve for $p$ by expressing both the base $\frac{1}{9}$ and the number $81$ as powers of the common base $\mathbf{3}$.
+
+#### 1. Express Both Sides with the Common Base 3
+
+* **Rewrite the left side:**
+    $$\frac{1}{9} = \frac{1}{3^2} = 3^{-2}$$
+    Substitute this into the equation:
+    $$\left(3^{-2}\right)^{3p} = 81$$
+
+* **Rewrite the right side:**
+    $$81 = 9^2 = (3^2)^2 = 3^{2 \cdot 2}$$
+    $$\mathbf{81 = 3^4}$$
+
+The equation becomes:
+$$\left(3^{-2}\right)^{3p} = 3^4$$
+
+#### 2. Simplify the Left Exponent
+
+Use the power rule for exponents, $(b^m)^n = b^{m \cdot n}$:
+$$3^{(-2)(3p)} = 3^4$$
+$$3^{-6p} = 3^4$$
+
+#### 3. Equate the Exponents and Solve for $p$
+
+Since the bases are equal, the exponents must be equal (One-to-One Property):
+$$-6p = 4$$
+
+* **Divide by -6:**
+    $$p = \frac{4}{-6}$$
+    $$\mathbf{p = -\frac{2}{3}}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When solving exponential equations involving fractions, use the **negative exponent rule** ($b^{-m} = \frac{1}{b^m}$) to rewrite the fraction as a whole number base with a negative exponent. This enables you to find a common base for the entire equation.
