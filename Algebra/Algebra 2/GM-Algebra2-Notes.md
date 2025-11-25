@@ -12319,13 +12319,13 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=29h55m50s
 - $f^{-1}$ consists of all ordered pairs (y,x) - where (x,y) are the components of $f$ 
 - $f(f^{-1}(x)) = x$ : this equation is asking for 'what is y in the inverse' which is #(2) below - Plug into the original function to get 'x' : $f(\frac{x-3}{2}) = x$ 
 - $f^{-1}(f(x)) = x$ : this equation is asking plugging in 'y' from the original equation to get x back : $f^{-1}(2x + 3) = x$  
-- $f(x) =  y$ : in order to swap them $f(x) = 2x +3 : y = 2x +3 : x = 2y +3$ : $\frac{x-3}{2} = y$ : <- that is just the chain of causality and swapping f(x) -> y -> x -> then solve for 'y' to get the inverse So: your 2 equations would be :
+- $f(x) =  y$ : in order to swap them $f(x) = 2x +3 : y = 2x +3 : x = 2y +3$ : $\frac{x-3}{2} = y$ : <- that is just the chain of cau
+- sality and swapping f(x) -> y -> x -> then solve for 'y' to get the inverse So: your 2 equations would be :
   1) $f(x) = 2x + 3$ 
   2) $f^{-1}(x) = \frac{x-3}{2}$ 
 - If you want to check if a function is a one to one, simply check for duplicate x AND y values
 - **Vertical Line Test** = How to test if something is a *One to one function* draw a straight line on a graph of your function, if it touches at any point twice, for each 'x' more than one 'y', it is not a one to one
 - **Horizontal Line Test** = If any horizontal line intersects the graph of a function in no more than one spot, the function is one to one
-- 
 ### 📝 Inverse Function Composition: $\mathbf{f(f^{-1}(x)) = x}$ and $\mathbf{f^{-1}(f(x)) = x}$
 
 These two equations define the property of **inverse functions**: when you compose a function with its inverse (in either order), the result is always the original input, $x$. This is called the **Identity Function**.
@@ -12567,3 +12567,4 @@ For rational functions, the algebra to solve for $y$ involves isolating the term
 * The original function has a vertical asymptote at $\mathbf{x=1}$ and a horizontal asymptote at $\mathbf{y=-2}$.
 * The inverse function has a vertical asymptote at $\mathbf{x=-2}$ and a horizontal asymptote at $\mathbf{y=1}$.
 The asymptotes of the inverse are simply the swapped values of the asymptotes of the original function.
+## Algebra II - Lesson 69 - Exponential Functions - 25November2025 :
