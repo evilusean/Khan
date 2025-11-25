@@ -12391,3 +12391,38 @@ Given $f(x) = 2x + 3$ and $f^{-1}(x) = \frac{x - 3}{2}$, we substitute $f(x)$ in
 #### 🔑 Key Takeaway
 
 If and only if **both** compositions result in $x$, the functions are true inverses. The order of composition does not matter—they "undo" each other perfectly, returning the original input. This property is used to **verify inverses**.
+### 📝 Finding the Inverse Function: $\mathbf{f(x) = \frac{-10 + 3x}{2}}$
+
+The process of finding an inverse function, $\mathbf{f^{-1}(x)}$, involves three main steps: 1) Replace $f(x)$ with $y$, 2) Swap $x$ and $y$, and 3) Solve for the new $y$.
+
+#### 1. Set $f(x) = y$
+
+Write the function using $y$:
+$$y = \frac{-10 + 3x}{2}$$
+
+#### 2. Swap $x$ and $y$
+
+Exchange the positions of $x$ and $y$ in the equation:
+$$x = \frac{-10 + 3y}{2}$$
+
+#### 3. Solve for $y$ (Isolate the variable)
+
+* **Multiply both sides by 2:**
+    $$2x = -10 + 3y$$
+
+* **Add 10 to both sides:**
+    $$2x + 10 = 3y$$
+
+* **Divide both sides by 3:**
+    $$y = \frac{2x + 10}{3}$$
+
+#### 4. State the Inverse Function
+
+Replace $y$ with $f^{-1}(x)$:
+$$\mathbf{f^{-1}(x) = \frac{2x + 10}{3}}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+Finding the inverse function essentially **reverses the order of operations**. The original function: $x \to \text{multiply by } 3 \to \text{subtract } 10 \to \text{divide by } 2$. The inverse function: $x \to \text{multiply by } 2 \to \text{add } 10 \to \text{divide by } 3$. This shows the inverse function uses inverse operations in the reverse order.
