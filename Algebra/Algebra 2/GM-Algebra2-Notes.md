@@ -12570,4 +12570,12 @@ The asymptotes of the inverse are simply the swapped values of the asymptotes of
 ## Algebra II - Lesson 69 - Exponential Functions - 25November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=30h34m10s
 - **Exponential Function** : $f(x) = a^x$ : $a > 0, a \ne 1$ where 'x' is any real number greater than 0 and 'a' is not 1
-- 
+- **Graphing An Exponential Function** (don't, use a graphing calc) :
+  1) Find Ordered Pairs (enough to show a good picture)
+  2) Plot the points
+  3) Connect the points with a smooth curve
+- $f(x) = a^x$ : (0,1) = (x,y) any number raised to the power of '0' will always be a '1', so that (0,1) will be a point on the graph, this is why we must restrict a to be greater than 0, and not equal to 1 
+- **Asymptote** : Exponential functions are *Asymptotes*, the graph approaches the x-axis, but will never touch it.
+- *The Domain* : Inputs, Set of all allowable 'x' values consists of all real numbers $(-\infty, \infty)$
+- *The Range* : Outputs, Set of all available 'y' values consists of all positive numbers $(0, \infty)$  
+- *The Base* = 'a' : When 'a > 1', the graph rises from left to right - When '0 < a < 1', the graph will fall from left to right 
