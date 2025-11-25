@@ -12461,3 +12461,35 @@ $$\mathbf{f^{-1}(x) = -\frac{5x}{4}}$$
 For linear functions, finding the inverse is simply performing the inverse operations in the reverse order.
 The original function $f(x)$ takes $x$, multiplies it by $-\frac{4}{5}$.
 The inverse function $f^{-1}(x)$ takes $x$ and multiplies it by the reciprocal of $-\frac{4}{5}$, which is $\mathbf{-\frac{5}{4}}$.
+### 📝 Finding the Inverse Function: $\mathbf{f(x) = x^3 - 2}$
+
+The process for finding the inverse function, $\mathbf{f^{-1}(x)}$, is: 1) Replace $f(x)$ with $y$, 2) Swap $x$ and $y$, and 3) Solve for the new $y$.
+
+#### 1. Set $f(x) = y$
+
+Write the function using $y$:
+$$y = x^3 - 2$$
+
+#### 2. Swap $x$ and $y$
+
+Exchange the positions of $x$ and $y$ in the equation:
+$$x = y^3 - 2$$
+
+#### 3. Solve for $y$ (Isolate the variable)
+
+* **Add 2 to both sides:**
+    $$x + 2 = y^3$$
+
+* **Take the cube root of both sides:**
+    $$\sqrt[3]{x + 2} = y$$
+
+#### 4. State the Inverse Function
+
+Replace $y$ with $f^{-1}(x)$:
+$$\mathbf{f^{-1}(x) = \sqrt[3]{x + 2}}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+The inverse of a cubing operation ($\mathbf{x^3}$) is the **cube root operation** ($\mathbf{\sqrt[3]{x}}$). This function $f(x)$ is defined for all real numbers and is one-to-one, meaning its inverse $f^{-1}(x)$ is also a function defined for all real numbers.
