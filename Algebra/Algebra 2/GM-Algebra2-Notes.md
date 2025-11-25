@@ -12847,3 +12847,4 @@ For exponential equations with multiple terms and fractions, use the common base
 2.  **Use negative exponents** for fractions ($\frac{1}{8} = 8^{-1}$).
 3.  **Use exponent rules** (Power and Product) to simplify the equation to the form $b^A = b^B$, which allows you to solve the resulting linear equation $A = B$.
 ## Algebra II - Lesson 70 - Logarithmic Functions - 25November2025 : 
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=30h58m25s
