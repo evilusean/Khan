@@ -13239,4 +13239,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=31h25m
 - **Product Rule for Logarithms** : $log_b(xy) = log_b(x) + log_b(y)$ : 'x', 'y', and 'b' are positive real numbesr and $b \ne 1$ - You can also reverse the process/condense 
 - $log_2(5 \cdot 12) = log_2(5) + log_2(12)$  : pretty simple
 - $log_3(8) + log_3(7) = log_3(8 \cdot 7) = log_3(56)$ : You can condense, and reverse to proces. Leave the numbers seperate or combine them into a product of a single number
+- **Quotient Rule for Logarithms** : $log_b(\frac{x}{y}) = log_b(x) - log_b(y)$ : 'x', 'y', and 'b' are positive real numbesr and $b \ne 1$ - Subtraction instead of addition
+- $log_3(\frac{u}{v}) = log_3(u) - log_3(v)$ : subtraction, pretty simple
+- $log_9(10) - log_9(7) = log_9(\frac{10}{7})$ : *Quotient Rule for Logarithms* can also be reversed, first in numerator, second in denominator
 - 
