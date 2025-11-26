@@ -13442,3 +13442,42 @@ $$\mathbf{\log_8(99) + \frac{1}{3}\log_8(7)}$$
 #### 🔑 Key Takeaway
 
 When expanding logarithms, always address products/quotients before powers. Remember that a **radical** ($\sqrt[n]{x}$) must be treated as a **fractional exponent** ($\mathbf{x^{1/n}}$) before the Power Rule can be applied.
+### 📝 Expanding Logarithm: $\mathbf{\log_{10}\left(\frac{\sqrt[4]{5}}{x^2 y^3 z}\right)}$
+
+The goal is to expand the single logarithm into a sum and difference of simpler logarithms, with no exponents or products/quotients left inside the log arguments.
+
+#### 1. Rewrite Radical as Exponent and Apply Power Rule
+
+First, rewrite the fourth root as a fractional exponent: $\mathbf{\sqrt[4]{5} = 5^{1/4}}$.
+$$\log_{10}\left(\frac{5^{1/4}}{x^2 y^3 z}\right)$$
+
+---
+
+#### 2. Apply the Quotient Rule
+
+The **Quotient Rule** states $\mathbf{\log_b\left(\frac{A}{B}\right) = \log_b(A) - \log_b(B)}$. Separate the numerator ($5^{1/4}$) and the denominator ($x^2 y^3 z$):
+$$\log_{10}(5^{1/4}) - \log_{10}(x^2 y^3 z)$$
+
+---
+
+#### 3. Apply the Product Rule
+
+The **Product Rule** states $\mathbf{\log_b(AB) = \log_b(A) + \log_b(B)}$.
+* The first term is simple.
+* The second logarithm must be separated into three subtracted terms. **Remember the subtraction applies to all terms from the denominator.**
+$$\log_{10}(5^{1/4}) - \left( \log_{10}(x^2) + \log_{10}(y^3) + \log_{10}(z) \right)$$
+$$\log_{10}(5^{1/4}) - \log_{10}(x^2) - \log_{10}(y^3) - \log_{10}(z)$$
+
+---
+
+#### 4. Apply the Power Rule (Final Step)
+
+Apply the **Power Rule** ($\mathbf{\log_b(A^n) = n \log_b(A)}$) to bring the exponents down as coefficients:
+
+$$\mathbf{\frac{1}{4}\log_{10}(5) - 2\log_{10}(x) - 3\log_{10}(y) - \log_{10}(z)}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When expanding logarithms, terms from the **numerator** result in **positive** logarithms, and terms from the **denominator** result in **negative** logarithms. This complex expression demonstrates all three main rules of logarithms in a single problem.
