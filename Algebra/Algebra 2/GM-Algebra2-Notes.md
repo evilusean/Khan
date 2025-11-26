@@ -13366,3 +13366,47 @@ $$\mathbf{\log_4(w) + \frac{1}{3}\log_4(x) + \log_4(y) + \log_4(z)}$$
 To expand complex logarithms:
 1.  **Use the Product/Quotient Rules first** to separate the terms into individual logarithms. Multiplication becomes addition ($\mathbf{+}$) and division becomes subtraction ($\mathbf{-}$).
 2.  **Use the Power Rule last** to simplify any remaining exponents or radicals by moving them to the front as coefficients. Radicals must be written as fractional exponents first.
+### 📝 Expanding Logarithm: $\mathbf{\log_5\left(\frac{2}{3 \cdot 7^6}\right)^4}$
+
+The goal is to expand the single logarithm into a sum and difference of simpler logarithms, with no exponents or products/quotients left inside the log arguments.
+
+#### 1. Apply the Power Rule (First)
+
+The Power Rule states $\mathbf{\log_b(A^n) = n \log_b(A)}$. Bring the exponent ($\mathbf{4}$) to the front:
+$$4 \cdot \log_5\left(\frac{2}{3 \cdot 7^6}\right)$$
+
+---
+
+#### 2. Apply the Quotient Rule
+
+The Quotient Rule states $\mathbf{\log_b\left(\frac{A}{B}\right) = \log_b(A) - \log_b(B)}$. Separate the numerator (2) and the denominator ($3 \cdot 7^6$):
+$$4 \left[ \log_5(2) - \log_5(3 \cdot 7^6) \right]$$
+
+---
+
+#### 3. Apply the Product Rule
+
+The Product Rule states $\mathbf{\log_b(AB) = \log_b(A) + \log_b(B)}$. Separate the terms being multiplied in the second logarithm ($3$ and $7^6$). **Crucially**, since the whole expression is being subtracted, these resulting logs must remain subtracted:
+$$4 \left[ \log_5(2) - \left(\log_5(3) + \log_5(7^6)\right) \right]$$
+$$4 \left[ \log_5(2) - \log_5(3) - \log_5(7^6) \right]$$
+
+---
+
+#### 4. Apply the Power Rule (Again)
+
+Apply the Power Rule to the last term, bringing the exponent ($\mathbf{6}$) to the front:
+$$4 \left[ \log_5(2) - \log_5(3) - 6\log_5(7) \right]$$
+
+#### 5. Distribute and Final Expanded Form
+
+Distribute the outer factor of 4 to all terms inside the brackets:
+$$\mathbf{4\log_5(2) - 4\log_5(3) - 24\log_5(7)}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When expanding logarithms with multiple operations:
+1.  **Exponents/Powers** are always handled **first**.
+2.  **Products and Quotients** are handled **second**.
+3.  Be extremely careful with **parentheses** when subtracting a logarithm that itself contains products or quotients (Step 3). The subtraction applies to *every* term separated in the denominator.
