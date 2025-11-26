@@ -13235,3 +13235,4 @@ $$\mathbf{\log_{105}(1) = 0}$$
 
 This is a fundamental logarithmic property. Always remember that $\mathbf{\log_a(1) = 0}$ as long as the base $a$ is valid ($a > 0, a \neq 1$). The logarithm's value represents the exponent needed to get the argument, and the only exponent that turns any base into 1 is 0.
 ## Algebra II - Lesson 71 - Properties of Logarithms - 26November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=31h25m
