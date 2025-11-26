@@ -13246,3 +13246,29 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=31h25m
 - $\log_7(4^3) = \log_7(4 \cdot 4 \cdot 4)$
 	$= \log_7(4) + \log_7(4) + \log_7(4)$
 	$= 3\log_7(4)$ : many ways to write the same thing, this one takes the least amount, efficient
+### 📝 Simplifying Logarithmic Expression: $\mathbf{\log_5 \sqrt{x}}$
+
+This note demonstrates how to simplify a logarithmic expression involving a square root using the Power Rule for Logarithms.
+
+#### 1. Transcribe the Expression
+
+$$\mathbf{\log_5 \sqrt{x}}$$
+
+#### 2. Rewrite the Radical as a Rational Exponent
+
+Recall that $\mathbf{\sqrt{x} = x^{1/2}}$. Substitute this into the logarithm:
+$$\log_5 x^{1/2}$$
+
+#### 3. Apply the Power Rule for Logarithms
+
+The Power Rule states that $\mathbf{\log_b(A^n) = n \log_b(A)}$.
+Bring the exponent ($\frac{1}{2}$) to the front as a coefficient:
+$$\mathbf{\frac{1}{2} \log_5 x}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When simplifying logarithms with roots:
+1.  **Convert the root to a fractional exponent** (e.g., $\sqrt{x} = x^{1/2}$, $\sqrt[3]{x} = x^{1/3}$).
+2.  **Apply the Power Rule** to move the fractional exponent to the front of the logarithm. This is a common step when preparing logarithmic expressions for further calculations or solving equations.
