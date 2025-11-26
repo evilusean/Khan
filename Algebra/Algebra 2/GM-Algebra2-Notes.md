@@ -13410,3 +13410,35 @@ When expanding logarithms with multiple operations:
 1.  **Exponents/Powers** are always handled **first**.
 2.  **Products and Quotients** are handled **second**.
 3.  Be extremely careful with **parentheses** when subtracting a logarithm that itself contains products or quotients (Step 3). The subtraction applies to *every* term separated in the denominator.
+### 📝 Expanding Logarithm: $\mathbf{\log_8(99 \cdot \sqrt[3]{7})}$
+
+The goal is to expand the single logarithm into a sum of simpler logarithms, with no exponents or products left inside the log arguments.
+
+#### 1. Apply the Product Rule for Logarithms
+
+The **Product Rule** states $\mathbf{\log_b(AB) = \log_b(A) + \log_b(B)}$. Separate the two terms being multiplied (99 and $\sqrt[3]{7}$):
+$$\log_8(99) + \log_8(\sqrt[3]{7})$$
+
+---
+
+#### 2. Apply the Power Rule to the Radical Term
+
+First, convert the cube root to a rational exponent: $\mathbf{\sqrt[3]{7} = 7^{1/3}}$.
+The expression becomes:
+$$\log_8(99) + \log_8(7^{1/3})$$
+
+Now, apply the **Power Rule**: $\mathbf{\log_b(A^n) = n \log_b(A)}$. Bring the exponent ($\frac{1}{3}$) down as a coefficient:
+
+$$\mathbf{\log_8(99) + \frac{1}{3}\log_8(7)}$$
+
+---
+
+#### 3. Final Expanded Form
+
+$$\mathbf{\log_8(99) + \frac{1}{3}\log_8(7)}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When expanding logarithms, always address products/quotients before powers. Remember that a **radical** ($\sqrt[n]{x}$) must be treated as a **fractional exponent** ($\mathbf{x^{1/n}}$) before the Power Rule can be applied.
