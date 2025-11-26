@@ -12854,6 +12854,15 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=30h58m25s
 - $x = a^y$ (exponential form) is the same as $y = log_a(x)$ (logarithmic form)
 - $\log_a(x)$ : Log Base 'a' of 'x' is just the exponent to which the base 'a' must be raised to, to obtain 'x' : $a^? = x$ 
 - $\log_3(9)$ Log Basse 3 or 9 is asking what power '3' needs to be raised to to get '9' : $3^? = 9$ 
+- **Properties of Logarithims** : $log_b(b) = 1$ : $log_b(1) = 0$ : $b > 0$, $b \ne 1$ : Log base 'b' of 'b' is equal to '1' because if you have a base 'b' and raise it to the power of '1' you get 'b' back : log base 'b' of '1' is equal to '0' because if you raise base 'b' to the power of '0' you get '1' back
+- **Graphing A Logarithmic Function** :
+  1) To graph a log, we put it in exponential form
+  2) (1,0) is on the graph
+  3) if 'a > 1', the graph rises from left to right
+  4) if '0 < a < 1' the graph falls from left to right
+  5) the graph approaches the y-axis, but does not touch it. It forms an asymptote
+- **Domain** : $(0, \infty)$ : The Domain and Range have flipped (inverted exponential) for a logarithmic the domain is $(0, \infty)$ anything larger than zero, to infinity, and beyond
+- **Range** : $(-\infty, \infty)$ : any real number
 
 ### 🔄 Finding the Inverse: Exponential to Logarithm
 
@@ -13105,3 +13114,123 @@ Since $25 > 0$, the solution $\mathbf{x = -5}$ is valid.
 #### 🔑 Key Takeaway
 
 To solve any isolated logarithmic equation, **convert to its exponential equivalent**. After finding a potential solution, it is **mandatory** to check it in the original equation to ensure the argument of the logarithm remains **positive**. If the argument were zero or negative, the solution would be extraneous (not valid).
+### 💡 Solving Logarithmic Equation: $\mathbf{\log_{27}(\sqrt[4]{81}) = x}$
+
+The goal is to solve for $x$ by converting both the base (27) and the argument ($\sqrt[4]{81}$) to powers of the common base 3, and then using the Change of Base Formula.
+
+#### 1. Express Base and Argument with Common Base 3
+
+* **Rewrite the Base (27):**
+    $$27 = 3^3$$
+
+* **Rewrite the Argument ($\sqrt[4]{81}$):**
+    First, $81 = 3^4$.
+    Second, convert the root to a rational exponent: $\sqrt[n]{b} = b^{1/n}$.
+    $$\sqrt[4]{81} = \sqrt[4]{3^4} = 3^{4/4} = 3^1 = 3$$
+
+Wait, let's recheck that last simplification. If we look at $81 = 3^4$, then $\sqrt[4]{81}$ is indeed 3. However, solving this type of problem is easier by keeping the exponent form until the end.
+$$\sqrt[4]{81} = (3^4)^{1/4} = 3^{4 \cdot \frac{1}{4}} = 3^1$$
+
+Let's proceed by converting the whole expression into powers of 3:
+$$\log_{27}(\sqrt[4]{81}) = x$$
+$$\log_{3^3}(3^1) = x$$
+
+---
+
+#### 2. Use the Change of Base Formula and Logarithm Properties
+
+We can solve this directly using the property $\mathbf{\log_{a^n}(a^m) = \frac{m}{n}}$.
+
+* **Identify Components:**
+    * Base exponent ($\mathbf{n}$) = 3
+    * Argument exponent ($\mathbf{m}$) = 1
+
+* **Apply Property:**
+    $$x = \frac{m}{n} = \frac{1}{3}$$
+
+Alternatively, using the **Change of Base Formula** ($\mathbf{\log_a(x) = \frac{\log_b(x)}{\log_b(a)}}$) with $b=3$:
+$$x = \frac{\log_3(\sqrt[4]{81})}{\log_3(27)}$$
+$$x = \frac{\log_3(3^1)}{\log_3(3^3)}$$
+
+Now use the property $\mathbf{\log_b(b^n) = n}$:
+$$x = \frac{1}{3}$$
+
+#### 3. Final Solution
+
+The solution is $\mathbf{x = \frac{1}{3}}$.
+
+***
+
+#### 🔑 Key Takeaway
+
+For equations involving logarithms where both the base and the argument are powers of the same number (e.g., 27 and 81 are both powers of 3), the most efficient method is to:
+1.  **Find the Common Base.**
+2.  **Rewrite** the base and argument using this common base ($\mathbf{\log_{a^n}(a^m) = x}$).
+3.  **The value of $x$ is the ratio of the exponents:** $\mathbf{x = \frac{m}{n}}$.
+This method avoids complex substitutions and simplifies directly to the answer.
+### 💡 Logarithm Problem: $\mathbf{\log_5(5) = x}$
+
+The goal is to evaluate the logarithm, $\log_5(5)$, by asking: "To what power must the base 5 be raised to equal the argument 5?"
+
+#### 1. General Identity Property of Logarithms
+
+The logarithm of a number to the same base is always **1**.
+$$\mathbf{\log_a(a) = 1}$$
+
+This is because, in exponential form, $\mathbf{a^1 = a}$.
+
+---
+
+#### 2. Worked Solution
+
+Apply the identity property to the given expression:
+$$\mathbf{\log_5(5) = 1}$$
+
+#### 3. Formal Verification using Conversion
+
+* **Set the expression equal to $x$:**
+    $$\log_5(5) = x$$
+* **Convert to Exponential Form:** (Base $a=5$, Exponent $x$, Argument $a=5$)
+    $$5^x = 5$$
+* **Equate Exponents:** Since $5 = 5^1$, we have:
+    $$5^x = 5^1$$
+    $$\mathbf{x = 1}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+This is the most fundamental logarithmic property. Always remember that $\mathbf{\log_a(a) = 1}$. This property is a direct result of the definition of a logarithm as the **exponent**.
+### 💡 Logarithm Problem: $\mathbf{\log_{105}(1) = x}$
+
+The goal is to evaluate the logarithm, $\log_{105}(1)$, by asking: "To what power must the base 105 be raised to equal the argument 1?"
+
+#### 1. General Zero Property of Logarithms
+
+The logarithm of **1** to any valid base is always **0**.
+$$\mathbf{\log_a(1) = 0}$$
+
+This is because, in exponential form, any valid base $\mathbf{a}$ raised to the power of $\mathbf{0}$ equals 1 ($\mathbf{a^0 = 1}$).
+
+---
+
+#### 2. Worked Solution
+
+Apply the zero property to the given expression:
+$$\mathbf{\log_{105}(1) = 0}$$
+
+#### 3. Formal Verification using Conversion
+
+* **Set the expression equal to $x$:**
+    $$\log_{105}(1) = x$$
+* **Convert to Exponential Form:** (Base $a=105$, Exponent $x$, Argument $1$)
+    $$105^x = 1$$
+* **Equate Exponents:** Since $1 = 105^0$, we have:
+    $$105^x = 105^0$$
+    $$\mathbf{x = 0}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+This is a fundamental logarithmic property. Always remember that $\mathbf{\log_a(1) = 0}$ as long as the base $a$ is valid ($a > 0, a \neq 1$). The logarithm's value represents the exponent needed to get the argument, and the only exponent that turns any base into 1 is 0.
