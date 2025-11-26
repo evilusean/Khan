@@ -13547,3 +13547,34 @@ To condense logarithms:
 1.  **Power Rule:** Coefficients become exponents.
 2.  **Product/Quotient Rules:** Positive logs (added) correspond to terms in the **numerator** of the argument, and negative logs (subtracted) correspond to terms in the **denominator**.
 3.  Ensure all logarithms share the **same base** (here, 9) before applying the Product and Quotient Rules.
+### 📝 Condensing Logarithm: $\mathbf{\frac{1}{3}\log_4(x) + \frac{2}{7}\log_4(y) - 3\log_4(z)}$
+
+The goal is to condense the sum and difference of logarithms into a single logarithm by reversing the Power, Product, and Quotient Rules.
+
+#### 1. Apply the Power Rule (First)
+
+The **Power Rule** states $\mathbf{n \log_b(A) = \log_b(A^n)}$. Move the coefficients ($\frac{1}{3}$, $\frac{2}{7}$, and 3) to the arguments as exponents:
+$$\log_4(x^{1/3}) + \log_4(y^{2/7}) - \log_4(z^3)$$
+
+---
+
+#### 2. Apply the Product and Quotient Rules (Second)
+
+* The addition ($\mathbf{+}$) of the first two terms means their arguments multiply: $\mathbf{x^{1/3} \cdot y^{2/7}}$ (Product Rule).
+* The subtraction ($\mathbf{-}$) of the third term means its argument divides the others: $\mathbf{\frac{1}{z^3}}$ (Quotient Rule).
+
+Combine the arguments into a single $\log_4$:
+$$\mathbf{\log_4\left(\frac{x^{1/3} y^{2/7}}{z^3}\right)}$$
+
+---
+
+#### 3. Final Condensed Form (Optional Radical Notation)
+
+We can express the fractional exponents as radicals for the final form: $x^{1/3} = \sqrt[3]{x}$ and $y^{2/7} = \sqrt[7]{y^2}$.
+$$\mathbf{\log_4\left(\frac{\sqrt[3]{x}\sqrt[7]{y^2}}{z^3}\right)}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When condensing, fractional coefficients (like $\frac{1}{3}$) become **roots** in the final argument, and negative coefficients (like $-3$) correspond to exponents in the **denominator**. The order of operations is always coefficients $\to$ exponents (Power Rule), then addition/subtraction $\to$ multiplication/division (Product/Quotient Rules).
