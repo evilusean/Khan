@@ -13236,3 +13236,7 @@ $$\mathbf{\log_{105}(1) = 0}$$
 This is a fundamental logarithmic property. Always remember that $\mathbf{\log_a(1) = 0}$ as long as the base $a$ is valid ($a > 0, a \neq 1$). The logarithm's value represents the exponent needed to get the argument, and the only exponent that turns any base into 1 is 0.
 ## Algebra II - Lesson 71 - Properties of Logarithms - 26November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=31h25m
+- **Product Rule for Logarithms** : $log_b(xy) = log_b(x) + log_b(y)$ : 'x', 'y', and 'b' are positive real numbesr and $b \ne 1$ - You can also reverse the process/condense 
+- $log_2(5 \cdot 12) = log_2(5) + log_2(12)$  : pretty simple
+- $log_3(8) + log_3(7) = log_3(8 \cdot 7) = log_3(56)$ : You can condense, and reverse to proces. Leave the numbers seperate or combine them into a product of a single number
+- 
