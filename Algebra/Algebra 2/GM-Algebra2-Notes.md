@@ -13332,3 +13332,37 @@ $$\log_6(6^3) = \mathbf{3}$$
 When the argument of a logarithm is the base raised to an exponent (i.e., $\mathbf{\log_b(b^n)}$):
 * The logarithm directly evaluates to the **exponent** $n$.
 * This is a direct consequence of the definition of logarithms and the Power Rule. It's an important property for simplifying and solving.
+### 📝 Expanding Logarithm: $\mathbf{\log_4\left(w \cdot \sqrt[3]{x} \cdot y \cdot z\right)}$
+
+The goal is to expand the single logarithm into a sum of simpler logarithms using the Product Rule and the Power Rule.
+
+#### 1. Apply the Product Rule for Logarithms
+
+The Product Rule states $\mathbf{\log_b(AB) = \log_b(A) + \log_b(B)}$. Since all arguments are multiplied, we can break them into individual logs added together:
+$$\log_4(w) + \log_4\left(\sqrt[3]{x}\right) + \log_4(y) + \log_4(z)$$
+
+---
+
+#### 2. Apply the Power Rule to the Radical Term
+
+First, convert the cube root to a rational exponent: $\mathbf{\sqrt[3]{x} = x^{1/3}}$.
+The expression becomes:
+$$\log_4(w) + \log_4(x^{1/3}) + \log_4(y) + \log_4(z)$$
+
+Now, apply the Power Rule: $\mathbf{\log_b(A^n) = n \log_b(A)}$. Bring the exponent ($\frac{1}{3}$) down as a coefficient:
+
+$$\mathbf{\log_4(w) + \frac{1}{3}\log_4(x) + \log_4(y) + \log_4(z)}$$
+
+---
+
+#### 3. Final Expanded Form
+
+$$\mathbf{\log_4(w) + \frac{1}{3}\log_4(x) + \log_4(y) + \log_4(z)}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+To expand complex logarithms:
+1.  **Use the Product/Quotient Rules first** to separate the terms into individual logarithms. Multiplication becomes addition ($\mathbf{+}$) and division becomes subtraction ($\mathbf{-}$).
+2.  **Use the Power Rule last** to simplify any remaining exponents or radicals by moving them to the front as coefficients. Radicals must be written as fractional exponents first.
