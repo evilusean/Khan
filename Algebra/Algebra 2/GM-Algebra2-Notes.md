@@ -13578,3 +13578,4 @@ $$\mathbf{\log_4\left(\frac{\sqrt[3]{x}\sqrt[7]{y^2}}{z^3}\right)}$$
 #### 🔑 Key Takeaway
 
 When condensing, fractional coefficients (like $\frac{1}{3}$) become **roots** in the final argument, and negative coefficients (like $-3$) correspond to exponents in the **denominator**. The order of operations is always coefficients $\to$ exponents (Power Rule), then addition/subtraction $\to$ multiplication/division (Product/Quotient Rules).
+## Algebra II - Lesson 72 - Common and Natural Logarithms - 26November2025 :
