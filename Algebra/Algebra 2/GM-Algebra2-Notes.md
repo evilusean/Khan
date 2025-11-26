@@ -13242,4 +13242,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=31h25m
 - **Quotient Rule for Logarithms** : $log_b(\frac{x}{y}) = log_b(x) - log_b(y)$ : 'x', 'y', and 'b' are positive real numbesr and $b \ne 1$ - Subtraction instead of addition
 - $log_3(\frac{u}{v}) = log_3(u) - log_3(v)$ : subtraction, pretty simple
 - $log_9(10) - log_9(7) = log_9(\frac{10}{7})$ : *Quotient Rule for Logarithms* can also be reversed, first in numerator, second in denominator
-- 
+- **Power Rule for Logarithms** : $log_b(x^r) = r \cdot log_b(x)$ : 'x', and 'b' are positive real numbesr and $b \ne 1$, 'r' is any real number : Exponent just comes down and goes in front
+- $\log_7(4^3) = \log_7(4 \cdot 4 \cdot 4)$
+	$= \log_7(4) + \log_7(4) + \log_7(4)$
+	$= 3\log_7(4)$ : many ways to write the same thing, this one takes the least amount, efficient
