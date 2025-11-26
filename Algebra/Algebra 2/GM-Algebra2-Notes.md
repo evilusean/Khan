@@ -13481,3 +13481,36 @@ $$\mathbf{\frac{1}{4}\log_{10}(5) - 2\log_{10}(x) - 3\log_{10}(y) - \log_{10}(z)
 #### 🔑 Key Takeaway
 
 When expanding logarithms, terms from the **numerator** result in **positive** logarithms, and terms from the **denominator** result in **negative** logarithms. This complex expression demonstrates all three main rules of logarithms in a single problem.
+### 📝 Condensing Logarithm: $\mathbf{2\log_2(6) + 4\log_2(11) + 4\log_2(5)}$
+
+The goal is to condense the sum of three logarithms into a single logarithm by reversing the Power and Product Rules.
+
+#### 1. Apply the Power Rule (First)
+
+The **Power Rule** states $\mathbf{n \log_b(A) = \log_b(A^n)}$. Move the coefficients (2 and 4) to the arguments as exponents:
+$$\log_2(6^2) + \log_2(11^4) + \log_2(5^4)$$
+
+---
+
+#### 2. Apply the Product Rule
+
+The **Product Rule** states $\mathbf{\log_b(A) + \log_b(B) = \log_b(AB)}$. Since all terms are added, multiply their arguments together inside a single $\log_2$:
+$$\mathbf{\log_2(6^2 \cdot 11^4 \cdot 5^4)}$$
+
+---
+
+#### 3. Final Condensed Form (and Simplification)
+
+We can simplify the constant exponents in the argument: $6^2 = 36$.
+$$\mathbf{\log_2(36 \cdot 11^4 \cdot 5^4)}$$
+
+Also, notice that $11^4 \cdot 5^4 = (11 \cdot 5)^4 = 55^4$. The most condensed form is:
+$$\mathbf{\log_2(36 \cdot 55^4)}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+To condense a series of logarithms:
+1.  **Power Rule first:** Move all coefficients to become exponents of their respective arguments.
+2.  **Product/Quotient Rules second:** Use addition to combine arguments via multiplication, and subtraction to combine arguments via division. Ensure all condensed terms have the same base.
