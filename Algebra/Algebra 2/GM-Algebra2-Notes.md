@@ -13272,3 +13272,29 @@ $$\mathbf{\frac{1}{2} \log_5 x}$$
 When simplifying logarithms with roots:
 1.  **Convert the root to a fractional exponent** (e.g., $\sqrt{x} = x^{1/2}$, $\sqrt[3]{x} = x^{1/3}$).
 2.  **Apply the Power Rule** to move the fractional exponent to the front of the logarithm. This is a common step when preparing logarithmic expressions for further calculations or solving equations.
+### 📝 Simplifying Logarithmic Expression: $\mathbf{\log_8 \sqrt[3]{x}}$
+
+This note demonstrates how to simplify a logarithmic expression involving a cube root using the Power Rule for Logarithms.
+
+#### 1. Transcribe the Expression
+
+$$\mathbf{\log_8 \sqrt[3]{x}}$$
+
+#### 2. Rewrite the Radical as a Rational Exponent
+
+Recall that $\mathbf{\sqrt[3]{x} = x^{1/3}}$. Substitute this into the logarithm:
+$$\log_8 x^{1/3}$$
+
+#### 3. Apply the Power Rule for Logarithms
+
+The Power Rule states that $\mathbf{\log_b(A^n) = n \log_b(A)}$.
+Bring the exponent ($\frac{1}{3}$) to the front as a coefficient:
+$$\mathbf{\frac{1}{3} \log_8 x}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+The process for simplifying logarithms with any $n$-th root is the same:
+1.  **Convert the $n$-th root to a fractional exponent** ($x^{1/n}$).
+2.  **Apply the Power Rule** to move the fractional exponent to the front of the logarithm. This is a crucial step for expanding or condensing logarithmic expressions.
