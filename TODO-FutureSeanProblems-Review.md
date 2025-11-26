@@ -59,3 +59,9 @@ $$\mathbf{\text{Exponential Form: } a^y = x \quad \iff \quad \text{Logarithmic F
 |   **Base**   |               $a$               |            $a$ (subscript)            |        10        |
 | **Exponent** |               $y$               |            $y$ (isolated)             |        -2        |
 | **Argument** |               $x$               |           $x$ (inside log)            | $\frac{1}{100}$  |
+Expanding/Condensing + Properties of Logarithms :
+- **Product Rule for Logarithms** : $log_b(xy) = log_b(x) + log_b(y)$ : 'x', 'y', and 'b' are positive real numbesr and $b \ne 1$ - You can also reverse the process/condense 
+- **Quotient Rule for Logarithms** : $log_b(\frac{x}{y}) = log_b(x) - log_b(y)$ : 'x', 'y', and 'b' are positive real numbesr and $b \ne 1$ - Subtraction instead of addition
+- **Power Rule for Logarithms** : $log_b(x^r) = r \cdot log_b(x)$ : 'x', and 'b' are positive real numbesr and $b \ne 1$, 'r' is any real number : Exponent just comes down and goes in front
+- $b^{log_b(x)} = x$ : if you see something 'b' raised to the power of log base 'b' to 'x' you will get 'x' as the solution. restrictions: $b > 0, b \ne 1, x >0$ : I'm not even going to pretend I understand why this works. Future Sean Problems. something something about base being raised to the power to get 7. 
+- $log_b(b^x) = x$ : log base 'b' of 'b' to the 'x' is equal to 'x' = 'b' raised to the power of 'x' will give you 'b' to the power or 'x' : restrictions $b > 0, b \ne 1$ 

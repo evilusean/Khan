@@ -13514,3 +13514,36 @@ $$\mathbf{\log_2(36 \cdot 55^4)}$$
 To condense a series of logarithms:
 1.  **Power Rule first:** Move all coefficients to become exponents of their respective arguments.
 2.  **Product/Quotient Rules second:** Use addition to combine arguments via multiplication, and subtraction to combine arguments via division. Ensure all condensed terms have the same base.
+### 📝 Condensing Logarithm: $\mathbf{5\log_9(x) + 5\log_9(z) - 15\log_9(y)}$
+
+The goal is to condense the sum and difference of logarithms into a single logarithm by reversing the Power, Product, and Quotient Rules.
+
+#### 1. Apply the Power Rule (First)
+
+The **Power Rule** states $\mathbf{n \log_b(A) = \log_b(A^n)}$. Move the coefficients (5, 5, and 15) to the arguments as exponents:
+$$\log_9(x^5) + \log_9(z^5) - \log_9(y^{15})$$
+
+---
+
+#### 2. Apply the Product and Quotient Rules (Second)
+
+* The addition ($\mathbf{+}$) of $\log_9(x^5)$ and $\log_9(z^5)$ means their arguments multiply: $\mathbf{x^5 \cdot z^5}$ (Product Rule).
+* The subtraction ($\mathbf{-}$) of $\log_9(y^{15})$ means its argument divides the others: $\mathbf{\frac{1}{y^{15}}}$ (Quotient Rule).
+
+Combine the arguments into a single $\log_9$:
+$$\mathbf{\log_9\left(\frac{x^5 z^5}{y^{15}}\right)}$$
+
+---
+
+#### 3. Final Condensed Form
+
+$$\mathbf{\log_9\left(\frac{x^5 z^5}{y^{15}}\right)}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+To condense logarithms:
+1.  **Power Rule:** Coefficients become exponents.
+2.  **Product/Quotient Rules:** Positive logs (added) correspond to terms in the **numerator** of the argument, and negative logs (subtracted) correspond to terms in the **denominator**.
+3.  Ensure all logarithms share the **same base** (here, 9) before applying the Product and Quotient Rules.
