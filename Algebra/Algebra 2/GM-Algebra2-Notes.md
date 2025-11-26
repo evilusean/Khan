@@ -13301,3 +13301,34 @@ $$\mathbf{\frac{1}{3} \log_8 x}$$
 The process for simplifying logarithms with any $n$-th root is the same:
 1.  **Convert the $n$-th root to a fractional exponent** ($x^{1/n}$).
 2.  **Apply the Power Rule** to move the fractional exponent to the front of the logarithm. This is a crucial step for expanding or condensing logarithmic expressions.
+### 📝 Evaluating Logarithmic Expression: $\mathbf{\log_6(6^3)}$
+
+This note demonstrates how to evaluate a logarithm where the argument is a power of the base, using the Power Rule for Logarithms or direct evaluation.
+
+#### 1. Transcribe the Expression
+
+$$\mathbf{\log_6(6^3)}$$
+
+#### 2. Method 1: Apply the Power Rule for Logarithms
+
+The Power Rule states that $\mathbf{\log_b(A^n) = n \log_b(A)}$.
+Bring the exponent (3) to the front as a coefficient:
+$$3 \log_6(6)$$
+
+Now, use the Identity Property: $\mathbf{\log_a(a) = 1}$.
+$$3 \cdot 1$$
+$$\mathbf{3}$$
+
+#### 3. Method 2: Direct Evaluation using Definition
+
+The logarithm $\log_6(6^3)$ asks: "To what power must 6 be raised to equal $6^3$?"
+By definition, the power is directly the exponent of the argument.
+$$\log_6(6^3) = \mathbf{3}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When the argument of a logarithm is the base raised to an exponent (i.e., $\mathbf{\log_b(b^n)}$):
+* The logarithm directly evaluates to the **exponent** $n$.
+* This is a direct consequence of the definition of logarithms and the Power Rule. It's an important property for simplifying and solving.
