@@ -13246,6 +13246,9 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=31h25m
 - $\log_7(4^3) = \log_7(4 \cdot 4 \cdot 4)$
 	$= \log_7(4) + \log_7(4) + \log_7(4)$
 	$= 3\log_7(4)$ : many ways to write the same thing, this one takes the least amount, efficient
+- $b^{log_b(x)} = x$ : if you see something 'b' raised to the power of log base 'b' to 'x' you will get 'x' as the solution. restrictions: $b > 0, b \ne 1, x >0$ : I'm not even going to pretend I understand why this works. Future Sean Problems. something something about base being raised to the power to get 7. 
+- $log_b(b^x) = x$ : log base 'b' of 'b' to the 'x' is equal to 'x' = 'b' raised to the power of 'x' will give you 'b' to the power or 'x' : restrictions $b > 0, b \ne 1$ 
+- $log_5(25) = ?$ : $log_5(5^2) = 2$ : a time saver once you know the pattern
 ### 📝 Simplifying Logarithmic Expression: $\mathbf{\log_5 \sqrt{x}}$
 
 This note demonstrates how to simplify a logarithmic expression involving a square root using the Power Rule for Logarithms.
