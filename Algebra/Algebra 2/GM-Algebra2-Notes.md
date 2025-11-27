@@ -13580,3 +13580,5 @@ $$\mathbf{\log_4\left(\frac{\sqrt[3]{x}\sqrt[7]{y^2}}{z^3}\right)}$$
 When condensing, fractional coefficients (like $\frac{1}{3}$) become **roots** in the final argument, and negative coefficients (like $-3$) correspond to exponents in the **denominator**. The order of operations is always coefficients $\to$ exponents (Power Rule), then addition/subtraction $\to$ multiplication/division (Product/Quotient Rules).
 ## Algebra II - Lesson 72 - Common and Natural Logarithms - 26November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=31h52m30s
+- **Common Logarithm** : $log_{10}(x) = log(x)$ : the 'default' log, if you see a log without a subscript(base), then it is a $log_{10}$ 
+- **Natural Logarithm** : $log_e(x) = ln(x)$ : the *Natural* Logarithm gained it's name because of it's place in biology and natural situations where growth or decay is involved '$e$' = *Eulers Number* = 2.718, if you see a base of 'e', it's a special irrational number
