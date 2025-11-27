@@ -13582,3 +13582,289 @@ When condensing, fractional coefficients (like $\frac{1}{3}$) become **roots** i
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=31h52m30s
 - **Common Logarithm** : $log_{10}(x) = log(x)$ : the 'default' log, if you see a log without a subscript(base), then it is a $log_{10}$ 
 - **Natural Logarithm** : $log_e(x) = ln(x)$ : the *Natural* Logarithm gained it's name because of it's place in biology and natural situations where growth or decay is involved '$e$' = *Eulers Number* = 2.718, if you see a base of 'e', it's a special irrational number
+- **Change of Base Rule** : $log_a(x) = \frac{log_b(x)}{log_b(a)}$ : $a > 0, a \ne 1, b>0, b \ne 1, x > 0$ : Unless you are using a calculator with the correct log buttons, you need to use a change of base to get an exact/approximate value - The *base* is going to be the argument in the denominator, The *argument* is going to become the argument in the numerator - If you use the 'log' or 'ln' you will get the same answer, both work the same way - Yse your calculator and the change of base rule to approximate each to 3 decimal places
+- $log_2(10) = \frac{log(10)}{log(2)}$ = ~3.322
+### 💡 Using Change of Base Rule: $\mathbf{\log_4(53)}$
+
+The **Change of Base Rule** allows you to rewrite a logarithm with an arbitrary base ($a$) into a ratio of two logarithms with a new, usually more convenient, base ($b$).
+
+#### 1. The Change of Base Rule
+
+The rule is defined as:
+$$\mathbf{\log_a(x) = \frac{\log_b(x)}{\log_b(a)}}$$
+
+To use a standard calculator, we often choose $b=10$ (the **Common Logarithm**, written as $\log$) or $b=e$ (the **Natural Logarithm**, written as $\ln$).
+
+---
+
+#### 2. Applying the Rule to $\mathbf{\log_4(53)}$
+
+* **Identify Components:**
+    * Original Base ($\mathbf{a}$) = 4
+    * Argument ($\mathbf{x}$) = 53
+    * New Base ($\mathbf{b}$) = 10 (Chosen for calculation)
+
+* **Apply Rule:** The logarithm of the argument goes in the numerator, and the logarithm of the original base goes in the denominator.
+$$\mathbf{\log_4(53) = \frac{\log(53)}{\log(4)}}$$
+
+---
+
+#### 3. Evaluation (Numerical Answer)
+
+Using a calculator, we find the approximate numerical value:
+$$\log(53) \approx 1.724275$$
+$$\log(4) \approx 0.602060$$
+$$\frac{1.724275}{0.602060} \approx 2.86395$$
+
+$$\mathbf{\log_4(53) \approx 2.864}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+The **Change of Base Rule** is essential for evaluating logarithms whose base is not 10 or $e$ using a standard calculator.
+* The argument always stays "high" (in the numerator).
+* The old base always goes "low" (in the denominator).
+* This rule allows us to convert any logarithm problem into a division problem using only the $\log$ or $\ln$ buttons on a calculator.
+### 💡 Using Change of Base Rule: $\mathbf{\log_5(2.9)}$
+
+The **Change of Base Rule** allows you to rewrite a logarithm with an arbitrary base ($a$) into a ratio of two logarithms with a new base ($b$). We will use the **Natural Logarithm** ($b=e$, or $\ln$).
+
+#### 1. The Change of Base Rule
+
+The rule is defined as:
+$$\mathbf{\log_a(x) = \frac{\log_b(x)}{\log_b(a)}}$$
+
+Using the Natural Logarithm (base $e$):
+$$\mathbf{\log_a(x) = \frac{\ln(x)}{\ln(a)}}$$
+
+---
+
+#### 2. Applying the Rule to $\mathbf{\log_5(2.9)}$
+
+* **Identify Components:**
+    * Original Base ($\mathbf{a}$) = 5
+    * Argument ($\mathbf{x}$) = 2.9
+    * New Base ($\mathbf{b}$) = $e$ (Natural Logarithm, $\ln$)
+
+* **Apply Rule:**
+$$\mathbf{\log_5(2.9) = \frac{\ln(2.9)}{\ln(5)}}$$
+
+---
+
+#### 3. Evaluation (Numerical Answer)
+
+Using a calculator, we find the approximate numerical value:
+$$\ln(2.9) \approx 1.06471$$
+$$\ln(5) \approx 1.609438$$
+$$\frac{1.06471}{1.609438} \approx 0.661555$$
+
+$$\mathbf{\log_5(2.9) \approx 0.662}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+The **Change of Base Rule** is essential for evaluating logarithms with non-standard bases. You can use either the Common Log ($\mathbf{\log}$) or the Natural Log ($\mathbf{\ln}$), as both will yield the same numerical result.
+$$\mathbf{\log_a(x) = \frac{\log(x)}{\log(a)} = \frac{\ln(x)}{\ln(a)}}$$
+### 💡 Using Change of Base Rule: $\mathbf{\log_4(3.4)}$
+
+The **Change of Base Rule** allows you to rewrite a logarithm with an arbitrary base ($a$) into a ratio of two logarithms with a new, convenient base ($b$). We will use the **Common Logarithm** ($b=10$, or $\log$).
+
+#### 1. The Change of Base Rule
+
+The rule is defined as:
+$$\mathbf{\log_a(x) = \frac{\log_b(x)}{\log_b(a)}}$$
+
+Using the Common Logarithm (base 10):
+$$\mathbf{\log_a(x) = \frac{\log(x)}{\log(a)}}$$
+
+---
+
+#### 2. Applying the Rule to $\mathbf{\log_4(3.4)}$
+
+* **Identify Components:**
+    * Original Base ($\mathbf{a}$) = 4
+    * Argument ($\mathbf{x}$) = 3.4
+    * New Base ($\mathbf{b}$) = 10 (Common Logarithm, $\log$)
+
+* **Apply Rule:**
+$$\mathbf{\log_4(3.4) = \frac{\log(3.4)}{\log(4)}}$$
+
+---
+
+#### 3. Evaluation (Numerical Answer)
+
+Using a calculator, we find the approximate numerical value:
+$$\log(3.4) \approx 0.531478$$
+$$\log(4) \approx 0.602060$$
+$$\frac{0.531478}{0.602060} \approx 0.88276$$
+
+$$\mathbf{\log_4(3.4) \approx 0.883}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+The **Change of Base Rule** is crucial for calculation and states that the logarithm of the **argument** goes in the **numerator**, and the logarithm of the **base** goes in the **denominator**.
+$$\mathbf{\log_a(x) = \frac{\log(\text{Argument})}{\log(\text{Base})}}$$
+### 💡 Using Change of Base Rule: $\mathbf{\log_2(23)}$
+
+The **Change of Base Rule** allows you to rewrite a logarithm with an arbitrary base ($a$) into a ratio of two logarithms with a new, convenient base ($b$). We will use the **Natural Logarithm** ($b=e$, or $\ln$).
+
+#### 1. The Change of Base Rule
+
+The rule is defined as:
+$$\mathbf{\log_a(x) = \frac{\log_b(x)}{\log_b(a)}}$$
+
+Using the Natural Logarithm (base $e$):
+$$\mathbf{\log_a(x) = \frac{\ln(x)}{\ln(a)}}$$
+
+---
+
+#### 2. Applying the Rule to $\mathbf{\log_2(23)}$
+
+* **Identify Components:**
+    * Original Base ($\mathbf{a}$) = 2
+    * Argument ($\mathbf{x}$) = 23
+    * New Base ($\mathbf{b}$) = $e$ (Natural Logarithm, $\ln$)
+
+* **Apply Rule:**
+$$\mathbf{\log_2(23) = \frac{\ln(23)}{\ln(2)}}$$
+
+---
+
+#### 3. Evaluation (Numerical Answer)
+
+Using a calculator, we find the approximate numerical value:
+$$\ln(23) \approx 3.13549$$
+$$\ln(2) \approx 0.693147$$
+$$\frac{3.13549}{0.693147} \approx 4.52356$$
+
+$$\mathbf{\log_2(23) \approx 4.524}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+The **Change of Base Rule** is crucial for calculation and states that the logarithm of the **argument** goes in the **numerator**, and the logarithm of the **base** goes in the **denominator**. You can use either $\log$ (base 10) or $\ln$ (base $e$).
+$$\mathbf{\log_a(x) = \frac{\log(\text{Argument})}{\log(\text{Base})}}$$
+### 💡 Using Change of Base Rule: $\mathbf{\log_7(66)}$
+
+The **Change of Base Rule** allows you to rewrite a logarithm with an arbitrary base ($a$) into a ratio of two logarithms with a new, convenient base ($b$). We will use the **Common Logarithm** ($b=10$, or $\log$).
+
+#### 1. The Change of Base Rule
+
+The rule is defined as:
+$$\mathbf{\log_a(x) = \frac{\log_b(x)}{\log_b(a)}}$$
+
+Using the Common Logarithm (base 10):
+$$\mathbf{\log_a(x) = \frac{\log(x)}{\log(a)}}$$
+
+---
+
+#### 2. Applying the Rule to $\mathbf{\log_7(66)}$
+
+* **Identify Components:**
+    * Original Base ($\mathbf{a}$) = 7
+    * Argument ($\mathbf{x}$) = 66
+    * New Base ($\mathbf{b}$) = 10 (Common Logarithm, $\log$)
+
+* **Apply Rule:** The logarithm of the argument goes in the numerator, and the logarithm of the original base goes in the denominator.
+$$\mathbf{\log_7(66) = \frac{\log(66)}{\log(7)}}$$
+
+---
+
+#### 3. Evaluation (Numerical Answer)
+
+Using a calculator, we find the approximate numerical value:
+$$\log(66) \approx 1.81954$$
+$$\log(7) \approx 0.84510$$
+$$\frac{1.81954}{0.84510} \approx 2.1530$$
+
+$$\mathbf{\log_7(66) \approx 2.153}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+The **Change of Base Rule** is essential for evaluating non-standard logarithms. The argument always goes into the numerator's log, and the original base always goes into the denominator's log.
+$$\mathbf{\log_a(x) = \frac{\log(\text{Argument})}{\log(\text{Base})}}$$
+### ⚠️ Logarithm Problem: $\mathbf{\log_2\left(-\frac{1}{8}\right)}$ (Undefined)
+
+The goal is to evaluate the logarithm $\log_2\left(-\frac{1}{8}\right)$.
+
+#### 1. Domain Restriction of Logarithms
+
+The function $f(x) = \log_a(x)$ is defined only when the argument, $\mathbf{x}$, is a positive real number.
+* The general domain rule is: $\mathbf{x > 0}$.
+* In this problem, the argument is $x = -\frac{1}{8}$.
+* Since $\mathbf{-\frac{1}{8} \ngtr 0}$, the logarithm is **undefined** in the real number system.
+
+---
+
+#### 2. Explanation (Why the argument must be positive)
+
+A logarithm is defined by its exponential equivalent: $\log_a(x) = y \iff a^y = x$.
+* For the given problem: $\log_2\left(-\frac{1}{8}\right) = y \iff 2^y = -\frac{1}{8}$.
+* The base is $a=2$. Since $2$ is a positive base, any real exponent $y$ will result in a positive value.
+    * For example, $2^3 = 8$
+    * $2^0 = 1$
+    * $2^{-3} = \frac{1}{2^3} = \frac{1}{8}$ (Positive)
+* Since $\mathbf{2^y}$ can never equal a negative number ($\mathbf{-\frac{1}{8}}$), there is **no real solution** for $y$.
+
+---
+
+#### 3. Why Change of Base Fails
+
+If we were to incorrectly use the Change of Base Rule:
+$$\log_2\left(-\frac{1}{8}\right) = \frac{\log\left(-\frac{1}{8}\right)}{\log(2)}$$
+
+A calculator would return an error for $\log\left(-\frac{1}{8}\right)$ because the logarithm of a negative number is undefined in the real number system.
+
+***
+
+#### 🔑 Key Takeaway
+
+Always check the **domain** before attempting to solve a logarithmic equation or evaluate an expression.
+* **Domain Rule:** For $\log_a(x)$, the argument **must** satisfy $\mathbf{x > 0}$.
+* If the argument is zero or negative, the logarithm is **undefined** in the real numbers.
+### 💡 Solving $\mathbf{\log_2\left(\frac{1}{8}\right)}$ using Change of Base
+
+This problem can be solved by direct evaluation, but here is the solution using the **Change of Base Rule** with the Common Logarithm (base 10, or $\log$) as requested.
+
+#### 1. The Change of Base Rule
+
+The rule is defined as:
+$$\mathbf{\log_a(x) = \frac{\log_b(x)}{\log_b(a)}}$$
+
+Using the Common Logarithm (base 10):
+$$\mathbf{\log_2\left(\frac{1}{8}\right) = \frac{\log\left(\frac{1}{8}\right)}{\log(2)}}$$
+
+---
+
+#### 2. Evaluation (Numerical Answer)
+
+Using a calculator, we find the approximate numerical value:
+$$\log\left(\frac{1}{8}\right) = \log(0.125) \approx -0.90309$$
+$$\log(2) \approx 0.30103$$
+$$\frac{-0.90309}{0.30103} = -3.0$$
+
+$$\mathbf{\log_2\left(\frac{1}{8}\right) = -3}$$
+
+---
+
+#### 3. Note: Direct Evaluation (The Easier Method)
+
+Since $\frac{1}{8} = 8^{-1} = (2^3)^{-1} = 2^{-3}$, we can solve directly:
+$$\log_2\left(\frac{1}{8}\right) = \log_2(2^{-3})$$
+$$\mathbf{\log_2\left(\frac{1}{8}\right) = -3}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+The Change of Base Rule gives the exact same result as direct evaluation.
+* The argument $\mathbf{\frac{1}{8}}$ goes to the **numerator** ($\log(\frac{1}{8})$).
+* The base $\mathbf{2}$ goes to the **denominator** ($\log(2)$).
+* This rule is flexible for all logs, even simple ones!
