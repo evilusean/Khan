@@ -13869,3 +13869,4 @@ The Change of Base Rule gives the exact same result as direct evaluation.
 * The base $\mathbf{2}$ goes to the **denominator** ($\log(2)$).
 * This rule is flexible for all logs, even simple ones!
 ## Algebra II - Lesson 73 - Solving Exponential and Logarithmic Equations - 27November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h4m10s
