@@ -14598,3 +14598,4 @@ When the equation has logarithms on **both sides**:
 3.  Solve the resulting algebraic equation.
 4.  Always **check the domain** for all arguments in the original equation.
 ## Algebra II - Lesson 74 - Additional Graphs of Functions - 28November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h30m35s
