@@ -14049,4 +14049,35 @@ When solving an exponential equation where the base is **$e$**:
 3.  The inverse property of logarithms and exponentials means that $\mathbf{\ln(e^x) = x}$. Taking the $\ln$ of both sides yields the same result:
     $$\ln(e^x) = \ln(88)$$
     $$\mathbf{x = \ln(88)}$$
-    
+### 📝 Solving Exponential Equation: $\mathbf{e^x = 75}$
+
+The goal is to solve for the exponent $x$. Since the base is $\mathbf{e}$ (Euler's number), the most efficient way to solve is by using the **Natural Logarithm** ($\mathbf{\ln}$), which is the inverse function of $e^x$.
+
+#### 1. Convert to Logarithmic Form (Using $\ln$)
+
+The definition of the logarithm states that: $\mathbf{b^y = x \iff \log_b(x) = y}$.
+
+Because our base is $e$, we use the natural logarithm, where $\mathbf{\log_e(x) = \ln(x)}$:
+$$\mathbf{e^x = 75 \implies x = \ln(75)}$$
+
+*Alternatively, taking the $\ln$ of both sides uses the inverse property $\ln(e^x)=x$:*
+$$\ln(e^x) = \ln(75)$$
+$$\mathbf{x = \ln(75)}$$
+
+---
+
+#### 2. Evaluation (Numerical Answer)
+
+The exact answer is $x = \ln(75)$. To find the approximate numerical value:
+
+Using a calculator, $\mathbf{\ln(75) \approx 4.31748...}$
+
+$$\mathbf{x \approx 4.317}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When solving an exponential equation where the base is **$e$**:
+1.  The solution is always the **Natural Logarithm** of the argument: $\mathbf{e^x = c \implies x = \ln(c)}$.
+2.  The $\ln$ function and $e^x$ function are inverse operations that **cancel each other out**.
