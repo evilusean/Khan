@@ -14081,59 +14081,114 @@ $$\mathbf{x \approx 4.317}$$
 When solving an exponential equation where the base is **$e$**:
 1.  The solution is always the **Natural Logarithm** of the argument: $\mathbf{e^x = c \implies x = \ln(c)}$.
 2.  The $\ln$ function and $e^x$ function are inverse operations that **cancel each other out**.
-### 📝 Solving Exponential Equation: $\mathbf{2^{x+3} = 5^x}$
+### 📝 Solving Exponential Equation: $\mathbf{2^{x+3} = 5^x}$ (Using $\log_{10}$)
 
-The goal is to solve for $x$. Since the bases (2 and 5) are different and cannot be easily matched, we must use logarithms.
+The goal is to solve for $x$ by applying the Common Logarithm ($\log$, base 10) to both sides, as the bases (2 and 5) cannot be matched.
 
-#### 1. Take the Logarithm of Both Sides
+#### 1. Take the Common Logarithm ($\log$) of Both Sides
 
-Apply the Natural Logarithm ($\mathbf{\ln}$) to both sides of the equation:
-$$\ln(2^{x+3}) = \ln(5^x)$$
+Apply $\log$ (which is $\log_{10}$) to both sides of the equation:
+$$\mathbf{\log(2^{x+3}) = \log(5^x)}$$
 
 ---
 
 #### 2. Apply the Power Rule
 
 The **Power Rule for Logarithms** states that $\mathbf{\log_b(A^n) = n \log_b(A)}$. Bring the exponents down as coefficients:
-$$(x+3)\ln(2) = x\ln(5)$$
+$$\mathbf{(x+3)\log(2) = x\log(5)}$$
 
 ---
 
 #### 3. Distribute and Group $x$ Terms
 
-* **Distribute** $\ln(2)$ on the left side:
-    $$x\ln(2) + 3\ln(2) = x\ln(5)$$
+* **Distribute** $\log(2)$ on the left side:
+    $$x\log(2) + 3\log(2) = x\log(5)$$
 
-* **Group** all terms containing $x$ on one side, and the constant terms on the other. Move $x\ln(2)$ to the right side:
-    $$3\ln(2) = x\ln(5) - x\ln(2)$$
+* **Group** all terms containing $x$ on one side. Move $x\log(2)$ to the right side:
+    $$3\log(2) = x\log(5) - x\log(2)$$
 
 ---
 
 #### 4. Factor out $x$ and Solve
 
 * **Factor out $x$** from the terms on the right side:
-    $$3\ln(2) = x(\ln(5) - \ln(2))$$
+    $$3\log(2) = x(\log(5) - \log(2))$$
 
-* **Isolate $x$** by dividing both sides by $(\ln(5) - \ln(2))$.
-    $$\mathbf{x = \frac{3\ln(2)}{\ln(5) - \ln(2)}}$$
+* **Isolate $x$** by dividing both sides by $(\log(5) - \log(2))$.
+    $$\mathbf{x = \frac{3\log(2)}{\log(5) - \log(2)}}$$
 
 ---
 
 #### 5. Simplify (Optional) and Evaluate
 
-Using the **Quotient Rule** ($\mathbf{\ln(A) - \ln(B) = \ln(A/B)}$), we can condense the denominator:
-$$\mathbf{x = \frac{3\ln(2)}{\ln(5/2)} \quad \text{or} \quad x = \frac{3\ln(2)}{\ln(2.5)}}$$
+Using the **Quotient Rule** for Logarithms ($\mathbf{\log(A) - \log(B) = \log(A/B)}$), we can condense the denominator:
+$$\mathbf{x = \frac{3\log(2)}{\log(5/2)} \quad \text{or} \quad x = \frac{3\log(2)}{\log(2.5)}}$$
 
 For the numerical approximation:
-$$x \approx \frac{3(0.6931)}{0.9163} \approx \frac{2.0793}{0.9163}$$
+$$\log(2) \approx 0.30103$$
+$$\log(2.5) \approx 0.39794$$
+$$x \approx \frac{3(0.30103)}{0.39794} \approx \frac{0.90309}{0.39794}$$
 $$\mathbf{x \approx 2.269}$$
 
 ***
 
 #### 🔑 Key Takeaway
 
-To solve an exponential equation with a variable in the exponent on **both sides** ($\mathbf{a^{f(x)} = b^{g(x)}}$):
-1.  Take the logarithm ($\ln$ or $\log$) of both sides.
-2.  Use the **Power Rule** to bring the exponents down.
-3.  **Distribute** any constants and **group** all terms containing the variable on one side.
-4.  **Factor** out the variable and divide to solve.
+The final algebraic structure of the solution is identical whether you use $\mathbf{\ln}$ or $\mathbf{\log}$. The choice only affects the numbers used for the final calculation:
+$$\mathbf{x = \frac{3\ln(2)}{\ln(5/2)} \quad \text{is the same as} \quad x = \frac{3\log(2)}{\log(5/2)}}$$
+### 📝 Solving Exponential Equation: $\mathbf{5e^{10x+2}+9 = 93}$
+
+The goal is to solve for $x$. Since the base of the exponential term is $\mathbf{e}$, we will use the **Natural Logarithm ($\ln$)** to isolate the exponent.
+
+#### 1. Isolate the Exponential Term
+
+Before applying the logarithm, we must isolate the $\mathbf{e^{10x+2}}$ term.
+
+* **Subtract 9 from both sides:**
+    $$5e^{10x+2} = 93 - 9$$
+    $$5e^{10x+2} = 84$$
+
+* **Divide both sides by 5:**
+    $$e^{10x+2} = \frac{84}{5}$$
+    $$\mathbf{e^{10x+2} = 16.8}$$
+
+---
+
+#### 2. Apply the Natural Logarithm ($\ln$)
+
+Take the natural logarithm ($\ln$) of both sides. This is the inverse of the base $e$ function.
+$$\ln(e^{10x+2}) = \ln(16.8)$$
+
+* **Apply the Inverse Property:** $\mathbf{\ln(e^A) = A}$
+    $$\mathbf{10x + 2 = \ln(16.8)}$$
+
+---
+
+#### 3. Solve the Linear Equation for $x$
+
+* **Subtract 2 from both sides:**
+    $$10x = \ln(16.8) - 2$$
+
+* **Divide both sides by 10:**
+    $$\mathbf{x = \frac{\ln(16.8) - 2}{10}}$$
+
+---
+
+#### 4. Final Answer (Exact and Approximate)
+
+* **Exact Solution:**
+    $$\mathbf{x = \frac{\ln(16.8) - 2}{10}}$$
+
+* **Approximate Solution:**
+    $$\ln(16.8) \approx 2.82137$$
+    $$x \approx \frac{2.82137 - 2}{10} = \frac{0.82137}{10}$$
+    $$\mathbf{x \approx 0.0821}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+To solve exponential equations of the form $\mathbf{Ae^{Bx+C} + D = F}$:
+1.  **Isolate $e$**: Use inverse operations (subtraction, then division) to get the equation into the form $\mathbf{e^{u} = c}$.
+2.  **Use $\ln$**: Apply the Natural Logarithm to both sides, which simplifies the equation to $\mathbf{u = \ln(c)}$.
+3.  **Solve Algebraically**: Solve the resulting linear equation for the variable $x$.
