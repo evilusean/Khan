@@ -13969,3 +13969,47 @@ To solve an exponential equation where the bases cannot be matched (e.g., $19^x 
 3.  **Evaluate** using the Change of Base Rule with $\ln$ or $\log$.
 
 * **Extra Note:** The One-to-One Property of Exponentials ($\mathbf{b^x = b^y \implies x = y}$) is used only when the bases can be made equal (e.g., $2^x = 8$, since $8=2^3$).
+### 📝 Solving Exponential Equation: $\mathbf{3^x = 40}$
+
+The goal is to solve for the exponent $x$. Since the bases cannot be easily matched, we must use logarithms.
+
+#### 1. Convert to Logarithmic Form
+
+The rule for converting between exponential and logarithmic form is:
+$$\mathbf{b^y = x \iff \log_b(x) = y}$$
+
+* **Base ($\mathbf{b}$) = 3**
+* **Exponent ($\mathbf{y}$) = $x$**
+* **Argument ($\mathbf{x}$) = 40**
+
+Applying the rule:
+$$\mathbf{x = \log_3(40)}$$
+
+---
+
+#### 2. Apply the Change of Base Rule
+
+To find the numerical value, we use the Change of Base Rule, typically with the Natural Logarithm ($\ln$) or Common Logarithm ($\log_{10}$):
+$$\mathbf{\log_a(x) = \frac{\ln(x)}{\ln(a)}}$$
+
+$$\mathbf{x = \frac{\ln(40)}{\ln(3)}}$$
+
+---
+
+#### 3. Evaluation (Numerical Answer)
+
+Using a calculator to find the approximate numerical value:
+$$\ln(40) \approx 3.6889$$
+$$\ln(3) \approx 1.0986$$
+$$x = \frac{3.6889}{1.0986} \approx 3.3578$$
+
+$$\mathbf{x \approx 3.358}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When solving an exponential equation ($\mathbf{b^x = c}$) where $c$ is not an integer power of $b$:
+1.  **Isolate** the exponential term.
+2.  **Convert** to the equivalent logarithm: $\mathbf{x = \log_b(c)}$.
+3.  **Use Change of Base** for a decimal approximation: $\mathbf{x = \frac{\log(c)}{\log(b)}}$.
