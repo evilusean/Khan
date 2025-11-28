@@ -13925,3 +13925,47 @@ For: $x > 0, y > 0, b > 0, b \neq 1$
 #### 🔑 Key Takeaway
 
 The **One-to-One Property** is crucial for solving logarithmic equations. If you have a single logarithm on both sides of an equation with the same base, you can simply set their arguments equal to each other to solve for the variable.
+### 📝 Solving Exponential Equation: $\mathbf{19^x = 28}$
+
+The goal is to solve for the exponent $x$. Since the bases cannot be easily matched, we must use logarithms.
+
+#### 1. Convert to Logarithmic Form
+
+The conversion rule is: $\mathbf{b^y = x \iff \log_b(x) = y}$
+
+* Base ($\mathbf{b}$) = 19
+* Exponent ($\mathbf{y}$) = $x$
+* Argument ($\mathbf{x}$) = 28
+
+Applying the rule:
+$$\mathbf{x = \log_{19}(28)}$$
+
+---
+
+#### 2. Apply the Change of Base Rule
+
+Since most calculators only have $\log_{10}$ or $\ln$ buttons, we use the Change of Base Rule: $\mathbf{\log_a(x) = \frac{\ln(x)}{\ln(a)}}$.
+
+$$\mathbf{x = \frac{\ln(28)}{\ln(19)}}$$
+
+---
+
+#### 3. Evaluation (Numerical Answer)
+
+Using a calculator to find the approximate numerical value:
+$$\ln(28) \approx 3.3322$$
+$$\ln(19) \approx 2.9444$$
+$$x = \frac{3.3322}{2.9444} \approx 1.1317$$
+
+$$\mathbf{x \approx 1.132}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+To solve an exponential equation where the bases cannot be matched (e.g., $19^x = 28$):
+1.  **Isolate** the exponential term.
+2.  **Convert** the equation to its equivalent logarithmic form ($\mathbf{x = \log_{base}(argument)}$).
+3.  **Evaluate** using the Change of Base Rule with $\ln$ or $\log$.
+
+* **Extra Note:** The One-to-One Property of Exponentials ($\mathbf{b^x = b^y \implies x = y}$) is used only when the bases can be made equal (e.g., $2^x = 8$, since $8=2^3$).
