@@ -14248,3 +14248,292 @@ To solve $\mathbf{b^{u} = c}$:
 2.  **Take $\log$** of both sides: $\mathbf{\log(b^{u}) = \log(c)}$.
 3.  **Power Rule**: $\mathbf{u \cdot \log(b) = \log(c)}$.
 4.  Solve for the variable algebraically.
+### 📝 Solving Logarithmic Equation: $\mathbf{\log(x) - \log(7) = 1}$
+
+The goal is to solve for $x$. This equation involves the **Common Logarithm** ($\mathbf{\log}$), which has an implied base of 10. We must first condense the left side using logarithm properties.
+
+#### 1. Condense the Logarithms (Quotient Rule)
+
+Since the two logarithms are being subtracted, we use the **Quotient Rule for Logarithms**: $\mathbf{\log_b(A) - \log_b(B) = \log_b\left(\frac{A}{B}\right)}$.
+
+$$\mathbf{\log\left(\frac{x}{7}\right) = 1}$$
+
+---
+
+#### 2. Convert to Exponential Form
+
+The base of $\log$ is 10. We convert the equation from logarithmic form ($\mathbf{\log_b(x) = y}$) to its equivalent exponential form ($\mathbf{b^y = x}$):
+
+* **Base ($\mathbf{b}$) = 10**
+* **Exponent ($\mathbf{y}$) = 1**
+* **Argument ($\mathbf{x}$) = $\frac{x}{7}$**
+
+Applying the rule:
+$$\mathbf{10^1 = \frac{x}{7}}$$
+$$10 = \frac{x}{7}$$
+
+---
+
+#### 3. Solve for $x$
+
+Multiply both sides by 7 to isolate $x$:
+$$x = 10 \cdot 7$$
+$$\mathbf{x = 70}$$
+
+---
+
+#### 4. Check the Solution (Domain Restriction)
+
+The **domain** requires that the argument of every logarithm be positive ($\mathbf{x > 0}$).
+
+* **Check:** The arguments are $x$ and $7$.
+    * $x > 0 \implies 70 > 0$. (Valid)
+    * $7 > 0$. (Valid)
+
+Since both arguments are positive, the solution is valid.
+
+$$\mathbf{x = 70}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When solving logarithmic equations with multiple log terms:
+1.  **Condense:** Use the Product, Quotient, and Power Rules to combine all logarithms into a **single logarithm** on one side of the equation.
+2.  **Convert:** Use the definition $\mathbf{\log_b(A) = c \iff b^c = A}$ to convert to exponential form.
+3.  **Check:** Always verify that your solution for $x$ makes every argument in the **original equation** strictly positive.
+### 📝 Solving Logarithmic Equation: $\mathbf{\log(9) - \log(x) = 1}$
+
+The goal is to solve for $x$. This equation involves the **Common Logarithm** ($\mathbf{\log}$), which has an implied base of 10. We must first condense the left side using logarithm properties.
+
+#### 1. Condense the Logarithms (Quotient Rule)
+
+Since the two logarithms are being subtracted, we use the **Quotient Rule for Logarithms**: $\mathbf{\log_b(A) - \log_b(B) = \log_b\left(\frac{A}{B}\right)}$.
+
+$$\mathbf{\log\left(\frac{9}{x}\right) = 1}$$
+
+---
+
+#### 2. Convert to Exponential Form
+
+The base of $\log$ is **10**. We convert the equation from logarithmic form ($\mathbf{\log_b(x) = y}$) to its equivalent exponential form ($\mathbf{b^y = x}$).
+
+* **Base ($\mathbf{b}$) = 10**
+* **Exponent ($\mathbf{y}$) = 1**
+* **Argument ($\mathbf{x}$) = $\frac{9}{x}$**
+
+Applying the rule:
+$$\mathbf{10^1 = \frac{9}{x}}$$
+$$10 = \frac{9}{x}$$
+
+---
+
+#### 3. Solve for $x$
+
+* **Multiply both sides by $x$** to remove the variable from the denominator:
+    $$10x = 9$$
+* **Divide by 10** to isolate $x$:
+    $$\mathbf{x = \frac{9}{10} \quad \text{or} \quad x = 0.9}$$
+
+---
+
+#### 4. Check the Solution (Domain Restriction)
+
+The **domain** of a logarithm requires the argument of every logarithm to be strictly positive. In the original equation, the argument $x$ must be $\mathbf{x > 0}$.
+
+* **Check:** Substitute $x=0.9$ into the argument: $0.9 > 0$. (Valid)
+
+Since the argument is positive, the solution is valid.
+
+$$\mathbf{x = 0.9}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When solving logarithmic equations:
+1.  **Condense** the expression using the **Product and Quotient Rules** to form a single logarithm.
+2.  **Convert** the logarithmic form to its equivalent **exponential form** ($\mathbf{b^y = x}$).
+3.  **Solve** the resulting algebraic equation.
+4.  **Check the Domain**: Always verify that the solution makes all arguments in the original log equation positive.
+### 📝 Solving Logarithmic Equation: $\mathbf{\log_4(-4x) - \log_4(5) = 1}$
+
+The goal is to solve for $x$. We must first **condense** the left side using logarithm properties and then convert the result to its equivalent **exponential form**.
+
+#### 1. Condense the Logarithms (Quotient Rule)
+
+Since the two logarithms are being subtracted and have the same base (4), we use the **Quotient Rule for Logarithms**: $\mathbf{\log_b(A) - \log_b(B) = \log_b\left(\frac{A}{B}\right)}$.
+
+$$\mathbf{\log_4\left(\frac{-4x}{5}\right) = 1}$$
+
+---
+
+#### 2. Convert to Exponential Form
+
+We convert the equation from logarithmic form ($\mathbf{\log_b(x) = y}$) to its equivalent exponential form ($\mathbf{b^y = x}$):
+
+* **Base ($\mathbf{b}$) = 4**
+* **Exponent ($\mathbf{y}$) = 1**
+* **Argument ($\mathbf{x}$) = $\frac{-4x}{5}$**
+
+Applying the rule:
+$$\mathbf{4^1 = \frac{-4x}{5}}$$
+$$4 = \frac{-4x}{5}$$
+
+---
+
+#### 3. Solve for $x$
+
+* **Multiply by 5** to clear the denominator:
+    $$4 \cdot 5 = -4x$$
+    $$20 = -4x$$
+* **Divide by -4** to isolate $x$:
+    $$\mathbf{x = -5}$$
+
+---
+
+#### 4. Check the Solution (Domain Restriction)
+
+The **domain** of a logarithm requires the argument of every logarithm in the **original equation** to be strictly positive ($\mathbf{> 0}$).
+
+* **Check Argument 1:** $-4x$
+    Substitute $x=-5$: $-4(-5) = \mathbf{20}$
+    Since $20 > 0$, this is **Valid**.
+* **Check Argument 2:** $5$
+    $5 > 0$. (Valid)
+
+Since both arguments are positive, the solution is valid.
+
+$$\mathbf{x = -5}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When solving logarithmic equations:
+1.  **Condense** the expression to a single logarithm using the Product and Quotient Rules.
+2.  **Convert** to exponential form: $\mathbf{b^y = x}$.
+3.  **Check the Domain**: The most common source of error is failing to verify that the solution makes all arguments in the original equation **positive**.
+### 📝 Solving Logarithmic Equation: $\mathbf{\log_2(5) - \log_2(5x) = 2}$
+
+The goal is to solve for $x$. We must first **condense** the left side using logarithm properties and then convert the result to its equivalent **exponential form**.
+
+#### 1. Condense the Logarithms (Quotient Rule)
+
+Since the two logarithms are being subtracted and have the same base (2), we use the **Quotient Rule for Logarithms**: $\mathbf{\log_b(A) - \log_b(B) = \log_b\left(\frac{A}{B}\right)}$.
+
+$$\mathbf{\log_2\left(\frac{5}{5x}\right) = 2}$$
+
+* **Simplify the argument:**
+    $$\mathbf{\log_2\left(\frac{1}{x}\right) = 2}$$
+
+---
+
+#### 2. Convert to Exponential Form
+
+We convert the equation from logarithmic form ($\mathbf{\log_b(x) = y}$) to its equivalent exponential form ($\mathbf{b^y = x}$).
+
+* **Base ($\mathbf{b}$) = 2**
+* **Exponent ($\mathbf{y}$) = 2**
+* **Argument ($\mathbf{x}$) = $\frac{1}{x}$**
+
+Applying the rule:
+$$\mathbf{2^2 = \frac{1}{x}}$$
+$$4 = \frac{1}{x}$$
+
+---
+
+#### 3. Solve for $x$
+
+* **Multiply by $x$** to clear the denominator:
+    $$4x = 1$$
+* **Divide by 4** to isolate $x$:
+    $$\mathbf{x = \frac{1}{4} \quad \text{or} \quad x = 0.25}$$
+
+---
+
+#### 4. Check the Solution (Domain Restriction)
+
+The **domain** of a logarithm requires the argument of every logarithm in the **original equation** to be strictly positive ($\mathbf{> 0}$).
+
+* **Check Argument 1:** $5$
+    $5 > 0$. (Valid)
+* **Check Argument 2:** $5x$
+    Substitute $x=\frac{1}{4}$: $5\left(\frac{1}{4}\right) = \mathbf{\frac{5}{4} \quad \text{or} \quad 1.25}$
+    Since $1.25 > 0$, this is **Valid**.
+
+Since both arguments are positive, the solution is valid.
+
+$$\mathbf{x = 0.25}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When the log arguments contain common factors, simplify them *after* using the Quotient Rule but *before* converting to exponential form to make the final algebraic step easier.
+### 📝 Solving Logarithmic Equation: $\mathbf{\log(3x^2 + 8) - \log(2) = 2}$
+
+The goal is to solve for $x$. This equation involves the **Common Logarithm** ($\mathbf{\log}$), which has an implied base of 10. We must first condense the left side using logarithm properties.
+
+#### 1. Condense the Logarithms (Quotient Rule)
+
+Since the two logarithms are being subtracted and share the same base (10), we use the **Quotient Rule for Logarithms**: $\mathbf{\log_b(A) - \log_b(B) = \log_b\left(\frac{A}{B}\right)}$.
+
+$$\mathbf{\log\left(\frac{3x^2 + 8}{2}\right) = 2}$$
+
+---
+
+#### 2. Convert to Exponential Form
+
+The base of $\log$ is **10**. We convert the equation from logarithmic form ($\mathbf{\log_b(x) = y}$) to its equivalent exponential form ($\mathbf{b^y = x}$).
+
+* **Base ($\mathbf{b}$) = 10**
+* **Exponent ($\mathbf{y}$) = 2**
+* **Argument ($\mathbf{x}$) = $\frac{3x^2 + 8}{2}$**
+
+Applying the rule:
+$$\mathbf{10^2 = \frac{3x^2 + 8}{2}}$$
+$$100 = \frac{3x^2 + 8}{2}$$
+
+---
+
+#### 3. Solve the Quadratic Equation for $x$
+
+* **Multiply by 2** to clear the denominator:
+    $$100 \cdot 2 = 3x^2 + 8$$
+    $$200 = 3x^2 + 8$$
+
+* **Isolate the $x^2$ term:** Subtract 8 from both sides:
+    $$200 - 8 = 3x^2$$
+    $$192 = 3x^2$$
+
+* **Divide by 3:**
+    $$x^2 = \frac{192}{3}$$
+    $$x^2 = 64$$
+
+* **Take the square root of both sides:** Remember to include both the positive and negative roots.
+    $$\mathbf{x = \pm 8}$$
+
+---
+
+#### 4. Check the Solution (Domain Restriction)
+
+The **domain** of a logarithm requires the argument of every logarithm in the **original equation** to be strictly positive ($\mathbf{> 0}$).
+
+* **Check Argument 1:** $3x^2 + 8$
+    Substitute $x=8$ or $x=-8$: $3(\pm 8)^2 + 8 = 3(64) + 8 = 192 + 8 = \mathbf{200}$
+    Since $200 > 0$, this is **Valid**.
+* **Check Argument 2:** $2$
+    $2 > 0$. (Valid)
+
+Both solutions, $x=8$ and $x=-8$, are valid.
+
+$$\mathbf{x = 8, -8}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+If solving a logarithmic equation results in a **quadratic equation** ($\mathbf{x^2 = c}$):
+1.  **Solve** for both the positive and negative roots ($\mathbf{x = \pm \sqrt{c}}$).
+2.  **Check both roots** against the domain restriction of the **original** logarithmic arguments. Because $x^2$ is always non-negative, in this specific case, both positive and negative values of $x$ satisfy the domain $3x^2 + 8 > 0$.
