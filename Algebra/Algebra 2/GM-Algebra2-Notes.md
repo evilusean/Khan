@@ -13870,3 +13870,58 @@ The Change of Base Rule gives the exact same result as direct evaluation.
 * This rule is flexible for all logs, even simple ones!
 ## Algebra II - Lesson 73 - Solving Exponential and Logarithmic Equations - 28November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h4m10s
+- If $x = y$ , then: $b^x = b^y$ : Restrictions = $b > 0, b \ne 1$
+- If $b^x = b^y$ then: $x = y$ : Restrictions = $b > 0, b \ne 1$
+### 🔑 The One-to-One Property of Exponential Functions
+
+This property establishes the equivalence between the exponents when the bases are equal, and vice-versa. It is the core principle used to solve many exponential equations. 
+
+[Image of the graph of an exponential function illustrating the one-to-one property]
+
+
+#### 1. The Property
+
+The exponential function $f(x) = b^x$ is a **one-to-one function** (meaning every $x$ value maps to a unique $y$ value), which gives rise to two forms of this property:
+
+* **Form 1 (If exponents are equal):**
+    If the exponents are equal, the powers are equal.
+    $$\text{If } \mathbf{x = y}\text{, then } \mathbf{b^x = b^y}$$
+
+* **Form 2 (If powers are equal):**
+    If the bases are the same and the powers are equal, then the exponents must be equal. This is the form most commonly used to solve equations.
+    $$\text{If } \mathbf{b^x = b^y}\text{, then } \mathbf{x = y}$$
+
+---
+
+#### 2. Restrictions
+
+The property holds under the standard restrictions for an exponential base:
+* $b > 0$: The base must be **positive**.
+* $b \neq 1$: The base cannot be **one** (since $1^x = 1^y$ is always true, regardless of $x$ and $y$).
+
+***
+
+#### 💡 Key Takeaway for Solving Equations
+
+To solve an exponential equation using this property (like $2^{3x-3} = 64$), you must first manipulate both sides of the equation so they have the **same base** ($\mathbf{b^x = b^y}$). Once the bases are the same, you can equate the exponents and solve the resulting linear or quadratic equation ($\mathbf{x = y}$).
+### 📝 One-to-One Property of Logarithms
+
+This property highlights the equivalence between equality of arguments and equality of logarithms with the same base.
+
+**The Property:**
+
+If: $x = y$
+Then: $\log_b(x) = \log_b(y)$
+
+If: $\log_b(x) = \log_b(y)$
+Then: $x = y$
+
+**Conditions for the Property:**
+
+For: $x > 0, y > 0, b > 0, b \neq 1$
+
+---
+
+#### 🔑 Key Takeaway
+
+The **One-to-One Property** is crucial for solving logarithmic equations. If you have a single logarithm on both sides of an equation with the same base, you can simply set their arguments equal to each other to solve for the variable.
