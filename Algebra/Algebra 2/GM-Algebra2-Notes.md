@@ -14192,3 +14192,59 @@ To solve exponential equations of the form $\mathbf{Ae^{Bx+C} + D = F}$:
 1.  **Isolate $e$**: Use inverse operations (subtraction, then division) to get the equation into the form $\mathbf{e^{u} = c}$.
 2.  **Use $\ln$**: Apply the Natural Logarithm to both sides, which simplifies the equation to $\mathbf{u = \ln(c)}$.
 3.  **Solve Algebraically**: Solve the resulting linear equation for the variable $x$.
+### 📝 Solving Exponential Equation: $\mathbf{6^{6h-1}+4 = 80}$
+
+The goal is to solve for the exponent $h$. Since the base is 6 and the argument is 76, we will use the **Common Logarithm ($\log$, base 10)** to solve.
+
+#### 1. Isolate the Exponential Term
+
+First, isolate the term containing the variable, $\mathbf{6^{6h-1}}$.
+
+* **Subtract 4 from both sides:**
+    $$6^{6h-1} = 80 - 4$$
+    $$\mathbf{6^{6h-1} = 76}$$
+
+---
+
+#### 2. Apply the Common Logarithm ($\log$)
+
+Take the $\log$ (base 10) of both sides:
+$$\log(6^{6h-1}) = \log(76)$$
+
+* **Apply the Power Rule:** The exponent moves to the front as a coefficient.
+    $$\mathbf{(6h - 1)\log(6) = \log(76)}$$
+
+---
+
+#### 3. Solve for $h$
+
+* **Divide by $\log(6)$** to isolate the expression containing $h$:
+    $$6h - 1 = \frac{\log(76)}{\log(6)}$$
+
+* **Add 1** to both sides:
+    $$6h = \frac{\log(76)}{\log(6)} + 1$$
+
+* **Divide by 6** to solve for $h$:
+    $$\mathbf{h = \frac{\frac{\log(76)}{\log(6)} + 1}{6}}$$
+
+---
+
+#### 4. Final Answer (Exact and Approximate)
+
+* **Exact Solution:**
+    $$\mathbf{h = \frac{\frac{\log(76)}{\log(6)} + 1}{6}}$$
+
+* **Approximate Solution:**
+    $$\frac{\log(76)}{\log(6)} \approx 2.41697$$
+    $$h \approx \frac{2.41697 + 1}{6} = \frac{3.41697}{6} \approx 0.56949$$
+    $$\mathbf{h \approx 0.569}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+To solve $\mathbf{b^{u} = c}$:
+1.  **Isolate** the exponential term $\mathbf{b^{u}}$.
+2.  **Take $\log$** of both sides: $\mathbf{\log(b^{u}) = \log(c)}$.
+3.  **Power Rule**: $\mathbf{u \cdot \log(b) = \log(c)}$.
+4.  Solve for the variable algebraically.
