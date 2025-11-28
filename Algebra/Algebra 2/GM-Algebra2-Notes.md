@@ -14537,3 +14537,64 @@ $$\mathbf{x = 8, -8}$$
 If solving a logarithmic equation results in a **quadratic equation** ($\mathbf{x^2 = c}$):
 1.  **Solve** for both the positive and negative roots ($\mathbf{x = \pm \sqrt{c}}$).
 2.  **Check both roots** against the domain restriction of the **original** logarithmic arguments. Because $x^2$ is always non-negative, in this specific case, both positive and negative values of $x$ satisfy the domain $3x^2 + 8 > 0$.
+### 📝 Solving Logarithmic Equation: $\mathbf{\log(3x - 2) - \log(6) = \log(11)}$
+
+The goal is to solve for $x$. This equation involves **Common Logarithms** ($\mathbf{\log}$), which have an implied base of 10. We will first condense the left side and then use the One-to-One Property.
+
+#### 1. Condense the Left Side (Quotient Rule)
+
+The left side involves the subtraction of two logarithms, so we use the **Quotient Rule for Logarithms**: $\mathbf{\log_b(A) - \log_b(B) = \log_b\left(\frac{A}{B}\right)}$.
+
+$$\mathbf{\log\left(\frac{3x - 2}{6}\right) = \log(11)}$$
+
+---
+
+#### 2. Apply the One-to-One Property
+
+Since we have a single logarithm on both sides of the equation with the same base (10), we can use the **One-to-One Property of Logarithms**, which states that if $\mathbf{\log_b(A) = \log_b(B)}$, then $\mathbf{A = B}$.
+
+$$\mathbf{\frac{3x - 2}{6} = 11}$$
+
+---
+
+#### 3. Solve the Linear Equation for $x$
+
+* **Multiply by 6** to clear the denominator:
+    $$3x - 2 = 11 \cdot 6$$
+    $$3x - 2 = 66$$
+
+* **Add 2** to both sides:
+    $$3x = 66 + 2$$
+    $$3x = 68$$
+
+* **Divide by 3** to isolate $x$:
+    $$\mathbf{x = \frac{68}{3}}$$
+
+---
+
+#### 4. Check the Solution (Domain Restriction)
+
+The **domain** requires the argument of every logarithm in the **original equation** to be strictly positive ($\mathbf{> 0}$).
+
+* **Check Argument 1:** $3x - 2$
+    Substitute $x=\frac{68}{3}$: $3\left(\frac{68}{3}\right) - 2 = 68 - 2 = \mathbf{66}$
+    Since $66 > 0$, this is **Valid**.
+* **Check Argument 2:** $6$
+    $6 > 0$. (Valid)
+* **Check Argument 3:** $11$
+    $11 > 0$. (Valid)
+
+Since all arguments are positive, the solution is valid.
+
+$$\mathbf{x = \frac{68}{3}}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+When the equation has logarithms on **both sides**:
+1.  **Condense** all log terms on each side of the equation to get the form $\mathbf{\log_b(A) = \log_b(B)}$.
+2.  **Equate the arguments** using the One-to-One Property: $\mathbf{A = B}$.
+3.  Solve the resulting algebraic equation.
+4.  Always **check the domain** for all arguments in the original equation.
+## Algebra II - Lesson 74 - Additional Graphs of Functions - 28November2025 :
