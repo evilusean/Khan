@@ -14081,3 +14081,59 @@ $$\mathbf{x \approx 4.317}$$
 When solving an exponential equation where the base is **$e$**:
 1.  The solution is always the **Natural Logarithm** of the argument: $\mathbf{e^x = c \implies x = \ln(c)}$.
 2.  The $\ln$ function and $e^x$ function are inverse operations that **cancel each other out**.
+### 📝 Solving Exponential Equation: $\mathbf{2^{x+3} = 5^x}$
+
+The goal is to solve for $x$. Since the bases (2 and 5) are different and cannot be easily matched, we must use logarithms.
+
+#### 1. Take the Logarithm of Both Sides
+
+Apply the Natural Logarithm ($\mathbf{\ln}$) to both sides of the equation:
+$$\ln(2^{x+3}) = \ln(5^x)$$
+
+---
+
+#### 2. Apply the Power Rule
+
+The **Power Rule for Logarithms** states that $\mathbf{\log_b(A^n) = n \log_b(A)}$. Bring the exponents down as coefficients:
+$$(x+3)\ln(2) = x\ln(5)$$
+
+---
+
+#### 3. Distribute and Group $x$ Terms
+
+* **Distribute** $\ln(2)$ on the left side:
+    $$x\ln(2) + 3\ln(2) = x\ln(5)$$
+
+* **Group** all terms containing $x$ on one side, and the constant terms on the other. Move $x\ln(2)$ to the right side:
+    $$3\ln(2) = x\ln(5) - x\ln(2)$$
+
+---
+
+#### 4. Factor out $x$ and Solve
+
+* **Factor out $x$** from the terms on the right side:
+    $$3\ln(2) = x(\ln(5) - \ln(2))$$
+
+* **Isolate $x$** by dividing both sides by $(\ln(5) - \ln(2))$.
+    $$\mathbf{x = \frac{3\ln(2)}{\ln(5) - \ln(2)}}$$
+
+---
+
+#### 5. Simplify (Optional) and Evaluate
+
+Using the **Quotient Rule** ($\mathbf{\ln(A) - \ln(B) = \ln(A/B)}$), we can condense the denominator:
+$$\mathbf{x = \frac{3\ln(2)}{\ln(5/2)} \quad \text{or} \quad x = \frac{3\ln(2)}{\ln(2.5)}}$$
+
+For the numerical approximation:
+$$x \approx \frac{3(0.6931)}{0.9163} \approx \frac{2.0793}{0.9163}$$
+$$\mathbf{x \approx 2.269}$$
+
+***
+
+#### 🔑 Key Takeaway
+
+To solve an exponential equation with a variable in the exponent on **both sides** ($\mathbf{a^{f(x)} = b^{g(x)}}$):
+1.  Take the logarithm ($\ln$ or $\log$) of both sides.
+2.  Use the **Power Rule** to bring the exponents down.
+3.  **Distribute** any constants and **group** all terms containing the variable on one side.
+4.  **Factor** out the variable and divide to solve.
