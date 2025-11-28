@@ -65,3 +65,6 @@ Expanding/Condensing + Properties of Logarithms :
 - **Power Rule for Logarithms** : $log_b(x^r) = r \cdot log_b(x)$ : 'x', and 'b' are positive real numbesr and $b \ne 1$, 'r' is any real number : Exponent just comes down and goes in front
 - $b^{log_b(x)} = x$ : if you see something 'b' raised to the power of log base 'b' to 'x' you will get 'x' as the solution. restrictions: $b > 0, b \ne 1, x >0$ : I'm not even going to pretend I understand why this works. Future Sean Problems. something something about base being raised to the power to get 7. 
 - $log_b(b^x) = x$ : log base 'b' of 'b' to the 'x' is equal to 'x' = 'b' raised to the power of 'x' will give you 'b' to the power or 'x' : restrictions $b > 0, b \ne 1$ 
+
+ - Algebra II - Lesson 73 - Solving Exponential and Logarithmic Equations 
+
