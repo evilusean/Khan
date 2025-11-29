@@ -15047,6 +15047,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=33h14m35s
 - **Distance Formula** : $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ : given any 2 points/coordinate pairs $(x_1,y_1)$ $(x_2,y_2)$, you can find the distance between them
 - **Center-Radius Form** : $(x - h)^2 + (y - k)^2 = r^2$ : the center coordinates (x,y) = (h,k) : If you know the center, and radius, you can very quickly graph something - If you have a '+h' that makes it a '- (-h)', so it's actually a negative if you are using *Center-Radius Form*
 -  **Area** : $\pi r^2$ 
+- In some cases, we are not given the equation of the circle in standard form (center radius form) - When this occurs, we can obtain standard form by completing the square : 
 ### ✏️ Identify Center, Radius, and Sketch the Graph of: $(x + 4)^2 + (y - 3)^2 = 4$
 
 ---
@@ -15150,3 +15151,69 @@ $$\mathbf{A = 4\pi}$$ ($\approx 12.57 \text{ units}^2$)
 $$C = 2\pi r$$
 $$C = 2\pi (2)$$
 $$\mathbf{C = 4\pi}$$ ($\approx 12.57 \text{ units}$)
+### ✏️ Convert General Form to Standard Form by Completing the Square ($\mathbf{x^2 + y^2 - 4x - 4y - 8 = 0}$)
+
+The given equation in **General Form** is:
+$$\mathbf{x^2 + y^2 - 4x - 4y - 8 = 0}$$
+
+The goal is to transform this into the **Standard Form** of a circle: $(x - h)^2 + (y - k)^2 = r^2$.
+
+---
+
+#### 1. Group Terms and Isolate the Constant
+
+Rearrange the terms by grouping the $x$-terms and $y$-terms together, and move the constant term to the right side of the equation.
+
+$$x^2 - 4x \quad + \quad y^2 - 4y \quad = \quad 8$$
+
+---
+
+#### 2. Complete the Square for $x$-terms and $y$-terms
+
+To complete the square for a quadratic expression $x^2 + Bx$, we need to add the value $\left(\frac{B}{2}\right)^2$. We must add this value to **both sides** of the equation to maintain equality.
+
+##### Step 2.1: Complete the Square for $x^2 - 4x$
+* Identify $B$: $B = -4$.
+* Calculate the value to add: $\left(\frac{-4}{2}\right)^2 = (-2)^2 = \mathbf{4}$.
+
+##### Step 2.2: Complete the Square for $y^2 - 4y$
+* Identify $B$: $B = -4$.
+* Calculate the value to add: $\left(\frac{-4}{2}\right)^2 = (-2)^2 = \mathbf{4}$.
+
+---
+
+#### 3. Rewrite the Equation
+
+Add the calculated values (4 and 4) to both sides of the equation and rewrite the grouped expressions as squared binomials.
+
+1.  **Add constants to both sides:**
+    $$(x^2 - 4x + \mathbf{4}) + (y^2 - 4y + \mathbf{4}) = 8 + \mathbf{4} + \mathbf{4}$$
+2.  **Rewrite the perfect square trinomials as squared binomials:**
+    The squared binomial is always $\left(x + \frac{B}{2}\right)^2$.
+    * For the $x$-terms: $x^2 - 4x + 4 = \mathbf{(x - 2)^2}$
+    * For the $y$-terms: $y^2 - 4y + 4 = \mathbf{(y - 2)^2}$
+3.  **Simplify the right side:**
+    $$8 + 4 + 4 = \mathbf{16}$$
+
+---
+
+#### 4. Final Standard Form
+
+The resulting equation is the **Standard Form** of the circle:
+
+$$\mathbf{(x - 2)^2 + (y - 2)^2 = 16}$$
+
+From this form, we can identify:
+* **Center $(h, k)$:** $\mathbf{(2, 2)}$
+* **Radius ($r$):** $\sqrt{16} = \mathbf{4}$
+
+---
+
+#### 5. Key Takeaways: Completing the Square
+
+##### **Concept: The Balanced Equation**
+* The fundamental rule is that whatever value you add to one side of the equation (to create the perfect square trinomial), you **must** add it to the other side to keep the equation balanced.
+
+##### **Tip: Identifying the Binomial**
+* The number inside the squared binomial, $(x + \text{number})^2$, is **always** half of the $B$ coefficient from the $Bx$ term (i.e., $\frac{B}{2}$).
+    * $x^2 - 4x$: Half of $-4$ is $-2$. $\rightarrow (x - 2)^2$.
