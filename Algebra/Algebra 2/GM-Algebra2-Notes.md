@@ -14617,3 +14617,40 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h30m35s
 - **Horizontal Shift for Greatest Integer** : $f(x) = [x -3]$ : If it happens inside the function, countintuitive, same as the others '+' goes left, '-' goes right
 - **Vertical Shift for Greatest Interger** : $f(x) = [x] -5$ : Intuitive. If it happens outside the function, it's a verticalshift. '+' goes up, '-' goes down.
 ## Algebra II - Lesson 75 - Composition of Functions - 29November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h59m45s
+- **Composition of Functions** : $g[f(x)]$ = 'g' of 'f' of 'x' : $f[g(x)]$ ='f' of 'g' of 'x' : If 'f' and 'g' are functions - Includes substituting and simplifying
+### 🧠 Composition of Functions: $\mathbf{f[g(x)]}$ and $\mathbf{g[f(x)]}$
+
+Function composition is the process of applying one function to the results of another. It creates a new function by combining existing functions.
+
+#### 1. Notation and Meaning
+
+The composition of two functions, $f$ and $g$, is denoted by $\mathbf{(f \circ g)(x)}$ or $\mathbf{f[g(x)]}$.
+
+| Notation | Pronunciation | Operation |
+| :---: | :---: | :---: |
+| $\mathbf{f[g(x)]}$ or $\mathbf{(f \circ g)(x)}$ | "f of g of x" | **Input $x$ into $g$, then input the result $g(x)$ into $f$.** |
+| $\mathbf{g[f(x)]}$ or $\mathbf{(g \circ f)(x)}$ | "g of f of x" | **Input $x$ into $f$, then input the result $f(x)$ into $g$.** |
+
+---
+
+#### 2. Process: Substituting and Simplifying
+
+The core process involves substituting the entire "inner" function into the variable of the "outer" function.
+
+**Example:** Given $f(x) = 2x + 1$ and $g(x) = x^2$.
+
+| Composition | Substitution | Simplification |
+| :--- | :--- | :--- |
+| $\mathbf{f[g(x)]}$ | $f(\mathbf{x^2}) = 2(\mathbf{x^2}) + 1$ | $\mathbf{2x^2 + 1}$ |
+| $\mathbf{g[f(x)]}$ | $g(\mathbf{2x + 1}) = (\mathbf{2x + 1})^2$ | $\mathbf{4x^2 + 4x + 1}$ |
+
+---
+
+#### 3. Key Takeaways & Domain Restrictions
+
+* **Order Matters:** In general, $\mathbf{f[g(x)] \neq g[f(x)]}$. As shown above, $2x^2 + 1 \neq 4x^2 + 4x + 1$.
+* **Identity Check for Inverses:** If $\mathbf{f[g(x)] = x}$ **AND** $\mathbf{g[f(x)] = x}$, then $f$ and $g$ are **inverse functions**.
+* **Domain Restriction:** The domain of the composite function $\mathbf{f[g(x)]}$ consists of all $x$ in the domain of the **inner function ($g$)** such that $g(x)$ is in the domain of the **outer function ($f$)**. You must exclude any value of $x$ that:
+    1.  Causes the inner function, $g(x)$, to be undefined.
+    2.  Causes the result $g(x)$ to be outside the domain of the outer function, $f$.
