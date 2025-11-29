@@ -14654,3 +14654,57 @@ The core process involves substituting the entire "inner" function into the vari
 * **Domain Restriction:** The domain of the composite function $\mathbf{f[g(x)]}$ consists of all $x$ in the domain of the **inner function ($g$)** such that $g(x)$ is in the domain of the **outer function ($f$)**. You must exclude any value of $x$ that:
     1.  Causes the inner function, $g(x)$, to be undefined.
     2.  Causes the result $g(x)$ to be outside the domain of the outer function, $f$.
+### ✏️ Composite Function Problem: $f(g(1+x))$
+
+---
+
+#### 1. Given Functions
+
+The functions provided for the composition are:
+* $f(x) = 2x - 3$
+* $g(x) = 4x + 4$
+
+---
+
+#### 2. Detailed Step-by-Step Solution
+
+The goal is to evaluate $f(g(1+x))$, which requires working from the innermost expression outwards.
+
+##### Step 2.1: Evaluate the Innermost Expression $g(1+x)$
+The inner expression, **$(1+x)$**, is substituted into the function $g(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $g(x) = 4x + 4$ with $\mathbf{(1+x)}$.
+    $$g(1+x) = 4(\mathbf{1+x}) + 4$$
+2.  **Simplify (Distribute):** Distribute the 4 across the parentheses.
+    $$g(1+x) = 4 + 4x + 4$$
+3.  **Combine Like Terms:** Combine the constant terms (4 and 4).
+    $$\mathbf{g(1+x) = 4x + 8}$$
+    *The output of the inner function, $(4x + 8)$, now becomes the input for the outer function.*
+
+##### Step 2.2: Evaluate the Outer Function $f(g(1+x))$
+The result from Step 2.1, **$(4x + 8)$**, is substituted into the function $f(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $f(x) = 2x - 3$ with $\mathbf{(4x + 8)}$.
+    $$f(g(1+x)) = f(\mathbf{4x + 8}) = 2(\mathbf{4x + 8}) - 3$$
+2.  **Simplify (Distribute):** Distribute the 2 across the parentheses.
+    $$f(g(1+x)) = 8x + 16 - 3$$
+3.  **Combine Like Terms:** Combine the constant terms (16 and -3).
+    $$\mathbf{f(g(1+x)) = 8x + 13}$$
+
+---
+
+#### 3. Final Answer
+
+The result of the composite function is:
+$$f(g(1+x)) = 8x + 13$$
+
+---
+
+#### 4. Key Takeaways for Composite Functions
+
+##### **Concept: The Chain Rule of Substitution**
+* **Composition:** A function composition, like $f(g(x))$, is the process of using the entire output of one function (the inner one, $g(x)$) as the input for another function (the outer one, $f(x)$).
+* **Method:** You must always evaluate the composition **from the innermost expression outward**. If the innermost part is a number, you get a number. If it is an expression with a variable (like $1+x$), the final answer will also be an expression with that variable.
+
+##### **Tip: Use Parentheses for Clarity**
+* Whenever you substitute an expression (especially one with multiple terms, like $4x+8$) into a function, always enclose the expression in **parentheses**. This ensures that the entire input is correctly multiplied by any coefficients outside the substitution point (e.g., the '2' in $f(x)=2x-3$).
+    * **Correct:** $2\mathbf{(4x + 8)} - 3$
+    * **Incorrect (common error):** $2 \cdot 4x + 8 - 3$ (This misses multiplying the '8' by 2).
