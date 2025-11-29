@@ -15045,7 +15045,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=33h14m35s
 - **A Circle** = is the set of all points in a plane that lie a fixed distance from the center
 - **Radius** = The fixed distance from the center to each point
 - **Distance Formula** : $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ : given any 2 points/coordinate pairs $(x_1,y_1)$ $(x_2,y_2)$, you can find the distance between them
-- **Center-Radius Form** : $(x - h)^2 + (y - k)^2 = r^2$ : the center coordinates (x,y) = (h,k) : If you know the center, and radius, you can very quickly graph something
+- **Center-Radius Form** : $(x - h)^2 + (y - k)^2 = r^2$ : the center coordinates (x,y) = (h,k) : If you know the center, and radius, you can very quickly graph something - If you have a '+h' that makes it a '- (-h)', so it's actually a negative if you are using *Center-Radius Form*
 -  **Area** : $\pi r^2$ 
 ### ✏️ Identify Center, Radius, and Sketch the Graph of: $(x + 4)^2 + (y - 3)^2 = 4$
 
@@ -15107,3 +15107,46 @@ To sketch the graph of the circle, we use the identified center and radius.
 
 * **Rule of Thumb for Center:** Always take the number inside the parentheses with the **opposite sign**. $(x + 4) \rightarrow h=-4$; $(y - 3) \rightarrow k=3$.
 * **Rule of Thumb for Radius:** The radius is the square root of the number on the right side of the equation.
+### ✏️ Analysis of Circle Equation: $(x - 3)^2 + (y + 2)^2 = 4$
+
+---
+
+#### 1. Identification of Center and Radius
+
+The **Center-Radius Form** (Standard Form) of a circle's equation is:
+$$\mathbf{(x - h)^2 + (y - k)^2 = r^2}$$
+
+##### Step 1.1: Identify the Center $(h, k)$
+We compare the given equation to the standard form.
+
+1.  **Find $h$ (x-coordinate):**
+    * The term is $(x - 3)^2$. Comparing this to $(x - h)^2$, we get $\mathbf{h = 3}$.
+2.  **Find $k$ (y-coordinate):**
+    * The term is $(y + 2)^2$, which can be rewritten as $(y - (-2))^2$. Comparing this to $(y - k)^2$, we get $\mathbf{k = -2}$.
+    * **Key Takeaway:** Always take the **opposite sign** of the numbers inside the parentheses.
+
+$$\mathbf{Center: (3, -2)}$$
+
+##### Step 1.2: Identify the Radius ($r$)
+1.  **Find $r^2$:** The right side of the equation gives us $r^2$.
+    $$r^2 = 4$$
+2.  **Find $r$:** Take the positive square root of $r^2$.
+    $$r = \sqrt{4}$$
+    $$\mathbf{r = 2}$$
+
+$$\mathbf{Radius: 2}$$ 
+---
+
+#### 2. Calculations (Area and Circumference)
+
+Using the identified radius $r=2$, we can calculate the circle's area and circumference.
+
+##### **Area ($A$)**
+$$A = \pi r^2$$
+$$A = \pi (2)^2$$
+$$\mathbf{A = 4\pi}$$ ($\approx 12.57 \text{ units}^2$)
+
+##### **Circumference ($C$)**
+$$C = 2\pi r$$
+$$C = 2\pi (2)$$
+$$\mathbf{C = 4\pi}$$ ($\approx 12.57 \text{ units}$)
