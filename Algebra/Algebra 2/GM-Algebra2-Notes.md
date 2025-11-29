@@ -14616,3 +14616,4 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h30m35s
 - **The Greatest Integer Function** : **The Floor Function** : $f(x) = [x]$ : $int(x)$ : Domain =   $(- \infty, \infty)$ : Range = (... -2, -1, 0, 1, 2, ...) : Denotes the largest integer that is less than or equal to 'x'. *Rounds down to the nearest integer.* - Graphs to look like a series of steps, also known as *the step function* because of the shape.
 - **Horizontal Shift for Greatest Integer** : $f(x) = [x -3]$ : If it happens inside the function, countintuitive, same as the others '+' goes left, '-' goes right
 - **Vertical Shift for Greatest Interger** : $f(x) = [x] -5$ : Intuitive. If it happens outside the function, it's a verticalshift. '+' goes up, '-' goes down.
+## Algebra II - Lesson 75 - Composition of Functions - 29November2025 :
