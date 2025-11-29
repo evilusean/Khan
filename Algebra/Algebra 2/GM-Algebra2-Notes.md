@@ -14869,3 +14869,60 @@ $$g(h(-3x)) = 12x$$
 ##### **Simplification: Opposite Constants**
 * **Cancellation:** When an expression is added to or subtracted from its inverse (e.g., $-1 + 1$), they **cancel** out, simplifying the expression significantly. This often happens when the outer function is very simple, like $g(x) = x + 1$ in this problem.
 * **Resulting Expression:** Even if the constant terms cancel out, the final answer remains a valid function of $x$ (in this case, a linear function: $y = 12x$).
+### ✏️ Composite Function Problem: $f(g(3x))$
+
+---
+
+#### 1. Given Functions
+
+The functions provided for the composition are:
+* $f(x) = 4x + 5$
+* $g(x) = x^3 - 2x$
+
+---
+
+#### 2. Detailed Step-by-Step Solution
+
+The objective is to evaluate the composite function $f(g(3x))$. We must always evaluate the expressions **from the inside out**. This problem involves substituting a term ($3x$) into a cubic function, and then substituting that entire resulting expression into a linear function.
+
+##### Step 2.1: Evaluate the Innermost Expression $g(3x)$
+The inner expression, $\mathbf{(3x)}$, is substituted into the function $g(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $g(x) = x^3 - 2x$ with $\mathbf{(3x)}$. Remember to use parentheses for the exponentiation.
+    $$g(3x) = (\mathbf{3x})^3 - 2(\mathbf{3x})$$
+2.  **Simplify (Exponentiate and Multiply):**
+    * For the first term, $(\mathbf{3x})^3$: Cube both the coefficient (3) and the variable ($x$). $3^3 = 27$.
+    * For the second term, $-2(\mathbf{3x})$: Multiply the coefficients.
+    $$g(3x) = 27x^3 - 6x$$
+3.  **Final Result for Inner Function:**
+    $$\mathbf{g(3x) = 27x^3 - 6x}$$
+    *The output of the inner function, $(27x^3 - 6x)$, now becomes the input for the outer function.*
+
+##### Step 2.2: Evaluate the Outer Function $f(g(3x))$
+The result from Step 2.1, **$(27x^3 - 6x)$**, is substituted into the function $f(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $f(x) = 4x + 5$ with $\mathbf{(27x^3 - 6x)}$.
+    $$f(g(3x)) = f(\mathbf{27x^3 - 6x}) = 4(\mathbf{27x^3 - 6x}) + 5$$
+2.  **Simplify (Distribute):** Distribute the 4 across the parentheses.
+    $$f(g(3x)) = 4(27x^3) - 4(6x) + 5$$
+    $$f(g(3x)) = 108x^3 - 24x + 5$$
+3.  **Final Result:** Since there are no like terms remaining (cubic, linear, and constant), the expression is fully simplified.
+    $$\mathbf{f(g(3x)) = 108x^3 - 24x + 5}$$
+
+---
+
+#### 3. Final Answer
+
+The result of the composite function is:
+$$f(g(3x)) = 108x^3 - 24x + 5$$
+
+---
+
+#### 4. Key Takeaways for Composite Functions
+
+##### **Concept: Exponentiation of Monomials**
+* **The Power Rule:** When raising a term with a coefficient to a power, such as $(\mathbf{3x})^3$, the exponent must be applied to **both** the coefficient and the variable:
+    $$(ax)^n = a^n x^n$$
+    Failing to cube the coefficient (3) is a common error that would incorrectly yield $3x^3$ instead of $27x^3$.
+
+##### **Order of Operations**
+* **Substitution First:** Always perform the substitutions first, using parentheses to protect the expression, and then perform the distribution and combination of like terms. This ensures you do not miss any multiplication or sign changes.
+* **Simplification of the Final Result:** The final answer is a third-degree polynomial (a cubic function). The terms $108x^3$ and $-24x$ are **not** like terms because they have different exponents, so they cannot be combined.
