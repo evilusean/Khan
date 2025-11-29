@@ -15217,3 +15217,73 @@ From this form, we can identify:
 ##### **Tip: Identifying the Binomial**
 * The number inside the squared binomial, $(x + \text{number})^2$, is **always** half of the $B$ coefficient from the $Bx$ term (i.e., $\frac{B}{2}$).
     * $x^2 - 4x$: Half of $-4$ is $-2$. $\rightarrow (x - 2)^2$.
+### ✏️ Convert General Form to Standard Form: $2x^2 + 2y^2 - 12x + 8y + 24 = 0$
+
+---
+
+#### 1. Normalize the Coefficients (Divide by 2)
+
+Before completing the square, the coefficients for $x^2$ and $y^2$ must be $\mathbf{1}$. Divide every term in the equation by 2.
+
+$$\frac{2x^2}{2} + \frac{2y^2}{2} - \frac{12x}{2} + \frac{8y}{2} + \frac{24}{2} = \frac{0}{2}$$
+
+The simplified equation is:
+$$\mathbf{x^2 + y^2 - 6x + 4y + 12 = 0}$$
+
+---
+
+#### 2. Group Terms and Isolate the Constant
+
+Rearrange the equation by grouping the $x$-terms and $y$-terms and moving the constant term to the right side.
+
+$$x^2 - 6x \quad + \quad y^2 + 4y \quad = \quad -12$$
+
+---
+
+#### 3. Complete the Square
+
+Calculate the constant needed for both the $x$ and $y$ groupings using the formula $\left(\frac{B}{2}\right)^2$. Add these values to both sides of the equation.
+
+##### Step 3.1: Complete the Square for $x^2 - 6x$
+* $B = -6$.
+* Value to add: $\left(\frac{-6}{2}\right)^2 = (-3)^2 = \mathbf{9}$.
+
+##### Step 3.2: Complete the Square for $y^2 + 4y$
+* $B = 4$.
+* Value to add: $\left(\frac{4}{2}\right)^2 = (2)^2 = \mathbf{4}$.
+
+---
+
+#### 4. Rewrite the Equation in Standard Form
+
+1.  **Add constants to both sides:**
+    $$(x^2 - 6x + \mathbf{9}) + (y^2 + 4y + \mathbf{4}) = -12 + \mathbf{9} + \mathbf{4}$$
+2.  **Rewrite the perfect square trinomials as squared binomials:**
+    * $x$-terms: $x^2 - 6x + 9 = \mathbf{(x - 3)^2}$
+    * $y$-terms: $y^2 + 4y + 4 = \mathbf{(y + 2)^2}$
+3.  **Simplify the right side:**
+    $$-12 + 9 + 4 = \mathbf{1}$$
+
+---
+
+#### 5. Final Standard Form and Identification
+
+The resulting equation is the **Standard Form** of the circle:
+
+$$\mathbf{(x - 3)^2 + (y + 2)^2 = 1}$$
+
+From this form, we can identify:
+* **Center $(h, k)$:** $(3, -2)$ (Remember the opposite sign!)
+* **Radius ($r$):** $\sqrt{1} = 1$
+
+---
+
+#### 6. Key Takeaways
+
+##### **The First Step is Crucial (Normalization)**
+* **Requirement:** The General Form of a circle is $Ax^2 + Ay^2 + \dots = 0$. If $A \neq 1$ (as in this case, $A=2$), you **must** divide the entire equation by $A$ first. This ensures you calculate the correct completing-the-square terms and ultimately the correct radius.
+
+##### **Tip: Identifying the Binomial**
+* The number inside the squared binomial is always half of the $B$ coefficient:
+    * For $x^2 - 6x$: half of $-6$ is $-3$. $\rightarrow (x - 3)^2$.
+    * For $y^2 + 4y$: half of $+4$ is $+2$. $\rightarrow (y + 2)^2$.
