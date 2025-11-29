@@ -14619,6 +14619,7 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h30m35s
 ## Algebra II - Lesson 75 - Composition of Functions - 29November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h59m45s
 - **Composition of Functions** : $g[f(x)]$ = 'g' of 'f' of 'x' : $f[g(x)]$ ='f' of 'g' of 'x' : If 'f' and 'g' are functions - Includes substituting and simplifying
+- Start on the inside and work your way out, plugging in the variables $f(g(1+x))$ '1 + x' into the function 'g' for 'x' and then plugging that solution you get into the function 'f' for 'x' - take the output of 'g' and use it for the input of 'f'
 ### 🧠 Composition of Functions: $\mathbf{f[g(x)]}$ and $\mathbf{g[f(x)]}$
 
 Function composition is the process of applying one function to the results of another. It creates a new function by combining existing functions.
@@ -14708,3 +14709,55 @@ $$f(g(1+x)) = 8x + 13$$
 * Whenever you substitute an expression (especially one with multiple terms, like $4x+8$) into a function, always enclose the expression in **parentheses**. This ensures that the entire input is correctly multiplied by any coefficients outside the substitution point (e.g., the '2' in $f(x)=2x-3$).
     * **Correct:** $2\mathbf{(4x + 8)} - 3$
     * **Incorrect (common error):** $2 \cdot 4x + 8 - 3$ (This misses multiplying the '8' by 2).
+### ✏️ Composite Function Problem: $f(g(-2x))$
+
+---
+
+#### 1. Given Functions
+
+The functions provided for the composition are:
+* $f(x) = -x - 1$
+* $g(x) = x + 5$
+
+---
+
+#### 2. Detailed Step-by-Step Solution
+
+The objective is to evaluate the composite function $f(g(-2x))$. As with all function compositions, we work **from the inside out**.
+
+##### Step 2.1: Evaluate the Innermost Expression $g(-2x)$
+The inner expression, **$(-2x)$**, is substituted into the function $g(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $g(x) = x + 5$ with $\mathbf{(-2x)}$.
+    $$g(-2x) = \mathbf{-2x} + 5$$
+2.  **Final Result for Inner Function:**
+    $$\mathbf{g(-2x) = -2x + 5}$$
+    *The output of the inner function, $(-2x + 5)$, now becomes the input for the outer function.*
+
+##### Step 2.2: Evaluate the Outer Function $f(g(-2x))$
+The result from Step 2.1, **$(-2x + 5)$**, is substituted into the function $f(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $f(x) = -x - 1$ with $\mathbf{(-2x + 5)}$. Remember to use parentheses for correct sign distribution.
+    $$f(g(-2x)) = f(\mathbf{-2x + 5}) = -(\mathbf{-2x + 5}) - 1$$
+2.  **Simplify (Distribute):** Distribute the negative sign outside the parentheses (which is the same as multiplying by $-1$).
+    $$f(g(-2x)) = -(-2x) - (5) - 1$$
+    $$f(g(-2x)) = 2x - 5 - 1$$
+3.  **Combine Like Terms:** Combine the constant terms ($-5$ and $-1$).
+    $$\mathbf{f(g(-2x)) = 2x - 6}$$
+
+---
+
+#### 3. Final Answer
+
+The result of the composite function is:
+$$f(g(-2x)) = 2x - 6$$
+
+---
+
+#### 4. Key Takeaways for Composite Functions
+
+##### **Concept: The Importance of Negative Signs**
+* **Distribution:** When the outer function has a negative sign immediately preceding the input variable (like the **$-x$** in $f(x) = -x - 1$), you must distribute that negative sign across **every term** of the substituted expression.
+* **Error Prevention:** If the substituted expression is $\mathbf{A + B}$, the calculation is $-(\mathbf{A + B}) = -\mathbf{A} - \mathbf{B}$. A common error is only applying the negative to the first term: $-A + B$ (incorrect).
+
+##### **Method: Inside-Out Procedure**
+* **Order of Composition:** Always start with the innermost expression (the argument of the deepest function), calculate its output, and use that output as the input for the next function outward.
+* **Variable Input:** Since the final innermost input was a term with the variable $x$ (specifically $-2x$), the final answer is an expression that also contains the variable $x$.
