@@ -15040,3 +15040,4 @@ $$f(g(x+3)) = 8x + 46$$
 * **Nested Distribution:** In Step 2.1, you distributed the **2**. In Step 2.2, you distributed the **4**. A common mistake is using the wrong multiplier or forgetting a term during distribution.
     * **Step 2.1 check:** $2(x+3) = 2x + 6$ (Correct)
     * **Step 2.2 check:** $4(2x+11) = 8x + 44$ (Correct)
+## Algebra II - Lesson 76 - The Circle - 29November2025 :
