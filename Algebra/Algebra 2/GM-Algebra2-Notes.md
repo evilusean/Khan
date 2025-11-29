@@ -14620,6 +14620,8 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h30m35s
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h59m45s
 - **Composition of Functions** : $g[f(x)]$ = 'g' of 'f' of 'x' : $f[g(x)]$ ='f' of 'g' of 'x' : If 'f' and 'g' are functions - Includes substituting and simplifying
 - Start on the inside and work your way out, plugging in the variables $f(g(1+x))$ '1 + x' into the function 'g' for 'x' and then plugging that solution you get into the function 'f' for 'x' - take the output of 'g' and use it for the input of 'f'
+- if you have a ' - x' negative 'x' everything you are plugging in becomes flipped 
+- 
 ### 🧠 Composition of Functions: $\mathbf{f[g(x)]}$ and $\mathbf{g[f(x)]}$
 
 Function composition is the process of applying one function to the results of another. It creates a new function by combining existing functions.
@@ -14761,3 +14763,109 @@ $$f(g(-2x)) = 2x - 6$$
 ##### **Method: Inside-Out Procedure**
 * **Order of Composition:** Always start with the innermost expression (the argument of the deepest function), calculate its output, and use that output as the input for the next function outward.
 * **Variable Input:** Since the final innermost input was a term with the variable $x$ (specifically $-2x$), the final answer is an expression that also contains the variable $x$.
+### ✏️ Composite Function Problem: $g(h(\frac{x}{3}))$
+
+---
+
+#### 1. Given Functions
+
+The functions provided for the composition are:
+* $g(x) = x^2 - 1$
+* $h(x) = 3x + 4$
+
+---
+
+#### 2. Detailed Step-by-Step Solution
+
+The objective is to evaluate the composite function $g(h(\frac{x}{3}))$. We must evaluate the expressions **from the inside out**.
+
+##### Step 2.1: Evaluate the Innermost Expression $h(\frac{x}{3})$
+The inner expression, $\mathbf{(\frac{x}{3})}$, is substituted into the function $h(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $h(x) = 3x + 4$ with $\mathbf{(\frac{x}{3})}$.
+    $$h(\frac{x}{3}) = 3\left(\mathbf{\frac{x}{3}}\right) + 4$$
+2.  **Simplify (Multiply):** The 3 outside the parentheses cancels with the 3 in the denominator.
+    $$h(\frac{x}{3}) = x + 4$$
+3.  **Final Result for Inner Function:**
+    $$\mathbf{h(\frac{x}{3}) = x + 4}$$
+    *The output of the inner function, $(x + 4)$, now becomes the input for the outer function.*
+
+##### Step 2.2: Evaluate the Outer Function $g(h(\frac{x}{3}))$
+The result from Step 2.1, **$(x + 4)$**, is substituted into the function $g(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $g(x) = x^2 - 1$ with $\mathbf{(x + 4)}$. Remember to use parentheses for the squaring operation.
+    $$g(h(\frac{x}{3})) = g(\mathbf{x + 4}) = (\mathbf{x + 4})^2 - 1$$
+2.  **Simplify (Expand):** Expand the squared binomial term using the formula $(a+b)^2 = a^2 + 2ab + b^2$.
+    $$(x + 4)^2 = x^2 + 2(x)(4) + 4^2 = x^2 + 8x + 16$$
+    $$g(h(\frac{x}{3})) = (x^2 + 8x + 16) - 1$$
+3.  **Combine Like Terms:** Combine the constant terms (16 and -1).
+    $$\mathbf{g(h(\frac{x}{3})) = x^2 + 8x + 15}$$
+
+---
+
+#### 3. Final Answer
+
+The result of the composite function is:
+$$g(h(\frac{x}{3})) = x^2 + 8x + 15$$
+
+---
+
+#### 4. Key Takeaways for Composite Functions
+
+##### **Concept: The Simplification Step**
+* **Fraction Input:** In **Step 2.1**, the function $h(x) = 3x + 4$ contains a coefficient (3) that perfectly cancels the denominator (3) of the input $(\frac{x}{3})$. Always look for opportunities to simplify the inner function *before* substituting it into the outer function.
+
+##### **Tip: Squaring Binomials**
+* **Formula:** When substituting into a squared function like $g(x)=x^2-1$, the input must be treated as a **binomial** that requires expansion, not just squaring the individual terms.
+* **Reminder:** $(A+B)^2 \neq A^2 + B^2$. You must use the full expansion: **$(A+B)^2 = A^2 + 2AB + B^2$**. In this case, $(x+4)^2 = x^2 + 8x + 16$. The middle term ($8x$) is often missed.
+### ✏️ Composite Function Problem: $g(h(-3x))$
+
+---
+
+#### 1. Given Functions
+
+The functions provided for the composition are:
+* $g(x) = x + 1$
+* $h(x) = -4x - 1$
+
+---
+
+#### 2. Detailed Step-by-Step Solution
+
+The objective is to evaluate the composite function $g(h(-3x))$. We must always evaluate the expressions **from the inside out**.
+
+##### Step 2.1: Evaluate the Innermost Expression $h(-3x)$
+The inner expression, $\mathbf{(-3x)}$, is substituted into the function $h(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $h(x) = -4x - 1$ with $\mathbf{(-3x)}$.
+    $$h(-3x) = -4(\mathbf{-3x}) - 1$$
+2.  **Simplify (Multiply):** Multiply the coefficients. Note that a negative multiplied by a negative results in a positive.
+    $$h(-3x) = 12x - 1$$
+3.  **Final Result for Inner Function:**
+    $$\mathbf{h(-3x) = 12x - 1}$$
+    *The output of the inner function, $(12x - 1)$, now becomes the input for the outer function.*
+
+##### Step 2.2: Evaluate the Outer Function $g(h(-3x))$
+The result from Step 2.1, **$(12x - 1)$**, is substituted into the function $g(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $g(x) = x + 1$ with $\mathbf{(12x - 1)}$.
+    $$g(h(-3x)) = g(\mathbf{12x - 1}) = (\mathbf{12x - 1}) + 1$$
+2.  **Simplify (Combine Like Terms):** Remove the parentheses (since they're not needed here) and combine the constant terms ($-1$ and $+1$).
+    $$g(h(-3x)) = 12x - 1 + 1$$
+3.  **Final Result:** The constant terms cancel each other out.
+    $$\mathbf{g(h(-3x)) = 12x}$$
+
+---
+
+#### 3. Final Answer
+
+The result of the composite function is:
+$$g(h(-3x)) = 12x$$
+
+---
+
+#### 4. Key Takeaways for Composite Functions
+
+##### **Concept: Managing Negative Signs**
+* **Multiplication Rule:** When multiplying two negative numbers or terms (as in $-4 \cdot -3x$ in Step 2.1), the result is **positive**. This is a critical point for ensuring the variable term is correct.
+    $$(-A) \cdot (-B) = AB$$
+
+##### **Simplification: Opposite Constants**
+* **Cancellation:** When an expression is added to or subtracted from its inverse (e.g., $-1 + 1$), they **cancel** out, simplifying the expression significantly. This often happens when the outer function is very simple, like $g(x) = x + 1$ in this problem.
+* **Resulting Expression:** Even if the constant terms cancel out, the final answer remains a valid function of $x$ (in this case, a linear function: $y = 12x$).
