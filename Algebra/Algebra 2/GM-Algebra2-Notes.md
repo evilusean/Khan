@@ -15042,3 +15042,8 @@ $$f(g(x+3)) = 8x + 46$$
     * **Step 2.2 check:** $4(2x+11) = 8x + 44$ (Correct)
 ## Algebra II - Lesson 76 - The Circle - 29November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=33h14m35s
+- **A Circle** = is the set of all points in a plane that lie a fixed distance from the center
+- **Radius** = The fixed distance from the center to each point
+- **Distance Formula** : $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ : given any 2 points/coordinate pairs $(x_1,y_1)$ $(x_2,y_2)$, you can find the distance between them
+- **Center-Radius Form** : $(x - h)^2 + (y - k)^2 = r^2$ : the center coordinates (x,y) = (h,k) : If you know the center, and radius, you can very quickly graph something
+-  **Area** : $\pi r^2$ 
