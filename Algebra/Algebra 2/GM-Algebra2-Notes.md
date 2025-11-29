@@ -14984,3 +14984,59 @@ $$g(f(x+1)) = 8x + 4$$
         1. Inner constant: $f(x+1) \rightarrow 4(1) = 4$.
         2. Outer constant: $g(4) \rightarrow 2(4) - 4 = 8 - 4 = 4$.
         3. The constant term is correct: **+4**.
+### ✏️ Composite Function Problem: $f(g(x+3))$
+
+---
+
+#### 1. Given Functions
+
+The functions provided for the composition are:
+* $f(x) = 4x + 2$
+* $g(x) = 2x + 5$
+
+---
+
+#### 2. Detailed Step-by-Step Solution
+
+The objective is to evaluate the composite function $f(g(x+3))$. We must always evaluate the expressions **from the inside out**: $x+3 \rightarrow g \rightarrow f$.
+
+##### Step 2.1: Evaluate the Innermost Expression $g(x+3)$
+The inner expression, $\mathbf{(x+3)}$, is substituted into the function $g(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $g(x) = 2x + 5$ with $\mathbf{(x+3)}$.
+    $$g(x+3) = 2(\mathbf{x+3}) + 5$$
+2.  **Simplify (Distribute):** Distribute the 2 across the parentheses.
+    $$g(x+3) = 2x + 6 + 5$$
+3.  **Combine Like Terms:** Combine the constant terms ($+6$ and $+5$).
+    $$g(x+3) = 2x + 11$$
+4.  **Final Result for Inner Function:**
+    $$\mathbf{g(x+3) = 2x + 11}$$
+    *The output of the inner function, $(2x + 11)$, now becomes the input for the outer function.*
+
+##### Step 2.2: Evaluate the Outer Function $f(g(x+3))$
+The result from Step 2.1, **$(2x + 11)$**, is substituted into the function $f(x)$.
+1.  **Substitute:** Replace every instance of **$x$** in $f(x) = 4x + 2$ with $\mathbf{(2x + 11)}$.
+    $$f(g(x+3)) = f(\mathbf{2x + 11}) = 4(\mathbf{2x + 11}) + 2$$
+2.  **Simplify (Distribute):** Distribute the 4 across the parentheses.
+    $$f(g(x+3)) = 8x + 44 + 2$$
+3.  **Combine Like Terms:** Combine the constant terms ($+44$ and $+2$).
+    $$\mathbf{f(g(x+3)) = 8x + 46}$$
+
+---
+
+#### 3. Final Answer
+
+The result of the composite function is:
+$$f(g(x+3)) = 8x + 46$$
+
+---
+
+#### 4. Key Takeaways for Composite Functions
+
+##### **Concept: The Substitution Chain**
+* **Multiple Steps:** When the input to the inner function is an expression (like $x+3$), the total problem requires three main substitution/simplification steps (distribute, combine, distribute again, combine again).
+* **Linear Result:** When substituting a linear function into another linear function, the final result will always be a **linear function** (a straight line, $Ax+B$). In this case, $A=8$ and $B=46$.
+
+##### **Tip: Careful Distribution**
+* **Nested Distribution:** In Step 2.1, you distributed the **2**. In Step 2.2, you distributed the **4**. A common mistake is using the wrong multiplier or forgetting a term during distribution.
+    * **Step 2.1 check:** $2(x+3) = 2x + 6$ (Correct)
+    * **Step 2.2 check:** $4(2x+11) = 8x + 44$ (Correct)
