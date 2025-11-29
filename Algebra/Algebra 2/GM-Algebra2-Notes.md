@@ -14599,3 +14599,20 @@ When the equation has logarithms on **both sides**:
 4.  Always **check the domain** for all arguments in the original equation.
 ## Algebra II - Lesson 74 - Additional Graphs of Functions - 28November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=32h30m35s
+- **Absolute Value Function** : f(x) = |x| : Domain = $(- \infty, \infty)$ : Range = $[ 0,\infty)$ : Creates a 'V' shape
+- **Absolute Value Horizontal Shifts** : f(x) = |x - h| :'h' units right if 'h > 0', 'h' units left if 'h > 0', the '- h' happens inside the absolute value bars || or inside the functions creating a horizontal shift, if it happens outside it will be a *vertical shift* - It's counterintuitive '-' goes right, '+' goes left, think of it as '*undoing*' the '- minus' so you need to 'add +'
+- f(x) = | x - 7 | : you are shifting 7 units right
+- f(x) = | x + 4| : you need to undo the +4, so shift 4 units left
+- **Absolute Value Vertical Shifts** : f(x) = |x| + k : 'k' units up if 'k > 0', |k| units down if 'k < 0'. This one is intutive, + positive 'k' goes up,- negative 'k' goes down. 
+- f(x) = | x | - 5 : shift down 5
+- f(x) = | x | + 2 : shift up 2
+- f(x) = | x - 1 | + 3 : shift right '1' and up '3'
+- **Square Root Function** : $f(x) = \sqrt{x}$  : Domain = $[ 0,\infty)$ : Range = $[ 0,\infty)$ : You can't take the square root of a negative number without $i$ maginary numbers. 
+- **Square Root Horizontal Shifts** : $f(x) = \sqrt{x-3}$ : Counterintuitive. If you subtract/- negative, you need to shift right, you are compensating for the negative, to get the same value for 'y' what would 'x' have to be? You need to increase 'x' to get the same vlaue. 
+- **Square Root Vertical Shift** :$f(x) = \sqrt{x} + 2$ : if the number is outside the square root, you shift up (for positives) and down for 'negatives', Intuitive. 
+- **Reciprocal Function** : $f(x) = \frac{1}{x}$ : Domain = Anything but '0', Range = Anything but '0'
+- **Horizontal Shift for Reciprocal** : $f(x) = \frac{1}{x -3}$ : If it happens inside the function, countintuitive, same as the others '+' goes left, '-' goes right
+- **Vertical Shift for Reciprocal** : $f(x) = \frac{1}{x} +3$ : Intuitive. If it happens outside the function, it's a verticalshift. '+' goes up, '-' goes down.
+- **The Greatest Integer Function** : **The Floor Function** : $f(x) = [x]$ : $int(x)$ : Domain =   $(- \infty, \infty)$ : Range = (... -2, -1, 0, 1, 2, ...) : Denotes the largest integer that is less than or equal to 'x'. *Rounds down to the nearest integer.* - Graphs to look like a series of steps, also known as *the step function* because of the shape.
+- **Horizontal Shift for Greatest Integer** : $f(x) = [x -3]$ : If it happens inside the function, countintuitive, same as the others '+' goes left, '-' goes right
+- **Vertical Shift for Greatest Interger** : $f(x) = [x] -5$ : Intuitive. If it happens outside the function, it's a verticalshift. '+' goes up, '-' goes down.
