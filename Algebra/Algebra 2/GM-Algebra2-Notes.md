@@ -15047,3 +15047,63 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=33h14m35s
 - **Distance Formula** : $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ : given any 2 points/coordinate pairs $(x_1,y_1)$ $(x_2,y_2)$, you can find the distance between them
 - **Center-Radius Form** : $(x - h)^2 + (y - k)^2 = r^2$ : the center coordinates (x,y) = (h,k) : If you know the center, and radius, you can very quickly graph something
 -  **Area** : $\pi r^2$ 
+### ✏️ Identify Center, Radius, and Sketch the Graph of: $(x + 4)^2 + (y - 3)^2 = 4$
+
+---
+
+#### 1. Identification of Center and Radius
+
+The equation of a circle in **Center-Radius Form** (Standard Form) is:
+$$\mathbf{(x - h)^2 + (y - k)^2 = r^2}$$
+
+##### Step 1.1: Identify the Center $(h, k)$
+We compare the given equation $(x + 4)^2 + (y - 3)^2 = 4$ to the standard form.
+
+1.  **Find $h$ (x-coordinate):**
+    * The standard form uses $(x - h)^2$.
+    * Our equation has $(x + 4)^2$, which can be rewritten as $(x - (-4))^2$.
+    * Therefore, the x-coordinate of the center is $\mathbf{h = -4}$.
+    * **Key Takeaway:** The sign for the center coordinates is always **opposite** to the sign in the equation.
+
+2.  **Find $k$ (y-coordinate):**
+    * The standard form uses $(y - k)^2$.
+    * Our equation has $(y - 3)^2$.
+    * Therefore, the y-coordinate of the center is $\mathbf{k = 3}$.
+
+$$\mathbf{Center: (-4, 3)}$$
+
+##### Step 1.2: Identify the Radius ($r$)
+1.  **Find $r^2$:** The right side of the equation gives us $r^2$.
+    $$r^2 = 4$$
+2.  **Find $r$:** Take the positive square root of $r^2$.
+    $$r = \sqrt{4}$$
+    $$\mathbf{r = 2}$$
+
+$$\mathbf{Radius: 2}$$
+
+---
+
+#### 2. Sketching the Graph
+
+To sketch the graph of the circle, we use the identified center and radius.
+
+1.  **Plot the Center:** Locate the point $\mathbf{(-4, 3)}$ on the coordinate plane. 2.  **Determine Key Points:** Use the radius ($r=2$) to find four points on the circle's boundary by moving 2 units up, down, left, and right from the center.
+    * **Right:** $(-4 + 2, 3) = (-2, 3)$
+    * **Left:** $(-4 - 2, 3) = (-6, 3)$
+    * **Up:** $(-4, 3 + 2) = (-4, 5)$
+    * **Down:** $(-4, 3 - 2) = (-4, 1)$
+2.  **Draw the Circle:** Sketch a smooth curve connecting these four points to form the circle.
+
+---
+
+#### 3. Summary and Key Takeaways
+
+| Feature | Equation Component | Value |
+| :--- | :--- | :--- |
+| **Center ($h$)** | $(x - h)^2$ | $-4$ (from $x - (-4)$) |
+| **Center ($k$)** | $(y - k)^2$ | $3$ (from $y - 3$) |
+| **$r^2$** | Right side | $4$ |
+| **Radius ($r$)** | $\sqrt{r^2}$ | $2$ |
+
+* **Rule of Thumb for Center:** Always take the number inside the parentheses with the **opposite sign**. $(x + 4) \rightarrow h=-4$; $(y - 3) \rightarrow k=3$.
+* **Rule of Thumb for Radius:** The radius is the square root of the number on the right side of the equation.
