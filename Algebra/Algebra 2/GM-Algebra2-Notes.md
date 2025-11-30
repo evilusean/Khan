@@ -15439,3 +15439,41 @@ $$\mathbf{Semi-Axes (Radii): a = 3, b = 6}$$
 ##### **Shape Interpretation**
 * Since $b=6$ is greater than $a=3$, the major axis is vertical. The ellipse is **taller** than it is wide. * **Major Axis Vertices:** The tallest and lowest points are 6 units from the center: $(3, -1 \pm 6) \rightarrow (3, 5)$ and $(3, -7)$.
 * **Minor Axis Vertices (Co-Vertices):** The left-most and right-most points are 3 units from the center: $(3 \pm 3, -1) \rightarrow (6, -1)$ and $(0, -1)$.
+### ✏️ Finding Center (Offset) and Semi-Axes (Radii) for: $\frac{x^2}{49} + \frac{(y + 4)^2}{9} = 1$
+
+---
+
+#### 1. Identification of the Center (Offset)
+
+The equation is in the standard form of an ellipse: $\frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1$.
+
+##### Step-by-Step Solution:
+1.  **Identify $h$ (x-offset):** The term is $x^2$, which can be written as $(x - 0)^2$. Thus, $\mathbf{h = 0}$.
+2.  **Identify $k$ (y-offset):** From the term $(y + 4)^2$, which is $(y - (-4))^2$, we get $\mathbf{k = -4}$.
+
+$$\mathbf{Center (Offset): (0, -4)}$$
+
+---
+
+#### 2. Identification of the Semi-Axes (Radii)
+
+For an ellipse, the denominators represent the square of the semi-axes lengths ($a$ and $b$).
+
+##### Step-by-Step Solution:
+1.  **Find $a$ (Semi-axis along x):** $a^2$ is the denominator under the $x$-term.
+    $$a^2 = 49 \implies a = \sqrt{49} = \mathbf{7}$$
+2.  **Find $b$ (Semi-axis along y):** $b^2$ is the denominator under the $y$-term.
+    $$b^2 = 9 \implies b = \sqrt{9} = \mathbf{3}$$
+
+$$\mathbf{Semi-Axes (Radii): a = 7, b = 3}$$
+
+---
+
+#### 3. Key Takeaways and Geometric Interpretation
+
+##### **Offset Interpretation**
+* The center $(0, -4)$ means the entire ellipse has been **shifted 4 units down** from the origin $(0, 0)$.
+
+##### **Shape Interpretation**
+* Since $a=7$ is greater than $b=3$, the major axis is **horizontal** (parallel to the x-axis). The ellipse is **wider** than it is tall. * **Major Axis Vertices:** The left-most and right-most points are 7 units from the center: $(0 \pm 7, -4) \rightarrow (7, -4)$ and $(-7, -4)$.
+* **Minor Axis Vertices (Co-Vertices):** The highest and lowest points are 3 units from the center: $(0, -4 \pm 3) \rightarrow (0, -1)$ and $(0, -7)$.
