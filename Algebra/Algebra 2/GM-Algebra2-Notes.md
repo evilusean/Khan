@@ -15478,3 +15478,4 @@ $$\mathbf{Semi-Axes (Radii): a = 7, b = 3}$$
 * Since $a=7$ is greater than $b=3$, the major axis is **horizontal** (parallel to the x-axis). The ellipse is **wider** than it is tall. * **Major Axis Vertices:** The left-most and right-most points are 7 units from the center: $(0 \pm 7, -4) \rightarrow (7, -4)$ and $(-7, -4)$.
 * **Minor Axis Vertices (Co-Vertices):** The highest and lowest points are 3 units from the center: $(0, -4 \pm 3) \rightarrow (0, -1)$ and $(0, -7)$.
 ## Algebra II - Lesson 78 - Graphing Hyperbolas - 30November2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h3m25s
