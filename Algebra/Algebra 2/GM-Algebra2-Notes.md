@@ -15343,3 +15343,57 @@ $$\mathbf{\frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1}$$
 A circle is an ellipse where the major and minor axes are equal, meaning $a=b$. If $a^2 = b^2 = r^2$, the ellipse equation simplifies to:
 $$\frac{(x - h)^2}{r^2} + \frac{(y - k)^2}{r^2} = 1$$
 Multiplying both sides by $r^2$ gives the standard circle equation: $(x - h)^2 + (y - k)^2 = r^2$.
+### ✏️ Finding Intercepts for the Ellipse: $x^2 + \frac{y^2}{16} = 1$
+
+---
+
+#### 1. X-Intercepts (Where the graph crosses the x-axis)
+
+To find the x-intercepts, we set the y-coordinate to zero ($\mathbf{y=0}$) and solve for $x$.
+
+##### Step-by-Step Solution:
+1.  **Substitute $y=0$ into the equation:**
+    $$x^2 + \frac{(0)^2}{16} = 1$$
+2.  **Simplify:** The term $\frac{0}{16}$ is 0.
+    $$x^2 + 0 = 1$$
+    $$x^2 = 1$$
+3.  **Solve for $x$:** Take the square root of both sides. Remember to include both positive and negative roots.
+    $$x = \pm \sqrt{1}$$
+    $$\mathbf{x = \pm 1}$$
+
+##### X-Intercepts:
+The x-intercepts are at $\mathbf{(1, 0)}$ and $\mathbf{(-1, 0)}$.
+
+---
+
+#### 2. Y-Intercepts (Where the graph crosses the y-axis)
+
+To find the y-intercepts, we set the x-coordinate to zero ($\mathbf{x=0}$) and solve for $y$.
+
+##### Step-by-Step Solution:
+1.  **Substitute $x=0$ into the equation:**
+    $$(0)^2 + \frac{y^2}{16} = 1$$
+2.  **Simplify:**
+    $$\frac{y^2}{16} = 1$$
+3.  **Isolate $y^2$:** Multiply both sides by 16.
+    $$y^2 = 16$$
+4.  **Solve for $y$:** Take the square root of both sides. Remember to include both positive and negative roots.
+    $$y = \pm \sqrt{16}$$
+    $$\mathbf{y = \pm 4}$$
+
+##### Y-Intercepts:
+The y-intercepts are at $\mathbf{(0, 4)}$ and $\mathbf{(0, -4)}$.
+
+---
+
+#### 3. Summary and Key Takeaways
+
+##### **Standard Form of Ellipse**
+* The generic equation for an ellipse centered at the origin is $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$.
+* In this problem, $a^2=1$ and $b^2=16$.
+
+##### **Connecting Intercepts to the Ellipse's Axes**
+* **X-Intercepts ($\pm a$):** The x-intercepts correspond to the vertices along the **minor axis** (since $a^2=1$ is smaller than $b^2=16$). $a=\sqrt{1}=1$.
+* **Y-Intercepts ($\pm b$):** The y-intercepts correspond to the vertices along the **major axis** (since $b^2=16$ is the larger denominator). $b=\sqrt{16}=4$.
+
+The ellipse is **vertical** because the larger number (16) is under the $y^2$ term. ```
