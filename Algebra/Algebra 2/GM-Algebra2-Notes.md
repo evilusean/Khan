@@ -15301,7 +15301,11 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=33h37m10s
   1) Find and plot the x and y intercepts
   2) Sketch the graph, and draw a smooth curve through the points
   3) That's it.
-- 
+- **Ellipses Horizontal and vertical Shifts** : $\frac{(x - h)^2}{r^2} + \frac{(y - k)^2}{r^2} = 1$ : 
+  Shifts 'h' units right if 'h > 0' 
+  Shifts 'k' units up if 'k > 0'
+  Shifts 'h' units left if 'h < 0' 
+  Shifts 'k' units down if 'k < 0'
 ### 📐 Generic Equations for Circles and Ellipses on a 2D Plane
 
 ---
@@ -15396,4 +15400,42 @@ The y-intercepts are at $\mathbf{(0, 4)}$ and $\mathbf{(0, -4)}$.
 * **X-Intercepts ($\pm a$):** The x-intercepts correspond to the vertices along the **minor axis** (since $a^2=1$ is smaller than $b^2=16$). $a=\sqrt{1}=1$.
 * **Y-Intercepts ($\pm b$):** The y-intercepts correspond to the vertices along the **major axis** (since $b^2=16$ is the larger denominator). $b=\sqrt{16}=4$.
 
-The ellipse is **vertical** because the larger number (16) is under the $y^2$ term. ```
+The ellipse is **vertical** because the larger number (16) is under the $y^2$ term. 
+### ✏️ Finding Center (Offset) and Semi-Axes (Radii) for: $\frac{(x - 3)^2}{9} + \frac{(y + 1)^2}{36} = 1$
+
+---
+
+#### 1. Identification of the Center (Offset)
+
+The equation is in the standard form of an ellipse: $\frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1$.
+
+##### Step-by-Step Solution:
+1.  **Identify $h$ (x-offset):** From the term $(x - 3)^2$, we get $\mathbf{h = 3}$.
+2.  **Identify $k$ (y-offset):** From the term $(y + 1)^2$, which is $(y - (-1))^2$, we get $\mathbf{k = -1}$.
+
+$$\mathbf{Center (Offset): (3, -1)}$$
+
+---
+
+#### 2. Identification of the Semi-Axes (Radii)
+
+For an ellipse, the denominators represent the square of the semi-axes lengths ($a$ and $b$).
+
+##### Step-by-Step Solution:
+1.  **Find $a$ (Semi-axis along x):** $a^2$ is the denominator under the $x$-term.
+    $$a^2 = 9 \implies a = \sqrt{9} = \mathbf{3}$$
+2.  **Find $b$ (Semi-axis along y):** $b^2$ is the denominator under the $y$-term.
+    $$b^2 = 36 \implies b = \sqrt{36} = \mathbf{6}$$
+
+$$\mathbf{Semi-Axes (Radii): a = 3, b = 6}$$
+
+---
+
+#### 3. Key Takeaways and Geometric Interpretation
+
+##### **Offset Interpretation**
+* The center $(3, -1)$ means the entire ellipse has been **shifted 3 units right** and **1 unit down** from the origin $(0, 0)$.
+
+##### **Shape Interpretation**
+* Since $b=6$ is greater than $a=3$, the major axis is vertical. The ellipse is **taller** than it is wide. * **Major Axis Vertices:** The tallest and lowest points are 6 units from the center: $(3, -1 \pm 6) \rightarrow (3, 5)$ and $(3, -7)$.
+* **Minor Axis Vertices (Co-Vertices):** The left-most and right-most points are 3 units from the center: $(3 \pm 3, -1) \rightarrow (6, -1)$ and $(0, -1)$.
