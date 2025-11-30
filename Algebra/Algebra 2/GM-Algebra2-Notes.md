@@ -15287,3 +15287,4 @@ From this form, we can identify:
 * The number inside the squared binomial is always half of the $B$ coefficient:
     * For $x^2 - 6x$: half of $-6$ is $-3$. $\rightarrow (x - 3)^2$.
     * For $y^2 + 4y$: half of $+4$ is $+2$. $\rightarrow (y + 2)^2$.
+## Algebra II - Lesson 77 - Graphing Ellipses - 30November2025 :
