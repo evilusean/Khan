@@ -15289,3 +15289,16 @@ From this form, we can identify:
     * For $y^2 + 4y$: half of $+4$ is $+2$. $\rightarrow (y + 2)^2$.
 ## Algebra II - Lesson 77 - Graphing Ellipses - 30November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=33h37m10s
+- A *Circle* is a special case *ellipse* where the distance from the center to any point is the same - When we see an ellipse, we generally think of a squished circle - it can be tall and skinny, or short and fat
+- $x^2 + y^2 = r^2$ : Equation for a circle with the center at (0,0) with no offset
+- $(x-h)^2 + (y-k)= r^2$ : Equation for a circle that has been shifted to (h, k) - If you have a '+' plus sign, you need to convert it into a '-' minus some '-' negative value - counter intuitive, '-' means go up and right
+- $(x-3)^2 + (y-2)= 4$ : a circle with the center at (3,2) and a radius of '2'
+- $\frac{x^2}{9} + \frac{y^2}{25} =  1$ : Formula for an ellipse with no offset, centered at (0,0)
+- **Vertical Ellipse** : Tall and skinny - the denominator under $y^2$ determines what type of ellipse you have, if it is tall and skinny, it will be larger than the denominator under $x^2$ 
+- **Horizontal Ellipse:** If the larger denominator is under the $x$-term, the ellipse is wider than it is tall. 
+- To find the intercepts, just put 'x' or 'y' to 0 and solve for the other, the denominators under the x/y's will give you the $\pm$ plus or minus from the center (aka the radius) for each value once you root the squares (the denominators are squared radius's? radii? idk)
+- **Graphing Ellipses Centered At the Origin** :
+  1) Find and plot the x and y intercepts
+  2) Sketch the graph, and draw a smooth curve through the points
+  3) That's it.
+- 
