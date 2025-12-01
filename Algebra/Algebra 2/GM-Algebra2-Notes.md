@@ -16137,3 +16137,4 @@ $$\mathbf{(0, 3), (0, 1), (6, 6), \text{ and } (6, -2)}$$
 * **The Best Case Scenario:** When several terms cancel out (like $y^2, y,$ and the constant did here), the resulting single-variable equation is very quick to solve.
 * **Quadratic in $y$:** Since both original equations were non-linear (conic sections), substituting a single $x$-value back always leads to a quadratic equation in terms of $y$ (unless the quadratic terms happen to cancel out further). This means you should expect **two** $y$-solutions for each $x$-solution.
 ## Algebra II - Lesson 80 - Non-Linear Inequalities - 01December2025 : 
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h49m35s
