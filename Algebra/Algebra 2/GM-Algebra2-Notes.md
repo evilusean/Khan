@@ -15830,3 +15830,98 @@ $$\mathbf{(0, 5) \text{ and } (-4, -3)}$$
 
 ##### **Solving the Quadratic**
 * **Factoring Shortcut:** If the constant term ($C$) is zero (as in $5x^2 + 20x = 0$), always factor out the variable term ($x$) first. This immediately gives you one solution, $x=0$.
+### ✏️ Solving the System: $x^2 + y^2 + 18x - 2y - 18 = 0$ and $2x + y - 3 = 0$
+
+---
+
+#### 1. Given System of Equations
+
+1.  $$x^2 + y^2 + 18x - 2y - 18 = 0$$
+2.  $$2x + y - 3 = 0$$
+
+---
+
+#### 2. Solve the Linear Equation for $y$ (Substitution Setup)
+
+Isolate $y$ in Equation (2) by moving the other terms to the right side.
+
+$$2x + y - 3 = 0$$
+$$y = -2x + 3$$
+$$\mathbf{y = 3 - 2x}$$
+
+---
+
+#### 3. Substitute $y$ into the Circle Equation (Equation 1)
+
+Substitute the expression $\mathbf{(3 - 2x)}$ for every instance of $y$ in Equation (1).
+
+$$x^2 + \mathbf{(3 - 2x)}^2 + 18x - 2\mathbf{(3 - 2x)} - 18 = 0$$
+
+---
+
+#### 4. Simplify and Solve the Quadratic Equation for $x$
+
+##### Step 4.1: Expand and Distribute
+* **Expand $(3 - 2x)^2$:** Use the formula $(A-B)^2 = A^2 - 2AB + B^2$.
+    $$(3 - 2x)^2 = 3^2 - 2(3)(2x) + (2x)^2 = \mathbf{9 - 12x + 4x^2}$$
+* **Distribute $-2$ into $-2(3 - 2x)$:**
+    $$-2(3 - 2x) = \mathbf{-6 + 4x}$$
+
+##### Step 4.2: Rewrite the equation
+Substitute the expanded terms back into the main equation:
+$$x^2 + (\mathbf{4x^2 - 12x + 9}) + 18x + (\mathbf{4x - 6}) - 18 = 0$$
+
+##### Step 4.3: Combine Like Terms
+* **Combine $x^2$ terms:** $x^2 + 4x^2 = \mathbf{5x^2}$
+* **Combine $x$ terms:** $-12x + 18x + 4x = \mathbf{10x}$
+* **Combine Constant terms:** $9 - 6 - 18 = -15$
+
+The resulting quadratic equation is:
+$$\mathbf{5x^2 + 10x - 15 = 0}$$
+
+##### Step 4.4: Simplify the Quadratic
+Divide the entire equation by the common factor of 5 to make factoring easier.
+$$\frac{5x^2}{5} + \frac{10x}{5} - \frac{15}{5} = \frac{0}{5}$$
+$$\mathbf{x^2 + 2x - 3 = 0}$$
+
+##### Step 4.5: Solve for $x$ by Factoring
+Find two numbers that multiply to $-3$ and add to $+2$ (which are $+3$ and $-1$).
+$$(x + 3)(x - 1) = 0$$
+
+Use the Zero Product Property to find the two possible values for $x$:
+* **Solution 1:** $x + 3 = 0 \implies \mathbf{x_1 = -3}$
+* **Solution 2:** $x - 1 = 0 \implies \mathbf{x_2 = 1}$
+
+---
+
+#### 5. Find the Corresponding $y$ Values
+
+Use the simplified linear equation $\mathbf{y = 3 - 2x}$ to find the $y$-coordinate for each $x$-solution.
+
+##### Case 1: For $x_1 = -3$
+$$y_1 = 3 - 2(-3)$$
+$$y_1 = 3 + 6$$
+$$y_1 = 9$$
+$$\mathbf{\text{Point 1: } (-3, 9)}$$
+
+##### Case 2: For $x_2 = 1$
+$$y_2 = 3 - 2(1)$$
+$$y_2 = 3 - 2$$
+$$y_2 = 1$$
+$$\mathbf{\text{Point 2: } (1, 1)}$$
+
+---
+
+#### 6. Final Solutions
+
+The two points where the line intersects the circle are:
+
+$$\mathbf{(-3, 9) \text{ and } (1, 1)}$$
+
+---
+
+#### 7. Key Takeaways
+
+##### **Complexity of Substitution**
+* **Multiple Substitutions:** When the non-linear equation is in General Form ($x^2 + y^2 + \dots = 0$), the substitution process is longer because you have to replace $y$ in both the $y^2$ term and the linear $y$ term.
+* **Double Check Signs:** The term $-2(3 - 2x)$ requires special care. When you distribute the negative number, both signs inside the parentheses must flip: $-2 \cdot 3 = -6$ AND $-2 \cdot (-2x) = +4x$.
