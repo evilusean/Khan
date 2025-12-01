@@ -122,4 +122,6 @@ For: $x > 0, y > 0, b > 0, b \neq 1$
 The **One-to-One Property** is crucial for solving logarithmic equations. If you have a single logarithm on both sides of an equation with the same base, you can simply set their arguments equal to each other to solve for the variable.
 
 - **Completing the square** cut it in half and square it, and then add to the other side of equation
-- 
+
+- Algebra II - Lesson 79 - Solving Non-Linear Systems of Equations - 01December2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h24m50s

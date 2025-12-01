@@ -15925,3 +15925,104 @@ $$\mathbf{(-3, 9) \text{ and } (1, 1)}$$
 ##### **Complexity of Substitution**
 * **Multiple Substitutions:** When the non-linear equation is in General Form ($x^2 + y^2 + \dots = 0$), the substitution process is longer because you have to replace $y$ in both the $y^2$ term and the linear $y$ term.
 * **Double Check Signs:** The term $-2(3 - 2x)$ requires special care. When you distribute the negative number, both signs inside the parentheses must flip: $-2 \cdot 3 = -6$ AND $-2 \cdot (-2x) = +4x$.
+### ✏️ Solving the System of Equations: Elimination of $y^2$
+
+---
+
+#### 1. Given System of Equations
+
+1.  $$2x^2 + 2y^2 - 5x + 20y = 0$$
+2.  $$7x^2 - 2y^2 - 49x - 20y = 0$$
+
+---
+
+#### 2. Elimination Setup (Adding the Equations)
+
+Notice that the coefficient of $y^2$ in Equation (1) is **$+2$** and in Equation (2) is **$-2$**. By adding the two equations together, the $y^2$ terms will cancel out, as requested.
+
+$$\begin{array}{rcl} (2x^2 + 2y^2 - 5x + 20y) & = & 0 \\ + (7x^2 - 2y^2 - 49x - 20y) & = & 0 \\ \hline \end{array}$$
+
+---
+
+#### 3. Perform Elimination and Simplify
+
+Add the corresponding like terms column by column:
+
+| Term Type | Equation 1 | Equation 2 | Sum | Result |
+| :--- | :--- | :--- | :--- | :--- |
+| **$x^2$** | $2x^2$ | $7x^2$ | $9x^2$ | $9x^2$ |
+| **$y^2$** | $+2y^2$ | $-2y^2$ | $0$ | (Eliminated) |
+| **$x$** | $-5x$ | $-49x$ | $-54x$ | $-54x$ |
+| **$y$** | $+20y$ | $-20y$ | $0$ | (Eliminated) |
+| **Constant** | $0$ | $0$ | $0$ | $0$ |
+
+The resulting single-variable quadratic equation is:
+$$\mathbf{9x^2 - 54x = 0}$$
+
+---
+
+#### 4. Solve the Quadratic Equation for $x$
+
+##### Step 4.1: Factor out the Greatest Common Factor (GCF)
+The GCF for $9x^2$ and $54x$ is $9x$.
+
+$$9x(x - 6) = 0$$
+
+##### Step 4.2: Apply the Zero Product Property
+Set each factor equal to zero to find the two possible values for $x$:
+
+* **Solution 1:** $9x = 0 \implies \mathbf{x_1 = 0}$
+* **Solution 2:** $x - 6 = 0 \implies \mathbf{x_2 = 6}$
+
+---
+
+#### 5. Find the Corresponding $y$ Values (Substitution Back)
+
+We must substitute each $x$ value back into **one of the original equations** to find the corresponding $y$ values. Using Equation (1): $2x^2 + 2y^2 - 5x + 20y = 0$ is easier because it has fewer negative signs.
+
+##### Case 1: For $x_1 = 0$
+Substitute $x=0$ into Equation (1):
+$$2(0)^2 + 2y^2 - 5(0) + 20y = 0$$
+$$2y^2 + 20y = 0$$
+Factor out $2y$:
+$$2y(y + 10) = 0$$
+This gives two possible $y$ values for $x=0$:
+* $2y = 0 \implies \mathbf{y = 0}$
+* $y + 10 = 0 \implies \mathbf{y = -10}$
+
+$$\mathbf{\text{Points 1 and 2: } (0, 0) \text{ and } (0, -10)}$$
+
+##### Case 2: For $x_2 = 6$
+Substitute $x=6$ into Equation (1):
+$$2(6)^2 + 2y^2 - 5(6) + 20y = 0$$
+$$2(36) + 2y^2 - 30 + 20y = 0$$
+$$72 + 2y^2 - 30 + 20y = 0$$
+
+Combine constants ($72 - 30 = 42$):
+$$2y^2 + 20y + 42 = 0$$
+
+Simplify by dividing by 2:
+$$y^2 + 10y + 21 = 0$$
+
+Factor the quadratic (numbers that multiply to 21 and add to 10 are 7 and 3):
+$$(y + 7)(y + 3) = 0$$
+This gives two possible $y$ values for $x=6$:
+* $y + 7 = 0 \implies \mathbf{y = -7}$
+* $y + 3 = 0 \implies \mathbf{y = -3}$
+
+$$\mathbf{\text{Points 3 and 4: } (6, -7) \text{ and } (6, -3)}$$
+
+---
+
+#### 6. Final Solutions
+
+The system of equations has four intersection points:
+$$\mathbf{(0, 0), (0, -10), (6, -3), \text{ and } (6, -7)}$$
+
+---
+
+#### 7. Key Takeaways
+
+##### **Successful Elimination**
+* **Double Elimination:** In this specific problem, both the $y^2$ term (by design) and the $y$ term (due to coefficients being $\pm 20$) were eliminated simultaneously, simplifying the problem greatly.
+* **Non-Unique $y$ Values:** Because both original equations were non-linear (both are circles), substituting one $x$-value back into the original equations resulted in a quadratic equation for $y$, leading to **two** different $y$ solutions for each $x$.
