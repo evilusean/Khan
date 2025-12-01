@@ -15488,3 +15488,66 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h3m25s
   2) Find the fundamental rectangle
   3) Sketch the asymptotes - These are extended from the fundamental rectangle
   4) Sketch the graph - each branch goes through an intercept and approaches, bbut doesn't touch the asymptotes
+### ✏️ Hyperbola Analysis and Graphing: $\frac{y^2}{9} - \frac{x^2}{9} = 1$
+
+---
+
+#### 1. Identify Key Features
+
+The standard form of a hyperbola centered at the origin $(0, 0)$ is:
+
+* **Vertical Hyperbola:** $\frac{y^2}{a^2} - \frac{x^2}{b^2} = 1$
+* **Horizontal Hyperbola:** $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$
+
+##### Step 1.1: Determine Orientation
+Since the **$y^2$ term is positive** (it comes first), the hyperbola is **vertical**. Its transverse axis (the axis containing the vertices and foci) is the y-axis.
+
+##### Step 1.2: Identify $a$ and $b$
+* **$a^2$:** The denominator under the positive term ($y^2$) determines $a$.
+    $$a^2 = 9 \implies \mathbf{a = 3}$$
+* **$b^2$:** The denominator under the negative term ($x^2$) determines $b$.
+    $$b^2 = 9 \implies \mathbf{b = 3}$$
+
+##### Step 1.3: Identify Center
+Since the equation has $x^2$ and $y^2$ (no $(x-h)$ or $(y-k)$), the center is at $\mathbf{(h, k) = (0, 0)}$.
+
+---
+
+#### 2. Graphing the Hyperbola
+
+Graphing a hyperbola relies on three main features: the vertices, the conjugate axis endpoints, and the asymptotes.
+
+##### Step 2.1: Find the Vertices
+The vertices are $\pm a$ units along the transverse (y) axis from the center.
+* **Center:** $(0, 0)$
+* **$a=3$**
+* **Vertices:** $(0, 0 \pm 3) \implies \mathbf{(0, 3)}$ and $\mathbf{(0, -3)}$
+
+##### Step 2.2: Find the Conjugate Axis Endpoints
+The conjugate axis endpoints are $\pm b$ units along the x-axis from the center.
+* **Center:** $(0, 0)$
+* **$b=3$**
+* **Endpoints:** $(0 \pm 3, 0) \implies \mathbf{(3, 0)}$ and $\mathbf{(-3, 0)}$
+
+##### Step 2.3: Determine the Asymptotes
+The asymptotes are the diagonal lines that the hyperbola approaches as it moves away from the center. The formula for a **vertical** hyperbola is: $y = \pm \frac{a}{b}x$.
+
+* **Asymptote Equation:** $y = \pm \frac{3}{3}x$
+* **Simplified Asymptotes:** $\mathbf{y = x}$ and $\mathbf{y = -x}$
+
+##### Step 2.4: Sketch the Graph (The Box Method)
+1.  **Draw the Center:** Plot the center $(0, 0)$.
+2.  **Draw the Guiding Box:** Draw a dashed rectangle using the vertices ($\pm 3$ on the y-axis) and the conjugate axis endpoints ($\pm 3$ on the x-axis).
+3.  **Draw the Asymptotes:** Draw dashed lines passing through the center and the corners of the guiding box. These are the lines $y=x$ and $y=-x$.
+4.  **Sketch the Hyperbola:** Draw the two branches of the hyperbola starting at the vertices $\mathbf{(0, 3)}$ and $\mathbf{(0, -3)}$, opening vertically (up and down), and approaching the asymptotes but never touching them. 
+---
+
+#### 3. Extra Notes: Finding the Foci ($c$)
+
+The foci are points inside the curve that define the hyperbola's shape. The distance $c$ from the center to each focus is found using the relation:
+
+$$c^2 = a^2 + b^2$$
+
+1.  **Calculate $c^2$:** $c^2 = 9 + 9 = 18$
+2.  **Calculate $c$:** $c = \sqrt{18} = \sqrt{9 \cdot 2} = \mathbf{3\sqrt{2}}$
+3.  **Foci:** The foci lie on the transverse (y) axis at $\mathbf{(0, \pm 3\sqrt{2})}$.
