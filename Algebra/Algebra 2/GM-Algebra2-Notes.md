@@ -15745,3 +15745,88 @@ The foci distance is found using the hyperbola relation $c^2 = a^2 + b^2$.
 4.  **Sketch the Hyperbola:** Draw the two branches starting at the vertices $\mathbf{(4, 0)}$ and $\mathbf{(-4, 0)}$, opening **horizontally** (left and right) and curving toward the asymptotes.
 ## Algebra II - Lesson 79 - Solving Non-Linear Systems of Equations - 01December2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h24m50s
+### ✏️ Solving the System of Equations: Substitution for $y$ ($x^2 + y^2 = 25 \quad \text{(Circle)}$) ($-2x + y = 5 \quad \text{(Line)}$)
+
+---
+
+#### 1. Given System of Equations
+
+1.  $$x^2 + y^2 = 25 \quad \text{(Circle)}$$
+2.  $$-2x + y = 5 \quad \text{(Line)}$$
+
+---
+
+#### 2. Solve the Linear Equation for $y$ (Substitution Setup)
+
+Isolate $y$ in Equation (2) as requested. Add $2x$ to both sides.
+
+$$-2x + y = 5$$
+$$\mathbf{y = 2x + 5}$$
+
+---
+
+#### 3. Substitute $y$ into the Circle Equation (Equation 1)
+
+Substitute the expression $\mathbf{(2x + 5)}$ for $y$ into Equation (1).
+
+$$x^2 + \mathbf{(2x + 5)}^2 = 25$$
+
+---
+
+#### 4. Simplify and Solve the Quadratic Equation for $x$
+
+##### Step 4.1: Expand the squared binomial
+Use the formula $(A+B)^2 = A^2 + 2AB + B^2$.
+$$(2x + 5)^2 = (2x)^2 + 2(2x)(5) + 5^2$$
+$$(2x + 5)^2 = 4x^2 + 20x + 25$$
+
+##### Step 4.2: Substitute the expansion back into the equation
+$$x^2 + (\mathbf{4x^2 + 20x + 25}) = 25$$
+
+##### Step 4.3: Combine like terms and set the equation to zero
+Subtract 25 from both sides.
+$$(x^2 + 4x^2) + 20x + (25 - 25) = 0$$
+$$\mathbf{5x^2 + 20x = 0}$$
+
+##### Step 4.4: Solve for $x$ by Factoring
+Factor out the common term $5x$.
+$$5x(x + 4) = 0$$
+
+Use the Zero Product Property to find the two possible values for $x$:
+* **Solution 1:** $5x = 0 \implies \mathbf{x_1 = 0}$
+* **Solution 2:** $x + 4 = 0 \implies \mathbf{x_2 = -4}$
+
+---
+
+#### 5. Find the Corresponding $y$ Values
+
+Use the simplified linear equation $\mathbf{y = 2x + 5}$ to find the $y$-coordinate for each $x$-solution.
+
+##### Case 1: For $x_1 = 0$
+$$y_1 = 2(0) + 5$$
+$$y_1 = 5$$
+$$\mathbf{\text{Point 1: } (0, 5)}$$
+
+##### Case 2: For $x_2 = -4$
+$$y_2 = 2(-4) + 5$$
+$$y_2 = -8 + 5$$
+$$y_2 = -3$$
+$$\mathbf{\text{Point 2: } (-4, -3)}$$
+
+---
+
+#### 6. Final Solutions
+
+The system of equations has two solutions, which are the two points where the line intersects the circle:
+
+$$\mathbf{(0, 5) \text{ and } (-4, -3)}$$
+
+---
+
+#### 7. Key Takeaways
+
+##### **Expansion Warning**
+* **Crucial Step:** When substituting into a squared term, always use parentheses and expand the binomial correctly: $\mathbf{(A+B)^2 \neq A^2 + B^2}$. Missing the middle term ($2AB$) is the most common error in these problems.
+
+##### **Solving the Quadratic**
+* **Factoring Shortcut:** If the constant term ($C$) is zero (as in $5x^2 + 20x = 0$), always factor out the variable term ($x$) first. This immediately gives you one solution, $x=0$.
