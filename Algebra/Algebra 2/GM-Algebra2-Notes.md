@@ -15744,3 +15744,4 @@ The foci distance is found using the hyperbola relation $c^2 = a^2 + b^2$.
 3.  **Draw the Asymptotes:** Draw dashed lines through the center $(0, 0)$ and the corners of the square. These lines are $y=x$ and $y=-x$.
 4.  **Sketch the Hyperbola:** Draw the two branches starting at the vertices $\mathbf{(4, 0)}$ and $\mathbf{(-4, 0)}$, opening **horizontally** (left and right) and curving toward the asymptotes.
 ## Algebra II - Lesson 79 - Solving Non-Linear Systems of Equations - 01December2025 :
+https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h24m50s
