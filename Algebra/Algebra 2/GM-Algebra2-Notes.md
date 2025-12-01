@@ -15488,6 +15488,81 @@ https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h3m25s
   2) Find the fundamental rectangle
   3) Sketch the asymptotes - These are extended from the fundamental rectangle
   4) Sketch the graph - each branch goes through an intercept and approaches, bbut doesn't touch the asymptotes
+### 📐 Comprehensive Guide to Graphing Hyperbolas
+
+---
+
+#### 1. Standard Form and Orientation
+
+The standard form of a hyperbola is crucial because the location of the positive term determines the orientation (horizontal or vertical).
+
+| Orientation | Equation (Center at (0, 0)) | Transverse Axis |
+| :--- | :--- | :--- |
+| **Horizontal (Opens Left/Right)** | $$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$$ | x-axis |
+| **Vertical (Opens Up/Down)** | $$\frac{y^2}{a^2} - \frac{x^2}{b^2} = 1$$ | y-axis |
+
+* **Key Rule:** The transverse axis is always aligned with the variable that has the **positive** coefficient (i.e., the term that comes first).
+
+---
+
+#### 2. Determining Key Parameters ($a$, $b$, and $c$)
+
+In hyperbolas, $a^2$ is **always** the denominator under the **positive** variable term.
+
+* **Center:** $(h, k)$
+* **$a$ (Transverse Semi-axis):** $\sqrt{\text{Denominator of the POSITIVE term}}$. This distance determines the **Vertices**.
+* **$b$ (Conjugate Semi-axis):** $\sqrt{\text{Denominator of the NEGATIVE term}}$. This distance determines the width/height of the **Guiding Box**.
+* **$c$ (Focal Distance):** The distance from the center to the **Foci** is found using the relationship (Note the plus sign, unlike ellipses):
+    $$\mathbf{c^2 = a^2 + b^2}$$
+
+---
+
+#### 3. Step-by-Step Graphing Method
+
+The best way to graph a hyperbola is using the **Guiding Box and Asymptote Method**.
+
+##### Step 3.1: Plot the Center and Vertices
+1.  **Plot Center ($h, k$):** Plot the point $(h, k)$. (If centered at origin, $(0, 0)$).
+2.  **Plot Vertices ($V$):** Move $\pm a$ units from the center along the **Transverse Axis** (the axis corresponding to the positive term).
+
+    * **Horizontal:** $V = (h \pm a, k)$
+    * **Vertical:** $V = (h, k \pm a)$
+
+##### Step 3.2: Draw the Guiding Box
+1.  From the center, measure $\pm a$ units along the transverse axis and $\pm b$ units along the conjugate axis.
+2.  Draw a dashed rectangle (the Guiding Box) using these four points as the midpoints of the box's sides.
+
+##### Step 3.3: Draw the Asymptotes (Finding the Slope)
+The asymptotes are diagonal lines that pass through the center and the corners of the Guiding Box.
+
+* **Slope Formula:** The slope ($\mathbf{m}$) is always defined by the ratio of the change in $y$ to the change in $x$, using the semi-axes lengths.
+
+| Orientation | Slope ($\mathbf{m}$) | Asymptote Equation |
+| :--- | :--- | :--- |
+| **Horizontal** | $\mathbf{m = \pm \frac{b}{a}}$ | $y - k = \pm \frac{b}{a}(x - h)$ |
+| **Vertical** | $\mathbf{m = \pm \frac{a}{b}}$ | $y - k = \pm \frac{a}{b}(x - h)$ |
+
+##### Step 3.4: Sketch the Hyperbola
+1.  Draw the two branches of the hyperbola starting at the **Vertices** (Step 3.1).
+2.  The curves must open along the **Transverse Axis** (i.e., open left/right for horizontal, up/down for vertical).
+3.  The curves should approach the asymptotes but **never cross or touch them**. 
+
+[Image of a hyperbola showing vertices, foci, and asymptotes]
+
+
+---
+
+#### 4. Determining Shape: "Fat/Short" vs. "Tall/Skinny"
+
+The ratio of $a$ to $b$ determines how quickly the hyperbola opens (its relative "fatness" or "skinniness").
+
+* The shape is directly related to the **slope of the asymptotes** $\left(m = \frac{\text{rise}}{\text{run}}\right)$.
+
+| Condition                | Shape Description                    | Visual Result                                                     |
+| :----------------------- | :----------------------------------- | :---------------------------------------------------------------- |
+| **$a > b$ (Horizontal)** | $\frac{b}{a} < 1$ (Shallow Slope)    | Opens **widely/flat** (Fat and short branches).                   |
+| **$b > a$ (Horizontal)** | $\frac{b}{a} > 1$ (Steep Slope)      | Opens **narrowly/steeply** (Tall and skinny branches).            |
+| **$a = b$**              | $\frac{a}{b} = 1$ (Slope is $\pm 1$) | Forms a **rectangular** hyperbola (asymptotes are perpendicular). |
 ### ✏️ Hyperbola Analysis and Graphing: $\frac{y^2}{9} - \frac{x^2}{9} = 1$
 
 ---
@@ -15551,3 +15626,66 @@ $$c^2 = a^2 + b^2$$
 1.  **Calculate $c^2$:** $c^2 = 9 + 9 = 18$
 2.  **Calculate $c$:** $c = \sqrt{18} = \sqrt{9 \cdot 2} = \mathbf{3\sqrt{2}}$
 3.  **Foci:** The foci lie on the transverse (y) axis at $\mathbf{(0, \pm 3\sqrt{2})}$.
+### ✏️ Hyperbola Analysis and Graphing: $\frac{x^2}{4} - \frac{y^2}{9} = 1$
+
+---
+
+#### 1. Identify Key Features
+
+The standard form of a hyperbola centered at the origin $(0, 0)$ is:
+
+* **Horizontal Hyperbola (starts with $x^2$):** $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$
+* **Vertical Hyperbola (starts with $y^2$):** $\frac{y^2}{a^2} - \frac{x^2}{b^2} = 1$
+
+##### Step 1.1: Determine Orientation
+Since the **$x^2$ term is positive** (it comes first), the hyperbola is **horizontal**. The transverse axis (the axis containing the vertices and foci) is the x-axis.
+
+##### Step 1.2: Identify $a$ and $b$
+* **$a^2$:** The denominator under the positive term ($x^2$) determines $a$.
+    $$a^2 = 4 \implies \mathbf{a = 2}$$
+* **$b^2$:** The denominator under the negative term ($y^2$) determines $b$.
+    $$b^2 = 9 \implies \mathbf{b = 3}$$
+
+##### Step 1.3: Identify Center
+Since the equation has only $x^2$ and $y^2$ (no shift terms like $(x-h)$ or $(y-k)$), the center is at $\mathbf{(h, k) = (0, 0)}$.
+
+---
+
+#### 2. Graphing the Hyperbola (The Box and Asymptote Method)
+
+Graphing relies on the vertices, the conjugate axis endpoints, and the asymptotes.
+
+##### Step 2.1: Find the Vertices
+The vertices are $\pm a$ units along the transverse (x) axis from the center.
+* **Center:** $(0, 0)$
+* **$a=2$**
+* **Vertices:** $(0 \pm 2, 0) \implies \mathbf{(2, 0)}$ and $\mathbf{(-2, 0)}$
+
+##### Step 2.2: Find the Conjugate Axis Endpoints
+The conjugate axis endpoints are $\pm b$ units along the y-axis from the center.
+* **Center:** $(0, 0)$
+* **$b=3$**
+* **Endpoints:** $(0, 0 \pm 3) \implies \mathbf{(0, 3)}$ and $\mathbf{(0, -3)}$
+
+##### Step 2.3: Determine the Asymptotes
+The asymptotes are the diagonal lines that guide the hyperbola's curves. The formula for a **horizontal** hyperbola is: $y = \pm \frac{b}{a}x$.
+
+* **Asymptote Equation:** $y = \pm \frac{3}{2}x$
+* **Simplified Asymptotes:** $\mathbf{y = \frac{3}{2}x}$ and $\mathbf{y = -\frac{3}{2}x}$
+
+##### Step 2.4: Sketch the Graph Instructions
+1.  **Plot the Center:** Plot the center $(0, 0)$.
+2.  **Draw the Guiding Box:** Draw a dashed rectangle using the vertices ($\pm 2$ on the x-axis) and the conjugate axis endpoints ($\pm 3$ on the y-axis).
+3.  **Draw the Asymptotes:** Draw dashed lines passing through the center and the corners of the guiding box. These are the lines $y = \pm \frac{3}{2}x$.
+4.  **Sketch the Hyperbola:** Draw the two branches of the hyperbola starting at the vertices $\mathbf{(2, 0)}$ and $\mathbf{(-2, 0)}$, opening horizontally (left and right), and approaching the asymptotes but never touching them. 
+---
+
+#### 3. Extra Notes: Finding the Foci ($c$)
+
+The foci are points that define the hyperbola's shape. The distance $c$ from the center to each focus is found using the relation:
+
+$$c^2 = a^2 + b^2$$
+
+1.  **Calculate $c^2$:** $c^2 = 4 + 9 = 13$
+2.  **Calculate $c$:** $c = \sqrt{13}$
+3.  **Foci:** The foci lie on the transverse (x) axis at $\mathbf{(\pm \sqrt{13}, 0)}$ (or approximately $(\pm 3.61, 0)$).
