@@ -15925,7 +15925,7 @@ $$\mathbf{(-3, 9) \text{ and } (1, 1)}$$
 ##### **Complexity of Substitution**
 * **Multiple Substitutions:** When the non-linear equation is in General Form ($x^2 + y^2 + \dots = 0$), the substitution process is longer because you have to replace $y$ in both the $y^2$ term and the linear $y$ term.
 * **Double Check Signs:** The term $-2(3 - 2x)$ requires special care. When you distribute the negative number, both signs inside the parentheses must flip: $-2 \cdot 3 = -6$ AND $-2 \cdot (-2x) = +4x$.
-### ✏️ Solving the System of Equations: Elimination of $y^2$
+### ✏️ Solving the System of Equations: Elimination of $y^2$ ($2x^2 + 2y^2 - 5x + 20y = 0$) ($7x^2 - 2y^2 - 49x - 20y = 0$)
 
 ---
 
@@ -16026,3 +16026,113 @@ $$\mathbf{(0, 0), (0, -10), (6, -3), \text{ and } (6, -7)}$$
 ##### **Successful Elimination**
 * **Double Elimination:** In this specific problem, both the $y^2$ term (by design) and the $y$ term (due to coefficients being $\pm 20$) were eliminated simultaneously, simplifying the problem greatly.
 * **Non-Unique $y$ Values:** Because both original equations were non-linear (both are circles), substituting one $x$-value back into the original equations resulted in a quadratic equation for $y$, leading to **two** different $y$ solutions for each $x$.
+### ✏️ Solving the System of Equations: Elimination of $y^2$ and $y$ ($4x^2 + 2y^2 - 29x - 8y + 6 = 0$) ($7x^2 - 2y^2 - 37x + 8y - 6 = 0$)
+
+---
+
+#### 1. Given System of Equations
+
+1.  $$4x^2 + 2y^2 - 29x - 8y + 6 = 0$$
+2.  $$7x^2 - 2y^2 - 37x + 8y - 6 = 0$$
+
+---
+
+#### 2. Perform Elimination (Adding the Equations)
+
+Notice that the coefficients for $y^2$, $y$, and the constant term are all opposites in the two equations:
+* $y^2$: $+2y^2$ and $-2y^2$
+* $y$: $-8y$ and $+8y$
+* Constant: $+6$ and $-6$
+
+Adding the two equations together will eliminate all terms except the $x^2$ and $x$ terms.
+
+$$\begin{array}{rcl} (4x^2 + 2y^2 - 29x - 8y + 6) & = & 0 \\ + (7x^2 - 2y^2 - 37x + 8y - 6) & = & 0 \\ \hline \end{array}$$
+
+---
+
+#### 3. Simplify the Resulting Quadratic Equation
+
+Add the corresponding like terms column by column:
+
+| Term Type | Equation 1 | Equation 2 | Sum | Result |
+| :--- | :--- | :--- | :--- | :--- |
+| **$x^2$** | $4x^2$ | $7x^2$ | $11x^2$ | $11x^2$ |
+| **$y^2$** | $+2y^2$ | $-2y^2$ | $0$ | (Eliminated) |
+| **$x$** | $-29x$ | $-37x$ | $-66x$ | $-66x$ |
+| **$y$** | $-8y$ | $+8y$ | $0$ | (Eliminated) |
+| **Constant** | $+6$ | $-6$ | $0$ | (Eliminated) |
+
+The resulting single-variable quadratic equation is:
+$$\mathbf{11x^2 - 66x = 0}$$
+
+---
+
+#### 4. Solve the Quadratic Equation for $x$
+
+##### Step 4.1: Factor out the Greatest Common Factor (GCF)
+The GCF for $11x^2$ and $66x$ is $11x$.
+
+$$11x(x - 6) = 0$$
+
+##### Step 4.2: Apply the Zero Product Property
+Set each factor equal to zero to find the two possible values for $x$:
+
+* **Solution 1:** $11x = 0 \implies \mathbf{x_1 = 0}$
+* **Solution 2:** $x - 6 = 0 \implies \mathbf{x_2 = 6}$
+
+---
+
+#### 5. Find the Corresponding $y$ Values (Substitution Back)
+
+Substitute each $x$ value back into one of the original equations. We will use Equation (1): $4x^2 + 2y^2 - 29x - 8y + 6 = 0$.
+
+##### Case 1: For $x_1 = 0$
+Substitute $x=0$ into Equation (1):
+$$4(0)^2 + 2y^2 - 29(0) - 8y + 6 = 0$$
+$$2y^2 - 8y + 6 = 0$$
+
+Simplify by dividing by 2:
+$$y^2 - 4y + 3 = 0$$
+
+Factor the quadratic (numbers that multiply to $+3$ and add to $-4$ are $-3$ and $-1$):
+$$(y - 3)(y - 1) = 0$$
+This gives two possible $y$ values for $x=0$:
+* $y - 3 = 0 \implies \mathbf{y = 3}$
+* $y - 1 = 0 \implies \mathbf{y = 1}$
+
+$$\mathbf{\text{Points 1 and 2: } (0, 3) \text{ and } (0, 1)}$$
+
+##### Case 2: For $x_2 = 6$
+Substitute $x=6$ into Equation (1):
+$$4(6)^2 + 2y^2 - 29(6) - 8y + 6 = 0$$
+$$4(36) + 2y^2 - 174 - 8y + 6 = 0$$
+$$144 + 2y^2 - 174 - 8y + 6 = 0$$
+
+Combine constants ($144 - 174 + 6 = -30 + 6 = -24$):
+$$2y^2 - 8y - 24 = 0$$
+
+Simplify by dividing by 2:
+$$y^2 - 4y - 12 = 0$$
+
+Factor the quadratic (numbers that multiply to $-12$ and add to $-4$ are $-6$ and $+2$):
+$$(y - 6)(y + 2) = 0$$
+This gives two possible $y$ values for $x=6$:
+* $y - 6 = 0 \implies \mathbf{y = 6}$
+* $y + 2 = 0 \implies \mathbf{y = -2}$
+
+$$\mathbf{\text{Points 3 and 4: } (6, 6) \text{ and } (6, -2)}$$
+
+---
+
+#### 6. Final Solutions
+
+The system of equations has four intersection points:
+$$\mathbf{(0, 3), (0, 1), (6, 6), \text{ and } (6, -2)}$$
+
+---
+
+#### 7. Key Takeaways
+
+##### **Efficiency of Multiple Elimination**
+* **The Best Case Scenario:** When several terms cancel out (like $y^2, y,$ and the constant did here), the resulting single-variable equation is very quick to solve.
+* **Quadratic in $y$:** Since both original equations were non-linear (conic sections), substituting a single $x$-value back always leads to a quadratic equation in terms of $y$ (unless the quadratic terms happen to cancel out further). This means you should expect **two** $y$-solutions for each $x$-solution.
