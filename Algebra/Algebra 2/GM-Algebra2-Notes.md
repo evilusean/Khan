@@ -15689,3 +15689,57 @@ $$c^2 = a^2 + b^2$$
 1.  **Calculate $c^2$:** $c^2 = 4 + 9 = 13$
 2.  **Calculate $c$:** $c = \sqrt{13}$
 3.  **Foci:** The foci lie on the transverse (x) axis at $\mathbf{(\pm \sqrt{13}, 0)}$ (or approximately $(\pm 3.61, 0)$).
+### ✏️ Hyperbola Analysis and Graphing: $\frac{x^2}{16} - \frac{y^2}{16} = 1$
+
+---
+
+#### 1. Identify Key Features
+
+The hyperbola equation is in the standard form: $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$.
+
+##### Step 1.1: Determine Orientation
+Since the **$x^2$ term is positive** (it comes first), the hyperbola is **horizontal**, meaning it opens left and right. The transverse axis is the x-axis.
+
+##### Step 1.2: Identify $a$ and $b$
+* **$a^2$:** The denominator under the positive term ($x^2$) determines $a$.
+    $$a^2 = 16 \implies \mathbf{a = 4}$$
+* **$b^2$:** The denominator under the negative term ($y^2$) determines $b$.
+    $$b^2 = 16 \implies \mathbf{b = 4}$$
+
+##### Step 1.3: Identify Center
+Since there are no shift terms $(x-h)$ or $(y-k)$, the center is at the origin: $\mathbf{(h, k) = (0, 0)}$.
+
+---
+
+#### 2. Graphing the Hyperbola (The Box and Asymptote Method)
+
+##### Step 2.1: Find the Vertices
+The vertices are $\pm a$ units along the transverse (x) axis from the center.
+* **Vertices:** $(0 \pm 4, 0) \implies \mathbf{(4, 0)}$ and $\mathbf{(-4, 0)}$
+
+##### Step 2.2: Find the Conjugate Axis Endpoints
+The endpoints are $\pm b$ units along the y-axis from the center.
+* **Endpoints:** $(0, 0 \pm 4) \implies \mathbf{(0, 4)}$ and $\mathbf{(0, -4)}$
+
+##### Step 2.3: Determine the Asymptotes (Finding the Slope)
+The asymptotes are defined by $y = \pm \frac{b}{a}x$.
+
+* **Asymptote Equation:** $y = \pm \frac{4}{4}x$
+* **Simplified Asymptotes:** $\mathbf{y = x}$ and $\mathbf{y = -x}$
+
+    * **Key Takeaway:** Since $a=b$, the asymptotes are perpendicular, and this is known as a **rectangular hyperbola**.
+
+##### Step 2.4: Find the Foci ($c$)
+The foci distance is found using the hyperbola relation $c^2 = a^2 + b^2$.
+1.  **Calculate $c^2$:** $c^2 = 16 + 16 = 32$
+2.  **Calculate $c$:** $c = \sqrt{32} = \sqrt{16 \cdot 2} = \mathbf{4\sqrt{2}}$
+3.  **Foci:** The foci lie on the transverse (x) axis at $\mathbf{(\pm 4\sqrt{2}, 0)}$ (approx. $(\pm 5.66, 0)$).
+
+---
+
+#### 3. Graphing Instructions
+
+1.  **Plot the Center:** Plot the point $\mathbf{(0, 0)}$.
+2.  **Draw the Guiding Square:** Draw a dashed square connecting the points $(\pm 4, \pm 4)$.
+3.  **Draw the Asymptotes:** Draw dashed lines through the center $(0, 0)$ and the corners of the square. These lines are $y=x$ and $y=-x$.
+4.  **Sketch the Hyperbola:** Draw the two branches starting at the vertices $\mathbf{(4, 0)}$ and $\mathbf{(-4, 0)}$, opening **horizontally** (left and right) and curving toward the asymptotes. ```
