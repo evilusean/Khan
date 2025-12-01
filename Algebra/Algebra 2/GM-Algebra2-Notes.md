@@ -15479,3 +15479,12 @@ $$\mathbf{Semi-Axes (Radii): a = 7, b = 3}$$
 * **Minor Axis Vertices (Co-Vertices):** The highest and lowest points are 3 units from the center: $(0, -4 \pm 3) \rightarrow (0, -1)$ and $(0, -7)$.
 ## Algebra II - Lesson 78 - Graphing Hyperbolas - 30November2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h3m25s
+- **Hyperbolas** : $\mathbf{\frac{(x - h)^2}{a^2} - \frac{(y - k)^2}{b^2} = 1}$ : The equation looks similar to the ellipse, the difference is the '-' minus sign
+- **Horizontal Hyperbola** : $\mathbf{\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1}$ : short and fat - the denominator under 'x' is larger than 'y' so it is horizontal
+- **Also a Horizontal Hyperbola, in Ellipse Equation form** : $\mathbf{\frac{x^2}{a^2} + \frac{-y^2}{b^2} = 1}$ for an ellipse equation, If you have a '-' 'y' then it is a negative and also a hyperbola, since you are adding a negative.
+- **Vertical Hyperbola** : $\mathbf{\frac{x^2}{b^2} - \frac{y^2}{a^2} = 1}$ : Tall and skinny, the '$a^2$' denominator under 'y' is larger than the denominator under 'x' and is a vertical hyperbola
+- **Graphing a Hyperbola** :
+  1) Locate the intercepts
+  2) Find the fundamental rectangle
+  3) Sketch the asymptotes - These are extended from the fundamental rectangle
+  4) Sketch the graph - each branch goes through an intercept and approaches, bbut doesn't touch the asymptotes
