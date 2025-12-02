@@ -16301,4 +16301,61 @@ Since the point $(5, 0)$ satisfies the inequality, the regions outside the branc
 
 #### 4. Solution Summary
 
-The solution is the region of the plane **outside** the two branches of the horizontal hyperbola $\frac{x^2}{16} - \frac{y^2}{9} = 1$. The boundary is a **dashed line**. ```
+The solution is the region of the plane **outside** the two branches of the horizontal hyperbola $\frac{x^2}{16} - \frac{y^2}{9} = 1$. The boundary is a **dashed line**.
+### ✏️ Solving the System of Inequalities: Circle and Line ($\mathbf{x^2 + y^2 < 49}$) ($\mathbf{x + 5y > 10}$)
+
+---
+
+#### 1. Analyze Inequality 1: The Circle Region
+
+$$\mathbf{x^2 + y^2 < 49}$$
+
+##### Boundary Equation (Circle)
+* **Equation:** $x^2 + y^2 = 49$.
+* **Center:** $(0, 0)$.
+* **Radius:** $r = \sqrt{49} = \mathbf{7}$.
+
+##### Shading/Boundary Type
+* **Boundary:** The **$<$** symbol means the boundary is a **dashed circle** (points on the circle are not included).
+* **Region:** The $\mathbf{<}$ (less than) symbol means the solution is the region **inside** the circle.
+
+---
+
+#### 2. Analyze Inequality 2: The Linear Region
+
+$$\mathbf{x + 5y > 10}$$
+
+##### Boundary Equation (Line)
+* **Equation:** $x + 5y = 10$.
+
+##### Find Intercepts (for Graphing)
+* **x-intercept (set $y=0$):** $x + 5(0) = 10 \implies \mathbf{x = 10}$ ($\mathbf{(10, 0)}$)
+* **y-intercept (set $x=0$):** $0 + 5y = 10 \implies \mathbf{y = 2}$ ($\mathbf{(0, 2)}$)
+
+##### Shading/Boundary Type
+* **Boundary:** The **$>$** symbol means the boundary is a **dashed line** (points on the line are not included).
+* **Region:** Use a test point, like the origin $\mathbf{(0, 0)}$:
+    $$0 + 5(0) > 10$$
+    $$0 > 10 \quad \text{(False)}$$
+    Since the origin is **False**, the solution is the region **not containing the origin** (the region **above** the line).
+
+---
+
+#### 3. Graphing Instructions and Final Solution
+
+The solution to the system is the region that satisfies **both** conditions simultaneously (the overlapping shaded area).
+
+1.  **Draw the Circle:** Draw a **dashed circle** centered at $(0, 0)$ with a radius of 7.
+2.  **Draw the Line:** Draw a **dashed line** passing through the intercepts $(10, 0)$ and $(0, 2)$.
+3.  **Identify the Solution Region:** The solution is the area that is:
+    * **Inside** the dashed circle $\left(x^2 + y^2 < 49\right)$.
+    * **Above** the dashed line $\left(x + 5y > 10\right)$.
+
+The solution is the **unbounded crescent-shaped region** that is cut from the interior of the circle by the dashed line, specifically the portion away from the origin.
+
+---
+
+#### 4. Key Takeaways
+
+* **Boundary Type:** Pay close attention to the inequality symbols. Use **dashed lines** for $<$ or $>$ and **solid lines** for $\leq$ or $\geq$.
+* **Test Point:** The origin $(0, 0)$ is the quickest test point for linear inequalities unless the line passes through it. The line $x+5y=10$ does not pass through the origin, so it was a valid test.
