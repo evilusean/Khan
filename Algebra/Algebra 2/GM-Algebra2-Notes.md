@@ -16413,6 +16413,7 @@ The solution to the system is the region that satisfies **both** conditions simu
     * **Above** the solid parabola $y = x^2 - x - 2$.
 
 The solution is the **region bounded above by the dashed line $y=3$ and bounded below by the solid parabola $y = x^2 - x - 2$**. 
+
 ---
 
 #### 4. Key Takeaways
