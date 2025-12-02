@@ -16140,4 +16140,45 @@ $$\mathbf{(0, 3), (0, 1), (6, 6), \text{ and } (6, -2)}$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h49m35s
 - When solving an inequality, you seperate the regions into one solution region, and one non-solution region which will not satisfy the inequalities
 - **Test point** : Plug in (0,0) for (x,y) and see if you have a 'True' statement, if so, (0,0) is in the solution region, if 'False it's not in the solution region
-- 
+### ✏️ Solving and Graphing the Non-Linear Inequality: $x^2 + y^2 \leq 9$
+
+---
+
+#### 1. Analyze the Boundary Equation
+
+The boundary of the region is defined by the equality:
+$$\mathbf{x^2 + y^2 = 9}$$
+
+This is the standard form of a **circle** centered at the origin $(h, k) = (0, 0)$ with a radius $r$:
+* **Center:** $(0, 0)$
+* **Radius ($r$):** Since $r^2 = 9$, the radius is $r = \sqrt{9} = \mathbf{3}$.
+
+---
+
+#### 2. Analyze the Inequality Symbol
+
+The inequality symbol $\mathbf{\leq}$ (less than or equal to) provides two pieces of information:
+
+1.  **Boundary Type:** Because of the "**or equal to**" part, the boundary line must be a **solid line** (meaning points on the circle itself are included in the solution).
+2.  **Shading Region:** The "**less than**" part means we shade the region **inside** the circle. The region where $x^2 + y^2$ is less than 9 includes all points closer to the center than the boundary circle.
+
+---
+
+#### 3. Graphing Instructions
+
+The solution is the set of all points $(x, y)$ that satisfy the inequality.
+
+1.  **Plot the Center:** Locate the center at the origin $\mathbf{(0, 0)}$.
+2.  **Draw the Boundary:** Draw a **solid circle** with a radius of **3** units centered at the origin.
+3.  **Shade the Region:** Shade the entire region **inside** the solid circle. 
+##### Test Point Verification (Optional but Recommended)
+To confirm the shading, pick a test point, like the center $(\mathbf{0, 0})$:
+$$0^2 + 0^2 \leq 9$$
+$$0 \leq 9 \quad \text{(True)}$$
+Since the test point $(0, 0)$ satisfies the inequality, the region containing the center (the inside of the circle) is the correct solution.
+
+---
+
+#### 4. Solution Summary
+
+The solution set is the set of all points located **on the circle** and **inside the circle**. The graph is a **solid, shaded disk** centered at the origin with a radius of 3.
