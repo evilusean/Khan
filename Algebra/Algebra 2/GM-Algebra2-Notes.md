@@ -16255,3 +16255,50 @@ $$\mathbf{-3 \leq x \leq 2}$$
 * **Minimum/Maximum:** Since the parabola opens upward ($A>0$), the vertex $\left(-\frac{1}{2}, -6.25\right)$ is the **minimum** point of the entire function.
 * **Vertex and Roots:** The vertex is always exactly halfway between the two roots: $\frac{(-3) + 2}{2} = \frac{-1}{2} = -0.5$.
 * **The Lowest Point:** The value $y=-6.25$ is the smallest $y$ value this function will ever produce.
+### ✏️ Solving and Graphing the Hyperbolic Inequality: $\frac{x^2}{16} - \frac{y^2}{9} > 1$
+
+---
+
+#### 1. Analyze the Boundary Hyperbola
+
+The boundary of the region is defined by the equality:
+$$\mathbf{\frac{x^2}{16} - \frac{y^2}{9} = 1}$$
+
+This is the standard form of a **horizontal hyperbola** centered at the origin $(0, 0)$.
+
+##### Key Parameters:
+* **Center:** $(0, 0)$
+* **$a$ (Vertices):** $a^2 = 16 \implies \mathbf{a = 4}$. The vertices are at $(\pm 4, 0)$.
+* **$b$ (Guiding Box):** $b^2 = 9 \implies \mathbf{b = 3}$. The co-vertices are at $(0, \pm 3)$.
+* **Asymptotes:** $y = \pm \frac{b}{a}x \implies \mathbf{y = \pm \frac{3}{4}x}$
+
+---
+
+#### 2. Analyze the Inequality Symbol
+
+The inequality symbol $\mathbf{>}$ (greater than) provides two pieces of information:
+
+1.  **Boundary Type:** Because it is strictly "**greater than**" (no "or equal to"), the hyperbola itself must be drawn as a **dashed line** (meaning points on the hyperbola are *not* included in the solution).
+2.  **Shading Region:** We are looking for the region where the difference $\left(\frac{x^2}{16} - \frac{y^2}{9}\right)$ is greater than 1. For a **horizontal hyperbola**, this means we shade the region **outside** the two branches (the regions containing the foci).
+
+---
+
+#### 3. Graphing Instructions
+
+1.  **Plot the Center:** Locate the center at the origin $\mathbf{(0, 0)}$.
+2.  **Draw the Guiding Box and Asymptotes:** Draw the guiding box from $x=\pm 4$ and $y=\pm 3$. Draw the asymptotes $\mathbf{y = \pm \frac{3}{4}x}$ through the corners of the box (as dashed lines).
+3.  **Draw the Hyperbola:** Draw the two branches starting at the vertices $\mathbf{(\pm 4, 0)}$, opening **horizontally** (left and right), and approaching the asymptotes (use a **dashed line**).
+4.  **Shade the Region:** Shade the regions **outside** the two dashed branches (i.e., the region to the left of the left branch and to the right of the right branch).
+
+##### Test Point Verification
+Choose a test point on the x-axis outside the branches, like $\mathbf{(5, 0)}$:
+$$\frac{(5)^2}{16} - \frac{(0)^2}{9} > 1$$
+$$\frac{25}{16} - 0 > 1$$
+$$1.5625 > 1 \quad \text{(True)}$$
+Since the point $(5, 0)$ satisfies the inequality, the regions outside the branches are the correct solution.
+
+---
+
+#### 4. Solution Summary
+
+The solution is the region of the plane **outside** the two branches of the horizontal hyperbola $\frac{x^2}{16} - \frac{y^2}{9} = 1$. The boundary is a **dashed line**. ```
