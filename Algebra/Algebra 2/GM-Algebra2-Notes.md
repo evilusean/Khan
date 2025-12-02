@@ -16359,3 +16359,62 @@ The solution is the **unbounded crescent-shaped region** that is cut from the in
 
 * **Boundary Type:** Pay close attention to the inequality symbols. Use **dashed lines** for $<$ or $>$ and **solid lines** for $\leq$ or $\geq$.
 * **Test Point:** The origin $(0, 0)$ is the quickest test point for linear inequalities unless the line passes through it. The line $x+5y=10$ does not pass through the origin, so it was a valid test.
+### ✏️ Solving the System of Inequalities: Line and Parabola ($\mathbf{y < 3}$) ($\mathbf{y \geq x^2 - x - 2}$)
+
+---
+
+#### 1. Analyze Inequality 1: The Horizontal Line Region
+
+$$\mathbf{y < 3}$$
+
+##### Boundary Equation (Line)
+* **Equation:** $y = 3$. This is a horizontal line.
+
+##### Shading/Boundary Type
+* **Boundary:** The **$<$** symbol means the boundary is a **dashed line** (points on the line are not included).
+* **Region:** The $\mathbf{<}$ (less than) symbol means the solution is the region **below** the dashed line $y=3$.
+
+---
+
+#### 2. Analyze Inequality 2: The Parabola Region
+
+$$\mathbf{y \geq x^2 - x - 2}$$
+
+##### Boundary Equation (Parabola)
+* **Equation:** $y = x^2 - x - 2$. This is an upward-opening parabola (since $A=1$ is positive).
+
+##### Find Roots (x-intercepts)
+Set $y=0$ and factor: $x^2 - x - 2 = 0$.
+* Numbers that multiply to $-2$ and add to $-1$ are $-2$ and $+1$.
+* $(x - 2)(x + 1) = 0$
+* **Roots:** $\mathbf{x = 2}$ and $\mathbf{x = -1}$.
+
+##### Find Vertex (for Graphing)
+* **A=1, B=-1**
+* **$x$-coordinate ($h$):** $h = -\frac{B}{2A} = -\frac{(-1)}{2(1)} = \mathbf{\frac{1}{2}}$
+* **$y$-coordinate ($k$):** $k = (\frac{1}{2})^2 - (\frac{1}{2}) - 2 = 0.25 - 0.5 - 2 = \mathbf{-2.25}$
+* **Vertex:** $\mathbf{(0.5, -2.25)}$
+
+##### Shading/Boundary Type
+* **Boundary:** The **$\geq$** symbol means the boundary is a **solid parabola** (points on the curve are included).
+* **Region:** The $\mathbf{\geq}$ (greater than or equal to) symbol means the solution is the region **above** the solid parabola.
+
+---
+
+#### 3. Graphing Instructions and Final Solution
+
+The solution to the system is the region that satisfies **both** conditions simultaneously (the overlapping shaded area).
+
+1.  **Draw the Line:** Draw a **dashed horizontal line** at $\mathbf{y = 3}$.
+2.  **Draw the Parabola:** Draw a **solid parabola** opening upward, passing through roots $(-1, 0)$ and $(2, 0)$, with the vertex at $(0.5, -2.25)$.
+3.  **Identify the Solution Region:** The solution is the area that is:
+    * **Below** the dashed line $y=3$.
+    * **Above** the solid parabola $y = x^2 - x - 2$.
+
+The solution is the **region bounded above by the dashed line $y=3$ and bounded below by the solid parabola $y = x^2 - x - 2$**. 
+---
+
+#### 4. Key Takeaways
+
+* **Boundaries:** The line $y=3$ is a **non-inclusive boundary** (dashed) while the parabola is an **inclusive boundary** (solid).
+* **Intersection Points:** The solution region is typically cut off at the points where the line and the parabola intersect. To find these points, set the equations equal to each other: $3 = x^2 - x - 2$. This simplifies to $x^2 - x - 5 = 0$, which would require the quadratic formula to solve.
