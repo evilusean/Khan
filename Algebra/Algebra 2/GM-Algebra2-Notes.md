@@ -16140,6 +16140,8 @@ $$\mathbf{(0, 3), (0, 1), (6, 6), \text{ and } (6, -2)}$$
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h49m35s
 - When solving an inequality, you seperate the regions into one solution region, and one non-solution region which will not satisfy the inequalities
 - **Test point** : Plug in (0,0) for (x,y) and see if you have a 'True' statement, if so, (0,0) is in the solution region, if 'False it's not in the solution region
+- **Find the Vertex of a Parabola** : $h = -\frac{B}{2A}$ : The Vertex $x$-Coordinate Formula - The formula for the $x$-coordinate, often denoted as $h$, of the vertex of a standard parabola ($y = Ax^2 + Bx + C$) is:
+- **Vertex** : $(\frac{-b}{2a}, f(\frac{-b}{2a}$) : (x, y)
 ### ✏️ Solving and Graphing the Non-Linear Inequality: $x^2 + y^2 \leq 9$
 
 ---
@@ -16182,3 +16184,74 @@ Since the test point $(0, 0)$ satisfies the inequality, the region containing th
 #### 4. Solution Summary
 
 The solution set is the set of all points located **on the circle** and **inside the circle**. The graph is a **solid, shaded disk** centered at the origin with a radius of 3.
+### ✏️ Parabola Analysis and Vertex: $y = x^2 + x - 6$
+
+---
+
+#### 1. Identify Coefficients and Parabola Orientation
+
+The quadratic equation is in the standard form $y = Ax^2 + Bx + C$:
+* **A:** $1$
+* **B:** $1$
+* **C:** $-6$
+
+* **Orientation:** Since $\mathbf{A = 1}$ (which is positive), the parabola opens **upward**. This means the vertex will be the lowest point, or the **minimum** value, of the function.
+
+---
+
+#### 2. Find the Vertex Coordinates
+
+The vertex is the point $(h, k)$.
+
+##### Step 2.1: Find the x-coordinate ($h$)
+Use the vertex formula you provided: $h = -\frac{B}{2A}$.
+
+$$h = -\frac{1}{2(1)}$$
+$$\mathbf{h = -\frac{1}{2} \text{ or } -0.5}$$
+
+##### Step 2.2: Find the y-coordinate ($k$)
+Substitute the $x$-value ($h = -0.5$) back into the original equation $y = x^2 + x - 6$ to find $k$.
+
+$$k = (-0.5)^2 + (-0.5) - 6$$
+$$k = 0.25 - 0.5 - 6$$
+$$\mathbf{k = -6.25}$$
+
+$$\mathbf{Vertex (h, k): \left(-\frac{1}{2}, -6.25\right)}$$
+
+---
+
+#### 3. Vertex Formula and Axis of Symmetry
+
+##### The Vertex Formula (h-coordinate)
+The formula to find the $x$-coordinate ($h$) of the vertex for any parabola $y = Ax^2 + Bx + C$ is:
+$$\mathbf{h = -\frac{B}{2A}}$$
+
+##### Axis of Symmetry
+The **axis of symmetry** is the vertical line that passes through the vertex, dividing the parabola into two mirror images.
+$$\mathbf{x = -\frac{B}{2A}}$$
+For this problem, the axis of symmetry is $\mathbf{x = -0.5}$.
+
+---
+
+#### 4. Solving the Inequality: $\mathbf{x^2 + x - 6 \leq 0}$
+
+Using the vertex and the roots found previously, we can confirm the solution to the inequality.
+
+##### Step 4.1: Find the Roots (x-intercepts)
+We set $y=0$ and factor:
+$$(x + 3)(x - 2) = 0$$
+$$\mathbf{\text{Roots: } x = -3 \text{ and } x = 2}$$
+
+##### Step 4.2: Interpret the Inequality ($\leq 0$)
+Since the parabola opens **upward** and we want the section where $y$ is **less than or equal to 0**, we are looking for the portion of the graph that lies on or below the x-axis.
+
+The solution is the region between the roots:
+$$\mathbf{-3 \leq x \leq 2}$$
+
+---
+
+#### 5. Key Takeaways
+
+* **Minimum/Maximum:** Since the parabola opens upward ($A>0$), the vertex $\left(-\frac{1}{2}, -6.25\right)$ is the **minimum** point of the entire function.
+* **Vertex and Roots:** The vertex is always exactly halfway between the two roots: $\frac{(-3) + 2}{2} = \frac{-1}{2} = -0.5$.
+* **The Lowest Point:** The value $y=-6.25$ is the smallest $y$ value this function will ever produce.
