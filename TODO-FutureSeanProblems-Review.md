@@ -19,7 +19,10 @@ Practice Set Notation + Set Builder Notation
 
 Solving Systems of Linear Equations in three Variables
 
-Matrix Operations - totally forgot how to do these - When you're ready Neo, you won't have to.
+Matrix Operations - totally forgot how to do these - When you're ready Neo, you won't have to. - 3 row operations : 
+1) interchange any two rows
+2) multiply any row by a non-zero number
+3) multiply a row by a real number and add this to the corresponding elements of any other row
 
 Systems of Linear Equations to Augmented Matrix and Solving System of Equations using Row Echelon Form (REF)
 
