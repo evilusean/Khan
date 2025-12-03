@@ -19,6 +19,8 @@ Practice Set Notation + Set Builder Notation
 
 Solving Systems of Linear Equations in three Variables
 
+Matrix Operations - totally forgot how to do these - When you're ready Neo, you won't have to.
+
 Systems of Linear Equations to Augmented Matrix and Solving System of Equations using Row Echelon Form (REF)
 
 Solving Linear Systems in three Variables using Matrix Methods (Reduced Row Echelon Form)
