@@ -45,3 +45,4 @@ The factored form of $6x^2 + 11x - 10$ is **$(2x + 5)(3x - 2)$**.
 * $6x^2 - 4x + 15x - 10$
 * $6x^2 + 11x - 10$ (Original expression confirmed)
 ## 2025-December-04 : How To Factor Polynomials The Easy Way! :
+https://www.youtube.com/watch?v=U6FndtdgpcA
