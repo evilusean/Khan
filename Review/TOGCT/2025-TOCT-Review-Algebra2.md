@@ -185,3 +185,78 @@ https://www.youtube.com/watch?v=1KGVwaUhR-s
 
 * When denominators are **opposites** (like $a-b$ and $b-a$), factor out $\mathbf{-1}$ from one of them to create a common denominator.
 * Example: $\frac{A}{a-b} + \frac{B}{b-a} = \frac{A}{a-b} + \frac{B}{-(a-b)} = \frac{A}{a-b} - \frac{B}{a-b}$
+### Adding and Subtracting Rational Expressions: $\frac{5}{x+2} + \frac{2}{x+1} - \frac{3}{x-1}$
+
+* **1. Identify the LCD**
+    * The three unique denominators are $D_1 = (x+2)$, $D_2 = (x+1)$, and $D_3 = (x-1)$.
+    * The **LCD** is the product of all unique factors: $\mathbf{(x+2)(x+1)(x-1)}$
+
+* **2. Adjust and Combine Numerators**
+    * Rewrite all fractions over the LCD and combine:
+        $$\frac{5(x+1)(x-1) + 2(x+2)(x-1) - 3(x+2)(x+1)}{(x+2)(x+1)(x-1)}$$
+
+* **3. Expand and Simplify the Numerator**
+    * **Distribution (Term by Term):**
+        * $5(x^2 - 1) = 5x^2 - 5$
+        * $2(x^2 + x - 2) = 2x^2 + 2x - 4$
+        * $-3(x^2 + 3x + 2) = -3x^2 - 9x - 6$
+    * **Combine all terms:**
+        * **$x^2$ terms:** $5x^2 + 2x^2 - 3x^2 = \mathbf{4x^2}$
+        * **$x$ terms:** $2x - 9x = \mathbf{-7x}$
+        * **Constant terms:** $-5 - 4 - 6 = \mathbf{-15}$
+    * **Combined Numerator:** $\mathbf{4x^2 - 7x - 15}$
+
+* **4. Final Check for Factoring**
+    * **Numerator:** $4x^2 - 7x - 15$.
+    * We check if this quadratic can be factored.
+    * *AC Method Check:* $a \cdot c = 4 \cdot (-15) = -60$.
+    * **Factors of -60 that sum to -7:** We are looking for factors that differ by 7. The factors $\mathbf{5}$ and $\mathbf{-12}$ work: $5 + (-12) = -7$.
+    * **Factor the Numerator (optional step if no cancellation is found):**
+        $$4x^2 + 5x - 12x - 15$$
+        $$x(4x + 5) - 3(4x + 5)$$
+        $$\mathbf{(x - 3)(4x + 5)}$$
+    * **Conclusion:** Since neither $(x-3)$ nor $(4x+5)$ is a factor of the denominator, no further cancellation is possible. The form with the fully expanded numerator is often preferred.
+
+* **5. Final Simplified Expression**
+    * **Final Answer:** $$\frac{4x^2 - 7x - 15}{(x+2)(x+1)(x-1)}$$
+
+#### Restriction Notes (Domain)
+
+* The expression is undefined when the denominator is zero.
+* $x+2 \ne 0 \implies x \ne -2$
+* $x+1 \ne 0 \implies x \ne -1$
+* $x-1 \ne 0 \implies x \ne 1$
+* **Restriction:** $x \ne -2, -1, 1$
+### Factoring the Numerator: $4x^2 - 7x - 15$
+
+This section details the factorization of the numerator from the expression $\frac{4x^2 - 7x - 15}{(x+2)(x+1)(x-1)}$, using the **AC Method**.
+
+* **1. Identify Coefficients and Calculate AC Product**
+    * The quadratic is in the form $ax^2 + bx + c$, where $a=4$, $b=-7$, and $c=-15$.
+    * **AC Product:** $a \cdot c = 4 \cdot (-15) = -60$.
+
+* **2. Find Two Factors of AC that Sum to b**
+    * We need two numbers that **multiply to -60** and **add up to -7** ($b$).
+    * The factors $\mathbf{5}$ and $\mathbf{-12}$ satisfy this condition:
+        * $5 \times (-12) = -60$
+        * $5 + (-12) = -7$
+
+* **3. Rewrite the Middle Term ($b x$)**
+    * Replace the $-7x$ term with the two new terms, $5x$ and $-12x$:
+        $$4x^2 + 5x - 12x - 15$$
+
+* **4. Factor by Grouping**
+    * Group the first two terms and the last two terms, then factor out the Greatest Common Factor (GCF) from each group:
+        $$\underbrace{(4x^2 + 5x)}_{\text{GCF is } x} \underbrace{+ (-12x - 15)}_{\text{GCF is } -3}$$
+        $$x(4x + 5) - 3(4x + 5)$$
+
+* **5. Final Factored Form**
+    * Factor out the common binomial factor, $(4x + 5)$:
+        $$\mathbf{(x - 3)(4x + 5)}$$
+
+**Conclusion:**
+
+The fully factored form of the original expression is:
+$$\frac{(x - 3)(4x + 5)}{(x+2)(x+1)(x-1)}$$
+Since none of the numerator's factors cancel with the denominator's factors, the simplified form with the expanded numerator, $\frac{4x^2 - 7x - 15}{(x+2)(x+1)(x-1)}$, is usually considered complete. 
+## 2025-December-05 - 
