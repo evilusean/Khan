@@ -81,3 +81,4 @@ https://www.youtube.com/watch?v=U6FndtdgpcA
 * The crucial step is factoring out a negative number from the second group if necessary, to ensure the remaining binomials are **identical**.
 * Always check if any of the resulting factors can be factored further (e.g., Difference of Squares, as seen with $x^2 - 4$).
 ## 2025-December-05  - Adding and Subtracting Rational Expressions With Unlike Denominators :
+https://www.youtube.com/watch?v=1KGVwaUhR-s
