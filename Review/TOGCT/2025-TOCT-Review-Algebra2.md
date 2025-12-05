@@ -82,3 +82,106 @@ https://www.youtube.com/watch?v=U6FndtdgpcA
 * Always check if any of the resulting factors can be factored further (e.g., Difference of Squares, as seen with $x^2 - 4$).
 ## 2025-December-05  - Adding and Subtracting Rational Expressions With Unlike Denominators :
 https://www.youtube.com/watch?v=1KGVwaUhR-s
+### Adding Rational Expressions: $\frac{4}{x-2} + \frac{5}{x+2}$
+
+* **1. Identify the Least Common Denominator (LCD)**
+    * The denominators are $D_1 = (x-2)$ and $D_2 = (x+2)$.
+    * The LCD is the product of the unique factors: $\mathbf{(x-2)(x+2)}$.
+
+* **2. Rewrite Each Fraction with the LCD**
+    * **First Fraction:** Multiply by $\frac{x+2}{x+2}$.
+        $$\frac{4}{x-2} \cdot \frac{x+2}{x+2} = \frac{4(x+2)}{(x-2)(x+2)}$$
+    * **Second Fraction:** Multiply by $\frac{x-2}{x-2}$.
+        $$\frac{5}{x+2} \cdot \frac{x-2}{x-2} = \frac{5(x-2)}{(x+2)(x-2)}$$
+
+* **3. Combine the Numerators**
+    * Now that the denominators are the same, combine the numerators over the common denominator.
+    * $$\frac{4(x+2) + 5(x-2)}{(x-2)(x+2)}$$
+
+* **4. Distribute and Simplify the Numerator**
+    * **Distribute:** $4(x+2) = 4x + 8$
+    * **Distribute:** $5(x-2) = 5x - 10$
+    * **Numerator:** $(4x + 8) + (5x - 10)$
+    * **Combine like terms (x-terms and constants):**
+        * $(4x + 5x) + (8 - 10) = \mathbf{9x - 2}$
+
+* **5. Final Simplified Expression**
+    * Place the simplified numerator over the common denominator.
+    * **Final Answer:** $$\frac{9x - 2}{(x-2)(x+2)} \text{ or } \frac{9x - 2}{x^2 - 4}$$
+
+#### Restrictions (Domain)
+
+* The original expression is undefined where the denominators are zero.
+* $x-2 \ne 0 \implies x \ne 2$
+* $x+2 \ne 0 \implies x \ne -2$
+* **Restriction:** $x \ne 2, -2$
+### Adding Rational Expressions: $\frac{x}{x^2 + 9x + 20} + \frac{4}{x^2+7x+12}$
+
+* **1. Factor the Denominators**
+    * **Denominator 1:** $x^2 + 9x + 20$
+        * Find two numbers that multiply to 20 and add to 9: 5 and 4.
+        * **$(x + 5)(x + 4)$**
+    * **Denominator 2:** $x^2 + 7x + 12$
+        * Find two numbers that multiply to 12 and add to 7: 4 and 3.
+        * **$(x + 4)(x + 3)$**
+
+* **2. Rewrite the Original Expression**
+    * $$\frac{x}{(x + 5)(x + 4)} + \frac{4}{(x + 4)(x + 3)}$$
+
+* **3. Identify the Least Common Denominator (LCD)**
+    * The LCD must include all unique factors from both denominators.
+    * **LCD** = **$(x + 5)(x + 4)(x + 3)$**
+
+* **4. Adjust Each Fraction to Have the LCD**
+    * **First Fraction:** Missing the factor $(x+3)$.
+        $$\frac{x}{(x + 5)(x + 4)} \cdot \frac{x+3}{x+3} = \frac{x(x+3)}{(x + 5)(x + 4)(x + 3)}$$
+    * **Second Fraction:** Missing the factor $(x+5)$.
+        $$\frac{4}{(x + 4)(x + 3)} \cdot \frac{x+5}{x+5} = \frac{4(x+5)}{(x + 5)(x + 4)(x + 3)}$$
+
+* **5. Combine the Numerators**
+    * Combine the new numerators over the common LCD.
+    * $$\frac{x(x+3) + 4(x+5)}{(x + 5)(x + 4)(x + 3)}$$
+
+* **6. Simplify the Numerator**
+    * **Distribute:** $x(x+3) = x^2 + 3x$
+    * **Distribute:** $4(x+5) = 4x + 20$
+    * **New Numerator:** $(x^2 + 3x) + (4x + 20)$
+    * **Combine like terms:** $\mathbf{x^2 + 7x + 20}$
+
+* **7. Final Simplified Expression**
+    * **Final Answer:** $$\frac{x^2 + 7x + 20}{(x + 5)(x + 4)(x + 3)}$$
+
+#### Restriction Notes (Domain)
+
+* The original expression is undefined where any factored denominator equals zero.
+* $x+5 \ne 0 \implies x \ne -5$
+* $x+4 \ne 0 \implies x \ne -4$
+* $x+3 \ne 0 \implies x \ne -3$
+* **Restriction:** $x \ne -5, -4, -3$
+### Adding Rational Expressions with Opposite Denominators: $\frac{x^2}{x-4} + \frac{7}{4-x}$
+
+* **1. Address the Opposite Denominators**
+    * The second denominator, $(4-x)$, is the negative of the first denominator, $(x-4)$.
+    * We can factor out $-1$ from the second denominator to make them match:
+        $$4-x = -1(x - 4)$$
+
+* **2. Rewrite the Second Fraction**
+    * Substitute $-1(x-4)$ into the second expression's denominator:
+        $$\frac{7}{4-x} = \frac{7}{-1(x-4)} = \frac{-7}{x-4}$$
+    * **Note:** Dividing a fraction by $-1$ is the same as multiplying the numerator by $-1$.
+
+* **3. Rewrite the Addition Problem**
+    * The addition is now a subtraction problem with a **Common Denominator**:
+        $$\frac{x^2}{x-4} + \frac{-7}{x-4} = \frac{x^2}{x-4} - \frac{7}{x-4}$$
+
+* **4. Combine the Numerators**
+    * Since the denominators are the same, combine the numerators over the common denominator.
+    * $$\frac{x^2 - 7}{x-4}$$
+
+* **5. Final Simplified Expression**
+    * **Final Answer:** $$\frac{x^2 - 7}{x-4}$$
+
+#### Key Takeaway
+
+* When denominators are **opposites** (like $a-b$ and $b-a$), factor out $\mathbf{-1}$ from one of them to create a common denominator.
+* Example: $\frac{A}{a-b} + \frac{B}{b-a} = \frac{A}{a-b} + \frac{B}{-(a-b)} = \frac{A}{a-b} - \frac{B}{a-b}$
