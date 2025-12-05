@@ -289,3 +289,47 @@ The key to multiplying rational expressions is to **factor every numerator and e
 * Restrictions must be identified from the **original, factored denominators** *before* cancellation.
 * **Original Denominators:** $2(x-2)(x+2)$
 * **Restriction:** $x \ne 2, -2$
+### Multiplying Rational Expressions: $\frac{5x^2 - 15x}{2x^2 +11x +12} \cdot \frac{3x^2-48}{10x^3 - 70x^2 +120x}$
+
+The process for multiplying rational expressions is to **factor every numerator and every denominator** completely and then cancel any common factors.
+
+---
+
+* **1. Factor All Expressions Completely**
+
+    * **First Numerator:** $5x^2 - 15x \implies \mathbf{5x(x - 3)}$
+    * **First Denominator:** $2x^2 + 11x + 12 \implies \mathbf{(x + 4)(2x + 3)}$
+    * **Second Numerator:** $3x^2 - 48 \implies 3(x^2 - 16) \implies \mathbf{3(x - 4)(x + 4)}$
+    * **Second Denominator:** $10x^3 - 70x^2 + 120x \implies 10x(x^2 - 7x + 12) \implies \mathbf{10x(x - 3)(x - 4)}$
+
+---
+
+* **2. Rewrite the Full Expression in Factored Form**
+
+    $$\frac{5x(x - 3)}{(x + 4)(2x + 3)} \cdot \frac{3(x - 4)(x + 4)}{10x(x - 3)(x - 4)}$$
+
+---
+
+* **3. Cancel Common Factors**
+
+    * **Numerical/Variable:** Cancel $\mathbf{5x}$ (numerator) with $\mathbf{10x}$ (denominator), leaving $\mathbf{1}$ in the numerator and $\mathbf{2}$ in the denominator.
+    * **Binomial Factors:**
+        * Cancel $\mathbf{(x - 3)}$ (numerator) with $\mathbf{(x - 3)}$ (denominator).
+        * Cancel $\mathbf{(x - 4)}$ (numerator) with $\mathbf{(x - 4)}$ (denominator).
+        * Cancel $\mathbf{(x + 4)}$ (numerator) with $\mathbf{(x + 4)}$ (denominator).
+
+    * **Remaining Terms:**
+        $$\frac{1 \cdot 3}{(2x + 3) \cdot 2}$$
+
+---
+
+* **4. Final Simplified Expression**
+
+    * **Final Answer:** $$\frac{3}{2(2x + 3)}$$
+
+---
+
+* **5. Restriction Notes (Domain)**
+
+    * The expression is undefined when the original, factored denominators are zero.
+    * **Restriction:** $x \ne -4, -\frac{3}{2}, 0, 3, 4$
