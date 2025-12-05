@@ -261,3 +261,31 @@ $$\frac{(x - 3)(4x + 5)}{(x+2)(x+1)(x-1)}$$
 Since none of the numerator's factors cancel with the denominator's factors, the simplified form with the expanded numerator, $\frac{4x^2 - 7x - 15}{(x+2)(x+1)(x-1)}$, is usually considered complete. 
 ## 2025-December-05 - TOCT-Multiplying Rational Expressions :
 https://www.youtube.com/watch?v=RROSgr4oXjU
+### Multiplying Rational Expressions: $\frac{7x+14}{2x^2 -8} \cdot (x^2 + 3x -10)$
+
+The key to multiplying rational expressions is to **factor every numerator and every denominator** first, and then cancel common factors.
+
+* **1. Factor All Expressions**
+    * **First Numerator:** $7x + 14 \implies \mathbf{7(x+2)}$
+    * **First Denominator:** $2x^2 - 8 \implies 2(x^2 - 4) \implies \mathbf{2(x - 2)(x + 2)}$
+    * **Second Numerator (Polynomial):** $x^2 + 3x - 10 \implies \mathbf{(x + 5)(x - 2)}$
+    * **Second Denominator (Implicit):** 1
+
+* **2. Rewrite the Full Expression in Factored Form**
+    * $$\frac{7(x+2)}{2(x - 2)(x + 2)} \cdot \frac{(x + 5)(x - 2)}{1}$$
+
+* **3. Cancel Common Factors**
+    * Cancel $(x+2)$ with $(x+2)$.
+    * Cancel $(x-2)$ with $(x-2)$.
+    * The remaining factors are $7$, $(x+5)$, and $2$.
+
+* **4. Final Simplified Expression**
+    * **Numerator:** $7 \cdot (x + 5)$
+    * **Denominator:** $2 \cdot 1 = 2$
+    * **Final Answer:** $$\frac{7(x + 5)}{2} \text{ or } \frac{7x + 35}{2}$$
+
+#### Restriction Notes (Domain)
+
+* Restrictions must be identified from the **original, factored denominators** *before* cancellation.
+* **Original Denominators:** $2(x-2)(x+2)$
+* **Restriction:** $x \ne 2, -2$
