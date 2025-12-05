@@ -333,3 +333,54 @@ The process for multiplying rational expressions is to **factor every numerator 
 
     * The expression is undefined when the original, factored denominators are zero.
     * **Restriction:** $x \ne -4, -\frac{3}{2}, 0, 3, 4$
+### Multiplying Rational Expressions: $\frac{3x^3 - 24}{2x^2 -14x +20} \cdot \frac{4x^3-20x^2 +3x -15}{3x^2 - 6x +12}$
+
+The goal is to **factor every numerator and every denominator** completely and then cancel any common factors.
+
+---
+
+* **1. Factor All Expressions Completely**
+
+    * **First Numerator:** $3x^3 - 24$
+        * GCF: $3(x^3 - 8)$
+        * Difference of Cubes ($x^3 - 2^3$): $\mathbf{3(x - 2)(x^2 + 2x + 4)}$
+
+    * **First Denominator:** $2x^2 - 14x + 20$
+        * GCF and Factoring Trinomial: $2(x^2 - 7x + 10) \implies \mathbf{2(x - 2)(x - 5)}$
+
+    * **Second Numerator:** $4x^3 - 20x^2 + 3x - 15$
+        * Factor by Grouping: $4x^2(x - 5) + 3(x - 5) \implies \mathbf{(4x^2 + 3)(x - 5)}$
+
+    * **Second Denominator:** $3x^2 - 6x + 12$
+        * GCF: $3(x^2 - 2x + 4)$
+        * *(Note: $x^2 - 2x + 4$ does not factor further with real numbers.)*
+
+---
+
+* **2. Rewrite the Full Expression in Factored Form**
+
+    $$\frac{3(x - 2)(x^2 + 2x + 4)}{2(x - 2)(x - 5)} \cdot \frac{(4x^2 + 3)(x - 5)}{3(x^2 - 2x + 4)}$$
+
+---
+
+* **3. Cancel Common Factors**
+
+    * **Cancel 3**
+    * **Cancel (x - 2)**
+    * **Cancel (x - 5)**
+
+    * **Remaining Terms:**
+        $$\frac{(x^2 + 2x + 4)(4x^2 + 3)}{2(x^2 - 2x + 4)}$$
+
+---
+
+* **4. Final Simplified Expression**
+
+    $$\frac{(x^2 + 2x + 4)(4x^2 + 3)}{2(x^2 - 2x + 4)}$$
+
+---
+
+* **5. Restriction Notes (Domain)**
+
+    * Restrictions occur when the original denominators are zero.
+    * **Restriction:** $x \ne 2, 5$
