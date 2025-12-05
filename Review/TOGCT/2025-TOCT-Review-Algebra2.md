@@ -259,4 +259,4 @@ This section details the factorization of the numerator from the expression $\fr
 The fully factored form of the original expression is:
 $$\frac{(x - 3)(4x + 5)}{(x+2)(x+1)(x-1)}$$
 Since none of the numerator's factors cancel with the denominator's factors, the simplified form with the expanded numerator, $\frac{4x^2 - 7x - 15}{(x+2)(x+1)(x-1)}$, is usually considered complete. 
-## 2025-December-05 - 
+## 2025-December-05 - TOCT-Multiplying Rational Expressions :
