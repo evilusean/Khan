@@ -333,7 +333,7 @@ The process for multiplying rational expressions is to **factor every numerator 
 
     * The expression is undefined when the original, factored denominators are zero.
     * **Restriction:** $x \ne -4, -\frac{3}{2}, 0, 3, 4$
-### Multiplying Rational Expressions: $\frac{3x^3 - 24}{2x^2 -14x +20} \cdot \frac{4x^3-20x^2 +3x -15}{3x^2 - 6x +12}$
+### Multiplying Rational Expressions: $\frac{3x^3 - 24}{2x^2 -14x +20} \cdot \frac{4x^3-20x^2 +3x -15}{3x^2 + 6x +12}$
 
 The goal is to **factor every numerator and every denominator** completely and then cancel any common factors.
 
@@ -351,15 +351,15 @@ The goal is to **factor every numerator and every denominator** completely and t
     * **Second Numerator:** $4x^3 - 20x^2 + 3x - 15$
         * Factor by Grouping: $4x^2(x - 5) + 3(x - 5) \implies \mathbf{(4x^2 + 3)(x - 5)}$
 
-    * **Second Denominator:** $3x^2 - 6x + 12$
-        * GCF: $3(x^2 - 2x + 4)$
-        * *(Note: $x^2 - 2x + 4$ does not factor further with real numbers.)*
+    * **Second Denominator (KEY CHANGE):** $3x^2 + 6x + 12$
+        * GCF: $3(x^2 + 2x + 4)$
+        * *(Note: This quadratic factor $\mathbf{(x^2 + 2x + 4)}$ is identical to the one in the first numerator, allowing for cancellation.)*
 
 ---
 
 * **2. Rewrite the Full Expression in Factored Form**
 
-    $$\frac{3(x - 2)(x^2 + 2x + 4)}{2(x - 2)(x - 5)} \cdot \frac{(4x^2 + 3)(x - 5)}{3(x^2 - 2x + 4)}$$
+    $$\frac{3(x - 2)(x^2 + 2x + 4)}{2(x - 2)(x - 5)} \cdot \frac{(4x^2 + 3)(x - 5)}{3(x^2 + 2x + 4)}$$
 
 ---
 
@@ -368,19 +368,21 @@ The goal is to **factor every numerator and every denominator** completely and t
     * **Cancel 3**
     * **Cancel (x - 2)**
     * **Cancel (x - 5)**
+    * **Cancel $(x^2 + 2x + 4)$**
 
     * **Remaining Terms:**
-        $$\frac{(x^2 + 2x + 4)(4x^2 + 3)}{2(x^2 - 2x + 4)}$$
+        $$\frac{(4x^2 + 3)}{2}$$
 
 ---
 
 * **4. Final Simplified Expression**
 
-    $$\frac{(x^2 + 2x + 4)(4x^2 + 3)}{2(x^2 - 2x + 4)}$$
+    $$\frac{4x^2 + 3}{2}$$
 
 ---
 
 * **5. Restriction Notes (Domain)**
 
-    * Restrictions occur when the original denominators are zero.
+    * Restrictions must be identified from the original denominators **before** cancellation.
+    * The expression is undefined when $x=2$ or $x=5$.
     * **Restriction:** $x \ne 2, 5$
