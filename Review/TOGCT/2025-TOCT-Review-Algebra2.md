@@ -388,3 +388,73 @@ The goal is to **factor every numerator and every denominator** completely and t
     * **Restriction:** $x \ne 2, 5$
 ## 2025-December06 - TOCT- Solving Systems of Equations With 3 Variables & Word Problems :
 https://www.youtube.com/watch?v=0JQeo0yC9OQ
+### Solving a System with Three Equations and Three Variables (3x3)
+
+The system of equations is:
+1.  $$2x + y + z = 7$$
+2.  $$2x - y + 2z = 6$$
+3.  $$x - 2y + z = 0$$
+
+The goal is to reduce this system to two equations with two variables, and then to one equation with one variable.
+
+---
+
+### **Step 1: Eliminate $y$ from Equation (1) and (2)**
+
+Add Equation (1) and Equation (2) to eliminate $y$:
+
+$$\begin{array}{r@{}c@{}l} 2x + y + z & = & 7 \\ + \quad 2x - y + 2z & = & 6 \\ \hline 4x + 3z & = & 13 \end{array}$$
+
+This yields the new Equation (4):
+4.  $$\mathbf{4x + 3z = 13}$$
+
+---
+
+### **Step 2: Eliminate $y$ from Equation (1) and (3)**
+
+Multiply Equation (1) by **2** and add it to Equation (3) to eliminate $y$:
+
+Multiply (1) by 2: $\quad 4x + 2y + 2z = 14$
+
+$$\begin{array}{r@{}c@{}l} 4x + 2y + 2z & = & 14 \\ + \quad x - 2y + z & = & 0 \\ \hline 5x + 3z & = & 14 \end{array}$$
+
+This yields the new Equation (5):
+5.  $$\mathbf{5x + 3z = 14}$$
+
+---
+
+### **Step 3: Solve the Reduced 2x2 System**
+
+Use the elimination method on the new system (4) and (5):
+
+$$\begin{array}{r@{}c@{}l} 5x + 3z & = & 14 \\ - \quad (4x + 3z & = & 13) \\ \hline x & = & 1 \end{array}$$
+
+This gives the value for $x$:
+$$\mathbf{x = 1}$$
+
+---
+
+### **Step 4: Back-Substitute to Find $z$**
+
+Substitute $x=1$ into Equation (4):
+$$4(1) + 3z = 13$$
+$$4 + 3z = 13$$
+$$3z = 9$$
+$$\mathbf{z = 3}$$
+
+---
+
+### **Step 5: Back-Substitute to Find $y$**
+
+Substitute $x=1$ and $z=3$ into the original Equation (1):
+$$2(1) + y + 3 = 7$$
+$$2 + y + 3 = 7$$
+$$y + 5 = 7$$
+$$\mathbf{y = 2}$$
+
+---
+
+### **Final Solution**
+
+The unique solution is:
+$$\mathbf{(x, y, z) = (1, 2, 3)}$$
