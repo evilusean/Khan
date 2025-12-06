@@ -458,3 +458,49 @@ $$\mathbf{y = 2}$$
 
 The unique solution is:
 $$\mathbf{(x, y, z) = (1, 2, 3)}$$
+### Solving Investment Word Problem: $13,000 Total, 15% and 14% Rates, $1900 Interest
+
+**Problem/Question:**
+Two investments totaling $\$13,000$ were placed in separate accounts earning $15\%$ and $14\%$ annually. If the total interest received was $\$1,900$ during the first year, how much money was invested in the account paying $15\%$ interest?
+
+---
+
+### **1. Define Variables**
+
+* Let $\mathbf{x}$ be the amount (in dollars) invested at **15%** (or 0.15).
+* Let $\mathbf{y}$ be the amount (in dollars) invested at **14%** (or 0.14).
+
+---
+
+### **2. Set Up the System of Equations**
+
+**Equation (1): Total Investment Amount**
+$$x + y = 13,000$$
+
+**Equation (2): Total Interest Received**
+$$0.15x + 0.14y = 1,900$$
+
+---
+
+### **3. Solve the System (Substitution Method)**
+
+**Step 3a: Isolate $y$ in Equation (1)**
+$$y = 13,000 - x$$
+
+**Step 3b: Substitute this expression for $y$ into Equation (2)**
+$$0.15x + 0.14(13,000 - x) = 1,900$$
+
+**Step 3c: Distribute and Simplify**
+$$0.15x + 1,820 - 0.14x = 1,900$$
+
+**Step 3d: Solve for $x$**
+$$0.01x = 1,900 - 1,820$$
+$$0.01x = 80$$
+$$x = \frac{80}{0.01}$$
+$$\mathbf{x = 8,000}$$
+
+---
+
+### **Conclusion**
+
+The amount of money invested in the account paying 15% interest ($\mathbf{x}$) is **\$8,000**.
