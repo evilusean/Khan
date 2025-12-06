@@ -386,3 +386,4 @@ The goal is to **factor every numerator and every denominator** completely and t
     * Restrictions must be identified from the original denominators **before** cancellation.
     * The expression is undefined when $x=2$ or $x=5$.
     * **Restriction:** $x \ne 2, 5$
+## 2025-December06 - TOCT- Solving Systems of Equations With 3 Variables & Word Problems :
