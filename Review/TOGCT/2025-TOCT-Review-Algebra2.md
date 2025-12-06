@@ -387,3 +387,4 @@ The goal is to **factor every numerator and every denominator** completely and t
     * The expression is undefined when $x=2$ or $x=5$.
     * **Restriction:** $x \ne 2, 5$
 ## 2025-December06 - TOCT- Solving Systems of Equations With 3 Variables & Word Problems :
+https://www.youtube.com/watch?v=0JQeo0yC9OQ
