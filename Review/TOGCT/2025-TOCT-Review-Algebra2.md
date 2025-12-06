@@ -504,3 +504,61 @@ $$\mathbf{x = 8,000}$$
 ### **Conclusion**
 
 The amount of money invested in the account paying 15% interest ($\mathbf{x}$) is **\$8,000**.
+### Solving Word Problem: Cost of 7 Apples and 10 Bananas
+
+The goal is to find the cost of $7$ apples and $10$ bananas by first determining the unit cost of each fruit.
+
+---
+
+### **1. Define Variables and Set Up the System**
+
+* Let $\mathbf{a}$ be the cost of one apple (in dollars).
+* Let $\mathbf{b}$ be the cost of one banana (in dollars).
+
+Based on the problem, we have two equations:
+
+**Equation (1):** $5$ apples and $8$ bananas cost $\$6.55$.
+$$5a + 8b = 6.55$$
+
+**Equation (2):** $9$ apples and $7$ bananas cost $\$9.20$.
+$$9a + 7b = 9.20$$
+
+---
+
+### **2. Solve the System (Elimination Method)**
+
+* Multiply Equation (1) by **7** and Equation (2) by **-8** to eliminate $b$:
+    **Equation (3):** $35a + 56b = 45.85$
+    **Equation (4):** $-72a - 56b = -73.60$
+
+* **Add Equation (3) and Equation (4) to solve for $a$:**
+    $$-37a = -27.75$$
+    $$\mathbf{a = 0.75}$$
+    **The cost of one apple is $\$0.75$.**
+
+---
+
+### **3. Back-Substitute to Find $b$**
+
+Substitute $a = 0.75$ into Equation (1):
+$$5(0.75) + 8b = 6.55$$
+$$3.75 + 8b = 6.55$$
+$$8b = 2.80$$
+$$\mathbf{b = 0.35}$$
+**The cost of one banana is $\$0.35$.**
+
+---
+
+### **4. Calculate the Final Cost**
+
+The final question asks for the cost of **7 apples and 10 bananas**:
+$$\text{Cost} = 7a + 10b$$
+$$\text{Cost} = 7(0.75) + 10(0.35)$$
+$$\text{Cost} = 5.25 + 3.50$$
+$$\mathbf{\text{Cost} = 8.75}$$
+
+---
+
+### **Final Answer**
+
+The cost of 7 apples and 10 bananas is **\$8.75**.
