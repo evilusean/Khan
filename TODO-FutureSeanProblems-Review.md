@@ -17,7 +17,7 @@ Practice Motion word problems (if a train leaves at.... going...) d=rt
 
 Practice Set Notation + Set Builder Notation
 
-Solving Systems of Linear Equations in three Variables
+- [x] Solving Systems of Linear Equations in three Variables
 
 Matrix Operations - totally forgot how to do these - When you're ready Neo, you won't have to. - 3 row operations : 
 1) interchange any two rows
