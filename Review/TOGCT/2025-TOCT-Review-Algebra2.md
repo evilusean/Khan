@@ -564,3 +564,9 @@ $$\mathbf{\text{Cost} = 8.75}$$
 The cost of 7 apples and 10 bananas is **\$8.75**
 ## 2025-December-07 -TOCT- Intro To Matrices :
 https://www.youtube.com/watch?v=yRwQ7A6jVLk
+- **Matrix** = An array of numbers organized into rows and columns - You name the matrix based on the rows(horizontal) and columns (vertical) - so a 2x3 matrix would have 2 rows and 3 columns **RxC**
+- For identifying elements use $A_{1}{2}$ : for finding the element in the 1'st row and 2nd column
+- **Sqaure Matrix** = The number of rows and columns are the same
+- You can add matrices together be adding the corresponding elements together : $A_{1}{2}$ adds to $B_{1}{2}$ - you can only add/subtract matrices together if they have the same *RxC* size
+- For multiplying Matrices, just multiply every element in the matrix
+- 
