@@ -569,4 +569,4 @@ https://www.youtube.com/watch?v=yRwQ7A6jVLk
 - **Sqaure Matrix** = The number of rows and columns are the same
 - You can add matrices together be adding the corresponding elements together : $A_{1}{2}$ adds to $B_{1}{2}$ - you can only add/subtract matrices together if they have the same *RxC* size
 - For multiplying Matrices, just multiply every element in the matrix
-- 
+## 2025-December-07 - TOCT-Multiplying Matrices :
