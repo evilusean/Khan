@@ -563,3 +563,4 @@ $$\mathbf{\text{Cost} = 8.75}$$
 
 The cost of 7 apples and 10 bananas is **\$8.75**
 ## 2025-December-07 -TOCT- Intro To Matrices :
+https://www.youtube.com/watch?v=yRwQ7A6jVLk
