@@ -571,3 +571,152 @@ https://www.youtube.com/watch?v=yRwQ7A6jVLk
 - For multiplying Matrices, just multiply every element in the matrix
 ## 2025-December-07 - TOCT-Multiplying Matrices :
 https://www.youtube.com/watch?v=vzt9c7iWPxs
+- When dealing with matrices, you *don't have the product rule* where AB(A times B) = BA (B times A) - for multiplication in matrices, **the order matters** - AB means you need to start with matrix 'A' and multiply it by 'B' - BA means you need to start with matrix 'B' and multiply it by 'A' 
+- If you have a 1x3 and a 3x1 matrices, and you multiply them, the result you would get would be a 1x1 matrix, because none of the other rows and columns overlap except the top left (1, 1)
+- **RxC = Row times Column**(Always) : To multiply matrices, you multiply the numbers in the first row, by the numbers in the first column and then you *add the products together* 
+### Matrix Multiplication: Order and Dimension Rules ($\mathbf{AB} \neq \mathbf{BA}$)
+
+Matrix multiplication is **not commutative**, meaning the order in which you multiply matrices typically changes the result: $\mathbf{AB} \neq \mathbf{BA}$. Furthermore, matrix multiplication is only **defined** if the inner dimensions of the matrices match.
+
+---
+
+### **1. The Rule for Defined Multiplication (Inner Dimensions Must Match)**
+
+For a matrix multiplication $\mathbf{A} \times \mathbf{B}$ to be possible, the number of **columns** in the first matrix ($\mathbf{A}$) must equal the number of **rows** in the second matrix ($\mathbf{B}$). This is often called the "**inner dimension rule**."
+
+* **Matrix A** has dimensions: $(m \times \mathbf{n})$
+* **Matrix B** has dimensions: $(\mathbf{n} \times p)$
+* **Resulting Matrix AB** has dimensions: $(m \times p)$
+
+
+If the inner numbers (the $\mathbf{n}$'s) do not match, the multiplication is impossible.
+
+---
+
+### **2. Why Order Matters ($\mathbf{AB} \neq \mathbf{BA}$)**
+
+The fact that $\mathbf{A} \times \mathbf{B}$ is possible does **not** guarantee that $\mathbf{B} \times \mathbf{A}$ is also possible, and even if both are possible, they usually do not result in the same matrix.
+
+#### **Case A: Different Resulting Dimensions**
+
+If $\mathbf{A}$ is $(2 \times 3)$ and $\mathbf{B}$ is $(3 \times 4)$:
+
+* $\mathbf{A} \times \mathbf{B}$ is possible: $(2 \times \mathbf{3}) \times (\mathbf{3} \times 4) = (2 \times 4)$ matrix.
+* $\mathbf{B} \times \mathbf{A}$ is impossible: $(3 \times \mathbf{4}) \times (\mathbf{2} \times 3)$. The inner dimensions (4 and 2) do not match.
+
+#### **Case B: Non-Commutativity (Different Results)**
+
+Even when both $\mathbf{AB}$ and $\mathbf{BA}$ are possible (e.g., when both $\mathbf{A}$ and $\mathbf{B}$ are square matrices of the same size, like $2 \times 2$), the result is almost always different.
+
+**Example: $\mathbf{A} \times \mathbf{B}$ vs. $\mathbf{B} \times \mathbf{A}$**
+
+Let:
+$$\mathbf{A} = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix} \quad \text{and} \quad \mathbf{B} = \begin{pmatrix} 3 & 0 \\ 1 & 2 \end{pmatrix}$$
+
+**Multiplication $\mathbf{AB}$:**
+$$\mathbf{AB} = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} 3 & 0 \\ 1 & 2 \end{pmatrix} = \begin{pmatrix} (1 \cdot 3 + 2 \cdot 1) & (1 \cdot 0 + 2 \cdot 2) \\ (0 \cdot 3 + 1 \cdot 1) & (0 \cdot 0 + 1 \cdot 2) \end{pmatrix} = \begin{pmatrix} 5 & 4 \\ 1 & 2 \end{pmatrix}$$
+
+**Multiplication $\mathbf{BA}$:**
+$$\mathbf{BA} = \begin{pmatrix} 3 & 0 \\ 1 & 2 \end{pmatrix} \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} (3 \cdot 1 + 0 \cdot 0) & (3 \cdot 2 + 0 \cdot 1) \\ (1 \cdot 1 + 2 \cdot 0) & (1 \cdot 2 + 2 \cdot 1) \end{pmatrix} = \begin{pmatrix} 3 & 6 \\ 1 & 4 \end{pmatrix}$$
+
+Since $\begin{pmatrix} 5 & 4 \\ 1 & 2 \end{pmatrix} \neq \begin{pmatrix} 3 & 6 \\ 1 & 4 \end{pmatrix}$, we see that $\mathbf{AB} \neq \mathbf{BA}$, confirming that **order matters**.
+
+---
+
+### **Key Takeaway**
+
+Matrix multiplication is based on taking the **dot product of the rows of the first matrix with the columns of the second matrix**. Switching the order changes which rows and columns are being combined, resulting in a fundamentally different calculation.
+### Matrix Multiplication Example: AB (1x1) vs. BA (3x3)
+
+This example demonstrates two key principles of matrix multiplication:
+1.  The **inner dimension rule** must be met for multiplication to be defined.
+2.  Multiplying matrices in different orders ($\mathbf{AB}$ versus $\mathbf{BA}$) results in matrices with **different outer dimensions**, proving that $\mathbf{AB} \neq \mathbf{BA}$.
+
+---
+
+### **1. Define Matrices and Dimensions**
+
+* **Matrix A:** Dimensions $(1 \times 3)$
+    $$\mathbf{A} = \begin{pmatrix} 2 & 5 & 6 \end{pmatrix}$$
+* **Matrix B:** Dimensions $(3 \times 1)$
+    $$\mathbf{B} = \begin{pmatrix} 3 \\ 4 \\ -5 \end{pmatrix}$$
+
+---
+
+### **2. Calculate $\mathbf{AB}$ (Result is a $1 \times 1$ Matrix)**
+
+Multiplication $\mathbf{A} \times \mathbf{B}$ is possible because the inner dimensions match: $(1 \times \mathbf{3}) \times (\mathbf{3} \times 1)$.
+The resulting matrix $\mathbf{AB}$ will have the outer dimensions: $(1 \times 1)$.
+
+$$\mathbf{AB} = \begin{pmatrix} 2 & 5 & 6 \end{pmatrix} \begin{pmatrix} 3 \\ 4 \\ -5 \end{pmatrix}$$
+
+$$\mathbf{AB} = \begin{pmatrix} (2 \cdot 3) + (5 \cdot 4) + (6 \cdot (-5)) \end{pmatrix}$$
+$$\mathbf{AB} = \begin{pmatrix} 6 + 20 - 30 \end{pmatrix}$$
+$$\mathbf{AB} = \begin{pmatrix} -4 \end{pmatrix}$$
+
+---
+
+### **3. Calculate $\mathbf{BA}$ (Result is a $3 \times 3$ Matrix)**
+
+Multiplication $\mathbf{B} \times \mathbf{A}$ is also possible because the inner dimensions match: $(3 \times \mathbf{1}) \times (\mathbf{1} \times 3)$.
+The resulting matrix $\mathbf{BA}$ will have the outer dimensions: $(3 \times 3)$.
+
+$$\mathbf{BA} = \begin{pmatrix} 3 \\ 4 \\ -5 \end{pmatrix} \begin{pmatrix} 2 & 5 & 6 \end{pmatrix}$$
+
+$$\mathbf{BA} = \begin{pmatrix} (3 \cdot 2) & (3 \cdot 5) & (3 \cdot 6) \\ (4 \cdot 2) & (4 \cdot 5) & (4 \cdot 6) \\ (-5 \cdot 2) & (-5 \cdot 5) & (-5 \cdot 6) \end{pmatrix}$$
+
+$$\mathbf{BA} = \begin{pmatrix} 6 & 15 & 18 \\ 8 & 20 & 24 \\ -10 & -25 & -30 \end{pmatrix}$$
+
+---
+
+### **Conclusion**
+
+Since the resulting matrices have different dimensions ($\mathbf{AB}$ is $1 \times 1$ and $\mathbf{BA}$ is $3 \times 3$), this definitively shows that **order matters** in matrix multiplication: $\mathbf{AB} \neq \mathbf{BA}$.
+### Matrix Multiplication Example: AB vs BA (2x3 and 3x4)
+
+This example demonstrates the importance of matching inner dimensions for matrix multiplication.
+
+---
+
+### **1. Define Matrices and Dimensions**
+
+* **Matrix A:** $\mathbf{A} = \begin{pmatrix} 1 & 4 & -2 \\ 3 & 5 & -6 \end{pmatrix}$ $\implies$ Dimension: $(2 \times 3)$
+* **Matrix B:** $\mathbf{B} = \begin{pmatrix} 5 & 2 & 8 & -1 \\ 3 & 6 & 4 & 5 \\ -2 & 9 & 7 & -3 \end{pmatrix}$ $\implies$ Dimension: $(3 \times 4)$
+
+---
+
+### **2. Check Multiplication $\mathbf{AB}$**
+
+* **Dimensions:** $\mathbf{A}_{2 \times \mathbf{3}} \times \mathbf{B}_{\mathbf{3} \times 4}$.
+* **Inner Dimensions:** $3$ and $3$. They **match**.
+* **Resulting Dimension:** $(2 \times 4)$.
+
+#### **Calculation for $\mathbf{AB}$**
+
+$$\mathbf{AB} = \begin{pmatrix} 1 & 4 & -2 \\ 3 & 5 & -6 \end{pmatrix} \begin{pmatrix} 5 & 2 & 8 & -1 \\ 3 & 6 & 4 & 5 \\ -2 & 9 & 7 & -3 \end{pmatrix}$$
+
+**Row 1 $\times$ Columns:**
+* $\text{AB}_{1,1} = (1)(5) + (4)(3) + (-2)(-2) = 5 + 12 + 4 = 21$
+* $\text{AB}_{1,2} = (1)(2) + (4)(6) + (-2)(9) = 2 + 24 - 18 = 8$
+* $\text{AB}_{1,3} = (1)(8) + (4)(4) + (-2)(7) = 8 + 16 - 14 = 10$
+* $\text{AB}_{1,4} = (1)(-1) + (4)(5) + (-2)(-3) = -1 + 20 + 6 = 25$
+
+**Row 2 $\times$ Columns:**
+* $\text{AB}_{2,1} = (3)(5) + (5)(3) + (-6)(-2) = 15 + 15 + 12 = 42$
+* $\text{AB}_{2,2} = (3)(2) + (5)(6) + (-6)(9) = 6 + 30 - 54 = -18$
+* $\text{AB}_{2,3} = (3)(8) + (5)(4) + (-6)(7) = 24 + 20 - 42 = 2$
+* $\text{AB}_{2,4} = (3)(-1) + (5)(5) + (-6)(-3) = -3 + 25 + 18 = 40$
+
+**Final Result $\mathbf{AB}$:**
+$$\mathbf{AB} = \begin{pmatrix} 21 & 8 & 10 & 25 \\ 42 & -18 & 2 & 40 \end{pmatrix}$$
+
+---
+
+### **3. Check Multiplication $\mathbf{BA}$**
+
+* **Dimensions:** $\mathbf{B}_{3 \times \mathbf{4}} \times \mathbf{A}_{\mathbf{2} \times 3}$.
+* **Inner Dimensions:** $4$ and $2$. They **do not match**.
+
+#### **Conclusion for $\mathbf{BA}$**
+
+The multiplication $\mathbf{B} \times \mathbf{A}$ is **undefined** (impossible).
