@@ -828,3 +828,90 @@ $$\mathbf{A} = \begin{pmatrix} 1 & 3 & 5 \\ 2 & 7 & 11 \\ 0 & 4 & 6 \end{pmatrix
 
 3.  **Operation:** $\frac{1}{2} R_3 \to R_3$ (Creates the **leading one** in $R_3$)
     $$\mathbf{REF} = \begin{pmatrix} 1 & 3 & 5 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{pmatrix}$$
+### 📐 x + y - z = -2, 2x - y + z = 5, -x + 2y + 2z = 1 Solved by Gaussian Elimination
+
+This document solves the following system of linear equations using an augmented matrix and the process of **Gaussian Elimination** to achieve **Row Echelon Form (REF)**.
+
+**Original System of Equations:**
+$$\begin{aligned} x + y - z &= -2 \\ 2x - y + z &= 5 \\ -x + 2y + 2z &= 1 \end{aligned}$$
+
+---
+
+### **1. Setup: Initial Augmented Matrix**
+
+The coefficients and constants are extracted to form the augmented matrix. **Note:** The third row of the matrix in the image has been corrected to reflect the equation $\mathbf{-x + 2y + 2z = 1}$ (the system written in the image), not the incorrect matrix shown beneath it.
+
+$$\begin{pmatrix} 1 & 1 & -1 & \big| & -2 \\ 2 & -1 & 1 & \big| & 5 \\ -1 & 2 & 2 & \big| & 1 \end{pmatrix}$$
+
+---
+
+### **2. Step-by-Step Gaussian Elimination (REF)**
+
+The goal is to transform the matrix into **Row Echelon Form (REF)** by making the entries below the main diagonal zero, and making the leading entry of each non-zero row equal to 1.
+
+#### **Step 2.1: Create Zeros Below $R_1$'s Leading 1 (Pivot)**
+
+* **Operation 1:** $R_2 \to R_2 - 2 R_1$
+   $$\begin{pmatrix} 1 & 1 & -1 & \big| & -2 \\ 0 & -3 & 3 & \big| & 9 \\ -1 & 2 & 2 & \big| & 1 \end{pmatrix}$$
+* **Operation 2:** $R_3 \to R_3 + R_1$
+    $$\begin{pmatrix} 1 & 1 & -1 & \big| & -2 \\ 0 & -3 & 3 & \big| & 9 \\ 0 & 3 & 1 & \big| & -1 \end{pmatrix}$$
+
+#### **Step 2.2: Create Leading 1 in $R_2$**
+
+* **Operation 3:** $R_2 \to -\frac{1}{3} R_2$
+    $$\begin{pmatrix} 1 & 1 & -1 & \big| & -2 \\ 0 & 1 & -1 & \big| & -3 \\ 0 & 3 & 1 & \big| & -1 \end{pmatrix}$$
+
+#### **Step 2.3: Create Zero Below $R_2$'s Leading 1**
+
+* **Operation 4:** $R_3 \to R_3 - 3 R_2$
+    $$\begin{pmatrix} 1 & 1 & -1 & \big| & -2 \\ 0 & 1 & -1 & \big| & -3 \\ 0 & 0 & 4 & \big| & 8 \end{pmatrix}$$
+
+#### **Step 2.4: Create Leading 1 in $R_3$**
+
+* **Operation 5:** $R_3 \to \frac{1}{4} R_3$
+
+**Final Matrix in Row Echelon Form (REF):**
+$$\mathbf{REF} = \begin{pmatrix} 1 & 1 & -1 & \big| & -2 \\ 0 & 1 & -1 & \big| & -3 \\ 0 & 0 & 1 & \big| & 2 \end{pmatrix}$$
+
+---
+
+### **3. Solution by Back-Substitution**
+
+The REF matrix is converted back into a system of equations:
+1.  $x + y - z = -2$
+2.  $y - z = -3$
+3.  $z = 2$
+
+**Step 3.1: Solve for $z$ (from R3)**
+$$z = \mathbf{2}$$
+
+**Step 3.2: Solve for $y$ (from R2)**
+$$y - z = -3$$
+$$y - (2) = -3$$
+$$y = -3 + 2$$
+$$y = \mathbf{-1}$$
+
+**Step 3.3: Solve for $x$ (from R1)**
+$$x + y - z = -2$$
+$$x + (-1) - (2) = -2$$
+$$x - 3 = -2$$
+$$x = -2 + 3$$
+$$x = \mathbf{1}$$
+
+**Solution:** $(x, y, z) = (1, -1, 2)$
+
+---
+
+### **4. Verification (Check)**
+
+The solution $(1, -1, 2)$ is checked against the original equations:
+
+* **Equation 1:** $x + y - z = -2$
+    $$(1) + (-1) - (2) = 1 - 1 - 2 = -2$$
+    $$\mathbf{-2 = -2} \quad (\text{Correct})$$
+* **Equation 2:** $2x - y + z = 5$
+    $$2(1) - (-1) + (2) = 2 + 1 + 2 = 5$$
+    $$\mathbf{5 = 5} \quad (\text{Correct})$$
+* **Equation 3:** $-x + 2y + 2z = 1$
+    $$-(1) + 2(-1) + 2(2) = -1 - 2 + 4 = 1$$
+    $$\mathbf{1 = 1} \quad (\text{Correct})$$
