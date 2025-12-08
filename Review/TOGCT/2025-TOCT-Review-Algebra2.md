@@ -915,3 +915,87 @@ The solution $(1, -1, 2)$ is checked against the original equations:
 * **Equation 3:** $-x + 2y + 2z = 1$
     $$-(1) + 2(-1) + 2(2) = -1 - 2 + 4 = 1$$
     $$\mathbf{1 = 1} \quad (\text{Correct})$$
+### 📐 $2x + y - z = 1, 3x + 2y + z = 10, 2x - y + 2z = 6$ Solved by Gaussian Elimination
+
+This document solves the following system of linear equations using an augmented matrix and the process of **Gaussian Elimination** to achieve **Row Echelon Form (REF)**.
+
+**Original System of Equations:**
+$$\begin{aligned} 2x + y - z &= 1 \\ 3x + 2y + z &= 10 \\ 2x - y + 2z &= 6 \end{aligned}$$
+
+---
+
+### **1. Setup: Initial Augmented Matrix**
+
+The coefficients and constants are extracted to form the augmented matrix:
+$$\begin{pmatrix} 2 & 1 & -1 & \big| & 1 \\ 3 & 2 & 1 & \big| & 10 \\ 2 & -1 & 2 & \big| & 6 \end{pmatrix}$$
+
+---
+
+### **2. Step-by-Step Gaussian Elimination (REF)**
+
+The goal is to transform the matrix into **Row Echelon Form (REF)** using Elementary Row Operations (EROs).
+
+#### **Step 2.1: Create Leading 1 in $R_1$**
+* **Operation 1:** $R_1 \to \frac{1}{2} R_1$
+    $$\begin{pmatrix} 1 & 1/2 & -1/2 & \big| & 1/2 \\ 3 & 2 & 1 & \big| & 10 \\ 2 & -1 & 2 & \big| & 6 \end{pmatrix}$$
+
+#### **Step 2.2: Create Zeros Below $R_1$'s Leading 1**
+* **Operation 2:** $R_2 \to R_2 - 3 R_1$
+    $$\begin{pmatrix} 1 & 1/2 & -1/2 & \big| & 1/2 \\ 0 & 1/2 & 5/2 & \big| & 17/2 \\ 2 & -1 & 2 & \big| & 6 \end{pmatrix}$$
+* **Operation 3:** $R_3 \to R_3 - 2 R_1$
+    $$\begin{pmatrix} 1 & 1/2 & -1/2 & \big| & 1/2 \\ 0 & 1/2 & 5/2 & \big| & 17/2 \\ 0 & -2 & 3 & \big| & 5 \end{pmatrix}$$
+
+#### **Step 2.3: Create Leading 1 in $R_2$**
+* **Operation 4:** $R_2 \to 2 R_2$
+    $$\begin{pmatrix} 1 & 1/2 & -1/2 & \big| & 1/2 \\ 0 & 1 & 5 & \big| & 17 \\ 0 & -2 & 3 & \big| & 5 \end{pmatrix}$$
+
+#### **Step 2.4: Create Zero Below $R_2$'s Leading 1**
+* **Operation 5:** $R_3 \to R_3 + 2 R_2$
+    $$\begin{pmatrix} 1 & 1/2 & -1/2 & \big| & 1/2 \\ 0 & 1 & 5 & \big| & 17 \\ 0 & 0 & 13 & \big| & 39 \end{pmatrix}$$
+
+#### **Step 2.5: Create Leading 1 in $R_3$**
+* **Operation 6:** $R_3 \to \frac{1}{13} R_3$
+
+**Final Matrix in Row Echelon Form (REF):**
+$$\mathbf{REF} = \begin{pmatrix} 1 & 1/2 & -1/2 & \big| & 1/2 \\ 0 & 1 & 5 & \big| & 17 \\ 0 & 0 & 1 & \big| & 3 \end{pmatrix}$$
+
+---
+
+### **3. Solution by Back-Substitution**
+
+The REF matrix is converted back into a system of equations:
+1.  $x + \frac{1}{2}y - \frac{1}{2}z = \frac{1}{2}$
+2.  $y + 5z = 17$
+3.  $z = 3$
+
+**Step 3.1: Solve for $z$ (from R3)**
+$$z = \mathbf{3}$$
+
+**Step 3.2: Solve for $y$ (from R2)**
+$$y + 5z = 17$$
+$$y + 5(3) = 17$$
+$$y = 17 - 15$$
+$$y = \mathbf{2}$$
+
+**Step 3.3: Solve for $x$ (from R1)**
+$$x + \frac{1}{2}y - \frac{1}{2}z = \frac{1}{2}$$
+$$x + \frac{1}{2}(2) - \frac{1}{2}(3) = \frac{1}{2}$$
+$$x + 1 - \frac{3}{2} = \frac{1}{2}$$
+$$x - \frac{1}{2} = \frac{1}{2}$$
+$$x = \frac{1}{2} + \frac{1}{2}$$
+$$x = \mathbf{1}$$
+
+**Solution:** $(x, y, z) = (1, 2, 3)$
+
+---
+
+### **4. Verification (Check on Original Equations)**
+
+The solution $(1, 2, 3)$ is checked against the original equations:
+
+* **Equation 1:** $2x + y - z = 1$
+    $$2(1) + (2) - (3) = 2 + 2 - 3 = 1 \implies \mathbf{1 = 1} \quad (\text{Correct})$$
+* **Equation 2:** $3x + 2y + z = 10$
+    $$3(1) + 2(2) + (3) = 3 + 4 + 3 = 10 \implies \mathbf{10 = 10} \quad (\text{Correct})$$
+* **Equation 3:** $2x - y + 2z = 6$
+    $$2(1) - (2) + 2(3) = 2 - 2 + 6 = 6 \implies \mathbf{6 = 6} \quad (\text{Correct})$$
