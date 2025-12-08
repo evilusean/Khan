@@ -769,3 +769,31 @@ The primary purpose of an augmented matrix is to **solve a system of linear equa
 * **Solving the System:** The goal is to transform the coefficient side of the matrix into **Row Echelon Form** (Gaussian) or **Reduced Row Echelon Form** (Gauss-Jordan). Once the matrix is in this simplified form, the corresponding system of equations can be solved directly by back-substitution or by reading the solution directly from the matrix.
 
 * **Efficiency:** Working with a matrix is computationally more efficient than repeatedly writing out the variables and equations, especially for computer algorithms.
+### Matrix Row Echelon Form (REF)
+
+**Row Echelon Form (REF)** is a simplified, "stair-step" form that a matrix can be reduced to using **Elementary Row Operations**. It is the first major goal in solving systems of linear equations using techniques like Gaussian Elimination.
+
+---
+
+### **1. Definition: The Three Rules of REF**
+
+A matrix is in Row Echelon Form if it satisfies the following three conditions :
+
+1.  **Zero Rows at the Bottom:** Any row consisting entirely of zeros must be at the bottom of the matrix.
+2.  **Leading Entry is 1:** The **leading entry** (the first non-zero number) in each non-zero row must be a **1**. This leading entry is called the **pivot** or **leading one**.
+3.  **Stair-Step Pattern:** Each leading 1 in a given row must be to the right of the leading 1 in the row above it. (This means all entries directly below a leading 1 must be zero).
+
+| $\begin{pmatrix} \mathbf{1} & 4 & -2 & 5 \\ 0 & \mathbf{1} & 3 & 7 \\ 0 & 0 & 0 & \mathbf{1} \\ 0 & 0 & 0 & 0 \end{pmatrix}$ | **This matrix IS in Row Echelon Form.** |
+| :---: | :---: |
+| $\begin{pmatrix} 1 & 4 & -2 & 5 \\ 0 & 2 & 3 & 7 \\ 0 & 0 & 1 & 1 \end{pmatrix}$ | **This matrix is NOT in REF.** (Leading entry 2 in R2 is not 1). |
+| $\begin{pmatrix} 1 & 4 & -2 & 5 \\ 0 & 0 & \mathbf{1} & 7 \\ 0 & \mathbf{1} & 3 & 1 \end{pmatrix}$ | **This matrix is NOT in REF.** (Leading 1 in R3 is not to the right of R2's leading non-zero entry). |
+
+---
+
+### **2. What REF is Used For**
+
+The primary purpose of reducing a matrix to Row Echelon Form is to:
+
+* **Solve Systems of Linear Equations (Gaussian Elimination):** Once a system's augmented matrix is in REF, the corresponding system of equations can be solved easily using **back-substitution**. The process of achieving REF is called **Gaussian Elimination**.
+* **Determine Rank:** The number of non-zero rows in the REF matrix is equal to the **rank** of the matrix.
+* **Check for Consistency:** By examining the last non-zero row, you can quickly determine if a system has no solutions (inconsistent), a unique solution, or infinitely many solutions. For an augmented matrix, a row that looks like $\begin{pmatrix} 0 & 0 & 0 & \big| & 1 \end{pmatrix}$ means $0 = 1$, which is impossible, so the system has **no solution**.
