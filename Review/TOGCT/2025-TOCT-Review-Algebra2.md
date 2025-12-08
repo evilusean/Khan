@@ -722,3 +722,50 @@ $$\mathbf{AB} = \begin{pmatrix} 21 & 8 & 10 & 25 \\ 42 & -18 & 2 & 40 \end{pmatr
 The multiplication $\mathbf{B} \times \mathbf{A}$ is **undefined** (impossible).
 ## 2025-December-08-TOCT-Gaussian Elimination & Row Echelon Form : 
 https://www.youtube.com/watch?v=eDb6iugi6Uk
+- **Augmented Matrix** : Use a '|' bar to seperate one side from another (like terms in a standard form equation) in a matrix
+### Augmented Matrix: Definition and Application
+
+An **augmented matrix** is a compact way to represent a **system of linear equations** . It is created by combining the **coefficient matrix** (the numbers multiplying the variables) with the **constant matrix** (the numbers on the right side of the equals signs) .
+
+---
+
+### **1. Structure of an Augmented Matrix**
+
+The augmented matrix is formed by placing a vertical line (or sometimes a series of dots) between the coefficient matrix and the constant matrix.
+
+For a general system of equations:
+$$\begin{array}{rcrcrcl} a_{11}x & + & a_{12}y & + & a_{13}z & = & b_1 \\ a_{21}x & + & a_{22}y & + & a_{23}z & = & b_2 \\ a_{31}x & + & a_{32}y & + & a_{33}z & = & b_3 \end{array}$$
+
+The corresponding augmented matrix is:
+$$\begin{pmatrix} a_{11} & a_{12} & a_{13} & \big| & b_1 \\ a_{21} & a_{22} & a_{23} & \big| & b_2 \\ a_{31} & a_{32} & a_{33} & \big| & b_3 \end{pmatrix}$$
+
+---
+
+### **2. Example: Creating an Augmented Matrix**
+
+Consider the following system of linear equations:
+1.  $4x + 2y - 3z = 10$
+2.  $x - 5y + 6z = -2$
+3.  $7y + 5z = 15$
+
+* **Step 1: Identify the Coefficients** (The $a_{i,j}$ values):
+    $$\begin{pmatrix} 4 & 2 & -3 \\ 1 & -5 & 6 \\ 0 & 7 & 5 \end{pmatrix}$$
+    (Note: Since the third equation has no $x$ term, its coefficient is $0$).
+
+* **Step 2: Identify the Constants** (The $b_i$ values):
+    $$\begin{pmatrix} 10 \\ -2 \\ 15 \end{pmatrix}$$
+
+* **Step 3: Combine to Form the Augmented Matrix:**
+    $$\begin{pmatrix} 4 & 2 & -3 & \big| & 10 \\ 1 & -5 & 6 & \big| & -2 \\ 0 & 7 & 5 & \big| & 15 \end{pmatrix}$$
+
+---
+
+### **3. What Augmented Matrices are Used For**
+
+The primary purpose of an augmented matrix is to **solve a system of linear equations**.
+
+* **Gaussian and Gauss-Jordan Elimination:** The matrix is used as the starting point for powerful methods like **Gaussian elimination** and **Gauss-Jordan elimination**. These methods involve performing **Elementary Row Operations** (swapping rows, multiplying a row by a constant, and adding one row to another) on the matrix.
+
+* **Solving the System:** The goal is to transform the coefficient side of the matrix into **Row Echelon Form** (Gaussian) or **Reduced Row Echelon Form** (Gauss-Jordan). Once the matrix is in this simplified form, the corresponding system of equations can be solved directly by back-substitution or by reading the solution directly from the matrix.
+
+* **Efficiency:** Working with a matrix is computationally more efficient than repeatedly writing out the variables and equations, especially for computer algorithms.
