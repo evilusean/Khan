@@ -797,3 +797,34 @@ The primary purpose of reducing a matrix to Row Echelon Form is to:
 * **Solve Systems of Linear Equations (Gaussian Elimination):** Once a system's augmented matrix is in REF, the corresponding system of equations can be solved easily using **back-substitution**. The process of achieving REF is called **Gaussian Elimination**.
 * **Determine Rank:** The number of non-zero rows in the REF matrix is equal to the **rank** of the matrix.
 * **Check for Consistency:** By examining the last non-zero row, you can quickly determine if a system has no solutions (inconsistent), a unique solution, or infinitely many solutions. For an augmented matrix, a row that looks like $\begin{pmatrix} 0 & 0 & 0 & \big| & 1 \end{pmatrix}$ means $0 = 1$, which is impossible, so the system has **no solution**.
+### Matrix Elementary Row Operations (EROs)
+
+**Elementary Row Operations (EROs)** are a set of three specific operations that can be performed on the rows of a matrix. They are the fundamental tools of **Gaussian** and **Gauss-Jordan elimination**, used to transform a matrix into a simplified form (**Row Echelon Form** or **Reduced Row Echelon Form**) without changing the solution set of the underlying system of equations.
+
+---
+
+### **1. The Three Elementary Row Operations**
+
+| Operation | Description | Notation | Example |
+| :--- | :--- | :--- | :--- |
+| **Row Swapping** (Interchange) | Swapping the position of any two rows. | $R_i \leftrightarrow R_j$ | $R_1 \leftrightarrow R_3$ |
+| **Row Scaling** (Multiplication) | Multiplying every entry in a row by a single non-zero constant ($c \neq 0$). | $c R_i \to R_i$ | $\frac{1}{2} R_2 \to R_2$ (Used to create a **leading one** or **pivot**). |
+| **Row Replacement** (Addition/Subtraction) | Replacing one row with the sum of that row and a multiple of another row. | $R_i + c R_j \to R_i$ | $R_3 - 5 R_1 \to R_3$ (Used to create **zeros** above or below a pivot). |
+
+---
+
+### **2. EROs Example**
+
+Here is a short example of using EROs to put a matrix into Row Echelon Form:
+
+**Starting Matrix $\mathbf{A}$:**
+$$\mathbf{A} = \begin{pmatrix} 1 & 3 & 5 \\ 2 & 7 & 11 \\ 0 & 4 & 6 \end{pmatrix}$$
+
+1.  **Operation:** $R_2 - 2 R_1 \to R_2$ (Replaces the 2 in $R_2$ with 0)
+    $$\begin{pmatrix} 1 & 3 & 5 \\ 0 & 1 & 1 \\ 0 & 4 & 6 \end{pmatrix}$$
+
+2.  **Operation:** $R_3 - 4 R_2 \to R_3$ (Replaces the 4 in $R_3$ with 0)
+    $$\begin{pmatrix} 1 & 3 & 5 \\ 0 & 1 & 1 \\ 0 & 0 & 2 \end{pmatrix}$$
+
+3.  **Operation:** $\frac{1}{2} R_3 \to R_3$ (Creates the **leading one** in $R_3$)
+    $$\mathbf{REF} = \begin{pmatrix} 1 & 3 & 5 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{pmatrix}$$
