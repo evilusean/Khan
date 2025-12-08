@@ -90,8 +90,6 @@ Xournal++ = NoteTaking App (works with a stylus/built in latex support/geometry 
 'sudo pacman -S texlive-core' # required to use latex with xournal
 'sudo pacman -S xf86-input-wacom libwacom' # get wacom stylus tablet working with xournalpp
 
-
-
 Engineering Degrees Ranked by Difficulty (Tier List) :
 https://www.youtube.com/watch?v=KIIh7XRDmuQ
 Circuits Finally Made Sense When I Saw This One Diagram (V=IR) (Voltage=Current * Resistance) :
@@ -112,3 +110,9 @@ The Map of Mathematics :
 https://www.youtube.com/watch?v=OmJ-4B-mS-Y
 Animation Vs Math : 
 https://www.youtube.com/watch?v=B1J6Ou4q8vE
+
+ZPE - negative chance of existing - be an optimist positron and not a negatron - does it even matter? anti matter? is it a particle, or a wave? did you look at it? :
+https://www.youtube.com/watch?v=Y-W-w8yNiKU
+https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+https://en.wikipedia.org/wiki/Dirac_equation
+https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat
