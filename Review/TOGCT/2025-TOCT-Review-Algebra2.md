@@ -720,3 +720,4 @@ $$\mathbf{AB} = \begin{pmatrix} 21 & 8 & 10 & 25 \\ 42 & -18 & 2 & 40 \end{pmatr
 #### **Conclusion for $\mathbf{BA}$**
 
 The multiplication $\mathbf{B} \times \mathbf{A}$ is **undefined** (impossible).
+## 2025-December-08-TOCT-Gaussian Elimination & Row Echelon Form : 
