@@ -1196,3 +1196,4 @@ The solution $(6, -1, -2)$ is checked against the original equations:
 * **Equation 3:** $2x + y + z = 9$
     $$2(6) + (-1) + (-2) = 12 - 1 - 2 = 9 \implies \mathbf{9 = 9} \quad (\text{Correct})$$
 ## 2025-December-09 -TOCT-Long Division With Polynomials - The Easy Way! :
+https://www.youtube.com/watch?v=_FSXJmESFmQ
