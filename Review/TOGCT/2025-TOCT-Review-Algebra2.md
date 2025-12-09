@@ -1197,3 +1197,63 @@ The solution $(6, -1, -2)$ is checked against the original equations:
     $$2(6) + (-1) + (-2) = 12 - 1 - 2 = 9 \implies \mathbf{9 = 9} \quad (\text{Correct})$$
 ## 2025-December-09 -TOCT-Long Division With Polynomials - The Easy Way! :
 https://www.youtube.com/watch?v=_FSXJmESFmQ
+## ➗ How to Perform Polynomial Long Division
+
+**Polynomial Long Division** is an algorithm for dividing one polynomial (the **dividend**) by another polynomial of the same or lower degree (the **divisor**). It works exactly like numerical long division, but with variables and exponents.
+
+---
+
+### **1. Setup and Preparation**
+
+#### **1.1 The Formula**
+$$\text{Dividend} \div \text{Divisor} = \text{Quotient} + \frac{\text{Remainder}}{\text{Divisor}}$$
+
+#### **1.2 Standard Form**
+* Arrange both the **dividend** and the **divisor** in **descending order** of exponents.
+
+#### **1.3 Placeholder Zeros**
+* If the dividend is missing any powers of the variable (e.g., it has an $x^3$ and an $x$ but no $x^2$), you **must** use a zero as a placeholder for the missing term.
+    * *Example:* If the dividend is $x^3 + 5x - 8$, write it as $x^3 + \mathbf{0x^2} + 5x - 8$.
+
+#### **1.4 Setup the Division Bar**
+* Place the **divisor** outside the division bar and the **dividend** inside. 
+---
+
+### **2. The Iterative Process (Divide, Multiply, Subtract, Bring Down)**
+
+Repeat these four steps until the degree of the new polynomial at the bottom (the remainder) is less than the degree of the divisor.
+
+#### **Step 1: Divide**
+* Divide the **first term of the dividend** by the **first term of the divisor**.
+* Write the result as the first term of the **quotient** on top.
+
+#### **Step 2: Multiply**
+* Multiply the result from Step 1 (the new quotient term) by the **entire divisor**.
+* Write this resulting polynomial directly underneath the dividend.
+
+#### **Step 3: Subtract**
+* **Subtract** the new polynomial (from Step 2) from the polynomial above it. **(Important: This means changing the sign of every term in the bottom polynomial).**
+* The first term should always cancel out to zero.
+
+#### **Step 4: Bring Down**
+* Bring down the next term from the original dividend.
+* This new expression becomes the new dividend for the next iteration.
+
+---
+
+### **3. Example Walkthrough**
+
+Let's divide $x^2 - 3x - 10$ by $x + 2$.
+
+| Action | Work | Notes |
+| :--- | :--- | :--- |
+| **1. Divide** | $x^2 \div x = x$ | $x$ is the first term of the quotient. |
+| **2. Multiply** | $x(x + 2) = x^2 + 2x$ | Write $x^2 + 2x$ underneath. |
+| **3. Subtract** | $(x^2 - 3x) - (x^2 + 2x) = -5x$ | Subtract the two polynomials. The $x^2$ terms cancel. |
+| **4. Bring Down** | Bring down $-10$. New expression: $-5x - 10$ | Prepare for the next round. |
+| **1. Divide** | $-5x \div x = -5$ | $-5$ is the next term of the quotient. |
+| **2. Multiply** | $-5(x + 2) = -5x - 10$ | Write $-5x - 10$ underneath. |
+| **3. Subtract** | $(-5x - 10) - (-5x - 10) = 0$ | The terms cancel. **Remainder is 0.** |
+
+### **Final Result:**
+$$\frac{x^2 - 3x - 10}{x + 2} = x - 5$$
