@@ -1289,3 +1289,38 @@ Here is the step-by-step polynomial long division of the problem.
 The division results in a quotient of $\mathbf{2x^2 + 12x + 18}$ and a remainder of $\mathbf{46}$.
 
 $$\frac{2x^3 + 8x^2 - 6x + 10}{x-2} = \mathbf{2x^2 + 12x + 18 + \frac{46}{x-2}}$$
+## $\left(6x^4 - 9x^2 + 18\right) \div \left(x-3\right)$
+
+Here is the step-by-step polynomial long division of the problem, ensuring all missing terms are included in the dividend as placeholders.
+
+### **1. Setup (With Placeholders)**
+
+* **Dividend:** $6x^4 + \mathbf{0x^3} - 9x^2 + \mathbf{0x} + 18$
+* **Divisor:** $x - 3$
+
+### **2. Polynomial Long Division Steps**
+
+| Action | Divide/Multiply | Subtraction/Remainder |
+| :--- | :--- | :--- |
+| **Step 1** | **Divide:** $6x^4 \div x = \mathbf{6x^3}$ | |
+| | **Multiply:** $6x^3(x-3) = 6x^4 - 18x^3$ | $\quad 6x^4 + 0x^3 - 9x^2 + 0x + 18$ |
+| | **Subtract:** $(0x^3) - (-18x^3) = 18x^3$ | $ - (6x^4 - 18x^3)$ |
+| | **Bring Down:** Bring down $-9x^2$. | $\quad\overline{ \quad 18x^3 - 9x^2 \quad}$ |
+| **Step 2** | **Divide:** $18x^3 \div x = \mathbf{+18x^2}$ | |
+| | **Multiply:** $18x^2(x-3) = 18x^3 - 54x^2$ | $\quad 18x^3 - 9x^2$ |
+| | **Subtract:** $(-9x^2) - (-54x^2) = 45x^2$ | $ - (18x^3 - 54x^2)$ |
+| | **Bring Down:** Bring down $+0x$. | $\quad\overline{ \quad 45x^2 + 0x \quad}$ |
+| **Step 3** | **Divide:** $45x^2 \div x = \mathbf{+45x}$ | |
+| | **Multiply:** $45x(x-3) = 45x^2 - 135x$ | $\quad 45x^2 + 0x$ |
+| | **Subtract:** $(0x) - (-135x) = 135x$ | $ - (45x^2 - 135x)$ |
+| | **Bring Down:** Bring down $+18$. | $\quad\overline{ \quad 135x + 18 \quad}$ |
+| **Step 4** | **Divide:** $135x \div x = \mathbf{+135}$ | |
+| | **Multiply:** $135(x-3) = 135x - 405$ | $\quad 135x + 18$ |
+| | **Subtract:** $(18) - (-405) = 423$ | $ - (135x - 405)$ |
+| | | $\quad\overline{ \quad 423 \quad}$ |
+
+### **3. Final Result**
+
+The division results in a quotient of $\mathbf{6x^3 + 18x^2 + 45x + 135}$ and a remainder of $\mathbf{423}$.
+
+$$\frac{6x^4 - 9x^2 + 18}{x-3} = \mathbf{6x^3 + 18x^2 + 45x + 135 + \frac{423}{x-3}}$$
