@@ -1000,3 +1000,4 @@ The solution $(1, 2, 3)$ is checked against the original equations:
 * **Equation 3:** $2x - y + 2z = 6$
     $$2(1) - (2) + 2(3) = 2 - 2 + 6 = 6 \implies \mathbf{6 = 6} \quad (\text{Correct})$$
 ## 2025-December-09 -TOCT-Gauss Jordan Elimination & Reduced Row Echelon Form :
+https://www.youtube.com/watch?v=eYSASx8_nyg
