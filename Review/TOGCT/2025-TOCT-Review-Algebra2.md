@@ -1124,3 +1124,74 @@ Gauss-Jordan elimination is not only used to solve systems of equations but also
 * Find the **inverse of a matrix** (by augmenting the original matrix with the Identity matrix).
 * Determine the **rank of a matrix**.
 * Calculate the **determinant** (though it's often faster using Gaussian elimination).
+### 📐 $x + y - z = 7, x - y + 2z = 3, 2x + y + z = 9$ Solved by Gauss-Jordan Elimination
+
+This document solves the linear system from your image using an augmented matrix and the **Gauss-Jordan Elimination** process to achieve **Reduced Row Echelon Form (RREF)**.
+
+**Original System of Equations:**
+$$\begin{aligned} x + y - z &= 7 \\ x - y + 2z &= 3 \\ 2x + y + z &= 9 \end{aligned}$$
+
+---
+
+### **1. Setup: Initial Augmented Matrix**
+
+The coefficients and constants are extracted:
+$$\begin{pmatrix} 1 & 1 & -1 & \big| & 7 \\ 1 & -1 & 2 & \big| & 3 \\ 2 & 1 & 1 & \big| & 9 \end{pmatrix}$$
+
+---
+
+### **2. Step-by-Step Gauss-Jordan Elimination (RREF)**
+
+The goal is to transform the matrix into **Reduced Row Echelon Form (RREF)** where every leading 1 has zeros both above and below it.
+
+#### **Step 2.1: Create Zeros Below $R_1$'s Leading 1**
+* **Operation 1:** $R_2 \to R_2 - R_1$
+    * $R_2$: $(1, -1, 2, 3) - (1, 1, -1, 7) = (0, -2, 3, -4)$
+* **Operation 2:** $R_3 \to R_3 - 2 R_1$
+    * $R_3$: $(2, 1, 1, 9) - 2(1, 1, -1, 7) = (0, -1, 3, -5)$
+    $$\begin{pmatrix} 1 & 1 & -1 & \big| & 7 \\ 0 & -2 & 3 & \big| & -4 \\ 0 & -1 & 3 & \big| & -5 \end{pmatrix}$$
+
+#### **Step 2.2: Create Leading 1 in $R_2$**
+* **Operation 3:** $R_2 \to -\frac{1}{2} R_2$
+    $$\begin{pmatrix} 1 & 1 & -1 & \big| & 7 \\ 0 & 1 & -3/2 & \big| & 2 \\ 0 & -1 & 3 & \big| & -5 \end{pmatrix}$$
+
+#### **Step 2.3: Create Zeros Above and Below $R_2$'s Leading 1**
+* **Operation 4 (Below):** $R_3 \to R_3 + R_2$
+    * $R_3$: $(0, -1, 3, -5) + (0, 1, -3/2, 2) = (0, 0, 3/2, -3)$
+* **Operation 5 (Above):** $R_1 \to R_1 - R_2$
+    * $R_1$: $(1, 1, -1, 7) - (0, 1, -3/2, 2) = (1, 0, 1/2, 5)$
+    $$\begin{pmatrix} 1 & 0 & 1/2 & \big| & 5 \\ 0 & 1 & -3/2 & \big| & 2 \\ 0 & 0 & 3/2 & \big| & -3 \end{pmatrix}$$
+
+#### **Step 2.4: Create Leading 1 in $R_3$**
+* **Operation 6:** $R_3 \to \frac{2}{3} R_3$
+    $$\begin{pmatrix} 1 & 0 & 1/2 & \big| & 5 \\ 0 & 1 & -3/2 & \big| & 2 \\ 0 & 0 & 1 & \big| & -2 \end{pmatrix}$$
+
+#### **Step 2.5: Create Zeros Above $R_3$'s Leading 1 (Final RREF)**
+* **Operation 7:** $R_2 \to R_2 + \frac{3}{2} R_3$
+    * $R_2$: $(0, 1, -3/2, 2) + \frac{3}{2}(0, 0, 1, -2) = (0, 1, 0, 2 - 3) = (0, 1, 0, -1)$
+* **Operation 8:** $R_1 \to R_1 - \frac{1}{2} R_3$
+    * $R_1$: $(1, 0, 1/2, 5) - \frac{1}{2}(0, 0, 1, -2) = (1, 0, 0, 5 + 1) = (1, 0, 0, 6)$
+
+**Final Matrix in Reduced Row Echelon Form (RREF):**
+$$\mathbf{RREF} = \begin{pmatrix} 1 & 0 & 0 & \big| & 6 \\ 0 & 1 & 0 & \big| & -1 \\ 0 & 0 & 1 & \big| & -2 \end{pmatrix}$$
+
+---
+
+### **3. Solution**
+
+The RREF matrix directly yields the solution:
+$$\begin{aligned} x &= 6 \\ y &= -1 \\ z &= -2 \end{aligned}$$
+**Solution:** $(x, y, z) = (6, -1, -2)$
+
+---
+
+### **4. Verification (Check on Original Equations)**
+
+The solution $(6, -1, -2)$ is checked against the original equations:
+
+* **Equation 1:** $x + y - z = 7$
+    $$(6) + (-1) - (-2) = 6 - 1 + 2 = 7 \implies \mathbf{7 = 7} \quad (\text{Correct})$$
+* **Equation 2:** $x - y + 2z = 3$
+    $$(6) - (-1) + 2(-2) = 6 + 1 - 4 = 3 \implies \mathbf{3 = 3} \quad (\text{Correct})$$
+* **Equation 3:** $2x + y + z = 9$
+    $$2(6) + (-1) + (-2) = 12 - 1 - 2 = 9 \implies \mathbf{9 = 9} \quad (\text{Correct})$$
