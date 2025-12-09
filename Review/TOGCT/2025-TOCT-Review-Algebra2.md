@@ -1257,3 +1257,35 @@ Let's divide $x^2 - 3x - 10$ by $x + 2$.
 
 ### **Final Result:**
 $$\frac{x^2 - 3x - 10}{x + 2} = x - 5$$
+## $\left(2x^3 + 8x^2 - 6x + 10\right) \div \left(x-2\right)$
+
+Here is the step-by-step polynomial long division of the problem.
+
+### **1. Setup**
+
+* **Dividend:** $2x^3 + 8x^2 - 6x + 10$
+* **Divisor:** $x - 2$
+
+### **2. Polynomial Long Division Steps**
+
+| Action | Divide/Multiply | Subtraction/Remainder |
+| :--- | :--- | :--- |
+| **Step 1** | **Divide:** $2x^3 \div x = \mathbf{2x^2}$ | |
+| | **Multiply:** $2x^2(x-2) = 2x^3 - 4x^2$ | |
+| | **Subtract:** $(8x^2) - (-4x^2) = 12x^2$ | $\quad 2x^3 + 8x^2 - 6x + 10$ |
+| | **Bring Down:** Bring down $-6x$. | $ - (2x^3 - 4x^2)$ |
+| | | $\quad\overline{ \quad 12x^2 - 6x \quad}$ |
+| **Step 2** | **Divide:** $12x^2 \div x = \mathbf{+12x}$ | |
+| | **Multiply:** $12x(x-2) = 12x^2 - 24x$ | $\quad 12x^2 - 6x$ |
+| | **Subtract:** $(-6x) - (-24x) = 18x$ | $ - (12x^2 - 24x)$ |
+| | **Bring Down:** Bring down $+10$. | $\quad\overline{ \quad 18x + 10 \quad}$ |
+| **Step 3** | **Divide:** $18x \div x = \mathbf{+18}$ | |
+| | **Multiply:** $18(x-2) = 18x - 36$ | $\quad 18x + 10$ |
+| | **Subtract:** $(10) - (-36) = 46$ | $ - (18x - 36)$ |
+| | | $\quad\overline{ \quad 46 \quad}$ |
+
+### **3. Final Result**
+
+The division results in a quotient of $\mathbf{2x^2 + 12x + 18}$ and a remainder of $\mathbf{46}$.
+
+$$\frac{2x^3 + 8x^2 - 6x + 10}{x-2} = \mathbf{2x^2 + 12x + 18 + \frac{46}{x-2}}$$
