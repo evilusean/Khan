@@ -1064,3 +1064,63 @@ When dealing with a square matrix (like a $3 \times 3$ system with a unique solu
 $$
 \mathbf{RREF} = \begin{pmatrix} 1 & 0 & 0 & \big| & x \\ 0 & 1 & 0 & \big| & y \\ 0 & 0 & 1 & \big| & z \end{pmatrix} \quad \text{where } I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}
 $$
+### 💡 Gauss-Jordan Elimination
+
+**Gauss-Jordan Elimination** is an algorithm used to solve systems of linear equations by transforming their augmented matrix into **Reduced Row Echelon Form (RREF)**. Unlike standard Gaussian Elimination, which requires subsequent back-substitution, the Gauss-Jordan method yields the solution directly in the matrix.
+
+---
+
+### **1. The Goal: Reduced Row Echelon Form (RREF)**
+
+The objective of the process is to convert the coefficient part of the augmented matrix into the **Identity Matrix ($I$)** while simultaneously applying the same operations to the solution column.
+
+The RREF matrix must meet these conditions:
+1.  All rows consisting entirely of zeros are at the bottom.
+2.  The first non-zero entry (leading entry or **pivot**) in each non-zero row is **1**.
+3.  Each leading '1' is the only non-zero entry in its column (zeros both above and below).
+
+---
+
+### **2. Elementary Row Operations (EROs)**
+
+Gauss-Jordan Elimination uses three types of operations to transform the matrix:
+1.  **Row Swap:** Interchanging two rows ($R_i \leftrightarrow R_j$).
+2.  **Row Scaling:** Multiplying a row by a non-zero scalar ($k R_i \to R_i$).
+3.  **Row Addition:** Replacing a row with the sum of itself and a multiple of another row ($R_i + k R_j \to R_i$).
+
+---
+
+### **3. Step-by-Step Worked Example**
+
+Let's solve the system: $x + 2y = 10$ and $2x + 5y = 24$.
+
+#### **Step 3.1: Initial Augmented Matrix**
+$$
+\begin{pmatrix} 1 & 2 & \big| & 10 \\ 2 & 5 & \big| & 24 \end{pmatrix}
+$$
+
+#### **Step 3.2: Forward Elimination (Gaussian part)**
+Goal: Create zeros below the main diagonal.
+* **Operation 1:** $R_2 \to R_2 - 2 R_1$
+    $$\begin{pmatrix} 1 & 2 & \big| & 10 \\ 0 & 1 & \big| & 4 \end{pmatrix}$$
+
+#### **Step 3.3: Backward Elimination (Jordan part)**
+Goal: Create zeros above the main diagonal (above the leading 1s).
+* **Operation 2:** $R_1 \to R_1 - 2 R_2$
+    * $R_1$: $(1, 2, 10) - 2(0, 1, 4) = (1, 0, 2)$
+    $$\mathbf{RREF} = \begin{pmatrix} 1 & 0 & \big| & 2 \\ 0 & 1 & \big| & 4 \end{pmatrix}$$
+
+### **4. Solution**
+
+The RREF matrix shows the solution directly:
+$$\begin{aligned} 1x + 0y &= 2 \implies x = 2 \\ 0x + 1y &= 4 \implies y = 4 \end{aligned}$$
+**Solution:** $(x, y) = (2, 4)$
+
+---
+
+### **Extra Note: Applications**
+
+Gauss-Jordan elimination is not only used to solve systems of equations but also to:
+* Find the **inverse of a matrix** (by augmenting the original matrix with the Identity matrix).
+* Determine the **rank of a matrix**.
+* Calculate the **determinant** (though it's often faster using Gaussian elimination).
