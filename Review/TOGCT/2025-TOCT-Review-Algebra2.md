@@ -1001,3 +1001,66 @@ The solution $(1, 2, 3)$ is checked against the original equations:
     $$2(1) - (2) + 2(3) = 2 - 2 + 6 = 6 \implies \mathbf{6 = 6} \quad (\text{Correct})$$
 ## 2025-December-09 -TOCT-Gauss Jordan Elimination & Reduced Row Echelon Form :
 https://www.youtube.com/watch?v=eYSASx8_nyg
+### ✨ Reduced Row Echelon Form (RREF)
+
+**Reduced Row Echelon Form (RREF)** is the final, unique form that any matrix can be transformed into using **Gauss-Jordan Elimination**. This form is primarily used to directly read the solutions of a system of linear equations without needing back-substitution.
+
+---
+
+### **1. Defining Conditions for RREF**
+
+A matrix is in **Reduced Row Echelon Form (RREF)** if it satisfies the following four conditions (which include the conditions for standard Row Echelon Form, REF):
+
+* **Condition 1: Zero Rows at the Bottom**
+    Any rows consisting entirely of zeros must be located at the bottom of the matrix.
+
+* **Condition 2: Leading Entry Movement**
+    The leading entry (the first non-zero number, or **pivot**) in any non-zero row must be to the right of the leading entry in the row above it.
+
+* **Condition 3: Leading Entries are One**
+    Every leading entry (pivot) must be equal to **1**.
+
+* **Condition 4: Zeros Above and Below Leading Entries**
+    Every column containing a leading entry (a '1') must have zeros in **every other position** (both above and below the leading '1').
+
+---
+
+### **2. Key Takeaway: RREF vs. REF**
+
+| Feature | Row Echelon Form (REF) | Reduced Row Echelon Form (RREF) |
+| :--- | :--- | :--- |
+| **Pivots (Leading Entries)** | Must be 1. | Must be 1. |
+| **Below Pivot** | Must be zero. | Must be zero. |
+| **Above Pivot** | Can be any number. | **Must be zero.** |
+| **Method** | Gaussian Elimination | **Gauss-Jordan Elimination** |
+| **Solution Method** | Requires **back-substitution**. | Solution is read **directly** from the matrix. |
+
+---
+
+### **3. Worked Example: Transforming a Matrix to RREF**
+
+We will transform the matrix $A$ into its Reduced Row Echelon Form using Elementary Row Operations (EROs).
+
+$$A = \begin{pmatrix} 1 & 2 & \big| & 10 \\ 2 & 5 & \big| & 24 \end{pmatrix}$$
+
+#### **Step 3.1: Create Zero Below $R_1$'s Pivot (Gaussian Elimination)**
+* **Operation:** $R_2 \to R_2 - 2 R_1$
+    $$\begin{pmatrix} 1 & 2 & \big| & 10 \\ 0 & 1 & \big| & 4 \end{pmatrix}$$
+    *(Matrix is now in **REF**)*
+
+#### **Step 3.2: Create Zero Above $R_2$'s Pivot (Gauss-Jordan Elimination)**
+* **Operation:** $R_1 \to R_1 - 2 R_2$
+    * $R_1$: $(1, 2, 10) - 2(0, 1, 4) = (1, 0, 2)$
+    $$\mathbf{RREF} = \begin{pmatrix} 1 & 0 & \big| & 2 \\ 0 & 1 & \big| & 4 \end{pmatrix}$$
+
+**Conclusion:** The RREF matrix directly yields the solution: $x=2$ and $y=4$.
+
+---
+
+### **Extra Note: Identity Matrix Connection**
+
+When dealing with a square matrix (like a $3 \times 3$ system with a unique solution), the coefficient part of the RREF matrix will always be the **Identity Matrix ($I$)**.
+
+$$
+\mathbf{RREF} = \begin{pmatrix} 1 & 0 & 0 & \big| & x \\ 0 & 1 & 0 & \big| & y \\ 0 & 0 & 1 & \big| & z \end{pmatrix} \quad \text{where } I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}
+$$
