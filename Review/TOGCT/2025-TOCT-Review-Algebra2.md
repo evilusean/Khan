@@ -1197,7 +1197,7 @@ The solution $(6, -1, -2)$ is checked against the original equations:
     $$2(6) + (-1) + (-2) = 12 - 1 - 2 = 9 \implies \mathbf{9 = 9} \quad (\text{Correct})$$
 ## 2025-December-09 -TOCT-Long Division With Polynomials - The Easy Way! :
 https://www.youtube.com/watch?v=_FSXJmESFmQ
-## ➗ How to Perform Polynomial Long Division
+### ➗ How to Perform Polynomial Long Division
 
 **Polynomial Long Division** is an algorithm for dividing one polynomial (the **dividend**) by another polynomial of the same or lower degree (the **divisor**). It works exactly like numerical long division, but with variables and exponents.
 
@@ -1257,7 +1257,7 @@ Let's divide $x^2 - 3x - 10$ by $x + 2$.
 
 ### **Final Result:**
 $$\frac{x^2 - 3x - 10}{x + 2} = x - 5$$
-## $\left(2x^3 + 8x^2 - 6x + 10\right) \div \left(x-2\right)$
+### $\left(2x^3 + 8x^2 - 6x + 10\right) \div \left(x-2\right)$
 
 Here is the step-by-step polynomial long division of the problem.
 
@@ -1289,7 +1289,7 @@ Here is the step-by-step polynomial long division of the problem.
 The division results in a quotient of $\mathbf{2x^2 + 12x + 18}$ and a remainder of $\mathbf{46}$.
 
 $$\frac{2x^3 + 8x^2 - 6x + 10}{x-2} = \mathbf{2x^2 + 12x + 18 + \frac{46}{x-2}}$$
-## $\left(6x^4 - 9x^2 + 18\right) \div \left(x-3\right)$
+### $\left(6x^4 - 9x^2 + 18\right) \div \left(x-3\right)$
 
 Here is the step-by-step polynomial long division of the problem, ensuring all missing terms are included in the dividend as placeholders.
 
@@ -1324,3 +1324,4 @@ Here is the step-by-step polynomial long division of the problem, ensuring all m
 The division results in a quotient of $\mathbf{6x^3 + 18x^2 + 45x + 135}$ and a remainder of $\mathbf{423}$.
 
 $$\frac{6x^4 - 9x^2 + 18}{x-3} = \mathbf{6x^3 + 18x^2 + 45x + 135 + \frac{423}{x-3}}$$
+## 2025-December-09-TOCT-Factoring Polynomials - By GCF, AC Method, Grouping, Substitution, Sum & Difference of Cubes :
