@@ -28,7 +28,7 @@ Practice Set Notation + Set Builder Notation
 
 - [x] Solving Linear Systems in three Variables using Matrix Methods (Reduced Row Echelon Form)
 
-Polynomial Long Division
+- [x] Polynomial Long Division
 
 Factoring By Grouping With a leading coefficient of 1
 
