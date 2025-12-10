@@ -18,3 +18,6 @@ https://www.desmos.com/calculator
 
 Free Textbooks for many subjects :
 https://openstax.org/
+
+Tate explains matrices in 90 seconds, lol, lmao :
+https://www.youtube.com/watch?v=OFfEAs2rRAg
