@@ -1414,3 +1414,95 @@ $$\mathbf{(x^2 + 4)(x^2 + 3)}$$
 Neither of the resulting factors, $x^2 + 4$ or $x^2 + 3$, can be factored further using real numbers (since they are sums of squares).
 
 $$\mathbf{x^4 + 7x^2 + 12 = (x^2 + 4)(x^2 + 3)}$$
+### Factoring $-2x^6 + 6x^3 + 56$ using Substitution
+
+This polynomial is in quadratic form since the highest degree term ($x^6$) has a power twice that of the middle term ($x^3$).
+
+#### **1. Factor out the GCF**
+
+First, factor out the Greatest Common Factor (GCF), which is $-2$:
+
+$$\mathbf{-2(x^6 - 3x^3 - 28)}$$
+
+#### **2. Define the Substitution**
+
+Focusing on the trinomial inside the parentheses, the base term is $x^3$.
+
+Let $\mathbf{u = x^3}$.
+This implies $\mathbf{u^2 = x^6}$.
+
+#### **3. Substitute and Factor**
+
+Substitute $u$ into the trinomial:
+
+$$x^6 - 3x^3 - 28 \quad \rightarrow \quad \mathbf{u^2 - 3u - 28}$$
+
+Now, factor the simple quadratic in terms of $u$: We look for two numbers that multiply to $-28$ and add up to $-3$ (which are $-7$ and $4$).
+
+$$\mathbf{u^2 - 3u - 28 = (u - 7)(u + 4)}$$
+
+#### **4. Reverse the Substitution (Back-Substitute)**
+
+Replace $u$ with $x^3$ in the factored form:
+
+$$\mathbf{(x^3 - 7)(x^3 + 4)}$$
+
+#### **5. Final Answer**
+
+Re-introduce the GCF from Step 1 to write the final factored form:
+
+$$\mathbf{-2x^6 + 6x^3 + 56 = -2(x^3 - 7)(x^3 + 4)}$$
+### Factoring and Solving $x^{-2}+13x^{-1}+40=0$ using Substitution
+
+This is an equation in quadratic form, where the highest power of the variable ($x^{-2}$) is double the power of the middle term ($x^{-1}$).
+
+#### **1. Define the Substitution**
+
+The base term is $x^{-1}$.
+
+Let $\mathbf{u = x^{-1}}$.
+This implies $\mathbf{u^2 = (x^{-1})^2 = x^{-2}}$.
+
+#### **2. Substitute and Factor**
+
+Substitute $u$ into the equation:
+
+$$x^{-2}+13x^{-1}+40=0 \quad \rightarrow \quad \mathbf{u^2 + 13u + 40 = 0}$$
+
+Factor the simple quadratic in terms of $u$: We look for two numbers that multiply to 40 and add up to 13 (which are 8 and 5).
+
+$$\mathbf{(u + 8)(u + 5) = 0}$$
+
+#### **3. Reverse the Substitution (Back-Substitute) and Solve**
+
+Replace $u$ with $x^{-1}$:
+
+$$\mathbf{(x^{-1} + 8)(x^{-1} + 5) = 0}$$
+
+Set each factor equal to zero to solve for $x^{-1}$:
+
+* **Case 1:**
+    $$x^{-1} + 8 = 0$$
+    $$x^{-1} = -8$$
+    $$\frac{1}{x} = -8$$
+    $$x = \mathbf{-\frac{1}{8}}$$
+
+* **Case 2:**
+    $$x^{-1} + 5 = 0$$
+    $$x^{-1} = -5$$
+    $$\frac{1}{x} = -5$$
+    $$x = \mathbf{-\frac{1}{5}}$$
+
+#### **4. Factored Form of the Expression**
+
+To write the factored form of the original expression $\mathbf{x^{-2}+13x^{-1}+40}$, first combine the terms inside the parentheses in Step 3 over a common denominator:
+
+$$(x^{-1} + 8)(x^{-1} + 5) = \left(\frac{1}{x} + 8\right)\left(\frac{1}{x} + 5\right)$$
+
+$$= \left(\frac{1 + 8x}{x}\right)\left(\frac{1 + 5x}{x}\right)$$
+
+$$= \mathbf{\frac{1}{x^2}(1 + 8x)(1 + 5x)}$$
+
+#### **Final Solutions**
+
+The solutions to the equation $x^{-2}+13x^{-1}+40=0$ are $\mathbf{x = -\frac{1}{8}}$ and $\mathbf{x = -\frac{1}{5}}$.
