@@ -1325,3 +1325,4 @@ The division results in a quotient of $\mathbf{6x^3 + 18x^2 + 45x + 135}$ and a 
 
 $$\frac{6x^4 - 9x^2 + 18}{x-3} = \mathbf{6x^3 + 18x^2 + 45x + 135 + \frac{423}{x-3}}$$
 ## 2025-December-09-TOCT-Factoring Polynomials - By GCF, AC Method, Grouping, Substitution, Sum & Difference of Cubes :
+https://www.youtube.com/watch?v=mXvt9OumKH8
