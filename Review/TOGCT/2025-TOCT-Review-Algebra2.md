@@ -1326,3 +1326,60 @@ The division results in a quotient of $\mathbf{6x^3 + 18x^2 + 45x + 135}$ and a 
 $$\frac{6x^4 - 9x^2 + 18}{x-3} = \mathbf{6x^3 + 18x^2 + 45x + 135 + \frac{423}{x-3}}$$
 ## 2025-December-09-TOCT-Factoring Polynomials - By GCF, AC Method, Grouping, Substitution, Sum & Difference of Cubes :
 https://www.youtube.com/watch?v=mXvt9OumKH8
+### Explaining Substitution to Factor Polynomials
+
+Substitution is a powerful technique used to simplify complex polynomial expressions, making them easier to factor. This method works best for polynomials that are in **quadratic form**, which means the powers of the variable follow a 2-to-1 ratio (e.g., $x^4, x^2$, or $x^6, x^3$).
+
+#### **The General Process**
+
+The goal is to turn a polynomial like $ax^{2n} + bx^n + c$ into the simple quadratic form $au^2 + bu + c$ using a substitution.
+
+1.  **Identify the Base Term ($x^n$):** Look for a variable term in the middle of the polynomial that, when squared, equals the highest-degree term. This term is your substitution value, $u$.
+    * If the expression is $x^4 - 5x^2 + 6$, the base term is $x^2$.
+2.  **Define the Substitution:** Set a new variable, typically $u$, equal to the base term.
+    * $u = x^2$
+    * This also means $u^2 = (x^2)^2 = x^4$.
+3.  **Substitute:** Rewrite the entire polynomial using the new variable $u$.
+    * $x^4 - 5x^2 + 6$ becomes $u^2 - 5u + 6$.
+4.  **Factor the Quadratic:** Factor the simplified quadratic expression in terms of $u$.
+    * $u^2 - 5u + 6 = (u - 3)(u - 2)$
+5.  **Reverse the Substitution (Back-Substitute):** Replace $u$ with the original expression ($x^n$).
+    * $(u - 3)(u - 2)$ becomes $(x^2 - 3)(x^2 - 2)$.
+6.  **Check for Further Factoring:** Examine the resulting factors to see if any can be factored further (e.g., using the Difference of Squares formula, $a^2 - b^2 = (a-b)(a+b)$).
+    * In this example, $x^2 - 3$ and $x^2 - 2$ cannot be factored further using integer coefficients.
+
+#### **Fully Worked Example**
+
+Let's factor the polynomial $\mathbf{3x^6 + 15x^3 + 18}$.
+
+#### **Step 1: Identify the Base Term**
+
+The powers are $x^6$ and $x^3$. Since $(x^3)^2 = x^6$, the base term is $x^3$.
+
+#### **Step 2: Define the Substitution**
+
+Set $u = x^3$.
+This implies $u^2 = x^6$.
+
+#### **Step 3: Substitute**
+
+Substitute $u$ into the polynomial:
+$$3x^6 + 15x^3 + 18 \quad \rightarrow \quad \mathbf{3u^2 + 15u + 18}$$
+
+#### **Step 4: Factor the Quadratic**
+
+First, factor out the GCF (Greatest Common Factor) of 3:
+$$3u^2 + 15u + 18 = 3(u^2 + 5u + 6)$$
+Now, factor the trinomial:
+$$3(u^2 + 5u + 6) = \mathbf{3(u + 2)(u + 3)}$$
+
+#### **Step 5: Reverse the Substitution (Back-Substitute)**
+
+Replace $u$ with $x^3$:
+$$\mathbf{3(x^3 + 2)(x^3 + 3)}$$
+
+#### **Step 6: Final Answer**
+
+The final factored form is $3(x^3 + 2)(x^3 + 3)$. (These cubic factors cannot be factored further).
+
+$$3x^6 + 15x^3 + 18 = \mathbf{3(x^3 + 2)(x^3 + 3)}$$
