@@ -1383,3 +1383,34 @@ $$\mathbf{3(x^3 + 2)(x^3 + 3)}$$
 The final factored form is $3(x^3 + 2)(x^3 + 3)$. (These cubic factors cannot be factored further).
 
 $$3x^6 + 15x^3 + 18 = \mathbf{3(x^3 + 2)(x^3 + 3)}$$
+### Factoring $x^4 + 7x^2 + 12$ using Substitution
+
+This polynomial is in quadratic form since the highest degree term ($x^4$) has a power twice that of the middle term ($x^2$). We can use substitution to simplify the factoring process.
+
+#### **1. Define the Substitution**
+
+The base term is $x^2$.
+Let $\mathbf{u = x^2}$.
+This implies $\mathbf{u^2 = x^4}$.
+
+#### **2. Substitute and Factor**
+
+Substitute $u$ into the original polynomial:
+
+$$x^4 + 7x^2 + 12 \quad \rightarrow \quad \mathbf{u^2 + 7u + 12}$$
+
+Now, factor the simple quadratic in terms of $u$: We look for two numbers that multiply to 12 and add up to 7 (which are 4 and 3).
+
+$$\mathbf{u^2 + 7u + 12 = (u + 4)(u + 3)}$$
+
+#### **3. Reverse the Substitution (Back-Substitute)**
+
+Replace $u$ with $x^2$:
+
+$$\mathbf{(x^2 + 4)(x^2 + 3)}$$
+
+#### **4. Final Check**
+
+Neither of the resulting factors, $x^2 + 4$ or $x^2 + 3$, can be factored further using real numbers (since they are sums of squares).
+
+$$\mathbf{x^4 + 7x^2 + 12 = (x^2 + 4)(x^2 + 3)}$$
