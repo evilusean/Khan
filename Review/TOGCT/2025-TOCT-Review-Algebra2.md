@@ -1776,3 +1776,39 @@ $$(x - i\sqrt{3})(x + i\sqrt{3})$$
 The fully factored form is:
 
 $$\mathbf{x^2 + 3 = (x - i\sqrt{3})(x + i\sqrt{3})}$$
+### Factoring $x^3 - 2x^2 - 5x + 6$ (Using Synthetic Division)
+
+To factor this cubic polynomial, we use the Rational Root Theorem to find a potential rational root, then use synthetic division to reduce the polynomial.
+
+The fully factored form is: $\mathbf{(x - 1)(x + 2)(x - 3)}$.
+
+#### **1. Find a Root**
+
+Test $x=1$ in the polynomial $P(x) = x^3 - 2x^2 - 5x + 6$:
+$$P(1) = (1)^3 - 2(1)^2 - 5(1) + 6$$
+$$P(1) = 1 - 2 - 5 + 6 = 0$$
+Since $P(1) = 0$, $x=1$ is a root, and $(x - 1)$ is a factor.
+
+#### **2. Perform Synthetic Division**
+
+Use synthetic division with the root $x=1$ and the coefficients (1, -2, -5, 6):
+$$
+\begin{array}{c|cccc}
+1 & 1 & -2 & -5 & 6 \\
+& & 1 & -1 & -6 \\
+\hline
+& 1 & -1 & -6 & 0 \\
+\end{array}
+$$
+The resulting quadratic is: $\mathbf{x^2 - x - 6}$.
+
+#### **3. Factor the Quadratic Remainder**
+
+Factor $x^2 - x - 6$ (numbers that multiply to -6 and add to -1 are -3 and 2):
+$$x^2 - x - 6 = \mathbf{(x - 3)(x + 2)}$$
+
+#### **4. Final Factored Form**
+
+Combine the factor from the root $(x - 1)$ with the factored quadratic:
+
+$$\mathbf{x^3 - 2x^2 - 5x + 6 = (x - 1)(x + 2)(x - 3)}$$
