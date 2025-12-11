@@ -1697,3 +1697,31 @@ The fully factored form is:
 $$\mathbf{4x^3 - 8x^2 + 3x - 6 = (4x^2 + 3)(x - 2)}$$
 
 *Note: $4x^2 + 3$ cannot be factored further.*
+### Factoring $x^2 + 4$ (Using Imaginary Numbers)
+
+This is a sum of two squares, which cannot be factored using real numbers. We factor it using the **Difference of Squares** formula by introducing the imaginary unit $i$, where $i^2 = -1$:
+
+$$\mathbf{a^2 - b^2 = (a - b)(a + b)}$$
+
+#### **1. Rewrite the Sum of Squares as a Difference of Squares**
+
+We rewrite the expression using $i^2 = -1$:
+$$x^2 + 4 = x^2 - (-4)$$
+$$x^2 - 4(-1) = x^2 - 4i^2$$
+
+#### **2. Identify 'a' and 'b'**
+
+The expression $x^2 - 4i^2$ is now a difference of squares:
+* $a = \sqrt{x^2} = \mathbf{x}$
+* $b = \sqrt{4i^2} = \mathbf{2i}$
+
+#### **3. Apply the Difference of Squares Formula**
+
+Substitute $a$ and $b$ into the formula $(a - b)(a + b)$:
+$$(x - 2i)(x + 2i)$$
+
+#### **4. Final Factored Form**
+
+The fully factored form using imaginary numbers is:
+
+$$\mathbf{x^2 + 4 = (x - 2i)(x + 2i)}$$
