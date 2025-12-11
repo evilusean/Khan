@@ -1812,3 +1812,46 @@ $$x^2 - x - 6 = \mathbf{(x - 3)(x + 2)}$$
 Combine the factor from the root $(x - 1)$ with the factored quadratic:
 
 $$\mathbf{x^3 - 2x^2 - 5x + 6 = (x - 1)(x + 2)(x - 3)}$$
+### Factoring $x^4 + 2x^3 + x^2 + 8x - 12$ (Using Synthetic Division)
+
+To factor this quartic polynomial, we use synthetic division twice to reduce it to a quadratic.
+
+The final factored form is: $\mathbf{(x - 1)(x + 3)(x^2 + 4)}$.
+
+#### **1. Find the First Root and Divide**
+
+* Test $x=1$: $P(1) = (1)^4 + 2(1)^3 + (1)^2 + 8(1) - 12 = 12 - 12 = 0$. $\mathbf{(x - 1)}$ is a factor.
+* Synthetic Division with $x=1$ (Coefficients: 1, 2, 1, 8, -12):
+$$
+\begin{array}{c|ccccc}
+1 & 1 & 2 & 1 & 8 & -12 \\
+& & 1 & 3 & 4 & 12 \\
+\hline
+& 1 & 3 & 4 & 12 & 0 \\
+\end{array}
+$$
+The remainder is $\mathbf{x^3 + 3x^2 + 4x + 12}$.
+
+#### **2. Find the Second Root and Divide**
+
+* Test $x=-3$ on the cubic remainder: $Q(-3) = (-3)^3 + 3(-3)^2 + 4(-3) + 12 = -27 + 27 - 12 + 12 = 0$. $\mathbf{(x + 3)}$ is a factor.
+* Synthetic Division with $x=-3$ (Coefficients: 1, 3, 4, 12):
+$$
+\begin{array}{c|cccc}
+-3 & 1 & 3 & 4 & 12 \\
+& & -3 & 0 & -12 \\
+\hline
+& 1 & 0 & 4 & 0 \\
+\end{array}
+$$
+The quadratic remainder is: $\mathbf{x^2 + 4}$.
+
+#### **3. Factor the Quadratic Remainder**
+
+The remaining factor is $x^2 + 4$. This is a sum of squares and cannot be factored over real numbers.
+
+#### **4. Final Factored Form**
+
+Combine all factors:
+
+$$\mathbf{x^4 + 2x^3 + x^2 + 8x - 12 = (x - 1)(x + 3)(x^2 + 4)}$$
