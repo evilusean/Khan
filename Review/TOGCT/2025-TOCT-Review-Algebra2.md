@@ -1539,3 +1539,33 @@ Here is the general method for factoring any sum or difference of cubes, demonst
 #### **Extra Notes**
 
 The trinomial factor $\mathbf{(a^2 \mp ab + b^2)}$ can never be factored further using real numbers.
+### Factoring $x^3 + 8$ (Sum of Cubes)
+
+This is a sum of two perfect cubes: $x^3$ and $8$ ($2^3$). The formula for the sum of cubes is:
+
+$$\mathbf{a^3 + b^3 = (a + b)(a^2 - ab + b^2)}$$
+
+#### **1. Identify 'a' and 'b'**
+
+Find the cube root of each term:
+* $a = \sqrt[3]{x^3} = \mathbf{x}$
+* $b = \sqrt[3]{8} = \mathbf{2}$
+
+#### **2. Form the Binomial $(\mathbf{a + b})$**
+
+The binomial uses the same sign as the original expression:
+
+$$\mathbf{(x + 2)}$$
+
+#### **3. Form the Trinomial $(\mathbf{a^2 - ab + b^2})$**
+
+The three terms in the trinomial are:
+1.  First term squared: $a^2 = (x)^2 = \mathbf{x^2}$
+2.  Product of the two terms (with opposite sign): $-ab = -(x)(2) = \mathbf{-2x}$
+3.  Second term squared (always positive): $b^2 = (2)^2 = \mathbf{+4}$
+
+#### **4. Final Factored Form**
+
+Combine the binomial and the trinomial:
+
+$$\mathbf{x^3 + 8 = (x + 2)(x^2 - 2x + 4)}$$
