@@ -1663,3 +1663,37 @@ The fully factored form is:
 $$\mathbf{x^3 + 2x^2 - 5x - 10 = (x^2 - 5)(x + 2)}$$
 
 *Note: $x^2 - 5$ cannot be factored further as 5 is not a perfect square.*
+### Factoring $4x^3 - 8x^2 + 3x - 6$ (By Grouping)
+
+This is a four-term polynomial that should be factored by **grouping** the first two terms and the last two terms.
+
+#### **1. Group Terms**
+
+Group the first two terms and the last two terms:
+
+$$(4x^3 - 8x^2) + (3x - 6)$$
+
+#### **2. Factor the GCF from Each Group**
+
+Find the Greatest Common Factor (GCF) for each group and factor it out:
+* **From the first group** $(4x^3 - 8x^2)$, the GCF is $4x^2$:
+    $$4x^2(x - 2)$$
+* **From the second group** $(3x - 6)$, the GCF is $3$:
+    $$+3(x - 2)$$
+
+The expression now is:
+$$4x^2(x - 2) + 3(x - 2)$$
+
+#### **3. Factor out the Common Binomial**
+
+Factor out the common binomial factor $(x - 2)$:
+
+$$(4x^2 + 3)(x - 2)$$
+
+#### **4. Final Factored Form**
+
+The fully factored form is:
+
+$$\mathbf{4x^3 - 8x^2 + 3x - 6 = (4x^2 + 3)(x - 2)}$$
+
+*Note: $4x^2 + 3$ cannot be factored further.*
