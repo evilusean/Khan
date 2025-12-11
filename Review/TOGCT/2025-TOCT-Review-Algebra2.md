@@ -1599,3 +1599,33 @@ The three terms in the trinomial are:
 Combine the binomial and the trinomial:
 
 $$\mathbf{y^3 - 125 = (y - 5)(y^2 + 5y + 25)}$$
+### Factoring $27x^3 + 64y^6$ (Sum of Cubes)
+
+This is a sum of two perfect cubes: $27x^3$ and $64y^6$. The formula for the sum of cubes is:
+
+$$\mathbf{a^3 + b^3 = (a + b)(a^2 - ab + b^2)}$$
+
+#### **1. Identify 'a' and 'b'**
+
+Find the cube root of each term:
+* $a = \sqrt[3]{27x^3} = \mathbf{3x}$
+* $b = \sqrt[3]{64y^6} = \mathbf{4y^2}$
+
+#### **2. Form the Binomial $(\mathbf{a + b})$**
+
+The binomial uses the same sign as the original expression:
+
+$$\mathbf{(3x + 4y^2)}$$
+
+#### **3. Form the Trinomial $(\mathbf{a^2 - ab + b^2})$**
+
+The three terms in the trinomial are:
+1.  First term squared: $a^2 = (3x)^2 = \mathbf{9x^2}$
+2.  Product of the two terms (with opposite sign): $-ab = -(3x)(4y^2) = \mathbf{-12xy^2}$
+3.  Second term squared (always positive): $b^2 = (4y^2)^2 = \mathbf{16y^4}$
+
+#### **4. Final Factored Form**
+
+Combine the binomial and the trinomial:
+
+$$\mathbf{27x^3 + 64y^6 = (3x + 4y^2)(9x^2 - 12xy^2 + 16y^4)}$$
