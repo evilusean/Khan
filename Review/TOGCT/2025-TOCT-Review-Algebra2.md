@@ -1725,3 +1725,54 @@ $$(x - 2i)(x + 2i)$$
 The fully factored form using imaginary numbers is:
 
 $$\mathbf{x^2 + 4 = (x - 2i)(x + 2i)}$$
+### Factoring $x^2 - 3$ (Using Difference of Squares)
+
+This expression is a **Difference of Squares**, $\mathbf{a^2 - b^2}$, which can be factored as $\mathbf{(a - b)(a + b)}$. We apply the formula by recognizing that $3 = (\sqrt{3})^2$.
+
+The formula is:
+$$\mathbf{a^2 - b^2 = (a - b)(a + b)}$$
+
+#### **1. Identify 'a' and 'b'**
+
+Find the square root of each term:
+* $a^2 = x^2 \implies a = \mathbf{x}$
+* $b^2 = 3 \implies b = \mathbf{\sqrt{3}}$
+
+#### **2. Apply the Difference of Squares Formula**
+
+Substitute $a$ and $b$ into the formula $(a - b)(a + b)$:
+$$(x - \sqrt{3})(x + \sqrt{3})$$
+
+#### **3. Final Factored Form**
+
+The fully factored form using the radical $\sqrt{3}$ is:
+
+$$\mathbf{x^2 - 3 = (x - \sqrt{3})(x + \sqrt{3})}$$
+### Factoring $x^2 + 3$ (Using Imaginary Numbers and Radicals)
+
+This is a **Sum of Squares**, which cannot be factored using real numbers. We factor it using the **Difference of Squares** formula by introducing the imaginary unit $i$, where $i^2 = -1$:
+
+$$\mathbf{a^2 - b^2 = (a - b)(a + b)}$$
+
+#### **1. Rewrite the Sum of Squares as a Difference of Squares**
+
+We rewrite the expression using $i^2 = -1$:
+$$x^2 + 3 = x^2 - (-3)$$
+$$x^2 - 3(-1) = x^2 - 3i^2$$
+
+#### **2. Identify 'a' and 'b'**
+
+The expression $x^2 - 3i^2$ is now a difference of squares:
+* $a = \sqrt{x^2} = \mathbf{x}$
+* $b = \sqrt{3i^2} = \mathbf{i\sqrt{3}}$
+
+#### **3. Apply the Difference of Squares Formula**
+
+Substitute $a$ and $b$ into the formula $(a - b)(a + b)$:
+$$(x - i\sqrt{3})(x + i\sqrt{3})$$
+
+#### **4. Final Factored Form**
+
+The fully factored form is:
+
+$$\mathbf{x^2 + 3 = (x - i\sqrt{3})(x + i\sqrt{3})}$$
