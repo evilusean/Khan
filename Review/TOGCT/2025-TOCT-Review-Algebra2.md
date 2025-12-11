@@ -1629,3 +1629,37 @@ The three terms in the trinomial are:
 Combine the binomial and the trinomial:
 
 $$\mathbf{27x^3 + 64y^6 = (3x + 4y^2)(9x^2 - 12xy^2 + 16y^4)}$$
+### Factoring $x^3 + 2x^2 - 5x - 10$ (By Grouping)
+
+This is a four-term polynomial that should be factored by **grouping** the first two terms and the last two terms.
+
+#### **1. Group Terms**
+
+Group the first two terms and the last two terms, keeping the negative sign with the third term:
+
+$$(x^3 + 2x^2) + (-5x - 10)$$
+
+#### **2. Factor the GCF from Each Group**
+
+Find the Greatest Common Factor (GCF) for each group and factor it out:
+* **From the first group** $(x^3 + 2x^2)$, the GCF is $x^2$:
+    $$x^2(x + 2)$$
+* **From the second group** $(-5x - 10)$, the GCF is $-5$:
+    $$-5(x + 2)$$
+
+The expression now is:
+$$x^2(x + 2) - 5(x + 2)$$
+
+#### **3. Factor out the Common Binomial**
+
+Factor out the common binomial factor $(x + 2)$:
+
+$$(x^2 - 5)(x + 2)$$
+
+#### **4. Final Factored Form**
+
+The fully factored form is:
+
+$$\mathbf{x^3 + 2x^2 - 5x - 10 = (x^2 - 5)(x + 2)}$$
+
+*Note: $x^2 - 5$ cannot be factored further as 5 is not a perfect square.*
