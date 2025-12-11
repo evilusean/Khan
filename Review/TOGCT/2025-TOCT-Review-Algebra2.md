@@ -1569,3 +1569,33 @@ The three terms in the trinomial are:
 Combine the binomial and the trinomial:
 
 $$\mathbf{x^3 + 8 = (x + 2)(x^2 - 2x + 4)}$$
+### Factoring $y^3 - 125$ (Difference of Cubes)
+
+This is a difference of two perfect cubes: $y^3$ and $125$ ($5^3$). The formula for the difference of cubes is:
+
+$$\mathbf{a^3 - b^3 = (a - b)(a^2 + ab + b^2)}$$
+
+#### **1. Identify 'a' and 'b'**
+
+Find the cube root of each term:
+* $a = \sqrt[3]{y^3} = \mathbf{y}$
+* $b = \sqrt[3]{125} = \mathbf{5}$
+
+#### **2. Form the Binomial $(\mathbf{a - b})$**
+
+The binomial uses the same sign as the original expression:
+
+$$\mathbf{(y - 5)}$$
+
+#### **3. Form the Trinomial $(\mathbf{a^2 + ab + b^2})$**
+
+The three terms in the trinomial are:
+1.  First term squared: $a^2 = (y)^2 = \mathbf{y^2}$
+2.  Product of the two terms (with opposite sign): $ab = (y)(5) = \mathbf{+5y}$
+3.  Second term squared (always positive): $b^2 = (5)^2 = \mathbf{+25}$
+
+#### **4. Final Factored Form**
+
+Combine the binomial and the trinomial:
+
+$$\mathbf{y^3 - 125 = (y - 5)(y^2 + 5y + 25)}$$
