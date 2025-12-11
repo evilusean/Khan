@@ -1506,3 +1506,36 @@ $$= \mathbf{\frac{1}{x^2}(1 + 8x)(1 + 5x)}$$
 #### **Final Solutions**
 
 The solutions to the equation $x^{-2}+13x^{-1}+40=0$ are $\mathbf{x = -\frac{1}{8}}$ and $\mathbf{x = -\frac{1}{5}}$.
+### Sum and Difference of Perfect Cubes
+
+The sum and difference of two perfect cubes are special factoring patterns. The result is always a binomial times a trinomial.
+
+#### **The Formulas**
+
+The formulas for factoring the sum and difference of cubes are:
+
+| Pattern | Formula | Acronym |
+| :--- | :--- | :--- |
+| **Sum of Cubes** | $\mathbf{a^3 + b^3 = (a + b)(a^2 - ab + b^2)}$ | **S O P S O P** |
+| **Difference of Cubes** | $\mathbf{a^3 - b^3 = (a - b)(a^2 + ab + b^2)}$ | |
+
+The acronym **S O P S O P** (or SOAP) is a helpful way to remember the signs in the factored form:
+
+* **S**ame: The sign in the binomial $(a \pm b)$ is the same as the sign in the original expression.
+* **O**pposite: The sign of the middle term in the trinomial ($a^2 \mp ab + b^2$) is the opposite of the original sign.
+* **P**ositive: The sign of the last term in the trinomial ($a^2 \mp ab \mathbf{+ b^2}$) is always positive.
+
+#### **Step-by-Step Factoring Method**
+
+Here is the general method for factoring any sum or difference of cubes, demonstrated with an example for each.
+
+| Step | Sum of Cubes Example: $\mathbf{8x^3 + 27}$ | Difference of Cubes Example: $\mathbf{y^3 - 64}$ |
+| :--- | :--- | :--- |
+| **A. Identify 'a' and 'b'** Find the cube root of the first term ($a$) and the cube root of the second term ($b$). | $a = \sqrt[3]{8x^3} = \mathbf{2x}$<br>$b = \sqrt[3]{27} = \mathbf{3}$ | $a = \sqrt[3]{y^3} = \mathbf{y}$<br>$b = \sqrt[3]{64} = \mathbf{4}$ |
+| **B. Form the Binomial (a $\mathbf{\pm}$ b)** The binomial uses the same sign as the original expression (S-ame). | $(\mathbf{2x + 3})$ | $(\mathbf{y - 4})$ |
+| **C. Form the Trinomial ($a^2 \mp ab + b^2$)** The three terms are: <br>1. First term squared ($a^2$) <br>2. Product of the two terms ($ab$) <br>3. Second term squared ($b^2$) | 1. $(2x)^2 = \mathbf{4x^2}$<br>2. $2x \cdot 3 = \mathbf{6x}$<br>3. $(3)^2 = \mathbf{9}$ | 1. $(y)^2 = \mathbf{y^2}$<br>2. $y \cdot 4 = \mathbf{4y}$<br>3. $(4)^2 = \mathbf{16}$ |
+| **D. Apply the Signs (S O P)** Combine the terms, using the **S**ame, **O**pposite, **P**ositive sign pattern. | **Final Answer:**<br> $\mathbf{(2x + 3)(4x^2 - 6x + 9)}$ | **Final Answer:**<br> $\mathbf{(y - 4)(y^2 + 4y + 16)}$ |
+
+#### **Extra Notes**
+
+The trinomial factor $\mathbf{(a^2 \mp ab + b^2)}$ can never be factored further using real numbers.
