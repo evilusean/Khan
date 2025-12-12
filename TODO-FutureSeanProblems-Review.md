@@ -30,11 +30,11 @@ Practice Set Notation + Set Builder Notation
 
 - [x] Polynomial Long Division
 
-Factoring By Grouping With a leading coefficient of 1
+- [x] Factoring By Grouping With a leading coefficient of 1
 
-Factoring By Grouping With a leading coefficient of not 1 (AC Method)
+- [x] Factoring By Grouping With a leading coefficient of not 1 (AC Method)
 
-Factoring By Grouping With a leading coefficient of not 1 (Reverse Foil Method)
+- [x] Factoring By Grouping With a leading coefficient of not 1 (Reverse Foil Method)
 
 Sum/Difference of Cubes 
 - **Sum of Two Cubes** : $x^3 + y^3 = (x + y)(x^2 - xy + y^2)$ : The trinomial factor has a **negative** middle term and always has a **positive** last term. '+' positive first parenthesis in (x +y) , '-' negative first term on second parenthesis : *The first sign is always going to match, the second sign is not going to match, and the third sign is always positive*
