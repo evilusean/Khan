@@ -1855,3 +1855,4 @@ The remaining factor is $x^2 + 4$. This is a sum of squares and cannot be factor
 Combine all factors:
 
 $$\mathbf{x^4 + 2x^3 + x^2 + 8x - 12 = (x - 1)(x + 3)(x^2 + 4)}$$
+## 2025-December-12- TOCT - Factoring Sums and Differences of Perfect Cubes :
