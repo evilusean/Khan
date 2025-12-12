@@ -1914,3 +1914,25 @@ $$(2x + 3)((2x)^2 - (2x)(3) + 3^2)$$
 $$(2x + 3)(4x^2 - 6x + 9)$$
 
 $$\mathbf{8x^3 + 27 = (2x + 3)(4x^2 - 6x + 9)}$$
+### Factoring $27x^3 + 64y^3$ (Sum of Cubes)
+
+This expression is a **Sum of Cubes**, $a^3 + b^3$, which is factored using the formula:
+$$\mathbf{a^3 + b^3 = (a + b)(a^2 - ab + b^2)}$$
+
+#### **1. Identify 'a' and 'b'**
+
+Find the cube root of each term:
+* $a^3 = 27x^3 \implies a = \mathbf{3x}$
+* $b^3 = 64y^3 \implies b = \mathbf{4y}$
+
+#### **2. Apply the Sum of Cubes Formula**
+
+Substitute $a = 3x$ and $b = 4y$ into the formula $(a + b)(a^2 - ab + b^2)$:
+$$(3x + 4y)((3x)^2 - (3x)(4y) + (4y)^2)$$
+
+#### **3. Simplify and Final Factored Form**
+
+Simplify the trinomial factor:
+$$(3x + 4y)(9x^2 - 12xy + 16y^2)$$
+
+$$\mathbf{27x^3 + 64y^3 = (3x + 4y)(9x^2 - 12xy + 16y^2)}$$
