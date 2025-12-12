@@ -1961,3 +1961,39 @@ $$\mathbf{x^6 - 64y^9 = (x^2 - 4y^3)(x^4 + 4x^2y^3 + 16y^6)}$$
 
 *Note: The binomial factor $(x^2 - 4y^3)$ is a Difference of Squares and can be factored further as $(x - 2y\sqrt{y})(x + 2y\sqrt{y})$, but the final answer is typically left as above unless factoring over the complex numbers or asking for the most detailed factorization.*
 ## 2025-December-12-TOCT-Dividing Rational Expressions :
+### Dividing Rational Expressions
+
+Dividing rational expressions (fractions with polynomials) follows the exact same rule as dividing numerical fractions: **Keep, Change, Flip (KCF)**.
+
+The general rule is:
+$$\mathbf{\frac{A}{B} \div \frac{C}{D} = \frac{A}{B} \times \frac{D}{C}}$$
+
+#### **Step-by-Step Procedure**
+
+1.  **Keep, Change, Flip (KCF):** Keep the first fraction, change the division sign to multiplication, and flip (take the reciprocal of) the second fraction.
+2.  **Factor:** Factor the numerator and denominator of all four polynomials completely.
+3.  **Multiply:** Combine the numerators and combine the denominators into a single rational expression.
+4.  **Cancel/Simplify:** Cancel out (divide out) any common factors that appear in both the numerator and the denominator.
+5.  **Identify Restrictions:** State the values that $x$ cannot equal. These restrictions come from the denominator of **the original second fraction** (before flipping) and the denominators of **the first and reciprocal second fractions** (after flipping).
+
+#### **Example**
+
+Divide and simplify:
+$$\mathbf{\frac{x^2 - 4}{x^2 + 5x + 6} \div \frac{x - 2}{x + 3}}$$
+
+**Step 1: KCF**
+$$\frac{x^2 - 4}{x^2 + 5x + 6} \times \frac{x + 3}{x - 2}$$
+
+**Step 2: Factor**
+$$\frac{(x-2)(x+2)}{(x+2)(x+3)} \times \frac{(x + 3)}{(x - 2)}$$
+
+**Step 3 & 4: Multiply and Cancel**
+$$\frac{\cancel{(x-2)}\cancel{(x+2)}\cancel{(x+3)}}{\cancel{(x+2)}\cancel{(x+3)}\cancel{(x-2)}} = \frac{1}{1}$$
+
+**Step 5: Final Result and Restrictions**
+$$\mathbf{1}$$
+
+**Restrictions (from the original denominators):**
+* $x^2 + 5x + 6 \neq 0 \implies (x+2)(x+3) \neq 0 \implies x \neq -2, x \neq -3$
+* $x - 2 \neq 0 \implies x \neq 2$ (Original second denominator)
+* **Complete Restrictions:** $x \neq -3, x \neq -2, x \neq 2$
