@@ -1857,3 +1857,39 @@ Combine all factors:
 $$\mathbf{x^4 + 2x^3 + x^2 + 8x - 12 = (x - 1)(x + 3)(x^2 + 4)}$$
 ## 2025-December-12- TOCT - Factoring Sums and Differences of Perfect Cubes :
 https://www.youtube.com/watch?v=ADj8sGSjewg
+### Sum and Difference of Cubes Formulas
+
+This note covers the formulas for factoring the sum of two cubes ($a^3 + b^3$) and the difference of two cubes ($a^3 - b^3$), including detailed examples.
+
+| Formula Name | General Form | Factored Form |
+| :--- | :--- | :--- |
+| **Sum of Cubes** | $a^3 + b^3$ | $(a + b)(a^2 - ab + b^2)$ |
+| **Difference of Cubes** | $a^3 - b^3$ | $(a - b)(a^2 + ab + b^2)$ |
+
+#### **Example 1: Sum of Cubes ($x^3 + 8$)**
+
+1.  **Identify $a$ and $b$**:
+    * $a^3 = x^3 \implies a = x$
+    * $b^3 = 8 \implies b = 2$
+2.  **Apply Formula** $(a + b)(a^2 - ab + b^2)$:
+    $$(x + 2)(x^2 - (x)(2) + 2^2)$$
+3.  **Result**:
+    $$\mathbf{x^3 + 8 = (x + 2)(x^2 - 2x + 4)}$$
+
+#### **Example 2: Difference of Cubes ($27x^3 - 1$)**
+
+1.  **Identify $a$ and $b$**:
+    * $a^3 = 27x^3 \implies a = 3x$
+    * $b^3 = 1 \implies b = 1$
+2.  **Apply Formula** $(a - b)(a^2 + ab + b^2)$:
+    $$(3x - 1)((3x)^2 + (3x)(1) + 1^2)$$
+3.  **Result**:
+    $$\mathbf{27x^3 - 1 = (3x - 1)(9x^2 + 3x + 1)}$$
+
+#### **Extra Notes: How to Remember the Signs (SOAP)**
+
+A mnemonic to remember the signs in the factored form:
+
+* **S**ame sign as the original expression ($a \pm b$)
+* **O**pposite sign in the middle term of the trinomial ($a^2 \mp ab + b^2$)
+* **A**lways **P**ositive for the last term of the trinomial ($a^2 \mp ab + b^2$)
