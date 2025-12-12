@@ -2069,3 +2069,25 @@ Restrictions are the values of $x$ that make any denominator (in the original or
 * $4x^3 + 32 \neq 0$ (This was the numerator of the second term, so it must not be zero before the flip) $\implies x \neq -2$
 
 **Final Restrictions:** $\mathbf{x \neq \pm 2, x \neq 5}$
+### Simplifying $\frac{8x^3 - 4x^2 + 12x}{4x}$ (Polynomial Division by Monomial)
+
+This expression is simplified by dividing every term in the numerator by the monomial in the denominator.
+
+#### **Method: Separate the Fraction**
+
+**Step 1: Separate each numerator term over the denominator.**
+$$\frac{8x^3}{4x} - \frac{4x^2}{4x} + \frac{12x}{4x}$$
+
+**Step 2: Simplify each resulting fraction using the quotient rule for exponents ($x^a/x^b = x^{a-b}$).**
+
+* $\frac{8x^3}{4x} = 2x^{3-1} = \mathbf{2x^2}$
+* $\frac{4x^2}{4x} = 1x^{2-1} = \mathbf{x}$
+* $\frac{12x}{4x} = 3 \cdot 1 = \mathbf{3}$
+
+**Step 3: Combine terms for the final result.**
+$$\mathbf{2x^2 - x + 3}$$
+
+#### **Restriction**
+
+The expression is undefined when the denominator is zero:
+$$4x \neq 0 \implies \mathbf{x \neq 0}$$
