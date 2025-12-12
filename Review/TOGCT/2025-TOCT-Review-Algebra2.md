@@ -1893,3 +1893,24 @@ A mnemonic to remember the signs in the factored form:
 * **S**ame sign as the original expression ($a \pm b$)
 * **O**pposite sign in the middle term of the trinomial ($a^2 \mp ab + b^2$)
 * **A**lways **P**ositive for the last term of the trinomial ($a^2 \mp ab + b^2$)
+### Factoring $8x^3 + 27$ (Sum of Cubes)
+
+This expression is a **Sum of Cubes**, $a^3 + b^3$, which is factored using the formula:
+$$\mathbf{a^3 + b^3 = (a + b)(a^2 - ab + b^2)}$$
+
+#### **1. Identify 'a' and 'b'**
+
+Find the cube root of each term:
+* $a^3 = 8x^3 \implies a = \mathbf{2x}$
+* $b^3 = 27 \implies b = \mathbf{3}$
+
+#### **2. Apply the Sum of Cubes Formula**
+
+Substitute $a = 2x$ and $b = 3$ into the formula $(a + b)(a^2 - ab + b^2)$:
+$$(2x + 3)((2x)^2 - (2x)(3) + 3^2)$$
+
+#### **3. Simplify and Final Factored Form**
+
+$$(2x + 3)(4x^2 - 6x + 9)$$
+
+$$\mathbf{8x^3 + 27 = (2x + 3)(4x^2 - 6x + 9)}$$
