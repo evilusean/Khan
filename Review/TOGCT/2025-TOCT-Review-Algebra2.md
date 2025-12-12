@@ -2121,3 +2121,36 @@ $$
 
 The expression is undefined when the divisor is zero:
 $$2x - 3 = 0 \implies 2x = 3 \implies \mathbf{x \neq \frac{3}{2}}$$
+### Polynomial Long Division: $\frac{4x^3 + 10x - 8}{x - 2}$
+
+**Note:** The dividend must be written with a placeholder for the missing $x^2$ term: $4x^3 + 0x^2 + 10x - 8$.
+
+#### **Process and Result**
+
+$$\mathbf{4x^2 + 8x + 26 + \frac{44}{x - 2}}$$
+
+#### **Long Division Steps** 
+
+$$
+\begin{array}{r}
+4x^2 + 8x + 26 \\[-3pt]
+x-2{\overline{\smash)4x^3 + 0x^2 + 10x - 8}} \\[-3pt]
+- (4x^3 - 8x^2) \\[-3pt]
+\hline
+8x^2 + 10x \\[-3pt]
+- (8x^2 - 16x) \\[-3pt]
+\hline
+26x - 8 \\[-3pt]
+- (26x - 52) \\[-3pt]
+\hline
+44 \\[-3pt]
+\end{array}
+$$
+
+**Quotient:** $4x^2 + 8x + 26$
+**Remainder:** $44$
+
+#### **Restriction**
+
+The expression is undefined when the divisor is zero:
+$$x - 2 = 0 \implies \mathbf{x \neq 2}$$
