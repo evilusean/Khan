@@ -1997,3 +1997,43 @@ $$\mathbf{1}$$
 * $x^2 + 5x + 6 \neq 0 \implies (x+2)(x+3) \neq 0 \implies x \neq -2, x \neq -3$
 * $x - 2 \neq 0 \implies x \neq 2$ (Original second denominator)
 * **Complete Restrictions:** $x \neq -3, x \neq -2, x \neq 2$
+### Simplifying $(x^2 - 9) \div \frac{4x+20}{x^2+8x+15}$
+
+This problem involves dividing rational expressions, which is done using the **Keep, Change, Flip (KCF)** method.
+
+#### **1. Rewrite the Expression as KCF**
+
+First, treat the integer term $(x^2 - 9)$ as $\frac{x^2 - 9}{1}$. Then, apply KCF:
+$$\frac{x^2 - 9}{1} \times \frac{x^2+8x+15}{4x+20}$$
+
+#### **2. Factor All Numerators and Denominators**
+
+* **First Numerator:** Difference of Squares
+    $$x^2 - 9 = \mathbf{(x - 3)(x + 3)}$$
+* **Second Numerator:** Trinomial Factoring
+    $$x^2+8x+15 = \mathbf{(x + 3)(x + 5)}$$
+* **Second Denominator:** Greatest Common Factor (GCF)
+    $$4x+20 = \mathbf{4(x + 5)}$$
+
+Substitute the factored forms back into the expression:
+$$\frac{(x - 3)(x + 3)}{1} \times \frac{(x + 3)(x + 5)}{4(x + 5)}$$
+
+#### **3. Cancel Common Factors and Simplify**
+
+Cancel the common factor, $(x + 5)$, from the numerator and denominator:
+$$\frac{(x - 3)(x + 3)}{1} \times \frac{(x + 3)\cancel{(x + 5)}}{4\cancel{(x + 5)}} = \frac{(x - 3)(x + 3)(x + 3)}{4}$$
+
+#### **4. Final Simplified Form**
+
+Combine the terms in the numerator:
+$$\mathbf{\frac{(x - 3)(x + 3)^2}{4}}$$
+
+#### **5. Restrictions**
+
+The expression is undefined where any original denominator or the original second numerator is zero.
+
+1.  **Original Denominator 1:** $1 \neq 0$ (no restriction)
+2.  **Original Denominator 2 (before flip):** $x^2+8x+15 \neq 0 \implies (x+3)(x+5) \neq 0 \implies \mathbf{x \neq -3, x \neq -5}$
+3.  **Original Second Numerator (now denominator):** $4x+20 \neq 0 \implies 4(x+5) \neq 0 \implies \mathbf{x \neq -5}$
+
+The restrictions are $\mathbf{x \neq -5}$ and $\mathbf{x \neq -3}$.
