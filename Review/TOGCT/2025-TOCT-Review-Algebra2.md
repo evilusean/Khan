@@ -2037,3 +2037,35 @@ The expression is undefined where any original denominator or the original secon
 3.  **Original Second Numerator (now denominator):** $4x+20 \neq 0 \implies 4(x+5) \neq 0 \implies \mathbf{x \neq -5}$
 
 The restrictions are $\mathbf{x \neq -5}$ and $\mathbf{x \neq -3}$.
+### Simplifying Complex Rational Expression (Division)
+
+**Original Expression:**
+$$\mathbf{\frac{4x^3 + 32}{6x^2 - 24} \div \frac{3x^2 - 6x + 12}{x^2 - 7x + 10}}$$
+
+#### **1. Keep, Change, Flip (KCF) and Factor**
+
+Rewrite as multiplication and fully factor all four polynomials:
+
+$$\frac{4(x + 2)(x^2 - 2x + 4)}{6(x - 2)(x + 2)} \times \frac{(x - 2)(x - 5)}{3(x^2 - 2x + 4)}$$
+
+#### **2. Cancel Common Factors**
+
+Cancel the factors $\mathbf{(x+2)}$, $\mathbf{(x-2)}$, and $\mathbf{(x^2 - 2x + 4)}$:
+
+$$\frac{4 \cancel{(x + 2)} \cancel{(x^2 - 2x + 4)}}{6 \cancel{(x - 2)} \cancel{(x + 2)}} \times \frac{\cancel{(x - 2)}(x - 5)}{3 \cancel{(x^2 - 2x + 4)}}$$
+
+#### **3. Final Multiplication and Simplification**
+
+Multiply the remaining terms and simplify the numerical fraction ($\frac{4}{6} = \frac{2}{3}$):
+
+$$\frac{4}{6} \times \frac{x - 5}{3} = \frac{2}{3} \times \frac{x - 5}{3} = \mathbf{\frac{2(x - 5)}{9}}$$
+
+#### **Restrictions**
+
+Restrictions are the values of $x$ that make any denominator (in the original or flipped expression) equal to zero:
+* $6x^2 - 24 \neq 0 \implies x \neq \pm 2$
+* $x^2 - 7x + 10 \neq 0 \implies x \neq 2, x \neq 5$
+* $3x^2 - 6x + 12 \neq 0$ (This quadratic has no real roots, so no real restriction)
+* $4x^3 + 32 \neq 0$ (This was the numerator of the second term, so it must not be zero before the flip) $\implies x \neq -2$
+
+**Final Restrictions:** $\mathbf{x \neq \pm 2, x \neq 5}$
