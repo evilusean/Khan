@@ -2091,3 +2091,33 @@ $$\mathbf{2x^2 - x + 3}$$
 
 The expression is undefined when the denominator is zero:
 $$4x \neq 0 \implies \mathbf{x \neq 0}$$
+### Polynomial Long Division: $\frac{8x^2 + 6x - 12}{2x - 3}$
+
+#### **Process and Result**
+
+The problem is solved using Polynomial Long Division.
+
+$$\mathbf{4x + 9 + \frac{15}{2x - 3}}$$
+
+#### **Long Division Steps**
+
+$$
+\begin{array}{r}
+4x + 9 \\[-3pt]
+2x-3{\overline{\smash)8x^2 + 6x - 12}} \\[-3pt]
+- (8x^2 - 12x) & \quad \leftarrow 4x(2x-3) \\[-3pt]
+\hline
+18x - 12 & \quad \leftarrow \text{Subtract and bring down} \\[-3pt]
+- (18x - 27) & \quad \leftarrow 9(2x-3) \\[-3pt]
+\hline
+15 & \quad \leftarrow \text{Remainder} \\[-3pt]
+\end{array}
+$$
+
+**Quotient:** $4x + 9$
+**Remainder:** $15$
+
+#### **Restriction**
+
+The expression is undefined when the divisor is zero:
+$$2x - 3 = 0 \implies 2x = 3 \implies \mathbf{x \neq \frac{3}{2}}$$
