@@ -2403,3 +2403,17 @@ $$\frac{1}{z^{1.8}} = \frac{1}{z^{9/5}}$$
 #### **Final Radical Form**
 
 $$\mathbf{z^{-1.8} = \frac{1}{\sqrt[5]{z^9}}}$$
+### **Radical to Exponential Form Conversions**
+
+The fundamental rule for conversion is: $\mathbf{\sqrt[n]{a^m} = a^{m/n}}$, where $n$ (the index) is the denominator and $m$ (the power) is the numerator.
+
+**Implicit Values to Remember:**
+* If there is no index, $n=2$ (square root).
+* If the radicand has no power, $m=1$.
+
+| Radical Form | Index ($n$) | Power ($m$) | Exponential Form |
+| :--- | :--- | :--- | :--- |
+| **$\mathbf{\sqrt{7}}$** | 2 (Implicit) | 1 (Implicit) | $$\mathbf{7^{1/2}}$$ |
+| **$\mathbf{\sqrt{x}}$** | 2 (Implicit) | 1 (Implicit) | $$\mathbf{x^{1/2}}$$ |
+| **$\mathbf{\sqrt[3]{y}}$** | 3 | 1 (Implicit) | $$\mathbf{y^{1/3}}$$ |
+| **$\mathbf{\sqrt[7]{z^4}}$** | 7 | 4 | $$\mathbf{z^{4/7}}$$ |
