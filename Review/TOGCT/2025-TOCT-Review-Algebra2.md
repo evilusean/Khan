@@ -2411,9 +2411,14 @@ The fundamental rule for conversion is: $\mathbf{\sqrt[n]{a^m} = a^{m/n}}$, wher
 * If there is no index, $n=2$ (square root).
 * If the radicand has no power, $m=1$.
 
-| Radical Form | Index ($n$) | Power ($m$) | Exponential Form |
-| :--- | :--- | :--- | :--- |
-| **$\mathbf{\sqrt{7}}$** | 2 (Implicit) | 1 (Implicit) | $$\mathbf{7^{1/2}}$$ |
-| **$\mathbf{\sqrt{x}}$** | 2 (Implicit) | 1 (Implicit) | $$\mathbf{x^{1/2}}$$ |
-| **$\mathbf{\sqrt[3]{y}}$** | 3 | 1 (Implicit) | $$\mathbf{y^{1/3}}$$ |
-| **$\mathbf{\sqrt[7]{z^4}}$** | 7 | 4 | $$\mathbf{z^{4/7}}$$ |
+| Radical Form                           | Base ($a$)                                                 | Power ($m$) | Index ($n$) | Exponential Form                             |
+| :------------------------------------- | :--------------------------------------------------------- | :---------- | :---------- | -------------------------------------------- |
+| **$\mathbf{\sqrt{7}}$**                | 7                                                          | 1           | 2           | $$\mathbf{7^{1/2}}$$                         |
+| **$\mathbf{\sqrt{x}}$**                | $x$                                                        | 1           | 2           | $$\mathbf{x^{1/2}}$$                         |
+| **$\mathbf{\sqrt[3]{y}}$**             | $y$                                                        | 1           | 3           | $$\mathbf{y^{1/3}}$$                         |
+| **$\mathbf{\sqrt[7]{z^4}}$**           | $z$                                                        | 4           | 7           | $$\mathbf{z^{4/7}}$$                         |
+| **$\mathbf{\sqrt{5x^7}}$**             | $x$                                                        | 7           | 2           | $$\mathbf{5^{1/2}x^{7/2}}$$ = $(5x^7)^{1/2}$ |
+| **$\mathbf{\sqrt{(5x)^7}}$**           | $5x$                                                       | 7           | 2           | $$\mathbf{(5x)^{7/2}}$$                      |
+| **$\mathbf{\sqrt[7]{x^3}}$**           | $x$                                                        | 3           | 7           | $$\mathbf{x^{3/7}}$$                         |
+| **$\mathbf{(\sqrt[7]{x})^3}$**         | $x$                                                        | 3           | 7           | $$\mathbf{x^{3/7}}$$                         |
+| **$\mathbf{\frac{1}{\sqrt[4]{y^9}}}$** | Convert to exponential, then use $\frac{1}{a^m} = a^{-m}$. | -9          | 4           | $$\mathbf{y^{-9/4}}$$                        |
