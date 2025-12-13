@@ -2293,3 +2293,29 @@ $$\frac{1}{z^{7/8}} = \frac{1}{\sqrt[8]{z^7}}$$
 #### **Final Radical Form**
 
 $$\mathbf{z^{-7/8} = \frac{1}{\sqrt[8]{z^7}}}$$
+### **Conversion: $y^{2.5}$ to Radical Form**
+
+When the exponent is a decimal, the first step is to convert it to a rational (fractional) exponent.
+
+#### **1. Step 1: Convert Decimal Exponent to an Improper Fraction**
+
+* **Decimal:** $2.5$
+* **Mixed Number:** $2 \frac{5}{10} = 2 \frac{1}{2}$
+* **Improper Fraction:** $\frac{(2 \times 2) + 1}{2} = \frac{5}{2}$
+
+$$\mathbf{y^{2.5} = y^{5/2}}$$
+
+#### **2. Step 2: Convert Rational Exponent to Radical Form**
+
+**Rule:** $a^{m/n} = \sqrt[n]{a^m}$
+
+* **Numerator (Power, $m$):** 5
+* **Denominator (Index, $n$):** 2
+
+$$y^{5/2} = \sqrt[2]{y^5}$$
+
+#### **Final Radical Form**
+
+(Note: The index 2 for a square root is typically omitted.)
+
+$$\mathbf{y^{2.5} = \sqrt{y^5}}$$
