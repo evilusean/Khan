@@ -2373,3 +2373,33 @@ $$\mathbf{t^{3.2} = t^{16/5}}$$
 #### **Final Radical Form**
 
 $$\mathbf{t^{3.2} = \sqrt[5]{t^{16}}}$$
+### **Conversion: $z^{-1.8}$ to Radical Form**
+
+This conversion is a three-step process: Negative Sign $\rightarrow$ Decimal to Fraction $\rightarrow$ Radical Form.
+
+#### **1. Step 1: Handle the Negative Exponent**
+
+* **Rule:** $a^{-m} = \frac{1}{a^m}$
+
+$$z^{-1.8} = \frac{1}{z^{1.8}}$$
+
+#### **2. Step 2: Convert Decimal Exponent to an Improper Fraction**
+
+* The exponent $1.8$ extends to the **tenths** place. Multiply by $\frac{10}{10}$ to clear the decimal.
+
+$$\frac{1.8}{1} = \frac{18}{10}$$
+
+* **Simplify the fraction:** $\frac{18 \div 2}{10 \div 2} = \frac{9}{5}$
+
+$$\frac{1}{z^{1.8}} = \frac{1}{z^{9/5}}$$
+
+#### **3. Step 3: Convert Rational Exponent to Radical Form**
+
+**Rule:** $a^{m/n} = \sqrt[n]{a^m}$
+
+* **Numerator (Power, $m$):** 9
+* **Denominator (Index, $n$):** 5
+
+#### **Final Radical Form**
+
+$$\mathbf{z^{-1.8} = \frac{1}{\sqrt[5]{z^9}}}$$
