@@ -2156,6 +2156,7 @@ The expression is undefined when the divisor is zero:
 $$x - 2 = 0 \implies \mathbf{x \neq 2}$$
 ## 2025-December-13-TOCT- How To Convert Between Exponential Form and Radical Form - Algebra :
 https://www.youtube.com/watch?v=rPVvvDNn_Uw
+- $a^{\frac{m}{n}} = \sqrt[n]{a^m} = (\sqrt[n]{a})^m$ : 'a' raised to the 'm' over 'n' = 'n'th root of 'a' raised to the 'm' - *Remember this sentence* : the denominator is the index, the numerator is the power
 ### **How To Convert Between Exponential Form and Radical Form**
 
 The conversion between these two forms is governed by a single rule that links rational (fractional) exponents to roots.
@@ -2205,3 +2206,46 @@ $$\mathbf{b^{5/2} \rightarrow \sqrt[2]{b^5}} \text{ or } \mathbf{\sqrt{b^5}}$$
     $$\sqrt{z} = \sqrt[2]{z^1} = \mathbf{z^{1/2}}$$
 2.  **No Power:** If no power is written for the radicand, $m=1$.
     $$\sqrt[3]{8} = \sqrt[3]{8^1} = \mathbf{8^{1/3}}$$
+### **The Negative Exponent Rule**
+
+The Negative Exponent Rule states that any non-zero base raised to a negative exponent is equal to the **reciprocal** of the base raised to the **positive** exponent.
+
+**Core Rule:**
+$$a^{-m} = \frac{1}{a^m}$$
+**And its reciprocal:**
+$$\frac{1}{a^{-m}} = a^m$$
+
+***
+
+#### **1. Application with Negative Integer Exponents**
+
+This rule is used to eliminate negative exponents from an expression.
+
+| Example | Step-by-Step Breakdown |
+| :--- | :--- |
+| $\mathbf{4^{-2}}$ | 1. Take the reciprocal of the base: $\frac{1}{4^2}$ |
+| | 2. Simplify: $\frac{1}{16}$ |
+| $\mathbf{\frac{1}{2x^{-3}}}$ | 1. Only $x^{-3}$ moves to the numerator: $\frac{2x^3}{1}$ |
+| | 2. Simplify: $\mathbf{2x^3}$ |
+| $\mathbf{\left(\frac{2}{3}\right)^{-2}}$ | 1. Take the reciprocal of the entire fraction: $\left(\frac{3}{2}\right)^2$ |
+| | 2. Simplify: $\mathbf{\frac{9}{4}}$ |
+
+***
+
+#### **2. Application with Negative Rational Exponents (Conversion to Radical Form)**
+
+When a rational exponent is negative, the negative sign must be dealt with first before converting to radical form.
+
+**The process is always:**
+$$\text{Negative Exponent} \rightarrow \text{Reciprocal with Positive Exponent} \rightarrow \text{Radical Form}$$
+
+| Example | Step-by-Step Breakdown |
+| :--- | :--- |
+| $\mathbf{y^{-5/4}}$ | **1. Handle Negative Exponent:** $\frac{1}{y^{5/4}}$ |
+| | **2. Convert to Radical:** Denominator (4) is the index, numerator (5) is the power. |
+| | **Final Form:** $\mathbf{\frac{1}{\sqrt[4]{y^5}}}$ |
+| $\mathbf{27^{-1/3}}$ | **1. Handle Negative Exponent:** $\frac{1}{27^{1/3}}$ |
+| | **2. Convert to Radical:** $\frac{1}{\sqrt[3]{27^1}}$ |
+| | **3. Simplify:** $\frac{1}{3}$ |
+
+**Key Takeaway:** The negative sign only affects the position of the base (moves it from numerator to denominator or vice versa). It does *not* affect the base's sign or the index/power of the fractional exponent.
