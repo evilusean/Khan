@@ -2249,3 +2249,26 @@ $$\text{Negative Exponent} \rightarrow \text{Reciprocal with Positive Exponent} 
 | | **3. Simplify:** $\frac{1}{3}$ |
 
 **Key Takeaway:** The negative sign only affects the position of the base (moves it from numerator to denominator or vice versa). It does *not* affect the base's sign or the index/power of the fractional exponent.
+### **Conversion: $x^{-2/3}$ to Radical Form**
+
+This conversion requires applying two rules: the Negative Exponent Rule and the Rational Exponent Rule.
+
+#### **1. Step 1: Handle the Negative Exponent**
+
+**Rule:** $a^{-m} = \frac{1}{a^m}$ (A negative exponent indicates the reciprocal of the base raised to the positive exponent.)
+
+$$x^{-2/3} = \frac{1}{x^{2/3}}$$
+
+#### **2. Step 2: Convert the Rational Exponent to Radical Form**
+
+**Rule:** $a^{m/n} = \sqrt[n]{a^m}$ (The denominator $n$ becomes the index of the root, and the numerator $m$ remains the power.) 
+
+* Base ($a$): $x$
+* Power ($m$): $2$
+* Index ($n$): $3$
+
+$$\frac{1}{x^{2/3}} = \frac{1}{\sqrt[3]{x^2}}$$
+
+#### **Final Radical Form**
+
+$$\mathbf{x^{-2/3} = \frac{1}{\sqrt[3]{x^2}}}$$
