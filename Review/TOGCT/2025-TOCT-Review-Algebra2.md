@@ -2272,6 +2272,32 @@ $$\frac{1}{x^{2/3}} = \frac{1}{\sqrt[3]{x^2}}$$
 #### **Final Radical Form**
 
 $$\mathbf{x^{-2/3} = \frac{1}{\sqrt[3]{x^2}}}$$
+### **Clearing Decimals in an Exponent (Conversion to Radical Form)**
+
+The goal of "clearing the decimal" in an exponent is to convert the decimal to its equivalent simplified fraction (rational exponent $\frac{m}{n}$).
+
+**IMPORTANT:** This is NOT the same as clearing decimals in an *equation* (which involves multiplying the entire equation by the LCD).
+
+#### **Core Steps for $\mathbf{y^{d}} \rightarrow \mathbf{\sqrt[n]{y^m}}$**
+
+| Step | Action | Example: Convert $\mathbf{y^{1.2}}$ |
+| :--- | :--- | :--- |
+| **1. Decimal to Fraction** | Convert the decimal $1.2$ to an improper fraction. | $1.2 = 1 \frac{2}{10} = 1 \frac{1}{5} = \frac{6}{5}$ |
+| **2. Identify Components** | Identify the Base ($y$), Numerator/Power ($m=6$), and Denominator/Index ($n=5$). | $$\mathbf{y^{6/5}}$$ |
+| **3. Apply Radical Rule** | $\mathbf{a^{m/n} = \sqrt[n]{a^m}}$ | **Final Form:** $\mathbf{\sqrt[5]{y^6}}$ |
+
+#### **Finding the Denominator (Index)**
+
+The denominator of the fraction is found by simplifying the fraction created by the decimal's place value:
+
+| Decimal ($d$) | Fraction based on Place Value | Reduced Fraction ($\frac{m}{n}$) | Final Index ($n$) |
+| :--- | :--- | :--- | :--- |
+| $\mathbf{0.5}$ | $\frac{5}{10}$ | $\frac{1}{2}$ | **2** |
+| $\mathbf{0.2}$ | $\frac{2}{10}$ | $\frac{1}{5}$ | **5** |
+| $\mathbf{0.25}$ | $\frac{25}{100}$ | $\frac{1}{4}$ | **4** |
+| $\mathbf{0.125}$ | $\frac{125}{1000}$ | $\frac{1}{8}$ | **8** |
+
+**Conclusion:** The multiplier you use to clear the decimal in the *exponent* is the denominator of the simplest equivalent fraction.
 ### **Conversion: $z^{-7/8}$ to Radical Form**
 
 This conversion is a two-step process combining the negative exponent rule and the rational exponent rule.
