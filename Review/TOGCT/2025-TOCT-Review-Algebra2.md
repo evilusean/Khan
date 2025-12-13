@@ -2272,3 +2272,24 @@ $$\frac{1}{x^{2/3}} = \frac{1}{\sqrt[3]{x^2}}$$
 #### **Final Radical Form**
 
 $$\mathbf{x^{-2/3} = \frac{1}{\sqrt[3]{x^2}}}$$
+### **Conversion: $z^{-7/8}$ to Radical Form**
+
+This conversion is a two-step process combining the negative exponent rule and the rational exponent rule.
+
+#### **1. Step 1: Handle the Negative Exponent**
+
+* **Rule:** $a^{-m} = \frac{1}{a^m}$ (The negative exponent moves the base to the denominator, making the exponent positive.)
+
+$$z^{-7/8} = \frac{1}{z^{7/8}}$$
+
+#### **2. Step 2: Convert the Rational Exponent to Radical Form**
+
+* **Rule:** $a^{m/n} = \sqrt[n]{a^m}$
+* **Numerator (Power, $m$):** 7
+* **Denominator (Index, $n$):** 8
+
+$$\frac{1}{z^{7/8}} = \frac{1}{\sqrt[8]{z^7}}$$
+
+#### **Final Radical Form**
+
+$$\mathbf{z^{-7/8} = \frac{1}{\sqrt[8]{z^7}}}$$
