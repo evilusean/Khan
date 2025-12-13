@@ -2345,3 +2345,31 @@ $$y^{5/2} = \sqrt[2]{y^5}$$
 (Note: The index 2 for a square root is typically omitted.)
 
 $$\mathbf{y^{2.5} = \sqrt{y^5}}$$
+### **Conversion: $t^{3.2}$ to Radical Form (Using Decimal Clearing Method)**
+
+The first step in converting a decimal exponent to a radical is to convert the decimal into a simplified improper fraction (rational exponent).
+
+#### **1. Step 1: Clear the Decimal and Convert to a Fraction**
+
+* The decimal $3.2$ extends to the **tenths** place. Therefore, we multiply by $\frac{10}{10}$ to clear the decimal in the numerator.
+
+$$\frac{3.2}{1} = \frac{3.2 \times 10}{1 \times 10} = \frac{32}{10}$$
+
+#### **2. Step 2: Simplify the Rational Exponent**
+
+* Reduce the fraction $\frac{32}{10}$ by dividing both the numerator and denominator by 2.
+
+$$\frac{32}{10} = \frac{16}{5}$$
+
+$$\mathbf{t^{3.2} = t^{16/5}}$$
+
+#### **3. Step 3: Convert Rational Exponent to Radical Form**
+
+**Rule:** $a^{m/n} = \sqrt[n]{a^m}$
+
+* **Numerator (Power, $m$):** 16
+* **Denominator (Index, $n$):** 5
+
+#### **Final Radical Form**
+
+$$\mathbf{t^{3.2} = \sqrt[5]{t^{16}}}$$
