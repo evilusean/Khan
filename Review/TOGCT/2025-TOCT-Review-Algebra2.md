@@ -2154,3 +2154,4 @@ $$
 
 The expression is undefined when the divisor is zero:
 $$x - 2 = 0 \implies \mathbf{x \neq 2}$$
+## 2025-December-13-TOCT- How To Convert Between Exponential Form and Radical Form - Algebra :
