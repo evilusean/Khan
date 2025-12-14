@@ -2492,4 +2492,18 @@ This method uses the **Zero Product Property (ZPP)** to find the solutions (root
 | **3. Apply ZPP & Solve** | Set each factor equal to zero and solve for $x$. | $$x - 5 = 0 \quad \implies \quad \mathbf{x = 5}$$ $$x + 2 = 0 \quad \implies \quad \mathbf{x = -2}$$ |
 
 #### **The solutions are $\mathbf{x=5}$ and $\mathbf{x=-2}$.**
+### **Problem: Solve for x in $\mathbf{3x^2 - 75 = 0}$ by Factoring**
+
+This quadratic equation is solved using the Greatest Common Factor (GCF) and the Difference of Squares formula, followed by the Zero Product Property (ZPP).
+
+| Step | Action | Calculation |
+| :--- | :--- | :--- |
+| **1. Set to Zero** | The equation is already set to zero. | $$3x^2 - 75 = 0$$ |
+| **2. Factor out GCF** | The GCF of 3 and 75 is 3. | $$3(x^2 - 25) = 0$$ |
+| **3. Difference of Squares** | Factor $(x^2 - 25)$ using $a^2-b^2=(a-b)(a+b)$. | $$3\mathbf{(x - 5)(x + 5)} = 0$$ |
+| **4. Apply ZPP** | Set variable factors to zero. (Ignore constant 3). | $x - 5 = 0 \quad \text{and} \quad x + 5 = 0$ |
+| **5. Solutions** | Solve for $x$. | $\mathbf{x = 5}$ and $\mathbf{x = -5}$ |
+
+
+
 
