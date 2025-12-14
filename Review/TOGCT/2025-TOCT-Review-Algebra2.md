@@ -2447,9 +2447,33 @@ The property is only useful when solving an equation, and the equation **must** 
 
 **Problem:** Solve $\mathbf{x^2 - 4x = 12}$
 
-| Step | Calculation | Resulting Equations |
-| :--- | :--- | :--- |
-| **1. Set to Zero** | $x^2 - 4x - 12 = 0$ | |
-| **2. Factor** | $(x + 2)(x - 6) = 0$ | |
-| **3. Apply ZPP** | Set each factor to zero. | $x + 2 = 0$ and $x - 6 = 0$ |
-| **4. Solutions** | Solve for $x$. | $\mathbf{x = -2}$ and $\mathbf{x = 6}$ |
+| Step               | Calculation              | Resulting Equations                    |
+| :----------------- | :----------------------- | :------------------------------------- |
+| **1. Set to Zero** | $x^2 - 4x - 12 = 0$      |                                        |
+| **2. Factor**      | $(x + 2)(x - 6) = 0$     |                                        |
+| **3. Apply ZPP**   | Set each factor to zero. | $x + 2 = 0$ and $x - 6 = 0$            |
+| **4. Solutions**   | Solve for $x$.           | $\mathbf{x = -2}$ and $\mathbf{x = 6}$ |
+### **Problem: Solve for x in $\mathbf{(2x-3)(3x-5)=0}$**
+
+This problem is solved by using the **Zero Product Property (ZPP)**, which states that if a product of factors is zero, at least one factor must be zero.
+
+#### **1. Apply the Zero Product Property**
+
+Set each factor equal to zero:
+$$\mathbf{2x - 3 = 0} \quad \text{or} \quad \mathbf{3x - 5 = 0}$$
+
+#### **2. Solve the First Equation**
+
+$$2x - 3 = 0$$
+$$2x = 3$$
+$$\mathbf{x = \frac{3}{2}}$$
+
+#### **3. Solve the Second Equation**
+
+$$3x - 5 = 0$$
+$$3x = 5$$
+$$\mathbf{x = \frac{5}{3}}$$
+
+#### **Solutions**
+
+The values of $x$ are $\mathbf{\frac{3}{2}}$ and $\mathbf{\frac{5}{3}}$.
