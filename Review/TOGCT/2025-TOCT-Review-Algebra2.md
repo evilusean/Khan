@@ -2479,4 +2479,17 @@ $$\mathbf{x = \frac{5}{3}}$$
 The values of $x$ are $\mathbf{\frac{3}{2}}$ and $\mathbf{\frac{5}{3}}$.
 ## 2025-December-14-TOCT-How To Solve Quadratic Equations By Factoring - Quick & Simple! | Algebra Online Course : 
 https://www.youtube.com/watch?v=qeByhTF8WEw
+### **How To Solve Quadratic Equations By Factoring**
+
+This method uses the **Zero Product Property (ZPP)** to find the solutions (roots) of a quadratic equation.
+
+#### **The Three Core Steps**
+
+| Step | Goal | Example: $\mathbf{x^2 - 3x = 10}$ |
+| :--- | :--- | :--- |
+| **1. Set to Zero** | Rearrange the equation into the standard form: $\mathbf{ax^2 + bx + c = 0}$. | $$x^2 - 3x - 10 = 0$$ |
+| **2. Factor** | Factor the quadratic expression completely into two binomial factors. | $$(x - 5)(x + 2) = 0$$ |
+| **3. Apply ZPP & Solve** | Set each factor equal to zero and solve for $x$. | $$x - 5 = 0 \quad \implies \quad \mathbf{x = 5}$$ $$x + 2 = 0 \quad \implies \quad \mathbf{x = -2}$$ |
+
+#### **The solutions are $\mathbf{x=5}$ and $\mathbf{x=-2}$.**
 
