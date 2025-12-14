@@ -45,7 +45,7 @@ Practice Set Notation + Set Builder Notation
 
 - [x] Complex Fractions with Rational Expressions
 
-Radicals - Exponent Form (This still doesn't make sense to me, the numerator and denominator become what?)
+- [x] Radicals - Exponent Form (This still doesn't make sense to me, the numerator and denominator become what?)
 
 Factoring and using the **Zero Product Property** ($x^2 + x + c = 0$) to find the solutions - Quadratic Trinomial, Difference of Squares, 
 
