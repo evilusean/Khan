@@ -2425,3 +2425,31 @@ The fundamental rule for conversion is: $\mathbf{\sqrt[n]{a^m} = a^{m/n}}$, wher
 
 ## 2025-December-14-TOCT-Zero Product Property :
 https://www.youtube.com/watch?v=J7MjMM_mi4k
+### **The Zero Product Property (ZPP)**
+
+The Zero Product Property is a rule used to solve factored polynomial equations that are set equal to zero.
+
+#### **Formal Rule**
+
+If the product of any factors is zero, then at least one of those factors must be zero.
+$$A \cdot B = 0 \quad \implies \quad \mathbf{A = 0 \quad \text{or} \quad B = 0}$$
+
+#### **How to Apply the ZPP**
+
+The property is only useful when solving an equation, and the equation **must** be set equal to zero.
+
+1.  **Set to Zero:** Ensure the equation is in the form $... = 0$.
+2.  **Factor:** Factor the polynomial completely.
+3.  **Set Factors to Zero:** Set each individual factor equal to zero.
+4.  **Solve:** Solve each resulting linear equation.
+
+#### **Worked Example**
+
+**Problem:** Solve $\mathbf{x^2 - 4x = 12}$
+
+| Step | Calculation | Resulting Equations |
+| :--- | :--- | :--- |
+| **1. Set to Zero** | $x^2 - 4x - 12 = 0$ | |
+| **2. Factor** | $(x + 2)(x - 6) = 0$ | |
+| **3. Apply ZPP** | Set each factor to zero. | $x + 2 = 0$ and $x - 6 = 0$ |
+| **4. Solutions** | Solve for $x$. | $\mathbf{x = -2}$ and $\mathbf{x = 6}$ |
