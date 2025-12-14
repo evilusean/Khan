@@ -2503,7 +2503,16 @@ This quadratic equation is solved using the Greatest Common Factor (GCF) and the
 | **3. Difference of Squares** | Factor $(x^2 - 25)$ using $a^2-b^2=(a-b)(a+b)$. | $$3\mathbf{(x - 5)(x + 5)} = 0$$ |
 | **4. Apply ZPP** | Set variable factors to zero. (Ignore constant 3). | $x - 5 = 0 \quad \text{and} \quad x + 5 = 0$ |
 | **5. Solutions** | Solve for $x$. | $\mathbf{x = 5}$ and $\mathbf{x = -5}$ |
+### **Problem: Solve for x in $\mathbf{9x^2 - 64 = 0}$ by Factoring**
 
+This quadratic equation is solved using the **Difference of Squares** formula: $a^2 - b^2 = (a-b)(a+b)$.
+
+| Step | Action | Calculation |
+| :--- | :--- | :--- |
+| **1. Set to Zero** | The equation is already set to zero. | $$9x^2 - 64 = 0$$ |
+| **2. Factor** | Identify $a=3x$ and $b=8$. | $$(3x - 8)(3x + 8) = 0$$ |
+| **3. Apply ZPP** | Set each factor to zero. | $3x - 8 = 0 \quad \text{and} \quad 3x + 8 = 0$ |
+| **4. Solutions** | Solve for $x$. | $\mathbf{x = \frac{8}{3}}$ and $\mathbf{x = -\frac{8}{3}}$ |
 
 
 
