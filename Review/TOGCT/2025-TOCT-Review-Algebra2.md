@@ -2478,3 +2478,5 @@ $$\mathbf{x = \frac{5}{3}}$$
 
 The values of $x$ are $\mathbf{\frac{3}{2}}$ and $\mathbf{\frac{5}{3}}$.
 ## 2025-December-14-TOCT-How To Solve Quadratic Equations By Factoring - Quick & Simple! | Algebra Online Course : 
+https://www.youtube.com/watch?v=qeByhTF8WEw
+
