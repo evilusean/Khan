@@ -47,7 +47,7 @@ Practice Set Notation + Set Builder Notation
 
 - [x] Radicals - Exponent Form (This still doesn't make sense to me, the numerator and denominator become what?)
 
-Factoring and using the **Zero Product Property** ($x^2 + x + c = 0$) to find the solutions - Quadratic Trinomial, Difference of Squares, 
+- [x] Factoring and using the **Zero Product Property** ($x^2 + x + c = 0$) to find the solutions - Quadratic Trinomial, Difference of Squares, 
 
 - $i$ imaginary numbers, I still have no idea what a '-i' is despite writing it down - I thought that the entire purpose of '-i' is to transfer the negative outside of a square root, but if we negative a negative... what?
 
