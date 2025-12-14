@@ -2424,3 +2424,4 @@ The fundamental rule for conversion is: $\mathbf{\sqrt[n]{a^m} = a^{m/n}}$, wher
 | **$\mathbf{\frac{1}{\sqrt[4]{y^9}}}$** | Convert to exponential, then use $\frac{1}{a^m} = a^{-m}$. | -9          | 4           | $$\mathbf{y^{-9/4}}$$                        |
 
 ## 2025-December-14-TOCT-Zero Product Property :
+https://www.youtube.com/watch?v=J7MjMM_mi4k
