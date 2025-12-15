@@ -2517,6 +2517,8 @@ This quadratic equation is solved using the **Difference of Squares** formula: $
 https://www.youtube.com/watch?v=LKm3JVH5P7o
 - If you have a leading 'negative' ( $-x^2$ ) - then it's easier to multiply the entire equation by '-1' to flip it to work with 
 - **NO REAL SOLUTIONS** = if you have a 'negative' number in the discriminant $\sqrt{-7}$ , that means there are NO REAL SOLUTIONS, if it is '0' then you have one real solution, if it is greater than 0, you have 2 real soltuions 
+- If you have fractions in the initial standard form equation, multiply it by the LCM(Least Common Multiple) to clear the fractions, so you can plug them into the quadratic equation more easily
+- To check if you can further reduce your solution, prime factorze the worked discriminant, and if you get 2 numbers that can be factored out like '2' and '2' from '4', you can factor that out from the rest of the equation, by dividing the ENTIRE equation by that number
 ### **The Quadratic Formula**
 
 The Quadratic Formula is used to find the solutions ($\mathbf{x}$) for **any** quadratic equation in the standard form $\mathbf{ax^2 + bx + c = 0}$.
@@ -2542,11 +2544,11 @@ The **discriminant** is the part of the Quadratic Formula found under the square
 
 $$\mathbf{\Delta = b^2 - 4ac}$$
 
-| Value ($\Delta$) | Meaning (Nature of Solutions) | Graphical Interpretation |
-| :--- | :--- | :--- |
-| **$\Delta > 0$** (Positive) | **Two distinct real solutions.** | Parabola crosses the x-axis twice. |
-| **$\Delta = 0$** (Zero) | **One real solution (repeated root).** | Parabola touches the x-axis once (at the vertex). |
-| **$\Delta < 0$** (Negative) | **Two complex (non-real) solutions.** | Parabola never crosses the x-axis. |
+| Value ($\Delta$)            | Meaning (Nature of Solutions)          | Graphical Interpretation                          |
+| :-------------------------- | :------------------------------------- | :------------------------------------------------ |
+| **$\Delta > 0$** (Positive) | **Two distinct real solutions.**       | Parabola crosses the x-axis twice.                |
+| **$\Delta = 0$** (Zero)     | **One real solution (repeated root).** | Parabola touches the x-axis once (at the vertex). |
+| **$\Delta < 0$** (Negative) | **Two complex (non-real) solutions.**  | Parabola never crosses the x-axis.                |
 
 #### **Example Calculation**
 
@@ -2645,4 +2647,33 @@ $$x = \frac{5 \pm i\sqrt{59}}{6}$$
 
 #### **Solutions**
 
-The two complex solutions are $\mathbf{x = \frac{5 \pm i\sqrt{59}}{6}}$.
+The two complex solutions are $\mathbf{x = \frac{5 \pm i\sqrt{59}}{6}}$.**[]()**
+### **Problem: Solve $\mathbf{\frac{2}{3}x^2 -\frac{5}{2}x + \frac{1}{4} = 0}$**
+
+This problem requires clearing fractions using the LCM before applying the Quadratic Formula.
+
+#### **1. Step 1: Clear Fractions (Multiply by LCM=12)**
+
+$$12 \left( \frac{2}{3}x^2 \right) - 12 \left( \frac{5}{2}x \right) + 12 \left( \frac{1}{4} \right) = 0$$
+$$\mathbf{8x^2 - 30x + 3 = 0}$$
+
+#### **2. Step 2: Identify $a, b, c$**
+
+$$a=8, \quad b=-30, \quad c=3$$
+
+#### **3. Step 3: Calculate the Discriminant ($\mathbf{\Delta}$)**
+
+$$\Delta = (-30)^2 - 4(8)(3)$$
+$$\Delta = 900 - 96$$
+$$\mathbf{\Delta = 804}$$
+
+#### **4. Step 4: Substitute and Simplify**
+
+$$x = \frac{-(-30) \pm \sqrt{804}}{2(8)}$$
+$$x = \frac{30 \pm 2\sqrt{201}}{16} \quad (\text{since } \sqrt{804} = 2\sqrt{201})$$
+
+#### **5. Step 5: Reduce Final Fraction**
+
+Divide the numerator (30 and $2\sqrt{201}$) and the denominator (16) by 2.
+
+$$\mathbf{x = \frac{15 \pm \sqrt{201}}{8}}$$
