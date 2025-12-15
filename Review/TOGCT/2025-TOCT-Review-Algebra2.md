@@ -2516,6 +2516,7 @@ This quadratic equation is solved using the **Difference of Squares** formula: $
 ## 2025-December-15-TOCT-How To Use The Quadratic Formula To Solve Equations : 
 https://www.youtube.com/watch?v=LKm3JVH5P7o
 - If you have a leading 'negative' ( $-x^2$ ) - then it's easier to multiply the entire equation by '-1' to flip it to work with 
+- **NO REAL SOLUTIONS** = if you have a 'negative' number in the discriminant $\sqrt{-7}$ , that means there are NO REAL SOLUTIONS, if it is '0' then you have one real solution, if it is greater than 0, you have 2 real soltuions 
 ### **The Quadratic Formula**
 
 The Quadratic Formula is used to find the solutions ($\mathbf{x}$) for **any** quadratic equation in the standard form $\mathbf{ax^2 + bx + c = 0}$.
@@ -2533,6 +2534,29 @@ $$\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$$
 | **3. Substitute**         | Plug $a, b, c$ into the formula.                  | $$x = \frac{-(-4) \pm \sqrt{(-4)^2 - 4(1)(-1)}}{2(1)}$$           |
 | **4. Simplify**           | Calculate the values and simplify the radical.    | $$x = \frac{4 \pm \sqrt{16 + 4}}{2} = \frac{4 \pm 2\sqrt{5}}{2}$$ |
 | **5. Final Solutions**    | Simplify the fraction.                            | $\mathbf{x = 2 \pm \sqrt{5}}$                                     |
+### **The Discriminant in the Quadratic Formula**
+
+The **discriminant** is the part of the Quadratic Formula found under the square root sign. It determines the number and type of solutions for a quadratic equation $\mathbf{ax^2 + bx + c = 0}$.
+
+#### **The Formula**
+
+$$\mathbf{\Delta = b^2 - 4ac}$$
+
+| Value ($\Delta$) | Meaning (Nature of Solutions) | Graphical Interpretation |
+| :--- | :--- | :--- |
+| **$\Delta > 0$** (Positive) | **Two distinct real solutions.** | Parabola crosses the x-axis twice. |
+| **$\Delta = 0$** (Zero) | **One real solution (repeated root).** | Parabola touches the x-axis once (at the vertex). |
+| **$\Delta < 0$** (Negative) | **Two complex (non-real) solutions.** | Parabola never crosses the x-axis. |
+
+#### **Example Calculation**
+
+**Equation:** $2x^2 + 5x - 3 = 0 \quad (a=2, b=5, c=-3)$
+
+$$\Delta = (5)^2 - 4(2)(-3)$$
+$$\Delta = 25 + 24$$
+$$\mathbf{\Delta = 49}$$
+
+**Result:** Since $\mathbf{49 > 0}$, there are **two distinct real solutions**.
 ### **Problem: Solve $\mathbf{8x - x^2 - 15 = 0}$ using the Quadratic Formula**
 
 #### **1. Step 1: Rearrange to Standard Form $\mathbf{ax^2 + bx + c = 0}$**
