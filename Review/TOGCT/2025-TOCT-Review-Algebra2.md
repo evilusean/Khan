@@ -2515,5 +2515,21 @@ This quadratic equation is solved using the **Difference of Squares** formula: $
 | **4. Solutions**   | Solve for $x$.                       | $\mathbf{x = \frac{8}{3}}$ and $\mathbf{x = -\frac{8}{3}}$ |
 ## 2025-December-15-TOCT-How To Use The Quadratic Formula To Solve Equations : 
 https://www.youtube.com/watch?v=LKm3JVH5P7o
+### **The Quadratic Formula**
 
+The Quadratic Formula is used to find the solutions ($\mathbf{x}$) for **any** quadratic equation in the standard form $\mathbf{ax^2 + bx + c = 0}$.
+
+#### **The Formula**
+
+$$\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$$
+
+#### **Steps for Using the Formula**
+
+| Step | Action | Example: Solve $\mathbf{x^2 - 4x = 1}$ |
+| :--- | :--- | :--- |
+| **1. Standard Form** | Set the equation to $\mathbf{ax^2 + bx + c = 0}$. | $$x^2 - 4x - 1 = 0$$ |
+| **2. Identify $a, b, c$** | $a=1, b=-4, c=-1$ | |
+| **3. Substitute** | Plug $a, b, c$ into the formula. | $$x = \frac{-(-4) \pm \sqrt{(-4)^2 - 4(1)(-1)}}{2(1)}$$ |
+| **4. Simplify** | Calculate the values and simplify the radical. | $$x = \frac{4 \pm \sqrt{16 + 4}}{2} = \frac{4 \pm 2\sqrt{5}}{2}$$ |
+| **5. Final Solutions** | Simplify the fraction. | $\mathbf{x = 2 \pm \sqrt{5}}$ |
 
