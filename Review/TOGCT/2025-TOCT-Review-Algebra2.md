@@ -2616,3 +2616,33 @@ $$x = \frac{-5 \pm i\sqrt{7}}{2}$$
 #### **Solutions**
 
 The two complex solutions are $\mathbf{x = \frac{-5 \pm i\sqrt{7}}{2}}$.
+### **Problem: Solve $\mathbf{3x^2 - 5x + 7 = 0}$ (Complex Solutions)**
+
+This problem demonstrates how a negative discriminant ($\Delta$) leads to complex solutions using the imaginary unit $\mathbf{i}$.
+
+#### **1. Identify $a, b, c$**
+
+$$a=3, \quad b=-5, \quad c=7$$
+
+#### **2. Calculate the Discriminant ($\mathbf{\Delta}$)**
+
+$$\Delta = b^2 - 4ac$$
+$$\Delta = (-5)^2 - 4(3)(7)$$
+$$\Delta = 25 - 84$$
+$$\mathbf{\Delta = -59}$$
+
+#### **3. Substitute into the Quadratic Formula**
+
+$$x = \frac{-b \pm \sqrt{\Delta}}{2a}$$
+$$x = \frac{-(-5) \pm \sqrt{-59}}{2(3)}$$
+$$x = \frac{5 \pm \sqrt{-59}}{6}$$
+
+#### **4. Use the Imaginary Unit $\mathbf{i}$**
+
+* **Conversion:** $\sqrt{-59} = \mathbf{i\sqrt{59}}$
+
+$$x = \frac{5 \pm i\sqrt{59}}{6}$$
+
+#### **Solutions**
+
+The two complex solutions are $\mathbf{x = \frac{5 \pm i\sqrt{59}}{6}}$.
