@@ -2586,3 +2586,33 @@ $$x = \frac{8 \pm 2}{2}$$
 #### **Solutions**
 
 The solutions are $\mathbf{x = 5}$ and $\mathbf{x = 3}$.
+### **Problem: Solve $\mathbf{x^2 + 5x + 8 = 0}$ (Complex Solutions)**
+
+This problem demonstrates solving a quadratic equation where the discriminant is negative, requiring the use of the imaginary number $\mathbf{i}$.
+
+#### **1. Identify $a, b, c$**
+
+$$a=1, \quad b=5, \quad c=8$$
+
+#### **2. Calculate the Discriminant ($\mathbf{\Delta}$)**
+
+$$\Delta = b^2 - 4ac$$
+$$\Delta = (5)^2 - 4(1)(8)$$
+$$\Delta = 25 - 32$$
+$$\mathbf{\Delta = -7}$$
+
+#### **3. Substitute into the Quadratic Formula**
+
+$$x = \frac{-b \pm \sqrt{\Delta}}{2a}$$
+$$x = \frac{-5 \pm \sqrt{-7}}{2}$$
+
+#### **4. Use the Imaginary Unit $\mathbf{i}$**
+
+* **Rule:** $\mathbf{i = \sqrt{-1}}$
+* **Conversion:** $\sqrt{-7} = \sqrt{7} \cdot \sqrt{-1} = i\sqrt{7}$
+
+$$x = \frac{-5 \pm i\sqrt{7}}{2}$$
+
+#### **Solutions**
+
+The two complex solutions are $\mathbf{x = \frac{-5 \pm i\sqrt{7}}{2}}$.
