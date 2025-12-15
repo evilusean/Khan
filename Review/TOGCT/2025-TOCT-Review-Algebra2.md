@@ -2533,4 +2533,32 @@ $$\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$$
 | **3. Substitute**         | Plug $a, b, c$ into the formula.                  | $$x = \frac{-(-4) \pm \sqrt{(-4)^2 - 4(1)(-1)}}{2(1)}$$           |
 | **4. Simplify**           | Calculate the values and simplify the radical.    | $$x = \frac{4 \pm \sqrt{16 + 4}}{2} = \frac{4 \pm 2\sqrt{5}}{2}$$ |
 | **5. Final Solutions**    | Simplify the fraction.                            | $\mathbf{x = 2 \pm \sqrt{5}}$                                     |
+### **Problem: Solve $\mathbf{8x - x^2 - 15 = 0}$ using the Quadratic Formula**
 
+#### **1. Step 1: Rearrange to Standard Form $\mathbf{ax^2 + bx + c = 0}$**
+
+* **Initial Rearrangement:** $-x^2 + 8x - 15 = 0$
+* **Multiply by -1:** $$x^2 - 8x + 15 = 0$$
+
+#### **2. Step 2: Identify $a, b, c$**
+
+$$a=1, \quad b=-8, \quad c=15$$
+
+#### **3. Step 3: Substitute into the Formula**
+
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$x = \frac{-(-8) \pm \sqrt{(-8)^2 - 4(1)(15)}}{2(1)}$$
+
+#### **4. Step 4: Simplify and Solve**
+
+$$x = \frac{8 \pm \sqrt{64 - 60}}{2}$$
+$$x = \frac{8 \pm \sqrt{4}}{2}$$
+$$x = \frac{8 \pm 2}{2}$$
+
+**Two Solutions:**
+* **$x_1$ (using +):** $x = \frac{8 + 2}{2} = \frac{10}{2} = \mathbf{5}$
+* **$x_2$ (using -):** $x = \frac{8 - 2}{2} = \frac{6}{2} = \mathbf{3}$
+
+#### **Solutions**
+
+The solutions are $\mathbf{x = 5}$ and $\mathbf{x = 3}$.
