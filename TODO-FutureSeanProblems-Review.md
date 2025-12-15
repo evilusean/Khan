@@ -51,15 +51,15 @@ Practice Set Notation + Set Builder Notation
 
 - $i$ imaginary numbers, I still have no idea what a '-i' is despite writing it down - I thought that the entire purpose of '-i' is to transfer the negative outside of a square root, but if we negative a negative... what?
 
-- **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
-- Quadratics - converting between forms - I still don't understand the concept 'Cut it in half and square it' and how that gives the answer while equation stays balanced - It's to 'complete the square and get a perfect square trinomial' to get right form - also using the vertex formula, substituting in ($\frac{-b}{2a}$) $f(\frac{-b}{-2a}$) and plugging in 'h' to get 'k', Ohhh, I see now, you get the 'x' value, and then plug that into the standard form equation to get 'y', need to practice : 
+- [x] **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
+- [ ] Quadratics - converting between forms - I still don't understand the concept 'Cut it in half and square it' and how that gives the answer while equation stays balanced - It's to 'complete the square and get a perfect square trinomial' to get right form - also using the vertex formula, substituting in ($\frac{-b}{2a}$) $f(\frac{-b}{-2a}$) and plugging in 'h' to get 'k', Ohhh, I see now, you get the 'x' value, and then plug that into the standard form equation to get 'y', need to practice :
   - **Standard Form** : $f(x) = ax^2 + bx +c$ 
 - **Vertex Form** : $a(x-h)^2 + k$ 
   - **Vertex Formula** (from standard form) : $\mathbf{f(x) = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \left(\frac{4ac - b^2}{4a}\right)}$ : The expressions for the vertex components are: * **$h = -\frac{b}{2a}$,** $k = \frac{4ac - b^2}{4a}$ 
 
 Solving/Graphing Quadratic Inequalities and Rational Inequalities 
 
-Exponential and Logarithmic Functions (Logarithmic Form Vs Exponential Form) :
+- [ ] Exponential and Logarithmic Functions (Logarithmic Form Vs Exponential Form) :
 **Logarithmic Function** : $f(x) = \log_a(x)$ : $a > 0, x > 0, a \neq 1$ : **Base ($a$):** Must be a positive number and cannot be equal to 1. **Argument ($x$):** Must be strictly positive ($x > 0$), which defines the **domain** of the function. : 
 **Exponential Function** : $f(x) = a^x$ : $a > 0, a \ne 1$ where 'x' is any real number greater than 0 and 'a' is not 1
 The general rule for conversion is:
