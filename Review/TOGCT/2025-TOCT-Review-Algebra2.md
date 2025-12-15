@@ -2513,6 +2513,6 @@ This quadratic equation is solved using the **Difference of Squares** formula: $
 | **2. Factor**      | Identify $a=3x$ and $b=8$.           | $$(3x - 8)(3x + 8) = 0$$                                   |
 | **3. Apply ZPP**   | Set each factor to zero.             | $3x - 8 = 0 \quad \text{and} \quad 3x + 8 = 0$             |
 | **4. Solutions**   | Solve for $x$.                       | $\mathbf{x = \frac{8}{3}}$ and $\mathbf{x = -\frac{8}{3}}$ |
-
+## 2025-December-15-TOCT-How To Use The Quadratic Formula To Solve Equations :  
 
 
