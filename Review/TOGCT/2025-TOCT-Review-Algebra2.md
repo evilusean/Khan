@@ -2833,3 +2833,33 @@ Because you cannot leave an imaginary number ($i$) in the denominator of a fract
 3.  **Numerator:** $5(2 - i) = 10 - 5i$
 4.  **Denominator:** $(2 + i)(2 - i) = 2^2 + 1^2 = 5$
 5.  **Simplify:** $$\frac{10 - 5i}{5} = \mathbf{2 - i}$$
+### **Problem: Divide $\mathbf{\frac{7+2i}{5i}}$**
+
+When a denominator is a pure imaginary number (like $5i$), you can clear it by multiplying the top and bottom by $i$ (or by the conjugate $-5i$). Multiplying by $i$ is usually the quickest way to turn the denominator into a real number.
+
+#### **1. Multiply by $i$**
+Multiply both the numerator and the denominator by $i$:
+$$\frac{7+2i}{5i} \times \frac{i}{i}$$
+
+#### **2. Expand the Numerator**
+Distribute the $i$ to both terms:
+$$(7 \cdot i) + (2i \cdot i)$$
+$$7i + 2i^2$$
+Substitute $i^2 = -1$:
+$$7i + 2(-1) = \mathbf{-2 + 7i}$$
+
+#### **3. Expand the Denominator**
+Multiply the bottom terms:
+$$5i \cdot i = 5i^2$$
+Substitute $i^2 = -1$:
+$$5(-1) = \mathbf{-5}$$
+
+#### **4. Simplify the Fraction**
+Combine the results and divide each term by $-5$:
+$$\frac{-2 + 7i}{-5}$$
+
+#### **Final Standard Form ($a + bi$)**
+$$\frac{-2}{-5} + \frac{7i}{-5}$$
+$$\mathbf{\frac{2}{5} - \frac{7}{5}i}$$
+
+**Result:** The simplified complex number is $\mathbf{\frac{2}{5} - \frac{7}{5}i}$ (or $0.4 - 1.4i$).
