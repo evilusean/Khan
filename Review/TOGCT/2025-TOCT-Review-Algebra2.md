@@ -2891,3 +2891,27 @@ $$\mathbf{y = -\frac{1}{5}}$$
 
 ---
 **Note:** When equating imaginary parts, the $i$ cancels out on both sides, allowing you to solve for the variable directly.
+### **Problem: Solve $\mathbf{x^2 + 36 = 0}$**
+
+This is a quadratic equation where the $b$ term (the linear $x$ term) is zero, making it a perfect candidate for the **Square Root Property**.
+
+#### **1. Isolate the $x^2$ term**
+Subtract 36 from both sides of the equation:
+$$x^2 = -36$$
+
+#### **2. Take the Square Root of both sides**
+Apply the square root to both sides. Remember to include the $\pm$ symbol to account for both possible roots:
+$$x = \pm\sqrt{-36}$$
+
+#### **3. Simplify using the Imaginary Unit $i$**
+Since we cannot take the square root of a negative number in the real number system, we use the definition $\mathbf{\sqrt{-1} = i}$:
+$$x = \pm\sqrt{36} \cdot \sqrt{-1}$$
+$$x = \pm 6i$$
+
+#### **4. Graphical Interpretation**
+Because the solutions are purely imaginary, the parabola $y = x^2 + 36$ never crosses the x-axis. The entire graph sits 36 units above the origin.
+
+
+
+#### **Final Solutions**
+$$\mathbf{x = 6i, \quad x = -6i}$$
