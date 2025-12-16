@@ -2678,3 +2678,4 @@ Divide the numerator (30 and $2\sqrt{201}$) and the denominator (16) by 2.
 
 $$\mathbf{x = \frac{15 \pm \sqrt{201}}{8}}$$
 ## 2025-Decemeber-16-TOCT-Imaginary Numbers - Basic Introduction : 
+https://www.youtube.com/watch?v=vRJqPo_zcnQ
