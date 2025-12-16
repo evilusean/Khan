@@ -2679,3 +2679,69 @@ Divide the numerator (30 and $2\sqrt{201}$) and the denominator (16) by 2.
 $$\mathbf{x = \frac{15 \pm \sqrt{201}}{8}}$$
 ## 2025-Decemeber-16-TOCT-Imaginary Numbers - Basic Introduction : 
 https://www.youtube.com/watch?v=vRJqPo_zcnQ
+# Complex and Imaginary Numbers
+
+When solving quadratic equations, we often encounter the square root of a negative number (e.g., $\sqrt{-7}$). Since no real number multiplied by itself results in a negative value, we use the **imaginary unit**.
+
+---
+
+### 1. The Imaginary Unit ($i$)
+The imaginary unit is defined by the property:
+$$\mathbf{i = \sqrt{-1}}$$
+
+Consequently, squaring $i$ removes the radical:
+$$\mathbf{i^2 = -1}$$
+
+---
+
+### 2. Complex Numbers in Standard Form
+A **complex number** combines a real part and an imaginary part. 
+**Standard Form:** $$\mathbf{a + bi}$$
+
+* **$a$**: The **Real Part**
+* **$bi$**: The **Imaginary Part** ($b$ is a real number)
+
+> [!INFO] Definitions
+> * If $b = 0$, the number is a **purely real number**.
+> * If $a = 0$ and $b \neq 0$, it is a **purely imaginary number**.
+
+---
+
+### 3. Simplifying Negative Radicals
+To simplify the square root of a negative number, factor out $\sqrt{-1}$ as $i$.
+* **Rule:** $\sqrt{-x} = i\sqrt{x}$
+* **Example 1:** $\sqrt{-25} = \sqrt{25} \cdot \sqrt{-1} = \mathbf{5i}$
+* **Example 2:** $\sqrt{-12} = \sqrt{4 \cdot 3 \cdot -1} = \mathbf{2i\sqrt{3}}$
+
+---
+
+### 4. The Powers of $i$ (Cyclic Property)
+The powers of $i$ repeat in a cycle of four. To solve for high powers, divide the exponent by 4 and look at the remainder.
+
+| Power | Simplified |
+| :--- | :--- |
+| $i^1$ | $\mathbf{i}$ |
+| $i^2$ | $\mathbf{-1}$ |
+| $i^3$ | $\mathbf{-i}$ |
+| $i^4$ | $\mathbf{1}$ |
+
+---
+
+### 5. Complex Conjugates
+For any complex number $a + bi$, its **complex conjugate** is $\mathbf{a - bi}$.
+* **Significance:** When you multiply a complex number by its conjugate, the $i$ terms cancel out, resulting in a **real number**:
+  $$(a + bi)(a - bi) = a^2 + b^2$$
+
+---
+
+### 6. Operations with Complex Numbers
+
+| Operation | Method | Example |
+| :--- | :--- | :--- |
+| **Addition** | Combine like terms (Real + Real, Imag + Imag). | $(3+2i) + (1-4i) = \mathbf{4 - 2i}$ |
+| **Subtraction** | Distribute the negative, then combine like terms. | $(3+2i) - (1-4i) = \mathbf{2 + 6i}$ |
+| **Multiplication** | Use **FOIL**, then replace $i^2$ with $-1$. | $(2+i)(3-i) = 6 - 2i + 3i - i^2 = \mathbf{7 + i}$ |
+
+---
+**Related Notes:** - [[The Quadratic Formula]]
+- [[The Discriminant]]
