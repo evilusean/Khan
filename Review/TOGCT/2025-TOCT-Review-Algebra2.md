@@ -2679,6 +2679,9 @@ Divide the numerator (30 and $2\sqrt{201}$) and the denominator (16) by 2.
 $$\mathbf{x = \frac{15 \pm \sqrt{201}}{8}}$$
 ## 2025-Decemeber-16-TOCT-Imaginary Numbers - Basic Introduction : 
 https://www.youtube.com/watch?v=vRJqPo_zcnQ
+- When adding / subtracting 'i'maginary numbers, simply combine like terms
+- when simplifying, '$i^2 = -1$' and '$i^4 = 1$' so you can work out the 'i's if it is one of those exponents. 
+- To divide complex numbers, you must multiply both the numerator and the denominator by the complex conjugate of the denominator. This process "rationalizes" the denominator, turning it into a real number
 ### Complex and Imaginary Numbers
 
 When solving quadratic equations, we often encounter the square root of a negative number (e.g., $\sqrt{-7}$). Since no real number multiplied by itself results in a negative value, we use the **imaginary unit**.
@@ -2759,3 +2762,26 @@ $$(10 - 28) + (15i + 8i)$$
 $$\mathbf{-18 + 23i}$$
 
 **Result:** The simplified complex number is $\mathbf{-18 + 23i}$.
+### **Problem: Divide $\mathbf{\frac{3+2i}{4-3i}}$**
+
+To divide complex numbers, multiply the numerator and denominator by the **complex conjugate** of the denominator to eliminate the $i$ from the bottom.
+
+#### **1. Multiply by the Conjugate**
+The conjugate of $4-3i$ is $4+3i$.
+$$\frac{3+2i}{4-3i} \times \frac{4+3i}{4+3i}$$
+
+#### **2. Expand the Numerator (FOIL)**
+$$(3 \cdot 4) + (3 \cdot 3i) + (2i \cdot 4) + (2i \cdot 3i)$$
+$$12 + 9i + 8i + 6i^2$$
+Substitute $i^2 = -1$:
+$$12 + 17i - 6 = \mathbf{6 + 17i}$$
+
+#### **3. Expand the Denominator**
+Using $(a-bi)(a+bi) = a^2 + b^2$:
+$$4^2 + 3^2 = 16 + 9 = \mathbf{25}$$
+
+#### **4. Final Standard Form ($a + bi$)**
+Combine the results:
+$$\frac{6 + 17i}{25}$$
+
+**Result:** $$\mathbf{\frac{6}{25} + \frac{17}{25}i}$$
