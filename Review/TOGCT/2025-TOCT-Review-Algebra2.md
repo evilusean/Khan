@@ -2915,3 +2915,29 @@ Because the solutions are purely imaginary, the parabola $y = x^2 + 36$ never cr
 
 #### **Final Solutions**
 $$\mathbf{x = 6i, \quad x = -6i}$$
+### **Problem: Find the Absolute Value $|4+3i|$**
+
+The absolute value (or modulus) of a complex number $a + bi$ is defined as the distance from the origin to the point in the complex plane.
+
+#### **1. The Formula**
+For any complex number $z = a + bi$, the absolute value $|z|$ is calculated using:
+$$\mathbf{|a + bi| = \sqrt{a^2 + b^2}}$$
+
+#### **2. Identify $a$ and $b$**
+In the expression $|4 + 3i|$:
+* **$a = 4$** (the real part)
+* **$b = 3$** (the imaginary part)
+
+#### **3. Substitute and Solve**
+$$\sqrt{(4)^2 + (3)^2}$$
+$$\sqrt{16 + 9}$$
+$$\sqrt{25}$$
+$$\mathbf{5}$$
+
+#### **4. Geometric Interpretation**
+If you plot the point $(4, 3)$ on a coordinate plane (where the x-axis is Real and the y-axis is Imaginary), the distance from $(0,0)$ to that point is exactly 5 units. This is essentially the **Pythagorean Theorem** ($a^2 + b^2 = c^2$) applied to a complex number.
+
+
+
+#### **Final Answer**
+$$\mathbf{|4+3i| = 5}$$
