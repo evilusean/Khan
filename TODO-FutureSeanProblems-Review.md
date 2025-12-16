@@ -49,7 +49,7 @@ Practice Set Notation + Set Builder Notation
 
 - [x] Factoring and using the **Zero Product Property** ($x^2 + x + c = 0$) to find the solutions - Quadratic Trinomial, Difference of Squares, 
 
-- $i$ imaginary numbers, I still have no idea what a '-i' is despite writing it down - I thought that the entire purpose of '-i' is to transfer the negative outside of a square root, but if we negative a negative... what?
+- [x] $i$ imaginary numbers, I still have no idea what a '-i' is despite writing it down - I thought that the entire purpose of '-i' is to transfer the negative outside of a square root, but if we negative a negative... what?
 
 - [x] **Quadratic Formula** : $\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$ : a universal tool that provides the solutions (or roots) for any quadratic equation in the standard form $ax^2 + bx+c=0$ , regardless of whether the solutions are real or complex.
 - [ ] Quadratics - converting between forms - I still don't understand the concept 'Cut it in half and square it' and how that gives the answer while equation stays balanced - It's to 'complete the square and get a perfect square trinomial' to get right form - also using the vertex formula, substituting in ($\frac{-b}{2a}$) $f(\frac{-b}{-2a}$) and plugging in 'h' to get 'k', Ohhh, I see now, you get the 'x' value, and then plug that into the standard form equation to get 'y', need to practice :
