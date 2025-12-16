@@ -2863,3 +2863,31 @@ $$\frac{-2}{-5} + \frac{7i}{-5}$$
 $$\mathbf{\frac{2}{5} - \frac{7}{5}i}$$
 
 **Result:** The simplified complex number is $\mathbf{\frac{2}{5} - \frac{7}{5}i}$ (or $0.4 - 1.4i$).
+### **Problem: Solve the Complex Equation $\mathbf{4x + 3i = 12 - 15yi}$**
+
+To find the values of $x$ and $y$, we split the equation into two separate parts: one for real numbers and one for imaginary numbers.
+
+#### **1. Separate the Parts**
+* **Real Parts:** The terms without $i$ on both sides.
+* **Imaginary Parts:** The coefficients of $i$ on both sides.
+
+#### **2. Solve for $x$ (Real Part)**
+Equate the real terms from both sides:
+$$4x = 12$$
+Divide by 4:
+$$\mathbf{x = 3}$$
+
+#### **3. Solve for $y$ (Imaginary Part)**
+Equate the coefficients of $i$ (the imaginary terms) from both sides:
+$$3 = -15y$$
+Divide by -15:
+$$y = \frac{3}{-15}$$
+Simplify the fraction:
+$$\mathbf{y = -\frac{1}{5}}$$
+
+#### **Summary of Solutions**
+* **$x = 3$**
+* **$y = -\frac{1}{5}$** (or $-0.2$)
+
+---
+**Note:** When equating imaginary parts, the $i$ cancels out on both sides, allowing you to solve for the variable directly.
