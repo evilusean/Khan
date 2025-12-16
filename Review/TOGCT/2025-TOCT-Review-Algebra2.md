@@ -2785,3 +2785,51 @@ Combine the results:
 $$\frac{6 + 17i}{25}$$
 
 **Result:** $$\mathbf{\frac{6}{25} + \frac{17}{25}i}$$
+### Complex Conjugates
+
+A **complex conjugate** is a pair of complex numbers that are identical except for the sign of their imaginary parts. Using a conjugate is the standard method for "rationalizing" a denominator that contains $i$.
+
+---
+
+#### 1. Definition
+For any complex number in standard form $a + bi$, its **complex conjugate** is:
+$$\mathbf{a - bi}$$
+
+| Complex Number     | Complex Conjugate   |
+| :----------------- | :------------------ |
+| $3 + 4i$           | $3 - 4i$            |
+| $5 - 2i$           | $5 + 2i$            |
+| $-7 + i$           | $-7 - i$            |
+| $6i$ (or $0 + 6i$) | $-6i$ (or $0 - 6i$) |
+
+---
+
+#### 2. The Conjugate Property
+The most important property of conjugates is that when you multiply them together, the result is always a **purely real number**. The middle terms ($bi$ and $-bi$) cancel out, and $i^2$ becomes $-1$.
+
+**The Formula:**
+$$(a + bi)(a - bi) = a^2 + b^2$$
+
+**Example:**
+$$(4 + 3i)(4 - 3i) = 16 + 12i - 12i - 9i^2$$
+$$= 16 - 9(-1)$$
+$$= 16 + 9 = \mathbf{25}$$
+
+---
+
+#### 3. Using Conjugates to Clear the Denominator
+Because you cannot leave an imaginary number ($i$) in the denominator of a fraction, we use the conjugate to move the $i$ to the numerator.
+
+#### **Process:**
+1.  Identify the conjugate of the denominator.
+2.  Multiply both the **top** and the **bottom** of the fraction by that conjugate.
+3.  Simplify the numerator using FOIL.
+4.  Simplify the denominator using the $a^2 + b^2$ property.
+
+#### **Example: $\frac{5}{2 + i}$**
+
+1.  **Conjugate of denominator:** $2 - i$
+2.  **Multiply:** $$\frac{5}{2 + i} \cdot \frac{2 - i}{2 - i}$$
+3.  **Numerator:** $5(2 - i) = 10 - 5i$
+4.  **Denominator:** $(2 + i)(2 - i) = 2^2 + 1^2 = 5$
+5.  **Simplify:** $$\frac{10 - 5i}{5} = \mathbf{2 - i}$$
