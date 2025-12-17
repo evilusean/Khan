@@ -3223,3 +3223,4 @@ The vertex of the parabola is **$(3.5, 4.5)$**.
 * **Axis of Symmetry:** The vertical line passing through the vertex is $x = 3.5$.
 
 ## 2025-December-16 -TOCT -  Standard Form to Vertex Form Without Completing The Square Method Algebra 2 :
+https://www.youtube.com/watch?v=ZWAzSJOq2z0
