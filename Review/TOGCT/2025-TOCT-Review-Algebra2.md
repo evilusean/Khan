@@ -2998,6 +2998,58 @@ It is easy to get confused because "Standard Form" is used in two ways. Both use
 
 ---
 **Extra Note:** If you see $y = a(x-h)^2 + k$, this is **Vertex Form**, not Standard Form. Always convert to $ax^2 + bx + c$ if you need to use the Quadratic Formula!
+### **Vertex Form: $y = a(x - h)^2 + k$**
+
+The Vertex Form of a quadratic function is designed to make the vertex $(h, k)$ immediately visible. However, there is a common "trap": you must switch the sign of the number inside the parentheses, but keep the sign of the number outside.
+
+---
+
+### **1. Why the sign of $h$ flips**
+In the standard formula, the $h$ is preceded by a **minus sign**: $(x - h)$. 
+
+* **The Logic:** The vertex of the "parent" function $y = x^2$ is at $(0,0)$. To find the new vertex, we ask: *"What value of $x$ makes the inside of the parentheses zero?"*
+* **Example 1:** $y = (x - 5)^2$
+    * To make $(x - 5)$ equal zero, $x$ must be **$+5$**. 
+    * The vertex $h$ is **5**.
+* **Example 2:** $y = (x + 5)^2$
+    * This is technically $y = (x - (-5))^2$. 
+    * To make $(x + 5)$ equal zero, $x$ must be **$-5$**. 
+    * The vertex $h$ is **-5**.
+
+**Rule of Thumb:** If it's "minus" in the bracket, $h$ is positive. If it's "plus" in the bracket, $h$ is negative. **Think: "Opposite of what I see."**
+
+---
+
+### **2. Why the sign of $k$ stays the same**
+The $k$ value is outside the parentheses and is added directly to the total $y$ value.
+
+* **The Logic:** $k$ represents a vertical shift. If the equation has $+7$ at the end, the entire graph moves **up** 7 units. If it has $-7$, it moves **down** 7 units. 
+* **Example:** $y = (x - 2)^2 + 3$
+    * The $+3$ at the end means the $y$-coordinate is exactly **3**.
+
+**Rule of Thumb:** Keep the sign exactly as it is written. **Think: "Exactly what I see."**
+
+---
+
+### **3. Quick Reference Summary**
+
+| Equation Component | Effect on Vertex | Action |
+| :--- | :--- | :--- |
+| **$(x - h)$** | Horizontal Shift | **Switch** the sign |
+| **$+ k$** | Vertical Shift | **Keep** the sign |
+
+
+
+---
+
+### **Examples for Practice**
+
+* **Equation:** $y = 3(x - 4)^2 + 10$
+    * $h = 4$, $k = 10 \rightarrow$ Vertex: **$(4, 10)$**
+* **Equation:** $y = -2(x + 8)^2 - 5$
+    * $h = -8$, $k = -5 \rightarrow$ Vertex: **$(-8, -5)$**
+* **Equation:** $y = (x - 1)^2$
+    * $h = 1$, $k = 0 \rightarrow$ Vertex: **$(1, 0)$**
 ### Problem: Find the Vertex of $y = -2x^2 + 8x - 5$
 
 This equation is in **Standard Form** ($y = ax^2 + bx + c$). We find the vertex $(h, k)$ by first calculating the x-coordinate ($h$) and then solving for the y-coordinate ($k$).
