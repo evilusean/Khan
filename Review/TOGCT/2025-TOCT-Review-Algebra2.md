@@ -2944,3 +2944,28 @@ $$\mathbf{|4+3i| = 5}$$
 
 ## 2025-December-17-TOCT- How To Find The Vertex of a Parabola - Standard Form, Factored & Vertex Form : 
 https://www.youtube.com/watch?v=qsA3e5lGwKo
+### **Finding the Vertex of a Parabola**
+
+The vertex $(h, k)$ represents the turning point of a quadratic function.
+
+#### **1. Standard Form: $y = ax^2 + bx + c$**
+* **X-coordinate ($h$):** $x = \frac{-b}{2a}$
+* **Y-coordinate ($k$):** Plug $x$ back into the original equation.
+* *Key Takeaway:* Use this when the equation is fully expanded.
+
+#### **2. Factored Form: $y = a(x - r_1)(x - r_2)$**
+* **X-coordinate ($h$):** $x = \frac{r_1 + r_2}{2}$ (The average of the roots)
+* **Y-coordinate ($k$):** Plug $x$ back into the original equation.
+* *Key Takeaway:* The vertex is always on the Axis of Symmetry, which is halfway between the intercepts.
+
+#### **3. Vertex Form: $y = a(x - h)^2 + k$**
+* **Vertex:** $(h, k)$
+* *Key Takeaway:* Remember to flip the sign for $h$. If the equation says $(x - 3)$, $h$ is positive 3. If it says $(x + 3)$, $h$ is negative 3.
+
+---
+**Summary of Methods**
+| Form | Vertex |
+| --- | --- |
+| **Standard** | $(\frac{-b}{2a}, f(\frac{-b}{2a}))$ |
+| **Factored** | $(\frac{r_1 + r_2}{2}, f(\frac{r_1 + r_2}{2}))$ |
+| **Vertex** | $(h, k)$ |
