@@ -3026,3 +3026,31 @@ The vertex of the parabola is **$(2, 3)$**.
 
 ---
 **Note:** Since $a = -2$ (a negative number), this parabola opens downward, meaning the vertex $(2, 3)$ is the **maximum point** of the function.
+
+### Problem: Find the Vertex of $y = 4x^2 - 12x$
+
+This equation is in **Standard Form** ($y = ax^2 + bx + c$). Because there is no constant term, $c = 0$. We find the vertex $(h, k)$ by solving for $x$ first and then plugging that value back in to find $y$.
+
+#### 1. Identify the Coefficients
+* $a = 4$
+* $b = -12$
+* $c = 0$
+
+#### 2. Calculate the x-coordinate ($h$)
+Use the formula $x = \frac{-b}{2a}$:
+$$x = \frac{-(-12)}{2(4)}$$
+$$x = \frac{12}{8}$$
+$$\mathbf{x = 1.5} \quad \text{or} \quad \mathbf{\frac{3}{2}}$$
+
+#### 3. Calculate the y-coordinate ($k$)
+Substitute $x = 1.5$ back into the original equation:
+$$y = 4(1.5)^2 - 12(1.5)$$
+$$y = 4(2.25) - 18$$
+$$y = 9 - 18$$
+$$\mathbf{y = -9}$$
+
+#### Final Answer
+The vertex of the parabola is **$(1.5, -9)$**.
+
+---
+**Note:** Since $a = 4$ (a positive number), this parabola opens upward, meaning the vertex $(1.5, -9)$ is the **minimum point** of the function.
