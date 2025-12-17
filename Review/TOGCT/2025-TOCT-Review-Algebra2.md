@@ -3054,3 +3054,36 @@ The vertex of the parabola is **$(1.5, -9)$**.
 
 ---
 **Note:** Since $a = 4$ (a positive number), this parabola opens upward, meaning the vertex $(1.5, -9)$ is the **minimum point** of the function.
+### **Problem: Find the Vertex of $y = 2x^2 - 9$**
+
+This equation is in **Standard Form** ($y = ax^2 + bx + c$). In this specific case, the $b$ term is missing, which simplifies the math significantly.
+
+#### **1. Identify the Coefficients**
+* **$a = 2$**
+* **$b = 0$** (Because there is no $x$ term)
+* **$c = -9$**
+
+#### **2. Calculate the x-coordinate ($h$)**
+Use the vertex formula:
+$$x = \frac{-b}{2a}$$
+$$x = \frac{-(0)}{2(2)}$$
+$$\mathbf{x = 0}$$
+
+#### **3. Calculate the y-coordinate ($k$)**
+Substitute $x = 0$ back into the original equation:
+$$y = 2(0)^2 - 9$$
+$$y = 0 - 9$$
+$$\mathbf{y = -9}$$
+
+#### **Final Answer**
+The vertex of the parabola is **$(0, -9)$**.
+
+---
+
+### **Extra Notes for Study**
+
+* **Symmetry:** Whenever $b = 0$, the vertex will always have an x-coordinate of $0$. This means the parabola is centered on the **y-axis**, making the y-axis the Axis of Symmetry.
+* **Vertex Form vs. Standard Form:** This equation can actually be viewed in both forms simultaneously:
+    * Standard: $y = 2x^2 + 0x - 9$
+    * Vertex: $y = 2(x - 0)^2 - 9$
+* **Direction:** Since $a = 2$ (positive), the parabola opens **upward**, and the vertex $(0, -9)$ is the **minimum point**.
