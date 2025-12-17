@@ -3033,10 +3033,10 @@ The $k$ value is outside the parentheses and is added directly to the total $y$ 
 
 ### **3. Quick Reference Summary**
 
-| Equation Component | Effect on Vertex | Action |
-| :--- | :--- | :--- |
-| **$(x - h)$** | Horizontal Shift | **Switch** the sign |
-| **$+ k$** | Vertical Shift | **Keep** the sign |
+| Equation Component | Effect on Vertex | Action              |
+| :----------------- | :--------------- | :------------------ |
+| **$(x - h)$**      | Horizontal Shift | **Switch** the sign |
+| **$+ k$**          | Vertical Shift   | **Keep** the sign   |
 
 
 
@@ -3050,6 +3050,55 @@ The $k$ value is outside the parentheses and is added directly to the total $y$ 
     * $h = -8$, $k = -5 \rightarrow$ Vertex: **$(-8, -5)$**
 * **Equation:** $y = (x - 1)^2$
     * $h = 1$, $k = 0 \rightarrow$ Vertex: **$(1, 0)$**
+### Finding the Vertex from Factored Form: $y = a(x - r_1)(x - r_2)$
+
+In factored form (also called intercept form), the vertex is found by leveraging the **symmetry** of the parabola. Because a parabola is perfectly symmetrical, the vertex always lies exactly on the **Axis of Symmetry**, which is the vertical line halfway between the two x-intercepts.
+
+---
+
+#### 1. Identify the Intercepts (Roots)
+First, find the two values of $x$ that make $y = 0$. 
+* For the factor $(x - r_1)$, the intercept is $r_1$.
+* For the factor $(x - r_2)$, the intercept is $r_2$.
+*(Remember: The signs will be the opposite of what you see in the parentheses).*
+
+#### 2. Find the x-coordinate ($h$): The Midpoint
+Calculate the average of the two intercepts to find the "middle" of the parabola:
+$$\mathbf{x = \frac{r_1 + r_2}{2}}$$
+
+#### 3. Find the y-coordinate ($k$)
+To find the height of the vertex, plug your new $x$ value back into the original factored equation and solve for $y$.
+
+---
+
+#### Example: Find the vertex of $y = (x - 2)(x - 4)$
+
+**Step 1: Identify the Intercepts**
+* The roots are **2** and **4**.
+
+**Step 2: Find the Midpoint (x-coordinate)**
+$$x = \frac{2 + 4}{2} = \frac{6}{2}$$
+$$\mathbf{x = 3}$$
+
+**Step 3: Find the y-coordinate**
+Plug $x = 3$ into the original equation:
+$$y = (3 - 2)(3 - 4)$$
+$$y = (1)(-1)$$
+$$\mathbf{y = -1}$$
+
+**Result:** The vertex is **$(3, -1)$**.
+
+---
+
+#### Visualizing the Symmetry
+If you plot the intercepts at $x=2$ and $x=4$ on a graph, the center point between them is $x=3$. The parabola must turn around at this center line, which is why the vertex $x$-value is always the midpoint.
+
+| Feature                 | Value |
+| :---------------------- | :---- |
+| **Left Intercept**      | 2     |
+| **Right Intercept**     | 4     |
+| **Midpoint (Vertex X)** | 3     |
+| **Vertex Y**            | -1    |
 ### Problem: Find the Vertex of $y = -2x^2 + 8x - 5$
 
 This equation is in **Standard Form** ($y = ax^2 + bx + c$). We find the vertex $(h, k)$ by first calculating the x-coordinate ($h$) and then solving for the y-coordinate ($k$).
