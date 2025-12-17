@@ -2964,8 +2964,37 @@ The vertex $(h, k)$ represents the turning point of a quadratic function.
 
 ---
 **Summary of Methods**
+
 | Form | Vertex |
 | --- | --- |
 | **Standard** | $(\frac{-b}{2a}, f(\frac{-b}{2a}))$ |
 | **Factored** | $(\frac{r_1 + r_2}{2}, f(\frac{r_1 + r_2}{2}))$ |
 | **Vertex** | $(h, k)$ |
+### **The Difference: Quadratic Equations vs. Functions**
+
+It is easy to get confused because "Standard Form" is used in two ways. Both use the structure $ax^2 + bx + c$, but they serve different goals.
+
+#### **1. Standard Form of an Equation**
+**Formula:** $$ax^2 + bx + c = 0$$
+* **Goal:** To find the **solutions** (roots).
+* **When to use:** Use this when you are solving for $x$ using the Quadratic Formula or Factoring. 
+* **Meaning:** You are specifically looking for the x-intercepts (where $y$ is $0$).
+
+#### **2. Standard Form of a Function**
+**Formula:** $$f(x) = ax^2 + bx + c \quad \text{or} \quad y = ax^2 + bx + c$$
+* **Goal:** To describe a **graph** (parabola).
+* **When to use:** Use this for graphing. The "c" value is your y-intercept, and the "a" value tells you if it opens up or down.
+* **Meaning:** This represents every possible point $(x, y)$ on the curve.
+
+---
+
+### **Summary Table**
+
+| Feature | Equation ($= 0$) | Function ($y = \dots$) |
+| :--- | :--- | :--- |
+| **Primary Goal** | Solving for $x$ | Graphing the shape |
+| **Result** | 1 or 2 specific numbers | A visual curve (parabola) |
+| **Example** | $x^2 - 5x + 6 = 0$ | $y = x^2 - 5x + 6$ |
+
+---
+**Extra Note:** If you see $y = a(x-h)^2 + k$, this is **Vertex Form**, not Standard Form. Always convert to $ax^2 + bx + c$ if you need to use the Quadratic Formula!
