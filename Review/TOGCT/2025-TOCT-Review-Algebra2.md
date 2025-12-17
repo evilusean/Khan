@@ -3221,3 +3221,5 @@ The vertex of the parabola is **$(3.5, 4.5)$**.
 * **Direction:** Since $a = -2$ (negative), the parabola opens **downward**.
 * **Maximum Point:** Because it opens downward, the vertex $(3.5, 4.5)$ is the **maximum value** of the function.
 * **Axis of Symmetry:** The vertical line passing through the vertex is $x = 3.5$.
+
+## 2025-December-16 -TOCT -  Standard Form to Vertex Form Without Completing The Square Method Algebra 2 :
