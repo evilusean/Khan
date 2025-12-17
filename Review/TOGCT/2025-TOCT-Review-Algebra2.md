@@ -2965,11 +2965,11 @@ The vertex $(h, k)$ represents the turning point of a quadratic function.
 ---
 **Summary of Methods**
 
-| Form | Vertex |
-| --- | --- |
-| **Standard** | $(\frac{-b}{2a}, f(\frac{-b}{2a}))$ |
+| Form         | Vertex                                          |
+| ------------ | ----------------------------------------------- |
+| **Standard** | $(\frac{-b}{2a}, f(\frac{-b}{2a}))$             |
 | **Factored** | $(\frac{r_1 + r_2}{2}, f(\frac{r_1 + r_2}{2}))$ |
-| **Vertex** | $(h, k)$ |
+| **Vertex**   | $(h, k)$                                        |
 ### **The Difference: Quadratic Equations vs. Functions**
 
 It is easy to get confused because "Standard Form" is used in two ways. Both use the structure $ax^2 + bx + c$, but they serve different goals.
@@ -2990,11 +2990,39 @@ It is easy to get confused because "Standard Form" is used in two ways. Both use
 
 ### **Summary Table**
 
-| Feature | Equation ($= 0$) | Function ($y = \dots$) |
-| :--- | :--- | :--- |
-| **Primary Goal** | Solving for $x$ | Graphing the shape |
-| **Result** | 1 or 2 specific numbers | A visual curve (parabola) |
-| **Example** | $x^2 - 5x + 6 = 0$ | $y = x^2 - 5x + 6$ |
+| Feature          | Equation ($= 0$)        | Function ($y = \dots$)    |
+| :--------------- | :---------------------- | :------------------------ |
+| **Primary Goal** | Solving for $x$         | Graphing the shape        |
+| **Result**       | 1 or 2 specific numbers | A visual curve (parabola) |
+| **Example**      | $x^2 - 5x + 6 = 0$      | $y = x^2 - 5x + 6$        |
 
 ---
 **Extra Note:** If you see $y = a(x-h)^2 + k$, this is **Vertex Form**, not Standard Form. Always convert to $ax^2 + bx + c$ if you need to use the Quadratic Formula!
+### Problem: Find the Vertex of $y = -2x^2 + 8x - 5$
+
+This equation is in **Standard Form** ($y = ax^2 + bx + c$). We find the vertex $(h, k)$ by first calculating the x-coordinate ($h$) and then solving for the y-coordinate ($k$).
+
+#### 1. Identify the Coefficients
+* $a = -2$
+* $b = 8$
+* $c = -5$
+
+#### 2. Calculate the x-coordinate ($h$)
+Use the formula $x = \frac{-b}{2a}$:
+$$x = \frac{-(8)}{2(-2)}$$
+$$x = \frac{-8}{-4}$$
+$$\mathbf{x = 2}$$
+
+#### 3. Calculate the y-coordinate ($k$)
+Substitute $x = 2$ back into the original equation:
+$$y = -2(2)^2 + 8(2) - 5$$
+$$y = -2(4) + 16 - 5$$
+$$y = -8 + 16 - 5$$
+$$y = 8 - 5$$
+$$\mathbf{y = 3}$$
+
+#### Final Answer
+The vertex of the parabola is **$(2, 3)$**.
+
+---
+**Note:** Since $a = -2$ (a negative number), this parabola opens downward, meaning the vertex $(2, 3)$ is the **maximum point** of the function.
