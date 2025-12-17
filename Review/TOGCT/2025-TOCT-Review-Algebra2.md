@@ -2943,3 +2943,4 @@ If you plot the point $(4, 3)$ on a coordinate plane (where the x-axis is Real a
 $$\mathbf{|4+3i| = 5}$$
 
 ## 2025-December-17-TOCT- How To Find The Vertex of a Parabola - Standard Form, Factored & Vertex Form : 
+https://www.youtube.com/watch?v=qsA3e5lGwKo
