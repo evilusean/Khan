@@ -3188,3 +3188,36 @@ The vertex of the parabola is **$(0, -9)$**.
     * Standard: $y = 2x^2 + 0x - 9$
     * Vertex: $y = 2(x - 0)^2 - 9$
 * **Direction:** Since $a = 2$ (positive), the parabola opens **upward**, and the vertex $(0, -9)$ is the **minimum point**.
+
+### Problem: Find the Vertex of $y = -2(x-2)(x-5)$
+
+This equation is in **Factored Form** $y = a(x - r_1)(x - r_2)$. To find the vertex $(h, k)$, we find the midpoint of the x-intercepts and then solve for $y$.
+
+#### 1. Identify the x-intercepts
+The intercepts occur where each factor equals zero:
+* $x - 2 = 0 \rightarrow \mathbf{r_1 = 2}$
+* $x - 5 = 0 \rightarrow \mathbf{r_2 = 5}$
+
+#### 2. Find the x-coordinate ($h$)
+The vertex is located exactly halfway between the intercepts (the midpoint):
+$$x = \frac{r_1 + r_2}{2}$$
+$$x = \frac{2 + 5}{2}$$
+$$x = \frac{7}{2}$$
+$$\mathbf{x = 3.5}$$
+
+#### 3. Find the y-coordinate ($k$)
+Substitute $x = 3.5$ back into the original equation to find the "height" of the vertex:
+$$y = -2(3.5 - 2)(3.5 - 5)$$
+$$y = -2(1.5)(-1.5)$$
+$$y = -2(-2.25)$$
+$$\mathbf{y = 4.5}$$
+
+#### Final Answer
+The vertex of the parabola is **$(3.5, 4.5)$**.
+
+---
+
+### Key Takeaways
+* **Direction:** Since $a = -2$ (negative), the parabola opens **downward**.
+* **Maximum Point:** Because it opens downward, the vertex $(3.5, 4.5)$ is the **maximum value** of the function.
+* **Axis of Symmetry:** The vertical line passing through the vertex is $x = 3.5$.
