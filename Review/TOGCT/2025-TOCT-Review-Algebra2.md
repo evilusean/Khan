@@ -3224,3 +3224,59 @@ The vertex of the parabola is **$(3.5, 4.5)$**.
 
 ## 2025-December-16 -TOCT -  Standard Form to Vertex Form Without Completing The Square Method Algebra 2 :
 https://www.youtube.com/watch?v=ZWAzSJOq2z0
+### **Converting Standard Form to Vertex Form (The Formula Method)**
+
+If you want to avoid the "Completing the Square" method, you can use the vertex formula to find $(h, k)$ and then write the equation directly.
+
+#### **1. The Goal**
+* **From:** $y = ax^2 + bx + c$
+* **To:** $y = a(x - h)^2 + k$
+
+#### **2. The Step-by-Step Process**
+
+1. **Identify $a, b,$ and $c$** from the standard form.
+2. **Find $h$** (the x-coordinate of the vertex) using: 
+   $$h = \frac{-b}{2a}$$
+3. **Find $k$** (the y-coordinate of the vertex) by plugging $h$ back into the original equation:
+   $$k = f(h)$$
+4. **Write the equation** using the $a$ from the original equation and the $(h, k)$ you just found.
+
+---
+
+### **Worked Example**
+**Convert $y = 2x^2 - 12x + 13$ to Vertex Form.**
+
+#### **Step 1: Identify coefficients**
+* $a = 2$
+* $b = -12$
+* $c = 13$
+
+#### **Step 2: Calculate $h$**
+$$h = \frac{-(-12)}{2(2)} = \frac{12}{4} = \mathbf{3}$$
+
+#### **Step 3: Calculate $k$**
+Plug $x = 3$ into $y = 2x^2 - 12x + 13$:
+$$k = 2(3)^2 - 12(3) + 13$$
+$$k = 2(9) - 36 + 13$$
+$$k = 18 - 36 + 13$$
+$$k = -18 + 13 = \mathbf{-5}$$
+
+#### **Step 4: Plug into Vertex Form**
+* $a = 2$
+* $h = 3$
+* $k = -5$
+
+**Final Equation:**
+$$\mathbf{y = 2(x - 3)^2 - 5}$$
+
+---
+
+### **Why this works**
+The "a" value is the same in both forms because it controls the "stretch" or "width" of the parabola. Since the shape doesn't change—only the way we describe its position—we can just borrow the $a$ from the standard form and use the vertex coordinates $(h, k)$ to define the new center.
+
+
+
+| Component | Standard Form | Vertex Form |
+| :--- | :--- | :--- |
+| **Growth/Width** | $a$ | $a$ (Identical) |
+| **Location** | $x = -b/2a$ | $(h, k)$ |
