@@ -3594,3 +3594,52 @@ If you were writing this as a function $y = f(x)$:
 
 ### **Note on Complex Solutions**
 Because the solutions are **imaginary**, this parabola **never crosses the x-axis**. Since $a=1$ (positive), the vertex $(3.5, 2.75)$ is a minimum point located above the x-axis, opening upwards.
+### **Problem: Solve $2x^2 + 8x - 8 = 0$ by Completing the Square**
+
+When the leading coefficient ($a$) is not 1, you must factor it out or divide the entire equation by it before completing the square.
+
+#### **1. Isolate the $x$ terms**
+Move the constant to the right side of the equation:
+$$2x^2 + 8x = 8$$
+
+#### **2. Factor out the leading coefficient ($a=2$)**
+Factor the 2 out of the terms on the left side:
+$$2(x^2 + 4x) = 8$$
+
+#### **3. Find the "Magic Number"**
+Look at the coefficient inside the parentheses ($4$), divide by 2, and square it:
+$$\left(\frac{4}{2}\right)^2 = (2)^2 = \mathbf{4}$$
+
+#### **4. Balance the Equation**
+Add the 4 inside the parentheses. To keep the equation balanced, you must add the **weighted value** ($2 \times 4$) to the right side:
+$$2(x^2 + 4x + \mathbf{4}) = 8 + \mathbf{2(4)}$$
+$$2(x^2 + 4x + 4) = 16$$
+
+#### **5. Factor into a Perfect Square**
+The trinomial inside the parentheses becomes a squared binomial:
+$$2(x + 2)^2 = 16$$
+
+#### **6. Solve for $x$**
+* **Divide by 2:**
+    $$(x + 2)^2 = 8$$
+* **Take the Square Root:**
+    $$x + 2 = \pm\sqrt{8}$$
+    Simplify the radical ($\sqrt{4 \cdot 2}$):
+    $$x + 2 = \pm 2\sqrt{2}$$
+* **Isolate $x$:**
+    $$\mathbf{x = -2 \pm 2\sqrt{2}}$$
+
+---
+
+### **Vertex Form & Graphing Info**
+If writing as a function $y = f(x)$:
+* **Vertex Form:** $y = 2(x + 2)^2 - 16$
+* **Vertex:** $(-2, -16)$
+* **Axis of Symmetry:** $x = -2$
+
+
+
+---
+
+### **Key Takeaway for Anki**
+**The "Weighted" Balance:** When $a \neq 1$, remember that the number you add to the right side must be the "Magic Number" multiplied by the $a$ value you factored out.
