@@ -3438,13 +3438,14 @@ $$\mathbf{y = 3\left(x + \frac{5}{6}\right)^2 - \frac{109}{12}}$$
 
 ### Final Results
 
-| Feature | Value |
-| :--- | :--- |
-| **Vertex Form** | $y = 3(x + \frac{5}{6})^2 - \frac{109}{12}$ |
-| **Vertex $(h, k)$** | $(-\frac{5}{6}, -\frac{109}{12})$ |
-| **Decimal Approx.** | $(-0.833, -9.083)$ |
+| Feature             | Value                                       |
+| :------------------ | :------------------------------------------ |
+| **Vertex Form**     | $y = 3(x + \frac{5}{6})^2 - \frac{109}{12}$ |
+| **Vertex $(h, k)$** | $(-\frac{5}{6}, -\frac{109}{12})$           |
+| **Decimal Approx.** | $(-0.833, -9.083)$                          |
 
 ---
 
 ### Key Takeaway for Obsidian
 When $a$ is factored out and leaves a fraction for $b$, your "Magic Number" formula $(\frac{b}{2})^2$ is easiest to calculate by multiplying the fraction by $\frac{1}{2}$ before squaring.
+## 2025-December-18-TOCT-Completing The Square Method and Solving Quadratic Equations - Algebra 2 :
