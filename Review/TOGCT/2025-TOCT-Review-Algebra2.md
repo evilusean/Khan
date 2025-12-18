@@ -3389,11 +3389,11 @@ $$\mathbf{y = 2(x + 2)^2 - 13}$$
 
 ### **Final Analysis**
 
-| Feature | Value |
-| :--- | :--- |
-| **Vertex Form** | $y = 2(x + 2)^2 - 13$ |
-| **Vertex $(h, k)$** | $(-2, -13)$ |
-| **$a$ value** | $2$ (Opens upward, narrower than parent) |
+| Feature             | Value                                    |
+| :------------------ | :--------------------------------------- |
+| **Vertex Form**     | $y = 2(x + 2)^2 - 13$                    |
+| **Vertex $(h, k)$** | $(-2, -13)$                              |
+| **$a$ value**       | $2$ (Opens upward, narrower than parent) |
 
 #### **Check Your Work**
 If you use the shortcut $h = \frac{-b}{2a}$ on the original equation:
@@ -3405,3 +3405,46 @@ This matches our $h$ in the vertex form!
 ### **Anki Study Tips**
 * **The Balancing Act:** Always multiply the number you added inside by the number you factored out before subtracting it from the end.
 * **Sign of $h$:** Since the result is $(x + 2)^2$, the $h$ value is $-2$.
+### Problem: Convert $y = 3x^2 + 5x - 7$ to Vertex Form
+
+This problem involves fractions because $b$ (5) is not perfectly divisible by $a$ (3). We will follow the completing the square method by factoring out the 3 first.
+
+#### 1. Factor out $a$ from the $x$ terms
+Factor the 3 out of both $3x^2$ and $5x$.
+$$y = 3\left(x^2 + \frac{5}{3}x\right) - 7$$
+
+#### 2. Find the "Magic Number"
+Take the new $b$ value ($\frac{5}{3}$), divide it by 2 (which is the same as multiplying by $\frac{1}{2}$), and square it:
+$$\frac{5}{3} \cdot \frac{1}{2} = \frac{5}{6}$$
+$$\left(\frac{5}{6}\right)^2 = \mathbf{\frac{25}{36}}$$
+
+#### 3. Balance the Equation
+Add the $\frac{25}{36}$ inside the parentheses. Subtract the **weighted value** outside ($3 \times \frac{25}{36}$).
+$$y = 3\left(x^2 + \frac{5}{3}x + \mathbf{\frac{25}{36}}\right) - 7 - \mathbf{3\left(\frac{25}{36}\right)}$$
+
+Simplify the weighted subtraction:
+$$3 \cdot \frac{25}{36} = \frac{25}{12}$$
+$$y = 3\left(x^2 + \frac{5}{3}x + \frac{25}{36}\right) - 7 - \frac{25}{12}$$
+
+#### 4. Factor and Simplify
+The inside becomes a perfect square $(x + \frac{b}{2})^2$. To combine the constants outside, find a common denominator for $7$ and $\frac{25}{12}$ (which is 12):
+$$7 = \frac{84}{12}$$
+$$\frac{84}{12} + \frac{25}{12} = \frac{109}{12}$$
+
+**Final Equation:**
+$$\mathbf{y = 3\left(x + \frac{5}{6}\right)^2 - \frac{109}{12}}$$
+
+---
+
+### Final Results
+
+| Feature | Value |
+| :--- | :--- |
+| **Vertex Form** | $y = 3(x + \frac{5}{6})^2 - \frac{109}{12}$ |
+| **Vertex $(h, k)$** | $(-\frac{5}{6}, -\frac{109}{12})$ |
+| **Decimal Approx.** | $(-0.833, -9.083)$ |
+
+---
+
+### Key Takeaway for Obsidian
+When $a$ is factored out and leaves a fraction for $b$, your "Magic Number" formula $(\frac{b}{2})^2$ is easiest to calculate by multiplying the fraction by $\frac{1}{2}$ before squaring.
