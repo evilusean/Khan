@@ -3744,3 +3744,51 @@ If writing as a function $y = f(x)$:
 
 ### **Strategic Note for Fractions**
 When the $b$ term is a fraction, remember that **dividing by 2** is the same as **multiplying the denominator by 2**. This makes finding the "Magic Number" much faster and reduces errors.
+### **Problem: Solve $7x^2 + 5x - 8 = 0$ by Completing the Square**
+
+This is a challenging example due to the leading coefficient ($a=7$) and the odd middle term ($b=5$), which requires working with fractions throughout the process.
+
+#### **1. Isolate the $x$ terms**
+Move the constant term to the right side of the equation:
+$$7x^2 + 5x = 8$$
+
+#### **2. Factor out the leading coefficient ($a=7$)**
+Factor $7$ out of the terms on the left. This creates a fraction for the $x$ coefficient:
+$$7\left(x^2 + \frac{5}{7}x\right) = 8$$
+
+#### **3. Find the "Magic Number"**
+Take the coefficient inside the parentheses ($\frac{5}{7}$), divide by $2$ (multiply the denominator by 2), and square it:
+$$\left(\frac{5}{14}\right)^2 = \mathbf{\frac{25}{196}}$$
+
+#### **4. Balance the Equation**
+Add $\frac{25}{196}$ inside the parentheses. On the right side, add the **weighted value** ($7 \times \frac{25}{196}$):
+$$7\left(x^2 + \frac{5}{7}x + \mathbf{\frac{25}{196}}\right) = 8 + \mathbf{7\left(\frac{25}{196}\right)}$$
+
+*Simplify the right side:*
+$$8 + \frac{25}{28} \rightarrow \frac{224}{28} + \frac{25}{28} = \frac{249}{28}$$
+$$7\left(x^2 + \frac{5}{7}x + \frac{25}{196}\right) = \frac{249}{28}$$
+
+#### **5. Factor into a Perfect Square**
+The trinomial inside the parentheses factors into $(x + \frac{b}{2})^2$:
+$$7\left(x + \frac{5}{14}\right)^2 = \frac{249}{28}$$
+
+#### **6. Solve for $x$**
+* **Divide by 7:**
+    $$\left(x + \frac{5}{14}\right)^2 = \frac{249}{196}$$
+* **Take the Square Root:**
+    $$x + \frac{5}{14} = \pm\sqrt{\frac{249}{196}}$$
+    $$x + \frac{5}{14} = \pm \frac{\sqrt{249}}{14}$$
+* **Isolate $x$:**
+    $$\mathbf{x = \frac{-5 \pm \sqrt{249}}{14}}$$
+
+---
+
+### **Vertex Form & Analysis**
+If writing as a function $y = f(x)$:
+* **Vertex Form:** $y = 7\left(x + \frac{5}{14}\right)^2 - \frac{249}{28}$
+* **Vertex:** $\left(-\frac{5}{14}, -\frac{249}{28}\right)$ or approx. **$(-0.36, -8.89)$**
+
+---
+
+### **Obsidain Study Tip**
+When solving quadratics with "messy" numbers like these, completing the square is often more tedious than the **Quadratic Formula**. However, practicing this method reinforces your understanding of how the Quadratic Formula was actually derived!
