@@ -3694,3 +3694,53 @@ If writing as a function $y = f(x)$:
 1.  **Factored out $a$?** Yes ($2$ was removed from $x$ terms).
 2.  **Weighted the balance?** Yes ($2 \times 4 = 8$ was added to the right).
 3.  **Handled the negative root?** Yes (Converted $\sqrt{-1}$ to $i$).
+### **Problem: Solve $3x^2 - 5x - 7 = 0$ by Completing the Square**
+
+This is a high-level problem because $a \neq 1$ and the middle term is an odd number, which will lead to several layers of fractions.
+
+#### **1. Isolate the $x$ terms**
+Move the constant to the right side of the equation:
+$$3x^2 - 5x = 7$$
+
+#### **2. Factor out the leading coefficient ($a=3$)**
+Factor the $3$ out of the terms on the left. This creates a fraction for the $x$ term:
+$$3\left(x^2 - \frac{5}{3}x\right) = 7$$
+
+#### **3. Find the "Magic Number"**
+Take the coefficient inside the parentheses ($-\frac{5}{3}$), divide by $2$, and square it:
+$$\left(-\frac{5}{3} \cdot \frac{1}{2}\right)^2 = \left(-\frac{5}{6}\right)^2 = \mathbf{\frac{25}{36}}$$
+
+#### **4. Balance the Equation**
+Add $\frac{25}{36}$ inside the parentheses. On the right side, add the **weighted value** ($3 \times \frac{25}{36}$):
+$$3\left(x^2 - \frac{5}{3}x + \mathbf{\frac{25}{36}}\right) = 7 + \mathbf{3\left(\frac{25}{36}\right)}$$
+
+*Simplify the right side:*
+$$7 + \frac{25}{12} \rightarrow \frac{84}{12} + \frac{25}{12} = \frac{109}{12}$$
+$$3\left(x^2 - \frac{5}{3}x + \frac{25}{36}\right) = \frac{109}{12}$$
+
+#### **5. Factor into a Perfect Square**
+The trinomial factors into $(x + \frac{b}{2})^2$:
+$$3\left(x - \frac{5}{6}\right)^2 = \frac{109}{12}$$
+
+#### **6. Solve for $x$**
+* **Divide by 3:**
+  $$\left(x - \frac{5}{6}\right)^2 = \frac{109}{36}$$
+* **Take the Square Root:**
+  $$x - \frac{5}{6} = \pm\sqrt{\frac{109}{36}}$$
+  $$x - \frac{5}{6} = \pm \frac{\sqrt{109}}{6}$$
+* **Isolate $x$:**
+  $$\mathbf{x = \frac{5 \pm \sqrt{109}}{6}}$$
+
+---
+
+### **Vertex Form & Analysis**
+If writing as a function $y = f(x)$:
+* **Vertex Form:** $y = 3\left(x - \frac{5}{6}\right)^2 - \frac{109}{12}$
+* **Vertex:** $\left(\frac{5}{6}, -\frac{109}{12}\right)$ or approximately **$(0.83, -9.08)$**
+
+
+
+---
+
+### **Strategic Note for Fractions**
+When the $b$ term is a fraction, remember that **dividing by 2** is the same as **multiplying the denominator by 2**. This makes finding the "Magic Number" much faster and reduces errors.
