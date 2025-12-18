@@ -3275,8 +3275,54 @@ $$\mathbf{y = 2(x - 3)^2 - 5}$$
 The "a" value is the same in both forms because it controls the "stretch" or "width" of the parabola. Since the shape doesn't change—only the way we describe its position—we can just borrow the $a$ from the standard form and use the vertex coordinates $(h, k)$ to define the new center.
 
 
+| Component        | Standard Form | Vertex Form     |
+| :--------------- | :------------ | :-------------- |
+| **Growth/Width** | $a$           | $a$ (Identical) |
+| **Location**     | $x = -b/2a$   | $(h, k)$        |
+### **Method: Completing the Square (General Guide)**
 
-| Component | Standard Form | Vertex Form |
+Completing the square is the process of transforming a quadratic from **Standard Form** ($ax^2 + bx + c$) into **Vertex Form** ($a(x-h)^2 + k$). This allows you to identify the vertex $(h, k)$ by inspection.
+
+---
+
+#### **The Procedural Steps**
+
+##### **1. Isolate the Variable Terms**
+Group the $x^2$ and $x$ terms together. Move the constant $c$ to the outside of your workspace.
+* **Example:** $y = (ax^2 + bx) + c$
+
+##### **2. Factor out the 'a' coefficient**
+The coefficient of $x^2$ **must be 1** for the math to work. If $a \neq 1$, factor it out of the $x$ terms only.
+* **Format:** $y = a(x^2 + \frac{b}{a}x) + c$
+
+##### **3. Calculate the "Magic Number"**
+Look at the new coefficient of $x$ (inside the parentheses). Divide it by 2 and then square the result. 
+$$\text{Magic Number} = \left( \frac{\text{coefficient of } x}{2} \right)^2$$
+
+##### **4. Balance the Equation**
+This is the most critical step. You add the magic number **inside** the parentheses to create a perfect square. To keep the equation equal, you must subtract the "weighted value" **outside**.
+* **Rule:** If you added $n$ inside, you must subtract $a \cdot n$ outside.
+* **Equation:** $y = a(x^2 + \dots + n) + c - (a \cdot n)$
+
+
+
+##### **5. Factor and Simplify**
+The trinomial inside the parentheses will now perfectly factor into $(x + \frac{b}{2a})^2$. Combine the numbers outside to find your $k$.
+* **Final Form:** $y = a(x - h)^2 + k$
+
+---
+
+#### **Summary of Logic**
+
+| Step | What you are doing | Why? |
 | :--- | :--- | :--- |
-| **Growth/Width** | $a$ | $a$ (Identical) |
-| **Location** | $x = -b/2a$ | $(h, k)$ |
+| **Factoring $a$** | Making $x^2$ "clean" | Perfect square patterns only work when $x^2$ has a coefficient of 1. |
+| **$(\frac{b}{2})^2$** | Completing the pattern | This is the exact number needed to make $x^2 + bx$ factorable into a square. |
+| **Subtracting $a \cdot n$** | Balancing | You can't just add numbers to an equation; you must cancel them out to stay equal. |
+
+---
+
+### **Key Takeaways for Anki**
+* **Sign Check:** If the $b$ term is negative, your factored form will be $(x - h)^2$. If $b$ is positive, it will be $(x + h)^2$.
+* **The "a" multiplier:** Always remember that the number you add inside the parentheses is being multiplied by the $a$ outside when you go to balance the equation.
+* **Vertex extraction:** Once in $y = a(x-h)^2 + k$, the vertex is $(h, k)$. Don't forget to flip the sign for $h$!
