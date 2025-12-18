@@ -3494,12 +3494,12 @@ Rewrite the parentheses as a squared binomial: $(x + \frac{b}{2})^2$.
 
 ### 3. Why do we use this instead of the Quadratic Formula?
 
-| Reason | Benefit |
-| :--- | :--- |
-| **Vertex Form** | It instantly tells you the max/min of the graph $(h, k)$. |
+| Reason               | Benefit                                                                      |
+| :------------------- | :--------------------------------------------------------------------------- |
+| **Vertex Form**      | It instantly tells you the max/min of the graph $(h, k)$.                    |
 | **Circle Equations** | Essential for finding the center and radius of circles in Geometry/Pre-calc. |
-| **Derivation** | Completing the square is actually how the Quadratic Formula was invented! |
-| **Solving** | Often faster than the Quadratic Formula when $b$ is an even number. |
+| **Derivation**       | Completing the square is actually how the Quadratic Formula was invented!    |
+| **Solving**          | Often faster than the Quadratic Formula when $b$ is an even number.          |
 
 ---
 
@@ -3508,3 +3508,48 @@ Rewrite the parentheses as a squared binomial: $(x + \frac{b}{2})^2$.
 * **A:** $(b/2)^2$
 * **Q:** What is the primary purpose of completing the square?
 * **A:** To convert Standard Form ($ax^2+bx+c$) into Vertex Form ($a(x-h)^2+k$).
+### **Problem: Solve $x^2 - 6x - 9 = 0$ by Completing the Square**
+
+#### **Step 1: Move the constant to the other side**
+To focus on the $x$ terms, move $-9$ to the right side of the equation.
+$$x^2 - 6x = 9$$
+
+#### **Step 2: Find the "Magic Number"**
+Take the coefficient of $x$ (which is $-6$), divide by 2, and square it:
+$$\left(\frac{-6}{2}\right)^2 = (-3)^2 = \mathbf{9}$$
+
+#### **Step 3: Add the Magic Number to BOTH sides**
+To keep the equation balanced, you must add $9$ to both the left and the right.
+$$x^2 - 6x + \mathbf{9} = 9 + \mathbf{9}$$
+$$x^2 - 6x + 9 = 18$$
+
+
+
+#### **Step 4: Factor into a Perfect Square**
+The left side now factors perfectly into $(x + \frac{b}{2})^2$:
+$$(x - 3)^2 = 18$$
+
+#### **Step 5: Solve for $x$ (Square Root both sides)**
+Take the square root of both sides. Remember to include the $\pm$ symbol.
+$$\sqrt{(x - 3)^2} = \pm\sqrt{18}$$
+$$x - 3 = \pm\sqrt{9 \cdot 2}$$
+$$x - 3 = \pm 3\sqrt{2}$$
+
+#### **Step 6: Isolate $x$**
+Add 3 to both sides to get your final solutions.
+$$\mathbf{x = 3 \pm 3\sqrt{2}}$$
+
+---
+
+### **Vertex Form Connection**
+If you were writing this as a function instead of solving for zero:
+* **Vertex Form:** $y = (x - 3)^2 - 18$
+* **Vertex:** $(3, -18)$
+
+
+
+---
+
+### **Study Check**
+* **Why did we add 9?** Because $(x-3)(x-3)$ expands to $x^2 - 6x + 9$. Without that 9, we can't write it as a perfect "square" block.
+* **Why the $\pm$?** Because both $(4.24)^2$ and $(-4.24)^2$ equal 18. When solving quadratics, you almost always expect two answers.
