@@ -3553,3 +3553,44 @@ If you were writing this as a function instead of solving for zero:
 ### **Study Check**
 * **Why did we add 9?** Because $(x-3)(x-3)$ expands to $x^2 - 6x + 9$. Without that 9, we can't write it as a perfect "square" block.
 * **Why the $\pm$?** Because both $(4.24)^2$ and $(-4.24)^2$ equal 18. When solving quadratics, you almost always expect two answers.
+### **Problem: Solve $x^2 - 7x + 15 = 0$ by Completing the Square**
+
+#### **1. Move the constant to the other side**
+Isolate the $x$ terms to prepare for the "magic number."
+$$x^2 - 7x = -15$$
+
+#### **2. Find the "Magic Number"**
+Take the $b$ coefficient ($-7$), divide by $2$, and square it:
+$$\left(\frac{-7}{2}\right)^2 = \mathbf{\frac{49}{4}}$$
+
+#### **3. Add the Magic Number to both sides**
+$$x^2 - 7x + \mathbf{\frac{49}{4}} = -15 + \mathbf{\frac{49}{4}}$$
+
+To add the right side, convert $-15$ to a fraction with a denominator of $4$:
+$$-15 = -\frac{60}{4}$$
+$$-\frac{60}{4} + \frac{49}{4} = -\frac{11}{4}$$
+
+#### **4. Factor into a Perfect Square**
+The left side factors into $(x + \frac{b}{2})^2$:
+$$\left(x - \frac{7}{2}\right)^2 = -\frac{11}{4}$$
+
+
+
+#### **5. Solve for $x$ (Square Root both sides)**
+Take the square root of both sides. Note that we are taking the square root of a **negative number**, which introduces the imaginary unit $i$.
+$$\sqrt{\left(x - \frac{7}{2}\right)^2} = \pm\sqrt{-\frac{11}{4}}$$
+$$x - \frac{7}{2} = \pm \frac{i\sqrt{11}}{2}$$
+
+#### **6. Isolate $x$**
+Add $\frac{7}{2}$ to both sides:
+$$\mathbf{x = \frac{7}{2} \pm \frac{i\sqrt{11}}{2}} \quad \text{or} \quad \mathbf{x = \frac{7 \pm i\sqrt{11}}{2}}$$
+
+---
+
+### **Vertex Form Connection**
+If you were writing this as a function $y = f(x)$:
+* **Vertex Form:** $y = \left(x - \frac{7}{2}\right)^2 + \frac{11}{4}$
+* **Vertex:** $(3.5, 2.75)$
+
+### **Note on Complex Solutions**
+Because the solutions are **imaginary**, this parabola **never crosses the x-axis**. Since $a=1$ (positive), the vertex $(3.5, 2.75)$ is a minimum point located above the x-axis, opening upwards.
