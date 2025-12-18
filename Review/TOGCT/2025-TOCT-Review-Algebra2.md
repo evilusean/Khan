@@ -3362,3 +3362,46 @@ $0 = (x - 3)^2 - 16$
 $16 = (x - 3)^2$
 $\pm 4 = x - 3$
 $x = 7$ and $x = -1$
+### **Problem: Convert $y = 2x^2 + 8x - 5$ to Vertex Form**
+
+This problem requires an extra step because the coefficient of $x^2$ is not 1. We must factor out the $a$ value ($2$) before we can complete the square.
+
+#### **1. Group and Factor out $a$**
+Isolate the $x$ terms and factor out the $2$. **Do not** factor the $2$ out of the constant $-5$.
+$$y = 2(x^2 + 4x) - 5$$
+
+#### **2. Find the "Magic Number"**
+Look at the new $b$ value inside the parentheses ($4$). Divide it by 2 and square it:
+$$\left(\frac{4}{2}\right)^2 = (2)^2 = \mathbf{4}$$
+
+#### **3. Balance the Equation**
+Add the $4$ inside the parentheses. To keep the equation balanced, you must subtract the **weighted value** outside. 
+* *Weighted Value:* You didn't just add $4$; you added $2 \times 4 = 8$.
+$$y = 2(x^2 + 4x + \mathbf{4}) - 5 - \mathbf{8}$$
+
+
+
+#### **4. Factor and Simplify**
+The trinomial inside becomes a perfect square $(x + \frac{b}{2})^2$, and we combine the constants outside:
+$$\mathbf{y = 2(x + 2)^2 - 13}$$
+
+---
+
+### **Final Analysis**
+
+| Feature | Value |
+| :--- | :--- |
+| **Vertex Form** | $y = 2(x + 2)^2 - 13$ |
+| **Vertex $(h, k)$** | $(-2, -13)$ |
+| **$a$ value** | $2$ (Opens upward, narrower than parent) |
+
+#### **Check Your Work**
+If you use the shortcut $h = \frac{-b}{2a}$ on the original equation:
+$h = \frac{-8}{2(2)} = \frac{-8}{4} = -2$.
+This matches our $h$ in the vertex form!
+
+---
+
+### **Anki Study Tips**
+* **The Balancing Act:** Always multiply the number you added inside by the number you factored out before subtracting it from the end.
+* **Sign of $h$:** Since the result is $(x + 2)^2$, the $h$ value is $-2$.
