@@ -3643,3 +3643,54 @@ If writing as a function $y = f(x)$:
 
 ### **Key Takeaway for Anki**
 **The "Weighted" Balance:** When $a \neq 1$, remember that the number you add to the right side must be the "Magic Number" multiplied by the $a$ value you factored out.
+### **Problem: Solve $2x^2 - 8x + 9 = 0$ by Completing the Square**
+
+This problem features a leading coefficient $a \neq 1$ and will result in **complex (imaginary) solutions** because the vertex is above the x-axis and the parabola opens upward.
+
+#### **1. Isolate the $x$ terms**
+Move the constant to the right side:
+$$2x^2 - 8x = -9$$
+
+#### **2. Factor out the leading coefficient ($a=2$)**
+Factor the $2$ out of the terms on the left side to get $x^2$ by itself:
+$$2(x^2 - 4x) = -9$$
+
+#### **3. Find the "Magic Number"**
+Take the coefficient inside the parentheses ($-4$), divide by 2, and square it:
+$$\left(\frac{-4}{2}\right)^2 = (-2)^2 = \mathbf{4}$$
+
+#### **4. Balance the Equation**
+Add $4$ inside the parentheses. On the right side, add the **weighted value** ($2 \times 4$):
+$$2(x^2 - 4x + \mathbf{4}) = -9 + \mathbf{2(4)}$$
+$$2(x^2 - 4x + 4) = -1$$
+
+#### **5. Factor into a Perfect Square**
+$$(x^2 - 4x + 4) \text{ becomes } (x - 2)^2$$
+$$2(x - 2)^2 = -1$$
+
+
+
+#### **6. Solve for $x$**
+* **Divide by 2:**
+  $$(x - 2)^2 = -\frac{1}{2}$$
+* **Take the Square Root:**
+  $$x - 2 = \pm\sqrt{-\frac{1}{2}}$$
+  *Use the imaginary unit $i$ and rationalize the denominator:*
+  $$x - 2 = \pm \frac{i}{\sqrt{2}} \rightarrow \pm \frac{i\sqrt{2}}{2}$$
+* **Isolate $x$:**
+  $$\mathbf{x = 2 \pm \frac{i\sqrt{2}}{2}}$$
+
+---
+
+### **Vertex Form & Analysis**
+If writing as a function $y = f(x)$:
+* **Vertex Form:** $y = 2(x - 2)^2 + 1$
+* **Vertex:** $(2, 1)$
+* **Solutions:** Since the vertex is at $y=1$ and it opens upward ($a=2$), there are **no real roots**, only complex ones.
+
+---
+
+### **Checklist for your Notes**
+1.  **Factored out $a$?** Yes ($2$ was removed from $x$ terms).
+2.  **Weighted the balance?** Yes ($2 \times 4 = 8$ was added to the right).
+3.  **Handled the negative root?** Yes (Converted $\sqrt{-1}$ to $i$).
