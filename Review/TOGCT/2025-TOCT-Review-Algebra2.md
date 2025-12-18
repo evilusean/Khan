@@ -3314,11 +3314,11 @@ The trinomial inside the parentheses will now perfectly factor into $(x + \frac{
 
 #### **Summary of Logic**
 
-| Step | What you are doing | Why? |
-| :--- | :--- | :--- |
-| **Factoring $a$** | Making $x^2$ "clean" | Perfect square patterns only work when $x^2$ has a coefficient of 1. |
-| **$(\frac{b}{2})^2$** | Completing the pattern | This is the exact number needed to make $x^2 + bx$ factorable into a square. |
-| **Subtracting $a \cdot n$** | Balancing | You can't just add numbers to an equation; you must cancel them out to stay equal. |
+| Step                        | What you are doing     | Why?                                                                               |
+| :-------------------------- | :--------------------- | :--------------------------------------------------------------------------------- |
+| **Factoring $a$**           | Making $x^2$ "clean"   | Perfect square patterns only work when $x^2$ has a coefficient of 1.               |
+| **$(\frac{b}{2})^2$**       | Completing the pattern | This is the exact number needed to make $x^2 + bx$ factorable into a square.       |
+| **Subtracting $a \cdot n$** | Balancing              | You can't just add numbers to an equation; you must cancel them out to stay equal. |
 
 ---
 
@@ -3326,3 +3326,39 @@ The trinomial inside the parentheses will now perfectly factor into $(x + \frac{
 * **Sign Check:** If the $b$ term is negative, your factored form will be $(x - h)^2$. If $b$ is positive, it will be $(x + h)^2$.
 * **The "a" multiplier:** Always remember that the number you add inside the parentheses is being multiplied by the $a$ outside when you go to balance the equation.
 * **Vertex extraction:** Once in $y = a(x-h)^2 + k$, the vertex is $(h, k)$. Don't forget to flip the sign for $h$!
+### **Problem: Convert $y = x^2 - 6x - 7$ to Vertex Form**
+
+Since the coefficient of $x^2$ is already **1**, we can complete the square directly without factoring out an "$a$" value.
+
+#### **1. Group the $x$ terms**
+Isolate the $x^2$ and $x$ terms from the constant:
+$$y = (x^2 - 6x) - 7$$
+
+#### **2. Find the "Magic Number"**
+Take the coefficient of $x$ (which is $-6$), divide by 2, and square it:
+$$\left(\frac{-6}{2}\right)^2 = (-3)^2 = \mathbf{9}$$
+
+#### **3. Balance the Equation**
+Add the magic number **inside** the parentheses and subtract it **outside** to keep the equation balanced:
+$$y = (x^2 - 6x + \mathbf{9}) - 7 - \mathbf{9}$$
+
+#### **4. Factor and Simplify**
+The trinomial inside the parentheses factors into a perfect square, and we combine the constants outside:
+$$y = (x - 3)^2 - 16$$
+
+---
+
+### **Final Results**
+
+| Feature             | Value                |
+| :------------------ | :------------------- |
+| **Vertex Form**     | $y = (x - 3)^2 - 16$ |
+| **Vertex $(h, k)$** | $(3, -16)$           |
+| **Direction**       | Opens Upward ($a=1$) |
+
+#### **Note on Intercepts**
+If you were asked to solve for $x$ (finding the roots), you would set $y=0$:
+$0 = (x - 3)^2 - 16$
+$16 = (x - 3)^2$
+$\pm 4 = x - 3$
+$x = 7$ and $x = -1$
