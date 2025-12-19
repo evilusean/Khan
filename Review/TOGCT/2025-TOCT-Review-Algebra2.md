@@ -3450,7 +3450,7 @@ $$\mathbf{y = 3\left(x + \frac{5}{6}\right)^2 - \frac{109}{12}}$$
 When $a$ is factored out and leaves a fraction for $b$, your "Magic Number" formula $(\frac{b}{2})^2$ is easiest to calculate by multiplying the fraction by $\frac{1}{2}$ before squaring.
 ## 2025-December-18-TOCT-Completing The Square Method and Solving Quadratic Equations - Algebra 2 :
 https://www.youtube.com/watch?v=C206SNAXDGE
-# Completing the Square: The "Why" and "How"
+## Completing the Square: The "Why" and "How"
 
 ### 1. The "Why" (The Concept)
 The goal of "Completing the Square" is to take a quadratic that is "broken" (cannot be easily square-rooted) and turn it into a **Perfect Square Trinomial**.
@@ -3792,3 +3792,4 @@ If writing as a function $y = f(x)$:
 
 ### **Obsidain Study Tip**
 When solving quadratics with "messy" numbers like these, completing the square is often more tedious than the **Quadratic Formula**. However, practicing this method reinforces your understanding of how the Quadratic Formula was actually derived!
+## 2025-December-19-TOCT-Writing Logarithmic Equations In Exponential Form : 
