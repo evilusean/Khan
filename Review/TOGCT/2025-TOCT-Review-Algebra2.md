@@ -3794,3 +3794,54 @@ If writing as a function $y = f(x)$:
 When solving quadratics with "messy" numbers like these, completing the square is often more tedious than the **Quadratic Formula**. However, practicing this method reinforces your understanding of how the Quadratic Formula was actually derived!
 ## 2025-December-19-TOCT-Writing Logarithmic Equations In Exponential Form : 
 https://www.youtube.com/watch?v=f0C1KL7GkqY
+### **Converting Logarithmic Equations to Exponential Form**
+
+Logarithms and Exponentials are **inverse operations**. They represent the same relationship between three numbers, just from different perspectives.
+
+---
+
+#### **1. The Core Formula**
+The transition between forms follows this pattern:
+
+$$\log_{b}(x) = y \quad \Longleftrightarrow \quad b^y = x$$
+
+* **$b$**: The **Base** (the small number stays the big base).
+* **$y$**: The **Exponent** (the answer to a log is always an exponent).
+* **$x$**: The **Argument** (the result of the power).
+
+---
+
+#### **2. The "Loop" Method (Visual Shortcut)**
+To convert $\log_{b}(x) = y$ mentally:
+1. Start at the **Base** ($b$).
+2. Draw a circle to the other side of the equal sign to grab the **Exponent** ($y$).
+3. Finish the loop by pointing to the **Argument** ($x$).
+4. Result: $b$ raised to the $y$ equals $x$.
+
+
+
+---
+
+#### **3. Common and Natural Logs**
+If you don't see a base written, it is an "invisible" base:
+* **Common Log:** $\log(x) = y$ is actually $\log_{10}(x) = y$.
+    * *Exponential:* $10^y = x$
+* **Natural Log:** $\ln(x) = y$ is actually $\log_{e}(x) = y$.
+    * *Exponential:* $e^y = x$
+
+---
+
+#### **4. Quick Reference Examples**
+
+| Logarithmic Form       | Exponential Form |
+| :--------------------- | :--------------- |
+| $\log_{2}(8) = 3$      | $2^3 = 8$        |
+| $\log_{5}(25) = 2$     | $5^2 = 25$       |
+| $\log_{10}(0.01) = -2$ | $10^{-2} = 0.01$ |
+| $\ln(1) = 0$           | $e^0 = 1$        |
+
+---
+
+### **Summary Tip for Anki**
+> **"The base stays the base, and the other two switch places."**
+> In the log form, $x$ is inside and $y$ is the answer. In the exponential form, $y$ moves to the exponent and $x$ becomes the answer.
