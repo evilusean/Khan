@@ -3793,3 +3793,4 @@ If writing as a function $y = f(x)$:
 ### **Obsidain Study Tip**
 When solving quadratics with "messy" numbers like these, completing the square is often more tedious than the **Quadratic Formula**. However, practicing this method reinforces your understanding of how the Quadratic Formula was actually derived!
 ## 2025-December-19-TOCT-Writing Logarithmic Equations In Exponential Form : 
+https://www.youtube.com/watch?v=f0C1KL7GkqY
