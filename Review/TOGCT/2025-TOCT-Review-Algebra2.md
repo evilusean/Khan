@@ -3846,3 +3846,4 @@ If you don't see a base written, it is an "invisible" base:
 > **"The base stays the base, and the other two switch places."**
 > In the log form, $x$ is inside and $y$ is the answer. In the exponential form, $y$ moves to the exponent and $x$ becomes the answer.
 ## 2025-December-20-TOCT-Logarithms - The Easy Way! :
+https://www.youtube.com/watch?v=kqVpPSzkTYA
