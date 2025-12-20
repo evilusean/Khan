@@ -3998,8 +3998,61 @@ For common logs (base 10) of powers of 10, the answer is simply the number of ze
 
 ### **Obsidian Summary Table**
 
-| Log Form | Meaning | Exponential | Result |
-| :--- | :--- | :--- | :--- |
-| $\log(1000)$ | $10^?$ | $10^3 = 1000$ | **3** |
-| $\log(0.1)$ | $10^?$ | $10^{-1} = 0.1$ | **-1** |
-| $\log(1)$ | $10^?$ | $10^0 = 1$ | **0** |
+| Log Form     | Meaning | Exponential     | Result |
+| :----------- | :------ | :-------------- | :----- |
+| $\log(1000)$ | $10^?$  | $10^3 = 1000$   | **3**  |
+| $\log(0.1)$  | $10^?$  | $10^{-1} = 0.1$ | **-1** |
+| $\log(1)$    | $10^?$  | $10^0 = 1$      | **0**  |
+### **Problem: Solve $\log(0.0001) = ?$**
+
+This problem involves the **Common Logarithm** (base 10) and a decimal argument.
+
+#### **1. Identify the "Invisible" Base**
+The notation $\log$ implies a base of **10**. 
+$$\log_{10}(0.0001) = y$$
+
+#### **2. Convert to Exponential Form**
+We are asking: *"10 to what power equals 0.0001?"*
+Using the rule $\log_b(x) = y \iff b^y = x$:
+$$10^y = 0.0001$$
+
+#### **3. Solve for $y$**
+It is often easier to see the answer by converting the decimal to a fraction:
+$$0.0001 = \frac{1}{10,000}$$
+
+We know that $10,000 = 10^4$. Therefore:
+$$\frac{1}{10,000} = \frac{1}{10^4}$$
+
+Using the **Negative Exponent Rule** ($\frac{1}{x^n} = x^{-n}$):
+$$\frac{1}{10^4} = 10^{-4}$$
+
+Since $10^y = 10^{-4}$, then **$y = -4$**.
+
+**Final Answer:**
+$$\mathbf{\log(0.0001) = -4}$$
+
+---
+
+### **The "Decimal Counting" Shortcut**
+For common logs of decimals starting with 1 (like 0.1, 0.01, etc.):
+1. Count the number of places the decimal point must move to the right to get behind the "1".
+2. The answer is the **negative** of that count.
+
+* $0.1 \rightarrow$ Move 1 place $\rightarrow \log(0.1) = -1$
+* $0.01 \rightarrow$ Move 2 places $\rightarrow \log(0.01) = -2$
+* $0.001 \rightarrow$ Move 3 places $\rightarrow \log(0.001) = -3$
+* $0.0001 \rightarrow$ Move 4 places $\rightarrow \log(0.0001) = -4$
+
+
+
+---
+
+### **Key Concept for Notes**
+> **Logarithms of numbers between 0 and 1 are always negative.**
+> This is because you need a negative exponent to "flip" the base into a fraction or decimal.
+
+| Log Form | Meaning | Result |
+| :--- | :--- | :--- |
+| $\log(1)$ | $10^0$ | **0** |
+| $\log(0.1)$ | $10^{-1}$ | **-1** |
+| $\log(0.01)$ | $10^{-2}$ | **-2** |
