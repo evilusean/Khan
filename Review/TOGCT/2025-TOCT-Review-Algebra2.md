@@ -3957,3 +3957,49 @@ This is a fundamental rule in Algebra 2. Whenever the **base** and the **argumen
 ### **Why does this happen?**
 In exponential form, the only way to keep a base exactly the same value is to raise it to the **1st power**.
 $$b^1 = b$$
+### **Problem: Solve $\log(1000) = ?$**
+
+When you see a logarithm written without a base (e.g., $\log$), it is known as the **Common Logarithm**.
+
+#### **1. Identify the "Invisible" Base**
+The base of a common log is always **10**. So, the problem is actually:
+$$\log_{10}(1000) = y$$
+
+#### **2. Convert to Exponential Form**
+We are asking: *"10 to what power equals 1000?"*
+Using the rule $\log_b(x) = y \iff b^y = x$:
+$$10^y = 1000$$
+
+
+
+#### **3. Solve for $y$**
+Break down 1000 into powers of 10:
+* $10^1 = 10$
+* $10^2 = 100$
+* $10^3 = 1000$
+
+Since $10^3 = 1000$, then **$y = 3$**.
+
+**Final Answer:**
+$$\mathbf{\log(1000) = 3}$$
+
+---
+
+### **The "Zero Counting" Shortcut**
+For common logs (base 10) of powers of 10, the answer is simply the number of zeros in the argument:
+* $\log(10) = 1$ (one zero)
+* $\log(100) = 2$ (two zeros)
+* $\log(1000) = 3$ (three zeros)
+* $\log(10,000) = 4$ (four zeros)
+
+> **Warning:** This shortcut only works when the argument is a power of 10 (like 10, 100, 1000) and the base is 10.
+
+---
+
+### **Obsidian Summary Table**
+
+| Log Form | Meaning | Exponential | Result |
+| :--- | :--- | :--- | :--- |
+| $\log(1000)$ | $10^?$ | $10^3 = 1000$ | **3** |
+| $\log(0.1)$ | $10^?$ | $10^{-1} = 0.1$ | **-1** |
+| $\log(1)$ | $10^?$ | $10^0 = 1$ | **0** |
