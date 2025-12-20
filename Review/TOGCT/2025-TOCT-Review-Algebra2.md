@@ -4197,3 +4197,64 @@ In Algebra 2, it is vital to remember that an exponent of $\frac{1}{2}$ is the s
 
 ### **Obsidian Summary Tip**
 > **Shrinking the Base:** If the argument is the **square root** of the base, the log is $1/2$. If the argument is the **cube root** of the base, the log is $1/3$.
+### **Problem: Solve $\log_9\left(\frac{1}{3}\right) = ?$**
+
+This problem is a "Double Trouble" scenario because it combines two concepts:
+1. **Shrinking the base** (going from 9 down to 3 requires a root).
+2. **Inverting the result** (going from 3 to $1/3$ requires a negative).
+
+#### **1. Set up the Equation**
+Let the unknown value be $y$:
+$$\log_9\left(\frac{1}{3}\right) = y$$
+
+#### **2. Convert to Exponential Form**
+Using the rule $\log_b(x) = y \iff b^y = x$:
+$$9^y = \frac{1}{3}$$
+
+#### **3. Solve for $y$ using a Common Base**
+To solve, we need to express both sides with a base of **3**.
+
+* **Left side:** Rewrite 9 as $3^2$.
+  $$(3^2)^y = 3^{2y}$$
+* **Right side:** Rewrite $\frac{1}{3}$ using a negative exponent.
+  $$\frac{1}{3} = 3^{-1}$$
+
+
+
+Now, set the exponents equal to each other:
+$$2y = -1$$
+
+#### **4. Isolate $y$**
+Divide by 2:
+$$\mathbf{y = -\frac{1}{2}}$$
+
+**Final Answer:**
+$$\mathbf{\log_9\left(\frac{1}{3}\right) = -\frac{1}{2}}$$
+
+---
+
+### **Breaking Down the Result: Why $-\frac{1}{2}$?**
+
+The exponent $-\frac{1}{2}$ does two distinct jobs simultaneously:
+1. **The $1/2$ (Square Root):** It turns the 9 into a 3 ($\sqrt{9} = 3$).
+2. **The $-$ (Negative):** It flips the 3 into the denominator ($3^{-1} = \frac{1}{3}$).
+
+
+
+---
+
+### **Pattern Comparison for your Notes**
+See how the answer changes as we modify the argument:
+
+| Log Form | Calculation | Result |
+| :--- | :--- | :--- |
+| $\log_9(81)$ | $9^2 = 81$ | **2** |
+| $\log_9(3)$ | $\sqrt{9} = 3$ | **1/2** |
+| $\log_9(\frac{1}{81})$ | $1/9^2$ | **-2** |
+| $\log_9(\frac{1}{3})$ | $1/\sqrt{9}$ | **-1/2** |
+
+---
+
+### **Anki Study Tip**
+* **Q:** What does a negative fractional exponent (like $-1/2$) do to a base?
+* **A:** It takes the square root of the base AND moves it to the denominator of a fraction.
