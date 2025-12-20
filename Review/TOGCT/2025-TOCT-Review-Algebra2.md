@@ -4051,8 +4051,53 @@ For common logs of decimals starting with 1 (like 0.1, 0.01, etc.):
 > **Logarithms of numbers between 0 and 1 are always negative.**
 > This is because you need a negative exponent to "flip" the base into a fraction or decimal.
 
-| Log Form | Meaning | Result |
-| :--- | :--- | :--- |
-| $\log(1)$ | $10^0$ | **0** |
-| $\log(0.1)$ | $10^{-1}$ | **-1** |
+| Log Form     | Meaning   | Result |
+| :----------- | :-------- | :----- |
+| $\log(1)$    | $10^0$    | **0**  |
+| $\log(0.1)$  | $10^{-1}$ | **-1** |
 | $\log(0.01)$ | $10^{-2}$ | **-2** |
+### **Problem: Solve $7^{\log_7(38)} = ?$**
+
+This problem demonstrates the **Inverse Property of Logarithms**. When a base is raised to a logarithm that has the same base, they "cancel" each other out.
+
+#### **1. The Logical Approach**
+Think about what the exponent $\log_7(38)$ actually means:
+* $\log_7(38)$ is "the power you raise **7** to in order to get **38**."
+* If you then actually raise **7** to that exact power, you must get **38**.
+
+#### **2. The Property Rule**
+In Algebra 2, this is defined by the following Inverse Property:
+
+$$b^{\log_b(x)} = x$$
+
+Applying this to our problem where $b = 7$ and $x = 38$:
+$$7^{\log_7(38)} = \mathbf{38}$$
+
+
+
+---
+
+### **Why it works (The Proof)**
+If you are skeptical, you can set the expression equal to $y$ and convert it:
+1.  Let $y = 7^{\log_7(38)}$
+2.  Convert this exponential equation into logarithmic form:
+    $$\log_7(y) = \log_7(38)$$
+3.  Since the logs and bases are identical, the arguments must be equal:
+    $$y = 38$$
+
+---
+
+### **Pattern Recognition for your Notes**
+
+| Expression        | Result    | Why?                      |
+| :---------------- | :-------- | :------------------------ |
+| $2^{\log_2(5)}$   | **5**     | Bases match (2 and 2)     |
+| $10^{\log(100)}$  | **100**   | Bases match (10 and 10)   |
+| $e^{\ln(x)}$      | **$x$**   | Bases match ($e$ and $e$) |
+| $5^{\log_5(x^2)}$ | **$x^2$** | Bases match (5 and 5)     |
+
+---
+
+### **Anki Tip**
+* **Front:** Solve $b^{\log_b(x)}$
+* **Back:** $x$ (The exponential base and log base "undo" each other).
