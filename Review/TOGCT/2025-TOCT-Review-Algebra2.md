@@ -3847,6 +3847,44 @@ If you don't see a base written, it is an "invisible" base:
 > In the log form, $x$ is inside and $y$ is the answer. In the exponential form, $y$ moves to the exponent and $x$ becomes the answer.
 ## 2025-December-20-TOCT-Logarithms - The Easy Way! :
 https://www.youtube.com/watch?v=kqVpPSzkTYA
+### **Problem: Verify $\log_2(16) = 4$**
+
+This logarithmic equation asks the question: *"To what power must 2 be raised to get 16?"*
+
+#### **1. Identify the Components**
+* **Base ($b$):** $2$
+* **Argument ($x$):** $16$
+* **Exponent ($y$):** $4$
+
+#### **2. Convert to Exponential Form**
+Using the rule $\log_b(x) = y \iff b^y = x$, we rewrite the equation:
+$$2^4 = 16$$
+
+
+
+#### **3. Proof/Verification**
+Calculate the exponential expression to confirm it matches the argument:
+* $2 \times 2 = 4$
+* $4 \times 2 = 8$
+* $8 \times 2 = 16$
+$$\text{Since } 2^4 = 16, \text{ then } \log_2(16) = 4 \text{ is correct.}$$
+
+---
+
+### **Pattern Recognition for your Notes**
+Understanding powers of 2 is the fastest way to solve logs with base 2.
+
+| Log Form         | Exponential Form | Thought Process          |
+| :--------------- | :--------------- | :----------------------- |
+| $\log_2(2) = 1$  | $2^1 = 2$        | $2$ to the what is $2$?  |
+| $\log_2(4) = 2$  | $2^2 = 4$        | $2$ to the what is $4$?  |
+| $\log_2(8) = 3$  | $2^3 = 8$        | $2$ to the what is $8$?  |
+| $\log_2(16) = 4$ | $2^4 = 16$       | $2$ to the what is $16$? |
+
+---
+
+### **Key Concept: The Inverse**
+Remember that **Logarithms isolate the exponent**. If you are looking for the "answer" to a log, you are looking for the exponent that makes the base equal the big number.
 ### **Problem: Verify $\log_4(1) = 0$**
 
 To solve or understand this logarithmic statement, we convert it into its equivalent **exponential form**.
