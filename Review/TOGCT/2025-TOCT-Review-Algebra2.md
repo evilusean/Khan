@@ -4137,13 +4137,13 @@ $$\mathbf{\log_3\left(\frac{1}{9}\right) = -2}$$
 ### **Pattern Recognition for Fractions**
 When the argument is "1 over" a power of the base, the answer will always be the negative version of that power.
 
-| Log Form | Thinking Process | Exponential Form | Result |
-| :--- | :--- | :--- | :--- |
-| $\log_3(3)$ | $3^1$ | $3^1 = 3$ | **1** |
-| $\log_3(1)$ | $3^0$ | $3^0 = 1$ | **0** |
-| $\log_3\left(\frac{1}{3}\right)$ | $3^{-1}$ | $3^{-1} = \frac{1}{3}$ | **-1** |
-| $\log_3\left(\frac{1}{9}\right)$ | $3^{-2}$ | $3^{-2} = \frac{1}{9}$ | **-2** |
-| $\log_3\left(\frac{1}{27}\right)$ | $3^{-3}$ | $3^{-3} = \frac{1}{27}$ | **-3** |
+| Log Form                          | Thinking Process | Exponential Form        | Result |
+| :-------------------------------- | :--------------- | :---------------------- | :----- |
+| $\log_3(3)$                       | $3^1$            | $3^1 = 3$               | **1**  |
+| $\log_3(1)$                       | $3^0$            | $3^0 = 1$               | **0**  |
+| $\log_3\left(\frac{1}{3}\right)$  | $3^{-1}$         | $3^{-1} = \frac{1}{3}$  | **-1** |
+| $\log_3\left(\frac{1}{9}\right)$  | $3^{-2}$         | $3^{-2} = \frac{1}{9}$  | **-2** |
+| $\log_3\left(\frac{1}{27}\right)$ | $3^{-3}$         | $3^{-3} = \frac{1}{27}$ | **-3** |
 
 ---
 
@@ -4246,15 +4246,16 @@ The exponent $-\frac{1}{2}$ does two distinct jobs simultaneously:
 ### **Pattern Comparison for your Notes**
 See how the answer changes as we modify the argument:
 
-| Log Form | Calculation | Result |
-| :--- | :--- | :--- |
-| $\log_9(81)$ | $9^2 = 81$ | **2** |
-| $\log_9(3)$ | $\sqrt{9} = 3$ | **1/2** |
-| $\log_9(\frac{1}{81})$ | $1/9^2$ | **-2** |
-| $\log_9(\frac{1}{3})$ | $1/\sqrt{9}$ | **-1/2** |
+| Log Form               | Calculation    | Result   |
+| :--------------------- | :------------- | :------- |
+| $\log_9(81)$           | $9^2 = 81$     | **2**    |
+| $\log_9(3)$            | $\sqrt{9} = 3$ | **1/2**  |
+| $\log_9(\frac{1}{81})$ | $1/9^2$        | **-2**   |
+| $\log_9(\frac{1}{3})$  | $1/\sqrt{9}$   | **-1/2** |
 
 ---
 
 ### **Anki Study Tip**
 * **Q:** What does a negative fractional exponent (like $-1/2$) do to a base?
 * **A:** It takes the square root of the base AND moves it to the denominator of a fraction.
+## 
