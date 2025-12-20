@@ -3918,3 +3918,42 @@ This example demonstrates a fundamental property of logs that is useful for quic
 | $\log_2(1) = 0$    | $2^0 = 1$        |
 | $\log_{10}(1) = 0$ | $10^0 = 1$       |
 | $\ln(1) = 0$       | $e^0 = 1$        |
+### **Problem: Solve $\log_7(7) = ?$**
+
+To solve this, we are asking the question: *"To what power must we raise the base **7** to get the result **7**?"*
+
+#### **1. Set up the Equation**
+Let the unknown answer be $y$:
+$$\log_7(7) = y$$
+
+#### **2. Convert to Exponential Form**
+Using the rule $\log_b(x) = y \iff b^y = x$:
+$$7^y = 7$$
+
+#### **3. Solve for $y$**
+Since any number without a visible exponent has an "invisible" exponent of $1$:
+$$7^y = 7^1$$
+Therefore, **$y = 1$**.
+
+**Final Answer:**
+$$\mathbf{\log_7(7) = 1}$$
+
+---
+
+### **The "Identity Property" of Logarithms**
+This is a fundamental rule in Algebra 2. Whenever the **base** and the **argument** are the same, the log always equals 1.
+
+> **Property:** $\log_b(b) = 1$
+
+
+
+#### **Examples for your Notes:**
+* $\log_5(5) = 1$
+* $\log_{10}(10) = 1$ (or simply $\log 10 = 1$)
+* $\log_e(e) = 1$ (or simply $\ln e = 1$)
+
+---
+
+### **Why does this happen?**
+In exponential form, the only way to keep a base exactly the same value is to raise it to the **1st power**.
+$$b^1 = b$$
