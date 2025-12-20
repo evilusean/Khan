@@ -4150,3 +4150,50 @@ When the argument is "1 over" a power of the base, the answer will always be the
 ### **Key Takeaway for Obsidian**
 > **Fractional Arguments = Negative Logarithms.**
 > If the base is a whole number (like 3) and the argument is a fraction (like $1/9$), the result **must** be negative because you need a negative exponent to "flip" the base.
+### **Problem: Solve $\log_9(3) = ?$**
+
+This problem asks: *"To what power must we raise 9 to get 3?"* This is an interesting case because the **argument (3)** is smaller than the **base (9)**. When the result is the square root of the base, the exponent will be a fraction.
+
+#### **1. Set up the Equation**
+Let the unknown value be $y$:
+$$\log_9(3) = y$$
+
+#### **2. Convert to Exponential Form**
+Using the rule $\log_b(x) = y \iff b^y = x$:
+$$9^y = 3$$
+
+#### **3. Solve for $y$**
+To solve, we need both sides of the equation to have the same base. Since $9$ is a power of $3$, we can rewrite $9$ as $3^2$:
+$$(3^2)^y = 3^1$$
+
+Apply the **Power of a Power Rule** ($(a^m)^n = a^{m \cdot n}$):
+$$3^{2y} = 3^1$$
+
+Since the bases are now the same, we can set the exponents equal to each other:
+$$2y = 1$$
+
+Divide by 2:
+$$\mathbf{y = \frac{1}{2}}$$
+
+**Final Answer:**
+$$\mathbf{\log_9(3) = \frac{1}{2}}$$
+
+---
+
+### **Key Concept: Fractional Exponents as Roots**
+In Algebra 2, it is vital to remember that an exponent of $\frac{1}{2}$ is the same as taking a **square root**.
+
+
+
+* $9^{1/2} = \sqrt{9} = 3$
+* Therefore, $\log_9(3) = \frac{1}{2}$
+
+#### **Other Examples for your Notes:**
+* $\log_{25}(5) = \frac{1}{2}$ (because $\sqrt{25} = 5$)
+* $\log_{8}(2) = \frac{1}{3}$ (because $\sqrt[3]{8} = 2$)
+* $\log_{100}(10) = \frac{1}{2}$ (because $\sqrt{100} = 10$)
+
+---
+
+### **Obsidian Summary Tip**
+> **Shrinking the Base:** If the argument is the **square root** of the base, the log is $1/2$. If the argument is the **cube root** of the base, the log is $1/3$.
