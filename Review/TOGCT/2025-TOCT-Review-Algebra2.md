@@ -4101,3 +4101,52 @@ If you are skeptical, you can set the expression equal to $y$ and convert it:
 ### **Anki Tip**
 * **Front:** Solve $b^{\log_b(x)}$
 * **Back:** $x$ (The exponential base and log base "undo" each other).
+### **Problem: Solve $\log_3\left(\frac{1}{9}\right) = ?$**
+
+This problem asks: *"3 raised to what power equals $\frac{1}{9}$?"* Whenever you see a fraction in a logarithm, you should immediately think of **negative exponents**.
+
+#### **1. Set up the Equation**
+Let the unknown value be $y$:
+$$\log_3\left(\frac{1}{9}\right) = y$$
+
+#### **2. Convert to Exponential Form**
+Using the rule $\log_b(x) = y \iff b^y = x$:
+$$3^y = \frac{1}{9}$$
+
+#### **3. Solve for $y$**
+First, rewrite the fraction using a common base (3):
+* We know that $9 = 3^2$.
+* Therefore, $\frac{1}{9} = \frac{1}{3^2}$.
+
+
+
+Now, use the **Negative Exponent Rule** ($x^{-n} = \frac{1}{x^n}$) to move the base out of the denominator:
+$$\frac{1}{3^2} = 3^{-2}$$
+
+Now the equation looks like this:
+$$3^y = 3^{-2}$$
+
+Since the bases are the same, the exponents must be equal:
+$$\mathbf{y = -2}$$
+
+**Final Answer:**
+$$\mathbf{\log_3\left(\frac{1}{9}\right) = -2}$$
+
+---
+
+### **Pattern Recognition for Fractions**
+When the argument is "1 over" a power of the base, the answer will always be the negative version of that power.
+
+| Log Form | Thinking Process | Exponential Form | Result |
+| :--- | :--- | :--- | :--- |
+| $\log_3(3)$ | $3^1$ | $3^1 = 3$ | **1** |
+| $\log_3(1)$ | $3^0$ | $3^0 = 1$ | **0** |
+| $\log_3\left(\frac{1}{3}\right)$ | $3^{-1}$ | $3^{-1} = \frac{1}{3}$ | **-1** |
+| $\log_3\left(\frac{1}{9}\right)$ | $3^{-2}$ | $3^{-2} = \frac{1}{9}$ | **-2** |
+| $\log_3\left(\frac{1}{27}\right)$ | $3^{-3}$ | $3^{-3} = \frac{1}{27}$ | **-3** |
+
+---
+
+### **Key Takeaway for Obsidian**
+> **Fractional Arguments = Negative Logarithms.**
+> If the base is a whole number (like 3) and the argument is a fraction (like $1/9$), the result **must** be negative because you need a negative exponent to "flip" the base.
