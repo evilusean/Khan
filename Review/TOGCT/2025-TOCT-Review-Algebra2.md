@@ -3847,3 +3847,36 @@ If you don't see a base written, it is an "invisible" base:
 > In the log form, $x$ is inside and $y$ is the answer. In the exponential form, $y$ moves to the exponent and $x$ becomes the answer.
 ## 2025-December-20-TOCT-Logarithms - The Easy Way! :
 https://www.youtube.com/watch?v=kqVpPSzkTYA
+### **Problem: Verify $\log_4(1) = 0$**
+
+To solve or understand this logarithmic statement, we convert it into its equivalent **exponential form**.
+
+#### **1. Identify the Parts**
+* **Base ($b$):** $4$
+* **Argument ($x$):** $1$
+* **Exponent ($y$):** $0$
+
+#### **2. Apply the Conversion**
+Using the rule $\log_b(x) = y \iff b^y = x$:
+
+
+
+$$4^0 = 1$$
+
+#### **3. Conclusion**
+The equation is true because **any non-zero number raised to the power of 0 equals 1**.
+
+---
+
+### **The "Zero Rule" of Logarithms**
+This example demonstrates a fundamental property of logs that is useful for quick calculation:
+
+> **Property:** $\log_b(1) = 0$ for any base $b > 0$ (and $b \neq 1$).
+
+**Why?** Because in exponential form, $b^0$ will always equal $1$.
+
+| Example            | Exponential Form |
+| :----------------- | :--------------- |
+| $\log_2(1) = 0$    | $2^0 = 1$        |
+| $\log_{10}(1) = 0$ | $10^0 = 1$       |
+| $\ln(1) = 0$       | $e^0 = 1$        |
