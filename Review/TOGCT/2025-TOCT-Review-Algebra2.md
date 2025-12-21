@@ -4399,8 +4399,49 @@ Plug $x = 16$ back into the original equation to ensure the argument is positive
 ### **Key Takeaway for your Notes**
 > **Isolate the Argument First:** When $x$ is inside the parentheses of a log, your first goal is always to get rid of the "log" part by converting to an exponent. Once the log is gone, it becomes a simple multi-step algebra equation.
 
-| Step | Action | Logic |
-| :--- | :--- | :--- |
-| **Step 1** | Convert to Exponential | Moves $x$ out of the log function. |
-| **Step 2** | Evaluate the Constant | Simplifies the side without $x$. |
-| **Step 3** | Inverse Operations | Isolate $x$ using Subtraction/Division. |
+| Step       | Action                 | Logic                                   |
+| :--------- | :--------------------- | :-------------------------------------- |
+| **Step 1** | Convert to Exponential | Moves $x$ out of the log function.      |
+| **Step 2** | Evaluate the Constant  | Simplifies the side without $x$.        |
+| **Step 3** | Inverse Operations     | Isolate $x$ using Subtraction/Division. |
+### **Problem: Solve $\log_7(x^2 + 3x + 9) = 2$**
+
+#### **1. Convert to Exponential Form**
+To "unlock" the quadratic expression inside the log, use the base 7:
+$$7^2 = x^2 + 3x + 9$$
+
+
+
+#### **2. Evaluate the Power**
+$$49 = x^2 + 3x + 9$$
+
+#### **3. Set the Quadratic to Zero**
+To solve a quadratic equation, you must move all terms to one side. Subtract 49 from both sides:
+$$0 = x^2 + 3x + 9 - 49$$
+$$0 = x^2 + 3x - 40$$
+
+#### **4. Factor the Quadratic**
+Find two numbers that multiply to $-40$ and add to $+3$.
+* Factors of $-40$: $(8 \text{ and } -5)$ works because $8 + (-5) = 3$.
+
+$$(x + 8)(x - 5) = 0$$
+
+#### **5. Solve for $x$**
+* $x + 8 = 0 \rightarrow \mathbf{x = -8}$
+* $x - 5 = 0 \rightarrow \mathbf{x = 5}$
+
+---
+
+### **Verification (The "Log Check")**
+In log equations, you must ensure the argument ($x^2 + 3x + 9$) remains **positive** for your solutions.
+
+* **Check $x = 5$:** $(5)^2 + 3(5) + 9 = 25 + 15 + 9 = 49$. ($\log_7(49) = 2$ is True).
+* **Check $x = -8$:** $(-8)^2 + 3(-8) + 9 = 64 - 24 + 9 = 49$. ($\log_7(49) = 2$ is True).
+
+**Final Solutions:**
+$$\mathbf{x = 5, -8}$$
+
+---
+
+### **Key Concept for Notes**
+> **Quadratic Arguments:** When you solve a log containing $x^2$, you will often get two potential solutions. Always check both. Even if an $x$ value is negative (like $-8$), it is a valid solution as long as it makes the **entire argument** positive when plugged back in.
