@@ -4491,3 +4491,95 @@ $$\mathbf{x \approx 50.138}$$
 
 ### **Obsidian Formatting Tip**
 When using $e$ in your notes, remember that it is a constant, not a variable. Treat it like $\pi$. If your teacher asks for an "exact solution," they are looking for the version with the letter $e$ still in it!
+### **Problem: Solve $4\ln(2x - 1) + 3 = 11$**
+
+#### **1. Isolate the Natural Log term**
+Treat $\ln(2x - 1)$ as a single block and use inverse operations to get it alone.
+
+* **Subtract 3 from both sides:**
+  $$4\ln(2x - 1) = 8$$
+* **Divide both sides by 4:**
+  $$\ln(2x - 1) = 2$$
+
+#### **2. Convert to Exponential Form**
+Now that the $\ln$ is isolated, remember that the base is **$e$**.
+$$\ln_{e}(2x - 1) = 2 \quad \Longleftrightarrow \quad e^2 = 2x - 1$$
+
+
+
+#### **3. Solve for $x$**
+Isolate $x$ while keeping $e$ in its exact form.
+
+* **Add 1 to both sides:**
+  $$e^2 + 1 = 2x$$
+* **Divide by 2:**
+  $$x = \frac{e^2 + 1}{2}$$
+
+#### **4. Final Answers**
+
+**Exact Solution:**
+$$\mathbf{x = \frac{e^2 + 1}{2}}$$
+
+**Decimal Approximation:**
+Using $e^2 \approx 7.389$:
+$$x \approx \frac{7.389 + 1}{2} = \frac{8.389}{2}$$
+$$\mathbf{x \approx 4.195}$$
+
+---
+
+### **Strategic Checklist for Logs**
+When solving equations like this, follow the **S.C.A.L.E.** method:
+1. **S**eparate: Isolate the log term (move the +3 and the 4).
+2. **C**onvert: Change the log to exponential form ($e^y = x$).
+3. **A**lgebra: Solve for the remaining variable.
+4. **L**ook back: Check that the argument ($2x-1$) is positive.
+5. **E**xact value: Keep $e$ in the answer unless asked for a decimal.
+
+
+
+---
+
+### **Common Mistake to Avoid**
+> **Do not distribute!** A common error is trying to multiply the $4$ into the parentheses: $4(2x-1)$. You cannot distribute into a logarithm; you must divide it away.
+### **Problem: Solve $\log_3(5x + 2) = \log_3(7x - 8)$**
+
+#### **1. Apply the One-to-One Property**
+The property states that if $\log_b(M) = \log_b(N)$, then **$M = N$**. Since both sides are $\log_3$, their arguments must be equal for the equation to hold true.
+
+
+
+Set the arguments equal:
+$$5x + 2 = 7x - 8$$
+
+#### **2. Solve the Linear Equation**
+Now, use basic algebra to isolate $x$:
+
+* **Move the $x$ terms to one side:**
+  Subtract $5x$ from both sides:
+  $$2 = 2x - 8$$
+* **Move the constants to the other side:**
+  Add $8$ to both sides:
+  $$10 = 2x$$
+* **Divide by 2:**
+  $$x = \frac{10}{2}$$
+  $$\mathbf{x = 5}$$
+
+#### **3. Verification (Critical Step)**
+You must check that the solution does not result in a **negative argument**, as logarithms of negative numbers are undefined.
+
+* **Left side check:** $5(5) + 2 = 27$ (Positive, OK)
+* **Right side check:** $7(5) - 8 = 27$ (Positive, OK)
+
+Since $\log_3(27) = \log_3(27)$, the answer is correct.
+
+---
+
+### **Key Concept for your Notes**
+> **The Equality Rule:** If you have exactly one log on the left and one log on the right with the same base, you can "drop" the logs and solve the remaining equation. 
+
+
+
+---
+
+### **Potential Pitfall**
+If this problem had a constant outside the log (for example, $\log_3(5x+2) = \log_3(7x-8) \mathbf{+ 1}$), you **could not** simply drop the logs. You would first need to use log properties to condense the terms.
