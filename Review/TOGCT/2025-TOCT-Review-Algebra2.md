@@ -4445,3 +4445,49 @@ $$\mathbf{x = 5, -8}$$
 
 ### **Key Concept for Notes**
 > **Quadratic Arguments:** When you solve a log containing $x^2$, you will often get two potential solutions. Always check both. Even if an $x$ value is negative (like $-8$), it is a valid solution as long as it makes the **entire argument** positive when plugged back in.
+### **Problem: Solve $\ln(3x - 2) = 5$**
+
+#### **1. Identify the Base**
+The notation $\ln$ stands for *logarithmus naturalis*. It always has a base of **$e$** (Euler's number, $\approx 2.718$). Rewrite the problem to make the base visible:
+$$\log_{e}(3x - 2) = 5$$
+
+#### **2. Convert to Exponential Form**
+"Unlock" the argument by raising the base $e$ to the power of the other side:
+$$e^5 = 3x - 2$$
+
+
+
+#### **3. Isolate $x$**
+Since $e^5$ is an irrational number, we usually keep it in "exact form" until the very last step.
+
+* **Add 2 to both sides:**
+  $$e^5 + 2 = 3x$$
+* **Divide by 3:**
+  $$x = \frac{e^5 + 2}{3}$$
+
+#### **4. Provide the Final Answers**
+In math notes, it is best to provide both the **Exact Answer** and the **Decimal Approximation**.
+
+**Exact Answer:**
+$$\mathbf{x = \frac{e^5 + 2}{3}}$$
+
+**Decimal Approximation:**
+Using a calculator ($e^5 \approx 148.413$):
+$$x \approx \frac{148.413 + 2}{3} \approx \frac{150.413}{3}$$
+$$\mathbf{x \approx 50.138}$$
+
+---
+
+### **Summary of Natural Log Properties**
+| Property | Log Form | Exponential Form |
+| :--- | :--- | :--- |
+| **Inverse** | $\ln(e) = 1$ | $e^1 = e$ |
+| **Zero** | $\ln(1) = 0$ | $e^0 = 1$ |
+| **Conversion** | $\ln(A) = B$ | $e^B = A$ |
+
+
+
+---
+
+### **Obsidian Formatting Tip**
+When using $e$ in your notes, remember that it is a constant, not a variable. Treat it like $\pi$. If your teacher asks for an "exact solution," they are looking for the version with the letter $e$ still in it!
