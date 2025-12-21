@@ -4583,3 +4583,86 @@ Since $\log_3(27) = \log_3(27)$, the answer is correct.
 
 ### **Potential Pitfall**
 If this problem had a constant outside the log (for example, $\log_3(5x+2) = \log_3(7x-8) \mathbf{+ 1}$), you **could not** simply drop the logs. You would first need to use log properties to condense the terms.
+### **Problem: Solve $\log_2(x) + \log_2(x+4) = 5$**
+
+This problem requires the **Product Property of Logarithms** to combine multiple logs into a single term before it can be solved.
+
+#### **1. Condense the Logarithms**
+Using the Product Property: $\log_b(M) + \log_b(N) = \log_b(M \cdot N)$
+$$\log_2(x(x + 4)) = 5$$
+$$\log_2(x^2 + 4x) = 5$$
+
+
+
+#### **2. Convert to Exponential Form**
+Apply the rule $\log_b(\text{Argument}) = y \iff b^y = \text{Argument}$:
+$$2^5 = x^2 + 4x$$
+
+#### **3. Evaluate and Set to Zero**
+Calculate $2^5 = 32$, then move it to the right to form a quadratic equation:
+$$32 = x^2 + 4x$$
+$$0 = x^2 + 4x - 32$$
+
+#### **4. Factor and Solve**
+Find two numbers that multiply to $-32$ and add to $+4$:
+* Factors are $+8$ and $-4$.
+$$(x + 8)(x - 4) = 0$$
+
+* $x + 8 = 0 \rightarrow x = -8$
+* $x - 4 = 0 \rightarrow x = 4$
+
+#### **5. Check for Extraneous Solutions**
+Logarithm arguments **must** be positive. You must check your $x$ values against the *original* logs.
+* **Check $x = -8$**: $\log_2(-8)$ is **undefined**. (Reject)
+* **Check $x = 4$**: $\log_2(4)$ and $\log_2(4+4)$ are both positive. (Accept)
+
+**Final Answer:**
+$$\mathbf{x = 4}$$
+
+---
+
+### **Key Takeaway for Notes**
+> **The Extraneous Solution Trap:** When a log equation turns into a quadratic, one of the solutions often makes the original log argument negative. Even though the algebra for $x = -8$ was correct, it is mathematically "illegal" in the world of logarithms.
+### **Problem: Solve $\log_3(x+1) = 3 - \log_3(x+7)$**
+
+This problem requires moving all logarithmic terms to one side so we can use the **Product Property** to condense them.
+
+#### **1. Move all logs to one side**
+Add $\log_3(x+7)$ to both sides:
+$$\log_3(x+1) + \log_3(x+7) = 3$$
+
+#### **2. Condense using the Product Property**
+Rule: $\log_b(M) + \log_b(N) = \log_b(M \cdot N)$
+$$\log_3((x+1)(x+7)) = 3$$
+$$\log_3(x^2 + 8x + 7) = 3$$
+
+#### **3. Convert to Exponential Form**
+Apply the rule $b^y = \text{Argument}$:
+$$3^3 = x^2 + 8x + 7$$
+$$27 = x^2 + 8x + 7$$
+
+#### **4. Set the Quadratic to Zero**
+Subtract 27 from both sides:
+$$0 = x^2 + 8x + 7 - 27$$
+$$0 = x^2 + 8x - 20$$
+
+#### **5. Factor and Solve**
+Find two numbers that multiply to $-20$ and add to $+8$:
+* Factors: $+10$ and $-2$.
+$$(x + 10)(x - 2) = 0$$
+
+* $x + 10 = 0 \rightarrow x = -10$
+* $x - 2 = 0 \rightarrow x = 2$
+
+#### **6. Check for Extraneous Solutions**
+Check $x$ values in the **original** arguments:
+* **Check $x = -10$**: $\log_3(-10+1) = \log_3(-9)$. **Undefined.** (Reject)
+* **Check $x = 2$**: $\log_3(2+1)$ and $\log_3(2+7)$ are both positive. (Accept)
+
+**Final Answer:**
+$$\mathbf{x = 2}$$
+
+---
+
+### **Obsidian Strategy Tip**
+> **Isolation is Key:** If logs are on opposite sides of the equals sign separated by a constant (like the 3 in this problem), always move the logs to the same side first. This allows you to condense them into a single log before converting to exponential form.
