@@ -4258,4 +4258,4 @@ See how the answer changes as we modify the argument:
 ### **Anki Study Tip**
 * **Q:** What does a negative fractional exponent (like $-1/2$) do to a base?
 * **A:** It takes the square root of the base AND moves it to the denominator of a fraction.
-## 
+## 2025-December-21-TOCT
