@@ -4661,8 +4661,90 @@ Check $x$ values in the **original** arguments:
 
 **Final Answer:**
 $$\mathbf{x = 2}$$
+### **Problem: Solve $\log_4(2x + 6) - \log_4(x - 1) = 1$**
+
+This problem requires the **Quotient Property of Logarithms** to combine the subtraction of two logs into a single division term.
+
+#### **1. Condense using the Quotient Property**
+Rule: $\log_b(M) - \log_b(N) = \log_b\left(\frac{M}{N}\right)$
+$$\log_4\left(\frac{2x + 6}{x - 1}\right) = 1$$
+
+#### **2. Convert to Exponential Form**
+Apply the rule $b^y = \text{Argument}$:
+$$4^1 = \frac{2x + 6}{x - 1}$$
+$$4 = \frac{2x + 6}{x - 1}$$
+
+#### **3. Solve for $x$**
+* **Clear the fraction** by multiplying both sides by $(x - 1)$:
+  $$4(x - 1) = 2x + 6$$
+* **Distribute:**
+  $$4x - 4 = 2x + 6$$
+* **Isolate the $x$ terms:**
+  Subtract $2x$ from both sides:
+  $$2x - 4 = 6$$
+* **Isolate the constant:**
+  Add $4$ to both sides:
+  $$2x = 10$$
+* **Divide by 2:**
+  $$\mathbf{x = 5}$$
+
+#### **4. Check for Extraneous Solutions**
+Check $x = 5$ in the **original** arguments:
+* Argument 1: $2(5) + 6 = 16$ (Positive, OK)
+* Argument 2: $5 - 1 = 4$ (Positive, OK)
+
+**Final Answer:**
+$$\mathbf{x = 5}$$
 
 ---
 
+### **Key Takeaway for Notes**
+> **Subtraction = Division:** Whenever you see two logarithms of the same base being subtracted, think of a fraction. This "Quotient Property" is the most common way to solve log equations involving subtraction.
+---
 ### **Obsidian Strategy Tip**
 > **Isolation is Key:** If logs are on opposite sides of the equals sign separated by a constant (like the 3 in this problem), always move the logs to the same side first. This allows you to condense them into a single log before converting to exponential form.
+### **Problem: Solve $\log_2(x+3) = 4 + \log_2(x-3)$**
+
+This problem requires moving all logarithmic terms to one side so we can use the **Quotient Property** to condense them.
+
+#### **1. Move all logs to one side**
+Subtract $\log_2(x-3)$ from both sides:
+$$\log_2(x+3) - \log_2(x-3) = 4$$
+
+#### **2. Condense using the Quotient Property**
+Rule: $\log_b(M) - \log_b(N) = \log_b\left(\frac{M}{N}\right)$
+$$\log_2\left(\frac{x+3}{x-3}\right) = 4$$
+
+#### **3. Convert to Exponential Form**
+Apply the rule $b^y = \text{Argument}$:
+$$2^4 = \frac{x+3}{x-3}$$
+$$16 = \frac{x+3}{x-3}$$
+
+#### **4. Solve for $x$**
+* **Multiply both sides by $(x-3)$:**
+  $$16(x-3) = x+3$$
+* **Distribute:**
+  $$16x - 48 = x+3$$
+* **Isolate $x$ terms:**
+  Subtract $x$ from both sides:
+  $$15x - 48 = 3$$
+* **Isolate the constant:**
+  Add 48 to both sides:
+  $$15x = 51$$
+* **Divide by 15:**
+  $$x = \frac{51}{15}$$
+  Simplify by dividing by 3:
+  $$\mathbf{x = \frac{17}{5}} \text{ or } \mathbf{3.4}$$
+
+#### **5. Check for Extraneous Solutions**
+Check $x = 3.4$ in the **original** arguments:
+* Argument 1: $3.4 + 3 = 6.4$ (Positive, OK)
+* Argument 2: $3.4 - 3 = 0.4$ (Positive, OK)
+
+**Final Answer:**
+$$\mathbf{x = \frac{17}{5} = 3.4}$$
+
+---
+
+### **Strategy Reminder**
+> **Logs with a Constant:** When an equation has logs and a standalone number (like 4), move all logs to one side, condense them into one log, and then "exponentiate" the base to get rid of the log.
