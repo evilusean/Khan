@@ -4260,3 +4260,54 @@ See how the answer changes as we modify the argument:
 * **A:** It takes the square root of the base AND moves it to the denominator of a fraction.
 ## 2025-December-21-TOCT-Solving Logarithmic Equations :
 https://www.youtube.com/watch?v=fnhFneOz6n8
+### **Problem: Solve $\log_x(81) = 4$**
+
+In this problem, the **base** is the unknown variable. We solve this by converting the logarithmic form into exponential form and then isolating $x$.
+
+#### **1. Convert to Exponential Form**
+Using the rule $\log_b(x) = y \iff b^y = x$:
+$$x^4 = 81$$
+
+
+
+#### **2. Solve for $x$**
+To isolate $x$, we need to undo the "power of 4." We do this by taking the **fourth root** of both sides:
+$$\sqrt[4]{x^4} = \sqrt[4]{81}$$
+$$x = \sqrt[4]{81}$$
+
+#### **3. Simplify the Root**
+Think: *"What number multiplied by itself four times equals 81?"*
+* $2 \times 2 \times 2 \times 2 = 16$ (Too small)
+* $3 \times 3 \times 3 \times 3 = 81$ (Perfect!)
+
+$$x = 3$$
+
+**Final Answer:**
+$$\mathbf{x = 3}$$
+
+---
+
+### **Important Note: Why not $\pm 3$?**
+In basic algebra, $\sqrt[4]{81}$ usually results in $\pm 3$. However, in **logarithms**, the base $b$ must follow specific constraints:
+1. The base must be **positive** ($x > 0$).
+2. The base **cannot be 1** ($x \neq 1$).
+
+Since the base cannot be negative, we discard $-3$ and keep only the positive solution.
+
+---
+
+### **Variations for your Notes**
+Solving for the base follows the same logic even if the exponent is different:
+
+| Log Form                  | Exponential Form | Solution Method   | Result       |
+| :------------------------ | :--------------- | :---------------- | :----------- |
+| $\log_x(81) = 2$          | $x^2 = 81$       | Square root       | **$x = 9$**  |
+| $\log_x(3) = 1$           | $x^1 = 3$        | Identity property | **$x = 3$**  |
+| $\log_x(9) = \frac{1}{2}$ | $x^{1/2} = 9$    | Square both sides | **$x = 81$** |
+
+---
+
+### **Study Check**
+If you ever get stuck, plug your answer back into the "Loop":
+> "Does **3** to the power of **4** equal **81**?" 
+> Yes, $3 \times 3 \times 3 \times 3 = 81$.
