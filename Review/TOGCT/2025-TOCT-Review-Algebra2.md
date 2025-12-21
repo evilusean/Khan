@@ -4353,7 +4353,54 @@ If you plug this back in: $\log_{32}(16) = 0.8$.
 ### **Quick Reference: Fractional Exponents**
 Add this small table to your note to remember the order of operations:
 
-| Form | Meaning | Example: $8^{2/3}$ |
-| :--- | :--- | :--- |
-| $b^{1/n}$ | $n$-th Root | $8^{1/3} = \sqrt[3]{8} = 2$ |
+| Form      | Meaning           | Example: $8^{2/3}$          |
+| :-------- | :---------------- | :-------------------------- |
+| $b^{1/n}$ | $n$-th Root       | $8^{1/3} = \sqrt[3]{8} = 2$ |
 | $b^{m/n}$ | $(\sqrt[n]{b})^m$ | $(\sqrt[3]{8})^2 = 2^2 = 4$ |
+### **Problem: Solve $\log_3(5x + 1) = 4$**
+
+#### **1. Convert to Exponential Form**
+The first step in solving for a variable inside a log is to "unlock" the argument using the base.
+Apply the rule: $\log_b(\text{Argument}) = y \iff b^y = \text{Argument}$
+
+$$3^4 = 5x + 1$$
+
+
+
+#### **2. Evaluate the Power**
+Calculate $3^4$:
+$3 \times 3 \times 3 \times 3 = 81$
+
+So the equation becomes:
+$$81 = 5x + 1$$
+
+#### **3. Solve the Linear Equation**
+Now, use basic algebra to isolate $x$:
+
+* **Subtract 1 from both sides:**
+  $$80 = 5x$$
+* **Divide by 5:**
+  $$x = \frac{80}{5}$$
+  $$\mathbf{x = 16}$$
+
+**Final Answer:**
+$$\mathbf{x = 16}$$
+
+---
+
+### **Verification (Check your work)**
+Plug $x = 16$ back into the original equation to ensure the argument is positive and the math holds up:
+1.  $5(16) + 1 = 80 + 1 = 81$
+2.  $\log_3(81) = 4$
+3.  Since $3^4 = 81$, the answer is correct.
+
+---
+
+### **Key Takeaway for your Notes**
+> **Isolate the Argument First:** When $x$ is inside the parentheses of a log, your first goal is always to get rid of the "log" part by converting to an exponent. Once the log is gone, it becomes a simple multi-step algebra equation.
+
+| Step | Action | Logic |
+| :--- | :--- | :--- |
+| **Step 1** | Convert to Exponential | Moves $x$ out of the log function. |
+| **Step 2** | Evaluate the Constant | Simplifies the side without $x$. |
+| **Step 3** | Inverse Operations | Isolate $x$ using Subtraction/Division. |
