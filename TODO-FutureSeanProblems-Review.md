@@ -59,78 +59,11 @@ Practice Set Notation + Set Builder Notation
 
 - [x] Solving/Graphing Quadratic Inequalities and Rational Inequalities 
 
-- [ ] Exponential and Logarithmic Functions (Logarithmic Form Vs Exponential Form) :
-**Logarithmic Function** : $f(x) = \log_a(x)$ : $a > 0, x > 0, a \neq 1$ : **Base ($a$):** Must be a positive number and cannot be equal to 1. **Argument ($x$):** Must be strictly positive ($x > 0$), which defines the **domain** of the function. : 
-**Exponential Function** : $f(x) = a^x$ : $a > 0, a \ne 1$ where 'x' is any real number greater than 0 and 'a' is not 1
-The general rule for conversion is:
-$$\mathbf{\text{Exponential Form: } a^y = x \quad \iff \quad \text{Logarithmic Form: } y = \log_a(x)}$$
-
-|     Term     | Role in Exponential ($a^y = x$) | Role in Logarithmic ($\log_a(x) = y$) | Value in Example |
-| :----------: | :-----------------------------: | :-----------------------------------: | :--------------: |
-|   **Base**   |               $a$               |            $a$ (subscript)            |        10        |
-| **Exponent** |               $y$               |            $y$ (isolated)             |        -2        |
-| **Argument** |               $x$               |           $x$ (inside log)            | $\frac{1}{100}$  |
-Expanding/Condensing + Properties of Logarithms :
-- **Product Rule for Logarithms** : $log_b(xy) = log_b(x) + log_b(y)$ : 'x', 'y', and 'b' are positive real numbesr and $b \ne 1$ - You can also reverse the process/condense 
-- **Quotient Rule for Logarithms** : $log_b(\frac{x}{y}) = log_b(x) - log_b(y)$ : 'x', 'y', and 'b' are positive real numbesr and $b \ne 1$ - Subtraction instead of addition
-- **Power Rule for Logarithms** : $log_b(x^r) = r \cdot log_b(x)$ : 'x', and 'b' are positive real numbesr and $b \ne 1$, 'r' is any real number : Exponent just comes down and goes in front
-- $b^{log_b(x)} = x$ : if you see something 'b' raised to the power of log base 'b' to 'x' you will get 'x' as the solution. restrictions: $b > 0, b \ne 1, x >0$ : I'm not even going to pretend I understand why this works. Future Sean Problems. something something about base being raised to the power to get 7. 
-- $log_b(b^x) = x$ : log base 'b' of 'b' to the 'x' is equal to 'x' = 'b' raised to the power of 'x' will give you 'b' to the power or 'x' : restrictions $b > 0, b \ne 1$ 
+- [x] Exponential and Logarithmic Functions (Logarithmic Form Vs Exponential Form) : ✅ 2025-12-21
+- [x] **Logarithmic Function** : $f(x) = \log_a(x)$ : $a > 0, x > 0, a \neq 1$ : **Base ($a$):** Must be a positive number and cannot be equal to 1. **Argument ($x$):** Must be strictly positive ($x > 0$), which defines the **domain** of the function. : ✅ 2025-12-21
+- [x] **Exponential Function** : $f(x) = a^x$ : $a > 0, a \ne 1$ where 'x' is any real number greater than 0 and 'a' is not 1 $$\mathbf{\text{Exponential Form: } a^y = x \quad \iff \quad \text{Logarithmic Form: } y = \log_a(x)}$$ ✅ 2025-12-21
 
  - Algebra II - Lesson 73 - Solving Exponential and Logarithmic Equations 
-### 🔑 The One-to-One Property of Exponential Functions
-
-This property establishes the equivalence between the exponents when the bases are equal, and vice-versa. It is the core principle used to solve many exponential equations. 
-
-[Image of the graph of an exponential function illustrating the one-to-one property]
-
-
-#### 1. The Property
-
-The exponential function $f(x) = b^x$ is a **one-to-one function** (meaning every $x$ value maps to a unique $y$ value), which gives rise to two forms of this property:
-
-* **Form 1 (If exponents are equal):**
-    If the exponents are equal, the powers are equal.
-    $$\text{If } \mathbf{x = y}\text{, then } \mathbf{b^x = b^y}$$
-
-* **Form 2 (If powers are equal):**
-    If the bases are the same and the powers are equal, then the exponents must be equal. This is the form most commonly used to solve equations.
-    $$\text{If } \mathbf{b^x = b^y}\text{, then } \mathbf{x = y}$$
-
----
-
-#### 2. Restrictions
-
-The property holds under the standard restrictions for an exponential base:
-* $b > 0$: The base must be **positive**.
-* $b \neq 1$: The base cannot be **one** (since $1^x = 1^y$ is always true, regardless of $x$ and $y$).
-
-***
-
-#### 💡 Key Takeaway for Solving Equations
-
-To solve an exponential equation using this property (like $2^{3x-3} = 64$), you must first manipulate both sides of the equation so they have the **same base** ($\mathbf{b^x = b^y}$). Once the bases are the same, you can equate the exponents and solve the resulting linear or quadratic equation ($\mathbf{x = y}$).
-### 📝 One-to-One Property of Logarithms
-
-This property highlights the equivalence between equality of arguments and equality of logarithms with the same base.
-
-**The Property:**
-
-If: $x = y$
-Then: $\log_b(x) = \log_b(y)$
-
-If: $\log_b(x) = \log_b(y)$
-Then: $x = y$
-
-**Conditions for the Property:**
-
-For: $x > 0, y > 0, b > 0, b \neq 1$
-
----
-
-#### 🔑 Key Takeaway
-
-The **One-to-One Property** is crucial for solving logarithmic equations. If you have a single logarithm on both sides of an equation with the same base, you can simply set their arguments equal to each other to solve for the variable.
 
 - **Completing the square** cut it in half and square it, and then add to the other side of equation
 
