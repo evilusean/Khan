@@ -4311,3 +4311,49 @@ Solving for the base follows the same logic even if the exponent is different:
 If you ever get stuck, plug your answer back into the "Loop":
 > "Does **3** to the power of **4** equal **81**?" 
 > Yes, $3 \times 3 \times 3 \times 3 = 81$.
+### **Problem: Solve $\log_{32}(x) = \frac{4}{5}$**
+
+In this problem, we are looking for the value of $x$ (the argument) that makes the equation true. We use the exponential conversion to solve it.
+
+#### **1. Convert to Exponential Form**
+Apply the rule $\log_b(x) = y \iff b^y = x$:
+$$32^{4/5} = x$$
+
+
+
+#### **2. Solve the Fractional Exponent**
+To solve $32^{4/5}$, remember the **Power-Root Rule**: 
+> The denominator is the **root**, and the numerator is the **power**.
+
+$$x = \sqrt[5]{32}^4$$
+
+#### **3. Step-by-Step Calculation**
+It is almost always easier to take the **root first**, then the power, to keep the numbers small:
+
+* **Step A (The Root):** Find the 5th root of 32.
+    *"What number multiplied by itself 5 times equals 32?"*
+    $2 \times 2 \times 2 \times 2 \times 2 = 32$
+    So, $\sqrt[5]{32} = 2$
+
+* **Step B (The Power):** Raise that result to the 4th power.
+    $2^4 = 2 \times 2 \times 2 \times 2 = 16$
+
+**Final Answer:**
+$$\mathbf{x = 16}$$
+
+---
+
+### **Conceptual Breakdown for your Notes**
+If you plug this back in: $\log_{32}(16) = 0.8$.
+* This makes sense because $16$ is smaller than $32$, so the exponent must be less than $1$ (a fraction).
+* However, $16$ is much larger than the 5th root ($2$), so the fraction should be closer to $1$ than to $0$. $4/5$ fits this logic perfectly.
+
+---
+
+### **Quick Reference: Fractional Exponents**
+Add this small table to your note to remember the order of operations:
+
+| Form | Meaning | Example: $8^{2/3}$ |
+| :--- | :--- | :--- |
+| $b^{1/n}$ | $n$-th Root | $8^{1/3} = \sqrt[3]{8} = 2$ |
+| $b^{m/n}$ | $(\sqrt[n]{b})^m$ | $(\sqrt[3]{8})^2 = 2^2 = 4$ |
