@@ -5180,3 +5180,48 @@ $$\mathbf{x = 1}$$
 
 **Final Answers:**
 $$\mathbf{x = 1, 2}$$
+### **Problem: Solve $3^{2x} - 3^{2x-1} = 18$**
+
+#### **1. Use Exponent Properties to Rewrite**
+Using the rule $a^{m-n} = \frac{a^m}{a^n}$, we can rewrite the second term:
+$$3^{2x} - \frac{3^{2x}}{3^1} = 18$$
+
+
+
+#### **2. Factor Out the Common Term**
+Both terms on the left side contain $3^{2x}$. Factor it out:
+$$3^{2x} \left( 1 - \frac{1}{3} \right) = 18$$
+
+#### **3. Simplify the Constant**
+Calculate the value inside the parentheses ($1 - \frac{1}{3} = \frac{2}{3}$):
+$$3^{2x} \left( \frac{2}{3} \right) = 18$$
+
+#### **4. Isolate the Exponential Term**
+* **Multiply both sides by 3:**
+  $$3^{2x} (2) = 54$$
+* **Divide both sides by 2:**
+  $$3^{2x} = 27$$
+
+#### **5. Find a Common Base**
+Recognize that $27$ is a power of $3$:
+$$27 = 3^3$$
+So:
+$$3^{2x} = 3^3$$
+
+#### **6. Set Exponents Equal and Solve**
+Since the bases match, we set the exponents equal to each other:
+$$2x = 3$$
+$$\mathbf{x = \frac{3}{2}} \text{ or } \mathbf{1.5}$$
+
+---
+
+### **Verification**
+Plug $x = 1.5$ back into the original equation:
+* $3^{2(1.5)} = 3^3 = 27$
+* $3^{2(1.5)-1} = 3^{3-1} = 3^2 = 9$
+* **Check:** $27 - 9 = 18$. (Correct!)
+
+---
+
+### **Strategy for your Vault**
+> **The Factoring Trick:** When you see an equation like $a^x - a^{x-1} = c$, don't use logs immediately. Instead, factor out the term with the **smallest exponent**. This often reduces the equation to a simple base-matching problem.
