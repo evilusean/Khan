@@ -5046,9 +5046,52 @@ $$\mathbf{x \approx 2.307}$$
 ### **Key Concept for Notes**
 > **Isolation Protocol:** Never apply a logarithm until the base and its exponent are completely isolated. If you have $a + b(e^{f(x)}) = c$, you must subtract $a$ and divide by $b$ first.
 
-| Step | Operation | Result |
-| :--- | :--- | :--- |
-| 1 | Subtract Constant | $2e^{3-x} = 4$ |
-| 2 | Divide Coefficient | $e^{3-x} = 2$ |
-| 3 | Natural Log | $3 - x = \ln(2)$ |
-| 4 | Isolate $x$ | $x = 3 - \ln(2)$ |
+| Step | Operation          | Result           |
+| :--- | :----------------- | :--------------- |
+| 1    | Subtract Constant  | $2e^{3-x} = 4$   |
+| 2    | Divide Coefficient | $e^{3-x} = 2$    |
+| 3    | Natural Log        | $3 - x = \ln(2)$ |
+| 4    | Isolate $x$        | $x = 3 - \ln(2)$ |
+### **Problem: Solve $3^{x^2 + 4x} = \frac{1}{27}$**
+
+#### **1. Find a Common Base**
+Identify that $27 = 3^3$. To handle the fraction, remember the **Negative Exponent Rule**: $\frac{1}{a^n} = a^{-n}$.
+$$\frac{1}{27} = \frac{1}{3^3} = 3^{-3}$$
+
+Substitute this back into the equation:
+$$3^{x^2 + 4x} = 3^{-3}$$
+
+
+
+#### **2. Set the Exponents Equal**
+Since the bases are now identical ($3$), the exponents must be equal according to the **One-to-One Property**:
+$$x^2 + 4x = -3$$
+
+#### **3. Form a Quadratic Equation**
+To solve for $x$, set the quadratic equation to zero by adding 3 to both sides:
+$$x^2 + 4x + 3 = 0$$
+
+#### **4. Factor and Solve**
+Find two numbers that multiply to $+3$ and add to $+4$. 
+* The factors are $+3$ and $+1$.
+
+$$(x + 3)(x + 1) = 0$$
+
+Set each factor to zero:
+* $x + 3 = 0 \implies \mathbf{x = -3}$
+* $x + 1 = 0 \implies \mathbf{x = -1}$
+
+---
+
+### **Verification**
+* **If $x = -3$:** $3^{(-3)^2 + 4(-3)} = 3^{9 - 12} = 3^{-3} = \frac{1}{27}$ (Correct)
+* **If $x = -1$:** $3^{(-1)^2 + 4(-1)} = 3^{1 - 4} = 3^{-3} = \frac{1}{27}$ (Correct)
+
+**Final Answers:**
+$$\mathbf{x = -3, -1}$$
+
+---
+
+### **Key Rules for your Vault**
+> **Fractional Bases:** When you see a fraction like $\frac{1}{b}$, rewrite it as $b^{-1}$ immediately to find a common base.
+> **Quadratic Exponents:** If the exponent contains $x^2$, expect to have two possible solutions for $x$.
