@@ -4750,3 +4750,54 @@ $$\mathbf{x = \frac{17}{5} = 3.4}$$
 > **Logs with a Constant:** When an equation has logs and a standalone number (like 4), move all logs to one side, condense them into one log, and then "exponentiate" the base to get rid of the log.
 ## 2025-December-22-TOCT-Solving Exponential Equations :
 https://www.youtube.com/watch?v=9tutJ5xrRwg
+### **Problem: Solve $3^{x+2} = 9^{2x-3}$**
+
+#### **1. Identify a Common Base**
+Look at the bases 3 and 9. Since $9 = 3^2$, we can rewrite the entire equation using **base 3**.
+
+$$3^{x+2} = (3^2)^{2x-3}$$
+
+
+
+[Image of powers of 3 table]
+
+
+#### **2. Simplify the Right Side**
+Use the **Power of a Power Property** $(a^m)^n = a^{m \cdot n}$. Multiply the exponent $2$ by the entire expression $(2x - 3)$:
+
+$$3^{x+2} = 3^{2(2x-3)}$$
+$$3^{x+2} = 3^{4x-6}$$
+
+#### **3. Set the Exponents Equal**
+Since the bases are now identical ($3$), the exponents must be equal for the equation to be true (the **One-to-One Property**).
+
+$$x + 2 = 4x - 6$$
+
+#### **4. Solve for $x$**
+Now, use basic algebra to isolate $x$:
+
+* **Move the $x$ terms to one side:**
+  Subtract $x$ from both sides:
+  $$2 = 3x - 6$$
+* **Move the constants to the other side:**
+  Add $6$ to both sides:
+  $$8 = 3x$$
+* **Divide by 3:**
+  $$\mathbf{x = \frac{8}{3}}$$
+
+---
+
+### **Verification**
+If you plug $x = \frac{8}{3}$ back in:
+* Left side: $3^{(8/3 + 6/3)} = 3^{14/3}$
+* Right side: $9^{(2(8/3) - 3)} = 9^{(16/3 - 9/3)} = 9^{7/3}$
+* Since $9^{7/3} = (3^2)^{7/3} = 3^{14/3}$, the answer is correct.
+
+---
+
+### **Obsidian Tip: Common Base Strategy**
+> When solving $a^f = b^g$, always check if the larger base is a power of the smaller base. 
+> **Common bases to watch for:**
+> * $2, 4, 8, 16, 32, 64$ (Base 2)
+> * $3, 9, 27, 81, 243$ (Base 3)
+> * $5, 25, 125, 625$ (Base 5)
