@@ -4801,3 +4801,59 @@ If you plug $x = \frac{8}{3}$ back in:
 > * $2, 4, 8, 16, 32, 64$ (Base 2)
 > * $3, 9, 27, 81, 243$ (Base 3)
 > * $5, 25, 125, 625$ (Base 5)
+### **Problem: Solve $8^{4x-12} = 16^{5x-3}$**
+
+#### **1. Find a Common Base**
+Recognize that both 8 and 16 can be written as powers of **2**:
+* $8 = 2^3$
+* $16 = 2^4$
+
+Substitute these into the original equation:
+$$(2^3)^{4x-12} = (2^4)^{5x-3}$$
+
+
+
+#### **2. Apply the Power of a Power Property**
+Use the rule $(a^m)^n = a^{m \cdot n}$. Distribute the outer exponent into the inner exponent for both sides:
+
+* **Left side:** $3 \cdot (4x - 12) = 12x - 36$
+* **Right side:** $4 \cdot (5x - 3) = 20x - 12$
+
+Now the equation is:
+$$2^{12x-36} = 2^{20x-12}$$
+
+#### **3. Set the Exponents Equal**
+Since the bases are now the same, their exponents must be equal:
+$$12x - 36 = 20x - 12$$
+
+#### **4. Solve for $x$**
+Isolate the variable:
+* **Subtract $12x$ from both sides:**
+  $$-36 = 8x - 12$$
+* **Add 12 to both sides:**
+  $$-24 = 8x$$
+* **Divide by 8:**
+  $$x = \frac{-24}{8}$$
+  $$\mathbf{x = -3}$$
+
+---
+
+### **Verification**
+Plug $x = -3$ back into the original bases:
+* **Left:** $8^{4(-3)-12} = 8^{-12-12} = 8^{-24}$
+* **Right:** $16^{5(-3)-3} = 16^{-15-3} = 16^{-18}$
+
+Convert both to base 2 to compare:
+* $8^{-24} = (2^3)^{-24} = 2^{-72}$
+* $16^{-18} = (2^4)^{-18} = 2^{-72}$
+Both sides match!
+
+---
+
+### **Summary Table for Notes**
+| Base | Exponential Form |
+| :--- | :--- |
+| **8** | $2^3$ |
+| **16** | $2^4$ |
+| **32** | $2^5$ |
+| **64** | $2^6$ |
