@@ -4907,3 +4907,45 @@ Since our target is **8**, $x$ should be a number very close to, but slightly le
 2. **Drop Exponent:** Move the $x$ to the front.
 3. **Divide:** Divide by the log of the base.
 4. **Calculate:** Use a calculator for the final decimal value.
+### **Problem: Solve $e^x = 7$**
+
+This is an exponential equation where the base is the mathematical constant $e$. To isolate $x$, we apply the natural log to both sides.
+
+#### **1. Take the Natural Log ($\ln$) of Both Sides**
+$$\ln(e^x) = \ln(7)$$
+
+#### **2. Use the Inverse Property**
+The natural log and the base $e$ are inverses. By definition, $\ln(e^x) = x$. 
+(Alternatively, using the Power Rule: $x \cdot \ln(e) = \ln(7)$. Since $\ln(e) = 1$, we are left with $x$).
+
+
+
+$$x = \ln(7)$$
+
+#### **3. Final Answers**
+
+**Exact Solution:**
+$$\mathbf{x = \ln(7)}$$
+
+**Decimal Approximation:**
+Using a calculator:
+$$\mathbf{x \approx 1.946}$$
+
+---
+
+### **Quick Facts for your Notes**
+* **The Relationship:** $e^x = y$ is the same as $\ln(y) = x$.
+* **Why use $\ln$?:** You could use $\log_{10}$, but $\ln$ is the "natural" choice for base $e$ because it cancels out perfectly without leaving extra constants.
+* **Graphical Context:** The solution $x \approx 1.946$ is the x-coordinate where the graph of $f(x) = e^x$ intersects the horizontal line $y = 7$.
+
+
+
+---
+
+### **Common $\ln$ Values to Know**
+| Equation | Exact | Approx |
+| :--- | :--- | :--- |
+| $e^x = 1$ | $\ln(1)$ | $0$ |
+| $e^x = e$ | $\ln(e)$ | $1$ |
+| $e^x = 7$ | $\ln(7)$ | $1.946$ |
+| $e^x = 10$ | $\ln(10)$ | $2.303$ |
