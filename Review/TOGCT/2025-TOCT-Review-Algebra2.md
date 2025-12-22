@@ -5143,3 +5143,40 @@ $$\mathbf{x = -4, 1}$$
 1. **Condense:** Use exponent properties to turn multiple bases into one.
 2. **Match Bases:** Rewrite constants as powers of the variable's base.
 3. **Equate:** Drop the bases and solve the resulting polynomial.
+### **Problem: Solve $4^{2x} - 20 \cdot 4^{x} + 64 = 0$**
+
+This equation is in **quadratic form**. We can solve it by using a substitution to turn it into a standard trinomial.
+
+#### **1. Identify the Substitution**
+Notice that $4^{2x}$ is the same as $(4^x)^2$. 
+Let **$u = 4^x$**.
+
+Now, substitute $u$ into the equation:
+$$u^2 - 20u + 64 = 0$$
+
+#### **2. Solve the Quadratic for $u$**
+We need two numbers that multiply to $+64$ and add to $-20$.
+* The factors are $-16$ and $-4$.
+$$(u - 16)(u - 4) = 0$$
+
+So, the possible values for $u$ are:
+* $u = 16$
+* $u = 4$
+
+#### **3. Substitute back to solve for $x$**
+Now we replace $u$ with the original $4^x$ to find the values of $x$.
+
+**Case 1:**
+$$4^x = 16$$
+Since $16 = 4^2$:
+$$\mathbf{x = 2}$$
+
+**Case 2:**
+$$4^x = 4$$
+Since $4 = 4^1$:
+$$\mathbf{x = 1}$$
+
+---
+
+**Final Answers:**
+$$\mathbf{x = 1, 2}$$
