@@ -5004,3 +5004,51 @@ Check the logic:
 If $x \approx 4$, then $4^{4-2} = 4^2 = 16$.
 Adding the initial 5: $5 + 16 = 21$.
 Since our target was 23, an answer slightly larger than 4 ($4.085$) is perfectly logical.
+### **Problem: Solve $3 + 2e^{3-x} = 7$**
+
+To solve an exponential equation where the $e$ term is part of a larger expression, you must isolate the exponential part before applying the natural logarithm.
+
+#### **1. Isolate the Exponential Term**
+First, treat $e^{3-x}$ as the variable and use inverse operations to get it alone.
+
+* **Subtract 3 from both sides:**
+    $$2e^{3-x} = 4$$
+* **Divide both sides by 2:**
+    $$e^{3-x} = 2$$
+
+#### **2. Apply the Natural Logarithm ($\ln$)**
+Take the natural log of both sides to "cancel out" the base $e$.
+$$\ln(e^{3-x}) = \ln(2)$$
+
+Using the inverse property $\ln(e^u) = u$:
+$$3 - x = \ln(2)$$
+
+#### **3. Solve for $x$**
+* **Subtract 3 from both sides:**
+    $$-x = \ln(2) - 3$$
+* **Multiply by -1 to isolate $x$:**
+    $$x = 3 - \ln(2)$$
+
+---
+
+#### **4. Final Answers**
+
+**Exact Solution:**
+$$\mathbf{x = 3 - \ln(2)}$$
+
+**Decimal Approximation:**
+Using a calculator ($\ln(2) \approx 0.693$):
+$$x \approx 3 - 0.693$$
+$$\mathbf{x \approx 2.307}$$
+
+---
+
+### **Key Concept for Notes**
+> **Isolation Protocol:** Never apply a logarithm until the base and its exponent are completely isolated. If you have $a + b(e^{f(x)}) = c$, you must subtract $a$ and divide by $b$ first.
+
+| Step | Operation | Result |
+| :--- | :--- | :--- |
+| 1 | Subtract Constant | $2e^{3-x} = 4$ |
+| 2 | Divide Coefficient | $e^{3-x} = 2$ |
+| 3 | Natural Log | $3 - x = \ln(2)$ |
+| 4 | Isolate $x$ | $x = 3 - \ln(2)$ |
