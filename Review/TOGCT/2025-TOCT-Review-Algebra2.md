@@ -4851,9 +4851,59 @@ Both sides match!
 ---
 
 ### **Summary Table for Notes**
-| Base | Exponential Form |
-| :--- | :--- |
-| **8** | $2^3$ |
-| **16** | $2^4$ |
-| **32** | $2^5$ |
-| **64** | $2^6$ |
+| Base   | Exponential Form |
+| :----- | :--------------- |
+| **8**  | $2^3$            |
+| **16** | $2^4$            |
+| **32** | $2^5$            |
+| **64** | $2^6$            |
+### **Problem: Solve $3^x = 8$**
+
+When bases cannot be matched (3 is prime and 8 is a power of 2), we use logarithms to isolate the variable $x$.
+
+#### **1. Take the Logarithm of Both Sides**
+You can use either the Common Log ($\log$) or the Natural Log ($\ln$). We'll use $\ln$:
+$$\ln(3^x) = \ln(8)$$
+
+#### **2. Use the Power Property of Logs**
+The **Power Rule** states: $\log_b(M^p) = p \cdot \log_b(M)$. This allows us to move the $x$ to the front as a multiplier:
+$$x \cdot \ln(3) = \ln(8)$$
+
+
+
+#### **3. Isolate $x$**
+Divide both sides by $\ln(3)$:
+$$x = \frac{\ln(8)}{\ln(3)}$$
+
+---
+
+#### **4. Final Answers**
+
+**Exact Solution (Change of Base Form):**
+Using the Change of Base formula, this is also equivalent to:
+$$\mathbf{x = \log_3(8)}$$
+
+**Decimal Approximation:**
+Using a calculator:
+* $\ln(8) \approx 2.0794$
+* $\ln(3) \approx 1.0986$
+$$x \approx \frac{2.0794}{1.0986}$$
+$$\mathbf{x \approx 1.893}$$
+
+---
+
+### **Verification (Logic Check)**
+Does this answer make sense?
+* $3^1 = 3$
+* $3^2 = 9$
+Since our target is **8**, $x$ should be a number very close to, but slightly less than, **2**. Our answer of **1.893** fits this perfectly.
+
+
+
+---
+
+### **Summary of Steps**
+1. **Apply Log:** Put $\ln$ or $\log$ on both sides.
+2. **Drop Exponent:** Move the $x$ to the front.
+3. **Divide:** Divide by the log of the base.
+4. **Calculate:** Use a calculator for the final decimal value.
