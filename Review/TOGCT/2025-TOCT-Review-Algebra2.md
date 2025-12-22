@@ -5095,3 +5095,51 @@ $$\mathbf{x = -3, -1}$$
 ### **Key Rules for your Vault**
 > **Fractional Bases:** When you see a fraction like $\frac{1}{b}$, rewrite it as $b^{-1}$ immediately to find a common base.
 > **Quadratic Exponents:** If the exponent contains $x^2$, expect to have two possible solutions for $x$.
+### **Problem: Solve $2^{x^2} \cdot 2^{3x} = 16$**
+
+#### **1. Combine the Left Side**
+Using the **Product Property of Exponents**: $a^m \cdot a^n = a^{m+n}$. Since the bases are the same, we add the exponents.
+$$2^{x^2 + 3x} = 16$$
+
+
+
+#### **2. Identify a Common Base**
+We need both sides to have the same base. Recognize that $16$ is a power of $2$:
+$$16 = 2^4$$
+
+Now rewrite the equation:
+$$2^{x^2 + 3x} = 2^4$$
+
+#### **3. Set the Exponents Equal**
+Since the bases are now identical ($2$), the exponents must be equal for the equation to hold true.
+$$x^2 + 3x = 4$$
+
+#### **4. Solve the Quadratic Equation**
+To solve for $x$, move all terms to one side to set the equation to zero:
+$$x^2 + 3x - 4 = 0$$
+
+Now, factor the quadratic. We need two numbers that multiply to $-4$ and add to $+3$:
+* Factors are $+4$ and $-1$.
+$$(x + 4)(x - 1) = 0$$
+
+
+
+Set each factor to zero:
+* $x + 4 = 0 \implies \mathbf{x = -4}$
+* $x - 1 = 0 \implies \mathbf{x = 1}$
+
+---
+
+### **Verification**
+* **If $x = 1$:** $2^{1^2} \cdot 2^{3(1)} = 2^1 \cdot 2^3 = 2^4 = 16$ (Check!)
+* **If $x = -4$:** $2^{(-4)^2} \cdot 2^{3(-4)} = 2^{16} \cdot 2^{-12} = 2^{16-12} = 2^4 = 16$ (Check!)
+
+**Final Answers:**
+$$\mathbf{x = -4, 1}$$
+
+---
+
+### **Strategic Summary for Vault**
+1. **Condense:** Use exponent properties to turn multiple bases into one.
+2. **Match Bases:** Rewrite constants as powers of the variable's base.
+3. **Equate:** Drop the bases and solve the resulting polynomial.
