@@ -4749,4 +4749,4 @@ $$\mathbf{x = \frac{17}{5} = 3.4}$$
 ### **Strategy Reminder**
 > **Logs with a Constant:** When an equation has logs and a standalone number (like 4), move all logs to one side, condense them into one log, and then "exponentiate" the base to get rid of the log.
 ## 2025-December-22-TOCT-Solving Exponential Equations :
-
+https://www.youtube.com/watch?v=9tutJ5xrRwg
