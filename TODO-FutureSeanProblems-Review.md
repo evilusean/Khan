@@ -63,7 +63,7 @@ Practice Set Notation + Set Builder Notation
 - [x] **Logarithmic Function** : $f(x) = \log_a(x)$ : $a > 0, x > 0, a \neq 1$ : **Base ($a$):** Must be a positive number and cannot be equal to 1. **Argument ($x$):** Must be strictly positive ($x > 0$), which defines the **domain** of the function. : ✅ 2025-12-21
 - [x] **Exponential Function** : $f(x) = a^x$ : $a > 0, a \ne 1$ where 'x' is any real number greater than 0 and 'a' is not 1 $$\mathbf{\text{Exponential Form: } a^y = x \quad \iff \quad \text{Logarithmic Form: } y = \log_a(x)}$$ ✅ 2025-12-21
 
- - Algebra II - Lesson 73 - Solving Exponential and Logarithmic Equations 
+- [x] Algebra II - Lesson 73 - Solving Exponential and Logarithmic Equations 
 
 - **Completing the square** cut it in half and square it, and then add to the other side of equation
 
