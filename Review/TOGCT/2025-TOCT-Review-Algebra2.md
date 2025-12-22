@@ -4943,9 +4943,64 @@ $$\mathbf{x \approx 1.946}$$
 ---
 
 ### **Common $\ln$ Values to Know**
-| Equation | Exact | Approx |
-| :--- | :--- | :--- |
-| $e^x = 1$ | $\ln(1)$ | $0$ |
-| $e^x = e$ | $\ln(e)$ | $1$ |
-| $e^x = 7$ | $\ln(7)$ | $1.946$ |
+| Equation   | Exact     | Approx  |
+| :--------- | :-------- | :------ |
+| $e^x = 1$  | $\ln(1)$  | $0$     |
+| $e^x = e$  | $\ln(e)$  | $1$     |
+| $e^x = 7$  | $\ln(7)$  | $1.946$ |
 | $e^x = 10$ | $\ln(10)$ | $2.303$ |
+### **Problem: Solve $5 + 4^{x-2} = 23$**
+
+#### **1. Isolate the Exponential Term**
+Subtract 5 from both sides of the equation to get the term with the exponent by itself:
+$$4^{x-2} = 18$$
+
+#### **2. Apply Logarithms to Both Sides**
+Since 4 and 18 do not share a simple common base (like 2), we use the **Natural Log ($\ln$)** or **Common Log ($\log$)** to bring the exponent down.
+$$\ln(4^{x-2}) = \ln(18)$$
+
+
+
+#### **3. Use the Power Rule**
+Move the exponent $(x - 2)$ to the front as a multiplier. **Note:** Keep the expression in parentheses.
+$$(x - 2) \ln(4) = \ln(18)$$
+
+#### **4. Isolate $x$**
+* **Divide by $\ln(4)$:**
+  $$x - 2 = \frac{\ln(18)}{\ln(4)}$$
+* **Add 2 to both sides:**
+  $$x = \frac{\ln(18)}{\ln(4)} + 2$$
+
+---
+
+#### **5. Final Answers**
+
+**Exact Solution:**
+$$\mathbf{x = \frac{\ln(18)}{\ln(4)} + 2}$$
+
+**Decimal Approximation:**
+Using a calculator:
+* $\ln(18) \approx 2.8904$
+* $\ln(4) \approx 1.3863$
+* $2.8904 / 1.3863 \approx 2.085$
+$$x \approx 2.085 + 2$$
+$$\mathbf{x \approx 4.085}$$
+
+---
+
+### **Strategic Order of Operations**
+When solving equations like this, always follow this "outside-in" order:
+1. **Add/Subtract:** Move any terms not attached to the base.
+2. **Multiply/Divide:** If there was a number in front of the 4, you would divide by it next.
+3. **Logarithm:** Use logs once the base and exponent are totally isolated.
+4. **Solve for $x$:** Finish the remaining linear algebra.
+
+
+
+---
+
+### **Verification**
+Check the logic:
+If $x \approx 4$, then $4^{4-2} = 4^2 = 16$.
+Adding the initial 5: $5 + 16 = 21$.
+Since our target was 23, an answer slightly larger than 4 ($4.085$) is perfectly logical.
