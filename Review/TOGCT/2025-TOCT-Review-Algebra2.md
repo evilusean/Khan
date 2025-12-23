@@ -5227,3 +5227,48 @@ Plug $x = 1.5$ back into the original equation:
 > **The Factoring Trick:** When you see an equation like $a^x - a^{x-1} = c$, don't use logs immediately. Instead, factor out the term with the **smallest exponent**. This often reduces the equation to a simple base-matching problem.
 ## 2025-December-23-TOCT-How To Solve Systems of Nonlinear Equations :
 https://www.youtube.com/watch?v=JPdLEaxlnZQ
+### **Problem: Solve the Nonlinear System**
+1) $y = x^2 + 3x - 1$
+2) $y = x^2 - 4x + 6$
+
+This system consists of two parabolas. To find their intersection point, we set the equations equal to each other.
+
+#### **1. Set Equations Equal**
+$$x^2 + 3x - 1 = x^2 - 4x + 6$$
+
+#### **2. Simplify the Equation**
+Notice that $x^2$ appears on both sides. Subtract $x^2$ from both sides to eliminate the quadratic term:
+$$3x - 1 = -4x + 6$$
+
+
+
+#### **3. Solve for $x$**
+* **Add $4x$ to both sides:**
+  $$7x - 1 = 6$$
+* **Add $1$ to both sides:**
+  $$7x = 7$$
+* **Divide by $7$:**
+  $$\mathbf{x = 1}$$
+
+#### **4. Find the Corresponding $y$-value**
+Plug $x = 1$ back into **either** original equation (Equation 1 is used here):
+$$y = (1)^2 + 3(1) - 1$$
+$$y = 1 + 3 - 1$$
+$$\mathbf{y = 3}$$
+
+---
+
+### **Final Solution**
+The parabolas intersect at exactly one point:
+$$\mathbf{(1, 3)}$$
+
+---
+
+### **Verification**
+Check the point $(1, 3)$ in Equation 2:
+$$3 = (1)^2 - 4(1) + 6$$
+$$3 = 1 - 4 + 6$$
+$$3 = 3 \quad \text{(Correct!)}$$
+
+### **Note on Geometry**
+> Even though both equations were quadratic ($x^2$), the $x^2$ terms cancelled out. This tells us that the parabolas have the same "width" and orientation, meaning they can only intersect at one point rather than two.
