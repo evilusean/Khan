@@ -18,6 +18,9 @@ TOCT-Precalculus Playlist :
 https://www.youtube.com/playlist?list=PL0o_zxa4K1BU5sTWZ2YxFhpXwsnMfMke7
 https://www.video-tutor.net/precalculus.html
 
+Khan Academy - Precalculus :
+https://www.khanacademy.org/math/precalculus
+
 Where do Sin, Cos and Tan Actually Come From - Origins of Trigonometry - Part 1 :
 https://www.youtube.com/watch?v=uMfnJ6TJinc
 
