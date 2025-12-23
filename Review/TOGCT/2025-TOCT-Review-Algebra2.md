@@ -5297,3 +5297,29 @@ Factor: $(y - 4)(y + 2) = 0$
 * If $y = -2 \implies x = -2 - 2 = -4$
 
 **Final Solutions: $(2, 4)$ and $(-4, -2)$**
+
+## **System of Nonlinear Equations: Hyperbola and Line**
+
+**Equations:**
+1) $xy = 12$
+2) $2x + y = 10$
+
+### **Step 1: Isolate a variable**
+From equation (2): $y = 10 - 2x$
+
+### **Step 2: Substitute and Expand**
+Substitute into (1):
+$$x(10 - 2x) = 12$$
+$$10x - 2x^2 = 12$$
+$$2x^2 - 10x + 12 = 0$$
+
+### **Step 3: Solve for $x$**
+Divide by 2: $x^2 - 5x + 6 = 0$
+Factor: $(x - 2)(x - 3) = 0$
+**$x = 2$** and **$x = 3$**
+
+### **Step 4: Back-substitute for $y$**
+* If $x = 2 \implies y = 10 - 2(2) = 6$
+* If $x = 3 \implies y = 10 - 2(3) = 4$
+
+**Final Solutions: $(2, 6)$ and $(3, 4)$**
