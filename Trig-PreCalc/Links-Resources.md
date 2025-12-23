@@ -14,6 +14,9 @@ https://www.youtube.com/watch?v=qz3TX7ZnnZw
 GreeneMath - Solving Trigonometric Equations and Inequalities Full Course (5 hours) :
 https://www.youtube.com/watch?v=FxDii9MkSpA
 
+TOCT-Precalculus Playlist :
+https://www.youtube.com/playlist?list=PL0o_zxa4K1BU5sTWZ2YxFhpXwsnMfMke7
+
 Where do Sin, Cos and Tan Actually Come From - Origins of Trigonometry - Part 1 :
 https://www.youtube.com/watch?v=uMfnJ6TJinc
 
