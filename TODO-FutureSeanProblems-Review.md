@@ -65,7 +65,5 @@ Practice Set Notation + Set Builder Notation
 
 - [x] Algebra II - Lesson 73 - Solving Exponential and Logarithmic Equations 
 
-- [x] **Completing the square** cut it in half and square it, and then add to the other side of equation
-
 - Algebra II - Lesson 79 - Solving Non-Linear Systems of Equations - 01December2025 :
 https://www.youtube.com/watch?v=2wrPGtP61fo&t=34h24m50s
