@@ -5225,3 +5225,4 @@ Plug $x = 1.5$ back into the original equation:
 
 ### **Strategy for your Vault**
 > **The Factoring Trick:** When you see an equation like $a^x - a^{x-1} = c$, don't use logs immediately. Instead, factor out the term with the **smallest exponent**. This often reduces the equation to a simple base-matching problem.
+## 2025-December-23-TOCT-How To Solve Systems of Nonlinear Equations :
