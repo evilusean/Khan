@@ -5272,3 +5272,28 @@ $$3 = 3 \quad \text{(Correct!)}$$
 
 ### **Note on Geometry**
 > Even though both equations were quadratic ($x^2$), the $x^2$ terms cancelled out. This tells us that the parabolas have the same "width" and orientation, meaning they can only intersect at one point rather than two.
+## **System of Nonlinear Equations: Circle and Line**
+
+**Equations:**
+1) $x^2 + y^2 = 20$
+2) $x - y = -2$
+
+### **Step 1: Isolate a variable**
+From equation (2): $x = y - 2$
+
+### **Step 2: Substitute and Expand**
+Substitute into (1):
+$$(y - 2)^2 + y^2 = 20$$
+$$y^2 - 4y + 4 + y^2 = 20$$
+$$2y^2 - 4y - 16 = 0$$
+
+### **Step 3: Solve for $y$**
+Divide by 2: $y^2 - 2y - 8 = 0$
+Factor: $(y - 4)(y + 2) = 0$
+**$y = 4$** and **$y = -2$**
+
+### **Step 4: Back-substitute for $x$**
+* If $y = 4 \implies x = 4 - 2 = 2$
+* If $y = -2 \implies x = -2 - 2 = -4$
+
+**Final Solutions: $(2, 4)$ and $(-4, -2)$**
