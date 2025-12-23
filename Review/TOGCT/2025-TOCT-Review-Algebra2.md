@@ -5323,3 +5323,26 @@ Factor: $(x - 2)(x - 3) = 0$
 * If $x = 3 \implies y = 10 - 2(3) = 4$
 
 **Final Solutions: $(2, 6)$ and $(3, 4)$**
+## **System of Nonlinear Equations: Circle and Hyperbola**
+
+**Equations:**
+1) $x^2 + y^2 = 45$
+2) $x^2 - y^2 = -27$
+
+### **Step 1: Elimination Method**
+Add the two equations together to eliminate $y^2$:
+$$(x^2 + y^2) + (x^2 - y^2) = 45 + (-27)$$
+$$2x^2 = 18$$
+
+### **Step 2: Solve for $x$**
+$$x^2 = 9$$
+$$x = \pm 3$$
+
+### **Step 3: Solve for $y$**
+Substitute $x^2 = 9$ into the first equation:
+$$9 + y^2 = 45$$
+$$y^2 = 36$$
+$$y = \pm 6$$
+
+**Final Solutions:**
+$$(3, 6), (3, -6), (-3, 6), (-3, -6)$$
