@@ -12,3 +12,4 @@ number (y-value).
 - $f(2) = 2^2 + 1 = 5$ 
 - $f(5) = 5^2 + 1 = 26$
 - $f(a+3) = a^2 + 6a + 10$ 
+- not even 2 minutes into the video and she is already talking about 'functions' as 'mothers' and how you can have infinite mothers.. - Do I really want to listen to this for 5 and a half hours?
