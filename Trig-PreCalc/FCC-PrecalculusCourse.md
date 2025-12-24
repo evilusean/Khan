@@ -21,4 +21,10 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=12m05s
 - blue line go down = negative = decreasing
 ## 2025-December-24 - Maximums and Minimums on a Graphs :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=17m35s
+- **Maximum** A function f(x) has an absolute maximum at x = c if the 'y' value at 'x = c' is as big as it ever gets
+- **Minimum** A function f(x) has an absolute minimum at x = c if the 'y' value at 'x = c' is as small as it ever gets
+- **Global Maximum/Minimum Values** = Another word for absolute maximum/minimum values
+- **Local Maximum** = If it is larger than any nearby y values
+- **Local Minimum** = If it is smaller than any nearby y values
+- **Relative Maximum/Minimum Values** = Another name for local minimum/maximum values
 
