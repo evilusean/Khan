@@ -8,3 +8,7 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=20
 - Definition. A function is correspondence between input numbers (x-values) and out-
 put numbers (y-value) that sends each input number (x-value) to exactly one output
 number (y-value).
+- Sometimes, a function is described with an equation. : $y = x^2 + 1$, which can also be written as $f(x) = x^2 + 1$ : 
+- $f(2) = 2^2 + 1 = 5$ 
+- $f(5) = 5^2 + 1 = 26$
+- $f(a+3) = a^2 + 6a + 10$ 
