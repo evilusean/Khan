@@ -19,4 +19,5 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=20
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=12m05s
 - green line go up = positive = inceasing
 - blue line go down = negative = decreasing
+## 2025-December-24 - Maximums and Minimums on a Graphs :
 
