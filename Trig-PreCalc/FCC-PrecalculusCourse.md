@@ -28,4 +28,5 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=17m35s
 - **Local Minimum** = If it is smaller than any nearby y values
 - **Relative Maximum/Minimum Values** = Another name for local minimum/maximum values
 ## 2025-December-24 - Even and Odd Functions :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=26m40s
 
