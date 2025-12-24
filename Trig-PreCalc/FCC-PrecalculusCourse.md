@@ -17,3 +17,6 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=20
 - To find domain of a function, exclude 'x' values that make the denominator '0'. Also exclude 'x' values that make an expression inside a square root negative
 ## 2025-December-24 - Increasing and Decreasing Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=12m05s
+- green line go up = positive = inceasing
+- blue line go down = negative = decreasing
+
