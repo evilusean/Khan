@@ -29,4 +29,12 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=17m35s
 - **Relative Maximum/Minimum Values** = Another name for local minimum/maximum values
 ## 2025-December-24 - Even and Odd Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=26m40s
-
+![[Pasted image 20251224163701.png]]
+- A graph is symmetric in respect to the x axis, y axis, origin if... Not typing all that out, and describing each graph.
+- **Symmetric X Axis** = Mirror Symmetry with X axis (x,y) is mirrored by the same points on (x, -y)
+- **Symmetric Y Axis** = Mirror Symmetry with Y axis (x,y) is mirroed on the same point with (-x, y)
+- **Symmetric Origin** = Mirror Symmetry with origin (0,0) - it has $180\degree$ degree rotational symmetry -  is mirrored by inverting it upside down and should look exactly the same, (x,y) = (-x,-y)
+- **Even/Odd Functions** = Used to describe functions which graphs have certain kinds of symmetry
+- **Even Function** = A graph is even if it's graph is symmetric with respect to the y-axis : (x, f(x)) is mirrored by (-x, f(-x)) : aka f(-x) = f(x) for all x values in it's domain, aka same height at 'x' and '-x'
+- **Odd Function** = A graph is odd if it's graph is symmetric with respect to it's origin : (x, y) is mirrored by (-x, -y) : aka f(-x) = -f(x)
+- There's no word for functions that are symmetric to the x axis - because if it is symmetric with the x-axis, it's not a function (won't pass the vertical line test)
