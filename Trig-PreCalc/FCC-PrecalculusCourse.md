@@ -39,3 +39,4 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=26m40s
 - **Odd Function** = A graph is odd if it's graph is symmetric with respect to it's origin : (x, y) is mirrored by (-x, -y) : aka f(-x) = -f(x)
 - There's no word for functions that are symmetric to the x axis - because if it is symmetric with the x-axis, it's not a function (won't pass the vertical line test)
 ## 2025-December-25 - Toolkit Functions :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=36m15s
