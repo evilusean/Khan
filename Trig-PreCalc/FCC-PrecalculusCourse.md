@@ -40,3 +40,12 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=26m40s
 - There's no word for functions that are symmetric to the x axis - because if it is symmetric with the x-axis, it's not a function (won't pass the vertical line test)
 ## 2025-December-25 - Toolkit Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=36m15s
+- $y = x$ : creates a line
+- $y = x^2$ : creates a parabola
+- $y = x^3$ : creates a cubic odd function
+- $y = \sqrt{x}$ : creates a square root function
+- $y = |x|$ : creates a 'V'
+- $y = 2^x$ : creates an exponential function
+- $y = \frac{1}{x}$ : creates a hyperobla odd function
+- $y = \frac{1}{x^2}$ : creates an even function asymptote
+- You should memorize what each function looks like for future Sean
