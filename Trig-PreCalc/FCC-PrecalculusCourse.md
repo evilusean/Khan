@@ -49,3 +49,4 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=36m15s
 - $y = \frac{1}{x}$ : creates a hyperobla odd function
 - $y = \frac{1}{x^2}$ : creates an even function asymptote
 - You should memorize what each function looks like for future Sean
+## 2025-December-25 - Transformations of Functions : 
