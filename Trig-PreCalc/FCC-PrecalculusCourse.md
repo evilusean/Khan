@@ -51,3 +51,15 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=36m15s
 - You should memorize what each function looks like for future Sean
 ## 2025-December-26 - Transformations of Functions : 
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=43m20s
+- If you change the equation of a function, then the graph of the function transforms.
+- $y=\sqrt{x} - 2$ : moves the graph down 2 on the y axis 
+- $y= \sqrt{x-2}$ : moves the graph right (counterintuitive) on the x axis - since the equation now has to add 2 units to the graph, to get it to the right original positioning, it moves it right. 
+- Rules for transformations: 
+  - Numbers on the outside of the function affect the y-values and result in vertical
+motions. These motions are in the direction you expect.
+- Numbers on the inside of the function affect the x-values and result in horizontal
+motions. These motions go in the opposite direction from what you expect.
+- Adding results in a shift (translations)
+- Multiplying results in a stretch or shrink
+-  A negative sign results in a reflection
+
