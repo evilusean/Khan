@@ -78,6 +78,38 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h20s
    $f^{-1} \circ f(x) = x$ 
   $f \circ f^{-1}(x) = x$ . 
 - $\circ$ = **Function Composition Symbol** = Function composition is the process of combining two functions into a single new function by using the **output** of the first (inner) function as the **input** for the second (outer) function.
+### Inverse $\neq$ Reciprocal
+
+It is a common mistake to think $f^{-1}(x)$ means the same thing as $\frac{1}{f(x)}$. While they use similar notation, they represent entirely different mathematical concepts.
+
+---
+
+#### The Core Difference
+| Concept        | Notation                          | Meaning                    | Goal                                  |
+| :------------- | :-------------------------------- | :------------------------- | :------------------------------------ |
+| **Inverse**    | $f^{-1}(x)$                       | **Reverse Mapping**        | To "undo" the action of the function. |
+| **Reciprocal** | $[f(x)]^{-1}$ or $\frac{1}{f(x)}$ | **Multiplicative Inverse** | To flip the output into a fraction.   |
+
+---
+
+#### Numerical Comparison
+Let's use a simple function $f(x) = 2x$ with an input of $x = 3$.
+* **Original Output:** $f(3) = 6$
+
+**The Inverse ($f^{-1}$)**
+The inverse "reverses" $2x$ to $\frac{x}{2}$.
+$$f^{-1}(6) = \frac{6}{2} = 3$$
+*Result: We returned to the original input.*
+
+**The Reciprocal ($\frac{1}{f}$)**
+The reciprocal simply flips the result ($6$).
+$$\frac{1}{f(3)} = \frac{1}{6}$$
+*Result: We just get a fraction.*
+
+---
+
+> [!TIP]
+> To keep your notes clear, always think: **Inverse** = "Go Backwards", **Reciprocal** = "Flip Upside Down".
 ### Inverse Functions: $f(x) = \frac{5-x}{3x}$
 
 An **inverse function** $f^{-1}(x)$ reverses the effect of the original function. Essentially, if $f$ maps $x$ to $y$, then $f^{-1}$ maps $y$ back to $x$.
