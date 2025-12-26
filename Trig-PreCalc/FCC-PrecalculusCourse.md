@@ -210,3 +210,14 @@ The inverse successfully "undid" the original operation and returned us to our s
 
 ## 2025-December-26 - Angles and Their Measures :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h14m35s
+- Angles are commonly measured using either or **Degrees** or **Radians** :
+- For degrees :  
+  a full circle measures : $360\degree$   or  
+  half circle measures : $180\degree$ 
+  One third circle measures : $120\degree$
+- For radians:
+   a full circle measures : $2 \pi$ radians(two pi radians)  or 
+   half circle measures : $\pi$  radians (pi radians)
+   One quarter of a circle measures : $\frac{\pi}{2}$ radians (pi over 2 radians)
+- To convert between degrees and radians :
+  $180\degree$ = $\pi$ radians
