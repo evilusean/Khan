@@ -78,4 +78,35 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h20s
    $f^{-1} \circ f(x) = x$ 
   $f \circ f^{-1}(x) = x$ . 
 - $\circ$ = **Function Composition Symbol** = Function composition is the process of combining two functions into a single new function by using the **output** of the first (inner) function as the **input** for the second (outer) function.
-- 
+### Inverse Functions: $f(x) = \frac{5-x}{3x}$
+
+An **inverse function** $f^{-1}(x)$ reverses the effect of the original function. Essentially, if $f$ maps $x$ to $y$, then $f^{-1}$ maps $y$ back to $x$.
+
+---
+
+#### 1. Finding the Inverse
+To find the inverse of $f(x) = \frac{5-x}{3x}$, follow these algebraic steps:
+
+1. **Set to $y$:** $y = \frac{5-x}{3x}$
+2. **Swap $x$ and $y$:** $x = \frac{5-y}{3y}$
+3. **Solve for the new $y$:** $x(3y) = 5 - y$  
+   $3xy + y = 5$  
+   $y(3x + 1) = 5$  
+   $y = \frac{5}{3x+1}$
+
+**Result:** $$f^{-1}(x) = \frac{5}{3x+1}$$
+
+---
+
+#### 2. How it Works (The Composition Rule)
+Inverse functions are defined by the fact that their **composition** results in the identity function $x$. In Obsidian/MathJax notation:
+
+$$(f \circ f^{-1})(x) = x \quad \text{and} \quad (f^{-1} \circ f)(x) = x$$
+
+#### Numerical Example:
+* **Original:** If we plug $x = 1$ into $f(x)$:  
+    $f(1) = \frac{5 - 1}{3(1)} = \frac{4}{3}$
+* **Inverse:** If we plug that result ($\frac{4}{3}$) into $f^{-1}(x)$:  
+    $f^{-1}(\frac{4}{3}) = \frac{5}{3(\frac{4}{3}) + 1} = \frac{5}{4 + 1} = \frac{5}{5} = \mathbf{1}$
+
+The inverse successfully "undid" the original operation and returned us to our starting value.
