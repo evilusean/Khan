@@ -78,6 +78,7 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h20s
    $f^{-1} \circ f(x) = x$ 
   $f \circ f^{-1}(x) = x$ . 
 - $\circ$ = **Function Composition Symbol** = Function composition is the process of combining two functions into a single new function by using the **output** of the first (inner) function as the **input** for the second (outer) function.
+- Not all functions have an inverse function : They must be a 1 to 1 function, also, exponential functions will not work : $f(x) = x^2$ can be positive or negative - Only a function that satisfies the *horizontal line test* has an inverse function **One To One Functions** have an inverse function
 ### Inverse $\neq$ Reciprocal
 
 It is a common mistake to think $f^{-1}(x)$ means the same thing as $\frac{1}{f(x)}$. While they use similar notation, they represent entirely different mathematical concepts.
@@ -110,6 +111,34 @@ $$\frac{1}{f(3)} = \frac{1}{6}$$
 
 > [!TIP]
 > To keep your notes clear, always think: **Inverse** = "Go Backwards", **Reciprocal** = "Flip Upside Down".
+### The Domain-Range Swap
+
+When you create an inverse function $f^{-1}(x)$, you are fundamentally reversing the direction of the mapping. This results in a total swap of the Domain and Range.
+
+---
+
+#### The Swap Rule
+Because an inverse function "undoes" the original, the inputs and outputs switch roles:
+* **$\text{Domain of } f$** $\rightarrow$ **$\text{Range of } f^{-1}$**
+* **$\text{Range of } f$** $\rightarrow$ **$\text{Domain of } f^{-1}$**
+
+#### Why It Happens
+1. **Algebraically:** To find $f^{-1}(x)$, we replace $f(x)$ with $y$, then literally **swap $x$ and $y$**. Since $x$ is the domain and $y$ is the range, the swap is built into the math.
+2. **Graphically:** Every point $(a, b)$ on the graph of $f$ becomes the point $(b, a)$ on the graph of $f^{-1}$. This creates a reflection over the line $y = x$.
+
+---
+
+#### Case Study: $f(x) = \sqrt{x-2}$
+Let's see how the boundaries move:
+
+| Feature      | Original $f(x)$ | Inverse $f^{-1}(x)$ |
+| :----------- | :-------------- | :------------------ |
+| **Equation** | $\sqrt{x-2}$    | $x^2 + 2$           |
+| **Domain**   | $[2, \infty)$   | $[0, \infty)$       |
+| **Range**    | $[0, \infty)$   | $[2, \infty)$       |
+
+> [!WARNING] Restriction Requirement
+> Notice that the **Range** of the original function ($[0, \infty)$) dictates the **Domain** of the inverse. Even though $x^2+2$ usually accepts any number, as an inverse of $\sqrt{x-2}$, its domain must be restricted to $x \ge 0$.
 ### Inverse Functions: $f(x) = \frac{5-x}{3x}$
 
 An **inverse function** $f^{-1}(x)$ reverses the effect of the original function. Essentially, if $f$ maps $x$ to $y$, then $f^{-1}$ maps $y$ back to $x$.
