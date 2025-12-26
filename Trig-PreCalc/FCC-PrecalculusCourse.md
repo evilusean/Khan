@@ -63,4 +63,8 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=43m20s
 - $y = \sqrt{\frac{1}{4}x}$ : The multiplier will also be inverted, this will actually **stretch** (counterintuitive, not shrink) the graph on the horizontal axis - a vertical shrink of one half$y = \frac{1}{2} \sqrt{x}$ is the same as a horizontal stretch of $y = \sqrt{\frac{1}{4}x}$
 ## 2025-December-26 - Piecewirse Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=55m50s
-
+- A **Piecewise Function** = is a function which is defined in pieces. : 
+  f(x) = 
+  '$-x^2$ if $x<1$'
+   '$-2x+3$ if $x \ge 1$' 
+- If a piecewise function is **continuous** if one piece connects directly to another piece, if there is a jump on the points of the function, it is **not continuous, discontinuitous**
