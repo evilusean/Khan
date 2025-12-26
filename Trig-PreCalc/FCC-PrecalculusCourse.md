@@ -69,3 +69,4 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=55m50s
    '$-2x+3$ if $x \ge 1$' 
 - If a piecewise function is **continuous** if one piece connects directly to another piece, if there is a jump on the points of the function, it is **not continuous, discontinuitous**
 ## 2025-December-27 - Inverse Functions :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h20s
