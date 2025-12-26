@@ -287,3 +287,4 @@ To convert a decimal to DMS, we multiply the fractional parts by 60.
 **Result:** $247^\circ 20' 55''$
 
 ## 2025-December-26 - Arclength and Areas of Sectors :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h22m50s
