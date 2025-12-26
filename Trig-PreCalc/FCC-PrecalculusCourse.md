@@ -61,12 +61,21 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=43m20s
 - Multiplying results in a stretch or shrink
 -  A negative sign results in a reflection
 - $y = \sqrt{\frac{1}{4}x}$ : The multiplier will also be inverted, this will actually **stretch** (counterintuitive, not shrink) the graph on the horizontal axis - a vertical shrink of one half$y = \frac{1}{2} \sqrt{x}$ is the same as a horizontal stretch of $y = \sqrt{\frac{1}{4}x}$
-## 2025-December-26 - Piecewirse Functions :
+## 2025-December-26 - Piecewise Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=55m50s
 - A **Piecewise Function** = is a function which is defined in pieces. : 
   f(x) = 
   '$-x^2$ if $x<1$'
    '$-2x+3$ if $x \ge 1$' 
-- If a piecewise function is **continuous** if one piece connects directly to another piece, if there is a jump on the points of the function, it is **not continuous, discontinuitous**
+- If a piecewise function is **continuous** if one piece connects directly to another piece, if there is a jump on the points of the function, it is **not continuous, discontinuous**
 ## 2025-December-27 - Inverse Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h20s
+- **Inverse Function** = Undoes what a function does. : 
+  $f(x) = x+2$ 
+  $f^{-1}(x)=x -2$ 
+- Inverse functions reverse the roles of y and x.
+- This is the mathematical way of saying that $f$ and $f^{-1}$ undo each other.
+   $f^{-1} \circ f(x) = x$ 
+  $f \circ f^{-1}(x) = x$ . 
+- $\circ$ = **Function Composition Symbol** = Function composition is the process of combining two functions into a single new function by using the **output** of the first (inner) function as the **input** for the second (outer) function.
+- 
