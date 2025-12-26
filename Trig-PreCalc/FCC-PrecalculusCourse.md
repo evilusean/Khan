@@ -62,4 +62,5 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=43m20s
 -  A negative sign results in a reflection
 - $y = \sqrt{\frac{1}{4}x}$ : The multiplier will also be inverted, this will actually **stretch** (counterintuitive, not shrink) the graph on the horizontal axis - a vertical shrink of one half$y = \frac{1}{2} \sqrt{x}$ is the same as a horizontal stretch of $y = \sqrt{\frac{1}{4}x}$
 ## 2025-December-26 - Piecewirse Functions :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=55m50s
 
