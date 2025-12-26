@@ -139,6 +139,41 @@ Let's see how the boundaries move:
 
 > [!WARNING] Restriction Requirement
 > Notice that the **Range** of the original function ($[0, \infty)$) dictates the **Domain** of the inverse. Even though $x^2+2$ usually accepts any number, as an inverse of $\sqrt{x-2}$, its domain must be restricted to $x \ge 0$.
+### Graphical Reflection: $y = x$
+
+The most distinct visual characteristic of an inverse function is its symmetry. If you plot both $f(x)$ and $f^{-1}(x)$ on the same coordinate plane, the graph of the inverse is a **reflection** of the original graph across the identity line $y = x$.
+
+---
+
+#### 1. The Geometry of the Reflection
+Because the inverse function is created by swapping every $x$-coordinate with every $y$-coordinate, the physical position of every point $(a, b)$ on the original curve moves to $(b, a)$ for the inverse.
+
+* **The Reflection Line:** $y = x$ acts as a "mirror."
+* **Point Transformation:** * If $f(x)$ passes through $(2, 5)$, then $f^{-1}(x)$ must pass through $(5, 2)$.
+	* If $f(x)$ passes through $(-1, 4)$, then $f^{-1}(x)$ must pass through $(4, -1)$.
+
+---
+
+#### 2. Visualizing the Symmetry
+Imagine folding your graph paper along the diagonal line $y = x$. The curve of the original function would land exactly on top of the curve of the inverse function.
+
+* **Intersections:** If the original function $f(x)$ ever crosses the line $y = x$, the inverse function $f^{-1}(x)$ will cross at that exact same point (since swapping $x$ and $y$ when they are equal changes nothing).
+* **Perpendicularity:** The line segment connecting a point $(a, b)$ to its reflected point $(b, a)$ is always perpendicular to the line $y = x$.
+
+---
+
+#### 3. Why This Matters for "One-to-One" Functions
+For a function to have an inverse that is also a function, it must pass the **Horizontal Line Test**. 
+* If a horizontal line touches $f(x)$ twice, then after the reflection across $y=x$, a **vertical line** would touch the new graph twice.
+* This is why we must restrict the domain of parabolas (like $y=x^2$) before reflecting them; otherwise, the reflection would be a "sideways" parabola that fails the vertical line test.
+
+---
+
+#### 4. Quick Sketch Guide
+1. Draw the line **$y = x$** as a dashed diagonal.
+2. Identify 3-4 key points on $f(x)$ (intercepts, vertex, etc.).
+3. **Swap the coordinates** for those points.
+4. Plot the new points and connect them, maintaining the "mirrored" curvature.
 ### Inverse Functions: $f(x) = \frac{5-x}{3x}$
 
 An **inverse function** $f^{-1}(x)$ reverses the effect of the original function. Essentially, if $f$ maps $x$ to $y$, then $f^{-1}$ maps $y$ back to $x$.
