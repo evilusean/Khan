@@ -221,3 +221,68 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h14m35s
    One quarter of a circle measures : $\frac{\pi}{2}$ radians (pi over 2 radians)
 - To convert between degrees and radians :
   $180\degree$ = $\pi$ radians
+### Angle Conversion Examples
+
+To convert between degrees and radians, use the conversion factor:
+**$\pi \text{ radians} = 180^\circ$**
+
+---
+
+#### 1. Convert $-135^\circ$ to Radians
+To convert degrees to radians, multiply by $\frac{\pi}{180^\circ}$:
+$$-135^\circ \times \frac{\pi}{180^\circ} = \frac{-135\pi}{180}$$
+Divide both by 45:
+$$= -\frac{3\pi}{4} \text{ radians}$$
+
+#### 2. Convert $\frac{5\pi}{4}$ Radians to Degrees
+To convert radians to degrees, multiply by $\frac{180^\circ}{\pi}$:
+$$\frac{5\pi}{4} \times \frac{180^\circ}{\pi} = \frac{5 \times 180^\circ}{4}$$
+$$= 5 \times 45^\circ = 225^\circ$$
+
+#### 3. Convert $7$ Radians to Degrees
+When $\pi$ is not present in the radian measure, use the decimal value of $\pi \approx 3.14159$:
+$$7 \times \frac{180^\circ}{\pi} = \frac{1260^\circ}{\pi}$$
+$$\approx 401.07^\circ$$
+
+---
+#### Conversion Cheat Sheet
+* **Degrees $\to$ Radians:** Multiply by $\frac{\pi}{180}$
+* **Radians $\to$ Degrees:** Multiply by $\frac{180}{\pi}$
+### Degrees, Minutes, and Seconds (DMS)
+
+When we need to measure angles more precisely than a single degree, we use **DMS** notation. This is similar to how we break down hours into minutes and seconds.
+
+* **Degrees ($^\circ$):** The primary unit of angular measure.
+* **Minutes ($'$):** Each degree is divided into **60 minutes**. ($1^\circ = 60'$)
+* **Seconds ($''$):** Each minute is divided into **60 seconds**. ($1' = 60''$)
+
+**The Hierarchy:**
+$1 \text{ Degree} = 60 \text{ Minutes} = 3,600 \text{ Seconds}$
+
+---
+
+#### Example 1: Convert $32^\circ 17' 25''$ to decimal degrees
+To convert to a decimal, we divide each part by its respective power of 60.
+
+1.  **Keep the whole degrees:** $32$
+2.  **Convert minutes:** $\frac{17}{60} \approx 0.283333$
+3.  **Convert seconds:** $\frac{25}{3600} \approx 0.006944$
+4.  **Sum them up:** $32 + 0.283333 + 0.006944 = 32.290277^\circ$
+
+**Result:** $\approx 32.2903^\circ$
+
+---
+
+#### Example 2: Convert $247.3486^\circ$ to DMS
+To convert a decimal to DMS, we multiply the fractional parts by 60.
+
+1.  **Extract the degrees:** $247^\circ$
+2.  **Find the minutes:** Multiply the remaining decimal by 60.
+    * $0.3486 \times 60 = 20.916$
+    * The whole number is **$20'$**.
+3.  **Find the seconds:** Multiply the new remaining decimal by 60.
+    * $0.916 \times 60 = 54.96$
+    * The result is approximately **$55''$**.
+
+**Result:** $247^\circ 20' 55''$
+
