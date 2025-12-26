@@ -12,6 +12,7 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=20
 - $f(a+3) = a^2 + 6a + 10$ 
 - not even 2 minutes into the video and she is already talking about 'functions' as 'mothers' and how you can have infinite mothers.. - Do I really want to listen to this for 5 and a half hours?
 - Sometimes a function is described as a graph instead of an equation
+- 
 - Definition. The **domain** of a function is all possible **x-values.**  
 - The **range** is the **y-values**.
 - To find domain of a function, exclude 'x' values that make the denominator '0'. Also exclude 'x' values that make an expression inside a square root negative
@@ -206,3 +207,5 @@ $$(f \circ f^{-1})(x) = x \quad \text{and} \quad (f^{-1} \circ f)(x) = x$$
     $f^{-1}(\frac{4}{3}) = \frac{5}{3(\frac{4}{3}) + 1} = \frac{5}{4 + 1} = \frac{5}{5} = \mathbf{1}$
 
 The inverse successfully "undid" the original operation and returned us to our starting value.
+
+## 2025-December-26 - Angles and Their Measures :
