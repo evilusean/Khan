@@ -55,11 +55,10 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=43m20s
 - $y=\sqrt{x} - 2$ : moves the graph down 2 on the y axis 
 - $y= \sqrt{x-2}$ : moves the graph right (counterintuitive) on the x axis - since the equation now has to add 2 units to the graph, to get it to the right original positioning, it moves it right. 
 - Rules for transformations: 
-  - Numbers on the outside of the function affect the y-values and result in vertical
-motions. These motions are in the direction you expect.
-- Numbers on the inside of the function affect the x-values and result in horizontal
-motions. These motions go in the opposite direction from what you expect.
+  - Numbers on the outside of the function affect the y-values and result in vertical motions. These motions are in the direction you expect.
+- Numbers on the inside of the function affect the x-values and result in horizontal motions. These motions go in the opposite direction from what you expect.
 - Adding results in a shift (translations)
 - Multiplying results in a stretch or shrink
 -  A negative sign results in a reflection
-
+- $y = \sqrt{\frac{1}{4}x}$ : The multiplier will also be inverted, this will actually **stretch** (counterintuitive, not shrink) the graph on the horizontal axis - a vertical shrink of one half$y = \frac{1}{2} \sqrt{x}$ is the same as a horizontal stretch of $y = \sqrt{\frac{1}{4}x}$
+- 
