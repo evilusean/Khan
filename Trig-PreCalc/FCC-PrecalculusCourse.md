@@ -431,4 +431,36 @@ $$A = 6\pi \approx 18.85\text{ cm}^2$$
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h28m40s
 - **Angular Speed** = $\frac{angle}{time}$ = Spinning Wheel Analogy : Angle it goes through in a unit of time
 - **Linear Speed** = $\frac{distance}{time}$ = The speed of a point on the rim of the wheel - The distance a point on rim of wheel travels in a unit of time
-- 
+### Physics Problem: Circular Motion of a Ferris Wheel
+
+#### Given Data:
+* **Radius ($r$):** $20\text{ m}$
+* **Time for 1 revolution ($T$):** $2\text{ minutes} = 120\text{ seconds}$
+
+---
+
+#### 1. Angular Speed ($\omega$)
+Angular speed is the rate at which the central angle changes. Since one full revolution is $2\pi$ radians:
+
+$$\omega = \frac{\Delta\theta}{\Delta t} = \frac{2\pi}{T}$$
+
+**Calculation:**
+$$\omega = \frac{2\pi \text{ rad}}{120 \text{ s}} = \frac{\pi}{60} \text{ rad/s} \approx 0.0524 \text{ rad/s}$$
+
+
+#### 2. Linear Speed ($v$)
+The linear speed (tangential speed) of a point on the rim is related to the angular speed by the formula:
+
+$$v = r\omega$$
+
+**Calculation:**
+$$v = 20\text{ m} \times \left(\frac{\pi}{60} \text{ rad/s}\right)$$
+$$v = \frac{\pi}{3} \text{ m/s} \approx 1.047 \text{ m/s}$$
+
+---
+
+#### Summary Table
+| Metric            | Formula                   | Result (Exact)                 | Result (Approx)        |
+| :---------------- | :------------------------ | :----------------------------- | :--------------------- |
+| **Angular Speed** | $\omega = \frac{2\pi}{T}$ | $\frac{\pi}{60} \text{ rad/s}$ | $0.0524 \text{ rad/s}$ |
+| **Linear Speed**  | $v = r\omega$             | $\frac{\pi}{3} \text{ m/s}$    | $1.047 \text{ m/s}$    |
