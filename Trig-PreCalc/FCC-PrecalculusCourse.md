@@ -557,3 +557,38 @@ Now we apply the definitions of Sine and Cosine:
 **Summary:**
 * $\sin(45^\circ) = \frac{\sqrt{2}}{2}$
 * $\cos(45^\circ) = \frac{\sqrt{2}}{2}$
+### Special Right Triangle: 45-45-90 (Hypotenuse = 5)
+
+To find the trigonometric ratios for $45^\circ$ without a calculator, we use an **Isosceles Right Triangle**. Because two angles are $45^\circ$, the sides opposite them (the legs) must be equal in length.
+
+#### 1. Solving for the Legs
+Let both the **Opposite** and **Adjacent** sides be represented by $x$. The hypotenuse is given as $5$.
+
+
+
+Using the Pythagorean Theorem ($a^2 + b^2 = c^2$):
+$$x^2 + x^2 = 5^2$$
+$$2x^2 = 25$$
+$$x^2 = \frac{25}{2}$$
+$$x = \sqrt{\frac{25}{2}} = \frac{5}{\sqrt{2}}$$
+
+To rationalize the denominator:
+$$x = \frac{5\sqrt{2}}{2}$$
+
+#### 2. Calculating the Ratios
+Now, we apply the definitions of Sine, Cosine, and Tangent (SOH CAH TOA):
+
+* **$\sin(45^\circ)$** (Opposite / Hypotenuse):
+    $$\frac{5\sqrt{2}/2}{5} = \frac{\sqrt{2}}{2}$$
+
+* **$\cos(45^\circ)$** (Adjacent / Hypotenuse):
+    $$\frac{5\sqrt{2}/2}{5} = \frac{\sqrt{2}}{2}$$
+
+* **$\tan(45^\circ)$** (Opposite / Adjacent):
+    $$\frac{5\sqrt{2}/2}{5\sqrt{2}/2} = 1$$
+
+---
+**Summary Results:**
+* $\sin(45^\circ) = \frac{\sqrt{2}}{2}$
+* $\cos(45^\circ) = \frac{\sqrt{2}}{2}$
+* $\tan(45^\circ) = 1$
