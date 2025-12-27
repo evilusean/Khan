@@ -524,3 +524,4 @@ $$\text{height} \approx 96.59\text{ meters}$$
 ---
 **Summary Result:** The kite is flying at a height of approximately **96.59 m**.
 ## 2025-December-27 - Sine and Cosine of Special Agents :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h40m40s
