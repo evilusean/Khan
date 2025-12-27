@@ -525,3 +525,35 @@ $$\text{height} \approx 96.59\text{ meters}$$
 **Summary Result:** The kite is flying at a height of approximately **96.59 m**.
 ## 2025-December-27 - Sine and Cosine of Special Agents :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h40m40s
+### Deriving Trig Ratios for 45° (Hypotenuse = 1)
+
+To find the exact values of $\sin(45^\circ)$ and $\cos(45^\circ)$ without a calculator, we use the properties of an **Isosceles Right Triangle** (also known as a 45-45-90 triangle).
+
+#### 1. Geometry of the Triangle
+In a triangle where two angles are $45^\circ$, the sides opposite those angles must be equal. 
+* Let the two legs (Opposite and Adjacent) be $x$.
+* The Hypotenuse is given as $1$.
+
+#### 2. Applying the Pythagorean Theorem
+We use $a^2 + b^2 = c^2$ to solve for $x$:
+
+$$x^2 + x^2 = 1^2$$
+$$2x^2 = 1$$
+$$x^2 = \frac{1}{2}$$
+$$x = \sqrt{\frac{1}{2}} = \frac{1}{\sqrt{2}}$$
+
+#### 3. Rationalizing the Denominator
+To simplify $\frac{1}{\sqrt{2}}$, we multiply the top and bottom by $\sqrt{2}$:
+
+$$x = \frac{1 \cdot \sqrt{2}}{\sqrt{2} \cdot \sqrt{2}} = \frac{\sqrt{2}}{2}$$
+
+#### 4. Calculating the Ratios
+Now we apply the definitions of Sine and Cosine:
+
+* **Sin(45°)** = $\frac{\text{Opposite}}{\text{Hypotenuse}} = \frac{\frac{\sqrt{2}}{2}}{1} = \frac{\sqrt{2}}{2}$
+* **Cos(45°)** = $\frac{\text{Adjacent}}{\text{Hypotenuse}} = \frac{\frac{\sqrt{2}}{2}}{1} = \frac{\sqrt{2}}{2}$
+
+---
+**Summary:**
+* $\sin(45^\circ) = \frac{\sqrt{2}}{2}$
+* $\cos(45^\circ) = \frac{\sqrt{2}}{2}$
