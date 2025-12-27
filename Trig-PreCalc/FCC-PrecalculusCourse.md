@@ -592,3 +592,36 @@ Now, we apply the definitions of Sine, Cosine, and Tangent (SOH CAH TOA):
 * $\sin(45^\circ) = \frac{\sqrt{2}}{2}$
 * $\cos(45^\circ) = \frac{\sqrt{2}}{2}$
 * $\tan(45^\circ) = 1$
+### Special Right Triangle: 30-60-90 (Hypotenuse = 1)
+
+To find the exact values for $30^\circ$ and $60^\circ$ without a calculator, we use the properties of a **30-60-90 triangle**. This triangle is essentially half of an equilateral triangle.
+
+#### 1. Geometry of the Triangle
+* Start with an equilateral triangle where all sides are $1$. 
+* Bisect it down the middle to create two right triangles.
+* In these right triangles:
+    * The **Hypotenuse** stays $1$.
+    * The **Short Leg** (opposite the $30^\circ$ angle) becomes exactly half of the original side: $\frac{1}{2}$.
+
+
+#### 2. Solving for the Long Leg
+We use the Pythagorean Theorem ($a^2 + b^2 = c^2$) where $a = \frac{1}{2}$ and $c = 1$:
+
+$$\left(\frac{1}{2}\right)^2 + b^2 = 1^2$$
+$$\frac{1}{4} + b^2 = 1$$
+$$b^2 = \frac{3}{4}$$
+$$b = \frac{\sqrt{3}}{2}$$
+
+#### 3. Calculating the Ratios
+Using the triangle where the **Opposite** side to $30^\circ$ is $\frac{1}{2}$, the **Adjacent** side is $\frac{\sqrt{3}}{2}$, and the **Hypotenuse** is $1$:
+
+* **$\sin(30^\circ)$** (Opposite / Hypotenuse):
+    $$\frac{1/2}{1} = \frac{1}{2}$$
+
+* **$\cos(30^\circ)$** (Adjacent / Hypotenuse):
+    $$\frac{\sqrt{3}/2}{1} = \frac{\sqrt{3}}{2}$$
+
+---
+**Summary Results:**
+* $\sin(30^\circ) = 0.5$ (or $\frac{1}{2}$)
+* $\cos(30^\circ) = \frac{\sqrt{3}}{2}$
