@@ -429,3 +429,6 @@ $$A = \frac{1}{6} \times 36\pi$$
 $$A = 6\pi \approx 18.85\text{ cm}^2$$
 ## 2025-December-27 - Linear and Radial Speed :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h28m40s
+- **Angular Speed** = $\frac{angle}{time}$ = Spinning Wheel Analogy : Angle it goes through in a unit of time
+- **Linear Speed** = $\frac{distance}{time}$ = The speed of a point on the rim of the wheel - The distance a point on rim of wheel travels in a unit of time
+- 
