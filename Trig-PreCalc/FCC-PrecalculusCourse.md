@@ -491,3 +491,35 @@ In a right-angled triangle, we define trigonometric ratios based on the angle $\
 * **Tangent Identity:** $\tan \theta = \frac{\sin \theta}{\cos \theta}$
 * **Pythagorean Identity:** $\sin^2 \theta + \cos^2 \theta = 1$
 * **Complementary Angles:** In a right triangle, $\sin(\theta) = \cos(90^\circ - \theta)$.
+### Physics/Math Example: Kite Height
+
+**Given:**
+* **Angle of Elevation ($\theta$):** $75^\circ$
+* **Hypotenuse ($h$ - length of string):** $100\text{ m}$
+* **Target:** Find the **Opposite** side (height of the kite).
+
+---
+
+#### Step 1: Identify the correct ratio
+We have the **Hypotenuse** and the **Angle**, and we need the **Opposite** side. Based on **SOH** CAH TOA:
+
+$$\sin(\theta) = \frac{\text{Opposite}}{\text{Hypotenuse}}$$
+
+---
+
+#### Step 2: Set up the equation
+$$\sin(75^\circ) = \frac{\text{height}}{100\text{ m}}$$
+
+**Solve for height:**
+$$\text{height} = 100 \times \sin(75^\circ)$$
+
+---
+
+#### Step 3: Final Calculation
+Using $\sin(75^\circ) \approx 0.9659$:
+
+$$\text{height} \approx 100 \times 0.9659$$
+$$\text{height} \approx 96.59\text{ meters}$$
+
+---
+**Summary Result:** The kite is flying at a height of approximately **96.59 m**.
