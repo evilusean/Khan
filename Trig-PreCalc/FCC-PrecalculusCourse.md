@@ -293,7 +293,6 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h22m50s
 - $C = 2\pi r$ : Circumference is 2 pi times the radius
 - $A = \pi r^2$ : Area is pi times radius squared
 - **$\theta$ (theta)** is the standard Greek letter used to denote the measure of a **central angle** or the **angular position** of a point relative to a fixed reference line.
-- 
 ### Arc Length and Sector Area
 
 In a circle of radius $r$, the length of an arc and the area of a sector are directly proportional to the central angle $\theta$ that subtends them.
