@@ -16,4 +16,21 @@
 | **Sector Area ($A$)** | $\frac{1}{2}r^2\theta$ | $\frac{\theta}{360} \cdot \pi r^2$ |
 - **Angular Speed** : $\omega = \frac{\Delta\theta}{\Delta t} = \frac{2\pi}{T}$ : = $\frac{angle}{time}$ = Spinning Wheel Analogy : Angle it goes through in a unit of time
 - **Linear Speed** : $v = r\omega$ : = $\frac{distance}{time}$ = The speed of a point on the rim of the wheel - The distance a point on rim of wheel travels in a unit of time
-- 
+- ### Primary Trigonometric Ratios (SOH CAH TOA)
+* **Sin** ($\sin \theta$) = $\frac{\text{Opposite}}{\text{Hypotenuse}}$
+* **Cos** ($\cos \theta$) = $\frac{\text{Adjacent}}{\text{Hypotenuse}}$
+* **Tan** ($\tan \theta$) = $\frac{\text{Opposite}}{\text{Adjacent}}$
+
+---
+
+### Reciprocal Trigonometric Ratios
+* **Csc** ($\csc \theta$) = $\frac{\text{Hypotenuse}}{\text{Opposite}}$ (Reciprocal of Sine)
+* **Sec** ($\sec \theta$) = $\frac{\text{Hypotenuse}}{\text{Adjacent}}$ (Reciprocal of Cosine)
+* **Cot** ($\cot \theta$) = $\frac{\text{Adjacent}}{\text{Opposite}}$ (Reciprocal of Tangent)
+
+---
+
+### Key Properties & Relationships
+* **Tangent Identity:** $\tan \theta = \frac{\sin \theta}{\cos \theta}$
+* **Pythagorean Identity:** $\sin^2 \theta + \cos^2 \theta = 1$
+* **Complementary Angles:** In a right triangle, $\sin(\theta) = \cos(90^\circ - \theta)$.
