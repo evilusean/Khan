@@ -464,3 +464,5 @@ $$v = \frac{\pi}{3} \text{ m/s} \approx 1.047 \text{ m/s}$$
 | :---------------- | :------------------------ | :----------------------------- | :--------------------- |
 | **Angular Speed** | $\omega = \frac{2\pi}{T}$ | $\frac{\pi}{60} \text{ rad/s}$ | $0.0524 \text{ rad/s}$ |
 | **Linear Speed**  | $v = r\omega$             | $\frac{\pi}{3} \text{ m/s}$    | $1.047 \text{ m/s}$    |
+## 2025-December-27 - Right Angle Trigonometry :
+
