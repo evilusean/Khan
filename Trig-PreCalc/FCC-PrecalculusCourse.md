@@ -288,3 +288,143 @@ To convert a decimal to DMS, we multiply the fractional parts by 60.
 
 ## 2025-December-26 - Arclength and Areas of Sectors :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h22m50s
+- **Arc** = If you have a circle, a piece of the circumference is called an Arc
+- **Sector** = The wedge formed by the arc, is called a sector
+- $C = 2\pi r$ : Circumference is 2 pi times the radius
+- $A = \pi r^2$ : Area is pi times radius squared
+- **$\theta$ (theta)** is the standard Greek letter used to denote the measure of a **central angle** or the **angular position** of a point relative to a fixed reference line.
+- 
+### Arc Length and Sector Area
+
+In a circle of radius $r$, the length of an arc and the area of a sector are directly proportional to the central angle $\theta$ that subtends them.
+
+
+
+---
+
+#### 1. Arc Length ($s$)
+The arc length is the distance along the curved part of the circle.
+
+* **When $\theta$ is in Radians:**
+  $$s = r\theta$$
+  *(This is the simplest form because radians are defined by the ratio of arc length to radius.)*
+
+* **When $\theta$ is in Degrees:**
+  $$s = \frac{\theta}{360} \times 2\pi r$$
+  *(This takes the fraction of the total circumference $2\pi r$.)*
+
+---
+
+#### 2. Area of a Sector ($A$)
+A sector is a "pie slice" of the circle.
+
+* **When $\theta$ is in Radians:**
+  $$A = \frac{1}{2}r^2\theta$$
+
+* **When $\theta$ is in Degrees:**
+  $$A = \frac{\theta}{360} \times \pi r^2$$
+  *(This takes the fraction of the total area $\pi r^2$.)*
+
+---
+
+#### Summary Table for Obsidian
+| Feature               | Formula (Radians)      | Formula (Degrees)                  |
+| :-------------------- | :--------------------- | :--------------------------------- |
+| **Arc Length ($s$)**  | $r\theta$              | $\frac{\theta}{360} \cdot 2\pi r$  |
+| **Sector Area ($A$)** | $\frac{1}{2}r^2\theta$ | $\frac{\theta}{360} \cdot \pi r^2$ |
+
+> [!TIP] Conversion Reminder
+> If you are given an angle in degrees and want to use the simpler radian formulas, multiply the degrees by $\frac{\pi}{180}$ first!
+
+### Example: Calculating Arclength
+
+**Problem:**
+A circular pool has a radius of $8 \text{ meters}$. Find the arclength spanned by a central angle of $2.5 \text{ radians}$.
+
+---
+
+#### 1. Formula
+When the central angle $\theta$ is given in **radians**, the formula for arclength ($s$) is:
+$$s = r\theta$$
+
+#### 2. Variables
+* **Radius ($r$):** $8 \text{ m}$
+* **Central Angle ($\theta$):** $2.5 \text{ rad}$
+
+#### 3. Calculation
+$$s = 8 \text{ m} \times 2.5 \text{ rad}$$
+$$s = 20 \text{ m}$$
+
+**Result:** The arclength is **$20 \text{ meters}$**.
+
+---
+> [!TIP] Note on Units
+> Since radians are a dimensionless ratio, the final unit of the arclength matches the unit of the radius (meters).
+### Example: Calculating Sector Area
+
+**Problem:**
+Find the area of a sector of a circle with a radius of $10 \text{ meters}$ that spans an angle of $\frac{\pi}{6} \text{ radians}$.
+
+---
+
+#### 1. Formula
+When the central angle $\theta$ is given in **radians**, the formula for the area of a sector ($A$) is:
+$$A = \frac{1}{2}r^2\theta$$
+
+#### 2. Variables
+* **Radius ($r$):** $10 \text{ m}$
+* **Central Angle ($\theta$):** $\frac{\pi}{6} \text{ rad}$
+
+#### 3. Calculation
+Substitute the values into the formula:
+$$A = \frac{1}{2} \times (10)^2 \times \frac{\pi}{6}$$
+$$A = \frac{1}{2} \times 100 \times \frac{\pi}{6}$$
+$$A = 50 \times \frac{\pi}{6}$$
+
+**Simplify the fraction:**
+$$A = \frac{25\pi}{3} \text{ m}^2$$
+
+**Decimal Approximation:**
+Using $\pi \approx 3.14159$:
+$$A \approx 26.18 \text{ m}^2$$
+
+**Result:** The area of the sector is **$\frac{25\pi}{3} \text{ m}^2$** (or approximately **$26.18 \text{ m}^2$**).
+
+---
+> [!TIP] Units Matter
+> Since area is a two-dimensional measure, ensure your final units are squared (meters $\rightarrow$ meters$^2$).
+### Area of a Sector Formulas
+
+The area of a sector (a "pie slice" of a circle) depends on the radius ($r$) and the central angle ($\theta$).
+
+---
+
+#### 1. The Formulas
+Choose the formula based on the unit of your angle:
+
+| Angle Unit                 | Formula                                 |
+| :------------------------- | :-------------------------------------- |
+| **Radians**                | $A = \frac{1}{2} r^2 \theta$            |
+| **Degrees**                | $A = \frac{\theta}{360} \times \pi r^2$ |
+| **Using Arc Length ($s$)** | $A = \frac{1}{2} r s$                   |
+
+
+
+---
+
+#### 2. Step-by-Step Calculation
+1. **Identify the Radius ($r$):** The distance from the center to the edge.
+2. **Identify the Angle ($\theta$):** Determine if it is in degrees or radians.
+3. **Square the Radius:** Calculate $r^2$.
+4. **Apply the Formula:** * *If Radians:* Multiply $0.5 \times r^2 \times \theta$.
+	* *If Degrees:* Multiply $( \theta / 360 ) \times \pi \times r^2$.
+
+---
+
+#### 3. Worked Example
+**Problem:** Find the area of a sector with a radius of $6\text{ cm}$ and a central angle of $60^\circ$.
+
+**Solution (Degree Method):**
+$$A = \frac{60}{360} \times \pi \times (6)^2$$
+$$A = \frac{1}{6} \times 36\pi$$
+$$A = 6\pi \approx 18.85\text{ cm}^2$$
