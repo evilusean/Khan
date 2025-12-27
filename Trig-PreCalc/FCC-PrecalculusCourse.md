@@ -429,3 +429,4 @@ $$A = \frac{60}{360} \times \pi \times (6)^2$$
 $$A = \frac{1}{6} \times 36\pi$$
 $$A = 6\pi \approx 18.85\text{ cm}^2$$
 ## 2025-December-27 - Linear and Radial Speed :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h28m40s
