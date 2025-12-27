@@ -14,4 +14,6 @@
 | :-------------------- | :--------------------- | :--------------------------------- |
 | **Arc Length ($s$)**  | $r\theta$              | $\frac{\theta}{360} \cdot 2\pi r$  |
 | **Sector Area ($A$)** | $\frac{1}{2}r^2\theta$ | $\frac{\theta}{360} \cdot \pi r^2$ |
+- **Angular Speed** : $\omega = \frac{\Delta\theta}{\Delta t} = \frac{2\pi}{T}$ : = $\frac{angle}{time}$ = Spinning Wheel Analogy : Angle it goes through in a unit of time
+- **Linear Speed** : $v = r\omega$ : = $\frac{distance}{time}$ = The speed of a point on the rim of the wheel - The distance a point on rim of wheel travels in a unit of time
 - 
