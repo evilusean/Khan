@@ -466,3 +466,28 @@ $$v = \frac{\pi}{3} \text{ m/s} \approx 1.047 \text{ m/s}$$
 | **Linear Speed**  | $v = r\omega$             | $\frac{\pi}{3} \text{ m/s}$    | $1.047 \text{ m/s}$    |
 ## 2025-December-27 - Right Angle Trigonometry :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h33m5s
+![[Pasted image 20251227181120.png]]
+### 2025-December-27 - Right Angle Trigonometry
+
+In a right-angled triangle, we define trigonometric ratios based on the angle $\theta$ and the relationship between the triangle's three sides: the **Opposite** (side across from $\theta$), the **Adjacent** (side next to $\theta$), and the **Hypotenuse** (the longest side).
+
+---
+
+### Primary Trigonometric Ratios (SOH CAH TOA)
+* **Sin** ($\sin \theta$) = $\frac{\text{Opposite}}{\text{Hypotenuse}}$
+* **Cos** ($\cos \theta$) = $\frac{\text{Adjacent}}{\text{Hypotenuse}}$
+* **Tan** ($\tan \theta$) = $\frac{\text{Opposite}}{\text{Adjacent}}$
+
+---
+
+### Reciprocal Trigonometric Ratios
+* **Csc** ($\csc \theta$) = $\frac{\text{Hypotenuse}}{\text{Opposite}}$ (Reciprocal of Sine)
+* **Sec** ($\sec \theta$) = $\frac{\text{Hypotenuse}}{\text{Adjacent}}$ (Reciprocal of Cosine)
+* **Cot** ($\cot \theta$) = $\frac{\text{Adjacent}}{\text{Opposite}}$ (Reciprocal of Tangent)
+
+---
+
+### Key Properties & Relationships
+* **Tangent Identity:** $\tan \theta = \frac{\sin \theta}{\cos \theta}$
+* **Pythagorean Identity:** $\sin^2 \theta + \cos^2 \theta = 1$
+* **Complementary Angles:** In a right triangle, $\sin(\theta) = \cos(90^\circ - \theta)$.
