@@ -625,3 +625,28 @@ Using the triangle where the **Opposite** side to $30^\circ$ is $\frac{1}{2}$, t
 **Summary Results:**
 * $\sin(30^\circ) = 0.5$ (or $\frac{1}{2}$)
 * $\cos(30^\circ) = \frac{\sqrt{3}}{2}$
+### Special Right Triangle: Finding 60° Ratios
+
+To find the exact values for $60^\circ$ without a calculator, we use the same **30-60-90 triangle** derived from an equilateral triangle with sides of length $1$.
+
+#### Geometry of the 60° Angle
+In this triangle, when we focus on the $60^\circ$ angle:
+* The **Opposite** side is the altitude: $\frac{\sqrt{3}}{2}$.
+* The **Adjacent** side is the base: $\frac{1}{2}$.
+* The **Hypotenuse** remains: $1$.
+
+
+
+#### Calculating the Ratios
+Using the definitions of Sine and Cosine (SOH CAH TOA):
+
+* **$\sin(60^\circ)$** (Opposite / Hypotenuse):
+    $$\frac{\sqrt{3}/2}{1} = \frac{\sqrt{3}}{2}$$
+
+* **$\cos(60^\circ)$** (Adjacent / Hypotenuse):
+    $$\frac{1/2}{1} = \frac{1}{2}$$
+
+---
+**Summary Results:**
+* $\sin(60^\circ) = \frac{\sqrt{3}}{2}$
+* $\cos(60^\circ) = 0.5$
