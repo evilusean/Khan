@@ -428,3 +428,4 @@ Choose the formula based on the unit of your angle:
 $$A = \frac{60}{360} \times \pi \times (6)^2$$
 $$A = \frac{1}{6} \times 36\pi$$
 $$A = 6\pi \approx 18.85\text{ cm}^2$$
+## 2025-December-27 - Linear and Radial Speed :
