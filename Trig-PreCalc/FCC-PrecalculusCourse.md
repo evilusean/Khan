@@ -665,4 +665,5 @@ This chart provides the exact values for the most common special angles used in 
 * **Sine (30-60-90):** The side opposite $30^\circ$ is always half the hypotenuse.
 * **Symmetry:** $\sin(30^\circ) = \cos(60^\circ)$ and $\cos(30^\circ) = \sin(60^\circ)$.
 ## 2025-December-28 - The Unit Circle :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h40m40s
 
