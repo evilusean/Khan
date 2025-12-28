@@ -650,3 +650,17 @@ Using the definitions of Sine and Cosine (SOH CAH TOA):
 **Summary Results:**
 * $\sin(60^\circ) = \frac{\sqrt{3}}{2}$
 * $\cos(60^\circ) = 0.5$
+### Master Table: Exact Trigonometric Values
+
+This chart provides the exact values for the most common special angles used in trigonometry, derived from special right triangles and the unit circle.
+#### Special Angles Master Chart
+| Angle ($\theta$) in Degrees | Angle ($\theta$) in Radians | $\sin(\theta)$ | $\cos(\theta)$ | $\tan(\theta)$ |
+| :--- | :--- | :--- | :--- | :--- |
+| **$30^\circ$** | $\frac{\pi}{6}$ | $\frac{1}{2}$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{3}}{3}$ |
+| **$45^\circ$** | $\frac{\pi}{4}$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{2}}{2}$ | $1$ |
+| **$60^\circ$** | $\frac{\pi}{3}$ | $\frac{\sqrt{3}}{2}$ | $\frac{1}{2}$ | $\sqrt{3}$ |
+
+#### Quick Reference Identities
+* **Tangent:** $\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}$
+* **Sine (30-60-90):** The side opposite $30^\circ$ is always half the hypotenuse.
+* **Symmetry:** $\sin(30^\circ) = \cos(60^\circ)$ and $\cos(30^\circ) = \sin(60^\circ)$.
