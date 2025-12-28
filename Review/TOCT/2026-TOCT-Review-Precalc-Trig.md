@@ -34,3 +34,6 @@
 * **Tangent Identity:** $\tan \theta = \frac{\sin \theta}{\cos \theta}$
 * **Pythagorean Identity:** $\sin^2 \theta + \cos^2 \theta = 1$
 * **Complementary Angles:** In a right triangle, $\sin(\theta) = \cos(90^\circ - \theta)$.
+
+- Calculating sin, cos, tan, in terms of a Unit Circle(radius of 1)
+- 
