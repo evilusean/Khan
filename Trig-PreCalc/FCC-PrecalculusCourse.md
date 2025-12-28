@@ -666,4 +666,6 @@ This chart provides the exact values for the most common special angles used in 
 * **Symmetry:** $\sin(30^\circ) = \cos(60^\circ)$ and $\cos(30^\circ) = \sin(60^\circ)$.
 ## 2025-December-28 - The Unit Circle :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h48m40s
-
+- Sine and Cosine in terms of points on a unit circle with a radius of 1
+- **Unit Circle** = A circle with a radius of 1
+- 
