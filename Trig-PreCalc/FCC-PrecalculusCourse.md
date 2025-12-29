@@ -675,6 +675,11 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h48m40s
 ## 2025-December-29 - Properties of Trig Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h54m15s
 - 3 Properties of the trig functions sin and cosin that can be deduced from the *Unit Circle*
+- Periodicity States that every time you go around a circle (360 degrees or 2radians, if you take cosine/sine of an angle +$2\pi$ it will be the same as cosine/sine of the angle (without $2\pi$))
+- $cos\theta = cos(\theta + 2\pi)$ = $cos(\theta + 360\degree)$  : taking the cosine of an angle is the same as if you take cosine an angle +$2\pi$ it will be the same as cosine of the angle (without $2\pi$)) - you end up with the same angle, at the same place
+- - $cos\theta = cos(\theta - 2\pi)$ = $cos(\theta - 360\degree)$  : also works for subtracting $360\degree$ - same as above
+- $sin\theta = sin(\theta + 2\pi)$ = $sin(\theta + 360\degree)$  : taking the sine of an angle is the same as if you take sine an angle +$2\pi$ it will be the same as cosine of the angle (without $2\pi$))
+- - $sin\theta = sin(\theta - 2\pi)$ = $sin(\theta - 360\degree)$  : also works for subtracting $360\degree$ - same as above
 ### Properties of Trigonometric Functions & Periodicity
 
 Trigonometric functions are **periodic**, meaning their values repeat at regular intervals. This behavior is best understood by observing a point $(x, y)$ moving around the **Unit Circle** (a circle with radius $r = 1$).
