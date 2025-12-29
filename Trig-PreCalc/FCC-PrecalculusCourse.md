@@ -874,3 +874,4 @@ To sketch one full period accurately, find these five points:
 4. **Three-quarters:** $(\text{start} + \frac{3P}{4})$
 5. **End:** $(\text{start} + P)$
 ## 2025-December-29 - Graphs of Sinusoidal Functions :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h11m25s
