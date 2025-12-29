@@ -38,12 +38,12 @@ You need to prioritize the core **Math and Physics** topics, as these are the co
 
 The Math sequence is the single biggest predictor of success in Engineering. Focus on mastering these concepts:
 
-|Course|Core Topics to Master|Importance|
-|---|---|---|
-|**Calculus I (Differential Calculus)**|**Limits** and Continuity. **Derivatives** (rules, chain rule, implicit differentiation). Applications of the derivative (related rates, optimization, graphing).|**Highest.** Essential for all of Physics.|
-|**Linear Algebra**|**Vectors** (2D/3D, dot and cross products). **Matrices** (operations, inverses, determinants). Solving systems of linear equations.|**High.** Key for digital systems and circuits.|
-|**Calculus II (Integral Calculus)**|**Integrals** (basic, substitution). Applications of the integral (area, volume, work). Fundamental Theorem of Calculus.|**High.** Essential for electrical circuits and advanced physics.|
-|**Pre-Calculus/Trigonometry**|Review of trigonometric identities, logs, exponentials, and complex algebra.|**Foundation.** Must be quick and accurate.|
+| Course                                 | Core Topics to Master                                                                                                                                             | Importance                                                        |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Calculus I (Differential Calculus)** | **Limits** and Continuity. **Derivatives** (rules, chain rule, implicit differentiation). Applications of the derivative (related rates, optimization, graphing). | **Highest.** Essential for all of Physics.                        |
+| **Linear Algebra**                     | **Vectors** (2D/3D, dot and cross products). **Matrices** (operations, inverses, determinants). Solving systems of linear equations.                              | **High.** Key for digital systems and circuits.                   |
+| **Calculus II (Integral Calculus)**    | **Integrals** (basic, substitution). Applications of the integral (area, volume, work). Fundamental Theorem of Calculus.                                          | **High.** Essential for electrical circuits and advanced physics. |
+| **Pre-Calculus/Trigonometry**          | Review of trigonometric identities, logs, exponentials, and complex algebra.                                                                                      | **Foundation.** Must be quick and accurate.                       |
 
 
 **Study Tip:** Work through high school or introductory university-level textbooks. Since you are applying as a mature student, look for practice problems that focus on applications rather than just theory.
@@ -66,11 +66,11 @@ Engineering Physics is fundamentally about applying Calculus to real-world probl
 
 While Math and Physics are the most important for your GPA, studying these will help your transition immensely:
 
-|Course|Core Topics to Master|Importance|
-|---|---|---|
-|**Intro to Programming (Coding)**|**C/C++ or Python** fundamentals. Basic control structures (loops, if/else). Functions and basic algorithms.|**High.** Your four years of experience should make this a GPA booster.|
-|**Electric Circuits (Basic)**|Basic circuit components (resistors, capacitors, inductors). Series and parallel circuits. **Ohm's Law (V=IR)** and **Kirchhoff's Laws** (voltage and current laws).|**Moderate.** Prepares you for the first core EE course.|
-|**Engineering Graphics/Design**|Practice basic 2D and 3D visualization.|**Lowest priority for transfer GPA,** but essential for the course.|
+| Course                            | Core Topics to Master                                                                                                                                                | Importance                                                              |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **Intro to Programming (Coding)** | **C/C++ or Python** fundamentals. Basic control structures (loops, if/else). Functions and basic algorithms.                                                         | **High.** Your four years of experience should make this a GPA booster. |
+| **Electric Circuits (Basic)**     | Basic circuit components (resistors, capacitors, inductors). Series and parallel circuits. **Ohm's Law (V=IR)** and **Kirchhoff's Laws** (voltage and current laws). | **Moderate.** Prepares you for the first core EE course.                |
+| **Engineering Graphics/Design**   | Practice basic 2D and 3D visualization.                                                                                                                              | **Lowest priority for transfer GPA,** but essential for the course.     |
 
 ---
 
@@ -116,11 +116,11 @@ Do not treat Algebra 1 and 2 like brand-new subjects. Instead, use them as diagn
 
 To stay on track for your 6-month goal and to have enough time for the critical Calculus and Physics material, you should aim to complete all the necessary review in:
 
-|Course|Recommended Time Goal|
-|---|---|
-|**Algebra 1 Review**|**3 - 7 days**|
-|**Algebra 2 Review**|**1 - 2 weeks**|
-|**Total Algebra Time**|**2 to 4 weeks maximum**|
+| Course                 | Recommended Time Goal    |
+| ---------------------- | ------------------------ |
+| **Algebra 1 Review**   | **3 - 7 days**           |
+| **Algebra 2 Review**   | **1 - 2 weeks**          |
+| **Total Algebra Time** | **2 to 4 weeks maximum** |
 ### Phase 2: Core Engineering Math (Approx. 2.5 Months)
 
 These are the most important courses that directly correspond to your first-year university GPA.
