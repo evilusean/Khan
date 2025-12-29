@@ -875,3 +875,39 @@ To sketch one full period accurately, find these five points:
 5. **End:** $(\text{start} + P)$
 ## 2025-December-29 - Graphs of Sinusoidal Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h11m25s
+- **Sinusoidal Functions** = Are functions that are realted to sine and cosine by transformations(stretching, shrinking, shifting)
+- $y = sin(x)$ : your default sin graph
+- $y = 3sin(2x)$ : the '3' will stretch the graph vertically by a factor of 3, the '2x' compresses it horizontally by a factor of 1/2
+- $y = 3sin(2x) + 1$ : the '+1' shifts everything up by 1 unit
+- $y = 3sin(2(x-\frac{\pi}{4}))$ : same as above, but,  $2(x-\frac{\pi}{4})$ shifts the graph right by pi over 4 *phase shift*
+### Graphs of Sinusoidal Functions
+
+Sinusoidal functions are functions that are related to **Sine** and **Cosine** through various transformations. These transformations allow us to describe wave-like behaviors in a variety of real-world contexts.
+
+#### 1. The General Equation
+Any sinusoidal function can be written in the following general form:
+$$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
+
+#### 2. Key Transformation Properties
+Each variable in the general equation corresponds to a specific geometric transformation:
+
+* **Amplitude ($|a|$):** * Determines the "height" of the wave from the center.
+    * The range of the function is $[k - |a|, k + |a|]$.
+    * If $a < 0$, the graph is reflected across the horizontal midline.
+* **Period ($P$):** * The horizontal length of one full cycle. 
+    * Formula: $P = \frac{2\pi}{|b|}$ (for both $\sin$ and $\cos$).
+* **Phase Shift ($h$):** * The horizontal translation (shift) of the graph.
+    * If $h$ is positive, the graph shifts **Right**.
+    * If $h$ is negative, the graph shifts **Left**.
+* **Vertical Shift ($k$):** * Determines the **Midline** (the horizontal center of the wave).
+    * The entire graph moves up or down by $k$ units.
+
+#### 3. Summary of Graphing Steps
+To graph a sinusoidal function manually without a calculator:
+1.  **Identify the Midline ($y = k$):** Draw this horizontal line first.
+2.  **Determine the Peaks and Valleys:** Use the amplitude to find the max ($k+a$) and min ($k-a$).
+3.  **Find the Period:** Calculate $2\pi/b$ to know how wide one cycle is.
+4.  **Apply Phase Shift:** Start your cycle at $x = h$ instead of $x = 0$.
+5.  **Plot 5 Key Points:** * Start, Quarter-point, Midpoint, Three-quarter point, and End.
+    * For **Sine**, these are: *Midline → Max → Midline → Min → Midline*.
+    * For **Cosine**, these are: *Max → Midline → Min → Midline → Max*.
