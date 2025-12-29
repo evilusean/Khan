@@ -668,6 +668,11 @@ This chart provides the exact values for the most common special angles used in 
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h48m40s
 - Sine and Cosine in terms of points on a unit circle with a radius of 1
 - **Unit Circle** = A circle with a radius of 1
+- You can find the (x,y) coordinates of the point on a unit circle using sine, and cosine
+- $cos\theta = x$ 
+- $sin\theta = y$
+- $tan\theta = \frac{y}{x}$ 
 ## 2025-December-29 - Properties of Trig Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h54m15s
-
+- 3 Properties of the trig functions sin and cosin that can be deduced from the *Unit Circle*
+- 
