@@ -36,4 +36,9 @@
 * **Complementary Angles:** In a right triangle, $\sin(\theta) = \cos(90^\circ - \theta)$.
 
 - Calculating sin, cos, tan, in terms of a Unit Circle(radius of 1)
+
+* **Periodic Property:** * $\sin(\theta + 2\pi n) = \sin(\theta)$ * $\cos(\theta + 2\pi n) = \cos(\theta)$ 
+* **Even/Odd Property:** * $\cos(-\theta) = \cos(\theta)$ [Even] * $\sin(-\theta) = -\sin(\theta)$ [Odd] * $\tan(-\theta) = -\tan(\theta)$ [Odd] 
+* **Pythagorean Identity:** * $\cos^2(\theta) + \sin^2(\theta) = 1$
+
 - 

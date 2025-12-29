@@ -830,3 +830,4 @@ $$\sin(-420^\circ) = -\sin(60^\circ) = -\frac{\sqrt{3}}{2}$$
 **Summary of Results:**
 * $\cos(5\pi) = -1$
 * $\sin(-420^\circ) = -\frac{\sqrt{3}}{2}$
+## 2025-December-29 - Graphs of Sine and Cosine :
