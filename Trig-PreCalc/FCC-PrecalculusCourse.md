@@ -675,4 +675,36 @@ https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h48m40s
 ## 2025-December-29 - Properties of Trig Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h54m15s
 - 3 Properties of the trig functions sin and cosin that can be deduced from the *Unit Circle*
-- 
+### Properties of Trigonometric Functions & Periodicity
+
+Trigonometric functions are **periodic**, meaning their values repeat at regular intervals. This behavior is best understood by observing a point $(x, y)$ moving around the **Unit Circle** (a circle with radius $r = 1$).
+
+#### 1. The Unit Circle Definitions
+On the unit circle, any angle $\theta$ corresponds to a point $(x, y)$. Since $r=1$, the standard trig ratios simplify to:
+* **$\cos(\theta) = x$**
+* **$\sin(\theta) = y$**
+* **$\tan(\theta) = \frac{y}{x}$** (where $x \neq 0$)
+
+#### 2. Periodic Property
+As you rotate around the circle, once you complete a full revolution ($360^\circ$ or $2\pi$ radians), you land back on the exact same $(x, y)$ coordinates. This creates the periodic nature of the functions.
+
+##### Sine and Cosine Period ($2\pi$)
+The values of Sine and Cosine repeat every $2\pi$ radians.
+* $\sin(\theta + 2\pi n) = \sin(\theta)$
+* $\cos(\theta + 2\pi n) = \cos(\theta)$
+*(where $n$ is any integer)*
+
+##### Tangent and Cotangent Period ($\pi$)
+The Tangent function repeats more frequently, every half-rotation, because the ratio of $y/x$ returns to the same value in opposite quadrants (e.g., both $x$ and $y$ are negative in Quadrant III, making the ratio positive again).
+* $\tan(\theta + \pi n) = \tan(\theta)$
+#### 3. Domain and Range
+| Function           | Domain                                  | Range               |
+| :----------------- | :-------------------------------------- | :------------------ |
+| **$\sin(\theta)$** | $(-\infty, \infty)$                     | $[-1, 1]$           |
+| **$\cos(\theta)$** | $(-\infty, \infty)$                     | $[-1, 1]$           |
+| **$\tan(\theta)$** | All $\theta \neq \frac{\pi}{2} + \pi n$ | $(-\infty, \infty)$ |
+
+#### 4. Even and Odd Properties
+* **Cosine is Even:** Symmetric about the y-axis. $\cos(-\theta) = \cos(\theta)$
+* **Sine is Odd:** Symmetric about the origin. $\sin(-\theta) = -\sin(\theta)$
+* **Tangent is Odd:** Symmetric about the origin. $\tan(-\theta) = -\tan(\theta)$
