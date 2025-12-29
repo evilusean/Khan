@@ -911,3 +911,4 @@ To graph a sinusoidal function manually without a calculator:
 5.  **Plot 5 Key Points:** * Start, Quarter-point, Midpoint, Three-quarter point, and End.
     * For **Sine**, these are: *Midline → Max → Midline → Min → Midline*.
     * For **Cosine**, these are: *Max → Midline → Min → Midline → Max*.
+## 2025-December-29 - Graphs of Tan, Sec, Cot, Csc :
