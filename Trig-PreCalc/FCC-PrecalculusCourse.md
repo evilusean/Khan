@@ -832,3 +832,43 @@ $$\sin(-420^\circ) = -\sin(60^\circ) = -\frac{\sqrt{3}}{2}$$
 * $\sin(-420^\circ) = -\frac{\sqrt{3}}{2}$
 ## 2025-December-29 - Graphs of Sine and Cosine :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h4m55s
+![[Pasted image 20251229152108.png]]
+### Graphs of Sine and Cosine Functions
+
+Both the Sine and Cosine functions create wave-like patterns called **sinusoids**. While they share the same shape, they differ in where they start relative to the $y$-axis.
+
+#### 1. Fundamental Characteristics
+These properties apply to the parent functions $y = \sin(x)$ and $y = \cos(x)$.
+
+* **Domain:** $(-\infty, \infty)$ — You can plug in any angle.
+* **Range:** $[-1, 1]$ — The wave never goes above $1$ or below $-1$.
+* **Period:** $2\pi$ — The graph completes one full cycle every $2\pi$ units.
+* **Amplitude:** $1$ — The distance from the center (midline) to the peak.
+
+#### 2. Key Differences
+The main difference is a **phase shift** of $\pi/2$ ($90^\circ$).
+
+
+
+| Feature | $y = \sin(x)$ | $y = \cos(x)$ |
+| :--- | :--- | :--- |
+| **At $x=0$** | Starts at **$0$** (Midline) | Starts at **$1$** (Maximum) |
+| **Symmetry** | **Odd** (Origin symmetry) | **Even** (y-axis symmetry) |
+| **Intercepts** | Intersects x-axis at $0, \pi, 2\pi$ | Intersects x-axis at $\pi/2, 3\pi/2$ |
+
+#### 3. General Sinusoidal Equation
+For more complex waves, we use the transformation formula:
+$$y = A \sin(B(x - C)) + D \quad \text{or} \quad y = A \cos(B(x - C)) + D$$
+
+* **$|A|$ (Amplitude):** Vertical stretch/shrink.
+* **$B$ (Frequency factor):** Used to find the **Period** ($P = \frac{2\pi}{|B|}$).
+* **$C$ (Phase Shift):** Horizontal shift (right if $C > 0$, left if $C < 0$).
+* **$D$ (Vertical Shift):** Moves the **Midline** up or down.
+
+#### 4. Five Key Points Method
+To sketch one full period accurately, find these five points:
+1. **Start:** $(C, \text{starting value})$
+2. **Quarter-way:** $(\text{start} + \frac{P}{4})$
+3. **Half-way:** $(\text{start} + \frac{P}{2})$
+4. **Three-quarters:** $(\text{start} + \frac{3P}{4})$
+5. **End:** $(\text{start} + P)$
