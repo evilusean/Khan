@@ -717,8 +717,6 @@ The Tangent function repeats more frequently, every half-rotation, because the r
 
 Trigonometric functions exhibit symmetry properties based on whether they are **even** or **odd**. These properties allow us to simplify expressions involving negative angles by relating them back to their positive counterparts.
 
-
-
 #### 1. Even Functions: Cosine and Secant
 A function is **even** if its graph is symmetric with respect to the $y$-axis. Algebraically, this means $f(-\theta) = f(\theta)$.
 
@@ -727,30 +725,74 @@ When you rotate an angle $-\theta$ (clockwise), the $x$-coordinate (Cosine) rema
 * **Cosine Property:** $\cos(-\theta) = \cos(\theta)$
 * **Secant Property:** $\sec(-\theta) = \sec(\theta)$
 
-
-
 #### 2. Odd Functions: Sine, Tangent, Cosecant, and Cotangent
 A function is **odd** if its graph is symmetric with respect to the origin. Algebraically, this means $f(-\theta) = -f(\theta)$.
 
-When you rotate an angle $-\theta$, the $y$-coordinate (Sine) becomes the negative of the $y$-coordinate for the positive angle $\theta$.
+When you rotate an angle $-\theta$, the $y$-coordinate (Sine) becomes the negative of the $y$-coordinate for the positive angle $\theta$. 
+
+**Why Tangent is Odd:**
+Since $\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}$, substituting a negative angle gives:
+$$\tan(-\theta) = \frac{\sin(-\theta)}{\cos(-\theta)} = \frac{-\sin(\theta)}{\cos(\theta)} = -\tan(\theta)$$
+Because the numerator (Sine) changes sign but the denominator (Cosine) does not, the entire Tangent ratio becomes negative.
 
 * **Sine Property:** $\sin(-\theta) = -\sin(\theta)$
 * **Cosecant Property:** $\csc(-\theta) = -\csc(\theta)$
 * **Tangent Property:** $\tan(-\theta) = -\tan(\theta)$
 * **Cotangent Property:** $\cot(-\theta) = -\cot(\theta)$
 
-
-
 #### 3. Summary Table
-| Function Type | Basic Identity | Symmetry |
-| :--- | :--- | :--- |
-| **Even** | $f(-\theta) = f(\theta)$ | Symmetric about **y-axis** |
-| **Odd** | $f(-\theta) = -f(\theta)$ | Symmetric about **origin** |
+| Function Type | Basic Identity            | Symmetry                   |
+| :------------ | :------------------------ | :------------------------- |
+| **Even**      | $f(-\theta) = f(\theta)$  | Symmetric about **y-axis** |
+| **Odd**       | $f(-\theta) = -f(\theta)$ | Symmetric about **origin** |
 
 ---
 **Example Calculation:**
-If $\cos(60^\circ) = 0.5$, then $\cos(-60^\circ) = 0.5$.
-If $\sin(30^\circ) = 0.5$, then $\sin(-30^\circ) = -0.5$.
+* If $\cos(60^\circ) = 0.5$, then $\cos(-60^\circ) = 0.5$.
+* If $\sin(30^\circ) = 0.5$, then $\sin(-30^\circ) = -0.5$.
+* If $\tan(45^\circ) = 1$, then $\tan(-45^\circ) = -1$.
+### Pythagorean Identity & Trig Properties
+
+The Pythagorean Identity is the most fundamental relationship in trigonometry. It bridges the gap between the geometry of a right triangle and the algebraic properties of the Unit Circle.
+
+#### 1. Derivation from the Unit Circle
+In a coordinate plane, any point on a circle with radius $r$ centered at the origin follows the equation $x^2 + y^2 = r^2$. On the **Unit Circle**, where the radius $r = 1$:
+
+* The $x$-coordinate is defined as $\cos(\theta)$.
+* The $y$-coordinate is defined as $\sin(\theta)$.
+
+Substituting these into the circle equation gives the primary identity:
+$$\cos^2(\theta) + \sin^2(\theta) = 1$$
+
+#### 2. Visualizing the Identity
+If you draw a right triangle inside the unit circle:
+* The **Horizontal leg** (adjacent) has length $\cos(\theta)$.
+* The **Vertical leg** (opposite) has length $\sin(\theta)$.
+* The **Hypotenuse** is the radius, which is $1$.
+
+By the Pythagorean Theorem ($a^2 + b^2 = c^2$):
+$$(\cos \theta)^2 + (\sin \theta)^2 = 1^2$$
+
+#### 3. Related Pythagorean Identities
+By dividing the primary identity ($\sin^2 \theta + \cos^2 \theta = 1$) by either $\cos^2 \theta$ or $\sin^2 \theta$, we derive two other essential forms:
+
+##### The Tangent-Secant Identity
+Divide everything by $\cos^2(\theta)$:
+$$\frac{\sin^2 \theta}{\cos^2 \theta} + \frac{\cos^2 \theta}{\cos^2 \theta} = \frac{1}{\cos^2 \theta} \implies \tan^2(\theta) + 1 = \sec^2(\theta)$$
+
+##### The Cotangent-Cosecant Identity
+Divide everything by $\sin^2(\theta)$:
+$$\frac{\sin^2 \theta}{\sin^2 \theta} + \frac{\cos^2 \theta}{\sin^2 \theta} = \frac{1}{\sin^2 \theta} \implies 1 + \cot^2(\theta) = \csc^2(\theta)$$
+
+#### 4. Practical Uses
+* **Finding Unknown Ratios:** If you know $\sin(\theta)$ and which quadrant the angle is in, you can solve for $\cos(\theta)$ without needing the angle itself.
+* **Simplifying Expressions:** In Calculus and Pre-Calculus proofs, seeing $1 - \sin^2(\theta)$ allows you to instantly replace it with $\cos^2(\theta)$.
+
+---
+**Summary of Identity Forms:**
+1. $\sin^2 \theta + \cos^2 \theta = 1$
+2. $\tan^2 \theta + 1 = \sec^2 \theta$
+3. $1 + \cot^2 \theta = \csc^2 \theta$
 ### Evaluating Trig Functions Using Periodicity
 
 To evaluate trigonometric functions with large or negative angles, we use the **periodic property**. This involves adding or subtracting full rotations ($360^\circ$ or $2\pi$ radians) until the angle is within the standard $0$ to $2\pi$ range.
