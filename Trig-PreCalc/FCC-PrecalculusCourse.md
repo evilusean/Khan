@@ -668,4 +668,5 @@ This chart provides the exact values for the most common special angles used in 
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=1h48m40s
 - Sine and Cosine in terms of points on a unit circle with a radius of 1
 - **Unit Circle** = A circle with a radius of 1
-- 
+## 2025-December-29 - Properties of Trig Functions :
+
