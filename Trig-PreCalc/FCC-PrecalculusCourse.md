@@ -713,6 +713,44 @@ The Tangent function repeats more frequently, every half-rotation, because the r
 * **Cosine is Even:** Symmetric about the y-axis. $\cos(-\theta) = \cos(\theta)$
 * **Sine is Odd:** Symmetric about the origin. $\sin(-\theta) = -\sin(\theta)$
 * **Tangent is Odd:** Symmetric about the origin. $\tan(-\theta) = -\tan(\theta)$
+### Even and Odd Properties of Trigonometric Functions
+
+Trigonometric functions exhibit symmetry properties based on whether they are **even** or **odd**. These properties allow us to simplify expressions involving negative angles by relating them back to their positive counterparts.
+
+
+
+#### 1. Even Functions: Cosine and Secant
+A function is **even** if its graph is symmetric with respect to the $y$-axis. Algebraically, this means $f(-\theta) = f(\theta)$.
+
+When you rotate an angle $-\theta$ (clockwise), the $x$-coordinate (Cosine) remains exactly the same as it would for the positive angle $\theta$ (counter-clockwise).
+
+* **Cosine Property:** $\cos(-\theta) = \cos(\theta)$
+* **Secant Property:** $\sec(-\theta) = \sec(\theta)$
+
+
+
+#### 2. Odd Functions: Sine, Tangent, Cosecant, and Cotangent
+A function is **odd** if its graph is symmetric with respect to the origin. Algebraically, this means $f(-\theta) = -f(\theta)$.
+
+When you rotate an angle $-\theta$, the $y$-coordinate (Sine) becomes the negative of the $y$-coordinate for the positive angle $\theta$.
+
+* **Sine Property:** $\sin(-\theta) = -\sin(\theta)$
+* **Cosecant Property:** $\csc(-\theta) = -\csc(\theta)$
+* **Tangent Property:** $\tan(-\theta) = -\tan(\theta)$
+* **Cotangent Property:** $\cot(-\theta) = -\cot(\theta)$
+
+
+
+#### 3. Summary Table
+| Function Type | Basic Identity | Symmetry |
+| :--- | :--- | :--- |
+| **Even** | $f(-\theta) = f(\theta)$ | Symmetric about **y-axis** |
+| **Odd** | $f(-\theta) = -f(\theta)$ | Symmetric about **origin** |
+
+---
+**Example Calculation:**
+If $\cos(60^\circ) = 0.5$, then $\cos(-60^\circ) = 0.5$.
+If $\sin(30^\circ) = 0.5$, then $\sin(-30^\circ) = -0.5$.
 ### Evaluating Trig Functions Using Periodicity
 
 To evaluate trigonometric functions with large or negative angles, we use the **periodic property**. This involves adding or subtracting full rotations ($360^\circ$ or $2\pi$ radians) until the angle is within the standard $0$ to $2\pi$ range.
