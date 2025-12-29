@@ -713,3 +713,40 @@ The Tangent function repeats more frequently, every half-rotation, because the r
 * **Cosine is Even:** Symmetric about the y-axis. $\cos(-\theta) = \cos(\theta)$
 * **Sine is Odd:** Symmetric about the origin. $\sin(-\theta) = -\sin(\theta)$
 * **Tangent is Odd:** Symmetric about the origin. $\tan(-\theta) = -\tan(\theta)$
+### Evaluating Trig Functions Using Periodicity
+
+To evaluate trigonometric functions with large or negative angles, we use the **periodic property**. This involves adding or subtracting full rotations ($360^\circ$ or $2\pi$ radians) until the angle is within the standard $0$ to $2\pi$ range.
+
+#### 1. Evaluating $\cos(5\pi)$
+The cosine function has a period of $2\pi$. This means we can subtract $2\pi$ repeatedly without changing the result.
+
+
+
+**Step-by-step:**
+* $5\pi - 2\pi = 3\pi$
+* $3\pi - 2\pi = 1\pi$
+
+Now we evaluate at $\pi$ ($180^\circ$):
+* On the unit circle, the coordinates at $\pi$ are $(-1, 0)$.
+* Since $\cos(\theta) = x$:
+$$\cos(5\pi) = \cos(\pi) = -1$$
+
+#### 2. Evaluating $\sin(-420^\circ)$
+For negative angles, we rotate clockwise. To find the **coterminal angle** (the positive version of the same spot), we add $360^\circ$ until the angle is positive.
+
+**Step-by-step:**
+* $-420^\circ + 360^\circ = -60^\circ$
+* $-60^\circ + 360^\circ = 300^\circ$
+
+Now we evaluate at $300^\circ$ (which is in Quadrant IV):
+* The reference angle is $60^\circ$ ($360^\circ - 300^\circ = 60^\circ$).
+* In Quadrant IV, **Sine is negative**.
+* From our special angles: $\sin(60^\circ) = \frac{\sqrt{3}}{2}$.
+
+Therefore:
+$$\sin(-420^\circ) = -\sin(60^\circ) = -\frac{\sqrt{3}}{2}$$
+
+---
+**Summary of Results:**
+* $\cos(5\pi) = -1$
+* $\sin(-420^\circ) = -\frac{\sqrt{3}}{2}$
