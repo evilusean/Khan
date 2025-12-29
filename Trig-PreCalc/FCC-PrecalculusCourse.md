@@ -833,6 +833,9 @@ $$\sin(-420^\circ) = -\sin(60^\circ) = -\frac{\sqrt{3}}{2}$$
 ## 2025-December-29 - Graphs of Sine and Cosine :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h4m55s
 ![[Pasted image 20251229152108.png]]
+- **Midline** = Horizontal Line halfway in between the maximum and minimum points (y=0)
+- **Amplitude** = is the vertical distance between a maxpoint and the midline
+- **Period** = Is the horizontal length of the smallest repeating unit
 ### Graphs of Sine and Cosine Functions
 
 Both the Sine and Cosine functions create wave-like patterns called **sinusoids**. While they share the same shape, they differ in where they start relative to the $y$-axis.
@@ -848,12 +851,10 @@ These properties apply to the parent functions $y = \sin(x)$ and $y = \cos(x)$.
 #### 2. Key Differences
 The main difference is a **phase shift** of $\pi/2$ ($90^\circ$).
 
-
-
-| Feature | $y = \sin(x)$ | $y = \cos(x)$ |
-| :--- | :--- | :--- |
-| **At $x=0$** | Starts at **$0$** (Midline) | Starts at **$1$** (Maximum) |
-| **Symmetry** | **Odd** (Origin symmetry) | **Even** (y-axis symmetry) |
+| Feature        | $y = \sin(x)$                       | $y = \cos(x)$                        |
+| :------------- | :---------------------------------- | :----------------------------------- |
+| **At $x=0$**   | Starts at **$0$** (Midline)         | Starts at **$1$** (Maximum)          |
+| **Symmetry**   | **Odd** (Origin symmetry)           | **Even** (y-axis symmetry)           |
 | **Intercepts** | Intersects x-axis at $0, \pi, 2\pi$ | Intersects x-axis at $\pi/2, 3\pi/2$ |
 
 #### 3. General Sinusoidal Equation
@@ -872,3 +873,4 @@ To sketch one full period accurately, find these five points:
 3. **Half-way:** $(\text{start} + \frac{P}{2})$
 4. **Three-quarters:** $(\text{start} + \frac{3P}{4})$
 5. **End:** $(\text{start} + P)$
+## 2025-December-29 - Graphs of Sinusoidal Functions :
