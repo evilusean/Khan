@@ -912,3 +912,4 @@ To graph a sinusoidal function manually without a calculator:
     * For **Sine**, these are: *Midline → Max → Midline → Min → Midline*.
     * For **Cosine**, these are: *Max → Midline → Min → Midline → Max*.
 ## 2025-December-29 - Graphs of Tan, Sec, Cot, Csc :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h22m35s
