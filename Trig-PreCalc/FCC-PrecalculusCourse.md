@@ -951,3 +951,35 @@ These are the reciprocal functions and are best graphed by first sketching their
 When graphing $\sec x$ or $\csc x$, always lightly pencil in the corresponding $\cos x$ or $\sin x$ wave first. The reciprocal "U" shapes will sit right on top of the peaks and valleys, and your asymptotes will go straight through the points where the wave hits the midline.
 ## 2025-December-30 - Graphs of Transformations of Tan, Sec, Cot, Csc :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h30m30s
+### Graphs of Transformations: Tan, Sec, Cot, and Csc
+
+Transforming these functions involves the same principles as Sine and Cosine ($y = a \cdot f(b(x - h)) + k$), but with a few critical differences in how the period and vertical stretch are handled.
+
+#### 1. Transforming Period ($b$)
+The horizontal stretch or compression depends on the base period of the function.
+* **Tangent and Cotangent:** The base period is $\pi$.
+    * **New Period** $P = \frac{\pi}{|b|}$
+* **Secant and Cosecant:** The base period is $2\pi$.
+    * **New Period** $P = \frac{2\pi}{|b|}$
+
+#### 2. Transforming Phase Shift ($h$) and Vertical Shift ($k$)
+* **Phase Shift ($h$):** Moves the entire graph (including vertical asymptotes) left or right.
+    * Shift is **Right** if $h > 0$.
+    * Shift is **Left** if $h < 0$.
+* **Vertical Shift ($k$):** Moves the graph up or down.
+    * For **Tan/Cot**, this moves the center point (the "inflection-like" point).
+    * For **Sec/Csc**, this moves the midline that the corresponding Sine/Cosine wave would oscillate around.
+
+#### 3. Transforming Amplitude/Vertical Stretch ($a$)
+While we don't call it "amplitude" for these functions (since they go to infinity), $|a|$ still acts as a vertical stretch factor.
+* **Tangent/Cotangent:** $|a|$ tells you the y-coordinate of the points halfway between the center and the asymptotes.
+* **Secant/Cosecant:** $|a|$ determines the distance from the midline to the vertices of the U-shaped curves.
+
+#### 4. Step-by-Step Graphing Technique
+1.  **Find the Asymptotes:**
+    * For $y = \tan(bx)$, the first two asymptotes are found by solving $bx = -\frac{\pi}{2}$ and $bx = \frac{\pi}{2}$.
+    * For $y = \cot(bx)$, the first two are at $bx = 0$ and $bx = \pi$.
+2.  **Apply Shifts:** Move those asymptotes horizontally by $h$.
+3.  **Plot the Center Point:** For Tan, this is exactly halfway between the asymptotes at the height of the vertical shift $k$.
+4.  **Use $|a|$ for Shape:** Move one-quarter of a period to the left and right of the center point to plot points at heights $k - a$ and $k + a$.
+5.  **Reciprocal Strategy:** For Sec/Csc, transform the parent Sine or Cosine graph first, then draw the U-curves touching the transformed peaks and valleys.
