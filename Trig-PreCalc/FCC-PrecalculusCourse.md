@@ -949,5 +949,5 @@ These are the reciprocal functions and are best graphed by first sketching their
 
 #### 4. Pro-Tip for Graphing
 When graphing $\sec x$ or $\csc x$, always lightly pencil in the corresponding $\cos x$ or $\sin x$ wave first. The reciprocal "U" shapes will sit right on top of the peaks and valleys, and your asymptotes will go straight through the points where the wave hits the midline.
-## 2025-December-30 - Graphs of Tan, Sec, Cot, Csc :
-https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h30m15s
+## 2025-December-30 - Graphs of Transformations of Tan, Sec, Cot, Csc :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h30m30s
