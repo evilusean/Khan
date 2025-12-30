@@ -1028,3 +1028,19 @@ Inverse trigonometric functions are used to find the angle that corresponds to a
 | $\tan^{-1}(x)$ | $\arctan(x)$         | $(-\infty, \infty)$ | $(-\frac{\pi}{2}, \frac{\pi}{2})$ |
 ## 2025-December-30 - Solving Basic Trig Equations :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h48m45s
+### Trigonometric Equations Practice
+
+The following questions and solutions are based on common precalculus exercises for solving trigonometric equations and understanding transformations.
+
+#### 1. Solving $2\cos(x) + 1 = 0$
+**Question:**
+For the equation $2\cos(x) + 1 = 0$:
+* **(a)** Find the solutions in the interval $[0, 2\pi)$.
+* **(b)** Give a general formula for ALL solutions.
+
+**Solution:**
+* **Isolate Cosine:** Subtract 1 and divide by 2 to get $\cos(x) = -1/2$.
+* **Determine Angles (Part a):** On the unit circle, $\cos(x) = -1/2$ at $x = 2\pi/3$ and $x = 4\pi/3$.
+* **General Formula (Part b):** Since cosine has a period of $2\pi$, the general solution is $x = \frac{2\pi}{3} + 2\pi n$ and $x = \frac{4\pi}{3} + 2\pi n$, where $n$ is any integer.
+
+---
