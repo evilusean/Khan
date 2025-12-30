@@ -983,3 +983,14 @@ While we don't call it "amplitude" for these functions (since they go to infinit
 3.  **Plot the Center Point:** For Tan, this is exactly halfway between the asymptotes at the height of the vertical shift $k$.
 4.  **Use $|a|$ for Shape:** Move one-quarter of a period to the left and right of the center point to plot points at heights $k - a$ and $k + a$.
 5.  **Reciprocal Strategy:** For Sec/Csc, transform the parent Sine or Cosine graph first, then draw the U-curves touching the transformed peaks and valleys.
+---
+- $y=csc(x)$ = $\frac{1}{sin(x)}$: standard graph of cosecant
+- $y=2csc(\pi x + \frac{\pi}{2}) + 1$ : the '2' adds a vertical stretch by 2, the '+ 1' shifts up by 1, the '$\pi x$' says that everything shrinks by $\frac{1}{\pi}$, the '$\frac{\pi}{2}$' creates a horizontal shift by 1/2 to the left
+### Graphs of Trigonometric Transformations
+
+For the functions $y = A \tan(Bx - C) + D$ and $y = A \sec(Bx - C) + D$, the constants $A, B, C$, and $D$ affect the graphs as follows:
+
+* **Vertical Stretch/Compression ($A$):** The constant $|A|$ determines the vertical stretch or compression of the graph; for tangent, it affects the steepness, and for secant, it determines the distance from the midline to the vertices of the curves.
+* **Period ($B$):** The constant $B$ affects the period of the function, with the new period being $P = \frac{\pi}{|B|}$ for tangent and $P = \frac{2\pi}{|B|}$ for secant.
+* **Phase Shift ($C$):** The ratio $\frac{C}{B}$ determines the horizontal phase shift, moving the entire graph (including asymptotes) to the right if the result is positive and to the left if it is negative.
+* **Vertical Shift ($D$):** The constant $D$ represents the vertical shift, moving the entire graph up or down and establishing a new midline or center point for the function.
