@@ -913,3 +913,39 @@ To graph a sinusoidal function manually without a calculator:
     * For **Cosine**, these are: *Max → Midline → Min → Midline → Max*.
 ## 2025-December-29 - Graphs of Tan, Sec, Cot, Csc :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h22m35s
+### Graphs of Tan, Sec, Cot, and Csc Functions
+
+Unlike Sine and Cosine, which are smooth, continuous waves, the other four trigonometric functions feature **vertical asymptotes** and discontinuities. This is because they are defined as ratios that can have a zero in the denominator.
+
+#### 1. Tangent ($y = \tan x$) and Cotangent ($y = \cot x$)
+These functions represent the ratio of sides and have a unique period.
+
+* **Period:** $\pi$ (half the period of Sine/Cosine).
+* **Vertical Asymptotes:**
+    * **$\tan x$:** Occur where $\cos x = 0$ (e.g., $x = \frac{\pi}{2}, \frac{3\pi}{2}$).
+    * **$\cot x$:** Occur where $\sin x = 0$ (e.g., $x = 0, \pi, 2\pi$).
+* **Key Points:**
+    * **$\tan x$** passes through $(0,0)$ and increases between asymptotes.
+    * **$\cot x$** decreases between asymptotes and is zero at $\frac{\pi}{2}$.
+
+#### 2. Cosecant ($y = \csc x$) and Secant ($y = \sec x$)
+These are the reciprocal functions and are best graphed by first sketching their partner functions (Sine and Cosine).
+
+* **Period:** $2\pi$ (same as Sine/Cosine).
+* **Relationship to Sine/Cosine:**
+    * The **Vertical Asymptotes** of the reciprocal function occur at the **x-intercepts** of the original function.
+    * The **Relative Maxima/Minima** (peaks and valleys) of the reciprocal function touch the peaks and valleys of the original Sine/Cosine wave.
+* **Visualizing the Graph:**
+    * Where Sine is at its peak ($1$), Cosecant is also at $1$ and then curves upward toward infinity.
+    * The graph looks like a series of alternating "U-shaped" curves that never cross the midline.
+
+#### 3. Summary Table
+| Function | Reciprocal Of | Vertical Asymptotes | Range |
+| :--- | :--- | :--- | :--- |
+| **$\tan x$** | $\frac{\sin x}{\cos x}$ | $x = \frac{\pi}{2} + n\pi$ | $(-\infty, \infty)$ |
+| **$\cot x$** | $\frac{\cos x}{\sin x}$ | $x = n\pi$ | $(-\infty, \infty)$ |
+| **$\sec x$** | $\frac{1}{\cos x}$ | $x = \frac{\pi}{2} + n\pi$ | $(-\infty, -1] \cup [1, \infty)$ |
+| **$\csc x$** | $\frac{1}{\sin x}$ | $x = n\pi$ | $(-\infty, -1] \cup [1, \infty)$ |
+
+#### 4. Pro-Tip for Graphing
+When graphing $\sec x$ or $\csc x$, always lightly pencil in the corresponding $\cos x$ or $\sin x$ wave first. The reciprocal "U" shapes will sit right on top of the peaks and valleys, and your asymptotes will go straight through the points where the wave hits the midline.
