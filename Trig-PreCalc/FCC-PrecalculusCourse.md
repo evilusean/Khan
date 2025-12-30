@@ -1044,3 +1044,15 @@ For the equation $2\cos(x) + 1 = 0$:
 * **General Formula (Part b):** Since cosine has a period of $2\pi$, the general solution is $x = \frac{2\pi}{3} + 2\pi n$ and $x = \frac{4\pi}{3} + 2\pi n$, where $n$ is any integer.
 
 ---
+#### 2. Solving $2\tan(x) = \sqrt{3} - \tan(x)$
+**Question:**
+For the equation $2\tan(x) = \sqrt{3} - \tan(x)$:
+* **(a)** Find the solutions in the interval $[0, 2\pi)$.
+* **(b)** Give a general formula for ALL solutions.
+
+**Solution:**
+* **Isolate Tangent:** Add $\tan(x)$ to both sides to get $3\tan(x) = \sqrt{3}$, then divide by 3 to get $\tan(x) = \frac{\sqrt{3}}{3}$.
+* **Part (a):** On the unit circle, $\tan(x) = \frac{\sqrt{3}}{3}$ at $x = \pi/6$ and $x = 7\pi/6$.
+* **Part (b):** Since tangent has a period of $\pi$, the general solution is $x = \frac{\pi}{6} + \pi n$, where $n$ is any integer.
+
+---
