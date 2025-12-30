@@ -1026,3 +1026,4 @@ Inverse trigonometric functions are used to find the angle that corresponds to a
 | $\sin^{-1}(x)$ | $\arcsin(x)$         | $[-1, 1]$           | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ |
 | $\cos^{-1}(x)$ | $\arccos(x)$         | $[-1, 1]$           | $[0, \pi]$                        |
 | $\tan^{-1}(x)$ | $\arctan(x)$         | $(-\infty, \infty)$ | $(-\frac{\pi}{2}, \frac{\pi}{2})$ |
+## 2025-December-30 - Solving Basic Trig Equations :
