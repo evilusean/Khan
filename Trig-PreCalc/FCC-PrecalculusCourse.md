@@ -995,3 +995,4 @@ For the functions $y = A \tan(Bx - C) + D$ and $y = A \sec(Bx - C) + D$, the con
 * **Phase Shift ($C$):** The ratio $\frac{C}{B}$ determines the horizontal phase shift, moving the entire graph (including asymptotes) to the right if the result is positive and to the left if it is negative.
 * **Vertical Shift ($D$):** The constant $D$ represents the vertical shift, moving the entire graph up or down and establishing a new midline or center point for the function.
 ## 2025-December-30 - Inverse Trig Functions :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h39m10s
