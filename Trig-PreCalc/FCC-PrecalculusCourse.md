@@ -996,3 +996,33 @@ For the functions $y = A \tan(Bx - C) + D$ and $y = A \sec(Bx - C) + D$, the con
 * **Vertical Shift ($D$):** The constant $D$ represents the vertical shift, moving the entire graph up or down and establishing a new midline or center point for the function.
 ## 2025-December-30 - Inverse Trig Functions :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h39m10s
+### Inverse Trigonometric Functions Summary
+
+Inverse trigonometric functions are used to find the angle that corresponds to a specific trigonometric ratio.
+
+#### 1. General Notation
+* **Alternative Notation**: Each function can be written using "arc" notation, where $\sin^{-1}(x) = \arcsin(x)$, $\cos^{-1}(x) = \arccos(x)$, and $\tan^{-1}(x) = \arctan(x)$.
+* **Note**: The $-1$ superscript denotes an inverse function, not a reciprocal ($1/\sin x$).
+
+#### 2. Inverse Sine ($\sin^{-1}x$ or $\arcsin x$)
+* **Definition**: Returns the angle $\theta$ in the interval $[-\frac{\pi}{2}, \frac{\pi}{2}]$ such that $\sin(\theta) = x$.
+* **Domain**: $[-1, 1]$
+* **Range**: $[-\frac{\pi}{2}, \frac{\pi}{2}]$ (Quadrants I and IV)
+
+#### 3. Inverse Cosine ($\cos^{-1}x$ or $\arccos x$)
+* **Definition**: Returns the angle $\theta$ in the interval $[0, \pi]$ such that $\cos(\theta) = x$.
+* **Domain**: $[-1, 1]$
+* **Range**: $[0, \pi]$ (Quadrants I and II)
+
+#### 4. Inverse Tangent ($\tan^{-1}x$ or $\arctan x$)
+* **Definition**: Returns the angle $\theta$ in the interval $(-\frac{\pi}{2}, \frac{\pi}{2})$ such that $\tan(\theta) = x$.
+* **Domain**: $(-\infty, \infty)$ (All real numbers)
+* **Range**: $(-\frac{\pi}{2}, \frac{\pi}{2})$ (Quadrants I and IV; note the open intervals due to vertical asymptotes in the parent tangent function)
+
+#### 5. Summary Table for Obsidian
+
+| Function       | Alternative Notation | Domain              | Range (Principal Value)           |
+| :------------- | :------------------- | :------------------ | :-------------------------------- |
+| $\sin^{-1}(x)$ | $\arcsin(x)$         | $[-1, 1]$           | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ |
+| $\cos^{-1}(x)$ | $\arccos(x)$         | $[-1, 1]$           | $[0, \pi]$                        |
+| $\tan^{-1}(x)$ | $\arctan(x)$         | $(-\infty, \infty)$ | $(-\frac{\pi}{2}, \frac{\pi}{2})$ |
