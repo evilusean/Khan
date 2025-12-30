@@ -940,12 +940,12 @@ These are the reciprocal functions and are best graphed by first sketching their
     * The graph looks like a series of alternating "U-shaped" curves that never cross the midline.
 
 #### 3. Summary Table
-| Function | Reciprocal Of | Vertical Asymptotes | Range |
-| :--- | :--- | :--- | :--- |
-| **$\tan x$** | $\frac{\sin x}{\cos x}$ | $x = \frac{\pi}{2} + n\pi$ | $(-\infty, \infty)$ |
-| **$\cot x$** | $\frac{\cos x}{\sin x}$ | $x = n\pi$ | $(-\infty, \infty)$ |
-| **$\sec x$** | $\frac{1}{\cos x}$ | $x = \frac{\pi}{2} + n\pi$ | $(-\infty, -1] \cup [1, \infty)$ |
-| **$\csc x$** | $\frac{1}{\sin x}$ | $x = n\pi$ | $(-\infty, -1] \cup [1, \infty)$ |
+| Function     | Reciprocal Of           | Vertical Asymptotes        | Range                            |
+| :----------- | :---------------------- | :------------------------- | :------------------------------- |
+| **$\tan x$** | $\frac{\sin x}{\cos x}$ | $x = \frac{\pi}{2} + n\pi$ | $(-\infty, \infty)$              |
+| **$\cot x$** | $\frac{\cos x}{\sin x}$ | $x = n\pi$                 | $(-\infty, \infty)$              |
+| **$\sec x$** | $\frac{1}{\cos x}$      | $x = \frac{\pi}{2} + n\pi$ | $(-\infty, -1] \cup [1, \infty)$ |
+| **$\csc x$** | $\frac{1}{\sin x}$      | $x = n\pi$                 | $(-\infty, -1] \cup [1, \infty)$ |
 
 #### 4. Pro-Tip for Graphing
 When graphing $\sec x$ or $\csc x$, always lightly pencil in the corresponding $\cos x$ or $\sin x$ wave first. The reciprocal "U" shapes will sit right on top of the peaks and valleys, and your asymptotes will go straight through the points where the wave hits the midline.
@@ -994,3 +994,4 @@ For the functions $y = A \tan(Bx - C) + D$ and $y = A \sec(Bx - C) + D$, the con
 * **Period ($B$):** The constant $B$ affects the period of the function, with the new period being $P = \frac{\pi}{|B|}$ for tangent and $P = \frac{2\pi}{|B|}$ for secant.
 * **Phase Shift ($C$):** The ratio $\frac{C}{B}$ determines the horizontal phase shift, moving the entire graph (including asymptotes) to the right if the result is positive and to the left if it is negative.
 * **Vertical Shift ($D$):** The constant $D$ represents the vertical shift, moving the entire graph up or down and establishing a new midline or center point for the function.
+## 2025-December-30 - Inverse Trig Functions :
