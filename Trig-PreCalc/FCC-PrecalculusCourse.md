@@ -1178,3 +1178,4 @@ The following exercises determine whether specific trigonometric equations are i
 	2. Combine terms: $\frac{1 - \sin^2(x)}{\cos(x)} = \cos(x)$
 	3. Use Pythagorean Identity ($1 - \sin^2(x) = \cos^2(x)$): $\frac{\cos^2(x)}{\cos(x)} = \cos(x)$
 	4. Simplify: $\cos(x) = \cos(x)$
+## 2025-December-31 - The Pythagorean Identities :
