@@ -1123,3 +1123,33 @@ The following procedures describe how to find all solutions to basic trigonometr
 * **Step 2 (General Solution):** Since the tangent function has a period of $\pi$, all solutions can be found by adding integer multiples of $\pi$ to the principal solution: $t = \arctan(P) + \pi n$.
 ## 2025-December-31 - Introduction to Trig Identities :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h5m45s
+### Introduction to Trig Identities Practice
+
+The following questions explore the difference between conditional equations and identities based on the provided image.
+
+#### Example: Find solutions to the following equations:
+
+**a) $x^2 - 6x = 7$**
+
+**Solution:**
+* **Set equation to zero:** $x^2 - 6x - 7 = 0$
+* **Factor:** $(x - 7)(x + 1) = 0$
+* **Solve for x:** * $x - 7 = 0 \Rightarrow x = 7$
+	* $x + 1 = 0 \Rightarrow x = -1$
+* **Final Answer:** $x = 7$ and $x = -1$ (This is a **conditional equation** because it is only true for specific values of $x$).
+
+---
+
+**b) $x^2 - 6x = 7 + (x - 7)(x + 1)$**
+
+**Solution:**
+* **Expand the right side:** $7 + (x^2 + x - 7x - 7)$
+* **Simplify:** $7 + x^2 - 6x - 7$
+* **Result:** $x^2 - 6x = x^2 - 6x$
+* **Final Answer:** All real numbers. 
+
+---
+
+#### Definition
+**The second equation is called an identity because...**
+...it is true for all values of the variable $x$ for which both sides of the equation are defined.
