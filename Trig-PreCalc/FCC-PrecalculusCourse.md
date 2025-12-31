@@ -1153,3 +1153,28 @@ The following questions explore the difference between conditional equations and
 #### Definition
 **The second equation is called an identity because...**
 ...it is true for all values of the variable $x$ for which both sides of the equation are defined.
+### Introduction to Trig Identities: Practice Problems
+
+The following exercises determine whether specific trigonometric equations are identities.
+
+#### Example: Decide which of the following equations are identities.
+
+**a) $\sin(2x) = 2\sin(x)$**
+* **Analysis**: This is **NOT an identity**.
+* **Reasoning**: While it may look similar to a known formula, testing a value like $x = \pi/4$ shows $\sin(2 \cdot \pi/4) = \sin(\pi/2) = 1$, whereas $2\sin(\pi/4) = 2(\sqrt{2}/2) = \sqrt{2}$. Since $1 \neq \sqrt{2}$, it is a conditional equation.
+
+---
+
+**b) $\cos(\theta + \pi) = -\cos(\theta)$**
+* **Analysis**: This **IS an identity**.
+* **Reasoning**: This is a horizontal shift property. Adding $\pi$ to the argument of a cosine function results in a phase shift that perfectly reflects the graph across the x-axis, making the equality true for all values of $\theta$.
+
+---
+
+**c) $\sec(x) - \sin(x)\tan(x) = \cos(x)$**
+* **Analysis**: This **IS an identity**.
+* **Verification**: 
+	1. Rewrite in terms of sine and cosine: $\frac{1}{\cos(x)} - \sin(x)\left(\frac{\sin(x)}{\cos(x)}\right) = \cos(x)$
+	2. Combine terms: $\frac{1 - \sin^2(x)}{\cos(x)} = \cos(x)$
+	3. Use Pythagorean Identity ($1 - \sin^2(x) = \cos^2(x)$): $\frac{\cos^2(x)}{\cos(x)} = \cos(x)$
+	4. Simplify: $\cos(x) = \cos(x)$
