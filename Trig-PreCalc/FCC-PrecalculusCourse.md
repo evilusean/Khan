@@ -1180,3 +1180,26 @@ The following exercises determine whether specific trigonometric equations are i
 	4. Simplify: $\cos(x) = \cos(x)$
 ## 2025-December-31 - The Pythagorean Identities :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h13m20s
+### Pythagorean Identities Summary
+
+The Pythagorean Identities are fundamental relationships in trigonometry derived from the Pythagorean Theorem applied to the unit circle.
+
+#### 1. The Fundamental Identity
+The primary identity is based on the unit circle equation $x^2 + y^2 = r^2$, where $r=1$, $x=\cos(\theta)$, and $y=\sin(\theta)$:
+* **$\cos^2(\theta) + \sin^2(\theta) = 1$**
+
+#### 2. Derived Identities
+By dividing the fundamental identity by either $\cos^2(\theta)$ or $\sin^2(\theta)$, we obtain two additional forms:
+
+* **Tangent-Secant Identity**: Obtained by dividing all terms by $\cos^2(\theta)$.
+	* **$\tan^2(\theta) + 1 = \sec^2(\theta)$**
+* **Cotangent-Cosecant Identity**: Obtained by dividing all terms by $\sin^2(\theta)$.
+	* **$1 + \cot^2(\theta) = \csc^2(\theta)$** (often written as $\cot^2(\theta) + 1 = \csc^2(\theta)$)
+
+#### 3. Summary Table for Obsidian
+
+| Identity | Related Functions | Derived From |
+| :--- | :--- | :--- |
+| $\cos^2(\theta) + \sin^2(\theta) = 1$ | Sine, Cosine | Unit Circle ($x^2 + y^2 = 1$) |
+| $\tan^2(\theta) + 1 = \sec^2(\theta)$ | Tangent, Secant | Dividing by $\cos^2(\theta)$ |
+| $\cot^2(\theta) + 1 = \csc^2(\theta)$ | Cotangent, Cosecant | Dividing by $\sin^2(\theta)$ |
