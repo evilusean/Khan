@@ -1058,3 +1058,13 @@ For the equation $2\tan(x) = \sqrt{3} - \tan(x)$:
 ---
 ## 2025-December-31 - Solving Trig Equations that Require a Calculator :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h55m55s
+### Solving $2\cos(t) = 1 - \cos(t)$
+**Question:**
+For the equation $2\cos(t) = 1 - \cos(t)$:
+* **(a)** Find all solutions in the interval $[0, 2\pi)$.
+* **(b)** Find all solutions.
+
+**Solution:**
+* **Isolate Cosine**: Add $\cos(t)$ to both sides to get $3\cos(t) = 1$, then divide by 3 to get $\cos(t) = \frac{1}{3}$.
+* **Part (a)**: Since $1/3$ is not a standard unit circle value, use a calculator: $t = \cos^{-1}(1/3) \approx 1.23$ radians (Quadrant I). The second solution is $t = 2\pi - 1.23 \approx 5.05$ radians (Quadrant IV).
+* **Part (b)**: The general solutions are $t \approx 1.23 + 2\pi n$ and $t \approx 5.05 + 2\pi n$, where $n$ is any integer.
