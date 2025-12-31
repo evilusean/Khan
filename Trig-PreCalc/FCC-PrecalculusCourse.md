@@ -1068,3 +1068,24 @@ For the equation $2\cos(t) = 1 - \cos(t)$:
 * **Isolate Cosine**: Add $\cos(t)$ to both sides to get $3\cos(t) = 1$, then divide by 3 to get $\cos(t) = \frac{1}{3}$.
 * **Part (a)**: Since $1/3$ is not a standard unit circle value, use a calculator: $t = \cos^{-1}(1/3) \approx 1.23$ radians (Quadrant I). The second solution is $t = 2\pi - 1.23 \approx 5.05$ radians (Quadrant IV).
 * **Part (b)**: The general solutions are $t \approx 1.23 + 2\pi n$ and $t \approx 5.05 + 2\pi n$, where $n$ is any integer.
+### Solving $4\sin(x) - 1 = 2$
+**Question:**
+For the equation $4\sin(x) - 1 = 2$:
+* **(a)** Find all solutions in the interval $[0, 2\pi)$.
+* **(b)** Find all solutions.
+
+**Solution:**
+* **Isolate Sine:**
+    * $4\sin(x) = 3$
+    * $\sin(x) = \frac{3}{4}$
+
+* **Part (a): Solutions in $[0, 2\pi)$**
+    * Since $3/4$ is not a standard unit circle value, use the inverse sine function:
+        * $x = \sin^{-1}(\frac{3}{4}) \approx 0.848$ radians (Quadrant I).
+    * Sine is also positive in Quadrant II. Use the reference angle identity $\pi - \theta$:
+        * $x = \pi - 0.848 \approx 2.294$ radians (Quadrant II).
+    * **Answer for (a):** $x \approx 0.848$ and $x \approx 2.294$.
+
+* **Part (b): All Solutions (General Formula)**
+    * To find all possible solutions, add integer multiples of the period ($2\pi$) to the primary solutions found in part (a).
+    * **Answer for (b):** $x \approx 0.848 + 2\pi n$ and $x \approx 2.294 + 2\pi n$, where $n$ is any integer.
