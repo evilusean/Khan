@@ -1104,3 +1104,20 @@ For the equation $\tan(x) = 4$:
 * **Part (b): All Solutions (General Formula)**
     * Because the tangent function has a period of $\pi$, all possible solutions can be expressed by adding integer multiples of $\pi$ to the principal solution.
     * **Answer for (b):** $x \approx 1.326 + \pi n$, where $n$ is any integer.
+### Summary: Solving Trigonometric Equations with a Calculator
+
+The following procedures describe how to find all solutions to basic trigonometric equations using a calculator.
+
+#### (a) To find solutions to the equation $\cos(t) = M$
+* **Step 1:** Find the principal solution using the inverse cosine function: $t = \arccos(M)$.
+* **Step 2:** Find the second solution within one period ($2\pi$) using the symmetry of the cosine function: $t = 2\pi - \arccos(M)$.
+* **Step 3 (General Solution):** Add integer multiples of the period ($2\pi n$) to both results to find all possible solutions.
+
+#### (b) To find solutions to the equation $\sin(t) = N$
+* **Step 1:** Find the principal solution using the inverse sine function: $t = \arcsin(N)$.
+* **Step 2:** Find the second solution within one period ($2\pi$) using the sine identity: $t = \pi - \arcsin(N)$.
+* **Step 3 (General Solution):** Add integer multiples of the period ($2\pi n$) to both results to find all possible solutions.
+
+#### (c) To find solutions to the equation $\tan(t) = P$
+* **Step 1:** Find the principal solution using the inverse tangent function: $t = \arctan(P)$.
+* **Step 2 (General Solution):** Since the tangent function has a period of $\pi$, all solutions can be found by adding integer multiples of $\pi$ to the principal solution: $t = \arctan(P) + \pi n$.
