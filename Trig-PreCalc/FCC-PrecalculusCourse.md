@@ -1204,3 +1204,4 @@ By dividing the fundamental identity by either $\cos^2(\theta)$ or $\sin^2(\thet
 | $\tan^2(\theta) + 1 = \sec^2(\theta)$ | Tangent, Secant     | Dividing by $\cos^2(\theta)$  |
 | $\cot^2(\theta) + 1 = \csc^2(\theta)$ | Cotangent, Cosecant | Dividing by $\sin^2(\theta)$  |
 ## 2025-December-31 - Sum and Difference Formulas :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h18m40s
