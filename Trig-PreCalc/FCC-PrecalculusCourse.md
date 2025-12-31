@@ -1205,3 +1205,27 @@ By dividing the fundamental identity by either $\cos^2(\theta)$ or $\sin^2(\thet
 | $\cot^2(\theta) + 1 = \csc^2(\theta)$ | Cotangent, Cosecant | Dividing by $\sin^2(\theta)$  |
 ## 2025-December-31 - Sum and Difference Formulas :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h18m40s
+### Sum and Difference Formulas
+
+These identities allow you to evaluate trigonometric functions of angles that can be expressed as the sum or difference of common reference angles.
+
+#### 1. Sine Sum and Difference
+The sine formulas mix the functions (sine and cosine) and keep the same operation sign (+ or -) as the original expression.
+
+* **$\sin(A + B) = \sin A \cos B + \cos A \sin B$**
+* **$\sin(A - B) = \sin A \cos B - \cos A \sin B$**
+
+#### 2. Cosine Sum and Difference
+The cosine formulas keep the functions grouped (cosines together, sines together) and flip the operation sign.
+
+* **$\cos(A + B) = \cos A \cos B - \sin A \sin B$**
+* **$\cos(A - B) = \cos A \cos B + \sin A \sin B$**
+
+#### 3. Summary Table for Obsidian
+
+| Function      | Formula                         |
+| :------------ | :------------------------------ |
+| $\sin(A + B)$ | $\sin A \cos B + \cos A \sin B$ |
+| $\sin(A - B)$ | $\sin A \cos B - \cos A \sin B$ |
+| $\cos(A + B)$ | $\cos A \cos B - \sin A \sin B$ |
+| $\cos(A - B)$ | $\cos A \cos B + \sin A \sin B$ |
