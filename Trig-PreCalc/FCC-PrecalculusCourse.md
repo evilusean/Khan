@@ -1089,3 +1089,18 @@ For the equation $4\sin(x) - 1 = 2$:
 * **Part (b): All Solutions (General Formula)**
     * To find all possible solutions, add integer multiples of the period ($2\pi$) to the primary solutions found in part (a).
     * **Answer for (b):** $x \approx 0.848 + 2\pi n$ and $x \approx 2.294 + 2\pi n$, where $n$ is any integer.
+### Solving $\tan(x) = 4$
+**Question:**
+For the equation $\tan(x) = 4$:
+* **(a)** Find all solutions in the interval $[0, 2\pi)$.
+* **(b)** Find all solutions.
+
+**Solution:**
+* **Part (a): Solutions in $[0, 2\pi)$**
+    * **Quadrant I:** Use the inverse tangent function on a calculator: $x = \tan^{-1}(4) \approx 1.326$ radians.
+    * **Quadrant III:** Since tangent is also positive in Quadrant III, find the second solution by adding $\pi$ to the first: $x = 1.326 + \pi \approx 4.468$ radians.
+    * **Answer for (a):** $x \approx 1.326$ and $x \approx 4.468$.
+
+* **Part (b): All Solutions (General Formula)**
+    * Because the tangent function has a period of $\pi$, all possible solutions can be expressed by adding integer multiples of $\pi$ to the principal solution.
+    * **Answer for (b):** $x \approx 1.326 + \pi n$, where $n$ is any integer.
