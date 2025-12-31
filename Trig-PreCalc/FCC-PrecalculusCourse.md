@@ -1056,3 +1056,4 @@ For the equation $2\tan(x) = \sqrt{3} - \tan(x)$:
 * **Part (b):** Since tangent has a period of $\pi$, the general solution is $x = \frac{\pi}{6} + \pi n$, where $n$ is any integer.
 
 ---
+## 2025-December-31 - Solving Trig Equations that Require a Calculator :
