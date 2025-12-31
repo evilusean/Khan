@@ -1198,8 +1198,9 @@ By dividing the fundamental identity by either $\cos^2(\theta)$ or $\sin^2(\thet
 
 #### 3. Summary Table for Obsidian
 
-| Identity | Related Functions | Derived From |
-| :--- | :--- | :--- |
-| $\cos^2(\theta) + \sin^2(\theta) = 1$ | Sine, Cosine | Unit Circle ($x^2 + y^2 = 1$) |
-| $\tan^2(\theta) + 1 = \sec^2(\theta)$ | Tangent, Secant | Dividing by $\cos^2(\theta)$ |
-| $\cot^2(\theta) + 1 = \csc^2(\theta)$ | Cotangent, Cosecant | Dividing by $\sin^2(\theta)$ |
+| Identity                              | Related Functions   | Derived From                  |
+| :------------------------------------ | :------------------ | :---------------------------- |
+| $\cos^2(\theta) + \sin^2(\theta) = 1$ | Sine, Cosine        | Unit Circle ($x^2 + y^2 = 1$) |
+| $\tan^2(\theta) + 1 = \sec^2(\theta)$ | Tangent, Secant     | Dividing by $\cos^2(\theta)$  |
+| $\cot^2(\theta) + 1 = \csc^2(\theta)$ | Cotangent, Cosecant | Dividing by $\sin^2(\theta)$  |
+## 2025-December-31 - Sum and Difference Formulas :
