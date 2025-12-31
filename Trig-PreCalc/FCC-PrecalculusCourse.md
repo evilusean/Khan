@@ -1121,3 +1121,4 @@ The following procedures describe how to find all solutions to basic trigonometr
 #### (c) To find solutions to the equation $\tan(t) = P$
 * **Step 1:** Find the principal solution using the inverse tangent function: $t = \arctan(P)$.
 * **Step 2 (General Solution):** Since the tangent function has a period of $\pi$, all solutions can be found by adding integer multiples of $\pi$ to the principal solution: $t = \arctan(P) + \pi n$.
+## 2025-December-31 - Introduction to Trig Identities :
