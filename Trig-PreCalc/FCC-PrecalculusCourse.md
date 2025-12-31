@@ -1057,3 +1057,4 @@ For the equation $2\tan(x) = \sqrt{3} - \tan(x)$:
 
 ---
 ## 2025-December-31 - Solving Trig Equations that Require a Calculator :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=2h55m55s
