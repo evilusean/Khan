@@ -1374,3 +1374,4 @@ To include all possible rotations, we add $2\pi n$ (where $n$ is an integer):
 * **$x = \frac{\pi}{2} + 2\pi n$**
 * **$x = \frac{3\pi}{2} + 2\pi n$**
 ## 2026-January-1 - Half Angle Formulas :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h38m45s
