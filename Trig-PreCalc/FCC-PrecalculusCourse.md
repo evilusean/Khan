@@ -1375,3 +1375,24 @@ To include all possible rotations, we add $2\pi n$ (where $n$ is an integer):
 * **$x = \frac{3\pi}{2} + 2\pi n$**
 ## 2026-January-1 - Half Angle Formulas :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h38m45s
+### Half-Angle Formulas Summary
+
+Half-angle formulas allow you to find the trigonometric values of an angle ($\theta/2$) if you know the cosine of the original angle ($\theta$). These are derived from the power-reduction identities (which come from the cosine double-angle formulas).
+
+#### 1. Half-Angle Formula for Sine
+The value of the sine of a half-angle depends on the quadrant in which $\theta/2$ terminates:
+* **$\sin\left(\frac{\theta}{2}\right) = \pm\sqrt{\frac{1 - \cos\theta}{2}}$**
+
+#### 2. Half-Angle Formula for Cosine
+Similarly, the sign for the cosine of a half-angle depends on the quadrant of $\theta/2$:
+* **$\cos\left(\frac{\theta}{2}\right) = \pm\sqrt{\frac{1 + \cos\theta}{2}}$**
+
+#### 3. Summary Table for Obsidian
+
+| Function | Formula | Key Note |
+| :--- | :--- | :--- |
+| $\sin\left(\frac{\theta}{2}\right)$ | $\pm\sqrt{\frac{1 - \cos\theta}{2}}$ | Use the **minus** sign in the numerator for Sine. |
+| $\cos\left(\frac{\theta}{2}\right)$ | $\pm\sqrt{\frac{1 + \cos\theta}{2}}$ | Use the **plus** sign in the numerator for Cosine. |
+
+> [!IMPORTANT]
+> **Choosing the $\pm$ Sign:** > The $\pm$ symbol does not mean there are two answers. You must determine the quadrant of the half-angle ($\theta/2$) and choose the sign based on whether the function is positive or negative in that specific quadrant (ASTC rule).
