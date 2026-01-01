@@ -1373,6 +1373,4 @@ The unique solutions within the interval $[0, 2\pi)$ are:
 To include all possible rotations, we add $2\pi n$ (where $n$ is an integer):
 * **$x = \frac{\pi}{2} + 2\pi n$**
 * **$x = \frac{3\pi}{2} + 2\pi n$**
-
----
-Would you like me to solve a similar problem involving the **cosine** double-angle identity, such as $\cos(2x) + \cos(x) = 0$?
+## 2026-January-1 - Half Angle Formulas :
