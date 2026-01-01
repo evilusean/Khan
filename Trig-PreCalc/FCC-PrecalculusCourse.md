@@ -1284,3 +1284,4 @@ The following solutions utilize the sum and difference identities to find exact 
     * $\cos(v + w) \approx 0.63 - 0.3113$
 * **Final Answer:** $\cos(v + w) \approx 0.3187$
 ## 2025-January-01 - Proof of the Angle Sum Formulas :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h26m35s
