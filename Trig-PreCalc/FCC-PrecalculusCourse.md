@@ -1434,3 +1434,4 @@ The $\pm$ symbol indicates that you must choose the sign manually based on the q
 
 4. **Calculate $\cos\left(\frac{\theta}{2}\right)$:**
    $\cos\left(\frac{\theta}{2}\right) = \sqrt{\frac{1 + (-3/5)}{2}} = \sqrt{\frac{2/5}{2}} = \sqrt{\frac{1}{5}} = \frac{1}{\sqrt{5}} = \frac{\sqrt{5}}{5}$
+## 2026-January-1 - Solving Right Triangles :
