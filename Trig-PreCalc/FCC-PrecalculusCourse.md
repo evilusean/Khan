@@ -1317,3 +1317,4 @@ To find the horizontal base (cosine) of the combined angle $a + b$:
 | :------------ | :------------------------------------- | :------------------------------ |
 | $\sin(a + b)$ | Sum of two vertical heights            | $\sin a \cos b + \cos a \sin b$ |
 | $\cos(a + b)$ | Difference between horizontal segments | $\cos a \cos b - \sin a \sin b$ |
+## 2026-January-1 - Double Angle Formulas :
