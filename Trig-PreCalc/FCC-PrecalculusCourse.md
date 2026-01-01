@@ -1342,3 +1342,37 @@ The cosine double-angle identity has three useful forms, which can be interchang
 | $\cos(2\theta)$ | $\cos^2\theta - \sin^2\theta$ | Using the definition directly.           |
 | $\cos(2\theta)$ | $1 - 2\sin^2\theta$           | You only know the value of $\sin\theta$. |
 | $\cos(2\theta)$ | $2\cos^2\theta - 1$           | You only know the value of $\cos\theta$. |
+### Solving Trigonometric Equations: Double-Angle Substitution
+
+This example demonstrates how to solve an equation involving both a single angle ($x$) and a double angle ($2x$) by using identity substitution.
+
+#### Equation: $2\cos(x) + \sin(2x) = 0$
+
+**1. Use the Double-Angle Identity**
+Replace $\sin(2x)$ with the identity $2\sin(x)\cos(x)$:
+$$2\cos(x) + 2\sin(x)\cos(x) = 0$$
+
+**2. Factor the Equation**
+Both terms share a common factor of $2\cos(x)$. Factor it out:
+$$2\cos(x)(1 + \sin(x)) = 0$$
+
+**3. Set Each Factor to Zero**
+Using the Zero Product Property, solve the two resulting equations:
+
+* **Equation 1:** $2\cos(x) = 0 \implies \cos(x) = 0$
+    * On the unit circle, $\cos(x) = 0$ at $x = \frac{\pi}{2}$ and $x = \frac{3\pi}{2}$.
+* **Equation 2:** $1 + \sin(x) = 0 \implies \sin(x) = -1$
+    * On the unit circle, $\sin(x) = -1$ at $x = \frac{3\pi}{2}$.
+
+**4. Final Solutions**
+The unique solutions within the interval $[0, 2\pi)$ are:
+* **$x = \frac{\pi}{2}$**
+* **$x = \frac{3\pi}{2}$**
+
+**General Solution:**
+To include all possible rotations, we add $2\pi n$ (where $n$ is an integer):
+* **$x = \frac{\pi}{2} + 2\pi n$**
+* **$x = \frac{3\pi}{2} + 2\pi n$**
+
+---
+Would you like me to solve a similar problem involving the **cosine** double-angle identity, such as $\cos(2x) + \cos(x) = 0$?
