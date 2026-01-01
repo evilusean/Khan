@@ -1436,3 +1436,41 @@ The $\pm$ symbol indicates that you must choose the sign manually based on the q
    $\cos\left(\frac{\theta}{2}\right) = \sqrt{\frac{1 + (-3/5)}{2}} = \sqrt{\frac{2/5}{2}} = \sqrt{\frac{1}{5}} = \frac{1}{\sqrt{5}} = \frac{\sqrt{5}}{5}$
 ## 2026-January-1 - Solving Right Triangles :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h44m55s
+### Solving Right Triangles
+
+Solving a right triangle means finding the lengths of all three sides and the measures of all three angles. This is typically done using the Pythagorean Theorem and basic trigonometric ratios (SOH CAH TOA).
+
+#### 1. Fundamental Tools
+To solve any right triangle, you need at least one side length and one other piece of information (either another side or an acute angle).
+
+* **Pythagorean Theorem**: Used when you know two sides and need the third.
+    * $a^2 + b^2 = c^2$ (where $c$ is the hypotenuse).
+* **SOH CAH TOA**: Used to relate angles to side ratios.
+    * $\sin(\theta) = \frac{\text{Opposite}}{\text{Hypotenuse}}$
+    * $\cos(\theta) = \frac{\text{Adjacent}}{\text{Hypotenuse}}$
+    * $\tan(\theta) = \frac{\text{Opposite}}{\text{Adjacent}}$
+* **Angle Sum Theorem**: The two acute angles in a right triangle always add up to $90^\circ$ (they are complementary).
+    * $A + B = 90^\circ$
+
+
+
+#### 2. Common Scenarios
+| Given Information | Method to Solve |
+| :--- | :--- |
+| **Two Sides** | Use the Pythagorean Theorem for the 3rd side; use inverse trig functions ($\sin^{-1}, \cos^{-1}, \tan^{-1}$) for angles. |
+| **One Side + One Angle** | Use a trig ratio to find a 2nd side; use subtraction ($90^\circ - \text{angle}$) to find the 3rd angle. |
+
+#### 3. Step-by-Step Example
+**Problem**: In a right triangle, angle $A = 35^\circ$ and the hypotenuse $c = 12$. Find side $a$ and angle $B$.
+
+1.  **Find Angle $B$**: 
+    $B = 90^\circ - 35^\circ = 55^\circ$.
+2.  **Find Side $a$ (Opposite to $A$)**: 
+    Use the Sine ratio: $\sin(35^\circ) = \frac{a}{12}$.
+    $a = 12 \cdot \sin(35^\circ) \approx 6.88$.
+3.  **Find Side $b$ (Adjacent to $A$)**: 
+    Use the Cosine ratio: $\cos(35^\circ) = \frac{b}{12}$.
+    $b = 12 \cdot \cos(35^\circ) \approx 9.83$.
+
+---
+**Key Tip**: Always ensure your calculator is in the correct mode (**Degree** vs. **Radian**) before solving.
