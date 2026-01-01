@@ -1396,3 +1396,41 @@ Similarly, the sign for the cosine of a half-angle depends on the quadrant of $\
 
 > [!IMPORTANT]
 > **Choosing the $\pm$ Sign:** > The $\pm$ symbol does not mean there are two answers. You must determine the quadrant of the half-angle ($\theta/2$) and choose the sign based on whether the function is positive or negative in that specific quadrant (ASTC rule).
+### Summary: Half-Angle Formulas
+
+Half-angle formulas are used to find the trigonometric values of $\frac{\theta}{2}$ when the value of $\cos(\theta)$ is known. These are derived from the power-reduction identities.
+
+#### 1. Fundamental Half-Angle Identities
+* **Sine:** $\sin\left(\frac{\theta}{2}\right) = \pm\sqrt{\frac{1 - \cos\theta}{2}}$
+* **Cosine:** $\cos\left(\frac{\theta}{2}\right) = \pm\sqrt{\frac{1 + \cos\theta}{2}}$
+* **Tangent:** $\tan\left(\frac{\theta}{2}\right) = \pm\sqrt{\frac{1 - \cos\theta}{1 + \cos\theta}} = \frac{1 - \cos\theta}{\sin\theta} = \frac{\sin\theta}{1 + \cos\theta}$
+
+#### 2. Selecting the Correct Sign ($\pm$)
+The $\pm$ symbol indicates that you must choose the sign manually based on the quadrant where the half-angle $\frac{\theta}{2}$ lies.
+* If $\frac{\theta}{2}$ is in **Quadrant I**: All are positive.
+* If $\frac{\theta}{2}$ is in **Quadrant II**: Sine is (+), Cosine is (-).
+* If $\frac{\theta}{2}$ is in **Quadrant III**: Sine is (-), Cosine is (-).
+* If $\frac{\theta}{2}$ is in **Quadrant IV**: Sine is (-), Cosine is (+).
+
+---
+
+### Practice Problem: Applying Half-Angle Formulas
+
+**Question:** Suppose that $\sin(\theta) = \frac{4}{5}$ and $\frac{\pi}{2} < \theta < \pi$. Find the exact values of $\cos\left(\frac{\theta}{2}\right)$ and $\sin\left(\frac{\theta}{2}\right)$.
+
+**Solution:**
+
+1. **Find $\cos(\theta)$:**
+   Since $\theta$ is in Quadrant II, cosine is negative.
+   $\cos^2\theta = 1 - \sin^2\theta = 1 - (\frac{4}{5})^2 = \frac{9}{25}$
+   $\cos\theta = -\frac{3}{5}$
+
+2. **Determine the Quadrant for $\frac{\theta}{2}$:**
+   Divide the original interval by 2: $\frac{\pi}{4} < \frac{\theta}{2} < \frac{\pi}{2}$.
+   This places $\frac{\theta}{2}$ in **Quadrant I** (All positive).
+
+3. **Calculate $\sin\left(\frac{\theta}{2}\right)$:**
+   $\sin\left(\frac{\theta}{2}\right) = \sqrt{\frac{1 - (-3/5)}{2}} = \sqrt{\frac{8/5}{2}} = \sqrt{\frac{4}{5}} = \frac{2}{\sqrt{5}} = \frac{2\sqrt{5}}{5}$
+
+4. **Calculate $\cos\left(\frac{\theta}{2}\right)$:**
+   $\cos\left(\frac{\theta}{2}\right) = \sqrt{\frac{1 + (-3/5)}{2}} = \sqrt{\frac{2/5}{2}} = \sqrt{\frac{1}{5}} = \frac{1}{\sqrt{5}} = \frac{\sqrt{5}}{5}$
