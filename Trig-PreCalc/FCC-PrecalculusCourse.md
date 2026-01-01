@@ -1474,3 +1474,4 @@ To solve any right triangle, you need at least one side length and one other pie
 
 ---
 **Key Tip**: Always ensure your calculator is in the correct mode (**Degree** vs. **Radian**) before solving.
+## 2026-January-1 - Law of Cosines :
