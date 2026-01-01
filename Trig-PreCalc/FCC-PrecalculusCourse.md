@@ -1285,3 +1285,35 @@ The following solutions utilize the sum and difference identities to find exact 
 * **Final Answer:** $\cos(v + w) \approx 0.3187$
 ## 2025-January-01 - Proof of the Angle Sum Formulas :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h26m35s
+![[Pasted image 20260101143957.png]]
+![[Pasted image 20260101144118.png]]
+### Geometric Proof of Angle Sum Formulas
+
+This proof uses a geometric construction within the unit circle (or a right triangle framework) to derive the sum formulas for sine and cosine.
+
+#### 1. The Construction
+Consider a large right triangle where the hypotenuse is 1. We nest two smaller right triangles inside it:
+* **Triangle 1**: Has an angle $a$ at the origin.
+* **Triangle 2**: Is built on top of the hypotenuse of Triangle 1, having an angle $b$.
+* The total angle formed from the horizontal base is $a + b$.
+
+#### 2. Deriving $\sin(a + b)$
+To find the vertical height (sine) of the combined angle $a + b$:
+* The total height is the sum of two vertical segments: the height of the first triangle plus the additional height added by the second triangle.
+* Through trigonometric ratios and alternate interior angles, the first segment is found to be $\sin(a)\cos(b)$.
+* The second segment is found to be $\cos(a)\sin(b)$.
+* **Result**: $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$
+
+#### 3. Deriving $\cos(a + b)$
+To find the horizontal base (cosine) of the combined angle $a + b$:
+* The horizontal distance is the base of Triangle 1 minus the horizontal "overlap" created by Triangle 2 shifting backward.
+* The base of Triangle 1 is represented by $\cos(a)\cos(b)$.
+* The backward shift (overlap) is calculated as $\sin(a)\sin(b)$.
+* **Result**: $\cos(a + b) = \cos(a)\cos(b) - \sin(a)\sin(b)$
+
+#### 4. Summary Table for Obsidian
+
+| Formula       | Geometric Logic                        | Relationship                    |
+| :------------ | :------------------------------------- | :------------------------------ |
+| $\sin(a + b)$ | Sum of two vertical heights            | $\sin a \cos b + \cos a \sin b$ |
+| $\cos(a + b)$ | Difference between horizontal segments | $\cos a \cos b - \sin a \sin b$ |
