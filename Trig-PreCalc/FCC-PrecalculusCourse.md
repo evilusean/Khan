@@ -1229,3 +1229,57 @@ The cosine formulas keep the functions grouped (cosines together, sines together
 | $\sin(A - B)$ | $\sin A \cos B - \cos A \sin B$ |
 | $\cos(A + B)$ | $\cos A \cos B - \sin A \sin B$ |
 | $\cos(A - B)$ | $\cos A \cos B + \sin A \sin B$ |
+### Sum and Difference Formulas Practice
+
+The following questions and formulas are based on the specific exercise provided regarding sum and difference identities.
+
+#### 1. Truth Test
+**Question:** Is it true that $\sin(A + B) = \sin(A) + \sin(B)$?
+**Answer:** **No.** This is a common misconception; the sine function does not distribute over addition.
+
+---
+
+#### 2. Sum and Difference Identities
+**Question:** Complete the following trigonometric formulas:
+
+* **Sine Sum:**
+	* $\sin(A + B) = \sin A \cos B + \cos A \sin B$
+* **Cosine Sum:**
+	* $\cos(A + B) = \cos A \cos B - \sin A \sin B$
+* **Sine Difference:**
+	* $\sin(A - B) = \sin A \cos B - \cos A \sin B$
+* **Cosine Difference:**
+	* $\cos(A - B) = \cos A \cos B + \sin A \sin B$
+### Sum and Difference Formulas: Practice Problems
+
+The following solutions utilize the sum and difference identities to find exact and decimal values for trigonometric expressions.
+
+#### 1. Finding the Exact Value of $\sin(105^\circ)$
+**Question:** Find an exact value for $\sin(105^\circ)$.
+
+**Solution:**
+* **Identify known angles:** We can express $105^\circ$ as the sum of two common angles: $105^\circ = 60^\circ + 45^\circ$.
+* **Apply the Sine Sum Formula:** $\sin(A + B) = \sin A \cos B + \cos A \sin B$.
+* **Substitute values:**
+    * $\sin(60^\circ + 45^\circ) = \sin(60^\circ)\cos(45^\circ) + \cos(60^\circ)\sin(45^\circ)$
+    * $\sin(60^\circ + 45^\circ) = \left(\frac{\sqrt{3}}{2}\right)\left(\frac{\sqrt{2}}{2}\right) + \left(\frac{1}{2}\right)\left(\frac{\sqrt{2}}{2}\right)$
+* **Simplify:**
+    * $\sin(105^\circ) = \frac{\sqrt{6}}{4} + \frac{\sqrt{2}}{4}$
+* **Final Answer:** $\sin(105^\circ) = \frac{\sqrt{6} + \sqrt{2}}{4}$
+
+---
+
+#### 2. Evaluating $\cos(v + w)$
+**Question:** If $\cos(v) = 0.9$ and $\cos(w) = 0.7$, find $\cos(v + w)$. Assume $v$ and $w$ are in the first quadrant.
+
+**Solution:**
+* **Apply the Cosine Sum Formula:** $\cos(v + w) = \cos v \cos w - \sin v \sin w$.
+* **Find missing values ($\sin v$ and $\sin w$):** Use the Pythagorean identity $\sin^2\theta + \cos^2\theta = 1$. Since $v$ and $w$ are in Quadrant I, sine values are positive.
+    * **For $v$:** $\sin v = \sqrt{1 - (0.9)^2} = \sqrt{1 - 0.81} = \sqrt{0.19} \approx 0.4359$
+    * **For $w$:** $\sin w = \sqrt{1 - (0.7)^2} = \sqrt{1 - 0.49} = \sqrt{0.51} \approx 0.7141$
+* **Substitute into the formula:**
+    * $\cos(v + w) = (0.9)(0.7) - (\sqrt{0.19})(\sqrt{0.51})$
+    * $\cos(v + w) = 0.63 - \sqrt{0.0969}$
+* **Simplify:**
+    * $\cos(v + w) \approx 0.63 - 0.3113$
+* **Final Answer:** $\cos(v + w) \approx 0.3187$
