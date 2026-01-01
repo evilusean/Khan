@@ -1319,3 +1319,26 @@ To find the horizontal base (cosine) of the combined angle $a + b$:
 | $\cos(a + b)$ | Difference between horizontal segments | $\cos a \cos b - \sin a \sin b$ |
 ## 2026-January-1 - Double Angle Formulas :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h31m10s
+### Double-Angle Formulas Summary
+
+Double-angle formulas are derived from the sum formulas and allow you to express trigonometric functions of $2\theta$ in terms of $\theta$.
+
+#### 1. Double-Angle Formula for Sine
+There is one primary form for the sine double-angle identity:
+* **$\sin(2\theta) = 2\sin\theta \cos\theta$**
+
+#### 2. Double-Angle Formulas for Cosine
+The cosine double-angle identity has three useful forms, which can be interchanged using the Pythagorean identity ($\sin^2\theta + \cos^2\theta = 1$):
+
+* **Standard Form**: $\cos(2\theta) = \cos^2\theta - \sin^2\theta$
+* **Sine-Only Form**: $\cos(2\theta) = 1 - 2\sin^2\theta$
+* **Cosine-Only Form**: $\cos(2\theta) = 2\cos^2\theta - 1$
+
+#### 3. Summary Table for Obsidian
+
+| Function        | Identity Form                 | Best Used When...                        |
+| :-------------- | :---------------------------- | :--------------------------------------- |
+| $\sin(2\theta)$ | $2\sin\theta \cos\theta$      | Simplifying products of sine and cosine. |
+| $\cos(2\theta)$ | $\cos^2\theta - \sin^2\theta$ | Using the definition directly.           |
+| $\cos(2\theta)$ | $1 - 2\sin^2\theta$           | You only know the value of $\sin\theta$. |
+| $\cos(2\theta)$ | $2\cos^2\theta - 1$           | You only know the value of $\cos\theta$. |
