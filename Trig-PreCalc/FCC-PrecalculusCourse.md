@@ -1476,3 +1476,36 @@ To solve any right triangle, you need at least one side length and one other pie
 **Key Tip**: Always ensure your calculator is in the correct mode (**Degree** vs. **Radian**) before solving.
 ## 2026-January-1 - Law of Cosines :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=3h51m25s
+### The Law of Cosines
+
+The Law of Cosines is a generalization of the Pythagorean Theorem that relates the lengths of the sides of any triangle to the cosine of one of its angles. It is particularly useful for solving non-right (oblique) triangles.
+
+#### 1. The Formulas
+For a triangle with sides $a$, $b$, and $c$, and opposite angles $A$, $B$, and $C$:
+
+* **To find a side:**
+    * $a^2 = b^2 + c^2 - 2bc \cos(A)$
+    * $b^2 = a^2 + c^2 - 2ac \cos(B)$
+    * $c^2 = a^2 + b^2 - 2ab \cos(C)$
+
+* **To find an angle (rearranged):**
+    * $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$
+
+#### 2. When to Use the Law of Cosines
+The Law of Cosines is required in two specific geometric scenarios where the Law of Sines cannot be used:
+
+| Case | Description | Info Given |
+| :--- | :--- | :--- |
+| **SAS** | Side-Angle-Side | Two sides and the included angle. |
+| **SSS** | Side-Side-Side | All three side lengths. |
+
+#### 3. Step-by-Step Strategy
+1.  **Identify the Given Info**: Label your sides and angles. 
+2.  **Solve for the Missing Part**:
+    * In **SAS**, use the formula to find the third side first.
+    * In **SSS**, it is best practice to find the **largest angle first** (the one opposite the longest side) to determine if the triangle is obtuse.
+3.  **Complete the Triangle**: Once you have three pieces of information, you can usually switch to the Law of Sines to find the remaining parts, as it is algebraically simpler.
+
+#### 4. Key Considerations
+* **The Pythagorean Connection**: Notice that if $\angle C = 90^\circ$, then $\cos(90^\circ) = 0$, and the formula simplifies to $c^2 = a^2 + b^2$.
+* **The Ambiguous Case**: Unlike the Law of Sines, the Law of Cosines does not have an ambiguous case; $\cos^{-1}$ will correctly identify obtuse angles (between $90^\circ$ and $180^\circ$).
