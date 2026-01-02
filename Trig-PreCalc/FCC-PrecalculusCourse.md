@@ -1581,3 +1581,43 @@ Given the standard form, you can identify the following:
 **Obsidian Tip**: When solving these, always sketch the vertex and the " $p$ " distance first to visualize whether you should be adding/subtracting from the $x$ or $y$ coordinate to find the Focus and Directrix.
 ## 2026-January-02 - Ellipses :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=4h29m25s
+### Conic Sections: The Ellipse
+
+An ellipse is the set of all points $(x, y)$ in a plane, the sum of whose distances from two fixed points (the **foci**) is constant.
+
+#### 1. Key Anatomy of an Ellipse
+* **Center $(h, k)$**: The midpoint of the major and minor axes.
+* **Vertices**: The endpoints of the major axis (the longer axis).
+* **Co-vertices**: The endpoints of the minor axis (the shorter axis).
+* **Foci (singular: Focus)**: Two points located on the major axis. The distance from the center to each focus is represented by $c$.
+* **Major Axis**: The longest diameter of the ellipse, with length $2a$.
+* **Minor Axis**: The shortest diameter of the ellipse, with length $2b$.
+
+#### 2. Standard Forms
+The orientation depends on which denominator is larger. By definition, **$a > b$**.
+
+| Orientation | Standard Equation | Relationship |
+| :--- | :--- | :--- |
+| **Horizontal** | $\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1$ | $a^2$ is under $x$. |
+| **Vertical** | $\frac{(x-h)^2}{b^2} + \frac{(y-k)^2}{a^2} = 1$ | $a^2$ is under $y$. |
+
+#### 3. Solving for the Foci ($c$)
+To find the distance from the center to the foci, use the specific ellipse relationship:
+$$c^2 = a^2 - b^2$$
+*(Note: This is different from the Pythagorean Theorem; it uses a minus sign.)*
+
+#### 4. Summary Table for Obsidian
+
+| Feature | Horizontal Major Axis | Vertical Major Axis |
+| :--- | :--- | :--- |
+| **Center** | $(h, k)$ | $(h, k)$ |
+| **Vertices** | $(h \pm a, k)$ | $(h, k \pm a)$ |
+| **Co-vertices** | $(h, k \pm b)$ | $(h \pm b, k)$ |
+| **Foci** | $(h \pm c, k)$ | $(h, k \pm c)$ |
+| **Eccentricity** | $e = c/a$ | $e = c/a$ |
+
+---
+**Key Concept: Eccentricity ($e$)**
+Eccentricity measures how "stretched" the ellipse is. 
+* If $e$ is close to **0**, the ellipse looks like a circle.
+* If $e$ is close to **1**, the ellipse looks like a flat line.
