@@ -1544,3 +1544,38 @@ When given two sides and a non-included angle, three possibilities exist for the
 3. **Use Inverse Sine**: If finding an angle, use $\sin^{-1}$. **Note:** Always check if a second supplementary angle ($180^\circ - \theta$) is also a valid solution in SSA cases.
 ## 2026-January-02 - Parabolas : Vertex, Focus, Directrix :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=4h17m35s
+### Conic Sections: The Parabola
+
+In PreCalculus, a parabola is defined as the set of all points in a plane that are equidistant from a fixed point (the **Focus**) and a fixed line (the **Directrix**).
+
+#### 1. Key Anatomy of a Parabola
+* **Vertex $(h, k)$**: The "turning point" of the parabola. It is the midpoint between the Focus and the Directrix.
+* **Focus**: A point located inside the curve of the parabola.
+* **Directrix**: A line located outside the curve of the parabola.
+* **Focal Length $(p)$**: The directed distance from the Vertex to the Focus.
+    * Distance from Vertex to Focus $= p$
+    * Distance from Vertex to Directrix $= |p|$
+* **Axis of Symmetry**: The line passing through the Vertex and Focus, perpendicular to the Directrix.
+
+#### 2. Standard Forms
+The direction of opening depends on which variable is squared and the sign of $p$.
+
+| Orientation | Standard Equation | Opening Direction |
+| :--- | :--- | :--- |
+| **Vertical** | $(x - h)^2 = 4p(y - k)$ | Up if $p > 0$, Down if $p < 0$ |
+| **Horizontal** | $(y - k)^2 = 4p(x - h)$ | Right if $p > 0$, Left if $p < 0$ |
+
+#### 3. Finding Parts from the Equation
+Given the standard form, you can identify the following:
+
+* **Vertex**: $(h, k)$
+* **Find $p$**: Set the coefficient of the non-squared side equal to $4p$ and solve.
+* **For Vertical Parabolas**:
+    * Focus: $(h, k + p)$
+    * Directrix: $y = k - p$
+* **For Horizontal Parabolas**:
+    * Focus: $(h + p, k)$
+    * Directrix: $x = h - p$
+
+---
+**Obsidian Tip**: When solving these, always sketch the vertex and the " $p$ " distance first to visualize whether you should be adding/subtracting from the $x$ or $y$ coordinate to find the Focus and Directrix.
