@@ -20,6 +20,8 @@ https://www.video-tutor.net/precalculus.html
 
 Khan Academy - Precalculus :
 https://www.khanacademy.org/math/precalculus
+Khan Academy - Trigonometry :
+https://www.khanacademy.org/math/trigonometry
 
 Where do Sin, Cos and Tan Actually Come From - Origins of Trigonometry - Part 1 :
 https://www.youtube.com/watch?v=uMfnJ6TJinc
