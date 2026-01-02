@@ -1579,3 +1579,4 @@ Given the standard form, you can identify the following:
 
 ---
 **Obsidian Tip**: When solving these, always sketch the vertex and the " $p$ " distance first to visualize whether you should be adding/subtracting from the $x$ or $y$ coordinate to find the Focus and Directrix.
+## 2026-January-02 - Ellipses :
