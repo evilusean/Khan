@@ -1511,3 +1511,34 @@ The Law of Cosines is required in two specific geometric scenarios where the Law
 * **The Ambiguous Case**: Unlike the Law of Sines, the Law of Cosines does not have an ambiguous case; $\cos^{-1}$ will correctly identify obtuse angles (between $90^\circ$ and $180^\circ$).
 ## 2026-January-2 - Law of Sines :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=4h9m45s
+### Law of Sines Summary
+
+The Law of Sines is a trigonometric relationship used to solve oblique (non-right) triangles. It establishes that the ratio of the length of a side to the sine of its opposite angle is constant for all three sides of a triangle.
+
+#### 1. The Formula
+For a triangle with sides $a, b, c$ and opposite angles $A, B, C$:
+
+$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$
+
+*Alternatively, the reciprocal version is often used when solving for an angle:*
+$$\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}$$
+
+#### 2. When to Use the Law of Sines
+The Law of Sines is applicable when you know a "matched pair" (a side and its opposite angle) plus one other piece of information. This occurs in the following cases:
+
+| Case | Description | Info Given |
+| :--- | :--- | :--- |
+| **AAS** | Angle-Angle-Side | Two angles and a non-included side. |
+| **ASA** | Angle-Side-Angle | Two angles and the included side. |
+| **SSA** | Side-Side-Angle | Two sides and a non-included angle (The Ambiguous Case). |
+
+#### 3. The Ambiguous Case (SSA)
+When given two sides and a non-included angle, three possibilities exist for the number of triangles that can be formed:
+* **No Triangle**: The given side is too short to reach the base.
+* **One Triangle**: A single unique triangle is formed (often a right triangle).
+* **Two Triangles**: The given side can swing into two different positions, creating one acute and one obtuse triangle.
+
+#### 4. Step-by-Step Strategy
+1. **Set up the Ratio**: Pair the side and angle you know with the side or angle you are trying to find.
+2. **Isolate the Variable**: Multiply or divide to solve for the unknown side or the sine of the unknown angle.
+3. **Use Inverse Sine**: If finding an angle, use $\sin^{-1}$. **Note:** Always check if a second supplementary angle ($180^\circ - \theta$) is also a valid solution in SSA cases.
