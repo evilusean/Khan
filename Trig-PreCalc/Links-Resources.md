@@ -23,6 +23,9 @@ https://www.khanacademy.org/math/precalculus
 Khan Academy - Trigonometry :
 https://www.khanacademy.org/math/trigonometry
 
+Professor Leonard - In Depth PreCalculus / College Algebra / Trig (5 hour FCC video I just finished didn't do anything for me, need to redo precalc after trig) :
+https://www.youtube.com/playlist?list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
+
 Where do Sin, Cos and Tan Actually Come From - Origins of Trigonometry - Part 1 :
 https://www.youtube.com/watch?v=uMfnJ6TJinc
 
