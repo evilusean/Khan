@@ -1509,3 +1509,4 @@ The Law of Cosines is required in two specific geometric scenarios where the Law
 #### 4. Key Considerations
 * **The Pythagorean Connection**: Notice that if $\angle C = 90^\circ$, then $\cos(90^\circ) = 0$, and the formula simplifies to $c^2 = a^2 + b^2$.
 * **The Ambiguous Case**: Unlike the Law of Sines, the Law of Cosines does not have an ambiguous case; $\cos^{-1}$ will correctly identify obtuse angles (between $90^\circ$ and $180^\circ$).
+## 2026-January-2 - Law of Sines :
