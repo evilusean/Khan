@@ -1543,3 +1543,4 @@ When given two sides and a non-included angle, three possibilities exist for the
 2. **Isolate the Variable**: Multiply or divide to solve for the unknown side or the sine of the unknown angle.
 3. **Use Inverse Sine**: If finding an angle, use $\sin^{-1}$. **Note:** Always check if a second supplementary angle ($180^\circ - \theta$) is also a valid solution in SSA cases.
 ## 2026-January-02 - Parabolas : Vertex, Focus, Directrix :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=4h17m35s
