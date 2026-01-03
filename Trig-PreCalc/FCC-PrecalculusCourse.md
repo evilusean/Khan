@@ -1622,3 +1622,4 @@ Eccentricity measures how "stretched" the ellipse is.
 * If $e$ is close to **0**, the ellipse looks like a circle.
 * If $e$ is close to **1**, the ellipse looks like a flat line.
 ## 2025-January-03 - Hyperbolas :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=4h40m35s
