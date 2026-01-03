@@ -1669,4 +1669,41 @@ The orientation is determined by which variable is **positive** (not which denom
 4. Plot the **Vertices** on the edges of the box and draw the branches toward the asymptotes.
 ## 2026-January-03 - Polar Coordinates :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=4h54m25s
+### Polar Coordinates Summary
+
+In the Polar Coordinate System, points are defined by their distance from a central point (the **pole**) and their angle from a fixed direction (the **polar axis**), rather than by horizontal and vertical distances.
+
+#### 1. The Coordinates: $(r, \theta)$
+* **$r$ (Radial Distance)**: The directed distance from the pole (origin) to the point.
+    * If $r > 0$, the point lies on the terminal side of $\theta$.
+    * If $r < 0$, the point lies on the ray opposite the terminal side of $\theta$.
+* **$\theta$ (Polar Angle)**: The angle measured counterclockwise from the polar axis (positive x-axis).
+
+#### 2. Coordinate Conversion (Polar $\leftrightarrow$ Rectangular)
+To convert between $(r, \theta)$ and $(x, y)$, use the following trigonometric relationships:
+
+| Direction | Formulas |
+| :--- | :--- |
+| **Polar to Rectangular** | $x = r \cos \theta$ <br> $y = r \sin \theta$ |
+| **Rectangular to Polar** | $r^2 = x^2 + y^2$ <br> $\tan \theta = \frac{y}{x}$ |
+
+> [!NOTE]
+> When finding $\theta$ from $(x, y)$, ensure the angle is in the correct quadrant by looking at the signs of $x$ and $y$.
+
+#### 3. Multiple Representations
+Unlike rectangular coordinates, every point in the polar plane has infinitely many representations. A point $(r, \theta)$ can also be written as:
+* $(r, \theta + 2\pi n)$ — Adding full rotations.
+* $(-r, \theta + \pi)$ — Reflecting through the pole.
+
+#### 4. Converting Equations
+* **To Polar**: Substitute $x = r \cos \theta$ and $y = r \sin \theta$ into the equation and solve for $r$.
+    * *Example*: $x^2 + y^2 = 25 \rightarrow r^2 = 25 \rightarrow r = 5$ (A circle).
+* **To Rectangular**: Use identities like $r^2 = x^2 + y^2$ or multiply both sides by $r$ to create $r \cos \theta$ or $r \sin \theta$ terms.
+    * *Example*: $r = 6 \cos \theta \rightarrow r^2 = 6r \cos \theta \rightarrow x^2 + y^2 = 6x$.
+
+#### 5. Common Polar Graphs
+* **$r = a$**: Circle centered at the pole.
+* **$\theta = a$**: Line passing through the pole.
+* **$r = a \cos \theta$**: Circle passing through the pole, centered on the x-axis.
+* **$r = a \sin \theta$**: Circle passing through the pole, centered on the y-axis.
 
