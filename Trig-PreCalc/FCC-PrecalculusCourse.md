@@ -1667,3 +1667,4 @@ The orientation is determined by which variable is **positive** (not which denom
 2. Use $a$ and $b$ to draw a "Central Box."
 3. Draw the **Asymptotes** through the corners of the box.
 4. Plot the **Vertices** on the edges of the box and draw the branches toward the asymptotes.
+## 2026-January-03 - Polar Coordinates :
