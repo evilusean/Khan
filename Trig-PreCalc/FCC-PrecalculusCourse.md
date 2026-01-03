@@ -1623,3 +1623,47 @@ Eccentricity measures how "stretched" the ellipse is.
 * If $e$ is close to **1**, the ellipse looks like a flat line.
 ## 2025-January-03 - Hyperbolas :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=4h40m35s
+### Conic Sections: The Hyperbola
+
+A hyperbola is the set of all points $(x, y)$ in a plane such that the absolute value of the difference of their distances from two fixed points (the **foci**) is constant.
+
+#### 1. Key Anatomy of a Hyperbola
+* **Center $(h, k)$**: The midpoint of the segment connecting the vertices.
+* **Vertices**: The turning points of each branch of the hyperbola.
+* **Transverse Axis**: The axis that passes through the vertices and foci. Its length is $2a$.
+* **Conjugate Axis**: The axis perpendicular to the transverse axis. Its length is $2b$.
+* **Foci**: Two points located "inside" the curves of the branches. The distance from the center to each focus is $c$.
+* **Asymptotes**: Two diagonal lines that the hyperbola branches approach but never touch.
+
+#### 2. Standard Forms
+The orientation is determined by which variable is **positive** (not which denominator is larger).
+
+| Orientation | Standard Equation | Opening Direction |
+| :--- | :--- | :--- |
+| **Horizontal** | $\frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1$ | Left and Right |
+| **Vertical** | $\frac{(y-k)^2}{a^2} - \frac{(x-h)^2}{b^2} = 1$ | Up and Down |
+
+#### 3. Solving for the Foci and Asymptotes
+* **Finding Foci ($c$):** Unlike the ellipse, the hyperbola uses the "standard" Pythagorean relationship:
+  $$c^2 = a^2 + b^2$$
+* **Finding Asymptote Equations:**
+  Use the point-slope form centered at $(h, k)$:
+    * **Horizontal**: $y - k = \pm \frac{b}{a}(x - h)$
+    * **Vertical**: $y - k = \pm \frac{a}{b}(x - h)$
+    * *(Tip: The slope is always $\frac{\text{change in } y}{\text{change in } x}$, or the square root of the denominator under $y$ over the square root of the denominator under $x$.)*
+
+#### 4. Summary Table for Obsidian
+
+| Feature | Horizontal Transverse Axis | Vertical Transverse Axis |
+| :--- | :--- | :--- |
+| **Center** | $(h, k)$ | $(h, k)$ |
+| **Vertices** | $(h \pm a, k)$ | $(h, k \pm a)$ |
+| **Foci** | $(h \pm c, k)$ | $(h, k \pm c)$ |
+| **Asymptote Slopes** | $m = \pm \frac{b}{a}$ | $m = \pm \frac{a}{b}$ |
+
+---
+**Graphing Strategy:**
+1. Plot the **Center**.
+2. Use $a$ and $b$ to draw a "Central Box."
+3. Draw the **Asymptotes** through the corners of the box.
+4. Plot the **Vertices** on the edges of the box and draw the branches toward the asymptotes.
