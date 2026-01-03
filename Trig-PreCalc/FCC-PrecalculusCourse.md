@@ -1747,3 +1747,4 @@ To convert parametric equations into a single rectangular equation ($y$ in terms
 * **Circles:** $x = h + r\cos(t)$, $y = k + r\sin(t)$
 * **Ellipses:** $x = h + a\cos(t)$, $y = k + b\sin(t)$
 ## 2026-January-03 - Difference Quotient :
+https://www.youtube.com/watch?v=eI4an8aSsgw&t=5h13m25s
