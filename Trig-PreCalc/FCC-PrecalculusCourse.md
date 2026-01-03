@@ -1708,4 +1708,41 @@ Unlike rectangular coordinates, every point in the polar plane has infinitely ma
 * **$r = a \sin \theta$**: Circle passing through the pole, centered on the y-axis.
 ## 2025-January-3 - Parametric Equations :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=5h1m55s
+### Parametric Equations Summary
 
+Parametric equations define $x$ and $y$ as functions of a third variable, usually $t$, called the **parameter**. This allows us to describe the position of an object at a specific time and indicate the direction of motion (orientation).
+
+#### 1. The Equations
+A set of parametric equations is typically written as:
+* **$x = f(t)$**
+* **$y = g(t)$**
+
+The set of points $(x, y)$ generated as $t$ varies is called a **plane curve**.
+
+#### 2. Key Features
+* **Parameter ($t$):** Often represents time, but can represent an angle or any independent variable.
+* **Orientation:** The direction in which the curve is traced as $t$ increases. This is usually indicated by arrows on the graph.
+* **Initial/Terminal Points:** If the parameter is restricted to an interval $[a, b]$, the curve has a definite starting point at $t = a$ and ending point at $t = b$.
+
+#### 3. Eliminating the Parameter
+To convert parametric equations into a single rectangular equation ($y$ in terms of $x$):
+1. **Solve** one equation (usually the $x$ equation) for $t$.
+2. **Substitute** that expression for $t$ into the other equation.
+3. **Simplify** and define any restrictions on the domain.
+
+> [!TIP] 
+> **Trigonometric Substitution:** If $x$ and $y$ involve $\sin(t)$ and $\cos(t)$, use the Pythagorean Identity $\sin^2(t) + \cos^2(t) = 1$ to eliminate the parameter.
+> * Example: If $x = \cos(t)$ and $y = \sin(t)$, then $x^2 + y^2 = 1$ (a circle).
+
+#### 4. Summary Table for Obsidian
+
+| Feature | Rectangular $(x, y)$ | Parametric $(x(t), y(t))$ |
+| :--- | :--- | :--- |
+| **Variables** | 2 ($x$ and $y$) | 3 ($x, y,$ and $t$) |
+| **Motion** | Static path | Dynamic path (with speed/direction) |
+| **Vertical Line Test** | Must pass to be a function | Can fail (can describe circles/loops) |
+
+#### 5. Common Parametric Forms
+* **Lines:** $x = x_0 + at$, $y = y_0 + bt$
+* **Circles:** $x = h + r\cos(t)$, $y = k + r\sin(t)$
+* **Ellipses:** $x = h + a\cos(t)$, $y = k + b\sin(t)$
