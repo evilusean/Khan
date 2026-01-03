@@ -1706,4 +1706,4 @@ Unlike rectangular coordinates, every point in the polar plane has infinitely ma
 * **$\theta = a$**: Line passing through the pole.
 * **$r = a \cos \theta$**: Circle passing through the pole, centered on the x-axis.
 * **$r = a \sin \theta$**: Circle passing through the pole, centered on the y-axis.
-
+## 2025-January-3 - Parametric Equations :
