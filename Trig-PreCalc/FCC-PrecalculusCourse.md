@@ -1748,3 +1748,44 @@ To convert parametric equations into a single rectangular equation ($y$ in terms
 * **Ellipses:** $x = h + a\cos(t)$, $y = k + b\sin(t)$
 ## 2026-January-03 - Difference Quotient :
 https://www.youtube.com/watch?v=eI4an8aSsgw&t=5h13m25s
+### Difference Quotient
+
+The **Difference Quotient** is a formula used to calculate the average rate of change between two points on a curve. In PreCalculus, it serves as the foundation for the definition of the **derivative** in Calculus.
+
+#### 1. The Formula
+For a function $f(x)$, the difference quotient is given by:
+
+$$\frac{f(x + h) - f(x)}{h}$$
+
+where:
+* $x$ represents the starting input.
+* $h$ represents a small change in $x$ (the horizontal distance between two points).
+* $f(x + h) - f(x)$ represents the change in the output ($y$-values).
+
+#### 2. Geometric Interpretation
+The difference quotient represents the **slope of the secant line** passing through the points $(x, f(x))$ and $(x + h, f(x + h))$. 
+* As $h$ gets smaller and approaches zero, the secant line becomes a **tangent line**, representing the instantaneous rate of change.
+
+#### 3. Algebraic Steps to Solve
+Solving a difference quotient problem typically involves three main steps:
+
+1.  **Find $f(x + h)$:** Substitute $(x + h)$ into every instance of $x$ in the original function.
+2.  **Subtract $f(x)$:** Subtract the original function from your result in step 1. This is the numerator: $f(x+h) - f(x)$.
+3.  **Divide by $h$:** Simplify the expression so that the $h$ in the denominator is eventually cancelled out.
+
+#### 4. Example: $f(x) = x^2 + 3$
+* **Step 1:** $f(x + h) = (x + h)^2 + 3 = x^2 + 2xh + h^2 + 3$
+* **Step 2:** $f(x + h) - f(x) = (x^2 + 2xh + h^2 + 3) - (x^2 + 3) = 2xh + h^2$
+* **Step 3:** $\frac{2xh + h^2}{h} = \frac{h(2x + h)}{h} = 2x + h$
+
+#### 5. Summary Table for Obsidian
+
+| Term | Concept |
+| :--- | :--- |
+| **Numerator** | The change in $y$ ($\Delta y$) |
+| **Denominator** | The change in $x$ ($h$) |
+| **Result** | The slope of the secant line |
+| **Goal** | Simplify until the $h$ in the denominator cancels |
+
+> [!WARNING]
+> **Common Error:** Forgetting to distribute negative signs when subtracting $f(x)$, or failing to use parentheses when substituting $(x+h)$.
