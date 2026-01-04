@@ -24,3 +24,4 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY
 - **Straight Angle** : 180 degrees
 - **Complementary Angle** : When the sum of the measures of 2 angles is 90 degrees, they are *complementary*
 - **Supplementary Angle** : When the sum of the measures of 2 angles is 180 degrees, they are *supplementary*
+## 2026-January-04 - Degrees, Minutes, and Seconds :
