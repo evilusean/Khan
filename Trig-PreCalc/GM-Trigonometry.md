@@ -26,3 +26,9 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY
 - **Supplementary Angle** : When the sum of the measures of 2 angles is 180 degrees, they are *supplementary*
 ## 2026-January-04 - Degrees, Minutes, and Seconds :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=12m10s
+- $1\degree$ = $\frac{1}{360}$ : 360 degrees in a circle 
+- What happens when you need to measure a rotation that is less than a degree? *Minutes*, and *seconds* are portions/fractions of a degree.
+- $125^\circ 30' 45''$ : Standard Notation for *Degrees $\degree$*, *Minutes $'$*, *Seconds $''$* 
+- $60'$ = $\frac{1\degree}{60}$ : $60'$ minutes in one degree ($1\degree$)
+- $60''$ = $\frac{1'}{60}$ : $60''$ seconds in one minute($1'$)
+- $1'' = \frac{1'}{60} = \frac{1\degree}{3600}$ : 1 second is 1/3600th (60 * 60) of a degree
