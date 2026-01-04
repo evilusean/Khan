@@ -28,6 +28,9 @@ https://www.youtube.com/watch?v=Jsiy4TxgIME
 Professor Leonard - In Depth PreCalculus / College Algebra / Trig (5 hour FCC video I just finished didn't do anything for me, need to redo precalc after trig) :
 https://www.youtube.com/playlist?list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
 
+Academic Lesson - # Trigonometry full course for Beginners (10 hours, 2020) :
+https://www.youtube.com/watch?v=5zi5eG5Ui-Y
+
 Where do Sin, Cos and Tan Actually Come From - Origins of Trigonometry - Part 1 :
 https://www.youtube.com/watch?v=uMfnJ6TJinc
 
