@@ -40,3 +40,40 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=12m10s
 - To convert from degrees minutes seconds to a fractional degree, simply divide the *seconds $'$* by '60' and the *minutes* by '3600' then add that to your degrees
 ## 2026-January-04 - Angles in Standard Position and Coterminal Angles :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=24m55s
+### Trigonometry: Angles in Standard Position & Coterminal Angles
+
+#### 1. Angles in Standard Position
+An angle is in **standard position** when its vertex is at the origin $(0,0)$ of the Cartesian plane and its **initial side** lies along the positive x-axis.
+
+* **Positive Angles:** Measured **counterclockwise** from the initial side.
+* **Negative Angles:** Measured **clockwise** from the initial side.
+* **Terminal Side:** The ray where the angle measurement ends.
+* **Quadrantal Angles:** Angles whose terminal sides lie exactly on an axis ($0^\circ, 90^\circ, 180^\circ, 270^\circ$, etc.).
+
+#### 2. Coterminal Angles
+Coterminal angles are angles in standard position that share the same **terminal side**. Although they look the same on a graph, they have different measures because they differ by one or more full rotations.
+
+**Finding Coterminal Angles:**
+To find an angle coterminal to a given angle $\theta$, add or subtract multiples of $360^\circ$ (for degrees) or $2\pi$ (for radians).
+
+* **Degrees:** $\theta \pm 360^\circ n$
+* **Radians:** $\theta \pm 2\pi n$
+*(where $n$ is any integer)*
+
+#### 3. Summary Table for Obsidian
+
+| Term | Definition | Formula / Note |
+| :--- | :--- | :--- |
+| **Initial Side** | Starting ray of the angle | Always the positive x-axis. |
+| **Terminal Side** | Ending ray of the angle | Determines the quadrant. |
+| **Positive Angle** | Counterclockwise rotation | Example: $+120^\circ$ |
+| **Negative Angle** | Clockwise rotation | Example: $-45^\circ$ |
+| **Coterminal** | Different measures, same terminal side | Add/Subtract $360^\circ$ or $2\pi$. |
+
+#### 4. Practice Examples
+* **Find a positive coterminal angle for $45^\circ$:**
+    $45^\circ + 360^\circ = 405^\circ$
+* **Find a negative coterminal angle for $45^\circ$:**
+    $45^\circ - 360^\circ = -315^\circ$
+* **Find the smallest positive coterminal angle for $\frac{13\pi}{4}$:**
+    $\frac{13\pi}{4} - 2\pi = \frac{13\pi}{4} - \frac{8\pi}{4} = \frac{5\pi}{4}$
