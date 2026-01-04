@@ -19,4 +19,8 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY
 - **Degree** : $\degree$ : 360 Degrees to one complete rotation of a ray
 - $\theta$ : Greek Letter Theta represents an unknown angle
 - **Acute Angle** : Where the measure of the angle is less than 90 degrees, but greater than 0
-- 
+- **Right Angle** : Exactly 90 Degrees
+- **Obtuse Angle** : Greater than 90 degrees, less than 180 degrees
+- **Straight Angle** : 180 degrees
+- **Complementary Angle** : When the sum of the measures of 2 angles is 90 degrees, they are *complementary*
+- **Supplementary Angle** : When the sum of the measures of 2 angles is 180 degrees, they are *supplementary*
