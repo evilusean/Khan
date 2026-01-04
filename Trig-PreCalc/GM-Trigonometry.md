@@ -38,3 +38,4 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=12m10s
 - $114.09\degree$ = $114\degree 5' 24''$ : How to go from Decimal form to degrees, minutes and seconds. simply multiply the fractional degree (in this case, '0.09' = 5.4) by 60, then take whatever fractional part is remaining('0.4' * 60 = 24) and multiply that by 60 again for the seconds 
 - If you have a TI 83 / 84 : type the number(fractional degrees)  into the calculator look for the **Angle** button, then press **DMS** button and it will convert it for you
 - To convert from degrees minutes seconds to a fractional degree, simply divide the *seconds $'$* by '60' and the *minutes* by '3600' then add that to your degrees
+## 2026-January-04 - Angles in Standard Position and Coterminal Angles :
