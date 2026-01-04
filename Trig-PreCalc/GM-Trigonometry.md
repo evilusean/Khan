@@ -25,3 +25,4 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY
 - **Complementary Angle** : When the sum of the measures of 2 angles is 90 degrees, they are *complementary*
 - **Supplementary Angle** : When the sum of the measures of 2 angles is 180 degrees, they are *supplementary*
 ## 2026-January-04 - Degrees, Minutes, and Seconds :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=12m10s
