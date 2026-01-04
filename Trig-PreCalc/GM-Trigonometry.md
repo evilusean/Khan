@@ -32,3 +32,9 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=12m10s
 - $60'$ = $\frac{1\degree}{60}$ : $60'$ minutes in one degree ($1\degree$)
 - $60''$ = $\frac{1'}{60}$ : $60''$ seconds in one minute($1'$)
 - $1'' = \frac{1'}{60} = \frac{1\degree}{3600}$ : 1 second is 1/3600th (60 * 60) of a degree
+- $37^\circ 15' 45''$ + $19^\circ 50' 17''$  = $57^\circ 6' 2''$ : Once you understand it, you just need to know the carrying process (every 60 seconds is a minute, every 60 minutes is a degree)
+- $14^\circ 18' 30''$ - $9^\circ 25' 50''$ = $4\degree 52' 40''$ 
+- To find the complement(what adds up to 90 degrees), just borrow from the degrees for the minutes, and borrow from those new minutes for the seconds
+- $114.09\degree$ = $114\degree 5' 24''$ : How to go from Decimal form to degrees, minutes and seconds. simply multiply the fractional degree (in this case, '0.09' = 5.4) by 60, then take whatever fractional part is remaining('0.4' * 60 = 24) and multiply that by 60 again for the seconds 
+- If you have a TI 83 / 84 : type the number(fractional degrees)  into the calculator look for the **Angle** button, then press **DMS** button and it will convert it for you
+- To convert from degrees minutes seconds to a fractional degree, simply divide the *seconds $'$* by '60' and the *minutes* by '3600' then add that to your degrees
