@@ -41,4 +41,5 @@
 * **Even/Odd Property:** * $\cos(-\theta) = \cos(\theta)$ [Even] * $\sin(-\theta) = -\sin(\theta)$ [Odd] * $\tan(-\theta) = -\tan(\theta)$ [Odd] 
 * **Pythagorean Identity:** * $\cos^2(\theta) + \sin^2(\theta) = 1$
 
-- 
+- Converting from a fractional degree $141.09 \degree$ to degrees, minutes, seconds
+- Converting from degrees minutes seconds to fractional degree
