@@ -39,3 +39,4 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=12m10s
 - If you have a TI 83 / 84 : type the number(fractional degrees)  into the calculator look for the **Angle** button, then press **DMS** button and it will convert it for you
 - To convert from degrees minutes seconds to a fractional degree, simply divide the *seconds $'$* by '60' and the *minutes* by '3600' then add that to your degrees
 ## 2026-January-04 - Angles in Standard Position and Coterminal Angles :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=24m55s
