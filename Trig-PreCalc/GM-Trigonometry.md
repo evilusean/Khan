@@ -117,7 +117,7 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=34m30s
   2: 10(12) - 56 : $64\degree$ 
   3 : $43\degree$ 
   Check : $73\degree + 64\degree + 43\degree = 180\degree$ 
-## Similar Triangles :
+### Similar Triangles :
 ![[Pasted image 20260105145810.png]]
 - Similar Triangles Must have the same measure of angles 
 - corresponding angles must have same measures
@@ -126,7 +126,7 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=34m30s
   F and C = $144\degree$ 
   All triangles add up to 180 degrees :
   B and E = $180\degree - 144\degree - 18\degree = 18\degree$
-## Similar Triangles, Missing Side Lengths :
+### Similar Triangles, Missing Side Lengths :
 ![[Pasted image 20260105150638.png]]
 - Since the length of side BA and ED are the same angles, and the length is 15 on BA and 30 on ED (doubled) the similar triangles are just double the size for triangle EDF, so just double the size of the sides :
   $\triangle ABC$ ~  $\triangle DEF$ : Triangle ABC is similar(~) to Triangle DEF
