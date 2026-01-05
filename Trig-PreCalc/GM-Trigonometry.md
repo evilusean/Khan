@@ -77,3 +77,4 @@ To find an angle coterminal to a given angle $\theta$, add or subtract multiples
     $45^\circ - 360^\circ = -315^\circ$
 * **Find the smallest positive coterminal angle for $\frac{13\pi}{4}$:**
     $\frac{13\pi}{4} - 2\pi = \frac{13\pi}{4} - \frac{8\pi}{4} = \frac{5\pi}{4}$
+## 2026-January-05 - Angles Relationship and Similar Triangles :
