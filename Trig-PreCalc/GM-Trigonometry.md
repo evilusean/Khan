@@ -135,3 +135,4 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=34m30s
   BC = 30.5 :   EF = 61
 - For similar triangles : Corresponding Sides must be equal, and corresponding sides must be *proportional*
 ## 2026-January-05 - Trigonometric Functions :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=52m25s
