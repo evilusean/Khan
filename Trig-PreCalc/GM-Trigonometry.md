@@ -173,3 +173,31 @@ Using the distance formula simplified for the origin:
 | **Cosecant**  | $r/y$   | $-\sqrt{2}$           |
 | **Secant**    | $r/x$   | $\sqrt{2}$            |
 | **Cotangent** | $x/y$   | $-1$                  |
+### Trigonometric Values for the Point $(3, 3)$
+
+For the point $(x, y) = (3, 3)$, both coordinates are positive, placing the terminal side in **Quadrant I**.
+
+#### Calculating the Radius ($r$)
+* $r = \sqrt{x^2 + y^2}$
+* $r = \sqrt{3^2 + 3^2}$
+* $r = \sqrt{9 + 9}$
+* $r = \sqrt{18}$
+* $r = 3\sqrt{2}$
+
+#### The Six Trigonometric Functions
+* $\sin \theta = y/r = 3/(3\sqrt{2}) = 1/\sqrt{2} = \sqrt{2}/2$
+* $\cos \theta = x/r = 3/(3\sqrt{2}) = 1/\sqrt{2} = \sqrt{2}/2$
+* $\tan \theta = y/x = 3/3 = 1$
+* $\csc \theta = r/y = (3\sqrt{2})/3 = \sqrt{2}$
+* $\sec \theta = r/x = (3\sqrt{2})/3 = \sqrt{2}$
+* $\cot \theta = x/y = 3/3 = 1$
+
+#### Summary Table
+| Function | Ratio | Simplified Value |
+| :--- | :--- | :--- |
+| **$\sin \theta$** | $y/r$ | $\frac{\sqrt{2}}{2}$ |
+| **$\cos \theta$** | $x/r$ | $\frac{\sqrt{2}}{2}$ |
+| **$\tan \theta$** | $y/x$ | $1$ |
+| **$\csc \theta$** | $r/y$ | $\sqrt{2}$ |
+| **$\sec \theta$** | $r/x$ | $\sqrt{2}$ |
+| **$\cot \theta$** | $x/y$ | $1$ |
