@@ -79,3 +79,14 @@ To find an angle coterminal to a given angle $\theta$, add or subtract multiples
     $\frac{13\pi}{4} - 2\pi = \frac{13\pi}{4} - \frac{8\pi}{4} = \frac{5\pi}{4}$
 ## 2026-January-05 - Angles Relationship and Similar Triangles :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=34m30s
+## Vertical Angles :
+- **Vertical Angles** : Angles that are opposite eachother where the 2 lines cross - The opposite side angles will be the same equal measures
+![[Pasted image 20260105142242.png]]
+- 1 and 3 are opposites and will be the same
+- 2 and 4 are opposites and will be the same
+- 1 and 2 are supplementary angles and will add up to 180 degrees
+- 3 and 4 are supplementary as well and will also add up to 180 degrees
+### Transverse on 2 parallel Lines : 
+![[Pasted image 20260105142125.png]]
+- **Interior Angles** Are the angles on the interior of the parallel lines
+- 3 and 6 will be the same angle measurements
