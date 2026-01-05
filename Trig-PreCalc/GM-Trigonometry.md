@@ -136,3 +136,11 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=34m30s
 - For similar triangles : Corresponding Sides must be equal, and corresponding sides must be *proportional*
 ## 2026-January-05 - Trigonometric Functions :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=52m25s
+- d = $\sqrt{(x_2 - x_1)^2+(y_2 - y_1)^2}$ : distance formula
+- r = $\sqrt{x^2 + y^2}$ : if you use the origin point (0,0) for $(x_1, y_1)$ you can simplifiy the equation
+- sin $\theta$ = $y/r$ 
+- cos $\theta$ = $x/r$ 
+- tan $\theta$ = $y/x$,  ($x\ne0$ )
+- csc $\theta$ = $r/y$,  ($y\ne0$ )
+- sec $\theta$ = $r/x$ ,  ($x\ne0$ )
+- cot $\theta$ = $x/y$ ,  ($y\ne0$ )
