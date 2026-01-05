@@ -44,6 +44,7 @@
 - Converting from a fractional degree $141.09 \degree$ to degrees, minutes, seconds
 - Converting from degrees minutes seconds to fractional degree
 
+### Trigonometric Functions :
 - Add Below To CheatSheet Formulas, and practice/review :
 - d = $\sqrt{(x_2 - x_1)^2+(y_2 - y_1)^2}$ : distance formula
   - r = $\sqrt{x^2 + y^2}$ : if you use the origin point (0,0) for $(x_1, y_1)$ you can simplifiy the equation
