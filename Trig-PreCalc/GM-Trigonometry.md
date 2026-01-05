@@ -144,3 +144,32 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=52m25s
 - csc $\theta$ = $r/y$,  ($y\ne0$ )
 - sec $\theta$ = $r/x$ ,  ($x\ne0$ )
 - cot $\theta$ = $x/y$ ,  ($y\ne0$ )
+### Trigonometric Values for the Point $(9, -9)$
+
+To find the six trigonometric functions for the point $(x, y) = (9, -9)$, we first determine the distance from the origin $r$.
+
+#### Calculating the Radius ($r$)
+Using the distance formula simplified for the origin:
+* $r = \sqrt{x^2 + y^2}$
+* $r = \sqrt{9^2 + (-9)^2}$
+* $r = \sqrt{81 + 81}$
+* $r = \sqrt{162}$
+* $r = 9\sqrt{2}$
+
+#### The Six Trigonometric Functions
+* $\sin \theta = \frac{y}{r} = \frac{-9}{9\sqrt{2}} = -\frac{1}{\sqrt{2}} = -\frac{\sqrt{2}}{2}$
+* $\cos \theta = \frac{x}{r} = \frac{9}{9\sqrt{2}} = \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2}$
+* $\tan \theta = \frac{y}{x} = \frac{-9}{9} = -1$
+* $\csc \theta = \frac{r}{y} = \frac{9\sqrt{2}}{-9} = -\sqrt{2}$
+* $\sec \theta = \frac{r}{x} = \frac{9\sqrt{2}}{9} = \sqrt{2}$
+* $\cot \theta = \frac{x}{y} = \frac{9}{-9} = -1$
+
+#### Summary Table
+| Function      | Formula | Simplified Value      |
+| :------------ | :------ | :-------------------- |
+| **Sine**      | $y/r$   | $-\frac{\sqrt{2}}{2}$ |
+| **Cosine**    | $x/r$   | $\frac{\sqrt{2}}{2}$  |
+| **Tangent**   | $y/x$   | $-1$                  |
+| **Cosecant**  | $r/y$   | $-\sqrt{2}$           |
+| **Secant**    | $r/x$   | $\sqrt{2}$            |
+| **Cotangent** | $x/y$   | $-1$                  |
