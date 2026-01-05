@@ -126,4 +126,12 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=34m30s
   F and C = $144\degree$ 
   All triangles add up to 180 degrees :
   B and E = $180\degree - 144\degree - 18\degree = 18\degree$
+## Similar Triangles, Missing Side Lengths :
+![[Pasted image 20260105150638.png]]
+- Since the length of side BA and ED are the same angles, and the length is 15 on BA and 30 on ED (doubled) the similar triangles are just double the size for triangle EDF, so just double the size of the sides :
+  $\triangle ABC$ ~  $\triangle DEF$ : Triangle ABC is similar(~) to Triangle DEF
+  BA = 15 :   ED = 30
+  AC = 24 :   DF = 48
+  BC = 30.5 :   EF = 61
+- For similar triangles : Corresponding Sides must be equal, and corresponding sides must be *proportional*
 - 
