@@ -43,3 +43,13 @@
 
 - Converting from a fractional degree $141.09 \degree$ to degrees, minutes, seconds
 - Converting from degrees minutes seconds to fractional degree
+
+- Add Below To CheatSheet Formulas, and practice/review :
+- d = $\sqrt{(x_2 - x_1)^2+(y_2 - y_1)^2}$ : distance formula
+  - r = $\sqrt{x^2 + y^2}$ : if you use the origin point (0,0) for $(x_1, y_1)$ you can simplifiy the equation
+- sin $\theta$ = $y/r$ 
+- cos $\theta$ = $x/r$ 
+- tan $\theta$ = $y/x$,  ($x\ne0$ )
+- csc $\theta$ = $r/y$,  ($y\ne0$ )
+- sec $\theta$ = $r/x$ ,  ($x\ne0$ )
+- cot $\theta$ = $x/y$ ,  ($y\ne0$ )
