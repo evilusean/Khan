@@ -86,7 +86,25 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=34m30s
 - 2 and 4 are opposites and will be the same
 - 1 and 2 are supplementary angles and will add up to 180 degrees
 - 3 and 4 are supplementary as well and will also add up to 180 degrees
-### Transverse on 2 parallel Lines : 
+### Transversal intersects 2 parallel Lines : 
 ![[Pasted image 20260105142125.png]]
 - **Interior Angles** Are the angles on the interior of the parallel lines
-- 3 and 6 will be the same angle measurements
+- **Alternate Interior Angles** : are angles that will have equal measures (3 and 6, 5 and 4)
+- 3 and 6 will be the equal angle measurements
+- 4 and 5 will be the equal angle measurements
+- **Exterior Angles** : Are the angles outside the interior parallel lines
+- **Alternate Exterior Angles** : Alternate Exterior Angles will have exterior measures (1 and 8, 2 and 7)
+- 2 and 7 will be the equal angle measurements
+- 1 and 8 will be the equal angle measurements
+- Since 7 and 8 are supplementary angles(add up to 180), and 2 = 7 : 
+  7 :$(11x-53)\degree$
+  8 : $(4x+8)\degree$ 
+  7+ 8 : $11x -53 +4x + 8 = 180\degree$
+  15x - 45 = 180
+  15x = 225
+  x = 15 
+  Plug x into the angles to get their measurement 
+  2 and 7 :  $(11x-53)\degree$ : 11(15) - 53 : 165 - 53 : $112\degree$
+  1 and 8 :  $(4x+8)\degree$ : 4(15) + 8 : $68\degree$ 
+- Vertical Angles have the same measurement, so : 7, 6, 2, 3 = $112\degree$ 
+- Vertical Angles have the same measurement, so 1, 4, 5 , 8 = $68\degree$ 
