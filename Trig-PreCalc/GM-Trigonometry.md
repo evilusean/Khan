@@ -108,3 +108,13 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=34m30s
   1 and 8 :  $(4x+8)\degree$ : 4(15) + 8 : $68\degree$ 
 - Vertical Angles have the same measurement, so : 7, 6, 2, 3 = $112\degree$ 
 - Vertical Angles have the same measurement, so 1, 4, 5 , 8 = $68\degree$ 
+### Triangle Sum 180
+![[Pasted image 20260105144919.png]]
+- The sum of the measure of any triangle will always be 180 degrees
+- 6x + 1 + 10x - 56 + 43 = 180 : 16x -12 = 180 : 16x  = 192 : x = 12
+- Plug 12 into x for the other 2 angles :
+  1: 6(12) + 1 : $73\degree$ 
+  2: 10(12) - 56 : $64\degree$ 
+  3 : $43\degree$ 
+  Check : $73\degree + 64\degree + 43\degree = 180\degree$ 
+- 
