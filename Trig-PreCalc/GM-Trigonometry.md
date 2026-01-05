@@ -117,4 +117,13 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=34m30s
   2: 10(12) - 56 : $64\degree$ 
   3 : $43\degree$ 
   Check : $73\degree + 64\degree + 43\degree = 180\degree$ 
+## Similar Triangles :
+![[Pasted image 20260105145810.png]]
+- Similar Triangles Must have the same measure of angles 
+- corresponding angles must have same measures
+- So A = D, F = C, E = B
+  A and  D = $18\degree$ 
+  F and C = $144\degree$ 
+  All triangles add up to 180 degrees :
+  B and E = $180\degree - 144\degree - 18\degree = 18\degree$
 - 
