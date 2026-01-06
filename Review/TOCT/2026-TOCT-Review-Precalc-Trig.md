@@ -74,3 +74,10 @@ Instead of memorizing six separate fractions, just memorize the first three and 
 - **Cosine $\leftrightarrow$ Secant:** Again, "c" goes with "s". $\cos \theta = x/r$ flips to $\sec \theta = r/x$.
     
 - **Tangent $\leftrightarrow$ Cotangent:** These are the easiest to pair by name. $\tan \theta = y/x$ flips to $\cot \theta = x/y$.
+### Practice : Why To use Trig Functions? Practical Use? 
+- You know **one angle** (besides the 90°) and **one side** → find everything else.
+- You know **two sides** → find all angles and the remaining side.
+In a **right triangle**, you always have one 90° angle. To determine the entire triangle (all sides and both acute angles), you need **any two** of the following three pieces:
+1. One acute angle + one side (any side)
+2. Two sides (any two of the three sides)
+Key rule: In a right triangle, any 2 pieces (excluding knowing just the right angle) are enough to find everything else.
