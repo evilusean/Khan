@@ -205,6 +205,13 @@ For the point $(x, y) = (3, 3)$, both coordinates are positive, placing the term
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h5m30s
 - **SOH-CAH-TOA** (Sine=Opposite(y) over Hypoteneuse(r), Cosine = Adjacent(x) over Hypoteneuse(r), Tangent = Opposite(y) over Adjacent(x))
 - **Recipricoals** : Sine+Cosecant(S with C) - Cosine+Secant(C with S) - Tangent+CoTangent (Tan with Tan)
+### Why To use Trig Functions? Practical Use? 
+- You know **one angle** (besides the 90°) and **one side** → find everything else.
+- You know **two sides** → find all angles and the remaining side.
+In a **right triangle**, you always have one 90° angle. To determine the entire triangle (all sides and both acute angles), you need **any two** of the following three pieces:
+1. One acute angle + one side (any side)
+2. Two sides (any two of the three sides)
+Key rule: In a right triangle, any 2 pieces (excluding knowing just the right angle) are enough to find everything else.
 ### Trig Functions with Reciprocals :
 - **sin θ** = y / r  → 
   **csc θ** = r / y (y ≠ 0)
