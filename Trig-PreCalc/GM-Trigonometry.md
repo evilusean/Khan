@@ -237,6 +237,36 @@ In addition to the reciprocal values, these functions can be expressed as ratios
 
 * $\tan \theta = \frac{\sin \theta}{\cos \theta}$
 * $\cot \theta = \frac{\cos \theta}{\sin \theta}$
+![[Pasted image 20260106151044.png]]
+### Signs of Trigonometric Functions by Quadrant
+
+The sign (positive or negative) of a trigonometric function is determined by the $x$ and $y$ coordinates of the point on the terminal side of the angle $\theta$.
+
+#### 1. Quadrant Sign Analysis
+The signs are derived from the coordinates in each quadrant, where $r$ (the radius) is always positive:
+* **Quadrant I:** $x > 0, y > 0$. All ratios are positive.
+* **Quadrant II:** $x < 0, y > 0$. Only $\sin \theta$ and $\csc \theta$ are positive.
+* **Quadrant III:** $x < 0, y < 0$. Only $\tan \theta$ and $\cot \theta$ are positive.
+* **Quadrant IV:** $x > 0, y < 0$. Only $\cos \theta$ and $\sec \theta$ are positive.
+
+#### 2. Trigonometric Sign Table
+| Quadrant | $\sin \theta$ | $\cos \theta$ | $\tan \theta$ | $\cot \theta$ | $\sec \theta$ | $\csc \theta$ |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **I** | $+$ | $+$ | $+$ | $+$ | $+$ | $+$ |
+| **II** | $+$ | $-$ | $-$ | $-$ | $-$ | $+$ |
+| **III** | $-$ | $-$ | $+$ | $+$ | $-$ | $-$ |
+| **IV** | $-$ | $+$ | $-$ | $-$ | $+$ | $-$ |
+
+#### 3. Definitions of the 6 Functions
+The signs in the table above are based on these fundamental ratios:
+* $\sin \theta = y/r$
+* $\cos \theta = x/r$
+* $\tan \theta = y/x, (x \neq 0)$
+* $\csc \theta = r/y, (y \neq 0)$
+* $\sec \theta = r/x, (x \neq 0)$
+* $\cot \theta = x/y, (y \neq 0)$
+
+
 ### Solving for Cosine using Reciprocal Identities
 
 Given the value of the secant function, we can find the cosine value using the reciprocal relationship between the two.
