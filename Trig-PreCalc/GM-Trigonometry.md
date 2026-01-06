@@ -202,3 +202,4 @@ For the point $(x, y) = (3, 3)$, both coordinates are positive, placing the term
 | **$\sec \theta$** | $r/x$ | $\sqrt{2}$ |
 | **$\cot \theta$** | $x/y$ | $1$ |
 ## Reciprocal Identities, Signs of Trigonometric Function Values, Finding Missing Function Values :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h5m30s
