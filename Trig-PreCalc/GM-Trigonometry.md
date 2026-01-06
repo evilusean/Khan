@@ -401,8 +401,6 @@ To determine the signs of the six trigonometric functions for a negative angle, 
 * **Coterminal Angle:** $-150^\circ + 360^\circ = 210^\circ$.
 * **Boundary:** Since $180^\circ < 210^\circ < 270^\circ$, the terminal side lies in **Quadrant III**.
 
-
-
 #### 2. Apply ASTC Mnemonic
 In **Quadrant III** ("Take"):
 * **Tangent ($\tan$)** and its reciprocal **Cotangent ($\cot$)** are **Positive (+)**.
@@ -410,11 +408,46 @@ In **Quadrant III** ("Take"):
 
 #### 3. Summary of Signs for $-150^\circ$
 
-| Function | Sign | Reasoning ($x < 0, y < 0, r > 0$) |
-| :--- | :---: | :--- |
-| $\sin(-150^\circ)$ | **$-$** | $y/r$ is Negative / Positive |
-| $\cos(-150^\circ)$ | **$-$** | $x/r$ is Negative / Positive |
-| $\tan(-150^\circ)$ | **$+$** | $y/x$ is Negative / Negative |
-| $\csc(-150^\circ)$ | **$-$** | $r/y$ is Positive / Negative |
-| $\sec(-150^\circ)$ | **$-$** | $r/x$ is Positive / Negative |
-| $\cot(-150^\circ)$ | **$+$** | $x/y$ is Negative / Negative |
+| Function           |  Sign   | Reasoning ($x < 0, y < 0, r > 0$) |
+| :----------------- | :-----: | :-------------------------------- |
+| $\sin(-150^\circ)$ | **$-$** | $y/r$ is Negative / Positive      |
+| $\cos(-150^\circ)$ | **$-$** | $x/r$ is Negative / Positive      |
+| $\tan(-150^\circ)$ | **$+$** | $y/x$ is Negative / Negative      |
+| $\csc(-150^\circ)$ | **$-$** | $r/y$ is Positive / Negative      |
+| $\sec(-150^\circ)$ | **$-$** | $r/x$ is Positive / Negative      |
+| $\cot(-150^\circ)$ | **$+$** | $x/y$ is Negative / Negative      |
+### Determining Trigonometric Components for $\sec \theta = 19/11$ and $\sin \theta < 0$
+
+#### 1. Identify the Quadrant
+To determine the quadrant, we analyze the signs of the given functions:
+* **Condition 1:** $\sec \theta = 19/11$ (Positive). Since $\sec \theta = r/x$, $x$ must be positive. This occurs in **Quadrants I and IV**.
+* **Condition 2:** $\sin \theta < 0$ (Negative). Since $\sin \theta = y/r$, $y$ must be negative. This occurs in **Quadrants III and IV**.
+
+**Result:** The terminal side is located in **Quadrant IV**.
+
+
+#### 2. Solve for $r$ and $x$
+Using the definition of the secant function from the provided image:
+* **Formula:** $\sec \theta = r/x$
+* **Given:** $\sec \theta = 19/11$
+* **Identification:** * $r = 19$
+    * $x = 11$
+
+#### 3. Solve for $y$
+Using the Pythagorean relationship $x^2 + y^2 = r^2$:
+* $11^2 + y^2 = 19^2$
+* $121 + y^2 = 361$
+* $y^2 = 361 - 121$
+* $y^2 = 240$
+* $y = \pm\sqrt{240} = \pm 4\sqrt{15}$
+
+**Final Value for $y$:** Because the angle is in **Quadrant IV**, $y$ must be negative:
+* **$y = -4\sqrt{15}$**
+
+#### Summary of Values
+| Component | Value |
+| :--- | :--- |
+| **$x$** | $11$ |
+| **$y$** | $-4\sqrt{15}$ |
+| **$r$** | $19$ |
+| **Quadrant** | **IV** |
