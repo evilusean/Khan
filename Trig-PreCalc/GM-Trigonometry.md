@@ -392,3 +392,29 @@ In **Quadrant II** ("Students"):
 | $\csc 110^\circ$ | **$+$** | $r/y$ (Positive / Positive) |
 | $\sec 110^\circ$ | **$-$** | $r/x$ (Positive / Negative) |
 | $\cot 110^\circ$ | **$-$** | $x/y$ (Negative / Positive) |
+### Determining Signs for $\theta = -150^\circ$
+
+To determine the signs of the six trigonometric functions for a negative angle, we first find its position on the coordinate plane or identify its positive coterminal equivalent.
+
+#### 1. Locate the Quadrant
+* **Rotation:** Starting from the positive x-axis, rotate **clockwise** $150^\circ$.
+* **Coterminal Angle:** $-150^\circ + 360^\circ = 210^\circ$.
+* **Boundary:** Since $180^\circ < 210^\circ < 270^\circ$, the terminal side lies in **Quadrant III**.
+
+
+
+#### 2. Apply ASTC Mnemonic
+In **Quadrant III** ("Take"):
+* **Tangent ($\tan$)** and its reciprocal **Cotangent ($\cot$)** are **Positive (+)**.
+* **All other functions** (Sine, Cosine, Cosecant, Secant) are **Negative (-)**.
+
+#### 3. Summary of Signs for $-150^\circ$
+
+| Function | Sign | Reasoning ($x < 0, y < 0, r > 0$) |
+| :--- | :---: | :--- |
+| $\sin(-150^\circ)$ | **$-$** | $y/r$ is Negative / Positive |
+| $\cos(-150^\circ)$ | **$-$** | $x/r$ is Negative / Positive |
+| $\tan(-150^\circ)$ | **$+$** | $y/x$ is Negative / Negative |
+| $\csc(-150^\circ)$ | **$-$** | $r/y$ is Positive / Negative |
+| $\sec(-150^\circ)$ | **$-$** | $r/x$ is Positive / Negative |
+| $\cot(-150^\circ)$ | **$+$** | $x/y$ is Negative / Negative |
