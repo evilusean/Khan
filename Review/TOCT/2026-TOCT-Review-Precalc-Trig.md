@@ -74,6 +74,34 @@ Instead of memorizing six separate fractions, just memorize the first three and 
 - **Cosine $\leftrightarrow$ Secant:** Again, "c" goes with "s". $\cos \theta = x/r$ flips to $\sec \theta = r/x$.
     
 - **Tangent $\leftrightarrow$ Cotangent:** These are the easiest to pair by name. $\tan \theta = y/x$ flips to $\cot \theta = x/y$.
+### Signs of Trigonometric Functions by Quadrant
+
+The sign (positive or negative) of a trigonometric function is determined by the $x$ and $y$ coordinates of the point on the terminal side of the angle $\theta$. 
+
+* **$x$ is positive** in Quadrants I and IV.
+* **$y$ is positive** in Quadrants I and II.
+* **$r$ (radius)** is always positive.
+#### 1. Quadrant Sign Analysis
+The signs are derived from the coordinates in each quadrant, where $r$ (the radius) is always positive:
+* **Quadrant I:** $x > 0, y > 0$. All ratios are positive.
+* **Quadrant II:** $x < 0, y > 0$. Only $\sin \theta$ and $\csc \theta$ are positive.
+* **Quadrant III:** $x < 0, y < 0$. Only $\tan \theta$ and $\cot \theta$ are positive.
+* **Quadrant IV:** $x > 0, y < 0$. Only $\cos \theta$ and $\sec \theta$ are positive.
+
+#### 2. Trigonometric Sign Table
+| Quadrant | $\sin \theta$ | $\cos \theta$ | $\tan \theta$ | $\cot \theta$ | $\sec \theta$ | $\csc \theta$ |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **I** | $+$ | $+$ | $+$ | $+$ | $+$ | $+$ |
+| **II** | $+$ | $-$ | $-$ | $-$ | $-$ | $+$ |
+| **III** | $-$ | $-$ | $+$ | $+$ | $-$ | $-$ |
+| **IV** | $-$ | $+$ | $-$ | $-$ | $+$ | $-$ |
+#### 1. The "All Students Take Calculus" Mnemonic
+A common way to remember which functions are **positive** in each quadrant:
+* **A**ll (Quadrant I): **A**ll functions are positive.
+* **S**tudents (Quadrant II): **S**ine (and cosecant) are positive.
+* **T**ake (Quadrant III): **T**angent (and cotangent) are positive.
+* **C**alculus (Quadrant IV): **C**osine (and secant) are positive.
+
 ### Practice : Why To use Trig Functions? Practical Use? 
 - You know **one angle** (besides the 90°) and **one side** → find everything else.
 - You know **two sides** → find all angles and the remaining side.

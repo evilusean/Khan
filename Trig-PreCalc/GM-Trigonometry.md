@@ -237,9 +237,8 @@ In addition to the reciprocal values, these functions can be expressed as ratios
 
 * $\tan \theta = \frac{\sin \theta}{\cos \theta}$
 * $\cot \theta = \frac{\cos \theta}{\sin \theta}$
-![[Pasted image 20260106151044.png]]
 ### Signs of Trigonometric Functions by Quadrant
-
+![[Pasted image 20260106151753.png]]
 The sign (positive or negative) of a trigonometric function is determined by the $x$ and $y$ coordinates of the point on the terminal side of the angle $\theta$.
 
 #### 1. Quadrant Sign Analysis
