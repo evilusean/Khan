@@ -237,3 +237,28 @@ In addition to the reciprocal values, these functions can be expressed as ratios
 
 * $\tan \theta = \frac{\sin \theta}{\cos \theta}$
 * $\cot \theta = \frac{\cos \theta}{\sin \theta}$
+### Solving for Cosine using Reciprocal Identities
+
+Given the value of the secant function, we can find the cosine value using the reciprocal relationship between the two.
+
+#### Given
+* $\sec \theta = \frac{9}{2}$
+
+#### Formula
+Using the reciprocal identity:
+* $\cos \theta = \frac{1}{\sec \theta}$
+
+
+
+#### Solution
+1. Substitute the given value into the formula:
+   $$\cos \theta = \frac{1}{9/2}$$
+2. To divide by a fraction, multiply by its reciprocal:
+   $$\cos \theta = 1 \cdot \frac{2}{9}$$
+3. Result:
+   **$\cos \theta = \frac{2}{9}$**
+
+#### Quick Reference
+| Known Function              | Reciprocal                  | Method            |
+| :-------------------------- | :-------------------------- | :---------------- |
+| $\sec \theta = \frac{a}{b}$ | $\cos \theta = \frac{b}{a}$ | Flip the fraction |
