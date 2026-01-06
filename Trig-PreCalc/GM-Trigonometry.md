@@ -203,4 +203,12 @@ For the point $(x, y) = (3, 3)$, both coordinates are positive, placing the term
 | **$\cot \theta$** | $x/y$ | $1$ |
 ## Reciprocal Identities, Signs of Trigonometric Function Values, Finding Missing Function Values :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h5m30s
-- 
+- **SOH-CAH-TOA** (Sine=Opposite(y) over Hypoteneuse(r), Cosine = Adjacent(x) over Hypoteneuse(r), Tangent = Opposite(y) over Adjacent(x))
+- **Recipricoals** : Sine+Cosecant(S with C) - Cosine+Secant(C with S) - Tangent+CoTangent (Tan with Tan)
+### Trig Functions with Reciprocals :
+- **sin θ** = y / r  → 
+  **csc θ** = r / y (y ≠ 0)
+- **cos θ** = x / r → 
+  **sec θ** = r / x (x ≠ 0)
+- **tan θ** = y / x (x ≠ 0) → 
+  **cot θ** = x / y (y ≠ 0)
