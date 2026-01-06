@@ -265,7 +265,35 @@ The signs in the table above are based on these fundamental ratios:
 * $\csc \theta = r/y, (y \neq 0)$
 * $\sec \theta = r/x, (x \neq 0)$
 * $\cot \theta = x/y, (y \neq 0)$
+### Signs of Trigonometric Functions by Quadrant
 
+The sign (positive or negative) of a trigonometric function is determined by the $x$ and $y$ coordinates of the point on the terminal side of the angle $\theta$. 
+
+* **$x$ is positive** in Quadrants I and IV.
+* **$y$ is positive** in Quadrants I and II.
+* **$r$ (radius)** is always positive.
+
+#### 1. The "All Students Take Calculus" Mnemonic
+A common way to remember which functions are **positive** in each quadrant:
+* **A**ll (Quadrant I): **A**ll functions are positive.
+* **S**tudents (Quadrant II): **S**ine (and cosecant) are positive.
+* **T**ake (Quadrant III): **T**angent (and cotangent) are positive.
+* **C**alculus (Quadrant IV): **C**osine (and secant) are positive.
+
+#### 2. Quadrant Sign Table
+
+| Quadrant | $\sin$ / $\csc$ ($y$) | $\cos$ / $\sec$ ($x$) | $\tan$ / $\cot$ ($y/x$) |
+| :--- | :--- | :--- | :--- |
+| **I** ($0^\circ < \theta < 90^\circ$) | $+$ | $+$ | $+$ |
+| **II** ($90^\circ < \theta < 180^\circ$) | $+$ | $-$ | $-$ |
+| **III** ($180^\circ < \theta < 270^\circ$) | $-$ | $-$ | $+$ |
+| **IV** ($270^\circ < \theta < 360^\circ$) | $-$ | $+$ | $-$ |
+
+#### 3. Detailed Breakdown
+* **Quadrant I (All $+$):** Both $x$ and $y$ are positive. Every ratio is positive.
+* **Quadrant II (Sine $+$):** $y$ is positive, but $x$ is negative. Since $\sin \theta = y/r$, it remains positive. $\cos \theta$ and $\tan \theta$ involve $x$, so they are negative.
+* **Quadrant III (Tangent $+$):** Both $x$ and $y$ are negative. $\sin \theta$ and $\cos \theta$ are negative, but $\tan \theta = y/x$ becomes positive (negative divided by negative).
+* **Quadrant IV (Cosine $+$):** $x$ is positive, but $y$ is negative. Since $\cos \theta = x/r$, it remains positive. $\sin \theta$ and $\tan \theta$ involve $y$, so they are negative.
 
 ### Solving for Cosine using Reciprocal Identities
 
