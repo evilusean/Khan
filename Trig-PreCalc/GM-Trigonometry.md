@@ -205,6 +205,8 @@ For the point $(x, y) = (3, 3)$, both coordinates are positive, placing the term
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h5m30s
 - **SOH-CAH-TOA** (Sine=Opposite(y) over Hypoteneuse(r), Cosine = Adjacent(x) over Hypoteneuse(r), Tangent = Opposite(y) over Adjacent(x))
 - **Recipricoals** : Sine+Cosecant(S with C) - Cosine+Secant(C with S) - Tangent+CoTangent (Tan with Tan)
+- If you know one(like sine), you automatically know the other(its reciprocal, Cosecant) by simply flipping the fraction.
+- 
 ### Why To use Trig Functions? Practical Use? 
 - You know **one angle** (besides the 90°) and **one side** → find everything else.
 - You know **two sides** → find all angles and the remaining side.
@@ -219,3 +221,19 @@ Key rule: In a right triangle, any 2 pieces (excluding knowing just the right an
   **sec θ** = r / x (x ≠ 0)
 - **tan θ** = y / x (x ≠ 0) → 
   **cot θ** = x / y (y ≠ 0)
+### Reciprocal Identities
+
+These identities define the relationship between the primary trigonometric functions and their reciprocal counterparts.
+
+* $\sin \theta = \frac{1}{\csc \theta}$
+* $\cos \theta = \frac{1}{\sec \theta}$
+* $\tan \theta = \frac{1}{\cot \theta}$
+* $\csc \theta = \frac{1}{\sin \theta}$
+* $\sec \theta = \frac{1}{\cos \theta}$
+* $\cot \theta = \frac{1}{\tan \theta}$
+
+#### Quotient Identities
+In addition to the reciprocal values, these functions can be expressed as ratios of sine and cosine:
+
+* $\tan \theta = \frac{\sin \theta}{\cos \theta}$
+* $\cot \theta = \frac{\cos \theta}{\sin \theta}$
