@@ -262,3 +262,30 @@ Using the reciprocal identity:
 | Known Function              | Reciprocal                  | Method            |
 | :-------------------------- | :-------------------------- | :---------------- |
 | $\sec \theta = \frac{a}{b}$ | $\cos \theta = \frac{b}{a}$ | Flip the fraction |
+### Solving for Cosecant using Reciprocal Identities
+
+Given the value of the sine function, we can find the cosecant value using their reciprocal relationship.
+
+#### Given
+* $\sin \theta = \frac{-\sqrt{6}}{3}$
+
+#### Formula
+Using the reciprocal identity:
+* $\csc \theta = \frac{1}{\sin \theta}$
+
+#### Solution
+1. **Substitute the given value:**
+   $$\csc \theta = \frac{1}{\frac{-\sqrt{6}}{3}}$$
+
+2. **Multiply by the reciprocal:**
+   $$\csc \theta = -\frac{3}{\sqrt{6}}$$
+
+3. **Rationalize the denominator:**
+   $$\csc \theta = -\frac{3 \cdot \sqrt{6}}{\sqrt{6} \cdot \sqrt{6}} = -\frac{3\sqrt{6}}{6}$$
+
+4. **Simplify the fraction:**
+   **$\csc \theta = -\frac{\sqrt{6}}{2}$**
+
+#### Quick Summary
+* **$\sin \theta = \frac{-\sqrt{6}}{3}$**
+* **$\csc \theta = -\frac{\sqrt{6}}{2}$**
