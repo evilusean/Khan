@@ -370,3 +370,25 @@ To satisfy both conditions simultaneously, we look for the quadrant common to bo
 | $\cos \theta > 0$                         | I, IV              |
 | $\sin \theta < 0$ (same as $\csc \theta$) | III, IV            |
 | **Intersection**                          | **Quadrant IV**    |
+### Determining Signs for $\theta = 110^\circ$
+
+To determine the signs of the six trigonometric functions for $110^\circ$, we first locate which quadrant the angle falls into and then apply the **ASTC (All Students Take Calculus)** rule.
+
+#### 1. Locate the Quadrant
+* **Angle:** $110^\circ$
+* **Boundary:** Since $90^\circ < 110^\circ < 180^\circ$, the terminal side of the angle lies in **Quadrant II**.
+#### 2. Apply ASTC Mnemonic
+In **Quadrant II** ("Students"):
+* **Sine ($\sin$)** and its reciprocal **Cosecant ($\csc$)** are **Positive (+)**.
+* **All other functions** are **Negative (-)**.
+
+#### 3. Summary of Signs for $110^\circ$
+
+| Function | Sign | Reasoning ($x < 0, y > 0, r > 0$) |
+| :--- | :---: | :--- |
+| $\sin 110^\circ$ | **$+$** | $y/r$ (Positive / Positive) |
+| $\cos 110^\circ$ | **$-$** | $x/r$ (Negative / Positive) |
+| $\tan 110^\circ$ | **$-$** | $y/x$ (Positive / Negative) |
+| $\csc 110^\circ$ | **$+$** | $r/y$ (Positive / Positive) |
+| $\sec 110^\circ$ | **$-$** | $r/x$ (Positive / Negative) |
+| $\cot 110^\circ$ | **$-$** | $x/y$ (Negative / Positive) |
