@@ -54,3 +54,23 @@
 - csc $\theta$ = $r/y$,  ($y\ne0$ )
 - sec $\theta$ = $r/x$ ,  ($x\ne0$ )
 - cot $\theta$ = $x/y$ ,  ($y\ne0$ )
+The easiest way to remember the six functions is to visualize a right triangle where the hypotenuse is $r$, the vertical side is $y$, and the horizontal side is $x$.
+
+- **The Big Three (SOH CAH TOA):**
+    
+    - **Sine (SOH):** **S**in = **O**pposite ($y$) / **H**ypotenuse ($r$) $\rightarrow y/r$
+        
+    - **Cosine (CAH):** **C**os = **A**djacent ($x$) / **H**ypotenuse ($r$) $\rightarrow x/r$
+        
+    - **Tangent (TOA):** **T**an = **O**pposite ($y$) / **A**djacent ($x$) $\rightarrow y/x$
+        
+
+#### Reciprocal Relationships
+
+Instead of memorizing six separate fractions, just memorize the first three and their "partners." Every function has a reciprocal (flipped) version:
+
+- **Sine $\leftrightarrow$ Cosecant:** Notice that "s" goes with "c". $\sin \theta = y/r$ flips to $\csc \theta = r/y$.
+    
+- **Cosine $\leftrightarrow$ Secant:** Again, "c" goes with "s". $\cos \theta = x/r$ flips to $\sec \theta = r/x$.
+    
+- **Tangent $\leftrightarrow$ Cotangent:** These are the easiest to pair by name. $\tan \theta = y/x$ flips to $\cot \theta = x/y$.
