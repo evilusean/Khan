@@ -346,3 +346,27 @@ Using the reciprocal identity:
 #### Quick Summary
 * **$\sin \theta = \frac{-\sqrt{6}}{3}$**
 * **$\csc \theta = -\frac{\sqrt{6}}{2}$**
+### Determining Quadrants using ASTC
+
+To find the quadrant where $\cos \theta > 0$ and $\csc \theta < 0$, we analyze the signs of the trigonometric functions based on the **All Students Take Calculus** mnemonic.
+
+#### 1. Analyze the Given Conditions
+* **Condition 1: $\cos \theta > 0$ (Positive)**
+    * According to **ASTC**, Cosine is positive in **Quadrant I** (All) and **Quadrant IV** (Calculus).
+* **Condition 2: $\csc \theta < 0$ (Negative)**
+    * Since $\csc \theta$ is the reciprocal of $\sin \theta$, it has the same sign as sine. 
+    * Sine is positive in Quadrants I and II, so it is **negative** in **Quadrant III** and **Quadrant IV**.
+
+#### 2. Find the Overlap
+To satisfy both conditions simultaneously, we look for the quadrant common to both lists:
+* $\cos \theta$ is positive in: {I, **IV**}
+* $\csc \theta$ is negative in: {III, **IV**}
+
+**Result:** The angle $\theta$ must lie in **Quadrant IV**.
+
+#### 3. Quick Reference Summary
+| Function Sign                             | Possible Quadrants |
+| :---------------------------------------- | :----------------- |
+| $\cos \theta > 0$                         | I, IV              |
+| $\sin \theta < 0$ (same as $\csc \theta$) | III, IV            |
+| **Intersection**                          | **Quadrant IV**    |
