@@ -544,3 +544,38 @@ The cotangent identity is derived similarly or by using the reciprocal property 
 | :------------ | :-------------------------------- | :---------------------- |
 | **Tangent**   | $\frac{\sin \theta}{\cos \theta}$ | $\frac{1}{\cot \theta}$ |
 | **Cotangent** | $\frac{\cos \theta}{\sin \theta}$ | $\frac{1}{\tan \theta}$ |
+### Ranges of Trigonometric Function Values
+
+The **range** of a trigonometric function is the set of all possible output values ($y$-values). These ranges are determined by the relationships between $x, y,$ and $r$ (the radius) on the coordinate plane.
+
+#### 1. Range of Sine and Cosine
+For any point on a circle, the horizontal ($x$) and vertical ($y$) distances can never exceed the radius ($r$).
+* **Sine**: Since $\sin \theta = y/r$ and $|y| \leq r$, the value must stay between $-1$ and $1$.
+* **Cosine**: Since $\cos \theta = x/r$ and $|x| \leq r$, the value must stay between $-1$ and $1$.
+* **Range**: $[-1, 1]$
+* **Inequality**: $-1 \leq \sin \theta \leq 1$ and $-1 \leq \cos \theta \leq 1$
+
+#### 2. Range of Cosecant and Secant
+Since these are the reciprocals of sine and cosine, their values are always "outside" the $[-1, 1]$ interval. They can never be a proper fraction like $1/2$ or $-1/2$.
+* **Cosecant**: $\csc \theta = 1/\sin \theta$. If $\sin \theta$ is small, $\csc \theta$ is large.
+* **Secant**: $\sec \theta = 1/\cos \theta$. If $\cos \theta$ is small, $\sec \theta$ is large.
+* **Range**: $(-\infty, -1] \cup [1, \infty)$
+* **Inequality**: $\csc \theta \leq -1$ or $\csc \theta \geq 1$; $\sec \theta \leq -1$ or $\sec \theta \geq 1$
+
+#### 3. Range of Tangent and Cotangent
+Tangent and cotangent are ratios of $x$ and $y$. Since $x$ can be much larger than $y$, or $y$ can be much larger than $x$, these ratios can result in any real number.
+* **Tangent**: $\tan \theta = y/x$
+* **Cotangent**: $\cot \theta = x/y$
+* **Range**: $(-\infty, \infty)$
+* **Inequality**: All real numbers.
+
+#### 4. Range Summary Table
+
+| Function | Range (Interval Notation) | Range (Inequality) |
+| :--- | :--- | :--- |
+| **$\sin \theta$** | $[-1, 1]$ | $-1 \leq \text{value} \leq 1$ |
+| **$\cos \theta$** | $[-1, 1]$ | $-1 \leq \text{value} \leq 1$ |
+| **$\tan \theta$** | $(-\infty, \infty)$ | All Real Numbers |
+| **$\cot \theta$** | $(-\infty, \infty)$ | All Real Numbers |
+| **$\sec \theta$** | $(-\infty, -1] \cup [1, \infty)$ | $\text{value} \leq -1$ or $\text{value} \geq 1$ |
+| **$\csc \theta$** | $(-\infty, -1] \cup [1, \infty)$ | $\text{value} \leq -1$ or $\text{value} \geq 1$ |
