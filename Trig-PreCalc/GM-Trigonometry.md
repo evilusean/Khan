@@ -609,11 +609,49 @@ Using the definitions $\sin \theta = \frac{y}{r}$ and $\cos \theta = \frac{x}{r}
     * Rationalized: **$-\frac{3\sqrt{58}}{58}$**
 
 #### Summary Table for Obsidian
-| Component | Value |
-| :--- | :--- |
-| **Quadrant** | III ($x<0, y<0$) |
-| **$x$** | $-3$ |
-| **$y$** | $-7$ |
-| **$r$** | $\sqrt{58}$ |
+| Component         | Value                    |
+| :---------------- | :----------------------- |
+| **Quadrant**      | III ($x<0, y<0$)         |
+| **$x$**           | $-3$                     |
+| **$y$**           | $-7$                     |
+| **$r$**           | $\sqrt{58}$              |
 | **$\sin \theta$** | $-\frac{7\sqrt{58}}{58}$ |
 | **$\cos \theta$** | $-\frac{3\sqrt{58}}{58}$ |
+### Finding $\sin \theta$ and $\tan \theta$ from $\sec \theta$ and Sign Conditions
+
+To find these exact values, we identify the quadrant based on the given signs and then calculate the missing coordinate and radius.
+
+#### 1. Identify the Quadrant
+* **Condition 1:** $\sec \theta = -2$ (Negative). Since $\sec \theta = 1/\cos \theta$, cosine is also negative. Cosine is negative in **Quadrants II and III**.
+* **Condition 2:** $\cot \theta > 0$ (Positive). Cotangent is positive where tangent is positive, which occurs in **Quadrants I and III**.
+
+**Result:** To satisfy both conditions, $\theta$ must be in **Quadrant III**. In this quadrant, both $x$ and $y$ are negative.
+
+#### 2. Identify $x$, $y$, and $r$
+Using the definition $\sec \theta = r/x$:
+* **Given:** $\sec \theta = -2$, which can be written as $2/-1$.
+* **Radius ($r$):** Must be positive, so **$r = 2$**.
+* **x-coordinate ($x$):** Must be **$-1$**.
+* **Solve for $y$:**
+    * $x^2 + y^2 = r^2$
+    * $(-1)^2 + y^2 = 2^2$
+    * $1 + y^2 = 4$
+    * $y^2 = 3$
+    * $y = \pm\sqrt{3}$
+* **Determine Sign:** Since we are in **Quadrant III**, $y$ must be negative: **$y = -\sqrt{3}$**.
+
+#### 3. Solve for $\sin \theta$ and $\tan \theta$
+Using the definitions $\sin \theta = y/r$ and $\tan \theta = y/x$:
+
+* **$\sin \theta = \frac{-\sqrt{3}}{2}$**
+* **$\tan \theta = \frac{-\sqrt{3}}{-1} = \sqrt{3}$**
+
+#### Summary Table for Obsidian
+| Component         | Value                 |
+| :---------------- | :-------------------- |
+| **Quadrant**      | III ($x<0, y<0$)      |
+| **$x$**           | $-1$                  |
+| **$y$**           | $-\sqrt{3}$           |
+| **$r$**           | $2$                   |
+| **$\sin \theta$** | $-\frac{\sqrt{3}}{2}$ |
+| **$\tan \theta$** | $\sqrt{3}$            |
