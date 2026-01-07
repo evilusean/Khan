@@ -579,3 +579,41 @@ Tangent and cotangent are ratios of $x$ and $y$. Since $x$ can be much larger th
 | **$\cot \theta$** | $(-\infty, \infty)$ | All Real Numbers |
 | **$\sec \theta$** | $(-\infty, -1] \cup [1, \infty)$ | $\text{value} \leq -1$ or $\text{value} \geq 1$ |
 | **$\csc \theta$** | $(-\infty, -1] \cup [1, \infty)$ | $\text{value} \leq -1$ or $\text{value} \geq 1$ |
+### Finding $\sin \theta$ and $\cos \theta$ from $\tan \theta$ and Sign Conditions
+
+To find the exact values of the remaining trigonometric functions, we analyze the given ratio and the quadrant determined by the signs of the functions.
+
+#### 1. Identify the Quadrant
+* **Condition 1:** $\tan \theta = \frac{7}{3}$ (Positive). Tangent is positive in **Quadrants I and III**.
+* **Condition 2:** $\sin \theta < 0$ (Negative). Sine is negative in **Quadrants III and IV**.
+
+**Result:** To satisfy both conditions, $\theta$ must be in **Quadrant III**. In this quadrant, both $x$ and $y$ are negative.
+
+#### 2. Identify $x$, $y$, and $r$
+Using the definition $\tan \theta = \frac{y}{x}$:
+* Since the ratio is $7/3$ and we are in Quadrant III, we assign the negative values:
+    * **$y = -7$**
+    * **$x = -3$**
+* Use the Pythagorean theorem to find the radius ($r$):
+    * $r = \sqrt{x^2 + y^2}$
+    * $r = \sqrt{(-3)^2 + (-7)^2}$
+    * $r = \sqrt{9 + 49}$
+    * **$r = \sqrt{58}$**
+
+#### 3. Solve for $\sin \theta$ and $\cos \theta$
+Using the definitions $\sin \theta = \frac{y}{r}$ and $\cos \theta = \frac{x}{r}$:
+
+* **$\sin \theta = \frac{-7}{\sqrt{58}}$**
+    * Rationalized: **$-\frac{7\sqrt{58}}{58}$**
+* **$\cos \theta = \frac{-3}{\sqrt{58}}$**
+    * Rationalized: **$-\frac{3\sqrt{58}}{58}$**
+
+#### Summary Table for Obsidian
+| Component | Value |
+| :--- | :--- |
+| **Quadrant** | III ($x<0, y<0$) |
+| **$x$** | $-3$ |
+| **$y$** | $-7$ |
+| **$r$** | $\sqrt{58}$ |
+| **$\sin \theta$** | $-\frac{7\sqrt{58}}{58}$ |
+| **$\cos \theta$** | $-\frac{3\sqrt{58}}{58}$ |
