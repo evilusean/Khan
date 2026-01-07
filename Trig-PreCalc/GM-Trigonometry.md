@@ -505,3 +505,42 @@ To get this identity, divide $x^2 + y^2 = r^2$ by **$y^2$**:
 * **Simplify:** $(\frac{x}{y})^2 + 1 = (\frac{r}{y})^2$
 * **Substitute:** Since $\cot \theta = \frac{x}{y}$ and $\csc \theta = \frac{r}{y}$:
 * **Result:** **$\cot^2 \theta + 1 = \csc^2 \theta$**
+### Quotient Identities
+
+Quotient identities express trigonometric functions as the ratio of two other trigonometric functions. In PreCalculus, there are two primary quotient identities involving tangent and cotangent.
+
+#### 1. The Identities
+* **Tangent Identity**: $\tan \theta = \frac{\sin \theta}{\cos \theta}$
+* **Cotangent Identity**: $\cot \theta = \frac{\cos \theta}{\sin \theta}$
+
+#### 2. Derivation of the Tangent Identity
+To derive the tangent identity, we use the definitions of sine and cosine in terms of $x, y,$ and $r$:
+
+* **Step 1**: Recall the definitions:
+    * $\sin \theta = \frac{y}{r}$
+    * $\cos \theta = \frac{x}{r}$
+* **Step 2**: Create a ratio of Sine over Cosine:
+    $$\frac{\sin \theta}{\cos \theta} = \frac{y/r}{x/r}$$
+* **Step 3**: Simplify the complex fraction by multiplying by the reciprocal:
+    $$\frac{y}{r} \cdot \frac{r}{x} = \frac{y}{x}$$
+* **Step 4**: Identify the result:
+    * Since $\tan \theta = \frac{y}{x}$, we conclude that **$\tan \theta = \frac{\sin \theta}{\cos \theta}$**.
+
+#### 3. Derivation of the Cotangent Identity
+The cotangent identity is derived similarly or by using the reciprocal property of tangent:
+
+* **Step 1**: Recall the definitions:
+    * $\cos \theta = \frac{x}{r}$
+    * $\sin \theta = \frac{y}{r}$
+* **Step 2**: Create a ratio of Cosine over Sine:
+    $$\frac{\cos \theta}{\sin \theta} = \frac{x/r}{y/r}$$
+* **Step 3**: Simplify:
+    $$\frac{x}{r} \cdot \frac{r}{y} = \frac{x}{y}$$
+* **Step 4**: Identify the result:
+    * Since $\cot \theta = \frac{x}{y}$, we conclude that **$\cot \theta = \frac{\cos \theta}{\sin \theta}$**.
+
+#### 4. Summary for Obsidian
+| Identity      | Ratio                             | Reciprocal Relationship |
+| :------------ | :-------------------------------- | :---------------------- |
+| **Tangent**   | $\frac{\sin \theta}{\cos \theta}$ | $\frac{1}{\cot \theta}$ |
+| **Cotangent** | $\frac{\cos \theta}{\sin \theta}$ | $\frac{1}{\tan \theta}$ |
