@@ -456,6 +456,8 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h24m40s
 - $r = \sqrt{x^2 + y^2}$
 - $r^2 = x^2 + y^2$ :
 - $a^2 + b^2 = c^2$ : Pythagorean Theorem, '$r^2$' is the hypoteneuse($c^2$), above formula is for that
+- **$\sin^2 \theta + \cos^2 \theta = 1$** : To get this, simply divide $x^2 + y^2 = r^2$ by '$r^2$' : $\frac{x^2}{r^2} + \frac{y^2}{r^2} = \frac{r^2}{r^2}$ :  Since $1^2$ is 1, you have $(\frac{x}{r})^2$ which is $(cos\theta)^2$ and $(\frac{y}{r})^2$ is $(sin\theta)^2$ : then use the commutative properties to get the original equation 
+- 
 ### Pythagorean Identities
 
 The **Pythagorean Identities** are fundamental equations in trigonometry derived from the Pythagorean Theorem ($x^2 + y^2 = r^2$) as applied to the unit circle. These identities allow you to find the value of one trigonometric function when another is known.
@@ -479,3 +481,27 @@ If you divide the primary identity ($\sin^2 \theta + \cos^2 \theta = 1$) by $\co
 | **$\sin^2 \theta + \cos^2 \theta = 1$** | Sine, Cosine | Converting between $\sin$ and $\cos$. |
 | **$\tan^2 \theta + 1 = \sec^2 \theta$** | Tangent, Secant | Finding $\sec$ if $\tan$ is known. |
 | **$1 + \cot^2 \theta = \csc^2 \theta$** | Cotangent, Cosecant | Finding $\csc$ if $\cot$ is known. |
+### Deriving the Three Pythagorean Identities
+
+The Pythagorean identities are derived by taking the Pythagorean theorem equation, $x^2 + y^2 = r^2$, and dividing each term by $r^2$, $x^2$, or $y^2$.
+
+#### 1. Identity for $\sin$ and $\cos$
+To get this identity, divide $x^2 + y^2 = r^2$ by **$r^2$**:
+* **Equation:** $\frac{x^2}{r^2} + \frac{y^2}{r^2} = \frac{r^2}{r^2}$
+* **Simplify:** $(\frac{x}{r})^2 + (\frac{y}{r})^2 = 1$
+* **Substitute:** Since $\cos \theta = \frac{x}{r}$ and $\sin \theta = \frac{y}{r}$:
+* **Result:** $\cos^2 \theta + \sin^2 \theta = 1$ (or **$\sin^2 \theta + \cos^2 \theta = 1$**)
+
+#### 2. Identity for $\tan$ and $\sec$
+To get this identity, divide $x^2 + y^2 = r^2$ by **$x^2$**:
+* **Equation:** $\frac{x^2}{x^2} + \frac{y^2}{x^2} = \frac{r^2}{x^2}$
+* **Simplify:** $1 + (\frac{y}{x})^2 = (\frac{r}{x})^2$
+* **Substitute:** Since $\tan \theta = \frac{y}{x}$ and $\sec \theta = \frac{r}{x}$:
+* **Result:** **$1 + \tan^2 \theta = \sec^2 \theta$**
+
+#### 3. Identity for $\cot$ and $\csc$
+To get this identity, divide $x^2 + y^2 = r^2$ by **$y^2$**:
+* **Equation:** $\frac{x^2}{y^2} + \frac{y^2}{y^2} = \frac{r^2}{y^2}$
+* **Simplify:** $(\frac{x}{y})^2 + 1 = (\frac{r}{y})^2$
+* **Substitute:** Since $\cot \theta = \frac{x}{y}$ and $\csc \theta = \frac{r}{y}$:
+* **Result:** **$\cot^2 \theta + 1 = \csc^2 \theta$**
