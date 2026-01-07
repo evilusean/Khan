@@ -452,4 +452,4 @@ Using the Pythagorean relationship $x^2 + y^2 = r^2$:
 | **$r$**      | $19$          |
 | **Quadrant** | **IV**        |
 ## 2026-January-07 Pythagorean & Quotient Identities, Ranges of Trigonometric Function Values, Finding Missing Function Values :
-
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h24m40s
