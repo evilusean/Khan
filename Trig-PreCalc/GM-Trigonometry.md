@@ -453,3 +453,6 @@ Using the Pythagorean relationship $x^2 + y^2 = r^2$:
 | **Quadrant** | **IV**        |
 ## 2026-January-07 Pythagorean & Quotient Identities, Ranges of Trigonometric Function Values, Finding Missing Function Values :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h24m40s
+- $r = \sqrt{x^2 + y^2}$
+- $r^2 = x^2 + y^2$ :
+- $a^2 + b^2 = c^2$ : Pythagorean Theorem, '$r^2$' is the hypoteneuse($c^2$), above formula is for that
