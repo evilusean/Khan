@@ -201,7 +201,7 @@ For the point $(x, y) = (3, 3)$, both coordinates are positive, placing the term
 | **$\csc \theta$** | $r/y$ | $\sqrt{2}$ |
 | **$\sec \theta$** | $r/x$ | $\sqrt{2}$ |
 | **$\cot \theta$** | $x/y$ | $1$ |
-## Reciprocal Identities, Signs of Trigonometric Function Values, Finding Missing Function Values :
+## 2026-January-06 - Reciprocal Identities, Signs of Trigonometric Function Values, Finding Missing Function Values :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h5m30s
 - **SOH-CAH-TOA** (Sine=Opposite(y) over Hypoteneuse(r), Cosine = Adjacent(x) over Hypoteneuse(r), Tangent = Opposite(y) over Adjacent(x))
 - **Recipricoals** : Sine+Cosecant(S with C) - Cosine+Secant(C with S) - Tangent+CoTangent (Tan with Tan)
@@ -445,9 +445,11 @@ Using the Pythagorean relationship $x^2 + y^2 = r^2$:
 * **$y = -4\sqrt{15}$**
 
 #### Summary of Values
-| Component | Value |
-| :--- | :--- |
-| **$x$** | $11$ |
-| **$y$** | $-4\sqrt{15}$ |
-| **$r$** | $19$ |
-| **Quadrant** | **IV** |
+| Component    | Value         |
+| :----------- | :------------ |
+| **$x$**      | $11$          |
+| **$y$**      | $-4\sqrt{15}$ |
+| **$r$**      | $19$          |
+| **Quadrant** | **IV**        |
+## 2026-January-07 Pythagorean & Quotient Identities, Ranges of Trigonometric Function Values, Finding Missing Function Values :
+
