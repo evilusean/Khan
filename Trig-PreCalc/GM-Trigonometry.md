@@ -655,3 +655,42 @@ Using the definitions $\sin \theta = y/r$ and $\tan \theta = y/x$:
 | **$r$**           | $2$                   |
 | **$\sin \theta$** | $-\frac{\sqrt{3}}{2}$ |
 | **$\tan \theta$** | $\sqrt{3}$            |
+### Finding $\sin \theta$ and $\tan \theta$ from $\cos \theta$ and Sign Conditions
+
+To find these trigonometric values, we determine the quadrant based on the signs of the functions and then calculate the missing $y$-coordinate and radius.
+
+#### 1. Identify the Quadrant
+* **Condition 1:** $\cos \theta = -\frac{2\sqrt{2}}{3}$ (Negative). Cosine is negative in **Quadrants II and III**.
+* **Condition 2:** $\sin \theta < 0$ (Negative). Sine is negative in **Quadrants III and IV**.
+
+**Result:** The terminal side of the angle lies in **Quadrant III**. In this quadrant, both $x$ and $y$ are negative.
+
+#### 2. Identify $x$, $y$, and $r$
+Using the definition $\cos \theta = \frac{x}{r}$:
+* **Given:** $\cos \theta = \frac{-2\sqrt{2}}{3}$
+* **Radius ($r$):** $r = 3$
+* **x-coordinate ($x$):** $x = -2\sqrt{2}$
+* **Solve for $y$ using $x^2 + y^2 = r^2$:**
+    * $(-2\sqrt{2})^2 + y^2 = 3^2$
+    * $8 + y^2 = 9$
+    * $y^2 = 1$
+    * $y = \pm 1$
+* **Determine Sign:** Since the angle is in **Quadrant III**, $y$ must be negative: **$y = -1$**.
+
+#### 3. Solve for $\sin \theta$ and $\tan \theta$
+Using the definitions $\sin \theta = \frac{y}{r}$ and $\tan \theta = \frac{y}{x}$:
+
+* **$\sin \theta = -\frac{1}{3}$**
+* **$\tan \theta = \frac{-1}{-2\sqrt{2}} = \frac{1}{2\sqrt{2}}$**
+    * Rationalizing the denominator: $\frac{1 \cdot \sqrt{2}}{2\sqrt{2} \cdot \sqrt{2}} = \frac{\sqrt{2}}{4}$
+    * **$\tan \theta = \frac{\sqrt{2}}{4}$**
+
+#### Summary Table
+| Component | Value |
+| :--- | :--- |
+| **Quadrant** | III ($x < 0, y < 0$) |
+| **$x$** | $-2\sqrt{2}$ |
+| **$y$** | $-1$ |
+| **$r$** | $3$ |
+| **$\sin \theta$** | $-\frac{1}{3}$ |
+| **$\tan \theta$** | $\frac{\sqrt{2}}{4}$ |
