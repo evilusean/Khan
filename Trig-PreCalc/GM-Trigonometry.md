@@ -826,3 +826,40 @@ Based on the equation provided in the image:
 The value of $\theta$ that satisfies the equation is **$13^\circ$**.
 ## 2026-January-08 - Trigonometric Functions of Non-Acute Angles | Reference Angles :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=2h6m
+### Trigonometric Functions of Non-Acute Angles
+
+To find the trigonometric functions of angles that are not acute (angles outside the range $0^\circ < \theta < 90^\circ$), we use the concepts of **Reference Angles** and the **ASTC Rule**.
+
+#### 1. Reference Angles ($\theta'$)
+A reference angle is the positive acute angle formed by the terminal side of an angle $\theta$ and the **x-axis**.
+
+* **Quadrant I**: $\theta' = \theta$
+* **Quadrant II**: $\theta' = 180^\circ - \theta$ (or $\pi - \theta$)
+* **Quadrant III**: $\theta' = \theta - 180^\circ$ (or $\theta - \pi$)
+* **Quadrant IV**: $\theta' = 360^\circ - \theta$ (or $2\pi - \theta$)
+
+#### 2. Determining Signs (ASTC Rule)
+The sign (positive or negative) of the function depends on the quadrant where the terminal side lies:
+
+* **Quadrant I (All)**: All functions are **positive**.
+* **Quadrant II (Students)**: **Sine** and its reciprocal **Cosecant** are **positive**.
+* **Quadrant III (Take)**: **Tangent** and its reciprocal **Cotangent** are **positive**.
+* **Quadrant IV (Calculus)**: **Cosine** and its reciprocal **Secant** are **positive**.
+
+#### 3. Procedure for Evaluation
+To evaluate a trigonometric function for any non-acute angle:
+1.  **Find the reference angle** ($\theta'$).
+2.  **Determine the sign** based on the original angle's quadrant.
+3.  **Evaluate the function** for the reference angle and apply the sign.
+    * Example: $\cos(210^\circ)$
+    * $\theta' = 210^\circ - 180^\circ = 30^\circ$
+    * $210^\circ$ is in QIII, so Cosine is negative.
+    * $\cos(210^\circ) = -\cos(30^\circ) = -\frac{\sqrt{3}}{2}$
+
+#### 4. Summary Table
+| Quadrant | Reference Angle                | Positive Functions |
+| :------- | :----------------------------- | :----------------- |
+| **I**    | $\theta' = \theta$             | All                |
+| **II**   | $\theta' = 180^\circ - \theta$ | $\sin, \csc$       |
+| **III**  | $\theta' = \theta - 180^\circ$ | $\tan, \cot$       |
+| **IV**   | $\theta' = 360^\circ - \theta$ | $\cos, \sec$       |
