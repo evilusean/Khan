@@ -695,4 +695,5 @@ Using the definitions $\sin \theta = \frac{y}{r}$ and $\tan \theta = \frac{y}{x}
 | **$\sin \theta$** | $-\frac{1}{3}$       |
 | **$\tan \theta$** | $\frac{\sqrt{2}}{4}$ |
 ## 2026-January-08 - Trigonometric Functions of Acute Angles | Cofunction Identities :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h46m30s
 
