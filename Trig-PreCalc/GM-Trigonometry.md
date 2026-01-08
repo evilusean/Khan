@@ -863,3 +863,31 @@ To evaluate a trigonometric function for any non-acute angle:
 | **II**   | $\theta' = 180^\circ - \theta$ | $\sin, \csc$       |
 | **III**  | $\theta' = \theta - 180^\circ$ | $\tan, \cot$       |
 | **IV**   | $\theta' = 360^\circ - \theta$ | $\cos, \sec$       |
+### Reference Angles ($\theta'$)
+
+A **reference angle** is the positive acute angle formed by the terminal side of an angle $\theta$ and the **x-axis**. Reference angles allow us to simplify the evaluation of trigonometric functions for any non-acute angle by relating them back to angles in the first quadrant.
+
+#### 1. Key Characteristics
+* **Always Acute**: The value is always between $0^\circ$ and $90^\circ$ ($0$ and $\pi/2$ radians).
+* **Always Positive**: Reference angles are absolute measures of rotation from the x-axis.
+* **X-Axis Only**: They are never measured from the y-axis.
+
+#### 2. Calculating Reference Angles by Quadrant
+The formula used to find the reference angle ($\theta'$) depends on the quadrant in which the terminal side of the original angle ($\theta$) lies:
+
+| Quadrant | Location of $\theta$ | Reference Angle Formula ($\theta'$) |
+| :--- | :--- | :--- |
+| **Quadrant I** | $0^\circ < \theta < 90^\circ$ | $\theta' = \theta$ |
+| **Quadrant II** | $90^\circ < \theta < 180^\circ$ | $\theta' = 180^\circ - \theta$ |
+| **Quadrant III** | $180^\circ < \theta < 270^\circ$ | $\theta' = \theta - 180^\circ$ |
+| **Quadrant IV** | $270^\circ < \theta < 360^\circ$ | $\theta' = 360^\circ - \theta$ |
+
+#### 3. Steps to Find a Reference Angle
+1.  **Identify the Quadrant**: Determine where the terminal side of the angle $\theta$ sits.
+2.  **Adjust for Coterminality**: If the angle is greater than $360^\circ$ or less than $0^\circ$, find a coterminal angle between $0^\circ$ and $360^\circ$ first.
+3.  **Apply Formula**: Use the quadrant-specific subtraction rule shown above.
+
+#### 4. Examples
+* **Example 1 ($150^\circ$)**: Lies in QII. $\theta' = 180^\circ - 150^\circ = \mathbf{30^\circ}$.
+* **Example 2 ($225^\circ$)**: Lies in QIII. $\theta' = 225^\circ - 180^\circ = \mathbf{45^\circ}$.
+* **Example 3 ($-60^\circ$)**: Coterminal with $300^\circ$ (QIV). $\theta' = 360^\circ - 300^\circ = \mathbf{60^\circ}$.
