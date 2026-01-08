@@ -891,3 +891,26 @@ The formula used to find the reference angle ($\theta'$) depends on the quadrant
 * **Example 1 ($150^\circ$)**: Lies in QII. $\theta' = 180^\circ - 150^\circ = \mathbf{30^\circ}$.
 * **Example 2 ($225^\circ$)**: Lies in QIII. $\theta' = 225^\circ - 180^\circ = \mathbf{45^\circ}$.
 * **Example 3 ($-60^\circ$)**: Coterminal with $300^\circ$ (QIV). $\theta' = 360^\circ - 300^\circ = \mathbf{60^\circ}$.
+### Finding the Reference Angle for $\theta = -250^\circ$
+
+To find the reference angle ($\theta'$) for a negative angle, we first find its positive coterminal equivalent between $0^\circ$ and $360^\circ$ and then apply the quadrant-specific formula.
+
+#### 1. Find the Coterminal Angle
+Add $360^\circ$ to the negative angle to find its position in standard position:
+* $-250^\circ + 360^\circ = \mathbf{110^\circ}$
+
+#### 2. Identify the Quadrant
+* Since $90^\circ < 110^\circ < 180^\circ$, the terminal side lies in **Quadrant II**.
+
+#### 3. Apply the Reference Angle Formula
+For Quadrant II, the formula is $\theta' = 180^\circ - \theta$:
+* $\theta' = 180^\circ - 110^\circ$
+* **$\theta' = 70^\circ$**
+
+#### Summary Table
+| Step | Value |
+| :--- | :--- |
+| **Original Angle ($\theta$)** | $-250^\circ$ |
+| **Coterminal Angle** | $110^\circ$ |
+| **Quadrant** | II |
+| **Reference Angle ($\theta'$)** | **$70^\circ$** |
