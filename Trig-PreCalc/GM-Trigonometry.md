@@ -1049,3 +1049,36 @@ $$\cos(120^\circ) = -\frac{1}{2}$$
 | **Quadrant**         | II (Cosine is negative) |
 | **Reference Angle**  | $60^\circ$              |
 | **Final Value**      | **$-1/2$**              |
+### Evaluating $\sec(495^\circ)$ Using Reference Angles
+
+To find the exact value of $\sec(495^\circ)$, we simplify the angle into the first rotation, find its reference angle, and apply the correct sign based on its quadrant.
+
+#### 1. Find the Coterminal Angle
+Subtract $360^\circ$ from $495^\circ$ to find the equivalent angle within the standard $0^\circ$ to $360^\circ$ range:
+* $495^\circ - 360^\circ = \mathbf{135^\circ}$
+
+#### 2. Identify Quadrant and Reference Angle ($\theta'$)
+* **Quadrant**: $135^\circ$ lies between $90^\circ$ and $180^\circ$, so the terminal side is in **Quadrant II**.
+* **Reference Angle**: In QII, the formula is $\theta' = 180^\circ - \theta$.
+    * $\theta' = 180^\circ - 135^\circ$
+    * **$\theta' = 45^\circ$**
+
+
+
+#### 3. Determine the Sign and Evaluate
+* **Sign**: In Quadrant II, only Sine and Cosecant are positive. Therefore, **Secant is negative**.
+* **Special Value**: Recall that $\cos(45^\circ) = \frac{\sqrt{2}}{2}$, so its reciprocal $\sec(45^\circ) = \sqrt{2}$.
+
+**Calculation**:
+$$\sec(495^\circ) = \sec(135^\circ)$$
+$$\sec(135^\circ) = -\sec(45^\circ)$$
+$$\sec(135^\circ) = -\sqrt{2}$$
+
+#### Summary Table
+| Step | Value |
+| :--- | :--- |
+| **Original Angle** | $495^\circ$ |
+| **Coterminal Angle** | $135^\circ$ |
+| **Quadrant** | II (Secant is negative) |
+| **Reference Angle** | $45^\circ$ |
+| **Final Value** | **$-\sqrt{2}$** |
