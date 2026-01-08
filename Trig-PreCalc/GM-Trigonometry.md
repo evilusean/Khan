@@ -686,11 +686,11 @@ Using the definitions $\sin \theta = \frac{y}{r}$ and $\tan \theta = \frac{y}{x}
     * **$\tan \theta = \frac{\sqrt{2}}{4}$**
 
 #### Summary Table
-| Component | Value |
-| :--- | :--- |
-| **Quadrant** | III ($x < 0, y < 0$) |
-| **$x$** | $-2\sqrt{2}$ |
-| **$y$** | $-1$ |
-| **$r$** | $3$ |
-| **$\sin \theta$** | $-\frac{1}{3}$ |
+| Component         | Value                |
+| :---------------- | :------------------- |
+| **Quadrant**      | III ($x < 0, y < 0$) |
+| **$x$**           | $-2\sqrt{2}$         |
+| **$y$**           | $-1$                 |
+| **$r$**           | $3$                  |
+| **$\sin \theta$** | $-\frac{1}{3}$       |
 | **$\tan \theta$** | $\frac{\sqrt{2}}{4}$ |

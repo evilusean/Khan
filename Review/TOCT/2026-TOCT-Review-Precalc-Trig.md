@@ -109,3 +109,34 @@ In a **right triangle**, you always have one 90° angle. To determine the entire
 1. One acute angle + one side (any side)
 2. Two sides (any two of the three sides)
 Key rule: In a right triangle, any 2 pieces (excluding knowing just the right angle) are enough to find everything else.
+
+### Pythagorean & Quotient Identities, Ranges of Trigonometric Function Values, Finding Missing Function Values :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h24m40s
+- $r = \sqrt{x^2 + y^2}$
+- $r^2 = x^2 + y^2$ :
+- $a^2 + b^2 = c^2$ : Pythagorean Theorem, '$r^2$' is the hypoteneuse($c^2$), above formula is for that
+- **$\sin^2 \theta + \cos^2 \theta = 1$** : To get this, simply divide $x^2 + y^2 = r^2$ by '$r^2$' : $\frac{x^2}{r^2} + \frac{y^2}{r^2} = \frac{r^2}{r^2}$ :  Since $1^2$ is 1, you have $(\frac{x}{r})^2$ which is $(cos\theta)^2$ and $(\frac{y}{r})^2$ is $(sin\theta)^2$ : then use the commutative properties to get the original equation 
+- 
+### Pythagorean Identities
+
+The **Pythagorean Identities** are fundamental equations in trigonometry derived from the Pythagorean Theorem ($x^2 + y^2 = r^2$) as applied to the unit circle. These identities allow you to find the value of one trigonometric function when another is known.
+#### 1. Primary Identities
+Based on your course materials, here are the three core Pythagorean identities:
+
+* **$\sin^2 \theta + \cos^2 \theta = 1$**
+* **$\tan^2 \theta + 1 = \sec^2 \theta$**
+* **$1 + \cot^2 \theta = \csc^2 \theta$
+#### 3. Summary Table for Obsidian
+
+| Identity | Primary Functions Involved | Common Use |
+| :--- | :--- | :--- |
+| **$\sin^2 \theta + \cos^2 \theta = 1$** | Sine, Cosine | Converting between $\sin$ and $\cos$. |
+| **$\tan^2 \theta + 1 = \sec^2 \theta$** | Tangent, Secant | Finding $\sec$ if $\tan$ is known. |
+| **$1 + \cot^2 \theta = \csc^2 \theta$** | Cotangent, Cosecant | Finding $\csc$ if $\cot$ is known. |
+### Quotient Identities
+
+Quotient identities express trigonometric functions as the ratio of two other trigonometric functions. In PreCalculus, there are two primary quotient identities involving tangent and cotangent.
+
+#### 1. The Identities
+* **Tangent Identity**: $\tan \theta = \frac{\sin \theta}{\cos \theta}$
+* **Cotangent Identity**: $\cot \theta = \frac{\cos \theta}{\sin \theta}$
