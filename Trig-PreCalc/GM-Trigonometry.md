@@ -696,4 +696,40 @@ Using the definitions $\sin \theta = \frac{y}{r}$ and $\tan \theta = \frac{y}{x}
 | **$\tan \theta$** | $\frac{\sqrt{2}}{4}$ |
 ## 2026-January-08 - Trigonometric Functions of Acute Angles | Cofunction Identities :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h46m30s
+### Trigonometric Functions of Acute Angles
 
+Trigonometric functions of acute angles ($0^\circ < \theta < 90^\circ$) are defined by the ratios of the sides of a right triangle. These are often remembered using the mnemonic **SOH CAH TOA**.
+
+#### 1. Right Triangle Definitions
+In a right triangle, we identify three sides relative to an acute angle $\theta$:
+* **Opposite**: The side across from angle $\theta$.
+* **Adjacent**: The side next to angle $\theta$ (that is not the hypotenuse).
+* **Hypotenuse**: The longest side, opposite the right angle.
+
+#### 2. The Six Trigonometric Ratios
+The functions are defined as follows:
+
+* **$\sin \theta = \frac{\text{Opposite}}{\text{Hypotenuse}}$** (SOH)
+* **$\cos \theta = \frac{\text{Adjacent}}{\text{Hypotenuse}}$** (CAH)
+* **$\tan \theta = \frac{\text{Opposite}}{\text{Adjacent}}$** (TOA)
+
+**Reciprocal Functions:**
+* **$\csc \theta = \frac{\text{Hypotenuse}}{\text{Opposite}}$** (Reciprocal of Sine)
+* **$\sec \theta = \frac{\text{Hypotenuse}}{\text{Adjacent}}$** (Reciprocal of Cosine)
+* **$\cot \theta = \frac{\text{Adjacent}}{\text{Opposite}}$** (Reciprocal of Tangent)
+
+#### 3. Cofunction Identities
+Acute angles in a right triangle are complementary ($\theta$ and $90^\circ - \theta$). This leads to cofunction identities where a function of an angle is equal to the cofunction of its complement:
+* $\sin \theta = \cos(90^\circ - \theta)$
+* $\tan \theta = \cot(90^\circ - \theta)$
+* $\sec \theta = \csc(90^\circ - \theta)$
+
+#### 4. Summary Table
+| Function      | Abbreviation | Ratio                     |
+| :------------ | :----------- | :------------------------ |
+| **Sine**      | $\sin$       | $\text{Opp} / \text{Hyp}$ |
+| **Cosine**    | $\cos$       | $\text{Adj} / \text{Hyp}$ |
+| **Tangent**   | $\tan$       | $\text{Opp} / \text{Adj}$ |
+| **Cosecant**  | $\csc$       | $\text{Hyp} / \text{Opp}$ |
+| **Secant**    | $\sec$       | $\text{Hyp} / \text{Adj}$ |
+| **Cotangent** | $\cot$       | $\text{Adj} / \text{Opp}$ |
