@@ -733,6 +733,40 @@ Acute angles in a right triangle are complementary ($\theta$ and $90^\circ - \th
 | **Cosecant**  | $\csc$       | $\text{Hyp} / \text{Opp}$ |
 | **Secant**    | $\sec$       | $\text{Hyp} / \text{Adj}$ |
 | **Cotangent** | $\cot$       | $\text{Adj} / \text{Opp}$ |
+### Cofunction Identities
+
+Cofunction identities describe the relationship between trigonometric functions of complementary angles. In a right triangle, the two acute angles are complementary, meaning they sum to $90^\circ$ (or $\pi/2$ radians).
+
+#### 1. The Core Concept
+A trigonometric function of an acute angle $\theta$ is equal to the **cofunction** of its complement. This means the value of a function at $\theta$ is the same as the value of its "co-" partner at $90^\circ - \theta$.
+
+#### 2. List of Cofunction Identities
+These identities apply to the three pairs of cofunctions:
+
+**Sine and Cosine**
+* $\sin \theta = \cos(90^\circ - \theta)$
+* $\cos \theta = \sin(90^\circ - \theta)$
+
+**Tangent and Cotangent**
+* $\tan \theta = \cot(90^\circ - \theta)$
+* $\cot \theta = \tan(90^\circ - \theta)$
+
+**Secant and Cosecant**
+* $\sec \theta = \csc(90^\circ - \theta)$
+* $\csc \theta = \sec(90^\circ - \theta)$
+
+#### 3. Derivation Logic
+In a right triangle with acute angles $\alpha$ and $\beta$:
+* $\sin \alpha = \frac{\text{Opposite to } \alpha}{\text{Hypotenuse}}$
+* $\cos \beta = \frac{\text{Adjacent to } \beta}{\text{Hypotenuse}}$
+Since the side opposite to $\alpha$ is the same side that is adjacent to $\beta$, and $\beta = 90^\circ - \alpha$, it follows that $\sin \alpha = \cos(90^\circ - \alpha)$.
+
+#### 4. Summary Table
+| Function | Cofunction | Identity (Degrees) |
+| :--- | :--- | :--- |
+| **Sine** | Cosine | $\sin \theta = \cos(90^\circ - \theta)$ |
+| **Tangent** | Cotangent | $\tan \theta = \cot(90^\circ - \theta)$ |
+| **Secant** | Cosecant | $\sec \theta = \csc(90^\circ - \theta)$ |
 ### Finding the 6 Trigonometric Functions for a Right Triangle
 
 Based on the provided right triangle image, we can find the values of the six trigonometric functions for the angle $\theta$ using the side lengths provided.
