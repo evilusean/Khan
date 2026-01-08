@@ -825,3 +825,4 @@ Based on the equation provided in the image:
 #### 3. Final Answer
 The value of $\theta$ that satisfies the equation is **$13^\circ$**.
 ## 2026-January-08 - Trigonometric Functions of Non-Acute Angles | Reference Angles :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=2h6m
