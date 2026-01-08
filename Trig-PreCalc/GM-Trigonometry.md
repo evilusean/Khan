@@ -801,3 +801,26 @@ Using the standard ratios for a right triangle:
 | $\csc \theta$ | $2\sqrt{5} / 2$ | $\sqrt{5}$ |
 | $\sec \theta$ | $2\sqrt{5} / 4$ | $\sqrt{5} / 2$ |
 | $\cot \theta$ | $4 / 2$ | $2$ |
+### Solving for $\theta$ Using Cofunction Identities
+
+The problem from the image asks to solve the equation:
+$$\sin(2\theta + 20^\circ) = \cos(3\theta + 5^\circ)$$
+
+#### 1. Core Concept
+According to the **Cofunction Identities**, the sine of an angle is equal to the cosine of its complement. Therefore, if $\sin(A) = \cos(B)$, then the sum of the two angles must be $90^\circ$:
+* $A + B = 90^\circ$
+
+#### 2. Step-by-Step Solution
+Based on the equation provided in the image:
+* **Identify Angles**: Let $A = 2\theta + 20^\circ$ and $B = 3\theta + 5^\circ$.
+* **Set up Equation**: $(2\theta + 20^\circ) + (3\theta + 5^\circ) = 90^\circ$
+* **Combine Like Terms**: $5\theta + 25^\circ = 90^\circ$
+* **Isolate $\theta$ Term**: 
+    * $5\theta = 90^\circ - 25^\circ$
+    * $5\theta = 65^\circ$
+* **Solve for $\theta$**:
+    * $\theta = \frac{65^\circ}{5}$
+    * **$\theta = 13^\circ$**
+
+#### 3. Final Answer
+The value of $\theta$ that satisfies the equation is **$13^\circ$**.
