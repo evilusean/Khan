@@ -762,11 +762,11 @@ In a right triangle with acute angles $\alpha$ and $\beta$:
 Since the side opposite to $\alpha$ is the same side that is adjacent to $\beta$, and $\beta = 90^\circ - \alpha$, it follows that $\sin \alpha = \cos(90^\circ - \alpha)$.
 
 #### 4. Summary Table
-| Function | Cofunction | Identity (Degrees) |
-| :--- | :--- | :--- |
-| **Sine** | Cosine | $\sin \theta = \cos(90^\circ - \theta)$ |
-| **Tangent** | Cotangent | $\tan \theta = \cot(90^\circ - \theta)$ |
-| **Secant** | Cosecant | $\sec \theta = \csc(90^\circ - \theta)$ |
+| Function    | Cofunction | Identity (Degrees)                      |
+| :---------- | :--------- | :-------------------------------------- |
+| **Sine**    | Cosine     | $\sin \theta = \cos(90^\circ - \theta)$ |
+| **Tangent** | Cotangent  | $\tan \theta = \cot(90^\circ - \theta)$ |
+| **Secant**  | Cosecant   | $\sec \theta = \csc(90^\circ - \theta)$ |
 ### Finding the 6 Trigonometric Functions for a Right Triangle
 
 Based on the provided right triangle image, we can find the values of the six trigonometric functions for the angle $\theta$ using the side lengths provided.

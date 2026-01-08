@@ -140,3 +140,23 @@ Quotient identities express trigonometric functions as the ratio of two other tr
 #### 1. The Identities
 * **Tangent Identity**: $\tan \theta = \frac{\sin \theta}{\cos \theta}$
 * **Cotangent Identity**: $\cot \theta = \frac{\cos \theta}{\sin \theta}$
+
+### Cofunction Identities :
+
+#### 1. The Core Concept
+A trigonometric function of an acute angle $\theta$ is equal to the **cofunction** of its complement. This means the value of a function at $\theta$ is the same as the value of its "co-" partner at $90^\circ - \theta$.
+
+#### 2. List of Cofunction Identities
+These identities apply to the three pairs of cofunctions:
+
+**Sine and Cosine**
+* $\sin \theta = \cos(90^\circ - \theta)$
+* $\cos \theta = \sin(90^\circ - \theta)$
+
+**Tangent and Cotangent**
+* $\tan \theta = \cot(90^\circ - \theta)$
+* $\cot \theta = \tan(90^\circ - \theta)$
+
+**Secant and Cosecant**
+* $\sec \theta = \csc(90^\circ - \theta)$
+* $\csc \theta = \sec(90^\circ - \theta)$
