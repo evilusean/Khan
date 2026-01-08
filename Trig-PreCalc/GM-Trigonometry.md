@@ -943,6 +943,34 @@ This table includes all six trigonometric functions for the special angles $30^\
 * **Cosecant ($\csc$)**: Reciprocal of Sine
 * **Secant ($\sec$)**: Reciprocal of Cosine
 * **Cotangent ($\cot$)**: Reciprocal of Tangent
+### Using Reference Angles to Find Trigonometric Values
+
+The "use case" of a reference angle is that it allows us to create a right triangle (often called a **reference triangle**) in any quadrant. Even though $150^\circ$ is too "wide" to fit inside a right triangle, its reference angle of $30^\circ$ fits perfectly.
+
+#### 1. Visualizing the Reference Triangle
+When you draw an angle of $150^\circ$ in standard position, the terminal side sits in **Quadrant II**. To create a triangle:
+1.  Drop a perpendicular line from any point on the terminal side down to the **x-axis**.
+2.  The "gap" between that terminal side and the negative x-axis is your reference angle ($180^\circ - 150^\circ = 30^\circ$).
+3.  This forms a right triangle where the horizontal leg is on the x-axis and the vertical leg is the height.
+#### 2. Assigning Values to the Triangle
+Since the reference angle is $30^\circ$, we use the side ratios of a standard **30-60-90 triangle** ($1 : \sqrt{3} : 2$). However, we must apply the correct signs based on the quadrant:
+* **Opposite ($y$):** $1$ (Positive, because it goes up in QII)
+* **Adjacent ($x$):** $-\sqrt{3}$ (Negative, because it goes left in QII)
+* **Hypotenuse ($r$):** $2$ (Always positive)
+
+#### 3. Calculating the Values for $150^\circ$
+Now, you simply use the ratios from this "drawn" triangle. The trig values for $150^\circ$ are identical to the values for $30^\circ$, just with the signs adjusted for Quadrant II:
+
+* **$\sin(150^\circ) = \frac{y}{r} = \frac{1}{2}$** (Positive in QII)
+* **$\cos(150^\circ) = \frac{x}{r} = \frac{-\sqrt{3}}{2}$** (Negative in QII)
+* **$\tan(150^\circ) = \frac{y}{x} = \frac{1}{-\sqrt{3}} = -\frac{\sqrt{3}}{3}$** (Negative in QII)
+
+#### 4. Why Use the Reference Angle?
+The reference angle is a shortcut. Instead of memorizing every single angle on the unit circle, you only need to know the values for $30^\circ, 45^\circ,$ and $60^\circ$. 
+
+**The Rule:**
+$$\text{Trig Function}(\theta) = \pm \text{Trig Function}(\theta')$$
+You find the value using the acute reference angle ($\theta'$), and then you use the **ASTC rule** to decide if the result should be positive or negative based on the original angle's quadrant.
 ### Finding the Reference Angle for $\theta = -250^\circ$
 
 To find the reference angle ($\theta'$) for a negative angle, we first find its positive coterminal equivalent between $0^\circ$ and $360^\circ$ and then apply the quadrant-specific formula.
