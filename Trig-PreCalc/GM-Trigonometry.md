@@ -891,6 +891,58 @@ The formula used to find the reference angle ($\theta'$) depends on the quadrant
 * **Example 1 ($150^\circ$)**: Lies in QII. $\theta' = 180^\circ - 150^\circ = \mathbf{30^\circ}$.
 * **Example 2 ($225^\circ$)**: Lies in QIII. $\theta' = 225^\circ - 180^\circ = \mathbf{45^\circ}$.
 * **Example 3 ($-60^\circ$)**: Coterminal with $300^\circ$ (QIV). $\theta' = 360^\circ - 300^\circ = \mathbf{60^\circ}$.
+### Trigonometric Function Values of Special Angles
+
+Special angles—$30^\circ$, $45^\circ$, and $60^\circ$—are derived from two specific right triangles: the **45-45-90** triangle and the **30-60-90** triangle. These triangles provide exact values for trigonometric functions that are used throughout Calculus and Physics.
+
+#### 1. The 45-45-90 Triangle (Isosceles Right Triangle)
+In a 45-45-90 triangle, the two legs are equal in length.
+* **Side Ratios**: $1 : 1 : \sqrt{2}$
+* **Key Values**:
+    * $\sin(45^\circ) = \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2}$
+    * $\cos(45^\circ) = \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2}$
+    * $\tan(45^\circ) = 1$
+#### 2. The 30-60-90 Triangle
+This triangle is derived by cutting an equilateral triangle in half.
+* **Side Ratios**: $1 : \sqrt{3} : 2$
+    * Short leg (opposite $30^\circ$): $1$
+    * Long leg (opposite $60^\circ$): $\sqrt{3}$
+    * Hypotenuse: $2$
+* **Values for $30^\circ$**:
+    * $\sin(30^\circ) = \frac{1}{2}$
+    * $\cos(30^\circ) = \frac{\sqrt{3}}{2}$
+    * $\tan(30^\circ) = \frac{1}{\sqrt{3}} = \frac{\sqrt{3}}{3}$
+* **Values for $60^\circ$**:
+    * $\sin(60^\circ) = \frac{\sqrt{3}}{2}$
+    * $\cos(60^\circ) = \frac{1}{2}$
+    * $\tan(60^\circ) = \sqrt{3}$
+#### 3. Summary Table of Exact Values
+| Angle ($\theta$)         | $\sin \theta$ | $\cos \theta$ | $\tan \theta$ |
+| :----------------------- | :-----------: | :-----------: | :-----------: |
+| **$30^\circ$** ($\pi/6$) |     $1/2$     | $\sqrt{3}/2$  | $\sqrt{3}/3$  |
+| **$45^\circ$** ($\pi/4$) | $\sqrt{2}/2$  | $\sqrt{2}/2$  |      $1$      |
+| **$60^\circ$** ($\pi/3$) | $\sqrt{3}/2$  |     $1/2$     |  $\sqrt{3}$   |
+
+#### 4. Reciprocal Functions Summary
+* **$\csc(45^\circ) = \sqrt{2}$**
+* **$\sec(45^\circ) = \sqrt{2}$**
+* **$\cot(30^\circ) = \sqrt{3}$**
+* **$\csc(30^\circ) = 2$**
+### Expanded Summary Table of Exact Values
+
+This table includes all six trigonometric functions for the special angles $30^\circ$, $45^\circ$, and $60^\circ$.
+
+#### 1. Full Trigonometric Values Table
+| Angle ($\theta$) | $\sin \theta$ | $\cos \theta$ | $\tan \theta$ | $\csc \theta$ | $\sec \theta$ | $\cot \theta$ |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **$30^\circ$** ($\pi/6$) | $1/2$ | $\sqrt{3}/2$ | $\sqrt{3}/3$ | $2$ | $2\sqrt{3}/3$ | $\sqrt{3}$ |
+| **$45^\circ$** ($\pi/4$) | $\sqrt{2}/2$ | $\sqrt{2}/2$ | $1$ | $\sqrt{2}$ | $\sqrt{2}$ | $1$ |
+| **$60^\circ$** ($\pi/3$) | $\sqrt{3}/2$ | $1/2$ | $\sqrt{3}$ | $2\sqrt{3}/3$ | $2$ | $\sqrt{3}/3$ |
+
+#### 2. Quick Reference for Reciprocals
+* **Cosecant ($\csc$)**: Reciprocal of Sine
+* **Secant ($\sec$)**: Reciprocal of Cosine
+* **Cotangent ($\cot$)**: Reciprocal of Tangent
 ### Finding the Reference Angle for $\theta = -250^\circ$
 
 To find the reference angle ($\theta'$) for a negative angle, we first find its positive coterminal equivalent between $0^\circ$ and $360^\circ$ and then apply the quadrant-specific formula.
@@ -908,9 +960,32 @@ For Quadrant II, the formula is $\theta' = 180^\circ - \theta$:
 * **$\theta' = 70^\circ$**
 
 #### Summary Table
-| Step | Value |
-| :--- | :--- |
-| **Original Angle ($\theta$)** | $-250^\circ$ |
-| **Coterminal Angle** | $110^\circ$ |
-| **Quadrant** | II |
+| Step                            | Value          |
+| :------------------------------ | :------------- |
+| **Original Angle ($\theta$)**   | $-250^\circ$   |
+| **Coterminal Angle**            | $110^\circ$    |
+| **Quadrant**                    | II             |
 | **Reference Angle ($\theta'$)** | **$70^\circ$** |
+### Finding the Reference Angle for $\theta = 560^\circ$
+
+To find the reference angle ($\theta'$) for an angle greater than $360^\circ$, we first find its coterminal equivalent within one full rotation and then apply the appropriate quadrant formula.
+
+#### 1. Find the Coterminal Angle
+Subtract $360^\circ$ from the original angle to find its position within the first rotation ($0^\circ$ to $360^\circ$):
+* $560^\circ - 360^\circ = \mathbf{200^\circ}$
+
+#### 2. Identify the Quadrant
+* Since $180^\circ < 200^\circ < 270^\circ$, the terminal side lies in **Quadrant III**.
+
+#### 3. Apply the Reference Angle Formula
+For Quadrant III, the formula is $\theta' = \theta - 180^\circ$:
+* $\theta' = 200^\circ - 180^\circ$
+* **$\theta' = 20^\circ$**
+
+#### Summary Table
+| Step                            | Value          |
+| :------------------------------ | :------------- |
+| **Original Angle ($\theta$)**   | $560^\circ$    |
+| **Coterminal Angle**            | $200^\circ$    |
+| **Quadrant**                    | III            |
+| **Reference Angle ($\theta'$)** | **$20^\circ$** |
