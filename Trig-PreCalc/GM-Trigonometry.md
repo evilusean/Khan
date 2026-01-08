@@ -1017,3 +1017,35 @@ For Quadrant III, the formula is $\theta' = \theta - 180^\circ$:
 | **Coterminal Angle**            | $200^\circ$    |
 | **Quadrant**                    | III            |
 | **Reference Angle ($\theta'$)** | **$20^\circ$** |
+### Evaluating $\cos(-600^\circ)$ Using Reference Angles
+
+To evaluate the trigonometric value of an angle outside the standard $0^\circ$ to $360^\circ$ range, we follow a three-step process: find a coterminal angle, determine the reference angle, and apply the correct sign based on the quadrant.
+
+#### 1. Find the Coterminal Angle
+First, we add multiples of $360^\circ$ to $-600^\circ$ to find an equivalent angle within the first positive rotation:
+* $-600^\circ + 360^\circ = -240^\circ$
+* $-240^\circ + 360^\circ = \mathbf{120^\circ}$
+
+#### 2. Identify Quadrant and Reference Angle ($\theta'$)
+* **Quadrant**: $120^\circ$ lies between $90^\circ$ and $180^\circ$, so the terminal side is in **Quadrant II**.
+* **Reference Angle**: In QII, the formula is $\theta' = 180^\circ - \theta$.
+    * $\theta' = 180^\circ - 120^\circ$
+    * **$\theta' = 60^\circ$**
+
+#### 3. Determine the Sign and Evaluate
+* **Sign**: According to the ASTC rule, **Cosine is negative** in Quadrant II.
+* **Special Value**: Recall that $\cos(60^\circ) = \frac{1}{2}$.
+
+**Calculation**:
+$$\cos(-600^\circ) = \cos(120^\circ)$$
+$$\cos(120^\circ) = -\cos(60^\circ)$$
+$$\cos(120^\circ) = -\frac{1}{2}$$
+
+#### Summary Table
+| Step                 | Value                   |
+| :------------------- | :---------------------- |
+| **Original Angle**   | $-600^\circ$            |
+| **Coterminal Angle** | $120^\circ$             |
+| **Quadrant**         | II (Cosine is negative) |
+| **Reference Angle**  | $60^\circ$              |
+| **Final Value**      | **$-1/2$**              |
