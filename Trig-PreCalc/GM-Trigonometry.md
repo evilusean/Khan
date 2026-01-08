@@ -733,3 +733,37 @@ Acute angles in a right triangle are complementary ($\theta$ and $90^\circ - \th
 | **Cosecant**  | $\csc$       | $\text{Hyp} / \text{Opp}$ |
 | **Secant**    | $\sec$       | $\text{Hyp} / \text{Adj}$ |
 | **Cotangent** | $\cot$       | $\text{Adj} / \text{Opp}$ |
+### Finding the 6 Trigonometric Functions for a Right Triangle
+
+Based on the provided right triangle image, we can find the values of the six trigonometric functions for the angle $\theta$ using the side lengths provided.
+
+#### 1. Identify the Sides
+From the triangle in the image:
+* **Opposite side** (across from $\theta$): $2$
+* **Adjacent side** (next to $\theta$): $4$
+* **Hypotenuse** (opposite the right angle): $2\sqrt{5}$
+
+#### 2. Calculate the 6 Functions
+Using the standard ratios for a right triangle:
+
+**Primary Functions:**
+* **$\sin \theta = \frac{\text{Opposite}}{\text{Hypotenuse}} = \frac{2}{2\sqrt{5}} = \frac{1}{\sqrt{5}}$**
+    * Rationalized: **$\frac{\sqrt{5}}{5}$**
+* **$\cos \theta = \frac{\text{Adjacent}}{\text{Hypotenuse}} = \frac{4}{2\sqrt{5}} = \frac{2}{\sqrt{5}}$**
+    * Rationalized: **$\frac{2\sqrt{5}}{5}$**
+* **$\tan \theta = \frac{\text{Opposite}}{\text{Adjacent}} = \frac{2}{4} = \frac{1}{2}$**
+
+**Reciprocal Functions:**
+* **$\csc \theta = \frac{\text{Hypotenuse}}{\text{Opposite}} = \frac{2\sqrt{5}}{2} = \sqrt{5}$**
+* **$\sec \theta = \frac{\text{Hypotenuse}}{\text{Adjacent}} = \frac{2\sqrt{5}}{4} = \frac{\sqrt{5}}{2}$**
+* **$\cot \theta = \frac{\text{Adjacent}}{\text{Opposite}} = \frac{4}{2} = 2$**
+
+#### 3. Summary Table
+| Function | Exact Ratio | Simplified/Rationalized |
+| :--- | :---: | :---: |
+| $\sin \theta$ | $2 / 2\sqrt{5}$ | $\sqrt{5} / 5$ |
+| $\cos \theta$ | $4 / 2\sqrt{5}$ | $2\sqrt{5} / 5$ |
+| $\tan \theta$ | $2 / 4$ | $1 / 2$ |
+| $\csc \theta$ | $2\sqrt{5} / 2$ | $\sqrt{5}$ |
+| $\sec \theta$ | $2\sqrt{5} / 4$ | $\sqrt{5} / 2$ |
+| $\cot \theta$ | $4 / 2$ | $2$ |
