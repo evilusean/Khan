@@ -1207,3 +1207,40 @@ Because the horizontal line for the "viewer" at the top and the horizontal groun
 | **Angle of Elevation**  | Upward             | Between horizontal ground and line of sight    |
 | **Angle of Depression** | Downward           | Between horizontal eye-level and line of sight |
 | **Key Identity**        | Equal              | Both are equal if viewing the same two points  |
+### Solving the Right Triangle 
+
+#### 1. Analysis of Given Information
+We will use standard notation where $C$ is the right angle and $c$ is the hypotenuse.
+
+* **Angle $C$**: $90^\circ$ (Right angle)
+* **Angle $A$**: $37^\circ$ (Given acute angle)
+* **Side $c$**: $14$ (Hypotenuse)
+
+#### 2. Solving for the Missing Angle ($B$)
+Since the two acute angles in a right triangle must add up to $90^\circ$:
+* $B = 90^\circ - 37^\circ$
+* **$B = 53^\circ$**
+
+#### 3. Solving for Side $a$ (Opposite to $37^\circ$)
+To find the side opposite Angle $A$, we use the **Sine** function ($\sin = \text{Opposite} / \text{Hypotenuse}$):
+* $\sin(37^\circ) = \frac{a}{14}$
+* $a = 14 \times \sin(37^\circ)$
+* $a \approx 14 \times 0.6018$
+* **$a \approx 8.43$**
+
+#### 4. Solving for Side $b$ (Adjacent to $37^\circ$)
+To find the base side, we use the **Cosine** function ($\cos = \text{Adjacent} / \text{Hypotenuse}$):
+* $\cos(37^\circ) = \frac{b}{14}$
+* $b = 14 \times \cos(37^\circ)$
+* $b \approx 14 \times 0.7986$
+* **$b \approx 11.18$**
+
+#### Summary Table
+| Part | Value | Status |
+| :--- | :--- | :--- |
+| **Angle A** | $37^\circ$ | Given |
+| **Angle B** | $53^\circ$ | Calculated |
+| **Angle C** | $90^\circ$ | Given |
+| **Side a (Opposite A)** | $\approx 8.43$ | Calculated |
+| **Side b (Adjacent A)** | $\approx 11.18$ | Calculated |
+| **Side c (Hypotenuse)** | $14$ | Given |
