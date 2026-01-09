@@ -1168,3 +1168,42 @@ Calculators do not have `sec⁻¹` buttons. To find $\theta$ for $\sec \theta = 
 3. $\theta = 60^\circ$.
 ## 2026-January-09 - Solving Right Triangles | Angles of Elevation / Depression : 
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=2h39m15s
+### Solving Right Triangles: Angles of Elevation and Depression
+
+When we "solve" a right triangle, we are finding the lengths of all three sides and the measures of all three angles. Angles of Elevation and Depression are specific types of angles used to solve real-world distance and height problems.
+
+#### 1. Solving a Right Triangle
+To solve a right triangle, you generally need to know:
+* One side and one acute angle, **OR**
+* Two sides.
+Once you have these, you use $SOH CAH TOA$ to find the missing pieces.
+
+#### 2. Angle of Elevation
+The **Angle of Elevation** is the angle formed by a horizontal line of sight and the line of sight **up** to an object.
+* **Point of View**: Looking from the ground up to the top of a building or a bird in a tree.
+* **Placement**: It is always inside the triangle at the base, looking up.
+
+#### 3. Angle of Depression
+The **Angle of Depression** is the angle formed by a horizontal line of sight and the line of sight **down** to an object.
+* **Point of View**: Looking from the top of a cliff down to a boat or from a plane down to a runway.
+* **Critical Rule**: The angle of depression is located **outside** the vertical triangle (between the horizontal line and the hypotenuse).
+
+#### 4. The Geometry Shortcut (Parallel Lines)
+Because the horizontal line for the "viewer" at the top and the horizontal ground at the bottom are **parallel**, the Angle of Depression is equal to the Angle of Elevation from the object back up to the viewer.
+* **Rule**: $\text{Angle of Depression} = \text{Angle of Elevation}$ (due to alternate interior angles).
+
+#### 5. Step-by-Step Problem Solving
+1. **Draw a Diagram**: Start with a horizontal line.
+2. **Identify the Angle**: Label the angle of elevation or depression.
+3. **Label Sides**: Identify which side is the Opposite, Adjacent, or Hypotenuse relative to your angle.
+4. **Choose a Function**:
+    * Use **Tangent** if you have/need the height and the horizontal distance (Opposite and Adjacent).
+    * Use **Sine** or **Cosine** if the hypotenuse (slant distance) is involved.
+5. **Solve**: Use your calculator (ensure it's in **DEGREE** mode).
+
+#### 6. Summary Table
+| Term                    | Direction of Sight | Angle Location                                 |
+| :---------------------- | :----------------- | :--------------------------------------------- |
+| **Angle of Elevation**  | Upward             | Between horizontal ground and line of sight    |
+| **Angle of Depression** | Downward           | Between horizontal eye-level and line of sight |
+| **Key Identity**        | Equal              | Both are equal if viewing the same two points  |
