@@ -1082,4 +1082,5 @@ $$\sec(135^\circ) = -\sqrt{2}$$
 | **Quadrant**         | II (Secant is negative) |
 | **Reference Angle**  | $45^\circ$              |
 | **Final Value**      | **$-\sqrt{2}$**         |
+## 2026-January-09 - Findining Trigonometric Function Values Using a Calculator | Using Inverse Trigonometric Functions to Find Angles :
 
