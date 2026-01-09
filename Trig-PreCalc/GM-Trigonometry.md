@@ -1167,3 +1167,4 @@ Calculators do not have `sec⁻¹` buttons. To find $\theta$ for $\sec \theta = 
 2. Use the calculator: $\theta = \cos^{-1}(0.5)$.
 3. $\theta = 60^\circ$.
 ## 2026-January-09 - Solving Right Triangles | Abgkes if Elevation / Depression : 
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=2h39m15s
