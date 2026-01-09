@@ -1244,3 +1244,92 @@ To find the base side, we use the **Cosine** function ($\cos = \text{Adjacent} /
 | **Side a (Opposite A)** | $\approx 8.43$ | Calculated |
 | **Side b (Adjacent A)** | $\approx 11.18$ | Calculated |
 | **Side c (Hypotenuse)** | $14$ | Given |
+### Solving the Right Triangle (Hypotenuse and One Leg Given)
+
+To solve this triangle, we use the **Pythagorean Theorem** to find the missing side and **Inverse Trigonometric Functions** to find the missing angles.
+
+#### 1. Analysis of Given Information
+In standard right triangle notation (where $C$ is the $90^\circ$ angle):
+* **Side $b$ (Adjacent to $A$):** $4$
+* **Side $c$ (Hypotenuse):** $15.4$
+* **Side $a$ (Opposite to $A$):** Unknown
+* **Angle $C$:** $90^\circ$
+
+#### 2. Step-by-Step Solution
+
+**Step 1: Solve for Side $a$ (The missing leg)**
+We use the Pythagorean Theorem: $a^2 + b^2 = c^2$.
+* $a^2 + 4^2 = 15.4^2$
+* $a^2 + 16 = 237.16$
+* $a^2 = 237.16 - 16$
+* $a^2 = 221.16$
+* $a = \sqrt{221.16} \approx \mathbf{14.87}$
+
+**Step 2: Solve for Angle $A$**
+Since we know the **Adjacent** side ($4$) and the **Hypotenuse** ($15.4$), we use the inverse cosine function ($\arccos$ or $\cos^{-1}$):
+* $\cos(A) = \frac{\text{Adjacent}}{\text{Hypotenuse}} = \frac{4}{15.4}$
+* $A = \cos^{-1}\left(\frac{4}{15.4}\right)$
+* $A \approx \cos^{-1}(0.2597)$
+* **$A \approx 74.95^\circ$**
+
+**Step 3: Solve for Angle $B$**
+The two acute angles must sum to $90^\circ$:
+* $B = 90^\circ - 74.95^\circ$
+* **$B \approx 15.05^\circ$**
+
+#### 3. Final Result Summary
+| Part        | Value                 | Status                         |
+| :---------- | :-------------------- | :----------------------------- |
+| **Angle A** | $\approx 74.95^\circ$ | Calculated ($\cos^{-1}$)       |
+| **Angle B** | $\approx 15.05^\circ$ | Calculated ($90 - A$)          |
+| **Angle C** | $90^\circ$            | Given                          |
+| **Side a**  | $\approx 14.87$       | Calculated ($a^2 + b^2 = c^2$) |
+| **Side b**  | $4$                   | Given                          |
+| **Side c**  | $15.4$                | Given                          |
+### Word Problem: Flagpole Height Calculation
+
+**Problem:**
+When Max is **123 feet** away from the base of the school's flagpole, the angle of elevation to the top of the flagpole is **26° 40'**. Find the height of the flagpole if his eyes are **5.30 feet** above the ground.
+
+---
+
+### 1. Analysis of Given Information
+* **Distance (Adjacent side, $b$):** $123$ feet.
+* **Angle of Elevation ($\theta$):** $26^\circ 40'$.
+* **Eye Level Height ($h_{eye}$):** $5.30$ feet.
+* **Goal:** Find the total height of the flagpole ($H$).
+
+
+---
+
+### 2. Step-by-Step Solution
+
+#### Step 1: Convert Angle to Decimal Degrees
+Trigonometric functions in code and most calculators work best with decimal degrees. Since there are 60 minutes in a degree:
+* $40' = \frac{40}{60} = 0.666...^\circ$
+* $\theta = 26.667^\circ$
+
+#### Step 2: Solve for the height above eye level ($a$)
+We use the **Tangent** function because we have the **Adjacent** side ($123$) and want to find the **Opposite** side ($a$).
+$$\tan(\theta) = \frac{\text{Opposite}}{\text{Adjacent}}$$
+* $\tan(26.667^\circ) = \frac{a}{123}$
+* $a = 123 \times \tan(26.667^\circ)$
+* $a \approx 123 \times 0.5022$
+* $a \approx \mathbf{61.77 \text{ feet}}$
+
+#### Step 3: Calculate Total Height ($H$)
+To get the total height of the flagpole, we must add Max's eye level height to the calculated side $a$.
+* $H = a + h_{eye}$
+* $H = 61.77 + 5.30$
+* **$H \approx 67.07 \text{ feet}$**
+
+---
+
+### 3. Summary Table
+| Variable | Value | Description |
+| :--- | :--- | :--- |
+| **$\theta$** | $26.667^\circ$ | Angle of elevation |
+| **$b$** | $123 \text{ ft}$ | Horizontal distance to pole |
+| **$a$** | $\approx 61.77 \text{ ft}$ | Height of pole above eye level |
+| **$h_{eye}$** | $5.30 \text{ ft}$ | Height of observer's eyes |
+| **$H$** | $\approx \mathbf{67.07 \text{ ft}}$ | **Total Flagpole Height** |
