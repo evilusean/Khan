@@ -1084,4 +1084,37 @@ $$\sec(135^\circ) = -\sqrt{2}$$
 | **Final Value**      | **$-\sqrt{2}$**         |
 ## 2026-January-09 - Finding Trigonometric Function Values Using a Calculator | Using Inverse Trigonometric Functions to Find Angles :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=2h26m35s
+### Finding Trigonometric Function Values Using a Calculator
 
+When exact values (like $\sqrt{3}/2$) are not required or when dealing with non-special angles, calculators are used to find decimal approximations.
+
+#### 1. Setting the Correct Mode
+Before performing any calculations, you must ensure your calculator is in the correct mode for the angle unit you are using. Entering a degree value while in radian mode (or vice versa) will result in an incorrect answer.
+* **Degree Mode ($^\circ$):** Use this when your angle is given in degrees (e.g., $30^\circ$).
+* **Radian Mode:** Use this when your angle is in radians (e.g., $\pi/6$ or $0.5$).
+
+#### 2. Evaluating Primary Functions ($\sin, \cos, \tan$)
+Most scientific and graphing calculators have dedicated buttons for these:
+* **Steps:** Press the function key (e.g., `SIN`), enter the angle value, and press `ENTER` or =.
+* **Example:** To find $\sin(46^\circ)$, ensure you are in degree mode and input `SIN(46)`.
+
+#### 3. Evaluating Reciprocal Functions ($\csc, \sec, \cot$)
+Calculators typically do NOT have dedicated buttons for these. You must use their reciprocal identities:
+* **Cosecant:** $\csc \theta = 1 / \sin \theta$
+* **Secant:** $\sec \theta = 1 / \cos \theta$
+* **Cotangent:** $\cot \theta = 1 / \tan \theta$
+* **Calculator Input:** To find $\sec(45^\circ)$, you would input `1 / COS(45)`.
+
+#### 4. Inverse Trigonometric Functions
+To find an angle $\theta$ when you know the value (e.g., $\sin \theta = 0.5$), use the inverse functions:
+* **Buttons:** Usually labeled as $\sin^{-1}$, $\cos^{-1}$, and $\tan^{-1}$ (often accessed via a `2nd` or `SHIFT` key).
+* **The Result:** The calculator returns the **principal angle**. For example, `SIN⁻¹(0.5)` returns $30^\circ$.
+* **Caution:** The calculator only provides one value. Because functions are periodic, other angles (like $150^\circ$) may share the same value.
+
+#### 5. Summary Table
+| Goal | Calculator Input Method |
+| :--- | :--- |
+| **Find Sine, Cosine, Tangent** | Use direct buttons (`SIN`, `COS`, `TAN`) |
+| **Find Reciprocal Functions** | Use `1 / (Primary Function)` |
+| **Find an Angle** | Use Inverse buttons (`SIN⁻¹`, etc.) |
+| **Verify Mode** | Check screen for **DEG** or **RAD** |
