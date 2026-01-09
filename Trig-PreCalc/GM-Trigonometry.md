@@ -1083,4 +1083,5 @@ $$\sec(135^\circ) = -\sqrt{2}$$
 | **Reference Angle**  | $45^\circ$              |
 | **Final Value**      | **$-\sqrt{2}$**         |
 ## 2026-January-09 - Findining Trigonometric Function Values Using a Calculator | Using Inverse Trigonometric Functions to Find Angles :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=2h26m35s
 
