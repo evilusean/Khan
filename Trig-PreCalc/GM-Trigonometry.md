@@ -1118,3 +1118,51 @@ To find an angle $\theta$ when you know the value (e.g., $\sin \theta = 0.5$), u
 | **Find Reciprocal Functions** | Use `1 / (Primary Function)` |
 | **Find an Angle** | Use Inverse buttons (`SIN⁻¹`, etc.) |
 | **Verify Mode** | Check screen for **DEG** or **RAD** |
+### Using Inverse Trigonometric Functions to Find Angles
+
+Inverse trigonometric functions are used to "undo" a trigonometric function to find the measure of an unknown angle $\theta$. 
+
+#### 1. Notation: $cos^{-1}$ vs. $arccos$
+Both notations refer to the same mathematical operation.
+* **$cos^{-1}(x)$**: This is the notation typically used on scientific calculators. It does *not* mean $1/\cos(x)$; it represents the "inverse cosine."
+* **$\arccos(x)$**: This is the standard written notation. 
+* **The Goal**: If $\cos \theta = x$, then $\theta = \arccos(x)$.
+
+#### 2. The Role of Restrictions
+Trigonometric functions are periodic (they repeat forever). This means there are infinite angles that could result in the same cosine value. To get a single, useful answer, we use **Restrictions**.
+
+**Common Restriction: $0^\circ \le \theta \le 90^\circ$**
+* This tells you the angle must be **acute** (in Quadrant I).
+* This is common in geometry and right-triangle problems where negative angles or angles larger than a triangle can hold don't make sense.
+
+#### 3. Using a Calculator with Restrictions
+When you use a calculator to find an angle, it follows built-in "Principal Value" ranges.
+
+**For $\cos^{-1}(x)$:**
+* The calculator is programmed to only give answers between **$0^\circ$ and $180^\circ$**.
+* If your restriction is **$0^\circ \le \theta \le 90^\circ$**, you simply use the calculator value directly as long as the input $x$ is positive.
+
+**Step-by-Step Calculator Process:**
+1. **Check Mode:** Ensure the calculator is in **DEGREE** mode.
+2. **Input:** Press `2nd` or `Shift`, then the `COS` button (this activates $cos^{-1}$).
+3. **Value:** Enter the decimal or fraction value.
+4. **Solve:** Press `ENTER` or =.
+
+**Example:**
+Find $\theta$ if $\cos \theta = 0.866$ and $0^\circ \le \theta \le 90^\circ$.
+* Input: `cos⁻¹(0.866)`
+* Output: $\approx 30^\circ$
+* This fits your restriction, so $\theta = 30^\circ$.
+
+#### 4. Summary Table
+| Function | Notation | Calculator Buttons | Range of Result |
+| :--- | :--- | :--- | :--- |
+| **Inverse Sine** | $\arcsin(x)$ or $\sin^{-1}(x)$ | `2nd` + `SIN` | $-90^\circ$ to $90^\circ$ |
+| **Inverse Cosine** | $\arccos(x)$ or $\cos^{-1}(x)$ | `2nd` + `COS` | $0^\circ$ to $180^\circ$ |
+| **Inverse Tangent** | $\arctan(x)$ or $\tan^{-1}(x)$ | `2nd` + `TAN` | $-90^\circ$ to $90^\circ$ |
+
+#### 5. Important Note on Secant/Cosecant/Cotangent
+Calculators do not have `sec⁻¹` buttons. To find $\theta$ for $\sec \theta = 2$:
+1. Convert to cosine: $\cos \theta = 1/2$.
+2. Use the calculator: $\theta = \cos^{-1}(0.5)$.
+3. $\theta = 60^\circ$.
