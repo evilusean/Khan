@@ -1075,10 +1075,11 @@ $$\sec(135^\circ) = -\sec(45^\circ)$$
 $$\sec(135^\circ) = -\sqrt{2}$$
 
 #### Summary Table
-| Step | Value |
-| :--- | :--- |
-| **Original Angle** | $495^\circ$ |
-| **Coterminal Angle** | $135^\circ$ |
-| **Quadrant** | II (Secant is negative) |
-| **Reference Angle** | $45^\circ$ |
-| **Final Value** | **$-\sqrt{2}$** |
+| Step                 | Value                   |
+| :------------------- | :---------------------- |
+| **Original Angle**   | $495^\circ$             |
+| **Coterminal Angle** | $135^\circ$             |
+| **Quadrant**         | II (Secant is negative) |
+| **Reference Angle**  | $45^\circ$              |
+| **Final Value**      | **$-\sqrt{2}$**         |
+

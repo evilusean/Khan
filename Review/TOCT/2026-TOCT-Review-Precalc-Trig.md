@@ -160,3 +160,31 @@ These identities apply to the three pairs of cofunctions:
 **Secant and Cosecant**
 * $\sec \theta = \csc(90^\circ - \theta)$
 * $\csc \theta = \sec(90^\circ - \theta)$
+### Reference Angles ($\theta'$)
+
+A **reference angle** is the positive acute angle formed by the terminal side of an angle $\theta$ and the **x-axis**. Reference angles allow us to simplify the evaluation of trigonometric functions for any non-acute angle by relating them back to angles in the first quadrant.
+
+#### 1. Key Characteristics
+* **Always Acute**: The value is always between $0^\circ$ and $90^\circ$ ($0$ and $\pi/2$ radians).
+* **Always Positive**: Reference angles are absolute measures of rotation from the x-axis.
+* **X-Axis Only**: They are never measured from the y-axis.
+
+#### 2. Calculating Reference Angles by Quadrant
+The formula used to find the reference angle ($\theta'$) depends on the quadrant in which the terminal side of the original angle ($\theta$) lies:
+
+| Quadrant         | Location of $\theta$             | Reference Angle Formula ($\theta'$) |
+| :--------------- | :------------------------------- | :---------------------------------- |
+| **Quadrant I**   | $0^\circ < \theta < 90^\circ$    | $\theta' = \theta$                  |
+| **Quadrant II**  | $90^\circ < \theta < 180^\circ$  | $\theta' = 180^\circ - \theta$      |
+| **Quadrant III** | $180^\circ < \theta < 270^\circ$ | $\theta' = \theta - 180^\circ$      |
+| **Quadrant IV**  | $270^\circ < \theta < 360^\circ$ | $\theta' = 360^\circ - \theta$      |
+### Trigonometric Function Values of Special Angles
+
+Special angles—$30^\circ$, $45^\circ$, and $60^\circ$—are derived from two specific right triangles: the **45-45-90** triangle and the **30-60-90** triangle. These triangles provide exact values for trigonometric functions that are used throughout Calculus and Physics.
+#### 1. Full Trigonometric Values Table
+| Angle ($\theta$)         | $\sin \theta$ | $\cos \theta$ | $\tan \theta$ | $\csc \theta$ | $\sec \theta$ | $\cot \theta$ |
+| :----------------------- | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| **$30^\circ$** ($\pi/6$) |     $1/2$     | $\sqrt{3}/2$  | $\sqrt{3}/3$  |      $2$      | $2\sqrt{3}/3$ |  $\sqrt{3}$   |
+| **$45^\circ$** ($\pi/4$) | $\sqrt{2}/2$  | $\sqrt{2}/2$  |      $1$      |  $\sqrt{2}$   |  $\sqrt{2}$   |      $1$      |
+| **$60^\circ$** ($\pi/3$) | $\sqrt{3}/2$  |     $1/2$     |  $\sqrt{3}$   | $2\sqrt{3}/3$ |      $2$      | $\sqrt{3}/3$  |
+
