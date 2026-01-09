@@ -1326,10 +1326,11 @@ To get the total height of the flagpole, we must add Max's eye level height to t
 ---
 
 ### 3. Summary Table
-| Variable | Value | Description |
-| :--- | :--- | :--- |
-| **$\theta$** | $26.667^\circ$ | Angle of elevation |
-| **$b$** | $123 \text{ ft}$ | Horizontal distance to pole |
-| **$a$** | $\approx 61.77 \text{ ft}$ | Height of pole above eye level |
-| **$h_{eye}$** | $5.30 \text{ ft}$ | Height of observer's eyes |
-| **$H$** | $\approx \mathbf{67.07 \text{ ft}}$ | **Total Flagpole Height** |
+| Variable      | Value                               | Description                    |
+| :------------ | :---------------------------------- | :----------------------------- |
+| **$\theta$**  | $26.667^\circ$                      | Angle of elevation             |
+| **$b$**       | $123 \text{ ft}$                    | Horizontal distance to pole    |
+| **$a$**       | $\approx 61.77 \text{ ft}$          | Height of pole above eye level |
+| **$h_{eye}$** | $5.30 \text{ ft}$                   | Height of observer's eyes      |
+| **$H$**       | $\approx \mathbf{67.07 \text{ ft}}$ | **Total Flagpole Height**      |
+## 2026-January-09 - Converting Between Radians and Degrees :
