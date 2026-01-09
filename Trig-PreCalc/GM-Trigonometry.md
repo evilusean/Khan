@@ -1334,3 +1334,4 @@ To get the total height of the flagpole, we must add Max's eye level height to t
 | **$h_{eye}$** | $5.30 \text{ ft}$                   | Height of observer's eyes      |
 | **$H$**       | $\approx \mathbf{67.07 \text{ ft}}$ | **Total Flagpole Height**      |
 ## 2026-January-09 - Converting Between Radians and Degrees :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=2h51m35s
