@@ -1,3 +1,7 @@
+
+Find All Formulas you need for trig and make a cheetsheet - any you don't know, look up
+
+---
 - https://www.youtube.com/watch?v=GsIo3B46yjU # Inverse Functions - Domain & range- With Fractions, Square Roots, & Graphs
 - Radians / degrees, minutes, seconds - converting manually 
 - Arclength and sector area
@@ -202,4 +206,19 @@ $$s = r\theta$$
 **If $\theta$ is in Degrees (The Proportional Method):**
 You take a fraction of the total circumference ($2\pi r$):
 $$s = \frac{\theta}{360^\circ} \times 2\pi r$$
+
+### Area of a Sector of a Circle
+#### Formula 1: Using Radians
+When the angle $\theta$ is measured in **radians**, the formula is derived from the proportion of the sector's area to the total area of the circle ($A = \pi r^2$):
+
+$$\text{Area} = \frac{1}{2} r^2 \theta$$
+
+* **$r$**: Radius of the circle
+* **$\theta$**: Central angle in radians
+
+---
+#### Formula 2: Using Degrees
+If the angle $\theta$ is measured in **degrees**, the formula is adjusted to represent the fraction of the $360^\circ$ circle:
+
+$$\text{Area} = \frac{\theta}{360} \times \pi r^2$$
 

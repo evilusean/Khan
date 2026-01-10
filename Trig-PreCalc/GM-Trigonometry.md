@@ -1506,3 +1506,39 @@ $$s = \frac{\theta}{360^\circ} \times 2\pi r$$
     $$s = 6 \times \frac{2\pi}{3}$$
 3.  **Simplify:**
     $$s = 4\pi \approx 12.57 \text{ cm}$$
+### Area of a Sector of a Circle
+
+A **sector** of a circle is the portion of the disk enclosed by two radii and an arc. You can think of it as a "slice" of a pizza or pie.
+
+---
+#### Geometric Definition
+The area of a sector depends on the **radius ($r$)** of the circle and the **central angle ($\theta$)** subtended by the arc at the center.
+
+---
+#### Formula 1: Using Radians
+When the angle $\theta$ is measured in **radians**, the formula is derived from the proportion of the sector's area to the total area of the circle ($A = \pi r^2$):
+
+$$\text{Area} = \frac{1}{2} r^2 \theta$$
+
+* **$r$**: Radius of the circle
+* **$\theta$**: Central angle in radians
+
+---
+#### Formula 2: Using Degrees
+If the angle $\theta$ is measured in **degrees**, the formula is adjusted to represent the fraction of the $360^\circ$ circle:
+
+$$\text{Area} = \frac{\theta}{360} \times \pi r^2$$
+
+---
+#### Relationship to Arc Length
+Since the arc length $s$ is defined as $s = r\theta$, you can also express the area in terms of the arc length:
+
+$$\text{Area} = \frac{1}{2} rs$$
+
+---
+#### Example Calculation
+**Problem:** Find the area of a sector with a radius of $6\text{ cm}$ and a central angle of $\frac{\pi}{3}$ radians.
+
+1.  **Identify variables:** $r = 6$, $\theta = \frac{\pi}{3}$.
+2.  **Apply formula:** $A = \frac{1}{2}(6)^2(\frac{\pi}{3})$.
+3.  **Simplify:** $A = \frac{1}{2}(36)(\frac{\pi}{3}) = 18(\frac{\pi}{3}) = 6\pi\text{ cm}^2$.
