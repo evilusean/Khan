@@ -221,4 +221,38 @@ $$\text{Area} = \frac{1}{2} r^2 \theta$$
 If the angle $\theta$ is measured in **degrees**, the formula is adjusted to represent the fraction of the $360^\circ$ circle:
 
 $$\text{Area} = \frac{\theta}{360} \times \pi r^2$$
+### Area of a Sector for $\theta = \frac{3\pi}{2}$
 
+Calculating the area of a sector when the angle is $\frac{3\pi}{2}$ radians is straightforward using the radian-based area formula. Since $\frac{3\pi}{2}$ is equivalent to $270^\circ$, you are essentially finding the area of **three-quarters** of the circle.
+
+---
+
+#### 1. The General Formula (Radians)
+For a central angle $\theta$ measured in radians, the area $A$ is:
+
+$$A = \frac{1}{2} r^2 \theta$$
+
+---
+
+#### 2. Calculation with $\theta = \frac{3\pi}{2}$
+Substitute the given angle into the formula:
+
+$$A = \frac{1}{2} r^2 \left( \frac{3\pi}{2} \right)$$
+
+Multiply the constants:
+
+$$A = \frac{3\pi}{4} r^2$$
+
+
+
+---
+
+#### 3. Summary of Results
+| Variable | Value |
+| :--- | :--- |
+| **Central Angle ($\theta$)** | $\frac{3\pi}{2}$ radians ($270^\circ$) |
+| **Fraction of Circle** | $\frac{3}{4}$ |
+| **Final Area ($A$)** | $\frac{3}{4} \pi r^2$ |
+
+> [!NOTE]
+> This result confirms the geometric intuition: because $\frac{3\pi}{2}$ is three-fourths of a full rotation ($2\pi$), the area is exactly three-fourths of the total area of the circle ($\pi r^2$).
