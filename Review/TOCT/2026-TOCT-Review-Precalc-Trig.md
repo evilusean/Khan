@@ -188,3 +188,18 @@ Special angles—$30^\circ$, $45^\circ$, and $60^\circ$—are derived from two s
 | **$45^\circ$** ($\pi/4$) | $\sqrt{2}/2$  | $\sqrt{2}/2$  |      $1$      |  $\sqrt{2}$   |  $\sqrt{2}$   |      $1$      |
 | **$60^\circ$** ($\pi/3$) | $\sqrt{3}/2$  |     $1/2$     |  $\sqrt{3}$   | $2\sqrt{3}/3$ |      $2$      | $\sqrt{3}/3$  |
 
+### Arc Length on a Circle
+The **Arc Length** ($s$) is the distance along the curved line that makes up a section of a circle's circumference. Think of it as the "crust" of a pizza slice.
+
+#### 1. The Core Formulas
+The formula you use depends on whether your central angle ($\theta$) is in **Radians** or **Degrees**.
+
+**If $\theta$ is in Radians (The Direct Method):**
+Since a radian is defined by the ratio of the arc length to the radius, the formula is elegant and simple:
+$$s = r\theta$$
+*(Where $s$ = arc length, $r$ = radius, and $\theta$ = central angle in radians)*
+
+**If $\theta$ is in Degrees (The Proportional Method):**
+You take a fraction of the total circumference ($2\pi r$):
+$$s = \frac{\theta}{360^\circ} \times 2\pi r$$
+
