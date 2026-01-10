@@ -1335,3 +1335,136 @@ To get the total height of the flagpole, we must add Max's eye level height to t
 | **$H$**       | $\approx \mathbf{67.07 \text{ ft}}$ | **Total Flagpole Height**      |
 ## 2026-January-09 - Converting Between Radians and Degrees :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=2h51m35s
+### Converting Between Radians and Degrees
+
+Trigonometry uses two primary units to measure rotation: **Degrees** (based on a $360^\circ$ circle) and **Radians** (based on the radius of the circle).
+
+#### 1. The Core Relationship
+The conversion is based on the fact that a half-circle ($180^\circ$) is equal to $\pi$ radians.
+* **Full Circle:** $360^\circ = 2\pi$ radians
+* **Half Circle:** $180^\circ = \pi$ radians
+
+---
+
+#### 2. Conversion Formulas
+
+To convert from one unit to the other, multiply by the appropriate conversion factor:
+
+**Degrees to Radians**
+Multiply the degrees by $\frac{\pi}{180^\circ}$:
+$$\text{Radians} = \text{Degrees} \times \frac{\pi}{180^\circ}$$
+
+**Radians to Degrees**
+Multiply the radians by $\frac{180^\circ}{\pi}$:
+$$\text{Degrees} = \text{Radians} \times \frac{180^\circ}{\pi}$$
+
+---
+
+#### 3. Common Reference Values
+| Degrees         | Radians (Exact) | Radians (Approx) |
+| :-------------- | :-------------- | :--------------- |
+| **$30^\circ$**  | $\frac{\pi}{6}$ | $0.524$          |
+| **$45^\circ$**  | $\frac{\pi}{4}$ | $0.785$          |
+| **$60^\circ$**  | $\frac{\pi}{3}$ | $1.047$          |
+| **$90^\circ$**  | $\frac{\pi}{2}$ | $1.571$          |
+| **$180^\circ$** | $\pi$           | $3.142$          |
+| **$360^\circ$** | $2\pi$          | $6.283$          |
+
+
+---
+
+#### 4. Memory Trick
+* If you want to get **Radians**, you want $\pi$ in the "numerator" (top).
+* If you want to get **Degrees**, you want $\pi$ in the "denominator" (bottom) so it cancels out.
+### Conversion: 150 Degrees to Radians
+
+To convert degrees to radians, we multiply by the conversion factor $\frac{\pi}{180^\circ}$. This works because $\pi$ radians and $180^\circ$ represent the same amount of rotation (a half-circle).
+
+#### 1. The Calculation
+$$\text{Radians} = 150^\circ \times \frac{\pi}{180^\circ}$$
+
+
+
+#### 2. Simplifying the Fraction
+1.  **Set up the fraction:** $\frac{150\pi}{180}$
+2.  **Divide by the Greatest Common Divisor (GCD):** Both 150 and 180 are divisible by 30.
+    * $150 \div 30 = 5$
+    * $180 \div 30 = 6$
+
+
+
+#### 3. Final Results
+* **Exact Form:** $\frac{5\pi}{6}$ radians
+* **Decimal Approximation:** $\approx 2.618$ radians
+### Conversion: 260 Degrees to Radians
+
+To convert degrees to radians, we use the conversion factor $\frac{\pi}{180^\circ}$. This formula cancels out the degree units and introduces radians.
+
+#### 1. The Setup
+$$\text{Radians} = 260^\circ \times \frac{\pi}{180^\circ}$$
+
+#### 2. Simplifying the Fraction
+1.  **Write as a single fraction:** $\frac{260\pi}{180}$
+2.  **Simplify by dividing by the Greatest Common Divisor (GCD):**
+    * Both 260 and 180 are divisible by 20.
+    * $260 \div 20 = 13$
+    * $180 \div 20 = 9$
+
+#### 3. Final Result
+* **Exact Form:** $\frac{13\pi}{9}$ radians
+* **Decimal Approximation:** $\approx 4.538$ radians
+### Conversion: -157π/36 Radians to Degrees
+
+To convert from radians to degrees, we multiply the value by the conversion factor $\frac{180^\circ}{\pi}$. This allows the $\pi$ terms to cancel out, leaving the final measurement in degrees.
+
+#### 1. The Mathematical Setup
+$$\text{Degrees} = \left( -\frac{157\pi}{36} \right) \times \left( \frac{180^\circ}{\pi} \right)$$
+
+---
+
+#### 2. Step-by-Step Simplification
+
+**Step A: Cancel the $\pi$ terms**
+Since $\pi$ appears in both the numerator and the denominator, they cancel out:
+$$-\frac{157}{36} \times 180^\circ$$
+
+**Step B: Simplify the numbers**
+Instead of multiplying $157 \times 180$ first, it is more efficient to divide $180$ by $36$:
+1.  Check if 36 goes into 180: $180 \div 36 = 5$.
+2.  Rewrite the expression: $-157 \times 5^\circ$.
+
+
+
+**Step C: Final Multiplication**
+$$-157 \times 5 = -785$$
+
+---
+
+#### 3. Final Result
+* **Degrees:** $-785^\circ$
+### Conversion: -43π/12 Radians to Degrees
+
+To convert radians to degrees, we multiply by the conversion factor $\frac{180^\circ}{\pi}$. This setup ensures that the $\pi$ units cancel out, leaving the value in degrees.
+
+#### 1. The Mathematical Setup
+$$\text{Degrees} = \left( -\frac{43\pi}{12} \right) \times \left( \frac{180^\circ}{\pi} \right)$$
+
+#### 2. Step-by-Step Simplification
+
+**Step A: Cancel the $\pi$ terms**
+The $\pi$ in the numerator and denominator cancel each other out:
+$$-\frac{43}{12} \times 180^\circ$$
+
+**Step B: Simplify the division**
+It is much easier to divide $180$ by $12$ before multiplying by $43$:
+1.  $180 \div 12 = 15$
+2.  Now the expression is: $-43 \times 15^\circ$
+
+
+
+**Step C: Final Multiplication**
+$$-43 \times 15 = -645$$
+
+#### 3. Final Result
+* **Degrees:** $-645^\circ$
+
