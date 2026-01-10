@@ -221,38 +221,75 @@ $$\text{Area} = \frac{1}{2} r^2 \theta$$
 If the angle $\theta$ is measured in **degrees**, the formula is adjusted to represent the fraction of the $360^\circ$ circle:
 
 $$\text{Area} = \frac{\theta}{360} \times \pi r^2$$
-### Area of a Sector for $\theta = \frac{3\pi}{2}$
+### Area of a Sector Calculation ($r = 9\text{m}, \theta = \frac{3\pi}{2}$)
 
-Calculating the area of a sector when the angle is $\frac{3\pi}{2}$ radians is straightforward using the radian-based area formula. Since $\frac{3\pi}{2}$ is equivalent to $270^\circ$, you are essentially finding the area of **three-quarters** of the circle.
+This note details the calculation for a sector that covers $270^\circ$ (three-quarters) of a circle with a radius of $9$ meters.
 
 ---
 
-#### 1. The General Formula (Radians)
-For a central angle $\theta$ measured in radians, the area $A$ is:
+#### 1. Given Parameters
+* **Radius ($r$):** $9\text{ m}$
+* **Central Angle ($\theta$):** $\frac{3\pi}{2}$ radians
 
+
+
+---
+
+#### 2. Step-by-Step Solution
+Using the area formula for radians:
 $$A = \frac{1}{2} r^2 \theta$$
 
----
+**Step 1: Substitute the values**
+$$A = \frac{1}{2} (9)^2 \left( \frac{3\pi}{2} \right)$$
 
-#### 2. Calculation with $\theta = \frac{3\pi}{2}$
-Substitute the given angle into the formula:
+**Step 2: Square the radius**
+$$A = \frac{1}{2} (81) \left( \frac{3\pi}{2} \right)$$
 
-$$A = \frac{1}{2} r^2 \left( \frac{3\pi}{2} \right)$$
-
-Multiply the constants:
-
-$$A = \frac{3\pi}{4} r^2$$
-
-
+**Step 3: Multiply the terms**
+$$A = \frac{243\pi}{4}$$
 
 ---
 
-#### 3. Summary of Results
-| Variable | Value |
-| :--- | :--- |
-| **Central Angle ($\theta$)** | $\frac{3\pi}{2}$ radians ($270^\circ$) |
-| **Fraction of Circle** | $\frac{3}{4}$ |
-| **Final Area ($A$)** | $\frac{3}{4} \pi r^2$ |
+#### 3. Final Results
+* **Exact Area:** $\frac{243\pi}{4} \text{ m}^2$
+* **Decimal Approximation:** $\approx 190.85 \text{ m}^2$ (using $\pi \approx 3.14159$)
 
-> [!NOTE]
-> This result confirms the geometric intuition: because $\frac{3\pi}{2}$ is three-fourths of a full rotation ($2\pi$), the area is exactly three-fourths of the total area of the circle ($\pi r^2$).
+> [!TIP]
+> To quickly check your work, calculate the area of the full circle: $A = \pi(9)^2 = 81\pi$. Since our sector is $\frac{3}{4}$ of the circle, $81\pi \times 0.75 = 60.75\pi$, which is exactly $\frac{243\pi}{4}$.
+### Area of a Sector Calculation ($r = 13\text{ yd}, \theta = 60^\circ$)
+
+This note calculates the area of a sector with a radius of $13\text{ yards}$ and a central angle of $60^\circ$.
+
+---
+#### 1. Given Parameters
+* **Radius ($r$):** $13\text{ yd}$
+* **Central Angle ($\theta$):** $60^\circ$
+
+---
+
+#### 2. Solution (Degree Formula)
+Since the angle is provided in degrees, we use the formula:
+$$A = \frac{\theta}{360} \times \pi r^2$$
+
+**Step 1: Substitute the values**
+$$A = \frac{60}{360} \times \pi (13)^2$$
+
+**Step 2: Simplify the fraction and square the radius**
+The fraction $\frac{60}{360}$ simplifies to $\frac{1}{6}$.
+$$A = \frac{1}{6} \times \pi (169)$$
+
+**Step 3: Final Calculation**
+$$A = \frac{169\pi}{6}$$
+
+---
+
+#### 3. Final Results
+* **Exact Area:** $\frac{169\pi}{6} \text{ yd}^2$
+* **Decimal Approximation:** $\approx 88.49 \text{ yd}^2$
+
+---
+
+#### 4. Alternative Method (Converting to Radians)
+If you prefer the radian formula ($A = \frac{1}{2}r^2\theta$):
+1.  **Convert $\theta$ to radians:** $60^\circ = \frac{\pi}{3}$ radians.
+2.  **Calculate:** $A = \frac{1}{2}(13)^2(\frac{\pi}{3}) = \frac{1}{2}(169)(\frac{\pi}{3}) = \frac{169\pi}{6} \text{ yd}^2$.
