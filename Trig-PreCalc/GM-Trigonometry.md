@@ -1469,3 +1469,4 @@ $$-43 \times 15 = -645$$
 * **Degrees:** $-645^\circ$
 
 ## 2026-January-10 - Arc Length on a Circle - Area of a Sector of a Circle :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=3h3m30s
