@@ -1470,3 +1470,39 @@ $$-43 \times 15 = -645$$
 
 ## 2026-January-10 - Arc Length on a Circle - Area of a Sector of a Circle :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=3h3m30s
+### Arc Length on a Circle
+
+The **Arc Length** ($s$) is the distance along the curved line that makes up a section of a circle's circumference. Think of it as the "crust" of a pizza slice.
+
+#### 1. The Core Formulas
+The formula you use depends on whether your central angle ($\theta$) is in **Radians** or **Degrees**.
+
+**If $\theta$ is in Radians (The Direct Method):**
+Since a radian is defined by the ratio of the arc length to the radius, the formula is elegant and simple:
+$$s = r\theta$$
+*(Where $s$ = arc length, $r$ = radius, and $\theta$ = central angle in radians)*
+
+**If $\theta$ is in Degrees (The Proportional Method):**
+You take a fraction of the total circumference ($2\pi r$):
+$$s = \frac{\theta}{360^\circ} \times 2\pi r$$
+
+
+
+---
+
+#### 2. Visual Relationship
+* If $\theta = 2\pi$ (a full circle), then $s = 2\pi r$ (the full circumference).
+* If $\theta = \pi$ (a half circle), then $s = \pi r$.
+* If $\theta = 1$ radian, then $s = r$ (the arc length is exactly equal to the radius).
+
+---
+
+#### 3. Step-by-Step Calculation (Example)
+**Problem:** Find the arc length if the radius is **6 cm** and the central angle is **$120^\circ$**.
+
+1.  **Convert to Radians (Recommended):**
+    $$120^\circ \times \frac{\pi}{180^\circ} = \frac{2\pi}{3} \text{ radians}$$
+2.  **Apply the formula ($s = r\theta$):**
+    $$s = 6 \times \frac{2\pi}{3}$$
+3.  **Simplify:**
+    $$s = 4\pi \approx 12.57 \text{ cm}$$
