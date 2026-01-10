@@ -294,3 +294,4 @@ If you prefer the radian formula ($A = \frac{1}{2}r^2\theta$):
 1.  **Convert $\theta$ to radians:** $60^\circ = \frac{\pi}{3}$ radians.
 2.  **Calculate:** $A = \frac{1}{2}(13)^2(\frac{\pi}{3}) = \frac{1}{2}(169)(\frac{\pi}{3}) = \frac{169\pi}{6} \text{ yd}^2$.
 ## Unit Circle and Circular Functions :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=3h16m45s
