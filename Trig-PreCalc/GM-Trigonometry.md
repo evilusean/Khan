@@ -2064,14 +2064,16 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 
 $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 #### 4. Summary Table for Quick Reference
-| Feature | Variable | Impact on Graph |
-| :--- | :--- | :--- |
-| **Height** | $a$ | Vertical stretch/shrink |
-| **Width** | $b$ | Horizontal stretch/shrink (affects period) |
-| **Horizontal** | $h$ | Shifts the starting point left/right |
-| **Vertical** | $k$ | Shifts the entire wave up/down |
+| Feature        | Variable | Impact on Graph                            |
+| :------------- | :------- | :----------------------------------------- |
+| **Height**     | $a$      | Vertical stretch/shrink                    |
+| **Width**      | $b$      | Horizontal stretch/shrink (affects period) |
+| **Horizontal** | $h$      | Shifts the starting point left/right       |
+| **Vertical**   | $k$      | Shifts the entire wave up/down             |
 ![[Pasted image 20260111153413.png]]
 - **f(x) = -2 sin x**  : 2 things going on in this image, 1) *2* a vertical stretch that doubles it's size, and 2) a '*-*' negative which flips it on the x axis 
 ![[Pasted image 20260111161856.png]]
 - **$f(x) = 3sin \frac{1}{3}x$** : 2 things going on in this one : 1) '*3*' vertical stretch 2) $\frac{x}{3}$ or $\frac{1}{3}x$ horizontal stretch of 3 (notice how one cycle ends at $6\pi$ instead of $2\pi$ - a 1/3 stretch is inverted and actually increase it by 3)
-- 
+![[Pasted image 20260111163321.png]]
+- $f(x) = 4 sin (2x -2\pi / 3)$ : (factor out the '2') $f(x) = 4 sin [2(x -\pi / 3)]$ : Phase/Horizontal Shift : $(x -\pi / 3)$ this *counterintuitively* shifts it to the right by 3, and it starts at $\frac{\pi}{3}$  instead of '0', 
+- the other transformations are '4' vertical stretch by factor of 4, and '2x' = horizontal compressed by factor of 1/2 (runs through a cycle in half the time)

@@ -522,3 +522,13 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 5.  **Apply Phase Shift:** Slide those five points left or right based on $h$.
 6.  **Sketch the Curve:** Connect the points with a smooth, continuous wave.
 
+---
+
+$$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
+#### 4. Summary Table for Quick Reference
+| Feature        | Variable | Impact on Graph                            |
+| :------------- | :------- | :----------------------------------------- |
+| **Height**     | $a$      | Vertical stretch/shrink                    |
+| **Width**      | $b$      | Horizontal stretch/shrink (affects period) |
+| **Horizontal** | $h$      | Shifts the starting point left/right       |
+| **Vertical**   | $k$      | Shifts the entire wave up/down
