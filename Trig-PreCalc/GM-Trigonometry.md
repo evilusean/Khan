@@ -2033,6 +2033,10 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 * **Cosine ($y = \cos x$):** Starts at its maximum $(0, a)$, goes down through the x-axis to its minimum, and back up to the maximum.
 
 ![[Pasted image 20260111145830.png]]
+- **x intercepts** are on the $n*\pi$ : $\pi$  and $2\pi$
+- **Maximum** Occurs at 1/4 of the way through : $\frac{\pi}{2}$ 
+- **Minimum** Occurs at 3/4 of the way through : $\frac{3\pi}{2}$
+
 ---
 
 #### 2. Key Vocabulary & Transformations
@@ -2058,6 +2062,7 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 
 ---
 
+$$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 #### 4. Summary Table for Quick Reference
 | Feature | Variable | Impact on Graph |
 | :--- | :--- | :--- |
@@ -2065,3 +2070,5 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 | **Width** | $b$ | Horizontal stretch/shrink (affects period) |
 | **Horizontal** | $h$ | Shifts the starting point left/right |
 | **Vertical** | $k$ | Shifts the entire wave up/down |
+![[Pasted image 20260111153413.png]]
+- **f(x) = -2 sin x**  : 2 things going on in this image, 1) *2* a vertical stretch that doubles it's size, and 2) a '*-*' negative which flips it on the x axis 
