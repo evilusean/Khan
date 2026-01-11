@@ -485,6 +485,9 @@ $$v = \frac{150\pi}{15} = 10\pi \text{ m/s}$$
 > [!SUCCESS] Answer
 > Max's cart is traveling at exactly **$10\pi$ meters per second**, which is approximately **$31.42 \text{ m/s}$**.
 
+### Periodic Functions: $f(x) = f(x + np)$
+
+A **periodic function** is a function that repeats its values at regular intervals or "periods." This is a core property of trigonometric functions like sine and cosine.
 ### Graphing Sine and Cosine Functions
 
 This section of the course focuses on the visual representation of the periodic functions $y = \sin(x)$ and $y = \cos(x)$. It introduces the standard form used for transformations:
