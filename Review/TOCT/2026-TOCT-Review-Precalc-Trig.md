@@ -438,3 +438,49 @@ $$v = \frac{414,000 \times 3.14159...}{63,360}$$
 
 > [!SUCCESS] Answer
 > The bicycle is traveling at approximately **20.53 miles per hour**.
+### Word Problem: Linear Speed of a Cart on a Circular Track
+
+**Problem:**
+At a local high school, Max rides his cart around a circular track at $2$ revolutions per minute. If the radius of the circular track is $150$ meters, how fast is Max's cart traveling in meters per second?
+
+---
+
+#### 1. Given Information
+* **Radius ($r$):** $150 \text{ m}$
+* **Angular Speed ($\omega$):** $2 \text{ rev/min}$
+* **Target Units:** Meters per second ($\text{m/s}$)
+
+---
+
+#### 2. Conversion Constants
+* $1 \text{ revolution} = 2\pi \text{ radians}$
+* $1 \text{ minute} = 60 \text{ seconds}$
+
+---
+
+#### 3. Step-by-Step Solution
+
+**Step 1: Convert Angular Speed to radians per second**
+First, convert revolutions per minute to radians per minute:
+$$\omega = 2 \text{ rev/min} \times 2\pi \text{ rad/rev} = 4\pi \text{ rad/min}$$
+
+Now, convert radians per minute to radians per second:
+$$\omega = \frac{4\pi \text{ rad}}{60 \text{ sec}} = \frac{\pi}{15} \text{ rad/sec}$$
+
+**Step 2: Calculate Linear Speed ($v$)**
+Using the relationship formula $v = r\omega$:
+$$v = 150 \text{ m} \times \frac{\pi}{15} \text{ rad/sec}$$
+
+
+
+**Step 3: Simplify**
+$$v = \frac{150\pi}{15} = 10\pi \text{ m/s}$$
+
+---
+
+#### 4. Final Result
+* **Exact Value:** $10\pi \text{ m/s}$
+* **Decimal Approximation:** $\approx 31.42 \text{ m/s}$
+
+> [!SUCCESS] Answer
+> Max's cart is traveling at exactly **$10\pi$ meters per second**, which is approximately **$31.42 \text{ m/s}$**.
