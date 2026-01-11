@@ -356,3 +356,34 @@ To remember which functions are **positive** in each quadrant, use the mnemonic:
 * **Q3 (T):** **T**angent (and Cot) are positive.
 * **Q4 (C):** **C**osine (and Sec) are positive.
 ![[Pasted image 20260110183356.png]]
+### Linear and Angular Speed
+
+When an object moves along a circular path, we can describe its motion in two ways: how fast it travels along the edge (**linear speed**) and how fast the central angle changes (**angular speed**).
+
+---
+
+#### 1. Angular Speed ($\omega$)
+Angular speed measures the rate at which the central angle $\theta$ changes over time. It is represented by the Greek letter omega ($\omega$).
+
+**Formula:**
+$$\omega = \frac{\theta}{t}$$
+
+* **$\omega$**: Angular speed (usually in radians per unit of time).
+* **$\theta$**: Central angle in **radians**.
+* **$t$**: Time.
+#### 2. Linear Speed ($v$)
+Linear speed measures the distance traveled along the arc ($s$) per unit of time. It is the "speedometer" speed of an object moving in a circle.
+
+**Formula:**
+$$v = \frac{s}{t}$$
+
+Since arc length $s = r\theta$, we can also write:
+$$v = \frac{r\theta}{t}$$
+
+#### 3. Relationship Between Linear and Angular Speed
+The most useful way to connect these two concepts is through the radius ($r$). Since $v = \frac{r\theta}{t}$ and $\omega = \frac{\theta}{t}$, we can substitute:
+
+$$v = r\omega$$
+
+* **Linear speed ($v$)** is the product of the **radius ($r$)** and the **angular speed ($\omega$)**.
+
