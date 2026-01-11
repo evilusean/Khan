@@ -2072,3 +2072,6 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 | **Vertical** | $k$ | Shifts the entire wave up/down |
 ![[Pasted image 20260111153413.png]]
 - **f(x) = -2 sin x**  : 2 things going on in this image, 1) *2* a vertical stretch that doubles it's size, and 2) a '*-*' negative which flips it on the x axis 
+![[Pasted image 20260111161856.png]]
+- **$f(x) = 3sin \frac{1}{3}x$** : 2 things going on in this one : 1) '*3*' vertical stretch 2) $\frac{x}{3}$ or $\frac{1}{3}x$ horizontal stretch of 3 (notice how one cycle ends at $6\pi$ instead of $2\pi$ - a 1/3 stretch is inverted and actually increase it by 3)
+- 
