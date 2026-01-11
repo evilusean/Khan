@@ -1970,6 +1970,56 @@ $$v = \frac{150\pi}{15} = 10\pi \text{ m/s}$$
 
 ## 2026-January-11 - Graphing Sine and Cosine :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=3h47m20s
+### Periodic Functions: $f(x) = f(x + np)$
+
+A **periodic function** is a function that repeats its values at regular intervals or "periods." This is a core property of trigonometric functions like sine and cosine.
+
+---
+
+#### 1. Mathematical Definition
+A function $f$ is periodic if there exists a non-zero constant $p$ such that:
+$$f(x) = f(x + p)$$
+for all values of $x$ in the domain. The smallest positive value of $p$ is called the **fundamental period** (or simply the **period**).
+
+---
+
+#### 2. The Multi-Period Property: $f(x) = f(x + np)$
+If a function repeats every $p$ units, it also repeats every $2p$, $3p$, or any integer multiple of $p$.
+$$f(x) = f(x + np)$$
+* **$n$**: Any integer ($\dots, -2, -1, 1, 2, \dots$).
+* **$p$**: The period of the function.
+
+> [!NOTE]
+> This means that if you know the behavior of the function over one period (the interval $[0, p]$), you know its behavior for all real numbers.
+
+
+
+---
+
+#### 3. Examples in Trigonometry
+The standard trigonometric functions are the most common examples of periodic behavior:
+
+| Function | Period ($p$) | Property |
+| :--- | :--- | :--- |
+| **$\sin(x)$** | $2\pi$ | $\sin(x) = \sin(x + 2n\pi)$ |
+| **$\cos(x)$** | $2\pi$ | $\cos(x) = \cos(x + 2n\pi)$ |
+| **$\tan(x)$** | $\pi$ | $\tan(x) = \tan(x + n\pi)$ |
+
+---
+
+#### 4. Visualizing the Concept
+Think of a periodic function like a **stamp**. One period is the design on the stamp; the function itself is what happens when you press that stamp repeatedly across a piece of paper.
+
+* **Cycles:** One complete execution of the pattern is called a cycle.
+* **Frequency:** The number of cycles that occur per unit of horizontal distance ($1/p$).
+
+---
+
+#### 5. Application: Solving for Large Angles
+Because of the $f(x) = f(x + np)$ property, you can simplify large angles by subtracting multiples of the period:
+**Example:** Find $\sin( \frac{13\pi}{4} )$.
+1.  Subtract $2\pi$ (one period): $\frac{13\pi}{4} - \frac{8\pi}{4} = \frac{5\pi}{4}$.
+2.  $\sin( \frac{13\pi}{4} ) = \sin( \frac{5\pi}{4} ) = -\frac{\sqrt{2}}{2}$.
 ### Graphing Sine and Cosine Functions
 
 This section of the course focuses on the visual representation of the periodic functions $y = \sin(x)$ and $y = \cos(x)$. It introduces the standard form used for transformations:
