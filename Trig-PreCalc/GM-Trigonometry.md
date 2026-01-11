@@ -1856,3 +1856,5 @@ Since the coterminal angle $\frac{\pi}{4}$ is in **Quadrant I**, **A**ll functio
 * Sine is positive ✅
 * Cosine is positive ✅
 * Cotangent is positive ✅
+## 2026-January-11 - Linear and Angular Speed :
+
