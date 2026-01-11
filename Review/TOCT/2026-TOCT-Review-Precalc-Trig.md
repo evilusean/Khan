@@ -488,6 +488,15 @@ $$v = \frac{150\pi}{15} = 10\pi \text{ m/s}$$
 ### Periodic Functions: $f(x) = f(x + np)$
 
 A **periodic function** is a function that repeats its values at regular intervals or "periods." This is a core property of trigonometric functions like sine and cosine.
+#### 3. Examples in Trigonometry
+The standard trigonometric functions are the most common examples of periodic behavior:
+
+| Function | Period ($p$) | Property |
+| :--- | :--- | :--- |
+| **$\sin(x)$** | $2\pi$ | $\sin(x) = \sin(x + 2n\pi)$ |
+| **$\cos(x)$** | $2\pi$ | $\cos(x) = \cos(x + 2n\pi)$ |
+| **$\tan(x)$** | $\pi$ | $\tan(x) = \tan(x + n\pi)$ |
+
 ### Graphing Sine and Cosine Functions
 
 This section of the course focuses on the visual representation of the periodic functions $y = \sin(x)$ and $y = \cos(x)$. It introduces the standard form used for transformations:
