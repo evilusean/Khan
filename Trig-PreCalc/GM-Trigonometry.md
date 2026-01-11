@@ -1967,3 +1967,5 @@ $$v = \frac{150\pi}{15} = 10\pi \text{ m/s}$$
 
 > [!SUCCESS] Answer
 > Max's cart is traveling at exactly **$10\pi$ meters per second**, which is approximately **$31.42 \text{ m/s}$**.
+
+## 2026-January-11 - Graphing Sine and Cosine :
