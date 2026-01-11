@@ -387,3 +387,54 @@ $$v = r\omega$$
 
 * **Linear speed ($v$)** is the product of the **radius ($r$)** and the **angular speed ($\omega$)**.
 
+### Word Problem: Bicycle Speed from RPM (230 RPM)
+
+**Problem:**
+The tires of a bicycle have a radius of $15$ inches and are turning at the rate of $230$ revolutions per minute. How fast is the bicycle traveling in miles per hour?
+
+---
+
+#### 1. Given Information
+* **Radius ($r$):** $15$ in
+* **Angular Speed ($\omega$):** $230$ rev/min
+* **Target Units:** Miles per hour (mph)
+
+---
+
+#### 2. Conversion Constants
+* $1 \text{ mile} = 5,280 \text{ feet}$
+* $1 \text{ foot} = 12 \text{ inches}$
+* $1 \text{ revolution} = 2\pi r \text{ (circumference)}$
+* $1 \text{ hour} = 60 \text{ minutes}$
+
+---
+
+#### 3. Step-by-Step Solution
+
+**Step 1: Calculate the distance traveled per revolution**
+The distance traveled in one full turn is the circumference of the tire:
+$$C = 2\pi r = 2\pi(15) = 30\pi \text{ inches per revolution}$$
+
+
+
+**Step 2: Find the speed in inches per minute**
+Multiply the RPM by the distance per revolution:
+$$230 \text{ rev/min} \times 30\pi \text{ in/rev} = 6,900\pi \text{ inches/minute}$$
+
+**Step 3: Convert to miles per hour (Dimensional Analysis)**
+To get from $\text{in/min}$ to $\text{miles/hr}$, we set up the following conversion chain:
+$$v = \frac{6,900\pi \text{ in}}{1 \text{ min}} \times \frac{1 \text{ ft}}{12 \text{ in}} \times \frac{1 \text{ mile}}{5,280 \text{ ft}} \times \frac{60 \text{ min}}{1 \text{ hr}}$$
+
+**Step 4: Simplify the expression**
+Multiply the numerators and the denominators:
+$$v = \frac{6,900 \times \pi \times 60}{12 \times 5,280} = \frac{414,000\pi}{63,360}$$
+$$v = \frac{414,000 \times 3.14159...}{63,360}$$
+
+---
+
+#### 4. Final Result
+* **Exact Value:** $\frac{575\pi}{88} \text{ mph}$
+* **Decimal Approximation:** $\approx 20.53 \text{ mph}$
+
+> [!SUCCESS] Answer
+> The bicycle is traveling at approximately **20.53 miles per hour**.
