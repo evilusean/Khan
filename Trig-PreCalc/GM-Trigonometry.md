@@ -2032,7 +2032,7 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 * **Sine ($y = \sin x$):** Starts at the origin $(0,0)$, goes up to its maximum, down through the x-axis, to its minimum, and back to the start.
 * **Cosine ($y = \cos x$):** Starts at its maximum $(0, a)$, goes down through the x-axis to its minimum, and back up to the maximum.
 
-
+![[Pasted image 20260111145830.png]]
 ---
 
 #### 2. Key Vocabulary & Transformations
