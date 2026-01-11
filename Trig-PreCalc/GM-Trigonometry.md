@@ -1858,3 +1858,66 @@ Since the coterminal angle $\frac{\pi}{4}$ is in **Quadrant I**, **A**ll functio
 * Cotangent is positive ✅
 ## 2026-January-11 - Linear and Angular Speed :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=3h33m25s
+### Linear and Angular Speed
+
+When an object moves along a circular path, we can describe its motion in two ways: how fast it travels along the edge (**linear speed**) and how fast the central angle changes (**angular speed**).
+
+---
+
+#### 1. Angular Speed ($\omega$)
+Angular speed measures the rate at which the central angle $\theta$ changes over time. It is represented by the Greek letter omega ($\omega$).
+
+**Formula:**
+$$\omega = \frac{\theta}{t}$$
+
+* **$\omega$**: Angular speed (usually in radians per unit of time).
+* **$\theta$**: Central angle in **radians**.
+* **$t$**: Time.
+
+> [!CAUTION]
+> If the problem gives you rotations or degrees, you **must** convert to radians first. ($1$ rotation $= 2\pi$ radians).
+
+---
+
+#### 2. Linear Speed ($v$)
+Linear speed measures the distance traveled along the arc ($s$) per unit of time. It is the "speedometer" speed of an object moving in a circle.
+
+**Formula:**
+$$v = \frac{s}{t}$$
+
+Since arc length $s = r\theta$, we can also write:
+$$v = \frac{r\theta}{t}$$
+
+
+
+---
+
+#### 3. Relationship Between Linear and Angular Speed
+The most useful way to connect these two concepts is through the radius ($r$). Since $v = \frac{r\theta}{t}$ and $\omega = \frac{\theta}{t}$, we can substitute:
+
+$$v = r\omega$$
+
+* **Linear speed ($v$)** is the product of the **radius ($r$)** and the **angular speed ($\omega$)**.
+
+---
+
+#### 4. Example Calculation
+**Problem:** A wheel with a radius of $10$ inches is spinning at $3$ revolutions per second. Find its linear speed.
+
+1.  **Find Angular Speed ($\omega$):**
+    $3 \text{ rev/sec} \times 2\pi \text{ rad/rev} = 6\pi \text{ rad/sec}$.
+2.  **Calculate Linear Speed ($v$):**
+    $v = r\omega$
+    $v = 10 \text{ in} \times 6\pi \text{ rad/sec} = 60\pi \text{ in/sec}$.
+3.  **Decimal Approximation:**
+    $\approx 188.5 \text{ in/sec}$.
+
+---
+
+#### 5. Comparison Table
+| Feature      | Angular Speed ($\omega$) | Linear Speed ($v$) |
+| :----------- | :----------------------- | :----------------- |
+| **Measures** | Change in angle          | Change in distance |
+| **Units**    | rad/sec, rpm             | m/s, mph, in/sec   |
+| **Formula**  | $\omega = \theta / t$    | $v = s / t$        |
+| **Relation** | $\omega = v / r$         | $v = r\omega$      |
