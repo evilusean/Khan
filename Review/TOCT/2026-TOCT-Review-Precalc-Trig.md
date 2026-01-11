@@ -484,3 +484,29 @@ $$v = \frac{150\pi}{15} = 10\pi \text{ m/s}$$
 
 > [!SUCCESS] Answer
 > Max's cart is traveling at exactly **$10\pi$ meters per second**, which is approximately **$31.42 \text{ m/s}$**.
+
+### Graphing Sine and Cosine Functions
+
+This section of the course focuses on the visual representation of the periodic functions $y = \sin(x)$ and $y = \cos(x)$. It introduces the standard form used for transformations:
+
+$$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
+#### 2. Key Vocabulary & Transformations
+* **Amplitude ($|a|$):** Half the distance between the maximum and minimum values. It describes the "height" of the wave.
+    * If $a < 0$, the graph is **reflected** over the x-axis.
+* **Period ($P$):** The horizontal length of one complete cycle. 
+    * Formula: $P = \frac{2\pi}{b}$
+* **Phase Shift ($h$):** The horizontal shift (left or right).
+    * $x - h$ shifts **right**.
+    * $x + h$ shifts **left**.
+* **Vertical Shift ($k$):** The vertical shift (up or down). This also determines the **midline** of the graph.
+
+---
+#### 3. Step-by-Step Graphing Process
+1.  **Identify the Midline ($k$):** Draw a dashed horizontal line at $y = k$.
+2.  **Determine Amplitude:** Mark the max and min boundaries ($k + a$ and $k - a$).
+3.  **Calculate the Period:** Find the end of one cycle using $2\pi/b$.
+4.  **Divide into "Key Points":** Divide the period into four equal intervals. This gives you the five critical points:
+    * *Start, Quarter-way, Midpoint, Three-quarters, End.*
+5.  **Apply Phase Shift:** Slide those five points left or right based on $h$.
+6.  **Sketch the Curve:** Connect the points with a smooth, continuous wave.
+
