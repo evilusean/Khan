@@ -293,5 +293,66 @@ $$A = \frac{169\pi}{6}$$
 If you prefer the radian formula ($A = \frac{1}{2}r^2\theta$):
 1.  **Convert $\theta$ to radians:** $60^\circ = \frac{\pi}{3}$ radians.
 2.  **Calculate:** $A = \frac{1}{2}(13)^2(\frac{\pi}{3}) = \frac{1}{2}(169)(\frac{\pi}{3}) = \frac{169\pi}{6} \text{ yd}^2$.
-## Unit Circle and Circular Functions :
-https://www.youtube.com/watch?v=rBT1iAqlzHY&t=3h16m45s
+### Unit Circle and Circular Functions
+#### 1. The Unit Circle Equation
+The algebraic representation of the unit circle is:
+$$x^2 + y^2 = 1$$
+#### 2. Defining Circular Functions
+In a unit circle, because the hypotenuse is always 1, the trigonometric ratios simplify directly to the coordinates of the point $P(x, y)$:
+
+* **Cosine**: $\cos(\theta) = x$
+* **Sine**: $\sin(\theta) = y$
+* **Tangent**: $\tan(\theta) = \frac{y}{x} = \frac{\sin(\theta)}{\cos(\theta)}$ (where $x \neq 0$)
+
+These are called **circular functions** because their values are determined by the position of a point moving around a circle.
+
+---
+
+#### 3. Reciprocal and Related Functions
+From these primary definitions, we derive the remaining circular functions:
+* **Secant**: $\sec(\theta) = \frac{1}{x}$
+* **Cosecant**: $\csc(\theta) = \frac{1}{y}$
+* **Cotangent**: $\cot(\theta) = \frac{x}{y}$
+
+---
+
+#### 4. The Pythagorean Identity
+Since every point $(x, y)$ on the circle satisfies $x^2 + y^2 = 1$, substituting our circular functions gives the fundamental identity:
+$$\cos^2(\theta) + \sin^2(\theta) = 1$$
+#### 3. Comparison: Degrees vs. Radians
+| Measurement | Formula for Unit Circle ($r=1$) | Example ($90^\circ$ or $\pi/2$) |
+| :--- | :--- | :--- |
+| **Radians** | $s = \theta$ | $s = \pi/2 \approx 1.57$ |
+| **Degrees** | $s = \frac{\pi \theta}{180}$ | $s = \frac{90\pi}{180} = \pi/2$ |
+#### 3. Summary Table (Quadrant I) - Unit Circle with Special Angles Triangles
+
+| Angle (Deg) | Angle (Rad) | $x$ ($\cos \theta$) | $y$ ($\sin \theta$) |
+| :--- | :--- | :--- | :--- |
+| $0^\circ$ | $0$ | $1$ | $0$ |
+| $30^\circ$ | $\pi/6$ | $\frac{\sqrt{3}}{2}$ | $\frac{1}{2}$ |
+| $45^\circ$ | $\pi/4$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{2}}{2}$ |
+| $60^\circ$ | $\pi/3$ | $\frac{1}{2}$ | $\frac{\sqrt{3}}{2}$ |
+| $90^\circ$ | $\pi/2$ | $0$ | $1$ |
+#### 1. The Square Root Counting Trick - draw the angles on the unit circle, put the denominator as 2 and then count down (from 60 degrees, 45 to 30) = $1, \sqrt2, \sqrt3$ - then up (from 30 to 45 to 60) = $1, \sqrt2, \sqrt3$ (check chart below) - for the (x,y coords)
+Every coordinate in the first quadrant has a denominator of **2**. You simply count from 0 to 4 inside a square root for the numerators.
+
+| Angle ($\theta$) | $x$-coordinate ($\frac{\sqrt{\text{count}}}{2}$) | $y$-coordinate ($\frac{\sqrt{\text{count}}}{2}$) | Resulting $(x, y)$ |
+| :--- | :--- | :--- | :--- |
+| **$0^\circ$** | $\frac{\sqrt{4}}{2} = 1$ | $\frac{\sqrt{0}}{2} = 0$ | $(1, 0)$ |
+| **$30^\circ$** | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{1}}{2} = \frac{1}{2}$ | $(\frac{\sqrt{3}}{2}, \frac{1}{2})$ |
+| **$45^\circ$** | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{2}}{2}$ | $(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2})$ |
+| **$60^\circ$** | $\frac{\sqrt{1}}{2} = \frac{1}{2}$ | $\frac{\sqrt{3}}{2}$ | $(\frac{1}{2}, \frac{\sqrt{3}}{2})$ |
+| **$90^\circ$** | $\frac{\sqrt{0}}{2} = 0$ | $\frac{\sqrt{4}}{2} = 1$ | $(0, 1)$ |
+
+* **To find Cosine ($x$):** Count **down** from 4 to 0.
+* **To find Sine ($y$):** Count **up** from 0 to 4.
+![[Pasted image 20260110181819.png]]
+#### 4. ASTC: Quadrant Signs
+To remember which functions are **positive** in each quadrant, use the mnemonic:
+**A**ll **S**tudents **T**ake **C**alculus
+
+* **Q1 (A):** **A**ll functions are positive.
+* **Q2 (S):** **S**ine (and Csc) are positive.
+* **Q3 (T):** **T**angent (and Cot) are positive.
+* **Q4 (C):** **C**osine (and Sec) are positive.
+![[Pasted image 20260110183356.png]]

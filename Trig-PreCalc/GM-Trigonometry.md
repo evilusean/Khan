@@ -1542,3 +1542,317 @@ $$\text{Area} = \frac{1}{2} rs$$
 1.  **Identify variables:** $r = 6$, $\theta = \frac{\pi}{3}$.
 2.  **Apply formula:** $A = \frac{1}{2}(6)^2(\frac{\pi}{3})$.
 3.  **Simplify:** $A = \frac{1}{2}(36)(\frac{\pi}{3}) = 18(\frac{\pi}{3}) = 6\pi\text{ cm}^2$.
+## 2026-January-10 - Unit Circle and Circular Functions :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=3h16m45s
+### Unit Circle and Circular Functions
+
+The **Unit Circle** is a circle with a radius of 1 ($r = 1$) centered at the origin $(0, 0)$ in the Cartesian plane. It is the fundamental tool for defining trigonometric functions for all real numbers, moving beyond simple right-triangle geometry.
+
+---
+#### 1. The Unit Circle Equation
+The algebraic representation of the unit circle is:
+$$x^2 + y^2 = 1$$
+
+Any point $P(x, y)$ on the circumference of this circle corresponds to a central angle $\theta$ (measured counterclockwise from the positive x-axis).
+
+---
+#### 2. Defining Circular Functions
+In a unit circle, because the hypotenuse is always 1, the trigonometric ratios simplify directly to the coordinates of the point $P(x, y)$:
+
+* **Cosine**: $\cos(\theta) = x$
+* **Sine**: $\sin(\theta) = y$
+* **Tangent**: $\tan(\theta) = \frac{y}{x} = \frac{\sin(\theta)}{\cos(\theta)}$ (where $x \neq 0$)
+
+These are called **circular functions** because their values are determined by the position of a point moving around a circle.
+
+---
+
+#### 3. Reciprocal and Related Functions
+From these primary definitions, we derive the remaining circular functions:
+* **Secant**: $\sec(\theta) = \frac{1}{x}$
+* **Cosecant**: $\csc(\theta) = \frac{1}{y}$
+* **Cotangent**: $\cot(\theta) = \frac{x}{y}$
+
+---
+
+#### 4. The Pythagorean Identity
+Since every point $(x, y)$ on the circle satisfies $x^2 + y^2 = 1$, substituting our circular functions gives the fundamental identity:
+$$\cos^2(\theta) + \sin^2(\theta) = 1$$
+
+---
+
+#### 5. Signs by Quadrant (ASTC)
+The signs of the circular functions depend on the quadrant where the terminal side of the angle $\theta$ lies:
+| Quadrant | Coordinates | Positive Functions |
+| :--- | :--- | :--- |
+| **I** ($0$ to $\pi/2$) | $(+, +)$ | **A**ll (Sin, Cos, Tan) |
+| **II** ($\pi/2$ to $\pi$) | $(-, +)$ | **S**ine (and Csc) |
+| **III** ($\pi$ to $3\pi/2$) | $(-, -)$ | **T**angent (and Cot) |
+| **IV** ($3\pi/2$ to $2\pi$) | $(+, -)$ | **C**osine (and Sec) |
+
+### Arc Length on the Unit Circle
+
+On a **Unit Circle**, the radius is exactly $1$ ($r = 1$). This unique property creates a direct numerical link between the central angle and the distance traveled along the edge of the circle.
+
+---
+
+#### 1. The Arc Length Formula
+The general formula for arc length $s$ is:
+$$s = r\theta$$
+
+Where:
+* $s$ is the arc length.
+* $r$ is the radius.
+* $\theta$ is the central angle in **radians**.
+
+---
+
+#### 2. The $s = \theta$ Relationship
+Because $r = 1$ on the unit circle, the formula simplifies to:
+$$s = (1)\theta \implies s = \theta$$
+
+> [!IMPORTANT]
+> On a unit circle, the **arc length is numerically equal to the central angle** (when measured in radians). For example, if the central angle is $\frac{\pi}{2}$, the distance along the curve is also exactly $\frac{\pi}{2}$ units.
+
+
+
+---
+
+#### 3. Comparison: Degrees vs. Radians
+| Measurement | Formula for Unit Circle ($r=1$) | Example ($90^\circ$ or $\pi/2$) |
+| :--- | :--- | :--- |
+| **Radians** | $s = \theta$ | $s = \pi/2 \approx 1.57$ |
+| **Degrees** | $s = \frac{\pi \theta}{180}$ | $s = \frac{90\pi}{180} = \pi/2$ |
+
+---
+
+#### 4. Why This Matters
+This relationship is the reason why **radians** are the preferred unit in calculus and physics. It treats the angle as a physical distance along the circle's path, making circular motion and wave functions much easier to calculate.
+### Special Angles and Reference Triangles on the Unit Circle
+
+The coordinates $(x, y)$ for special angles on the unit circle are derived from two specific right triangles where the hypotenuse is $1$.
+
+---
+
+#### 1. The $45^\circ-45^\circ-90^\circ$ Triangle ($\pi/4$)
+When the central angle is $45^\circ$ (or $\pi/4$ radians), the triangle is isosceles.
+* **Coordinates:** $(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2})$
+* **Trig Values:** $\sin(45^\circ) = \frac{\sqrt{2}}{2}$ and $\cos(45^\circ) = \frac{\sqrt{2}}{2}$
+
+
+---
+
+#### 2. The $30^\circ-60^\circ-90^\circ$ Triangle ($\pi/6$ and $\pi/3$)
+This triangle provides the coordinates for both $30^\circ$ and $60^\circ$ by swapping the long and short legs.
+
+* **At $30^\circ$ ($\pi/6$):** The horizontal leg ($x$) is longer.
+	* **Coordinates:** $(\frac{\sqrt{3}}{2}, \frac{1}{2})$
+* **At $60^\circ$ ($\pi/3$):** The vertical leg ($y$) is longer.
+	* **Coordinates:** $(\frac{1}{2}, \frac{\sqrt{3}}{2})$
+
+
+---
+
+#### 3. Summary Table (Quadrant I)
+| Angle (Deg) | Angle (Rad) | $x$ ($\cos \theta$) | $y$ ($\sin \theta$) |
+| :--- | :--- | :--- | :--- |
+| $0^\circ$ | $0$ | $1$ | $0$ |
+| $30^\circ$ | $\pi/6$ | $\frac{\sqrt{3}}{2}$ | $\frac{1}{2}$ |
+| $45^\circ$ | $\pi/4$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{2}}{2}$ |
+| $60^\circ$ | $\pi/3$ | $\frac{1}{2}$ | $\frac{\sqrt{3}}{2}$ |
+| $90^\circ$ | $\pi/2$ | $0$ | $1$ |
+
+---
+
+#### 4. Quadrantal Angles
+These are angles where the terminal side lies on an axis. They do not form triangles but represent the "boundaries" of the circle:
+* **Positive x-axis ($0$):** $(1, 0)$
+* **Positive y-axis ($\pi/2$):** $(0, 1)$
+* **Negative x-axis ($\pi$):** $(-1, 0)$
+* **Negative y-axis ($3\pi/2$):** $(0, -1)$
+![[Pasted image 20260110181819.png]]
+### Summary of Unit Circle Memory Tricks
+
+The coordinates for special angles in the first quadrant follow a predictable mathematical pattern. By using these counting methods, you can derive the entire unit circle without rote memorization.
+
+---
+
+#### 1. The Square Root Counting Trick
+Every coordinate in the first quadrant has a denominator of **2**. You simply count from 0 to 4 inside a square root for the numerators.
+
+| Angle ($\theta$) | $x$-coordinate ($\frac{\sqrt{\text{count}}}{2}$) | $y$-coordinate ($\frac{\sqrt{\text{count}}}{2}$) | Resulting $(x, y)$ |
+| :--- | :--- | :--- | :--- |
+| **$0^\circ$** | $\frac{\sqrt{4}}{2} = 1$ | $\frac{\sqrt{0}}{2} = 0$ | $(1, 0)$ |
+| **$30^\circ$** | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{1}}{2} = \frac{1}{2}$ | $(\frac{\sqrt{3}}{2}, \frac{1}{2})$ |
+| **$45^\circ$** | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{2}}{2}$ | $(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2})$ |
+| **$60^\circ$** | $\frac{\sqrt{1}}{2} = \frac{1}{2}$ | $\frac{\sqrt{3}}{2}$ | $(\frac{1}{2}, \frac{\sqrt{3}}{2})$ |
+| **$90^\circ$** | $\frac{\sqrt{0}}{2} = 0$ | $\frac{\sqrt{4}}{2} = 1$ | $(0, 1)$ |
+
+* **To find Cosine ($x$):** Count **down** from 4 to 0.
+* **To find Sine ($y$):** Count **up** from 0 to 4.
+
+---
+
+#### 2. The Left-Hand Rule
+A physical way to remember the coordinates:
+1.  **Assign Fingers:** Thumb ($90^\circ$), Index ($60^\circ$), Middle ($45^\circ$), Ring ($30^\circ$), Pinky ($0^\circ$).
+2.  **Fold a Finger:** To find values for an angle, fold that specific finger.
+3.  **Calculate:**
+    * **$\cos \theta$:** $\frac{\sqrt{\text{fingers above}}}{2}$
+    * **$\sin \theta$:** $\frac{\sqrt{\text{fingers below}}}{2}$
+
+---
+
+#### 3. Tangent Values Trick
+Since $\tan \theta = \frac{\sin \theta}{\cos \theta}$, you can use the "Fingers Below over Fingers Above" trick:
+$$\tan \theta = \sqrt{\frac{\text{fingers below}}{\text{fingers above}}}$$
+
+* **$\tan(30^\circ)$:** $\sqrt{1/3} = \frac{\sqrt{3}}{3}$
+* **$\tan(45^\circ)$:** $\sqrt{2/2} = 1$
+* **$\tan(60^\circ)$:** $\sqrt{3/1} = \sqrt{3}$
+
+---
+
+#### 4. ASTC: Quadrant Signs
+To remember which functions are **positive** in each quadrant, use the mnemonic:
+**A**ll **S**tudents **T**ake **C**alculus
+
+* **Q1 (A):** **A**ll functions are positive.
+* **Q2 (S):** **S**ine (and Csc) are positive.
+* **Q3 (T):** **T**angent (and Cot) are positive.
+* **Q4 (C):** **C**osine (and Sec) are positive.
+![[Pasted image 20260110183356.png]]
+### Solving Trig Functions for $\theta = \frac{3\pi}{4}$
+
+To solve for the trigonometric values of $\frac{3\pi}{4}$, we locate the angle on the unit circle and use its reference angle and quadrant.
+
+---
+
+#### 1. Locate the Angle
+* **Position:** $\frac{3\pi}{4}$ is in **Quadrant II** (between $\pi/2$ and $\pi$).
+* **Reference Angle ($\theta'$):** The distance to the x-axis is $\pi - \frac{3\pi}{4} = \frac{\pi}{4}$ (or $45^\circ$).
+
+
+
+---
+
+#### 2. Identify the Coordinates $(x, y)$
+In Quadrant II, the $x$-coordinate is negative and the $y$-coordinate is positive. Using the values for a $45^\circ$ reference angle:
+* **$x = -\frac{\sqrt{2}}{2}$**
+* **$y = \frac{\sqrt{2}}{2}$**
+
+Point $P$ on the unit circle is: $\left( -\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2} \right)$
+
+---
+
+#### 3. Calculate Circular Functions
+Using the definitions $\sin \theta = y$, $\cos \theta = x$, and $\tan \theta = \frac{y}{x}$:
+
+* **$\sin \frac{3\pi}{4}$**: 
+	$$\sin \frac{3\pi}{4} = \frac{\sqrt{2}}{2}$$
+* **$\cos \frac{3\pi}{4}$**: 
+	$$\cos \frac{3\pi}{4} = -\frac{\sqrt{2}}{2}$$
+* **$\tan \frac{3\pi}{4}$**: 
+	$$\tan \frac{3\pi}{4} = \frac{\frac{\sqrt{2}}{2}}{-\frac{\sqrt{2}}{2}} = -1$$
+
+---
+
+#### 4. Verification (ASTC)
+In Quadrant II, only **Sine** (and Cosecant) should be positive.
+* Sine is positive ($\frac{\sqrt{2}}{2}$) ✅
+* Cosine is negative ($-\frac{\sqrt{2}}{2}$) ✅
+* Tangent is negative ($-1$) ✅
+### Solving Trig Functions for $\theta = \frac{13\pi}{6}$
+
+To solve for the trigonometric values of $\frac{13\pi}{6}$, we first need to find its **coterminal angle** within the standard $0$ to $2\pi$ range.
+
+---
+
+#### 1. Find the Coterminal Angle
+Since $\frac{13\pi}{6}$ is greater than $2\pi$ ($\frac{12\pi}{6}$), we subtract one full rotation:
+$$\frac{13\pi}{6} - 2\pi = \frac{13\pi}{6} - \frac{12\pi}{6} = \frac{\pi}{6}$$
+
+* **Position:** $\frac{\pi}{6}$ (or $30^\circ$) is in **Quadrant I**.
+* **Reference Angle:** $\frac{\pi}{6}$.
+
+
+
+---
+
+#### 2. Identify the Coordinates $(x, y)$
+Using the special angle values for $\frac{\pi}{6}$ in Quadrant I, both $x$ and $y$ are positive:
+* **$x = \frac{\sqrt{3}}{2}$**
+* **$y = \frac{1}{2}$**
+
+Point $P$ on the unit circle is: $\left( \frac{\sqrt{3}}{2}, \frac{1}{2} \right)$
+
+---
+
+#### 3. Calculate Circular Functions
+Using the definitions $\sin \theta = y$, $\sec \theta = \frac{1}{x}$, and $\csc \theta = \frac{1}{y}$:
+
+* **$\sin \frac{13\pi}{6}$**:
+	$$\sin \frac{13\pi}{6} = \frac{1}{2}$$
+
+* **$\sec \frac{13\pi}{6}$**:
+	$$\sec \frac{13\pi}{6} = \frac{1}{\frac{\sqrt{3}}{2}} = \frac{2}{\sqrt{3}}$$
+	*Rationalizing the denominator:* $\frac{2\sqrt{3}}{3}$
+
+* **$\csc \frac{13\pi}{6}$**:
+	$$\csc \frac{13\pi}{6} = \frac{1}{\frac{1}{2}} = 2$$
+
+---
+
+#### 4. Verification (ASTC)
+In Quadrant I (**A**ll), all trigonometric functions must be positive.
+* Sine is positive ($1/2$) ✅
+* Secant is positive ($2\sqrt{3}/3$) ✅
+* Cosecant is positive ($2$) ✅
+### Solving Trig Functions for $\theta = -\frac{23\pi}{4}$
+
+To solve for an angle like $-\frac{23\pi}{4}$, we first find a **coterminal angle** within the standard $0$ to $2\pi$ range to identify its position on the unit circle.
+
+---
+
+#### 1. Find the Coterminal Angle
+We add multiples of $2\pi$ (which is $\frac{8\pi}{4}$) until we get a positive value between $0$ and $2\pi$:
+
+$$-\frac{23\pi}{4} + \frac{8\pi}{4} = -\frac{15\pi}{4}$$
+$$-\frac{15\pi}{4} + \frac{8\pi}{4} = -\frac{7\pi}{4}$$
+$$-\frac{7\pi}{4} + \frac{8\pi}{4} = \frac{\pi}{4}$$
+
+* **Position:** $\frac{\pi}{4}$ (or $45^\circ$) is in **Quadrant I**.
+* **Reference Angle:** $\frac{\pi}{4}$.
+
+
+
+---
+
+#### 2. Identify the Coordinates $(x, y)$
+Using the special angle values for $\frac{\pi}{4}$ in Quadrant I:
+* **$x = \frac{\sqrt{2}}{2}$**
+* **$y = \frac{\sqrt{2}}{2}$**
+
+Point $P$ on the unit circle is: $\left( \frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2} \right)$
+
+---
+
+#### 3. Calculate Circular Functions
+Using the definitions $\sin \theta = y$, $\cos \theta = x$, and $\cot \theta = \frac{x}{y}$:
+
+* **$\sin \left(-\frac{23\pi}{4}\right)$**:
+    $$\sin \left(-\frac{23\pi}{4}\right) = \frac{\sqrt{2}}{2}$$
+
+* **$\cos \left(-\frac{23\pi}{4}\right)$**:
+    $$\cos \left(-\frac{23\pi}{4}\right) = \frac{\sqrt{2}}{2}$$
+
+* **$\cot \left(-\frac{23\pi}{4}\right)$**:
+    $$\cot \left(-\frac{23\pi}{4}\right) = \frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{2}}{2}} = 1$$
+
+---
+
+#### 4. Verification (ASTC)
+Since the coterminal angle $\frac{\pi}{4}$ is in **Quadrant I**, **A**ll functions should be positive.
+* Sine is positive ✅
+* Cosine is positive ✅
+* Cotangent is positive ✅
