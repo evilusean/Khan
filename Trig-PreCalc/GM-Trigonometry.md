@@ -2036,7 +2036,10 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 - **x intercepts** are on the $n*\pi$ : $\pi$  and $2\pi$
 - **Maximum** Occurs at 1/4 of the way through : $\frac{\pi}{2}$ 
 - **Minimum** Occurs at 3/4 of the way through : $\frac{3\pi}{2}$
-
+![[Pasted image 20260111165817.png]]
+- $f(x) = cos x$ : Cos graphs are just phaseshifted $\frac{\pi}{2}$ units left, exactly the same as sin graphs, just different start
+- **X Intercepts** : $(2n + 1)\frac{\pi}{2}$ : x intercepts are found at 2n + 1 times pi over 2
+- 
 ---
 
 #### 2. Key Vocabulary & Transformations
@@ -2077,3 +2080,6 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 ![[Pasted image 20260111163321.png]]
 - $f(x) = 4 sin (2x -2\pi / 3)$ : (factor out the '2') $f(x) = 4 sin [2(x -\pi / 3)]$ : Phase/Horizontal Shift : $(x -\pi / 3)$ this *counterintuitively* shifts it to the right by 3, and it starts at $\frac{\pi}{3}$  instead of '0', 
 - the other transformations are '4' vertical stretch by factor of 4, and '2x' = horizontal compressed by factor of 1/2 (runs through a cycle in half the time)
+![[Pasted image 20260111164523.png]]
+- $f(x) = 4 sin (3x + 3\pi / 4) -1$ : (factor out the '3') $f(x) = 4 sin [3(x + \frac{\pi}{4})]-1$ Vertical Shift '-1' at the end, drops it down one on the y axis
+- Other transformations are : '4' sin increases the vertical stretch by a factor of 4, horizontal compression of 1/3, phase shift left by $\pi / 4$
