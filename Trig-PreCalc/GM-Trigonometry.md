@@ -2124,7 +2124,7 @@ Tangent and cotangent functions are unique because they are defined as ratios th
     * **Period:** $\pi$.
     * **Asymptotes:** Occur at $x = n\pi$ (where $\sin x = 0$).
     * **Shape:** A decreasing curve that is a horizontal shift and reflection of the tangent graph.
-
+![[Pasted image 20260112175704.png]]
 
 ---
 
