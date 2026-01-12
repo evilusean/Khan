@@ -2097,6 +2097,8 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=4h54m45s
 - The closer you get to $\frac{\pi}{2}$, the closer you get to $\infty$, **increase without bound** but will never touch $\frac{\pi}{2}$, which is *undefined*
 - **Consecutive Vertical Asymptotes** : When you have repeating vertical asymptotes (approaches infinitely, but doesn't touch)
 - **Quarter Period** : $\frac{\pi}{2}$ * $\frac{1}{4}$ 
+-  $cot x = \frac{cos x}{sin x}$ :You can find the *cotangent* on a *unit circle* by dividing the *cosine* by the *sine* - Since sine and cosine are switched, anywhere that sine is '0' cot will be 'undefined' and anywhere that cos is '0' cot will be '0'
+- cot $\pi n$ will be where the undefined sections are
 ### Graphing Tangent and Cotangent Functions
 
 Tangent and cotangent functions are unique because they are defined as ratios that include variables in the denominator ($\tan \theta = \frac{y}{x}$ and $\cot \theta = \frac{x}{y}$). This results in **vertical asymptotes** where the denominator is zero.
