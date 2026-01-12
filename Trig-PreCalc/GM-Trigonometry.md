@@ -2137,6 +2137,8 @@ Standard form: $y = a \tan(b(x - h)) + k$
 * **Amplitude (Vertical Stretch):** While these functions don't have a maximum or minimum, the value of $|a|$ affects the "steepness" of the curve. The "quarter-points" of the cycle will be at $y = k + a$ and $y = k - a$.
 
 ![[Pasted image 20260112165156.png]]
+- $f(x) = 2 tan(2x + 2\pi / 3) + 1$ : 
+
 ---
 
 #### 3. Step-by-Step Graphing Process
@@ -2156,3 +2158,46 @@ Standard form: $y = a \tan(b(x - h)) + k$
 | **Range** | $(-\infty, \infty)$ | $(-\infty, \infty)$ |
 | **Intersects Midline** | At $n\pi$ | At $\frac{\pi}{2} + n\pi$ |
 | **Behavior** | Increasing | Decreasing |
+### Tangent Transformation: Key Points
+![[Pasted image 20260112165156.png]]
+**Function:** $f(x) = 2 \tan(2x + \frac{2\pi}{3}) + 1$
+
+---
+
+#### 1. Parameters & Standard Form
+To identify transformations, factor out the $b$ value ($2$):
+$$f(x) = 2 \tan\left[2\left(x + \frac{\pi}{3}\right)\right] + 1$$
+
+* **Stretch Factor ($a$):** $2$
+* **Period ($P$):** $\frac{\pi}{b} = \frac{\pi}{2}$
+* **Phase Shift ($h$):** $-\frac{\pi}{3}$ (Left $\pi/3$)
+* **Vertical Shift ($k$):** $+1$ (Midline: $y = 1$)
+
+---
+
+#### 2. Vertical Asymptotes (VA)
+Find the boundaries for one cycle by setting the argument equal to the parent asymptotes ($-\pi/2$ and $\pi/2$):
+* **Left VA:** $2x + \frac{2\pi}{3} = -\frac{\pi}{2} \implies 2x = -\frac{7\pi}{6} \implies x = -\frac{7\pi}{12}$
+* **Right VA:** $2x + \frac{2\pi}{3} = \frac{\pi}{2} \implies 2x = -\frac{\pi}{6} \implies x = -\frac{\pi}{12}$
+
+
+
+---
+
+#### 3. Key Points Calculation
+Key points are found by dividing the distance between asymptotes ($P = \frac{6\pi}{12} = \frac{\pi}{2}$) into four equal intervals of $\frac{\pi}{8}$ (or $\frac{3\pi}{24}$).
+
+| Point | x-coordinate | y-coordinate ($k \pm a$) | Final $(x, y)$ |
+| :--- | :--- | :--- | :--- |
+| **Left VA** | $-\frac{7\pi}{12}$ | Undefined | VA |
+| **Quarter Point** | $-\frac{11\pi}{24}$ | $1 - 2 = -1$ | $(-\frac{11\pi}{24}, -1)$ |
+| **Midpoint** | $-\frac{8\pi}{24} = -\frac{\pi}{3}$ | $k = 1$ | $(-\frac{\pi}{3}, 1)$ |
+| **3/4 Point** | $-\frac{5\pi}{24}$ | $1 + 2 = 3$ | $(-\frac{5\pi}{24}, 3)$ |
+| **Right VA** | $-\frac{2\pi}{24} = -\frac{\pi}{12}$ | Undefined | VA |
+
+---
+
+#### 4. Summary for Graphing
+* **Center of Cycle:** $(-\pi/3, 1)$
+* **Step size between points:** $\frac{\pi}{8}$
+* **Vertical Asymptotes:** $x = -\frac{7\pi}{12}$ and $x = -\frac{\pi}{12}$
