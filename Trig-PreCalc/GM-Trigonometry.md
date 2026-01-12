@@ -2126,6 +2126,7 @@ Tangent and cotangent functions are unique because they are defined as ratios th
     * **Shape:** A decreasing curve that is a horizontal shift and reflection of the tangent graph.
 ![[Pasted image 20260112175704.png]]
 - **Memorize these three points** When graphing a tangent, the main points you want to find are the quarter point, mid point and three quarter point : $(\frac{\pi}{4}, 1)$ , $(\frac{\pi}{2},0)$,  $(\frac{3 \pi}{4}, -1)$ to get the main shape of the tangent - To find the next point of a similiar type, add $\frac{\pi}{8}$ 
+- **X intercept** : $x = \frac{\pi}{2} + \pi n$ : the x intercepts occuer at 1/2 of the way between the consecutive vertical asymptotes
 ![[Pasted image 20260112180240.png]]
 ---
 
@@ -2245,3 +2246,45 @@ The distance between asymptotes is $2\pi$. We divide this into four equal interv
 * **Center of Cycle (Inflection Point):** $(\frac{5\pi}{2}, 1)$
 * **Horizontal Step Size:** $\frac{\pi}{2}$
 * **Vertical Asymptotes:** $x = \frac{3\pi}{2}$ and $x = \frac{7\pi}{2}$
+### Cotangent Transformation: Key Points
+**Function:** $f(x) = \cot\left(\frac{x}{2} + \frac{\pi}{3}\right)$
+
+---
+
+#### 1. Parameters & Standard Form
+To identify transformations, factor out the coefficient of $x$ (the $b$ value, which is $\frac{1}{2}$):
+$$f(x) = \cot\left[\frac{1}{2}\left(x + \frac{2\pi}{3}\right)\right]$$
+
+* **Vertical Stretch ($a$):** $1$
+* **Period ($P$):** $\frac{\pi}{|b|} = \frac{\pi}{1/2} = 2\pi$
+* **Phase Shift ($h$):** $-\frac{2\pi}{3}$ (Shifted left by $\frac{2\pi}{3}$)
+* **Vertical Shift ($k$):** $0$ (The midline is the x-axis, $y = 0$)
+
+---
+
+#### 2. Vertical Asymptotes (VA)
+Find the boundaries for one principal cycle by setting the argument of the cotangent function equal to the standard parent asymptotes for cotangent ($0$ and $\pi$):
+
+* **Left VA:** $$\frac{x}{2} + \frac{\pi}{3} = 0 \implies \frac{x}{2} = -\frac{\pi}{3} \implies x = -\frac{2\pi}{3}$$
+* **Right VA:** $$\frac{x}{2} + \frac{\pi}{3} = \pi \implies \frac{x}{2} = \frac{2\pi}{3} \implies x = \frac{4\pi}{3}$$
+
+---
+
+#### 3. Key Points Calculation
+The period is $2\pi$. Divide this interval into four equal sections of $\frac{\pi}{2}$ (or $\frac{3\pi}{6}$) each to find the critical graphing points.
+
+| Point | x-coordinate | y-coordinate ($k$, $k \pm a$) | Final $(x, y)$ |
+| :--- | :--- | :--- | :--- |
+| **Left VA** | $-\frac{2\pi}{3}$ | Undefined | VA at $x = -\frac{2\pi}{3}$ |
+| **Quarter Point** | $-\frac{\pi}{6}$ | $k + a = 0 + 1 = 1$ | $(-\frac{\pi}{6}, 1)$ |
+| **Midpoint** | $\frac{\pi}{3}$ | $k = 0$ | $(\frac{\pi}{3}, 0)$ |
+| **3/4 Point** | $\frac{5\pi}{6}$ | $k - a = 0 - 1 = -1$ | $(\frac{5\pi}{6}, -1)$ |
+| **Right VA** | $\frac{4\pi}{3}$ | Undefined | VA at $x = \frac{4\pi}{3}$ |
+
+---
+
+#### 4. Summary for Graphing
+* **Midpoint (x-intercept):** $(\frac{\pi}{3}, 0)$
+* **Horizontal Step Size:** $\frac{\pi}{2}$
+* **Vertical Asymptotes:** $x = -\frac{2\pi}{3}$ and $x = \frac{4\pi}{3}$
+* **Behavior:** The graph is decreasing between asymptotes (typical for cotangent with $a > 0$).
