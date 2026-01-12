@@ -2202,6 +2202,7 @@ Key points are found by dividing the distance between asymptotes ($P = \frac{6\p
 * **Step size between points:** $\frac{\pi}{8}$
 * **Vertical Asymptotes:** $x = -\frac{7\pi}{12}$ and $x = -\frac{\pi}{12}$
 ### Tangent Transformation: Key Points
+![[Pasted image 20260112173912.png]]
 **Function:** $f(x) = \tan\left(\frac{x}{2} - \frac{5\pi}{4}\right) + 1$
 
 ---
