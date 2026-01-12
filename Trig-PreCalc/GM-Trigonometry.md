@@ -2088,6 +2088,11 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=4h54m45s
 - $tan x = tan(x + \pi n)$ 
 - $cot x = cot(x + \pi n)$ 
+- When working with *sine and cosine* the period is $2\pi$, when working with *tan and cot* the period is $\pi$ 
+- **Period** : How often it repeats
+- $tan x = \frac{sin x}{cos x}$ :You can find the *tangent* on a *unit circle* by dividing the *sine* by the *cosine*
+- $tan \frac{\pi}{6} = \frac{sin\frac{\pi}{6}}{cos\frac{\pi}{6}}$ : $\frac{1}{2}$ * $\frac{2}{\sqrt{3}}$ = $\frac{1}{\sqrt{3}}$  to find the tangent of pi over 6(30$\degree$), divide the $sin\frac{\pi}{6}$ by $cos\frac{\pi}{6}$ on a unit circle
+- 
 ### Graphing Tangent and Cotangent Functions
 
 Tangent and cotangent functions are unique because they are defined as ratios that include variables in the denominator ($\tan \theta = \frac{y}{x}$ and $\cot \theta = \frac{x}{y}$). This results in **vertical asymptotes** where the denominator is zero.
@@ -2099,6 +2104,7 @@ Tangent and cotangent functions are unique because they are defined as ratios th
     * **Period:** $\pi$ (repeats twice as often as sine/cosine).
     * **Asymptotes:** Occur at $x = \frac{\pi}{2} + n\pi$ (where $\cos x = 0$).
     * **Shape:** An increasing "S-curve" that passes through the origin $(0,0)$.
+
 * **Cotangent ($y = \cot x$):**
     * **Period:** $\pi$.
     * **Asymptotes:** Occur at $x = n\pi$ (where $\sin x = 0$).
