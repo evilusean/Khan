@@ -2125,7 +2125,8 @@ Tangent and cotangent functions are unique because they are defined as ratios th
     * **Asymptotes:** Occur at $x = n\pi$ (where $\sin x = 0$).
     * **Shape:** A decreasing curve that is a horizontal shift and reflection of the tangent graph.
 ![[Pasted image 20260112175704.png]]
-
+- **Memorize these three points** When graphing a tangent, the main points you want to find are the quarter point, mid point and three quarter point : $(\frac{\pi}{4}, 1)$ , $(\frac{\pi}{2},0)$,  $(\frac{3 \pi}{4}, -1)$ to get the main shape of the tangent - To find the next point of a similiar type, add $\frac{\pi}{8}$ 
+![[Pasted image 20260112180240.png]]
 ---
 
 #### 2. Key Features and Transformations
