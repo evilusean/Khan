@@ -2247,6 +2247,7 @@ The distance between asymptotes is $2\pi$. We divide this into four equal interv
 * **Horizontal Step Size:** $\frac{\pi}{2}$
 * **Vertical Asymptotes:** $x = \frac{3\pi}{2}$ and $x = \frac{7\pi}{2}$
 ### Cotangent Transformation: Key Points
+![[Pasted image 20260112181506.png]]
 **Function:** $f(x) = \cot\left(\frac{x}{2} + \frac{\pi}{3}\right)$
 
 ---
