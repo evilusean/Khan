@@ -2086,3 +2086,5 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 
 ## 2026-January-12 Graphing a Tangent and Cotangent :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=4h54m45s
+- $tan x = tan(x + \pi n)$ 
+- $cot x = cot(x + \pi n)$ 
