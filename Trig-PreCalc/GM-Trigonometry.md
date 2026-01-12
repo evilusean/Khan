@@ -2094,6 +2094,8 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=4h54m45s
 - $tan \frac{\pi}{6} = \frac{sin\frac{\pi}{6}}{cos\frac{\pi}{6}}$ : $\frac{1}{2}$ * $\frac{2}{\sqrt{3}}$ = $\frac{1}{\sqrt{3}}$  to find the tangent of pi over 6(30$\degree$), divide the $sin\frac{\pi}{6}$ by $cos\frac{\pi}{6}$ on a unit circle
 - $\frac{\pi}{2}$ + $\pi n$ : Whenever the $cos$ value is '0' the value of tangent is **undefined**, this includes $\frac{\pi}{2}$ and $\frac{3\pi}{2}$ as well as their coterminal angles - The tangent is undefined at *odd multiples* of $\frac{\pi}{2}$ 
 - When *sin* is 0 and *cos* is not 0, tan will be '0'
+- The closer you get to $\frac{\pi}{2}$, the closer you get to $\infty$, **increase without bound** but will never touch $\frac{\pi}{2}$, which is *undefined*
+- **Consecutive Vertical Asymptotes** : When you have repeating vertical asymptotes (approaches infinitely, but doesn't touch)
 - 
 ### Graphing Tangent and Cotangent Functions
 
@@ -2107,6 +2109,15 @@ Tangent and cotangent functions are unique because they are defined as ratios th
     * **Asymptotes:** Occur at $x = \frac{\pi}{2} + n\pi$ (where $\cos x = 0$).
     * **Shape:** An increasing "S-curve" that passes through the origin $(0,0)$.
 ![[Pasted image 20260112162129.png]]
+- When graphing a tangent, the main points you want to find are $(\frac{-\pi}{4}, -1)$, $(0,0)$, $(\frac{\pi}{4}, 1)$ to get the main shape of the tangent
+- *X Intercepts* are of the form $x=\pi n$ where 'n' is any integer - The x intercept occurs at *1/2* of the way between the consecutive vertical asymptotes has a y-coordinate of '0'
+- *1\4* of the way between consecutive vertical asymptotes has a y-coordinate of '-1'
+- *3\4* of the way between consecutive vertical asymptotes has a y-coordinate of '-1'
+- There are no minimum or maximum values
+- The range is *infinite*
+- The graph has *no amplitude*
+- The graph is symetric with respect to the origin
+
 * **Cotangent ($y = \cot x$):**
     * **Period:** $\pi$.
     * **Asymptotes:** Occur at $x = n\pi$ (where $\sin x = 0$).
