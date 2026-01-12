@@ -2109,7 +2109,7 @@ Tangent and cotangent functions are unique because they are defined as ratios th
     * **Asymptotes:** Occur at $x = \frac{\pi}{2} + n\pi$ (where $\cos x = 0$).
     * **Shape:** An increasing "S-curve" that passes through the origin $(0,0)$.
 ![[Pasted image 20260112162129.png]]
-- **Memorize these three points** When graphing a tangent, the main points you want to find are $(\frac{-\pi}{4}, -1)$, $(0,0)$, $(\frac{\pi}{4}, 1)$ to get the main shape of the tangent
+- **Memorize these three points** When graphing a tangent, the main points you want to find are $(\frac{-\pi}{4}, -1)$, $(0,0)$, $(\frac{\pi}{4}, 1)$ to get the main shape of the tangent - To find the next point of a similiar type, add $\frac{\pi}{8}$ 
 - *X Intercepts* are of the form $x=\pi n$ where 'n' is any integer - The x intercept occurs at *1/2* of the way between the consecutive vertical asymptotes has a y-coordinate of '0'
 - *1\4* of the way between consecutive vertical asymptotes has a y-coordinate of '-1'
 - *3\4* of the way between consecutive vertical asymptotes has a y-coordinate of '-1'
@@ -2137,7 +2137,7 @@ Standard form: $y = a \tan(b(x - h)) + k$
 * **Amplitude (Vertical Stretch):** While these functions don't have a maximum or minimum, the value of $|a|$ affects the "steepness" of the curve. The "quarter-points" of the cycle will be at $y = k + a$ and $y = k - a$.
 
 ![[Pasted image 20260112165156.png]]
-- $f(x) = 2 tan(2x + 2\pi / 3) + 1$ : 
+- $f(x) = 2 tan(2x + 2\pi / 3) + 1$ : (pull out the 2) $f(x) = 2 tan[2(x + \pi / 3)] + 1$ : '2' tan stretches the distance between the middle/quarter/three quarter point by 2, the '+1' adds a vertical shift of one up, '2' that was pulled out is counterintuitive *horizontal compression/shrink* of a factor of 2(divide by 2 or multiply by 1/2), the $\frac{\pi}{3}$ is the phase shift and is counterintuitive because you will go $\frac{\pi}{3}$ to the *LEFT*
 
 ---
 
@@ -2201,3 +2201,43 @@ Key points are found by dividing the distance between asymptotes ($P = \frac{6\p
 * **Center of Cycle:** $(-\pi/3, 1)$
 * **Step size between points:** $\frac{\pi}{8}$
 * **Vertical Asymptotes:** $x = -\frac{7\pi}{12}$ and $x = -\frac{\pi}{12}$
+### Tangent Transformation: Key Points
+**Function:** $f(x) = \tan\left(\frac{x}{2} - \frac{5\pi}{4}\right) + 1$
+
+---
+
+#### 1. Parameters & Standard Form
+To identify transformations, factor out the $b$ value ($\frac{1}{2}$):
+$$f(x) = \tan\left[\frac{1}{2}\left(x - \frac{5\pi}{2}\right)\right] + 1$$
+
+* **Vertical Stretch ($a$):** $1$
+* **Period ($P$):** $\frac{\pi}{b} = \frac{\pi}{1/2} = 2\pi$
+* **Phase Shift ($h$):** $+\frac{5\pi}{2}$ (Right $\frac{5\pi}{2}$)
+* **Vertical Shift ($k$):** $+1$ (Midline: $y = 1$)
+
+---
+
+#### 2. Vertical Asymptotes (VA)
+Find the boundaries for one principal cycle by setting the argument equal to the parent asymptotes ($-\frac{\pi}{2}$ and $\frac{\pi}{2}$):
+* **Left VA:** $\frac{x}{2} - \frac{5\pi}{4} = -\frac{\pi}{2} \implies \frac{x}{2} = \frac{3\pi}{4} \implies x = \frac{3\pi}{2}$
+* **Right VA:** $\frac{x}{2} - \frac{5\pi}{4} = \frac{\pi}{2} \implies \frac{x}{2} = \frac{7\pi}{4} \implies x = \frac{7\pi}{2}$
+
+---
+
+#### 3. Key Points Calculation
+The distance between asymptotes is $2\pi$. We divide this into four equal intervals of $\frac{\pi}{2}$ to find the key points.
+
+| Point | x-coordinate | y-coordinate ($k \pm a$) | Final $(x, y)$ |
+| :--- | :--- | :--- | :--- |
+| **Left VA** | $\frac{3\pi}{2}$ | Undefined | VA |
+| **Quarter Point** | $2\pi$ | $1 - 1 = 0$ | $(2\pi, 0)$ |
+| **Midpoint** | $\frac{5\pi}{2}$ | $k = 1$ | $(\frac{5\pi}{2}, 1)$ |
+| **3/4 Point** | $3\pi$ | $1 + 1 = 2$ | $(3\pi, 2)$ |
+| **Right VA** | $\frac{7\pi}{2}$ | Undefined | VA |
+
+---
+
+#### 4. Summary for Graphing
+* **Center of Cycle (Inflection Point):** $(\frac{5\pi}{2}, 1)$
+* **Horizontal Step Size:** $\frac{\pi}{2}$
+* **Vertical Asymptotes:** $x = \frac{3\pi}{2}$ and $x = \frac{7\pi}{2}$
