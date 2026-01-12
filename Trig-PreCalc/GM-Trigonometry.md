@@ -2083,3 +2083,5 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 ![[Pasted image 20260111164523.png]]
 - $f(x) = 4 sin (3x + 3\pi / 4) -1$ : (factor out the '3') $f(x) = 4 sin [3(x + \frac{\pi}{4})]-1$ Vertical Shift '-1' at the end, drops it down one on the y axis
 - Other transformations are : '4' sin increases the vertical stretch by a factor of 4, horizontal compression of 1/3, phase shift left by $\pi / 4$
+
+## 2026-January-12 Graphing a Tangent and Cotangent :
