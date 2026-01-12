@@ -2088,3 +2088,51 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=4h54m45s
 - $tan x = tan(x + \pi n)$ 
 - $cot x = cot(x + \pi n)$ 
+### Graphing Tangent and Cotangent Functions
+
+Tangent and cotangent functions are unique because they are defined as ratios that include variables in the denominator ($\tan \theta = \frac{y}{x}$ and $\cot \theta = \frac{x}{y}$). This results in **vertical asymptotes** where the denominator is zero.
+
+---
+
+#### 1. The Parent Graphs
+* **Tangent ($y = \tan x$):**
+    * **Period:** $\pi$ (repeats twice as often as sine/cosine).
+    * **Asymptotes:** Occur at $x = \frac{\pi}{2} + n\pi$ (where $\cos x = 0$).
+    * **Shape:** An increasing "S-curve" that passes through the origin $(0,0)$.
+* **Cotangent ($y = \cot x$):**
+    * **Period:** $\pi$.
+    * **Asymptotes:** Occur at $x = n\pi$ (where $\sin x = 0$).
+    * **Shape:** A decreasing curve that is a horizontal shift and reflection of the tangent graph.
+
+
+---
+
+#### 2. Key Features and Transformations
+Standard form: $y = a \tan(b(x - h)) + k$
+
+* **Period ($P$):** For tangent and cotangent, the period is calculated as:
+    $$P = \frac{\pi}{b}$$
+* **Vertical Asymptotes:** These bound one full cycle of the graph.
+    * For $y = \tan(bx)$, solve: $-\frac{\pi}{2} < bx < \frac{\pi}{2}$
+    * For $y = \cot(bx)$, solve: $0 < bx < \pi$
+* **Amplitude (Vertical Stretch):** While these functions don't have a maximum or minimum, the value of $|a|$ affects the "steepness" of the curve. The "quarter-points" of the cycle will be at $y = k + a$ and $y = k - a$.
+
+---
+
+#### 3. Step-by-Step Graphing Process
+1.  **Find the Period:** $P = \pi/b$.
+2.  **Locate Asymptotes:** Find where the function is undefined for one cycle.
+3.  **Find the Midpoint:** The point exactly between the asymptotes is the x-intercept (or the point on the midline $k$).
+4.  **Find Quarter-Points:** Halfway between the midpoint and each asymptote, the y-value will be $k \pm a$.
+5.  **Sketch the Curve:** Draw the smooth curve approaching the asymptotes.
+
+---
+
+#### 4. Comparison Table
+| Feature | $y = \tan x$ | $y = \cot x$ |
+| :--- | :--- | :--- |
+| **Period** | $\pi$ | $\pi$ |
+| **Domain** | $x \neq \frac{\pi}{2} + n\pi$ | $x \neq n\pi$ |
+| **Range** | $(-\infty, \infty)$ | $(-\infty, \infty)$ |
+| **Intersects Midline** | At $n\pi$ | At $\frac{\pi}{2} + n\pi$ |
+| **Behavior** | Increasing | Decreasing |
