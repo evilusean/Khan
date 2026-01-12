@@ -2085,3 +2085,4 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 - Other transformations are : '4' sin increases the vertical stretch by a factor of 4, horizontal compression of 1/3, phase shift left by $\pi / 4$
 
 ## 2026-January-12 Graphing a Tangent and Cotangent :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=4h54m45s
