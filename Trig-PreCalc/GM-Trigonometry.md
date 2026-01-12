@@ -2096,7 +2096,7 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=4h54m45s
 - When *sin* is 0 and *cos* is not 0, tan will be '0'
 - The closer you get to $\frac{\pi}{2}$, the closer you get to $\infty$, **increase without bound** but will never touch $\frac{\pi}{2}$, which is *undefined*
 - **Consecutive Vertical Asymptotes** : When you have repeating vertical asymptotes (approaches infinitely, but doesn't touch)
-- 
+- **Quarter Period** : $\frac{\pi}{2}$ * $\frac{1}{4}$ 
 ### Graphing Tangent and Cotangent Functions
 
 Tangent and cotangent functions are unique because they are defined as ratios that include variables in the denominator ($\tan \theta = \frac{y}{x}$ and $\cot \theta = \frac{x}{y}$). This results in **vertical asymptotes** where the denominator is zero.
@@ -2109,7 +2109,7 @@ Tangent and cotangent functions are unique because they are defined as ratios th
     * **Asymptotes:** Occur at $x = \frac{\pi}{2} + n\pi$ (where $\cos x = 0$).
     * **Shape:** An increasing "S-curve" that passes through the origin $(0,0)$.
 ![[Pasted image 20260112162129.png]]
-- When graphing a tangent, the main points you want to find are $(\frac{-\pi}{4}, -1)$, $(0,0)$, $(\frac{\pi}{4}, 1)$ to get the main shape of the tangent
+- **Memorize these three points** When graphing a tangent, the main points you want to find are $(\frac{-\pi}{4}, -1)$, $(0,0)$, $(\frac{\pi}{4}, 1)$ to get the main shape of the tangent
 - *X Intercepts* are of the form $x=\pi n$ where 'n' is any integer - The x intercept occurs at *1/2* of the way between the consecutive vertical asymptotes has a y-coordinate of '0'
 - *1\4* of the way between consecutive vertical asymptotes has a y-coordinate of '-1'
 - *3\4* of the way between consecutive vertical asymptotes has a y-coordinate of '-1'
@@ -2136,6 +2136,7 @@ Standard form: $y = a \tan(b(x - h)) + k$
     * For $y = \cot(bx)$, solve: $0 < bx < \pi$
 * **Amplitude (Vertical Stretch):** While these functions don't have a maximum or minimum, the value of $|a|$ affects the "steepness" of the curve. The "quarter-points" of the cycle will be at $y = k + a$ and $y = k - a$.
 
+![[Pasted image 20260112165156.png]]
 ---
 
 #### 3. Step-by-Step Graphing Process
