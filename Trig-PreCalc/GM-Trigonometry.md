@@ -2311,6 +2311,18 @@ The parent functions $y = \csc(x)$ and $y = \sec(x)$ have a period of $2\pi$.
 * **Relative Maximum:** $( \frac{3\pi}{2}, -1 )$.
 
 ![[Pasted image 20260113180849.png]]
+The Cosecant Curve and its Characteristics
+- The domain consists of eal numbers except $\pi$n, where n is any integer
+- f(x) = csc x is discontinuous at $\pi$n, where n is any integer
+- The graph contains vertical asymptotes at those values
+* There are no x-intercepts
+* The period is 2
+* There are no minimum or maximum values
+- The range is: (-$\infty$,-1] U [ 1, $infty$ )
+- The graph has no amplitude
+- The graph is symmetric with respect to the origin
+- csc(-x) = -csc x, for all x in the domain
+- f(x) = csc x is an odd function
 
 **$y = \sec(x)$ (Reciprocal of Cosine):**
 * **Asymptotes:** $x = \frac{\pi}{2}, \frac{3\pi}{2}$ (where $\cos(x) = 0$).
