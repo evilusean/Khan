@@ -2289,3 +2289,6 @@ The period is $2\pi$. Divide this interval into four equal sections of $\frac{\p
 * **Horizontal Step Size:** $\frac{\pi}{2}$
 * **Vertical Asymptotes:** $x = -\frac{2\pi}{3}$ and $x = \frac{4\pi}{3}$
 * **Behavior:** The graph is decreasing between asymptotes (typical for cotangent with $a > 0$).
+
+## 2026-January-13 - Graphing Secant and Cosecant :
+
