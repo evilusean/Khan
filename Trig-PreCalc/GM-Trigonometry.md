@@ -2292,4 +2292,56 @@ The period is $2\pi$. Divide this interval into four equal sections of $\frac{\p
 
 ## 2026-January-13 - Graphing Secant and Cosecant :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=6h14m50s
+- 
+### Detailed Guide: Graphing Secant and Cosecant Functions
+
+To graph these functions in detail, you must view them as the "extrapolation" of Sine and Cosine. They do not exist independently of their reciprocal guides.
+
+---
+
+#### 1. The Parent Graphs
+The parent functions $y = \csc(x)$ and $y = \sec(x)$ have a period of $2\pi$.
+
+
+
+**$y = \csc(x)$ (Reciprocal of Sine):**
+* **Asymptotes:** $x = 0, \pi, 2\pi$ (where $\sin(x) = 0$).
+* **Relative Minimum:** $( \frac{\pi}{2}, 1 )$.
+* **Relative Maximum:** $( \frac{3\pi}{2}, -1 )$.
+
+**$y = \sec(x)$ (Reciprocal of Cosine):**
+* **Asymptotes:** $x = \frac{\pi}{2}, \frac{3\pi}{2}$ (where $\cos(x) = 0$).
+* **Relative Minimum:** $( 0, 1 )$ and $( 2\pi, 1 )$.
+* **Relative Maximum:** $( \pi, -1 )$.
+
+---
+
+#### 2. Standard Form & Transformations
+$$y = a \csc(b(x - h)) + k \quad \text{or} \quad y = a \sec(b(x - h)) + k$$
+
+| Transformation | Variable | Impact on Secant / Cosecant |
+| :--- | :--- | :--- |
+| **Vertical Stretch** | $|a|$ | Moves the vertices further from the midline. The "gap" becomes $2|a|$ units high. |
+| **Period** | $P = \frac{2\pi}{b}$ | The horizontal distance between the start of one "Up-U" and the end of the next "Down-U." |
+| **Phase Shift** | $h$ | Slides the starting point of the reciprocal wave left or right. |
+| **Vertical Shift** | $k$ | Moves the entire graph up or down. The vertices will be at $y = k + a$ and $y = k - a$. |
+
+---
+
+#### 3. Deep-Dive Graphing Procedure (The "Ghost" Method)
+
+To graph $y = a \csc(b(x - h)) + k$ with high precision:
+
+##### Step A: Graph the "Ghost" Wave
+Sketch $y = a \sin(b(x - h)) + k$ lightly. 
+1.  Identify the **Midline** ($y = k$).
+2.  Use $a$ to find the **Amplitude** above and below the midline.
+3.  Use $P = 2\pi/b$ and $h$ to find the five critical points of the Sine wave.
+##### Step B: Identify Asymptotes
+Draw a vertical dashed line through every point where your "Ghost" wave **crosses the midline**. 
+* *Note:* If there is no vertical shift ($k=0$), these are simply the x-intercepts.
+
+##### Step C: Plot the Vertices and Curves
+1.  **Vertex Up:** At the **peaks** of the ghost wave, draw a parabola-like curve opening upward toward the asymptotes.
+2.  **Vertex Down:** At the **valleys** of the ghost wave, draw a parabola-like curve opening downward toward the asymptotes.
 
