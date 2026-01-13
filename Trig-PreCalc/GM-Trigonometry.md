@@ -2527,3 +2527,48 @@ The secant graph consists of "U-shaped" curves that share the same vertices as t
 - Sketch the graph by drawing the u-shaped branches between consecutive vertical asymptotes
 - The "hills" and "valleys" are interchanged
 - (Optional) Use the period to find additional cycles to the left or right as needed
+### Using Sine as a Guide for Graphing Cosecant
+
+The cosecant function, $y = \csc(x)$, is the reciprocal of the sine function, $y = \sin(x)$. To graph it accurately, you first sketch the corresponding sine wave as a "guide."
+
+---
+
+#### 1. The Reciprocal Relationship
+Because $\csc(x) = \frac{1}{\sin(x)}$, the behavior of the cosecant graph is entirely dependent on the values of the sine wave:
+* **When $\sin(x) = 1$:** $\csc(x) = 1$ (the vertex of the upward curve).
+* **When $\sin(x) = -1$:** $\csc(x) = -1$ (the vertex of the downward curve).
+* **When $\sin(x) = 0$:** $\csc(x)$ is **undefined**, resulting in a **vertical asymptote**.
+
+---
+
+#### 2. Graphing Steps (The "Ghost" Method)
+For a transformed function $y = a \csc(b(x-h)) + k$:
+
+**Step 1: Sketch the Ghost Sine Wave**
+Lightly sketch $y = a \sin(b(x-h)) + k$ using a dashed line. 
+* Identify the **midline** ($y = k$).
+* Mark the five key points of one sine cycle (Start, Quarter, Midpoint, 3/4, End).
+
+
+
+**Step 2: Place Vertical Asymptotes**
+Draw dashed vertical lines everywhere the ghost sine wave **crosses its midline**. 
+* These are the points where the reciprocal becomes $1/0$.
+
+
+
+**Step 3: Sketch the Cosecant Curves**
+Draw the cosecant "U-shapes" (often called cups) using the peaks and valleys of the sine wave as vertices:
+* **At the Peaks:** Draw a "U" opening **upward** toward the asymptotes.
+* **At the Valleys:** Draw a "U" opening **downward** toward the asymptotes.
+
+---
+
+#### 3. Key Feature Comparison
+| Feature | Sine Guide ($y = \sin x$) | Cosecant Result ($y = \csc x$) |
+| :--- | :--- | :--- |
+| **Midline Intersections** | $(x, k)$ | **Vertical Asymptotes** |
+| **Max Points (Peaks)** | $(x, k+a)$ | **Relative Minimums** |
+| **Min Points (Valleys)** | $(x, k-a)$ | **Relative Maximums** |
+| **Period** | $2\pi/b$ | $2\pi/b$ |
+| **Range** | $[k-a, k+a]$ | $(-\infty, k-a] \cup [k+a, \infty)$ |
