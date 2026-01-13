@@ -2291,4 +2291,5 @@ The period is $2\pi$. Divide this interval into four equal sections of $\frac{\p
 * **Behavior:** The graph is decreasing between asymptotes (typical for cotangent with $a > 0$).
 
 ## 2026-January-13 - Graphing Secant and Cosecant :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=6h14m50s
 
