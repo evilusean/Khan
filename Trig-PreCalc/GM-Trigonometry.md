@@ -2305,8 +2305,6 @@ To graph these functions in detail, you must view them as the "extrapolation" of
 #### 1. The Parent Graphs
 The parent functions $y = \csc(x)$ and $y = \sec(x)$ have a period of $2\pi$.
 
-
-
 **$y = \csc(x)$ (Reciprocal of Sine):**
 * **Asymptotes:** $x = 0, \pi, 2\pi$ (where $\sin(x) = 0$).
 * **Relative Minimum:** $( \frac{\pi}{2}, 1 )$.
@@ -2348,3 +2346,59 @@ Draw a vertical dashed line through every point where your "Ghost" wave **crosse
 1.  **Vertex Up:** At the **peaks** of the ghost wave, draw a parabola-like curve opening upward toward the asymptotes.
 2.  **Vertex Down:** At the **valleys** of the ghost wave, draw a parabola-like curve opening downward toward the asymptotes.
 
+### Finding Secant via Cosine Reciprocals on the Unit Circle
+
+The secant function ($y = \sec \theta$) is defined as the reciprocal of the cosine function ($y = \cos \theta$). On the unit circle, this relationship allows us to derive secant values directly from coordinate points.
+
+---
+
+#### 1. The Unit Circle Definition
+Every point on the unit circle is represented by the coordinates $(x, y)$, where:
+* $x = \cos \theta$
+* $y = \sin \theta$
+
+Because $\sec \theta = \frac{1}{\cos \theta}$, it follows that on the unit circle:
+$$\sec \theta = \frac{1}{x}$$
+
+---
+
+#### 2. Visualizing Secant Geometrically
+While sine and cosine are the vertical and horizontal legs of a right triangle inside the circle, the **secant** can be visualized as a line segment on the **tangent line**:
+1.  Draw a tangent line to the circle at the point $(1, 0)$.
+2.  Extend the terminal side (the radius) until it hits that tangent line.
+3.  The distance from the origin to that intersection point along the terminal side is the **secant length**.
+
+---
+
+#### 3. Step-by-Step: From Cosine to Secant
+To find $\sec \theta$ for any standard angle:
+
+1.  **Identify the Cosine ($x$):** Look at the x-coordinate of the angle on the unit circle.
+2.  **Take the Reciprocal:** Flip the fraction ($x \to 1/x$).
+3.  **Rationalize (if necessary):** If the denominator contains a radical, multiply the top and bottom to simplify.
+
+**Example: Finding $\sec(30^\circ)$ or $\sec(\pi/6)$**
+* **Step 1:** $\cos(30^\circ) = \frac{\sqrt{3}}{2}$
+* **Step 2:** $\sec(30^\circ) = \frac{1}{\sqrt{3}/2} = \frac{2}{\sqrt{3}}$
+* **Step 3:** $\frac{2 \times \sqrt{3}}{\sqrt{3} \times \sqrt{3}} = \frac{2\sqrt{3}}{3}$
+
+---
+
+#### 4. Critical Values and Undefined Points
+Secant becomes **undefined** whenever the x-coordinate (cosine) is $0$. This occurs at the top and bottom of the unit circle.
+
+| Angle ($\theta$) | $\cos \theta$ ($x$) | $\sec \theta$ ($1/x$) | Point Status |
+| :--- | :--- | :--- | :--- |
+| $0$ or $0^\circ$ | $1$ | $1/1 = 1$ | Minimum Value |
+| $\pi/2$ or $90^\circ$ | $0$ | $1/0 = \text{undefined}$ | **Vertical Asymptote** |
+| $\pi$ or $180^\circ$ | $-1$ | $1/-1 = -1$ | Maximum Value |
+| $3\pi/2$ or $270^\circ$ | $0$ | $1/0 = \text{undefined}$ | **Vertical Asymptote** |
+
+---
+
+#### 5. Sign by Quadrant (ASTC)
+Since $\sec \theta$ depends entirely on the sign of $x$ (cosine), it follows the same quadrant rules as cosine:
+* **Quadrant I:** $x$ is positive $\to \sec \theta$ is **Positive**
+* **Quadrant II:** $x$ is negative $\to \sec \theta$ is **Negative**
+* **Quadrant III:** $x$ is negative $\to \sec \theta$ is **Negative**
+* **Quadrant IV:** $x$ is positive $\to \sec \theta$ is **Positive**
