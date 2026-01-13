@@ -2292,6 +2292,9 @@ The period is $2\pi$. Divide this interval into four equal sections of $\frac{\p
 
 ## 2026-January-13 - Graphing Secant and Cosecant :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=6h14m50s
+- $sec x = sec(x + 2\pi n)$
+- $csc x = csc(x + 2\pi n)$
+- $sec x = \frac{1}{cosx}$
 - 
 ### Detailed Guide: Graphing Secant and Cosecant Functions
 
