@@ -2517,4 +2517,11 @@ The secant graph consists of "U-shaped" curves that share the same vertices as t
 | **Min Points (Valleys)**| $(x, k-a)$ | **Relative Maximums** of the downward "U" |
 | **Period** | $2\pi/b$ | $2\pi/b$ (Same as cosine) |
 
-![[Pasted image 20260113170650.png]]
+![[Pasted image 20260113170650.png]]‘Graphing Variations of the Secant Function :
+- Replace secant with cosine and sketch the graph using a dashed curve
+-  Cosine is used as a guide 
+- Sketch the vertical asymptotes
+- These occur at 1/4 and 3/4 of the way through the cosine cycle
+- Sketch the graph by drawing the u-shaped branches between consecutive vertical asymptotes
+- The "hills" and "valleys" are interchanged
+- (Optional) Use the period to find additional cycles to the left or right as needed
