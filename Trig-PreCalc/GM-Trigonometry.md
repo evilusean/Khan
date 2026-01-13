@@ -2314,6 +2314,7 @@ The parent functions $y = \csc(x)$ and $y = \sec(x)$ have a period of $2\pi$.
 * **Asymptotes:** $x = \frac{\pi}{2}, \frac{3\pi}{2}$ (where $\cos(x) = 0$).
 * **Relative Minimum:** $( 0, 1 )$ and $( 2\pi, 1 )$.
 * **Relative Maximum:** $( \pi, -1 )$.
+![[Pasted image 20260113163358.png]]
 
 ---
 
