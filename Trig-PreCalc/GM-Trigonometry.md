@@ -2310,6 +2310,8 @@ The parent functions $y = \csc(x)$ and $y = \sec(x)$ have a period of $2\pi$.
 * **Relative Minimum:** $( \frac{\pi}{2}, 1 )$.
 * **Relative Maximum:** $( \frac{3\pi}{2}, -1 )$.
 
+![[Pasted image 20260113180849.png]]
+
 **$y = \sec(x)$ (Reciprocal of Cosine):**
 * **Asymptotes:** $x = \frac{\pi}{2}, \frac{3\pi}{2}$ (where $\cos(x) = 0$).
 * **Relative Minimum:** $( 0, 1 )$ and $( 2\pi, 1 )$.
