@@ -2316,6 +2316,7 @@ The parent functions $y = \csc(x)$ and $y = \sec(x)$ have a period of $2\pi$.
 * **Relative Maximum:** $( \pi, -1 )$.
 ![[Pasted image 20260113163358.png]]
 
+
 ---
 
 #### 2. Standard Form & Transformations
@@ -2463,3 +2464,5 @@ Since $\csc \theta$ is the reciprocal of sine, it shares the exact same sign pat
 * **Secant ($1/x$):** Undefined at the top/bottom ($90^\circ, 270^\circ$).
 * **Cosecant ($1/y$):** Undefined at the left/right ($0^\circ, 180^\circ$).
 * **Both:** Always have values $\geq 1$ or $\leq -1$. They never exist within the "gap" between $-1$ and $1$ because sine and cosine never exceed $1$.
+
+![[Pasted image 20260113170650.png]]
