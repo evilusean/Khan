@@ -2572,3 +2572,4 @@ Draw the cosecant "U-shapes" (often called cups) using the peaks and valleys of 
 | **Min Points (Valleys)** | $(x, k-a)$ | **Relative Maximums** |
 | **Period** | $2\pi/b$ | $2\pi/b$ |
 | **Range** | $[k-a, k+a]$ | $(-\infty, k-a] \cup [k+a, \infty)$ |
+![[Pasted image 20260113181821.png]]
