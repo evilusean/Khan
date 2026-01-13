@@ -2295,7 +2295,7 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=6h14m50s
 - $sec x = sec(x + 2\pi n)$
 - $csc x = csc(x + 2\pi n)$
 - $sec x = \frac{1}{cosx}$
-- 
+- $cos = \frac{1}{sinx}$  
 ### Detailed Guide: Graphing Secant and Cosecant Functions
 
 To graph these functions in detail, you must view them as the "extrapolation" of Sine and Cosine. They do not exist independently of their reciprocal guides.
@@ -2402,3 +2402,63 @@ Since $\sec \theta$ depends entirely on the sign of $x$ (cosine), it follows the
 * **Quadrant II:** $x$ is negative $\to \sec \theta$ is **Negative**
 * **Quadrant III:** $x$ is negative $\to \sec \theta$ is **Negative**
 * **Quadrant IV:** $x$ is positive $\to \sec \theta$ is **Positive**
+### Finding Cosecant via Sine Reciprocals on the Unit Circle
+
+The cosecant function ($y = \csc \theta$) is the reciprocal of the sine function ($y = \sin \theta$). Just as secant is tied to the horizontal $x$-coordinate, cosecant is tied to the vertical $y$-coordinate on the unit circle.
+
+---
+
+#### 1. The Unit Circle Definition
+On the unit circle (radius = 1), every point is defined by $(x, y) = (\cos \theta, \sin \theta)$. Since $\csc \theta = \frac{1}{\sin \theta}$, the value of cosecant at any angle is:
+$$\csc \theta = \frac{1}{y}$$
+
+---
+
+#### 2. Visualizing Cosecant Geometrically
+Cosecant can be visualized as a line segment related to the **vertical tangent line**:
+1. Draw a horizontal tangent line to the circle at the point $(0, 1)$.
+2. Extend the terminal side (the radius) until it intersects this horizontal tangent line.
+3. The distance from the origin to that intersection point along the terminal side represents the **cosecant length**.
+
+---
+
+#### 3. Step-by-Step: From Sine to Cosecant
+To find $\csc \theta$ for any standard angle:
+
+1. **Identify the Sine ($y$):** Find the y-coordinate of the angle on the unit circle.
+2. **Take the Reciprocal:** Flip the fraction ($y \to 1/y$).
+3. **Rationalize (if necessary):** If the denominator contains a radical, multiply the numerator and denominator by that radical.
+
+**Example: Finding $\csc(240^\circ)$ or $\csc(4\pi/3)$**
+* **Step 1:** The y-coordinate at $240^\circ$ is $-\frac{\sqrt{3}}{2}$.
+* **Step 2:** $\csc(240^\circ) = \frac{1}{-\sqrt{3}/2} = -\frac{2}{\sqrt{3}}$.
+* **Step 3:** $-\frac{2\sqrt{3}}{3}$.
+
+---
+
+#### 4. Critical Values and Undefined Points
+Cosecant becomes **undefined** whenever the y-coordinate (sine) is $0$. This occurs at the "sides" of the unit circle (the x-axis).
+
+| Angle ($\theta$) | $\sin \theta$ ($y$) | $\csc \theta$ ($1/y$) | Point Status |
+| :--- | :--- | :--- | :--- |
+| $0$ or $0^\circ$ | $0$ | $1/0 = \text{undefined}$ | **Vertical Asymptote** |
+| $\pi/2$ or $90^\circ$ | $1$ | $1/1 = 1$ | Minimum Value |
+| $\pi$ or $180^\circ$ | $0$ | $1/0 = \text{undefined}$ | **Vertical Asymptote** |
+| $3\pi/2$ or $270^\circ$ | $-1$ | $1/-1 = -1$ | Maximum Value |
+
+
+---
+
+#### 5. Sign by Quadrant (ASTC)
+Since $\csc \theta$ is the reciprocal of sine, it shares the exact same sign pattern as sine across the four quadrants:
+* **Quadrant I:** $y$ is positive (+) $\to \csc \theta$ is **Positive**
+* **Quadrant II:** $y$ is positive (+) $\to \csc \theta$ is **Positive**
+* **Quadrant III:** $y$ is negative (-) $\to \csc \theta$ is **Negative**
+* **Quadrant IV:** $y$ is negative (-) $\to \csc \theta$ is **Negative**
+
+---
+
+#### 6. Summary Comparison for Notes
+* **Secant ($1/x$):** Undefined at the top/bottom ($90^\circ, 270^\circ$).
+* **Cosecant ($1/y$):** Undefined at the left/right ($0^\circ, 180^\circ$).
+* **Both:** Always have values $\geq 1$ or $\leq -1$. They never exist within the "gap" between $-1$ and $1$ because sine and cosine never exceed $1$.
