@@ -2315,7 +2315,18 @@ The parent functions $y = \csc(x)$ and $y = \sec(x)$ have a period of $2\pi$.
 * **Relative Minimum:** $( 0, 1 )$ and $( 2\pi, 1 )$.
 * **Relative Maximum:** $( \pi, -1 )$.
 ![[Pasted image 20260113163358.png]]
-
+The Secant Curve and its Characteristics : 
+* The domain consists of all real numbers except odd multiples of $\pi/2$
+- f(x) = sec x is discontinuous at odd multiples of $\pi/2$
+- The graph contains vertical asymptotes at those values
+- There are no x-intercepts
+- The period is $2\pi$
+- There no minimum or maximum values
+- The range is: (-$\infty$ ,-1] U [1,$\infty$)
+- The graph has no amplitude
+- The graph is symmetric with respect to the y-axis
+- sec(-x) = sec x, for all x in the domain
+- f(x) = sec x is an even function
 
 ---
 
@@ -2506,8 +2517,4 @@ The secant graph consists of "U-shaped" curves that share the same vertices as t
 | **Min Points (Valleys)**| $(x, k-a)$ | **Relative Maximums** of the downward "U" |
 | **Period** | $2\pi/b$ | $2\pi/b$ (Same as cosine) |
 
----
-
-#### 4. Why Use a Guide? (Engineering Perspective)
-Using a guide wave ensures you never misplace your asymptotes. In engineering systems involving **Impedance** or **Stress Analysis**, the secant function represents values that "blow up" to infinity. The cosine guide helps you visualize exactly where those critical failures (asymptotes) occur in relation to the oscillation of the system.
 ![[Pasted image 20260113170650.png]]
