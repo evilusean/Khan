@@ -2792,3 +2792,40 @@ Rearrange the terms to match the right side:
 $$1 + \sin x$$
 
 **The identity is verified.**
+### Verifying Trigonometric Identities
+
+**Problem:** Verify the identity shown in the final image:
+$$\frac{\cot \theta}{\sin^2 \theta} = \frac{\csc^2 \theta}{\tan \theta}$$
+
+---
+
+#### Step-by-Step Verification
+To verify this identity, we will transform the **left side** to match the **right side** using fundamental identities.
+
+**Step 1: Rewrite the left side using the reciprocal identity**
+Recall that $\frac{1}{\sin^2 \theta} = \csc^2 \theta$.
+$$\cot \theta \cdot \csc^2 \theta$$
+
+**Step 2: Rewrite $\cot \theta$ using the quotient identity**
+Recall that $\cot \theta = \frac{1}{\tan \theta}$.
+$$\frac{1}{\tan \theta} \cdot \csc^2 \theta$$
+
+**Step 3: Combine terms**
+Multiply the numerators and denominators together:
+$$\frac{\csc^2 \theta}{\tan \theta}$$
+
+**Step 4: Final Result**
+The left side now identically matches the right side:
+$$\frac{\csc^2 \theta}{\tan \theta} = \frac{\csc^2 \theta}{\tan \theta}$$
+
+**The identity is verified.**
+
+---
+
+#### Alternative Method (Converting to Sine and Cosine)
+If you prefer to work entirely in terms of sine and cosine:
+
+1. **Left Side:** $$\frac{\cos \theta / \sin \theta}{\sin^2 \theta} = \frac{\cos \theta}{\sin^3 \theta}$$
+2. **Right Side:**
+   $$\frac{1 / \sin^2 \theta}{\sin \theta / \cos \theta} = \frac{1}{\sin^2 \theta} \cdot \frac{\cos \theta}{\sin \theta} = \frac{\cos \theta}{\sin^3 \theta}$$
+Both sides equal $\frac{\cos \theta}{\sin^3 \theta}$, confirming the identity.
