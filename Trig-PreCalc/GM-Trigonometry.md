@@ -2649,3 +2649,44 @@ $$\tan(-x) = \frac{\sin(-x)}{\cos(-x)} = \frac{-\sin(x)}{\cos(x)} = -\tan(x)$$
 #### 5. Summary of Symmetry in Graphs
 * **Cosine/Secant:** If you fold the graph along the y-axis, the left and right sides match perfectly.
 * **Sine/Cosecant/Tangent/Cotangent:** If you rotate the graph $180^\circ$ around the origin, the graph looks identical.
+### Trigonometry Problem: Evaluating Functions with Even-Odd Identities
+
+**Given:**
+* $\tan \theta = \frac{3}{4}$
+* $\sin \theta > 0$
+
+**Find:** $\sec \theta$, $\sin \theta$, and $\cot(-\theta)$
+
+---
+
+#### 1. Determine the Quadrant
+* Since $\tan \theta$ is positive ($\frac{3}{4}$) and $\sin \theta$ is positive ($> 0$), the terminal side of $\theta$ must lie in **Quadrant I**.
+* In Quadrant I, all trigonometric functions are positive.
+
+#### 2. Identify Triangle Side Lengths
+Using the definition $\tan \theta = \frac{\text{opposite}}{\text{adjacent}}$:
+* **Opposite ($y$):** $3$
+* **Adjacent ($x$):** $4$
+* **Hypotenuse ($r$):** Calculate using the Pythagorean theorem:
+    $$r = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$$
+
+#### 3. Solve for the Requested Functions
+
+**A. Find $\sec \theta$:**
+$$\sec \theta = \frac{\text{hypotenuse}}{\text{adjacent}} = \frac{5}{4}$$
+
+**B. Find $\sin \theta$:**
+$$\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{3}{5}$$
+
+**C. Find $\cot(-\theta)$:**
+First, use the **Negative Angle Identity** for cotangent: $\cot(-\theta) = -\cot(\theta)$.
+* Calculate $\cot \theta$: $\cot \theta = \frac{\text{adjacent}}{\text{opposite}} = \frac{4}{3}$
+* Apply the identity:
+$$\cot(-\theta) = -\left(\frac{4}{3}\right) = -\frac{4}{3}$$
+
+---
+
+#### Final Results Summary
+* **$\sec \theta = \frac{5}{4}$**
+* **$\sin \theta = \frac{3}{5}$**
+* **$\cot(-\theta) = -\frac{4}{3}$**
