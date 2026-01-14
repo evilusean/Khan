@@ -564,9 +564,6 @@ In mathematics, functions are categorized based on their symmetry:
 ### Verifying Trigonometric Identities
 
 Verifying an identity requires showing that one side of an equation is identical to the other through a series of valid substitutions and algebraic steps.
-
----
-
 #### 1. Core Strategies for Verification
 * **Memorize Fundamental Identities:** Recognition of reciprocal, quotient, and Pythagorean identities is the first step in substitution.
 * **Work on the More Complicated Side:** It is mathematically easier to simplify a complex expression than to build up a simple one.
@@ -575,3 +572,14 @@ Verifying an identity requires showing that one side of an equation is identical
     * **Factoring:** Pull out common factors or use the difference of squares.
     * **Expanding:** Multiply binomials or distribute terms to simplify.
     * **Common Denominators:** Combine separate fractions into one to simplify the structure.
+#### 3. Important Rules
+* **Do Not Cross the Equals Sign:** Unlike solving equations, you must work on each side independently until they match.
+* **Goal-Oriented Substitution:** Always keep an eye on the side you are *not* working on to ensure your substitutions are moving you toward that specific form.
+
+- Memorize the fundamental identities
+- Always try to work on the more complicated side
+- Express everything in terms of sine and cosine
+- Perform any indicated algebraic operations such as factoring or expanding
+- Use the formula for multiplying conjugates:
+- (1 + sin x)(1 - sin x)
+- (1 + cos x)(1 - cos x)
