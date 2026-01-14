@@ -2587,3 +2587,5 @@ Draw the cosecant "U-shapes" (often called cups) using the peaks and valleys of 
 ![[Pasted image 20260113181821.png]]
 ## 2026-January-14 - Fundamental Identities :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=7h17m35s
+- Negative Angle Identities :
+  ![[Pasted image 20260114132113.png]]
