@@ -2585,3 +2585,4 @@ Draw the cosecant "U-shapes" (often called cups) using the peaks and valleys of 
 | **Period** | $2\pi/b$ | $2\pi/b$ |
 | **Range** | $[k-a, k+a]$ | $(-\infty, k-a] \cup [k+a, \infty)$ |
 ![[Pasted image 20260113181821.png]]
+## 2026-January-14 - Fundamental Identities :
