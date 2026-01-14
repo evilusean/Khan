@@ -2719,3 +2719,4 @@ $$\frac{1}{\cancel{\cos \theta}} \cdot \frac{\cancel{\cos \theta}}{\cancel{\sin 
 #### 4. Final Result
 $$\sec \theta \cdot \cot \theta \cdot \sin \theta = 1$$
 ## 2026-January-14 - Verifying Trigonometric Identities :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=7h37m5s
