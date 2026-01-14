@@ -2720,3 +2720,10 @@ $$\frac{1}{\cancel{\cos \theta}} \cdot \frac{\cancel{\cos \theta}}{\cancel{\sin 
 $$\sec \theta \cdot \cot \theta \cdot \sin \theta = 1$$
 ## 2026-January-14 - Verifying Trigonometric Identities :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=7h37m5s
+- Memorize the fundamental identities
+- Always try to work on the more complicated side
+- Express everything in terms of sine and cosine
+- Perform any indicated algebraic operations such as factoring or expanding
+- Use the formula for multiplying conjugates:
+- (1 + sin x)(1 - sin x)
+- (1 + cos x)(1 - cos x)
