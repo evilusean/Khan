@@ -2613,6 +2613,14 @@ In mathematics, functions are categorized based on their symmetry:
 | **Odd** | $\tan(-\theta) = -\tan(\theta)$ | Origin |
 | **Odd** | $\cot(-\theta) = -\cot(\theta)$ | Origin |
 
+- sin$(\theta)$ = $\frac{y}{r}$ 
+- sin$(-\theta)$ = $\frac{-y}{r}$
+- sin$(-\theta)$ = -sin$(\theta)$ : They are the same, but negatives of eachother
+-  cos$(\theta)$ = $\frac{x}{r}$ 
+-  cos$(-\theta)$ = $\frac{x}{r}$ 
+- cos$(\theta)$ = cos$(-\theta)$ : They are the same, not negatives
+-  -tan$(\theta)$ =  tan$(-\theta)$ : They are the same, but negatives of eachother
+
 ---
 
 #### 3. Geometric Visualization (Unit Circle)
@@ -2621,8 +2629,6 @@ When you rotate an angle $\theta$ to $-\theta$, you are reflecting the terminal 
 * **Cosine (x-coordinate):** The x-value remains exactly the same for both $\theta$ and $-\theta$. This is why cosine is **even**.
 * **Sine (y-coordinate):** The y-value maintains the same magnitude but flips its sign (positive becomes negative). This is why sine is **odd**.
 * **Tangent (y/x):** Since the y-value flips but the x-value stays the same, the ratio $y/x$ flips its sign.
-
-
 
 ---
 
