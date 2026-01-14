@@ -1,6 +1,8 @@
 
 Find All Formulas you need for trig and make a cheetsheet - any you don't know, look up
 
+Also Identities : Reciprocal Identities (sin = $\frac{1}{csc}$, etc), Quotient Identities (tan$\theta$ = $\frac{sin\theta}{cos\theta}$), Pythagorean Identities ($sin^2\theta+cos^2\theta=1$, etc), Negative-Angle Identities ($\sin(-\theta) = -\sin(\theta)$, etc) - You will need to remember these before calc
+
 ---
 - https://www.youtube.com/watch?v=GsIo3B46yjU # Inverse Functions - Domain & range- With Fractions, Square Roots, & Graphs
 - Radians / degrees, minutes, seconds - converting manually 

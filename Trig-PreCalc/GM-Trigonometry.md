@@ -2604,14 +2604,14 @@ In mathematics, functions are categorized based on their symmetry:
 
 #### 2. The Identities
 
-| Function Type | Identity | Symmetry |
-| :--- | :--- | :--- |
-| **Even** | $\cos(-\theta) = \cos(\theta)$ | y-axis |
-| **Even** | $\sec(-\theta) = \sec(\theta)$ | y-axis |
-| **Odd** | $\sin(-\theta) = -\sin(\theta)$ | Origin |
-| **Odd** | $\csc(-\theta) = -\csc(\theta)$ | Origin |
-| **Odd** | $\tan(-\theta) = -\tan(\theta)$ | Origin |
-| **Odd** | $\cot(-\theta) = -\cot(\theta)$ | Origin |
+| Function Type | Identity                        | Symmetry |
+| :------------ | :------------------------------ | :------- |
+| **Even**      | $\cos(-\theta) = \cos(\theta)$  | y-axis   |
+| **Even**      | $\sec(-\theta) = \sec(\theta)$  | y-axis   |
+| **Odd**       | $\sin(-\theta) = -\sin(\theta)$ | Origin   |
+| **Odd**       | $\csc(-\theta) = -\csc(\theta)$ | Origin   |
+| **Odd**       | $\tan(-\theta) = -\tan(\theta)$ | Origin   |
+| **Odd**       | $\cot(-\theta) = -\cot(\theta)$ | Origin   |
 
 - sin$(\theta)$ = $\frac{y}{r}$ 
 - sin$(-\theta)$ = $\frac{-y}{r}$
