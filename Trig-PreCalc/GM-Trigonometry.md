@@ -2690,3 +2690,31 @@ $$\cot(-\theta) = -\left(\frac{4}{3}\right) = -\frac{4}{3}$$
 * **$\sec \theta = \frac{5}{4}$**
 * **$\sin \theta = \frac{3}{5}$**
 * **$\cot(-\theta) = -\frac{4}{3}$**
+### Simplifying Trigonometric Expressions
+
+**Problem:** Simplify the expression $\sec \theta \cdot \cot \theta \cdot \sin \theta$
+
+---
+
+#### 1. Identity Substitution
+To simplify, rewrite each function in terms of **Sine** and **Cosine**:
+
+* **$\sec \theta$:** $\frac{1}{\cos \theta}$
+* **$\cot \theta$:** $\frac{\cos \theta}{\sin \theta}$
+* **$\sin \theta$:** $\frac{\sin \theta}{1}$
+
+#### 2. Algebraic Setup
+Substitute these identities into the original expression:
+
+$$\left( \frac{1}{\cos \theta} \right) \cdot \left( \frac{\cos \theta}{\sin \theta} \right) \cdot \left( \frac{\sin \theta}{1} \right)$$
+
+#### 3. Simplification (Cancellation)
+Identify terms that appear in both the numerator and the denominator:
+
+* The **$\cos \theta$** in the first denominator cancels with the **$\cos \theta$** in the second numerator.
+* The **$\sin \theta$** in the second denominator cancels with the **$\sin \theta$** in the third numerator.
+
+$$\frac{1}{\cancel{\cos \theta}} \cdot \frac{\cancel{\cos \theta}}{\cancel{\sin \theta}} \cdot \frac{\cancel{\sin \theta}}{1} = \frac{1}{1}$$
+
+#### 4. Final Result
+$$\sec \theta \cdot \cot \theta \cdot \sin \theta = 1$$
