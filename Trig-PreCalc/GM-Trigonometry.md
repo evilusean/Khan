@@ -2756,3 +2756,39 @@ Multiplying by a conjugate is a specific strategy used to "square" terms, which 
 #### 3. Important Rules
 * **Do Not Cross the Equals Sign:** Unlike solving equations, you must work on each side independently until they match.
 * **Goal-Oriented Substitution:** Always keep an eye on the side you are *not* working on to ensure your substitutions are moving you toward that specific form.
+### Trigonometric Identity Verification
+
+**Problem:** Verify the following identity:
+$$\frac{\cos x + \cot x}{\cot x} = 1 + \sin x$$
+
+---
+
+#### Step-by-Step Verification
+
+To verify this identity, we will work on the **left side**, as it is the more complicated side.
+
+**Step 1: Separate the fraction into two terms**
+By dividing each term in the numerator by the denominator, we get:
+$$\frac{\cos x}{\cot x} + \frac{\cot x}{\cot x}$$
+
+**Step 2: Simplify the second term**
+Any term divided by itself is equal to 1:
+$$\frac{\cos x}{\cot x} + 1$$
+
+**Step 3: Convert the remaining trigonometric function to sine and cosine**
+Substitute the identity $\cot x = \frac{\cos x}{\sin x}$:
+$$\frac{\cos x}{\left( \frac{\cos x}{\sin x} \right)} + 1$$
+
+**Step 4: Simplify the complex fraction**
+To divide by a fraction, multiply by its reciprocal:
+$$\cos x \cdot \left( \frac{\sin x}{\cos x} \right) + 1$$
+
+**Step 5: Cancel common factors**
+The $\cos x$ terms cancel out, leaving:
+$$\sin x + 1$$
+
+**Step 6: Final Result**
+Rearrange the terms to match the right side:
+$$1 + \sin x$$
+
+**The identity is verified.**
