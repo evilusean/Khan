@@ -561,3 +561,17 @@ In mathematics, functions are categorized based on their symmetry:
 -  cos$(-\theta)$ = $\frac{x}{r}$ 
 - cos$(\theta)$ = cos$(-\theta)$ : They are the same, not negatives
 -  -tan$(\theta)$ =  tan$(-\theta)$ : They are the same, but negatives of eachother
+### Verifying Trigonometric Identities
+
+Verifying an identity requires showing that one side of an equation is identical to the other through a series of valid substitutions and algebraic steps.
+
+---
+
+#### 1. Core Strategies for Verification
+* **Memorize Fundamental Identities:** Recognition of reciprocal, quotient, and Pythagorean identities is the first step in substitution.
+* **Work on the More Complicated Side:** It is mathematically easier to simplify a complex expression than to build up a simple one.
+* **Convert to Sine and Cosine:** Rewriting terms like $\tan x$, $\sec x$, or $\cot x$ in terms of $\sin x$ and $\cos x$ often reveals hidden common factors.
+* **Perform Algebraic Operations:** Use standard algebra to manipulate the expression:
+    * **Factoring:** Pull out common factors or use the difference of squares.
+    * **Expanding:** Multiply binomials or distribute terms to simplify.
+    * **Common Denominators:** Combine separate fractions into one to simplify the structure.
