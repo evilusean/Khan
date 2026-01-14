@@ -2587,5 +2587,59 @@ Draw the cosecant "U-shapes" (often called cups) using the peaks and valleys of 
 ![[Pasted image 20260113181821.png]]
 ## 2026-January-14 - Fundamental Identities :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=7h17m35s
-- Negative Angle Identities :
+- Negative Angle Identities (Even-Odd Identities) :
   ![[Pasted image 20260114132113.png]]
+### Negative Angle Identities (Even-Odd Identities)
+
+Negative Angle Identities (also known as Even-Odd Identities) describe how a trigonometric function responds when the sign of the input angle is flipped—specifically, whether $f(-x)$ is equal to $f(x)$ or $-f(x)$.
+
+---
+
+#### 1. Categorization: Even vs. Odd
+In mathematics, functions are categorized based on their symmetry:
+* **Even Functions:** Symmetric across the **y-axis**. $f(-x) = f(x)$.
+* **Odd Functions:** Symmetric about the **origin**. $f(-x) = -f(x)$.
+
+---
+
+#### 2. The Identities
+
+| Function Type | Identity | Symmetry |
+| :--- | :--- | :--- |
+| **Even** | $\cos(-\theta) = \cos(\theta)$ | y-axis |
+| **Even** | $\sec(-\theta) = \sec(\theta)$ | y-axis |
+| **Odd** | $\sin(-\theta) = -\sin(\theta)$ | Origin |
+| **Odd** | $\csc(-\theta) = -\csc(\theta)$ | Origin |
+| **Odd** | $\tan(-\theta) = -\tan(\theta)$ | Origin |
+| **Odd** | $\cot(-\theta) = -\cot(\theta)$ | Origin |
+
+---
+
+#### 3. Geometric Visualization (Unit Circle)
+When you rotate an angle $\theta$ to $-\theta$, you are reflecting the terminal side across the **x-axis**.
+
+* **Cosine (x-coordinate):** The x-value remains exactly the same for both $\theta$ and $-\theta$. This is why cosine is **even**.
+* **Sine (y-coordinate):** The y-value maintains the same magnitude but flips its sign (positive becomes negative). This is why sine is **odd**.
+* **Tangent (y/x):** Since the y-value flips but the x-value stays the same, the ratio $y/x$ flips its sign.
+
+
+
+---
+
+#### 4. Algebraic Application
+These identities allow you to simplify expressions and solve for negative angles without needing to rotate clockwise on the unit circle.
+
+**Example 1: Cosine**
+$$\cos(-60^\circ) = \cos(60^\circ) = \frac{1}{2}$$
+
+**Example 2: Sine**
+$$\sin(-\frac{\pi}{4}) = -\sin(\frac{\pi}{4}) = -\frac{\sqrt{2}}{2}$$
+
+**Example 3: Tangent**
+$$\tan(-x) = \frac{\sin(-x)}{\cos(-x)} = \frac{-\sin(x)}{\cos(x)} = -\tan(x)$$
+
+---
+
+#### 5. Summary of Symmetry in Graphs
+* **Cosine/Secant:** If you fold the graph along the y-axis, the left and right sides match perfectly.
+* **Sine/Cosecant/Tangent/Cotangent:** If you rotate the graph $180^\circ$ around the origin, the graph looks identical.
