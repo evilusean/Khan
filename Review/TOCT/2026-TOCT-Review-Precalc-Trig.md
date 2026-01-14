@@ -534,3 +534,30 @@ $$y = a \sin(b(x - h)) + k \quad \text{or} \quad y = a \cos(b(x - h)) + k$$
 | **Width**      | $b$      | Horizontal stretch/shrink (affects period) |
 | **Horizontal** | $h$      | Shifts the starting point left/right       |
 | **Vertical**   | $k$      | Shifts the entire wave up/down
+
+### Fundamental Identitites : 
+#### 1. Categorization: Even vs. Odd
+In mathematics, functions are categorized based on their symmetry:
+* **Even Functions:** Symmetric across the **y-axis**. $f(-x) = f(x)$.
+* **Odd Functions:** Symmetric about the **origin**. $f(-x) = -f(x)$.
+
+---
+
+#### 2. The Identities
+
+| Function Type | Identity                        | Symmetry |
+| :------------ | :------------------------------ | :------- |
+| **Even**      | $\cos(-\theta) = \cos(\theta)$  | y-axis   |
+| **Even**      | $\sec(-\theta) = \sec(\theta)$  | y-axis   |
+| **Odd**       | $\sin(-\theta) = -\sin(\theta)$ | Origin   |
+| **Odd**       | $\csc(-\theta) = -\csc(\theta)$ | Origin   |
+| **Odd**       | $\tan(-\theta) = -\tan(\theta)$ | Origin   |
+| **Odd**       | $\cot(-\theta) = -\cot(\theta)$ | Origin   |
+
+- sin$(\theta)$ = $\frac{y}{r}$ 
+- sin$(-\theta)$ = $\frac{-y}{r}$
+- sin$(-\theta)$ = -sin$(\theta)$ : They are the same, but negatives of eachother
+-  cos$(\theta)$ = $\frac{x}{r}$ 
+-  cos$(-\theta)$ = $\frac{x}{r}$ 
+- cos$(\theta)$ = cos$(-\theta)$ : They are the same, not negatives
+-  -tan$(\theta)$ =  tan$(-\theta)$ : They are the same, but negatives of eachother
