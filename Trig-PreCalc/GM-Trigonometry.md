@@ -2979,6 +2979,61 @@ The image highlights a key concept used to prove the **Cosine Difference Formula
     * $d(P_0, P_1) = \sqrt{(\cos(s+t) - 1)^2 + (\sin(s+t) - 0)^2}$
     * $d(Q_0, Q_1) = \sqrt{(\cos t - \cos(-s))^2 + (\sin t - \sin(-s))^2}$
 * Because the arcs are equal in total magnitude, the linear distances (chords) between the points are also equal. This equality is the foundation for deriving sum and difference identities.
+### Cofunction Identities & Their Derivation
+
+Cofunction identities describe the relationship between trigonometric functions of **complementary angles** (angles that sum to $90^\circ$ or $\pi/2$ radians). The prefix "co-" in functions like **co**sine, **co**secant, and **co**tangent refers to this complementary relationship.
+
+---
+
+#### 1. The Six Cofunction Identities
+The identities based on the provided material are:
+
+* **Sine and Cosine:**
+    * $\cos(90^\circ - \theta) = \sin \theta$
+    * $\sin(90^\circ - \theta) = \cos \theta$
+* **Secant and Cosecant:**
+    * $\sec(90^\circ - \theta) = \csc \theta$
+    * $\csc(90^\circ - \theta) = \sec \theta$
+* **Tangent and Cotangent:**
+    * $\tan(90^\circ - \theta) = \cot \theta$
+    * $\cot(90^\circ - \theta) = \tan \theta$
+
+---
+
+#### 2. Geometric Derivation (Right Triangle)
+The simplest way to derive these is by looking at a right triangle.
+
+
+
+* **Complementary Angles:** In any right triangle, if one acute angle is $\theta$, the other must be $90^\circ - \theta$ because the sum of all angles is $180^\circ$.
+* **Shared Sides:**
+    * The side **opposite** $\theta$ is the exact same side that is **adjacent** to $(90^\circ - \theta)$.
+    * The side **adjacent** to $\theta$ is the exact same side that is **opposite** $(90^\circ - \theta)$.
+* **The Ratio Connection:**
+    * Since $\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}}$ and $\cos(90^\circ - \theta) = \frac{\text{adjacent to } (90^\circ - \theta)}{\text{hypotenuse}}$, they are using the same side lengths.
+    * Therefore, $\sin \theta$ must equal $\cos(90^\circ - \theta)$.
+
+---
+
+#### 3. Algebraic Derivation (Difference Formula)
+You can also derive these using the **Cosine Difference Identity**:
+$$\cos(A - B) = \cos A \cos B + \sin A \sin B$$
+
+If we let $A = 90^\circ$ and $B = \theta$:
+$$\cos(90^\circ - \theta) = \cos 90^\circ \cos \theta + \sin 90^\circ \sin \theta$$
+
+Substitute the known values $\cos 90^\circ = 0$ and $\sin 90^\circ = 1$:
+$$\cos(90^\circ - \theta) = (0)\cos \theta + (1)\sin \theta$$
+$$\cos(90^\circ - \theta) = \sin \theta$$
+
+---
+
+#### 4. Summary Table
+| Function    | Complementary Cofunction |
+| :---------- | :----------------------- |
+| **Sine**    | Cosine                   |
+| **Tangent** | Cotangent                |
+| **Secant**  | Cosecant                 |
 ### 2026-January-15 - Solving $\cos(75^\circ)$ using Sum Identities
 
 Using the **Cosine Sum Identity**: $\cos(s + t) = \cos s \cos t - \sin s \sin t$.
