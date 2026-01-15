@@ -583,3 +583,9 @@ Verifying an identity requires showing that one side of an equation is identical
 - Use the formula for multiplying conjugates:
 - (1 + sin x)(1 - sin x)
 - (1 + cos x)(1 - cos x)
+
+### Sum and Difference Identities for Cosine :
+- cos(A + B) = cosA cosB - sinA sinB : 'cos(A +B)' isn't the cosine of 'A' and 'B' it is the cosine of 'A' +Plus 'B' equals the cosine multiplied by the angles of 'A' and 'B' equals the cosine of 'A' multiplied by the cosine of 'B' minus sine of 'A' times the sine of 'B' - so, for example, if you had cos($40\degree + 35\degree$) it would be the cosine of $75\degree$ not the cosine of $40\degree + 35\degree$
+- cos(A - B) = cosA cosB + sinA sinB : signs will be flipped, so if you first you subtract, then you add 
+![[Pasted image 20260115145753.png]]
+
