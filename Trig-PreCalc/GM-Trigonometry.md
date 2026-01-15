@@ -3003,8 +3003,6 @@ The identities based on the provided material are:
 #### 2. Geometric Derivation (Right Triangle)
 The simplest way to derive these is by looking at a right triangle.
 
-
-
 * **Complementary Angles:** In any right triangle, if one acute angle is $\theta$, the other must be $90^\circ - \theta$ because the sum of all angles is $180^\circ$.
 * **Shared Sides:**
     * The side **opposite** $\theta$ is the exact same side that is **adjacent** to $(90^\circ - \theta)$.
