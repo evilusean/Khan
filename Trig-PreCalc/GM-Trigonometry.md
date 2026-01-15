@@ -2829,3 +2829,116 @@ If you prefer to work entirely in terms of sine and cosine:
 2. **Right Side:**
    $$\frac{1 / \sin^2 \theta}{\sin \theta / \cos \theta} = \frac{1}{\sin^2 \theta} \cdot \frac{\cos \theta}{\sin \theta} = \frac{\cos \theta}{\sin^3 \theta}$$
 Both sides equal $\frac{\cos \theta}{\sin^3 \theta}$, confirming the identity.
+
+### Verifying Trigonometric Identities
+
+**Problem:** Verify the trigonometric identity:
+$$-\csc^2 \theta \cos^2 \theta = 1 - \csc^2 \theta$$
+
+---
+
+#### Step-by-Step Verification
+
+To verify this identity, we will work on the **left side** to transform it into the right side using fundamental identities.
+
+**Step 1: Convert the left side to Sine and Cosine**
+Substitute the reciprocal identity $\csc^2 \theta = \frac{1}{\sin^2 \theta}$:
+$$-\left( \frac{1}{\sin^2 \theta} \right) \cos^2 \theta$$
+
+**Step 2: Simplify the expression**
+Multiply the terms to form a single fraction:
+$$-\frac{\cos^2 \theta}{\sin^2 \theta}$$
+
+**Step 3: Recognize the Quotient Identity**
+Recall that $\frac{\cos \theta}{\sin \theta} = \cot \theta$. Therefore:
+$$-\cot^2 \theta$$
+
+**Step 4: Apply the Pythagorean Identity**
+Use the identity $1 + \cot^2 \theta = \csc^2 \theta$, which can be rearranged as:
+$$\cot^2 \theta = \csc^2 \theta - 1$$
+Substitute this into our expression:
+$$-(\csc^2 \theta - 1)$$
+
+**Step 5: Distribute the negative sign**
+$$-\csc^2 \theta + 1$$
+
+**Step 6: Final Result**
+Rearrange the terms to match the right side:
+$$1 - \csc^2 \theta$$
+
+**The identity is verified.**
+### Verifying Trigonometric Identities
+
+**Problem:** Verify the following identity:
+$$2 \tan \theta \sec \theta = \frac{1}{1 - \sin \theta} - \frac{1}{1 + \sin \theta}$$
+
+---
+
+#### Step-by-Step Verification
+
+To verify this identity, we will work on the **right side**, as it is the more complicated side.
+
+**Step 1: Find a common denominator to combine the fractions**
+The common denominator is $(1 - \sin \theta)(1 + \sin \theta)$.
+$$\frac{1(1 + \sin \theta) - 1(1 - \sin \theta)}{(1 - \sin \theta)(1 + \sin \theta)}$$
+
+**Step 2: Simplify the numerator**
+Distribute the negative sign and combine like terms:
+$$\frac{1 + \sin \theta - 1 + \sin \theta}{(1 - \sin \theta)(1 + \sin \theta)} = \frac{2 \sin \theta}{(1 - \sin \theta)(1 + \sin \theta)}$$
+
+**Step 3: Simplify the denominator**
+Use the formula for multiplying conjugates (difference of squares):
+$$\frac{2 \sin \theta}{1 - \sin^2 \theta}$$
+
+**Step 4: Apply the Pythagorean Identity**
+Substitute $1 - \sin^2 \theta$ with $\cos^2 \theta$:
+$$\frac{2 \sin \theta}{\cos^2 \theta}$$
+
+**Step 5: Deconstruct the expression into basic functions**
+Separate the squared cosine in the denominator to identify the tangent and secant functions:
+$$2 \cdot \frac{\sin \theta}{\cos \theta} \cdot \frac{1}{\cos \theta}$$
+
+**Step 6: Final Result**
+Using the quotient identity ($\frac{\sin \theta}{\cos \theta} = \tan \theta$) and the reciprocal identity ($\frac{1}{\cos \theta} = \sec \theta$):
+$$2 \tan \theta \sec \theta$$
+
+**The identity is verified.**
+### Verifying Trigonometric Identities
+
+**Problem:** Verify the following identity:
+$$\frac{\sec x + \tan x}{\sec x - \tan x} = \frac{1 + 2\sin x + \sin^2 x}{\cos^2 x}$$
+
+---
+
+#### Step-by-Step Verification
+
+We will work on the **left side** of the equation to transform it into the right side.
+
+**Step 1: Convert the left side to Sine and Cosine**
+Rewrite $\sec x$ as $\frac{1}{\cos x}$ and $\tan x$ as $\frac{\sin x}{\cos x}$:
+$$\frac{\frac{1}{\cos x} + \frac{\sin x}{\cos x}}{\frac{1}{\cos x} - \frac{\sin x}{\cos x}}$$
+
+**Step 2: Simplify the complex fraction**
+Combine the terms in both the numerator and denominator:
+$$\frac{\frac{1 + \sin x}{\cos x}}{\frac{1 - \sin x}{\cos x}}$$
+Multiply by the reciprocal of the denominator:
+$$\frac{1 + \sin x}{\cos x} \cdot \frac{\cos x}{1 - \sin x} = \frac{1 + \sin x}{1 - \sin x}$$
+
+**Step 3: Multiply by the conjugate of the denominator**
+To reach the form on the right side, multiply both numerator and denominator by $(1 + \sin x)$:
+$$\frac{(1 + \sin x)(1 + \sin x)}{(1 - \sin x)(1 + \sin x)}$$
+
+**Step 4: Expand the numerator and simplify the denominator**
+* **Numerator:** $(1 + \sin x)^2 = 1 + 2\sin x + \sin^2 x$
+* **Denominator:** Use the difference of squares formula: $1 - \sin^2 x$
+$$\frac{1 + 2\sin x + \sin^2 x}{1 - \sin^2 x}$$
+
+**Step 5: Apply the Pythagorean Identity**
+Substitute $1 - \sin^2 x$ with $\cos^2 x$:
+$$\frac{1 + 2\sin x + \sin^2 x}{\cos^2 x}$$
+
+**Final Result**
+The left side now identically matches the right side:
+$$\frac{1 + 2\sin x + \sin^2 x}{\cos^2 x} = \frac{1 + 2\sin x + \sin^2 x}{\cos^2 x}$$
+
+**The identity is verified.**
