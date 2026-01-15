@@ -2948,3 +2948,34 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=7h59m45s
 - cos(A - B) = cosA cosB + sinA sinB : signs will be flipped, so if you first you subtract, then you add 
 ![[Pasted image 20260115145753.png]]
 - this is where the 2 above equations come from : 
+### Arclength on the Unit Circle (Unit Circle Geometry)
+
+On a **unit circle** (where the radius $r = 1$), the measure of an angle in radians is numerically equal to the length of the arc it subtends. This image illustrates how to visualize and calculate specific arclengths ($t$, $s$, and $-s$) based on terminal points.
+
+
+---
+
+#### 1. Arclength $t$
+* **Starting Point:** $P_0(1, 0)$
+* **Ending Point:** $Q_1(\cos t, \sin t)$
+* **Explanation:** The arc $t$ represents the distance traveled along the circumference from the positive x-axis to the point $Q_1$. Because we are on a unit circle, the angle $\theta$ (in radians) at the center is exactly equal to the length of the arc.
+
+#### 2. Arclength $s$
+* **Starting Point:** $Q_1(\cos t, \sin t)$
+* **Ending Point:** $P_1(\cos(s+t), \sin(s+t))$
+* **Explanation:** The arc $s$ is the distance between the terminal point of $t$ and the terminal point of the combined angle $s+t$. Geometrically, this is a rotation of $s$ units starting from the position established by $t$.
+
+#### 3. Arclength $-s$
+* **Starting Point:** $P_0(1, 0)$
+* **Ending Point:** $Q_0(\cos(-s), \sin(-s))$
+* **Explanation:** A negative arclength indicates rotation in the **clockwise** direction. The length of the arc is $|s|$, but its position is reflected across the x-axis from a positive arc $s$.
+
+---
+
+#### 4. Geometric Significance: $d(P_0, P_1) = d(Q_0, Q_1)$
+The image highlights a key concept used to prove the **Cosine Difference Formula**:
+* The distance between $P_0$ and $P_1$ (the chord spanning arc $s+t$) is compared to the distance between $Q_0$ and $Q_1$.
+* By using the distance formula on these coordinates:
+    * $d(P_0, P_1) = \sqrt{(\cos(s+t) - 1)^2 + (\sin(s+t) - 0)^2}$
+    * $d(Q_0, Q_1) = \sqrt{(\cos t - \cos(-s))^2 + (\sin t - \sin(-s))^2}$
+* Because the arcs are equal in total magnitude, the linear distances (chords) between the points are also equal. This equality is the foundation for deriving sum and difference identities.
