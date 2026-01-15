@@ -2946,3 +2946,5 @@ $$\frac{1 + 2\sin x + \sin^2 x}{\cos^2 x} = \frac{1 + 2\sin x + \sin^2 x}{\cos^2
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=7h59m45s
 - cos(A + B) = cosA cosB - sinA sinB : 'cos(A +B)' isn't the cosine of 'A' and 'B' it is the cosine of 'A' +Plus 'B' equals the cosine multiplied by the angles of 'A' and 'B' equals the cosine of 'A' multiplied by the cosine of 'B' minus sine of 'A' times the sine of 'B' - so, for example, if you had cos($40\degree + 35\degree$) it would be the cosine of $75\degree$ not the cosine of $40\degree + 35\degree$
 - cos(A - B) = cosA cosB + sinA sinB : signs will be flipped, so if you first you subtract, then you add 
+![[Pasted image 20260115145753.png]]
+- this is where the 2 above equations come from : 
