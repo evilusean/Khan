@@ -2979,3 +2979,37 @@ The image highlights a key concept used to prove the **Cosine Difference Formula
     * $d(P_0, P_1) = \sqrt{(\cos(s+t) - 1)^2 + (\sin(s+t) - 0)^2}$
     * $d(Q_0, Q_1) = \sqrt{(\cos t - \cos(-s))^2 + (\sin t - \sin(-s))^2}$
 * Because the arcs are equal in total magnitude, the linear distances (chords) between the points are also equal. This equality is the foundation for deriving sum and difference identities.
+### 2026-January-15 - Solving $\cos(75^\circ)$ using Sum Identities
+
+Using the **Cosine Sum Identity**: $\cos(s + t) = \cos s \cos t - \sin s \sin t$.
+
+---
+
+#### 1. Problem Setup
+To find the exact value of $\cos(75^\circ)$, we break the angle into two "special angles" from the unit circle:
+$$\cos(75^\circ) = \cos(45^\circ + 30^\circ)$$
+
+#### 2. Apply the Identity
+Substitute $s = 45^\circ$ and $t = 30^\circ$ into the sum formula:
+$$\cos(45^\circ + 30^\circ) = \cos 45^\circ \cos 30^\circ - \sin 45^\circ \sin 30^\circ$$
+
+#### 3. Substitute Exact Values
+Using the coordinates from the unit circle:
+* $\cos 45^\circ = \frac{\sqrt{2}}{2}$
+* $\cos 30^\circ = \frac{\sqrt{3}}{2}$
+* $\sin 45^\circ = \frac{\sqrt{2}}{2}$
+* $\sin 30^\circ = \frac{1}{2}$
+
+$$\cos(75^\circ) = \left( \frac{\sqrt{2}}{2} \right) \left( \frac{\sqrt{3}}{2} \right) - \left( \frac{\sqrt{2}}{2} \right) \left( \frac{1}{2} \right)$$
+
+#### 4. Simplify the Expression
+Multiply the fractions:
+$$\cos(75^\circ) = \frac{\sqrt{6}}{4} - \frac{\sqrt{2}}{4}$$
+
+Combine over a common denominator:
+$$\cos(75^\circ) = \frac{\sqrt{6} - \sqrt{2}}{4}$$
+
+---
+
+#### Final Result
+$$\cos(75^\circ) = \frac{\sqrt{6} - \sqrt{2}}{4}$$
