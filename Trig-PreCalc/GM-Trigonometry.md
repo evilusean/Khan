@@ -2943,3 +2943,4 @@ $$\frac{1 + 2\sin x + \sin^2 x}{\cos^2 x} = \frac{1 + 2\sin x + \sin^2 x}{\cos^2
 
 **The identity is verified.**
 ## 2026-January-15 - Sum and Difference Identities for Cosine :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=7h59m45s
