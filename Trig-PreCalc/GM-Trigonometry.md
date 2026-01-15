@@ -3013,3 +3013,49 @@ $$\cos(75^\circ) = \frac{\sqrt{6} - \sqrt{2}}{4}$$
 
 #### Final Result
 $$\cos(75^\circ) = \frac{\sqrt{6} - \sqrt{2}}{4}$$
+### Solving $\cos(\frac{\pi}{12})$ using Difference Identities
+
+Using the **Cosine Difference Identity**: $\cos(s - t) = \cos s \cos t + \sin s \sin t$.
+
+---
+
+#### 1. Convert Radians to Degrees
+First, we convert the radian measures to degrees for easier visualization:
+* $\frac{\pi}{4} \text{ radians} = \frac{180^\circ}{4} = 45^\circ$
+* $\frac{\pi}{6} \text{ radians} = \frac{180^\circ}{6} = 30^\circ$
+* $\frac{\pi}{12} \text{ radians} = \frac{180^\circ}{12} = 15^\circ$
+
+So, finding $\cos(\frac{\pi}{12})$ is equivalent to finding $\cos(45^\circ - 30^\circ)$.
+
+---
+
+#### 2. Apply the Identity
+Substitute $s = 45^\circ$ and $t = 30^\circ$ into the difference formula:
+$$\cos(45^\circ - 30^\circ) = \cos 45^\circ \cos 30^\circ + \sin 45^\circ \sin 30^\circ$$
+
+
+
+---
+
+#### 3. Substitute Exact Values
+From the unit circle:
+* $\cos 45^\circ = \frac{\sqrt{2}}{2}$
+* $\cos 30^\circ = \frac{\sqrt{3}}{2}$
+* $\sin 45^\circ = \frac{\sqrt{2}}{2}$
+* $\sin 30^\circ = \frac{1}{2}$
+
+$$\cos(15^\circ) = \left( \frac{\sqrt{2}}{2} \right) \left( \frac{\sqrt{3}}{2} \right) + \left( \frac{\sqrt{2}}{2} \right) \left( \frac{1}{2} \right)$$
+
+---
+
+#### 4. Simplify the Expression
+Multiply the terms:
+$$\cos(15^\circ) = \frac{\sqrt{6}}{4} + \frac{\sqrt{2}}{4}$$
+
+Combine over a common denominator:
+$$\cos(15^\circ) = \frac{\sqrt{6} + \sqrt{2}}{4}$$
+
+---
+
+#### Final Result
+$$\cos\left(\frac{\pi}{12}\right) = \frac{\sqrt{6} + \sqrt{2}}{4}$$
