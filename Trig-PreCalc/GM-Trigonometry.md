@@ -3215,3 +3215,43 @@ $$\cos(\theta + \pi) = -\cos \theta$$
 
 #### Geometric Interpretation
 Adding $\pi$ ($180^\circ$) to any angle $\theta$ results in a point on the unit circle that is directly opposite the original point. Since $\cos \theta$ represents the $x$-coordinate, rotating by half a circle flips the sign of the $x$-coordinate while maintaining the same absolute value.
+### Double-Angle Identity Verification
+
+**Problem:** Verify the following double-angle identity:
+$$\cos^2 x - \sin^2 x = \cos 2x$$
+
+---
+
+#### Step-by-Step Verification
+
+To verify this identity, we start with the **Cosine Sum Identity** and apply it to an angle doubled ($x + x$).
+
+**Step 1: Use the Cosine Sum Identity**
+Recall the fundamental sum formula:
+$$\cos(s + t) = \cos s \cos t - \sin s \sin t$$
+
+**Step 2: Substitute $x$ for both $s$ and $t$**
+To find the identity for $2x$, we let $s = x$ and $t = x$:
+$$\cos(x + x) = \cos x \cos x - \sin x \sin x$$
+
+**Step 3: Simplify the expression**
+* Multiplying $\cos x$ by itself gives $\cos^2 x$.
+* Multiplying $\sin x$ by itself gives $\sin^2 x$.
+$$\cos 2x = \cos^2 x - \sin^2 x$$
+
+---
+
+#### Alternative Forms (Using Pythagorean Identities)
+By substituting $\sin^2 x = 1 - \cos^2 x$ or $\cos^2 x = 1 - \sin^2 x$, we can derive two other common versions of this identity:
+
+1.  **In terms of Cosine only:**
+    $$\cos 2x = 2\cos^2 x - 1$$
+2.  **In terms of Sine only:**
+    $$\cos 2x = 1 - 2\sin^2 x$$
+
+
+---
+
+#### Final Result
+The identity is verified through the sum formula:
+$$\cos^2 x - \sin^2 x = \cos 2x$$
