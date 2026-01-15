@@ -3255,3 +3255,48 @@ By substituting $\sin^2 x = 1 - \cos^2 x$ or $\cos^2 x = 1 - \sin^2 x$, we can d
 #### Final Result
 The identity is verified through the sum formula:
 $$\cos^2 x - \sin^2 x = \cos 2x$$
+### Solving for $\cos(s + t)$ with Quadrant Constraints
+
+**Problem:** Find the exact value of $\cos(s + t)$ given:
+* $s$ is in Quadrant I (**QI**) and $\sin s = \frac{3}{5}$
+* $t$ is in Quadrant III (**QIII**) and $\sin t = -\frac{12}{13}$
+
+---
+
+#### 1. Identify the Relevant Identity
+To find $\cos(s + t)$, we must use the **Cosine Sum Identity**:
+$$\cos(s + t) = \cos s \cos t - \sin s \sin t$$
+
+We already have $\sin s$ and $\sin t$. We need to find $\cos s$ and $\cos t$ using the Pythagorean Identity ($\sin^2 \theta + \cos^2 \theta = 1$).
+
+#### 2. Find Missing Values
+
+**Find $\cos s$ (Quadrant I):**
+In QI, cosine is **positive**.
+$$\cos^2 s = 1 - \sin^2 s \implies \cos^2 s = 1 - \left(\frac{3}{5}\right)^2$$
+$$\cos^2 s = 1 - \frac{9}{25} = \frac{16}{25}$$
+$$\cos s = \sqrt{\frac{16}{25}} = \frac{4}{5}$$
+
+**Find $\cos t$ (Quadrant III):**
+In QIII, cosine is **negative**.
+$$\cos^2 t = 1 - \sin^2 t \implies \cos^2 t = 1 - \left(-\frac{12}{13}\right)^2$$
+$$\cos^2 t = 1 - \frac{144}{169} = \frac{25}{169}$$
+$$\cos t = -\sqrt{\frac{25}{169}} = -\frac{5}{13}$$
+
+---
+
+#### 3. Substitute into the Identity
+Now, plug all four values into the sum formula:
+$$\cos(s + t) = \left(\frac{4}{5}\right)\left(-\frac{5}{13}\right) - \left(\frac{3}{5}\right)\left(-\frac{12}{13}\right)$$
+
+**Step-by-step calculation:**
+* First term: $\frac{4 \cdot -5}{5 \cdot 13} = -\frac{20}{65}$
+* Second term: $\frac{3 \cdot -12}{5 \cdot 13} = -\frac{36}{65}$
+
+$$\cos(s + t) = -\frac{20}{65} - \left(-\frac{36}{65}\right)$$
+$$\cos(s + t) = -\frac{20}{65} + \frac{36}{65}$$
+
+---
+
+#### Final Result
+$$\cos(s + t) = \frac{16}{65}$$
