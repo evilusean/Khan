@@ -3145,3 +3145,35 @@ $$\cos 45^\circ = \frac{\sqrt{2}}{2}$$
 
 #### Final Result
 $$\cos 83^\circ \cos 38^\circ + \sin 83^\circ \sin 38^\circ = \frac{\sqrt{2}}{2}$$
+### Solving Equations with Cofunction Identities
+
+**Problem:** Find an angle $\theta$ that satisfies the equation:
+$$\sin \theta = \cos(-55^\circ)$$
+
+---
+
+#### 1. Identify the Relevant Identity
+To solve an equation where a **Sine** function equals a **Cosine** function, we use the **Cofunction Identity**:
+$$\sin \theta = \cos(90^\circ - \theta)$$
+
+#### 2. Set Up the Equation
+By substituting the identity into the original problem, we can rewrite the left side so both sides of the equation use the same trigonometric function (Cosine):
+$$\cos(90^\circ - \theta) = \cos(-55^\circ)$$
+
+#### 3. Solve for $\theta$
+Since the Cosine functions are equal, their arguments must also be equal:
+$$90^\circ - \theta = -55^\circ$$
+
+**Step-by-step algebra:**
+* Subtract $90^\circ$ from both sides:
+$$-\theta = -55^\circ - 90^\circ$$
+* Combine the terms:
+$$-\theta = -145^\circ$$
+* Multiply by $-1$ to isolate $\theta$:
+$$\theta = 145^\circ$$
+
+
+---
+
+#### Final Result
+The angle that satisfies the equation is **$\theta = 145^\circ$**.
