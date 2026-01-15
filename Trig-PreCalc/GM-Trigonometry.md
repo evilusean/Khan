@@ -3177,3 +3177,41 @@ $$\theta = 145^\circ$$
 
 #### Final Result
 The angle that satisfies the equation is **$\theta = 145^\circ$**.
+### Verifying Identities with Sum Formulas
+
+**Problem:** Verify the following identity:
+$$\cos(\theta + \pi) = -\cos \theta$$
+
+---
+
+#### Step-by-Step Verification
+
+To verify this identity, we apply the **Cosine Sum Identity**:
+$$\cos(s + t) = \cos s \cos t - \sin s \sin t$$
+
+**Step 1: Assign variables**
+Let $s = \theta$ and $t = \pi$.
+
+**Step 2: Substitute into the sum formula**
+$$\cos(\theta + \pi) = \cos \theta \cos \pi - \sin \theta \sin \pi$$
+
+**Step 3: Evaluate constant trigonometric values**
+Using the unit circle, we know the values for the angle $\pi$ ($180^\circ$):
+* $\cos \pi = -1$
+* $\sin \pi = 0$
+
+
+**Step 4: Substitute and simplify**
+Substitute these values back into our expression:
+$$\cos(\theta + \pi) = \cos \theta (-1) - \sin \theta (0)$$
+
+**Step 5: Final Result**
+The term involving sine becomes zero, leaving:
+$$\cos(\theta + \pi) = -\cos \theta$$
+
+**The identity is verified.**
+
+---
+
+#### Geometric Interpretation
+Adding $\pi$ ($180^\circ$) to any angle $\theta$ results in a point on the unit circle that is directly opposite the original point. Since $\cos \theta$ represents the $x$-coordinate, rotating by half a circle flips the sign of the $x$-coordinate while maintaining the same absolute value.
