@@ -589,3 +589,19 @@ Verifying an identity requires showing that one side of an equation is identical
 - cos(A - B) = cosA cosB + sinA sinB : signs will be flipped, so if you first you subtract, then you add 
 ![[Pasted image 20260115145753.png]]
 
+### Sum and Difference Identities for Sine and Tangent :
+#### 1. Sine Sum and Difference Identities
+Unlike the cosine identities, the sine formulas maintain the same sign between the terms.
+
+* **Sum Identity:** $\sin(s + t) = \sin s \cos t + \cos s \sin t$
+* **Difference Identity:** $\sin(s - t) = \sin s \cos t - \cos s \sin t$
+
+**Key Observation:** Notice that the sine formula "mixes" the functions ($\sin \cdot \cos$) in each term, whereas the cosine formula keeps them grouped ($\cos \cdot \cos$ and $\sin \cdot \sin$).
+
+---
+
+#### 2. Tangent Sum and Difference Identities
+These identities are expressed as fractions and can be derived by dividing the sine identity by the cosine identity ($\tan \theta = \frac{\sin \theta}{\cos \theta}$).
+
+* **Sum Identity:** $\tan(s + t) = \frac{\tan s + \tan t}{1 - \tan s \tan t}$
+* **Difference Identity:** $\tan(s - t) = \frac{\tan s - \tan t}{1 + \tan s \tan t}$
