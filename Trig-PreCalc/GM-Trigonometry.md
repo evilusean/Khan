@@ -3341,3 +3341,37 @@ When using these identities for your notes, remember these common steps:
 | **$\sin(75^\circ)$** | $45^\circ + 30^\circ$ | Sine Sum |
 | **$\sin(15^\circ)$** | $45^\circ - 30^\circ$ | Sine Difference |
 | **$\tan(105^\circ)$** | $60^\circ + 45^\circ$ | Tangent Sum |
+### Solving $\sin(165^\circ)$ using Sum Identities
+
+Using the **Sine Sum Identity**: $\sin(s + t) = \sin s \cos t + \cos s \sin t$.
+
+---
+
+#### 1. Problem Setup
+To find the exact value of $\sin(165^\circ)$, we break the angle into two special angles from the unit circle. A common combination is:
+$$\sin(165^\circ) = \sin(120^\circ + 45^\circ)$$
+
+#### 2. Apply the Identity
+Substitute $s = 120^\circ$ and $t = 45^\circ$ into the sum formula:
+$$\sin(120^\circ + 45^\circ) = \sin 120^\circ \cos 45^\circ + \cos 120^\circ \sin 45^\circ$$
+
+#### 3. Substitute Exact Values
+Using the coordinates from the unit circle:
+* $\sin 120^\circ = \frac{\sqrt{3}}{2}$
+* $\cos 45^\circ = \frac{\sqrt{2}}{2}$
+* $\cos 120^\circ = -\frac{1}{2}$
+* $\sin 45^\circ = \frac{\sqrt{2}}{2}$
+
+$$\sin(165^\circ) = \left( \frac{\sqrt{3}}{2} \right) \left( \frac{\sqrt{2}}{2} \right) + \left( -\frac{1}{2} \right) \left( \frac{\sqrt{2}}{2} \right)$$
+
+#### 4. Simplify the Expression
+Multiply the fractions:
+$$\sin(165^\circ) = \frac{\sqrt{6}}{4} + \left( -\frac{\sqrt{2}}{4} \right)$$
+
+Combine over a common denominator:
+$$\sin(165^\circ) = \frac{\sqrt{6} - \sqrt{2}}{4}$$
+
+---
+
+#### Final Result
+$$\sin(165^\circ) = \frac{\sqrt{6} - \sqrt{2}}{4}$$
