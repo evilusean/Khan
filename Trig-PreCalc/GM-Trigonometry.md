@@ -3304,4 +3304,40 @@ $$\cos(s + t) = \frac{16}{65}$$
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=8h31m25s
 - sin(A + B) = sinA cosB + cosA sinB : signs are the same for this one 
 - sin(A - B) = sinA cos B -cosA sinB
+### Sum and Difference Identities for Sine and Tangent
 
+Following our previous work on cosine identities, these formulas allow us to find the exact values of sine and tangent for angles that are not directly on the unit circle by breaking them into sums or differences of special angles ($30^\circ, 45^\circ, 60^\circ$).
+
+---
+
+#### 1. Sine Sum and Difference Identities
+Unlike the cosine identities, the sine formulas maintain the same sign between the terms.
+
+* **Sum Identity:** $\sin(s + t) = \sin s \cos t + \cos s \sin t$
+* **Difference Identity:** $\sin(s - t) = \sin s \cos t - \cos s \sin t$
+
+**Key Observation:** Notice that the sine formula "mixes" the functions ($\sin \cdot \cos$) in each term, whereas the cosine formula keeps them grouped ($\cos \cdot \cos$ and $\sin \cdot \sin$).
+
+---
+
+#### 2. Tangent Sum and Difference Identities
+These identities are expressed as fractions and can be derived by dividing the sine identity by the cosine identity ($\tan \theta = \frac{\sin \theta}{\cos \theta}$).
+
+* **Sum Identity:** $\tan(s + t) = \frac{\tan s + \tan t}{1 - \tan s \tan t}$
+* **Difference Identity:** $\tan(s - t) = \frac{\tan s - \tan t}{1 + \tan s \tan t}$
+
+---
+
+#### 3. Summary of Strategies
+When using these identities for your notes, remember these common steps:
+
+* **Quadrant Check:** Always verify which quadrant the angle falls in to determine if the result should be positive or negative.
+* **Special Angles:** Look for ways to combine $30^\circ, 45^\circ,$ and $60^\circ$ (or their radian equivalents) to reach your target angle.
+* **Pythagorean Identities:** If you are given $\sin s$ but need $\cos s$ to complete the formula, use $\sin^2 s + \cos^2 s = 1$ to find the missing value.
+
+#### 4. Practical Application Table
+| To Find | Use This Combination | Identity Applied |
+| :--- | :--- | :--- |
+| **$\sin(75^\circ)$** | $45^\circ + 30^\circ$ | Sine Sum |
+| **$\sin(15^\circ)$** | $45^\circ - 30^\circ$ | Sine Difference |
+| **$\tan(105^\circ)$** | $60^\circ + 45^\circ$ | Tangent Sum |
