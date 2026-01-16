@@ -3495,3 +3495,41 @@ $$2 - \sqrt{3}$$
 
 #### Final Result
 $$\tan\left(\frac{\pi}{12}\right) = 2 - \sqrt{3}$$
+### Verifying Complex Identities with Sum Formulas
+
+**Problem:** Verify the following identity:
+$$\cos \beta = \sin\left(\frac{\pi}{6} + \beta\right) + \cos\left(\frac{\pi}{3} + \beta\right)$$
+
+---
+
+#### Step-by-Step Verification
+
+To verify this identity, we expand both terms on the right side using the **Sine Sum Identity** and the **Cosine Sum Identity**.
+
+**1. Expand the Sine term:**
+Using the identity $\sin(s + t) = \sin s \cos t + \cos s \sin t$:
+* $\sin\left(\frac{\pi}{6} + \beta\right) = \sin\frac{\pi}{6} \cos \beta + \cos\frac{\pi}{6} \sin \beta$
+* Substitute exact values ($\sin\frac{\pi}{6} = \frac{1}{2}$ and $\cos\frac{\pi}{6} = \frac{\sqrt{3}}{2}$):
+* $= \frac{1}{2}\cos \beta + \frac{\sqrt{3}}{2}\sin \beta$
+
+**2. Expand the Cosine term:**
+Using the identity $\cos(s + t) = \cos s \cos t - \sin s \sin t$:
+* $\cos\left(\frac{\pi}{3} + \beta\right) = \cos\frac{\pi}{3} \cos \beta - \sin\frac{\pi}{3} \sin \beta$
+* Substitute exact values ($\cos\frac{\pi}{3} = \frac{1}{2}$ and $\sin\frac{\pi}{3} = \frac{\sqrt{3}}{2}$):
+* $= \frac{1}{2}\cos \beta - \frac{\sqrt{3}}{2}\sin \beta$
+
+**3. Combine and Simplify:**
+Add the two expanded results together:
+$$\left(\frac{1}{2}\cos \beta + \frac{\sqrt{3}}{2}\sin \beta\right) + \left(\frac{1}{2}\cos \beta - \frac{\sqrt{3}}{2}\sin \beta\right)$$
+
+The sine terms ($+\frac{\sqrt{3}}{2}\sin \beta$ and $-\frac{\sqrt{3}}{2}\sin \beta$) are additive inverses and cancel out:
+* $\frac{1}{2}\cos \beta + \frac{1}{2}\cos \beta$
+* $= 1 \cdot \cos \beta$
+* $= \cos \beta$
+
+---
+
+#### Final Result
+The right side simplifies exactly to the left side:
+$$\cos \beta = \cos \beta$$
+**The identity is verified.**
