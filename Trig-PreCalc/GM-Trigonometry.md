@@ -3457,3 +3457,41 @@ $$\sin(5\theta)$$
 
 #### Final Result
 $$\sin 3\theta \cos(-2\theta) - \cos 3\theta \sin(-2\theta) = \sin 5\theta$$
+### Solving $\tan\left(\frac{\pi}{12}\right)$ using Difference Identities
+
+To find the exact value of $\tan\left(\frac{\pi}{12}\right)$, we use the **Tangent Difference Identity**:
+$$\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}$$
+
+---
+
+#### 1. Problem Setup & Conversion
+First, we break $\frac{\pi}{12}$ into two special angles that we know from the unit circle.
+* $\frac{\pi}{12}$ is equivalent to $15^\circ$.
+* We can use $\frac{\pi}{4} (45^\circ)$ and $\frac{\pi}{6} (30^\circ)$ because $\frac{\pi}{4} - \frac{\pi}{6} = \frac{3\pi}{12} - \frac{2\pi}{12} = \frac{\pi}{12}$.
+
+#### 2. Apply the Identity
+Substitute $A = \frac{\pi}{4}$ and $B = \frac{\pi}{6}$ into the formula:
+$$\tan\left(\frac{\pi}{4} - \frac{\pi}{6}\right) = \frac{\tan\frac{\pi}{4} - \tan\frac{\pi}{6}}{1 + \tan\frac{\pi}{4} \tan\frac{\pi}{6}}$$
+
+#### 3. Substitute Exact Values
+From the unit circle:
+* $\tan\frac{\pi}{4} = 1$
+* $\tan\frac{\pi}{6} = \frac{\sqrt{3}}{3}$
+
+$$\tan\left(\frac{\pi}{12}\right) = \frac{1 - \frac{\sqrt{3}}{3}}{1 + (1)\left(\frac{\sqrt{3}}{3}\right)}$$
+
+#### 4. Simplify the Expression
+To clear the fractions within the fraction, multiply the numerator and denominator by $3$:
+$$\tan\left(\frac{\pi}{12}\right) = \frac{3 - \sqrt{3}}{3 + \sqrt{3}}$$
+
+**Rationalizing the denominator** (multiplying by the conjugate $3 - \sqrt{3}$):
+$$\frac{(3 - \sqrt{3})(3 - \sqrt{3})}{(3 + \sqrt{3})(3 - \sqrt{3})} = \frac{9 - 6\sqrt{3} + 3}{9 - 3}$$
+$$\frac{12 - 6\sqrt{3}}{6}$$
+
+Divide each term by $6$:
+$$2 - \sqrt{3}$$
+
+---
+
+#### Final Result
+$$\tan\left(\frac{\pi}{12}\right) = 2 - \sqrt{3}$$
