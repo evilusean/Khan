@@ -3341,6 +3341,7 @@ When using these identities for your notes, remember these common steps:
 | **$\sin(75^\circ)$** | $45^\circ + 30^\circ$ | Sine Sum |
 | **$\sin(15^\circ)$** | $45^\circ - 30^\circ$ | Sine Difference |
 | **$\tan(105^\circ)$** | $60^\circ + 45^\circ$ | Tangent Sum |
+
 ### Solving $\sin(165^\circ)$ using Sum Identities
 
 Using the **Sine Sum Identity**: $\sin(s + t) = \sin s \cos t + \cos s \sin t$.
@@ -3375,3 +3376,31 @@ $$\sin(165^\circ) = \frac{\sqrt{6} - \sqrt{2}}{4}$$
 
 #### Final Result
 $$\sin(165^\circ) = \frac{\sqrt{6} - \sqrt{2}}{4}$$
+### Simplifying Expressions with Sine Difference Identity
+
+**Problem:** Simplify the following expression:
+$$\sin 3\theta \cos(-2\theta) - \cos 3\theta \sin(-2\theta)$$
+
+---
+
+#### 1. Identify the Identity
+The expression follows the specific structure of the **Sine Difference Identity**:
+$$\sin(s - t) = \sin s \cos t - \cos s \sin t$$
+
+In this case:
+* $s = 3\theta$
+* $t = -2\theta$
+
+#### 2. Condense the Expression
+By applying the identity in reverse, we can condense the entire expression into a single sine function:
+$$\sin(3\theta - (-2\theta))$$
+
+#### 3. Simplify the Argument
+Subtracting a negative is the same as adding:
+$$\sin(3\theta + 2\theta)$$
+$$\sin(5\theta)$$
+
+---
+
+#### Final Result
+$$\sin 3\theta \cos(-2\theta) - \cos 3\theta \sin(-2\theta) = \sin 5\theta$$
