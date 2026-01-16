@@ -3341,7 +3341,60 @@ When using these identities for your notes, remember these common steps:
 | **$\sin(75^\circ)$** | $45^\circ + 30^\circ$ | Sine Sum |
 | **$\sin(15^\circ)$** | $45^\circ - 30^\circ$ | Sine Difference |
 | **$\tan(105^\circ)$** | $60^\circ + 45^\circ$ | Tangent Sum |
+### Sum and Difference Identities for Tangent
 
+Tangent sum and difference identities are essential tools for finding the exact values of angles that are not represented directly on the unit circle by combining known "special angles".
+
+---
+
+#### 1. The Identities
+The formulas for the tangent of a sum or difference of two angles, $A$ and $B$, are expressed as follows:
+
+* **Tangent Sum Identity:**
+    $$\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}$$
+* **Tangent Difference Identity:**
+    $$\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}$$
+
+---
+
+#### 2. Derivation of the Sum Identity
+The tangent identities can be derived algebraically by using the fundamental relationship $\tan \theta = \frac{\sin \theta}{\cos \theta}$ and applying the sum identities for sine and cosine.
+
+**Step 1: Express Tangent in terms of Sine and Cosine**
+$$\tan(A + B) = \frac{\sin(A + B)}{\cos(A + B)}$$
+
+**Step 2: Apply the Sine and Cosine Sum Formulas**
+Substitute the known sum identities:
+* $\sin(A + B) = \sin A \cos B + \cos A \sin B$
+* $\cos(A + B) = \cos A \cos B - \sin A \sin B$
+
+$$\tan(A + B) = \frac{\sin A \cos B + \cos A \sin B}{\cos A \cos B - \sin A \sin B}$$
+
+**Step 3: Normalize the expression**
+To transform this into an expression involving only tangents, divide every term in both the numerator and the denominator by $(\cos A \cos B)$:
+$$\tan(A + B) = \frac{\frac{\sin A \cos B}{\cos A \cos B} + \frac{\cos A \sin B}{\cos A \cos B}}{\frac{\cos A \cos B}{\cos A \cos B} - \frac{\sin A \sin B}{\cos A \cos B}}$$
+
+**Step 4: Simplify to Tangent ratios**
+Cancel common factors and recognize that $\frac{\sin}{\cos} = \tan$:
+* $\frac{\sin A \cos B}{\cos A \cos B} \rightarrow \frac{\sin A}{\cos A} = \tan A$
+* $\frac{\cos A \sin B}{\cos A \cos B} \rightarrow \frac{\sin B}{\cos B} = \tan B$
+* $\frac{\sin A \sin B}{\cos A \cos B} \rightarrow \tan A \tan B$
+
+This results in the final formula:
+$$\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}$$
+
+---
+
+#### 3. Derivation of the Difference Identity
+The difference identity is derived using a similar process by substituting $(-B)$ into the sum identity and utilizing the fact that tangent is an **odd function** ($\tan(-B) = -\tan B$).
+
+---
+
+#### 4. Summary Table
+| Goal           | Combination | Key Formula                                 |
+| :------------- | :---------- | :------------------------------------------ |
+| **Sum**        | $A + B$     | $\frac{\tan A + \tan B}{1 - \tan A \tan B}$ |
+| **Difference** | $A - B$     | $\frac{\tan A - \tan B}{1 + \tan A \tan B}$ |
 ### Solving $\sin(165^\circ)$ using Sum Identities
 
 Using the **Sine Sum Identity**: $\sin(s + t) = \sin s \cos t + \cos s \sin t$.
