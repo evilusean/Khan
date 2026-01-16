@@ -3302,4 +3302,6 @@ $$\cos(s + t) = -\frac{20}{65} + \frac{36}{65}$$
 $$\cos(s + t) = \frac{16}{65}$$
 ## 2026-January-16 - Sum and Difference Identities for Sine and Tangent :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=8h31m25s
+- sin(A + B) = sinA cosB + cosA sinB : signs are the same for this one 
+- sin(A - B) = sinA cos B -cosA sinB
 
