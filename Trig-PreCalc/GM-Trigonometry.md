@@ -3882,3 +3882,33 @@ $$1 + \cos 2x = 2 \cos^2 x$$
 The right side simplifies exactly to the left side:
 $$1 + \cos 2x = 1 + \cos 2x$$
 **The identity is verified.**
+### Solving $2 \sin 105^\circ \cos 75^\circ$ using Product-to-Sum Identities
+
+**Problem:** Find the exact value of the expression $2 \sin 105^\circ \cos 75^\circ$.
+
+---
+
+#### 1. Identify the Correct Identity
+The expression follows the form of the **Sine $\times$ Cosine Product-to-Sum Identity**:
+$$\sin A \cos B = \frac{1}{2}[\sin(A + B) + \sin(A - B)]$$
+
+In this problem:
+* $A = 105^\circ$
+* $B = 75^\circ$
+
+#### 2. Apply the Identity
+Substitute the angles into the formula. Note that the "$2$" in your original expression will cancel out with the "$\frac{1}{2}$" in the identity:
+$$2 \sin 105^\circ \cos 75^\circ = 2 \cdot \frac{1}{2} [\sin(105^\circ + 75^\circ) + \sin(105^\circ - 75^\circ)]$$
+$$= \sin(180^\circ) + \sin(30^\circ)$$
+
+#### 3. Substitute Exact Values
+Using the unit circle values for these special angles:
+* $\sin 180^\circ = 0$
+* $\sin 30^\circ = \frac{1}{2}$
+
+$$0 + \frac{1}{2}$$
+
+---
+
+#### Final Result
+$$2 \sin 105^\circ \cos 75^\circ = \frac{1}{2}$$
