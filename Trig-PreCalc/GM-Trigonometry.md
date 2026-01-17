@@ -3789,3 +3789,40 @@ From our identities list, we know that $2 \sin x \cos x = \sin 2x$.
 The left side simplifies exactly to the right side:
 $$\sin 2x = \sin 2x$$
 **The identity is verified.**
+### Verifying Identities with Double-Angle Formulas
+
+**Problem:** Verify the following trigonometric identity:
+$$1 + \cos 2x = \cot x \sin 2x$$
+
+---
+
+#### Step-by-Step Verification
+
+To verify this identity, we will transform the expression on the right side to see if it simplifies to match the left side.
+
+**1. Substitute the identities for $\cot x$ and $\sin 2x$**
+On the right side, rewrite $\cot x$ using the **Quotient Identity** and $\sin 2x$ using the **Double-Angle Identity**:
+* $\cot x = \frac{\cos x}{\sin x}$
+* $\sin 2x = 2 \sin x \cos x$
+
+Substitute these into the right side:
+$$\left( \frac{\cos x}{\sin x} \right) (2 \sin x \cos x)$$
+
+**2. Simplify the Expression**
+The $\sin x$ in the denominator cancels with the $\sin x$ in the numerator:
+$$\cos x (2 \cos x)$$
+$$2 \cos^2 x$$
+
+**3. Relate back to the Double-Angle Identity for Cosine**
+From our core identities, we know that one form of the **Cosine Double-Angle Identity** is:
+$$\cos 2x = 2 \cos^2 x - 1$$
+
+If we isolate $2 \cos^2 x$ by adding $1$ to both sides, we get:
+$$1 + \cos 2x = 2 \cos^2 x$$
+
+---
+
+#### Final Result
+The right side simplifies exactly to the left side:
+$$1 + \cos 2x = 1 + \cos 2x$$
+**The identity is verified.**
