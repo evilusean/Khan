@@ -3582,3 +3582,75 @@ $$\tan(\theta + \beta) = \frac{16}{63}$$
 * **Quadrant: I**
 ## 2026-January-17 - Double-Angle, Product-to-Sum, and Sum-to-Product Identities :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=8h57m35s
+### Double-Angle Identities: Derivations, Applications, and Examples
+
+Double-angle identities allow us to express trigonometric functions of twice an angle ($2A$) in terms of functions of the original angle ($A$). These are essential for simplifying complex expressions, solving trigonometric equations, and performing calculus operations.
+
+---
+
+#### 1. The Core Identities
+Based on your course materials, here are the primary double-angle identities:
+
+* **Sine:**
+    * $\sin 2A = 2 \sin A \cos A$
+* **Cosine (Three Forms):**
+    * $\cos 2A = \cos^2 A - \sin^2 A$
+    * $\cos 2A = 2 \cos^2 A - 1$
+    * $\cos 2A = 1 - 2 \sin^2 A$
+* **Tangent:**
+    * $\tan 2A = \frac{2 \tan A}{1 - \tan^2 A}$
+
+---
+
+#### 2. Derivation from Sum Identities
+Every double-angle identity is derived by using the **Sum Identities** and treating $2A$ as the sum $(A + A)$.
+
+**Deriving $\sin 2A$:**
+1. Start with the sine sum formula: $\sin(s + t) = \sin s \cos t + \cos s \sin t$.
+2. Substitute $A$ for both $s$ and $t$: $\sin(A + A) = \sin A \cos A + \cos A \sin A$.
+3. Combine like terms: $\sin 2A = 2 \sin A \cos A$.
+
+**Deriving $\cos 2A$:**
+1. Start with the cosine sum formula: $\cos(s + t) = \cos s \cos t - \sin s \sin t$.
+2. Substitute $A$ for both $s$ and $t$: $\cos(A + A) = \cos A \cos A - \sin A \sin A$.
+3. Simplify: $\cos 2A = \cos^2 A - \sin^2 A$.
+   *To reach the other forms, substitute the Pythagorean identity ($\sin^2 A + \cos^2 A = 1$) into this result.*
+
+**Deriving $\tan 2A$:**
+1. Start with the tangent sum formula: $\tan(s + t) = \frac{\tan s + \tan t}{1 - \tan s \tan t}$.
+2. Substitute $A$ for both $s$ and $t$: $\tan(A + A) = \frac{\tan A + \tan A}{1 - \tan A \tan A}$.
+3. Simplify: $\tan 2A = \frac{2 \tan A}{1 - \tan^2 A}$.
+
+---
+
+#### 3. Practical Applications
+* **Simplification:** Consolidate products of sine and cosine into a single term.
+* **Solving Equations:** Rewrite equations containing both $x$ and $2x$ in terms of a single angle to allow for factoring.
+* **Calculus Integration:** Use the cosine double-angle forms to reduce powers (e.g., converting $\sin^2 x$ into a linear function of $2x$).
+
+---
+
+#### 4. Worked Example: Finding Exact Values
+**Problem:** Given that $\cos A = -\frac{3}{5}$ and angle $A$ is in Quadrant II (**QII**), find the exact value of $\sin 2A$.
+
+**Step 1: Find $\sin A$**
+In QII, sine is positive. Using the Pythagorean identity:
+$\sin A = \sqrt{1 - \left(-\frac{3}{5}\right)^2} = \sqrt{1 - \frac{9}{25}} = \frac{4}{5}$.
+
+**Step 2: Apply the Double-Angle Identity**
+Substitute the values into $\sin 2A = 2 \sin A \cos A$:
+$$\sin 2A = 2 \left(\frac{4}{5}\right) \left(-\frac{3}{5}\right)$$
+
+**Step 3: Solve**
+$$\sin 2A = -\frac{24}{25}$$
+
+
+
+---
+
+#### 5. Summary Table
+| Identity | Primary Form | Derived From | Application |
+| :--- | :--- | :--- | :--- |
+| **Sine** | $2 \sin A \cos A$ | $\sin(A + A)$ | Convert product to single sine term |
+| **Cosine** | $1 - 2 \sin^2 A$ | $\cos(A + A)$ | Isolate sine in an equation |
+| **Tangent** | $\frac{2 \tan A}{1 - \tan^2 A}$ | $\tan(A + A)$ | Find slope of a doubled angle |
