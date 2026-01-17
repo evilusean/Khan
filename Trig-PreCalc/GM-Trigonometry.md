@@ -3580,5 +3580,5 @@ $$\tan(\theta + \beta) = \frac{16}{63}$$
 * **$\sin(\theta + \beta) = \frac{16}{65}$**
 * **$\tan(\theta + \beta) = \frac{16}{63}$**
 * **Quadrant: I**
-## 2026-January-16 - Double-Angle, Product-to-Sum, and Sum-to-Product Identities :
+## 2026-January-17 - Double-Angle, Product-to-Sum, and Sum-to-Product Identities :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=8h57m35s
