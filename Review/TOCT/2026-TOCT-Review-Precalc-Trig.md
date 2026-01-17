@@ -2,7 +2,7 @@
 Find All Formulas you need for trig and make a cheetsheet - any you don't know, look up
 
 Also Fundamental Identities : Reciprocal Identities (sin = $\frac{1}{csc}$, etc), Quotient Identities (tan$\theta$ = $\frac{sin\theta}{cos\theta}$), Pythagorean Identities ($sin^2\theta+cos^2\theta=1$, etc), Negative-Angle Identities ($\sin(-\theta) = -\sin(\theta)$, etc), Sum and Difference Identities - You will need to remember these before calc
-### Trigonometric Identities Reference
+### Comprehensive Trigonometric Identities Reference
 
 #### Fundamental Identities
 * **Reciprocal Identities**
@@ -22,28 +22,40 @@ Also Fundamental Identities : Reciprocal Identities (sin = $\frac{1}{csc}$, etc)
 * $\cos(A \pm B) = \cos A \cos B \mp \sin A \sin B$
 * $\tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A \tan B}$
 
-#### Double-Angle Identities
+#### Double-Angle & Half-Angle
 * $\sin(2\theta) = 2\sin \theta \cos \theta$
-* $\cos(2\theta) = \cos^2 \theta - \sin^2 \theta$
-    * $= 2\cos^2 \theta - 1$
-    * $= 1 - 2\sin^2 \theta$
+* $\cos(2\theta) = \cos^2 \theta - \sin^2 \theta = 2\cos^2 \theta - 1 = 1 - 2\sin^2 \theta$
 * $\tan(2\theta) = \frac{2\tan \theta}{1 - \tan^2 \theta}$
-
-#### Half-Angle / Power-Reduction
 * $\sin^2 \theta = \frac{1 - \cos(2\theta)}{2}$
 * $\cos^2 \theta = \frac{1 + \cos(2\theta)}{2}$
 * $\sin(\frac{\theta}{2}) = \pm \sqrt{\frac{1 - \cos \theta}{2}}$
 * $\cos(\frac{\theta}{2}) = \pm \sqrt{\frac{1 + \cos \theta}{2}}$
 
-#### Even/Odd Identities
-* $\sin(-\theta) = -\sin \theta$
-* $\cos(-\theta) = \cos \theta$
-* $\tan(-\theta) = -\tan \theta$
+#### Product-to-Sum Identities
+* $\sin A \cos B = \frac{1}{2}[\sin(A + B) + \sin(A - B)]$
+* $\cos A \sin B = \frac{1}{2}[\sin(A + B) - \sin(A - B)]$
+* $\cos A \cos B = \frac{1}{2}[\cos(A + B) + \cos(A - B)]$
+* $\sin A \sin B = \frac{1}{2}[\cos(A - B) - \cos(A + B)]$
 
-#### Cofunction Identities
+#### Sum-to-Product Identities
+* $\sin A + \sin B = 2 \sin(\frac{A + B}{2}) \cos(\frac{A - B}{2})$
+* $\sin A - \sin B = 2 \cos(\frac{A + B}{2}) \sin(\frac{A - B}{2})$
+* $\cos A + \cos B = 2 \cos(\frac{A + B}{2}) \cos(\frac{A - B}{2})$
+* $\cos A - \cos B = -2 \sin(\frac{A + B}{2}) \sin(\frac{A - B}{2})$
+
+#### Laws for Oblique Triangles
+* **Law of Sines:** $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$
+* **Law of Cosines:**
+    * $a^2 = b^2 + c^2 - 2bc \cos A$
+    * $b^2 = a^2 + c^2 - 2ac \cos B$
+    * $c^2 = a^2 + b^2 - 2ab \cos C$
+* **Area of a Triangle:** $\text{Area} = \frac{1}{2}bc \sin A$
+* **Heron's Formula:** $\text{Area} = \sqrt{s(s-a)(s-b)(s-c)}$ where $s = \frac{a+b+c}{2}$
+
+#### Even/Odd & Cofunctions
+* $\sin(-\theta) = -\sin \theta$, $\cos(-\theta) = \cos \theta$, $\tan(-\theta) = -\tan \theta$
 * $\sin(\frac{\pi}{2} - \theta) = \cos \theta$
 * $\cos(\frac{\pi}{2} - \theta) = \sin \theta$
-* $\tan(\frac{\pi}{2} - \theta) = \cot \theta$
 ---
 - https://www.youtube.com/watch?v=GsIo3B46yjU # Inverse Functions - Domain & range- With Fractions, Square Roots, & Graphs
 - Radians / degrees, minutes, seconds - converting manually 
