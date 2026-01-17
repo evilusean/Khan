@@ -3654,3 +3654,45 @@ $$\sin 2A = -\frac{24}{25}$$
 | **Sine** | $2 \sin A \cos A$ | $\sin(A + A)$ | Convert product to single sine term |
 | **Cosine** | $1 - 2 \sin^2 A$ | $\cos(A + A)$ | Isolate sine in an equation |
 | **Tangent** | $\frac{2 \tan A}{1 - \tan^2 A}$ | $\tan(A + A)$ | Find slope of a doubled angle |
+### Finding Double-Angle Values from Single-Angle Data
+
+**Problem:** Given the following values, find the exact values of $\sin 2\theta$, $\cos 2\theta$, and $\tan 2\theta$.
+* $\cos \theta = \frac{2\sqrt{2}}{3}$
+* $\sin \theta > 0$
+
+---
+
+#### 1. Determine the Quadrant and Find $\sin \theta$
+Since $\cos \theta$ is positive and $\sin \theta$ is positive, $\theta$ must be in **Quadrant I**. 
+
+Use the Pythagorean identity to find $\sin \theta$:
+$$\sin^2 \theta + \cos^2 \theta = 1$$
+$$\sin^2 \theta + \left(\frac{2\sqrt{2}}{3}\right)^2 = 1$$
+$$\sin^2 \theta + \frac{8}{9} = 1$$
+$$\sin^2 \theta = \frac{1}{9} \implies \sin \theta = \frac{1}{3} \text{ (Positive in QI)}$$
+
+---
+
+#### 2. Calculate $\sin 2\theta$
+Using the identity $\sin 2\theta = 2 \sin \theta \cos \theta$:
+$$\sin 2\theta = 2 \left(\frac{1}{3}\right) \left(\frac{2\sqrt{2}}{3}\right)$$
+$$\sin 2\theta = \frac{4\sqrt{2}}{9}$$
+
+#### 3. Calculate $\cos 2\theta$
+Using the identity $\cos 2\theta = \cos^2 \theta - \sin^2 \theta$:
+$$\cos 2\theta = \left(\frac{2\sqrt{2}}{3}\right)^2 - \left(\frac{1}{3}\right)^2$$
+$$\cos 2\theta = \frac{8}{9} - \frac{1}{9}$$
+$$\cos 2\theta = \frac{7}{9}$$
+
+#### 4. Calculate $\tan 2\theta$
+Using the ratio relationship $\tan 2\theta = \frac{\sin 2\theta}{\cos 2\theta}$:
+$$\tan 2\theta = \frac{\frac{4\sqrt{2}}{9}}{\frac{7}{9}}$$
+$$\tan 2\theta = \frac{4\sqrt{2}}{7}$$
+
+
+---
+
+#### Final Results
+* **$\sin 2\theta = \frac{4\sqrt{2}}{9}$**
+* **$\cos 2\theta = \frac{7}{9}$**
+* **$\tan 2\theta = \frac{4\sqrt{2}}{7}$**
