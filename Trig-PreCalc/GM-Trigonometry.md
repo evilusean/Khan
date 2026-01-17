@@ -3654,6 +3654,62 @@ $$\sin 2A = -\frac{24}{25}$$
 | **Sine** | $2 \sin A \cos A$ | $\sin(A + A)$ | Convert product to single sine term |
 | **Cosine** | $1 - 2 \sin^2 A$ | $\cos(A + A)$ | Isolate sine in an equation |
 | **Tangent** | $\frac{2 \tan A}{1 - \tan^2 A}$ | $\tan(A + A)$ | Find slope of a doubled angle |
+### Product-to-Sum Identities: Derivations and Applications
+
+Product-to-sum identities allow us to rewrite the product of two trigonometric functions (sine and cosine) as a sum or difference of trigonometric functions. This is particularly useful in calculus and advanced trigonometry.
+
+---
+
+#### 1. The Identities
+The four primary product-to-sum identities are:
+
+* **Sine $\times$ Cosine:** $\sin A \cos B = \frac{1}{2}[\sin(A + B) + \sin(A - B)]$
+* **Cosine $\times$ Sine:** $\cos A \sin B = \frac{1}{2}[\sin(A + B) - \sin(A - B)]$
+* **Cosine $\times$ Cosine:** $\cos A \cos B = \frac{1}{2}[\cos(A + B) + \cos(A - B)]$
+* **Sine $\times$ Sine:** $\sin A \sin B = \frac{1}{2}[\cos(A - B) - \cos(A + B)]$
+
+---
+
+#### 2. Derivations
+These identities are derived by adding or subtracting the standard **Sum and Difference Identities**.
+
+**Example Derivation for $\cos A \cos B$:**
+1.  Recall the Cosine Sum and Difference formulas:
+    * (1) $\cos(A - B) = \cos A \cos B + \sin A \sin B$
+    * (2) $\cos(A + B) = \cos A \cos B - \sin A \sin B$
+2.  Add equation (1) and equation (2):
+    $$\cos(A - B) + \cos(A + B) = 2 \cos A \cos B$$
+    *(Notice the $\sin A \sin B$ terms cancel out)*
+3.  Divide by 2 to isolate the product:
+    $$\cos A \cos B = \frac{1}{2}[\cos(A - B) + \cos(A + B)]$$
+
+---
+
+#### 3. When to Use Them
+* **Calculus Integration:** In calculus, it is often impossible to integrate a product like $\int \sin(5x)\cos(3x)dx$ directly. Converting it to a sum makes it easy to integrate each term separately.
+* **Signal Processing:** To analyze interference patterns or beat frequencies where two waves are multiplied together.
+* **Simplification:** When you need to combine terms in a trigonometric equation to solve for a variable.
+
+---
+
+#### 4. Worked Example
+**Problem:** Rewrite $\sin(4\theta)\sin(2\theta)$ as a sum or difference.
+
+**Step 1: Identify the correct identity**
+We use the Sine $\times$ Sine identity: $\sin A \sin B = \frac{1}{2}[\cos(A - B) - \cos(A + B)]$.
+Here, $A = 4\theta$ and $B = 2\theta$.
+
+**Step 2: Substitute and Solve**
+$$\sin(4\theta)\sin(2\theta) = \frac{1}{2}[\cos(4\theta - 2\theta) - \cos(4\theta + 2\theta)]$$
+$$\sin(4\theta)\sin(2\theta) = \frac{1}{2}[\cos(2\theta) - \cos(6\theta)]$$
+
+---
+
+#### 5. Summary Table
+| Product Type            | Identity Result                                       | Use Case                          |
+| :---------------------- | :---------------------------------------------------- | :-------------------------------- |
+| **Different Functions** | $\frac{1}{2}[\sin(\text{sum}) \pm \sin(\text{diff})]$ | Mixing Sine and Cosine            |
+| **Same Functions**      | $\frac{1}{2}[\cos(\text{diff}) \pm \cos(\text{sum})]$ | Pure Sine or Pure Cosine products |
 ### Finding Double-Angle Values from Single-Angle Data
 
 **Problem:** Given the following values, find the exact values of $\sin 2\theta$, $\cos 2\theta$, and $\tan 2\theta$.
