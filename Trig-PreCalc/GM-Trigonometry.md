@@ -3750,3 +3750,42 @@ $$\sin \theta = -\frac{4}{5}$$
 #### Final Results
 * **$\cos \theta = \frac{3}{5}$**
 * **$\sin \theta = -\frac{4}{5}$**
+### Verifying Identities with Double-Angle Formulas
+
+**Problem:** Verify the following trigonometric identity:
+$$\cot x (1 - \cos 2x) = \sin 2x$$
+
+---
+
+#### Step-by-Step Verification
+
+To verify this identity, we will transform the left side of the equation to see if it matches the right side.
+
+**1. Substitute the Double-Angle Identity for $\cos 2x$**
+We need to pick the form of $\cos 2x$ that will help cancel the "$1$". Using $\cos 2x = 1 - 2 \sin^2 x$ is the most efficient choice:
+$$\cot x [1 - (1 - 2 \sin^2 x)]$$
+
+**2. Simplify the Brackets**
+Distribute the negative sign:
+$$\cot x (1 - 1 + 2 \sin^2 x)$$
+$$\cot x (2 \sin^2 x)$$
+
+**3. Rewrite $\cot x$ using Quotient Identities**
+Recall that $\cot x = \frac{\cos x}{\sin x}$:
+$$\left( \frac{\cos x}{\sin x} \right) (2 \sin^2 x)$$
+
+**4. Cancel and Multiply**
+One $\sin x$ in the denominator cancels with one in the numerator:
+$$2 \cos x \sin x$$
+$$2 \sin x \cos x$$
+
+
+**5. Recognize the Sine Double-Angle Identity**
+From our identities list, we know that $2 \sin x \cos x = \sin 2x$.
+
+---
+
+#### Final Result
+The left side simplifies exactly to the right side:
+$$\sin 2x = \sin 2x$$
+**The identity is verified.**
