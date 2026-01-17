@@ -3696,3 +3696,57 @@ $$\tan 2\theta = \frac{4\sqrt{2}}{7}$$
 * **$\sin 2\theta = \frac{4\sqrt{2}}{9}$**
 * **$\cos 2\theta = \frac{7}{9}$**
 * **$\tan 2\theta = \frac{4\sqrt{2}}{7}$**
+### Finding $\sin \theta$ and $\cos \theta$ from $\cos 2\theta$
+
+**Problem:** Given the following value and quadrant constraint, find the exact values of $\sin \theta$ and $\cos \theta$.
+* $\cos 2\theta = -\frac{7}{25}$
+* $\theta$ is in Quadrant IV (**QIV**)
+
+---
+
+#### 1. Choose the Appropriate Double-Angle Identity
+To find $\sin \theta$ and $\cos \theta$, we can use the versions of the cosine double-angle identity that isolate a single function.
+
+* **To find $\cos \theta$:** Use $\cos 2\theta = 2 \cos^2 \theta - 1$
+* **To find $\sin \theta$:** Use $\cos 2\theta = 1 - 2 \sin^2 \theta$
+
+---
+
+#### 2. Solve for $\cos \theta$
+Using the identity $\cos 2\theta = 2 \cos^2 \theta - 1$:
+$$-\frac{7}{25} = 2 \cos^2 \theta - 1$$
+
+**Step-by-step algebra:**
+* Add 1 to both sides:
+$$1 - \frac{7}{25} = 2 \cos^2 \theta \implies \frac{18}{25} = 2 \cos^2 \theta$$
+* Divide by 2:
+$$\frac{9}{25} = \cos^2 \theta$$
+* Take the square root:
+$$\cos \theta = \pm \frac{3}{5}$$
+
+**Determine Sign:** Since $\theta$ is in **Quadrant IV**, cosine must be **positive**.
+$$\cos \theta = \frac{3}{5}$$
+
+---
+
+#### 3. Solve for $\sin \theta$
+Using the identity $\cos 2\theta = 1 - 2 \sin^2 \theta$:
+$$-\frac{7}{25} = 1 - 2 \sin^2 \theta$$
+
+**Step-by-step algebra:**
+* Subtract 1 from both sides:
+$$-\frac{7}{25} - \frac{25}{25} = -2 \sin^2 \theta \implies -\frac{32}{25} = -2 \sin^2 \theta$$
+* Divide by -2:
+$$\frac{16}{25} = \sin^2 \theta$$
+* Take the square root:
+$$\sin \theta = \pm \frac{4}{5}$$
+
+**Determine Sign:** Since $\theta$ is in **Quadrant IV**, sine must be **negative**.
+$$\sin \theta = -\frac{4}{5}$$
+
+
+---
+
+#### Final Results
+* **$\cos \theta = \frac{3}{5}$**
+* **$\sin \theta = -\frac{4}{5}$**
