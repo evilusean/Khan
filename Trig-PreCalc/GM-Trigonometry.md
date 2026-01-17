@@ -3912,3 +3912,28 @@ $$0 + \frac{1}{2}$$
 
 #### Final Result
 $$2 \sin 105^\circ \cos 75^\circ = \frac{1}{2}$$
+### Simplifying $\cos 13\theta - \cos 5\theta$ using Sum-to-Product Identities
+
+To rewrite the difference of two cosine functions as a product, we use the **Sum-to-Product Identity**:
+$$\cos A - \cos B = -2 \sin\left(\frac{A + B}{2}\right) \sin\left(\frac{A - B}{2}\right)$$
+
+---
+
+#### 1. Identify the Angles
+From your image, we have:
+* $A = 13\theta$
+* $B = 5\theta$
+
+#### 2. Apply the Identity
+Substitute $A$ and $B$ into the formula:
+$$\cos 13\theta - \cos 5\theta = -2 \sin\left(\frac{13\theta + 5\theta}{2}\right) \sin\left(\frac{13\theta - 5\theta}{2}\right)$$
+
+#### 3. Simplify the Arguments
+Perform the arithmetic inside the parentheses:
+* **Sum term:** $\frac{13\theta + 5\theta}{2} = \frac{18\theta}{2} = 9\theta$
+* **Difference term:** $\frac{13\theta - 5\theta}{2} = \frac{8\theta}{2} = 4\theta$
+
+---
+
+#### Final Result
+$$\cos 13\theta - \cos 5\theta = -2 \sin 9\theta \sin 4\theta$$
