@@ -4168,6 +4168,15 @@ $$1 + \sin \beta = 1 + \sin \beta$$
 **The identity is verified.**
 ## 2026-January-18 - Inverse Trigonometric Functions :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=9h43m25s
+- In a one-to-one function, each x-value corresponds to exactly one y-value
+- In a one-to-one function, each y-value corresponds to exactly one x-value
+- **Horizontal Line Test** : Used to test for a function (each x should only have one y)
+- $f^{-1}$ : If a function f is a one-to-one function, then the inverse of f is denoted as this
+- To find $f^{-1}$(x) from f(x): Replace f(x) with y - Swap x and y - Solve for y - Replace y with $f^{-1}$(x)
+- The domain of f will become the range of $f^{-1}$
+- The range of f will become the domain of $f^{-1}$
+- This tells us if (a, b) is on the graph of f, then (b, a) is on the graph of $f^{-1}$
+- The graphs of f and $f^{-1}$ are reflections across the line Y=X (diagonal line going through origin)
 ### Inverse Trigonometric Functions
 
 Inverse trigonometric functions (arcfunctions) are used to determine the measure of an angle when the value of a trigonometric ratio is known.
