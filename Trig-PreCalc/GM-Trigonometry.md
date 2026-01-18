@@ -4259,3 +4259,37 @@ We need to find the angle in **Quadrant I** or **Quadrant IV** where the $y$-coo
 #### Final Result
 The value falls within our required range $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
 $$y = \frac{\pi}{6} \quad \text{or} \quad y = 30^\circ$$
+### Solving Inverse Trigonometric Equations with Negative Inputs
+
+**Problem:** Find the exact value of $y = \sin^{-1}\left(-\frac{\sqrt{2}}{2}\right)$.
+
+---
+
+#### Step-by-Step Solution
+
+Solving an inverse sine function with a negative input requires careful attention to the restricted range of the function.
+
+**1. Rewrite the Equation**
+The expression $y = \sin^{-1}\left(-\frac{\sqrt{2}}{2}\right)$ is equivalent to:
+$$\sin y = -\frac{\sqrt{2}}{2}$$
+
+**2. Observe the Restricted Range**
+The output for $y = \sin^{-1}(x)$ must fall within:
+$$-\frac{\pi}{2} \leq y \leq \frac{\pi}{2} \quad \text{or} \quad -90^\circ \leq y \leq 90^\circ$$
+
+**3. Reference the Unit Circle and Symmetry**
+We need an angle where the $y$-coordinate is $-\frac{\sqrt{2}}{2}$.
+* We know that $\sin(45^\circ) = \frac{\sqrt{2}}{2}$ in **Quadrant I**.
+* Since the input is negative and we are restricted to the right half of the circle, we must look in **Quadrant IV**.
+
+
+**4. Determine the Angle**
+In the restricted range, we move clockwise from $0^\circ$ for negative values:
+* The angle is $-45^\circ$.
+* In radians, this is $-\frac{\pi}{4}$.
+
+---
+
+#### Final Result
+The value fits within the required interval $[-\pi/2, \pi/2]$.
+$$y = -\frac{\pi}{4} \quad \text{or} \quad y = -45^\circ$$
