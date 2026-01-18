@@ -4293,3 +4293,37 @@ In the restricted range, we move clockwise from $0^\circ$ for negative values:
 #### Final Result
 The value fits within the required interval $[-\pi/2, \pi/2]$.
 $$y = -\frac{\pi}{4} \quad \text{or} \quad y = -45^\circ$$
+### Understanding Inverse Property Conditions
+
+**Problem:** Explain the property $\sin(\sin^{-1}(x)) = x$ and why it is restricted to the domain $-1 \leq x \leq 1$.
+
+---
+
+#### 1. The Inverse Property
+The expression $\sin(\sin^{-1}(x)) = x$ states that if you take the inverse sine of a value $x$ to find an angle, and then take the sine of that resulting angle, you return to your original value $x$. The two functions "cancel" each other out.
+
+#### 2. Why the Restriction $-1 \leq x \leq 1$?
+This restriction exists because the **inner function**, $\sin^{-1}(x)$, has a specific domain. 
+
+* **The Logic:** In the standard sine function $y = \sin(\theta)$, the output $y$ (the ratio) can never be greater than $1$ or less than $-1$ because the opposite side of a triangle cannot be longer than the hypotenuse.
+* **The Constraint:** Since $\sin^{-1}(x)$ is asking "What angle gives me the value $x$?", the value $x$ must be a valid sine ratio. If you try to input $x = 2$, the function will fail because there is no angle in existence that has a sine value of $2$.
+
+
+---
+
+#### 3. Worked Example: Valid vs. Invalid
+**Case A: Within Domain**
+Solve: $\sin(\sin^{-1}(0.5))$
+1. $\sin^{-1}(0.5) = 30^\circ$
+2. $\sin(30^\circ) = 0.5$
+3. **Result:** $0.5 = 0.5$ (The property holds)
+
+**Case B: Outside Domain**
+Solve: $\sin(\sin^{-1}(1.5))$
+1. $\sin^{-1}(1.5)$ is **undefined**.
+2. **Result:** No solution exists. Even though the formula looks like it should "cancel" to $1.5$, the math breaks at the first step.
+
+---
+
+#### 4. Summary for Engineering
+In engineering applications (like signal processing or mechanics), always check that your ratios are "normalized" between $-1$ and $1$ before applying inverse functions, or your calculations will result in an error.
