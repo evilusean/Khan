@@ -658,3 +658,16 @@ These identities are expressed as fractions and can be derived by dividing the s
 
 * **Sum Identity:** $\tan(s + t) = \frac{\tan s + \tan t}{1 - \tan s \tan t}$
 * **Difference Identity:** $\tan(s - t) = \frac{\tan s - \tan t}{1 + \tan s \tan t}$
+### Half-Angle Identities: 
+#### 1. The Half-Angle Identities
+The primary identities for sine, cosine, and tangent are:
+
+* **Sine:** $$\sin \frac{A}{2} = \pm \sqrt{\frac{1 - \cos A}{2}}$$
+* **Cosine:** $$\cos \frac{A}{2} = \pm \sqrt{\frac{1 + \cos A}{2}}$$
+* **Tangent (Three Forms):**
+  1. $\tan \frac{A}{2} = \pm \sqrt{\frac{1 - \cos A}{1 + \cos A}}$
+  2. $\tan \frac{A}{2} = \frac{\sin A}{1 + \cos A}$
+  3. $\tan \frac{A}{2} = \frac{1 - \cos A}{\sin A}$
+> [!IMPORTANT]
+> **The $\pm$ Sign:** The choice of $+$ or $-$ is determined by the **quadrant** in which the half-angle $\frac{A}{2}$ lies, not the quadrant of $A$.
+
