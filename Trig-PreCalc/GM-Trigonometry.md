@@ -4167,3 +4167,4 @@ The right side simplifies exactly to the left side:
 $$1 + \sin \beta = 1 + \sin \beta$$
 **The identity is verified.**
 ## 2026-January-18 - Inverse Trigonometric Functions :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=9h43m25s
