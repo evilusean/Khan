@@ -4006,3 +4006,37 @@ $$\cos 15^\circ = \frac{\sqrt{2 + \sqrt{3}}}{2}$$
 | **Sine** | $\pm \sqrt{\frac{1 - \cos A}{2}}$ | Use the quadrant of $\frac{A}{2}$ for sign |
 | **Cosine** | $\pm \sqrt{\frac{1 + \cos A}{2}}$ | Use the quadrant of $\frac{A}{2}$ for sign |
 | **Tangent** | $\frac{1 - \cos A}{\sin A}$ | Most common form (no $\pm$ needed) |
+### Finding the Exact Value of $\cos 67.5^\circ$
+
+**Problem:** Find the exact value of $\cos 67.5^\circ$ using the Half-Angle Identities.
+
+---
+
+#### 1. Identify the Relationship
+The angle $67.5^\circ$ is exactly half of $135^\circ$ ($135^\circ / 2 = 67.5^\circ$). Since $135^\circ$ is a special angle on the unit circle, we can use the **Cosine Half-Angle Identity**.
+
+#### 2. Choose the Identity and Determine the Sign
+* **Identity:** $\cos \frac{A}{2} = \pm \sqrt{\frac{1 + \cos A}{2}}$
+* **Quadrant Check:** $67.5^\circ$ is in **Quadrant I**, where cosine is **positive**. Therefore, we will use the positive root.
+
+#### 3. Substitute and Solve
+Set $A = 135^\circ$:
+$$\cos 67.5^\circ = \sqrt{\frac{1 + \cos 135^\circ}{2}}$$
+
+**Step 1: Substitute the exact value of $\cos 135^\circ$**
+Recall that $\cos 135^\circ = -\frac{\sqrt{2}}{2}$:
+$$\cos 67.5^\circ = \sqrt{\frac{1 + (-\frac{\sqrt{2}}{2})}{2}}$$
+
+**Step 2: Simplify the numerator**
+Find a common denominator inside the square root:
+$$\cos 67.5^\circ = \sqrt{\frac{\frac{2 - \sqrt{2}}{2}}{2}}$$
+
+**Step 3: Final Simplification**
+Divide by 2 (which is the same as multiplying the denominator by 2):
+$$\cos 67.5^\circ = \sqrt{\frac{2 - \sqrt{2}}{4}}$$
+$$\cos 67.5^\circ = \frac{\sqrt{2 - \sqrt{2}}}{2}$$
+
+---
+
+#### Final Result
+**$\cos 67.5^\circ = \frac{\sqrt{2 - \sqrt{2}}}{2}$**
