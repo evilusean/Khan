@@ -4229,3 +4229,33 @@ $$\cos(-\frac{\pi}{6}) = \frac{\sqrt{3}}{2}$$
     * $\arcsin(-x) = -\arcsin(x)$ (Odd)
     * $\arccos(-x) = \pi - \arccos(x)$
 * **Cofunction Identities:** $\arcsin(x) + \arccos(x) = \frac{\pi}{2}$
+### Solving Basic Inverse Trigonometric Equations
+
+**Problem:** Find the exact value of $y = \sin^{-1}\left(\frac{1}{2}\right)$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve an inverse sine function, we are looking for the angle $y$ that produces a specific sine value.
+
+**1. Rewrite the Equation**
+The expression $y = \sin^{-1}\left(\frac{1}{2}\right)$ is equivalent to:
+$$\sin y = \frac{1}{2}$$
+
+**2. Observe the Restricted Range**
+Recall that for the inverse sine function, the output angle $y$ must fall within the restricted range:
+$$-\frac{\pi}{2} \leq y \leq \frac{\pi}{2} \quad \text{or} \quad -90^\circ \leq y \leq 90^\circ$$
+
+**3. Reference the Unit Circle**
+We need to find the angle in **Quadrant I** or **Quadrant IV** where the $y$-coordinate (sine) is $\frac{1}{2}$. 
+
+
+* In the standard unit circle, $\sin(30^\circ) = \frac{1}{2}$.
+* In radians, this corresponds to $\frac{\pi}{6}$.
+
+---
+
+#### Final Result
+The value falls within our required range $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
+$$y = \frac{\pi}{6} \quad \text{or} \quad y = 30^\circ$$
