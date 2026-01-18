@@ -4128,3 +4128,41 @@ $$\tan \frac{\theta}{2} = \frac{2\sqrt{5}/5}{\sqrt{5}/5} = 2$$
 * **$\sin \frac{\theta}{2} = \frac{2\sqrt{5}}{5}$**
 * **$\cos \frac{\theta}{2} = \frac{\sqrt{5}}{5}$**
 * **$\tan \frac{\theta}{2} = 2$**
+### Verifying the Relationship between Sine and Half-Angles
+
+**Problem:** Verify the following trigonometric identity:
+$$1 + \sin \beta = (\sin \beta/2 + \cos \beta/2)^2$$
+
+---
+
+#### Step-by-Step Verification
+
+To verify this identity, it is often easiest to expand the right side of the equation to see if it simplifies to match the left side.
+
+**1. Expand the Binomial Square**
+Use the algebraic expansion rule $(a + b)^2 = a^2 + 2ab + b^2$:
+$$(\sin \beta/2 + \cos \beta/2)^2 = \sin^2 \beta/2 + 2 \sin \beta/2 \cos \beta/2 + \cos^2 \beta/2$$
+
+**2. Group the Squared Terms**
+Rearrange the terms to group the sine and cosine squared terms together:
+$$(\sin^2 \beta/2 + \cos^2 \beta/2) + 2 \sin \beta/2 \cos \beta/2$$
+
+**3. Apply the Pythagorean Identity**
+Recall that for any angle $x$, $\sin^2 x + \cos^2 x = 1$. Here, our angle is $\beta/2$:
+$$(1) + 2 \sin \beta/2 \cos \beta/2$$
+
+**4. Apply the Sine Double-Angle Identity**
+From your core identities, we know that $\sin 2A = 2 \sin A \cos A$. 
+If we let $A = \beta/2$, then $2A = \beta$. This means:
+$$2 \sin \beta/2 \cos \beta/2 = \sin \beta$$
+
+
+**5. Substitute back into the expression**
+$$1 + \sin \beta$$
+
+---
+
+#### Final Result
+The right side simplifies exactly to the left side:
+$$1 + \sin \beta = 1 + \sin \beta$$
+**The identity is verified.**
