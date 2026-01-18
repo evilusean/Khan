@@ -4364,3 +4364,32 @@ Solve: $\sin^{-1}(\sin(\frac{5\pi}{6}))$
 
 #### 4. Engineering Takeaway
 When programming or calculating inverse kinematics, you cannot assume that $\sin^{-1}(\sin(x))$ always equals $x$. You must check if your angle $x$ is within the **principal branch** ($-\frac{\pi}{2}$ to $\frac{\pi}{2}$); otherwise, you may need to apply a "correction" factor to find the true physical angle.
+### Applying Inverse Sine Properties
+
+**Problem:** Find the exact value of $\sin^{-1}\left(\sin\left(-\frac{\pi}{3}\right)\right)$ using inverse trigonometric properties.
+
+---
+
+#### Step-by-Step Solution
+
+This problem tests the composition of a function and its inverse. We use the property $\sin^{-1}(\sin(x)) = x$ to determine if the functions cancel out.
+
+**1. Recall the Cancellation Property**
+The property $\sin^{-1}(\sin(x)) = x$ is only valid if the angle $x$ falls within the principal branch (the restricted range) of the arcsine function:
+$$-\frac{\pi}{2} \leq x \leq \frac{\pi}{2}$$
+
+**2. Check the Given Angle**
+The angle in the problem is $x = -\frac{\pi}{3}$.
+* We know that $-\frac{\pi}{2} \approx -1.57$ and $\frac{\pi}{2} \approx 1.57$.
+* Since $-\frac{\pi}{3} \approx -1.047$, the angle **is within** the required interval $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
+
+**3. Direct Evaluation (Verification)**
+Because the angle is within the valid range, the functions simply cancel each other out. We can verify this step-by-step:
+* **Inner Function:** $\sin\left(-\frac{\pi}{3}\right) = -\frac{\sqrt{3}}{2}$
+* **Outer Function:** $\sin^{-1}\left(-\frac{\sqrt{3}}{2}\right) = -\frac{\pi}{3}$
+
+---
+
+#### Final Result
+Since the input angle $-\frac{\pi}{3}$ is in the restricted range of the inverse sine function, the property holds true:
+$$\sin^{-1}\left(\sin\left(-\frac{\pi}{3}\right)\right) = -\frac{\pi}{3}$$
