@@ -3939,4 +3939,70 @@ Perform the arithmetic inside the parentheses:
 $$\cos 13\theta - \cos 5\theta = -2 \sin 9\theta \sin 4\theta$$
 ## 2026-January-18 - Half-Angle Identities :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=9h23m30s
+### Half-Angle Identities: Derivations and Applications
 
+Half-angle identities allow us to find the trigonometric values of an angle $\frac{A}{2}$ if we know the value of $\cos A$. These are particularly useful for finding exact values of angles that are half of the "special angles" on the unit circle (e.g., $15^\circ$ is half of $30^\circ$).
+
+---
+
+#### 1. The Half-Angle Identities
+The primary identities for sine, cosine, and tangent are:
+
+* **Sine:** $$\sin \frac{A}{2} = \pm \sqrt{\frac{1 - \cos A}{2}}$$
+* **Cosine:** $$\cos \frac{A}{2} = \pm \sqrt{\frac{1 + \cos A}{2}}$$
+* **Tangent (Three Forms):**
+  1. $\tan \frac{A}{2} = \pm \sqrt{\frac{1 - \cos A}{1 + \cos A}}$
+  2. $\tan \frac{A}{2} = \frac{\sin A}{1 + \cos A}$
+  3. $\tan \frac{A}{2} = \frac{1 - \cos A}{\sin A}$
+
+> [!IMPORTANT]
+> **The $\pm$ Sign:** The choice of $+$ or $-$ is determined by the **quadrant** in which the half-angle $\frac{A}{2}$ lies, not the quadrant of $A$.
+
+---
+
+#### 2. Derivations
+Half-angle identities are derived directly from the **Double-Angle Identities** for cosine.
+
+**Deriving Sine Half-Angle:**
+1. Start with the double-angle formula: $\cos 2\theta = 1 - 2 \sin^2 \theta$.
+2. Let $2\theta = A$, which means $\theta = \frac{A}{2}$:
+   $$\cos A = 1 - 2 \sin^2 \frac{A}{2}$$
+3. Rearrange to solve for $\sin \frac{A}{2}$:
+   $$2 \sin^2 \frac{A}{2} = 1 - \cos A$$
+   $$\sin \frac{A}{2} = \pm \sqrt{\frac{1 - \cos A}{2}}$$
+
+**Deriving Cosine Half-Angle:**
+1. Start with the double-angle formula: $\cos 2\theta = 2 \cos^2 \theta - 1$.
+2. Let $2\theta = A$, which means $\theta = \frac{A}{2}$:
+   $$\cos A = 2 \cos^2 \frac{A}{2} - 1$$
+3. Rearrange to solve for $\cos \frac{A}{2}$:
+   $$2 \cos^2 \frac{A}{2} = 1 + \cos A$$
+   $$\cos \frac{A}{2} = \pm \sqrt{\frac{1 + \cos A}{2}}$$
+
+
+
+---
+
+#### 3. Worked Example
+**Problem:** Find the exact value of $\cos 15^\circ$.
+
+**Step 1: Identify the relationship**
+$15^\circ$ is half of $30^\circ$. So, $A = 30^\circ$.
+
+**Step 2: Choose the identity and sign**
+Since $15^\circ$ is in **Quadrant I**, the cosine value must be **positive**.
+$$\cos 15^\circ = \sqrt{\frac{1 + \cos 30^\circ}{2}}$$
+
+**Step 3: Substitute and simplify**
+Know that $\cos 30^\circ = \frac{\sqrt{3}}{2}$:
+$$\cos 15^\circ = \sqrt{\frac{1 + \frac{\sqrt{3}}{2}}{2}} = \sqrt{\frac{\frac{2 + \sqrt{3}}{2}}{2}} = \sqrt{\frac{2 + \sqrt{3}}{4}}$$
+$$\cos 15^\circ = \frac{\sqrt{2 + \sqrt{3}}}{2}$$
+
+---
+
+#### 4. Summary Table
+| Function | Formula | Key Step |
+| :--- | :--- | :--- |
+| **Sine** | $\pm \sqrt{\frac{1 - \cos A}{2}}$ | Use the quadrant of $\frac{A}{2}$ for sign |
+| **Cosine** | $\pm \sqrt{\frac{1 + \cos A}{2}}$ | Use the quadrant of $\frac{A}{2}$ for sign |
+| **Tangent** | $\frac{1 - \cos A}{\sin A}$ | Most common form (no $\pm$ needed) |
