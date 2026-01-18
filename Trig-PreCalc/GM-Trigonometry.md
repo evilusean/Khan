@@ -3937,3 +3937,4 @@ Perform the arithmetic inside the parentheses:
 
 #### Final Result
 $$\cos 13\theta - \cos 5\theta = -2 \sin 9\theta \sin 4\theta$$
+## 2026-January-18 - Half-Angle Identities :
