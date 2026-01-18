@@ -4168,3 +4168,55 @@ $$1 + \sin \beta = 1 + \sin \beta$$
 **The identity is verified.**
 ## 2026-January-18 - Inverse Trigonometric Functions :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=9h43m25s
+### Inverse Trigonometric Functions
+
+Inverse trigonometric functions (arcfunctions) are used to determine the measure of an angle when the value of a trigonometric ratio is known.
+
+---
+
+#### 1. Core Functions, Domains, and Ranges
+Because trigonometric functions are periodic, they are not one-to-one. To define their inverses, we must restrict their domains to specific intervals.
+
+| Function | Notation | Domain (Input) | Range (Output Angle) |
+| :--- | :--- | :--- | :--- |
+| **Arcsine** | $\arcsin(x)$ or $\sin^{-1}(x)$ | $[-1, 1]$ | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ |
+| **Arccosine** | $\arccos(x)$ or $\cos^{-1}(x)$ | $[-1, 1]$ | $[0, \pi]$ |
+| **Arctangent** | $\arctan(x)$ or $\tan^{-1}(x)$ | $(-\infty, \infty)$ | $(-\frac{\pi}{2}, \frac{\pi}{2})$ |
+
+---
+
+#### 2. Derivations (Calculus of Inverse Trig)
+In engineering, finding the rate of change of an angle is common. We derive the derivatives of inverse trig functions using **implicit differentiation**.
+
+**Example: Deriving the derivative of $\arcsin(x)$**
+1. Let $y = \arcsin(x)$. This can be rewritten as:
+   $$\sin(y) = x$$
+2. Differentiate both sides with respect to $x$:
+   $$\cos(y) \cdot \frac{dy}{dx} = 1$$
+3. Isolate the derivative:
+   $$\frac{dy}{dx} = \frac{1}{\cos(y)}$$
+4. Use the Pythagorean identity $\cos(y) = \sqrt{1 - \sin^2(y)}$. Since we know $\sin(y) = x$:
+   $$\frac{d}{dx}[\arcsin(x)] = \frac{1}{\sqrt{1 - x^2}}$$
+--- 
+
+#### 3. Worked Example: Composition of Functions
+**Problem:** Find the exact value of $\cos(\arcsin(-\frac{1}{2}))$.
+
+**Step 1: Evaluate the inner function**
+Find the angle $\theta$ where $\sin \theta = -\frac{1}{2}$ within the restricted range $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
+$$\theta = -\frac{\pi}{6} \text{ (or } -30^\circ)$$
+
+**Step 2: Evaluate the outer function**
+Now find the cosine of that angle:
+$$\cos(-\frac{\pi}{6}) = \frac{\sqrt{3}}{2}$$
+
+
+
+---
+
+#### 4. Key Identities to Remember
+* **Reciprocal Relationship:** $\csc^{-1}(x) = \sin^{-1}(\frac{1}{x})$
+* **Negative Arguments:**
+    * $\arcsin(-x) = -\arcsin(x)$ (Odd)
+    * $\arccos(-x) = \pi - \arccos(x)$
+* **Cofunction Identities:** $\arcsin(x) + \arccos(x) = \frac{\pi}{2}$
