@@ -4177,6 +4177,8 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=9h43m25s
 - The range of f will become the domain of $f^{-1}$
 - This tells us if (a, b) is on the graph of f, then (b, a) is on the graph of $f^{-1}$
 - The graphs of f and $f^{-1}$ are reflections across the line Y=X (diagonal line going through origin)
+- **Restricted Sine Function** : A Sine function with a restricted domain - you take only a part of it so it passes the *horizontal line test*
+- 
 ### Inverse Trigonometric Functions
 
 Inverse trigonometric functions (arcfunctions) are used to determine the measure of an angle when the value of a trigonometric ratio is known.
@@ -4218,8 +4220,6 @@ $$\theta = -\frac{\pi}{6} \text{ (or } -30^\circ)$$
 **Step 2: Evaluate the outer function**
 Now find the cosine of that angle:
 $$\cos(-\frac{\pi}{6}) = \frac{\sqrt{3}}{2}$$
-
-
 
 ---
 
