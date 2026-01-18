@@ -4040,3 +4040,91 @@ $$\cos 67.5^\circ = \frac{\sqrt{2 - \sqrt{2}}}{2}$$
 
 #### Final Result
 **$\cos 67.5^\circ = \frac{\sqrt{2 - \sqrt{2}}}{2}$**
+### Finding the Exact Value of $\tan \frac{7\pi}{12}$ (Degree Conversion Method)
+
+**Problem:** Convert $\frac{7\pi}{12}$ to degrees and find its exact value using Half-Angle Identities.
+
+---
+
+#### 1. Convert Radians to Degrees
+To convert from radians to degrees, multiply the angle by $\frac{180^\circ}{\pi}$:
+$$\frac{7\pi}{12} \cdot \frac{180^\circ}{\pi} = \frac{7 \cdot 180^\circ}{12}$$
+$$7 \cdot 15^\circ = 105^\circ$$
+
+Now the problem is to find the exact value of **$\tan 105^\circ$**.
+
+---
+
+#### 2. Identify the Relationship
+The angle $105^\circ$ is exactly half of $210^\circ$ ($210^\circ / 2 = 105^\circ$). Since $210^\circ$ is a special angle on the unit circle, we can use the **Tangent Half-Angle Identity**.
+
+
+
+#### 3. Choose the Identity and Determine the Sign
+* **Identity Choice:** $\tan \frac{A}{2} = \frac{1 - \cos A}{\sin A}$
+* **Quadrant Check:** $105^\circ$ is in **Quadrant II**. In QII, tangent values must be **negative**.
+
+#### 4. Substitute and Solve
+Set $A = 210^\circ$:
+$$\tan 105^\circ = \frac{1 - \cos 210^\circ}{\sin 210^\circ}$$
+
+**Step 1: Substitute the exact values for $210^\circ$**
+From the unit circle:
+* $\cos 210^\circ = -\frac{\sqrt{3}}{2}$
+* $\sin 210^\circ = -\frac{1}{2}$
+
+$$\tan 105^\circ = \frac{1 - (-\frac{\sqrt{3}}{2})}{-\frac{1}{2}}$$
+
+**Step 2: Simplify the numerator**
+$$\tan 105^\circ = \frac{1 + \frac{\sqrt{3}}{2}}{-\frac{1}{2}} = \frac{\frac{2 + \sqrt{3}}{2}}{-\frac{1}{2}}$$
+
+**Step 3: Final Simplification**
+Multiply by the reciprocal of the denominator:
+$$\tan 105^\circ = \left( \frac{2 + \sqrt{3}}{2} \right) \cdot \left( -2 \right)$$
+$$\tan 105^\circ = -2 - \sqrt{3}$$
+
+---
+
+#### Final Result
+**$\tan 105^\circ = -2 - \sqrt{3}$**
+
+### Finding Half-Angle Values from Quadrant Constraints
+
+**Problem:** Given the following trigonometric value and interval, find the exact values of $\sin \frac{\theta}{2}$, $\cos \frac{\theta}{2}$, and $\tan \frac{\theta}{2}$.
+* $\sin \theta = \frac{4}{5}$
+* $90^\circ < \theta < 180^\circ$ (Quadrant II)
+
+---
+
+#### 1. Find $\cos \theta$ and Determine the Half-Angle Quadrant
+To use the half-angle identities, we first need $\cos \theta$. Since $\theta$ is in **Quadrant II**, cosine must be negative.
+$$\cos \theta = -\sqrt{1 - \sin^2 \theta} = -\sqrt{1 - \left(\frac{4}{5}\right)^2} = -\sqrt{\frac{9}{25}} = -\frac{3}{3}$$
+
+**Determine the quadrant of $\frac{\theta}{2}$:**
+Divide the given interval by 2:
+$$\frac{90^\circ}{2} < \frac{\theta}{2} < \frac{180^\circ}{2} \implies 45^\circ < \frac{\theta}{2} < 90^\circ$$
+This places $\frac{\theta}{2}$ in **Quadrant I**, where all trigonometric functions are **positive**.
+
+---
+
+#### 2. Calculate $\sin \frac{\theta}{2}$
+Using the identity $\sin \frac{\theta}{2} = \sqrt{\frac{1 - \cos \theta}{2}}$:
+$$\sin \frac{\theta}{2} = \sqrt{\frac{1 - (-3/5)}{2}} = \sqrt{\frac{8/5}{2}} = \sqrt{\frac{4}{5}}$$
+$$\sin \frac{\theta}{2} = \frac{2}{\sqrt{5}} = \frac{2\sqrt{5}}{5}$$
+
+#### 3. Calculate $\cos \frac{\theta}{2}$
+Using the identity $\cos \frac{\theta}{2} = \sqrt{\frac{1 + \cos \theta}{2}}$:
+$$\cos \frac{\theta}{2} = \sqrt{\frac{1 + (-3/5)}{2}} = \sqrt{\frac{2/5}{2}} = \sqrt{\frac{1}{5}}$$
+$$\cos \frac{\theta}{2} = \frac{1}{\sqrt{5}} = \frac{\sqrt{5}}{5}$$
+
+#### 4. Calculate $\tan \frac{\theta}{2}$
+Using the ratio $\frac{\sin(\theta/2)}{\cos(\theta/2)}$:
+$$\tan \frac{\theta}{2} = \frac{2\sqrt{5}/5}{\sqrt{5}/5} = 2$$
+
+
+---
+
+#### Final Results
+* **$\sin \frac{\theta}{2} = \frac{2\sqrt{5}}{5}$**
+* **$\cos \frac{\theta}{2} = \frac{\sqrt{5}}{5}$**
+* **$\tan \frac{\theta}{2} = 2$**
