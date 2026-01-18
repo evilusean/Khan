@@ -4327,3 +4327,40 @@ Solve: $\sin(\sin^{-1}(1.5))$
 
 #### 4. Summary for Engineering
 In engineering applications (like signal processing or mechanics), always check that your ratios are "normalized" between $-1$ and $1$ before applying inverse functions, or your calculations will result in an error.
+### Inverse Property: Angle Cancellation Restrictions
+
+**Problem:** Explain the property $\sin^{-1}(\sin(x)) = x$ and why it is restricted to the interval $-\frac{\pi}{2} \leq x \leq \frac{\pi}{2}$.
+
+---
+
+#### 1. The Inverse Property
+The expression $\sin^{-1}(\sin(x)) = x$ suggests that if you take the sine of an angle $x$ and then apply the inverse sine to that result, you should return to the original angle $x$. 
+
+#### 2. The Range Restriction: Why $-\frac{\pi}{2}$ to $\frac{\pi}{2}$?
+Unlike the previous property ($\sin(\sin^{-1}x)$), where the restriction was based on valid ratios, this restriction is based on the **definition of the Arcsine function**.
+
+* **The Periodic Problem:** The sine function is periodic, meaning many different angles produce the same sine value (e.g., $\sin(30^\circ)$ and $\sin(150^\circ)$ both equal $0.5$).
+* **The Function Rule:** A mathematical function can only have **one** output for any given input. To make $\sin^{-1}$ a true function, mathematicians restricted its output (range) to the right half of the unit circle.
+* **The Consequence:** If you input an angle $x$ that is outside this range into the $\sin^{-1}(\sin(x))$ expression, the "cancellation" will not give you $x$ back; it will give you the corresponding angle that *is* within the restricted range.
+
+
+---
+
+#### 3. Worked Examples
+
+**Case A: Within the Restricted Range**
+Solve: $\sin^{-1}(\sin(\frac{\pi}{6}))$
+1.  Inner part: $\sin(\frac{\pi}{6}) = 0.5$
+2.  Outer part: $\sin^{-1}(0.5) = \frac{\pi}{6}$
+3.  **Result:** $\frac{\pi}{6} = \frac{\pi}{6}$ (The property holds)
+
+**Case B: Outside the Restricted Range**
+Solve: $\sin^{-1}(\sin(\frac{5\pi}{6}))$
+1.  Inner part: $\sin(\frac{5\pi}{6}) = 0.5$
+2.  Outer part: $\sin^{-1}(0.5) = \frac{\pi}{6}$
+3.  **Result:** $\frac{\pi}{6} \neq \frac{5\pi}{6}$ (The "cancellation" failed because the original angle was outside the allowed range).
+
+---
+
+#### 4. Engineering Takeaway
+When programming or calculating inverse kinematics, you cannot assume that $\sin^{-1}(\sin(x))$ always equals $x$. You must check if your angle $x$ is within the **principal branch** ($-\frac{\pi}{2}$ to $\frac{\pi}{2}$); otherwise, you may need to apply a "correction" factor to find the true physical angle.
