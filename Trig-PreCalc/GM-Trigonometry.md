@@ -4393,4 +4393,37 @@ Because the angle is within the valid range, the functions simply cancel each ot
 #### Final Result
 Since the input angle $-\frac{\pi}{3}$ is in the restricted range of the inverse sine function, the property holds true:
 $$\sin^{-1}\left(\sin\left(-\frac{\pi}{3}\right)\right) = -\frac{\pi}{3}$$
+### Inverse Sine Property: Handling Angles Outside the Principal Range
 
+**Problem:** Find the exact value of $\sin^{-1}\left(\sin\left(\frac{5\pi}{6}\right)\right)$.
+
+---
+
+#### Step-by-Step Solution
+
+This problem requires checking if the cancellation property $\sin^{-1}(\sin(x)) = x$ applies or if the angle must be adjusted.
+
+**1. Check the Principal Range**
+The property $\sin^{-1}(\sin(x)) = x$ only works if $x$ is within the principal branch (range) of arcsine:
+$$-\frac{\pi}{2} \leq x \leq \frac{\pi}{2}$$
+
+**2. Evaluate the Input Angle**
+The angle given is $x = \frac{5\pi}{6}$.
+* Since $\frac{5\pi}{6}$ is greater than $\frac{\pi}{2}$ (which is $\frac{3\pi}{6}$), the angle is **outside** the principal range. 
+* It is located in **Quadrant II**.
+
+
+**3. Find the Equivalent Value**
+Because the angle is outside the range, we must evaluate it manually:
+* **Inner Function:** Find the sine of $\frac{5\pi}{6}$.
+  $$\sin\left(\frac{5\pi}{6}\right) = \frac{1}{2}$$
+* **Outer Function:** Find the inverse sine of that result within the restricted range $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
+  $$\sin^{-1}\left(\frac{1}{2}\right) = \frac{\pi}{6}$$
+
+**4. Why isn't the answer $\frac{5\pi}{6}$?**
+The inverse sine function is programmed to always give the "shortest" path to a sine value from the origin within the right half of the circle. While $\frac{5\pi}{6}$ and $\frac{\pi}{6}$ both have a sine of $0.5$, only $\frac{\pi}{6}$ is a valid output for the function.
+
+---
+
+#### Final Result
+**$\sin^{-1}\left(\sin\left(\frac{5\pi}{6}\right)\right) = \frac{\pi}{6}$**
