@@ -4896,3 +4896,40 @@ We need to find an angle in Quadrant I where the cosine (the $x$-coordinate) is 
 #### Final Result
 The value fits within the required interval $[0, \pi]$.
 **$y = \frac{\pi}{4} \quad \text{or} \quad y = 45^\circ$**
+### Solving Inverse Cosecant Equations with Rationalized Radicals
+
+**Problem:** Find the exact value of $y = \csc^{-1}\left(-\frac{2\sqrt{3}}{3}\right)$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve this inverse cosecant function, we search for an angle $y$ within the principal range that produces the given ratio.
+
+**1. Rewrite the Equation**
+The expression $y = \csc^{-1}\left(-\frac{2\sqrt{3}}{3}\right)$ is equivalent to:
+$$\csc(y) = -\frac{2\sqrt{3}}{3}$$
+Since $\csc(y) = \frac{1}{\sin(y)}$, we can invert the fraction to find the sine value:
+$$\sin(y) = -\frac{3}{2\sqrt{3}}$$
+Rationalizing the denominator (multiplying by $\frac{\sqrt{3}}{\sqrt{3}}$):
+$$\sin(y) = -\frac{3\sqrt{3}}{2 \cdot 3} = -\frac{\sqrt{3}}{2}$$
+
+**2. Observe the Restricted Range**
+The principal range for the inverse cosecant function (derived from the restricted sine domain) is:
+$$[-\frac{\pi}{2}, \frac{\pi}{2}], y \neq 0$$
+Since the value $-\frac{\sqrt{3}}{2}$ is **negative**, the angle must fall in **Quadrant IV** as a negative rotation.
+
+**3. Reference the Unit Circle**
+We need to find an angle where the $y$-coordinate (sine) is $-\frac{\sqrt{3}}{2}$.
+* In **Quadrant I**, $\sin(60^\circ) = \frac{\sqrt{3}}{2}$.
+* In the restricted range for **Quadrant IV**, we use the negative version of that reference angle.
+
+**4. Determine the Angle**
+* In degrees: $y = -60^\circ$
+* In radians: $y = -\frac{\pi}{3}$
+
+---
+
+#### Final Result
+The value fits within the required interval $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
+**$y = -\frac{\pi}{3} \quad \text{or} \quad y = -60^\circ$**
