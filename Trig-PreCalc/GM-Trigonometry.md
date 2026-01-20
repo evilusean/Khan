@@ -4558,3 +4558,36 @@ Solve: $\cos^{-1}(\cos(-\frac{\pi}{3}))$
 1.  Inner part: $\cos(-\frac{\pi}{3}) = 0.5$
 2.  Outer part: $\cos^{-1}(0.5) = \frac{\pi}{3}$
 3.  **Result:** $\frac{\pi}{3} \neq -\frac{\pi}{3}$ (The "cancellation" failed because the original angle was negative, placing it outside the $[0, \pi]$ range).
+### Inverse Cosine Identity: Adjusting Angles Outside the Principal Range
+
+**Problem:** Find the exact value of $\cos^{-1}\left(\cos\left(\frac{7\pi}{4}\right)\right)$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve this composition of functions, we must determine if the angle $x = \frac{7\pi}{4}$ allows for direct cancellation using the property $\cos^{-1}(\cos(x)) = x$.
+
+**1. Check the Principal Range**
+The cancellation property $\cos^{-1}(\cos(x)) = x$ is only valid if the angle $x$ is within the principal branch (range) of the arccosine function:
+$$0 \leq x \leq \pi$$
+
+**2. Evaluate the Input Angle**
+The angle given is $x = \frac{7\pi}{4}$.
+* We know that $\pi = \frac{4\pi}{4}$.
+* Since $\frac{7\pi}{4}$ is greater than $\pi$, the angle is **outside** the principal range. It is located in **Quadrant IV**.
+
+**3. Find the Equivalent Value**
+Because the property does not apply directly, we evaluate the expression manually:
+* **Inner Function:** Find the cosine of $\frac{7\pi}{4}$. This angle has a reference angle of $\frac{\pi}{4}$ in Quadrant IV, where cosine is positive.
+  $$\cos\left(\frac{7\pi}{4}\right) = \frac{\sqrt{2}}{2}$$
+* **Outer Function:** Find the inverse cosine of that result within the restricted range $[0, \pi]$.
+  $$\cos^{-1}\left(\frac{\sqrt{2}}{2}\right) = \frac{\pi}{4}$$
+
+**4. Why isn't the answer $\frac{7\pi}{4}$?**
+The arccosine function is restricted to outputting angles in the upper half of the unit circle (Quadrants I and II). While both $\frac{7\pi}{4}$ and $\frac{\pi}{4}$ have a cosine value of $\frac{\sqrt{2}}{2}$, only $\frac{\pi}{4}$ is a valid output for the function.
+
+---
+
+#### Final Result
+**$\cos^{-1}\left(\cos\left(\frac{7\pi}{4}\right)\right) = \frac{\pi}{4}$**
