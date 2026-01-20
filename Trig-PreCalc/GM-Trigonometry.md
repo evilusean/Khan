@@ -4527,8 +4527,34 @@ Solve: $\cos(\cos^{-1}(2.5))$
 1. The value $2.5$ is outside the interval $[-1, 1]$.
 2. $\cos^{-1}(2.5)$ has no real solution.
 3. **Result:** **Undefined**. You cannot "cancel" the functions here because the first step is mathematically impossible.
+### Inverse Cosine Identity: Angle Cancellation Restrictions
+
+**Problem:** Explain the property $\cos^{-1}(\cos(x)) = x$ and why it is restricted to the interval $0 \leq x \leq \pi$.
 
 ---
 
-#### 4. Summary for Engineering Applications
-When calculating mechanical loads or electrical phase components, ensure your input value $x$ is normalized. If a calculation results in $\cos^{-1}(1.05)$, it usually indicates a physical impossibility or an error in the preceding vector math.
+#### 1. The Inverse Property
+The expression $\cos^{-1}(\cos(x)) = x$ suggests that if you take the cosine of an angle $x$ and then apply the inverse cosine to that result, you should return to the original angle $x$.
+
+#### 2. The Range Restriction: Why $0$ to $\pi$?
+Because the cosine function is periodic, different angles can produce the same cosine value (e.g., $\cos(60^\circ)$ and $\cos(-60^\circ)$ both equal $0.5$). To ensure that the inverse cosine ($\cos^{-1}$) is a mathematical function with only one output for every input, its range is restricted to the upper half of the unit circle.
+
+* **The Rule:** The output of $\cos^{-1}(x)$ must always be between $0$ and $\pi$ (or $0^\circ$ and $180^\circ$).
+* **The Consequence:** If your original angle $x$ is outside this interval, the functions will not simply cancel out. Instead, the expression will evaluate to the unique angle within the $[0, \pi]$ range that shares the same cosine value.
+
+
+---
+
+#### 3. Worked Examples
+
+**Case A: Within the Restricted Range**
+Solve: $\cos^{-1}(\cos(\frac{\pi}{3}))$
+1.  Inner part: $\cos(\frac{\pi}{3}) = 0.5$
+2.  Outer part: $\cos^{-1}(0.5) = \frac{\pi}{3}$
+3.  **Result:** $\frac{\pi}{3} = \frac{\pi}{3}$ (The property holds because $\frac{\pi}{3}$ is between $0$ and $\pi$).
+
+**Case B: Outside the Restricted Range**
+Solve: $\cos^{-1}(\cos(-\frac{\pi}{3}))$
+1.  Inner part: $\cos(-\frac{\pi}{3}) = 0.5$
+2.  Outer part: $\cos^{-1}(0.5) = \frac{\pi}{3}$
+3.  **Result:** $\frac{\pi}{3} \neq -\frac{\pi}{3}$ (The "cancellation" failed because the original angle was negative, placing it outside the $[0, \pi]$ range).
