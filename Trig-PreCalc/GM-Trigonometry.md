@@ -4824,3 +4824,39 @@ The inverse tangent function is defined to only return values from the right hal
 
 #### Final Result
 **$\tan^{-1}\left(\tan\left(\frac{4\pi}{3}\right)\right) = \frac{\pi}{3}$**
+### Solving Inverse Cotangent Equations
+
+**Problem:** Find the exact value of $y = \cot^{-1}(-\sqrt{3})$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve this inverse cotangent function, we must find an angle $y$ within the standard restricted range that produces the given ratio.
+
+**1. Rewrite the Equation**
+The expression $y = \cot^{-1}(-\sqrt{3})$ is equivalent to:
+$$\cot y = -\sqrt{3}$$
+Since $\cot y = \frac{\cos y}{\sin y}$ or $\frac{1}{\tan y}$, this can also be viewed as:
+$$\tan y = -\frac{1}{\sqrt{3}} = -\frac{\sqrt{3}}{3}$$
+
+**2. Observe the Restricted Range**
+The standard principal range for the inverse cotangent function is:
+$$0 < y < \pi \quad \text{or} \quad 0^\circ < y < 180^\circ$$
+
+Because the input value ($-\sqrt{3}$) is **negative**, the angle must fall in **Quadrant II**.
+
+**3. Reference the Unit Circle**
+We look for an angle where the $x$-coordinate divided by the $y$-coordinate ($\frac{\cos y}{\sin y}$) equals $-\sqrt{3}$.
+* In **Quadrant I**, $\cot(30^\circ) = \sqrt{3}$. This gives us a reference angle of $30^\circ$ (or $\frac{\pi}{6}$).
+* In **Quadrant II**, we use that reference angle: $180^\circ - 30^\circ = 150^\circ$.
+
+**4. Determine the Angle**
+* In degrees: $y = 150^\circ$
+* In radians: $y = \pi - \frac{\pi}{6} = \frac{5\pi}{6}$
+
+---
+
+#### Final Result
+The value fits within the required interval $(0, \pi)$.
+**$y = \frac{5\pi}{6} \quad \text{or} \quad y = 150^\circ$**
