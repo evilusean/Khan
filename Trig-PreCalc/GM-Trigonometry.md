@@ -4933,3 +4933,38 @@ We need to find an angle where the $y$-coordinate (sine) is $-\frac{\sqrt{3}}{2}
 #### Final Result
 The value fits within the required interval $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
 **$y = -\frac{\pi}{3} \quad \text{or} \quad y = -60^\circ$**
+### Solving Composition of Trigonometric Functions
+
+**Problem:** Find the exact value of $\sin^{-1}\left(\tan\left(-\frac{\pi}{4}\right)\right)$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve this composition, we evaluate the expression from the inside out, starting with the inner trigonometric function.
+
+**1. Evaluate the Inner Function**
+First, find the value of $\tan\left(-\frac{\pi}{4}\right)$.
+* The angle $-\frac{\pi}{4}$ is in **Quadrant IV**.
+* In Quadrant IV, tangent is negative.
+* Since $\tan\left(\frac{\pi}{4}\right) = 1$, then:
+  $$\tan\left(-\frac{\pi}{4}\right) = -1$$
+
+**2. Substitute the Value into the Outer Function**
+Now, substitute $-1$ back into the inverse sine function:
+$$y = \sin^{-1}(-1)$$
+
+**3. Observe the Restricted Range**
+For the inverse sine function, the output angle $y$ must fall within the range:
+$$-\frac{\pi}{2} \leq y \leq \frac{\pi}{2} \quad \text{or} \quad -90^\circ \leq y \leq 90^\circ$$
+
+**4. Determine the Angle**
+We need to find an angle where the $y$-coordinate (sine) on the unit circle is $-1$.
+* On the unit circle, $\sin(y) = -1$ occurs at the bottom of the circle ($270^\circ$).
+* However, we must provide the answer within the restricted range $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
+* The equivalent angle is $-\frac{\pi}{2}$.
+
+---
+
+#### Final Result
+**$\sin^{-1}\left(\tan\left(-\frac{\pi}{4}\right)\right) = -\frac{\pi}{2}$**
