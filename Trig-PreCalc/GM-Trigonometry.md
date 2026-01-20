@@ -4676,3 +4676,37 @@ The angle that satisfies both the value and the range restriction is:
 #### Final Result
 The value fits within the required interval $(-\frac{\pi}{2}, \frac{\pi}{2})$.
 **$y = \frac{\pi}{3} \quad \text{or} \quad y = 60^\circ$**
+### Solving Inverse Tangent Equations with Negative Inputs
+
+**Problem:** Find the exact value of $y = \tan^{-1}(-\sqrt{3})$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve this inverse tangent function, we need to find the angle $y$ within the restricted range that produces the given ratio.
+
+**1. Rewrite the Equation**
+The expression $y = \tan^{-1}(-\sqrt{3})$ is equivalent to:
+$$\tan y = -\sqrt{3}$$
+
+**2. Observe the Restricted Range**
+Recall that for the inverse tangent function, the output angle $y$ must fall within the open interval:
+$$-\frac{\pi}{2} < y < \frac{\pi}{2} \quad \text{or} \quad -90^\circ < y < 90^\circ$$
+Since the input $-\sqrt{3}$ is negative, our answer must be in **Quadrant IV**.
+
+**3. Reference the Unit Circle and Symmetry**
+We need a point on the unit circle where $\frac{\sin y}{\cos y} = -\sqrt{3}$.
+* We know that in Quadrant I, $\tan(60^\circ) = \sqrt{3}$.
+* Because of the odd function property ($\tan^{-1}(-x) = -\tan^{-1}(x)$), we look for the negative counterpart in the restricted range.
+
+**4. Determine the Angle**
+Moving clockwise from $0^\circ$ into Quadrant IV:
+* In degrees: $y = -60^\circ$
+* In radians: $y = -\frac{\pi}{3}$
+
+---
+
+#### Final Result
+The value fits within the required interval $(-\frac{\pi}{2}, \frac{\pi}{2})$.
+**$y = -\frac{\pi}{3} \quad \text{or} \quad y = -60^\circ$**
