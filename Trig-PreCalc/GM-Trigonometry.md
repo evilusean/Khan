@@ -4462,3 +4462,37 @@ Using the reference angle of $30^\circ$ in Quadrant II:
 #### Final Result
 The value fits within the required interval $[0, \pi]$.
 **$y = \frac{5\pi}{6} \quad \text{or} \quad y = 150^\circ$**
+### Solving Inverse Cosine Equations with Negative Radicals
+
+**Problem:** Find the exact value of $y = \cos^{-1}\left(-\frac{\sqrt{2}}{2}\right)$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve this inverse cosine function, we must find an angle $y$ within the function's restricted range that satisfies the given cosine value.
+
+**1. Rewrite the Equation**
+The expression $y = \cos^{-1}\left(-\frac{\sqrt{2}}{2}\right)$ can be rewritten as:
+$$\cos y = -\frac{\sqrt{2}}{2}$$
+
+**2. Observe the Restricted Range**
+For the inverse cosine function, the output angle $y$ must fall within the range:
+$$0 \leq y \leq \pi \quad \text{or} \quad 0^\circ \leq y \leq 180^\circ$$
+This means our answer must be in **Quadrant I** or **Quadrant II**.
+
+**3. Reference the Unit Circle**
+We need to find an angle where the $x$-coordinate (cosine) is $-\frac{\sqrt{2}}{2}$.
+* In **Quadrant I**, $\cos(45^\circ) = \frac{\sqrt{2}}{2}$.
+* Since our target value is **negative**, we look for the corresponding angle in **Quadrant II**.
+
+**4. Determine the Angle**
+Using the reference angle of $45^\circ$ ($\frac{\pi}{4}$) in Quadrant II:
+* In degrees: $y = 180^\circ - 45^\circ = 135^\circ$.
+* In radians: $y = \pi - \frac{\pi}{4} = \frac{3\pi}{4}$.
+
+---
+
+#### Final Result
+The value fits within the required interval $[0, \pi]$.
+**$y = \frac{3\pi}{4} \quad \text{or} \quad y = 135^\circ$**
