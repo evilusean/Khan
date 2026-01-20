@@ -671,3 +671,16 @@ The primary identities for sine, cosine, and tangent are:
 > [!IMPORTANT]
 > **The $\pm$ Sign:** The choice of $+$ or $-$ is determined by the **quadrant** in which the half-angle $\frac{A}{2}$ lies, not the quadrant of $A$.
 
+### Inverse Trigonometric Functions :
+Inverse trigonometric functions (arcfunctions) are used to determine the measure of an angle when the value of a trigonometric ratio is known.
+
+---
+
+#### 1. Core Functions, Domains, and Ranges
+Because trigonometric functions are periodic, they are not one-to-one. To define their inverses, we must restrict their domains to specific intervals.
+
+| Function | Notation | Domain (Input) | Range (Output Angle) |
+| :--- | :--- | :--- | :--- |
+| **Arcsine** | $\arcsin(x)$ or $\sin^{-1}(x)$ | $[-1, 1]$ | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ |
+| **Arccosine** | $\arccos(x)$ or $\cos^{-1}(x)$ | $[-1, 1]$ | $[0, \pi]$ |
+| **Arctangent** | $\arctan(x)$ or $\tan^{-1}(x)$ | $(-\infty, \infty)$ | $(-\frac{\pi}{2}, \frac{\pi}{2})$ |

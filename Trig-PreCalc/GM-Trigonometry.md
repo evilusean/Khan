@@ -4393,3 +4393,4 @@ Because the angle is within the valid range, the functions simply cancel each ot
 #### Final Result
 Since the input angle $-\frac{\pi}{3}$ is in the restricted range of the inverse sine function, the property holds true:
 $$\sin^{-1}\left(\sin\left(-\frac{\pi}{3}\right)\right) = -\frac{\pi}{3}$$
+
