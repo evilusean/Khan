@@ -4178,7 +4178,57 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=9h43m25s
 - This tells us if (a, b) is on the graph of f, then (b, a) is on the graph of $f^{-1}$
 - The graphs of f and $f^{-1}$ are reflections across the line Y=X (diagonal line going through origin)
 - **Restricted Sine Function** : A Sine function with a restricted domain - you take only a part of it so it passes the *horizontal line test*
-- 
+### Restricted Trigonometric Functions
+
+Standard trigonometric functions are periodic and fail the horizontal line test over their natural domains. To create inverse functions, we must use "restricted" versions of the original functions that are one-to-one.
+
+---
+
+#### 1. Core Functions with Restricted Domains
+The restricted domain is the specific section of the graph chosen so that every $y$-value is reached exactly once.
+
+| Function | Equation | Restricted Domain (Input Angle) | Range (Output Ratio) |
+| :--- | :--- | :--- | :--- |
+| **Restricted Sine** | $y = \sin(x)$ | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ | $[-1, 1]$ |
+| **Restricted Cosine** | $y = \cos(x)$ | $[0, \pi]$ | $[-1, 1]$ |
+| **Restricted Tangent**| $y = \tan(x)$ | $(-\frac{\pi}{2}, \frac{\pi}{2})$ | $(-\infty, \infty)$ |
+
+---
+
+#### 2. Derivations (Basic Calculus)
+While the inverse functions use implicit differentiation, the normal functions follow standard differentiation rules.
+
+**Example: Deriving the derivative of $\sin(x)$ using the limit definition**
+1. Let $f(x) = \sin(x)$.
+2. Use the definition: $f'(x) = \lim_{h \to 0} \frac{\sin(x+h) - \sin(x)}{h}$
+3. Apply the sum identity: $\sin(x+h) = \sin(x)\cos(h) + \cos(x)\sin(h)$
+4. Through limit properties:
+   $$\frac{d}{dx}[\sin(x)] = \cos(x)$$
+--- 
+
+#### 3. Worked Example: Evaluating within Restricted Sections
+**Problem:** Find the exact value of $\sin(x)$ when $x = \frac{3\pi}{4}$, and explain why this $x$ value is typically excluded from the restricted domain used for inverses.
+
+**Step 1: Evaluate the function**
+Using the unit circle:
+$$\sin\left(\frac{3\pi}{4}\right) = \frac{\sqrt{2}}{2}$$
+
+**Step 2: Analyze the restriction**
+While the calculation is possible, $x = \frac{3\pi}{4}$ (135°) is outside the restricted domain for Sine $[-\frac{\pi}{2}, \frac{\pi}{2}]$. 
+* **Reason:** In the interval $[0, \pi]$, the sine function hits the value $\frac{\sqrt{2}}{2}$ twice (at $\frac{\pi}{4}$ and $\frac{3\pi}{4}$), failing the horizontal line test. We restrict the domain to the right-side quadrants to ensure a unique mapping.
+
+---
+
+#### 4. Key Identities to Remember
+* **Pythagorean Identities:**
+    * $\sin^2(x) + \cos^2(x) = 1$
+    * $1 + \tan^2(x) = \sec^2(x)$
+* **Even/Odd Properties:**
+    * $\sin(-x) = -\sin(x)$ (Odd)
+    * $\cos(-x) = \cos(x)$ (Even)
+* **Periodic Nature:**
+    * $\sin(x + 2\pi) = \sin(x)$
+    * $\tan(x + \pi) = \tan(x)$
 ### Inverse Trigonometric Functions
 
 Inverse trigonometric functions (arcfunctions) are used to determine the measure of an angle when the value of a trigonometric ratio is known.
