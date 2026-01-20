@@ -4746,8 +4746,81 @@ Solve: $\tan(\tan^{-1}(1000))$
 
 #### 4. Summary Table for Composition Identities
 
-| Identity | Condition for $x$ | Reason |
-| :--- | :--- | :--- |
+| Identity               | Condition for $x$  | Reason                      |
+| :--------------------- | :----------------- | :-------------------------- |
 | $\sin(\sin^{-1}x) = x$ | $-1 \leq x \leq 1$ | Ratio limited by hypotenuse |
 | $\cos(\cos^{-1}x) = x$ | $-1 \leq x \leq 1$ | Ratio limited by hypotenuse |
-| $\tan(\tan^{-1}x) = x$ | $x \in \mathbb{R}$ | Ratio can be any value |
+| $\tan(\tan^{-1}x) = x$ | $x \in \mathbb{R}$ | Ratio can be any value      |
+### Inverse Tangent Identity: Angle Cancellation Restrictions
+
+**Problem:** Explain the property $\tan^{-1}(\tan(x)) = x$ and why it is restricted to the interval $-\frac{\pi}{2} < x < \frac{\pi}{2}$.
+
+---
+
+#### 1. The Inverse Property
+The identity $\tan^{-1}(\tan(x)) = x$ states that applying the tangent function to an angle and then the inverse tangent to the result returns the original angle. This only works seamlessly when the angle $x$ falls within the specific range where the tangent function is "one-to-one."
+
+#### 2. The Range Restriction: Why $(-\frac{\pi}{2}, \frac{\pi}{2})$?
+Because tangent is periodic (repeating every $\pi$ radians), infinitely many angles can produce the same tangent value. To make the inverse a true function with a single output, we restrict the range to the central branch of the tangent graph.
+
+* **Vertical Asymptotes:** At $x = \frac{\pi}{2}$ and $x = -\frac{\pi}{2}$, the tangent function is undefined (division by zero). Therefore, the range of the inverse tangent uses **strict inequalities** and does not include the endpoints.
+* **The Rule:** The output of $\tan^{-1}(x)$ must always be strictly between $-\frac{\pi}{2}$ and $\frac{\pi}{2}$.
+
+---
+
+#### 3. Worked Examples
+
+**Case A: Within the Restricted Range**
+Solve: $\tan^{-1}(\tan(\frac{\pi}{4}))$
+1.  Inner part: $\tan(\frac{\pi}{4}) = 1$
+2.  Outer part: $\tan^{-1}(1) = \frac{\pi}{4}$
+3.  **Result:** $\frac{\pi}{4}$ (The identity holds because $45^\circ$ is within the valid range).
+
+**Case B: Outside the Restricted Range**
+Solve: $\tan^{-1}(\tan(\frac{3\pi}{4}))$
+1.  Inner part: $\tan(\frac{3\pi}{4}) = -1$ (Quadrant II)
+2.  Outer part: $\tan^{-1}(-1) = -\frac{\pi}{4}$
+3.  **Result:** $-\frac{\pi}{4} \neq \frac{3\pi}{4}$ (The identity failed because the original angle was outside the $(-\frac{\pi}{2}, \frac{\pi}{2})$ interval).
+
+---
+
+#### 4. Summary Table for Angle Cancellation
+
+| Identity                | Condition for $x$ (Interval)      | Quadrants Included              |
+| :---------------------- | :-------------------------------- | :------------------------------ |
+| $\sin^{-1}(\sin x) = x$ | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ | I and IV                        |
+| $\cos^{-1}(\cos x) = x$ | $[0, \pi]$                        | I and II                        |
+| $\tan^{-1}(\tan x) = x$ | $(-\frac{\pi}{2}, \frac{\pi}{2})$ | I and IV (Excluding Asymptotes) |
+### Inverse Tangent Identity: Evaluating Angles Outside the Restricted Range
+
+**Problem:** Find the exact value of $\tan^{-1}\left(\tan\left(\frac{4\pi}{3}\right)\right)$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve this composition, we must check if the angle $x = \frac{4\pi}{3}$ allows for direct cancellation using the identity $\tan^{-1}(\tan(x)) = x$.
+
+**1. Check the Restricted Range**
+The cancellation identity $\tan^{-1}(\tan(x)) = x$ is only valid if the angle $x$ falls within the principal branch of the tangent function:
+$$-\frac{\pi}{2} < x < \frac{\pi}{2}$$
+
+**2. Evaluate the Input Angle**
+The angle given is $x = \frac{4\pi}{3}$.
+* We know that $\frac{\pi}{2} = \frac{1.5\pi}{3}$.
+* Since $\frac{4\pi}{3}$ is much larger than $\frac{1.5\pi}{3}$, the angle is **outside** the restricted range. It is located in **Quadrant III**.
+
+**3. Find the Equivalent Value**
+Because the angle is outside the required range, we evaluate the expression in two steps:
+* **Inner Function:** Find the tangent of $\frac{4\pi}{3}$. Since it is in Quadrant III, the tangent is positive and uses the reference angle $\frac{\pi}{3}$.
+  $$\tan\left(\frac{4\pi}{3}\right) = \sqrt{3}$$
+* **Outer Function:** Find the inverse tangent of that result within the restricted range $(-\frac{\pi}{2}, \frac{\pi}{2})$.
+  $$\tan^{-1}(\sqrt{3}) = \frac{\pi}{3}$$
+
+**4. Why isn't the answer $\frac{4\pi}{3}$?**
+The inverse tangent function is defined to only return values from the right half of the unit circle (Quadrants I and IV). Although $\frac{4\pi}{3}$ and $\frac{\pi}{3}$ share the same tangent value ($\sqrt{3}$), only $\frac{\pi}{3}$ lies within the function's official output range.
+
+---
+
+#### Final Result
+**$\tan^{-1}\left(\tan\left(\frac{4\pi}{3}\right)\right) = \frac{\pi}{3}$**
