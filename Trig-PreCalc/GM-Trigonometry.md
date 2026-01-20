@@ -4427,3 +4427,38 @@ The inverse sine function is programmed to always give the "shortest" path to a 
 
 #### Final Result
 **$\sin^{-1}\left(\sin\left(\frac{5\pi}{6}\right)\right) = \frac{\pi}{6}$**
+### Solving Inverse Cosine Equations with Negative Inputs
+
+**Problem:** Find the exact value of $y = \cos^{-1}\left(-\frac{\sqrt{3}}{2}\right)$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve an inverse cosine function, we need to find the angle $y$ within a specific range that results in the given value.
+
+**1. Rewrite the Equation**
+The expression $y = \cos^{-1}\left(-\frac{\sqrt{3}}{2}\right)$ is equivalent to:
+$$\cos y = -\frac{\sqrt{3}}{2}$$
+
+**2. Observe the Restricted Range**
+Unlike the inverse sine function, the output for $y = \cos^{-1}(x)$ must fall within **Quadrant I or II**:
+$$0 \leq y \leq \pi \quad \text{or} \quad 0^\circ \leq y \leq 180^\circ$$
+
+**3. Reference the Unit Circle**
+We need an angle where the $x$-coordinate (cosine) is $-\frac{\sqrt{3}}{2}$.
+* We know that in Quadrant I, $\cos(30^\circ) = \frac{\sqrt{3}}{2}$.
+* Since our value is **negative**, we must find the corresponding angle in **Quadrant II**.
+
+ and the point (-sqrt(3)/2, 1/2) at 150 degrees]
+
+**4. Determine the Angle**
+Using the reference angle of $30^\circ$ in Quadrant II:
+* $y = 180^\circ - 30^\circ = 150^\circ$
+* In radians: $y = \pi - \frac{\pi}{6} = \frac{5\pi}{6}$
+
+---
+
+#### Final Result
+The value fits within the required interval $[0, \pi]$.
+**$y = \frac{5\pi}{6} \quad \text{or} \quad y = 150^\circ$**
