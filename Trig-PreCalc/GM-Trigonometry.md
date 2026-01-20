@@ -4641,3 +4641,38 @@ The arccosine function is restricted to outputting angles in the upper half of t
 
 #### Final Result
 **$\cos^{-1}\left(\cos\left(\frac{7\pi}{4}\right)\right) = \frac{\pi}{4}$**
+### Solving Inverse Tangent Equations
+
+**Problem:** Find the exact value of $y = \tan^{-1}(\sqrt{3})$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve this inverse tangent function, we look for an angle $y$ within the function's restricted range that produces the given ratio.
+
+**1. Rewrite the Equation**
+The expression $y = \tan^{-1}(\sqrt{3})$ is equivalent to:
+$$\tan y = \sqrt{3}$$
+
+**2. Observe the Restricted Range**
+For the inverse tangent function, the output angle $y$ must fall within the open interval:
+$$-\frac{\pi}{2} < y < \frac{\pi}{2} \quad \text{or} \quad -90^\circ < y < 90^\circ$$
+Since $\sqrt{3}$ is positive, our answer must be in **Quadrant I**.
+
+
+**3. Reference the Unit Circle**
+Recall that $\tan y = \frac{\sin y}{\cos y}$. We need a point on the unit circle where the $y$-coordinate divided by the $x$-coordinate equals $\sqrt{3}$.
+* At $60^\circ$ (or $\frac{\pi}{3}$), the coordinates are $(\frac{1}{2}, \frac{\sqrt{3}}{2})$.
+* Calculation: $\frac{\frac{\sqrt{3}}{2}}{\frac{1}{2}} = \sqrt{3}$.
+
+**4. Determine the Angle**
+The angle that satisfies both the value and the range restriction is:
+* In degrees: $y = 60^\circ$
+* In radians: $y = \frac{\pi}{3}$
+
+---
+
+#### Final Result
+The value fits within the required interval $(-\frac{\pi}{2}, \frac{\pi}{2})$.
+**$y = \frac{\pi}{3} \quad \text{or} \quad y = 60^\circ$**
