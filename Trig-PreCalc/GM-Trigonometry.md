@@ -4496,3 +4496,39 @@ Using the reference angle of $45^\circ$ ($\frac{\pi}{4}$) in Quadrant II:
 #### Final Result
 The value fits within the required interval $[0, \pi]$.
 **$y = \frac{3\pi}{4} \quad \text{or} \quad y = 135^\circ$**
+### Inverse Cosine Identity: Ratio Cancellation
+
+**Problem:** Explain the property $\cos(\cos^{-1}(x)) = x$ and the conditions under which it is valid.
+
+---
+
+#### 1. The Identity Explained
+The property $\cos(\cos^{-1}(x)) = x$ states that taking the inverse cosine of a value $x$ (to find an angle) and then taking the cosine of that resulting angle will return you to the original value $x$. The two functions effectively "undo" each other.
+
+#### 2. The Domain Restriction: $-1 \leq x \leq 1$
+This identity only works if the input $x$ is a valid ratio that a cosine function can actually produce.
+
+* **The Geometry:** In a right triangle, cosine is defined as $\frac{\text{adjacent}}{\text{hypotenuse}}$. Since the hypotenuse is always the longest side, this ratio can never be greater than $1$ or less than $-1$.
+* **The Function Constraint:** The domain of the inner function, $\cos^{-1}(x)$, is restricted to $[-1, 1]$. If you provide an $x$ outside of this range, the inner function becomes **undefined**, and the entire expression fails.
+
+
+---
+
+#### 3. Worked Examples
+
+**Case A: Valid Input**
+Solve: $\cos(\cos^{-1}(0.8))$
+1. $\cos^{-1}(0.8) \approx 36.87^\circ$
+2. $\cos(36.87^\circ) = 0.8$
+3. **Result:** $0.8$ (The identity holds because $0.8$ is between $-1$ and $1$).
+
+**Case B: Invalid Input**
+Solve: $\cos(\cos^{-1}(2.5))$
+1. The value $2.5$ is outside the interval $[-1, 1]$.
+2. $\cos^{-1}(2.5)$ has no real solution.
+3. **Result:** **Undefined**. You cannot "cancel" the functions here because the first step is mathematically impossible.
+
+---
+
+#### 4. Summary for Engineering Applications
+When calculating mechanical loads or electrical phase components, ensure your input value $x$ is normalized. If a calculation results in $\cos^{-1}(1.05)$, it usually indicates a physical impossibility or an error in the preceding vector math.
