@@ -4710,3 +4710,44 @@ Moving clockwise from $0^\circ$ into Quadrant IV:
 #### Final Result
 The value fits within the required interval $(-\frac{\pi}{2}, \frac{\pi}{2})$.
 **$y = -\frac{\pi}{3} \quad \text{or} \quad y = -60^\circ$**
+### Inverse Tangent Identity: Ratio Cancellation
+
+**Problem:** Explain the property $\tan(\tan^{-1}(x)) = x$ and the conditions under which it is valid.
+
+---
+
+#### 1. The Identity Explained
+The property $\tan(\tan^{-1}(x)) = x$ indicates that if you take the inverse tangent of a value $x$ to find an angle, and then take the tangent of that resulting angle, you return exactly to the original value $x$.
+
+#### 2. Domain: $x \in \mathbb{R}$
+Unlike Arcsine and Arccosine, which are restricted to inputs between $-1$ and $1$, the inverse tangent function accepts **any real number**.
+
+* **The Geometry:** In a right triangle, tangent is $\frac{\text{opposite}}{\text{adjacent}}$. As the angle approaches $90^\circ$, the opposite side can become infinitely larger than the adjacent side.
+* **The Function Constraint:** Because the range of the standard tangent function is $(-\infty, \infty)$, the domain of its inverse is likewise all real numbers ($\mathbb{R}$). 
+
+
+---
+
+#### 3. Worked Examples
+
+**Case A: Standard Value**
+Solve: $\tan(\tan^{-1}(1))$
+1. $\tan^{-1}(1) = 45^\circ$ (or $\frac{\pi}{4}$)
+2. $\tan(45^\circ) = 1$
+3. **Result:** $1 = 1$
+
+**Case B: Large Value**
+Solve: $\tan(\tan^{-1}(1000))$
+1. $\tan^{-1}(1000) \approx 89.94^\circ$
+2. $\tan(89.94^\circ) \approx 1000$
+3. **Result:** $1000 = 1000$ (The identity holds for any value, no matter how large).
+
+---
+
+#### 4. Summary Table for Composition Identities
+
+| Identity | Condition for $x$ | Reason |
+| :--- | :--- | :--- |
+| $\sin(\sin^{-1}x) = x$ | $-1 \leq x \leq 1$ | Ratio limited by hypotenuse |
+| $\cos(\cos^{-1}x) = x$ | $-1 \leq x \leq 1$ | Ratio limited by hypotenuse |
+| $\tan(\tan^{-1}x) = x$ | $x \in \mathbb{R}$ | Ratio can be any value |
