@@ -4860,3 +4860,39 @@ We look for an angle where the $x$-coordinate divided by the $y$-coordinate ($\f
 #### Final Result
 The value fits within the required interval $(0, \pi)$.
 **$y = \frac{5\pi}{6} \quad \text{or} \quad y = 150^\circ$**
+### Solving Inverse Secant Equations
+
+**Problem:** Find the exact value of $y = \sec^{-1}(\sqrt{2})$.
+
+---
+
+#### Step-by-Step Solution
+
+To solve this inverse secant function, we need to find an angle $y$ within the principal range that yields the given ratio.
+
+**1. Rewrite the Equation**
+The expression $y = \sec^{-1}(\sqrt{2})$ is equivalent to:
+$$\sec(y) = \sqrt{2}$$
+Since $\sec(y) = \frac{1}{\cos(y)}$, we can rewrite this in terms of cosine for easier evaluation:
+$$\cos(y) = \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2}$$
+
+**2. Observe the Restricted Range**
+The principal range for the inverse secant function (based on the restricted cosine domain) is:
+$$[0, \pi], y \neq \frac{\pi}{2}$$
+Since $\sqrt{2}$ is positive, the angle must be in **Quadrant I**.
+
+
+**3. Reference the Unit Circle**
+We need to find an angle in Quadrant I where the cosine (the $x$-coordinate) is $\frac{\sqrt{2}}{2}$.
+* From the unit circle, we know that $\cos(45^\circ) = \frac{\sqrt{2}}{2}$.
+* Therefore, $\sec(45^\circ) = \frac{1}{\cos(45^\circ)} = \frac{2}{\sqrt{2}} = \sqrt{2}$.
+
+**4. Determine the Angle**
+* In degrees: $y = 45^\circ$
+* In radians: $y = \frac{\pi}{4}$
+
+---
+
+#### Final Result
+The value fits within the required interval $[0, \pi]$.
+**$y = \frac{\pi}{4} \quad \text{or} \quad y = 45^\circ$**
