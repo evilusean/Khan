@@ -4968,3 +4968,43 @@ We need to find an angle where the $y$-coordinate (sine) on the unit circle is $
 
 #### Final Result
 **$\sin^{-1}\left(\tan\left(-\frac{\pi}{4}\right)\right) = -\frac{\pi}{2}$**
+### Solving Trigonometric Compositions with Right Triangles
+
+**Problem:** Find the exact value of $\tan\left(\sin^{-1}\left(\frac{3}{4}\right)\right)$.
+
+---
+
+#### Step-by-Step Solution
+
+When the inner value is not a "special value" from the unit circle, we use a right triangle sketch to find the exact ratio.
+
+**1. Define the Angle**
+Let $\theta = \sin^{-1}\left(\frac{3}{4}\right)$. This implies:
+$$\sin(\theta) = \frac{3}{4}$$
+Since the ratio is positive, $\theta$ must be in **Quadrant I**.
+
+**2. Sketch a Right Triangle**
+Recall that $\sin(\theta) = \frac{\text{opposite}}{\text{hypotenuse}}$.
+* **Opposite side ($y$):** $3$
+* **Hypotenuse ($r$):** $4$
+
+
+**3. Find the Adjacent Side ($x$)**
+Use the Pythagorean theorem: $x^2 + y^2 = r^2$
+$$x^2 + 3^2 = 4^2$$
+$$x^2 + 9 = 16$$
+$$x^2 = 7 \implies x = \sqrt{7}$$
+
+**4. Evaluate the Outer Function**
+Now, find the tangent of the angle $\theta$ using the sides we just found:
+$$\tan(\theta) = \frac{\text{opposite}}{\text{adjacent}}$$
+$$\tan(\theta) = \frac{3}{\sqrt{7}}$$
+
+**5. Rationalize the Denominator**
+Multiply the numerator and denominator by $\sqrt{7}$:
+$$\frac{3}{\sqrt{7}} \cdot \frac{\sqrt{7}}{\sqrt{7}} = \frac{3\sqrt{7}}{7}$$
+
+---
+
+#### Final Result
+**$\tan\left(\sin^{-1}\left(\frac{3}{4}\right)\right) = \frac{3\sqrt{7}}{7}$**
