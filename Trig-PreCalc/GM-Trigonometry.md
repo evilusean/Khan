@@ -5047,5 +5047,3 @@ $$\frac{\sqrt{10} - 3\sqrt{30}}{20}$$
 
 #### Final Result
 **$\sin\left(\sin^{-1}\left(\frac{1}{2}\right) + \tan^{-1}(-3)\right) = \frac{\sqrt{10} - 3\sqrt{30}}{20}$**
-
-Test
