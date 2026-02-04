@@ -5133,3 +5133,41 @@ To solve this linear trigonometric equation, we isolate the sine function and de
 * **General Solution:** $\theta = \frac{\pi}{6} + 2n\pi$
   $\theta = \frac{5\pi}{6} + 2n\pi$
   *(where $n$ is any integer)*
+### Solving Linear Trigonometric Equations $-4 - 4 \cos \theta = -3 - 2 \cos \theta$ 
+
+**Problem:** Solve $-4 - 4 \cos \theta = -3 - 2 \cos \theta$ for $0^\circ \le \theta < 360^\circ$.
+
+---
+
+#### 1. Algebraic Isolation
+Treat $\cos \theta$ as a single variable (like $x$) and group like terms:
+* **Add $4 \cos \theta$ to both sides:**
+    $$-4 = -3 + 2 \cos \theta$$
+* **Add 3 to both sides:**
+    $$-1 = 2 \cos \theta$$
+* **Divide by 2 to isolate the function:**
+    $$\cos \theta = -\frac{1}{2}$$
+
+---
+
+#### 2. Find the Reference Angle
+Find the acute angle $\theta'$ where the cosine value is positive $\frac{1}{2}$:
+$$\theta' = \cos^{-1}\left(\frac{1}{2}\right) = 60^\circ$$
+
+---
+
+#### 3. Determine Quadrants and Final Angles
+Since the value of $\cos \theta$ is **negative** ($-\frac{1}{2}$), the solutions must lie in **Quadrant II** and **Quadrant III** (where $x$-coordinates are negative).
+
+
+* **Quadrant II Solution:**
+    $$\theta = 180^\circ - 60^\circ = 120^\circ$$
+* **Quadrant III Solution:**
+    $$\theta = 180^\circ + 60^\circ = 240^\circ$$
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\theta = \{120^\circ, 240^\circ\}$ 
+> *(or $\{ \frac{2\pi}{3}, \frac{4\pi}{3} \}$ in radians)*
