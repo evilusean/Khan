@@ -5099,3 +5099,37 @@ When the argument is not just $x$ (e.g., $\sin(2x)$ or $\tan(x + \theta)$), solv
 | **Tangent/Cotangent** | Remember that the period is $\pi$, so general solutions only need $+ n\pi$. |
 
 ---
+### Solving $2 + 4 \sin \theta = 4$
+
+To solve this linear trigonometric equation, we isolate the sine function and determine the angles that satisfy the equation within a standard interval, typically $[0, 2\pi)$ or $[0^\circ, 360^\circ)$.
+
+---
+
+#### Step-by-Step Solution
+
+1. **Isolate the Sine Term:**
+   Subtract 2 from both sides:
+   $4 \sin \theta = 2$
+   Divide by 4:
+   $\sin \theta = \frac{2}{4} \implies \sin \theta = \frac{1}{2}$
+
+2. **Find the Reference Angle:**
+   The angle in the first quadrant where the sine is $1/2$ is:
+   $\theta' = \arcsin\left(\frac{1}{2}\right) = \frac{\pi}{6}$ (or $30^\circ$)
+
+3. **Identify Quadrants:**
+   Since $\sin \theta$ is positive ($+1/2$), the solutions must lie in **Quadrant I** and **Quadrant II**.
+
+4. **Calculate Specific Solutions:**
+   * **QI:** $\theta = \frac{\pi}{6}$ (or $30^\circ$)
+   * **QII:** $\pi - \frac{\pi}{6} = \frac{5\pi}{6}$ (or $180^\circ - 30^\circ = 150^\circ$)
+
+
+---
+
+#### Final Results
+
+* **Primary Solutions:** $\theta = \{ \frac{\pi}{6}, \frac{5\pi}{6} \}$ or $\{ 30^\circ, 150^\circ \}$
+* **General Solution:** $\theta = \frac{\pi}{6} + 2n\pi$
+  $\theta = \frac{5\pi}{6} + 2n\pi$
+  *(where $n$ is any integer)*
