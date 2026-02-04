@@ -5049,3 +5049,53 @@ $$\frac{\sqrt{10} - 3\sqrt{30}}{20}$$
 **$\sin\left(\sin^{-1}\left(\frac{1}{2}\right) + \tan^{-1}(-3)\right) = \frac{\sqrt{10} - 3\sqrt{30}}{20}$**
 ## 2026-February-04 - Solving Trigonometric Equations using Linear Methods :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=11h1m40s
+### Solving Trigonometric Equations: Linear Methods
+
+Linear methods are applied to trigonometric equations where the trigonometric function (e.g., $\sin(x)$, $\cos(x)$, $\tan(x)$) appears to the first power and is not multiplied by another trigonometric function. These equations generally take the form $a \cdot f(x) + b = 0$.
+
+---
+
+#### General Procedure
+
+1.  **Isolate the Trigonometric Function:** Use algebraic operations to get the function by itself on one side of the equation.
+2.  **Determine the Reference Angle:** Find the acute angle $\theta'$ that satisfies the equation in the first quadrant.
+3.  **Identify the Quadrants:** Based on the sign (positive or negative) of the value, identify which quadrants the solutions lie in (using ASTC/CAST rules).
+4.  **Find the Particular Solutions:** Calculate the angles within the specified interval, usually $[0, 2\pi)$ or $[0, 360^\circ)$.
+5.  **State the General Solution (if required):** Add the period of the function ($+ 2n\pi$ for sine/cosine, $+ n\pi$ for tangent) to account for coterminal angles.
+
+---
+
+#### Example: Basic Linear Equation
+
+**Equation:** $2\cos(x) + \sqrt{3} = 0$ over $[0, 2\pi)$
+
+1.  **Isolate:** $2\cos(x) = -\sqrt{3}$
+    $\cos(x) = -\frac{\sqrt{3}}{2}$
+
+2.  **Reference Angle:** $\cos^{-1}(\frac{\sqrt{3}}{2}) = \frac{\pi}{6}$
+
+3.  **Quadrants:** Cosine is negative in Quadrants II and III.
+
+4.  **Calculate Solutions:**
+    * **QII:** $\pi - \frac{\pi}{6} = \frac{5\pi}{6}$
+    * **QIII:** $\pi + \frac{\pi}{6} = \frac{7\pi}{6}$
+
+
+
+---
+
+#### Handling Multiple Angles
+
+When the argument is not just $x$ (e.g., $\sin(2x)$ or $\tan(x + \theta)$), solve for the entire argument first, then isolate $x$.
+
+* **Adjustment:** If the interval for $x$ is $[0, 2\pi)$, the interval for $2x$ becomes $[0, 4\pi)$. You must find all solutions within this expanded range before dividing by 2.
+
+#### Key Strategies
+
+| Scenario | Action |
+| :--- | :--- |
+| **Common Factor** | If the equation is $2\sin(x)\cos(x) - \sin(x) = 0$, factor out $\sin(x)$ to create two linear equations. |
+| **Different Functions** | Use identities (like $\sin^2(x) + \cos^2(x) = 1$) to convert the equation into a single trigonometric ratio if possible. |
+| **Tangent/Cotangent** | Remember that the period is $\pi$, so general solutions only need $+ n\pi$. |
+
+---
