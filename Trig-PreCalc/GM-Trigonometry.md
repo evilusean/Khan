@@ -5171,3 +5171,43 @@ Since the value of $\cos \theta$ is **negative** ($-\frac{1}{2}$), the solutions
 > [!success] Solution Set
 > $\theta = \{120^\circ, 240^\circ\}$ 
 > *(or $\{ \frac{2\pi}{3}, \frac{4\pi}{3} \}$ in radians)*
+### Solving Linear Trigonometric Equations: Tangent
+
+**Problem:** Solve $-3\sqrt{3} + 4 - \tan \theta = 4 + 8 \tan \theta$ for $0^\circ \le \theta < 360^\circ$.
+
+---
+
+#### 1. Algebraic Isolation
+Group all $\tan \theta$ terms on one side and constant values on the other:
+* **Subtract 4 from both sides:**
+  $$-3\sqrt{3} - \tan \theta = 8 \tan \theta$$
+* **Add $\tan \theta$ to both sides:**
+  $$-3\sqrt{3} = 9 \tan \theta$$
+* **Divide by 9 to isolate the function:**
+  $$\tan \theta = \frac{-3\sqrt{3}}{9}$$
+* **Simplify the fraction:**
+  $$\tan \theta = -\frac{\sqrt{3}}{3}$$
+
+---
+
+#### 2. Find the Reference Angle
+Find the acute angle $\theta'$ where the tangent value is $\frac{\sqrt{3}}{3}$:
+$$\theta' = \tan^{-1}\left(\frac{\sqrt{3}}{3}\right) = 30^\circ$$
+
+---
+
+#### 3. Determine Quadrants and Final Angles
+The tangent function is **negative** in **Quadrant II** and **Quadrant IV**.
+
+
+* **Quadrant II Solution:**
+  $$\theta = 180^\circ - 30^\circ = 150^\circ$$
+* **Quadrant IV Solution:**
+  $$\theta = 360^\circ - 30^\circ = 330^\circ$$
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\theta = \{150^\circ, 330^\circ\}$
+> *(or $\{ \frac{5\pi}{6}, \frac{11\pi}{6} \}$ in radians)*
