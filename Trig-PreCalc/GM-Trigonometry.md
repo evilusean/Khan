@@ -5211,3 +5211,4 @@ The tangent function is **negative** in **Quadrant II** and **Quadrant IV**.
 > [!success] Solution Set
 > $\theta = \{150^\circ, 330^\circ\}$
 > *(or $\{ \frac{5\pi}{6}, \frac{11\pi}{6} \}$ in radians)*
+## 2026-February-04 - Solving Trigonometric Equations by Factoring :
