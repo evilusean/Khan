@@ -5434,3 +5434,4 @@ The function $\cot \beta$ is undefined when $\sin \beta = 0$ (at $0^\circ$ and $
 > [!success] Solution Set
 > $\beta = \{45^\circ, 90^\circ, 225^\circ, 270^\circ\}$
 ## 2026-Feburary-05 - Solving Triogonmetric Equations Using Square Roots, Squaring and Identities : 
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=11h44m20s
