@@ -5258,3 +5258,47 @@ When a trigonometric equation contains a squared term (like $\sin^2 \theta$) or 
 | **Substitution** | If the structure is confusing, replace the function with $u$ (e.g., let $u = \tan \theta$). Solve for $u$, then substitute back. |
 
 ---
+### $3\cos \theta + 2\cos^2 \theta = -1$ (Substitution Method)
+
+$3\cos \theta + 2\cos^2 \theta = -1$
+
+By substituting a variable for the trigonometric function, we can treat the problem as a standard algebraic quadratic equation.
+
+---
+
+#### 1. Define the Substitution
+Let $u = \cos \theta$.
+Rewriting the equation in terms of $u$:
+$$3u + 2u^2 = -1$$
+
+#### 2. Standard Quadratic Form
+Rearrange the terms to set the equation to zero:
+$$2u^2 + 3u + 1 = 0$$
+
+#### 3. Solve for $u$
+We can factor the trinomial:
+$$(2u + 1)(u + 1) = 0$$
+
+Using the **Zero Product Property**:
+* $2u + 1 = 0 \implies u = -\frac{1}{2}$
+* $u + 1 = 0 \implies u = -1$
+
+#### 4. Back-Substitution
+Now, replace $u$ with $\cos \theta$ to solve for the angles:
+
+**Case 1: $\cos \theta = -\frac{1}{2}$**
+* **Reference Angle:** $\cos^{-1}(\frac{1}{2}) = 60^\circ$
+* **Quadrants:** Cosine is negative in Quadrants II and III.
+* **QII:** $180^\circ - 60^\circ = 120^\circ$
+* **QIII:** $180^\circ + 60^\circ = 240^\circ$
+
+
+
+**Case 2: $\cos \theta = -1$**
+* **Angle:** This occurs at exactly $180^\circ$ on the unit circle.
+
+---
+
+#### Final Answer
+> [!success] Solution Set for $[0, 360^\circ)$
+> $\theta = \{120^\circ, 180^\circ, 240^\circ\}$
