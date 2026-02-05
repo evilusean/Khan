@@ -5213,3 +5213,48 @@ The tangent function is **negative** in **Quadrant II** and **Quadrant IV**.
 > *(or $\{ \frac{5\pi}{6}, \frac{11\pi}{6} \}$ in radians)*
 ## 2026-February-05 - Solving Trigonometric Equations by Factoring :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=1h18m10s
+### Solving Trigonometric Equations by Factoring
+
+When a trigonometric equation contains a squared term (like $\sin^2 \theta$) or multiple trigonometric functions, factoring is often the most effective method to break the equation down into simpler linear parts.
+
+---
+
+#### General Procedure
+
+1.  **Set the Equation to Zero:** Move all terms to one side so the equation takes the form $f(\theta) = 0$.
+2.  **Look for Factoring Patterns:**
+    * **Greatest Common Factor (GCF):** e.g., $2\sin^2 \theta - \sin \theta = 0 \implies \sin \theta(2\sin \theta - 1) = 0$.
+    * **Trinomials (Quadratic Form):** e.g., $2\cos^2 \theta + \cos \theta - 1 = 0 \implies (2\cos \theta - 1)(\cos \theta + 1) = 0$.
+    * **Difference of Squares:** e.g., $\sin^2 \theta - 1 = 0 \implies (\sin \theta - 1)(\sin \theta + 1) = 0$.
+3.  **Zero Product Property:** Set each individual factor equal to zero.
+4.  **Solve the Linear Equations:** Determine the angles for each factor using the unit circle and quadrant rules.
+5.  **Check for Extraneous Solutions:** Ensure the values are within the required interval (usually $[0, 2\pi)$).
+
+---
+
+#### Example: Factoring a Trinomial
+
+**Equation:** $2\sin^2 \theta - 3\sin \theta + 1 = 0$ over $[0, 360^\circ)$
+
+1.  **Factor as a Quadratic:**
+    $(2\sin \theta - 1)(\sin \theta - 1) = 0$
+2.  **Set Factors to Zero:**
+    * $2\sin \theta - 1 = 0 \implies \sin \theta = \frac{1}{2}$
+    * $\sin \theta - 1 = 0 \implies \sin \theta = 1$
+3.  **Find Angles:**
+    * For $\sin \theta = \frac{1}{2}$: $\theta = 30^\circ, 150^\circ$
+    * For $\sin \theta = 1$: $\theta = 90^\circ$
+4.  **Final Solution Set:**
+    $\theta = \{30^\circ, 90^\circ, 150^\circ\}$
+
+---
+
+#### Strategies for Complex Factoring
+
+| Scenario | Action |
+| :--- | :--- |
+| **Mixed Functions** | Use Pythagorean identities (e.g., $\sin^2 \theta = 1 - \cos^2 \theta$) to ensure all terms use the same function before factoring. |
+| **Four Terms** | Attempt **factoring by grouping**. For example, group the first two terms and the last two terms to find a common binomial factor. |
+| **Substitution** | If the structure is confusing, replace the function with $u$ (e.g., let $u = \tan \theta$). Solve for $u$, then substitute back. |
+
+---
