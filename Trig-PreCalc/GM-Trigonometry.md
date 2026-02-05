@@ -5347,3 +5347,42 @@ Set each factor equal to zero:
 #### Final Answer
 > [!success] Solution Set
 > $\beta = \{30^\circ, 150^\circ, 270^\circ\}$
+### $\tan^2 \beta + \tan \beta - 2 = 0$
+
+This equation is in quadratic form. We can solve it by factoring the trigonometric expression directly and then finding the corresponding angles on the unit circle.
+
+---
+
+#### 1. Factor the Quadratic Expression
+We look for two numbers that multiply to $-2$ and add to $+1$. These numbers are $+2$ and $-1$.
+$$(\tan \beta + 2)(\tan \beta - 1) = 0$$
+
+#### 2. Apply the Zero Product Property
+Set each factor equal to zero to solve for $\tan \beta$:
+
+* **Factor 1:**
+    $$\tan \beta + 2 = 0 \implies \tan \beta = -2$$
+* **Factor 2:**
+    $$\tan \beta - 1 = 0 \implies \tan \beta = 1$$
+
+#### 3. Determine the Angles ($0^\circ \le \beta < 360^\circ$)
+
+**Case 1: $\tan \beta = 1$**
+Tangent is positive in **Quadrant I** and **Quadrant III**.
+* **Reference Angle:** $\beta' = \arctan(1) = 45^\circ$
+* **QI:** $\beta = 45^\circ$
+* **QIII:** $180^\circ + 45^\circ = 225^\circ$
+
+
+**Case 2: $\tan \beta = -2$**
+Tangent is negative in **Quadrant II** and **Quadrant IV**. Since $-2$ is not a standard unit circle value, we use a calculator:
+* **Reference Angle:** $\beta' = \arctan(2) \approx 63.4^\circ$
+* **QII:** $180^\circ - 63.4^\circ = 116.6^\circ$
+* **QIV:** $360^\circ - 63.4^\circ = 296.6^\circ$
+
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\beta \approx \{45^\circ, 116.6^\circ, 225^\circ, 296.6^\circ\}$
