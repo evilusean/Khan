@@ -5386,3 +5386,50 @@ Tangent is negative in **Quadrant II** and **Quadrant IV**. Since $-2$ is not a 
 #### Final Answer
 > [!success] Solution Set
 > $\beta \approx \{45^\circ, 116.6^\circ, 225^\circ, 296.6^\circ\}$
+### $\cos \beta \cot \beta = \cos \beta$
+
+To solve this equation, we use factoring. A common mistake is to divide both sides by $\cos \beta$; however, doing so could cause us to lose potential solutions where $\cos \beta = 0$.
+
+---
+
+#### 1. Set the Equation to Zero
+Move all terms to one side of the equals sign:
+$$\cos \beta \cot \beta - \cos \beta = 0$$
+
+#### 2. Factor Out the Greatest Common Factor (GCF)
+Both terms contain $\cos \beta$. Factor it out:
+$$\cos \beta (\cot \beta - 1) = 0$$
+
+#### 3. Apply the Zero Product Property
+Set each individual factor equal to zero:
+
+* **Factor 1:**
+    $$\cos \beta = 0$$
+* **Factor 2:**
+    $$\cot \beta - 1 = 0 \implies \cot \beta = 1$$
+
+#### 4. Determine the Angles ($0^\circ \le \beta < 360^\circ$)
+
+**Case 1: $\cos \beta = 0$**
+On the unit circle, the $x$-coordinate is $0$ at the top and bottom.
+* $\beta = 90^\circ$
+* $\beta = 270^\circ$
+
+**Case 2: $\cot \beta = 1$**
+Since $\cot \beta = \frac{1}{\tan \beta}$, this is equivalent to $\tan \beta = 1$.
+Tangent (and cotangent) is positive in **Quadrant I** and **Quadrant III**.
+* **Reference Angle:** $45^\circ$
+* **QI:** $\beta = 45^\circ$
+* **QIII:** $180^\circ + 45^\circ = 225^\circ$
+
+
+---
+
+#### 5. Verify Domain Restrictions
+The function $\cot \beta$ is undefined when $\sin \beta = 0$ (at $0^\circ$ and $180^\circ$). Since none of our solutions are $0^\circ$ or $180^\circ$, all solutions are valid.
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\beta = \{45^\circ, 90^\circ, 225^\circ, 270^\circ\}$
