@@ -5302,3 +5302,48 @@ Now, replace $u$ with $\cos \theta$ to solve for the angles:
 #### Final Answer
 > [!success] Solution Set for $[0, 360^\circ)$
 > $\theta = \{120^\circ, 180^\circ, 240^\circ\}$
+### $4 = \sin \beta + 2\sin^2 \beta + 3$
+
+This quadratic-form trigonometric equation can be solved by rearranging the terms and factoring the trigonometric functions directly.
+
+---
+
+#### 1. Rearrange into Standard Quadratic Form
+Move all terms to one side to set the equation to zero:
+* Subtract 4 from both sides:
+  $$0 = 2\sin^2 \beta + \sin \beta - 1$$
+
+#### 2. Factor Directly
+We factor the expression $2\sin^2 \beta + \sin \beta - 1$ similarly to how we would factor a standard trinomial ($2x^2 + x - 1$):
+$$(2\sin \beta - 1)(\sin \beta + 1) = 0$$
+
+#### 3. Apply the Zero Product Property
+Set each factor equal to zero:
+
+* **Factor 1:**
+    $$2\sin \beta - 1 = 0 \implies \sin \beta = \frac{1}{2}$$
+* **Factor 2:**
+    $$\sin \beta + 1 = 0 \implies \sin \beta = -1$$
+
+#### 4. Determine the Angles ($0^\circ \le \beta < 360^\circ$)
+
+**For $\sin \beta = \frac{1}{2}$:**
+* Sine is positive in **Quadrant I** and **Quadrant II**.
+* Reference angle: $30^\circ$
+* **QI:** $\beta = 30^\circ$
+* **QII:** $180^\circ - 30^\circ = 150^\circ$
+
+
+
+**For $\sin \beta = -1$:**
+* Sine represents the $y$-coordinate on the unit circle.
+* The $y$-coordinate is $-1$ only at the very bottom of the circle.
+* **Angle:** $\beta = 270^\circ$
+
+
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\beta = \{30^\circ, 150^\circ, 270^\circ\}$
