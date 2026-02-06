@@ -5489,3 +5489,37 @@ This is a "last resort" technique used when you have two different functions tha
 | Multi-angle arguments (e.g., $\cos(2\theta)$) | **Double-Angle Identities** or Interval Adjustment |
 
 ---
+### $4 \sin^2 \beta - 1 = 0$
+
+$4 \sin^2 \beta - 1 = 0$ 
+
+This equation can be solved using the **Square Root Method**, as it involves a single squared trigonometric function and a constant.
+
+---
+
+#### 1. Isolate the Squared Function
+* **Add 1 to both sides:**
+    $$4 \sin^2 \beta = 1$$
+* **Divide by 4:**
+    $$\sin^2 \beta = \frac{1}{4}$$
+
+#### 2. Take the Square Root of Both Sides
+Remember to include both the **positive and negative** roots:
+$$\sin \beta = \pm\sqrt{\frac{1}{4}}$$
+$$\sin \beta = \pm\frac{1}{2}$$
+
+#### 3. Determine the Angles ($0^\circ \le \beta < 360^\circ$)
+Since we are looking for both $\sin \beta = \frac{1}{2}$ and $\sin \beta = -\frac{1}{2}$, we will have solutions in all four quadrants.
+
+* **Reference Angle:** $\beta' = \arcsin\left(\frac{1}{2}\right) = 30^\circ$
+* **Quadrant I:** $\beta = 30^\circ$
+* **Quadrant II:** $180^\circ - 30^\circ = 150^\circ$
+* **Quadrant III:** $180^\circ + 30^\circ = 210^\circ$
+* **Quadrant IV:** $360^\circ - 30^\circ = 330^\circ$
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\beta = \{30^\circ, 150^\circ, 210^\circ, 330^\circ\}$
+> *(or $\{ \frac{\pi}{6}, \frac{5\pi}{6}, \frac{7\pi}{6}, \frac{11\pi}{6} \}$ in radians)*
