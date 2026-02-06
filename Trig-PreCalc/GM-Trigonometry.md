@@ -5653,3 +5653,47 @@ Instead of using complex radical identities, it is often easier to solve for the
 | **Squaring Both Sides** | When using the radical versions of the identities (always check for extraneous solutions). |
 
 ---
+### $\sin(\beta/2) = \sqrt{2} - \sin(\beta/2)$
+
+$\sin(\beta/2) = \sqrt{2} - \sin(\beta/2)$
+
+This equation involves a half-angle argument. We will solve it by first isolating the trigonometric function and then adjusting the solution interval.
+
+---
+
+#### 1. Isolate the Sine Function
+Treat $\sin(\beta/2)$ as a single variable and group the terms:
+* **Add $\sin(\beta/2)$ to both sides:**
+    $$2\sin(\beta/2) = \sqrt{2}$$
+* **Divide by 2:**
+    $$\sin(\beta/2) = \frac{\sqrt{2}}{2}$$
+
+---
+
+#### 2. Adjust the Interval
+The problem specifies the interval $0 \le \beta < 2\pi$. Since the argument of our function is $\beta/2$, we must find the corresponding interval for the half-angle:
+* Divide the entire interval by 2:
+    $$0 \le \frac{\beta}{2} < \pi$$
+We are looking for all values where the sine is $\frac{\sqrt{2}}{2}$ between $0$ and $\pi$ (Quadrants I and II).
+
+---
+
+#### 3. Determine the Half-Angles
+On the unit circle, the sine value is $\frac{\sqrt{2}}{2}$ at:
+* **Quadrant I:** $\frac{\beta}{2} = \frac{\pi}{4}$ (or $45^\circ$)
+* **Quadrant II:** $\frac{\beta}{2} = \frac{3\pi}{4}$ (or $135^\circ$)
+
+
+---
+
+#### 4. Solve for $\beta$
+Multiply each half-angle result by 2 to find the final values for $\beta$:
+* **Solution 1:** $$\beta = 2 \times \frac{\pi}{4} = \frac{\pi}{2}$$
+* **Solution 2:** $$\beta = 2 \times \frac{3\pi}{4} = \frac{3\pi}{2}$$
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\beta = \{ \frac{\pi}{2}, \frac{3\pi}{2} \}$
+> *(or $\{90^\circ, 270^\circ\}$)*
