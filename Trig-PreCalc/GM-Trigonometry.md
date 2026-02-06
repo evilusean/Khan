@@ -5602,3 +5602,4 @@ Because we squared both sides, we must test each potential solution in the **ori
 > [!success] Solution Set
 > $\theta = \{150^\circ, 330^\circ\}$
 ## 2026-February-06 - Solving Trigonometric Equations with Half-Angles :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=12h4m30s
