@@ -5558,3 +5558,46 @@ On the unit circle, the sine (y-coordinate) is exactly $1$ at the top of the cir
 #### Final Answer
 > [!success] Solution Set for $[0^\circ, 360^\circ)$
 > $\beta = \{90^\circ\}$
+### $-\cos \theta = \sqrt{3} \sin \theta$
+
+$-\cos \theta = \sqrt{3} \sin \theta$
+
+We can solve this equation using the identity $\cos^2 \theta = 1 - \sin^2 \theta$. This requires squaring both sides of the equation, which can introduce extraneous solutions that must be checked at the end.
+
+---
+
+#### 1. Square Both Sides
+To generate the squared terms needed for the identity, square both sides of the equation:
+$$(-\cos \theta)^2 = (\sqrt{3} \sin \theta)^2$$
+$$\cos^2 \theta = 3 \sin^2 \theta$$
+
+#### 2. Apply the Identity
+Substitute $\cos^2 \theta$ with $1 - \sin^2 \theta$ to create an equation entirely in terms of sine:
+$$1 - \sin^2 \theta = 3 \sin^2 \theta$$
+
+#### 3. Solve for $\sin \theta$
+* **Group the sine terms:**
+  $$1 = 4 \sin^2 \theta$$
+* **Divide by 4:**
+  $$\sin^2 \theta = \frac{1}{4}$$
+* **Take the square root:**
+  $$\sin \theta = \pm \sqrt{\frac{1}{4}} = \pm \frac{1}{2}$$
+
+#### 4. Find Potential Angles ($0^\circ \le \theta < 360^\circ$)
+Identify all angles where the sine is either $+\frac{1}{2}$ or $-\frac{1}{2}$:
+* **From $\sin \theta = \frac{1}{2}$:** $\theta = 30^\circ, 150^\circ$
+* **From $\sin \theta = -\frac{1}{2}$:** $\theta = 210^\circ, 330^\circ$
+
+#### 5. Check for Extraneous Solutions
+Because we squared both sides, we must test each potential solution in the **original equation** $-\cos \theta = \sqrt{3} \sin \theta$:
+
+* **Test $30^\circ$:** $-\cos(30^\circ) = -\frac{\sqrt{3}}{2}$ vs $\sqrt{3} \sin(30^\circ) = \frac{\sqrt{3}}{2}$. **(No)**
+* **Test $150^\circ$:** $-\cos(150^\circ) = -(-\frac{\sqrt{3}}{2}) = \frac{\sqrt{3}}{2}$ vs $\sqrt{3} \sin(150^\circ) = \frac{\sqrt{3}}{2}$. **(Yes)**
+* **Test $210^\circ$:** $-\cos(210^\circ) = -(-\frac{\sqrt{3}}{2}) = \frac{\sqrt{3}}{2}$ vs $\sqrt{3} \sin(210^\circ) = -\frac{\sqrt{3}}{2}$. **(No)**
+* **Test $330^\circ$:** $-\cos(330^\circ) = -\frac{\sqrt{3}}{2}$ vs $\sqrt{3} \sin(330^\circ) = -\frac{\sqrt{3}}{2}$. **(Yes)**
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\theta = \{150^\circ, 330^\circ\}$
