@@ -5751,6 +5751,8 @@ Since we squared the equation, we must check these in the original: $-\cos \thet
 > *(or $\{ \frac{\pi}{3}, \pi, \frac{5\pi}{3} \}$)*
 ### $\sqrt{3} \cos(\theta/2) = 1 + \cos \theta$
 
+$\sqrt{3} \cos(\theta/2) = 1 + \cos \theta$
+
 To solve this equation using your preferred method, we will substitute the half-angle identity for cosine and then solve the resulting quadratic equation.
 
 ---
