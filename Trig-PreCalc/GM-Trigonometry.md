@@ -5523,3 +5523,38 @@ Since we are looking for both $\sin \beta = \frac{1}{2}$ and $\sin \beta = -\fra
 > [!success] Solution Set
 > $\beta = \{30^\circ, 150^\circ, 210^\circ, 330^\circ\}$
 > *(or $\{ \frac{\pi}{6}, \frac{5\pi}{6}, \frac{7\pi}{6}, \frac{11\pi}{6} \}$ in radians)*
+### $-\cos^2 \beta - 2\sin \beta = -2$
+
+$-\cos^2 \beta - 2\sin \beta = -2$
+
+To solve this equation, we must first use a **Pythagorean Identity** to ensure the entire equation is written in terms of a single trigonometric function (sine).
+
+---
+
+#### 1. Use Identity Substitution
+Recall the identity $\cos^2 \beta = 1 - \sin^2 \beta$. Substitute this into the equation:
+$$-(1 - \sin^2 \beta) - 2\sin \beta = -2$$
+
+#### 2. Simplify and Set to Zero
+* **Distribute the negative sign:**
+  $$-1 + \sin^2 \beta - 2\sin \beta = -2$$
+* **Add 2 to both sides to create a quadratic form:**
+  $$\sin^2 \beta - 2\sin \beta + 1 = 0$$
+
+#### 3. Factor the Quadratic
+The expression $\sin^2 \beta - 2\sin \beta + 1$ is a perfect square trinomial:
+$$(\sin \beta - 1)^2 = 0$$
+
+#### 4. Solve for $\beta$
+Take the square root of both sides:
+$$\sin \beta - 1 = 0$$
+$$\sin \beta = 1$$
+
+On the unit circle, the sine (y-coordinate) is exactly $1$ at the top of the circle.
+* **Angle:** $\beta = 90^\circ$ (or $\frac{\pi}{2}$ radians)
+
+---
+
+#### Final Answer
+> [!success] Solution Set for $[0^\circ, 360^\circ)$
+> $\beta = \{90^\circ\}$
