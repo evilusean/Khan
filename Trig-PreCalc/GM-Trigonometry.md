@@ -5697,3 +5697,55 @@ Multiply each half-angle result by 2 to find the final values for $\beta$:
 > [!success] Solution Set
 > $\beta = \{ \frac{\pi}{2}, \frac{3\pi}{2} \}$
 > *(or $\{90^\circ, 270^\circ\}$)*
+### $-\cos \theta = -2 + 3 \sin(\theta/2)$ (Using Half-Angle Identity)
+
+$-\cos \theta = -2 + 3 \sin(\theta/2)$
+
+To solve this equation by converting the sine term into a cosine term, we use the half-angle identity for sine: $\sin(\theta/2) = \pm\sqrt{\frac{1 - \cos \theta}{2}}$. This method requires squaring both sides, so we must be careful to check for extraneous solutions at the end.
+
+---
+
+#### 1. Isolate the Half-Angle Term
+First, rearrange the equation to isolate the term with the half-angle:
+$$3 \sin(\theta/2) = 2 - \cos \theta$$
+$$\sin(\theta/2) = \frac{2 - \cos \theta}{3}$$
+
+#### 2. Substitute the Half-Angle Identity
+Replace $\sin(\theta/2)$ with its identity:
+$$\pm\sqrt{\frac{1 - \cos \theta}{2}} = \frac{2 - \cos \theta}{3}$$
+
+#### 3. Square Both Sides
+Squaring both sides removes the radical and the $\pm$ sign:
+$$\left(\sqrt{\frac{1 - \cos \theta}{2}}\right)^2 = \left(\frac{2 - \cos \theta}{3}\right)^2$$
+$$\frac{1 - \cos \theta}{2} = \frac{(2 - \cos \theta)^2}{9}$$
+
+#### 4. Solve the Resulting Quadratic Equation
+* **Cross-multiply to clear denominators:**
+  $$9(1 - \cos \theta) = 2(4 - 4\cos \theta + \cos^2 \theta)$$
+  $$9 - 9\cos \theta = 8 - 8\cos \theta + 2\cos^2 \theta$$
+
+* **Rearrange into standard form ($0 = ax^2 + bx + c$):**
+  $$0 = 2\cos^2 \theta + \cos \theta - 1$$
+
+* **Factor the quadratic:**
+  $$0 = (2\cos \theta - 1)(\cos \theta + 1)$$
+
+#### 5. Find Potential Angles ($0 \le \theta < 2\pi$)
+* **From $2\cos \theta - 1 = 0 \implies \cos \theta = 1/2$:**
+  $\theta = 60^\circ$ ($\pi/3$) and $\theta = 300^\circ$ ($5\pi/3$)
+* **From $\cos \theta + 1 = 0 \implies \cos \theta = -1$:**
+  $\theta = 180^\circ$ ($\pi$)
+
+#### 6. Verify and Check for Extraneous Solutions
+Since we squared the equation, we must check these in the original: $-\cos \theta = -2 + 3 \sin(\theta/2)$.
+
+* **Check $60^\circ$:** $-\cos(60^\circ) = -0.5$. Right side: $-2 + 3\sin(30^\circ) = -2 + 1.5 = -0.5$. **(Valid)**
+* **Check $180^\circ$:** $-\cos(180^\circ) = -(-1) = 1$. Right side: $-2 + 3\sin(90^\circ) = -2 + 3 = 1$. **(Valid)**
+* **Check $300^\circ$:** $-\cos(300^\circ) = -0.5$. Right side: $-2 + 3\sin(150^\circ) = -2 + 1.5 = -0.5$. **(Valid)**
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\theta = \{60^\circ, 180^\circ, 300^\circ\}$
+> *(or $\{ \frac{\pi}{3}, \pi, \frac{5\pi}{3} \}$)*
