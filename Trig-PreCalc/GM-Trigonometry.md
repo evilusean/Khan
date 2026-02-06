@@ -5749,3 +5749,51 @@ Since we squared the equation, we must check these in the original: $-\cos \thet
 > [!success] Solution Set
 > $\theta = \{60^\circ, 180^\circ, 300^\circ\}$
 > *(or $\{ \frac{\pi}{3}, \pi, \frac{5\pi}{3} \}$)*
+### $\sqrt{3} \cos(\theta/2) = 1 + \cos \theta$
+
+To solve this equation using your preferred method, we will substitute the half-angle identity for cosine and then solve the resulting quadratic equation.
+
+---
+
+#### 1. Substitute the Half-Angle Identity
+Replace $\cos(\theta/2)$ with $\pm\sqrt{\frac{1 + \cos \theta}{2}}$:
+$$\sqrt{3} \left( \pm\sqrt{\frac{1 + \cos \theta}{2}} \right) = 1 + \cos \theta$$
+
+#### 2. Square Both Sides
+Squaring both sides removes the radical and the $\pm$ sign. **Note:** This step can introduce extraneous solutions, which we will check at the end.
+$$\left( \sqrt{3} \right)^2 \left( \sqrt{\frac{1 + \cos \theta}{2}} \right)^2 = (1 + \cos \theta)^2$$
+$$3 \left( \frac{1 + \cos \theta}{2} \right) = (1 + \cos \theta)^2$$
+
+#### 3. Simplify and Solve for $\cos \theta$
+* **Clear the fraction by multiplying by 2:**
+  $$3(1 + \cos \theta) = 2(1 + \cos \theta)^2$$
+* **Expand the right side:**
+  $$3 + 3\cos \theta = 2(1 + 2\cos \theta + \cos^2 \theta)$$
+  $$3 + 3\cos \theta = 2 + 4\cos \theta + 2\cos^2 \theta$$
+* **Set the equation to zero:**
+  $$0 = 2\cos^2 \theta + \cos \theta - 1$$
+* **Factor the quadratic:**
+  $$0 = (2\cos \theta - 1)(\cos \theta + 1)$$
+
+#### 4. Find Potential Angles ($0 \le \theta < 2\pi$)
+* **Set $2\cos \theta - 1 = 0 \implies \cos \theta = 1/2$:**
+  $\theta = 60^\circ$ ($\frac{\pi}{3}$) and $\theta = 300^\circ$ ($\frac{5\pi}{3}$)
+* **Set $\cos \theta + 1 = 0 \implies \cos \theta = -1$:**
+  $\theta = 180^\circ$ ($\pi$)
+
+#### 5. Verify and Check for Extraneous Solutions
+We must test these in the original equation: $\sqrt{3} \cos(\theta/2) = 1 + \cos \theta$.
+
+* **Test $60^\circ$:** LHS: $\sqrt{3} \cos(30^\circ) = \sqrt{3}(\frac{\sqrt{3}}{2}) = 1.5$
+  RHS: $1 + \cos(60^\circ) = 1 + 0.5 = 1.5$. **(Valid)**
+* **Test $180^\circ$:** LHS: $\sqrt{3} \cos(90^\circ) = \sqrt{3}(0) = 0$
+  RHS: $1 + \cos(180^\circ) = 1 + (-1) = 0$. **(Valid)**
+* **Test $300^\circ$:** LHS: $\sqrt{3} \cos(150^\circ) = \sqrt{3}(-\frac{\sqrt{3}}{2}) = -1.5$
+  RHS: $1 + \cos(300^\circ) = 1 + 0.5 = 1.5$. **(Extraneous - Does not match)**
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\theta = \{60^\circ, 180^\circ\}$ 
+> *(or $\{ \frac{\pi}{3}, \pi \}$)*
