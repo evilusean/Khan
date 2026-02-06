@@ -5435,3 +5435,57 @@ The function $\cot \beta$ is undefined when $\sin \beta = 0$ (at $0^\circ$ and $
 > $\beta = \{45^\circ, 90^\circ, 225^\circ, 270^\circ\}$
 ## 2026-Feburary-05 - Solving Triogonmetric Equations Using Square Roots, Squaring and Identities : 
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=11h44m20s
+### Solving Trigonometric Equations: Square Roots, Squaring, and Identities
+
+When trigonometric equations involve squared terms or mismatched functions, advanced algebraic techniques and identities are required to reduce them to solvable linear forms.
+
+---
+
+#### 1. The Square Root Method
+This method is used when the equation contains a single squared trigonometric function and a constant.
+
+* **Process:** Isolate the squared function and take the square root of both sides.
+* **Crucial Step:** Always include the **plus-or-minus ($\pm$)** sign when taking the square root. This often doubles the number of solutions as it accounts for multiple quadrants.
+* **Example:**
+    $$\tan^2 \theta - 3 = 0$$
+    $$\tan^2 \theta = 3$$
+    $$\tan \theta = \pm\sqrt{3}$$
+    *Solutions exist in all four quadrants where the reference angle is $60^\circ$.*
+
+
+
+---
+
+#### 2. Using Pythagorean Identities
+If an equation contains two different trigonometric functions (e.g., $\sin^2 \theta$ and $\cos \theta$), use identities to convert the entire equation into a single function.
+
+* **Core Identities:**
+    * $\sin^2 \theta + \cos^2 \theta = 1$
+    * $1 + \tan^2 \theta = \sec^2 \theta$
+    * $1 + \cot^2 \theta = \csc^2 \theta$
+* **Process:** Replace the squared term. For example, replace $\sin^2 \theta$ with $(1 - \cos^2 \theta)$ to create a quadratic equation entirely in terms of cosine.
+
+---
+
+#### 3. The Squaring Method
+This is a "last resort" technique used when you have two different functions that are not squared (e.g., $\sin \theta + \cos \theta = 1$).
+
+* **Process:**
+    1.  Isolate one trigonometric function on one side.
+    2.  Square both sides of the equation.
+    3.  Use a Pythagorean identity to convert to a single function.
+    4.  Solve the resulting equation.
+* **⚠️ Warning:** Squaring both sides can introduce **extraneous solutions** (answers that satisfy the squared equation but not the original one). You **must** check every solution in the original equation.
+
+---
+
+#### Summary Strategy Table
+
+| Equation Type | Recommended Method |
+| :--- | :--- |
+| Single squared term (e.g., $\cos^2 \theta = \frac{1}{4}$) | **Square Root Method** (Don't forget $\pm$) |
+| Mixed functions with one squared (e.g., $\sin^2 \theta + \cos \theta = 0$) | **Pythagorean Identity** substitution |
+| Mixed functions, no squares (e.g., $\sec \theta + \tan \theta = 1$) | **Squaring Both Sides** (Check for extraneous solutions) |
+| Multi-angle arguments (e.g., $\cos(2\theta)$) | **Double-Angle Identities** or Interval Adjustment |
+
+---
