@@ -5603,3 +5603,53 @@ Because we squared both sides, we must test each potential solution in the **ori
 > $\theta = \{150^\circ, 330^\circ\}$
 ## 2026-February-06 - Solving Trigonometric Equations with Half-Angles :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=12h4m30s
+### Solving Trigonometric Equations with Half-Angles
+
+Half-angle equations involve trigonometric functions where the argument is $\frac{\theta}{2}$. These equations are typically solved by using identities to simplify the argument or by adjusting the interval of the solution set.
+
+---
+
+#### 1. The Half-Angle Identities
+The primary goal is often to replace the half-angle term with an expression involving a single angle ($\theta$).
+
+* **Sine:** $\sin\left(\frac{\theta}{2}\right) = \pm\sqrt{\frac{1 - \cos \theta}{2}}$
+* **Cosine:** $\cos\left(\frac{\theta}{2}\right) = \pm\sqrt{\frac{1 + \cos \theta}{2}}$
+* **Tangent:** * $\tan\left(\frac{\theta}{2}\right) = \pm\sqrt{\frac{1 - \cos \theta}{1 + \cos \theta}}$
+    * $\tan\left(\frac{\theta}{2}\right) = \frac{1 - \cos \theta}{\sin \theta}$
+    * $\tan\left(\frac{\theta}{2}\right) = \frac{\sin \theta}{1 + \cos \theta}$
+
+---
+
+#### 2. Strategy: Interval Adjustment
+Instead of using complex radical identities, it is often easier to solve for the half-angle directly and then adjust the range.
+
+1.  **Isolate the function:** Solve for $\sin(\frac{\theta}{2})$, $\cos(\frac{\theta}{2})$, etc.
+2.  **Adjust the Interval:** If the original interval for $\theta$ is $[0, 2\pi)$, then the interval for the argument $\frac{\theta}{2}$ becomes $[0, \pi)$.
+3.  **Find the Half-Angle:** Find all values for $\frac{\theta}{2}$ within the adjusted interval.
+4.  **Solve for $\theta$:** Multiply the resulting values by 2 to find the final solutions for $\theta$.
+
+---
+
+#### 3. Example Walkthrough
+**Equation:** $2\cos\left(\frac{\theta}{2}\right) - \sqrt{3} = 0$ for $[0, 2\pi)$
+
+1.  **Isolate the function:**
+    $$2\cos\left(\frac{\theta}{2}\right) = \sqrt{3} \implies \cos\left(\frac{\theta}{2}\right) = \frac{\sqrt{3}}{2}$$
+2.  **Adjust the Interval:** Since $0 \le \theta < 360^\circ$, we look for $\frac{\theta}{2}$ in the range $0 \le \frac{\theta}{2} < 180^\circ$.
+3.  **Solve for $\frac{\theta}{2}$:**
+    In the interval $[0, 180^\circ)$, $\cos(x) = \frac{\sqrt{3}}{2}$ only at $x = 30^\circ$.
+    $$\frac{\theta}{2} = 30^\circ$$
+4.  **Solve for $\theta$:**
+    $$\theta = 30^\circ \times 2 = 60^\circ$$
+
+---
+
+#### 4. Summary Table
+
+| Technique | When to Use |
+| :--- | :--- |
+| **Interval Adjustment** | When the equation is simple (one function, one constant). |
+| **Identity Substitution** | When the equation contains both $\theta$ and $\frac{\theta}{2}$ terms. |
+| **Squaring Both Sides** | When using the radical versions of the identities (always check for extraneous solutions). |
+
+---
