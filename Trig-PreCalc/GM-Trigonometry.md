@@ -5801,3 +5801,35 @@ We must test these in the original equation: $\sqrt{3} \cos(\theta/2) = 1 + \cos
 > *(or $\{ \frac{\pi}{3}, \pi \}$)*
 ## 2026-February-07 - Solving Trigonometric Equations with Multiple Angles :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=12h25m50s
+### Summary: Solving Trigonometric Equations with Multiple Angles
+
+Multiple-angle equations involve trigonometric functions where the argument is a multiple of the variable (e.g., $2\theta$, $3x$, $n\beta$). These require a specific approach to ensure no solutions are missed.
+
+---
+
+#### 1. The Core Strategy
+The primary goal is to solve for the **entire argument** first, then solve for the variable. Because the argument is multiplied, the period of the function is compressed, which usually leads to more solutions within the standard $[0, 2\pi)$ interval.
+
+#### 2. Adjusted Interval Method
+To find all solutions for $n\theta$ within the interval $0 \le \theta < 2\pi$:
+* **Multiply the interval:** If $0 \le \theta < 2\pi$, then $0 \le n\theta < n \cdot 2\pi$.
+* **Find all values:** Identify every angle on the unit circle that satisfies the equation within this expanded range ($n$ full rotations).
+* **Divide:** Divide each resulting angle by $n$ to isolate $\theta$
+#### 3. General Solution Method
+Alternatively, you can find the general solution and then plug in integers for $k$:
+1. Solve for the argument: $n\theta = \text{angle} + (\text{period})k$.
+2. Divide the entire expression (including the period) by $n$.
+3. Substitute $k = 0, 1, 2, \dots, n-1$ to find the specific solutions in the first rotation.
+
+#### 4. Comparison Table
+
+| Feature | Single Angle ($\theta$) | Multiple Angle ($2\theta$) |
+| :--- | :--- | :--- |
+| **Period of $\sin/\cos$** | $2\pi$ | $\pi$ |
+| **Number of Solutions** | Typically 2 | Typically 4 |
+| **Search Range** | $0$ to $2\pi$ | $0$ to $4\pi$ |
+
+---
+
+> [!tip] Common Mistake
+> Do **not** use double-angle identities (like $\sin 2\theta = 2\sin\theta\cos\theta$) unless the equation also contains single-angle terms. If the only variable is $2\theta$, the Adjusted Interval Method is much faster and less prone to error.
