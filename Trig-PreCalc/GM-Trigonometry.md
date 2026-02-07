@@ -5966,3 +5966,43 @@ $$\beta = 19\pi/12$$
 #### Final Answer
 > [!success] Solution Set for $[0, 2\pi)$
 > $\beta = \{ \frac{11\pi}{12}, \frac{19\pi}{12} \}$
+### $\cos(6x) = -\sin(4x) + \cos(2x)$
+
+$\cos(6x) = -\sin(4x) + \cos(2x)$
+
+To solve this equation for $x$ in the interval $[0, \pi)$, we will use the **Sum-to-Product identity** for cosine as requested.
+
+---
+
+#### 1. Rearrange the Equation
+Move the cosine terms to one side to facilitate the use of the Sum-to-Product identity:
+$$\cos(6x) - \cos(2x) = -\sin(4x)$$
+
+#### 2. Apply the Sum-to-Product Identity
+Using the identity $\cos A - \cos B = -2 \sin\left(\frac{A+B}{2}\right) \sin\left(\frac{A-B}{2}\right)$, let $A = 6x$ and $B = 2x$:
+$$-2 \sin\left(\frac{6x+2x}{2}\right) \sin\left(\frac{6x-2x}{2}\right) = -\sin(4x)$$
+$$-2 \sin(4x) \sin(2x) = -\sin(4x)$$
+
+#### 3. Set to Zero and Factor
+Do not divide by $\sin(4x)$, as you may lose solutions. Instead, add $\sin(4x)$ to both sides and factor:
+$$\sin(4x) - 2 \sin(4x) \sin(2x) = 0$$
+$$\sin(4x) \left[ 1 - 2 \sin(2x) \right] = 0$$
+
+#### 4. Solve for $x$ in the interval $[0, \pi)$
+
+**Case 1: $\sin(4x) = 0$**
+If $0 \le x < \pi$, then the argument $4x$ spans $[0, 4\pi)$.
+$$4x = 0, \pi, 2\pi, 3\pi$$
+$$x = 0, \frac{\pi}{4}, \frac{\pi}{2}, \frac{3\pi}{4}$$
+
+**Case 2: $1 - 2 \sin(2x) = 0 \implies \sin(2x) = 1/2$**
+If $0 \le x < \pi$, then the argument $2x$ spans $[0, 2\pi)$.
+* **Quadrant I:** $2x = \frac{\pi}{6} \implies x = \frac{\pi}{12}$
+* **Quadrant II:** $2x = \frac{5\pi}{6} \implies x = \frac{5\pi}{12}$
+
+
+---
+
+#### Final Answer
+> [!success] Solution Set for $[0, \pi)$
+> $x = \{ 0, \frac{\pi}{12}, \frac{\pi}{4}, \frac{5\pi}{12}, \frac{\pi}{2}, \frac{3\pi}{4} \}$
