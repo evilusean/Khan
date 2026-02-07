@@ -5833,3 +5833,46 @@ Alternatively, you can find the general solution and then plug in integers for $
 
 > [!tip] Common Mistake
 > Do **not** use double-angle identities (like $\sin 2\theta = 2\sin\theta\cos\theta$) unless the equation also contains single-angle terms. If the only variable is $2\theta$, the Adjusted Interval Method is much faster and less prone to error.
+### $\cos 2\beta = -10\cos^2 \beta + 8$
+
+$\cos 2\beta = -10\cos^2 \beta + 8$
+
+To solve this equation for $\beta$ in the interval $[0, 2\pi)$, we will use the double-angle identity for cosine to create a single-variable quadratic equation.
+
+---
+
+#### 1. Apply the Identity
+Substitute $\cos 2\beta$ with the identity $2\cos^2 \beta - 1$:
+$$2\cos^2 \beta - 1 = -10\cos^2 \beta + 8$$
+
+#### 2. Isolate the $\cos^2 \beta$ Term
+* **Add $10\cos^2 \beta$ to both sides:**
+  $$12\cos^2 \beta - 1 = 8$$
+* **Add 1 to both sides:**
+  $$12\cos^2 \beta = 9$$
+* **Divide by 12:**
+  $$\cos^2 \beta = \frac{9}{12}$$
+* **Simplify the fraction:**
+  $$\cos^2 \beta = \frac{3}{4}$$
+
+#### 3. Use the Square Root Method
+Take the square root of both sides, remembering to include the **plus-or-minus ($\pm$)** sign:
+$$\cos \beta = \pm\sqrt{\frac{3}{4}}$$
+$$\cos \beta = \pm\frac{\sqrt{3}}{2}$$
+
+#### 4. Determine the Angles ($0 \le \beta < 2\pi$)
+Since we have both positive and negative values, we are looking for the reference angle in all four quadrants of the unit circle.
+
+* **Reference Angle:** $\beta' = \arccos\left(\frac{\sqrt{3}}{2}\right) = 30^\circ$ (or $\frac{\pi}{6}$)
+* **Quadrant I:** $\beta = \frac{\pi}{6}$
+* **Quadrant II:** $\pi - \frac{\pi}{6} = \frac{5\pi}{6}$
+* **Quadrant III:** $\pi + \frac{\pi}{6} = \frac{7\pi}{6}$
+* **Quadrant IV:** $2\pi - \frac{\pi}{6} = \frac{11\pi}{6}$
+
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\beta = \{ \frac{\pi}{6}, \frac{5\pi}{6}, \frac{7\pi}{6}, \frac{11\pi}{6} \}$
+> *(or $\{30^\circ, 150^\circ, 210^\circ, 330^\circ\}$)*
