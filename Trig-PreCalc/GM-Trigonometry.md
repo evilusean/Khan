@@ -5922,3 +5922,47 @@ Divide each result by 2 to find the final values:
 > [!success] Solution Set
 > $\beta = \{ \frac{\pi}{6}, \frac{\pi}{3}, \frac{7\pi}{6}, \frac{4\pi}{3} \}$
 > *(or $\{30^\circ, 60^\circ, 210^\circ, 240^\circ\}$)*
+### $-9/2 = -4 + \cos(\beta + 7\pi/4)$
+
+$-9/2 = -4 + \cos(\beta + 7\pi/4)$
+
+This equation involves a horizontal shift within the cosine function. We will solve it by isolating the trigonometric term and then adjusting the angle based on the unit circle.
+
+---
+
+#### 1. Isolate the Cosine Function
+Add 4 to both sides of the equation. Note that $4$ is equivalent to $8/2$:
+$$-9/2 + 8/2 = \cos(\beta + 7\pi/4)$$
+$$-1/2 = \cos(\beta + 7\pi/4)$$
+
+#### 2. Solve for the Argument
+Let $X = \beta + 7\pi/4$. We are looking for values where $\cos(X) = -1/2$.
+Cosine is negative in **Quadrant II** and **Quadrant III**.
+* **Reference Angle:** $\pi/3$ (or $60^\circ$)
+* **Quadrant II:** $X = \pi - \pi/3 = 2\pi/3$
+* **Quadrant III:** $X = \pi + \pi/3 = 4\pi/3$
+
+#### 3. Solve for $\beta$
+Now, set the argument back to $\beta + 7\pi/4$ and solve for $\beta$ by subtracting $7\pi/4$ from each solution.
+
+**Case 1:**
+$$\beta + 7\pi/4 = 2\pi/3$$
+$$\beta = 2\pi/3 - 7\pi/4$$
+*Find a common denominator (12):*
+$$\beta = 8\pi/12 - 21\pi/12 = -13\pi/12$$
+Since this is negative, add $2\pi$ ($24\pi/12$) to find the coterminal angle in the interval $[0, 2\pi)$:
+$$\beta = 11\pi/12$$
+
+**Case 2:**
+$$\beta + 7\pi/4 = 4\pi/3$$
+$$\beta = 4\pi/3 - 7\pi/4$$
+*Find a common denominator (12):*
+$$\beta = 16\pi/12 - 21\pi/12 = -5\pi/12$$
+Add $2\pi$ ($24\pi/12$) to bring it into the interval:
+$$\beta = 19\pi/12$$
+
+---
+
+#### Final Answer
+> [!success] Solution Set for $[0, 2\pi)$
+> $\beta = \{ \frac{11\pi}{12}, \frac{19\pi}{12} \}$
