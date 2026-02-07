@@ -5876,3 +5876,49 @@ Since we have both positive and negative values, we are looking for the referenc
 > [!success] Solution Set
 > $\beta = \{ \frac{\pi}{6}, \frac{5\pi}{6}, \frac{7\pi}{6}, \frac{11\pi}{6} \}$
 > *(or $\{30^\circ, 150^\circ, 210^\circ, 330^\circ\}$)*
+### $4 \sin \beta \cos \beta = \sqrt{3}$
+
+$4 \sin \beta \cos \beta = \sqrt{3}$
+
+To solve this equation for $\beta$ in the interval $[0, 2\pi)$, we use the double-angle identity for sine to simplify the two trigonometric functions into one.
+
+---
+
+#### 1. Apply the Double-Angle Identity
+Recall the identity: $\sin 2\theta = 2 \sin \theta \cos \theta$.
+We can rewrite the left side of the equation to match this form:
+$$2(2 \sin \beta \cos \beta) = \sqrt{3}$$
+$$2 \sin 2\beta = \sqrt{3}$$
+
+#### 2. Isolate the Sine Function
+Divide both sides by 2:
+$$\sin 2\beta = \frac{\sqrt{3}}{2}$$
+
+#### 3. Adjust the Interval for the Multiple Angle
+Since we are solving for $2\beta$ but the interval for $\beta$ is $[0, 2\pi)$, we must look for solutions for $2\beta$ in the expanded range:
+$$0 \le 2\beta < 4\pi$$
+This means we will look for solutions through **two full rotations** of the unit circle.
+
+#### 4. Solve for $2\beta$
+Sine is positive $\frac{\sqrt{3}}{2}$ in Quadrants I and II.
+* **First Rotation:**
+  * $2\beta = \frac{\pi}{3}$
+  * $2\beta = \frac{2\pi}{3}$
+* **Second Rotation (add $2\pi$ to the values above):**
+  * $2\beta = \frac{\pi}{3} + \frac{6\pi}{3} = \frac{7\pi}{3}$
+  * $2\beta = \frac{2\pi}{3} + \frac{6\pi}{3} = \frac{8\pi}{3}$
+
+
+#### 5. Solve for $\beta$
+Divide each result by 2 to find the final values:
+* $\beta = \frac{\pi}{6}$
+* $\beta = \frac{\pi}{3}$
+* $\beta = \frac{7\pi}{6}$
+* $\beta = \frac{4\pi}{3}$
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $\beta = \{ \frac{\pi}{6}, \frac{\pi}{3}, \frac{7\pi}{6}, \frac{4\pi}{3} \}$
+> *(or $\{30^\circ, 60^\circ, 210^\circ, 240^\circ\}$)*
