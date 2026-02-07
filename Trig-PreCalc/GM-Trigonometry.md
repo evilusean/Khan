@@ -5800,3 +5800,4 @@ We must test these in the original equation: $\sqrt{3} \cos(\theta/2) = 1 + \cos
 > $\theta = \{60^\circ, 180^\circ\}$ 
 > *(or $\{ \frac{\pi}{3}, \pi \}$)*
 ## 2026-February-07 - Solving Trigonometric Equations with Multiple Angles :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=12h25m50s
