@@ -6008,6 +6008,17 @@ If $0 \le x < \pi$, then the argument $2x$ spans $[0, 2\pi)$.
 > $x = \{ 0, \frac{\pi}{12}, \frac{\pi}{4}, \frac{5\pi}{12}, \frac{\pi}{2}, \frac{3\pi}{4} \}$
 ## 2026-February-09 - Solving Trigonometric Equations with Inverse Trigonometric Functions :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=13h1m10s
+- Let f be a one-to-one function:
+- $f(f^{-1}(x)) =x$, for every x in the domain of $f^{-1}$
+- $f^{-1}(f(x)) = x$, for every x in the domain of f
+- If an equation passes both the *Vertical Line Test* and the *Horizontal Line Test* it is a function and can be inveresed (one x to one y, and one y to one x)
+- $f^{-1}$ is not an exponent, it is an inverse function of 'f'
+- To generate an inverse : Swap 'x' and 'y' so the domain becomes the range, and the range becomes the domain
+- In the 2 functions above, you are taking the inverse of one as an argument and it will return the same value (if you input '2' instead of 'x' it will return '2')
+- Graph of y = sin(x) :
+- $$y = \sin(x), -\frac{\pi}{2} \le x \le \frac{\pi}{2}$$ $$\text{Domain}: \left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$$ $$\text{Range}: [-1, 1]$$
+- since a graph of sin(x) would fail the horizontal line test we take only a segment of it *Imposing a Domain Restriction* Vs Jujutsu Kaisen
+- 
 ### Solving Trigonometric Equations with Inverse Functions
 
 When a trigonometric equation results in a value that is not found on the standard unit circle (e.g., $\sin \theta = 0.4$), we must use **Inverse Trigonometric Functions** to find the solutions.
