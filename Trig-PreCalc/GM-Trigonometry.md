@@ -6106,3 +6106,34 @@ If you prefer to solve it without the property:
 > $$\cos^{-1}\left(\cos \frac{\pi}{6}\right) = \frac{\pi}{6}$$
 
 ---
+### $\cos^{-1}\left(\cos \frac{5\pi}{4}\right)$
+
+This problem requires evaluating the composition of an inverse trigonometric function with its corresponding function when the inner angle lies **outside** the principal domain.
+
+---
+
+#### 1. Analyze the Principle Domain
+The identity $\cos^{-1}(\cos x) = x$ is only valid if $x$ is in the interval $[0, \pi]$.
+* Our input is $x = \frac{5\pi}{4}$.
+* Since $\frac{5\pi}{4} > \pi$, we **cannot** simply "cancel" the functions. The answer is not $\frac{5\pi}{4}$.
+
+#### 2. Evaluate the Inner Function
+Find the exact value of $\cos\left(\frac{5\pi}{4}\right)$ using the unit circle:
+* The angle $\frac{5\pi}{4}$ is in **Quadrant III**.
+* The reference angle is $\frac{\pi}{4}$.
+* $\cos\left(\frac{5\pi}{4}\right) = -\frac{\sqrt{2}}{2}$
+
+
+#### 3. Evaluate the Outer Function
+Now, find $\cos^{-1}\left(-\frac{\sqrt{2}}{2}\right)$. The inverse cosine function must return a value in the principal domain $[0, \pi]$ (Quadrants I or II):
+* Since the value is negative, the result must be in **Quadrant II**.
+* The angle in Quadrant II that has a cosine of $-\frac{\sqrt{2}}{2}$ is:
+    $$\pi - \frac{\pi}{4} = \frac{3\pi}{4}$$
+
+---
+
+#### Final Answer
+> [!success] Result
+> $$\cos^{-1}\left(\cos \frac{5\pi}{4}\right) = \frac{3\pi}{4}$$
+
+---
