@@ -6008,4 +6008,55 @@ If $0 \le x < \pi$, then the argument $2x$ spans $[0, 2\pi)$.
 > $x = \{ 0, \frac{\pi}{12}, \frac{\pi}{4}, \frac{5\pi}{12}, \frac{\pi}{2}, \frac{3\pi}{4} \}$
 ## 2026-February-09 - Solving Trigonometric Equations with Inverse Trigonometric Functions :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=13h1m10s
+### Solving Trigonometric Equations with Inverse Functions
 
+When a trigonometric equation results in a value that is not found on the standard unit circle (e.g., $\sin \theta = 0.4$), we must use **Inverse Trigonometric Functions** to find the solutions.
+
+---
+
+#### 1. Definition and Notation
+Inverse functions allow us to find the angle ($\theta$) when the trigonometric ratio is known.
+* **If** $\sin \theta = y$, **then** $\theta = \arcsin(y)$ or $\sin^{-1}(y)$.
+* **If** $\cos \theta = x$, **then** $\theta = \arccos(x)$ or $\cos^{-1}(x)$.
+* **If** $\tan \theta = a$, **then** $\theta = \arctan(a)$ or $\tan^{-1}(a)$.
+
+#### 2. The Reference Angle Strategy
+Because calculators only provide a single value (the principal value), you must use it as a **reference angle** ($\theta_{ref}$) to find all solutions in the interval $[0, 2\pi)$.
+
+1.  **Find the Reference Angle:** Calculate $\theta_{ref} = \text{trig}^{-1}(|value|)$. Always use the absolute (positive) value to ensure the reference angle is in Quadrant I.
+2.  **Identify Quadrants:** Look at the sign of the original ratio to determine which quadrants the solutions lie in (e.g., if $\sin \theta$ is negative, look in QIII and QIV).
+3.  **Calculate Specific Solutions:**
+    * **QI:** $\theta = \theta_{ref}$
+    * **QII:** $\theta = \pi - \theta_{ref}$ (or $180^\circ - \theta_{ref}$)
+    * **QIII:** $\theta = \pi + \theta_{ref}$ (or $180^\circ + \theta_{ref}$)
+    * **QIV:** $\theta = 2\pi - \theta_{ref}$ (or $360^\circ - \theta_{ref}$)
+
+---
+
+#### 3. Example Walkthrough
+**Equation:** $5 \cos \theta + 3 = 0$ for $0^\circ \le \theta < 360^\circ$
+
+* **Isolate the function:**
+    $$5 \cos \theta = -3 \implies \cos \theta = -0.6$$
+* **Find the reference angle:**
+    $$\theta_{ref} = \cos^{-1}(0.6) \approx 53.1^\circ$$
+* **Determine Quadrants:**
+    Since cosine is **negative**, the solutions are in **Quadrant II** and **Quadrant III**.
+* **Final Solutions:**
+    * **QII:** $180^\circ - 53.1^\circ = 126.9^\circ$
+    * **QIII:** $180^\circ + 53.1^\circ = 233.1^\circ$
+
+---
+
+#### 4. Summary Table
+
+| Function | Positive Ratio Quadrants | Negative Ratio Quadrants |
+| :--- | :--- | :--- |
+| **Sine** | I, II | III, IV |
+| **Cosine** | I, IV | II, III |
+| **Tangent** | I, III | II, IV |
+
+---
+
+> [!warning] Calculator Settings
+> Always check if your calculator is in **Degree** or **Radian** mode based on the interval provided in the problem. If the interval is $[0, 2\pi)$, use Radians; if it is $[0, 360^\circ)$, use Degrees.
