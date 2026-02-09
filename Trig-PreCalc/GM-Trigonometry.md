@@ -6137,3 +6137,34 @@ Now, find $\cos^{-1}\left(-\frac{\sqrt{2}}{2}\right)$. The inverse cosine functi
 > $$\cos^{-1}\left(\cos \frac{5\pi}{4}\right) = \frac{3\pi}{4}$$
 
 ---
+### $\sin^{-1}\left(\sin \frac{6\pi}{5}\right)$
+
+This problem involves evaluating the composition of an inverse sine function with a sine function where the angle is outside the principal domain.
+
+---
+
+#### 1. Analyze the Principal Domain
+The identity $\sin^{-1}(\sin x) = x$ only holds true if $x$ is within the interval $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$.
+* Our input is $x = \frac{6\pi}{5}$.
+* Since $\frac{6\pi}{5}$ is greater than $\frac{\pi}{2}$ (it is $1.2\pi$), we cannot simply cancel the functions.
+
+#### 2. Locate the Angle and Value
+Find where $\frac{6\pi}{5}$ lies on the unit circle:
+* **Quadrant:** Since $\pi < \frac{6\pi}{5} < \frac{3\pi}{2}$, the angle is in **Quadrant III**.
+* **Reference Angle:** $\theta_{ref} = \frac{6\pi}{5} - \pi = \frac{\pi}{5}$.
+* **Sign:** In Quadrant III, sine is **negative**. Therefore, $\sin\left(\frac{6\pi}{5}\right) = -\sin\left(\frac{\pi}{5}\right)$.
+
+
+#### 3. Evaluate the Inverse Function
+Now we find $\sin^{-1}$ of that negative value. The range of $\sin^{-1}$ is restricted to Quadrants I and IV $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$.
+* Because the value is negative, the result must be in **Quadrant IV**.
+* In Quadrant IV, the angle with the same sine value as our Quadrant III angle is simply the negative of the reference angle:
+    $$\sin^{-1}\left(\sin \frac{6\pi}{5}\right) = -\frac{\pi}{5}$$
+
+---
+
+#### Final Answer
+> [!success] Result
+> $$\sin^{-1}\left(\sin \frac{6\pi}{5}\right) = -\frac{\pi}{5}$$
+
+---
