@@ -6022,6 +6022,10 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=13h1m10s
 - $$ \sin^{-1}(\sin(x)) = x \quad \text{for} \quad -\frac{\pi}{2} \le x \le \frac{\pi}{2} $$
 - Graph of y = cosine(x) : $$ y = \cos(x), 0 \le x \le \pi $$ $$ \text{Domain}: [0, \pi] $$ $$ \text{Range}: [-1, 1] $$
 - Inverse Cosine Function with Restriction : $$ \cos^{-1}(\cos(x)) = x \quad \text{for} \quad 0 \le x \le \pi $$
+- Graph of y = tangent(x) :$$ y = \tan(x), -\frac{\pi}{2} < x < \frac{\pi}{2} $$ $$ \text{Domain}: \left(-\frac{\pi}{2}, \frac{\pi}{2}\right) $$ $$ \text{Range}: (-\infty, \infty) $$
+- Inverse Tangent Function with Restriction :$$ \tan(\tan^{-1}(x)) = x \quad \text{for} \quad x \in \mathbb{R} $$
+- $\quad \text{for} \quad x \in \mathbb{R}$ Means 'x' for any element of the set of 'R'eal Numbers
+- Inverse Tangent Function with Restriction : $$ \tan^{-1}(\tan(x)) = x \quad \text{for} \quad -\frac{\pi}{2} < x < \frac{\pi}{2} $$
 - 
 ### Solving Trigonometric Equations with Inverse Functions
 
