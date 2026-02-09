@@ -6168,3 +6168,48 @@ Now we find $\sin^{-1}$ of that negative value. The range of $\sin^{-1}$ is rest
 > $$\sin^{-1}\left(\sin \frac{6\pi}{5}\right) = -\frac{\pi}{5}$$
 
 ---
+### $-5 + \frac{1}{2}\tan\left(-2x + \frac{5\pi}{4}\right) = -\frac{11}{2}$
+
+This equation combines multiple concepts: isolating a trigonometric function, handling a multiple-angle argument with a phase shift, and using inverse functions for angles in the interval $[0, 2\pi)$.
+
+---
+
+#### 1. Isolate the Tangent Function
+First, we move the constant terms to the right side:
+* **Add 5 (which is $10/2$) to both sides:**
+  $$\frac{1}{2}\tan\left(-2x + \frac{5\pi}{4}\right) = -\frac{11}{2} + \frac{10}{2}$$
+  $$\frac{1}{2}\tan\left(-2x + \frac{5\pi}{4}\right) = -\frac{1}{2}$$
+* **Multiply by 2:**
+  $$\tan\left(-2x + \frac{5\pi}{4}\right) = -1$$
+
+#### 2. Solve for the Argument
+Let $u = -2x + \frac{5\pi}{4}$. We need to find where $\tan(u) = -1$.
+Tangent is negative in **Quadrant II** and **Quadrant IV**.
+* **Reference Angle:** $\frac{\pi}{4}$
+* **General Solutions for $u$:**
+  $$u = \frac{3\pi}{4} + n\pi$$
+  *(Where $n$ is any integer to account for multiple rotations)*
+
+#### 3. Solve for $x$
+Substitute the argument back and isolate $x$:
+$$-2x + \frac{5\pi}{4} = \frac{3\pi}{4} + n\pi$$
+* **Subtract $\frac{5\pi}{4}$:**
+  $$-2x = \frac{3\pi}{4} - \frac{5\pi}{4} + n\pi$$
+  $$-2x = -\frac{2\pi}{4} + n\pi \implies -2x = -\frac{\pi}{2} + n\pi$$
+* **Divide by -2:**
+  $$x = \frac{\pi}{4} - \frac{n\pi}{2}$$
+
+#### 4. Find Solutions in $[0, 2\pi)$
+We test integer values for $n$ to find all $x$ values within the required interval:
+* **If $n = 0$:** $x = \frac{\pi}{4}$ (Valid)
+* **If $n = -1$:** $x = \frac{\pi}{4} + \frac{\pi}{2} = \frac{3\pi}{4}$ (Valid)
+* **If $n = -2$:** $x = \frac{\pi}{4} + \pi = \frac{5\pi}{4}$ (Valid)
+* **If $n = -3$:** $x = \frac{\pi}{4} + \frac{3\pi}{2} = \frac{7\pi}{4}$ (Valid)
+* **If $n = -4$:** $x = \frac{\pi}{4} + 2\pi = \frac{9\pi}{4}$ (Out of range)
+
+
+---
+
+#### Final Answer
+> [!success] Solution Set
+> $$x = \left\{ \frac{\pi}{4}, \frac{3\pi}{4}, \frac{5\pi}{4}, \frac{7\pi}{4} \right\}$$
