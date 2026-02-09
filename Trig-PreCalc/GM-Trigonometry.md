@@ -6213,3 +6213,42 @@ We test integer values for $n$ to find all $x$ values within the required interv
 #### Final Answer
 > [!success] Solution Set
 > $$x = \left\{ \frac{\pi}{4}, \frac{3\pi}{4}, \frac{5\pi}{4}, \frac{7\pi}{4} \right\}$$
+### $40 \sin(\beta - 3) + 1 = 6$
+
+In this version, we will maintain the exact fraction $\frac{1}{8}$ throughout the derivation to ensure maximum precision for your notes.
+
+---
+
+#### 1. Isolate the Sine Function
+* **Subtract 1 from both sides:** $$40 \sin(\beta - 3) = 5$$
+* **Divide by 40 and simplify the fraction:**
+  $$\sin(\beta - 3) = \frac{5}{40} \implies \sin(\beta - 3) = \frac{1}{8}$$
+
+#### 2. Find the Reference Angle
+Since $\frac{1}{8}$ is not a standard value on the unit circle, we define the reference angle using the inverse sine function.
+$$\text{ref angle} = \sin^{-1}\left(\frac{1}{8}\right)$$
+
+#### 3. Determine Solutions for the Argument $(\beta - 3)$
+The sine value is positive, which places the argument in **Quadrant I** and **Quadrant II**. Using the period of sine ($2\pi$):
+* **Quadrant I:** $\beta - 3 = \sin^{-1}\left(\frac{1}{8}\right) + 2\pi n$
+* **Quadrant II:** $\beta - 3 = \left(\pi - \sin^{-1}\left(\frac{1}{8}\right)\right) + 2\pi n$
+
+#### 4. Solve for $\beta$
+Isolate $\beta$ by adding 3 to both general solution sets:
+1.  $\beta = 3 + \sin^{-1}\left(\frac{1}{8}\right) + 2\pi n$
+2.  $\beta = 3 + \pi - \sin^{-1}\left(\frac{1}{8}\right) + 2\pi n$
+
+#### 5. Solutions in the Interval $[0, 2\pi)$
+Given that $\sin^{-1}(1/8) \approx 0.1253$ and $\pi \approx 3.1415$, we find the specific values for $n=0$:
+* **$\beta_1$:** $3 + 0.1253 \approx 3.1253$
+* **$\beta_2$:** $3 + 3.1415 - 0.1253 \approx 6.0162$
+
+
+
+---
+
+#### Final Answer
+> [!success] Exact Solution Set
+> $$\beta = \left\{ 3 + \sin^{-1}\left(\frac{1}{8}\right), \quad 3 + \pi - \sin^{-1}\left(\frac{1}{8}\right) \right\}$$
+
+---
