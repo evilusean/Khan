@@ -6079,3 +6079,30 @@ Because calculators only provide a single value (the principal value), you must 
 
 > [!warning] Calculator Settings
 > Always check if your calculator is in **Degree** or **Radian** mode based on the interval provided in the problem. If the interval is $[0, 2\pi)$, use Radians; if it is $[0, 360^\circ)$, use Degrees.
+### $\cos^{-1}\left(\cos \frac{\pi}{6}\right)$
+
+This problem involves the composition of an inverse trigonometric function with its corresponding trigonometric function. 
+
+---
+
+#### 1. Analysis of the Property
+Recall the inverse property for cosine:
+$$\cos^{-1}(\cos(x)) = x \quad \text{for} \quad 0 \le x \le \pi$$
+
+#### 2. Verify the Condition
+To apply the identity directly, we must check if the input angle $x = \frac{\pi}{6}$ falls within the restricted principal domain $[0, \pi]$:
+* $0 \le \frac{\pi}{6} \le \pi$ is **True**.
+
+#### 3. Step-by-Step Calculation
+If you prefer to solve it without the property:
+1.  **Evaluate the inner function:** $$\cos\left(\frac{\pi}{6}\right) = \frac{\sqrt{3}}{2}$$
+2.  **Evaluate the outer function:** $$\cos^{-1}\left(\frac{\sqrt{3}}{2}\right) = \frac{\pi}{6}$$
+
+
+---
+
+#### Final Answer
+> [!success] Result
+> $$\cos^{-1}\left(\cos \frac{\pi}{6}\right) = \frac{\pi}{6}$$
+
+---
