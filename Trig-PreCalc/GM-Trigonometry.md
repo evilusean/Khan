@@ -6287,3 +6287,27 @@ The value of the inverse function $\frac{\pi}{3}$ must fall within the range of 
 > $$x = 1$$
 
 ---
+### $\frac{1}{2} \cos^{-1}\left(\frac{x}{4}\right) = \pi$
+
+This equation requires isolating the inverse trigonometric function and then verifying if the resulting output is compatible with the restricted range of that function.
+
+---
+
+#### 1. Isolate the Inverse Cosine Function
+To isolate the $\cos^{-1}$ term, multiply both sides of the equation by $2$:
+$$\cos^{-1}\left(\frac{x}{4}\right) = 2\pi$$
+
+#### 2. Evaluate the Range Constraint
+Recall the principal range for the inverse cosine function:
+* For any $y = \cos^{-1}(u)$, the output $y$ must fall within the interval $[0, \pi]$.
+* In this equation, the output is $2\pi$.
+
+
+#### 3. Determine if a Solution Exists
+Because $2\pi$ is outside the restricted range of $[0, \pi]$, there is no value of $x$ that can satisfy this principal value equation. 
+
+---
+
+#### Final Answer
+> [!caution] No Solution
+> There is **no solution** for $x$ because the value $2\pi$ is not within the range $[0, \pi]$ of the $\cos^{-1}$ function.
