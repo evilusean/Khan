@@ -6311,3 +6311,83 @@ Because $2\pi$ is outside the restricted range of $[0, \pi]$, there is no value 
 #### Final Answer
 > [!caution] No Solution
 > There is **no solution** for $x$ because the value $2\pi$ is not within the range $[0, \pi]$ of the $\cos^{-1}$ function.
+### $\cos^{-1}\left(\frac{3}{5}\right) - \sin^{-1}(x) = 0$
+
+This equation requires relating two different inverse trigonometric functions. We can solve this by isolating the terms and using right-triangle trigonometry or trigonometric identities.
+
+---
+
+#### 1. Isolate the Inverse Functions
+First, move $\sin^{-1}(x)$ to the right side of the equation:
+$$\cos^{-1}\left(\frac{3}{5}\right) = \sin^{-1}(x)$$
+
+#### 2. Interpret using Right Triangle Trigonometry
+Let $\theta = \cos^{-1}\left(\frac{3}{5}\right)$. This means:
+$$\cos(\theta) = \frac{3}{5}$$
+
+Since $\cos(\theta) = \frac{\text{adjacent}}{\text{hypotenuse}}$, we can visualize a right triangle where:
+* **Adjacent side** = $3$
+* **Hypotenuse** = $5$
+
+
+#### 3. Find the Missing Side
+Using the Pythagorean theorem ($a^2 + b^2 = c^2$):
+$$3^2 + \text{opposite}^2 = 5^2$$
+$$9 + \text{opposite}^2 = 25$$
+$$\text{opposite}^2 = 16 \implies \text{opposite} = 4$$
+
+#### 4. Relate to Sine
+Now, find the sine of the same angle $\theta$:
+$$\sin(\theta) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{4}{5}$$
+
+Since $\theta = \sin^{-1}(x)$, we can substitute:
+$$\sin(\sin^{-1}(x)) = \frac{4}{5}$$
+$$x = \frac{4}{5}$$
+
+#### 5. Alternative Method: Cofunction Identity
+Recall the identity $\cos^{-1}(z) + \sin^{-1}(z) = \frac{\pi}{2}$. While this doesn't apply directly here, it reminds us that $\cos^{-1}(a) = \sin^{-1}(b)$ only when $a$ and $b$ are the legs of a triangle with hypotenuse 1, or specifically when $x = \sqrt{1 - (3/5)^2}$.
+
+---
+
+#### Final Answer
+> [!success] Result
+> $$x = \frac{4}{5} \quad (\text{or } 0.8)$$
+### $\sin^{-1}(x) - \cos^{-1}(x) = \frac{\pi}{6}$
+
+This equation can be solved by utilizing the cofunction identity for inverse trigonometric functions, which links $\sin^{-1}(x)$ and $\cos^{-1}(x)$.
+
+---
+
+#### 1. Identify the Relevant Identity
+Recall the cofunction identity for inverse trigonometric functions:
+$$\sin^{-1}(x) + \cos^{-1}(x) = \frac{\pi}{2}$$
+From this, we can express $\cos^{-1}(x)$ in terms of $\sin^{-1}(x)$:
+$$\cos^{-1}(x) = \frac{\pi}{2} - \sin^{-1}(x)$$
+
+#### 2. Substitute into the Original Equation
+Replace $\cos^{-1}(x)$ in the problem with the expression derived above:
+$$\sin^{-1}(x) - \left( \frac{\pi}{2} - \sin^{-1}(x) \right) = \frac{\pi}{6}$$
+
+#### 3. Solve for $\sin^{-1}(x)$
+* **Simplify the left side:**
+  $$\sin^{-1}(x) - \frac{\pi}{2} + \sin^{-1}(x) = \frac{\pi}{6}$$
+  $$2\sin^{-1}(x) - \frac{\pi}{2} = \frac{\pi}{6}$$
+* **Add $\frac{\pi}{2}$ (which is $\frac{3\pi}{6}$) to both sides:**
+  $$2\sin^{-1}(x) = \frac{\pi}{6} + \frac{3\pi}{6}$$
+  $$2\sin^{-1}(x) = \frac{4\pi}{6} \implies 2\sin^{-1}(x) = \frac{2\pi}{3}$$
+* **Divide by 2:**
+  $$\sin^{-1}(x) = \frac{\pi}{3}$$
+
+#### 4. Find the value of $x$
+Apply the sine function to both sides to isolate $x$:
+$$x = \sin\left(\frac{\pi}{3}\right)$$
+From the unit circle, we know that:
+$$x = \frac{\sqrt{3}}{2}$$
+
+
+---
+
+#### Final Answer
+> [!success] Result
+> $$x = \frac{\sqrt{3}}{2}$$
+
