@@ -6252,3 +6252,38 @@ Given that $\sin^{-1}(1/8) \approx 0.1253$ and $\pi \approx 3.1415$, we find the
 > $$\beta = \left\{ 3 + \sin^{-1}\left(\frac{1}{8}\right), \quad 3 + \pi - \sin^{-1}\left(\frac{1}{8}\right) \right\}$$
 
 ---
+### $\frac{3}{4} \cos^{-1}\left(\frac{x}{2}\right) = \frac{\pi}{4}$
+
+This equation requires isolating the inverse trigonometric function and then applying the definition of a "forward" trigonometric function to solve for $x$.
+
+---
+
+#### 1. Isolate the Inverse Cosine Function
+To get $\cos^{-1}$ by itself, we multiply both sides by the reciprocal of $\frac{3}{4}$:
+* **Multiply by $\frac{4}{3}$:**
+  $$\cos^{-1}\left(\frac{x}{2}\right) = \frac{\pi}{4} \cdot \frac{4}{3}$$
+  $$\cos^{-1}\left(\frac{x}{2}\right) = \frac{\pi}{3}$$
+
+#### 2. Apply the Cosine Function
+Using the definition of inverse functions, if $\cos^{-1}(A) = B$, then $\cos(B) = A$. 
+* Take the cosine of both sides:
+  $$\cos\left(\cos^{-1}\left(\frac{x}{2}\right)\right) = \cos\left(\frac{\pi}{3}\right)$$
+  $$\frac{x}{2} = \cos\left(\frac{\pi}{3}\right)$$
+
+#### 3. Evaluate and Isolate $x$
+* **Find the value on the unit circle:** Recall that $\cos\left(\frac{\pi}{3}\right) = \frac{1}{2}$.
+  * **Substitute and solve:**
+  $$\frac{x}{2} = \frac{1}{2}$$
+  $$x = 1$$
+
+#### 4. Verify the Range
+The value of the inverse function $\frac{\pi}{3}$ must fall within the range of $\cos^{-1}$, which is $[0, \pi]$.
+* $0 \le \frac{\pi}{3} \le \pi$ is **True**, so the solution is valid.
+
+---
+
+#### Final Answer
+> [!success] Result
+> $$x = 1$$
+
+---
