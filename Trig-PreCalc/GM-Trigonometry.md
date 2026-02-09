@@ -6012,12 +6012,16 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=13h1m10s
 - $f(f^{-1}(x)) =x$, for every x in the domain of $f^{-1}$
 - $f^{-1}(f(x)) = x$, for every x in the domain of f
 - If an equation passes both the *Vertical Line Test* and the *Horizontal Line Test* it is a function and can be inveresed (one x to one y, and one y to one x)
-- $f^{-1}$ is not an exponent, it is an inverse function of 'f'
+- $f^{-1}$ is not an exponent, it is an inverse function of 'f' or the *Arcsine of x*
 - To generate an inverse : Swap 'x' and 'y' so the domain becomes the range, and the range becomes the domain
 - In the 2 functions above, you are taking the inverse of one as an argument and it will return the same value (if you input '2' instead of 'x' it will return '2')
 - Graph of y = sin(x) :
 - $$y = \sin(x), -\frac{\pi}{2} \le x \le \frac{\pi}{2}$$ $$\text{Domain}: \left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$$ $$\text{Range}: [-1, 1]$$
 - since a graph of sin(x) would fail the horizontal line test we take only a segment of it *Imposing a Domain Restriction* Vs Jujutsu Kaisen
+- Inverse Sin Function with Restriction :$$ \sin(\sin^{-1}(x)) = x \quad \text{for} \quad -1 \le x \le 1 $$
+- $$ \sin^{-1}(\sin(x)) = x \quad \text{for} \quad -\frac{\pi}{2} \le x \le \frac{\pi}{2} $$
+- Graph of y = cosine(x) : $$ y = \cos(x), 0 \le x \le \pi $$ $$ \text{Domain}: [0, \pi] $$ $$ \text{Range}: [-1, 1] $$
+- Inverse Cosine Function with Restriction : $$ \cos^{-1}(\cos(x)) = x \quad \text{for} \quad 0 \le x \le \pi $$
 - 
 ### Solving Trigonometric Equations with Inverse Functions
 
