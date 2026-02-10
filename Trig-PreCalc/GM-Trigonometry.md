@@ -6393,3 +6393,29 @@ $$x = \frac{\sqrt{3}}{2}$$
 
 ## 2026-February-10 - Solving Trigonometirc Inequalities :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=14h4m
+### Summary: Solving Trigonometric Inequalities
+
+Trigonometric inequalities are expressions where a trigonometric function is compared to a value using inequality symbols ($<, >, \le, \ge$). Solving them combines your knowledge of trigonometric equations with interval analysis.
+
+---
+
+#### 1. General Steps for Algebraic Solutions
+1.  **Standardize the Inequality:** Move all terms to one side so the inequality is compared to zero (e.g., $f(x) > 0$).
+2.  **Find Critical Values:** Replace the inequality sign with an equal sign and solve the resulting trigonometric equation. These values are where the function can cross the x-axis or change sign.
+3.  **Identify Domain Restrictions:** Note where the function is undefined (e.g., asymptotes for $\tan(x)$ or $\sec(x)$). These also act as boundaries for your intervals.
+4.  **Create a Sign Chart or Test Intervals:** Use the critical values and undefined points to split the number line (usually $[0, 2\pi]$) into intervals. Test a value from each interval in the original inequality to see if it is true (+) or false (-).
+5.  **Write the Solution Set:** Combine the "true" intervals using union ($\cup$) notation.
+
+#### 2. Visualizing with the Unit Circle
+For simple inequalities like $\sin(x) > \frac{1}{2}$:
+* **Identify the Boundaries:** Find the angles where $\sin(x) = \frac{1}{2}$ ($\pi/6$ and $5\pi/6$).
+* **Shade the Region:** Since sine represents the $y$-coordinate, shade the part of the circle where the $y$-value is above the line $y = 1/2$.
+* **Read the Arc:** The solution is the arc between the two boundary points, moving counter-clockwise.
+
+#### 3. Common Mistakes to Avoid
+* **Losing Roots:** Never divide both sides by a trigonometric function (like dividing by $\sin(x)$), as you may delete a critical value. Factor instead.
+* **Ignoring Asymptotes:** Always include points where the function is undefined (like $\pi/2$ for tangent) as interval boundaries.
+* **Periodicity:** If the domain is not restricted (e.g., "solve for all $x$"), remember to add $+ 2n\pi$ to your solution intervals.
+* **Sign Flips:** Remember that multiplying or dividing by a negative number flips the inequality sign.
+
+---
