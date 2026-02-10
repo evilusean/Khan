@@ -6392,3 +6392,4 @@ $$x = \frac{\sqrt{3}}{2}$$
 > $$x = \frac{\sqrt{3}}{2}$$
 
 ## 2026-February-10 - Solving Trigonometirc Inequalities :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=14h4m
