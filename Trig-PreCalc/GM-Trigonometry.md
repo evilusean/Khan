@@ -6455,3 +6455,87 @@ Since the original inequality was strictly "greater than" (leading to "less than
 #### Final Answer
 > [!success] Result
 > $$x \in \left[0, \frac{\pi}{6}\right) \cup \left(\frac{5\pi}{6}, 2\pi\right)$$
+### $-2\cos^2(x) \ge 1 + 3\cos(x)$ for $0 \le x < 2\pi$
+
+This is a quadratic trigonometric inequality. To solve it, we treat it similarly to a quadratic polynomial inequality, find the critical values, and analyze the intervals on the unit circle.
+
+---
+
+#### 1. Set the Inequality to Zero
+First, move all terms to one side to create a quadratic form:
+$$-2\cos^2(x) - 3\cos(x) - 1 \ge 0$$
+Multiply the entire inequality by $-1$ to make the leading coefficient positive (remember to **flip the inequality sign**):
+$$2\cos^2(x) + 3\cos(x) + 1 \le 0$$
+
+#### 2. Factor the Quadratic Expression
+Let $u = \cos(x)$. The expression becomes $2u^2 + 3u + 1 \le 0$. 
+Factoring the quadratic:
+$$(2\cos(x) + 1)(\cos(x) + 1) \le 0$$
+
+#### 3. Find Critical Values
+Set each factor to zero to find the boundary points within $[0, 2\pi)$:
+* **Factor 1:** $2\cos(x) + 1 = 0 \implies \cos(x) = -1/2$
+    * $x = \frac{2\pi}{3}, \frac{4\pi}{3}$
+* **Factor 2:** $\cos(x) + 1 = 0 \implies \cos(x) = -1$
+    * $x = \pi$
+
+
+#### 4. Interval Analysis
+We need to find where the product of the factors is less than or equal to zero. This occurs when the cosine value $u$ is between the two roots of the quadratic:
+$$-1 \le \cos(x) \le -\frac{1}{2}$$
+
+Looking at the unit circle for $x$-coordinates (cosine) between $-1$ and $-1/2$:
+* At $x = \pi$, $\cos(x) = -1$.
+* At $x = \frac{2\pi}{3}$ and $x = \frac{4\pi}{3}$, $\cos(x) = -1/2$.
+* The cosine values stay between $-1$ and $-1/2$ for the entire arc connecting these points.
+
+#### 5. Construct the Solution Set
+Since the inequality is $\le$, we include the endpoints where the expression equals zero.
+
+---
+
+#### Final Answer
+> [!success] Result
+> $$x \in \left[ \frac{2\pi}{3}, \frac{4\pi}{3} \right]$$
+### $\cot^2(x) - 3\csc(x) + 3 > 0$ for $0 \le x < 2\pi$
+
+This quadratic trigonometric inequality uses reciprocal functions. To solve it, we must first convert the expression into a single trigonometric ratio using a Pythagorean identity.
+
+---
+
+#### 1. Use the Pythagorean Identity
+Recall the identity linking cotangent and cosecant:
+$$\cot^2(x) = \csc^2(x) - 1$$
+
+Substitute this into the original inequality:
+$$(\csc^2(x) - 1) - 3\csc(x) + 3 > 0$$
+$$\csc^2(x) - 3\csc(x) + 2 > 0$$
+
+#### 2. Factor the Quadratic
+Let $u = \csc(x)$. The inequality becomes $u^2 - 3u + 2 > 0$.
+Factoring the quadratic:
+$$(\csc(x) - 1)(\csc(x) - 2) > 0$$
+
+#### 3. Determine Critical Values and Domain Restrictions
+* **Asymptotes:** $\csc(x)$ is undefined where $\sin(x) = 0$. In $[0, 2\pi)$, these are **$x = 0$ and $x = \pi$**.
+* **Zeros:** Set the factors to zero:
+    * $\csc(x) = 1 \implies \sin(x) = 1 \implies$ **$x = \pi/2$**
+    * $\csc(x) = 2 \implies \sin(x) = 1/2 \implies$ **$x = \pi/6, 5\pi/6$**
+
+#### 4. Interval Analysis
+We look for regions where the product is positive ($> 0$). This occurs when:
+**$\csc(x) < 1$** or **$\csc(x) > 2$**.
+
+* **$\csc(x) > 2$:** On the unit circle, this happens when $0 < \sin(x) < 1/2$ (in Quadrants I and II).
+    * Intervals: $(0, \pi/6)$ and $(5\pi/6, \pi)$.
+* **$\csc(x) < 1$:** Since the range of cosecant is $(-\infty, -1] \cup [1, \infty)$, $\csc(x)$ is only "less than 1" when it is negative (Quadrants III and IV).
+    * In QIII and QIV, $\csc(x)$ is always $\le -1$, which satisfies the condition $(\text{negative}) \times (\text{negative}) = \text{positive}$.
+    * Interval: $(\pi, 2\pi)$.
+
+
+---
+
+#### Final Answer
+> [!success] Result
+> $$x \in \left(0, \frac{\pi}{6}\right) \cup \left(\frac{5\pi}{6}, \pi\right) \cup (\pi, 2\pi)$$
+> *Note: $x = \pi/2$ is excluded because it makes the expression equal to $0$, not $> 0$.*
