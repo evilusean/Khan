@@ -6793,3 +6793,39 @@ $$b \approx \frac{8 \cdot 0.6947}{0.7986} \approx 6.96\text{ yd}$$
 > [!info] Completed Triangle
 > * **Angles:** $A = 83^\circ$, $B = 44^\circ$, $C = 53^\circ$
 > * **Sides:** $a \approx 9.94\text{ yd}$, $b \approx 6.96\text{ yd}$, $c = 8\text{ yd}$
+### $b = 5 \text{ km}, a = 10 \text{ km}, C = 121^\circ$
+
+Since we have two sides and the included angle (**SAS**), we solve this triangle by finding the third side using the **Law of Cosines** and then determining the area.
+
+---
+
+#### 1. Find Side $c$ (Law of Cosines)
+To find side $c$, use the formula:
+$$c^2 = a^2 + b^2 - 2ab \cos(C)$$
+
+* **Substitute values:**
+  $$c^2 = 10^2 + 5^2 - 2(10)(5) \cos(121^\circ)$$
+  $$c^2 = 100 + 25 - 100 \cos(121^\circ)$$
+* **Calculate $\cos(121^\circ)$:** $\cos(121^\circ) \approx -0.5150$
+  $$c^2 \approx 125 - 100(-0.5150)$$
+  $$c^2 \approx 125 + 51.50 = 176.50$$
+* **Solve for $c$:**
+  $$c \approx \sqrt{176.50} \approx 13.29 \text{ km}$$
+
+
+#### 2. Calculate the Area
+Using the derived SAS area formula:
+$$Area = \frac{1}{2}ab \sin(C)$$
+
+* **Substitute values:**
+  $$Area = \frac{1}{2}(10)(5) \sin(121^\circ)$$
+  $$Area = 25 \sin(121^\circ)$$
+* **Calculate $\sin(121^\circ)$:** $\sin(121^\circ) \approx 0.8572$
+  $$Area \approx 25(0.8572) \approx 21.43 \text{ km}^2$$
+
+---
+
+#### Final Answer Summary
+> [!success] Result
+> * **Side $c$:** $\approx 13.29 \text{ km}$
+> * **Area:** $\approx 21.43 \text{ km}^2$
