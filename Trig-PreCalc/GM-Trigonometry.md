@@ -6542,4 +6542,35 @@ We look for regions where the product is positive ($> 0$). This occurs when:
 ## 2026-February-11 - Law of Sines(ASA=Angle Side Angle) and (SAA=Side Angle Angle) :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=14h34m10s
 ![[Pasted image 20260211154352.png]]
-- 
+### Law of Sines
+
+The **Law of Sines** is a powerful relationship between the sides and angles of any triangle (not just right triangles). It states that the ratio of the length of a side to the sine of its opposite angle is constant for all three sides.
+
+---
+
+#### 1. The Formula
+Based on the standard labeling of triangle $ABC$ where side $a$ is opposite $\angle A$, side $b$ is opposite $\angle B$, and side $c$ is opposite $\angle C$:
+
+$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$
+
+
+#### 2. Derivation from the Altitude ($h$)
+In your provided image, the altitude $h$ (segment $BD$) creates two right triangles, $ABD$ and $CBD$. We can use these to see why the law works:
+1.  In $\triangle ABD$: $\sin A = \frac{h}{c} \implies h = c \sin A$
+2.  In $\triangle CBD$: $\sin C = \frac{h}{a} \implies h = a \sin C$
+3.  Since both equal $h$: $c \sin A = a \sin C$
+4.  Rearranging gives: $\frac{a}{\sin A} = \frac{c}{\sin C}$
+
+#### 3. Application: Side-Angle-Angle (SAA)
+When you know **two angles and one side**, the Law of Sines is your primary tool.
+* **Step 1:** Use the Triangle Sum Theorem ($180^\circ$) to find the third angle.
+* **Step 2:** Set up a proportion using the known side/angle pair and the side you wish to find.
+* **Example:** If you know $\angle A$, $\angle B$, and side $a$, you find side $b$ using:
+    $$b = \frac{a \sin B}{\sin A}$$
+
+#### 4. Application: Side-Angle-Side (SAS)
+**Warning:** The Law of Sines cannot be used *directly* to solve a triangle starting with SAS because you do not have a complete "ratio" (a side and its opposite angle).
+* **Correct Approach:** Use the **Law of Cosines** first to find the third side.
+* **Next Step:** Once the third side is found, you now have a side/angle pair and can use the Law of Sines to find the remaining smaller angles.
+
+---
