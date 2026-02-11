@@ -6541,3 +6541,5 @@ We look for regions where the product is positive ($> 0$). This occurs when:
 > *Note: $x = \pi/2$ is excluded because it makes the expression equal to $0$, not $> 0$.*
 ## 2026-February-11 - Law of Sines(ASA=Angle Side Angle) and (SAA=Side Angle Angle) :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=14h34m10s
+![[Pasted image 20260211154352.png]]
+- 
