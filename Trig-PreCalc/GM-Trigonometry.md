@@ -6620,7 +6620,39 @@ This simplifies to the standard form of the Law:
 > [!success] The Law of Sines
 > $$\frac{a}{\sin(A)} = \frac{c}{\sin(C)}$$
 > *(By repeating this process with an altitude from a different vertex, we can prove the full relation: $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$)*
+### Derivation of Triangle Area using Sine
 
+In the previous notes, we used the altitude ($h$) to derive the Law of Sines. We can use that same altitude to derive a formula for the area of a triangle when you only know two sides and the included angle (SAS).
+
+---
+
+#### 1. The Basic Area Formula
+The fundamental formula for the area ($K$) of any triangle is:
+$$K = \frac{1}{2} \times \text{base} \times \text{height}$$
+In the context of the triangle $ABC$ from your notes, the base is side $b$ and the height is the altitude $h$.
+$$K = \frac{1}{2}bh$$
+
+#### 2. Expressing Height ($h$) via Sine
+As established in your derivation of the Law of Sines, the altitude $h$ can be expressed using the sine of angle $A$ and the hypotenuse $c$ of the right triangle $\triangle ABD$:
+$$\sin(A) = \frac{h}{c} \implies h = c \sin(A)$$
+
+#### 3. Substituting into the Area Formula
+Substitute the expression for $h$ into the basic area formula:
+$$K = \frac{1}{2}b(c \sin A)$$
+
+#### 4. The General SAS Area Formulas
+By dropping altitudes from different vertices, this relationship can be proven for any pair of sides and their included angle:
+> [!success] Area Formulas
+> - $K = \frac{1}{2}bc \sin(A)$
+> - $K = \frac{1}{2}ac \sin(B)$
+> - $K = \frac{1}{2}ab \sin(C)$
+
+---
+
+#### Summary of Logic
+* **Start** with the standard $\frac{1}{2} \times \text{base} \times \text{height}$.
+* **Replace** height with a trigonometric equivalent ($h = \text{side} \times \sin(\text{angle})$).
+* **Result:** You can find the area of any oblique triangle without knowing the physical height, provided you have Side-Angle-Side (SAS) information.
 ### Solving for Triangle $ABC$
 
 Given two angles and one side, we can solve the entire triangle using the **Triangle Sum Theorem** and the **Law of Sines**.
