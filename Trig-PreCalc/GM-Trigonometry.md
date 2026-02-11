@@ -6653,6 +6653,33 @@ By dropping altitudes from different vertices, this relationship can be proven f
 * **Start** with the standard $\frac{1}{2} \times \text{base} \times \text{height}$.
 * **Replace** height with a trigonometric equivalent ($h = \text{side} \times \sin(\text{angle})$).
 * **Result:** You can find the area of any oblique triangle without knowing the physical height, provided you have Side-Angle-Side (SAS) information.
+### Summary: Deriving Triangle Area from the Law of Sines
+
+The area of an oblique triangle can be derived by using the same altitude used to prove the Law of Sines. This allows for the calculation of area without knowing the vertical height, provided you have **Side-Angle-Side (SAS)** information.
+
+---
+
+#### 1. The Basic Foundation
+The fundamental formula for the area ($K$) of any triangle is:
+$$K = \frac{1}{2} \times \text{base} \times \text{height}$$
+In a standard triangle $ABC$, if we let side $b$ be the base and $h$ be the altitude dropped from vertex $B$:
+$$K = \frac{1}{2}bh$$
+
+#### 2. Expressing Height ($h$) via Sine
+Using right triangle trigonometry ($\text{SOH}$), the altitude $h$ can be expressed in terms of the sine of an angle and the hypotenuse of the resulting right triangle:
+$$\sin(A) = \frac{h}{c} \implies h = c \sin(A)$$
+
+#### 3. Substitution and Generalization
+Substituting the trigonometric expression for $h$ back into the basic area formula yields:
+$$K = \frac{1}{2}b(c \sin A)$$
+By repeating this logic for each vertex, we derive the three standard SAS area formulas:
+
+#### 4. The SAS Area Formulas
+* $Area = \frac{1}{2}bc \sin(A)$
+* $Area = \frac{1}{2}ac \sin(B)$
+* $Area = \frac{1}{2}ab \sin(C)$
+
+---
 ### Solving for Triangle $ABC$
 
 Given two angles and one side, we can solve the entire triangle using the **Triangle Sum Theorem** and the **Law of Sines**.
