@@ -6542,6 +6542,17 @@ We look for regions where the product is positive ($> 0$). This occurs when:
 ## 2026-February-11 - Law of Sines(ASA=Angle Side Angle) and (SAA=Side Angle Angle) :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=14h34m10s
 ![[Pasted image 20260211154352.png]]
+- Capital *A, B, C, D* are Angles
+- Lowercase *a, b, c, d* are the sides across of those angles(lengths)
+- *h* is height
+- 2 *right triangles* are **Triangle ABD** and **Triangle BDC**
+- *Sine of Angle A* = $\frac{h}{c}$ Opposite over adjacent(SOHCAHTOA)
+- *Sine of Angle C* = $\frac{h}{a}$ 
+- $c * SinA = \frac{h}{c} * c$ : $c * SinA = h$ multiply the sine of *A* by side length of *c* to get **h** (notice the capitals are the angles, and the lowercase are sidelengths)
+- $a * SinC = \frac{h}{a} * a$ : $a * SinC = h$ multiply the sine of *C* by side length of *a* to get **h** - Notice how the equations will cancel the denominator in the second equation to get **h**
+- $a * SinC = c * SinA$ : legally, since the are both equal to *h*, they are equal to eachother
+- $\frac{a * SinC}{SinA * SinC} = \frac{c * SinA}{SinA * SinC}$ : $\frac{a}{SinA} = \frac{c}{SinC}$ : multiplying here will cancel, and leave you with *a* over the SinA is equal to *c* overthe SinC 
+- All that to explain that the lengths of the sides of a triangle are proportional to the Sines of the Measures of the angles opposite of them
 ### Law of Sines
 
 The **Law of Sines** is a powerful relationship between the sides and angles of any triangle (not just right triangles). It states that the ratio of the length of a side to the sine of its opposite angle is constant for all three sides.
