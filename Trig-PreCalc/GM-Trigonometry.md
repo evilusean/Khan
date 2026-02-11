@@ -6585,3 +6585,38 @@ When you know **two angles and one side**, the Law of Sines is your primary tool
 * **Next Step:** Once the third side is found, you now have a side/angle pair and can use the Law of Sines to find the remaining smaller angles.
 
 ---
+### Derivation of the Law of Sines
+
+The **Law of Sines** is derived by using an altitude (height) to split an oblique triangle into two right triangles and then relating their trigonometric ratios.
+
+---
+
+#### 1. Setup and Definitions
+Based on a general triangle $ABC$ with an altitude $h$ dropped from vertex $B$ to point $D$ on the base:
+* **Angles:** $A, B, C$ are the internal angles.
+* **Sides:** $a, b, c$ are the lengths of the sides opposite their respective angles.
+* **Altitude ($h$):** The perpendicular height from $B$ to side $b$.
+* **Right Triangles:** The altitude creates two right triangles: **$\triangle ABD$** and **$\triangle BDC$**.
+
+#### 2. Establish Sine Ratios (SOH CAH TOA)
+Using the definition of Sine ($\frac{\text{Opposite}}{\text{Hypotenuse}}$) for the two right triangles:
+* In $\triangle ABD$: $\sin(A) = \frac{h}{c}$
+* In $\triangle BDC$: $\sin(C) = \frac{h}{a}$
+
+#### 3. Isolate the Height ($h$)
+To link the two triangles, we solve for the common variable $h$:
+* From $\triangle ABD$: $h = c \cdot \sin(A)$
+* From $\triangle BDC$: $h = a \cdot \sin(C)$
+
+#### 4. Relate the Expressions
+Since both expressions are equal to $h$, they must be equal to each other:
+$$c \cdot \sin(A) = a \cdot \sin(C)$$
+
+#### 5. Final Generalization
+Divide both sides by $(\sin(A) \cdot \sin(C))$ to separate the variables:
+$$\frac{c \cdot \sin(A)}{\sin(A)\sin(C)} = \frac{a \cdot \sin(C)}{\sin(A)\sin(C)}$$
+
+This simplifies to the standard form of the Law:
+> [!success] The Law of Sines
+> $$\frac{a}{\sin(A)} = \frac{c}{\sin(C)}$$
+> *(By repeating this process with an altitude from a different vertex, we can prove the full relation: $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$)*
