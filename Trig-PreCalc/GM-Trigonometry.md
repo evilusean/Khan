@@ -6620,6 +6620,7 @@ This simplifies to the standard form of the Law:
 > [!success] The Law of Sines
 > $$\frac{a}{\sin(A)} = \frac{c}{\sin(C)}$$
 > *(By repeating this process with an altitude from a different vertex, we can prove the full relation: $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$)*
+
 ### Solving for Triangle $ABC$
 
 Given two angles and one side, we can solve the entire triangle using the **Triangle Sum Theorem** and the **Law of Sines**.
@@ -6695,4 +6696,41 @@ $$c \approx \frac{18 \cdot 0.8746}{0.7880} \approx 19.98 \text{ cm}$$
 > [!info] Completed Triangle
 > * **Angles:** $A = 52^\circ$, $B = 67^\circ$, $C = 61^\circ$
 > * **Sides:** $a = 18 \text{ cm}$, $b \approx 21.0 \text{ cm}$, $c \approx 20.0 \text{ cm}$
+### $A = 83^\circ, C = 53^\circ, c = 8\text{ yd}$
 
+This is a **Side-Angle-Angle (SAA)** case. Since we have a known side-angle pair ($c$ and $C$), we can solve the entire triangle using the **Triangle Sum Theorem** and the **Law of Sines**.
+
+---
+
+#### 1. Identify Given Information
+* **$\angle A = 83^\circ$**
+* **$\angle C = 53^\circ$**
+* **Side $c = 8\text{ yd}$** (opposite $\angle C$)
+
+#### 2. Find the Third Angle ($\angle B$)
+The sum of interior angles in any triangle is $180^\circ$:
+$$\angle B = 180^\circ - (A + C)$$
+$$\angle B = 180^\circ - (83^\circ + 53^\circ)$$
+$$\angle B = 180^\circ - 136^\circ$$
+> [!success] Result
+> **$\angle B = 44^\circ$**
+
+#### 3. Solve for Side $a$
+Using the Law of Sines ratio: $\frac{a}{\sin A} = \frac{c}{\sin C}$
+$$a = \frac{c \cdot \sin A}{\sin C}$$
+$$a = \frac{8 \cdot \sin(83^\circ)}{\sin(53^\circ)}$$
+$$a \approx \frac{8 \cdot 0.9925}{0.7986} \approx 9.94\text{ yd}$$
+
+#### 4. Solve for Side $b$
+Using the Law of Sines ratio: $\frac{b}{\sin B} = \frac{c}{\sin C}$
+$$b = \frac{c \cdot \sin B}{\sin C}$$
+$$b = \frac{8 \cdot \sin(44^\circ)}{\sin(53^\circ)}$$
+$$b \approx \frac{8 \cdot 0.6947}{0.7986} \approx 6.96\text{ yd}$$
+
+
+---
+
+#### Final Answer Summary
+> [!info] Completed Triangle
+> * **Angles:** $A = 83^\circ$, $B = 44^\circ$, $C = 53^\circ$
+> * **Sides:** $a \approx 9.94\text{ yd}$, $b \approx 6.96\text{ yd}$, $c = 8\text{ yd}$
