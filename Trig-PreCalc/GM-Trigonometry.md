@@ -6620,3 +6620,41 @@ This simplifies to the standard form of the Law:
 > [!success] The Law of Sines
 > $$\frac{a}{\sin(A)} = \frac{c}{\sin(C)}$$
 > *(By repeating this process with an altitude from a different vertex, we can prove the full relation: $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$)*
+### Solving for Triangle $ABC$
+
+Given two angles and one side, we can solve the entire triangle using the **Triangle Sum Theorem** and the **Law of Sines**.
+
+---
+
+#### 1. Identify Given Information
+* **$\angle B = 46^\circ$**
+* **$\angle C = 69^\circ$**
+* **Side $a = 34\text{ cm}$** (opposite $\angle A$)
+
+#### 2. Find the Third Angle ($\angle A$)
+Using the property that the interior angles of a triangle sum to $180^\circ$:
+$$\angle A = 180^\circ - (B + C)$$
+$$\angle A = 180^\circ - (46^\circ + 69^\circ)$$
+$$\angle A = 180^\circ - 115^\circ$$
+> [!success] Result
+> **$\angle A = 65^\circ$**
+
+#### 3. Solve for Side $b$
+Using the Law of Sines: $\frac{b}{\sin B} = \frac{a}{\sin A}$
+$$b = \frac{a \cdot \sin B}{\sin A}$$
+$$b = \frac{34 \cdot \sin(46^\circ)}{\sin(65^\circ)}$$
+$$b \approx \frac{34 \cdot 0.7193}{0.9063} \approx 26.99 \text{ cm}$$
+
+#### 4. Solve for Side $c$
+Using the Law of Sines: $\frac{c}{\sin C} = \frac{a}{\sin A}$
+$$c = \frac{a \cdot \sin C}{\sin A}$$
+$$c = \frac{34 \cdot \sin(69^\circ)}{\sin(65^\circ)}$$
+$$c \approx \frac{34 \cdot 0.9336}{0.9063} \approx 35.03 \text{ cm}$$
+
+---
+
+#### Final Answer Summary
+> [!info] Completed Triangle
+> * **Angles:** $A = 65^\circ$, $B = 46^\circ$, $C = 69^\circ$
+> * **Sides:** $a = 34\text{ cm}$, $b \approx 27.0\text{ cm}$, $c \approx 35.0\text{ cm}$
+
