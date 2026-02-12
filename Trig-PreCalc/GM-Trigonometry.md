@@ -6873,4 +6873,40 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=14h56m20s
   The smallest angle is opposite the shortest side
   The middle-valued angle is opposite the intermediate side
   The largest angle is opposite the largest side
+### Law of Sines (SSA) - The Ambiguous Case
 
+The **Ambiguous Case** occurs when you are given two sides and a non-included angle (**Side-Side-Angle**). Unlike SAA or ASA, this configuration does not always define a unique triangle; it can result in **zero, one, or two** possible triangles.
+
+---
+
+#### 1. Why is it Ambiguous?
+When you have an angle $A$ and sides $a$ and $b$, side $a$ acts like a "swinging arm" from the vertex. Depending on its length relative to the height ($h$) of the potential triangle:
+- If $a < h$: No triangle can be formed (the side is too short to reach the base).
+- If $a = h$: One **right triangle** is formed.
+- If $h < a < b$: **Two different triangles** are possible (one acute, one obtuse).
+- If $a \ge b$: Only **one triangle** is possible.
+
+#### 2. Determining the Height ($h$)
+To analyze the case, first calculate the height of the triangle using the given side and angle:
+$$h = b \sin(A)$$
+
+#### 3. Solving for the Unknown Angle ($B$)
+Using the Law of Sines:
+$$\frac{\sin(A)}{a} = \frac{\sin(B)}{b} \implies \sin(B) = \frac{b \sin(A)}{a}$$
+
+#### 4. The Three Possible Scenarios
+| Condition | Result | Logic |
+| :--- | :--- | :--- |
+| $\sin(B) > 1$ | **No Triangle** | The side $a$ is shorter than the height ($h$). Sine cannot exceed 1. |
+| $\sin(B) = 1$ | **1 Triangle** | A right triangle where $\angle B = 90^\circ$. |
+| $\sin(B) < 1$ | **1 or 2 Triangles** | Check side lengths. If $a < b$, you must find two possible values for $\angle B$. |
+
+#### 5. Finding the Second Triangle
+If two triangles exist, your calculator will provide the acute angle ($B_1$). The second possible angle ($B_2$) is the **supplementary angle**:
+$$B_2 = 180^\circ - B_1$$
+*Crucial Check:* If $(A + B_2) < 180^\circ$, then the second triangle is valid.
+
+---
+
+> [!tip] Summary Rule
+> If the side opposite the given angle is **shorter** than the other given side ($a < b$), always check for the existence of two triangles!
