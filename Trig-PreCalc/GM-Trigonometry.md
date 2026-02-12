@@ -7090,3 +7090,36 @@ $$B_2 = 180^\circ - 47.69^\circ = 132.31^\circ$$
 > [!info] Two Solutions Possible
 > **Triangle 1:** $A \approx 107.31^\circ, B \approx 47.69^\circ, a \approx 18.04 \text{ km}$
 > **Triangle 2:** $A \approx 22.69^\circ, B \approx 132.31^\circ, a \approx 7.31 \text{ km}$
+### $A = 125^\circ, b = 18 \text{ mi}, a = 14 \text{ mi}$
+
+This is a **Side-Side-Angle (SSA)** case where the given angle is **obtuse** ($A > 90^\circ$). In the obtuse case, the logic for determining the number of triangles is much simpler than in the acute case.
+
+---
+
+#### 1. Analyze the Obtuse Condition
+When a triangle has an obtuse angle, that angle **must** be the largest angle in the triangle. Consequently, the side opposite the obtuse angle ($a$) **must** be the longest side of the triangle.
+
+* **Side opposite angle ($a$):** $14 \text{ mi}$
+* **Adjacent side ($b$):** $18 \text{ mi}$
+
+#### 2. Determine the Number of Triangles
+We compare the two given sides:
+* If $a > b$, exactly **one** triangle is formed.
+* If $a \le b$, **no** triangle is formed.
+
+Since **$14 \le 18$**, the side opposite the obtuse angle is not long enough to bridge the gap and connect to the base side while maintaining the $125^\circ$ opening.
+
+
+#### 3. Formal Algebraic Proof
+If you attempt to use the Law of Sines to find $\angle B$:
+$$\frac{\sin B}{b} = \frac{\sin A}{a}$$
+$$\sin B = \frac{18 \sin(125^\circ)}{14}$$
+$$\sin B \approx \frac{18(0.8192)}{14} \approx 1.053$$
+
+Because the sine of an angle cannot be greater than **1**, there is no real value for $\angle B$.
+
+---
+
+#### Final Answer
+> [!caution] Conclusion
+> **No triangle exists** with the given measurements.
