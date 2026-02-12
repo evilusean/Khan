@@ -6910,3 +6910,37 @@ $$B_2 = 180^\circ - B_1$$
 
 > [!tip] Summary Rule
 > If the side opposite the given angle is **shorter** than the other given side ($a < b$), always check for the existence of two triangles!
+### $A = 61^\circ, b = 29 \text{ cm}, a = 20 \text{ cm}$
+
+This is a **Side-Side-Angle (SSA)** case, also known as the **Ambiguous Case**. Because the side opposite the given angle ($a$) is shorter than the adjacent side ($b$), we must first check if a triangle even exists by comparing $a$ to the height ($h$).
+
+---
+
+#### 1. Calculate the Height ($h$)
+The height of the potential triangle is the shortest distance from vertex $C$ to the base:
+$$h = b \sin(A)$$
+$$h = 29 \sin(61^\circ)$$
+Using $\sin(61^\circ) \approx 0.8746$:
+$$h \approx 29(0.8746) \approx 25.36 \text{ cm}$$
+
+#### 2. Determine the Number of Triangles
+Now we compare side $a$ to the height $h$:
+* **Side $a = 20 \text{ cm}$**
+* **Height $h \approx 25.36 \text{ cm}$**
+
+Since **$a < h$**, the side opposite the angle is too short to reach the bottom side of the triangle.
+
+
+#### 3. Formal Algebraic Proof
+If we attempt to use the Law of Sines to find $\angle B$:
+$$\frac{\sin B}{b} = \frac{\sin A}{a}$$
+$$\sin B = \frac{29 \sin(61^\circ)}{20}$$
+$$\sin B \approx \frac{25.36}{20} \approx 1.268$$
+
+Since the value of a sine function **cannot exceed 1**, there is no angle $B$ that satisfies this equation.
+
+---
+
+#### Final Answer
+> [!caution] Conclusion
+> **No triangle exists** with the given measurements.
