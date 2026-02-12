@@ -7046,3 +7046,47 @@ $$a = \frac{30 \sin(105.03^\circ)}{\sin(39^\circ)}$$
 > [!info] Completed Triangle
 > * **Angles:** $A \approx 105.03^\circ, B \approx 35.97^\circ, C = 39^\circ$
 > * **Sides:** $a \approx 46.04 \text{ in}, b = 28 \text{ in}, c = 30 \text{ in}$
+### $C = 25^\circ, b = 14 \text{ km}, c = 8 \text{ km}$
+
+This is a **Side-Side-Angle (SSA)** case. Because the side opposite the given angle ($c$) is shorter than the adjacent side ($b$), we must check for the **Ambiguous Case** by comparing the opposite side to the height ($h$).
+
+---
+
+#### 1. Calculate the Height ($h$)
+The height of the triangle is determined by the adjacent side and the sine of the given angle:
+$$h = b \sin(C)$$
+$$h = 14 \sin(25^\circ)$$
+Using $\sin(25^\circ) \approx 0.4226$:
+$$h \approx 14(0.4226) \approx 5.92 \text{ km}$$
+
+#### 2. Determine the Number of Triangles
+We compare side $c$ to the height $h$ and the adjacent side $b$:
+* **Height ($h$)** $\approx 5.92 \text{ km}$
+* **Opposite Side ($c$)** $= 8 \text{ km}$
+* **Adjacent Side ($b$)** $= 14 \text{ km}$
+
+Since **$h < c < b$** ($5.92 < 8 < 14$), this configuration results in **two possible triangles**: one acute and one obtuse.
+
+
+#### 3. Solve for Triangle 1 (Acute $\angle B_1$)
+Using the Law of Sines:
+$$\frac{\sin B}{b} = \frac{\sin C}{c} \implies \sin B = \frac{14 \sin(25^\circ)}{8}$$
+$$\sin B \approx \frac{5.916}{8} \approx 0.7395$$
+$$B_1 = \sin^{-1}(0.7395) \approx 47.69^\circ$$
+
+* **Find $\angle A_1$:** $180^\circ - (25^\circ + 47.69^\circ) = 107.31^\circ$
+* **Find side $a_1$:** $\frac{8 \sin(107.31^\circ)}{\sin(25^\circ)} \approx 18.04 \text{ km}$
+
+#### 4. Solve for Triangle 2 (Obtuse $\angle B_2$)
+The second possible angle is the supplement of $B_1$:
+$$B_2 = 180^\circ - 47.69^\circ = 132.31^\circ$$
+
+* **Find $\angle A_2$:** $180^\circ - (25^\circ + 132.31^\circ) = 22.69^\circ$
+* **Find side $a_2$:** $\frac{8 \sin(22.69^\circ)}{\sin(25^\circ)} \approx 7.31 \text{ km}$
+
+---
+
+#### Final Answer Summary
+> [!info] Two Solutions Possible
+> **Triangle 1:** $A \approx 107.31^\circ, B \approx 47.69^\circ, a \approx 18.04 \text{ km}$
+> **Triangle 2:** $A \approx 22.69^\circ, B \approx 132.31^\circ, a \approx 7.31 \text{ km}$
