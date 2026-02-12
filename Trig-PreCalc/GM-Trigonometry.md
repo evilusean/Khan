@@ -6944,3 +6944,45 @@ Since the value of a sine function **cannot exceed 1**, there is no angle $B$ th
 #### Final Answer
 > [!caution] Conclusion
 > **No triangle exists** with the given measurements.
+### $A = 30^\circ, c = 2\sqrt{5} \text{ in}, a = \sqrt{5} \text{ in}$
+
+This is a **Side-Side-Angle (SSA)** case. Since the side opposite the given angle ($a$) is shorter than the adjacent side ($c$), this is potentially an **Ambiguous Case**. We must determine if zero, one, or two triangles exist.
+
+---
+
+#### 1. Calculate the Height ($h$)
+The height of the potential triangle is:
+$$h = c \sin(A)$$
+$$h = 2\sqrt{5} \sin(30^\circ)$$
+Since $\sin(30^\circ) = 0.5$:
+$$h = 2\sqrt{5} \times 0.5 = \sqrt{5} \text{ in}$$
+
+#### 2. Determine the Number of Triangles
+Now, compare the opposite side $a$ to the height $h$:
+* **Side $a = \sqrt{5} \text{ in}$**
+* **Height $h = \sqrt{5} \text{ in}$**
+
+Since **$a = h$**, the side opposite the angle is exactly equal to the height. This means the side reaches the base at exactly one point, forming a **right triangle**.
+
+
+#### 3. Solve the Triangle
+Because $a = h$, we know $\angle C$ must be $90^\circ$.
+
+* **Find $\angle C$:**
+    $$\sin C = \frac{c \sin A}{a} = \frac{2\sqrt{5} \sin(30^\circ)}{\sqrt{5}} = 2(0.5) = 1$$
+    $$\angle C = \sin^{-1}(1) = 90^\circ$$
+
+* **Find $\angle B$:**
+    $$\angle B = 180^\circ - (30^\circ + 90^\circ) = 60^\circ$$
+
+* **Find Side $b$:**
+    Using the Pythagorean theorem ($b^2 + a^2 = c^2$) or trigonometry:
+    $$b = c \cos(A) = 2\sqrt{5} \cos(30^\circ)$$
+    $$b = 2\sqrt{5} \times \frac{\sqrt{3}}{2} = \sqrt{15} \approx 3.87 \text{ in}$$
+
+---
+
+#### Final Answer Summary
+> [!success] Result: One Right Triangle
+> * **Angles:** $A = 30^\circ, B = 60^\circ, C = 90^\circ$
+> * **Sides:** $a = \sqrt{5} \approx 2.24 \text{ in}, b = \sqrt{15} \approx 3.87 \text{ in}, c = 2\sqrt{5} \approx 4.47 \text{ in}$
