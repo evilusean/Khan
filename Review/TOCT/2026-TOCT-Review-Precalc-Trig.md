@@ -684,3 +684,11 @@ Because trigonometric functions are periodic, they are not one-to-one. To define
 | **Arcsine** | $\arcsin(x)$ or $\sin^{-1}(x)$ | $[-1, 1]$ | $[-\frac{\pi}{2}, \frac{\pi}{2}]$ |
 | **Arccosine** | $\arccos(x)$ or $\cos^{-1}(x)$ | $[-1, 1]$ | $[0, \pi]$ |
 | **Arctangent** | $\arctan(x)$ or $\tan^{-1}(x)$ | $(-\infty, \infty)$ | $(-\frac{\pi}{2}, \frac{\pi}{2})$ |
+### Law of Sines : 
+$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$
+#### 4. The General SAS Area Formulas
+By dropping altitudes from different vertices, this relationship can be proven for any pair of sides and their included angle:
+> [!success] Area Formulas
+> - $K = \frac{1}{2}bc \sin(A)$
+> - $K = \frac{1}{2}ac \sin(B)$
+> - $K = \frac{1}{2}ab \sin(C)$

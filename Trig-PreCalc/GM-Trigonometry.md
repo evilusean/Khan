@@ -6829,3 +6829,40 @@ $$Area = \frac{1}{2}ab \sin(C)$$
 > [!success] Result
 > * **Side $c$:** $\approx 13.29 \text{ km}$
 > * **Area:** $\approx 21.43 \text{ km}^2$
+### $a = 11 \text{ ft}, C = 69^\circ, B = 76^\circ$
+
+This is a **Side-Angle-Angle (SAA)** case. We can solve the entire triangle using the **Triangle Sum Theorem** to find the missing angle and then the **Law of Sines** to find the missing sides.
+
+---
+
+#### 1. Identify Given Information
+* **Side $a = 11 \text{ ft}$** (opposite $\angle A$)
+* **$\angle B = 76^\circ$**
+* **$\angle C = 69^\circ$**
+
+#### 2. Find the Third Angle ($\angle A$)
+Using the property that the interior angles of a triangle sum to $180^\circ$:
+$$\angle A = 180^\circ - (B + C)$$
+$$\angle A = 180^\circ - (76^\circ + 69^\circ)$$
+$$\angle A = 180^\circ - 145^\circ$$
+> [!success] Result
+> **$\angle A = 35^\circ$**
+
+#### 3. Solve for Side $b$
+Using the Law of Sines: $\frac{b}{\sin B} = \frac{a}{\sin A}$
+$$b = \frac{a \cdot \sin B}{\sin A}$$
+$$b = \frac{11 \cdot \sin(76^\circ)}{\sin(35^\circ)}$$
+$$b \approx \frac{11 \cdot 0.9703}{0.5736} \approx 18.61 \text{ ft}$$
+
+#### 4. Solve for Side $c$
+Using the Law of Sines: $\frac{c}{\sin C} = \frac{a}{\sin A}$
+$$c = \frac{a \cdot \sin C}{\sin A}$$
+$$c = \frac{11 \cdot \sin(69^\circ)}{\sin(35^\circ)}$$
+$$c \approx \frac{11 \cdot 0.9336}{0.5736} \approx 17.90 \text{ ft}$$
+
+---
+
+#### Final Answer Summary
+> [!info] Completed Triangle
+> * **Angles:** $A = 35^\circ$, $B = 76^\circ$, $C = 69^\circ$
+> * **Sides:** $a = 11 \text{ ft}$, $b \approx 18.61 \text{ ft}$, $c \approx 17.90 \text{ ft}$
