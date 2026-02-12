@@ -6910,6 +6910,26 @@ $$B_2 = 180^\circ - B_1$$
 
 > [!tip] Summary Rule
 > If the side opposite the given angle is **shorter** than the other given side ($a < b$), always check for the existence of two triangles!
+### Summary of SSA Ambiguous Case Conditions
+
+When dealing with the **Side-Side-Angle (SSA)** case, the number of possible triangles depends on the relationship between the side opposite the given angle ($a$), the side adjacent to the given angle ($b$), and the height of the potential triangle ($h = b \sin A$).
+
+---
+
+#### Possible Triangle Scenarios
+The following conditions determine whether you have zero, one, or two valid triangles:
+
+* **No Triangle:** * **Condition:** $a < h < b$
+    * **Logic:** The side opposite the angle ($a$) is shorter than the required height ($h$). It cannot reach the base.
+* **Right Triangle (1 Triangle):** * **Condition:** $a = h$ and $a < b$
+    * **Logic:** The side opposite exactly matches the height, forming a single unique right-angled triangle.
+* **One Unique Triangle:** * **Condition:** $a \ge b$
+    * **Logic:** When the side opposite the angle is greater than or equal to the adjacent side, only one triangle can be formed because the "swinging" side can only hit the base in one direction.
+* **Two Triangles (Ambiguous Case):** * **Condition:** $h < a < b$
+    * **Logic:** The side opposite is longer than the height but shorter than the adjacent side. It can "swing" in two directions to hit the base, creating one acute and one obtuse triangle.
+
+
+---
 ### $A = 61^\circ, b = 29 \text{ cm}, a = 20 \text{ cm}$
 
 This is a **Side-Side-Angle (SSA)** case, also known as the **Ambiguous Case**. Because the side opposite the given angle ($a$) is shorter than the adjacent side ($b$), we must first check if a triangle even exists by comparing $a$ to the height ($h$).
