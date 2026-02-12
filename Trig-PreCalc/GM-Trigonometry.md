@@ -6986,3 +6986,43 @@ Because $a = h$, we know $\angle C$ must be $90^\circ$.
 > [!success] Result: One Right Triangle
 > * **Angles:** $A = 30^\circ, B = 60^\circ, C = 90^\circ$
 > * **Sides:** $a = \sqrt{5} \approx 2.24 \text{ in}, b = \sqrt{15} \approx 3.87 \text{ in}, c = 2\sqrt{5} \approx 4.47 \text{ in}$
+### $C = 39^\circ, b = 28 \text{ in}, c = 30 \text{ in}$
+
+This is a **Side-Side-Angle (SSA)** case. Since the side opposite the given angle ($c$) is **longer** than the adjacent side ($b$), there is only **one unique triangle** possible. We do not need to check for a second obtuse case.
+
+---
+
+#### 1. Solve for $\angle B$ (Law of Sines)
+Set up the Law of Sines ratio to find the missing angle:
+$$\frac{\sin B}{b} = \frac{\sin C}{c}$$
+$$\sin B = \frac{28 \sin(39^\circ)}{30}$$
+
+* **Calculate:**
+  $$\sin B \approx \frac{28(0.6293)}{30} \approx 0.5874$$
+  $$B = \sin^{-1}(0.5874) \approx 35.97^\circ$$
+
+> [!note] Why only one triangle?
+> Since $c > b$ ($30 > 28$), the angle opposite the longer side ($C$) must be larger than the angle opposite the shorter side ($B$). Since $C$ is $39^\circ$, $\angle B$ must be less than $39^\circ$, which confirms only the acute solution is valid.
+
+#### 2. Find the Third Angle ($\angle A$)
+Using the Triangle Sum Theorem:
+$$\angle A = 180^\circ - (B + C)$$
+$$\angle A = 180^\circ - (35.97^\circ + 39^\circ)$$
+$$\angle A = 180^\circ - 74.97^\circ$$
+> [!success] Result
+> **$\angle A = 105.03^\circ$**
+
+#### 3. Solve for Side $a$
+Use the Law of Sines again to find the final side:
+$$\frac{a}{\sin A} = \frac{c}{\sin C}$$
+$$a = \frac{30 \sin(105.03^\circ)}{\sin(39^\circ)}$$
+
+* **Calculate:**
+  $$a \approx \frac{30(0.9658)}{0.6293} \approx 46.04 \text{ in}$$
+
+---
+
+#### Final Answer Summary
+> [!info] Completed Triangle
+> * **Angles:** $A \approx 105.03^\circ, B \approx 35.97^\circ, C = 39^\circ$
+> * **Sides:** $a \approx 46.04 \text{ in}, b = 28 \text{ in}, c = 30 \text{ in}$
