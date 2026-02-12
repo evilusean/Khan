@@ -6868,3 +6868,9 @@ $$c \approx \frac{11 \cdot 0.9336}{0.5736} \approx 17.90 \text{ ft}$$
 > * **Sides:** $a = 11 \text{ ft}$, $b \approx 18.61 \text{ ft}$, $c \approx 17.90 \text{ ft}$
 ## 2026-February-12 - Law of Sines(SSA=Side Side Angle) Ambiguous Case :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=14h56m20s
+- $\frac{sinA}{a} = \frac{sinB}{b} = \frac{sinC}{c}$ 
+- Assuming the triangle has sides that are all of different lengths:
+  The smallest angle is opposite the shortest side
+  The middle-valued angle is opposite the intermediate side
+  The largest angle is opposite the largest side
+
