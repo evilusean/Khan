@@ -7123,3 +7123,46 @@ Because the sine of an angle cannot be greater than **1**, there is no real valu
 #### Final Answer
 > [!caution] Conclusion
 > **No triangle exists** with the given measurements.
+### $A = 114^\circ, c = 8 \text{ ft}, a = 35 \text{ ft}$
+
+This is a **Side-Side-Angle (SSA)** case where the given angle is **obtuse** ($A > 90^\circ$). When dealing with an obtuse angle in SSA, the triangle is only possible if the side opposite the obtuse angle is the longest side.
+
+---
+
+#### 1. Analyze the Obtuse Condition
+In any triangle, the largest angle must be opposite the longest side. Since a triangle can only have one obtuse angle, $\angle A$ must be the largest angle, and side $a$ must be the longest side.
+
+* **Side opposite obtuse angle ($a$):** $35 \text{ ft}$
+* **Adjacent side ($c$):** $8 \text{ ft}$
+
+#### 2. Determine the Number of Triangles
+We compare the sides:
+* **Condition:** $a > c$ ($35 > 8$)
+* **Result:** Since the opposite side is longer than the adjacent side, **exactly one triangle** exists.
+
+
+#### 3. Solve for $\angle C$ (Law of Sines)
+$$\frac{\sin C}{c} = \frac{\sin A}{a}$$
+$$\sin C = \frac{8 \sin(114^\circ)}{35}$$
+Using $\sin(114^\circ) \approx 0.9135$:
+$$\sin C \approx \frac{8(0.9135)}{35} \approx 0.2088$$
+$$C = \sin^{-1}(0.2088) \approx 12.05^\circ$$
+
+#### 4. Find the Third Angle ($\angle B$)
+$$\angle B = 180^\circ - (114^\circ + 12.05^\circ)$$
+$$\angle B = 180^\circ - 126.05^\circ$$
+> [!success] Result
+> **$\angle B = 53.95^\circ$**
+
+#### 5. Solve for Side $b$
+$$\frac{b}{\sin B} = \frac{a}{\sin A}$$
+$$b = \frac{35 \sin(53.95^\circ)}{\sin(114^\circ)}$$
+Using $\sin(53.95^\circ) \approx 0.8085$:
+$$b \approx \frac{35(0.8085)}{0.9135} \approx 30.98 \text{ ft}$$
+
+---
+
+#### Final Answer Summary
+> [!info] Completed Triangle
+> * **Angles:** $A = 114^\circ, B \approx 53.95^\circ, C \approx 12.05^\circ$
+> * **Sides:** $a = 35 \text{ ft}, b \approx 30.98 \text{ ft}, c = 8 \text{ ft}$
