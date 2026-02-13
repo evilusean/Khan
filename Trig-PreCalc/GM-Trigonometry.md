@@ -7168,6 +7168,49 @@ $$b \approx \frac{35(0.8085)}{0.9135} \approx 30.98 \text{ ft}$$
 > * **Sides:** $a = 35 \text{ ft}, b \approx 30.98 \text{ ft}, c = 8 \text{ ft}$
 ## 2026-February-13 - Law of Cosines (SAS) & (SSS) - Heron's Formula for the Area of A Triangle : 
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=15h30m40s
+### Derivation of the Law of Cosines
+
+The Law of Cosines is derived by placing an oblique triangle on a coordinate plane and applying the **Pythagorean Theorem** and basic **Trigonometry**. It essentially accounts for the "gap" that prevents a non-right triangle from following $a^2 + b^2 = c^2$.
+
+---
+
+#### 1. Setting up the Coordinate Plane
+Place triangle $ABC$ on a Cartesian plane such that:
+* **Vertex $C$** is at the origin $(0, 0)$.
+* **Side $b$** lies along the x-axis. This means vertex $A$ has coordinates $(b, 0)$.
+* **Vertex $B$** is at some point $(x, y)$.
+
+#### 2. Defining Coordinates for Vertex $B$
+Using the definitions of sine and cosine for the angle $C$ and the hypotenuse $a$:
+* $x = a \cos(C)$
+* $y = a \sin(C)$
+So, vertex $B$ is located at $(a \cos C, a \sin C)$.
+
+
+
+#### 3. Using the Distance Formula
+Side $c$ is the distance between vertex $A(b, 0)$ and vertex $B(a \cos C, a \sin C)$. Using the distance formula ($d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$):
+$$c^2 = (a \cos C - b)^2 + (a \sin C - 0)^2$$
+
+#### 4. Expanding the Equation
+Expand the squared binomials:
+$$c^2 = (a^2 \cos^2 C - 2ab \cos C + b^2) + a^2 \sin^2 C$$
+
+Group the $a^2$ terms together:
+$$c^2 = a^2(\cos^2 C + \sin^2 C) + b^2 - 2ab \cos C$$
+
+#### 5. Applying the Pythagorean Identity
+Since the fundamental identity states that $\cos^2 C + \sin^2 C = 1$:
+$$c^2 = a^2(1) + b^2 - 2ab \cos C$$
+
+> [!success] The Result
+> $$c^2 = a^2 + b^2 - 2ab \cos C$$
+
+---
+
+#### Key Observations
+* If $C = 90^\circ$, then $\cos(90^\circ) = 0$. The formula reduces to $c^2 = a^2 + b^2$, which is the **Pythagorean Theorem**.
+* If $C > 90^\circ$, $\cos(C)$ is negative, making the $-2ab \cos C$ term positive, which correctly shows that $c^2$ will be larger than the sum of the squares of the other two sides.
 ### Law of Cosines (SAS) & (SSS)
 
 The **Law of Cosines** is used to solve oblique triangles when the Law of Sines cannot be applied—specifically when you don't have a known side-angle pair. It is the trigonometric generalization of the Pythagorean Theorem.
