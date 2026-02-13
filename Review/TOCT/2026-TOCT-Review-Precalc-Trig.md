@@ -692,3 +692,31 @@ By dropping altitudes from different vertices, this relationship can be proven f
 > - $K = \frac{1}{2}bc \sin(A)$
 > - $K = \frac{1}{2}ac \sin(B)$
 > - $K = \frac{1}{2}ab \sin(C)$
+### Law of Cosines :
+#### 1. The Formulas
+For a triangle with sides $a, b, c$ and opposite angles $A, B, C$:
+
+**To find a Side:**
+* $a^2 = b^2 + c^2 - 2bc \cos(A)$
+* $b^2 = a^2 + c^2 - 2ac \cos(B)$
+* $c^2 = a^2 + b^2 - 2ab \cos(C)$
+
+**To find an Angle:**
+* $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$
+* $\cos(B) = \frac{a^2 + c^2 - b^2}{2ac}$
+* $\cos(C) = \frac{a^2 + b^2 - c^2}{2ab}$
+#### 2. Case 1: Side-Angle-Side (SAS)
+Used when you know two sides and the included angle.
+
+* **Step 1:** Use the Law of Cosines to find the third (opposite) side.
+* **Step 2:** Use the **Law of Sines** to find the smaller of the two remaining angles (this avoids the ambiguous case).
+* **Step 3:** Use the Triangle Sum Theorem ($180^\circ$) to find the final angle.
+
+---
+#### 3. Case 2: Side-Side-Side (SSS)
+Used when you know all three sides but no angles.
+
+* **Step 1:** Use the Law of Cosines to find the **largest angle** first (the one opposite the longest side).
+    * *Reasoning:* If the triangle is obtuse, the Law of Cosines will correctly return a negative value for the cosine, whereas the Law of Sines might lead to an ambiguous result.
+* **Step 2:** Use the Law of Sines to find either of the remaining acute angles.
+* **Step 3:** Subtract from $180^\circ$ to find the last angle.

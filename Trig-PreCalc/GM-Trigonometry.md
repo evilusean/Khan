@@ -7181,8 +7181,6 @@ Based on the provided diagram, we place triangle $ABC$ on a Cartesian plane such
 * **Vertex $B$** is at the origin $(0, 0)$.
 * **Side $a$** lies along the positive x-axis. This means vertex $C$ has coordinates $(a, 0)$.
 * **Vertex $A$** is at some point $(x, y)$ in the second quadrant (since $\angle B$ is shown as obtuse).
-
-
 #### 2. Defining Coordinates for Vertex $A$
 Using the definitions of sine and cosine for angle $B$ and the hypotenuse $c$:
 * **Horizontal position:** $x = c \cos(B)$
