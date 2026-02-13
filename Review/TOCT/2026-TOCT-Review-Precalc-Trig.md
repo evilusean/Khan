@@ -720,3 +720,16 @@ Used when you know all three sides but no angles.
     * *Reasoning:* If the triangle is obtuse, the Law of Cosines will correctly return a negative value for the cosine, whereas the Law of Sines might lead to an ambiguous result.
 * **Step 2:** Use the Law of Sines to find either of the remaining acute angles.
 * **Step 3:** Subtract from $180^\circ$ to find the last angle.
+### Heron's Formula for the Area of a Triangle
+
+**Heron's Formula** allows you to calculate the area of any triangle when you know the lengths of all three sides (**SSS**) without needing to know any angles or the vertical height.
+
+---
+
+#### 1. The Semi-perimeter ($s$)
+Before finding the area, you must calculate the **semi-perimeter**, which is half of the triangle's total perimeter.
+$$s = \frac{a + b + c}{2}$$
+
+#### 2. The Area Formula ($K$)
+Once you have the semi-perimeter ($s$), the area ($K$) is given by:
+$$K = \sqrt{s(s - a)(s - b)(s - c)}$$
