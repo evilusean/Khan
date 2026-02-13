@@ -7170,6 +7170,8 @@ $$b \approx \frac{35(0.8085)}{0.9135} \approx 30.98 \text{ ft}$$
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=15h30m40s
 ### Derivation of the Law of Cosines
 
+![[Pasted image 20260213140854.png]]
+
 The Law of Cosines is derived by placing an oblique triangle on a coordinate plane and applying the **Pythagorean Theorem** and basic **Trigonometry**. It essentially accounts for the "gap" that prevents a non-right triangle from following $a^2 + b^2 = c^2$.
 
 ---
