@@ -7438,3 +7438,59 @@ To find the area for an SSS case, we use Heron's Formula:
 > * **Sides:** $a = 17 \text{ mi}, b = 15 \text{ mi}, c = 28 \text{ mi}$
 > * **Angles:** $A \approx 31.00^\circ, B \approx 27.03^\circ, C \approx 121.97^\circ$
 > * **Area:** $\approx 108.17 \text{ mi}^2$
+### $a = 13 \text{ ft}, b = 29 \text{ ft}, c = 21 \text{ ft}$
+
+This is a **Side-Side-Side (SSS)** case. When solving an SSS triangle, you should always find the **largest angle first** using the Law of Cosines. This ensures that if the triangle is obtuse, the cosine value will naturally be negative, avoiding any ambiguity.
+
+---
+
+#### 1. Find $\angle B$ (Law of Cosines)
+Side $b$ (29 ft) is the longest side, so we solve for $\angle B$:
+$$\cos(B) = \frac{a^2 + c^2 - b^2}{2ac}$$
+
+* **Plug in the values:**
+  $$\cos(B) = \frac{13^2 + 21^2 - 29^2}{2(13)(21)}$$
+  $$\cos(B) = \frac{169 + 441 - 841}{546}$$
+  $$\cos(B) = \frac{610 - 841}{546} = \frac{-231}{546}$$
+
+* **Calculate:**
+  $$\cos(B) \approx -0.42307$$
+  $$B = \cos^{-1}(-0.42307) \approx 115.03^\circ$$
+
+
+
+---
+
+#### 2. Find $\angle C$ (Law of Sines)
+Now that we have one angle, use the Law of Sines to find the next angle:
+$$\frac{\sin C}{c} = \frac{\sin B}{b} \implies \sin C = \frac{21 \sin(115.03^\circ)}{29}$$
+
+* **Calculate:**
+  $$\sin C \approx \frac{21(0.9061)}{29} \approx 0.6561$$
+  $$C = \sin^{-1}(0.6561) \approx 41.01^\circ$$
+
+---
+
+#### 3. Find $\angle A$ (Triangle Sum Theorem)
+$$\angle A = 180^\circ - (115.03^\circ + 41.01^\circ)$$
+$$\angle A = 180^\circ - 156.04^\circ$$
+**$\angle A = 23.96^\circ$**
+
+---
+
+#### 4. Calculate the Area (Heron's Formula)
+* **Semi-perimeter ($s$):** $$s = \frac{13 + 29 + 21}{2} = \frac{63}{2} = 31.5$$
+
+* **Area Calculation ($K$):**
+  $$K = \sqrt{s(s-a)(s-b)(s-c)}$$
+  $$K = \sqrt{31.5(31.5 - 13)(31.5 - 29)(31.5 - 21)}$$
+  $$K = \sqrt{31.5(18.5)(2.5)(10.5)}$$
+  $$K = \sqrt{15296.4375} \approx 123.68 \text{ ft}^2$$
+
+---
+
+#### Final Answer Summary
+> [!info] Completed Triangle
+> * **Sides:** $a = 13 \text{ ft}, b = 29 \text{ ft}, c = 21 \text{ ft}$
+> * **Angles:** $A \approx 23.96^\circ, B \approx 115.03^\circ, C \approx 41.01^\circ$
+> * **Area:** $\approx 123.68 \text{ ft}^2$
