@@ -7340,3 +7340,53 @@ $$Area \approx 283.5(0.9848) \approx 279.19 \text{ in}^2$$
 > * **Sides:** $a = 27 \text{ in}, b = 21 \text{ in}, c \approx 36.97 \text{ in}$
 > * **Angles:** $A \approx 45.99^\circ, B \approx 34.01^\circ, C = 100^\circ$
 > * **Area:** $\approx 279.19 \text{ in}^2$
+### $a = 28 \text{ cm}, c = 16 \text{ cm}, B = 89^\circ$
+
+This is a **Side-Angle-Side (SAS)** case. To solve the triangle, we first use the **Law of Cosines** to find the third side, and then use the **Law of Sines** to find the remaining angles.
+
+---
+
+#### 1. Find Side $b$ (Law of Cosines)
+Using the formula for side $b$:
+$$b^2 = a^2 + c^2 - 2ac \cos(B)$$
+
+* **Plug in the values:**
+  $$b^2 = 28^2 + 16^2 - 2(28)(16) \cos(89^\circ)$$
+  $$b^2 = 784 + 256 - 896 \cos(89^\circ)$$
+* **Calculate $\cos(89^\circ)$:** $\cos(89^\circ) \approx 0.0175$
+  $$b^2 \approx 1040 - 896(0.0175)$$
+  $$b^2 \approx 1040 - 15.68 = 1024.32$$
+* **Solve for $b$:**
+  $$b \approx \sqrt{1024.32} \approx 32.01 \text{ cm}$$
+
+
+
+#### 2. Find $\angle C$ (Law of Sines)
+We solve for the smaller angle ($\angle C$) first to avoid any ambiguity:
+$$\frac{\sin C}{c} = \frac{\sin B}{b}$$
+$$\sin C = \frac{16 \sin(89^\circ)}{32.01}$$
+
+* **Calculate:**
+  $$\sin C \approx \frac{16(0.9998)}{32.01} \approx 0.4997$$
+  $$C \approx \sin^{-1}(0.4997) \approx 29.98^\circ$$
+
+#### 3. Find $\angle A$ (Triangle Sum Theorem)
+$$\angle A = 180^\circ - (B + C)$$
+$$\angle A = 180^\circ - (89^\circ + 29.98^\circ)$$
+$$\angle A = 180^\circ - 118.98^\circ$$
+> [!success] Result
+> **$\angle A = 61.02^\circ$**
+
+#### 4. Calculate the Area
+Using the SAS area formula:
+$$Area = \frac{1}{2}ac \sin(B)$$
+$$Area = \frac{1}{2}(28)(16) \sin(89^\circ)$$
+$$Area \approx 224(0.9998) \approx 223.96 \text{ cm}^2$$
+
+---
+
+#### Final Answer Summary
+> [!info] Completed Triangle
+> * **Sides:** $a = 28 \text{ cm}, b \approx 32.01 \text{ cm}, c = 16 \text{ cm}$
+> * **Angles:** $A \approx 61.02^\circ, B = 89^\circ, C \approx 29.98^\circ$
+> * **Area:** $\approx 223.96 \text{ cm}^2$
