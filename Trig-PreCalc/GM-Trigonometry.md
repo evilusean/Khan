@@ -7210,3 +7210,43 @@ Used when you know all three sides but no angles.
 > 2. In **SSS**, always find the *largest* angle first.
 > 3. If $\cos(\theta)$ is negative, the angle is **obtuse** ($90^\circ < \theta < 180^\circ$).
 > 4. If $\cos(\theta)$ is positive, the angle is **acute** ($0^\circ < \theta < 90^\circ$).
+### Heron's Formula for the Area of a Triangle
+
+**Heron's Formula** allows you to calculate the area of any triangle when you know the lengths of all three sides (**SSS**) without needing to know any angles or the vertical height.
+
+---
+
+#### 1. The Semi-perimeter ($s$)
+Before finding the area, you must calculate the **semi-perimeter**, which is half of the triangle's total perimeter.
+$$s = \frac{a + b + c}{2}$$
+
+#### 2. The Area Formula ($K$)
+Once you have the semi-perimeter ($s$), the area ($K$) is given by:
+$$K = \sqrt{s(s - a)(s - b)(s - c)}$$
+
+---
+
+#### 3. Step-by-Step Application
+To use this formula in your notes:
+1. **Sum** the three side lengths.
+2. **Divide** by 2 to get $s$.
+3. **Subtract** each individual side from $s$ ($s-a$, $s-b$, and $s-c$).
+4. **Multiply** $s$ by those three differences.
+5. **Take the square root** of the result.
+
+---
+
+#### 4. Example Calculation
+If a triangle has sides **$a = 13$**, **$b = 14$**, and **$c = 15$**:
+* **Semi-perimeter:** $s = \frac{13 + 14 + 15}{2} = \frac{42}{2} = 21$
+* **Area Calculation:**
+  $$K = \sqrt{21(21 - 13)(21 - 14)(21 - 15)}$$
+  $$K = \sqrt{21(8)(7)(6)}$$
+  $$K = \sqrt{7056}$$
+  $$K = 84 \text{ square units}$$
+
+---
+
+> [!tip] When to use Heron's vs. Sine Area
+> * Use **Heron's** when you have **SSS**.
+> * Use **$K = \frac{1}{2}ab \sin(C)$** when you have **SAS**.
