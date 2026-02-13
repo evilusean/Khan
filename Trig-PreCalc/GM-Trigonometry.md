@@ -7166,14 +7166,13 @@ $$b \approx \frac{35(0.8085)}{0.9135} \approx 30.98 \text{ ft}$$
 > [!info] Completed Triangle
 > * **Angles:** $A = 114^\circ, B \approx 53.95^\circ, C \approx 12.05^\circ$
 > * **Sides:** $a = 35 \text{ ft}, b \approx 30.98 \text{ ft}, c = 8 \text{ ft}$
-## 2026-February-13 - Law of Cosines (SAS) & (SSS) = Heron's Formula for the Area of A Triangle : 
+## 2026-February-13 - Law of Cosines (SAS) & (SSS) - Heron's Formula for the Area of A Triangle : 
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=15h30m40s
 ### Law of Cosines (SAS) & (SSS)
 
 The **Law of Cosines** is used to solve oblique triangles when the Law of Sines cannot be applied—specifically when you don't have a known side-angle pair. It is the trigonometric generalization of the Pythagorean Theorem.
 
 ---
-
 #### 1. The Formulas
 For a triangle with sides $a, b, c$ and opposite angles $A, B, C$:
 
@@ -7188,7 +7187,6 @@ For a triangle with sides $a, b, c$ and opposite angles $A, B, C$:
 * $\cos(C) = \frac{a^2 + b^2 - c^2}{2ab}$
 
 ---
-
 #### 2. Case 1: Side-Angle-Side (SAS)
 Used when you know two sides and the included angle.
 
@@ -7196,10 +7194,7 @@ Used when you know two sides and the included angle.
 * **Step 2:** Use the **Law of Sines** to find the smaller of the two remaining angles (this avoids the ambiguous case).
 * **Step 3:** Use the Triangle Sum Theorem ($180^\circ$) to find the final angle.
 
-
-
 ---
-
 #### 3. Case 2: Side-Side-Side (SSS)
 Used when you know all three sides but no angles.
 
@@ -7208,10 +7203,7 @@ Used when you know all three sides but no angles.
 * **Step 2:** Use the Law of Sines to find either of the remaining acute angles.
 * **Step 3:** Subtract from $180^\circ$ to find the last angle.
 
-
-
 ---
-
 #### 4. Pro-Tips for Accuracy
 > [!tip] Order Matters
 > 1. In **SAS**, find the side first, then the *smaller* angle.
