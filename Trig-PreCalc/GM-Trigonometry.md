@@ -7390,3 +7390,51 @@ $$Area \approx 224(0.9998) \approx 223.96 \text{ cm}^2$$
 > * **Sides:** $a = 28 \text{ cm}, b \approx 32.01 \text{ cm}, c = 16 \text{ cm}$
 > * **Angles:** $A \approx 61.02^\circ, B = 89^\circ, C \approx 29.98^\circ$
 > * **Area:** $\approx 223.96 \text{ cm}^2$
+### $a = 17 \text{ mi}, b = 15 \text{ mi}, c = 28 \text{ mi}$
+
+This is a **Side-Side-Side (SSS)** case. When solving for angles in an SSS triangle, the best practice is to find the **largest angle first** (the one opposite the longest side) using the **Law of Cosines**. This prevents any confusion regarding obtuse versus acute angles later.
+
+---
+
+#### 1. Find $\angle C$ (Law of Cosines)
+Since side $c$ (28 mi) is the longest side, we solve for $\angle C$ first:
+$$\cos(C) = \frac{a^2 + b^2 - c^2}{2ab}$$
+
+* **Plug in the values:**
+  $$\cos(C) = \frac{17^2 + 15^2 - 28^2}{2(17)(15)}$$
+  $$\cos(C) = \frac{289 + 225 - 784}{510}$$
+  $$\cos(C) = \frac{514 - 784}{510} = \frac{-270}{510}$$
+* **Calculate:**
+  $$\cos(C) \approx -0.5294$$
+  $$C = \cos^{-1}(-0.5294) \approx 121.97^\circ$$
+
+
+
+#### 2. Find $\angle A$ (Law of Sines)
+Now that we have one angle-side pair, we can use the Law of Sines for the remaining angles:
+$$\frac{\sin A}{a} = \frac{\sin C}{c} \implies \sin A = \frac{17 \sin(121.97^\circ)}{28}$$
+* **Calculate:**
+  $$\sin A \approx \frac{17(0.8483)}{28} \approx 0.5150$$
+  $$A = \sin^{-1}(0.5150) \approx 31.00^\circ$$
+
+#### 3. Find $\angle B$ (Triangle Sum Theorem)
+$$\angle B = 180^\circ - (121.97^\circ + 31.00^\circ)$$
+$$\angle B = 180^\circ - 152.97^\circ$$
+> [!success] Result
+> **$\angle B = 27.03^\circ$**
+
+#### 4. Calculate the Area (Heron's Formula)
+To find the area for an SSS case, we use Heron's Formula:
+* **Semi-perimeter ($s$):** $\frac{17 + 15 + 28}{2} = \frac{60}{2} = 30$
+* **Area Calculation:**
+  $$K = \sqrt{30(30 - 17)(30 - 15)(30 - 28)}$$
+  $$K = \sqrt{30(13)(15)(2)}$$
+  $$K = \sqrt{11700} \approx 108.17 \text{ mi}^2$$
+
+---
+
+#### Final Answer Summary
+> [!info] Completed Triangle
+> * **Sides:** $a = 17 \text{ mi}, b = 15 \text{ mi}, c = 28 \text{ mi}$
+> * **Angles:** $A \approx 31.00^\circ, B \approx 27.03^\circ, C \approx 121.97^\circ$
+> * **Area:** $\approx 108.17 \text{ mi}^2$
