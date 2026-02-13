@@ -7172,47 +7172,46 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=15h30m40s
 
 ![[Pasted image 20260213140854.png]]
 
-The Law of Cosines is derived by placing an oblique triangle on a coordinate plane and applying the **Pythagorean Theorem** and basic **Trigonometry**. It essentially accounts for the "gap" that prevents a non-right triangle from following $a^2 + b^2 = c^2$.
+The Law of Cosines is derived by placing an oblique triangle on a coordinate plane and applying the **Pythagorean Theorem**. By using the coordinates of the vertices, we can algebraically prove the relationship between the three sides and one included angle.
 
 ---
 
 #### 1. Setting up the Coordinate Plane
-Place triangle $ABC$ on a Cartesian plane such that:
-* **Vertex $C$** is at the origin $(0, 0)$.
-* **Side $b$** lies along the x-axis. This means vertex $A$ has coordinates $(b, 0)$.
-* **Vertex $B$** is at some point $(x, y)$.
-
-#### 2. Defining Coordinates for Vertex $B$
-Using the definitions of sine and cosine for the angle $C$ and the hypotenuse $a$:
-* $x = a \cos(C)$
-* $y = a \sin(C)$
-So, vertex $B$ is located at $(a \cos C, a \sin C)$.
+Based on the provided diagram, we place triangle $ABC$ on a Cartesian plane such that:
+* **Vertex $B$** is at the origin $(0, 0)$.
+* **Side $a$** lies along the positive x-axis. This means vertex $C$ has coordinates $(a, 0)$.
+* **Vertex $A$** is at some point $(x, y)$ in the second quadrant (since $\angle B$ is shown as obtuse).
 
 
+#### 2. Defining Coordinates for Vertex $A$
+Using the definitions of sine and cosine for angle $B$ and the hypotenuse $c$:
+* **Horizontal position:** $x = c \cos(B)$
+* **Vertical position:** $y = c \sin(B)$
+So, vertex $A$ is located at $(c \cos B, c \sin B)$.
 
 #### 3. Using the Distance Formula
-Side $c$ is the distance between vertex $A(b, 0)$ and vertex $B(a \cos C, a \sin C)$. Using the distance formula ($d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$):
-$$c^2 = (a \cos C - b)^2 + (a \sin C - 0)^2$$
+Side $b$ is the distance between vertex $C(a, 0)$ and vertex $A(c \cos B, c \sin B)$. Using the distance formula ($d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$):
+$$b^2 = (c \cos B - a)^2 + (c \sin B - 0)^2$$
 
 #### 4. Expanding the Equation
 Expand the squared binomials:
-$$c^2 = (a^2 \cos^2 C - 2ab \cos C + b^2) + a^2 \sin^2 C$$
+$$b^2 = (c^2 \cos^2 B - 2ac \cos B + a^2) + c^2 \sin^2 B$$
 
-Group the $a^2$ terms together:
-$$c^2 = a^2(\cos^2 C + \sin^2 C) + b^2 - 2ab \cos C$$
+Group the $c^2$ terms together:
+$$b^2 = c^2(\cos^2 B + \sin^2 B) + a^2 - 2ac \cos B$$
 
 #### 5. Applying the Pythagorean Identity
-Since the fundamental identity states that $\cos^2 C + \sin^2 C = 1$:
-$$c^2 = a^2(1) + b^2 - 2ab \cos C$$
+Since the fundamental identity states that $\sin^2 B + \cos^2 B = 1$:
+$$b^2 = c^2(1) + a^2 - 2ac \cos B$$
 
 > [!success] The Result
-> $$c^2 = a^2 + b^2 - 2ab \cos C$$
+> $$b^2 = a^2 + c^2 - 2ac \cos B$$
 
 ---
 
-#### Key Observations
-* If $C = 90^\circ$, then $\cos(90^\circ) = 0$. The formula reduces to $c^2 = a^2 + b^2$, which is the **Pythagorean Theorem**.
-* If $C > 90^\circ$, $\cos(C)$ is negative, making the $-2ab \cos C$ term positive, which correctly shows that $c^2$ will be larger than the sum of the squares of the other two sides.
+#### Key Observations from the Image
+* **Obtuse Angles:** In the diagram, vertex $A$ is in the second quadrant. In this quadrant, $\cos(B)$ is negative. When you plug a negative value into $-2ac \cos B$, the term becomes positive, correctly resulting in a longer side $b$.
+* **Generality:** Although the image shows $\angle B$ as obtuse, this algebraic derivation works for any angle measure.
 ### Law of Cosines (SAS) & (SSS)
 
 The **Law of Cosines** is used to solve oblique triangles when the Law of Sines cannot be applied—specifically when you don't have a known side-angle pair. It is the trigonometric generalization of the Pythagorean Theorem.
