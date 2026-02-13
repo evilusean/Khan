@@ -7166,3 +7166,4 @@ $$b \approx \frac{35(0.8085)}{0.9135} \approx 30.98 \text{ ft}$$
 > [!info] Completed Triangle
 > * **Angles:** $A = 114^\circ, B \approx 53.95^\circ, C \approx 12.05^\circ$
 > * **Sides:** $a = 35 \text{ ft}, b \approx 30.98 \text{ ft}, c = 8 \text{ ft}$
+## 2026-February-13 - Law of Cosines (SAS) & (SSS) = Heron's Formula for the Area of A Triangle : 
