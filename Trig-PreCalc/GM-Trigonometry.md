@@ -7292,3 +7292,51 @@ If a triangle has sides **$a = 13$**, **$b = 14$**, and **$c = 15$**:
 > [!tip] When to use Heron's vs. Sine Area
 > * Use **Heron's** when you have **SSS**.
 > * Use **$K = \frac{1}{2}ab \sin(C)$** when you have **SAS**.
+### $a = 27 \text{ in}, b = 21 \text{ in}, C = 100^\circ$
+
+This is a **Side-Angle-Side (SAS)** case. Because we do not have a known side-angle opposite pair, we must use the **Law of Cosines** to find the third side first.
+
+---
+
+#### 1. Find Side $c$ (Law of Cosines)
+Using the formula for side $c$:
+$$c^2 = a^2 + b^2 - 2ab \cos(C)$$
+
+* **Plug in the values:**
+  $$c^2 = 27^2 + 21^2 - 2(27)(21) \cos(100^\circ)$$
+  $$c^2 = 729 + 441 - 1134 \cos(100^\circ)$$
+* **Calculate $\cos(100^\circ)$:** $\cos(100^\circ) \approx -0.1736$
+  $$c^2 \approx 1170 - 1134(-0.1736)$$
+  $$c^2 \approx 1170 + 196.86 = 1366.86$$
+* **Solve for $c$:**
+  $$c \approx \sqrt{1366.86} \approx 36.97 \text{ in}$$
+
+
+
+#### 2. Find $\angle B$ (Law of Sines)
+Now that we have side $c$, we use the Law of Sines. It is best practice to find the smaller angle ($B$) first to ensure we stay in the acute range:
+$$\frac{\sin B}{b} = \frac{\sin C}{c}$$
+$$\sin B = \frac{21 \sin(100^\circ)}{36.97}$$
+* **Calculate:**
+  $$\sin B \approx \frac{21(0.9848)}{36.97} \approx 0.5594$$
+  $$B \approx \sin^{-1}(0.5594) \approx 34.01^\circ$$
+
+#### 3. Find $\angle A$ (Triangle Sum Theorem)
+$$\angle A = 180^\circ - (100^\circ + 34.01^\circ)$$
+$$\angle A = 180^\circ - 134.01^\circ$$
+> [!success] Result
+> **$\angle A = 45.99^\circ$**
+
+#### 4. Calculate the Area
+Since we have SAS, we use the sine area formula:
+$$Area = \frac{1}{2}ab \sin(C)$$
+$$Area = \frac{1}{2}(27)(21) \sin(100^\circ)$$
+$$Area \approx 283.5(0.9848) \approx 279.19 \text{ in}^2$$
+
+---
+
+#### Final Answer Summary
+> [!info] Completed Triangle
+> * **Sides:** $a = 27 \text{ in}, b = 21 \text{ in}, c \approx 36.97 \text{ in}$
+> * **Angles:** $A \approx 45.99^\circ, B \approx 34.01^\circ, C = 100^\circ$
+> * **Area:** $\approx 279.19 \text{ in}^2$
