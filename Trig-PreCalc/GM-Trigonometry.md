@@ -7258,6 +7258,8 @@ Used when you know all three sides but no angles.
 
 ---
 
+**s** = perimeter
+
 #### 1. The Semi-perimeter ($s$)
 Before finding the area, you must calculate the **semi-perimeter**, which is half of the triangle's total perimeter.
 $$s = \frac{a + b + c}{2}$$
@@ -7494,3 +7496,43 @@ $$\angle A = 180^\circ - 156.04^\circ$$
 > * **Sides:** $a = 13 \text{ ft}, b = 29 \text{ ft}, c = 21 \text{ ft}$
 > * **Angles:** $A \approx 23.96^\circ, B \approx 115.03^\circ, C \approx 41.01^\circ$
 > * **Area:** $\approx 123.68 \text{ ft}^2$
+### $a = 10.7 \text{ m}, b = 9 \text{ m}, c = 10.5 \text{ m}$
+
+To find the area of a triangle when all three sides are known (**SSS**), we use **Heron's Formula**. This method is efficient because it does not require calculating any internal angles first.
+
+**s** = perimeter
+
+---
+
+#### 1. Calculate the Semi-perimeter ($s$)
+The semi-perimeter is half of the triangle's total perimeter:
+$$s = \frac{a + b + c}{2}$$
+$$s = \frac{10.7 + 9 + 10.5}{2}$$
+$$s = \frac{30.2}{2} = 15.1 \text{ m}$$
+
+---
+
+#### 2. Apply Heron's Formula
+The formula for area ($K$) is:
+$$K = \sqrt{s(s - a)(s - b)(s - c)}$$
+
+* **Step 2a: Find the differences**
+    * $(s - a) = 15.1 - 10.7 = 4.4$
+    * $(s - b) = 15.1 - 9.0 = 6.1$
+    * $(s - c) = 15.1 - 10.5 = 4.6$
+
+* **Step 2b: Multiply the terms**
+    $$K = \sqrt{15.1 \times 4.4 \times 6.1 \times 4.6}$$
+    $$K = \sqrt{1865.1184}$$
+
+* **Step 2c: Take the square root**
+    $$K \approx 43.19 \text{ m}^2$$
+
+---
+
+#### Final Answer Summary
+> [!success] Calculation Result
+> * **Semi-perimeter ($s$):** $15.1 \text{ m}$
+> * **Total Area:** $\approx 43.19 \text{ m}^2$
+
+---
