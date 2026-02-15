@@ -7727,3 +7727,51 @@ $$\theta = 180^\circ + 40.60^\circ$$
 > * **Component Form:** $\langle -7, -6 \rangle$
 > * **Magnitude:** $\sqrt{85} \approx 9.22$
 > * **Direction Angle:** $220.60^\circ$
+### $\overrightarrow{PQ}$ where $P = (2, -9)$ and $Q = (1, -4)$
+
+To solve this vector for your notes, we first need to find its **component form** by calculating the displacement from the initial point $P$ to the terminal point $Q$. Then, we will find its **magnitude** and **direction angle**.
+
+---
+
+#### 1. Find Component Form ($\langle a, b \rangle$)
+The components are found by subtracting the coordinates of the initial point from the terminal point ($Q - P$):
+* $a = x_2 - x_1 = 1 - 2 = -1$
+* $b = y_2 - y_1 = -4 - (-9) = 5$
+
+> [!success] Component Form
+> **$\overrightarrow{PQ} = \langle -1, 5 \rangle$**
+
+---
+
+#### 2. Calculate the Magnitude ($\|\overrightarrow{PQ}\|$)
+The magnitude represents the length of the vector:
+$$\|\overrightarrow{PQ}\| = \sqrt{a^2 + b^2}$$
+$$\|\overrightarrow{PQ}\| = \sqrt{(-1)^2 + (5)^2}$$
+$$\|\overrightarrow{PQ}\| = \sqrt{1 + 25}$$
+**$\|\overrightarrow{PQ}\| = \sqrt{26} \approx 5.10$**
+
+---
+
+#### 3. Find the Direction Angle ($\theta$)
+**Step A: Find the Reference Angle ($\theta'$)**
+$$\tan(\theta') = \left| \frac{b}{a} \right| = \frac{5}{1}$$
+$$\theta' = \tan^{-1}(5) \approx 78.69^\circ$$
+
+**Step B: Determine the Quadrant**
+* $a = -1$ (Left)
+* $b = 5$ (Up)
+* The vector lies in **Quadrant II**.
+
+
+**Step C: Calculate $\theta$**
+In Quadrant II, we subtract the reference angle from $180^\circ$:
+$$\theta = 180^\circ - 78.69^\circ$$
+**$\theta = 101.31^\circ$**
+
+---
+
+#### Final Answer Summary
+> [!info] Vector Properties
+> * **Component Form:** $\langle -1, 5 \rangle$
+> * **Magnitude:** $\sqrt{26} \approx 5.10$
+> * **Direction Angle:** $101.31^\circ$
