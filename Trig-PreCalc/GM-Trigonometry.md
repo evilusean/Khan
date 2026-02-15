@@ -7775,3 +7775,44 @@ $$\theta = 180^\circ - 78.69^\circ$$
 > * **Component Form:** $\langle -1, 5 \rangle$
 > * **Magnitude:** $\sqrt{26} \approx 5.10$
 > * **Direction Angle:** $101.31^\circ$
+### $|\vec{n}| = 27, \theta = 300^\circ$
+
+In this problem, we are given the **magnitude** and the **direction angle** of vector $\vec{n}$. To "solve" this for your notes, we need to find the **component form** $\langle a, b \rangle$ by resolving the vector into its horizontal and vertical parts.
+
+---
+
+#### 1. Find the Horizontal Component ($a$)
+The horizontal component is found using the cosine of the direction angle:
+$$a = |\vec{n}| \cos(\theta)$$
+$$a = 27 \cos(300^\circ)$$
+
+* **Reference Angle:** $300^\circ$ is in Quadrant IV, where the reference angle is $360^\circ - 300^\circ = 60^\circ$.
+* **Value:** $\cos(300^\circ) = \cos(60^\circ) = 0.5$
+$$a = 27(0.5) = 13.5$$
+
+---
+
+#### 2. Find the Vertical Component ($b$)
+The vertical component is found using the sine of the direction angle:
+$$b = |\vec{n}| \sin(\theta)$$
+$$b = 27 \sin(300^\circ)$$
+
+* **Value:** In Quadrant IV, sine is negative. $\sin(300^\circ) = -\sin(60^\circ) = -\frac{\sqrt{3}}{2} \approx -0.8660$
+$$b = 27(-0.8660) \approx -23.38$$
+
+
+---
+
+#### 3. Component Form Result
+Combining the horizontal and vertical parts into a vector:
+> [!success] Result
+> **$\vec{n} = \langle 13.5, -23.38 \rangle$**
+
+---
+
+#### Final Answer Summary
+> [!info] Vector Properties
+> * **Magnitude:** $27$
+> * **Direction Angle:** $300^\circ$
+> * **Component Form:** $\langle 13.5, -23.38 \rangle$
+> * **Linear Combination:** $13.5\hat{i} - 23.38\hat{j}$
