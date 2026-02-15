@@ -7536,3 +7536,51 @@ $$K = \sqrt{s(s - a)(s - b)(s - c)}$$
 > * **Total Area:** $\approx 43.19 \text{ m}^2$
 
 ---
+### $b = 7 \text{ m}, c = 5 \text{ m}, A = 71^\circ$
+
+This is a **Side-Angle-Side (SAS)** case. Since we have two sides and the included angle, we must use the **Law of Cosines** to find the missing side ($a$) before we can find the remaining angles.
+
+---
+
+#### 1. Find Side $a$ (Law of Cosines)
+Using the formula for side $a$:
+$$a^2 = b^2 + c^2 - 2bc \cos(A)$$
+
+* **Plug in the values:**
+  $$a^2 = 7^2 + 5^2 - 2(7)(5) \cos(71^\circ)$$
+  $$a^2 = 49 + 25 - 70 \cos(71^\circ)$$
+* **Calculate $\cos(71^\circ)$:** $\cos(71^\circ) \approx 0.3256$
+  $$a^2 \approx 74 - 70(0.3256)$$
+  $$a^2 \approx 74 - 22.79 = 51.21$$
+* **Solve for $a$:**
+  $$a \approx \sqrt{51.21} \approx 7.16 \text{ m}$$
+
+
+
+#### 2. Find $\angle C$ (Law of Sines)
+It is safest to find the smaller angle next. Since side $c$ (5 m) is smaller than side $b$ (7 m), we solve for $\angle C$:
+$$\frac{\sin C}{c} = \frac{\sin A}{a} \implies \sin C = \frac{5 \sin(71^\circ)}{7.16}$$
+
+* **Calculate:**
+  $$\sin C \approx \frac{5(0.9455)}{7.16} \approx 0.6603$$
+  $$C = \sin^{-1}(0.6603) \approx 41.32^\circ$$
+
+#### 3. Find $\angle B$ (Triangle Sum Theorem)
+$$\angle B = 180^\circ - (71^\circ + 41.32^\circ)$$
+$$\angle B = 180^\circ - 112.32^\circ$$
+**$\angle B = 67.68^\circ$**
+
+#### 4. Calculate the Area
+Since we have SAS, we can use the sine-based area formula:
+$$Area = \frac{1}{2}bc \sin(A)$$
+$$Area = \frac{1}{2}(7)(5) \sin(71^\circ)$$
+$$Area = 17.5(0.9455) \approx 16.55 \text{ m}^2$$
+
+---
+
+#### Final Answer Summary
+> [!info] Completed Triangle
+> * **Sides:** $a \approx 7.16 \text{ m}, b = 7 \text{ m}, c = 5 \text{ m}$
+> * **Angles:** $A = 71^\circ, B \approx 67.68^\circ, C \approx 41.32^\circ$
+> * **Area:** $\approx 16.55 \text{ m}^2$
+## 2026-February-15 - Vectors Part 1: Finding the Magintude and Direction Angle :
