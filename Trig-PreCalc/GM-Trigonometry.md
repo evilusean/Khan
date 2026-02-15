@@ -7641,3 +7641,46 @@ If you are given the magnitude ($||v||$) and the direction angle ($\theta$), you
 > A vector is in **standard position** when its initial point is at the origin $(0,0)$. The terminal point $(a, b)$ then corresponds directly to the vector's components.
 
 ---
+### $\vec{p} = \langle -2, -5 \rangle$
+
+This vector is given in **component form**, where $a = -2$ (horizontal change) and $b = -5$ (vertical change). To "solve" this vector for your notes, we calculate its **magnitude** (length) and its **direction angle** ($\theta$).
+
+---
+
+#### 1. Calculate the Magnitude ($\|\vec{p}\|$)
+The magnitude represents the length of the vector and is found using the Pythagorean Theorem:
+$$\|\vec{p}\| = \sqrt{a^2 + b^2}$$
+$$\|\vec{p}\| = \sqrt{(-2)^2 + (-5)^2}$$
+$$\|\vec{p}\| = \sqrt{4 + 25}$$
+> [!success] Result
+> **$\|\vec{p}\| = \sqrt{29} \approx 5.39$**
+
+---
+
+#### 2. Find the Direction Angle ($\theta$)
+The direction angle is measured counterclockwise from the positive x-axis.
+
+**Step A: Find the Reference Angle ($\theta'$)**
+Use the absolute values of the components with the tangent function:
+$$\tan(\theta') = \left| \frac{b}{a} \right| = \frac{5}{2}$$
+$$\theta' = \tan^{-1}(2.5) \approx 68.20^\circ$$
+
+**Step B: Determine the Quadrant**
+* Horizontal component ($a$): $-2$ (Left)
+* Vertical component ($b$): $-5$ (Down)
+* The vector lies in **Quadrant III**.
+
+
+**Step C: Calculate $\theta$**
+In Quadrant III, we add the reference angle to $180^\circ$:
+$$\theta = 180^\circ + 68.20^\circ$$
+> [!success] Result
+> **$\theta = 248.20^\circ$**
+
+---
+
+#### Final Answer Summary
+> [!info] Vector Properties
+> * **Component Form:** $\langle -2, -5 \rangle$
+> * **Magnitude:** $\sqrt{29} \approx 5.39$
+> * **Direction Angle:** $248.20^\circ$
