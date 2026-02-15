@@ -7816,3 +7816,46 @@ Combining the horizontal and vertical parts into a vector:
 > * **Direction Angle:** $300^\circ$
 > * **Component Form:** $\langle 13.5, -23.38 \rangle$
 > * **Linear Combination:** $13.5\hat{i} - 23.38\hat{j}$
+### $|\vec{k}| = 32, \theta = 120^\circ$
+
+In this problem, we are given the **magnitude** and the **direction angle** of vector $\vec{k}$. To solve this for your notes, we will find the **component form** $\langle a, b \rangle$ by resolving the vector into its horizontal and vertical parts using trigonometry.
+
+---
+
+#### 1. Find the Horizontal Component ($a$)
+The horizontal component is determined by the cosine of the direction angle:
+$$a = |\vec{k}| \cos(\theta)$$
+$$a = 32 \cos(120^\circ)$$
+
+* **Reference Angle:** $120^\circ$ is in Quadrant II. The reference angle is $180^\circ - 120^\circ = 60^\circ$.
+* **Quadrant Sign:** In Quadrant II, cosine is negative.
+* **Value:** $\cos(120^\circ) = -0.5$
+$$a = 32(-0.5) = -16$$
+
+---
+
+#### 2. Find the Vertical Component ($b$)
+The vertical component is determined by the sine of the direction angle:
+$$b = |\vec{k}| \sin(\theta)$$
+$$b = 32 \sin(120^\circ)$$
+
+* **Quadrant Sign:** In Quadrant II, sine is positive.
+* **Value:** $\sin(120^\circ) = \frac{\sqrt{3}}{2} \approx 0.8660$
+$$b = 32(0.8660) \approx 27.71$$
+
+
+---
+
+#### 3. Component Form Result
+Combining these into the standard vector notation:
+> [!success] Result
+> **$\vec{k} = \langle -16, 27.71 \rangle$**
+
+---
+
+#### Final Answer Summary
+> [!info] Vector Properties
+> * **Magnitude:** $32$
+> * **Direction Angle:** $120^\circ$
+> * **Component Form:** $\langle -16, 27.71 \rangle$
+> * **Linear Combination:** $-16\hat{i} + 27.71\hat{j}$
