@@ -740,3 +740,44 @@ $$K = \sqrt{s(s - a)(s - b)(s - c)}$$
 - $|\vec{u}|$ = $c = \sqrt{a^2+b^2}$ : Since the Terminal Point is (x,y) or (a,b) the *magnitude* will be the length of the *hypoteneuse* or 'c' in pythageorem theorem/distance formula
 - **Direction Angle** = The positive angle on the x-axis $\theta$ *tangent* is $\frac{y}{x}$ so $\tan \theta = \frac{b}{a}$ 
 - You can only get an inverse tangent function from quadrants 1 and 4, so you will need to use a reference angle 
+### Finding the Magnitude and Direction Angle
+
+This section covers the geometric and algebraic properties of vectors, specifically how to calculate their length (**magnitude**) and their orientation relative to the positive x-axis (**direction angle**).
+
+---
+
+#### 1. Vector Magnitude ($||v||$)
+The magnitude of a vector $v = \langle a, b \rangle$ represents its length. It is derived from the **Pythagorean Theorem** or the distance formula, as the vector forms the hypotenuse of a right triangle with legs of lengths $a$ and $b$.
+
+**Formula:**
+$$||v|| = \sqrt{a^2 + b^2}$$
+
+* **$a$**: The horizontal component (change in $x$).
+* **$b$**: The vertical component (change in $y$).
+
+---
+
+#### 2. Direction Angle ($\theta$)
+The direction angle $\theta$ is the positive angle measured counterclockwise from the positive x-axis to the vector. 
+
+**Formula:**
+$$\tan(\theta) = \frac{b}{a}$$
+
+**Step-by-Step Calculation:**
+1.  **Find the reference angle:** Use $\theta' = \tan^{-1}\left|\frac{b}{a}\right|$.
+2.  **Determine the Quadrant:** Look at the signs of $a$ and $b$:
+    * **QI ($+a, +b$):** $\theta = \theta'$
+    * **QII ($-a, +b$):** $\theta = 180^\circ - \theta'$
+    * **QIII ($-a, -b$):** $\theta = 180^\circ + \theta'$
+    * **QIV ($+a, -b$):** $\theta = 360^\circ - \theta'$
+
+---
+
+#### 3. Resolving a Vector into Components
+If you are given the magnitude ($||v||$) and the direction angle ($\theta$), you can find the horizontal ($a$) and vertical ($b$) components using trigonometry:
+
+* **Horizontal ($a$):** $a = ||v|| \cos(\theta)$
+* **Vertical ($b$):** $b = ||v|| \sin(\theta)$
+
+> [!tip] Standard Position
+> A vector is in **standard position** when its initial point is at the origin $(0,0)$. The terminal point $(a, b)$ then corresponds directly to the vector's components.
