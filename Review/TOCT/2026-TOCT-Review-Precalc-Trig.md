@@ -733,3 +733,10 @@ $$s = \frac{a + b + c}{2}$$
 #### 2. The Area Formula ($K$)
 Once you have the semi-perimeter ($s$), the area ($K$) is given by:
 $$K = \sqrt{s(s - a)(s - b)(s - c)}$$
+### Component Form of a Vector :
+![[Pasted image 20260215160009.png]]
+- **Position Vector** in *Standard Position* : When : *Initial Point* at (0,0) Origin and *Terminal Point* at (a, b) means you only need the *Terminal Point* when talking about it, since you know the initial point is at the Origin (0,0), this is known as **Component Form** 
+- $\vec{u}$ = <a, b>: the vector above is known as 'vector u' in component form 
+- $|\vec{u}|$ = $c = \sqrt{a^2+b^2}$ : Since the Terminal Point is (x,y) or (a,b) the *magnitude* will be the length of the *hypoteneuse* or 'c' in pythageorem theorem/distance formula
+- **Direction Angle** = The positive angle on the x-axis $\theta$ *tangent* is $\frac{y}{x}$ so $\tan \theta = \frac{b}{a}$ 
+- You can only get an inverse tangent function from quadrants 1 and 4, so you will need to use a reference angle 
