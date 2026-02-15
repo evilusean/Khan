@@ -7585,7 +7585,12 @@ $$Area = 17.5(0.9455) \approx 16.55 \text{ m}^2$$
 > * **Area:** $\approx 16.55 \text{ m}^2$
 ## 2026-February-15 - Vectors Part 1: Finding the Magintude and Direction Angle :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h06m15s
-
+- **Vector** = Directed Line Segment with a *Magnitude* and *Direction*
+- **Magnitude** = Length of a Vector
+- Order Matters : When Declaring a *Vector*, put the Beginning Point as the first letter, and endpoint as the second letter : `\overrightarrow{AB}` | $\overrightarrow{AB}$
+- `\vec{v} = \langle 3, -4 \rangle` $\to \vec{v} = \langle 3, -4 \rangle$
+- `\hat{i}` $\to \hat{i}$
+- 
 ### Finding the Magnitude and Direction Angle
 
 This section covers the geometric and algebraic properties of vectors, specifically how to calculate their length (**magnitude**) and their orientation relative to the positive x-axis (**direction angle**).
