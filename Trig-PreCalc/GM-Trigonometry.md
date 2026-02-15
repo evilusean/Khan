@@ -7585,3 +7585,47 @@ $$Area = 17.5(0.9455) \approx 16.55 \text{ m}^2$$
 > * **Area:** $\approx 16.55 \text{ m}^2$
 ## 2026-February-15 - Vectors Part 1: Finding the Magintude and Direction Angle :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h06m15s
+
+### Finding the Magnitude and Direction Angle
+
+This section covers the geometric and algebraic properties of vectors, specifically how to calculate their length (**magnitude**) and their orientation relative to the positive x-axis (**direction angle**).
+
+---
+
+#### 1. Vector Magnitude ($||v||$)
+The magnitude of a vector $v = \langle a, b \rangle$ represents its length. It is derived from the **Pythagorean Theorem** or the distance formula, as the vector forms the hypotenuse of a right triangle with legs of lengths $a$ and $b$.
+
+**Formula:**
+$$||v|| = \sqrt{a^2 + b^2}$$
+
+* **$a$**: The horizontal component (change in $x$).
+* **$b$**: The vertical component (change in $y$).
+
+---
+
+#### 2. Direction Angle ($\theta$)
+The direction angle $\theta$ is the positive angle measured counterclockwise from the positive x-axis to the vector. 
+
+**Formula:**
+$$\tan(\theta) = \frac{b}{a}$$
+
+**Step-by-Step Calculation:**
+1.  **Find the reference angle:** Use $\theta' = \tan^{-1}\left|\frac{b}{a}\right|$.
+2.  **Determine the Quadrant:** Look at the signs of $a$ and $b$:
+    * **QI ($+a, +b$):** $\theta = \theta'$
+    * **QII ($-a, +b$):** $\theta = 180^\circ - \theta'$
+    * **QIII ($-a, -b$):** $\theta = 180^\circ + \theta'$
+    * **QIV ($+a, -b$):** $\theta = 360^\circ - \theta'$
+
+---
+
+#### 3. Resolving a Vector into Components
+If you are given the magnitude ($||v||$) and the direction angle ($\theta$), you can find the horizontal ($a$) and vertical ($b$) components using trigonometry:
+
+* **Horizontal ($a$):** $a = ||v|| \cos(\theta)$
+* **Vertical ($b$):** $b = ||v|| \sin(\theta)$
+
+> [!tip] Standard Position
+> A vector is in **standard position** when its initial point is at the origin $(0,0)$. The terminal point $(a, b)$ then corresponds directly to the vector's components.
+
+---
