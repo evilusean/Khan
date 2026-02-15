@@ -7591,7 +7591,9 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h06m15s
 - `\overrightarrow{AB}` | $\overrightarrow{AB}$
 - `\vec{v} = \langle 3, -4 \rangle` $\to \vec{v} = \langle 3, -4 \rangle$
 - `\hat{i}` $\to \hat{i}$
-- 
+### Component Form of a Vector :
+![[Pasted image 20260215160009.png]]
+
 ### Finding the Magnitude and Direction Angle
 
 This section covers the geometric and algebraic properties of vectors, specifically how to calculate their length (**magnitude**) and their orientation relative to the positive x-axis (**direction angle**).
