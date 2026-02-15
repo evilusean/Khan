@@ -7584,3 +7584,4 @@ $$Area = 17.5(0.9455) \approx 16.55 \text{ m}^2$$
 > * **Angles:** $A = 71^\circ, B \approx 67.68^\circ, C \approx 41.32^\circ$
 > * **Area:** $\approx 16.55 \text{ m}^2$
 ## 2026-February-15 - Vectors Part 1: Finding the Magintude and Direction Angle :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h06m15s
