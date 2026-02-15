@@ -7684,3 +7684,46 @@ $$\theta = 180^\circ + 68.20^\circ$$
 > * **Component Form:** $\langle -2, -5 \rangle$
 > * **Magnitude:** $\sqrt{29} \approx 5.39$
 > * **Direction Angle:** $248.20^\circ$
+### $\vec{v} = \langle -7, -6 \rangle$
+
+This vector is given in **component form**, where the horizontal component $a = -7$ and the vertical component $b = -6$. To fully solve this vector for your notes, we need to determine its **magnitude** and its **direction angle** ($\theta$).
+
+---
+
+#### 1. Calculate the Magnitude ($\|\vec{v}\|$)
+The magnitude represents the length of the vector. We use the distance formula (Pythagorean Theorem):
+$$\|\vec{v}\| = \sqrt{a^2 + b^2}$$
+$$\|\vec{v}\| = \sqrt{(-7)^2 + (-6)^2}$$
+$$\|\vec{v}\| = \sqrt{49 + 36}$$
+> [!success] Result
+> **$\|\vec{v}\| = \sqrt{85} \approx 9.22$**
+
+---
+
+#### 2. Find the Direction Angle ($\theta$)
+The direction angle is measured counterclockwise from the positive x-axis.
+
+**Step A: Find the Reference Angle ($\theta'$)**
+Use the absolute value of the components with the inverse tangent function:
+$$\tan(\theta') = \left| \frac{b}{a} \right| = \frac{6}{7}$$
+$$\theta' = \tan^{-1}\left(\frac{6}{7}\right) \approx 40.60^\circ$$
+
+**Step B: Determine the Quadrant**
+* Horizontal component ($a$): $-7$ (Left)
+* Vertical component ($b$): $-6$ (Down)
+* Both components are negative, so the vector lies in **Quadrant III**.
+
+
+**Step C: Calculate the Standard Position Angle ($\theta$)**
+In Quadrant III, the direction angle is found by adding the reference angle to $180^\circ$:
+$$\theta = 180^\circ + 40.60^\circ$$
+> [!success] Result
+> **$\theta = 220.60^\circ$**
+
+---
+
+#### Final Answer Summary
+> [!info] Vector Properties
+> * **Component Form:** $\langle -7, -6 \rangle$
+> * **Magnitude:** $\sqrt{85} \approx 9.22$
+> * **Direction Angle:** $220.60^\circ$
