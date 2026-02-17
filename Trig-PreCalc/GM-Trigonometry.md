@@ -7922,3 +7922,38 @@ For any vectors $\vec{u}, \vec{v}, \vec{w}$ and scalars $c, d$:
 > When adding vectors, you often need to find the direction angle of the resultant. Remember to use $\tan^{-1}(\frac{y_{total}}{x_{total}})$ and check the quadrant of the summed components.
 
 ---
+### $\vec{v} = \langle -2, 5 \rangle, \vec{w} = \langle 3, 4 \rangle$; Find $-3\vec{v} + 2\vec{w}$
+
+This problem requires performing **scalar multiplication** and **vector addition**. To find the resultant vector for your notes, we will scale each vector individually and then combine their components.
+
+---
+
+#### 1. Perform Scalar Multiplication
+First, we multiply each vector by its respective scalar:
+
+* **For $-3\vec{v}$:**
+  $$-3\vec{v} = -3\langle -2, 5 \rangle = \langle (-3)(-2), (-3)(5) \rangle = \langle 6, -15 \rangle$$
+
+* **For $2\vec{w}$:**
+  $$2\vec{w} = 2\langle 3, 4 \rangle = \langle (2)(3), (2)(4) \rangle = \langle 6, 8 \rangle$$
+
+---
+
+#### 2. Perform Vector Addition
+Now, we add the two resulting vectors together by summing their horizontal ($x$) and vertical ($y$) components:
+$$-3\vec{v} + 2\vec{w} = \langle 6, -15 \rangle + \langle 6, 8 \rangle$$
+$$-3\vec{v} + 2\vec{w} = \langle 6 + 6, -15 + 8 \rangle$$
+
+
+---
+
+#### 3. Final Result
+> [!success] Resultant Vector
+> **$-3\vec{v} + 2\vec{w} = \langle 12, -7 \rangle$**
+
+---
+
+#### Properties Summary
+* **Horizontal Component:** $12$ (The vector moves 12 units to the right).
+* **Vertical Component:** $-7$ (The vector moves 7 units down).
+* **Linear Combination Form:** $12\mathbf{i} - 7\mathbf{j}$
