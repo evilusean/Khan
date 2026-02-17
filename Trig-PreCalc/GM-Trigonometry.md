@@ -7859,6 +7859,6 @@ Combining these into the standard vector notation:
 > * **Direction Angle:** $120^\circ$
 > * **Component Form:** $\langle -16, 27.71 \rangle$
 > * **Linear Combination:** $-16\hat{i} + 27.71\hat{j}$
-## 2026-February-16 - Vectors Part 2: Operations with Vectors :
+## 2026-February-17 - Vectors Part 2: Operations with Vectors :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h30m30s
 
