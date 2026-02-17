@@ -7864,6 +7864,8 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h30m30s
 -  **Resultant Vector** : The Sum of 2 or more vectors is also a vector
 - <a ,b > + <c, d> = <a+c, b+d> :
 - <2, 3> + <4, 5> + <6, -9> = <12, -1>
+![[Pasted image 20260217151902.png]]
+- Above: Image of combing 2 vectors 
 ### Vectors Part 2: Operations with Vectors
 
 This section details the fundamental algebraic operations performed on vectors. These operations allow us to combine or scale vectors, which is essential for solving physics and engineering problems involving forces or motion.
