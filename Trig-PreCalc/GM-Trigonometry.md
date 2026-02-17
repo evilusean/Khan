@@ -7861,4 +7861,52 @@ Combining these into the standard vector notation:
 > * **Linear Combination:** $-16\hat{i} + 27.71\hat{j}$
 ## 2026-February-17 - Vectors Part 2: Operations with Vectors :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h30m30s
+### Vectors Part 2: Operations with Vectors
 
+This section details the fundamental algebraic operations performed on vectors. These operations allow us to combine or scale vectors, which is essential for solving physics and engineering problems involving forces or motion.
+---
+#### 1. Scalar Multiplication
+Scalar multiplication involves multiplying a vector by a real number (a **scalar**), denoted as $k$.
+If $\vec{v} = \langle a, b \rangle$, then:
+$$k\vec{v} = \langle ka, kb \rangle$$
+
+* **Geometric Effect:**
+    * If $k > 1$, the vector is **stretched**.
+    * If $0 < k < 1$, the vector is **shrunk**.
+    * If $k$ is negative, the vector's direction is **reversed**.
+* **Magnitude Effect:** The new magnitude is $|k| \cdot \|\vec{v}\|$.
+---
+#### 2. Vector Addition (The Resultant)
+Adding two vectors results in a new vector called the **resultant**.
+If $\vec{u} = \langle a, b \rangle$ and $\vec{v} = \langle c, d \rangle$, then:
+$$\vec{u} + \vec{v} = \langle a+c, b+d \rangle$$
+
+**Geometric Representations:**
+* **Tip-to-Tail Method:** Place the initial point (tail) of $\vec{v}$ at the terminal point (tip) of $\vec{u}$. The resultant vector $\vec{u}+\vec{v}$ is drawn from the tail of $\vec{u}$ to the tip of $\vec{v}$.
+* **Parallelogram Law:** Place both vectors at the same initial point. The resultant is the diagonal of the parallelogram formed by the two vectors.
+---
+#### 3. Vector Subtraction
+Subtraction is essentially adding a negative vector: $\vec{u} - \vec{v} = \vec{u} + (-\vec{v})$.
+$$\vec{u} - \vec{v} = \langle a-c, b-d \rangle$$
+
+---
+
+#### 4. Linear Combination Form
+Vectors are often expressed as a sum of horizontal and vertical **unit vectors**:
+* $\mathbf{i} = \langle 1, 0 \rangle$ (Horizontal unit vector)
+* $\mathbf{j} = \langle 0, 1 \rangle$ (Vertical unit vector)
+
+Any vector $\vec{v} = \langle a, b \rangle$ can be written as:
+$$\vec{v} = a\mathbf{i} + b\mathbf{j}$$
+---
+#### 5. Vector Properties Summary
+For any vectors $\vec{u}, \vec{v}, \vec{w}$ and scalars $c, d$:
+1.  **Commutative:** $\vec{u} + \vec{v} = \vec{v} + \vec{u}$
+2.  **Associative:** $(\vec{u} + \vec{v}) + \vec{w} = \vec{u} + (\vec{v} + \vec{w})$
+3.  **Additive Identity:** $\vec{u} + \mathbf{0} = \vec{u}$
+4.  **Distributive:** $c(\vec{u} + \vec{v}) = c\vec{u} + c\vec{v}$
+
+> [!important] Resultant Direction
+> When adding vectors, you often need to find the direction angle of the resultant. Remember to use $\tan^{-1}(\frac{y_{total}}{x_{total}})$ and check the quadrant of the summed components.
+
+---
