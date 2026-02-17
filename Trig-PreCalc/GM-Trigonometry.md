@@ -7870,7 +7870,8 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h30m30s
   k<a, b> = <ka, kb> : just multiply both the horizontal and vertical components by the scalar
 - **Scalar** : Scales a Vector
   SVG = Scalable Vector Graphics
-- 
+- Image of Scalars Effects on Vectors (fraction shrinks, multiply increases size, negative flips) :
+  ![[Pasted image 20260217153112.png]]
 ### Vectors Part 2: Operations with Vectors
 
 This section details the fundamental algebraic operations performed on vectors. These operations allow us to combine or scale vectors, which is essential for solving physics and engineering problems involving forces or motion.
