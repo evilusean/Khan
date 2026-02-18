@@ -8033,3 +8033,24 @@ $$\mathbf{u} \cdot \mathbf{v} = u_1 v_1 + u_2 v_2$$
 > Remember: The dot product of two vectors is **not** a vector; it is a single numerical value.
 
 ---
+### Angle Between Two Vectors
+
+The dot product provides a geometric bridge to find the angle $\theta$ between two non-zero vectors.
+
+---
+
+#### 1. Geometric Formula
+The dot product can also be defined using the magnitudes of the vectors and the cosine of the angle between them:
+$$\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\| \|\mathbf{v}\| \cos(\theta)$$
+
+#### 2. Solving for the Angle ($\theta$)
+To find the angle, rearrange the formula as follows:
+$$\cos(\theta) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|}$$
+$$\theta = \cos^{-1}\left( \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|} \right)$$
+
+#### 3. Special Relationships
+* **Orthogonal (Perpendicular):** If $\mathbf{u} \cdot \mathbf{v} = 0$, then $\theta = 90^\circ$. The vectors are orthogonal.
+* **Parallel:** If $\cos(\theta) = 1$, the vectors point in the same direction ($\theta = 0^\circ$). If $\cos(\theta) = -1$, they point in opposite directions ($\theta = 180^\circ$).
+
+---
+**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=60380s)
