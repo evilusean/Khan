@@ -8053,6 +8053,7 @@ $$\theta = \cos^{-1}\left( \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\
 * **Parallel:** If $\cos(\theta) = 1$, the vectors point in the same direction ($\theta = 0^\circ$). If $\cos(\theta) = -1$, they point in opposite directions ($\theta = 180^\circ$).
 
 ---
+![[Pasted image 20260218155224.png]]
 ### Find the Unit Vector $\mathbf{u}$ for $\vec{v} = \langle -5, -12 \rangle$
 
 To find the unit vector $\mathbf{u}$ that points in the same direction as $\vec{v}$, we must first calculate the magnitude of $\vec{v}$ and then divide each component by that value.
@@ -8134,4 +8135,3 @@ $$\mathbf{u} = \langle -\frac{1}{\sqrt{10}}, -\frac{3}{\sqrt{10}} \rangle$$
 > * **Linear Combination:** $-\frac{\sqrt{10}}{10}\mathbf{i} - \frac{3\sqrt{10}}{10}\mathbf{j}$
 
 ---
-**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=60380s)
