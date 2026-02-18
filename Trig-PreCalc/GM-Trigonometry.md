@@ -8097,7 +8097,47 @@ $$\vec{v} = -3\mathbf{i} + 7\mathbf{j}$$
 
 This notation is widely used in physics and engineering because it separates the horizontal and vertical effects of a vector (like force or velocity) into independent terms.
 
+### Orthogonal Vectors (Perpendicular Vectors)
 
+In vector algebra, two vectors are considered **orthogonal** if they meet at a $90^\circ$ angle (perpendicular). This relationship is primarily determined using the dot product.
+
+---
+
+#### 1. The Algebraic Condition
+Two vectors $\mathbf{u}$ and $\mathbf{v}$ are orthogonal if and only if their **dot product is zero**:
+$$\mathbf{u} \cdot \mathbf{v} = 0$$
+
+If $\mathbf{u} = \langle u_1, u_2 \rangle$ and $\mathbf{v} = \langle v_1, v_2 \rangle$, then:
+$$u_1 v_1 + u_2 v_2 = 0$$
+---
+
+#### 2. Geometric Interpretation
+According to the geometric definition of the dot product:
+$$\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\| \|\mathbf{v}\| \cos(\theta)$$
+
+* If $\theta = 90^\circ$, then $\cos(90^\circ) = 0$.
+* Therefore, the entire expression becomes $0$, regardless of the magnitudes of the vectors (provided they are non-zero).
+
+---
+
+#### 3. Identifying Orthogonal Vectors
+To check if two vectors are perpendicular for your notes, follow these steps:
+1. Multiply the $x$-components.
+2. Multiply the $y$-components.
+3. Add the results.
+4. If the sum is **0**, the vectors are orthogonal.
+
+> [!example] Example
+> Let $\mathbf{u} = \langle 2, 3 \rangle$ and $\mathbf{v} = \langle -6, 4 \rangle$.
+> $$\mathbf{u} \cdot \mathbf{v} = (2)(-6) + (3)(4) = -12 + 12 = 0$$
+> **Result:** These vectors are orthogonal.
+
+---
+
+#### 4. The Zero Vector Case
+The zero vector $\mathbf{0} = \langle 0, 0 \rangle$ is technically orthogonal to **every** vector because the dot product will always result in zero. However, in most geometric contexts, we focus on non-zero vectors.
+
+---
 ### Find the Unit Vector $\mathbf{u}$ for $\vec{v} = \langle -5, -12 \rangle$
 
 To find the unit vector $\mathbf{u}$ that points in the same direction as $\vec{v}$, we must first calculate the magnitude of $\vec{v}$ and then divide each component by that value.
@@ -8347,4 +8387,3 @@ $$\cos(\theta) = \frac{46}{34\sqrt{2}} \approx 0.9564$$
 > $$\theta = \cos^{-1}(0.9564) \approx 16.93^\circ$$
 
 ---
-**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=60380s)
