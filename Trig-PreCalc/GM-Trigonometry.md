@@ -8210,4 +8210,38 @@ $$\vec{p} = -5\langle 1, 0 \rangle + 4\langle 0, 1 \rangle$$
 * **Direction Angle:** Since the vector is in **Quadrant II** ($-x, +y$), $\theta = 180^\circ - \tan^{-1}(\frac{4}{5}) \approx 141.34^\circ$.
 
 ---
-**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=60380s)
+### $\vec{u} = 7\hat{i} + 6\hat{j}, \vec{v} = 3\hat{i} - 4\hat{j}$
+
+The **dot product** (or scalar product) is an algebraic operation that takes two vectors and returns a single scalar value. To solve this for your notes, we will multiply the corresponding components of $\vec{u}$ and $\vec{v}$ and then sum them up.
+
+---
+
+#### 1. Identify the Components
+First, extract the horizontal ($i$) and vertical ($j$) components from the linear combination form:
+* **$\vec{u}$ components:** $u_1 = 7, u_2 = 6$
+* **$\vec{v}$ components:** $v_1 = 3, v_2 = -4$
+
+---
+
+#### 2. Apply the Dot Product Formula
+The formula for the dot product of two vectors is:
+$$\vec{u} \cdot \vec{v} = (u_1)(v_1) + (u_2)(v_2)$$
+
+Substitute the values from step 1:
+$$\vec{u} \cdot \vec{v} = (7)(3) + (6)(-4)$$
+$$\vec{u} \cdot \vec{v} = 21 + (-24)$$
+
+
+---
+
+#### 3. Final Result
+> [!success] Dot Product
+> **$\vec{u} \cdot \vec{v} = -3$**
+
+---
+
+#### Interpretation for your Notes
+* Since the dot product is **not zero**, these two vectors are **not orthogonal** (perpendicular).
+* Since the result is **negative**, the angle $\theta$ between the two vectors is **obtuse** ($90^\circ < \theta \leq 180^\circ$).
+
+---
