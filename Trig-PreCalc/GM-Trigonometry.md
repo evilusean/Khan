@@ -8387,3 +8387,37 @@ $$\cos(\theta) = \frac{46}{34\sqrt{2}} \approx 0.9564$$
 > $$\theta = \cos^{-1}(0.9564) \approx 16.93^\circ$$
 
 ---
+### Find the Angle Between $\mathbf{u} = 4\hat{i} + 8\hat{j}$ and $\mathbf{v} = 6\hat{i} - 3\hat{j}$
+
+To find the angle $\theta$ between these two vectors for your notes, we will use the geometric definition of the **dot product**. This process involves calculating the dot product and the magnitudes of both vectors to solve for $\cos(\theta)$.
+
+---
+
+#### 1. Calculate the Dot Product ($\mathbf{u} \cdot \mathbf{v}$)
+Using the algebraic definition $\mathbf{u} \cdot \mathbf{v} = u_1 v_1 + u_2 v_2$:
+* $\mathbf{u} \cdot \mathbf{v} = (4)(6) + (8)(-3)$
+* $\mathbf{u} \cdot \mathbf{v} = 24 + (-24)$
+* **$\mathbf{u} \cdot \mathbf{v} = 0$**
+
+---
+
+#### 2. Interpret the Dot Product Result
+When the dot product of two non-zero vectors is exactly **0**, it indicates a specific geometric relationship.
+
+* **Orthogonality:** If $\mathbf{u} \cdot \mathbf{v} = 0$, then $\cos(\theta) = 0$.
+* **The Angle:** The only angle between $0^\circ$ and $180^\circ$ where the cosine is $0$ is $90^\circ$.
+
+
+---
+
+#### Final Result
+> [!success] Calculated Angle
+> Since the dot product is zero, the vectors are **orthogonal** (perpendicular).
+> **$\theta = 90^\circ$**
+
+---
+
+#### Quick Reference Summary
+* **Horizontal Components:** $4$ and $6$
+* **Vertical Components:** $8$ and $-3$
+* **Relationship:** Perpendicular / Orthogonal
