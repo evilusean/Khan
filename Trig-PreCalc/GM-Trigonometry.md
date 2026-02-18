@@ -8179,3 +8179,35 @@ $$\mathbf{u} = \langle -\frac{1}{\sqrt{10}}, -\frac{3}{\sqrt{10}} \rangle$$
 > * **Linear Combination:** $-\frac{\sqrt{10}}{10}\mathbf{i} - \frac{3\sqrt{10}}{10}\mathbf{j}$
 
 ---
+### $\vec{p} = \langle -5, 4 \rangle$
+
+Using the **Linear Combination** method, we can rewrite this vector from its component form into the $\mathbf{i}, \mathbf{j}$ form. This process involves breaking the vector into its horizontal and vertical parts using the standard unit vectors $\mathbf{i} = \langle 1, 0 \rangle$ and $\mathbf{j} = \langle 0, 1 \rangle$.
+
+---
+
+#### 1. Identify the Scalar Components
+From the given component form $\langle a, b \rangle$:
+* The horizontal scalar ($a$) is **$-5$**.
+* The vertical scalar ($b$) is **$4$**.
+
+#### 2. Apply Scalar Multipliers
+We multiply these scalars by their respective standard unit vectors:
+* **Horizontal Part:** $-5 \cdot \mathbf{i} = -5\langle 1, 0 \rangle = \langle -5, 0 \rangle$.
+* **Vertical Part:** $4 \cdot \mathbf{j} = 4\langle 0, 1 \rangle = \langle 0, 4 \rangle$.
+
+
+#### 3. Write as a Linear Combination
+By adding these two parts together, we represent the vector as a sum of its axial components:
+$$\vec{p} = -5\langle 1, 0 \rangle + 4\langle 0, 1 \rangle$$
+
+> [!success] The $\mathbf{i}, \mathbf{j}$ Form
+> **$\vec{p} = -5\mathbf{i} + 4\mathbf{j}$**
+
+---
+
+#### Magnitude and Direction (Reference)
+* **Magnitude:** $\|\vec{p}\| = \sqrt{(-5)^2 + 4^2} = \sqrt{25 + 16} = \sqrt{41} \approx 6.40$.
+* **Direction Angle:** Since the vector is in **Quadrant II** ($-x, +y$), $\theta = 180^\circ - \tan^{-1}(\frac{4}{5}) \approx 141.34^\circ$.
+
+---
+**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=60380s)
