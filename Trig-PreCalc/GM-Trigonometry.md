@@ -7994,3 +7994,23 @@ $$\vec{f} - \vec{b} = \langle -36.09, -12.83 \rangle$$
 > **Direction:** $\approx 199.57^\circ$
 ## 2025-February-18 - Vectors Part 3 : Unit Vectors, the Dot Product, and the Angle Between Two Vectors :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h46m20s
+### Unit Vectors
+
+A **unit vector** is a vector that has a magnitude (length) of exactly **1**. In Obsidian, unit vectors are often denoted with a "hat" (e.g., $\hat{u}$).
+
+---
+
+#### 1. Finding the Unit Vector ($\mathbf{u}$)
+To find a unit vector $\mathbf{u}$ that has the same direction as a given vector $\mathbf{v}$, you divide the vector by its own magnitude:
+$$\mathbf{u} = \frac{\mathbf{v}}{\|\mathbf{v}\|}$$
+
+#### 2. Standard Unit Vectors
+In a 2D Cartesian plane, any vector can be expressed as a linear combination of two standard unit vectors:
+* **$\mathbf{i} = \langle 1, 0 \rangle$**: Points in the positive $x$ direction.
+* **$\mathbf{j} = \langle 0, 1 \rangle$**: Points in the positive $y$ direction.
+
+> [!tip] Linear Combination Form
+> $\mathbf{v} = \langle a, b \rangle$ is equivalent to $a\mathbf{i} + b\mathbf{j}$.
+
+---
+
