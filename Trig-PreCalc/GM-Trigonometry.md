@@ -8014,3 +8014,22 @@ In a 2D Cartesian plane, any vector can be expressed as a linear combination of 
 
 ---
 
+### The Dot Product
+
+The **dot product** (also known as the scalar product) is an algebraic operation that takes two vectors and returns a single **scalar** number.
+
+---
+
+#### 1. Algebraic Definition
+For two vectors $\mathbf{u} = \langle u_1, u_2 \rangle$ and $\mathbf{v} = \langle v_1, v_2 \rangle$, the dot product is calculated by summing the products of their corresponding components:
+$$\mathbf{u} \cdot \mathbf{v} = u_1 v_1 + u_2 v_2$$
+
+#### 2. Properties of the Dot Product
+* **Commutative:** $\mathbf{u} \cdot \mathbf{v} = \mathbf{v} \cdot \mathbf{u}$
+* **Distributive:** $\mathbf{u} \cdot (\mathbf{v} + \mathbf{w}) = \mathbf{u} \cdot \mathbf{v} + \mathbf{u} \cdot \mathbf{w}$
+* **Magnitude Relationship:** $\mathbf{v} \cdot \mathbf{v} = \|\mathbf{v}\|^2$
+
+> [!important] Result Type
+> Remember: The dot product of two vectors is **not** a vector; it is a single numerical value.
+
+---
