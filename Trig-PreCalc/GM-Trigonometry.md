@@ -7993,3 +7993,4 @@ $$\vec{f} - \vec{b} = \langle -36.09, -12.83 \rangle$$
 > **Magnitude:** $\approx 38.30$
 > **Direction:** $\approx 199.57^\circ$
 ## 2025-February-18 - Vectors Part 3 : Unit Vectors, the Dot Product, and the Angle Between Two Vectors :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h46m20s
