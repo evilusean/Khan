@@ -7957,3 +7957,38 @@ $$-3\vec{v} + 2\vec{w} = \langle 6 + 6, -15 + 8 \rangle$$
 * **Horizontal Component:** $12$ (The vector moves 12 units to the right).
 * **Vertical Component:** $-7$ (The vector moves 7 units down).
 * **Linear Combination Form:** $12\mathbf{i} - 7\mathbf{j}$
+### Find $\vec{f} - \vec{b}$ given Magnitude and Direction
+
+To subtract these vectors for your notes, we must first convert them from magnitude/direction form into **component form** $\langle a, b \rangle$. Once they are in components, we subtract the corresponding $x$ and $y$ values.
+
+---
+
+#### 1. Convert Vector $\vec{f}$ to Components
+* **Given:** $\|\vec{f}\| = 17$, $\theta = 212^\circ$
+* **$x$-component ($a_f$):** $17 \cos(212^\circ) \approx 17(-0.8480) \approx -14.42$
+* **$y$-component ($b_f$):** $17 \sin(212^\circ) \approx 17(-0.5299) \approx -9.01$
+* **$\vec{f} \approx \langle -14.42, -9.01 \rangle$**
+
+#### 2. Convert Vector $\vec{b}$ to Components
+* **Given:** $\|\vec{b}\| = 22$, $\theta = 10^\circ$
+* **$x$-component ($a_b$):** $22 \cos(10^\circ) \approx 22(0.9848) \approx 21.67$
+* **$y$-component ($b_b$):** $22 \sin(10^\circ) \approx 22(0.1736) \approx 3.82$
+* **$\vec{b} \approx \langle 21.67, 3.82 \rangle$**
+
+
+#### 3. Perform the Subtraction ($\vec{f} - \vec{b}$)
+Subtract the components of $\vec{b}$ from $\vec{f}$:
+$$\vec{f} - \vec{b} = \langle -14.42 - 21.67, -9.01 - 3.82 \rangle$$
+$$\vec{f} - \vec{b} = \langle -36.09, -12.83 \rangle$$
+
+---
+
+#### 4. Find Magnitude and Direction of the Resultant (Optional)
+* **Magnitude:** $\sqrt{(-36.09)^2 + (-12.83)^2} \approx \sqrt{1302.49 + 164.61} \approx \mathbf{38.30}$
+* **Direction Angle:** * $\theta' = \tan^{-1}\left|\frac{-12.83}{-36.09}\right| \approx 19.57^\circ$
+    * Since both components are negative (Quadrant III): $180^\circ + 19.57^\circ = \mathbf{199.57^\circ}$
+
+> [!success] Final Result
+> **Component Form:** $\langle -36.09, -12.83 \rangle$
+> **Magnitude:** $\approx 38.30$
+> **Direction:** $\approx 199.57^\circ$
