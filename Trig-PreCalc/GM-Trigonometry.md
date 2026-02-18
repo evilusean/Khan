@@ -8053,7 +8053,51 @@ $$\theta = \cos^{-1}\left( \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\
 * **Parallel:** If $\cos(\theta) = 1$, the vectors point in the same direction ($\theta = 0^\circ$). If $\cos(\theta) = -1$, they point in opposite directions ($\theta = 180^\circ$).
 
 ---
+### Linear Combinations of Standard Unit Vectors
+
+Every vector in a 2D plane can be broken down into two fundamental "building blocks" called **Standard Unit Vectors**. These vectors have a magnitude of 1 and align perfectly with the axes of the Cartesian coordinate system.
 ![[Pasted image 20260218155224.png]]
+---
+
+#### 1. The Building Blocks: $\mathbf{i}$ and $\mathbf{j}$
+* **The Horizontal Unit Vector ($\mathbf{i}$):** This vector starts at the origin $(0,0)$ and ends at $(1,0)$.
+    $$\mathbf{i} = \langle 1, 0 \rangle$$
+* **The Vertical Unit Vector ($\mathbf{j}$):** This vector starts at the origin $(0,0)$ and ends at $(0,1)$.
+    $$\mathbf{j} = \langle 0, 1 \rangle$$
+
+
+
+---
+
+#### 2. Scaling the Unit Vectors
+We can use **scalar multiplication** to stretch these unit vectors to match the specific components of any given vector $\vec{v} = \langle a, b \rangle$.
+
+* **Horizontal Part:** To get the horizontal component, multiply the scalar $a$ by the unit vector $\mathbf{i}$.
+    $$a\mathbf{i} = a\langle 1, 0 \rangle = \langle a, 0 \rangle$$
+* **Vertical Part:** To get the vertical component, multiply the scalar $b$ by the unit vector $\mathbf{j}$.
+    $$b\mathbf{j} = b\langle 0, 1 \rangle = \langle 0, b \rangle$$
+
+---
+
+#### 3. Combining into $a\mathbf{i} + b\mathbf{j}$ Form
+Using **vector addition**, we can rewrite the component form $\langle a, b \rangle$ as a sum of these two scaled unit vectors. This is known as a **linear combination**.
+
+$$\vec{v} = \langle a, b \rangle$$
+$$\vec{v} = \langle a, 0 \rangle + \langle 0, b \rangle$$
+$$\vec{v} = a\langle 1, 0 \rangle + b\langle 0, 1 \rangle$$
+
+> [!success] The Linear Combination Form
+> $$\vec{v} = a\mathbf{i} + b\mathbf{j}$$
+
+---
+
+#### 4. Practical Example
+If you have a vector $\vec{v} = \langle -3, 7 \rangle$, you can immediately rewrite it as:
+$$\vec{v} = -3\mathbf{i} + 7\mathbf{j}$$
+
+This notation is widely used in physics and engineering because it separates the horizontal and vertical effects of a vector (like force or velocity) into independent terms.
+
+
 ### Find the Unit Vector $\mathbf{u}$ for $\vec{v} = \langle -5, -12 \rangle$
 
 To find the unit vector $\mathbf{u}$ that points in the same direction as $\vec{v}$, we must first calculate the magnitude of $\vec{v}$ and then divide each component by that value.
