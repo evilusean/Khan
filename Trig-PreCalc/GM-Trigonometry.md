@@ -8053,4 +8053,40 @@ $$\theta = \cos^{-1}\left( \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\
 * **Parallel:** If $\cos(\theta) = 1$, the vectors point in the same direction ($\theta = 0^\circ$). If $\cos(\theta) = -1$, they point in opposite directions ($\theta = 180^\circ$).
 
 ---
-**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=60380s)
+### Find the Unit Vector $\mathbf{u}$ for $\vec{v} = \langle -5, -12 \rangle$
+
+To find the unit vector $\mathbf{u}$ that points in the same direction as $\vec{v}$, we must first calculate the magnitude of $\vec{v}$ and then divide each component by that value.
+
+---
+
+#### 1. Calculate the Magnitude ($\|\vec{v}\|$)
+The magnitude represents the length of the vector, calculated using the Pythagorean Theorem:
+$$\|\vec{v}\| = \sqrt{a^2 + b^2}$$
+$$\|\vec{v}\| = \sqrt{(-5)^2 + (-12)^2}$$
+$$\|\vec{v}\| = \sqrt{25 + 144}$$
+$$\|\vec{v}\| = \sqrt{169}$$
+> [!success] Magnitude
+> **$\|\vec{v}\| = 13$**
+
+---
+
+#### 2. Find the Unit Vector ($\mathbf{u}$)
+A unit vector has a magnitude of 1. It is found by dividing the original vector by its magnitude:
+$$\mathbf{u} = \frac{\vec{v}}{\|\vec{v}\|}$$
+$$\mathbf{u} = \frac{\langle -5, -12 \rangle}{13}$$
+
+* **Component-wise division:**
+  * Horizontal component: $-\frac{5}{13}$
+  * Vertical component: $-\frac{12}{13}$
+
+
+---
+
+#### Final Answer Summary
+> [!info] Vector Properties
+> * **Original Vector:** $\vec{v} = \langle -5, -12 \rangle$
+> * **Magnitude:** $13$
+> * **Unit Vector:** $\mathbf{u} = \langle -\frac{5}{13}, -\frac{12}{13} \rangle$
+> * **Linear Combination Form:** $\mathbf{u} = -\frac{5}{13}\mathbf{i} - \frac{12}{13}\mathbf{j}$
+
+---
