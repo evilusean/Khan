@@ -8280,3 +8280,71 @@ $$\mathbf{u} \cdot \mathbf{v} = -8 + (-48)$$
 * **Obtuse Angle:** Because the dot product is negative, the angle $\theta$ between the two vectors is greater than $90^\circ$.
 
 ---
+### Find the Angle Between $\vec{u} = -6\hat{i} - 5\hat{j}$ and $\vec{v} = 4\hat{i} + 8\hat{j}$
+
+To determine the angle $\theta$ between these two vectors, we utilize the geometric definition of the **dot product**. This process involves three main phases: calculating the dot product, finding the magnitudes of both vectors, and finally solving for $\theta$ using the inverse cosine.
+
+---
+
+#### 1. Calculate the Dot Product ($\vec{u} \cdot \vec{v}$)
+Multiply the corresponding $i$ and $j$ components and sum them:
+* $\vec{u} \cdot \vec{v} = (-6)(4) + (-5)(8)$
+* $\vec{u} \cdot \vec{v} = -24 - 40$
+* **$\vec{u} \cdot \vec{v} = -64$**
+
+#### 2. Calculate the Magnitudes ($\|\vec{u}\|$ and $\|\vec{v}\|$)
+The magnitude of a vector $\langle a, b \rangle$ is $\sqrt{a^2 + b^2}$:
+* $\|\vec{u}\| = \sqrt{(-6)^2 + (-5)^2} = \sqrt{36 + 25} = \sqrt{61}$
+* $\|\vec{v}\| = \sqrt{4^2 + 8^2} = \sqrt{16 + 64} = \sqrt{80}$
+
+#### 3. Solve for the Angle ($\theta$)
+Using the formula $\cos(\theta) = \frac{\vec{u} \cdot \vec{v}}{\|\vec{u}\| \|\vec{v}\|}$:
+$$\cos(\theta) = \frac{-64}{\sqrt{61} \cdot \sqrt{80}}$$
+$$\cos(\theta) = \frac{-64}{\sqrt{4880}}$$
+$$\cos(\theta) \approx -0.9161$$
+
+
+---
+
+#### Final Result
+> [!success] Calculated Angle
+> $$\theta = \cos^{-1}(-0.9161) \approx 156.37^\circ$$
+
+---
+### Find the Angle Between $\mathbf{u} = 2\hat{i} - 8\hat{j}$ and $\mathbf{v} = 3\hat{i} - 5\hat{j}$
+
+To find the angle $\theta$ between these two vectors for your notes, we use the geometric definition of the dot product. This involves calculating the dot product of the vectors and their individual magnitudes, then solving for the cosine of the angle.
+
+---
+
+#### 1. Calculate the Dot Product ($\mathbf{u} \cdot \mathbf{v}$)
+Using the algebraic formula $\mathbf{u} \cdot \mathbf{v} = u_1 v_1 + u_2 v_2$:
+* $u_1 = 2, u_2 = -8$
+* $v_1 = 3, v_2 = -5$
+* $\mathbf{u} \cdot \mathbf{v} = (2)(3) + (-8)(-5)$
+* $\mathbf{u} \cdot \mathbf{v} = 6 + 40 = 46$
+
+---
+
+#### 2. Calculate the Magnitudes ($\|\mathbf{u}\|$ and $\|\mathbf{v}\|$)
+The magnitude of a vector $\langle a, b \rangle$ is $\sqrt{a^2 + b^2}$:
+* $\|\mathbf{u}\| = \sqrt{2^2 + (-8)^2} = \sqrt{4 + 64} = \sqrt{68}$
+* $\|\mathbf{v}\| = \sqrt{3^2 + (-5)^2} = \sqrt{9 + 25} = \sqrt{34}$
+
+---
+
+#### 3. Solve for the Angle ($\theta$)
+Substitute the values into the formula $\cos(\theta) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|}$:
+$$\cos(\theta) = \frac{46}{\sqrt{68} \cdot \sqrt{34}}$$
+$$\cos(\theta) = \frac{46}{\sqrt{2312}}$$
+$$\cos(\theta) = \frac{46}{34\sqrt{2}} \approx 0.9564$$
+
+
+---
+
+#### Final Result
+> [!success] Calculated Angle
+> $$\theta = \cos^{-1}(0.9564) \approx 16.93^\circ$$
+
+---
+**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=60380s)
