@@ -8245,3 +8245,38 @@ $$\vec{u} \cdot \vec{v} = 21 + (-24)$$
 * Since the result is **negative**, the angle $\theta$ between the two vectors is **obtuse** ($90^\circ < \theta \leq 180^\circ$).
 
 ---
+### $\mathbf{u} = -2\hat{i} + 8\hat{j}, \mathbf{v} = 4\hat{i} - 6\hat{j}$
+
+To find the **dot product** of these two vectors for your notes, we use the algebraic definition of the scalar product. This involves multiplying the corresponding horizontal components ($i$) and vertical components ($j$) and then summing the results.
+
+---
+
+#### 1. Identify the Components
+Extract the scalars from the linear combination form of each vector:
+* **Vector $\mathbf{u}$:** $u_1 = -2$, $u_2 = 8$
+* **Vector $\mathbf{v}$:** $v_1 = 4$, $v_2 = -6$
+
+---
+
+#### 2. Apply the Dot Product Formula
+The formula is defined as:
+$$\mathbf{u} \cdot \mathbf{v} = u_1 v_1 + u_2 v_2$$
+
+Substitute the identified values:
+$$\mathbf{u} \cdot \mathbf{v} = (-2)(4) + (8)(-6)$$
+$$\mathbf{u} \cdot \mathbf{v} = -8 + (-48)$$
+
+
+---
+
+#### 3. Final Result
+> [!success] Dot Product
+> **$\mathbf{u} \cdot \mathbf{v} = -56$**
+
+---
+
+#### Quick Interpretation
+* **Not Orthogonal:** Since the dot product is not $0$, the vectors are not perpendicular.
+* **Obtuse Angle:** Because the dot product is negative, the angle $\theta$ between the two vectors is greater than $90^\circ$.
+
+---
