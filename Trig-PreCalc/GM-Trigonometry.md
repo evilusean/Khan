@@ -8090,3 +8090,48 @@ $$\mathbf{u} = \frac{\langle -5, -12 \rangle}{13}$$
 > * **Linear Combination Form:** $\mathbf{u} = -\frac{5}{13}\mathbf{i} - \frac{12}{13}\mathbf{j}$
 
 ---
+### Find the Unit Vector $\mathbf{u}$ in the **Opposite Direction** of $\vec{v} = \langle 4, 12 \rangle$
+
+To solve this for your notes, we need to find a vector that has a magnitude of **1** and points exactly $180^\circ$ away from the original vector $\vec{v}$. We do this by finding the standard unit vector and then multiplying it by $-1$.
+
+---
+
+#### 1. Calculate the Magnitude of $\vec{v}$
+The magnitude ($\|\vec{v}\|$) is the length of the original vector:
+$$\|\vec{v}\| = \sqrt{x^2 + y^2}$$
+$$\|\vec{v}\| = \sqrt{4^2 + 12^2}$$
+$$\|\vec{v}\| = \sqrt{16 + 144} = \sqrt{160}$$
+
+* **Simplify the radical:**
+  $$\sqrt{160} = \sqrt{16 \cdot 10} = 4\sqrt{10}$$
+> [!success] Magnitude
+> **$\|\vec{v}\| = 4\sqrt{10} \approx 12.65$**
+
+---
+
+#### 2. Find the Unit Vector in the Same Direction
+Divide $\vec{v}$ by its magnitude:
+$$\mathbf{u}_{same} = \frac{\langle 4, 12 \rangle}{4\sqrt{10}} = \langle \frac{1}{\sqrt{10}}, \frac{3}{\sqrt{10}} \rangle$$
+
+---
+
+#### 3. Find the Unit Vector in the Opposite Direction
+To reverse the direction, multiply the unit vector by **$-1$**. This creates a vector with a magnitude of 1 pointing in the opposite direction.
+$$\mathbf{u} = -1 \cdot \langle \frac{1}{\sqrt{10}}, \frac{3}{\sqrt{10}} \rangle$$
+$$\mathbf{u} = \langle -\frac{1}{\sqrt{10}}, -\frac{3}{\sqrt{10}} \rangle$$
+
+* **Rationalized Form:**
+  $$\mathbf{u} = \langle -\frac{\sqrt{10}}{10}, -\frac{3\sqrt{10}}{10} \rangle$$
+
+
+---
+
+#### Final Answer Summary
+> [!info] Vector Properties
+> * **Original Vector:** $\vec{v} = \langle 4, 12 \rangle$
+> * **Magnitude:** $4\sqrt{10} \approx 12.65$
+> * **Opposite Unit Vector ($\mathbf{u}$):** $\langle -0.316, -0.949 \rangle$
+> * **Linear Combination:** $-\frac{\sqrt{10}}{10}\mathbf{i} - \frac{3\sqrt{10}}{10}\mathbf{j}$
+
+---
+**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=60380s)
