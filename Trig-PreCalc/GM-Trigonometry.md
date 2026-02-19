@@ -8782,3 +8782,42 @@ Substitute $i^2 = -1$ into the expression:
 > **$25$**
 
 ---
+### Solve $\frac{-3 - 4i}{5 + 4i}$
+
+To divide complex numbers for your notes, the goal is to eliminate the imaginary unit $i$ from the denominator. This is achieved by multiplying both the numerator and the denominator by the **complex conjugate** of the denominator.
+
+---
+
+#### 1. Identify the Complex Conjugate
+The conjugate of a complex number $a + bi$ is $a - bi$.
+* **Denominator:** $5 + 4i$
+* **Conjugate:** $5 - 4i$
+
+#### 2. Multiply Numerator and Denominator
+Multiply the entire fraction by $\frac{5 - 4i}{5 - 4i}$:
+$$\frac{(-3 - 4i)}{(5 + 4i)} \cdot \frac{(5 - 4i)}{(5 - 4i)}$$
+
+#### 3. Expand the Terms (FOIL)
+**Numerator:**
+* **First:** $(-3)(5) = -15$
+* **Outer:** $(-3)(-4i) = 12i$
+* **Inner:** $(-4i)(5) = -20i$
+* **Last:** $(-4i)(-4i) = 16i^2$
+* *Combine:* $-15 - 8i + 16(-1) = -15 - 8i - 16 = \mathbf{-31 - 8i}$
+
+**Denominator:**
+Using the shortcut $(a + bi)(a - bi) = a^2 + b^2$:
+* $5^2 + 4^2 = 25 + 16 = \mathbf{41}$
+
+
+---
+
+#### 4. Final Standard Form
+Combine the results and split the fraction into real and imaginary parts to reach standard form $a + bi$:
+$$\frac{-31 - 8i}{41}$$
+
+> [!success] Simplified Solution
+> **$-\frac{31}{41} - \frac{8}{41}i$**
+
+---
+**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=62040s)
