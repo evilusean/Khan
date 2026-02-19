@@ -8508,3 +8508,33 @@ $$|a + bi| = \sqrt{a^2 + b^2}$$
 > This formula is identical to the formula for the **magnitude** of a vector $\langle a, b \rangle$.
 
 ---
+### Simplify $\sqrt{-147}$
+
+To simplify the square root of a negative number for your notes, we must use the imaginary unit $i$, where $i = \sqrt{-1}$. The process involves factoring out the negative as $i$ and then simplifying the remaining positive radical.
+
+---
+
+#### 1. Extract the Imaginary Unit ($i$)
+First, rewrite the expression as the product of a positive real number and $-1$:
+$$\sqrt{-147} = \sqrt{147 \cdot -1}$$
+$$\sqrt{-147} = \sqrt{147} \cdot \sqrt{-1}$$
+$$\sqrt{-147} = i\sqrt{147}$$
+
+#### 2. Simplify the Radical ($\sqrt{147}$)
+Find the largest perfect square that divides into $147$. 
+* $147$ is divisible by $3$ ($1 + 4 + 7 = 12$).
+* $147 = 49 \cdot 3$.
+* Since $49$ is a perfect square ($7^2$), we can pull it out of the radical.
+
+$$\sqrt{147} = \sqrt{49 \cdot 3}$$
+$$\sqrt{147} = 7\sqrt{3}$$
+
+
+---
+
+#### Final Result
+Combine the real simplified radical with the imaginary unit:
+> [!success] Simplified Form
+> **$7i\sqrt{3}$**
+
+---
