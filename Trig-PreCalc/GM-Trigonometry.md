@@ -7994,6 +7994,7 @@ $$\vec{f} - \vec{b} = \langle -36.09, -12.83 \rangle$$
 > **Direction:** $\approx 199.57^\circ$
 ## 2025-February-18 - Vectors Part 3 : Unit Vectors, the Dot Product, and the Angle Between Two Vectors :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=16h46m20s
+![[Pasted image 20260218155224.png]]
 ### Unit Vectors
 
 A **unit vector** is a vector that has a magnitude (length) of exactly **1**. In Obsidian, unit vectors are often denoted with a "hat" (e.g., $\hat{u}$).
@@ -8056,7 +8057,7 @@ $$\theta = \cos^{-1}\left( \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\
 ### Linear Combinations of Standard Unit Vectors
 
 Every vector in a 2D plane can be broken down into two fundamental "building blocks" called **Standard Unit Vectors**. These vectors have a magnitude of 1 and align perfectly with the axes of the Cartesian coordinate system.
-![[Pasted image 20260218155224.png]]
+
 ---
 
 #### 1. The Building Blocks: $\mathbf{i}$ and $\mathbf{j}$
