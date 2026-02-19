@@ -8421,3 +8421,44 @@ When the dot product of two non-zero vectors is exactly **0**, it indicates a sp
 * **Horizontal Components:** $4$ and $6$
 * **Vertical Components:** $8$ and $-3$
 * **Relationship:** Perpendicular / Orthogonal
+### Solve for $b$ to Make $\mathbf{u}$ and $\mathbf{v}$ Orthogonal
+
+To make two vectors orthogonal (perpendicular), their **dot product** must be exactly equal to **zero**. We will use this condition to solve for the missing horizontal component $b$ in vector $\mathbf{v}$.
+
+---
+
+#### 1. Set Up the Orthogonality Condition
+Two vectors are orthogonal if:
+$$\mathbf{u} \cdot \mathbf{v} = 0$$
+
+Given vectors:
+* $\mathbf{u} = 7\mathbf{i} + 7\mathbf{j}$
+* $\mathbf{v} = b\mathbf{i} - 8\mathbf{j}$
+
+#### 2. Apply the Dot Product Formula
+The algebraic dot product is the sum of the products of the components:
+$$(u_1)(v_1) + (u_2)(v_2) = 0$$
+$$(7)(b) + (7)(-8) = 0$$
+
+#### 3. Solve for $b$
+Perform the multiplication and isolate the variable:
+$$7b - 56 = 0$$
+$$7b = 56$$
+$$b = \frac{56}{7}$$
+> [!success] Solution
+> **$b = 8$**
+
+---
+
+#### 4. Geometric Verification
+If $b = 8$, the vectors become:
+* $\mathbf{u} = \langle 7, 7 \rangle$
+* $\mathbf{v} = \langle 8, -8 \rangle$
+
+
+
+We can verify the angle $\theta$ using the cosine formula:
+$$\cos(\theta) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|} = \frac{0}{\|\mathbf{u}\| \|\mathbf{v}\|} = 0$$
+$$\theta = \cos^{-1}(0) = 90^\circ$$
+
+---
