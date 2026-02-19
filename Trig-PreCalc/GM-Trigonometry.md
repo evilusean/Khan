@@ -8465,3 +8465,46 @@ $$\theta = \cos^{-1}(0) = 90^\circ$$
 ---
 ## 2026-February-19 - Review of Complex Numbers :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=17h14m
+### Review of Complex Numbers
+
+In the context of trigonometry and advanced mathematics, complex numbers extend the real number system to allow for solutions to equations like $x^2 + 1 = 0$. They are fundamental for expressing vectors in different forms and are used extensively in polar coordinate systems.
+
+---
+
+#### 1. The Imaginary Unit ($i$)
+The foundation of complex numbers is the imaginary unit, denoted by $i$. It is defined by the property:
+$$i^2 = -1 \quad \text{or} \quad i = \sqrt{-1}$$
+
+#### 2. Standard Form
+A complex number $z$ is typically written in **standard form** (also called rectangular form):
+$$z = a + bi$$
+* **$a$ (Real Part):** The horizontal component on the complex plane.
+* **$bi$ (Imaginary Part):** The vertical component on the complex plane, where $b$ is a real number.
+
+---
+
+#### 3. The Complex Plane
+Unlike real numbers which sit on a single line, complex numbers are graphed on a 2D plane:
+* **Real Axis (Horizontal):** Corresponds to the $x$-axis.
+* **Imaginary Axis (Vertical):** Corresponds to the $y$-axis.
+* A complex number $a + bi$ is represented by the point $(a, b)$.
+
+
+---
+
+#### 4. Basic Operations
+* **Addition/Subtraction:** Combine the real parts and the imaginary parts separately.
+    $$(a + bi) + (c + di) = (a+c) + (b+d)i$$
+* **Multiplication:** Use the FOIL method, remembering to replace $i^2$ with $-1$.
+    $$(a + bi)(c + di) = ac + adi + bci + bdi^2 = (ac - bd) + (ad + bc)i$$
+* **Complex Conjugate:** The conjugate of $z = a + bi$ is $\bar{z} = a - bi$. Multiplying a complex number by its conjugate always results in a real number ($a^2 + b^2$).
+
+---
+
+#### 5. Absolute Value (Modulus)
+The absolute value of a complex number, $|z|$, represents its distance from the origin on the complex plane:
+$$|a + bi| = \sqrt{a^2 + b^2}$$
+> [!note] Connection to Vectors
+> This formula is identical to the formula for the **magnitude** of a vector $\langle a, b \rangle$.
+
+---
