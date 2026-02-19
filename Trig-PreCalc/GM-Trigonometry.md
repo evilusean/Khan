@@ -8747,3 +8747,38 @@ $$-8 + 12 = 4$$
 > **$4 - 22i$**
 
 ---
+### $(4 + 3i)(4 - 3i)$
+
+This expression represents the product of two **complex conjugates**. For your notes, we can solve this using the standard **FOIL** method or the shortcut for conjugates, which always results in a real number.
+
+---
+
+#### 1. Method 1: The FOIL Method
+Distribute the terms from the first binomial to the second:
+* **First:** $(4)(4) = 16$
+* **Outer:** $(4)(-3i) = -12i$
+* **Inner:** $(3i)(4) = 12i$
+* **Last:** $(3i)(-3i) = -9i^2$
+
+Combine the terms:
+$$16 - 12i + 12i - 9i^2$$
+
+#### 2. Method 2: The Difference of Squares Shortcut
+Since these are conjugates in the form $(a + bi)(a - bi)$, the middle terms ($bi$ and $-bi$) will always cancel out, leaving the formula:
+$$(a + bi)(a - bi) = a^2 + b^2$$
+
+
+---
+
+#### 3. Final Simplification
+Substitute $i^2 = -1$ into the expression:
+* $16 - 9(-1)$
+* $16 + 9$
+
+---
+
+#### Final Result
+> [!success] Product of Conjugates
+> **$25$**
+
+---
