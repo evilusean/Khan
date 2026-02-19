@@ -8567,4 +8567,48 @@ Combining the imaginary unit with the simplified real radical gives the standard
 > **$6i\sqrt{5}$**
 
 ---
-**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=62040s)
+### Solve $2x^2 + 10x + 5 = 8x$ using the Quadratic Formula
+
+To solve this equation for your notes, we first need to transform it into the standard quadratic form $ax^2 + bx + c = 0$. Once in standard form, we can apply the quadratic formula to find the values of $x$, including any potential complex solutions.
+
+---
+
+#### 1. Set the Equation to Zero
+Move all terms to the left side of the equation by subtracting $8x$ from both sides:
+$$2x^2 + 10x - 8x + 5 = 0$$
+$$2x^2 + 2x + 5 = 0$$
+
+#### 2. Identify the Coefficients
+From the standard form $ax^2 + bx + c = 0$:
+* **$a = 2$**
+* **$b = 2$**
+* **$c = 5$**
+
+#### 3. Apply the Quadratic Formula
+The quadratic formula is defined as:
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+Substitute our coefficients:
+$$x = \frac{-(2) \pm \sqrt{(2)^2 - 4(2)(5)}}{2(2)}$$
+$$x = \frac{-2 \pm \sqrt{4 - 40}}{4}$$
+$$x = \frac{-2 \pm \sqrt{-36}}{4}$$
+
+#### 4. Simplify Using Complex Numbers
+Since we have a negative under the radical, we extract the imaginary unit $i = \sqrt{-1}$:
+$$\sqrt{-36} = \sqrt{36} \cdot \sqrt{-1} = 6i$$
+
+Now, substitute this back into the solution:
+$$x = \frac{-2 \pm 6i}{4}$$
+
+Divide each term in the numerator by the denominator ($4$):
+$$x = \frac{-2}{4} \pm \frac{6i}{4}$$
+
+
+---
+
+#### Final Result
+> [!success] Solutions for $x$
+> **$x = -\frac{1}{2} \pm \frac{3}{2}i$**
+> Or in decimal form: **$x = -0.5 \pm 1.5i$**
+
+---
