@@ -8538,3 +8538,33 @@ Combine the real simplified radical with the imaginary unit:
 > **$7i\sqrt{3}$**
 
 ---
+### Simplify $\sqrt{-180}$
+
+To simplify the square root of a negative number, we utilize the imaginary unit $i$, defined as $i = \sqrt{-1}$. The process involves extracting the negative as $i$ and then simplifying the remaining radical by finding its perfect square factors.
+
+---
+
+#### 1. Extract the Imaginary Unit ($i$)
+Rewrite the radical as the product of the positive value and $-1$:
+$$\sqrt{-180} = \sqrt{180 \cdot -1}$$
+$$\sqrt{-180} = \sqrt{180} \cdot \sqrt{-1}$$
+$$\sqrt{-180} = i\sqrt{180}$$
+
+#### 2. Simplify the Radical ($\sqrt{180}$)
+To simplify $\sqrt{180}$, we look for the largest perfect square factor of $180$:
+* $180 = 36 \cdot 5$
+* Since $36$ is a perfect square ($6^2$), it can be removed from under the radical.
+
+$$\sqrt{180} = \sqrt{36 \cdot 5}$$
+$$\sqrt{180} = 6\sqrt{5}$$
+
+
+---
+
+#### Final Result
+Combining the imaginary unit with the simplified real radical gives the standard form:
+> [!success] Simplified Form
+> **$6i\sqrt{5}$**
+
+---
+**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=62040s)
