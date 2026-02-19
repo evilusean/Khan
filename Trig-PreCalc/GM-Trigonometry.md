@@ -8612,3 +8612,40 @@ $$x = \frac{-2}{4} \pm \frac{6i}{4}$$
 > Or in decimal form: **$x = -0.5 \pm 1.5i$**
 
 ---
+### Solve $\sqrt{-3} \cdot 2\sqrt{-8}$
+
+To solve this expression involving imaginary numbers for your notes, it is crucial to convert the square roots of negative numbers into their $i$ form **before** performing multiplication. This prevents common errors associated with the property $\sqrt{a} \cdot \sqrt{b} = \sqrt{ab}$, which only holds true for non-negative real numbers.
+
+---
+
+#### 1. Convert to Imaginary Form ($i$)
+Extract the imaginary unit $i = \sqrt{-1}$ from both radicals:
+* **First term:** $\sqrt{-3} = \sqrt{3} \cdot \sqrt{-1} = i\sqrt{3}$
+* **Second term:** $2\sqrt{-8} = 2 \cdot \sqrt{8} \cdot \sqrt{-1} = 2i\sqrt{8}$
+
+#### 2. Simplify the Second Radical
+Simplify $\sqrt{8}$ by finding the perfect square factor ($4$):
+* $\sqrt{8} = \sqrt{4 \cdot 2} = 2\sqrt{2}$
+* Therefore, the second term becomes: $2i(2\sqrt{2}) = 4i\sqrt{2}$
+
+#### 3. Multiply the Terms
+Now, multiply the two simplified expressions together:
+$$(i\sqrt{3}) \cdot (4i\sqrt{2})$$
+
+Group the coefficients and the radicals:
+* $(1 \cdot 4) \cdot (i \cdot i) \cdot (\sqrt{3} \cdot \sqrt{2})$
+* $4 \cdot i^2 \cdot \sqrt{6}$
+
+
+#### 4. Apply the property $i^2 = -1$
+Since $i^2 = -1$:
+* $4(-1)\sqrt{6}$
+* $-4\sqrt{6}$
+
+---
+
+#### Final Result
+> [!success] Simplified Solution
+> **$-4\sqrt{6}$**
+
+---
