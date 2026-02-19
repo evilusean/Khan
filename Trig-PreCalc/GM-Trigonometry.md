@@ -8708,3 +8708,42 @@ Combine the grouped values:
 > **$12 + 3i$**
 
 ---
+### $(-4 - 3i)(2 + 4i)$
+
+To multiply complex numbers for your notes, we use the **FOIL** method (First, Outer, Inner, Last), similar to binomial multiplication in algebra. The key difference is that we must replace $i^2$ with $-1$ during the final simplification.
+
+---
+
+#### 1. Apply the FOIL Method
+Distribute the terms from the first complex number to the second:
+* **First:** $(-4)(2) = -8$
+* **Outer:** $(-4)(4i) = -16i$
+* **Inner:** $(-3i)(2) = -6i$
+* **Last:** $(-3i)(4i) = -12i^2$
+
+Combine these results into one expression:
+$$-8 - 16i - 6i - 12i^2$$
+
+#### 2. Simplify the Imaginary Terms
+Combine the like terms involving $i$:
+$$-16i - 6i = -22i$$
+The expression now looks like this:
+$$-8 - 22i - 12i^2$$
+
+#### 3. Substitute $i^2 = -1$
+Since $i$ is defined as $\sqrt{-1}$, its square is $-1$. Substitute this into the "Last" term:
+$$-8 - 22i - 12(-1)$$
+$$-8 - 22i + 12$$
+
+
+#### 4. Combine the Real Parts
+Finally, add the constant real numbers:
+$$-8 + 12 = 4$$
+
+---
+
+#### Final Result
+> [!success] Standard Form ($a + bi$)
+> **$4 - 22i$**
+
+---
