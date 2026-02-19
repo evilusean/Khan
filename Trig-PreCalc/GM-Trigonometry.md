@@ -8676,3 +8676,35 @@ Combine the values within each group:
 > **$-3 + 9i$**
 
 ---
+### $(7 + 2i) - (-5 - i)$
+
+To subtract complex numbers for your notes, we subtract the real parts from each other and the imaginary parts from each other. This is best accomplished by distributing the negative sign to the second complex number and then combining like terms.
+
+---
+
+#### 1. Distribute the Negative Sign
+Apply the subtraction to both components of the second complex number:
+* Standard expression: $(7 + 2i) - 1(-5 - i)$
+* Distributed: $7 + 2i + 5 + i$
+
+#### 2. Group the Real and Imaginary Parts
+Identify and group the real constants and the imaginary coefficients:
+* **Real parts:** $7$ and $5$
+* **Imaginary parts:** $2i$ and $i$ (where $i$ is understood as $1i$)
+
+Rewrite to show the grouping:
+$$(7 + 5) + (2i + i)$$
+
+
+#### 3. Perform the Final Addition
+Combine the grouped values:
+* **Real sum:** $7 + 5 = 12$
+* **Imaginary sum:** $2i + 1i = 3i$
+
+---
+
+#### Final Result
+> [!success] Standard Form
+> **$12 + 3i$**
+
+---
