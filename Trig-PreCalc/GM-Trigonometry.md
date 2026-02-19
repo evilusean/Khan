@@ -8847,3 +8847,31 @@ Based on the cycle of $i$, we substitute the value for the remainder of 3:
 > **$-i$**
 
 ---
+### Simplify $i^{-38}$
+
+To simplify $i$ raised to a negative exponent for your notes, we first convert the expression into a fraction with a positive exponent and then apply the cyclic power rules of the imaginary unit $i$.
+
+---
+
+#### 1. Eliminate the Negative Exponent
+Using the property of exponents $a^{-n} = \frac{1}{a^n}$:
+$$i^{-38} = \frac{1}{i^{38}}$$
+
+#### 2. Simplify $i^{38}$
+The powers of $i$ repeat every four terms ($i^1=i, i^2=-1, i^3=-i, i^4=1$). To find the equivalent power, divide the exponent by 4 and find the remainder:
+* $38 \div 4 = 9$ with a **remainder of 2**.
+* Therefore, $i^{38} = i^2$.
+* Since $i^2 = -1$, our expression becomes:
+$$\frac{1}{-1}$$
+
+
+#### 3. Final Calculation
+$$\frac{1}{-1} = -1$$
+
+---
+
+#### Final Result
+> [!success] Simplified Form
+> **$-1$**
+
+---
