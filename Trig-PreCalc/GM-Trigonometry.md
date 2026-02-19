@@ -8820,4 +8820,30 @@ $$\frac{-31 - 8i}{41}$$
 > **$-\frac{31}{41} - \frac{8}{41}i$**
 
 ---
-**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=62040s)
+### Simplify $i^{151}$
+
+To simplify a high power of the imaginary unit $i$ for your notes, we utilize the cyclic nature of its values. The powers of $i$ repeat in a cycle of four:
+1.  $i^1 = i$
+2.  $i^2 = -1$
+3.  $i^3 = -i$
+4.  $i^4 = 1$
+
+
+---
+
+#### 1. Divide the Exponent by 4
+The value of $i^n$ is determined by the remainder when the exponent $n$ is divided by 4. 
+* $151 \div 4 = 37$ with a **remainder of 3**.
+* This means $i^{151}$ is equivalent to $i^3$ because $i^{151} = (i^4)^{37} \cdot i^3 = (1)^{37} \cdot i^3$.
+
+#### 2. Apply the Final Identity
+Based on the cycle of $i$, we substitute the value for the remainder of 3:
+* $i^3 = -i$
+
+---
+
+#### Final Result
+> [!success] Simplified Form
+> **$-i$**
+
+---
