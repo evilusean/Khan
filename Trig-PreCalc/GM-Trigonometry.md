@@ -8649,3 +8649,30 @@ Since $i^2 = -1$:
 > **$-4\sqrt{6}$**
 
 ---
+### $(4 + 2i) + (-7 + 7i)$
+
+To add complex numbers for your notes, we use a process similar to combining like terms in algebra. We group the **real parts** together and the **imaginary parts** together to simplify the expression into standard form ($a + bi$).
+
+---
+
+#### 1. Group the Real and Imaginary Parts
+Identify the real components (numbers without $i$) and the imaginary components (numbers with $i$):
+* **Real parts:** $4$ and $-7$
+* **Imaginary parts:** $2i$ and $7i$
+
+Rewrite the expression to group these components:
+$$(4 - 7) + (2i + 7i)$$
+
+
+#### 2. Perform the Addition
+Combine the values within each group:
+* **Real sum:** $4 + (-7) = -3$
+* **Imaginary sum:** $2i + 7i = 9i$
+
+---
+
+#### Final Result
+> [!success] Standard Form
+> **$-3 + 9i$**
+
+---
