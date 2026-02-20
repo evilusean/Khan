@@ -9040,3 +9040,39 @@ $$-3\sqrt{2} + 3i\sqrt{2}$$
 #### Final Result
 > [!success] Rectangular Form ($x + yi$)
 > **$-3\sqrt{2} + 3i\sqrt{2}$**
+### Convert $2 - 2i\sqrt{3}$ to Polar Form
+
+To convert a complex number from rectangular form ($x + yi$) to polar form ($r(\cos \theta + i \sin \theta)$) for your notes, we need to calculate the modulus $r$ and the argument $\theta$.
+
+---
+
+#### 1. Identify the Components
+Given $z = 2 - 2i\sqrt{3}$:
+* **Real part ($x$):** $2$
+* **Imaginary part ($y$):** $-2\sqrt{3}$
+* **Quadrant:** Since $x > 0$ and $y < 0$, the point $(2, -2\sqrt{3})$ lies in **Quadrant IV**.
+
+
+#### 2. Calculate the Modulus ($r$)
+The modulus is the distance from the origin to the point:
+$$r = \sqrt{x^2 + y^2}$$
+$$r = \sqrt{(2)^2 + (-2\sqrt{3})^2}$$
+$$r = \sqrt{4 + (4 \cdot 3)}$$
+$$r = \sqrt{4 + 12}$$
+$$r = \sqrt{16}$$
+**$r = 4$**
+
+#### 3. Calculate the Argument ($\theta$)
+First, find the reference angle ($\alpha$) using the tangent function:
+$$\tan \alpha = \left| \frac{y}{x} \right| = \left| \frac{-2\sqrt{3}}{2} \right| = \sqrt{3}$$
+$$\alpha = \tan^{-1}(\sqrt{3}) = 60^\circ$$
+
+Since the point is in **Quadrant IV**, we find the standard angle $\theta$ by subtracting the reference angle from $360^\circ$:
+$$\theta = 360^\circ - 60^\circ = 300^\circ$$
+
+---
+
+#### Final Result
+> [!success] Polar Form
+> **$4(\cos 300^\circ + i \sin 300^\circ)$**
+> (Or in radians: $4(\cos \frac{5\pi}{3} + i \sin \frac{5\pi}{3})$)
