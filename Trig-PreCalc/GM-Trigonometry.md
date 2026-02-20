@@ -8909,4 +8909,3 @@ To simplify $\sqrt{40}$, find the largest perfect square factor:
 > (Approximately $6.32$)
 
 ---
-**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=62040s)
