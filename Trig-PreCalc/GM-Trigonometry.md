@@ -8930,13 +8930,44 @@ The **Rectangular Form** is the standard way of expressing a complex number base
 * **$bi$ (Imaginary Part):** The $y$-coordinate on the complex plane (where $b$ is a real number).
 * **Graphing:** A complex number in rectangular form is graphed as a point $(a, b)$ or as a vector from the origin to that point.
 ### Polar (Trigonometric) Form of Complex Numbers
-![[Pasted image 20260220153206.png]]
+
 The **Polar Form** (also called Trigonometric Form) expresses a complex number using its distance from the origin and its angle of rotation.
 
 * **Formula:** $z = r(\cos \theta + i \sin \theta)$
 * **Shortened Notation:** Often written as $z = r \text{ cis } \theta$.
 * **$r$ (Modulus/Absolute Value):** The distance from the origin to the point, calculated as $r = \sqrt{a^2 + b^2}$.
 * **$\theta$ (Argument):** The angle measured counterclockwise from the positive real axis.
+### Polar (Trigonometric) Form of a Complex Number
+![[Pasted image 20260220153206.png]]
+The image illustrates the relationship between the **Rectangular Form** ($x + yi$) and the **Polar Form** ($r(\cos \theta + i \sin \theta)$) of a complex number by plotting it as a vector on the complex plane.
+
+---
+
+#### 1. Visual Components
+The complex number is represented as a point $(x, y)$ or a vector starting from the origin:
+* **$x$:** The real component (horizontal distance along the real axis).
+* **$y$:** The imaginary component (vertical distance along the imaginary axis).
+* **$r$ (Modulus):** The hypotenuse of the right triangle, representing the absolute value or magnitude of the complex number.
+* **$\theta$ (Argument):** The angle formed between the positive real axis and the vector.
+#### 2. Key Formulas
+Based on the right triangle trigonometry shown in the diagram, we can derive the following:
+
+**Finding $r$ and $\theta$ (Rectangular to Polar):**
+* **Magnitude:** $r = \sqrt{x^2 + y^2}$
+* **Angle:** $\tan \theta = \frac{y}{x}$
+
+**Finding $x$ and $y$ (Polar to Rectangular):**
+* **Real part:** $x = r \cos \theta$
+* **Imaginary part:** $y = r \sin \theta$
+
+#### 3. The Trigonometric Form
+By substituting $x$ and $y$ back into the rectangular form $x + yi$, we get the standard trigonometric expression:
+$$z = r(\cos \theta + i \sin \theta)$$
+
+---
+
+> [!tip] Notation Shortcut
+> In many contexts, this form is abbreviated as **$r \text{ cis } \theta$**, where "cis" stands for **c**osine **i** **s**ine.
 ### Converting Between Rectangular and Polar Forms
 
 To switch between the two forms, we use basic right-triangle trigonometry.
