@@ -8927,3 +8927,11 @@ The **Rectangular Form** is the standard way of expressing a complex number base
 * **$a$ (Real Part):** The $x$-coordinate on the complex plane.
 * **$bi$ (Imaginary Part):** The $y$-coordinate on the complex plane (where $b$ is a real number).
 * **Graphing:** A complex number in rectangular form is graphed as a point $(a, b)$ or as a vector from the origin to that point.
+### Polar (Trigonometric) Form of Complex Numbers
+
+The **Polar Form** (also called Trigonometric Form) expresses a complex number using its distance from the origin and its angle of rotation.
+
+* **Formula:** $z = r(\cos \theta + i \sin \theta)$
+* **Shortened Notation:** Often written as $z = r \text{ cis } \theta$.
+* **$r$ (Modulus/Absolute Value):** The distance from the origin to the point, calculated as $r = \sqrt{a^2 + b^2}$.
+* **$\theta$ (Argument):** The angle measured counterclockwise from the positive real axis.
