@@ -8912,7 +8912,7 @@ To simplify $\sqrt{40}$, find the largest perfect square factor:
 ## 2026-February-20 - Adding Complex Numbers Graphically, Converting between Rectangular and Polar Forms :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=17h39m20s
 ### Adding Complex Numbers Graphically
-
+![[Pasted image 20260220152217.png]]
 Adding complex numbers can be visualized on the complex plane using the **Parallelogram Law**, which is identical to adding vectors.
 
 1. **Plot the Numbers:** Represent each complex number $z_1 = a + bi$ and $z_2 = c + di$ as a vector from the origin $(0,0)$ to the points $(a,b)$ and $(c,d)$.
