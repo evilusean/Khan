@@ -8913,6 +8913,8 @@ To simplify $\sqrt{40}$, find the largest perfect square factor:
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=17h39m20s
 ### Adding Complex Numbers Graphically
 ![[Pasted image 20260220152217.png]]
+**Complex Plane** or **Argand Diagram** : Above image used to graph complex numbers - replace '*X*' with '*Real*' and '*Y*' with '*Imaginary*' - to find the absolute distance from '0', find the hypoteneuse/distance formula
+
 Adding complex numbers can be visualized on the complex plane using the **Parallelogram Law**, which is identical to adding vectors.
 
 1. **Plot the Numbers:** Represent each complex number $z_1 = a + bi$ and $z_2 = c + di$ as a vector from the origin $(0,0)$ to the points $(a,b)$ and $(c,d)$.
@@ -8948,3 +8950,41 @@ To switch between the two forms, we use basic right-triangle trigonometry.
 * Find $a$: $a = r \cos \theta$
 * Find $b$: $b = r \sin \theta$
 * Combine: $z = r \cos \theta + (r \sin \theta)i = a + bi$
+### Write $-7 + 6i$ in Trigonometric (Polar) Form
+
+To convert a complex number from rectangular form ($a + bi$) to polar form ($r(\cos \theta + i \sin \theta)$) for your notes, we need to find the modulus $r$ and the argument $\theta$.
+
+---
+
+#### 1. Identify Components
+Given $z = -7 + 6i$:
+* **$a = -7$**
+* **$b = 6$**
+* The point $(-7, 6)$ lies in **Quadrant II**.
+
+#### 2. Find the Modulus ($r$)
+The modulus is the distance from the origin:
+$$r = \sqrt{a^2 + b^2}$$
+$$r = \sqrt{(-7)^2 + (6)^2}$$
+$$r = \sqrt{49 + 36}$$
+$$r = \sqrt{85}$$
+
+#### 3. Find the Argument ($\theta$)
+Use the tangent function to find the reference angle, then adjust for Quadrant II:
+$$\tan \theta = \frac{b}{a}$$
+$$\tan \theta = \frac{6}{-7}$$
+$$\theta_{ref} = \tan^{-1}\left(\left|\frac{6}{-7}\right|\right) \approx 40.6^\circ$$
+
+Since the point is in Quadrant II:
+$$\theta = 180^\circ - 40.6^\circ = 139.4^\circ$$
+
+
+---
+
+#### Final Result
+> [!success] Polar Form
+> **$z = \sqrt{85}(\cos 139.4^\circ + i \sin 139.4^\circ)$**
+> Or shortened: **$\sqrt{85} \text{ cis } 139.4^\circ$**
+
+---
+**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=63560s)
