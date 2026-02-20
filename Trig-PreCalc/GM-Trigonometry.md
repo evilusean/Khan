@@ -8875,3 +8875,38 @@ $$\frac{1}{-1} = -1$$
 > **$-1$**
 
 ---
+### Find the Absolute Value of $|2 + 6i|$
+
+The absolute value (or modulus) of a complex number represents its distance from the origin on the complex plane. To solve this for your notes, we use the Pythagorean-based formula for the modulus of $z = a + bi$.
+
+---
+
+#### 1. Identify the Real and Imaginary Parts
+For the complex number $2 + 6i$:
+* **Real part ($a$):** $2$
+* **Imaginary part ($b$):** $6$
+
+#### 2. Apply the Modulus Formula
+The formula for the absolute value is:
+$$|a + bi| = \sqrt{a^2 + b^2}$$
+
+Substitute our values:
+$$|2 + 6i| = \sqrt{(2)^2 + (6)^2}$$
+$$|2 + 6i| = \sqrt{4 + 36}$$
+$$|2 + 6i| = \sqrt{40}$$
+
+
+#### 3. Simplify the Radical
+To simplify $\sqrt{40}$, find the largest perfect square factor:
+* $40 = 4 \times 10$
+* $\sqrt{40} = \sqrt{4 \times 10} = 2\sqrt{10}$
+
+---
+
+#### Final Result
+> [!success] Absolute Value
+> **$2\sqrt{10}$**
+> (Approximately $6.32$)
+
+---
+**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=62040s)
