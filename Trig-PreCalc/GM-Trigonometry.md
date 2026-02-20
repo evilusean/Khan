@@ -9009,3 +9009,34 @@ Substitute the trig values back into the formula $x = r \cos \theta$ and $y = r 
 #### Final Result
 > [!success] Rectangular Form ($x + yi$)
 > **$-\sqrt{3} + i$**
+### Convert $6(\cos 135^\circ + i \sin 135^\circ)$ to Rectangular Form
+
+To convert this complex number from polar (trigonometric) form to rectangular form ($x + yi$) for your notes, we evaluate the trigonometric functions for the given argument and distribute the modulus.
+
+---
+
+#### 1. Identify the Polar Components
+From the expression $6(\cos 135^\circ + i \sin 135^\circ)$:
+* **Modulus ($r$):** $6$
+* **Argument ($\theta$):** $135^\circ$
+
+#### 2. Evaluate the Trigonometric Functions
+Identify the values for $\cos 135^\circ$ and $\sin 135^\circ$. Since $135^\circ$ is in **Quadrant II**, the cosine is negative and the sine is positive.
+* **Reference Angle:** $180^\circ - 135^\circ = 45^\circ$
+* $\cos 135^\circ = -\frac{\sqrt{2}}{2}$
+* $\sin 135^\circ = \frac{\sqrt{2}}{2}$
+
+
+#### 3. Distribute the Modulus ($r$)
+Substitute these values into the rectangular conversion formulas $x = r \cos \theta$ and $y = r \sin \theta$:
+* **Real Part ($x$):** $6 \cdot \left(-\frac{\sqrt{2}}{2}\right) = -3\sqrt{2}$
+* **Imaginary Part ($y$):** $6 \cdot \left(\frac{\sqrt{2}}{2}\right) = 3\sqrt{2}$
+
+Combine these into the $x + yi$ format:
+$$-3\sqrt{2} + 3i\sqrt{2}$$
+
+---
+
+#### Final Result
+> [!success] Rectangular Form ($x + yi$)
+> **$-3\sqrt{2} + 3i\sqrt{2}$**
