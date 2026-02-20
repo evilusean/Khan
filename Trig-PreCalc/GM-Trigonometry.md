@@ -8930,7 +8930,7 @@ The **Rectangular Form** is the standard way of expressing a complex number base
 * **$bi$ (Imaginary Part):** The $y$-coordinate on the complex plane (where $b$ is a real number).
 * **Graphing:** A complex number in rectangular form is graphed as a point $(a, b)$ or as a vector from the origin to that point.
 ### Polar (Trigonometric) Form of Complex Numbers
-
+![[Pasted image 20260220153206.png]]
 The **Polar Form** (also called Trigonometric Form) expresses a complex number using its distance from the origin and its angle of rotation.
 
 * **Formula:** $z = r(\cos \theta + i \sin \theta)$
@@ -8950,41 +8950,3 @@ To switch between the two forms, we use basic right-triangle trigonometry.
 * Find $a$: $a = r \cos \theta$
 * Find $b$: $b = r \sin \theta$
 * Combine: $z = r \cos \theta + (r \sin \theta)i = a + bi$
-### Write $-7 + 6i$ in Trigonometric (Polar) Form
-
-To convert a complex number from rectangular form ($a + bi$) to polar form ($r(\cos \theta + i \sin \theta)$) for your notes, we need to find the modulus $r$ and the argument $\theta$.
-
----
-
-#### 1. Identify Components
-Given $z = -7 + 6i$:
-* **$a = -7$**
-* **$b = 6$**
-* The point $(-7, 6)$ lies in **Quadrant II**.
-
-#### 2. Find the Modulus ($r$)
-The modulus is the distance from the origin:
-$$r = \sqrt{a^2 + b^2}$$
-$$r = \sqrt{(-7)^2 + (6)^2}$$
-$$r = \sqrt{49 + 36}$$
-$$r = \sqrt{85}$$
-
-#### 3. Find the Argument ($\theta$)
-Use the tangent function to find the reference angle, then adjust for Quadrant II:
-$$\tan \theta = \frac{b}{a}$$
-$$\tan \theta = \frac{6}{-7}$$
-$$\theta_{ref} = \tan^{-1}\left(\left|\frac{6}{-7}\right|\right) \approx 40.6^\circ$$
-
-Since the point is in Quadrant II:
-$$\theta = 180^\circ - 40.6^\circ = 139.4^\circ$$
-
-
----
-
-#### Final Result
-> [!success] Polar Form
-> **$z = \sqrt{85}(\cos 139.4^\circ + i \sin 139.4^\circ)$**
-> Or shortened: **$\sqrt{85} \text{ cis } 139.4^\circ$**
-
----
-**Source:** [Trigonometry Full Course - GreeneMath.com](https://www.youtube.com/watch?v=rBT1iAqlzHY&t=63560s)
