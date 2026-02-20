@@ -8919,3 +8919,11 @@ Adding complex numbers can be visualized on the complex plane using the **Parall
 2. **Form a Parallelogram:** Draw a parallelogram where these two vectors are adjacent sides.
 3. **The Resultant:** The sum $z_1 + z_2$ is the vector that starts at the origin and ends at the opposite vertex of the parallelogram.
 4. **Coordinate Check:** The endpoint of this resultant vector will be $(a+c, b+d)$, which matches the algebraic sum.
+### Rectangular Form of Complex Numbers
+
+The **Rectangular Form** is the standard way of expressing a complex number based on its horizontal and vertical components on the complex plane.
+
+* **Formula:** $z = a + bi$
+* **$a$ (Real Part):** The $x$-coordinate on the complex plane.
+* **$bi$ (Imaginary Part):** The $y$-coordinate on the complex plane (where $b$ is a real number).
+* **Graphing:** A complex number in rectangular form is graphed as a point $(a, b)$ or as a vector from the origin to that point.
