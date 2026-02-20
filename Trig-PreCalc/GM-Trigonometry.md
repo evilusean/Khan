@@ -8981,3 +8981,31 @@ To switch between the two forms, we use basic right-triangle trigonometry.
 * Find $a$: $a = r \cos \theta$
 * Find $b$: $b = r \sin \theta$
 * Combine: $z = r \cos \theta + (r \sin \theta)i = a + bi$
+### Convert $2(\cos 150^\circ + i \sin 150^\circ)$ to Rectangular Form
+
+To convert a complex number from polar (trigonometric) form to rectangular form ($x + yi$) for your notes, we distribute the modulus $r$ and evaluate the trigonometric functions for the given angle $\theta$.
+
+---
+
+#### 1. Identify the Polar Components
+From the expression $2(\cos 150^\circ + i \sin 150^\circ)$:
+* **Modulus ($r$):** $2$
+* **Argument ($\theta$):** $150^\circ$
+
+#### 2. Evaluate the Trigonometric Functions
+Identify the values for $\cos 150^\circ$ and $\sin 150^\circ$. Since $150^\circ$ is in **Quadrant II**, the cosine is negative and the sine is positive.
+* **Reference Angle:** $180^\circ - 150^\circ = 30^\circ$
+* $\cos 150^\circ = -\frac{\sqrt{3}}{2}$
+* $\sin 150^\circ = \frac{1}{2}$
+
+
+#### 3. Distribute the Modulus ($r$)
+Substitute the trig values back into the formula $x = r \cos \theta$ and $y = r \sin \theta$:
+* **Real Part ($x$):** $2 \cdot (-\frac{\sqrt{3}}{2}) = -\sqrt{3}$
+* **Imaginary Part ($y$):** $2 \cdot (\frac{1}{2}) = 1$
+
+---
+
+#### Final Result
+> [!success] Rectangular Form ($x + yi$)
+> **$-\sqrt{3} + i$**
