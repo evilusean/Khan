@@ -9206,6 +9206,38 @@ To understand why we add the angles, we can expand the product using FOIL:
 > [!tip] Obsidian Shortcut
 > In $r \text{ cis } \theta$ notation, the theorem looks like this:
 > $(r_1 \text{ cis } \theta_1) \cdot (r_2 \text{ cis } \theta_2) = (r_1 r_2) \text{ cis } (\theta_1 + \theta_2)$
+### Dividing Complex Numbers in Polar Form
+
+The image displays the general quotient of two complex numbers expressed in polar (trigonometric) form. For your notes, this operation is governed by the **Quotient Theorem**.
+
+---
+
+#### 1. The Quotient Formula
+When dividing two complex numbers in polar form, the result is found by dividing their moduli and subtracting their arguments:
+$$\frac{r_1(\cos \theta_1 + i \sin \theta_1)}{r_2(\cos \theta_2 + i \sin \theta_2)} = \frac{r_1}{r_2} [\cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2)]$$
+
+
+---
+
+#### 2. How the Formula is Derived
+To derive this result, we must eliminate the complex number from the denominator, similar to "rationalizing" a fraction.
+
+1.  **Multiply by the Conjugate:** Multiply the numerator and denominator by the complex conjugate of the denominator: $(\cos \theta_2 - i \sin \theta_2)$.
+2.  **Simplify the Denominator:** Using the Pythagorean identity $\cos^2 \theta + \sin^2 \theta = 1$, the denominator simplifies simply to $r_2$.
+3.  **Expand the Numerator:** Multiply the terms in the numerator using FOIL:
+    * $(\cos \theta_1 \cos \theta_2 + \sin \theta_1 \sin \theta_2) + i(\sin \theta_1 \cos \theta_2 - \cos \theta_1 \sin \theta_2)$
+4.  **Apply Difference Identities:** * The real part follows the identity for $\cos(\theta_1 - \theta_2)$.
+    * The imaginary part follows the identity for $\sin(\theta_1 - \theta_2)$.
+
+---
+
+#### 3. Summary of Operation
+* **New Modulus:** Divide the top radius by the bottom radius ($\frac{r_1}{r_2}$).
+* **New Argument:** Subtract the bottom angle from the top angle ($\theta_1 - \theta_2$).
+
+> [!tip] Practical Note
+> If the resulting angle $\theta_1 - \theta_2$ is negative, add $360^\circ$ (or $2\pi$ radians) to find the positive coterminal angle for standard form.
+
 ### Multiply $3(\cos 150^\circ + i \sin 150^\circ) \cdot 3(\cos 90^\circ + i \sin 90^\circ)$
 
 To find the product of these two complex numbers in polar form for your notes, we apply the **Product Theorem**. This theorem allows us to find the result by multiplying the moduli and adding the arguments of the given numbers.
