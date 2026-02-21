@@ -9146,3 +9146,18 @@ $$\theta = 180^\circ - 60^\circ = 120^\circ$$
 > **$\sqrt{31}(\cos 120^\circ + i \sin 120^\circ)$**
 ## 2026-February-21 - Product and Quotient Theories :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=18h8m45s
+### Product Theorem for Complex Numbers
+
+The Product Theorem provides a simplified way to multiply two complex numbers when they are in polar (trigonometric) form. Instead of using FOIL on rectangular coordinates, you multiply the magnitudes and add the angles.
+
+---
+
+#### 1. The Formula
+If $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ and $z_2 = r_2(\cos \theta_2 + i \sin \theta_2)$, then:
+$$z_1 \cdot z_2 = r_1 r_2 [\cos(\theta_1 + \theta_2) + i \sin(\theta_1 + \theta_2)]$$
+
+#### 2. The Steps
+* **Multiply the Moduli:** Multiply $r_1$ and $r_2$ together.
+* **Add the Arguments:** Add the two angles $\theta_1$ and $\theta_2$.
+* **Simplify:** If the resulting angle is greater than $360^\circ$ (or $2\pi$), find its coterminal equivalent within the standard range.
+
