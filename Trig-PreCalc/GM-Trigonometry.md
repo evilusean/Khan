@@ -9322,3 +9322,34 @@ Using the angle sum identities or a calculator:
 > [!success] Product
 > **$(2\sqrt{6} - 2\sqrt{2}) + i(2\sqrt{6} + 2\sqrt{2})$**
 > *Decimal Approx: $2.07 + 7.73i$*
+### Divide $\frac{2\sqrt{7}(\cos 7\pi/6 + i \sin 7\pi/6)}{3(\cos 11\pi/6 + i \sin 11\pi/6)}$
+
+To divide complex numbers in polar form for your notes, we apply the **Quotient Theorem**. This theorem simplifies the process by requiring only the division of the moduli and the subtraction of the arguments.
+
+---
+
+#### 1. Identify Moduli and Arguments
+From the given expression:
+* **Numerator ($z_1$):** $r_1 = 2\sqrt{7}$ and $\theta_1 = \frac{7\pi}{6}$
+* **Denominator ($z_2$):** $r_2 = 3$ and $\theta_2 = \frac{11\pi}{6}$
+
+#### 2. Apply the Quotient Theorem
+The formula for the quotient is:
+$$\frac{z_1}{z_2} = \frac{r_1}{r_2} [\cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2)]$$
+
+**Divide the Moduli:**
+$$\frac{r_1}{r_2} = \frac{2\sqrt{7}}{3}$$
+
+**Subtract the Arguments:**
+$$\theta = \frac{7\pi}{6} - \frac{11\pi}{6} = -\frac{4\pi}{6} = -\frac{2\pi}{3}$$
+
+
+#### 3. Find the Positive Coterminal Angle
+Standard polar form usually requires a positive argument between $0$ and $2\pi$. Add $2\pi$ to the negative result:
+$$\theta = -\frac{2\pi}{3} + \frac{6\pi}{3} = \frac{4\pi}{3}$$
+
+---
+
+#### Final Result
+> [!success] Quotient (Polar Form)
+> **$\frac{2\sqrt{7}}{3} \left( \cos \frac{4\pi}{3} + i \sin \frac{4\pi}{3} \right)$**
