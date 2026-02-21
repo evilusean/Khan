@@ -9175,3 +9175,34 @@ $$\frac{z_1}{z_2} = \frac{r_1}{r_2} [\cos(\theta_1 - \theta_2) + i \sin(\theta_1
 * **Divide the Moduli:** Divide the first modulus $r_1$ by the second modulus $r_2$.
 * **Subtract the Arguments:** Subtract the angle of the denominator ($\theta_2$) from the angle of the numerator ($\theta_1$).
 * **Simplify:** If the resulting angle is negative, add $360^\circ$ (or $2\pi$) to express it as a positive coterminal angle.
+
+### Multiply $r_1(\cos \theta_1 + i \sin \theta_1) \cdot r_2(\cos \theta_2 + i \sin \theta_2)$
+
+This expression represents the general product of two complex numbers in polar (trigonometric) form. For your notes, we use the **Product Theorem**, which simplifies multiplication into two straightforward operations: multiplying the moduli and adding the arguments.
+
+---
+
+#### 1. General Formula
+When multiplying two complex numbers in polar form, the product is:
+$$z_1 \cdot z_2 = r_1 r_2 [\cos(\theta_1 + \theta_2) + i \sin(\theta_1 + \theta_2)]$$
+
+
+#### 2. Derivation Steps
+To understand why we add the angles, we can expand the product using FOIL:
+1.  **Multiply Moduli:** $r_1 \cdot r_2$
+2.  **FOIL the Terms:** * $\cos \theta_1 \cos \theta_2 + i \cos \theta_1 \sin \theta_2 + i \sin \theta_1 \cos \theta_2 + i^2 \sin \theta_1 \sin \theta_2$
+3.  **Apply Identity ($i^2 = -1$):**
+    * $(\cos \theta_1 \cos \theta_2 - \sin \theta_1 \sin \theta_2) + i(\sin \theta_1 \cos \theta_2 + \cos \theta_1 \sin \theta_2)$
+4.  **Use Angle Sum Identities:**
+    * The real part is the identity for $\cos(\theta_1 + \theta_2)$.
+    * The imaginary part is the identity for $\sin(\theta_1 + \theta_2)$.
+
+#### 3. Summary of Operation
+* **Modulus of Product:** Multiply the individual moduli ($r_p = r_1 \cdot r_2$).
+* **Argument of Product:** Add the individual arguments ($\theta_p = \theta_1 + \theta_2$).
+
+---
+
+> [!tip] Obsidian Shortcut
+> In $r \text{ cis } \theta$ notation, the theorem looks like this:
+> $(r_1 \text{ cis } \theta_1) \cdot (r_2 \text{ cis } \theta_2) = (r_1 r_2) \text{ cis } (\theta_1 + \theta_2)$
