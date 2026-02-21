@@ -9353,3 +9353,47 @@ $$\theta = -\frac{2\pi}{3} + \frac{6\pi}{3} = \frac{4\pi}{3}$$
 #### Final Result
 > [!success] Quotient (Polar Form)
 > **$\frac{2\sqrt{7}}{3} \left( \cos \frac{4\pi}{3} + i \sin \frac{4\pi}{3} \right)$**
+### Divide $\frac{1 - i\sqrt{3}}{-\frac{\sqrt{14}}{2} - \frac{\sqrt{14}}{2}i}$
+
+To solve this division for your notes, we will convert both the numerator and the denominator into **Polar Form**, apply the **Quotient Theorem**, and then convert the result back to **Rectangular Form**.
+
+---
+
+#### 1. Convert to Polar Form ($r, \theta$)
+
+**Numerator ($z_1 = 1 - i\sqrt{3}$):**
+* **Quadrant:** IV ($x > 0, y < 0$)
+* **Modulus ($r_1$):** $\sqrt{(1)^2 + (-\sqrt{3})^2} = \sqrt{1 + 3} = 2$
+* **Argument ($\theta_1$):** $\tan^{-1}(\sqrt{3}) = 60^\circ$. In QIV, $360^\circ - 60^\circ = 300^\circ$
+* $z_1 = 2(\cos 300^\circ + i \sin 300^\circ)$
+
+**Denominator ($z_2 = -\frac{\sqrt{14}}{2} - \frac{\sqrt{14}}{2}i$):**
+* **Quadrant:** III ($x < 0, y < 0$)
+* **Modulus ($r_2$):** $\sqrt{(-\frac{\sqrt{14}}{2})^2 + (-\frac{\sqrt{14}}{2})^2} = \sqrt{\frac{14}{4} + \frac{14}{4}} = \sqrt{\frac{28}{4}} = \sqrt{7}$
+* **Argument ($\theta_2$):** Since $|x| = |y|$, the reference angle is $45^\circ$. In QIII, $180^\circ + 45^\circ = 225^\circ$
+* $z_2 = \sqrt{7}(\cos 225^\circ + i \sin 225^\circ)$
+
+#### 2. Apply the Quotient Theorem
+$$\frac{z_1}{z_2} = \frac{r_1}{r_2} [\cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2)]$$
+
+* **New Modulus:** $\frac{2}{\sqrt{7}} = \frac{2\sqrt{7}}{7}$
+* **New Argument:** $300^\circ - 225^\circ = 75^\circ$
+
+
+#### 3. Convert to Rectangular Form
+$$z = \frac{2\sqrt{7}}{7}(\cos 75^\circ + i \sin 75^\circ)$$
+
+Using exact values for $75^\circ$:
+* $\cos 75^\circ = \frac{\sqrt{6} - \sqrt{2}}{4}$
+* $\sin 75^\circ = \frac{\sqrt{6} + \sqrt{2}}{4}$
+
+**Distribute the Modulus:**
+* **Real ($x$):** $\frac{2\sqrt{7}}{7} \cdot \frac{\sqrt{6} - \sqrt{2}}{4} = \frac{\sqrt{42} - \sqrt{14}}{14}$
+* **Imaginary ($y$):** $\frac{2\sqrt{7}}{7} \cdot \frac{\sqrt{6} + \sqrt{2}}{4} = \frac{\sqrt{42} + \sqrt{14}}{14}$
+
+---
+
+#### Final Result
+> [!success] Quotient
+> **$\left(\frac{\sqrt{42} - \sqrt{14}}{14}\right) + i\left(\frac{\sqrt{42} + \sqrt{14}}{14}\right)$**
+> *Decimal Approx: $0.195 + 0.731i$*
