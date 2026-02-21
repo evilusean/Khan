@@ -9206,3 +9206,45 @@ To understand why we add the angles, we can expand the product using FOIL:
 > [!tip] Obsidian Shortcut
 > In $r \text{ cis } \theta$ notation, the theorem looks like this:
 > $(r_1 \text{ cis } \theta_1) \cdot (r_2 \text{ cis } \theta_2) = (r_1 r_2) \text{ cis } (\theta_1 + \theta_2)$
+### Multiply $3(\cos 150^\circ + i \sin 150^\circ) \cdot 3(\cos 90^\circ + i \sin 90^\circ)$
+
+To find the product of these two complex numbers in polar form for your notes, we apply the **Product Theorem**. This theorem allows us to find the result by multiplying the moduli and adding the arguments of the given numbers.
+
+---
+
+#### 1. Identify the Moduli and Arguments
+From the given expression:
+* **First Complex Number ($z_1$):** $r_1 = 3$ and $\theta_1 = 150^\circ$
+* **Second Complex Number ($z_2$):** $r_2 = 3$ and $\theta_2 = 90^\circ$
+
+#### 2. Apply the Product Theorem
+The formula for the product is:
+$$z_1 \cdot z_2 = (r_1 \cdot r_2) [\cos(\theta_1 + \theta_2) + i \sin(\theta_1 + \theta_2)]$$
+
+**Multiply the Moduli:**
+$$r_p = 3 \cdot 3 = 9$$
+
+**Add the Arguments:**
+$$\theta_p = 150^\circ + 90^\circ = 240^\circ$$
+
+#### 3. State the Result in Polar Form
+Substitute the new modulus and argument back into the polar form:
+$$9(\cos 240^\circ + i \sin 240^\circ)$$
+
+---
+
+#### 4. Convert to Rectangular Form ($x + yi$)
+To provide a complete solution, evaluate the trigonometric functions for $240^\circ$ (which is in **Quadrant III**):
+* $\cos 240^\circ = -1/2$
+* $\sin 240^\circ = -\sqrt{3}/2$
+
+**Distribute the modulus:**
+* **Real part ($x$):** $9 \cdot (-1/2) = -4.5$
+* **Imaginary part ($y$):** $9 \cdot (-\sqrt{3}/2) = -4.5\sqrt{3}$
+
+---
+
+#### Final Result
+> [!success] Product
+> **Polar Form:** $9(\cos 240^\circ + i \sin 240^\circ)$
+> **Rectangular Form:** $-4.5 - 4.5i\sqrt{3}$
