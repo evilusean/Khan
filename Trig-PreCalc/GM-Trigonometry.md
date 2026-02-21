@@ -9248,3 +9248,45 @@ To provide a complete solution, evaluate the trigonometric functions for $240^\c
 > [!success] Product
 > **Polar Form:** $9(\cos 240^\circ + i \sin 240^\circ)$
 > **Rectangular Form:** $-4.5 - 4.5i\sqrt{3}$
+### Multiply $(-2\sqrt{2} - 2i\sqrt{2})(-\sqrt{3} - i)$
+
+To solve this product for your notes, we will first convert both complex numbers into **Polar Form**, use the **Product Theorem** to find the result, and then convert the final answer back to **Rectangular Form**.
+
+---
+
+#### 1. Convert to Polar Form ($r, \theta$)
+
+**For $z_1 = -2\sqrt{2} - 2i\sqrt{2}$ (Quadrant III):**
+* **Modulus ($r_1$):** $\sqrt{(-2\sqrt{2})^2 + (-2\sqrt{2})^2} = \sqrt{8 + 8} = \sqrt{16} = 4$
+* **Argument ($\theta_1$):** $\tan^{-1}(1) = 45^\circ$. In QIII, $\theta_1 = 180^\circ + 45^\circ = 225^\circ$
+* $z_1 = 4(\cos 225^\circ + i \sin 225^\circ)$
+
+**For $z_2 = -\sqrt{3} - i$ (Quadrant III):**
+* **Modulus ($r_2$):** $\sqrt{(-\sqrt{3})^2 + (-1)^2} = \sqrt{3 + 1} = \sqrt{4} = 2$
+* **Argument ($\theta_2$):** $\tan^{-1}(\frac{1}{\sqrt{3}}) = 30^\circ$. In QIII, $\theta_2 = 180^\circ + 30^\circ = 210^\circ$
+* $z_2 = 2(\cos 210^\circ + i \sin 210^\circ)$
+
+#### 2. Apply the Product Theorem
+$$z_1 \cdot z_2 = (r_1 \cdot r_2)[\cos(\theta_1 + \theta_2) + i \sin(\theta_1 + \theta_2)]$$
+* **New Modulus:** $4 \cdot 2 = 8$
+* **New Argument:** $225^\circ + 210^\circ = 435^\circ$
+* **Adjust for Coterminal Angle:** $435^\circ - 360^\circ = 75^\circ$
+
+
+#### 3. Final Conversion to Rectangular Form
+$$z = 8(\cos 75^\circ + i \sin 75^\circ)$$
+
+Using the angle sum identities or a calculator:
+* $\cos 75^\circ = \frac{\sqrt{6} - \sqrt{2}}{4}$
+* $\sin 75^\circ = \frac{\sqrt{6} + \sqrt{2}}{4}$
+
+**Distribute the 8:**
+* **Real:** $8 \cdot \frac{\sqrt{6} - \sqrt{2}}{4} = 2\sqrt{6} - 2\sqrt{2}$
+* **Imaginary:** $8 \cdot \frac{\sqrt{6} + \sqrt{2}}{4} = 2\sqrt{6} + 2\sqrt{2}$
+
+---
+
+#### Final Result
+> [!success] Product
+> **$(2\sqrt{6} - 2\sqrt{2}) + i(2\sqrt{6} + 2\sqrt{2})$**
+> *Decimal Approx: $2.07 + 7.73i$*
