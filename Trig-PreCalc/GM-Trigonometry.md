@@ -9076,3 +9076,71 @@ $$\theta = 360^\circ - 60^\circ = 300^\circ$$
 > [!success] Polar Form
 > **$4(\cos 300^\circ + i \sin 300^\circ)$**
 > (Or in radians: $4(\cos \frac{5\pi}{3} + i \sin \frac{5\pi}{3})$)
+### Convert $-2\sqrt{3} - 2i$ to Polar Form
+
+To convert a complex number from rectangular form ($x + yi$) to polar form ($r(\cos \theta + i \sin \theta)$) for your notes, we need to calculate the modulus $r$ and the argument $\theta$.
+
+---
+
+#### 1. Identify the Components
+Given $z = -2\sqrt{3} - 2i$:
+* **Real part ($x$):** $-2\sqrt{3}$
+* **Imaginary part ($y$):** $-2$
+* **Quadrant:** Since both $x < 0$ and $y < 0$, the point $(-2\sqrt{3}, -2)$ lies in **Quadrant III**.
+
+
+#### 2. Calculate the Modulus ($r$)
+The modulus is the distance from the origin to the point:
+$$r = \sqrt{x^2 + y^2}$$
+$$r = \sqrt{(-2\sqrt{3})^2 + (-2)^2}$$
+$$r = \sqrt{(4 \cdot 3) + 4}$$
+$$r = \sqrt{12 + 4}$$
+$$r = \sqrt{16}$$
+**$r = 4$**
+
+#### 3. Calculate the Argument ($\theta$)
+First, find the reference angle ($\alpha$) using the absolute values of the components:
+$$\tan \alpha = \left| \frac{y}{x} \right| = \left| \frac{-2}{-2\sqrt{3}} \right| = \frac{1}{\sqrt{3}} = \frac{\sqrt{3}}{3}$$
+$$\alpha = \tan^{-1}\left(\frac{\sqrt{3}}{3}\right) = 30^\circ$$
+
+Since the point is in **Quadrant III**, add the reference angle to $180^\circ$ to find the standard angle $\theta$:
+$$\theta = 180^\circ + 30^\circ = 210^\circ$$
+
+---
+
+#### Final Result
+> [!success] Polar Form
+> **$4(\cos 210^\circ + i \sin 210^\circ)$**
+> (Or in radians: $4(\cos \frac{7\pi}{6} + i \sin \frac{7\pi}{6})$)
+### Convert $-\frac{\sqrt{31}}{2} + \frac{\sqrt{93}}{2}i$ to Polar Form
+
+To convert this complex number from rectangular form to polar form ($r(\cos \theta + i \sin \theta)$) for your notes, we determine the modulus $r$ and the argument $\theta$.
+
+---
+
+#### 1. Identify the Components
+Given $z = -\frac{\sqrt{31}}{2} + \frac{\sqrt{93}}{2}i$:
+* **Real part ($x$):** $-\frac{\sqrt{31}}{2}$
+* **Imaginary part ($y$):** $\frac{\sqrt{93}}{2}$
+* **Quadrant:** Since $x < 0$ and $y > 0$, the point lies in **Quadrant II**.
+
+#### 2. Calculate the Modulus ($r$)
+$$r = \sqrt{x^2 + y^2}$$
+$$r = \sqrt{\left(-\frac{\sqrt{31}}{2}\right)^2 + \left(\frac{\sqrt{93}}{2}\right)^2}$$
+$$r = \sqrt{\frac{31}{4} + \frac{93}{4}}$$
+$$r = \sqrt{\frac{124}{4}} = \sqrt{31}$$
+
+
+#### 3. Calculate the Argument ($\theta$)
+Find the reference angle ($\alpha$):
+$$\tan \alpha = \left| \frac{y}{x} \right| = \frac{\frac{\sqrt{93}}{2}}{\frac{\sqrt{31}}{2}} = \frac{\sqrt{93}}{\sqrt{31}} = \sqrt{3}$$
+$$\alpha = \tan^{-1}(\sqrt{3}) = 60^\circ$$
+
+Since the point is in **Quadrant II**, subtract the reference angle from $180^\circ$:
+$$\theta = 180^\circ - 60^\circ = 120^\circ$$
+
+---
+
+#### Final Result
+> [!success] Polar Form
+> **$\sqrt{31}(\cos 120^\circ + i \sin 120^\circ)$**
