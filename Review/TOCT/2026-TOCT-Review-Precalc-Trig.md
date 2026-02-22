@@ -825,3 +825,16 @@ Based on the right triangle trigonometry shown in the diagram, we can derive the
 #### 3. The Trigonometric Form
 By substituting $x$ and $y$ back into the rectangular form $x + yi$, we get the standard trigonometric expression:
 $$z = r(\cos \theta + i \sin \theta)$$
+### Converting Between Rectangular and Polar Forms
+
+To switch between the two forms, we use basic right-triangle trigonometry.
+
+**1. Rectangular to Polar ($a + bi \to r, \theta$):**
+* Find $r$: $r = \sqrt{a^2 + b^2}$
+* Find $\theta$: $\tan \theta = \frac{b}{a}$. 
+    * *Note:* Use the quadrant of $(a, b)$ to determine the correct value of $\theta$.
+
+**2. Polar to Rectangular ($r, \theta \to a + bi$):**
+* Find $a$: $a = r \cos \theta$
+* Find $b$: $b = r \sin \theta$
+* Combine: $z = r \cos \theta + (r \sin \theta)i = a + bi$
