@@ -838,3 +838,32 @@ To switch between the two forms, we use basic right-triangle trigonometry.
 * Find $a$: $a = r \cos \theta$
 * Find $b$: $b = r \sin \theta$
 * Combine: $z = r \cos \theta + (r \sin \theta)i = a + bi$
+### Product Theorem for Complex Numbers
+
+The Product Theorem provides a simplified way to multiply two complex numbers when they are in polar (trigonometric) form. Instead of using FOIL on rectangular coordinates, you multiply the magnitudes and add the angles.
+
+---
+
+#### 1. The Formula
+If $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ and $z_2 = r_2(\cos \theta_2 + i \sin \theta_2)$, then:
+$$z_1 \cdot z_2 = r_1 r_2 [\cos(\theta_1 + \theta_2) + i \sin(\theta_1 + \theta_2)]$$
+
+#### 2. The Steps
+* **Multiply the Moduli:** Multiply $r_1$ and $r_2$ together.
+* **Add the Arguments:** Add the two angles $\theta_1$ and $\theta_2$.
+* **Simplify:** If the resulting angle is greater than $360^\circ$ (or $2\pi$), find its coterminal equivalent within the standard range.
+
+### Quotient Theorem for Complex Numbers
+
+The Quotient Theorem simplifies the division of complex numbers in polar form. Similar to the Product Theorem, it allows you to avoid the complex conjugate method used in rectangular form.
+
+---
+
+#### 1. The Formula
+If $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ and $z_2 = r_2(\cos \theta_2 + i \sin \theta_2)$, then:
+$$\frac{z_1}{z_2} = \frac{r_1}{r_2} [\cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2)]$$
+
+#### 2. The Steps
+* **Divide the Moduli:** Divide the first modulus $r_1$ by the second modulus $r_2$.
+* **Subtract the Arguments:** Subtract the angle of the denominator ($\theta_2$) from the angle of the numerator ($\theta_1$).
+* **Simplify:** If the resulting angle is negative, add $360^\circ$ (or $2\pi$) to express it as a positive coterminal angle.
