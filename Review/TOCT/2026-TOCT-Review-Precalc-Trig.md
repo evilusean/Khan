@@ -781,3 +781,13 @@ If you are given the magnitude ($||v||$) and the direction angle ($\theta$), you
 
 > [!tip] Standard Position
 > A vector is in **standard position** when its initial point is at the origin $(0,0)$. The terminal point $(a, b)$ then corresponds directly to the vector's components.
+
+### Rectangular Form of Complex Numbers
+
+The **Rectangular Form** is the standard way of expressing a complex number based on its horizontal and vertical components on the complex plane.
+
+* **Formula:** $z = a + bi$
+* **$a$ (Real Part):** The $x$-coordinate on the complex plane.
+* **$bi$ (Imaginary Part):** The $y$-coordinate on the complex plane (where $b$ is a real number).
+* **Graphing:** A complex number in rectangular form is graphed as a point $(a, b)$ or as a vector from the origin to that point.
+
