@@ -9507,3 +9507,41 @@ $$25 \left( \frac{1}{2} + i\left(-\frac{\sqrt{3}}{2}\right) \right) = \frac{25}{
 #### Final Result
 > [!success]
 > **$12.5 - 12.5i\sqrt{3}$**
+### $[2(\cos(7\pi/4) + i\sin(7\pi/4))]^5$
+
+To solve this for your notes, we apply **De Moivre's Theorem**, which allows us to find the power of a complex number by raising its modulus to that power and multiplying its argument by the exponent.
+
+---
+
+#### 1. Identify the Components
+From the expression $[2(\cos(7\pi/4) + i\sin(7\pi/4))]^5$:
+* **Modulus ($r$):** $2$
+* **Argument ($\theta$):** $7\pi/4$
+* **Exponent ($n$):** $5$
+
+#### 2. Apply De Moivre's Theorem
+The formula is: $z^n = r^n[\cos(n\theta) + i\sin(n\theta)]$
+
+* **New Modulus:** $r^5 = 2^5 = 32$
+* **New Argument:** $n\theta = 5 \cdot \frac{7\pi}{4} = \frac{35\pi}{4}$
+
+
+#### 3. Simplify the Angle
+Find the coterminal angle for $\frac{35\pi}{4}$ within the standard range $[0, 2\pi]$ by subtracting multiples of $2\pi$ (which is $8\pi/4$):
+* $\frac{35\pi}{4} - 4(2\pi) = \frac{35\pi}{4} - \frac{32\pi}{4} = \frac{3\pi}{4}$
+
+**Result in Polar Form:** $32(\cos(3\pi/4) + i\sin(3\pi/4))$
+
+#### 4. Convert to Rectangular Form ($x + yi$)
+Evaluate the trigonometric functions for $3\pi/4$ (Quadrant II):
+* $\cos(3\pi/4) = -\frac{\sqrt{2}}{2}$
+* $\sin(3\pi/4) = \frac{\sqrt{2}}{2}$
+
+**Calculation:**
+$$32 \left( -\frac{\sqrt{2}}{2} + i\frac{\sqrt{2}}{2} \right) = -16\sqrt{2} + 16i\sqrt{2}$$
+
+---
+
+#### Final Result
+> [!success]
+> **$-16\sqrt{2} + 16i\sqrt{2}$**
