@@ -9545,3 +9545,41 @@ $$32 \left( -\frac{\sqrt{2}}{2} + i\frac{\sqrt{2}}{2} \right) = -16\sqrt{2} + 16
 #### Final Result
 > [!success]
 > **$-16\sqrt{2} + 16i\sqrt{2}$**
+### Find the Square Roots of $3(\cos 45^\circ + i \sin 45^\circ)$
+
+To find the roots of a complex number for your notes, we use the **Roots of Complex Numbers** formula. Every non-zero complex number has exactly $n$ distinct $n$-th roots. For a square root ($n=2$), we will find two distinct solutions.
+
+---
+
+#### 1. The Root Formula
+The $n$-th roots of $z = r(\cos \theta + i \sin \theta)$ are given by:
+$$w_k = \sqrt[n]{r} \left[ \cos \left( \frac{\theta + 360^\circ k}{n} \right) + i \sin \left( \frac{\theta + 360^\circ k}{n} \right) \right]$$
+*Where $k = 0, 1, 2, \dots, n-1$.*
+
+#### 2. Identify the Components
+From the image $3(\cos 45^\circ + i \sin 45^\circ)$:
+* **Modulus ($r$):** $3$
+* **Argument ($\theta$):** $45^\circ$
+* **Root index ($n$):** $2$ (since we are finding square roots)
+
+
+#### 3. Calculate the Roots
+
+**First Root ($k = 0$):**
+* **Modulus:** $\sqrt{3}$
+* **Angle:** $\frac{45^\circ + 360^\circ(0)}{2} = \frac{45^\circ}{2} = 22.5^\circ$
+* **$w_0 = \sqrt{3}(\cos 22.5^\circ + i \sin 22.5^\circ)$**
+
+**Second Root ($k = 1$):**
+* **Modulus:** $\sqrt{3}$
+* **Angle:** $\frac{45^\circ + 360^\circ(1)}{2} = \frac{405^\circ}{2} = 202.5^\circ$
+* **$w_1 = \sqrt{3}(\cos 202.5^\circ + i \sin 202.5^\circ)$**
+
+---
+
+#### Final Result
+> [!success] The two square roots are:
+> 1. **$\sqrt{3}(\cos 22.5^\circ + i \sin 22.5^\circ)$**
+> 2. **$\sqrt{3}(\cos 202.5^\circ + i \sin 202.5^\circ)$**
+>
+> *Note: These two roots are exactly $180^\circ$ apart, forming a straight line through the origin on the complex plane.*
