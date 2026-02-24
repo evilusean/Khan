@@ -9417,6 +9417,36 @@ $$z^n = [r(\cos \theta + i \sin \theta)]^n = r^n(\cos n\theta + i \sin n\theta)$
 3.  **Simplify:** Find a coterminal angle if $n\theta$ is outside the standard $0^\circ$ to $360^\circ$ range.
 4.  **Convert Back (Optional):** Convert to rectangular form if required.
 
+### De Moivre's Theorem
+
+**De Moivre’s Theorem** provides a powerful and efficient method for finding powers of complex numbers. Instead of performing repeated binomial expansion in rectangular form, we use the polar (trigonometric) form to manipulate the magnitude and the angle directly.
+
+---
+
+#### The Formula
+As shown in the image, if a complex number is in polar form $z = r(\cos \theta + i \sin \theta)$, then for any real number $n$:
+
+$$[r(\cos \theta + i \sin \theta)]^n = r^n(\cos n\theta + i \sin n\theta)$$
+
+#### Shortened Notation
+In the more compact **cis** notation, the theorem is expressed as:
+$$[r \text{ cis } \theta]^n = r^n \text{ cis } n\theta$$
+
+
+---
+
+#### How to Apply the Theorem
+1.  **Raise the Modulus:** Take the modulus ($r$) and raise it to the power of $n$.
+2.  **Multiply the Argument:** Take the angle ($\theta$) and multiply it by $n$.
+3.  **Adjust the Angle:** If the resulting angle $n\theta$ is outside the standard range ($0^\circ$ to $360^\circ$ or $0$ to $2\pi$), find its coterminal angle.
+
+---
+
+> [!example] Concept in Action
+> If you have a complex number with a magnitude of $2$ and an angle of $30^\circ$, and you want to square it ($n=2$):
+> * The new magnitude is $2^2 = 4$.
+> * The new angle is $30^\circ \times 2 = 60^\circ$.
+> * **Result:** $4(\cos 60^\circ + i \sin 60^\circ)$
 ### Roots of Complex Numbers
 
 Every complex number (except zero) has exactly $n$ distinct $n$-th roots. These roots are equally spaced around a circle in the complex plane.
