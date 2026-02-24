@@ -9583,3 +9583,46 @@ From the image $3(\cos 45^\circ + i \sin 45^\circ)$:
 > 2. **$\sqrt{3}(\cos 202.5^\circ + i \sin 202.5^\circ)$**
 >
 > *Note: These two roots are exactly $180^\circ$ apart, forming a straight line through the origin on the complex plane.*
+### Problem: Find the $n=4$ roots of $-3\sqrt{3} - 3i$
+
+#### 1. Convert to Polar Form ($r, \theta$)
+For $z = -3\sqrt{3} - 3i$:
+* **Modulus ($r$):**
+  $$r = \sqrt{(-3\sqrt{3})^2 + (-3)^2} = \sqrt{(9 \cdot 3) + 9} = \sqrt{27 + 9} = \sqrt{36} = 6$$
+* **Argument ($\theta$):**
+  The point is in **Quadrant III**.
+  $\tan \alpha = \left| \frac{-3}{-3\sqrt{3}} \right| = \frac{1}{\sqrt{3}} \Rightarrow \alpha = 30^\circ$
+  $\theta = 180^\circ + 30^\circ = 210^\circ$
+
+
+#### 2. Apply the Root Formula
+The roots $w_k$ are given by:
+$$w_k = \sqrt[n]{r} \left[ \cos \left( \frac{\theta + 360^\circ k}{n} \right) + i \sin \left( \frac{\theta + 360^\circ k}{n} \right) \right]$$
+For $n=4$, the common modulus is $\sqrt[4]{6}$ and the angles are spaced by $\frac{360^\circ}{4} = 90^\circ$.
+
+* **Root 0 ($k=0$):**
+  $\text{Angle} = \frac{210^\circ}{4} = 52.5^\circ$
+  $w_0 = \sqrt[4]{6}(\cos 52.5^\circ + i \sin 52.5^\circ)$
+
+* **Root 1 ($k=1$):**
+  $\text{Angle} = 52.5^\circ + 90^\circ = 142.5^\circ$
+  $w_1 = \sqrt[4]{6}(\cos 142.5^\circ + i \sin 142.5^\circ)$
+
+* **Root 2 ($k=2$):**
+  $\text{Angle} = 142.5^\circ + 90^\circ = 232.5^\circ$
+  $w_2 = \sqrt[4]{6}(\cos 232.5^\circ + i \sin 232.5^\circ)$
+
+* **Root 3 ($k=3$):**
+  $\text{Angle} = 232.5^\circ + 90^\circ = 322.5^\circ$
+  $w_3 = \sqrt[4]{6}(\cos 322.5^\circ + i \sin 322.5^\circ)$
+
+[Image showing the four roots of a complex number forming a square on the complex plane]
+
+---
+
+#### Final Result
+> [!success] The four roots are:
+> 1. $\sqrt[4]{6} \text{ cis } 52.5^\circ$
+> 2. $\sqrt[4]{6} \text{ cis } 142.5^\circ$
+> 3. $\sqrt[4]{6} \text{ cis } 232.5^\circ$
+> 4. $\sqrt[4]{6} \text{ cis } 322.5^\circ$
