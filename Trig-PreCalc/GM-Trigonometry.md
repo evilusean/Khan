@@ -9399,4 +9399,22 @@ Using exact values for $75^\circ$:
 > *Decimal Approx: $0.195 + 0.731i$*
 ## 2026-February-24 - Powers and Roots of Complex Numbers :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=18h47m15s
+### Powers of Complex Numbers (De Moivre's Theorem)
 
+Raising a complex number to a power is significantly easier in polar form. **De Moivre's Theorem** states that to raise a complex number to the $n$-th power, you raise the modulus to that power and multiply the argument by $n$.
+
+---
+
+#### 1. The Formula
+If $z = r(\cos \theta + i \sin \theta)$, then for any integer $n$:
+$$z^n = [r(\cos \theta + i \sin \theta)]^n = r^n(\cos n\theta + i \sin n\theta)$$
+
+#### 2. The Steps
+1.  **Convert to Polar Form:** If the number is in $a+bi$ form, find $r$ and $\theta$ first.
+2.  **Apply the Theorem:**
+    * New Modulus = $r^n$
+    * New Argument = $n \cdot \theta$
+3.  **Simplify:** Find a coterminal angle if $n\theta$ is outside the standard $0^\circ$ to $360^\circ$ range.
+4.  **Convert Back (Optional):** Convert to rectangular form if required.
+
+[Image showing De Moivre's Theorem for powers of complex numbers]
