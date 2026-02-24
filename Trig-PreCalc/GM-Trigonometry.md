@@ -9397,6 +9397,6 @@ Using exact values for $75^\circ$:
 > [!success] Quotient
 > **$\left(\frac{\sqrt{42} - \sqrt{14}}{14}\right) + i\left(\frac{\sqrt{42} + \sqrt{14}}{14}\right)$**
 > *Decimal Approx: $0.195 + 0.731i$*
-## 2026-February-23 - Powers and Roots of Complex Numbers :
+## 2026-February-24 - Powers and Roots of Complex Numbers :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=18h47m15s
 
