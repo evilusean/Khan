@@ -9673,3 +9673,43 @@ For $n=4$:
 2. $w_1 = -1 + i\sqrt{3}$
 3. $w_2 = -\sqrt{3} - i$
 4. $w_3 = 1 - i\sqrt{3}$
+### Problem: Find all roots of $x^3 - 27 = 0$
+
+#### 1. Convert to Polar Form
+First, rewrite the equation as $x = \sqrt[3]{27}$. We treat the real number $27$ as a complex number:
+* **Rectangular:** $27 + 0i$
+* **Modulus ($r$):** $27$
+* **Argument ($\theta$):** $0^\circ$ (since it lies on the positive real axis)
+* **Polar Form:** $27(\cos 0^\circ + i \sin 0^\circ)$
+
+#### 2. Apply the $n$-th Root Formula
+To find the three cube roots ($n=3$):
+$$w_k = \sqrt[3]{r} \left[ \cos \left( \frac{\theta + 360^\circ k}{3} \right) + i \sin \left( \frac{\theta + 360^\circ k}{3} \right) \right]$$
+
+* **Common Modulus:** $\sqrt[3]{27} = 3$
+* **Angle Spacing:** $\frac{360^\circ}{3} = 120^\circ$
+
+
+#### 3. Calculate the Roots ($k = 0, 1, 2$)
+
+* **Root 0 ($k=0$):**
+  $\text{Angle} = \frac{0^\circ}{3} = 0^\circ$
+  $w_0 = 3(\cos 0^\circ + i \sin 0^\circ) = \mathbf{3}$
+
+* **Root 1 ($k=1$):**
+  $\text{Angle} = 0^\circ + 120^\circ = 120^\circ$
+  $w_1 = 3(\cos 120^\circ + i \sin 120^\circ)$
+  $w_1 = 3\left(-\frac{1}{2} + i\frac{\sqrt{3}}{2}\right) = \mathbf{-1.5 + 1.5i\sqrt{3}}$
+
+* **Root 2 ($k=2$):**
+  $\text{Angle} = 120^\circ + 120^\circ = 240^\circ$
+  $w_2 = 3(\cos 240^\circ + i \sin 240^\circ)$
+  $w_2 = 3\left(-\frac{1}{2} - i\frac{\sqrt{3}}{2}\right) = \mathbf{-1.5 - 1.5i\sqrt{3}}$
+
+---
+
+#### Final Result
+> [!success] The three roots of the equation are:
+> 1. $3$
+> 2. $-1.5 + 1.5i\sqrt{3}$
+> 3. $-1.5 - 1.5i\sqrt{3}$
