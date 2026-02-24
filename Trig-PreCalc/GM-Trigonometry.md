@@ -9626,3 +9626,50 @@ For $n=4$, the common modulus is $\sqrt[4]{6}$ and the angles are spaced by $\fr
 > 2. $\sqrt[4]{6} \text{ cis } 142.5^\circ$
 > 3. $\sqrt[4]{6} \text{ cis } 232.5^\circ$
 > 4. $\sqrt[4]{6} \text{ cis } 322.5^\circ$
+### Problem: Find the $n=4$ roots of $-8 + 8i\sqrt{3}$
+
+#### 1. Convert to Polar Form ($r, \theta$)
+For $z = -8 + 8i\sqrt{3}$:
+* **Modulus ($r$):**
+  $$r = \sqrt{(-8)^2 + (8\sqrt{3})^2} = \sqrt{64 + (64 \cdot 3)} = \sqrt{64 + 192} = \sqrt{256} = 16$$
+* **Argument ($\theta$):**
+  The point $(-8, 8\sqrt{3})$ is in **Quadrant II**.
+  $\tan \alpha = \left| \frac{8\sqrt{3}}{-8} \right| = \sqrt{3} \Rightarrow \alpha = 60^\circ$
+  $\theta = 180^\circ - 60^\circ = 120^\circ$
+* **Polar Representation:** $16(\cos 120^\circ + i \sin 120^\circ)$
+
+
+#### 2. Apply the $n$-th Root Formula
+The roots $w_k$ are calculated using:
+$$w_k = \sqrt[n]{r} \left[ \cos \left( \frac{\theta + 360^\circ k}{n} \right) + i \sin \left( \frac{\theta + 360^\circ k}{n} \right) \right]$$
+For $n=4$:
+* **Common Modulus:** $\sqrt[4]{16} = 2$
+* **Angle Spacing:** $\frac{360^\circ}{4} = 90^\circ$
+
+#### 3. Calculate Each Root ($k = 0, 1, 2, 3$)
+
+* **Root 0 ($k=0$):**
+  $\text{Angle} = \frac{120^\circ}{4} = 30^\circ$
+  **$w_0 = 2(\cos 30^\circ + i \sin 30^\circ)$**
+
+* **Root 1 ($k=1$):**
+  $\text{Angle} = 30^\circ + 90^\circ = 120^\circ$
+  **$w_1 = 2(\cos 120^\circ + i \sin 120^\circ)$**
+
+* **Root 2 ($k=2$):**
+  $\text{Angle} = 120^\circ + 90^\circ = 210^\circ$
+  **$w_2 = 2(\cos 210^\circ + i \sin 210^\circ)$**
+
+* **Root 3 ($k=3$):**
+  $\text{Angle} = 210^\circ + 90^\circ = 300^\circ$
+  **$w_3 = 2(\cos 300^\circ + i \sin 300^\circ)$**
+
+[Image showing four complex root vectors forming a square inscribed in a circle of radius 2]
+
+---
+
+#### Final Result (Rectangular Form)
+1. $w_0 = \sqrt{3} + i$
+2. $w_1 = -1 + i\sqrt{3}$
+3. $w_2 = -\sqrt{3} - i$
+4. $w_3 = 1 - i\sqrt{3}$
