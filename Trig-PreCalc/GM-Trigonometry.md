@@ -9468,44 +9468,42 @@ $$w_k = \sqrt[n]{r} \left[ \cos \left( \frac{\theta + 360^\circ k}{n} \right) + 
 2.  **Find the First Root ($k=0$):** Divide the initial angle $\theta$ by $n$.
 3.  **Find Subsequent Roots:** Keep adding $\frac{360^\circ}{n}$ to the angle until you have $n$ roots.
 
-### Problem: $(-\sqrt{2} + i\sqrt{2})^6$
+### ### Problem: $(-\frac{5\sqrt{3}}{2} + \frac{5}{2}i)^2$
 
-#### 1. Convert to Polar Form
-Before applying the theorem, we find $r$ and $\theta$ for the base $z = -\sqrt{2} + i\sqrt{2}$.
+#### 1. Convert the Base to Polar Form
+First, we find the modulus ($r$) and the argument ($\theta$) for $z = -\frac{5\sqrt{3}}{2} + \frac{5}{2}i$.
 
 * **Modulus ($r$):**
-  $$r = \sqrt{(-\sqrt{2})^2 + (\sqrt{2})^2} = \sqrt{2 + 2} = \sqrt{4} = 2$$
+  $$r = \sqrt{\left(-\frac{5\sqrt{3}}{2}\right)^2 + \left(\frac{5}{2}\right)^2}$$
+  $$r = \sqrt{\frac{25 \cdot 3}{4} + \frac{25}{4}} = \sqrt{\frac{75 + 25}{4}} = \sqrt{\frac{100}{4}} = \sqrt{25} = 5$$
+
 * **Argument ($\theta$):**
-  The point $(-\sqrt{2}, \sqrt{2})$ is in **Quadrant II**.
-  $\tan \alpha = |\frac{\sqrt{2}}{-\sqrt{2}}| = 1 \Rightarrow \alpha = 45^\circ$
-  $\theta = 180^\circ - 45^\circ = 135^\circ$
-* **Polar Form:** $2(\cos 135^\circ + i \sin 135^\circ)$
+  The point $(-\frac{5\sqrt{3}}{2}, \frac{5}{2})$ is in **Quadrant II**.
+  $\tan \alpha = \left| \frac{5/2}{-5\sqrt{3}/2} \right| = \frac{1}{\sqrt{3}} = \frac{\sqrt{3}}{3}$
+  $\alpha = 30^\circ$
+  $\theta = 180^\circ - 30^\circ = 150^\circ$
+
+
 
 #### 2. Apply De Moivre's Theorem
-Formula: $z^n = r^n(\cos n\theta + i \sin n\theta)$
-With $n = 6$:
+To square the number ($n=2$):
+$$z^2 = r^2(\cos(2\theta) + i\sin(2\theta))$$
 
-* **New Modulus:** $r^6 = 2^6 = 64$
-* **New Argument:** $6 \cdot 135^\circ = 810^\circ$
+* **New Modulus:** $5^2 = 25$
+* **New Argument:** $2 \cdot 150^\circ = 300^\circ$
 
+**Polar Result:** $25(\cos 300^\circ + i \sin 300^\circ)$
 
-
-#### 3. Simplify the Angle
-Find the coterminal angle for $810^\circ$ by subtracting multiples of $360^\circ$:
-$$810^\circ - 360^\circ = 450^\circ$$
-$$450^\circ - 360^\circ = 90^\circ$$
-**Simplified Polar Form:** $64(\cos 90^\circ + i \sin 90^\circ)$
-
-#### 4. Convert to Rectangular Form
-Evaluate the trig functions at $90^\circ$:
-* $\cos 90^\circ = 0$
-* $\sin 90^\circ = 1$
+#### 3. Convert to Rectangular Form ($x + yi$)
+Evaluate the trig functions at $300^\circ$ (Quadrant IV):
+* $\cos 300^\circ = \frac{1}{2}$
+* $\sin 300^\circ = -\frac{\sqrt{3}}{2}$
 
 **Calculation:**
-$$64(0 + i(1)) = 64i$$
+$$25 \left( \frac{1}{2} + i\left(-\frac{\sqrt{3}}{2}\right) \right) = \frac{25}{2} - \frac{25\sqrt{3}}{2}i$$
 
 ---
 
 #### Final Result
-> [!success] 
-> **$0 + 64i$** (or simply **$64i$**)
+> [!success]
+> **$12.5 - 12.5i\sqrt{3}$**
