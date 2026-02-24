@@ -9468,3 +9468,44 @@ $$w_k = \sqrt[n]{r} \left[ \cos \left( \frac{\theta + 360^\circ k}{n} \right) + 
 2.  **Find the First Root ($k=0$):** Divide the initial angle $\theta$ by $n$.
 3.  **Find Subsequent Roots:** Keep adding $\frac{360^\circ}{n}$ to the angle until you have $n$ roots.
 
+### Problem: $(-\sqrt{2} + i\sqrt{2})^6$
+
+#### 1. Convert to Polar Form
+Before applying the theorem, we find $r$ and $\theta$ for the base $z = -\sqrt{2} + i\sqrt{2}$.
+
+* **Modulus ($r$):**
+  $$r = \sqrt{(-\sqrt{2})^2 + (\sqrt{2})^2} = \sqrt{2 + 2} = \sqrt{4} = 2$$
+* **Argument ($\theta$):**
+  The point $(-\sqrt{2}, \sqrt{2})$ is in **Quadrant II**.
+  $\tan \alpha = |\frac{\sqrt{2}}{-\sqrt{2}}| = 1 \Rightarrow \alpha = 45^\circ$
+  $\theta = 180^\circ - 45^\circ = 135^\circ$
+* **Polar Form:** $2(\cos 135^\circ + i \sin 135^\circ)$
+
+#### 2. Apply De Moivre's Theorem
+Formula: $z^n = r^n(\cos n\theta + i \sin n\theta)$
+With $n = 6$:
+
+* **New Modulus:** $r^6 = 2^6 = 64$
+* **New Argument:** $6 \cdot 135^\circ = 810^\circ$
+
+
+
+#### 3. Simplify the Angle
+Find the coterminal angle for $810^\circ$ by subtracting multiples of $360^\circ$:
+$$810^\circ - 360^\circ = 450^\circ$$
+$$450^\circ - 360^\circ = 90^\circ$$
+**Simplified Polar Form:** $64(\cos 90^\circ + i \sin 90^\circ)$
+
+#### 4. Convert to Rectangular Form
+Evaluate the trig functions at $90^\circ$:
+* $\cos 90^\circ = 0$
+* $\sin 90^\circ = 1$
+
+**Calculation:**
+$$64(0 + i(1)) = 64i$$
+
+---
+
+#### Final Result
+> [!success] 
+> **$0 + 64i$** (or simply **$64i$**)
