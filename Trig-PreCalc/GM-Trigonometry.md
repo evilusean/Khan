@@ -9417,4 +9417,24 @@ $$z^n = [r(\cos \theta + i \sin \theta)]^n = r^n(\cos n\theta + i \sin n\theta)$
 3.  **Simplify:** Find a coterminal angle if $n\theta$ is outside the standard $0^\circ$ to $360^\circ$ range.
 4.  **Convert Back (Optional):** Convert to rectangular form if required.
 
-[Image showing De Moivre's Theorem for powers of complex numbers]
+### Roots of Complex Numbers
+
+Every complex number (except zero) has exactly $n$ distinct $n$-th roots. These roots are equally spaced around a circle in the complex plane.
+
+---
+
+#### 1. The Formula
+The $n$ distinct $n$-th roots of $z = r(\cos \theta + i \sin \theta)$ are given by:
+$$w_k = \sqrt[n]{r} \left[ \cos \left( \frac{\theta + 360^\circ k}{n} \right) + i \sin \left( \frac{\theta + 360^\circ k}{n} \right) \right]$$
+*Where $k = 0, 1, 2, \dots, n-1$.*
+
+#### 2. Key Characteristics
+* **Modulus:** All $n$ roots have the same modulus, $\sqrt[n]{r}$.
+* **Spacing:** The roots are separated by $\frac{360^\circ}{n}$. For example, cube roots ($n=3$) are $120^\circ$ apart.
+* **Geometric Representation:** The roots form the vertices of a regular $n$-sided polygon centered at the origin.
+
+#### 3. The Steps
+1.  **Convert $z$ to Polar Form.**
+2.  **Find the First Root ($k=0$):** Divide the initial angle $\theta$ by $n$.
+3.  **Find Subsequent Roots:** Keep adding $\frac{360^\circ}{n}$ to the angle until you have $n$ roots.
+
