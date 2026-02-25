@@ -9720,14 +9720,10 @@ https://www.youtube.com/watch?v=rBT1iAqlzHY&t=19h33m
 Polar coordinates represent a point in a 2D plane using a distance from a central point and an angle from a fixed direction. This is an alternative to the standard Rectangular (Cartesian) coordinate system $(x, y)$.
 
 ---
-
 #### 1. The Components
 A point in polar coordinates is written as **$(r, \theta)$**:
 * **$r$ (Radial Coordinate):** The directed distance from the origin (called the **Pole**) to the point.
 * **$\theta$ (Angular Coordinate):** The directed angle from the positive x-axis (called the **Polar Axis**) to the ray passing through the point.
-
-
-
 #### 2. Conversion Formulas
 To move between Polar $(r, \theta)$ and Rectangular $(x, y)$ forms, use these trigonometric relationships:
 
@@ -9749,3 +9745,5 @@ To move between Polar $(r, \theta)$ and Rectangular $(x, y)$ forms, use these tr
 
 > [!tip] Obsidian Tip
 > When plotting these in your vault, remember that most calculators and programming languages expect $\theta$ in **radians** rather than degrees.
+
+![[Pasted image 20260225172345.png]]
