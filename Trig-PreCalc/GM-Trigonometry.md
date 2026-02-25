@@ -9950,3 +9950,37 @@ To plot the polar coordinate $(6, 75^\circ)$:
 > [!success] Rectangular Coordinates
 > **$\left( \frac{3\sqrt{6} - 3\sqrt{2}}{2}, \frac{3\sqrt{6} + 3\sqrt{2}}{2} \right)$**
 > *Decimal Approx: $(1.55, 5.80)$*
+### Problem: Convert $(-4, 120^\circ)$ to Rectangular Form
+
+#### 1. Identify the Polar Components
+* **Radius ($r$):** $-4$
+* **Angle ($\theta$):** $120^\circ$
+
+#### 2. Apply Conversion Formulas
+Use the standard transformation equations:
+* $x = r \cos \theta$
+* $y = r \sin \theta$
+
+**Calculate $x$:**
+$$x = -4 \cos(120^\circ)$$
+Since $120^\circ$ is in Quadrant II, $\cos(120^\circ) = -1/2$.
+$$x = -4 \left( -\frac{1}{2} \right) = \mathbf{2}$$
+
+**Calculate $y$:**
+$$y = -4 \sin(120^\circ)$$
+Since $120^\circ$ is in Quadrant II, $\sin(120^\circ) = \sqrt{3}/2$.
+$$y = -4 \left( \frac{\sqrt{3}}{2} \right) = \mathbf{-2\sqrt{3}}$$
+
+
+#### 3. How to Plot a Negative Radius
+When plotting $(-4, 120^\circ)$, the negative radius acts as a reflection:
+1. **Find the Angle:** Locate the $120^\circ$ ray (Quadrant II).
+2. **Handle the Negative $r$:** Instead of moving 4 units toward $120^\circ$, move **4 units in the opposite direction** (toward $300^\circ$).
+3. **Mark the Point:** This places the final coordinate in **Quadrant IV**.
+
+---
+
+#### Final Result
+> [!success] Rectangular Coordinates
+> **$(2, -2\sqrt{3})$**
+> *(Decimal Approx: $(2, -3.46)$)*
