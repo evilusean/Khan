@@ -9782,3 +9782,36 @@ Because $\tan^{-1}$ only returns values in Quadrants I and IV, you must adjust $
 > [!important] Key Takeaway
 > In your Obsidian notes, remember that $r$ represents **magnitude** and $\theta$ represents **direction**.
 
+### Converting Polar to Rectangular Coordinates
+
+Converting from polar coordinates $(r, \theta)$ to rectangular coordinates $(x, y)$ is a direct process using right-triangle trigonometry. This allows us to map a point defined by distance and direction onto a standard grid.
+
+---
+
+#### 1. The Conversion Formulas
+If you are given a point in polar form $(r, \theta)$, you can find its horizontal and vertical components using the following equations:
+
+* **Horizontal Component ($x$):**
+    $$x = r \cos \theta$$
+* **Vertical Component ($y$):**
+    $$y = r \sin \theta$$
+#### 2. How it Works (Derivation)
+Imagine a right triangle where the hypotenuse is the radius $r$, the base is $x$, and the height is $y$. Using the basic trigonometric definitions (SOH CAH TOA):
+
+1.  **Cosine Relationship:** $\cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{x}{r}$
+    * Solving for $x$ gives: $x = r \cos \theta$
+2.  **Sine Relationship:** $\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{y}{r}$
+    * Solving for $y$ gives: $y = r \sin \theta$
+
+#### 3. Step-by-Step Procedure
+1.  **Identify $r$ and $\theta$:** Ensure you know the distance from the origin and the angle.
+2.  **Calculate Cosine and Sine:** Find the values of $\cos \theta$ and $\sin \theta$ (check if your calculator is in Degrees or Radians mode).
+3.  **Multiply by $r$:** Distribute the radius to both trig values to get your $(x, y)$ coordinates.
+
+---
+
+> [!example] Quick Example
+> Convert $(4, 60^\circ)$ to rectangular form:
+> * $x = 4 \cos 60^\circ = 4(0.5) = \mathbf{2}$
+> * $y = 4 \sin 60^\circ = 4(\frac{\sqrt{3}}{2}) = \mathbf{2\sqrt{3}}$
+> * **Rectangular Point:** $(2, 2\sqrt{3})$
