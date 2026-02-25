@@ -9815,6 +9815,45 @@ Imagine a right triangle where the hypotenuse is the radius $r$, the base is $x$
 > * $x = 4 \cos 60^\circ = 4(0.5) = \mathbf{2}$
 > * $y = 4 \sin 60^\circ = 4(\frac{\sqrt{3}}{2}) = \mathbf{2\sqrt{3}}$
 > * **Rectangular Point:** $(2, 2\sqrt{3})$
+### Summary: Converting Polar to Rectangular Coordinates
+
+Converting from **Polar Coordinates $(r, \theta)$** to **Rectangular Coordinates $(x, y)$** is the process of finding the horizontal and vertical components of a point defined by a distance and an angle. This relies on right-triangle trigonometry.
+
+---
+
+#### 1. The Transformation Formulas
+Given a point with a radius $r$ and an angle $\theta$:
+
+* **Horizontal Coordinate ($x$):**
+    $$x = r \cos \theta$$
+* **Vertical Coordinate ($y$):**
+    $$y = r \sin \theta$$
+#### 2. Derivation from Trigonometry
+This conversion is derived from the definitions of sine and cosine in a right triangle where the hypotenuse is $r$:
+* $\cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{x}{r} \implies x = r \cos \theta$
+* $\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{y}{r} \implies y = r \sin \theta$
+#### 3. Step-by-Step Conversion Process
+1.  **Identify $r$ and $\theta$:** Note the distance from the origin and the angle of rotation.
+2.  **Evaluate Trig Functions:** Find the cosine and sine of the angle $\theta$. 
+    * *Tip:* Use exact values from the unit circle for standard angles (e.g., $30^\circ, 45^\circ, 60^\circ$).
+3.  **Multiply by $r$:** Distribute the radius value to both results to find the $(x, y)$ pair.
+
+#### 4. Signs by Quadrant
+The signs of your $x$ and $y$ values will automatically be determined by the quadrant of $\theta$:
+| Quadrant | Angle Range | $x$ (cos) | $y$ (sin) |
+| :--- | :--- | :--- | :--- |
+| **I** | $0^\circ < \theta < 90^\circ$ | Positive (+) | Positive (+) |
+| **II** | $90^\circ < \theta < 180^\circ$ | Negative (-) | Positive (+) |
+| **III** | $180^\circ < \theta < 270^\circ$ | Negative (-) | Negative (-) |
+| **IV** | $270^\circ < \theta < 360^\circ$ | Positive (+) | Negative (-) |
+
+---
+
+> [!example] Example
+> Convert $(10, 120^\circ)$ to rectangular:
+> * $x = 10 \cos(120^\circ) = 10(-0.5) = -5$
+> * $y = 10 \sin(120^\circ) = 10(\frac{\sqrt{3}}{2}) = 5\sqrt{3}$
+> * **Result:** $(-5, 5\sqrt{3})$
 ### Problem: Convert Rectangular Coordinates to Polar Form
 
 To convert the rectangular coordinates $(-\frac{3\sqrt{2}}{2}, -\frac{3\sqrt{2}}{2})$ into polar coordinates $(r, \theta)$, we determine the distance from the origin ($r$) and the angle of rotation from the positive x-axis ($\theta$).
