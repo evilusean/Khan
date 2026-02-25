@@ -9877,3 +9877,37 @@ To plot $(4, 150^\circ)$ on a polar grid:
 #### Final Result
 > [!success] Polar Coordinates
 > **$(4, 150^\circ)$** or **$(4, \frac{5\pi}{6})$**
+### Problem: Convert $(6, 75^\circ)$ to Rectangular Form
+
+#### 1. Identify the Polar Components
+* **Radius ($r$):** $6$
+* **Angle ($\theta$):** $75^\circ$
+
+#### 2. Apply Conversion Formulas
+To find the rectangular coordinates $(x, y)$, use:
+* $x = r \cos \theta$
+* $y = r \sin \theta$
+
+**Calculate $x$:**
+$$x = 6 \cos(75^\circ)$$
+Using the exact value $\cos(75^\circ) = \frac{\sqrt{6} - \sqrt{2}}{4}$:
+$$x = 6 \left( \frac{\sqrt{6} - \sqrt{2}}{4} \right) = \frac{3(\sqrt{6} - \sqrt{2})}{2} \approx 1.55$$
+
+**Calculate $y$:**
+$$y = 6 \sin(75^\circ)$$
+Using the exact value $\sin(75^\circ) = \frac{\sqrt{6} + \sqrt{2}}{4}$:
+$$y = 6 \left( \frac{\sqrt{6} + \sqrt{2}}{4} \right) = \frac{3(\sqrt{6} + \sqrt{2})}{2} \approx 5.80$$
+
+
+#### 3. How to Plot the Point
+To plot the polar coordinate $(6, 75^\circ)$:
+1. **Find the Angle:** Start at the Polar Axis (positive x-axis) and rotate counterclockwise by **$75^\circ$**. This is nearly a full $90^\circ$ turn, placing the ray in **Quadrant I**.
+2. **Measure the Radius:** From the origin (Pole), move **6 units** out along that $75^\circ$ ray.
+3. **Mark the Point:** The resulting intersection is the location of $(6, 75^\circ)$.
+
+---
+
+#### Final Result
+> [!success] Rectangular Coordinates
+> **$\left( \frac{3\sqrt{6} - 3\sqrt{2}}{2}, \frac{3\sqrt{6} + 3\sqrt{2}}{2} \right)$**
+> *Decimal Approx: $(1.55, 5.80)$*
