@@ -9846,3 +9846,34 @@ To plot $(3, 225^\circ)$ on a polar grid:
 #### Final Result
 > [!success] Polar Coordinates
 > **$(3, 225^\circ)$** or **$(3, \frac{5\pi}{4})$**
+### Problem: Convert $(-2\sqrt{3}, 2)$ to Polar Form
+
+#### 1. Calculate the Radius ($r$)
+The radius represents the direct distance from the origin (pole) to the point.
+$$r = \sqrt{x^2 + y^2}$$
+$$r = \sqrt{(-2\sqrt{3})^2 + (2)^2}$$
+$$r = \sqrt{(4 \cdot 3) + 4} = \sqrt{12 + 4} = \sqrt{16} = \mathbf{4}$$
+
+#### 2. Calculate the Angle ($\theta$)
+Identify the quadrant: Since $x$ is negative and $y$ is positive, the point lies in **Quadrant II**.
+
+1. **Find the Reference Angle ($\alpha$):**
+   $$\tan \alpha = \left| \frac{y}{x} \right| = \left| \frac{2}{-2\sqrt{3}} \right| = \frac{1}{\sqrt{3}} = \frac{\sqrt{3}}{3}$$
+   $$\alpha = 30^\circ \text{ (or } \pi/6\text{)}$$
+
+2. **Adjust for Quadrant II:**
+   $$\theta = 180^\circ - 30^\circ = \mathbf{150^\circ}$$
+   *In radians: $\pi - \pi/6 = \mathbf{5\pi/6}$*
+
+
+#### 3. How to Plot the Point
+To plot $(4, 150^\circ)$ on a polar grid:
+1. **Find the Angle:** Locate the ray for **$150^\circ$** (or $5\pi/6$) by rotating counterclockwise from the positive x-axis.
+2. **Measure the Distance:** Move out **4 units** from the center (pole) along that ray.
+3. **Mark the Point:** Place your point where the 4th concentric circle intersects the $150^\circ$ ray.
+
+---
+
+#### Final Result
+> [!success] Polar Coordinates
+> **$(4, 150^\circ)$** or **$(4, \frac{5\pi}{6})$**
