@@ -923,3 +923,23 @@ $$w_k = \sqrt[n]{r} \left[ \cos \left( \frac{\theta + 360^\circ k}{n} \right) + 
 1.  **Convert $z$ to Polar Form.**
 2.  **Find the First Root ($k=0$):** Divide the initial angle $\theta$ by $n$.
 3.  **Find Subsequent Roots:** Keep adding $\frac{360^\circ}{n}$ to the angle until you have $n$ roots.
+### Polar Coordinates Overview
+
+Polar coordinates represent a point in a 2D plane using a distance from a central point and an angle from a fixed direction. This is an alternative to the standard Rectangular (Cartesian) coordinate system $(x, y)$.
+
+---
+#### 1. The Components
+A point in polar coordinates is written as **$(r, \theta)$**:
+* **$r$ (Radial Coordinate):** The directed distance from the origin (called the **Pole**) to the point.
+* **$\theta$ (Angular Coordinate):** The directed angle from the positive x-axis (called the **Polar Axis**) to the ray passing through the point.
+#### 2. Conversion Formulas
+To move between Polar $(r, \theta)$ and Rectangular $(x, y)$ forms, use these trigonometric relationships:
+
+**Polar to Rectangular:**
+* $x = r \cos \theta$
+* $y = r \sin \theta$
+
+**Rectangular to Polar:**
+* $r^2 = x^2 + y^2 \Rightarrow r = \sqrt{x^2 + y^2}$
+* $\tan \theta = \frac{y}{x} \Rightarrow \theta = \tan^{-1}(\frac{y}{x})$
+  *(Note: Always check the quadrant of $(x, y)$ to ensure the correct value of $\theta$.)
