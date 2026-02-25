@@ -9745,5 +9745,40 @@ To move between Polar $(r, \theta)$ and Rectangular $(x, y)$ forms, use these tr
 
 > [!tip] Obsidian Tip
 > When plotting these in your vault, remember that most calculators and programming languages expect $\theta$ in **radians** rather than degrees.
+### Summary: Converting to Polar Coordinates
 
+This image illustrates the relationship between **Rectangular (Cartesian) Coordinates $(x, y)$** and **Polar Coordinates $(r, \theta)$**. By using right-triangle trigonometry, we can convert any point $P$ from one system to the other.
+
+---
 ![[Pasted image 20260225172345.png]]
+#### 1. Understanding the Components
+* **The Pole ($O$):** Equivalent to the origin $(0,0)$ in the rectangular system.
+* **The Polar Axis:** Equivalent to the positive x-axis.
+* **Point $P$:** Represented as $(x, y)$ in rectangular form and $(r, \theta)$ in polar form.
+* **$r$ (Radius):** The direct distance from the Pole to point $P$.
+* **$\theta$ (Theta):** The angle measured counterclockwise from the Polar Axis to the line segment $OP$.
+
+
+#### 2. Conversion Formulas
+To convert a rectangular point $(x, y)$ into polar coordinates $(r, \theta)$, use the following steps:
+
+**Find the Radius ($r$):**
+Based on the Pythagorean Theorem ($a^2 + b^2 = c^2$):
+$$r^2 = x^2 + y^2 \implies r = \sqrt{x^2 + y^2}$$
+
+**Find the Angle ($\theta$):**
+Based on the tangent function ($\tan = \text{opposite}/\text{adjacent}$):
+$$\tan \theta = \frac{y}{x} \implies \theta = \tan^{-1}\left(\frac{y}{x}\right)$$
+
+#### 3. Quadrant Checklist
+Because $\tan^{-1}$ only returns values in Quadrants I and IV, you must adjust $\theta$ based on where the point $(x, y)$ actually lies:
+* **QI:** Use $\theta$ as calculated.
+* **QII:** Add $180^\circ$ (or $\pi$) to the result.
+* **QIII:** Add $180^\circ$ (or $\pi$) to the result.
+* **QIV:** Use the negative result or add $360^\circ$ (or $2\pi$) for a positive angle.
+
+---
+
+> [!important] Key Takeaway
+> In your Obsidian notes, remember that $r$ represents **magnitude** and $\theta$ represents **direction**.
+
