@@ -867,3 +867,36 @@ $$\frac{z_1}{z_2} = \frac{r_1}{r_2} [\cos(\theta_1 - \theta_2) + i \sin(\theta_1
 * **Divide the Moduli:** Divide the first modulus $r_1$ by the second modulus $r_2$.
 * **Subtract the Arguments:** Subtract the angle of the denominator ($\theta_2$) from the angle of the numerator ($\theta_1$).
 * **Simplify:** If the resulting angle is negative, add $360^\circ$ (or $2\pi$) to express it as a positive coterminal angle.
+### Powers of Complex Numbers (De Moivre's Theorem)
+
+Raising a complex number to a power is significantly easier in polar form. **De Moivre's Theorem** states that to raise a complex number to the $n$-th power, you raise the modulus to that power and multiply the argument by $n$.
+
+---
+
+#### 1. The Formula
+If $z = r(\cos \theta + i \sin \theta)$, then for any integer $n$:
+$$z^n = [r(\cos \theta + i \sin \theta)]^n = r^n(\cos n\theta + i \sin n\theta)$$
+
+#### 2. The Steps
+1.  **Convert to Polar Form:** If the number is in $a+bi$ form, find $r$ and $\theta$ first.
+2.  **Apply the Theorem:**
+    * New Modulus = $r^n$
+    * New Argument = $n \cdot \theta$
+3.  **Simplify:** Find a coterminal angle if $n\theta$ is outside the standard $0^\circ$ to $360^\circ$ range.
+4.  **Convert Back (Optional):** Convert to rectangular form if required.
+
+### De Moivre's Theorem
+
+**De Moivre’s Theorem** provides a powerful and efficient method for finding powers of complex numbers. Instead of performing repeated binomial expansion in rectangular form, we use the polar (trigonometric) form to manipulate the magnitude and the angle directly.
+
+---
+
+#### The Formula
+As shown in the image, if a complex number is in polar form $z = r(\cos \theta + i \sin \theta)$, then for any real number $n$:
+
+$$[r(\cos \theta + i \sin \theta)]^n = r^n(\cos n\theta + i \sin n\theta)$$
+
+#### Shortened Notation
+In the more compact **cis** notation, the theorem is expressed as:
+$$[r \text{ cis } \theta]^n = r^n \text{ cis } n\theta$$
+
