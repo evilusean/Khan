@@ -9714,3 +9714,4 @@ $$w_k = \sqrt[3]{r} \left[ \cos \left( \frac{\theta + 360^\circ k}{3} \right) + 
 > 2. $-1.5 + 1.5i\sqrt{3}$
 > 3. $-1.5 - 1.5i\sqrt{3}$
 ## 2026-February-25 - Polar Coordinates :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=19h33m
