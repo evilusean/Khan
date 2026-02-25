@@ -9815,3 +9815,34 @@ Imagine a right triangle where the hypotenuse is the radius $r$, the base is $x$
 > * $x = 4 \cos 60^\circ = 4(0.5) = \mathbf{2}$
 > * $y = 4 \sin 60^\circ = 4(\frac{\sqrt{3}}{2}) = \mathbf{2\sqrt{3}}$
 > * **Rectangular Point:** $(2, 2\sqrt{3})$
+### Problem: Convert Rectangular Coordinates to Polar Form
+
+To convert the rectangular coordinates $(-\frac{3\sqrt{2}}{2}, -\frac{3\sqrt{2}}{2})$ into polar coordinates $(r, \theta)$, we determine the distance from the origin ($r$) and the angle of rotation from the positive x-axis ($\theta$).
+
+---
+
+#### 1. Calculate the Radius ($r$)
+Using the Pythagorean distance formula:
+$$r = \sqrt{x^2 + y^2}$$
+$$r = \sqrt{\left(-\frac{3\sqrt{2}}{2}\right)^2 + \left(-\frac{3\sqrt{2}}{2}\right)^2}$$
+$$r = \sqrt{\frac{9 \cdot 2}{4} + \frac{9 \cdot 2}{4}} = \sqrt{\frac{18}{4} + \frac{18}{4}} = \sqrt{\frac{36}{4}} = \sqrt{9} = \mathbf{3}$$
+
+#### 2. Calculate the Angle ($\theta$)
+Identify the quadrant first. Since both $x$ and $y$ are negative, the point is in **Quadrant III**.
+Find the reference angle ($\alpha$):
+$$\tan \alpha = \left| \frac{y}{x} \right| = \left| \frac{-3\sqrt{2}/2}{-3\sqrt{2}/2} \right| = 1 \implies \alpha = 45^\circ \text{ (or } \pi/4\text{)}$$
+Adjust for Quadrant III:
+$$\theta = 180^\circ + 45^\circ = \mathbf{225^\circ} \text{ (or } 5\pi/4\text{)}$$
+
+#### 3. How to Plot the Point
+To plot $(3, 225^\circ)$ on a polar grid:
+1.  **Start at the Pole:** Locate the center (origin) of the coordinate system.
+2.  **Find the Angle:** Rotate counterclockwise from the Polar Axis (positive x-axis) by **$225^\circ$**. This will point you directly into the third quadrant.
+3.  **Move the Radius:** From the pole, move **3 units** out along that specific angle ray.
+4.  **Mark Point $P$:** The resulting location is your coordinate.
+
+---
+
+#### Final Result
+> [!success] Polar Coordinates
+> **$(3, 225^\circ)$** or **$(3, \frac{5\pi}{4})$**
