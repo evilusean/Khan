@@ -9715,3 +9715,37 @@ $$w_k = \sqrt[3]{r} \left[ \cos \left( \frac{\theta + 360^\circ k}{3} \right) + 
 > 3. $-1.5 - 1.5i\sqrt{3}$
 ## 2026-February-25 - Polar Coordinates :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=19h33m
+### Polar Coordinates Overview
+
+Polar coordinates represent a point in a 2D plane using a distance from a central point and an angle from a fixed direction. This is an alternative to the standard Rectangular (Cartesian) coordinate system $(x, y)$.
+
+---
+
+#### 1. The Components
+A point in polar coordinates is written as **$(r, \theta)$**:
+* **$r$ (Radial Coordinate):** The directed distance from the origin (called the **Pole**) to the point.
+* **$\theta$ (Angular Coordinate):** The directed angle from the positive x-axis (called the **Polar Axis**) to the ray passing through the point.
+
+
+
+#### 2. Conversion Formulas
+To move between Polar $(r, \theta)$ and Rectangular $(x, y)$ forms, use these trigonometric relationships:
+
+**Polar to Rectangular:**
+* $x = r \cos \theta$
+* $y = r \sin \theta$
+
+**Rectangular to Polar:**
+* $r^2 = x^2 + y^2 \Rightarrow r = \sqrt{x^2 + y^2}$
+* $\tan \theta = \frac{y}{x} \Rightarrow \theta = \tan^{-1}(\frac{y}{x})$
+  *(Note: Always check the quadrant of $(x, y)$ to ensure the correct value of $\theta$.)*
+
+#### 3. Key Characteristics
+* **Multiple Representations:** Unlike rectangular coordinates, a single point in the plane can have infinitely many polar coordinates. For example, $(2, 30^\circ)$ is the same as $(2, 390^\circ)$ or $(-2, 210^\circ)$.
+* **Negative $r$:** If $r$ is negative, the point is located $|r|$ units from the pole in the opposite direction of the angle $\theta$ (i.e., $\theta + 180^\circ$).
+* **Applications:** Polar coordinates are ideal for problems involving circular symmetry, such as orbits, pendulums, or complex numbers.
+
+---
+
+> [!tip] Obsidian Tip
+> When plotting these in your vault, remember that most calculators and programming languages expect $\theta$ in **radians** rather than degrees.
