@@ -9840,7 +9840,7 @@ To plot $(3, 225^\circ)$ on a polar grid:
 2.  **Find the Angle:** Rotate counterclockwise from the Polar Axis (positive x-axis) by **$225^\circ$**. This will point you directly into the third quadrant.
 3.  **Move the Radius:** From the pole, move **3 units** out along that specific angle ray.
 4.  **Mark Point $P$:** The resulting location is your coordinate.
-
+![[Pasted image 20260225173400.png]]
 ---
 
 #### Final Result
