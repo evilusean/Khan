@@ -10152,3 +10152,37 @@ $$\sqrt{48} = \sqrt{16 \cdot 3} = \mathbf{4\sqrt{3}}$$
 #### Final Result
 > [!success] 
 > The distance between the points is **$4\sqrt{3}$** units.
+### Problem: Find the distance between $(-3, -165^\circ)$ and $(4, 45^\circ)$
+
+#### 1. Identify the Polar Components
+* **Point 1 ($P_1$):** $r_1 = -3$, $\theta_1 = -165^\circ$
+* **Point 2 ($P_2$):** $r_2 = 4$, $\theta_2 = 45^\circ$
+
+#### 2. Apply the Polar Distance Formula
+The distance $d$ is given by:
+$$d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2 \cos(\theta_2 - \theta_1)}$$
+
+**Step A: Calculate the angle difference ($\Delta\theta$)**
+$$\Delta\theta = 45^\circ - (-165^\circ) = 45^\circ + 165^\circ = 210^\circ$$
+
+**Step B: Plug values into the formula**
+$$d = \sqrt{(-3)^2 + 4^2 - 2(-3)(4) \cos(210^\circ)}$$
+$$d = \sqrt{9 + 16 - (-24) \cos(210^\circ)}$$
+$$d = \sqrt{25 + 24 \cos(210^\circ)}$$
+
+**Step C: Evaluate the cosine**
+On the unit circle, $210^\circ$ is in Quadrant III, where $\cos(210^\circ) = -\frac{\sqrt{3}}{2}$.
+$$d = \sqrt{25 + 24\left(-\frac{\sqrt{3}}{2}\right)}$$
+$$d = \sqrt{25 - 12\sqrt{3}}$$
+
+
+#### 3. Final Calculation
+Using the decimal approximation for $\sqrt{3} \approx 1.732$:
+$$d = \sqrt{25 - 12(1.732)} \approx \sqrt{25 - 20.784} \approx \sqrt{4.216}$$
+$$d \approx 2.05$$
+
+---
+
+#### Final Result
+> [!success] 
+> The distance between the points is exactly **$\sqrt{25 - 12\sqrt{3}}$** units, which is approximately **$2.05$** units.
