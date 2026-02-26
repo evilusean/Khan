@@ -10085,3 +10085,36 @@ $$\sqrt{20} = \sqrt{4 \cdot 5} = 2\sqrt{5}$$
 > The distance between the points is **$2\sqrt{5}$** units.
 > 
 > *Note: Because the angle difference was exactly $90^\circ$, this specific problem could also be solved using the Pythagorean theorem ($a^2 + b^2 = c^2$) since the two vectors form a right triangle.*
+### Problem: Find the distance between $(3, 7\pi/6)$ and $(2, \pi/2)$
+
+#### 1. Identify the Polar Components
+* **Point 1 ($P_1$):** $r_1 = 3$, $\theta_1 = \frac{7\pi}{6}$
+* **Point 2 ($P_2$):** $r_2 = 2$, $\theta_2 = \frac{\pi}{2}$
+
+#### 2. Apply the Polar Distance Formula
+The formula for the distance $d$ between two points in polar coordinates is:
+$$d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2 \cos(\theta_2 - \theta_1)}$$
+
+**Step A: Find the angle difference ($\Delta\theta$)**
+To subtract the angles, find a common denominator (6):
+$$\frac{7\pi}{6} - \frac{\pi}{2} = \frac{7\pi}{6} - \frac{3\pi}{6} = \frac{4\pi}{6} = \frac{2\pi}{3}$$
+*(Note: $\frac{2\pi}{3}$ is equivalent to $120^\circ$.)*
+
+**Step B: Plug values into the formula**
+$$d = \sqrt{3^2 + 2^2 - 2(3)(2) \cos\left(\frac{2\pi}{3}\right)}$$
+$$d = \sqrt{9 + 4 - 12 \cos\left(\frac{2\pi}{3}\right)}$$
+
+**Step C: Evaluate the cosine**
+On the unit circle, $\cos(\frac{2\pi}{3}) = -1/2$.
+$$d = \sqrt{13 - 12\left(-\frac{1}{2}\right)}$$
+$$d = \sqrt{13 + 6}$$
+$$d = \sqrt{19}$$
+
+#### 3. Final Calculation
+$$d = \sqrt{19} \approx 4.36$$
+
+---
+
+#### Final Result
+> [!success] 
+> The distance between the points is **$\sqrt{19}$** units, or approximately **$4.36$** units.
