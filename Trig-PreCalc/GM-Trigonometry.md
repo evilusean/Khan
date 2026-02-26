@@ -9986,3 +9986,36 @@ When plotting $(-4, 120^\circ)$, the negative radius acts as a reflection:
 > *(Decimal Approx: $(2, -3.46)$)*
 ## 2026-February-26 - Distance Between Polar Points :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=20h6m
+### Distance Formula in Polar Coordinates
+
+Given two points:
+* **Point 1:** $P_1(r_1, \theta_1)$
+* **Point 2:** $P_2(r_2, \theta_2)$
+
+#### 1. The Formula
+The distance $d$ between $P_1$ and $P_2$ is:
+$$d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2 \cos(\theta_2 - \theta_1)}$$
+
+#### 2. Why this formula works
+* **Triangular Relationship:** If you draw lines from the pole (origin) to both points, you form a triangle.
+* **Side Lengths:** Two sides of the triangle are the radii $r_1$ and $r_2$.
+* **Included Angle:** The angle between these two sides is the difference between their angles, $\Delta\theta = |\theta_2 - \theta_1|$.
+* **Law of Cosines:** The distance $d$ is the third side of this triangle, which is why the formula resembles $c^2 = a^2 + b^2 - 2ab \cos C$.
+
+#### 3. Step-by-Step Calculation
+1.  **Identify the coordinates:** Extract $r_1, \theta_1, r_2,$ and $\theta_2$.
+2.  **Find the angle difference:** Subtract the angles ($\theta_2 - \theta_1$).
+3.  **Plug into the formula:**
+    * Square both radii ($r_1^2 + r_2^2$).
+    * Multiply the radii and the cosine of the angle difference ($2r_1r_2 \cos \Delta\theta$).
+    * Subtract that result from the sum of the squares.
+4.  **Take the square root:** The final value is the distance $d$.
+
+---
+
+> [!example] Example
+> Find the distance between $(3, 30^\circ)$ and $(4, 90^\circ)$:
+> 1. $d^2 = 3^2 + 4^2 - 2(3)(4) \cos(90^\circ - 30^\circ)$
+> 2. $d^2 = 9 + 16 - 24 \cos(60^\circ)$
+> 3. $d^2 = 25 - 24(0.5) = 25 - 12 = 13$
+> 4. **$d = \sqrt{13} \approx 3.61$**
