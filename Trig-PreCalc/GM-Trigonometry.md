@@ -10118,3 +10118,37 @@ $$d = \sqrt{19} \approx 4.36$$
 #### Final Result
 > [!success] 
 > The distance between the points is **$\sqrt{19}$** units, or approximately **$4.36$** units.
+### Problem: Find the distance between $(4, -30^\circ)$ and $(4, 210^\circ)$
+
+#### 1. Identify the Polar Components
+* **Point 1 ($P_1$):** $r_1 = 4, \theta_1 = -30^\circ$
+* **Point 2 ($P_2$):** $r_2 = 4, \theta_2 = 210^\circ$
+
+#### 2. Apply the Polar Distance Formula
+The distance $d$ is given by:
+$$d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2 \cos(\theta_2 - \theta_1)}$$
+
+**Step A: Find the angle difference ($\Delta\theta$)**
+$$\Delta\theta = 210^\circ - (-30^\circ) = 210^\circ + 30^\circ = 240^\circ$$
+
+**Step B: Plug values into the formula**
+$$d = \sqrt{4^2 + 4^2 - 2(4)(4) \cos(240^\circ)}$$
+$$d = \sqrt{16 + 16 - 32 \cos(240^\circ)}$$
+
+**Step C: Evaluate the cosine**
+On the unit circle, $240^\circ$ is in Quadrant III, where $\cos(240^\circ) = -0.5$.
+$$d = \sqrt{32 - 32(-0.5)}$$
+$$d = \sqrt{32 + 16}$$
+$$d = \sqrt{48}$$
+
+#### 3. Simplify the Result
+We can simplify the radical $\sqrt{48}$ by finding the largest square factor:
+$$\sqrt{48} = \sqrt{16 \cdot 3} = \mathbf{4\sqrt{3}}$$
+*Decimal Approximation: $\approx 6.93$ units*
+
+
+---
+
+#### Final Result
+> [!success] 
+> The distance between the points is **$4\sqrt{3}$** units.
