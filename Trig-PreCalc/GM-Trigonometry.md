@@ -10031,7 +10031,7 @@ $$d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2 \cos(\theta_2 - \theta_1)}$$
 
 **Step A: Find the angle difference ($\Delta\theta$)**
 $$\Delta\theta = 225^\circ - 105^\circ = 120^\circ$$
-
+![[Pasted image 20260226142506.png]]
 **Step B: Plug values into the formula**
 $$d = \sqrt{4^2 + 3^2 - 2(4)(3) \cos(120^\circ)}$$
 $$d = \sqrt{16 + 9 - 24 \cos(120^\circ)}$$
@@ -10050,3 +10050,4 @@ $$d \approx 6.08$$
 #### Final Result
 > [!success] 
 > The distance between the two points is **$\sqrt{37}$** units, or approximately **$6.08$** units.
+
