@@ -10019,3 +10019,34 @@ $$d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2 \cos(\theta_2 - \theta_1)}$$
 > 2. $d^2 = 9 + 16 - 24 \cos(60^\circ)$
 > 3. $d^2 = 25 - 24(0.5) = 25 - 12 = 13$
 > 4. **$d = \sqrt{13} \approx 3.61$**
+### Problem: Find the distance between $(4, 105^\circ)$ and $(3, 225^\circ)$
+
+#### 1. Identify the Polar Components
+* **Point 1 ($P_1$):** $r_1 = 4$, $\theta_1 = 105^\circ$
+* **Point 2 ($P_2$):** $r_2 = 3$, $\theta_2 = 225^\circ$
+
+#### 2. Apply the Polar Distance Formula
+The formula for the distance $d$ between two polar points is:
+$$d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2 \cos(\theta_2 - \theta_1)}$$
+
+**Step A: Find the angle difference ($\Delta\theta$)**
+$$\Delta\theta = 225^\circ - 105^\circ = 120^\circ$$
+
+**Step B: Plug values into the formula**
+$$d = \sqrt{4^2 + 3^2 - 2(4)(3) \cos(120^\circ)}$$
+$$d = \sqrt{16 + 9 - 24 \cos(120^\circ)}$$
+
+**Step C: Evaluate the cosine**
+Since $120^\circ$ is in Quadrant II, $\cos(120^\circ) = -0.5$.
+$$d = \sqrt{25 - 24(-0.5)}$$
+$$d = \sqrt{25 + 12}$$
+$$d = \sqrt{37}$$
+
+#### 3. Final Calculation
+$$d \approx 6.08$$
+
+---
+
+#### Final Result
+> [!success] 
+> The distance between the two points is **$\sqrt{37}$** units, or approximately **$6.08$** units.
