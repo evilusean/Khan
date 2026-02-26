@@ -9984,3 +9984,4 @@ When plotting $(-4, 120^\circ)$, the negative radius acts as a reflection:
 > [!success] Rectangular Coordinates
 > **$(2, -2\sqrt{3})$**
 > *(Decimal Approx: $(2, -3.46)$)*
+## 2026-February-26 - Distance Between Polar Points :
