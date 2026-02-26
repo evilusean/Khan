@@ -10050,4 +10050,38 @@ $$d \approx 6.08$$
 #### Final Result
 > [!success] 
 > The distance between the two points is **$\sqrt{37}$** units, or approximately **$6.08$** units.
+### Problem: Find the distance between $(2, 120^\circ)$ and $(4, 210^\circ)$
 
+#### 1. Identify the Polar Components
+* **Point 1 ($P_1$):** $r_1 = 2, \theta_1 = 120^\circ$
+* **Point 2 ($P_2$):** $r_2 = 4, \theta_2 = 210^\circ$
+
+#### 2. Apply the Polar Distance Formula
+The distance $d$ is calculated as:
+$$d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2 \cos(\theta_2 - \theta_1)}$$
+
+**Step A: Calculate the angle difference ($\Delta\theta$)**
+$$\Delta\theta = 210^\circ - 120^\circ = 90^\circ$$
+
+**Step B: Plug values into the formula**
+$$d = \sqrt{2^2 + 4^2 - 2(2)(4) \cos(90^\circ)}$$
+$$d = \sqrt{4 + 16 - 16 \cos(90^\circ)}$$
+
+**Step C: Evaluate the cosine**
+Since $\cos(90^\circ) = 0$:
+$$d = \sqrt{20 - 16(0)}$$
+$$d = \sqrt{20}$$
+
+#### 3. Simplify the Result
+The radical $\sqrt{20}$ can be simplified:
+$$\sqrt{20} = \sqrt{4 \cdot 5} = 2\sqrt{5}$$
+*Decimal approximation: $\approx 4.47$*
+
+
+---
+
+#### Final Result
+> [!success] 
+> The distance between the points is **$2\sqrt{5}$** units.
+> 
+> *Note: Because the angle difference was exactly $90^\circ$, this specific problem could also be solved using the Pythagorean theorem ($a^2 + b^2 = c^2$) since the two vectors form a right triangle.*
