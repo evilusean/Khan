@@ -10227,6 +10227,51 @@ For the line $x + y = 5$:
 Just like in rectangular coordinates, you can find the distance from the pole to a line using the normal distance $p$. The polar equation effectively says that any point $(r, \theta)$ on the line must have a projection onto the normal vector that equals exactly $p$.
 
 ---
+### 📐 Graphing Polar Lines
+
+The general form of a linear equation in polar coordinates is derived from the rectangular form $Ax + By = C$. By substituting $x = r \cos(\theta)$ and $y = r \sin(\theta)$, we find that most lines are expressed as:
+
+$$r = \frac{d}{a \cos(\theta) + b \sin(\theta)}$$
+
+---
+
+#### 1. Vertical and Horizontal Lines
+Special cases occur when the line is perfectly vertical or horizontal, as one trigonometric term drops out.
+
+* **Vertical Lines ($x = k$):**
+    $$r = k \sec(\theta)$$
+    *Example:* $x = 5 \implies r = 5\sec(\theta)$.
+* **Horizontal Lines ($y = k$):**
+    $$r = k \csc(\theta)$$
+    *Example:* $y = 3 \implies r = 3\csc(\theta)$.
+
+---
+
+#### 2. Lines Passing Through the Origin
+When a line passes through the pole (origin), the radius $r$ can be any value, so the equation is defined entirely by the angle $\theta$.
+
+$$\theta = \alpha$$
+* **Graphing Tip:** This simply creates a straight line extending infinitely in both directions at the fixed angle $\alpha$.
+* *Example:* $\theta = \frac{\pi}{4}$ is a $45^\circ$ line.
+
+---
+
+#### 3. General Slanted Lines ($y = mx + b$)
+For lines that do not pass through the origin, the graph is formed by the interaction of the sine and cosine functions in the denominator.
+
+##### Key Graphing Behaviors:
+* **Asymptotes:** The graph will approach infinity as the denominator approaches zero.
+    * Find where $a \cos(\theta) + b \sin(\theta) = 0$.
+    * The line is parallel to the angle $\theta$ that satisfies this condition.
+* **Minimum Distance to Origin:** The point on the line closest to the pole occurs where the denominator is at its maximum absolute value.
+* **Symmetry:** Unlike circles or roses, linear polar graphs do not typically exhibit symmetry across the polar axis or the line $\theta = \frac{\pi}{2}$ unless they are horizontal or vertical.
+
+---
+
+#### 4. Practical Plotting Strategy
+1.  **Identify the Intercepts:** Solve for $r$ at $\theta = 0, \frac{\pi}{2}, \pi,$ and $\frac{3\pi}{2}$.
+2.  **Find the Undefined Angle:** Determine the angle $\theta$ where $r$ becomes undefined (the denominator is zero). This tells you the "direction" the line is heading toward infinity.
+3.  **Test Points:** Calculate $r$ for one or two angles between the intercepts to determine which quadrant the line occupies.
 ### 📐 Polar Conversion: $y = x - 4$
 
 To convert the linear equation from rectangular coordinates $(x, y)$ to polar coordinates $(r, \theta)$, we use the standard substitutions:
