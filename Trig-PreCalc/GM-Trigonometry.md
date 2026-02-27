@@ -10272,6 +10272,52 @@ For lines that do not pass through the origin, the graph is formed by the intera
 1.  **Identify the Intercepts:** Solve for $r$ at $\theta = 0, \frac{\pi}{2}, \pi,$ and $\frac{3\pi}{2}$.
 2.  **Find the Undefined Angle:** Determine the angle $\theta$ where $r$ becomes undefined (the denominator is zero). This tells you the "direction" the line is heading toward infinity.
 3.  **Test Points:** Calculate $r$ for one or two angles between the intercepts to determine which quadrant the line occupies.
+### Horizontal and Vertical Lines in Polar Form
+
+In the rectangular coordinate system, horizontal and vertical lines are the simplest linear equations ($y=b$ and $x=a$). In the polar system, these same lines are expressed using the reciprocal trigonometric functions **secant** and **cosecant**.
+
+---
+
+#### 1. Horizontal Lines ($y = b$)
+A horizontal line consists of all points where the vertical component is a constant $b$. 
+
+**Derivation:**
+1. Start with the rectangular form: $y = b$
+2. Substitute the polar identity: $r \sin \theta = b$
+3. Solve for $r$:
+$$r = \frac{b}{\sin \theta} \implies r = b \csc \theta$$
+
+* **If $b > 0$:** The line is above the pole.
+* **If $b < 0$:** The line is below the pole.
+* **Note:** The function is undefined at $\theta = 0, \pi, 2\pi...$ because the line never intersects the polar axis.
+
+
+
+#### 2. Vertical Lines ($x = a$)
+A vertical line consists of all points where the horizontal component is a constant $a$.
+
+**Derivation:**
+1. Start with the rectangular form: $x = a$
+2. Substitute the polar identity: $r \cos \theta = a$
+3. Solve for $r$:
+$$r = \frac{a}{\cos \theta} \implies r = a \sec \theta$$
+
+* **If $a > 0$:** The line is to the right of the pole.
+* **If $a < 0$:** The line is to the left of the pole.
+* **Note:** The function is undefined at $\theta = \frac{\pi}{2}, \frac{3\pi}{2}...$ because the line never intersects the vertical axis.
+
+
+
+#### 3. Summary Table
+| Rectangular Form | Polar Form | Trig Function |
+| :--- | :--- | :--- |
+| **Horizontal ($y = b$)** | $r = b \csc \theta$ | Cosecant |
+| **Vertical ($x = a$)** | $r = a \sec \theta$ | Secant |
+
+---
+
+> [!tip] Visualizing the Radius
+> For a vertical line $r = 5 \sec \theta$, as $\theta$ approaches $90^\circ$ ($\pi/2$), the value of $r$ approaches infinity. This is why the line stretches forever upward and never actually touches the vertical axis.
 ### 📐 Polar Conversion: $y = x - 4$
 
 To convert the linear equation from rectangular coordinates $(x, y)$ to polar coordinates $(r, \theta)$, we use the standard substitutions:
