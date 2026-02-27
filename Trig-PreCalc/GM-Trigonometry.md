@@ -10323,3 +10323,34 @@ The line is **parallel** to these angles but never touches the origin.
 * Pick angles between $0$ and $2\pi$ (excluding the asymptotes).
 * Connect the points in a straight line. 
 * **Note:** In polar form, the line is formed as the radius $r$ grows extremely large as $\theta$ approaches the $45^\circ$ angle.
+### 📐 Polar Conversion: $y = -2x - 6$
+
+To convert the linear equation from rectangular coordinates $(x, y)$ to polar coordinates $(r, \theta)$, we apply the standard coordinate transformations:
+* $x = r \cos(\theta)$
+* $y = r \sin(\theta)$
+
+---
+
+#### Step-by-Step Derivation
+
+1. **Substitute the polar equivalents into the equation:**
+   $$r \sin(\theta) = -2(r \cos(\theta)) - 6$$
+
+2. **Move all terms containing $r$ to the left side:**
+   $$r \sin(\theta) + 2r \cos(\theta) = -6$$
+
+3. **Factor out the common variable $r$:**
+   $$r(\sin(\theta) + 2 \cos(\theta)) = -6$$
+
+4. **Isolate $r$ to find the polar function:**
+   $$r = \frac{-6}{\sin(\theta) + 2 \cos(\theta)}$$
+
+---
+
+#### 📈 Graphing Insights for this Line
+
+* **Rectangular Form:** A line with a steep negative slope ($m = -2$) and a y-intercept at $(0, -6)$.
+* **Polar Intercepts:**
+    * When $\theta = \frac{\pi}{2}$ ($90^\circ$): $r = \frac{-6}{1 + 0} = -6$. This represents the point $(0, -6)$.
+    * When $\theta = 0$ ($0^\circ$): $r = \frac{-6}{0 + 2} = -3$. This represents the point $(-3, 0)$.
+* **Vertical Asymptote:** The radius $r$ will approach infinity where the denominator $\sin(\theta) + 2 \cos(\theta) = 0$. This occurs when $\tan(\theta) = -2$, or $\theta \approx 116.6^\circ$ and $296.6^\circ$.
