@@ -10471,3 +10471,35 @@ $$r = \frac{10}{3 \cos \theta - 4 \sin \theta}$$
 > [!tip] Obsidian Note
 > When plotting $r = \frac{p}{\cos(\theta - \alpha)}$, the line will be tangent to a circle of radius $p$ at the angle $\alpha$.
 
+### x = -3
+
+To convert the rectangular equation of a vertical line into polar form, we use the fundamental trigonometric identities that relate $(x, y)$ to $(r, \theta)$.
+
+---
+
+#### 1. Substitution and Derivation
+We start with the standard conversion identity for the horizontal component:
+$$x = r \cos \theta$$
+
+1. **Substitute** the given value into the identity:
+   $$r \cos \theta = -3$$
+
+2. **Isolate** $r$ by dividing both sides by $\cos \theta$:
+   $$r = \frac{-3}{\cos \theta}$$
+
+3. **Simplify** using the reciprocal identity ($\frac{1}{\cos \theta} = \sec \theta$):
+   $$r = -3 \sec \theta$$
+
+
+
+#### 2. Analysis of the Equation
+* **Type of Curve:** A vertical line.
+* **Location:** 3 units to the left of the pole (origin).
+* **Behavior:** * When $\theta = \pi$ ($180^\circ$), $r = -3 \sec(\pi) = -3(-1) = 3$. This corresponds to the point $(-3, 0)$ in rectangular coordinates.
+    * As $\theta$ approaches $\frac{\pi}{2}$ ($90^\circ$) or $\frac{3\pi}{2}$ ($270^\circ$), the value of $r$ approaches infinity, which is why the line is vertical and never crosses the y-axis.
+
+---
+
+> [!success] Final Result
+> The polar form of the line $x = -3$ is:
+> **$r = -3 \sec \theta$**
