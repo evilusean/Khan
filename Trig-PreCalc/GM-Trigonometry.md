@@ -10249,11 +10249,32 @@ To convert the linear equation from rectangular coordinates $(x, y)$ to polar co
 4. **Solve for $r$:**
    $$r = \frac{-4}{\sin(\theta) - \cos(\theta)}$$
 
-5. **Simplify (optional):**
+5. **Simplify:**
    Multiply the numerator and denominator by $-1$ to clean up the signs:
    $$r = \frac{4}{\cos(\theta) - \sin(\theta)}$$
 
 ---
 
-#### Final Polar Form
-$$r = \frac{4}{\cos(\theta) - \sin(\theta)}$$
+#### 📈 How to Graph the Polar Form
+
+Graphing a polar line is different from a circle or a cardioid. Because $y = x - 4$ is a straight line, the polar graph must reflect that.
+
+##### 1. Find the Intercepts
+* **Horizontal Intercept ($y=0$):** Set $\theta = 0$.
+    $$r = \frac{4}{\cos(0) - \sin(0)} = \frac{4}{1 - 0} = 4$$
+    Point: $(4, 0)$
+* **Vertical Intercept ($x=0$):** Set $\theta = \frac{3\pi}{2}$ ($270^\circ$).
+    $$r = \frac{4}{\cos(\frac{3\pi}{2}) - \sin(\frac{3\pi}{2})} = \frac{4}{0 - (-1)} = 4$$
+    Point: $(4, \frac{3\pi}{2})$
+
+##### 2. Identify the Asymptotes
+The graph will approach infinity where the denominator $\cos(\theta) - \sin(\theta) = 0$. 
+This happens when $\cos(\theta) = \sin(\theta)$, which occurs at:
+* $\theta = \frac{\pi}{4}$ ($45^\circ$)
+* $\theta = \frac{5\pi}{4}$ ($225^\circ$)
+The line is **parallel** to these angles but never touches the origin.
+
+##### 3. Plotting Behavior
+* Pick angles between $0$ and $2\pi$ (excluding the asymptotes).
+* Connect the points in a straight line. 
+* **Note:** In polar form, the line is formed as the radius $r$ grows extremely large as $\theta$ approaches the $45^\circ$ angle.
