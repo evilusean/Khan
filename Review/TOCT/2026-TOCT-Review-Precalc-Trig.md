@@ -1030,3 +1030,28 @@ The signs of your $x$ and $y$ values will automatically be determined by the qua
 | **II** | $90^\circ < \theta < 180^\circ$ | Negative (-) | Positive (+) |
 | **III** | $180^\circ < \theta < 270^\circ$ | Negative (-) | Negative (-) |
 | **IV** | $270^\circ < \theta < 360^\circ$ | Positive (+) | Negative (-) |
+
+Distance Formula in Polar Coordinates
+
+Given two points:
+* **Point 1:** $P_1(r_1, \theta_1)$
+* **Point 2:** $P_2(r_2, \theta_2)$
+
+#### 1. The Formula
+The distance $d$ between $P_1$ and $P_2$ is:
+$$d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2 \cos(\theta_2 - \theta_1)}$$
+
+#### 2. Why this formula works
+* **Triangular Relationship:** If you draw lines from the pole (origin) to both points, you form a triangle.
+* **Side Lengths:** Two sides of the triangle are the radii $r_1$ and $r_2$.
+* **Included Angle:** The angle between these two sides is the difference between their angles, $\Delta\theta = |\theta_2 - \theta_1|$.
+* **Law of Cosines:** The distance $d$ is the third side of this triangle, which is why the formula resembles $c^2 = a^2 + b^2 - 2ab \cos C$.
+
+#### 3. Step-by-Step Calculation
+1.  **Identify the coordinates:** Extract $r_1, \theta_1, r_2,$ and $\theta_2$.
+2.  **Find the angle difference:** Subtract the angles ($\theta_2 - \theta_1$).
+3.  **Plug into the formula:**
+    * Square both radii ($r_1^2 + r_2^2$).
+    * Multiply the radii and the cosine of the angle difference ($2r_1r_2 \cos \Delta\theta$).
+    * Subtract that result from the sum of the squares.
+4.  **Take the square root:** The final value is the distance $d$.
