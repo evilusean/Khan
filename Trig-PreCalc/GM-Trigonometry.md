@@ -10188,3 +10188,4 @@ $$d \approx 2.05$$
 > The distance between the points is exactly **$\sqrt{25 - 12\sqrt{3}}$** units, which is approximately **$2.05$** units.
 
 ## 2026-February-27 - Polar Form of a Line :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=20h32m10s
