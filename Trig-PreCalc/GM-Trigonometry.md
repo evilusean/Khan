@@ -10227,6 +10227,33 @@ For the line $x + y = 5$:
 Just like in rectangular coordinates, you can find the distance from the pole to a line using the normal distance $p$. The polar equation effectively says that any point $(r, \theta)$ on the line must have a projection onto the normal vector that equals exactly $p$.
 
 ---
+### 📐 Polar Conversion: $y = x - 4$
 
-> [!tip] Obsidian Tip
-> When graphing these in Obsidian using a plugin like TikZ or Canvas, remember that horizontal/vertical lines are often the easiest way to start practicing polar line equations!
+To convert the linear equation from rectangular coordinates $(x, y)$ to polar coordinates $(r, \theta)$, we use the standard substitutions:
+* $x = r \cos(\theta)$
+* $y = r \sin(\theta)$
+
+---
+
+#### Step-by-Step Derivation
+
+1. **Substitute polar variables into the linear equation:**
+   $$r \sin(\theta) = r \cos(\theta) - 4$$
+
+2. **Group the terms containing $r$ on one side:**
+   $$r \sin(\theta) - r \cos(\theta) = -4$$
+
+3. **Factor out $r$:**
+   $$r(\sin(\theta) - \cos(\theta)) = -4$$
+
+4. **Solve for $r$:**
+   $$r = \frac{-4}{\sin(\theta) - \cos(\theta)}$$
+
+5. **Simplify (optional):**
+   Multiply the numerator and denominator by $-1$ to clean up the signs:
+   $$r = \frac{4}{\cos(\theta) - \sin(\theta)}$$
+
+---
+
+#### Final Polar Form
+$$r = \frac{4}{\cos(\theta) - \sin(\theta)}$$
