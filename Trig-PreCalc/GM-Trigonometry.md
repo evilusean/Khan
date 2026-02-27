@@ -10354,3 +10354,74 @@ To convert the linear equation from rectangular coordinates $(x, y)$ to polar co
     * When $\theta = \frac{\pi}{2}$ ($90^\circ$): $r = \frac{-6}{1 + 0} = -6$. This represents the point $(0, -6)$.
     * When $\theta = 0$ ($0^\circ$): $r = \frac{-6}{0 + 2} = -3$. This represents the point $(-3, 0)$.
 * **Vertical Asymptote:** The radius $r$ will approach infinity where the denominator $\sin(\theta) + 2 \cos(\theta) = 0$. This occurs when $\tan(\theta) = -2$, or $\theta \approx 116.6^\circ$ and $296.6^\circ$.
+### Problem: Represent the line $\theta = \frac{2\pi}{3}$
+
+#### 1. Understanding the Equation
+An equation where $\theta$ is set to a constant value ($c$) represents a line that contains all points $(r, \theta)$ where the angle is fixed, but the radius $r$ can be any real number ($-\infty < r < \infty$).
+
+* **Fixed Angle:** $\frac{2\pi}{3}$ (which is $120^\circ$).
+* **Geometric Shape:** A line passing through the pole (origin).
+
+
+#### 2. Converting to Rectangular Form ($y = mx$)
+To better understand this line in a standard $xy$-plane, we can convert it using the relationship $\tan \theta = \frac{y}{x}$:
+
+1.  Take the tangent of both sides:
+    $$\tan \theta = \tan\left(\frac{2\pi}{3}\right)$$
+2.  Substitute $\frac{y}{x}$ for $\tan \theta$:
+    $$\frac{y}{x} = -\sqrt{3}$$
+3.  Solve for $y$:
+    $$y = -\sqrt{3}x$$
+
+This shows that the polar equation $\theta = \frac{2\pi}{3}$ is a linear function with a slope of $-\sqrt{3}$ and a $y$-intercept of $0$.
+
+#### 3. Characteristics of the Line
+* **Quadrant II:** Points with positive $r$ values (e.g., $(2, \frac{2\pi}{3})$) lie in the second quadrant.
+* **Quadrant IV:** Points with negative $r$ values (e.g., $(-2, \frac{2\pi}{3})$) lie in the fourth quadrant, as they are reflected through the pole.
+* **Slope:** The slope is $\tan(120^\circ) = -\sqrt{3} \approx -1.732$.
+
+---
+
+> [!success] Summary
+> The polar equation $\theta = \frac{2\pi}{3}$ defines a line passing through the origin at a $120^\circ$ angle. It is the polar equivalent of the rectangular line $y = -\sqrt{3}x$.
+### Polar Form of a Line: $r \cos(\theta - \alpha) = p$
+
+This equation represents a straight line in a polar coordinate system based on its perpendicular (normal) distance from the pole.
+
+---
+
+#### 1. Definition of Variables
+* **$p$**: The length of the normal (perpendicular) segment from the pole to the line ($p \geq 0$).
+* **$\alpha$**: The angle of the normal segment, measured counterclockwise from the polar axis.
+* **$(r, \theta)$**: The coordinates of any arbitrary point on the line.
+
+
+
+#### 2. General Equation
+The standard polar equation for a line is:
+$$r \cos(\theta - \alpha) = p$$
+
+This is derived using the projection of the vector $\vec{r}$ onto the normal vector. Because the projection must always equal the constant distance $p$, we use the cosine of the angle between them $(\theta - \alpha)$.
+
+#### 3. Common Special Cases
+| Line Type | Rectangular | Polar Equation |
+| :--- | :--- | :--- |
+| **Vertical** | $x = k$ | $r \cos \theta = k$ |
+| **Horizontal** | $y = k$ | $r \sin \theta = k$ |
+
+#### 4. Conversion from Rectangular ($Ax + By + C = 0$)
+To convert a standard line to polar form:
+1. Replace $x$ with $r \cos \theta$.
+2. Replace $y$ with $r \sin \theta$.
+3. Factor out $r$ and solve.
+
+**Example: $3x - 4y = 10$**
+$$3(r \cos \theta) - 4(r \sin \theta) = 10$$
+$$r(3 \cos \theta - 4 \sin \theta) = 10$$
+$$r = \frac{10}{3 \cos \theta - 4 \sin \theta}$$
+
+---
+
+> [!tip] Obsidian Note
+> When plotting $r = \frac{p}{\cos(\theta - \alpha)}$, the line will be tangent to a circle of radius $p$ at the angle $\alpha$.
+
