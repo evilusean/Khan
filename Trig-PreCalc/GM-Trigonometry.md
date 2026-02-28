@@ -10847,3 +10847,44 @@ Since the equation $r = 8 \sin \theta$ already passes through the origin (when $
 #### Final Result
 > [!success] 
 > The polar form of the equation is **$r = 8 \sin \theta$**.
+### Analysis of $r = 6 \cos(\theta + \pi/3)$
+
+#### 1. General Form Comparison
+This equation follows the general polar form for a circle tangent to the pole:
+$$r = 2a \cos(\theta - \phi)$$
+
+* **Diameter ($2a$):** 6 (therefore, Radius $a = 3$).
+* **Phase Shift ($\phi$):** $-\pi/3$ (or $-60^\circ$).
+
+
+#### 2. Geometric Properties
+* **Radius:** **3**
+* **Center (Polar):** The center of this circle is shifted from the polar axis by the angle $\phi$. The center is at $(a, \phi)$, which is **$(3, -\pi/3)$** or **$(3, 5\pi/3)$**.
+* **Orientation:** Instead of being centered on the x-axis ($0^\circ$), the circle's diameter lies along the line $\theta = -\pi/3$.
+
+#### 3. Conversion to Rectangular Form
+To see the "tilted" nature of this circle in $xy$ coordinates, we use the cosine addition formula: $\cos(A + B) = \cos A \cos B - \sin A \sin B$.
+
+1. **Expand the cosine term:**
+   $$r = 6 \left[ \cos \theta \cos(\pi/3) - \sin \theta \sin(\pi/3) \right]$$
+2. **Evaluate trig values** ($\cos 60^\circ = 1/2$, $\sin 60^\circ = \sqrt{3}/2$):
+   $$r = 6 \left[ \frac{1}{2} \cos \theta - \frac{\sqrt{3}}{2} \sin \theta \right]$$
+   $$r = 3 \cos \theta - 3\sqrt{3} \sin \theta$$
+3. **Multiply by $r$ and substitute** ($r^2 = x^2 + y^2$, $r \cos \theta = x$, $r \sin \theta = y$):
+   $$r^2 = 3r \cos \theta - 3\sqrt{3}r \sin \theta$$
+   $$x^2 + y^2 = 3x - 3\sqrt{3}y$$
+4. **Final Rectangular Form (Completing the Square):**
+   $$(x - 1.5)^2 + (y + \frac{3\sqrt{3}}{2})^2 = 3^2$$
+
+#### 4. Key Points to Plot
+| $\theta$ | $r = 6 \cos(\theta + \pi/3)$ | Polar Point |
+| :--- | :--- | :--- |
+| $-\pi/3$ ($-60^\circ$) | $6 \cos(0) = 6$ | $(6, -60^\circ)$ [Diameter end] |
+| $\pi/6$ ($30^\circ$) | $6 \cos(\pi/2) = 0$ | $(0, 30^\circ)$ [The Pole] |
+| $2\pi/3$ ($120^\circ$) | $6 \cos(\pi) = -6$ | $(-6, 120^\circ) \rightarrow (6, 300^\circ)$ |
+
+---
+
+#### Final Result
+> [!success] 
+> The equation **$r = 6 \cos(\theta + \pi/3)$** represents a circle with a **radius of 3** and a **center at $(3, -\pi/3)$**. It is a standard circle tangent to the pole that has been rotated $60^\circ$ clockwise.
