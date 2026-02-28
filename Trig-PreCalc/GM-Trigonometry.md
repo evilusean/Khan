@@ -10505,4 +10505,48 @@ $$x = r \cos \theta$$
 > **$r = -3 \sec \theta$**
 ## 2026-February-28 - Circles in Polar Form : 
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=21h2m15s
+### Circles in Polar Form
 
+In polar coordinates, circles are represented by equations that relate the radius $r$ to the angle $\theta$. Depending on where the center of the circle is located (at the pole or shifted along an axis), the equation takes a specific form.
+
+---
+
+#### 1. Circles Centered at the Pole ($0,0$)
+The simplest form of a circle in polar coordinates occurs when the center is the origin. In this case, the radius $r$ is constant regardless of the angle $\theta$.
+
+**Standard Equation:**
+$$r = a$$
+
+* **$a$**: The radius of the circle.
+* **Characteristics**: A circle with radius $a$ centered at the origin.
+* **Example**: $r = 5$ is a circle with radius 5.
+
+#### 2. Circles Tangent to the Pole (Shifted)
+When a circle passes through the pole and has its diameter lying along the $x$-axis or $y$-axis, it uses sine or cosine functions.
+
+| Orientation | Polar Equation | Center (Polar) | Diameter |
+| :--- | :--- | :--- | :--- |
+| **Shifted along x-axis** | $r = a \cos \theta$ | $(a/2, 0)$ | $a$ |
+| **Shifted along y-axis** | $r = a \sin \theta$ | $(a/2, \pi/2)$ | $a$ |
+
+* **Cosine ($a \cos \theta$):** The circle is centered on the polar axis (horizontal). If $a$ is positive, it opens to the right; if $a$ is negative, it opens to the left.
+* **Sine ($a \sin \theta$):** The circle is centered on the $\pi/2$ axis (vertical). If $a$ is positive, it opens upward; if $a$ is negative, it opens downward.
+
+#### 3. General Equation of a Circle
+For a circle with radius $R$ centered at the polar point $(r_0, \phi)$, the equation is derived from the Law of Cosines:
+$$R^2 = r^2 + r_0^2 - 2rr_0 \cos(\theta - \phi)$$
+
+#### 4. Converting from Rectangular to Polar
+To convert a rectangular circle $(x^2 + y^2 = r^2)$ to polar form, use the identity $x^2 + y^2 = r^2$.
+
+**Example: $x^2 + y^2 = 6x$**
+1. Substitute $r^2$ for $x^2 + y^2$:
+   $$r^2 = 6(r \cos \theta)$$
+2. Divide by $r$:
+   $$r = 6 \cos \theta$$
+*This represents a circle with diameter 6 centered at $(3, 0)$.*
+
+---
+
+> [!tip] Visualizing the Trace
+> For $r = a \cos \theta$ and $r = a \sin \theta$, the entire circle is traced exactly once as $\theta$ goes from $0$ to $\pi$ (not $2\pi$).
