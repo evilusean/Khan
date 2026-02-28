@@ -10666,5 +10666,38 @@ To sketch the circle quickly, plot these three essential points:
 
 > [!important] Symmetry Note
 > Notice that at $\theta = \pi$, we have returned to our starting point. These circles are fully traced over an interval of **$\pi$** radians, not $2\pi$.
+### General Equation of a Circle in Polar Form
 
 ![[Pasted image 20260228143301.png]]
+
+When a circle is not centered at the origin (the pole), its equation is derived using the **Law of Cosines** to relate the distance from the origin to any point on the circle.
+
+---
+
+#### 1. Defining the Variables
+To write the equation for a circle that is shifted away from the origin, you need the following components:
+* **$P(r, \theta)$**: An arbitrary point on the circumference of the circle.
+* **$P_0(r_0, \theta_0)$**: The fixed center of the circle in polar coordinates.
+* **$a$**: The radius of the circle.
+
+
+#### 2. The General Equation
+The relationship between these points forms a triangle with sides $r$, $r_0$, and $a$. By applying the Law of Cosines, the general polar equation is:
+$$a^2 = r^2 + r_0^2 - 2rr_0 \cos(\theta - \theta_0)$$
+
+#### 3. Breakdown of the Geometry
+* **The Radius ($a$):** Represents the constant distance from the shifted center $P_0$ to any point $P$.
+* **The Included Angle ($\theta - \theta_0$):** This is the angle formed between the ray to the center ($r_0$) and the ray to the point on the circle ($r$).
+* **Triangle Formation:** The origin ($O$), the center ($P_0$), and the point on the circle ($P$) form a triangle where the side opposite the included angle is the circle's radius $a$.
+
+
+#### 4. Specialized Case: Circle Tangent to the Pole
+If the circle passes through the origin (meaning the distance from the origin to the center $r_0$ is equal to the radius $a$), the equation simplifies significantly:
+1. Set $r_0 = a$.
+2. $a^2 = r^2 + a^2 - 2ra \cos(\theta - \theta_0)$.
+3. **Simplified Form:** $r = 2a \cos(\theta - \theta_0)$.
+
+---
+
+> [!tip] Obsidian Tip
+> This general form is the "parent" equation for all polar circles. If you set $r_0 = 0$ (moving the center back to the origin), the equation collapses into $a^2 = r^2$, or simply $r = a$.
