@@ -10503,3 +10503,4 @@ $$x = r \cos \theta$$
 > [!success] Final Result
 > The polar form of the line $x = -3$ is:
 > **$r = -3 \sec \theta$**
+## 2026-February-28 - Circles in Polar Form : 
