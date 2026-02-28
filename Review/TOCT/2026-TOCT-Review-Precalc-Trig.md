@@ -1055,3 +1055,46 @@ $$d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2 \cos(\theta_2 - \theta_1)}$$
     * Multiply the radii and the cosine of the angle difference ($2r_1r_2 \cos \Delta\theta$).
     * Subtract that result from the sum of the squares.
 4.  **Take the square root:** The final value is the distance $d$.
+### Polar Form of a Line
+
+A linear equation in polar coordinates $(r, \theta)$ is generally written based on its **normal distance** from the origin.
+
+#### 1. The Normal Form Equation
+The most common way to represent a line in polar form is:
+$$r \cos(\theta - \alpha) = p$$
+
+**Where:**
+* **$p$ (Normal Distance):** The perpendicular distance from the pole (origin) to the line. This value is always positive.
+* **$\alpha$ (Alpha):** The angle that the perpendicular segment (the normal) makes with the positive x-axis (polar axis).
+* **$(r, \theta)$:** Any point on the line.
+
+#### 2. Specialized Cases
+Depending on the orientation of the line, the formula simplifies:
+
+* **Vertical Lines:**
+  If a line is vertical and passes through $x = a$:
+  $$r \cos \theta = a$$
+* **Horizontal Lines:**
+  If a line is horizontal and passes through $y = b$:
+  $$r \sin \theta = b$$
+
+#### 3. Converting from Rectangular to Polar
+To convert a general line $Ax + By + C = 0$ into polar form, substitute the standard conversion identities:
+* $x = r \cos \theta$
+* $y = r \sin \theta$
+
+**Example:**
+For the line $x + y = 5$:
+1. Substitute: $r \cos \theta + r \sin \theta = 5$
+2. Factor out $r$: $r(\cos \theta + \sin \theta) = 5$
+3. Polar Equation: $r = \frac{5}{\cos \theta + \sin \theta}$
+
+#### 4. Distance from a Point to a Line
+Just like in rectangular coordinates, you can find the distance from the pole to a line using the normal distance $p$. The polar equation effectively says that any point $(r, \theta)$ on the line must have a projection onto the normal vector that equals exactly $p$.
+
+---
+### 📐 Graphing Polar Lines
+
+The general form of a linear equation in polar coordinates is derived from the rectangular form $Ax + By = C$. By substituting $x = r \cos(\theta)$ and $y = r \sin(\theta)$, we find that most lines are expressed as:
+
+$$r = \frac{d}{a \cos(\theta) + b \sin(\theta)}$$
