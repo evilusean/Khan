@@ -10701,3 +10701,36 @@ If the circle passes through the origin (meaning the distance from the origin to
 
 > [!tip] Obsidian Tip
 > This general form is the "parent" equation for all polar circles. If you set $r_0 = 0$ (moving the center back to the origin), the equation collapses into $a^2 = r^2$, or simply $r = a$.
+### Formula for the Radius of an Offset Circle: $a^2 = r_0^2 + r^2 - 2r_0r \cos(\theta - \theta_0)$
+
+In polar coordinates, when a circle is not centered at the pole (origin), we use the **Law of Cosines** to relate the distance from the origin to any point on the circle.
+
+---
+
+#### 1. Defining the Components
+The formula involves three points forming a triangle: the Pole ($O$), the Center of the circle ($P_0$), and any point on the circumference ($P$).
+
+* **$a$**: The radius of the circle (the side opposite the included angle).
+* **$r_0$**: The distance from the pole to the center of the circle.
+* **$r$**: The distance from the pole to a point on the circumference.
+* **$\theta - \theta_0$**: The included angle between the ray to the center and the ray to point $P$.
+
+
+#### 2. Calculating the Radius ($a$)
+To find the length of the radius $a$ when the other components are known, rearrange the formula to solve for $a$:
+$$a = \sqrt{r_0^2 + r^2 - 2r_0r \cos(\theta - \theta_0)}$$
+
+#### 3. Why it works
+* **Geometric Origin:** This is a direct application of the Law of Cosines ($c^2 = a^2 + b^2 - 2ab \cos C$).
+* **Constant Value:** Because $a$ represents the radius, the result of this calculation will be the same for every coordinate pair $(r, \theta)$ that lies on the circle's edge.
+
+#### 4. Practical Use Case
+If you are given the center of a circle $(r_0, \theta_0)$ and a single point on its edge $(r, \theta)$, you use this formula to find the circle's radius before writing its full polar equation.
+
+---
+
+> [!example] Quick Check
+> If a circle is centered at $(3, 0^\circ)$ and passes through the point $(5, 0^\circ)$:
+> 1. $a^2 = 3^2 + 5^2 - 2(3)(5) \cos(0^\circ - 0^\circ)$
+> 2. $a^2 = 9 + 25 - 30(1)$
+> 3. $a^2 = 4 \implies \mathbf{a = 2}$
