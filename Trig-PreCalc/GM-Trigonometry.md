@@ -10550,3 +10550,39 @@ To convert a rectangular circle $(x^2 + y^2 = r^2)$ to polar form, use the ident
 
 > [!tip] Visualizing the Trace
 > For $r = a \cos \theta$ and $r = a \sin \theta$, the entire circle is traced exactly once as $\theta$ goes from $0$ to $\pi$ (not $2\pi$).
+### Rectangular to Polar: $x^2 + y^2 + Dx + Ey + F = 0$
+
+To convert a circle from rectangular form to polar form, use the fundamental substitution identities.
+
+---
+
+#### 1. Fundamental Identities
+* **Radius Identity:** $x^2 + y^2 = r^2$
+* **Horizontal Identity:** $x = r \cos \theta$
+* **Vertical Identity:** $y = r \sin \theta$
+
+#### 2. Step-by-Step Conversion
+**Example: $x^2 + y^2 - 8y = 0$**
+
+1. **Group the squared terms:** Recognize that $x^2 + y^2$ is the polar $r^2$.
+   $$(x^2 + y^2) - 8y = 0$$
+   
+2. **Substitute the identities:** Replace $(x^2 + y^2)$ with $r^2$ and $y$ with $r \sin \theta$.
+   $$r^2 - 8(r \sin \theta) = 0$$
+
+3. **Solve for $r$:** Factor out $r$.
+   $$r(r - 8 \sin \theta) = 0$$
+   Since $r=0$ is just a point at the pole, we take the other factor:
+   $$r = 8 \sin \theta$$
+
+
+
+#### 3. General Patterns
+* If the circle is $x^2 + y^2 = ax$, the polar form is **$r = a \cos \theta$**.
+* If the circle is $x^2 + y^2 = ay$, the polar form is **$r = a \sin \theta$**.
+* If the circle is $x^2 + y^2 = a^2$, the polar form is **$r = a$**.
+
+---
+
+> [!info] 
+> In rectangular form, a shifted circle requires "completing the square." In polar form, the shift is handled naturally by the sine or cosine function.
