@@ -10888,3 +10888,36 @@ To see the "tilted" nature of this circle in $xy$ coordinates, we use the cosine
 #### Final Result
 > [!success] 
 > The equation **$r = 6 \cos(\theta + \pi/3)$** represents a circle with a **radius of 3** and a **center at $(3, -\pi/3)$**. It is a standard circle tangent to the pole that has been rotated $60^\circ$ clockwise.
+### Problem: Convert $(x + 3)^2 + (y + 1)^2 = 10$ to Polar Form
+
+#### 1. Expand the Binomials
+First, expand the squared terms to identify all components:
+$$(x^2 + 6x + 9) + (y^2 + 2y + 1) = 10$$
+
+#### 2. Simplify the Constants
+Combine the constants on the left side and then subtract them from both sides:
+$$x^2 + y^2 + 6x + 2y + 10 = 10$$
+$$x^2 + y^2 + 6x + 2y = 0$$
+
+#### 3. Substitute Polar Identities
+Use the standard conversion identities:
+* $x^2 + y^2 = r^2$
+* $x = r \cos \theta$
+* $y = r \sin \theta$
+
+**Substitute into the equation:**
+$$r^2 + 6(r \cos \theta) + 2(r \sin \theta) = 0$$
+
+#### 4. Solve for $r$
+Factor out the common term $r$:
+$$r(r + 6 \cos \theta + 2 \sin \theta) = 0$$
+
+Since $r=0$ represents only a single point at the pole, the general equation for the entire circle is:
+$$\mathbf{r = -6 \cos \theta - 2 \sin \theta}$$
+
+
+---
+
+#### Final Result
+> [!success] 
+> The polar form of the equation is **$r = -6 \cos \theta - 2 \sin \theta$**.
