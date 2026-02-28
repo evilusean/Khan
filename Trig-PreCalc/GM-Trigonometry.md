@@ -10734,3 +10734,44 @@ If you are given the center of a circle $(r_0, \theta_0)$ and a single point on 
 > 1. $a^2 = 3^2 + 5^2 - 2(3)(5) \cos(0^\circ - 0^\circ)$
 > 2. $a^2 = 9 + 25 - 30(1)$
 > 3. $a^2 = 4 \implies \mathbf{a = 2}$
+### Problem: Identify the properties of the circle $r = 6 \cos \theta$
+
+To analyze this polar equation for your notes, we identify the geometric characteristics of the circle and its position on the coordinate plane.
+
+---
+
+#### 1. General Form Comparison
+This equation follows the standard polar form for a circle tangent to the pole and centered on the x-axis:
+$$r = a \cos \theta$$
+
+* **Diameter ($a$):** 6
+* **Trigonometric Function:** Cosine (indicates horizontal orientation)
+
+
+#### 2. Geometric Properties
+* **Radius:** Since the diameter is 6, the radius $R$ is **3**.
+* **Center (Polar):** The center is located at $(\frac{a}{2}, 0)$, which is **$(3, 0)$**.
+* **Center (Rectangular):** Converting $(3, 0)$ to Cartesian coordinates gives **$(3, 0)$**.
+
+#### 3. Conversion to Rectangular Form
+To find the standard $x, y$ equation:
+1.  **Multiply by $r$:**
+    $$r^2 = 6r \cos \theta$$
+2.  **Substitute identities ($r^2 = x^2 + y^2$ and $r \cos \theta = x$):**
+    $$x^2 + y^2 = 6x$$
+3.  **Complete the square:**
+    $$(x^2 - 6x + 9) + y^2 = 9$$
+    $$(x - 3)^2 + y^2 = 3^2$$
+
+#### 4. Key Points to Plot
+| $\theta$ | $r = 6 \cos \theta$ | Polar Point |
+| :--- | :--- | :--- |
+| $0^\circ$ | $6(1) = 6$ | $(6, 0^\circ)$ |
+| $60^\circ$ | $6(0.5) = 3$ | $(3, 60^\circ)$ |
+| $90^\circ$ | $6(0) = 0$ | $(0, 90^\circ)$ |
+
+---
+
+#### Final Result
+> [!success] 
+> The equation **$r = 6 \cos \theta$** represents a circle with a **radius of 3** and a **center at $(3, 0)$**. It is tangent to the vertical axis at the pole and lies entirely in Quadrants I and IV.
