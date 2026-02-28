@@ -10622,3 +10622,47 @@ From the final rectangular form $(x + 3)^2 + y^2 = 9$:
 > [!tip] Shortcut
 > If you see $r = a \cos \theta$, the circle is always centered at $(\frac{a}{2}, 0)$ with a diameter of $|a|$. 
 > If you see $r = a \sin \theta$, the circle is always centered at $(0, \frac{a}{2})$ with a diameter of $|a|$.
+### Graphing a Polar Circle: $r = a \cos \theta$ or $r = a \sin \theta$
+
+Graphing a polar circle that is shifted away from the pole (origin) requires identifying its **diameter**, **axis of symmetry**, and **direction**.
+
+---
+
+#### 1. Identify the Function Type
+The trigonometric function tells you which axis the circle lies on:
+* **$\cos \theta$**: The circle is centered on the **Polar Axis** (Horizontal/$x$-axis).
+* **$\sin \theta$**: The circle is centered on the **$\pi/2$ Axis** (Vertical/$y$-axis).
+
+
+
+#### 2. Determine the Diameter and Direction
+The constant $a$ represents the **diameter** of the circle (the distance from the pole to the furthest point).
+* **Positive $a$**:
+    * $\cos \theta$: Circle opens to the **right** ($0$).
+    * $\sin \theta$: Circle opens **up** ($\pi/2$).
+* **Negative $a$**:
+    * $\cos \theta$: Circle opens to the **left** ($\pi$).
+    * $\sin \theta$: Circle opens **down** ($3\pi/2$).
+
+#### 3. Locate Key Points
+To sketch the circle quickly, plot these three essential points:
+1. **The Pole:** All circles of the form $r = a \cos \theta$ or $r = a \sin \theta$ pass through $(0, 0)$.
+2. **The Far Point:** * For $\cos$, plot $(a, 0)$.
+    * For $\sin$, plot $(a, \pi/2)$.
+3. **The Center:** The midpoint between the Pole and the Far Point (Radius $= |a/2|$).
+
+
+
+#### 4. The Graphing Table (Example: $r = 4 \cos \theta$)
+| $\theta$ | $r = 4 \cos \theta$ | Point $(r, \theta)$ |
+| :--- | :--- | :--- |
+| $0$ | $4(1) = 4$ | $(4, 0)$ |
+| $\pi/4$ | $4(\sqrt{2}/2) \approx 2.8$ | $(2.8, 45^\circ)$ |
+| $\pi/2$ | $4(0) = 0$ | $(0, 90^\circ)$ |
+| $3\pi/4$ | $4(-\sqrt{2}/2) \approx -2.8$ | $(-2.8, 135^\circ) \rightarrow (2.8, 315^\circ)$ |
+| $\pi$ | $4(-1) = -4$ | $(-4, 180^\circ) \rightarrow (4, 0)$ |
+
+---
+
+> [!important] Symmetry Note
+> Notice that at $\theta = \pi$, we have returned to our starting point. These circles are fully traced over an interval of **$\pi$** radians, not $2\pi$.
