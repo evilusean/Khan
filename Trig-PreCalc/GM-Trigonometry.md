@@ -10666,3 +10666,5 @@ To sketch the circle quickly, plot these three essential points:
 
 > [!important] Symmetry Note
 > Notice that at $\theta = \pi$, we have returned to our starting point. These circles are fully traced over an interval of **$\pi$** radians, not $2\pi$.
+
+![[Pasted image 20260228143301.png]]
