@@ -10813,3 +10813,37 @@ To find the standard $x, y$ equation:
 #### Final Result
 > [!success] 
 > The equation **$r = -4 \sin \theta$** represents a circle with a **radius of 2** and a **center at $(0, -2)$**. It is tangent to the horizontal axis at the pole and lies entirely in Quadrants III and IV.
+### Problem: Convert $x^2 + (y - 4)^2 = 16$ to Polar Form
+
+#### 1. Expand the Equation
+First, expand the binomial term $(y - 4)^2$ to see the individual components of the circle.
+$$x^2 + (y^2 - 8y + 16) = 16$$
+
+#### 2. Simplify the Constants
+Subtract 16 from both sides to simplify the equation:
+$$x^2 + y^2 - 8y = 0$$
+
+
+#### 3. Substitute Polar Identities
+Apply the following identities to convert from rectangular $(x, y)$ to polar $(r, \theta)$:
+* $x^2 + y^2 = r^2$
+* $y = r \sin \theta$
+
+**Substitute into the simplified equation:**
+$$r^2 - 8(r \sin \theta) = 0$$
+
+#### 4. Solve for $r$
+Factor out the common term $r$:
+$$r(r - 8 \sin \theta) = 0$$
+
+This gives us two possible solutions:
+1. $r = 0$ (This represents a single point at the pole/origin).
+2. $r - 8 \sin \theta = 0 \implies \mathbf{r = 8 \sin \theta}$
+
+Since the equation $r = 8 \sin \theta$ already passes through the origin (when $\theta = 0$), it represents the entire circle.
+
+---
+
+#### Final Result
+> [!success] 
+> The polar form of the equation is **$r = 8 \sin \theta$**.
