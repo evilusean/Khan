@@ -10775,3 +10775,41 @@ To find the standard $x, y$ equation:
 #### Final Result
 > [!success] 
 > The equation **$r = 6 \cos \theta$** represents a circle with a **radius of 3** and a **center at $(3, 0)$**. It is tangent to the vertical axis at the pole and lies entirely in Quadrants I and IV.
+### Analysis of $r = -4 \sin \theta$
+
+#### 1. General Form Comparison
+This equation follows the standard polar form for a circle passing through the pole (origin) and centered on the vertical axis:
+$$r = a \sin \theta$$
+
+* **Diameter ($|a|$):** 4
+* **Trigonometric Function:** Sine (indicates vertical orientation along the $\pi/2$ axis).
+* **Sign of $a$:** Negative (indicates the circle opens **downward**).
+
+
+#### 2. Geometric Properties
+* **Radius ($R$):** Since the diameter is 4, the radius is **2**.
+* **Center (Polar):** Located at $(\frac{a}{2}, \pi/2)$, which is $(-2, \pi/2)$. This simplifies to the positive coordinate **$(2, 3\pi/2)$**.
+* **Center (Rectangular):** Converting to Cartesian coordinates gives **$(0, -2)$**.
+
+#### 3. Conversion to Rectangular Form
+To find the standard $x, y$ equation:
+1.  **Multiply by $r$:**
+    $$r^2 = -4r \sin \theta$$
+2.  **Substitute identities ($r^2 = x^2 + y^2$ and $r \sin \theta = y$):**
+    $$x^2 + y^2 = -4y$$
+3.  **Complete the square:**
+    $$x^2 + (y^2 + 4y + 4) = 4$$
+    $$x^2 + (y + 2)^2 = 2^2$$
+
+#### 4. Key Points to Plot
+| $\theta$ | $r = -4 \sin \theta$ | Polar Point |
+| :--- | :--- | :--- |
+| $0$ | $-4(0) = 0$ | $(0, 0)$ [Pole] |
+| $\pi/2$ ($90^\circ$) | $-4(1) = -4$ | $(-4, 90^\circ) \rightarrow (4, 270^\circ)$ |
+| $3\pi/2$ ($270^\circ$) | $-4(-1) = 4$ | $(4, 270^\circ)$ |
+
+---
+
+#### Final Result
+> [!success] 
+> The equation **$r = -4 \sin \theta$** represents a circle with a **radius of 2** and a **center at $(0, -2)$**. It is tangent to the horizontal axis at the pole and lies entirely in Quadrants III and IV.
