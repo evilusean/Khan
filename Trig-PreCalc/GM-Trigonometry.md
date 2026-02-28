@@ -10586,3 +10586,39 @@ To convert a circle from rectangular form to polar form, use the fundamental sub
 
 > [!info] 
 > In rectangular form, a shifted circle requires "completing the square." In polar form, the shift is handled naturally by the sine or cosine function.
+### Polar to Rectangular: $r = a \cos \theta$ or $r = a \sin \theta$
+
+Converting from polar back to rectangular often requires a "clever step" to create the terms $r^2, r \cos \theta,$ or $r \sin \theta$.
+
+---
+
+#### 1. The Strategy: Multiply by $r$
+Most polar circle equations ($r = a \cos \theta$) do not immediately look like their rectangular counterparts. To fix this, multiply both sides of the equation by $r$.
+
+#### 2. Step-by-Step Conversion
+**Example: $r = -6 \cos \theta$**
+
+1. **Multiply by $r$:**
+   $$r(r) = r(-6 \cos \theta)$$
+   $$r^2 = -6r \cos \theta$$
+
+2. **Substitute Identities:** Use $r^2 = x^2 + y^2$ and $r \cos \theta = x$.
+   $$x^2 + y^2 = -6x$$
+
+3. **Rearrange and Complete the Square:** Move all terms to one side to find the center and radius.
+   $$x^2 + 6x + y^2 = 0$$
+   $$(x^2 + 6x + 9) + y^2 = 9$$
+   $$(x + 3)^2 + y^2 = 3^2$$
+
+
+
+#### 3. Identifying the Circle
+From the final rectangular form $(x + 3)^2 + y^2 = 9$:
+* **Center:** $(-3, 0)$
+* **Radius:** $3$
+
+---
+
+> [!tip] Shortcut
+> If you see $r = a \cos \theta$, the circle is always centered at $(\frac{a}{2}, 0)$ with a diameter of $|a|$. 
+> If you see $r = a \sin \theta$, the circle is always centered at $(0, \frac{a}{2})$ with a diameter of $|a|$.
