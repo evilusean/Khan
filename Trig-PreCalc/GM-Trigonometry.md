@@ -10937,6 +10937,40 @@ The inclination of a non-horizontal line is the smallest positive angle $\theta$
 
 > [!tip] 
 > If the slope $m$ is positive, $\theta$ is acute ($0^\circ < \theta < 90^\circ$). If $m$ is negative, $\theta$ is obtuse ($90^\circ < \theta < 180^\circ$).
+
+
+The **inclination** of a non-horizontal line is the smallest positive angle $\theta$ measured counterclockwise from the positive $x$-axis to the line.
+
+---
+
+
+![[Pasted image 20260301135842.png]]
+
+#### 1. Geometric Definition
+As shown in the image, the inclination $\theta$ is formed where a line intersects the $x$-axis. We can use any two points on the line, $(x_1, y_1)$ and $(x_2, y_2)$, to define this relationship through a right triangle.
+
+
+* **Rise:** The vertical change, $y_2 - y_1$ (simplified to $y_2$ in the image when $y_1=0$).
+* **Run:** The horizontal change, $x_2 - x_1$.
+* **The Angle:** The angle $\theta$ represents the "steepness" of the line relative to the horizontal axis.
+
+#### 2. Relationship to Slope ($m$)
+The slope of a line is defined as the ratio of the "rise" over the "run." In trigonometric terms, this is exactly the definition of the **tangent** function for the angle of inclination.
+
+$$m = \frac{y_2 - y_1}{x_2 - x_1} = \tan \theta$$
+
+#### 3. Key Properties
+* **Range:** The angle of inclination is always restricted to $0^\circ \le \theta < 180^\circ$.
+* **Horizontal Lines:** If a line is horizontal, it has no "rise." Therefore, $m = 0$ and $\theta = 0^\circ$.
+* **Vertical Lines:** If a line is vertical, the "run" is zero. The slope is undefined, and the inclination is $\theta = 90^\circ$ (or $\pi/2$ radians).
+* **Positive vs. Negative Slope:**
+    * If $m > 0$, the angle $\theta$ is **acute** ($0^\circ < \theta < 90^\circ$).
+    * If $m < 0$, the angle $\theta$ is **obtuse** ($90^\circ < \theta < 180^\circ$).
+
+---
+
+> [!tip] Finding $\theta$ from an Equation
+> To find the inclination of a line like $y = 3x + 5$, identify the slope ($m=3$) and solve $\theta = \arctan(3)$. If the slope is negative, remember to add $180^\circ$ to the calculator's result to stay within the proper range.
 ### Angle Between Two Lines
 
 When two lines intersect, they form an angle $\alpha$ that can be determined using their respective slopes, $m_1$ and $m_2$.
@@ -10971,5 +11005,3 @@ $$d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}$$
 > [!example]
 > To find the distance from $(4, 1)$ to the line $2x - y + 1 = 0$:
 > $$d = \frac{|2(4) - 1(1) + 1|}{\sqrt{2^2 + (-1)^2}} = \frac{|8 - 1 + 1|}{\sqrt{5}} = \frac{8}{\sqrt{5}} = \frac{8\sqrt{5}}{5}$$
-
-![[Pasted image 20260301135842.png]]
