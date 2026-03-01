@@ -1098,3 +1098,27 @@ Just like in rectangular coordinates, you can find the distance from the pole to
 The general form of a linear equation in polar coordinates is derived from the rectangular form $Ax + By = C$. By substituting $x = r \cos(\theta)$ and $y = r \sin(\theta)$, we find that most lines are expressed as:
 
 $$r = \frac{d}{a \cos(\theta) + b \sin(\theta)}$$
+### General Equation of a Circle in Polar Form
+
+![[Pasted image 20260228143301.png]]
+
+When a circle is not centered at the origin (the pole), its equation is derived using the **Law of Cosines** to relate the distance from the origin to any point on the circle.
+
+---
+
+#### 1. Defining the Variables
+To write the equation for a circle that is shifted away from the origin, you need the following components:
+* **$P(r, \theta)$**: An arbitrary point on the circumference of the circle.
+* **$P_0(r_0, \theta_0)$**: The fixed center of the circle in polar coordinates.
+* **$a$**: The radius of the circle.
+
+
+#### 2. The General Equation
+The relationship between these points forms a triangle with sides $r$, $r_0$, and $a$. By applying the Law of Cosines, the general polar equation is:
+$$a^2 = r^2 + r_0^2 - 2rr_0 \cos(\theta - \theta_0)$$
+
+#### 3. Breakdown of the Geometry
+* **The Radius ($a$):** Represents the constant distance from the shifted center $P_0$ to any point $P$.
+* **The Included Angle ($\theta - \theta_0$):** This is the angle formed between the ray to the center ($r_0$) and the ray to the point on the circle ($r$).
+* **Triangle Formation:** The origin ($O$), the center ($P_0$), and the point on the circle ($P$) form a triangle where the side opposite the included angle is the circle's radius $a$.
+
