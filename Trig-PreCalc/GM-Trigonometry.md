@@ -11005,3 +11005,34 @@ $$d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}$$
 > [!example]
 > To find the distance from $(4, 1)$ to the line $2x - y + 1 = 0$:
 > $$d = \frac{|2(4) - 1(1) + 1|}{\sqrt{2^2 + (-1)^2}} = \frac{|8 - 1 + 1|}{\sqrt{5}} = \frac{8}{\sqrt{5}} = \frac{8\sqrt{5}}{5}$$
+### Problem: Find the Equation of the Line
+**Given:**
+* Point: $(-7, 2)$
+* Inclination ($\theta$): $135^\circ$
+
+#### 1. Calculate the Slope ($m$)
+The slope of a line is defined as the tangent of its angle of inclination:
+$$m = \tan(\theta)$$
+$$m = \tan(135^\circ)$$
+
+Using the unit circle (where $135^\circ$ is in Quadrant II):
+$$m = -1$$
+
+#### 2. Use Point-Slope Form
+To find the equation of the line, substitute the slope $m = -1$ and the point $(x_1, y_1) = (-7, 2)$ into the formula:
+$$y - y_1 = m(x - x_1)$$
+$$y - 2 = -1(x - (-7))$$
+$$y - 2 = -1(x + 7)$$
+
+#### 3. Standard/Slope-Intercept Form
+$$y - 2 = -x - 7$$
+$$y = -x - 5$$
+
+
+---
+
+#### Summary of Properties
+* **Inclination:** $135^\circ$
+* **Slope ($m$):** $-1$
+* **Equation:** $y = -x - 5$
+* **Type:** Because $90^\circ < \theta < 180^\circ$, the slope is negative, and the line falls from left to right.
