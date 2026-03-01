@@ -10953,3 +10953,21 @@ $$\tan \alpha = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|$$
 
 > [!note]
 > Always use the absolute value in the formula to ensure you are finding the **acute** angle between the lines.
+### Distance Between a Point and a Line
+
+This formula calculates the shortest (perpendicular) distance $d$ from a specific point $(x_1, y_1)$ to a line expressed in general form $Ax + By + C = 0$.
+
+---
+
+#### The Distance Formula
+$$d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}$$
+
+#### Step-by-Step Procedure:
+1.  **Standardize the Line:** Ensure the line is in the form $Ax + By + C = 0$. If it is in $y = mx + b$, move all terms to one side.
+2.  **Plug in the Point:** Substitute the coordinates of your point $(x_1, y_1)$ into the linear expression in the numerator.
+3.  **Apply Absolute Value:** Distance must always be a positive value.
+4.  **Divide by Magnitude:** Divide by the square root of the sum of the squares of the coefficients $A$ and $B$.
+
+> [!example]
+> To find the distance from $(4, 1)$ to the line $2x - y + 1 = 0$:
+> $$d = \frac{|2(4) - 1(1) + 1|}{\sqrt{2^2 + (-1)^2}} = \frac{|8 - 1 + 1|}{\sqrt{5}} = \frac{8}{\sqrt{5}} = \frac{8\sqrt{5}}{5}$$
