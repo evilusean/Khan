@@ -10922,3 +10922,4 @@ $$\mathbf{r = -6 \cos \theta - 2 \sin \theta}$$
 > [!success] 
 > The polar form of the equation is **$r = -6 \cos \theta - 2 \sin \theta$**.
 ## 2026-March-01 - Inclination of a Line, Angle Between Two Lines, & Distance Between a Point and a Line :
+https://www.youtube.com/watch?v=rBT1iAqlzHY&t=21h58m35s
