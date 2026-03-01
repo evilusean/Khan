@@ -11072,3 +11072,37 @@ $$\alpha \approx 53.13^\circ$$
 * **Slope 2 ($m_2$):** $1/3$
 * **Tangent of Angle:** $4/3$
 * **Acute Angle ($\alpha$):** $\approx 53.13^\circ$
+### Problem: Find the Angle Between Two Lines
+**Equations:**
+1. $3x + 4y = 12$
+2. $x - 4y = 8$
+
+#### 1. Determine the Slopes ($m_1$ and $m_2$)
+Rewrite each equation into slope-intercept form ($y = mx + b$):
+
+* **Line 1:** $3x + 4y = 12 \implies 4y = -3x + 12 \implies y = -\frac{3}{4}x + 3$
+    * **$m_1 = -\frac{3}{4}$**
+* **Line 2:** $x - 4y = 8 \implies -4y = -x + 8 \implies y = \frac{1}{4}x - 2$
+    * **$m_2 = \frac{1}{4}$**
+
+#### 2. Apply the Angle Formula
+The acute angle $\alpha$ between two lines is calculated using:
+$$\tan \alpha = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|$$
+
+**Substitute the slopes:**
+$$\tan \alpha = \left| \frac{\frac{1}{4} - (-\frac{3}{4})}{1 + (-\frac{3}{4})(\frac{1}{4})} \right|$$
+$$\tan \alpha = \left| \frac{\frac{4}{4}}{1 - \frac{3}{16}} \right|$$
+$$\tan \alpha = \left| \frac{1}{\frac{13}{16}} \right| = \frac{16}{13}$$
+
+#### 3. Solve for $\alpha$
+$$\alpha = \arctan\left(\frac{16}{13}\right)$$
+$$\alpha \approx 50.91^\circ$$
+
+
+---
+
+#### Summary of Results
+* **Slope 1 ($m_1$):** $-3/4$
+* **Slope 2 ($m_2$):** $1/4$
+* **Tangent of Angle:** $16/13$
+* **Acute Angle ($\alpha$):** $\approx 50.91^\circ$
