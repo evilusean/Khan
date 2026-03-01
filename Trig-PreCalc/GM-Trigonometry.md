@@ -10937,3 +10937,19 @@ The inclination of a non-horizontal line is the smallest positive angle $\theta$
 
 > [!tip] 
 > If the slope $m$ is positive, $\theta$ is acute ($0^\circ < \theta < 90^\circ$). If $m$ is negative, $\theta$ is obtuse ($90^\circ < \theta < 180^\circ$).
+### Angle Between Two Lines
+
+When two lines intersect, they form an angle $\alpha$ that can be determined using their respective slopes, $m_1$ and $m_2$.
+
+---
+
+#### The Formula
+To find the acute angle $\alpha$ between two lines:
+$$\tan \alpha = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|$$
+
+#### Key Conditions:
+* **Parallel Lines:** If $m_1 = m_2$, then $\tan \alpha = 0$, meaning the angle between them is $0^\circ$.
+* **Perpendicular Lines:** If $m_1 m_2 = -1$, the denominator becomes zero, which correctly indicates a $90^\circ$ angle (where tangent is undefined).
+
+> [!note]
+> Always use the absolute value in the formula to ensure you are finding the **acute** angle between the lines.
