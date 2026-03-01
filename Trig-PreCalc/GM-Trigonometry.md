@@ -10992,7 +10992,7 @@ $$\tan \alpha = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|$$
 ### Distance Between a Point and a Line
 
 This formula calculates the shortest (perpendicular) distance $d$ from a specific point $(x_1, y_1)$ to a line expressed in general form $Ax + By + C = 0$.
-
+![[Pasted image 20260301143727.png]]
 ---
 
 #### The Distance Formula
