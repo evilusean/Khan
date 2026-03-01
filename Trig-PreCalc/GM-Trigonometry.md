@@ -11106,3 +11106,45 @@ $$\alpha \approx 50.91^\circ$$
 * **Slope 2 ($m_2$):** $1/4$
 * **Tangent of Angle:** $16/13$
 * **Acute Angle ($\alpha$):** $\approx 50.91^\circ$
+### Problem: Find the Shortest Distance from a Point to a Line
+**Given:**
+* Point $(x_1, y_1)$: $(5, 3)$
+* Line: $y = 3x + 4$
+
+#### 1. Convert the Line to General Form ($Ax + By + C = 0$)
+Move all terms to one side of the equation:
+$$y = 3x + 4$$
+$$-3x + y - 4 = 0$$
+
+From this form, we identify the coefficients:
+* $A = -3$
+* $B = 1$
+* $C = -4$
+
+#### 2. Apply the Distance Formula
+The formula for the distance $d$ between a point $(x_1, y_1)$ and a line $Ax + By + C = 0$ is:
+$$d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}$$
+
+**Substitute the values:**
+$$d = \frac{|(-3)(5) + (1)(3) + (-4)|}{\sqrt{(-3)^2 + (1)^2}}$$
+
+#### 3. Simplify and Solve
+1. **Numerator:**
+   $$|-15 + 3 - 4| = |-16| = 16$$
+2. **Denominator:**
+   $$\sqrt{9 + 1} = \sqrt{10}$$
+3. **Calculate $d$:**
+   $$d = \frac{16}{\sqrt{10}}$$
+
+**Rationalize the Denominator:**
+$$d = \frac{16\sqrt{10}}{10} = \frac{8\sqrt{10}}{5}$$
+$$d \approx 5.06$$
+
+
+---
+
+#### Summary of Results
+* **General Form of Line:** $-3x + y - 4 = 0$
+* **Numerator ($|Ax_1 + By_1 + C|$):** $16$
+* **Denominator ($\sqrt{A^2 + B^2}$):** $\sqrt{10}$
+* **Shortest Distance ($d$):** $\frac{8\sqrt{10}}{5} \approx 5.06$
