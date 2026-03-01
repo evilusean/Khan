@@ -10975,6 +10975,8 @@ $$m = \frac{y_2 - y_1}{x_2 - x_1} = \tan \theta$$
 
 When two lines intersect, they form an angle $\alpha$ that can be determined using their respective slopes, $m_1$ and $m_2$.
 
+![[Pasted image 20260301141607.png]]
+
 ---
 
 #### The Formula
