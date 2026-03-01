@@ -10923,3 +10923,17 @@ $$\mathbf{r = -6 \cos \theta - 2 \sin \theta}$$
 > The polar form of the equation is **$r = -6 \cos \theta - 2 \sin \theta$**.
 ## 2026-March-01 - Inclination of a Line, Angle Between Two Lines, & Distance Between a Point and a Line :
 https://www.youtube.com/watch?v=rBT1iAqlzHY&t=21h58m35s
+### Inclination of a Line
+
+The inclination of a non-horizontal line is the smallest positive angle $\theta$ measured counterclockwise from the positive x-axis to the line.
+
+---
+
+* **Relationship to Slope:** The slope $m$ of a line is the tangent of its inclination $\theta$.
+    $$m = \tan \theta$$
+* **Horizontal Lines:** Have an inclination of $\theta = 0^\circ$ (Slope $m = 0$).
+* **Vertical Lines:** Have an inclination of $\theta = 90^\circ$ (Slope $m$ is undefined).
+* **Range:** The angle of inclination is always $0^\circ \leq \theta < 180^\circ$.
+
+> [!tip] 
+> If the slope $m$ is positive, $\theta$ is acute ($0^\circ < \theta < 90^\circ$). If $m$ is negative, $\theta$ is obtuse ($90^\circ < \theta < 180^\circ$).
