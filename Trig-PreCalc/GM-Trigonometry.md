@@ -11038,3 +11038,37 @@ $$y = -x - 5$$
 * **Slope ($m$):** $-1$
 * **Equation:** $y = -x - 5$
 * **Type:** Because $90^\circ < \theta < 180^\circ$, the slope is negative, and the line falls from left to right.
+### Problem: Find the Angle Between Two Lines
+**Equations:**
+1. $3x - y = 1$
+2. $x - 3y = -6$
+
+#### 1. Determine the Slopes ($m_1$ and $m_2$)
+Rewrite each equation in slope-intercept form ($y = mx + b$):
+
+* **Line 1:** $3x - y = 1 \implies y = 3x - 1$
+    * $m_1 = 3$
+* **Line 2:** $x - 3y = -6 \implies -3y = -x - 6 \implies y = \frac{1}{3}x + 2$
+    * $m_2 = \frac{1}{3}$
+
+#### 2. Apply the Angle Formula
+The acute angle $\alpha$ between two lines is given by:
+$$\tan \alpha = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|$$
+
+**Substitute the slopes:**
+$$\tan \alpha = \left| \frac{\frac{1}{3} - 3}{1 + (3)(\frac{1}{3})} \right|$$
+$$\tan \alpha = \left| \frac{-\frac{8}{3}}{1 + 1} \right|$$
+$$\tan \alpha = \left| \frac{-\frac{8}{3}}{2} \right| = \left| -\frac{4}{3} \right| = \frac{4}{3}$$
+
+#### 3. Solve for $\alpha$
+$$\alpha = \arctan\left(\frac{4}{3}\right)$$
+$$\alpha \approx 53.13^\circ$$
+
+
+---
+
+#### Summary of Results
+* **Slope 1 ($m_1$):** $3$
+* **Slope 2 ($m_2$):** $1/3$
+* **Tangent of Angle:** $4/3$
+* **Acute Angle ($\alpha$):** $\approx 53.13^\circ$
