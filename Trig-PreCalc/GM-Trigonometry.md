@@ -10971,3 +10971,5 @@ $$d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}$$
 > [!example]
 > To find the distance from $(4, 1)$ to the line $2x - y + 1 = 0$:
 > $$d = \frac{|2(4) - 1(1) + 1|}{\sqrt{2^2 + (-1)^2}} = \frac{|8 - 1 + 1|}{\sqrt{5}} = \frac{8}{\sqrt{5}} = \frac{8\sqrt{5}}{5}$$
+
+![[Pasted image 20260301135842.png]]
