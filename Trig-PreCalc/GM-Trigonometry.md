@@ -11148,3 +11148,45 @@ $$d \approx 5.06$$
 * **Numerator ($|Ax_1 + By_1 + C|$):** $16$
 * **Denominator ($\sqrt{A^2 + B^2}$):** $\sqrt{10}$
 * **Shortest Distance ($d$):** $\frac{8\sqrt{10}}{5} \approx 5.06$
+### Problem: Find the Shortest Distance from a Point to a Line
+**Given:**
+* Point $(x_1, y_1)$: $(4, 1)$
+* Line: $2x - y = -1$
+
+#### 1. Convert the Line to General Form ($Ax + By + C = 0$)
+Set the equation to zero by moving all terms to one side:
+$$2x - y + 1 = 0$$
+
+Identify the coefficients:
+* $A = 2$
+* $B = -1$
+* $C = 1$
+
+
+#### 2. Apply the Distance Formula
+The formula for the distance $d$ between a point $(x_1, y_1)$ and a line $Ax + By + C = 0$ is:
+$$d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}$$
+
+**Substitute the values:**
+$$d = \frac{|(2)(4) + (-1)(1) + 1|}{\sqrt{(2)^2 + (-1)^2}}$$
+
+#### 3. Simplify and Solve
+1. **Numerator:**
+   $$|8 - 1 + 1| = |8| = 8$$
+2. **Denominator:**
+   $$\sqrt{4 + 1} = \sqrt{5}$$
+3. **Calculate $d$:**
+   $$d = \frac{8}{\sqrt{5}}$$
+
+**Rationalize the Denominator:**
+$$d = \frac{8\sqrt{5}}{5}$$
+$$d \approx 3.58$$
+
+
+---
+
+#### Summary of Results
+* **General Form of Line:** $2x - y + 1 = 0$
+* **Numerator:** $8$
+* **Denominator:** $\sqrt{5}$
+* **Shortest Distance ($d$):** $\frac{8\sqrt{5}}{5} \approx 3.58$
