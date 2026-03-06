@@ -7,4 +7,4 @@ https://www.youtube.com/playlist?list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
 https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=1
 - College Algebra +  Trigonometry = PreCalculus
 ## 2026-March-06 - Introduction to Functions (Precalculus - College Algebra 2) : 
-
+https://www.youtube.com/watch?v=FkUEsP9efFg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=2
