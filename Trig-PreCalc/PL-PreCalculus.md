@@ -8,12 +8,14 @@ https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 - College Algebra +  Trigonometry = PreCalculus
 ## 2026-March-06 - Introduction to Functions (Precalculus - College Algebra 2) : 
 https://www.youtube.com/watch?v=FkUEsP9efFg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=2
-- **Function** = A relationship that maps one input to one output - An input never gives more than 1 output
-- **One to One Function** : A relationship that maps one input to one *unique* output (can't be shared)
+- **Function** = A relationship that maps one input to one output - An input never gives more than 1 output (one x to ANY y)
+- **One to One Function** : A relationship that maps one input to one *unique* output (can't be shared) (one x to ONE y)
 - **Function Notation** : **f(x)** = **y** : function of *x* equals *y*
 - **Independant Variable** : *x* (your input is always independant) you can choose
 - **Dependant Variable** : *y* (your out put is always dependant on the input) you can not chosen
 - Functions create an *ordered pair* : (x, y) or (x, f(x))
-- **Domain** : set of values you input into a function
-- **Range** : Set of values you get as output
+- **Domain** : set of values you input into a function (*x*'s)
+- **Range** : Set of values you get as output (*y*'s)
+- To find out if an equation is a function, solve for '*y*' (the dependant variable)
+- $\sqrt{y^2} =\pm \sqrt{x}$ : when you square something to get rid of the exponent, be careful, because the squared can be plus or minus (2 different outputs) and not a function - when solving for *y* **ANY** time you have to take a square root to solve it, it will have a plus or minus and *NOT* be a function
 - 
