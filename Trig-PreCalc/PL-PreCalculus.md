@@ -21,3 +21,7 @@ https://www.youtube.com/watch?v=FkUEsP9efFg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 ## 2026-March-07 - How to Evaluate Functions (Precalculus - College Algebra 3) :
 https://www.youtube.com/watch?v=p1sGAHulT8w&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=5
 - A **composition function**, denoted as $(f \circ g)(x)$ or $f(g(x))$, is an operation where the output of one function becomes the input of another, creating a "chain" where the final result depends on the sequential evaluation of both rules.
+- $y = -7x + 5$ : $f(x) = -7x+5$ : they are the same
+- Why do you use *Function Notation*? Because if every function was named '*y*' it would be very hard to distinguish between them, so it's better to use $f(x)$
+- $f(2)$ : means plug in *2* everywhere you see *x*
+- 
