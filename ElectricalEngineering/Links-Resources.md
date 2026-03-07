@@ -99,7 +99,7 @@ https://www.youtube.com/watch?v=ngo3ZTrT69A
 The scariest thing you learn in Electrical Engineering | The Smith Chart :
 https://www.youtube.com/watch?v=pXWbdxOAuDs
 Which Electrical Engineering Field is for you? | EE Fields Explained :
-565https://www.youtube.com/watch?v=y4JM71TeGlY
+https://www.youtube.com/watch?v=y4JM71TeGlY
 
 Engineering Degrees Ranked By Difficulty/Pay (Tier List - 'Computer Engineering' = C Tier Highest ROI/easiest - 'EE' = B Tier (harder, less pay))
 https://www.youtube.com/watch?v=DAK_UT894sc
