@@ -111,7 +111,7 @@ $$f(1) = \sqrt{1 - 3}$$
 
 > [!abstract] Algebra Takeaway
 > When working with square root functions, the **domain** is restricted. If the value inside the radical is negative, the function has no real-number output. As seen with $f(1)$, $x=1$ is not in the domain.
-### g(x) = \frac{2x+1}{x-5}
+### $g(x) = \frac{2x+1}{x-5}$
 
 To evaluate this rational function, substitute the given value or expression into every instance of $x$ in both the numerator and the denominator.
 
@@ -193,11 +193,7 @@ A function is **Neither** if the result of the $-x$ substitution does not match 
 > When using the $-x$ plugin, remember that **even exponents** (2, 4, 6...) will always "absorb" the negative sign, while **odd exponents** (1, 3, 5...) will "keep" the negative sign. Constants (like $+5$) are unaffected by the $-x$ substitution.### Difference Quotient
 
 * The **Difference Quotient**, $\frac{f(x+h)-f(x)}{h}$, is a formula used to find the **average rate of change** between two points on a curve, which represents the slope of a **secant line**. As $h$ approaches zero, this formula becomes the foundation for the derivative, allowing you to find the slope at a single specific point.
-
-
-
 ---
-
 #### Step-by-Step Execution Guide
 
 To solve the difference quotient for any function $f(x)$, follow these three steps to keep the algebra clean:
