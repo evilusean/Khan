@@ -110,6 +110,45 @@ $$f(1) = \sqrt{1 - 3}$$
 
 > [!abstract] Algebra Takeaway
 > When working with square root functions, the **domain** is restricted. If the value inside the radical is negative, the function has no real-number output. As seen with $f(1)$, $x=1$ is not in the domain.
+### g(x) = \frac{2x+1}{x-5}
+
+To evaluate this rational function, substitute the given value or expression into every instance of $x$ in both the numerator and the denominator.
+
+---
+
+#### 1. Evaluate $g(0)$
+Substitute $0$ for $x$:
+$$g(0) = \frac{2(0) + 1}{0 - 5}$$
+$$g(0) = \frac{1}{-5}$$
+**$g(0) = -\frac{1}{5}$**
+
+---
+
+#### 2. Evaluate $g(x^2)$
+Substitute $x^2$ for $x$:
+**$g(x^2) = \frac{2x^2 + 1}{x^2 - 5}$**
+
+---
+
+#### 3. Evaluate $g(5)$
+Substitute $5$ for $x$:
+$$g(5) = \frac{2(5) + 1}{5 - 5}$$
+$$g(5) = \frac{11}{0}$$
+**$g(5) = \text{Undefined}$**
+*(Note: Division by zero is impossible, meaning $x = 5$ is an exclusion from the domain.)*
+
+
+---
+
+#### 4. Evaluate $-g(x)$
+This is the negative of the entire function. You can distribute the negative to either the numerator OR the denominator, but not both:
+$$-g(x) = -\left(\frac{2x + 1}{x - 5}\right)$$
+**$-g(x) = \frac{-2x - 1}{x - 5}$** *(Commonly represented this way)*
+
+---
+
+> [!abstract] Algebra Takeaway
+> When evaluating rational functions like $g(5)$, a zero in the denominator indicates a **vertical asymptote** or a "hole" in the graph. In your Obsidian vault, you can link this to **Domain Restrictions**, as $x$ can be any real number except $5$. When calculating $-g(x)$, be careful not to multiply both top and bottom by $-1$, as that would actually result in the original function (a double negative).
 ### Identifying Even, Odd, and Neither Functions
 
 To determine the symmetry of a function, you use the **"$-x$ Plugin"** test. This involves substituting every $x$ in the function with $(-x)$ and comparing the result to the original function.
