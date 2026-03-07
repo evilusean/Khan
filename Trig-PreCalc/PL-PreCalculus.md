@@ -24,7 +24,8 @@ https://www.youtube.com/watch?v=p1sGAHulT8w&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 - $y = -7x + 5$ : $f(x) = -7x+5$ : they are the same
 - Why do you use *Function Notation*? Because if every function was named '*y*' it would be very hard to distinguish between them, so it's better to use $f(x)$
 - $f(2)$ : means plug in *2* everywhere you see *x*
-- 
+- Only numbers in the *domain* are real (no imaginary numbers like $\sqrt{-2}$ or '0') positive numbers (>0) - *Square Roots* and *Denominators* can give you problems, so make sure to check your domain inputs for those
+- **Difference Quotient** : $\frac{f(x+h)-f(x)}{h}$ :  
 ### h(x) = -2x² + x - 1
 
 To evaluate $h(x) = -2x^2 + x - 1$, substitute the given value or expression into every instance of $x$ in the original function.
@@ -189,4 +190,74 @@ A function is **Neither** if the result of the $-x$ substitution does not match 
 ---
 
 > [!abstract] Algebra Takeaway
-> When using the $-x$ plugin, remember that **even exponents** (2, 4, 6...) will always "absorb" the negative sign, while **odd exponents** (1, 3, 5...) will "keep" the negative sign. Constants (like $+5$) are unaffected by the $-x$ substitution.
+> When using the $-x$ plugin, remember that **even exponents** (2, 4, 6...) will always "absorb" the negative sign, while **odd exponents** (1, 3, 5...) will "keep" the negative sign. Constants (like $+5$) are unaffected by the $-x$ substitution.### Difference Quotient
+
+* The **Difference Quotient**, $\frac{f(x+h)-f(x)}{h}$, is a formula used to find the **average rate of change** between two points on a curve, which represents the slope of a **secant line**. As $h$ approaches zero, this formula becomes the foundation for the derivative, allowing you to find the slope at a single specific point.
+
+
+
+---
+
+#### Step-by-Step Execution Guide
+
+To solve the difference quotient for any function $f(x)$, follow these three steps to keep the algebra clean:
+
+1.  **Find $f(x+h)$:** Substitute $(x+h)$ into the original function and expand/simplify it completely.
+2.  **Subtract $f(x)$:** Subtract the original function from your result in Step 1. This should cause all terms without an $h$ to cancel out.
+3.  **Divide by $h$:** Factor out an $h$ from the numerator and cancel it with the $h$ in the denominator.
+
+---
+
+#### Example: $f(x) = x^2 + 3$
+
+**Step 1: Evaluate $f(x+h)$**
+$$f(x+h) = (x+h)^2 + 3$$
+$$f(x+h) = x^2 + 2xh + h^2 + 3$$
+
+**Step 2: Subtract $f(x)$**
+$$(x^2 + 2xh + h^2 + 3) - (x^2 + 3)$$
+$$x^2 + 2xh + h^2 + 3 - x^2 - 3$$
+Remaining: **$2xh + h^2$**
+
+**Step 3: Divide by $h$**
+$$\frac{2xh + h^2}{h} = \frac{h(2x + h)}{h}$$
+**Result: $2x + h$**
+
+---
+
+> [!abstract] Algebra Takeaway
+> The primary goal of simplifying a difference quotient is to **cancel the $h$ in the denominator**. If you reach the final step and you cannot factor an $h$ out of every term in the numerator, you likely made a distribution or sign error in Step 2.
+
+### Difference Quotient
+
+* The **Difference Quotient**, $\frac{f(x+h)-f(x)}{h}$, is a formula used to find the **average rate of change** between two points on a curve, which represents the slope of a **secant line**. As $h$ approaches zero, this formula becomes the foundation for the derivative, allowing you to find the slope at a single specific point.
+
+---
+#### Step-by-Step Execution Guide
+
+To solve the difference quotient for any function $f(x)$, follow these three steps to keep the algebra clean:
+
+1.  **Find $f(x+h)$:** Substitute $(x+h)$ into the original function and expand/simplify it completely.
+2.  **Subtract $f(x)$:** Subtract the original function from your result in Step 1. This should cause all terms without an $h$ to cancel out.
+3.  **Divide by $h$:** Factor out an $h$ from the numerator and cancel it with the $h$ in the denominator.
+---
+#### Example: $f(x) = x^2 + 3$
+
+**Step 1: Evaluate $f(x+h)$**
+$$f(x+h) = (x+h)^2 + 3$$
+$$f(x+h) = x^2 + 2xh + h^2 + 3$$
+
+**Step 2: Subtract $f(x)$**
+$$(x^2 + 2xh + h^2 + 3) - (x^2 + 3)$$
+$$x^2 + 2xh + h^2 + 3 - x^2 - 3$$
+Remaining: **$2xh + h^2$**
+
+**Step 3: Divide by $h$**
+$$\frac{2xh + h^2}{h} = \frac{h(2x + h)}{h}$$
+**Result: $2x + h$**
+
+---
+
+> [!abstract] Algebra Takeaway
+> The primary goal of simplifying a difference quotient is to **cancel the $h$ in the denominator**. If you reach the final step and you cannot factor an $h$ out of every term in the numerator, you likely made a distribution or sign error in Step 2.
+
