@@ -25,3 +25,44 @@ https://www.youtube.com/watch?v=p1sGAHulT8w&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 - Why do you use *Function Notation*? Because if every function was named '*y*' it would be very hard to distinguish between them, so it's better to use $f(x)$
 - $f(2)$ : means plug in *2* everywhere you see *x*
 - 
+### h(x) = -2x² + x - 1
+
+To evaluate $h(x) = -2x^2 + x - 1$, substitute the given value or expression into every instance of $x$ in the original function.
+
+---
+
+#### 1. Evaluate h(-1)
+Substitute $-1$ for $x$:
+$$h(-1) = -2(-1)^2 + (-1) - 1$$
+$$h(-1) = -2(1) - 1 - 1$$
+$$h(-1) = -2 - 1 - 1$$
+**$h(-1) = -4$**
+
+---
+
+#### 2. Evaluate h(-x)
+Substitute $-x$ for $x$:
+$$h(-x) = -2(-x)^2 + (-x) - 1$$
+Since $(-x)^2 = x^2$ and $+(-x) = -x$:
+**$h(-x) = -2x^2 - x - 1$**
+
+---
+
+#### 3. Evaluate h(x + 1)
+Substitute the expression $(x + 1)$ for $x$:
+$$h(x + 1) = -2(x + 1)^2 + (x + 1) - 1$$
+
+**Step A: Expand the binomial**
+$$(x + 1)^2 = (x + 1)(x + 1) = x^2 + 2x + 1$$
+
+**Step B: Distribute the -2**
+$$h(x + 1) = -2(x^2 + 2x + 1) + x + 1 - 1$$
+$$h(x + 1) = -2x^2 - 4x - 2 + x + 0$$
+
+**Step C: Combine like terms**
+**$h(x + 1) = -2x^2 - 3x - 2$**
+
+---
+
+> [!abstract] Algebra Takeaway
+> When evaluating $h(x+1)$, the most common error is forgetting to expand the binomial $(x+1)^2$ fully before multiplying by $-2$. Always follow the Order of Operations (**PEMDAS**): handle the exponent (squaring the binomial) before performing the multiplication.
