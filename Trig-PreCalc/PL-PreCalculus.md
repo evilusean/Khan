@@ -115,31 +115,20 @@ $$f(1) = \sqrt{1 - 3}$$
 To determine the symmetry of a function, you use the **"$-x$ Plugin"** test. This involves substituting every $x$ in the function with $(-x)$ and comparing the result to the original function.
 
 ---
-
 #### 1. Even Functions (Symmetric about the y-axis)
 A function is **Even** if plugging in $-x$ results in the exact same original function.
 * **Condition:** $f(-x) = f(x)$
 * **Visual:** If you fold the graph along the y-axis, the two sides match perfectly.
-
-
-
 ---
-
 #### 2. Odd Functions (Symmetric about the origin)
 A function is **Odd** if plugging in $-x$ results in the original function with every sign flipped (the negative of the original).
 * **Condition:** $f(-x) = -f(x)$
 * **Visual:** If you rotate the graph $180^\circ$ around the $(0,0)$ point, it looks identical.
-
-
-
 ---
-
 #### 3. Neither
 A function is **Neither** if the result of the $-x$ substitution does not match the original function and is not the exact negative of the original.
 * **Condition:** $f(-x) \neq f(x)$ AND $f(-x) \neq -f(x)$
-
 ---
-
 #### Step-by-Step Plugin Examples
 
 **Example A: $f(x) = x^2 + 5$**
