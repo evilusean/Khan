@@ -257,3 +257,4 @@ $$\frac{2xh + h^2}{h} = \frac{h(2x + h)}{h}$$
 > [!abstract] Algebra Takeaway
 > The primary goal of simplifying a difference quotient is to **cancel the $h$ in the denominator**. If you reach the final step and you cannot factor an $h$ out of every term in the numerator, you likely made a distribution or sign error in Step 2.
 
+## 2026-March-08 - Finding the Domain of Functions (Precalculus - College Algebra 4)
