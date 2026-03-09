@@ -264,3 +264,33 @@ https://www.youtube.com/watch?v=LvUCDcp6Z3k&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   - $\sqrt{1}$  you *CAN NOT have a negative square root radicand* (imaginary number) - A square root will tell you what numbers it wants to have, find numbers that when you plug in will be $\ge 0$ 
   - $\frac{1}{0}$ *Denominators can not equal to zero* - it will tell you what numbers it can't have
 - 
+### Finding the Domain of f(x) = \sqrt{5-4x}
+
+To find the domain of a square root function, the expression inside the radical (the radicand) must be greater than or equal to zero, as you cannot take the square root of a negative number in the real number system.
+
+---
+
+#### Step 1: Set up the Inequality
+Set the radicand to be $\ge 0$:
+$$5 - 4x \ge 0$$
+
+#### Step 2: Solve for x
+Subtract 5 from both sides:
+$$-4x \ge -5$$
+
+#### Step 3: Divide by -4
+**Crucial Rule:** When dividing or multiplying an inequality by a negative number, you must **flip the inequality sign**.
+$$x \le \frac{-5}{-4}$$
+$$x \le 1.25$$
+
+---
+
+#### Final Domain Notation
+* **Inequality Notation:** $x \le \frac{5}{4}$
+* **Interval Notation:** $(-\infty, \frac{5}{4}]$
+* **Set Builder Notation:** $\{x | x \in \mathbb{R}, x \le \frac{5}{4}\}$
+
+---
+
+> [!abstract] Algebra Takeaway
+> The "Plugin" test is a quick way to verify your domain. If you pick a number larger than $1.25$ (like $x=2$), the result is $\sqrt{5-8}$, which is $\sqrt{-3}$ (undefined). If you pick a number smaller than $1.25$ (like $x=0$), the result is $\sqrt{5}$ (defined). This confirms the domain must include all values **less than or equal to** $1.25$.
