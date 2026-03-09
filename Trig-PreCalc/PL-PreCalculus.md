@@ -359,3 +359,37 @@ The domain is all real numbers.
 
 > [!abstract] Algebra Takeaway
 > All polynomial functions—whether they are linear, quadratic, cubic, or higher—have a domain of **all real numbers**. In Obsidian, you can categorize this as a "unrestricted domain." The graph of this function is a parabola that continues infinitely to the left and right, meaning every $x$-value is accounted for.
+### Finding the Domain of $h(x) = \sqrt{\frac{3x - 15}{x - 4}}$
+
+Finding the domain of a radical containing a fraction is more complex. For the function to be defined, the entire expression inside the square root (the radicand) must be **greater than or equal to zero**, and the denominator **cannot be zero**.
+
+---
+
+#### Step 1: Identify Critical Points
+The sign of the fraction $\frac{3x - 15}{x - 4}$ changes at the values where the numerator or denominator equals zero:
+* **Numerator:** $3x - 15 = 0 \Rightarrow x = 5$ (The function can be zero)
+* **Denominator:** $x - 4 = 0 \Rightarrow x = 4$ (The function is undefined here)
+
+#### Step 2: Test the Intervals
+These points divide the number line into three intervals: $(-\infty, 4)$, $(4, 5)$, and $(5, \infty)$. We test a value from each to see if the fraction is positive:
+
+1.  **Interval $(-\infty, 4)$:** Test $x = 0$
+    $$\frac{3(0) - 15}{0 - 4} = \frac{-15}{-4} = 3.75$$ (Positive/Defined ✅)
+2.  **Interval $(4, 5)$:** Test $x = 4.5$
+    $$\frac{3(4.5) - 15}{4.5 - 4} = \frac{13.5 - 15}{0.5} = \frac{-1.5}{0.5} = -3$$ (Negative/Undefined ❌)
+3.  **Interval $(5, \infty)$:** Test $x = 6$
+    $$\frac{3(6) - 15}{6 - 4} = \frac{3}{2} = 1.5$$ (Positive/Defined ✅)
+
+#### Step 3: Check the Boundaries
+* **At $x = 4$:** The denominator is zero, so $4$ is **excluded** (parenthesis).
+* **At $x = 5$:** The numerator is zero, which is allowed inside a square root ($\sqrt{0} = 0$), so $5$ is **included** (bracket).
+
+---
+
+#### Final Domain Notation
+* **Inequality Notation:** $x < 4$ or $x \ge 5$
+* **Interval Notation:** $(-\infty, 4) \cup [5, \infty)$
+* **Set Builder Notation:** $\{x \mid x \in \mathbb{R}, x < 4 \text{ or } x \ge 5\}$
+---
+> [!abstract] Algebra Takeaway
+> When solving a "root of a fraction," the domain is not just where the individual parts are positive, but where the **ratio** is positive. This is why the interval $(-\infty, 4)$ works: even though both the numerator and denominator are negative, their quotient is positive, making the square root possible. Always use a sign chart or test points to avoid missing these "double negative" intervals.
