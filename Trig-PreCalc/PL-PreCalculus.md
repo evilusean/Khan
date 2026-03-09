@@ -364,7 +364,6 @@ The domain is all real numbers.
 To find the domain of this function, you must satisfy the restrictions of both the **square root in the numerator** and the **variable in the denominator**. 
 
 ---
-
 #### Step 1: Solve for the Radical (Numerator)
 The expression inside the square root must be greater than or equal to zero:
 $$3x - 15 \ge 0$$
@@ -386,7 +385,6 @@ Now, we look for the overlap:
 Since the radical already restricts the domain to $x \ge 5$, the "forbidden" value of $4$ is already excluded by default (it's outside the valid range of the radical). Therefore, the restriction at $x=4$ does not further limit our domain.
 
 ---
-
 #### Final Domain Notation
 * **Inequality Notation:** $x \ge 5$
 * **Interval Notation:** $[5, \infty)$
@@ -400,7 +398,6 @@ Since the radical already restricts the domain to $x \ge 5$, the "forbidden" val
 This function combines two restrictions: a **variable in a denominator** and a **variable inside a square root**.
 
 ---
-
 #### Step 1: Analyze the Restrictions
 1.  **Square Root Rule:** The radicand ($x - 8$) must normally be $\ge 0$.
 2.  **Denominator Rule:** The denominator cannot be $0$.
