@@ -261,10 +261,10 @@ $$\frac{2xh + h^2}{h} = \frac{h(2x + h)}{h}$$
 https://www.youtube.com/watch?v=LvUCDcp6Z3k&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=6
 - **Domain** = Is the set of inputs of a function that can give a *DEFINED* *REAL* number output (not imaginary, and defined aka not zero, and some functions can't handle negative numbers)
 - Two Problem Areas : 
-  - $\sqrt{1}$  you *CAN NOT have a negative square root radicand* (imaginary number) - A square root will tell you what numbers it wants to have, find numbers that when you plug in will be $\ge 0$ 
+  - $\sqrt{1}$  you *CAN NOT have a negative square root radicand* (imaginary number) - A square root will tell you what numbers it wants to have, find numbers that when you plug in will be $\ge 0$ - You can plug in negative numbers to a square root as long as the resulting number is POSITIVE or at least ZERO
   - $\frac{1}{0}$ *Denominators can not equal to zero* - it will tell you what numbers it can't have
 - 
-### Finding the Domain of f(x) = \sqrt{5-4x}
+### Finding the Domain of $f(x) = \sqrt{5-4x}$
 
 To find the domain of a square root function, the expression inside the radical (the radicand) must be greater than or equal to zero, as you cannot take the square root of a negative number in the real number system.
 
