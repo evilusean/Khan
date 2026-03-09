@@ -359,37 +359,68 @@ The domain is all real numbers.
 
 > [!abstract] Algebra Takeaway
 > All polynomial functions—whether they are linear, quadratic, cubic, or higher—have a domain of **all real numbers**. In Obsidian, you can categorize this as a "unrestricted domain." The graph of this function is a parabola that continues infinitely to the left and right, meaning every $x$-value is accounted for.
-### Finding the Domain of $h(x) = \sqrt{\frac{3x - 15}{x - 4}}$
+### Finding the Domain of $h(x) = \frac{\sqrt{3x - 15}}{x - 4}$
 
-Finding the domain of a radical containing a fraction is more complex. For the function to be defined, the entire expression inside the square root (the radicand) must be **greater than or equal to zero**, and the denominator **cannot be zero**.
+To find the domain of this function, you must satisfy the restrictions of both the **square root in the numerator** and the **variable in the denominator**. 
 
 ---
 
-#### Step 1: Identify Critical Points
-The sign of the fraction $\frac{3x - 15}{x - 4}$ changes at the values where the numerator or denominator equals zero:
-* **Numerator:** $3x - 15 = 0 \Rightarrow x = 5$ (The function can be zero)
-* **Denominator:** $x - 4 = 0 \Rightarrow x = 4$ (The function is undefined here)
+#### Step 1: Solve for the Radical (Numerator)
+The expression inside the square root must be greater than or equal to zero:
+$$3x - 15 \ge 0$$
+$$3x \ge 15$$
+$$x \ge 5$$
+*This tells us the function only exists from 5 to positive infinity.*
 
-#### Step 2: Test the Intervals
-These points divide the number line into three intervals: $(-\infty, 4)$, $(4, 5)$, and $(5, \infty)$. We test a value from each to see if the fraction is positive:
+#### Step 2: Solve for the Denominator
+The denominator cannot equal zero:
+$$x - 4 \neq 0$$
+$$x \neq 4$$
+*This tells us the function is undefined at exactly 4.*
 
-1.  **Interval $(-\infty, 4)$:** Test $x = 0$
-    $$\frac{3(0) - 15}{0 - 4} = \frac{-15}{-4} = 3.75$$ (Positive/Defined ✅)
-2.  **Interval $(4, 5)$:** Test $x = 4.5$
-    $$\frac{3(4.5) - 15}{4.5 - 4} = \frac{13.5 - 15}{0.5} = \frac{-1.5}{0.5} = -3$$ (Negative/Undefined ❌)
-3.  **Interval $(5, \infty)$:** Test $x = 6$
-    $$\frac{3(6) - 15}{6 - 4} = \frac{3}{2} = 1.5$$ (Positive/Defined ✅)
+#### Step 3: Combine the Restrictions
+Now, we look for the overlap:
+1. The radical restricts us to values **5 or greater**.
+2. The denominator forbids the value **4**.
 
-#### Step 3: Check the Boundaries
-* **At $x = 4$:** The denominator is zero, so $4$ is **excluded** (parenthesis).
-* **At $x = 5$:** The numerator is zero, which is allowed inside a square root ($\sqrt{0} = 0$), so $5$ is **included** (bracket).
+Since the radical already restricts the domain to $x \ge 5$, the "forbidden" value of $4$ is already excluded by default (it's outside the valid range of the radical). Therefore, the restriction at $x=4$ does not further limit our domain.
 
 ---
 
 #### Final Domain Notation
-* **Inequality Notation:** $x < 4$ or $x \ge 5$
-* **Interval Notation:** $(-\infty, 4) \cup [5, \infty)$
-* **Set Builder Notation:** $\{x \mid x \in \mathbb{R}, x < 4 \text{ or } x \ge 5\}$
+* **Inequality Notation:** $x \ge 5$
+* **Interval Notation:** $[5, \infty)$
+* **Set Builder Notation:** $\{x \mid x \in \mathbb{R}, x \ge 5\}$
 ---
+
 > [!abstract] Algebra Takeaway
-> When solving a "root of a fraction," the domain is not just where the individual parts are positive, but where the **ratio** is positive. This is why the interval $(-\infty, 4)$ works: even though both the numerator and denominator are negative, their quotient is positive, making the square root possible. Always use a sign chart or test points to avoid missing these "double negative" intervals.
+> When dealing with multiple restrictions, always check if one "overrides" the other. In this case, the square root's requirement ($x \ge 5$) is more restrictive than the denominator's requirement ($x \neq 4$). Even though $x=4$ would cause division by zero, the function is already "dead" there because you'd be trying to take the square root of a negative number.
+### Finding the Domain of $g(x) = \frac{5}{\sqrt{x-8}}$
+
+This function combines two restrictions: a **variable in a denominator** and a **variable inside a square root**.
+
+---
+
+#### Step 1: Analyze the Restrictions
+1.  **Square Root Rule:** The radicand ($x - 8$) must normally be $\ge 0$.
+2.  **Denominator Rule:** The denominator cannot be $0$.
+
+Because the square root is *in* the denominator, the value inside cannot be zero ($\sqrt{0} = 0$, which would cause division by zero). Therefore, we must strictly use "greater than" rather than "greater than or equal to."
+
+#### Step 2: Solve the Inequality
+Set the radicand to be strictly greater than zero:
+$$x - 8 > 0$$
+Add 8 to both sides:
+**$x > 8$**
+
+---
+
+#### Final Domain Notation
+* **Inequality Notation:** $x > 8$
+* **Interval Notation:** $(8, \infty)$
+* **Set Builder Notation:** $\{x \mid x \in \mathbb{R}, x > 8\}$
+
+---
+
+> [!abstract] Algebra Takeaway
+> Usually, square roots allow for a "closed bracket" (meaning the number is included). However, when the radical is in the denominator, you must switch to an **open parenthesis**. This indicates that while the function exists for $8.00001$, it is undefined at exactly $8$.
