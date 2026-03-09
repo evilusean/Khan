@@ -330,3 +330,32 @@ The domain includes all real numbers **except** $-4, 0,$ and $4$.
 
 > [!abstract] Algebra Takeaway
 > In this specific function, you might notice a $t$ in both the numerator and denominator. While they could algebraically "cancel out," the **original** function still has a hole at $t=0$. When finding the domain, always analyze the denominator in its **original, unsimplified form** to ensure you don't miss any points where the function is undefined.
+### Finding the Domain of f(x) = 3x² - 2x + 4
+
+To find the domain of a function, you look for restricted operations, such as division by zero or taking the square root of a negative number.
+
+---
+
+#### Step 1: Analyze the Function Type
+The function $f(x) = 3x^2 - 2x + 4$ is a **polynomial function** (specifically a quadratic). 
+
+#### Step 2: Check for Restrictions
+* **Denominators:** There are no variables in a denominator (no division by zero).
+* **Radicals:** There are no square roots or even-indexed roots (no negative radicands).
+* **Logarithms:** There are no logarithmic expressions.
+
+Since there are no operations that would lead to an undefined result, you can plug any real number into $x$ and get a valid output.
+
+---
+
+#### Final Domain Notation
+The domain is all real numbers.
+
+* **Inequality Notation:** $-\infty < x < \infty$
+* **Interval Notation:** $(-\infty, \infty)$
+* **Set Builder Notation:** $\{x \mid x \in \mathbb{R}\}$
+
+---
+
+> [!abstract] Algebra Takeaway
+> All polynomial functions—whether they are linear, quadratic, cubic, or higher—have a domain of **all real numbers**. In Obsidian, you can categorize this as a "unrestricted domain." The graph of this function is a parabola that continues infinitely to the left and right, meaning every $x$-value is accounted for.
