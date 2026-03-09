@@ -294,3 +294,39 @@ $$x \le 1.25$$
 
 > [!abstract] Algebra Takeaway
 > The "Plugin" test is a quick way to verify your domain. If you pick a number larger than $1.25$ (like $x=2$), the result is $\sqrt{5-8}$, which is $\sqrt{-3}$ (undefined). If you pick a number smaller than $1.25$ (like $x=0$), the result is $\sqrt{5}$ (defined). This confirms the domain must include all values **less than or equal to** $1.25$.
+### Finding the Domain of $g(t) = \frac{5t}{t^3 - 16t}$
+
+To find the domain of a rational function (a fraction), you must identify all values that would cause the **denominator to equal zero**, as division by zero is undefined.
+
+---
+
+#### Step 1: Set the Denominator to Zero
+We need to solve for $t$ when the bottom part of the fraction is zero:
+$$t^3 - 16t = 0$$
+
+#### Step 2: Factor the Expression
+First, factor out the greatest common factor, which is $t$:
+$$t(t^2 - 16) = 0$$
+
+Next, recognize that $(t^2 - 16)$ is a **difference of squares** ($a^2 - b^2$):
+$$t(t - 4)(t + 4) = 0$$
+
+#### Step 3: Solve for Excluded Values
+Set each factor to zero:
+* $t = 0$
+* $t - 4 = 0 \Rightarrow t = 4$
+* $t + 4 = 0 \Rightarrow t = -4$
+
+---
+
+#### Final Domain Notation
+The domain includes all real numbers **except** $-4, 0,$ and $4$.
+
+* **Inequality Notation:** $t \neq -4, t \neq 0, t \neq 4$
+* **Interval Notation:** $(-\infty, -4) \cup (-4, 0) \cup (0, 4) \cup (4, \infty)$
+* **Set Builder Notation:** $\{t \mid t \in \mathbb{R}, t \neq \pm 4, t \neq 0\}$
+
+---
+
+> [!abstract] Algebra Takeaway
+> In this specific function, you might notice a $t$ in both the numerator and denominator. While they could algebraically "cancel out," the **original** function still has a hole at $t=0$. When finding the domain, always analyze the denominator in its **original, unsimplified form** to ensure you don't miss any points where the function is undefined.
