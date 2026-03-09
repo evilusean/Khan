@@ -259,3 +259,8 @@ $$\frac{2xh + h^2}{h} = \frac{h(2x + h)}{h}$$
 
 ## 2026-March-09 - Finding the Domain of Functions (Precalculus - College Algebra 4)
 https://www.youtube.com/watch?v=LvUCDcp6Z3k&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=6
+- **Domain** = Is the set of inputs of a function that can give a *DEFINED* *REAL* number output (not imaginary, and defined aka not zero, and some functions can't handle negative numbers)
+- Two Problem Areas : 
+  - $\sqrt{1}$  you *CAN NOT have a negative square root radicand* (imaginary number) - A square root will tell you what numbers it wants to have, find numbers that when you plug in will be $\ge 0$ 
+  - $\frac{1}{0}$ *Denominators can not equal to zero* - it will tell you what numbers it can't have
+- 
