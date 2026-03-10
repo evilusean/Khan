@@ -762,3 +762,4 @@ We combine $x \ge -3$ and $x \neq 0$:
 > In division, the "bad" values from the original denominator stay "bad" even if the denominator is flipped into the numerator. In your Obsidian vault, note that for $f/g$, the final domain is the intersection of the domains of $f$ and $g$, minus any values where the output of $g$ is zero.
 
 ## 2026-March-10 - Using the Vertical Line Test (Precalculus - College Algebra 6) : 
+https://www.youtube.com/watch?v=7j6kh8Z2H90&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=6
