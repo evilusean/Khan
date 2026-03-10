@@ -563,3 +563,51 @@ Always check if the final numerator can be factored. Here, $-2x + 3$ cannot be f
 
 > [!abstract] Algebra Takeaway
 > Subtraction is essentially "addition of the opposite." In your Obsidian vault, categorize this under **Rational Operations**. Always find the domain of the individual functions *before* you start crossing things out or combining them, to ensure you don't lose track of excluded values.
+
+### Operations of Functions: Multiplication Example
+
+When multiplying rational functions, you multiply the numerators together and the denominators together. While the algebra is often straightforward, tracking the domain and potential simplifications is key.
+
+---
+
+#### 1. The Functions
+$f(x) = \frac{2x+3}{3x-2}$
+$g(x) = \frac{4x}{3x-2}$
+
+#### 2. Identify Initial Restrictions (Domain)
+Before performing the operation, identify where the individual functions are undefined. Both $f(x)$ and $g(x)$ share a denominator that cannot be zero:
+$$3x - 2 \neq 0$$
+$$3x \neq 2$$
+$$x \neq \frac{2}{3}$$
+**Initial Domain:** $\{x \mid x \in \mathbb{R}, x \neq \frac{2}{3}\}$
+
+#### 3. Perform the Operation $(f \cdot g)(x)$
+Multiply the numerators and the denominators:
+$$(f \cdot g)(x) = \frac{(2x + 3)(4x)}{(3x - 2)(3x - 2)}$$
+
+Distribute the $4x$ in the numerator and express the denominator as a square:
+$$(f \cdot g)(x) = \frac{8x^2 + 12x}{(3x - 2)^2}$$
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The "Squared Restriction"
+> Even though the denominator is now $(3x - 2)^2$, the restriction remains $x \neq \frac{2}{3}$. Squaring the denominator doesn't change the "bad" value, but it does change the behavior of the graph (it typically creates a "volcano" shape at the asymptote where both sides approach the same infinity).
+
+#### 1. Numerator Distribution
+Ensure you distribute the $4x$ to **both** terms in the numerator of $f(x)$. A common mistake is only multiplying $2x$ by $4x$ and forgetting the constant $3$.
+* *Correct:* $4x(2x) + 4x(3) = 8x^2 + 12x$
+
+#### 2. Domain Overlap
+The domain of $(f \cdot g)(x)$ is the **intersection** of the domains of $f$ and $g$. If $f$ or $g$ had different restricted values, the final result would be restricted by **all** of them combined.
+
+#### 3. Simplification Opportunities
+Always check if the resulting numerator can be factored to cancel out part of the denominator. 
+* Here, the numerator factors to $4x(2x + 3)$. 
+* Since $(2x + 3)$ does not match $(3x - 2)$, no further simplification is possible.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Unlike addition and subtraction, multiplication does not require a common denominator. However, it often results in higher-degree polynomials (like $x^2$) in both the top and bottom. In your Obsidian vault, note that for multiplication, the domain restrictions of the original functions are strictly inherited.
