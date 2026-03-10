@@ -665,3 +665,51 @@ The domain of $(f/g)(x)$ is strictly the overlap of the original domains **plus*
 
 > [!abstract] Algebra Takeaway
 > Division is "picky." You have to respect the "bad" numbers from the start of the problem and the "bad" numbers created during the flip. In your Obsidian vault, mark division as the only operation that can change the domain beyond just a simple intersection of the two starting sets.
+
+### Operations of Functions: Addition Example (Radical + Rational)
+
+When adding a radical function and a rational function, the algebra is usually left in "uncombined" form unless a common denominator is required. The primary challenge is correctly identifying the overlapping domain.
+
+---
+
+#### 1. The Functions
+$f(x) = \sqrt{x+3}$
+$g(x) = \frac{5}{x}$
+
+#### 2. Identify Individual Domains
+* **Domain of $f(x)$:** The radicand must be $\ge 0$.
+    $$x + 3 \ge 0 \Rightarrow x \ge -3$$
+* **Domain of $g(x)$:** The denominator cannot be $0$.
+    $$x \neq 0$$
+
+#### 3. Perform the Operation $(f + g)(x)$
+To add them, simply write the sum of the two expressions:
+**$(f + g)(x) = \sqrt{x+3} + \frac{5}{x}$**
+
+*(Note: You could find a common denominator to get $\frac{x\sqrt{x+3} + 5}{x}$, but in most Precalculus contexts, the uncombined form is preferred for clarity.)*
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The "Intersection" Requirement
+> The resulting function $(f + g)(x)$ only exists where **both** original functions exist simultaneously. If you pick a number that works for $g$ but not $f$, the entire operation is undefined.
+
+#### 1. Visualizing the Overlap
+Imagine a number line:
+* $f(x)$ starts at $-3$ and goes to infinity.
+* $g(x)$ is the entire line with a "hole" at $0$.
+* **The Overlap:** You start at $-3$, but you must "jump over" the $0$.
+
+#### 2. Zero as a Special Case
+In this specific problem, $0$ is within the valid range of the square root ($x \ge -3$), but it is forbidden by the fraction. Therefore, $0$ must be excluded from the final domain. If the square root had been $\sqrt{x-5}$, the domain would have started at $5$, and the $x \neq 0$ restriction would have been redundant.
+
+#### 3. Domain Notation
+* **Inequality Notation:** $x \ge -3, x \neq 0$
+* **Interval Notation:** $[-3, 0) \cup (0, \infty)$
+* **Set Builder Notation:** $\{x \mid x \in \mathbb{R}, x \ge -3, x \neq 0\}$
+
+---
+
+> [!abstract] Algebra Takeaway
+> When adding different "types" of functions (like a root and a fraction), the domain is the most restrictive combination of both. In your Obsidian vault, note that you should always check if the "excluded" values of your rational part ($x \neq 0$) fall inside the "allowed" values of your radical part ($x \ge -3$). If they do, you must explicitly cut them out of the interval.
