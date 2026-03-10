@@ -422,3 +422,4 @@ Add 8 to both sides:
 > [!abstract] Algebra Takeaway
 > Usually, square roots allow for a "closed bracket" (meaning the number is included). However, when the radical is in the denominator, you must switch to an **open parenthesis**. This indicates that while the function exists for $8.00001$, it is undefined at exactly $8$.
 
+## 2026-March-10 - Operations of Functions (Precalculus - College Algebra 5) : 
