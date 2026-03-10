@@ -713,3 +713,56 @@ In this specific problem, $0$ is within the valid range of the square root ($x \
 
 > [!abstract] Algebra Takeaway
 > When adding different "types" of functions (like a root and a fraction), the domain is the most restrictive combination of both. In your Obsidian vault, note that you should always check if the "excluded" values of your rational part ($x \neq 0$) fall inside the "allowed" values of your radical part ($x \ge -3$). If they do, you must explicitly cut them out of the interval.
+
+### Operations of Functions: Division Example (Radical / Rational)
+
+Dividing a radical function by a rational function requires careful algebraic manipulation and a multi-step domain check. Because $g(x)$ is the divisor, it creates two separate potential restrictions.
+
+---
+
+#### 1. The Functions
+$f(x) = \sqrt{x+3}$
+$g(x) = \frac{5}{x}$
+
+#### 2. Identify Initial Restrictions
+Before dividing, find the domains of the starting functions:
+* **For $f(x)$:** $x + 3 \ge 0 \Rightarrow x \ge -3$
+* **For $g(x)$:** $x \neq 0$
+
+#### 3. Perform the Operation $(f / g)(x)$
+To divide by a fraction, multiply by its reciprocal:
+$$(f / g)(x) = \frac{\sqrt{x+3}}{1} \div \frac{5}{x}$$
+$$(f / g)(x) = \sqrt{x+3} \cdot \frac{x}{5}$$
+
+**Final Simplified Result:**
+$$(f / g)(x) = \frac{x\sqrt{x+3}}{5}$$
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The "Three-Layer" Domain Check
+> When you divide $f/g$, the domain must satisfy three conditions simultaneously:
+> 1. The domain of $f$ ($x \ge -3$).
+> 2. The domain of $g$ ($x \neq 0$).
+> 3. Anywhere that $g(x) = 0$.
+
+#### 1. Checking if $g(x) = 0$
+In this specific case, $g(x) = \frac{5}{x}$. A fraction only equals zero if its **numerator** is zero. Since the numerator is a constant ($5$), $g(x)$ can never equal zero. Therefore, this third condition adds no new restrictions.
+
+#### 2. The "Disappearing" Denominator
+Looking at the final result $\frac{x\sqrt{x+3}}{5}$, it appears that $x=0$ would be perfectly fine to plug in. However, because $x=0$ was restricted in the **original** function $g(x)$, it remains restricted in the final result.
+* **Result at $x=0$:** $f(0)/g(0) = \sqrt{3} / (5/0)$, which is undefined.
+
+#### 3. Final Domain Construction
+We combine $x \ge -3$ and $x \neq 0$:
+* **Inequality Notation:** $x \ge -3, x \neq 0$
+* **Interval Notation:** $[-3, 0) \cup (0, \infty)$
+* **Set Builder Notation:** $\{x \mid x \in \mathbb{R}, x \ge -3, x \neq 0\}$
+
+
+
+---
+
+> [!abstract] Algebra Takeaway
+> In division, the "bad" values from the original denominator stay "bad" even if the denominator is flipped into the numerator. In your Obsidian vault, note that for $f/g$, the final domain is the intersection of the domains of $f$ and $g$, minus any values where the output of $g$ is zero.
