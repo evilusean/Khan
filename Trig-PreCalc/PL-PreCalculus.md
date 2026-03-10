@@ -424,6 +424,8 @@ Add 8 to both sides:
 
 ## 2026-March-10 - Operations of Functions (Precalculus - College Algebra 5) : 
 https://www.youtube.com/watch?v=7N_-G4usp6Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=6
+- if you run something through two functions, you have to make sure that it clears BOTH the domains - domain issues persist through addition, subtraction, multiplication, and division - You can even develop new domain problems after doing operations
+- 
 ### Operations of Functions
 
 When performing operations like addition, subtraction, multiplication, or division on two functions, the most critical factor is the **domain**. A common mistake is to only look at the final simplified result; however, a function always carries the "baggage" of its original domain restrictions.
@@ -467,3 +469,4 @@ Even though the final result $\frac{x\sqrt{x+3}}{5}$ has no $x$ in the denominat
 
 > [!abstract] Algebra Takeaway
 > Think of a function's domain like "skeletons in the closet" [00:00:36]. You cannot simplify away a domain restriction. When adding, subtracting, or multiplying, the domain is simply the overlap of the two originals. When dividing, you must also check if the *entire* denominator function equals zero at any point and exclude those values as well.
+
