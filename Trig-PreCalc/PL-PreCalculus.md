@@ -518,3 +518,48 @@ While this doesn't cancel with the denominator here, it is a standard step in ve
 > [!abstract] Algebra Takeaway
 > Addition of functions is straightforward when denominators match, but the "hidden" part of the problem is always the domain. In your final result, the vertical asymptote remains at $x = \frac{2}{3}$, just as it was in the original two functions.
 
+### Operations of Functions: Subtraction Example
+
+When subtracting rational functions, the focus is on maintaining a common denominator and correctly distributing the negative sign across the second numerator.
+
+---
+
+#### 1. The Functions
+$f(x) = \frac{2x+3}{3x-2}$
+$g(x) = \frac{4x}{3x-2}$
+
+#### 2. Identify Initial Restrictions (Domain)
+Before performing the operation, identify where the individual functions are undefined. Both $f(x)$ and $g(x)$ share the same denominator:
+$$3x - 2 \neq 0$$
+$$3x \neq 2$$
+$$x \neq \frac{2}{3}$$
+**Initial Domain:** $\{x \mid x \in \mathbb{R}, x \neq \frac{2}{3}\}$
+
+#### 3. Perform the Operation $(f - g)(x)$
+Since the functions already share a common denominator, subtract the numerators directly:
+$$(f - g)(x) = \frac{(2x + 3) - (4x)}{3x - 2}$$
+Combine like terms:
+$$(f - g)(x) = \frac{-2x + 3}{3x - 2}$$
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The "Subtraction Sign" Trap
+> One of the most common errors in precalculus is failing to distribute the negative sign to the *entire* numerator of $g(x)$. While $g(x)$ only has one term here ($4x$), if it were a binomial (e.g., $4x + 1$), you would need to subtract both terms: $-(4x + 1) = -4x - 1$.
+
+#### 1. Maintaining the Restriction
+Even if the numerator simplified in a way that allowed you to cancel out the $(3x-2)$ in the denominator, the restriction $x \neq \frac{2}{3}$ **must remain** in the domain of the resulting function. In a graph, this would appear as a "hole" (removable discontinuity).
+
+#### 2. Domain Intersection
+The domain of $(f - g)(x)$ is strictly the **intersection** of the domains of $f$ and $g$. 
+* If $f$ is undefined at $x=2/3$ and $g$ is undefined at $x=2/3$, the result is also undefined at $x=2/3$.
+* If $g$ had an additional restriction (e.g., if it also had a square root), that restriction would carry over into the final result as well.
+
+#### 3. Simplified Form vs. Original Form
+Always check if the final numerator can be factored. Here, $-2x + 3$ cannot be factored to cancel the denominator, so the expression is in its simplest form.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Subtraction is essentially "addition of the opposite." In your Obsidian vault, categorize this under **Rational Operations**. Always find the domain of the individual functions *before* you start crossing things out or combining them, to ensure you don't lose track of excluded values.
