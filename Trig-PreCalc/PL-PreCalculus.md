@@ -763,3 +763,43 @@ We combine $x \ge -3$ and $x \neq 0$:
 
 ## 2026-March-10 - Using the Vertical Line Test (Precalculus - College Algebra 6) : 
 https://www.youtube.com/watch?v=7j6kh8Z2H90&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=6
+### Using the Vertical Line Test
+
+The Vertical Line Test (VLT) is a graphical method used to determine if a relationship between an input and an output is a **function**. 
+
+---
+
+#### 1. Why It Works (The Core Logic)
+* **The Definition of a Function:** For every single input, there can only be exactly **one** output [00:00:48].
+* **Axis Orientation:**
+    * **Horizontal Axis:** Represents inputs ($x$-values) [00:01:05].
+    * **Vertical Axis:** Represents outputs ($y$-values) [00:01:43].
+* **The Interplay:** When you pick an input on the horizontal axis, its corresponding output must be located directly above or below it. Therefore, checking vertically allows you to see how many outputs exist for that one specific input [00:02:18].
+
+---
+
+#### 2. How to Perform the Test
+1.  Imagine a vertical line moving across the graph from left to right.
+2.  At any given point, observe how many times that vertical line crosses the graph.
+3.  **The Rule:** * If the line touches the graph at **most** one time for every input, the graph is a **function** [00:05:15].
+    * If the line touches the graph **more than once** at any point, it is **not a function** [00:07:08].
+
+---
+
+#### 3. Key Examples
+* **Straight & Wavy Lines:** Linear functions and polynomials typically pass the test because any vertical slice only hits the line once [00:05:15].
+* **Circles & Sideways Parabolas:** These **fail** the VLT because a vertical line will hit both the top and the bottom of the shape, meaning one $x$ has two different $y$ outputs [00:07:08].
+* **Vertical Lines:** A vertical line fails its own test because for that one specific $x$-input, there are an infinite number of $y$-outputs [00:10:35].
+
+---
+
+#### 4. Important Clarifications
+* **Multiple Inputs, Same Output:** It is perfectly fine for two different inputs to have the same output (like a horizontal line or a parabola). The VLT only cares if one input has **more than one** output [00:04:47].
+* **No Outputs:** If a vertical line doesn't touch the graph at all (like looking at negative $x$ values for $\sqrt{x}$), it is **still a function**. A function doesn't have to have an output for every possible number, but for every input it *does* use, it can only have one output [00:08:25].
+
+---
+
+> [!abstract] Algebra Takeaway
+> Use the Vertical Line Test as a quick visual "sanity check" whenever you are graphing, especially with **Piecewise Functions**. If your graph overlaps vertically at any point, you have accidentally created a non-function relationship [00:11:31].
+
+[Image showing a vertical line crossing a circle at two points (Not a Function) and a parabola at one point (Function)]
