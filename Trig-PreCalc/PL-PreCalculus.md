@@ -719,7 +719,6 @@ In this specific problem, $0$ is within the valid range of the square root ($x \
 Dividing a radical function by a rational function requires careful algebraic manipulation and a multi-step domain check. Because $g(x)$ is the divisor, it creates two separate potential restrictions.
 
 ---
-
 #### 1. The Functions
 $f(x) = \sqrt{x+3}$
 $g(x) = \frac{5}{x}$
@@ -736,9 +735,7 @@ $$(f / g)(x) = \sqrt{x+3} \cdot \frac{x}{5}$$
 
 **Final Simplified Result:**
 $$(f / g)(x) = \frac{x\sqrt{x+3}}{5}$$
-
 ---
-
 ### ⚠️ What to Look Out For
 
 > [!important] The "Three-Layer" Domain Check
@@ -759,10 +756,9 @@ We combine $x \ge -3$ and $x \neq 0$:
 * **Inequality Notation:** $x \ge -3, x \neq 0$
 * **Interval Notation:** $[-3, 0) \cup (0, \infty)$
 * **Set Builder Notation:** $\{x \mid x \in \mathbb{R}, x \ge -3, x \neq 0\}$
-
-
-
 ---
 
 > [!abstract] Algebra Takeaway
 > In division, the "bad" values from the original denominator stay "bad" even if the denominator is flipped into the numerator. In your Obsidian vault, note that for $f/g$, the final domain is the intersection of the domains of $f$ and $g$, minus any values where the output of $g$ is zero.
+
+## 2026-March-10 - Using the Vertical Line Test (Precalculus - College Algebra 6) : 
