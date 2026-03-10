@@ -425,6 +425,7 @@ Add 8 to both sides:
 ## 2026-March-10 - Operations of Functions (Precalculus - College Algebra 5) : 
 https://www.youtube.com/watch?v=7N_-G4usp6Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=6
 - if you run something through two functions, you have to make sure that it clears BOTH the domains - domain issues persist through addition, subtraction, multiplication, and division - You can even develop new domain problems after doing operations
+- When multiplying, you should always keep the denominators factored and not combined/distributed, it's easier to have the denominator factored when graphing, or when working with fractions it's easier to find the LCD(lowest common denominator)
 - 
 ### Operations of Functions
 
@@ -611,3 +612,4 @@ Always check if the resulting numerator can be factored to cancel out part of th
 
 > [!abstract] Algebra Takeaway
 > Unlike addition and subtraction, multiplication does not require a common denominator. However, it often results in higher-degree polynomials (like $x^2$) in both the top and bottom. In your Obsidian vault, note that for multiplication, the domain restrictions of the original functions are strictly inherited.
+
