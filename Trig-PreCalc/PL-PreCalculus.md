@@ -470,3 +470,51 @@ Even though the final result $\frac{x\sqrt{x+3}}{5}$ has no $x$ in the denominat
 > [!abstract] Algebra Takeaway
 > Think of a function's domain like "skeletons in the closet" [00:00:36]. You cannot simplify away a domain restriction. When adding, subtracting, or multiplying, the domain is simply the overlap of the two originals. When dividing, you must also check if the *entire* denominator function equals zero at any point and exclude those values as well.
 
+### Operations of Functions: Addition Example
+
+When performing operations on rational functions, you must handle the algebraic combining of terms while strictly maintaining the domain restrictions from the original functions.
+
+---
+
+#### 1. The Functions
+$f(x) = \frac{2x+3}{3x-2}$
+$g(x) = \frac{4x}{3x-2}$
+
+#### 2. Identify Initial Restrictions (Domain)
+Before performing the operation, identify where the individual functions are undefined. Both $f(x)$ and $g(x)$ have the same denominator:
+$$3x - 2 \neq 0$$
+$$3x \neq 2$$
+$$x \neq \frac{2}{3}$$
+**Initial Domain:** $\{x \mid x \in \mathbb{R}, x \neq \frac{2}{3}\}$
+
+#### 3. Perform the Operation $(f + g)(x)$
+Since the denominators are common, you can add the numerators directly:
+$$(f + g)(x) = \frac{(2x + 3) + (4x)}{3x - 2}$$
+$$(f + g)(x) = \frac{6x + 3}{3x - 2}$$
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The "Persistence of Restrictions"
+> Even if the numerator and denominator had a common factor that could be canceled (e.g., if the numerator simplified to $3x-2$), the restriction $x \neq \frac{2}{3}$ would **still exist** as a "hole" in the graph. In your Obsidian notes, always record the domain based on the unsimplified parts.
+
+#### 1. Common Denominator Necessity
+If the denominators were different, you would need to find a Least Common Denominator (LCD) before adding. This often introduces **new** variables into the numerator, increasing the complexity of the final expression.
+
+#### 2. The Intersection Rule
+The domain of $(f + g)$ is the **intersection** of the domains of $f$ and $g$. 
+* If $f$ is "broken" at $x=A$.
+* If $g$ is "broken" at $x=B$.
+* Then $(f+g)$ is "broken" at **both** $x=A$ and $x=B$.
+
+#### 3. Factoring for Simplification
+Always check if the final numerator can be factored. In this result, $6x + 3$ can be factored into $3(2x + 1)$.
+$$(f + g)(x) = \frac{3(2x + 1)}{3x - 2}$$
+While this doesn't cancel with the denominator here, it is a standard step in verification to ensure no further simplification is possible.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Addition of functions is straightforward when denominators match, but the "hidden" part of the problem is always the domain. In your final result, the vertical asymptote remains at $x = \frac{2}{3}$, just as it was in the original two functions.
+
