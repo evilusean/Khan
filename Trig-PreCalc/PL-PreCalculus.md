@@ -429,14 +429,12 @@ https://www.youtube.com/watch?v=7N_-G4usp6Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 When performing operations like addition, subtraction, multiplication, or division on two functions, the most critical factor is the **domain**. A common mistake is to only look at the final simplified result; however, a function always carries the "baggage" of its original domain restrictions.
 
 ---
-
 #### 1. The "Pessimistic" Rule of Domain
 The domain of a resulting function is the **intersection** (the overlap) of the domains of the original functions.
 * **The Principle:** If a number was "bad" for one of the starting functions, it remains "bad" for the result, even if it looks like the problem was "canceled out" algebraically [00:01:15].
 * **Workflow:** Always find the individual domains of $f(x)$ and $g(x)$ **first** before performing any operations [00:01:40].
 
 ---
-
 #### 2. Basic Operations
 Given two functions $f(x)$ and $g(x)$:
 * **Addition:** $(f + g)(x) = f(x) + g(x)$
@@ -445,14 +443,12 @@ Given two functions $f(x)$ and $g(x)$:
 * **Division:** $(f / g)(x) = \frac{f(x)}{g(x)}$
 
 ---
-
 #### 3. Dividing Functions: Hidden Restrictions
 Division is the only operation that can create **new** domain problems. 
 * **The New Constraint:** In $(f/g)(x)$, not only must you follow the original restrictions for $f$ and $g$, but you must also ensure $g(x) \neq 0$ [00:10:45].
 * **The "Vanishing" Denominator:** If you multiply by a reciprocal and a denominator cancels out, the restriction at that point **must still be recorded** in your final domain [00:12:38].
 
 ---
-
 #### Step-by-Step Example: $f(x) = \sqrt{x+3}$ and $g(x) = \frac{5}{x}$
 
 **Step 1: Find Initial Domains**
