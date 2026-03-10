@@ -613,3 +613,55 @@ Always check if the resulting numerator can be factored to cancel out part of th
 > [!abstract] Algebra Takeaway
 > Unlike addition and subtraction, multiplication does not require a common denominator. However, it often results in higher-degree polynomials (like $x^2$) in both the top and bottom. In your Obsidian vault, note that for multiplication, the domain restrictions of the original functions are strictly inherited.
 
+### Operations of Functions: Division Example
+
+Division is the most complex operation because it introduces an additional layer of domain restrictions. You must account for the original restrictions of $f$ and $g$, as well as any new restrictions created by $g$ moving into the denominator.
+
+---
+
+#### 1. The Functions
+$f(x) = \frac{2x+3}{3x-2}$
+$g(x) = \frac{4x}{3x-2}$
+
+#### 2. Identify Initial Restrictions (The "Pessimistic" Domain)
+Before calculating, look at the individual functions:
+* Both $f(x)$ and $g(x)$ are undefined when $3x - 2 = 0$.
+* **Constraint 1:** $x \neq \frac{2}{3}$
+
+#### 3. Perform the Operation $(f / g)(x)$
+To divide fractions, multiply the first fraction by the **reciprocal** of the second:
+$$(f / g)(x) = \frac{2x+3}{3x-2} \div \frac{4x}{3x-2}$$
+$$(f / g)(x) = \frac{2x+3}{3x-2} \cdot \frac{3x-2}{4x}$$
+
+#### 4. Simplify and Identify New Restrictions
+Notice that $(3x-2)$ appears in both the numerator and denominator, allowing them to cancel. However, a **new** term, $4x$, is now in the denominator.
+* **Constraint 2:** $4x \neq 0 \Rightarrow x \neq 0$
+
+**Final Simplified Result:**
+$$(f / g)(x) = \frac{2x+3}{4x}$$
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The "Vanishing Denominator" Trap
+> This is the most common mistake in precalculus. Even though $(3x-2)$ canceled out algebraically, the restriction $x \neq \frac{2}{3}$ **does not disappear**. In a graph, this would be a "hole," while the $x=0$ would be a vertical asymptote.
+
+#### 1. The Three-Point Domain Check
+When dividing functions $f/g$, you must exclude:
+1.  Any values that make the denominator of $f$ zero.
+2.  Any values that make the denominator of $g$ zero.
+3.  Any values that make the **entire function** $g$ equal to zero (because $g$ is now the divisor).
+
+#### 2. Reciprocal Multiplication
+Always write out the step where you flip the second fraction. This helps you visually identify which terms were originally in a denominator and which terms moved there during the operation.
+
+#### 3. Domain Intersection vs. Final Result
+The domain of $(f/g)(x)$ is strictly the overlap of the original domains **plus** the new restriction. 
+* **Final Domain:** $\{x \mid x \in \mathbb{R}, x \neq \frac{2}{3}, x \neq 0\}$
+* **Interval Notation:** $(-\infty, 0) \cup (0, \frac{2}{3}) \cup (\frac{2}{3}, \infty)$
+
+---
+
+> [!abstract] Algebra Takeaway
+> Division is "picky." You have to respect the "bad" numbers from the start of the problem and the "bad" numbers created during the flip. In your Obsidian vault, mark division as the only operation that can change the domain beyond just a simple intersection of the two starting sets.
