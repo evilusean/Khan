@@ -799,3 +799,4 @@ The Vertical Line Test (VLT) is a graphical method used to determine if a relati
 > Use the Vertical Line Test as a quick visual "sanity check" whenever you are graphing, especially with **Piecewise Functions**. If your graph overlaps vertically at any point, you have accidentally created a non-function relationship [00:11:31].
 
 ## 2026-March-11 - Features of Graphs, Domain, Range (Precalculus - College Algebra 7) :
+https://www.youtube.com/watch?v=d3b-4Zz65ZE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=8
