@@ -800,3 +800,62 @@ The Vertical Line Test (VLT) is a graphical method used to determine if a relati
 
 ## 2026-March-11 - Features of Graphs, Domain, Range (Precalculus - College Algebra 7) :
 https://www.youtube.com/watch?v=d3b-4Zz65ZE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=8
+### Features of Graphs, Domain, Range
+
+Analyzing a graph involves understanding the relationship between inputs ($x$) and outputs ($f(x)$ or $y$). Every point on a graph is simply a completed pair $(x, f(x))$ that satisfies the function's equation [00:01:01].
+
+---
+
+#### 1. Evaluating Points Graphically
+* **Given an Input:** To find $f(0)$, go to $x=0$ on the horizontal axis and find the corresponding $y$-value on the graph [00:01:44].
+* **Given an Output:** To find $x$ when $f(x) = 2$, look at the height of $y=2$ and find which $x$-values hit the graph at that level [00:24:00].
+* **Positive vs. Negative:** $f(x) > 0$ means the graph is **above** the $x$-axis. $f(x) < 0$ means it is **below** the $x$-axis [00:03:46].
+
+---
+
+#### 2. Domain (The $x$-axis Interval)
+The **Domain** is the section of the $x$-axis that the graph "covers" from left to right [00:17:06].
+* **Visualizing:** Imagine squashing the graph onto the $x$-axis. The resulting line is your domain [00:36:03].
+* **Arrows:** If the graph has arrows pointing left and right, the domain is often $(-\infty, \infty)$ [00:29:22].
+* **Open Circles:** An open circle at an endpoint means that specific $x$-value is **excluded** (use parentheses) [00:32:00].
+
+---
+
+#### 3. Range (The $y$-axis Interval)
+The **Range** is the section of the $y$-axis that the graph "covers" from bottom to top [00:19:34].
+* **Visualizing:** Squash the graph onto the $y$-axis. Look for the lowest point (minimum) and the highest point (maximum) [00:20:36].
+* **Asymptotes:** If a graph approaches a horizontal line but never touches it, that value is excluded from the range [00:31:06].
+
+---
+
+#### 4. Intercepts
+* **$x$-intercepts:** Points where the graph crosses the $x$-axis (where $f(x) = 0$). A function can have many $x$-intercepts [00:06:51].
+* **$y$-intercept:** Point where the graph crosses the $y$-axis (where $x = 0$). A function can have at most **one** $y$-intercept to pass the Vertical Line Test [00:22:47].
+
+---
+
+#### 5. Solving Algebraically (Without a Graph)
+If you are given an equation like $f(x) = \frac{x+2}{x-6}$:
+* **Find the Domain:** Set the denominator $\neq 0$. Here, $x \neq 6$ [00:44:06].
+* **Find $x$-intercepts:** Set the **numerator** equal to zero ($x+2 = 0 \Rightarrow x = -2$) [00:46:27].
+* **Find $y$-intercepts:** Plug in $0$ for $x$ and solve for $y$ ($f(0) = \frac{0+2}{0-6} = -\frac{1}{3}$) [00:47:11].
+* **Find $x$ for a specific output:** If $f(x) = 2$, set the entire equation equal to $2$ and solve for $x$ ($2 = \frac{x+2}{x-6}$) [00:40:18].
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!warning] Brackets vs. Parentheses
+> * Use **Brackets $[ ]$** when a point is "closed" (filled in) or the graph explicitly reaches that value [00:18:57].
+> * Use **Parentheses $( )$** for open circles, asymptotes, or infinities [00:12:23].
+
+> [!warning] Intercept Confusion
+> Do not confuse $f(0)$ with $f(x)=0$. 
+> * $f(0)$ is the **$y$-intercept** (plug in 0). 
+> * $f(x)=0$ are the **$x$-intercepts** (solve for 0) [00:05:34].
+
+---
+
+> [!abstract] Algebra Takeaway
+> Domain and Range are one-dimensional descriptions of a two-dimensional shape. Domain only looks at "left-to-right," while Range only looks at "down-to-up" [00:20:39]. Always check for open circles or asymptotes that might "break" your intervals.
+
