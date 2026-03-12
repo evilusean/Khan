@@ -854,3 +854,4 @@ If you are given an equation like $f(x) = \frac{x+2}{x-6}$:
 > Domain and Range are one-dimensional descriptions of a two-dimensional shape. Domain only looks at "left-to-right," while Range only looks at "down-to-up" [00:20:39]. Always check for open circles or asymptotes that might "break" your intervals.
 
 ## 2026-March-12 - Properties of Functions - Even vs Odd (Precalculus - College Algebra 8) :
+https://www.youtube.com/watch?v=6897XAx3O9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=9
