@@ -856,7 +856,12 @@ If you are given an equation like $f(x) = \frac{x+2}{x-6}$:
 ## 2026-March-13 - Properties of Functions - Even vs Odd (Precalculus - College Algebra 8) :
 https://www.youtube.com/watch?v=6897XAx3O9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=9
 - **Even Function** = Symmetric about *Y-Axis*
-- **Odd Function** = Summetric about *Origin*
+- **Odd Function** = Summetric about *Origin* - Need to rotate 180 degrees 
+- **Neither** = No Symmetry - Featureless
+- Why is this important? Graphing Polynomials/Rational Functions - Graphing Even Vs Odd tells you alot about how they look and behave
+- Sometimes you don't have a graph to look at, methods to distinguish each type below :
+- $f(x) = f(-x)$  : **Even** functions the outputs are the same when you plug in opposite inputs (IE : 4, -4 would give the same result) 
+- $-f(x) = f(-x)$ : **Odd** Functions the outputs are opposite when you plug in opposite inputs - Opposite inputs = Opposite Outputs
 - 
 ### Properties of Functions: Even vs. Odd
 
