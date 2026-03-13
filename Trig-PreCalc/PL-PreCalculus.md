@@ -862,7 +862,7 @@ https://www.youtube.com/watch?v=6897XAx3O9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 - Sometimes you don't have a graph to look at, methods to distinguish each type below :
 - $f(x) = f(-x)$  : **Even** functions the outputs are the same when you plug in opposite inputs (IE : 4, -4 would give the same result) 
 - $-f(x) = f(-x)$ : **Odd** Functions the outputs are opposite when you plug in opposite inputs - Opposite inputs = Opposite Outputs
-- 
+- **Odd powers** like $x^1 x^3 x^5...$ etc will always change the power sign when you $f(-x)$ while **Even Powers** like $x^2 x^4 x^6 ...$ etc will always stay the same even when you input $f(-x)$ = A quick way to check if something is an even or odd function through polynomials - constants won't change though and won't give you the opposite answer and become **Neither** 
 ### Properties of Functions: Even vs. Odd
 
 A common misconception is that "even" or "odd" refers solely to the exponents in a polynomial. While related, the mathematical definition is actually based on how a function handles **opposite inputs** ($x$ and $-x$) [00:00:52].
@@ -1029,3 +1029,47 @@ Because this function is neither, it lacks the specific symmetries needed for a 
 
 > [!abstract] Algebra Takeaway
 > For a polynomial to be **Odd**, every single term (including constants) must have an odd exponent. Since a constant is an even-powered term ($x^0$), its presence in an otherwise odd polynomial immediately results in a classification of **Neither**.
+
+### Determining Symmetry for $f(x) = \frac{x^2 + 3}{x^2 - 1}$
+
+To determine if the function is even, odd, or neither, we apply the algebraic test by substituting $(-x)$ for every $x$ and simplifying the result.
+
+---
+
+#### The Algebraic Test
+**1. Substitute $(-x)$ into the function:**
+$$f(-x) = \frac{(-x)^2 + 3}{(-x)^2 - 1}$$
+
+**2. Simplify the terms:**
+* In the numerator, $(-x)^2 = x^2$ because an even power eliminates the negative sign.
+* In the denominator, $(-x)^2 = x^2$ for the same reason.
+
+So, the expression becomes:
+$$f(-x) = \frac{x^2 + 3}{x^2 - 1}$$
+
+**3. Compare to the original function:**
+* The simplified result $\frac{x^2 + 3}{x^2 - 1}$ is **exactly the same** as the original $f(x)$.
+
+---
+
+#### Final Classification
+Since **$f(-x) = f(x)$**, this is an **Even Function**.
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The Rational Symmetry Rule
+> For a rational function (a fraction of polynomials), you can check the symmetry of the numerator and denominator separately:
+> * **Numerator ($x^2 + 3$):** All even powers ($x^2$ and constant $x^0$). This is an **Even** expression.
+> * **Denominator ($x^2 - 1$):** All even powers ($x^2$ and constant $x^0$). This is an **Even** expression.
+> * **The Rule:** An **Even** divided by an **Even** always results in an **Even** function.
+
+#### Graphical Meaning: Y-Axis Symmetry
+Because this function is even, the graph is a mirror image across the **y-axis**. This function has vertical asymptotes at $x = 1$ and $x = -1$. Because of the even symmetry, the behavior of the graph near $x = 1$ will be perfectly mirrored near $x = -1$.
+
+---
+
+> [!abstract] Algebra Takeaway
+> In your Obsidian vault, note that "Even / Even = Even" and "Odd / Odd = Even". Only when you have a "mismatch" (one even and one odd) do you end up with an **Odd** function. If either the top or the bottom is "Neither," the entire function will be **Neither**.
+
