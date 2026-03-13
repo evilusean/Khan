@@ -858,3 +858,50 @@ https://www.youtube.com/watch?v=6897XAx3O9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 - **Even Function** = Symmetric about *Y-Axis*
 - **Odd Function** = Summetric about *Origin*
 - 
+### Properties of Functions: Even vs. Odd
+
+A common misconception is that "even" or "odd" refers solely to the exponents in a polynomial. While related, the mathematical definition is actually based on how a function handles **opposite inputs** ($x$ and $-x$) [00:00:52].
+
+---
+
+#### 1. Even Functions (Y-Axis Symmetry)
+A function is **even** if plugging in an opposite input results in the exact same output [00:10:02].
+* **Algebraic Definition:** $f(-x) = f(x)$ [00:11:00].
+* **Graphical Feature:** Symmetric about the **y-axis**. If you fold the graph along the y-axis, the two sides match perfectly [00:01:22].
+* **Example:** $f(x) = x^4 + x^2 + 5$. Plugging in $-x$ gives $(-x)^4 + (-x)^2 + 5$, which simplifies back to $x^4 + x^2 + 5$ [00:18:05].
+
+
+---
+
+#### 2. Odd Functions (Origin Symmetry)
+A function is **odd** if plugging in an opposite input results in an opposite output [00:12:06].
+* **Algebraic Definition:** $f(-x) = -f(x)$ [00:15:02].
+* **Graphical Feature:** Symmetric about the **origin**. If you rotate the graph $180^\circ$ around $(0,0)$, it looks identical. Another way to visualize this is a "double flip"—reflect it over the y-axis, then the x-axis [00:01:58].
+* **Example:** $g(x) = \frac{x}{x^2 - 1}$. Plugging in $-x$ results in $\frac{-x}{(-x)^2 - 1} = -\left(\frac{x}{x^2 - 1}\right)$ [00:19:32].
+
+
+---
+
+#### 3. Neither Even nor Odd
+Many functions have no symmetry at all. 
+* **The "Neither" Case:** If $f(-x)$ does not equal $f(x)$ AND it does not equal $-f(x)$, it is neither [00:22:20].
+* **The Domain Check:** A function cannot be even or odd if its domain is not symmetric. For example, $h(x) = \sqrt{x}$ is neither because negative inputs are not even defined, so you cannot compare $f(x)$ to $f(-x)$ [00:27:17].
+
+---
+
+#### 4. The Algebraic Test Strategy
+To determine if a function is even, odd, or neither without a graph:
+1.  Replace every $x$ with $(-x)$ [00:16:13].
+2.  Simplify the expression:
+    * **Even powers** ($2, 4, 6...$) and absolute values "eat" the negative sign [00:18:20].
+    * **Odd powers** ($1, 3, 5...$) and the sine function preserve the negative sign [00:19:44].
+    * **Constants** never change [00:21:12].
+3.  Compare the result to the original:
+    * Matches original? **Even**.
+    * Every sign is flipped (original with a negative out front)? **Odd**.
+    * Some signs flipped but not all? **Neither**.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Symmetry is a powerful tool for graphing. If you know a function is **even**, you only need to plot half of it and mirror it. If it is **odd**, you know it *must* pass through the origin (if $0$ is in the domain) because $f(0)$ would have to equal $-f(0)$, which only happens at $0$ [00:13:48].
