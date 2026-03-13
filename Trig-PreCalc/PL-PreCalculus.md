@@ -1155,3 +1155,4 @@ The graph of $\sqrt{x}$ starts at the origin $(0,0)$ and shoots off into the fir
 > In your Obsidian vault, note that **Radical Functions** with an even index (square root, fourth root) are almost always **Neither** unless there is an absolute value or an even power inside the radical (e.g., $\sqrt{x^2}$), which would change the domain to $(-\infty, \infty)$.
 
 ## 2026-March-13 - Properties of Functions - Increasing vs Decreasing (Precalculus - College Algebra 9) :
+https://www.youtube.com/watch?v=cIRDvscVPr0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=9
