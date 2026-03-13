@@ -928,7 +928,7 @@ Since **$f(-x) = f(x)$**, this is an **Even Function**.
 
 ---
 
-### ⚠️ What to Look Out For
+#### ⚠️ What to Look Out For
 
 > [!important] The Exponent Shortcut
 > In polynomial functions, if **all** exponents are even (including the "hidden" $x^0$ for constant terms), the function is Even. If **all** exponents are odd, the function is Odd. 
@@ -942,12 +942,11 @@ Because this function is even, its graph is perfectly symmetric across the **y-a
 
 > [!abstract] Algebra Takeaway
 > Always perform the $(-x)$ substitution to be certain. While the exponent shortcut works for polynomials, it does not work for functions involving radicals, absolute values, or trigonometry. For an even function, the negative sign is effectively "eaten" by the even powers.
-### Determining Symmetry for g(x) = \frac{x}{x^2-1}
+### Determining Symmetry for $g(x) = \frac{x}{x^2-1}$
 
 To determine if a function is even, odd, or neither, we evaluate $g(-x)$ and compare the resulting expression to the original $g(x)$.
 
 ---
-
 #### The Algebraic Test
 **1. Substitute $(-x)$ into the function:**
 $$g(-x) = \frac{(-x)}{(-x)^2 - 1}$$
@@ -967,15 +966,11 @@ $$g(-x) = \frac{-x}{x^2 - 1}$$
   This is exactly the negative of the original function.
 
 ---
-
 #### Final Classification
 Since **$g(-x) = -g(x)$**, this is an **Odd Function**.
 
-
-
 ---
-
-### ⚠️ What to Look Out For
+#### ⚠️ What to Look Out For
 
 > [!important] Symmetry of Components
 > This function is a fraction. In rational functions, you can often predict symmetry by looking at the "parity" of the top and bottom:
@@ -991,3 +986,46 @@ Because this function is odd, it has **rotational symmetry** around the origin $
 > [!abstract] Algebra Takeaway
 > For rational functions, the negative sign from the $(-x)$ substitution in the numerator can be pulled out to the front of the entire fraction. If the denominator remains unchanged (which happens if it only contains even powers and constants), the whole function effectively flips its sign, confirming it is odd.
 
+### Determining Symmetry for h(x) = 3x³ + 5
+
+To determine if a function is even, odd, or neither, we evaluate $h(-x)$ and compare the result to both the original $h(x)$ and its negative version $-h(x)$.
+
+---
+
+#### The Algebraic Test
+**1. Substitute $(-x)$ into the function:**
+$$h(-x) = 3(-x)^3 + 5$$
+
+**2. Simplify the terms:**
+* $(-x)^3 = -x^3$ (A negative number raised to an **odd** power remains negative).
+* The constant $+5$ remains unchanged.
+
+So, the expression becomes:
+$$h(-x) = -3x^3 + 5$$
+
+**3. Compare to the original $h(x)$:**
+* **Is it Even?** No. $-3x^3 + 5$ is not the same as $3x^3 + 5$.
+* **Is it Odd?** To be odd, every single sign must flip ($h(-x)$ would need to equal $-3x^3 - 5$).
+* **Check:** Our result has a flipped sign for the $x^3$ term, but the constant $+5$ stayed the same.
+
+---
+#### Final Classification
+Since $h(-x)$ is neither the same as the original function nor the exact negative of the original function, this is a **Neither Function**.
+
+---
+#### ⚠️ What to Look Out For
+
+> [!important] The "Constant" Spoiler
+> In polynomials, a constant term (like $+5$) is technically $5x^0$. Since $0$ is an even number, a constant acts as an **even** component. 
+> * If you add a constant to an **odd** function (like $3x^3$), the symmetry is broken.
+> * The $3x^3$ term wants origin symmetry, but the $+5$ shifts the graph up, moving the "center" of the symmetry away from the origin $(0,0)$.
+
+#### Graphical Meaning
+Because this function is neither, it lacks the specific symmetries needed for a classification:
+* It is not mirrored across the y-axis (Not Even).
+* It cannot be rotated $180^\circ$ around the origin to land on itself (Not Odd).
+
+---
+
+> [!abstract] Algebra Takeaway
+> For a polynomial to be **Odd**, every single term (including constants) must have an odd exponent. Since a constant is an even-powered term ($x^0$), its presence in an otherwise odd polynomial immediately results in a classification of **Neither**.
