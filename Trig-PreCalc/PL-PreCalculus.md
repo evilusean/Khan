@@ -942,3 +942,52 @@ Because this function is even, its graph is perfectly symmetric across the **y-a
 
 > [!abstract] Algebra Takeaway
 > Always perform the $(-x)$ substitution to be certain. While the exponent shortcut works for polynomials, it does not work for functions involving radicals, absolute values, or trigonometry. For an even function, the negative sign is effectively "eaten" by the even powers.
+### Determining Symmetry for g(x) = \frac{x}{x^2-1}
+
+To determine if a function is even, odd, or neither, we evaluate $g(-x)$ and compare the resulting expression to the original $g(x)$.
+
+---
+
+#### The Algebraic Test
+**1. Substitute $(-x)$ into the function:**
+$$g(-x) = \frac{(-x)}{(-x)^2 - 1}$$
+
+**2. Simplify the terms:**
+* The numerator is simply $-x$.
+* The denominator has $(-x)^2$, which simplifies to $x^2$ because the even exponent "eats" the negative sign.
+
+So, the expression becomes:
+$$g(-x) = \frac{-x}{x^2 - 1}$$
+
+**3. Compare to the original function:**
+* **Is it Even?** No. $g(-x)$ is not the same as $\frac{x}{x^2 - 1}$.
+* **Is it Odd?** Let's check if $g(-x) = -g(x)$. 
+  If we factor the negative out of the numerator, we get:
+  $$g(-x) = -\left( \frac{x}{x^2 - 1} \right)$$
+  This is exactly the negative of the original function.
+
+---
+
+#### Final Classification
+Since **$g(-x) = -g(x)$**, this is an **Odd Function**.
+
+
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] Symmetry of Components
+> This function is a fraction. In rational functions, you can often predict symmetry by looking at the "parity" of the top and bottom:
+> * **Numerator ($x$):** Odd power ($x^1$).
+> * **Denominator ($x^2 - 1$):** Even powers ($x^2$ and the constant $x^0$).
+> * **The Rule:** An **Odd** divided by an **Even** (or vice versa) results in an **Odd** function. If both were the same (Even/Even or Odd/Odd), the result would be **Even**.
+
+#### Graphical Meaning: Origin Symmetry
+Because this function is odd, it has **rotational symmetry** around the origin $(0,0)$. If you rotate the graph $180^\circ$, it will land perfectly on itself. This means that if the point $(2, \frac{2}{3})$ is on the graph, the point $(-2, -\frac{2}{3})$ must also be on the graph.
+
+---
+
+> [!abstract] Algebra Takeaway
+> For rational functions, the negative sign from the $(-x)$ substitution in the numerator can be pulled out to the front of the entire fraction. If the denominator remains unchanged (which happens if it only contains even powers and constants), the whole function effectively flips its sign, confirming it is odd.
+
