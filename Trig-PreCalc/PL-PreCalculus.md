@@ -855,3 +855,6 @@ If you are given an equation like $f(x) = \frac{x+2}{x-6}$:
 
 ## 2026-March-13 - Properties of Functions - Even vs Odd (Precalculus - College Algebra 8) :
 https://www.youtube.com/watch?v=6897XAx3O9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=9
+- **Even Function** = Symmetric about *Y-Axis*
+- **Odd Function** = Summetric about *Origin*
+- 
