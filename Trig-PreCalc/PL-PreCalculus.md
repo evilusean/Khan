@@ -863,7 +863,6 @@ https://www.youtube.com/watch?v=6897XAx3O9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 A common misconception is that "even" or "odd" refers solely to the exponents in a polynomial. While related, the mathematical definition is actually based on how a function handles **opposite inputs** ($x$ and $-x$) [00:00:52].
 
 ---
-
 #### 1. Even Functions (Y-Axis Symmetry)
 A function is **even** if plugging in an opposite input results in the exact same output [00:10:02].
 * **Algebraic Definition:** $f(-x) = f(x)$ [00:11:00].
