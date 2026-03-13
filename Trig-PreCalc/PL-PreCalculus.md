@@ -1101,7 +1101,6 @@ $$h(-x) = \frac{x^3}{3x^2 - 9}$$
 Since **$h(-x) = -h(x)$**, this is an **Odd Function**.
 
 ---
-
 #### ⚠️ What to Look Out For
 
 > [!important] The Parity Shortcut
@@ -1117,3 +1116,40 @@ Because this is an odd function, the graph has **rotational symmetry** around th
 
 > [!abstract] Algebra Takeaway
 > In rational functions, a single negative sign in the numerator can be thought of as a "toggle." When you plug in $(-x)$, the numerator's sign flips while the denominator stays the same. This results in the entire function's sign flipping, which is the definition of an odd function.
+
+### Determining Symmetry for g(x) = \sqrt{x}
+
+To determine if a function is even, odd, or neither, we evaluate $g(-x)$ and compare it to $g(x)$. However, for radical functions, the first step should always be checking the **domain**.
+
+---
+#### 1. The Domain Check
+The square root function $g(x) = \sqrt{x}$ is only defined for $x \ge 0$.
+* **The Restriction:** Negative numbers are not in the domain of this function.
+* **The Requirement for Symmetry:** To be even or odd, a function must have a **symmetric domain**. This means if you can plug in $x$, you must also be able to plug in $-x$ [00:27:17].
+
+Since we cannot plug in $-5$ if we plug in $5$, the function cannot possibly be even or odd.
+
+---
+#### 2. The Algebraic Test
+Even if we ignore the domain and try to plug in $(-x)$:
+$$g(-x) = \sqrt{-x}$$
+* **Is it Even?** No. $\sqrt{-x}$ is not the same as $\sqrt{x}$.
+* **Is it Odd?** No. $\sqrt{-x}$ is not the same as $-\sqrt{x}$.
+
+---
+#### Final Classification
+Because the function is not defined for negative $x$-values, it lacks the necessary inputs to be compared. Therefore, $g(x) = \sqrt{x}$ is a **Neither Function**.
+
+---
+### ⚠️ What to Look Out For
+
+> [!important] The "Symmetric Domain" Rule
+> Always check the domain first. If a function only exists on one side of the y-axis (like $\sqrt{x}$ or $\ln(x)$), it is automatically **Neither**. Symmetry requires a "mirror image" partner for every point, and if the $x$-values don't exist on both sides, the mirror image can't exist.
+
+#### Graphical Meaning
+The graph of $\sqrt{x}$ starts at the origin $(0,0)$ and shoots off into the first quadrant. There is absolutely nothing in the second or third quadrants to "match" it, so there is no y-axis symmetry (Even) or origin symmetry (Odd).
+
+---
+
+> [!abstract] Algebra Takeaway
+> In your Obsidian vault, note that **Radical Functions** with an even index (square root, fourth root) are almost always **Neither** unless there is an absolute value or an even power inside the radical (e.g., $\sqrt{x^2}$), which would change the domain to $(-\infty, \infty)$.
