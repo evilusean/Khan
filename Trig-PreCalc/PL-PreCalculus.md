@@ -902,3 +902,43 @@ To determine if a function is even, odd, or neither without a graph:
 ---
 > [!abstract] Algebra Takeaway
 > Symmetry is a powerful tool for graphing. If you know a function is **even**, you only need to plot half of it and mirror it. If it is **odd**, you know it *must* pass through the origin (if $0$ is in the domain) because $f(0)$ would have to equal $-f(0)$, which only happens at $0$ [00:13:48].
+### Determining Symmetry for f(x) = 2x⁴ - x²
+
+To determine if a function is even, odd, or neither, we apply the **Algebraic Test for Symmetry** by replacing every $x$ with $(-x)$ and simplifying.
+
+---
+#### The Algebraic Test
+**1. Substitute $(-x)$ into the function:**
+$$f(-x) = 2(-x)^4 - (-x)^2$$
+
+**2. Simplify the terms:**
+* $(-x)^4 = x^4$ (Any negative number raised to an **even** power becomes positive).
+* $(-x)^2 = x^2$ (Similarly, this even power results in a positive).
+
+So, the equation becomes:
+$$f(-x) = 2(x^4) - (x^2)$$
+$$f(-x) = 2x^4 - x^2$$
+
+**3. Compare to the original function:**
+* The simplified result $2x^4 - x^2$ is **exactly the same** as the original $f(x)$.
+
+---
+#### Final Classification
+Since **$f(-x) = f(x)$**, this is an **Even Function**.
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The Exponent Shortcut
+> In polynomial functions, if **all** exponents are even (including the "hidden" $x^0$ for constant terms), the function is Even. If **all** exponents are odd, the function is Odd. 
+> * Here, $4$ and $2$ are both even, which confirms our algebraic result.
+> * If the function was $f(x) = 2x^4 - x^2 + 5x$, the $x^1$ term would break the symmetry, making it **Neither**.
+
+#### Graphical Meaning: Y-Axis Symmetry
+Because this function is even, its graph is perfectly symmetric across the **y-axis**. If you were to calculate the point $(2, 28)$, you automatically know that the point $(-2, 28)$ also exists on the graph.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Always perform the $(-x)$ substitution to be certain. While the exponent shortcut works for polynomials, it does not work for functions involving radicals, absolute values, or trigonometry. For an even function, the negative sign is effectively "eaten" by the even powers.
