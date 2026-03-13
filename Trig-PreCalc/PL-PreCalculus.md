@@ -1156,3 +1156,46 @@ The graph of $\sqrt{x}$ starts at the origin $(0,0)$ and shoots off into the fir
 
 ## 2026-March-13 - Properties of Functions - Increasing vs Decreasing (Precalculus - College Algebra 9) :
 https://www.youtube.com/watch?v=cIRDvscVPr0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=9
+### Properties of Functions: Increasing vs. Decreasing
+
+Understanding where a function increases or decreases is essential for identifying "peaks" (maximums) and "troughs" (minimums) in a graph. These properties describe the behavior of the output ($y$) as the input ($x$) moves from left to right [00:00:13].
+
+---
+#### 1. Core Definitions
+* **Increasing:** As you move from **left to right** along the x-axis, the graph climbs upward. Algebraically, as $x$ gets larger, the output $f(x)$ also gets larger [00:01:24].
+* **Decreasing:** As you move from **left to right**, the graph falls downward. Algebraically, as $x$ gets larger, the output $f(x)$ gets smaller [00:01:45].
+* **Constant:** The graph is a horizontal line; the output remains the same as $x$ increases [00:07:54].
+
+
+---
+#### 2. The "Two-Hand" Method for Intervals
+To correctly identify these intervals, use this technique:
+* **Right Hand:** Trace the actual curve of the graph.
+* **Left Hand:** Mark the corresponding section on the **x-axis** [00:04:43].
+* **The Goal:** You are describing **where on the x-axis** the behavior is happening, not how high or low the graph goes [00:03:30].
+
+---
+#### 3. Strict Rules for Notation
+> [!important] Always Use Open Intervals
+> When writing intervals for increasing or decreasing behavior, **never use brackets $[ ]$**. Always use **parentheses $( )$** [00:01:51].
+> * **Reasoning:** At the exact "turning point" (the peak or trough), the graph is neither increasing nor decreasing—it is momentarily flat. Since you can't be "climbing" at a single stagnant point, endpoints are excluded [00:05:33].
+
+---
+#### 4. Examples & Scenarios
+* **Polynomials/Wavy Graphs:** These often switch between behaviors. For example, a graph might be increasing on $(-2, 0)$ and $(2, 4)$, and decreasing on $(-4, -2)$ and $(0, 2)$ [00:05:15].
+* **Infinite Behavior (Arrows):** If a graph is falling and has an arrow pointing to the left, it is decreasing from $(-\infty, \text{point})$. If it climbs and has an arrow pointing right, it is increasing to $(\text{point}, \infty)$ [00:10:03].
+* **Logarithmic/Square Root Styles:** A graph like $\sqrt{x}$ only exists for $x \ge 0$. It increases over its entire domain: $(0, \infty)$ [00:14:01].
+
+---
+### ⚠️ What to Look Out For
+
+> [!warning] The "Y-Axis" Trap
+> A common mistake is to list the $y$-values (the height) in the interval. **Increasing/Decreasing intervals are always x-axis values.** If a graph climbs from a height of $-5$ to $10$ between $x=1$ and $x=3$, the interval is $(1, 3)$, NOT $(-5, 10)$ [00:14:24].
+
+> [!warning] Reading the "Wrong" Way
+> Always read the graph from **left to right**. An arrow pointing down and to the left might *look* like it's increasing if you follow it toward the origin, but as you move left-to-right, that section is actually falling (decreasing) [00:09:33].
+
+---
+
+> [!abstract] Algebra Takeaway
+> Increasing and decreasing intervals tell you the "story" of the graph's movement. In your Obsidian vault, note that these intervals are the foundation for finding **Relative Extrema** (the next topic), as a maximum only occurs where a function switches from increasing to decreasing [00:14:50].
