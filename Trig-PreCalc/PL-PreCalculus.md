@@ -1057,7 +1057,7 @@ Since **$f(-x) = f(x)$**, this is an **Even Function**.
 
 ---
 
-### ⚠️ What to Look Out For
+#### ⚠️ What to Look Out For
 
 > [!important] The Rational Symmetry Rule
 > For a rational function (a fraction of polynomials), you can check the symmetry of the numerator and denominator separately:
@@ -1073,3 +1073,47 @@ Because this function is even, the graph is a mirror image across the **y-axis**
 > [!abstract] Algebra Takeaway
 > In your Obsidian vault, note that "Even / Even = Even" and "Odd / Odd = Even". Only when you have a "mismatch" (one even and one odd) do you end up with an **Odd** function. If either the top or the bottom is "Neither," the entire function will be **Neither**.
 
+### Determining Symmetry for $h(x) = \frac{-x^3}{3x^2 - 9}$
+
+To determine the symmetry of this rational function, we test how it reacts to a negative input by evaluating $h(-x)$.
+
+---
+#### The Algebraic Test
+**1. Substitute $(-x)$ into the function:**
+$$h(-x) = \frac{-(-x)^3}{3(-x)^2 - 9}$$
+
+**2. Simplify the terms:**
+* **Numerator:** $(-x)^3 = -x^3$. Substituting this back gives $-(-x^3)$, which simplifies to **$x^3$**.
+* **Denominator:** $(-x)^2 = x^2$ because the even power "eats" the negative sign. The constant $-9$ remains unchanged.
+
+The expression now looks like this:
+$$h(-x) = \frac{x^3}{3x^2 - 9}$$
+
+**3. Compare to the original $h(x)$:**
+* **Is it Even?** No. $\frac{x^3}{3x^2 - 9}$ is not the same as $\frac{-x^3}{3x^2 - 9}$.
+* **Is it Odd?** Let's check if $h(-x) = -h(x)$. 
+  If we take the original function $h(x) = \frac{-x^3}{3x^2 - 9}$ and multiply it by $-1$, we get:
+  $$-h(x) = -\left( \frac{-x^3}{3x^2 - 9} \right) = \frac{x^3}{3x^2 - 9}$$
+  This matches our result for $h(-x)$ exactly.
+
+---
+#### Final Classification
+Since **$h(-x) = -h(x)$**, this is an **Odd Function**.
+
+---
+
+#### ⚠️ What to Look Out For
+
+> [!important] The Parity Shortcut
+> You can quickly verify this by looking at the "parity" of the numerator and denominator:
+> * **Numerator ($-x^3$):** Only an odd power ($x^3$). This is an **Odd** expression.
+> * **Denominator ($3x^2 - 9$):** All even powers ($x^2$ and the constant $x^0$). This is an **Even** expression.
+> * **The Rule:** An **Odd** divided by an **Even** results in an **Odd** function.
+
+#### Graphical Meaning: Origin Symmetry
+Because this is an odd function, the graph has **rotational symmetry** around the origin $(0,0)$. This function has vertical asymptotes at $x = \sqrt{3}$ and $x = -\sqrt{3}$. If the graph goes "up" toward positive infinity at one asymptote, it will go "down" toward negative infinity at the other in a mirrored, rotated fashion.
+
+---
+
+> [!abstract] Algebra Takeaway
+> In rational functions, a single negative sign in the numerator can be thought of as a "toggle." When you plug in $(-x)$, the numerator's sign flips while the denominator stays the same. This results in the entire function's sign flipping, which is the definition of an odd function.
