@@ -1199,3 +1199,56 @@ To correctly identify these intervals, use this technique:
 > Increasing and decreasing intervals tell you the "story" of the graph's movement. In your Obsidian vault, note that these intervals are the foundation for finding **Relative Extrema** (the next topic), as a maximum only occurs where a function switches from increasing to decreasing [00:14:50].
 ## 2026-March-14 - Properties of Functions - Extrema (Precalculus - College Algebra 10) :
 https://www.youtube.com/watch?v=2hItEGb3KJo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=12
+### Properties of Functions: Extrema (Max/Min)
+
+Analyzing extrema involves identifying the highest and lowest points of a graph. These are categorized into **Local (Relative)** and **Absolute** values.
+
+---
+
+#### 1. Local (Relative) Extrema
+A local maximum or minimum is a high or low point within a "neighborhood" (a small open interval) of the graph [00:00:46].
+* **Local Maximum:** Occurs where a function changes from **increasing to decreasing**. It creates a "peak" [00:02:18].
+* **Local Minimum:** Occurs where a function changes from **decreasing to increasing**. It creates a "trough" [00:03:13].
+* **The Neighborhood Rule:** Local extrema can only exist on an **open interval**. This means **endpoints can never be local extrema** because you cannot check both sides of the point [00:06:53].
+
+
+---
+
+#### 2. Absolute Extrema
+The absolute maximum or minimum is the single highest or lowest value attained by the function over its entire domain [00:04:34].
+* **Absolute Maximum:** The highest $y$-value on the entire graph [00:04:34].
+* **Absolute Minimum:** The lowest $y$-value on the entire graph [00:04:40].
+* **Endpoints:** Unlike local extrema, absolute extrema **can occur at endpoints** [00:06:08].
+
+---
+
+#### 3. The Extreme Value Theorem
+Every **closed, continuous interval** (no gaps, no asymptotes, and including endpoints) is guaranteed to have both an absolute maximum and an absolute minimum [00:05:05].
+* If the interval is open or the function is discontinuous (e.g., has a hole), there may be no absolute maximum or minimum [00:15:14].
+
+---
+
+#### 4. Critical Distinctions
+* **Output vs. Location:** The "maximum" or "minimum" is the **$y$-value** (the output). The $x$-value is merely **where** it occurs [00:01:24].
+    * *Example:* If a peak is at $(2, 4)$, the local maximum is **4** at $x=2$ [00:08:21].
+* **Multiple Occurrences:** A function can have many local maxima/minima (like a roller coaster), and an absolute maximum can occur at multiple $x$-values if they all reach the same highest height [00:25:05].
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The "Hole" Trap
+> If a peak or trough is represented by an open circle (a hole), there is **no local or absolute extremum** at that point. You can get infinitely close to the value, but you never actually reach it, so no maximum exists [00:16:27].
+
+> [!warning] Infinity is Not an Extremum
+> If a graph goes up forever (arrows pointing to $\infty$) or has a vertical asymptote, there is **no absolute maximum**. Infinity is a direction, not a specific value attained by the function [00:19:46].
+
+---
+
+> [!abstract] Algebra Takeaway
+> To find extrema on a graph:
+> 1. Mark every peak and trough as a **Local** max/min (excluding endpoints).
+> 2. Compare all peaks and endpoints to find the single highest point (**Absolute Max**).
+> 3. Compare all troughs and endpoints to find the single lowest point (**Absolute Min**).
+
+[Image comparing absolute and relative extrema on a single graph]
