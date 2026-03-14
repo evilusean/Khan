@@ -1316,13 +1316,10 @@ $$\text{Average ROC} = \frac{12}{2} = 6$$
 **Final Result:** The average rate of change is **6**.
 
 ---
-
 ### ⚠️ What to Look Out For
 
 > [!important] Geometric Interpretation
 > On the graph of $x^2 - 2x$, the curve is actually getting steeper as $x$ increases. The value **6** tells us that, on average, for every 1 unit we move to the right between $x=3$ and $x=5$, the graph rises by 6 units.
-
-
 
 #### 1. Negative Signs in Subtraction
 If your $y$-values were negative, be extremely careful with the "double negative" in the numerator.
