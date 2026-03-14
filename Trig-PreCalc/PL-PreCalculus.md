@@ -1285,3 +1285,57 @@ The average rate of change covers a "gap." In Calculus, this formula is used as 
 > [!abstract] Algebra Takeaway
 > "Average Rate of Change" is simply code for "find the slope." Treat it as a two-point slope problem every time.
 
+### Finding the Average Rate of Change for f(x) = x² - 2x
+
+The Average Rate of Change (ROC) over the interval $[3, 5]$ is the slope of the secant line connecting the points on the graph where $x=3$ and $x=5$.
+
+---
+
+#### 1. The Function and Interval
+* **Function:** $f(x) = x^2 - 2x$
+* **Interval:** $[3, 5]$
+
+#### 2. Find the Coordinate Pairs
+To use the slope formula, we first need the $y$-values (outputs) for our given $x$-values.
+
+**For x = 3:**
+$$f(3) = (3)^2 - 2(3)$$
+$$f(3) = 9 - 6 = 3$$
+*Point 1:* $(3, 3)$
+
+**For x = 5:**
+$$f(5) = (5)^2 - 2(5)$$
+$$f(5) = 25 - 10 = 15$$
+*Point 2:* $(5, 15)$
+
+#### 3. Apply the Average ROC Formula
+$$\text{Average ROC} = \frac{f(5) - f(3)}{5 - 3}$$
+$$\text{Average ROC} = \frac{15 - 3}{5 - 3}$$
+$$\text{Average ROC} = \frac{12}{2} = 6$$
+
+**Final Result:** The average rate of change is **6**.
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] Geometric Interpretation
+> On the graph of $x^2 - 2x$, the curve is actually getting steeper as $x$ increases. The value **6** tells us that, on average, for every 1 unit we move to the right between $x=3$ and $x=5$, the graph rises by 6 units.
+
+
+
+#### 1. Negative Signs in Subtraction
+If your $y$-values were negative, be extremely careful with the "double negative" in the numerator.
+* *Example:* If $f(a) = -4$, the numerator would be $f(b) - (-4)$, which becomes $f(b) + 4$.
+
+#### 2. The "Units" of ROC
+If this function represented physical movement:
+* **$x$** = time in seconds
+* **$f(x)$** = position in meters
+* **ROC (6)** = average velocity in **meters per second**.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Finding the average rate of change is a three-step process: find the two points, find the difference in $y$, and divide by the difference in $x$. It is essentially the Algebra 1 slope formula dressed up in Precalculus notation.
+> 
