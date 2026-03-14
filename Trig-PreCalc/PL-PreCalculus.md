@@ -1252,7 +1252,6 @@ https://www.youtube.com/watch?v=H5Y-ONkezDM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 The **Average Rate of Change** calculates how much a function's output changes relative to its input over a specific interval $[a, b]$. Geometrically, this is the slope of the **secant line** connecting two points on a curve.
 
 ---
-
 #### 1. The Secant Line
 Since you cannot find a single "slope" for a curved line, we use a straight line (secant line) to connect two points $(a, f(a))$ and $(b, f(b))$. The slope of this line represents the average change over that distance.
 
@@ -1270,7 +1269,6 @@ To find the average rate of change for a function $f(x)$ on interval $[a, b]$:
 3.  **Simplify:** The resulting value is the slope of the secant line.
 
 ---
-
 ### ⚠️ What to Look Out For
 
 > [!important] Direction Matters
@@ -1282,10 +1280,8 @@ Ensure that if you start with $f(b)$ in the numerator, you start with $b$ in the
 #### 2. Average vs. Instantaneous
 The average rate of change covers a "gap." In Calculus, this formula is used as the basis for the **Difference Quotient**, which leads to finding the "Instantaneous Rate of Change" (the slope at exactly one point).
 
-[Image showing secant lines approaching a tangent line as the interval shrinks]
-
 ---
 
 > [!abstract] Algebra Takeaway
 > "Average Rate of Change" is simply code for "find the slope." Treat it as a two-point slope problem every time.
-> 
+
