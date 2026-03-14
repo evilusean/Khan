@@ -1246,3 +1246,4 @@ Every **closed, continuous interval** (no gaps, no asymptotes, and including end
 > 3. Compare all troughs and endpoints to find the single lowest point (**Absolute Min**).
 
 ## 2026-March-14 - Average Rate of Change of a Function (Precalculus - College Algebra 11) : 
+https://www.youtube.com/watch?v=H5Y-ONkezDM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=11
