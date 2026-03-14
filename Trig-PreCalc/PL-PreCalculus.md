@@ -1165,8 +1165,6 @@ Understanding where a function increases or decreases is essential for identifyi
 * **Increasing:** As you move from **left to right** along the x-axis, the graph climbs upward. Algebraically, as $x$ gets larger, the output $f(x)$ also gets larger [00:01:24].
 * **Decreasing:** As you move from **left to right**, the graph falls downward. Algebraically, as $x$ gets larger, the output $f(x)$ gets smaller [00:01:45].
 * **Constant:** The graph is a horizontal line; the output remains the same as $x$ increases [00:07:54].
-
-
 ---
 #### 2. The "Two-Hand" Method for Intervals
 To correctly identify these intervals, use this technique:
@@ -1199,3 +1197,4 @@ To correctly identify these intervals, use this technique:
 
 > [!abstract] Algebra Takeaway
 > Increasing and decreasing intervals tell you the "story" of the graph's movement. In your Obsidian vault, note that these intervals are the foundation for finding **Relative Extrema** (the next topic), as a maximum only occurs where a function switches from increasing to decreasing [00:14:50].
+## 2026-March-14 - Properties of Functions - Extrema (Precalculus - College Algebra 10) :
