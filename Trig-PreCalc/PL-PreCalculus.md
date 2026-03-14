@@ -1198,3 +1198,4 @@ To correctly identify these intervals, use this technique:
 > [!abstract] Algebra Takeaway
 > Increasing and decreasing intervals tell you the "story" of the graph's movement. In your Obsidian vault, note that these intervals are the foundation for finding **Relative Extrema** (the next topic), as a maximum only occurs where a function switches from increasing to decreasing [00:14:50].
 ## 2026-March-14 - Properties of Functions - Extrema (Precalculus - College Algebra 10) :
+https://www.youtube.com/watch?v=2hItEGb3KJo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=12
