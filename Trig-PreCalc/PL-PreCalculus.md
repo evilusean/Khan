@@ -1245,3 +1245,4 @@ Every **closed, continuous interval** (no gaps, no asymptotes, and including end
 > 2. Compare all peaks and endpoints to find the single highest point (**Absolute Max**).
 > 3. Compare all troughs and endpoints to find the single lowest point (**Absolute Min**).
 
+## 2026-March-14 - Average Rate of Change of a Function (Precalculus - College Algebra 11) : 
