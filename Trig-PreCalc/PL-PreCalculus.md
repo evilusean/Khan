@@ -1336,4 +1336,4 @@ If this function represented physical movement:
 > Finding the average rate of change is a three-step process: find the two points, find the difference in $y$, and divide by the difference in $x$. It is essentially the Algebra 1 slope formula dressed up in Precalculus notation.
 
 ## 2026-March-15 - How to Graph Piecewise Functions (Precalculus - College Algebra 12) :
-
+https://www.youtube.com/watch?v=KHZKgl_9o7M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=14
