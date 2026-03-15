@@ -1408,3 +1408,39 @@ Evaluating a piecewise function is a process of "logic first, math second." You 
 
 > [!abstract] Algebra Takeaway
 > When $x=1$, you are standing exactly on the "fence." The $\ge$ symbol tells you that the right-side piece (the line) "owns" that specific point. In your Obsidian vault, note that if the pieces didn't meet at the same $y$-value, you would have a **jump discontinuity**.
+
+### Evaluating the Three-Piece Function: f(x)
+
+This function has three distinct rules: a parabola for negative values, a single point at the origin, and a line for positive values.
+
+$$f(x) = \begin{cases} x^2, & x < 0 \\ 2, & x = 0 \\ 2x + 1, & x > 0 \end{cases}$$
+
+---
+
+#### 1. Evaluation Breakdown
+
+| Input ($x$) | Constraint Check | Rule to Use | Calculation | Result |
+| :--- | :--- | :--- | :--- | :--- |
+| **$f(-2)$** | $-2 < 0$ | $x^2$ | $(-2)^2$ | **$4$** |
+| **$f(0)$** | $0 = 0$  | $2$ (Constant) | (None) | **$2$** |
+| **$f(2)$** | $2 > 0$  | $2x + 1$ | $2(2) + 1$ | **$5$** |
+
+---
+
+#### 2. What to Watch Out For
+
+> [!important] The "Removable" Discontinuity (The Hole)
+> As $x$ approaches $0$ from the left ($x^2$), the graph heads toward $y=0$. As it approaches from the right ($2x+1$), it heads toward $y=1$. However, the actual value at $x=0$ is defined as $2$. 
+> * This creates a **double jump**: the graph "breaks" at the boundary and exists as a floating point at $(0, 2)$.
+
+
+
+#### 3. Key Observations for Your Vault
+1.  **The Constant Piece:** When a piece is just a number (like $x=0, y=2$), it appears on the graph as a single **isolated solid dot**.
+2.  **Open Circles:** If you were graphing this, both the $x^2$ piece (at $x=0$) and the $2x+1$ piece (at $x=0$) would require **open circles** because their constraints ($<$ and $>$) do not include zero.
+3.  **The Square of a Negative:** When calculating $f(-2)$, remember that $(-2)^2 = 4$. The negative sign is eliminated. If you were graphing this, the left side of your y-axis would show the left "arm" of a parabola.
+
+---
+
+> [!abstract] Algebra Takeaway
+> This is a classic example of a **discontinuous function**. Because the three pieces do not "link up" at the same y-value at the boundary $x=0$, you would have to lift your pencil twice to draw this. In your Obsidian notes, label this as a "Jump" or "Point" discontinuity.
