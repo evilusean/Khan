@@ -1367,7 +1367,6 @@ To find an output $f(a)$, you must look at the constraints first.
 #### 1. Continuity vs. Discontinuity
 * **Continuous:** The pieces meet perfectly at the boundary. You can draw the whole graph without lifting your pencil.
 * **Discontinuous:** There is a "jump" or a "gap" where one piece ends and another begins at a different height.
-
 #### 2. The Vertical Line Test
 Even though a piecewise function has multiple parts, it must still pass the Vertical Line Test. If you have two solid dots stacked vertically at a boundary, it is **not** a function.
 
