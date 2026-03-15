@@ -1290,7 +1290,6 @@ The average rate of change covers a "gap." In Calculus, this formula is used as 
 The Average Rate of Change (ROC) over the interval $[3, 5]$ is the slope of the secant line connecting the points on the graph where $x=3$ and $x=5$.
 
 ---
-
 #### 1. The Function and Interval
 * **Function:** $f(x) = x^2 - 2x$
 * **Interval:** $[3, 5]$
@@ -1335,4 +1334,6 @@ If this function represented physical movement:
 
 > [!abstract] Algebra Takeaway
 > Finding the average rate of change is a three-step process: find the two points, find the difference in $y$, and divide by the difference in $x$. It is essentially the Algebra 1 slope formula dressed up in Precalculus notation.
-> 
+
+## 2026-March-15 - How to Graph Piecewise Functions (Precalculus - College Algebra 12) :
+
