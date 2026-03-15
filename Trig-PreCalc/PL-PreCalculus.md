@@ -1439,3 +1439,42 @@ $$f(x) = \begin{cases} x^2, & x < 0 \\ 2, & x = 0 \\ 2x + 1, & x > 0 \end{cases}
 
 > [!abstract] Algebra Takeaway
 > This is a classic example of a **discontinuous function**. Because the three pieces do not "link up" at the same y-value at the boundary $x=0$, you would have to lift your pencil twice to draw this. In your Obsidian notes, label this as a "Jump" or "Point" discontinuity.
+
+### Evaluating the Piecewise Function: f(x)
+
+This function consists of two linear pieces with a boundary "hand-off" occurring at $x = -2$.
+
+$$f(x) = \begin{cases} x + 3, & -4 \leq x < -2 \\ -2x - 3, & x \geq -2 \end{cases}$$
+
+---
+
+#### 1. Evaluation Scenarios
+
+| Input ($x$) | Constraint Check | Rule to Use | Calculation | Result |
+| :--- | :--- | :--- | :--- | :--- |
+| **$f(-4)$** | $-4 \leq -4$ (True) | $x + 3$ | $-4 + 3$ | **$-1$** |
+| **$f(-3)$** | $-4 \leq -3 < -2$ | $x + 3$ | $-3 + 3$ | **$0$** |
+| **$f(-2)$** | $-2 \geq -2$ (True) | $-2x - 3$ | $-2(-2) - 3$ | **$1$** |
+| **$f(0)$** | $0 \geq -2$ (True) | $-2x - 3$ | $-2(0) - 3$ | **$-3$** |
+
+---
+
+#### 2. What to Watch Out For
+
+> [!important] The "Endpoint" Behavior
+> This function has a strict starting point at $x = -4$.
+> * **The Start:** At $x = -4$, the graph has a **solid dot** because of the $\leq$ sign.
+> * **The Gap:** At $x = -2$, the first piece ($x+3$) would end at $y=1$ if it could reach it, but it has a $<$ sign, creating an **open circle**. However, the second piece ($-2x-3$) actually starts at $y=1$ ($x=-2$ gives $1$).
+> * **The Result:** Because the second piece "fills in" the hole left by the first piece, the graph is actually **continuous** at the boundary.
+
+
+
+#### 3. Common Errors to Avoid
+1.  **The "Out of Bounds" Error:** If you try to plug in $f(-5)$, the answer is **undefined**. The function does not exist to the left of $x = -4$.
+2.  **Sign Errors with Negatives:** In the second piece, you are multiplying a negative by a negative ($-2 \cdot -2$). Watch out for the common mistake of getting $-4$ instead of $+4$.
+3.  **Boundary Confusion:** It is tempting to use $x+3$ for $x=-2$ because it looks "simpler," but the mathematical instruction is clear: $x=-2$ belongs strictly to the second rule.
+
+---
+
+> [!abstract] Algebra Takeaway
+> When two pieces meet at the same $y$-value (like they do here at $y=1$), the "open circle" from the first piece is covered by the "solid dot" of the second. This creates a **continuous** graph with a sharp turn (a "corner") at $x = -2$.
