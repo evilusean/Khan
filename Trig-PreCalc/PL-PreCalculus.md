@@ -1380,7 +1380,6 @@ Even though a piecewise function has multiple parts, it must still pass the Vert
 Evaluating a piecewise function is a process of "logic first, math second." You must decide which rule applies to your input before performing any calculations.
 
 ---
-
 #### 1. Evaluation Breakdown
 
 | Input ($x$) | Constraint Check | Rule to Use | Calculation | Result |
@@ -1391,15 +1390,12 @@ Evaluating a piecewise function is a process of "logic first, math second." You 
 | **$f(3)$** | $3 \ge 1$ (True) | $3x - 2$ | $3(3) - 2$ | **$7$** |
 
 ---
-
 #### 2. What to Watch Out For
 
 > [!important] The "Boundary" Hand-off
 > At $x = 1$, the function switches from a cubic curve to a linear slope. 
 > * Since the rule for $x \ge 1$ is $3x - 2$, the point $(1, 1)$ is a **closed circle** (solid dot).
 > * If we were to check the "limit" of the first piece ($x^3$) as it approaches 1, it would also equal 1. Because both pieces "meet" at the same $y$-value, this function is **continuous** at the boundary.
-
-
 
 #### 3. Common Errors to Avoid
 1.  **Double-Dipping:** Never plug $x=1$ into both equations. Even if they give the same answer (as they do here), mathematically, the input only belongs to the piece with the "or equal to" ($\ge$) sign.
