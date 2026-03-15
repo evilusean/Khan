@@ -1374,3 +1374,41 @@ Even though a piecewise function has multiple parts, it must still pass the Vert
 
 > [!abstract] Algebra Takeaway
 > Treat each piece as its own mini-problem. The most critical part is correctly identifying whether the endpoint is a solid dot (included) or an open hole (excluded).
+
+### Evaluating the Piecewise Function: f(x) = { x³, x < 1 | 3x - 2, x ≥ 1 }
+
+Evaluating a piecewise function is a process of "logic first, math second." You must decide which rule applies to your input before performing any calculations.
+
+---
+
+#### 1. Evaluation Breakdown
+
+| Input ($x$) | Constraint Check | Rule to Use | Calculation | Result |
+| :--- | :--- | :--- | :--- | :--- |
+| **$f(-1)$** | $-1 < 1$ (True) | $x^3$ | $(-1)^3$ | **$-1$** |
+| **$f(0)$** | $0 < 1$ (True) | $x^3$ | $(0)^3$ | **$0$** |
+| **$f(1)$** | $1 \ge 1$ (True) | $3x - 2$ | $3(1) - 2$ | **$1$** |
+| **$f(3)$** | $3 \ge 1$ (True) | $3x - 2$ | $3(3) - 2$ | **$7$** |
+
+---
+
+#### 2. What to Watch Out For
+
+> [!important] The "Boundary" Hand-off
+> At $x = 1$, the function switches from a cubic curve to a linear slope. 
+> * Since the rule for $x \ge 1$ is $3x - 2$, the point $(1, 1)$ is a **closed circle** (solid dot).
+> * If we were to check the "limit" of the first piece ($x^3$) as it approaches 1, it would also equal 1. Because both pieces "meet" at the same $y$-value, this function is **continuous** at the boundary.
+
+
+
+#### 3. Common Errors to Avoid
+1.  **Double-Dipping:** Never plug $x=1$ into both equations. Even if they give the same answer (as they do here), mathematically, the input only belongs to the piece with the "or equal to" ($\ge$) sign.
+2.  **Misreading the Inequality:** It is easy to see "1" and grab the first equation by default. Always look at the symbol:
+    * $x < 1$: Everything *up to* but not including 1.
+    * $x \ge 1$: Everything *including* 1 and above.
+3.  **The Negative Cube:** When evaluating $f(-1)$, remember that $(-1)^3 = -1$. Odd powers preserve the negative sign, whereas even powers (like $x^2$) would "eat" it.
+
+---
+
+> [!abstract] Algebra Takeaway
+> When $x=1$, you are standing exactly on the "fence." The $\ge$ symbol tells you that the right-side piece (the line) "owns" that specific point. In your Obsidian vault, note that if the pieces didn't meet at the same $y$-value, you would have a **jump discontinuity**.
