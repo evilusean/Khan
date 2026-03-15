@@ -1337,3 +1337,47 @@ If this function represented physical movement:
 
 ## 2026-March-15 - How to Graph Piecewise Functions (Precalculus - College Algebra 12) :
 https://www.youtube.com/watch?v=KHZKgl_9o7M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=14
+### Graphing Piecewise Functions
+
+Piecewise functions are functions defined by different rules (pieces) for different intervals of the domain. Each piece behaves like a standard function but is only "active" on a specific part of the x-axis.
+
+---
+
+#### 1. Understanding the Notation
+A piecewise function is defined by two parts:
+- **The "What":** The expressions (like $x^2$ or $3x-2$) tell you *what* shape to graph.
+- **The "When":** The inequalities (the constraints) tell you *where* on the x-axis to graph that shape.
+
+#### 2. Evaluating Piecewise Functions
+To find an output $f(a)$, you must look at the constraints first.
+* **The "One-Piece" Rule:** Never plug the same value into both pieces. A function must only produce one output.
+* **Boundary Values:** If a value falls exactly on the boundary, use the equation that includes the "or equal to" ($\le$ or $\ge$) sign.
+
+
+
+#### 3. Step-by-Step Graphing
+1.  **Mark Boundaries:** Draw light vertical dashed lines at the $x$-values where the function changes rules. These are your "fences."
+2.  **Plot the Endpoints:**
+    * Plug the boundary value into the equation for that piece.
+    * **$\le$ or $\ge$ (Included):** Use a **closed circle** (solid dot).
+    * **$<$ or $>$ (Excluded):** Use an **open circle** (hole).
+3.  **Fill in the Shape:** Use your knowledge of parent functions (slopes for lines, curves for cubics) to draw the piece only within its allowed section.
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The "Eraser" Method
+> If it’s easier, you can graph the entire function for each piece lightly in pencil, then erase everything that falls outside its specified domain constraint.
+
+#### 1. Continuity vs. Discontinuity
+* **Continuous:** The pieces meet perfectly at the boundary. You can draw the whole graph without lifting your pencil.
+* **Discontinuous:** There is a "jump" or a "gap" where one piece ends and another begins at a different height.
+
+#### 2. The Vertical Line Test
+Even though a piecewise function has multiple parts, it must still pass the Vertical Line Test. If you have two solid dots stacked vertically at a boundary, it is **not** a function.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Treat each piece as its own mini-problem. The most critical part is correctly identifying whether the endpoint is a solid dot (included) or an open hole (excluded).
