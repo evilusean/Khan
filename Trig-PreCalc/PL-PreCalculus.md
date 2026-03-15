@@ -1342,19 +1342,14 @@ https://www.youtube.com/watch?v=KHZKgl_9o7M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Piecewise functions are functions defined by different rules (pieces) for different intervals of the domain. Each piece behaves like a standard function but is only "active" on a specific part of the x-axis.
 
 ---
-
 #### 1. Understanding the Notation
 A piecewise function is defined by two parts:
 - **The "What":** The expressions (like $x^2$ or $3x-2$) tell you *what* shape to graph.
 - **The "When":** The inequalities (the constraints) tell you *where* on the x-axis to graph that shape.
-
 #### 2. Evaluating Piecewise Functions
 To find an output $f(a)$, you must look at the constraints first.
 * **The "One-Piece" Rule:** Never plug the same value into both pieces. A function must only produce one output.
 * **Boundary Values:** If a value falls exactly on the boundary, use the equation that includes the "or equal to" ($\le$ or $\ge$) sign.
-
-
-
 #### 3. Step-by-Step Graphing
 1.  **Mark Boundaries:** Draw light vertical dashed lines at the $x$-values where the function changes rules. These are your "fences."
 2.  **Plot the Endpoints:**
@@ -1364,7 +1359,6 @@ To find an output $f(a)$, you must look at the constraints first.
 3.  **Fill in the Shape:** Use your knowledge of parent functions (slopes for lines, curves for cubics) to draw the piece only within its allowed section.
 
 ---
-
 ### ⚠️ What to Look Out For
 
 > [!important] The "Eraser" Method
