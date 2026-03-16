@@ -1482,7 +1482,6 @@ https://www.youtube.com/watch?v=NrmmR3-VxA8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This "Library of Functions" is a set of basic graph shapes (Parent Functions) that you must memorize. Understanding these is the foundation for performing **Transformations** (shifts, stretches, and reflections) in the next topic.
 
 ---
-
 #### 1. The Power of "Key Points"
 Professor Leonard emphasizes that instead of plugging in dozens of numbers, you should memorize these **3 Key Points** for almost every basic function:
 * **(1, 1):** Present in every function except the constant function.
@@ -1490,7 +1489,6 @@ Professor Leonard emphasizes that instead of plugging in dozens of numbers, you 
 * **(-1, y):** If **Odd**, the point is **(-1, -1)**. If **Even**, the point is **(-1, 1)**.
 
 ---
-
 #### 2. The Odd Functions (Origin Symmetry)
 These functions can be rotated $180^\circ$ around the origin to land on themselves. They share the points **(0,0), (1,1), and (-1,-1)**.
 
@@ -1504,7 +1502,6 @@ These functions can be rotated $180^\circ$ around the origin to land on themselv
 
 
 ---
-
 #### 3. The Even Functions (Y-Axis Symmetry)
 These functions are mirror images across the y-axis. They share the points **(0,0), (1,1), and (-1, 1)**.
 
@@ -1514,7 +1511,6 @@ These functions are mirror images across the y-axis. They share the points **(0,
 
 
 ---
-
 #### 4. The "Neither" Function
 * **Square Root Function $f(x) = \sqrt{x}$:** * **Domain Restriction:** Only exists for $x \ge 0$. You cannot plug in negatives.
     * **Shape:** Half of a parabola on its side.
@@ -1522,7 +1518,6 @@ These functions are mirror images across the y-axis. They share the points **(0,
 
 
 ---
-
 ### ⚠️ What to Look Out For
 
 > [!important] Asymptote: The "MC Hammer" Line
