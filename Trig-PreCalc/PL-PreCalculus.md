@@ -1477,3 +1477,69 @@ $$f(x) = \begin{cases} x + 3, & -4 \leq x < -2 \\ -2x - 3, & x \geq -2 \end{case
 
 ## 2026-March-16 - Graphs You Must Know (Precalculus - College Algebra 13) :
 https://www.youtube.com/watch?v=NrmmR3-VxA8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=15
+### Library of Functions (Graphs You Must Know)
+
+This "Library of Functions" is a set of basic graph shapes (Parent Functions) that you must memorize. Understanding these is the foundation for performing **Transformations** (shifts, stretches, and reflections) in the next topic.
+
+---
+
+#### 1. The Power of "Key Points"
+Professor Leonard emphasizes that instead of plugging in dozens of numbers, you should memorize these **3 Key Points** for almost every basic function:
+* **(1, 1):** Present in every function except the constant function.
+* **(0, 0):** Present in every function except the Reciprocal function.
+* **(-1, y):** If **Odd**, the point is **(-1, -1)**. If **Even**, the point is **(-1, 1)**.
+
+---
+
+#### 2. The Odd Functions (Origin Symmetry)
+These functions can be rotated $180^\circ$ around the origin to land on themselves. They share the points **(0,0), (1,1), and (-1,-1)**.
+
+* **Identity Function $f(x) = x$:** A straight diagonal line. It increases everywhere.
+* **Cubing Function $f(x) = x^3$:** A "dynamic" curve that passes through the origin.
+* **Cube Root Function $f(x) = \sqrt[3]{x}$:** The "S-shape" curve that is essentially a cubing function reflected on its side.
+* **Reciprocal Function $f(x) = \frac{1}{x}$:**
+    * **Asymptotes:** Has a Vertical Asymptote at $x=0$ and a Horizontal Asymptote at $y=0$.
+    * **Key Points:** $(1, 1)$ and $(-1, -1)$. It **does not** have the point $(0,0)$.
+    * **Behavior:** Always decreasing on its domain.
+
+
+---
+
+#### 3. The Even Functions (Y-Axis Symmetry)
+These functions are mirror images across the y-axis. They share the points **(0,0), (1,1), and (-1, 1)**.
+
+* **Constant Function $f(x) = b$:** A horizontal line. No matter what $x$ is, $y$ stays the same.
+* **Squaring Function (Parabola) $f(x) = x^2$:** A U-shaped curve. Decreasing on $(-\infty, 0)$ and increasing on $(0, \infty)$.
+* **Absolute Value Function $f(x) = |x|$:** A V-shaped graph. It takes the negative side of the identity function and reflects it up to be positive.
+
+
+---
+
+#### 4. The "Neither" Function
+* **Square Root Function $f(x) = \sqrt{x}$:** * **Domain Restriction:** Only exists for $x \ge 0$. You cannot plug in negatives.
+    * **Shape:** Half of a parabola on its side.
+    * **Key Points:** $(0, 0)$ and $(1, 1)$. Because there is no graph on the left side, it cannot be even or odd.
+
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] Asymptote: The "MC Hammer" Line
+> A vertical asymptote (found in $1/x$) is a line you **cannot touch**. The graph will get infinitely close to it but never cross it [00:09:12]. 
+
+#### 1. Range vs. Domain
+* **Odd Functions ($x, x^3, \sqrt[3]{x}$):** Generally have a domain and range of **all real numbers** $(-\infty, \infty)$.
+* **Even Functions ($x^2, |x|$):** Often have a restricted range (e.g., $[0, \infty)$) because the outputs can never be negative.
+
+#### 2. Why Memorize These?
+In the next video, you will be asked to graph something like $f(x) = (x-3)^2 + 4$. If you know the "Key Points" of the parent function $x^2$, you can simply move those three points right 3 and up 4 to get the new graph instantly [00:18:52].
+
+---
+
+> [!abstract] Algebra Takeaway
+> To master these:
+> 1. Sketch the shape.
+> 2. Plot the 3 key points.
+> 3. Verify the symmetry (Even vs. Odd).
+> 4. Check the "fences" (Domain/Asymptotes).
