@@ -1500,7 +1500,6 @@ These functions can be rotated $180^\circ$ around the origin to land on themselv
     * **Key Points:** $(1, 1)$ and $(-1, -1)$. It **does not** have the point $(0,0)$.
     * **Behavior:** Always decreasing on its domain.
 
-
 ---
 #### 3. The Even Functions (Y-Axis Symmetry)
 These functions are mirror images across the y-axis. They share the points **(0,0), (1,1), and (-1, 1)**.
@@ -1509,13 +1508,11 @@ These functions are mirror images across the y-axis. They share the points **(0,
 * **Squaring Function (Parabola) $f(x) = x^2$:** A U-shaped curve. Decreasing on $(-\infty, 0)$ and increasing on $(0, \infty)$.
 * **Absolute Value Function $f(x) = |x|$:** A V-shaped graph. It takes the negative side of the identity function and reflects it up to be positive.
 
-
 ---
 #### 4. The "Neither" Function
 * **Square Root Function $f(x) = \sqrt{x}$:** * **Domain Restriction:** Only exists for $x \ge 0$. You cannot plug in negatives.
     * **Shape:** Half of a parabola on its side.
     * **Key Points:** $(0, 0)$ and $(1, 1)$. Because there is no graph on the left side, it cannot be even or odd.
-
 
 ---
 ### ⚠️ What to Look Out For
@@ -1526,7 +1523,6 @@ These functions are mirror images across the y-axis. They share the points **(0,
 #### 1. Range vs. Domain
 * **Odd Functions ($x, x^3, \sqrt[3]{x}$):** Generally have a domain and range of **all real numbers** $(-\infty, \infty)$.
 * **Even Functions ($x^2, |x|$):** Often have a restricted range (e.g., $[0, \infty)$) because the outputs can never be negative.
-
 #### 2. Why Memorize These?
 In the next video, you will be asked to graph something like $f(x) = (x-3)^2 + 4$. If you know the "Key Points" of the parent function $x^2$, you can simply move those three points right 3 and up 4 to get the new graph instantly [00:18:52].
 
