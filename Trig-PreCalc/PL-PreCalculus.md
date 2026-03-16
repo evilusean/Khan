@@ -1592,3 +1592,5 @@ Watch out for functions that "break" or "stop":
 
 > [!abstract] Algebra Takeaway
 > When graphing transformations, always start with these **Key Points**. For example, if you see $f(x) = (x-2)^2 + 3$, you take the Squaring ($x^2$) key points and shift them 2 units right and 3 units up.
+
+![[Pasted image 20260316134502.png]]
