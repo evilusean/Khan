@@ -1534,3 +1534,61 @@ In the next video, you will be asked to graph something like $f(x) = (x-3)^2 + 4
 > 2. Plot the 3 key points.
 > 3. Verify the symmetry (Even vs. Odd).
 > 4. Check the "fences" (Domain/Asymptotes).
+
+### The Library of Functions: Parent Graph Cheat Sheet
+
+This "Library" contains the essential parent functions used throughout Precalculus and Calculus. Memorizing these shapes and their **Key Points** is the foundation for understanding transformations.
+
+---
+
+#### 1. Linear & Constant Functions
+| Function | Formula | Symmetry | Key Points | Shape |
+| :--- | :--- | :--- | :--- | :--- |
+| **Identity** | $f(x) = x$ | **Odd** | $(-1,-1), (0,0), (1,1)$ | Straight $45^\circ$ diagonal line. |
+| **Constant** | $f(x) = c$ | **Even** | $(0,c), (1,c), (2,c)$ | Horizontal line through $y=c$. |
+
+
+---
+
+#### 2. Power Functions ($x^2, x^3$)
+| Function | Formula | Symmetry | Key Points | Shape |
+| :--- | :--- | :--- | :--- | :--- |
+| **Squaring** | $f(x) = x^2$ | **Even** | $(-1,1), (0,0), (1,1)$ | U-shaped **Parabola**. |
+| **Cubing** | $f(x) = x^3$ | **Odd** | $(-1,-1), (0,0), (1,1)$ | S-shaped curve (origin-centered). |
+
+
+---
+
+#### 3. Root Functions ($\sqrt{x}, \sqrt[3]{x}$)
+| Function | Formula | Symmetry | Key Points | Shape |
+| :--- | :--- | :--- | :--- | :--- |
+| **Square Root**| $f(x) = \sqrt{x}$ | **Neither**| $(0,0), (1,1), (4,2)$ | Starts at $(0,0)$, arcs to the right. |
+| **Cube Root** | $f(x) = \sqrt[3]{x}$ | **Odd** | $(-1,-1), (0,0), (1,1)$ | S-shape on its side (reaches all quadrants).|
+
+
+---
+
+#### 4. Absolute Value & Reciprocal
+| Function           | Formula              | Symmetry | Key Points       | Shape                                 |                        |                                            |
+| :----------------- | :------------------- | :------- | :--------------- | :------------------------------------ | ---------------------- | ------------------------------------------ |
+| **Absolute Value** | $f(x) =              | x        | $                | **Even**                              | $(-1,1), (0,0), (1,1)$ | V-shaped with a sharp "corner" at $(0,0)$. |
+| **Reciprocal**     | $f(x) = \frac{1}{x}$ | **Odd**  | $(-1,-1), (1,1)$ | Two curves; Asymptotes at $x=0, y=0$. |                        |                                            |
+
+
+---
+
+### ⚠️ Critical Analysis Tips
+
+> [!important] The Even/Odd Relationship
+> * **Even Functions:** Mirror across the $y$-axis. If $(x, y)$ is a point, $(-x, y)$ is also a point.
+> * **Odd Functions:** Rotate $180^\circ$ around the origin. If $(x, y)$ is a point, $(-x, -y)$ is also a point.
+
+#### Domain Restrictions
+Watch out for functions that "break" or "stop":
+* **$f(x) = \frac{1}{x}$:** Domain is $(-\infty, 0) \cup (0, \infty)$. It is **undefined** at $x=0$.
+* **$f(x) = \sqrt{x}$:** Domain is $[0, \infty)$. It does not exist for negative $x$-values.
+
+---
+
+> [!abstract] Algebra Takeaway
+> When graphing transformations, always start with these **Key Points**. For example, if you see $f(x) = (x-2)^2 + 3$, you take the Squaring ($x^2$) key points and shift them 2 units right and 3 units up.
