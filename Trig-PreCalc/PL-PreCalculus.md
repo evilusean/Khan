@@ -1476,3 +1476,4 @@ $$f(x) = \begin{cases} x + 3, & -4 \leq x < -2 \\ -2x - 3, & x \geq -2 \end{case
 > When two pieces meet at the same $y$-value (like they do here at $y=1$), the "open circle" from the first piece is covered by the "solid dot" of the second. This creates a **continuous** graph with a sharp turn (a "corner") at $x = -2$.
 
 ## 2026-March-16 - Graphs You Must Know (Precalculus - College Algebra 13) :
+https://www.youtube.com/watch?v=NrmmR3-VxA8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=15
