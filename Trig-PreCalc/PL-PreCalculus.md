@@ -1770,3 +1770,46 @@ The graph should pass through the origin $(0,0)$, which matches our third transf
 
 > [!abstract] Algebra Takeaway
 > When multiple shifts are present, move the "anchor point" (the origin for $x^3$) first. For $(x+1)^3 - 1$, move the origin **Left 1** and **Down 1**, then draw the standard S-curve shape starting from that new center.
+### Graph Transformation: g(x) = √(x - 2) + 3
+
+This function applies a horizontal and vertical shift to the square root "parent" shape.
+
+---
+#### 1. Identify the Parent Function
+The base shape is the **Square Root Function**:
+$$f(x) = \sqrt{x}$$
+* **Shape:** A "starting arc" that begins at the origin and curves slowly into the first quadrant.
+* **Key Points:** $(0, 0)$, $(1, 1)$, and $(4, 2)$.
+#### 2. Analyze the Changes
+We examine the operations "Inside" the radical and "Outside" the radical.
+
+* **Inside ($x - 2$):** This is a **Horizontal Shift**. Because it is $-2$, we follow the "Inside-Opposite" rule and move **Right 2 units**.
+* **Outside ($+ 3$):** This is a **Vertical Shift**. Because it is $+3$, we follow the "Outside-Normal" rule and move **Up 3 units**.
+
+#### 3. Transforming the Key Points
+To find the new coordinates, we add 2 to every $x$-value and add 3 to every $y$-value of the parent points.
+
+| Parent Point ($\sqrt{x}$) | x-calc ($x + 2$) | y-calc ($y + 3$) | Transformed Point |
+| :--- | :--- | :--- | :--- |
+| $(0, 0)$ | $0 + 2 = 2$ | $0 + 3 = 3$ | **$(2, 3)$** |
+| $(1, 1)$ | $1 + 2 = 3$ | $1 + 3 = 4$ | **$(3, 4)$** |
+| $(4, 2)$ | $4 + 2 = 6$ | $2 + 3 = 5$ | **$(6, 5)$** |
+
+---
+### ⚠️ What to Look Out For
+
+#### 1. The Starting Point (The "Vertex")
+The most important point for a square root function is its starting point. In the parent function, this is $(0, 0)$. In $g(x)$, the graph **begins at (2, 3)**. There is no graph to the left of $x = 2$.
+
+#### 2. Domain and Range
+Transformations directly affect the domain and range:
+* **Domain:** Originally $x \ge 0$. After the horizontal shift right 2, the new domain is **$[2, \infty)$**.
+* **Range:** Originally $y \ge 0$. After the vertical shift up 3, the new range is **$[3, \infty)$**.
+
+#### 3. Inside vs. Outside
+Always distinguish between what is under the square root bar and what is outside of it. If the function were $g(x) = \sqrt{x - 2 + 3}$, that would simplify to $\sqrt{x + 1}$, which is a completely different transformation (Left 1 unit).
+
+---
+
+> [!abstract] Algebra Takeaway
+> To graph $g(x) = \sqrt{x-2} + 3$, locate your new starting point at **$(2, 3)$** and then draw the standard "arc" shape of a square root function from that position.
