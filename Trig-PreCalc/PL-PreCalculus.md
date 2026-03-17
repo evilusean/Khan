@@ -1597,3 +1597,53 @@ Watch out for functions that "break" or "stop":
 
 ## 2026-March-17 - Introduction to Graph Transformations (Precalculus - College Algebra 14) :
 https://www.youtube.com/watch?v=sTCRB6hMsC4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=14
+### Introduction to Graph Transformations
+
+Graph transformations allow you to determine how a function's graph is affected based on operations applied to its "parent" function from the Library of Functions. Instead of plotting dozens of points, you transform the **3 Key Points** of the basic shape.
+
+---
+
+#### 1. Vertical Shifts (Affects the Output)
+Vertical shifts happen **outside** the function's main operation (after the square, absolute value, or square root is finished).
+* **Rule:** $f(x) + k$ (up $k$ units) or $f(x) - k$ (down $k$ units).
+* **Mechanism:** You are taking the final $y$-value and adding/subtracting a constant. 
+* **Visual Aid:** Imagine your $x$-axis physically sliding up or down while the $y$-axis stays put. [00:03:34]
+
+
+#### 2. Horizontal Shifts (Affects the Input)
+Horizontal shifts happen **inside** the function's operation (inside parentheses, absolute value bars, or square roots).
+* **Rule:** $f(x + h)$ is a shift **LEFT**; $f(x - h)$ is a shift **RIGHT**.
+* **Mechanism:** This is counter-intuitive! To get the same output height, you must provide a smaller or larger input to "undo" the constant.
+* **Visual Aid:** Imagine the $y$-axis sliding left or right. [00:12:15]
+
+
+#### 3. Vertical Stretches and Compressions
+This occurs when you multiply the entire function by a constant $a$ ($y = a \cdot f(x)$). This affects the **output** values.
+* **Vertical Stretch ($a > 1$):** The graph becomes taller and narrower. Points move farther from the $x$-axis. [00:31:02]
+* **Vertical Compression ($0 < a < 1$):** The graph becomes shorter and wider. Points move closer to the $x$-axis. [00:32:41]
+* **Method:** Multiply the $y$-coordinates of your Key Points by $a$. [00:33:44]
+
+
+#### 4. Reflections
+Reflections occur when you multiply by a negative sign.
+* **Reflection about the X-axis (Vertical):** $y = -f(x)$. The negative is **outside**. All positive $y$-values become negative (flips upside down). [00:41:39]
+* **Reflection about the Y-axis (Horizontal):** $y = f(-x)$. The negative is **inside**. All positive $x$-values become negative (flips left-to-right). [00:42:30]
+
+
+---
+
+### 🛠️ The "Leonard Method" for Graphing
+Instead of a table of values, use this sequence for your Obsidian notes:
+
+1.  **Identify Parent Function:** (e.g., $x^2, |x|, \sqrt{x}$).
+2.  **List Key Points:** (e.g., $(-1, 1), (0,0), (1,1)$ for $x^2$).
+3.  **Apply Stretches/Reflections:** Multiply the $y$-values of your Key Points by the constant/negative sign.
+4.  **Create "New" Axes:** * Shift your vertical axis for horizontal shifts.
+    * Shift your horizontal axis for vertical shifts.
+5.  **Plot Points:** Plot your transformed Key Points relative to your new "fake" origin. [00:20:14]
+
+---
+
+> [!abstract] Algebra Takeaway
+> **Inside = Horizontal & Opposite:** Anything inside the function ($x \pm h$) moves horizontally and behaves the opposite of what you'd expect ($+$ is Left, $-$ is Right).
+> **Outside = Vertical & Normal:** Anything outside the function ($f(x) \pm k$) moves vertically and behaves exactly as you'd expect ($+$ is Up, $-$ is Down). [00:11:55]
