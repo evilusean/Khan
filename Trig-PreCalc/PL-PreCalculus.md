@@ -1650,12 +1650,6 @@ The base shape is the **Squaring Function**:
 $$y = x^2$$
 * **Shape:** A U-shaped parabola symmetric about the y-axis.
 * **Key Points:** $(-1, 1)$, $(0, 0)$, and $(1, 1)$.
-
-
-
-[Image of the parent squaring function f(x)=x^2]
-
-
 #### 2. Analyze the Change
 The function has a constant ($+3$) added **outside** the main operation (the square).
 * **Operation:** $f(x) = x^2 + 3$
@@ -1670,7 +1664,6 @@ Because the change is "outside," we apply the transformation directly to the $y$
 | $(-1, 1)$ | $1 + 3 = 4$ | **$(-1, 4)$** |
 | $(0, 0)$ | $0 + 3 = 3$ | **$(0, 3)$** |
 | $(1, 1)$ | $1 + 3 = 4$ | **$(1, 4)$** |
-
 
 
 ---
