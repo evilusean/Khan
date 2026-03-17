@@ -1602,36 +1602,27 @@ https://www.youtube.com/watch?v=sTCRB6hMsC4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Graph transformations allow you to determine how a function's graph is affected based on operations applied to its "parent" function from the Library of Functions. Instead of plotting dozens of points, you transform the **3 Key Points** of the basic shape.
 
 ---
-
 #### 1. Vertical Shifts (Affects the Output)
 Vertical shifts happen **outside** the function's main operation (after the square, absolute value, or square root is finished).
 * **Rule:** $f(x) + k$ (up $k$ units) or $f(x) - k$ (down $k$ units).
 * **Mechanism:** You are taking the final $y$-value and adding/subtracting a constant. 
 * **Visual Aid:** Imagine your $x$-axis physically sliding up or down while the $y$-axis stays put. [00:03:34]
-
-
 #### 2. Horizontal Shifts (Affects the Input)
 Horizontal shifts happen **inside** the function's operation (inside parentheses, absolute value bars, or square roots).
 * **Rule:** $f(x + h)$ is a shift **LEFT**; $f(x - h)$ is a shift **RIGHT**.
 * **Mechanism:** This is counter-intuitive! To get the same output height, you must provide a smaller or larger input to "undo" the constant.
 * **Visual Aid:** Imagine the $y$-axis sliding left or right. [00:12:15]
-
-
 #### 3. Vertical Stretches and Compressions
 This occurs when you multiply the entire function by a constant $a$ ($y = a \cdot f(x)$). This affects the **output** values.
 * **Vertical Stretch ($a > 1$):** The graph becomes taller and narrower. Points move farther from the $x$-axis. [00:31:02]
 * **Vertical Compression ($0 < a < 1$):** The graph becomes shorter and wider. Points move closer to the $x$-axis. [00:32:41]
 * **Method:** Multiply the $y$-coordinates of your Key Points by $a$. [00:33:44]
-
-
 #### 4. Reflections
 Reflections occur when you multiply by a negative sign.
 * **Reflection about the X-axis (Vertical):** $y = -f(x)$. The negative is **outside**. All positive $y$-values become negative (flips upside down). [00:41:39]
 * **Reflection about the Y-axis (Horizontal):** $y = f(-x)$. The negative is **inside**. All positive $x$-values become negative (flips left-to-right). [00:42:30]
 
-
 ---
-
 ### 🛠️ The "Leonard Method" for Graphing
 Instead of a table of values, use this sequence for your Obsidian notes:
 
