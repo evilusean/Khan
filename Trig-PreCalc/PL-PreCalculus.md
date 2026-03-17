@@ -1644,7 +1644,6 @@ Instead of a table of values, use this sequence for your Obsidian notes:
 To understand the transformation of $f(x) = x^2 + 3$, we compare it to its parent function in the Library of Functions.
 
 ---
-
 #### 1. Identify the Parent Function
 The base shape is the **Squaring Function**:
 $$y = x^2$$
@@ -1747,9 +1746,7 @@ To get the new points, we subtract 1 from every $x$-coordinate and subtract 1 fr
 | $(0, 0)$ | $0 - 1 = -1$ | $0 - 1 = -1$ | **$(-1, -1)$** |
 | $(1, 1)$ | $1 - 1 = 0$ | $1 - 1 = 0$ | **$(0, 0)$** |
 
-
 ---
-
 ### ⚠️ What to Look Out For
 
 #### 1. The "New Origin" (Inflection Point)
@@ -1785,7 +1782,6 @@ We examine the operations "Inside" the radical and "Outside" the radical.
 
 * **Inside ($x - 2$):** This is a **Horizontal Shift**. Because it is $-2$, we follow the "Inside-Opposite" rule and move **Right 2 units**.
 * **Outside ($+ 3$):** This is a **Vertical Shift**. Because it is $+3$, we follow the "Outside-Normal" rule and move **Up 3 units**.
-
 #### 3. Transforming the Key Points
 To find the new coordinates, we add 2 to every $x$-value and add 3 to every $y$-value of the parent points.
 
@@ -1813,3 +1809,55 @@ Always distinguish between what is under the square root bar and what is outside
 
 > [!abstract] Algebra Takeaway
 > To graph $g(x) = \sqrt{x-2} + 3$, locate your new starting point at **$(2, 3)$** and then draw the standard "arc" shape of a square root function from that position.
+### Graph Transformation: f(x) = 2x²
+
+This function involves a vertical change to the squaring parent function, affecting how "steeply" the graph climbs.
+
+---
+
+#### 1. Identify the Parent Function
+The base shape is the **Squaring Function**:
+$$y = x^2$$
+* **Shape:** A standard U-shaped parabola.
+* **Key Points:** $(-1, 1)$, $(0, 0)$, and $(1, 1)$.
+
+
+
+[Image of parent squaring function f(x)=x^2]
+
+
+#### 2. Analyze the Change
+The function is being multiplied by a constant ($2$) **outside** the squaring operation.
+* **Operation:** $f(x) = 2x^2$
+* **Transformation Type:** **Vertical Stretch**.
+* **Factor:** **2**.
+
+#### 3. Transforming the Key Points
+Because the multiplier is on the "outside," it only affects the $y$-coordinates (outputs). You multiply every parent $y$-value by 2. The $x$-values remain exactly the same.
+
+| Parent Point ($x^2$) | Calculation ($y \cdot 2$) | Transformed Point |
+| :--- | :--- | :--- |
+| $(-1, 1)$ | $1 \cdot 2 = 2$ | **$(-1, 2)$** |
+| $(0, 0)$ | $0 \cdot 2 = 0$ | **$(0, 0)$** |
+| $(1, 1)$ | $1 \cdot 2 = 2$ | **$(1, 2)$** |
+
+
+
+---
+
+### ⚠️ What to Look Out For
+
+#### 1. Vertical Stretch vs. Compression
+* **Stretch ($a > 1$):** Like $2x^2$, the graph looks "skinnier" or "narrower" because the $y$-values are growing twice as fast.
+* **Compression ($0 < a < 1$):** Like $\frac{1}{2}x^2$, the graph would look "wider" or "flatter" because the $y$-values are only half as tall as the original.
+
+#### 2. The "Fixed" Point
+Notice that the vertex $(0, 0)$ did not move. In a pure vertical stretch or compression, any point on the x-axis (where $y=0$) stays exactly where it is because $0 \cdot a = 0$.
+
+#### 3. Horizontal vs. Vertical Confusion
+If the 2 were **inside** the square—$f(x) = (2x)^2$—that would be a **Horizontal Compression**. While the resulting graph looks similar to a vertical stretch, the mathematical logic (and the points you plot) would be different.
+
+---
+
+> [!abstract] Algebra Takeaway
+> A vertical stretch pulls the graph away from the x-axis. To graph it quickly, keep your vertex at $(0,0)$ and move your other key points twice as high as they used to be.
