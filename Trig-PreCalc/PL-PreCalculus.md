@@ -1638,3 +1638,54 @@ Instead of a table of values, use this sequence for your Obsidian notes:
 > [!abstract] Algebra Takeaway
 > **Inside = Horizontal & Opposite:** Anything inside the function ($x \pm h$) moves horizontally and behaves the opposite of what you'd expect ($+$ is Left, $-$ is Right).
 > **Outside = Vertical & Normal:** Anything outside the function ($f(x) \pm k$) moves vertically and behaves exactly as you'd expect ($+$ is Up, $-$ is Down). [00:11:55]
+
+### Graph Transformation: f(x) = x² + 3
+
+To understand the transformation of $f(x) = x^2 + 3$, we compare it to its parent function in the Library of Functions.
+
+---
+
+#### 1. Identify the Parent Function
+The base shape is the **Squaring Function**:
+$$y = x^2$$
+* **Shape:** A U-shaped parabola symmetric about the y-axis.
+* **Key Points:** $(-1, 1)$, $(0, 0)$, and $(1, 1)$.
+
+
+
+[Image of the parent squaring function f(x)=x^2]
+
+
+#### 2. Analyze the Change
+The function has a constant ($+3$) added **outside** the main operation (the square).
+* **Operation:** $f(x) = x^2 + 3$
+* **Transformation Type:** **Vertical Shift**.
+* **Direction:** **Up 3 units**.
+
+#### 3. Transforming the Key Points
+Because the change is "outside," we apply the transformation directly to the $y$-coordinates (outputs). We add 3 to every $y$-value of the parent points.
+
+| Parent Point ($x^2$) | Calculation ($y + 3$) | Transformed Point |
+| :--- | :--- | :--- |
+| $(-1, 1)$ | $1 + 3 = 4$ | **$(-1, 4)$** |
+| $(0, 0)$ | $0 + 3 = 3$ | **$(0, 3)$** |
+| $(1, 1)$ | $1 + 3 = 4$ | **$(1, 4)$** |
+
+
+
+---
+
+### ⚠️ What to Look Out For
+
+> [!important] The "Fake" Origin
+> When graphing this manually, you can simply move your horizontal axis (the x-axis) down 3 units or move your starting point (the vertex) from $(0,0)$ up to $(0,3)$. All other points follow that same upward shift.
+
+#### Vertical vs. Horizontal Confusion
+If the $+3$ were **inside** the square—$f(x) = (x + 3)^2$—the transformation would be a **horizontal shift** to the left. Since it is outside, it is strictly a vertical movement.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Any addition or subtraction outside the parentheses/operation is a "vertical slide." 
+> * $+k$ = Slide Up
+> * $-k$ = Slide Down
