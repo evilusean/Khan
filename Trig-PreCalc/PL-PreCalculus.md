@@ -1682,3 +1682,52 @@ If the $+3$ were **inside** the square—$f(x) = (x + 3)^2$—the transformation
 > Any addition or subtraction outside the parentheses/operation is a "vertical slide." 
 > * $+k$ = Slide Up
 > * $-k$ = Slide Down
+### Graph Transformation: f(x) = |x + 2|
+
+To understand the transformation of $f(x) = |x + 2|$, we compare it to its parent function in the Library of Functions.
+
+---
+
+#### 1. Identify the Parent Function
+The base shape is the **Absolute Value Function**:
+$$y = |x|$$
+* **Shape:** A sharp V-shape with the vertex at the origin.
+* **Key Points:** $(-1, 1)$, $(0, 0)$, and $(1, 1)$.
+
+
+
+#### 2. Analyze the Change
+The function has a constant ($+2$) added **inside** the absolute value bars (the main operation).
+* **Operation:** $f(x) = |x + 2|$
+* **Transformation Type:** **Horizontal Shift**.
+* **Direction:** **Left 2 units**.
+
+> [!warning] The "Inside-Opposite" Rule
+> Remember that changes **inside** the operation (affecting the $x$ directly) behave the opposite of what you might expect. Even though it is $+2$, we shift in the **negative** direction (Left).
+
+#### 3. Transforming the Key Points
+Because the change is "inside," we apply the transformation to the $x$-coordinates. To "counteract" the $+2$, we subtract 2 from every $x$-value of the parent points. The $y$-values remain unchanged.
+
+| Parent Point ($|x|$) | Calculation ($x - 2$) | Transformed Point |
+| :--- | :--- | :--- |
+| $(-1, 1)$ | $-1 - 2 = -3$ | **$(-3, 1)$** |
+| $(0, 0)$ | $0 - 2 = -2$ | **$(-2, 0)$** |
+| $(1, 1)$ | $1 - 2 = -1$ | **$(-1, 1)$** |
+
+
+
+---
+
+### ⚠️ What to Look Out For
+
+#### 1. The Vertex Location
+The vertex of the parent function is always at $(0,0)$. For this transformed function, the vertex has moved to **$(-2, 0)$**. You can verify this by checking what value of $x$ makes the inside of the bars equal zero: $x + 2 = 0 \implies x = -2$.
+
+#### 2. Inside vs. Outside
+* **$f(x) = |x + 2|$**: The $+2$ is inside. This is a **horizontal** shift (Left 2).
+* **$f(x) = |x| + 2$**: The $+2$ is outside. This would be a **vertical** shift (Up 2).
+
+---
+
+> [!abstract] Algebra Takeaway
+> When you see a modification inside the function's "core" (parentheses, bars, or roots), think **horizontal and opposite**. To graph it, simply slide your parent V-shape 2 units to the left on the x-axis.
