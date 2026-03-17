@@ -1848,3 +1848,43 @@ If the 2 were **inside** the square—$f(x) = (2x)^2$—that would be a **Horizo
 
 > [!abstract] Algebra Takeaway
 > A vertical stretch pulls the graph away from the x-axis. To graph it quickly, keep your vertex at $(0,0)$ and move your other key points twice as high as they used to be.
+### Graph Transformation: f(x) = 1/2x³
+
+This transformation involves a vertical modification to the cubing parent function, which "flattens" the curve as it moves away from the origin.
+
+---
+#### 1. Identify the Parent Function
+The base shape is the **Cubing Function**:
+$$y = x^3$$
+* **Shape:** The standard S-curve (origin-symmetric).
+* **Key Points:** $(-1, -1)$, $(0, 0)$, and $(1, 1)$.
+#### 2. Analyze the Change
+The function is being multiplied by a constant ($\frac{1}{2}$) **outside** the cubing operation.
+* **Operation:** $f(x) = \frac{1}{2}x^3$
+* **Transformation Type:** **Vertical Compression** (also called a Vertical Shrink).
+* **Factor:** **1/2**.
+#### 3. Transforming the Key Points
+Because the multiplier is on the "outside," it only affects the $y$-coordinates. You multiply every parent $y$-value by $\frac{1}{2}$. The $x$-values remain exactly the same.
+
+| Parent Point ($x^3$) | Calculation ($y \cdot \frac{1}{2}$) | Transformed Point |
+| :--- | :--- | :--- |
+| $(-1, -1)$ | $-1 \cdot \frac{1}{2} = -0.5$ | **$(-1, -0.5)$** |
+| $(0, 0)$ | $0 \cdot \frac{1}{2} = 0$ | **$(0, 0)$** |
+| $(1, 1)$ | $1 \cdot \frac{1}{2} = 0.5$ | **$(1, 0.5)$** |
+
+---
+
+### ⚠️ What to Look Out For
+
+#### 1. "Wider" vs. "Shorter" Appearance
+In your Obsidian notes, remember that a vertical compression makes the graph look "wider" or "fatter" because the $y$-values are not rising as quickly as the original. Mathematically, the points are being "pushed" toward the x-axis.
+#### 2. The Invariant Point
+Notice that $(0,0)$ stays at $(0,0)$. Any point where $y=0$ is an **invariant point** under vertical stretching or compression because multiplying zero by any factor still results in zero.
+#### 3. Vertical vs. Horizontal Compression
+* **Vertical Compression ($y = \frac{1}{2}x^3$):** The output is halved.
+* **Horizontal Stretch ($y = (\frac{1}{2}x)^3$):** The input is halved *inside* the cube. While the visual result is a wider graph, the key points would be calculated differently (multiplying $x$ by 2).
+
+---
+
+> [!abstract] Algebra Takeaway
+> A vertical compression (where $0 < a < 1$) makes the graph "lazy." It takes longer for the S-curve to climb or descend. To graph it, keep your center at $(0,0)$ and plot your next points only half as high/low as the parent points.
