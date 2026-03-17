@@ -1722,3 +1722,51 @@ The vertex of the parent function is always at $(0,0)$. For this transformed fun
 
 > [!abstract] Algebra Takeaway
 > When you see a modification inside the function's "core" (parentheses, bars, or roots), think **horizontal and opposite**. To graph it, simply slide your parent V-shape 2 units to the left on the x-axis.
+### Graph Transformation: f(x) = (x + 1)³ - 1
+
+This function involves two separate shifts (horizontal and vertical) applied to a power function.
+
+---
+#### 1. Identify the Parent Function
+The base shape is the **Cubing Function**:
+$$y = x^3$$
+* **Shape:** An "S-curve" that passes through the origin.
+* **Key Points:** $(-1, -1)$, $(0, 0)$, and $(1, 1)$.
+#### 2. Analyze the Changes
+We look at the "Inside" of the operation (inside the parentheses) and the "Outside" (after the cube).
+
+* **Inside ($x + 1$):** This is a **Horizontal Shift**. Because it is $+1$, we follow the "Inside-Opposite" rule and move **Left 1 unit**.
+* **Outside ($- 1$):** This is a **Vertical Shift**. Because it is $-1$, we follow the "Outside-Normal" rule and move **Down 1 unit**.
+
+#### 3. Transforming the Key Points
+To get the new points, we subtract 1 from every $x$-coordinate and subtract 1 from every $y$-coordinate.
+
+| Parent Point ($x^3$) | x-calc ($x - 1$) | y-calc ($y - 1$) | Transformed Point |
+| :--- | :--- | :--- | :--- |
+| $(-1, -1)$ | $-1 - 1 = -2$ | $-1 - 1 = -2$ | **$(-2, -2)$** |
+| $(0, 0)$ | $0 - 1 = -1$ | $0 - 1 = -1$ | **$(-1, -1)$** |
+| $(1, 1)$ | $1 - 1 = 0$ | $1 - 1 = 0$ | **$(0, 0)$** |
+
+
+---
+
+### ⚠️ What to Look Out For
+
+#### 1. The "New Origin" (Inflection Point)
+In the parent function, the graph "flattens" at $(0,0)$. After the transformations, this central point (the point of inflection) is now located at **$(-1, -1)$**.
+
+#### 2. Order of Operations
+When only dealing with shifts (additions/subtractions), the order doesn't technically change the final result. however, it is best practice to:
+1.  Perform Horizontal shifts.
+2.  Perform Vertical shifts.
+
+#### 3. Checking Your Intercepts
+A quick way to verify your graph is to find the $y$-intercept. Plug in $x=0$:
+$f(0) = (0 + 1)^3 - 1$
+$f(0) = 1^3 - 1 = 0$
+The graph should pass through the origin $(0,0)$, which matches our third transformed point.
+
+---
+
+> [!abstract] Algebra Takeaway
+> When multiple shifts are present, move the "anchor point" (the origin for $x^3$) first. For $(x+1)^3 - 1$, move the origin **Left 1** and **Down 1**, then draw the standard S-curve shape starting from that new center.
