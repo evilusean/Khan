@@ -1665,9 +1665,7 @@ Because the change is "outside," we apply the transformation directly to the $y$
 | $(0, 0)$ | $0 + 3 = 3$ | **$(0, 3)$** |
 | $(1, 1)$ | $1 + 3 = 4$ | **$(1, 4)$** |
 
-
 ---
-
 ### ⚠️ What to Look Out For
 
 > [!important] The "Fake" Origin
@@ -1687,15 +1685,11 @@ If the $+3$ were **inside** the square—$f(x) = (x + 3)^2$—the transformation
 To understand the transformation of $f(x) = |x + 2|$, we compare it to its parent function in the Library of Functions.
 
 ---
-
 #### 1. Identify the Parent Function
 The base shape is the **Absolute Value Function**:
 $$y = |x|$$
 * **Shape:** A sharp V-shape with the vertex at the origin.
 * **Key Points:** $(-1, 1)$, $(0, 0)$, and $(1, 1)$.
-
-
-
 #### 2. Analyze the Change
 The function has a constant ($+2$) added **inside** the absolute value bars (the main operation).
 * **Operation:** $f(x) = |x + 2|$
@@ -1714,10 +1708,7 @@ Because the change is "inside," we apply the transformation to the $x$-coordinat
 | $(0, 0)$ | $0 - 2 = -2$ | **$(-2, 0)$** |
 | $(1, 1)$ | $1 - 2 = -1$ | **$(-1, 1)$** |
 
-
-
 ---
-
 ### ⚠️ What to Look Out For
 
 #### 1. The Vertex Location
