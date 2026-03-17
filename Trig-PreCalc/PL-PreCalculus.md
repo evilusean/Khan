@@ -1888,3 +1888,45 @@ Notice that $(0,0)$ stays at $(0,0)$. Any point where $y=0$ is an **invariant po
 
 > [!abstract] Algebra Takeaway
 > A vertical compression (where $0 < a < 1$) makes the graph "lazy." It takes longer for the S-curve to climb or descend. To graph it, keep your center at $(0,0)$ and plot your next points only half as high/low as the parent points.
+### Graph Transformation: f(x) = (3x)²
+
+This function applies a modification **inside** the squaring operation, which affects the horizontal "speed" of the graph.
+
+---
+#### 1. Identify the Parent Function
+The base shape is the **Squaring Function**:
+$$y = x^2$$
+* **Shape:** A standard U-shaped parabola.
+* **Key Points:** $(-1, 1)$, $(0, 0)$, and $(1, 1)$.
+#### 2. Analyze the Change
+The constant ($3$) is multiplying the $x$ **inside** the parentheses before the squaring happens.
+* **Operation:** $f(x) = (3x)^2$
+* **Transformation Type:** **Horizontal Compression** (also called a Horizontal Shrink).
+* **Factor:** **1/3**.
+
+> [!warning] The "Inside-Opposite" Rule
+> Just like horizontal shifts, horizontal stretches and compressions are counter-intuitive. Multiplying by 3 **inside** doesn't make the graph 3 times wider; it makes it **3 times narrower** ($1/3$ the original width).
+#### 3. Transforming the Key Points
+Because the change is "inside," it only affects the $x$-coordinates. To "counteract" the 3, you must divide every parent $x$-value by 3 (or multiply by $1/3$). The $y$-values remain exactly the same.
+
+| Parent Point ($x^2$) | Calculation ($x \cdot \frac{1}{3}$) | Transformed Point |
+| :------------------- | :---------------------------------- | :---------------- |
+| $(-1, 1)$            | $-1 \cdot \frac{1}{3} = -1/3$       | **$(-1/3, 1)$**   |
+| $(0, 0)$             | $0 \cdot \frac{1}{3} = 0$           | **$(0, 0)$**      |
+| $(1, 1)$             | $1 \cdot \frac{1}{3} = 1/3$         | **$(1/3, 1)$**    |
+
+---
+### ⚠️ What to Look Out For
+
+#### 1. Visual Similarity to Vertical Stretch
+In your Obsidian notes, observe that $f(x) = (3x)^2$ is mathematically identical to $f(x) = 9x^2$. 
+* A **Horizontal Compression** by $1/3$ looks exactly like a **Vertical Stretch** by $9$. 
+* While the visual result is the same "skinny" parabola, the *description* of the transformation depends entirely on whether the number is inside or outside the operation.
+#### 2. The Invariant Point
+The vertex $(0,0)$ remains unchanged because $0 \div 3 = 0$. Horizontal transformations "pull" or "push" the graph toward or away from the **y-axis**.
+#### 3. Horizontal Stretch vs. Compression
+* **Compression ($a > 1$):** Like $(3x)^2$, the graph is squeezed toward the y-axis.
+* **Stretch ($0 < a < 1$):** Like $(\frac{1}{3}x)^2$, the graph would be pulled away from the y-axis, making it look much wider.
+---
+> [!abstract] Algebra Takeaway
+> To graph a horizontal compression, keep your $y$-values the same but move your points closer to the center (the y-axis). For $(3x)^2$, your points are now only $1/3$ as far from the center as the parent points were.
