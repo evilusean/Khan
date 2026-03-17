@@ -1930,3 +1930,45 @@ The vertex $(0,0)$ remains unchanged because $0 \div 3 = 0$. Horizontal transfor
 ---
 > [!abstract] Algebra Takeaway
 > To graph a horizontal compression, keep your $y$-values the same but move your points closer to the center (the y-axis). For $(3x)^2$, your points are now only $1/3$ as far from the center as the parent points were.
+### Graph Transformation: f(x) = -∛x
+
+This transformation involves a vertical modification that flips the "S-curve" of the cube root function across the horizontal axis.
+
+---
+#### 1. Identify the Parent Function
+The base shape is the **Cube Root Function**:
+$$y = \sqrt[3]{x}$$
+* **Shape:** An "S-shaped" curve that exists in all quadrants and passes through the origin.
+* **Key Points:** $(-1, -1)$, $(0, 0)$, and $(1, 1)$.
+#### 2. Analyze the Change
+The function is being multiplied by a negative sign ($-1$) **outside** the radical.
+* **Operation:** $f(x) = -\sqrt[3]{x}$
+* **Transformation Type:** **Reflection about the x-axis** (Vertical Reflection).
+* **Mechanism:** Every positive $y$-value becomes negative, and every negative $y$-value becomes positive.
+
+#### 3. Transforming the Key Points
+Because the negative sign is on the "outside," it only affects the $y$-coordinates. You multiply every parent $y$-value by $-1$. The $x$-values remain exactly the same.
+
+| Parent Point ($\sqrt[3]{x}$) | Calculation ($y \cdot -1$) | Transformed Point |
+| :--- | :--- | :--- |
+| $(-1, -1)$ | $-1 \cdot -1 = 1$ | **$(-1, 1)$** |
+| $(0, 0)$ | $0 \cdot -1 = 0$ | **$(0, 0)$** |
+| $(1, 1)$ | $1 \cdot -1 = -1$ | **$(1, -1)$** |
+
+---
+### ⚠️ What to Look Out For
+
+#### 1. Reflection vs. Rotation
+In your Obsidian notes, observe that for the cube root function, a **reflection about the x-axis** looks identical to a **reflection about the y-axis** ($f(x) = \sqrt[3]{-x}$). This is because the cube root is an **Odd Function**. Rotating it $180^\circ$ or flipping it either way results in the same visual path.
+
+#### 2. The Invariant Point
+The origin $(0, 0)$ is on the axis of reflection, so it does not move. The graph still passes through $(0,0)$, but its "direction" is reversed. Instead of going from bottom-left to top-right, it now goes from **top-left to bottom-right**.
+
+#### 3. Inside vs. Outside Negatives
+* **$f(x) = -\sqrt[3]{x}$**: Reflection across the **x-axis** (Up/Down flip).
+* **$f(x) = \sqrt[3]{-x}$**: Reflection across the **y-axis** (Left/Right flip).
+
+---
+
+> [!abstract] Algebra Takeaway
+> A negative sign outside the function is a "vertical flip." To graph $f(x) = -\sqrt[3]{x}$, take your standard S-curve and swap the "up" part with the "down" part. The points $(1,1)$ and $(-1,-1)$ simply trade their vertical positions.
