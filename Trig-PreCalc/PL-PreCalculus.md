@@ -2162,15 +2162,11 @@ This function is a "trick" question common in Precalculus. Before identifying tr
 $$g(x) = 2\sqrt{-(x - 1)} + 3$$
 
 ---
-
 #### 1. Identify the Parent Function
 The base shape is the **Square Root Function**:
 $$f(x) = \sqrt{x}$$
 * **Shape:** A "starting arc" beginning at the origin.
 * **Key Points:** $(0, 0), (1, 1), (4, 2)$.
-
-
-
 #### 2. Analyze the Transformations (In Order)
 Using the rewritten form $g(x) = 2\sqrt{-(x - 1)} + 3$:
 
@@ -2178,7 +2174,6 @@ Using the rewritten form $g(x) = 2\sqrt{-(x - 1)} + 3$:
 2.  **Horizontal Reflection (Inside: negative sign):** Reflects the graph across the **y-axis**. Because the shift happened first, it now "faces" left.
 3.  **Vertical Stretch (Outside: $2$):** Multiplies $y$-values by 2, making the arc **taller**.
 4.  **Vertical Shift (Outside: $+ 3$):** Moves the entire graph **Up 3 units**.
-
 #### 3. Transforming the Key Points
 Apply horizontal changes (multiply $x$ by $-1$, then add $1$) and vertical changes (multiply $y$ by $2$, then add $3$).
 
@@ -2187,8 +2182,6 @@ Apply horizontal changes (multiply $x$ by $-1$, then add $1$) and vertical chang
 | **$(0, 0)$** | $0 + 1 = 1$ | $2(0) + 3 = 3$ | **$(1, 3)$** |
 | **$(1, 1)$** | $-1 + 1 = 0$ | $2(1) + 3 = 5$ | **$(0, 5)$** |
 | **$(4, 2)$** | $-4 + 1 = -3$ | $2(2) + 3 = 7$ | **$(-3, 7)$** |
-
-
 
 ---
 
