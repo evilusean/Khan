@@ -2064,15 +2064,11 @@ After sketching the transformed key points, use these two "Quality Control" step
 This function applies four distinct transformations to the absolute value parent function. To graph this accurately, follow the "Leonard Method" of transforming key points.
 
 ---
-
 #### 1. Identify the Parent Function
 The base shape is the **Absolute Value Function**:
 $$y = |x|$$
 * **Shape:** A V-shape symmetric about the y-axis.
 * **Key Points:** $(-1, 1)$, $(0, 0)$, and $(1, 1)$.
-
-
-
 #### 2. Analyze the Transformations
 Break the function down from the "inside" out:
 
@@ -2080,7 +2076,6 @@ Break the function down from the "inside" out:
 2.  **Vertical Compression (Outside: $1/2$):** Multiplies $y$-values by $1/2$, making the V-shape **wider/flatter**.
 3.  **Reflection (Outside: negative sign):** Reflects the graph across the **x-axis**, flipping the V-shape **upside down**.
 4.  **Vertical Shift (Outside: $+ 2$):** Moves the entire flipped graph **Up 2 units**.
-
 #### 3. Transforming the Key Points
 Apply the horizontal change ($x + 3$) and then the vertical changes (multiply $y$ by $-1/2$, then add $2$).
 
@@ -2091,20 +2086,15 @@ Apply the horizontal change ($x + 3$) and then the vertical changes (multiply $y
 | $(1, 1)$ | $1 + 3 = 4$ | $-\frac{1}{2}(1) + 2 = 1.5$ | **$(4, 1.5)$** |
 
 
-
 ---
-
 ### ⚠️ What to Look Out For
 
 #### 1. The New Vertex
 The "tip" of the V-shape (the vertex) has moved from $(0,0)$ to **$(3, 2)$**. This point $(h, k)$ is your "new origin" for sketching.
-
 #### 2. Direction of Opening
 Because of the negative sign outside the absolute value bars, the graph opens **downward**. 
-
 #### 3. Slope and "Width"
 The $1/2$ acts like a slope for the two lines forming the V. Starting from the vertex $(3, 2)$, the lines go "down 1 unit for every 2 units across" ($m = \pm 1/2$). This makes the graph appear much wider than the parent function.
-
 #### 4. The Y-Intercept (Check)
 Plug in $x=0$ to verify your sketch:
 $f(0) = -1/2 |0 - 3| + 2$
