@@ -2208,3 +2208,58 @@ This matches our transformed key point **$(0, 5)$**.
 
 ##  2026-March-18 - Introduction to Solving Quadratics (Precalculus - College Algebra 16) :
 https://www.youtube.com/watch?v=OIEkJaPgjKs&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=16
+### Introduction to Solving Quadratics
+
+Solving a quadratic equation is fundamentally about finding **where the function hits the ground**. In mathematical terms, you are finding the **x-intercepts**, **roots**, or **zeros** of a parabola [00:02:05].
+
+---
+
+#### 1. What are we actually finding?
+A quadratic function is a polynomial of degree 2 (highest power is $x^2$):
+$$f(x) = ax^2 + bx + c$$
+When we "solve" this, we replace $f(x)$ with **0**.
+* **The Logic:** $f(x)$ represents the height. By setting it to 0, we are asking: "At what x-values is the height exactly zero?" [00:01:41].
+* **The Goal:** Those x-values are the points where the parabola crosses or touches the x-axis [00:02:19].
+
+
+---
+
+#### 2. The Three Possible Outcomes
+Because quadratics create parabolas, there are only three ways the graph can interact with the x-axis [00:05:12]:
+
+| Outcome | Visual Behavior | Solution Type |
+| :--- | :--- | :--- |
+| **Two X-Intercepts** | The parabola crosses the axis twice. | **2 Real Solutions** (No $i$ or imaginary parts) [00:06:04]. |
+| **One X-Intercept** | The vertex "bounces" or touches the axis. | **1 Real Solution** (Often called a "Double Root") [00:07:02]. |
+| **No X-Intercepts** | The parabola is entirely above or below the axis. | **2 Complex Solutions** (Contains $i$ / imaginary units) [00:09:14]. |
+
+
+---
+
+#### 3. The Four Solving Methods
+Professor Leonard introduces four main techniques for finding these zeros. Some are faster for specific problems, while others work for every single quadratic [00:03:09]:
+
+1.  **Square Root Method:** Best when you can isolate the $x^2$ term (e.g., $x^2 = 9$) or a perfect square block [00:03:16].
+2.  **Factoring:** Uses the Zero Product Property. If $(x-r_1)(x-r_2) = 0$, then $x$ must be $r_1$ or $r_2$ [00:03:29].
+3.  **Completing the Square:** A reliable but more involved method that forces the equation into a perfect square format [00:03:41].
+4.  **Quadratic Formula:** The "Universal Tool" that works on any quadratic, even those with complex or messy roots [00:03:52].
+    * Formula: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+
+---
+
+### ⚠️ Common Pitfalls
+
+> [!important] Complex Solutions $\neq$ "No Solution"
+> If you solve an equation and get an imaginary number (like $2 \pm 3i$), the equation **has** solutions, but the graph has **no x-intercepts**. It means the parabola is "missing" the axis entirely [00:10:03].
+
+#### Terminology Confusion
+In your Obsidian notes, remember that these four terms are often used interchangeably in textbooks [00:02:05]:
+* **Zeros**
+* **Roots**
+* **X-intercepts**
+* **Solutions**
+
+---
+
+> [!abstract] Algebra Takeaway
+> To solve a quadratic, you are simply finding the horizontal locations where the height of the parabola is zero. Whether you factor or use the formula, you are identifying the "footprints" of the graph on the x-axis [00:11:05].
