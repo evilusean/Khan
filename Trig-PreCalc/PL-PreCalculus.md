@@ -2013,4 +2013,4 @@ The starting point $(0, 0)$ sits exactly on the y-axis (the axis of reflection),
 
 > [!abstract] Algebra Takeaway
 > A negative sign inside the function is a "horizontal flip." To graph $f(x) = \sqrt{-x}$, take your standard square root "arc" and draw it as a mirror image on the left side of the coordinate plane.
-
+## How to Graph with Transformations (Precalculus - College Algebra 15) :
