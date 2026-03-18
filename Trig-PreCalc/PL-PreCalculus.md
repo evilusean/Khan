@@ -1972,3 +1972,45 @@ The origin $(0, 0)$ is on the axis of reflection, so it does not move. The graph
 
 > [!abstract] Algebra Takeaway
 > A negative sign outside the function is a "vertical flip." To graph $f(x) = -\sqrt[3]{x}$, take your standard S-curve and swap the "up" part with the "down" part. The points $(1,1)$ and $(-1,-1)$ simply trade their vertical positions.
+### Graph Transformation: f(x) = √(-x)
+
+This transformation involves a horizontal modification that flips the square root "parent" shape across the vertical axis.
+
+---
+#### 1. Identify the Parent Function
+The base shape is the **Square Root Function**:
+$$y = \sqrt{x}$$
+* **Shape:** A "starting arc" that begins at the origin and curves into the first quadrant.
+* **Key Points:** $(0, 0)$, $(1, 1)$, and $(4, 2)$.
+#### 2. Analyze the Change
+The negative sign is located **inside** the radical, directly affecting the $x$ input.
+* **Operation:** $f(x) = \sqrt{-x}$
+* **Transformation Type:** **Reflection about the y-axis** (Horizontal Reflection).
+* **Mechanism:** Every positive $x$-value becomes negative. To keep the value under the radical non-negative, you must now plug in negative numbers.
+
+#### 3. Transforming the Key Points
+Because the negative sign is on the "inside," it only affects the $x$-coordinates. You multiply every parent $x$-value by $-1$. The $y$-values remain exactly the same.
+
+| Parent Point ($\sqrt{x}$) | Calculation ($x \cdot -1$) | Transformed Point |
+| :--- | :--- | :--- |
+| $(0, 0)$ | $0 \cdot -1 = 0$ | **$(0, 0)$** |
+| $(1, 1)$ | $1 \cdot -1 = -1$ | **$(-1, 1)$** |
+| $(4, 2)$ | $4 \cdot -1 = -4$ | **$(-4, 2)$** |
+
+---
+### ⚠️ What to Look Out For
+
+#### 1. Domain Flip
+The domain of the parent function is $[0, \infty)$. After the reflection, the new domain is **$(-\infty, 0]$**. 
+* **Logic:** If you plug in $x = -4$, the function becomes $\sqrt{-(-4)}$, which is $\sqrt{4} = 2$. This is why the graph now exists only on the left side of the y-axis.
+#### 2. The "Anchor" Point
+The starting point $(0, 0)$ sits exactly on the y-axis (the axis of reflection), so it does not move. The graph still "launches" from the origin, but it now heads toward the **top-left** instead of the top-right.
+#### 3. Inside vs. Outside Negatives
+* **$f(x) = \sqrt{-x}$**: Reflection across the **y-axis** (Left/Right flip).
+* **$f(x) = -\sqrt{x}$**: Reflection across the **x-axis** (Up/Down flip).
+
+---
+
+> [!abstract] Algebra Takeaway
+> A negative sign inside the function is a "horizontal flip." To graph $f(x) = \sqrt{-x}$, take your standard square root "arc" and draw it as a mirror image on the left side of the coordinate plane.
+
