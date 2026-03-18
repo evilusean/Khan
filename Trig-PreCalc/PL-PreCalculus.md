@@ -2153,3 +2153,62 @@ Your graph should cross the y-axis at **$(0, -0.5)$**.
 
 > [!abstract] Algebra Takeaway
 > When graphing $f(x) = \frac{3}{x-2} + 1$, draw your dashed asymptote lines at $x=2$ and $y=1$ first. Then, treat their intersection as $(0,0)$ and plot your stretched points $(1,3)$ and $(-1,-3)$ relative to that spot.
+
+### Graph Transformation: g(x) = 2√(1 - x) + 3
+
+This function is a "trick" question common in Precalculus. Before identifying transformations, you **must** factor the inside so the $x$ is positive and has a coefficient of $1$.
+
+**Standard Form Rewrite:**
+$$g(x) = 2\sqrt{-(x - 1)} + 3$$
+
+---
+
+#### 1. Identify the Parent Function
+The base shape is the **Square Root Function**:
+$$f(x) = \sqrt{x}$$
+* **Shape:** A "starting arc" beginning at the origin.
+* **Key Points:** $(0, 0), (1, 1), (4, 2)$.
+
+
+
+#### 2. Analyze the Transformations (In Order)
+Using the rewritten form $g(x) = 2\sqrt{-(x - 1)} + 3$:
+
+1.  **Horizontal Shift (Inside: $x - 1$):** Moves the graph **Right 1 unit**.
+2.  **Horizontal Reflection (Inside: negative sign):** Reflects the graph across the **y-axis**. Because the shift happened first, it now "faces" left.
+3.  **Vertical Stretch (Outside: $2$):** Multiplies $y$-values by 2, making the arc **taller**.
+4.  **Vertical Shift (Outside: $+ 3$):** Moves the entire graph **Up 3 units**.
+
+#### 3. Transforming the Key Points
+Apply horizontal changes (multiply $x$ by $-1$, then add $1$) and vertical changes (multiply $y$ by $2$, then add $3$).
+
+| Parent Point ($\sqrt{x}$) | x-calc ($-x + 1$) | y-calc ($2y + 3$) | Transformed Point |
+| :--- | :--- | :--- | :--- |
+| **$(0, 0)$** | $0 + 1 = 1$ | $2(0) + 3 = 3$ | **$(1, 3)$** |
+| **$(1, 1)$** | $-1 + 1 = 0$ | $2(1) + 3 = 5$ | **$(0, 5)$** |
+| **$(4, 2)$** | $-4 + 1 = -3$ | $2(2) + 3 = 7$ | **$(-3, 7)$** |
+
+
+
+---
+
+### ⚠️ What to Look Out For
+
+#### 1. The "Starting Point"
+The origin $(0,0)$ has moved to **$(1, 3)$**. Because of the horizontal reflection, the graph starts at $x=1$ and grows toward the **left** (negative x-direction).
+
+#### 2. The Factoring Trap
+If you don't factor $\sqrt{1-x}$ into $\sqrt{-(x-1)}$, you might mistakenly think the graph shifts *left* 1 unit. Always ensure the $x$ inside the parentheses has a coefficient of $+1$ before naming the shift.
+
+#### 3. Domain and Range
+* **Domain:** $(-\infty, 1]$. The $x$-values must be less than or equal to 1 to keep the inside of the radical positive.
+* **Range:** $[3, \infty)$. The $y$-values start at 3 and go up.
+
+#### 4. The Y-Intercept (Check)
+$g(0) = 2\sqrt{1-0} + 3 = 2(1) + 3 = 5$.
+This matches our transformed key point **$(0, 5)$**.
+
+---
+
+> [!abstract] Algebra Takeaway
+> When you see a negative $x$ inside a radical or parentheses, **factor it out** first. For $g(x) = 2\sqrt{-(x - 1)} + 3$, locate your starting point at **$(1, 3)$** and draw your "tall" square root arc heading toward the **top-left**.
