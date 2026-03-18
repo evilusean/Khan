@@ -2058,3 +2058,60 @@ After sketching the transformed key points, use these two "Quality Control" step
 
 > [!abstract] Algebra Takeaway
 > Never graph by "random plugging." Identify the parent shape, find the new "origin" $(h, k)$, and adjust the height of your key points based on the multiplier $a$. This method works for everything from basic parabolas to complex trigonometric waves [00:30:21].
+
+### Graph Transformation: f(x) = -1/2 |x - 3| + 2
+
+This function applies four distinct transformations to the absolute value parent function. To graph this accurately, follow the "Leonard Method" of transforming key points.
+
+---
+
+#### 1. Identify the Parent Function
+The base shape is the **Absolute Value Function**:
+$$y = |x|$$
+* **Shape:** A V-shape symmetric about the y-axis.
+* **Key Points:** $(-1, 1)$, $(0, 0)$, and $(1, 1)$.
+
+
+
+#### 2. Analyze the Transformations
+Break the function down from the "inside" out:
+
+1.  **Horizontal Shift (Inside: $x - 3$):** Moves the graph **Right 3 units** (Opposite of the sign).
+2.  **Vertical Compression (Outside: $1/2$):** Multiplies $y$-values by $1/2$, making the V-shape **wider/flatter**.
+3.  **Reflection (Outside: negative sign):** Reflects the graph across the **x-axis**, flipping the V-shape **upside down**.
+4.  **Vertical Shift (Outside: $+ 2$):** Moves the entire flipped graph **Up 2 units**.
+
+#### 3. Transforming the Key Points
+Apply the horizontal change ($x + 3$) and then the vertical changes (multiply $y$ by $-1/2$, then add $2$).
+
+| Parent Point ($|x|$) | x-calc ($x + 3$) | y-calc ($-\frac{1}{2}y + 2$) | Transformed Point |
+| :--- | :--- | :--- | :--- |
+| $(-1, 1)$ | $-1 + 3 = 2$ | $-\frac{1}{2}(1) + 2 = 1.5$ | **$(2, 1.5)$** |
+| $(0, 0)$ | $0 + 3 = 3$ | $-\frac{1}{2}(0) + 2 = 2$ | **$(3, 2)$** |
+| $(1, 1)$ | $1 + 3 = 4$ | $-\frac{1}{2}(1) + 2 = 1.5$ | **$(4, 1.5)$** |
+
+
+
+---
+
+### ⚠️ What to Look Out For
+
+#### 1. The New Vertex
+The "tip" of the V-shape (the vertex) has moved from $(0,0)$ to **$(3, 2)$**. This point $(h, k)$ is your "new origin" for sketching.
+
+#### 2. Direction of Opening
+Because of the negative sign outside the absolute value bars, the graph opens **downward**. 
+
+#### 3. Slope and "Width"
+The $1/2$ acts like a slope for the two lines forming the V. Starting from the vertex $(3, 2)$, the lines go "down 1 unit for every 2 units across" ($m = \pm 1/2$). This makes the graph appear much wider than the parent function.
+
+#### 4. The Y-Intercept (Check)
+Plug in $x=0$ to verify your sketch:
+$f(0) = -1/2 |0 - 3| + 2$
+$f(0) = -1/2 (3) + 2 = -1.5 + 2 = 0.5$
+Your graph should cross the y-axis at **$(0, 0.5)$**.
+
+---
+
+> [!abstract] Algebra Takeaway
+> To graph $f(x) = -1/2 |x-3| + 2$, start at the vertex **$(3, 2)$**. Because of the $-1/2$, move right 1 and down 0.5 to plot your next point, then use symmetry to plot the left side. The resulting shape is a wide, upside-down "V".
