@@ -2085,7 +2085,6 @@ Apply the horizontal change ($x + 3$) and then the vertical changes (multiply $y
 | $(0, 0)$ | $0 + 3 = 3$ | $-\frac{1}{2}(0) + 2 = 2$ | **$(3, 2)$** |
 | $(1, 1)$ | $1 + 3 = 4$ | $-\frac{1}{2}(1) + 2 = 1.5$ | **$(4, 1.5)$** |
 
-
 ---
 ### ⚠️ What to Look Out For
 
@@ -2105,3 +2104,64 @@ Your graph should cross the y-axis at **$(0, 0.5)$**.
 
 > [!abstract] Algebra Takeaway
 > To graph $f(x) = -1/2 |x-3| + 2$, start at the vertex **$(3, 2)$**. Because of the $-1/2$, move right 1 and down 0.5 to plot your next point, then use symmetry to plot the left side. The resulting shape is a wide, upside-down "V".
+
+### Graph Transformation: f(x) = 3 / (x - 2) + 1
+
+This function applies three transformations to the reciprocal parent function, which is the most complex shape in the basic library due to its "split" nature and asymptotes.
+
+---
+
+#### 1. Identify the Parent Function
+The base shape is the **Reciprocal Function**:
+$$y = \frac{1}{x}$$
+* **Shape:** A hyperbola with two separate branches in Quadrants I and III.
+* **Key Points:** $(1, 1)$ and $(-1, -1)$.
+* **Asymptotes:** Vertical at $x = 0$; Horizontal at $y = 0$.
+
+
+
+#### 2. Analyze the Transformations
+To see the transformations clearly, rewrite the function as:  
+$$f(x) = 3 \cdot \left( \frac{1}{x - 2} \right) + 1$$
+
+1.  **Horizontal Shift (Inside: $x - 2$):** Moves the graph **Right 2 units**. This moves the Vertical Asymptote.
+2.  **Vertical Stretch (Outside: $3$):** Multiplies $y$-values by 3, pulling the curves farther from the center.
+3.  **Vertical Shift (Outside: $+ 1$):** Moves the entire graph **Up 1 unit**. This moves the Horizontal Asymptote.
+
+#### 3. Transforming the Asymptotes (The "Frame")
+Before plotting points, move the "invisible fences" that guide the graph:
+* **New Vertical Asymptote (VA):** $x = 2$ (Shifted right 2).
+* **New Horizontal Asymptote (HA):** $y = 1$ (Shifted up 1).
+
+The intersection of these two lines **$(2, 1)$** acts as your "new origin."
+
+
+
+#### 4. Transforming the Key Points
+Apply the horizontal change ($x + 2$) and then the vertical changes (multiply $y$ by $3$, then add $1$).
+
+| Parent Point ($1/x$) | x-calc ($x + 2$) | y-calc ($3y + 1$) | Transformed Point |
+| :--- | :--- | :--- | :--- |
+| $(1, 1)$ | $1 + 2 = 3$ | $3(1) + 1 = 4$ | **$(3, 4)$** |
+| $(-1, -1)$ | $-1 + 2 = 1$ | $3(-1) + 1 = -2$ | **$(1, -2)$** |
+
+---
+
+### ⚠️ What to Look Out For
+
+#### 1. The "Steepness"
+Because of the vertical stretch of 3, the curves will look much "sharper" or farther away from the intersection of the asymptotes compared to the parent function.
+
+#### 2. The Y-Intercept (Check)
+Plug in $x = 0$ to verify where the left branch crosses the axis:
+$f(0) = \frac{3}{0 - 2} + 1 = -1.5 + 1 = -0.5$
+Your graph should cross the y-axis at **$(0, -0.5)$**.
+
+#### 3. Domain and Range
+* **Domain:** All real numbers except $x = 2$.
+* **Range:** All real numbers except $y = 1$.
+
+---
+
+> [!abstract] Algebra Takeaway
+> When graphing $f(x) = \frac{3}{x-2} + 1$, draw your dashed asymptote lines at $x=2$ and $y=1$ first. Then, treat their intersection as $(0,0)$ and plot your stretched points $(1,3)$ and $(-1,-3)$ relative to that spot.
