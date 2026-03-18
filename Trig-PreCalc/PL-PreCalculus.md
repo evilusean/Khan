@@ -2207,3 +2207,4 @@ This matches our transformed key point **$(0, 5)$**.
 > When you see a negative $x$ inside a radical or parentheses, **factor it out** first. For $g(x) = 2\sqrt{-(x - 1)} + 3$, locate your starting point at **$(1, 3)$** and draw your "tall" square root arc heading toward the **top-left**.
 
 ##  2026-March-18 - Introduction to Solving Quadratics (Precalculus - College Algebra 16) :
+https://www.youtube.com/watch?v=OIEkJaPgjKs&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=16
