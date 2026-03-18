@@ -2013,7 +2013,7 @@ The starting point $(0, 0)$ sits exactly on the y-axis (the axis of reflection),
 
 > [!abstract] Algebra Takeaway
 > A negative sign inside the function is a "horizontal flip." To graph $f(x) = \sqrt{-x}$, take your standard square root "arc" and draw it as a mirror image on the left side of the coordinate plane.
-## How to Graph with Transformations (Precalculus - College Algebra 15) :
+## 2026-March-18 - How to Graph with Transformations (Precalculus - College Algebra 15) :
 https://www.youtube.com/watch?v=HkrMJLSpJFI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=17
 ### Advanced Graphing with Transformations
 
@@ -2212,3 +2212,5 @@ This matches our transformed key point **$(0, 5)$**.
 
 > [!abstract] Algebra Takeaway
 > When you see a negative $x$ inside a radical or parentheses, **factor it out** first. For $g(x) = 2\sqrt{-(x - 1)} + 3$, locate your starting point at **$(1, 3)$** and draw your "tall" square root arc heading toward the **top-left**.
+
+##  Introduction to Solving Quadratics (Precalculus - College Algebra 16)
