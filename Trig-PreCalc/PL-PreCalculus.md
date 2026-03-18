@@ -2020,7 +2020,6 @@ https://www.youtube.com/watch?v=HkrMJLSpJFI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This lesson focuses on a "Unified Method" for graphing complex functions. Instead of plotting random points, you transform the **"Key Points"** of a parent function and use a **"New Origin"** to anchor the sketch.
 
 ---
-
 #### 1. The 4-Step Leonard Method
 To graph any complex function like $f(x) = a \cdot \text{parent}(x - h) + k$:
 
@@ -2031,18 +2030,14 @@ To graph any complex function like $f(x) = a \cdot \text{parent}(x - h) + k$:
     * **Outside Multiplier ($a$):** Vertical Stretch/Compression + X-axis reflection if negative.
     * **Inside Multiplier:** Horizontal Stretch/Compression + Y-axis reflection if negative.
 4.  **The "New Origin" Sketch:** Move your axes to the new $(h, k)$ position and plot your transformed key points relative to that intersection [00:05:34].
-
 ---
-
 #### 2. Handling the "Inside" (Horizontal Refinements)
 Professor Leonard emphasizes that for horizontal transformations to be clear, the **$x$ must be positive and listed first** inside the function [00:18:20].
 
 * **Factoring for Clarity:** If you have $\sqrt{1-x}$, rewrite it by factoring out the negative: $\sqrt{-(x-1)}$.
     * This reveals the graph is shifted **Right 1**, then reflected across the **Y-axis** [00:26:20].
 * **Reciprocal Functions:** For $f(x) = \frac{3}{x-2} + 1$, rewrite it as $3 \cdot (\frac{1}{x-2}) + 1$ to clearly see the parent is $1/x$, stretched vertically by 3 [00:19:08].
-
 ---
-
 #### 3. Summary of Transformation Effects
 
 | Transformation | Location | Effect on Points | Visual Result |
@@ -2054,14 +2049,11 @@ Professor Leonard emphasizes that for horizontal transformations to be clear, th
 | **X-axis Reflection**| Outside ($-$) | Multiply $y$ by $-1$ | Flips graph upside down [00:03:48] |
 | **Y-axis Reflection**| Inside ($-$) | Multiply $x$ by $-1$ | Flips graph left-to-right [00:28:25] |
 
-
 ---
-
 #### 4. Improving Accuracy
 After sketching the transformed key points, use these two "Quality Control" steps:
 * **Find the Y-Intercept:** Plug in $x=0$ to the original equation. This provides a concrete anchor point to check your sketch [00:08:16].
 * **Use Symmetry:** If the parent is even (like $x^2$ or $|x|$), the transformed graph will still have an **Axis of Symmetry** running through the new vertex [00:09:17].
-
 ---
 
 > [!abstract] Algebra Takeaway
