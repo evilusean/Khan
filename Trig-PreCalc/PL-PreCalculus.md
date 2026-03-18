@@ -2213,17 +2213,13 @@ https://www.youtube.com/watch?v=OIEkJaPgjKs&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Solving a quadratic equation is fundamentally about finding **where the function hits the ground**. In mathematical terms, you are finding the **x-intercepts**, **roots**, or **zeros** of a parabola [00:02:05].
 
 ---
-
 #### 1. What are we actually finding?
 A quadratic function is a polynomial of degree 2 (highest power is $x^2$):
 $$f(x) = ax^2 + bx + c$$
 When we "solve" this, we replace $f(x)$ with **0**.
 * **The Logic:** $f(x)$ represents the height. By setting it to 0, we are asking: "At what x-values is the height exactly zero?" [00:01:41].
 * **The Goal:** Those x-values are the points where the parabola crosses or touches the x-axis [00:02:19].
-
-
 ---
-
 #### 2. The Three Possible Outcomes
 Because quadratics create parabolas, there are only three ways the graph can interact with the x-axis [00:05:12]:
 
@@ -2233,9 +2229,7 @@ Because quadratics create parabolas, there are only three ways the graph can int
 | **One X-Intercept** | The vertex "bounces" or touches the axis. | **1 Real Solution** (Often called a "Double Root") [00:07:02]. |
 | **No X-Intercepts** | The parabola is entirely above or below the axis. | **2 Complex Solutions** (Contains $i$ / imaginary units) [00:09:14]. |
 
-
 ---
-
 #### 3. The Four Solving Methods
 Professor Leonard introduces four main techniques for finding these zeros. Some are faster for specific problems, while others work for every single quadratic [00:03:09]:
 
@@ -2246,7 +2240,6 @@ Professor Leonard introduces four main techniques for finding these zeros. Some 
     * Formula: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 ---
-
 ### ⚠️ Common Pitfalls
 
 > [!important] Complex Solutions $\neq$ "No Solution"
@@ -2258,7 +2251,6 @@ In your Obsidian notes, remember that these four terms are often used interchang
 * **Roots**
 * **X-intercepts**
 * **Solutions**
-
 ---
 
 > [!abstract] Algebra Takeaway
