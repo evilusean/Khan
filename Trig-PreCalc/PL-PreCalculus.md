@@ -2255,3 +2255,5 @@ In your Obsidian notes, remember that these four terms are often used interchang
 
 > [!abstract] Algebra Takeaway
 > To solve a quadratic, you are simply finding the horizontal locations where the height of the parabola is zero. Whether you factor or use the formula, you are identifying the "footprints" of the graph on the x-axis [00:11:05].
+
+## 2026-March-19 - The Square Root Method in Solving Quadratics (Precalculus - College Algebra 17) :
