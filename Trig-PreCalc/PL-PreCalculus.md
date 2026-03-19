@@ -2258,3 +2258,50 @@ In your Obsidian notes, remember that these four terms are often used interchang
 
 ## 2026-March-19 - The Square Root Method in Solving Quadratics (Precalculus - College Algebra 17) :
 https://www.youtube.com/watch?v=mXAd6rkNSK0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=18
+### The Square Root Method (Solving Quadratics)
+
+The Square Root Method is the first and often easiest technique to check for when solving a quadratic equation. It is used to find the **x-intercepts**, **roots**, or **zeros** of a parabola [00:00:55].
+
+---
+
+#### 1. When to Use This Method
+You can use the Square Root Method **if and only if** you can isolate a perfect square (either $x^2$ or a squared binomial) on one side of the equation with a constant on the other [00:03:11].
+* **Look for:** $ax^2 = c$ or $(x + h)^2 = k$.
+* **Avoid if:** There is a "middle" $x$ term (like $3x^2 + 5x - 2 = 0$) that cannot be easily wrapped into a parenthesis [00:03:18].
+
+---
+
+#### 2. The Golden Rule: $\pm$ (Plus or Minus)
+The most critical step—and the most common mistake—is forgetting the plus-or-minus sign [00:01:39].
+* When you "undo" a square by taking a square root, you must acknowledge that both a positive and a negative value, when squared, result in a positive number [00:05:04].
+* **Example:** If $x^2 = 18$, then $x = \pm\sqrt{18}$.
+
+
+---
+
+#### 3. Step-by-Step Procedure
+1.  **Set to Zero:** Start with $f(x) = 0$ to find the x-intercepts [00:02:43].
+2.  **Isolate the Square:** Move constants and divide by coefficients until the squared term is alone [00:12:03].
+3.  **Square Root Both Sides:** Apply the radical to both sides. **Add $\pm$ to the constant side immediately** [00:17:22].
+4.  **Simplify the Radical:** Pull out perfect squares (e.g., $\sqrt{32} = \sqrt{16 \cdot 2} = 4\sqrt{2}$) [00:24:24].
+5.  **Solve for x:** If you have a binomial like $(x+2)$, subtract or add to isolate $x$. Place the moved number **in front** of the $\pm$ [00:18:55].
+    * *Example:* $x = -2 \pm 1$ results in $x = -1$ and $x = -3$ [00:19:44].
+
+---
+
+#### 4. Interpreting the Results
+The type of answer you get tells you exactly what the parabola is doing on the graph [00:08:33]:
+
+| Result Type | Example | Graphical Meaning |
+| :--- | :--- | :--- |
+| **Two Distinct Reals** | $x = 3 \pm \sqrt{11}$ | Crosses the x-axis at two different points [00:13:47]. |
+| **One Real (Double Root)** | $x = 7 \pm 0$ | The vertex sits exactly on the x-axis (bounces) [00:35:16]. |
+| **Two Complex/Imaginary** | $x = 2 \pm 5i$ | The parabola never touches the x-axis (floats above/below) [00:39:00]. |
+
+
+---
+
+### 💡 Formatting Tips for Calculations
+* **Exact Solutions:** Keep the radical (e.g., $\sqrt{11}$). Do not use decimals unless specifically asked for an "approximation" [00:14:23].
+* **Complex Conjugates:** Imaginary solutions always come in pairs (conjugates) because of the $\pm$ sign ($a + bi$ and $a - bi$) [00:42:07].
+* **Simplifying Fractions:** If you have $\frac{-3 \pm 4\sqrt{2}}{2}$, you can only simplify if the denominator divides **both** terms in the numerator [00:27:02].
