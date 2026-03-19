@@ -2356,4 +2356,44 @@ $$x = \pm\sqrt{11}$$
 > [!abstract] Algebra Takeaway
 > Always isolate the squared part **completely** (including dividing by any coefficients) before you take the square root. For $3x^2 = 33$, dividing by 3 first is the only way to avoid messy calculations under the radical.
 
-Would you like me to show you how to solve a version where the result is a **Complex Number** (involving $i$), such as $f(x) = 3x^2 + 33$?
+### Solving g(x) = (x + 2)² - 1 (Square Root Method)
+
+To find the **x-intercepts** (zeros) of the function $g(x) = (x + 2)^2 - 1$, we set the function to zero and isolate the squared binomial.
+
+---
+
+#### 1. Set the Function to Zero
+Replace $g(x)$ with $0$ to find the roots:
+$$0 = (x + 2)^2 - 1$$
+
+#### 2. Isolate the Squared Binomial
+Add 1 to both sides to move the constant away from the square:
+$$1 = (x + 2)^2$$
+
+#### 3. Apply the Square Root Method
+Take the square root of both sides. **Crucial:** You must add the $\pm$ sign to the constant side immediately.
+$$\pm\sqrt{1} = x + 2$$
+$$\pm 1 = x + 2$$
+
+#### 4. Solve for x
+Isolate $x$ by subtracting 2 from both sides. Place the $-2$ in front of the $\pm$ sign for clarity:
+$$x = -2 \pm 1$$
+
+Now, calculate both separate solutions:
+* **Solution 1:** $x = -2 + 1 = \mathbf{-1}$
+* **Solution 2:** $x = -2 - 1 = \mathbf{-3}$
+
+
+
+---
+
+### ⚠️ Graphical Interpretation
+
+* **X-Intercepts:** The graph crosses the x-axis at exactly **$(-1, 0)$** and **$(-3, 0)$**.
+* **Vertex:** Using your knowledge of transformations, the vertex is at **$(-2, -1)$**.
+* **Type of Solutions:** Because we obtained two distinct integers, we know the original quadratic could also have been solved by factoring if expanded.
+
+---
+
+> [!abstract] Algebra Takeaway
+> When solving a squared binomial, do not expand it (FOIL). Instead, isolate the entire group, take the square root, and then finish by moving the number inside the parentheses. This is significantly faster and less prone to calculation errors.
