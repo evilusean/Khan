@@ -2400,44 +2400,34 @@ Now, calculate both separate solutions:
 To find the **x-intercepts** (zeros) of the function $h(x) = (2x + 3)^2 - 32$, we isolate the squared binomial and apply the Square Root Method.
 
 ---
-
 #### 1. Set the Function to Zero
 Replace $h(x)$ with $0$ to find where the parabola crosses the x-axis:
 $$0 = (2x + 3)^2 - 32$$
 
-#### 2. Isolate the Squared Binomial
+####2. Isolate the Squared Binomial
 Add 32 to both sides to move the constant away from the square:
 $$32 = (2x + 3)^2$$
 
-#### 3. Apply the Square Root Method
+####3. Apply the Square Root Method
 Take the square root of both sides. **Crucial:** You must include the $\pm$ sign to account for both directions on the x-axis.
 $$\pm\sqrt{32} = 2x + 3$$
-
 #### 4. Simplify the Radical
 Break down 32 into its factors to pull out the largest perfect square ($16$):
 $$\pm\sqrt{16 \cdot 2} = 2x + 3$$
 $$\pm 4\sqrt{2} = 2x + 3$$
-
 #### 5. Solve for x
 First, subtract 3 from both sides. Place it **in front** of the $\pm$ sign:
 $$-3 \pm 4\sqrt{2} = 2x$$
 
 Finally, divide the entire expression by 2:
 $$x = \frac{-3 \pm 4\sqrt{2}}{2}$$
-
-
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **X-Intercepts:** The graph crosses the x-axis at approximately **$(1.33, 0)$** and **$(-4.33, 0)$**.
 * **Vertex:** Using your knowledge of transformations, the vertex is located at **$(-1.5, -32)$**.
 * **Exact vs. Approximate:** In Precalculus, we leave the answer as **$\frac{-3 \pm 4\sqrt{2}}{2}$**. This represents two irrational real numbers.
-
 ---
 
 > [!abstract] Algebra Takeaway
 > When the coefficient of $x$ inside the square is not 1 (like the $2$ in $2x+3$), your very last step will always be a division. Make sure you divide **both** the lead number and the radical coefficient by the denominator if they are divisible; otherwise, leave it as one large fraction.
-
-Would you like me to show you how to solve a problem where the result is a **Complex Number**, such as $h(x) = (2x+3)^2 + 32$?
