@@ -2431,3 +2431,38 @@ $$x = \frac{-3 \pm 4\sqrt{2}}{2}$$
 
 > [!abstract] Algebra Takeaway
 > When the coefficient of $x$ inside the square is not 1 (like the $2$ in $2x+3$), your very last step will always be a division. Make sure you divide **both** the lead number and the radical coefficient by the denominator if they are divisible; otherwise, leave it as one large fraction.
+### Solving f(x) = (x - 7)² (Square Root Method)
+
+To find the **x-intercepts** (zeros) of the function $f(x) = (x - 7)^2$, we set the function to zero and solve for $x$ using the Square Root Method.
+
+---
+
+#### 1. Set the Function to Zero
+Replace $f(x)$ with $0$ to identify the points where the graph touches the x-axis:
+$$0 = (x - 7)^2$$
+
+#### 2. Apply the Square Root Method
+Take the square root of both sides. 
+* **Note:** Unlike previous problems, $\sqrt{0}$ is simply $0$. There is no "plus or minus" zero because zero is neutral.
+$$\pm\sqrt{0} = x - 7$$
+$$0 = x - 7$$
+
+#### 3. Solve for x
+Isolate $x$ by adding 7 to both sides:
+$$x = 7$$
+
+
+
+---
+
+### ⚠️ Graphical Interpretation
+
+* **X-Intercept:** The graph touches the x-axis at exactly **$(7, 0)$**.
+* **Vertex:** Using transformations, we know the parent function $x^2$ was shifted **Right 7 units**. The vertex is at **$(7, 0)$**.
+* **Type of Solution:** This is a **Single Real Solution**, also known as a **Double Root**. 
+    * Because the squared binomial is equal to zero, the parabola does not "cross" the axis; it "bounces" off the axis at its vertex.
+
+---
+
+> [!abstract] Algebra Takeaway
+> When a squared term equals zero, you will only have one solution. This indicates that the vertex of your parabola is sitting directly on the x-axis. In your Obsidian notes, remember that $(x-7)^2 = 0$ is the algebraic way of saying the graph just "kisses" the x-axis at $x=7$.
