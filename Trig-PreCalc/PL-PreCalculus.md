@@ -2446,15 +2446,11 @@ Take the square root of both sides.
 * **Note:** Unlike previous problems, $\sqrt{0}$ is simply $0$. There is no "plus or minus" zero because zero is neutral.
 $$\pm\sqrt{0} = x - 7$$
 $$0 = x - 7$$
-
 #### 3. Solve for x
 Isolate $x$ by adding 7 to both sides:
 $$x = 7$$
 
-
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **X-Intercept:** The graph touches the x-axis at exactly **$(7, 0)$**.
