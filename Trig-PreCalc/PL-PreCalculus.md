@@ -2325,3 +2325,39 @@ $$x = \pm3\sqrt{2}$$
 ---
 > [!abstract] Algebra Takeaway
 > When using the square root method, always simplify your radical into **exact form** (using the radical symbol) rather than decimals unless otherwise specified. For $x^2 = 18$, the "clean" answer is $\pm3\sqrt{2}$.
+
+### Solving f(x) = 3x² - 33 (Square Root Method)
+
+To find the **x-intercepts** (zeros) of the function $f(x) = 3x^2 - 33$, we set the function to zero and isolate the $x^2$ term before applying the Square Root Method.
+
+---
+
+#### 1. Set the Function to Zero
+Replace $f(x)$ with $0$ to find where the parabola touches the x-axis:
+$$0 = 3x^2 - 33$$
+
+#### 2. Isolate the Squared Term
+First, add 33 to both sides:
+$$33 = 3x^2$$
+Next, divide both sides by 3 to get $x^2$ completely alone:
+$$11 = x^2$$
+
+#### 3. Apply the Square Root Method
+Take the square root of both sides. **Crucial:** You must include the $\pm$ sign to account for both the positive and negative directions on the x-axis.
+$$x = \pm\sqrt{11}$$
+
+
+
+---
+
+### ⚠️ Graphical Interpretation
+
+* **X-Intercepts:** The graph crosses the x-axis at approximately **$(3.32, 0)$** and **$(-3.32, 0)$**.
+* **Vertex:** Since there is no "middle" $bx$ term, the vertex is located at **$(0, -33)$**.
+* **Type of Solutions:** Because 11 is not a perfect square, we leave the answer in its **Exact Form**: $\pm\sqrt{11}$.
+---
+
+> [!abstract] Algebra Takeaway
+> Always isolate the squared part **completely** (including dividing by any coefficients) before you take the square root. For $3x^2 = 33$, dividing by 3 first is the only way to avoid messy calculations under the radical.
+
+Would you like me to show you how to solve a version where the result is a **Complex Number** (involving $i$), such as $f(x) = 3x^2 + 33$?
