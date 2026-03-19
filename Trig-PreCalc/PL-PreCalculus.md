@@ -2383,10 +2383,7 @@ Now, calculate both separate solutions:
 * **Solution 1:** $x = -2 + 1 = \mathbf{-1}$
 * **Solution 2:** $x = -2 - 1 = \mathbf{-3}$
 
-
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **X-Intercepts:** The graph crosses the x-axis at exactly **$(-1, 0)$** and **$(-3, 0)$**.
