@@ -2301,14 +2301,12 @@ The type of answer you get tells you exactly what the parabola is doing on the g
 To find the **x-intercepts** (zeros) of the function $f(x) = x^2 - 18$, we set the function to zero and isolate the squared term.
 
 ---
-
 #### 1. Set the Function to Zero
 $$0 = x^2 - 18$$
 
 #### 2. Isolate the Squared Term
 Add 18 to both sides of the equation:
 $$18 = x^2$$
-
 #### 3. Apply the Square Root Method
 Take the square root of both sides. **Crucial:** Remember to include the $\pm$ sign to account for both the positive and negative roots.
 $$\pm\sqrt{18} = x$$
@@ -2318,17 +2316,12 @@ Break down 18 into its prime factors to find the largest perfect square ($\sqrt{
 $$x = \pm\sqrt{9 \cdot 2}$$
 $$x = \pm3\sqrt{2}$$
 
-
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **X-Intercepts:** The graph crosses the x-axis at approximately **$(4.24, 0)$** and **$(-4.24, 0)$**.
 * **Vertex:** Since there is no "middle" $bx$ term, the vertex remains on the y-axis at **$(0, -18)$**.
 * **Solutions:** Because we have two real, distinct numbers, the parabola has two clear x-intercepts.
-
 ---
-
 > [!abstract] Algebra Takeaway
 > When using the square root method, always simplify your radical into **exact form** (using the radical symbol) rather than decimals unless otherwise specified. For $x^2 = 18$, the "clean" answer is $\pm3\sqrt{2}$.
