@@ -2331,7 +2331,6 @@ $$x = \pm3\sqrt{2}$$
 To find the **x-intercepts** (zeros) of the function $f(x) = 3x^2 - 33$, we set the function to zero and isolate the $x^2$ term before applying the Square Root Method.
 
 ---
-
 #### 1. Set the Function to Zero
 Replace $f(x)$ with $0$ to find where the parabola touches the x-axis:
 $$0 = 3x^2 - 33$$
@@ -2346,10 +2345,7 @@ $$11 = x^2$$
 Take the square root of both sides. **Crucial:** You must include the $\pm$ sign to account for both the positive and negative directions on the x-axis.
 $$x = \pm\sqrt{11}$$
 
-
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **X-Intercepts:** The graph crosses the x-axis at approximately **$(3.32, 0)$** and **$(-3.32, 0)$**.
