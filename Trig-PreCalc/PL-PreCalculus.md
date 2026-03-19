@@ -2462,3 +2462,41 @@ $$x = 7$$
 
 > [!abstract] Algebra Takeaway
 > When a squared term equals zero, you will only have one solution. This indicates that the vertex of your parabola is sitting directly on the x-axis. In your Obsidian notes, remember that $(x-7)^2 = 0$ is the algebraic way of saying the graph just "kisses" the x-axis at $x=7$.
+
+### Solving f(x) = (3x - 2)² + 75 (Square Root Method)
+
+To find the **x-intercepts** (zeros) of the function $f(x) = (3x - 2)^2 + 75$, we isolate the squared binomial and apply the Square Root Method. Because the squared term will equal a negative number, the solutions will be **complex**.
+
+---
+#### 1. Set the Function to Zero
+Replace $f(x)$ with $0$ to identify the points where the graph would interact with the x-axis:
+$$0 = (3x - 2)^2 + 75$$
+#### 2. Isolate the Squared Binomial
+Subtract 75 from both sides of the equation:
+$$-75 = (3x - 2)^2$$
+#### 3. Apply the Square Root Method
+Take the square root of both sides. **Crucial:** You must include the $\pm$ sign and account for the negative inside the radical using $i$ ($\sqrt{-1} = i$).
+$$\pm\sqrt{-75} = 3x - 2$$
+$$\pm i\sqrt{75} = 3x - 2$$
+#### 4. Simplify the Radical
+Break down 75 into its prime factors to pull out the largest perfect square ($25$):
+$$\pm i\sqrt{25 \cdot 3} = 3x - 2$$
+$$\pm 5i\sqrt{3} = 3x - 2$$
+#### 5. Solve for x
+First, add 2 to both sides. Place it **in front** of the $\pm$ sign:
+$$2 \pm 5i\sqrt{3} = 3x$$
+
+Finally, divide the entire expression by 3:
+$$x = \frac{2 \pm 5i\sqrt{3}}{3}$$
+
+---
+### ⚠️ Graphical Interpretation
+* **X-Intercepts:** There are **no real x-intercepts**. Because the solutions contain the imaginary unit $i$, the parabola never touches or crosses the x-axis.
+* **Vertex:** Using transformations, the vertex is located at approximately **$(2/3, 75)$**.
+* **Type of Solutions:** These are **Complex Conjugates**. In your Obsidian notes, remember that complex solutions always come in pairs ($a + bi$ and $a - bi$).
+---
+
+> [!abstract] Algebra Takeaway
+> When you take the square root of a negative number, the graph "floats" away from the x-axis. Algebraically, you simply factor out the $i$ and continue simplifying the radical as usual. The resulting fraction represents the two complex roots of the quadratic.
+
+Would you like me to show you how to solve a quadratic using the next method in the sequence, **Factoring**, for your notes?
