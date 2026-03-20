@@ -2598,3 +2598,62 @@ This method forces the equation into a "Squared Binomial" format so we can use t
 
 > [!abstract] Algebra Takeaway
 > While factoring $(x+6)(x+1)$ is the path of least resistance here, Completing the Square is the superior tool for graphing because it gives you the vertex **$(-3.5, -6.25)$** as a byproduct of the calculation.
+### Solving g(x) = 3x(x - 4) - 36 (Completing the Square)
+
+To use Professor Leonard's method for **Completing the Square**, the equation must first be in standard trinomial form ($ax^2 + bx + c$). 
+
+---
+
+#### 1. Expand and Standardize
+First, distribute the $3x$ and set the function to zero to find the x-intercepts:
+$$0 = 3x^2 - 12x - 36$$
+
+#### 2. Isolate the x-terms and Simplify
+Move the constant ($-36$) to the other side:
+$$36 = 3x^2 - 12x$$
+
+**Crucial Step:** Professor Leonard emphasizes that you cannot complete the square unless the coefficient of $x^2$ is **1**. Divide the entire equation by 3:
+$$12 = x^2 - 4x$$
+
+#### 3. Find the "Magic Number"
+Use the shortcut $(\frac{b}{2})^2$:
+1.  **Identify $b$:** $-4$
+2.  **Divide by 2:** $-2$
+3.  **Square it:** $(-2)^2 = \mathbf{4}$
+
+Add **4** to **both** sides of the equation to maintain balance:
+$$x^2 - 4x + 4 = 12 + 4$$
+$$x^2 - 4x + 4 = 16$$
+
+
+
+#### 4. The Factoring Shortcut
+The left side is now a perfect square. According to the shortcut, it always factors into $(x + \frac{b}{2})^2$:
+$$(x - 2)^2 = 16$$
+
+#### 5. The Square Root Method (The Finisher)
+Take the square root of both sides, remembering the $\pm$ sign:
+$$x - 2 = \pm\sqrt{16}$$
+$$x - 2 = \pm 4$$
+
+#### 6. Final Solutions
+Isolate $x$ by adding 2 to both sides:
+$$x = 2 \pm 4$$
+
+* **Solution 1:** $x = 2 + 4 = \mathbf{6}$
+* **Solution 2:** $x = 2 - 4 = \mathbf{-2}$
+
+
+
+---
+
+### ⚠️ Graphical Interpretation
+
+* **X-Intercepts:** The graph crosses the x-axis at **$(6, 0)$** and **$(-2, 0)$**.
+* **Vertex:** From the completed square form $(x - 2)^2 = 16$, we can see the horizontal shift is 2. Plugging $x=2$ into the original equation gives $g(2) = 3(2)(2-4)-36 = -12-36 = -48$. The vertex is **$(2, -48)$**.
+* **Check:** If you factored the original standardized equation $3(x^2 - 4x - 12) = 0$, you would get $3(x-6)(x+2) = 0$, confirming our roots are $6$ and $-2$.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Always ensure your $x^2$ term has a coefficient of **1** before you calculate the magic number $(\frac{b}{2})^2$. If you have a multiplier like 3, divide it out immediately to keep the completing the square process clean and accurate.
