@@ -2804,9 +2804,7 @@ $$f(x) = 4x^2 - 12x + 9$$
 
 To find the x-intercepts, we set the function to zero:
 $$0 = 4x^2 - 12x + 9$$
-
 ---
-
 ### Method 1: Professor Leonard's Diamond Method
 This is the "Complete Shortcut" for when $a > 1$.
 
@@ -2823,11 +2821,7 @@ This is the "Complete Shortcut" for when $a > 1$.
     * $0 = (2x - 3)(2x - 3) \rightarrow \mathbf{(2x - 3)^2 = 0}$
 5.  **Solve for Zeros:**
     * $2x - 3 = 0 \rightarrow 2x = 3 \rightarrow \mathbf{x = 1.5}$
-
-
-
 ---
-
 ### Method 2: Factoring by Grouping
 This shows the algebraic structure by splitting the middle term.
 
@@ -2839,11 +2833,7 @@ This shows the algebraic structure by splitting the middle term.
 3.  **Factor the Common Binomial:**
     * $0 = (2x - 3)(2x - 3)$
     * $0 = (2x - 3)^2$
-
-
-
 ---
-
 ### Method 3: Factoring by Squaring (Perfect Square Trinomial)
 Professor Leonard highlights this as a "special case" where the first and last terms are perfect squares.
 
@@ -2857,11 +2847,7 @@ Professor Leonard highlights this as a "special case" where the first and last t
 3.  **Solve using Square Root Method:**
     * $\sqrt{(2x - 3)^2} = \sqrt{0}$
     * $2x - 3 = 0 \rightarrow \mathbf{x = 1.5}$
-
-
-
 ---
-
 ### ⚠️ Graphical Interpretation
 * **Type of Solution:** This is a **Double Root**. 
 * **Behavior:** Because the two factors are identical, the parabola does not cross through the x-axis; it simply **touches/bounces** at the vertex $(1.5, 0)$.
