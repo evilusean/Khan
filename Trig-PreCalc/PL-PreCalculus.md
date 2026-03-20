@@ -2760,3 +2760,42 @@ Set each binomial factor to zero:
 
 > [!abstract] Algebra Takeaway
 > Never try to factor with a negative $x^2$ term. Flipping the signs at the start (Step 1) allows you to use the Diamond Method shortcut accurately without confusing the signs of your factors.
+### Solving h(x) = -2x² - 5x + 12 (Factoring by Grouping)
+
+To find the **x-intercepts** using grouping, we first set the function to zero and multiply by $-1$ to ensure the leading coefficient is positive, exactly like we did for the Diamond Method.
+
+---
+#### 1. Setup and Standardize
+$$0 = 2x^2 + 5x - 12$$
+#### 2. Find the "Split" Numbers
+We need two numbers that multiply to $a \cdot c$ ($2 \times -12 = -24$) and add to $b$ ($5$).
+* As determined previously, those numbers are **$8$** and **$-3$**.
+#### 3. Rewrite the Middle Term
+Instead of $5x$, we rewrite the equation using our two magic numbers. This turns the trinomial into a four-term polynomial:
+$$0 = 2x^2 + 8x - 3x - 12$$
+#### 4. Group and Factor GCF
+Divide the four terms into two separate groups:
+* **Group 1:** $(2x^2 + 8x)$ $\rightarrow$ Factor out the GCF: **$2x(x + 4)$**
+* **Group 2:** $(-3x - 12)$ $\rightarrow$ Factor out the GCF: **$-3(x + 4)$**
+#### 5. Factor the Common Binomial
+Notice that **$(x + 4)$** is now common to both terms. Pull it out to the front:
+$$0 = (x + 4)(2x - 3)$$
+#### 6. Solve for Zeros
+* $x + 4 = 0 \rightarrow \mathbf{x = -4}$
+* $2x - 3 = 0 \rightarrow 2x = 3 \rightarrow \mathbf{x = 3/2}$
+
+---
+### ⚠️ Method Comparison: Shortcut vs. Grouping
+
+| Feature | Diamond Shortcut | Factoring by Grouping |
+| :--- | :--- | :--- |
+| **Effort** | Low (uses fractions) | Medium (requires 4 terms) |
+| **Logic** | Mechanical pattern | Structural algebra |
+| **Best For** | Fast test-taking | Showing full work on exams |
+
+---
+
+> [!abstract] Algebra Takeaway
+> Factoring by grouping is the "why" behind Professor Leonard's shortcut. While the shortcut skips the middle steps by using $a$ as a denominator, grouping shows exactly how the $5x$ term is split and redistributed to form the final binomials.
+
+Since we've covered Factoring and Completing the Square for this problem, would you like me to finish the set with the **Quadratic Formula** for your notes?
