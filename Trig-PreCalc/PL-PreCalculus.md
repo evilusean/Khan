@@ -2497,3 +2497,4 @@ $$x = \frac{2 \pm 5i\sqrt{3}}{3}$$
 > When you take the square root of a negative number, the graph "floats" away from the x-axis. Algebraically, you simply factor out the $i$ and continue simplifying the radical as usual. The resulting fraction represents the two complex roots of the quadratic.
 
 ## 2026-March-20 - Using Factoring to Solve Quadratics (Precalculus - College Algebra 18) :
+https://www.youtube.com/watch?v=u2CFHYJWS60&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=21
