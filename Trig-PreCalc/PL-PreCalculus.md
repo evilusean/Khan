@@ -2657,7 +2657,7 @@ This method is used to force the equation into a "Squared Binomial" so we can us
 > [!abstract] Algebra Takeaway
 > Whether you factor it into $(x-6)(x+2)$ or complete the square to get $(x-2)^2$, you are describing the same parabola. Factoring is your "sprint" to the answers, while Completing the Square is your "map" of the graph's structure.
 
-### Solving g(x) = 3x² + 5x + 2
+### Solving g(x) = 3x² + 2 + 5x
 
 To solve this quadratic, we first rewrite it in **Standard Form** ($ax^2 + bx + c = 0$):
 $$0 = 3x^2 + 5x + 2$$
@@ -2718,3 +2718,45 @@ This method is used to find the vertex and works even if the numbers don't facto
 > [!abstract] Algebra Takeaway
 > Professor Leonard's Diamond Shortcut ($a \cdot c$) is a lifesaver for $3x^2$ problems. However, Completing the Square proves that even when you have messy fractions like $5/3$, the structure of the parabola remains predictable and solvable.
 
+### Solving h(x) = -2x² - 5x + 12 (Professor Leonard's Diamond Method)
+
+To solve this quadratic for the **x-intercepts** (zeros), we must first ensure the leading coefficient ($a$) is positive. Professor Leonard recommends multiplying the entire equation by $-1$ to make factoring significantly easier.
+
+---
+#### 1. Setup and Normalize
+Set the function to zero and multiply both sides by $-1$ to flip the signs:
+$$0 = -2x^2 - 5x + 12$$
+$$0 = 2x^2 + 5x - 12$$
+
+#### 2. The Diamond Setup
+Now, we look for two "magic numbers" that satisfy the $a \cdot c$ conditions:
+* **Top (Sum $b$):** $5$
+* **Bottom (Product $a \cdot c$):** $2 \cdot (-12) = \mathbf{-24}$
+#### 3. Find the Magic Numbers
+We need two numbers that multiply to $-24$ and add to $5$:
+* **Pair:** $8$ and $-3$
+* Check: $8 \times -3 = -24$ and $8 + (-3) = 5$.
+#### 4. The "Complete Shortcut" (Division by $a$)
+Divide both magic numbers by the leading coefficient ($a = 2$) and simplify the fractions:
+* **Number 1:** $8/2 = \mathbf{4/1}$
+* **Number 2:** $\mathbf{-3/2}$ (Already simplified)
+#### 5. Read the Factors
+Using the denominator as the $x$ coefficient and the numerator as the constant:
+* $4/1 \rightarrow (1x + 4)$
+* $-3/2 \rightarrow (2x - 3)$
+
+**Factored Form:** $0 = (x + 4)(2x - 3)$
+#### 6. Solve for Zeros
+Set each binomial factor to zero:
+* $x + 4 = 0 \rightarrow \mathbf{x = -4}$
+* $2x - 3 = 0 \rightarrow 2x = 3 \rightarrow \mathbf{x = 3/2}$ (or $1.5$)
+---
+### ⚠️ Graphical Interpretation
+
+* **X-Intercepts:** The graph crosses the x-axis at **$(-4, 0)$** and **$(1.5, 0)$**.
+* **Direction:** Because the *original* leading coefficient was negative ($-2$), the parabola opens **downward**.
+* **Y-Intercept:** Looking at the original equation, the constant term is $+12$, so the graph crosses the y-axis at **$(0, 12)$**.
+---
+
+> [!abstract] Algebra Takeaway
+> Never try to factor with a negative $x^2$ term. Flipping the signs at the start (Step 1) allows you to use the Diamond Method shortcut accurately without confusing the signs of your factors.
