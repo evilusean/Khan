@@ -2543,3 +2543,58 @@ Professor Leonard teaches a specific shortcut that works even when the leading c
 ---
 > [!abstract] Algebra Takeaway
 > The "Complete Shortcut" (dividing by $a$) is the most reliable way to handle complex factoring. It bridges the gap between simple factoring and the heavy lifting of the Quadratic Formula. Always simplify your fractions before reading your factors!
+
+### Solving f(x) = x² + 7x + 6
+
+This quadratic can be solved using two different approaches. **Factoring** (using Professor Leonard's "Diamond Method" shortcut) is the fastest when the numbers are clean, while **Completing the Square** is a universal method that works even for messy decimals or imaginary roots.
+
+---
+### Method 1: Professor Leonard's Factoring Shortcut
+Since the leading coefficient is $1$, we look for two numbers that satisfy the "Diamond" requirements.
+
+1.  **Identify the Target:**
+    * **Sum ($b$):** $7$
+    * **Product ($a \cdot c$):** $1 \cdot 6 = 6$
+2.  **Find the "Magic Numbers":** Which two numbers multiply to $6$ and add to $7$?
+    * The numbers are **$6$** and **$1$**.
+3.  **Apply the Shortcut:**
+    * Since $a=1$, we simply place these into binomials:
+    * $f(x) = (x + 6)(x + 1)$
+4.  **Solve for Zeros:** Set each factor to zero.
+    * $x + 6 = 0 \rightarrow \mathbf{x = -6}$
+    * $x + 1 = 0 \rightarrow \mathbf{x = -1}$
+
+---
+### Method 2: Completing the Square
+This method forces the equation into a "Squared Binomial" format so we can use the Square Root Method.
+
+1.  **Isolate the x-terms:** Move the constant to the other side.
+    $$x^2 + 7x = -6$$
+2.  **Find the "Magic Number":** Use the formula $(\frac{b}{2})^2$.
+    * $b = 7$
+    * $\frac{7}{2} = 3.5$
+    * $(3.5)^2 = \mathbf{12.25}$ (or $49/4$)
+3.  **Balance the Equation:** Add $12.25$ to **both** sides.
+    $$x^2 + 7x + 12.25 = -6 + 12.25$$
+4.  **The Factoring Shortcut:** The left side *always* factors into $(x + \frac{b}{2})^2$.
+    $$(x + 3.5)^2 = 6.25$$
+5.  **Square Root Method:**
+    $$x + 3.5 = \pm\sqrt{6.25}$$
+    $$x + 3.5 = \pm 2.5$$
+6.  **Final Solutions:**
+    * $x = -3.5 + 2.5 = \mathbf{-1}$
+    * $x = -3.5 - 2.5 = \mathbf{-6}$
+
+---
+### ⚠️ Comparison for your Notes
+
+| Feature | Factoring Method | Completing the Square |
+| :--- | :--- | :--- |
+| **Speed** | Very Fast (if factorable) | Slower, more steps |
+| **Reliability** | Only works for "clean" roots | Works for **all** quadratics |
+| **Visual Hint** | Finds intercepts directly | Reveals the **Vertex** ($h, k$) |
+
+---
+
+> [!abstract] Algebra Takeaway
+> While factoring $(x+6)(x+1)$ is the path of least resistance here, Completing the Square is the superior tool for graphing because it gives you the vertex **$(-3.5, -6.25)$** as a byproduct of the calculation.
