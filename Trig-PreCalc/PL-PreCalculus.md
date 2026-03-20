@@ -2498,3 +2498,59 @@ $$x = \frac{2 \pm 5i\sqrt{3}}{3}$$
 
 ## 2026-March-20 - Using Factoring to Solve Quadratics (Precalculus - College Algebra 18) :
 https://www.youtube.com/watch?v=u2CFHYJWS60&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=21
+### Solving Quadratics by Factoring (Professor Leonard)
+
+Factoring is the second primary technique for finding **x-intercepts** (also called zeros, roots, or solutions). While the Square Root Method is faster for isolated squares, factoring is the go-to when you have an $ax^2 + bx + c$ trinomial where $b \neq 0$.
+
+---
+
+#### 1. Core Prerequisites for Factoring
+Before applying any factoring technique, your equation must meet these three conditions:
+1.  **Set to Zero:** The equation must be $f(x) = 0$.
+2.  **Descending Order:** Terms must be arranged as $ax^2 + bx + c$.
+3.  **Positive Leading Coefficient:** If $a$ is negative, multiply the entire equation by $-1$ to make $a$ positive. This simplifies the process without changing the x-intercepts [00:36:58].
+4.  **Factor GCF First:** Always check for a Greatest Common Factor (GCF) before starting. This keeps your numbers small and manageable [00:18:50].
+
+---
+
+#### 2. The "Diamond Method" (Graphic Organizer)
+To factor a trinomial $ax^2 + bx + c$, use an "X" or diamond to find two numbers that satisfy two specific conditions:
+* **Top of X:** The $b$ term (the sum).
+* **Bottom of X:** The product of $a \cdot c$.
+* **Goal:** Find two numbers that **multiply** to $a \cdot c$ and **add** to $b$ [00:06:55].
+
+
+---
+
+#### 3. The "Complete Shortcut" for $a > 1$
+Professor Leonard teaches a specific shortcut that works even when the leading coefficient is not 1. This prevents the need for long "Factoring by Grouping" [00:31:52]:
+
+1.  Find your two magic numbers from the Diamond Method.
+2.  **Divide** both numbers by the leading coefficient ($a$).
+3.  **Simplify** the resulting fractions, but keep them as fractions (e.g., write $4$ as $4/1$).
+4.  **Read the Factors:**
+    * **Denominator:** Tells you the coefficient of $x$.
+    * **Numerator:** Tells you the constant.
+    * *Example:* A fraction of $2/3$ becomes a factor of $(3x + 2)$ [00:33:14].
+5.  **Find Solutions:** Simply change the signs of your simplified fractions to get the x-intercepts immediately [00:33:40].
+
+---
+
+#### 4. Special Cases in Factoring
+* **Double Roots:** If your two magic numbers are the same (e.g., -6 and -6), you have a "perfect square trinomial." The graph just "bounces" off the x-axis at a single point [00:47:35].
+* **Non-Perfect Square Differences:** You can factor things like $x^2 - 5$ by using the square root: $(x - \sqrt{5})(x + \sqrt{5})$ [00:54:15].
+* **No Imaginary Solutions:** Unlike the Square Root Method or Quadratic Formula, if a quadratic is factorable over real numbers, you will not encounter $i$ [00:02:07].
+
+---
+
+### ⚠️ Critical Comparison
+
+| Method | When to Use | Result Type |
+| :--- | :--- | :--- |
+| **Square Root Method** | When there is no $bx$ term (e.g., $x^2 - 18$). | Real or Imaginary. |
+| **Factoring** | When $ax^2 + bx + c$ is present and factorable. | Real only. |
+
+---
+
+> [!abstract] Algebra Takeaway
+> The "Complete Shortcut" (dividing by $a$) is the most reliable way to handle complex factoring. It bridges the gap between simple factoring and the heavy lifting of the Quadratic Formula. Always simplify your fractions before reading your factors!
