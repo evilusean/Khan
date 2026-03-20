@@ -2598,50 +2598,62 @@ This method forces the equation into a "Squared Binomial" format so we can use t
 
 > [!abstract] Algebra Takeaway
 > While factoring $(x+6)(x+1)$ is the path of least resistance here, Completing the Square is the superior tool for graphing because it gives you the vertex **$(-3.5, -6.25)$** as a byproduct of the calculation.
-### Solving g(x) = 3x(x - 4) - 36 (Completing the Square)
+### ### Solving g(x) = 3x(x - 4) - 36
 
-To use Professor Leonard's method for **Completing the Square**, the equation must first be in standard trinomial form ($ax^2 + bx + c$). 
+To find the **x-intercepts** (zeros) of this function, we first need to get it into standard trinomial form ($ax^2 + bx + c$) by distributing the $3x$:
+$$g(x) = 3x^2 - 12x - 36$$
 
----
-#### 1. Expand and Standardize
-First, distribute the $3x$ and set the function to zero to find the x-intercepts:
+Setting the function to zero:
 $$0 = 3x^2 - 12x - 36$$
 
-#### 2. Isolate the x-terms and Simplify
-Move the constant ($-36$) to the other side:
-$$36 = 3x^2 - 12x$$
-
-**Crucial Step:** Professor Leonard emphasizes that you cannot complete the square unless the coefficient of $x^2$ is **1**. Divide the entire equation by 3:
-$$12 = x^2 - 4x$$
-#### 3. Find the "Magic Number"
-Use the shortcut $(\frac{b}{2})^2$:
-1.  **Identify $b$:** $-4$
-2.  **Divide by 2:** $-2$
-3.  **Square it:** $(-2)^2 = \mathbf{4}$
-
-Add **4** to **both** sides of the equation to maintain balance:
-$$x^2 - 4x + 4 = 12 + 4$$
-$$x^2 - 4x + 4 = 16$$
-#### 4. The Factoring Shortcut
-The left side is now a perfect square. According to the shortcut, it always factors into $(x + \frac{b}{2})^2$:
-$$(x - 2)^2 = 16$$
-#### 5. The Square Root Method (The Finisher)
-Take the square root of both sides, remembering the $\pm$ sign:
-$$x - 2 = \pm\sqrt{16}$$
-$$x - 2 = \pm 4$$
-#### 6. Final Solutions
-Isolate $x$ by adding 2 to both sides:
-$$x = 2 \pm 4$$
-
-* **Solution 1:** $x = 2 + 4 = \mathbf{6}$
-* **Solution 2:** $x = 2 - 4 = \mathbf{-2}$
 ---
-### ⚠️ Graphical Interpretation
+### Method 1: Professor Leonard's Factoring Shortcut
+This is the fastest method when the quadratic is factorable. 
 
-* **X-Intercepts:** The graph crosses the x-axis at **$(6, 0)$** and **$(-2, 0)$**.
-* **Vertex:** From the completed square form $(x - 2)^2 = 16$, we can see the horizontal shift is 2. Plugging $x=2$ into the original equation gives $g(2) = 3(2)(2-4)-36 = -12-36 = -48$. The vertex is **$(2, -48)$**.
-* **Check:** If you factored the original standardized equation $3(x^2 - 4x - 12) = 0$, you would get $3(x-6)(x+2) = 0$, confirming our roots are $6$ and $-2$.
+1.  **Factor the GCF first:** Notice all terms are divisible by 3.
+    $$0 = 3(x^2 - 4x - 12)$$
+2.  **Identify the Target (Diamond Method):**
+    * **Sum ($b$):** $-4$
+    * **Product ($a \cdot c$):** $1 \cdot (-12) = -12$
+3.  **Find the Magic Numbers:** Which two numbers multiply to $-12$ and add to $-4$?
+    * The numbers are **$-6$** and **$+2$**.
+4.  **Apply the Shortcut:**
+    * $0 = 3(x - 6)(x + 2)$
+5.  **Solve for Zeros:**
+    * $x - 6 = 0 \rightarrow \mathbf{x = 6}$
+    * $x + 2 = 0 \rightarrow \mathbf{x = -2}$
+
+---
+### Method 2: Completing the Square
+This method is used to force the equation into a "Squared Binomial" so we can use the **Square Root Method**.
+
+1.  **Isolate and Simplify:** Move the constant and divide by the leading coefficient ($a=3$).
+    $$3x^2 - 12x = 36$$
+    $$x^2 - 4x = 12$$
+2.  **Find the Magic Number:** Use $(\frac{b}{2})^2$.
+    * $b = -4$
+    * $\frac{-4}{2} = -2$
+    * $(-2)^2 = \mathbf{4}$
+3.  **Balance the Equation:** Add $4$ to **both** sides.
+    $$x^2 - 4x + 4 = 12 + 4$$
+4.  **The Factoring Shortcut:** The left side *always* factors into $(x + \frac{b}{2})^2$.
+    $$(x - 2)^2 = 16$$
+5.  **Square Root Method (The Finisher):**
+    $$x - 2 = \pm\sqrt{16}$$
+    $$x - 2 = \pm 4$$
+6.  **Final Solutions:**
+    * $x = 2 + 4 = \mathbf{6}$
+    * $x = 2 - 4 = \mathbf{-2}$
+---
+### ⚠️ Comparison for your Notes
+
+| Feature | Factoring Method | Completing the Square |
+| :--- | :--- | :--- |
+| **Setup** | Set to $0$, pull out GCF | Move constant, divide by $a$ |
+| **Core Logic** | $(x - 6)(x + 2) = 0$ | $(x - 2)^2 = 16$ |
+| **Best Used For** | Quick mental math | Finding the **Vertex** $(2, -48)$ |
 
 ---
 > [!abstract] Algebra Takeaway
-> Always ensure your $x^2$ term has a coefficient of **1** before you calculate the magic number $(\frac{b}{2})^2$. If you have a multiplier like 3, divide it out immediately to keep the completing the square process clean and accurate.
+> Whether you factor it into $(x-6)(x+2)$ or complete the square to get $(x-2)^2$, you are describing the same parabola. Factoring is your "sprint" to the answers, while Completing the Square is your "map" of the graph's structure.
+
