@@ -2344,7 +2344,6 @@ $$11 = x^2$$
 #### 3. Apply the Square Root Method
 Take the square root of both sides. **Crucial:** You must include the $\pm$ sign to account for both the positive and negative directions on the x-axis.
 $$x = \pm\sqrt{11}$$
-
 ---
 ### ⚠️ Graphical Interpretation
 
@@ -2355,13 +2354,11 @@ $$x = \pm\sqrt{11}$$
 
 > [!abstract] Algebra Takeaway
 > Always isolate the squared part **completely** (including dividing by any coefficients) before you take the square root. For $3x^2 = 33$, dividing by 3 first is the only way to avoid messy calculations under the radical.
-
 ### Solving g(x) = (x + 2)² - 1 (Square Root Method)
 
 To find the **x-intercepts** (zeros) of the function $g(x) = (x + 2)^2 - 1$, we set the function to zero and isolate the squared binomial.
 
 ---
-
 #### 1. Set the Function to Zero
 Replace $g(x)$ with $0$ to find the roots:
 $$0 = (x + 2)^2 - 1$$
@@ -2499,4 +2496,4 @@ $$x = \frac{2 \pm 5i\sqrt{3}}{3}$$
 > [!abstract] Algebra Takeaway
 > When you take the square root of a negative number, the graph "floats" away from the x-axis. Algebraically, you simply factor out the $i$ and continue simplifying the radical as usual. The resulting fraction represents the two complex roots of the quadratic.
 
-Would you like me to show you how to solve a quadratic using the next method in the sequence, **Factoring**, for your notes?
+## 2026-March-20 - Using Factoring to Solve Quadratics (Precalculus - College Algebra 18) :
