@@ -2797,5 +2797,77 @@ $$0 = (x + 4)(2x - 3)$$
 
 > [!abstract] Algebra Takeaway
 > Factoring by grouping is the "why" behind Professor Leonard's shortcut. While the shortcut skips the middle steps by using $a$ as a denominator, grouping shows exactly how the $5x$ term is split and redistributed to form the final binomials.
+### Solving f(x) = 4x² - 12x + 9
 
-Since we've covered Factoring and Completing the Square for this problem, would you like me to finish the set with the **Quadratic Formula** for your notes?
+First, we rewrite the function in **Standard Form** ($ax^2 + bx + c$):
+$$f(x) = 4x^2 - 12x + 9$$
+
+To find the x-intercepts, we set the function to zero:
+$$0 = 4x^2 - 12x + 9$$
+
+---
+
+### Method 1: Professor Leonard's Diamond Method
+This is the "Complete Shortcut" for when $a > 1$.
+
+1.  **The Diamond Setup:**
+    * **Top (Sum $b$):** $-12$
+    * **Bottom (Product $a \cdot c$):** $4 \cdot 9 = 36$
+2.  **Find the Magic Numbers:** Which two numbers multiply to $36$ and add to $-12$?
+    * The numbers are **$-6$** and **$-6$**.
+3.  **The Shortcut (Division by $a$):**
+    * Divide both magic numbers by the leading coefficient ($a = 4$):
+    * **Number 1:** $-6/4 = \mathbf{-3/2}$
+    * **Number 2:** $-6/4 = \mathbf{-3/2}$
+4.  **Read the Factors:**
+    * $0 = (2x - 3)(2x - 3) \rightarrow \mathbf{(2x - 3)^2 = 0}$
+5.  **Solve for Zeros:**
+    * $2x - 3 = 0 \rightarrow 2x = 3 \rightarrow \mathbf{x = 1.5}$
+
+
+
+---
+
+### Method 2: Factoring by Grouping
+This shows the algebraic structure by splitting the middle term.
+
+1.  **Split the Middle Term:** Use the magic numbers ($-6, -6$) to rewrite $-12x$:
+    $$0 = 4x^2 - 6x - 6x + 9$$
+2.  **Group and Factor GCF:**
+    * **Group 1:** $(4x^2 - 6x) \rightarrow \mathbf{2x(2x - 3)}$
+    * **Group 2:** $(-6x + 9) \rightarrow \mathbf{-3(2x - 3)}$
+3.  **Factor the Common Binomial:**
+    * $0 = (2x - 3)(2x - 3)$
+    * $0 = (2x - 3)^2$
+
+
+
+---
+
+### Method 3: Factoring by Squaring (Perfect Square Trinomial)
+Professor Leonard highlights this as a "special case" where the first and last terms are perfect squares.
+
+1.  **Identify the Pattern:**
+    * Is $4x^2$ a square? Yes, $(2x)^2$.
+    * Is $9$ a square? Yes, $(3)^2$.
+    * Is the middle term $2 \cdot (2x) \cdot (3)$? Yes, $12x$.
+2.  **Write the Square:**
+    * Since the middle sign is negative, it follows $(A - B)^2$:
+    * $0 = (2x - 3)^2$
+3.  **Solve using Square Root Method:**
+    * $\sqrt{(2x - 3)^2} = \sqrt{0}$
+    * $2x - 3 = 0 \rightarrow \mathbf{x = 1.5}$
+
+
+
+---
+
+### ⚠️ Graphical Interpretation
+* **Type of Solution:** This is a **Double Root**. 
+* **Behavior:** Because the two factors are identical, the parabola does not cross through the x-axis; it simply **touches/bounces** at the vertex $(1.5, 0)$.
+
+---
+
+> [!abstract] Algebra Takeaway
+> When your magic numbers in the Diamond Method are identical, you have found a Perfect Square Trinomial. You can move directly to the "Squaring" logic, which is the most efficient way to solve and graph the vertex.
+
