@@ -2657,3 +2657,64 @@ This method is used to force the equation into a "Squared Binomial" so we can us
 > [!abstract] Algebra Takeaway
 > Whether you factor it into $(x-6)(x+2)$ or complete the square to get $(x-2)^2$, you are describing the same parabola. Factoring is your "sprint" to the answers, while Completing the Square is your "map" of the graph's structure.
 
+### Solving g(x) = 3x² + 5x + 2
+
+To solve this quadratic, we first rewrite it in **Standard Form** ($ax^2 + bx + c = 0$):
+$$0 = 3x^2 + 5x + 2$$
+---
+### Method 1: Professor Leonard's "Diamond Method" Shortcut
+This is the fastest factoring technique for when the leading coefficient ($a$) is greater than 1.
+
+1.  **The Diamond Setup:**
+    * **Top (Sum $b$):** $5$
+    * **Bottom (Product $a \cdot c$):** $3 \cdot 2 = 6$
+2.  **Find the Magic Numbers:** Which two numbers multiply to $6$ and add to $5$?
+    * The numbers are **$3$** and **$2$**.
+3.  **The "Complete Shortcut" (Division by $a$):**
+    * Divide both magic numbers by the leading coefficient ($a = 3$):
+    * **Number 1:** $3/3 = \mathbf{1/1}$
+    * **Number 2:** $\mathbf{2/3}$
+4.  **Read the Factors:** (Denominator is the $x$ coefficient, Numerator is the constant)
+    * $1/1 \rightarrow (1x + 1)$
+    * $2/3 \rightarrow (3x + 2)$
+    * **Factored Form:** $0 = (x + 1)(3x + 2)$
+5.  **Solve for Zeros:**
+    * $x + 1 = 0 \rightarrow \mathbf{x = -1}$
+    * $3x + 2 = 0 \rightarrow 3x = -2 \rightarrow \mathbf{x = -2/3}$
+---
+### Method 2: Completing the Square
+This method is used to find the vertex and works even if the numbers don't factor cleanly.
+
+1.  **Isolate and Normalize:** Move the constant and divide by $a = 3$.
+    $$3x^2 + 5x = -2$$
+    $$x^2 + \frac{5}{3}x = -\frac{2}{3}$$
+2.  **Find the Magic Number:** Use $(\frac{b}{2})^2$.
+    * $b = 5/3$
+    * $\frac{1}{2} \cdot \frac{5}{3} = \frac{5}{6}$
+    * $(\frac{5}{6})^2 = \mathbf{\frac{25}{36}}$
+3.  **Balance the Equation:** Add $25/36$ to both sides.
+    $$x^2 + \frac{5}{3}x + \frac{25}{36} = -\frac{2}{3} + \frac{25}{36}$$
+    *Convert $-2/3$ to $-24/36$ to add:*
+    $$x^2 + \frac{5}{3}x + \frac{25}{36} = \frac{1}{36}$$
+4.  **The Factoring Shortcut:**
+    $$(x + \frac{5}{6})^2 = \frac{1}{36}$$
+5.  **Square Root Method (The Finisher):**
+    $$x + \frac{5}{6} = \pm\sqrt{\frac{1}{36}}$$
+    $$x + \frac{5}{6} = \pm \frac{1}{6}$$
+6.  **Final Solutions:**
+    * $x = -\frac{5}{6} + \frac{1}{6} = -\frac{4}{6} = \mathbf{-2/3}$
+    * $x = -\frac{5}{6} - \frac{1}{6} = -\frac{6}{6} = \mathbf{-1}$
+
+---
+### ⚠️ Comparison for your Notes
+
+| Feature | Diamond Method | Completing the Square |
+| :--- | :--- | :--- |
+| **Logic** | $(x+1)(3x+2) = 0$ | $(x + 5/6)^2 = 1/36$ |
+| **Key Advantage** | Fastest for x-intercepts | Reveals Vertex: **$(-5/6, -1/36)$** |
+| **Common Error** | Forgetting to divide by $a$ | Mistakes in fraction addition |
+
+---
+> [!abstract] Algebra Takeaway
+> Professor Leonard's Diamond Shortcut ($a \cdot c$) is a lifesaver for $3x^2$ problems. However, Completing the Square proves that even when you have messy fractions like $5/3$, the structure of the parabola remains predictable and solvable.
+
