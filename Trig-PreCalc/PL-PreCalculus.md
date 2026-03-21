@@ -3013,3 +3013,37 @@ $$\mathbf{x = -2 \pm \sqrt{7}}$$
 ---
 > [!abstract] Algebra Takeaway
 > Completing the square is the most reliable way to find the "Vertex Form" of a quadratic. While factoring $(x+h)(x+k)$ only works if the roots are rational, completing the square works for any quadratic, including those with square roots or imaginary numbers.
+### Solving g(x) = x² - 3x + 1 (Completing the Square)
+
+To find the **x-intercepts** (zeros), we use Completing the Square. This specific problem involves an **odd** $b$ value, which means we will be working with fractions.
+
+---
+#### 1. Set the Function to Zero and Isolate Variable Terms
+Replace $g(x)$ with $0$ and move the constant ($+1$) to the right side of the equation:
+$$x^2 - 3x = -1$$#### 2. Find the "Magic Number"
+Use Professor Leonard's shortcut formula $(\frac{b}{2})^2$:
+1.  **Identify $b$:** $-3$
+2.  **Divide by 2:** $-\frac{3}{2}$
+3.  **Square it:** $(-\frac{3}{2})^2 = \mathbf{\frac{9}{4}}$
+
+Add **9/4** to **both** sides of the equation to maintain balance:
+$$x^2 - 3x + \frac{9}{4} = -1 + \frac{9}{4}$$#### 3. The Factoring Shortcut
+The left side is now a **Perfect Square Trinomial**. It always factors into $(x + \frac{b}{2})^2$. Since half of our $b$ was $-\frac{3}{2}$:
+$$(x - \frac{3}{2})^2 = -\frac{4}{4} + \frac{9}{4}$$
+$$(x - \frac{3}{2})^2 = \frac{5}{4}$$#### 4. The Square Root Method (The Finisher)
+Take the square root of both sides. Remember to apply the root to both the numerator and denominator:
+$$x - \frac{3}{2} = \pm\sqrt{\frac{5}{4}}$$
+$$x - \frac{3}{2} = \pm\frac{\sqrt{5}}{2}$$#### 5. Final Solutions
+Isolate $x$ by adding $3/2$ to both sides. Since the denominators are the same, we can combine them into one fraction:
+$$\mathbf{x = \frac{3 \pm \sqrt{5}}{2}}$$
+* **Exact Solutions:** $x = \frac{3 + \sqrt{5}}{2}$ and $x = \frac{3 - \sqrt{5}}{2}$
+* **Approximate Solutions:** $x \approx 2.62$ and $x \approx 0.38$
+---
+### ⚠️ Graphical Interpretation
+
+* **X-Intercepts:** The graph crosses the x-axis at two irrational points: **$(\frac{3 + \sqrt{5}}{2}, 0)$** and **$(\frac{3 - \sqrt{5}}{2}, 0)$**.
+* **Vertex:** From the completed square form $(x - 1.5)^2 - 1.25 = 0$, the vertex is at **$(1.5, -1.25)$**.
+* **Type of Solutions:** These are **Real, Irrational Solutions**. Because 5 is not a perfect square, we must keep the radical to maintain an exact value.
+---
+> [!abstract] Algebra Takeaway
+> When $b$ is an odd number, don't be afraid of the fractions. Keeping the "magic number" as a fraction ($9/4$) instead of a decimal ($2.25$) usually makes the square root step much easier, as the denominator will almost always be a perfect square ($4, 16, 64$, etc.).
