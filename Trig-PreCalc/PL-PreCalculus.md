@@ -2862,7 +2862,6 @@ Professor Leonard highlights this as a "special case" where the first and last t
 To find the **x-intercepts** (roots) of the function $g(x) = x^2 - 5$, we set the function to zero and solve for $x$ using two mathematically identical approaches.
 
 ---
-
 #### Method 1: Difference of Squares (x - √5)(x + √5)
 Professor Leonard demonstrates that any binomial in the form $A^2 - B^2$ can be factored into $(A - B)(A + B)$, even if $B$ is not a perfect square integer.
 
@@ -2873,11 +2872,6 @@ Professor Leonard demonstrates that any binomial in the form $A^2 - B^2$ can be 
 3.  **Solve for Zeros:**
     * $x - \sqrt{5} = 0 \Rightarrow \mathbf{x = \sqrt{5}}$
     * $x + \sqrt{5} = 0 \Rightarrow \mathbf{x = -\sqrt{5}}$
-
-
-
----
-
 #### Method 2: Factoring by Squaring (Square Root Method)
 Since there is no "middle" $bx$ term, we can isolate the squared variable directly. This is often the most efficient path for this specific structure.
 
@@ -2888,9 +2882,7 @@ Since there is no "middle" $bx$ term, we can isolate the squared variable direct
     $$\sqrt{x^2} = \pm\sqrt{5}$$
 3.  **Final Solutions:**
     $$\mathbf{x = \pm\sqrt{5}}$$
-
 ---
-
 #### Graphical Interpretation
 * **X-Intercepts:** The graph crosses the x-axis at approximately **(2.24, 0)** and **(-2.24, 0)**.
 * **Vertex:** Because there is no horizontal shift ($h=0$), the vertex remains on the y-axis at **(0, -5)**.
@@ -2898,3 +2890,5 @@ Since there is no "middle" $bx$ term, we can isolate the squared variable direct
 
 > [!abstract] Algebra Takeaway
 > Factoring $x^2 - 5$ as a difference of squares $(x - \sqrt{5})(x + \sqrt{5})$ is the structural equivalent of taking the square root of both sides. Both methods rely on the fact that 5 is the square of $\sqrt{5}$.
+
+## 2026-March-21 - Completing the Square Made Easy (Precalculus - College Algebra 19) : 
