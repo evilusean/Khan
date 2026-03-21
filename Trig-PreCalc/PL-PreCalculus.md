@@ -2946,11 +2946,9 @@ When $b$ is an odd number or a fraction (e.g., $x^2 - 3x + 1 = 0$):
 To find the **x-intercepts** (zeros), we use the Completing the Square method to transform the trinomial into a squared binomial.
 
 ---
-
 #### 1. Isolate the Variable Terms
 Move the constant ($+9$) to the right side of the equation to create a "gap" for our calculation:
 $$x^2 - 6x = -9$$
-
 #### 2. Find the "Magic Number"
 Use Professor Leonard's shortcut formula $(\frac{b}{2})^2$:
 1.  **Identify $b$:** $-6$
@@ -2959,31 +2957,21 @@ Use Professor Leonard's shortcut formula $(\frac{b}{2})^2$:
 
 Add **9** to **both** sides of the equation to maintain algebraic balance:
 $$x^2 - 6x + 9 = -9 + 9$$
-
-
-
 #### 3. The Factoring Shortcut
 The left side is now a **Perfect Square Trinomial**. It always factors into $(x + \frac{b}{2})^2$. Since half of our $b$ was $-3$:
 $$(x - 3)^2 = 0$$
-
 #### 4. The Square Root Method (The Finisher)
 Take the square root of both sides. Because $\sqrt{0}$ is simply $0$, the $\pm$ sign is unnecessary here.
 $$x - 3 = 0$$
-
 #### 5. Final Solution
 Isolate $x$ by adding 3 to both sides:
 $$\mathbf{x = 3}$$
-
-
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **X-Intercept:** The graph touches the x-axis at exactly **$(3, 0)$**.
 * **Type of Solution:** This is a **Single Real Solution** (also known as a **Double Root**). 
 * **Vertex:** Because the equation simplifies perfectly to $(x-3)^2 = 0$, the vertex is located exactly at the x-intercept: **$(3, 0)$**.
-
 ---
 
 > [!abstract] Algebra Takeaway
