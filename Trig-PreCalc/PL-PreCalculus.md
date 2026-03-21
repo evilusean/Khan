@@ -3127,3 +3127,50 @@ $$x = -\frac{1}{3} \pm \frac{2}{3}$$
 ---
 > [!abstract] Algebra Takeaway
 > Even when the problem starts with fractions, the process remains identical. Keeping everything in fraction form (using $1/9$ instead of $0.111...$) ensures that your "finishing" step with the square root remains precise and often results in perfect squares that are easy to simplify.
+
+### Solving f(x) = 3x² + x - 1/2 (Completing the Square)
+
+This is a "Level 4" problem because it combines a leading coefficient ($a=3$), an odd middle term, and a fractional constant. We must follow Professor Leonard’s steps for factoring $a$ out before finding the magic number.
+
+---
+#### 1. Set the Function to Zero and Isolate Variable Terms
+Replace $f(x)$ with $0$ and move the constant ($-\frac{1}{2}$) to the right side:
+$$3x^2 + x = \frac{1}{2}$$
+#### 2. Factor out the Leading Coefficient ($a=3$)
+To complete the square, the $x^2$ term must have a coefficient of 1. Factor 3 out of the left side:
+$$3(x^2 + \frac{1}{3}x) = \frac{1}{2}$$
+#### 3. Find the "Magic Number"
+Focus on the interior of the parentheses ($x^2 + \frac{1}{3}x$):
+1.  **Identify $b$:** $\frac{1}{3}$
+2.  **Divide by 2:** $\frac{1}{3} \cdot \frac{1}{2} = \mathbf{\frac{1}{6}}$
+3.  **Square it:** $(\frac{1}{6})^2 = \mathbf{\frac{1}{36}}$
+#### 4. Balance the Equation
+**Crucial Step:** When you add $1/36$ inside the parentheses, you are actually adding $3 \times \frac{1}{36} = \mathbf{\frac{1}{12}}$ to the left side. You must add **1/12** to the right side to keep it balanced:
+$$3(x^2 + \frac{1}{3}x + \frac{1}{36}) = \frac{1}{2} + \frac{1}{12}$$
+*Convert 1/2 to 6/12 to add:*
+$$3(x^2 + \frac{1}{3}x + \frac{1}{36}) = \frac{7}{12}$$
+#### 5. The Factoring Shortcut
+The interior factors into $(x + \frac{b}{2})^2$. Using our result from Step 3:
+$$3(x + \frac{1}{6})^2 = \frac{7}{12}$$
+#### 6. Solve using the Square Root Method
+First, divide by 3 (which is the same as multiplying by $1/3$), then take the square root:
+$$(x + \frac{1}{6})^2 = \frac{7}{36}$$
+$$x + \frac{1}{6} = \pm\sqrt{\frac{7}{36}}$$
+$$x + \frac{1}{6} = \pm\frac{\sqrt{7}}{6}$$
+#### 7. Final Solutions
+Isolate $x$ by subtracting $1/6$ from both sides:
+$$\mathbf{x = \frac{-1 \pm \sqrt{7}}{6}}$$
+
+* **Exact Solutions:** $x = \frac{-1 + \sqrt{7}}{6}$ and $x = \frac{-1 - \sqrt{7}}{6}$
+* **Approximate Solutions:** $x \approx 0.27$ and $x \approx -0.61$
+
+---
+### ⚠️ Graphical Interpretation
+
+* **Vertex:** The vertex is found at **$(-1/6, -7/12)$**. (In the form $3(x+1/6)^2 - 7/12 = 0$).
+* **Type of Solutions:** These are **Real, Irrational Solutions**. Because 7 is not a perfect square, we must keep the radical.
+* **Y-Intercept:** Looking at the original equation, the constant is $-1/2$, so it crosses the y-axis at **$(0, -0.5)$**.
+---
+
+> [!abstract] Algebra Takeaway
+> This problem highlights why maintaining fractions is superior to decimals in Precalculus. By using $1/36$, the denominator naturally becomes a perfect square ($36$), which makes the square root step clean and allows for an exact radical answer.
