@@ -3052,54 +3052,37 @@ $$\mathbf{x = \frac{3 \pm \sqrt{5}}{2}}$$
 This problem is a "Level 3" quadratic because the leading coefficient ($a$) is not 1. To complete the square, we must factor $a$ out of the $x$-terms first.
 
 ---
-
 #### 1. Set the Function to Zero and Isolate Variable Terms
 Replace $h(x)$ with $0$ and move the constant ($+2$) to the right side:
 $$5x^2 - 10x = -2$$
-
 #### 2. Factor out the Leading Coefficient ($a=5$)
 Professor Leonard emphasizes that you cannot find the "magic number" until the $x^2$ term is isolated with a coefficient of 1. Factor 5 out of the left side:
 $$5(x^2 - 2x) = -2$$
-
 #### 3. Find the "Magic Number"
 Focus only on the terms inside the parentheses ($x^2 - 2x$):
 1.  **Identify $b$:** $-2$
 2.  **Divide by 2:** $-1$
 3.  **Square it:** $(-1)^2 = \mathbf{1}$
-
 #### 4. Balance the Equation
 **Crucial Step:** When you add $1$ inside the parentheses, you are actually adding $5 \times 1 = \mathbf{5}$ to the left side of the equation. To keep it balanced, you must add **5** to the right side as well:
 $$5(x^2 - 2x + 1) = -2 + 5$$
-$$5(x^2 - 2x + 1) = 3$$
-
-
-
-#### 5. The Factoring Shortcut
+$$5(x^2 - 2x + 1) = 3$$#### 5. The Factoring Shortcut
 The interior of the parentheses is now a Perfect Square Trinomial. Factor it using $(x + \frac{b}{2})^2$:
 $$5(x - 1)^2 = 3$$
-
 #### 6. Solve using the Square Root Method
 First, divide by 5 to isolate the squared binomial, then take the square root of both sides:
 $$(x - 1)^2 = \frac{3}{5}$$
-$$x - 1 = \pm\sqrt{\frac{3}{5}}$$
-
-#### 7. Final Solutions
+$$x - 1 = \pm\sqrt{\frac{3}{5}}$$#### 7. Final Solutions
 Isolate $x$ and rationalize the denominator if required (multiply by $\sqrt{5}/\sqrt{5}$):
 $$x = 1 \pm \frac{\sqrt{3}}{\sqrt{5}}$$
 $$\mathbf{x = 1 \pm \frac{\sqrt{15}}{5}}$$
-
-
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **Vertex:** The vertex is easily visible from the completed square form: **$(1, -3)$**. 
     * *Note:* In the form $5(x-1)^2 = 3$, moving the 3 back gives $5(x-1)^2 - 3 = 0$.
 * **X-Intercepts:** The graph crosses at approximately **$1.77$** and **$0.23$**.
 * **Direction:** Since $a=5$ (positive), the parabola opens upward and is narrower than a standard $x^2$ graph.
-
 ---
-
 > [!abstract] Algebra Takeaway
 > The most common mistake with $a \neq 1$ is forgetting to multiply the "magic number" by the factored-out coefficient. Always remember: **What you add to the inside must be multiplied by the outside before you add it to the other side.**
