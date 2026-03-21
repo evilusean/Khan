@@ -2917,7 +2917,6 @@ For a standard quadratic like $x^2 + 4x - 3 = 0$:
 ---
 #### 3. Handling $a > 1$ (The Factoring Step)
 If the leading coefficient is not 1 (e.g., $5x^2 - 10x + 2 = 0$), you **must** factor $a$ out of the $x$ terms first:
-
 1.  **Factor out $a$:** $5(x^2 - 2x) + 2 = 0$.
 2.  **Find the Magic Number for the interior:** Half of $-2$ is $-1$; $(-1)^2 = \mathbf{1}$.
 3.  **Adjust for the Distribution:**
@@ -2925,8 +2924,6 @@ If the leading coefficient is not 1 (e.g., $5x^2 - 10x + 2 = 0$), you **must** f
     * **Crucial:** You didn't actually add $1$; you added $5 \times 1 = 5$.
     * To balance, you must **subtract 5** outside: $5(x^2 - 2x + 1) - 5 + 2 = 0$.
 4.  **Result:** $5(x - 1)^2 - 3 = 0$.
-
-
 ---
 #### 4. Handling Fractions
 When $b$ is an odd number or a fraction (e.g., $x^2 - 3x + 1 = 0$):
@@ -2934,14 +2931,11 @@ When $b$ is an odd number or a fraction (e.g., $x^2 - 3x + 1 = 0$):
 * **Square it:** $(-3/2)^2 = \mathbf{9/4}$.
 * **Balance:** $(x^2 - 3x + 9/4) - 9/4 + 1 = 0$.
 * **Factor:** $(x - 3/2)^2 - 5/4 = 0$.
-
 ---
 ### ⚠️ Common Pitfalls to Avoid
-
 * **Forgetting to Square:** Students often add $b/2$ instead of $(b/2)^2$.
 * **Sign Errors:** When $a$ is negative (e.g., $-2x^2$), factoring it out changes the sign of the $b$ term inside the parentheses.
 * **Distribution Oversight:** Always multiply the "magic number" by the factored-out $a$ before subtracting it from the constant.
-
 ---
 
 > [!abstract] Algebra Takeaway
