@@ -2894,19 +2894,14 @@ Since there is no "middle" $bx$ term, we can isolate the squared variable direct
 ## 2026-March-21 - Completing the Square Made Easy (Precalculus - College Algebra 19) : 
 https://www.youtube.com/watch?v=pYSYL_vy6YQ&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=21
 ### Completing the Square Made Easy
-
 Completing the square is a method used to force a quadratic into a **Perfect Square Trinomial** so that the **Square Root Method** can be used to solve for $x$. While the Quadratic Formula is often faster for finding zeros, completing the square is a foundational tool for higher-level math (like Calculus II and analyzing Conic Sections).
 
 ---
-
 #### 1. Core Principles
 * **The Goal:** Transform $ax^2 + bx + c = 0$ into the form $(x + h)^2 = k$.
 * **Balance Rule:** If you add a number to one side of the equation to make it factorable, you must immediately subtract it (or add it to the other side) to keep the equation balanced.
 * **The "Leonard Way":** Work on one side of the equation. Add the "magic number" inside the parentheses and subtract it outside.
-
-
 ---
-
 #### 2. The Step-by-Step Process ($a = 1$)
 For a standard quadratic like $x^2 + 4x - 3 = 0$:
 
@@ -2920,7 +2915,6 @@ For a standard quadratic like $x^2 + 4x - 3 = 0$:
 5.  **Solve:** $(x + 2)^2 = 7 \rightarrow x + 2 = \pm\sqrt{7} \rightarrow \mathbf{x = -2 \pm \sqrt{7}}$.
 
 ---
-
 #### 3. Handling $a > 1$ (The Factoring Step)
 If the leading coefficient is not 1 (e.g., $5x^2 - 10x + 2 = 0$), you **must** factor $a$ out of the $x$ terms first:
 
@@ -2934,7 +2928,6 @@ If the leading coefficient is not 1 (e.g., $5x^2 - 10x + 2 = 0$), you **must** f
 
 
 ---
-
 #### 4. Handling Fractions
 When $b$ is an odd number or a fraction (e.g., $x^2 - 3x + 1 = 0$):
 * **Half of $b$:** Half of $-3$ is **$-3/2$**.
@@ -2943,7 +2936,6 @@ When $b$ is an odd number or a fraction (e.g., $x^2 - 3x + 1 = 0$):
 * **Factor:** $(x - 3/2)^2 - 5/4 = 0$.
 
 ---
-
 ### ⚠️ Common Pitfalls to Avoid
 
 * **Forgetting to Square:** Students often add $b/2$ instead of $(b/2)^2$.
@@ -2954,3 +2946,4 @@ When $b$ is an odd number or a fraction (e.g., $x^2 - 3x + 1 = 0$):
 
 > [!abstract] Algebra Takeaway
 > Completing the square is essentially "manufacturing" a perfect square. By dividing $b$ by 2 and squaring it, you are finding the exact constant needed to make the $x$ terms collapse into a single squared binomial.
+
