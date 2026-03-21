@@ -2976,3 +2976,53 @@ $$\mathbf{x = 3}$$
 
 > [!abstract] Algebra Takeaway
 > If the "magic number" you calculate $(\frac{b}{2})^2$ is identical to the constant already in the equation, you are dealing with a Perfect Square Trinomial. This means the parabola "bounces" off the x-axis at a single point rather than crossing through it.
+### Solving f(x) = x² + 4x - 3 (Completing the Square)
+
+To find the **x-intercepts** (zeros), we use the Completing the Square method to transform the trinomial into a squared binomial, which then allows us to use the Square Root Method.
+
+---
+
+#### 1. Set the Function to Zero and Isolate Variable Terms
+Replace $f(x)$ with $0$ and move the constant ($-3$) to the right side of the equation to create a "gap" for our calculation:
+$$x^2 + 4x = 3$$
+
+#### 2. Find the "Magic Number"
+Use Professor Leonard's shortcut formula $(\frac{b}{2})^2$:
+1.  **Identify $b$:** $4$
+2.  **Divide by 2:** $2$
+3.  **Square it:** $(2)^2 = \mathbf{4}$
+
+Add **4** to **both** sides of the equation to maintain algebraic balance:
+$$x^2 + 4x + 4 = 3 + 4$$
+
+
+
+#### 3. The Factoring Shortcut
+The left side is now a **Perfect Square Trinomial**. It always factors into $(x + \frac{b}{2})^2$. Since half of our $b$ was $+2$:
+$$(x + 2)^2 = 7$$
+
+#### 4. The Square Root Method (The Finisher)
+Take the square root of both sides. Because $7$ is not a perfect square, we leave it in radical form and include the $\pm$ sign:
+$$x + 2 = \pm\sqrt{7}$$
+
+#### 5. Final Solutions
+Isolate $x$ by subtracting 2 from both sides:
+$$\mathbf{x = -2 \pm \sqrt{7}}$$
+
+* **Exact Solutions:** $x = -2 + \sqrt{7}$ and $x = -2 - \sqrt{7}$
+* **Approximate Solutions:** $x \approx 0.65$ and $x \approx -4.65$
+
+
+
+---
+
+### ⚠️ Graphical Interpretation
+
+* **X-Intercepts:** The graph crosses the x-axis at two irrational points: **$(-2 + \sqrt{7}, 0)$** and **$(-2 - \sqrt{7}, 0)$**.
+* **Vertex:** Completing the square reveals the vertex form. From $(x + 2)^2 - 7 = 0$, the vertex is at **$(-2, -7)$**.
+* **Type of Solutions:** These are **Real, Irrational Solutions**. Because the number under the radical (7) is positive but not a perfect square, the roots are real but cannot be written as simple fractions.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Completing the square is the most reliable way to find the "Vertex Form" of a quadratic. While factoring $(x+h)(x+k)$ only works if the roots are rational, completing the square works for any quadratic, including those with square roots or imaginary numbers.
