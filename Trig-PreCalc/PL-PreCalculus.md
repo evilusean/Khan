@@ -2892,3 +2892,4 @@ Since there is no "middle" $bx$ term, we can isolate the squared variable direct
 > Factoring $x^2 - 5$ as a difference of squares $(x - \sqrt{5})(x + \sqrt{5})$ is the structural equivalent of taking the square root of both sides. Both methods rely on the fact that 5 is the square of $\sqrt{5}$.
 
 ## 2026-March-21 - Completing the Square Made Easy (Precalculus - College Algebra 19) : 
+https://www.youtube.com/watch?v=pYSYL_vy6YQ&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=21
