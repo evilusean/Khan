@@ -3066,13 +3066,15 @@ Focus only on the terms inside the parentheses ($x^2 - 2x$):
 #### 4. Balance the Equation
 **Crucial Step:** When you add $1$ inside the parentheses, you are actually adding $5 \times 1 = \mathbf{5}$ to the left side of the equation. To keep it balanced, you must add **5** to the right side as well:
 $$5(x^2 - 2x + 1) = -2 + 5$$
-$$5(x^2 - 2x + 1) = 3$$#### 5. The Factoring Shortcut
+$$5(x^2 - 2x + 1) = 3$$
+#### 5. The Factoring Shortcut
 The interior of the parentheses is now a Perfect Square Trinomial. Factor it using $(x + \frac{b}{2})^2$:
 $$5(x - 1)^2 = 3$$
 #### 6. Solve using the Square Root Method
 First, divide by 5 to isolate the squared binomial, then take the square root of both sides:
 $$(x - 1)^2 = \frac{3}{5}$$
-$$x - 1 = \pm\sqrt{\frac{3}{5}}$$#### 7. Final Solutions
+$$x - 1 = \pm\sqrt{\frac{3}{5}}$$
+#### 7. Final Solutions
 Isolate $x$ and rationalize the denominator if required (multiply by $\sqrt{5}/\sqrt{5}$):
 $$x = 1 \pm \frac{\sqrt{3}}{\sqrt{5}}$$
 $$\mathbf{x = 1 \pm \frac{\sqrt{15}}{5}}$$
@@ -3086,3 +3088,42 @@ $$\mathbf{x = 1 \pm \frac{\sqrt{15}}{5}}$$
 ---
 > [!abstract] Algebra Takeaway
 > The most common mistake with $a \neq 1$ is forgetting to multiply the "magic number" by the factored-out coefficient. Always remember: **What you add to the inside must be multiplied by the outside before you add it to the other side.**
+### Solving g(x) = x² + 2/3x - 1/3 (Completing the Square)
+
+This problem involves fractions from the start. To find the **x-intercepts** (zeros), we use the Completing the Square method. 
+
+---
+#### 1. Set the Function to Zero and Isolate Variable Terms
+Replace $g(x)$ with $0$ and move the constant ($-\frac{1}{3}$) to the right side of the equation:
+$$x^2 + \frac{2}{3}x = \frac{1}{3}$$
+#### 2. Find the "Magic Number"
+Use Professor Leonard's formula $(\frac{b}{2})^2$:
+1.  **Identify $b$:** $\frac{2}{3}$
+2.  **Divide by 2:** $\frac{2}{3} \cdot \frac{1}{2} = \mathbf{\frac{1}{3}}$
+3.  **Square it:** $(\frac{1}{3})^2 = \mathbf{\frac{1}{9}}$
+
+Add **1/9** to **both** sides of the equation to maintain balance:
+$$x^2 + \frac{2}{3}x + \frac{1}{9} = \frac{1}{3} + \frac{1}{9}$$
+#### 3. The Factoring Shortcut
+The left side is now a **Perfect Square Trinomial**. It always factors into $(x + \frac{b}{2})^2$. Using our result from Step 2:
+$$(x + \frac{1}{3})^2 = \frac{3}{9} + \frac{1}{9}$$
+$$(x + \frac{1}{3})^2 = \frac{4}{9}$$
+#### 4. The Square Root Method (The Finisher)
+Take the square root of both sides. Since both 4 and 9 are perfect squares, the radical disappears:
+$$x + \frac{1}{3} = \pm\sqrt{\frac{4}{9}}$$
+$$x + \frac{1}{3} = \pm\frac{2}{3}$$
+#### 5. Final Solutions
+Isolate $x$ by subtracting $1/3$ from both sides:
+$$x = -\frac{1}{3} \pm \frac{2}{3}$$
+
+* **Solution 1:** $x = -\frac{1}{3} + \frac{2}{3} = \frac{1}{3} \approx \mathbf{0.33}$
+* **Solution 2:** $x = -\frac{1}{3} - \frac{2}{3} = -\frac{3}{3} = \mathbf{-1}$
+---
+### ⚠️ Graphical Interpretation
+
+* **X-Intercepts:** The graph crosses the x-axis at **$(1/3, 0)$** and **$(-1, 0)$**.
+* **Vertex:** From the completed square form $(x + 1/3)^2 - 4/9 = 0$, the vertex is at **$(-1/3, -4/9)$**.
+* **Type of Solutions:** These are **Real, Rational Solutions**. Because the magic number combined with the constant resulted in a perfect square ($4/9$), the roots are clean fractions/integers.
+---
+> [!abstract] Algebra Takeaway
+> Even when the problem starts with fractions, the process remains identical. Keeping everything in fraction form (using $1/9$ instead of $0.111...$) ensures that your "finishing" step with the square root remains precise and often results in perfect squares that are easy to simplify.
