@@ -3163,7 +3163,6 @@ $$\mathbf{x = \frac{-1 \pm \sqrt{7}}{6}}$$
 
 * **Exact Solutions:** $x = \frac{-1 + \sqrt{7}}{6}$ and $x = \frac{-1 - \sqrt{7}}{6}$
 * **Approximate Solutions:** $x \approx 0.27$ and $x \approx -0.61$
-
 ---
 ### ⚠️ Graphical Interpretation
 
@@ -3174,3 +3173,49 @@ $$\mathbf{x = \frac{-1 \pm \sqrt{7}}{6}}$$
 
 > [!abstract] Algebra Takeaway
 > This problem highlights why maintaining fractions is superior to decimals in Precalculus. By using $1/36$, the denominator naturally becomes a perfect square ($36$), which makes the square root step clean and allows for an exact radical answer.
+
+### Solving h(x) = -2x² + 5x - 7 (Completing the Square)
+
+This problem is a "Level 5" quadratic because it combines a negative leading coefficient ($a = -2$), an odd middle term ($b = 5$), and a result that leads into **Complex/Imaginary numbers**.
+
+---
+#### 1. Set the Function to Zero and Isolate Variable Terms
+Replace $h(x)$ with $0$ and move the constant ($-7$) to the right side:
+$$-2x^2 + 5x = 7$$
+#### 2. Factor out the Leading Coefficient ($a = -2$)
+To complete the square, the $x^2$ term must have a coefficient of $1$. Factor $-2$ out of the left side. 
+**Note:** This changes the sign of the $x$ term inside the parentheses.
+$$-2(x^2 - \frac{5}{2}x) = 7$$
+#### 3. Find the "Magic Number"
+Focus on the interior of the parentheses ($x^2 - \frac{5}{2}x$):
+1.  **Identify $b$:** $-5/2$
+2.  **Divide by 2:** $-\frac{5}{2} \cdot \frac{1}{2} = -\frac{5}{4}$
+3.  **Square it:** $(-\frac{5}{4})^2 = \mathbf{\frac{25}{16}}$
+#### 4. Balance the Equation
+**Crucial Step:** When you add $25/16$ inside the parentheses, you are actually adding $-2 \times \frac{25}{16} = \mathbf{-\frac{25}{8}}$ to the left side. You must add **-25/8** to the right side to keep it balanced:
+$$-2(x^2 - \frac{5}{2}x + \frac{25}{16}) = 7 - \frac{25}{8}$$
+*Convert 7 to 56/8 to subtract:*
+$$-2(x^2 - \frac{5}{2}x + \frac{25}{16}) = \frac{31}{8}$$
+
+#### 5. The Factoring Shortcut
+The interior factors into $(x + \frac{b}{2})^2$. Using our result from Step 3 ($b/2 = -5/4$):
+$$-2(x - \frac{5}{4})^2 = \frac{31}{8}$$
+#### 6. Solve using the Square Root Method
+First, divide by $-2$ (which is the same as multiplying by $-1/2$), then take the square root:
+$$(x - \frac{5}{4})^2 = -\frac{31}{16}$$
+$$x - \frac{5}{4} = \pm\sqrt{-\frac{31}{16}}$$
+#### 7. Final Solutions (Complex/Imaginary)
+Since we are taking the square root of a negative number, we factor out $i$ ($\sqrt{-1}$).
+$$x - \frac{5}{4} = \pm \frac{i\sqrt{31}}{4}$$
+$$\mathbf{x = \frac{5 \pm i\sqrt{31}}{4}}$$
+
+---
+### ⚠️ Graphical Interpretation
+
+* **X-Intercepts:** None. Because the solutions are **Complex**, the parabola never touches or crosses the x-axis.
+* **Vertex:** The vertex is found at **$(1.25, -3.875)$**. In vertex form: $h(x) = -2(x - 1.25)^2 - 3.875$.
+* **Direction:** Since $a = -2$, the parabola opens **downward**. Because the vertex is below the x-axis and it opens down, it is impossible for it to have real roots.
+---
+> [!abstract] Algebra Takeaway
+> Completing the square is the most visual way to prove why a quadratic has no real roots. When you reach $(x-h)^2 = \text{negative number}$, you can immediately see that no real number squared can result in a negative, confirming that the graph exists entirely above or below the x-axis.
+
