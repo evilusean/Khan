@@ -2401,11 +2401,11 @@ To find the **x-intercepts** (zeros) of the function $h(x) = (2x + 3)^2 - 32$, w
 Replace $h(x)$ with $0$ to find where the parabola crosses the x-axis:
 $$0 = (2x + 3)^2 - 32$$
 
-####2. Isolate the Squared Binomial
+#### 2. Isolate the Squared Binomial
 Add 32 to both sides to move the constant away from the square:
 $$32 = (2x + 3)^2$$
 
-####3. Apply the Square Root Method
+#### 3. Apply the Square Root Method
 Take the square root of both sides. **Crucial:** You must include the $\pm$ sign to account for both directions on the x-axis.
 $$\pm\sqrt{32} = 2x + 3$$
 #### 4. Simplify the Radical
@@ -3221,3 +3221,49 @@ $$\mathbf{x = \frac{5 \pm i\sqrt{31}}{4}}$$
 
 ## 2026-March-22 - Proving the Quadratic Formula - Twice (Precalculus - College Algebra 20) :
 https://www.youtube.com/watch?v=2BUg_w1Cu9E&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=21
+### Proving the Quadratic Formula
+
+In this video, Professor Leonard demonstrates that the **Quadratic Formula** isn't just a random set of symbols to memorize—it is the direct result of performing **Completing the Square** on the general standard form of a quadratic equation.
+
+---
+
+#### 1. Why Prove It?
+* **The Connection:** Completing the square is the "engine" inside the quadratic formula. By doing the work once on a general equation ($ax^2 + bx + c = 0$), we create a shortcut that works for every quadratic thereafter. [00:01:45]
+* **Efficiency:** While completing the square is essential for understanding the structure of functions (like circles or vertex form), the Quadratic Formula is the faster "best friend" for finding x-intercepts, especially when factoring is too slow or impossible. [00:02:45]
+
+---
+
+#### 2. The Proof: Method 1 (The "Leonard" Way)
+This method follows the grouping and balancing technique used in previous lessons.
+
+1.  **Group and Isolate:** Group the $x$ terms and hold off the constant $c$:
+    $$a(x^2 + \frac{b}{a}x) + c = 0$$
+2.  **Find the Magic Number:** Take half of the middle term ($\frac{b}{2a}$) and square it: $\frac{b^2}{4a^2}$. [00:05:54]
+3.  **Balance the Equation:** Add the magic number inside the parentheses. To balance the outside, subtract it—but remember to multiply by the leading coefficient $a$ first: [00:08:31]
+    $$a(x^2 + \frac{b}{a}x + \frac{b^2}{4a^2}) - \frac{b^2}{4a} + c = 0$$
+4.  **Factor into a Perfect Square:**
+    $$a(x + \frac{b}{2a})^2 = \frac{b^2 - 4ac}{4a}$$
+5.  **Isolate and Solve:** Divide by $a$, take the square root of both sides (adding $\pm$), and isolate $x$ to reach the final formula: [00:14:10]
+    $$\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$$
+
+
+---
+
+#### 3. The Proof: Method 2 (The Traditional Way)
+A slightly cleaner algebraic approach that divides by $a$ at the very beginning. [00:15:26]
+
+1.  **Divide Everything by $a$:** This clears the leading coefficient immediately:
+    $$x^2 + \frac{b}{a}x + \frac{c}{a} = 0$$
+2.  **Move the Constant:** $x^2 + \frac{b}{a}x = -\frac{c}{a}$
+3.  **Complete the Square:** Add $\frac{b^2}{4a^2}$ to both sides.
+4.  **Common Denominator:** Combine the right side into a single fraction: $\frac{b^2 - 4ac}{4a^2}$. [00:17:38]
+5.  **Finish:** Square root both sides and solve for $x$.
+
+---
+
+#### 4. Key Takeaways
+* **The Discriminant ($b^2 - 4ac$):** This part of the formula (found under the radical) determines the nature of the roots. If it's negative, you have imaginary solutions. [00:15:01]
+* **A Universal Tool:** Because the formula was derived from general variables ($a, b, c$), it will find x-intercepts (zeros/roots) for **any** quadratic, whether the solutions are rational, irrational, or complex. [00:02:18]
+
+> [!abstract] Algebra Takeaway
+> The Quadratic Formula is simply the "pre-packaged" result of completing the square. It allows you to skip the tedious balancing steps and jump straight to the solution by simply identifying the coefficients $a, b,$ and $c$.
