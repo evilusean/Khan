@@ -3220,3 +3220,4 @@ $$\mathbf{x = \frac{5 \pm i\sqrt{31}}{4}}$$
 > Completing the square is the most visual way to prove why a quadratic has no real roots. When you reach $(x-h)^2 = \text{negative number}$, you can immediately see that no real number squared can result in a negative, confirming that the graph exists entirely above or below the x-axis.
 
 ## 2026-March-22 - Proving the Quadratic Formula - Twice (Precalculus - College Algebra 20) :
+https://www.youtube.com/watch?v=2BUg_w1Cu9E&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=21
