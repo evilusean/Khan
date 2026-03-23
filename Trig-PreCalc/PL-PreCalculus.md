@@ -3297,3 +3297,58 @@ The value inside the square root tells you exactly what the graph of the parabol
 
 > [!abstract] Algebra Takeaway
 > The Quadratic Formula is your "best friend" because it works 100% of the time. While the Square Root method and Factoring only work for specific cases, the formula handles rational, irrational, and complex numbers equally well.
+### Solving f(x) = 3x² - 5x + 1 (Quadratic Formula)
+
+To find the **x-intercepts** (zeros), we use the Quadratic Formula. This method is the "universal key" for solving any quadratic equation that cannot be easily factored.
+
+---
+
+#### 1. Identify the Coefficients
+From the standard form $ax^2 + bx + c = 0$:
+* **a = 3**
+* **b = -5**
+* **c = 1**
+
+#### 2. The Quadratic Formula Setup
+Professor Leonard recommends writing the formula with empty parentheses first to avoid sign errors:
+$$x = \frac{-(\quad) \pm \sqrt{(\quad)^2 - 4(\quad)(\quad)}}{2(\quad)}$$
+
+Plug in the values:
+$$x = \frac{-(-5) \pm \sqrt{(-5)^2 - 4(3)(1)}}{2(3)}$$
+
+#### 3. Simplify the Discriminant ($b^2 - 4ac$)
+The value under the radical determines the nature of the roots:
+* $(-5)^2 = 25$
+* $4(3)(1) = 12$
+* $25 - 12 = \mathbf{13}$
+
+Since $13$ is positive but not a perfect square, we will have **two real, irrational solutions**.
+
+#### 4. Solve for x
+$$x = \frac{5 \pm \sqrt{13}}{6}$$
+
+
+
+---
+
+#### 5. Exact vs. Approximate Solutions
+In Precalculus, the **Exact Form** is typically required for your notes.
+
+* **Exact Solutions:** $$x = \frac{5 + \sqrt{13}}{6} \quad \text{and} \quad x = \frac{5 - \sqrt{13}}{6}$$
+* **Approximate Solutions (Decimal):**
+  Using $\sqrt{13} \approx 3.606$:
+  $$x \approx \frac{5 + 3.606}{6} \approx \mathbf{1.43}$$
+  $$x \approx \frac{5 - 3.606}{6} \approx \mathbf{0.23}$$
+
+---
+
+### ⚠️ Graphical Interpretation
+
+* **X-Intercepts:** The graph crosses the x-axis at approximately **(1.43, 0)** and **(0.23, 0)**.
+* **Y-Intercept:** Looking at the original equation, the constant is $+1$, so it crosses the y-axis at **(0, 1)**.
+* **Direction:** Since $a=3$ (positive), the parabola opens **upward**.
+
+---
+
+> [!abstract] Algebra Takeaway
+> Because 13 is not a perfect square, this quadratic could not have been solved using the Diamond Method or Factoring by Grouping. The Quadratic Formula (or Completing the Square) is required whenever the "magic numbers" are irrational.
