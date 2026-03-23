@@ -3510,3 +3510,58 @@ $$\mathbf{x = \frac{1}{3}}$$
 ---
 > [!abstract] Algebra Takeaway
 > When the discriminant ($b^2 - 4ac$) equals zero, it is a mathematical "red flag" that the quadratic is a Perfect Square Trinomial. In these cases, you don't actually need the full formula—you could have factored it as $(3x - 1)^2 = 0$ to reach the same result faster.
+
+### Solving g(x) = -4x² - x - 4 (Quadratic Formula)
+
+This problem is a "Level 5" quadratic because it features a negative leading coefficient ($a = -4$) and will result in **Complex/Imaginary** solutions. We will follow Professor Leonard's advice to "clean" the equation before plugging in the values.
+
+---
+
+#### 1. Prepare the Equation (The "Leonard Setup")
+To avoid dividing by a negative number later, we set the function to zero and multiply the entire equation by **$-1$**:
+$$-1 \cdot (-4x^2 - x - 4 = 0)$$
+$$4x^2 + x + 4 = 0$$
+
+#### 2. Identify the New Coefficients
+* **a = 4**
+* **b = 1**
+* **c = 4**
+
+#### 3. The Quadratic Formula Setup
+Using the "Parentheses Method" to protect the signs:
+$$x = \frac{-(1) \pm \sqrt{(1)^2 - 4(4)(4)}}{2(4)}$$
+
+#### 4. Simplify the Discriminant ($b^2 - 4ac$)
+Calculate the value under the radical:
+* $(1)^2 = 1$
+* $4(4)(4) = 64$
+* $1 - 64 = \mathbf{-63}$
+
+Since the discriminant is **negative**, we will have **two complex (imaginary) solutions**.
+
+
+
+#### 5. Solve and Simplify the Radical
+When the value under the radical is negative, we factor out $i$ ($\sqrt{-1}$):
+$$x = \frac{-1 \pm \sqrt{-63}}{8}$$
+
+Simplify $\sqrt{63}$ by finding the largest perfect square factor ($9 \times 7$):
+$$\sqrt{63} = \sqrt{9 \cdot 7} = 3\sqrt{7}$$
+$$x = \frac{-1 \pm 3i\sqrt{7}}{8}$$
+
+#### 6. Final Solution
+Since $8$ does not divide evenly into both $1$ and $3$, the fraction is already in its simplest form.
+$$\mathbf{x = \frac{-1 \pm 3i\sqrt{7}}{8}}$$
+
+---
+
+### ⚠️ Graphical Interpretation
+
+* **X-Intercepts:** None. The solutions are **Complex**, meaning the parabola does not touch the x-axis.
+* **Vertex:** Using $h = -b/2a$ from our original coefficients ($a=-4, b=-1$), the vertex x-coordinate is $x = -1/8$.
+* **Direction:** Since the original $a = -4$ (negative), the parabola opens **downward**. Because the vertex is below the x-axis and it opens down, the graph exists entirely in quadrants III and IV.
+
+---
+
+> [!abstract] Algebra Takeaway
+> When you encounter a negative discriminant, do not stop. Simply "pull out" the $i$ to show that the solutions exist in the complex number plane. In physics and engineering, these imaginary roots often represent things like dampened oscillations or rotations.
