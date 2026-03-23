@@ -3436,21 +3436,17 @@ $$\mathbf{x = \frac{-1 \pm \sqrt{7}}{6}}$$
 To solve this for the **x-intercepts** (zeros), we use the Quadratic Formula. This problem contains several fractions. To avoid "fractions inside of a square root," we will follow Professor Leonard's advice and "kill the fractions" first.
 
 ---
-
 #### 1. Prepare the Equation (Eliminate Fractions)
 Set the function to zero and multiply the entire equation by the **Least Common Denominator (LCD)**, which is **8**:
 $$8 \cdot \left( \frac{1}{8}x^2 - \frac{1}{4}x - 2 = 0 \right)$$
 $$x^2 - 2x - 16 = 0$$
-
 #### 2. Identify the New Coefficients
 * **a = 1**
 * **b = -2**
 * **c = -16**
-
 #### 3. The Quadratic Formula Setup
 Using the "Parentheses Method" to ensure signs (especially for $-b$ and $c$) are handled correctly:
 $$x = \frac{-(-2) \pm \sqrt{(-2)^2 - 4(1)(-16)}}{2(1)}$$
-
 #### 4. Simplify the Discriminant ($b^2 - 4ac$)
 Calculate the value under the radical:
 * $(-2)^2 = 4$
@@ -3458,30 +3454,21 @@ Calculate the value under the radical:
 * $4 + 64 = \mathbf{68}$
 
 Since **68** is positive but not a perfect square, we will have **two real, irrational solutions**.
-
-
-
 #### 5. Solve and Simplify the Radical
 $$x = \frac{2 \pm \sqrt{68}}{2}$$
-
 Simplify $\sqrt{68}$ by finding the largest perfect square factor ($4 \times 17$):
 $$\sqrt{68} = \sqrt{4 \cdot 17} = 2\sqrt{17}$$
-$$x = \frac{2 \pm 2\sqrt{17}}{2}$$
-
-#### 6. Final Reductions
+$$x = \frac{2 \pm 2\sqrt{17}}{2}$$#### 6. Final Reductions
 Factor out a **2** from the numerator to simplify the fraction:
 $$x = \frac{2(1 \pm \sqrt{17})}{2}$$
 $$\mathbf{x = 1 \pm \sqrt{17}}$$
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **Exact Solutions:** $x = 1 + \sqrt{17}$ and $x = 1 - \sqrt{17}$
 * **Approximate Solutions:** $x \approx 5.12$ and $x \approx -3.12$
 * **Vertex:** Using $h = -b/2a$ from our simplified coefficients ($x^2 - 2x - 16$), the vertex x-coordinate is $x = 1$. 
 * **Y-Intercept:** The original constant is $-2$, so the graph crosses the y-axis at **$(0, -2)$**.
-
 ---
 
 > [!abstract] Algebra Takeaway
