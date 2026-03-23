@@ -3391,21 +3391,17 @@ $$\mathbf{x = \frac{-3 \pm 2\sqrt{3}}{3}}$$
 To find the **x-intercepts** (zeros), we use the Quadratic Formula. This problem is unique because it contains a fractional constant ($c = -1/2$). Following Professor Leonard's advice, we will "kill the fraction" first to make the substitution cleaner.
 
 ---
-
 #### 1. Prepare the Equation (Eliminate Fractions)
 Set the function to zero and multiply the entire equation by the LCD (**2**) to remove the fraction:
 $$2 \cdot (3x^2 + x - \frac{1}{2} = 0)$$
 $$6x^2 + 2x - 1 = 0$$
-
 #### 2. Identify the New Coefficients
 * **a = 6**
 * **b = 2**
 * **c = -1**
-
 #### 3. The Quadratic Formula Setup
 Using the "Parentheses Method" to ensure signs are handled correctly:
 $$x = \frac{-(2) \pm \sqrt{(2)^2 - 4(6)(-1)}}{2(6)}$$
-
 #### 4. Simplify the Discriminant ($b^2 - 4ac$)
 Calculate the value under the radical:
 * $(2)^2 = 4$
@@ -3413,30 +3409,23 @@ Calculate the value under the radical:
 * $4 + 24 = \mathbf{28}$
 
 Since **28** is positive, we will have **two real, irrational solutions**.
-
-
-
 #### 5. Solve and Simplify the Radical
 $$x = \frac{-2 \pm \sqrt{28}}{12}$$
 
 Simplify $\sqrt{28}$ by finding the largest perfect square factor ($4 \times 7$):
 $$\sqrt{28} = \sqrt{4 \cdot 7} = 2\sqrt{7}$$
 $$x = \frac{-2 \pm 2\sqrt{7}}{12}$$
-
 #### 6. Final Reductions
 Factor out a **2** from the numerator to simplify the fraction:
 $$x = \frac{2(-1 \pm \sqrt{7})}{12}$$
 $$\mathbf{x = \frac{-1 \pm \sqrt{7}}{6}}$$
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **Exact Solutions:** $x = \frac{-1 + \sqrt{7}}{6}$ and $x = \frac{-1 - \sqrt{7}}{6}$
 * **Approximate Solutions:** $x \approx 0.27$ and $x \approx -0.61$
 * **Vertex:** Using $h = -b/2a$ from our original coefficients ($a=3, b=1$), the vertex x-coordinate is $x = -1/6$. 
 * **Y-Intercept:** The original constant is $-1/2$, so the graph crosses the y-axis at **$(0, -0.5)$**.
-
 ---
 
 > [!abstract] Algebra Takeaway
