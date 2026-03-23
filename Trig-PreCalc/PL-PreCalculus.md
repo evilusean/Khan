@@ -3347,21 +3347,17 @@ In Precalculus, the **Exact Form** is typically required for your notes.
 To solve this for the **x-intercepts** (zeros), we must first convert the function into **Standard Form** ($ax^2 + bx + c = 0$).
 
 ---
-
 #### 1. Expand to Standard Form
 Distribute the $3x$ and set the function to zero:
 $$0 = 3x(x) + 3x(2) - 1$$
 $$0 = 3x^2 + 6x - 1$$
-
 #### 2. Identify the Coefficients
 * **a = 3**
 * **b = 6**
 * **c = -1**
-
 #### 3. The Quadratic Formula Setup
 Using Professor Leonard's "Parentheses Method" to ensure signs are handled correctly:
 $$x = \frac{-(6) \pm \sqrt{(6)^2 - 4(3)(-1)}}{2(3)}$$
-
 #### 4. Simplify the Discriminant ($b^2 - 4ac$)
 Calculate the value under the radical:
 * $(6)^2 = 36$
@@ -3369,31 +3365,23 @@ Calculate the value under the radical:
 * $36 + 12 = \mathbf{48}$
 
 Since $48$ is positive, we will have **two real, irrational solutions**.
-
-
-
 #### 5. Solve and Simplify the Radical
 $$x = \frac{-6 \pm \sqrt{48}}{6}$$
 
 Simplify $\sqrt{48}$ by finding the largest perfect square factor ($16 \times 3$):
 $$\sqrt{48} = \sqrt{16 \cdot 3} = 4\sqrt{3}$$
 $$x = \frac{-6 \pm 4\sqrt{3}}{6}$$
-
 #### 6. Final Reductions
 Factor out a $2$ from the numerator to simplify the fraction:
 $$x = \frac{2(-3 \pm 2\sqrt{3})}{6}$$
 $$\mathbf{x = \frac{-3 \pm 2\sqrt{3}}{3}}$$
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **Exact Solutions:** $x = \frac{-3 + 2\sqrt{3}}{3}$ and $x = \frac{-3 - 2\sqrt{3}}{3}$
 * **Approximate Solutions:** $x \approx 0.15$ and $x \approx -2.15$
 * **Vertex:** Using $h = -b/2a$, the vertex is at $x = -6/6 = \mathbf{-1}$. Plugging $-1$ into the original function gives $g(-1) = 3(-1)(-1+2) - 1 = \mathbf{-4}$.
 * **Vertex Point:** **$(-1, -4)$**
-
 ---
-
 > [!abstract] Algebra Takeaway
 > Always simplify your radical ($4\sqrt{3}$) before trying to reduce the final fraction. Remember that a denominator can only divide into the numerator if it divides into **every** term. In this case, $6$ divides into both $-6$ and $4$ (by a factor of $2$), resulting in our final simplified denominator of $3$.
