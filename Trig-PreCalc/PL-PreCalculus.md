@@ -3261,4 +3261,4 @@ A slightly cleaner algebraic approach that divides by $a$ at the very beginning.
 > [!abstract] Algebra Takeaway
 > The Quadratic Formula is simply the "pre-packaged" result of completing the square. It allows you to skip the tedious balancing steps and jump straight to the solution by simply identifying the coefficients $a, b,$ and $c$.
 ## 2026-March-23 - Using the Quadratic Formula (Precalculus - College Algebra 21) :
-
+https://www.youtube.com/watch?v=KIWXZVsdpbE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=22
