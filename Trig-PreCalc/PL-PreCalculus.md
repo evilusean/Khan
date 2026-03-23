@@ -3262,3 +3262,47 @@ A slightly cleaner algebraic approach that divides by $a$ at the very beginning.
 > The Quadratic Formula is simply the "pre-packaged" result of completing the square. It allows you to skip the tedious balancing steps and jump straight to the solution by simply identifying the coefficients $a, b,$ and $c$.
 ## 2026-March-23 - Using the Quadratic Formula (Precalculus - College Algebra 21) :
 https://www.youtube.com/watch?v=KIWXZVsdpbE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=22
+### Using the Quadratic Formula (Professor Leonard)
+
+This video focuses on the practical application of the **Quadratic Formula**. Professor Leonard explains that while it is derived from "Completing the Square," it serves as a universal fail-safe for finding x-intercepts when other methods (like factoring) are too difficult. [00:00:34]
+
+---
+
+#### 1. Preparation: The "Leonard Setup"
+To avoid the most common sign errors, always prepare your quadratic equation ($ax^2 + bx + c = 0$) following these rules:
+* **Set to Zero:** Ensure everything is on one side of the equation. [00:02:04]
+* **Standard Order:** Exponents must decrease ($x^2$, then $x$, then constant).
+* **First Term Positive:** If $a$ is negative, multiply the entire equation by $-1$. This prevents dividing by a negative number later, which is where 90% of student errors occur. [00:02:40]
+* **Kill the Fractions:** If the equation has fractions, multiply everything by the **LCD** before starting. "Never plug fractions into the quadratic formula." [00:19:42]
+
+---
+
+#### 2. The "Blank Space" Method
+Professor Leonard recommends writing the formula with empty parentheses for every variable before plugging in numbers. This maintains signs and operations: [00:05:11]
+
+$$x = \frac{-(\quad) \pm \sqrt{(\quad)^2 - 4(\quad)(\quad)}}{2(\quad)}$$
+
+
+---
+
+#### 3. Analyzing the Discriminant ($b^2 - 4ac$)
+The value inside the square root tells you exactly what the graph of the parabola looks like before you even finish the math: [00:08:12]
+
+| Discriminant Value | Resulting Solutions | Graphical Meaning |
+| :--- | :--- | :--- |
+| **Positive** ($>0$) | 2 Real Solutions | The parabola crosses the x-axis twice. |
+| **Zero** ($=0$) | 1 Real Solution | The vertex "bounces" or sits exactly on the x-axis. |
+| **Negative** ($<0$) | 2 Complex Solutions | The parabola never touches the x-axis (floats above/below). |
+
+
+---
+
+#### 4. Simplification & Exact vs. Approximate
+* **Exact Form:** Keeping the solution with the radical (e.g., $\sqrt{17}$). This contains "all the information" of the number. [00:33:19]
+* **Approximate Form:** Using a calculator to get a decimal. Leonard warns that rounding "cuts off a portion of the number" since irrational roots go on forever. [00:33:40]
+* **Reducing Fractions:** You can only simplify the final fraction if the denominator divides **all** terms in the numerator. [00:17:18]
+
+---
+
+> [!abstract] Algebra Takeaway
+> The Quadratic Formula is your "best friend" because it works 100% of the time. While the Square Root method and Factoring only work for specific cases, the formula handles rational, irrational, and complex numbers equally well.
