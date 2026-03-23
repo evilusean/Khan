@@ -3479,48 +3479,34 @@ $$\mathbf{x = 1 \pm \sqrt{17}}$$
 To find the **x-intercepts** (zeros), we use the Quadratic Formula. This specific problem is an example of a **Perfect Square Trinomial**, which results in a unique discriminant value.
 
 ---
-
 #### 1. Identify the Coefficients
 From the standard form $ax^2 + bx + c = 0$:
 * **a = 9**
 * **b = -6**
 * **c = 1**
-
-#### 2. The Quadratic Formula Setup
+* #### 2. The Quadratic Formula Setup
 Using the "Parentheses Method" to ensure signs are handled correctly:
 $$x = \frac{-(-6) \pm \sqrt{(-6)^2 - 4(9)(1)}}{2(9)}$$
-
 #### 3. Simplify the Discriminant ($b^2 - 4ac$)
 Calculate the value under the radical:
 * $(-6)^2 = 36$
 * $4(9)(1) = 36$
 * $36 - 36 = \mathbf{0}$
-
 Since the discriminant is **zero**, we will have exactly **one real solution** (a double root).
-
-
-
 #### 4. Solve for x
 Since the $\pm \sqrt{0}$ term disappears:
 $$x = \frac{6 \pm 0}{18}$$
 $$x = \frac{6}{18}$$
-
 #### 5. Final Solution
 Simplify the fraction by dividing both numerator and denominator by 6:
 $$\mathbf{x = \frac{1}{3}}$$
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **X-Intercept:** The graph touches the x-axis at exactly **$(1/3, 0)$**.
 * **Vertex:** Because there is only one solution, the vertex is located at the x-intercept: **$(1/3, 0)$**.
 * **Y-Intercept:** The original constant is $+1$, so the graph crosses the y-axis at **$(0, 1)$**.
 * **Type of Solution:** This is a **Rational Solution**. It is a "double root," meaning the factor $(x - 1/3)$ appears twice in the factored form: $9(x - 1/3)^2 = 0$.
-
-
-
 ---
-
 > [!abstract] Algebra Takeaway
 > When the discriminant ($b^2 - 4ac$) equals zero, it is a mathematical "red flag" that the quadratic is a Perfect Square Trinomial. In these cases, you don't actually need the full formula—you could have factored it as $(3x - 1)^2 = 0$ to reach the same result faster.
