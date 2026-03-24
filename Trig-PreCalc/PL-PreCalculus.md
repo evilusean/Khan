@@ -3556,29 +3556,23 @@ $$\mathbf{x = \frac{-1 \pm 3i\sqrt{7}}{8}}$$
 
 ## 2026-March-24 - Finding Intersections of Functions (Precaluclus - College Algebra 22) :
 https://www.youtube.com/watch?v=2cXEuUazjCc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=26
-### Finding Intersections of Functions (Professor Leonard)
+### Finding Intersections of Functions
 
 Finding where two functions intersect means finding the specific points $(x, y)$ that they both share. Professor Leonard emphasizes that "intersection" is just another way of saying two functions have the same input and same output at the same time.
 
 ---
-
 #### 1. The Core Procedure
 To find the intersection of any two functions, $f(x)$ and $g(x)$:
 1.  **Set them equal:** $f(x) = g(x)$.
 2.  **Solve for $x$:** This gives you the x-coordinates of the intersection points.
 3.  **Find the $y$-coordinates:** Plug your $x$ values back into *either* original function to find the corresponding $y$. 
     * *Pro-tip:* Plug the $x$ into **both** functions to check your work. If the $y$ values aren't identical, you made an algebra error. [00:05:17]
-
-
 ---
-
 #### 2. Geometric Interpretation: Shifting the Parabola
 Professor Leonard provides a unique way to visualize the algebra:
 * When you set $x^2 + 6x + 3 = 3$ and subtract $3$ to get $x^2 + 6x = 0$, you are essentially shifting the original parabola down 3 units. [00:02:46]
 * Finding the **x-intercepts** of this new, shifted function is mathematically identical to finding the **points of intersection** of the original two functions. [00:03:26]
-
 ---
-
 #### 3. Common Intersection Scenarios
 
 | Scenario | Geometric Visualization | Algebraic Strategy |
@@ -3587,25 +3581,18 @@ Professor Leonard provides a unique way to visualize the algebra:
 | **Parabola & Linear Line** | A "U" shape crossed by a slanted line. | Set equal; move all terms to one side to form a new quadratic. [00:08:41] |
 | **Two Parabolas** | Two "U" shapes (e.g., one narrow, one wide). | Set equal; subtract terms to reduce it to a single quadratic equation. [00:14:20] |
 
-
 ---
-
 #### 4. Solving the Resulting Equation
 Once the functions are set equal and moved to one side ($... = 0$), use the hierarchy of solving quadratics:
 1.  **GCF Factoring:** Always check for a Greatest Common Factor first. [00:04:01]
 2.  **Standard Factoring:** Look for numbers that multiply to $c$ and add to $b$.
 3.  **Quadratic Formula:** Use this if the equation is not factorable. [00:15:26]
     * *Note:* If you use the Quadratic Formula, keep your answers in **exact form** (radicals) unless decimals are specifically requested. [00:16:56]
-
 ---
-
 ### ⚠️ Common Pitfalls
-
 * **Stopping at $x$:** An intersection is a **point**. You must always find the $y$-value to complete the ordered pair $(x, y)$. [00:01:18]
 * **Sign Errors during Move:** When moving terms from $g(x)$ over to $f(x)$, remember to flip the signs of every term you move.
 * **First Term Positive:** Professor Leonard strongly recommends moving terms so that the $x^2$ coefficient stays positive. This makes factoring much easier. [00:09:00]
-
 ---
-
 > [!abstract] Algebra Takeaway
 > Setting $f(x) = g(x)$ is a universal tool. While this lesson focuses on quadratics, this same logic applies later in math to intersections of logarithms, exponentials, and trigonometric functions.
