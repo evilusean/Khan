@@ -3553,3 +3553,5 @@ $$\mathbf{x = \frac{-1 \pm 3i\sqrt{7}}{8}}$$
 ---
 > [!abstract] Algebra Takeaway
 > When you encounter a negative discriminant, do not stop. Simply "pull out" the $i$ to show that the solutions exist in the complex number plane. In physics and engineering, these imaginary roots often represent things like dampened oscillations or rotations.
+
+## 2026-March-24 - Finding Intersections of Functions (Precaluclus - College Algebra 22) :
