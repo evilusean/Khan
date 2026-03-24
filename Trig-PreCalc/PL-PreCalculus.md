@@ -3687,18 +3687,13 @@ Plug the $x$ values back into the **simpler** function (the linear line $g(x) = 
 To find the intersection points of two parabolas, we determine the $(x, y)$ coordinates where they share the same input and output. This occurs when $f(x) = g(x)$.
 
 ---
-
 #### 1. Set the Functions Equal
 Set the two quadratic expressions equal to each other:
 $$x^2 - x + 1 = 2x^2 - 3x - 14$$
-
 #### 2. Move All Terms to One Side
 To keep the $x^2$ coefficient positive (following Professor Leonard's "Leonard Setup"), move all terms from the left side to the right side:
 $$0 = (2x^2 - x^2) + (-3x + x) + (-14 - 1)$$
 $$x^2 - 2x - 15 = 0$$
-
-
-
 #### 3. Solve for x (Factoring)
 This is a standard trinomial where $a=1$. We need two numbers that:
 * **Multiply to:** $-15$
@@ -3710,7 +3705,6 @@ $$(x - 5)(x + 3) = 0$$
 Set each factor to zero:
 * $x - 5 = 0 \Rightarrow \mathbf{x = 5}$
 * $x + 3 = 0 \Rightarrow \mathbf{x = -3}$
-
 #### 4. Find the Corresponding y-Coordinates
 Plug the $x$ values back into the simpler function ($f(x) = x^2 - x + 1$) to find the $y$-values.
 
@@ -3727,15 +3721,11 @@ Plug the $x$ values back into the simpler function ($f(x) = x^2 - x + 1$) to fin
 *(Self-Check: $g(5) = 2(25) - 3(5) - 14 = 50 - 15 - 14 = 21$. Both match!)*
 
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **The Intersection Points:** The two parabolas cross at **$(5, 21)$** and **$(-3, 13)$**.
 * **Shape Difference:** $g(x)$ has a leading coefficient of $2$, meaning it is narrower than $f(x)$, which has a leading coefficient of $1$. Because they are both positive, they both open upward.
 * **The "New" Quadratic:** Algebraically, solving $x^2 - 2x - 15 = 0$ is like looking at a third parabola. Its x-intercepts ($5$ and $-3$) tell us exactly where the original two functions were at the same "height."
-
-
-
 ---
 
 > [!abstract] Algebra Takeaway
