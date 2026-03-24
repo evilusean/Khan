@@ -3639,7 +3639,6 @@ To find the full intersection points, plug the $x$ values back into either origi
 To find the intersection points, we must determine the $(x, y)$ coordinates where the parabola $f(x)$ and the line $g(x)$ meet. This occurs when $f(x) = g(x)$.
 
 ---
-
 #### 1. Set the Functions Equal
 Set the quadratic expression equal to the linear expression:
 $$-2x^2 + 1 = 3x + 2$$
@@ -3648,9 +3647,6 @@ $$-2x^2 + 1 = 3x + 2$$
 Professor Leonard recommends moving terms so that the $x^2$ coefficient becomes **positive**. Move all terms from the left side to the right side:
 $$0 = 2x^2 + 3x + 2 - 1$$
 $$2x^2 + 3x + 1 = 0$$
-
-
-
 #### 3. Solve for x (Factoring)
 Since this is a "Level 2" quadratic ($a \neq 1$), we check if it is factorable using the **Diamond Method** (AC Method):
 1.  **Multiply $a \cdot c$:** $2 \cdot 1 = \mathbf{2}$
@@ -3663,7 +3659,6 @@ Since this is a "Level 2" quadratic ($a \neq 1$), we check if it is factorable u
 Set each factor to zero:
 * $x + 1 = 0 \Rightarrow \mathbf{x = -1}$
 * $2x + 1 = 0 \Rightarrow \mathbf{x = -1/2}$
-
 #### 4. Find the Corresponding y-Coordinates
 Plug the $x$ values back into the **simpler** function (the linear line $g(x) = 3x + 2$) to find the $y$-values.
 
@@ -3678,15 +3673,11 @@ Plug the $x$ values back into the **simpler** function (the linear line $g(x) = 
 *(Self-Check: $f(-1) = -2(-1)^2 + 1 = -2 + 1 = -1$. Both match!)*
 
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **The Intersection Points:** The parabola and the line cross at **$(-1, -1)$** and **$(-0.5, 0.5)$**.
 * **The Quadratic Nature:** Because the resulting equation $2x^2 + 3x + 1 = 0$ had a positive discriminant ($b^2 - 4ac = 1$), we knew there would be exactly two points of intersection.
 * **Relative Position:** Since $f(x)$ has a negative $a$, it opens downward. The line $g(x)$ has a positive slope, cutting through the parabola from the bottom-left toward the top-right.
-
-
-
 ---
 
 > [!abstract] Algebra Takeaway
