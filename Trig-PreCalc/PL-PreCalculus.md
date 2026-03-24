@@ -3602,17 +3602,12 @@ Once the functions are set equal and moved to one side ($... = 0$), use the hier
 To find the intersection points, we must determine the $(x, y)$ coordinates where both functions share the same input and output. Following Professor Leonard's method, we set the functions equal to each other.
 
 ---
-
 #### 1. Set the Functions Equal
 Since we want to find where $f(x) = g(x)$:
 $$x^2 + 6x + 3 = 3$$
-
 #### 2. Move All Terms to One Side
 Subtract $3$ from both sides to set the equation to zero. Notice that the constant terms cancel out:
 $$x^2 + 6x = 0$$
-
-
-
 #### 3. Solve for x (Factoring)
 Since there is no constant term, we solve by factoring out the **Greatest Common Factor (GCF)**, which is $x$:
 $$x(x + 6) = 0$$
@@ -3620,7 +3615,6 @@ $$x(x + 6) = 0$$
 Set each factor to zero:
 * $x = 0$
 * $x + 6 = 0 \Rightarrow \mathbf{x = -6}$
-
 #### 4. Find the Corresponding y-Coordinates
 To find the full intersection points, plug the $x$ values back into either original function. Since $g(x) = 3$ is a horizontal line, the $y$-value will be $3$ for any $x$ on that line.
 
@@ -3628,18 +3622,14 @@ To find the full intersection points, plug the $x$ values back into either origi
 * **For $x = -6$:** $g(-6) = 3 \Rightarrow \mathbf{(-6, 3)}$
 
 *(Self-Check: $f(0) = 0^2 + 6(0) + 3 = 3$. Correct!)*
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **The Intersection Points:** The parabola $f(x)$ crosses the horizontal line $g(x)$ at **$(0, 3)$** and **$(-6, 3)$**.
 * **The "Shift" Visual:** Algebraically, solving $x^2 + 6x = 0$ is the same as looking at a new parabola that has been shifted down 3 units, where the intersections have become the new x-intercepts.
 * **Symmetry:** Because the $y$-values are the same ($3$), these two points are symmetric across the axis of symmetry ($x = -3$).
-
-
-
 ---
 
 > [!abstract] Algebra Takeaway
 > When intersecting a quadratic with a horizontal line, the algebra often simplifies significantly. If the constants cancel out (as they did here), factoring out the $x$ is much faster than using the Quadratic Formula or Completing the Square.
+
