@@ -3777,3 +3777,52 @@ The final step depends entirely on what $u$ was originally representing:
 
 > [!abstract] Algebra Takeaway
 > Substitution is a universal tool. It doesn't just work for polynomials; it works for any expression where one part is the square of another. By calling that part "$u$," you hide the complexity and reveal the simple quadratic structure underneath.
+
+### Solving g(x) = (3x + 4)² - 6(3x + 4) + 9 (u-Substitution)
+
+This equation is "quadratic in form" because the first term is the square of the middle binomial. By using **u-substitution**, we can simplify the expression into a basic quadratic and solve for $x$.
+
+---
+
+#### 1. Identify and Substitute "u"
+Let $u$ represent the repeating binomial part of the equation:
+**Let $u = (3x + 4)$**
+
+Now, rewrite the equation in terms of $u$:
+$$u^2 - 6u + 9 = 0$$
+
+
+
+#### 2. Solve the Quadratic for "u"
+This is a **Perfect Square Trinomial**. We need two numbers that:
+* **Multiply to:** $9$
+* **Add to:** $-6$
+
+The numbers are $-3$ and $-3$.
+$$(u - 3)(u - 3) = 0 \quad \text{or} \quad (u - 3)^2 = 0$$
+
+Set the factor to zero:
+$$u - 3 = 0 \Rightarrow \mathbf{u = 3}$$
+
+#### 3. Back-Substitute to Solve for "x"
+Now, follow the "breadcrumbs" back to the original variable by replacing $u$ with $(3x + 4)$:
+$$3x + 4 = 3$$
+
+Solve for $x$:
+1. Subtract 4 from both sides: $3x = -1$
+2. Divide by 3: $\mathbf{x = -\frac{1}{3}}$
+
+---
+
+### ⚠️ Graphical Interpretation
+
+* **The Solution:** There is only **one real solution** ($x = -1/3$).
+* **The Root Type:** Because the discriminant of the $u$-quadratic was zero ($(-6)^2 - 4(1)(9) = 0$), the original function $g(x)$ has its vertex sitting exactly on the x-axis.
+* **Vertex Point:** **$(-1/3, 0)$**
+
+
+
+---
+
+> [!abstract] Algebra Takeaway
+> Without substitution, you would have to expand $(3x+4)^2$, distribute the $-6$, and combine like terms before solving. Substitution allowed us to see the "Perfect Square" structure immediately, saving time and reducing the risk of distribution errors.
