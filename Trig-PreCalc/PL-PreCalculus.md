@@ -3869,16 +3869,12 @@ $$\mathbf{x = \pm \frac{i\sqrt{3}}{3}}$$
 This equation is "quadratic in form" because the leading exponent ($2/3$) is exactly double the middle exponent ($1/3$). By using **u-substitution**, we can simplify the fractional exponents into a standard quadratic.
 
 ---
-
 #### 1. Identify and Substitute "u"
 We let $u$ represent the middle variable part:
 **Let $u = x^{1/3}$** (which is the same as $\sqrt[3]{x}$)
 
 Now, rewrite the equation in terms of $u$:
 $$u^2 - 7u + 10 = 0$$
-
-
-
 #### 2. Solve the Quadratic for "u"
 We need two numbers that:
 * **Multiply to:** $10$
@@ -3886,11 +3882,9 @@ We need two numbers that:
 
 The numbers are **$-5$** and **$-2$**.
 $$(u - 5)(u - 2) = 0$$
-
 Set each factor to zero:
 * $u - 5 = 0 \Rightarrow \mathbf{u = 5}$
 * $u - 2 = 0 \Rightarrow \mathbf{u = 2}$
-
 #### 3. Back-Substitute to Solve for "x"
 Follow the "breadcrumbs" back to the original variable by replacing $u$ with $x^{1/3}$.
 
@@ -3904,10 +3898,7 @@ Cube both sides:
 $$(x^{1/3})^3 = (2)^3$$
 $$\mathbf{x = 8}$$
 
-
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **Real Zeros:** The graph of $f(x)$ crosses the x-axis at **$(8, 0)$** and **$(125, 0)$**.
