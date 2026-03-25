@@ -3738,7 +3738,6 @@ https://www.youtube.com/watch?v=P8uoP-JFj54&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Substitution (often called **u-substitution**) is a "re-skinning" technique. It allows you to take a complex equation that is "quadratic in form" and transform it into a simple quadratic equation that you already know how to factor or solve.
 
 ---
-
 #### 1. When Can You Use Substitution?
 A substitution will work if the equation follows a specific pattern:
 * **Three Terms:** Usually set equal to zero.
@@ -3747,9 +3746,7 @@ A substitution will work if the equation follows a specific pattern:
     * *Example:* $x^{2/3}$ and $x^{1/3}$ (since $2/3 = 2 \times 1/3$). [00:23:59]
     * *Example:* $x^{-2}$ and $x^{-1}$ (since $-2 = 2 \times -1$). [00:40:15]
 
-
 ---
-
 #### 2. The "Breadcrumb" Method (Step-by-Step)
 Professor Leonard compares this to the story of Hansel and Gretel: you leave a trail of "u" breadcrumbs to get through the forest, but you must follow them back to find your way home to "x." [00:03:01]
 
@@ -3758,9 +3755,7 @@ Professor Leonard compares this to the story of Hansel and Gretel: you leave a t
 3.  **Solve for $u$:** Factor the equation or use the Quadratic Formula to find the numerical values of $u$.
 4.  **Substitute Back:** Replace $u$ with the original $x$-expression. **This is the most critical step.** [00:15:04]
 5.  **Final Solve:** Solve the resulting mini-equations for the original variable.
-
 ---
-
 #### 3. Handling Different "Back-Substitutions"
 The final step depends entirely on what $u$ was originally representing:
 
@@ -3771,16 +3766,13 @@ The final step depends entirely on what $u$ was originally representing:
 | **$x^{1/2}$ ($\sqrt{x}$)** | Square both sides | **Caution:** A square root cannot equal a negative. Discard these. [00:32:06] |
 | **$x^{-1}$ ($1/x$)** | Take the reciprocal | Simply "flip" the fraction of your $u$ value. [00:44:05] |
 
-
 ---
-
 #### 4. Critical Warnings & Tips
 
 * **The "Dummy" Variable:** Always use a different letter (typically $u$) to stay organized and avoid confusing $u$-solutions with $x$-solutions. [00:02:32]
 * **Don't Stop Too Soon:** Finding $u = 5$ is not the end. You haven't finished until you solve for the variable given in the original problem. [00:06:57]
 * **Check for Extraneous Solutions:** When squaring both sides (like with $x^{1/2}$), you might create a "false friend" solution. Always verify if the original root could actually equal that number. [00:33:10]
 * **Negative Leading Terms:** If the $x^{2n}$ term is negative, multiply the whole equation by $-1$ first to make factoring easier. [00:39:14]
-
 ---
 
 > [!abstract] Algebra Takeaway
