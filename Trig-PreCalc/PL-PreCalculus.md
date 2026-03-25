@@ -3815,3 +3815,61 @@ Solve for $x$:
 ---
 > [!abstract] Algebra Takeaway
 > Without substitution, you would have to expand $(3x+4)^2$, distribute the $-6$, and combine like terms before solving. Substitution allowed us to see the "Perfect Square" structure immediately, saving time and reducing the risk of distribution errors.
+
+### Solving f(x) = 3x⁴ - 2x² - 1 (u-Substitution)
+
+This equation is "quadratic in form" because the exponent of the first term ($4$) is exactly double the exponent of the middle term ($2$). We can use **u-substitution** to temporarily turn this quartic equation into a standard quadratic.
+
+---
+
+#### 1. Identify and Substitute "u"
+We let $u$ represent the middle variable part:
+**Let $u = x^2$** (which means $u^2 = x^4$)
+
+Now, rewrite the equation in terms of $u$:
+$$3u^2 - 2u - 1 = 0$$
+
+
+
+#### 2. Solve the Quadratic for "u"
+We check for factors of $a \cdot c$ ($3 \times -1 = -3$) that add to $b$ ($-2$):
+* The numbers are **$-3$** and **$1$**.
+
+Using grouping:
+1. $3u^2 - 3u + 1u - 1 = 0$
+2. $3u(u - 1) + 1(u - 1) = 0$
+3. $(3u + 1)(u - 1) = 0$
+
+Set each factor to zero:
+* $3u + 1 = 0 \Rightarrow \mathbf{u = -1/3}$
+* $u - 1 = 0 \Rightarrow \mathbf{u = 1}$
+
+#### 3. Back-Substitute to Solve for "x"
+Now, follow the "breadcrumbs" back to the original variable by replacing $u$ with $x^2$.
+
+**Case 1: $x^2 = 1$**
+Take the square root of both sides:
+$$x = \pm \sqrt{1}$$
+$$\mathbf{x = 1, \quad x = -1}$$
+
+**Case 2: $x^2 = -1/3$**
+Take the square root of both sides. Since the value is negative, we use $i$:
+$$x = \pm \sqrt{-1/3}$$
+$$x = \pm \frac{i}{\sqrt{3}}$$
+Rationalize the denominator:
+$$\mathbf{x = \pm \frac{i\sqrt{3}}{3}}$$
+
+---
+
+### ⚠️ Graphical Interpretation
+
+* **Real Zeros:** The graph of $f(x)$ crosses the x-axis at **$(1, 0)$** and **$(-1, 0)$**.
+* **Complex Zeros:** The other two solutions are imaginary, meaning they do not appear on a standard 2D coordinate plane.
+* **Function Type:** This is a **Quartic** function (degree 4). It has 4 total roots (2 real, 2 imaginary) as predicted by the Fundamental Theorem of Algebra.
+
+
+
+---
+
+> [!abstract] Algebra Takeaway
+> When solving higher-order equations like $x^4$, the substitution method is only half the battle. The real work happens during the back-substitution step where you must apply the Square Root Property. Remember to always include the $\pm$ and watch for negative radicands that produce $i$.
