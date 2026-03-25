@@ -3911,3 +3911,59 @@ $$\mathbf{x = 8}$$
 
 > [!abstract] Algebra Takeaway
 > Fractional exponents can look intimidating, but the "2-to-1" ratio rule still applies. Once you solve for $u$, simply use the denominator of the fractional exponent as the power for both sides (e.g., if you have a $1/3$ power, cube both sides; if you have a $1/4$ power, raise both sides to the 4th).
+
+### Solving g(x) = x + √x - 20 = 0 (u-Substitution)
+
+This equation is "quadratic in form" because the exponent of the first term ($x^1$) is exactly double the exponent of the middle term ($\sqrt{x} = x^{1/2}$). By using **u-substitution**, we can transform this radical equation into a simple quadratic.
+
+---
+
+#### 1. Identify and Substitute "u"
+We let $u$ represent the middle variable part:
+**Let $u = \sqrt{x}$** (which means $u^2 = x$)
+
+Now, rewrite the equation in terms of $u$:
+$$u^2 + u - 20 = 0$$
+
+
+
+#### 2. Solve the Quadratic for "u"
+We need two numbers that:
+* **Multiply to:** $-20$
+* **Add to:** $1$
+
+The numbers are **$5$** and **$-4$**.
+$$(u + 5)(u - 4) = 0$$
+
+Set each factor to zero:
+* $u + 5 = 0 \Rightarrow \mathbf{u = -5}$
+* $u - 4 = 0 \Rightarrow \mathbf{u = 4}$
+
+#### 3. Back-Substitute to Solve for "x"
+Follow the "breadcrumbs" back to the original variable by replacing $u$ with $\sqrt{x}$. **Note: This step requires checking for extraneous solutions.**
+
+**Case 1: $\sqrt{x} = 4$**
+To isolate $x$, square both sides:
+$$(\sqrt{x})^2 = (4)^2$$
+$$\mathbf{x = 16}$$
+
+**Case 2: $\sqrt{x} = -5$**
+In the real number system, the principal square root of a number cannot be negative.
+$$\sqrt{x} = -5 \quad \Rightarrow \text{No Real Solution}$$
+
+
+
+---
+
+### ⚠️ Graphical Interpretation & Verification
+
+* **Real Zeros:** The graph of $g(x)$ crosses the x-axis at exactly **$(16, 0)$**.
+* **Extraneous Solution:** While $u = -5$ is a valid solution for the quadratic part of the math, it fails the "back-substitution" test because squaring it would give $x = 25$, but $\sqrt{25}$ is $5$, not $-5$.
+* **Verification:**
+    * $g(16) = 16 + \sqrt{16} - 20 = 16 + 4 - 20 = 0$. (Check!)
+    * $g(25) = 25 + \sqrt{25} - 20 = 25 + 5 - 20 = 10$. (Fails!)
+
+---
+
+> [!abstract] Algebra Takeaway
+> Whenever your substitution involves a square root ($u = \sqrt{x}$), you must be on high alert for extraneous solutions. A square root is defined as the positive root; if your $u$-solve gives you a negative number, that specific branch of the solution must be discarded.
