@@ -3962,25 +3962,20 @@ $$\sqrt{x} = -5 \quad \Rightarrow \text{No Real Solution}$$
 This equation is "quadratic in form" because the leading exponent ($-2$) is exactly double the middle exponent ($-1$). We will use **u-substitution** and follow the "Leonard Setup" to handle the negative leading coefficient.
 
 ---
-
 #### 1. Prepare the Equation (The "Leonard Setup")
 To make factoring easier, set the function to zero and multiply the entire equation by **$-1$** to make the leading term positive:
 $$-1 \cdot (-2y^{-2} - 11y^{-1} + 40 = 0)$$
 $$2y^{-2} + 11y^{-1} - 40 = 0$$
-
 #### 2. Identify and Substitute "u"
 We let $u$ represent the middle variable part:
 **Let $u = y^{-1}$** (which is the same as $1/y$)
 
 Now, rewrite the equation in terms of $u$:
 $$2u^2 + 11u - 40 = 0$$
-
-
-
 #### 3. Solve the Quadratic for "u"
 We use the **AC Method** (Diamond Method) to find factors of $2 \times -40 = -80$ that add to $11$:
 * The numbers are **$16$** and **$-5$**.
-
+* 
 Rewrite and group:
 1. $2u^2 + 16u - 5u - 40 = 0$
 2. $2u(u + 8) - 5(u + 8) = 0$
@@ -3989,7 +3984,6 @@ Rewrite and group:
 Set each factor to zero:
 * $2u - 5 = 0 \Rightarrow \mathbf{u = 5/2}$
 * $u + 8 = 0 \Rightarrow \mathbf{u = -8}$
-
 #### 4. Back-Substitute to Solve for "y"
 Follow the "breadcrumbs" back to the original variable by replacing $u$ with $y^{-1}$. Since $y^{-1} = 1/y$, we simply **take the reciprocal** of our $u$ values.
 
@@ -4000,11 +3994,7 @@ $$\mathbf{y = 2/5 \quad (or \ 0.4)}$$
 **Case 2: $y^{-1} = -8$**
 Flip the number (remember $-8$ is $-8/1$):
 $$\mathbf{y = -1/8 \quad (or \ -0.125)}$$
-
-
-
 ---
-
 ### ⚠️ Graphical Interpretation & Verification
 
 * **Real Zeros:** the graph of $h(y)$ crosses the y-axis (as the independent variable) at **$2/5$** and **$-1/8$**.
