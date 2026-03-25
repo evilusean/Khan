@@ -3821,16 +3821,12 @@ Solve for $x$:
 This equation is "quadratic in form" because the exponent of the first term ($4$) is exactly double the exponent of the middle term ($2$). We can use **u-substitution** to temporarily turn this quartic equation into a standard quadratic.
 
 ---
-
 #### 1. Identify and Substitute "u"
 We let $u$ represent the middle variable part:
 **Let $u = x^2$** (which means $u^2 = x^4$)
 
 Now, rewrite the equation in terms of $u$:
 $$3u^2 - 2u - 1 = 0$$
-
-
-
 #### 2. Solve the Quadratic for "u"
 We check for factors of $a \cdot c$ ($3 \times -1 = -3$) that add to $b$ ($-2$):
 * The numbers are **$-3$** and **$1$**.
@@ -3843,7 +3839,6 @@ Using grouping:
 Set each factor to zero:
 * $3u + 1 = 0 \Rightarrow \mathbf{u = -1/3}$
 * $u - 1 = 0 \Rightarrow \mathbf{u = 1}$
-
 #### 3. Back-Substitute to Solve for "x"
 Now, follow the "breadcrumbs" back to the original variable by replacing $u$ with $x^2$.
 
@@ -3858,17 +3853,12 @@ $$x = \pm \sqrt{-1/3}$$
 $$x = \pm \frac{i}{\sqrt{3}}$$
 Rationalize the denominator:
 $$\mathbf{x = \pm \frac{i\sqrt{3}}{3}}$$
-
 ---
-
 ### ⚠️ Graphical Interpretation
 
 * **Real Zeros:** The graph of $f(x)$ crosses the x-axis at **$(1, 0)$** and **$(-1, 0)$**.
 * **Complex Zeros:** The other two solutions are imaginary, meaning they do not appear on a standard 2D coordinate plane.
 * **Function Type:** This is a **Quartic** function (degree 4). It has 4 total roots (2 real, 2 imaginary) as predicted by the Fundamental Theorem of Algebra.
-
-
-
 ---
 
 > [!abstract] Algebra Takeaway
