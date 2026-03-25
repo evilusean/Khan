@@ -3944,7 +3944,6 @@ $$\mathbf{x = 16}$$
 In the real number system, the principal square root of a number cannot be negative.
 $$\sqrt{x} = -5 \quad \Rightarrow \text{No Real Solution}$$
 ---
-
 ### ⚠️ Graphical Interpretation & Verification
 
 * **Real Zeros:** The graph of $g(x)$ crosses the x-axis at exactly **$(16, 0)$**.
@@ -3957,3 +3956,63 @@ $$\sqrt{x} = -5 \quad \Rightarrow \text{No Real Solution}$$
 
 > [!abstract] Algebra Takeaway
 > Whenever your substitution involves a square root ($u = \sqrt{x}$), you must be on high alert for extraneous solutions. A square root is defined as the positive root; if your $u$-solve gives you a negative number, that specific branch of the solution must be discarded.
+
+### Solving h(y) = -2y⁻² - 11y⁻¹ + 40 = 0 (u-Substitution)
+
+This equation is "quadratic in form" because the leading exponent ($-2$) is exactly double the middle exponent ($-1$). We will use **u-substitution** and follow the "Leonard Setup" to handle the negative leading coefficient.
+
+---
+
+#### 1. Prepare the Equation (The "Leonard Setup")
+To make factoring easier, set the function to zero and multiply the entire equation by **$-1$** to make the leading term positive:
+$$-1 \cdot (-2y^{-2} - 11y^{-1} + 40 = 0)$$
+$$2y^{-2} + 11y^{-1} - 40 = 0$$
+
+#### 2. Identify and Substitute "u"
+We let $u$ represent the middle variable part:
+**Let $u = y^{-1}$** (which is the same as $1/y$)
+
+Now, rewrite the equation in terms of $u$:
+$$2u^2 + 11u - 40 = 0$$
+
+
+
+#### 3. Solve the Quadratic for "u"
+We use the **AC Method** (Diamond Method) to find factors of $2 \times -40 = -80$ that add to $11$:
+* The numbers are **$16$** and **$-5$**.
+
+Rewrite and group:
+1. $2u^2 + 16u - 5u - 40 = 0$
+2. $2u(u + 8) - 5(u + 8) = 0$
+3. $(2u - 5)(u + 8) = 0$
+
+Set each factor to zero:
+* $2u - 5 = 0 \Rightarrow \mathbf{u = 5/2}$
+* $u + 8 = 0 \Rightarrow \mathbf{u = -8}$
+
+#### 4. Back-Substitute to Solve for "y"
+Follow the "breadcrumbs" back to the original variable by replacing $u$ with $y^{-1}$. Since $y^{-1} = 1/y$, we simply **take the reciprocal** of our $u$ values.
+
+**Case 1: $y^{-1} = 5/2$**
+Flip the fraction:
+$$\mathbf{y = 2/5 \quad (or \ 0.4)}$$
+
+**Case 2: $y^{-1} = -8$**
+Flip the number (remember $-8$ is $-8/1$):
+$$\mathbf{y = -1/8 \quad (or \ -0.125)}$$
+
+
+
+---
+
+### ⚠️ Graphical Interpretation & Verification
+
+* **Real Zeros:** the graph of $h(y)$ crosses the y-axis (as the independent variable) at **$2/5$** and **$-1/8$**.
+* **Domain Restriction:** Because the original equation has negative exponents ($1/y^2$ and $1/y$), the function is undefined at **$y = 0$**.
+* **Verification:**
+    * $h(0.4) = -2(0.4)^{-2} - 11(0.4)^{-1} + 40 = -2(6.25) - 11(2.5) + 40 = -12.5 - 27.5 + 40 = 0$. (Check!)
+
+---
+
+> [!abstract] Algebra Takeaway
+> When dealing with negative exponents, the process is the same as any other substitution. The "magic" happens in the final step: because $y^{-1}$ means "one over y," you just need to find the reciprocal of your $u$ answer to get back to $y$.
