@@ -3863,3 +3863,60 @@ $$\mathbf{x = \pm \frac{i\sqrt{3}}{3}}$$
 
 > [!abstract] Algebra Takeaway
 > When solving higher-order equations like $x^4$, the substitution method is only half the battle. The real work happens during the back-substitution step where you must apply the Square Root Property. Remember to always include the $\pm$ and watch for negative radicands that produce $i$.
+
+### Solving $f(x) = x^(2/3) - 7x^(1/3) + 10 = 0$ (u-Substitution)
+
+This equation is "quadratic in form" because the leading exponent ($2/3$) is exactly double the middle exponent ($1/3$). By using **u-substitution**, we can simplify the fractional exponents into a standard quadratic.
+
+---
+
+#### 1. Identify and Substitute "u"
+We let $u$ represent the middle variable part:
+**Let $u = x^{1/3}$** (which is the same as $\sqrt[3]{x}$)
+
+Now, rewrite the equation in terms of $u$:
+$$u^2 - 7u + 10 = 0$$
+
+
+
+#### 2. Solve the Quadratic for "u"
+We need two numbers that:
+* **Multiply to:** $10$
+* **Add to:** $-7$
+
+The numbers are **$-5$** and **$-2$**.
+$$(u - 5)(u - 2) = 0$$
+
+Set each factor to zero:
+* $u - 5 = 0 \Rightarrow \mathbf{u = 5}$
+* $u - 2 = 0 \Rightarrow \mathbf{u = 2}$
+
+#### 3. Back-Substitute to Solve for "x"
+Follow the "breadcrumbs" back to the original variable by replacing $u$ with $x^{1/3}$.
+
+**Case 1: $x^{1/3} = 5$**
+To isolate $x$, perform the inverse operation: **cube both sides**.
+$$(x^{1/3})^3 = (5)^3$$
+$$\mathbf{x = 125}$$
+
+**Case 2: $x^{1/3} = 2$**
+Cube both sides:
+$$(x^{1/3})^3 = (2)^3$$
+$$\mathbf{x = 8}$$
+
+
+
+---
+
+### ⚠️ Graphical Interpretation
+
+* **Real Zeros:** The graph of $f(x)$ crosses the x-axis at **$(8, 0)$** and **$(125, 0)$**.
+* **Domain:** Unlike square roots ($x^{1/2}$), cube roots ($x^{1/3}$) are defined for all real numbers, so we don't need to worry about negative $x$ values being excluded from the domain in this specific step.
+* **Verification:**
+    * $f(8) = (8)^{2/3} - 7(8)^{1/3} + 10 = 4 - 7(2) + 10 = 0$. (Check!)
+    * $f(125) = (125)^{2/3} - 7(125)^{1/3} + 10 = 25 - 7(5) + 10 = 0$. (Check!)
+
+---
+
+> [!abstract] Algebra Takeaway
+> Fractional exponents can look intimidating, but the "2-to-1" ratio rule still applies. Once you solve for $u$, simply use the denominator of the fractional exponent as the power for both sides (e.g., if you have a $1/3$ power, cube both sides; if you have a $1/4$ power, raise both sides to the 4th).
