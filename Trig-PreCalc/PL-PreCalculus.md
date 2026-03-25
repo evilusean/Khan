@@ -3730,3 +3730,5 @@ Plug the $x$ values back into the simpler function ($f(x) = x^2 - x + 1$) to fin
 
 > [!abstract] Algebra Takeaway
 > When intersecting two quadratics, you are essentially creating a third quadratic equation that represents the "difference" between them. Solving for the zeros of that difference equation provides the x-coordinates for the intersection of the original two graphs.
+
+## 2026-March-25 - Using Substitutions to Solve Equations (Precalculus - College Algebra 23) :
