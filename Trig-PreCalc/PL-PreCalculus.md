@@ -3917,16 +3917,12 @@ $$\mathbf{x = 8}$$
 This equation is "quadratic in form" because the exponent of the first term ($x^1$) is exactly double the exponent of the middle term ($\sqrt{x} = x^{1/2}$). By using **u-substitution**, we can transform this radical equation into a simple quadratic.
 
 ---
-
 #### 1. Identify and Substitute "u"
 We let $u$ represent the middle variable part:
 **Let $u = \sqrt{x}$** (which means $u^2 = x$)
 
 Now, rewrite the equation in terms of $u$:
 $$u^2 + u - 20 = 0$$
-
-
-
 #### 2. Solve the Quadratic for "u"
 We need two numbers that:
 * **Multiply to:** $-20$
@@ -3934,11 +3930,9 @@ We need two numbers that:
 
 The numbers are **$5$** and **$-4$**.
 $$(u + 5)(u - 4) = 0$$
-
 Set each factor to zero:
 * $u + 5 = 0 \Rightarrow \mathbf{u = -5}$
 * $u - 4 = 0 \Rightarrow \mathbf{u = 4}$
-
 #### 3. Back-Substitute to Solve for "x"
 Follow the "breadcrumbs" back to the original variable by replacing $u$ with $\sqrt{x}$. **Note: This step requires checking for extraneous solutions.**
 
@@ -3946,13 +3940,9 @@ Follow the "breadcrumbs" back to the original variable by replacing $u$ with $\s
 To isolate $x$, square both sides:
 $$(\sqrt{x})^2 = (4)^2$$
 $$\mathbf{x = 16}$$
-
 **Case 2: $\sqrt{x} = -5$**
 In the real number system, the principal square root of a number cannot be negative.
 $$\sqrt{x} = -5 \quad \Rightarrow \text{No Real Solution}$$
-
-
-
 ---
 
 ### ⚠️ Graphical Interpretation & Verification
