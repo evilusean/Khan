@@ -4061,18 +4061,13 @@ If you are given a vertex $(h, k)$ and a point (like a y-intercept), you can bui
 If you have already identified the **Vertex $(h, k)$**, the **y-intercept $(0, c)$**, and the **Axis of Symmetry ($x = h$)**, you can often determine the x-intercepts through a combination of symmetry and algebra.
 
 ---
-
 #### 1. The Symmetry Shortcut (The "Free Point")
 The Axis of Symmetry acts as a mirror. If you know the y-intercept, you can immediately find a "mirror point" at the same height on the opposite side of the vertex.
 
 * **Step:** Measure the horizontal distance from the y-intercept ($x=0$) to the Axis of Symmetry ($x=h$).
 * **Step:** Move that same distance to the other side of the axis. 
 * **Result:** This gives you a third point $(2h, c)$. While this isn't an x-intercept, it helps you "aim" the parabola to see where it will cross the x-axis.
-
-
-
 ---
-
 #### 2. The Existence Test (Do they even exist?)
 Before calculating, use the vertex and the leading coefficient ($a$) to see if the graph even touches the x-axis:
 
@@ -4082,8 +4077,6 @@ Before calculating, use the vertex and the leading coefficient ($a$) to see if t
 | **Above** x-axis ($k > 0$) | **Downward** ($a < 0$) | **Two** Real Intercepts |
 | **Above** x-axis ($k > 0$) | **Upward** ($a > 0$) | **Zero** (Complex Only) |
 | **On** x-axis ($k = 0$) | Any | **One** (The Vertex itself) |
-
-
 
 ---
 
@@ -4105,7 +4098,6 @@ $$\pm\sqrt{\frac{-k}{a}} = x - h$$
 $$\mathbf{x = h \pm \sqrt{\frac{-k}{a}}}$$
 
 ---
-
 ### ⚠️ Practical Example
 If your vertex is **$(3, -4)$** and your y-intercept is **$(0, 5)$**:
 1.  **Symmetry:** You have a mirror point at **$(6, 5)$**.
@@ -4114,7 +4106,6 @@ If your vertex is **$(3, -4)$** and your y-intercept is **$(0, 5)$**:
     * $0 = 1(x-3)^2 - 4 \Rightarrow 4 = (x-3)^2$.
     * $\pm 2 = x - 3$.
     * **$x = 5$** and **$x = 1$**.
-
 ---
 
 > [!abstract] Algebra Takeaway
