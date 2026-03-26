@@ -4284,14 +4284,12 @@ $$\mathbf{x = -1 \mp \sqrt{2}}$$
 To map this downward-opening parabola for your notes, we will calculate the y-intercept, identify the vertex using the $h = -b/2a$ method, and solve for the x-intercepts using the Quadratic Formula.
 
 ---
-
 #### 1. Find the y-intercept
 The y-intercept occurs when $x = 0$. In standard form $ax^2 + bx + c$, this is always the constant $c$.
 $$f(0) = -4(0)^2 - 4(0) - 1 = -1$$
 **y-intercept: (0, -1)**
 
 ---
-
 #### 2. Find the Vertex (h, k)
 We use the Vertex Formula to find the x-coordinate ($h$), then evaluate the function for the y-coordinate ($k$).
 
@@ -4307,10 +4305,7 @@ $$k = -1 + 2 - 1 = \mathbf{0}$$
 
 **Vertex: (-1/2, 0)**
 
-
-
 ---
-
 #### 3. Solve for x-intercepts (Quadratic Formula)
 Since the vertex is exactly on the x-axis ($k = 0$), we expect only **one real x-intercept** (a "double root"). Let's verify with the formula:
 
@@ -4326,7 +4321,6 @@ $$x = \frac{4 \pm \sqrt{0}}{-8}$$
 $$x = \frac{4}{-8} = \mathbf{-1/2}$$
 
 ---
-
 #### 4. Summary Table for Graphing
 
 | Feature | Coordinate(s) |
@@ -4336,8 +4330,6 @@ $$x = \frac{4}{-8} = \mathbf{-1/2}$$
 | **y-intercept** | $(0, -1)$ |
 | **x-intercepts** | $(-1/2, 0)$ |
 | **Axis of Symmetry** | $x = -1/2$ |
-
-
 
 ---
 
