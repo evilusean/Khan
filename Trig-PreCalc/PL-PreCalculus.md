@@ -4009,12 +4009,10 @@ $$\mathbf{y = -1/8 \quad (or \ -0.125)}$$
 
 ## 2026-March-26 - Graphing Quadratic Functions (Precalculus - College Algebra 24) :
 https://www.youtube.com/watch?v=VH4tzzBVbgA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=24
-### Graphing Quadratic Functions (Professor Leonard)
-
+### Graphing Quadratic Functions 
 This lecture covers the properties and procedures for graphing quadratic functions, moving from the basic "vertex form" to handling standard form equations that may require the Quadratic Formula for x-intercepts.
 
 ---
-
 #### 1. The Anatomy of a Parabola
 Every quadratic function $f(x) = ax^2 + bx + c$ creates a **parabola**.
 * **Opening Direction:** [00:00:54]
@@ -4024,10 +4022,7 @@ Every quadratic function $f(x) = ax^2 + bx + c$ creates a **parabola**.
     * $|a| > 1$: Narrow (stretched).
     * $|a| < 1$: Wide (compressed).
 * **Axis of Symmetry:** A vertical line ($x = h$) that passes through the vertex. Every point on one side has a mirrored "free point" on the other. [00:11:13]
-
-
 ---
-
 #### 2. The Step-by-Step Graphing Process
 Professor Leonard recommends this specific order to save time and avoid searching for x-intercepts that don't exist: [00:03:52]
 
@@ -4042,7 +4037,6 @@ Professor Leonard recommends this specific order to save time and avoid searchin
 5.  **Solve for x-intercepts (if needed):** Set $f(x) = 0$. Use factoring or the **Quadratic Formula**. [00:13:30]
 
 ---
-
 #### 3. Vertex Form vs. Standard Form
 Professor Leonard explains that while the Vertex Formula is faster, **Completing the Square** transforms the equation into **Vertex Form**: $f(x) = a(x - h)^2 + k$. [00:18:01]
 
@@ -4050,11 +4044,7 @@ Professor Leonard explains that while the Vertex Formula is faster, **Completing
 * **Vertex Form:** $f(x) = 2(x + 2)^2 - 3$ [00:20:42]
     * This shows a shift **left 2** and **down 3**.
     * The vertex is $(-2, -3)$.
-
-[Image comparing standard form and vertex form of the same quadratic function]
-
 ---
-
 #### 4. Finding the Equation from a Graph
 If you are given a vertex $(h, k)$ and a point (like a y-intercept), you can build the function: [00:49:53]
 1.  Plug the vertex into the form $f(x) = a(x - h)^2 + k$.
