@@ -4008,3 +4008,4 @@ $$\mathbf{y = -1/8 \quad (or \ -0.125)}$$
 > When dealing with negative exponents, the process is the same as any other substitution. The "magic" happens in the final step: because $y^{-1}$ means "one over y," you just need to find the reciprocal of your $u$ answer to get back to $y$.
 
 ## 2026-March-26 - Graphing Quadratic Functions (Precalculus - College Algebra 24) :
+https://www.youtube.com/watch?v=VH4tzzBVbgA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=24
