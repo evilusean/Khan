@@ -4009,3 +4009,59 @@ $$\mathbf{y = -1/8 \quad (or \ -0.125)}$$
 
 ## 2026-March-26 - Graphing Quadratic Functions (Precalculus - College Algebra 24) :
 https://www.youtube.com/watch?v=VH4tzzBVbgA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=24
+### Graphing Quadratic Functions (Professor Leonard)
+
+This lecture covers the properties and procedures for graphing quadratic functions, moving from the basic "vertex form" to handling standard form equations that may require the Quadratic Formula for x-intercepts.
+
+---
+
+#### 1. The Anatomy of a Parabola
+Every quadratic function $f(x) = ax^2 + bx + c$ creates a **parabola**.
+* **Opening Direction:** [00:00:54]
+    * If $a > 0$, it opens **upward** (has a minimum).
+    * If $a < 0$, it opens **downward** (has a maximum).
+* **Vertical Stretch/Compression:** [00:01:06]
+    * $|a| > 1$: Narrow (stretched).
+    * $|a| < 1$: Wide (compressed).
+* **Axis of Symmetry:** A vertical line ($x = h$) that passes through the vertex. Every point on one side has a mirrored "free point" on the other. [00:11:13]
+
+
+---
+
+#### 2. The Step-by-Step Graphing Process
+Professor Leonard recommends this specific order to save time and avoid searching for x-intercepts that don't exist: [00:03:52]
+
+1.  **Find the Vertex $(h, k)$:** Use the **Vertex Formula**. [00:05:15]
+    * $x = \frac{-b}{2a}$
+    * Plug that $x$ back into the function to find $y$.
+2.  **Find the y-intercept:** Set $x = 0$. It is always the value of $c$ in standard form: $(0, c)$. [00:09:13]
+3.  **Get a "Free Point":** Use the Axis of Symmetry to mirror the y-intercept across the vertex. [00:11:58]
+4.  **Determine if x-intercepts exist:** [00:10:07]
+    * If the vertex is *below* the x-axis and opens *up*, you have two x-intercepts.
+    * If the vertex is *above* the x-axis and opens *up*, you have **zero** x-intercepts.
+5.  **Solve for x-intercepts (if needed):** Set $f(x) = 0$. Use factoring or the **Quadratic Formula**. [00:13:30]
+
+---
+
+#### 3. Vertex Form vs. Standard Form
+Professor Leonard explains that while the Vertex Formula is faster, **Completing the Square** transforms the equation into **Vertex Form**: $f(x) = a(x - h)^2 + k$. [00:18:01]
+
+* **Standard Form:** $f(x) = 2x^2 + 8x + 5$
+* **Vertex Form:** $f(x) = 2(x + 2)^2 - 3$ [00:20:42]
+    * This shows a shift **left 2** and **down 3**.
+    * The vertex is $(-2, -3)$.
+
+[Image comparing standard form and vertex form of the same quadratic function]
+
+---
+
+#### 4. Finding the Equation from a Graph
+If you are given a vertex $(h, k)$ and a point (like a y-intercept), you can build the function: [00:49:53]
+1.  Plug the vertex into the form $f(x) = a(x - h)^2 + k$.
+2.  Plug the coordinates of the other point into $x$ and $f(x)$.
+3.  Solve for the missing value of **$a$**. [00:52:36]
+
+---
+
+> [!abstract] Algebra Takeaway
+> Always find the vertex first. It tells you the maximum or minimum of the function and, when combined with the y-intercept, tells you immediately whether you need to bother solving for x-intercepts.
