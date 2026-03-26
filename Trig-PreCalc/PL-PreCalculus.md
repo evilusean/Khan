@@ -4335,3 +4335,67 @@ $$x = \frac{4}{-8} = \mathbf{-1/2}$$
 
 > [!abstract] Algebra Takeaway
 > Whenever the discriminant ($b^2 - 4ac$) equals zero, the vertex of the parabola is your only x-intercept. This means the parabola just "kisses" the x-axis at a single point before turning back around.
+
+### Graphing Analysis of g(x) = 3x² + 2x + 5
+
+To map this upward-opening parabola for your notes, we will calculate the y-intercept, identify the vertex using the $h = -b/2a$ method, and solve for the x-intercepts using the Quadratic Formula.
+
+---
+#### 1. Find the y-intercept
+The y-intercept occurs when $x = 0$. In standard form $ax^2 + bx + c$, this is always the constant $c$.
+$$g(0) = 3(0)^2 + 2(0) + 5 = 5$$
+**y-intercept: (0, 5)**
+
+---
+#### 2. Find the Vertex (h, k)
+We use the Vertex Formula to find the x-coordinate ($h$), then evaluate the function for the y-coordinate ($k$).
+
+**Identify Coefficients:** $a = 3, b = 2, c = 5$
+
+**Step A: Find h**
+$$h = \frac{-b}{2a} = \frac{-(2)}{2(3)} = \frac{-2}{6} = \mathbf{-1/3}$$
+
+**Step B: Find k**
+$$k = g(-1/3) = 3(-1/3)^2 + 2(-1/3) + 5$$
+$$k = 3(1/9) - 2/3 + 5$$
+$$k = 1/3 - 2/3 + 15/3 = \mathbf{14/3 \ ( \approx 4.67 )}$$
+
+**Vertex: (-1/3, 14/3)**
+
+---
+#### 3. Solve for x-intercepts (Quadratic Formula)
+Since the vertex is above the x-axis ($k \approx 4.67$) and the parabola opens upward ($a = 3$), the graph will never cross the x-axis. We expect **complex/imaginary solutions**.
+
+$$x = \frac{-(2) \pm \sqrt{(2)^2 - 4(3)(5)}}{2(3)}$$
+
+**Simplify the Discriminant:**
+* $(2)^2 = 4$
+* $4(3)(5) = 60$
+* $4 - 60 = \mathbf{-56}$
+
+**Solve and Simplify:**
+$$x = \frac{-2 \pm \sqrt{-56}}{6}$$
+
+Simplify $\sqrt{-56}$ (which is $\sqrt{-1 \cdot 4 \cdot 14} = 2i\sqrt{14}$):
+$$x = \frac{-2 \pm 2i\sqrt{14}}{6}$$
+
+Divide each term by the common factor of 2:
+$$\mathbf{x = \frac{-1 \pm i\sqrt{14}}{3}}$$
+
+---
+#### 4. Summary Table for Graphing
+
+| Feature | Coordinate(s) |
+| :--- | :--- |
+| **Opening** | Upward ($a = 3$) |
+| **Vertex** | $(-1/3, 14/3)$ |
+| **y-intercept** | $(0, 5)$ |
+| **x-intercepts** | None (Complex: $\frac{-1 \pm i\sqrt{14}}{3}$) |
+| **Axis of Symmetry** | $x = -1/3$ |
+
+
+
+---
+
+> [!abstract] Algebra Takeaway
+> When the discriminant is negative ($b^2 - 4ac < 0$), the parabola does not have any real x-intercepts. Graphically, this means the entire parabola sits completely above or completely below the x-axis. In your notes, always label these as "No Real Solutions" or provide the complex coordinates if required.
