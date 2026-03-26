@@ -4060,7 +4060,6 @@ If you are given a vertex $(h, k)$ and a point (like a y-intercept), you can bui
 When a quadratic function is in **Standard Form** ($f(x) = ax^2 + bx + c$), the vertex represents the absolute highest or lowest point of the parabola. The formula $x = -b/2a$ is a derivation of the Quadratic Formula that identifies the vertical center of the graph.
 
 ---
-
 #### 1. The Vertex Formula Components
 The vertex is a point $(h, k)$. We find it in two distinct stages:
 
@@ -4069,10 +4068,7 @@ The vertex is a point $(h, k)$. We find it in two distinct stages:
 * **To find $k$ (the y-coordinate):** Evaluate the function at the $x$ value you just found.
     $$y = f\left(\frac{-b}{2a}\right)$$
 
-
-
 ---
-
 #### 2. Why this Formula Works
 Professor Leonard explains that the Quadratic Formula is $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$. 
 * The $\pm$ part gives you the distance to the left and right to find the x-intercepts.
@@ -4080,7 +4076,6 @@ Professor Leonard explains that the Quadratic Formula is $x = \frac{-b \pm \sqrt
 * Therefore, the x-coordinate of the vertex **must** be $-b/2a$. [00:05:45]
 
 ---
-
 #### 3. Step-by-Step Execution
 To find the vertex of $f(x) = 2x^2 + 8x + 5$:
 
@@ -4092,10 +4087,7 @@ To find the vertex of $f(x) = 2x^2 + 8x + 5$:
     $$f(-2) = 8 - 16 + 5 = \mathbf{-3}$$
 4.  **Result:** The Vertex is **$(-2, -3)$**.
 
-
-
 ---
-
 #### 4. Strategic Advantages
 * **Faster than Completing the Square:** You don't have to worry about factoring or "adding the magic number" to both sides.
 * **Instant Axis of Symmetry:** Once you have the $x$ value of the vertex, you immediately have the equation for the axis of symmetry (e.g., $x = -2$).
