@@ -4055,3 +4055,76 @@ If you are given a vertex $(h, k)$ and a point (like a y-intercept), you can bui
 
 > [!abstract] Algebra Takeaway
 > Always find the vertex first. It tells you the maximum or minimum of the function and, when combined with the y-intercept, tells you immediately whether you need to bother solving for x-intercepts.
+
+### Graphing Analysis of f(x) = 2x² + 8x + 5
+
+To fully map this parabola for your notes, we will identify the key "anchor points": the y-intercept, the vertex, and the x-intercepts.
+
+---
+
+#### 1. Find the y-intercept
+The y-intercept occurs when $x = 0$. In standard form $ax^2 + bx + c$, this is always the constant $c$.
+$$f(0) = 2(0)^2 + 8(0) + 5 = 5$$
+**y-intercept: (0, 5)**
+
+---
+
+#### 2. Find the Vertex (h, k)
+We use the Vertex Formula to find the x-coordinate ($h$), then plug it back in for the y-coordinate ($k$).
+
+**Identify Coefficients:** $a = 2, b = 8, c = 5$
+
+**Step A: Find h**
+$$h = \frac{-b}{2a} = \frac{-(8)}{2(2)} = \frac{-8}{4} = -2$$
+
+**Step B: Find k**
+$$k = f(-2) = 2(-2)^2 + 8(-2) + 5$$
+$$k = 2(4) - 16 + 5$$
+$$k = 8 - 16 + 5 = -3$$
+
+**Vertex: (-2, -3)**
+
+
+
+---
+
+#### 3. Solve for x-intercepts (Quadratic Formula)
+Since the vertex is at $y = -3$ and the parabola opens upward ($a=2$), we know there are **two real x-intercepts**. We set $f(x) = 0$:
+
+$$x = \frac{-(8) \pm \sqrt{(8)^2 - 4(2)(5)}}{2(2)}$$
+
+**Simplify the Discriminant:**
+* $8^2 = 64$
+* $4(2)(5) = 40$
+* $64 - 40 = \mathbf{24}$
+
+**Solve and Simplify:**
+$$x = \frac{-8 \pm \sqrt{24}}{4}$$
+
+Simplify $\sqrt{24}$ (which is $\sqrt{4 \cdot 6} = 2\sqrt{6}$):
+$$x = \frac{-8 \pm 2\sqrt{6}}{4}$$
+
+Factor out a 2 from the numerator to reduce the fraction:
+$$x = \frac{2(-4 \pm \sqrt{6})}{4}$$
+$$\mathbf{x = \frac{-4 \pm \sqrt{6}}{2}}$$
+
+**Approximate Values:** $x \approx -0.78$ and $x \approx -3.22$
+
+---
+
+#### 4. Summary Table for Graphing
+
+| Feature | Coordinate(s) |
+| :--- | :--- |
+| **Opening** | Upward ($a=2$) |
+| **Vertex** | $(-2, -3)$ |
+| **y-intercept** | $(0, 5)$ |
+| **x-intercepts** | $(\frac{-4 \pm \sqrt{6}}{2}, 0)$ |
+| **Axis of Symmetry** | $x = -2$ |
+
+
+
+---
+
+> [!abstract] Algebra Takeaway
+> Using the $-b/2a$ method is often the fastest way to find the "turning point" of the graph. Once you have the vertex and the y-intercept, you have enough information to sketch the general shape of the parabola even before solving the Quadratic Formula.
