@@ -4278,3 +4278,68 @@ $$\mathbf{x = -1 \mp \sqrt{2}}$$
 ---
 > [!abstract] Algebra Takeaway
 > When $a$ is negative, the vertex represents the **maximum** value of the function. Notice how the x-intercepts are exactly $\sqrt{2}$ units to the left and right of the axis of symmetry ($x = -1$). This symmetry is a built-in "check" for your work.
+
+### Graphing Analysis of f(x) = -4x² - 4x - 1
+
+To map this downward-opening parabola for your notes, we will calculate the y-intercept, identify the vertex using the $h = -b/2a$ method, and solve for the x-intercepts using the Quadratic Formula.
+
+---
+
+#### 1. Find the y-intercept
+The y-intercept occurs when $x = 0$. In standard form $ax^2 + bx + c$, this is always the constant $c$.
+$$f(0) = -4(0)^2 - 4(0) - 1 = -1$$
+**y-intercept: (0, -1)**
+
+---
+
+#### 2. Find the Vertex (h, k)
+We use the Vertex Formula to find the x-coordinate ($h$), then evaluate the function for the y-coordinate ($k$).
+
+**Identify Coefficients:** $a = -4, b = -4, c = -1$
+
+**Step A: Find h**
+$$h = \frac{-b}{2a} = \frac{-(-4)}{2(-4)} = \frac{4}{-8} = \mathbf{-1/2}$$
+
+**Step B: Find k**
+$$k = f(-1/2) = -4(-1/2)^2 - 4(-1/2) - 1$$
+$$k = -4(1/4) + 2 - 1$$
+$$k = -1 + 2 - 1 = \mathbf{0}$$
+
+**Vertex: (-1/2, 0)**
+
+
+
+---
+
+#### 3. Solve for x-intercepts (Quadratic Formula)
+Since the vertex is exactly on the x-axis ($k = 0$), we expect only **one real x-intercept** (a "double root"). Let's verify with the formula:
+
+$$x = \frac{-(-4) \pm \sqrt{(-4)^2 - 4(-4)(-1)}}{2(-4)}$$
+
+**Simplify the Discriminant:**
+* $(-4)^2 = 16$
+* $-4(-4)(-1) = -16$
+* $16 - 16 = \mathbf{0}$
+
+**Solve:**
+$$x = \frac{4 \pm \sqrt{0}}{-8}$$
+$$x = \frac{4}{-8} = \mathbf{-1/2}$$
+
+---
+
+#### 4. Summary Table for Graphing
+
+| Feature | Coordinate(s) |
+| :--- | :--- |
+| **Opening** | Downward ($a = -4$) |
+| **Vertex** | $(-1/2, 0)$ |
+| **y-intercept** | $(0, -1)$ |
+| **x-intercepts** | $(-1/2, 0)$ |
+| **Axis of Symmetry** | $x = -1/2$ |
+
+
+
+---
+
+> [!abstract] Algebra Takeaway
+> Whenever the discriminant ($b^2 - 4ac$) equals zero, the vertex of the parabola is your only x-intercept. This means the parabola just "kisses" the x-axis at a single point before turning back around.
