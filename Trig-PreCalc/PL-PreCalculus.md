@@ -4056,6 +4056,69 @@ If you are given a vertex $(h, k)$ and a point (like a y-intercept), you can bui
 > [!abstract] Algebra Takeaway
 > Always find the vertex first. It tells you the maximum or minimum of the function and, when combined with the y-intercept, tells you immediately whether you need to bother solving for x-intercepts.
 
+### Finding X-Intercepts via Graphical Properties
+
+If you have already identified the **Vertex $(h, k)$**, the **y-intercept $(0, c)$**, and the **Axis of Symmetry ($x = h$)**, you can often determine the x-intercepts through a combination of symmetry and algebra.
+
+---
+
+#### 1. The Symmetry Shortcut (The "Free Point")
+The Axis of Symmetry acts as a mirror. If you know the y-intercept, you can immediately find a "mirror point" at the same height on the opposite side of the vertex.
+
+* **Step:** Measure the horizontal distance from the y-intercept ($x=0$) to the Axis of Symmetry ($x=h$).
+* **Step:** Move that same distance to the other side of the axis. 
+* **Result:** This gives you a third point $(2h, c)$. While this isn't an x-intercept, it helps you "aim" the parabola to see where it will cross the x-axis.
+
+
+
+---
+
+#### 2. The Existence Test (Do they even exist?)
+Before calculating, use the vertex and the leading coefficient ($a$) to see if the graph even touches the x-axis:
+
+| Vertex Position ($k$) | Opening Direction ($a$) | X-Intercepts |
+| :--- | :--- | :--- |
+| **Below** x-axis ($k < 0$) | **Upward** ($a > 0$) | **Two** Real Intercepts |
+| **Above** x-axis ($k > 0$) | **Downward** ($a < 0$) | **Two** Real Intercepts |
+| **Above** x-axis ($k > 0$) | **Upward** ($a > 0$) | **Zero** (Complex Only) |
+| **On** x-axis ($k = 0$) | Any | **One** (The Vertex itself) |
+
+
+
+---
+
+#### 3. Solving via Vertex Form
+If you have the vertex $(h, k)$ and the y-intercept $(0, c)$, you can solve for the x-intercepts without using the standard Quadratic Formula.
+
+**Step A: Find the "a" value**
+Plug the vertex and the y-intercept into the Vertex Form equation:
+$$y = a(x - h)^2 + k$$
+$$c = a(0 - h)^2 + k$$
+Solve this for **$a$**.
+
+**Step B: Solve for Zeros**
+Set $y = 0$ and use the **Square Root Property**:
+$$0 = a(x - h)^2 + k$$
+$$-k = a(x - h)^2$$
+$$\frac{-k}{a} = (x - h)^2$$
+$$\pm\sqrt{\frac{-k}{a}} = x - h$$
+$$\mathbf{x = h \pm \sqrt{\frac{-k}{a}}}$$
+
+---
+
+### ⚠️ Practical Example
+If your vertex is **$(3, -4)$** and your y-intercept is **$(0, 5)$**:
+1.  **Symmetry:** You have a mirror point at **$(6, 5)$**.
+2.  **Logic:** The vertex is below the axis and the y-intercept is above it, so it **must** cross the x-axis twice.
+3.  **Calculation:** * $5 = a(0-3)^2 - 4 \Rightarrow 9 = 9a \Rightarrow \mathbf{a = 1}$.
+    * $0 = 1(x-3)^2 - 4 \Rightarrow 4 = (x-3)^2$.
+    * $\pm 2 = x - 3$.
+    * **$x = 5$** and **$x = 1$**.
+
+---
+
+> [!abstract] Algebra Takeaway
+> The x-intercepts are always equidistant from the Axis of Symmetry. If you find one x-intercept is 2 units to the right of the axis ($h+2$), the other must be 2 units to the left ($h-2$). This is why the Quadratic Formula always looks like $\text{Vertex} \pm \text{Distance}$.
 ### Graphing Analysis of f(x) = 2x² + 8x + 5
 
 To fully map this parabola for your notes, we will identify the key "anchor points": the y-intercept, the vertex, and the x-intercepts.
