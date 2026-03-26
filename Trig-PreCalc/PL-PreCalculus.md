@@ -4061,14 +4061,12 @@ If you are given a vertex $(h, k)$ and a point (like a y-intercept), you can bui
 To fully map this parabola for your notes, we will identify the key "anchor points": the y-intercept, the vertex, and the x-intercepts.
 
 ---
-
 #### 1. Find the y-intercept
 The y-intercept occurs when $x = 0$. In standard form $ax^2 + bx + c$, this is always the constant $c$.
 $$f(0) = 2(0)^2 + 8(0) + 5 = 5$$
 **y-intercept: (0, 5)**
 
 ---
-
 #### 2. Find the Vertex (h, k)
 We use the Vertex Formula to find the x-coordinate ($h$), then plug it back in for the y-coordinate ($k$).
 
@@ -4084,10 +4082,7 @@ $$k = 8 - 16 + 5 = -3$$
 
 **Vertex: (-2, -3)**
 
-
-
 ---
-
 #### 3. Solve for x-intercepts (Quadratic Formula)
 Since the vertex is at $y = -3$ and the parabola opens upward ($a=2$), we know there are **two real x-intercepts**. We set $f(x) = 0$:
 
@@ -4111,7 +4106,6 @@ $$\mathbf{x = \frac{-4 \pm \sqrt{6}}{2}}$$
 **Approximate Values:** $x \approx -0.78$ and $x \approx -3.22$
 
 ---
-
 #### 4. Summary Table for Graphing
 
 | Feature | Coordinate(s) |
@@ -4122,9 +4116,6 @@ $$\mathbf{x = \frac{-4 \pm \sqrt{6}}{2}}$$
 | **x-intercepts** | $(\frac{-4 \pm \sqrt{6}}{2}, 0)$ |
 | **Axis of Symmetry** | $x = -2$ |
 
-
-
 ---
-
 > [!abstract] Algebra Takeaway
 > Using the $-b/2a$ method is often the fastest way to find the "turning point" of the graph. Once you have the vertex and the y-intercept, you have enough information to sketch the general shape of the parabola even before solving the Quadratic Formula.
