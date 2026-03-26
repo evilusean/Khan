@@ -4055,6 +4055,57 @@ If you are given a vertex $(h, k)$ and a point (like a y-intercept), you can bui
 
 > [!abstract] Algebra Takeaway
 > Always find the vertex first. It tells you the maximum or minimum of the function and, when combined with the y-intercept, tells you immediately whether you need to bother solving for x-intercepts.
+### Finding the Vertex Using x = -b/2a 
+
+When a quadratic function is in **Standard Form** ($f(x) = ax^2 + bx + c$), the vertex represents the absolute highest or lowest point of the parabola. The formula $x = -b/2a$ is a derivation of the Quadratic Formula that identifies the vertical center of the graph.
+
+---
+
+#### 1. The Vertex Formula Components
+The vertex is a point $(h, k)$. We find it in two distinct stages:
+
+* **To find $h$ (the x-coordinate):** Use the formula derived from the axis of symmetry.
+    $$x = \frac{-b}{2a}$$
+* **To find $k$ (the y-coordinate):** Evaluate the function at the $x$ value you just found.
+    $$y = f\left(\frac{-b}{2a}\right)$$
+
+
+
+---
+
+#### 2. Why this Formula Works
+Professor Leonard explains that the Quadratic Formula is $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$. 
+* The $\pm$ part gives you the distance to the left and right to find the x-intercepts.
+* The **$\frac{-b}{2a}$** part is the "middle" or the "anchor" that sits exactly halfway between those two intercepts.
+* Therefore, the x-coordinate of the vertex **must** be $-b/2a$. [00:05:45]
+
+---
+
+#### 3. Step-by-Step Execution
+To find the vertex of $f(x) = 2x^2 + 8x + 5$:
+
+1.  **Identify $a$ and $b$:** $a = 2$, $b = 8$.
+2.  **Calculate $x$ ($h$):**
+    $$x = \frac{-(8)}{2(2)} = \frac{-8}{4} = \mathbf{-2}$$
+3.  **Calculate $y$ ($k$):** Plug $-2$ back into the original equation.
+    $$f(-2) = 2(-2)^2 + 8(-2) + 5$$
+    $$f(-2) = 8 - 16 + 5 = \mathbf{-3}$$
+4.  **Result:** The Vertex is **$(-2, -3)$**.
+
+
+
+---
+
+#### 4. Strategic Advantages
+* **Faster than Completing the Square:** You don't have to worry about factoring or "adding the magic number" to both sides.
+* **Instant Axis of Symmetry:** Once you have the $x$ value of the vertex, you immediately have the equation for the axis of symmetry (e.g., $x = -2$).
+* **Max/Min Identification:** * If $a > 0$, the $y$-value ($k$) is the **minimum**.
+    * If $a < 0$, the $y$-value ($k$) is the **maximum**. [00:00:54]
+
+---
+
+> [!abstract] Algebra Takeaway
+> Think of $-b/2a$ as the "DNA" of the parabola. It tells you where the graph turns around. If you are asked to graph a quadratic, always calculate this first; it acts as the starting point for your table of values.
 
 ### Finding X-Intercepts via Graphical Properties
 
@@ -4173,3 +4224,4 @@ $$\mathbf{x = \frac{-4 \pm \sqrt{6}}{2}}$$
 ---
 > [!abstract] Algebra Takeaway
 > Using the $-b/2a$ method is often the fastest way to find the "turning point" of the graph. Once you have the vertex and the y-intercept, you have enough information to sketch the general shape of the parabola even before solving the Quadratic Formula.
+
