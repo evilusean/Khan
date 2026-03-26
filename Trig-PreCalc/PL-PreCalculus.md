@@ -4221,14 +4221,12 @@ $$\mathbf{x = \frac{-4 \pm \sqrt{6}}{2}}$$
 To map this downward-opening parabola for your notes, we will calculate the y-intercept, identify the vertex using the $h = -b/2a$ method, and solve for the x-intercepts using the Quadratic Formula.
 
 ---
-
 #### 1. Find the y-intercept
 The y-intercept occurs when $x = 0$. In standard form $ax^2 + bx + c$, this is the constant $c$.
 $$g(0) = -2(0)^2 - 4(0) + 2 = 2$$
 **y-intercept: (0, 2)**
 
 ---
-
 #### 2. Find the Vertex (h, k)
 We use the Vertex Formula to find the x-coordinate ($h$), then evaluate the function for the y-coordinate ($k$).
 
@@ -4244,10 +4242,7 @@ $$k = -2 + 4 + 2 = 4$$
 
 **Vertex: (-1, 4)**
 
-
-
 ---
-
 #### 3. Solve for x-intercepts (Quadratic Formula)
 Since the vertex is above the x-axis ($k = 4$) and the parabola opens downward ($a = -2$), there are **two real x-intercepts**. Set $g(x) = 0$:
 
@@ -4269,10 +4264,7 @@ $$\mathbf{x = -1 \mp \sqrt{2}}$$
 
 **Approximate Values:** $x \approx 0.41$ and $x \approx -2.41$
 
-
-
 ---
-
 #### 4. Summary Table for Graphing
 
 | Feature | Coordinate(s) |
@@ -4284,6 +4276,5 @@ $$\mathbf{x = -1 \mp \sqrt{2}}$$
 | **Axis of Symmetry** | $x = -1$ |
 
 ---
-
 > [!abstract] Algebra Takeaway
 > When $a$ is negative, the vertex represents the **maximum** value of the function. Notice how the x-intercepts are exactly $\sqrt{2}$ units to the left and right of the axis of symmetry ($x = -1$). This symmetry is a built-in "check" for your work.
