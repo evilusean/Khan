@@ -4122,7 +4122,6 @@ Before calculating, use the vertex and the leading coefficient ($a$) to see if t
 | **On** x-axis ($k = 0$) | Any | **One** (The Vertex itself) |
 
 ---
-
 #### 3. Solving via Vertex Form
 If you have the vertex $(h, k)$ and the y-intercept $(0, c)$, you can solve for the x-intercepts without using the standard Quadratic Formula.
 
@@ -4217,3 +4216,74 @@ $$\mathbf{x = \frac{-4 \pm \sqrt{6}}{2}}$$
 > [!abstract] Algebra Takeaway
 > Using the $-b/2a$ method is often the fastest way to find the "turning point" of the graph. Once you have the vertex and the y-intercept, you have enough information to sketch the general shape of the parabola even before solving the Quadratic Formula.
 
+### Graphing Analysis of g(x) = -2x² - 4x + 2
+
+To map this downward-opening parabola for your notes, we will calculate the y-intercept, identify the vertex using the $h = -b/2a$ method, and solve for the x-intercepts using the Quadratic Formula.
+
+---
+
+#### 1. Find the y-intercept
+The y-intercept occurs when $x = 0$. In standard form $ax^2 + bx + c$, this is the constant $c$.
+$$g(0) = -2(0)^2 - 4(0) + 2 = 2$$
+**y-intercept: (0, 2)**
+
+---
+
+#### 2. Find the Vertex (h, k)
+We use the Vertex Formula to find the x-coordinate ($h$), then evaluate the function for the y-coordinate ($k$).
+
+**Identify Coefficients:** $a = -2, b = -4, c = 2$
+
+**Step A: Find h**
+$$h = \frac{-b}{2a} = \frac{-(-4)}{2(-2)} = \frac{4}{-4} = -1$$
+
+**Step B: Find k**
+$$k = g(-1) = -2(-1)^2 - 4(-1) + 2$$
+$$k = -2(1) + 4 + 2$$
+$$k = -2 + 4 + 2 = 4$$
+
+**Vertex: (-1, 4)**
+
+
+
+---
+
+#### 3. Solve for x-intercepts (Quadratic Formula)
+Since the vertex is above the x-axis ($k = 4$) and the parabola opens downward ($a = -2$), there are **two real x-intercepts**. Set $g(x) = 0$:
+
+$$x = \frac{-(-4) \pm \sqrt{(-4)^2 - 4(-2)(2)}}{2(-2)}$$
+
+**Simplify the Discriminant:**
+* $(-4)^2 = 16$
+* $-4(-2)(2) = 16$
+* $16 + 16 = \mathbf{32}$
+
+**Solve and Simplify:**
+$$x = \frac{4 \pm \sqrt{32}}{-4}$$
+
+Simplify $\sqrt{32}$ (which is $\sqrt{16 \cdot 2} = 4\sqrt{2}$):
+$$x = \frac{4 \pm 4\sqrt{2}}{-4}$$
+
+Divide each term in the numerator by $-4$:
+$$\mathbf{x = -1 \mp \sqrt{2}}$$
+
+**Approximate Values:** $x \approx 0.41$ and $x \approx -2.41$
+
+
+
+---
+
+#### 4. Summary Table for Graphing
+
+| Feature | Coordinate(s) |
+| :--- | :--- |
+| **Opening** | Downward ($a = -2$) |
+| **Vertex** | $(-1, 4)$ |
+| **y-intercept** | $(0, 2)$ |
+| **x-intercepts** | $(-1 \pm \sqrt{2}, 0)$ |
+| **Axis of Symmetry** | $x = -1$ |
+
+---
+
+> [!abstract] Algebra Takeaway
+> When $a$ is negative, the vertex represents the **maximum** value of the function. Notice how the x-intercepts are exactly $\sqrt{2}$ units to the left and right of the axis of symmetry ($x = -1$). This symmetry is a built-in "check" for your work.
