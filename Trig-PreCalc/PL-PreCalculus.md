@@ -4399,3 +4399,43 @@ $$\mathbf{x = \frac{-1 \pm i\sqrt{14}}{3}}$$
 
 > [!abstract] Algebra Takeaway
 > When the discriminant is negative ($b^2 - 4ac < 0$), the parabola does not have any real x-intercepts. Graphically, this means the entire parabola sits completely above or completely below the x-axis. In your notes, always label these as "No Real Solutions" or provide the complex coordinates if required.
+
+### Finding the Quadratic Function from a Vertex and Y-Intercept
+
+When given the vertex $(h, k)$ and an additional point (like the y-intercept), we use **Vertex Form** to solve for the leading coefficient $a$ and build the function.
+
+---
+#### 1. Identify the Given Information
+* **Vertex $(h, k)$:** $(1, -5)$
+    * $h = 1$
+    * $k = -5$
+* **Y-intercept:** $(0, -3)$
+    * This gives us a point where $x = 0$ and $f(x) = -3$.
+
+#### 2. Plug the Vertex into Vertex Form
+The standard Vertex Form is $f(x) = a(x - h)^2 + k$.
+Substitute $h = 1$ and $k = -5$:
+$$f(x) = a(x - 1)^2 - 5$$
+#### 3. Solve for "a" Using the Y-intercept
+Substitute the coordinates of the y-intercept $(0, -3)$ into the equation for $x$ and $f(x)$:
+$$-3 = a(0 - 1)^2 - 5$$
+
+Now, simplify and solve for $a$:
+1.  **Simplify inside the parentheses:** $-3 = a(-1)^2 - 5$
+2.  **Square the value:** $-3 = a(1) - 5$
+3.  **Isolate $a$:** Add 5 to both sides.
+    $$2 = a$$
+
+#### 4. Write the Final Function
+Now that we have $a = 2$, we plug it back into the Vertex Form equation from Step 2:
+$$\mathbf{f(x) = 2(x - 1)^2 - 5}$$
+
+---
+### ⚠️ Graphical Properties of this Function
+* **Opening:** Since $a = 2$ (positive), the parabola opens **upward**.
+* **Stretch:** Since $|a| > 1$, the parabola is **narrower** than the parent function $x^2$.
+* **Symmetry:** Using the Axis of Symmetry ($x = 1$), we know there is a "mirror point" for the y-intercept at **$(2, -3)$**.
+
+---
+> [!abstract] Algebra Takeaway
+> Always remember that the formula uses $(x - h)$. If your vertex is positive ($h = 1$), the formula will look like $(x - 1)$. If your vertex was negative ($h = -1$), the formula would become $(x + 1)$.
