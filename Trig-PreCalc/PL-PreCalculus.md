@@ -4613,3 +4613,57 @@ $$\mathbf{\{x \mid x < -5 \text{ or } x > 4\}}$$
 ---
 > [!abstract] Algebra Takeaway
 > For an upward-opening parabola, "Greater Than" zero ($> 0$) always results in a split solution (the "wings"). If the inequality had been "Less Than" zero ($< 0$), the solution would have been the single "valley" between $-5$ and $4$.
+
+### Solving the Quadratic Inequality: 4x² + 9 < 6x
+
+To solve this inequality for your Obsidian notes, we must first move all terms to one side to compare the quadratic to zero and identify the boundary points.
+
+---
+
+#### 1. Standard Form and Discriminant Check
+Subtract $6x$ from both sides to set the inequality to zero:
+$$4x^2 - 6x + 9 < 0$$
+
+Before attempting to factor, let's check the **Discriminant** ($b^2 - 4ac$) to see if there are any real x-intercepts:
+* $a = 4$
+* $b = -6$
+* $c = 9$
+
+$$\text{Discriminant} = (-6)^2 - 4(4)(9)$$
+$$\text{Discriminant} = 36 - 144$$
+$$\text{Discriminant} = \mathbf{-108}$$
+
+Since the discriminant is **negative**, there are **no real x-intercepts**. The parabola never crosses or touches the x-axis.
+
+---
+
+#### 2. Graphical Description
+The function $f(x) = 4x^2 - 6x + 9$ is an **upward-opening** parabola ($a = 4$).
+
+* **Vertex Location:** The x-coordinate of the vertex is $h = -b/2a = 6/8 = \mathbf{0.75}$.
+* **Vertex Height:** Plugging $0.75$ back into the function:
+  $f(0.75) = 4(0.75)^2 - 6(0.75) + 9 = 2.25 - 4.5 + 9 = \mathbf{6.75}$.
+* **Visual:** The vertex is at $(0.75, 6.75)$, which is well above the x-axis. Since the parabola opens upward, the entire graph "floats" in the upper half-plane and never enters the region below the x-axis.
+
+
+
+---
+
+#### 3. Determining the Solution
+The inequality asks: "Where is the parabola **less than** zero ($< 0$)?"
+
+* **Observation:** Based on our graph, the y-values of this function are always $6.75$ or higher.
+* **Conclusion:** There are **no values of $x$** that will make the expression less than zero.
+
+---
+
+#### 4. Final Solution
+
+**Solution:** $$\mathbf{\text{No Solution (or } \emptyset)}$$
+
+---
+
+> [!abstract] Algebra Takeaway
+> If a quadratic has a negative discriminant, it is either "Always True" or "Never True" across all real numbers. 
+> * If $a > 0$ and you want $f(x) < 0$, the answer is **No Solution**.
+> * If $a > 0$ and you want $f(x) > 0$, the answer is **All Real Numbers** $(-\infty, \infty)$.
