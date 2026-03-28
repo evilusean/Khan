@@ -4478,7 +4478,6 @@ Quadratic inequalities (e.g., $ax^2 + bx + c > 0$) determine the intervals of $x
 To solve this inequality for your Obsidian notes, we will find the boundary points (x-intercepts) and determine which interval of the parabola sits below or on the x-axis.
 
 ---
-
 #### 1. Find the Boundary Points (Roots)
 First, treat the inequality as an equation to find where the parabola crosses the x-axis:
 $$x^2 - 3x - 10 = 0$$
@@ -4495,29 +4494,19 @@ $$(x - 5)(x + 2) = 0$$
 These are our **Critical Values**.
 
 ---
-
 #### 2. Test the Intervals
 Since the inequality is $\le 0$, we are looking for the region where the graph is **below or touching** the x-axis.
-
-
-
 * **Interval A $(-\infty, -2)$:** Test $x = -3 \Rightarrow (-3)^2 - 3(-3) - 10 = 9 + 9 - 10 = 8$ (Positive/False)
 * **Interval B $[-2, 5]$:** Test $x = 0 \Rightarrow (0)^2 - 3(0) - 10 = -10$ (Negative/True)
 * **Interval C $(5, \infty)$:** Test $x = 6 \Rightarrow (6)^2 - 3(6) - 10 = 36 - 18 - 10 = 8$ (Positive/False)
-
 ---
-
 #### 3. Graphical Description
 The function $f(x) = x^2 - 3x - 10$ is an **upward-opening** parabola ($a = 1$). 
 
 * **Vertex:** The vertex is located at $x = -b/2a = 1.5$. Since the y-value at the vertex is negative ($1.5^2 - 3(1.5) - 10 = -12.25$), the "valley" of the parabola dips below the x-axis.
 * **The "Valley":** The solution to $\le 0$ corresponds to this bottom portion of the "U" shape.
 * **Visual:** Imagine a shaded region on the x-axis starting at $-2$ and ending at $5$. Every point on the curve between these two values is "underwater" (below $y=0$).
-
-
-
 ---
-
 #### 4. Final Solution
 Since the inequality includes "or equal to" ($\le$), we use **brackets** to include the boundary points.
 
@@ -4527,6 +4516,5 @@ Since the inequality includes "or equal to" ($\le$), we use **brackets** to incl
 $$\mathbf{\{x \mid -2 \le x \le 5\}}$$
 
 ---
-
 > [!abstract] Algebra Takeaway
 > For an upward-opening parabola, "less than or equal to" will almost always result in a single, closed interval between the two roots. Think of it as the segment of the graph that is "submerged" below the x-axis line.
