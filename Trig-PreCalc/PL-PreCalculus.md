@@ -4619,7 +4619,6 @@ $$\mathbf{\{x \mid x < -5 \text{ or } x > 4\}}$$
 To solve this inequality for your Obsidian notes, we must first move all terms to one side to compare the quadratic to zero and identify the boundary points.
 
 ---
-
 #### 1. Standard Form and Discriminant Check
 Subtract $6x$ from both sides to set the inequality to zero:
 $$4x^2 - 6x + 9 < 0$$
@@ -4636,7 +4635,6 @@ $$\text{Discriminant} = \mathbf{-108}$$
 Since the discriminant is **negative**, there are **no real x-intercepts**. The parabola never crosses or touches the x-axis.
 
 ---
-
 #### 2. Graphical Description
 The function $f(x) = 4x^2 - 6x + 9$ is an **upward-opening** parabola ($a = 4$).
 
@@ -4644,11 +4642,7 @@ The function $f(x) = 4x^2 - 6x + 9$ is an **upward-opening** parabola ($a = 4$).
 * **Vertex Height:** Plugging $0.75$ back into the function:
   $f(0.75) = 4(0.75)^2 - 6(0.75) + 9 = 2.25 - 4.5 + 9 = \mathbf{6.75}$.
 * **Visual:** The vertex is at $(0.75, 6.75)$, which is well above the x-axis. Since the parabola opens upward, the entire graph "floats" in the upper half-plane and never enters the region below the x-axis.
-
-
-
 ---
-
 #### 3. Determining the Solution
 The inequality asks: "Where is the parabola **less than** zero ($< 0$)?"
 
@@ -4656,7 +4650,6 @@ The inequality asks: "Where is the parabola **less than** zero ($< 0$)?"
 * **Conclusion:** There are **no values of $x$** that will make the expression less than zero.
 
 ---
-
 #### 4. Final Solution
 
 **Solution:** $$\mathbf{\text{No Solution (or } \emptyset)}$$
@@ -4667,3 +4660,4 @@ The inequality asks: "Where is the parabola **less than** zero ($< 0$)?"
 > If a quadratic has a negative discriminant, it is either "Always True" or "Never True" across all real numbers. 
 > * If $a > 0$ and you want $f(x) < 0$, the answer is **No Solution**.
 > * If $a > 0$ and you want $f(x) > 0$, the answer is **All Real Numbers** $(-\infty, \infty)$.
+
