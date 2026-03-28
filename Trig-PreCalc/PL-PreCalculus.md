@@ -4447,7 +4447,6 @@ https://www.youtube.com/watch?v=qd41nGPHbMU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Quadratic inequalities (e.g., $ax^2 + bx + c > 0$) determine the intervals of $x$ where a parabola sits above or below the x-axis.
 
 ---
-
 #### 1. The Standard Workflow
 1. **Set to Zero:** Move all terms to one side so the inequality compares the quadratic to zero.
 2. **Find Critical Values:** Solve the related equation $ax^2 + bx + c = 0$ using factoring or the Quadratic Formula. these x-intercepts are your "Boundary Points."
@@ -4456,10 +4455,7 @@ Quadratic inequalities (e.g., $ax^2 + bx + c > 0$) determine the intervals of $x
    - **Graphically:** Note if the parabola opens up ($a>0$) or down ($a<0$).
 
 ---
-
 #### 2. Interpreting the Graph
-
-
 * **If $f(x) > 0$:** You are looking for where the graph is **above** the x-axis.
    - If opening up: The "wings" $(-\infty, x_1) \cup (x_2, \infty)$.
    - If opening down: The "valley" between intercepts $(x_1, x_2)$.
@@ -4468,13 +4464,12 @@ Quadratic inequalities (e.g., $ax^2 + bx + c > 0$) determine the intervals of $x
    - If opening down: The "wings" $(-\infty, x_1) \cup (x_2, \infty)$.
 
 ---
-
 #### 3. Notation Rules
 * Use **Parentheses** `( )` for strict inequalities ($<$ or $>$). These represent "open holes" on a number line.
 * Use **Brackets** `[ ]` for non-strict inequalities ($\le$ or $\ge$). These represent "closed holes" because the intercept itself is a solution.
 * Use the **Union Symbol** $\cup$ to join disconnected intervals.
 
 ---
-
 > [!abstract] Algebra Takeaway
 > A quadratic inequality doesn't have a single "x =" answer; it has a range. The x-intercepts are the only places where the function can change from "True" to "False," so they are the only points you need to find to define your boundaries.
+
