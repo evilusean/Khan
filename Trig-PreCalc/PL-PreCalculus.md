@@ -4524,7 +4524,6 @@ $$\mathbf{\{x \mid -2 \le x \le 5\}}$$
 To solve this inequality for your Obsidian notes, we must first move all terms to one side to compare the quadratic to zero.
 
 ---
-
 #### 1. Standard Form and Boundary Points
 Subtract $5x$ and $3$ from both sides to set the inequality to zero:
 $$2x^2 - 5x - 3 < 0$$
@@ -4543,40 +4542,26 @@ $$(2x + 1)(x - 3) = 0$$
 **Solve for x:**
 * $2x + 1 = 0 \Rightarrow \mathbf{x = -1/2}$
 * $x - 3 = 0 \Rightarrow \mathbf{x = 3}$
-
 ---
-
 #### 2. Test the Intervals
 Since the inequality is **$< 0$**, we are looking for the region where the parabola is **strictly below** the x-axis.
-
-
-
 * **Interval A $(-\infty, -1/2)$:** Test $x = -1 \Rightarrow 2(-1)^2 - 5(-1) - 3 = 4$ (Positive/False)
 * **Interval B $(-1/2, 3)$:** Test $x = 0 \Rightarrow 2(0)^2 - 5(0) - 3 = -3$ (Negative/True)
 * **Interval C $(3, \infty)$:** Test $x = 4 \Rightarrow 2(4)^2 - 5(4) - 3 = 9$ (Positive/False)
-
 ---
-
 #### 3. Graphical Description
 The function $f(x) = 2x^2 - 5x - 3$ is an **upward-opening** parabola ($a = 2$).
 
 * **Opening:** Because $a > 0$, the "bowl" of the parabola points up.
 * **The "Below" Region:** Since we want $f(x) < 0$, we are looking for the "valley" or the bottom part of the "U" that dips below the x-axis.
 * **Visual:** The graph crosses the x-axis at $-0.5$ and $3$. Between these two points, the y-values are negative. Because it is a strict inequality ($<$), we visualize **open circles** at the intercepts, meaning the graph exactly at $y=0$ is not included.
-
-
-
 ---
-
 #### 4. Final Solution
 We use **parentheses** because the inequality does not include the "equal to" sign.
 
 **Interval Notation:** $$\mathbf{(-1/2, 3)}$$
-
 **Set-Builder Notation:**
 $$\mathbf{\{x \mid -1/2 < x < 3\}}$$
-
 ---
-
 > [!abstract] Algebra Takeaway
 > When a quadratic is "Less Than" zero and opens upward, the solution is always the single interval between the roots. If the inequality had been "Greater Than" zero ($> 0$), the solution would have been the two separate "wings" pointing toward infinity.
