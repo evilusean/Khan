@@ -4571,7 +4571,6 @@ $$\mathbf{\{x \mid -1/2 < x < 3\}}$$
 To solve this inequality for your Obsidian notes, we must first distribute and move all terms to one side to compare the quadratic to zero.
 
 ---
-
 #### 1. Standard Form and Boundary Points
 First, distribute the $x$ and subtract $20$ from both sides:
 $$x^2 + x > 20$$
@@ -4592,38 +4591,25 @@ $$(x + 5)(x - 4) = 0$$
 These intercepts are where the parabola crosses the x-axis.
 
 ---
-
 #### 2. Test the Intervals
 Since the inequality is **$> 0$**, we are looking for the regions where the parabola is **above** the x-axis.
-
-
-
 * **Interval A $(-\infty, -5)$:** Test $x = -6 \Rightarrow (-6)^2 + (-6) - 20 = 36 - 6 - 20 = 10$ (Positive/True)
 * **Interval B $(-5, 4)$:** Test $x = 0 \Rightarrow (0)^2 + (0) - 20 = -20$ (Negative/False)
 * **Interval C $(4, \infty)$:** Test $x = 5 \Rightarrow (5)^2 + (5) - 20 = 25 + 5 - 20 = 10$ (Positive/True)
-
 ---
-
 #### 3. Graphical Description
 The function $f(x) = x^2 + x - 20$ is an **upward-opening** parabola ($a = 1$).
 
 * **Opening:** Because $a > 0$, the "arms" of the parabola point toward positive infinity.
 * **The "Above" Region:** Since we want $f(x) > 0$, we are looking for the two "wings" of the parabola that rise above the x-axis.
 * **Visual:** The graph dips below the x-axis between $-5$ and $4$ (the "valley"). Because we want the parts *greater than* zero, we select everything to the left of $-5$ and everything to the right of $4$. We use **open circles** at the intercepts because it is a strict inequality.
-
-
-
 ---
-
 #### 4. Final Solution
 Since the solution consists of two separate pieces, we use the **Union Symbol ($\cup$)** and **parentheses**.
 
 **Interval Notation:** $$\mathbf{(-\infty, -5) \cup (4, \infty)}$$
-
 **Set-Builder Notation:**
 $$\mathbf{\{x \mid x < -5 \text{ or } x > 4\}}$$
-
 ---
-
 > [!abstract] Algebra Takeaway
 > For an upward-opening parabola, "Greater Than" zero ($> 0$) always results in a split solution (the "wings"). If the inequality had been "Less Than" zero ($< 0$), the solution would have been the single "valley" between $-5$ and $4$.
