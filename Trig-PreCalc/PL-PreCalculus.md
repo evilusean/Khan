@@ -4441,3 +4441,4 @@ $$\mathbf{f(x) = 2(x - 1)^2 - 5}$$
 > Always remember that the formula uses $(x - h)$. If your vertex is positive ($h = 1$), the formula will look like $(x - 1)$. If your vertex was negative ($h = -1$), the formula would become $(x + 1)$.
 
 ## 2026-March-28 - Solving Quadratic Inequalities (Precalculus - College Algebra 25) :
+https://www.youtube.com/watch?v=qd41nGPHbMU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=27
