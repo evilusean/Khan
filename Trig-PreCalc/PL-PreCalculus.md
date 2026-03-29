@@ -4663,3 +4663,51 @@ The inequality asks: "Where is the parabola **less than** zero ($< 0$)?"
 
 ## 2026-March-29 - Applications of Quadratic Functions (Precalculus - College Algebra 26) : 
 https://www.youtube.com/watch?v=Ow_u0qLAOJI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=28
+### Applications of Quadratic Functions (Professor Leonard)
+
+This lecture transitions from abstract algebra to real-world modeling. The central theme is that the **Vertex** of a parabola represents the "optimum" point—either a **Maximum** (for downward-opening parabolas) or a **Minimum** (for upward-opening ones).
+
+---
+
+#### 1. The Power of the Vertex
+In application problems, you are almost always searching for a "best-case scenario."
+* **Maximum Value:** Use the vertex formula $x = -b/2a$ when you see words like *maximum height, maximum revenue,* or *largest area*. [00:01:16]
+* **Minimum Value:** Use the vertex formula for *minimum cost* or *least distance*. [00:01:22]
+
+
+---
+
+#### 2. Business Application: Maximum Revenue
+Revenue ($R$) is defined as the number of items sold ($x$) multiplied by the price per item ($p$). [00:01:54]
+
+* **The Setup:** If price decreases as production increases (e.g., $p = -1/3x + 100$), the revenue function becomes quadratic:
+  $$R(x) = x \cdot (-1/3x + 100) = -1/3x^2 + 100x$$
+* **Finding Max Revenue:** [00:11:19]
+    1. Find $x = -b/2a$ to determine the **number of items** needed for peak revenue.
+    2. Plug that $x$ back into $R(x)$ to find the **actual maximum dollar amount**.
+    3. Plug that $x$ into the price function to find the **ideal price** to charge customers. [00:14:40]
+
+---
+
+#### 3. Geometric Application: Maximum Area (Constraints)
+When you have a limited resource (like 3,000 ft of fencing) and want to enclose the largest possible space, you use a **Constraint Equation**. [00:16:34]
+
+* **Step 1 (Constraint):** Write the perimeter formula: $2x + 2y = 3000$. [00:17:16]
+* **Step 2 (Goal):** Write the area formula: $A = x \cdot y$. [00:18:07]
+* **Step 3 (Substitution):** Solve the constraint for one variable ($y = 1500 - x$) and plug it into the area formula:
+  $$A(x) = x(1500 - x) = -x^2 + 1500x$$ [00:19:50]
+* **Step 4 (Solve):** Find the vertex. For a standard rectangle, the maximum area is always achieved when the shape is a **square** ($x = y$). [00:22:45]
+
+
+---
+
+#### 4. Physics Application: Projectile Motion
+Projectiles (balls, rockets, etc.) follow a parabolic path defined by height ($h$) over distance or time ($t$). [00:24:00]
+
+* **Range:** To find how far the object travels, set $h = 0$ (the ground) and solve for $x$ using the Quadratic Formula. [00:24:36]
+* **Peak Height:** Use the vertex formula ($x = -b/2a$) to find when or where the object reaches its highest point. [00:25:04]
+
+---
+
+> [!abstract] Algebra Takeaway
+> Application problems are essentially "Vertex Searches." The hardest part is building the equation from the word problem; once the quadratic equation is set up, the $-b/2a$ formula consistently provides the answer for any "maximum" or "minimum" request.
