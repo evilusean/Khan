@@ -4662,3 +4662,4 @@ The inequality asks: "Where is the parabola **less than** zero ($< 0$)?"
 > * If $a > 0$ and you want $f(x) > 0$, the answer is **All Real Numbers** $(-\infty, \infty)$.
 
 ## 2026-March-29 - Applications of Quadratic Functions (Precalculus - College Algebra 26) : 
+https://www.youtube.com/watch?v=Ow_u0qLAOJI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=28
