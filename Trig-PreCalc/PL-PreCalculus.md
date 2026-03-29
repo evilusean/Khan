@@ -4759,7 +4759,6 @@ $$R(150) = 150 \cdot 50 = \mathbf{\$7,500}$$
 This problem from Professor Leonard's lecture demonstrates how to use a **Constraint Equation** (the available fencing) to find the dimensions that produce the **Maximum Area**.
 
 ---
-
 #### 1. The Two-Equation Setup
 To solve "Optimization" problems, we need two separate equations:
 
@@ -4767,11 +4766,7 @@ To solve "Optimization" problems, we need two separate equations:
     $$P = 2x + 2y = 3000$$
 * **Objective Equation (Area):** The thing you want to maximize.
     $$A = x \cdot y$$
-
-
-
 ---
-
 #### 2. Substitution: Reducing to One Variable
 We cannot find the vertex of an equation with two different variables ($x$ and $y$). We must substitute one into the other.
 
@@ -4784,7 +4779,6 @@ We cannot find the vertex of an equation with two different variables ($x$ and $
     $$A(x) = -x^2 + 1500x$$
 
 ---
-
 #### 3. Finding the Maximum (The Vertex)
 Since $a = -1$, this is a downward-opening parabola. The maximum area occurs at the vertex.
 
@@ -4796,18 +4790,13 @@ $$x = \frac{-b}{2a} = \frac{-1500}{2(-1)} = \frac{-1500}{-2} = \mathbf{750 \text
 **Calculate the Optimal Length ($y$):**
 Using our substituted equation $y = 1500 - x$:
 $$y = 1500 - 750 = \mathbf{750 \text{ feet}}$$
-
-
-
 ---
-
 #### 4. The Final Result
 * **Dimensions:** $750' \times 750'$ (A Square)
 * **Maximum Area:**
     $$A = 750 \cdot 750 = \mathbf{562,500 \text{ sq ft}}$$
 
 ---
-
 #### 5. Summary Table
 
 | Step | Component | Result |
@@ -4821,3 +4810,4 @@ $$y = 1500 - 750 = \mathbf{750 \text{ feet}}$$
 
 > [!abstract] Algebra Takeaway
 > In a standard four-sided rectangular fencing problem, the maximum area is **always a square**. If the problem changes (e.g., fencing only 3 sides because of a river), the dimensions will shift, but the method remains the same: **Constraint $\rightarrow$ Substitution $\rightarrow$ Vertex.**
+
