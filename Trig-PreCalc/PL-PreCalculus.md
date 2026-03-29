@@ -4672,8 +4672,6 @@ This lecture transitions from abstract algebra to real-world modeling. The centr
 In application problems, you are almost always searching for a "best-case scenario."
 * **Maximum Value:** Use the vertex formula $x = -b/2a$ when you see words like *maximum height, maximum revenue,* or *largest area*. [00:01:16]
 * **Minimum Value:** Use the vertex formula for *minimum cost* or *least distance*. [00:01:22]
-
-
 ---
 #### 2. Business Application: Maximum Revenue
 Revenue ($R$) is defined as the number of items sold ($x$) multiplied by the price per item ($p$). [00:01:54]
@@ -4706,3 +4704,63 @@ Projectiles (balls, rockets, etc.) follow a parabolic path defined by height ($h
 
 > [!abstract] Algebra Takeaway
 > Application problems are essentially "Vertex Searches." The hardest part is building the equation from the word problem; once the quadratic equation is set up, the $-b/2a$ formula consistently provides the answer for any "maximum" or "minimum" request.
+
+### Maximum Revenue Application: R(x) = x · p
+
+This problem from Professor Leonard's lecture demonstrates how a business finds the "sweet spot" for pricing to achieve the highest possible income using quadratic properties.
+
+---
+
+#### 1. The Setup: Building the Revenue Function
+Revenue ($R$) is the total money coming in, calculated as the **number of items sold ($x$)** times the **price per item ($p$)**.
+
+* **Given Price Function (Demand):** $p = -\frac{1}{3}x + 100$
+  * This linear equation shows that as you produce more items ($x$), the price ($p$) must drop to sell them all.
+* **The Revenue Equation:**
+  $$R(x) = x \cdot p$$
+  $$R(x) = x\left(-\frac{1}{3}x + 100\right)$$
+  $$R(x) = -\frac{1}{3}x^2 + 100x$$
+
+
+
+---
+
+#### 2. Finding the Optimal Production (x)
+Since the leading coefficient ($a = -1/3$) is negative, the graph is a downward-opening parabola. The maximum revenue occurs at the **Vertex**.
+
+**Identify Coefficients:** $a = -1/3$, $b = 100$.
+
+**Calculate the Vertex x-coordinate ($h$):**
+$$x = \frac{-b}{2a} = \frac{-100}{2(-1/3)} = \frac{-100}{-2/3}$$
+To divide by a fraction, multiply by the reciprocal:
+$$x = -100 \cdot \left(-\frac{3}{2}\right) = \mathbf{150 \text{ units}}$$
+
+---
+
+#### 3. Finding the Optimal Price (p)
+To find the price the business should charge to sell exactly 150 units, plug $x = 150$ back into the **Price Function**:
+$$p = -\frac{1}{3}(150) + 100$$
+$$p = -50 + 100 = \mathbf{\$50}$$
+
+---
+
+#### 4. Calculating Maximum Revenue
+To find the actual maximum dollar amount, plug $x = 150$ into the **Revenue Function**:
+$$R(150) = 150 \cdot 50 = \mathbf{\$7,500}$$
+
+
+
+---
+
+#### 5. Summary Table
+
+| Question | Variable to Find | Result |
+| :--- | :--- | :--- |
+| **How many units to sell?** | $x = -b/2a$ | **150 units** |
+| **What price to charge?** | $p = f(x)$ | **$50** |
+| **What is the max revenue?** | $R(x)$ | **$7,500** |
+
+---
+
+> [!abstract] Algebra Takeaway
+> In business applications, the "x" of the vertex tells you **how much to make**, while the "y" of the vertex tells you **the maximum money** you can make. If you need the price, you must jump back to the original price (demand) linear equation.
