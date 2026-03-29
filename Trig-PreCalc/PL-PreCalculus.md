@@ -4710,7 +4710,6 @@ Projectiles (balls, rockets, etc.) follow a parabolic path defined by height ($h
 This problem from Professor Leonard's lecture demonstrates how a business finds the "sweet spot" for pricing to achieve the highest possible income using quadratic properties.
 
 ---
-
 #### 1. The Setup: Building the Revenue Function
 Revenue ($R$) is the total money coming in, calculated as the **number of items sold ($x$)** times the **price per item ($p$)**.
 
@@ -4720,11 +4719,7 @@ Revenue ($R$) is the total money coming in, calculated as the **number of items 
   $$R(x) = x \cdot p$$
   $$R(x) = x\left(-\frac{1}{3}x + 100\right)$$
   $$R(x) = -\frac{1}{3}x^2 + 100x$$
-
-
-
 ---
-
 #### 2. Finding the Optimal Production (x)
 Since the leading coefficient ($a = -1/3$) is negative, the graph is a downward-opening parabola. The maximum revenue occurs at the **Vertex**.
 
@@ -4736,22 +4731,17 @@ To divide by a fraction, multiply by the reciprocal:
 $$x = -100 \cdot \left(-\frac{3}{2}\right) = \mathbf{150 \text{ units}}$$
 
 ---
-
 #### 3. Finding the Optimal Price (p)
 To find the price the business should charge to sell exactly 150 units, plug $x = 150$ back into the **Price Function**:
 $$p = -\frac{1}{3}(150) + 100$$
 $$p = -50 + 100 = \mathbf{\$50}$$
 
 ---
-
 #### 4. Calculating Maximum Revenue
 To find the actual maximum dollar amount, plug $x = 150$ into the **Revenue Function**:
 $$R(150) = 150 \cdot 50 = \mathbf{\$7,500}$$
 
-
-
 ---
-
 #### 5. Summary Table
 
 | Question | Variable to Find | Result |
@@ -4761,6 +4751,5 @@ $$R(150) = 150 \cdot 50 = \mathbf{\$7,500}$$
 | **What is the max revenue?** | $R(x)$ | **$7,500** |
 
 ---
-
 > [!abstract] Algebra Takeaway
 > In business applications, the "x" of the vertex tells you **how much to make**, while the "y" of the vertex tells you **the maximum money** you can make. If you need the price, you must jump back to the original price (demand) linear equation.
