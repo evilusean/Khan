@@ -4753,3 +4753,71 @@ $$R(150) = 150 \cdot 50 = \mathbf{\$7,500}$$
 ---
 > [!abstract] Algebra Takeaway
 > In business applications, the "x" of the vertex tells you **how much to make**, while the "y" of the vertex tells you **the maximum money** you can make. If you need the price, you must jump back to the original price (demand) linear equation.
+
+### Maximum Area with a Fixed Perimeter (Constraint Problem)
+
+This problem from Professor Leonard's lecture demonstrates how to use a **Constraint Equation** (the available fencing) to find the dimensions that produce the **Maximum Area**.
+
+---
+
+#### 1. The Two-Equation Setup
+To solve "Optimization" problems, we need two separate equations:
+
+* **Constraint Equation (Perimeter):** The physical limit of your materials.
+    $$P = 2x + 2y = 3000$$
+* **Objective Equation (Area):** The thing you want to maximize.
+    $$A = x \cdot y$$
+
+
+
+---
+
+#### 2. Substitution: Reducing to One Variable
+We cannot find the vertex of an equation with two different variables ($x$ and $y$). We must substitute one into the other.
+
+1.  **Solve the Constraint for $y$:**
+    $$2x + 2y = 3000$$
+    $$2y = 3000 - 2x$$
+    $$y = 1500 - x$$
+2.  **Plug $y$ into the Area Equation:**
+    $$A(x) = x(1500 - x)$$
+    $$A(x) = -x^2 + 1500x$$
+
+---
+
+#### 3. Finding the Maximum (The Vertex)
+Since $a = -1$, this is a downward-opening parabola. The maximum area occurs at the vertex.
+
+**Identify Coefficients:** $a = -1$, $b = 1500$.
+
+**Calculate the Optimal Width ($x$):**
+$$x = \frac{-b}{2a} = \frac{-1500}{2(-1)} = \frac{-1500}{-2} = \mathbf{750 \text{ feet}}$$
+
+**Calculate the Optimal Length ($y$):**
+Using our substituted equation $y = 1500 - x$:
+$$y = 1500 - 750 = \mathbf{750 \text{ feet}}$$
+
+
+
+---
+
+#### 4. The Final Result
+* **Dimensions:** $750' \times 750'$ (A Square)
+* **Maximum Area:**
+    $$A = 750 \cdot 750 = \mathbf{562,500 \text{ sq ft}}$$
+
+---
+
+#### 5. Summary Table
+
+| Step | Component | Result |
+| :--- | :--- | :--- |
+| **1** | Constraint | $2x + 2y = 3000$ |
+| **2** | Objective | $A = -x^2 + 1500x$ |
+| **3** | Best Width ($x$) | $750'$ |
+| **4** | Max Area ($A$) | $562,500 \text{ ft}^2$ |
+
+---
+
+> [!abstract] Algebra Takeaway
+> In a standard four-sided rectangular fencing problem, the maximum area is **always a square**. If the problem changes (e.g., fencing only 3 sides because of a river), the dimensions will shift, but the method remains the same: **Constraint $\rightarrow$ Substitution $\rightarrow$ Vertex.**
