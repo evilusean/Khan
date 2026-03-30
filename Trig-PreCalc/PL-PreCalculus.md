@@ -4918,3 +4918,50 @@ When a polynomial is factored (e.g., $f(x) = 2(x-1)^2(x+3)$), you don't need to 
 ---
 > [!abstract] Algebra Takeaway
 > The **Leading Term** ($a_nx^n$) is the "boss" of the function. It tells you where the graph starts and ends (End Behavior) and the maximum complexity the graph can have (Turning Points). Always put your polynomials in order first to identify the boss!
+
+### Understanding Subscripts in Polynomial Notation
+
+In precalculus and higher-level algebra, you will often see polynomials written in **General Form** using subscripts rather than unique letters for each coefficient.
+
+---
+
+#### 1. The General Formula
+Instead of writing $f(x) = ax^2 + bx + c$, mathematicians use a "template" that can work for a polynomial of **any** degree ($n$):
+
+$$f(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_1 x^1 + a_0$$
+
+
+
+---
+
+#### 2. Why Use Subscripts?
+Subscripts are used for **indexing** and **organization** for three main reasons:
+
+* **Infinite Capacity:** The alphabet only has 26 letters. If you have a polynomial of degree 30 ($x^{30}$), you would run out of letters ($a, b, c...$) to represent the coefficients. Subscripts allow for an infinite number of coefficients ($a_1, a_2, a_3 \dots a_{100}$).
+* **Matching Exponents:** The subscript usually matches the exponent of the variable it belongs to. 
+    * $a_2$ is the coefficient for $x^2$.
+    * $a_5$ is the coefficient for $x^5$.
+    * $a_0$ is the **constant term** (because $x^0 = 1$).
+* **Leading Coefficient Identification:** In the term $a_n x^n$, the $n$ tells you exactly which term is the "Boss" (the Leading Term) based on the degree of the polynomial.
+
+---
+
+#### 3. Breakdown of $a_n$ vs. $n$
+It is important to distinguish between the **exponent** and the **subscript**:
+
+| Symbol | Name | Role |
+| :--- | :--- | :--- |
+| $n$ | **Degree/Exponent** | Tells you the "power" and the shape of the graph. |
+| $a_n$ | **Coefficient** | The actual number (constant) multiplying that power. |
+
+**Example:** $f(x) = 7x^4 - 3x^2 + 5$
+* $a_4 = 7$ (The coefficient of the $x^4$ term)
+* $a_3 = 0$ (Because there is no $x^3$ term)
+* $a_2 = -3$
+* $a_1 = 0$
+* $a_0 = 5$ (The constant)
+
+---
+
+> [!abstract] Algebra Takeaway
+> Think of a subscript as a **name tag** or a **house address**. It doesn't change the value of the number; it simply tells you which "street" (exponent) that coefficient lives on. If you see $a_n$, it just means "the coefficient belonging to the highest power $n$."
