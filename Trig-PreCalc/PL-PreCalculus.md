@@ -4866,3 +4866,62 @@ $$0 = x \left( \frac{-32x}{4,000,000} + 1 \right)$$
 
 ## 2026-March-30 - Introduction to Polynomial Functions (Precalculus - College Algebra 27) : 
 https://www.youtube.com/watch?v=6Uh3Z6DJ_pI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=29
+### Introduction to Polynomial Functions (Professor Leonard)
+
+This lecture defines what makes a function a "polynomial" and introduces the vocabulary used to describe their structure, which is essential for predicting their behavior in Calculus.
+
+---
+
+#### 1. What Defines a Polynomial?
+A polynomial is a mathematical expression consisting of one or more terms connected by addition or subtraction. 
+
+**The Golden Rules:** [00:10:15]
+* **Exponents:** Must be **non-negative integers** (0, 1, 2, 3...). 
+    * *No fractions:* $x^{1/2}$ (radicals like $\sqrt{x}$) are **not** allowed. [00:20:40]
+    * *No negatives:* $x^{-1}$ (variables in the denominator like $1/x$) are **not** allowed. [00:21:13]
+* **Domain:** Because there are no radicals or denominators with variables, the domain of every polynomial is **all real numbers** ($-\infty, \infty$). [00:11:30]
+* **Continuity:** The graphs are always smooth, continuous curves with no holes, gaps, or sharp corners (cusps). [00:34:04]
+
+---
+
+#### 2. Key Vocabulary & Standard Form
+Standard form requires writing terms in **descending order** of their exponents (highest to lowest). [00:02:20]
+
+
+* **Leading Term:** The entire first term (e.g., $4x^4$). It dictates the "end behavior" of the graph. [00:05:30]
+* **Leading Coefficient:** The number in front of the leading term (e.g., $4$). [00:06:40]
+* **Degree ($n$):** The value of the **largest exponent** in the polynomial. [00:07:49]
+    * Degree tells you the maximum number of x-intercepts ($n$) and the maximum number of turning points ($n-1$).
+* **Constant Term:** The number at the end without a variable. If there isn't one, the constant is 0. [00:06:51]
+
+---
+
+#### 3. Identifying Polynomials (Examples)
+
+| Function | Polynomial? | Reason |
+| :--- | :--- | :--- |
+| $f(x) = 5x^2 + x^4$ | **Yes** | Just needs reordering to $x^4 + 5x^2$. Degree 4. [00:13:42] |
+| $h(x) = 9$ | **Yes** | A "Constant Function." Degree 0. [00:17:44] |
+| $f(x) = x^{3/2}$ | **No** | Fractional exponents (radicals) are forbidden. [00:20:40] |
+| $g(x) = \frac{x^2-1}{x}$ | **No** | Variable in the denominator (Rational Function). [00:21:13] |
+| $f(x) = \frac{3x^2-1}{7}$ | **Yes** | The denominator is a constant, not a variable. [00:25:38] |
+
+---
+
+#### 4. The "Fake Distribution" Shortcut [00:30:15]
+When a polynomial is factored (e.g., $f(x) = 2(x-1)^2(x+3)$), you don't need to multiply everything out to find the leading term. 
+
+1.  **Identify the highest power in each factor.**
+2.  **Apply any exponents outside the parentheses to those powers.**
+3.  **Multiply them all together** along with the front coefficient.
+
+**Example:** $f(x) = 2(x-1)^2(x+5)^3(x)$ [00:31:52]
+* $(x-1)^2 \rightarrow x^2$
+* $(x+5)^3 \rightarrow x^3$
+* $(x) \rightarrow x^1$
+* **Leading Term:** $2 \cdot x^2 \cdot x^3 \cdot x^1 = \mathbf{2x^6}$ (Degree 6).
+
+---
+
+> [!abstract] Algebra Takeaway
+> The **Leading Term** ($a_nx^n$) is the "boss" of the function. It tells you where the graph starts and ends (End Behavior) and the maximum complexity the graph can have (Turning Points). Always put your polynomials in order first to identify the boss!
