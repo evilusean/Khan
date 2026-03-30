@@ -4924,7 +4924,6 @@ When a polynomial is factored (e.g., $f(x) = 2(x-1)^2(x+3)$), you don't need to 
 In precalculus and higher-level algebra, you will often see polynomials written in **General Form** using subscripts rather than unique letters for each coefficient.
 
 ---
-
 #### 1. The General Formula
 Instead of writing $f(x) = ax^2 + bx + c$, mathematicians use a "template" that can work for a polynomial of **any** degree ($n$):
 
@@ -4933,7 +4932,6 @@ $$f(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_1 x^1 + a_0$$
 
 
 ---
-
 #### 2. Why Use Subscripts?
 Subscripts are used for **indexing** and **organization** for three main reasons:
 
@@ -4945,7 +4943,6 @@ Subscripts are used for **indexing** and **organization** for three main reasons
 * **Leading Coefficient Identification:** In the term $a_n x^n$, the $n$ tells you exactly which term is the "Boss" (the Leading Term) based on the degree of the polynomial.
 
 ---
-
 #### 3. Breakdown of $a_n$ vs. $n$
 It is important to distinguish between the **exponent** and the **subscript**:
 
