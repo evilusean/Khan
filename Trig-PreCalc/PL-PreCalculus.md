@@ -4865,3 +4865,4 @@ $$0 = x \left( \frac{-32x}{4,000,000} + 1 \right)$$
 > In projectile motion, the parabola is perfectly symmetrical. The horizontal distance to the peak ($62,500$) is exactly **half** of the total range ($125,000$). If you find the vertex $x$-coordinate, you can simply double it to find where the object hits the ground (provided it starts at height 0).
 
 ## 2026-March-30 - Introduction to Polynomial Functions (Precalculus - College Algebra 27) : 
+https://www.youtube.com/watch?v=6Uh3Z6DJ_pI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=29
