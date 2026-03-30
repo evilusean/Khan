@@ -4811,3 +4811,56 @@ $$y = 1500 - 750 = \mathbf{750 \text{ feet}}$$
 > [!abstract] Algebra Takeaway
 > In a standard four-sided rectangular fencing problem, the maximum area is **always a square**. If the problem changes (e.g., fencing only 3 sides because of a river), the dimensions will shift, but the method remains the same: **Constraint $\rightarrow$ Substitution $\rightarrow$ Vertex.**
 
+### Projectile Motion Application: h(x) = -32x² / (2000)² + x
+
+In this problem from Professor Leonard's lecture, we analyze the path of a projectile (like a ball or shell) where $x$ represents the horizontal distance traveled and $h(x)$ represents the vertical height.
+
+---
+#### 1. Identifying the Components
+The equation is a quadratic in the form $ax^2 + bx + c$:
+* **$a = \frac{-32}{2000^2}$**: The leading coefficient is negative, meaning the parabola opens **downward**. This coefficient represents the effect of gravity.
+* **$b = 1$**: The linear term (from the $+x$).
+* **$c = 0$**: There is no constant, meaning the projectile starts at a height of **0** (the ground).
+---
+#### 2. Finding the Maximum Height (The Vertex)
+To find the peak of the projectile's flight, we find the vertex $(h, k)$.
+
+**Step A: Find the horizontal distance to the peak ($x$):**
+Using the vertex formula $x = \frac{-b}{2a}$:
+$$x = \frac{-(1)}{2 \left( \frac{-32}{2000^2} \right)}$$
+$$x = \frac{-1}{\frac{-64}{4,000,000}}$$
+$$x = \frac{4,000,000}{64} = \mathbf{62,500 \text{ feet}}$$
+
+**Step B: Find the maximum vertical height ($y$):**
+Plug $x = 62,500$ back into the original function:
+$$h(62,500) = \frac{-32(62,500)^2}{4,000,000} + 62,500$$
+After simplifying the arithmetic:
+$$\mathbf{\text{Max Height} = 31,250 \text{ feet}}$$
+---
+#### 3. Finding the Total Range (X-Intercepts)
+To find how far the projectile travels before hitting the ground, set $h(x) = 0$.
+
+$$0 = \frac{-32x^2}{2000^2} + x$$
+**Factor out x:**
+$$0 = x \left( \frac{-32x}{4,000,000} + 1 \right)$$
+
+**Solve for x:**
+1.  **$x = 0$**: This is the launch point.
+2.  **$0 = \frac{-32x}{4,000,000} + 1$**
+    $$\frac{32x}{4,000,000} = 1$$
+    $$32x = 4,000,000$$
+    $$x = \frac{4,000,000}{32} = \mathbf{125,000 \text{ feet}}$$
+---
+#### 4. Summary Table
+
+| Question | Calculation | Result |
+| :--- | :--- | :--- |
+| **Launch Point** | $c$ value | $0 \text{ ft}$ |
+| **Distance to Peak** | $x = -b/2a$ | $62,500 \text{ ft}$ |
+| **Maximum Height** | $f(x)$ at vertex | $31,250 \text{ ft}$ |
+| **Total Range** | $x$-intercept | $125,000 \text{ ft}$ |
+
+---
+> [!abstract] Algebra Takeaway
+> In projectile motion, the parabola is perfectly symmetrical. The horizontal distance to the peak ($62,500$) is exactly **half** of the total range ($125,000$). If you find the vertex $x$-coordinate, you can simply double it to find where the object hits the ground (provided it starts at height 0).
+
