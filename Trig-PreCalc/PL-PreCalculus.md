@@ -4866,12 +4866,11 @@ $$0 = x \left( \frac{-32x}{4,000,000} + 1 \right)$$
 
 ## 2026-March-30 - Introduction to Polynomial Functions (Precalculus - College Algebra 27) : 
 https://www.youtube.com/watch?v=6Uh3Z6DJ_pI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=29
-### Introduction to Polynomial Functions (Professor Leonard)
+### Introduction to Polynomial Functions
 
 This lecture defines what makes a function a "polynomial" and introduces the vocabulary used to describe their structure, which is essential for predicting their behavior in Calculus.
 
 ---
-
 #### 1. What Defines a Polynomial?
 A polynomial is a mathematical expression consisting of one or more terms connected by addition or subtraction. 
 
@@ -4883,11 +4882,8 @@ A polynomial is a mathematical expression consisting of one or more terms connec
 * **Continuity:** The graphs are always smooth, continuous curves with no holes, gaps, or sharp corners (cusps). [00:34:04]
 
 ---
-
 #### 2. Key Vocabulary & Standard Form
 Standard form requires writing terms in **descending order** of their exponents (highest to lowest). [00:02:20]
-
-
 * **Leading Term:** The entire first term (e.g., $4x^4$). It dictates the "end behavior" of the graph. [00:05:30]
 * **Leading Coefficient:** The number in front of the leading term (e.g., $4$). [00:06:40]
 * **Degree ($n$):** The value of the **largest exponent** in the polynomial. [00:07:49]
@@ -4895,7 +4891,6 @@ Standard form requires writing terms in **descending order** of their exponents 
 * **Constant Term:** The number at the end without a variable. If there isn't one, the constant is 0. [00:06:51]
 
 ---
-
 #### 3. Identifying Polynomials (Examples)
 
 | Function | Polynomial? | Reason |
@@ -4907,7 +4902,6 @@ Standard form requires writing terms in **descending order** of their exponents 
 | $f(x) = \frac{3x^2-1}{7}$ | **Yes** | The denominator is a constant, not a variable. [00:25:38] |
 
 ---
-
 #### 4. The "Fake Distribution" Shortcut [00:30:15]
 When a polynomial is factored (e.g., $f(x) = 2(x-1)^2(x+3)$), you don't need to multiply everything out to find the leading term. 
 
@@ -4922,6 +4916,5 @@ When a polynomial is factored (e.g., $f(x) = 2(x-1)^2(x+3)$), you don't need to 
 * **Leading Term:** $2 \cdot x^2 \cdot x^3 \cdot x^1 = \mathbf{2x^6}$ (Degree 6).
 
 ---
-
 > [!abstract] Algebra Takeaway
 > The **Leading Term** ($a_nx^n$) is the "boss" of the function. It tells you where the graph starts and ends (End Behavior) and the maximum complexity the graph can have (Turning Points). Always put your polynomials in order first to identify the boss!
