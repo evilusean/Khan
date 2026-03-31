@@ -4965,3 +4965,51 @@ It is important to distinguish between the **exponent** and the **subscript**:
 
 ## 2026-March-31 - Power Functions (Precalculus - College Algebra 28) : 
 https://www.youtube.com/watch?v=FXTlAPOBA_U&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=30
+### Power Functions: End Behavior of Polynomials
+
+This lecture by Professor Leonard focuses on **Power Functions** ($f(x) = ax^n$), which consist of a single term. The primary goal of studying these is to understand the **End Behavior** of more complex polynomials. Since the leading term of any polynomial is a power function, it dictates where the "tails" of the graph go as $x$ approaches infinity. [00:00:17]
+
+---
+
+#### 1. Even vs. Odd Power Functions
+Power functions are incredibly predictable because they follow one of two patterns based on their exponent ($n$). [00:02:01]
+
+**Even Power Functions ($n = 2, 4, 6 \dots$)**
+* **Symmetry:** Symmetrical about the **y-axis** (mirror image). [00:05:56]
+* **Key Points:** Always pass through $(-1, 1)$, $(0, 0)$, and $(1, 1)$. [00:05:04]
+* **Shape:** Look like a parabola. As the exponent increases ($x^4, x^6$), the graph becomes "boxier"—flatter near the origin and steeper outside the interval $[-1, 1]$. [00:09:23]
+* **Range:** $[0, \infty)$ if $a > 0$; $(-\infty, 0]$ if $a < 0$. [00:17:14]
+
+
+**Odd Power Functions ($n = 1, 3, 5 \dots$)**
+* **Symmetry:** Symmetrical about the **origin** (180-degree rotation). [00:05:49]
+* **Key Points:** Always pass through $(-1, -1)$, $(0, 0)$, and $(1, 1)$. [00:04:19]
+* **Shape:** $x^1$ is a straight line; $x^3, x^5$ etc., have an "S-curve." Higher exponents make the curve more dramatic and "boxy." [00:07:30]
+* **Range:** Always all real numbers $(-\infty, \infty)$. [00:16:43]
+
+
+---
+
+#### 2. The Four End Behavior Cases
+The leading term of any polynomial tells you which of these four "tails" the graph will have: [00:01:06]
+
+| Degree ($n$) | Coefficient ($a$) | End Behavior Description | Visual Path |
+| :--- | :--- | :--- | :--- |
+| **Even** | **Positive** | Both ends point UP. | Up on Left, Up on Right |
+| **Even** | **Negative** | Both ends point DOWN. | Down on Left, Down on Right |
+| **Odd** | **Positive** | Starts low, ends high. | Down on Left, Up on Right |
+| **Odd** | **Negative** | Starts high, ends low. | Up on Left, Down on Right |
+
+---
+
+#### 3. Graphing with Transformations [00:19:50]
+You can graph shifted power functions (like $g(x) = 3(x+2)^5 - 3$) by combining power function properties with transformation rules.
+
+* **Shift:** Use the $h$ and $k$ values to find a "new origin" (in this case, left 2, down 3). [00:21:06]
+* **Key Points:** Start from your new origin and apply the key points ($1, 1$) and $(-1, \pm 1)$ based on whether the power is even or odd. [00:22:50]
+* **Stretch/Reflection:** Multiply the $y$-values of your key points by the leading coefficient ($a$) before plotting them relative to the new origin. [00:22:31]
+
+---
+
+> [!abstract] Algebra Takeaway
+> A power function is the "skeleton" of a polynomial. No matter how many terms a polynomial has in the middle, the **Leading Term** is the only thing that matters for the ends of the graph. If you know if the degree is even/odd and if the coefficient is positive/negative, you know exactly where the graph is headed at infinity. [00:10:50]
