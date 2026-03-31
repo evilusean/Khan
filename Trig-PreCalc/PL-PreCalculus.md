@@ -4979,14 +4979,11 @@ Power functions are incredibly predictable because they follow one of two patter
 * **Shape:** Look like a parabola. As the exponent increases ($x^4, x^6$), the graph becomes "boxier"—flatter near the origin and steeper outside the interval $[-1, 1]$. [00:09:23]
 * **Range:** $[0, \infty)$ if $a > 0$; $(-\infty, 0]$ if $a < 0$. [00:17:14]
 
-
 **Odd Power Functions ($n = 1, 3, 5 \dots$)**
 * **Symmetry:** Symmetrical about the **origin** (180-degree rotation). [00:05:49]
 * **Key Points:** Always pass through $(-1, -1)$, $(0, 0)$, and $(1, 1)$. [00:04:19]
 * **Shape:** $x^1$ is a straight line; $x^3, x^5$ etc., have an "S-curve." Higher exponents make the curve more dramatic and "boxy." [00:07:30]
 * **Range:** Always all real numbers $(-\infty, \infty)$. [00:16:43]
-
-
 ---
 #### 2. The Four End Behavior Cases
 The leading term of any polynomial tells you which of these four "tails" the graph will have: [00:01:06]
