@@ -4970,7 +4970,6 @@ https://www.youtube.com/watch?v=FXTlAPOBA_U&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This lecture by Professor Leonard focuses on **Power Functions** ($f(x) = ax^n$), which consist of a single term. The primary goal of studying these is to understand the **End Behavior** of more complex polynomials. Since the leading term of any polynomial is a power function, it dictates where the "tails" of the graph go as $x$ approaches infinity. [00:00:17]
 
 ---
-
 #### 1. Even vs. Odd Power Functions
 Power functions are incredibly predictable because they follow one of two patterns based on their exponent ($n$). [00:02:01]
 
@@ -4989,7 +4988,6 @@ Power functions are incredibly predictable because they follow one of two patter
 
 
 ---
-
 #### 2. The Four End Behavior Cases
 The leading term of any polynomial tells you which of these four "tails" the graph will have: [00:01:06]
 
@@ -5001,7 +4999,6 @@ The leading term of any polynomial tells you which of these four "tails" the gra
 | **Odd** | **Negative** | Starts high, ends low. | Up on Left, Down on Right |
 
 ---
-
 #### 3. Graphing with Transformations [00:19:50]
 You can graph shifted power functions (like $g(x) = 3(x+2)^5 - 3$) by combining power function properties with transformation rules.
 
@@ -5010,6 +5007,5 @@ You can graph shifted power functions (like $g(x) = 3(x+2)^5 - 3$) by combining 
 * **Stretch/Reflection:** Multiply the $y$-values of your key points by the leading coefficient ($a$) before plotting them relative to the new origin. [00:22:31]
 
 ---
-
 > [!abstract] Algebra Takeaway
 > A power function is the "skeleton" of a polynomial. No matter how many terms a polynomial has in the middle, the **Leading Term** is the only thing that matters for the ends of the graph. If you know if the degree is even/odd and if the coefficient is positive/negative, you know exactly where the graph is headed at infinity. [00:10:50]
