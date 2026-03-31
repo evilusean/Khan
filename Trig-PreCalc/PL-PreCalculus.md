@@ -4964,3 +4964,4 @@ It is important to distinguish between the **exponent** and the **subscript**:
 > Think of a subscript as a **name tag** or a **house address**. It doesn't change the value of the number; it simply tells you which "street" (exponent) that coefficient lives on. If you see $a_n$, it just means "the coefficient belonging to the highest power $n$."
 
 ## 2026-March-31 - Power Functions (Precalculus - College Algebra 28) : 
+https://www.youtube.com/watch?v=FXTlAPOBA_U&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=30
