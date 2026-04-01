@@ -5014,7 +5014,6 @@ https://www.youtube.com/watch?v=Gxh-mEt1K-o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This lecture by Professor Leonard focuses on the features of polynomials that allow for accurate sketching with minimal work. The core concepts are how a graph interacts with the x-axis at its roots (Multiplicity) and where the "tails" of the graph go (End Behavior).
 
 ---
-
 #### 1. Multiplicity of Zeros
 **Multiplicity** refers to how many times a specific zero (root/x-intercept) is repeated in a polynomial. This is determined by the exponent on the factor from which the zero is derived. [00:01:07]
 
@@ -5023,22 +5022,18 @@ This lecture by Professor Leonard focuses on the features of polynomials that al
 * **Odd Multiplicity (1, 3, 5...):** The graph **crosses** the x-axis at that point. [00:18:13]
     * *Reason:* Odd exponents preserve the sign change that occurs when moving from one side of the zero to the other. [00:20:29]
 
-
 ---
-
 #### 2. End Behavior & The Leading Term
 The **Leading Term** ($a_n x^n$) dictates what the graph does as $x$ approaches positive or negative infinity. This is because, at extreme values, the highest power dominates all other terms. [00:23:00]
 
-| Degree ($n$) | Coefficient ($a_n$) | Left Tail ($x \to -\infty$) | Right Tail ($x \to \infty$) | Pattern |
-| :--- | :--- | :--- | :--- | :--- |
-| **Even** | **Positive** | Up ($\uparrow$) | Up ($\uparrow$) | Both Up |
-| **Even** | **Negative** | Down ($\downarrow$) | Down ($\downarrow$) | Both Down |
-| **Odd** | **Positive** | Down ($\downarrow$) | Up ($\uparrow$) | Opposite (Start Low, End High) |
-| **Odd** | **Negative** | Up ($\uparrow$) | Down ($\downarrow$) | Opposite (Start High, End Low) |
-
+| Degree ($n$) | Coefficient ($a_n$) | Left Tail ($x \to -\infty$) | Right Tail ($x \to \infty$) | Pattern                        |
+| :----------- | :------------------ | :-------------------------- | :-------------------------- | :----------------------------- |
+| **Even**     | **Positive**        | Up ($\uparrow$)             | Up ($\uparrow$)             | Both Up                        |
+| **Even**     | **Negative**        | Down ($\downarrow$)         | Down ($\downarrow$)         | Both Down                      |
+| **Odd**      | **Positive**        | Down ($\downarrow$)         | Up ($\uparrow$)             | Opposite (Start Low, End High) |
+| **Odd**      | **Negative**        | Up ($\uparrow$)             | Down ($\downarrow$)         | Opposite (Start High, End Low) |
 
 ---
-
 #### 3. "Fake Distribution" for Factored Forms [00:34:37]
 When a polynomial is already factored, you don't need to fully distribute it to find the leading term. Instead, multiply the leading coefficient and the variables from each factor, accounting for their exponents.
 
@@ -5046,15 +5041,11 @@ When a polynomial is already factored, you don't need to fully distribute it to 
 * Combine: $7 \cdot (x^2) \cdot (x^1) \cdot (x^4) \cdot (x^5)$
 * Add exponents: $2 + 1 + 4 + 5 = 12$
 * **Leading Term:** $7x^{12}$ (Degree 12, Positive coefficient). Both tails go **UP**. [00:35:44]
-
 ---
-
 #### 4. Turning Points and Smoothness
 * **Turning Points:** These are local maximums or minimums where the graph changes direction. A polynomial of degree $n$ can have **at most $n-1$** turning points. [00:31:03]
 * **Continuity:** Polynomials are always smooth and continuous. There are **no gaps, holes, asymptotes, or sharp corners (cusps)**. [00:33:01]
-
 ---
-
 > [!abstract] Algebra Takeaway
 > To sketch a polynomial quickly: 
 > 1. Identify the **Leading Term** to draw the "tails" (End Behavior). 
