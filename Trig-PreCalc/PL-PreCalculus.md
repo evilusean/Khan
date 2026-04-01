@@ -5008,3 +5008,4 @@ You can graph shifted power functions (like $g(x) = 3(x+2)^5 - 3$) by combining 
 > A power function is the "skeleton" of a polynomial. No matter how many terms a polynomial has in the middle, the **Leading Term** is the only thing that matters for the ends of the graph. If you know if the degree is even/odd and if the coefficient is positive/negative, you know exactly where the graph is headed at infinity. [00:10:50]
 
 ## 2026-April-01 - Multiplicity and End Behavior of Polynomials (Precalculus - College Algebra 29) : 
+https://www.youtube.com/watch?v=Gxh-mEt1K-o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=34
