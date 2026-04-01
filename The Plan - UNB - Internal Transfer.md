@@ -152,3 +152,30 @@ These subjects are typically covered in the second semester of first year or the
     
 - **Focus on the "Why":** Since you have a coding background, try to understand the mathematical concepts intuitively (e.g., a derivative is a **rate of change**; an integral is an **accumulation**). This will help you apply the math to physics and engineering problems.
 
+## Gibs me dat b4 da collapse - repay student loans in hyperinflated canadabux loonies :
+### Potential Government Benefits and Education Funding
+
+#### Veteran Specific Benefits
+* **VAC Education and Training Benefit**: Up to ~$43,000 for degree programs. 
+    * *Note: Requires 6 years of service for the full amount; pro-rated for 3-5 years.*
+* **VAC Short Course Funding**: Up to $10,000 for shorter certifications or coding bootcamps.
+* **Veterans Independence Program (VIP)**: Tax-free funding for home maintenance and housekeeping if service-related health issues are present.
+* **Disability Pension**: Monthly tax-free payment if injuries or conditions occurred during service (applicable to clinic/records work).
+
+#### Federal and Provincial Grants
+* **Canada Student Grant for Full-Time Students**: Non-repayable grant, approximately $4,200 per year (for 2026).
+* **Renewed Tuition Bursary (RTB)**: New Brunswick specific; up to $3,000/year for low/middle-income students.
+* **Canada Training Credit (CTC)**: Refundable tax credit for tuition; check Notice of Assessment for balance ($250–$1,250).
+
+#### Tax Credits and Rebates
+* **Climate Action Incentive (CAIP)**: Quarterly carbon tax rebate for NB residents (~$180–$200).
+* **GST/HST & Grocery Benefit**: Quarterly tax-free payments with a 50% top-up expected June 2026.
+* **Canada Workers Benefit (CWB)**: Refundable credit for those in the workforce with lower income.
+* **Student Loan Interest Credit**: Non-refundable credit for interest paid on government loans.
+* **NB Student Loan Forgiveness**: Potential for partial forgiveness if staying/working in-province post-graduation.
+
+#### Potential Scholarships
+* **NB Provincial Post-Secondary Infrastructure Scholarships**.
+* **External Tech Scholarships**: 
+    * **Lighthouse Labs** (Veterans/Coding specific).
+    * **Canada Learning Bond** (Check eligibility based on age/family income history).
