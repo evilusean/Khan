@@ -179,16 +179,19 @@ These subjects are typically covered in the second semester of first year or the
 * **External Tech Scholarships**: 
     * **Lighthouse Labs** (Veterans/Coding specific).
     * **Canada Learning Bond** (Check eligibility based on age/family income history).
-
-### Financial Roadmap (The No-Debt Path)
+### Financial Roadmap (The No-Debt Path) 
 1. **Funding Source A**: VAC Education & Training Benefit (~$44,000). 
-   - Covers 100% of UNB Engineering tuition.
-2. **Funding Source B**: Oilfield Medic Stint (Summer/Gap).
-   - Use your military medic quals to get a remote camp job.
-   - Goal: Save $20k per summer for living expenses.
-3. **The 'Study While Working' Hack**:
-   - Remote medic roles involve 90% standby time. 
-   - Use this time for Japanese Anki and Engineering Studies
+   - Covers 100% of UNB Engineering tuition ($8,500/yr x 4).
+2. **Funding Source B**: Oilfield Medic Stint (Summer Year 1).
+   - Recertify: EMR Bridge + Class 4 License (use VAC short-term training fund).
+   - Goal: Save $20k for 'Year 1' emergency fund.
+3. **Funding Source C**: Engineering Co-ops (Years 2, 3, 4).
+   - Target: Suncor/Imperial Oil ($35-$45/hr).
+   - Outcome: One 4-month term covers 8 months of Fredericton living costs ($16k).
+   - Surplus: ~$10k/year 
+1. **The 'Study While Working' Hack**:
+   - Medic standby = Engineering/Japanese grind.
+   - Co-op downtime = Automation/System architecture study.
 #### UNB Engineering Strategy: Phase 1 (The Re-Arm)
 
 #### 1. Oilfield Recertification

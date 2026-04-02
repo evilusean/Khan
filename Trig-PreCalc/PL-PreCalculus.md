@@ -5055,3 +5055,64 @@ When a polynomial is already factored, you don't need to fully distribute it to 
 
 ## 2026-April-02 - Creating Polynomials from Real Zeros (Precalculus - College Algebra 30) : 
 https://www.youtube.com/watch?v=v-pnhWbHmQ8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=32
+### Creating Polynomials from Real Zeros (Professor Leonard)
+
+This lecture explains how to reverse-engineer a polynomial function if you are given its x-intercepts (zeros/roots) or its graph.
+
+---
+
+#### 1. The Core Concept: Zero Product Property in Reverse
+When we solve a polynomial, we set factors to zero to find the intercepts. To create a polynomial, we take the intercepts and turn them back into factors. [00:05:46]
+
+**The Process:**
+1.  **Identify Zeros:** e.g., $x = -3, x = 4, x = 0$.
+2.  **Create Factors:** Set each equal to zero.
+    * $x + 3 = 0 \rightarrow (x+3)$
+    * $x - 4 = 0 \rightarrow (x-4)$
+    * $x = 0 \rightarrow (x)$
+3.  **Build the Function:** $f(x) = a(x)(x+3)(x-4)$
+
+---
+
+#### 2. The Role of "a" (The Family of Curves)
+Without a specific point off the x-axis, you cannot determine a unique polynomial. You must include a leading coefficient $a$. [00:11:02]
+* Any constant $a$ (like 7 or -7) will result in the **same x-intercepts**.
+* The value of $a$ only changes the "dramaticness" (vertical stretch/compression) or orientation (reflection) of the graph. [00:10:23]
+
+---
+
+#### 3. Matching the Degree and Multiplicity [00:22:50]
+If a problem specifies a degree (e.g., "Degree 4"), your factors must account for that. This is handled via **Multiplicity** (exponents on the factors).
+
+* **Crossing:** Use an **odd** multiplicity (usually 1). [00:36:05]
+* **Bouncing/Touching:** Use an **even** multiplicity (usually 2). [00:36:45]
+
+**Example Check:** Zeros at $-2$ (mult 2), $5$ (mult 1), $0$ (mult 3). [00:28:30]
+* $f(x) = a(x)^3(x+2)^2(x-5)^1$
+* **Fake Distribution:** $x^3 \cdot x^2 \cdot x^1 = x^6$. This is a Degree 6 polynomial. [00:31:06]
+
+
+---
+
+#### 4. Solving for a Specific Polynomial [00:43:10]
+If you are given a graph with a point **off the x-axis** (like a y-intercept), you can solve for the exact value of $a$.
+
+**The "Specific Curve" Steps:** [00:44:42]
+1.  Write the general form: $f(x) = a(factor_1)(factor_2)...$
+2.  Plug in the coordinates $(x, y)$ of the extra point.
+3.  Solve the resulting linear equation for $a$.
+4.  Rewrite the final function with the calculated $a$ value. [00:46:27]
+
+---
+
+#### 5. Fractional Zeros Shortcut [00:31:35]
+If a zero is a fraction, such as $x = 1/2$:
+* **Factor Method A:** $(x - 1/2)$
+* **Factor Method B:** Multiply by 2 and subtract 1 $\rightarrow (2x - 1)$
+* *Note:* Both produce the same zero, but Method A is preferred for synthetic division, while Method B is cleaner for standard form. [00:31:54]
+
+---
+
+> [!abstract] Algebra Takeaway
+> To build a polynomial: **Zeros $\rightarrow$ Factors $\rightarrow$ Multiplicity $\rightarrow$ Solve for $a$.**
+> Always verify your final "fake distribution" against the required degree and end behavior to ensure the graph matches the equation. [00:57:42]
