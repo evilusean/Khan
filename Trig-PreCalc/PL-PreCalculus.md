@@ -5054,3 +5054,4 @@ When a polynomial is already factored, you don't need to fully distribute it to 
 > 4. Connect everything with a **smooth, continuous curve**. [00:33:41]
 
 ## 2026-April-02 - Creating Polynomials from Real Zeros (Precalculus - College Algebra 30) : 
+https://www.youtube.com/watch?v=v-pnhWbHmQ8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=32
