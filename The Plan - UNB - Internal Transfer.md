@@ -179,3 +179,66 @@ These subjects are typically covered in the second semester of first year or the
 * **External Tech Scholarships**: 
     * **Lighthouse Labs** (Veterans/Coding specific).
     * **Canada Learning Bond** (Check eligibility based on age/family income history).
+
+
+## UNB Engineering OpSeans :
+
+### UNB Engineering: Degrees and Subspecialties (2026)
+
+| Core Degree (BScE) | Available Options / Subspecialties | Best Strategic Fit (General) |
+| :--- | :--- | :--- |
+| **Electrical Engineering** | Mechatronics, Biomedical, Energy Conversion | **Systems & Logic.** Best for power grids, electronics, and digital control. |
+| **Mechanical Engineering** | Mechatronics, Biomedical, Manufacturing | **Hardware & Motion.** Best for machines, robotics, and thermal systems. |
+| **Software Engineering** | Mechatronics (Joint), Embedded Systems | **Digital Orchestration.** Best for large-scale code and AI integration. |
+| **Chemical Engineering** | Energy Conversion, Nuclear, Biomedical | **Process & Transformation.** Best for oil/gas, pharma, and materials. |
+| **Civil Engineering** | Structural, Geotechnical, Transportation | **Physical Infrastructure.** Best for large-scale build/construction. |
+| **Geomatics Engineering** | Cadastral Surveying, Hydrography | **Spatial Data.** Best for high-precision mapping and GPS systems. |
+| **Geological Engineering** | Geoenvironmental, Geotechnical, Mineral Res. | **Resource Extraction.** Best for mining, oil scouting, and site stability. |
+| **Engineering Physics** | Applied Physics & Engineering (Joint) | **R&D & Innovation.** Best for high-level physics and experimental tech. |
+| **Environmental Eng.** | Water Treatment, Sustainable Design | **Sustainability.** Best for remediation and climate adaptation. |
+
+#### Key Interdisciplinary Tools:
+1. **Mechatronics Option**: The intersection of mechanical, electrical, and software. High utility for any automated industry.
+2. **Energy Conversion Option**: Focuses on how we move and store power (Electrical/Thermal). Critical for the global energy shift.
+3. **TME Diploma**: Can be taken with any degree. Focuses on the "Business of Tech"—valuable if you decide to work for yourself.
+#### Detailed Subspecialty Breakdown:
+1. **Mechatronics Option**: 
+   - *Availability*: EE and ME students only.
+   - *Curriculum*: Robotics (ECE 4333), Industrial Controls (ECE 4323), and Robot Kinematics (ME 4173).
+   - *Purpose*: The foundation of autonomous manufacturing.
+
+2. **Energy Conversion Option**:
+   - *Availability*: EE, ME, and CHE students.
+   - *Curriculum*: Power systems, renewable energy, and thermal dynamics.
+   - *Purpose*: Essential for running heavy machinery on rigs or independent factory grids.
+
+3. **TME Diploma (Concurrent)**:
+   - *Availability*: All Engineering students.
+   - *Focus*: Technology Management & Entrepreneurship.
+   - *Purpose*: Business skills to *own* the factory, not just work in it.
+
+### UNB Engineering Strategy: Mechatronics
+
+- **Step 1**: Enroll in **BScE (Electrical Engineering)**. 
+    - *Rationale*: Leverages your current coding/logic strengths.
+- **Step 2**: Apply for the **Mechatronics Option** after your first year.
+- **Step 3 (The Rig Prep)**: Focus on **Power Systems** electives. 
+    - *Rationale*: Rigs don't care about "small robots" as much as they care about "big power." This makes you unkillable on the oil fields.
+- **Step 4 (The Dark Factory Prep)**: Focus on **ECE 4323 (Industrial Controls)**.
+    - *Rationale*: This is the specific language of factory automation.
+
+### UNB Strategic Path for Dark Factory Success
+
+1. **The 'Mechatronics' Option**: 
+   - Available to EE and ME students. 
+   - Teaches you to integrate sensors, software, and mechanical parts.
+   - *Key Course*: ECE 4333 (Robotics).
+
+2. **The 'Energy Conversion' Option**: 
+   - Focuses on power generation and storage. 
+   - Critical for keeping an automated factory running 
+
+3. **TME (Technology Management & Entrepreneurship)**: 
+   - A diploma you can take *alongside* your engineering degree.
+   - This teaches you the business side of owning the factory, not just working in it.
+
