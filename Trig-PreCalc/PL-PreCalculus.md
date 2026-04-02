@@ -5053,3 +5053,4 @@ When a polynomial is already factored, you don't need to fully distribute it to 
 > 3. Use **Multiplicity** to decide if you "bounce" or "cross" at each zero. 
 > 4. Connect everything with a **smooth, continuous curve**. [00:33:41]
 
+## 2026-April-02 - Creating Polynomials from Real Zeros (Precalculus - College Algebra 30) : 
