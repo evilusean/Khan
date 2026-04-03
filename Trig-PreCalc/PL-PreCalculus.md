@@ -5434,3 +5434,66 @@ The y-intercept is at **$(0, 18144)$**.
 
 > [!abstract] Algebra Takeaway
 > Even though this is a Degree 10 polynomial, it only touches the x-axis 3 times. The "missing" zeros from $(x^2+9)^2$ mean the graph has complex turns or "wiggles" in the coordinate plane that don't result in intercepts. Always trust your **End Behavior** and **Multiplicity** to guide the flow of the sketch.
+
+### Analysis and Sketching of f(x) = x²(x - 3)
+
+To analyze this cubic polynomial for your Obsidian notes, we break it down into its core properties using the "Fake Distribution" method and intercept analysis.
+
+---
+
+#### 1. Finding the Leading Term & Degree
+For factored polynomials, we multiply the leading term of each factor together, accounting for their exponents.
+
+* **From $x^2$:** $x^2$
+* **From $(x - 3)$:** $x^1$
+
+**Leading Term Calculation:**
+$$(x^2) \cdot (x^1) = \mathbf{x^3}$$
+
+* **Degree ($n$):** **3** (Cubic).
+* **Leading Coefficient ($a_n$):** **1** (Positive).
+
+---
+
+#### 2. Max Turning Points (TP) & End Behavior
+* **Max Turning Points:** $n - 1 = 3 - 1 = \mathbf{2}$.
+* **End Behavior:**
+    * Since the degree is **Odd (3)**, the tails point in **Opposite** directions.
+    * Since the leading coefficient is **Positive (1)**, the graph starts **Low** and ends **High**.
+    * **Notation:** As $x \to -\infty, f(x) \to -\infty$ and as $x \to \infty, f(x) \to \infty$.
+
+
+
+---
+
+#### 3. Intercepts and Multiplicity
+To find the x-intercepts, set each factor to zero and identify its exponent.
+
+| Factor | Zero ($x$) | Multiplicity | Behavior on Graph |
+| :--- | :--- | :--- | :--- |
+| $x^2$ | **0** | $2$ (Even) | **Bounce** (Parabolic touch) |
+| $(x - 3)$ | **3** | $1$ (Odd) | **Cross** (Straight through) |
+
+**Y-Intercept:**
+Evaluate the function at $x = 0$:
+$$f(0) = (0)^2(0 - 3) = \mathbf{0}$$
+The y-intercept is at **$(0, 0)$**. (Note: If $0$ is an x-intercept, it is automatically the y-intercept).
+
+---
+
+#### 4. Step-by-Step Graphing Instructions
+
+1.  **Plot the Intercepts:** Mark points at $x = 0$ and $x = 3$ on the x-axis.
+2.  **Draw the Tails:** Based on the end behavior, draw an arrow pointing **Down** from the far left (Quadrant III) and an arrow pointing **Up** from the far right (Quadrant I).
+3.  **Navigate from Left to Right:**
+    * **Approach $x = 0$:** Start from the bottom-left tail and move toward the origin.
+    * **At $x = 0$:** Because the multiplicity is **Even (2)**, the graph reaches the origin and **Bounces** back down into Quadrant IV.
+    * **Turn toward $x = 3$:** The graph must eventually turn back up to reach the next intercept. (This creates a "local minimum" between 0 and 3).
+    * **At $x = 3$:** Because the multiplicity is **Odd (1)**, the graph **Crosses** straight through the axis and continues upward to meet the right-side tail.
+
+
+
+---
+
+> [!abstract] Algebra Takeaway
+> In this function, the $x^2$ factor acts like a mini-parabola at the origin. Even though the overall function is a cubic ($x^3$), the "square" on the $x$ factor forces the graph to kiss the axis and turn around at that specific point.
