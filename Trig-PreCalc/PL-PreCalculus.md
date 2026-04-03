@@ -5542,3 +5542,68 @@ The y-intercept is at **$(0, 32)$**.
 
 > [!abstract] Algebra Takeaway
 > This is a "U-shaped" graph (even degree) that has been flipped upside down (negative coefficient). The cubic factor $(x-2)^3$ is what gives the graph its characteristic "shelf" or "flat spot" on the right side of the peak.
+
+### Analysis and Sketching of h(x) = (x + 4)²(1 - x)
+
+To analyze this cubic polynomial for your Obsidian notes, we break it down into its core properties using the "Fake Distribution" method and intercept analysis.
+
+---
+
+#### 1. Finding the Leading Term & Degree
+Multiply the leading term of each factor together, being careful with the signs.
+
+* **From $(x + 4)^2$:** $x^2$
+* **From $(1 - x)$:** $-x$ (Note the negative sign on the variable)
+
+**Leading Term Calculation:**
+$$(x^2) \cdot (-x) = \mathbf{-x^3}$$
+
+* **Degree ($n$):** **3** (Cubic).
+* **Leading Coefficient ($a_n$):** **$-1$** (Negative).
+
+---
+
+#### 2. Max Turning Points (TP) & End Behavior
+* **Max Turning Points:** $n - 1 = 3 - 1 = \mathbf{2}$.
+* **End Behavior:**
+    * Since the degree is **Odd (3)**, the tails point in **Opposite** directions.
+    * Since the leading coefficient is **Negative (-1)**, the graph starts **High** and ends **Low**.
+    * **Notation:** As $x \to -\infty, f(x) \to \infty$ and as $x \to \infty, f(x) \to -\infty$.
+
+
+
+---
+
+#### 3. Intercepts and Multiplicity
+To find the x-intercepts, set each factor to zero and identify its exponent.
+
+| Factor | Zero ($x$) | Multiplicity | Behavior on Graph |
+| :--- | :--- | :--- | :--- |
+| $(x + 4)^2$ | **$-4$** | $2$ (Even) | **Bounce** (Parabolic touch) |
+| $(1 - x)$ | **$1$** | $1$ (Odd) | **Cross** (Straight through) |
+
+**Y-Intercept:**
+Evaluate the function at $x = 0$:
+$$h(0) = (0 + 4)^2(1 - 0)$$
+$$h(0) = (16)(1) = \mathbf{16}$$
+The y-intercept is at **$(0, 16)$**.
+
+---
+
+#### 4. Step-by-Step Graphing Instructions
+
+1.  **Plot the Intercepts:** Mark points at $x = -4$ and $x = 1$ on the x-axis, and $y = 16$ on the y-axis.
+2.  **Draw the Tails:** Based on the end behavior, draw an arrow pointing **Up** from the far left (Quadrant II) and an arrow pointing **Down** from the far right (Quadrant IV).
+3.  **Navigate from Left to Right:**
+    * **Approach $x = -4$:** Start from the top-left tail and move toward $x = -4$.
+    * **At $x = -4$:** Because the multiplicity is **Even (2)**, the graph reaches the axis and **Bounces** back up into Quadrant II.
+    * **Pass through Y-intercept:** Continue upward to pass through $(0, 16)$. This will likely be the peak (local maximum).
+    * **At $x = 1$:** Head back down toward the x-axis. Because the multiplicity is **Odd (1)**, the graph **Crosses** straight through the axis.
+    * **Final Path:** Once through $x = 1$, continue downward to meet the right-side tail pointing to negative infinity.
+
+
+
+---
+
+> [!abstract] Algebra Takeaway
+> The term $(1-x)$ is a common "trick" in polynomial problems. Because the $x$ is negative, it flips the entire cubic graph upside down. Always check the sign of the variable inside each set of parentheses when calculating your leading term.
