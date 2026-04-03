@@ -5493,7 +5493,6 @@ The y-intercept is at **$(0, 0)$**. (Note: If $0$ is an x-intercept, it is autom
 To analyze this quartic polynomial for your Obsidian notes, we break it down into its core properties using the "Fake Distribution" method and intercept analysis.
 
 ---
-
 #### 1. Finding the Leading Term & Degree
 Multiply the leading coefficient by the highest power of $x$ from each individual factor.
 
@@ -5508,18 +5507,13 @@ $$(-2) \cdot (x^1) \cdot (x^3) = \mathbf{-2x^4}$$
 * **Leading Coefficient ($a_n$):** **$-2$** (Negative).
 
 ---
-
 #### 2. Max Turning Points (TP) & End Behavior
 * **Max Turning Points:** $n - 1 = 4 - 1 = \mathbf{3}$.
 * **End Behavior:**
     * Since the degree is **Even (4)**, the tails point in the **Same** direction.
     * Since the leading coefficient is **Negative (-2)**, both tails point **Down**.
     * **Notation:** As $x \to \pm\infty, f(x) \to -\infty$.
-
-
-
 ---
-
 #### 3. Intercepts and Multiplicity
 To find the x-intercepts, set each factor to zero and identify its exponent.
 
@@ -5535,7 +5529,6 @@ $$f(0) = -2(2)(-8) = \mathbf{32}$$
 The y-intercept is at **$(0, 32)$**.
 
 ---
-
 #### 4. Step-by-Step Graphing Instructions
 
 1.  **Plot the Intercepts:** Mark points at $x = -2$ and $x = 2$ on the x-axis, and $y = 32$ on the y-axis.
@@ -5545,9 +5538,6 @@ The y-intercept is at **$(0, 32)$**.
     * **Connect to Y-intercept:** Continue upward to pass through $(0, 32)$. This will likely be the peak (local maximum) of the graph.
     * **At $x = 2$:** Head back down toward the x-axis. Because the multiplicity is **Odd (3)**, the graph will **Cross** the axis, but it must "flatten out" (horizontal tangent) as it passes through $x = 2$, resembling an $x^3$ shape.
     * **Final Path:** Once through $x = 2$, continue downward to meet the right-side tail pointing to negative infinity.
-
-
-
 ---
 
 > [!abstract] Algebra Takeaway
