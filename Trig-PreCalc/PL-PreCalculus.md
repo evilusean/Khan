@@ -5606,7 +5606,6 @@ To analyze this polynomial for your Obsidian notes, we first identify that the t
 $$f(x) = -5x(x - 2)(x + 2)(x + 3)$$
 
 ---
-
 #### 1. Finding the Leading Term & Degree
 Multiply the leading coefficient by the highest power of $x$ from each individual factor.
 
@@ -5622,7 +5621,6 @@ $$(-5) \cdot (x^1) \cdot (x^2) \cdot (x^1) = \mathbf{-5x^4}$$
 * **Leading Coefficient ($a_n$):** **$-5$** (Negative).
 
 ---
-
 #### 2. Max Turning Points (TP) & End Behavior
 * **Max Turning Points:** $n - 1 = 4 - 1 = \mathbf{3}$.
 * **End Behavior:**
@@ -5632,7 +5630,6 @@ $$(-5) \cdot (x^1) \cdot (x^2) \cdot (x^1) = \mathbf{-5x^4}$$
     * **Notation:** As $x \to \pm\infty, f(x) \to -\infty$.
 
 ---
-
 #### 3. Intercepts and Multiplicity
 Using the fully factored form $f(x) = -5x(x - 2)(x + 2)(x + 3)$:
 
@@ -5649,7 +5646,6 @@ $$f(0) = -5(0)(0^2 - 4)(0 + 3) = \mathbf{0}$$
 The y-intercept is at **$(0, 0)$**.
 
 ---
-
 #### 4. Step-by-Step Graphing Instructions
 
 1.  **Plot the Intercepts:** Mark points at $x = -3, -2, 0, \text{ and } 2$ on the x-axis.
@@ -5660,9 +5656,6 @@ The y-intercept is at **$(0, 0)$**.
     * **At $x = 0$:** Turn back up and **Cross** the axis moving upward through the origin.
     * **At $x = 2$:** Turn back down one last time and **Cross** the axis moving downward.
     * **Final Path:** Continue downward to meet the right-side tail pointing to negative infinity.
-
-
-
 ---
 
 > [!abstract] Algebra Takeaway
