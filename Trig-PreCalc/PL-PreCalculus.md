@@ -5440,7 +5440,6 @@ The y-intercept is at **$(0, 18144)$**.
 To analyze this cubic polynomial for your Obsidian notes, we break it down into its core properties using the "Fake Distribution" method and intercept analysis.
 
 ---
-
 #### 1. Finding the Leading Term & Degree
 For factored polynomials, we multiply the leading term of each factor together, accounting for their exponents.
 
@@ -5454,7 +5453,6 @@ $$(x^2) \cdot (x^1) = \mathbf{x^3}$$
 * **Leading Coefficient ($a_n$):** **1** (Positive).
 
 ---
-
 #### 2. Max Turning Points (TP) & End Behavior
 * **Max Turning Points:** $n - 1 = 3 - 1 = \mathbf{2}$.
 * **End Behavior:**
@@ -5465,7 +5463,6 @@ $$(x^2) \cdot (x^1) = \mathbf{x^3}$$
 
 
 ---
-
 #### 3. Intercepts and Multiplicity
 To find the x-intercepts, set each factor to zero and identify its exponent.
 
@@ -5480,7 +5477,6 @@ $$f(0) = (0)^2(0 - 3) = \mathbf{0}$$
 The y-intercept is at **$(0, 0)$**. (Note: If $0$ is an x-intercept, it is automatically the y-intercept).
 
 ---
-
 #### 4. Step-by-Step Graphing Instructions
 
 1.  **Plot the Intercepts:** Mark points at $x = 0$ and $x = 3$ on the x-axis.
@@ -5490,9 +5486,6 @@ The y-intercept is at **$(0, 0)$**. (Note: If $0$ is an x-intercept, it is autom
     * **At $x = 0$:** Because the multiplicity is **Even (2)**, the graph reaches the origin and **Bounces** back down into Quadrant IV.
     * **Turn toward $x = 3$:** The graph must eventually turn back up to reach the next intercept. (This creates a "local minimum" between 0 and 3).
     * **At $x = 3$:** Because the multiplicity is **Odd (1)**, the graph **Crosses** straight through the axis and continues upward to meet the right-side tail.
-
-
-
 ---
 
 > [!abstract] Algebra Takeaway
