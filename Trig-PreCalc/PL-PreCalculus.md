@@ -5328,3 +5328,4 @@ $$f(x) = x^3(x + 2)^2(x - 5)(2x - 1)^3$$
 > When building high-degree polynomials, the **sum of multiplicities** must always match the **degree**. Even multiplicities create "U" shapes (bounces) at the axis, while odd multiplicities greater than 1 create "S" shapes (flattened crosses) at the axis.
 
 ## 2026-April-03 - How to Sketch Polynomial Functions (Precalculus - College Algebra 31) :
+https://www.youtube.com/watch?v=6MAtqY6Fqjs&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=34
