@@ -5375,7 +5375,6 @@ To avoid common sketching errors, Professor Leonard suggests placing a **vertica
 To analyze this complex polynomial for your Obsidian notes, we break it down into its core properties using the "Fake Distribution" method and intercept analysis.
 
 ---
-
 #### 1. Finding the Leading Term & Degree
 Instead of multiplying everything out, take the leading term from each factor and account for the exponents.
 
@@ -5392,18 +5391,13 @@ $$(-2) \cdot (x^1) \cdot (x^2) \cdot (x^3) \cdot (x^4) = \mathbf{-2x^{10}}$$
 * **Leading Coefficient ($a_n$):** **$-2$**.
 
 ---
-
 #### 2. Max Turning Points (TP) & End Behavior
 * **Max Turning Points:** $n - 1 = 10 - 1 = \mathbf{9}$.
 * **End Behavior:**
     * Since the degree is **Even (10)**, the tails point in the **Same** direction.
     * Since the leading coefficient is **Negative (-2)**, both tails point **Down**.
     * **Notation:** As $x \to \pm\infty, f(x) \to -\infty$.
-
-
-
 ---
-
 #### 3. Intercepts and Multiplicity
 To find the x-intercepts, set each factor to zero.
 
@@ -5424,7 +5418,6 @@ $$h(0) = 14 \cdot 16 \cdot 81 = \mathbf{18,144}$$
 The y-intercept is at **$(0, 18144)$**.
 
 ---
-
 #### 4. Step-by-Step Graphing Instructions
 
 1.  **Plot the Intercepts:** Mark points at $x = -4$, $x = -1/2$, and $x = 7$ on the x-axis. Mark the y-intercept way up at $18,144$ (or just label it if the scale is tight).
@@ -5436,8 +5429,6 @@ The y-intercept is at **$(0, 18144)$**.
     * **Heading to $y$-intercept:** Turn up to hit the y-axis at $18,144$.
     * **Heading to $x = 7$:** Turn back toward the x-axis.
     * **At $x = 7$:** **Cross** straight through the axis to meet the right-side tail pointing down.
-
-
 
 ---
 
