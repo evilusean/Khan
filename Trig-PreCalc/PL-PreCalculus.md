@@ -5459,9 +5459,6 @@ $$(x^2) \cdot (x^1) = \mathbf{x^3}$$
     * Since the degree is **Odd (3)**, the tails point in **Opposite** directions.
     * Since the leading coefficient is **Positive (1)**, the graph starts **Low** and ends **High**.
     * **Notation:** As $x \to -\infty, f(x) \to -\infty$ and as $x \to \infty, f(x) \to \infty$.
-
-
-
 ---
 #### 3. Intercepts and Multiplicity
 To find the x-intercepts, set each factor to zero and identify its exponent.
@@ -5490,3 +5487,68 @@ The y-intercept is at **$(0, 0)$**. (Note: If $0$ is an x-intercept, it is autom
 
 > [!abstract] Algebra Takeaway
 > In this function, the $x^2$ factor acts like a mini-parabola at the origin. Even though the overall function is a cubic ($x^3$), the "square" on the $x$ factor forces the graph to kiss the axis and turn around at that specific point.
+
+### Analysis and Sketching of f(x) = -2(x + 2)(x - 2)³
+
+To analyze this quartic polynomial for your Obsidian notes, we break it down into its core properties using the "Fake Distribution" method and intercept analysis.
+
+---
+
+#### 1. Finding the Leading Term & Degree
+Multiply the leading coefficient by the highest power of $x$ from each individual factor.
+
+* **Constant Multiplier:** $-2$
+* **From $(x + 2)$:** $x^1$
+* **From $(x - 2)^3$:** $x^3$
+
+**Leading Term Calculation:**
+$$(-2) \cdot (x^1) \cdot (x^3) = \mathbf{-2x^4}$$
+
+* **Degree ($n$):** **4** (Quartic).
+* **Leading Coefficient ($a_n$):** **$-2$** (Negative).
+
+---
+
+#### 2. Max Turning Points (TP) & End Behavior
+* **Max Turning Points:** $n - 1 = 4 - 1 = \mathbf{3}$.
+* **End Behavior:**
+    * Since the degree is **Even (4)**, the tails point in the **Same** direction.
+    * Since the leading coefficient is **Negative (-2)**, both tails point **Down**.
+    * **Notation:** As $x \to \pm\infty, f(x) \to -\infty$.
+
+
+
+---
+
+#### 3. Intercepts and Multiplicity
+To find the x-intercepts, set each factor to zero and identify its exponent.
+
+| Factor | Zero ($x$) | Multiplicity | Behavior on Graph |
+| :--- | :--- | :--- | :--- |
+| $(x + 2)$ | **$-2$** | $1$ (Odd) | **Cross** (Straight through) |
+| $(x - 2)^3$ | **$2$** | $3$ (Odd) | **Cross** (Flattened/S-curve) |
+
+**Y-Intercept:**
+Evaluate the function at $x = 0$:
+$$f(0) = -2(0 + 2)(0 - 2)^3$$
+$$f(0) = -2(2)(-8) = \mathbf{32}$$
+The y-intercept is at **$(0, 32)$**.
+
+---
+
+#### 4. Step-by-Step Graphing Instructions
+
+1.  **Plot the Intercepts:** Mark points at $x = -2$ and $x = 2$ on the x-axis, and $y = 32$ on the y-axis.
+2.  **Draw the Tails:** Draw arrows pointing **Down** from the far left (Quadrant III) and the far right (Quadrant IV).
+3.  **Navigate from Left to Right:**
+    * **At $x = -2$:** Approach from below and **Cross** the axis relatively straight (multiplicity 1).
+    * **Connect to Y-intercept:** Continue upward to pass through $(0, 32)$. This will likely be the peak (local maximum) of the graph.
+    * **At $x = 2$:** Head back down toward the x-axis. Because the multiplicity is **Odd (3)**, the graph will **Cross** the axis, but it must "flatten out" (horizontal tangent) as it passes through $x = 2$, resembling an $x^3$ shape.
+    * **Final Path:** Once through $x = 2$, continue downward to meet the right-side tail pointing to negative infinity.
+
+
+
+---
+
+> [!abstract] Algebra Takeaway
+> This is a "U-shaped" graph (even degree) that has been flipped upside down (negative coefficient). The cubic factor $(x-2)^3$ is what gives the graph its characteristic "shelf" or "flat spot" on the right side of the peak.
