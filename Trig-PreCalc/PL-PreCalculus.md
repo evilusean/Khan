@@ -5080,10 +5080,8 @@ Without a specific point off the x-axis, you cannot determine a unique polynomia
 ---
 #### 3. Matching the Degree and Multiplicity [00:22:50]
 If a problem specifies a degree (e.g., "Degree 4"), your factors must account for that. This is handled via **Multiplicity** (exponents on the factors).
-
 * **Crossing:** Use an **odd** multiplicity (usually 1). [00:36:05]
 * **Bouncing/Touching:** Use an **even** multiplicity (usually 2). [00:36:45]
-
 **Example Check:** Zeros at $-2$ (mult 2), $5$ (mult 1), $0$ (mult 3). [00:28:30]
 * $f(x) = a(x)^3(x+2)^2(x-5)^1$
 * **Fake Distribution:** $x^3 \cdot x^2 \cdot x^1 = x^6$. This is a Degree 6 polynomial. [00:31:06]
@@ -5091,7 +5089,6 @@ If a problem specifies a degree (e.g., "Degree 4"), your factors must account fo
 ---
 #### 4. Solving for a Specific Polynomial [00:43:10]
 If you are given a graph with a point **off the x-axis** (like a y-intercept), you can solve for the exact value of $a$.
-
 **The "Specific Curve" Steps:** [00:44:42]
 1.  Write the general form: $f(x) = a(factor_1)(factor_2)...$
 2.  Plug in the coordinates $(x, y)$ of the extra point.
@@ -5109,3 +5106,224 @@ If a zero is a fraction, such as $x = 1/2$:
 > [!abstract] Algebra Takeaway
 > To build a polynomial: **Zeros $\rightarrow$ Factors $\rightarrow$ Multiplicity $\rightarrow$ Solve for $a$.**
 > Always verify your final "fake distribution" against the required degree and end behavior to ensure the graph matches the equation. [00:57:42]
+
+### Finding Zeros (x-intercepts) for f(x) = x² + 2x - 8
+
+To find the zeros of a quadratic function, we set $f(x) = 0$ and solve for $x$. These values represent where the graph crosses the x-axis.
+
+---
+#### 1. Set the Function to Zero
+$$x^2 + 2x - 8 = 0$$
+
+---
+#### 2. Factor the Quadratic
+We need two numbers that:
+* **Multiply** to give $ac$ ($1 \cdot -8 = -8$)
+* **Add** to give $b$ ($2$)
+
+The factors of $-8$ are:
+* $-1, 8$ (Sum: $7$)
+* $1, -8$ (Sum: $-7$)
+* $-2, 4$ (Sum: **$2$**) $\leftarrow$ **This is our pair.**
+
+**Write in Factored Form:**
+$$(x - 2)(x + 4) = 0$$
+
+---
+#### 3. Solve for x (Zero Product Property)
+Set each factor equal to zero:
+* $x - 2 = 0 \Rightarrow \mathbf{x = 2}$
+* $x + 4 = 0 \Rightarrow \mathbf{x = -4}$
+
+**The x-intercepts are at $(2, 0)$ and $(-4, 0)$.**
+
+---
+#### 4. Graphical Description
+* **Orientation:** Since the leading coefficient ($a=1$) is positive, the parabola opens **upward**.
+* **Intercepts:** The graph crosses the x-axis at $x = -4$ and $x = 2$.
+* **Multiplicity:** Both zeros have a multiplicity of **1** (the factors are $(x-2)^1$ and $(x+4)^1$), so the graph **crosses** straight through the x-axis at both points rather than bouncing.
+* **Y-intercept:** Plugging in $x=0$ gives $f(0) = -8$, so the graph crosses the y-axis at $(0, -8)$.
+
+---
+
+> [!abstract] Algebra Takeaway
+> The zeros of a polynomial are the "DNA" of its graph. By finding $x = 2$ and $x = -4$, you've identified the two most critical points on the horizontal axis. Because the degree is 2, you know there can be at most two real zeros, which we have found here.
+
+### Creating a Polynomial from Zeros: x = -3, 4, 1, 0
+
+To build the polynomial for your Obsidian notes, we transform each x-intercept (zero) into a linear factor and then combine them into a single function.
+
+---
+#### 1. Define the Factors
+Using the Zero Product Property in reverse, an intercept at $x = c$ corresponds to a factor $(x - c)$.
+
+* **For $x = -3$:** The factor is $(x - (-3)) \Rightarrow \mathbf{(x + 3)}$
+* **For $x = 4$:** The factor is $\mathbf{(x - 4)}$
+* **For $x = 1$:** The factor is $\mathbf{(x - 1)}$
+* **For $x = 0$:** The factor is $(x - 0) \Rightarrow \mathbf{x}$
+
+---
+#### 2. Build the General Function
+A polynomial with these specific zeros belongs to a "family" of curves defined by a leading coefficient $a$.
+
+$$f(x) = a \cdot x(x + 3)(x - 4)(x - 1)$$
+
+*Note: Unless a specific point off the x-axis is provided, we typically assume $a = 1$ for the simplest version of the polynomial.*
+
+---
+#### 3. Standard Form (Optional Distribution)
+To write the polynomial in standard form, we multiply the factors together:
+
+1.  **Multiply $(x+3)(x-4)$:** $x^2 - 4x + 3x - 12 = x^2 - x - 12$
+2.  **Multiply $(x)(x-1)$:** $x^2 - x$
+3.  **Multiply the results:** $(x^2 - x - 12)(x^2 - x)$
+    * $x^2(x^2 - x) = x^4 - x^3$
+    * $-x(x^2 - x) = -x^3 + x^2$
+    * $-12(x^2 - x) = -12x^2 + 12x$
+
+**Combine Like Terms:**
+$$\mathbf{f(x) = x^4 - 2x^3 - 11x^2 + 12x}$$
+---
+#### 4. Graphical Description
+* **Degree:** This is a **Degree 4 (Quartic)** polynomial.
+* **End Behavior:** Since the degree is even and the leading coefficient ($a=1$) is positive, both "tails" of the graph point **UP** $( \uparrow, \uparrow )$.
+* **Intercept Behavior:** Each zero has a multiplicity of **1**, so the graph **crosses** through the x-axis at all four locations $(-3, 0, 1, 4)$.
+* **Turning Points:** Since $n=4$, the graph has a maximum of **3 turning points** (peaks or valleys).
+
+---
+
+> [!abstract] Algebra Takeaway
+> To go from intercepts to an equation, simply "flip the signs" into parentheses and multiply them by $x$ for any zero at the origin. The final degree of your polynomial should always match the total number of real zeros (counting multiplicities).
+
+### Creating a Polynomial from Zeros: x = -1, 0, 4, -9 (Degree 4)
+
+To build this polynomial for your Obsidian notes, we transform each given x-intercept into its corresponding linear factor. Since we have four distinct zeros and are asked for a **Degree 4** polynomial, each factor will have a multiplicity of 1.
+
+---
+#### 1. Define the Factors
+For any zero $c$, the factor is $(x - c)$.
+
+* **For $x = -1$:** $(x - (-1)) \Rightarrow \mathbf{(x + 1)}$
+* **For $x = 0$:** $(x - 0) \Rightarrow \mathbf{x}$
+* **For $x = 4$:** $\mathbf{(x - 4)}$
+* **For $x = -9$:** $(x - (-9)) \Rightarrow \mathbf{(x + 9)}$
+
+---
+#### 2. Build the Function (Factored Form)
+Combining these factors gives the simplest version of the polynomial (assuming a leading coefficient $a = 1$):
+
+$$f(x) = x(x + 1)(x - 4)(x + 9)$$
+
+---
+#### 3. Standard Form (Distribution)
+To expand this into a standard polynomial expression:
+
+1.  **Multiply $(x+1)(x-4)$:**
+    $x^2 - 4x + x - 4 = \mathbf{x^2 - 3x - 4}$
+2.  **Multiply the result by $(x+9)$:**
+    $(x^2 - 3x - 4)(x + 9)$
+    $= x^2(x + 9) - 3x(x + 9) - 4(x + 9)$
+    $= (x^3 + 9x^2) - (3x^2 + 27x) - (4x + 36)$
+    $= x^3 + 6x^2 - 31x - 36$
+3.  **Multiply the entire result by $x$:**
+    $$\mathbf{f(x) = x^4 + 6x^3 - 31x^2 - 36x}$$
+---
+#### 4. Graphical Description
+* **Degree:** This is a **Degree 4 (Quartic)** polynomial, consistent with the requirement.
+* **End Behavior:** Since the degree is even ($n=4$) and the leading coefficient ($a=1$) is positive, both "tails" point **UP** $(\uparrow, \uparrow)$.
+* **Intercept Behavior:** Because each zero has an **odd multiplicity (1)**, the graph **crosses** the x-axis at all four points: $x = -9, -1, 0, \text{ and } 4$.
+* **Turning Points:** The graph will have **3 turning points** (two relative minimums and one relative maximum).
+---
+> [!abstract] Algebra Takeaway
+> When given exactly $n$ zeros for a polynomial of degree $n$, each zero is a simple root that crosses the axis. The constant zero ($x=0$) is always represented by a standalone $x$ factor outside of parentheses.
+
+### Creating a Polynomial from Zeros: x = 1 (Mult 1) and x = 2 (Mult 2)
+
+To build this degree 3 polynomial for your Obsidian notes, we translate each zero and its given multiplicity into a specific factor with a matching exponent.
+
+---
+#### 1. Define the Factors and Multiplicities
+The multiplicity of a zero becomes the exponent of its corresponding linear factor.
+
+* **For $x = 1$ (Multiplicity 1):** The factor is $(x - 1)^1$, or simply $\mathbf{(x - 1)}$.
+* **For $x = 2$ (Multiplicity 2):** The factor is $(x - 2)^2$, which is $\mathbf{(x - 2)(x - 2)}$.
+
+---
+#### 2. Build the Function (Factored Form)
+Combining these factors creates a polynomial of **Degree 3** ($1 + 2 = 3$), satisfying the requirement.
+
+$$f(x) = a(x - 1)(x - 2)^2$$
+
+*Assuming the simplest leading coefficient $a = 1$:*
+$$f(x) = (x - 1)(x - 2)^2$$
+
+---
+#### 3. Standard Form (Distribution)
+To expand this into a standard polynomial expression:
+
+1.  **Expand the Squared Factor $(x-2)^2$:**
+    $$(x - 2)(x - 2) = x^2 - 4x + 4$$
+2.  **Multiply by the Remaining Factor $(x-1)$:**
+    $$(x - 1)(x^2 - 4x + 4)$$
+    $= x(x^2 - 4x + 4) - 1(x^2 - 4x + 4)$
+    $= (x^3 - 4x^2 + 4x) - (x^2 - 4x + 4)$
+    $= x^3 - 5x^2 + 8x - 4$
+
+**Final Polynomial:**
+$$\mathbf{f(x) = x^3 - 5x^2 + 8x - 4}$$
+
+---
+#### 4. Graphical Description
+* **Degree:** This is a **Degree 3 (Cubic)** polynomial.
+* **End Behavior:** Since the degree is odd ($n=3$) and the leading coefficient ($a=1$) is positive, the graph starts low and ends high (Down on Left, Up on Right).
+* **Intercept Behavior:**
+    * **At $x = 1$:** The multiplicity is **odd (1)**, so the graph **crosses** the x-axis.
+    * **At $x = 2$:** The multiplicity is **even (2)**, so the graph **bounces** off the x-axis (it touches $y=0$ and turns back up).
+* **Turning Points:** The graph has **2 turning points** (one local maximum and one local minimum at $x=2$).
+---
+
+> [!abstract] Algebra Takeaway
+> Multiplicity dictates the "touch" of the graph. A multiplicity of 2 creates a parabolic "U" shape at that specific x-intercept. When checking your work, ensure the sum of all multiplicities equals the required degree of the polynomial.
+
+### Creating a Polynomial from Zeros: Degree 9
+
+To build this Degree 9 polynomial, we translate each zero and its specific multiplicity into a factor with a matching exponent. The sum of the multiplicities ($2 + 1 + 3 + 3$) equals **9**, confirming the degree.
+
+---
+#### 1. Define the Factors and Multiplicities
+Using the zero-to-factor rule: a zero at $c$ with multiplicity $k$ becomes $(x - c)^k$.
+
+* **For $x = -2$ (Mult 2):** $(x - (-2))^2 \Rightarrow \mathbf{(x + 2)^2}$
+* **For $x = 5$ (Mult 1):** $\mathbf{(x - 5)}$
+* **For $x = 0$ (Mult 3):** $(x - 0)^3 \Rightarrow \mathbf{x^3}$
+* **For $x = 1/2$ (Mult 3):** $(x - 1/2)^3$ 
+    * *Note:* To avoid fractions in the factors, we can use the form $\mathbf{(2x - 1)^3}$.
+
+---
+#### 2. Build the Function (Factored Form)
+Combining these gives the polynomial in its most useful form for identifying behavior:
+
+$$f(x) = a \cdot x^3(x + 2)^2(x - 5)(2x - 1)^3$$
+
+*Assuming the simplest leading coefficient $a = 1$:*
+$$f(x) = x^3(x + 2)^2(x - 5)(2x - 1)^3$$
+---
+#### 3. Analyzing the Polynomial (Degree & End Behavior)
+* **Verify Degree:** $$x^3 \cdot x^2 \cdot x^1 \cdot x^3 = x^{(3+2+1+3)} = \mathbf{x^9}$$
+* **Leading Coefficient:** Since we used $(2x-1)^3$, the leading term is $1 \cdot 1 \cdot 1 \cdot 2^3 = \mathbf{8x^9}$.
+* **End Behavior:** Since the degree is **Odd (9)** and the leading coefficient is **Positive (8)**, the graph starts low and ends high (Down on Left, Up on Right).
+---
+#### 4. Intercept Behavior (Multiplicity Table)
+
+| Zero ($x$) | Multiplicity | Graph Behavior | Visual Description |
+| :--- | :--- | :--- | :--- |
+| **$-2$** | **2 (Even)** | **Bounce** | Touches the axis and turns back up like a parabola. |
+| **$5$** | **1 (Odd)** | **Cross** | Passes straight through the axis like a line. |
+| **$0$** | **3 (Odd)** | **Cross/Flatten** | Passes through but "flattens out" like an $x^3$ curve. |
+| **$1/2$** | **3 (Odd)** | **Cross/Flatten** | Passes through while flattening against the axis. |
+
+---
+
+> [!abstract] Algebra Takeaway
+> When building high-degree polynomials, the **sum of multiplicities** must always match the **degree**. Even multiplicities create "U" shapes (bounces) at the axis, while odd multiplicities greater than 1 create "S" shapes (flattened crosses) at the axis.
+
