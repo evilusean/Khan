@@ -5329,3 +5329,54 @@ $$f(x) = x^3(x + 2)^2(x - 5)(2x - 1)^3$$
 
 ## 2026-April-03 - How to Sketch Polynomial Functions (Precalculus - College Algebra 31) :
 https://www.youtube.com/watch?v=6MAtqY6Fqjs&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=34
+### Sketching Polynomial Functions (Professor Leonard Summary)
+
+This summary covers the systematic approach to sketching polynomials from their factored forms as detailed by Professor Leonard.
+
+---
+
+#### 1. The Leading Term & End Behavior
+Instead of fully distributing a complex factored polynomial, use "fake distribution" to find the **Leading Term** ($ax^n$).
+* **How to find it:** Multiply the leading coefficient of the entire function by the highest power of $x$ from each individual factor. [00:03:29]
+* **Information gained:**
+    * **Degree ($n$):** The sum of all exponents in the factors. [00:06:20]
+    * **Max Turning Points:** A polynomial can have at most $n-1$ turning points. [00:06:43]
+    * **End Behavior:** Determined by the degree (Even vs. Odd) and the sign of the leading coefficient. [00:07:36]
+
+
+---
+
+#### 2. Finding Intercepts
+* **Y-intercept:** Evaluate the function at $f(0)$. You do not need the standard form; just plug zero into the factored version. [00:09:32]
+* **X-intercepts (Zeros):** Set each factor containing a variable equal to zero. [00:10:45]
+    * **Note on Irreducible Quadratics:** Factors like $(x^2 + 9)$ yield no real x-intercepts and often represent "hidden" turning points that don't touch the axis. [00:13:35]
+
+---
+
+#### 3. Multiplicity & Axis Behavior
+The exponent of each factor (the multiplicity) dictates how the graph interacts with the x-axis at that specific zero. [00:14:46]
+
+| Multiplicity | Type | Graph Action | Visual Hint |
+| :--- | :--- | :--- | :--- |
+| **Odd** (1, 3, 5...) | Cross | The graph passes through the axis. | Higher odd powers (3+) "flatten" at the crossing. [00:16:31] |
+| **Even** (2, 4, 6...) | Bounce | The graph touches and turns back (tangent). | Also known as a "Touch." [00:16:25] |
+
+
+---
+
+#### 4. The "Dotted Line" Technique
+To avoid common sketching errors, Professor Leonard suggests placing a **vertical dotted line** at any x-intercept with an **even multiplicity** (a bounce). This serves as a visual cue that you are not allowed to cross the axis at that point. [00:26:31]
+
+---
+
+#### 5. Step-by-Step Sketching Workflow
+1.  **Leading Term:** Identify degree and end behavior $(\uparrow, \uparrow; \downarrow, \downarrow; \dots)$.
+2.  **Intercepts:** Mark the y-intercept and all x-intercepts on the coordinate plane.
+3.  **Multiplicity:** Label each x-intercept as a "Cross" or "Bounce."
+4.  **Additional Points:** If the y-intercept is $(0,0)$, or to show the "dynamics" (depth) of the curves, plug in x-values between the intercepts. [00:27:45]
+5.  **Connect:** Start from the left end behavior, move through each intercept according to its multiplicity, and finish at the right end behavior. [00:29:06]
+
+---
+
+> [!tip] Final Check
+> Everything must "mesh." If your end behavior says the graph should end pointing up, but your last intercept is a bounce that keeps you pointing down, you have likely made a sign error or miscalculated a multiplicity. [00:19:52]
