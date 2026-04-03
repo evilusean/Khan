@@ -5341,8 +5341,6 @@ Instead of fully distributing a complex factored polynomial, use "fake distribut
     * **Degree ($n$):** The sum of all exponents in the factors. [00:06:20]
     * **Max Turning Points:** A polynomial can have at most $n-1$ turning points. [00:06:43]
     * **End Behavior:** Determined by the degree (Even vs. Odd) and the sign of the leading coefficient. [00:07:36]
-
-
 ---
 #### 2. Finding Intercepts
 * **Y-intercept:** Evaluate the function at $f(0)$. You do not need the standard form; just plug zero into the factored version. [00:09:32]
