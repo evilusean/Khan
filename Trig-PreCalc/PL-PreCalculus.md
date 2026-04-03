@@ -5548,7 +5548,6 @@ The y-intercept is at **$(0, 32)$**.
 To analyze this cubic polynomial for your Obsidian notes, we break it down into its core properties using the "Fake Distribution" method and intercept analysis.
 
 ---
-
 #### 1. Finding the Leading Term & Degree
 Multiply the leading term of each factor together, being careful with the signs.
 
@@ -5562,18 +5561,13 @@ $$(x^2) \cdot (-x) = \mathbf{-x^3}$$
 * **Leading Coefficient ($a_n$):** **$-1$** (Negative).
 
 ---
-
 #### 2. Max Turning Points (TP) & End Behavior
 * **Max Turning Points:** $n - 1 = 3 - 1 = \mathbf{2}$.
 * **End Behavior:**
     * Since the degree is **Odd (3)**, the tails point in **Opposite** directions.
     * Since the leading coefficient is **Negative (-1)**, the graph starts **High** and ends **Low**.
     * **Notation:** As $x \to -\infty, f(x) \to \infty$ and as $x \to \infty, f(x) \to -\infty$.
-
-
-
 ---
-
 #### 3. Intercepts and Multiplicity
 To find the x-intercepts, set each factor to zero and identify its exponent.
 
@@ -5589,7 +5583,6 @@ $$h(0) = (16)(1) = \mathbf{16}$$
 The y-intercept is at **$(0, 16)$**.
 
 ---
-
 #### 4. Step-by-Step Graphing Instructions
 
 1.  **Plot the Intercepts:** Mark points at $x = -4$ and $x = 1$ on the x-axis, and $y = 16$ on the y-axis.
@@ -5600,10 +5593,77 @@ The y-intercept is at **$(0, 16)$**.
     * **Pass through Y-intercept:** Continue upward to pass through $(0, 16)$. This will likely be the peak (local maximum).
     * **At $x = 1$:** Head back down toward the x-axis. Because the multiplicity is **Odd (1)**, the graph **Crosses** straight through the axis.
     * **Final Path:** Once through $x = 1$, continue downward to meet the right-side tail pointing to negative infinity.
+---
+
+> [!abstract] Algebra Takeaway
+> The term $(1-x)$ is a common "trick" in polynomial problems. Because the $x$ is negative, it flips the entire cubic graph upside down. Always check the sign of the variable inside each set of parentheses when calculating your leading term.
+
+### Analysis and Sketching of f(x) = -5x(x² - 4)(x + 3)
+
+To analyze this polynomial for your Obsidian notes, we first identify that the term $(x^2 - 4)$ is a **Difference of Squares**. For the most accurate intercept and multiplicity analysis, it is best to fully factor the function first.
+
+**Factored Form:**
+$$f(x) = -5x(x - 2)(x + 2)(x + 3)$$
+
+---
+
+#### 1. Finding the Leading Term & Degree
+Multiply the leading coefficient by the highest power of $x$ from each individual factor.
+
+* **Constant Multiplier:** $-5$
+* **From $x$:** $x^1$
+* **From $(x^2 - 4)$:** $x^2$
+* **From $(x + 3)$:** $x^1$
+
+**Leading Term Calculation:**
+$$(-5) \cdot (x^1) \cdot (x^2) \cdot (x^1) = \mathbf{-5x^4}$$
+
+* **Degree ($n$):** **4** (Quartic).
+* **Leading Coefficient ($a_n$):** **$-5$** (Negative).
+
+---
+
+#### 2. Max Turning Points (TP) & End Behavior
+* **Max Turning Points:** $n - 1 = 4 - 1 = \mathbf{3}$.
+* **End Behavior:**
+    * Since the degree is **Even (4)**, the tails point in the **Same** direction.
+    * Since the leading coefficient is **Negative (-5)**, both tails point **Down**.
+    * 
+    * **Notation:** As $x \to \pm\infty, f(x) \to -\infty$.
+
+---
+
+#### 3. Intercepts and Multiplicity
+Using the fully factored form $f(x) = -5x(x - 2)(x + 2)(x + 3)$:
+
+| Factor | Zero ($x$) | Multiplicity | Behavior on Graph |
+| :--- | :--- | :--- | :--- |
+| $-5x$ | **$0$** | $1$ (Odd) | **Cross** (Straight through) |
+| $(x - 2)$ | **$2$** | $1$ (Odd) | **Cross** (Straight through) |
+| $(x + 2)$ | **$-2$** | $1$ (Odd) | **Cross** (Straight through) |
+| $(x + 3)$ | **$-3$** | $1$ (Odd) | **Cross** (Straight through) |
+
+**Y-Intercept:**
+Evaluate at $f(0)$:
+$$f(0) = -5(0)(0^2 - 4)(0 + 3) = \mathbf{0}$$
+The y-intercept is at **$(0, 0)$**.
+
+---
+
+#### 4. Step-by-Step Graphing Instructions
+
+1.  **Plot the Intercepts:** Mark points at $x = -3, -2, 0, \text{ and } 2$ on the x-axis.
+2.  **Draw the Tails:** Draw arrows pointing **Down** from the far left (past $-3$) and the far right (past $2$).
+3.  **Navigate from Left to Right:**
+    * **At $x = -3$:** Approach from the bottom-left and **Cross** the axis moving upward.
+    * **At $x = -2$:** Turn back down and **Cross** the axis moving downward.
+    * **At $x = 0$:** Turn back up and **Cross** the axis moving upward through the origin.
+    * **At $x = 2$:** Turn back down one last time and **Cross** the axis moving downward.
+    * **Final Path:** Continue downward to meet the right-side tail pointing to negative infinity.
 
 
 
 ---
 
 > [!abstract] Algebra Takeaway
-> The term $(1-x)$ is a common "trick" in polynomial problems. Because the $x$ is negative, it flips the entire cubic graph upside down. Always check the sign of the variable inside each set of parentheses when calculating your leading term.
+> Because every single zero in this function has a multiplicity of 1, the graph is a classic "W" shape (flipped upside down into an "M" shape). There are no bounces or flat spots; the graph simply weaves in and out of the x-axis four times.
