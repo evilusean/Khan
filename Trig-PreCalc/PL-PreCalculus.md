@@ -5346,7 +5346,6 @@ Instead of fully distributing a complex factored polynomial, use "fake distribut
 * **Y-intercept:** Evaluate the function at $f(0)$. You do not need the standard form; just plug zero into the factored version. [00:09:32]
 * **X-intercepts (Zeros):** Set each factor containing a variable equal to zero. [00:10:45]
     * **Note on Irreducible Quadratics:** Factors like $(x^2 + 9)$ yield no real x-intercepts and often represent "hidden" turning points that don't touch the axis. [00:13:35]
-
 ---
 #### 3. Multiplicity & Axis Behavior
 The exponent of each factor (the multiplicity) dictates how the graph interacts with the x-axis at that specific zero. [00:14:46]
@@ -5370,3 +5369,77 @@ To avoid common sketching errors, Professor Leonard suggests placing a **vertica
 ---
 > [!tip] Final Check
 > Everything must "mesh." If your end behavior says the graph should end pointing up, but your last intercept is a bounce that keeps you pointing down, you have likely made a sign error or miscalculated a multiplicity. [00:19:52]
+
+### Analysis and Sketching of h(x) = -2(x - 7)(x + 1/2)²(x + 4)³(x² + 9)²
+
+To analyze this complex polynomial for your Obsidian notes, we break it down into its core properties using the "Fake Distribution" method and intercept analysis.
+
+---
+
+#### 1. Finding the Leading Term & Degree
+Instead of multiplying everything out, take the leading term from each factor and account for the exponents.
+
+* **Constant Multiplier:** $-2$
+* **From $(x - 7)$:** $x^1$
+* **From $(x + 1/2)^2$:** $x^2$
+* **From $(x + 4)^3$:** $x^3$
+* **From $(x^2 + 9)^2$:** $(x^2)^2 = x^4$
+
+**Leading Term Calculation:**
+$$(-2) \cdot (x^1) \cdot (x^2) \cdot (x^3) \cdot (x^4) = \mathbf{-2x^{10}}$$
+
+* **Degree ($n$):** **10** (The sum of exponents: $1+2+3+4$).
+* **Leading Coefficient ($a_n$):** **$-2$**.
+
+---
+
+#### 2. Max Turning Points (TP) & End Behavior
+* **Max Turning Points:** $n - 1 = 10 - 1 = \mathbf{9}$.
+* **End Behavior:**
+    * Since the degree is **Even (10)**, the tails point in the **Same** direction.
+    * Since the leading coefficient is **Negative (-2)**, both tails point **Down**.
+    * **Notation:** As $x \to \pm\infty, f(x) \to -\infty$.
+
+
+
+---
+
+#### 3. Intercepts and Multiplicity
+To find the x-intercepts, set each factor to zero.
+
+| Factor | Zero ($x$) | Multiplicity | Behavior on Graph |
+| :--- | :--- | :--- | :--- |
+| $(x - 7)$ | **$7$** | $1$ (Odd) | **Cross** (Straight) |
+| $(x + 1/2)^2$ | **$-1/2$** | $2$ (Even) | **Bounce** (Parabolic) |
+| $(x + 4)^3$ | **$-4$** | $3$ (Odd) | **Cross** (Flattened/S-curve) |
+| $(x^2 + 9)^2$ | **None** | N/A | **Irreducible** (No real zeros) |
+
+*Note: The factor $(x^2+9)^2$ never equals zero for real numbers. It adds to the degree but does not create an x-intercept.*
+
+**Y-Intercept:**
+Plug in $x = 0$:
+$$h(0) = -2(0 - 7)(0 + 1/2)^2(0 + 4)^3(0^2 + 9)^2$$
+$$h(0) = -2(-7)(1/4)(64)(81)$$
+$$h(0) = 14 \cdot 16 \cdot 81 = \mathbf{18,144}$$
+The y-intercept is at **$(0, 18144)$**.
+
+---
+
+#### 4. Step-by-Step Graphing Instructions
+
+1.  **Plot the Intercepts:** Mark points at $x = -4$, $x = -1/2$, and $x = 7$ on the x-axis. Mark the y-intercept way up at $18,144$ (or just label it if the scale is tight).
+2.  **Draw the Tails:** From the leftmost intercept ($-4$) and rightmost intercept ($7$), draw arrows pointing **Down** into Quadrant III and Quadrant IV.
+3.  **Navigate from Left to Right:**
+    * **At $x = -4$:** Approach from below and **Cross** with an "S-curve" (flattening out).
+    * **Heading to $-1/2$:** The graph must turn back down toward the axis.
+    * **At $x = -1/2$:** Reach the axis and **Bounce** (touch and turn back down).
+    * **Heading to $y$-intercept:** Turn up to hit the y-axis at $18,144$.
+    * **Heading to $x = 7$:** Turn back toward the x-axis.
+    * **At $x = 7$:** **Cross** straight through the axis to meet the right-side tail pointing down.
+
+
+
+---
+
+> [!abstract] Algebra Takeaway
+> Even though this is a Degree 10 polynomial, it only touches the x-axis 3 times. The "missing" zeros from $(x^2+9)^2$ mean the graph has complex turns or "wiggles" in the coordinate plane that don't result in intercepts. Always trust your **End Behavior** and **Multiplicity** to guide the flow of the sketch.
