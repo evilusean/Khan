@@ -5660,3 +5660,64 @@ The y-intercept is at **$(0, 0)$**.
 
 > [!abstract] Algebra Takeaway
 > Because every single zero in this function has a multiplicity of 1, the graph is a classic "W" shape (flipped upside down into an "M" shape). There are no bounces or flat spots; the graph simply weaves in and out of the x-axis four times.
+
+### Analysis and Sketching of g(x) = 2(x - 1)²(x² - 16)
+
+To analyze this polynomial for your Obsidian notes, we first identify that the term $(x^2 - 16)$ is a **Difference of Squares**. Fully factoring the function is the most reliable way to determine intercepts and multiplicity.
+
+**Factored Form:**
+$$g(x) = 2(x - 1)^2(x - 4)(x + 4)$$
+
+---
+#### 1. Finding the Leading Term & Degree
+Multiply the leading coefficient by the highest power of $x$ from each individual factor.
+
+* **Constant Multiplier:** $2$
+* **From $(x - 1)^2$:** $x^2$
+* **From $(x^2 - 16)$:** $x^2$
+
+**Leading Term Calculation:**
+$$(2) \cdot (x^2) \cdot (x^2) = \mathbf{2x^4}$$
+
+* **Degree ($n$):** **4** (Quartic).
+* **Leading Coefficient ($a_n$):** **$2$** (Positive).
+
+---
+#### 2. Max Turning Points (TP) & End Behavior
+* **Max Turning Points:** $n - 1 = 4 - 1 = \mathbf{3}$.
+* **End Behavior:**
+    * Since the degree is **Even (4)**, the tails point in the **Same** direction.
+    * Since the leading coefficient is **Positive (2)**, both tails point **Up**.
+    * 
+    * **Notation:** As $x \to \pm\infty, g(x) \to \infty$.
+
+---
+#### 3. Intercepts and Multiplicity
+Using the fully factored form $g(x) = 2(x - 1)^2(x - 4)(x + 4)$:
+
+| Factor | Zero ($x$) | Multiplicity | Behavior on Graph |
+| :--- | :--- | :--- | :--- |
+| $(x - 1)^2$ | **$1$** | $2$ (Even) | **Bounce** (Parabolic touch) |
+| $(x - 4)$ | **$4$** | $1$ (Odd) | **Cross** (Straight through) |
+| $(x + 4)$ | **$-4$** | $1$ (Odd) | **Cross** (Straight through) |
+
+**Y-Intercept:**
+Evaluate at $g(0)$:
+$$g(0) = 2(0 - 1)^2(0^2 - 16)$$
+$$g(0) = 2(1)(-16) = \mathbf{-32}$$
+The y-intercept is at **$(0, -32)$**.
+
+---
+#### 4. Step-by-Step Graphing Instructions
+
+1.  **Plot the Intercepts:** Mark points at $x = -4, 1, \text{ and } 4$ on the x-axis, and $y = -32$ on the y-axis.
+2.  **Draw the Tails:** Draw arrows pointing **Up** from the far left (past $-4$) and the far right (past $4$).
+3.  **Navigate from Left to Right:**
+    * **At $x = -4$:** Approach from the top-left and **Cross** the axis moving downward into Quadrant III.
+    * **Pass through Y-intercept:** Continue downward to hit $(0, -32)$.
+    * **At $x = 1$:** Turn back up toward the axis. Because the multiplicity is **Even (2)**, the graph reaches the axis and **Bounces** back down into Quadrant IV.
+    * **At $x = 4$:** Turn back up one last time and **Cross** the axis moving upward.
+    * **Final Path:** Continue upward to meet the right-side tail pointing to positive infinity.
+---
+> [!abstract] Algebra Takeaway
+> This graph creates a "W" shape where one of the middle peaks just barely touches the x-axis. Always remember that the $x^2$ term in $(x^2-16)$ produces *two* separate roots with multiplicity 1, while the $(x-1)^2$ term produces *one* root with multiplicity 2.
