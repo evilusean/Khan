@@ -5753,3 +5753,53 @@ Synthetic division is a shorthand "algorithm" using only coefficients. It is muc
 If division results in a remainder $R \neq 0$:
 * The divisor is **not** a factor.
 * The final answer is written as: $\text{Quotient} + \frac{\text{Remainder}}{\text{Divisor}}$. [00:46:39]
+### Polynomial Long Division: f(x) = 2x³ - x² + 2x - 3 divided by (x - 1)
+
+To solve this for your Obsidian notes, we will divide the cubic polynomial $2x^3 - x^2 + 2x - 3$ by the linear factor $(x - 1)$.
+
+---
+
+#### 1. Setup
+Write the dividend ($2x^3 - x^2 + 2x - 3$) under the division symbol and the divisor ($x - 1$) to the left.
+
+
+
+---
+
+#### 2. Long Division Steps
+
+**Step 1: Divide the first terms**
+* Divide $2x^3$ by $x$ to get **$2x^2$**. Place this above the $x^2$ term.
+* Multiply $2x^2$ by $(x - 1)$ to get $2x^3 - 2x^2$.
+* Subtract $(2x^3 - 2x^2)$ from $(2x^3 - x^2)$.
+* *Note:* $-x^2 - (-2x^2) = \mathbf{x^2}$.
+* Bring down the next term ($+2x$).
+
+**Step 2: Divide the new first term**
+* Divide $x^2$ by $x$ to get **$+x$**. Place this above the $x$ term.
+* Multiply $x$ by $(x - 1)$ to get $x^2 - x$.
+* Subtract $(x^2 - x)$ from $(x^2 + 2x)$.
+* *Note:* $2x - (-x) = \mathbf{3x}$.
+* Bring down the final term ($-3$).
+
+**Step 3: Divide the final first term**
+* Divide $3x$ by $x$ to get **$+3$**. Place this above the constant term.
+* Multiply $3$ by $(x - 1)$ to get $3x - 3$.
+* Subtract $(3x - 3)$ from $(3x - 3)$.
+* *Note:* $3x - 3 - (3x - 3) = \mathbf{0}$.
+
+---
+
+#### 3. Final Result
+Since the remainder is **0**, we know that $(x - 1)$ is a factor of $f(x)$.
+
+**Quotient:** $2x^2 + x + 3$
+**Remainder:** $0$
+
+**Factored Form:**
+$$f(x) = (x - 1)(2x^2 + x + 3)$$
+
+---
+
+> [!abstract] Algebra Takeaway
+> Because the remainder is zero, the **Factor Theorem** confirms that $x = 1$ is a root (x-intercept) of the polynomial. To find the remaining zeros, you would now apply the Quadratic Formula to the quotient $2x^2 + x + 3$.
