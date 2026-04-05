@@ -5976,7 +5976,6 @@ $$3x^5 - 9x^4 + 27x^3 + x^2 - 3x + 9$$
 This note demonstrates three different methods to find the value of a polynomial at a given $x$ and the resulting quotient when divided by a linear factor.
 
 ---
-
 #### 1. Method 1: Evaluating (Plugging In)
 The **Remainder Theorem** states that $f(c)$ is equal to the remainder of the division.
 
@@ -5987,7 +5986,6 @@ $$f(2) = 20 - 16 + 4$$
 $$f(2) = \mathbf{8}$$
 
 ---
-
 #### 2. Method 2: Polynomial Long Division
 We divide $4x^3 - 3x^2 - 8x + 4$ by $(x - 2)$.
 
@@ -6006,7 +6004,6 @@ We divide $4x^3 - 3x^2 - 8x + 4$ by $(x - 2)$.
 **Remainder:** $8$
 
 ---
-
 #### 3. Method 3: Synthetic Division
 Using the zero $x = 2$ and the coefficients $[4, -3, -8, 4]$.
 
