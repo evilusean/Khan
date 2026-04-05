@@ -5879,3 +5879,65 @@ $$2x^2 + x + 3$$
 > [!abstract] Algebra Takeaway
 > Synthetic division is significantly faster than long division because it replaces subtraction with addition and ignores the variables ($x$) until the very end. Since the remainder is $0$, we have confirmed that $f(1) = 0$ and $(x - 1)$ is a perfect factor of the polynomial.
 
+### Polynomial Long Division: g(x) = 3x⁶ + 82x³ + 27 divided by (x + 3)
+
+To solve this for your Obsidian notes, we must account for every power of $x$ from $6$ down to $0$. Missing terms must be represented as $0$ to maintain column alignment.
+
+---
+
+#### 1. Setup with Placeholders
+The dividend is $3x^6 + 0x^5 + 0x^4 + 82x^3 + 0x^2 + 0x + 27$.
+The divisor is $x + 3$.
+
+
+
+---
+
+#### 2. Long Division Steps
+
+**Cycle 1:**
+* Divide $3x^6$ by $x = \mathbf{3x^5}$.
+* Multiply $3x^5(x+3) = 3x^6 + 9x^5$.
+* Subtract: $(0x^5) - (9x^5) = \mathbf{-9x^5}$. Bring down $0x^4$.
+
+**Cycle 2:**
+* Divide $-9x^5$ by $x = \mathbf{-9x^4}$.
+* Multiply $-9x^4(x+3) = -9x^5 - 27x^4$.
+* Subtract: $(0x^4) - (-27x^4) = \mathbf{27x^4}$. Bring down $82x^3$.
+
+**Cycle 3:**
+* Divide $27x^4$ by $x = \mathbf{27x^3}$.
+* Multiply $27x^3(x+3) = 27x^4 + 81x^3$.
+* Subtract: $(82x^3) - (81x^3) = \mathbf{x^3}$. Bring down $0x^2$.
+
+**Cycle 4:**
+* Divide $x^3$ by $x = \mathbf{x^2}$.
+* Multiply $x^2(x+3) = x^3 + 3x^2$.
+* Subtract: $(0x^2) - (3x^2) = \mathbf{-3x^2}$. Bring down $0x$.
+
+**Cycle 5:**
+* Divide $-3x^2$ by $x = \mathbf{-3x}$.
+* Multiply $-3x(x+3) = -3x^2 - 9x$.
+* Subtract: $(0x) - (-9x) = \mathbf{9x}$. Bring down $27$.
+
+**Cycle 6:**
+* Divide $9x$ by $x = \mathbf{9}$.
+* Multiply $9(x+3) = 9x + 27$.
+* Subtract: $(27) - (27) = \mathbf{0}$.
+
+---
+
+#### 3. Final Result
+Since the remainder is **0**, $(x+3)$ is a perfect factor.
+
+**Quotient:**
+$$3x^5 - 9x^4 + 27x^3 + x^2 - 3x + 9$$
+
+**Factored Form:**
+$$g(x) = (x + 3)(3x^5 - 9x^4 + 27x^3 + x^2 - 3x + 9)$$
+
+---
+
+> [!abstract] Algebra Takeaway
+> When dealing with large gaps in exponents (like $x^6$ jumping to $x^3$), placeholders are non-negotiable. Without them, your subtraction steps will align unlike terms (e.g., trying to subtract $x^5$ from $x^6$), which is the most common cause of failure in polynomial division.
+
