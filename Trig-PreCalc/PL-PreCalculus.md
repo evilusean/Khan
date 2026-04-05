@@ -5724,4 +5724,36 @@ The y-intercept is at **$(0, -32)$**.
 
 ## 2026-April-05 - Synthetic Division and Long Division of Polynomials (Precalculus - College Algebra 32) :
 https://www.youtube.com/watch?v=AKJgo-WR_K4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=34
+### Summary: Synthetic Division and Long Division of Polynomials
 
+The core purpose of polynomial division is to factor higher-degree polynomials and find their x-intercepts (zeros). This becomes essential when using the **Rational Zeros Theorem** to break down complex functions.
+
+#### 1. Core Theorems
+* **Factor Theorem:** If a polynomial $f(x)$ is divided by $(x - c)$ and the remainder is $0$, then $(x - c)$ is a factor of the polynomial. [00:01:20]
+* **Remainder Theorem:** If you evaluate a function at a specific value, $f(c)$, the result is exactly the same as the remainder you would get by dividing the polynomial by $(x - c)$. [00:06:36]
+
+#### 2. Long Division of Polynomials
+Long division is the "robust" method. It works regardless of the divisor's degree (linear, quadratic, etc.) or its leading coefficient. [00:11:36]
+
+* **Setup:** Ensure the dividend is in descending order. Use "0" as a placeholder for any missing powers of $x$ (e.g., if there is no $x^2$ term, write $0x^2$). [00:08:10]
+* **Process:**
+    1. Divide the first term of the dividend by the first term of the divisor. [00:12:04]
+    2. Multiply the result by the entire divisor. [00:12:34]
+    3. **Subtract** the result from the dividend. (Crucial: Subtracting a polynomial flips the signs of all terms in that row). [00:13:37]
+    4. Bring down the next term and repeat until the remainder's degree is less than the divisor's.
+
+#### 3. Synthetic Division
+Synthetic division is a shorthand "algorithm" using only coefficients. It is much faster but **only works** if the divisor is in the form $(x - c)$ (linear with a leading coefficient of 1). [00:10:59]
+
+* **Process:**
+    1. List the coefficients of the polynomial (including 0s for missing terms). [00:22:03]
+    2. Use the x-intercept value ($c$) outside the division box, not the factor $(x - c)$. [00:22:31]
+    3. Bring down the first coefficient. [00:23:35]
+    4. Multiply the value outside by the value at the bottom, place it under the next coefficient, and **add**. [00:24:34]
+    5. The final number in the row is the **Remainder**. [00:25:07]
+    6. The remaining numbers represent the coefficients of the quotient, which will be one degree lower than the original polynomial. [00:25:55]
+
+#### 4. Handling Non-Zero Remainders
+If division results in a remainder $R \neq 0$:
+* The divisor is **not** a factor.
+* The final answer is written as: $\text{Quotient} + \frac{\text{Remainder}}{\text{Divisor}}$. [00:46:39]
