@@ -5722,5 +5722,6 @@ The y-intercept is at **$(0, -32)$**.
 > [!abstract] Algebra Takeaway
 > This graph creates a "W" shape where one of the middle peaks just barely touches the x-axis. Always remember that the $x^2$ term in $(x^2-16)$ produces *two* separate roots with multiplicity 1, while the $(x-1)^2$ term produces *one* root with multiplicity 2.
 
-## 2026-April-04 - Synthetic Division and Long Division of Polynomials (Precalculus - College Algebra 32) :
+## 2026-April-05 - Synthetic Division and Long Division of Polynomials (Precalculus - College Algebra 32) :
 https://www.youtube.com/watch?v=AKJgo-WR_K4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=34
+
