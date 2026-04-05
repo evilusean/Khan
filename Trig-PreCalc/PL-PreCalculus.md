@@ -5884,15 +5884,11 @@ $$2x^2 + x + 3$$
 To solve this for your Obsidian notes, we must account for every power of $x$ from $6$ down to $0$. Missing terms must be represented as $0$ to maintain column alignment.
 
 ---
-
 #### 1. Setup with Placeholders
 The dividend is $3x^6 + 0x^5 + 0x^4 + 82x^3 + 0x^2 + 0x + 27$.
 The divisor is $x + 3$.
 
-
-
 ---
-
 #### 2. Long Division Steps
 
 **Cycle 1:**
@@ -5926,7 +5922,6 @@ The divisor is $x + 3$.
 * Subtract: $(27) - (27) = \mathbf{0}$.
 
 ---
-
 #### 3. Final Result
 Since the remainder is **0**, $(x+3)$ is a perfect factor.
 
