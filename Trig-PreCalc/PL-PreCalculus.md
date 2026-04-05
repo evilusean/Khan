@@ -5753,6 +5753,60 @@ Synthetic division is a shorthand "algorithm" using only coefficients. It is muc
 If division results in a remainder $R \neq 0$:
 * The divisor is **not** a factor.
 * The final answer is written as: $\text{Quotient} + \frac{\text{Remainder}}{\text{Divisor}}$. [00:46:39]
+
+### Polynomial Long Division: The "Divide, Multiply, Subtract, Bring Down" Cycle
+
+Polynomial long division is identical to the long division you learned in grade school (e.g., $742 \div 3$). The only difference is that you are tracking powers of $x$ instead of place values like tens or hundreds.
+
+Think of it as a four-step loop that you repeat until you run out of terms.
+
+---
+
+#### 1. The Setup
+* **Dividend:** The polynomial inside the "house" (e.g., $2x^3 - x^2 + 2x - 3$).
+* **Divisor:** The factor outside the house (e.g., $x - 1$).
+* **Crucial Rule:** If a power of $x$ is missing (like if there is no $x^2$), you **must** write it as $0x^2$. This keeps your columns aligned.
+
+
+
+---
+
+#### 2. The Four-Step Loop (DMSB)
+
+**Step A: Divide (First terms only)**
+Look **only** at the first term of the divisor ($x$) and the first term of the dividend ($2x^3$). Ask: *"How many times does $x$ go into $2x^3$?"* or *"What is $2x^3 \div x$?"*
+* **Result:** $2x^2$. Place this on top of the house.
+
+**Step B: Multiply (The whole divisor)**
+Multiply your new result ($2x^2$) by the **entire** divisor $(x - 1)$. 
+* **Result:** $2x^2(x) - 2x^2(1) = 2x^3 - 2x^2$. Write this underneath the dividend.
+
+**Step C: Subtract (The "Danger Zone")**
+Subtract the line you just wrote from the line above it. 
+* **Pro Tip:** Draw a line, change the signs of the bottom row, and then add. This prevents the common mistake of forgetting to distribute the negative.
+* **Goal:** The first terms ($2x^3 - 2x^3$) **must** cancel out to zero.
+
+**Step D: Bring Down**
+Bring down the next term from the original dividend and start the loop over at Step A.
+
+
+
+---
+
+#### 3. When are you finished?
+You stop when the term you "bring down" has a lower degree than your divisor. 
+* If you have a number left over (like $5$), that is your **Remainder**. 
+* You write the remainder as a fraction: $\frac{5}{\text{divisor}}$.
+
+---
+
+#### 4. Mental Model: "The Lead Term is King"
+Don't let the $(x - 1)$ or $(x + 5)$ intimidate you. When you are **dividing**, you only care about the $x$. The rest of the divisor (the $-1$ or $+5$) only matters during the **multiplication** and **subtraction** steps. 
+
+> [!abstract] Algebra Takeaway
+> If your first terms aren't canceling out to zero during the **Subtract** step, you either divided incorrectly in Step A or forgot to flip your signs in Step C. 
+
+Does the "DMSB" loop make sense, or should we walk through a specific problem one tiny step at a time?
 ### Polynomial Long Division: f(x) = 2x³ - x² + 2x - 3 divided by (x - 1)
 
 To solve this for your Obsidian notes, we will divide the cubic polynomial $2x^3 - x^2 + 2x - 3$ by the linear factor $(x - 1)$.
@@ -5798,3 +5852,4 @@ $$f(x) = (x - 1)(2x^2 + x + 3)$$
 
 > [!abstract] Algebra Takeaway
 > Because the remainder is zero, the **Factor Theorem** confirms that $x = 1$ is a root (x-intercept) of the polynomial. To find the remaining zeros, you would now apply the Quadratic Formula to the quotient $2x^2 + x + 3$.
+
