@@ -5970,3 +5970,57 @@ $$3x^5 - 9x^4 + 27x^3 + x^2 - 3x + 9$$
 
 > [!abstract] Algebra Takeaway
 > Synthetic division is much more efficient than long division for high-degree polynomials, but its success depends entirely on the **zero placeholders**. If you missed even one $0$ in the coefficient row, the entire multiplication chain would have collapsed.
+
+### Problem: Evaluate and Divide $f(x) = 4x^3 - 3x^2 - 8x + 4$ at $x = 2$
+
+This note demonstrates three different methods to find the value of a polynomial at a given $x$ and the resulting quotient when divided by a linear factor.
+
+---
+
+#### 1. Method 1: Evaluating (Plugging In)
+The **Remainder Theorem** states that $f(c)$ is equal to the remainder of the division.
+
+$$f(2) = 4(2)^3 - 3(2)^2 - 8(2) + 4$$
+$$f(2) = 4(8) - 3(4) - 16 + 4$$
+$$f(2) = 32 - 12 - 16 + 4$$
+$$f(2) = 20 - 16 + 4$$
+$$f(2) = \mathbf{8}$$
+
+---
+
+#### 2. Method 2: Polynomial Long Division
+We divide $4x^3 - 3x^2 - 8x + 4$ by $(x - 2)$.
+
+
+1.  **Divide $4x^3$ by $x$:** Result is **$4x^2$**.
+    * Multiply $4x^2(x - 2) = 4x^3 - 8x^2$.
+    * Subtract: $(-3x^2) - (-8x^2) = \mathbf{5x^2}$. Bring down $-8x$.
+2.  **Divide $5x^2$ by $x$:** Result is **$+5x$**.
+    * Multiply $5x(x - 2) = 5x^2 - 10x$.
+    * Subtract: $(-8x) - (-10x) = \mathbf{2x}$. Bring down $+4$.
+3.  **Divide $2x$ by $x$:** Result is **$+2$**.
+    * Multiply $2(x - 2) = 2x - 4$.
+    * Subtract: $(4) - (-4) = \mathbf{8}$.
+
+**Quotient:** $4x^2 + 5x + 2$
+**Remainder:** $8$
+
+---
+
+#### 3. Method 3: Synthetic Division
+Using the zero $x = 2$ and the coefficients $[4, -3, -8, 4]$.
+
+
+1.  **Bring down the 4.**
+2.  **Multiply & Add:** $2 \times 4 = 8$. Add $-3 + 8 = \mathbf{5}$.
+3.  **Multiply & Add:** $2 \times 5 = 10$. Add $-8 + 10 = \mathbf{2}$.
+4.  **Multiply & Add:** $2 \times 2 = 4$. Add $4 + 4 = \mathbf{8}$.
+
+**Result Row:** $4, 5, 2 \mid 8$
+**Quotient:** $4x^2 + 5x + 2$
+**Remainder:** $8$
+
+---
+
+> [!abstract] Algebra Takeaway
+> All three methods confirm the same result: the remainder is **8**. This means $(x - 2)$ is **not** a factor of the polynomial, and the coordinate $(2, 8)$ exists on the graph of $f(x)$.
