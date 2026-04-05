@@ -5941,15 +5941,10 @@ $$g(x) = (x + 3)(3x^5 - 9x^4 + 27x^3 + x^2 - 3x + 9)$$
 Since we are dividing by $(x + 3)$, the zero we use for synthetic division is **$x = -3$**. Because the polynomial jumps from $x^6$ to $x^3$, we **must** use zero placeholders for the missing $x^5, x^4, x^2,$ and $x^1$ terms.
 
 ---
-
 #### 1. Setup
 * **The Zero:** Place **$-3$** in the box.
 * **The Coefficients:** $3$ ($x^6$), $0$ ($x^5$), $0$ ($x^4$), $82$ ($x^3$), $0$ ($x^2$), $0$ ($x$), $27$ (constant).
-
-
-
 ---
-
 #### 2. The Synthetic Division Process
 
 1.  **Bring Down:** Drop the **$3$** to the bottom row.
@@ -5961,7 +5956,6 @@ Since we are dividing by $(x + 3)$, the zero we use for synthetic division is **
 7.  **Multiply & Add:** $(-3 \times 9) = -27$. Add $27 + (-27) = \mathbf{0}$.
 
 ---
-
 #### 3. Interpreting the Result
 The degree of the quotient is always one less than the dividend ($x^6 \to x^5$).
 
