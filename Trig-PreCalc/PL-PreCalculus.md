@@ -5761,16 +5761,12 @@ Polynomial long division is identical to the long division you learned in grade 
 Think of it as a four-step loop that you repeat until you run out of terms.
 
 ---
-
 #### 1. The Setup
 * **Dividend:** The polynomial inside the "house" (e.g., $2x^3 - x^2 + 2x - 3$).
 * **Divisor:** The factor outside the house (e.g., $x - 1$).
 * **Crucial Rule:** If a power of $x$ is missing (like if there is no $x^2$), you **must** write it as $0x^2$. This keeps your columns aligned.
 
-
-
 ---
-
 #### 2. The Four-Step Loop (DMSB)
 
 **Step A: Divide (First terms only)**
@@ -5789,17 +5785,13 @@ Subtract the line you just wrote from the line above it.
 **Step D: Bring Down**
 Bring down the next term from the original dividend and start the loop over at Step A.
 
-
-
 ---
-
 #### 3. When are you finished?
 You stop when the term you "bring down" has a lower degree than your divisor. 
 * If you have a number left over (like $5$), that is your **Remainder**. 
 * You write the remainder as a fraction: $\frac{5}{\text{divisor}}$.
 
 ---
-
 #### 4. Mental Model: "The Lead Term is King"
 Don't let the $(x - 1)$ or $(x + 5)$ intimidate you. When you are **dividing**, you only care about the $x$. The rest of the divisor (the $-1$ or $+5$) only matters during the **multiplication** and **subtraction** steps. 
 
