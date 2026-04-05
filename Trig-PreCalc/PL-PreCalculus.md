@@ -5758,14 +5758,10 @@ If division results in a remainder $R \neq 0$:
 To solve this for your Obsidian notes, we will divide the cubic polynomial $2x^3 - x^2 + 2x - 3$ by the linear factor $(x - 1)$.
 
 ---
-
 #### 1. Setup
 Write the dividend ($2x^3 - x^2 + 2x - 3$) under the division symbol and the divisor ($x - 1$) to the left.
 
-
-
 ---
-
 #### 2. Long Division Steps
 
 **Step 1: Divide the first terms**
@@ -5789,7 +5785,6 @@ Write the dividend ($2x^3 - x^2 + 2x - 3$) under the division symbol and the div
 * *Note:* $3x - 3 - (3x - 3) = \mathbf{0}$.
 
 ---
-
 #### 3. Final Result
 Since the remainder is **0**, we know that $(x - 1)$ is a factor of $f(x)$.
 
