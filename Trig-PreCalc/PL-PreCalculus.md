@@ -5797,8 +5797,6 @@ Don't let the $(x - 1)$ or $(x + 5)$ intimidate you. When you are **dividing**, 
 
 > [!abstract] Algebra Takeaway
 > If your first terms aren't canceling out to zero during the **Subtract** step, you either divided incorrectly in Step A or forgot to flip your signs in Step C. 
-
-Does the "DMSB" loop make sense, or should we walk through a specific problem one tiny step at a time?
 ### Polynomial Long Division: f(x) = 2x³ - x² + 2x - 3 divided by (x - 1)
 
 To solve this for your Obsidian notes, we will divide the cubic polynomial $2x^3 - x^2 + 2x - 3$ by the linear factor $(x - 1)$.
@@ -5845,3 +5843,47 @@ $$f(x) = (x - 1)(2x^2 + x + 3)$$
 > [!abstract] Algebra Takeaway
 > Because the remainder is zero, the **Factor Theorem** confirms that $x = 1$ is a root (x-intercept) of the polynomial. To find the remaining zeros, you would now apply the Quadratic Formula to the quotient $2x^2 + x + 3$.
 
+### Synthetic Division: f(x) = 2x³ - x² + 2x - 3 divided by (x - 1)
+
+Since we are dividing by a linear factor where the zero is $x = 1$, we can use synthetic division. This method is a shortcut that uses only the coefficients of the polynomial.
+
+---
+
+#### 1. Setup
+* **The Zero ($c$):** Put $1$ in the small box on the left.
+* **The Coefficients:** List the coefficients of $2x^3 - x^2 + 2x - 3$ in a row: $2, -1, 2, -3$.
+* **The Line:** Leave a blank row and draw a horizontal line underneath.
+
+
+
+---
+
+#### 2. The Synthetic Division Process
+
+1.  **Bring Down:** Drop the first coefficient ($2$) straight below the line.
+2.  **Multiply:** Multiply the $1$ (in the box) by the $2$ (at the bottom). Place the result ($2$) under the next coefficient ($-1$).
+3.  **Add:** Add $-1 + 2$ to get **$1$**. Write this at the bottom.
+4.  **Multiply:** Multiply the $1$ (in the box) by the new $1$ (at the bottom). Place the result ($1$) under the next coefficient ($2$).
+5.  **Add:** Add $2 + 1$ to get **$3$**. Write this at the bottom.
+6.  **Multiply:** Multiply the $1$ (in the box) by the $3$ (at the bottom). Place the result ($3$) under the final coefficient ($-3$).
+7.  **Add:** Add $-3 + 3$ to get **$0$**. Write this at the bottom.
+
+
+
+---
+
+#### 3. Interpreting the Result
+The numbers at the bottom row represent the coefficients of the quotient and the remainder.
+
+* **Bottom Row:** $2, 1, 3 \mid 0$
+* **The Quotient:** Start one degree lower than the original ($x^3 \rightarrow x^2$).
+  * **$2x^2 + 1x + 3$**
+* **The Remainder:** The final number is **$0$**.
+
+**Final Answer:**
+$$2x^2 + x + 3$$
+
+---
+
+> [!abstract] Algebra Takeaway
+> Synthetic division is significantly faster than long division because it replaces subtraction with addition and ignores the variables ($x$) until the very end. Since the remainder is $0$, we have confirmed that $f(1) = 0$ and $(x - 1)$ is a perfect factor of the polynomial.
