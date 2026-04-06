@@ -6075,7 +6075,6 @@ Descartes' Rule is most powerful when it results in **zero sign changes**. [00:2
 This method allows us to determine the possible number of positive and negative real zeros by analyzing sign changes in the coefficients.
 
 ---
-
 #### 1. Finding Possible Positive Real Zeros
 We look at the sign changes in the original function $f(x)$.
 
@@ -6090,10 +6089,7 @@ We look at the sign changes in the original function $f(x)$.
 **Possible Positive Real Zeros:** **3 or 1**
 *(We take the number of changes and subtract by an even integer: $3, 3-2=1$.)*
 
-
-
 ---
-
 #### 2. Finding Possible Negative Real Zeros
 We evaluate $f(-x)$. A shortcut is to **flip the signs of terms with odd exponents** and keep the signs of even exponents and constants the same.
 
@@ -6114,7 +6110,6 @@ We evaluate $f(-x)$. A shortcut is to **flip the signs of terms with odd exponen
 *(We take the number of changes and subtract by an even integer: $2, 2-2=0$.)*
 
 ---
-
 #### 3. Summary Table of Zeros
 Since the degree of the polynomial is **7**, there must be a total of 7 zeros (including real and complex).
 
@@ -6129,3 +6124,4 @@ Since the degree of the polynomial is **7**, there must be a total of 7 zeros (i
 
 > [!abstract] Algebra Takeaway
 > Descartes' Rule tells us there is **at least one** positive real zero for this function. Because there is a possibility of **0** negative real zeros, if you were using synthetic division to test roots, it would be statistically smarter to test positive numbers first.
+
