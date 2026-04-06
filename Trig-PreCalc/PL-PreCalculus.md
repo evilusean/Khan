@@ -6024,3 +6024,56 @@ Using the zero $x = 2$ and the coefficients $[4, -3, -8, 4]$.
 
 ## 2026-April-06 - Descartes Rule of Signs (Precalculus - College Algebra 33) :
 https://www.youtube.com/watch?v=-AW6Y1bL4KU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=34
+### Summary: Descartes' Rule of Signs (Professor Leonard)
+
+Descartes' Rule of Signs is a technique used to determine the possible number of positive and negative real zeros (x-intercepts) a polynomial has. While it doesn't tell you exactly what the zeros are, it significantly narrows down your search when using the Rational Zeros Theorem. [00:00:19]
+
+---
+
+#### 1. The Core Rule: Positive Real Zeros
+To find the number of potential positive real zeros, look at the polynomial $f(x)$ in standard form (descending order). [00:02:18]
+
+* **Step:** Count the number of **sign changes** between consecutive non-zero coefficients. [00:02:53]
+* **Result:** The number of positive real zeros is either:
+    1.  Equal to the number of sign changes.
+    2.  Less than that number by an **even integer** (keep subtracting 2 until you reach 1 or 0). [00:04:08]
+
+**Example:** If there are 3 sign changes, there are either **3 or 1** positive real zeros. [00:05:19]
+
+---
+
+#### 2. The Core Rule: Negative Real Zeros
+To find the number of potential negative real zeros, you must first evaluate $f(-x)$. [00:10:11]
+
+* **The Shortcut:** Instead of fully plugging in $-x$, simply **change the signs of all terms with odd exponents**. Keep the even exponents and the constant term the same. [00:10:38]
+* **Step:** Count the sign changes in this new version, $f(-x)$. [00:11:56]
+* **Result:** The number of negative real zeros is equal to this count or less by an even integer. [00:13:02]
+
+
+---
+
+#### 3. Why Subtract by Two?
+The rule subtracts by 2 because non-real (complex) zeros always occur in **conjugate pairs**. If a potential x-intercept "disappears" from the graph, it is because it has become a pair of complex numbers that do not touch the x-axis (often caused by irreducible quadratics). [00:08:35, 00:15:12]
+
+---
+
+#### 4. The Power of "Zero Sign Changes"
+Descartes' Rule is most powerful when it results in **zero sign changes**. [00:22:36]
+* If $f(x)$ has 0 sign changes $\rightarrow$ **Zero positive real zeros.**
+* If $f(-x)$ has 0 sign changes $\rightarrow$ **Zero negative real zeros.** [00:22:53]
+* **Strategic Advantage:** If you know there are no negative zeros, you can ignore half of your list when testing numbers with synthetic division, saving a massive amount of time. [00:23:35]
+
+---
+
+#### 5. Logic Summary Table
+
+| Sign Changes in $f(x)$ | Possible Positive Zeros |
+| :--- | :--- |
+| 0 | 0 |
+| 1 | 1 |
+| 2 | 2 or 0 |
+| 3 | 3 or 1 |
+| 4 | 4, 2, or 0 |
+
+> [!abstract] Algebra Takeaway
+> Always ensure your polynomial is in **descending order** before counting. A degree $n$ polynomial has exactly $n$ total zeros (including complex ones); Descartes' Rule helps you categorize how many of those $n$ zeros are actually visible on the left or right side of the graph. [00:18:20]
