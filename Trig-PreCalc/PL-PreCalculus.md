@@ -6021,3 +6021,5 @@ Using the zero $x = 2$ and the coefficients $[4, -3, -8, 4]$.
 
 > [!abstract] Algebra Takeaway
 > All three methods confirm the same result: the remainder is **8**. This means $(x - 2)$ is **not** a factor of the polynomial, and the coordinate $(2, 8)$ exists on the graph of $f(x)$.
+
+## 2026-April-06 - Descartes Rule of Signs (Precalculus - College Algebra 33) :
