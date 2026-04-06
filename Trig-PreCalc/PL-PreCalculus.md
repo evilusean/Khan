@@ -6070,3 +6070,62 @@ Descartes' Rule is most powerful when it results in **zero sign changes**. [00:2
 > [!abstract] Algebra Takeaway
 > Always ensure your polynomial is in **descending order** before counting. A degree $n$ polynomial has exactly $n$ total zeros (including complex ones); Descartes' Rule helps you categorize how many of those $n$ zeros are actually visible on the left or right side of the graph. [00:18:20]
 
+### Descartes' Rule of Signs: f(x) = -4x⁷ + x³ - x² + 2
+
+This method allows us to determine the possible number of positive and negative real zeros by analyzing sign changes in the coefficients.
+
+---
+
+#### 1. Finding Possible Positive Real Zeros
+We look at the sign changes in the original function $f(x)$.
+
+**Function:** $f(x) = \mathbf{-}4x^7 \mathbf{+}x^3 \mathbf{-}x^2 \mathbf{+}2$
+
+* **Change 1:** From $-4x^7$ to $+x^3$ (Negative to Positive)
+* **Change 2:** From $+x^3$ to $-x^2$ (Positive to Negative)
+* **Change 3:** From $-x^2$ to $+2$ (Negative to Positive)
+
+**Total Sign Changes:** 3
+
+**Possible Positive Real Zeros:** **3 or 1**
+*(We take the number of changes and subtract by an even integer: $3, 3-2=1$.)*
+
+
+
+---
+
+#### 2. Finding Possible Negative Real Zeros
+We evaluate $f(-x)$. A shortcut is to **flip the signs of terms with odd exponents** and keep the signs of even exponents and constants the same.
+
+* $-4x^7$ (Odd exponent) $\rightarrow$ becomes **$+4x^7$**
+* $+x^3$ (Odd exponent) $\rightarrow$ becomes **$-x^3$**
+* $-x^2$ (Even exponent) $\rightarrow$ stays **$-x^2$**
+* $+2$ (Constant) $\rightarrow$ stays **$+2$**
+
+**Function $f(-x)$:** $f(-x) = \mathbf{+}4x^7 \mathbf{-}x^3 \mathbf{-}x^2 \mathbf{+}2$
+
+* **Change 1:** From $+4x^7$ to $-x^3$ (Positive to Negative)
+* **Change 2:** From $-x^2$ to $+2$ (Negative to Positive)
+* *Note: There is no change between $-x^3$ and $-x^2$.*
+
+**Total Sign Changes:** 2
+
+**Possible Negative Real Zeros:** **2 or 0**
+*(We take the number of changes and subtract by an even integer: $2, 2-2=0$.)*
+
+---
+
+#### 3. Summary Table of Zeros
+Since the degree of the polynomial is **7**, there must be a total of 7 zeros (including real and complex).
+
+| Positive Real | Negative Real | Complex (Imaginary) | Total |
+| :--- | :--- | :--- | :--- |
+| 3 | 2 | 2 | 7 |
+| 3 | 0 | 4 | 7 |
+| 1 | 2 | 4 | 7 |
+| 1 | 0 | 6 | 7 |
+
+---
+
+> [!abstract] Algebra Takeaway
+> Descartes' Rule tells us there is **at least one** positive real zero for this function. Because there is a possibility of **0** negative real zeros, if you were using synthetic division to test roots, it would be statistically smarter to test positive numbers first.
