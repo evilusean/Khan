@@ -6174,3 +6174,55 @@ The degree of the polynomial is **3**, so there are exactly 3 total zeros.
 
 > [!abstract] Algebra Takeaway
 > This is a very powerful result. Descartes' Rule tells us there are **no negative real zeros** for this function. When you move on to synthetic division or the Rational Zeros Theorem, you should **only test positive numbers**. Testing any negative number would be a waste of time.
+
+### Descartes' Rule of Signs: h(x) = 3x⁶ + 82x³ + 27
+
+This polynomial is already in standard form (descending order). We will now analyze the sign changes to determine the possible number of positive and negative real zeros.
+
+---
+
+#### 1. Finding Possible Positive Real Zeros
+Examine the sign changes in the original function $h(x)$.
+
+**Function:** $h(x) = \mathbf{+}3x^6 \mathbf{+}82x^3 \mathbf{+}27$
+
+* **Signs:** Positive, Positive, Positive.
+* **Changes:** There are **0** sign changes.
+
+**Possible Positive Real Zeros:** **0**
+
+
+
+---
+
+#### 2. Finding Possible Negative Real Zeros
+Evaluate $h(-x)$ by flipping the signs of terms with **odd exponents** (only $x^3$ in this case).
+
+* $+3x^6$ (Even exponent) $\rightarrow$ stays **$+3x^6$**
+* $+82x^3$ (Odd exponent) $\rightarrow$ becomes **$-82x^3$**
+* $+27$ (Constant) $\rightarrow$ stays **$+27$**
+
+**Function $h(-x)$:** $h(-x) = \mathbf{+}3x^6 \mathbf{-}82x^3 \mathbf{+}27$
+
+* **Change 1:** From $+3x^6$ to $-82x^3$ (Positive to Negative)
+* **Change 2:** From $-82x^3$ to $+27$ (Negative to Positive)
+
+**Total Sign Changes:** 2
+
+**Possible Negative Real Zeros:** **2 or 0**
+*(Subtract by 2 until you reach 0: $2, 0$.)*
+
+---
+
+#### 3. Summary Table of Zeros
+The degree of the polynomial is **6**, so there must be a total of 6 zeros.
+
+| Positive Real | Negative Real | Complex (Imaginary) | Total |
+| :--- | :--- | :--- | :--- |
+| 0 | 2 | 4 | 6 |
+| 0 | 0 | 6 | 6 |
+
+---
+
+> [!abstract] Algebra Takeaway
+> Descartes' Rule shows that this function has **no positive real zeros**. This is extremely helpful because when you look for roots, you can immediately discard every positive number from your list. Any real x-intercepts that exist **must** be on the negative side of the x-axis.
