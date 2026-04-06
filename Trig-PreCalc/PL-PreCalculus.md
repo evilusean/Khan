@@ -6180,7 +6180,6 @@ The degree of the polynomial is **3**, so there are exactly 3 total zeros.
 This polynomial is already in standard form (descending order). We will now analyze the sign changes to determine the possible number of positive and negative real zeros.
 
 ---
-
 #### 1. Finding Possible Positive Real Zeros
 Examine the sign changes in the original function $h(x)$.
 
@@ -6191,10 +6190,7 @@ Examine the sign changes in the original function $h(x)$.
 
 **Possible Positive Real Zeros:** **0**
 
-
-
 ---
-
 #### 2. Finding Possible Negative Real Zeros
 Evaluate $h(-x)$ by flipping the signs of terms with **odd exponents** (only $x^3$ in this case).
 
@@ -6213,7 +6209,6 @@ Evaluate $h(-x)$ by flipping the signs of terms with **odd exponents** (only $x^
 *(Subtract by 2 until you reach 0: $2, 0$.)*
 
 ---
-
 #### 3. Summary Table of Zeros
 The degree of the polynomial is **6**, so there must be a total of 6 zeros.
 
