@@ -6132,7 +6132,6 @@ Since the degree of the polynomial is **7**, there must be a total of 7 zeros (i
 **Standard Form:** $g(x) = 2x^3 - x^2 + 2x - 3$
 
 ---
-
 #### 1. Finding Possible Positive Real Zeros
 Examine the sign changes in $g(x)$.
 
@@ -6147,10 +6146,7 @@ Examine the sign changes in $g(x)$.
 **Possible Positive Real Zeros:** **3 or 1**
 *(Subtract by 2 until you reach 1 or 0: $3, 1$.)*
 
-
-
 ---
-
 #### 2. Finding Possible Negative Real Zeros
 Evaluate $g(-x)$ by flipping the signs of the terms with **odd exponents** ($x^3$ and $x^1$).
 
@@ -6166,7 +6162,6 @@ Evaluate $g(-x)$ by flipping the signs of the terms with **odd exponents** ($x^3
 **Possible Negative Real Zeros:** **0**
 
 ---
-
 #### 3. Summary Table of Zeros
 The degree of the polynomial is **3**, so there are exactly 3 total zeros.
 
