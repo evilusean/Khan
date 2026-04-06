@@ -6125,3 +6125,57 @@ Since the degree of the polynomial is **7**, there must be a total of 7 zeros (i
 > [!abstract] Algebra Takeaway
 > Descartes' Rule tells us there is **at least one** positive real zero for this function. Because there is a possibility of **0** negative real zeros, if you were using synthetic division to test roots, it would be statistically smarter to test positive numbers first.
 
+### Descartes' Rule of Signs: g(x) = -x² + 2x³ + 2x - 3
+
+**Important:** Before applying the rule, you must rewrite the polynomial in **Standard Form** (descending order of exponents).
+
+**Standard Form:** $g(x) = 2x^3 - x^2 + 2x - 3$
+
+---
+
+#### 1. Finding Possible Positive Real Zeros
+Examine the sign changes in $g(x)$.
+
+**Function:** $g(x) = \mathbf{+}2x^3 \mathbf{-}x^2 \mathbf{+}2x \mathbf{-}3$
+
+* **Change 1:** From $+2x^3$ to $-x^2$ (Positive to Negative)
+* **Change 2:** From $-x^2$ to $+2x$ (Negative to Positive)
+* **Change 3:** From $+2x$ to $-3$ (Positive to Negative)
+
+**Total Sign Changes:** 3
+
+**Possible Positive Real Zeros:** **3 or 1**
+*(Subtract by 2 until you reach 1 or 0: $3, 1$.)*
+
+
+
+---
+
+#### 2. Finding Possible Negative Real Zeros
+Evaluate $g(-x)$ by flipping the signs of the terms with **odd exponents** ($x^3$ and $x^1$).
+
+* $+2x^3$ (Odd exponent) $\rightarrow$ becomes **$-2x^3$**
+* $-x^2$ (Even exponent) $\rightarrow$ stays **$-x^2$**
+* $+2x$ (Odd exponent) $\rightarrow$ becomes **$-2x$**
+* $-3$ (Constant) $\rightarrow$ stays **$-3$**
+
+**Function $g(-x)$:** $g(-x) = \mathbf{-}2x^3 \mathbf{-}x^2 \mathbf{-}2x \mathbf{-}3$
+
+* **Changes:** There are **0** sign changes. Every term is negative.
+
+**Possible Negative Real Zeros:** **0**
+
+---
+
+#### 3. Summary Table of Zeros
+The degree of the polynomial is **3**, so there are exactly 3 total zeros.
+
+| Positive Real | Negative Real | Complex (Imaginary) | Total |
+| :--- | :--- | :--- | :--- |
+| 3 | 0 | 0 | 3 |
+| 1 | 0 | 2 | 3 |
+
+---
+
+> [!abstract] Algebra Takeaway
+> This is a very powerful result. Descartes' Rule tells us there are **no negative real zeros** for this function. When you move on to synthetic division or the Rational Zeros Theorem, you should **only test positive numbers**. Testing any negative number would be a waste of time.
