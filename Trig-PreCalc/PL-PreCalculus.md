@@ -6248,3 +6248,53 @@ For a polynomial in the form $f(x) = a_n x^n + \dots + a_0$:
 - **Irrational & Complex Zeros**: The theorem **only** finds rational zeros (integers or fractions). If the remaining factor is an irreducible quadratic like $(x^2 + 25)$ or $(x^2 - 7)$, the zeros will be imaginary or radical ($\pm 5i$ or $\pm \sqrt{7}$), which will not appear on the $\frac{p}{q}$ list.
 - **Fractional Zeros**: Synthetic division works with fractions (e.g., $1/2$), but be careful with the resulting coefficients and how they relate to the linear factor (e.g., $x - 1/2$ vs $2x - 1$).
 
+### Detailed Breakdown: Rational Zeros Theorem (The "p over q" Rule)
+
+#### 1. The Core Formula: $\frac{p}{q}$
+The theorem states that every rational zero (a zero that can be written as a fraction) **must** be a combination of:
+* **$p$**: All factors of the **Constant Term** (the number at the end).
+* **$q$**: All factors of the **Leading Coefficient** (the number in front of the highest power).
+
+**Possible Rational Zeros = $\pm \frac{\text{Factors of } p}{\text{Factors of } q}$**
+
+---
+
+#### 2. The Full Strategic Workflow
+This is the order Professor Leonard uses to solve these without wasting hours on "guess and check":
+
+1.  **List all possible $\frac{p}{q}$:** Write out every possible fraction. 
+    * *Example:* If $p=6$ and $q=2$, your list is $\pm \frac{1, 2, 3, 6}{1, 2}$, which simplifies to $\pm \{1, 2, 3, 6, \frac{1}{2}, \frac{3}{2}\}$.
+2.  **Apply Descartes' Rule of Signs:** (See previous notes). This tells you how many positive vs. negative zeros to expect.
+    * If the rule says "0 negative zeros," you instantly delete all negative numbers from your $\frac{p}{q}$ list.
+3.  **The "Low-Hanging Fruit" Test:** Before doing synthetic division, quickly plug $1$ and $-1$ into the function.
+    * If $f(1) = 0$, you found your first zero in 5 seconds.
+4.  **Synthetic Division (The Extraction):** Once you find a zero ($c$), perform synthetic division.
+    * The result is a **Depressed Polynomial** (one degree lower).
+    * **Crucial:** Always work off the *new* depressed polynomial for the next step, not the original.
+5.  **The Quadratic Finish Line:** Continue the process until you reach a **Degree 2** (Quadratic) polynomial.
+    * Once you hit $x^2$, stop using the theorem. Use the **Quadratic Formula** or **Factoring** to find the final two zeros (which might be irrational or imaginary).
+
+
+
+---
+
+#### 3. Advanced "Clutch" Tactics from the Video
+
+* **The Upper and Lower Bound Tests:** * If you do synthetic division with a positive number and the bottom row is all **positive**, that number is an "Upper Bound"—no zeros exist higher than that. Stop testing bigger numbers. [00:48:12]
+    * If you use a negative number and the bottom row **alternates signs** (+, -, +, -), that is a "Lower Bound." Stop testing smaller (more negative) numbers.
+* **Handling Fractions in Synthetic Division:**
+    * If your zero is $\frac{1}{2}$, your factor is $(x - \frac{1}{2})$. In your notes, you might want to write this as $(2x - 1)$ to keep the coefficients as integers. [01:05:22]
+* **Multiplicity (The Bounce):**
+    * If a zero works once, it might work again! If you have a depressed polynomial, test the same zero a second time before moving to a new number.
+
+---
+
+#### 4. Why the Theorem "Fails" Sometimes
+* **Irrational Zeros:** If a zero is $\sqrt{2}$, it will **never** appear on your $\frac{p}{q}$ list.
+* **Imaginary Zeros:** If a zero is $3i$, it will **never** appear on your list.
+* **Conclusion:** The theorem is only a "key" to unlock the first few doors. Once the polynomial is small enough ($x^2$), the Quadratic Formula handles the "invisible" zeros the theorem can't see.
+
+
+
+> [!abstract] Algebra Takeaway
+> The Rational Zeros Theorem is an "Elimination Game." You start with a huge list of possibilities and use Descartes' Rule and Synthetic Division to kill off the "fake" zeros until only the real ones remain.
