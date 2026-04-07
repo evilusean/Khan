@@ -6223,3 +6223,4 @@ The degree of the polynomial is **6**, so there must be a total of 6 zeros.
 > Descartes' Rule shows that this function has **no positive real zeros**. This is extremely helpful because when you look for roots, you can immediately discard every positive number from your list. Any real x-intercepts that exist **must** be on the negative side of the x-axis.
 
 ## 2026-April-07 - How to Use the Rational Zeros Theorem (Precalculus - College Algebra 34) :
+https://www.youtube.com/watch?v=g7wEpxwgB3w&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=35
