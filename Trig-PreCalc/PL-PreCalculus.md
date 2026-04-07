@@ -6227,14 +6227,11 @@ https://www.youtube.com/watch?v=g7wEpxwgB3w&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 ### Rational Zeros Theorem (Rational Roots Theorem)
 
 The Rational Zeros Theorem provides a method for finding all possible rational x-intercepts (zeros) of a polynomial function with integer coefficients. This acts as a starting point for factoring higher-degree polynomials when standard factoring techniques (like grouping) aren't immediately obvious.
-
 #### The Theorem Formula
 For a polynomial in the form $f(x) = a_n x^n + \dots + a_0$:
 - **p**: Factors of the constant term ($a_0$).
 - **q**: Factors of the leading coefficient ($a_n$).
 - **Possible Rational Zeros**: All permutations of $\pm \frac{p}{q}$.
-
-
 #### The General Workflow
 1.  **Check for Order & Degree**: Ensure the polynomial is in descending order. Identify the degree to know the maximum number of possible x-intercepts.
 2.  **Descartes' Rule of Signs**: Use this to determine the possible number of positive and negative real zeros. This helps narrow down which numbers from your $\frac{p}{q}$ list to test first.
@@ -6245,9 +6242,9 @@ For a polynomial in the form $f(x) = a_n x^n + \dots + a_0$:
 6.  **Repeat or Factor**:
     * If the remaining quotient is a quadratic, use the Quadratic Formula or standard factoring.
     * If the degree is still 3 or higher, repeat the process using the new quotient.
-
 #### Key Strategies & Constraints
 - **Factoring First**: Always check for a Greatest Common Factor (GCF) or factoring by grouping before starting the theorem; it saves significant time.
 - **Repeated Roots**: If a value works once, check it again in the depressed polynomial. It may have a multiplicity greater than 1 (a "bouncy" zero on a graph).
 - **Irrational & Complex Zeros**: The theorem **only** finds rational zeros (integers or fractions). If the remaining factor is an irreducible quadratic like $(x^2 + 25)$ or $(x^2 - 7)$, the zeros will be imaginary or radical ($\pm 5i$ or $\pm \sqrt{7}$), which will not appear on the $\frac{p}{q}$ list.
 - **Fractional Zeros**: Synthetic division works with fractions (e.g., $1/2$), but be careful with the resulting coefficients and how they relate to the linear factor (e.g., $x - 1/2$ vs $2x - 1$).
+
