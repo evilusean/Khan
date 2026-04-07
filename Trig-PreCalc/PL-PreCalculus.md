@@ -6356,3 +6356,78 @@ Setting these to zero:
 
 > [!abstract] Algebra Takeaway
 > Notice how Descartes' Rule was perfectly accurate: we found exactly **one** positive zero ($1$) and **two** negative zeros ($-0.5$ and $-6$). By finding the easiest positive root first, we were able to skip the "guess and check" for the more difficult negative fractions.
+
+### Solving h(x) = 3x³ + 6x² - 15x - 30 using Rational Zeros Theorem
+
+Before starting the Rational Zeros Theorem, we should always check for a **Greatest Common Factor (GCF)** to make the numbers smaller and easier to manage.
+
+---
+
+#### 1. Pre-Step: Factor out the GCF
+Each coefficient is divisible by 3.
+$$h(x) = 3(x^3 + 2x^2 - 5x - 10)$$
+We will now use the Rational Zeros Theorem on the "depressed" polynomial: **$g(x) = x^3 + 2x^2 - 5x - 10$**.
+
+---
+
+#### 2. List Possible Rational Zeros ($\pm p/q$)
+* **p (Factors of constant -10):** $\pm 1, 2, 5, 10$
+* **q (Factors of leading coefficient 1):** $\pm 1$
+
+**Possible Rational Zeros:** $\pm \{1, 2, 5, 10\}$
+
+
+
+---
+
+#### 3. Narrowing Down (Descartes' Rule of Signs)
+* **g(x):** $+x^3 + 2x^2 - 5x - 10$ → **1 sign change**.
+    * *Result:* Exactly **1 positive real zero**.
+* **g(-x):** $-x^3 + 2x^2 + 5x - 10$ → **2 sign changes**.
+    * *Result:* Either **2 or 0 negative real zeros**.
+
+---
+
+#### 4. Testing Zeros
+Let's test the positive list first since there is guaranteed to be one.
+* **Test $x = 1$:** $1^3 + 2(1)^2 - 5(1) - 10 = 1 + 2 - 5 - 10 = -12$ (No)
+* **Test $x = 2$:** $2^3 + 2(2)^2 - 5(2) - 10 = 8 + 8 - 10 - 10 = -4$ (No)
+* **Test $x = 5$:** $5^3 + 2(5)^2 - 5(5) - 10 = 125 + 50 - 25 - 10 = 140$ (No)
+
+*Wait—* If $x=2$ gave a negative result ($-4$) and $x=5$ gave a massive positive result ($140$), the zero must be an **irrational number** between 2 and 5. Let's pivot to the negative list.
+
+* **Test $x = -2$:** $(-2)^3 + 2(-2)^2 - 5(-2) - 10 = -8 + 8 + 10 - 10 = \mathbf{0}$
+**Success!** $x = -2$ is a zero.
+
+---
+
+#### 5. Synthetic Division
+Divide $x^3 + 2x^2 - 5x - 10$ by the zero $x = -2$.
+
+
+
+1.  **Bring down 1.**
+2.  Multiply $-2 \times 1 = -2$; Add $2 + (-2) = \mathbf{0}$.
+3.  Multiply $-2 \times 0 = 0$; Add $-5 + 0 = \mathbf{-5}$.
+4.  Multiply $-2 \times -5 = 10$; Add $-10 + 10 = \mathbf{0}$.
+
+**New Quadratic:** $x^2 + 0x - 5$ or simply **$x^2 - 5$**.
+
+---
+
+#### 6. Solving the Quadratic
+$$x^2 - 5 = 0$$
+$$x^2 = 5$$
+$$x = \pm \sqrt{5}$$
+
+---
+
+#### 7. Final Summary
+* **Rational Zeros:** $-2$
+* **Irrational Zeros:** $\sqrt{5}, -\sqrt{5}$
+* **Factored Form:** $h(x) = 3(x + 2)(x - \sqrt{5})(x + \sqrt{5})$
+
+
+
+> [!abstract] Algebra Takeaway
+> This problem highlights why the Rational Zeros Theorem is only a starting point. We found the rational zero ($-2$), but the other two zeros ($\pm \sqrt{5}$) were **irrational**. If we hadn't used synthetic division to get to the quadratic $x^2 - 5$, we never would have found them because $\sqrt{5}$ is not on the $p/q$ list.
