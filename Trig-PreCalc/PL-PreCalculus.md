@@ -6297,7 +6297,6 @@ This is the order Professor Leonard uses to solve these without wasting hours on
 To find the zeros of this cubic polynomial for your Obsidian notes, we will follow the full strategic workflow: listing possibilities, narrowing them down, and using synthetic division.
 
 ---
-
 #### 1. List Possible Rational Zeros ($\pm p/q$)
 * **p (Factors of constant -6):** $\pm 1, 2, 3, 6$
 * **q (Factors of leading coefficient 2):** $\pm 1, 2$
@@ -6317,7 +6316,6 @@ $$\pm \left\{ \frac{1}{1}, \frac{2}{1}, \frac{3}{1}, \frac{6}{1}, \frac{1}{2}, \
 
 
 ---
-
 #### 3. Testing Zeros (The "Low-Hanging Fruit")
 Let's test $x = 1$ first since it's the easiest positive number.
 $$f(1) = 2(1)^3 + 11(1)^2 - 7(1) - 6$$
@@ -6325,7 +6323,6 @@ $$f(1) = 2 + 11 - 7 - 6 = 0$$
 **Success!** $x = 1$ is a zero, which means $(x - 1)$ is a factor.
 
 ---
-
 #### 4. Synthetic Division (Depressing the Polynomial)
 Now we divide the original polynomial by the zero we found ($x = 1$).
 
@@ -6339,7 +6336,6 @@ Now we divide the original polynomial by the zero we found ($x = 1$).
 **New Depressed Polynomial (Quadratic):** $2x^2 + 13x + 6$
 
 ---
-
 #### 5. Factoring the Resulting Quadratic
 Now we solve $2x^2 + 13x + 6 = 0$ using the "ac" method or factoring by grouping.
 * **ac product:** $2 \times 6 = 12$.
@@ -6354,12 +6350,9 @@ Setting these to zero:
 * $x + 6 = 0 \implies x = -6$
 
 ---
-
 #### 6. Final Summary
 * **Rational Zeros:** $1, -1/2, -6$
 * **Factored Form:** $f(x) = (x - 1)(2x + 1)(x + 6)$
-
-
 
 > [!abstract] Algebra Takeaway
 > Notice how Descartes' Rule was perfectly accurate: we found exactly **one** positive zero ($1$) and **two** negative zeros ($-0.5$ and $-6$). By finding the easiest positive root first, we were able to skip the "guess and check" for the more difficult negative fractions.
