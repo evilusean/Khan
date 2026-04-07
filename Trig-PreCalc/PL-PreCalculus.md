@@ -6258,7 +6258,6 @@ The theorem states that every rational zero (a zero that can be written as a fra
 **Possible Rational Zeros = $\pm \frac{\text{Factors of } p}{\text{Factors of } q}$**
 
 ---
-
 #### 2. The Full Strategic Workflow
 This is the order Professor Leonard uses to solve these without wasting hours on "guess and check":
 
@@ -6274,10 +6273,7 @@ This is the order Professor Leonard uses to solve these without wasting hours on
 5.  **The Quadratic Finish Line:** Continue the process until you reach a **Degree 2** (Quadratic) polynomial.
     * Once you hit $x^2$, stop using the theorem. Use the **Quadratic Formula** or **Factoring** to find the final two zeros (which might be irrational or imaginary).
 
-
-
 ---
-
 #### 3. Advanced "Clutch" Tactics from the Video
 
 * **The Upper and Lower Bound Tests:** * If you do synthetic division with a positive number and the bottom row is all **positive**, that number is an "Upper Bound"—no zeros exist higher than that. Stop testing bigger numbers. [00:48:12]
@@ -6288,7 +6284,6 @@ This is the order Professor Leonard uses to solve these without wasting hours on
     * If a zero works once, it might work again! If you have a depressed polynomial, test the same zero a second time before moving to a new number.
 
 ---
-
 #### 4. Why the Theorem "Fails" Sometimes
 * **Irrational Zeros:** If a zero is $\sqrt{2}$, it will **never** appear on your $\frac{p}{q}$ list.
 * **Imaginary Zeros:** If a zero is $3i$, it will **never** appear on your list.
