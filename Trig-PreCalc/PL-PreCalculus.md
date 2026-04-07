@@ -6289,7 +6289,77 @@ This is the order Professor Leonard uses to solve these without wasting hours on
 * **Imaginary Zeros:** If a zero is $3i$, it will **never** appear on your list.
 * **Conclusion:** The theorem is only a "key" to unlock the first few doors. Once the polynomial is small enough ($x^2$), the Quadratic Formula handles the "invisible" zeros the theorem can't see.
 
+> [!abstract] Algebra Takeaway
+> The Rational Zeros Theorem is an "Elimination Game." You start with a huge list of possibilities and use Descartes' Rule and Synthetic Division to kill off the "fake" zeros until only the real ones remain.
+
+### Solving f(x) = 2x³ + 11x² - 7x - 6 using Rational Zeros Theorem
+
+To find the zeros of this cubic polynomial for your Obsidian notes, we will follow the full strategic workflow: listing possibilities, narrowing them down, and using synthetic division.
+
+---
+
+#### 1. List Possible Rational Zeros ($\pm p/q$)
+* **p (Factors of constant -6):** $\pm 1, 2, 3, 6$
+* **q (Factors of leading coefficient 2):** $\pm 1, 2$
+
+**Possible Rational Zeros ($p/q$):**
+$$\pm \left\{ \frac{1}{1}, \frac{2}{1}, \frac{3}{1}, \frac{6}{1}, \frac{1}{2}, \frac{3}{2} \right\}$$
+**Simplified List:** $\pm \{1, 2, 3, 6, 0.5, 1.5\}$
+
+---
+
+#### 2. Narrowing Down (Descartes' Rule of Signs)
+* **f(x):** $+2x^3 + 11x^2 - 7x - 6$ → **1 sign change**.
+    * *Result:* Exactly **1 positive real zero**.
+* **f(-x):** $-2x^3 + 11x^2 + 7x - 6$ → **2 sign changes**.
+    * *Result:* Either **2 or 0 negative real zeros**.
+
+
+
+---
+
+#### 3. Testing Zeros (The "Low-Hanging Fruit")
+Let's test $x = 1$ first since it's the easiest positive number.
+$$f(1) = 2(1)^3 + 11(1)^2 - 7(1) - 6$$
+$$f(1) = 2 + 11 - 7 - 6 = 0$$
+**Success!** $x = 1$ is a zero, which means $(x - 1)$ is a factor.
+
+---
+
+#### 4. Synthetic Division (Depressing the Polynomial)
+Now we divide the original polynomial by the zero we found ($x = 1$).
+
+
+
+1.  **Bring down 2.**
+2.  Multiply $1 \times 2 = 2$; Add $11 + 2 = \mathbf{13}$.
+3.  Multiply $1 \times 13 = 13$; Add $-7 + 13 = \mathbf{6}$.
+4.  Multiply $1 \times 6 = 6$; Add $-6 + 6 = \mathbf{0}$.
+
+**New Depressed Polynomial (Quadratic):** $2x^2 + 13x + 6$
+
+---
+
+#### 5. Factoring the Resulting Quadratic
+Now we solve $2x^2 + 13x + 6 = 0$ using the "ac" method or factoring by grouping.
+* **ac product:** $2 \times 6 = 12$.
+* **Factors of 12 that add to 13:** $12$ and $1$.
+
+$$2x^2 + 12x + 1x + 6$$
+$$2x(x + 6) + 1(x + 6)$$
+$$(2x + 1)(x + 6)$$
+
+Setting these to zero:
+* $2x + 1 = 0 \implies x = -1/2$
+* $x + 6 = 0 \implies x = -6$
+
+---
+
+#### 6. Final Summary
+* **Rational Zeros:** $1, -1/2, -6$
+* **Factored Form:** $f(x) = (x - 1)(2x + 1)(x + 6)$
+
 
 
 > [!abstract] Algebra Takeaway
-> The Rational Zeros Theorem is an "Elimination Game." You start with a huge list of possibilities and use Descartes' Rule and Synthetic Division to kill off the "fake" zeros until only the real ones remain.
+> Notice how Descartes' Rule was perfectly accurate: we found exactly **one** positive zero ($1$) and **two** negative zeros ($-0.5$ and $-6$). By finding the easiest positive root first, we were able to skip the "guess and check" for the more difficult negative fractions.
