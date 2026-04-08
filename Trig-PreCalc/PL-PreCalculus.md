@@ -6563,12 +6563,11 @@ By setting each factor to zero:
 
 ## 2026-April-08 - Introduction to Complex Solutions of Polynomials (Precalculus - College algebra 35) : 
 https://www.youtube.com/watch?v=g-69B5jkcO4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=36
-### Complex Solutions of Polynomials (Professor Leonard)
+### Complex Solutions of Polynomials
 
 This summary covers the transition from factoring over the Real Number System to the **Complex Number System**.
 
 ---
-
 #### 1. The Linear Factorization Theorem
 Every polynomial of degree $n > 0$ has exactly $n$ zeros in the complex number system. 
 * In the real number system, some polynomials were "irreducible" (like $x^2 + 1$).
@@ -6576,7 +6575,6 @@ Every polynomial of degree $n > 0$ has exactly $n$ zeros in the complex number s
 * **Result:** A degree $n$ polynomial will always have exactly $n$ linear factors.
 
 ---
-
 #### 2. The Complex Conjugate Root Theorem
 Complex zeros never exist in isolation; they always appear in **conjugate pairs**.
 * If **$a + bi$** is a zero, then **$a - bi$** must also be a zero.
@@ -6588,14 +6586,12 @@ Complex zeros never exist in isolation; they always appear in **conjugate pairs*
 
 
 ---
-
 #### 3. Why the "Pairs" Rule Matters
 Because complex zeros come in pairs, they always take up an **even number** of slots in a polynomial's degree count.
 * **Odd-Degree Polynomials:** Must have at least one **real** zero. (Example: A degree 3 polynomial could have 3 real zeros OR 1 real and 2 complex zeros).
 * **Even-Degree Polynomials:** Could potentially have **zero** real zeros. (Example: A degree 4 polynomial could have 4 complex zeros).
 
 ---
-
 #### 4. Logic Summary Table (Degree 5 Example)
 
 | Real Zeros | Complex Zeros | Total Zeros |
@@ -6604,10 +6600,7 @@ Because complex zeros come in pairs, they always take up an **even number** of s
 | 3 | 2 (1 pair) | 5 |
 | 1 | 4 (2 pairs) | 5 |
 
-
-
 ---
-
 #### 5. Relationship to Descartes' Rule
 This explains why Descartes' Rule of Signs requires you to subtract by **2**. Each time you subtract 2 from the count of sign changes, you are essentially acknowledging that a pair of potential real zeros may actually be a pair of complex zeros.
 
