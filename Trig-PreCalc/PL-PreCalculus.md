@@ -6398,9 +6398,6 @@ Let's test the positive list first since there is guaranteed to be one.
 ---
 #### 5. Synthetic Division
 Divide $x^3 + 2x^2 - 5x - 10$ by the zero $x = -2$.
-
-
-
 1.  **Bring down 1.**
 2.  Multiply $-2 \times 1 = -2$; Add $2 + (-2) = \mathbf{0}$.
 3.  Multiply $-2 \times 0 = 0$; Add $-5 + 0 = \mathbf{-5}$.
@@ -6422,3 +6419,144 @@ $$x = \pm \sqrt{5}$$
 
 > [!abstract] Algebra Takeaway
 > This problem highlights why the Rational Zeros Theorem is only a starting point. We found the rational zero ($-2$), but the other two zeros ($\pm \sqrt{5}$) were **irrational**. If we hadn't used synthetic division to get to the quadratic $x^2 - 5$, we never would have found them because $\sqrt{5}$ is not on the $p/q$ list.
+
+### Solving g(x) = x⁵ - 7x⁴ + 19x³ - 37x² + 60x - 36 using Rational Zeros Theorem
+
+This is a degree 5 polynomial, meaning there are 5 total zeros to find. We will use the Rational Zeros Theorem to find the "easy" ones and synthetic division to break the polynomial down.
+
+---
+#### 1. List Possible Rational Zeros ($\pm p/q$)
+* **p (Factors of constant -36):** $\pm 1, 2, 3, 4, 6, 9, 12, 18, 36$
+* **q (Factors of leading coefficient 1):** $\pm 1$
+
+**Possible Rational Zeros:** $\pm \{1, 2, 3, 4, 6, 9, 12, 18, 36\}$
+
+---
+#### 2. Narrowing Down (Descartes' Rule of Signs)
+* **g(x):** $+x^5 - 7x^4 + 19x^3 - 37x^2 + 60x - 36$
+    * Sign changes: $+ \to -$, $- \to +$, $+ \to -$, $- \to +$, $+ \to -$
+    * **5 sign changes.**
+    * *Result:* **5, 3, or 1 positive real zeros.**
+* **g(-x):** $-x^5 - 7x^4 - 19x^3 - 37x^2 - 60x - 36$
+    * Sign changes: **0**.
+    * *Result:* **0 negative real zeros.** (We can ignore the entire negative list!)
+
+---
+#### 3. Finding the First Zero
+Since all real zeros must be positive, let's test $x = 1$:
+$$g(1) = 1 - 7 + 19 - 37 + 60 - 36 = 0$$
+**Success!** $x = 1$ is a zero.
+
+---
+#### 4. First Synthetic Division
+Divide the coefficients $[1, -7, 19, -37, 60, -36]$ by $1$.
+
+1.  Bring down $1$.
+2.  Multiply/Add: $(1\times1)-7 = -6$; $(1\times-6)+19 = 13$; $(1\times13)-37 = -24$; $(1\times-24)+60 = 36$; $(1\times36)-36 = 0$.
+
+**Depressed Polynomial (Degree 4):** $x^4 - 6x^3 + 13x^2 - 24x + 36$
+
+---
+#### 5. Finding the Second Zero
+We test the new polynomial. Let's try $x = 2$:
+$$2^4 - 6(2^3) + 13(2^2) - 24(2) + 36 = 16 - 48 + 52 - 48 + 36 = 8 \neq 0$$
+Let's try $x = 3$:
+$$3^4 - 6(3^3) + 13(3^2) - 24(3) + 36 = 81 - 162 + 117 - 72 + 36 = 0$$
+**Success!** $x = 3$ is a zero.
+
+---
+#### 6. Second Synthetic Division
+Divide the degree 4 coefficients $[1, -6, 13, -24, 36]$ by $3$.
+
+1.  Bring down $1$.
+2.  Multiply/Add: $(3\times1)-6 = -3$; $(3\times-3)+13 = 4$; $(3\times4)-24 = -12$; $(3\times-12)+36 = 0$.
+
+**Depressed Polynomial (Degree 3):** $x^3 - 3x^2 + 4x - 12$
+
+---
+#### 7. Finding the Third Zero
+Notice that $x^3 - 3x^2 + 4x - 12$ can be factored by **grouping**:
+$$x^2(x - 3) + 4(x - 3)$$
+$$(x^2 + 4)(x - 3)$$
+
+This gives us another zero at **$x = 3$** (this zero has a **multiplicity of 2**).
+
+---
+#### 8. Final Zeros and Factoring
+Solve the remaining quadratic: $x^2 + 4 = 0$
+$$x^2 = -4 \implies x = \pm 2i$$
+
+**Final Zeros:** $1, 3$ (multiplicity 2), $2i, -2i$
+
+**Factored Form:**
+$$g(x) = (x - 1)(x - 3)^2(x^2 + 4)$$
+
+> [!abstract] Algebra Takeaway
+> Descartes' Rule predicted 5, 3, or 1 positive real zeros. We found **3** real zeros ($1, 3, 3$). The "missing" 2 zeros were a complex conjugate pair ($\pm 2i$), which do not show up as x-intercepts on a graph.
+
+### Solving f(x) = 2x⁵ - x⁴ + 48x³ - 24x² - 50x + 25
+
+Professor Leonard often demonstrates two paths: one using the **Rational Zeros Theorem (RZT)** and another using **Factoring by Grouping** (when the polynomial structure allows it). We will solve this using both to see how they converge.
+
+---
+#### 1. Method 1: The Rational Zeros Theorem (The "Standard" Way)
+
+**Step A: List Possible Rational Zeros ($\pm p/q$)**
+* **p (Factors of 25):** $\pm 1, 5, 25$
+* **q (Factors of 2):** $\pm 1, 2$
+* **Possible Zeros:** $\pm \{1, 5, 25, \frac{1}{2}, \frac{5}{2}, \frac{25}{2}\}$
+
+**Step B: Descartes' Rule of Signs**
+* **f(x):** $+2x^5 - x^4 + 48x^3 - 24x^2 - 50x + 25$ (4 sign changes)
+    * **4, 2, or 0 Positive Real Zeros.**
+* **f(-x):** $-2x^5 - x^4 - 48x^3 - 24x^2 + 50x + 25$ (1 sign change)
+    * **Exactly 1 Negative Real Zero.**
+
+**Step C: Testing Zeros & Synthetic Division**
+Let's test $x = \frac{1}{2}$ (0.5), as it looks promising based on the coefficients.
+1.  Bring down **2**.
+2.  Multiply/Add: $(0.5 \times 2) - 1 = \mathbf{0}$
+3.  Multiply/Add: $(0.5 \times 0) + 48 = \mathbf{48}$
+4.  Multiply/Add: $(0.5 \times 48) - 24 = \mathbf{0}$
+5.  Multiply/Add: $(0.5 \times 0) - 50 = \mathbf{-50}$
+6.  Multiply/Add: $(0.5 \times -50) + 25 = \mathbf{0}$
+
+**Depressed Polynomial (Degree 4):** $2x^4 + 48x^2 - 50$
+
+**Step D: Solving the Resulting Quadratic-Style Equation**
+Divide by 2: $x^4 + 24x^2 - 25 = 0$.
+This is a quadratic in form. Let $u = x^2$:
+$$u^2 + 24u - 25 = 0$$
+$$(u + 25)(u - 1) = 0$$
+Substituting $x^2$ back in:
+1. $x^2 + 25 = 0 \implies x = \pm 5i$
+2. $x^2 - 1 = 0 \implies x = \pm 1$
+
+---
+#### 2. Method 2: Factoring by Grouping (The "Clutch" Way)
+
+Professor Leonard emphasizes looking for patterns first. Notice the ratios between coefficients:
+$$(2x^5 - x^4) + (48x^3 - 24x^2) + (-50x + 25)$$
+
+**Step A: Factor out the GCF of each pair**
+* $x^4(2x - 1)$
+* $24x^2(2x - 1)$
+* $-25(2x - 1)$
+
+**Step B: Factor out the common binomial $(2x - 1)$**
+$$(2x - 1)(x^4 + 24x^2 - 25)$$
+
+**Step C: Factor the trinomial**
+$$(2x - 1)(x^2 + 25)(x^2 - 1)$$
+$$(2x - 1)(x^2 + 25)(x - 1)(x + 1)$$
+
+---
+#### 3. Final Summary of Zeros
+By setting each factor to zero:
+* $2x - 1 = 0 \implies \mathbf{x = 1/2}$
+* $x - 1 = 0 \implies \mathbf{x = 1}$
+* $x + 1 = 0 \implies \mathbf{x = -1}$
+* $x^2 + 25 = 0 \implies \mathbf{x = \pm 5i}$
+
+> [!abstract] Algebra Takeaway
+> Both methods yield the same results. **Method 2** is much faster if you spot the grouping pattern, but **Method 1 (RZT)** is the fail-safe "tank" method that works even when the polynomial doesn't have a clean grouping structure.

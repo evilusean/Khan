@@ -1162,3 +1162,5 @@ To convert a rectangular circle $(x^2 + y^2 = r^2)$ to polar form, use the ident
 2. Divide by $r$:
    $$r = 6 \cos \theta$$
 *This represents a circle with diameter 6 centered at $(3, 0)$.
+
+
