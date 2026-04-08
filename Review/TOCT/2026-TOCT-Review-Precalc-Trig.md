@@ -1171,3 +1171,5 @@ To convert a rectangular circle $(x^2 + y^2 = r^2)$ to polar form, use the ident
 ### Rational Zeros Theorem
 
 The **Rational Zeros Theorem** provides a complete list of all possible rational x-intercepts for a polynomial by taking every factor of the constant term ($p$) and dividing them by every factor of the leading coefficient ($q$).
+
+

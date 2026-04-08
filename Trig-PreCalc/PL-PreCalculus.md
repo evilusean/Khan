@@ -6560,3 +6560,5 @@ By setting each factor to zero:
 
 > [!abstract] Algebra Takeaway
 > Both methods yield the same results. **Method 2** is much faster if you spot the grouping pattern, but **Method 1 (RZT)** is the fail-safe "tank" method that works even when the polynomial doesn't have a clean grouping structure.
+
+## 2026-April-08 - Introduction to Complex Solutions of Polynomials (Precalculus - College algebra 35) : 
