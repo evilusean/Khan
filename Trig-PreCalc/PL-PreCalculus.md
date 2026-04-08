@@ -6583,8 +6583,6 @@ Complex zeros never exist in isolation; they always appear in **conjugate pairs*
     * If $3 + 2i$ is a root, $3 - 2i$ is a root.
     * If $-i$ is a root, $+i$ is a root.
 
-
-
 ---
 #### 3. Why the "Pairs" Rule Matters
 Because complex zeros come in pairs, they always take up an **even number** of slots in a polynomial's degree count.
