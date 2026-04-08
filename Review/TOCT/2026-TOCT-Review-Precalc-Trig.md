@@ -1168,3 +1168,6 @@ To convert a rectangular circle $(x^2 + y^2 = r^2)$ to polar form, use the ident
 
 **Descartes' Rule of Signs** is a technique for determining the maximum possible number of positive and negative real zeros a polynomial has by counting the number of sign changes between its consecutive coefficients.
 
+### Rational Zeros Theorem
+
+The **Rational Zeros Theorem** provides a complete list of all possible rational x-intercepts for a polynomial by taking every factor of the constant term ($p$) and dividing them by every factor of the leading coefficient ($q$).
