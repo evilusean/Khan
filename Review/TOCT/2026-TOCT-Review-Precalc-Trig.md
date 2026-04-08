@@ -1163,4 +1163,8 @@ To convert a rectangular circle $(x^2 + y^2 = r^2)$ to polar form, use the ident
    $$r = 6 \cos \theta$$
 *This represents a circle with diameter 6 centered at $(3, 0)$.
 
+## PL- PreCalc :
+### Descartes' Rule of Signs
+
+**Descartes' Rule of Signs** is a technique for determining the maximum possible number of positive and negative real zeros a polynomial has by counting the number of sign changes between its consecutive coefficients.
 
