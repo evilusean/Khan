@@ -6607,3 +6607,55 @@ This explains why Descartes' Rule of Signs requires you to subtract by **2**. Ea
 
 ## 2026-April-09 - Creating Polynomials from Complex Solutions (Precalculus - College Algebra 36) : 
 https://www.youtube.com/watch?v=lIFeZLHVWmc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=39
+### Creating Polynomials from Complex Solutions (Professor Leonard)
+
+This process involves building a polynomial function $f(x)$ when given its zeros.
+
+---
+
+#### 1. The Setup
+If $c$ is a zero, then $(x - c)$ is a factor.
+1. **Identify all zeros.** (If a complex zero like $2 + i$ is given, you must manually include its conjugate $2 - i$).
+2. **Write out the factors.** $f(x) = a(x - c_1)(x - c_2)...$
+3. **Multiply the factors.** It is usually best to multiply the complex conjugate factors first.
+
+---
+
+#### 2. The Grouping Trick for Complex Factors
+Multiplying $(x - (2 + i))(x - (2 - i))$ is difficult if you distribute everything. Instead, group the real parts:
+
+1. **Distribute the negative:** $(x - 2 - i)(x - 2 + i)$
+2. **Group the real part:** $[(x - 2) - i] \cdot [(x - 2) + i]$
+3. **Difference of Squares:** Notice this is $(A - B)(A + B) = A^2 - B^2$.
+4. **Expand:** $(x - 2)^2 - i^2$
+5. **Simplify:** $(x^2 - 4x + 4) - (-1) = \mathbf{x^2 - 4x + 5}$
+
+
+
+---
+
+#### 3. Solving for 'a' (The Leading Coefficient)
+If the problem provides a specific point $(x, y)$ that the graph passes through:
+1. Plug the $x$ and $y$ values into your function.
+2. Solve for $a$.
+3. Distribute $a$ through the final polynomial.
+
+---
+
+#### 4. Step-by-Step Logic Example
+**Problem:** Find a degree 3 polynomial with zeros $x = 4$ and $x = 2i$, passing through $(1, -15)$.
+
+1. **Find all zeros:** $4, 2i, -2i$ (Complex roots must have pairs).
+2. **Set up factors:** $f(x) = a(x - 4)(x - 2i)(x + 2i)$
+3. **Multiply complex factors:** $(x - 2i)(x + 2i) = x^2 - 4i^2 = \mathbf{x^2 + 4}$
+4. **Current function:** $f(x) = a(x - 4)(x^2 + 4)$
+5. **Solve for $a$ using $(1, -15)$:**
+   $$-15 = a(1 - 4)(1^2 + 4)$$
+   $$-15 = a(-3)(5)$$
+   $$-15 = -15a \implies \mathbf{a = 1}$$
+6. **Final Standard Form:** $f(x) = (x - 4)(x^2 + 4) = \mathbf{x^3 - 4x^2 + 4x - 16}$
+
+
+
+> [!abstract] Algebra Takeaway
+> When multiplying complex conjugates, the $i$ terms will always cancel out, leaving you with a quadratic that has real coefficients. If your final polynomial still has an $i$ in it, you made a distribution error or forgot a conjugate pair.
