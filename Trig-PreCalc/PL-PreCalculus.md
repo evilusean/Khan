@@ -6561,7 +6561,7 @@ By setting each factor to zero:
 > [!abstract] Algebra Takeaway
 > Both methods yield the same results. **Method 2** is much faster if you spot the grouping pattern, but **Method 1 (RZT)** is the fail-safe "tank" method that works even when the polynomial doesn't have a clean grouping structure.
 
-## 2026-April-08 - Introduction to Complex Solutions of Polynomials (Precalculus - College algebra 35) : 
+## 2026-April-08 - Introduction to Complex Solutions of Polynomials (Precalculus - College Algebra 35) : 
 https://www.youtube.com/watch?v=g-69B5jkcO4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=36
 ### Complex Solutions of Polynomials
 
@@ -6604,3 +6604,5 @@ This explains why Descartes' Rule of Signs requires you to subtract by **2**. Ea
 
 > [!abstract] Algebra Takeaway
 > In the Complex Number System, the **Degree = Number of Zeros**. There are no "missing" answers; if a zero doesn't show up on the x-axis (real), it exists in the complex plane as a conjugate pair.
+
+## 2026-April-09 - Creating Polynomials from Complex Solutions (Precalculus - College Algebra 36) : 
