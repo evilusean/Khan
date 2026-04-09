@@ -6606,3 +6606,4 @@ This explains why Descartes' Rule of Signs requires you to subtract by **2**. Ea
 > In the Complex Number System, the **Degree = Number of Zeros**. There are no "missing" answers; if a zero doesn't show up on the x-axis (real), it exists in the complex plane as a conjugate pair.
 
 ## 2026-April-09 - Creating Polynomials from Complex Solutions (Precalculus - College Algebra 36) : 
+https://www.youtube.com/watch?v=lIFeZLHVWmc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=39
