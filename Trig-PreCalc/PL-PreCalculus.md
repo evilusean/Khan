@@ -6612,7 +6612,6 @@ https://www.youtube.com/watch?v=lIFeZLHVWmc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This process involves building a polynomial function $f(x)$ when given its zeros.
 
 ---
-
 #### 1. The Setup
 If $c$ is a zero, then $(x - c)$ is a factor.
 1. **Identify all zeros.** (If a complex zero like $2 + i$ is given, you must manually include its conjugate $2 - i$).
@@ -6620,7 +6619,6 @@ If $c$ is a zero, then $(x - c)$ is a factor.
 3. **Multiply the factors.** It is usually best to multiply the complex conjugate factors first.
 
 ---
-
 #### 2. The Grouping Trick for Complex Factors
 Multiplying $(x - (2 + i))(x - (2 - i))$ is difficult if you distribute everything. Instead, group the real parts:
 
@@ -6630,10 +6628,7 @@ Multiplying $(x - (2 + i))(x - (2 - i))$ is difficult if you distribute everythi
 4. **Expand:** $(x - 2)^2 - i^2$
 5. **Simplify:** $(x^2 - 4x + 4) - (-1) = \mathbf{x^2 - 4x + 5}$
 
-
-
 ---
-
 #### 3. Solving for 'a' (The Leading Coefficient)
 If the problem provides a specific point $(x, y)$ that the graph passes through:
 1. Plug the $x$ and $y$ values into your function.
@@ -6641,7 +6636,6 @@ If the problem provides a specific point $(x, y)$ that the graph passes through:
 3. Distribute $a$ through the final polynomial.
 
 ---
-
 #### 4. Step-by-Step Logic Example
 **Problem:** Find a degree 3 polynomial with zeros $x = 4$ and $x = 2i$, passing through $(1, -15)$.
 
@@ -6655,7 +6649,6 @@ If the problem provides a specific point $(x, y)$ that the graph passes through:
    $$-15 = -15a \implies \mathbf{a = 1}$$
 6. **Final Standard Form:** $f(x) = (x - 4)(x^2 + 4) = \mathbf{x^3 - 4x^2 + 4x - 16}$
 
-
-
 > [!abstract] Algebra Takeaway
 > When multiplying complex conjugates, the $i$ terms will always cancel out, leaving you with a quadratic that has real coefficients. If your final polynomial still has an $i$ in it, you made a distribution error or forgot a conjugate pair.
+
