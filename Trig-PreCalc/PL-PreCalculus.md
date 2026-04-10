@@ -6792,3 +6792,66 @@ $$f(x) = x^4 - 2x^3 + 6x^2 - 2x + 5$$
 
 > [!abstract] Algebra Takeaway
 > In this problem, because all zeros are complex, the graph of this polynomial will **never touch or cross the x-axis**. The "Degree 4" tells us there are 4 solutions, but they all exist in the complex plane.
+
+### Building a Polynomial: Degree 5, Zeros: 1 (mult 3), 1 + i
+
+For your Obsidian notes, we will combine the **Multiplicity** rule with the **Complex Conjugate Root Theorem** to build the function.
+
+---
+
+#### 1. Identify All Zeros
+A degree 5 polynomial must have 5 zeros.
+* **Real Zero:** $x = 1$ with multiplicity 3.
+* **Complex Zero:** $x = 1 + i$.
+* **Hidden Conjugate:** Because complex roots come in pairs, we must include **$x = 1 - i$**.
+
+**Total List:** $1, 1, 1, 1+i, 1-i$ (5 zeros total).
+
+---
+
+#### 2. Set Up the Factors
+Convert each zero into a linear factor $(x - c)$:
+$$f(x) = a(x - 1)^3 [(x - 1) - i][(x - 1) + i]$$
+
+---
+
+#### 3. Multiply the Complex Conjugates (The Grouping Trick)
+We multiply the complex factors first to eliminate the $i$ terms using the Difference of Squares.
+
+1.  **Group the real part:** $[(x - 1) - i] \cdot [(x - 1) + i]$
+2.  **Difference of Squares:** $(x - 1)^2 - i^2$
+3.  **Expand and Simplify:**
+    * $(x - 1)^2 = x^2 - 2x + 1$
+    * $- i^2 = -(-1) = +1$
+4.  **Result:** $(x^2 - 2x + 1) + 1 = \mathbf{x^2 - 2x + 2}$
+
+
+
+---
+
+#### 4. Expand the Real Factor (Multiplicity 3)
+Next, we expand $(x - 1)^3$. You can use Pascal's Triangle or manual distribution:
+$$(x - 1)^3 = \mathbf{x^3 - 3x^2 + 3x - 1}$$
+
+---
+
+#### 5. Combine into Final Standard Form
+Now, multiply the two results:
+$$f(x) = (x^3 - 3x^2 + 3x - 1)(x^2 - 2x + 2)$$
+
+**Distribution Step-by-Step:**
+* $x^3(x^2 - 2x + 2) = x^5 - 2x^4 + 2x^3$
+* $-3x^2(x^2 - 2x + 2) = -3x^4 + 6x^3 - 6x^2$
+* $3x(x^2 - 2x + 2) = 3x^3 - 6x^2 + 6x$
+* $-1(x^2 - 2x + 2) = -x^2 + 2x - 2$
+
+**Combine Like Terms:**
+$$f(x) = x^5 + (-2-3)x^4 + (2+6+3)x^3 + (-6-6-1)x^2 + (6+2)x - 2$$
+
+**Final Polynomial:**
+$$\mathbf{f(x) = x^5 - 5x^4 + 11x^3 - 13x^2 + 8x - 2}$$
+
+
+
+> [!abstract] Algebra Takeaway
+> Multiplicity 3 means the graph doesn't just cross the x-axis at $x=1$; it "flattens out" as it passes through, like a cubic function. The complex pair ($1 \pm i$) ensures the rest of the "turns" in the graph stay off the x-axis.
