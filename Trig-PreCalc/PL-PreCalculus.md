@@ -6937,3 +6937,54 @@ $$x = 4$$
 > [!abstract] Algebra Takeaway
 > Even though this is a degree 3 polynomial, it only crosses the x-axis **once** (at $x=4$). The other two zeros are imaginary, meaning they do not produce x-intercepts on a standard coordinate plane.
 
+### Solving g(x) = x⁴ - 9x³ + 21x² - 130 given a zero of 3 - 2i
+
+Since the degree of $g(x)$ is 4, there are exactly four zeros. We are given one complex zero, which allows us to find its pair and reduce the polynomial to a quadratic.
+
+---
+
+#### 1. Identify the Complex Conjugate
+Complex zeros of polynomials with real coefficients always occur in conjugate pairs.
+* **Given Zero:** $x = 3 - 2i$
+* **Conjugate Zero:** $x = 3 + 2i$
+
+#### 2. Create the Irreducible Quadratic Factor
+We build a quadratic factor by multiplying the factors associated with these two zeros. We use the grouping method for efficiency:
+$$[(x - 3) + 2i][(x - 3) - 2i]$$
+
+Apply the Difference of Squares:
+$$(x - 3)^2 - (2i)^2$$
+$$x^2 - 6x + 9 - (4i^2)$$
+$$x^2 - 6x + 9 - (-4)$$
+$$\mathbf{x^2 - 6x + 13}$$
+
+
+#### 3. Polynomial Long Division
+We divide the original polynomial by our quadratic factor to find the remaining quadratic factor.
+
+
+**The Division:**
+$$\frac{x^4 - 9x^3 + 21x^2 - 130}{x^2 - 6x + 13} = x^2 - 3x - 10$$
+
+1.  $(x^4 - 6x^3 + 13x^2)$ subtracted from $(x^4 - 9x^3 + 21x^2)$ leaves $-3x^3 + 8x^2$.
+2.  Bring down the next term (effectively $0x$) and continue.
+3.  The final quotient is $x^2 - 3x - 10$ with a remainder of 0.
+
+#### 4. Factor the Resulting Quadratic
+Now we find the final two zeros by factoring the quotient:
+$$x^2 - 3x - 10 = 0$$
+$$(x - 5)(x + 2) = 0$$
+
+* $x - 5 = 0 \implies \mathbf{x = 5}$
+* $x + 2 = 0 \implies \mathbf{x = -2}$
+
+---
+
+#### Final Summary
+* **All Zeros:** $3 - 2i, 3 + 2i, 5, -2$
+* **Factored Form (Complex):** $g(x) = (x - (3-2i))(x - (3+2i))(x - 5)(x + 2)$
+* **Factored Form (Real):** $g(x) = (x^2 - 6x + 13)(x - 5)(x + 2)$
+
+
+> [!abstract] Algebra Takeaway
+> By using the given complex zero to form a quadratic divisor, we reduced a difficult degree 4 polynomial into a factorable degree 2 polynomial. The two real zeros ($5$ and $-2$) are where the graph crosses the x-axis, while the complex pair accounts for the remaining "turns" in the function.
