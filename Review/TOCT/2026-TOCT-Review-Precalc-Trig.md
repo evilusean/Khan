@@ -1164,12 +1164,14 @@ To convert a rectangular circle $(x^2 + y^2 = r^2)$ to polar form, use the ident
 *This represents a circle with diameter 6 centered at $(3, 0)$.
 
 ## PL- PreCalc :
-### Descartes' Rule of Signs
+### Descartes' Rule of Signs (Professor Leonard #33 )
 
 **Descartes' Rule of Signs** is a technique for determining the maximum possible number of positive and negative real zeros a polynomial has by counting the number of sign changes between its consecutive coefficients.
 
-### Rational Zeros Theorem
+### Rational Zeros Theorem (Professor Leonard #34 )
 
 The **Rational Zeros Theorem** provides a complete list of all possible rational x-intercepts for a polynomial by taking every factor of the constant term ($p$) and dividing them by every factor of the leading coefficient ($q$).
 
+### Creating Polynomials from Complex Solutions (Professor Leonard #35 )
 
+To build a polynomial from complex zeros, you convert each zero into a linear factor $(x - c)$, ensure you include the missing **conjugate pair** ($a - bi$ for every $a + bi$), and then multiply the factors together—ideally by grouping the real parts to simplify the distribution into a real-coefficient quadratic.
