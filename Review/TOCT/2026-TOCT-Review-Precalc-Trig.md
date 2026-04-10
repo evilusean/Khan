@@ -1175,3 +1175,4 @@ The **Rational Zeros Theorem** provides a complete list of all possible rational
 ### Creating Polynomials from Complex Solutions (Professor Leonard #35 )
 
 To build a polynomial from complex zeros, you convert each zero into a linear factor $(x - c)$, ensure you include the missing **conjugate pair** ($a - bi$ for every $a + bi$), and then multiply the factors together—ideally by grouping the real parts to simplify the distribution into a real-coefficient quadratic.
+
