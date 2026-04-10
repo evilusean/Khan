@@ -6690,3 +6690,61 @@ An irreducible quadratic is a second-degree polynomial **$(ax^2 + bx + c)$** tha
 
 > [!abstract] Algebra Takeaway
 > Think of **Linear Factors** as "visible" roots (you can see them on the graph) and **Irreducible Quadratics** as "hidden" roots (they exist mathematically but stay off the x-axis in the complex plane).
+
+### Distributing Complex Conjugates: f(x) = a(x - 4)²[(x - 3) - 2i][(x - 3) + 2i]
+
+When dealing with complex conjugates in Obsidian notes, the most efficient method is to avoid "brute force" distribution and instead use the **Difference of Squares** shortcut.
+
+---
+
+#### 1. Grouping the Real Parts
+Instead of treating $(x - 3 - 2i)$ as three separate terms, group the real part $(x - 3)$ together. This turns the expression into a binomial pattern:
+
+$$[(x - 3) - 2i] \cdot [(x - 3) + 2i]$$
+
+Notice this now fits the pattern: **$(A - B)(A + B)$**
+* **$A = (x - 3)$**
+* **$B = 2i$**
+
+
+
+---
+
+#### 2. Applying the Difference of Squares
+Using the formula $A^2 - B^2$:
+
+$$(x - 3)^2 - (2i)^2$$
+
+---
+
+#### 3. Expanding and Simplifying
+Now, expand both terms separately:
+
+**A. Expand the Real Square:**
+$$(x - 3)^2 = x^2 - 6x + 9$$
+
+**B. Expand the Imaginary Square:**
+$$(2i)^2 = 4i^2$$
+*Since $i^2 = -1$:*
+$$4(-1) = -4$$
+
+---
+
+#### 4. Final Combination
+Combine the two results back into the equation:
+
+$$(x^2 - 6x + 9) - (-4)$$
+$$(x^2 - 6x + 9) + 4$$
+$$\mathbf{x^2 - 6x + 13}$$
+
+
+
+---
+
+#### 5. The Simplified Polynomial (Factored Form)
+Now that the complex conjugates are merged into an **irreducible quadratic**, your function looks like this:
+
+$$f(x) = a(x - 4)^2(x^2 - 6x + 13)$$
+
+> [!abstract] Algebra Takeaway
+> **The Conjugate Shortcut:** When you multiply $(x - a - bi)$ and $(x - a + bi)$, the result will always be **$(x - a)^2 + b^2$**. Notice that the negative sign from the Difference of Squares ($A^2 - B^2$) and the $i^2$ always cancel out to become a **plus** sign.
