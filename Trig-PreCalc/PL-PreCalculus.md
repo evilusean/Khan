@@ -6851,4 +6851,48 @@ $$\mathbf{f(x) = x^5 - 5x^4 + 11x^3 - 13x^2 + 8x - 2}$$
 
 ## 2026-April-10 - Finding ALL Solutions of Polynomials (Precalculus - College Algebra 37) :
 https://www.youtube.com/watch?v=xuhk2kSVwe0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=38
+### Finding ALL Solutions of Polynomials (Professor Leonard)
 
+This process combines every tool learned so far to break a high-degree polynomial down into all its individual zeros (Real and Complex).
+
+---
+
+#### 1. The Master Workflow
+To find all $n$ zeros of a degree $n$ polynomial:
+1.  **Factoring:** Always check for a GCF or Grouping first.
+2.  **Rational Zeros Theorem (RZT):** List potential rational zeros ($\pm p/q$).
+3.  **Descartes' Rule of Signs:** Narrow down how many positive/negative roots to look for.
+4.  **Synthetic Division:** Test roots from your RZT list. When you find one that works (remainder 0), use the resulting "depressed" polynomial for the next step.
+5.  **Quadratic Formula:** Once you reach a degree 2 (quadratic) polynomial, use the quadratic formula to find the final two zeros.
+
+---
+
+#### 2. Handling Complex Zeros in Division
+If the problem **gives** you a complex zero (e.g., $x = 1 + 3i$), you can use it to find the other zeros:
+1.  **Find the Pair:** Immediately identify the conjugate ($x = 1 - 3i$).
+2.  **Build the Quadratic:** Multiply the two complex factors together:
+    $[(x - 1) - 3i][(x - 1) + 3i] \implies (x - 1)^2 - (3i)^2 \implies \mathbf{x^2 - 2x + 10}$
+3.  **Long Division:** Use **Polynomial Long Division** to divide the original polynomial by this irreducible quadratic. This will reveal the remaining factors/zeros.
+
+
+
+---
+
+#### 3. Real vs. Complex Factorization
+* **Factored over the Reals:** The polynomial is written as a product of linear factors and **irreducible quadratics** (no $i$ allowed).
+    * *Example:* $f(x) = (x - 5)(x^2 + 4)$
+* **Factored over the Complex Numbers:** Every single factor is linear ($i$ is allowed).
+    * *Example:* $f(x) = (x - 5)(x + 2i)(x - 2i)$
+
+---
+
+#### 4. The Strategy Table
+
+| If the zero is... | Then use... | To get... |
+| :--- | :--- | :--- |
+| **Rational** ($1, -2, 1/2$) | Synthetic Division | A lower-degree polynomial. |
+| **Complex** ($a \pm bi$) | Long Division | A lower-degree polynomial (after multiplying the pair). |
+| **Irrational** ($\pm \sqrt{3}$) | Long Division | A lower-degree polynomial (after multiplying $(x^2 - 3)$). |
+
+> [!abstract] Algebra Takeaway
+> "Solving" a polynomial is a game of reduction. Every time you find a zero and divide it out, the "boss" (the polynomial) gets smaller and weaker until it's just a simple quadratic you can solve with the quadratic formula.
