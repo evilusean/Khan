@@ -6747,7 +6747,6 @@ $$f(x) = a(x - 4)^2(x^2 - 6x + 13)$$
 This degree 4 polynomial consists entirely of complex conjugate pairs. We will build the function by converting these zeros into factors and using the grouping method to eliminate the imaginary units.
 
 ---
-
 #### 1. Identify the Zeros and Factors
 Since the degree is 4 and we have 4 zeros, we have a complete set:
 * **Pair 1:** $x = i$ and $x = -i \implies$ Factors: $(x - i)(x + i)$
@@ -6756,7 +6755,6 @@ Since the degree is 4 and we have 4 zeros, we have a complete set:
 
 
 ---
-
 #### 2. Multiply the First Pair (Pure Imaginary)
 The pair $(x - i)(x + i)$ follows the difference of squares pattern:
 $$(x)^2 - (i)^2$$
@@ -6764,7 +6762,6 @@ $$x^2 - (-1)$$
 $$\mathbf{x^2 + 1}$$
 
 ---
-
 #### 3. Multiply the Second Pair (Complex Binomials)
 Use the **grouping trick** for $[(x - 1) - 2i][(x - 1) + 2i]$:
 1.  **Group the real part:** $[(x - 1) - 2i][(x - 1) + 2i]$
@@ -6774,10 +6771,7 @@ Use the **grouping trick** for $[(x - 1) - 2i][(x - 1) + 2i]$:
 5.  **Combine:** $(x^2 - 2x + 1) - (-4)$
 6.  **Simplify:** $\mathbf{x^2 - 2x + 5}$
 
-
-
 ---
-
 #### 4. Combine into Final Polynomial
 Now multiply the two resulting quadratics:
 $$f(x) = (x^2 + 1)(x^2 - 2x + 5)$$
@@ -6790,7 +6784,6 @@ $$f(x) = (x^2 + 1)(x^2 - 2x + 5)$$
 $$f(x) = x^4 - 2x^3 + 6x^2 - 2x + 5$$
 
 ---
-
 #### Summary of the Process
 1.  **Linear Factors:** Convert each zero $c$ into a factor $(x - c)$.
 2.  **Grouping:** For zeros with real parts (like $1 \pm 2i$), group the real part $(x - 1)$ to use the $(A-B)(A+B)$ shortcut.
