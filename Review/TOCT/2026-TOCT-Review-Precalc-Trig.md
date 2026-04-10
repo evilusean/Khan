@@ -1164,6 +1164,10 @@ To convert a rectangular circle $(x^2 + y^2 = r^2)$ to polar form, use the ident
 *This represents a circle with diameter 6 centered at $(3, 0)$.
 
 ## PL- PreCalc :
+
+### Polynomial Long Division (Professor Leonard #32 )
+
+Polynomial long division is a step-by-step algorithm used to divide a high-degree polynomial by a lower-degree divisor, identifying how many times the divisor fits into the dividend and determining the resulting quotient and any remaining value.
 ### Descartes' Rule of Signs (Professor Leonard #33 )
 
 **Descartes' Rule of Signs** is a technique for determining the maximum possible number of positive and negative real zeros a polynomial has by counting the number of sign changes between its consecutive coefficients.
