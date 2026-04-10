@@ -6987,7 +6987,6 @@ $$(x - 5)(x + 2) = 0$$
 To find the zeros, we set the polynomial equal to zero and solve for $x$. This specific polynomial is a **Difference of Squares**, which allows us to solve it through repeated factoring.
 
 ---
-
 #### 1. Factoring as a Difference of Squares
 The expression $x^4 - 1$ can be seen as $(x^2)^2 - (1)^2$.
 $$f(x) = (x^2 - 1)(x^2 + 1)$$
@@ -6997,9 +6996,6 @@ The first factor, $(x^2 - 1)$, is another difference of squares:
 $$(x - 1)(x + 1) = 0$$
 * $x - 1 = 0 \implies \mathbf{x = 1}$
 * $x + 1 = 0 \implies \mathbf{x = -1}$
-
-
-
 #### 3. Identifying the Complex Zeros
 The second factor, $(x^2 + 1)$, is an irreducible quadratic over the real numbers. To find the zeros, we set it to zero:
 $$x^2 + 1 = 0$$
@@ -7008,10 +7004,7 @@ $$x = \pm \sqrt{-1}$$
 * $\mathbf{x = i}$
 * $\mathbf{x = -i}$
 
-
-
 ---
-
 #### Final Summary
 * **Total Zeros:** $1, -1, i, -i$
 * **Factored Form (Real):** $f(x) = (x - 1)(x + 1)(x^2 + 1)$
