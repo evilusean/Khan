@@ -7012,3 +7012,46 @@ $$x = \pm \sqrt{-1}$$
 
 > [!abstract] Algebra Takeaway
 > This is a degree 4 polynomial, so it must have 4 zeros. While only two are visible as x-intercepts ($1$ and $-1$), the other two exist in the complex plane as a conjugate pair ($i$ and $-i$).
+
+### Finding the Zeros of g(x) = x⁴ + 13x² + 36
+
+This polynomial is in **quadratic form**, meaning we can treat it like a standard trinomial by using a substitution or by factoring it directly into two quadratic factors.
+
+---
+
+#### 1. Factoring the Trinomial
+We look for two numbers that multiply to $36$ and add to $13$.
+* The factors are **9** and **4**.
+$$g(x) = (x^2 + 9)(x^2 + 4)$$
+
+
+
+#### 2. Identifying the First Pair of Zeros
+Set the first factor to zero:
+$$x^2 + 9 = 0$$
+$$x^2 = -9$$
+$$x = \pm \sqrt{-9}$$
+* $\mathbf{x = 3i}$
+* $\mathbf{x = -3i}$
+
+#### 3. Identifying the Second Pair of Zeros
+Set the second factor to zero:
+$$x^2 + 4 = 0$$
+$$x^2 = -4$$
+$$x = \pm \sqrt{-4}$$
+* $\mathbf{x = 2i}$
+* $\mathbf{x = -2i}$
+
+
+
+---
+
+#### Final Summary
+* **Total Zeros:** $3i, -3i, 2i, -2i$
+* **Factored Form (Real/Irreducible):** $g(x) = (x^2 + 9)(x^2 + 4)$
+* **Factored Form (Complex):** $g(x) = (x - 3i)(x + 3i)(x - 2i)(x + 2i)$
+
+
+
+> [!abstract] Algebra Takeaway
+> Since all four zeros are complex, the graph of $g(x)$ exists entirely above the x-axis and has no x-intercepts. This is a degree 4 polynomial with two distinct pairs of complex conjugates.
