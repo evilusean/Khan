@@ -6890,3 +6890,53 @@ If the problem **gives** you a complex zero (e.g., $x = 1 + 3i$), you can use it
 
 > [!abstract] Algebra Takeaway
 > "Solving" a polynomial is a game of reduction. Every time you find a zero and divide it out, the "boss" (the polynomial) gets smaller and weaker until it's just a simple quadratic you can solve with the quadratic formula.
+
+### Solving f(x) = x³ - 4x² + 4x - 16 given a zero of 2i
+
+Since the degree of the polynomial is 3, we are looking for a total of three zeros. We are given one complex zero, which allows us to find the second one immediately.
+
+---
+
+#### 1. Identify the Complex Pair
+According to the **Complex Conjugate Root Theorem**, complex zeros must appear in pairs.
+* **Given Zero:** $x = 2i$
+* **Conjugate Zero:** $x = -2i$
+
+#### 2. Create the Quadratic Factor
+To find the remaining zero, we multiply the factors associated with our complex pair to create a quadratic divisor.
+$$(x - 2i)(x + 2i)$$
+Using the difference of squares:
+$$x^2 - (2i)^2$$
+$$x^2 - 4i^2$$
+Since $i^2 = -1$:
+$$x^2 + 4$$
+
+
+#### 3. Polynomial Long Division
+We now divide the original polynomial $f(x)$ by our quadratic factor $x^2 + 4$ to find the final linear factor.
+
+
+1. **Divide:** $x^3 / x^2 = x$
+2. **Multiply:** $x(x^2 + 4) = x^3 + 4x$
+3. **Subtract:** $(x^3 - 4x^2 + 4x - 16) - (x^3 + 4x) = -4x^2 - 16$
+4. **Divide:** $-4x^2 / x^2 = -4$
+5. **Multiply:** $-4(x^2 + 4) = -4x^2 - 16$
+6. **Subtract:** $(-4x^2 - 16) - (-4x^2 - 16) = 0$
+
+The quotient is **$x - 4$**.
+
+#### 4. Find the Final Zero
+Set the remaining linear factor to zero:
+$$x - 4 = 0$$
+$$x = 4$$
+
+---
+
+#### Final Summary
+* **Zeros:** $2i, -2i, 4$
+* **Factored Form (Complex):** $f(x) = (x - 2i)(x + 2i)(x - 4)$
+* **Factored Form (Real):** $f(x) = (x^2 + 4)(x - 4)$
+
+
+> [!abstract] Algebra Takeaway
+> Even though this is a degree 3 polynomial, it only crosses the x-axis **once** (at $x=4$). The other two zeros are imaginary, meaning they do not produce x-intercepts on a standard coordinate plane.
