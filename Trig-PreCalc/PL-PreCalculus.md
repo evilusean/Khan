@@ -6981,3 +6981,41 @@ $$(x - 5)(x + 2) = 0$$
 
 > [!abstract] Algebra Takeaway
 > By using the given complex zero to form a quadratic divisor, we reduced a difficult degree 4 polynomial into a factorable degree 2 polynomial. The two real zeros ($5$ and $-2$) are where the graph crosses the x-axis, while the complex pair accounts for the remaining "turns" in the function.
+
+### Finding the Zeros of f(x) = x⁴ - 1
+
+To find the zeros, we set the polynomial equal to zero and solve for $x$. This specific polynomial is a **Difference of Squares**, which allows us to solve it through repeated factoring.
+
+---
+
+#### 1. Factoring as a Difference of Squares
+The expression $x^4 - 1$ can be seen as $(x^2)^2 - (1)^2$.
+$$f(x) = (x^2 - 1)(x^2 + 1)$$
+
+#### 2. Identifying the Real Zeros
+The first factor, $(x^2 - 1)$, is another difference of squares:
+$$(x - 1)(x + 1) = 0$$
+* $x - 1 = 0 \implies \mathbf{x = 1}$
+* $x + 1 = 0 \implies \mathbf{x = -1}$
+
+
+
+#### 3. Identifying the Complex Zeros
+The second factor, $(x^2 + 1)$, is an irreducible quadratic over the real numbers. To find the zeros, we set it to zero:
+$$x^2 + 1 = 0$$
+$$x^2 = -1$$
+$$x = \pm \sqrt{-1}$$
+* $\mathbf{x = i}$
+* $\mathbf{x = -i}$
+
+
+
+---
+
+#### Final Summary
+* **Total Zeros:** $1, -1, i, -i$
+* **Factored Form (Real):** $f(x) = (x - 1)(x + 1)(x^2 + 1)$
+* **Factored Form (Complex):** $f(x) = (x - 1)(x + 1)(x - i)(x + i)$
+
+> [!abstract] Algebra Takeaway
+> This is a degree 4 polynomial, so it must have 4 zeros. While only two are visible as x-intercepts ($1$ and $-1$), the other two exist in the complex plane as a conjugate pair ($i$ and $-i$).
