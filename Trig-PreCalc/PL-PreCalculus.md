@@ -6657,27 +6657,20 @@ If the problem provides a specific point $(x, y)$ that the graph passes through:
 In the context of factoring polynomials over the **Real Number System**, every polynomial can be broken down into a product of these two types of building blocks.
 
 ---
-
 #### 1. Linear Factors
 A linear factor is a first-degree polynomial in the form **$(ax + b)$** or simply **$(x - c)$**.
 * **X-Intercepts:** Every linear factor corresponds to exactly one **real x-intercept** on a graph.
 * **Solvability:** Setting a linear factor to zero is straightforward (e.g., $x - 3 = 0 \implies x = 3$).
 * **Graphical Behavior:** The graph will either cross through or "bounce" off the x-axis at this value, depending on the multiplicity.
 
-
-
 ---
-
 #### 2. Irreducible Quadratics
 An irreducible quadratic is a second-degree polynomial **$(ax^2 + bx + c)$** that **cannot** be factored further into linear factors using real numbers.
 * **The Discriminant Test:** A quadratic is irreducible over the reals if its discriminant is negative: **$b^2 - 4ac < 0$**.
 * **X-Intercepts:** These factors do **not** produce real x-intercepts. On a graph, these represent the parts of the polynomial that "turn around" before reaching the x-axis.
 * **Complex Solutions:** If you use the Quadratic Formula on an irreducible quadratic, you will always get two **complex (imaginary) solutions** in conjugate pairs (e.g., $x = 2 \pm 3i$).
 
-
-
 ---
-
 #### 3. Summary Comparison
 
 | Feature | Linear Factor | Irreducible Quadratic |
@@ -6689,7 +6682,6 @@ An irreducible quadratic is a second-degree polynomial **$(ax^2 + bx + c)$** tha
 | **X-Axis Interaction** | Crosses or Bounces | Never touches |
 
 ---
-
 #### 4. The "Complete Factorization" Context
 * **Over the Reals:** You stop factoring once you have a mix of linear factors and irreducible quadratics.
   * *Example:* $f(x) = (x - 2)(x^2 + 9)$
