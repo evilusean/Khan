@@ -6896,7 +6896,6 @@ If the problem **gives** you a complex zero (e.g., $x = 1 + 3i$), you can use it
 Since the degree of the polynomial is 3, we are looking for a total of three zeros. We are given one complex zero, which allows us to find the second one immediately.
 
 ---
-
 #### 1. Identify the Complex Pair
 According to the **Complex Conjugate Root Theorem**, complex zeros must appear in pairs.
 * **Given Zero:** $x = 2i$
@@ -6910,8 +6909,6 @@ $$x^2 - (2i)^2$$
 $$x^2 - 4i^2$$
 Since $i^2 = -1$:
 $$x^2 + 4$$
-
-
 #### 3. Polynomial Long Division
 We now divide the original polynomial $f(x)$ by our quadratic factor $x^2 + 4$ to find the final linear factor.
 
@@ -6931,7 +6928,6 @@ $$x - 4 = 0$$
 $$x = 4$$
 
 ---
-
 #### Final Summary
 * **Zeros:** $2i, -2i, 4$
 * **Factored Form (Complex):** $f(x) = (x - 2i)(x + 2i)(x - 4)$
@@ -6940,3 +6936,4 @@ $$x = 4$$
 
 > [!abstract] Algebra Takeaway
 > Even though this is a degree 3 polynomial, it only crosses the x-axis **once** (at $x=4$). The other two zeros are imaginary, meaning they do not produce x-intercepts on a standard coordinate plane.
+
