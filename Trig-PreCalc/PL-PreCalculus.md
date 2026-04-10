@@ -6848,3 +6848,5 @@ $$\mathbf{f(x) = x^5 - 5x^4 + 11x^3 - 13x^2 + 8x - 2}$$
 
 > [!abstract] Algebra Takeaway
 > Multiplicity 3 means the graph doesn't just cross the x-axis at $x=1$; it "flattens out" as it passes through, like a cubic function. The complex pair ($1 \pm i$) ensures the rest of the "turns" in the graph stay off the x-axis.
+
+## 2026-April-10 - Finding ALL Solutions of Polynomials (Precalculus - College Algebra 37) :
