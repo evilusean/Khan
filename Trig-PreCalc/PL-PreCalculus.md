@@ -7051,13 +7051,9 @@ $$x = \pm \sqrt{-4}$$
 To find all four zeros of this degree 4 polynomial, we will use the Rational Zeros Theorem to find real roots and then reduce the polynomial to a quadratic.
 
 ---
-
 #### 1. Rational Zeros Theorem (RZT)
 We list potential rational zeros by taking the factors of the constant term ($-75$) over the factors of the leading coefficient ($1$).
 * **Factors of 75:** $\pm 1, \pm 3, \pm 5, \pm 15, \pm 25, \pm 75$
-
-
-
 #### 2. Testing Potential Zeros (Synthetic Division)
 **Test $x = 1$:**
 $$1 \mid \begin{smallmatrix} 1 & 2 & 22 & 50 & -75 \\ & 1 & 3 & 25 & 75 \\ \hline 1 & 3 & 25 & 75 & \mathbf{0} \end{smallmatrix}$$
@@ -7066,9 +7062,6 @@ $$1 \mid \begin{smallmatrix} 1 & 2 & 22 & 50 & -75 \\ & 1 & 3 & 25 & 75 \\ \hlin
 **Test $x = -3$ (on the depressed polynomial):**
 $$-3 \mid \begin{smallmatrix} 1 & 3 & 25 & 75 \\ & -3 & 0 & -75 \\ \hline 1 & 0 & 25 & \mathbf{0} \end{smallmatrix}$$
 * **Success!** $x = -3$ is a zero. The remaining depressed polynomial is $x^2 + 25$.
-
-
-
 #### 3. Solving the Remaining Quadratic
 Set the final depressed polynomial to zero:
 $$x^2 + 25 = 0$$
@@ -7076,13 +7069,11 @@ $$x^2 = -25$$
 $$x = \pm \sqrt{-25}$$
 * $\mathbf{x = 5i}$
 * $\mathbf{x = -5i}$
-
 #### 4. Final Zeros and Factorization
 * **All Zeros:** $1, -3, 5i, -5i$
 * **Factored Form (Real/Irreducible):** $f(x) = (x - 1)(x + 3)(x^2 + 25)$
 * **Factored Form (Complex):** $f(x) = (x - 1)(x + 3)(x - 5i)(x + 5i)$
 
-
-
 > [!abstract] Algebra Takeaway
 > We successfully "chipped away" at the degree 4 polynomial by finding two real rational zeros. This left us with a simple quadratic ($x^2 + 25$) that yielded a pair of pure imaginary conjugate zeros.
+
