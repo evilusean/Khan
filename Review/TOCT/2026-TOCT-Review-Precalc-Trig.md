@@ -1180,3 +1180,6 @@ The **Rational Zeros Theorem** provides a complete list of all possible rational
 
 To build a polynomial from complex zeros, you convert each zero into a linear factor $(x - c)$, ensure you include the missing **conjugate pair** ($a - bi$ for every $a + bi$), and then multiply the factors together—ideally by grouping the real parts to simplify the distribution into a real-coefficient quadratic.
 
+### Finding ALL Solutions of Polynomials (Professor Leonard #37 )
+
+Finding all solutions involves a systematic reduction of the polynomial's degree by identifying rational zeros through the Rational Zeros Theorem and synthetic division, then using long division or the quadratic formula to uncover the remaining irrational and complex conjugate pairs until the total number of zeros matches the polynomial's degree.
