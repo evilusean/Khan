@@ -7077,3 +7077,38 @@ $$x = \pm \sqrt{-25}$$
 > [!abstract] Algebra Takeaway
 > We successfully "chipped away" at the degree 4 polynomial by finding two real rational zeros. This left us with a simple quadratic ($x^2 + 25$) that yielded a pair of pure imaginary conjugate zeros.
 
+### Finding the Zeros of g(x) = 3x⁴ + 5x³ + 25x² + 45x - 18
+
+To find all four zeros of this degree 4 polynomial, we will apply the Rational Zeros Theorem to identify real roots and use synthetic division to reduce the function to a quadratic.
+
+---
+#### 1. Rational Zeros Theorem (RZT)
+We list potential rational zeros by taking the factors of the constant term ($-18$) over the factors of the leading coefficient ($3$).
+* **Factors of $p$ (-18):** $\pm 1, \pm 2, \pm 3, \pm 6, \pm 9, \pm 18$
+* **Factors of $q$ (3):** $\pm 1, \pm 3$
+* **Potential Rational Zeros ($p/q$):** $\pm 1, \pm 2, \pm 3, \pm 6, \pm 9, \pm 18, \pm 1/3, \pm 2/3$
+#### 2. Testing Zeros (Synthetic Division)
+**Test $x = -2$:**
+$$-2 \mid \begin{smallmatrix} 3 & 5 & 25 & 45 & -18 \\ & -6 & 2 & -54 & 18 \\ \hline 3 & -1 & 27 & -9 & \mathbf{0} \end{smallmatrix}$$
+* **Success!** $x = -2$ is a zero. The depressed polynomial is $3x^3 - x^2 + 27x - 9$.
+
+**Test $x = 1/3$ (on the depressed polynomial):**
+$$1/3 \mid \begin{smallmatrix} 3 & -1 & 27 & -9 \\ & 1 & 0 & 9 \\ \hline 3 & 0 & 27 & \mathbf{0} \end{smallmatrix}$$
+* **Success!** $x = 1/3$ is a zero. The remaining depressed polynomial is $3x^2 + 27$.
+#### 3. Solving the Remaining Quadratic
+Set the final depressed polynomial to zero:
+$$3x^2 + 27 = 0$$
+$$3x^2 = -27$$
+$$x^2 = -9$$
+$$x = \pm \sqrt{-9}$$
+* $\mathbf{x = 3i}$
+* $\mathbf{x = -3i}$
+#### 4. Final Zeros and Factorization
+* **All Zeros:** $-2, 1/3, 3i, -3i$
+* **Factored Form (Real/Irreducible):** $g(x) = (x + 2)(3x - 1)(x^2 + 9)$
+* **Factored Form (Complex):** $g(x) = 3(x + 2)(x - 1/3)(x - 3i)(x + 3i)$
+
+> [!abstract] Algebra Takeaway
+> This polynomial crosses the x-axis at one integer ($-2$) and one fraction ($1/3$). The remaining degree is accounted for by a pair of pure imaginary zeros ($ \pm 3i$), which do not appear as x-intercepts.
+
+## 2026-April-11 - Finding Vertical Asymptotes of Rational Functions (Precalculus - College Algebra 38) :
