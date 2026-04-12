@@ -7110,5 +7110,6 @@ $$x = \pm \sqrt{-9}$$
 
 > [!abstract] Algebra Takeaway
 > This polynomial crosses the x-axis at one integer ($-2$) and one fraction ($1/3$). The remaining degree is accounted for by a pair of pure imaginary zeros ($ \pm 3i$), which do not appear as x-intercepts.
-## 2026-April-11 - Finding Vertical Asymptotes of Rational Functions (Precalculus - College Algebra 38) :
+## 2026-April-12 - Finding Vertical Asymptotes of Rational Functions (Precalculus - College Algebra 38) :
 https://www.youtube.com/watch?v=y-bSJaEonho&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=40
+
