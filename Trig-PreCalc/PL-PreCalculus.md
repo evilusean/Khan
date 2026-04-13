@@ -7153,5 +7153,42 @@ Since a hole is a specific point, you must find its $y$-value:
 
 ### Vertical Asymptotes Appearance with Multiplicity :
 ![[Pasted image 20260413193911.png]]
-- The multiplicity of a denominator's factor determines whether the graph approaches the same infinity (even multiplicity, creating a "volcano" shape) or opposite infinities (odd multiplicity, with one side heading up and the other down) on either side of the vertical asymptote.
-- 
+### Multiplicity and Vertical Asymptote Behavior
+
+The power of a non-removable factor in the denominator dictates the direction the function takes as it approaches the vertical asymptote.
+
+---
+
+#### 1. Odd Multiplicity (Opposite Directions)
+When the multiplicity is odd (e.g., $(x-c)^1, (x-c)^3$), the graph approaches the asymptote from **opposite** directions.
+* **Positive Lead:** Approaches $-\infty$ from the left and $+\infty$ from the right.
+* **Example:** $f(x) = \frac{1}{x-2}$
+    * Factor $(x-2)$ has multiplicity **1**.
+    * At $x=2$, the left side falls and the right side rises.
+
+
+
+---
+
+#### 2. Even Multiplicity (Same Direction)
+When the multiplicity is even (e.g., $(x-c)^2, (x-c)^4$), the graph approaches the asymptote from the **same** direction.
+* **Positive Lead:** Both sides approach $+\infty$ (the "volcano").
+* **Example:** $g(x) = \frac{1}{(x+3)^2}$
+    * Factor $(x+3)$ has multiplicity **2**.
+    * At $x=-3$, both the left and right sides rise toward $+\infty$.
+
+
+
+---
+
+#### 3. Summary of Signs
+
+| Multiplicity | Leading Sign | Left Side Behavior | Right Side Behavior | Visual Effect |
+| :--- | :--- | :--- | :--- | :--- |
+| **Odd** | Positive (+) | $\to -\infty$ | $\to +\infty$ | Split |
+| **Odd** | Negative (-) | $\to +\infty$ | $\to -\infty$ | Split (Reflected) |
+| **Even** | Positive (+) | $\to +\infty$ | $\to +\infty$ | Volcano |
+| **Even** | Negative (-) | $\to -\infty$ | $\to -\infty$ | Well/Pit |
+
+> [!tip] Quick Check
+> If you aren't sure of the direction, pick a test point extremely close to the asymptote (e.g., if the V.A. is at $x=2$, test $1.9$ and $2.1$) to see if the resulting $y$-value is a large positive or large negative number.
