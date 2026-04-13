@@ -7228,7 +7228,7 @@ The graph's appearance around $x = 4$ is determined by the multiplicity of the f
 > [!abstract] Algebra Takeaway
 > Because the factor $(x-4)$ remained in the denominator after we attempted to simplify, it creates a non-removable discontinuity. This acts as a physical barrier that the graph follows toward infinity rather than a simple "hole" in the line.
 
-### Analysis of g(x) = \frac{2}{(x-1)^2}
+### Analysis of $g(x) = \frac{2}{(x-1)^2}$
 
 We analyze this function by identifying the restricted values and determining the graphical behavior at the discontinuity.
 
@@ -7251,7 +7251,6 @@ We check if the factor $(x - 1)$ cancels with the numerator:
 Since the factor $(x - 1)$ cannot be canceled out, the discontinuity at **$x = 1$** is a **Vertical Asymptote**.
 
 ---
-
 #### 4. Graphical Behavior
 The appearance of the graph around the asymptote is dictated by the multiplicity and the sign of the constant.
 
@@ -7261,10 +7260,7 @@ The appearance of the graph around the asymptote is dictated by the multiplicity
     * Since the numerator is positive ($+2$), both sides approach $+\infty$.
     * This creates a **"volcano"** or **"chimney"** shape at $x = 1$.
 
-
-
 ---
-
 #### Summary Table
 | Feature | Value |
 | :--- | :--- |
@@ -7275,3 +7271,4 @@ The appearance of the graph around the asymptote is dictated by the multiplicity
 
 > [!abstract] Algebra Takeaway
 > The even power on the $(x - 1)$ term ensures that regardless of whether you plug in a number slightly smaller than 1 or slightly larger than 1, the denominator becomes a very small *positive* number, forcing the entire function toward $+\infty$.
+
