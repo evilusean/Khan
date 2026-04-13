@@ -7153,3 +7153,5 @@ Since a hole is a specific point, you must find its $y$-value:
 
 ### Vertical Asymptotes Appearance with Multiplicity :
 ![[Pasted image 20260413193911.png]]
+- The multiplicity of a denominator's factor determines whether the graph approaches the same infinity (even multiplicity, creating a "volcano" shape) or opposite infinities (odd multiplicity, with one side heading up and the other down) on either side of the vertical asymptote.
+- 
