@@ -7185,3 +7185,51 @@ When the multiplicity is even (e.g., $(x-c)^2, (x-c)^4$), the graph approaches t
 
 > [!tip] Quick Check
 > If you aren't sure of the direction, pick a test point extremely close to the asymptote (e.g., if the V.A. is at $x=2$, test $1.9$ and $2.1$) to see if the resulting $y$-value is a large positive or large negative number.
+
+### Analysis of f(x) = \frac{x+3}{x-4}
+
+To determine the behavior of a rational function, we must first identify the values that make the denominator zero.
+
+---
+
+#### 1. Set the Denominator to Zero
+We find the restricted values of $x$ by setting $D(x) = 0$:
+$$x - 4 = 0$$
+$$x = 4$$
+
+#### 2. Domain
+The domain consists of all real numbers except those that cause division by zero.
+**Domain:** $\{x \mid x \neq 4\}$ or $(-\infty, 4) \cup (4, \infty)$
+
+#### 3. Classifying the Discontinuity
+To decide if $x = 4$ is a hole or a vertical asymptote, we check if the factor $(x-4)$ cancels with anything in the numerator.
+* **Numerator:** $(x + 3)$
+* **Denominator:** $(x - 4)$
+Since the factor $(x-4)$ does **not** cancel, it is a **Vertical Asymptote**.
+
+---
+
+#### 4. Graphical Behavior
+The graph's appearance around $x = 4$ is determined by the multiplicity of the factor and the leading signs.
+
+* **Asymptote Location:** A vertical dashed line at $x = 4$.
+* **Multiplicity:** The factor $(x-4)$ has an exponent of **1** (odd).
+* **Behavior:** The graph will approach opposite infinities.
+    * As $x \to 4^-$, $f(x) \to -\infty$ (The left side goes down).
+    * As $x \to 4^+$, $f(x) \to +\infty$ (The right side goes up).
+* **Horizontal Asymptote:** Since the degrees of the numerator and denominator are the same ($1/1$), there is a horizontal asymptote at $y = 1$.
+
+
+
+---
+
+#### Summary Table
+| Feature | Value |
+| :--- | :--- |
+| **Discontinuity** | $x = 4$ |
+| **Type** | Vertical Asymptote |
+| **Multiplicity** | Odd (1) |
+| **Direction** | Opposite ($\swarrow \nearrow$) |
+
+> [!abstract] Algebra Takeaway
+> Because the factor $(x-4)$ remained in the denominator after we attempted to simplify, it creates a non-removable discontinuity. This acts as a physical barrier that the graph follows toward infinity rather than a simple "hole" in the line.
