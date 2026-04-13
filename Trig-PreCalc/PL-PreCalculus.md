@@ -7112,4 +7112,51 @@ $$x = \pm \sqrt{-9}$$
 > This polynomial crosses the x-axis at one integer ($-2$) and one fraction ($1/3$). The remaining degree is accounted for by a pair of pure imaginary zeros ($ \pm 3i$), which do not appear as x-intercepts.
 ## 2026-April-12 - Finding Vertical Asymptotes of Rational Functions (Precalculus - College Algebra 38) :
 https://www.youtube.com/watch?v=y-bSJaEonho&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=40
+### Finding Vertical Asymptotes and Holes (Professor Leonard)
 
+Rational functions $f(x) = \frac{N(x)}{D(x)}$ have discontinuities wherever the denominator $D(x)$ equals zero. These take two forms: **Holes** and **Vertical Asymptotes (V.A.)**.
+
+---
+
+#### 1. The Relationship: Vertical Asymptotes vs. Holes
+A discontinuity occurs whenever a value of $x$ is excluded from the domain.
+
+* **Hole (Removable):** Occurs if a factor in the denominator **cancels** with an identical factor in the numerator. It represents a single missing point.
+* **Vertical Asymptote (Non-removable):** Occurs if a factor in the denominator **remains** after simplification. It represents a line the graph cannot cross.
+
+
+
+---
+
+#### 2. Analysis Procedure
+Always follow these steps in order to avoid missing hidden holes:
+
+1.  **Factor:** Factor both the numerator and the denominator completely.
+2.  **State the Domain:** List all values that make the denominator zero *before* canceling anything.
+3.  **Simplify:** Cancel common factors.
+4.  **Classify:** * Factors that were canceled = **Holes**.
+    * Factors that remain in the denominator = **Vertical Asymptotes**.
+
+---
+
+#### 3. Multiplicity and Behavior at V.A.
+The power (multiplicity) of the denominator's remaining factor determines the "look" of the asymptote:
+
+* **Odd Multiplicity (e.g., $(x-c)^1$):** The graph approaches the asymptote from **opposite directions** (one side goes to $+\infty$, the other to $-\infty$).
+* **Even Multiplicity (e.g., $(x-c)^2$):** The graph approaches the asymptote from the **same direction** (both sides go to $+\infty$ or both to $-\infty$), creating a "volcano" effect.
+
+
+
+---
+
+#### 4. Finding the Y-Coordinate of a Hole
+Since a hole is a specific point, you must find its $y$-value:
+1.  Take the $x$-value that caused the hole.
+2.  Plug it into the **simplified** version of the function.
+3.  The result is the height of the "missing" point.
+
+> [!warning] Critical Error to Avoid
+> Never cancel factors before defining your domain. If you cancel first, you will lose the information that tells you where the holes are located, leading to an incorrect domain and an incomplete graph.
+
+> [!abstract] Algebra Takeaway
+> Vertical Asymptotes are the "walls" of the graph, while Holes are just "potholes" in the road. Both are caused by zero in the denominator, but canceling makes the difference between a point and an asymptote.
