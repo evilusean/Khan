@@ -7150,3 +7150,6 @@ Since a hole is a specific point, you must find its $y$-value:
 
 > [!abstract] Algebra Takeaway
 > Vertical Asymptotes are the "walls" of the graph, while Holes are just "potholes" in the road. Both are caused by zero in the denominator, but canceling makes the difference between a point and an asymptote.
+
+### Vertical Asymptotes Appearance with Multiplicity :
+![[Pasted image 20260413193911.png]]
