@@ -7158,7 +7158,6 @@ Since a hole is a specific point, you must find its $y$-value:
 The power of a non-removable factor in the denominator dictates the direction the function takes as it approaches the vertical asymptote.
 
 ---
-
 #### 1. Odd Multiplicity (Opposite Directions)
 When the multiplicity is odd (e.g., $(x-c)^1, (x-c)^3$), the graph approaches the asymptote from **opposite** directions.
 * **Positive Lead:** Approaches $-\infty$ from the left and $+\infty$ from the right.
@@ -7166,10 +7165,7 @@ When the multiplicity is odd (e.g., $(x-c)^1, (x-c)^3$), the graph approaches th
     * Factor $(x-2)$ has multiplicity **1**.
     * At $x=2$, the left side falls and the right side rises.
 
-
-
 ---
-
 #### 2. Even Multiplicity (Same Direction)
 When the multiplicity is even (e.g., $(x-c)^2, (x-c)^4$), the graph approaches the asymptote from the **same** direction.
 * **Positive Lead:** Both sides approach $+\infty$ (the "volcano").
@@ -7177,10 +7173,7 @@ When the multiplicity is even (e.g., $(x-c)^2, (x-c)^4$), the graph approaches t
     * Factor $(x+3)$ has multiplicity **2**.
     * At $x=-3$, both the left and right sides rise toward $+\infty$.
 
-
-
 ---
-
 #### 3. Summary of Signs
 
 | Multiplicity | Leading Sign | Left Side Behavior | Right Side Behavior | Visual Effect |
