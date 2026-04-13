@@ -7117,17 +7117,12 @@ https://www.youtube.com/watch?v=y-bSJaEonho&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Rational functions $f(x) = \frac{N(x)}{D(x)}$ have discontinuities wherever the denominator $D(x)$ equals zero. These take two forms: **Holes** and **Vertical Asymptotes (V.A.)**.
 
 ---
-
 #### 1. The Relationship: Vertical Asymptotes vs. Holes
 A discontinuity occurs whenever a value of $x$ is excluded from the domain.
 
 * **Hole (Removable):** Occurs if a factor in the denominator **cancels** with an identical factor in the numerator. It represents a single missing point.
 * **Vertical Asymptote (Non-removable):** Occurs if a factor in the denominator **remains** after simplification. It represents a line the graph cannot cross.
-
-
-
 ---
-
 #### 2. Analysis Procedure
 Always follow these steps in order to avoid missing hidden holes:
 
@@ -7138,17 +7133,12 @@ Always follow these steps in order to avoid missing hidden holes:
     * Factors that remain in the denominator = **Vertical Asymptotes**.
 
 ---
-
 #### 3. Multiplicity and Behavior at V.A.
 The power (multiplicity) of the denominator's remaining factor determines the "look" of the asymptote:
 
 * **Odd Multiplicity (e.g., $(x-c)^1$):** The graph approaches the asymptote from **opposite directions** (one side goes to $+\infty$, the other to $-\infty$).
 * **Even Multiplicity (e.g., $(x-c)^2$):** The graph approaches the asymptote from the **same direction** (both sides go to $+\infty$ or both to $-\infty$), creating a "volcano" effect.
-
-
-
 ---
-
 #### 4. Finding the Y-Coordinate of a Hole
 Since a hole is a specific point, you must find its $y$-value:
 1.  Take the $x$-value that caused the hole.
