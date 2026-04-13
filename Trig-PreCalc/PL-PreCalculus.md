@@ -7186,7 +7186,7 @@ When the multiplicity is even (e.g., $(x-c)^2, (x-c)^4$), the graph approaches t
 > [!tip] Quick Check
 > If you aren't sure of the direction, pick a test point extremely close to the asymptote (e.g., if the V.A. is at $x=2$, test $1.9$ and $2.1$) to see if the resulting $y$-value is a large positive or large negative number.
 
-### Analysis of f(x) = \frac{x+3}{x-4}
+### Analysis of $f(x) = \frac{x+3}{x-4}$
 
 To determine the behavior of a rational function, we must first identify the values that make the denominator zero.
 
@@ -7227,3 +7227,51 @@ The graph's appearance around $x = 4$ is determined by the multiplicity of the f
 
 > [!abstract] Algebra Takeaway
 > Because the factor $(x-4)$ remained in the denominator after we attempted to simplify, it creates a non-removable discontinuity. This acts as a physical barrier that the graph follows toward infinity rather than a simple "hole" in the line.
+
+### Analysis of g(x) = \frac{2}{(x-1)^2}
+
+We analyze this function by identifying the restricted values and determining the graphical behavior at the discontinuity.
+
+---
+
+#### 1. Set the Denominator to Zero
+We find the restricted values of $x$ by setting the denominator equal to zero:
+$$(x - 1)^2 = 0$$
+$$x - 1 = 0$$
+$$\mathbf{x = 1}$$
+
+#### 2. Domain
+The domain includes every real number except the value that causes division by zero.
+**Domain:** $\{x \mid x \neq 1\}$ or $(-\infty, 1) \cup (1, \infty)$
+
+#### 3. Classifying the Discontinuity
+We check if the factor $(x - 1)$ cancels with the numerator:
+* **Numerator:** $2$ (constant)
+* **Denominator:** $(x - 1)^2$
+Since the factor $(x - 1)$ cannot be canceled out, the discontinuity at **$x = 1$** is a **Vertical Asymptote**.
+
+---
+
+#### 4. Graphical Behavior
+The appearance of the graph around the asymptote is dictated by the multiplicity and the sign of the constant.
+
+* **Asymptote Location:** A vertical dashed line at $x = 1$.
+* **Multiplicity:** The factor $(x - 1)$ has an exponent of **2** (**Even**).
+* **Behavior:** Because the multiplicity is even, the graph approaches the same infinity from both sides.
+    * Since the numerator is positive ($+2$), both sides approach $+\infty$.
+    * This creates a **"volcano"** or **"chimney"** shape at $x = 1$.
+
+
+
+---
+
+#### Summary Table
+| Feature | Value |
+| :--- | :--- |
+| **Discontinuity** | $x = 1$ |
+| **Type** | Vertical Asymptote |
+| **Multiplicity** | Even (2) |
+| **Direction** | Same Direction ($\uparrow \uparrow$) |
+
+> [!abstract] Algebra Takeaway
+> The even power on the $(x - 1)$ term ensures that regardless of whether you plug in a number slightly smaller than 1 or slightly larger than 1, the denominator becomes a very small *positive* number, forcing the entire function toward $+\infty$.
