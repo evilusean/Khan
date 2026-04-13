@@ -7191,12 +7191,10 @@ When the multiplicity is even (e.g., $(x-c)^2, (x-c)^4$), the graph approaches t
 To determine the behavior of a rational function, we must first identify the values that make the denominator zero.
 
 ---
-
 #### 1. Set the Denominator to Zero
 We find the restricted values of $x$ by setting $D(x) = 0$:
 $$x - 4 = 0$$
 $$x = 4$$
-
 #### 2. Domain
 The domain consists of all real numbers except those that cause division by zero.
 **Domain:** $\{x \mid x \neq 4\}$ or $(-\infty, 4) \cup (4, \infty)$
@@ -7208,7 +7206,6 @@ To decide if $x = 4$ is a hole or a vertical asymptote, we check if the factor $
 Since the factor $(x-4)$ does **not** cancel, it is a **Vertical Asymptote**.
 
 ---
-
 #### 4. Graphical Behavior
 The graph's appearance around $x = 4$ is determined by the multiplicity of the factor and the leading signs.
 
@@ -7219,10 +7216,7 @@ The graph's appearance around $x = 4$ is determined by the multiplicity of the f
     * As $x \to 4^+$, $f(x) \to +\infty$ (The right side goes up).
 * **Horizontal Asymptote:** Since the degrees of the numerator and denominator are the same ($1/1$), there is a horizontal asymptote at $y = 1$.
 
-
-
 ---
-
 #### Summary Table
 | Feature | Value |
 | :--- | :--- |
