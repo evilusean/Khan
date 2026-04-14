@@ -7364,3 +7364,64 @@ The appearance of the graph is dictated by the simplified function: $f_{simp}(x)
 
 ## 2026-April-14 - Graphing Rational Functions with Transformations (Precalculus - College Algebra 39) :
 https://www.youtube.com/watch?v=-k4uXF4hsAs&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=40
+### Graphing Rational Functions with Transformations
+
+Rational functions can be graphed by applying transformations to two primary "parent" functions: the **Reciprocal Function** ($1/x$) and the **Reciprocal Squared Function** ($1/x^2$). Understanding how $h, k,$ and $a$ modify these parents is the key to sketching them accurately.
+
+---
+
+#### 1. The Parent Functions
+The shape of the graph is determined by the multiplicity of the factor in the denominator.
+
+| Feature | $f(x) = \frac{1}{x}$ (Odd) | $f(x) = \frac{1}{x^2}$ (Even) |
+| :--- | :--- | :--- |
+| **V.A. Behavior** | Opposite Infinities ($\swarrow \nearrow$) | Same Infinity ($\uparrow \uparrow$) |
+| **Symmetry** | Odd (Origin) | Even (y-axis) |
+| **Key Points** | $(1, 1), (-1, -1)$ | $(1, 1), (-1, 1)$ |
+
+
+
+
+---
+
+#### 2. The Transformation Model: $f(x) = \frac{a}{(x - h)^n} + k$
+Transformations are applied to the asymptotes first, then the points.
+
+* **$h$ (Horizontal Shift):** Moves the **Vertical Asymptote**.
+    * $x = h$ is the new V.A.
+* **$k$ (Vertical Shift):** Moves the **Horizontal Asymptote**.
+    * $y = k$ is the new H.A.
+* **$a$ (Stretch & Reflection):**
+    * If $a < 0$, the graph reflects across the **Horizontal Asymptote**.
+    * $a$ acts as a vertical stretch/compression from the H.A.
+
+
+
+---
+
+#### 3. Graphing Steps (The "New Origin" Method)
+Instead of plotting random points, use the intersection of the asymptotes $(h, k)$ as your reference point:
+
+1.  **Sketch Asymptotes:** Draw $x = h$ and $y = k$ as dashed lines.
+2.  **Determine Multiplicity:** * If $n$ is **odd**, use the "hyperbola" shape (opposite corners).
+    * If $n$ is **even**, use the "volcano" shape (same side of H.A.).
+3.  **Plot Transformative Key Points:**
+    * From $(h, k)$, go right 1 and up $a$.
+    * From $(h, k)$, go left 1 and up/down $a$ (depending on parent parity).
+4.  **Find Intercepts:** * **y-int:** $f(0)$
+    * **x-int:** Set numerator to 0 and solve.
+
+
+
+---
+
+#### Summary Table
+| Transformation | Algebra | Graphical Change |
+| :--- | :--- | :--- |
+| **Horizontal Shift** | $f(x - h)$ | Moves the "Wall" (V.A.) |
+| **Vertical Shift** | $f(x) + k$ | Moves the "Floor/Ceiling" (H.A.) |
+| **Vertical Reflection** | $-f(x)$ | Flips graph over the H.A. |
+| **Vertical Stretch** | $a \cdot f(x)$ | Pulls points away from the H.A. |
+
+> [!tip] Limit Logic
+> Think of the Horizontal Asymptote ($y=k$) as the "end behavior." As $x$ gets extremely large or small, the fraction part of the equation disappears (approaches zero), leaving only the $k$ value behind.
