@@ -7420,21 +7420,16 @@ Instead of plotting random points, use the intersection of the asymptotes $(h, k
 This function is a transformation of the **Reciprocal Squared** parent function. We determine its behavior by analyzing the shifts applied to the parent's asymptotes and symmetry.
 
 ---
-
 #### 1. Parent Function & Symmetry
 * **Parent:** $y = \frac{1}{x^2}$
 * **Symmetry:** This is an **Even** function. 
     * Algebraically: $f(-x) = \frac{1}{(-x)^2} + 3 = \frac{1}{x^2} + 3$. Since $f(-x) = f(x)$, it is even.
     * Graphically: It is symmetric with respect to the $y$-axis.
-
 #### 2. Transformations & Offsets
 The function follows the model $f(x) = \frac{a}{(x-h)^n} + k$.
 * **Horizontal Shift ($h$):** There is no value subtracted from $x$ in the denominator ($h=0$). The **Vertical Asymptote** remains at **$x = 0$**.
 * **Vertical Shift ($k$):** The $+3$ outside the fraction moves the entire graph **Up 3 units**. The **Horizontal Asymptote** shifts from $y=0$ to **$y = 3$**.
 * **Stretch/Reflection ($a$):** $a=1$, so there is no reflection or vertical stretch.
-
-
-
 #### 3. Graphical Appearance
 * **The "Volcano" Shape:** Because the exponent is **even** (2), both sides of the graph approach the same infinity.
 * **Vertical Asymptote:** The graph approaches $+\infty$ as $x$ gets closer to $0$ from both the left and right.
@@ -7442,7 +7437,6 @@ The function follows the model $f(x) = \frac{a}{(x-h)^n} + k$.
 * **Key Points:** Relative to the new "center" $(0, 3)$, the points are $(1, 4)$ and $(-1, 4)$.
 
 ---
-
 #### Summary Table
 | Feature | Value / Description |
 | :--- | :--- |
@@ -7454,3 +7448,4 @@ The function follows the model $f(x) = \frac{a}{(x-h)^n} + k$.
 
 > [!abstract] Algebra Takeaway
 > Adding a constant to the end of a rational function acts as a vertical offset. While the "walls" (vertical asymptotes) stay put if the denominator doesn't change, the "floor" (horizontal asymptote) is lifted or lowered by that constant.
+
