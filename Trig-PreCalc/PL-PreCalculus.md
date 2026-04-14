@@ -7316,3 +7316,53 @@ Since both discontinuities are asymptotes, we look at their multiplicities to de
 > [!abstract] Algebra Takeaway
 > Since there are two non-removable factors in the denominator, the graph is split into three distinct sections by two vertical "walls." Because the multiplicities are odd, the graph "jumps" from one infinity to the other as it passes each asymptote.
 
+### Analysis of F(x) = \frac{x^2 - 9}{x^2 + 4x - 21}
+
+To identify the behavior of this rational function, we must factor both the numerator and the denominator to find restricted values and classify them.
+
+---
+
+#### 1. Factoring and Setting Denominator to Zero
+First, we factor the entire expression:
+* **Numerator:** $x^2 - 9 = (x - 3)(x + 3)$
+* **Denominator:** $x^2 + 4x - 21 = (x + 7)(x - 3)$
+
+Setting the denominator to zero:
+$$(x + 7)(x - 3) = 0$$
+$$\mathbf{x = -7, \quad x = 3}$$
+
+#### 2. Domain
+The domain consists of all real numbers except those that cause division by zero.
+**Domain:** $\{x \mid x \neq -7, x \neq 3\}$ or $(-\infty, -7) \cup (-7, 3) \cup (3, \infty)$
+
+#### 3. Classifying the Discontinuities
+We compare the factors in the numerator and denominator to see what simplifies:
+$$F(x) = \frac{(x - 3)(x + 3)}{(x + 7)(x - 3)}$$
+
+* **Discontinuity at x = 3:** The factor $(x - 3)$ appears in both the numerator and denominator. Since it cancels out, this is a **Hole (Removable Discontinuity)**.
+* **Discontinuity at x = -7:** The factor $(x + 7)$ remains in the denominator after simplification. Therefore, this is a **Vertical Asymptote**.
+
+
+
+---
+
+#### 4. Graphical Behavior
+The appearance of the graph is dictated by the simplified function: $f_{simp}(x) = \frac{x + 3}{x + 7}$.
+
+* **At x = -7 (Vertical Asymptote):** * The multiplicity is **1** (odd).
+    * The graph will approach opposite infinities ($\swarrow \nearrow$).
+* **At x = 3 (Hole):** * There is a tiny "pothole" or open circle at this $x$-value. 
+    * To find the $y$-coordinate: $\frac{3 + 3}{3 + 7} = \frac{6}{10} = 0.6$.
+    * **Hole Location:** $(3, 0.6)$.
+
+---
+
+#### Summary Table
+| Feature | Value | Type | Behavior |
+| :--- | :--- | :--- | :--- |
+| **Discontinuity 1** | $x = -7$ | Vertical Asymptote | Opposite Directions |
+| **Discontinuity 2** | $x = 3$ | Hole | Open circle at $(3, 0.6)$ |
+| **Multiplicity (at -7)** | 1 | Odd | $\swarrow \nearrow$ |
+
+> [!abstract] Algebra Takeaway
+> Even though both $3$ and $-7$ make the denominator zero, they behave differently on a graph. The factor that "disappears" through cancellation only creates a hole, while the factor that "stays" creates a vertical wall (asymptote).
