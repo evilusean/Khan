@@ -7361,3 +7361,5 @@ The appearance of the graph is dictated by the simplified function: $f_{simp}(x)
 
 > [!abstract] Algebra Takeaway
 > Even though both $3$ and $-7$ make the denominator zero, they behave differently on a graph. The factor that "disappears" through cancellation only creates a hole, while the factor that "stays" creates a vertical wall (asymptote).
+
+## 2026-April-14 - Graphing Rational Functions with Transformations (Precalculus - College Algebra 39) :
