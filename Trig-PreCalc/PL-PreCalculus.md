@@ -7321,7 +7321,6 @@ Since both discontinuities are asymptotes, we look at their multiplicities to de
 To identify the behavior of this rational function, we must factor both the numerator and the denominator to find restricted values and classify them.
 
 ---
-
 #### 1. Factoring and Setting Denominator to Zero
 First, we factor the entire expression:
 * **Numerator:** $x^2 - 9 = (x - 3)(x + 3)$
@@ -7342,10 +7341,7 @@ $$F(x) = \frac{(x - 3)(x + 3)}{(x + 7)(x - 3)}$$
 * **Discontinuity at x = 3:** The factor $(x - 3)$ appears in both the numerator and denominator. Since it cancels out, this is a **Hole (Removable Discontinuity)**.
 * **Discontinuity at x = -7:** The factor $(x + 7)$ remains in the denominator after simplification. Therefore, this is a **Vertical Asymptote**.
 
-
-
 ---
-
 #### 4. Graphical Behavior
 The appearance of the graph is dictated by the simplified function: $f_{simp}(x) = \frac{x + 3}{x + 7}$.
 
@@ -7356,7 +7352,6 @@ The appearance of the graph is dictated by the simplified function: $f_{simp}(x)
     * **Hole Location:** $(3, 0.6)$.
 
 ---
-
 #### Summary Table
 | Feature | Value | Type | Behavior |
 | :--- | :--- | :--- | :--- |
