@@ -7369,7 +7369,6 @@ https://www.youtube.com/watch?v=-k4uXF4hsAs&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Rational functions can be graphed by applying transformations to two primary "parent" functions: the **Reciprocal Function** ($1/x$) and the **Reciprocal Squared Function** ($1/x^2$). Understanding how $h, k,$ and $a$ modify these parents is the key to sketching them accurately.
 
 ---
-
 #### 1. The Parent Functions
 The shape of the graph is determined by the multiplicity of the factor in the denominator.
 
@@ -7379,11 +7378,7 @@ The shape of the graph is determined by the multiplicity of the factor in the de
 | **Symmetry** | Odd (Origin) | Even (y-axis) |
 | **Key Points** | $(1, 1), (-1, -1)$ | $(1, 1), (-1, 1)$ |
 
-
-
-
 ---
-
 #### 2. The Transformation Model: $f(x) = \frac{a}{(x - h)^n} + k$
 Transformations are applied to the asymptotes first, then the points.
 
@@ -7395,10 +7390,7 @@ Transformations are applied to the asymptotes first, then the points.
     * If $a < 0$, the graph reflects across the **Horizontal Asymptote**.
     * $a$ acts as a vertical stretch/compression from the H.A.
 
-
-
 ---
-
 #### 3. Graphing Steps (The "New Origin" Method)
 Instead of plotting random points, use the intersection of the asymptotes $(h, k)$ as your reference point:
 
@@ -7411,10 +7403,7 @@ Instead of plotting random points, use the intersection of the asymptotes $(h, k
 4.  **Find Intercepts:** * **y-int:** $f(0)$
     * **x-int:** Set numerator to 0 and solve.
 
-
-
 ---
-
 #### Summary Table
 | Transformation | Algebra | Graphical Change |
 | :--- | :--- | :--- |
