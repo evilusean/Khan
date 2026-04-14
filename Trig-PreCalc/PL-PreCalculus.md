@@ -7454,22 +7454,17 @@ The function follows the model $f(x) = \frac{a}{(x-h)^n} + k$.
 This function is a transformation of the **Reciprocal Squared** parent function. We determine its behavior by analyzing the shifts applied to the asymptotes and the parity of the function.
 
 ---
-
 #### 1. Parent Function & Symmetry
 * **Parent:** $y = \frac{1}{x^2}$
 * **Parity (Even/Odd/Neither):** This function is **Neither**.
     * Algebraically: $g(-x) = \frac{1}{(-x-1)^2} - 2$. This does not equal $g(x)$ nor $-g(x)$.
     * While the *parent* function is even, the horizontal shift moves the axis of symmetry away from the $y$-axis ($x=0$), so the resulting function is no longer even.
-
 #### 2. Transformations & Offsets
 The function follows the model $g(x) = \frac{a}{(x-h)^n} + k$.
 
 * **Horizontal Shift ($h$):** The $(x - 1)$ in the denominator shifts the graph **Right 1 unit**. The **Vertical Asymptote** moves to **$x = 1$**.
 * **Vertical Shift ($k$):** The $-2$ at the end shifts the entire graph **Down 2 units**. The **Horizontal Asymptote** moves to **$y = -2$**.
 * **Stretch/Reflection ($a$):** $a = 1$, so there is no vertical stretch or reflection.
-
-
-
 #### 3. Graphical Appearance
 * **The "Volcano" Shape:** Because the exponent is **even** (2), both sides of the graph approach the same infinity.
 * **Vertical Asymptote:** The graph approaches $+\infty$ as $x$ approaches $1$ from both the left and right.
@@ -7479,7 +7474,6 @@ The function follows the model $g(x) = \frac{a}{(x-h)^n} + k$.
     * $(1-1, -2+1) \to (0, -1)$ (This is also the y-intercept).
 
 ---
-
 #### Summary Table
 | Feature | Value / Description |
 | :--- | :--- |
@@ -7491,3 +7485,4 @@ The function follows the model $g(x) = \frac{a}{(x-h)^n} + k$.
 
 > [!abstract] Algebra Takeaway
 > Shifting a "volcano" graph $(1/x^2)$ horizontally removes its even parity relative to the y-axis, though it remains symmetric with respect to its own vertical asymptote ($x=1$). The vertical shift determines the new "ground level" the graph settles on as $x$ moves toward infinity.
+
