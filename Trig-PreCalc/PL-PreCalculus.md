@@ -7277,18 +7277,15 @@ The appearance of the graph around the asymptote is dictated by the multiplicity
 To understand the behavior of this rational function, we must factor the denominator to find all restricted values and classify the resulting discontinuities.
 
 ---
-
 #### 1. Set the Denominator to Zero
 First, we factor the denominator using the difference of squares:
 $$x^2 - 4 = (x - 2)(x + 2)$$
 Setting the denominator to zero gives us:
 $$(x - 2)(x + 2) = 0$$
 $$\mathbf{x = 2, \quad x = -2}$$
-
 #### 2. Domain
 The domain consists of all real numbers except the two values that cause the denominator to be zero.
 **Domain:** $\{x \mid x \neq 2, x \neq -2\}$ or $(-\infty, -2) \cup (-2, 2) \cup (2, \infty)$
-
 #### 3. Classifying the Discontinuities
 We check if either factor in the denominator cancels with the numerator:
 * **Numerator:** $2x$
@@ -7298,22 +7295,17 @@ Neither $(x - 2)$ nor $(x + 2)$ can be canceled by the $2x$ in the numerator. Th
 * **x = -2** is a **Vertical Asymptote**.
 
 ---
-
 #### 4. Graphical Behavior
 Since both discontinuities are asymptotes, we look at their multiplicities to determine the graph's appearance.
 
 * **Multiplicity:** Both $(x - 2)$ and $(x + 2)$ have an exponent of **1** (**Odd**).
 * **Behavior:** The graph will approach opposite infinities at both $x = 2$ and $x = -2$.
-
-
-
 **Step-by-Step Visualizing:**
 1.  **At x = -2:** As you approach from the left, the function goes down ($-\infty$); from the right, it comes from above ($+\infty$).
 2.  **The Middle Section:** Between $x = -2$ and $x = 2$, the graph passes through the origin $(0,0)$ because the numerator $2(0) = 0$.
 3.  **At x = 2:** As you approach from the left, the function goes down ($-\infty$); from the right, it comes from above ($+\infty$).
 
 ---
-
 #### Summary Table
 | Feature | Value | Type | Multiplicity |
 | :--- | :--- | :--- | :--- |
@@ -7323,3 +7315,4 @@ Since both discontinuities are asymptotes, we look at their multiplicities to de
 
 > [!abstract] Algebra Takeaway
 > Since there are two non-removable factors in the denominator, the graph is split into three distinct sections by two vertical "walls." Because the multiplicities are odd, the graph "jumps" from one infinity to the other as it passes each asymptote.
+
