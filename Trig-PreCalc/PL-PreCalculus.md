@@ -7562,3 +7562,5 @@ The function follows the model $G(x) = \frac{a}{(x-h)^n} + k$.
 > [!abstract] Algebra Takeaway
 > The negative sign "flips" the quadrants of the hyperbola. Instead of the standard "positive" behavior, the left side of the wall now shoots upward while the right side plunges downward.
 
+## 2026-April-15 - Finding a Horizontal Asymptote of a Rational Function (Precalculus - College Algebra 40) :
+
