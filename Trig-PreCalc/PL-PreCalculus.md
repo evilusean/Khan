@@ -7569,7 +7569,6 @@ https://www.youtube.com/watch?v=D-H9N-_Y77Y&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 A horizontal asymptote (H.A.) describes the **end behavior** of a function. It is the $y$-value that the graph approaches as $x$ moves toward positive or negative infinity ($x \to \pm\infty$).
 
 ---
-
 #### 1. The Three Cases (Degree Comparison)
 To find the H.A., compare the degree of the numerator ($n$) to the degree of the denominator ($m$).
 
@@ -7579,10 +7578,7 @@ To find the H.A., compare the degree of the numerator ($n$) to the degree of the
 | **$n = m$** | Grow at the same rate | $y = \frac{\text{Leading Coefficient of } N(x)}{\text{Leading Coefficient of } D(x)}$ |
 | **$n > m$** | Numerator grows faster | **None** (Potential Slant Asymptote) |
 
-
-
 ---
-
 #### 2. Logic & Examples
 
 **Case 1: Denominator is "Stronger" ($n < m$)**
@@ -7602,13 +7598,10 @@ If the top grows faster, the function will head toward $\pm\infty$ rather than l
 * **Result:** **No Horizontal Asymptote**.
 
 ---
-
 #### 3. Important Rules
 * **Crossing the Asymptote:** Unlike vertical asymptotes (which are domain restrictions), a graph **can** cross a horizontal asymptote in its middle section. The H.A. only dictates the behavior at the "tails" of the graph.
 * **Exclusivity:** A rational function can have at most **one** horizontal asymptote.
 * **Limit Definition:** In calculus, the H.A. is found by taking the limit: $\lim_{x \to \infty} f(x)$.
-
-
 
 > [!abstract] Algebra Takeaway
 > Think of a horizontal asymptote as the "ultimate destination" of the graph. It doesn't matter what happens near the origin; as you zoom out further and further, the graph will eventually settle onto this horizontal line.
