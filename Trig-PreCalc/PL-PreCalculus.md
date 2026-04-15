@@ -7606,3 +7606,50 @@ If the top grows faster, the function will head toward $\pm\infty$ rather than l
 > [!abstract] Algebra Takeaway
 > Think of a horizontal asymptote as the "ultimate destination" of the graph. It doesn't matter what happens near the origin; as you zoom out further and further, the graph will eventually settle onto this horizontal line.
 
+### Analysis of $f(x) = \frac{4x^3 - 7x + 1}{7x^5 + 2x^3 - 3}$
+
+To find the horizontal asymptote and understand the end behavior, we compare the degrees of the numerator and the denominator.
+
+---
+
+#### 1. Identifying the Degrees
+* **Numerator Degree ($n$):** The highest exponent is **3**.
+* **Denominator Degree ($m$):** The highest exponent is **5**.
+
+#### 2. Determining the Horizontal Asymptote
+Since the degree of the denominator ($m = 5$) is **greater** than the degree of the numerator ($n = 3$), we follow the rule for "Bottom-Heavy" functions:
+* **Horizontal Asymptote:** **$y = 0$** (the x-axis).
+
+#### 3. Why? (The Logic of Growth)
+As $x$ becomes extremely large ($x \to \infty$ or $x \to -\infty$), the leading terms dominate the function. The function behaves like:
+$$f(x) \approx \frac{4x^3}{7x^5} = \frac{4}{7x^2}$$
+As $x$ grows, the denominator $7x^2$ grows significantly faster than the constant numerator. Dividing a small number by an increasingly massive number results in a value that approaches **zero**.
+
+
+
+---
+
+#### 4. End Behavior
+The end behavior describes what happens to the $y$-value as $x$ moves to the far left and far right of the coordinate plane.
+* **As $x \to \infty$, $f(x) \to 0$**
+* **As $x \to -\infty$, $f(x) \to 0$**
+
+#### 5. What the Graph Looks Like
+* **At the "Tails":** Both the left and right ends of the graph will flatten out and hug the x-axis ($y=0$).
+* **In the Center:** There may be turns, x-intercepts, or vertical asymptotes, but as you zoom out, the graph eventually gets pulled toward the height of zero.
+* **Position:** Since the highest power in the simplified end-behavior model ($4/7x^2$) is even and the coefficient is positive, the "tails" of this specific function will both approach zero from **above** the x-axis as $x$ gets very large.
+
+---
+
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **Numerator Degree** | 3 |
+| **Denominator Degree** | 5 |
+| **Comparison** | $n < m$ |
+| **Horizontal Asymptote** | $y = 0$ |
+| **End Behavior** | Approaches the x-axis from both sides |
+
+> [!abstract] Algebra Takeaway
+> When the denominator has a higher degree, it "wins" the tug-of-war at infinity. It pulls the entire function down to zero, regardless of what the numerator is doing.
+
