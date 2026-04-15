@@ -7611,24 +7611,18 @@ If the top grows faster, the function will head toward $\pm\infty$ rather than l
 To find the horizontal asymptote and understand the end behavior, we compare the degrees of the numerator and the denominator.
 
 ---
-
 #### 1. Identifying the Degrees
 * **Numerator Degree ($n$):** The highest exponent is **3**.
 * **Denominator Degree ($m$):** The highest exponent is **5**.
-
 #### 2. Determining the Horizontal Asymptote
 Since the degree of the denominator ($m = 5$) is **greater** than the degree of the numerator ($n = 3$), we follow the rule for "Bottom-Heavy" functions:
 * **Horizontal Asymptote:** **$y = 0$** (the x-axis).
-
 #### 3. Why? (The Logic of Growth)
 As $x$ becomes extremely large ($x \to \infty$ or $x \to -\infty$), the leading terms dominate the function. The function behaves like:
 $$f(x) \approx \frac{4x^3}{7x^5} = \frac{4}{7x^2}$$
 As $x$ grows, the denominator $7x^2$ grows significantly faster than the constant numerator. Dividing a small number by an increasingly massive number results in a value that approaches **zero**.
 
-
-
 ---
-
 #### 4. End Behavior
 The end behavior describes what happens to the $y$-value as $x$ moves to the far left and far right of the coordinate plane.
 * **As $x \to \infty$, $f(x) \to 0$**
@@ -7640,7 +7634,6 @@ The end behavior describes what happens to the $y$-value as $x$ moves to the far
 * **Position:** Since the highest power in the simplified end-behavior model ($4/7x^2$) is even and the coefficient is positive, the "tails" of this specific function will both approach zero from **above** the x-axis as $x$ gets very large.
 
 ---
-
 #### Summary Table
 | Feature | Value / Description |
 | :--- | :--- |
