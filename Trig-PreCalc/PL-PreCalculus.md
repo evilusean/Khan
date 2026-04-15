@@ -7564,3 +7564,52 @@ The function follows the model $G(x) = \frac{a}{(x-h)^n} + k$.
 
 ## 2026-April-15 - Finding a Horizontal Asymptote of a Rational Function (Precalculus - College Algebra 40) :
 https://www.youtube.com/watch?v=D-H9N-_Y77Y&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=42
+### Finding Horizontal Asymptotes of Rational Functions
+
+A horizontal asymptote (H.A.) describes the **end behavior** of a function. It is the $y$-value that the graph approaches as $x$ moves toward positive or negative infinity ($x \to \pm\infty$).
+
+---
+
+#### 1. The Three Cases (Degree Comparison)
+To find the H.A., compare the degree of the numerator ($n$) to the degree of the denominator ($m$).
+
+| Relationship | Rule | Asymptote |
+| :--- | :--- | :--- |
+| **$n < m$** | Denominator grows faster | $y = 0$ (x-axis) |
+| **$n = m$** | Grow at the same rate | $y = \frac{\text{Leading Coefficient of } N(x)}{\text{Leading Coefficient of } D(x)}$ |
+| **$n > m$** | Numerator grows faster | **None** (Potential Slant Asymptote) |
+
+
+
+---
+
+#### 2. Logic & Examples
+
+**Case 1: Denominator is "Stronger" ($n < m$)**
+If the degree of the bottom is higher, the denominator eventually becomes so large that the fraction shrinks to zero.
+* **Example:** $f(x) = \frac{x^2 - 4}{x^3 + 5}$
+* **Result:** H.A. is **$y = 0$**.
+
+**Case 2: Degrees are "Equal" ($n = m$)**
+If the degrees match, the $x$ variables essentially cancel each other out at infinity, leaving the ratio of the leading coefficients.
+* **Example:** $f(x) = \frac{6x^2 + 1}{2x^2 - 5}$
+* **Calculation:** $y = \frac{6}{2} = 3$
+* **Result:** H.A. is **$y = 3$**.
+
+**Case 3: Numerator is "Stronger" ($n > m$)**
+If the top grows faster, the function will head toward $\pm\infty$ rather than leveling off.
+* **Example:** $f(x) = \frac{x^2}{x - 1}$
+* **Result:** **No Horizontal Asymptote**.
+
+---
+
+#### 3. Important Rules
+* **Crossing the Asymptote:** Unlike vertical asymptotes (which are domain restrictions), a graph **can** cross a horizontal asymptote in its middle section. The H.A. only dictates the behavior at the "tails" of the graph.
+* **Exclusivity:** A rational function can have at most **one** horizontal asymptote.
+* **Limit Definition:** In calculus, the H.A. is found by taking the limit: $\lim_{x \to \infty} f(x)$.
+
+
+
+> [!abstract] Algebra Takeaway
+> Think of a horizontal asymptote as the "ultimate destination" of the graph. It doesn't matter what happens near the origin; as you zoom out further and further, the graph will eventually settle onto this horizontal line.
+
