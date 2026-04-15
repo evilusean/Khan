@@ -7486,3 +7486,79 @@ The function follows the model $g(x) = \frac{a}{(x-h)^n} + k$.
 > [!abstract] Algebra Takeaway
 > Shifting a "volcano" graph $(1/x^2)$ horizontally removes its even parity relative to the y-axis, though it remains symmetric with respect to its own vertical asymptote ($x=1$). The vertical shift determines the new "ground level" the graph settles on as $x$ moves toward infinity.
 
+### Analysis of $h(x) = \frac{-2}{(x+3)^2} - 4$
+
+This function is a transformation of the **Reciprocal Squared** parent function. It features a reflection, a vertical stretch, and both horizontal and vertical shifts.
+
+---
+#### 1. Parent Function & Symmetry
+* **Parent:** $y = \frac{1}{x^2}$
+* **Parity (Even/Odd/Neither):** This function is **Neither**.
+    * Algebraically: $h(-x) = \frac{-2}{(-x+3)^2} - 4$. This is not equal to $h(x)$ or $-h(x)$.
+    * While the parent function is even, the horizontal shift to $x = -3$ moves the axis of symmetry away from the $y$-axis.
+#### 2. Transformations & Offsets
+The function follows the model $h(x) = \frac{a}{(x-h)^n} + k$.
+* **Horizontal Shift ($h$):** The $(x + 3)$ in the denominator shifts the graph **Left 3 units**. The **Vertical Asymptote** is at **$x = -3$**.
+* **Vertical Shift ($k$):** The $-4$ at the end shifts the graph **Down 4 units**. The **Horizontal Asymptote** is at **$y = -4$**.
+* **Reflection & Stretch ($a$):**
+    * The negative sign ($a = -2$) **reflects** the graph across the horizontal asymptote.
+    * The value $2$ represents a **Vertical Stretch** by a factor of 2.
+#### 3. Graphical Appearance
+* **The "Well" Shape:** Because the exponent is **even** (2) but the leading coefficient is **negative**, both sides of the graph approach $-\infty$ instead of $+\infty$. This creates an upside-down volcano or a "pit" shape.
+* **Vertical Asymptote:** The graph drops toward $-\infty$ as $x$ approaches $-3$ from both sides.
+* **Horizontal Asymptote:** As $x \to \pm\infty$, the graph levels off at **$y = -4$**.
+* **Key Points:** Relative to the asymptote intersection $(-3, -4)$:
+    * Right 1, Down 2: $(-2, -6)$
+    * Left 1, Down 2: $(-4, -6)$
+
+---
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **Parity** | Neither |
+| **Vertical Asymptote** | $x = -3$ |
+| **Horizontal Asymptote** | $y = -4$ |
+| **Transformations** | Left 3, Down 4, Reflected, Vertically Stretched |
+| **Behavior at V.A.** | Same direction ($\downarrow \downarrow$) |
+
+> [!abstract] Algebra Takeaway
+> The negative numerator is a "game changer" for the reciprocal squared parent—it flips the behavior from approaching positive infinity to negative infinity. Combined with the shifts, the entire "pit" is centered at $x = -3$ and sits below the line $y = -4$.
+
+### Analysis of G(x) = -\frac{1}{x+1} + 2
+
+This function is a transformation of the **Reciprocal** parent function ($1/x$). We analyze it by identifying the shifts and reflections applied to the parent's asymptotes and shape.
+
+---
+#### 1. Parent Function & Symmetry
+* **Parent:** $y = \frac{1}{x}$
+* **Parity (Even/Odd/Neither):** This function is **Neither**.
+    * Algebraically: $G(-x) = -\frac{1}{-x+1} + 2$. This does not equal $G(x)$ or $-G(x)$.
+    * While the parent function $1/x$ has odd symmetry (origin), the horizontal and vertical shifts move the center of symmetry away from $(0,0)$, breaking the parity.
+#### 2. Transformations & Offsets
+The function follows the model $G(x) = \frac{a}{(x-h)^n} + k$.
+* **Horizontal Shift ($h$):** The $(x + 1)$ in the denominator shifts the graph **Left 1 unit**. The **Vertical Asymptote** is at **$x = -1$**.
+* **Vertical Shift ($k$):** The $+2$ at the end shifts the graph **Up 2 units**. The **Horizontal Asymptote** is at **$y = 2$**.
+* **Reflection ($a$):** The negative sign in front of the fraction ($a = -1$) **reflects** the graph across the horizontal asymptote.
+#### 3. Graphical Appearance
+* **Opposite Directions:** Because the exponent is **odd** (1), the graph approaches opposite infinities on either side of the asymptote.
+* **Reflected Shape:** Usually, $1/x$ is in the upper-right and lower-left quadrants. Because of the negative sign, this graph is in the **upper-left** and **lower-right** relative to the asymptotes.
+* **Vertical Asymptote ($x = -1$):**
+    * As $x \to -1^-$, $G(x) \to +\infty$ (Left side goes up).
+    * As $x \to -1^+$, $G(x) \to -\infty$ (Right side goes down).
+* **Key Points:** Relative to the intersection $(-1, 2)$:
+    * Right 1, Down 1: $(0, 1)$ (This is the y-intercept).
+    * Left 1, Up 1: $(-2, 3)$.
+
+---
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **Parity** | Neither |
+| **Vertical Asymptote** | $x = -1$ |
+| **Horizontal Asymptote** | $y = 2$ |
+| **Transformations** | Left 1, Up 2, Reflected |
+| **Behavior at V.A.** | Opposite directions ($\nwarrow \searrow$) |
+
+> [!abstract] Algebra Takeaway
+> The negative sign "flips" the quadrants of the hyperbola. Instead of the standard "positive" behavior, the left side of the wall now shoots upward while the right side plunges downward.
+
