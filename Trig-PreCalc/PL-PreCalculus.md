@@ -7695,3 +7695,5 @@ The end behavior describes the value the function approaches as \(x\) moves towa
 
 > [!abstract] Algebra Takeaway
 > When the "power" of the numerator and denominator is a tie, they cancel each other's growth out. The "winner" is the ratio of their coefficients, which dictates the altitude of the graph's end behavior.
+
+## 2026-April-16 - Finding an Oblique Asymptote of a Rational Function (Precalculus - College Algebra 41) : 
