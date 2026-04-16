@@ -269,3 +269,23 @@ These subjects are typically covered in the second semester of first year or the
    - A diploma you can take *alongside* your engineering degree.
    - This teaches you the business side of owning the factory, not just working in it.
 
+### UNB Fredericton: Advanced Systems & Forensics Track = finding people in holes for fun and profit. 
+
+| Course Code             | Course Name               | Functional Application                                                                                        |
+| :---------------------- | :------------------------ | :------------------------------------------------------------------------------------------------------------ |
+| **THE DATA TRAIL**      |                           |                                                                                                               |
+| **ADM 3225**            | Cost Accounting           | Analyzes how complex budgets are accumulated and used for large-scale projects and "managerial control."      |
+| **ADM 4215**            | Internal Auditing         | Examines the internal mechanisms used to verify financial accuracy and detect systemic irregularities.        |
+| **ENGG 4013**           | Law and Ethics            | Provides the legal framework for professional accountability and the rules governing technical liability.     |
+| **CS 4411**             | Network Security          | Investigates how digital grids are secured and how to identify vulnerabilities in encrypted communications.   |
+| **PHYSICAL DETECTION**  |                           |                                                                                                               |
+| **ESCI 4501**           | Applied Geophysics I      | Uses gravity and magnetic methods to identify subsurface metallic anomalies and structural voids.             |
+| **ESCI 4512**           | Applied Geophysics II     | Focuses on seismic and electromagnetic techniques (like GPR) to map underground reinforced concrete.          |
+| **GE 4422**             | Applied Remote Sensing    | Uses satellite and aerial data to identify "heat plumes" and terrain changes that suggest human activity.     |
+| **GE 4981**             | Site Investigation        | The practical art of assessing a physical location to find hidden access points or structural weaknesses.     |
+| **ESCI 3411**           | Rock Mechanics            | Studies how rock and earth behave under stress, essential for understanding underground stability.            |
+| **HARDWARE & RECOVERY** |                           |                                                                                                               |
+| **ECE 4333**            | Robotics                  | A project-based course for designing mobile subsystems, integrating sensors, and autonomous navigation.       |
+| **ECE 4531**            | Digital Signal Processing | Cleans up "noisy" sensor data (like GPR or Audio) to provide a clear image of what is behind a wall.          |
+| **ME 5253**             | Failure Analysis          | Evaluates why materials fail (fracture mechanics), allowing you to find the "weakest link" in a door or seal. |
+| **ECE 3821**            | Electromagnetics          | The core physics of signal propagation, essential for understanding how to shield or jam electronic signals.  |
