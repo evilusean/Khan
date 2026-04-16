@@ -269,7 +269,7 @@ These subjects are typically covered in the second semester of first year or the
    - A diploma you can take *alongside* your engineering degree.
    - This teaches you the business side of owning the factory, not just working in it.
 
-### UNB Fredericton: Advanced Systems & Forensics Track = finding people in holes for fun and profit. 
+### UNB Fredericton: Advanced Systems & Forensics Track = finding people in holes for fun and profit. - When you do what you love, you will never have to work a day in your life. 
 
 | Course Code             | Course Name               | Functional Application                                                                                        |
 | :---------------------- | :------------------------ | :------------------------------------------------------------------------------------------------------------ |

@@ -7646,3 +7646,58 @@ The end behavior describes what happens to the $y$-value as $x$ moves to the far
 > [!abstract] Algebra Takeaway
 > When the denominator has a higher degree, it "wins" the tug-of-war at infinity. It pulls the entire function down to zero, regardless of what the numerator is doing.
 
+### Analysis of g(x) = \frac{8x^3 - 2x + 3}{2x^3 + x^2 - 7x + 5}
+
+To find the horizontal asymptote and determine the end behavior of this rational function, we compare the degrees of the numerator and the denominator.
+
+---
+
+#### 1. Identifying the Degrees
+* **Numerator Degree ($n$):** The highest exponent is **3**.
+* **Denominator Degree ($m$):** The highest exponent is **3**.
+
+#### 2. Determining the Horizontal Asymptote
+Since the degrees are **equal** ($n = m$), the horizontal asymptote is determined by the ratio of the leading coefficients.
+
+* **Leading Coefficient of Numerator:** 8
+* **Leading Coefficient of Denominator:** 2
+* **Calculation:** \(y = \frac{8}{2} = 4\)
+
+**Horizontal Asymptote:** **\(y = 4\)**
+
+---
+
+#### 3. Why? (The Logic of Growth)
+At the "ends" of the graph (where \(x\) is a very large positive or negative number), the terms with the highest exponents dominate. All other terms (\(-2x, 3, x^2, -7x, 5\)) become insignificant by comparison.
+
+The function effectively simplifies to its leading terms:
+\[g(x) \approx \frac{8x^3}{2x^3}\]
+As \(x \to \pm\infty\), the \(x^3\) terms cancel out, leaving the constant ratio of **4**. This is the height the graph settles on as it extends forever to the left and right.
+
+
+
+---
+
+#### 4. End Behavior
+The end behavior describes the value the function approaches as \(x\) moves toward infinity:
+* **As \(x \to \infty\), \(g(x) \to 4\)**
+* **As \(x \to -\infty\), \(g(x) \to 4\)**
+
+#### 5. What the Graph Looks Like
+* **The "Tails":** On the far left and far right of the coordinate plane, the graph will flatten out and approach the dashed horizontal line at **\(y = 4\)**.
+* **The Center:** While there may be vertical asymptotes or intercepts in the middle (where \(x\) is small), the function is "tethered" to the height of 4 at its extremities.
+* **Approaching the Asymptote:** Depending on the values of the lower-degree terms, the graph might approach the line \(y = 4\) from above or below, and it is even possible for the graph to cross this horizontal line before eventually settling onto it.
+
+---
+
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **Numerator Degree** | 3 |
+| **Denominator Degree** | 3 |
+| **Comparison** | \(n = m\) |
+| **Horizontal Asymptote** | \(y = 4\) |
+| **End Behavior** | Settles at height 4 on both ends |
+
+> [!abstract] Algebra Takeaway
+> When the "power" of the numerator and denominator is a tie, they cancel each other's growth out. The "winner" is the ratio of their coefficients, which dictates the altitude of the graph's end behavior.
