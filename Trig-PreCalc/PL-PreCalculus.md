@@ -7703,7 +7703,6 @@ https://www.youtube.com/watch?v=NVhaVk4wNu8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 An **Oblique Asymptote** (also called a **Slant Asymptote**) is a diagonal line that a rational function approaches as $x$ moves toward positive or negative infinity. It represents the "end behavior" of functions where the numerator is "stronger" than the denominator by a specific margin.
 
 ---
-
 #### 1. The Condition for an Oblique Asymptote
 An oblique asymptote occurs **only** when the degree of the numerator ($n$) is **exactly one greater** than the degree of the denominator ($m$). [00:02:14]
 
@@ -7712,12 +7711,10 @@ An oblique asymptote occurs **only** when the degree of the numerator ($n$) is *
 
 
 ---
-
 #### 2. Why It Happens (Leading Term Logic)
 If you divide the leading terms of a function where the top is one degree higher (e.g., $x^2 / x$), the result is a first-degree polynomial (e.g., $x$). This linear result acts as the "guide" for the graph's ends. [00:03:05]
 
 ---
-
 #### 3. How to Find the Equation: Long Division
 To find the exact equation of the line ($y = mx + b$), you must use **Long Division** of polynomials. 
 
@@ -7731,14 +7728,11 @@ To find the exact equation of the line ($y = mx + b$), you must use **Long Divis
 4.  **Result:** The Oblique Asymptote is **$y = 3x + 3$**.
 
 ---
-
 #### 4. Graphical Characteristics
 * **End Behavior:** Instead of flattening out like a horizontal asymptote, the graph will follow the diagonal path of the line $y = mx + b$ toward infinity. [00:02:27]
 * **Crossing the Asymptote:** Just like horizontal asymptotes, the graph **can** cross an oblique asymptote in the middle sections. The asymptote only governs what happens at the far edges of the graph. [00:14:33]
 
-
 ---
-
 #### Summary Table: End Behavior Cases
 | Degree Comparison | Type of Asymptote | Calculation Method |
 | :--- | :--- | :--- |
