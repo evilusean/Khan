@@ -7646,12 +7646,11 @@ The end behavior describes what happens to the $y$-value as $x$ moves to the far
 > [!abstract] Algebra Takeaway
 > When the denominator has a higher degree, it "wins" the tug-of-war at infinity. It pulls the entire function down to zero, regardless of what the numerator is doing.
 
-### Analysis of g(x) = \frac{8x^3 - 2x + 3}{2x^3 + x^2 - 7x + 5}
+### Analysis of $g(x) = \frac{8x^3 - 2x + 3}{2x^3 + x^2 - 7x + 5}$
 
 To find the horizontal asymptote and determine the end behavior of this rational function, we compare the degrees of the numerator and the denominator.
 
 ---
-
 #### 1. Identifying the Degrees
 * **Numerator Degree ($n$):** The highest exponent is **3**.
 * **Denominator Degree ($m$):** The highest exponent is **3**.
@@ -7666,7 +7665,6 @@ Since the degrees are **equal** ($n = m$), the horizontal asymptote is determine
 **Horizontal Asymptote:** **\(y = 4\)**
 
 ---
-
 #### 3. Why? (The Logic of Growth)
 At the "ends" of the graph (where \(x\) is a very large positive or negative number), the terms with the highest exponents dominate. All other terms (\(-2x, 3, x^2, -7x, 5\)) become insignificant by comparison.
 
@@ -7674,10 +7672,7 @@ The function effectively simplifies to its leading terms:
 \[g(x) \approx \frac{8x^3}{2x^3}\]
 As \(x \to \pm\infty\), the \(x^3\) terms cancel out, leaving the constant ratio of **4**. This is the height the graph settles on as it extends forever to the left and right.
 
-
-
 ---
-
 #### 4. End Behavior
 The end behavior describes the value the function approaches as \(x\) moves toward infinity:
 * **As \(x \to \infty\), \(g(x) \to 4\)**
@@ -7689,7 +7684,6 @@ The end behavior describes the value the function approaches as \(x\) moves towa
 * **Approaching the Asymptote:** Depending on the values of the lower-degree terms, the graph might approach the line \(y = 4\) from above or below, and it is even possible for the graph to cross this horizontal line before eventually settling onto it.
 
 ---
-
 #### Summary Table
 | Feature | Value / Description |
 | :--- | :--- |
