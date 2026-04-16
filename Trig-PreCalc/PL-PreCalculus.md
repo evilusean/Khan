@@ -7698,3 +7698,54 @@ The end behavior describes the value the function approaches as \(x\) moves towa
 
 ## 2026-April-16 - Finding an Oblique Asymptote of a Rational Function (Precalculus - College Algebra 41) : 
 https://www.youtube.com/watch?v=NVhaVk4wNu8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=42
+### Finding Oblique (Slant) Asymptotes of Rational Functions
+
+An **Oblique Asymptote** (also called a **Slant Asymptote**) is a diagonal line that a rational function approaches as $x$ moves toward positive or negative infinity. It represents the "end behavior" of functions where the numerator is "stronger" than the denominator by a specific margin.
+
+---
+
+#### 1. The Condition for an Oblique Asymptote
+An oblique asymptote occurs **only** when the degree of the numerator ($n$) is **exactly one greater** than the degree of the denominator ($m$). [00:02:14]
+
+* **Condition:** $n = m + 1$
+* **Exclusivity:** A function can have a Horizontal Asymptote **OR** an Oblique Asymptote, but **never both**. [00:04:01]
+
+
+---
+
+#### 2. Why It Happens (Leading Term Logic)
+If you divide the leading terms of a function where the top is one degree higher (e.g., $x^2 / x$), the result is a first-degree polynomial (e.g., $x$). This linear result acts as the "guide" for the graph's ends. [00:03:05]
+
+---
+
+#### 3. How to Find the Equation: Long Division
+To find the exact equation of the line ($y = mx + b$), you must use **Long Division** of polynomials. 
+
+> [!important] The "Two-Step" Shortcut
+> You only need to perform two iterations of long division to get the $mx$ and the $b$. You do **not** need the remainder. [00:09:57]
+
+**Process Example:** $f(x) = \frac{3x^4 - x^2}{x^3 - x^2 + 1}$
+1.  **First Division:** Divide the first term of the numerator by the first term of the denominator ($3x^4 \div x^3 = 3x$). This is your **slope ($mx$)**. [00:10:13]
+2.  **Distribute & Subtract:** Multiply $3x$ by the entire divisor and subtract it from the numerator to find the new leading term. [00:11:33]
+3.  **Second Division:** Divide the new leading term by the divisor's first term (e.g., $3x^3 \div x^3 = 3$). This is your **y-intercept ($b$)**. [00:13:02]
+4.  **Result:** The Oblique Asymptote is **$y = 3x + 3$**.
+
+---
+
+#### 4. Graphical Characteristics
+* **End Behavior:** Instead of flattening out like a horizontal asymptote, the graph will follow the diagonal path of the line $y = mx + b$ toward infinity. [00:02:27]
+* **Crossing the Asymptote:** Just like horizontal asymptotes, the graph **can** cross an oblique asymptote in the middle sections. The asymptote only governs what happens at the far edges of the graph. [00:14:33]
+
+
+---
+
+#### Summary Table: End Behavior Cases
+| Degree Comparison | Type of Asymptote | Calculation Method |
+| :--- | :--- | :--- |
+| **$n < m$** | Horizontal ($y = 0$) | None (Automatic) |
+| **$n = m$** | Horizontal ($y = \text{ratio}$) | Ratio of leading coefficients |
+| **$n = m + 1$** | **Oblique / Slant** | **Long Division** (ignore remainder) |
+| **$n > m + 1$** | General End Behavior | Leading term simplification |
+
+> [!tip] Remainder Irrelevance
+> When doing the long division, once you have your constant term ($b$), stop. The remainder represents a fraction that approaches zero as $x \to \infty$, which is why it doesn't affect the line the graph follows at the ends. [00:15:14]
