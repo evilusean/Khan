@@ -7709,7 +7709,6 @@ An oblique asymptote occurs **only** when the degree of the numerator ($n$) is *
 * **Condition:** $n = m + 1$
 * **Exclusivity:** A function can have a Horizontal Asymptote **OR** an Oblique Asymptote, but **never both**. [00:04:01]
 
-
 ---
 #### 2. Why It Happens (Leading Term Logic)
 If you divide the leading terms of a function where the top is one degree higher (e.g., $x^2 / x$), the result is a first-degree polynomial (e.g., $x$). This linear result acts as the "guide" for the graph's ends. [00:03:05]
@@ -7743,3 +7742,67 @@ To find the exact equation of the line ($y = mx + b$), you must use **Long Divis
 
 > [!tip] Remainder Irrelevance
 > When doing the long division, once you have your constant term ($b$), stop. The remainder represents a fraction that approaches zero as $x \to \infty$, which is why it doesn't affect the line the graph follows at the ends. [00:15:14]
+
+### Analysis of f(x) = \frac{3x^4 - x^2}{x^3 - x^2 + 1}
+
+To determine if an oblique (slant) asymptote exists and how the graph behaves at infinity, we compare the degrees of the numerator and denominator.
+
+---
+
+#### 1. Identifying the Degrees
+* **Numerator Degree ($n$):** 4
+* **Denominator Degree ($m$):** 3
+* **Comparison:** Since $n = m + 1$ (the numerator is exactly one degree higher than the denominator), the function has an **Oblique Asymptote**.
+
+#### 2. Finding the Equation (Long Division)
+We divide the numerator by the denominator. We only need the linear part ($mx + b$) and can ignore the remainder.
+
+**Step 1: Divide the first terms**
+$$3x^4 \div x^3 = 3x$$
+This gives us our $mx$.
+
+**Step 2: Multiply and Subtract**
+$3x(x^3 - x^2 + 1) = 3x^4 - 3x^3 + 3x$
+Subtracting this from the original numerator ($3x^4 + 0x^3 - x^2 + 0x$):
+$$(3x^4 - x^2) - (3x^4 - 3x^3 + 3x) = 3x^3 - x^2 - 3x$$
+
+**Step 3: Divide again**
+$$3x^3 \div x^3 = 3$$
+This gives us our $b$.
+
+**Oblique Asymptote:** **$y = 3x + 3$**
+
+
+
+---
+
+#### 3. Why? (End Behavior Logic)
+As $x$ approaches infinity, the rational function behaves like the result of the division:
+$$f(x) = (3x + 3) + \frac{\text{remainder}}{x^3 - x^2 + 1}$$
+As $x \to \pm\infty$, the remainder fraction approaches **zero**. This leaves the function to follow the linear path of $y = 3x + 3$.
+
+**End Behavior:**
+* As $x \to \infty$, $f(x) \to \infty$ (following the line $3x+3$ upward).
+* As $x \to -\infty$, $f(x) \to -\infty$ (following the line $3x+3$ downward).
+
+---
+
+#### 4. What the Graph Looks Like
+* **Diagonal "Guide":** The graph will not level off horizontally. Instead, it will be "trapped" between its vertical asymptotes in the middle and follow the slanted line $y = 3x + 3$ as it moves off the screen.
+* **The "Hugging" Effect:** Far away from the origin, the curve of the function will look almost identical to the straight line $y = 3x + 3$.
+
+
+
+---
+
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **Numerator Degree** | 4 |
+| **Denominator Degree** | 3 |
+| **Asymptote Type** | Oblique (Slant) |
+| **Equation** | $y = 3x + 3$ |
+| **End Behavior** | Follows the line $y = 3x + 3$ |
+
+> [!abstract] Algebra Takeaway
+> An oblique asymptote is simply the quotient of the numerator and denominator when the degrees differ by one. The "slant" tells you that the function's growth is linear at its extremities rather than constant (horizontal) or explosive (higher-degree curves).
