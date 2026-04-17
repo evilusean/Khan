@@ -358,7 +358,7 @@ the 2027 economic/political snap to escape regional institutional decline.
 ### 2. Entrance Scholarship Deadline (March 1, 2027)
 * **The Goal:** Maximize capital extraction from the system.
 * **Tactical Detail:** This is a hard deadline. Missing it by one day means forfeiting thousands in potential grants.
-* **Action:** Complete the general scholarship application. Highlight your high-discipline self-study (WaniKani N2 progress and 4+ years of coding) to prove "Merit" over "Cattle-tier" test scores.
+* **Action:** Complete the general scholarship application. Highlight your high-discipline self-study (WaniKani N2 progress and 4+ years of coding) to prove "Merit" over highschool test scores.
 
 ### 3. Final Doc Submission (March 31, 2027)
 * **The Goal:** Finalize the "Paperwork" phase so you can focus on Math.
@@ -371,6 +371,30 @@ the 2027 economic/political snap to escape regional institutional decline.
 * **Action:** Submit your residence application and the required deposit (usually $500–$800) to hold your spot.
 
 ---
+
+## Alberta Transfer Execution (Fall 2028 Entry)
+
+### 5. Apply to UAlberta / UCalgary (October 1, 2027)
+* **The Goal:** Start the "Exit" process as soon as you arrive at UNB.
+* **Tactical Detail:** Both schools open their Fall 2028 portals on Oct 1. You apply via [ApplyAlberta](https://www.applyalberta.ca/). Since you are now a university student, they will evaluate you based on your *current* UNB seat rather than just high school.
+* **Action:** Create an ApplyAlberta account, list UNB as your current institution, and pay the non-refundable application fees (~$125 per school).
+
+### 6. Early Evaluation Transcript Deadline (February 1, 2028)
+* **The Goal:** Get an "Early Admission" offer while still in your first year.
+* **Tactical Detail:** You must request that UNB send your official Fall 2027 transcript to Alberta. This shows them your first 4-5 "A" grades.
+* **Action:** Log into the UNB Registrar portal and order official transcripts to be sent to UofA and UCalgary.
+
+### 7. Final Application & Program Choice (March 1, 2028)
+* **The Goal:** Finalize your engineering discipline choice (e.g., Mechatronics).
+* **Tactical Detail:** This is the absolute deadline to submit your application and confirm your specific program choices (Mechatronics, Mechanical, etc.). 
+* **Action:** Ensure your application is "Submitted" and paid. Double-check your program rankings.
+
+### 8. Final Transcript Submission (June 1, 2028)
+* **The Goal:** Confirm the "A-GPA Overwrite" and secure your seat.
+* **Tactical Detail:** Alberta needs to see that you finished the full year. Your offer will likely be conditional on maintaining a 3.0–3.5 GPA through the Winter term.
+* **Action:** Send your final Fall/Winter UNB transcript immediately after grades are posted in May.
+
+---
 ### The Strategy: 'A-GPA Overwrite'
 * **Execution:** Once you complete 24–30 credit hours (Year 1), your high school record is legally "overwritten" by your university performance. 
-* **Exit:** Maintain a 3.5+ GPA at UNB to trigger a guaranteed transfer to the University of Alberta/Calgary in Jan 2028.
+* **Exit:** Maintain a 3.5+ GPA at UNB to trigger a guaranteed transfer to the University of Alberta in Jan 2028.
