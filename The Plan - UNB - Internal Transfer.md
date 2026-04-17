@@ -294,7 +294,6 @@ These subjects are typically covered in the second semester of first year or the
 ### Objective
 Establish residency in a resource-sovereign jurisdiction (Alberta) prior to 
 the 2027 economic/political snap to escape regional institutional decline.
-
 ### 1. Academic Relocation (Fall 2026)
 - Apply to UofA/UofC Engineering (Domestic Rate: ~$8,100).
 - Secure StudentNB funding for out-of-province study.
@@ -304,7 +303,7 @@ the 2027 economic/political snap to escape regional institutional decline.
 - Obtain Alberta Student Number (ASN) via ApplyAlberta.
 - Update Driver's License to AB within 90 days of arrival.
 - Rationale: Creates a legal paper trail for the Alberta Pension Plan (APP)
-  and future "Sovereign Resident" status.
+  and future "Sovereign Resident" stawtus.
 ### 3. The October 19, 2026 Referendum
 - Ensure legal residency is established 30+ days prior to the vote.
 - Vote on the "Independent State" and "Constitutional Change" questions.
@@ -315,3 +314,16 @@ the 2027 economic/political snap to escape regional institutional decline.
 - Utilize university labs to build hardware for off-grid autonomy.
 - Rationale: High-value technical skills are the only "Hard Currency" 
   recognized during a system collapse.
+## UNB to Alberta Transfer Strategy
+
+### 1. Credit Requirements
+- Target: 24-30 transferable units (8-10 courses).
+- Core Subjects: Calculus I/II, Linear Algebra, Physics (Mechanics/Electromagnetism), Chemistry I/II.
+### 2. GPA Targets
+- Minimum to Apply: 2.5
+- Competitive Safety: 3.2+
+- Strategy: Use first-year UNB courses to fix high school grade history.
+### 3. The 2027 Exit Window
+- Jan-Feb 2027: Submit UAlberta/UCalgary transfer application.
+- May 2027: Finalize StudentNB to Alberta residency transition.
+- Sept 2027: Begin Year 2 Engineering in the Sovereign Zone.
