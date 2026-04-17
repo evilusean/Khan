@@ -289,3 +289,29 @@ These subjects are typically covered in the second semester of first year or the
 | **ECE 4531**            | Digital Signal Processing | Cleans up "noisy" sensor data (like GPR or Audio) to provide a clear image of what is behind a wall.          |
 | **ME 5253**             | Failure Analysis          | Evaluates why materials fail (fracture mechanics), allowing you to find the "weakest link" in a door or seal. |
 | **ECE 3821**            | Electromagnetics          | The core physics of signal propagation, essential for understanding how to shield or jam electronic signals.  |
+## Alberta Strategic Exit Plan 2026-2027
+
+### Objective
+Establish residency in a resource-sovereign jurisdiction (Alberta) prior to 
+the 2027 economic/political snap to escape regional institutional decline.
+
+### 1. Academic Relocation (Fall 2026)
+- Apply to UofA/UofC Engineering (Domestic Rate: ~$8,100).
+- Secure StudentNB funding for out-of-province study.
+- Apply for on-campus residence (Estimated: $14,200 total for room/board).
+- Rationale: Student loans function as an "Escape Fund" to move west.
+### 2. Regulatory Transition
+- Obtain Alberta Student Number (ASN) via ApplyAlberta.
+- Update Driver's License to AB within 90 days of arrival.
+- Rationale: Creates a legal paper trail for the Alberta Pension Plan (APP)
+  and future "Sovereign Resident" status.
+### 3. The October 19, 2026 Referendum
+- Ensure legal residency is established 30+ days prior to the vote.
+- Vote on the "Independent State" and "Constitutional Change" questions.
+- Rationale: Transition from a "Recipient" state (NB) to a "Sovereign" 
+  state (AB) before federal equalization stops.
+### 4. Skills Acquisition (The Audit Phase)
+- Focus on Mechatronics, Calculus, and Infrastructure Engineering.
+- Utilize university labs to build hardware for off-grid autonomy.
+- Rationale: High-value technical skills are the only "Hard Currency" 
+  recognized during a system collapse.
