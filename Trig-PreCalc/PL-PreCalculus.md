@@ -7748,7 +7748,6 @@ To find the exact equation of the line ($y = mx + b$), you must use **Long Divis
 To determine if an oblique (slant) asymptote exists and how the graph behaves at infinity, we compare the degrees of the numerator and denominator.
 
 ---
-
 #### 1. Identifying the Degrees
 * **Numerator Degree ($n$):** 4
 * **Denominator Degree ($m$):** 3
@@ -7772,10 +7771,7 @@ This gives us our $b$.
 
 **Oblique Asymptote:** **$y = 3x + 3$**
 
-
-
 ---
-
 #### 3. Why? (End Behavior Logic)
 As $x$ approaches infinity, the rational function behaves like the result of the division:
 $$f(x) = (3x + 3) + \frac{\text{remainder}}{x^3 - x^2 + 1}$$
@@ -7786,15 +7782,11 @@ As $x \to \pm\infty$, the remainder fraction approaches **zero**. This leaves th
 * As $x \to -\infty$, $f(x) \to -\infty$ (following the line $3x+3$ downward).
 
 ---
-
 #### 4. What the Graph Looks Like
 * **Diagonal "Guide":** The graph will not level off horizontally. Instead, it will be "trapped" between its vertical asymptotes in the middle and follow the slanted line $y = 3x + 3$ as it moves off the screen.
 * **The "Hugging" Effect:** Far away from the origin, the curve of the function will look almost identical to the straight line $y = 3x + 3$.
 
-
-
 ---
-
 #### Summary Table
 | Feature | Value / Description |
 | :--- | :--- |
