@@ -7806,7 +7806,6 @@ https://www.youtube.com/watch?v=_cnmQXAo5XM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 End behavior describes the direction a graph takes as $x$ approaches positive or negative infinity ($x \to \pm\infty$). While horizontal and oblique asymptotes are types of end behavior, this lesson focuses on the "explosive" case where the numerator's degree is significantly larger than the denominator's.
 
 ---
-
 #### 1. The Condition for General End Behavior
 This case occurs when the degree of the numerator ($n$) is larger than the degree of the denominator ($m$) by **more than one**. [00:00:50]
 
@@ -7815,7 +7814,6 @@ This case occurs when the degree of the numerator ($n$) is larger than the degre
 
 
 ---
-
 #### 2. The Power Function Model
 To find the end behavior, you simplify the ratio of the **leading terms** of the numerator and denominator. [00:02:03]
 
@@ -7825,7 +7823,6 @@ To find the end behavior, you simplify the ratio of the **leading terms** of the
 3.  **Result:** As $x \to \pm\infty$, the graph will look like the parabola $y = 4x^2$. [00:02:51]
 
 ---
-
 #### 3. Analyzing the Model
 Once you have your simplified power function, use your knowledge of polynomial end behavior to determine the "arrows" of the graph. [00:04:16]
 
@@ -7838,7 +7835,6 @@ Once you have your simplified power function, use your knowledge of polynomial e
 
 
 ---
-
 #### 4. Middle vs. Ends
 It is important to remember that while the "ends" follow these power function shapes, the **middle** of the graph can still contain: [00:03:14]
 * Vertical Asymptotes (from non-removable factors in the denominator).
@@ -7848,7 +7844,6 @@ It is important to remember that while the "ends" follow these power function sh
 The end behavior model only tells you where the graph is heading once it gets past all the "drama" in the center. [00:06:51]
 
 ---
-
 #### Summary of Asymptote/End Behavior Hierarchy
 | Degree Comparison | Resulting Behavior |
 | :--- | :--- |
