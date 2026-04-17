@@ -329,17 +329,17 @@ the 2027 economic/political snap to escape regional institutional decline.
 - Sept 2027: Begin Year 2 Engineering in the Sovereign Zone.
 ### First-Year Merit-Proving Course Load (UNB to Alberta Transfer)
 
-| Course Code | Title | UofA/UCalgary Equivalent | Transfer Function |
-| :--- | :--- | :--- | :--- |
-| **MATH 1003** | Intro to Calculus I | MATH 100 | Establishes baseline mathematical rigor. |
-| **MATH 1013** | Intro to Calculus II | MATH 101 | Proves advanced integration and series mastery. |
-| **MATH 1503** | Intro to Linear Algebra | MATH 102 | Technical foundation for Mechatronics/AI. |
-| **PHYS 1061** | General Physics I | PHYS 130 | Verifies competence in kinematics and dynamics. |
-| **PHYS 1062** | General Physics II | EN PH 131 | Verifies competence in electromagnetism/waves. |
-| **CHEM 1041** | General Chemistry I | CHEM 103 | Core requirement for Material Science/Eng. |
-| **CHEM 1046** | Gen. Chemistry I Lab | CHEM 103 (Lab) | Proves empirical/experimental accuracy. |
-| **CS 1073** | Intro to CS I (Java) | CMPUT 174 | Converts existing coding hours into GPA. |
-| **ENGG 1001** | Eng. Practice & Design | ENGG 130 | Demonstrates commitment to the profession. |
+| Course Code   | Title                   | UofA/UCalgary Equivalent | Transfer Function                               |
+| :------------ | :---------------------- | :----------------------- | :---------------------------------------------- |
+| **MATH 1003** | Intro to Calculus I     | MATH 100                 | Establishes baseline mathematical rigor.        |
+| **MATH 1013** | Intro to Calculus II    | MATH 101                 | Proves advanced integration and series mastery. |
+| **MATH 1503** | Intro to Linear Algebra | MATH 102                 | Technical foundation for Mechatronics/AI.       |
+| **PHYS 1061** | General Physics I       | PHYS 130                 | Verifies competence in kinematics and dynamics. |
+| **PHYS 1062** | General Physics II      | EN PH 131                | Verifies competence in electromagnetism/waves.  |
+| **CHEM 1041** | General Chemistry I     | CHEM 103                 | Core requirement for Material Science/Eng.      |
+| **CHEM 1046** | Gen. Chemistry I Lab    | CHEM 103 (Lab)           | Proves empirical/experimental accuracy.         |
+| **CS 1073**   | Intro to CS I (Java)    | CMPUT 174                | Converts existing coding hours into GPA.        |
+| **ENGG 1001** | Eng. Practice & Design  | ENGG 130                 | Demonstrates commitment to the profession.      |
 
 #### Tactical Execution Benchmarks
 - **Target Grade:** A- or higher in all core STEM subjects.
