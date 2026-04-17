@@ -7798,3 +7798,5 @@ As $x \to \pm\infty$, the remainder fraction approaches **zero**. This leaves th
 
 > [!abstract] Algebra Takeaway
 > An oblique asymptote is simply the quotient of the numerator and denominator when the degrees differ by one. The "slant" tells you that the function's growth is linear at its extremities rather than constant (horizontal) or explosive (higher-degree curves).
+
+## 2026-April-16 - Finding End Behavior of Rational Functions (Precalculus - College Algebra 42) :
