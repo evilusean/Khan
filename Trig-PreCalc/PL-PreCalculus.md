@@ -7851,3 +7851,52 @@ The end behavior model only tells you where the graph is heading once it gets pa
 
 > [!abstract] Algebra Takeaway
 > To find how any rational function ends, simply ignore everything except the highest powers on top and bottom and reduce the fraction. The resulting term tells you exactly which "parent function" the graph will resemble at the far edges of the coordinate plane.
+
+### Analysis of $g(x) = \frac{4x^5 - 7x + 1}{x^3 + 1}$
+
+To determine the asymptotes and end behavior of this rational function, we compare the degrees of the numerator and the denominator.
+
+---
+#### 1. Identifying the Degrees
+* **Numerator Degree ($n$):** The highest exponent is **5**.
+* **Denominator Degree ($m$):** The highest exponent is **3**.
+#### 2. Determining Asymptotes
+* **Horizontal Asymptote:** None. Since the numerator's degree is greater than the denominator's ($5 > 3$), the function does not level off at a constant $y$-value.
+* **Oblique (Slant) Asymptote:** None. An oblique asymptote only occurs when the numerator is exactly one degree higher than the denominator ($n = m + 1$). Here, the difference is **2**.
+* **Vertical Asymptote:** * Set the denominator to zero: $x^3 + 1 = 0 \implies x^3 = -1 \implies \mathbf{x = -1}$.
+    * Since $x = -1$ does not make the numerator zero, there is a **Vertical Asymptote at $x = -1$**.
+
+---
+#### 3. End Behavior (The Power Function Model)
+When the degree of the numerator is more than one greater than the denominator, the graph mimics the behavior of a power function ($y = ax^p$) as $x \to \pm\infty$. We find this by simplifying the ratio of the leading terms:
+
+$$\text{End Behavior Model} = \frac{4x^5}{x^3} = 4x^2$$
+
+
+
+* **As $x \to \infty$, $g(x) \to \infty$**
+* **As $x \to -\infty$, $g(x) \to \infty$**
+The ends of the graph will both point upward, just like a parabola.
+
+---
+#### 4. What the Graph Looks Like
+* **The Ends:** Far away from the center, the graph looks like the parabola $y = 4x^2$, rising steeply on both the left and right sides.
+* **The Middle:** * There is a vertical "wall" (asymptote) at $x = -1$.
+    * Because the denominator factor $(x+1)$ is part of $(x^3+1)$ and has an odd multiplicity, the graph will approach opposite infinities at the asymptote.
+    * As $x$ approaches $-1$ from the left, the function will likely shoot toward $+\infty$ (to match the parabolic end behavior).
+    * As $x$ approaches $-1$ from the right, the function will likely shoot toward $-\infty$ before turning back up toward $+\infty$ to satisfy the right-side end behavior.
+
+---
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **Numerator Degree** | 5 |
+| **Denominator Degree** | 3 |
+| **Horizontal/Oblique Asymptote** | None |
+| **Vertical Asymptote** | $x = -1$ |
+| **End Behavior Model** | $y = 4x^2$ |
+| **Left End Behavior** | $\to \infty$ |
+| **Right End Behavior** | $\to \infty$ |
+
+> [!abstract] Algebra Takeaway
+> Because the numerator is "stronger" than the denominator by a power of 2, the graph eventually ignores the fractional nature of the function and behaves like a quadratic. The vertical asymptote at $x = -1$ creates a local "break," but it doesn't stop the overall parabolic trend of the ends.
