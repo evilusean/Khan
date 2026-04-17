@@ -398,3 +398,66 @@ the 2027 economic/political snap to escape regional institutional decline.
 ### The Strategy: 'A-GPA Overwrite'
 * **Execution:** Once you complete 24–30 credit hours (Year 1), your high school record is legally "overwritten" by your university performance. 
 * **Exit:** Maintain a 3.5+ GPA at UNB to trigger a guaranteed transfer to the University of Alberta in Jan 2028.
+
+## THE ALBERTA EXIT (2026-2028)
+
+### PHASE 0: THE FORGE (Present - August 2027)
+*Objective: Build the skills and language "Sovereignty" before the system gates close.*
+
+- [ ] **Japanese Mastery (N2 Strategy):** Complete 6 levels of WaniKani (1 level/month). Maintain N2 immersion to lock in grammar.
+- [ ] **Math Drills (Calculus Strategy):**
+    - Finish Pre-Calculus (3 months).
+    - Finish Calculus 1 (2 months).
+    - Self-Study Calculus 2 & Linear Algebra (4 months).
+    - Self-Study Chemistry (2 Months)
+    - Self-Study Physics (2 months)
+- [ ] **Technical Shield:** Maintain Linux system (Omarchy/Hyprland) and coding proficiency. 
+
+---
+### PHASE 1: THE UNB PROVING GROUND (Sept 2027 - April 2028)
+*Objective: Extract "A" grades and Government Grants to fund the move West.*
+
+#### Detailed Execution Timeline
+- [ ] **Nov 2026:** Apply to UNB early to trigger a "Conditional Offer."
+- [ ] **Mar 1, 2027:** Submit Scholarship Form (Focus on self-study grit/Japanese N2).
+- [ ] **Mar 31, 2027:** Verify all transcripts marked "RECEIVED."
+- [ ] **Jun 1, 2027:** Submit Residence Deposit ($800) to lock in your "Bunker" room.
+- [ ] **Sept 2027:** Deploy to UNB. Execute "GPA Overwrite" strategy (Aim 3.5+).
+
+### Year 1 Financials (Engineering)
+| Category | **Living at Home (NB)** | **On-Campus (Res + Meal)** |
+| :--- | :--- | :--- |
+| Tuition & Fees | $13,500 | $13,500 |
+| Books/Gear | $1,800 | $1,800 |
+| Residence/Meal Plan | $0 | $14,496 |
+| Commuting/Fuel | $2,500 | $0 |
+| **Total Cost** | **$17,800** | **$29,796** |
+| **Total Funding (Grants+Loans)** | **$24,200** | **$24,200** |
+| **End of Year Status** | **+$6,400 (Profit)** | **-$5,596 (Deficit)** |
+
+---
+
+### PHASE 2: THE ALBERTA TRANSFER (Oct 2027 - Sept 2028)
+*Objective: Escape the "Paper Edifice" of the East and join the Sovereign Zone.*
+
+#### Detailed Execution Timeline
+- [ ] **Oct 1, 2027:** Apply to UAlberta / UCalgary via [ApplyAlberta](https://www.applyalberta.ca/).
+- [ ] **Feb 1, 2028:** Send UNB Fall Transcripts for Early Evaluation.
+- [ ] **Mar 1, 2028:** Final Application Deadline for Alberta Engineering.
+- [ ] **May 2028:** Final UNB grades sent. Accept Alberta Offer.
+- [ ] **June 2028:** Establish physical residency in the "Sovereign Zone."
+
+### Year 2 Financials (Transfer Year)
+| Category | **U of Alberta (UofA)** | **U of Calgary (UCal)** |
+| :--- | :--- | :--- |
+| Tuition & Fees (Year 2) | $14,500 | $15,200 |
+| Residence & Meal Plan | $16,635 | $14,364 |
+| Total Cost | **$31,135** | **$29,564** |
+| **Total Funding Available** | **$20,400** | **$20,400** |
+| **The Gap** | **-$10,735** | **-$9,164** |
+
+---
+### THE BOTTOM LINE
+1. **Year 1 at Home:** Bank **$6,400** of government grant money.
+2. **Year 2 Alberta:** Use the **$6,400** to cover 60% of the funding gap. 
+3. **The Result:** You reach the Sovereign Zone with 2 years of engineering under your belt, N2 Japanese proficiency, and a minimal debt load compared to the "Normies" who didn't plan ahead.
