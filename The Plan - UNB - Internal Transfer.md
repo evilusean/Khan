@@ -347,3 +347,30 @@ the 2027 economic/political snap to escape regional institutional decline.
 - **AGPA Threshold:** Maintain >3.3 to trigger the High School Grade Overwrite.
 - **Application Date:** Submit Transfer Request Jan 2027 using Fall 2026 transcripts.
 
+
+## UNB Admission & Scholarship Deadlines (Fall 2027)
+
+### 1. Apply to UNB (November 2026)
+* **The Goal:** Secure a 'Conditional Offer' early to lock in your seat.
+* **Tactical Detail:** Applying 10 months ahead puts you at the front of the queue. If your high school grades are shaky, this gives you a buffer to receive an offer that is "conditional" on your final performance.
+* **Action:** Submit the online application and pay the ~$100 fee. This triggers the system to track you as a serious candidate.
+
+### 2. Entrance Scholarship Deadline (March 1, 2027)
+* **The Goal:** Maximize capital extraction from the system.
+* **Tactical Detail:** This is a hard deadline. Missing it by one day means forfeiting thousands in potential grants.
+* **Action:** Complete the general scholarship application. Highlight your high-discipline self-study (WaniKani N2 progress and 4+ years of coding) to prove "Merit" over "Cattle-tier" test scores.
+
+### 3. Final Doc Submission (March 31, 2027)
+* **The Goal:** Finalize the "Paperwork" phase so you can focus on Math.
+* **Tactical Detail:** Ensure all transcripts (high school or adult learning) are received. Engineering is competitive; if your file is incomplete by this date, your seat is given to the next person.
+* **Action:** Verify via the UNB application portal that all documents are marked as "Received."
+
+### 4. Residence Application (Before June 1, 2027)
+* **The Goal:** Secure your base of operations.
+* **Tactical Detail:** Applying by June 1 guarantees a room for first-year students. Staying on campus eliminates commuting friction and fuel costs.
+* **Action:** Submit your residence application and the required deposit (usually $500–$800) to hold your spot.
+
+---
+### The Strategy: 'A-GPA Overwrite'
+* **Execution:** Once you complete 24–30 credit hours (Year 1), your high school record is legally "overwritten" by your university performance. 
+* **Exit:** Maintain a 3.5+ GPA at UNB to trigger a guaranteed transfer to the University of Alberta/Calgary in Jan 2028.
