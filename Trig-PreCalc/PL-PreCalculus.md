@@ -7801,3 +7801,61 @@ As $x \to \pm\infty$, the remainder fraction approaches **zero**. This leaves th
 
 ## 2026-April-16 - Finding End Behavior of Rational Functions (Precalculus - College Algebra 42) :
 https://www.youtube.com/watch?v=_cnmQXAo5XM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=42
+### Finding End Behavior of Rational Functions
+
+End behavior describes the direction a graph takes as $x$ approaches positive or negative infinity ($x \to \pm\infty$). While horizontal and oblique asymptotes are types of end behavior, this lesson focuses on the "explosive" case where the numerator's degree is significantly larger than the denominator's.
+
+---
+
+#### 1. The Condition for General End Behavior
+This case occurs when the degree of the numerator ($n$) is larger than the degree of the denominator ($m$) by **more than one**. [00:00:50]
+
+* **Relationship:** $n > m + 1$
+* **Result:** There is **no** horizontal asymptote and **no** oblique asymptote. Instead, the function mimics the behavior of a power function ($ax^p$). [00:01:40]
+
+
+---
+
+#### 2. The Power Function Model
+To find the end behavior, you simplify the ratio of the **leading terms** of the numerator and denominator. [00:02:03]
+
+**Example:** $f(x) = \frac{4x^5 + \dots}{x^3 + \dots}$
+1.  **Isolate leading terms:** $\frac{4x^5}{x^3}$
+2.  **Simplify:** $4x^{5-3} = 4x^2$
+3.  **Result:** As $x \to \pm\infty$, the graph will look like the parabola $y = 4x^2$. [00:02:51]
+
+---
+
+#### 3. Analyzing the Model
+Once you have your simplified power function, use your knowledge of polynomial end behavior to determine the "arrows" of the graph. [00:04:16]
+
+| Simplified Result | Example Shape | Left End ($x \to -\infty$) | Right End ($x \to \infty$) |
+| :--- | :--- | :--- | :--- |
+| **Even Power, Pos. Coeff.** ($x^2, x^4$) | Volcano / Upward Parabola | $\to \infty$ | $\to \infty$ |
+| **Even Power, Neg. Coeff.** ($-x^2$) | Pit / Downward Parabola | $\to -\infty$ | $\to -\infty$ |
+| **Odd Power, Pos. Coeff.** ($x^3, x^5$) | Standard Cubic | $\to -\infty$ | $\to \infty$ |
+| **Odd Power, Neg. Coeff.** ($-x^3$) | Reflected Cubic | $\to \infty$ | $\to -\infty$ |
+
+
+---
+
+#### 4. Middle vs. Ends
+It is important to remember that while the "ends" follow these power function shapes, the **middle** of the graph can still contain: [00:03:14]
+* Vertical Asymptotes (from non-removable factors in the denominator).
+* X-intercepts (from the numerator).
+* Holes (from removable factors).
+
+The end behavior model only tells you where the graph is heading once it gets past all the "drama" in the center. [00:06:51]
+
+---
+
+#### Summary of Asymptote/End Behavior Hierarchy
+| Degree Comparison | Resulting Behavior |
+| :--- | :--- |
+| **$n < m$** | Horizontal Asymptote at $y = 0$ |
+| **$n = m$** | Horizontal Asymptote at $y = \text{ratio of coefficients}$ |
+| **$n = m + 1$** | Oblique (Slant) Asymptote (Line: $y = mx + b$) |
+| **$n > m + 1$** | **General End Behavior** (Power Function: $y = ax^p$) |
+
+> [!abstract] Algebra Takeaway
+> To find how any rational function ends, simply ignore everything except the highest powers on top and bottom and reduce the fraction. The resulting term tells you exactly which "parent function" the graph will resemble at the far edges of the coordinate plane.
