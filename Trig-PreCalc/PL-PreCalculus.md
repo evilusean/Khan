@@ -7811,8 +7811,6 @@ This case occurs when the degree of the numerator ($n$) is larger than the degre
 
 * **Relationship:** $n > m + 1$
 * **Result:** There is **no** horizontal asymptote and **no** oblique asymptote. Instead, the function mimics the behavior of a power function ($ax^p$). [00:01:40]
-
-
 ---
 #### 2. The Power Function Model
 To find the end behavior, you simplify the ratio of the **leading terms** of the numerator and denominator. [00:02:03]
@@ -7832,7 +7830,6 @@ Once you have your simplified power function, use your knowledge of polynomial e
 | **Even Power, Neg. Coeff.** ($-x^2$) | Pit / Downward Parabola | $\to -\infty$ | $\to -\infty$ |
 | **Odd Power, Pos. Coeff.** ($x^3, x^5$) | Standard Cubic | $\to -\infty$ | $\to \infty$ |
 | **Odd Power, Neg. Coeff.** ($-x^3$) | Reflected Cubic | $\to \infty$ | $\to -\infty$ |
-
 
 ---
 #### 4. Middle vs. Ends
