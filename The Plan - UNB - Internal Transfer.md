@@ -303,7 +303,7 @@ the 2027 economic/political snap to escape regional institutional decline.
 - Obtain Alberta Student Number (ASN) via ApplyAlberta.
 - Update Driver's License to AB within 90 days of arrival.
 - Rationale: Creates a legal paper trail for the Alberta Pension Plan (APP)
-  and future "Sovereign Resident" stawtus.
+  and future "Sovereign Resident" status.
 ### 3. The October 19, 2026 Referendum
 - Ensure legal residency is established 30+ days prior to the vote.
 - Vote on the "Independent State" and "Constitutional Change" questions.
@@ -346,3 +346,4 @@ the 2027 economic/political snap to escape regional institutional decline.
 - **Credit Value:** 30 Credit Hours (Full-time load proves "Grind Capability").
 - **AGPA Threshold:** Maintain >3.3 to trigger the High School Grade Overwrite.
 - **Application Date:** Submit Transfer Request Jan 2027 using Fall 2026 transcripts.
+
