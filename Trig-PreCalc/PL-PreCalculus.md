@@ -7950,3 +7950,67 @@ Sometimes, if a function simplifies into a linear equation (e.g., $g(x) = 2x - 1
 
 > [!abstract] Algebra Takeaway
 > Always define your domain **before** you simplify. If you simplify first, you "lose" the information about the holes, which results in an incomplete and incorrect graph.
+
+### Analysis of f(x) = \frac{3x+5}{x-6}
+
+Following the lesson's structured workflow, we analyze the function from the outside in (end behavior first, then local features).
+
+---
+
+#### 1. End Behavior (Leading Term Analysis)
+Before factoring or simplifying, we compare the degrees of the numerator and denominator.
+* **Numerator Degree ($n$):** 1 (from $3x^1$)
+* **Denominator Degree ($m$):** 1 (from $x^1$)
+* **Comparison ($n = m$):** Since the degrees are equal, the **Horizontal Asymptote (H.A.)** is the ratio of the leading coefficients.
+    * $y = \frac{3}{1} = 3$
+
+**End Behavior:**
+* As $x \to \infty, f(x) \to 3$
+* As $x \to -\infty, f(x) \to 3$
+
+
+
+---
+
+#### 2. Domain & Discontinuities (Factoring)
+The function is already in its simplest factored form: $f(x) = \frac{3x+5}{x-6}$.
+
+* **Domain Restriction:** Set denominator to zero: $x - 6 = 0 \implies x = 6$.
+* **Vertical Asymptote (V.A.) vs. Hole:** Since the factor $(x-6)$ does not cancel out with anything in the numerator, it is a **Vertical Asymptote**.
+    * **V.A. at $x = 6$**
+* **Multiplicity:** The factor $(x-6)$ has a power of 1 (odd). The graph will approach **opposite infinities** at the asymptote.
+
+
+
+---
+
+#### 3. Local Intercepts
+* **y-intercept:** Set $x=0$.
+    * $f(0) = \frac{3(0)+5}{0-6} = -\frac{5}{6} \approx -0.83$
+* **x-intercept:** Set numerator to zero.
+    * $3x+5 = 0 \implies 3x = -5 \implies x = -\frac{5}{3} \approx -1.67$
+
+---
+
+#### 4. How and Why it Looks Like This
+* **The Skeleton:** Imagine a crosshair formed by the dashed lines $y = 3$ (H.A.) and $x = 6$ (V.A.).
+* **Quadrant Placement:**
+    * To the left of $x=6$, the graph passes through $(-1.67, 0)$ and $(0, -0.83)$. Since these points are below the H.A. ($y=3$), the left branch lives in the "lower-left" region of the asymptote crosshair and dives toward $-\infty$ as it hits the wall.
+    * To the right of $x=6$, because the V.A. has odd multiplicity, the graph must come from the opposite direction. It will start at $+\infty$ and curve down to "hug" the H.A. at $y=3$.
+
+
+
+---
+
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **Horizontal Asymptote** | $y = 3$ |
+| **Vertical Asymptote** | $x = 6$ |
+| **Holes** | None |
+| **x-intercept** | $(-1.67, 0)$ |
+| **y-intercept** | $(0, -0.83)$ |
+| **V.A. Behavior** | Opposite Directions ($\swarrow \nearrow$) |
+
+> [!abstract] Algebra Takeaway
+> Because the degrees are tied, the graph is "pulled" toward $y=3$ at the edges. The single restriction at $x=6$ creates a "break" in the graph where the function cannot exist, forcing the two branches to shoot off to infinity in opposite directions.
