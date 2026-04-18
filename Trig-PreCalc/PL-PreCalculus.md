@@ -8137,7 +8137,6 @@ $$y = \frac{(x + 2)(x^2 + 4)}{x} = \frac{x^3 + 2x^2 + 4x + 8}{x}$$
 Following the lesson's structured workflow, we examine the function's global behavior first, then drill down into the local details (holes and asymptotes).
 
 ---
-
 #### 1. End Behavior (Leading Term Analysis)
 Compare the degrees of the numerator ($n$) and denominator ($m$) before factoring.
 * **Numerator Degree ($n$):** 2
@@ -8152,7 +8151,6 @@ Compare the degrees of the numerator ($n$) and denominator ($m$) before factorin
 
 
 ---
-
 #### 2. Factor and Define Domain
 To find local features, we factor both polynomials.
 
@@ -8165,7 +8163,6 @@ $$F(x) = \frac{(2x + 3)(x - 4)}{(3x + 1)(x - 4)}$$
 **Domain Restrictions:** $x \neq 4$ and $x \neq -\frac{1}{3}$.
 
 ---
-
 #### 3. Holes vs. Vertical Asymptotes
 * **Hole:** The factor $(x - 4)$ is common to both the numerator and denominator and cancels out.
     * There is a **Hole at $x = 4$**.
@@ -8176,17 +8173,13 @@ $$F(x) = \frac{(2x + 3)(x - 4)}{(3x + 1)(x - 4)}$$
     * There is a **Vertical Asymptote at $x = -\frac{1}{3}$**.
     * **Multiplicity:** Odd (power of 1), so the graph approaches **opposite infinities**.
 
-
-
 ---
-
 #### 4. Local Intercepts
 Using the simplified function $y = \frac{2x + 3}{3x + 1}$:
 * **x-intercept:** Set numerator to zero. $2x + 3 = 0 \implies x = -1.5$. Intercept: $(-1.5, 0)$.
 * **y-intercept:** Set $x = 0$. $F(0) = \frac{3}{1} = 3$. Intercept: $(0, 3)$.
 
 ---
-
 #### 5. How and Why it Looks Like This
 * **The Frame:** The graph is built around the "skeleton" of the H.A. at $y \approx 0.67$ and the V.A. at $x \approx -0.33$.
 * **The Left Branch:** To the left of the V.A., the graph passes through $(-1.5, 0)$. As it moves toward the V.A. from the left, it dives toward $-\infty$. As it moves to the left, it levels off toward $y = 2/3$.
@@ -8194,15 +8187,14 @@ Using the simplified function $y = \frac{2x + 3}{3x + 1}$:
 * **The "Missing Pixel":** As the right branch levels off, it must have an open circle at the exact coordinate $(4, 11/13)$ to account for the hole.
 
 ---
-
 #### Summary Table
-| Feature | Value / Description |
-| :--- | :--- |
-| **Horizontal Asymptote** | $y = 2/3$ |
-| **Vertical Asymptote** | $x = -1/3$ (Opposite Directions) |
-| **Hole Location** | $(4, 11/13)$ |
-| **x-intercept** | $(-1.5, 0)$ |
-| **y-intercept** | $(0, 3)$ |
+| Feature                  | Value / Description              |
+| :----------------------- | :------------------------------- |
+| **Horizontal Asymptote** | $y = 2/3$                        |
+| **Vertical Asymptote**   | $x = -1/3$ (Opposite Directions) |
+| **Hole Location**        | $(4, 11/13)$                     |
+| **x-intercept**          | $(-1.5, 0)$                      |
+| **y-intercept**          | $(0, 3)$                         |
 
 > [!abstract] Algebra Takeaway
 > This function looks almost exactly like a simple hyperbola, but the factoring reveals that the point at $x = 4$ is actually undefined. The "tie" in degrees ensures the graph never wanders too far from the $y = 2/3$ line at the far ends.
