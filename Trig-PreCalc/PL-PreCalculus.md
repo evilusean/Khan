@@ -7901,5 +7901,5 @@ The ends of the graph will both point upward, just like a parabola.
 > [!abstract] Algebra Takeaway
 > Because the numerator is "stronger" than the denominator by a power of 2, the graph eventually ignores the fractional nature of the function and behaves like a quadratic. The vertical asymptote at $x = -1$ creates a local "break," but it doesn't stop the overall parabolic trend of the ends.
 
-## 2026-April-17 - Finding Asymptotes and Holes of Rational Functions (Precalculus - College Algebra 43) :
+## 2026-April-18 - Finding Asymptotes and Holes of Rational Functions (Precalculus - College Algebra 43) :
 https://www.youtube.com/watch?v=tyXWPcvSQvk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=44
