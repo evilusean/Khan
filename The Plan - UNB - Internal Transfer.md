@@ -524,3 +524,25 @@ the 2027 economic/political snap to escape regional institutional decline.
 - **Renewed Tuition Bursary (NB):** ~$3,000/yr.
 - **UCalgary Internship:** $60k/yr avg.
 - **Oilfield Medic Work:** ~$300-$500/day standby.
+
+## MILITARY ID & EDUCATION BENEFIT RECOVERY
+
+### 1. Replace the Veteran's Service Card (VSC)
+*The VSC replaced the old NDI 75. It is your primary proof of status.*
+- [ ] **Apply Online:** Visit the [VSC Portal](https://veterans-service-card.canada.ca/en).
+- [ ] **Requirements:** - A digital passport-style photo (plain background).
+	- A scan of one piece of Gov-issued photo ID (use your new NB Permit).
+	- **Proof of Service:** If you lost your release papers, you must first request a "Proof of Service Package" from [Library and Archives Canada](https://www.bac-lac.gc.ca/eng/transparency/ati-privacy/Pages/Access-information-privacy.aspx). (Free, ~30 days).
+
+### 2. Secure the Education & Training Benefit (ETB)
+*Funding Target: ~$44,000 to ~$88,000 depending on years of service.*
+- [ ] **Step 1: The 'My VAC Account':** If you don't have one, register at [Veterans Affairs Canada](https://www.veterans.gc.ca/en/e_services).
+- [ ] **Step 2: Formal Program Application (VAC 1537):** Submit this *before* you start at UNB. It confirms you qualify for the money.
+- [ ] **Step 3: Education Plan (VAC 1547):** Once you have your UNB acceptance letter, submit this to trigger the actual payments.
+
+### 3. The Short Course "Medic" Hack
+- [ ] **Short Course Funding (VAC 1549):** Use this specific $10,000 fund to pay for your **EMR Bridge** and **Class 4 Commercial Licensing** costs. 
+- [ ] **Tactical Detail:** This does *not* deduct from your main university degree funding. It is a separate bucket for "career pivot" training.
+
+*Note: VAC will NOT pay retroactively. Your application must be approved 
+BEFORE your first day of class at UNB.*
