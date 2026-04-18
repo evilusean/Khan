@@ -421,19 +421,18 @@ the 2027 economic/political snap to escape regional institutional decline.
 - [ ] **Nov 2026:** Apply to UNB early to trigger a "Conditional Offer."
 - [ ] **Mar 1, 2027:** Submit Scholarship Form (Focus on self-study grit/Japanese N2).
 - [ ] **Mar 31, 2027:** Verify all transcripts marked "RECEIVED."
-- [ ] **Jun 1, 2027:** Submit Residence Deposit ($800) to lock in your "Bunker" room.
+- [ ] **Jun 1, 2027:** Submit Residence Deposit ($800) to lock in your room.
 - [ ] **Sept 2027:** Deploy to UNB. Execute "GPA Overwrite" strategy (Aim 3.5+).
-
 ### Year 1 Financials (Engineering)
-| Category | **Living at Home (NB)** | **On-Campus (Res + Meal)** |
-| :--- | :--- | :--- |
-| Tuition & Fees | $13,500 | $13,500 |
-| Books/Gear | $1,800 | $1,800 |
-| Residence/Meal Plan | $0 | $14,496 |
-| Commuting/Fuel | $2,500 | $0 |
-| **Total Cost** | **$17,800** | **$29,796** |
-| **Total Funding (Grants+Loans)** | **$24,200** | **$24,200** |
-| **End of Year Status** | **+$6,400 (Profit)** | **-$5,596 (Deficit)** |
+| Category                         | **Living at Home (NB)** | **On-Campus (Res + Meal)** |
+| :------------------------------- | :---------------------- | :------------------------- |
+| Tuition & Fees                   | $13,500                 | $13,500                    |
+| Books/Gear                       | $1,800                  | $1,800                     |
+| Residence/Meal Plan              | $0                      | $14,496                    |
+| Commuting/Fuel                   | $2,500                  | $0                         |
+| **Total Cost**                   | **$17,800**             | **$29,796**                |
+| **Total Funding (Grants+Loans)** | **$24,200**             | **$24,200**                |
+| **End of Year Status**           | **+$6,400 (Profit)**    | **-$5,596 (Deficit)**      |
 
 ---
 
@@ -461,3 +460,67 @@ the 2027 economic/political snap to escape regional institutional decline.
 1. **Year 1 at Home:** Bank **$6,400** of government grant money.
 2. **Year 2 Alberta:** Use the **$6,400** to cover 60% of the funding gap. 
 3. **The Result:** You reach the Sovereign Zone with 2 years of engineering under your belt, N2 Japanese proficiency, and a minimal debt load compared to the "Normies" who didn't plan ahead.
+## Alberta Funding and Logistics :
+
+### PHASE 1: THE FUNDING ENGINES (The "No-Debt" Stack)
+
+#### 1. The Veteran Advantage (VAC ETB)
+* **The Benefit:** Up to **$44,000** for a degree program.
+* **Tactical Use:** This covers 100% of your UNB and Alberta tuition. Unlike loans, this is "Top-Line" funding.
+* **Short Course Fund:** Use the additional **$10,000** VAC fund for your EMR Bridge and Class 4 Commercial License prep.
+#### 2. The UCalgary Internship "Power-Up"
+* **Timing:** 12-16 month continuous block between Year 3 and Year 4.
+* **Projected Pay:** **$55,000 – $80,000 CAD**.
+* **Strategy:** Combine this with your Oilfield Medic standby experience. You are a high-value asset for Suncor/Imperial Oil because you already understand site safety and industrial discipline.
+#### 3. The Transfer & Government Stack
+* **Federal Grants:** ~$4,200/year (Canada Student Grant).
+* **NB Bursary (RTB):** Up to $3,000/year while at UNB.
+* **Alberta Transfer:** Once resident, tap the Alberta Student Grant (~$3,500/year).
+
+---
+
+### PHASE 2: LOGISTICS & ASSET ACQUISITION (The Truck)
+
+#### 1. The Purchase Strategy
+* **Capital:** Your **$13,800+ Surplus** from UNB Year 1 (see ledger below).
+* **Target:** Mid-2010s Toyota Tacoma or Ford F-150.
+* **Utility:** Acts as your move vehicle (4,500km extraction) and your commuter for high-paying Oilfield Medic stints during summer breaks.
+#### 2. The Extraction Drive (NB -> AB)
+* **Fuel Cost:** ~$1,200 CAD (Estimated at $1.75/L for 4,500km).
+* **Logistics:** Move your entire PC rig, library, and gear for "free" compared to a $3,000 moving contract.
+---
+### THE SOVEREIGN STUDENT LEDGER (Yearly Cost Chart)
+
+| Category | Year 1: UNB (Home) | Year 2: UCalgary (Res) | Year 3/4: Alberta (Life) |
+| :--- | :--- | :--- | :--- |
+| **Tuition & Fees** | $13,500 | $15,200 | $15,200 |
+| **Housing & Food** | $2,500 (Home Contribution) | $14,364 (Res + Meal) | $12,000 (Off-Campus) |
+| **Books & Tech** | $1,800 | $2,000 | $1,500 |
+| **TOTAL COSTS** | **$17,800** | **$31,564** | **$28,700** |
+| | | | |
+| **VAC ETB Funding** | $11,000 | $11,000 | $11,000 |
+| **Grants & Bursaries**| $7,200 | $4,200 | $4,200 |
+| **Student Loans** | $13,400 | $17,000 | $0 (Internship Pay) |
+| **TOTAL FUNDING** | **$31,600** | **$32,200** | **$65,000+** |
+| | | | |
+| **ANNUAL NET** | **+$13,800 (Profit)** | **+$636 (Break Even)** | **+$36,300 (Wealth)** |
+
+---
+### PHASE 3: THE RE-ARM (Engineering Strategy)
+
+#### 1. Oilfield Recertification (Pre-Alberta)
+* **EMR Bridge:** 10-day intensive. Use VAC Short Course funds ($10k pool).
+* **Class 4 License:** Written test + Medical. Essential for Medic/Ambulance work.
+* **The Standby Hack:** Use Oilfield Medic standby hours to grind **WaniKani** and **Calculus**. You are getting paid ~$35/hr to study.
+#### 2. Engineering Internships (Years 2-4)
+* **Primary Target:** Suncor/Imperial Oil ($35-$45/hr).
+* **Focus:** Site-wide automation, PLCs, and SCADA. 
+* **The Exit:** Graduate with a paid-off truck, N2 Japanese, and zero student debt because the VAC ETB and Internships neutralized the loans.
+
+---
+### SUMMARY OF SOURCES
+- **VAC Education Benefit:** ~$44,000 (Tuition/Living).
+- **Canada Student Grant:** ~$4,200/yr (Non-repayable).
+- **Renewed Tuition Bursary (NB):** ~$3,000/yr.
+- **UCalgary Internship:** $60k/yr avg.
+- **Oilfield Medic Work:** ~$300-$500/day standby.
