@@ -7951,12 +7951,11 @@ Sometimes, if a function simplifies into a linear equation (e.g., $g(x) = 2x - 1
 > [!abstract] Algebra Takeaway
 > Always define your domain **before** you simplify. If you simplify first, you "lose" the information about the holes, which results in an incomplete and incorrect graph.
 
-### Analysis of f(x) = \frac{3x+5}{x-6}
+### Analysis of $f(x) = \frac{3x+5}{x-6}$
 
 Following the lesson's structured workflow, we analyze the function from the outside in (end behavior first, then local features).
 
 ---
-
 #### 1. End Behavior (Leading Term Analysis)
 Before factoring or simplifying, we compare the degrees of the numerator and denominator.
 * **Numerator Degree ($n$):** 1 (from $3x^1$)
@@ -7968,10 +7967,7 @@ Before factoring or simplifying, we compare the degrees of the numerator and den
 * As $x \to \infty, f(x) \to 3$
 * As $x \to -\infty, f(x) \to 3$
 
-
-
 ---
-
 #### 2. Domain & Discontinuities (Factoring)
 The function is already in its simplest factored form: $f(x) = \frac{3x+5}{x-6}$.
 
@@ -7980,10 +7976,7 @@ The function is already in its simplest factored form: $f(x) = \frac{3x+5}{x-6}$
     * **V.A. at $x = 6$**
 * **Multiplicity:** The factor $(x-6)$ has a power of 1 (odd). The graph will approach **opposite infinities** at the asymptote.
 
-
-
 ---
-
 #### 3. Local Intercepts
 * **y-intercept:** Set $x=0$.
     * $f(0) = \frac{3(0)+5}{0-6} = -\frac{5}{6} \approx -0.83$
@@ -7991,17 +7984,13 @@ The function is already in its simplest factored form: $f(x) = \frac{3x+5}{x-6}$
     * $3x+5 = 0 \implies 3x = -5 \implies x = -\frac{5}{3} \approx -1.67$
 
 ---
-
 #### 4. How and Why it Looks Like This
 * **The Skeleton:** Imagine a crosshair formed by the dashed lines $y = 3$ (H.A.) and $x = 6$ (V.A.).
 * **Quadrant Placement:**
     * To the left of $x=6$, the graph passes through $(-1.67, 0)$ and $(0, -0.83)$. Since these points are below the H.A. ($y=3$), the left branch lives in the "lower-left" region of the asymptote crosshair and dives toward $-\infty$ as it hits the wall.
     * To the right of $x=6$, because the V.A. has odd multiplicity, the graph must come from the opposite direction. It will start at $+\infty$ and curve down to "hug" the H.A. at $y=3$.
 
-
-
 ---
-
 #### Summary Table
 | Feature | Value / Description |
 | :--- | :--- |
