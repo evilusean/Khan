@@ -8060,12 +8060,11 @@ $$g(x) = \frac{x^3}{(x^2 - 1)(x^2 + 1)} = \frac{x^3}{(x - 1)(x + 1)(x^2 + 1)}$$
 > [!abstract] Algebra Takeaway
 > Because the denominator is higher degree, the graph is "anchored" to the x-axis at its ends. The two vertical asymptotes break the graph into three distinct pieces, and the odd symmetry ensures that whatever happens in the upper-right quadrant is mirrored upside-down in the lower-left.
 
-### Analysis of G(x) = \frac{x^4 - 16}{x^2 - 2x}
+### Analysis of $G(x) = \frac{x^4 - 16}{x^2 - 2x}$
 
 Following the lesson's workflow, we determine the function's end behavior, identify domain restrictions, and distinguish between vertical asymptotes and holes.
 
 ---
-
 #### 1. End Behavior (Leading Term Analysis)
 Before factoring, we compare the degrees of the numerator ($n$) and denominator ($m$).
 * **Numerator Degree ($n$):** 4
@@ -8083,7 +8082,6 @@ The graph will ultimately behave like an upward-opening parabola at its far ends
 
 
 ---
-
 #### 2. Factor and Define Domain
 We must factor both the numerator and denominator completely to find the restrictions.
 
@@ -8096,7 +8094,6 @@ $$G(x) = \frac{(x - 2)(x + 2)(x^2 + 4)}{x(x - 2)}$$
 **Domain Restrictions:** $x \neq 0$ and $x \neq 2$.
 
 ---
-
 #### 3. Holes vs. Vertical Asymptotes
 * **Hole:** The factor $(x - 2)$ exists in both the top and bottom. It cancels out.
     * There is a **Hole at $x = 2$**.
@@ -8108,7 +8105,6 @@ $$G(x) = \frac{(x - 2)(x + 2)(x^2 + 4)}{x(x - 2)}$$
     * **Multiplicity:** The factor $x$ is power 1 (odd), so the graph will approach **opposite infinities**.
 
 ---
-
 #### 4. Simplified Function for Graphing
 After canceling the $(x-2)$, the "guide" function is:
 $$y = \frac{(x + 2)(x^2 + 4)}{x} = \frac{x^3 + 2x^2 + 4x + 8}{x}$$
@@ -8119,7 +8115,6 @@ $$y = \frac{(x + 2)(x^2 + 4)}{x} = \frac{x^3 + 2x^2 + 4x + 8}{x}$$
 * **Intercept:** $(-2, 0)$.
 
 ---
-
 #### 5. How and Why it Looks Like This
 * **The "Parabolic" Ends:** Because the end behavior is $x^2$, the graph shoots upward to the left and right.
 * **The Wall at $x=0$:** As the graph approaches the y-axis ($x=0$):
@@ -8127,10 +8122,7 @@ $$y = \frac{(x + 2)(x^2 + 4)}{x} = \frac{x^3 + 2x^2 + 4x + 8}{x}$$
     * From the right, due to odd multiplicity, it comes down from $+\infty$.
 * **The Missing Point:** As the graph curves upward toward the right-side end behavior, it passes through the location $(2, 16)$, but there is an open circle (hole) there.
 
-
-
 ---
-
 #### Summary Table
 | Feature | Value / Description |
 | :--- | :--- |
@@ -8142,3 +8134,4 @@ $$y = \frac{(x + 2)(x^2 + 4)}{x} = \frac{x^3 + 2x^2 + 4x + 8}{x}$$
 
 > [!abstract] Algebra Takeaway
 > While the function looks like a simple curve at the ends, the local features tell a different story: a vertical "chasm" at the y-axis and a specific "missing pixel" at $(2, 16)$. Always simplify to find holes, but remember the hole still represents an undefined value in the original domain.
+
