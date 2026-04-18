@@ -8004,12 +8004,11 @@ The function is already in its simplest factored form: $f(x) = \frac{3x+5}{x-6}$
 > [!abstract] Algebra Takeaway
 > Because the degrees are tied, the graph is "pulled" toward $y=3$ at the edges. The single restriction at $x=6$ creates a "break" in the graph where the function cannot exist, forcing the two branches to shoot off to infinity in opposite directions.
 
-### Analysis of g(x) = \frac{x^3}{x^4 - 1}
+### Analysis of $g(x) = \frac{x^3}{x^4 - 1}$
 
 Following the structured workflow from the lesson, we analyze the function's global behavior (asymptotes) and local behavior (holes/intercepts).
 
 ---
-
 #### 1. End Behavior (Leading Term Analysis)
 Before factoring, we compare the degrees of the numerator ($n$) and denominator ($m$).
 * **Numerator Degree ($n$):** 3
@@ -8021,11 +8020,7 @@ Before factoring, we compare the degrees of the numerator ($n$) and denominator 
 **End Behavior:**
 * As $x \to \infty, g(x) \to 0$
 * As $x \to -\infty, g(x) \to 0$
-
-
-
 ---
-
 #### 2. Domain & Discontinuities (Factoring)
 Now, we factor the denominator to find where the function is undefined.
 $$g(x) = \frac{x^3}{(x^2 - 1)(x^2 + 1)} = \frac{x^3}{(x - 1)(x + 1)(x^2 + 1)}$$
@@ -8040,24 +8035,18 @@ $$g(x) = \frac{x^3}{(x^2 - 1)(x^2 + 1)} = \frac{x^3}{(x - 1)(x + 1)(x^2 + 1)}$$
 * **Multiplicity:** Both factors $(x-1)$ and $(x+1)$ have an odd multiplicity (power of 1). The graph will approach **opposite infinities** at both walls.
 
 ---
-
 #### 3. Local Intercepts & Symmetry
 * **x-intercept:** Set numerator to zero. $x^3 = 0 \implies (0, 0)$.
 * **y-intercept:** Set $x=0$. $g(0) = \frac{0}{-1} = 0 \implies (0, 0)$.
 * **Parity:** $g(-x) = \frac{(-x)^3}{(-x)^4 - 1} = \frac{-x^3}{x^4 - 1}$. Since $g(-x) = -g(x)$, the function is **Odd**. It has origin symmetry.
 
 ---
-
 #### 4. How and Why it Looks Like This
 * **The Frame:** The graph is divided into three sections by the vertical walls at $x = -1$ and $x = 1$. It must level off to $y = 0$ at the far left and far right.
 * **The "Tails":** * To the right of $x=1$: Plugging in $x=2$ gives a positive value ($\approx 0.53$), so the graph stays above the x-axis, coming from $+\infty$ and hugging $y=0$.
     * To the left of $x=-1$: Due to odd symmetry, this must be the opposite—the graph stays below the x-axis, coming from $-\infty$ and hugging $y=0$.
 * **The Middle:** * Between $x = -1$ and $x = 1$: The graph must pass through the origin $(0,0)$. Since it goes toward $-\infty$ as it hits $x=1$ from the left (to be opposite the right-side tail), it must come from $+\infty$ at $x=-1$. It creates a "snake-like" curve through the origin.
-
-
-
 ---
-
 #### Summary Table
 | Feature | Value / Description |
 | :--- | :--- |
