@@ -8132,3 +8132,77 @@ $$y = \frac{(x + 2)(x^2 + 4)}{x} = \frac{x^3 + 2x^2 + 4x + 8}{x}$$
 > [!abstract] Algebra Takeaway
 > While the function looks like a simple curve at the ends, the local features tell a different story: a vertical "chasm" at the y-axis and a specific "missing pixel" at $(2, 16)$. Always simplify to find holes, but remember the hole still represents an undefined value in the original domain.
 
+### Analysis of F(x) = \frac{2x^2 - 5x - 12}{3x^2 - 11x - 4}
+
+Following the lesson's structured workflow, we examine the function's global behavior first, then drill down into the local details (holes and asymptotes).
+
+---
+
+#### 1. End Behavior (Leading Term Analysis)
+Compare the degrees of the numerator ($n$) and denominator ($m$) before factoring.
+* **Numerator Degree ($n$):** 2
+* **Denominator Degree ($m$):** 2
+* **Comparison ($n = m$):** Since the degrees are equal, the **Horizontal Asymptote (H.A.)** is the ratio of the leading coefficients.
+    * $y = \frac{2}{3}$
+
+**End Behavior:**
+* As $x \to \infty, F(x) \to \frac{2}{3}$
+* As $x \to -\infty, F(x) \to \frac{2}{3}$
+
+
+
+---
+
+#### 2. Factor and Define Domain
+To find local features, we factor both polynomials.
+
+* **Numerator:** $2x^2 - 5x - 12 = (2x + 3)(x - 4)$
+* **Denominator:** $3x^2 - 11x - 4 = (3x + 1)(x - 4)$
+
+**The Full Function:**
+$$F(x) = \frac{(2x + 3)(x - 4)}{(3x + 1)(x - 4)}$$
+
+**Domain Restrictions:** $x \neq 4$ and $x \neq -\frac{1}{3}$.
+
+---
+
+#### 3. Holes vs. Vertical Asymptotes
+* **Hole:** The factor $(x - 4)$ is common to both the numerator and denominator and cancels out.
+    * There is a **Hole at $x = 4$**.
+    * Plug $x = 4$ into the simplified function $\frac{2x + 3}{3x + 1}$ to find the $y$-coordinate:
+      $$\frac{2(4) + 3}{3(4) + 1} = \frac{8 + 3}{12 + 1} = \frac{11}{13}$$
+    * **Hole Location:** $(4, \frac{11}{13})$ or approximately $(4, 0.85)$.
+* **Vertical Asymptote (V.A.):** The factor $(3x + 1)$ remains in the denominator.
+    * There is a **Vertical Asymptote at $x = -\frac{1}{3}$**.
+    * **Multiplicity:** Odd (power of 1), so the graph approaches **opposite infinities**.
+
+
+
+---
+
+#### 4. Local Intercepts
+Using the simplified function $y = \frac{2x + 3}{3x + 1}$:
+* **x-intercept:** Set numerator to zero. $2x + 3 = 0 \implies x = -1.5$. Intercept: $(-1.5, 0)$.
+* **y-intercept:** Set $x = 0$. $F(0) = \frac{3}{1} = 3$. Intercept: $(0, 3)$.
+
+---
+
+#### 5. How and Why it Looks Like This
+* **The Frame:** The graph is built around the "skeleton" of the H.A. at $y \approx 0.67$ and the V.A. at $x \approx -0.33$.
+* **The Left Branch:** To the left of the V.A., the graph passes through $(-1.5, 0)$. As it moves toward the V.A. from the left, it dives toward $-\infty$. As it moves to the left, it levels off toward $y = 2/3$.
+* **The Right Branch:** To the right of the V.A., the graph passes through $(0, 3)$. Since this is above the H.A., the graph comes down from $+\infty$ at the V.A. and slowly approaches $y = 2/3$ as $x$ increases.
+* **The "Missing Pixel":** As the right branch levels off, it must have an open circle at the exact coordinate $(4, 11/13)$ to account for the hole.
+
+---
+
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **Horizontal Asymptote** | $y = 2/3$ |
+| **Vertical Asymptote** | $x = -1/3$ (Opposite Directions) |
+| **Hole Location** | $(4, 11/13)$ |
+| **x-intercept** | $(-1.5, 0)$ |
+| **y-intercept** | $(0, 3)$ |
+
+> [!abstract] Algebra Takeaway
+> This function looks almost exactly like a simple hyperbola, but the factoring reveals that the point at $x = 4$ is actually undefined. The "tie" in degrees ensures the graph never wanders too far from the $y = 2/3$ line at the far ends.
