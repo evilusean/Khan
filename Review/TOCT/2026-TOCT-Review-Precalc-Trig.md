@@ -1184,6 +1184,9 @@ To build a polynomial from complex zeros, you convert each zero into a linear fa
 
 Finding all solutions involves a systematic reduction of the polynomial's degree by identifying rational zeros through the Rational Zeros Theorem and synthetic division, then using long division or the quadratic formula to uncover the remaining irrational and complex conjugate pairs until the total number of zeros matches the polynomial's degree.
 
+### Finding a Horizontal Asymptote of a Rational Function (Precalculus - College Algebra 40)
+Horizontal asymptotes are found by comparing the degrees of the numerator ($n$) and denominator ($m$): the asymptote is $y=0$ if $n < m$, the ratio of the leading coefficients if $n = m$, and nonexistent if $n > m$.
+
 ### Finding Asymptotes and Holes of Rational Functions (Precalculus - College Algebra 43)
 To identify all features of a rational function, first determine the end behavior (HA/OA) using leading terms, then factor completely to distinguish between vertical asymptotes (non-removable denominator zeros) and holes (removable factors canceled by the numerator).
 
