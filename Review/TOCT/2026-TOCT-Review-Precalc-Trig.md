@@ -1183,3 +1183,7 @@ To build a polynomial from complex zeros, you convert each zero into a linear fa
 ### Finding ALL Solutions of Polynomials (Professor Leonard #37 )
 
 Finding all solutions involves a systematic reduction of the polynomial's degree by identifying rational zeros through the Rational Zeros Theorem and synthetic division, then using long division or the quadratic formula to uncover the remaining irrational and complex conjugate pairs until the total number of zeros matches the polynomial's degree.
+
+### Finding Asymptotes and Holes of Rational Functions (Precalculus - College Algebra 43)
+To identify all features of a rational function, first determine the end behavior (HA/OA) using leading terms, then factor completely to distinguish between vertical asymptotes (non-removable denominator zeros) and holes (removable factors canceled by the numerator).
+

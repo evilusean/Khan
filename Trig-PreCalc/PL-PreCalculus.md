@@ -8078,9 +8078,6 @@ $$\frac{x^4}{x^2} = x^2$$
 * As $x \to \infty, G(x) \to \infty$
 * As $x \to -\infty, G(x) \to \infty$
 The graph will ultimately behave like an upward-opening parabola at its far ends.
-
-
-
 ---
 #### 2. Factor and Define Domain
 We must factor both the numerator and denominator completely to find the restrictions.
