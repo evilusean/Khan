@@ -7903,3 +7903,61 @@ The ends of the graph will both point upward, just like a parabola.
 
 ## 2026-April-18 - Finding Asymptotes and Holes of Rational Functions (Precalculus - College Algebra 43) :
 https://www.youtube.com/watch?v=tyXWPcvSQvk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=44
+### Finding Asymptotes and Holes of Rational Functions
+
+This lesson provides a structured, efficient workflow for identifying all graphical features of a rational function. Following this specific order limits redundant work and prepares you for full graphing. [00:00:12]
+
+---
+
+#### 1. Step-by-Step Workflow
+1.  **End Behavior (First):** Use the leading terms to find the Horizontal Asymptote (HA), Oblique Asymptote (OA), or general end behavior. It is easier to do this in standard form before factoring. [00:01:02]
+2.  **Factor Everything:** Factor both the numerator and denominator completely. [00:01:21]
+3.  **Define Domain:** Identify values that make the denominator zero *before* canceling anything. [00:01:41]
+4.  **Identify Holes vs. Vertical Asymptotes:**
+    * **Holes:** If a factor cancels out.
+    * **Vertical Asymptotes (VA):** If a factor does not cancel. [00:01:48]
+5.  **Simplify and Evaluate:** If a hole exists, plug the $x$-value into the *simplified* function to find the exact $(x, y)$ coordinate of the hole. [00:01:53]
+
+---
+
+#### 2. Categorizing Discontinuities (The Domain)
+A value excluded from the domain must manifest in one of two ways on the graph: [00:05:09]
+
+##### Vertical Asymptotes (Non-Removable)
+* Occur at $x$-values where the denominator is zero and the factor **cannot** be canceled.
+* **Odd Multiplicity:** Graph approaches opposite infinities (one side up, one side down). [00:06:27]
+* **Even Multiplicity:** Graph approaches the same infinity (both sides up or both sides down).
+
+
+##### Holes (Removable)
+* Occur at $x$-values where a factor in the denominator **can** be canceled with a factor in the numerator. [00:22:18]
+* **Crucial Step:** You must find the $y$-coordinate. The graph will look identical to the simplified version, just with a single point missing. [00:24:55]
+
+
+---
+
+#### 3. End Behavior Recall
+| Degree Comparison | Result | Method |
+| :--- | :--- | :--- |
+| **$n < m$** | HA at $y = 0$ | Denominator outpaces numerator. [00:08:25] |
+| **$n = m$** | HA at $y = \frac{\text{leading coeff.}}{\text{leading coeff.}}$ | Degrees are tied. [00:03:50] |
+| **$n = m + 1$** | Oblique Asymptote | Use long division (first two steps). [00:34:31] |
+| **$n > m + 1$** | Power Function | Simplify leading terms ratio. [00:16:53] |
+
+---
+
+#### 4. Unique Cases: The Oblique-Function Match
+Sometimes, if a function simplifies into a linear equation (e.g., $g(x) = 2x - 1$ after canceling a hole), the "oblique asymptote" is actually the function itself. The graph is simply that line with a hole poked in it. [00:46:19]
+
+
+---
+
+#### Summary Checklist for Graphing
+* [ ] Find HA/OA using leading terms.
+* [ ] Factor and list domain restrictions.
+* [ ] Label each restriction as a VA or a Hole.
+* [ ] For Holes: Find the $y$-coordinate by plugging $x$ into the simplified version.
+* [ ] For VAs: Determine if they are Odd or Even.
+
+> [!abstract] Algebra Takeaway
+> Always define your domain **before** you simplify. If you simplify first, you "lose" the information about the holes, which results in an incomplete and incorrect graph.
