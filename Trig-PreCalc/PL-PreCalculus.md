@@ -8132,7 +8132,7 @@ $$y = \frac{(x + 2)(x^2 + 4)}{x} = \frac{x^3 + 2x^2 + 4x + 8}{x}$$
 > [!abstract] Algebra Takeaway
 > While the function looks like a simple curve at the ends, the local features tell a different story: a vertical "chasm" at the y-axis and a specific "missing pixel" at $(2, 16)$. Always simplify to find holes, but remember the hole still represents an undefined value in the original domain.
 
-### Analysis of F(x) = \frac{2x^2 - 5x - 12}{3x^2 - 11x - 4}
+### Analysis of $F(x) = \frac{2x^2 - 5x - 12}{3x^2 - 11x - 4}$
 
 Following the lesson's structured workflow, we examine the function's global behavior first, then drill down into the local details (holes and asymptotes).
 
@@ -8147,8 +8147,6 @@ Compare the degrees of the numerator ($n$) and denominator ($m$) before factorin
 **End Behavior:**
 * As $x \to \infty, F(x) \to \frac{2}{3}$
 * As $x \to -\infty, F(x) \to \frac{2}{3}$
-
-
 
 ---
 #### 2. Factor and Define Domain
