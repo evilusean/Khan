@@ -1216,3 +1216,4 @@ Evaluate $f(0)$. This provides a specific anchor point on the graph.
 Set the simplified function equal to the H.A. or O.A. value to see if the graph ever crosses its own end-behavior boundary.
 #### 7. Sketch the Graph
 Start with the asymptotes (the skeleton), plot your intercepts and holes, and use the multiplicity rules to connect the branches.
+
