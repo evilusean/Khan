@@ -8335,3 +8335,4 @@ Using the simplified function $y = 2x - 1$:
 > [!abstract] Algebra Takeaway
 > When the denominator is a factor of the numerator, the "asymptote" is the function. The graph isn't "approaching" the line $y = 2x - 1$ at infinity; it is *on* the line for every value except the hole at $x = -5/3$.
 
+## 2026-April-19 - Graphing Rational Functions (Precalculus - College Algebra 44) :
