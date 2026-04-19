@@ -8382,3 +8382,74 @@ The Horizontal/Oblique asymptote acts as a "magnet" for the far ends of the grap
 
 > [!abstract] Algebra Takeaway
 > Think of a rational function graph as a puzzle. The asymptotes and intercepts provide the border and the corners; the test points and multiplicity rules fill in the middle pieces. Always define your domain and find holes *before* you start drawing lines.
+
+### Analysis of f(x) = \frac{x-1}{x^2 - 4}
+
+Following the seven-step strategy, we build the graph from the ground up by identifying its "skeleton" features first.
+
+---
+
+#### 1. Y-Intercept
+Set $x = 0$:
+$$f(0) = \frac{0 - 1}{0^2 - 4} = \frac{-1}{-4} = 0.25$$
+**Intercept:** $(0, 0.25)$
+
+#### 2. Factor & Simplify
+$$f(x) = \frac{x - 1}{(x - 2)(x + 2)}$$
+* **Holes:** No factors cancel between the numerator and denominator. **There are no holes.**
+
+#### 3. X-Intercepts
+Set the numerator to zero:
+$$x - 1 = 0 \implies x = 1$$
+**Intercept:** $(1, 0)$
+
+#### 4. Vertical Asymptotes (V.A.)
+Set the denominator factors to zero:
+* $x - 2 = 0 \implies \mathbf{x = 2}$
+* $x + 2 = 0 \implies \mathbf{x = -2}$
+* **Multiplicity:** Both have a power of 1 (odd). The graph will approach **opposite infinities** at both $x = -2$ and $x = 2$.
+
+
+
+#### 5. Horizontal Asymptote (H.A.)
+Compare degrees:
+* Degree of numerator ($n$) = 1
+* Degree of denominator ($m$) = 2
+* **Condition:** Since $n < m$ (bottom-heavy), the H.A. is **$y = 0$** (the x-axis).
+
+#### 6. Asymptote Intersection
+Does the graph cross the H.A. ($y = 0$)?
+Set the function equal to 0:
+$$0 = \frac{x-1}{x^2-4} \implies 0 = x - 1 \implies x = 1$$
+Yes, the graph crosses its horizontal asymptote at the point **$(1, 0)$**.
+
+---
+
+#### 7. How and Why the Graph Looks Like This
+The graph is divided into three distinct regions by the two vertical asymptotes.
+
+* **Left Region ($x < -2$):**
+    Pick a test point ($x = -3$): $f(-3) = \frac{-4}{5} = -0.8$.
+    The graph stays below the x-axis, "hugging" $y=0$ on the far left and diving toward $-\infty$ as it approaches $x = -2$.
+* **Middle Region ($-2 < x < 2$):**
+    The graph must pass through the y-intercept $(0, 0.25)$ and the x-intercept $(1, 0)$.
+    As it approaches $x = -2$ from the right, it must go toward $+\infty$ (to be opposite the left-side branch). It then travels down through $(0, 0.25)$ and $(1, 0)$, continuing toward $-\infty$ as it hits $x = 2$.
+* **Right Region ($x > 2$):**
+    As it approaches $x = 2$ from the right, it must come from $+\infty$ (opposite the middle branch). It then curves down to "hug" the H.A. ($y = 0$) from above.
+
+
+
+---
+
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **Horizontal Asymptote** | $y = 0$ |
+| **Vertical Asymptotes** | $x = -2, x = 2$ |
+| **X-Intercept** | $(1, 0)$ |
+| **Y-Intercept** | $(0, 0.25)$ |
+| **Holes** | None |
+| **Crosses H.A.?** | Yes, at $x = 1$ |
+
+> [!abstract] Algebra Takeaway
+> This is a classic "three-piece" rational function. The key observation is the intersection at $(1, 0)$; even though $y=0$ is an asymptote, the graph passes right through it before leveling off again at the far ends.
