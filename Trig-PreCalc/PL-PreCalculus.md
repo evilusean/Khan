@@ -8578,12 +8578,11 @@ $$6x = 36 \implies x = 6$$
 > [!abstract] Algebra Takeaway
 > The intersection at $(6, 3)$ is the most critical detail. It proves that a horizontal asymptote is only a guide for the "ends" of the graph, not a forbidden zone in the middle.
 
-### Analysis of f(x) = \frac{2x^2 - 5x + 2}{x^2 - 4}
+### Analysis of $f(x) = \frac{2x^2 - 5x + 2}{x^2 - 4}$
 
 Following the definitive graphing workflow:
 
 ---
-
 #### 1. Analyze End Behavior (Asymptotes)
 Compare the degrees of the numerator ($n$) and denominator ($m$):
 * **Numerator Degree ($n$):** 2
@@ -8592,10 +8591,7 @@ Compare the degrees of the numerator ($n$) and denominator ($m$):
     * $y = \frac{2}{1} = 2$
 * **Behavior:** As $x \to \pm\infty, f(x) \to 2$.
 
-
-
 ---
-
 #### 2. Factor the Function
 Factor both the numerator and denominator completely:
 * **Numerator:** $2x^2 - 5x + 2 = (2x - 1)(x - 2)$
@@ -8603,7 +8599,6 @@ Factor both the numerator and denominator completely:
 * **Full Factored Form:** $f(x) = \frac{(2x - 1)(x - 2)}{(x - 2)(x + 2)}$
 
 ---
-
 #### 3. Define Domain & Identify Holes
 * **Domain Restrictions:** Set original denominator to zero: $x \neq 2$ and $x \neq -2$.
 * **Holes:** The factor $(x - 2)$ is common to both the top and bottom and cancels out.
@@ -8617,21 +8612,18 @@ Factor both the numerator and denominator completely:
 
 
 ---
-
 #### 4. Determine Zeroes and Multiplicity (Numerator)
 Set the **simplified** numerator factor to zero to find the x-intercept:
 * $2x - 1 = 0 \implies x = 0.5$
 * **Multiplicity:** Multiplicity of 1, so the graph **crosses** the x-axis at $(0.5, 0)$.
 
 ---
-
 #### 5. Find the Y-Intercept
 Evaluate $f(0)$ using the simplified function:
 * $f(0) = \frac{2(0) - 1}{0 + 2} = -\frac{1}{2} = -0.5$
 * **Intercept:** $(0, -0.5)$
 
 ---
-
 #### 6. Check for Asymptote Intersections
 Does the graph cross the H.A. ($y = 2$)? Set the simplified function equal to 2:
 $$2 = \frac{2x - 1}{x + 2}$$
@@ -8641,21 +8633,17 @@ $$4 = -1 \quad (\text{False})$$
 **Result:** The graph **never crosses** the horizontal asymptote.
 
 ---
-
 #### 7. Final Sketch: How and Why it Looks Like This
 * **Left Section ($x < -2$):** As $x \to -\infty$, the graph hugs $y = 2$. As it approaches the wall at $x = -2$ from the left, the values shoot to $+\infty$ (e.g., test $x = -3$, $y = 7$).
 * **Right Section ($x > -2$):** Due to odd multiplicity at the V.A., the graph must come from $-\infty$ on the right side of $x = -2$. It climbs through the y-intercept $(0, -0.5)$, crosses the x-axis at $(0.5, 0)$, passes through the **Hole at $(2, 0.75)$**, and levels off to hug $y = 2$ from below.
-
-
-
 ---
-
 #### Summary Table
-| Feature | Value / Description |
-| :--- | :--- |
-| **End Behavior (H.A.)** | $y = 2$ |
-| **Vertical Asymptote** | $x = -2$ |
-| **Hole Location** | $(2, 0.75)$ |
-| **X-Intercept** | $(0.5, 0)$ |
-| **Y-Intercept** | $(0, -0.5)$ |
-| **H.A. Intersection** | None |
+| Feature                 | Value / Description |
+| :---------------------- | :------------------ |
+| **End Behavior (H.A.)** | $y = 2$             |
+| **Vertical Asymptote**  | $x = -2$            |
+| **Hole Location**       | $(2, 0.75)$         |
+| **X-Intercept**         | $(0.5, 0)$          |
+| **Y-Intercept**         | $(0, -0.5)$         |
+| **H.A. Intersection**   | None                |
+
