@@ -8443,3 +8443,80 @@ The graph is divided into three distinct regions by the two vertical asymptotes.
 
 > [!abstract] Algebra Takeaway
 > This is a classic "three-piece" rational function. The key observation is the intersection at $(1, 0)$; even though $y=0$ is an asymptote, the graph passes right through it before leveling off again at the far ends.
+
+### Analysis of f(x) = \frac{x^4 - 1}{x^2 - 4}
+
+Following the seven-step graphing strategy, we break down this higher-degree rational function to understand its global and local behaviors.
+
+---
+
+#### 1. Y-Intercept
+Set $x = 0$:
+$$f(0) = \frac{0^4 - 1}{0^2 - 4} = \frac{-1}{-4} = 0.25$$
+**Intercept:** $(0, 0.25)$
+
+#### 2. Factor & Simplify
+* **Numerator (Difference of Squares twice):** $x^4 - 1 = (x^2 - 1)(x^2 + 1) = (x - 1)(x + 1)(x^2 + 1)$
+* **Denominator:** $x^2 - 4 = (x - 2)(x + 2)$
+
+**Full Factored Form:**
+$$f(x) = \frac{(x - 1)(x + 1)(x^2 + 1)}{(x - 2)(x + 2)}$$
+* **Holes:** No factors cancel. **There are no holes.**
+
+#### 3. X-Intercepts
+Set the numerator factors to zero:
+* $x - 1 = 0 \implies x = 1$
+* $x + 1 = 0 \implies x = -1$
+* $x^2 + 1 = 0 \implies$ No real solutions.
+**Intercepts:** $(1, 0)$ and $(-1, 0)$
+
+#### 4. Vertical Asymptotes (V.A.)
+Set the denominator factors to zero:
+* $x - 2 = 0 \implies \mathbf{x = 2}$
+* $x + 2 = 0 \implies \mathbf{x = -2}$
+* **Multiplicity:** Both are power 1 (odd). The graph will approach **opposite infinities** at both walls.
+
+
+
+#### 5. End Behavior (Asymptotes)
+Compare degrees:
+* Degree of numerator ($n$) = 4
+* Degree of denominator ($m$) = 2
+* **Condition:** Since $n > m + 1$ (numerator is more than one degree higher), there is no horizontal or oblique asymptote.
+* **Power Function Model:** $\frac{x^4}{x^2} = x^2$.
+
+**End Behavior:** The far ends of the graph will mimic an upward-opening parabola ($y \to \infty$ as $x \to \pm\infty$).
+
+
+
+#### 6. Asymptote Intersection
+Since there is no horizontal or oblique asymptote, we do not need to check for intersections with one. The graph will simply grow toward infinity at the ends.
+
+---
+
+#### 7. How and Why the Graph Looks Like This
+The graph is divided into three sections by the V.A.s at $x = -2$ and $x = 2$.
+
+* **Left Region ($x < -2$):**
+    As $x \to -\infty$, the graph goes to $+\infty$ (matching our $x^2$ end behavior). As it approaches $x = -2$ from the left, it will shoot to $+\infty$. (You can verify with a test point like $x = -3$, which yields a positive value).
+* **Middle Region ($-2 < x < 2$):**
+    The graph must pass through $(-1, 0)$, $(0, 0.25)$, and $(1, 0)$. 
+    Since the V.A. at $x = -2$ is odd, if the left side went to $+\infty$, the right side must come from $-\infty$. It curves up through the x-intercepts and y-intercept (forming a small "hump") and then dives back to $-\infty$ as it hits $x = 2$.
+* **Right Region ($x > 2$):**
+    Following the odd multiplicity at $x = 2$, the graph comes down from $+\infty$ and then curves back up toward $+\infty$ to satisfy the parabolic end behavior.
+
+
+
+---
+
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **End Behavior Model** | $y = x^2$ (Up / Up) |
+| **Vertical Asymptotes** | $x = -2, x = 2$ |
+| **X-Intercepts** | $(-1, 0), (1, 0)$ |
+| **Y-Intercept** | $(0, 0.25)$ |
+| **Symmetry** | Even ($f(-x) = f(x)$) |
+
+> [!abstract] Algebra Takeaway
+> Because the numerator is two degrees higher, the function "wants" to be a parabola. The denominator acts as a local disruptor, "tearing" the parabola apart at $x = \pm 2$ and forcing the middle section to flip upside down.
