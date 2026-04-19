@@ -8507,12 +8507,11 @@ The graph is divided into three sections by the V.A.s at $x = -2$ and $x = 2$.
 > [!abstract] Algebra Takeaway
 > Because the numerator is two degrees higher, the function "wants" to be a parabola. The denominator acts as a local disruptor, "tearing" the parabola apart at $x = \pm 2$ and forcing the middle section to flip upside down.
 
-### Analysis of f(x) = \frac{3x^2 - 3x}{x^2 + x - 12}
+### Analysis of $f(x) = \frac{3x^2 - 3x}{x^2 + x - 12}$
 
 Following the specific order of operations from the lesson to ensure the "skeleton" of the graph is built correctly for your notes.
 
 ---
-
 #### 1. Analyze End Behavior (Asymptotes)
 Compare the degrees of the numerator ($n$) and denominator ($m$):
 * **Numerator Degree ($n$):** 2
@@ -8521,10 +8520,7 @@ Compare the degrees of the numerator ($n$) and denominator ($m$):
     * $y = \frac{3}{1} = 3$
 * **Behavior:** As $x \to \pm\infty, f(x) \to 3$.
 
-
-
 ---
-
 #### 2. Factor the Function
 Factor both the numerator and denominator completely:
 * **Numerator:** $3x(x - 1)$
@@ -8532,7 +8528,6 @@ Factor both the numerator and denominator completely:
 * **Full Factored Form:** $f(x) = \frac{3x(x - 1)}{(x + 4)(x - 3)}$
 
 ---
-
 #### 3. Define Domain & Identify Holes
 * **Domain Restrictions:** Set the denominator factors to zero: $x \neq -4$ and $x \neq 3$.
 * **Holes:** No factors are common to both the numerator and denominator. **There are no holes.**
@@ -8540,10 +8535,7 @@ Factor both the numerator and denominator completely:
     * **V.A. 1:** $x = -4$ (Multiplicity 1: Opposite directions)
     * **V.A. 2:** $x = 3$ (Multiplicity 1: Opposite directions)
 
-
-
 ---
-
 #### 4. Determine Zeroes and Multiplicity (Numerator)
 Set the simplified numerator factors to zero to find the x-intercepts:
 * $3x = 0 \implies x = 0$
@@ -8551,14 +8543,12 @@ Set the simplified numerator factors to zero to find the x-intercepts:
 * **Multiplicity:** Both intercepts have a multiplicity of 1, meaning the graph **crosses** the x-axis at both $(0, 0)$ and $(1, 0)$.
 
 ---
-
 #### 5. Find the Y-Intercept
 Evaluate $f(0)$:
 * $f(0) = \frac{3(0)^2 - 3(0)}{0^2 + 0 - 12} = \frac{0}{-12} = 0$
 * **Intercept:** $(0, 0)$ (This matches our x-intercept).
 
 ---
-
 #### 6. Check for Asymptote Intersections
 Does the graph cross the H.A. ($y = 3$)? Set the function equal to the asymptote value:
 $$3 = \frac{3x^2 - 3x}{x^2 + x - 12}$$
@@ -8568,17 +8558,13 @@ $$3x - 36 = -3x$$
 $$6x = 36 \implies x = 6$$
 **Intersection:** The graph crosses the horizontal asymptote at the point **$(6, 3)$**.
 
-
-
 ---
-
 #### 7. Final Sketch: How and Why it Looks Like This
 * **Left Section ($x < -4$):** Test $x = -5$. The value is positive and above the H.A. ($y \approx 11.25$). The graph comes from the H.A. and shoots up to $+\infty$.
 * **Middle Section ($-4 < x < 3$):** Following opposite multiplicity, it comes from $-\infty$ at $x = -4$, crosses the x-axis at $(0,0)$, peaks slightly, crosses back through $(1,0)$, and dives to $-\infty$ at $x = 3$.
 * **Right Section ($x > 3$):** It comes from $+\infty$ at $x = 3$. It curves down, **crosses through** the H.A. at $(6, 3)$, dips slightly below it, and then levels off back toward $y = 3$ from below.
 
 ---
-
 #### Summary Table
 | Feature | Value / Description |
 | :--- | :--- |
