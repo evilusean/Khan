@@ -1193,3 +1193,27 @@ Horizontal asymptotes are found by comparing the degrees of the numerator ($n$) 
 ### Finding Asymptotes and Holes of Rational Functions (Precalculus - College Algebra 43)
 To identify all features of a rational function, first determine the end behavior (HA/OA) using leading terms, then factor completely to distinguish between vertical asymptotes (non-removable denominator zeros) and holes (removable factors canceled by the numerator).
 
+### Graphing Rational Functions (Precalculus - College Algebra 44) :
+To graph a rational function, first establish a "skeleton" using the y-intercept, holes, x-intercepts, and asymptotes, then use the multiplicity of the vertical asymptotes and end behavior models to determine the direction and placement of the graph's branches.
+#### 1. Find the Y-Intercept
+Evaluate the function at $x = 0$. This gives you a solid starting point on the vertical axis.
+- _Math:_ $f(0)$
+#### 2. Factor and Simplify
+Factor both the numerator and denominator completely.
+- **Crucial Step:** Check for **Holes**. If a factor is present in both the top and bottom, it cancels out, creating a hole at that $x$-value. You must find the $y$-coordinate by plugging the $x$-value into the _simplified_ function.
+#### 3. Find X-Intercepts
+Set the **numerator** of the simplified function equal to zero. These are the points where the graph touches or crosses the horizontal axis.
+#### 4. Find Vertical Asymptotes (V.A.)
+Set the **denominator** of the simplified function equal to zero.
+- **Note the Multiplicity:** * **Odd exponent:** The graph goes in opposite directions at the asymptote ($\uparrow | \downarrow$).
+- **Even exponent:** The graph goes in the same direction at the asymptote ($\uparrow | \uparrow$).
+#### 5. Find the Horizontal or Oblique Asymptote
+Compare the degree of the numerator ($n$) and denominator ($m$):
+- **$n < m$:** Horizontal Asymptote at $y = 0$.
+- **$n = m$:** Horizontal Asymptote at the ratio of leading coefficients.
+- **$n = m + 1$:** Oblique (Slant) Asymptote (found via long division).
+#### 6. Check for Asymptote Intersections
+Determine if the graph crosses its own horizontal or oblique asymptote. Set the simplified function equal to the asymptote's equation and solve for $x$.
+#### 7. Sketch the Graph
+Draw the "skeleton" (asymptotes and intercepts) first. Use the information from the previous steps to fill in the branches. If a region is still unclear, pick a **test point** in that interval to see if the graph is positive or negative.
+
