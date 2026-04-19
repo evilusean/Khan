@@ -8196,3 +8196,142 @@ Using the simplified function $y = \frac{2x + 3}{3x + 1}$:
 
 > [!abstract] Algebra Takeaway
 > This function looks almost exactly like a simple hyperbola, but the factoring reveals that the point at $x = 4$ is actually undefined. The "tie" in degrees ensures the graph never wanders too far from the $y = 2/3$ line at the far ends.
+
+### Analysis of $g(x) = \frac{x^3 - 8}{x^2 - 5x + 6}$
+
+Following the lesson's workflow, we analyze the global behavior first, then decompose the function to find local features like holes and intercepts.
+
+---
+#### 1. End Behavior (Leading Term Analysis)
+We compare the degrees of the numerator ($n$) and denominator ($m$) to identify the asymptote type.
+* **Numerator Degree ($n$):** 3
+* **Denominator Degree ($m$):** 2
+* **Comparison ($n = m + 1$):** Since the numerator is exactly one degree higher, the function has an **Oblique (Slant) Asymptote**.
+
+**Finding the Slant Asymptote (Long Division):**
+We divide $x^3 + 0x^2 + 0x - 8$ by $x^2 - 5x + 6$.
+1.  $x^3 \div x^2 = \mathbf{x}$
+2.  $x(x^2 - 5x + 6) = x^3 - 5x^2 + 6x$. Subtracting this from the numerator leaves $5x^2 - 6x - 8$.
+3.  $5x^2 \div x^2 = \mathbf{5}$
+* **Oblique Asymptote:** **$y = x + 5$**
+
+**End Behavior:**
+* As $x \to \infty, g(x) \to \infty$ (following the line $y = x + 5$).
+* As $x \to -\infty, g(x) \to -\infty$ (following the line $y = x + 5$).
+
+---
+#### 2. Factor and Define Domain
+Now we factor completely to find discontinuities.
+* **Numerator (Difference of Cubes):** $x^3 - 8 = (x - 2)(x^2 + 2x + 4)$
+* **Denominator (Trinomial):** $x^2 - 5x + 6 = (x - 2)(x - 3)$
+
+**The Full Function:**
+$$g(x) = \frac{(x - 2)(x^2 + 2x + 4)}{(x - 2)(x - 3)}$$
+
+**Domain Restrictions:** $x \neq 2$ and $x \neq 3$.
+
+---
+#### 3. Holes vs. Vertical Asymptotes
+* **Hole:** The factor $(x - 2)$ cancels out.
+    * There is a **Hole at $x = 2$**.
+    * Plug $x = 2$ into the simplified version $\frac{x^2 + 2x + 4}{x - 3}$:
+        $$\frac{(2)^2 + 2(2) + 4}{2 - 3} = \frac{4 + 4 + 4}{-1} = -12$$
+    * **Hole Location:** $(2, -12)$.
+* **Vertical Asymptote (V.A.):** The factor $(x - 3)$ remains.
+    * There is a **Vertical Asymptote at $x = 3$**.
+    * **Multiplicity:** Odd, so the graph approaches **opposite infinities**.
+
+---
+#### 4. Local Intercepts
+Using the simplified function $y = \frac{x^2 + 2x + 4}{x - 3}$:
+* **x-intercept:** Set numerator to zero ($x^2 + 2x + 4 = 0$). The discriminant ($b^2 - 4ac$) is $4 - 16 = -12$. No real roots. **No x-intercepts**.
+* **y-intercept:** Set $x = 0$. $g(0) = \frac{-8}{6} = -\frac{4}{3} \approx -1.33$.
+
+---
+#### 5. How and Why it Looks Like This
+* **The Slant:** Far from the origin, the graph "hugs" the diagonal line $y = x + 5$.
+* **The Wall:** At $x = 3$, the graph splits. 
+    * To the right of $x = 3$, the values are positive and large, shooting to $+\infty$ and then curving down to follow the slant asymptote.
+    * To the left of $x = 3$, the graph shoots down to $-\infty$. 
+* **The Gap:** As the graph heads down from the y-intercept toward the vertical asymptote, there is an open circle at $(2, -12)$.
+---
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **Oblique Asymptote** | $y = x + 5$ |
+| **Vertical Asymptote** | $x = 3$ (Opposite Directions) |
+| **Hole Location** | $(2, -12)$ |
+| **x-intercept** | None |
+| **y-intercept** | $(0, -1.33)$ |
+
+> [!abstract] Algebra Takeaway
+> This function's growth is linear at the edges because the numerator is exactly one degree higher than the denominator. The "cancelation" at $x=2$ keeps the graph from having a second vertical asymptote, turning that potential wall into a single missing point.
+
+### Analysis of $H(x) = \frac{6x^2 + 7x - 5}{3x + 5}$
+
+Following the lesson's structured workflow, we examine the global behavior first, then decompose the function to find local features like holes and intercepts.
+
+---
+#### 1. End Behavior (Leading Term Analysis)
+Compare the degrees of the numerator ($n$) and denominator ($m$) to identify the asymptote type.
+* **Numerator Degree ($n$):** 2
+* **Denominator Degree ($m$):** 1
+* **Comparison ($n = m + 1$):** Since the numerator is exactly one degree higher, the function has an **Oblique (Slant) Asymptote**.
+
+**Finding the Slant Asymptote (Long Division):**
+We divide $6x^2 + 7x - 5$ by $3x + 5$.
+1.  $6x^2 \div 3x = \mathbf{2x}$
+2.  $2x(3x + 5) = 6x^2 + 10x$. Subtracting this from the numerator ($6x^2 + 7x$) leaves $-3x - 5$.
+3.  $-3x \div 3x = \mathbf{-1}$
+* **Oblique Asymptote:** **$y = 2x - 1$**
+
+**End Behavior:**
+* As $x \to \infty, H(x) \to \infty$ (following the line $y = 2x - 1$).
+* As $x \to -\infty, H(x) \to -\infty$ (following the line $y = 2x - 1$).
+
+---
+#### 2. Factor and Define Domain
+Now we factor completely to find discontinuities.
+* **Numerator (Trinomial):** $6x^2 + 7x - 5 = (3x + 5)(2x - 1)$
+* **Denominator:** $(3x + 5)$
+
+**The Full Function:**
+$$H(x) = \frac{(3x + 5)(2x - 1)}{(3x + 5)}$$
+
+**Domain Restriction:** Set $3x + 5 = 0 \implies \mathbf{x \neq -5/3}$.
+
+---
+#### 3. Holes vs. Vertical Asymptotes
+* **Hole:** The factor $(3x + 5)$ exists in both the top and bottom and cancels out completely.
+    * There is a **Hole at $x = -5/3$**.
+    * Plug $x = -5/3$ into the simplified version $(2x - 1)$ to find the $y$-coordinate:
+        $$2(-5/3) - 1 = -10/3 - 3/3 = -13/3$$
+    * **Hole Location:** $(-5/3, -13/3)$ or approximately $(-1.67, -4.33)$.
+* **Vertical Asymptote (V.A.):** Since no factors remain in the denominator after cancellation, there is **no vertical asymptote**.
+
+---
+#### 4. Local Intercepts
+Using the simplified function $y = 2x - 1$:
+* **x-intercept:** Set $y = 0$. $2x - 1 = 0 \implies x = 0.5$. Intercept: $(0.5, 0)$.
+* **y-intercept:** Set $x = 0$. $y = 2(0) - 1 = -1$. Intercept: $(0, -1)$.
+
+---
+#### 5. How and Why it Looks Like This
+* **The "Line" Effect:** Because the denominator divides perfectly into the numerator, the graph is not a curve—it is a **straight line**.
+* **The Visual:** The graph looks exactly like the linear function **$y = 2x - 1$**.
+* **The Removable Discontinuity:** There is one single "missing pixel" or open circle at the coordinate $(-5/3, -13/3)$.
+* **Why:** The end behavior (oblique asymptote) and the function itself are identical in this case because there is no remainder left over after division.
+
+---
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **End Behavior / OA** | $y = 2x - 1$ |
+| **Vertical Asymptote** | None |
+| **Hole Location** | $(-1.67, -4.33)$ |
+| **x-intercept** | $(0.5, 0)$ |
+| **y-intercept** | $(0, -1)$ |
+
+> [!abstract] Algebra Takeaway
+> When the denominator is a factor of the numerator, the "asymptote" is the function. The graph isn't "approaching" the line $y = 2x - 1$ at infinity; it is *on* the line for every value except the hole at $x = -5/3$.
+
