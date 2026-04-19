@@ -8337,3 +8337,62 @@ Using the simplified function $y = 2x - 1$:
 
 ## 2026-April-19 - Graphing Rational Functions (Precalculus - College Algebra 44) :
 https://www.youtube.com/watch?v=wHATRiYbPPA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=45
+### Graphing Rational Functions: The Master Workflow
+
+Graphing rational functions is the culmination of finding asymptotes, holes, and intercepts. The key is to build a "skeleton" first and then use test points to determine where the branches of the graph live. [00:01:10]
+
+---
+
+#### 1. The Seven-Step Graphing Strategy
+To ensure accuracy, follow this specific order of operations: [00:02:45]
+
+1.  **Find the Y-Intercept:** Evaluate $f(0)$.
+2.  **Factor & Simplify:** Factor the numerator and denominator.
+    * **Identify Holes:** Any factors that cancel create a hole. Find the $y$-coordinate by plugging the $x$-value into the simplified function. [00:04:12]
+3.  **Find the X-Intercepts:** Set the simplified numerator to zero.
+4.  **Find Vertical Asymptotes (V.A.):** Set the simplified denominator to zero. Note the **multiplicity** of each VA (Odd = opposite directions, Even = same direction). [00:06:30]
+5.  **Find the Horizontal or Oblique Asymptote:** Compare the degrees of the original numerator ($n$) and denominator ($m$). [00:08:15]
+6.  **Check for Asymptote Intersection:** Determine if the graph crosses the horizontal/oblique asymptote by setting the simplified function equal to the asymptote's value/equation. [00:10:05]
+7.  **Plot & Connect:** Use all identified features and add "test points" if a region is still ambiguous.
+
+---
+
+#### 2. Understanding Multiplicity at the Vertical Asymptote
+The behavior of the graph as it approaches a vertical asymptote is determined by the exponent of the factor in the denominator: [00:15:20]
+
+* **Odd Multiplicity (e.g., $(x-c)^1$):** The graph shoots to $+\infty$ on one side and $-\infty$ on the other. [00:16:45]
+* **Even Multiplicity (e.g., $(x-c)^2$):** The graph shoots toward the **same** infinity on both sides (forming a "volcano" or "pit" shape). [00:18:10]
+
+
+
+---
+
+#### 3. Testing Regions
+If you are unsure where a branch is located, choose an $x$-value in that interval and determine if the resulting $y$-value is positive or negative. [00:25:30]
+
+* **Tip:** You don't always need the exact value; you just need to know if the point is **above or below** the horizontal asymptote or x-axis. [00:27:10]
+
+
+
+---
+
+#### 4. Summary of End Behavior
+The Horizontal/Oblique asymptote acts as a "magnet" for the far ends of the graph ($x \to \pm\infty$). [00:35:12]
+
+| Case | Degree Comparison | End Behavior Result |
+| :--- | :--- | :--- |
+| **I** | $n < m$ | $y = 0$ (x-axis) |
+| **II** | $n = m$ | $y = \text{ratio of leading coefficients}$ |
+| **III** | $n = m + 1$ | $y = mx + b$ (Slant Asymptote) |
+| **IV** | $n > m + 1$ | $y = ax^{(n-m)}$ (Power Function) |
+
+---
+
+#### 5. Common "Gotchas"
+* **Crossing the H.A.:** Students often think graphs cannot cross asymptotes. While they **never** cross vertical asymptotes, they frequently cross horizontal or oblique asymptotes in the "middle" of the graph. [00:45:10]
+* **Holes:** Always represent a hole with an open circle. If you don't find the $y$-coordinate, your graph's path may look disconnected or incorrect. [00:48:22]
+
+
+
+> [!abstract] Algebra Takeaway
+> Think of a rational function graph as a puzzle. The asymptotes and intercepts provide the border and the corners; the test points and multiplicity rules fill in the middle pieces. Always define your domain and find holes *before* you start drawing lines.
