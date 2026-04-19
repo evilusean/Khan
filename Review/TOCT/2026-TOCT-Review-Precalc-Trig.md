@@ -1195,25 +1195,24 @@ To identify all features of a rational function, first determine the end behavio
 
 ### Graphing Rational Functions (Precalculus - College Algebra 44) :
 To graph a rational function, first establish a "skeleton" using the y-intercept, holes, x-intercepts, and asymptotes, then use the multiplicity of the vertical asymptotes and end behavior models to determine the direction and placement of the graph's branches.
-#### 1. Find the Y-Intercept
-Evaluate the function at $x = 0$. This gives you a solid starting point on the vertical axis.
-- _Math:_ $f(0)$
-#### 2. Factor and Simplify
-Factor both the numerator and denominator completely.
-- **Crucial Step:** Check for **Holes**. If a factor is present in both the top and bottom, it cancels out, creating a hole at that $x$-value. You must find the $y$-coordinate by plugging the $x$-value into the _simplified_ function.
-#### 3. Find X-Intercepts
-Set the **numerator** of the simplified function equal to zero. These are the points where the graph touches or crosses the horizontal axis.
-#### 4. Find Vertical Asymptotes (V.A.)
-Set the **denominator** of the simplified function equal to zero.
-- **Note the Multiplicity:** * **Odd exponent:** The graph goes in opposite directions at the asymptote ($\uparrow | \downarrow$).
-- **Even exponent:** The graph goes in the same direction at the asymptote ($\uparrow | \uparrow$).
-#### 5. Find the Horizontal or Oblique Asymptote
-Compare the degree of the numerator ($n$) and denominator ($m$):
-- **$n < m$:** Horizontal Asymptote at $y = 0$.
-- **$n = m$:** Horizontal Asymptote at the ratio of leading coefficients.
-- **$n = m + 1$:** Oblique (Slant) Asymptote (found via long division).
+#### 1. Analyze End Behavior (Asymptotes)
+Before touching anything else, compare the degrees of the numerator ($n$) and denominator ($m$) to find the Horizontal (H.A.) or Oblique Asymptote (O.A.). This establishes the "boundary" of the graph at the far left and right.
+- **$n < m$:** $y = 0$
+- **$n = m$:** $y = \text{ratio of leading coefficients}$
+- **$n = m + 1$:** Slant asymptote (use long division)
+#### 2. Factor the Function
+Factor both the numerator and denominator completely. This is the "map" for the rest of the problem.
+#### 3. Define the Domain & Identify Holes
+Find where the denominator equals zero.
+- **Holes:** If a factor cancels out, it’s a hole. Find the $y$-value by plugging the $x$ into the simplified function.
+- **Vertical Asymptotes (V.A.):** If a factor does _not_ cancel, it’s a vertical wall.
+#### 4. Determine Zeroes and Multiplicity (Numerator)
+Set the **numerator** factors to zero to find the x-intercepts.
+- **Odd Multiplicity:** The graph crosses the x-axis.
+- **Even Multiplicity:** The graph touches the x-axis and turns around (bounces).
+#### 5. Find the Y-Intercept
+Evaluate $f(0)$. This provides a specific anchor point on the graph.
 #### 6. Check for Asymptote Intersections
-Determine if the graph crosses its own horizontal or oblique asymptote. Set the simplified function equal to the asymptote's equation and solve for $x$.
+Set the simplified function equal to the H.A. or O.A. value to see if the graph ever crosses its own end-behavior boundary.
 #### 7. Sketch the Graph
-Draw the "skeleton" (asymptotes and intercepts) first. Use the information from the previous steps to fill in the branches. If a region is still unclear, pick a **test point** in that interval to see if the graph is positive or negative.
-
+Start with the asymptotes (the skeleton), plot your intercepts and holes, and use the multiplicity rules to connect the branches.
