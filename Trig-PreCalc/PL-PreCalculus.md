@@ -8444,17 +8444,15 @@ The graph is divided into three distinct regions by the two vertical asymptotes.
 > [!abstract] Algebra Takeaway
 > This is a classic "three-piece" rational function. The key observation is the intersection at $(1, 0)$; even though $y=0$ is an asymptote, the graph passes right through it before leveling off again at the far ends.
 
-### Analysis of f(x) = \frac{x^4 - 1}{x^2 - 4}
+### Analysis of $f(x) = \frac{x^4 - 1}{x^2 - 4}$
 
 Following the seven-step graphing strategy, we break down this higher-degree rational function to understand its global and local behaviors.
 
 ---
-
 #### 1. Y-Intercept
 Set $x = 0$:
 $$f(0) = \frac{0^4 - 1}{0^2 - 4} = \frac{-1}{-4} = 0.25$$
 **Intercept:** $(0, 0.25)$
-
 #### 2. Factor & Simplify
 * **Numerator (Difference of Squares twice):** $x^4 - 1 = (x^2 - 1)(x^2 + 1) = (x - 1)(x + 1)(x^2 + 1)$
 * **Denominator:** $x^2 - 4 = (x - 2)(x + 2)$
@@ -8462,22 +8460,17 @@ $$f(0) = \frac{0^4 - 1}{0^2 - 4} = \frac{-1}{-4} = 0.25$$
 **Full Factored Form:**
 $$f(x) = \frac{(x - 1)(x + 1)(x^2 + 1)}{(x - 2)(x + 2)}$$
 * **Holes:** No factors cancel. **There are no holes.**
-
 #### 3. X-Intercepts
 Set the numerator factors to zero:
 * $x - 1 = 0 \implies x = 1$
 * $x + 1 = 0 \implies x = -1$
 * $x^2 + 1 = 0 \implies$ No real solutions.
 **Intercepts:** $(1, 0)$ and $(-1, 0)$
-
 #### 4. Vertical Asymptotes (V.A.)
 Set the denominator factors to zero:
 * $x - 2 = 0 \implies \mathbf{x = 2}$
 * $x + 2 = 0 \implies \mathbf{x = -2}$
 * **Multiplicity:** Both are power 1 (odd). The graph will approach **opposite infinities** at both walls.
-
-
-
 #### 5. End Behavior (Asymptotes)
 Compare degrees:
 * Degree of numerator ($n$) = 4
@@ -8486,14 +8479,10 @@ Compare degrees:
 * **Power Function Model:** $\frac{x^4}{x^2} = x^2$.
 
 **End Behavior:** The far ends of the graph will mimic an upward-opening parabola ($y \to \infty$ as $x \to \pm\infty$).
-
-
-
 #### 6. Asymptote Intersection
 Since there is no horizontal or oblique asymptote, we do not need to check for intersections with one. The graph will simply grow toward infinity at the ends.
 
 ---
-
 #### 7. How and Why the Graph Looks Like This
 The graph is divided into three sections by the V.A.s at $x = -2$ and $x = 2$.
 
@@ -8505,10 +8494,7 @@ The graph is divided into three sections by the V.A.s at $x = -2$ and $x = 2$.
 * **Right Region ($x > 2$):**
     Following the odd multiplicity at $x = 2$, the graph comes down from $+\infty$ and then curves back up toward $+\infty$ to satisfy the parabolic end behavior.
 
-
-
 ---
-
 #### Summary Table
 | Feature | Value / Description |
 | :--- | :--- |
