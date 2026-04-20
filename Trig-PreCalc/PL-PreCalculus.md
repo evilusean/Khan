@@ -8856,3 +8856,4 @@ The graph is confined to two regions split by the V.A. at $x=0$.
 | **Y-Intercept**         | None                |
 | **O.A. Intersection**   | None                |
 ## 2026-April-20 - Inequalities with Functions - Graphically (Precalculus - College Algebra 45) :
+https://www.youtube.com/watch?v=bngBtS7RBZ4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=47
