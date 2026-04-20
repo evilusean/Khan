@@ -8857,3 +8857,57 @@ The graph is confined to two regions split by the V.A. at $x=0$.
 | **O.A. Intersection**   | None                |
 ## 2026-April-20 - Inequalities with Functions - Graphically (Precalculus - College Algebra 45) :
 https://www.youtube.com/watch?v=bngBtS7RBZ4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=47
+### Inequalities with Functions: Graphical Analysis
+
+The core objective of this lesson is to move away from purely algebraic solutions and learn how to "read" the relationship between two functions on a coordinate plane. This provides a visual confirmation of where one function is "greater" or "less" than another. [00:01:45]
+
+---
+
+#### 1. Defining the Relationship
+When we look at an inequality such as $f(x) > g(x)$, we are asking a specific question about the **y-values (outputs)** for a given **x-value (input)**: [00:03:20]
+
+* **$f(x) > g(x)$:** On which intervals is the graph of $f(x)$ **above** the graph of $g(x)$?
+* **$f(x) < g(x)$:** On which intervals is the graph of $f(x)$ **below** the graph of $g(x)$?
+* **$f(x) = g(x)$:** Where do the two graphs **intersect**?
+
+
+
+---
+
+#### 2. The Critical Point Strategy
+To solve these graphically, you must follow a structured process to identify the boundaries where the relationship changes: [00:08:15]
+
+1.  **Find the Intersection Points:** Solve $f(x) = g(x)$. These $x$-values are the "fences" or boundaries of your intervals.
+2.  **Mark the Boundaries:** Drop vertical lines (mentally or physically) from the intersection points to the x-axis. [00:10:40]
+3.  **Analyze the Regions:** Between each set of boundaries, look at which curve is higher.
+4.  **Write the Solution:** Express the $x$-values as an interval.
+    * Use **parentheses** $( \dots )$ for strict inequalities ($>$ or $<$).
+    * Use **brackets** $[ \dots ]$ for non-strict inequalities ($\geq$ or $\leq$), *unless* a point is undefined (like at a vertical asymptote). [00:15:30]
+
+---
+
+#### 3. Working with Zero: $f(x) \geq 0$
+A common version of this problem is comparing a function to the x-axis ($g(x) = 0$): [00:22:10]
+
+* **$f(x) \geq 0$:** Look for where the graph is on or above the x-axis.
+* **$f(x) < 0$:** Look for where the graph is strictly below the x-axis.
+* **Critical Points:** The x-intercepts (zeros) of the function are your boundaries.
+
+
+
+---
+
+#### 4. Handling Rational Inequalities Graphically
+Rational functions add a layer of complexity because the relationship can change at **Vertical Asymptotes** even if the functions don't intersect there. [00:35:45]
+
+* **Rule:** Your "boundaries" must include both the **Intersection Points** AND the **Vertical Asymptotes**. [00:37:20]
+* **Asymptote Caution:** You can **never** use a bracket $[ \dots ]$ on an $x$-value that represents a vertical asymptote, because the function does not exist there. [00:40:15]
+
+---
+
+#### 5. Common Pitfalls
+* **Confusing X and Y:** Always remember that the *inequality* refers to the height (y), but the *solution* is written in terms of the horizontal interval (x). [00:48:50]
+* **Holes and Discontinuities:** If there is a hole in the graph at a boundary point, you must use a parenthesis, even for $\geq$ or $\leq$. [00:52:10]
+
+> [!abstract] Algebra Takeaway
+> Solving inequalities graphically is often faster and less prone to sign errors than the algebraic "test point" method. If you can identify the intersection points and the vertical asymptotes, you simply have to look at which "wire" is on top to find your interval.
