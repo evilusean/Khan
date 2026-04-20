@@ -8888,8 +8888,6 @@ A common version of this problem is comparing a function to the x-axis ($g(x) = 
 * **$f(x) < 0$:** Look for where the graph is strictly below the x-axis.
 * **Critical Points:** The x-intercepts (zeros) of the function are your boundaries.
 
-
-
 ---
 #### 4. Handling Rational Inequalities Graphically
 Rational functions add a layer of complexity because the relationship can change at **Vertical Asymptotes** even if the functions don't intersect there. [00:35:45]
