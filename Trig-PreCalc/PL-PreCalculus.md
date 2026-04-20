@@ -8862,7 +8862,6 @@ https://www.youtube.com/watch?v=bngBtS7RBZ4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 The core objective of this lesson is to move away from purely algebraic solutions and learn how to "read" the relationship between two functions on a coordinate plane. This provides a visual confirmation of where one function is "greater" or "less" than another. [00:01:45]
 
 ---
-
 #### 1. Defining the Relationship
 When we look at an inequality such as $f(x) > g(x)$, we are asking a specific question about the **y-values (outputs)** for a given **x-value (input)**: [00:03:20]
 
@@ -8870,10 +8869,7 @@ When we look at an inequality such as $f(x) > g(x)$, we are asking a specific qu
 * **$f(x) < g(x)$:** On which intervals is the graph of $f(x)$ **below** the graph of $g(x)$?
 * **$f(x) = g(x)$:** Where do the two graphs **intersect**?
 
-
-
 ---
-
 #### 2. The Critical Point Strategy
 To solve these graphically, you must follow a structured process to identify the boundaries where the relationship changes: [00:08:15]
 
@@ -8885,7 +8881,6 @@ To solve these graphically, you must follow a structured process to identify the
     * Use **brackets** $[ \dots ]$ for non-strict inequalities ($\geq$ or $\leq$), *unless* a point is undefined (like at a vertical asymptote). [00:15:30]
 
 ---
-
 #### 3. Working with Zero: $f(x) \geq 0$
 A common version of this problem is comparing a function to the x-axis ($g(x) = 0$): [00:22:10]
 
@@ -8896,7 +8891,6 @@ A common version of this problem is comparing a function to the x-axis ($g(x) = 
 
 
 ---
-
 #### 4. Handling Rational Inequalities Graphically
 Rational functions add a layer of complexity because the relationship can change at **Vertical Asymptotes** even if the functions don't intersect there. [00:35:45]
 
@@ -8904,7 +8898,6 @@ Rational functions add a layer of complexity because the relationship can change
 * **Asymptote Caution:** You can **never** use a bracket $[ \dots ]$ on an $x$-value that represents a vertical asymptote, because the function does not exist there. [00:40:15]
 
 ---
-
 #### 5. Common Pitfalls
 * **Confusing X and Y:** Always remember that the *inequality* refers to the height (y), but the *solution* is written in terms of the horizontal interval (x). [00:48:50]
 * **Holes and Discontinuities:** If there is a hole in the graph at a boundary point, you must use a parenthesis, even for $\geq$ or $\leq$. [00:52:10]
