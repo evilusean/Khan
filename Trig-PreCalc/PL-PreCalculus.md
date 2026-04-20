@@ -8647,3 +8647,211 @@ $$4 = -1 \quad (\text{False})$$
 | **Y-Intercept**         | $(0, -0.5)$         |
 | **H.A. Intersection**   | None                |
 
+### Analysis of $f(x) = \frac{x^3 - 1}{x^2 - 9}$
+
+Following the definitive graphing workflow:
+
+---
+#### 1. Analyze End Behavior (Asymptotes)
+Compare the degrees of the numerator ($n$) and denominator ($m$):
+* **Numerator Degree ($n$):** 3
+* **Denominator Degree ($m$):** 2
+* **Comparison ($n = m + 1$):** Since the numerator is exactly one degree higher, there is an **Oblique (Slant) Asymptote**.
+
+**Finding the Slant Asymptote (Long Division):**
+Divide $x^3 + 0x^2 + 0x - 1$ by $x^2 - 9$.
+1.  $x^3 \div x^2 = \mathbf{x}$
+2.  $x(x^2 - 9) = x^3 - 9x$. Subtracting this from the numerator leaves $9x - 1$.
+* **Oblique Asymptote:** **$y = x$**
+* **End Behavior:** As $x \to \pm\infty$, the graph follows the line $y = x$.
+
+---
+#### 2. Factor the Function
+Factor both the numerator and denominator completely:
+* **Numerator (Difference of Cubes):** $(x - 1)(x^2 + x + 1)$
+* **Denominator (Difference of Squares):** $(x - 3)(x + 3)$
+* **Full Factored Form:** $f(x) = \frac{(x - 1)(x^2 + x + 1)}{(x - 3)(x + 3)}$
+
+---
+#### 3. Define Domain & Identify Holes
+* **Domain Restrictions:** Set the denominator to zero: $x \neq 3$ and $x \neq -3$.
+* **Holes:** No factors are common to both the top and bottom. **There are no holes.**
+* **Vertical Asymptotes (V.A.):** Both restrictions are vertical walls.
+    * **V.A. 1:** $x = 3$ (Multiplicity 1: Opposite directions)
+    * **V.A. 2:** $x = -3$ (Multiplicity 1: Opposite directions)
+
+---
+#### 4. Determine Zeroes and Multiplicity (Numerator)
+Set the numerator factors to zero to find the x-intercepts:
+* $x - 1 = 0 \implies x = 1$
+* $x^2 + x + 1 = 0 \implies$ No real solutions (Discriminant $1 - 4 = -3$).
+* **Multiplicity:** Multiplicity of 1, so the graph **crosses** the x-axis at **$(1, 0)$**.
+
+---
+#### 5. Find the Y-Intercept
+Evaluate $f(0)$:
+* $f(0) = \frac{0^3 - 1}{0^2 - 9} = \frac{-1}{-9} = \frac{1}{9}$
+* **Intercept:** $(0, 0.11)$
+
+---
+#### 6. Check for Asymptote Intersections
+Does the graph cross the Slant Asymptote ($y = x$)? Set the function equal to $x$:
+$$x = \frac{x^3 - 1}{x^2 - 9}$$
+$$x(x^2 - 9) = x^3 - 1$$
+$$x^3 - 9x = x^3 - 1$$
+$$-9x = -1 \implies x = \frac{1}{9}$$
+**Intersection:** The graph crosses the slant asymptote at the point **$(1/9, 1/9)$**.
+
+---
+#### 7. Final Sketch: How and Why it Looks Like This
+* **Left Section ($x < -3$):** As $x \to -\infty$, the graph follows $y = x$ downward. As it approaches $x = -3$ from the left, it shoots to $-\infty$ (Test $x = -4$, $y \approx -9.3$).
+* **Middle Section ($-3 < x < 3$):** Following opposite multiplicity, it comes from $+\infty$ at $x = -3$. It travels down through the y-intercept $(0, 1/9)$, the intersection $(1/9, 1/9)$, and the x-intercept $(1, 0)$, then dives to $-\infty$ as it hits $x = 3$.
+* **Right Section ($x > 3$):** It comes from $+\infty$ at $x = 3$. It curves down and then heads back up toward $+\infty$ as it levels out to follow the line $y = x$.
+
+---
+#### Summary Table
+| Feature                 | Value / Description |
+| :---------------------- | :------------------ |
+| **End Behavior (O.A.)** | $y = x$             |
+| **Vertical Asymptotes** | $x = -3, x = 3$     |
+| **Holes**               | None                |
+| **X-Intercept**         | $(1, 0)$            |
+| **Y-Intercept**         | $(0, 1/9)$          |
+| **O.A. Intersection**   | Yes, at $x = 1/9$   |
+### Analysis of $f(x) = \frac{x^2(x-1)^2}{(x+3)^4}$
+
+Following the definitive graphing workflow:
+
+---
+#### 1. Analyze End Behavior (Asymptotes)
+Compare the degrees of the numerator ($n$) and denominator ($m$):
+* **Numerator Degree ($n$):** $x^2 \cdot x^2 = 4$
+* **Denominator Degree ($m$):** 4
+* **Comparison ($n = m$):** Since the degrees are equal, there is a **Horizontal Asymptote (H.A.)**.
+    * $y = \frac{1}{1} = 1$
+* **Behavior:** As $x \to \pm\infty, f(x) \to 1$.
+
+---
+#### 2. Factor the Function
+The function is already provided in factored form:
+$$f(x) = \frac{x^2(x - 1)^2}{(x + 3)^4}$$
+
+---
+#### 3. Define Domain & Identify Holes
+* **Domain Restrictions:** Set the denominator to zero: $(x + 3)^4 = 0 \implies x \neq -3$.
+* **Holes:** No factors cancel between the numerator and denominator. **There are no holes.**
+* **Vertical Asymptote (V.A.):** * **V.A.:** $x = -3$
+    * **Multiplicity:** 4 (**Even**). Because the multiplicity is even, the graph will shoot toward the **same infinity** on both sides of the asymptote.
+
+---
+#### 4. Determine Zeroes and Multiplicity (Numerator)
+Set the numerator factors to zero to find the x-intercepts:
+* $x^2 = 0 \implies x = 0$
+* $(x - 1)^2 = 0 \implies x = 1$
+* **Multiplicity:** Both zeros have a multiplicity of 2 (**Even**). The graph will **touch and turn around (bounce)** at both $(0, 0)$ and $(1, 0)$.
+
+---
+#### 5. Find the Y-Intercept
+Evaluate $f(0)$:
+* $f(0) = \frac{0^2(0 - 1)^2}{(0 + 3)^4} = \frac{0}{81} = 0$
+* **Intercept:** $(0, 0)$
+
+---
+#### 6. Check for Asymptote Intersections
+Does the graph cross the H.A. ($y = 1$)? Set the function equal to 1:
+$$1 = \frac{x^2(x - 1)^2}{(x + 3)^4}$$
+$$(x + 3)^4 = x^2(x - 1)^2$$
+Take the square root of both sides:
+$$(x + 3)^2 = \pm x(x - 1)$$
+
+* **Case 1:** $x^2 + 6x + 9 = x^2 - x \implies 7x = -9 \implies x = -9/7$
+* **Case 2:** $x^2 + 6x + 9 = -x^2 + x \implies 2x^2 + 5x + 9 = 0$ (No real solutions, $D = 25 - 72 = -47$).
+
+**Intersection:** The graph crosses the horizontal asymptote at $x \approx -1.29$.
+
+---
+#### 7. Final Sketch: How and Why it Looks Like This
+* **Left Section ($x < -3$):** As $x \to -\infty$, the graph hugs $y = 1$ from below. As it approaches the wall at $x = -3$, the values become large and positive. It shoots to $+\infty$.
+* **Right Section ($x > -3$):** Because the V.A. has **even multiplicity**, the graph must also come from $+\infty$ on the right side of $x = -3$.
+    * It dives down, crosses the H.A. at $x \approx -1.29$, and hits $(0, 0)$.
+    * At $(0, 0)$, it **bounces** back up slightly, then comes back down to $(1, 0)$.
+    * At $(1, 0)$, it **bounces** again and then levels off to approach the H.A. $y = 1$ from below.
+
+---
+#### Summary Table
+| Feature | Value / Description |
+| :--- | :--- |
+| **End Behavior (H.A.)** | $y = 1$ |
+| **Vertical Asymptote** | $x = -3$ (Same direction: Up/Up) |
+| **Holes** | None |
+| **X-Intercepts** | $(0, 0)$ and $(1, 0)$ (Both Bounce) |
+| **Y-Intercept** | $(0, 0)$ |
+| **H.A. Intersection** | Yes, at $x = -9/7$ |
+### Analysis of $f(x) = 2x + \frac{9}{x}$
+
+To follow the definitive graphing workflow, we first rewrite the function as a single rational expression by finding a common denominator.
+$$f(x) = \frac{2x^2 + 9}{x}$$
+
+---
+#### 1. Analyze End Behavior (Asymptotes)
+Compare the degrees of the numerator ($n$) and denominator ($m$):
+* **Numerator Degree ($n$):** 2
+* **Denominator Degree ($m$):** 1
+* **Comparison ($n = m + 1$):** Since the numerator is exactly one degree higher, there is an **Oblique (Slant) Asymptote**.
+* **Finding the Slant Asymptote:** Because the function was given as $2x + \frac{9}{x}$, the division is already done. As $x \to \pm\infty$, the remainder term $\frac{9}{x}$ goes to zero.
+* **Oblique Asymptote:** **$y = 2x$**
+
+---
+#### 2. Factor the Function
+* **Numerator:** $2x^2 + 9$ (This is a sum of squares and cannot be factored over real numbers).
+* **Denominator:** $x$
+* **Factored Form:** $f(x) = \frac{2x^2 + 9}{x}$
+
+---
+#### 3. Define Domain & Identify Holes
+* **Domain Restriction:** Set the denominator to zero: $x \neq 0$.
+* **Holes:** No factors cancel. **There are no holes.**
+* **Vertical Asymptote (V.A.):** * **V.A.:** $x = 0$ (the y-axis).
+    * **Multiplicity:** 1 (Odd). The graph will approach **opposite infinities** at $x = 0$.
+
+---
+#### 4. Determine Zeroes and Multiplicity (Numerator)
+Set the numerator to zero:
+* $2x^2 + 9 = 0 \implies x^2 = -4.5$
+* **Result:** No real solutions. **There are no x-intercepts.**
+
+---
+#### 5. Find the Y-Intercept
+Evaluate $f(0)$:
+* Since $x = 0$ is a vertical asymptote, the function is undefined at the y-axis.
+* **Result:** **No y-intercept.**
+
+---
+#### 6. Check for Asymptote Intersections
+Does the graph cross the Slant Asymptote ($y = 2x$)? Set the function equal to $2x$:
+$$2x = 2x + \frac{9}{x}$$
+$$0 = \frac{9}{x}$$
+* **Result:** There is no value for $x$ that satisfies this. The graph **never crosses** the slant asymptote.
+
+---
+#### 7. Final Sketch: How and Why it Looks Like This
+The graph is confined to two regions split by the V.A. at $x=0$.
+
+* **Right Section ($x > 0$):** * As $x$ gets very small (approaching 0), the term $\frac{9}{x}$ dominates and the graph shoots to $+\infty$.
+    * As $x$ gets very large, the graph approaches the line $y = 2x$ from above.
+    * (Test point $x=3$: $y = 2(3) + 9/3 = 9$).
+* **Left Section ($x < 0$):**
+    * Following the odd multiplicity at $x=0$, if the right side went to $+\infty$, the left side must come from $-\infty$.
+    * The graph comes up from $-\infty$, reaches a local maximum, and then heads back down to follow the slant asymptote $y = 2x$ from below.
+    * (Test point $x=-3$: $y = 2(-3) + 9/-3 = -9$).
+
+---
+#### Summary Table
+| Feature                 | Value / Description |
+| :---------------------- | :------------------ |
+| **End Behavior (O.A.)** | $y = 2x$            |
+| **Vertical Asymptote**  | $x = 0$             |
+| **Holes**               | None                |
+| **X-Intercepts**        | None                |
+| **Y-Intercept**         | None                |
+| **O.A. Intersection**   | None                |
