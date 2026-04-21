@@ -8996,12 +8996,11 @@ We look for the $(+)$ intervals and **include** the zeros.
 > [!abstract] Algebra Takeaway
 > Because of the even multiplicity at $x = 5$, the function "kisses" the x-axis and goes back up. This is why the solution for $f(x) \geq 0$ is a single joined interval $[-2, \infty)$, while $f(x) > 0$ would have required a break at 5, like $(-2, 5) \cup (5, \infty)$.
 
-### Analysis of f(x) = x^3 - 4x^2
+### Analysis of $f(x) = x^3 - 4x^2$
 
 Following the algebraic strategy for polynomial inequalities:
 
 ---
-
 #### 1. Move everything to one side
 The expression is already compared to zero:
 $$x^3 - 4x^2 \geq 0$$
@@ -9012,15 +9011,11 @@ $$x^2(x - 4) \geq 0$$
 Set each factor to zero to find the **Critical Values**:
 * $x^2 = 0 \implies \mathbf{x = 0}$
 * $x - 4 = 0 \implies \mathbf{x = 4}$
-
 #### 3. Create a Number Line (Sign Chart)
 The critical values $0$ and $4$ divide the x-axis into three test intervals:
 1.  $(-\infty, 0)$
 2.  $(0, 4)$
 3.  $(4, \infty)$
-
-
-
 #### 4. Select Test Points / Multiplicity Shortcut
 Using the **Multiplicity Shortcut** and the **Leading Coefficient**:
 * **Leading Coefficient:** Positive ($+1$). For very large $x$, the graph goes to $+\infty$.
@@ -9029,9 +9024,6 @@ Using the **Multiplicity Shortcut** and the **Leading Coefficient**:
 * **Interval $(0, 4)$:** The sign is **(-)**.
 * **At $x = 0$ (Multiplicity 2/Even):** The exponent on $x^2$ is 2. The graph **bounces** off the x-axis. The sign stays the same.
 * **Interval $(-\infty, 0)$:** The sign stays **(-)**.
-
-
-
 #### 5. Identify the Solutions
 
 **For f(x) < 0 (Strictly Negative):**
@@ -9042,9 +9034,7 @@ We look for the $(-)$ intervals. We do not include the zeros. Because the graph 
 We look for the $(+)$ intervals and include the zeros. 
 * *Crucial Detail:* Even though the graph is negative on both sides of $x=0$, the value **at** $x=0$ is exactly zero, which satisfies the "$\geq 0$" condition.
 * **Solution:** $\{0\} \cup [4, \infty)$
-
 ---
-
 #### Summary Table
 | Interval | Test Point ($x$) | Calculation | Sign |
 | :--- | :--- | :--- | :--- |
