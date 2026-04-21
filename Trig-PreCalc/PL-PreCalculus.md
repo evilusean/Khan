@@ -8947,3 +8947,61 @@ Sometimes factoring leads to a quadratic that cannot be factored further (e.g., 
 
 > [!abstract] Algebra Takeaway
 > Polynomial inequalities are all about "The Boundary." Once you find the zeros, the polynomial is trapped in a specific sign within each interval. The factored form is your best friend—it makes testing points as simple as counting negative signs.
+
+### Analysis of f(x) = (x - 5)^2 (x + 2)
+
+Following the step-by-step algebraic strategy for polynomial inequalities, we determine the intervals where the function is positive, negative, or zero.
+
+---
+
+#### 1. Move everything to one side
+The expression is already compared to zero implicitly by the prompt's request for $f(x) < 0$ and $f(x) \geq 0$.
+
+#### 2. Find the Zeros (Critical Values)
+Set each factor to zero:
+* $(x - 5)^2 = 0 \implies \mathbf{x = 5}$
+* $(x + 2) = 0 \implies \mathbf{x = -2}$
+
+#### 3. Create a Number Line (Sign Chart)
+We mark $-2$ and $5$ on the number line, creating three test intervals:
+1.  $(-\infty, -2)$
+2.  $(-2, 5)$
+3.  $(5, \infty)$
+
+#### 4. Select Test Points / Multiplicity Shortcut
+Using the **Multiplicity Shortcut** and the **Leading Coefficient**:
+* **Leading Coefficient:** Positive ($+1 \cdot +1$). For very large $x$, the graph goes to $+\infty$.
+* **Interval $(5, \infty)$:** The sign is **(+)**.
+* **At $x = 5$ (Multiplicity 2/Even):** The graph **bounces**. The sign stays **(+)**.
+* **Interval $(-2, 5)$:** The sign is **(+)**.
+* **At $x = -2$ (Multiplicity 1/Odd):** The graph **crosses**. The sign changes to **(-)**.
+* **Interval $(-\infty, -2)$:** The sign is **(-)**.
+
+
+
+---
+
+#### 5. Identify the Solutions
+
+**For f(x) < 0 (Strictly Negative):**
+We look for the $(-)$ intervals. We do not include the zeros because the inequality is strict.
+* **Solution:** $(-\infty, -2)$
+
+**For f(x) >= 0 (Positive or Zero):**
+We look for the $(+)$ intervals and **include** the zeros. 
+* *Note:* Since the graph stays positive on both sides of $x = 5$, the two intervals $(-2, 5]$ and $[5, \infty)$ merge into one continuous set.
+* **Solution:** $[-2, \infty)$
+
+---
+
+#### Summary Table
+| Interval | Test Point ($x$) | Calculation | Sign |
+| :--- | :--- | :--- | :--- |
+| $(-\infty, -2)$ | $-3$ | $(-8)^2(-1) = 64(-1)$ | **(-)** |
+| $(-2, 5)$ | $0$ | $(-5)^2(2) = 25(2)$ | **(+)** |
+| $(5, \infty)$ | $6$ | $(1)^2(8) = 1(8)$ | **(+)** |
+
+
+
+> [!abstract] Algebra Takeaway
+> Because of the even multiplicity at $x = 5$, the function "kisses" the x-axis and goes back up. This is why the solution for $f(x) \geq 0$ is a single joined interval $[-2, \infty)$, while $f(x) > 0$ would have required a break at 5, like $(-2, 5) \cup (5, \infty)$.
