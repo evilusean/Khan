@@ -9045,3 +9045,69 @@ We look for the $(+)$ intervals and include the zeros.
 
 > [!abstract] Algebra Takeaway
 > Always check your "isolated" zeros. Because $x=0$ makes the function exactly zero, it must be included in the $\geq 0$ solution as a single point, even if the intervals immediately surrounding it are negative.
+
+### Analysis of f(x) = x^3 + 2x^2 \geq 3
+
+To solve this polynomial inequality, we must first set the expression to zero so we can analyze the signs of the intervals.
+
+---
+
+#### 1. Move everything to one side
+Subtract 3 from both sides to compare the function to zero:
+$$x^3 + 2x^2 - 3 \geq 0$$
+
+#### 2. Factor First (Find Critical Values)
+Since this is a cubic polynomial without a common factor, we use the **Rational Root Theorem** and **Synthetic Division**.
+* Potential roots: $\pm 1, \pm 3$.
+* Testing $x = 1$: $1^3 + 2(1)^2 - 3 = 0$. So, $(x - 1)$ is a factor.
+
+**Synthetic Division:**
+Divide $(x^3 + 2x^2 + 0x - 3)$ by $(x - 1)$:
+1 | 1  2  0 -3
+  |    1  3  3
+  ------------
+    1  3  3  0
+
+The remaining quadratic is $x^2 + 3x + 3$.
+* **Check the Discriminant ($D$) for $x^2 + 3x + 3$:**
+  $$D = b^2 - 4ac = 3^2 - 4(1)(3) = 9 - 12 = -3$$
+* Since the discriminant is negative, the quadratic has no real zeros and is **always positive**.
+
+**Full Factored Form:**
+$$(x - 1)(x^2 + 3x + 3) \geq 0$$
+**Critical Value:** $\mathbf{x = 1}$
+
+---
+
+#### 3. Create a Number Line (Sign Chart)
+With only one real critical value at $1$, the x-axis is divided into two test intervals:
+1.  $(-\infty, 1)$
+2.  $(1, \infty)$
+
+
+
+#### 4. Select Test Points / Multiplicity Shortcut
+* **Leading Coefficient:** Positive ($+1$). For large $x$, the graph heads toward $+\infty$.
+* **Interval $(1, \infty)$:** The sign is **(+)**.
+* **At $x = 1$ (Multiplicity 1/Odd):** The exponent on $(x-1)$ is 1. The graph **crosses** the x-axis.
+* **Interval $(-\infty, 1)$:** The sign changes to **(-)**.
+
+*Note: The irreducible quadratic $(x^2 + 3x + 3)$ is always positive, so it never changes the sign of the overall function.*
+
+
+
+#### 5. Identify the Solution
+The problem asks for where the expression is **greater than or equal to zero** ($\geq 0$).
+* We look for the $(+)$ interval and **include** the zero.
+* **Solution:** $[1, \infty)$
+
+---
+
+#### Summary Table
+| Interval | Test Point ($x$) | Calculation | Sign |
+| :--- | :--- | :--- | :--- |
+| $(-\infty, 1)$ | $0$ | $(0-1)(0+0+3) = (-1)(3)$ | **(-)** |
+| $(1, \infty)$ | $2$ | $(2-1)(4+6+3) = (1)(13)$ | **(+)** |
+
+> [!abstract] Algebra Takeaway
+> When you encounter an irreducible quadratic with no real zeros, it acts as a "constant" positive multiplier. It won't create boundaries on your sign chart, but it’s the reason the graph doesn't come back down to cross the x-axis again.
