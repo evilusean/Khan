@@ -9103,3 +9103,64 @@ The problem asks for where the expression is **greater than or equal to zero** (
 > [!abstract] Algebra Takeaway
 > When you encounter an irreducible quadratic with no real zeros, it acts as a "constant" positive multiplier. It won't create boundaries on your sign chart, but it’s the reason the graph doesn't come back down to cross the x-axis again.
 
+### Analysis of f(x) = x^4 > 1
+
+Following the specific step-by-step algebraic strategy for polynomial inequalities:
+
+---
+
+#### 1. Move everything to one side
+Subtract 1 from both sides to compare the function to zero:
+$$x^4 - 1 > 0$$
+
+#### 2. Factor First (Find Critical Values)
+Use the **Difference of Squares** pattern twice:
+1.  $(x^2 - 1)(x^2 + 1) > 0$
+2.  $(x - 1)(x + 1)(x^2 + 1) > 0$
+
+**Identify Critical Values:**
+* $x - 1 = 0 \implies \mathbf{x = 1}$
+* $x + 1 = 0 \implies \mathbf{x = -1}$
+* $x^2 + 1 = 0 \implies$ No real solutions (irreducible quadratic, always positive).
+
+**Critical Values:** $-1$ and $1$.
+
+---
+
+#### 3. Create a Number Line (Sign Chart)
+The values $-1$ and $1$ divide the x-axis into three test intervals:
+1.  $(-\infty, -1)$
+2.  $(-1, 1)$
+3.  $(1, \infty)$
+
+
+
+#### 4. Select Test Points / Multiplicity Shortcut
+Using the **Multiplicity Shortcut** and the **Leading Coefficient**:
+* **Leading Coefficient:** Positive ($+1$). For very large $x$, the graph heads toward $+\infty$.
+* **Interval $(1, \infty)$:** The sign is **(+)**.
+* **At $x = 1$ (Multiplicity 1/Odd):** The graph **crosses** the x-axis.
+* **Interval $(-1, 1)$:** The sign changes to **(-)**.
+* **At $x = -1$ (Multiplicity 1/Odd):** The graph **crosses** the x-axis.
+* **Interval $(-\infty, -1)$:** The sign changes back to **(+)**.
+
+
+
+#### 5. Identify the Solution
+The problem asks for where $x^4 - 1$ is **strictly greater than zero** ($> 0$).
+* We look for the $(+)$ intervals. Since it is a strict inequality, we use **parentheses** and do not include the zeros.
+* **Solution:** $(-\infty, -1) \cup (1, \infty)$
+
+---
+
+#### Summary Table
+| Interval | Test Point ($x$) | Calculation | Sign |
+| :--- | :--- | :--- | :--- |
+| $(-\infty, -1)$ | $-2$ | $(-2)^4 - 1 = 16 - 1 = 15$ | **(+)** |
+| $(-1, 1)$ | $0$ | $(0)^4 - 1 = -1$ | **(-)** |
+| $(1, \infty)$ | $2$ | $(2)^4 - 1 = 16 - 1 = 15$ | **(+)** |
+
+
+
+> [!abstract] Algebra Takeaway
+> The irreducible quadratic factor $(x^2 + 1)$ acts as a positive constant. It never changes the sign of the expression, so the "switching" of signs only happens at the real roots $x=1$ and $x=-1$.
