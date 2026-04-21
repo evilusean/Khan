@@ -8902,3 +8902,5 @@ Rational functions add a layer of complexity because the relationship can change
 
 > [!abstract] Algebra Takeaway
 > Solving inequalities graphically is often faster and less prone to sign errors than the algebraic "test point" method. If you can identify the intersection points and the vertical asymptotes, you simply have to look at which "wire" is on top to find your interval.
+
+## 2026-April-21 - Inequalities with Polynomial Functions (Precalculus - College Algebra 46) :
