@@ -8910,14 +8910,10 @@ https://www.youtube.com/watch?v=qFJ-Mq0XcTI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This lesson transitions from graphical observation to the algebraic mechanics of solving polynomial inequalities. The goal is to determine the intervals of $x$ for which a polynomial expression is positive ($>0$) or negative ($<0$). [00:01:10]
 
 ---
-
 #### 1. The Core Concept: The Sign Chart
 A polynomial can only change its sign (from positive to negative or vice versa) at its **zeros** (x-intercepts). Between any two consecutive zeros, the polynomial must remain entirely above or entirely below the x-axis. [00:03:45]
 
-
-
 ---
-
 #### 2. Step-by-Step Algebraic Strategy
 To solve an inequality like $P(x) > 0$ or $P(x) \leq 0$: [00:08:20]
 
@@ -8929,28 +8925,22 @@ To solve an inequality like $P(x) > 0$ or $P(x) \leq 0$: [00:08:20]
 5.  **Identify the Solution:** * If the problem asks for $> 0$, choose the $(+)$ intervals.
     * If the problem asks for $< 0$, choose the $(-)$ intervals.
 6.  **Write in Interval Notation:** Use brackets $[\dots]$ for $\leq$ or $\geq$, and parentheses $(\dots)$ for $<$ or $>$. [00:22:10]
-
 ---
-
 #### 3. The Multiplicity Shortcut
 Instead of testing a number in every single interval, you can use the **Multiplicity** of the zeros to determine sign changes: [00:30:45]
 
 * **Odd Multiplicity (e.g., exponent 1, 3, 5):** The polynomial **changes sign** at that zero. The graph crosses the x-axis.
 * **Even Multiplicity (e.g., exponent 2, 4):** The polynomial **retains its sign** on both sides of that zero. The graph touches the x-axis and bounces. [00:33:15]
 
-
-
 **The Workflow:** Test a single point in the far-right interval (using the Leading Coefficient) and then "work backward" through the zeros, switching the sign only at odd multiplicities. [00:36:50]
 
 ---
-
 #### 4. Handling Irreducible Quadratics
 Sometimes factoring leads to a quadratic that cannot be factored further (e.g., $x^2 + 1$). [00:42:10]
 * **Rule:** An irreducible quadratic with a positive leading coefficient is **always positive** for all real numbers.
 * **Impact:** It does not contribute any zeros (boundaries) to your sign chart, but it must be considered when calculating the final sign of a test point. [00:44:30]
 
 ---
-
 #### 5. Common Errors
 * **Dividing by Variables:** Never divide both sides of an inequality by an expression containing $x$ (like $x-2$). This can flip the inequality sign unpredictably or delete valid solutions. Always move terms to one side and factor. [00:50:15]
 * **Strict vs. Non-Strict:** Forgetting to check if the endpoints (the zeros) should be included. If the problem is strictly $>$ or $<$, the zeros are **never** included. [00:55:00]
