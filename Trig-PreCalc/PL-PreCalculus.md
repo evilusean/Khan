@@ -9046,12 +9046,11 @@ We look for the $(+)$ intervals and include the zeros.
 > [!abstract] Algebra Takeaway
 > Always check your "isolated" zeros. Because $x=0$ makes the function exactly zero, it must be included in the $\geq 0$ solution as a single point, even if the intervals immediately surrounding it are negative.
 
-### Analysis of f(x) = x^3 + 2x^2 \geq 3
+### Analysis of $f(x) = x^3 + 2x^2 \geq 3$
 
 To solve this polynomial inequality, we must first set the expression to zero so we can analyze the signs of the intervals.
 
 ---
-
 #### 1. Move everything to one side
 Subtract 3 from both sides to compare the function to zero:
 $$x^3 + 2x^2 - 3 \geq 0$$
@@ -9078,14 +9077,10 @@ $$(x - 1)(x^2 + 3x + 3) \geq 0$$
 **Critical Value:** $\mathbf{x = 1}$
 
 ---
-
 #### 3. Create a Number Line (Sign Chart)
 With only one real critical value at $1$, the x-axis is divided into two test intervals:
 1.  $(-\infty, 1)$
 2.  $(1, \infty)$
-
-
-
 #### 4. Select Test Points / Multiplicity Shortcut
 * **Leading Coefficient:** Positive ($+1$). For large $x$, the graph heads toward $+\infty$.
 * **Interval $(1, \infty)$:** The sign is **(+)**.
@@ -9093,16 +9088,12 @@ With only one real critical value at $1$, the x-axis is divided into two test in
 * **Interval $(-\infty, 1)$:** The sign changes to **(-)**.
 
 *Note: The irreducible quadratic $(x^2 + 3x + 3)$ is always positive, so it never changes the sign of the overall function.*
-
-
-
 #### 5. Identify the Solution
 The problem asks for where the expression is **greater than or equal to zero** ($\geq 0$).
 * We look for the $(+)$ interval and **include** the zero.
 * **Solution:** $[1, \infty)$
 
 ---
-
 #### Summary Table
 | Interval | Test Point ($x$) | Calculation | Sign |
 | :--- | :--- | :--- | :--- |
@@ -9111,3 +9102,4 @@ The problem asks for where the expression is **greater than or equal to zero** (
 
 > [!abstract] Algebra Takeaway
 > When you encounter an irreducible quadratic with no real zeros, it acts as a "constant" positive multiplier. It won't create boundaries on your sign chart, but it’s the reason the graph doesn't come back down to cross the x-axis again.
+
