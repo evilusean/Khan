@@ -9161,12 +9161,10 @@ https://www.youtube.com/watch?v=QSh1xcbYKZk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This lesson covers the algebraic process for solving inequalities involving rational expressions. Unlike polynomials, rational functions have "fences" created by both zeros and vertical asymptotes.
 
 ---
-
 #### 1. The Golden Rule: Never Multiply by a Variable
 The most critical error to avoid is multiplying both sides of an inequality by an expression containing $x$ (e.g., $x-2$). Because you do not know if that expression is positive or negative, you cannot determine whether to flip the inequality sign. Instead, you must move all terms to one side and set the inequality to zero.
 
 ---
-
 #### 2. Step-by-Step Algebraic Strategy
 To solve a rational inequality such as $\frac{P(x)}{Q(x)} \geq 0$:
 
@@ -9180,7 +9178,6 @@ To solve a rational inequality such as $\frac{P(x)}{Q(x)} \geq 0$:
 6.  **Write the Solution:** Express the correct regions in interval notation.
 
 ---
-
 #### 3. Handling Boundaries (Parentheses vs. Brackets)
 When writing your final answer, the choice between $( \dots )$ and $[ \dots ]$ depends on two factors:
 
@@ -9188,7 +9185,6 @@ When writing your final answer, the choice between $( \dots )$ and $[ \dots ]$ d
 *   **The "Undefined" Rule:** You **must always** use parentheses for critical values that come from the **denominator** (Vertical Asymptotes), even if the problem is $\geq$ or $\leq$. A function is never "equal to zero" where it is undefined.
 
 ---
-
 #### 4. The Multiplicity Shortcut for Rational Functions
 Just like polynomials, you can use multiplicity to speed up the sign chart:
 *   **Numerator Factor Multiplicity:** Determines if the graph crosses or bounces at an x-intercept.
@@ -9197,10 +9193,10 @@ Just like polynomials, you can use multiplicity to speed up the sign chart:
 **Workflow:** Find the sign of the far-right interval using the leading coefficients of the top and bottom, then flip the sign as you pass through each critical value with an odd multiplicity.
 
 ---
-
 #### 5. Common Pitfalls
 *   **Missing Asymptotes:** Forgetting that the denominator's zeros are critical values. The sign of the function can change across a vertical asymptote just as easily as it can across an x-intercept.
 *   **Incorrect Interval Merging:** Be careful when a function "bounces" or stays on the same side of an asymptote. Always double-check if the critical value itself is included in the solution.
 
 > [!abstract] Algebra Takeaway
 > Rational inequalities are solved exactly like polynomial inequalities, with one extra restriction: the denominator's zeros are "fences" that can never be included in the final solution set.
+
