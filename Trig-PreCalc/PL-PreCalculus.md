@@ -9302,12 +9302,11 @@ The graph of $f(x) = \frac{(x-3)(x+2)}{x-1}$ is split into distinct sections by 
 > [!abstract] Algebra Takeaway
 > Even though the inequality includes "or equal to," the value $x=1$ is a "hard wall" that can never be included in your solution because it makes the denominator zero.
 
-### Analysis of f(x) = \frac{(x+5)^2}{x^2 - 4} \geq 0
+### Analysis of $f(x) = \frac{(x+5)^2}{x^2 - 4} \geq 0$
 
 Following the algebraic strategy for rational inequalities, we identify the critical "fences" created by the zeros and vertical asymptotes.
 
 ---
-
 #### 1. Identify Critical Values
 To build our sign chart, we find the values where the function can change signs.
 
@@ -9321,14 +9320,12 @@ To build our sign chart, we find the values where the function can change signs.
 **Critical Values:** $-5, -2, 2$.
 
 ---
-
 #### 2. Create a Sign Chart
 These values divide the x-axis into four test intervals:
 1.  $(-\infty, -5)$
 2.  $(-5, -2)$
 3.  $(-2, 2)$
 4.  $(2, \infty)$
-
 #### 3. Select Test Points / Multiplicity Shortcut
 Using the **Multiplicity Shortcut**:
 *   **Leading Coefficient:** The ratio of leading terms ($x^2/x^2$) is positive, so the far-right interval is **(+)**.
@@ -9344,7 +9341,6 @@ Using the **Multiplicity Shortcut**:
 | $(2, \infty)$ | $3$ | **(+)** |
 
 ---
-
 #### 4. Identify the Solution
 The problem asks for where the expression is **greater than or equal to zero** ($\geq 0$).
 
@@ -9356,7 +9352,6 @@ The problem asks for where the expression is **greater than or equal to zero** (
 **Solution:** $(-\infty, -2) \cup (2, \infty)$
 
 ---
-
 #### 5. Graphical Appearance
 The graph is shaped by its even-multiplicity intercept and odd-multiplicity asymptotes:
 
@@ -9372,3 +9367,4 @@ The graph is shaped by its even-multiplicity intercept and odd-multiplicity asym
 
 > [!abstract] Algebra Takeaway
 > The "bounce" at $x = -5$ is critical. Even though the function hits zero there, it never crosses into negative territory in that section, allowing the two left-hand intervals to merge in your solution.
+
