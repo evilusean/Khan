@@ -9156,3 +9156,51 @@ The problem asks for where $x^4 - 1$ is **strictly greater than zero** ($> 0$).
 
 ## 04-May-2026 - Inequalities with Rational Functions (Precalculus - College Algebra 47) :
 https://www.youtube.com/watch?v=QSh1xcbYKZk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=66
+### Analysis of Inequalities with Rational Functions
+
+This lesson covers the algebraic process for solving inequalities involving rational expressions. Unlike polynomials, rational functions have "fences" created by both zeros and vertical asymptotes.
+
+---
+
+#### 1. The Golden Rule: Never Multiply by a Variable
+The most critical error to avoid is multiplying both sides of an inequality by an expression containing $x$ (e.g., $x-2$). Because you do not know if that expression is positive or negative, you cannot determine whether to flip the inequality sign. Instead, you must move all terms to one side and set the inequality to zero.
+
+---
+
+#### 2. Step-by-Step Algebraic Strategy
+To solve a rational inequality such as $\frac{P(x)}{Q(x)} \geq 0$:
+
+1.  **Set to Zero:** Move all terms to the left side so the right side is zero.
+2.  **Find a Common Denominator:** Combine the terms into a single rational expression.
+3.  **Identify Critical Values:** Find the "fences" where the function can change signs:
+    *   **Zeros:** Set the numerator to zero.
+    *   **Vertical Asymptotes:** Set the denominator to zero.
+4.  **Create a Sign Chart:** Mark all critical values on a number line.
+5.  **Test Intervals:** Pick a test point in each region to determine if the function is positive (+) or negative (-).
+6.  **Write the Solution:** Express the correct regions in interval notation.
+
+---
+
+#### 3. Handling Boundaries (Parentheses vs. Brackets)
+When writing your final answer, the choice between $( \dots )$ and $[ \dots ]$ depends on two factors:
+
+*   **The Inequality Sign:** If the problem uses $>$ or $<$, all boundaries use parentheses.
+*   **The "Undefined" Rule:** You **must always** use parentheses for critical values that come from the **denominator** (Vertical Asymptotes), even if the problem is $\geq$ or $\leq$. A function is never "equal to zero" where it is undefined.
+
+---
+
+#### 4. The Multiplicity Shortcut for Rational Functions
+Just like polynomials, you can use multiplicity to speed up the sign chart:
+*   **Numerator Factor Multiplicity:** Determines if the graph crosses or bounces at an x-intercept.
+*   **Denominator Factor Multiplicity:** Determines if the graph goes in opposite directions (odd multiplicity) or the same direction (even multiplicity) at a vertical asymptote.
+
+**Workflow:** Find the sign of the far-right interval using the leading coefficients of the top and bottom, then flip the sign as you pass through each critical value with an odd multiplicity.
+
+---
+
+#### 5. Common Pitfalls
+*   **Missing Asymptotes:** Forgetting that the denominator's zeros are critical values. The sign of the function can change across a vertical asymptote just as easily as it can across an x-intercept.
+*   **Incorrect Interval Merging:** Be careful when a function "bounces" or stays on the same side of an asymptote. Always double-check if the critical value itself is included in the solution.
+
+> [!abstract] Algebra Takeaway
+> Rational inequalities are solved exactly like polynomial inequalities, with one extra restriction: the denominator's zeros are "fences" that can never be included in the final solution set.
