@@ -9200,3 +9200,59 @@ Just like polynomials, you can use multiplicity to speed up the sign chart:
 > [!abstract] Algebra Takeaway
 > Rational inequalities are solved exactly like polynomial inequalities, with one extra restriction: the denominator's zeros are "fences" that can never be included in the final solution set.
 
+### Analysis of \frac{(x-3)(x+2)}{x-1} \leq 0
+
+Following the algebraic strategy for rational inequalities, we identify the critical "fences" where the function can change signs.
+
+---
+
+#### 1. Identify Critical Values
+To build our sign chart, we must find the values from both the numerator and the denominator.
+
+*   **Zeros (Numerator):** Set the numerator factors to zero.
+    *   $x - 3 = 0 \implies \mathbf{x = 3}$
+    *   $x + 2 = 0 \implies \mathbf{x = -2}$
+*   **Vertical Asymptotes (Denominator):** Set the denominator factor to zero.
+    *   $x - 1 = 0 \implies \mathbf{x = 1}$
+
+**Critical Values:** $-2, 1, 3$.
+
+---
+
+#### 2. Create a Sign Chart
+These three values divide the x-axis into four test intervals:
+1.  $(-\infty, -2)$
+2.  $(-2, 1)$
+3.  $(1, 3)$
+4.  $(3, \infty)$
+
+#### 3. Select Test Points / Multiplicity Shortcut
+Using the **Multiplicity Shortcut**:
+*   **Leading Coefficient:** All $x$ terms are positive, so the far-right interval is **(+)**.
+*   **At $x = 3$ (Multiplicity 1):** Odd multiplicity; the sign **changes** to **(-)**.
+*   **At $x = 1$ (Multiplicity 1):** Odd multiplicity; the sign **changes** to **(+)**.
+*   **At $x = -2$ (Multiplicity 1):** Odd multiplicity; the sign **changes** to **(-)**.
+
+| Interval | Test Point ($x$) | Sign |
+| :--- | :--- | :--- |
+| $(-\infty, -2)$ | $-3$ | **(-)** |
+| $(-2, 1)$ | $0$ | **(+)** |
+| $(1, 3)$ | $2$ | **(-)** |
+| $(3, \infty)$ | $4$ | **(+)** |
+
+---
+
+#### 4. Identify the Solution
+The problem asks for where the expression is **less than or equal to zero** ($\leq 0$).
+
+*   **Select Negative Intervals:** $(-\infty, -2)$ and $(1, 3)$.
+*   **Handling Boundaries:**
+    *   The Zeros ($-2$ and $3$) get **brackets** because of the $\leq$ sign.
+    *   The Vertical Asymptote ($1$) **must** have a **parenthesis** because the function is undefined there.
+
+**Solution:** $(-\infty, -2] \cup (1, 3]$
+
+---
+
+> [!abstract] Algebra Takeaway
+> Even though the inequality includes "or equal to," the value $x=1$ is a "hard wall" that can never be included in your solution because it makes the denominator zero.
