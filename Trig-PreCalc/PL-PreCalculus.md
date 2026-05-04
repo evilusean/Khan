@@ -9282,7 +9282,21 @@ The problem asks for where the expression is **less than or equal to zero** ($\l
     *   The Vertical Asymptote ($1$) **must** have a **parenthesis** because the function is undefined there.
 
 **Solution:** $(-\infty, -2] \cup (1, 3]$
+#### 5. Graphical Appearance
+The graph of $f(x) = \frac{(x-3)(x+2)}{x-1}$ is split into distinct sections by the vertical asymptote at $x=1$ and the behavior at the x-intercepts:
 
+*   **Left Section ($x < 1$):**
+    *   The graph comes up from $-\infty$ at the far left and crosses the x-axis at **$(-2, 0)$** (multiplicity 1).
+    *   It reaches a local maximum in the interval $(-2, 1)$, passing through the y-intercept at **$(0, 6)$**.
+    *   As it approaches the "wall" at $x=1$ from the left, it shoots toward **$+\infty$**.
+*   **Right Section ($x > 1$):**
+    *   Due to the **odd multiplicity** of the vertical asymptote, the graph enters from **$-\infty$** on the right side of $x=1$.
+    *   It climbs and crosses the x-axis at **$(3, 0)$** (multiplicity 1).
+    *   As $x$ increases, the graph follows its **Oblique Asymptote ($y = x - 2$)** toward $+\infty$.
+
+**Visual Summary of Solutions:**
+*   The solution for $f(x) \leq 0$ represents the parts of the graph **on or below** the x-axis.
+*   This occurs during the "dive" on the far left before reaching $-2$, and the "climb" from the asymptote up to the intercept at $3$.
 ---
 
 > [!abstract] Algebra Takeaway
