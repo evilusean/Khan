@@ -9200,6 +9200,41 @@ Just like polynomials, you can use multiplicity to speed up the sign chart:
 > [!abstract] Algebra Takeaway
 > Rational inequalities are solved exactly like polynomial inequalities, with one extra restriction: the denominator's zeros are "fences" that can never be included in the final solution set.
 
+
+### Determining Multiplicity of Vertical Asymptotes
+
+In a rational expression, the "behavior" at a vertical asymptote (V.A.) is determined by the **multiplicity** of the factor in the denominator that creates that asymptote. This multiplicity tells you whether the graph shoots off in the same direction or opposite directions as it approaches the asymptote.
+
+---
+#### 1. Identify the Multiplicity (The Exponent)
+To find the multiplicity, you must first factor the denominator completely. Look at the exponent attached to the specific factor that equals zero at the asymptote location:
+
+*   **Odd Multiplicity:** The factor is raised to an odd power (e.g., $(x - c)^1$, $(x - c)^3$).
+*   **Even Multiplicity:** The factor is raised to an even power (e.g., $(x - c)^2$, $(x - c)^4$).
+
+---
+#### 2. Graphical Behavior
+The exponent dictates how the $y$-values behave on either side of the V.A.:
+
+| Multiplicity | Behavior Description | Visual Result |
+| :--- | :--- | :--- |
+| **Odd** | The $y$-values go to **opposite infinities**. | One side goes to $+\infty$, the other to $-\infty$. |
+| **Even** | The $y$-values go to the **same infinity**. | Both sides shoot up to $+\infty$ or both down to $-\infty$. |
+
+---
+#### 3. Examples
+*   **Example 1 (Odd):** $f(x) = \frac{1}{x-1}$
+    *   The factor $(x-1)$ has an implied exponent of **1**.
+    *   This is **odd multiplicity**, so the graph will head to $+\infty$ on one side of $x=1$ and $-\infty$ on the other.
+
+*   **Example 2 (Even):** $f(x) = \frac{1}{(x+3)^2}$
+    *   The factor $(x+3)$ has an exponent of **2**.
+    *   This is **even multiplicity**, so the graph will head toward $+\infty$ on both sides of $x=-3$.
+
+---
+
+> [!tip] Note-Taking Tip
+> When solving rational inequalities, knowing if a V.A. is odd or even allows you to use the **Multiplicity Shortcut** on your sign chart. If the V.A. is odd, the sign of the function **switches** as you pass over it; if it is even, the sign **stays the same**.
 ### Analysis of $\frac{(x-3)(x+2)}{x-1} \leq 0$
 
 Following the algebraic strategy for rational inequalities, we identify the critical "fences" where the function can change signs.
