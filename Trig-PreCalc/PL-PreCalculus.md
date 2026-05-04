@@ -9368,3 +9368,78 @@ The graph is shaped by its even-multiplicity intercept and odd-multiplicity asym
 > [!abstract] Algebra Takeaway
 > The "bounce" at $x = -5$ is critical. Even though the function hits zero there, it never crosses into negative territory in that section, allowing the two left-hand intervals to merge in your solution.
 
+### Analysis of $f(x) = \frac{x(x^2+1)(x-2)}{(x-1)(x+1)} \geq 0$
+
+Following the algebraic strategy for rational inequalities, we identify the critical "fences" where the function can change signs.
+
+---
+
+#### 1. Identify Critical Values
+To build our sign chart, we must find the values from both the numerator and the denominator.
+
+*   **Zeros (Numerator):** Set the numerator factors to zero.
+    *   $x = \mathbf{0}$ (Multiplicity 1).
+    *   $x^2 + 1 = 0 \implies$ No real solutions (Irreducible quadratic; always positive).
+    *   $x - 2 = 0 \implies \mathbf{x = 2}$ (Multiplicity 1).
+*   **Vertical Asymptotes (Denominator):** Set the denominator factors to zero.
+    *   $x - 1 = 0 \implies \mathbf{x = 1}$ (Multiplicity 1).
+    *   $x + 1 = 0 \implies \mathbf{x = -1}$ (Multiplicity 1).
+
+**Critical Values:** $-1, 0, 1, 2$.
+
+---
+
+#### 2. Create a Sign Chart
+These four values divide the x-axis into five test intervals:
+1.  $(-\infty, -1)$
+2.  $(-1, 0)$
+3.  $(0, 1)$
+4.  $(1, 2)$
+5.  $(2, \infty)$
+
+#### 3. Select Test Points / Multiplicity Shortcut
+Using the **Multiplicity Shortcut**:
+*   **Leading Coefficient:** The ratio of leading terms ($x^4/x^2$) is positive, so the far-right interval is **(+)**.
+*   **At $x = 2$ (Multiplicity 1):** Odd; sign **changes** to **(-)**.
+*   **At $x = 1$ (Multiplicity 1):** Odd; sign **changes** to **(+)**.
+*   **At $x = 0$ (Multiplicity 1):** Odd; sign **changes** to **(-)**.
+*   **At $x = -1$ (Multiplicity 1):** Odd; sign **changes** to **(+)**.
+
+| Interval | Test Point ($x$) | Sign |
+| :--- | :--- | :--- |
+| $(-\infty, -1)$ | $-2$ | **(+)** |
+| $(-1, 0)$ | $-0.5$ | **(-)** |
+| $(0, 1)$ | $0.5$ | **(+)** |
+| $(1, 2)$ | $1.5$ | **(-)** |
+| $(2, \infty)$ | $3$ | **(+)** |
+
+---
+
+#### 4. Identify the Solution
+The problem asks for where the expression is **greater than or equal to zero** ($\geq 0$).
+
+*   **Select Positive Intervals:** $(-\infty, -1)$, $(0, 1)$, and $(2, \infty)$.
+*   **Handling Boundaries:**
+    *   The Zeros ($0$ and $2$) get **brackets** because of the $\geq$ sign.
+    *   The Vertical Asymptotes ($-1$ and $1$) **must** use **parentheses** because the function is undefined there.
+
+**Solution:** $(-\infty, -1) \cup [0, 1) \cup [2, \infty)$
+
+---
+
+#### 5. Graphical Appearance
+The graph is shaped by its odd multiplicity at every critical point and its end behavior:
+
+*   **End Behavior:** Since the numerator degree (4) is two higher than the denominator degree (2), the graph follows a **parabolic ($x^2$) end behavior**, shooting toward $+\infty$ on both the far left and far right.
+*   **Left Section ($x < -1$):** The graph comes down from $+\infty$ and shoots toward $+\infty$ again as it approaches the V.A. at $x = -1$.
+*   **Middle Section 1 ($-1 < x < 1$):**
+    *   Due to the **odd multiplicity** at $x = -1$, the graph enters from **$-\infty$**.
+    *   It crosses the x-axis at **$(0, 0)$** and continues upward toward **$+\infty$** as it approaches $x = 1$.
+*   **Middle Section 2 ($1 < x < 2$):**
+    *   Due to the **odd multiplicity** at $x = 1$, the graph enters from **$-\infty$**.
+    *   It climbs to cross the x-axis at **$(2, 0)$**.
+*   **Right Section ($x > 2$):**
+    *   After crossing at $x = 2$, the graph continues to rise toward $+\infty$, following its parabolic end behavior.
+
+> [!abstract] Algebra Takeaway
+> Because every critical value (zeros and asymptotes) had an odd multiplicity, the sign of the function flipped at every single "fence". This created the alternating pattern of the solution set.
