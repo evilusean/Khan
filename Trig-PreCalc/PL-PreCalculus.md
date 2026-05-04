@@ -9373,7 +9373,6 @@ The graph is shaped by its even-multiplicity intercept and odd-multiplicity asym
 Following the algebraic strategy for rational inequalities, we identify the critical "fences" where the function can change signs.
 
 ---
-
 #### 1. Identify Critical Values
 To build our sign chart, we must find the values from both the numerator and the denominator.
 
@@ -9388,7 +9387,6 @@ To build our sign chart, we must find the values from both the numerator and the
 **Critical Values:** $-1, 0, 1, 2$.
 
 ---
-
 #### 2. Create a Sign Chart
 These four values divide the x-axis into five test intervals:
 1.  $(-\infty, -1)$
@@ -9396,7 +9394,6 @@ These four values divide the x-axis into five test intervals:
 3.  $(0, 1)$
 4.  $(1, 2)$
 5.  $(2, \infty)$
-
 #### 3. Select Test Points / Multiplicity Shortcut
 Using the **Multiplicity Shortcut**:
 *   **Leading Coefficient:** The ratio of leading terms ($x^4/x^2$) is positive, so the far-right interval is **(+)**.
@@ -9414,7 +9411,6 @@ Using the **Multiplicity Shortcut**:
 | $(2, \infty)$ | $3$ | **(+)** |
 
 ---
-
 #### 4. Identify the Solution
 The problem asks for where the expression is **greater than or equal to zero** ($\geq 0$).
 
@@ -9426,7 +9422,6 @@ The problem asks for where the expression is **greater than or equal to zero** (
 **Solution:** $(-\infty, -1) \cup [0, 1) \cup [2, \infty)$
 
 ---
-
 #### 5. Graphical Appearance
 The graph is shaped by its odd multiplicity at every critical point and its end behavior:
 
@@ -9443,3 +9438,4 @@ The graph is shaped by its odd multiplicity at every critical point and its end 
 
 > [!abstract] Algebra Takeaway
 > Because every critical value (zeros and asymptotes) had an odd multiplicity, the sign of the function flipped at every single "fence". This created the alternating pattern of the solution set.
+
