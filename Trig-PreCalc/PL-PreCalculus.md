@@ -9154,3 +9154,4 @@ The problem asks for where $x^4 - 1$ is **strictly greater than zero** ($> 0$).
 > [!abstract] Algebra Takeaway
 > The irreducible quadratic factor $(x^2 + 1)$ acts as a positive constant. It never changes the sign of the expression, so the "switching" of signs only happens at the real roots $x=1$ and $x=-1$.
 
+## 04-May-2026 - Inequalities with Rational Functions (Precalculus - College Algebra 47) :
