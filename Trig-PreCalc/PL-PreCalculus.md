@@ -9200,12 +9200,11 @@ Just like polynomials, you can use multiplicity to speed up the sign chart:
 > [!abstract] Algebra Takeaway
 > Rational inequalities are solved exactly like polynomial inequalities, with one extra restriction: the denominator's zeros are "fences" that can never be included in the final solution set.
 
-### Analysis of \frac{(x-3)(x+2)}{x-1} \leq 0
+### Analysis of $\frac{(x-3)(x+2)}{x-1} \leq 0$
 
 Following the algebraic strategy for rational inequalities, we identify the critical "fences" where the function can change signs.
 
 ---
-
 #### 1. Identify Critical Values
 To build our sign chart, we must find the values from both the numerator and the denominator.
 
@@ -9218,14 +9217,12 @@ To build our sign chart, we must find the values from both the numerator and the
 **Critical Values:** $-2, 1, 3$.
 
 ---
-
 #### 2. Create a Sign Chart
 These three values divide the x-axis into four test intervals:
 1.  $(-\infty, -2)$
 2.  $(-2, 1)$
 3.  $(1, 3)$
 4.  $(3, \infty)$
-
 #### 3. Select Test Points / Multiplicity Shortcut
 Using the **Multiplicity Shortcut**:
 *   **Leading Coefficient:** All $x$ terms are positive, so the far-right interval is **(+)**.
@@ -9241,7 +9238,6 @@ Using the **Multiplicity Shortcut**:
 | $(3, \infty)$ | $4$ | **(+)** |
 
 ---
-
 #### 4. Identify the Solution
 The problem asks for where the expression is **less than or equal to zero** ($\leq 0$).
 
@@ -9256,3 +9252,4 @@ The problem asks for where the expression is **less than or equal to zero** ($\l
 
 > [!abstract] Algebra Takeaway
 > Even though the inequality includes "or equal to," the value $x=1$ is a "hard wall" that can never be included in your solution because it makes the denominator zero.
+
