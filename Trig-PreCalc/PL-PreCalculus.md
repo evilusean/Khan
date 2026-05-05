@@ -9675,3 +9675,37 @@ $$-12x^4 + 60x^2 - 74$$
 
 **Final Result:**
 $$(g \circ f)(x) = -12x^4 + 60x^2 - 74$$
+
+### $(f \circ f)(x)$
+
+To find the composition $(f \circ f)(x)$ using the "Blank Space" technique, we treat the function as both the template and the input, substituting the function into itself.
+
+---
+
+#### Step 1: Identify and Open the Outer Function
+The notation $(f \circ f)(x)$ means $f(f(x))$, which tells us that **$f(x)$ is the outer function**. 
+Given $f(x) = 2x^2 - 5$, we create a "Blank Space" by replacing the variable $x$ with parentheses:
+$$2(\quad)^2 - 5$$
+
+#### Step 2: Insert the Inner Function
+The notation $f(f(x))$ tells us that **$f(x)$ is also the inner function** acting as the input. 
+Given $f(x) = 2x^2 - 5$, we take this entire expression and "shove" it into the blank space we created in the outer version of $f(x)$:
+$$2(2x^2 - 5)^2 - 5$$
+
+#### Step 3: Expand the Squared Term
+Following the order of operations (PEMDAS), we must evaluate the exponent before distributing the $2$. We expand $(2x^2 - 5)^2$ by multiplying the binomial by itself:
+$$(2x^2 - 5)(2x^2 - 5) = 4x^4 - 10x^2 - 10x^2 + 25$$
+$$= 4x^4 - 20x^2 + 25$$
+
+#### Step 4: Distribute and Combine Like Terms
+Now, substitute the expanded expression back into the outer structure and distribute the coefficient $2$:
+$$2(4x^4 - 20x^2 + 25) - 5$$
+$$= 8x^4 - 40x^2 + 50 - 5$$
+
+Finally, combine the constant terms ($50 - 5 = 45$) and arrange the polynomial in standard form:
+$$8x^4 - 40x^2 + 45$$
+
+---
+
+**Final Result:**
+$$(f \circ f)(x) = 8x^4 - 40x^2 + 45$$
