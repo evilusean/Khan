@@ -9713,3 +9713,36 @@ $$8x^4 - 40x^2 + 45$$
 **Final Result:**
 $$(f \circ f)(x) = 8x^4 - 40x^2 + 45$$
 
+### $(g \circ g)(x)$
+
+To find the composition $(g \circ g)(x)$ using the "Blank Space" technique, we treat the function as both the template and the input, substituting the function into its own variable.
+
+---
+
+#### Step 1: Identify and Open the Outer Function
+The notation $(g \circ g)(x)$ means $g(g(x))$, which tells us that **$g(x)$ is the outer function**. 
+Given $g(x) = 1 - 3x^2$, we create a "Blank Space" by replacing the variable $x$ with parentheses. This creates the landing spot for our input:
+$$1 - 3(\quad)^2$$
+
+#### Step 2: Insert the Inner Function
+The notation $g(g(x))$ tells us that **$g(x)$ is also the inner function** acting as the input. 
+Given $g(x) = 1 - 3x^2$, we take this entire expression and "shove" it into the blank space we created in Step 1:
+$$1 - 3(1 - 3x^2)^2$$
+
+#### Step 3: Expand the Squared Term
+Following the order of operations (PEMDAS), we must handle the exponent before multiplying by $-3$. We expand $(1 - 3x^2)^2$ by multiplying the binomial by itself:
+$$(1 - 3x^2)(1 - 3x^2) = 1 - 3x^2 - 3x^2 + 9x^4$$
+$$= 1 - 6x^2 + 9x^4$$
+
+#### Step 4: Distribute and Combine Like Terms
+Now, substitute the expanded result back into the expression and distribute the $-3$. Ensure the negative sign is applied to every term within the parentheses:
+$$1 - 3(1 - 6x^2 + 9x^4)$$
+$$= 1 - 3 + 18x^2 - 27x^4$$
+
+Finally, combine the constant terms ($1 - 3 = -2$) and arrange the polynomial in standard form (highest degree to lowest):
+$$-27x^4 + 18x^2 - 2$$
+
+---
+
+**Final Result:**
+$$(g \circ g)(x) = -27x^4 + 18x^2 - 2$$
