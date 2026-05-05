@@ -9715,10 +9715,13 @@ $$(f \circ f)(x) = 8x^4 - 40x^2 + 45$$
 
 ### $(g \circ g)(x)$
 
+$f(x) = 2x^2 -5$ 
+and
+$g(x) = 1-3x^2$
+
 To find the composition $(g \circ g)(x)$ using the "Blank Space" technique, we treat the function as both the template and the input, substituting the function into its own variable.
 
 ---
-
 #### Step 1: Identify and Open the Outer Function
 The notation $(g \circ g)(x)$ means $g(g(x))$, which tells us that **$g(x)$ is the outer function**. 
 Given $g(x) = 1 - 3x^2$, we create a "Blank Space" by replacing the variable $x$ with parentheses. This creates the landing spot for our input:
@@ -9746,3 +9749,4 @@ $$-27x^4 + 18x^2 - 2$$
 
 **Final Result:**
 $$(g \circ g)(x) = -27x^4 + 18x^2 - 2$$
+
