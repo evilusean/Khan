@@ -9640,6 +9640,10 @@ $$18x^4 - 12x^2 - 3$$
 $$(f \circ g)(x) = 18x^4 - 12x^2 - 3$$
 ### $(g \circ f)(x)$
 
+$f(x) = 2x^2 -5$ 
+and
+$g(x) = 1-3x^2$
+
 To find the composition $(g \circ f)(x)$ using the "Blank Space" technique, we treat the outer function as a template and substitute the inner function into it.
 
 ---
