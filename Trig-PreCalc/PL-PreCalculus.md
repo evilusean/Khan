@@ -9566,3 +9566,4 @@ The graph of the comparison function $g(x) = \frac{2(x+7)}{(x-3)(x+1)}$ looks li
 *   **End Behavior:** The horizontal asymptote is $y = 0$ (the x-axis).
 *   **The Region:** The solution represents where the graph is **above or on the x-axis**. This occurs in a "hill" between $-7$ and $-1$, and the entire curve to the right of the $x=3$ asymptote.
 
+## 2026-April-05 - Composition of Functions (Precalculus - College Algebra 48) : 
