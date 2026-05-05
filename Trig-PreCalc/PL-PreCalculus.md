@@ -9786,3 +9786,35 @@ $$f(-2) = 3$$
 
 **Final Result:**
 $$(f \circ g)(1) = 3$$
+### $(g \circ f)(2)$
+
+Evaluating a composite function at a specific number involves running the input through the "inner" function first, then using that result as the input for the "outer" function.
+
+---
+
+#### Step 1: Identify the Order of Evaluation
+The notation $(g \circ f)(2)$ is equivalent to $g(f(2))$. 
+*   **Inner Function:** $f(x) = 2x^2 - 5$ (Evaluate this first with the input $2$)
+*   **Outer Function:** $g(x) = 1 - 3x^2$ (Evaluate this second using the output from $f$)
+
+#### Step 2: Evaluate the Inner Function $f(2)$
+Take the initial input $2$ and plug it into $f(x)$. Using the "Blank Space" technique:
+$$f(2) = 2(2)^2 - 5$$
+$$f(2) = 2(4) - 5$$
+$$f(2) = 8 - 5$$
+$$f(2) = 3$$
+
+The output of our inner function is **$3$**.
+
+#### Step 3: Evaluate the Outer Function $g(3)$
+Now, take the result from Step 2 ($3$) and use it as the new input for the outer function $g(x)$. This represents $g(f(2))$ which is now $g(3)$.
+Using the "Blank Space" technique on $g(x) = 1 - 3x^2$:
+$$g(3) = 1 - 3(3)^2$$
+$$g(3) = 1 - 3(9)$$
+$$g(3) = 1 - 27$$
+$$g(3) = -26$$
+
+---
+
+**Final Result:**
+$$(g \circ f)(2) = -26$$
