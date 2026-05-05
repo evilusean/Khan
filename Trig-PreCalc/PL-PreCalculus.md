@@ -9788,10 +9788,13 @@ $$f(-2) = 3$$
 $$(f \circ g)(1) = 3$$
 ### $(g \circ f)(2)$
 
+$f(x) = 2x^2 -5$ 
+and
+$g(x) = 1-3x^2$
+
 Evaluating a composite function at a specific number involves running the input through the "inner" function first, then using that result as the input for the "outer" function.
 
 ---
-
 #### Step 1: Identify the Order of Evaluation
 The notation $(g \circ f)(2)$ is equivalent to $g(f(2))$. 
 *   **Inner Function:** $f(x) = 2x^2 - 5$ (Evaluate this first with the input $2$)
@@ -9818,3 +9821,4 @@ $$g(3) = -26$$
 
 **Final Result:**
 $$(g \circ f)(2) = -26$$
+
