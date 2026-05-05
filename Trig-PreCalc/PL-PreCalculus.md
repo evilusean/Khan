@@ -9752,10 +9752,13 @@ $$(g \circ g)(x) = -27x^4 + 18x^2 - 2$$
 
 ### $(f \circ g)(1)$
 
+$f(x) = 2x^2 -5$ 
+and
+$g(x) = 1-3x^2$
+
 Evaluating a composite function at a specific number can be done in two ways. Using the "Step-by-Step" method from the video, we run the input through the inner function first, then use that result as the input for the outer function.
 
 ---
-
 #### Step 1: Identify the Order of Evaluation
 The notation $(f \circ g)(1)$ is equivalent to $f(g(1))$.
 *   **Inner Function:** $g(x) = 1 - 3x^2$ (Evaluate this first with the input $1$)
