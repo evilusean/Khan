@@ -9439,3 +9439,130 @@ The graph is shaped by its odd multiplicity at every critical point and its end 
 > [!abstract] Algebra Takeaway
 > Because every critical value (zeros and asymptotes) had an odd multiplicity, the sign of the function flipped at every single "fence". This created the alternating pattern of the solution set.
 
+### Analysis of $f(x) = \frac{3x-5}{x+2} \leq 2$
+
+To solve this rational inequality correctly, we must avoid the common mistake of multiplying by the variable expression and instead set the inequality to zero.
+
+---
+#### 1. Move everything to one side
+Subtract 2 from both sides to compare the function to zero:
+$$\frac{3x-5}{x+2} - 2 \leq 0$$
+
+#### 2. Find a Common Denominator
+Combine the terms into a single rational expression:
+$$\frac{3x-5}{x+2} - \frac{2(x+2)}{x+2} \leq 0$$
+$$\frac{3x - 5 - 2x - 4}{x+2} \leq 0$$
+$$\frac{x - 9}{x + 2} \leq 0$$
+#### 3. Identify Critical Values
+Find the "fences" where the function can change signs:
+*   **Zeros (Numerator):** $x - 9 = 0 \implies \mathbf{x = 9}$ (Multiplicity 1).
+*   **Vertical Asymptotes (Denominator):** $x + 2 = 0 \implies \mathbf{x = -2}$ (Multiplicity 1).
+
+**Critical Values:** $-2, 9$.
+
+---
+#### 4. Create a Sign Chart
+These values divide the x-axis into three test intervals:
+1.  $(-\infty, -2)$
+2.  $(-2, 9)$
+3.  $(9, \infty)$
+#### 5. Select Test Points / Multiplicity Shortcut
+Using the **Multiplicity Shortcut**:
+*   **Leading Coefficient:** The ratio of leading terms ($x/x$) is positive, so the far-right interval is **(+)**.
+*   **At $x = 9$ (Multiplicity 1):** Odd; the sign **changes** to **(-)**.
+*   **At $x = -2$ (Multiplicity 1):** Odd; the sign **changes** to **(+)**.
+
+| Interval | Test Point ($x$) | Calculation (Simplified Form) | Sign |
+| :--- | :--- | :--- | :--- |
+| $(-\infty, -2)$ | $-3$ | $(-3-9)/(-3+2) = -12/-1$ | **(+)** |
+| $(-2, 9)$ | $0$ | $(0-9)/(0+2) = -9/2$ | **(-)** |
+| $(9, \infty)$ | $10$ | $(10-9)/(10+2) = 1/12$ | **(+)** |
+
+---
+#### 6. Identify the Solution
+The problem asks for where the expression is **less than or equal to zero** ($\leq 0$).
+
+*   **Select Negative Intervals:** $(-2, 9)$.
+*   **Handling Boundaries:**
+    *   The Zero at $9$ gets a **bracket** because of the $\leq$ sign.
+    *   The Vertical Asymptote at $-2$ **must** use a **parenthesis** because the function is undefined there.
+
+**Solution:** $(-2, 9]$
+
+---
+#### 7. Graphical Appearance
+The graph of the simplified comparison function $g(x) = \frac{x-9}{x+2}$ provides the visual solution:
+
+*   **Vertical Asymptote ($x = -2$):** Because it has an **odd multiplicity**, the graph shoots to $+\infty$ on the left and enters from $-\infty$ on the right.
+*   **X-Intercept ($9, 0$):** The graph crosses the x-axis at $x=9$.
+*   **End Behavior:** The horizontal asymptote is $y = 1$.
+*   **The Region:** The solution $(-2, 9]$ represents the part of the graph that is **below or on the x-axis**. This is the section where the graph climbs from $-\infty$ (on the right of the asymptote) up to the intercept at $9$.
+
+> [!abstract] Algebra Takeaway
+> Never multiply across an inequality by a variable. By moving the $2$ over and finding a common denominator, you transform the problem into a standard rational inequality that clearly shows the critical "fences" at $-2$ and $9$.
+
+### Analysis of f(x) = \frac{5}{x-3} \geq \frac{3}{x+1}
+
+Following the exact algebraic strategy for rational inequalities:
+
+---
+#### 1. Move everything to one side
+Set the inequality to zero by subtracting the right-hand side. **Do not multiply by (x-3) or (x+1).**
+$$\frac{5}{x-3} - \frac{3}{x+1} \geq 0$$
+
+#### 2. Find a Common Denominator
+The Least Common Denominator (LCD) is $(x-3)(x+1)$.
+$$\frac{5(x+1)}{(x-3)(x+1)} - \frac{3(x-3)}{(x-3)(x+1)} \geq 0$$
+Combine the numerators:
+$$\frac{5x + 5 - 3x + 9}{(x-3)(x+1)} \geq 0$$
+$$\frac{2x + 14}{(x-3)(x+1)} \geq 0$$
+Factor the numerator:
+$$\frac{2(x + 7)}{(x-3)(x+1)} \geq 0$$
+
+#### 3. Identify Critical Values (The Fences)
+*   **Zeros (Numerator):** $x + 7 = 0 \implies \mathbf{x = -7}$ (Multiplicity 1).
+*   **Vertical Asymptotes (Denominator):**
+    *   $x - 3 = 0 \implies \mathbf{x = 3}$ (Multiplicity 1).
+    *   $x + 1 = 0 \implies \mathbf{x = -1}$ (Multiplicity 1).
+
+**Critical Values:** $-7, -1, 3$.
+
+---
+#### 4. Create a Sign Chart
+Divide the number line into four test intervals:
+1.  $(-\infty, -7)$
+2.  $(-7, -1)$
+3.  $(-1, 3)$
+4.  $(3, \infty)$
+#### 5. Select Test Points / Multiplicity Shortcut
+Using the **Multiplicity Shortcut**:
+*   **Leading Coefficient:** All factors are positive ($2, 1, 1$), so the far-right interval is **(+)**.
+*   **At x = 3 (Odd):** Sign **changes** to **(-)**.
+*   **At x = -1 (Odd):** Sign **changes** to **(+)**.
+*   **At x = -7 (Odd):** Sign **changes** to **(-)**.
+
+| Interval | Test Point ($x$) | Calculation | Sign |
+| :--- | :--- | :--- | :--- |
+| $(-\infty, -7)$ | $-8$ | $2(-1) / (-11)(-7) = -2 / 77$ | **(-)** |
+| $(-7, -1)$ | $-4$ | $2(3) / (-7)(-3) = 6 / 21$ | **(+)** |
+| $(-1, 3)$ | $0$ | $2(7) / (-3)(1) = 14 / -3$ | **(-)** |
+| $(3, \infty)$ | $4$ | $2(11) / (1)(5) = 22 / 5$ | **(+)** |
+
+---
+#### 6. Identify the Solution
+The problem asks for where the expression is **greater than or equal to zero** ($\geq 0$).
+*   **Select Positive Intervals:** $(-7, -1)$ and $(3, \infty)$.
+*   **Handling Boundaries:**
+    *   The zero at $-7$ is included (**bracket**) because of the $\geq$ sign.
+    *   The Vertical Asymptotes at $-1$ and $3$ **must** use **parentheses** because the function is undefined there.
+
+**Solution:** $[-7, -1) \cup (3, \infty)$
+
+---
+#### 7. Graphical Appearance
+The graph of the comparison function $g(x) = \frac{2(x+7)}{(x-3)(x+1)}$ looks like:
+*   **Vertical Asymptotes:** "Fences" at $x = -1$ and $x = 3$. Because they are odd multiplicity, the graph shoots to opposite infinities on either side.
+*   **X-Intercept:** The graph crosses the x-axis at **$(-7, 0)$**.
+*   **End Behavior:** The horizontal asymptote is $y = 0$ (the x-axis).
+*   **The Region:** The solution represents where the graph is **above or on the x-axis**. This occurs in a "hill" between $-7$ and $-1$, and the entire curve to the right of the $x=3$ asymptote.
+
