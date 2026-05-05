@@ -9678,10 +9678,13 @@ $$(g \circ f)(x) = -12x^4 + 60x^2 - 74$$
 
 ### $(f \circ f)(x)$
 
+$f(x) = 2x^2 -5$ 
+and
+$g(x) = 1-3x^2$
+
 To find the composition $(f \circ f)(x)$ using the "Blank Space" technique, we treat the function as both the template and the input, substituting the function into itself.
 
 ---
-
 #### Step 1: Identify and Open the Outer Function
 The notation $(f \circ f)(x)$ means $f(f(x))$, which tells us that **$f(x)$ is the outer function**. 
 Given $f(x) = 2x^2 - 5$, we create a "Blank Space" by replacing the variable $x$ with parentheses:
@@ -9709,3 +9712,4 @@ $$8x^4 - 40x^2 + 45$$
 
 **Final Result:**
 $$(f \circ f)(x) = 8x^4 - 40x^2 + 45$$
+
