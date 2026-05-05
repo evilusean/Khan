@@ -9601,3 +9601,35 @@ The domain of a composite function is not just the domain of the final resulting
 **Key Properties**
 *   **Non-Commutative:** In general, $f(g(x)) \neq g(f(x))$. The order of composition matters significantly.
 *   **Inverse Relationship:** If $(f \circ g)(x) = x$ and $(g \circ f)(x) = x$, then $f$ and $g$ are inverse functions. This is a primary test for mathematical inverses.
+### $(f \circ g)(x)$
+
+To find the composition $(f \circ g)(x)$ using the "Blank Space" technique, we treat the outer function as a template and substitute the inner function into it.
+
+---
+
+#### Step 1: Open the Outer Function
+The outer function is $f(x) = 2x^2 - 5$. We create a "Blank Space" by replacing every instance of the variable $x$ with parentheses:
+$$2(\quad)^2 - 5$$
+
+#### Step 2: Insert the Inner Function
+The inner function is $g(x) = 1 - 3x^2$. We plug this entire expression into the parentheses:
+$$2(1 - 3x^2)^2 - 5$$
+
+#### Step 3: Expand the Squared Term
+Following the order of operations, we must expand the exponent before distributing the $2$. We multiply $(1 - 3x^2)$ by itself:
+$$(1 - 3x^2)(1 - 3x^2) = 1(1) + 1(-3x^2) - 3x^2(1) - 3x^2(-3x^2)$$
+$$= 1 - 3x^2 - 3x^2 + 9x^4$$
+$$= 1 - 6x^2 + 9x^4$$
+
+#### Step 4: Distribute and Combine Like Terms
+Now, substitute the expanded expression back into the main equation and distribute the $2$:
+$$2(1 - 6x^2 + 9x^4) - 5$$
+$$= 2 - 12x^2 + 18x^4 - 5$$
+
+Combine the constants ($2 - 5$) and arrange the terms in descending order (Standard Form):
+$$18x^4 - 12x^2 - 3$$
+
+---
+
+**Final Result:**
+$$(f \circ g)(x) = 18x^4 - 12x^2 - 3$$
