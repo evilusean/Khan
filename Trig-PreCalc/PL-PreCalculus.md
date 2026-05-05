@@ -9603,7 +9603,9 @@ The domain of a composite function is not just the domain of the final resulting
 *   **Inverse Relationship:** If $(f \circ g)(x) = x$ and $(g \circ f)(x) = x$, then $f$ and $g$ are inverse functions. This is a primary test for mathematical inverses.
 ### $(f \circ g)(x)$
 
-$f(x) = 2x^2 -5$ and $g(x) = 1-3x^2$
+$f(x) = 2x^2 -5$ 
+and
+$g(x) = 1-3x^2$
 
 To find the composition $(f \circ g)(x)$ using the "Blank Space" technique, we treat the outer function as a template and substitute the inner function into it.
 
@@ -9636,3 +9638,36 @@ $$18x^4 - 12x^2 - 3$$
 
 **Final Result:**
 $$(f \circ g)(x) = 18x^4 - 12x^2 - 3$$
+### $(g \circ f)(x)$
+
+To find the composition $(g \circ f)(x)$ using the "Blank Space" technique, we treat the outer function as a template and substitute the inner function into it.
+
+---
+
+#### Step 1: Identify and Open the Outer Function
+The notation $(g \circ f)(x)$ means $g(f(x))$, which tells us that **$g(x)$ is the outer function**. 
+Given $g(x) = 1 - 3x^2$, we create a "Blank Space" by replacing every instance of the variable $x$ with parentheses. This allows us to see exactly where the new input will go:
+$$1 - 3(\quad)^2$$
+
+#### Step 2: Insert the Inner Function
+The notation $g(f(x))$ tells us that **$f(x)$ is the inner function** acting as the input. 
+Given $f(x) = 2x^2 - 5$, we take this entire expression and "shove" it into the blank space we created in $g(x)$:
+$$1 - 3(2x^2 - 5)^2$$
+
+#### Step 3: Expand the Squared Term
+Following the order of operations (PEMDAS), we must handle the exponent on the parentheses before multiplying by $-3$. We expand $(2x^2 - 5)^2$ by multiplying the binomial by itself:
+$$(2x^2 - 5)(2x^2 - 5) = 4x^4 - 10x^2 - 10x^2 + 25$$
+$$= 4x^4 - 20x^2 + 25$$
+
+#### Step 4: Distribute and Combine Like Terms
+Now, substitute that expanded result back into the expression for $g$ and distribute the $-3$. Be careful to apply the negative sign to every term:
+$$1 - 3(4x^4 - 20x^2 + 25)$$
+$$= 1 - 12x^4 + 60x^2 - 75$$
+
+Finally, combine the constant terms ($1 - 75 = -74$) and arrange the polynomial in standard form:
+$$-12x^4 + 60x^2 - 74$$
+
+---
+
+**Final Result:**
+$$(g \circ f)(x) = -12x^4 + 60x^2 - 74$$
