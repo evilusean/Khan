@@ -9750,3 +9750,36 @@ $$-27x^4 + 18x^2 - 2$$
 **Final Result:**
 $$(g \circ g)(x) = -27x^4 + 18x^2 - 2$$
 
+### $(f \circ g)(1)$
+
+Evaluating a composite function at a specific number can be done in two ways. Using the "Step-by-Step" method from the video, we run the input through the inner function first, then use that result as the input for the outer function.
+
+---
+
+#### Step 1: Identify the Order of Evaluation
+The notation $(f \circ g)(1)$ is equivalent to $f(g(1))$.
+*   **Inner Function:** $g(x) = 1 - 3x^2$ (Evaluate this first with the input $1$)
+*   **Outer Function:** $f(x) = 2x^2 - 5$ (Evaluate this second using the output from $g$)
+
+#### Step 2: Evaluate the Inner Function $g(1)$
+Take the input $1$ and plug it into $g(x)$. Using the "Blank Space" technique:
+$$g(1) = 1 - 3(1)^2$$
+$$g(1) = 1 - 3(1)$$
+$$g(1) = -2$$
+
+The output of our inner function is **$-2$**.
+
+#### Step 3: Evaluate the Outer Function $f(-2)$
+Now, take the result from Step 2 and use it as the input for the outer function $f(x)$. We are "shoving" the output of $g$ into the variable for $f$:
+$$f(g(1)) = f(-2)$$
+
+Using the "Blank Space" technique on $f(x) = 2x^2 - 5$:
+$$f(-2) = 2(-2)^2 - 5$$
+$$f(-2) = 2(4) - 5$$
+$$f(-2) = 8 - 5$$
+$$f(-2) = 3$$
+
+---
+
+**Final Result:**
+$$(f \circ g)(1) = 3$$
