@@ -9603,30 +9603,33 @@ The domain of a composite function is not just the domain of the final resulting
 *   **Inverse Relationship:** If $(f \circ g)(x) = x$ and $(g \circ f)(x) = x$, then $f$ and $g$ are inverse functions. This is a primary test for mathematical inverses.
 ### $(f \circ g)(x)$
 
+$f(x) = 2x^2 -5$ and $g(x) = 1-3x^2$
+
 To find the composition $(f \circ g)(x)$ using the "Blank Space" technique, we treat the outer function as a template and substitute the inner function into it.
 
 ---
 
-#### Step 1: Open the Outer Function
-The outer function is $f(x) = 2x^2 - 5$. We create a "Blank Space" by replacing every instance of the variable $x$ with parentheses:
+#### Step 1: Identify and Open the Outer Function
+The notation $(f \circ g)(x)$ means $f(g(x))$, which tells us that **$f(x)$ is the outer function**. 
+Given $f(x) = 2x^2 - 5$, we create a "Blank Space" by replacing every instance of the variable $x$ with parentheses. This creates a landing spot for our input:
 $$2(\quad)^2 - 5$$
 
 #### Step 2: Insert the Inner Function
-The inner function is $g(x) = 1 - 3x^2$. We plug this entire expression into the parentheses:
+The notation $f(g(x))$ tells us that **$g(x)$ is the inner function** acting as the input. 
+Given $g(x) = 1 - 3x^2$, we take this entire expression and "shove" it into the blank space we created in $f(x)$:
 $$2(1 - 3x^2)^2 - 5$$
 
 #### Step 3: Expand the Squared Term
-Following the order of operations, we must expand the exponent before distributing the $2$. We multiply $(1 - 3x^2)$ by itself:
-$$(1 - 3x^2)(1 - 3x^2) = 1(1) + 1(-3x^2) - 3x^2(1) - 3x^2(-3x^2)$$
-$$= 1 - 3x^2 - 3x^2 + 9x^4$$
+According to the order of operations (PEMDAS), we must handle the exponent before distributing. We expand $(1 - 3x^2)^2$ by multiplying the binomial by itself:
+$$(1 - 3x^2)(1 - 3x^2) = 1 - 3x^2 - 3x^2 + 9x^4$$
 $$= 1 - 6x^2 + 9x^4$$
 
 #### Step 4: Distribute and Combine Like Terms
-Now, substitute the expanded expression back into the main equation and distribute the $2$:
+Now, substitute the expanded expression back into the structure of $f(x)$ and distribute the coefficient $2$:
 $$2(1 - 6x^2 + 9x^4) - 5$$
 $$= 2 - 12x^2 + 18x^4 - 5$$
 
-Combine the constants ($2 - 5$) and arrange the terms in descending order (Standard Form):
+Finally, combine the constant terms ($2 - 5 = -3$) and arrange the polynomial in standard form (highest degree to lowest):
 $$18x^4 - 12x^2 - 3$$
 
 ---
