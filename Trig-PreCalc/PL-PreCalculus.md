@@ -9568,3 +9568,36 @@ The graph of the comparison function $g(x) = \frac{2(x+7)}{(x-3)(x+1)}$ looks li
 
 ## 2026-April-05 - Composition of Functions (Precalculus - College Algebra 48) : 
 https://www.youtube.com/watch?v=EsgHKmLSPVc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=50
+### Composition of Functions
+
+**Core Concept**
+Composition of functions occurs when one entire function is substituted into the variable of another function. Essentially, the output of the "inner" function becomes the input for the "outer" function.
+
+**Notation and Meaning**
+*   **Notation:** $(f \circ g)(x)$ or $f(g(x))$.
+*   **Pronunciation:** "f of g of x".
+*   **Mechanism:** In the expression $f(g(x))$, $g(x)$ is the inner function and $f(x)$ is the outer function. You "open up" the variable in $f$ and place the entire $g$ function inside that space.
+
+**The "Blank Space" Technique**
+1.  **Identify the Outer Function:** Look at the first function listed (e.g., $f$ in $f \circ g$).
+2.  **Create Blank Spaces:** Rewrite the outer function, replacing every instance of the variable $x$ with a set of parentheses $()$.
+3.  **Insert the Inner Function:** Place the entire expression for the second function (the inner function) into every set of parentheses.
+4.  **Simplify:** Follow the order of operations (PEMDAS), specifically handling exponents and distribution, to reach standard form.
+
+**Evaluation Methods**
+There are two primary ways to evaluate a composite function at a specific value, such as $(f \circ g)(1)$:
+*   **Method A (Algebraic First):** Find the composite expression $f(g(x))$ first, simplify it, and then plug in the value $1$.
+*   **Method B (Step-by-Step):** 
+    1. Evaluate the inner function first: find $g(1)$.
+    2. Use the result (the output of $g$) as the new input for the outer function $f$.
+    *This method is often easier if the simplified algebraic expression contains large exponents.*
+
+**Domain of Composite Functions**
+The domain of a composite function is not just the domain of the final resulting expression. It is a combination of two constraints:
+1.  The domain of the **inner function** (the function being plugged in).
+2.  The domain of the **resulting function** after simplification.
+*If both the inner and outer functions are polynomials, the domain is typically all real numbers ($-\infty, \infty$).*
+
+**Key Properties**
+*   **Non-Commutative:** In general, $f(g(x)) \neq g(f(x))$. The order of composition matters significantly.
+*   **Inverse Relationship:** If $(f \circ g)(x) = x$ and $(g \circ f)(x) = x$, then $f$ and $g$ are inverse functions. This is a primary test for mathematical inverses.
