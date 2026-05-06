@@ -9919,3 +9919,44 @@ The domain of a composite function is not just the domain of the final simplifie
 *   **"Baggage" Rule:** A function never loses the restrictions of its components. If a value was undefined at the start, it remains undefined in the composition.
 *   **Inverse Functions:** When $(f \circ g)(x) = x$ and $(g \circ f)(x) = x$, the functions are inverses. However, they are often only inverses over a specific restricted domain.
 *   **The "Blank Space" Method:** To avoid errors, write the outer function with empty parentheses for every $x$ before substituting the inner function.
+
+### Finding the Domain of $(f \circ g)(x)$
+
+To find the domain of the composite function $(f \circ g)(x)$ using the Leonard technique, we must consider the "baggage" of the inside function as well as the restrictions of the final simplified expression.
+
+---
+
+#### Step 1: Analyze the Individual Functions
+Before composing, we identify the restrictions for both functions:
+*   **Outer Function:** $f(x) = \frac{x}{x+3}$  
+    *Constraint: $x + 3 \neq 0 \implies x \neq -3$*
+*   **Inner Function:** $g(x) = \frac{2}{x}$  
+    *Constraint: $x \neq 0$*
+
+#### Step 2: Identify the Inside Domain
+In the composition $(f \circ g)(x)$, the function **$g(x)$ is the inside function**. Because every input must first pass through $g(x)$, the domain of our composition must immediately exclude any values that make $g(x)$ undefined.
+*   **Inside Restriction:** $x \neq 0$
+
+#### Step 3: Perform the Composition (The "Blank Space" Technique)
+We open up the outer function $f(x)$ and insert the inner function $g(x)$:
+$$f(g(x)) = \frac{(\quad)}{(\quad) + 3}$$
+Substitute $g(x) = \frac{2}{x}$ into the blanks:
+$$\frac{\frac{2}{x}}{\frac{2}{x} + 3}$$
+
+#### Step 4: Simplify the Expression
+To simplify this complex fraction, we multiply the entire numerator and denominator by the LCD, which is $x$:
+$$\frac{\frac{2}{x} \cdot (x)}{\left(\frac{2}{x} + 3\right) \cdot (x)} = \frac{2}{2 + 3x}$$
+
+#### Step 5: Identify the Resulting Domain
+Now we look at our simplified result, $\frac{2}{3x + 2}$, and check for new restrictions. The denominator cannot be zero:
+$$3x + 2 = 0$$
+$$3x = -2$$
+$$x = -\frac{2}{3}$$
+*   **Resulting Restriction:** $x \neq -\frac{2}{3}$
+
+#### Step 6: Combine for the Final Domain
+The final domain is the combination of the **inside function's restriction** and the **simplified function's restriction**. Even though $0$ looks like it could be plugged into the final version, it would have failed the very first step inside $g(x)$.
+
+**Final Domain:**
+*   **Set Notation:** $\{x \mid x \neq 0, x \neq -\frac{2}{3}\}$
+*   **Interval Notation:** $(-\infty, -\frac{2}{3}) \cup (-\frac{2}{3}, 0) \cup (0, \infty)$
