@@ -9822,3 +9822,77 @@ $$g(3) = -26$$
 **Final Result:**
 $$(g \circ f)(2) = -26$$
 
+### $(f \circ f)(-1)$
+
+$f(x) = 2x^2 -5$ 
+and
+$g(x) = 1-3x^2$
+
+To evaluate the composition of a function onto itself at a specific value, we run the input through the function once, then take that result and run it through the same function a second time.
+
+---
+
+#### Step 1: Identify the Order of Evaluation
+The notation $(f \circ f)(-1)$ is equivalent to $f(f(-1))$. 
+*   **Inner Function:** $f(x) = 2x^2 - 5$ (Evaluate this first with the input $-1$)
+*   **Outer Function:** $f(x) = 2x^2 - 5$ (Evaluate this second using the output from the first step)
+
+#### Step 2: Evaluate the Inner Function $f(-1)$
+Take the initial input $-1$ and plug it into $f(x)$. Using the "Blank Space" technique:
+$$f(-1) = 2(-1)^2 - 5$$
+$$f(-1) = 2(1) - 5$$
+$$f(-1) = 2 - 5$$
+$$f(-1) = -3$$
+
+The output of our inner function is **$-3$**.
+
+#### Step 3: Evaluate the Outer Function $f(-3)$
+Now, take the result from Step 2 and use it as the new input for the outer function $f(x)$. This represents $f(f(-1))$, which we now know is $f(-3)$.
+Using the "Blank Space" technique on $f(x) = 2x^2 - 5$ again:
+$$f(-3) = 2(-3)^2 - 5$$
+$$f(-3) = 2(9) - 5$$
+$$f(-3) = 18 - 5$$
+$$f(-3) = 13$$
+
+---
+
+**Final Result:**
+$$(f \circ f)(-1) = 13$$
+
+### $(g \circ g)(0)$
+
+$f(x) = 2x^2 -5$ 
+and
+$g(x) = 1-3x^2$
+
+To evaluate the composition of a function onto itself at a specific value, we run the input through the function once, then take that output and use it as the input for the function a second time.
+
+---
+
+#### Step 1: Identify the Order of Evaluation
+The notation $(g \circ g)(0)$ is equivalent to $g(g(0))$. 
+*   **Inner Function:** $g(x) = 1 - 3x^2$ (Evaluate this first with the input $0$)
+*   **Outer Function:** $g(x) = 1 - 3x^2$ (Evaluate this second using the output from the first step)
+
+#### Step 2: Evaluate the Inner Function $g(0)$
+Take the initial input $0$ and plug it into $g(x)$. Using the "Blank Space" technique:
+$$g(0) = 1 - 3(0)^2$$
+$$g(0) = 1 - 3(0)$$
+$$g(0) = 1 - 0$$
+$$g(0) = 1$$
+
+The output of our inner function is **$1$**.
+
+#### Step 3: Evaluate the Outer Function $g(1)$
+Now, take the result from Step 2 ($1$) and use it as the new input for the outer function $g(x)$. This represents $g(g(0))$, which we now know is $g(1)$.
+Using the "Blank Space" technique on $g(x) = 1 - 3x^2$ again:
+$$g(1) = 1 - 3(1)^2$$
+$$g(1) = 1 - 3(1)$$
+$$g(1) = 1 - 3$$
+$$g(1) = -2$$
+
+---
+
+**Final Result:**
+$$(g \circ g)(0) = -2$$
+
