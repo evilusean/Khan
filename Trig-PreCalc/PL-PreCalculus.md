@@ -10070,3 +10070,4 @@ We combine the restrictions from the inside function (Step 2) and the resulting 
 **Final Domain:**
 *   **Set Notation:** $\{x \mid x \in \mathbb{R}\}$
 *   **Interval Notation:** $(-\infty, \infty)$
+
