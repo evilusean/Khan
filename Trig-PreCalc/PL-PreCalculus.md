@@ -9959,4 +9959,41 @@ The final domain is the combination of the **inside function's restriction** and
 **Final Domain:**
 *   **Set Notation:** $\{x \mid x \neq 0, x \neq -\frac{2}{3}\}$
 *   **Interval Notation:** $(-\infty, -\frac{2}{3}) \cup (-\frac{2}{3}, 0) \cup (0, \infty)$
+### Finding the Domain of $(g \circ f)(x)$
+
+To find the domain of the composite function $(g \circ f)(x)$ using the Leonard technique, we evaluate the domain of the "inner" function first and then the domain of the resulting simplified expression.
+
+---
+
+#### Step 1: Analyze the Individual Functions
+We start by identifying the domain restrictions for both given functions:
+*   **Function 1:** $f(x) = \frac{x}{x+3}$
+    *Constraint: The denominator $x+3 \neq 0$, so $x \neq -3$.*
+*   **Function 2:** $g(x) = \frac{2}{x}$
+    *Constraint: The denominator $x \neq 0$.*
+
+#### Step 2: Identify the "Inside" Domain
+In the composition $(g \circ f)(x)$, **$f(x)$ is the inner function**. Any value that makes $f(x)$ undefined must be excluded from the domain of the composition immediately, as the input cannot even pass through the first "machine."
+*   **Inside Restriction:** $x \neq -3$
+
+#### Step 3: Perform the Composition
+We evaluate $g(f(x))$ by substituting the entire expression of $f(x)$ into the $x$ position of $g(x)$:
+$$g(f(x)) = \frac{2}{(\quad)}$$
+Insert $f(x) = \frac{x}{x+3}$:
+$$\frac{2}{\frac{x}{x+3}}$$
+
+#### Step 4: Simplify the Expression
+To simplify this complex fraction, we multiply the numerator by the reciprocal of the denominator:
+$$2 \cdot \frac{x+3}{x} = \frac{2(x+3)}{x} = \frac{2x+6}{x}$$
+
+#### Step 5: Identify the "Outside" Domain Restriction
+Now we look at the simplified result, $\frac{2x+6}{x}$. For this expression to be defined, the new denominator must not be zero.
+*   **Resulting Restriction:** $x \neq 0$
+
+#### Step 6: Combine Restrictions for the Final Domain
+The domain of the composition is the intersection of the restrictions found in Step 2 and Step 5. We must exclude $-3$ because it breaks the inner function, and we must exclude $0$ because it breaks the simplified outer function.
+
+**Final Domain:**
+*   **Set Notation:** $\{x \mid x \neq -3, x \neq 0\}$
+*   **Interval Notation:** $(-\infty, -3) \cup (-3, 0) \cup (0, \infty)$
 
