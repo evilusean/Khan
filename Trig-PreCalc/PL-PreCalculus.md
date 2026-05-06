@@ -9925,7 +9925,6 @@ The domain of a composite function is not just the domain of the final simplifie
 To find the domain of the composite function $(f \circ g)(x)$ using the Leonard technique, we must consider the "baggage" of the inside function as well as the restrictions of the final simplified expression.
 
 ---
-
 #### Step 1: Analyze the Individual Functions
 Before composing, we identify the restrictions for both functions:
 *   **Outer Function:** $f(x) = \frac{x}{x+3}$  
@@ -9960,3 +9959,4 @@ The final domain is the combination of the **inside function's restriction** and
 **Final Domain:**
 *   **Set Notation:** $\{x \mid x \neq 0, x \neq -\frac{2}{3}\}$
 *   **Interval Notation:** $(-\infty, -\frac{2}{3}) \cup (-\frac{2}{3}, 0) \cup (0, \infty)$
+
