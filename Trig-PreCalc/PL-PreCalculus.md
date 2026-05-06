@@ -9990,4 +9990,47 @@ The domain of the composition is the intersection of the restrictions found in S
 **Final Domain:**
 *   **Set Notation:** $\{x \mid x \neq -3, x \neq 0\}$
 *   **Interval Notation:** $(-\infty, -3) \cup (-3, 0) \cup (0, \infty)$
+### Finding the Domain of $(f \circ g)(x)$
 
+To find the domain of the composite function $(f \circ g)(x)$ using the Leonard technique, we must consider the restrictions of the "inside" function as well as any restrictions that emerge in the final simplified expression.
+
+---
+
+#### Step 1: Analyze the Individual Functions
+First, we identify the domain of each function independently to spot potential "baggage":
+*   **Outer Function:** $f(x) = x^2 + 1$
+    *   This is a polynomial. Polynomials have no square roots or denominators with variables.
+    *   **Domain:** All real numbers ($-\infty, \infty$).
+*   **Inner Function:** $g(x) = \sqrt{x-1}$
+    *   This is a square root function. The value inside (the radicand) must be non-negative.
+    *   $x - 1 \geq 0 \implies x \geq 1$.
+    *   **Domain:** $[1, \infty)$.
+
+#### Step 2: Identify the "Inside" Domain
+In the composition $(f \circ g)(x)$, the function **$g(x)$ is the inside function**. Because every input $x$ must first be processed by $g(x)$ before it can reach $f(x)$, the composition is restricted by $g$'s domain.
+*   **Inside Restriction:** $x \geq 1$
+
+#### Step 3: Perform the Composition
+Using the "Blank Space" technique, we open up $f(x)$ and insert $g(x)$:
+$$f(g(x)) = (\quad)^2 + 1$$
+Substitute $g(x) = \sqrt{x-1}$ into the blank:
+$$(\sqrt{x-1})^2 + 1$$
+
+#### Step 4: Simplify the Expression
+When we square a square root, the operations "undo" each other:
+$$(\sqrt{x-1})^2 + 1 = (x - 1) + 1 = x$$
+The simplified result is simply **$x$**.
+
+#### Step 5: Identify the Resulting Domain
+Now we look at the simplified result, $h(x) = x$. By itself, this expression has no restrictions (all real numbers). However, we cannot ignore Step 2.
+
+#### Step 6: Combine for the Final Domain
+Even though the simplified version ($x$) looks like it could accept any number, it only exists if the input was first able to pass through the inner function $\sqrt{x-1}$. Since we cannot take the square root of a negative number in the real number system, we must keep the restriction from Step 2.
+
+**Final Domain:**
+*   **Set Notation:** $\{x \mid x \geq 1\}$
+*   **Interval Notation:** $[1, \infty)$
+
+---
+
+**Note on Inverses:** Because $(f \circ g)(x) = x$, these two functions behave as inverses on this specific restricted domain ($x \geq 1$).
