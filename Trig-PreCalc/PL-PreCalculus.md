@@ -9897,3 +9897,4 @@ $$g(1) = -2$$
 $$(g \circ g)(0) = -2$$
 
 ## 2026-April-06 - Finding Domain of Composite Functions (Precalculus - College Algebra 49) :
+https://www.youtube.com/watch?v=G8r9oL-ke9s&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=50
