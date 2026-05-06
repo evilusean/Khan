@@ -9901,12 +9901,10 @@ https://www.youtube.com/watch?v=G8r9oL-ke9s&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 ### Finding Domain of Composite Functions
 
 This summary covers the process of determining the domain for a composition of functions $(f \circ g)(x)$, as explained by Professor Leonard.
-
 #### Core Concept: The "Two-Part" Domain Rule
 The domain of a composite function is not just the domain of the final simplified expression. It is a combination of two distinct constraints:
 1.  **The Inside Function:** The domain of the function being "plugged in" (e.g., $g(x)$ in $f(g(x))$).
 2.  **The Resulting Function:** The domain of the final, simplified composite expression.
-
 #### The Step-by-Step Process
 1.  **Identify the "Inside" Function:** In $f(g(x))$, $g(x)$ is the inside function.
 2.  **Find the Domain of the Inside Function:** Check for restrictions (denominators $\neq 0$, even roots $\geq 0$). Write this down immediately—it must be part of the final answer even if it "simplifies away" later.
@@ -9914,11 +9912,9 @@ The domain of a composite function is not just the domain of the final simplifie
 4.  **Simplify the Expression:** Use algebra (like multiplying by the LCD for complex fractions) to simplify.
 5.  **Find the Domain of the Simplified Result:** Check the new expression for any additional restrictions.
 6.  **Combine Constraints:** The final domain is the intersection of the constraints from Step 2 and Step 5.
-
 #### Example Cases
 *   **Rational Functions:** If $g(x) = \frac{2}{x}$, then $x \neq 0$ is a permanent restriction. If the final simplified $f(g(x))$ results in $\frac{2}{3x+2}$, you must also exclude $x = -\frac{2}{3}$. The combined domain excludes both values.
 *   **Radical Functions:** If $g(x) = \sqrt{x-1}$, the domain is $x \geq 1$. If $f(g(x))$ simplifies to just $x$ (indicating the functions are inverses), the domain remains $x \geq 1$ because the inside function cannot process values smaller than 1.
-
 #### Key Takeaways
 *   **"Baggage" Rule:** A function never loses the restrictions of its components. If a value was undefined at the start, it remains undefined in the composition.
 *   **Inverse Functions:** When $(f \circ g)(x) = x$ and $(g \circ f)(x) = x$, the functions are inverses. However, they are often only inverses over a specific restricted domain.
