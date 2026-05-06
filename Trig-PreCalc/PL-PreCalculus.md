@@ -10032,3 +10032,47 @@ Even though the simplified version ($x$) looks like it could accept any number, 
 
 **Note on Inverses:** Because $(f \circ g)(x) = x$, these two functions behave as inverses on this specific restricted domain ($x \geq 1$).
 
+### Finding the Domain of $(g \circ f)(x)$
+
+To find the domain of the composite function $(g \circ f)(x)$ using the Leonard technique, we look at the restrictions of the "inside" function and then the restrictions of the final composed expression.
+
+---
+
+#### Step 1: Analyze the Individual Functions
+We first establish the domain for each function independently to understand their natural limits:
+*   **Function 1:** $f(x) = x^2 + 1$
+    *   This is a polynomial. There are no denominators or even-indexed roots.
+    *   **Domain:** $(-\infty, \infty)$ (All real numbers).
+*   **Function 2:** $g(x) = \sqrt{x-1}$
+    *   This is a square root function. The radicand must be greater than or equal to zero.
+    *   $x - 1 \geq 0 \implies x \geq 1$.
+    *   **Domain:** $[1, \infty)$.
+
+#### Step 2: Identify the "Inside" Domain
+In the composition $(g \circ f)(x)$, **$f(x)$ is the inside function**. We must first ensure the input $x$ is valid for $f(x)$.
+*   Since $f(x)$ accepts all real numbers, there are **no initial restrictions** from the inside function.
+
+#### Step 3: Perform the Composition
+We evaluate $g(f(x))$ by substituting the expression for $f(x)$ into every $x$ in $g(x)$:
+$$g(f(x)) = \sqrt{(\quad) - 1}$$
+Substitute $f(x) = x^2 + 1$ into the blank:
+$$\sqrt{(x^2 + 1) - 1}$$
+
+#### Step 4: Simplify the Expression
+We simplify the expression inside the radical:
+$$\sqrt{x^2 + 1 - 1} = \sqrt{x^2}$$
+While $\sqrt{x^2}$ is equivalent to $|x|$, we look at the domain requirements of the expression **before** taking the absolute value to ensure it remains defined.
+
+#### Step 5: Identify the "Outside" Domain Restriction
+Now we look at our composed expression $\sqrt{x^2}$. For this to be defined in the real number system, the radicand ($x^2$) must be greater than or equal to zero:
+$$x^2 \geq 0$$
+Since any real number squared is always zero or positive, this inequality is true for **all real numbers**.
+
+#### Step 6: Combine for the Final Domain
+We combine the restrictions from the inside function (Step 2) and the resulting composition (Step 5). 
+1.  The inside function $f(x)$ allows all real numbers.
+2.  The resulting expression $\sqrt{x^2}$ allows all real numbers.
+
+**Final Domain:**
+*   **Set Notation:** $\{x \mid x \in \mathbb{R}\}$
+*   **Interval Notation:** $(-\infty, \infty)$
