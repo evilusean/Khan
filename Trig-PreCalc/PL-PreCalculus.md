@@ -10078,13 +10078,11 @@ https://www.youtube.com/watch?v=C0Q_m2UDerc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This summary covers the core concepts of "One-to-One" (1-1) functions, which are the prerequisite for a function to have an inverse.
 
 ---
-
 #### 1. Defining a One-to-One Function
 A function is **one-to-one** if every unique input ($x$) results in a unique output ($y$). 
 *   **Standard Function:** Every $x$ has exactly one $y$ (but multiple $x$'s can share the same $y$).
 *   **One-to-One Function:** Every $x$ has exactly one $y$, **AND** every $y$ comes from exactly one $x$.
     *   *Mathematical Definition:* If $f(x_1) = f(x_2)$, then $x_1 = x_2$.
-
 #### 2. The Horizontal Line Test (HLT)
 While the Vertical Line Test determines if a graph is a *function*, the **Horizontal Line Test** determines if a function is *one-to-one*.
 *   **The Rule:** If any horizontal line intersects the graph of a function more than once, the function is **not** one-to-one.
@@ -10096,18 +10094,16 @@ While the Vertical Line Test determines if a graph is a *function*, the **Horizo
 | **Quadratic** | $f(x) = x^2$ | No | A horizontal line hits both sides of the parabola ($y=4$ at $x=2$ and $x=-2$). |
 | **Cubic** | $f(x) = x^3$ | Yes | Always increasing; never "doubles back" on a $y$-value. |
 | **Absolute Value** | $f(x) = |x|$ | No | Forms a "V" shape; fails the HLT. |
-
 #### 3. Why One-to-One Matters: Inverses
 The primary reason we identify one-to-one functions is to determine if an **Inverse Function** ($f^{-1}$) exists.
 *   An inverse function "undoes" the original function. 
 *   If a function is NOT one-to-one (like $x^2$), the inverse would not be a function (it would provide two answers for one input, failing the Vertical Line Test).
 *   **Condition:** A function has an inverse if and only if it is one-to-one.
-
 #### 4. Increasing and Decreasing Functions
 A helpful shortcut mentioned by Professor Leonard:
 *   If a function is **strictly increasing** or **strictly decreasing** over its entire domain, it is guaranteed to be one-to-one.
 *   It never changes direction, so it can never repeat a $y$-value.
-
 #### 5. Restricting the Domain
 If a function is not one-to-one (like $f(x) = x^2$), we can **restrict the domain** to make it one-to-one.
 *   *Example:* By saying $f(x) = x^2$ for $x \geq 0$, we only look at the right side of the parabola. This "half" passes the Horizontal Line Test and therefore has an inverse (the principal square root).
+
