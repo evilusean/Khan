@@ -10071,3 +10071,4 @@ We combine the restrictions from the inside function (Step 2) and the resulting 
 *   **Set Notation:** $\{x \mid x \in \mathbb{R}\}$
 *   **Interval Notation:** $(-\infty, \infty)$
 
+## 2026-April-07 - One to One Functions (Precalculus - College Algebra 50) :
