@@ -10189,7 +10189,6 @@ The functions are verified as inverses.
 To find the inverse function $g^{-1}(x)$, we use the standard 4-step algebraic method. Since $g(x)$ is a cubic function, it is one-to-one and has a natural inverse.
 
 ---
-
 #### Step 1: Replace $g(x)$ with $y$
 Rewrite the function using $y$ for easier calculation.
 $$y = x^3 + 4$$
@@ -10210,7 +10209,6 @@ Write the final result using formal inverse notation.
 $$g^{-1}(x) = \sqrt[3]{x - 4}$$
 
 ---
-
 ### Verification (The Check)
 We can verify the result by composing the two functions. If they are truly inverses, $(g \circ g^{-1})(x)$ must equal $x$:
 
