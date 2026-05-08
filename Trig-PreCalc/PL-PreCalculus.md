@@ -10222,7 +10222,6 @@ The functions are successfully verified as inverses.
 To determine the inverse of $h(x)$, we must first consider whether the function is **one-to-one** (passes the Horizontal Line Test).
 
 ---
-
 #### Step 1: The One-to-One Check
 The function $h(x) = x^2 + 9$ is a parabola shifted up 9 units. Because it is a quadratic function with an unrestricted domain, it is **not one-to-one**.
 *   For example: $h(2) = (2)^2 + 9 = 13$ and $h(-2) = (-2)^2 + 9 = 13$.
@@ -10248,9 +10247,61 @@ Because of the $\pm$, the result is a relation, not a single function. If we res
 $$h^{-1}(x) = \sqrt{x - 9}$$
 
 ---
-
 ### Key Properties
 *   **Domain of $h(x)$:** $(-\infty, \infty)$
 *   **Range of $h(x)$:** $[9, \infty)$
 *   **Domain of $h^{-1}(x)$:** $[9, \infty)$ (The input $x$ must be 9 or greater to avoid a negative under the radical).
 *   **Range of $h^{-1}(x)$:** $[0, \infty)$ (If using the restricted domain).
+### Finding the Inverse of $f(x) = \frac{4}{2-x}$
+
+To find the inverse function $f^{-1}(x)$, we utilize the algebraic swapping method and then analyze the graphical behavior of both functions.
+
+---
+
+#### Step 1: Replace $f(x)$ with $y$
+$$y = \frac{4}{2-x}$$
+
+#### Step 2: Swap $x$ and $y$
+$$x = \frac{4}{2-y}$$
+
+#### Step 3: Solve for the new $y$
+1.  **Multiply by the denominator** to clear the fraction:
+    $$x(2 - y) = 4$$
+2.  **Divide by $x$**:
+    $$2 - y = \frac{4}{x}$$
+3.  **Isolate $y$**:
+    $$-y = \frac{4}{x} - 2$$
+4.  **Multiply by $-1$** to solve for positive $y$:
+    $$y = 2 - \frac{4}{x}$$
+    *Note: This can also be written as a single fraction: $y = \frac{2x - 4}{x}$.*
+
+#### Step 4: Replace $y$ with $f^{-1}(x)$
+$$f^{-1}(x) = 2 - \frac{4}{x}$$
+
+---
+
+### Graphical Analysis
+
+The graphs of $f(x)$ and $f^{-1}(x)$ are **rational functions** (hyperbolas). Because they are inverses, they are symmetric reflections of each other across the diagonal line $y = x$.
+
+#### The Original Function: $f(x) = \frac{4}{2-x}$
+*   **Vertical Asymptote:** $x = 2$ (where the denominator is zero).
+*   **Horizontal Asymptote:** $y = 0$ (the x-axis, as $x$ gets very large).
+*   **Intercepts:** $y$-intercept at $(0, 2)$. No $x$-intercepts.
+*   **Shape:** The graph is a hyperbola split into two branches by the vertical asymptote at $x=2$.
+
+#### The Inverse Function: $f^{-1}(x) = 2 - \frac{4}{x}$
+*   **Vertical Asymptote:** $x = 0$ (the y-axis).
+*   **Horizontal Asymptote:** $y = 2$.
+*   **Intercepts:** $x$-intercept at $(2, 0)$. No $y$-intercepts.
+*   **Shape:** This graph is also a hyperbola. Notice how the asymptotes and intercepts have swapped values compared to the original function:
+    *   $f(x)$ VA $x=2 \implies f^{-1}(x)$ HA $y=2$.
+    *   $f(x)$ HA $y=0 \implies f^{-1}(x)$ VA $x=0$.
+    *   $f(x)$ point $(0, 2) \implies f^{-1}(x)$ point $(2, 0)$.
+
+---
+
+### Verification
+$$(f \circ f^{-1})(x) = \frac{4}{2 - (2 - \frac{4}{x})}$$
+$$= \frac{4}{2 - 2 + \frac{4}{x}}$$
+$$= \frac{4}{\frac{4}{x}} = 4 \cdot \frac{x}{4} = x$$
