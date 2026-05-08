@@ -10108,3 +10108,48 @@ If a function is not one-to-one (like $f(x) = x^2$), we can **restrict the domai
 *   *Example:* By saying $f(x) = x^2$ for $x \geq 0$, we only look at the right side of the parabola. This "half" passes the Horizontal Line Test and therefore has an inverse (the principal square root).
 ## 2026-April-08 - Finding Inverse Functions (Precalculus - College Algebra 51) :
 https://www.youtube.com/watch?v=fK7IPeeZoFE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=52
+### Finding Inverse Functions
+
+This summary details the algebraic process and conceptual requirements for finding the inverse of a function, denoted as $f^{-1}(x)$.
+
+---
+
+#### 1. Prerequisite: The One-to-One Check
+Before attempting to find an inverse, you must ensure the function is **one-to-one**.
+*   If a function fails the Horizontal Line Test (like $f(x) = x^2$), it does not have an inverse function unless the domain is restricted.
+*   The inverse must also be a function, meaning each input must map to exactly one output.
+
+#### 2. The Relationship Between $f(x)$ and $f^{-1}(x)$
+The core concept of an inverse is that the **inputs and outputs swap roles**.
+*   **Domain of $f$** becomes the **Range of $f^{-1}$**.
+*   **Range of $f$** becomes the **Domain of $f^{-1}$**.
+*   On a graph, $f^{-1}(x)$ is a reflection of $f(x)$ across the line $y = x$.
+
+#### 3. The Algebraic Steps (The 4-Step Method)
+To find the inverse of a function algebraically, follow these consistent steps:
+
+1.  **Replace $f(x)$ with $y$:** This makes the algebra easier to manipulate.
+2.  **Swap $x$ and $y$:** This step represents the conceptual "inversion" where inputs and outputs switch.
+3.  **Solve for the new $y$:** Use algebraic operations to isolate $y$ on one side of the equation.
+4.  **Replace $y$ with $f^{-1}(x)$:** Use formal inverse notation for the final answer.
+
+#### 4. Example Walkthrough
+**Problem:** Find the inverse of $f(x) = \frac{2x - 3}{x + 4}$
+
+*   **Step 1:** $y = \frac{2x - 3}{x + 4}$
+*   **Step 2 (Swap):** $x = \frac{2y - 3}{y + 4}$
+*   **Step 3 (Solve for $y$):**
+    *   Multiply by denominator: $x(y + 4) = 2y - 3$
+    *   Distribute: $xy + 4x = 2y - 3$
+    *   Get all $y$ terms on one side: $xy - 2y = -4x - 3$
+    *   Factor out $y$: $y(x - 2) = -4x - 3$
+    *   Isolate $y$: $y = \frac{-4x - 3}{x - 2}$
+*   **Step 4:** $f^{-1}(x) = \frac{-4x - 3}{x - 2}$
+
+#### 5. Verifying the Inverse
+To mathematically prove that two functions are inverses, you must perform a **composition**. If they are truly inverses, they will "cancel" each other out, leaving only the original input $x$.
+*   **Test 1:** $(f \circ f^{-1})(x) = x$
+*   **Test 2:** $(f^{-1} \circ f)(x) = x$
+
+> [!IMPORTANT]
+> Both compositions must equal $x$ to confirm the inverse relationship. If you get any other result, they are not inverses or an algebraic error occurred.
