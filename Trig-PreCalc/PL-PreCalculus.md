@@ -10184,4 +10184,38 @@ $$= 1 - (1 - x)$$
 $$= 1 - 1 + x$$
 $$= x$$
 The functions are verified as inverses.
+### Finding the Inverse of $g(x) = x^3 + 4$
 
+To find the inverse function $g^{-1}(x)$, we use the standard 4-step algebraic method. Since $g(x)$ is a cubic function, it is one-to-one and has a natural inverse.
+
+---
+
+#### Step 1: Replace $g(x)$ with $y$
+Rewrite the function using $y$ for easier calculation.
+$$y = x^3 + 4$$
+
+#### Step 2: Swap $x$ and $y$
+Switch the input and output variables to represent the inverse relationship.
+$$x = y^3 + 4$$
+
+#### Step 3: Solve for the new $y$
+Isolate $y$ using inverse operations:
+1.  **Subtract 4** from both sides:
+    $$x - 4 = y^3$$
+2.  **Take the cube root** of both sides to undo the power of 3:
+    $$\sqrt[3]{x - 4} = y$$
+
+#### Step 4: Replace $y$ with $g^{-1}(x)$
+Write the final result using formal inverse notation.
+$$g^{-1}(x) = \sqrt[3]{x - 4}$$
+
+---
+
+### Verification (The Check)
+We can verify the result by composing the two functions. If they are truly inverses, $(g \circ g^{-1})(x)$ must equal $x$:
+
+$$(g \circ g^{-1})(x) = (\sqrt[3]{x - 4})^3 + 4$$
+$$= (x - 4) + 4$$
+$$= x$$
+
+The functions are successfully verified as inverses.
