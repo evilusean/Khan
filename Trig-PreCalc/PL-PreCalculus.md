@@ -10217,3 +10217,40 @@ $$= (x - 4) + 4$$
 $$= x$$
 
 The functions are successfully verified as inverses.
+### Finding the Inverse of $h(x) = x^2 + 9$
+
+To determine the inverse of $h(x)$, we must first consider whether the function is **one-to-one** (passes the Horizontal Line Test).
+
+---
+
+#### Step 1: The One-to-One Check
+The function $h(x) = x^2 + 9$ is a parabola shifted up 9 units. Because it is a quadratic function with an unrestricted domain, it is **not one-to-one**.
+*   For example: $h(2) = (2)^2 + 9 = 13$ and $h(-2) = (-2)^2 + 9 = 13$.
+*   Since two different inputs ($2$ and $-2$) lead to the same output ($13$), the function fails the Horizontal Line Test.
+
+> [!CAUTION]
+> Technically, $h(x) = x^2 + 9$ does not have an inverse **function** unless we restrict the domain (e.g., $x \geq 0$). However, we can still perform the algebraic steps to find the inverse relation.
+
+#### Step 2: Replace $h(x)$ with $y$
+$$y = x^2 + 9$$
+
+#### Step 3: Swap $x$ and $y$
+$$x = y^2 + 9$$
+
+#### Step 4: Solve for $y$
+1.  **Subtract 9** from both sides:
+    $$x - 9 = y^2$$
+2.  **Take the square root** of both sides:
+    $$y = \pm \sqrt{x - 9}$$
+
+#### Step 5: Replace $y$ with Inverse Notation
+Because of the $\pm$, the result is a relation, not a single function. If we restrict the original domain to $x \geq 0$, we choose the principal (positive) root:
+$$h^{-1}(x) = \sqrt{x - 9}$$
+
+---
+
+### Key Properties
+*   **Domain of $h(x)$:** $(-\infty, \infty)$
+*   **Range of $h(x)$:** $[9, \infty)$
+*   **Domain of $h^{-1}(x)$:** $[9, \infty)$ (The input $x$ must be 9 or greater to avoid a negative under the radical).
+*   **Range of $h^{-1}(x)$:** $[0, \infty)$ (If using the restricted domain).
