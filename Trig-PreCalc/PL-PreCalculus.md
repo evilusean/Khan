@@ -10154,7 +10154,6 @@ To mathematically prove that two functions are inverses, you must perform a **co
 To find the inverse function $f^{-1}(x)$, we use the 4-step algebraic method, which involves swapping the input and output variables.
 
 ---
-
 #### Step 1: Replace $f(x)$ with $y$
 Rewrite the function in terms of $y$ to make it easier to manipulate.
 $$y = 1 - 3x$$
@@ -10178,7 +10177,6 @@ Write the final result using proper inverse notation.
 $$f^{-1}(x) = \frac{1 - x}{3}$$
 
 ---
-
 ### Verification (The Check)
 To confirm this is the correct inverse, we can compose $f(x)$ with $f^{-1}(x)$. If they are inverses, the result must be $x$:
 $$(f \circ f^{-1})(x) = 1 - 3\left( \frac{1 - x}{3} \right)$$
@@ -10186,3 +10184,4 @@ $$= 1 - (1 - x)$$
 $$= 1 - 1 + x$$
 $$= x$$
 The functions are verified as inverses.
+
