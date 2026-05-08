@@ -10107,4 +10107,4 @@ A helpful shortcut mentioned by Professor Leonard:
 If a function is not one-to-one (like $f(x) = x^2$), we can **restrict the domain** to make it one-to-one.
 *   *Example:* By saying $f(x) = x^2$ for $x \geq 0$, we only look at the right side of the parabola. This "half" passes the Horizontal Line Test and therefore has an inverse (the principal square root).
 ## 2026-April-08 - Finding Inverse Functions (Precalculus - College Algebra 51) :
-
+https://www.youtube.com/watch?v=fK7IPeeZoFE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=52
