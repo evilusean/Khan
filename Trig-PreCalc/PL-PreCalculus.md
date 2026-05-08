@@ -10257,7 +10257,6 @@ $$h^{-1}(x) = \sqrt{x - 9}$$
 To find the inverse function $f^{-1}(x)$, we utilize the algebraic swapping method and then analyze the graphical behavior of both functions.
 
 ---
-
 #### Step 1: Replace $f(x)$ with $y$
 $$y = \frac{4}{2-x}$$
 
@@ -10279,17 +10278,14 @@ $$x = \frac{4}{2-y}$$
 $$f^{-1}(x) = 2 - \frac{4}{x}$$
 
 ---
-
 ### Graphical Analysis
 
 The graphs of $f(x)$ and $f^{-1}(x)$ are **rational functions** (hyperbolas). Because they are inverses, they are symmetric reflections of each other across the diagonal line $y = x$.
-
 #### The Original Function: $f(x) = \frac{4}{2-x}$
 *   **Vertical Asymptote:** $x = 2$ (where the denominator is zero).
 *   **Horizontal Asymptote:** $y = 0$ (the x-axis, as $x$ gets very large).
 *   **Intercepts:** $y$-intercept at $(0, 2)$. No $x$-intercepts.
 *   **Shape:** The graph is a hyperbola split into two branches by the vertical asymptote at $x=2$.
-
 #### The Inverse Function: $f^{-1}(x) = 2 - \frac{4}{x}$
 *   **Vertical Asymptote:** $x = 0$ (the y-axis).
 *   **Horizontal Asymptote:** $y = 2$.
@@ -10300,8 +10296,8 @@ The graphs of $f(x)$ and $f^{-1}(x)$ are **rational functions** (hyperbolas). Be
     *   $f(x)$ point $(0, 2) \implies f^{-1}(x)$ point $(2, 0)$.
 
 ---
-
 ### Verification
 $$(f \circ f^{-1})(x) = \frac{4}{2 - (2 - \frac{4}{x})}$$
 $$= \frac{4}{2 - 2 + \frac{4}{x}}$$
 $$= \frac{4}{\frac{4}{x}} = 4 \cdot \frac{x}{4} = x$$
+
