@@ -10149,3 +10149,40 @@ To mathematically prove that two functions are inverses, you must perform a **co
 > [!IMPORTANT]
 > Both compositions must equal $x$ to confirm the inverse relationship. If you get any other result, they are not inverses or an algebraic error occurred.
 
+### Finding the Inverse of $f(x) = 1 - 3x$
+
+To find the inverse function $f^{-1}(x)$, we use the 4-step algebraic method, which involves swapping the input and output variables.
+
+---
+
+#### Step 1: Replace $f(x)$ with $y$
+Rewrite the function in terms of $y$ to make it easier to manipulate.
+$$y = 1 - 3x$$
+
+#### Step 2: Swap $x$ and $y$
+This step represents the conceptual switch between the domain and the range.
+$$x = 1 - 3y$$
+
+#### Step 3: Solve for the new $y$
+Isolate $y$ using algebraic operations:
+1.  **Subtract 1** from both sides:
+    $$x - 1 = -3y$$
+2.  **Divide by -3** to isolate $y$:
+    $$y = \frac{x - 1}{-3}$$
+3.  **Simplify the signs** (optional but standard):
+    Multiply the numerator and denominator by $-1$:
+    $$y = \frac{-(x - 1)}{3} = \frac{-x + 1}{3} \quad \text{or} \quad y = \frac{1 - x}{3}$$
+
+#### Step 4: Replace $y$ with $f^{-1}(x)$
+Write the final result using proper inverse notation.
+$$f^{-1}(x) = \frac{1 - x}{3}$$
+
+---
+
+### Verification (The Check)
+To confirm this is the correct inverse, we can compose $f(x)$ with $f^{-1}(x)$. If they are inverses, the result must be $x$:
+$$(f \circ f^{-1})(x) = 1 - 3\left( \frac{1 - x}{3} \right)$$
+$$= 1 - (1 - x)$$
+$$= 1 - 1 + x$$
+$$= x$$
+The functions are verified as inverses.
