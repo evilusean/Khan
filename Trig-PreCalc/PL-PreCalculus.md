@@ -10457,3 +10457,4 @@ The graphs of these functions are more complex than simple linear or standard ra
 $$(f \circ f^{-1})(x) = \frac{\left(\sqrt{\frac{3}{3x - 1}}\right)^{2} + 3}{3\left(\sqrt{\frac{3}{3x - 1}}\right)^{2}}$$
 $$= \frac{\frac{3}{3x - 1} + 3}{3\left(\frac{3}{3x - 1}\right)} = \frac{\frac{3 + 3(3x - 1)}{3x - 1}}{\frac{9}{3x - 1}}$$
 $$= \frac{3 + 9x - 3}{9} = \frac{9x}{9} = x$$
+## 2026-May-09 - Graphs of Exponential Functions (Precalculus - College Algebra 52) : 
