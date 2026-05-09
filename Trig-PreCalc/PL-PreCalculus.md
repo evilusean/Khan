@@ -10459,3 +10459,45 @@ $$= \frac{\frac{3}{3x - 1} + 3}{3\left(\frac{3}{3x - 1}\right)} = \frac{\frac{3 
 $$= \frac{3 + 9x - 3}{9} = \frac{9x}{9} = x$$
 ## 2026-May-09 - Graphs of Exponential Functions (Precalculus - College Algebra 52) : 
 https://www.youtube.com/watch?v=2w14jBb0e9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=54
+### Graphs of Exponential Functions
+
+This summary explores the behavior, characteristics, and transformations of exponential functions, which take the general form $f(x) = b^x$.
+
+---
+
+#### 1. Defining the Exponential Function
+An exponential function is defined as $f(x) = b^x$, where the variable is in the exponent.
+*   **Base ($b$):** Must be a positive constant ($b > 0$) and cannot be 1 ($b \neq 1$).
+*   **Case 1: Exponential Growth ($b > 1$):** As $x$ increases, $y$ increases rapidly (e.g., $2^x, 5^x, e^x$).
+*   **Case 2: Exponential Decay ($0 < b < 1$):** As $x$ increases, $y$ decreases toward zero (e.g., $(\frac{1}{2})^x, 0.5^x$).
+
+#### 2. Key Characteristics of the Parent Graph ($b^x$)
+Regardless of the base (as long as it is growth), the basic graph share several features:
+*   **Horizontal Asymptote:** The x-axis ($y = 0$). The graph approaches but never touches this line.
+*   **y-intercept:** Always $(0, 1)$ because any non-zero base to the power of zero is 1 ($b^0 = 1$).
+*   **Domain:** $(-\infty, \infty)$ (All real numbers).
+*   **Range:** $(0, \infty)$ (Always positive).
+*   **Key Points:** $(0, 1)$, $(1, b)$, and $(-1, \frac{1}{b})$.
+
+#### 3. Transformations of Exponential Functions
+The general transformed equation is $f(x) = a \cdot b^{x-h} + k$.
+
+| Transformation | Effect on Graph |
+| :--- | :--- |
+| **Vertical Shift ($k$)** | Moves the graph up or down. **This changes the Horizontal Asymptote to $y = k$.** |
+| **Horizontal Shift ($h$)** | Moves the graph left ($+h$) or right ($-h$). |
+| **Vertical Stretch ($a$)** | Multiplies the $y$-values. If $a$ is negative, the graph reflects over the x-axis. |
+| **Negative Exponent ($-x$)** | Reflects the graph over the y-axis (turning Growth into Decay). |
+
+#### 4. The Natural Base ($e$)
+The number $e$ (Euler's number) is an irrational constant approximately equal to $2.71828$.
+*   It is used frequently in calculus and finance (continuous compounding).
+*   The graph of $f(x) = e^x$ is a standard growth curve situated between $2^x$ and $3^x$.
+
+#### 5. Comparison: Exponential vs. Polynomial
+*   **Polynomial ($x^2$):** The base varies, the exponent is constant.
+*   **Exponential ($2^x$):** The base is constant, the exponent varies.
+*   Exponential functions eventually grow much faster than any polynomial function.
+
+> [!TIP]
+> When graphing transformations, always plot the **Horizontal Asymptote** first. It serves as the new "floor" (or "ceiling") for your function.
