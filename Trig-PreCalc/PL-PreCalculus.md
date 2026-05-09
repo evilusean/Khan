@@ -10464,13 +10464,11 @@ https://www.youtube.com/watch?v=2w14jBb0e9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This summary explores the behavior, characteristics, and transformations of exponential functions, which take the general form $f(x) = b^x$.
 
 ---
-
 #### 1. Defining the Exponential Function
 An exponential function is defined as $f(x) = b^x$, where the variable is in the exponent.
 *   **Base ($b$):** Must be a positive constant ($b > 0$) and cannot be 1 ($b \neq 1$).
 *   **Case 1: Exponential Growth ($b > 1$):** As $x$ increases, $y$ increases rapidly (e.g., $2^x, 5^x, e^x$).
 *   **Case 2: Exponential Decay ($0 < b < 1$):** As $x$ increases, $y$ decreases toward zero (e.g., $(\frac{1}{2})^x, 0.5^x$).
-
 #### 2. Key Characteristics of the Parent Graph ($b^x$)
 Regardless of the base (as long as it is growth), the basic graph share several features:
 *   **Horizontal Asymptote:** The x-axis ($y = 0$). The graph approaches but never touches this line.
@@ -10478,7 +10476,6 @@ Regardless of the base (as long as it is growth), the basic graph share several 
 *   **Domain:** $(-\infty, \infty)$ (All real numbers).
 *   **Range:** $(0, \infty)$ (Always positive).
 *   **Key Points:** $(0, 1)$, $(1, b)$, and $(-1, \frac{1}{b})$.
-
 #### 3. Transformations of Exponential Functions
 The general transformed equation is $f(x) = a \cdot b^{x-h} + k$.
 
@@ -10493,11 +10490,9 @@ The general transformed equation is $f(x) = a \cdot b^{x-h} + k$.
 The number $e$ (Euler's number) is an irrational constant approximately equal to $2.71828$.
 *   It is used frequently in calculus and finance (continuous compounding).
 *   The graph of $f(x) = e^x$ is a standard growth curve situated between $2^x$ and $3^x$.
-
 #### 5. Comparison: Exponential vs. Polynomial
 *   **Polynomial ($x^2$):** The base varies, the exponent is constant.
 *   **Exponential ($2^x$):** The base is constant, the exponent varies.
 *   Exponential functions eventually grow much faster than any polynomial function.
-
 > [!TIP]
 > When graphing transformations, always plot the **Horizontal Asymptote** first. It serves as the new "floor" (or "ceiling") for your function.
