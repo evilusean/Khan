@@ -10177,7 +10177,7 @@ Write the final result using proper inverse notation.
 $$f^{-1}(x) = \frac{1 - x}{3}$$
 
 ---
-### Verification (The Check)
+#### Verification (The Check)
 To confirm this is the correct inverse, we can compose $f(x)$ with $f^{-1}(x)$. If they are inverses, the result must be $x$:
 $$(f \circ f^{-1})(x) = 1 - 3\left( \frac{1 - x}{3} \right)$$
 $$= 1 - (1 - x)$$
@@ -10209,7 +10209,7 @@ Write the final result using formal inverse notation.
 $$g^{-1}(x) = \sqrt[3]{x - 4}$$
 
 ---
-### Verification (The Check)
+#### Verification (The Check)
 We can verify the result by composing the two functions. If they are truly inverses, $(g \circ g^{-1})(x)$ must equal $x$:
 
 $$(g \circ g^{-1})(x) = (\sqrt[3]{x - 4})^3 + 4$$
@@ -10247,7 +10247,7 @@ Because of the $\pm$, the result is a relation, not a single function. If we res
 $$h^{-1}(x) = \sqrt{x - 9}$$
 
 ---
-### Key Properties
+#### Key Properties
 *   **Domain of $h(x)$:** $(-\infty, \infty)$
 *   **Range of $h(x)$:** $[9, \infty)$
 *   **Domain of $h^{-1}(x)$:** $[9, \infty)$ (The input $x$ must be 9 or greater to avoid a negative under the radical).
@@ -10278,7 +10278,7 @@ $$x = \frac{4}{2-y}$$
 $$f^{-1}(x) = 2 - \frac{4}{x}$$
 
 ---
-### Graphical Analysis
+#### Graphical Analysis
 
 The graphs of $f(x)$ and $f^{-1}(x)$ are **rational functions** (hyperbolas). Because they are inverses, they are symmetric reflections of each other across the diagonal line $y = x$.
 #### The Original Function: $f(x) = \frac{4}{2-x}$
@@ -10296,8 +10296,164 @@ The graphs of $f(x)$ and $f^{-1}(x)$ are **rational functions** (hyperbolas). Be
     *   $f(x)$ point $(0, 2) \implies f^{-1}(x)$ point $(2, 0)$.
 
 ---
-### Verification
+#### Verification
 $$(f \circ f^{-1})(x) = \frac{4}{2 - (2 - \frac{4}{x})}$$
 $$= \frac{4}{2 - 2 + \frac{4}{x}}$$
 $$= \frac{4}{\frac{4}{x}} = 4 \cdot \frac{x}{4} = x$$
+### Finding the Inverse of $g(x) = \frac{-2x}{x-1}$
 
+To find the inverse function $g^{-1}(x)$, we use the standard algebraic process of swapping the roles of $x$ and $y$.
+
+---
+
+#### Step 1: Replace $g(x)$ with $y$
+$$y = \frac{-2x}{x-1}$$
+
+#### Step 2: Swap $x$ and $y$
+$$x = \frac{-2y}{y-1}$$
+
+#### Step 3: Solve for the new $y$
+1.  **Clear the fraction** by multiplying both sides by $(y - 1)$:
+    $$x(y - 1) = -2y$$
+2.  **Distribute** the $x$:
+    $$xy - x = -2y$$
+3.  **Group all $y$ terms** on one side:
+    $$xy + 2y = x$$
+4.  **Factor out** $y$:
+    $$y(x + 2) = x$$
+5.  **Isolate $y$**:
+    $$y = \frac{x}{x + 2}$$
+
+#### Step 4: Replace $y$ with $g^{-1}(x)$
+$$g^{-1}(x) = \frac{x}{x + 2}$$
+
+---
+#### Graphical Analysis
+
+Both functions are **rational functions** (hyperbolas). As inverses, their graphs are reflections of each other across the identity line $y = x$.
+
+#### The Original Function: $g(x) = \frac{-2x}{x-1}$
+*   **Vertical Asymptote:** $x = 1$
+*   **Horizontal Asymptote:** $y = -2$ (determined by the ratio of the leading coefficients $\frac{-2}{1}$)
+*   **Intercepts:** Passes through the origin $(0, 0)$.
+
+#### The Inverse Function: $g^{-1}(x) = \frac{x}{x + 2}$
+*   **Vertical Asymptote:** $x = -2$
+*   **Horizontal Asymptote:** $y = 1$ (the ratio $\frac{1}{1}$)
+*   **Intercepts:** Passes through the origin $(0, 0)$.
+
+> [!NOTE]
+> Notice the **Symmetry of Asymptotes**:
+> *   The Vertical Asymptote of $g(x)$ ($x=1$) became the Horizontal Asymptote of $g^{-1}(x)$ ($y=1$).
+> *   The Horizontal Asymptote of $g(x)$ ($y=-2$) became the Vertical Asymptote of $g^{-1}(x)$ ($x=-2$).
+
+---
+#### Verification
+$$(g \circ g^{-1})(x) = \frac{-2\left(\frac{x}{x+2}\right)}{\left(\frac{x}{x+2}\right) - 1}$$
+Multiply the numerator and denominator by the LCD, $(x + 2)$:
+$$\frac{-2x}{x - (x + 2)} = \frac{-2x}{-2} = x$$
+The functions are verified as inverses.
+### Finding the Inverse of $h(x) = \frac{3x+4}{x-2}$
+
+To find the inverse function $h^{-1}(x)$, we follow the algebraic process of swapping the independent and dependent variables.
+
+---
+#### Step 1: Replace $h(x)$ with $y$
+$$y = \frac{3x+4}{x-2}$$
+
+#### Step 2: Swap $x$ and $y$
+$$x = \frac{3y+4}{y-2}$$
+
+#### Step 3: Solve for the new $y$
+1.  **Clear the fraction** by multiplying both sides by $(y - 2)$:
+    $$x(y - 2) = 3y + 4$$
+2.  **Distribute** $x$:
+    $$xy - 2x = 3y + 4$$
+3.  **Group all $y$ terms** on one side and constants on the other:
+    $$xy - 3y = 2x + 4$$
+4.  **Factor out** $y$:
+    $$y(x - 3) = 2x + 4$$
+5.  **Isolate $y$**:
+    $$y = \frac{2x + 4}{x - 3}$$
+
+#### Step 4: Replace $y$ with $h^{-1}(x)$
+$$h^{-1}(x) = \frac{2x + 4}{x - 3}$$
+
+---
+#### Graphical Analysis
+
+Both functions are hyperbolas. The inverse relationship is characterized by the swapping of domain and range, which manifests visually as a swap of the asymptotes.
+##### The Original Function: $h(x) = \frac{3x+4}{x-2}$
+*   **Vertical Asymptote:** $x = 2$
+*   **Horizontal Asymptote:** $y = 3$ (Ratio of leading coefficients $\frac{3}{1}$)
+*   **$x$-intercept:** Set $3x+4 = 0 \implies (-\frac{4}{3}, 0)$
+*   **$y$-intercept:** Set $x = 0 \implies (0, -2)$
+##### The Inverse Function: $h^{-1}(x) = \frac{2x+4}{x-3}$
+*   **Vertical Asymptote:** $x = 3$
+*   **Horizontal Asymptote:** $y = 2$ (Ratio of leading coefficients $\frac{2}{1}$)
+*   **$x$-intercept:** Set $2x+4 = 0 \implies (-2, 0)$
+*   **$y$-intercept:** Set $x = 0 \implies (0, -\frac{4}{3})$
+
+> [!NOTE]
+> **Symmetry Check:** 
+> The Vertical Asymptote of $h$ ($x=2$) is the Horizontal Asymptote of $h^{-1}$ ($y=2$).
+> The Horizontal Asymptote of $h$ ($y=3$) is the Vertical Asymptote of $h^{-1}$ ($x=3$).
+> The intercepts also swap coordinates: $(0, -2)$ becomes $(-2, 0)$ and $(-\frac{4}{3}, 0)$ becomes $(0, -\frac{4}{3})$.
+
+---
+#### Verification
+$$(h \circ h^{-1})(x) = \frac{3\left(\frac{2x+4}{x-3}\right)+4}{\left(\frac{2x+4}{x-3}\right)-2}$$
+Multiply numerator and denominator by $(x-3)$:
+$$\frac{3(2x+4) + 4(x-3)}{(2x+4) - 2(x-3)} = \frac{6x + 12 + 4x - 12}{2x + 4 - 2x + 6} = \frac{10x}{10} = x$$
+### Finding the Inverse of $f(x) = \frac{x^{2}+3}{3x^{2}}$
+
+To determine the inverse of this function, we must first note that $f(x)$ is an **even function** (the graph is symmetric across the y-axis because $x$ is squared). Consequently, it is not one-to-one over its entire domain. To find a functional inverse, we must restrict the domain, typically to $x > 0$.
+
+---
+#### Step 1: Replace $f(x)$ with $y$
+$$y = \frac{x^{2}+3}{3x^{2}}$$
+
+#### Step 2: Swap $x$ and $y$
+$$x = \frac{y^{2}+3}{3y^{2}}$$
+
+#### Step 3: Solve for the new $y$
+1.  **Clear the fraction** by multiplying by $3y^{2}$:
+    $$3xy^{2} = y^{2} + 3$$
+2.  **Move all $y^{2}$ terms** to one side:
+    $$3xy^{2} - y^{2} = 3$$
+3.  **Factor out** $y^{2}$:
+    $$y^{2}(3x - 1) = 3$$
+4.  **Isolate $y^{2}$**:
+    $$y^{2} = \frac{3}{3x - 1}$$
+5.  **Take the square root**:
+    $$y = \pm \sqrt{\frac{3}{3x - 1}}$$
+
+#### Step 4: Replace $y$ with $f^{-1}(x)$
+Assuming a restricted domain of $x > 0$ for the original function to make it one-to-one:
+$$f^{-1}(x) = \sqrt{\frac{3}{3x - 1}}$$
+
+---
+#### Graphical Analysis
+
+The graphs of these functions are more complex than simple linear or standard rational functions.
+##### The Original Function: $f(x) = \frac{x^{2}+3}{3x^{2}}$
+*   **Vertical Asymptote:** $x = 0$ (the y-axis).
+*   **Horizontal Asymptote:** $y = \frac{1}{3}$ (ratio of $x^{2}$ coefficients).
+*   **Symmetry:** Even function (symmetric across the y-axis).
+*   **Shape:** The graph resembles two "horns" reaching up toward infinity at $x=0$ and flattening out toward $y=1/3$ as $x \to \pm\infty$.
+##### The Inverse Function: $f^{-1}(x) = \sqrt{\frac{3}{3x - 1}}$
+*   **Vertical Asymptote:** $x = \frac{1}{3}$ (where $3x-1=0$).
+*   **Horizontal Asymptote:** $y = 0$ (as $x \to \infty$).
+*   **Domain:** $x > \frac{1}{3}$ (the value inside the root must be positive).
+*   **Shape:** The graph exists only to the right of $x = 1/3$. It starts high near the vertical asymptote and curves down toward the x-axis.
+
+> [!NOTE]
+> **Symmetry Check:**
+> The original function's Horizontal Asymptote ($y=1/3$) has become the inverse function's Vertical Asymptote ($x=1/3$).
+> The original function's Vertical Asymptote ($x=0$) has become the inverse function's Horizontal Asymptote ($y=0$).
+
+---
+#### Verification
+$$(f \circ f^{-1})(x) = \frac{\left(\sqrt{\frac{3}{3x - 1}}\right)^{2} + 3}{3\left(\sqrt{\frac{3}{3x - 1}}\right)^{2}}$$
+$$= \frac{\frac{3}{3x - 1} + 3}{3\left(\frac{3}{3x - 1}\right)} = \frac{\frac{3 + 3(3x - 1)}{3x - 1}}{\frac{9}{3x - 1}}$$
+$$= \frac{3 + 9x - 3}{9} = \frac{9x}{9} = x$$
