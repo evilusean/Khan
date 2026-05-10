@@ -10554,7 +10554,6 @@ To ensure accuracy in your Obsidian notes, always solve for intercepts:
 This analysis breaks down the behavior of the function by comparing it to its parent graph and identifying the specific shifts applied.
 
 ---
-
 #### 1. Identify the Parent Function
 The parent function is $y = 3^x$.
 *   **Type:** Exponential Growth (since the base $b=3$ is greater than 1).
@@ -10563,29 +10562,24 @@ The parent function is $y = 3^x$.
     *   $(-1, 1/3)$
     *   $(0, 1)$
     *   $(1, 3)$
-
 #### 2. Identify the Transformations
 The equation is in the form $f(x) = b^x + k$.
 *   **Vertical Shift:** The $-2$ at the end indicates a **shift down 2 units**.
 *   **Horizontal Shift:** None (the exponent is just $x$).
 *   **Reflections:** None (the base and the coefficient are positive).
-
 #### 3. Determine the New Horizontal Asymptote
 Since the entire graph shifted down 2 units, the "floor" of the function moves with it.
 *   **New Asymptote:** $y = -2$
-
 #### 4. Track the Transformed Key Points
 Subtract 2 from the $y$-values of the parent points:
 *   $(-1, 1/3)$ becomes **$(-1, -5/3)$** or approximately $(-1, -1.67)$
 *   $(0, 1)$ becomes **$(0, -1)$** (The new y-intercept)
 *   $(1, 3)$ becomes **$(1, 1)$**
-
 #### 5. Visual Description of the Graph
 *   **Direction:** The graph starts very close to the dashed horizontal line at $y = -2$ on the far left side.
 *   **Curvature:** It moves toward the right, passing through the y-axis at $(0, -1)$.
 *   **Growth:** As $x$ increases, the graph curves sharply upward, crossing the point $(1, 1)$ and continuing toward positive infinity.
 *   **Quadrant Placement:** The graph occupies parts of Quadrants I, III, and IV, but never goes below $y = -2$.
-
 #### 6. Domain and Range
 *   **Domain:** $(-\infty, \infty)$
 *   **Range:** $(-2, \infty)$
