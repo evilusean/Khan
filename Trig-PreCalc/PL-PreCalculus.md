@@ -10627,7 +10627,6 @@ We apply $(x - 3)$ to the x-coordinates and $(-y + 1)$ to the y-coordinates:
 This analysis follows the method of identifying the parent function and tracking how specific changes to the exponent affect the graph's position.
 
 ---
-
 #### 1. Parent Function Identification
 The parent function is $y = 2^x$.
 *   **Type:** Exponential Growth ($b=2$).
@@ -10636,17 +10635,14 @@ The parent function is $y = 2^x$.
     *   $(-1, 0.5)$
     *   $(0, 1)$
     *   $(1, 2)$
-
 #### 2. Sequence of Transformations
 The function is in the form $f(x) = b^{x-h} + k$.
 *   **Horizontal Shift:** The $+2$ inside the exponent indicates a shift **Left 2 units**.
 *   **Vertical Shift:** None ($k=0$).
 *   **Reflections:** None.
-
 #### 3. New Horizontal Asymptote (HA)
 Because there is no vertical shift ($k=0$), the horizontal asymptote remains unchanged.
 *   **New Asymptote:** $y = 0$
-
 #### 4. Tracking Point Transformations
 We apply the horizontal shift by subtracting 2 from each $x$-coordinate while keeping the $y$-coordinates the same:
 
@@ -10657,13 +10653,11 @@ We apply the horizontal shift by subtracting 2 from each $x$-coordinate while ke
 | $(1, 2)$ | $(1-2, 2)$ | **$(-1, 2)$** |
 
 *   **y-intercept:** Calculated by $f(0) = 2^{0+2} = 2^2 = 4$. The point is **$(0, 4)$**.
-
 #### 5. Visual Description of the Graph
 *   **Shape:** The graph maintains the standard "J-curve" shape of exponential growth.
 *   **Position:** The entire curve has been slid 2 units to the left. This makes the graph appear "steeper" as it crosses the y-axis compared to the parent function.
 *   **Left Side ($x \to -\infty$):** The graph approaches the x-axis ($y=0$) but never touches it.
 *   **Right Side ($x \to \infty$):** The graph rises rapidly toward positive infinity, passing through the y-intercept at $(0, 4)$.
-
 #### 6. Domain and Range
 *   **Domain:** $(-\infty, \infty)$
 *   **Range:** $(0, \infty)$
