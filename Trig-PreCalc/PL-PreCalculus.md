@@ -10499,3 +10499,59 @@ The number $e$ (Euler's number) is an irrational constant approximately equal to
 
 ## 2026-May-10 - Graphing Exponential Functions with Transformations (Precalculus -College Algebra 53) :
 https://www.youtube.com/watch?v=uycM-AzUDQ4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=55
+### Graphing Exponential Functions with Transformations
+
+This summary focuses on the practical application of transformations to exponential parent functions. The key to graphing these efficiently is tracking the "anchor" points and the horizontal asymptote.
+
+---
+
+#### 1. The General Transformation Formula
+The transformed exponential function is typically written as:
+$$f(x) = a \cdot b^{x-h} + k$$
+
+*   **$b$**: The base (determines the basic shape: growth if $b > 1$, decay if $0 < b < 1$).
+*   **$a$**: Vertical stretch/compression and reflection over the x-axis.
+*   **$h$**: Horizontal shift (Right if $x-h$, Left if $x+h$).
+*   **$k$**: Vertical shift. **This is the most critical value for the asymptote.**
+
+#### 2. Tracking the Horizontal Asymptote (HA)
+In the parent function $y = b^x$, the HA is always $y = 0$. 
+*   **The Rule:** The Horizontal Asymptote is always determined by the vertical shift ($k$).
+*   **Equation:** $y = k$
+*   *Action:* Always draw the dashed line for the HA first to provide a boundary for your curve.
+
+#### 3. The 3 Step-Graphing Method
+Professor Leonard emphasizes tracking how the transformations affect the "standard" coordinates of the parent function.
+
+##### Step A: Identify Parent Points
+For any base $b$, the three easiest points to track are:
+*   $(-1, 1/b)$
+*   $(0, 1)$
+*   $(1, b)$
+
+##### Step B: Apply Reflections and Stretches ($a$)
+If there is a coefficient $a$ in front of the base, multiply the $y$-coordinates of your parent points by $a$. If $a$ is negative, the graph flips upside down.
+
+##### Step C: Apply Shifts ($h, k$)
+*   **Horizontal ($h$):** Add or subtract from the $x$-values.
+*   **Vertical ($k$):** Add or subtract from the $y$-values. This shift also moves your HA.
+
+#### 4. Common Transformation Scenarios
+
+| Feature | $f(x) = 2^{x+3} - 4$ | $f(x) = -3^x + 2$ |
+| :--- | :--- | :--- |
+| **Base** | 2 (Growth) | 3 (Growth) |
+| **Reflections** | None | Over x-axis (Negative $a$) |
+| **Horizontal Shift** | Left 3 | None |
+| **Vertical Shift** | Down 4 | Up 2 |
+| **Asymptote** | $y = -4$ | $y = 2$ |
+
+#### 5. Finding the Intercepts Algebraically
+To ensure accuracy in your Obsidian notes, always solve for intercepts:
+*   **y-intercept:** Evaluate $f(0)$. This is often $(0, a \cdot b^{-h} + k)$.
+*   **x-intercept:** Set $f(x) = 0$ and solve for $x$ (this will eventually require logarithms if the bases cannot be made equal).
+
+> [!IMPORTANT]
+> **Domain and Range:** 
+> The **Domain** of an exponential function remains $(-\infty, \infty)$ regardless of transformations. 
+> The **Range** is restricted by the HA. If $a > 0$, the range is $(k, \infty)$. If $a < 0$, the range is $(-\infty, k)$.
