@@ -10583,3 +10583,48 @@ Subtract 2 from the $y$-values of the parent points:
 #### 6. Domain and Range
 *   **Domain:** $(-\infty, \infty)$
 *   **Range:** $(-2, \infty)$
+### Graphing $f(x) = 1 - 2^{x+3}$ with Transformations
+
+To properly analyze this function using the Leonard technique, we should look at it in the standard form: $f(x) = -2^{x+3} + 1$.
+
+---
+
+#### 1. Parent Function Identification
+The parent function is $y = 2^x$.
+*   **Type:** Exponential Growth ($b=2$).
+*   **Parent Asymptote:** $y = 0$.
+*   **Parent Key Points:** 
+    *   $(-1, 0.5)$
+    *   $(0, 1)$
+    *   $(1, 2)$
+
+#### 2. Sequence of Transformations
+Following the algebraic order of operations ($x$-transformations first, then $y$):
+1.  **Horizontal Shift:** The $(x+3)$ shifts the graph **Left 3 units**.
+2.  **Vertical Reflection:** The negative sign in front of the base reflects the graph **over the x-axis**.
+3.  **Vertical Shift:** The constant $+1$ shifts the graph **Up 1 unit**.
+
+#### 3. New Horizontal Asymptote (HA)
+The HA is determined solely by the vertical shift ($k$).
+*   **New Asymptote:** $y = 1$
+
+#### 4. Tracking Point Transformations
+We apply $(x - 3)$ to the x-coordinates and $(-y + 1)$ to the y-coordinates:
+
+| Parent $(x, y)$ | Applied Transformation | Transformed Point |
+| :--- | :--- | :--- |
+| $(-1, 0.5)$ | $(-1-3, -0.5+1)$ | **$(-4, 0.5)$** |
+| $(0, 1)$ | $(0-3, -1+1)$ | **$(-3, 0)$** |
+| $(1, 2)$ | $(1-3, -2+1)$ | **$(-2, -1)$** |
+
+*   **y-intercept:** Calculated by $f(0) = 1 - 2^{0+3} = 1 - 8 = -7$. The point is **$(0, -7)$**.
+
+#### 5. Visual Description of the Graph
+*   **Orientation:** Because of the x-axis reflection, the graph is "upside down" compared to a standard growth curve.
+*   **Left Side ($x \to -\infty$):** The graph stays very flat, hugging the bottom of the horizontal asymptote line at $y = 1$.
+*   **Right Side ($x \to \infty$):** After crossing the x-axis at $(-3, 0)$, the graph dives steeply downward, accelerating toward negative infinity.
+*   **Quadrant Path:** It begins in Quadrant II (below the asymptote), passes through Quadrant III, and crosses into Quadrant IV at its y-intercept.
+
+#### 6. Domain and Range
+*   **Domain:** $(-\infty, \infty)$
+*   **Range:** $(-\infty, 1)$
