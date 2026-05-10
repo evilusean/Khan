@@ -10496,3 +10496,5 @@ The number $e$ (Euler's number) is an irrational constant approximately equal to
 *   Exponential functions eventually grow much faster than any polynomial function.
 > [!TIP]
 > When graphing transformations, always plot the **Horizontal Asymptote** first. It serves as the new "floor" (or "ceiling") for your function.
+
+## 2026-May-10 - Graphing Exponential Functions with Transformations (Precalculus -College Algebra 53) :
