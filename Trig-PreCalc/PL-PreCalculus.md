@@ -10666,7 +10666,6 @@ We apply the horizontal shift by subtracting 2 from each $x$-coordinate while ke
 This breakdown follows the Leonard method by identifying the parent growth curve and applying reflections and vertical shifts to determine the final position of the hyperbola.
 
 ---
-
 #### 1. Parent Function Identification
 The parent function is $y = 3^x$.
 *   **Type:** Exponential Growth ($b=3$).
@@ -10675,17 +10674,14 @@ The parent function is $y = 3^x$.
     *   $(-1, 1/3)$
     *   $(0, 1)$
     *   $(1, 3)$
-
 #### 2. Sequence of Transformations
 The function is in the form $f(x) = -b^x + k$.
 *   **Vertical Reflection:** The negative sign in front of the base ($a = -1$) reflects the graph **over the x-axis**.
 *   **Vertical Shift:** The $+1$ indicates a shift **Up 1 unit**.
 *   **Horizontal Shift:** None.
-
 #### 3. New Horizontal Asymptote (HA)
 The horizontal asymptote is strictly defined by the vertical shift constant.
 *   **New Asymptote:** $y = 1$
-
 #### 4. Tracking Point Transformations
 We apply the reflection (multiply $y$ by $-1$) and then the vertical shift (add 1 to $y$) to the parent coordinates:
 
@@ -10694,13 +10690,11 @@ We apply the reflection (multiply $y$ by $-1$) and then the vertical shift (add 
 | $(-1, 1/3)$ | $(-1, -1/3 + 1)$ | **$(-1, 2/3)$** |
 | $(0, 1)$ | $(0, -1 + 1)$ | **$(0, 0)$** (Origin) |
 | $(1, 3)$ | $(1, -3 + 1)$ | **$(1, -2)$** |
-
 #### 5. Visual Description of the Graph
 *   **Orientation:** Due to the reflection, the graph is "inverted." Instead of curving upward to infinity, it curves downward.
 *   **Left Side ($x \to -\infty$):** The graph is very flat, hugging the underside of the horizontal asymptote at $y = 1$.
 *   **Right Side ($x \to \infty$):** After passing through the origin $(0, 0)$, the graph dives steeply into Quadrant IV, moving toward negative infinity.
 *   **Intercepts:** The graph passes exactly through the origin $(0, 0)$, serving as both the x and y-intercept.
-
 #### 6. Domain and Range
 *   **Domain:** $(-\infty, \infty)$
 *   **Range:** $(-\infty, 1)$ (All $y$-values must be below the asymptote).
