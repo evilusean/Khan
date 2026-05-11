@@ -10703,7 +10703,6 @@ We apply the reflection (multiply $y$ by $-1$) and then the vertical shift (add 
 This analysis applies the tracking method to an exponential decay function, identifying how a vertical stretch affects the parent points.
 
 ---
-
 #### 1. Parent Function Identification
 The parent function is $y = (\frac{1}{2})^x$.
 *   **Type:** Exponential Decay (since the base $0 < b < 1$).
@@ -10712,18 +10711,15 @@ The parent function is $y = (\frac{1}{2})^x$.
     *   $(-1, 2)$
     *   $(0, 1)$
     *   $(1, 0.5)$
-
 #### 2. Sequence of Transformations
 The function is in the form $f(x) = a \cdot b^x$.
 *   **Vertical Stretch:** The coefficient $a=3$ indicates a **vertical stretch by a factor of 3**. This means every $y$-value is tripled.
 *   **Horizontal Shift:** None.
 *   **Vertical Shift:** None.
 *   **Reflections:** None.
-
 #### 3. New Horizontal Asymptote (HA)
 Because there is no vertical shift ($k=0$), the horizontal asymptote does not move.
 *   **New Asymptote:** $y = 0$
-
 #### 4. Tracking Point Transformations
 We apply the vertical stretch by multiplying each $y$-coordinate by 3:
 
@@ -10739,7 +10735,7 @@ We apply the vertical stretch by multiplying each $y$-coordinate by 3:
 *   **Left Side ($x \to -\infty$):** The graph rises rapidly toward positive infinity.
 *   **Right Side ($x \to \infty$):** The graph flattens out, approaching the x-axis ($y=0$) but never reaching it.
 *   **Intercept:** The y-intercept has moved from $(0, 1)$ up to $(0, 3)$.
-
 #### 6. Domain and Range
 *   **Domain:** $(-\infty, \infty)$
 *   **Range:** $(0, \infty)$
+
