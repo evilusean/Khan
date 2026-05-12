@@ -10818,4 +10818,4 @@ We apply the transformations to the parent points. Note: For the $x$-reflection 
 *   **Domain:** $(-\infty, \infty)$
 *   **Range:** $(-\infty, 5)$
 ## 2026-May-12 - Solving Exponential Equations with Common Bases (Precalculus - College Algebra 54) :
-
+https://www.youtube.com/watch?v=gkUWLFontZU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=60
