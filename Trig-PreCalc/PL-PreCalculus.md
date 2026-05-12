@@ -10738,4 +10738,83 @@ We apply the vertical stretch by multiplying each $y$-coordinate by 3:
 #### 6. Domain and Range
 *   **Domain:** $(-\infty, \infty)$
 *   **Range:** $(0, \infty)$
+### Graphing $f(x) = e^{x+2}-1$ with Transformations
+
+This analysis tracks the natural exponential function $e^x$ through horizontal and vertical shifts to determine its final position on the coordinate plane.
+
+---
+#### 1. Parent Function Identification
+The parent function is $y = e^x$.
+*   **Type:** Exponential Growth ($e \approx 2.718$).
+*   **Parent Asymptote:** $y = 0$.
+*   **Parent Key Points:** 
+    *   $(-1, 1/e) \approx (-1, 0.37)$
+    *   $(0, 1)$
+    *   $(1, e) \approx (1, 2.72)$
+#### 2. Sequence of Transformations
+The function follows the form $f(x) = e^{x-h} + k$.
+*   **Horizontal Shift:** The $+2$ in the exponent indicates a shift **Left 2 units**.
+*   **Vertical Shift:** The $-1$ at the end indicates a shift **Down 1 unit**.
+*   **Reflections:** None.
+#### 3. New Horizontal Asymptote (HA)
+The HA follows the vertical shift ($k$).
+*   **New Asymptote:** $y = -1$
+#### 4. Tracking Point Transformations
+We subtract 2 from the $x$-coordinates and subtract 1 from the $y$-coordinates:
+
+| Parent $(x, y)$ | Applied Transformation $(x-2, y-1)$ | Transformed Point |
+| :--- | :--- | :--- |
+| $(-1, 0.37)$ | $(-1-2, 0.37-1)$ | **$(-3, -0.63)$** |
+| $(0, 1)$ | $(0-2, 1-1)$ | **$(-2, 0)$** (x-intercept) |
+| $(1, 2.72)$ | $(1-2, 2.72-1)$ | **$(-1, 1.72)$** |
+
+*   **y-intercept:** $f(0) = e^{0+2} - 1 = e^2 - 1 \approx 7.39 - 1 = 6.39$. The point is **$(0, 6.39)$**.
+#### 5. Visual Description of the Graph
+*   **Shape:** A standard exponential growth curve that has been shifted into the left quadrants and pulled down.
+*   **Left Side ($x \to -\infty$):** The graph flattens out horizontally, approaching the dashed line at $y = -1$ from above.
+*   **Right Side ($x \to \infty$):** The graph passes through the x-axis at $(-2, 0)$ and climbs rapidly through the y-intercept at $(0, 6.39)$, heading toward positive infinity.
+*   **Placement:** The graph exists in all four quadrants but remains strictly above the "floor" at $y = -1$.
+#### 6. Domain and Range
+*   **Domain:** $(-\infty, \infty)$
+*   **Range:** $(-1, \infty)$
+### Graphing $g(x) = 5 - 2e^{-x+1}$ with Transformations
+
+To apply the tracking technique effectively, we first rewrite the function in a more standard transformation form:  
+$g(x) = -2e^{-(x-1)} + 5$
+
+---
+#### 1. Parent Function Identification
+The parent function is $y = e^x$.
+*   **Type:** Exponential Growth ($e \approx 2.72$).
+*   **Parent Asymptote:** $y = 0$.
+*   **Parent Key Points:** 
+    *   $(-1, 1/e) \approx (-1, 0.37)$
+    *   $(0, 1)$
+    *   $(1, e) \approx (1, 2.72)$
+#### 2. Sequence of Transformations
+We track the changes from the "inside" out:
+1.  **Horizontal Shift:** The $(x-1)$ indicates a shift **Right 1 unit**.
+2.  **Horizontal Reflection:** The negative sign on the $x$ reflects the graph **over the y-axis** (turning growth into decay).
+3.  **Vertical Stretch & Reflection:** The $-2$ coefficient **stretches the graph by 2** and reflects it **over the x-axis**.
+4.  **Vertical Shift:** The $+5$ shifts the entire graph **Up 5 units**.
+#### 3. New Horizontal Asymptote (HA)
+The HA is determined by the vertical shift ($k$).
+*   **New Asymptote:** $y = 5$
+#### 4. Tracking Point Transformations
+We apply the transformations to the parent points. Note: For the $x$-reflection and shift, we use the logic $-(x-1) = -x + 1$.
+
+| Parent $(x, y)$ | $x \to -x+1$ | $y \to -2y+5$ | Final Transformed Point        |
+| :-------------- | :----------- | :------------ | :----------------------------- |
+| $(-1, 0.37)$    | $1+1 = 2$    | $-2(0.37)+5$  | **$(2, 4.26)$**                |
+| $(0, 1)$        | $0+1 = 1$    | $-2(1)+5$     | **$(1, 3)$**                   |
+| $(1, 2.72)$     | $-1+1 = 0$   | $-2(2.72)+5$  | **$(0, -0.44)$** (y-intercept) |
+
+#### 5. Visual Description of the Graph
+*   **Orientation:** Because of the double reflection (over both $x$ and $y$ axes), the graph looks like a growth curve that has been flipped upside down and mirrored.
+*   **Left Side ($x \to -\infty$):** The graph dives steeply downward toward negative infinity.
+*   **Right Side ($x \to \infty$):** The graph curves upward, passing through $(1, 3)$ and $(2, 4.26)$, eventually flattening out and approaching the horizontal asymptote at $y = 5$ from below.
+*   **Intercepts:** It crosses the y-axis at approximately $(0, -0.44)$.
+#### 6. Domain and Range
+*   **Domain:** $(-\infty, \infty)$
+*   **Range:** $(-\infty, 5)$
 
