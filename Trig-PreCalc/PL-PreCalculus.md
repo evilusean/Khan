@@ -10819,3 +10819,53 @@ We apply the transformations to the parent points. Note: For the $x$-reflection 
 *   **Range:** $(-\infty, 5)$
 ## 2026-May-12 - Solving Exponential Equations with Common Bases (Precalculus - College Algebra 54) :
 https://www.youtube.com/watch?v=gkUWLFontZU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=60
+### Solving Exponential Equations with Common Bases
+
+This summary covers the technique for solving exponential equations by utilizing the "One-to-One Property" of exponents. This method is used when both sides of an equation can be expressed using the same base.
+
+---
+
+#### 1. The One-to-One Property
+The core logic used in these problems is the One-to-One Property of exponential functions:
+> If $b^x = b^y$, then $x = y$ (where $b > 0$ and $b \neq 1$).
+
+This allows us to "drop" the bases once they are identical and solve the resulting algebraic equation formed by the exponents.
+
+#### 2. The General Procedure
+To solve these equations, follow these four steps:
+1.  **Identify a Common Base:** Look at the bases on both sides and determine if they are powers of the same number (e.g., 4 and 8 are both powers of 2).
+2.  **Rewrite Both Sides:** Express each side of the equation using that common base.
+3.  **Simplify Exponents:** Use the power-to-a-power rule: $(b^M)^N = b^{M \cdot N}$.
+4.  **Set Exponents Equal:** Once you have $b^{expression1} = b^{expression2}$, set $expression1 = expression2$ and solve for the variable.
+
+#### 3. Common Base Reference Table
+Recognizing powers quickly is essential for this technique:
+
+| Base | Powers to Recognize |
+| :--- | :--- |
+| **2** | $4, 8, 16, 32, 64, 128$ |
+| **3** | $9, 27, 81, 243$ |
+| **5** | $25, 125, 625$ |
+| **10**| $10, 100, 1000$ |
+
+#### 4. Handling Fractions and Roots
+If the equation involves fractions or radicals, use the following exponent rules to find the common base:
+*   **Fractions:** $\frac{1}{b^n} = b^{-n}$ (e.g., $\frac{1}{9} = 3^{-2}$)
+*   **Radicals:** $\sqrt[n]{b^m} = b^{m/n}$ (e.g., $\sqrt{5} = 5^{1/2}$)
+
+#### 5. Example Walkthrough
+Solve: $9^{x+1} = 27^{x-1}$
+
+1.  **Common Base:** Both 9 and 27 are powers of **3**.
+2.  **Rewrite:** $(3^2)^{x+1} = (3^3)^{x-1}$
+3.  **Simplify:** $3^{2(x+1)} = 3^{3(x-1)}$
+4.  **Solve Exponents:** 
+    $$2(x+1) = 3(x-1)$$
+    $$2x + 2 = 3x - 3$$
+    $$5 = x$$
+
+#### 6. When This Method Fails
+If the bases cannot be rewritten as powers of the same number (e.g., $2^x = 7$), this method cannot be used. In those cases, you must use **Logarithms** to pull the variable out of the exponent.
+
+> [!CAUTION]
+> **Distributive Property Warning:** When simplifying $(b^M)^N$, remember to distribute the $M$ to *every* term in $N$. A common error is writing $2(x+1)$ as $2x+1$ instead of $2x+2$.
