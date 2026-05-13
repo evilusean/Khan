@@ -10964,3 +10964,55 @@ The exponents match, confirming the solution is correct.
 
 > [!TIP]
 > **Fraction Rule:** Whenever you see a fraction where the denominator is a clean power of your base, immediately think of **negative exponents**. It is the only way to get the base out of the denominator and onto the same level as the other side.
+
+### Solving $9^{2x} \cdot 27^{x^2} = \frac{1}{3}$ Using Common Bases
+
+This problem involves multiple terms on the left side. Following the Leonard method, we must first find a common base for all terms, simplify using exponent rules, and then apply the One-to-One Property.
+
+---
+
+#### 1. Identify the Common Base
+Looking at 9, 27, and 3:
+*   $9 = 3^2$
+*   $27 = 3^3$
+*   $3 = 3^1$
+The common base is **3**.
+
+#### 2. Rewrite the Equation
+Substitute the base of 3 into every term. Use the negative exponent rule for the fraction: $\frac{1}{3} = 3^{-1}$.
+$$(3^2)^{2x} \cdot (3^3)^{x^2} = 3^{-1}$$
+
+#### 3. Simplify the Exponents
+Apply the power-to-a-power rule $(b^M)^N = b^{M \cdot N}$:
+$$3^{4x} \cdot 3^{3x^2} = 3^{-1}$$
+
+Next, use the **Product Rule** for exponents ($b^M \cdot b^N = b^{M+N}$) to combine the terms on the left side into a single base:
+$$3^{3x^2 + 4x} = 3^{-1}$$
+
+#### 4. Apply the One-to-One Property
+Now that the bases are identical, set the exponents equal to each other:
+$$3x^2 + 4x = -1$$
+
+#### 5. Solve the Resulting Quadratic Equation
+To solve for $x$, set the quadratic equation to zero:
+$$3x^2 + 4x + 1 = 0$$
+
+Using the factoring method (or the quadratic formula):
+1.  Find factors of $3 \cdot 1 = 3$ that add up to $4$. Those are $3$ and $1$.
+2.  Rewrite and factor by grouping:
+    $$3x^2 + 3x + 1x + 1 = 0$$
+    $$3x(x + 1) + 1(x + 1) = 0$$
+    $$(3x + 1)(x + 1) = 0$$
+
+**Solve for each factor:**
+*   $3x + 1 = 0 \implies \mathbf{x = -1/3}$
+*   $x + 1 = 0 \implies \mathbf{x = -1}$
+
+---
+
+#### 6. Summary of Solutions
+The equation $9^{2x} \cdot 27^{x^2} = \frac{1}{3}$ has two solutions:
+$$x = -\frac{1}{3}, -1$$
+
+> [!IMPORTANT]
+> **Order of Operations:** You must combine the bases on the left side into a **single** term using the Product Rule *before* you can drop the bases. You cannot set exponents equal while there are still multiple bases being multiplied.
