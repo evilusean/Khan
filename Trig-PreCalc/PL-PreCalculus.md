@@ -10970,29 +10970,24 @@ The exponents match, confirming the solution is correct.
 This problem involves multiple terms on the left side. Following the Leonard method, we must first find a common base for all terms, simplify using exponent rules, and then apply the One-to-One Property.
 
 ---
-
 #### 1. Identify the Common Base
 Looking at 9, 27, and 3:
 *   $9 = 3^2$
 *   $27 = 3^3$
 *   $3 = 3^1$
 The common base is **3**.
-
 #### 2. Rewrite the Equation
 Substitute the base of 3 into every term. Use the negative exponent rule for the fraction: $\frac{1}{3} = 3^{-1}$.
 $$(3^2)^{2x} \cdot (3^3)^{x^2} = 3^{-1}$$
-
 #### 3. Simplify the Exponents
 Apply the power-to-a-power rule $(b^M)^N = b^{M \cdot N}$:
 $$3^{4x} \cdot 3^{3x^2} = 3^{-1}$$
 
 Next, use the **Product Rule** for exponents ($b^M \cdot b^N = b^{M+N}$) to combine the terms on the left side into a single base:
 $$3^{3x^2 + 4x} = 3^{-1}$$
-
 #### 4. Apply the One-to-One Property
 Now that the bases are identical, set the exponents equal to each other:
 $$3x^2 + 4x = -1$$
-
 #### 5. Solve the Resulting Quadratic Equation
 To solve for $x$, set the quadratic equation to zero:
 $$3x^2 + 4x + 1 = 0$$
@@ -11003,13 +10998,11 @@ Using the factoring method (or the quadratic formula):
     $$3x^2 + 3x + 1x + 1 = 0$$
     $$3x(x + 1) + 1(x + 1) = 0$$
     $$(3x + 1)(x + 1) = 0$$
-
 **Solve for each factor:**
 *   $3x + 1 = 0 \implies \mathbf{x = -1/3}$
 *   $x + 1 = 0 \implies \mathbf{x = -1}$
 
 ---
-
 #### 6. Summary of Solutions
 The equation $9^{2x} \cdot 27^{x^2} = \frac{1}{3}$ has two solutions:
 $$x = -\frac{1}{3}, -1$$
