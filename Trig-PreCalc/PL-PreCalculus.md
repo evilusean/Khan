@@ -10897,25 +10897,20 @@ $$16 = 16 \quad \checkmark$$
 This solution follows the step-by-step process of identifying a common base and applying the One-to-One Property of exponents.
 
 ---
-
 #### 1. Identify the Common Base
 We examine the bases on both sides of the equation, which are **2** and **4**. 
 *   The number 4 can be rewritten as a power of 2 ($4 = 2^2$).
 *   Therefore, the common base is **2**.
-
 #### 2. Rewrite the Equation
 Substitute $2^2$ in place of the 4. Use parentheses to ensure the exponent is handled correctly.
 $$2^{2x-1} = (2^2)^{3x+1}$$
-
 #### 3. Simplify the Exponents
 Use the power-to-a-power rule, which states $(b^M)^N = b^{M \cdot N}$. We must distribute the 2 to both terms in the exponent $(3x + 1)$.
 $$2^{2x-1} = 2^{2(3x+1)}$$
 $$2^{2x-1} = 2^{6x+2}$$
-
 #### 4. Apply the One-to-One Property
 Now that the bases are identical, we set the exponents equal to each other:
 $$2x - 1 = 6x + 2$$
-
 #### 5. Solve for $x$
 1.  **Group the $x$ terms:** Subtract $2x$ from both sides.
     $$-1 = 4x + 2$$
@@ -10923,9 +10918,7 @@ $$2x - 1 = 6x + 2$$
     $$-3 = 4x$$
 3.  **Final Division:**
     $$x = -\frac{3}{4}$$
-
 ---
-
 #### 6. Verification
 Checking the exponents by substituting $x = -0.75$:
 *   **Left Exponent:** $2(-0.75) - 1 = -1.5 - 1 = -2.5$
