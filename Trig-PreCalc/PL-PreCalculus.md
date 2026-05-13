@@ -11009,3 +11009,48 @@ $$x = -\frac{1}{3}, -1$$
 
 > [!IMPORTANT]
 > **Order of Operations:** You must combine the bases on the left side into a **single** term using the Product Rule *before* you can drop the bases. You cannot set exponents equal while there are still multiple bases being multiplied.
+
+### Solving $3^{x^2} \cdot \frac{1}{3^7} = 27^{2x}$ Using Common Bases
+
+This problem requires consolidating the left side into a single base using division and product rules before setting the exponents equal to the right side.
+
+---
+
+#### 1. Identify the Common Base
+Scanning the terms 3 and 27:
+*   The left side already utilizes the base **3**.
+*   $27 = 3^3$.
+The common base for the entire equation is **3**.
+
+#### 2. Rewrite the Equation
+Express all terms with the base of 3. Use the negative exponent rule for the fraction: $\frac{1}{3^7} = 3^{-7}$.
+$$3^{x^2} \cdot 3^{-7} = (3^3)^{2x}$$
+
+#### 3. Simplify the Exponents
+Apply the **Product Rule** ($b^M \cdot b^N = b^{M+N}$) to the left side and the **Power Rule** ($(b^M)^N = b^{M \cdot N}$) to the right side:
+$$3^{x^2 - 7} = 3^{6x}$$
+
+#### 4. Apply the One-to-One Property
+Since the bases are now identical and isolated on each side, we set the exponents equal to each other:
+$$x^2 - 7 = 6x$$
+
+#### 5. Solve the Resulting Quadratic Equation
+Move all terms to one side to set the equation to zero:
+$$x^2 - 6x - 7 = 0$$
+
+Factor the quadratic by finding two numbers that multiply to $-7$ and add to $-6$:
+*   The factors are $-7$ and $+1$.
+$$(x - 7)(x + 1) = 0$$
+
+**Solve for each factor:**
+*   $x - 7 = 0 \implies \mathbf{x = 7}$
+*   $x + 1 = 0 \implies \mathbf{x = -1}$
+
+---
+
+#### 6. Summary of Solutions
+The equation $3^{x^2} \cdot \frac{1}{3^7} = 27^{2x}$ has two valid solutions:
+$$x = 7, -1$$
+
+> [!NOTE]
+> **Refining the Left Side:** It is often easier to treat the fraction $\frac{1}{3^7}$ as a negative exponent ($3^{-7}$) and then add it to the other exponent on the left. This keeps everything on one line and prevents the need for a quotient step later.
