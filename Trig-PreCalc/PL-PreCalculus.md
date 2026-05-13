@@ -10863,3 +10863,36 @@ If the bases cannot be rewritten as powers of the same number (e.g., $2^x = 7$),
 > [!CAUTION]
 > **Distributive Property Warning:** When simplifying $(b^M)^N$, remember to distribute the $M$ to *every* term in $N$. A common error is writing $2(x+1)$ as $2x+1$ instead of $2x+2$.
 
+### Solving $2^{-x} = 16$ Using Common Bases
+
+Following the method demonstrated by Professor Leonard, we utilize the One-to-One Property of exponential functions to solve for the variable without the need for logarithms.
+
+---
+
+#### 1. Identify the Common Base
+We look at both sides of the equation ($2$ and $16$) and determine if they can be written as powers of the same prime number.
+*   The left side already has a base of **2**.
+*   The right side, $16$, is a power of 2 ($2 \cdot 2 \cdot 2 \cdot 2 = 16$).
+
+#### 2. Rewrite the Equation
+Express both sides with the base of **2**:
+$$2^{-x} = 2^4$$
+
+#### 3. Apply the One-to-One Property
+Since the bases are now identical ($b^M = b^N$), we can set the exponents equal to one another:
+$$-x = 4$$
+
+#### 4. Solve for $x$
+Multiply or divide both sides by $-1$ to isolate the variable:
+$$x = -4$$
+
+---
+
+#### 5. Verification
+Plug the result back into the original equation to ensure the statement is true:
+$$2^{-(-4)} = 16$$
+$$2^4 = 16$$
+$$16 = 16 \quad \checkmark$$
+
+> [!NOTE]
+> **Key Takeaway:** Always check if the larger number is a clean power of the smaller base. If the right side had been a fraction like $1/16$, we would have rewritten it as $2^{-4}$ before setting the exponents equal.
