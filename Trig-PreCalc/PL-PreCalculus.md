@@ -10927,3 +10927,47 @@ Since the exponents match when the bases are the same, the solution is correct.
 
 > [!CAUTION]
 > **Common Error:** Forgetting to distribute the new base's exponent. When rewriting $4^{3x+1}$ as $2^{2(3x+1)}$, ensure the 2 multiplies both the $3x$ and the $1$.
+### Solving $25^{x+3} = \frac{1}{125}$ Using Common Bases
+
+This solution follows the Leonard method of utilizing negative exponents to handle fractions and the One-to-One Property to solve for the variable.
+
+---
+
+#### 1. Identify the Common Base
+We look at the bases 25 and 125.
+*   25 is a power of 5 ($5^2$).
+*   125 is a power of 5 ($5^3$).
+*   Therefore, the common base for both sides is **5**.
+
+#### 2. Rewrite the Equation
+We must express both sides using the base of 5. For the fraction, we use the negative exponent rule: $\frac{1}{b^n} = b^{-n}$.
+*   Left side: $(5^2)^{x+3}$
+*   Right side: $\frac{1}{5^3} = 5^{-3}$
+
+$$ (5^2)^{x+3} = 5^{-3} $$
+
+#### 3. Simplify the Exponents
+Apply the power-to-a-power rule on the left side by distributing the 2 to both terms in the exponent $(x + 3)$.
+$$ 5^{2(x+3)} = 5^{-3} $$
+$$ 5^{2x+6} = 5^{-3} $$
+
+#### 4. Apply the One-to-One Property
+Since the bases are now identical, we set the exponents equal to each other:
+$$ 2x + 6 = -3 $$
+
+#### 5. Solve for $x$
+1.  **Isolate the $x$ term:** Subtract 6 from both sides.
+    $$ 2x = -9 $$
+2.  **Final Division:**
+    $$ x = -\frac{9}{2} \text{ or } -4.5 $$
+
+---
+
+#### 6. Verification
+Plug the result back into the simplified exponent form:
+*   Left side: $2(-4.5) + 6 = -9 + 6 = -3$
+*   Right side: $-3$
+The exponents match, confirming the solution is correct.
+
+> [!TIP]
+> **Fraction Rule:** Whenever you see a fraction where the denominator is a clean power of your base, immediately think of **negative exponents**. It is the only way to get the base out of the denominator and onto the same level as the other side.
