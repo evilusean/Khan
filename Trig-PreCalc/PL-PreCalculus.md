@@ -11015,25 +11015,20 @@ $$x = -\frac{1}{3}, -1$$
 This problem requires consolidating the left side into a single base using division and product rules before setting the exponents equal to the right side.
 
 ---
-
 #### 1. Identify the Common Base
 Scanning the terms 3 and 27:
 *   The left side already utilizes the base **3**.
 *   $27 = 3^3$.
 The common base for the entire equation is **3**.
-
 #### 2. Rewrite the Equation
 Express all terms with the base of 3. Use the negative exponent rule for the fraction: $\frac{1}{3^7} = 3^{-7}$.
 $$3^{x^2} \cdot 3^{-7} = (3^3)^{2x}$$
-
 #### 3. Simplify the Exponents
 Apply the **Product Rule** ($b^M \cdot b^N = b^{M+N}$) to the left side and the **Power Rule** ($(b^M)^N = b^{M \cdot N}$) to the right side:
 $$3^{x^2 - 7} = 3^{6x}$$
-
 #### 4. Apply the One-to-One Property
 Since the bases are now identical and isolated on each side, we set the exponents equal to each other:
 $$x^2 - 7 = 6x$$
-
 #### 5. Solve the Resulting Quadratic Equation
 Move all terms to one side to set the equation to zero:
 $$x^2 - 6x - 7 = 0$$
@@ -11041,16 +11036,51 @@ $$x^2 - 6x - 7 = 0$$
 Factor the quadratic by finding two numbers that multiply to $-7$ and add to $-6$:
 *   The factors are $-7$ and $+1$.
 $$(x - 7)(x + 1) = 0$$
-
 **Solve for each factor:**
 *   $x - 7 = 0 \implies \mathbf{x = 7}$
 *   $x + 1 = 0 \implies \mathbf{x = -1}$
-
 ---
-
 #### 6. Summary of Solutions
 The equation $3^{x^2} \cdot \frac{1}{3^7} = 27^{2x}$ has two valid solutions:
 $$x = 7, -1$$
 
 > [!NOTE]
 > **Refining the Left Side:** It is often easier to treat the fraction $\frac{1}{3^7}$ as a negative exponent ($3^{-7}$) and then add it to the other exponent on the left. This keeps everything on one line and prevents the need for a quotient step later.
+
+### Solving $e^{x^2} = e^{3x} \cdot \frac{1}{e^2}$ Using Common Bases
+
+This problem features the natural base $e$. Following the Leonard method, we simplify the right side of the equation into a single base before applying the One-to-One Property.
+
+---
+#### 1. Identify the Common Base
+All terms in the equation are already expressed in terms of the natural base **$e$**.
+*   Base: $e \approx 2.718$
+#### 2. Rewrite the Equation
+Express the fraction on the right side using a negative exponent so that all terms are on the same level:
+$$e^{x^2} = e^{3x} \cdot e^{-2}$$
+#### 3. Simplify the Exponents
+Use the **Product Rule** for exponents ($b^M \cdot b^N = b^{M+N}$) to combine the terms on the right side:
+$$e^{x^2} = e^{3x - 2}$$
+#### 4. Apply the One-to-One Property
+Since the bases are identical and isolated on each side, we drop the bases and set the exponents equal:
+$$x^2 = 3x - 2$$
+#### 5. Solve the Resulting Quadratic Equation
+Move all terms to the left side to set the equation to zero:
+$$x^2 - 3x + 2 = 0$$
+
+Factor the quadratic by finding two numbers that multiply to $+2$ and add to $-3$:
+*   The factors are $-2$ and $-1$.
+$$(x - 2)(x - 1) = 0$$
+
+**Solve for each factor:**
+*   $x - 2 = 0 \implies \mathbf{x = 2}$
+*   $x - 1 = 0 \implies \mathbf{x = 1}$
+
+---
+#### 6. Summary of Solutions
+The equation $e^{x^2} = e^{3x} \cdot \frac{1}{e^2}$ has two solutions:
+$$x = 2, 1$$
+
+> [!TIP]
+> **Working with $e$:** Treat $e$ exactly like any other numerical base (like 2 or 3). The same rules for multiplication, division, and powers apply. Don't let the irrational nature of $e$ distract you from the algebraic steps.
+
