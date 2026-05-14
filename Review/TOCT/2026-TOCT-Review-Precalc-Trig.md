@@ -1217,3 +1217,5 @@ Set the simplified function equal to the H.A. or O.A. value to see if the graph 
 #### 7. Sketch the Graph
 Start with the asymptotes (the skeleton), plot your intercepts and holes, and use the multiplicity rules to connect the branches.
 
+### Introduction to Logarithms and Their Graphs (Precalculus - College Algebra 55) :
+https://www.youtube.com/watch?v=jfnTwz79PWU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=58
