@@ -11084,5 +11084,5 @@ $$x = 2, 1$$
 > [!TIP]
 > **Working with $e$:** Treat $e$ exactly like any other numerical base (like 2 or 3). The same rules for multiplication, division, and powers apply. Don't let the irrational nature of $e$ distract you from the algebraic steps.
 
-## 2026-May-13 - Introduction to Logarithms and Their Graphs (Precalculus - College Algebra 55) :
+## 2026-May-14 - Introduction to Logarithms and Their Graphs (Precalculus - College Algebra 55) :
 https://www.youtube.com/watch?v=jfnTwz79PWU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=58
