@@ -11091,7 +11091,6 @@ https://www.youtube.com/watch?v=jfnTwz79PWU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This summary covers the definition of logarithms as inverse functions of exponentials and how to interpret, evaluate, and graph them using the Leonard technique.
 
 ---
-
 #### 1. Definition of a Logarithm
 A logarithm is the **inverse** of an exponential function. It answers the question: "To what power must we raise the base to get this number?"
 
@@ -11102,13 +11101,11 @@ A logarithm is the **inverse** of an exponential function. It answers the questi
 *   **$b$** is the **Base**.
 *   **$y$** is the **Exponent**.
 *   **$x$** is the **Argument** (or result).
-
 #### 2. Logarithmic Forms and Bases
 *   **Common Logarithm:** If no base is written, it is assumed to be base 10.
     *   $\log(x) = \log_{10}(x)$
 *   **Natural Logarithm:** Logarithms using the natural base $e$ are written as $ln$.
     *   $\ln(x) = \log_e(x)$
-
 #### 3. Evaluating Logarithms (The "Think" Method)
 To evaluate $\log_2(8)$, convert it to its exponential heart:
 1.  **Question:** $2$ to what power gives me $8$?
@@ -11125,7 +11122,6 @@ Because logarithms are inverses of exponentials, their graphs are reflections ac
     *   $(1, 0)$ — The x-intercept (always 1 unless shifted).
     *   $(b, 1)$
     *   $(1/b, -1)$
-
 #### 5. Graphing with Transformations
 To graph a transformed log function like $f(x) = a \log_b(x-h) + k$:
 
@@ -11137,7 +11133,6 @@ To graph a transformed log function like $f(x) = a \log_b(x-h) + k$:
 4.  **Determine Behavior:**
     *   As $x \to VA^+$, $y \to -\infty$ (or $\infty$ if reflected).
     *   As $x \to \infty$, $y \to \infty$ (grows very slowly).
-
 #### 6. Important Properties to Remember
 *   **$\log_b(1) = 0$** (Because $b^0 = 1$)
 *   **$\log_b(b) = 1$** (Because $b^1 = b$)
@@ -11146,3 +11141,4 @@ To graph a transformed log function like $f(x) = a \log_b(x-h) + k$:
 
 > [!IMPORTANT]
 > **The Domain Constraint:** Unlike exponential functions which have a domain of all real numbers, logarithms are restricted. The "inside" (argument) of a log must ALWAYS be greater than zero. This dictates where your graph can and cannot exist.
+
