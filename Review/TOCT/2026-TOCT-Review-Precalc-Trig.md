@@ -1219,3 +1219,34 @@ Start with the asymptotes (the skeleton), plot your intercepts and holes, and us
 
 ### Introduction to Logarithms and Their Graphs (Precalculus - College Algebra 55) :
 https://www.youtube.com/watch?v=jfnTwz79PWU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=58
+#### 1. Definition of a Logarithm
+A logarithm is the **inverse** of an exponential function. It answers the question: "To what power must we raise the base to get this number?"
+
+> **The Logarithmic Equivalence:**
+> $$y = \log_b(x) \iff b^y = x$$
+> *(Where $b > 0$, $b \neq 1$, and $x > 0$)*
+
+*   **$b$** is the **Base**.
+*   **$y$** is the **Exponent**.
+*   **$x$** is the **Argument** (or result).
+#### 2. Logarithmic Forms and Bases
+*   **Common Logarithm:** If no base is written, it is assumed to be base 10.
+    *   $\log(x) = \log_{10}(x)$
+*   **Natural Logarithm:** Logarithms using the natural base $e$ are written as $ln$.
+    *   $\ln(x) = \log_e(x)$
+#### 3. Evaluating Logarithms (The "Think" Method)
+To evaluate $\log_2(8)$, convert it to its exponential heart:
+1.  **Question:** $2$ to what power gives me $8$?
+2.  **Equation:** $2^? = 8$
+3.  **Result:** $2^3 = 8$, so $\log_2(8) = 3$.
+
+#### 4. Parent Graph of $f(x) = \log_b(x)$
+Because logarithms are inverses of exponentials, their graphs are reflections across the line $y = x$.
+
+*   **Vertical Asymptote (VA):** $x = 0$ (the y-axis).
+*   **Domain:** $(0, \infty)$ — You cannot take the log of a negative number or zero.
+*   **Range:** $(-\infty, \infty)$
+*   **Key Points (for $b > 1$):**
+    *   $(1, 0)$ — The x-intercept (always 1 unless shifted).
+    *   $(b, 1)$
+    *   $(1/b, -1)$
