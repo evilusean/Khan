@@ -11086,3 +11086,63 @@ $$x = 2, 1$$
 
 ## 2026-May-14 - Introduction to Logarithms and Their Graphs (Precalculus - College Algebra 55) :
 https://www.youtube.com/watch?v=jfnTwz79PWU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=58
+### Introduction to Logarithms and Their Graphs
+
+This summary covers the definition of logarithms as inverse functions of exponentials and how to interpret, evaluate, and graph them using the Leonard technique.
+
+---
+
+#### 1. Definition of a Logarithm
+A logarithm is the **inverse** of an exponential function. It answers the question: "To what power must we raise the base to get this number?"
+
+> **The Logarithmic Equivalence:**
+> $$y = \log_b(x) \iff b^y = x$$
+> *(Where $b > 0$, $b \neq 1$, and $x > 0$)*
+
+*   **$b$** is the **Base**.
+*   **$y$** is the **Exponent**.
+*   **$x$** is the **Argument** (or result).
+
+#### 2. Logarithmic Forms and Bases
+*   **Common Logarithm:** If no base is written, it is assumed to be base 10.
+    *   $\log(x) = \log_{10}(x)$
+*   **Natural Logarithm:** Logarithms using the natural base $e$ are written as $ln$.
+    *   $\ln(x) = \log_e(x)$
+
+#### 3. Evaluating Logarithms (The "Think" Method)
+To evaluate $\log_2(8)$, convert it to its exponential heart:
+1.  **Question:** $2$ to what power gives me $8$?
+2.  **Equation:** $2^? = 8$
+3.  **Result:** $2^3 = 8$, so $\log_2(8) = 3$.
+
+#### 4. Parent Graph of $f(x) = \log_b(x)$
+Because logarithms are inverses of exponentials, their graphs are reflections across the line $y = x$.
+
+*   **Vertical Asymptote (VA):** $x = 0$ (the y-axis).
+*   **Domain:** $(0, \infty)$ — You cannot take the log of a negative number or zero.
+*   **Range:** $(-\infty, \infty)$
+*   **Key Points (for $b > 1$):**
+    *   $(1, 0)$ — The x-intercept (always 1 unless shifted).
+    *   $(b, 1)$
+    *   $(1/b, -1)$
+
+#### 5. Graphing with Transformations
+To graph a transformed log function like $f(x) = a \log_b(x-h) + k$:
+
+1.  **Find the Vertical Asymptote:** Set the argument equal to zero: $x - h = 0 \implies x = h$.
+2.  **Identify the Domain:** The argument must be positive: $x - h > 0$.
+3.  **Track Key Points:** 
+    *   Start with the parent points $(1, 0)$ and $(b, 1)$.
+    *   Apply horizontal shifts to $x$ and vertical changes/shifts to $y$.
+4.  **Determine Behavior:**
+    *   As $x \to VA^+$, $y \to -\infty$ (or $\infty$ if reflected).
+    *   As $x \to \infty$, $y \to \infty$ (grows very slowly).
+
+#### 6. Important Properties to Remember
+*   **$\log_b(1) = 0$** (Because $b^0 = 1$)
+*   **$\log_b(b) = 1$** (Because $b^1 = b$)
+*   **$\log_b(b^x) = x$** (Inverse property)
+*   **$b^{\log_b(x)} = x$** (Inverse property)
+
+> [!IMPORTANT]
+> **The Domain Constraint:** Unlike exponential functions which have a domain of all real numbers, logarithms are restricted. The "inside" (argument) of a log must ALWAYS be greater than zero. This dictates where your graph can and cannot exist.
