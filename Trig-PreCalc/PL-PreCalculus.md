@@ -11147,7 +11147,6 @@ To graph a transformed log function like $f(x) = a \log_b(x-h) + k$:
 Following the logarithmic equivalence rule: $b^y = x \iff \log_b(x) = y$.
 
 ---
-
 #### Exponential to Logarithmic Conversion
 
 | Exponential Form | Logarithmic Form | Notes |
@@ -11159,8 +11158,8 @@ Following the logarithmic equivalence rule: $b^y = x \iff \log_b(x) = y$.
 | $e^x = 8$ | **$\ln(8) = x$** | Base $e$ is the **Natural Log**. |
 
 ---
-
 #### Key Reminders for Your Notes
 *   **Common Log ($\log$):** When the base is 10, we omit the subscript.
 *   **Natural Log ($\ln$):** When the base is $e$, we use "ln" instead of "$\log_e$".
 *   **The "Heart" Method:** The base of the exponent always remains the base of the log. The exponent and the result "switch" sides.
+
