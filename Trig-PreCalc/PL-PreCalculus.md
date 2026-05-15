@@ -11142,3 +11142,25 @@ To graph a transformed log function like $f(x) = a \log_b(x-h) + k$:
 > [!IMPORTANT]
 > **The Domain Constraint:** Unlike exponential functions which have a domain of all real numbers, logarithms are restricted. The "inside" (argument) of a log must ALWAYS be greater than zero. This dictates where your graph can and cannot exist.
 
+### Converting Exponential Equations to Logarithmic Form
+
+Following the logarithmic equivalence rule: $b^y = x \iff \log_b(x) = y$.
+
+---
+
+#### Exponential to Logarithmic Conversion
+
+| Exponential Form | Logarithmic Form | Notes |
+| :--- | :--- | :--- |
+| $9 = 3^2$ | **$\log_3(9) = 2$** | Base is 3, exponent is 2. |
+| $a^3 = 2.1$ | **$\log_a(2.1) = 3$** | Base is $a$, exponent is 3. |
+| $2^x = 7.2$ | **$\log_2(7.2) = x$** | Base is 2, exponent is $x$. |
+| $10^x = 2.3$ | **$\log(2.3) = x$** | Base 10 is the **Common Log**. |
+| $e^x = 8$ | **$\ln(8) = x$** | Base $e$ is the **Natural Log**. |
+
+---
+
+#### Key Reminders for Your Notes
+*   **Common Log ($\log$):** When the base is 10, we omit the subscript.
+*   **Natural Log ($\ln$):** When the base is $e$, we use "ln" instead of "$\log_e$".
+*   **The "Heart" Method:** The base of the exponent always remains the base of the log. The exponent and the result "switch" sides.
