@@ -11334,7 +11334,6 @@ https://www.youtube.com/watch?v=swC7KrDO0Uo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This summary outlines the systematically structured approach used by Professor Leonard to graph logarithmic functions by evaluating the vertical asymptote, finding the domain, and tracking key tracking points through transformations.
 
 ---
-
 #### 1. The Transformed Log Equation Template
 $$f(x) = a \log_b(c(x - h)) + k$$
 
@@ -11342,7 +11341,6 @@ $$f(x) = a \log_b(c(x - h)) + k$$
 *   **Horizontal Reflection:** Occurs if $c$ is negative (graph faces left).
 *   **Vertical Reflection:** Occurs if $a$ is negative (graph flips upside down).
 *   **Vertical Shift:** Shifted up or down by $k$.
-
 #### 2. The Step-by-Step Graphing Method
 Instead of plotting random points, look for structural anchor points and boundaries:
 
@@ -11353,7 +11351,6 @@ Instead of plotting random points, look for structural anchor points and boundar
     *   Anchor Point 2: $(b, 1)$  *(Because $\log_b(b) = 1$)*
 4.  **Transform the Points:** Apply the horizontal transformations to the x-coordinates and vertical transformations to the y-coordinates.
 5.  **Sketch the Curve:** Draw the curve passing through the transformed anchor points, ensuring it runs parallel to the vertical asymptote on the correct side.
-
 #### 3. Anchor Points Tracking Table
 When evaluating transformations manually or via point-tracking:
 
@@ -11361,13 +11358,11 @@ When evaluating transformations manually or via point-tracking:
 | :--- | :--- | :--- |
 | **$(1, 0)$** | Divide by $c$, add $h$ | Multiply by $a$, add $k$ |
 | **$(b, 1)$** | Divide by $c$, add $h$ | Multiply by $a$, add $k$ |
-
 #### 4. Behavior Near the Asymptote
 *   Log graphs grow extremely slowly as $x \to \infty$.
 *   Log graphs plummet toward $-\infty$ (or climb to $+\infty$ if vertically reflected) as they get closer and closer to the vertical asymptote.
 
 ---
-
 #### 5. Example Blueprint Analysis
 Graphing $f(x) = -\log_2(x + 3) + 1$:
 
@@ -11385,3 +11380,4 @@ Graphing $f(x) = -\log_2(x + 3) + 1$:
 
 > [!TIP]
 > **The X-Intercept Clue:** The parent point $(1,0)$ is highly valuable because whatever makes the argument of the log equal to $1$ will yield an easy integer value for $y$, making it the cleanest point to plot after transformations.
+
