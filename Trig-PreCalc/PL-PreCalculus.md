@@ -11418,3 +11418,45 @@ We apply the identified shifts (**Add 1 to $x$**, **Add 2 to $y$**) to the paren
 *   **Behavior near the asymptote:** As you follow the graph left toward $x = 1$, the curve plunges downward vertically toward negative infinity ($-\infty$).
 *   **Curve Behavior:** Moving right from the asymptote, the curve climbs through the anchor point $(2,2)$. Because the domain is restricted to $x > 1$, this graph never crosses the y-axis, meaning it has no y-intercept.
 *   **Long-Term Growth:** As $x$ increases toward positive infinity ($+\infty$), the graph continues to rise. Consistent with all logarithmic curves, the rate of upward growth slows down dramatically, creating a long, flattened trajectory as it extends to the right.
+### Graphing $g(x) = 3 - 2\log_3(x+1)$ with Transformations
+
+This entry details the step-by-step structural breakdown, point adjustments, and visual trajectory of a base-3 logarithmic function with multiple transformations.
+
+---
+
+#### 1. Parent Function & Core Identity
+*   **Parent Function:** $y = \log_3(x)$
+*   **Standard Un-transformed Shape:** Steady upward curve starting near a vertical asymptote at $x=0$, passing through $(1,0)$ and $(3,1)$.
+
+#### 2. Identification of Transformations
+Rewriting the equation to match standard graphing formats highlights the exact order of operations:  
+$$g(x) = -2\log_3(x+1) + 3$$
+
+*   **Horizontal Shift:** The $+1$ inside the argument shifts the graph **left by 1 unit**.
+*   **Vertical Reflection:** The negative sign on the $-2$ reflects the graph **vertically across the x-axis** (it flips upside down).
+*   **Vertical Stretch:** The scalar value of $2$ stretches the graph vertically by a **factor of 2**.
+*   **Vertical Shift:** The $+3$ shifts the entire graph **up by 3 units**.
+
+#### 3. Domain and Asymptote Analysis
+*   **Vertical Asymptote (VA):** Set the argument to zero.
+    $$x + 1 = 0 \implies \mathbf{x = -1}$$
+*   **Domain:** Set the argument greater than zero.
+    $$x + 1 > 0 \implies \mathbf{x > -1 \quad \text{or} \quad (-1, \infty)}$$
+
+#### 4. Tracking Key Anchor Points
+We apply the horizontal changes (**Subtract 1 from $x$**) and vertical changes (**Multiply $y$ by $-2$, then add 3**) to the parent points of base 3:
+
+1.  **The Intercept Pivot Point:**
+    *   Parent: $(1, 0)$
+    *   Transformed: $(1 - 1, \, [0 \cdot -2] + 3) \to \mathbf{(0, 3)}$ *(This forms your y-intercept)*
+2.  **The Base Point:**
+    *   Parent: $(3, 1)$
+    *   Transformed: $(3 - 1, \, [1 \cdot -2] + 3) \to (2, \, -2 + 3) \to \mathbf{(2, 1)}$
+
+---
+
+#### 5. What the Graph Looks Like
+*   **Boundary Line:** A vertical dashed line (asymptote) stands at $x = -1$. The curve only exists to the right of this line.
+*   **Behavior near the asymptote:** Unlike a normal log curve that dives downward, the vertical reflection causes this graph to climb upward toward **positive infinity ($+\infty$)** as it approaches $x = -1$ from the right.
+*   **Curve Behavior:** Moving to the right from the asymptote, the curve drops down, passing cleanly through the y-axis at $(0,3)$, and continues downward through $(2,1)$.
+*   **Long-Term Growth:** As $x$ heads toward positive infinity ($+\infty$), the graph continuously sinks lower and lower into negative territory. Due to the vertical stretch, it drops more sharply than a typical log graph, but it still eventually flattens out into a slow, gradual downward slope toward negative infinity ($-\infty$).
