@@ -11260,15 +11260,12 @@ The domain consists of all real numbers greater than 3.
 To find the domain of any logarithmic function, we focus exclusively on the **argument**. Transformations outside the log (the $3$, the $-2$, and the base $4$) affect the range and the shape of the graph, but they do not change the domain constraints.
 
 ---
-
 #### 1. The Logarithmic Constraint
 The argument of a logarithm must always be strictly greater than zero.
 *   **Rule:** $\text{Argument} > 0$
-
 #### 2. Set Up the Inequality
 Identify the argument inside the brackets for the function $g(x)$:
 $$5 - \frac{x}{2} > 0$$
-
 #### 3. Solve for $x$
 We isolate $x$ using standard algebraic steps. **Note:** Remember that multiplying or dividing an inequality by a negative number flips the inequality sign.
 
@@ -11278,7 +11275,6 @@ We isolate $x$ using standard algebraic steps. **Note:** Remember that multiplyi
 2.  **Multiply both sides by -2:**
     *   Since we are multiplying by a negative number, the sign flips from $>$ to $<$.
     $$x < 10$$
-
 #### 4. Final Domain Notation
 The domain consists of all real numbers less than 10.
 
@@ -11286,7 +11282,6 @@ The domain consists of all real numbers less than 10.
 *   **Interval Notation:** $(-\infty, 10)$
 
 ---
-
 #### 5. Visual Context for the Graph
 *   **Vertical Asymptote (VA):** The boundary occurs where the argument is exactly zero.
     *   $5 - \frac{x}{2} = 0 \implies x = 10$.
