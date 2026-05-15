@@ -11292,3 +11292,38 @@ The domain consists of all real numbers less than 10.
 > [!IMPORTANT]
 > **Inequality Flip:** A common mistake in this specific problem is forgetting to flip the inequality sign when multiplying by $-2$. If the sign isn't flipped, the domain would incorrectly suggest the graph exists to the right of 10.
 
+### Finding the Domain of $h(x) = \log_5 \left[\frac{x+1}{x}\right]$
+
+Finding the domain for this function requires solving a rational inequality. We must ensure the entire argument inside the logarithm is strictly positive.
+
+---
+#### 1. The Logarithmic Constraint
+The argument of any logarithm must be greater than zero.
+*   **Condition:** $\frac{x+1}{x} > 0$
+#### 2. Identify Critical Values
+To solve the rational inequality, we find the values where the expression is either zero or undefined (the "boundary points").
+*   **Numerator = 0:** $x + 1 = 0 \implies \mathbf{x = -1}$
+*   **Denominator = 0:** $\mathbf{x = 0}$
+#### 3. Sign Analysis (Test Intervals)
+We test the sign of the fraction $\frac{x+1}{x}$ in the three intervals created by our critical values: $(-\infty, -1)$, $(-1, 0)$, and $(0, \infty)$.
+
+| Interval | Test Value | Calculation | Sign | Result |
+| :--- | :--- | :--- | :--- | :--- |
+| $(-\infty, -1)$ | $x = -2$ | $\frac{-2+1}{-2} = \frac{-1}{-2}$ | **Positive (+)** | **Keep** |
+| $(-1, 0)$ | $x = -0.5$ | $\frac{-0.5+1}{-0.5} = \frac{0.5}{-0.5}$ | **Negative (-)** | **Discard** |
+| $(0, \infty)$ | $x = 1$ | $\frac{1+1}{1} = \frac{2}{1}$ | **Positive (+)** | **Keep** |
+#### 4. Final Domain Notation
+The domain consists of the intervals where the expression resulted in a positive value. We use parentheses because the argument cannot equal zero, and the function is undefined at $x=0$.
+
+*   **Inequality Notation:** $x < -1$ or $x > 0$
+*   **Interval Notation:** $(-\infty, -1) \cup (0, \infty)$
+
+---
+#### 5. Visual Context for the Graph
+*   **Vertical Asymptotes:** This graph has **two** vertical asymptotes at $x = -1$ and $x = 0$.
+*   **Gap in Graph:** There is a "hole" or gap in the middle of the graph between $-1$ and $0$ where the function does not exist.
+*   **Behavior:** As $x$ approaches $-1$ from the left, the argument approaches zero, meaning the log will dive toward $-\infty$. As $x$ approaches $0$ from the right, the argument approaches $+\infty$.
+
+> [!CAUTION]
+> **Denominator Constraint:** Even if the logarithm wasn't there, $x$ could never be $0$ because division by zero is undefined. Always check for values that make the denominator zero in rational arguments.
+
