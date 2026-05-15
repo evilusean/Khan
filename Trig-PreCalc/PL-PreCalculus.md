@@ -11386,7 +11386,6 @@ Graphing $f(x) = -\log_2(x + 3) + 1$:
 This entry details the step-by-step structural breakdown and visual behavior of the transformed natural log function.
 
 ---
-
 #### 1. Parent Function & Core Identity
 *   **Parent Function:** $y = \ln(x)$ (Logarithm with the natural base $e \approx 2.718$)
 *   **Standard Un-transformed Shape:** A curve starting near a vertical asymptote at $x=0$, passing through $(1,0)$ and $(e,1)$, and flattening out as it moves right.
@@ -11398,13 +11397,11 @@ $$f(x) = \ln(x-1) + 2$$
 *   **Horizontal Shift (Inside the Argument):** The $-1$ inside the argument shifts the entire graph **right by 1 unit**.
 *   **Vertical Shift (Outside the Log):** The $+2$ added to the function shifts the entire graph **up by 2 units**.
 *   **Reflections/Stretches:** There are no negative signs or coefficients, meaning there are no reflections or scaling adjustments.
-
 #### 3. Domain and Asymptote Analysis
 *   **Vertical Asymptote (VA):** Set the argument to zero.
     $$x - 1 = 0 \implies \mathbf{x = 1}$$
 *   **Domain:** Set the argument greater than zero.
     $$x - 1 > 0 \implies \mathbf{x > 1 \quad \text{or} \quad (1, \infty)}$$
-
 #### 4. Tracking Key Anchor Points
 We apply the identified shifts (**Add 1 to $x$**, **Add 2 to $y$**) to the parent points of base $e$:
 
@@ -11416,7 +11413,6 @@ We apply the identified shifts (**Add 1 to $x$**, **Add 2 to $y$**) to the paren
     *   Transformed: $(e + 1, \, 1 + 2) \to \mathbf{(e+1, 3)} \approx \mathbf{(3.718, 3)}$
 
 ---
-
 #### 5. What the Graph Looks Like
 *   **Boundary Line:** There is a vertical dashed line (asymptote) passing through $x = 1$. The graph only exists to the right side of this boundary line.
 *   **Behavior near the asymptote:** As you follow the graph left toward $x = 1$, the curve plunges downward vertically toward negative infinity ($-\infty$).
