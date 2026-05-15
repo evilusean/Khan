@@ -11329,3 +11329,59 @@ The domain consists of the intervals where the expression resulted in a positive
 
 ## 2026-May-15 - Graphing Logarithms with Transformations (Precalculus - College Algebra 56) :
 https://www.youtube.com/watch?v=swC7KrDO0Uo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=57
+### Graphing Logarithms with Transformations
+
+This summary outlines the systematically structured approach used by Professor Leonard to graph logarithmic functions by evaluating the vertical asymptote, finding the domain, and tracking key tracking points through transformations.
+
+---
+
+#### 1. The Transformed Log Equation Template
+$$f(x) = a \log_b(c(x - h)) + k$$
+
+*   **Vertical Asymptote (VA):** Shifted by $h$. Found by setting the argument inside the log equal to zero.
+*   **Horizontal Reflection:** Occurs if $c$ is negative (graph faces left).
+*   **Vertical Reflection:** Occurs if $a$ is negative (graph flips upside down).
+*   **Vertical Shift:** Shifted up or down by $k$.
+
+#### 2. The Step-by-Step Graphing Method
+Instead of plotting random points, look for structural anchor points and boundaries:
+
+1.  **Find and Sketch the Vertical Asymptote:** Set the inner argument equal to zero and solve for $x$. Draw this as a dashed vertical line.
+2.  **Determine the Domain:** Set the inner argument $> 0$ and solve. This tells you which side of the asymptote to draw your graph.
+3.  **Identify the Parent Points:** Start with the standard un-transformed points for $\log_b(x)$:
+    *   Anchor Point 1: $(1, 0)$  *(Because $\log_b(1) = 0$)*
+    *   Anchor Point 2: $(b, 1)$  *(Because $\log_b(b) = 1$)*
+4.  **Transform the Points:** Apply the horizontal transformations to the x-coordinates and vertical transformations to the y-coordinates.
+5.  **Sketch the Curve:** Draw the curve passing through the transformed anchor points, ensuring it runs parallel to the vertical asymptote on the correct side.
+
+#### 3. Anchor Points Tracking Table
+When evaluating transformations manually or via point-tracking:
+
+| Parent Coordinate | Horizontal Effect ($x$) | Vertical Effect ($y$) |
+| :--- | :--- | :--- |
+| **$(1, 0)$** | Divide by $c$, add $h$ | Multiply by $a$, add $k$ |
+| **$(b, 1)$** | Divide by $c$, add $h$ | Multiply by $a$, add $k$ |
+
+#### 4. Behavior Near the Asymptote
+*   Log graphs grow extremely slowly as $x \to \infty$.
+*   Log graphs plummet toward $-\infty$ (or climb to $+\infty$ if vertically reflected) as they get closer and closer to the vertical asymptote.
+
+---
+
+#### 5. Example Blueprint Analysis
+Graphing $f(x) = -\log_2(x + 3) + 1$:
+
+1.  **Asymptote:** $x + 3 = 0 \implies \mathbf{x = -3}$
+2.  **Domain:** $x + 3 > 0 \implies \mathbf{x > -3}$ (Graph is to the right of $-3$)
+3.  **Parent Points (Base 2):** $(1, 0)$ and $(2, 1)$
+4.  **Apply Shifts:**
+    *   Horizontal: Shift left by 3 ($x - 3$)
+    *   Vertical: Multiply by $-1$, then add 1 ($-y + 1$)
+5.  **Transformed Points:**
+    *   $(1, 0) \to (1-3, -0+1) \to \mathbf{(-2, 1)}$
+    *   $(2, 1) \to (2-3, -1+1) \to \mathbf{(-1, 0)}$
+
+---
+
+> [!TIP]
+> **The X-Intercept Clue:** The parent point $(1,0)$ is highly valuable because whatever makes the argument of the log equal to $1$ will yield an easy integer value for $y$, making it the cleanest point to plot after transformations.
