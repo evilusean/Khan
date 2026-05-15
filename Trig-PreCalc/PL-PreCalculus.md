@@ -11255,7 +11255,8 @@ The domain consists of all real numbers greater than 3.
 
 > [!CAUTION]
 > **Common Error:** Do not include the boundary point. Because $\ln(0)$ is undefined (the graph approaches the asymptote but never touches it), the interval must use a parenthesis `(` rather than a bracket `[`.
-> ### Finding the Domain of $g(x) = 3-2\log_4[5-\frac{x}{2}]$
+> 
+### Finding the Domain of $g(x) = 3-2\log_4[5-\frac{x}{2}]$
 
 To find the domain of any logarithmic function, we focus exclusively on the **argument**. Transformations outside the log (the $3$, the $-2$, and the base $4$) affect the range and the shape of the graph, but they do not change the domain constraints.
 
