@@ -11231,19 +11231,15 @@ To solve these, we set each expression equal to $x$ and convert them into their 
 This analysis identifies the set of all possible input values for a natural logarithmic function by applying the logarithmic constraint.
 
 ---
-
 #### 1. The Logarithmic Constraint
 For any logarithmic function $y = \log_b(u)$, the **argument** ($u$) must be strictly greater than zero. Logarithms are not defined for zero or negative numbers.
 *   **Rule:** $\text{Argument} > 0$
-
 #### 2. Set Up the Inequality
 Identify the argument of the function $f(x) = \ln(x-3)$, which is $(x-3)$.
 $$x - 3 > 0$$
-
 #### 3. Solve for $x$
 Add 3 to both sides of the inequality:
 $$x > 3$$
-
 #### 4. Final Domain Notation
 The domain consists of all real numbers greater than 3.
 
@@ -11252,7 +11248,6 @@ The domain consists of all real numbers greater than 3.
 *   **Set Notation:** $x \in (3, \infty)$
 
 ---
-
 #### 5. Visual Context for the Graph
 *   **Vertical Asymptote (VA):** The boundary of the domain occurs where the argument equals zero.
     *   $x - 3 = 0 \implies \mathbf{x = 3}$
