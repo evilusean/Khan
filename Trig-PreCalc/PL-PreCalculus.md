@@ -11162,4 +11162,27 @@ Following the logarithmic equivalence rule: $b^y = x \iff \log_b(x) = y$.
 *   **Common Log ($\log$):** When the base is 10, we omit the subscript.
 *   **Natural Log ($\ln$):** When the base is $e$, we use "ln" instead of "$\log_e$".
 *   **The "Heart" Method:** The base of the exponent always remains the base of the log. The exponent and the result "switch" sides.
+### Converting Logarithmic Equations to Exponential Form
 
+Following the logarithmic equivalence rule: $\log_b(x) = y \iff b^y = x$.
+
+---
+
+#### Logarithmic to Exponential Conversion
+
+| Logarithmic Form | Exponential Form | Notes |
+| :--- | :--- | :--- |
+| $\log_3(\frac{1}{9}) = -2$ | **$3^{-2} = \frac{1}{9}$** | Base is 3, exponent is -2. |
+| $\log_b(4) = 2$ | **$b^2 = 4$** | Base is $b$, exponent is 2. |
+| $\log_2(6) = x$ | **$2^x = 6$** | Base is 2, exponent is $x$. |
+| $\ln(4) = x$ | **$e^x = 4$** | "ln" implies the natural base **$e$**. |
+| $\log(x) = 3$ | **$10^3 = x$** | "log" with no base implies base **10**. |
+
+---
+
+#### Key Reminders for Your Notes
+*   **The Circular Motion:** To convert, take the **base**, move across the equal sign to find your **exponent**, and set it equal to the **argument**.
+*   **Invisible Bases:** 
+    *   $\ln \implies e$
+    *   $\log \implies 10$
+*   **Identity Check:** For $10^3 = x$, you can quickly solve that $x = 1000$.
