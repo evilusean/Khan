@@ -11328,3 +11328,4 @@ The domain consists of the intervals where the expression resulted in a positive
 > **Denominator Constraint:** Even if the logarithm wasn't there, $x$ could never be $0$ because division by zero is undefined. Always check for values that make the denominator zero in rational arguments.
 
 ## 2026-May-15 - Graphing Logarithms with Transformations (Precalculus - College Algebra 56) :
+https://www.youtube.com/watch?v=swC7KrDO0Uo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=57
