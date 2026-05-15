@@ -11190,47 +11190,38 @@ Following the logarithmic equivalence rule: $\log_b(x) = y \iff b^y = x$.
 To solve these, we set each expression equal to $x$ and convert them into their exponential form: $b^x = \text{argument}$.
 
 ---
-
 #### 1. $\log_5 25 = x$
 *   **Exponential Form:** $5^x = 25$
 *   **Solve:** Since $5^2 = 25$
 *   **Result:** **$x = 2$**
-
 #### 2. $\log_{1/3} 9 = x$
 *   **Exponential Form:** $(\frac{1}{3})^x = 9$
 *   **Common Base (3):** $(3^{-1})^x = 3^2 \implies 3^{-x} = 3^2$
 *   **Result:** **$x = -2$**
-
 #### 3. $\log \sqrt{10} = x$
 *   **Note:** No base written implies common log (base 10).
 *   **Exponential Form:** $10^x = \sqrt{10}$
 *   **Rewrite Radical:** $10^x = 10^{1/2}$
 *   **Result:** **$x = 1/2$**
-
 #### 4. $\log_5 \sqrt[3]{25} = x$
 *   **Exponential Form:** $5^x = \sqrt[3]{25}$
 *   **Rewrite Right Side:** $5^x = (25)^{1/3} \implies 5^x = (5^2)^{1/3}$
 *   **Simplify:** $5^x = 5^{2/3}$
 *   **Result:** **$x = 2/3$**
-
 #### 5. $\log_{\sqrt{3}} 9 = x$
 *   **Exponential Form:** $(\sqrt{3})^x = 9$
 *   **Common Base (3):** $(3^{1/2})^x = 3^2$
 *   **Simplify:** $3^{x/2} = 3^2$
 *   **Solve:** $\frac{x}{2} = 2 \implies x = 4$
 *   **Result:** **$x = 4$**
-
 #### 6. $\ln e^3 = x$
 *   **Note:** $\ln$ is base $e$.
 *   **Exponential Form:** $e^x = e^3$
 *   **Result:** **$x = 3$** (Inverse Property: $\ln e^a = a$)
-
 #### 7. $\log_2 1 = x$
 *   **Exponential Form:** $2^x = 1$
 *   **Solve:** Any non-zero base raised to the power of 0 equals 1.
 *   **Result:** **$x = 0$**
-
 ---
-
 > [!TIP]
 > **The Radical Shortcut:** When dealing with roots in logs, remember the fractional exponent rule: $\sqrt[root]{base^{power}} = base^{power/root}$. This often allows you to see the answer immediately once the bases match.
