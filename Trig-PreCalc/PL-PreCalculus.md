@@ -11255,3 +11255,44 @@ The domain consists of all real numbers greater than 3.
 
 > [!CAUTION]
 > **Common Error:** Do not include the boundary point. Because $\ln(0)$ is undefined (the graph approaches the asymptote but never touches it), the interval must use a parenthesis `(` rather than a bracket `[`.
+> ### Finding the Domain of $g(x) = 3-2\log_4[5-\frac{x}{2}]$
+
+To find the domain of any logarithmic function, we focus exclusively on the **argument**. Transformations outside the log (the $3$, the $-2$, and the base $4$) affect the range and the shape of the graph, but they do not change the domain constraints.
+
+---
+
+#### 1. The Logarithmic Constraint
+The argument of a logarithm must always be strictly greater than zero.
+*   **Rule:** $\text{Argument} > 0$
+
+#### 2. Set Up the Inequality
+Identify the argument inside the brackets for the function $g(x)$:
+$$5 - \frac{x}{2} > 0$$
+
+#### 3. Solve for $x$
+We isolate $x$ using standard algebraic steps. **Note:** Remember that multiplying or dividing an inequality by a negative number flips the inequality sign.
+
+1.  **Subtract 5 from both sides:**
+    $$-\frac{x}{2} > -5$$
+
+2.  **Multiply both sides by -2:**
+    *   Since we are multiplying by a negative number, the sign flips from $>$ to $<$.
+    $$x < 10$$
+
+#### 4. Final Domain Notation
+The domain consists of all real numbers less than 10.
+
+*   **Inequality Notation:** $\{x \mid x < 10\}$
+*   **Interval Notation:** $(-\infty, 10)$
+
+---
+
+#### 5. Visual Context for the Graph
+*   **Vertical Asymptote (VA):** The boundary occurs where the argument is exactly zero.
+    *   $5 - \frac{x}{2} = 0 \implies x = 10$.
+*   **Graph Direction:** Because the domain is $x < 10$, the graph exists only to the **left** of the vertical asymptote.
+*   **Reflections:** The negative sign inside the argument ($-\frac{x}{2}$) is what caused the horizontal reflection, forcing the graph to point toward negative infinity instead of positive infinity.
+
+> [!IMPORTANT]
+> **Inequality Flip:** A common mistake in this specific problem is forgetting to flip the inequality sign when multiplying by $-2$. If the sign isn't flipped, the domain would incorrectly suggest the graph exists to the right of 10.
+
