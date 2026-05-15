@@ -11167,7 +11167,6 @@ Following the logarithmic equivalence rule: $b^y = x \iff \log_b(x) = y$.
 Following the logarithmic equivalence rule: $\log_b(x) = y \iff b^y = x$.
 
 ---
-
 #### Logarithmic to Exponential Conversion
 
 | Logarithmic Form | Exponential Form | Notes |
@@ -11179,10 +11178,10 @@ Following the logarithmic equivalence rule: $\log_b(x) = y \iff b^y = x$.
 | $\log(x) = 3$ | **$10^3 = x$** | "log" with no base implies base **10**. |
 
 ---
-
 #### Key Reminders for Your Notes
 *   **The Circular Motion:** To convert, take the **base**, move across the equal sign to find your **exponent**, and set it equal to the **argument**.
 *   **Invisible Bases:** 
     *   $\ln \implies e$
     *   $\log \implies 10$
 *   **Identity Check:** For $10^3 = x$, you can quickly solve that $x = 1000$.
+
