@@ -11455,3 +11455,4 @@ We apply the horizontal changes (**Subtract 1 from $x$**) and vertical changes (
 *   **Behavior near the asymptote:** Unlike a normal log curve that dives downward, the vertical reflection causes this graph to climb upward toward **positive infinity ($+\infty$)** as it approaches $x = -1$ from the right.
 *   **Curve Behavior:** Moving to the right from the asymptote, the curve drops down, passing cleanly through the y-axis at $(0,3)$, and continues downward through $(2,1)$.
 *   **Long-Term Growth:** As $x$ heads toward positive infinity ($+\infty$), the graph continuously sinks lower and lower into negative territory. Due to the vertical stretch, it drops more sharply than a typical log graph, but it still eventually flattens out into a slow, gradual downward slope toward negative infinity ($-\infty$).
+## 2026-May-16 - # Introduction to Solving Logarithms and Exponentials (Precalculus - College Algebra 57) :
