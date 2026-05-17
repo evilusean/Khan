@@ -11462,26 +11462,21 @@ https://www.youtube.com/watch?v=KezbqAAlOZk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This summary outlines the foundational strategies taught by Professor Leonard for solving algebraic equations involving exponents and logarithms. The core philosophy centers around using inverse operations to isolate variables.
 
 ---
-
 #### 1. Core Principles of Solving
 The fundamental concept depends on the inverse relationship between exponential functions and logarithmic functions:
 *   To undo an **exponential**, use a **logarithm**.
 *   To undo a **logarithm**, use an **exponential**.
-
 #### 2. The Two Primary Toolsets
 Professor Leonard breaks down solving into two algebraic pathways:
-
 ##### Pathway A: The One-to-One Property
 If you can make both sides of the equation share the exact same base, you can drop the bases entirely.
 *   **Exponential Property:** $b^M = b^N \implies M = N$
 *   **Logarithmic Property:** $\log_b(M) = \log_b(N) \implies M = N$
-
 ##### Pathway B: Definition Conversion (The Rewrite)
 If you cannot easily obtain identical bases on both sides, change the operational form using the equivalence relation: 
 $$\log_b(x) = y \iff b^y = x$$
 
 ---
-
 #### 3. Solving Exponential Equations
 When the variable is trapped in the exponent position, apply these steps:
 
@@ -11490,12 +11485,10 @@ When the variable is trapped in the exponent position, apply these steps:
     *   *If they match:* Use common bases to set the exponents equal.
     *   *If they do not match:* Convert the equation into a logarithm.
 3.  **Solve for $x$:** Complete the remaining linear or quadratic algebra.
-
 > **Example (Conversion Method):** Solve $5^x = 12$
 > *   Isolate check: Complete.
 > *   Bases match check: No easy common base between 5 and 12.
 > *   Convert to Log: $\log_5(12) = x$
-
 #### 4. Solving Logarithmic Equations
 When the variable is trapped inside the argument of a logarithm, apply these steps:
 
@@ -11503,9 +11496,7 @@ When the variable is trapped inside the argument of a logarithm, apply these ste
 2.  **Convert to Exponential Form:** Use the "circular motion" method to raise the base to the power of the opposite side.
 3.  **Solve for $x$:** Finish the algebra.
 4.  **Check for Extraneous Solutions:** You **must** plug your answers back into the original equation to ensure the arguments remain strictly positive ($> 0$).
-
 ---
-
 #### 5. Crucial Mechanics & Pitfalls
 
 > [!WARNING]
@@ -11513,3 +11504,4 @@ When the variable is trapped inside the argument of a logarithm, apply these ste
 
 > [!IMPORTANT]
 > **Extraneous Solution Checks:** Exponential functions have a domain of all real numbers, meaning their solutions are naturally safe. Logarithmic functions have restricted domains. If your algebraic solution results in evaluating something like $\log(-5)$ or $\log(0)$, that solution is invalid and must be discarded.
+
