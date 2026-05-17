@@ -11505,3 +11505,49 @@ When the variable is trapped inside the argument of a logarithm, apply these ste
 > [!IMPORTANT]
 > **Extraneous Solution Checks:** Exponential functions have a domain of all real numbers, meaning their solutions are naturally safe. Logarithmic functions have restricted domains. If your algebraic solution results in evaluating something like $\log(-5)$ or $\log(0)$, that solution is invalid and must be discarded.
 
+### Solving $\log_2(2x+1) = 3$ via Exponential Conversion
+
+This problem is solved by using the definition of a logarithm to rewrite the expression in its inverse exponential form, breaking the variable out of the argument.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Check for Isolation
+Before converting forms, the logarithmic term must be completely isolated on one side of the equation. 
+*   **Analysis:** The left side contains only $\log_2(2x+1)$. There are no numbers multiplied in front of the log or added outside of it. Isolation is complete.
+
+##### Step 2: Convert to Exponential Form
+Apply the logarithmic equivalence rule: $\log_b(x) = y \iff b^y = x$. 
+*   **Action:** Take the base (**2**), raise it to the power of the right side (**3**), and set it equal to the inside argument (**$2x+1$**).
+$$2^3 = 2x + 1$$
+*   *Why we do this:* This removes the logarithm operation entirely, shifting the variable from a locked argument down into a standard linear equation.
+
+##### Step 3: Evaluate the Numerical Power
+Simplify the exponential side.
+*   **Action:** Calculate $2^3$, which is $2 \cdot 2 \cdot 2 = 8$.
+$$8 = 2x + 1$$
+
+##### Step 4: Isolate and Solve for $x$
+Perform standard linear algebra to isolate the variable.
+1.  Subtract 1 from both sides:
+    $$7 = 2x$$
+2.  Divide both sides by 2:
+    $$x = \frac{7}{2}$$
+
+---
+
+#### Step 5: Check for Extraneous Solutions
+Logarithmic arguments must always be strictly greater than zero ($>0$). We must test $x = \frac{7}{2}$ in the original argument.
+
+*   **Argument Check:**
+    $$2x + 1 \to 2\left(\frac{7}{2}\right) + 1 = 7 + 1 = 8$$
+*   **Conclusion:** Since $8$ is greater than zero, the argument is valid. 
+
+---
+
+#### Final Solution
+$$x = \frac{7}{2}$$
+
+> [!NOTE]
+> **The Conversion Goal:** Converting to an exponential is the most direct tool when you have a single logarithm equal to a constant number. It immediately changes a calculus/pre-calculus problem into basic algebra.
