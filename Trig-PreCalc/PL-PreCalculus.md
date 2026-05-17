@@ -11958,7 +11958,6 @@ $$\log_b(M^k) = k \cdot \log_b(M)$$
 ---
 #### 2. Expanding Logarithmic Expressions
 Expanding is the process of breaking a single complex logarithm down into multiple, simpler logarithms. 
-
 ##### Step-by-Step Strategy for Expansion:
 1.  **Convert Roots to Rational Exponents:** Rewrite any radicals as fractional exponents (e.g., $\sqrt{x} \to x^{1/2}$, $\sqrt[3]{y} \to y^{1/3}$).
 2.  **Apply Product and Quotient Properties First:** Separate terms in the numerator with addition, and terms in the denominator with subtraction.
@@ -11972,7 +11971,6 @@ Expanding is the process of breaking a single complex logarithm down into multip
 ---
 #### 3. Condensing Logarithmic Expressions
 Condensing is the reverse process of expansion, shrinking multiple logarithmic terms into one singular logarithmic term. This is a critical skill for solving complex logarithmic equations.
-
 ##### Step-by-Step Strategy for Condensing:
 1.  **Check the Bases:** Logarithms can **only** be condensed if they share the exact same base.
 2.  **Apply the Power Property First:** Move any leading coefficients back up to become exponents on the arguments.
