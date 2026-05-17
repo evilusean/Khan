@@ -11637,3 +11637,299 @@ $$x = \frac{1 - e^8}{2}$$
 
 > [!IMPORTANT]
 > **Exact vs. Approximate:** In college algebra and pre-calculus, always leave your answer in terms of $e$ unless explicitly asked for a decimal approximation. $\frac{1 - e^8}{2}$ is the exact value; evaluating it as $\approx -1489.98$ is an approximation.
+### Solving $\ln e^{2x} = 8$ via Inverse Properties
+
+While this problem can be completed by converting to exponential form, it also highlights an essential inverse identity where a base $e$ logarithm meets a base $e$ exponent. Both approaches yield the same step-by-step logic.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Check for Isolation
+The natural log term must be completely isolated on its side of the equation.
+*   **Analysis:** The left side contains only $\ln e^{2x}$. There are no outside numbers added or multiplied. Isolation is complete.
+##### Step 2: Convert to Exponential Form
+Recall that the natural log ($\ln$) represents a logarithm with an unwritten base of $e$. Apply the equivalence rule: $\log_b(x) = y \iff b^y = x$.
+*   **Action:** Take the invisible base **$e$**, raise it to the power of the right side (**8**), and set it equal to the inner argument (**$e^{2x}$**).
+$$e^8 = e^{2x}$$
+*   *Why we do this:* Rewriting the statement transforms the logarithmic equation into an exponential equation where both sides share an identical base.
+##### Step 3: Apply the One-to-One Property
+When both sides of an equation share the exact same base, their exponents must be equal.
+*   **Identity Rule:** $b^M = b^N \implies M = N$
+*   **Action:** Drop the matching bases ($e$) and set the exponents equal to each other.
+$$8 = 2x$$
+
+---
+#### Alternative Method: Direct Inverse Property
+Professor Leonard frequently emphasizes recognizing inverse pairings immediately to save steps. 
+*   Because $\ln(x)$ and $e^x$ are exact inverses, they undo each other when nested: $\ln(e^{\square}) = \square$.
+*   Applying this directly to the original equation:
+    $$\ln e^{2x} = 8 \implies 2x = 8$$
+*   Both methods lead directly to the same simplified linear equation.
+
+---
+##### Step 4: Solve for $x$
+Divide both sides of the linear equation by 2 to isolate the variable.
+$$x = \frac{8}{2}$$
+$$x = 4$$
+##### Step 5: Check for Extraneous Solutions
+We test $x = 4$ back inside the original argument ($e^{2x}$).
+*   **Argument Check:** $e^{2(4)} = e^8$
+*   **Conclusion:** Base $e$ raised to any real power is always strictly positive ($e^8 > 0$). The solution is valid.
+
+---
+#### Final Solution
+$$x = 4$$
+### Solving $\log_6 36 = 5x + 4$ via Exponential Conversion
+
+This problem is unique because the variable $x$ is located completely outside of the logarithm. While you could simplify the left side directly, converting the equation to exponential form handles the log systematically.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Check for Isolation
+The logarithm term must be isolated on one side of the equation.
+*   **Analysis:** The left side consists entirely of $\log_6 36$. No outside multipliers or constant terms are attached to it. Isolation is complete.
+##### Step 2: Convert to Exponential Form
+Apply the standard logarithmic definition: $\log_b(x) = y \iff b^y = x$.
+*   **Action:** Take the base (**6**), raise it to the power of the entire expression on the right side (**$5x+4$**), and set it equal to the inner argument (**36**).
+$$6^{5x+4} = 36$$
+*   *Why we do this:* This process eliminates the logarithm function, transforming the expression into an exponential equation where the terms can be rewritten to share a common base.
+##### Step 3: Utilize the One-to-One Property (Match Bases)
+To solve an exponential equation, attempt to write both sides using the exact same base so the exponents can be set equal.
+1.  **Analyze the bases:** The left-hand base is 6. The right-hand number is 36.
+2.  **Rewrite 36:** Recognize that $36 = 6^2$. Substitute this value back into the equation:
+    $$6^{5x+4} = 6^2$$
+
+##### Step 4: Drop the Bases and Solve for $x$
+Since both sides have a matching base of 6, apply the property $b^M = b^N \implies M = N$.
+1.  Set the exponents equal to each other:
+    $$5x + 4 = 2$$
+2.  Subtract 4 from both sides to isolate the variable term:
+    $$5x = -2$$
+3.  Divide both sides by 5:
+    $$x = -\frac{2}{5}$$
+
+---
+#### Alternative Method: Direct Evaluation First
+Professor Leonard often notes that if the logarithm contains purely numbers, you can evaluate it immediately before doing any algebra:
+1.  $\log_6 36$ asks the question: *"6 raised to what power equals 36?"*
+2.  Since $6^2 = 36$, then $\log_6 36 = 2$.
+3.  Substitute 2 back into the equation: $2 = 5x + 4$.
+4.  Solving this yields the exact same linear steps: $5x = -2 \implies x = -\frac{2}{5}$.
+
+---
+##### Step 5: Check for Extraneous Solutions
+Because the variable $x$ was outside the logarithm's argument from the start, there is no risk of creating a zero or negative argument within the original expression. The argument remains a constant $36$, which is always valid.
+
+---
+#### Final Solution
+$$x = -\frac{2}{5}$$
+### Solving $\log_x\left(\frac{1}{8}\right) = 3$ via Exponential Conversion
+
+In this problem, the variable is located in the **base** position of the logarithm. Converting it to exponential form is the standard way to isolate a base variable.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Check for Isolation
+The logarithmic term must be fully isolated on one side of the equation.
+*   **Analysis:** The left side contains only $\log_x\left(\frac{1}{8}\right)$. There are no external coefficients or constant terms to move. Isolation is complete.
+##### Step 2: Convert to Exponential Form
+Apply the standard logarithmic equivalence rule: $\log_b(M) = y \iff b^y = M$.
+*   **Action:** Take the variable base (**$x$**), raise it to the power of the right side (**3**), and set it equal to the inner fraction argument (**$\frac{1}{8}$**).
+$$x^3 = \frac{1}{8}$$
+*   *Why we do this:* This removes the logarithm entirely and transforms the equation into a power equation, positioning the variable as a standard base.
+##### Step 3: Isolate the Base Variable
+To undo a cubing operation ($x^3$), take the cube root ($\sqrt[3]{\quad}$) of both sides of the equation.
+*   **Action:** Apply the cube root to both sides.
+$$\sqrt[3]{x^3} = \sqrt[3]{\frac{1}{8}}$$
+$$x = \sqrt[3]{\frac{1}{8}}$$
+##### Step 4: Simplify the Radical Fraction
+Evaluate the cube root of the fraction by taking the cube root of the numerator and the denominator separately.
+1.  **Break apart the root:**
+    $$x = \frac{\sqrt[3]{1}}{\sqrt[3]{8}}$$
+2.  **Evaluate:** Since $1^3 = 1$ and $2^3 = 8$:
+    $$x = \frac{1}{2}$$
+
+---
+#### Step 5: Check Logarithmic Base Constraints
+Logarithmic bases have strict structural requirements that must be verified:
+1.  The base must be strictly greater than zero ($b > 0$).
+2.  The base cannot equal one ($b \neq 1$).
+
+*   **Base Check:** Our calculated base is $x = \frac{1}{2}$. 
+    *   $\frac{1}{2} > 0$ (True)
+    *   $\frac{1}{2} \neq 1$ (True)
+*   **Conclusion:** The solution satisfies all base criteria and is valid.
+
+---
+#### Final Solution
+$$x = \frac{1}{2}$$
+
+> [!IMPORTANT]
+> **Odd vs. Even Roots:** Because we took an *odd* root (a cube root), we do not include a $\pm$ sign. If the equation had been $x^2 = \frac{1}{4}$, taking the square root would yield $x = \pm\frac{1}{2}$, and we would have to discard the negative option because log bases cannot be negative.
+
+### Solving $7^{2x+5} = 8$ via Logarithmic Conversion
+
+This problem features a variable trapped inside an exponential expression. Because the two bases ($7$ and $8$) cannot be rewritten into a common integer base, we use a logarithmic conversion to unlock the exponent.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Check for Isolation
+The exponential term containing the variable must be completely isolated before changing forms.
+*   **Analysis:** The left-hand side consists entirely of the base $7$ raised to its exponent. There are no trailing constants or coefficients multiplying the front. Isolation is complete.
+##### Step 2: Convert to Logarithmic Form
+Apply the conversion identity that links exponentials to logarithms: $b^y = x \iff \log_b(x) = y$.
+*   **Action:** Convert the expression by writing a logarithm with a base of **7**, placing the opposite side (**8**) into the argument, and setting it equal to the exponent (**$2x+5$**).
+$$\log_7(8) = 2x + 5$$
+*   *Why we do this:* A logarithm calculates exponents. By rewriting the expression this way, the linear polynomial $2x+5$ is pulled out of the exponent position down onto the main algebra line.
+##### Step 3: Isolate and Solve for $x$
+Treat $\log_7(8)$ as a single exact constant value and perform standard linear algebra to isolate $x$:
+
+1.  **Subtract 5 from both sides:**
+    $$\log_7(8) - 5 = 2x$$
+    *(Be careful to keep the $-5$ outside of the log argument; it does not combine with the 8).*
+2.  **Divide the entire equation by 2:**
+    $$x = \frac{\log_7(8) - 5}{2}$$
+
+---
+#### Alternative Representation: Change of Base Formula
+Professor Leonard often demonstrates how to rewrite exact logarithmic expressions using standard calculator bases ($\log_{10}$ or $\ln$) so they can be easily evaluated.
+
+*   **Change of Base Identity:** $\log_b(a) = \frac{\ln(a)}{\ln(b)}$
+*   Applying this to our exact solution:
+    $$x = \frac{\frac{\ln(8)}{\ln(7)} - 5}{2}$$
+
+---
+##### Step 4: Check for Extraneous Solutions
+Exponential functions accept any real number in their domain. Because the variable began inside an exponent rather than a log argument, there is no structural risk of an extraneous solution. The answer is completely safe.
+
+---
+#### Final Exact Solution
+$$x = \frac{\log_7(8) - 5}{2}$$
+
+> [!CAUTION]
+> **Parenthesis Awareness:** When tracking your notes, ensure you write $\log_7(8) - 5$ rather than $\log_7(8-5)$. The subtraction occurs *after* the logarithm is evaluated, not inside the argument.
+
+### Solving $5e^{0.2x} = 7$ via Logarithmic Conversion
+
+This problem demonstrates how to solve a base-$e$ exponential equation with an external multiplier. We must isolate the exponential term completely before converting it into a natural logarithm.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Isolate the Exponential Term
+Before any logarithmic conversion can take place, the base and its exponent must stand alone on one side of the equation.
+*   **Analysis:** The left side contains a multiplier of $5$ in front of the base $e$.
+*   **Action:** Divide both sides of the equation by $5$.
+$$e^{0.2x} = \frac{7}{5}$$
+*   *Why we do this:* If you try to convert to a log while the $5$ is still attached, you would violate the basic conversion template ($b^y = x$). Complete isolation is a mandatory prerequisite.
+##### Step 2: Convert to Logarithmic Form
+Apply the conversion identity: $b^y = x \iff \log_b(x) = y$. Since our base is $e$, we use the natural logarithm ($\ln$).
+*   **Action:** Take the natural log ($\ln$) of the fraction on the right side, and set it equal to the isolated exponent (**$0.2x$**).
+$$\ln\left(\frac{7}{5}\right) = 0.2x$$
+*   *Why we do this:* The natural log is the exact inverse of base $e$. Applying it brings the variable out of the exponent position down onto the main algebraic line.
+##### Step 3: Isolate and Solve for $x$
+The term $\ln(7/5)$ is an exact transcendental constant. We isolate $x$ by removing the decimal coefficient.
+1.  **Divide both sides by 0.2:**
+    $$x = \frac{\ln\left(\frac{7}{5}\right)}{0.2}$$
+2.  **Simplify the fraction (Optional but cleaner):** 
+    Recognize that $0.2 = \frac{1}{5}$. Dividing by $\frac{1}{5}$ is identical to multiplying the entire numerator by $5$.
+    $$x = 5\ln\left(\frac{7}{5}\right)$$
+---
+#### Alternative Method: Apply $\ln$ to Both Sides
+Professor Leonard often notes that instead of shifting terms conceptually, you can visually apply $\ln$ to both sides of the isolated equation:
+1.  $\ln\left(e^{0.2x}\right) = \ln\left(\frac{7}{5}\right)$
+2.  Using the inverse property ($\ln(e^{\square}) = \square$), the left side simplifies directly:
+    $0.2x = \ln\left(\frac{7}{5}\right)$
+3.  This results in the exact same final linear calculation.
+
+---
+##### Step 4: Check for Extraneous Solutions
+Because the variable originated inside an exponential function rather than a logarithmic argument, the domain includes all real numbers. No extraneous solution check is required.
+
+---
+
+#### Final Exact Solution
+$$x = 5\ln\left(\frac{7}{5}\right)$$
+### Solving $8 \cdot 10^{2x-7} = 3$ via Logarithmic Conversion
+
+This problem demonstrates how to handle a base-10 exponential equation featuring an front coefficient and a linear algebraic expression inside the exponent.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Isolate the Exponential Term
+The base and its corresponding exponent must be completely isolated on one side of the equation before applying logarithmic conversions.
+*   **Analysis:** The term $10^{2x-7}$ is currently being multiplied by an front coefficient of $8$.
+*   **Action:** Divide both sides of the equation by $8$.
+$$10^{2x-7} = \frac{3}{8}$$
+*   *Why we do this:* Logarithmic conversion identities only apply to a clean $b^y = x$ structure. Isolating the base eliminates any conflicting coefficients.
+##### Step 2: Convert to Logarithmic Form
+Apply the conversion identity: $b^y = x \iff \log_b(x) = y$. Because the base is **10**, the conversion results in a common logarithm ($\log$), where the base 10 is implied and left unwritten.
+*   **Action:** Take the common log of the right side fraction, and set it equal to the exponent expression (**$2x-7$**).
+$$\log\left(\frac{3}{8}\right) = 2x - 7$$
+*   *Why we do this:* The common logarithm acts as the inverse operation to base 10, bringing the linear expression $2x-7$ out of the exponent down to the standard line of algebra.
+##### Step 3: Isolate and Solve for $x$
+Treat the term $\log(3/8)$ as a single exact numeric constant and use standard linear operations to isolate the variable:
+
+1.  **Add 7 to both sides of the equation:**
+    $$\log\left(\frac{3}{8}\right) + 7 = 2x$$
+    *(Make sure the $+7$ remains strictly outside of the log argument fraction).*
+2.  **Divide the entire equation by 2:**
+    $$x = \frac{\log\left(\frac{3}{8}\right) + 7}{2}$$
+
+---
+#### Step 4: Check for Extraneous Solutions
+The initial equation frames the variable within an exponential function. Since exponential functions have an unrestricted domain consisting of all real numbers, this solution contains no risk of structural invalidity. No check is required.
+
+---
+#### Final Exact Solution
+$$x = \frac{\log\left(\frac{3}{8}\right) + 7}{2}$$
+
+> [!TIP]
+> **Typographical Separation:** When adding constants next to logarithms, always write the log term first with parentheses around its argument, or place the constant in front (e.g., $\frac{7 + \log(3/8)}{2}$). This prevents accidentally grouping the constant inside the argument during fast calculations.
+
+### Solving $4e^{x+1} = 5$ via Logarithmic Conversion
+
+This problem outlines the steps to resolve a base-$e$ exponential term that features a multi-term linear exponent and a leading coefficient.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Isolate the Exponential Term
+The exponential base and its exponent must stand alone before you can apply a logarithmic conversion.
+*   **Analysis:** The base $e^{x+1}$ has an outside multiplier of $4$ attached to its front.
+*   **Action:** Divide both sides of the equation by $4$.
+$$e^{x+1} = \frac{5}{4}$$
+*   *Why we do this:* You cannot convert to a logarithm while there are loose coefficients on the same side as the exponential base. Isolation cleans the equation into a standard $b^y = x$ structure.
+##### Step 2: Convert to Logarithmic Form
+Apply the exponential-to-logarithm conversion rule: $b^y = x \iff \log_b(x) = y$. Because the base is **$e$**, we convert it into a natural logarithm ($\ln$).
+*   **Action:** Take the natural log ($\ln$) of the fraction on the right side, and set it equal to the exponent expression (**$x+1$**).
+$$\ln\left(\frac{5}{4}\right) = x + 1$$
+*   *Why we do this:* The natural log is the exact inverse operation of base $e$. Applying it cancels out the base $e$, freeing the expression $x+1$ from the exponent position.
+##### Step 3: Isolate and Solve for $x$
+Treat the expression $\ln(5/4)$ as a single exact numerical value and isolate $x$ using standard subtraction.
+*   **Action:** Subtract 1 from both sides of the equation.
+$$x = \ln\left(\frac{5}{4}\right) - 1$$
+
+---
+#### Alternative Visualization: $\ln$ Both Sides
+Professor Leonard often demonstrates that you can achieve this exact same result by taking the natural log of both sides of the isolated equation:
+1.  $\ln\left(e^{x+1}\right) = \ln\left(\frac{5}{4}\right)$
+2.  Using the inverse rule $\ln(e^{\square}) = \square$, the left side cancels completely:
+    $$x + 1 = \ln\left(\frac{5}{4}\right)$$
+3.  Subtracting 1 yields the same final step.
+
+---
+##### Step 4: Check for Extraneous Solutions
+Because the variable began inside an exponential expression rather than a logarithm, the domain covers all real numbers. There is no structural restriction, meaning the exact solution is automatically valid.
+
+---
+#### Final Exact Solution
+$$x = \ln\left(\frac{5}{4}\right) - 1$$
+
+> [!CAUTION]
+> **Keep Constants Separate:** Make sure to write the $-1$ clearly outside the natural log's parenthesis. Writing $\ln(5/4 - 1)$ changes the argument to $1/4$, which is algebraically incorrect.
+
