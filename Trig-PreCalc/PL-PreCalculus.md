@@ -11457,3 +11457,59 @@ We apply the horizontal changes (**Subtract 1 from $x$**) and vertical changes (
 *   **Long-Term Growth:** As $x$ heads toward positive infinity ($+\infty$), the graph continuously sinks lower and lower into negative territory. Due to the vertical stretch, it drops more sharply than a typical log graph, but it still eventually flattens out into a slow, gradual downward slope toward negative infinity ($-\infty$).
 ## 2026-May-16 - Introduction to Solving Logarithms and Exponentials (Precalculus - College Algebra 57) :
 https://www.youtube.com/watch?v=KezbqAAlOZk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=60
+### Introduction to Solving Logarithms and Exponentials
+
+This summary outlines the foundational strategies taught by Professor Leonard for solving algebraic equations involving exponents and logarithms. The core philosophy centers around using inverse operations to isolate variables.
+
+---
+
+#### 1. Core Principles of Solving
+The fundamental concept depends on the inverse relationship between exponential functions and logarithmic functions:
+*   To undo an **exponential**, use a **logarithm**.
+*   To undo a **logarithm**, use an **exponential**.
+
+#### 2. The Two Primary Toolsets
+Professor Leonard breaks down solving into two algebraic pathways:
+
+##### Pathway A: The One-to-One Property
+If you can make both sides of the equation share the exact same base, you can drop the bases entirely.
+*   **Exponential Property:** $b^M = b^N \implies M = N$
+*   **Logarithmic Property:** $\log_b(M) = \log_b(N) \implies M = N$
+
+##### Pathway B: Definition Conversion (The Rewrite)
+If you cannot easily obtain identical bases on both sides, change the operational form using the equivalence relation: 
+$$\log_b(x) = y \iff b^y = x$$
+
+---
+
+#### 3. Solving Exponential Equations
+When the variable is trapped in the exponent position, apply these steps:
+
+1.  **Isolate the Exponential Term:** Clean up the equation so only the base and its exponent remain on one side (e.g., $b^x = \text{value}$).
+2.  **Determine if Bases Match:**
+    *   *If they match:* Use common bases to set the exponents equal.
+    *   *If they do not match:* Convert the equation into a logarithm.
+3.  **Solve for $x$:** Complete the remaining linear or quadratic algebra.
+
+> **Example (Conversion Method):** Solve $5^x = 12$
+> *   Isolate check: Complete.
+> *   Bases match check: No easy common base between 5 and 12.
+> *   Convert to Log: $\log_5(12) = x$
+
+#### 4. Solving Logarithmic Equations
+When the variable is trapped inside the argument of a logarithm, apply these steps:
+
+1.  **Isolate the Logarithmic Term:** Clean up multipliers or added numbers surrounding the log until you have $\log_b(\text{argument}) = \text{value}$.
+2.  **Convert to Exponential Form:** Use the "circular motion" method to raise the base to the power of the opposite side.
+3.  **Solve for $x$:** Finish the algebra.
+4.  **Check for Extraneous Solutions:** You **must** plug your answers back into the original equation to ensure the arguments remain strictly positive ($> 0$).
+
+---
+
+#### 5. Crucial Mechanics & Pitfalls
+
+> [!WARNING]
+> **Isolation Is Required First:** You cannot drop bases or convert forms if there are loose coefficients standing in front of your terms. For example, in $2 \cdot 3^x = 18$, you *must* divide by 2 to get $3^x = 9$ before processing the exponent.
+
+> [!IMPORTANT]
+> **Extraneous Solution Checks:** Exponential functions have a domain of all real numbers, meaning their solutions are naturally safe. Logarithmic functions have restricted domains. If your algebraic solution results in evaluating something like $\log(-5)$ or $\log(0)$, that solution is invalid and must be discarded.
