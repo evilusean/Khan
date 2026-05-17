@@ -11933,3 +11933,4 @@ $$x = \ln\left(\frac{5}{4}\right) - 1$$
 > [!CAUTION]
 > **Keep Constants Separate:** Make sure to write the $-1$ clearly outside the natural log's parenthesis. Writing $\ln(5/4 - 1)$ changes the argument to $1/4$, which is algebraically incorrect.
 
+## 2026-May-17 - Properties of Logarithms (Precalculus - College Algebra 58) : 
