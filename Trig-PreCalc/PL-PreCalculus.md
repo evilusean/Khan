@@ -11935,3 +11935,80 @@ $$x = \ln\left(\frac{5}{4}\right) - 1$$
 
 ## 2026-May-17 - Properties of Logarithms (Precalculus - College Algebra 58) : 
 https://www.youtube.com/watch?v=u0uScdsBPfk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=59
+### Properties of Logarithms
+
+This summary outlines the fundamental algebraic properties of logarithms as taught by Professor Leonard. These rules serve as the primary toolkit for expanding, condensing, and simplifying logarithmic expressions across college algebra and calculus.
+
+---
+
+#### 1. The Core Logarithmic Properties
+Logarithms possess three primary operational properties that correspond directly to standard exponent rules. 
+
+##### The Product Property
+When two terms are multiplied inside a logarithmic argument, they can be split into the sum of two separate logarithms.
+$$\log_b(M \cdot N) = \log_b(M) + \log_b(N)$$
+
+##### The Quotient Property
+When two terms are divided inside a logarithmic argument, they can be split into the difference of two separate logarithms (numerator log minus denominator log).
+$$\log_b\left(\frac{M}{N}\right) = \log_b(M) - \log_b(N)$$
+
+##### The Power Property
+An exponent on the argument of a logarithm can be moved down to the front of the logarithm to act as a multiplier.
+$$\log_b(M^k) = k \cdot \log_b(M)$$
+
+---
+
+#### 2. Expanding Logarithmic Expressions
+Expanding is the process of breaking a single complex logarithm down into multiple, simpler logarithms. 
+
+##### Step-by-Step Strategy for Expansion:
+1.  **Convert Roots to Rational Exponents:** Rewrite any radicals as fractional exponents (e.g., $\sqrt{x} \to x^{1/2}$, $\sqrt[3]{y} \to y^{1/3}$).
+2.  **Apply Product and Quotient Properties First:** Separate terms in the numerator with addition, and terms in the denominator with subtraction.
+3.  **Apply the Power Property Last:** Bring all exponents down to the front of their respective individual logs as coefficients.
+
+> **Expansion Example:** 
+> $$\log_b\left(\frac{x^3\sqrt{y}}{z^2}\right) \to \log_b\left(\frac{x^3 y^{1/2}}{z^2}\right)$$
+> $$\to \log_b(x^3) + \log_b(y^{1/2}) - \log_b(z^2)$$
+> $$\to 3\log_b(x) + \frac{1}{2}\log_b(y) - 2\log_b(z)$$
+
+---
+
+#### 3. Condensing Logarithmic Expressions
+Condensing is the reverse process of expansion, shrinking multiple logarithmic terms into one singular logarithmic term. This is a critical skill for solving complex logarithmic equations.
+
+##### Step-by-Step Strategy for Condensing:
+1.  **Check the Bases:** Logarithms can **only** be condensed if they share the exact same base.
+2.  **Apply the Power Property First:** Move any leading coefficients back up to become exponents on the arguments.
+3.  **Apply Product and Quotient Properties:** 
+    *   Terms with *positive* front signs merge into the **numerator** of the single log argument.
+    *   Terms with *negative* front signs merge into the **denominator** of the single log argument.
+
+> **Condensing Example:**
+> $$4\ln(x) + \frac{1}{3}\ln(y) - 2\ln(z)$$
+> $$\to \ln(x^4) + \ln(y^{1/3}) - \ln(z^2)$$
+> $$\to \ln\left(\frac{x^4\sqrt[3]{y}}{z^2}\right)$$
+
+---
+
+#### 4. The Change of Base Formula
+Professor Leonard explains that standard scientific or graphing calculators generally only have buttons for the common log ($\log_{10}$) and the natural log ($\ln$). To evaluate a log with an unconventional base, use the Change of Base formula:
+
+$$\log_b(x) = \frac{\log_c(x)}{\log_c(b)}$$
+
+In practice, you will change the base to either $e$ or $10$:
+$$\log_b(x) = \frac{\ln(x)}{\ln(b)} \quad \text{or} \quad \log_b(x) = \frac{\log(x)}{\log(b)}$$
+
+---
+
+#### 5. Common Pitfalls & Illegal Moves
+
+> [!CAUTION]
+> **Distributing inside the argument is illegal:** 
+> $\log_b(M + N) \neq \log_b(M) + \log_b(N)$
+> There is no property to split a sum or difference inside an argument.
+
+> [!WARNING]
+> **Dividing entire log operations is not the quotient rule:**
+> $\frac{\log_b(M)}{\log_b(N)} \neq \log_b(M) - \log_b(N)$
+> Dividing one log by another log is a Change of Base setup, not a subtraction expansion.
+
