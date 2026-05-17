@@ -11558,13 +11558,11 @@ This problem utilizes exponential conversion to extract a quadratic expression f
 ##### Step 1: Check for Isolation
 The logarithmic expression must be isolated before changing forms.
 *   **Analysis:** The term $\log_3(x^2+1)$ stands alone on the left-hand side. There are no external coefficients or constant terms to move. Isolation is complete.
-
 ##### Step 2: Convert to Exponential Form
 Apply the definition of a logarithm to rewrite the equation: $\log_b(x) = y \iff b^y = x$.
 *   **Action:** Take the base (**3**), raise it to the power of the right side (**2**), and set it equal to the inner quadratic argument (**$x^2+1$**).
 $$3^2 = x^2 + 1$$
 *   *Why we do this:* This inverse operation eliminates the log function, leaving behind a standard quadratic equation that can be evaluated using standard algebraic methods.
-
 ##### Step 3: Evaluate the Constant Power
 Simplify the numerical exponent.
 *   **Action:** Calculate $3^2$, which is $9$.
@@ -11581,7 +11579,6 @@ Since this quadratic equation contains an $x^2$ term but no linear $x$ term, the
     $$x = \pm2\sqrt{2}$$
 
 ---
-
 #### Step 5: Check for Extraneous Solutions
 We must verify that substituting our values back into the original argument ($x^2 + 1$) yields a result strictly greater than zero.
 
@@ -11590,9 +11587,9 @@ We must verify that substituting our values back into the original argument ($x^
 *   **Conclusion:** Since $9 > 0$, both the positive and negative values are valid solutions.
 
 ---
-
 #### Final Solutions
 $$x = 2\sqrt{2}, \quad x = -2\sqrt{2}$$
 
 > [!TIP]
 > **The Even Power Advantage:** Because the variable inside the log argument is squared ($x^2$), any negative solution we plug back in automatically becomes positive during the checking step. This makes it highly unlikely for solutions to be extraneous in this specific setup, though checking remains mandatory.
+
