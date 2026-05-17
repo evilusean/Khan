@@ -12010,62 +12010,47 @@ $$\log_b(x) = \frac{\ln(x)}{\ln(b)} \quad \text{or} \quad \log_b(x) = \frac{\log
 This entry details the fundamental identity and inverse properties of logarithms as presented by Professor Leonard. These properties represent structural shortcuts that occur when the base of a logarithm matches the base of its argument or exponential companion.
 
 ---
-
 #### 1. Foundational Properties Defined
 
 ##### The Zero Property: $\log_a(1) = 0$
 *   **Explanation:** This property answers the question: *"Base $a$ raised to what power equals 1?"* Since any non-zero base raised to the power of 0 equals 1 ($a^0 = 1$), the log of 1 regardless of the base is always 0.
-
 ##### The Identity Property: $\log_a(a) = 1$
 *   **Explanation:** This answers: *"Base $a$ raised to what power equals itself ($a$)?"* Because any base raised to the first power remains unchanged ($a^1 = a$), a logarithm evaluates to 1 whenever its base matches its argument exactly.
-
 ##### The Log-of-a-Base Inverse Property: $\log_a(a^r) = r$
 *   **Explanation:** When a logarithm of base $a$ encounters a matching exponential base $a$ inside its argument, the log operation and the exponential base cancel out completely. The logarithm un-clutches the exponent, leaving behind just the power $r$.
-
 ##### The Base-of-a-Log Inverse Property: $a^{\log_a(M)} = M$
 *   **Explanation:** This represents the inverse relationship occurring in reverse. When an exponential base $a$ is raised to a logarithmic power that shares that exact same base $a$, the operations cancel each other out entirely, dropping down the argument $M$.
-
 ---
-
 #### 2. Evaluating Examples: $\log_a(a^r) = r$
 
 The following examples demonstrate the cancellation shortcut when the logarithmic base matches the internal argument base.
-
 ##### Example A: $\log_2(2^{-13})$
 *   **Analysis:** The logarithm has a base of $2$, and the argument is an exponential term with a base of $2$. 
 *   **Cancellation:** The base-2 log and base-2 exponential cancel out.
 *   **Result:** $-13$
-
 ##### Example B: $\log\left(10^{1/3}\right)$
 *   **Analysis:** This is a common logarithm ($\log$), meaning its implied base is $10$. The internal exponential base is also $10$.
 *   **Cancellation:** The implied base-10 log cancels out the base-10 exponential.
 *   **Result:** $\frac{1}{3}$
-
 ##### Example C: $\ln\left(e^{-4}\right)$
 *   **Analysis:** This is a natural logarithm ($\ln$), meaning its implied base is the transcendental number $e$. The internal exponential base matches it exactly as $e$.
 *   **Cancellation:** The natural log cancels the base-$e$ exponential.
 *   **Result:** $-4$
-
 ---
-
 #### 3. Evaluating Examples: $a^{\log_a(M)} = M$
 
 The following examples demonstrate the cancellation shortcut when an exponential base is raised to a matching logarithmic power.
-
 ##### Example D: $2^{\log_2(7)}$
 *   **Analysis:** An exponential base of $2$ is being raised to a logarithmic power that also has a base of $2$.
 *   **Cancellation:** The outer base $2$ and the log base $2$ undo each other, freeing the argument.
 *   **Result:** $7$
-
 ##### Example E: $10^{\log\left(1/4\right)}$
 *   **Analysis:** An exponential base of $10$ is raised to a common logarithm ($\log$) power, which carries an implicit base of $10$.
 *   **Cancellation:** The matching base-10 structures cancel.
 *   **Result:** $\frac{1}{4}$
-
 ##### Example F: $e^{\ln(8)} = 8$
 *   **Analysis:** An exponential base of $e$ is raised to a natural logarithm ($\ln$) power, which carries an implicit base of $e$. 
 *   **Cancellation:** The exponential base $e$ and natural log cancel each other out completely.
 *   **Result:** $8$
-
 > [!NOTE]
 > **Notation Cleanup:** In standard algebra, ensure the exponent is explicitly tracked as the log argument. For instance, writing $e^{\ln(8)}$ avoids confusion with formatting errors like $e^{\ln^8}$, keeping it mathematically clear that $8$ is the structural value being isolated.
