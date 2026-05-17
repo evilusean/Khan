@@ -11940,7 +11940,6 @@ https://www.youtube.com/watch?v=u0uScdsBPfk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This summary outlines the fundamental algebraic properties of logarithms as taught by Professor Leonard. These rules serve as the primary toolkit for expanding, condensing, and simplifying logarithmic expressions across college algebra and calculus.
 
 ---
-
 #### 1. The Core Logarithmic Properties
 Logarithms possess three primary operational properties that correspond directly to standard exponent rules. 
 
@@ -11957,7 +11956,6 @@ An exponent on the argument of a logarithm can be moved down to the front of the
 $$\log_b(M^k) = k \cdot \log_b(M)$$
 
 ---
-
 #### 2. Expanding Logarithmic Expressions
 Expanding is the process of breaking a single complex logarithm down into multiple, simpler logarithms. 
 
@@ -11972,7 +11970,6 @@ Expanding is the process of breaking a single complex logarithm down into multip
 > $$\to 3\log_b(x) + \frac{1}{2}\log_b(y) - 2\log_b(z)$$
 
 ---
-
 #### 3. Condensing Logarithmic Expressions
 Condensing is the reverse process of expansion, shrinking multiple logarithmic terms into one singular logarithmic term. This is a critical skill for solving complex logarithmic equations.
 
@@ -11989,7 +11986,6 @@ Condensing is the reverse process of expansion, shrinking multiple logarithmic t
 > $$\to \ln\left(\frac{x^4\sqrt[3]{y}}{z^2}\right)$$
 
 ---
-
 #### 4. The Change of Base Formula
 Professor Leonard explains that standard scientific or graphing calculators generally only have buttons for the common log ($\log_{10}$) and the natural log ($\ln$). To evaluate a log with an unconventional base, use the Change of Base formula:
 
@@ -11999,7 +11995,6 @@ In practice, you will change the base to either $e$ or $10$:
 $$\log_b(x) = \frac{\ln(x)}{\ln(b)} \quad \text{or} \quad \log_b(x) = \frac{\log(x)}{\log(b)}$$
 
 ---
-
 #### 5. Common Pitfalls & Illegal Moves
 
 > [!CAUTION]
