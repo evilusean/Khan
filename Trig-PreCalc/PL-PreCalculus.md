@@ -12486,7 +12486,6 @@ $$3\log(x) + \frac{1}{2}\log(x+1) - 2\log(x-2) - \log(x-1)$$
 This entry outlines the systematic expansion of a complex natural logarithm (base $e$) containing multiple constants, variables, powers, a cube root, and a grouped binomial denominator.
 
 ---
-
 #### Step-by-Step Expansion
 
 ##### Step 1: Convert Radicals to Rational Exponents
@@ -12494,13 +12493,11 @@ Before separating any terms into independent logarithms, eliminate all radical s
 *   **Action:** Rewrite the cube root ($\sqrt[3]{\quad}$) in the numerator as an exponent of $\frac{1}{3}$.
 $$\ln \left[ \frac{5x^2 (7-2x)^{1/3}}{4(x+1)^2} \right]$$
 *   *Why we do this:* Logarithms lack rules for managing raw radical signs, but converting them into exponential exponents allows us to apply the Power Property later on.
-
 ##### Step 2: Split the Rational Structure (Quotient & Product Properties)
 Apply Professor Leonard's foundational rule for multi-factor fractions: **Every distinct factor originating from the numerator gets a positive log term, and every distinct factor originating from the denominator gets a negative (subtracted) log term.**
 *   **Action:** Identify all five distinct factors ($5$, $x^2$, $(7-2x)^{1/3}$, $4$, and $(x+1)^2$) and split them into separate natural log operations.
 $$\ln(5) + \ln(x^2) + \ln\big((7-2x)^{1/3}\big) - \ln(4) - \ln\big((x+1)^2\big)$$
 *   *Why we do this:* This entirely dismantles the fractional product layout. Because both the constant $4$ and the binomial term $(x+1)^2$ live in the denominator, their respective log operations must be subtracted.
-
 ##### Step 3: Apply the Power Property
 Scan the individual log terms and move any exponents down to the front to act as coefficients.
 *   **The Identity Rule:** $\ln(M^r) = r \cdot \ln(M)$
@@ -12509,7 +12506,6 @@ $$\ln(5) + 2\ln(x) + \frac{1}{3}\ln(7-2x) - \ln(4) - 2\ln(x+1)$$
 *   *Why we do this:* This completes the structural process of expansion, leaving every algebraic argument with an unweighted exponent of exactly 1.
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
@@ -12521,6 +12517,5 @@ $$\ln(5) + 2\ln(x) + \frac{1}{3}\ln(7-2x) - \ln(4) - 2\ln(x+1)$$
 > Do **not** attempt to expand or split terms containing internal operations like $\ln(7-2x)$ or $\ln(x+1)$. Logarithmic properties only exist for multiplication and division *inside* arguments, not addition or subtraction. These terms must remain intact as binomial arguments.
 
 ---
-
 #### Final Fully Expanded Form
 $$\ln(5) + 2\ln(x) + \frac{1}{3}\ln(7-2x) - \ln(4) - 2\ln(x+1)$$
