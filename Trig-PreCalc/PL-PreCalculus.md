@@ -12448,7 +12448,6 @@ $$\frac{1}{3}\log_5(x^2+1) - \log_5(x - 1) - \log_5(x + 1)$$
 This entry details the multi-step expansion of a highly complex common logarithm (base 10) featuring multiple factors in both the numerator and denominator, a power, and a square root.
 
 ---
-
 #### Step-by-Step Expansion
 
 ##### Step 1: Convert Radicals to Rational Exponents
@@ -12456,13 +12455,11 @@ Eliminate any radical symbols within the expression by re-writing them as fracti
 *   **Action:** Convert the square root ($\sqrt{\quad}$) in the numerator to an exponent of $\frac{1}{2}$.
 $$\log \left[ \frac{x^3 (x+1)^{1/2}}{(x-2)^2(x-1)} \right]$$
 *   *Why we do this:* Logarithms do not possess distinct properties to handle roots, but changing them to rational exponents allows them to be simplified using the Power Property.
-
 ##### Step 2: Split the Rational Structure (Quotient & Product Properties)
 Professor Leonard emphasizes a fast, foolproof trick for expanding large fractions: **Any factor originating from the numerator gets a positive log term, and any factor originating from the denominator gets a negative (subtracted) log term.**
 *   **Action:** Split all four independent factors ($x^3$, $(x+1)^{1/2}$, $(x-2)^2$, and $(x-1)$) into their own individual common log operations.
 $$\log(x^3) + \log\big((x+1)^{1/2}\big) - \log\big((x-2)^2\big) - \log(x-1)$$
 *   *Why we do this:* This completely dismantles the fractional layout. Because both $(x-2)^2$ and $(x-1)$ are grouped together inside the denominator, they must both be subtracted to show they are dividing the overall expression.
-
 ##### Step 3: Apply the Power Property
 Examine each newly separated logarithm and move any exponents down to clear out the inner arguments.
 *   **The Identity Rule:** $\log(M^r) = r \cdot \log(M)$
@@ -12471,7 +12468,6 @@ $$3\log(x) + \frac{1}{2}\log(x+1) - 2\log(x-2) - \log(x-1)$$
 *   *Why we do this:* This represents the final structural step of expansion, leaving every algebraic argument with an unweighted exponent of exactly 1.
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
@@ -12483,6 +12479,5 @@ $$3\log(x) + \frac{1}{2}\log(x+1) - 2\log(x-2) - \log(x-1)$$
 > Do **not** attempt to split terms like $\log(x+1)$ or $\log(x-2)$ into independent pieces like $\log(x) + \log(1)$. Logarithms can never expand addition or subtraction that is bound inside an argument. They must remain grouped as binomials.
 
 ---
-
 #### Final Fully Expanded Form
 $$3\log(x) + \frac{1}{2}\log(x+1) - 2\log(x-2) - \log(x-1)$$
