@@ -12059,7 +12059,6 @@ The following examples demonstrate the cancellation shortcut when an exponential
 This entry outlines the mechanics, logic, and directional applications of the Product Property of Logarithms as taught by Professor Leonard.
 
 ---
-
 #### 1. Core Definition
 The Product Property states that a single logarithm containing a product (multiplication) inside its argument can be broken apart into the sum of two separate logarithms sharing the same base.
 
@@ -12068,7 +12067,6 @@ $$\log_a(M \cdot N) = \log_a(M) + \log_a(N)$$
 *   **The Conceptual Rule:** Multiplication inside a logarithmic argument translates directly to addition outside between independent logarithmic operations.
 
 ---
-
 #### 2. The Algebraic Logic: Why It Works
 Professor Leonard explains that logarithms are, fundamentally, exponents. Therefore, logarithmic properties behave exactly like exponent rules.
 
@@ -12089,7 +12087,6 @@ Expanding breaks a single, complex logarithm into smaller components. This is hi
     $$\log_5(5x) \implies \log_5(5) + \log_5(x)$$
     Using identity rules ($\log_5(5) = 1$), this simplifies cleanly to:
     $$1 + \log_5(x)$$
-
 ##### Direction 2: Condensing Expressions (Right-to-Left)
 Condensing combines multiple logarithmic terms into one singular logarithm. This is a non-negotiable prerequisite step when solving advanced logarithmic equations.
 *   **Action:** Look for separate logs of the same base joined by addition, and multiply their arguments together inside a single log.
@@ -12097,7 +12094,6 @@ Condensing combines multiple logarithmic terms into one singular logarithm. This
     $$\log_2(x) + \log_2(x+3) \implies \log_2\big(x \cdot (x+3)\big) \implies \log_2(x^2 + 3x)$$
 
 ---
-
 #### 4. Critical Warnings & Mistakes to Avoid
 
 > [!CAUTION]
@@ -12109,3 +12105,4 @@ Condensing combines multiple logarithmic terms into one singular logarithm. This
 > **Multiplying Independent Logarithms:**
 > $$\log_a(M) \cdot \log_a(N) \neq \log_a(M \cdot N)$$
 > Multiplying two entirely separate log operations together does *not* trigger the product property. The addition of separate logs is what yields a multiplied inner argument.
+
