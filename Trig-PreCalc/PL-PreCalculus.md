@@ -12305,49 +12305,39 @@ https://www.youtube.com/watch?v=qCeN653SdX4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Expansion is the process of taking a single logarithm with a complex argument (containing multiplication, division, roots, and exponents) and breaking it apart into a linear chain of separate, simple logarithms.
 
 ---
-
 #### The Global Goal of Expansion
 Every individual factor in the original argument must end up inside its own separate logarithm with an exponent of exactly 1.
 
 ---
-
 #### The Order of Operations for Expansion
 To avoid making algebraic errors, apply the properties of logarithms in a definitive, structured order.
-
 ##### Step 1: Convert Radicals to Rational Exponents
 Logarithms do not have specific operational properties for roots ($\sqrt{\quad}$), but they have rules for exponents. Before doing any splitting, convert all radical signs into fractional exponents.
 *   $\sqrt{x} \implies x^{1/2}$
 *   $\sqrt[3]{y^2} \implies y^{2/3}$
-
 ##### Step 2: Apply the Quotient Property (Split the Fraction)
 If the expression contains a fraction, address the numerator and denominator first. 
 *   Everything in the **numerator** gets a **positive** logarithm.
 *   Everything in the **denominator** gets a **negative** (subtracted) logarithm.
-
 ##### Step 3: Apply the Product Property (Split Multiplied Terms)
 Look inside your newly separated logarithms. If an individual argument still contains factors multiplied together, split them into addition.
 *   $\log_b(xy) \implies \log_b(x) + \log_b(y)$
-
 ##### Step 4: Apply the Power Property (Pull Down Exponents)
 Once every factor is isolated inside its own individual logarithm, take the exponents of those arguments and swing them down to the front to act as coefficients. This must be the final structural step.
 *   $\log_b(x^r) \implies r\log_b(x)$
-
 ##### Step 5: Evaluate Numerical Constants
 Always scan your final expanded chain. If any logarithm contains purely numbers (e.g., $\log_2(8)$ or $\ln(e)$), evaluate them down to integers to complete the simplification.
 
 ---
-
 #### Comprehensive Expansion Example
 
 $$\log_4\left( \frac{16x^3}{\sqrt{y}} \right)$$
 
 ##### Step 1: Rewrite Radicals
 $$\log_4\left( \frac{16x^3}{y^{1/2}} \right)$$
-
 ##### Step 2 & 3: Split Numerator and Denominator
 *(Note: If a term comes from the top, its log is positive; if it comes from the bottom, its log is negative).*
 $$\log_4(16) + \log_4(x^3) - \log_4(y^{1/2})$$
-
 ##### Step 4: Apply Power Property
 Bring all exponents to the front as scalar multipliers:
 $$\log_4(16) + 3\log_4(x) - \frac{1}{2}\log_4(y)$$
@@ -12357,7 +12347,6 @@ Look at the first term: $\log_4(16)$. Since $4^2 = 16$, the term simplifies clea
 $$2 + 3\log_4(x) - \frac{1}{2}\log_4(y)$$
 
 ---
-
 #### Critical Pitfalls to Avoid
 
 > [!CAUTION]
