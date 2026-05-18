@@ -12357,3 +12357,43 @@ $$2 + 3\log_4(x) - \frac{1}{2}\log_4(y)$$
 > **Multi-Term Denominator Traps:**
 > Given $\log_b\left(\frac{a}{cd}\right)$, notice that both $c$ and $d$ reside in the denominator. When expanded, *both* terms must be subtracted: $\log_b(a) - \log_b(c) - \log_b(d)$. Alternatively, use parentheses if keeping the product property grouped: $\log_b(a) - \big(\log_b(c) + \log_b(d)\big)$.
 
+### Expanding $\ln(x^2 \sqrt{1-x})$ via Logarithmic Properties
+
+This entry outlines the step-by-step expansion of a natural logarithm containing a product, a power, and a radical expression.
+
+---
+
+#### Step-by-Step Expansion
+
+##### Step 1: Convert Radicals to Rational Exponents
+Before applying any logarithmic splitting properties, rewrite all roots using fractional exponents.
+*   **Action:** Convert the square root into an exponent of $\frac{1}{2}$.
+$$\ln\big(x^2 (1-x)^{1/2}\big)$$
+*   *Why we do this:* Logarithms do not have specific operational properties for radical symbols, but they possess clear rules for handling exponential powers.
+
+##### Step 2: Apply the Product Property
+The argument contains two distinct algebraic factors multiplied together: $x^2$ and $(1-x)^{1/2}$.
+*   **The Identity Rule:** $\ln(M \cdot N) = \ln(M) + \ln(N)$
+*   **Action:** Separate the two factors into their own individual natural log terms joined by addition.
+$$\ln(x^2) + \ln\big((1-x)^{1/2}\big)$$
+*   *Why we do this:* This isolates each distinct algebraic component into its own functional environment.
+
+##### Step 3: Apply the Power Property
+Each individual logarithm now contains an argument raised to a specific power.
+*   **The Identity Rule:** $\ln(M^r) = r \cdot \ln(M)$
+*   **Action:** Swing the exponents ($2$ and $\frac{1}{2}$) down to the absolute front of their respective log terms to serve as coefficients.
+$$2\ln(x) + \frac{1}{2}\ln(1-x)$$
+*   *Why we do this:* This completes the expansion by ensuring every internal argument has a clean, unweighted exponent of 1.
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **Internal Subtraction Splitting Trap:**
+> Do **not** attempt to break apart the final term $\ln(1-x)$ into $\ln(1) - \ln(x)$. There is absolutely no logarithmic property that allows you to split a subtraction or addition operation stuck inside an argument. It must be left exactly as $\ln(1-x)$.
+
+---
+
+#### Final Fully Expanded Form
+$$2\ln(x) + \frac{1}{2}\ln(1-x)$$
