@@ -12106,3 +12106,58 @@ Condensing combines multiple logarithmic terms into one singular logarithm. This
 > $$\log_a(M) \cdot \log_a(N) \neq \log_a(M \cdot N)$$
 > Multiplying two entirely separate log operations together does *not* trigger the product property. The addition of separate logs is what yields a multiplied inner argument.
 
+### The Quotient Property of Logarithms
+
+This entry outlines the mechanics, underlying logic, and structural applications of the Quotient Property of Logarithms as taught by Professor Leonard.
+
+---
+
+#### 1. Core Definition
+The Quotient Property states that a single logarithm containing a quotient (division) inside its argument can be broken apart into the difference (subtraction) of two separate logarithms sharing the same base.
+
+$$\log_a\left(\frac{M}{N}\right) = \log_a(M) - \log_a(N)$$
+
+*   **The Conceptual Rule:** Division inside a logarithmic argument translates directly to subtraction outside, where the denominator's log is subtracted from the numerator's log.
+
+---
+
+#### 2. The Algebraic Logic: Why It Works
+Because logarithms track exponents, their rules reflect the operational behavior of exponents. 
+
+Consider the standard quotient rule for exponents: 
+$$\frac{x^A}{x^B} = x^{A-B}$$
+*   When you **divide** matching exponential bases, you **subtract** the bottom exponent from the top exponent.
+*   Since a logarithm calculates an exponent, taking the log of a divided argument ($\log_a(M/N)$) requires subtracting the corresponding log expressions ($\log_a(M) - \log_a(N)$).
+
+---
+
+#### 3. Two-Way Directional Application
+
+##### Direction 1: Expanding Expressions (Left-to-Right)
+Expanding breaks a complex, fractional log expression down into simpler linear pieces.
+*   **Action:** Take whatever is in the numerator and give it a positive log term; take whatever is in the denominator and subtract its log term.
+*   **Example:** 
+    $$\ln\left(\frac{e}{x}\right) \implies \ln(e) - \ln(x)$$
+    Using identity rules ($\ln(e) = 1$), this simplifies cleanly to:
+    $$1 - \ln(x)$$
+
+##### Direction 2: Condensing Expressions (Right-to-Left)
+Condensing combines scattered log terms into one singular logarithm, which is a mandatory step for isolating variables when solving logarithmic equations.
+*   **Action:** Look for two logs of the same base separated by subtraction. Combine them by placing the argument of the positive log in the numerator and the argument of the negative log in the denominator.
+*   **Example:** 
+    $$\log_3(x+5) - \log_3(x) \implies \log_3\left(\frac{x+5}{x}\right)$$
+
+---
+
+#### 4. Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Total Division Fallacy (Illegal Move):**
+> $$\frac{\log_a(M)}{\log_a(N)} \neq \log_a(M) - \log_a(N)$$
+> Dividing an entire logarithm by another entirely separate logarithm does **not** trigger the quotient rule. The division must happen completely *inside the argument* of a single log to allow subtraction expansion. (Dividing two separate logs is actually a Change of Base setup).
+
+> [!WARNING]
+> **Internal Subtraction Splitting:**
+> $$\log_a(M - N) \neq \frac{\log_a(M)}{\log_a(N)} \quad \text{and} \quad \log_a(M - N) \neq \log_a(M) - \log_a(N)$$
+> There is no algebraic property that allows you to break apart a subtraction or addition operation that is stuck *inside* a log argument.
+
