@@ -12111,7 +12111,6 @@ Condensing combines multiple logarithmic terms into one singular logarithm. This
 This entry outlines the mechanics, underlying logic, and structural applications of the Quotient Property of Logarithms as taught by Professor Leonard.
 
 ---
-
 #### 1. Core Definition
 The Quotient Property states that a single logarithm containing a quotient (division) inside its argument can be broken apart into the difference (subtraction) of two separate logarithms sharing the same base.
 
@@ -12120,7 +12119,6 @@ $$\log_a\left(\frac{M}{N}\right) = \log_a(M) - \log_a(N)$$
 *   **The Conceptual Rule:** Division inside a logarithmic argument translates directly to subtraction outside, where the denominator's log is subtracted from the numerator's log.
 
 ---
-
 #### 2. The Algebraic Logic: Why It Works
 Because logarithms track exponents, their rules reflect the operational behavior of exponents. 
 
@@ -12130,7 +12128,6 @@ $$\frac{x^A}{x^B} = x^{A-B}$$
 *   Since a logarithm calculates an exponent, taking the log of a divided argument ($\log_a(M/N)$) requires subtracting the corresponding log expressions ($\log_a(M) - \log_a(N)$).
 
 ---
-
 #### 3. Two-Way Directional Application
 
 ##### Direction 1: Expanding Expressions (Left-to-Right)
@@ -12148,7 +12145,6 @@ Condensing combines scattered log terms into one singular logarithm, which is a 
     $$\log_3(x+5) - \log_3(x) \implies \log_3\left(\frac{x+5}{x}\right)$$
 
 ---
-
 #### 4. Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
