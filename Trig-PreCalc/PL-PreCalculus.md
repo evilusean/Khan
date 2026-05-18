@@ -12298,3 +12298,4 @@ $$\ln(x) - x$$
 > [!TIP]
 > **Order of Operations Notice:** No parentheses are needed around the final $x$. The subtraction occurs completely outside of the natural log operation, meaning only the initial variable $x$ remains bound inside the function: $(\ln(x)) - x$.
 
+## 2026-May-18 - How to Expand Logarithms (Precalculus - College Algebra 59) : 
