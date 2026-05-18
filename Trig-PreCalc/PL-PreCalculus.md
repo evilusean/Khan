@@ -12392,3 +12392,59 @@ $$2\ln(x) + \frac{1}{2}\ln(1-x)$$
 ---
 #### Final Fully Expanded Form
 $$2\ln(x) + \frac{1}{2}\ln(1-x)$$
+### Expanding $\log_5 \left( \frac{\sqrt[3]{x^2+1}}{x^2 - 1} \right)$ via Logarithmic Properties
+
+This entry outlines the step-by-step expansion of a base-5 logarithm featuring a rational fraction, a cube root, and quadratic arguments.
+
+---
+
+#### Step-by-Step Expansion
+
+##### Step 1: Convert Radicals to Rational Exponents
+Before separating any terms into independent logarithms, eliminate all radical symbols by converting them into fractional exponents.
+*   **Action:** Rewrite the cube root ($\sqrt[3]{\quad}$) in the numerator as an exponent of $\frac{1}{3}$.
+$$\log_5 \left( \frac{(x^2+1)^{1/3}}{x^2 - 1} \right)$$
+*   *Why we do this:* Logarithms lack structural rules to manage raw radical signs, but converting them into exponential powers unlocks the use of the Power Property later on.
+
+##### Step 2: Apply the Quotient Property
+The primary structure inside the argument is a fraction involving algebraic division.
+*   **The Identity Rule:** $\log_a\left(\frac{M}{N}\right) = \log_a(M) - \log_a(N)$
+*   **Action:** Split the expression into two distinct base-5 logarithms. Give the numerator factor a positive sign and subtract the denominator factor.
+$$\log_5\big((x^2+1)^{1/3}\big) - \log_5(x^2 - 1)$$
+*   *Why we do this:* This removes the rational fraction layout entirely, converting internal division into an external subtraction line.
+
+##### Step 3: Apply the Power Property
+Examine the newly separated terms to check for powers attached directly to the individual arguments.
+*   **The Identity Rule:** $\log_a(M^r) = r \cdot \log_a(M)$
+*   **Action:** Swing the exponent $\frac{1}{3}$ from the numerator's argument down to the absolute front of its specific log term to serve as a scalar coefficient.
+$$\frac{1}{3}\log_5(x^2+1) - \log_5(x^2 - 1)$$
+*   *Why we do this:* Bringing powers out front ensures that the grouped factor $(x^2+1)$ functions with an unweighted exponent of 1.
+
+---
+
+#### Alternative/Advanced Consideration: Factoring
+Professor Leonard frequently reminds students to inspect arguments to ensure they cannot be broken down further algebraically using basic factoring.
+*   **Analysis:** The term $(x^2 + 1)$ is a sum of squares and cannot be factored over real numbers. However, the term $(x^2 - 1)$ is a **difference of squares** and can be factored into $(x - 1)(x + 1)$.
+*   **Action:** Factor the second argument and apply the Product Property:
+    $$\log_5(x^2 - 1) = \log_5\big((x - 1)(x + 1)\big) = \log_5(x - 1) + \log_5(x + 1)$$
+*   **Distribute the Negative Sign:** Because the original log term was subtracted, the negative sign applies to both factored parts:
+    $$\frac{1}{3}\log_5(x^2+1) - \big(\log_5(x - 1) + \log_5(x + 1)\big)$$
+    $$\frac{1}{3}\log_5(x^2+1) - \log_5(x - 1) - \log_5(x + 1)$$
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **Internal Operator Traps (Illegal Moves):**
+> Do **not** attempt to split the expression $\log_5(x^2+1)$ into $\log_5(x^2) + \log_5(1)$. There is absolutely no identity that allows you to expand addition or subtraction stuck inside a logarithmic argument. 
+
+> [!WARNING]
+> **Premature Exponent Pull-Down:**
+> In the term $\log_5(x^2-1)$, you **cannot** bring the power of 2 to the front. The exponent 2 belongs strictly to the variable $x$, not to the entire grouped argument $(x^2-1)$.
+
+---
+
+#### Final Fully Expanded Form
+$$\frac{1}{3}\log_5(x^2+1) - \log_5(x - 1) - \log_5(x + 1)$$
+*(Note: Leaving the last terms unfactored as $- \log_5(x^2 - 1)$ is also technically correct, but completely expanding down to linear binomial arguments matches the thorough standard required in calculus).*
