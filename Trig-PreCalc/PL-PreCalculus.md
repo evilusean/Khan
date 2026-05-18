@@ -12054,3 +12054,58 @@ The following examples demonstrate the cancellation shortcut when an exponential
 *   **Result:** $8$
 > [!NOTE]
 > **Notation Cleanup:** In standard algebra, ensure the exponent is explicitly tracked as the log argument. For instance, writing $e^{\ln(8)}$ avoids confusion with formatting errors like $e^{\ln^8}$, keeping it mathematically clear that $8$ is the structural value being isolated.
+### The Product Property of Logarithms
+
+This entry outlines the mechanics, logic, and directional applications of the Product Property of Logarithms as taught by Professor Leonard.
+
+---
+
+#### 1. Core Definition
+The Product Property states that a single logarithm containing a product (multiplication) inside its argument can be broken apart into the sum of two separate logarithms sharing the same base.
+
+$$\log_a(M \cdot N) = \log_a(M) + \log_a(N)$$
+
+*   **The Conceptual Rule:** Multiplication inside a logarithmic argument translates directly to addition outside between independent logarithmic operations.
+
+---
+
+#### 2. The Algebraic Logic: Why It Works
+Professor Leonard explains that logarithms are, fundamentally, exponents. Therefore, logarithmic properties behave exactly like exponent rules.
+
+Consider the standard product rule for exponents: 
+$$x^A \cdot x^B = x^{A+B}$$
+*   When you **multiply** matching exponential bases, you **add** their exponents.
+*   Because a logarithm outputs an exponent value, taking the log of a multiplied product ($\log_a(M \cdot N)$) naturally requires adding the individual exponents ($\log_a(M) + \log_a(N)$) together.
+
+---
+
+#### 3. Two-Way Directional Application
+Like all algebraic properties, this rule is a "two-way street." You must know how to use it in both directions depending on the goal of your problem.
+
+##### Direction 1: Expanding Expressions (Left-to-Right)
+Expanding breaks a single, complex logarithm into smaller components. This is highly useful in calculus for taking derivatives of complicated functions.
+*   **Action:** Look for multiplication inside the parenthesis and split them into separate added terms.
+*   **Example:** 
+    $$\log_5(5x) \implies \log_5(5) + \log_5(x)$$
+    Using identity rules ($\log_5(5) = 1$), this simplifies cleanly to:
+    $$1 + \log_5(x)$$
+
+##### Direction 2: Condensing Expressions (Right-to-Left)
+Condensing combines multiple logarithmic terms into one singular logarithm. This is a non-negotiable prerequisite step when solving advanced logarithmic equations.
+*   **Action:** Look for separate logs of the same base joined by addition, and multiply their arguments together inside a single log.
+*   **Example:** 
+    $$\log_2(x) + \log_2(x+3) \implies \log_2\big(x \cdot (x+3)\big) \implies \log_2(x^2 + 3x)$$
+
+---
+
+#### 4. Critical Warnings & Mistakes to Avoid
+
+> [!CAUTION]
+> **The Distribution Fallacy (Illegal Move):**
+> $$\log_a(M + N) \neq \log_a(M) + \log_a(N)$$
+> You **cannot** split a logarithm if there is addition *inside* the argument. The property only works if there is *multiplication* inside the argument. 
+
+> [!WARNING]
+> **Multiplying Independent Logarithms:**
+> $$\log_a(M) \cdot \log_a(N) \neq \log_a(M \cdot N)$$
+> Multiplying two entirely separate log operations together does *not* trigger the product property. The addition of separate logs is what yields a multiplied inner argument.
