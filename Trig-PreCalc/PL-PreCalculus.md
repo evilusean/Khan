@@ -12157,3 +12157,61 @@ Condensing combines scattered log terms into one singular logarithm, which is a 
 > $$\log_a(M - N) \neq \frac{\log_a(M)}{\log_a(N)} \quad \text{and} \quad \log_a(M - N) \neq \log_a(M) - \log_a(N)$$
 > There is no algebraic property that allows you to break apart a subtraction or addition operation that is stuck *inside* a log argument.
 
+### The Power Property of Logarithms
+
+This entry outlines the mechanics, underlying logic, and structural applications of the Power Property of Logarithms as taught by Professor Leonard.
+
+---
+
+#### 1. Core Definition
+The Power Property states that an exponent on the argument of a logarithm can be moved down to the front of the logarithm to act as a coefficient multiplier.
+
+$$\log_a(M^r) = r \cdot \log_a(M)$$
+
+*   **The Conceptual Rule:** A power *inside* a logarithmic argument translates directly to a multiplier *outside* the entire logarithmic term.
+
+---
+
+#### 2. The Algebraic Logic: Why It Works
+Because logarithms are exponents, this property is the direct reflection of the "power to a power" rule for exponents.
+
+Consider the standard power rule for exponents:
+$$(x^A)^B = x^{A \cdot B}$$
+*   When raising an exponential term to another power, you **multiply** the exponents together.
+*   Since a logarithm outputs an exponent, taking the log of a base raised to a power ($\log_a(M^r)$) means multiplying the exponent of the argument ($r$) by the overall exponent of the log expression ($\log_a(M)$).
+
+##### Alternative Proof via the Product Property:
+You can also see this property work by expanding an argument out through simple multiplication. For example, if we have a cubed argument:
+$$\log_a(M^3) = \log_a(M \cdot M \cdot M)$$
+Applying the Product Property to split the multiplication into addition yields:
+$$\log_a(M) + \log_a(M) + \log_a(M) = 3\log_a(M)$$
+
+---
+
+#### 3. Two-Way Directional Application
+
+##### Direction 1: Expanding Expressions (Left-to-Right)
+Expanding pulls exponents out of arguments to simplify the internal expression. This is heavily utilized in calculus to avoid using the chain rule during differentiation.
+*   **Action:** Locate any power on the argument and swing it down to the front as a scalar multiplier.
+*   **Important Step (Radicals):** Always convert radicals into fractional exponents before expanding (e.g., $\sqrt{x} \to x^{1/2}$).
+*   **Example:** 
+    $$\ln(\sqrt[3]{x}) \implies \ln(x^{1/3}) \implies \frac{1}{3}\ln(x)$$
+
+##### Direction 2: Condensing Expressions (Right-to-Left)
+Condensing clears out any coefficients in front of logarithms, which is an absolute requirement before you can merge multiple logs using the Product or Quotient properties.
+*   **Action:** Take any scalar coefficient in front of a log term and move it up to become an exponent on the inner argument.
+*   **Example:** 
+    $$2\log_5(x) + \log_5(y) \implies \log_5(x^2) + \log_5(y) \implies \log_5(x^2y)$$
+
+---
+
+#### 4. Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **Whole-Function Powers vs. Argument Powers:**
+> $$\big(\log_a(M)\big)^r \neq r \cdot \log_a(M)$$
+> The power property **only** applies if the exponent is exclusively attached to the internal argument $M$. If the entire logarithmic operation is raised to a power, the power property cannot be used.
+
+> [!WARNING]
+> **Grouped Arguments Require Parentheses:**
+> When expanding an expression like $\log_a(3x)^2$, the exponent applies to the whole argument, allowing $2\log_a(3x)$. However, if it is written as $\log_a 3x^2$, the exponent belongs *only* to the $x$, meaning you cannot bring the 2 to the front until you separate the 3 using the Product Property first: $\log_a 3 + 2\log_a x$.
