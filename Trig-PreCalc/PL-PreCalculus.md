@@ -12443,4 +12443,46 @@ Professor Leonard frequently reminds students to inspect arguments to ensure the
 #### Final Fully Expanded Form
 $$\frac{1}{3}\log_5(x^2+1) - \log_5(x - 1) - \log_5(x + 1)$$
 *(Note: Leaving the last terms unfactored as $- \log_5(x^2 - 1)$ is also technically correct, but completely expanding down to linear binomial arguments matches the thorough standard required in calculus).*
+### Expanding $\log \left[ \frac{x^3 \sqrt{x+1}}{(x-2)^2(x-1)} \right]$ via Logarithmic Properties
 
+This entry details the multi-step expansion of a highly complex common logarithm (base 10) featuring multiple factors in both the numerator and denominator, a power, and a square root.
+
+---
+
+#### Step-by-Step Expansion
+
+##### Step 1: Convert Radicals to Rational Exponents
+Eliminate any radical symbols within the expression by re-writing them as fractional powers.
+*   **Action:** Convert the square root ($\sqrt{\quad}$) in the numerator to an exponent of $\frac{1}{2}$.
+$$\log \left[ \frac{x^3 (x+1)^{1/2}}{(x-2)^2(x-1)} \right]$$
+*   *Why we do this:* Logarithms do not possess distinct properties to handle roots, but changing them to rational exponents allows them to be simplified using the Power Property.
+
+##### Step 2: Split the Rational Structure (Quotient & Product Properties)
+Professor Leonard emphasizes a fast, foolproof trick for expanding large fractions: **Any factor originating from the numerator gets a positive log term, and any factor originating from the denominator gets a negative (subtracted) log term.**
+*   **Action:** Split all four independent factors ($x^3$, $(x+1)^{1/2}$, $(x-2)^2$, and $(x-1)$) into their own individual common log operations.
+$$\log(x^3) + \log\big((x+1)^{1/2}\big) - \log\big((x-2)^2\big) - \log(x-1)$$
+*   *Why we do this:* This completely dismantles the fractional layout. Because both $(x-2)^2$ and $(x-1)$ are grouped together inside the denominator, they must both be subtracted to show they are dividing the overall expression.
+
+##### Step 3: Apply the Power Property
+Examine each newly separated logarithm and move any exponents down to clear out the inner arguments.
+*   **The Identity Rule:** $\log(M^r) = r \cdot \log(M)$
+*   **Action:** Swing the exponents ($3$, $\frac{1}{2}$, and $2$) down to the front of their respective individual terms to act as scalar multiplier coefficients.
+$$3\log(x) + \frac{1}{2}\log(x+1) - 2\log(x-2) - \log(x-1)$$
+*   *Why we do this:* This represents the final structural step of expansion, leaving every algebraic argument with an unweighted exponent of exactly 1.
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Multi-Term Denominator Sign Error:**
+> A very frequent mistake is writing the final term as $+ \log(x-1)$ because it was multiplied by $(x-2)^2$ at the bottom. Remember, because it resides in the denominator, its net effect is division, meaning its expanded logarithm **must** be subtracted: $- \log(x-1)$.
+
+> [!WARNING]
+> **Internal Operator Restrictions (No Splitting Polynomials):**
+> Do **not** attempt to split terms like $\log(x+1)$ or $\log(x-2)$ into independent pieces like $\log(x) + \log(1)$. Logarithms can never expand addition or subtraction that is bound inside an argument. They must remain grouped as binomials.
+
+---
+
+#### Final Fully Expanded Form
+$$3\log(x) + \frac{1}{2}\log(x+1) - 2\log(x-2) - \log(x-1)$$
