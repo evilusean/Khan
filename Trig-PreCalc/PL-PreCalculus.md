@@ -12210,3 +12210,91 @@ Condensing clears out any coefficients in front of logarithms, which is an absol
 > **Grouped Arguments Require Parentheses:**
 > When expanding an expression like $\log_a(3x)^2$, the exponent applies to the whole argument, allowing $2\log_a(3x)$. However, if it is written as $\log_a 3x^2$, the exponent belongs *only* to the $x$, meaning you cannot bring the 2 to the front until you separate the 3 using the Product Property first: $\log_a 3 + 2\log_a x$.
 
+### Step-by-Step Breakdown: Expanding $\log_5(25x)$
+
+This entry demonstrates how to apply the **Product Property of Logarithms** to expand a combined term into separate components, and then evaluate the remaining numerical constant as taught by Professor Leonard.
+
+---
+#### 1. Applying the Property
+
+##### The Given Equation
+$$\log_5(25x) = \log_5(25) + \log_5(x)$$
+
+##### Why This Step Works
+The expression inside the argument on the left side is a product ($25 \cdot x$). 
+*   **The Product Property Identity:** $\log_a(M \cdot N) = \log_a(M) + \log_a(N)$
+*   By matching the template, our base $a$ is **5**, our term $M$ is **25**, and our term $N$ is **$x$**. We split the internal multiplication into an external addition between two separate base-5 logarithms.
+
+---
+#### 2. Evaluating the Numerical Logarithm
+
+Professor Leonard emphasizes that when expanding logarithmic expressions, you are never done until you check if any of the newly created logs consist purely of numbers that can be evaluated.
+
+Look closely at the first term on the right side: **$\log_5(25)$**
+1.  **Ask the Core Logarithmic Question:** This expression asks: *"5 raised to what power equals 25?"*
+2.  **Relate to Exponents:** Since we know that $5^2 = 25$, the logarithm evaluates exactly to the exponent, which is **2**.
+3.  **Substitute back into the expression:** Replace $\log_5(25)$ with the integer $2$.
+
+---
+#### 3. Final Fully Simplified Form
+
+$$2 + \log_5(x)$$
+
+> [!TIP]
+> **When to Stop:** In your notes, always look to see if the argument is a perfect power of the base. If the argument can be written as $b^r$, evaluate it completely using the identity $\log_b(b^r) = r$. If the argument is a variable (like $x$), it cannot be simplified further and must be left alone.
+
+### Expanding $\ln\left(\frac{e}{x}\right)$ via Logarithmic Properties
+
+This entry demonstrates how to expand a fractional natural log expression into a fully simplified linear expression by combining the **Quotient Property** and the **Identity Property**.
+
+---
+#### Step-by-Step Expansion
+##### Step 1: Apply the Quotient Property
+The argument inside the natural log contains a fraction ($\frac{e}{x}$).
+*   **The Identity Rule:** $\ln\left(\frac{M}{N}\right) = \ln(M) - \ln(N)$
+*   **Action:** Separate the numerator ($e$) and the denominator ($x$) into independent log terms, subtracting the denominator's log from the numerator's log.
+$$\ln(e) - \ln(x)$$
+*   *Why we do this:* This step dismantles the rational fraction structure, turning an internal division operation into an external subtraction line.
+##### Step 2: Apply the Identity Property
+Look closely at the first term: **$\ln(e)$**.
+*   **The Identity Rule:** $\ln(e) = 1$
+*   **Action:** The natural log has an unwritten implicit base of $e$. This term asks the fundamental question: *"Base $e$ raised to what power equals $e$?"* Since $e^1 = e$, the log of its own base simplifies cleanly to the integer **1**.
+$$\ln(e) \implies 1$$
+##### Step 3: Combine and Finalize
+Substitute the simplified integer back into the expression to find the final form.
+$$1 - \ln(x)$$
+
+---
+#### Final Fully Expanded Form
+$$1 - \ln(x)$$
+
+### Expanding $\ln\left(\frac{x}{e^x}\right)$ via Logarithmic Properties
+
+This entry demonstrates how to break down a fractional natural log expression by combining the **Quotient Property** and the **Inverse Identity Property** into a fully simplified form.
+
+---
+#### Step-by-Step Expansion
+
+##### Step 1: Apply the Quotient Property
+The argument of the natural log is a fraction involving division ($\frac{x}{e^x}$).
+*   **The Identity Rule:** $\ln\left(\frac{M}{N}\right) = \ln(M) - \ln(N)$
+*   **Action:** Separate the numerator ($x$) and the denominator ($e^x$) into their own independent logs, subtracting the bottom from the top.
+$$\ln(x) - \ln(e^x)$$
+*   *Why we do this:* This removes the fraction entirely, changing an internal division operation into an external subtraction line.
+##### Step 2: Apply the Log-of-a-Base Inverse Property
+Look closely at the second term: **$\ln(e^x)$**. 
+*   **The Identity Rule:** $\ln(e^{\square}) = \square$
+*   **Action:** Because the natural log ($\ln$) has an implicit base of $e$, it perfectly matches the exponential base $e$ inside its argument. The operations cancel each other out completely, leaving behind just the exponent **$x$**.
+$$\ln(e^x) \implies x$$
+
+##### Step 3: Combine and Finalize
+Substitute the simplified value back into our expanded expression.
+$$\ln(x) - x$$
+
+---
+#### Final Fully Expanded Form
+$$\ln(x) - x$$
+
+> [!TIP]
+> **Order of Operations Notice:** No parentheses are needed around the final $x$. The subtraction occurs completely outside of the natural log operation, meaning only the initial variable $x$ remains bound inside the function: $(\ln(x)) - x$.
+
