@@ -12524,7 +12524,6 @@ $$\ln(5) + 2\ln(x) + \frac{1}{3}\ln(7-2x) - \ln(4) - 2\ln(x+1)$$
 This entry details the multi-step expansion of a common logarithm (base 10) where the entire fractional argument is raised to a global exponent, and the denominator contains a factorable quadratic binomial.
 
 ---
-
 #### Step-by-Step Expansion
 
 ##### Step 1: Apply the Global Power Property
@@ -12533,24 +12532,20 @@ Look at the outermost structure of the expression. The entire rational argument 
 *   **Action:** Bring the global exponent $\frac{2}{3}$ all the way down to the front of the logarithm to serve as a multiplier for the entire upcoming expansion. Use large brackets to keep it grouped.
 $$\frac{2}{3} \cdot \log \left[ \frac{(x-4)^2}{x^2 - 9} \right]$$
 *   *Why we do this:* This clears the outer layer of the expression, allowing you to split the internal fraction safely without mismanaging the power.
-
 ##### Step 2: Factor the Denominator
 Professor Leonard strongly emphasizes checking all polynomial arguments for basic factoring opportunities before splitting them apart.
 *   **Analysis:** The denominator $x^2 - 9$ is a **difference of squares**. It can be factored cleanly into $(x - 3)(x + 3)$.
 *   **Action:** Rewrite the expression with the factored denominator.
 $$\frac{2}{3} \cdot \log \left[ \frac{(x-4)^2}{(x - 3)(x + 3)} \right]$$
-
 ##### Step 3: Split the Rational Structure (Quotient & Product Properties)
 Dismantle the fraction into separate log terms using the standard rule: **Factors from the numerator yield positive log terms, while factors from the denominator yield negative (subtracted) log terms.** Keep the global coefficient $\frac{2}{3}$ outside the group for now.
 *   **Action:** Separate the three individual factors: $(x-4)^2$, $(x-3)$, and $(x+3)$.
 $$\frac{2}{3} \left[ \log\big((x-4)^2\big) - \log(x - 3) - \log(x + 3) \right]$$
 *   *Why we do this:* Both $(x-3)$ and $(x+3)$ reside in the denominator, meaning they are dividing the expression and must both carry a negative sign when expanded.
-
 ##### Step 4: Apply the Internal Power Property
 Examine the newly separated terms. The first argument still contains an exponent of $2$.
 *   **Action:** Swing the exponent $2$ down to the front of its specific log term.
 $$\frac{2}{3} \left[ 2\log(x - 4) - \log(x - 3) - \log(x + 3) \right]$$
-
 ##### Step 5: Distribute the Global Coefficient
 To finalize the expansion, distribute the fractional multiplier $\frac{2}{3}$ to each individual log term inside the brackets.
 *   First term: $\frac{2}{3} \cdot 2\log(x-4) = \frac{4}{3}\log(x-4)$
@@ -12560,7 +12555,6 @@ To finalize the expansion, distribute the fractional multiplier $\frac{2}{3}$ to
 $$\frac{4}{3}\log(x - 4) - \frac{2}{3}\log(x - 3) - \frac{2}{3}\log(x + 3)$$
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
@@ -12572,6 +12566,6 @@ $$\frac{4}{3}\log(x - 4) - \frac{2}{3}\log(x - 3) - \frac{2}{3}\log(x + 3)$$
 > Never try to expand addition or subtraction trapped inside a binomial argument, such as rewriting $\log(x-4)$ into $\log(x) - \log(4)$. These terms are completely unbreakable and must remain intact.
 
 ---
-
 #### Final Fully Expanded Form
 $$\frac{4}{3}\log(x - 4) - \frac{2}{3}\log(x - 3) - \frac{2}{3}\log(x + 3)$$
+
