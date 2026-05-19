@@ -12569,4 +12569,4 @@ $$\frac{4}{3}\log(x - 4) - \frac{2}{3}\log(x - 3) - \frac{2}{3}\log(x + 3)$$
 #### Final Fully Expanded Form
 $$\frac{4}{3}\log(x - 4) - \frac{2}{3}\log(x - 3) - \frac{2}{3}\log(x + 3)$$
 ## 2026-May-19 - How to Combine Logarithms (Precalculus - College Algebra 60) :
-
+https://www.youtube.com/watch?v=YrU8fYchnIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
