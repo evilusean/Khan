@@ -12793,3 +12793,4 @@ Look at the result: $\log_3 (x^9)$. While this is the condensed form, the Power 
 
 #### Final Condensed Form
 $$\log_3 (x^9)$$
+
