@@ -12794,3 +12794,52 @@ Look at the result: $\log_3 (x^9)$. While this is the condensed form, the Power 
 #### Final Condensed Form
 $$\log_3 (x^9)$$
 
+### Condensing $2\log(x+1) - \frac{1}{4}\log(x-1) + \frac{3}{8}\log(2x+3) - \frac{1}{5}\log x - 4\log 2 + \log 12$
+
+This entry demonstrates how to condense a long, multi-term logarithmic expression using Professor Leonard’s efficient "Fraction Trick" methodology.
+
+---
+
+#### Step-by-Step Condensing
+
+##### Step 1: Move Coefficients Up (Power Property)
+Before merging, the coefficient in front of every logarithm must be moved to the exponent of its argument.
+* **Action:** Apply $r \cdot \log(M) \implies \log(M^r)$ to all terms.
+$$\log(x+1)^2 - \log(x-1)^{1/4} + \log(2x+3)^{3/8} - \log(x^{1/5}) - \log(2^4) + \log(12)$$
+
+##### Step 2: Simplify Constant Powers
+Evaluate any purely numerical arguments to simplify the expression before the final merge.
+* **Calculation:** $2^4 = 16$.
+$$\log(x+1)^2 - \log(x-1)^{1/4} + \log(2x+3)^{3/8} - \log(x^{1/5}) - \log(16) + \log(12)$$
+
+##### Step 3: Merge into a Single Log (The Fast Fraction Trick)
+Draw one large log symbol and a single fraction bar. Sort the arguments based on the sign in front of their respective log terms.
+* **Numerator (Positive Logs):** $(x+1)^2$, $(2x+3)^{3/8}$, and $12$.
+* **Denominator (Negative Logs): $(x-1)^{1/4}$, $x^{1/5}$, and $16$.
+$$\log \left[ \frac{12(x+1)^2(2x+3)^{3/8}}{16(x-1)^{1/4}x^{1/5}} \right]$$
+
+##### Step 4: Simplify Coefficients and Convert to Radicals
+Finalize the note by reducing numerical fractions and converting rational exponents back into roots.
+* **Numerical Reduction:** $\frac{12}{16} = \frac{3}{4}$.
+* **Convert to Roots:** * $(2x+3)^{3/8} \implies \sqrt[8]{(2x+3)^3}$
+    * $(x-1)^{1/4} \implies \sqrt[4]{x-1}$
+    * $x^{1/5} \implies \sqrt[5]{x}$
+
+---
+
+#### Final Condensed Form
+$$\log \left[ \frac{3(x+1)^2 \sqrt[8]{(2x+3)^3}}{4 \sqrt[4]{x-1} \sqrt[5]{x}} \right]$$
+
+> [!TIP]
+> **The Denominator Rule:**
+> Notice that even though $-\log(16)$ and $-\log(x^{1/5})$ are separate terms, they both end up in the denominator multiplied together. As Professor Leonard says: "If it's minus, it goes on the bottom; if it's plus, it goes on the top."
+
+---
+
+#### Summary Table of Properties Used
+| Property              | Formula                       |
+| :-------------------- | :---------------------------- |
+| **Power Property**    | $r \log M = \log M^r$         |
+| **Product Property**  | $\log M + \log N = \log(MN)$  |
+| **Quotient Property** | $\log M - \log N = \log(M/N)$ |
+
