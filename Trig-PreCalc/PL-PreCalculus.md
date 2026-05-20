@@ -12842,4 +12842,5 @@ $$\log \left[ \frac{3(x+1)^2 \sqrt[8]{(2x+3)^3}}{4 \sqrt[4]{x-1} \sqrt[5]{x}} \r
 | **Power Property**    | $r \log M = \log M^r$         |
 | **Product Property**  | $\log M + \log N = \log(MN)$  |
 | **Quotient Property** | $\log M - \log N = \log(M/N)$ |
+## 2026-May-20 - How to Change the Base of a Logarithm (Precalculus - College Algebra 61) : 
 
