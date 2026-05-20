@@ -12702,3 +12702,55 @@ $$\log_4 \left( \frac{x - 1}{(x+1)^4} \right)$$
 ---
 #### Final Condensed Form
 $$\log_4 \left( \frac{x - 1}{(x+1)^4} \right)$$
+### Condensing $\ln\left(\frac{x}{x-1}\right) + \ln\left(\frac{x+1}{x}\right) - \ln(x^2 - 1)$
+
+This entry demonstrates the systematic method for condensing multiple natural logarithms into a single, simplified term by managing fractions and factoring polynomials.
+
+---
+
+#### Step-by-Step Condensing
+
+##### Step 1: Clear Front Coefficients
+Check the front of each $\ln$ term for scalar multipliers.
+* **Observation:** All coefficients are currently 1. No exponents need to be moved.
+
+##### Step 2: Merge into a Single Log (The Fraction Trick)
+Apply the rule: **Positive log arguments go in the numerator; negative (subtracted) log arguments go in the denominator.** * **Action:** Combine the three terms into one large $\ln$ argument.
+$$\ln \left[ \frac{\left(\frac{x}{x-1}\right) \cdot \left(\frac{x+1}{x}\right)}{(x^2 - 1)} \right]$$
+
+##### Step 3: Simplify the Internal Numerator
+Before dealing with the main denominator, simplify the product of the two fractions at the top.
+* **Calculation:** $\frac{x}{x-1} \cdot \frac{x+1}{x}$
+* **Action:** The $x$ in the numerator and the $x$ in the denominator cancel out.
+$$\frac{x+1}{x-1}$$
+* **Current State:** $\ln \left[ \frac{\frac{x+1}{x-1}}{x^2 - 1} \right]$
+
+##### Step 4: Manage the Complex Fraction and Factor
+To simplify the division, treat it as multiplying by the reciprocal of the denominator.
+* **Reciprocal:** $\frac{x+1}{x-1} \cdot \frac{1}{x^2 - 1}$
+* **Factor:** Recognize $x^2 - 1$ as a **difference of squares**: $(x-1)(x+1)$.
+$$\frac{x+1}{x-1} \cdot \frac{1}{(x-1)(x+1)}$$
+
+##### Step 5: Final Reduction
+Cancel out the common $(x+1)$ terms from the top and bottom.
+* **Top:** $x+1$ becomes $1$.
+* **Bottom:** $(x-1) \cdot (x-1)$ becomes $(x-1)^2$.
+$$\frac{1}{(x-1)^2}$$
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **Denominator Placement:**
+> Even though $(x^2 - 1)$ is a single term, it is being subtracted. This means it *must* join the denominator of the unified log. When combined with the fractions already present, it effectively multiplies the existing denominator.
+
+> [!WARNING]
+> **Internal Factor Cancellation:**
+> Always look for "hidden" cancellations. In this problem, failing to factor the difference of squares would leave the expression in an unsimplified state, which does not meet the standard for a final answer in Precalculus.
+
+---
+
+#### Final Condensed Form
+$$\ln \left[ \frac{1}{(x-1)^2} \right]$$
+*Which can also be written as:* $-2\ln(x-1)$
