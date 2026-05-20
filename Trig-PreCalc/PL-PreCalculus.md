@@ -12752,7 +12752,6 @@ $$\ln \left[ \frac{1}{(x-1)^2} \right]$$
 This entry demonstrates how to condense a multi-term base-3 logarithmic expression by identifying additive inverses and applying exponent rules.
 
 ---
-
 #### Step-by-Step Condensing
 
 ##### Step 1: Identify and Cancel Additive Inverses
@@ -12760,35 +12759,29 @@ Before performing any logarithmic properties, scan the expression for identical 
 * **Observation:** The expression contains $+ \log_3 9$ and $- \log_3 9$.
 * **Action:** These terms sum to zero and cancel each other out immediately.
 $$21\log_3 \sqrt[3]{x} + 2\log_3 x$$
-
 ##### Step 2: Convert Radicals to Rational Exponents
 Rewrite the root as a fractional power to make the upcoming Power Property step easier to calculate.
 * **Action:** Convert $\sqrt[3]{x}$ to $x^{1/3}$.
 $$21\log_3 (x^{1/3}) + 2\log_3 x$$
-
 ##### Step 3: Move Coefficients Up (Power Property)
 Clear the space in front of each logarithm by moving the scalar coefficients to the exponent position.
 * **Action:** Move $21$ and $2$ up as powers.
 $$\log_3 ((x^{1/3})^{21}) + \log_3 (x^2)$$
-
 ##### Step 4: Simplify the Internal Exponents
 Apply the power-to-a-power rule: $(x^a)^b = x^{a \cdot b}$.
 * **Calculation:** $\frac{1}{3} \cdot 21 = 7$.
 $$\log_3 (x^7) + \log_3 (x^2)$$
-
 ##### Step 5: Merge into a Single Log (Product Property)
 Since the two terms are separated by addition, they combine into a single logarithm where the arguments are multiplied together.
 * **The Identity Rule:** $\log_a(M) + \log_a(N) = \log_a(M \cdot N)$
 * **Action:** Multiply the internal arguments.
 $$\log_3 (x^7 \cdot x^2)$$
-
 ##### Step 6: Final Reduction
 Apply the product rule for exponents: $x^a \cdot x^b = x^{a+b}$.
 * **Calculation:** $7 + 2 = 9$.
 $$\log_3 (x^9)$$
 
 ---
-
 #### Alternative Evaluation Check
 Look at the result: $\log_3 (x^9)$. While this is the condensed form, the Power Property could also be used to write this as $9\log_3 x$ if the goal was expansion. For condensing purposes, we keep it as a single log.
 
