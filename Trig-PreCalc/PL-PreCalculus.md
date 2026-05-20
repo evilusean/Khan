@@ -12629,32 +12629,27 @@ $$2\log_3(x) + \frac{1}{2}\log_3(y) - 3\log_3(z)$$
 This entry demonstrates how to combine two logarithmic terms with identical bases and identical arguments into a single, simplified logarithmic expression.
 
 ---
-
 #### Step-by-Step Condensing
 
 ##### Step 1: Move Coefficients Up (Power Property)
 Before merging, the space in front of each logarithm must be cleared by moving the scalar coefficients to the exponent position of the arguments.
 * **Action:** Move $\frac{1}{2}$ and $3$ up as powers.
 $$\log_3(x^{1/2}) - \log_3(x^3)$$
-
 ##### Step 2: Merge into a Single Log (Quotient Property)
 Because the two terms are separated by subtraction, they combine into a single logarithm where the arguments form a fraction.
 * **The Identity Rule:** $\log_a(M) - \log_a(N) = \log_a\left(\frac{M}{N}\right)$
 * **Action:** Place the positive term's argument in the numerator and the negative term's argument in the denominator.
 $$\log_3\left( \frac{x^{1/2}}{x^3} \right)$$
-
 ##### Step 3: Simplify the Internal Argument (Exponent Rules)
 Since the bases of the exponential terms ($x$) are the same, simplify the fraction by subtracting the exponents.
 * **Rule:** $\frac{x^A}{x^B} = x^{A-B}$
 * **Calculation:** $\frac{1}{2} - 3 = \frac{1}{2} - \frac{6}{2} = -\frac{5}{2}$
 $$\log_3(x^{-5/2})$$
-
 ##### Step 4: Final Formatting (Radicals and Positive Exponents)
 To finish the note, rewrite the expression using a radical and move the negative exponent to the denominator if a positive exponent is preferred.
 * **Radical Form:** $\log_3\left( \frac{1}{x^{5/2}} \right) \implies \log_3\left( \frac{1}{\sqrt{x^5}} \right)$
 
 ---
-
 #### Alternative Method: Combining Like Terms First
 Professor Leonard often points out that if the base **and** the argument are identical, you can treat the logs like "apples."
 1.  **Identify Like Terms:** Both terms are $\log_3(x)$.
@@ -12666,6 +12661,5 @@ Professor Leonard often points out that if the base **and** the argument are ide
 > **Check Your Work:** Both methods lead to the same result. If you see identical arguments ($x$ and $x$), combining them as like terms first is usually the faster path.
 
 ---
-
 #### Final Condensed Form
 $$\log_3\left( \frac{1}{\sqrt{x^5}} \right)$$
