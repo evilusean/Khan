@@ -12663,3 +12663,48 @@ Professor Leonard often points out that if the base **and** the argument are ide
 ---
 #### Final Condensed Form
 $$\log_3\left( \frac{1}{\sqrt{x^5}} \right)$$
+### Condensing $\log_4(x^2 - 1) - 5\log_4(x + 1)$
+
+This entry outlines the step-by-step process of combining two base-4 logarithms into a single expression, including the essential algebraic simplification of the argument.
+
+---
+
+#### Step-by-Step Condensing
+
+##### Step 1: Move Coefficients Up (Power Property)
+Before merging the logarithms, ensure the front of each log term is clear.
+* **Action:** Move the coefficient $5$ to the exponent position of the argument $(x+1)$.
+$$\log_4(x^2 - 1) - \log_4((x+1)^5)$$
+
+##### Step 2: Merge into a Single Log (Quotient Property)
+The subtraction sign indicates that these terms should be merged into a single logarithm containing a fraction.
+* **Action:** Place the positive term's argument in the numerator and the subtracted term's argument in the denominator.
+$$\log_4 \left( \frac{x^2 - 1}{(x+1)^5} \right)$$
+
+##### Step 3: Factor the Argument
+Professor Leonard emphasizes that you are not "done" until the internal argument is as simple as possible. Look for factoring opportunities.
+* **Analysis:** The numerator $x^2 - 1$ is a **difference of squares**.
+* **Factoring:** $x^2 - 1 = (x - 1)(x + 1)$
+$$\log_4 \left( \frac{(x - 1)(x + 1)}{(x+1)^5} \right)$$
+
+##### Step 4: Simplify the Fraction
+Cancel out common factors between the numerator and denominator to reach the final form.
+* **Action:** Cancel one $(x + 1)$ from the top and bottom.
+$$\log_4 \left( \frac{x - 1}{(x+1)^4} \right)$$
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Negative Sign Placement:**
+> When moving the coefficient $5$ in Step 1, only move the number, not the negative sign. The subtraction is the "glue" that tells you the argument belongs in the denominator during Step 2.
+
+> [!WARNING]
+> **Incomplete Simplification:**
+> Leaving the answer as $\log_4 \left( \frac{x^2 - 1}{(x+1)^5} \right)$ is often considered incorrect in a Precalculus or Calculus context. Always check for polynomial factors that can be reduced.
+
+---
+
+#### Final Condensed Form
+$$\log_4 \left( \frac{x - 1}{(x+1)^4} \right)$$
