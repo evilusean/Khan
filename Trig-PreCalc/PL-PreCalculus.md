@@ -12575,42 +12575,36 @@ https://www.youtube.com/watch?v=YrU8fYchnIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Condensing (or combining) logarithms is the exact reverse process of expansion. It takes a long, linear chain of multiple logarithmic terms and compresses them into one single logarithm containing a unified algebraic argument.
 
 ---
-
 #### The Global Goal of Condensing
 To merge multiple logs of the same base until you are left with exactly **one** log expression with a coefficient of 1.
 
 * **The Golden Prerequisite:** You can *only* combine logarithms that share the exact same base (e.g., all are $\log_3$, all are $\ln$, or all are common $\log$). If the bases do not match, they cannot be merged.
 
 ---
-
 #### The Order of Operations for Condensing
 To avoid structural errors, apply the expansion steps completely in reverse.
 
 [Step 1: Move Coefficients Up] —> [Step 2: Handle Fractions / Multiplications] —> [Step 3: Convert to Radicals]
 
 ---
-
 #### Step-by-Step Methodology
 
 ##### Step 1: Apply the Power Property (Clear Front Coefficients)
 Before you can merge any separate logs together, the space directly in front of every logarithm must be completely clear.
 * **Action:** Take any scalar multiplier or fraction sitting in front of a log and swing it up to become an exponent on that log's internal argument.
 * **Template:** $r \cdot \log_a(M) \implies \log_a(M^r)$
-
 ##### Step 2: Apply the Product and Quotient Properties (The Fast Fraction Trick)
 Once all coefficients are cleared, merge the terms into a single log argument. Professor Leonard teaches a highly efficient shortcut to process the entire string of terms simultaneously rather than working painstakingly left-to-right:
 1.  Write down one single log symbol with the matching base and draw a large fraction bar next to it.
 2.  Scan your terms:
     * If a log term has a **positive** sign in front of it, its argument goes into the **numerator** (top) of your fraction as a multiplied factor.
     * If a log term has a **negative** sign in front of it, its argument goes into the **denominator** (bottom) of your fraction as a multiplied factor.
-
 ##### Step 3: Simplify and Convert Rational Exponents
 Look inside your newly unified argument. Perform any necessary polynomial multiplication or factoring cleanup. Finally, change any fractional exponents back into standard radical forms.
 * $x^{1/2} \implies \sqrt{x}$
 * $(y+2)^{2/3} \implies \sqrt[3]{(y+2)^2}$
 
 ---
-
 #### Comprehensive Condensing Example
 $$2\log_3(x) + \frac{1}{2}\log_3(y) - 3\log_3(z)$$
 
@@ -12619,7 +12613,6 @@ $$2\log_3(x) + \frac{1}{2}\log_3(y) - 3\log_3(z)$$
 3.  **Convert to Radicals:** $\log_3 \left( \frac{x^2\sqrt{y}}{z^3} \right)$
 
 ---
-
 #### Critical Pitfalls to Avoid
 
 > [!CAUTION]
