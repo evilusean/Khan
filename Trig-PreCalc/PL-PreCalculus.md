@@ -12849,20 +12849,15 @@ https://www.youtube.com/watch?v=tgcFt8zGnNE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 The Change of Base Formula is a vital computational tool that allows you to rewrite any logarithm into a different base. Historically, this was necessary because calculators only possessed buttons for Common Logs ($\log_{10}$) and Natural Logs ($\ln$).
 
 ---
-
 #### The Change of Base Formula
 To change $\log_{b}M$ into a new base $a$:
 
 $$\log_{b}M = \frac{\log_{a}M}{\log_{a}b}$$
-
 **The "Memory Trick":**
 * The **Argument** ($M$) is "higher" in the original expression, so it goes in the **Numerator**.
 * The **Base** ($b$) is "lower" in the original expression, so it goes in the **Denominator**.
 
-
-
 ---
-
 #### Why Use Change of Base?
 
 1.  **Calculator Evaluation:** Most calculators cannot directly compute $\log_{3}7$. By changing the base to $10$ or $e$, you can find the decimal approximation.
@@ -12870,7 +12865,6 @@ $$\log_{b}M = \frac{\log_{a}M}{\log_{a}b}$$
 3.  **Simplification:** Some complex logarithmic products can be simplified by converting everything to Natural Logs and cancelling terms.
 
 ---
-
 #### Common Application: The "Calculator Move"
 When solving for a decimal value, you generally choose base $10$ or base $e$. Both will yield the exact same result.
 
@@ -12882,24 +12876,19 @@ When solving for a decimal value, you generally choose base $10$ or base $e$. Bo
     $$\frac{\ln(12)}{\ln(5)} \approx 1.544$$
 
 ---
-
 #### Step-by-Step Procedure
 
 ##### Step 1: Identify your $M$ and $b$
 Look at the expression $\log_{b}M$. Explicitly note which value is the argument and which is the base.
-
 ##### Step 2: Choose your New Base
 * Choose **Base 10** ($\log$) or **Base $e$** ($\ln$) if you need a decimal.
 * Choose a base that matches other logs in your problem if you are simplifying.
-
 ##### Step 3: Set up the Fraction
 Place the log of the argument over the log of the old base using your new chosen base.
-
 ##### Step 4: Evaluate or Simplify
 Use a calculator for decimals, or use logarithmic properties to simplify the resulting fraction if the numbers are powers of the same base.
 
 ---
-
 #### Critical Pitfalls to Avoid
 
 > [!CAUTION]
@@ -12912,11 +12901,10 @@ Use a calculator for decimals, or use logarithmic properties to simplify the res
 > Ensure the original base $b$ always ends up in the denominator. A common error is accidentally flipping the fraction to $\frac{\log b}{\log M}$, which will result in the reciprocal of the correct answer.
 
 ---
-
 #### Summary Table
 
-| Goal | Original | Change of Base Setup |
-| :--- | :--- | :--- |
-| **Decimal (Common)** | $\log_{b}M$ | $\log(M) / \log(b)$ |
-| **Decimal (Natural)** | $\log_{b}M$ | $\ln(M) / \ln(b)$ |
-| **Algebraic Shift** | $\log_{2}x$ | $\log_{8}(x) / \log_{8}(2)$ |
+| Goal                  | Original    | Change of Base Setup        |
+| :-------------------- | :---------- | :-------------------------- |
+| **Decimal (Common)**  | $\log_{b}M$ | $\log(M) / \log(b)$         |
+| **Decimal (Natural)** | $\log_{b}M$ | $\ln(M) / \ln(b)$           |
+| **Algebraic Shift**   | $\log_{2}x$ | $\log_{8}(x) / \log_{8}(2)$ |
