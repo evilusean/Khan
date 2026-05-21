@@ -12956,34 +12956,27 @@ $$\frac{\ln(7)}{\ln(\sqrt{5})} \approx 2.418$$
 This entry demonstrates the calculation of a logarithm involving two transcendental constants ($\pi$ and $e$) by converting the expression into a format suitable for calculator evaluation.
 
 ---
-
 #### Step-by-Step Evaluation
 
 ##### Step 1: Identify the Argument and the Base
 Apply the "Attic and Basement" mnemonic to determine the structure of the fraction.
 * **Argument ($M$):** $e$ (The argument goes in the **Attic/Numerator**).
 * **Base ($b$):** $\pi$ (The base goes in the **Basement/Denominator**).
-
 ##### Step 2: Apply the Change of Base Formula
 While you can use any base, choosing the Natural Log ($\ln$) is the most efficient path here because the argument is $e$.
 * **Formula:** $\log_b M = \frac{\ln M}{\ln b}$
 * **Setup:** $$\frac{\ln(e)}{\ln(\pi)}$$
-
-
-
 ##### Step 3: Simplify the Numerator
 Recall the **Identity Property** of logarithms: when the base of the log matches the argument, the expression evaluates to 1. Since $\ln$ is a base-$e$ logarithm:
 * $\ln(e) = 1$
 * **Revised Setup:**
 $$\frac{1}{\ln(\pi)}$$
-
 ##### Step 4: Calculator Evaluation
 Perform the final division using the decimal value for $\ln(\pi)$.
 * $\ln(\pi) \approx 1.1447$
 * **Calculation:** $1 \div 1.1447 \approx 0.8736$
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
