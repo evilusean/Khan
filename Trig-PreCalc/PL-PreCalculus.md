@@ -12913,21 +12913,16 @@ Use a calculator for decimals, or use logarithmic properties to simplify the res
 This entry demonstrates the calculation of a logarithm with an irrational base by converting it into a form compatible with standard calculators.
 
 ---
-
 #### Step-by-Step Evaluation
 
 ##### Step 1: Identify the Argument and the Base
 Before setting up the fraction, identify the "Attic" and "Basement" components.
 * **Argument ($M$):** $7$ (This goes in the **Attic/Numerator**)
 * **Base ($b$):** $\sqrt{5}$ (This goes in the **Basement/Denominator**)
-
 ##### Step 2: Set up the Change of Base Formula
 Choose either Common Log ($\log$) or Natural Log ($\ln$). Professor Leonard typically uses $\ln$ for these evaluations.
 * **Formula:** $\log_b M = \frac{\ln M}{\ln b}$
 * **Setup:** $$\frac{\ln(7)}{\ln(\sqrt{5})}$$
-
-
-
 ##### Step 3: Simplify the Denominator (Optional but Recommended)
 To make the calculation cleaner, convert the square root into a rational exponent and use the Power Property.
 * $\sqrt{5} = 5^{1/2}$
@@ -12942,7 +12937,6 @@ Perform the division to find the decimal approximation.
 * **Division:** $1.9459 \div 0.8047 \approx 2.418$
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
