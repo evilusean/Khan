@@ -12856,7 +12856,7 @@ $$\log_{b}M = \frac{\log_{a}M}{\log_{a}b}$$
 **The "Memory Trick":**
 * The **Argument** ($M$) is "higher" in the original expression, so it goes in the **Numerator**.
 * The **Base** ($b$) is "lower" in the original expression, so it goes in the **Denominator**.
-- The **Argument Goes in the Attic** (Numerator) and the **Base Goes in the Basement** (Denominator)
+- Use this Anemonic - Mnemonic Device : The **Argument Goes in the Attic** (Numerator) and the **Base Goes in the Basement** (Denominator)
 ---
 #### Why Use Change of Base?
 
