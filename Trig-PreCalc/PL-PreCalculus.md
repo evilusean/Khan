@@ -12908,3 +12908,52 @@ Use a calculator for decimals, or use logarithmic properties to simplify the res
 | **Decimal (Common)**  | $\log_{b}M$ | $\log(M) / \log(b)$         |
 | **Decimal (Natural)** | $\log_{b}M$ | $\ln(M) / \ln(b)$           |
 | **Algebraic Shift**   | $\log_{2}x$ | $\log_{8}(x) / \log_{8}(2)$ |
+### Evaluating $\log_{\sqrt{5}}(7)$ using Change of Base
+
+This entry demonstrates the calculation of a logarithm with an irrational base by converting it into a form compatible with standard calculators.
+
+---
+
+#### Step-by-Step Evaluation
+
+##### Step 1: Identify the Argument and the Base
+Before setting up the fraction, identify the "Attic" and "Basement" components.
+* **Argument ($M$):** $7$ (This goes in the **Attic/Numerator**)
+* **Base ($b$):** $\sqrt{5}$ (This goes in the **Basement/Denominator**)
+
+##### Step 2: Set up the Change of Base Formula
+Choose either Common Log ($\log$) or Natural Log ($\ln$). Professor Leonard typically uses $\ln$ for these evaluations.
+* **Formula:** $\log_b M = \frac{\ln M}{\ln b}$
+* **Setup:** $$\frac{\ln(7)}{\ln(\sqrt{5})}$$
+
+
+
+##### Step 3: Simplify the Denominator (Optional but Recommended)
+To make the calculation cleaner, convert the square root into a rational exponent and use the Power Property.
+* $\sqrt{5} = 5^{1/2}$
+* $\ln(5^{1/2}) = \frac{1}{2}\ln(5)$
+* **Revised Setup:**
+$$\frac{\ln(7)}{\frac{1}{2}\ln(5)}$$
+
+##### Step 4: Calculator Evaluation
+Perform the division to find the decimal approximation.
+* $\ln(7) \approx 1.9459$
+* $\ln(\sqrt{5}) \approx 0.8047$
+* **Division:** $1.9459 \div 0.8047 \approx 2.418$
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The "Basement" Error:**
+> Ensure the $\sqrt{5}$ is inside its own logarithm in the denominator. A common mistake is writing $\frac{\ln(7)}{\sqrt{5}}$, which is mathematically incorrect.
+
+> [!TIP]
+> **Check Your Work:**
+> You can verify the result by raising the original base to your answer: $(\sqrt{5})^{2.418}$. It should equal approximately $7$.
+
+---
+
+#### Final Evaluated Form
+$$\frac{\ln(7)}{\ln(\sqrt{5})} \approx 2.418$$
