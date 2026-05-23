@@ -13065,7 +13065,6 @@ $$\log_3(x) + \log_3(x-8) = \log_3(9)$$
 This entry demonstrates the simplest application of the One-to-One Property, where logarithms are already isolated on both sides of the equation.
 
 ---
-
 #### Step-by-Step Solution
 
 ##### Step 1: Verify the Structure
@@ -13073,27 +13072,22 @@ Before proceeding, ensure the equation meets the criteria for the One-to-One Pro
 1.  Exactly one log term on the left and one on the right.
 2.  The bases are identical (both are base 4).
 3.  The coefficients in front of both logs are exactly 1.
-
 ##### Step 2: Apply the One-to-One Property
 Since the logarithmic functions are identical, their arguments must also be equal to satisfy the equation.
 * **The Identity Rule:** $\log_b(M) = \log_b(N) \implies M = N$
 * **Action:** "Drop" the logs and set the arguments equal.
 $$x + 2 = 8$$
 
-
-
 ##### Step 3: Solve for $x$
 Solve the remaining linear equation.
 * **Action:** Subtract 2 from both sides.
 $$x = 6$$
-
 ##### Step 4: Check for Extraneous Solutions
 Always verify that the result keeps the original argument positive.
 * **Test:** Plug $x = 6$ into the original argument $(x + 2)$.
 * **Check:** $6 + 2 = 8$. Since $8 > 0$, the solution is valid.
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
