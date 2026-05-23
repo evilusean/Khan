@@ -13195,16 +13195,13 @@ $$x = 4.5$$
 This entry demonstrates solving a logarithmic equation by using the Power and Quotient properties to condense both sides into single logarithms before equating the arguments.
 
 ---
-
 #### Step-by-Step Solution
-
 ##### Step 1: Move Coefficients Up (Power Property)
 Before condensing the subtraction into division, clear the numbers in front of the logs by moving them to the exponent positions.
 * **Action:** Move the $2$ on the left and the $2$ on the right up as powers.
 $$\log_3 x - \log_3 (5^2) = \log_3 (x+1) - \log_3 (10^2)$$
 * **Simplify Constants:**
 $$\log_3 x - \log_3 25 = \log_3 (x+1) - \log_3 100$$
-
 ##### Step 2: Condense Both Sides (Quotient Property)
 Combine the terms on each side into a single logarithm. Since the terms are separated by subtraction, they form fractions.
 * **The Identity Rule:** $\log_b M - \log_b N = \log_b (\frac{M}{N})$
@@ -13216,9 +13213,6 @@ Now that we have exactly one $\log_3$ on each side, we can "drop" the logs and s
 * **Property:** $\log_b M = \log_b N \implies M = N$
 * **Action:**
 $$\frac{x}{25} = \frac{x+1}{100}$$
-
-
-
 ##### Step 4: Solve the Rational Equation
 Clear the fractions by cross-multiplying or by multiplying both sides by a common denominator ($100$).
 * **Action:** Multiply both sides by $100$.
@@ -13227,7 +13221,6 @@ $$4x = x + 1$$
 * **Isolate $x$:**
 $$3x = 1$$
 $$x = \frac{1}{3}$$
-
 ##### Step 5: Check for Extraneous Solutions
 Ensure the result keeps the original logarithmic arguments positive ($>0$).
 * **Test:**
@@ -13244,6 +13237,5 @@ Ensure the result keeps the original logarithmic arguments positive ($>0$).
 > Never try to solve this as $x - 25 = x + 1 - 100$. You **must** condense the logarithms into single expressions on each side before the log symbols can be removed.
 
 ---
-
 #### Final Solution
 $$x = \frac{1}{3}$$
