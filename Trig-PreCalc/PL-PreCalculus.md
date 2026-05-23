@@ -12998,16 +12998,12 @@ https://www.youtube.com/watch?v=82fonULPl64&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This technique focuses on solving logarithmic equations by utilizing the **One-to-One Property**. This property allows you to "drop" the logarithms from an equation if both sides consist of exactly one logarithm with the same base.
 
 ---
-
 #### The One-to-One Property of Logarithms
 If two logarithms with the identical base $b$ are equal to each other, then their arguments must also be equal.
 
 $$\log_b(M) = \log_b(N) \implies M = N$$
 
-
-
 ---
-
 #### The Step-by-Step Solving Strategy
 
 ##### Step 1: Condense Both Sides
@@ -13015,24 +13011,19 @@ Before you can apply the One-to-One property, you must have **exactly one** loga
 * Use the **Product Property** to combine addition into multiplication.
 * Use the **Quotient Property** to combine subtraction into division.
 * Use the **Power Property** to move coefficients to the exponents.
-
 ##### Step 2: Ensure Bases Match
 Verify that the base on the left ($b$) is identical to the base on the right ($b$). If the bases do not match, this property cannot be applied directly.
-
 ##### Step 3: "Drop" the Logs (Set Arguments Equal)
 Once the equation is in the form $\log_b(M) = \log_b(N)$, remove the log symbols and set the arguments equal to each other:
 $$M = N$$
-
 ##### Step 4: Solve the Resulting Equation
 Solve the remaining algebraic equation (which will typically be linear or quadratic).
-
 ##### Step 5: Check for Extraneous Solutions (CRITICAL)
 Logarithms have a restricted domain: **the argument must always be greater than zero ($> 0$).**
 * Plug your solution(s) back into the **original** logarithmic arguments.
 * If a solution results in taking the log of a negative number or zero, that solution is **extraneous** and must be discarded.
 
 ---
-
 #### Comprehensive Example
 
 $$\log_3(x) + \log_3(x-8) = \log_3(9)$$
@@ -13052,7 +13043,6 @@ $$\log_3(x) + \log_3(x-8) = \log_3(9)$$
 **Final Answer:** $x = 9$
 
 ---
-
 #### Critical Pitfalls to Avoid
 
 > [!CAUTION]
@@ -13064,10 +13054,9 @@ $$\log_3(x) + \log_3(x-8) = \log_3(9)$$
 > This property only works if every term in the equation is a logarithm. If the equation is $\log_b(M) = N$ (where $N$ is a constant), you must use the **Definition of a Logarithm** ($b^N = M$) to solve it instead.
 
 ---
-
 #### Summary of Necessary Properties
-| Property | Formula |
-| :--- | :--- |
-| **Product** | $\log_b(M) + \log_b(N) = \log_b(MN)$ |
+| Property     | Formula                               |
+| :----------- | :------------------------------------ |
+| **Product**  | $\log_b(M) + \log_b(N) = \log_b(MN)$  |
 | **Quotient** | $\log_b(M) - \log_b(N) = \log_b(M/N)$ |
-| **Power** | $P\log_b(M) = \log_b(M^P)$ |
+| **Power**    | $P\log_b(M) = \log_b(M^P)$            |
