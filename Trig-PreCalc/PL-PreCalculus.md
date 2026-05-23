@@ -12993,3 +12993,81 @@ Perform the final division using the decimal value for $\ln(\pi)$.
 $$\frac{1}{\ln(\pi)} \approx 0.8736$$
 ## 2026-May-22 - Solving Logarithms with Common Bases (Precalculus - College Algebra 62) :
 https://www.youtube.com/watch?v=82fonULPl64&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=65
+### Solving Logarithms with Common Bases
+
+This technique focuses on solving logarithmic equations by utilizing the **One-to-One Property**. This property allows you to "drop" the logarithms from an equation if both sides consist of exactly one logarithm with the same base.
+
+---
+
+#### The One-to-One Property of Logarithms
+If two logarithms with the identical base $b$ are equal to each other, then their arguments must also be equal.
+
+$$\log_b(M) = \log_b(N) \implies M = N$$
+
+
+
+---
+
+#### The Step-by-Step Solving Strategy
+
+##### Step 1: Condense Both Sides
+Before you can apply the One-to-One property, you must have **exactly one** logarithm on the left and **exactly one** logarithm on the right.
+* Use the **Product Property** to combine addition into multiplication.
+* Use the **Quotient Property** to combine subtraction into division.
+* Use the **Power Property** to move coefficients to the exponents.
+
+##### Step 2: Ensure Bases Match
+Verify that the base on the left ($b$) is identical to the base on the right ($b$). If the bases do not match, this property cannot be applied directly.
+
+##### Step 3: "Drop" the Logs (Set Arguments Equal)
+Once the equation is in the form $\log_b(M) = \log_b(N)$, remove the log symbols and set the arguments equal to each other:
+$$M = N$$
+
+##### Step 4: Solve the Resulting Equation
+Solve the remaining algebraic equation (which will typically be linear or quadratic).
+
+##### Step 5: Check for Extraneous Solutions (CRITICAL)
+Logarithms have a restricted domain: **the argument must always be greater than zero ($> 0$).**
+* Plug your solution(s) back into the **original** logarithmic arguments.
+* If a solution results in taking the log of a negative number or zero, that solution is **extraneous** and must be discarded.
+
+---
+
+#### Comprehensive Example
+
+$$\log_3(x) + \log_3(x-8) = \log_3(9)$$
+
+1.  **Condense the Left Side:**
+    $$\log_3(x(x-8)) = \log_3(9)$$
+2.  **Apply One-to-One Property:**
+    $$x(x-8) = 9$$
+3.  **Solve the Quadratic:**
+    $$x^2 - 8x - 9 = 0$$
+    $$(x - 9)(x + 1) = 0$$
+    $$x = 9, \quad x = -1$$
+4.  **Check for Extraneous Solutions:**
+    * Test $x = 9$: $\log_3(9)$ and $\log_3(9-8)$ are both logs of positive numbers. (Valid)
+    * Test $x = -1$: $\log_3(-1)$ is the log of a negative number. (**Extraneous**)
+
+**Final Answer:** $x = 9$
+
+---
+
+#### Critical Pitfalls to Avoid
+
+> [!CAUTION]
+> **The "Log Drop" Error:**
+> You cannot drop logs if there are multiple logs on one side. For example, in $\log(x) + \log(2) = \log(10)$, you **cannot** simply say $x + 2 = 10$. You must condense first: $\log(2x) = \log(10) \implies 2x = 10$.
+
+> [!WARNING]
+> **The Constant Term Trap:**
+> This property only works if every term in the equation is a logarithm. If the equation is $\log_b(M) = N$ (where $N$ is a constant), you must use the **Definition of a Logarithm** ($b^N = M$) to solve it instead.
+
+---
+
+#### Summary of Necessary Properties
+| Property | Formula |
+| :--- | :--- |
+| **Product** | $\log_b(M) + \log_b(N) = \log_b(MN)$ |
+| **Quotient** | $\log_b(M) - \log_b(N) = \log_b(M/N)$ |
+| **Power** | $P\log_b(M) = \log_b(M^P)$ |
