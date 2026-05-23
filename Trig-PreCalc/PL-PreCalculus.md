@@ -13098,3 +13098,51 @@ Always verify that the result keeps the original argument positive.
 
 #### Final Solution
 $$x = 6$$
+### Solving $3\log_2(x) = -\log_2(27)$ via the One-to-One Property
+
+This entry demonstrates how to solve a logarithmic equation by condensing both sides into single logarithms with identical bases, allowing the arguments to be set equal.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Clear Front Coefficients (Power Property)
+Before applying the One-to-One property, the logarithms on both sides must have a coefficient of exactly 1.
+* **Action:** Move the $3$ on the left and the $-1$ (from the negative sign) on the right up to the exponent positions of the arguments.
+$$\log_2(x^3) = \log_2(27^{-1})$$
+
+##### Step 2: Apply the One-to-One Property
+Since we now have exactly one $\log_2$ on each side, we can "drop" the logs and set the arguments equal to each other.
+* **The Identity Rule:** $\log_b(M) = \log_b(N) \implies M = N$
+* **Action:**
+$$x^3 = 27^{-1}$$
+
+
+##### Step 3: Solve for $x$
+Rewrite the negative exponent as a fraction and solve the resulting power equation.
+* **Rewrite:** $x^3 = \frac{1}{27}$
+* **Action:** Take the cube root ($\sqrt[3]{\quad}$) of both sides to isolate $x$.
+$$x = \sqrt[3]{\frac{1}{27}}$$
+$$x = \frac{1}{3}$$
+
+##### Step 4: Check for Extraneous Solutions
+Logarithmic arguments must always be positive ($>0$). You must verify the solution in the **original** equation.
+* **Test:** Plug $x = \frac{1}{3}$ back into the original argument on the left side: $3\log_2(x)$.
+* **Check:** Since $\frac{1}{3} > 0$, the argument remains valid.
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Negative Sign Trap:**
+> You cannot "drop the logs" if a negative sign is still sitting in front of the log. $\log_2(x^3) = -\log_2(27)$ is not the same as $x^3 = -27$. The negative sign must be moved to the exponent first.
+
+> [!WARNING]
+> **Domain Restrictions:**
+> If the algebra had resulted in a negative number (e.g., $x = -1/3$), it would be an **extraneous solution** because you cannot take the logarithm of a negative number in the real number system.
+
+---
+
+#### Final Solution
+$$x = \frac{1}{3}$$
