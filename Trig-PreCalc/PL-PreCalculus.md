@@ -13140,3 +13140,61 @@ Logarithmic arguments must always be positive ($>0$). You must verify the soluti
 ---
 #### Final Solution
 $$x = \frac{1}{3}$$
+### Solving $\log_a(x-1) - \log_a(x+6) = \log_a(x-2) - \log_a(x+3)$ via the One-to-One Property
+
+This entry demonstrates solving a logarithmic equation where both sides contain multiple terms that must be condensed before the One-to-One Property can be applied.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Condense Both Sides (Quotient Property)
+Before we can "drop" the logs, we must have exactly one logarithm on the left and exactly one on the right. Since both sides involve subtraction, we apply the Quotient Property.
+* **The Identity Rule:** $\log_a(M) - \log_a(N) = \log_a\left(\frac{M}{N}\right)$
+* **Action:** Rewrite both sides as single logarithms containing fractions.
+$$\log_a\left( \frac{x-1}{x+6} \right) = \log_a\left( \frac{x-2}{x+3} \right)$$
+
+##### Step 2: Apply the One-to-One Property
+Now that we have the form $\log_a(M) = \log_a(N)$, we can set the internal arguments equal to each other.
+* **Property:** $\log_a(M) = \log_a(N) \implies M = N$
+* **Action:**
+$$\frac{x-1}{x+6} = \frac{x-2}{x+3}$$
+
+
+
+##### Step 3: Solve the Rational Equation (Cross-Multiply)
+To clear the fractions, cross-multiply the numerators and denominators.
+* **Action:** $(x-1)(x+3) = (x-2)(x+6)$
+* **Expand (FOIL):**
+$$x^2 + 3x - x - 3 = x^2 + 6x - 2x - 12$$
+$$x^2 + 2x - 3 = x^2 + 4x - 12$$
+
+##### Step 4: Isolate $x$
+Simplify the equation by moving all variable terms to one side and constants to the other.
+* **Action:** Subtract $x^2$ from both sides (they cancel out).
+$$2x - 3 = 4x - 12$$
+* **Action:** Subtract $2x$ from both sides and add $12$ to both sides.
+$$9 = 2x$$
+$$x = 4.5 \quad \text{or} \quad x = \frac{9}{2}$$
+
+##### Step 5: Check for Extraneous Solutions
+Verify that $x = 4.5$ keeps all original logarithmic arguments positive ($>0$).
+* **Check Arguments:**
+    1. $(4.5 - 1) = 3.5$ (Positive)
+    2. $(4.5 + 6) = 10.5$ (Positive)
+    3. $(4.5 - 2) = 2.5$ (Positive)
+    4. $(4.5 + 3) = 7.5$ (Positive)
+* **Result:** Since all arguments remain positive, the solution is valid.
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Condensing Requirement:**
+> Never try to "drop the logs" term-by-term. You cannot say $(x-1) - (x+6) = (x-2) - (x+3)$. Logarithms must be condensed into a single "block" on each side first.
+
+---
+
+#### Final Solution
+$$x = 4.5$$
