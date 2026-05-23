@@ -13289,3 +13289,4 @@ Ensure the result keeps the original logarithmic arguments positive ($>0$).
 #### Final Solution
 $$x = 4\sqrt[3]{2}$$
 ## 2026-May-23 - Solving Logarithmic Equations with Exponentials (Precalculus - College Algebra 63) :
+https://www.youtube.com/watch?v=jNUyVClUQfc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=64
