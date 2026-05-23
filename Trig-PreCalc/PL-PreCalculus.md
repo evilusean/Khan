@@ -13244,9 +13244,7 @@ $$x = \frac{1}{3}$$
 This entry demonstrates solving a logarithmic equation by distributing coefficients and using the Power and Quotient properties to condense both sides into single logarithms.
 
 ---
-
 #### Step-by-Step Solution
-
 ##### Step 1: Distribute or Move the Coefficient
 You have two options here: distribute the $3$ or move the entire $3$ up as a power for the condensed log. Following the standard procedural flow:
 * **Action:** Move the $3$ and the $2$ to the exponent positions using the Power Property.
@@ -13256,21 +13254,16 @@ $$3\log_7 x - 3\log_7 2 = 2\log_7 4$$
 $$\log_7 (x^3) - \log_7 (2^3) = \log_7 (4^2)$$
 * **Simplify Constants:**
 $$\log_7 (x^3) - \log_7 8 = \log_7 16$$
-
 ##### Step 2: Condense the Left Side (Quotient Property)
 Combine the two logarithms on the left into a single logarithm. Since they are separated by subtraction, the arguments form a fraction.
 * **The Identity Rule:** $\log_b M - \log_b N = \log_b \left(\frac{M}{N}\right)$
 * **Action:**
 $$\log_7 \left( \frac{x^3}{8} \right) = \log_7 16$$
-
 ##### Step 3: Apply the One-to-One Property
 Now that we have exactly one $\log_7$ on each side, we can "drop" the logs and set the internal arguments equal.
 * **Property:** $\log_b M = \log_b N \implies M = N$
 * **Action:**
 $$\frac{x^3}{8} = 16$$
-
-
-
 ##### Step 4: Solve for $x$
 Isolate the $x^3$ term and then take the cube root.
 * **Action:** Multiply both sides by $8$.
@@ -13280,14 +13273,12 @@ $$x^3 = 128$$
 $$x = \sqrt[3]{128}$$
 * **Simplify the Radical:** Since $128 = 64 \cdot 2$ and $64$ is $4^3$:
 $$x = 4\sqrt[3]{2}$$
-
 ##### Step 5: Check for Extraneous Solutions
 Ensure the result keeps the original logarithmic arguments positive ($>0$).
 * **Test:** Plug $x = 4\sqrt[3]{2}$ into the original argument $\log_7 x$.
 * **Check:** $4\sqrt[3]{2}$ is a positive value. The solution is valid.
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
@@ -13295,6 +13286,5 @@ Ensure the result keeps the original logarithmic arguments positive ($>0$).
 > Ensure that the coefficient applies to the *entire* argument. When we moved the $3$ in Step 1, it became the exponent for $x$ and $2$ individually after distribution, or you could have condensed $(x/2)$ first and raised the whole fraction to the $3rd$ power. Both lead to $x^3/8$.
 
 ---
-
 #### Final Solution
 $$x = 4\sqrt[3]{2}$$
