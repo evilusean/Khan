@@ -13363,36 +13363,29 @@ $$\log_2(x) + \log_2(x-2) = 3$$
 This entry demonstrates how to solve a logarithmic equation when one side is a constant. Because there is no logarithm on the right side to "drop," we must use the definition of a logarithm to rewrite the equation in exponential form.
 
 ---
-
 #### Step-by-Step Solution
 
 ##### Step 1: Identify the Base
 When a logarithm is written as "$\log$" without a visible subscript, it is the **Common Logarithm**.
 * **The Hidden Base:** $10$
 * **Rewrite for Clarity:** $\log_{10}(x+6) = 1$
-
 ##### Step 2: Rewrite in Exponential Form
 Apply the fundamental definition: $\log_b(M) = N \iff b^N = M$. Use the "Circle" or "Claw" method to release the argument from the logarithm.
 * **Base:** $10$
 * **Exponent:** $1$
 * **Argument:** $x+6$
 * **Action:** $$10^1 = x + 6$$
-
-
-
-##### Step 3: Solve for $x$
+* ##### Step 3: Solve for $x$
 Evaluate the power and isolate the variable using inverse operations.
 * **Simplify:** $10 = x + 6$
 * **Action:** Subtract $6$ from both sides.
 $$x = 4$$
-
 ##### Step 4: Check for Extraneous Solutions
 Verify that the result keeps the original argument positive ($> 0$).
 * **Test:** Plug $x = 4$ into the original argument $(x + 6)$.
 * **Check:** $4 + 6 = 10$. Since $10 > 0$, the solution is valid.
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
@@ -13404,6 +13397,5 @@ Verify that the result keeps the original argument positive ($> 0$).
 > If there had been a number in front of the log (e.g., $2\log(x+6) = 1$), you would have to divide by that number *before* converting to exponential form.
 
 ---
-
 #### Final Solution
 $$x = 4$$
