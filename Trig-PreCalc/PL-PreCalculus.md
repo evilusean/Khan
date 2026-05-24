@@ -13601,3 +13601,292 @@ Verify that the result keeps the **original** logarithmic arguments strictly pos
 ---
 #### Final Solution
 $$x = 67$$
+### Solving $\ln(x+1) - \ln(x) = 2$ via Exponential Conversion
+
+This problem follows Professor Leonard's method for handling Natural Logarithms ($\ln$). Since there is a constant on the right side, we must condense the left side into a single logarithm and then convert it into its exponential form using the base $e$.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Condense the Left Side (Quotient Property)
+The two logarithms have the same base (base $e$) and are separated by subtraction. We combine them into a single natural logarithm by dividing the arguments.
+* **The Identity Rule:** $\ln M - \ln N = \ln\left(\frac{M}{N}\right)$
+* **Action:**
+$$\ln\left( \frac{x+1}{x} \right) = 2$$
+##### Step 2: Rewrite in Exponential Form
+Recall that $\ln$ is the logarithm with base $e$. Apply the definition $\ln(M) = N \iff e^N = M$ to release the argument from the logarithm.
+* **Base:** $e$
+* **Exponent:** $2$
+* **Argument:** $\frac{x+1}{x}$
+* **Action:**
+$$e^2 = \frac{x+1}{x}$$
+##### Step 3: Solve for $x$
+Treat $e^2$ as a constant (approximately $7.389$) and use algebraic steps to isolate $x$.
+* **Action (Multiply by $x$):** $x e^2 = x + 1$
+* **Action (Group $x$ terms):** Subtract $x$ from both sides.
+$$x e^2 - x = 1$$
+* **Action (Factor out $x$):**
+$$x(e^2 - 1) = 1$$
+* **Action (Divide):**
+$$x = \frac{1}{e^2 - 1}$$
+##### Step 4: Calculator Evaluation (Optional)
+To get a decimal approximation for your notes:
+* $e^2 - 1 \approx 7.389 - 1 = 6.389$
+* $1 \div 6.389 \approx 0.1565$
+* **Result:** $x \approx 0.1565$
+##### Step 5: Check for Extraneous Solutions
+Verify the result in the **original** arguments.
+1.  **Argument 1:** $x + 1 \rightarrow 0.1565 + 1 = 1.1565$ (Positive)
+2.  **Argument 2:** $x \rightarrow 0.1565$ (Positive)
+* **Result:** Since both arguments are positive, the solution is valid.
+
+---
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Base $e$ Reminder:**
+> When working with $\ln$, the base is always $e$. A common mistake is to accidentally use $10$ or $2$ as the base during the exponential conversion step.
+
+> [!WARNING]
+> **The Factoring Step:**
+> In Step 3, many students get stuck at $xe^2 - x = 1$. Remember that you must factor out the $x$ to isolate it when it appears in multiple terms on one side of the equation.
+
+---
+#### Final Solution
+$$x = \frac{1}{e^2 - 1} \approx 0.1565$$
+### Solving $\log_9(7x - 5) = \log_3(x+1)$ via Change of Base
+
+This problem presents a unique challenge: the bases are not identical ($9$ and $3$). To use the One-to-One property, we must first manipulate one of the logarithms so that both sides share the same base.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Standardize the Bases
+We need to change the $\log_9$ term into a $\log_3$ term (or vice versa). Since $9 = 3^2$, it is easier to convert the base $9$ logarithm.
+* **Property (Change of Base):** $\log_b M = \frac{\log_c M}{\log_c b}$
+* **Action:** Convert the left side to base $3$.
+$$\frac{\log_3(7x - 5)}{\log_3 9} = \log_3(x+1)$$
+* **Evaluate the Denominator:** Since $3^2 = 9$, $\log_3 9 = 2$.
+$$\frac{\log_3(7x - 5)}{2} = \log_3(x+1)$$
+##### Step 2: Clear the Fraction and Move Coefficients
+To use the One-to-One property, the logarithms must have a coefficient of $1$.
+* **Action (Multiply by 2):** $\log_3(7x - 5) = 2\log_3(x+1)$
+* **Action (Power Property):** Move the $2$ to the exponent of the argument.
+$$\log_3(7x - 5) = \log_3(x+1)^2$$
+##### Step 3: Apply the One-to-One Property
+Now that the bases are identical and the logarithms are isolated, we can set the arguments equal to each other.
+* **Property:** $\log_b M = \log_b N \implies M = N$
+* **Action:**
+$$7x - 5 = (x+1)^2$$
+##### Step 4: Solve the Quadratic Equation
+Expand the right side and move all terms to one side to set the equation to zero.
+* **Expand:** $7x - 5 = x^2 + 2x + 1$
+* **Set to Zero:** $x^2 - 5x + 6 = 0$
+* **Factor:** $(x - 3)(x - 2) = 0$
+* **Possible Solutions:** $x = 3, \quad x = 2$
+##### Step 5: Check for Extraneous Solutions
+Verify that both solutions keep the **original** logarithmic arguments positive ($>0$).
+1.  **Test $x = 3$:**
+    * Left: $7(3) - 5 = 16$ (Positive)
+    * Right: $3 + 1 = 4$ (Positive)
+    * **Valid.**
+2.  **Test $x = 2$:**
+    * Left: $7(2) - 5 = 9$ (Positive)
+    * Right: $2 + 1 = 3$ (Positive)
+    * **Valid.**
+
+---
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **Mismatched Bases:**
+> You **cannot** set $(7x-5) = (x+1)$ immediately because the bases are different. Always look for a common power (like $3$ and $9$ or $2$ and $4$) to unify the bases first.
+
+> [!TIP]
+> **Alternative Perspective:**
+> You could also rewrite the right side by realizing $\log_3(x+1) = \log_{3^2}(x+1)^2 = \log_9(x+1)^2$. This is a "shortcut" version of the change of base property that Professor Leonard often uses to quickly match bases.
+
+---
+#### Final Solution
+$$x = 3, \quad x = 2$$
+### Solving $\log_{16} x + \log_4 x + \log_2 x = 7$ via Change of Base
+
+This problem features three different bases ($16$, $4$, and $2$). Following Professor Leonard's strategy, we must convert all terms to a single common base before they can be condensed. Since $16$ and $4$ are both powers of $2$, we will convert everything to base $2$.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Standardize to Base 2
+Use the Change of Base Formula: $\log_b M = \frac{\log_c M}{\log_c b}$.
+* **Convert $\log_{16} x$:** $\frac{\log_2 x}{\log_2 16} = \frac{\log_2 x}{4}$ (since $2^4 = 16$)
+* **Convert $\log_4 x$:** $\frac{\log_2 x}{\log_2 4} = \frac{\log_2 x}{2}$ (since $2^2 = 4$)
+* **The Equation becomes:**
+$$\frac{\log_2 x}{4} + \frac{\log_2 x}{2} + \log_2 x = 7$$
+##### Step 2: Clear the Fractions
+Multiply the entire equation by the Least Common Denominator (LCD), which is **4**, to eliminate the denominators.
+* **Action:** $4 \left[ \frac{\log_2 x}{4} + \frac{\log_2 x}{2} + \log_2 x \right] = 4(7)$
+* **Distribute:**
+$$\log_2 x + 2\log_2 x + 4\log_2 x = 28$$
+##### Step 3: Combine Like Terms
+Since all terms are now $\log_2 x$, we can simply add their coefficients ($1 + 2 + 4$).
+* **Action:**
+$$7\log_2 x = 28$$
+
+##### Step 4: Isolate the Logarithm
+Divide both sides by $7$ to prepare for exponential conversion.
+* **Action:**
+$$\log_2 x = 4$$
+##### Step 5: Rewrite in Exponential Form
+Apply the definition $\log_b M = N \iff b^N = M$ to solve for $x$.
+* **Base:** $2$
+* **Exponent:** $4$
+* **Argument:** $x$
+* **Action:**
+$$2^4 = x$$
+##### Step 6: Solve and Check
+* **Solve:** $x = 16$
+* **Check:** Plugging $x = 16$ into the original arguments ($\log_{16} 16$, $\log_4 16$, $\log_2 16$) results in all positive arguments.
+* **Verification:** $1 + 2 + 4 = 7$. The solution is valid.
+
+---
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **Base Choice:**
+> While you could convert everything to base 16, it would involve working with fractional exponents (like $x^{1/4}$). Converting to the smallest common base (base 2) keeps the coefficients as whole numbers, which is significantly easier to manage algebraically.
+
+> [!WARNING]
+> **Coefficient Errors:**
+> When clearing fractions in Step 2, do not forget to multiply the "standalone" $\log_2 x$ and the constant on the right side of the equals sign by the LCD.
+
+---
+#### Final Solution
+$$x = 16$$
+### Solving $2(\log_4 x)^2 + 3 \log_8 x = \log_2 16$ via Change of Base and Substitution
+
+This problem features multiple bases ($4, 8, 2$) and a squared logarithmic term. Following Professor Leonard's strategy, we first standardize all bases to the smallest common base ($2$) and then use substitution to solve the resulting quadratic equation.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Simplify the Constant
+Evaluate the logarithm on the right side immediately to clean up the equation.
+* **Calculation:** $\log_2 16$ asks "2 to what power is 16?" $\rightarrow 2^4 = 16$.
+* **Rewrite:** $2(\log_4 x)^2 + 3 \log_8 x = 4$
+
+##### Step 2: Standardize to Base 2
+Use the Change of Base Formula: $\log_b M = \frac{\log_c M}{\log_c b}$.
+
+* **Convert $\log_4 x$:** $\frac{\log_2 x}{\log_2 4} = \frac{\log_2 x}{2}$
+* **Convert $\log_8 x$:** $\frac{\log_2 x}{\log_2 8} = \frac{\log_2 x}{3}$
+
+**Substitute these back into the equation:**
+$$2\left( \frac{\log_2 x}{2} \right)^2 + 3\left( \frac{\log_2 x}{3} \right) = 4$$
+
+##### Step 3: Simplify the Expressions
+* **Handle the Squared Term:** $\left( \frac{\log_2 x}{2} \right)^2 = \frac{(\log_2 x)^2}{4}$
+* **The Equation becomes:** $2 \left( \frac{(\log_2 x)^2}{4} \right) + \log_2 x = 4$
+* **Reduce Fractions:** $\frac{1}{2}(\log_2 x)^2 + \log_2 x = 4$
+
+##### Step 4: Use U-Substitution
+To make the quadratic easier to see, let **$u = \log_2 x$**.
+$$\frac{1}{2}u^2 + u = 4$$
+* **Clear the Fraction:** Multiply everything by $2$.
+$$u^2 + 2u = 8$$
+* **Set to Zero:** $u^2 + 2u - 8 = 0$
+* **Factor:** $(u + 4)(u - 2) = 0$
+* **Solve for $u$:** $u = -4, \quad u = 2$
+
+##### Step 5: Back-Substitute to Solve for $x$
+Now replace $u$ with $\log_2 x$ and convert to exponential form.
+
+1.  **Case 1: $\log_2 x = -4$**
+    * $2^{-4} = x$
+    * $x = \frac{1}{16}$
+
+2.  **Case 2: $\log_2 x = 2$**
+    * $2^2 = x$
+    * $x = 4$
+
+
+
+##### Step 6: Check for Extraneous Solutions
+Verify both results in the **original** arguments.
+* **Test $x = \frac{1}{16}$:** Argument is positive. (**Valid**)
+* **Test $x = 4$:** Argument is positive. (**Valid**)
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **Squaring the Entire Log:**
+> Remember that $(\log_4 x)^2$ is NOT the same as $\log_4 (x^2)$. You cannot move the $2$ to the front using the Power Property. You must treat the entire log as a single unit being squared.
+
+> [!WARNING]
+> **Denominator Squaring:**
+> In Step 3, when squaring $\frac{\log_2 x}{2}$, ensure you square the denominator ($2^2 = 4$) as well as the numerator. Forgetting to square the denominator is a frequent calculation error.
+
+---
+
+#### Final Solution
+$$x = 4, \quad x = \frac{1}{16}$$
+### Solving $\log_2 x = 3 - \log_6 x$ via Change of Base and Algebraic Isolation
+
+This problem is a "Level 3" logarithmic equation because the bases ($2$ and $6$) are not powers of each other. Following Professor Leonard's strategy for mismatched bases, we must use the Change of Base formula to convert everything to a single base (usually base 10 or natural log) to isolate $x$.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Group the Logarithms
+Move all terms containing $x$ to one side of the equation.
+* **Action:** Add $\log_6 x$ to both sides.
+$$\log_2 x + \log_6 x = 3$$
+##### Step 2: Apply Change of Base Formula
+Since $2$ and $6$ don't share a common integer base, convert both to **Natural Log ($\ln$)** or **Common Log ($\log_{10}$)**. We will use $\ln$ here.
+* **Property:** $\log_b M = \frac{\ln M}{\ln b}$
+* **Action:**
+$$\frac{\ln x}{\ln 2} + \frac{\ln x}{\ln 6} = 3$$
+
+##### Step 3: Factor out the Common Term
+Both terms on the left side share $\ln x$. Factor it out to begin isolating the variable.
+* **Action:**
+$$\ln x \left( \frac{1}{\ln 2} + \frac{1}{\ln 6} \right) = 3$$
+##### Step 4: Isolate $\ln x$
+Divide both sides by the entire quantity inside the parentheses. 
+* **Action:**
+$$\ln x = \frac{3}{\left( \frac{1}{\ln 2} + \frac{1}{\ln 6} \right)}$$
+##### Step 5: Convert to Exponential Form
+Now that $\ln x$ is isolated, rewrite the equation in exponential form using base $e$.
+* **Base:** $e$
+* **Exponent:** The entire right side of the equation.
+* **Action:**
+$$x = e^{\left[ \frac{3}{\frac{1}{\ln 2} + \frac{1}{\ln 6}} \right]}$$
+##### Step 6: Decimal Approximation
+To provide a concrete answer for your notes, evaluate the expression:
+* $\frac{1}{\ln 2} \approx 1.4427$
+* $\frac{1}{\ln 6} \approx 0.5581$
+* $\text{Denominator} \approx 2.0008$
+* $\ln x \approx \frac{3}{2.0008} \approx 1.4994$
+* $x = e^{1.4994} \approx 4.479$
+##### Step 7: Check for Extraneous Solutions
+Verify that $x \approx 4.479$ keeps the original arguments positive.
+* **Check:** Both $\log_2(4.479)$ and $\log_6(4.479)$ have positive arguments. 
+* **Result:** The solution is valid.
+
+---
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Condensing Trap:**
+> You **cannot** use the Product Property to say $\log(2 \cdot 6)x = 3$. The Product Property only applies when the bases are identical. If the bases are different, you must use Change of Base before any algebraic combining can occur.
+
+> [!WARNING]
+> **Rounding Errors:**
+> When solving these in your calculator, do not round the values of $\ln 2$ or $\ln 6$ early. Keep the full decimals in your calculator until the very final step to ensure your value for $x$ is accurate.
+
+---
+#### Final Solution
+$$x = e^{\left[ \frac{3}{\frac{1}{\ln 2} + \frac{1}{\ln 6}} \right]} \approx 4.479$$
+## 2026May24 - Solving Exponential Equations with Logarithms (Precalculus - College Algebra 64) :
