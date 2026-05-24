@@ -13290,3 +13290,82 @@ Ensure the result keeps the original logarithmic arguments positive ($>0$).
 $$x = 4\sqrt[3]{2}$$
 ## 2026-May-23 - Solving Logarithmic Equations with Exponentials (Precalculus - College Algebra 63) :
 https://www.youtube.com/watch?v=jNUyVClUQfc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=64
+### Solving Logarithmic Equations with Exponentials
+
+This technique is used when an equation contains a logarithm on one side and a constant (non-logarithm) on the other. Because you cannot use the One-to-One Property to "drop" the logs, you must transform the equation into its exponential form to isolate the variable.
+
+---
+
+#### The Fundamental Definition
+To solve these equations, you must be able to convert between logarithmic and exponential forms fluently:
+
+$$\log_b(M) = N \iff b^N = M$$
+
+**The "Claw" or "Circle" Method:**
+1. Start at the **Base** ($b$).
+2. Swing around to the **other side** of the equals sign to pick up the **Exponent** ($N$).
+3. Set it equal to the **Argument** ($M$).
+
+
+
+---
+
+#### The Step-by-Step Solving Strategy
+
+##### Step 1: Isolate the Logarithm
+Before you can convert to an exponential, the logarithm must be completely alone on one side of the equation.
+* **Undo Addition/Subtraction:** Move any trailing constants to the other side.
+* **Undo Multiplication:** Divide by any coefficients in front of the log.
+* **Result:** You should have the form $\log_b(\text{something}) = \text{number}$.
+
+##### Step 2: Condense if Necessary
+If there are multiple logs on one side and a constant on the other, use the Product or Quotient properties to merge them into **one single log** first.
+
+##### Step 3: Rewrite in Exponential Form
+Apply the definition $\log_b(M) = N \implies b^N = M$. This "releases" the variable from inside the logarithmic function.
+
+##### Step 4: Solve for $x$
+The resulting equation will be algebraic (linear, quadratic, etc.). Solve using standard methods.
+
+##### Step 5: Check for Extraneous Solutions (MANDATORY)
+Since the domain of a logarithm is $(0, \infty)$, you must ensure your answer does not cause the argument of any **original** logarithm to be zero or negative.
+
+---
+
+#### Comprehensive Example
+
+$$\log_2(x) + \log_2(x-2) = 3$$
+
+1.  **Condense:** $\log_2(x(x-2)) = 3$
+2.  **Rewrite:** $2^3 = x(x-2)$
+3.  **Evaluate Power:** $8 = x^2 - 2x$
+4.  **Solve Quadratic:** $x^2 - 2x - 8 = 0 \implies (x-4)(x+2) = 0$
+5.  **Check:** * $x = 4$: Both $\log_2(4)$ and $\log_2(4-2)$ are positive. (**Valid**)
+    * $x = -2$: $\log_2(-2)$ is undefined. (**Extraneous**)
+
+**Final Answer:** $x = 4$
+
+---
+
+#### Critical Pitfalls to Avoid
+
+> [!CAUTION]
+> **The Base Assumption:**
+> If a base is not written (e.g., $\log(x) = 2$), it is the **Common Log** (base 10). If it is written as $\ln(x)$, it is the **Natural Log** (base $e$). 
+> * $\log(x) = 2 \implies 10^2 = x$
+> * $\ln(x) = 2 \implies e^2 = x$
+
+> [!WARNING]
+> **Premature Conversion:**
+> Never try to convert to exponential form while there is still a coefficient in front of the log. 
+> * Incorrect: $2\log_3(x) = 4 \implies 3^4 = 2x$
+> * Correct: $\log_3(x) = 2 \implies 3^2 = x$
+
+---
+
+#### Summary of Necessary Forms
+| Log Form        | Exponential Form |
+| :-------------- | :--------------- |
+| $\log_b(M) = N$ | $b^N = M$        |
+| $\ln(M) = N$    | $e^N = M$        |
+| $\log(M) = N$   | $10^N = M$       |
