@@ -13404,20 +13404,17 @@ $$x = 4$$
 In the video, Professor Leonard demonstrates that you can solve these by condensing the left side into a single logarithm using the Power and Product properties before converting to an exponential.
 
 ---
-
 #### Step-by-Step Solution
 
 ##### Step 1: Move the Coefficient (Power Property)
 Before combining the logarithms, the coefficient in front of the first log must be moved to the exponent of the argument.
 * **Action:** Move the $3$ to the power of $(x-1)$.
 $$\log_2(x-1)^3 + \log_2 4 = 5$$
-
 ##### Step 2: Condense the Left Side (Product Property)
 Since the two logarithms have the same base and are being added, combine their arguments into a single logarithm using multiplication.
 * **The Identity Rule:** $\log_b M + \log_b N = \log_b (M \cdot N)$
 * **Action:**
 $$\log_2 [4(x-1)^3] = 5$$
-
 ##### Step 3: Rewrite in Exponential Form
 Now that the left side is a single logarithm and the right side is a constant, apply the definition of a logarithm to "release" the argument.
 * **Base:** $2$
@@ -13425,9 +13422,6 @@ Now that the left side is a single logarithm and the right side is a constant, a
 * **Argument:** $4(x-1)^3$
 * **Action:**
 $$2^5 = 4(x-1)^3$$
-
-
-
 ##### Step 4: Solve for $x$
 Evaluate the power and use inverse operations to isolate $x$.
 * **Evaluate $2^5$:** $32 = 4(x-1)^3$
@@ -13436,14 +13430,12 @@ Evaluate the power and use inverse operations to isolate $x$.
 $$2 = x - 1$$
 * **Final Step:** Add $1$ to both sides.
 $$x = 3$$
-
 ##### Step 5: Check for Extraneous Solutions
 Verify that the result keeps the original argument positive ($> 0$).
 * **Test:** Plug $x = 3$ into the original argument $(x-1)$.
 * **Check:** $3 - 1 = 2$. Since $2 > 0$, the solution is valid.
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
@@ -13451,6 +13443,5 @@ Verify that the result keeps the original argument positive ($> 0$).
 > When condensing in Step 2, ensure the coefficient ($4$) is multiplied by the *entire* argument $(x-1)^3$. Do not accidentally multiply the $4$ inside the parentheses before handling the exponent.
 
 ---
-
 #### Final Solution
 $$x = 3$$
