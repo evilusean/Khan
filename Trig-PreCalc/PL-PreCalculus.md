@@ -13468,7 +13468,6 @@ Identify the base of the common log (10) and use the "Circle" method to convert 
 * **Argument:** $\frac{2x+1}{x-2}$
 * **Action:**
 $$10^1 = \frac{2x+1}{x-2}$$
-
 ##### Step 4: Solve the Rational Equation
 Eliminate the fraction by multiplying both sides by the denominator $(x-2)$.
 * **Action:** $10(x-2) = 2x + 1$
@@ -13497,3 +13496,66 @@ Verify the result in the **original** logarithmic arguments. Both must be positi
 ---
 #### Final Solution
 $$x = 2.625$$
+### Solving $\log_6(x+4) = 1 - \log_6(x+3)$ via Exponential Conversion
+
+In this problem, Professor Leonard demonstrates how to handle an equation where logarithms are split across both sides of the equals sign along with a constant. The goal is to group the logs, condense them, and then convert to exponential form.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Isolate the Logarithms
+Move all logarithmic terms to the left side of the equation to isolate the constant ($1$) on the right.
+* **Action:** Add $\log_6(x+3)$ to both sides.
+$$\log_6(x+4) + \log_6(x+3) = 1$$
+
+##### Step 2: Condense the Left Side (Product Property)
+Since the two logarithms share the same base ($6$) and are being added, combine their arguments into a single logarithm using multiplication.
+* **The Identity Rule:** $\log_b M + \log_b N = \log_b (M \cdot N)$
+* **Action:**
+$$\log_6 [(x+4)(x+3)] = 1$$
+
+##### Step 3: Rewrite in Exponential Form
+Apply the definition of a logarithm to "release" the arguments from the log function.
+* **Base:** $6$
+* **Exponent:** $1$
+* **Argument:** $(x+4)(x+3)$
+* **Action:**
+$$6^1 = (x+4)(x+3)$$
+
+
+
+##### Step 4: Solve the Quadratic Equation
+Expand the right side and set the equation to zero to solve for $x$.
+* **Expand (FOIL):** $6 = x^2 + 3x + 4x + 12$
+* **Simplify:** $6 = x^2 + 7x + 12$
+* **Set to Zero:** $x^2 + 7x + 6 = 0$
+* **Factor:** $(x+6)(x+1) = 0$
+* **Possible Solutions:** $x = -6, \quad x = -1$
+
+##### Step 5: Check for Extraneous Solutions
+Verify both potential solutions in the **original** logarithmic arguments. All arguments must be strictly positive ($>0$).
+1.  **Test $x = -6$:**
+    * $\log_6(-6+4) = \log_6(-2)$ → **Undefined.**
+    * Result: $x = -6$ is **Extraneous**.
+2.  **Test $x = -1$:**
+    * $\log_6(-1+4) = \log_6(3)$ (Positive)
+    * $\log_6(-1+3) = \log_6(2)$ (Positive)
+    * Result: $x = -1$ is **Valid**.
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Addition/Multiplication Confusion:**
+> When moving $\log_6(x+3)$ to the left side, it becomes addition. When you condense that addition, the arguments must be **multiplied**. A common error is mistakenly adding the arguments $(x+4) + (x+3)$, which is algebraically incorrect.
+
+> [!WARNING]
+> **Checking the Original:**
+> Always check your answers in the original arguments before any properties were applied. Even if your algebra is perfect, one or more solutions may be invalid due to the domain of logarithmic functions.
+
+---
+
+#### Final Solution
+$$x = -1$$
