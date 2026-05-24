@@ -13501,20 +13501,17 @@ $$x = 2.625$$
 In this problem, Professor Leonard demonstrates how to handle an equation where logarithms are split across both sides of the equals sign along with a constant. The goal is to group the logs, condense them, and then convert to exponential form.
 
 ---
-
 #### Step-by-Step Solution
 
 ##### Step 1: Isolate the Logarithms
 Move all logarithmic terms to the left side of the equation to isolate the constant ($1$) on the right.
 * **Action:** Add $\log_6(x+3)$ to both sides.
 $$\log_6(x+4) + \log_6(x+3) = 1$$
-
 ##### Step 2: Condense the Left Side (Product Property)
 Since the two logarithms share the same base ($6$) and are being added, combine their arguments into a single logarithm using multiplication.
 * **The Identity Rule:** $\log_b M + \log_b N = \log_b (M \cdot N)$
 * **Action:**
 $$\log_6 [(x+4)(x+3)] = 1$$
-
 ##### Step 3: Rewrite in Exponential Form
 Apply the definition of a logarithm to "release" the arguments from the log function.
 * **Base:** $6$
@@ -13522,9 +13519,6 @@ Apply the definition of a logarithm to "release" the arguments from the log func
 * **Argument:** $(x+4)(x+3)$
 * **Action:**
 $$6^1 = (x+4)(x+3)$$
-
-
-
 ##### Step 4: Solve the Quadratic Equation
 Expand the right side and set the equation to zero to solve for $x$.
 * **Expand (FOIL):** $6 = x^2 + 3x + 4x + 12$
@@ -13532,7 +13526,6 @@ Expand the right side and set the equation to zero to solve for $x$.
 * **Set to Zero:** $x^2 + 7x + 6 = 0$
 * **Factor:** $(x+6)(x+1) = 0$
 * **Possible Solutions:** $x = -6, \quad x = -1$
-
 ##### Step 5: Check for Extraneous Solutions
 Verify both potential solutions in the **original** logarithmic arguments. All arguments must be strictly positive ($>0$).
 1.  **Test $x = -6$:**
@@ -13544,7 +13537,6 @@ Verify both potential solutions in the **original** logarithmic arguments. All a
     * Result: $x = -1$ is **Valid**.
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
@@ -13556,6 +13548,63 @@ Verify both potential solutions in the **original** logarithmic arguments. All a
 > Always check your answers in the original arguments before any properties were applied. Even if your algebra is perfect, one or more solutions may be invalid due to the domain of logarithmic functions.
 
 ---
-
 #### Final Solution
 $$x = -1$$
+### Solving $\log_4(x^2-9) - \log_4(x+3) = 3$ via Exponential Conversion
+
+This problem follows Professor Leonard's method for solving equations where one side contains multiple logarithms and the other side contains a constant. We must condense the logarithms into a single term before converting the entire equation into its exponential form.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Condense the Left Side (Quotient Property)
+Since the two logarithms have the same base ($4$) and are separated by subtraction, combine them into a single logarithm by dividing the arguments.
+* **The Identity Rule:** $\log_b M - \log_b N = \log_b \left(\frac{M}{N}\right)$
+* **Action:**
+$$\log_4 \left( \frac{x^2-9}{x+3} \right) = 3$$
+
+##### Step 2: Simplify the Argument (Optional but Recommended)
+Before converting to exponential form, notice that the numerator is a **difference of squares** ($x^2 - 3^2$). Simplifying now makes the resulting algebra much easier.
+* **Factor:** $\frac{(x-3)(x+3)}{x+3}$
+* **Cancel:** The $(x+3)$ terms cancel out (noting that $x \neq -3$).
+* **Simplified Equation:**
+$$\log_4(x-3) = 3$$
+
+##### Step 3: Rewrite in Exponential Form
+Apply the fundamental definition of a logarithm: $\log_b(M) = N \iff b^N = M$. Use the "Circle" method to release the argument from the log.
+* **Base:** $4$
+* **Exponent:** $3$
+* **Argument:** $x-3$
+* **Action:**
+$$4^3 = x - 3$$
+
+
+##### Step 4: Solve for $x$
+Evaluate the power and isolate the variable.
+* **Evaluate $4^3$:** $64 = x - 3$
+* **Action:** Add $3$ to both sides.
+$$x = 67$$
+
+##### Step 5: Check for Extraneous Solutions
+Verify that the result keeps the **original** logarithmic arguments strictly positive ($>0$).
+1.  **Argument 1:** $67^2 - 9$ (Clearly positive)
+2.  **Argument 2:** $67 + 3 = 70$ (Positive)
+* **Result:** The solution is valid.
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Condensing Requirement:**
+> You cannot "drop the logs" because there is a constant ($3$) on the right side. You must condense the left side into one "log block" so that you can apply the exponential conversion.
+
+> [!TIP]
+> **Simplifying Early:**
+> If you chose not to simplify the fraction in Step 2, you would have solved $4^3 = \frac{x^2-9}{x+3} \implies 64 = \frac{x^2-9}{x+3}$. Multiplying by $(x+3)$ would lead to a quadratic equation $64x + 192 = x^2 - 9$. While this would still lead to $x = 67$, factoring the difference of squares first is significantly faster and less prone to calculation errors.
+
+---
+
+#### Final Solution
+$$x = 67$$
