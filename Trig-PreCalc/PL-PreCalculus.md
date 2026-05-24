@@ -13948,3 +13948,67 @@ For $e^{x+3} = \pi^x$:
 3.  $3 = x \ln \pi - x$
 4.  $3 = x(\ln \pi - 1)$
 5.  $x = \frac{3}{\ln \pi - 1}$
+
+### Solving $8 \cdot 3^{x+1} = 5$ (Four Methods)
+
+In the Professor Leonard video, he demonstrates that while there are multiple algebraic paths to solve a single exponential equation, they all lead to the same numerical value. The first step for **all** methods is to isolate the exponential term.
+
+**Preliminary Step: Isolate the Exponential**
+* Divide both sides by $8$:
+$$3^{x+1} = \frac{5}{8}$$
+
+---
+
+#### Method 1: Direct Logarithmic Notation
+This is the most straightforward "definition-based" move. You convert the exponential form directly into a logarithm.
+* **Property:** $b^E = A \iff \log_b(A) = E$
+* **Apply:**
+$$\log_3 \left( \frac{5}{8} \right) = x + 1$$
+* **Solve for $x$:**
+$$x = \log_3 \left( \frac{5}{8} \right) - 1$$
+
+
+---
+
+#### Method 2: Common Log ($\log$) on Both Sides
+This method is useful for calculators that only have a "Log" button (Base 10).
+* **Action:** Take the log of both sides.
+$$\log(3^{x+1}) = \log \left( \frac{5}{8} \right)$$
+* **Power Property:** Move the exponent to the front.
+$$(x+1)\log 3 = \log \left( \frac{5}{8} \right)$$
+* **Isolate $x$:**
+$$x+1 = \frac{\log(5/8)}{\log 3} \implies x = \frac{\log(5/8)}{\log 3} - 1$$
+
+---
+
+#### Method 3: Natural Log ($\ln$) on Both Sides
+This is the **preferred method** for higher-level math (Calculus) because it is faster to write and handles base $e$ naturally.
+* **Action:** Take the natural log of both sides.
+$$\ln(3^{x+1}) = \ln \left( \frac{5}{8} \right)$$
+* **Power Property:**
+$$(x+1)\ln 3 = \ln \left( \frac{5}{8} \right)$$
+* **Isolate $x$:**
+$$x+1 = \frac{\ln(5/8)}{\ln 3} \implies x = \frac{\ln(5/8)}{\ln 3} - 1$$
+
+
+---
+
+#### Method 4: Matching Log Base ($\log_3$) on Both Sides
+This method uses the Inverse Property of logarithms to "cancel out" the base.
+* **Action:** Take $\log_3$ of both sides.
+$$\log_3(3^{x+1}) = \log_3 \left( \frac{5}{8} \right)$$
+* **Inverse Property:** $\log_b(b^x) = x$
+$$x+1 = \log_3 \left( \frac{5}{8} \right)$$
+* **Isolate $x$:**
+$$x = \log_3 \left( \frac{5}{8} \right) - 1$$
+
+---
+
+#### Summary of Results
+All four methods yield the same exact value. Methods 2 and 3 are essentially the **Change of Base** formula versions of Method 1 and 4.
+
+> [!IMPORTANT]
+> **The Parentheses Rule:** As emphasized in the video, when you move $(x+1)$ to the front of the log, you **must** keep it in parentheses. This ensures that if you choose to distribute the log instead of dividing, the algebra remains correct.
+
+**Final Exact Solution:**
+$$x = \frac{\ln(5/8)}{\ln 3} - 1 \approx -1.4118$$
