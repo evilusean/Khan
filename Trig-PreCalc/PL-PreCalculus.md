@@ -13958,7 +13958,6 @@ In the Professor Leonard video, he demonstrates that while there are multiple al
 $$3^{x+1} = \frac{5}{8}$$
 
 ---
-
 #### Method 1: Direct Logarithmic Notation
 This is the most straightforward "definition-based" move. You convert the exponential form directly into a logarithm.
 * **Property:** $b^E = A \iff \log_b(A) = E$
@@ -13969,7 +13968,6 @@ $$x = \log_3 \left( \frac{5}{8} \right) - 1$$
 
 
 ---
-
 #### Method 2: Common Log ($\log$) on Both Sides
 This method is useful for calculators that only have a "Log" button (Base 10).
 * **Action:** Take the log of both sides.
@@ -13980,7 +13978,6 @@ $$(x+1)\log 3 = \log \left( \frac{5}{8} \right)$$
 $$x+1 = \frac{\log(5/8)}{\log 3} \implies x = \frac{\log(5/8)}{\log 3} - 1$$
 
 ---
-
 #### Method 3: Natural Log ($\ln$) on Both Sides
 This is the **preferred method** for higher-level math (Calculus) because it is faster to write and handles base $e$ naturally.
 * **Action:** Take the natural log of both sides.
@@ -13992,7 +13989,6 @@ $$x+1 = \frac{\ln(5/8)}{\ln 3} \implies x = \frac{\ln(5/8)}{\ln 3} - 1$$
 
 
 ---
-
 #### Method 4: Matching Log Base ($\log_3$) on Both Sides
 This method uses the Inverse Property of logarithms to "cancel out" the base.
 * **Action:** Take $\log_3$ of both sides.
@@ -14003,7 +13999,6 @@ $$x+1 = \log_3 \left( \frac{5}{8} \right)$$
 $$x = \log_3 \left( \frac{5}{8} \right) - 1$$
 
 ---
-
 #### Summary of Results
 All four methods yield the same exact value. Methods 2 and 3 are essentially the **Change of Base** formula versions of Method 1 and 4.
 
