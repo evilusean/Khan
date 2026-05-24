@@ -13890,3 +13890,4 @@ Verify that $x \approx 4.479$ keeps the original arguments positive.
 #### Final Solution
 $$x = e^{\left[ \frac{3}{\frac{1}{\ln 2} + \frac{1}{\ln 6}} \right]} \approx 4.479$$
 ## 2026May24 - Solving Exponential Equations with Logarithms (Precalculus - College Algebra 64) :
+https://www.youtube.com/watch?v=rDcLCA2W-UI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=65
