@@ -13450,20 +13450,17 @@ $$x = 3$$
 This problem follows Professor Leonard's strategy for equations where some terms are logarithms and others are constants. To solve these, you must move all logarithms to one side to condense them before converting to exponential form.
 
 ---
-
 #### Step-by-Step Solution
 
 ##### Step 1: Isolate the Logarithms
 To apply logarithmic properties, move all log terms to the left side and leave the constant on the right.
 * **Action:** Subtract $\log(x-2)$ from both sides.
 $$\log(2x+1) - \log(x-2) = 1$$
-
 ##### Step 2: Condense the Left Side (Quotient Property)
 Since the logs share the same base (Base 10) and are separated by subtraction, combine them into a single logarithm using division.
 * **The Identity Rule:** $\log_b M - \log_b N = \log_b \left(\frac{M}{N}\right)$
 * **Action:**
 $$\log \left( \frac{2x+1}{x-2} \right) = 1$$
-
 ##### Step 3: Rewrite in Exponential Form
 Identify the base of the common log (10) and use the "Circle" method to convert the equation into its exponential equivalent.
 * **Base:** $10$
@@ -13471,8 +13468,6 @@ Identify the base of the common log (10) and use the "Circle" method to convert 
 * **Argument:** $\frac{2x+1}{x-2}$
 * **Action:**
 $$10^1 = \frac{2x+1}{x-2}$$
-
-
 
 ##### Step 4: Solve the Rational Equation
 Eliminate the fraction by multiplying both sides by the denominator $(x-2)$.
@@ -13482,7 +13477,6 @@ Eliminate the fraction by multiplying both sides by the denominator $(x-2)$.
     * Add $20$ to both sides: $8x = 21$
     * Divide by 8:
 $$x = \frac{21}{8} \quad \text{or} \quad x = 2.625$$
-
 ##### Step 5: Check for Extraneous Solutions
 Verify the result in the **original** logarithmic arguments. Both must be positive ($>0$).
 1.  **Argument 1:** $2(2.625) + 1 = 6.25$ (Positive)
@@ -13490,7 +13484,6 @@ Verify the result in the **original** logarithmic arguments. Both must be positi
 * **Result:** The solution is valid.
 
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
@@ -13502,6 +13495,5 @@ Verify the result in the **original** logarithmic arguments. Both must be positi
 > Always remember that "$\log$" without a subscript is base 10. If you accidentally used $e$ or $2$ as the base, the entire algebraic path would be incorrect.
 
 ---
-
 #### Final Solution
 $$x = 2.625$$
