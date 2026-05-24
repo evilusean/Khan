@@ -13399,50 +13399,58 @@ Verify that the result keeps the original argument positive ($> 0$).
 ---
 #### Final Solution
 $$x = 4$$
-### Solving $3\log_2(x-1) + \log_2 4 = 5$ via Exponential Conversion
+### Solving $3\log_2(x-1) + \log_2 4 = 5$ via Condensing (Professor Leonard Method)
 
-This entry demonstrates solving a logarithmic equation with a constant on the right side. The process involves isolating the logarithmic term, condensing the expression, and converting it into exponential form.
+In the video, Professor Leonard demonstrates that you can solve these by condensing the left side into a single logarithm using the Power and Product properties before converting to an exponential.
 
 ---
+
 #### Step-by-Step Solution
 
-##### Step 1: Simplify Known Logarithms
-Before moving terms, check if any logarithms evaluate to a whole number. 
-* **Observation:** $\log_2 4$ asks the question: "2 to what power equals 4?"
-* **Calculation:** $2^2 = 4$, so $\log_2 4 = 2$.
-* **Rewrite:** $$3\log_2(x-1) + 2 = 5$$
-##### Step 2: Isolate the Logarithmic Term
-Move all non-logarithmic constants to the right side and eliminate the coefficient.
-* **Action (Subtract 2):** $3\log_2(x-1) = 3$
-* **Action (Divide by 3):** $$\log_2(x-1) = 1$$##### Step 3: Rewrite in Exponential Form
-Apply the definition $\log_b(M) = N \iff b^N = M$ to "release" the variable from the logarithm.
-* **Base:** $2$
-* **Exponent:** $1$
-* **Argument:** $x-1$
+##### Step 1: Move the Coefficient (Power Property)
+Before combining the logarithms, the coefficient in front of the first log must be moved to the exponent of the argument.
+* **Action:** Move the $3$ to the power of $(x-1)$.
+$$\log_2(x-1)^3 + \log_2 4 = 5$$
+
+##### Step 2: Condense the Left Side (Product Property)
+Since the two logarithms have the same base and are being added, combine their arguments into a single logarithm using multiplication.
+* **The Identity Rule:** $\log_b M + \log_b N = \log_b (M \cdot N)$
 * **Action:**
-$$2^1 = x - 1$$
+$$\log_2 [4(x-1)^3] = 5$$
+
+##### Step 3: Rewrite in Exponential Form
+Now that the left side is a single logarithm and the right side is a constant, apply the definition of a logarithm to "release" the argument.
+* **Base:** $2$
+* **Exponent:** $5$
+* **Argument:** $4(x-1)^3$
+* **Action:**
+$$2^5 = 4(x-1)^3$$
+
+
+
 ##### Step 4: Solve for $x$
-Solve the remaining linear equation.
-* **Simplify:** $2 = x - 1$
-* **Action:** Add $1$ to both sides.
+Evaluate the power and use inverse operations to isolate $x$.
+* **Evaluate $2^5$:** $32 = 4(x-1)^3$
+* **Divide by 4:** $$8 = (x-1)^3$$
+* **Take the Cube Root:** $$\sqrt[3]{8} = \sqrt[3]{(x-1)^3}$$
+$$2 = x - 1$$
+* **Final Step:** Add $1$ to both sides.
 $$x = 3$$
+
 ##### Step 5: Check for Extraneous Solutions
-Verify that the result keeps the original argument positive ($>0$).
+Verify that the result keeps the original argument positive ($> 0$).
 * **Test:** Plug $x = 3$ into the original argument $(x-1)$.
 * **Check:** $3 - 1 = 2$. Since $2 > 0$, the solution is valid.
 
 ---
-#### Alternative Method: Condensing First
-If you didn't notice $\log_2 4 = 2$, you could use properties first:
-1. **Power Property:** $\log_2(x-1)^3 + \log_2 4 = 5$
-2. **Product Property:** $\log_2[4(x-1)^3] = 5$
-3. **Rewrite:** $2^5 = 4(x-1)^3 \implies 32 = 4(x-1)^3$
-4. **Solve:** $8 = (x-1)^3 \implies \sqrt[3]{8} = x-1 \implies 2 = x-1 \implies x = 3$
 
-> [!TIP]
-> **Simplifying First is Faster:**
-> As Professor Leonard often highlights, evaluating numerical logs like $\log_2 4$ immediately makes the algebra much cleaner and reduces the risk of making errors with large exponents.
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Multiplication Order:**
+> When condensing in Step 2, ensure the coefficient ($4$) is multiplied by the *entire* argument $(x-1)^3$. Do not accidentally multiply the $4$ inside the parentheses before handling the exponent.
 
 ---
+
 #### Final Solution
 $$x = 3$$
