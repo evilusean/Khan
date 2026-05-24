@@ -13295,7 +13295,6 @@ https://www.youtube.com/watch?v=jNUyVClUQfc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This technique is used when an equation contains a logarithm on one side and a constant (non-logarithm) on the other. Because you cannot use the One-to-One Property to "drop" the logs, you must transform the equation into its exponential form to isolate the variable.
 
 ---
-
 #### The Fundamental Definition
 To solve these equations, you must be able to convert between logarithmic and exponential forms fluently:
 
@@ -13306,10 +13305,7 @@ $$\log_b(M) = N \iff b^N = M$$
 2. Swing around to the **other side** of the equals sign to pick up the **Exponent** ($N$).
 3. Set it equal to the **Argument** ($M$).
 
-
-
 ---
-
 #### The Step-by-Step Solving Strategy
 
 ##### Step 1: Isolate the Logarithm
@@ -13317,21 +13313,16 @@ Before you can convert to an exponential, the logarithm must be completely alone
 * **Undo Addition/Subtraction:** Move any trailing constants to the other side.
 * **Undo Multiplication:** Divide by any coefficients in front of the log.
 * **Result:** You should have the form $\log_b(\text{something}) = \text{number}$.
-
 ##### Step 2: Condense if Necessary
 If there are multiple logs on one side and a constant on the other, use the Product or Quotient properties to merge them into **one single log** first.
-
 ##### Step 3: Rewrite in Exponential Form
 Apply the definition $\log_b(M) = N \implies b^N = M$. This "releases" the variable from inside the logarithmic function.
-
 ##### Step 4: Solve for $x$
 The resulting equation will be algebraic (linear, quadratic, etc.). Solve using standard methods.
-
 ##### Step 5: Check for Extraneous Solutions (MANDATORY)
 Since the domain of a logarithm is $(0, \infty)$, you must ensure your answer does not cause the argument of any **original** logarithm to be zero or negative.
 
 ---
-
 #### Comprehensive Example
 
 $$\log_2(x) + \log_2(x-2) = 3$$
@@ -13346,7 +13337,6 @@ $$\log_2(x) + \log_2(x-2) = 3$$
 **Final Answer:** $x = 4$
 
 ---
-
 #### Critical Pitfalls to Avoid
 
 > [!CAUTION]
@@ -13362,7 +13352,6 @@ $$\log_2(x) + \log_2(x-2) = 3$$
 > * Correct: $\log_3(x) = 2 \implies 3^2 = x$
 
 ---
-
 #### Summary of Necessary Forms
 | Log Form        | Exponential Form |
 | :-------------- | :--------------- |
