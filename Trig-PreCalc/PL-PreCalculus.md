@@ -13445,3 +13445,63 @@ Verify that the result keeps the original argument positive ($> 0$).
 ---
 #### Final Solution
 $$x = 3$$
+### Solving $\log(2x+1) = 1 + \log(x-2)$ via Exponential Conversion
+
+This problem follows Professor Leonard's strategy for equations where some terms are logarithms and others are constants. To solve these, you must move all logarithms to one side to condense them before converting to exponential form.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Isolate the Logarithms
+To apply logarithmic properties, move all log terms to the left side and leave the constant on the right.
+* **Action:** Subtract $\log(x-2)$ from both sides.
+$$\log(2x+1) - \log(x-2) = 1$$
+
+##### Step 2: Condense the Left Side (Quotient Property)
+Since the logs share the same base (Base 10) and are separated by subtraction, combine them into a single logarithm using division.
+* **The Identity Rule:** $\log_b M - \log_b N = \log_b \left(\frac{M}{N}\right)$
+* **Action:**
+$$\log \left( \frac{2x+1}{x-2} \right) = 1$$
+
+##### Step 3: Rewrite in Exponential Form
+Identify the base of the common log (10) and use the "Circle" method to convert the equation into its exponential equivalent.
+* **Base:** $10$
+* **Exponent:** $1$
+* **Argument:** $\frac{2x+1}{x-2}$
+* **Action:**
+$$10^1 = \frac{2x+1}{x-2}$$
+
+
+
+##### Step 4: Solve the Rational Equation
+Eliminate the fraction by multiplying both sides by the denominator $(x-2)$.
+* **Action:** $10(x-2) = 2x + 1$
+* **Distribute:** $10x - 20 = 2x + 1$
+* **Isolate $x$:** * Subtract $2x$ from both sides: $8x - 20 = 1$
+    * Add $20$ to both sides: $8x = 21$
+    * Divide by 8:
+$$x = \frac{21}{8} \quad \text{or} \quad x = 2.625$$
+
+##### Step 5: Check for Extraneous Solutions
+Verify the result in the **original** logarithmic arguments. Both must be positive ($>0$).
+1.  **Argument 1:** $2(2.625) + 1 = 6.25$ (Positive)
+2.  **Argument 2:** $2.625 - 2 = 0.625$ (Positive)
+* **Result:** The solution is valid.
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **The Constant Trap:**
+> Do not try to "drop the logs" while the constant $1$ is present. You cannot say $(2x+1) = 1 + (x-2)$. The One-to-One property only works when the equation is $\text{log} = \text{log}$. Because of the $1$, you **must** condense and convert to exponential form.
+
+> [!WARNING]
+> **Base Awareness:**
+> Always remember that "$\log$" without a subscript is base 10. If you accidentally used $e$ or $2$ as the base, the entire algebraic path would be incorrect.
+
+---
+
+#### Final Solution
+$$x = 2.625$$
