@@ -13404,7 +13404,6 @@ $$x = 4$$
 This entry demonstrates solving a logarithmic equation with a constant on the right side. The process involves isolating the logarithmic term, condensing the expression, and converting it into exponential form.
 
 ---
-
 #### Step-by-Step Solution
 
 ##### Step 1: Simplify Known Logarithms
@@ -13412,35 +13411,27 @@ Before moving terms, check if any logarithms evaluate to a whole number.
 * **Observation:** $\log_2 4$ asks the question: "2 to what power equals 4?"
 * **Calculation:** $2^2 = 4$, so $\log_2 4 = 2$.
 * **Rewrite:** $$3\log_2(x-1) + 2 = 5$$
-
 ##### Step 2: Isolate the Logarithmic Term
 Move all non-logarithmic constants to the right side and eliminate the coefficient.
 * **Action (Subtract 2):** $3\log_2(x-1) = 3$
-* **Action (Divide by 3):** $$\log_2(x-1) = 1$$
-
-##### Step 3: Rewrite in Exponential Form
+* **Action (Divide by 3):** $$\log_2(x-1) = 1$$##### Step 3: Rewrite in Exponential Form
 Apply the definition $\log_b(M) = N \iff b^N = M$ to "release" the variable from the logarithm.
 * **Base:** $2$
 * **Exponent:** $1$
 * **Argument:** $x-1$
 * **Action:**
 $$2^1 = x - 1$$
-
-
-
 ##### Step 4: Solve for $x$
 Solve the remaining linear equation.
 * **Simplify:** $2 = x - 1$
 * **Action:** Add $1$ to both sides.
 $$x = 3$$
-
 ##### Step 5: Check for Extraneous Solutions
 Verify that the result keeps the original argument positive ($>0$).
 * **Test:** Plug $x = 3$ into the original argument $(x-1)$.
 * **Check:** $3 - 1 = 2$. Since $2 > 0$, the solution is valid.
 
 ---
-
 #### Alternative Method: Condensing First
 If you didn't notice $\log_2 4 = 2$, you could use properties first:
 1. **Power Property:** $\log_2(x-1)^3 + \log_2 4 = 5$
@@ -13453,6 +13444,5 @@ If you didn't notice $\log_2 4 = 2$, you could use properties first:
 > As Professor Leonard often highlights, evaluating numerical logs like $\log_2 4$ immediately makes the algebra much cleaner and reduces the risk of making errors with large exponents.
 
 ---
-
 #### Final Solution
 $$x = 3$$
