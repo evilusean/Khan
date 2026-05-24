@@ -14001,3 +14001,61 @@ All four methods yield the same exact value. Methods 2 and 3 are essentially the
 
 **Final Exact Solution:**
 $$x = \frac{\ln(5/8)}{\ln 3} - 1 \approx -1.4118$$
+### Solving $2^{x+1} = 5^{1-2x}$ via Natural Logarithms
+
+When variables appear in the exponents of two different bases ($2$ and $5$), and those bases cannot be written as a common base, we must take the logarithm of both sides. As shown in the video, using the Natural Log ($\ln$) is the most efficient path.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Take the Natural Log ($\ln$) of Both Sides
+Apply $\ln$ to both sides of the equation to prepare for the Power Property.
+$$\ln(2^{x+1}) = \ln(5^{1-2x})$$
+
+##### Step 2: Move Exponents to the Front (Power Property)
+Move the exponents down as coefficients. 
+> [!IMPORTANT]
+> **Video Rule:** You must keep the exponents in parentheses to ensure the $\ln$ values are distributed correctly later.
+$$(x+1)\ln 2 = (1-2x)\ln 5$$
+
+
+##### Step 3: Distribute the Logarithms
+Treat $\ln 2$ and $\ln 5$ as constants and distribute them into their respective parentheses.
+$$x \ln 2 + \ln 2 = \ln 5 - 2x \ln 5$$
+
+##### Step 4: Group the $x$ Terms
+Move all terms containing $x$ to the left side and all constant terms to the right side.
+* **Action:** Add $2x \ln 5$ to the left; subtract $\ln 2$ from the right.
+$$x \ln 2 + 2x \ln 5 = \ln 5 - \ln 2$$
+
+##### Step 5: Factor out $x$
+Since both terms on the left share $x$, factor it out to prepare for division.
+$$x(\ln 2 + 2 \ln 5) = \ln 5 - \ln 2$$
+
+##### Step 6: Isolate $x$
+Divide both sides by the entire parenthetical expression $(\ln 2 + 2 \ln 5)$.
+$$x = \frac{\ln 5 - \ln 2}{\ln 2 + 2 \ln 5}$$
+
+---
+
+#### Optional Simplification (Log Properties)
+You can use the Power and Quotient properties to condense the answer into a single logarithm:
+1.  **Numerator:** $\ln 5 - \ln 2 = \ln(5/2) = \ln 2.5$
+2.  **Denominator:** $\ln 2 + \ln(5^2) = \ln 2 + \ln 25 = \ln(2 \cdot 25) = \ln 50$
+3.  **Result:** $x = \frac{\ln 2.5}{\ln 50}$
+4.  **Change of Base (Reverse):** $x = \log_{50}(2.5)$
+
+---
+
+#### Critical Pitfall to Avoid
+* **The Distribution Error:** A common mistake is to only multiply the $x$ by the logarithm and forget to multiply the constant (the $+1$ or $-1$). As Professor Leonard noted, the parentheses are your "insurance policy" against this mistake.
+
+---
+
+#### Final Solution
+**Exact Form:**
+$$x = \frac{\ln 5 - \ln 2}{\ln 2 + 2 \ln 5}$$
+
+**Approximate Form:**
+$$x \approx 0.2345$$
