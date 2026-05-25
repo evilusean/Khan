@@ -14048,3 +14048,50 @@ $$x = \frac{\ln 5 - \ln 2}{\ln 2 + 2 \ln 5}$$
 
 **Approximate Form:**
 $$x \approx 0.2345$$
+### $e^{x+3} = \pi^{x}$ via Natural Logarithms
+
+When dealing with equations involving base $e$, using the Natural Log ($\ln$) is the most efficient strategy because $\ln(e) = 1$. This simplifies the algebra significantly compared to using other bases.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Take the Natural Log ($\ln$) of Both Sides
+Apply $\ln$ to both sides to access the exponents.
+$$\ln(e^{x+3}) = \ln(\pi^{x})$$
+
+##### Step 2: Use the Inverse and Power Properties
+* **Left side:** The inverse property $\ln(e^u) = u$ allows the base and the log to cancel out.
+* **Right side:** Use the Power Property to move $x$ to the front as a coefficient.
+$$x + 3 = x \ln \pi$$
+
+
+
+##### Step 3: Group the $x$ Terms
+Move all terms containing the variable $x$ to one side of the equation.
+* **Action:** Subtract $x$ from both sides.
+$$3 = x \ln \pi - x$$
+
+##### Step 4: Factor out $x$
+Factor out the common $x$ term on the right side to isolate it from the constants.
+$$3 = x(\ln \pi - 1)$$
+
+##### Step 5: Isolate $x$
+Divide both sides by the quantity $(\ln \pi - 1)$.
+$$x = \frac{3}{\ln \pi - 1}$$
+
+---
+
+#### Key Observations from the Video
+* **Efficiency of $\ln$:** Using $\ln$ with base $e$ eliminates the need to distribute a logarithm on the left side, which would be necessary if using $\log_{10}$.
+* **Exact vs. Approximate:** $\frac{3}{\ln \pi - 1}$ is the "Exact Solution." 
+* **Calculator Tip:** When evaluating, ensure the denominator is in parentheses: `3 / (ln(π) - 1)`.
+
+---
+
+#### Final Solution
+**Exact Form:**
+$$x = \frac{3}{\ln \pi - 1}$$
+
+**Approximate Form:**
+$$x \approx 20.728$$
