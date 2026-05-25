@@ -14183,3 +14183,62 @@ As Professor Leonard emphasized, an exponential function $a^x$ (with a positive 
 ---
 #### Final Solution
 **No Real Solution**
+### Solving $3^x - 14 \cdot 3^{-x} = 5$ via Substitution
+
+This problem features a negative exponent, which Professor Leonard treats as a "fractional" issue. The strategy is to eliminate the negative exponent to create a quadratic structure that can be solved via $u$-substitution.
+
+---
+#### Step-by-Step Solution
+
+##### Step 1: Rewrite the Negative Exponent
+Recall that $a^{-n} = \frac{1}{a^n}$. Rewrite the second term to see the fraction clearly.
+$$3^x - \frac{14}{3^x} = 5$$
+##### Step 2: Clear the Fraction (Multiply by the LCD)
+To get the equation into a form we can solve, multiply every term on both sides by the denominator, $3^x$.
+* **Term 1:** $3^x \cdot 3^x = (3^x)^2$
+* **Term 2:** $3^x \cdot \left(\frac{14}{3^x}\right) = 14$
+* **Right Side:** $5 \cdot 3^x = 5(3^x)$
+**The resulting equation:**
+$$(3^x)^2 - 14 = 5(3^x)$$
+##### Step 3: Rearrange into Standard Quadratic Form
+Move all terms to one side to set the equation to zero.
+$$(3^x)^2 - 5(3^x) - 14 = 0$$
+##### Step 4: Apply U-Substitution
+Substitute $u$ for the exponential term to make the quadratic easier to handle.
+* **Let $u = 3^x$**
+$$u^2 - 5u - 14 = 0$$
+##### Step 5: Solve the Quadratic Equation
+Factor the trinomial.
+* **Factor:** $(u - 7)(u + 2) = 0$
+* **Solve for $u$:**
+    * $u = 7$
+    * $u = -2$
+##### Step 6: Back-Substitute to Solve for $x$
+Now, replace $u$ with $3^x$ and evaluate each case.
+
+1.  **Case 1: $3^x = 7$**
+    * Since $7$ is not a power of $3$, convert to logarithmic form.
+    * **$\log_3 7 = x$** (Exact Solution)
+    * **$x = \frac{\ln 7}{\ln 3}$** (Calculator Form)
+
+2.  **Case 2: $3^x = -2$**
+    * **Check Range:** An exponential function ($3^x$) cannot produce a negative result.
+    * **Result:** No solution from this branch (Extraneous).
+---
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **Multiplying Both Sides:**
+> When clearing the fraction in Step 2, a common error is forgetting to multiply the constant on the right side ($5$). You must multiply **every** term in the equation by $3^x$.
+
+> [!WARNING]
+> **The Negative Exponent Trap:**
+> Do not attempt to take the log of the equation while it still has a subtraction sign (e.g., $\ln(3^x - 14 \cdot 3^{-x})$). Log properties do not allow you to split a logarithm across subtraction or addition. Substitution is the only valid path here.
+
+---
+#### Final Solution
+**Exact Form:**
+$$x = \log_3 7$$
+
+**Approximate Form:**
+$$x \approx 1.771$$
