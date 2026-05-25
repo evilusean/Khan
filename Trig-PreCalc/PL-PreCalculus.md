@@ -14244,3 +14244,82 @@ $$x = \log_3 7$$
 $$x \approx 1.771$$
 ## 2026-May-25 - Review of Compound Interest (Precalculus - College Algebra 65) :
 https://www.youtube.com/watch?v=N1k25doMFww&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=67
+### Review of Compound Interest
+
+Compound interest occurs when interest is earned not only on the initial principal but also on the interest accumulated from previous periods. In this lecture, Professor Leonard covers the two primary formulas used to calculate future value based on how often interest is applied.
+
+---
+
+#### 1. Discrete Compound Interest Formula
+This formula is used when interest is compounded at specific intervals (annually, monthly, daily, etc.).
+
+$$A = P\left(1 + \frac{r}{n}\right)^{nt}$$
+
+**Variables Defined:**
+* **$A$:** Future Value (the amount of money in the account after $t$ years).
+* **$P$:** Principal (the initial amount invested or borrowed).
+* **$r$:** Annual Interest Rate (must be expressed as a **decimal**; e.g., $5\% = 0.05$).
+* **$n$:** Number of compounding periods per year.
+* **$t$:** Time in **years**.
+
+**Common Values for $n$:**
+* Annually: $n = 1$
+* Semi-annually: $n = 2$
+* Quarterly: $n = 4$
+* Monthly: $n = 12$
+* Daily: $n = 365$
+
+
+
+---
+
+#### 2. Continuous Compound Interest Formula
+As the number of compounding periods ($n$) approaches infinity, we transition from discrete compounding to continuous compounding. This involves the mathematical constant $e$ (Euler's number, $\approx 2.718$).
+
+$$A = Pe^{rt}$$
+
+**When to use:** Use this formula only when the problem explicitly states interest is compounded **"continuously."**
+
+
+
+---
+
+#### 3. Solving for Different Variables
+Professor Leonard emphasizes that while finding $A$ is simple arithmetic, finding $P$ or $t$ requires more advanced algebra.
+
+* **Solving for $P$ (Present Value):**
+    * If you know the target amount ($A$) you want in the future, you can solve for $P$ by dividing $A$ by the entire growth factor:
+    $$P = \frac{A}{(1 + r/n)^{nt}}$$
+* **Solving for $t$ (Time):**
+    * Since $t$ is in the exponent, you **must** use logarithms ($\ln$) to solve.
+    * **Step 1:** Isolate the exponential part by dividing by $P$.
+    * **Step 2:** Take the natural log ($\ln$) of both sides.
+    * **Step 3:** Use the Power Property to bring $t$ down and solve.
+
+---
+
+#### 4. Effective Annual Yield (APY)
+The Effective Annual Yield (or Annual Percentage Yield) is the actual interest rate earned in one year after accounting for compounding. It allows you to compare two different accounts with different compounding frequencies.
+
+**Formula:**
+$$Y = \left(1 + \frac{r}{n}\right)^n - 1$$
+
+* The yield will always be slightly higher than the nominal rate ($r$) if $n > 1$.
+* This formula is essentially the standard compound interest formula where $P = 1$ and $t = 1$, minus the original principal.
+
+---
+
+#### 5. Critical Tips & Common Pitfalls
+
+> [!CAUTION]
+> **Rounding Errors:**
+> Never round the intermediate steps in your calculator (like the $1 + r/n$ part). Keep the full decimal in your calculator until the very final step to avoid "rounding drift," which can significantly change the dollar amount in large investments.
+
+> [!IMPORTANT]
+> **The Rate Trap:**
+> Always convert percentages to decimals immediately. Using "$5$" instead of "$0.05$" in the formula will result in a mathematically impossible growth rate.
+
+> [!TIP]
+> **Units of Time:**
+> $t$ must always be in years. If a problem gives you "6 months," you must use $t = 0.5$.
+
