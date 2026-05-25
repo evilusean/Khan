@@ -14136,3 +14136,60 @@ Replace $u$ with the original $2^x$ to find the real solution for $x$.
 ---
 #### Final Solution
 $$x = 1$$
+### Solving $2(49^x) + 11(7^x) + 5 = 0$ via Substitution
+
+This problem follows the "Level 4" pattern from Professor Leonard's lecture, where one base is the square of another ($49 = 7^2$). We use substitution to convert the exponential equation into a standard quadratic equation.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Rewrite to Identify the Common Base
+We need both exponential terms to share the same base, which is $7$.
+* **Rewrite $49^x$:** Since $49 = 7^2$, we can write $49^x$ as $(7^2)^x$.
+* **Power Property:** Because multiplication is commutative ($2 \cdot x = x \cdot 2$), $(7^2)^x$ is equivalent to $(7^x)^2$.
+
+**The Equation becomes:**
+$$2(7^x)^2 + 11(7^x) + 5 = 0$$
+
+##### Step 2: Apply U-Substitution
+To see the quadratic structure clearly, we replace the exponential term with $u$.
+* **Let $u = 7^x$**
+$$2u^2 + 11u + 5 = 0$$
+
+
+
+##### Step 3: Solve the Quadratic Equation
+Factor the trinomial using the "ac" method ($2 \cdot 5 = 10$; factors of $10$ that add to $11$ are $10$ and $1$).
+* **Factor:** $(2u + 1)(u + 5) = 0$
+* **Solve for $u$:**
+    * $2u + 1 = 0 \implies u = -1/2$
+    * $u + 5 = 0 \implies u = -5$
+
+##### Step 4: Back-Substitute and Analyze the Range
+Now we replace $u$ with $7^x$ to solve for $x$.
+
+1.  **Case 1:** $7^x = -1/2$
+2.  **Case 2:** $7^x = -5$
+
+**Critical Range Check:**
+As Professor Leonard emphasized, an exponential function $a^x$ (with a positive base) **can never produce a negative output**.
+* The range of $7^x$ is $(0, \infty)$.
+* Since both $-1/2$ and $-5$ are negative, they are outside the range of the exponential function.
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **No Solution vs. Incorrect Algebra:**
+> It is common for substitution problems to yield "No Solution." This happens when the quadratic step produces negative $u$ values. Don't assume you made a mistake; rather, recognize that the exponential function simply cannot reach those values.
+
+> [!WARNING]
+> **Domain Trap:**
+> If you tried to solve $7^x = -5$ by taking the log of both sides, you would get $\log_7(-5) = x$. This results in a **domain error** on your calculator, confirming that there is no real number solution.
+
+---
+
+#### Final Solution
+**No Real Solution**
