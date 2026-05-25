@@ -14086,4 +14086,63 @@ $$x = \frac{3}{\ln \pi - 1}$$
 
 **Approximate Form:**
 $$x \approx 20.728$$
+### Solving $2^{2x} + 2^{x+2} - 12 = 0$ via Substitution
 
+This problem features three terms and exponentials that cannot be combined or isolated. Following the substitution method shown in the video, we look for a way to rewrite the terms so they share a common exponential, typically resulting in a quadratic form.
+
+---
+
+#### Step-by-Step Solution
+
+##### Step 1: Rewrite Terms to Match Exponentials
+We want to manipulate the first two terms so they both contain $2^x$.
+* **Term 1 ($2^{2x}$):** Using the Power of a Power rule $(b^m)^n = b^{mn}$, we rewrite $2^{2x}$ as $(2^x)^2$.
+* **Term 2 ($2^{x+2}$):** Using the Product Rule $b^m \cdot b^n = b^{m+n}$ in reverse, we rewrite $2^{x+2}$ as $2^x \cdot 2^2$.
+    * $2^x \cdot 2^2$ simplifies to $4(2^x)$.
+
+**The Rewritten Equation:**
+$$(2^x)^2 + 4(2^x) - 12 = 0$$
+
+##### Step 2: Use U-Substitution
+To make the quadratic structure visible, we substitute a variable for the exponential.
+* **Let $u = 2^x$**
+$$u^2 + 4u - 12 = 0$$
+
+
+
+##### Step 3: Solve the Quadratic Equation
+Factor the trinomial to find the values of $u$.
+* **Factor:** $(u + 6)(u - 2) = 0$
+* **Solve for $u$:**
+    * $u = -6$
+    * $u = 2$
+
+##### Step 4: Back-Substitute to Solve for $x$
+Replace $u$ with the original $2^x$ to find the real solution for $x$.
+
+1.  **Case 1: $2^x = -6$**
+    * **Check Range:** An exponential function ($2^x$) always yields a positive result. It can never equal a negative number.
+    * **Result:** No solution from this branch (Extraneous).
+
+2.  **Case 2: $2^x = 2$**
+    * Since $2$ is the same as $2^1$, we can use the One-to-One property of common bases.
+    * **Result:** $x = 1$
+
+
+
+---
+
+#### Critical Warnings & Common Pitfalls
+
+> [!CAUTION]
+> **Range vs. Domain:**
+> As noted in the video, $2^x = -6$ is a "range issue" for the exponential. If you tried to solve it with logs, you would get $\log_2(-6) = x$, which is a "domain issue" because you cannot take the log of a negative number.
+
+> [!TIP]
+> **Commutative Property:**
+> $2^{2x}$ could also be written as $(2^2)^x$, which is $4^x$. However, that doesn't help us match the $2^x$ in the second term. Always choose the rewrite that matches the smaller exponential base.
+
+---
+
+#### Final Solution
+$$x = 1$$
