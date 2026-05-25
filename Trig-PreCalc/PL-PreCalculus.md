@@ -14091,7 +14091,6 @@ $$x \approx 20.728$$
 This problem features three terms and exponentials that cannot be combined or isolated. Following the substitution method shown in the video, we look for a way to rewrite the terms so they share a common exponential, typically resulting in a quadratic form.
 
 ---
-
 #### Step-by-Step Solution
 
 ##### Step 1: Rewrite Terms to Match Exponentials
@@ -14102,21 +14101,16 @@ We want to manipulate the first two terms so they both contain $2^x$.
 
 **The Rewritten Equation:**
 $$(2^x)^2 + 4(2^x) - 12 = 0$$
-
 ##### Step 2: Use U-Substitution
 To make the quadratic structure visible, we substitute a variable for the exponential.
 * **Let $u = 2^x$**
 $$u^2 + 4u - 12 = 0$$
-
-
-
 ##### Step 3: Solve the Quadratic Equation
 Factor the trinomial to find the values of $u$.
 * **Factor:** $(u + 6)(u - 2) = 0$
 * **Solve for $u$:**
     * $u = -6$
     * $u = 2$
-
 ##### Step 4: Back-Substitute to Solve for $x$
 Replace $u$ with the original $2^x$ to find the real solution for $x$.
 
@@ -14128,10 +14122,7 @@ Replace $u$ with the original $2^x$ to find the real solution for $x$.
     * Since $2$ is the same as $2^1$, we can use the One-to-One property of common bases.
     * **Result:** $x = 1$
 
-
-
 ---
-
 #### Critical Warnings & Common Pitfalls
 
 > [!CAUTION]
@@ -14143,6 +14134,5 @@ Replace $u$ with the original $2^x$ to find the real solution for $x$.
 > $2^{2x}$ could also be written as $(2^2)^x$, which is $4^x$. However, that doesn't help us match the $2^x$ in the second term. Always choose the rewrite that matches the smaller exponential base.
 
 ---
-
 #### Final Solution
 $$x = 1$$
