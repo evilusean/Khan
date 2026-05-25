@@ -1298,3 +1298,62 @@ $$\log_2(x) + \log_2(x-2) = 3$$
 
 **Final Answer:** $x = 4$
 
+### Solving Exponential Equations with Logarithms (Precalculus - College Algebra 64) :
+https://www.youtube.com/watch?v=rDcLCA2W-UI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=65
+### Solving Exponential Equations with Logarithms
+
+When exponential equations cannot be solved using common bases (e.g., $3^x = 5$), we must use logarithms. Logarithms are the inverse operation of exponentials and allow us to "bring down" variables from the exponent.
+
+---
+#### 1. Four Methods for Basic Equations (Single Exponential)
+For an isolated exponential like $3^{x+1} = \frac{5}{8}$, there are four equivalent ways to solve:
+
+1.  **Direct Logarithmic Notation:** Rewrite the exponential form directly into logarithmic form.
+    * $\text{Base}^E = A \iff \log_{\text{Base}}(A) = E$
+    * $\log_3(\frac{5}{8}) = x + 1 \implies x = \log_3(\frac{5}{8}) - 1$
+2.  **Common Log ($\log$) on Both Sides:** Take the base-10 log of both sides and use the Power Property to move the exponent to the front.
+3.  **Natural Log ($\ln$) on Both Sides:** (Most Preferred) Take the base-$e$ log of both sides. This is often preferred because it is shorter to write and easily accessible on all calculators.
+4.  **Matching Log Base:** Take the log of both sides using the same base as the exponential (e.g., $\log_3$ for $3^x$) to invoke the inverse property $\log_b(b^x) = x$.
+
+---
+#### 2. Advanced Equations (Different Bases & Multiple X's)
+When you have two different bases (e.g., $2^{x-1} = 5^{1-2x}$), you **must** use a logarithm on both sides.
+
+**The Mandatory Process:**
+* **Step 1:** Take the Natural Log ($\ln$) of both sides.
+* **Step 2:** Use the Power Property to move exponents to the front as coefficients.
+    * *Crucial:* Keep exponents in parentheses: $(x-1)\ln 2 = (1-2x)\ln 5$.
+* **Step 3:** Distribute the $\ln$ values (which are just constants).
+* **Step 4:** Group all terms with $x$ on one side and constants on the other.
+* **Step 5:** Factor out $x$ and divide to isolate the variable.
+
+---
+#### 3. Equations Involving $e$
+If the equation involves base $e$ (e.g., $e^{x+3} = \pi^x$), always use the Natural Log ($\ln$).
+* Because $\ln(e) = 1$, the term $\ln(e^{x+3})$ simplifies immediately to $x+3$.
+* This significantly reduces the algebraic steps required compared to using $\log_{10}$.
+
+---
+#### 4. The Substitution Technique (Quadratic Form)
+When an equation has three terms and looks like a quadratic (e.g., $49^x + 11(7^x) + 5 = 0$), use $u$-substitution.
+
+* **Recognition:** Look for one base that is the square of another ($49^x$ is $(7^x)^2$).
+* **Setup:** Let $u = 7^x$. Rewrite as $u^2 + 11u + 5 = 0$.
+* **Solve:** Solve for $u$ using factoring or the Quadratic Formula.
+* **Back-Substitute:** Set $7^x$ equal to your $u$ values.
+
+---
+#### 5. Critical Warnings & Domain/Range
+* **Extraneous Solutions:** An exponential function $a^x$ (where $a > 0$) can **never** result in a negative number or zero.
+    * If your algebra leads to $2^x = -6$, that branch of the solution is **invalid**.
+* **The Parentheses Rule:** When moving an exponent like $(x+1)$ to the front of a log, you **must** use parentheses. Failure to distribute the log to both terms is the most common error in this domain.
+* **Logarithmic Form vs. Calculator Form:** $\log_3(5)$ is an "exact solution." $\frac{\ln 5}{\ln 3}$ is the "change of base" form used for calculator approximation.
+
+---
+#### Final Exact Solution Example
+For $e^{x+3} = \pi^x$:
+1.  $\ln(e^{x+3}) = \ln(\pi^x)$
+2.  $x + 3 = x \ln \pi$
+3.  $3 = x \ln \pi - x$
+4.  $3 = x(\ln \pi - 1)$
+5.  $x = \frac{3}{\ln \pi - 1}$
