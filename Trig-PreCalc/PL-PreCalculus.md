@@ -14249,7 +14249,6 @@ https://www.youtube.com/watch?v=N1k25doMFww&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Compound interest occurs when interest is earned not only on the initial principal but also on the interest accumulated from previous periods. In this lecture, Professor Leonard covers the two primary formulas used to calculate future value based on how often interest is applied.
 
 ---
-
 #### 1. Discrete Compound Interest Formula
 This formula is used when interest is compounded at specific intervals (annually, monthly, daily, etc.).
 
@@ -14269,10 +14268,7 @@ $$A = P\left(1 + \frac{r}{n}\right)^{nt}$$
 * Monthly: $n = 12$
 * Daily: $n = 365$
 
-
-
 ---
-
 #### 2. Continuous Compound Interest Formula
 As the number of compounding periods ($n$) approaches infinity, we transition from discrete compounding to continuous compounding. This involves the mathematical constant $e$ (Euler's number, $\approx 2.718$).
 
@@ -14280,10 +14276,7 @@ $$A = Pe^{rt}$$
 
 **When to use:** Use this formula only when the problem explicitly states interest is compounded **"continuously."**
 
-
-
 ---
-
 #### 3. Solving for Different Variables
 Professor Leonard emphasizes that while finding $A$ is simple arithmetic, finding $P$ or $t$ requires more advanced algebra.
 
@@ -14297,7 +14290,6 @@ Professor Leonard emphasizes that while finding $A$ is simple arithmetic, findin
     * **Step 3:** Use the Power Property to bring $t$ down and solve.
 
 ---
-
 #### 4. Effective Annual Yield (APY)
 The Effective Annual Yield (or Annual Percentage Yield) is the actual interest rate earned in one year after accounting for compounding. It allows you to compare two different accounts with different compounding frequencies.
 
@@ -14308,7 +14300,6 @@ $$Y = \left(1 + \frac{r}{n}\right)^n - 1$$
 * This formula is essentially the standard compound interest formula where $P = 1$ and $t = 1$, minus the original principal.
 
 ---
-
 #### 5. Critical Tips & Common Pitfalls
 
 > [!CAUTION]
