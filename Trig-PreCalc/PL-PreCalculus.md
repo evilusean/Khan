@@ -14243,3 +14243,4 @@ $$x = \log_3 7$$
 **Approximate Form:**
 $$x \approx 1.771$$
 ## 2026-May-25 - Review of Compound Interest (Precalculus - College Algebra 65) :
+https://www.youtube.com/watch?v=N1k25doMFww&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=67
