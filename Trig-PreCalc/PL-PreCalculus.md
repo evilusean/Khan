@@ -14313,4 +14313,73 @@ $$Y = \left(1 + \frac{r}{n}\right)^n - 1$$
 > [!TIP]
 > **Units of Time:**
 > $t$ must always be in years. If a problem gives you "6 months," you must use $t = 0.5$.
+### Compound Interest Problem: $3,000$ at $9.25\%$ for $2.5$ years
+
+Following Professor Leonard's methodology, we will solve this using both the Discrete Compound Interest formula and the Continuous Compound Interest formula. 
+
+**Given Information:**
+* **$P$ (Principal):** $3,000$
+* **$r$ (Annual Rate):** $9.25\% = 0.0925$
+* **$t$ (Time in years):** $2.5$ (since $2 \frac{1}{2} = 2.5$)
+* **$n$ (Compounding periods):** $12$ (Monthly)
+
+---
+
+#### Method 1: Discrete Compound Interest (Monthly)
+We use the discrete formula because the problem specifies a finite compounding period (monthly).
+
+
+
+**1. Set up the formula:**
+$$A = 3000 \left( 1 + \frac{0.0925}{12} \right)^{(12 \cdot 2.5)}$$
+
+**2. Simplify the exponent:**
+$$12 \cdot 2.5 = 30$$
+
+**3. Simplify the rate fraction (Keep exact decimals):**
+$$\frac{0.0925}{12} \approx 0.0077083333$$
+
+**4. Solve inside the parentheses:**
+$$A = 3000 (1.0077083333)^{30}$$
+
+**5. Final Calculation:**
+$$A \approx 3000 (1.259203)$$
+$$A \approx 3777.61$$
+
+---
+
+#### Method 2: Continuous Compound Interest
+Even though the problem says "monthly," we solve using the continuous formula to compare how much more interest is earned when compounding never stops.
+
+
+
+**1. Set up the formula:**
+$$A = Pe^{rt}$$
+$$A = 3000 \cdot e^{(0.0925 \cdot 2.5)}$$
+
+**2. Simplify the exponent:**
+$$0.0925 \cdot 2.5 = 0.23125$$
+
+**3. Evaluate the exponential part:**
+$$A = 3000 \cdot e^{0.23125}$$
+$$A \approx 3000 \cdot 1.260174$$
+
+**4. Final Calculation:**
+$$A \approx 3780.52$$
+
+---
+
+#### Comparison of Results
+
+| Compounding Method | Formula | Total Amount ($A$) |
+| :--- | :--- | :--- |
+| **Monthly ($n=12$)** | $P(1+r/n)^{nt}$ | **$3,777.61** |
+| **Continuous** | $Pe^{rt}$ | **$3,780.52** |
+
+> [!IMPORTANT]
+> **Observation:** > Continuous compounding yielded **$2.91** more than monthly compounding. As Professor Leonard points out in the video, the difference between "very frequent" compounding (like daily or monthly) and "continuous" compounding is often surprisingly small.
+
+> [!CAUTION]
+> **Rounding Warning:**
+> When calculating $(1 + 0.0925/12)$, do **not** round to $1.01$. If you round too early, your final dollar amount will be significantly off. Always use the full decimal string in your calculator.
 
