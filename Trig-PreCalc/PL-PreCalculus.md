@@ -14420,4 +14420,4 @@ $$P \approx 606.89$$
 > [!CAUTION]
 > **Calculator Order of Operations:**
 > When solving for $P$, many students accidentally multiply $A$ by the growth factor. Remember: to move the growth factor to the other side of the equation, you **must divide**.
-> 
+
