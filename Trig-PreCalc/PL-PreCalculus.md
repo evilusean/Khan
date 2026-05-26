@@ -14378,20 +14378,14 @@ This problem asks "How much should be invested," which means we are solving for 
 * **$n$ (Compounding periods):** $365$ (Daily)
 
 ---
-
 #### Method 1: Discrete Compound Interest (Daily)
-
-
 **1. Set up the formula:**
 $$800 = P \left( 1 + \frac{0.085}{365} \right)^{(365 \cdot 3.25)}$$
-
 **2. Simplify the exponent ($nt$):**
 $$365 \cdot 3.25 = 1186.25$$
-
 **3. Isolate $P$:**
 To isolate $P$, we divide the total amount ($A$) by the entire growth factor.
 $$P = \frac{800}{\left( 1 + \frac{0.085}{365} \right)^{1186.25}}$$
-
 **4. Final Calculation:**
 * Inside parentheses: $1 + 0.000232877 \approx 1.000232877$
 * Raise to power: $(1.000232877)^{1186.25} \approx 1.31818$
@@ -14399,26 +14393,19 @@ $$P = \frac{800}{1.31818}$$
 $$P \approx 606.90$$
 
 ---
-
 #### Method 2: Continuous Compound Interest
-
 
 **1. Set up the formula:**
 $$800 = P \cdot e^{(0.085 \cdot 3.25)}$$
-
 **2. Simplify the exponent ($rt$):**
 $$0.085 \cdot 3.25 = 0.27625$$
-
 **3. Isolate $P$:**
 $$P = \frac{800}{e^{0.27625}}$$
-
 **4. Final Calculation:**
 * Evaluate $e^{0.27625} \approx 1.318187$
 $$P = \frac{800}{1.318187}$$
 $$P \approx 606.89$$
-
 ---
-
 #### Comparison of Results
 
 | Compounding Method | Formula | Principal Needed ($P$) |
@@ -14433,3 +14420,4 @@ $$P \approx 606.89$$
 > [!CAUTION]
 > **Calculator Order of Operations:**
 > When solving for $P$, many students accidentally multiply $A$ by the growth factor. Remember: to move the growth factor to the other side of the equation, you **must divide**.
+> 
