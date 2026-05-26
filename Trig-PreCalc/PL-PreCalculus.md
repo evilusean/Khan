@@ -14478,3 +14478,62 @@ $$t \approx 15.40 \text{ years}$$
 > [!TIP]
 > **Rule of 72 Shortcut:**
 > You can estimate this by dividing $72$ by the interest rate ($72 / 4.5 = 16$). Our calculated answers of $\approx 15.5$ years show that the Rule of 72 is a very close approximation for these types of problems!
+
+### Finding the Effective Rate (APY) for $9.75\%$ Compounded Monthly
+
+The "Effective Rate" (or Annual Percentage Yield) represents the actual interest rate earned in one year after compounding is taken into account. Following Professor Leonard's method, we treat this as finding the interest earned on $\$1$ over exactly $1$ year ($t=1$).
+
+**Given Information:**
+* **$r$ (Nominal Rate):** $9.75\% = 0.0975$
+* **$n$ (Compounding periods):** $12$ (Monthly)
+* **$t$ (Time):** $1$ year
+* **$P$ (Principal):** $1$ (used as a base to find the percentage increase)
+
+---
+#### Method 1: Discrete Effective Rate (Monthly)
+
+To find the effective rate, we use the growth portion of the compound interest formula and subtract the original $100\%$ ($1$) to see only the increase.
+**1. Set up the formula:**
+$$Y = \left( 1 + \frac{r}{n} \right)^n - 1$$
+$$Y = \left( 1 + \frac{0.0975}{12} \right)^{12} - 1$$
+
+**2. Simplify the inner fraction:**
+$$\frac{0.0975}{12} = 0.008125$$
+**3. Add and apply the exponent:**
+$$Y = (1.008125)^{12} - 1$$
+$$Y \approx 1.101977 - 1$$
+**4. Convert to a percentage:**
+$$Y \approx 0.101977 \implies 10.20\%$$
+
+---
+#### Method 2: Continuous Effective Rate
+
+For continuous compounding, the formula simplifies significantly because it relies purely on the constant $e$.
+
+**1. Set up the formula:**
+$$Y = e^r - 1$$
+$$Y = e^{0.0975} - 1$$
+**2. Evaluate $e$:**
+$$e^{0.0975} \approx 1.102408$$
+**3. Subtract the original $1$:**
+$$Y \approx 1.102408 - 1$$
+$$Y \approx 0.102408$$
+**4. Convert to a percentage:**
+$$Y \approx 10.24\%$$
+
+---
+#### Comparison of Results
+
+| Compounding Method | Formula | Effective Rate (APY) |
+| :--- | :--- | :--- |
+| **Monthly ($n=12$)** | $(1 + r/n)^n - 1$ | **10.20%** |
+| **Continuous** | $e^r - 1$ | **10.24%** |
+
+> [!IMPORTANT]
+> **The Takeaway:**
+> While the "advertised" (nominal) rate is $9.75\%$, the compounding effect means you actually earn $10.20\%$ over the course of the year. This is why banks often advertise the APY for savings accounts—it looks more attractive than the nominal rate.
+
+> [!TIP]
+> **Why $P=1$ and $t=1$?**
+> Professor Leonard explains that since we only care about the *rate* of growth, the starting amount is irrelevant. By using $1$ for $P$ and $1$ for $t$, the formula isolates the growth factor itself.
+
