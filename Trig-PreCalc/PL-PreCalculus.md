@@ -14324,51 +14324,35 @@ Following Professor Leonard's methodology, we will solve this using both the Dis
 * **$n$ (Compounding periods):** $12$ (Monthly)
 
 ---
-
 #### Method 1: Discrete Compound Interest (Monthly)
 We use the discrete formula because the problem specifies a finite compounding period (monthly).
-
-
-
 **1. Set up the formula:**
 $$A = 3000 \left( 1 + \frac{0.0925}{12} \right)^{(12 \cdot 2.5)}$$
-
 **2. Simplify the exponent:**
 $$12 \cdot 2.5 = 30$$
-
 **3. Simplify the rate fraction (Keep exact decimals):**
 $$\frac{0.0925}{12} \approx 0.0077083333$$
-
 **4. Solve inside the parentheses:**
 $$A = 3000 (1.0077083333)^{30}$$
-
 **5. Final Calculation:**
 $$A \approx 3000 (1.259203)$$
 $$A \approx 3777.61$$
 
 ---
-
 #### Method 2: Continuous Compound Interest
 Even though the problem says "monthly," we solve using the continuous formula to compare how much more interest is earned when compounding never stops.
-
-
 
 **1. Set up the formula:**
 $$A = Pe^{rt}$$
 $$A = 3000 \cdot e^{(0.0925 \cdot 2.5)}$$
-
 **2. Simplify the exponent:**
 $$0.0925 \cdot 2.5 = 0.23125$$
-
 **3. Evaluate the exponential part:**
 $$A = 3000 \cdot e^{0.23125}$$
 $$A \approx 3000 \cdot 1.260174$$
-
 **4. Final Calculation:**
 $$A \approx 3780.52$$
-
 ---
-
 #### Comparison of Results
 
 | Compounding Method | Formula | Total Amount ($A$) |
