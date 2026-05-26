@@ -14432,55 +14432,38 @@ When a problem asks "how long," we are solving for **$t$**. Because $t$ is locat
 * **$t$ (Time):** Unknown variable
 
 ---
-
 #### Method 1: Discrete Compound Interest (Quarterly)
 
 **1. Set up the formula:**
 $$2P = P \left( 1 + \frac{0.045}{4} \right)^{4t}$$
-
 **2. Isolate the Exponential (Divide by $P$):**
 Notice the $P$ cancels out on both sides, which is why the initial amount doesn't matter for doubling time.
 $$2 = (1.01125)^{4t}$$
-
 **3. Take the Natural Log ($\ln$) of Both Sides:**
 $$\ln(2) = \ln(1.01125^{4t})$$
-
 **4. Use the Power Property to bring $4t$ down:**
 $$\ln(2) = 4t \cdot \ln(1.01125)$$
-
-
-
 **5. Solve for $t$:**
 Divide both sides by $4 \cdot \ln(1.01125)$.
 $$t = \frac{\ln 2}{4 \ln 1.01125}$$
 $$t \approx \frac{0.6931}{4(0.011187)}$$
 $$t \approx 15.49 \text{ years}$$
-
 ---
-
 #### Method 2: Continuous Compound Interest
-
 **1. Set up the formula:**
 $$2P = Pe^{0.045t}$$
-
 **2. Isolate the Exponential (Divide by $P$):**
 $$2 = e^{0.045t}$$
-
 **3. Take the Natural Log ($\ln$) of Both Sides:**
 $$\ln(2) = \ln(e^{0.045t})$$
-
 **4. Use the Inverse Property ($\ln(e^x) = x$):**
 $$\ln(2) = 0.045t$$
-
-
-
 **5. Solve for $t$:**
 $$t = \frac{\ln 2}{0.045}$$
 $$t \approx \frac{0.6931}{0.045}$$
 $$t \approx 15.40 \text{ years}$$
 
 ---
-
 #### Comparison of Results
 
 | Compounding Method | Formula | Time to Double ($t$) |
