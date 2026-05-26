@@ -14367,3 +14367,69 @@ $$A \approx 3780.52$$
 > **Rounding Warning:**
 > When calculating $(1 + 0.0925/12)$, do **not** round to $1.01$. If you round too early, your final dollar amount will be significantly off. Always use the full decimal string in your calculator.
 
+### Solving for Present Value ($P$): Target $800$ Daily
+
+This problem asks "How much should be invested," which means we are solving for the **Principal ($P$)**. A common point of confusion in this specific problem is the phrase "earn $800$ daily"—Professor Leonard clarifies that this usually refers to the **Total Interest Earned ($I$)**, meaning the final amount ($A$) would be $P + 800$. However, if $800$ is the **Future Value ($A$)** target, we solve directly for $P$.
+
+**Given Information:**
+* **$A$ (Future Value):** $800$
+* **$r$ (Annual Rate):** $8.5\% = 0.085$
+* **$t$ (Time in years):** $3.25$ (since $3 \frac{1}{4} = 3.25$)
+* **$n$ (Compounding periods):** $365$ (Daily)
+
+---
+
+#### Method 1: Discrete Compound Interest (Daily)
+
+
+**1. Set up the formula:**
+$$800 = P \left( 1 + \frac{0.085}{365} \right)^{(365 \cdot 3.25)}$$
+
+**2. Simplify the exponent ($nt$):**
+$$365 \cdot 3.25 = 1186.25$$
+
+**3. Isolate $P$:**
+To isolate $P$, we divide the total amount ($A$) by the entire growth factor.
+$$P = \frac{800}{\left( 1 + \frac{0.085}{365} \right)^{1186.25}}$$
+
+**4. Final Calculation:**
+* Inside parentheses: $1 + 0.000232877 \approx 1.000232877$
+* Raise to power: $(1.000232877)^{1186.25} \approx 1.31818$
+$$P = \frac{800}{1.31818}$$
+$$P \approx 606.90$$
+
+---
+
+#### Method 2: Continuous Compound Interest
+
+
+**1. Set up the formula:**
+$$800 = P \cdot e^{(0.085 \cdot 3.25)}$$
+
+**2. Simplify the exponent ($rt$):**
+$$0.085 \cdot 3.25 = 0.27625$$
+
+**3. Isolate $P$:**
+$$P = \frac{800}{e^{0.27625}}$$
+
+**4. Final Calculation:**
+* Evaluate $e^{0.27625} \approx 1.318187$
+$$P = \frac{800}{1.318187}$$
+$$P \approx 606.89$$
+
+---
+
+#### Comparison of Results
+
+| Compounding Method | Formula | Principal Needed ($P$) |
+| :--- | :--- | :--- |
+| **Daily ($n=365$)** | $A / (1+r/n)^{nt}$ | **$606.90** |
+| **Continuous** | $A / e^{rt}$ | **$606.89** |
+
+> [!IMPORTANT]
+> **The Inverse Relationship:**
+> Notice that as the compounding frequency increases (from daily to continuous), the amount of initial money you need to reach your goal **decreases** (though only by a cent here). This is because the money is working harder for you.
+
+> [!CAUTION]
+> **Calculator Order of Operations:**
+> When solving for $P$, many students accidentally multiply $A$ by the growth factor. Remember: to move the growth factor to the other side of the equation, you **must divide**.
