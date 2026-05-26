@@ -14537,3 +14537,4 @@ $$Y \approx 10.24\%$$
 > **Why $P=1$ and $t=1$?**
 > Professor Leonard explains that since we only care about the *rate* of growth, the starting amount is irrelevant. By using $1$ for $P$ and $1$ for $t$, the formula isolates the growth factor itself.
 
+## 2026-May-26 - Exponential Growth and Decay (Precalculus - College Algebra 66) :
