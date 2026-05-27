@@ -14539,3 +14539,91 @@ $$Y \approx 10.24\%$$
 
 ## 2026-May-26 - Exponential Growth and Decay (Precalculus - College Algebra 66) :
 https://www.youtube.com/watch?v=rO-C48LY2KY&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=68
+### Exponential Growth and Decay
+
+Exponential growth and decay models describe quantities that change at a rate proportional to their current value. While these models are mathematically identical to continuous compound interest ($A = Pe^{rt}$), they use different notation to reflect scientific contexts like biology, chemistry, and physics.
+
+---
+
+#### 1. The General Model
+The standard formula for growth and decay is:
+
+$$A(t) = A_0 e^{kt}$$
+
+**Variables Defined:**
+* **$A(t)$:** The amount of the substance or population after time $t$.
+* **$A_0$:** The initial amount (the amount present at $t = 0$).
+* **$k$:** The **growth/decay constant** (relative rate of change).
+    * If **$k > 0$**, the model represents **Growth** (e.g., bacteria, investments).
+    * If **$k < 0$**, the model represents **Decay** (e.g., radioactive substances, cooling).
+* **$t$:** Time (units must be consistent with the rate $k$).
+
+
+
+[Image of exponential growth and decay graphs]
+
+
+---
+
+#### 2. Key Concept: Doubling Time
+Doubling time is the amount of time required for a population to twice its original size ($A(t) = 2A_0$).
+
+**The Shortcut Formula:**
+$$t = \frac{\ln 2}{k}$$
+
+* This formula is derived by setting $2A_0 = A_0 e^{kt}$, dividing by $A_0$, and taking the natural log of both sides.
+* Notice that doubling time depends **only** on the rate $k$, not on the starting amount $A_0$.
+
+---
+
+#### 3. Key Concept: Half-Life
+Half-life is the time required for a quantity to fall to half of its initial value ($A(t) = \frac{1}{2}A_0$). This is most common in radioactive decay problems.
+
+**The Shortcut Formula:**
+$$t = \frac{\ln(0.5)}{k} \quad \text{or} \quad k = \frac{\ln(0.5)}{\text{half-life}}$$
+
+* Because $\ln(0.5)$ is negative, and $k$ is negative for decay, the resulting time $t$ will always be positive.
+
+
+
+[Image of radioactive half-life decay curve]
+
+
+---
+
+#### 4. The Two-Step Problem Strategy
+Professor Leonard emphasizes that most problems are "two-step" processes because the growth constant $k$ is rarely given directly.
+
+* **Step 1: Find $k$.** Use a known data point (e.g., "In 5 hours, the population grew to 500") and the initial amount $A_0$ to solve for $k$ using logarithms.
+* **Step 2: Answer the Question.** Use the $k$ you just found to predict a future amount $A(t)$ or to find the time $t$ required to reach a specific target.
+
+---
+
+#### 5. Newton’s Law of Cooling
+This is a specific application for objects cooling (or warming) to match the temperature of their surroundings.
+
+$$T(t) = T_s + (T_0 - T_s)e^{-kt}$$
+
+**Variables:**
+* **$T(t)$:** Temperature of the object at time $t$.
+* **$T_s$:** Temperature of the **surroundings** (ambient temperature).
+* **$T_0$:** **Initial** temperature of the object.
+* **$k$:** A positive constant representing the cooling rate.
+
+
+
+---
+
+#### 6. Critical Tips & Common Pitfalls
+
+> [!CAUTION]
+> **The Sign of $k$:**
+> In decay problems, your algebra will naturally produce a negative value for $k$. If you are solving for $k$ and you get a positive number for a substance that is disappearing, check your division or log steps.
+
+> [!IMPORTANT]
+> **Rounding $k$:**
+> The constant $k$ is extremely sensitive. If you round it to only two decimal places, your final answer for a large population or long time period will be wildly inaccurate. **Store the exact value of $k$ in your calculator's memory.**
+
+> [!TIP]
+> **Units of Time:**
+> Ensure $t$ and $k$ use the same units. If $k$ is "per hour," your $t$ must be in hours. If the problem gives you minutes, convert them to hours (e.g., 20 mins = 1/3 hour).
