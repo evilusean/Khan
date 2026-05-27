@@ -14672,33 +14672,25 @@ $$t = \frac{\ln 2}{0.045}$$
 In this example from the lecture, we are asked to find the specific growth formula for a population that doubles every 3 hours. Since a doubling time is provided, our goal is to solve for the growth constant $k$.
 
 ---
-
 #### Step 1: Establish the General Model
 We start with the standard exponential growth formula:
 $$A(t) = A_0 e^{kt}$$
-
-
 #### Step 2: Use the Doubling Information
 To "double" means the final amount $A(t)$ is twice the initial amount $A_0$.
 * **Target:** $A(t) = 2A_0$
 * **Time ($t$):** 3 hours
-
 **Plug these into the formula:**
 $$2A_0 = A_0 e^{k(3)}$$
 
 #### Step 3: Isolate the Exponential
 Divide both sides by $A_0$. Notice that the actual starting population doesn't matter; the ratio will always be 2 for a doubling event.
 $$2 = e^{3k}$$
-
 #### Step 4: Solve for $k$ using Logarithms
 Take the natural log ($\ln$) of both sides to "bring down" the exponent.
 $$\ln(2) = \ln(e^{3k})$$
 $$\ln(2) = 3k$$
-
-
 **Isolate $k$:**
 $$k = \frac{\ln 2}{3} \approx 0.2310$$
-
 #### Step 5: Write the Final Formula
 Substitute the value of $k$ back into the general model. Following Professor Leonard's advice, we usually leave $k$ in its exact form ($\frac{\ln 2}{3}$) to avoid rounding errors in later calculations.
 
