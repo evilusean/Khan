@@ -13889,7 +13889,7 @@ Verify that $x \approx 4.479$ keeps the original arguments positive.
 ---
 #### Final Solution
 $$x = e^{\left[ \frac{3}{\frac{1}{\ln 2} + \frac{1}{\ln 6}} \right]} \approx 4.479$$
-## 2026May24 - Solving Exponential Equations with Logarithms (Precalculus - College Algebra 64) :
+## 2026-May-24 - Solving Exponential Equations with Logarithms (Precalculus - College Algebra 64) :
 https://www.youtube.com/watch?v=rDcLCA2W-UI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=65
 ### Solving Exponential Equations with Logarithms
 
@@ -14824,3 +14824,4 @@ $$t \approx 18.61 \text{ minutes}$$
 > Mathematically, as $t \to \infty$, the term $70e^{-kt}$ goes to $0$, and the turkey's temperature $T(t)$ approaches $30^\circ\text{C}$. It can never naturally cool below the temperature of the house.
 ## 2026-May-27 - Introduction to Sequences (Precalculus - College Algebra 67) :
 https://www.youtube.com/watch?v=c5D7BJ-R41I&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=69
+
