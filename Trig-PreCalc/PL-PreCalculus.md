@@ -14822,4 +14822,4 @@ $$t \approx 18.61 \text{ minutes}$$
 > [!TIP]
 > **Ambient Limit:**
 > Mathematically, as $t \to \infty$, the term $70e^{-kt}$ goes to $0$, and the turkey's temperature $T(t)$ approaches $30^\circ\text{C}$. It can never naturally cool below the temperature of the house.
-
+## 2026-May-27 - Introduction to Sequences (Precalculus - College Algebra 67) :
