@@ -14715,7 +14715,6 @@ $$A(t) = A_0 e^{\left(\frac{\ln 2}{3}\right)t}$$
 Following Professor Leonard's "Two-Step" strategy, we first use the half-life to solve for the decay constant $k$, and then use that $k$ to answer the specific question. Both problems utilize the exponential model: $A(t) = A_0 e^{kt}$.
 
 ---
-
 #### Problem 1: Radium Decay
 **Given:** Half-life = $1690$ years, $A_0 = 20\text{g}$.
 **Find:** Amount after $50$ years ($t=50$).
@@ -14732,14 +14731,12 @@ $$A(50) \approx 20(0.97969)$$
 **Result:** **$\approx 19.59\text{g}$**
 
 ---
-
 #### Problem 2: Carbon-14 Dating
 **Given:** Half-life = $5730$ years, $A(t) = 30\%$ of $A_0$ (which is $0.30A_0$).
 **Find:** Time when the tree died ($t$).
 
 **Step 1: Find $k$**
 $$k = \frac{\ln(0.5)}{5730} \approx -0.000120968$$
-
 **Step 2: Solve for $t$**
 Set up the equation where the current amount is $30\%$ of the original:
 $$0.30A_0 = A_0 e^{kt}$$
@@ -14752,9 +14749,7 @@ $$t = \frac{\ln(0.30)}{(\ln 0.5 / 5730)}$$
 $$t = \frac{-1.20397}{-0.000120968}$$
 **Result:** **$\approx 9,952.8$ years ago**
 
-
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -14768,3 +14763,63 @@ $$t = \frac{-1.20397}{-0.000120968}$$
 > [!IMPORTANT]
 > **Percentage as Decimals:**
 > When a problem says "$30\%$ remains," always use $0.30$. If it says "$30\%$ was lost," then $70\%$ remains, and you must use $0.70$.
+### Newton’s Law of Cooling: The Turkey Problem
+
+This problem uses **Newton’s Law of Cooling**, which models how the temperature of an object changes relative to the temperature of its surroundings. Professor Leonard emphasizes that the object doesn't just decay toward zero; it decays toward the **ambient temperature** ($T_s$).
+
+---
+#### Step 0: Identify the Variables
+* **$T_s$ (Surroundings):** $30^\circ\text{C}$
+* **$T_0$ (Initial Temp):** $100^\circ\text{C}$
+* **Data Point:** After $5$ minutes ($t=5$), the temperature is $80^\circ\text{C}$.
+* **Goal:** Find $t$ when the temperature is $50^\circ\text{C}$.
+
+---
+#### Step 1: Set up the General Formula
+$$T(t) = T_s + (T_0 - T_s)e^{-kt}$$
+Plug in the known temperatures to simplify the equation:
+$$T(t) = 30 + (100 - 30)e^{-kt}$$
+$$T(t) = 30 + 70e^{-kt}$$
+
+---
+#### Step 2: Solve for the Cooling Constant ($k$)
+Use the data point $(5, 80)$ to isolate $k$.
+1.  **Set up:** $80 = 30 + 70e^{-k(5)}$
+2.  **Isolate the exponential:** Subtract $30$, then divide by $70$.
+    $$50 = 70e^{-5k}$$
+    $$\frac{5}{7} = e^{-5k}$$
+3.  **Take the Natural Log ($\ln$):**
+    $$\ln(5/7) = -5k$$
+4.  **Solve for $k$:**
+    $$k = \frac{\ln(5/7)}{-5} \approx 0.06729$$
+---
+#### Step 3: Solve for the Target Time ($t$)
+Find $t$ when $T(t) = 50^\circ\text{C}$.
+1.  **Set up:** $50 = 30 + 70e^{-kt}$
+2.  **Isolate the exponential:** Subtract $30$, then divide by $70$.
+    $$20 = 70e^{-kt}$$
+    $$\frac{2}{7} = e^{-kt}$$
+3.  **Take the Natural Log ($\ln$):**
+    $$\ln(2/7) = -kt$$
+4.  **Solve for $t$:**
+    $$t = \frac{\ln(2/7)}{-k}$$
+    Substitute the exact value of $k$ from Step 2:
+    $$t = \frac{\ln(2/7)}{[\ln(5/7) / -5]}$$
+**Final Calculation:**
+$$t \approx 18.61 \text{ minutes}$$
+
+---
+#### Key Takeaways
+
+> [!IMPORTANT]
+> **The Difference Term:**
+> Note that $T_0 - T_s$ ($70^\circ$) represents the **initial temperature difference**. Newton's Law says that this *difference* is what decays exponentially, not the absolute temperature of the turkey.
+
+> [!CAUTION]
+> **Total Time vs. Additional Time:**
+> The answer $18.61$ minutes is the **total time** since the turkey came out of the oven. If the question asked "how much *longer*," you would subtract the $5$ minutes that have already passed.
+
+> [!TIP]
+> **Ambient Limit:**
+> Mathematically, as $t \to \infty$, the term $70e^{-kt}$ goes to $0$, and the turkey's temperature $T(t)$ approaches $30^\circ\text{C}$. It can never naturally cool below the temperature of the house.
+
