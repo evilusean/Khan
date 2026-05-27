@@ -14604,3 +14604,73 @@ $$T(t) = T_s + (T_0 - T_s)e^{-kt}$$
 > **Units of Time:**
 > Ensure $t$ and $k$ use the same units. If $k$ is "per hour," your $t$ must be in hours. If the problem gives you minutes, convert them to hours (e.g., 20 mins = 1/3 hour).
 
+### Solving $C(t) = 100e^{0.045t}$
+
+This problem follows the standard exponential growth/decay model $A(t) = A_0 e^{kt}$. Following Professor Leonard's methodology, we will break down the components of the equation and solve for specific time and amount targets.
+
+---
+
+#### 1. Growth or Decay?
+To determine if the model represents growth or decay, we look at the constant $k$ in the exponent.
+* **Analysis:** The constant is $0.045$.
+* **Rule:** Since $k > 0$ (positive), the function represents **Growth**.
+
+#### 2. Initial Amount?
+The initial amount $A_0$ is the coefficient sitting in front of the base $e$. It represents the value when $t = 0$.
+* **Analysis:** $C(0) = 100e^{0.045(0)} = 100(1)$.
+* **Result:** The initial amount is **100**.
+
+#### 3. Amount After 5 Days?
+This is a straightforward evaluation problem where we plug in $t = 5$.
+* **Set up:** $C(5) = 100e^{0.045(5)}$
+* **Simplify Exponent:** $0.045 \cdot 5 = 0.225$
+* **Calculate:**
+$$C(5) = 100e^{0.225}$$
+$$C(5) \approx 100(1.2523)$$
+* **Result:** **$\approx 125.23$**
+
+---
+
+#### 4. How Long to Reach 140?
+Here, we are given the future amount $C(t) = 140$ and must solve for $t$.
+* **Step 1: Set up the equation.**
+$$140 = 100e^{0.045t}$$
+* **Step 2: Isolate the exponential part.** Divide both sides by $100$.
+$$1.4 = e^{0.045t}$$
+* **Step 3: Take the natural log ($\ln$) of both sides.**
+$$\ln(1.4) = \ln(e^{0.045t})$$
+* **Step 4: Use the Inverse Property.** $\ln(e^u) = u$.
+$$\ln(1.4) = 0.045t$$
+* **Step 5: Solve for $t$.**
+$$t = \frac{\ln(1.4)}{0.045}$$
+* **Result:** **$\approx 7.48$ days**
+
+
+---
+
+#### 5. How Long to Double?
+To double the initial amount ($100$), the target amount is $200$. 
+* **Step 1: Set up the equation.**
+$$200 = 100e^{0.045t}$$
+* **Step 2: Isolate the exponential.**
+$$2 = e^{0.045t}$$
+* **Step 3: Take the $\ln$ of both sides.**
+$$\ln(2) = 0.045t$$
+* **Step 4: Solve for $t$.**
+$$t = \frac{\ln 2}{0.045}$$
+* **Result:** **$\approx 15.40$ days**
+
+
+---
+
+#### Summary of Results
+| Question | Answer |
+| :--- | :--- |
+| **Growth or Decay?** | Growth ($k = 0.045$) |
+| **Initial Amount?** | 100 |
+| **Amount at $t=5$** | 125.23 |
+| **Time to reach 140** | 7.48 Days |
+| **Doubling Time** | 15.40 Days |
+
+> [!TIP]
+> **Professor Leonard's Shortcut:**
