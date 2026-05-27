@@ -14710,4 +14710,61 @@ $$A(t) = A_0 e^{\left(\frac{\ln 2}{3}\right)t}$$
 > Using exponent rules, $e^{\ln 2}$ is just $2$. This means the formula can also be written as:
 > $$A(t) = A_0 (2)^{t/3}$$
 > This version is often more intuitive: it says the population is the initial amount times 2, raised to the power of how many "3-hour blocks" have passed. However, in Precalculus, instructors usually want the base-$e$ version derived above.
+### Solving Half-Life Problems (Radium & Carbon-14)
 
+Following Professor Leonard's "Two-Step" strategy, we first use the half-life to solve for the decay constant $k$, and then use that $k$ to answer the specific question. Both problems utilize the exponential model: $A(t) = A_0 e^{kt}$.
+
+---
+
+#### Problem 1: Radium Decay
+**Given:** Half-life = $1690$ years, $A_0 = 20\text{g}$.
+**Find:** Amount after $50$ years ($t=50$).
+
+**Step 1: Find $k$**
+Using the half-life shortcut: $k = \frac{\ln(0.5)}{\text{half-life}}$
+$$k = \frac{\ln(0.5)}{1690} \approx -0.000410146$$
+
+
+**Step 2: Solve for $A(50)$**
+$$A(50) = 20e^{\left(\frac{\ln 0.5}{1690}\right)(50)}$$
+$$A(50) = 20e^{-0.020507}$$
+$$A(50) \approx 20(0.97969)$$
+**Result:** **$\approx 19.59\text{g}$**
+
+---
+
+#### Problem 2: Carbon-14 Dating
+**Given:** Half-life = $5730$ years, $A(t) = 30\%$ of $A_0$ (which is $0.30A_0$).
+**Find:** Time when the tree died ($t$).
+
+**Step 1: Find $k$**
+$$k = \frac{\ln(0.5)}{5730} \approx -0.000120968$$
+
+**Step 2: Solve for $t$**
+Set up the equation where the current amount is $30\%$ of the original:
+$$0.30A_0 = A_0 e^{kt}$$
+Divide by $A_0$:
+$$0.30 = e^{kt}$$
+Take the natural log ($\ln$) of both sides:
+$$\ln(0.30) = kt$$
+Substitute $k$ and solve for $t$:
+$$t = \frac{\ln(0.30)}{(\ln 0.5 / 5730)}$$
+$$t = \frac{-1.20397}{-0.000120968}$$
+**Result:** **$\approx 9,952.8$ years ago**
+
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **Why $k$ is negative:**
+> In both problems, $k$ is a negative value. This is mathematically required for "Decay." If your $k$ is positive, you are modeling growth, which would mean your radioactive material is magically increasing over time!
+
+> [!CAUTION]
+> **The Precision Rule:**
+> As Professor Leonard warns, do **not** round $k$ to a few decimal places. In Problem 2, a small change in $k$ can shift the age of the tree by hundreds of years. Always use the exact fraction or store the full number in your calculator.
+
+> [!IMPORTANT]
+> **Percentage as Decimals:**
+> When a problem says "$30\%$ remains," always use $0.30$. If it says "$30\%$ was lost," then $70\%$ remains, and you must use $0.70$.
