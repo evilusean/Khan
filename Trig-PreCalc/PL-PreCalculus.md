@@ -14824,4 +14824,88 @@ $$t \approx 18.61 \text{ minutes}$$
 > Mathematically, as $t \to \infty$, the term $70e^{-kt}$ goes to $0$, and the turkey's temperature $T(t)$ approaches $30^\circ\text{C}$. It can never naturally cool below the temperature of the house.
 ## 2026-May-28 - Introduction to Sequences (Precalculus - College Algebra 67) :
 https://www.youtube.com/watch?v=c5D7BJ-R41I&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=69
+### Introduction to Sequences
 
+A sequence is a mathematical list of numbers that follows a specific pattern or rule. In this lecture, Professor Leonard transitions from continuous functions to discrete mathematics, where we deal with individual "steps" rather than a smooth curve.
+
+---
+
+#### 1. What is a Sequence?
+A sequence is essentially a function where the **domain** is restricted to the set of positive integers (1, 2, 3, ...). Instead of using $f(x)$, we use the notation $a_n$.
+
+* **Terms ($a_n$):** The individual numbers in the list.
+* **Index ($n$):** The position of the term in the list.
+    * $a_1$: The 1st term
+    * $a_2$: The 2nd term
+    * $a_n$: The $n$-th term (also called the **General Term**)
+
+
+
+---
+
+#### 2. Defining Sequences
+There are two primary ways to define a sequence:
+
+**A. Explicit Formulas**
+The $n$-th term is defined directly by its position ($n$). You can find any term (like the 100th term) without knowing the terms before it.
+* *Example:* $a_n = 2n + 1$
+* To find the 5th term: $a_5 = 2(5) + 1 = 11$.
+
+**B. Recursive Formulas**
+Each term is defined based on the term(s) that came before it. You must be given a starting point ($a_1$).
+* *Example:* $a_1 = 4$; $a_n = a_{n-1} + 3$
+* To find the 2nd term ($a_2$), you take $a_1$ and add 3.
+* *Drawback:* To find the 100th term, you would have to calculate all 99 terms before it.
+
+
+
+---
+
+#### 3. Factorial Notation ($n!$)
+Sequences frequently use factorials. A factorial is the product of all positive integers from $n$ down to 1.
+* **Definition:** $n! = n \cdot (n-1) \cdot (n-2) \cdots 3 \cdot 2 \cdot 1$
+* *Special Case:* $0! = 1$ (by definition).
+
+**Simplifying Factorials:**
+Professor Leonard emphasizes "expanding" the larger factorial until it matches the smaller one so you can cancel them out.
+* *Example:* $\frac{10!}{8!} = \frac{10 \cdot 9 \cdot 8!}{8!} = 10 \cdot 9 = 90$
+
+---
+
+#### 4. Alternating Sequences
+If the signs of the terms switch back and forth between positive and negative, the sequence is "alternating." This is caused by a factor of $(-1)^n$ or $(-1)^{n+1}$.
+* $(-1)^n$: Starts negative if $n=1$ (Odd indices are negative).
+* $(-1)^{n+1}$: Starts positive if $n=1$ (Even indices are negative).
+
+---
+
+#### 5. Summation Notation (Sigma $\Sigma$)
+To represent the sum of a sequence, we use the Greek letter Sigma.
+
+$$\sum_{i=1}^{k} a_i$$
+
+* **$i$:** The index of summation (the "counter").
+* **$1$:** The lower limit (where to start).
+* **$k$:** The upper limit (where to stop).
+* **$a_i$:** The formula for the terms.
+
+
+
+---
+
+#### 6. Critical Tips & Common Pitfalls
+
+> [!CAUTION]
+> **Index Starting Points:**
+> While $n=1$ is the standard starting index, some sequences or summations start at $n=0$. Always check the bottom of the Sigma or the problem description to see where the "first" term actually begins.
+
+> [!IMPORTANT]
+> **Factorial Expansion:**
+> When simplifying something like $\frac{(n+1)!}{n!}$, remember that $(n+1)!$ is just $(n+1) \cdot n!$. The $n!$ terms cancel out, leaving you with just $n+1$.
+
+> [!TIP]
+> **Recognizing Patterns:**
+> When asked to find a formula for a given list of numbers, look for common patterns:
+> * Differences are the same? (Linear: $an + b$)
+> * Multiplied by the same number? (Exponential: $r^n$)
+> * Perfect squares? ($n^2$)
