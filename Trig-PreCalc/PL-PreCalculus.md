@@ -14829,7 +14829,6 @@ https://www.youtube.com/watch?v=c5D7BJ-R41I&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 A sequence is a mathematical list of numbers that follows a specific pattern or rule. In this lecture, Professor Leonard transitions from continuous functions to discrete mathematics, where we deal with individual "steps" rather than a smooth curve.
 
 ---
-
 #### 1. What is a Sequence?
 A sequence is essentially a function where the **domain** is restricted to the set of positive integers (1, 2, 3, ...). Instead of using $f(x)$, we use the notation $a_n$.
 
@@ -14839,10 +14838,7 @@ A sequence is essentially a function where the **domain** is restricted to the s
     * $a_2$: The 2nd term
     * $a_n$: The $n$-th term (also called the **General Term**)
 
-
-
 ---
-
 #### 2. Defining Sequences
 There are two primary ways to define a sequence:
 
@@ -14857,10 +14853,7 @@ Each term is defined based on the term(s) that came before it. You must be given
 * To find the 2nd term ($a_2$), you take $a_1$ and add 3.
 * *Drawback:* To find the 100th term, you would have to calculate all 99 terms before it.
 
-
-
 ---
-
 #### 3. Factorial Notation ($n!$)
 Sequences frequently use factorials. A factorial is the product of all positive integers from $n$ down to 1.
 * **Definition:** $n! = n \cdot (n-1) \cdot (n-2) \cdots 3 \cdot 2 \cdot 1$
@@ -14871,14 +14864,12 @@ Professor Leonard emphasizes "expanding" the larger factorial until it matches t
 * *Example:* $\frac{10!}{8!} = \frac{10 \cdot 9 \cdot 8!}{8!} = 10 \cdot 9 = 90$
 
 ---
-
 #### 4. Alternating Sequences
 If the signs of the terms switch back and forth between positive and negative, the sequence is "alternating." This is caused by a factor of $(-1)^n$ or $(-1)^{n+1}$.
 * $(-1)^n$: Starts negative if $n=1$ (Odd indices are negative).
 * $(-1)^{n+1}$: Starts positive if $n=1$ (Even indices are negative).
 
 ---
-
 #### 5. Summation Notation (Sigma $\Sigma$)
 To represent the sum of a sequence, we use the Greek letter Sigma.
 
@@ -14889,10 +14880,7 @@ $$\sum_{i=1}^{k} a_i$$
 * **$k$:** The upper limit (where to stop).
 * **$a_i$:** The formula for the terms.
 
-
-
 ---
-
 #### 6. Critical Tips & Common Pitfalls
 
 > [!CAUTION]
@@ -14909,3 +14897,4 @@ $$\sum_{i=1}^{k} a_i$$
 > * Differences are the same? (Linear: $an + b$)
 > * Multiplied by the same number? (Exponential: $r^n$)
 > * Perfect squares? ($n^2$)
+
