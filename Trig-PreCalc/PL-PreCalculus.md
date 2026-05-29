@@ -15126,12 +15126,8 @@ https://www.youtube.com/watch?v=Ipz9xXeoaRc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 A **Series** is the result of adding the terms of a sequence together. While a sequence is just a list of numbers ($a_1, a_2, a_3, \dots$), a series is the **sum** of those numbers ($a_1 + a_2 + a_3 + \dots$).
 
 ---
-
 #### 1. Summation (Sigma) Notation
 To represent a series concisely, we use the Greek letter **Sigma ($\Sigma$)**.
-
-
-
 **Components:**
 * **Index of Summation ($i, j, \text{ or } k$):** The "counter" variable.
 * **Lower Limit:** The starting integer value for the index (usually $1$ or $0$).
@@ -15139,7 +15135,6 @@ To represent a series concisely, we use the Greek letter **Sigma ($\Sigma$)**.
 * **General Term ($a_i$):** The formula used to generate each term in the sum.
 
 ---
-
 #### 2. Finite vs. Infinite Series
 * **Finite Series:** Has a specific ending point ($n$). You can calculate a single numerical total.
 * **Infinite Series:** Goes on forever ($\infty$).
@@ -15147,7 +15142,6 @@ To represent a series concisely, we use the Greek letter **Sigma ($\Sigma$)**.
     * These only have a finite sum if the terms "shrink" fast enough to **converge**.
 
 ---
-
 #### 3. Properties of Summation
 Professor Leonard highlights three key properties that allow us to manipulate sums algebraically:
 
@@ -15157,14 +15151,9 @@ Professor Leonard highlights three key properties that allow us to manipulate su
    $$\sum (a_i \pm b_i) = \sum a_i \pm \sum b_i$$
 3. **Constant Value Sum:** If you sum a constant $c$, $n$ times:
    $$\sum_{i=1}^{n} c = n \cdot c$$
-
 ---
-
 #### 4. The Power Sum Formulas
 For certain common series, we use "shortcuts" so we don't have to add every term manually. These are essential for Calculus.
-
-
-
 * **Sum of the first $n$ integers:**
   $$\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$$
 * **Sum of the first $n$ squares:**
@@ -15179,7 +15168,6 @@ For certain common series, we use "shortcuts" so we don't have to add every term
 2. **Evaluate:** Use the formulas above or arithmetic to find the total sum.
 
 ---
-
 #### Critical Tips & Common Pitfalls
 
 > [!CAUTION]
@@ -15194,3 +15182,4 @@ For certain common series, we use "shortcuts" so we don't have to add every term
 > [!TIP]
 > **Linearity:**
 > If you have a complex formula like $\sum (3i + 2)$, use the properties to turn it into $3\sum i + \sum 2$. This allows you to use the $n(n+1)/2$ shortcut for the $i$ part.
+
