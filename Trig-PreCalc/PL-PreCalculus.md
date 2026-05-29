@@ -14897,4 +14897,51 @@ $$\sum_{i=1}^{k} a_i$$
 > * Differences are the same? (Linear: $an + b$)
 > * Multiplied by the same number? (Exponential: $r^n$)
 > * Perfect squares? ($n^2$)
+### Finding the First 5 Terms of $a_n = (-1)^{n-1} \left(\frac{n}{2n-1}\right)$
 
+To find the terms of this sequence, we substitute the values $n = 1, 2, 3, 4, 5$ into the general term formula. This sequence features an **alternating factor**, which causes the signs of the terms to switch back and forth.
+
+---
+
+#### Step-by-Step Term Calculation
+
+**For $n = 1$:**
+$$a_1 = (-1)^{1-1} \left(\frac{1}{2(1)-1}\right) = (-1)^0 \left(\frac{1}{1}\right) = (1)(1) = 1$$
+
+**For $n = 2$:**
+$$a_2 = (-1)^{2-1} \left(\frac{2}{2(2)-1}\right) = (-1)^1 \left(\frac{2}{3}\right) = (-1)\left(\frac{2}{3}\right) = -\frac{2}{3}$$
+
+**For $n = 3$:**
+$$a_3 = (-1)^{3-1} \left(\frac{3}{2(3)-1}\right) = (-1)^2 \left(\frac{3}{5}\right) = (1)\left(\frac{3}{5}\right) = \frac{3}{5}$$
+
+**For $n = 4$:**
+$$a_4 = (-1)^{4-1} \left(\frac{4}{2(4)-1}\right) = (-1)^3 \left(\frac{4}{7}\right) = (-1)\left(\frac{4}{7}\right) = -\frac{4}{7}$$
+
+**For $n = 5$:**
+$$a_5 = (-1)^{5-1} \left(\frac{5}{2(5)-1}\right) = (-1)^4 \left(\frac{5}{9}\right) = (1)\left(\frac{5}{9}\right) = \frac{5}{9}$$
+
+---
+
+#### The Resulting Sequence
+The first five terms are:
+$$1, -\frac{2}{3}, \frac{3}{5}, -\frac{4}{7}, \frac{5}{9}$$
+
+
+
+---
+
+#### Critical Tips & Observations
+
+> [!TIP]
+> **The Alternating Pattern:**
+> The factor $(-1)^{n-1}$ is a "switch." 
+> * When $n$ is **odd**, the exponent $(n-1)$ is **even**, making the term **positive**.
+> * When $n$ is **even**, the exponent $(n-1)$ is **odd**, making the term **negative**.
+
+> [!IMPORTANT]
+> **Zero Power Rule:**
+> In the first term calculation, we have $(-1)^0$. Remember that any non-zero number raised to the zero power is always **1**.
+
+> [!WARNING]
+> **Recognizing the Fraction:**
+> Notice the denominator is always one less than twice the numerator. If you were asked to find the formula from the list, you would look for that $2n-1$ relationship in the odd numbers $(1, 3, 5, 7, 9)$.
