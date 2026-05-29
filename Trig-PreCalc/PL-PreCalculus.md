@@ -14902,7 +14902,6 @@ $$\sum_{i=1}^{k} a_i$$
 To find the terms of this sequence, we substitute the values $n = 1, 2, 3, 4, 5$ into the general term formula. This sequence features an **alternating factor**, which causes the signs of the terms to switch back and forth.
 
 ---
-
 #### Step-by-Step Term Calculation
 
 **For $n = 1$:**
@@ -14921,15 +14920,11 @@ $$a_4 = (-1)^{4-1} \left(\frac{4}{2(4)-1}\right) = (-1)^3 \left(\frac{4}{7}\righ
 $$a_5 = (-1)^{5-1} \left(\frac{5}{2(5)-1}\right) = (-1)^4 \left(\frac{5}{9}\right) = (1)\left(\frac{5}{9}\right) = \frac{5}{9}$$
 
 ---
-
 #### The Resulting Sequence
 The first five terms are:
 $$1, -\frac{2}{3}, \frac{3}{5}, -\frac{4}{7}, \frac{5}{9}$$
 
-
-
 ---
-
 #### Critical Tips & Observations
 
 > [!TIP]
