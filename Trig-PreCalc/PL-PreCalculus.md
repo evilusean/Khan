@@ -15120,3 +15120,4 @@ $$b_n = 2n - 1$$
 > (e.g., $1 - 2 = -1$. So the formula is $2n - 1$).
 
 ## 2026-May-29 - Introduction to Series and Summation Notation (Precalculus - College Algebra 68) :
+https://www.youtube.com/watch?v=Ipz9xXeoaRc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=69
