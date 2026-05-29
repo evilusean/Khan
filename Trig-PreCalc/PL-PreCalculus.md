@@ -15121,3 +15121,76 @@ $$b_n = 2n - 1$$
 
 ## 2026-May-29 - Introduction to Series and Summation Notation (Precalculus - College Algebra 68) :
 https://www.youtube.com/watch?v=Ipz9xXeoaRc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=69
+### Introduction to Series and Summation Notation
+
+A **Series** is the result of adding the terms of a sequence together. While a sequence is just a list of numbers ($a_1, a_2, a_3, \dots$), a series is the **sum** of those numbers ($a_1 + a_2 + a_3 + \dots$).
+
+---
+
+#### 1. Summation (Sigma) Notation
+To represent a series concisely, we use the Greek letter **Sigma ($\Sigma$)**.
+
+
+
+**Components:**
+* **Index of Summation ($i, j, \text{ or } k$):** The "counter" variable.
+* **Lower Limit:** The starting integer value for the index (usually $1$ or $0$).
+* **Upper Limit ($n$):** The ending integer value for the index.
+* **General Term ($a_i$):** The formula used to generate each term in the sum.
+
+---
+
+#### 2. Finite vs. Infinite Series
+* **Finite Series:** Has a specific ending point ($n$). You can calculate a single numerical total.
+* **Infinite Series:** Goes on forever ($\infty$).
+    * Notation: $\sum_{i=1}^{\infty} a_i$
+    * These only have a finite sum if the terms "shrink" fast enough to **converge**.
+
+---
+
+#### 3. Properties of Summation
+Professor Leonard highlights three key properties that allow us to manipulate sums algebraically:
+
+1. **Constant Multiple Rule:** You can pull a constant coefficient *outside* the sigma.
+   $$\sum_{i=1}^{n} c \cdot a_i = c \sum_{i=1}^{n} a_i$$
+2. **Sum/Difference Rule:** You can split a sigma across addition or subtraction.
+   $$\sum (a_i \pm b_i) = \sum a_i \pm \sum b_i$$
+3. **Constant Value Sum:** If you sum a constant $c$, $n$ times:
+   $$\sum_{i=1}^{n} c = n \cdot c$$
+
+---
+
+#### 4. The Power Sum Formulas
+For certain common series, we use "shortcuts" so we don't have to add every term manually. These are essential for Calculus.
+
+
+
+* **Sum of the first $n$ integers:**
+  $$\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$$
+* **Sum of the first $n$ squares:**
+  $$\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}$$
+* **Sum of the first $n$ cubes:**
+  $$\sum_{i=1}^{n} i^3 = \left[ \frac{n(n+1)}{2} \right]^2$$
+
+---
+
+#### 5. Two-Step Problem Strategy
+1. **Expand:** Write out the first few terms by plugging in the index values to understand the pattern.
+2. **Evaluate:** Use the formulas above or arithmetic to find the total sum.
+
+---
+
+#### Critical Tips & Common Pitfalls
+
+> [!CAUTION]
+> **The Index Starting Point:**
+> If the index starts at $i=0$ and goes to $n$, there are actually **$n+1$** terms. If it starts at $i=1$, there are **$n$** terms. This affects the "Constant Value Sum" rule!
+
+> [!IMPORTANT]
+> **Order of Operations:**
+> Calculate the general term $a_i$ for the specific index *before* adding.
+> *Example:* In $\sum i^2$, you square the number first, then add it to the next squared number.
+
+> [!TIP]
+> **Linearity:**
+> If you have a complex formula like $\sum (3i + 2)$, use the properties to turn it into $3\sum i + \sum 2$. This allows you to use the $n(n+1)/2$ shortcut for the $i$ part.
