@@ -14945,7 +14945,6 @@ $$1, -\frac{2}{3}, \frac{3}{5}, -\frac{4}{7}, \frac{5}{9}$$
 In this example, we are working backward. Given a list of terms, we must identify the pattern to create an **explicit formula**. Professor Leonard suggests looking at the relationship between the term's position ($n$) and the value of the term.
 
 ---
-
 #### Step 1: Analyze the Pattern
 Let's list the terms and their indices ($n$):
 * $n=1 \implies a_1 = 1$
@@ -14957,9 +14956,6 @@ Let's list the terms and their indices ($n$):
 * $1/2 = 1/2^1$
 * $1/4 = 1/2^2$
 * $1/8 = 1/2^3$
-
-
-
 #### Step 2: Relate the Exponent to the Index ($n$)
 Notice that the exponent of the $2$ is always **one less** than the position ($n$):
 * When $n=2$, the exponent is $1$.
@@ -14967,18 +14963,13 @@ Notice that the exponent of the $2$ is always **one less** than the position ($n
 * When $n=4$, the exponent is $3$.
 
 Following this pattern, for $n=1$, the denominator should be $2^0$. Since $2^0 = 1$, the first term matches perfectly ($1/1 = 1$).
-
 #### Step 3: Write the General Formula
 Combining these observations, the formula for the $n$-th term is:
 $$a_n = \frac{1}{2^{n-1}}$$
 
 Alternatively, using the property $(a/b)^n = a^n/b^n$, you can write it as:
 $$a_n = \left(\frac{1}{2}\right)^{n-1}$$
-
-
-
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -14992,3 +14983,4 @@ $$a_n = \left(\frac{1}{2}\right)^{n-1}$$
 > [!WARNING]
 > **Recursive vs. Explicit:**
 > While you could define this recursively as $a_n = \frac{1}{2} a_{n-1}$, Professor Leonard usually looks for the **explicit** version first, as it allows you to find any term (like the 50th) instantly.
+
