@@ -15072,3 +15072,59 @@ $$a_n = \left(-\frac{2}{3}\right)^n$$
 > [!WARNING]
 > **Base Sensitivity:**
 > Because the base $(-2/3)$ is negative, the terms will always bounce between positive and negative. Because the absolute value $(2/3)$ is less than 1, the terms will get smaller and smaller (approach zero) as $n$ increases.
+
+### Finding the General Term ($b_n$) for the Sequence: $1, 3, 5, 7, 9, \dots$
+
+This is a classic sequence of **odd numbers**. To find the explicit formula like Professor Leonard, we look for a linear relationship between the position ($n$) and the value.
+
+---
+
+#### Step 1: Analyze the Pattern
+Let's look at the "distance" between the terms:
+* $1 \xrightarrow{+2} 3 \xrightarrow{+2} 5 \xrightarrow{+2} 7 \xrightarrow{+2} 9$
+
+**Observation:** There is a **common difference** of $2$. In sequence math, a constant addition means the formula will be **linear** (similar to $y = mx + b$).
+
+
+
+#### Step 2: Set up the Linear Form
+Because the terms increase by $2$ every time the index $n$ increases by $1$, the "slope" or rate of change is $2$. This gives us the first part of our formula:
+* **Part 1:** $2n$
+
+#### Step 3: Adjust for the Starting Value
+Now we test our "Part 1" formula with $n = 1$:
+* If $n = 1$, then $2(1) = 2$.
+* However, our actual first term is **$1$**.
+
+To get from our result ($2$) to the target ($1$), we need to subtract $1$.
+* **Adjustment:** $2n - 1$
+
+#### Step 4: Verify the Formula
+Let's test the formula $b_n = 2n - 1$ with $n = 4$:
+* $b_4 = 2(4) - 1 = 8 - 1 = 7$.
+* It matches the 4th term in our list!
+
+**The Final Formula:**
+$$b_n = 2n - 1$$
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **The Arithmetic Sequence Shortcut:**
+> For any sequence with a common difference ($d$), the formula is always:
+> $a_n = a_1 + (n-1)d$.
+> For this problem: $1 + (n-1)2 = 1 + 2n - 2 = \mathbf{2n - 1}$.
+
+
+
+> [!IMPORTANT]
+> **Identifying Odd vs. Even:**
+> * **Even Numbers:** $2n$ (starts at 2, 4, 6...)
+> * **Odd Numbers:** $2n - 1$ (starts at 1, 3, 5...)
+
+> [!WARNING]
+> **Check the "y-intercept":**
+> In $y = mx + b$, $b$ is the value at $x = 0$. In sequences, if you find the "0-th" term (going back one step from the first term), it often gives you the constant for your formula.
+> (e.g., $1 - 2 = -1$. So the formula is $2n - 1$).
