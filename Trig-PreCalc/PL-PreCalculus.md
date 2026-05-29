@@ -15027,3 +15027,58 @@ $$b_n = (-1)^{n+1}(2n)$$
 > **Linear vs. Exponential:**
 > Because the numbers increase by adding ($+2$ each time) rather than multiplying, this is an arithmetic-based pattern ($2n$) rather than a power-based pattern (like $2^n$).
 
+### Finding the General Term ($a_n$) for the Sequence: $-\frac{2}{3}, \frac{4}{9}, -\frac{8}{27}, \frac{16}{81}, \dots$
+
+This sequence involves fractions with powers in both the numerator and denominator, as well as alternating signs. To solve this like Professor Leonard, we analyze the "Sign," the "Numerator," and the "Denominator" as three separate patterns.
+
+---
+
+#### Step 1: Analyze the Signs
+The signs are: $(-), (+), (-), (+)$.
+* When $n=1$, the sign is negative.
+* When $n=2$, the sign is positive.
+* **Rule:** Since the odd positions are negative, we use the simplest alternating factor: **$(-1)^n$**.
+
+#### Step 2: Analyze the Numerators
+Looking at the numbers: $2, 4, 8, 16$.
+* $n=1 \implies 2^1$
+* $n=2 \implies 4 = 2^2$
+* $n=3 \implies 8 = 2^3$
+* **Rule:** The numerator is simply **$2^n$**.
+
+#### Step 3: Analyze the Denominators
+Looking at the numbers: $3, 9, 27, 81$.
+* $n=1 \implies 3^1$
+* $n=2 \implies 9 = 3^2$
+* $n=3 \implies 27 = 3^3$
+* **Rule:** The denominator is **$3^n$**.
+
+
+
+#### Step 4: Combine into One Formula
+We can string these three rules together:
+$$a_n = (-1)^n \frac{2^n}{3^n}$$
+
+**Simplifying the Formula:**
+Since both the numerator and denominator are raised to the power of $n$, and the negative sign can be absorbed into the fraction, we can use the Power of a Quotient rule to write it more cleanly:
+$$a_n = \left(-\frac{2}{3}\right)^n$$
+
+
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **The "Clean" Version:**
+> Whenever the sign, numerator, and denominator all share the same exponent $n$, you can group them into a single set of parentheses. This is the most efficient way to write a **Geometric Sequence**.
+
+> [!IMPORTANT]
+> **Check the First Term:**
+> Always verify $n=1$ immediately. 
+> $a_1 = (-2/3)^1 = -2/3$. 
+> Since this matches our list exactly, we don't need an $n-1$ shift.
+
+> [!WARNING]
+> **Base Sensitivity:**
+> Because the base $(-2/3)$ is negative, the terms will always bounce between positive and negative. Because the absolute value $(2/3)$ is less than 1, the terms will get smaller and smaller (approach zero) as $n$ increases.
