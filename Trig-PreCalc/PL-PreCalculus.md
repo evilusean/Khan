@@ -14988,7 +14988,6 @@ $$a_n = \left(\frac{1}{2}\right)^{n-1}$$
 In this problem, we are looking for a formula that generates both the absolute values of the numbers and the alternating signs. Professor Leonard recommends splitting the problem into two parts: the "number part" and the "sign part."
 
 ---
-
 #### Step 1: Analyze the Absolute Values (The Numbers)
 Ignoring the negative signs, look at the list: $2, 4, 6, 8, 10$.
 * $n=1 \implies 2$
@@ -14998,28 +14997,19 @@ Ignoring the negative signs, look at the list: $2, 4, 6, 8, 10$.
 
 **Observation:** These are all multiples of $2$. Each term is simply the index ($n$) multiplied by $2$.
 * **Number Part:** $2n$
-
-
-
 #### Step 2: Analyze the Alternating Signs
 The signs of the terms are: $(+), (-), (+), (-), (+)$.
 * When $n$ is **odd** ($1, 3, 5$), the term is **positive**.
 * When $n$ is **even** ($2, 4$), the term is **negative**.
-
 To get this effect, we use the factor $(-1)$ raised to a power.
 * If we used $(-1)^n$, the first term ($n=1$) would be negative.
 * Since we want the first term to be positive, we need an even exponent when $n=1$. We can use **$n+1$** or **$n-1$**.
 
 **Sign Part:** $(-1)^{n+1}$
-
 #### Step 3: Combine the Parts
 Multiply the "sign part" by the "number part" to get the full explicit formula:
 $$b_n = (-1)^{n+1}(2n)$$
-
-
-
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -15036,3 +15026,4 @@ $$b_n = (-1)^{n+1}(2n)$$
 > [!WARNING]
 > **Linear vs. Exponential:**
 > Because the numbers increase by adding ($+2$ each time) rather than multiplying, this is an arithmetic-based pattern ($2n$) rather than a power-based pattern (like $2^n$).
+
