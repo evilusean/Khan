@@ -15119,3 +15119,4 @@ $$b_n = 2n - 1$$
 > In $y = mx + b$, $b$ is the value at $x = 0$. In sequences, if you find the "0-th" term (going back one step from the first term), it often gives you the constant for your formula.
 > (e.g., $1 - 2 = -1$. So the formula is $2n - 1$).
 
+## 2026-May-29 - Introduction to Series and Summation Notation (Precalculus - College Algebra 68) :
