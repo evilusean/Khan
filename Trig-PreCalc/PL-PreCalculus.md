@@ -14940,3 +14940,55 @@ $$1, -\frac{2}{3}, \frac{3}{5}, -\frac{4}{7}, \frac{5}{9}$$
 > [!WARNING]
 > **Recognizing the Fraction:**
 > Notice the denominator is always one less than twice the numerator. If you were asked to find the formula from the list, you would look for that $2n-1$ relationship in the odd numbers $(1, 3, 5, 7, 9)$.
+### Finding the General Term ($a_n$) for the Sequence: $1, \frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \dots$
+
+In this example, we are working backward. Given a list of terms, we must identify the pattern to create an **explicit formula**. Professor Leonard suggests looking at the relationship between the term's position ($n$) and the value of the term.
+
+---
+
+#### Step 1: Analyze the Pattern
+Let's list the terms and their indices ($n$):
+* $n=1 \implies a_1 = 1$
+* $n=2 \implies a_2 = 1/2$
+* $n=3 \implies a_3 = 1/4$
+* $n=4 \implies a_4 = 1/8$
+
+**Observation:** Each denominator is a power of $2$. 
+* $1/2 = 1/2^1$
+* $1/4 = 1/2^2$
+* $1/8 = 1/2^3$
+
+
+
+#### Step 2: Relate the Exponent to the Index ($n$)
+Notice that the exponent of the $2$ is always **one less** than the position ($n$):
+* When $n=2$, the exponent is $1$.
+* When $n=3$, the exponent is $2$.
+* When $n=4$, the exponent is $3$.
+
+Following this pattern, for $n=1$, the denominator should be $2^0$. Since $2^0 = 1$, the first term matches perfectly ($1/1 = 1$).
+
+#### Step 3: Write the General Formula
+Combining these observations, the formula for the $n$-th term is:
+$$a_n = \frac{1}{2^{n-1}}$$
+
+Alternatively, using the property $(a/b)^n = a^n/b^n$, you can write it as:
+$$a_n = \left(\frac{1}{2}\right)^{n-1}$$
+
+
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **Geometric Patterns:**
+> When each term is found by multiplying the previous term by a constant (in this case, $1/2$), it is a **Geometric Sequence**. The general form for these is often $a_n = a_1(r)^{n-1}$.
+
+> [!IMPORTANT]
+> **The Zero Exponent:**
+> Always check your formula against $n=1$. Many students accidentally write $1/2^n$, but for $n=1$, that would give $1/2$. Subtracting $1$ from the index ($n-1$) is the standard way to "shift" the starting value.
+
+> [!WARNING]
+> **Recursive vs. Explicit:**
+> While you could define this recursively as $a_n = \frac{1}{2} a_{n-1}$, Professor Leonard usually looks for the **explicit** version first, as it allows you to find any term (like the 50th) instantly.
