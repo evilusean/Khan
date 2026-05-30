@@ -15187,7 +15187,6 @@ For certain common series, we use "shortcuts" so we don't have to add every term
 When dealing with a finite series, adding every term individually is inefficient. Professor Leonard uses these formulas as "shortcuts" to find the total sum ($S_n$) instantly, provided the sum starts at $k=1$.
 
 ---
-
 #### 1. Sum of a Constant ($C$)
 If you add the same constant number $C$ for $n$ terms, you are simply performing multiplication.
 $$\sum_{k=1}^{n} C = C \cdot n$$
@@ -15197,21 +15196,18 @@ $$\sum_{k=1}^{n} C = C \cdot n$$
 
 
 ---
-
 #### 2. Sum of the First $n$ Integers ($k$)
 This formula calculates the sum $1 + 2 + 3 + \dots + n$.
 $$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$
 
 
 ---
-
 #### 3. Sum of the First $n$ Squares ($k^2$)
 This formula calculates the sum $1^2 + 2^2 + 3^2 + \dots + n^2$.
 $$\sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}$$
 
 
 ---
-
 #### 4. Sum of the First $n$ Cubes ($k^3$)
 This formula calculates the sum $1^3 + 2^3 + 3^3 + \dots + n^3$.
 $$\sum_{k=1}^{n} k^3 = \left[ \frac{n(n+1)}{2} \right]^2$$
@@ -15219,7 +15215,6 @@ $$\sum_{k=1}^{n} k^3 = \left[ \frac{n(n+1)}{2} \right]^2$$
 
 
 ---
-
 #### Key Takeaways
 
 > [!IMPORTANT]
@@ -15233,3 +15228,4 @@ $$\sum_{k=1}^{n} k^3 = \left[ \frac{n(n+1)}{2} \right]^2$$
 > [!CAUTION]
 > **The Variable $n$:**
 > In these formulas, $n$ represents the **Upper Limit** (the last number you plug in). Always identify $n$ first before starting your calculation.
+
