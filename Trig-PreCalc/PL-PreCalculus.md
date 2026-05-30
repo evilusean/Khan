@@ -15162,7 +15162,6 @@ For certain common series, we use "shortcuts" so we don't have to add every term
   $$\sum_{i=1}^{n} i^3 = \left[ \frac{n(n+1)}{2} \right]^2$$
 
 ---
-
 #### 5. Two-Step Problem Strategy
 1. **Expand:** Write out the first few terms by plugging in the index values to understand the pattern.
 2. **Evaluate:** Use the formulas above or arithmetic to find the total sum.
@@ -15183,3 +15182,54 @@ For certain common series, we use "shortcuts" so we don't have to add every term
 > **Linearity:**
 > If you have a complex formula like $\sum (3i + 2)$, use the properties to turn it into $3\sum i + \sum 2$. This allows you to use the $n(n+1)/2$ shortcut for the $i$ part.
 
+### Summation Power Formulas (The Shortcuts)
+
+When dealing with a finite series, adding every term individually is inefficient. Professor Leonard uses these formulas as "shortcuts" to find the total sum ($S_n$) instantly, provided the sum starts at $k=1$.
+
+---
+
+#### 1. Sum of a Constant ($C$)
+If you add the same constant number $C$ for $n$ terms, you are simply performing multiplication.
+$$\sum_{k=1}^{n} C = C \cdot n$$
+* **Special Case ($C=1$):**
+  $$\sum_{k=1}^{n} 1 = n$$
+  *(If you add "1" ten times, the result is 10).*
+
+
+---
+
+#### 2. Sum of the First $n$ Integers ($k$)
+This formula calculates the sum $1 + 2 + 3 + \dots + n$.
+$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$
+
+
+---
+
+#### 3. Sum of the First $n$ Squares ($k^2$)
+This formula calculates the sum $1^2 + 2^2 + 3^2 + \dots + n^2$.
+$$\sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}$$
+
+
+---
+
+#### 4. Sum of the First $n$ Cubes ($k^3$)
+This formula calculates the sum $1^3 + 2^3 + 3^3 + \dots + n^3$.
+$$\sum_{k=1}^{n} k^3 = \left[ \frac{n(n+1)}{2} \right]^2$$
+*(Notice that this is exactly the same as the "Sum of $k$" formula, just squared).*
+
+
+---
+
+#### Key Takeaways
+
+> [!IMPORTANT]
+> **The $k=1$ Requirement:**
+> These specific formulas **only** work if the lower limit of the summation is $1$. If the sum starts at $k=0$ or $k=5$, you must adjust the series before applying these rules.
+
+> [!TIP]
+> **Using Linearity:**
+> If you have a complex sum like $\sum (k^2 + 3k)$, Professor Leonard recommends splitting it into $\sum k^2 + 3\sum k$. This allows you to plug the formulas into each part separately.
+
+> [!CAUTION]
+> **The Variable $n$:**
+> In these formulas, $n$ represents the **Upper Limit** (the last number you plug in). Always identify $n$ first before starting your calculation.
