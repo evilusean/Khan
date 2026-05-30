@@ -15288,3 +15288,40 @@ $$\mathbf{3,958}$$
 > * $k^2 \implies \text{division by } 6$
 > * $k^3 \implies \text{division by } 2, \text{ then squared}$
 
+### Evaluating Series with Adjusted Limits: $\sum_{k=4}^{24} k^3$
+
+When a summation does not start at $k=1$, we cannot directly use the standard power sum formulas. Following Professor Leonard’s method, we treat this as a "subtraction" problem: calculate the total sum from $1$ to $24$, and then subtract the "missing" part from $1$ to $3$.
+
+---
+#### Step 1: The Subtraction Property
+We rewrite the series to isolate the desired range:
+$$\sum_{k=4}^{24} k^3 = \sum_{k=1}^{24} k^3 - \sum_{k=1}^{3} k^3$$
+
+#### Step 2: Calculate the Total Sum ($\sum_{k=1}^{24} k^3$)
+Using the formula $\left[ \frac{n(n+1)}{2} \right]^2$ with $n=24$:
+* Sum $= \left[ \frac{24(25)}{2} \right]^2$
+* Sum $= [12 \cdot 25]^2$
+* Sum $= [300]^2 = \mathbf{90,000}$
+#### Step 3: Calculate the "Missing" Sum ($\sum_{k=1}^{3} k^3$)
+Using the formula with $n=3$:
+* Sum $= \left[ \frac{3(4)}{2} \right]^2$
+* Sum $= [6]^2 = \mathbf{36}$
+#### Step 4: Final Subtraction
+Subtract the missing sum from the total sum:
+$$90,000 - 36 = \mathbf{89,964}$$
+
+---
+#### Key Takeaways
+
+> [!IMPORTANT]
+> **Why Subtract 1 to 3?**
+> If you need the sum from $4$ to $24$, you want to include $4, 5, 6, \dots, 24$. The sum from $1$ to $24$ includes all those numbers *plus* $1, 2,$ and $3$. By subtracting the sum of $1, 2, 3$, you are left exactly with the range you need.
+
+> [!TIP]
+> **Check the Boundary:**
+> A common mistake is subtracting the sum up to $4$. Remember, you want to keep $k=4$ in your final answer, so you must only subtract up to $k=3$.
+
+> [!CAUTION]
+> **Formula Applicability:**
+> These power sum formulas only work when the lower limit is $1$. This subtraction technique is the standard way to "force" any range of summation to start at $1$ so the formulas can be applied.
+
