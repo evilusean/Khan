@@ -15229,3 +15229,65 @@ $$\sum_{k=1}^{n} k^3 = \left[ \frac{n(n+1)}{2} \right]^2$$
 > **The Variable $n$:**
 > In these formulas, $n$ represents the **Upper Limit** (the last number you plug in). Always identify $n$ first before starting your calculation.
 
+### Evaluating the Series: $\sum_{k=1}^{12} (k^3 - 4k^2 + 5k + 7)$
+
+To solve this like Professor Leonard, we use the **Properties of Summation** to break the large, complex sigma into four smaller, manageable parts. We will then apply the power sum formulas where $n = 12$.
+
+---
+
+#### Step 1: Distribute the Sigma
+Using the sum and difference properties, we rewrite the expression:
+$$\sum_{k=1}^{12} k^3 - 4\sum_{k=1}^{12} k^2 + 5\sum_{k=1}^{12} k + \sum_{k=1}^{12} 7$$
+
+
+---
+
+#### Step 2: Apply the Power Sum Formulas ($n = 12$)
+
+**Part A: The Cubes term ($\sum k^3$)**
+Formula: $\left[ \frac{n(n+1)}{2} \right]^2$
+$$\left[ \frac{12(13)}{2} \right]^2 = [6 \cdot 13]^2 = 78^2 = \mathbf{6,084}$$
+
+**Part B: The Squares term ($-4\sum k^2$)**
+Formula: $-4 \left[ \frac{n(n+1)(2n+1)}{6} \right]$
+$$-4 \left[ \frac{12(13)(25)}{6} \right] = -4 [2 \cdot 13 \cdot 25] = -4 [650] = \mathbf{-2,600}$$
+
+**Part C: The Linear term ($5\sum k$)**
+Formula: $5 \left[ \frac{n(n+1)}{2} \right]$
+$$5 \left[ \frac{12(13)}{2} \right] = 5 [6 \cdot 13] = 5 [78] = \mathbf{390}$$
+
+**Part D: The Constant term ($\sum 7$)**
+Formula: $C \cdot n$
+$$7 \cdot 12 = \mathbf{84}$$
+
+---
+
+#### Step 3: Combine the Results
+Now, we add all the evaluated parts together:
+$$6,084 - 2,600 + 390 + 84$$
+
+**Calculation:**
+* $6,084 - 2,600 = 3,484$
+* $3,484 + 390 = 3,874$
+* $3,874 + 84 = 3,958$
+
+**Final Answer:**
+$$\mathbf{3,958}$$
+
+---
+
+#### Key Takeaways
+
+> [!IMPORTANT]
+> **The Constant Factor:**
+> Notice in Part D that we didn't just write "7." Because the sigma tells us to add 7 for every step from 1 to 12, we must multiply the constant by $n$.
+
+> [!TIP]
+> **Arithmetic Order:**
+> When calculating the squares ($\sum k^2$), Professor Leonard always recommends dividing the $n(n+1)(2n+1)$ by 6 *before* multiplying by the coefficient out front (in this case, 4). This keeps the numbers smaller and easier to manage without a calculator.
+
+> [!CAUTION]
+> **Check the Exponents:**
+> It is a common mistake to mix up the formulas for $k^2$ and $k^3$. Always double-check your formula sheet before plugging in $n$:
+> * $k^2 \implies \text{division by } 6$
+> * $k^3 \implies \text{division by } 2, \text{ then squared}$
