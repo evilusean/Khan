@@ -15325,3 +15325,4 @@ $$90,000 - 36 = \mathbf{89,964}$$
 > **Formula Applicability:**
 > These power sum formulas only work when the lower limit is $1$. This subtraction technique is the standard way to "force" any range of summation to start at $1$ so the formulas can be applied.
 
+## 2026-May-30 - Arithmetic Sequences (Precalculus - College Algebra 69) :
