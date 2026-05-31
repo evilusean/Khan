@@ -15377,3 +15377,4 @@ $$S_n = \frac{n}{2}[2a_1 + (n-1)d]$$
 > A **sequence** is the list of numbers itself (separated by commas). A **series** is the sum of those numbers (separated by plus signs). Ensure you know which one the problem is asking for before applying the sum formulas.
 
 ## 2026-May-31 - Arithmetic Series (Precalculus - College Algebra 70) :
+https://www.youtube.com/watch?v=XdXQjHsl4q0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=72
