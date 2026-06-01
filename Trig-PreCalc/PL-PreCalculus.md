@@ -15438,12 +15438,10 @@ Arithmetic series can be written using sigma notation. If the general term insid
 To solve this like Professor Leonard, we identify this as an arithmetic series because the difference between consecutive terms is constant. We will use the formula $S_n = \frac{n(a_1 + a_n)}{2}$, but first, we must find the number of terms ($n$).
 
 ---
-
 #### Step 1: Identify Known Variables
 * **First term ($a_1$):** $60$
 * **Last term ($a_n$):** $120$
 * **Common difference ($d$):** $64 - 60 = 4$
-
 #### Step 2: Solve for the number of terms ($n$)
 We use the explicit formula for an arithmetic sequence: $a_n = a_1 + (n - 1)d$
 1. **Set up the equation:**
@@ -15454,10 +15452,7 @@ We use the explicit formula for an arithmetic sequence: $a_n = a_1 + (n - 1)d$
    $15 = n - 1$
 4. **Solve for $n$:**
    $n = 16$
-
 There are **16 terms** in this series.
-
-
 #### Step 3: Calculate the Sum ($S_n$)
 Now, use the sum formula $S_n = \frac{n(a_1 + a_n)}{2}$:
 1. **Plug in the values:**
@@ -15468,7 +15463,6 @@ Now, use the sum formula $S_n = \frac{n(a_1 + a_n)}{2}$:
    $S_{16} = 8(180) = \mathbf{1,440}$
 
 ---
-
 #### Key Takeaways
 
 > [!IMPORTANT]
@@ -15482,3 +15476,4 @@ Now, use the sum formula $S_n = \frac{n(a_1 + a_n)}{2}$:
 > [!CAUTION]
 > **Verify the Sequence:**
 > Always quickly check that the difference is truly constant for the whole list. If the difference changed halfway through, it wouldn't be an arithmetic series, and this formula would not apply.
+
