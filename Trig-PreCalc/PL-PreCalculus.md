@@ -15433,3 +15433,52 @@ Arithmetic series can be written using sigma notation. If the general term insid
 > * **Arithmetic Series ($S_n$):** Tells you the *sum* of all terms up to $n$.
 > Always verify which the question is asking for before plugging in values.
 
+### Finding the Sum of the Arithmetic Series: $60 + 64 + 68 + 72 + \dots + 120$
+
+To solve this like Professor Leonard, we identify this as an arithmetic series because the difference between consecutive terms is constant. We will use the formula $S_n = \frac{n(a_1 + a_n)}{2}$, but first, we must find the number of terms ($n$).
+
+---
+
+#### Step 1: Identify Known Variables
+* **First term ($a_1$):** $60$
+* **Last term ($a_n$):** $120$
+* **Common difference ($d$):** $64 - 60 = 4$
+
+#### Step 2: Solve for the number of terms ($n$)
+We use the explicit formula for an arithmetic sequence: $a_n = a_1 + (n - 1)d$
+1. **Set up the equation:**
+   $120 = 60 + (n - 1)4$
+2. **Subtract $60$ from both sides:**
+   $60 = (n - 1)4$
+3. **Divide by $4$:**
+   $15 = n - 1$
+4. **Solve for $n$:**
+   $n = 16$
+
+There are **16 terms** in this series.
+
+
+#### Step 3: Calculate the Sum ($S_n$)
+Now, use the sum formula $S_n = \frac{n(a_1 + a_n)}{2}$:
+1. **Plug in the values:**
+   $S_{16} = \frac{16(60 + 120)}{2}$
+2. **Simplify the parentheses:**
+   $S_{16} = \frac{16(180)}{2}$
+3. **Finish the calculation:**
+   $S_{16} = 8(180) = \mathbf{1,440}$
+
+---
+
+#### Key Takeaways
+
+> [!IMPORTANT]
+> **Always Find $n$ First:**
+> Many students attempt to guess $n$ by just dividing $120/4$. This is incorrect! Always use the formula $n = \frac{a_n - a_1}{d} + 1$ to ensure accuracy.
+
+> [!TIP]
+> **Gauss's Pairing Method:**
+> Notice that $60 + 120 = 180$. The pair inside ($64 + 116$) also equals $180$. You have 16 terms, which means you have 8 pairs of 180. $8 \times 180 = 1,440$. This is the logic the formula is built on!
+
+> [!CAUTION]
+> **Verify the Sequence:**
+> Always quickly check that the difference is truly constant for the whole list. If the difference changed halfway through, it wouldn't be an arithmetic series, and this formula would not apply.
