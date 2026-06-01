@@ -15383,7 +15383,6 @@ https://www.youtube.com/watch?v=XdXQjHsl4q0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 An **Arithmetic Series** is the sum of the terms of an arithmetic sequence. While the sequence is the list (e.g., $1, 3, 5, 7$), the series is the evaluated total (e.g., $1 + 3 + 5 + 7 = 16$).
 
 ---
-
 #### 1. The Sum Formulas
 Professor Leonard provides two primary ways to find the sum ($S_n$) of the first $n$ terms.
 
@@ -15391,14 +15390,11 @@ Professor Leonard provides two primary ways to find the sum ($S_n$) of the first
 If you know the first term ($a_1$) and the last term ($a_n$), use this formula. It is based on the idea of pairing the first and last terms, which always sum to the same value.
 $$S_n = \frac{n(a_1 + a_n)}{2}$$
 
-
-
 **Formula 2: The "Direct" Method**
 If you only have the first term ($a_1$) and the common difference ($d$), use this version.
 $$S_n = \frac{n}{2}[2a_1 + (n-1)d]$$
 
 ---
-
 #### 2. Determining $n$ (The Number of Terms)
 Often, a problem will give you a series like $5 + 8 + 11 + \dots + 50$ without telling you how many terms ($n$) there are. You must solve for $n$ first.
 
@@ -15409,10 +15405,7 @@ Use the arithmetic sequence formula ($a_n = a_1 + (n-1)d$) and solve for $n$.
 3. Plug in $d$ (the common difference).
 4. Solve the linear equation for $n$.
 
-
-
 ---
-
 #### 3. Summation Notation for Arithmetic Series
 Arithmetic series can be written using sigma notation. If the general term inside the sigma is linear (e.g., $3k + 2$), you know it is an arithmetic series.
 
@@ -15423,7 +15416,6 @@ Arithmetic series can be written using sigma notation. If the general term insid
 4. Apply the sum formula $S_n = \frac{n(a_1 + a_n)}{2}$.
 
 ---
-
 #### Critical Tips & Common Pitfalls
 
 > [!TIP]
@@ -15440,3 +15432,4 @@ Arithmetic series can be written using sigma notation. If the general term insid
 > * **Arithmetic Sequence ($a_n$):** Tells you the *value* of the $n$-th term.
 > * **Arithmetic Series ($S_n$):** Tells you the *sum* of all terms up to $n$.
 > Always verify which the question is asking for before plugging in values.
+
