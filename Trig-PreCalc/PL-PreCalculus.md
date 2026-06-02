@@ -15477,3 +15477,4 @@ Now, use the sum formula $S_n = \frac{n(a_1 + a_n)}{2}$:
 > **Verify the Sequence:**
 > Always quickly check that the difference is truly constant for the whole list. If the difference changed halfway through, it wouldn't be an arithmetic series, and this formula would not apply.
 
+## 2026-Jun-01 - Geometric Sequences (Precalculus - College Algebra 71) :
