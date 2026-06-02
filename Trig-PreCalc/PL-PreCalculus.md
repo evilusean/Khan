@@ -15479,3 +15479,58 @@ Now, use the sum formula $S_n = \frac{n(a_1 + a_n)}{2}$:
 
 ## 2026-Jun-02 - Geometric Sequences (Precalculus - College Algebra 71) :
 https://www.youtube.com/watch?v=qyHCnYewdrQ&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=73
+### Geometric Sequences
+
+A geometric sequence is a sequence where each term is found by multiplying the previous term by a fixed, non-zero number called the **common ratio** ($r$).
+
+---
+
+#### 1. The Defining Property
+Unlike arithmetic sequences that add a common difference, geometric sequences rely on a common ratio.
+* **Recursive Definition:** $a_n = a_{n-1} \cdot r$
+* **Common Ratio ($r$):** $r = \frac{a_n}{a_{n-1}}$
+
+
+
+---
+
+#### 2. The Explicit Formula
+To find any specific term ($n$) without calculating all the terms before it, we use the explicit formula.
+
+**The Formula:**
+$$a_n = a_1 \cdot r^{n-1}$$
+
+**Why it works:** To reach the $n$-th term, you start with the first term ($a_1$) and multiply it by the ratio ($r$) a total of $(n-1)$ times.
+
+---
+
+#### 3. Growth Characteristics
+Professor Leonard emphasizes how the value of $r$ fundamentally changes the behavior of the sequence:
+* **$r > 1$:** The sequence grows rapidly (Exponential Growth).
+* **$0 < r < 1$:** The sequence shrinks, approaching zero (Exponential Decay).
+* **$r < 0$:** The sequence **alternates** between positive and negative values (because multiplying by a negative flips the sign).
+
+
+
+---
+
+#### 4. Geometric Sequences vs. Arithmetic
+It is critical to distinguish between the two:
+* **Arithmetic:** Constant *addition* (linear pattern).
+* **Geometric:** Constant *multiplication* (exponential pattern).
+
+---
+
+#### Critical Tips & Common Pitfalls
+
+> [!TIP]
+> **Finding $r$:**
+> Always divide the second term by the first ($a_2 / a_1$). Even if the numbers look easy, using division ensures you handle fractions and negative ratios correctly (e.g., $10, -5, 2.5 \dots \implies r = -0.5$).
+
+> [!IMPORTANT]
+> **The $(n-1)$ Exponent:**
+> Just like the arithmetic sequence uses $(n-1)$ to count the number of "steps" of addition, the geometric formula uses $(n-1)$ to count the number of "steps" of multiplication. If you are on the 1st term, $n-1 = 0$, and $r^0 = 1$, correctly leaving you with just $a_1$.
+
+> [!CAUTION]
+> **The Common Ratio $r=0$:**
+> By definition, geometric sequences do not have a common ratio of $0$, as this would make all subsequent terms zero, which is trivial and not typically studied in this context. Always ensure $r \neq 0$.
