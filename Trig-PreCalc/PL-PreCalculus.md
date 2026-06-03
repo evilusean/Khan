@@ -15533,31 +15533,26 @@ It is critical to distinguish between the two:
 Professor Leonard teaches us that to determine if a sequence is geometric, we must check if there is a **constant ratio** ($r$) between every consecutive term. If the ratio $r = \frac{a_n}{a_{n-1}}$ is the same for the entire list, it is a geometric sequence.
 
 ---
-
 #### 1. Analyzing the Provided Sequences
 
 Let's test each sequence from your image to see which ones are geometric.
-
 **Sequence A: $2, -6, 18, -54, 162, \dots$**
 * Test ratios:
     * $\frac{-6}{2} = -3$
     * $\frac{18}{-6} = -3$
     * $\frac{-54}{18} = -3$
 * **Result:** Since the ratio is consistently $-3$, this is a **Geometric Sequence** with $r = -3$.
-
 **Sequence B: $2, 9, 16, 23, 30, \dots$**
 * Test ratios:
     * $\frac{9}{2} = 4.5$
     * $\frac{16}{9} \approx 1.77$
 * **Result:** The ratios are not constant. (Note: This is an **Arithmetic Sequence** with $d = 7$).
-
 **Sequence C: $1, 2, 4, 7, 11, 16, 22, \dots$**
 * Test ratios:
     * $\frac{2}{1} = 2$
     * $\frac{4}{2} = 2$
     * $\frac{7}{4} = 1.75$
 * **Result:** The ratios are not constant. (Note: This is a sequence where the *difference* increases by 1 each time).
-
 **Sequence D: $7, 14, 28, 56, \dots$**
 * Test ratios:
     * $\frac{14}{7} = 2$
@@ -15566,7 +15561,6 @@ Let's test each sequence from your image to see which ones are geometric.
 * **Result:** Since the ratio is consistently $2$, this is a **Geometric Sequence** with $r = 2$.
 
 ---
-
 #### Summary Table
 
 | Sequence | Type | Common Ratio ($r$) |
@@ -15578,7 +15572,6 @@ Let's test each sequence from your image to see which ones are geometric.
 
 
 ---
-
 #### Key Takeaways
 
 > [!TIP]
