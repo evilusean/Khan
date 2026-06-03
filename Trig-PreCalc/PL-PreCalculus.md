@@ -15722,7 +15722,6 @@ https://www.youtube.com/watch?v=_yDqkrbd5mk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 A **Geometric Series** is the sum of the terms of a geometric sequence. While the sequence represents the list (e.g., $2, 6, 18, 54$), the series is the result of adding those terms together ($2 + 6 + 18 + 54 = 80$).
 
 ---
-
 #### 1. The Sum Formula (Finite)
 To find the sum of the first $n$ terms of a geometric series ($S_n$), we use a formula that relies on the first term ($a_1$), the common ratio ($r$), and the number of terms ($n$).
 
@@ -15732,7 +15731,6 @@ $$S_n = a_1 \left( \frac{1 - r^n}{1 - r} \right)$$
 
 
 ---
-
 #### 2. Evaluating a Geometric Series
 To use the formula correctly, you need three components. If you are given the series in summation notation, you must identify them first:
 1. **$a_1$:** The first term (usually found by plugging the lower limit of the sum into the general formula).
@@ -15740,7 +15738,6 @@ To use the formula correctly, you need three components. If you are given the se
 3. **$n$:** The number of terms (Upper Limit - Lower Limit + 1).
 
 ---
-
 #### 3. Infinite Geometric Series
 A fascinating property of geometric series occurs when $n$ goes to infinity. If the absolute value of the ratio is less than 1 ($|r| < 1$), the terms shrink toward zero, allowing the series to **converge** to a finite sum.
 
@@ -15749,10 +15746,7 @@ $$S = \frac{a_1}{1 - r}$$
 
 **Constraint:** This formula **only** works if $|r| < 1$. If $|r| \ge 1$, the sum will grow toward infinity and the series is said to **diverge**.
 
-
-
 ---
-
 #### Critical Tips & Common Pitfalls
 
 > [!TIP]
@@ -15766,3 +15760,4 @@ $$S = \frac{a_1}{1 - r}$$
 > [!CAUTION]
 > **Summation Indices:**
 > When using summation notation, if the series starts at $k=0$ instead of $k=1$, your calculation for $a_1$ and $n$ will change. Always test the lower limit of the sum to identify the true first term, and always count your terms carefully.
+
