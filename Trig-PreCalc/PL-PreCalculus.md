@@ -15668,3 +15668,55 @@ $$a_1 = -1$$
 > **Sign Errors:**
 > A common mistake is losing the negative sign when dividing $243 / -243$. Always remember that a positive divided by a negative results in a negative value.
 
+### Finding the General Formula for a Geometric Sequence Given Two Terms
+
+When you are not given the first term ($a_1$) or the common ratio ($r$), you can use two known terms to solve for them systematically.
+
+---
+
+#### 1. Set Up the System of Equations
+Using the formula $a_n = a_1 \cdot r^{n-1}$, we write an equation for each known term:
+* For $a_3 = 1/3$: 
+  $$1/3 = a_1 \cdot r^{3-1} \implies 1/3 = a_1 \cdot r^2$$
+* For $a_6 = 1/81$:
+  $$1/81 = a_1 \cdot r^{6-1} \implies 1/81 = a_1 \cdot r^5$$
+
+
+#### 2. Solve for the Common Ratio ($r$)
+Divide the second equation by the first equation to eliminate $a_1$:
+$$\frac{a_1 \cdot r^5}{a_1 \cdot r^2} = \frac{1/81}{1/3}$$
+
+The $a_1$ terms cancel out, leaving:
+$$r^3 = \frac{1}{81} \cdot \frac{3}{1}$$
+$$r^3 = \frac{3}{81} = \frac{1}{27}$$
+
+Take the cube root of both sides:
+$$r = \sqrt[3]{1/27} = \frac{1}{3}$$
+
+#### 3. Solve for the First Term ($a_1$)
+Substitute $r = 1/3$ back into the first equation ($1/3 = a_1 \cdot r^2$):
+$$1/3 = a_1 \cdot (1/3)^2$$
+$$1/3 = a_1 \cdot (1/9)$$
+
+Multiply both sides by 9 to isolate $a_1$:
+$$a_1 = 9 \cdot (1/3) = 3$$
+
+#### 4. Final Explicit Formula
+Now that we have $a_1 = 3$ and $r = 1/3$, the formula is:
+$$a_n = 3 \cdot \left(\frac{1}{3}\right)^{n-1}$$
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **The Division Trick:**
+> Dividing the equation for the higher term by the equation for the lower term is the fastest way to eliminate $a_1$. This is the standard procedure whenever you are given two arbitrary terms in a geometric sequence.
+
+> [!IMPORTANT]
+> **Exponent Calculation:**
+> When you divide $r^5 / r^2$, remember the exponent rule $x^a / x^b = x^{a-b}$. Here, $5 - 2 = 3$, which is why we ended up with $r^3$.
+
+> [!CAUTION]
+> **Check your terms:**
+> Always write the higher-indexed term on top in the division to keep your ratio power positive ($r^3$ instead of $r^{-3}$). It makes the math significantly easier to visualize.
