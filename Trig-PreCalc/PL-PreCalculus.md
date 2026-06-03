@@ -15625,3 +15625,49 @@ Alternatively, leave it in the standard form, as it clearly shows the starting v
 > **Base vs. Exponent:**
 > Be careful not to multiply the $a_1$ ($-3$) into the ratio ($-1/3$) before applying the exponent. The exponent $n-1$ only applies to the ratio $r$, not to the first term $a_1$.
 
+### Finding the First Term ($a_1$) of a Geometric Sequence
+
+In this problem, we are given the 6th term ($a_6 = 243$) and the common ratio ($r = -3$). To find the first term, we work backward using the explicit formula for a geometric sequence.
+
+---
+
+#### 1. Identify the Formula and Variables
+The formula is:
+$$a_n = a_1 \cdot r^{n-1}$$
+
+Given information:
+* $a_6 = 243$
+* $r = -3$
+* $n = 6$
+
+
+#### 2. Substitute and Solve
+Substitute the known values into the equation:
+$$243 = a_1 \cdot (-3)^{6-1}$$
+
+Simplify the exponent:
+$$243 = a_1 \cdot (-3)^5$$
+
+Calculate $(-3)^5$:
+$$(-3) \cdot (-3) \cdot (-3) \cdot (-3) \cdot (-3) = -243$$
+
+Now, solve for $a_1$:
+$$243 = a_1 \cdot (-243)$$
+$$a_1 = \frac{243}{-243}$$
+$$a_1 = -1$$
+
+---
+
+#### Key Takeaways
+
+> [!IMPORTANT]
+> **Working Backward:**
+> If you are missing the first term, simply plug in the values you have for any other term ($a_n$) and the ratio ($r$), then solve the resulting algebraic equation for $a_1$.
+
+> [!TIP]
+> **Exponent Rules:**
+> Be very careful with the exponent. Since $n=6$, the exponent is $6-1 = 5$. Because 5 is an odd number, a negative base raised to that power will remain negative.
+
+> [!CAUTION]
+> **Sign Errors:**
+> A common mistake is losing the negative sign when dividing $243 / -243$. Always remember that a positive divided by a negative results in a negative value.
