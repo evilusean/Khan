@@ -15727,9 +15727,6 @@ To find the sum of the first $n$ terms of a geometric series ($S_n$), we use a f
 
 **The Formula:**
 $$S_n = a_1 \left( \frac{1 - r^n}{1 - r} \right)$$
-
-
-
 ---
 #### 2. Evaluating a Geometric Series
 To use the formula correctly, you need three components. If you are given the series in summation notation, you must identify them first:
@@ -15761,3 +15758,47 @@ $$S = \frac{a_1}{1 - r}$$
 > **Summation Indices:**
 > When using summation notation, if the series starts at $k=0$ instead of $k=1$, your calculation for $a_1$ and $n$ will change. Always test the lower limit of the sum to identify the true first term, and always count your terms carefully.
 
+### The Finite Geometric Series Formula
+
+This formula is a "shortcut" that allows you to calculate the sum of a geometric series ($S_n$) without having to manually add up every single term.
+
+---
+
+#### 1. The Full Formula
+$$S_n = \sum_{k=1}^{n} a_1 \cdot r^{k-1} = a_1 \left( \frac{1 - r^n}{1 - r} \right)$$
+
+---
+
+#### 2. Definition of Parts
+* **$\sum_{k=1}^{n}$**: The summation notation indicating you are adding up terms from the 1st term ($k=1$) to the $n$-th term.
+* **$a_1$**: The **first term** of the sequence. This is the starting value.
+* **$r$**: The **common ratio**. This is the number you multiply by to get from one term to the next.
+* **$n$**: The **number of terms** you are adding together.
+* **$a_1 \cdot r^{k-1}$**: The general formula for the $k$-th term of a geometric sequence.
+
+
+---
+
+#### 3. How to Use It
+To use this formula effectively, follow these three steps as Professor Leonard demonstrates:
+
+1. **Identify $a_1$**: Plug $k=1$ into the general term formula.
+2. **Identify $r$**: Determine the common ratio by dividing any term by the previous term ($a_2 / a_1$).
+3. **Identify $n$**: Determine how many terms are being summed. 
+
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **The Power of the Shortcut:**
+> If you needed to find the sum of the first 50 terms of a sequence, manually adding them would take forever. This formula reduces that entire process to a single calculation.
+
+> [!IMPORTANT]
+> **Formula Limitation:**
+> This specific formula only works if your series starts at **$k=1$**. If the summation starts at a different number, you must adjust the bounds or calculate the starting term accordingly.
+
+> [!CAUTION]
+> **Division by Zero:**
+> Notice that the formula has $(1-r)$ in the denominator. This means the formula is only valid if **$r \neq 1$**. If $r = 1$, the series is just adding the same number ($a_1$) over and over, and you would simply use $n \cdot a_1$ instead.
