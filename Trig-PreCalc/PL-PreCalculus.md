@@ -15717,3 +15717,52 @@ $$a_n = 3 \cdot \left(\frac{1}{3}\right)^{n-1}$$
 
 ## 2026-Jun-03 - Geometric Series (Precalculus - College Algebra 72) :
 https://www.youtube.com/watch?v=_yDqkrbd5mk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=74
+### Geometric Series
+
+A **Geometric Series** is the sum of the terms of a geometric sequence. While the sequence represents the list (e.g., $2, 6, 18, 54$), the series is the result of adding those terms together ($2 + 6 + 18 + 54 = 80$).
+
+---
+
+#### 1. The Sum Formula (Finite)
+To find the sum of the first $n$ terms of a geometric series ($S_n$), we use a formula that relies on the first term ($a_1$), the common ratio ($r$), and the number of terms ($n$).
+
+**The Formula:**
+$$S_n = a_1 \left( \frac{1 - r^n}{1 - r} \right)$$
+
+
+
+---
+
+#### 2. Evaluating a Geometric Series
+To use the formula correctly, you need three components. If you are given the series in summation notation, you must identify them first:
+1. **$a_1$:** The first term (usually found by plugging the lower limit of the sum into the general formula).
+2. **$r$:** The common ratio (the value being raised to the power of the index).
+3. **$n$:** The number of terms (Upper Limit - Lower Limit + 1).
+
+---
+
+#### 3. Infinite Geometric Series
+A fascinating property of geometric series occurs when $n$ goes to infinity. If the absolute value of the ratio is less than 1 ($|r| < 1$), the terms shrink toward zero, allowing the series to **converge** to a finite sum.
+
+**The Infinite Sum Formula:**
+$$S = \frac{a_1}{1 - r}$$
+
+**Constraint:** This formula **only** works if $|r| < 1$. If $|r| \ge 1$, the sum will grow toward infinity and the series is said to **diverge**.
+
+
+
+---
+
+#### Critical Tips & Common Pitfalls
+
+> [!TIP]
+> **Check the Ratio:**
+> Before calculating an infinite sum, always verify $|r| < 1$. If you are given a ratio like $r = 2$ or $r = -3$ for an infinite series, the answer is simply that the series **diverges** (no sum exists).
+
+> [!IMPORTANT]
+> **Order of Operations:**
+> When using the finite formula $S_n = a_1 \frac{1 - r^n}{1 - r}$, calculate the exponent ($r^n$) first, then subtract from $1$. Be extremely careful if $r$ is negative—use parentheses so the negative sign is handled correctly by the exponent.
+
+> [!CAUTION]
+> **Summation Indices:**
+> When using summation notation, if the series starts at $k=0$ instead of $k=1$, your calculation for $a_1$ and $n$ will change. Always test the lower limit of the sum to identify the true first term, and always count your terms carefully.
