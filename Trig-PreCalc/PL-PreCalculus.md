@@ -15630,7 +15630,6 @@ Alternatively, leave it in the standard form, as it clearly shows the starting v
 In this problem, we are given the 6th term ($a_6 = 243$) and the common ratio ($r = -3$). To find the first term, we work backward using the explicit formula for a geometric sequence.
 
 ---
-
 #### 1. Identify the Formula and Variables
 The formula is:
 $$a_n = a_1 \cdot r^{n-1}$$
@@ -15639,8 +15638,6 @@ Given information:
 * $a_6 = 243$
 * $r = -3$
 * $n = 6$
-
-
 #### 2. Substitute and Solve
 Substitute the known values into the equation:
 $$243 = a_1 \cdot (-3)^{6-1}$$
@@ -15657,7 +15654,6 @@ $$a_1 = \frac{243}{-243}$$
 $$a_1 = -1$$
 
 ---
-
 #### Key Takeaways
 
 > [!IMPORTANT]
@@ -15671,3 +15667,4 @@ $$a_1 = -1$$
 > [!CAUTION]
 > **Sign Errors:**
 > A common mistake is losing the negative sign when dividing $243 / -243$. Always remember that a positive divided by a negative results in a negative value.
+
