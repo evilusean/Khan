@@ -15716,3 +15716,4 @@ $$a_n = 3 \cdot \left(\frac{1}{3}\right)^{n-1}$$
 > Always write the higher-indexed term on top in the division to keep your ratio power positive ($r^3$ instead of $r^{-3}$). It makes the math significantly easier to visualize.
 
 ## 2026-Jun-03 - Geometric Series (Precalculus - College Algebra 72) :
+https://www.youtube.com/watch?v=_yDqkrbd5mk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=74
