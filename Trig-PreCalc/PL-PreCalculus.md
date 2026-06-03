@@ -15585,3 +15585,47 @@ Let's test each sequence from your image to see which ones are geometric.
 > [!CAUTION]
 > **Visual Traps:**
 > Just because a sequence grows quickly (like Sequence C: $1, 2, 4, 7 \dots$) does not automatically make it geometric. Always perform the division test to confirm the ratio is constant before labeling it "geometric."
+
+### Finding the General Formula for a Geometric Sequence
+
+To determine the explicit formula $a_n = a_1 \cdot r^{n-1}$ for the sequence $-3, 1, -\frac{1}{3}, \frac{1}{9}, \dots$, we must identify the first term ($a_1$) and the common ratio ($r$).
+
+---
+
+#### 1. Identify the Components
+* **First term ($a_1$):** By inspection, $a_1 = -3$.
+* **Common ratio ($r$):** Calculate the ratio by dividing the second term by the first term:
+    $$r = \frac{a_2}{a_1} = \frac{1}{-3} = -\frac{1}{3}$$
+* **Verify the ratio:** Check with the next terms:
+    $$r = \frac{a_3}{a_2} = \frac{-1/3}{1} = -\frac{1}{3}$$
+    Since the ratio is consistent, this is a valid **Geometric Sequence**.
+
+
+#### 2. Construct the Explicit Formula
+Plug $a_1$ and $r$ into the standard form $a_n = a_1 \cdot r^{n-1}$:
+$$a_n = -3 \cdot \left(-\frac{1}{3}\right)^{n-1}$$
+
+#### 3. Simplifying the Formula (Optional)
+We can simplify this by recognizing that $-3$ is the inverse of $1/3$:
+* $-3 = -1 \cdot 3^1$
+* $a_n = -1 \cdot 3^1 \cdot \left(\frac{-1}{3}\right)^{n-1}$
+
+Alternatively, leave it in the standard form, as it clearly shows the starting value and the decay/alternating ratio.
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **Handling Negative Ratios:**
+> When the ratio $r$ is negative (in this case, $-1/3$), the sequence will always alternate signs. Always place the negative ratio inside parentheses $(r)^{n-1}$ to ensure the negative sign is applied correctly across the power $n-1$.
+
+> [!IMPORTANT]
+> **Check your work:**
+> Always verify the formula with the second term ($n=2$):
+> $a_2 = -3 \cdot (-1/3)^{2-1} = -3 \cdot (-1/3)^1 = -3 \cdot (-1/3) = 1$.
+> It matches!
+
+> [!CAUTION]
+> **Base vs. Exponent:**
+> Be careful not to multiply the $a_1$ ($-3$) into the ratio ($-1/3$) before applying the exponent. The exponent $n-1$ only applies to the ratio $r$, not to the first term $a_1$.
