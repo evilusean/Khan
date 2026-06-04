@@ -15796,3 +15796,51 @@ To use this formula effectively, follow these three steps as Professor Leonard d
 > **Division by Zero:**
 > Notice that the formula has $(1-r)$ in the denominator. This means the formula is only valid if **$r \neq 1$**. If $r = 1$, the series is just adding the same number ($a_1$) over and over, and you would simply use $n \cdot a_1$ instead.
 
+### Summing the Geometric Series: $\sum_{k=1}^{n} \frac{3^k}{9}$
+
+To find the sum of this series, we first identify the components needed for the finite geometric series formula:
+$$S_n = a_1 \left( \frac{1 - r^n}{1 - r} \right)$$
+
+---
+
+#### 1. Identify the Components
+* **First term ($a_1$):** Plug $k=1$ into the general term $\frac{3^k}{9}$.
+  $$a_1 = \frac{3^1}{9} = \frac{3}{9} = \frac{1}{3}$$
+* **Common ratio ($r$):** The base of the exponent in the general term.
+  $$r = 3$$
+* **Number of terms ($n$):** The upper limit of the sum.
+
+
+
+#### 2. Apply the Formula
+Substitute $a_1 = \frac{1}{3}$ and $r = 3$ into the sum formula:
+$$S_n = \frac{1}{3} \left( \frac{1 - 3^n}{1 - 3} \right)$$
+
+#### 3. Simplify
+Simplify the denominator ($1 - 3 = -2$):
+$$S_n = \frac{1}{3} \left( \frac{1 - 3^n}{-2} \right)$$
+
+Combine the constants $\frac{1}{3}$ and $\frac{1}{-2}$:
+$$S_n = -\frac{1}{6} (1 - 3^n)$$
+
+Distribute the negative sign to clean up the expression inside the parentheses:
+$$S_n = \frac{3^n - 1}{6}$$
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **Verification:**
+> Test the sum for $n=2$ (the sum of the first two terms):
+> * Manual sum: $\frac{3}{9} + \frac{9}{9} = \frac{12}{9} = \frac{4}{3}$.
+> * Formula sum: $\frac{3^2 - 1}{6} = \frac{8}{6} = \frac{4}{3}$.
+> It matches perfectly!
+
+> [!IMPORTANT]
+> **The $n$ Variable:**
+> Since the upper limit of your sum is $n$, your final answer remains in terms of $n$. This is the standard "explicit formula" for the sum of the series.
+
+> [!CAUTION]
+> **Order of Operations:**
+> Ensure you perform the exponentiation ($3^n$) *before* subtracting 1 or dividing by 6. If you calculate $3^n - 1$ and then divide by 6, you will arrive at the correct sum for any $n$.
