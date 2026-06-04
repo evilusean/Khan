@@ -15888,3 +15888,35 @@ $$S = \frac{a_1}{1 - r}$$
 > **The $k=1$ Starting Point:**
 > These formulas assume the index starts at $k=1$. If your series starts at a different number, you must calculate the first term ($a_1$) by plugging in that specific starting value for $k$.
 
+### Evaluating Infinite Geometric Series
+
+To evaluate these series, we use the sum formula for an infinite geometric series:
+$$S = \frac{a_1}{1 - r}$$
+**Important:** This formula only works if $|r| < 1$. If $|r| \ge 1$, the series diverges and has no finite sum.
+
+---
+
+#### 1. Evaluating $\sum_{k=1}^{\infty} \frac{1}{9} \left( -\frac{5}{4} \right)^{k-1}$
+* **Identify $r$:** The common ratio is $r = -\frac{5}{4}$.
+* **Check Convergence:** $|r| = |-\frac{5}{4}| = 1.25$. Since $1.25 \ge 1$, the series **diverges**.
+
+#### 2. Evaluating $\sum_{k=1}^{\infty} 3 \left( \frac{2}{3} \right)^k$
+* **Identify $a_1$:** Plug in $k=1$:
+  $a_1 = 3(\frac{2}{3})^1 = 3 \cdot \frac{2}{3} = 2$.
+* **Identify $r$:** The common ratio is $r = \frac{2}{3}$. Since $|\frac{2}{3}| < 1$, the series converges.
+* **Calculate Sum:**
+  $$S = \frac{a_1}{1 - r} = \frac{2}{1 - 2/3} = \frac{2}{1/3} = 2 \cdot 3 = \mathbf{6}$$
+
+---
+
+#### Key Takeaways
+
+> [!IMPORTANT]
+> **Always Check Convergence:** > Before applying the formula $S = \frac{a_1}{1 - r}$, you must verify that the absolute value of the ratio is less than 1. As seen in the first example, if the ratio is greater than 1 (or less than -1), the series will not sum to a finite number.
+
+> [!TIP]
+> **Starting Index:**
+> Notice that for the second series, the index $k$ starts at $1$ and the term is $(2/3)^k$. If the exponent were $(k-1)$, $a_1$ would be 3. Because it is $k$, $a_1$ is $3 \cdot (2/3) = 2$. **Always plug in the starting $k$ value to find the true $a_1$.**
+
+> [!CAUTION]
+> **Ratio Identification:** > Make sure you are correctly identifying the base of the exponent as $r$. If there is a constant coefficient outside the parenthesis, it is *not* part of the ratio; it is part of the first term $a_1$.
