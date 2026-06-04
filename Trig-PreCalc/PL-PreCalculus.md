@@ -15918,3 +15918,4 @@ $$S = \frac{a_1}{1 - r}$$
 > **Ratio Identification:** > Make sure you are correctly identifying the base of the exponent as $r$. If there is a constant coefficient outside the parenthesis, it is *not* part of the ratio; it is part of the first term $a_1$.
 
 ## 2026-Jun-4 - Proof by Mathematical Induction (Precalculus - College Algebra 73) :
+https://www.youtube.com/watch?v=x5cWX-EyLEI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=74
