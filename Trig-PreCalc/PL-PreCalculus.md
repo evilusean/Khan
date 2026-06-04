@@ -15802,32 +15802,24 @@ To find the sum of this series, we first identify the components needed for the 
 $$S_n = a_1 \left( \frac{1 - r^n}{1 - r} \right)$$
 
 ---
-
 #### 1. Identify the Components
 * **First term ($a_1$):** Plug $k=1$ into the general term $\frac{3^k}{9}$.
   $$a_1 = \frac{3^1}{9} = \frac{3}{9} = \frac{1}{3}$$
 * **Common ratio ($r$):** The base of the exponent in the general term.
   $$r = 3$$
 * **Number of terms ($n$):** The upper limit of the sum.
-
-
-
 #### 2. Apply the Formula
 Substitute $a_1 = \frac{1}{3}$ and $r = 3$ into the sum formula:
 $$S_n = \frac{1}{3} \left( \frac{1 - 3^n}{1 - 3} \right)$$
-
 #### 3. Simplify
 Simplify the denominator ($1 - 3 = -2$):
 $$S_n = \frac{1}{3} \left( \frac{1 - 3^n}{-2} \right)$$
 
 Combine the constants $\frac{1}{3}$ and $\frac{1}{-2}$:
 $$S_n = -\frac{1}{6} (1 - 3^n)$$
-
 Distribute the negative sign to clean up the expression inside the parentheses:
 $$S_n = \frac{3^n - 1}{6}$$
-
 ---
-
 #### Key Takeaways
 
 > [!TIP]
