@@ -15895,20 +15895,16 @@ $$S = \frac{a_1}{1 - r}$$
 **Important:** This formula only works if $|r| < 1$. If $|r| \ge 1$, the series diverges and has no finite sum.
 
 ---
-
 #### 1. Evaluating $\sum_{k=1}^{\infty} \frac{1}{9} \left( -\frac{5}{4} \right)^{k-1}$
 * **Identify $r$:** The common ratio is $r = -\frac{5}{4}$.
 * **Check Convergence:** $|r| = |-\frac{5}{4}| = 1.25$. Since $1.25 \ge 1$, the series **diverges**.
-
 #### 2. Evaluating $\sum_{k=1}^{\infty} 3 \left( \frac{2}{3} \right)^k$
 * **Identify $a_1$:** Plug in $k=1$:
   $a_1 = 3(\frac{2}{3})^1 = 3 \cdot \frac{2}{3} = 2$.
 * **Identify $r$:** The common ratio is $r = \frac{2}{3}$. Since $|\frac{2}{3}| < 1$, the series converges.
 * **Calculate Sum:**
   $$S = \frac{a_1}{1 - r} = \frac{2}{1 - 2/3} = \frac{2}{1/3} = 2 \cdot 3 = \mathbf{6}$$
-
 ---
-
 #### Key Takeaways
 
 > [!IMPORTANT]
@@ -15920,3 +15916,4 @@ $$S = \frac{a_1}{1 - r}$$
 
 > [!CAUTION]
 > **Ratio Identification:** > Make sure you are correctly identifying the base of the exponent as $r$. If there is a constant coefficient outside the parenthesis, it is *not* part of the ratio; it is part of the first term $a_1$.
+
