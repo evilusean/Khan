@@ -15798,41 +15798,56 @@ To use this formula effectively, follow these three steps as Professor Leonard d
 
 ### Summing the Geometric Series: $\sum_{k=1}^{n} \frac{3^k}{9}$
 
-To find the sum of this series, we first identify the components needed for the finite geometric series formula:
-$$S_n = a_1 \left( \frac{1 - r^n}{1 - r} \right)$$
+To find the sum of this series, we follow Professor Leonard's method of identifying the first term ($a_1$), the common ratio ($r$), and applying the finite geometric series formula.
 
 ---
-#### 1. Identify the Components
-* **First term ($a_1$):** Plug $k=1$ into the general term $\frac{3^k}{9}$.
-  $$a_1 = \frac{3^1}{9} = \frac{3}{9} = \frac{1}{3}$$
-* **Common ratio ($r$):** The base of the exponent in the general term.
-  $$r = 3$$
-* **Number of terms ($n$):** The upper limit of the sum.
-#### 2. Apply the Formula
-Substitute $a_1 = \frac{1}{3}$ and $r = 3$ into the sum formula:
+#### 1. Analyze the General Term
+The series is given by $\sum_{k=1}^{n} \frac{3^k}{9}$. 
+
+To identify $a_1$ and $r$ clearly, we can rewrite the term $\frac{3^k}{9}$ into a form that highlights the exponent structure.
+* $a_1 = \frac{3^1}{9} = \frac{3}{9} = \frac{1}{3}$
+* $a_2 = \frac{3^2}{9} = \frac{9}{9} = 1$
+* $a_3 = \frac{3^3}{9} = \frac{27}{9} = 3$
+
+By examining the sequence $\frac{1}{3}, 1, 3, \dots$, we can see that:
+* **$a_1 = \frac{1}{3}$**
+* **$r = 3$** (since $1 \div \frac{1}{3} = 3$ and $3 \div 1 = 3$)
+
+---
+#### 2. Apply the Sum Formula
+We use the formula: $S_n = a_1 \left( \frac{1 - r^n}{1 - r} \right)$
+
+Substitute our values:
 $$S_n = \frac{1}{3} \left( \frac{1 - 3^n}{1 - 3} \right)$$
-#### 3. Simplify
+
 Simplify the denominator ($1 - 3 = -2$):
 $$S_n = \frac{1}{3} \left( \frac{1 - 3^n}{-2} \right)$$
 
-Combine the constants $\frac{1}{3}$ and $\frac{1}{-2}$:
-$$S_n = -\frac{1}{6} (1 - 3^n)$$
-Distribute the negative sign to clean up the expression inside the parentheses:
+Distribute the constant factor:
+$$S_n = \frac{1 - 3^n}{-6}$$
+
+Finally, distribute the negative sign to clean up the denominator:
 $$S_n = \frac{3^n - 1}{6}$$
+
+---
+#### 3. Alternative Notation
+the series can also be written in the standard geometric form $a_1(r)^{k-1}$:
+$$\sum_{k=1}^{n} \frac{1}{3}(3)^{k-1}$$
+
+This explicitly shows $a_1 = \frac{1}{3}$ and $r = 3$, confirming that our identification in Step 1 was correct.
+
+
 ---
 #### Key Takeaways
 
 > [!TIP]
-> **Verification:**
-> Test the sum for $n=2$ (the sum of the first two terms):
-> * Manual sum: $\frac{3}{9} + \frac{9}{9} = \frac{12}{9} = \frac{4}{3}$.
-> * Formula sum: $\frac{3^2 - 1}{6} = \frac{8}{6} = \frac{4}{3}$.
-> It matches perfectly!
+> **Check your First Term:**
+> Always write out the first few terms of the summation ($k=1, k=2, k=3$). This prevents errors in identifying $a_1$ and $r$ and acts as a quick check for your formula.
 
 > [!IMPORTANT]
-> **The $n$ Variable:**
-> Since the upper limit of your sum is $n$, your final answer remains in terms of $n$. This is the standard "explicit formula" for the sum of the series.
+> **The Common Ratio:**
+> The common ratio is the base being raised to the power of the index. In $\frac{3^k}{9}$, the base is $3$. If the term were $\frac{3^{2k}}{9}$, the ratio would be $3^2 = 9$.
 
 > [!CAUTION]
-> **Order of Operations:**
-> Ensure you perform the exponentiation ($3^n$) *before* subtracting 1 or dividing by 6. If you calculate $3^n - 1$ and then divide by 6, you will arrive at the correct sum for any $n$.
+> **Formula Validity:**
+> This formula works for all $r \neq 1$. Since our $r=3$, the formula is valid. If your ratio had been 1, the sum would simply be $n \cdot a_1$.
