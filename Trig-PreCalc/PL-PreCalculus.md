@@ -15859,27 +15859,21 @@ $$S = \frac{a_1}{1 - r}$$
 **Critical Condition:** This formula only works if the absolute value of the common ratio is less than one ($|r| < 1$). If $|r| \ge 1$, the series diverges.
 
 ---
-
 #### 1. Evaluating $\sum_{k=1}^{\infty} 8 \left( \frac{1}{3} \right)^{k-1}$
 * **Identify $a_1$:** When $k=1$, $8(\frac{1}{3})^0 = 8(1) = 8$.
 * **Identify $r$:** $r = \frac{1}{3}$. Since $| \frac{1}{3} | < 1$, the series converges.
 * **Calculate Sum:**
   $$S = \frac{8}{1 - 1/3} = \frac{8}{2/3} = 8 \cdot \frac{3}{2} = \mathbf{12}$$
-
-
 #### 2. Evaluating $\sum_{k=1}^{\infty} \frac{1}{2} (3)^{k-1}$
 * **Identify $a_1$:** $\frac{1}{2}(3)^0 = \frac{1}{2}$.
 * **Identify $r$:** $r = 3$.
 * **Determine Convergence:** Since $|3| \ge 1$, this series **diverges**. It does not have a finite sum.
-
 #### 3. Evaluating $\sum_{k=1}^{\infty} 3 \left( -\frac{2}{3} \right)^{k-1}$
 * **Identify $a_1$:** $3(-\frac{2}{3})^0 = 3(1) = 3$.
 * **Identify $r$:** $r = -\frac{2}{3}$. Since $| -\frac{2}{3} | = \frac{2}{3} < 1$, the series converges.
 * **Calculate Sum:**
   $$S = \frac{3}{1 - (-2/3)} = \frac{3}{1 + 2/3} = \frac{3}{5/3} = 3 \cdot \frac{3}{5} = \mathbf{\frac{9}{5}}$$
-
 ---
-
 #### Key Takeaways
 
 > [!IMPORTANT]
@@ -15893,3 +15887,4 @@ $$S = \frac{a_1}{1 - r}$$
 > [!CAUTION]
 > **The $k=1$ Starting Point:**
 > These formulas assume the index starts at $k=1$. If your series starts at a different number, you must calculate the first term ($a_1$) by plugging in that specific starting value for $k$.
+
