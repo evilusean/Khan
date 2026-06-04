@@ -15924,7 +15924,6 @@ https://www.youtube.com/watch?v=x5cWX-EyLEI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Mathematical Induction is a powerful technique used to prove that a statement or formula is true for all positive integers ($n = 1, 2, 3, \dots$). Professor Leonard often uses the analogy of a line of dominoes: if you can knock over the first one, and you can guarantee that any falling domino will knock over the next one, then all the dominoes will eventually fall.
 
 ---
-
 #### 1. The Two-Step Process
 To prove a statement $P(n)$ is true for all $n \ge 1$, we must satisfy two conditions:
 
@@ -15933,15 +15932,11 @@ To prove a statement $P(n)$ is true for all $n \ge 1$, we must satisfy two condi
 * **Step 2: The Inductive Step**
     Assume the statement is true for some arbitrary positive integer $k$ (this is the **Inductive Hypothesis**). Then, use that assumption to prove the statement must also be true for the next integer, $k + 1$.
 
-
-
 ---
-
 #### 2. The Mechanics of the Inductive Step
 This is where most of the work happens. You are trying to show:
 * **Given:** $P(k)$ is true.
 * **Goal:** Show that $P(k+1)$ is also true.
-
 **General Workflow:**
 1. Write down $P(k)$ exactly as the formula is stated, replacing $n$ with $k$.
 2. Write down what $P(k+1)$ *should* look like (by replacing $n$ with $k+1$).
@@ -15950,14 +15945,10 @@ This is where most of the work happens. You are trying to show:
 5. Simplify until it matches the right side of $P(k+1)$.
 
 ---
-
 #### 3. Why Induction Works
 Induction effectively "chains" the truth. If $P(1)$ is true, and the Inductive Step proves that $P(1) \implies P(2)$, then $P(2)$ is true. If $P(2) \implies P(3)$, then $P(3)$ is true, and so on, reaching infinity.
 
-
-
 ---
-
 #### Critical Tips & Common Pitfalls
 
 > [!TIP]
@@ -15971,3 +15962,4 @@ Induction effectively "chains" the truth. If $P(1)$ is true, and the Inductive S
 > [!CAUTION]
 > **Algebraic Errors:**
 > Induction proofs are rarely about "new" calculus concepts; they are about algebra. Be extremely careful when adding the $(k+1)$-th term to your sum, and ensure your factoring/distribution is correct.
+
