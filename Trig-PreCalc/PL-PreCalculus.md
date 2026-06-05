@@ -16063,4 +16063,5 @@ Since both sides match, the statement is **proven true** by induction for all $n
 > **Don't skip the Substitution:**
 > You must clearly show where you replace the sum of the first $k$ terms with your hypothesis ($2k^2 - k$). This substitution is the heart of the inductive proof.
 
-# 2026June05-Trigonometry 
+# 2026June05-Trigonometry :
+## 2026June05 - Introduction to Angles (Precalculus - Trigonometry 1) :
