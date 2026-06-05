@@ -16012,7 +16012,6 @@ This matches our goal! Since we have shown the base case is true and that if it 
 To prove this formula is true for all positive integers $n$, we follow the two-step process of mathematical induction.
 
 ---
-
 #### 1. The Base Case ($n=1$)
 We must show the statement holds for the first term.
 * Left side (sum of the first term): $1$
@@ -16020,7 +16019,6 @@ We must show the statement holds for the first term.
 Since $1 = 1$, the base case is **true**.
 
 ---
-
 #### 2. The Inductive Step
 **Inductive Hypothesis:** Assume the statement is true for some positive integer $k$:
 $$1 + 5 + 9 + \dots + (4k - 3) = 2k^2 - k$$
@@ -16051,7 +16049,6 @@ $$2k^2 + 3k + 1$$
 Since both sides match, the statement is **proven true** by induction for all $n \ge 1$. 
 
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -16065,3 +16062,4 @@ Since both sides match, the statement is **proven true** by induction for all $n
 > [!CAUTION]
 > **Don't skip the Substitution:**
 > You must clearly show where you replace the sum of the first $k$ terms with your hypothesis ($2k^2 - k$). This substitution is the heart of the inductive proof.
+
