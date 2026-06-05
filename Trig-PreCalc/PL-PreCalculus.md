@@ -16007,3 +16007,61 @@ This matches our goal! Since we have shown the base case is true and that if it 
 > **Don't skip the Substitution:**
 > You must clearly show where you replace the sum of the first $k$ terms with your hypothesis ($k^2$). This substitution is the heart of the inductive proof.
 
+### Proof by Mathematical Induction: $1 + 5 + 9 + \dots + (4n - 3) = 2n^2 - n$
+
+To prove this formula is true for all positive integers $n$, we follow the two-step process of mathematical induction.
+
+---
+
+#### 1. The Base Case ($n=1$)
+We must show the statement holds for the first term.
+* Left side (sum of the first term): $1$
+* Right side (formula $2n^2 - n$): $2(1)^2 - 1 = 2 - 1 = 1$
+Since $1 = 1$, the base case is **true**.
+
+---
+
+#### 2. The Inductive Step
+**Inductive Hypothesis:** Assume the statement is true for some positive integer $k$:
+$$1 + 5 + 9 + \dots + (4k - 3) = 2k^2 - k$$
+
+**Goal:** Show that the statement must be true for $k+1$. That is, we want to prove:
+$$1 + 5 + 9 + \dots + (4k - 3) + (4(k+1) - 3) = 2(k+1)^2 - (k+1)$$
+
+**Proof:**
+Start with the sum of the first $k+1$ terms:
+$$[1 + 5 + 9 + \dots + (4k - 3)] + (4(k+1) - 3)$$
+
+Substitute our Inductive Hypothesis ($2k^2 - k$) for the bracketed part:
+$$(2k^2 - k) + (4(k+1) - 3)$$
+
+Simplify the expression:
+$$2k^2 - k + 4k + 4 - 3$$
+$$2k^2 + 3k + 1$$
+
+Factor the resulting quadratic:
+$$(2k + 1)(k + 1)$$
+$$2k^2 + 2k + k + 1 = 2k^2 + 3k + 1$$
+
+Alternatively, expand the target expression $2(k+1)^2 - (k+1)$:
+$$2(k^2 + 2k + 1) - k - 1$$
+$$2k^2 + 4k + 2 - k - 1$$
+$$2k^2 + 3k + 1$$
+
+Since both sides match, the statement is **proven true** by induction for all $n \ge 1$. 
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **The Goal is Crucial:**
+> Always write down your goal ($P(k+1)$) on the side of your page before you start the inductive step. It tells you exactly where your algebra needs to lead.
+
+> [!IMPORTANT]
+> **The "Next" Term:**
+> When moving from $k$ to $k+1$, remember that you are adding one *additional* term to the existing sum. If your formula for the $k$-th term is $(4k-3)$, your $(k+1)$-th term is found by substituting $(k+1)$ into that expression: $(4(k+1)-3)$.
+
+> [!CAUTION]
+> **Don't skip the Substitution:**
+> You must clearly show where you replace the sum of the first $k$ terms with your hypothesis ($2k^2 - k$). This substitution is the heart of the inductive proof.
