@@ -16065,3 +16065,4 @@ Since both sides match, the statement is **proven true** by induction for all $n
 
 # 2026June05-Trigonometry :
 ## 2026June05 - Introduction to Angles (Precalculus - Trigonometry 1) :
+https://www.youtube.com/watch?v=c41QejoWnb4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=76
