@@ -15963,3 +15963,55 @@ Induction effectively "chains" the truth. If $P(1)$ is true, and the Inductive S
 > **Algebraic Errors:**
 > Induction proofs are rarely about "new" calculus concepts; they are about algebra. Be extremely careful when adding the $(k+1)$-th term to your sum, and ensure your factoring/distribution is correct.
 
+### Proof by Mathematical Induction: $1 + 3 + 5 + \dots + (2n - 1) = n^2$
+
+To prove this formula is true for all positive integers $n$, we follow the two-step process of mathematical induction.
+
+---
+
+#### 1. The Base Case ($n=1$)
+We must show the statement holds for the first term.
+* Left side (sum of the first term): $1$
+* Right side (formula $n^2$): $1^2 = 1$
+Since $1 = 1$, the base case is **true**.
+
+---
+
+#### 2. The Inductive Step
+**Inductive Hypothesis:** Assume the statement is true for some positive integer $k$:
+$$1 + 3 + 5 + \dots + (2k - 1) = k^2$$
+
+**Goal:** Show that the statement must be true for $k+1$. That is, we want to prove:
+$$1 + 3 + 5 + \dots + (2k - 1) + (2(k+1) - 1) = (k+1)^2$$
+
+**Proof:**
+Start with the sum of the first $k+1$ terms:
+$$[1 + 3 + 5 + \dots + (2k - 1)] + (2(k+1) - 1)$$
+
+Substitute our Inductive Hypothesis ($k^2$) for the bracketed part:
+$$k^2 + (2(k+1) - 1)$$
+
+Simplify the expression:
+$$k^2 + 2k + 2 - 1$$
+$$k^2 + 2k + 1$$
+
+Factor the resulting quadratic:
+$$(k+1)^2$$
+
+This matches our goal! Since we have shown the base case is true and that if it holds for $k$ it must hold for $k+1$, the statement is **proven true** by induction for all $n \ge 1$.
+
+
+---
+#### Key Takeaways
+
+> [!TIP]
+> **The Goal is Crucial:**
+> Always write down your goal ($P(k+1)$) on the side of your page before you start the inductive step. It tells you exactly where your algebra needs to lead.
+
+> [!IMPORTANT]
+> **The "Next" Term:**
+> When moving from $k$ to $k+1$, remember that you are adding one *additional* term to the existing sum. If your formula for the $k$-th term is $(2k-1)$, your $(k+1)$-th term is found by substituting $(k+1)$ into that expression: $(2(k+1)-1)$.
+
+> [!CAUTION]
+> **Don't skip the Substitution:**
+> You must clearly show where you replace the sum of the first $k$ terms with your hypothesis ($k^2$). This substitution is the heart of the inductive proof.
