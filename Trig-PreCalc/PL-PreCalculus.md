@@ -16107,3 +16107,4 @@ Trigonometry begins with the formal definition of an angle. In this context, an 
 > **Calculator Settings:**
 > One of the most common mistakes in trigonometry is having your calculator in the wrong mode. Always ensure your calculator is set to **DEG** when working with degrees and **RAD** when working with radians.
 
+## 2026June06 - Converting Degrees, Minutes, and Seconds (Precalculus - Trigonometry 2) :
