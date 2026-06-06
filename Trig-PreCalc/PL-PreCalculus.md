@@ -16066,3 +16066,51 @@ Since both sides match, the statement is **proven true** by induction for all $n
 # 2026June05-Trigonometry :
 ## 2026June05 - Introduction to Angles (Precalculus - Trigonometry 1) :
 https://www.youtube.com/watch?v=c41QejoWnb4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=76
+### Introduction to Angles
+
+Trigonometry begins with the formal definition of an angle. In this context, an angle is formed by the rotation of a ray about its endpoint.
+
+---
+
+#### 1. Fundamental Components
+* **Vertex:** The fixed endpoint.
+* **Initial Side:** The starting position of the ray.
+* **Terminal Side:** The final position of the ray after rotation.
+* **Positive Rotation:** Counter-clockwise rotation.
+* **Negative Rotation:** Clockwise rotation.
+
+
+
+---
+
+#### 2. Position and Measurement
+* **Standard Position:** An angle is in standard position when its vertex is at the origin $(0,0)$ of the Cartesian plane and its initial side lies along the positive x-axis.
+* **Quadrantal Angles:** Angles whose terminal side falls on one of the axes (e.g., $0^\circ, 90^\circ, 180^\circ, 270^\circ$).
+* **Coterminal Angles:** Angles that share the same initial and terminal sides but differ by multiples of a full rotation ($360^\circ$ or $2\pi$ radians).
+  * *Example:* $30^\circ$ and $390^\circ$ ($30^\circ + 360^\circ$) are coterminal.
+
+
+
+---
+
+#### 3. Units of Measure
+* **Degrees:** Based on a full circle being $360^\circ$.
+* **Radians:** Based on the radius of a circle. One radian is the measure of a central angle that intercepts an arc equal in length to the radius. A full circle is $2\pi$ radians.
+* **Conversion:** * Degrees to Radians: Multiply by $\frac{\pi}{180^\circ}$
+  * Radians to Degrees: Multiply by $\frac{180^\circ}{\pi}$
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **Coterminal Calculation:**
+> To find a coterminal angle, simply add or subtract $360^\circ$ (or $2\pi$) as many times as needed. If you want the "smallest positive coterminal angle," keep subtracting $360^\circ$ until you are within the range $[0, 360^\circ)$.
+
+> [!IMPORTANT]
+> **Direction Matters:**
+> Always pay attention to the direction of the arc. A counter-clockwise arc is positive; a clockwise arc is negative. This distinction is vital when determining which quadrant an angle resides in.
+
+> [!CAUTION]
+> **Calculator Settings:**
+> One of the most common mistakes in trigonometry is having your calculator in the wrong mode. Always ensure your calculator is set to **DEG** when working with degrees and **RAD** when working with radians.
