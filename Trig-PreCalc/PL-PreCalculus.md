@@ -16071,7 +16071,6 @@ https://www.youtube.com/watch?v=c41QejoWnb4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Trigonometry begins with the formal definition of an angle. In this context, an angle is formed by the rotation of a ray about its endpoint.
 
 ---
-
 #### 1. Fundamental Components
 * **Vertex:** The fixed endpoint.
 * **Initial Side:** The starting position of the ray.
@@ -16079,20 +16078,14 @@ Trigonometry begins with the formal definition of an angle. In this context, an 
 * **Positive Rotation:** Counter-clockwise rotation.
 * **Negative Rotation:** Clockwise rotation.
 
-
-
 ---
-
 #### 2. Position and Measurement
 * **Standard Position:** An angle is in standard position when its vertex is at the origin $(0,0)$ of the Cartesian plane and its initial side lies along the positive x-axis.
 * **Quadrantal Angles:** Angles whose terminal side falls on one of the axes (e.g., $0^\circ, 90^\circ, 180^\circ, 270^\circ$).
 * **Coterminal Angles:** Angles that share the same initial and terminal sides but differ by multiples of a full rotation ($360^\circ$ or $2\pi$ radians).
   * *Example:* $30^\circ$ and $390^\circ$ ($30^\circ + 360^\circ$) are coterminal.
 
-
-
 ---
-
 #### 3. Units of Measure
 * **Degrees:** Based on a full circle being $360^\circ$.
 * **Radians:** Based on the radius of a circle. One radian is the measure of a central angle that intercepts an arc equal in length to the radius. A full circle is $2\pi$ radians.
@@ -16100,7 +16093,6 @@ Trigonometry begins with the formal definition of an angle. In this context, an 
   * Radians to Degrees: Multiply by $\frac{180^\circ}{\pi}$
 
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -16114,3 +16106,4 @@ Trigonometry begins with the formal definition of an angle. In this context, an 
 > [!CAUTION]
 > **Calculator Settings:**
 > One of the most common mistakes in trigonometry is having your calculator in the wrong mode. Always ensure your calculator is set to **DEG** when working with degrees and **RAD** when working with radians.
+
