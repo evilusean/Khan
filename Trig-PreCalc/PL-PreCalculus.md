@@ -16319,27 +16319,21 @@ https://www.youtube.com/watch?v=EWd_FtOfyPc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 While degrees divide a circle into 360 arbitrary parts, radians are a more "natural" way to measure angles based on the geometry of the circle itself. 
 
 ---
-
 #### 1. Defining the Radian
 A radian is the measure of a central angle that intercepts an arc with a length equal to the circle's radius ($r$).
 
 * **Visualizing the definition:** If you take a radius of a circle and "bend" it along the circumference, the angle formed by that arc length is exactly $1$ radian.
 * **Full Rotation:** Since the circumference of a circle is $C = 2\pi r$, a full rotation ($360^\circ$) contains exactly $2\pi$ radians.
 
-
-
 ---
-
 #### 2. Relationship between Degrees and Radians
 Because both units measure rotation, we use the fundamental equivalence:
 $$180^\circ = \pi \text{ radians}$$
-
 This relationship allows us to create conversion factors:
 * **Degrees to Radians:** Multiply by $\frac{\pi}{180^\circ}$
 * **Radians to Degrees:** Multiply by $\frac{180^\circ}{\pi}$
 
 ---
-
 #### 3. Common Radian Measures
 Memorizing these key angles is essential for trigonometry:
 * $0^\circ = 0$ radians
@@ -16348,10 +16342,7 @@ Memorizing these key angles is essential for trigonometry:
 * $270^\circ = \frac{3\pi}{2}$ radians
 * $360^\circ = 2\pi$ radians
 
-
-
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -16365,3 +16356,4 @@ Memorizing these key angles is essential for trigonometry:
 > [!CAUTION]
 > **Calculator Mode:**
 > Always verify your calculator mode before performing trigonometric operations. If the problem involves $\pi$ or fractions of $\pi$, ensure your calculator is set to **RAD** mode. Using **DEG** mode for radian inputs will result in incorrect answers.
+
