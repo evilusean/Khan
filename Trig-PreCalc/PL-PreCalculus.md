@@ -16160,7 +16160,6 @@ To convert a decimal degree (e.g., $45.123^\circ$) back to DMS:
 To convert Degrees, Minutes, and Seconds (DMS) into a decimal degree value, you break each unit down into a fraction of a degree. As shown in the provided image, we have the angle $61^\circ 42' 21''$.
 
 ---
-
 #### 1. The Conversion Formula
 To turn DMS back into degrees, apply the following logic:
 * **Degrees:** Keep as the whole number.
@@ -16171,23 +16170,18 @@ The formula is:
 $$Decimal Degrees = Degrees + \left( Minutes \cdot \frac{1}{60} \right) + \left( Seconds \cdot \frac{1}{3600} \right)$$
 
 ---
-
 #### 2. Step-by-Step Calculation for $61^\circ 42' 21''$
 
 **Step 1: Degrees**
 $$61^\circ$$
-
 **Step 2: Minutes to Degrees**
 $$42' \cdot \frac{1}{60} = \frac{42}{60} = 0.7^\circ$$
-
 **Step 3: Seconds to Degrees**
 $$21'' \cdot \frac{1}{3600} = \frac{21}{3600} \approx 0.0058333^\circ$$
-
 **Step 4: Summation**
 $$61^\circ + 0.7^\circ + 0.0058333^\circ = \mathbf{61.7058333^\circ}$$
 
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -16201,3 +16195,4 @@ $$61^\circ + 0.7^\circ + 0.0058333^\circ = \mathbf{61.7058333^\circ}$$
 > [!CAUTION]
 > **Do not add all components together before dividing:**
 > A frequent error is trying to add the degrees, minutes, and seconds together before performing the division by 60 and 3600. Always perform the division (or multiplication by the fraction) *first*, then perform the addition at the very end.
+
