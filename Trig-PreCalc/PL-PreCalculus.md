@@ -16236,4 +16236,47 @@ $$101^\circ + 0.05^\circ + 0.0141667^\circ = \mathbf{101.0641667^\circ}$$
 > [!CAUTION]
 > **Don't drop the whole degrees:**
 > Ensure that the final decimal portion ($0.0641667^\circ$) is tacked onto your original starting degree value ($101^\circ$), rather than substituting it.
-> 
+
+### Converting Decimal Degrees to DMS
+
+To convert decimal degrees into Degrees, Minutes, and Seconds (DMS) notation, we systematically isolate each unit. Given the angle $18.255^\circ$, follow these steps:
+
+---
+
+#### 1. Step-by-Step Calculation for $18.255^\circ$
+
+**Step 1: Extract the Degrees**
+The whole number portion of the decimal is your degree value.
+* **Degrees:** $18^\circ$
+
+**Step 2: Calculate the Minutes**
+Take the remaining decimal portion ($0.255$) and multiply by $60$ (since $1^\circ = 60'$).
+$$0.255 \cdot 60 = 15.3'$$
+The whole number becomes your minutes:
+* **Minutes:** $15'$
+
+**Step 3: Calculate the Seconds**
+Take the decimal remainder from the minutes calculation ($0.3$) and multiply by $60$ again (since $1' = 60''$).
+$$0.3 \cdot 60 = 18''$$
+The result is your seconds:
+* **Seconds:** $18''$
+
+**Final DMS Value:** $\mathbf{18^\circ 15' 18''}$
+
+
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **Working Backwards:**
+> To verify your work, you can turn the DMS notation back into decimal degrees by multiplying the sub-units by their fractional equivalents: $18^\circ + (15 \cdot \frac{1}{60}) + (18 \cdot \frac{1}{3600}) = 18 + 0.25 + 0.005 = 18.255^\circ$.
+
+> [!IMPORTANT]
+> **The Base 60 Logic:**
+> Degrees are structured in a sexagesimal (base-60) system, identical to how we keep track of hours, minutes, and seconds in time. 
+
+> [!CAUTION]
+> **Handling Remainders:**
+> Always make sure to strip away the whole number *before* multiplying by 60 for the next step. For example, in Step 3, you must use $0.3$, not $15.3$. Multiplying the whole number again will ruin your calculation.
