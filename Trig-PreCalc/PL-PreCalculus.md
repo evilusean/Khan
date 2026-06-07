@@ -16201,7 +16201,6 @@ $$61^\circ + 0.7^\circ + 0.0058333^\circ = \mathbf{61.7058333^\circ}$$
 To convert Degrees, Minutes, and Seconds (DMS) into a decimal degree value, we break each sub-unit down into a fraction of a degree. Based on the provided image, we have the angle $101^\circ 3' 51''$.
 
 ---
-
 #### 1. The Conversion Formula
 To convert DMS back into degrees using fractional multiplication:
 * **Degrees:** Keep as the whole number.
@@ -16211,25 +16210,19 @@ To convert DMS back into degrees using fractional multiplication:
 $$\text{Decimal Degrees} = \text{Degrees} + \left( \text{Minutes} \cdot \frac{1}{60} \right) + \left( \text{Seconds} \cdot \frac{1}{3600} \right)$$
 
 ---
-
 #### 2. Step-by-Step Calculation for $101^\circ 3' 51''$
 
 **Step 1: Extract the components**
 * $\text{Degrees} = 101$
 * $\text{Minutes} = 3$
 * $\text{Seconds} = 51$
-
 **Step 2: Convert Minutes to Degrees**
 $$3' \cdot \frac{1}{60} = \frac{3}{60} = 0.05^\circ$$
-
-**Step 3: Convert Seconds to Degrees**
+**Step 3: Cnvert Seconds to Degrees**
 $$51'' \cdot \frac{1}{3600} = \frac{51}{3600} = 0.0141667^\circ$$
-
 **Step 4: Combine the parts**
 $$101^\circ + 0.05^\circ + 0.0141667^\circ = \mathbf{101.0641667^\circ}$$
-
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -16243,3 +16236,4 @@ $$101^\circ + 0.05^\circ + 0.0141667^\circ = \mathbf{101.0641667^\circ}$$
 > [!CAUTION]
 > **Don't drop the whole degrees:**
 > Ensure that the final decimal portion ($0.0641667^\circ$) is tacked onto your original starting degree value ($101^\circ$), rather than substituting it.
+> 
