@@ -16155,3 +16155,49 @@ To convert a decimal degree (e.g., $45.123^\circ$) back to DMS:
 > **Don't lose the Degrees:**
 > A common error is discarding the degree part ($D$) during the conversion. Always ensure your final decimal degree is larger than your original degree component.
 
+### Converting DMS to Decimal Degrees
+
+To convert Degrees, Minutes, and Seconds (DMS) into a decimal degree value, you break each unit down into a fraction of a degree. As shown in the provided image, we have the angle $61^\circ 42' 21''$.
+
+---
+
+#### 1. The Conversion Formula
+To turn DMS back into degrees, apply the following logic:
+* **Degrees:** Keep as the whole number.
+* **Minutes:** Multiply by $\frac{1}{60}$ (since there are 60 minutes in a degree).
+* **Seconds:** Multiply by $\frac{1}{3600}$ (since there are 60 seconds in a minute, and 60 minutes in a degree: $60 \times 60 = 3600$).
+
+The formula is:
+$$Decimal Degrees = Degrees + \left( Minutes \cdot \frac{1}{60} \right) + \left( Seconds \cdot \frac{1}{3600} \right)$$
+
+---
+
+#### 2. Step-by-Step Calculation for $61^\circ 42' 21''$
+
+**Step 1: Degrees**
+$$61^\circ$$
+
+**Step 2: Minutes to Degrees**
+$$42' \cdot \frac{1}{60} = \frac{42}{60} = 0.7^\circ$$
+
+**Step 3: Seconds to Degrees**
+$$21'' \cdot \frac{1}{3600} = \frac{21}{3600} \approx 0.0058333^\circ$$
+
+**Step 4: Summation**
+$$61^\circ + 0.7^\circ + 0.0058333^\circ = \mathbf{61.7058333^\circ}$$
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **Why 3600?**
+> A common point of confusion is why we divide seconds by 3600. Remember that one minute is $1/60$ of a degree, and one second is $1/60$ of a *minute*. Therefore, to get from seconds directly to degrees, you must divide by $60 \times 60$, which equals $3600$.
+
+> [!IMPORTANT]
+> **Check your Precision:**
+> When converting seconds, the decimal can sometimes go on for a long time (as seen with $21/3600$). Always carry at least 4 to 6 decimal places during your calculation to ensure accuracy in your final result.
+
+> [!CAUTION]
+> **Do not add all components together before dividing:**
+> A frequent error is trying to add the degrees, minutes, and seconds together before performing the division by 60 and 3600. Always perform the division (or multiplication by the fraction) *first*, then perform the addition at the very end.
