@@ -16114,17 +16114,13 @@ https://www.youtube.com/watch?v=U40Afn37QC4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 While decimal degrees are standard in many scientific contexts, navigation and surveying often use the Degrees, Minutes, and Seconds (DMS) system. This system breaks down a single degree into smaller, more precise units.
 
 ---
-
 #### 1. The DMS Units
 * **Degrees ($^\circ$):** The primary unit.
 * **Minutes ($'$):** One degree is divided into 60 minutes. ($1^\circ = 60'$)
 * **Seconds ($''$):** One minute is divided into 60 seconds. ($1' = 60''$)
 * **Conversion factor:** Therefore, one degree contains $60 \times 60 = 3,600$ seconds. ($1^\circ = 3600''$)
 
-
-
 ---
-
 #### 2. Converting DMS to Decimal Degrees
 To convert an angle like $D^\circ M' S''$ into a single decimal value:
 $$Decimal = D + \left( \frac{M}{60} \right) + \left( \frac{S}{3600} \right)$$
@@ -16136,7 +16132,6 @@ $$Decimal = D + \left( \frac{M}{60} \right) + \left( \frac{S}{3600} \right)$$
     4. Sum all three components.
 
 ---
-
 #### 3. Converting Decimal Degrees to DMS
 To convert a decimal degree (e.g., $45.123^\circ$) back to DMS:
 * **Steps:**
@@ -16145,10 +16140,7 @@ To convert a decimal degree (e.g., $45.123^\circ$) back to DMS:
     3. Take the remaining decimal from that result ($0.38$) and multiply by 60 again: $0.38 \times 60 = 22.8$. Round to the nearest whole number for your **Seconds** ($23''$).
     4. Result: $45^\circ 7' 23''$.
 
-
-
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -16162,3 +16154,4 @@ To convert a decimal degree (e.g., $45.123^\circ$) back to DMS:
 > [!CAUTION]
 > **Don't lose the Degrees:**
 > A common error is discarding the degree part ($D$) during the conversion. Always ensure your final decimal degree is larger than your original degree component.
+
