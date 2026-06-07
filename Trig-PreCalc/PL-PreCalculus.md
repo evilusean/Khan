@@ -16313,3 +16313,4 @@ Rounding to the nearest whole second gives:
 > Always make sure to drop the whole number *before* multiplying by 60 for the next step. For example, in Step 3, you must use $0.66$, not $24.66$. Multiplying the whole number again will throw off your calculation completely.
 
 ## 2026June07 - Introduction to Radians (Precalculus - Trigonometry 3) :
+https://www.youtube.com/watch?v=EWd_FtOfyPc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=79
