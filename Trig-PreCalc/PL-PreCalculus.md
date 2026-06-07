@@ -16280,19 +16280,15 @@ The result is your seconds:
 To convert decimal degrees into Degrees, Minutes, and Seconds (DMS) notation, we systematically isolate each unit. Given the angle $29.411^\circ$, follow these steps:
 
 ---
-
 #### 1. Step-by-Step Calculation for $29.411^\circ$
-
 **Step 1: Extract the Degrees**
 The whole number portion of the decimal is your degree value.
 * **Degrees:** $29^\circ$
-
 **Step 2: Calculate the Minutes**
 Take the remaining decimal portion ($0.411$) and multiply by $60$ (since $1^\circ = 60'$).
 $$0.411 \cdot 60 = 24.66'$$
 The whole number becomes your minutes:
 * **Minutes:** $24'$
-
 **Step 3: Calculate the Seconds**
 Take the decimal remainder from the minutes calculation ($0.66$) and multiply by $60$ again (since $1' = 60''$).
 $$0.66 \cdot 60 = 39.6''$$
@@ -16301,10 +16297,7 @@ Rounding to the nearest whole second gives:
 
 **Final DMS Value:** $\mathbf{29^\circ 24' 40''}$
 
-
-
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -16318,3 +16311,4 @@ Rounding to the nearest whole second gives:
 > [!CAUTION]
 > **Isolating Remainders:**
 > Always make sure to drop the whole number *before* multiplying by 60 for the next step. For example, in Step 3, you must use $0.66$, not $24.66$. Multiplying the whole number again will throw off your calculation completely.
+
