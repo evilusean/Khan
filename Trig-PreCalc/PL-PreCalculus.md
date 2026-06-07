@@ -16196,3 +16196,50 @@ $$61^\circ + 0.7^\circ + 0.0058333^\circ = \mathbf{61.7058333^\circ}$$
 > **Do not add all components together before dividing:**
 > A frequent error is trying to add the degrees, minutes, and seconds together before performing the division by 60 and 3600. Always perform the division (or multiplication by the fraction) *first*, then perform the addition at the very end.
 
+### Converting DMS to Decimal Degrees
+
+To convert Degrees, Minutes, and Seconds (DMS) into a decimal degree value, we break each sub-unit down into a fraction of a degree. Based on the provided image, we have the angle $101^\circ 3' 51''$.
+
+---
+
+#### 1. The Conversion Formula
+To convert DMS back into degrees using fractional multiplication:
+* **Degrees:** Keep as the whole number.
+* **Minutes:** Multiply by $\frac{1}{60}$ (since $1^\circ = 60'$).
+* **Seconds:** Multiply by $\frac{1}{3600}$ (since $1' = 60''$, making $60 \times 60 = 3600$ seconds in a degree).
+
+$$\text{Decimal Degrees} = \text{Degrees} + \left( \text{Minutes} \cdot \frac{1}{60} \right) + \left( \text{Seconds} \cdot \frac{1}{3600} \right)$$
+
+---
+
+#### 2. Step-by-Step Calculation for $101^\circ 3' 51''$
+
+**Step 1: Extract the components**
+* $\text{Degrees} = 101$
+* $\text{Minutes} = 3$
+* $\text{Seconds} = 51$
+
+**Step 2: Convert Minutes to Degrees**
+$$3' \cdot \frac{1}{60} = \frac{3}{60} = 0.05^\circ$$
+
+**Step 3: Convert Seconds to Degrees**
+$$51'' \cdot \frac{1}{3600} = \frac{51}{3600} = 0.0141667^\circ$$
+
+**Step 4: Combine the parts**
+$$101^\circ + 0.05^\circ + 0.0141667^\circ = \mathbf{101.0641667^\circ}$$
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **Watch the Placeholders:**
+> Notice how $3$ minutes turns into $0.05^\circ$. It is critical to keep track of the leading zeros in your decimals so that your values don't accidentally shift place values during addition.
+
+> [!IMPORTANT]
+> **Why we multiply by $\frac{1}{3600}$:**
+> Multiplying by $\frac{1}{3600}$ is mathematically identical to dividing by $60$ twice (once to turn seconds to minutes, and a second time to turn those minutes to degrees). 
+
+> [!CAUTION]
+> **Don't drop the whole degrees:**
+> Ensure that the final decimal portion ($0.0641667^\circ$) is tacked onto your original starting degree value ($101^\circ$), rather than substituting it.
