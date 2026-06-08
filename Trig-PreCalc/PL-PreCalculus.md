@@ -16501,12 +16501,10 @@ $$\text{Arc Length} = \text{Circumference}$$
 Following Professor Leonard's methodology, to convert degrees to radians, we multiply by the ratio $\frac{\pi}{180^\circ}$. This works because $180^\circ = \pi$ radians; effectively, we are multiplying by $1$.
 
 ---
-
 #### 1. Conversion Method
 $$\text{Radians} = \text{Degrees} \cdot \left( \frac{\pi}{180^\circ} \right)$$
 
 ---
-
 #### 2. Step-by-Step Calculations
 
 **A. $60^\circ$**
@@ -16522,10 +16520,7 @@ $$-45^\circ \cdot \frac{\pi}{180^\circ} = -\frac{45\pi}{180} = \mathbf{-\frac{\p
 $$107^\circ \cdot \frac{\pi}{180^\circ} = \mathbf{\frac{107\pi}{180} \text{ radians}}$$
 *(Note: $107$ is a prime number, so the fraction cannot be simplified further.)*
 
-
-
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -16539,3 +16534,4 @@ $$107^\circ \cdot \frac{\pi}{180^\circ} = \mathbf{\frac{107\pi}{180} \text{ radi
 > [!CAUTION]
 > **Signs Matter:**
 > If your degree is negative, your radian result must also be negative. The rotation direction is preserved during the conversion.
+
