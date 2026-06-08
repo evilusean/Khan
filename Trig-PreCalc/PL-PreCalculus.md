@@ -16396,7 +16396,6 @@ $$\frac{3\pi}{4} \cdot \frac{180^\circ}{\pi} = 3 \cdot \frac{180^\circ}{4} = 3 \
 ### Introduction to Radians: The Geometric Derivation
 
 Professor Leonard explains that a radian is defined by the relationship between the radius ($r$) and the arc length ($s$). To understand why a full rotation is $2\pi$ radians, we look at the geometric derivation:
-
 #### The Derivation Steps
 1. **Define the Arc Length ($s$):** The distance traveled along the circumference of a circle is defined as $s = r \cdot \theta$, where $\theta$ is the angle in radians.
 2. **Relate to Circumference ($C$):** For a full rotation of a circle, the arc length ($s$) is equal to the total circumference ($C$). We know from geometry that $C = 2\pi r$.
@@ -16406,15 +16405,12 @@ Professor Leonard explains that a radian is defined by the relationship between 
    $$\theta = 2\pi$$
    This proves that a full rotation ($360^\circ$) is exactly $2\pi$ radians.
 
-
 ---
-
 #### Key Concepts
 * **The Radian Definition:** $1 \text{ radian} = \frac{s}{r}$. When the arc length $s$ is exactly equal to the radius $r$, the angle $\theta$ is $1$ radian.
 * **The "Natural" Unit:** Because the radius cancels out in the ratio $\frac{s}{r}$, radians are unitless. They describe a ratio of lengths rather than an arbitrary division of a circle (like $360^\circ$).
 
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -16429,3 +16425,4 @@ Professor Leonard explains that a radian is defined by the relationship between 
 > [!CAUTION]
 > **Check the units:**
 > Always remember that the formula $s = r\theta$ **only** works if $\theta$ is in radians. If you use degrees, the math will not align with the geometry of the circle.
+> 
