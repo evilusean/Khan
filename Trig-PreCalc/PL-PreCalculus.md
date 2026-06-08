@@ -16496,3 +16496,46 @@ $$\text{Arc Length} = \text{Circumference}$$
 > **Calculator Mode:**
 > He explicitly demonstrates that calculating $\sin(90)$ in degrees gives $1$, but in radians it gives $\approx 0.89$. Always check your calculator's RAD/DEG setting before starting a problem.
 
+### Converting Degrees to Radians
+
+Following Professor Leonard's methodology, to convert degrees to radians, we multiply by the ratio $\frac{\pi}{180^\circ}$. This works because $180^\circ = \pi$ radians; effectively, we are multiplying by $1$.
+
+---
+
+#### 1. Conversion Method
+$$\text{Radians} = \text{Degrees} \cdot \left( \frac{\pi}{180^\circ} \right)$$
+
+---
+
+#### 2. Step-by-Step Calculations
+
+**A. $60^\circ$**
+$$60^\circ \cdot \frac{\pi}{180^\circ} = \frac{60\pi}{180} = \mathbf{\frac{\pi}{3} \text{ radians}}$$
+
+**B. $150^\circ$**
+$$150^\circ \cdot \frac{\pi}{180^\circ} = \frac{150\pi}{180} = \mathbf{\frac{5\pi}{6} \text{ radians}}$$
+
+**C. $-45^\circ$**
+$$-45^\circ \cdot \frac{\pi}{180^\circ} = -\frac{45\pi}{180} = \mathbf{-\frac{\pi}{4} \text{ radians}}$$
+
+**D. $107^\circ$**
+$$107^\circ \cdot \frac{\pi}{180^\circ} = \mathbf{\frac{107\pi}{180} \text{ radians}}$$
+*(Note: $107$ is a prime number, so the fraction cannot be simplified further.)*
+
+
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **Simplify, Simplify, Simplify:**
+> Professor Leonard emphasizes reducing your final fraction. Always look for the greatest common divisor between the numerator and denominator (e.g., $150/180$ both divide by $30$).
+
+> [!IMPORTANT]
+> **Keep $\pi$ in the Result:**
+> In trigonometry, we almost always express radians in terms of $\pi$ rather than converting to a decimal. This maintains exact precision.
+
+> [!CAUTION]
+> **Signs Matter:**
+> If your degree is negative, your radian result must also be negative. The rotation direction is preserved during the conversion.
