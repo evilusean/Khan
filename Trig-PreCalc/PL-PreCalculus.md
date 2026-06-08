@@ -16425,4 +16425,39 @@ Professor Leonard explains that a radian is defined by the relationship between 
 > [!CAUTION]
 > **Check the units:**
 > Always remember that the formula $s = r\theta$ **only** works if $\theta$ is in radians. If you use degrees, the math will not align with the geometry of the circle.
-> 
+
+### Summary: The Definition of Radians ($\theta = \frac{s}{r}$)
+
+The formula $\theta = \frac{s}{r}$ is the mathematical definition of a radian. It relates an angle's measure to the geometry of a circle by comparing the arc length to the radius.
+
+---
+
+#### 1. Variable Breakdown
+* **$\theta$ (Theta):** The measure of the central angle in **radians**.
+* **$s$ (Arc Length):** The distance traveled along the edge (circumference) of the circle.
+* **$r$ (Radius):** The distance from the center of the circle to the edge.
+
+
+
+---
+
+#### 2. Why this Formula is Significant
+* **Unitless Measurement:** Because $s$ and $r$ are both lengths (e.g., inches, centimeters), dividing them cancels the units. This makes $\theta$ a "pure" ratio, which is why radians are preferred in higher mathematics and physics over degrees.
+* **The Radian Identity:** When the arc length $s$ is exactly equal to the radius $r$, the formula becomes $\theta = \frac{r}{r} = 1$. This is the literal definition of **1 radian**.
+* **Direct Scaling:** The formula shows that for a fixed radius, the angle $\theta$ is directly proportional to the arc length $s$. If you double the arc length, you double the angle.
+
+---
+
+#### 3. Key Takeaways
+
+> [!TIP]
+> **Radian Requirement:**
+> The most common error in trigonometry and physics is using this formula while the angle is in degrees. This formula **only** produces a valid result when $\theta$ is measured in radians.
+
+> [!IMPORTANT]
+> **Rearranging for Arc Length:**
+> By multiplying both sides by $r$, you get the widely used Arc Length formula: $s = r\theta$. This is essential for calculating distances along circular paths (like the distance a tire travels or the path of a satellite).
+
+> [!CAUTION]
+> **Constant Radius:**
+> This formula only applies to circles or circular arcs where the radius $r$ is constant. It cannot be applied directly to ellipses or irregular curves without calculus-based adjustments.
