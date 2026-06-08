@@ -16359,3 +16359,46 @@ Memorizing these key angles is essential for trigonometry:
 
 ## 2026June08 - Converting Radians and Degrees (Precalculus - Trigonometry 4) :
 https://www.youtube.com/watch?v=sCwcbZSZL5o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=80
+### Converting Radians and Degrees
+
+Converting between degrees and radians is a core skill in trigonometry, relying on the relationship where a full circle is $360^\circ$ or $2\pi$ radians.
+
+---
+
+#### 1. The Conversion Factors
+The relationship $180^\circ = \pi \text{ radians}$ provides the two primary conversion factors:
+
+* **Degrees to Radians:** Multiply by $\frac{\pi}{180^\circ}$
+* **Radians to Degrees:** Multiply by $\frac{180^\circ}{\pi}$
+
+
+
+---
+
+#### 2. Examples
+
+**Degrees to Radians:**
+To convert $60^\circ$:
+$$60^\circ \cdot \frac{\pi}{180^\circ} = \frac{60\pi}{180} = \frac{\pi}{3} \text{ radians}$$
+
+**Radians to Degrees:**
+To convert $\frac{3\pi}{4}$ radians:
+$$\frac{3\pi}{4} \cdot \frac{180^\circ}{\pi} = 3 \cdot \frac{180^\circ}{4} = 3 \cdot 45^\circ = 135^\circ$$
+
+
+
+---
+
+#### 3. Key Takeaways
+
+> [!TIP]
+> **Unit Cancellation:**
+> Always set up your conversion so the unit you are trying to *eliminate* is in the denominator. If you start with degrees, put $180^\circ$ on the bottom to cancel out the degree symbol.
+
+> [!IMPORTANT]
+> **Simplifying Fractions:**
+> When converting, you will often end up with large fractions (e.g., $\frac{60\pi}{180}$). Always reduce these fractions to their simplest form to maintain clarity in your work.
+
+> [!CAUTION]
+> **The $\pi$ Constant:**
+> Remember that $\pi$ is just a number (approximately $3.14159$). If you are converting from radians and the $\pi$ symbol is missing (e.g., $2$ radians), simply multiply by $\frac{180^\circ}{\pi}$ as usual and calculate the decimal value.
