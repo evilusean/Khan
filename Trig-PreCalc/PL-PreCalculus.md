@@ -16538,12 +16538,10 @@ $$107^\circ \cdot \frac{\pi}{180^\circ} = \mathbf{\frac{107\pi}{180} \text{ radi
 Following Professor Leonard's methodology, to convert from radians to degrees, we multiply by the ratio $\frac{180^\circ}{\pi}$. Since $\pi \text{ radians} = 180^\circ$, this conversion factor is essentially equal to $1$, allowing us to change units without changing the angle's measure.
 
 ---
-
 #### 1. Conversion Method
 $$\text{Degrees} = \text{Radians} \cdot \left( \frac{180^\circ}{\pi} \right)$$
 
 ---
-
 #### 2. Step-by-Step Calculations
 
 **A. $\frac{\pi}{6}$ radians**
@@ -16555,9 +16553,7 @@ $$\frac{3\pi}{2} \cdot \frac{180^\circ}{\pi} = 3 \cdot \frac{180^\circ}{2} = 3 \
 **C. $-\frac{3\pi}{4}$ radians**
 $$-\frac{3\pi}{4} \cdot \frac{180^\circ}{\pi} = -3 \cdot \frac{180^\circ}{4} = -3 \cdot 45^\circ = \mathbf{-135^\circ}$$
 
-
 ---
-
 #### Key Takeaways
 
 > [!TIP]
@@ -16571,3 +16567,4 @@ $$-\frac{3\pi}{4} \cdot \frac{180^\circ}{\pi} = -3 \cdot \frac{180^\circ}{4} = -
 > [!CAUTION]
 > **Preserve the Sign:**
 > Just as with degree-to-radian conversion, the negative sign must be carried through the entire process. A negative radian measure will always result in a negative degree measure.
+
