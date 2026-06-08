@@ -16463,14 +16463,13 @@ Professor Leonard derives the radian by showing that it is a ratio derived from 
 
 
 ---
-
 #### 1. The Derivation Logic (Reference: [05:00 - 15:30])
 Professor Leonard builds the definition of a radian by comparing the arc length to the radius:
 
 * **[05:00] The Arc Length Formula:** He establishes $s = r\theta$, stating that for this to be true, $\theta$ **must** be in radians.
 * **[08:00] Defining a Full Rotation:** He draws a full circle and notes that a full rotation covers the entire circumference. 
 * **[10:00] The Circumference Link:** He sets the general arc length formula equal to the specific circumference formula:
-  $$\text{Arc Length} = \text{Circumference}$$
+$$\text{Arc Length} = \text{Circumference}$$
   $$r\theta = 2\pi r$$
 * **[12:00] Solving for $\theta$:** He divides both sides by $r$:
   $$\frac{r\theta}{r} = \frac{2\pi r}{r}$$
@@ -16478,13 +16477,11 @@ Professor Leonard builds the definition of a radian by comparing the arc length 
 * **[14:00] The Conclusion:** He concludes that one full rotation ($360^\circ$) is exactly $2\pi$ radians, which is how we arrive at the conversion factor.
 
 ---
-
 #### 2. Why Radians are Preferred
 * **Dimensionless Ratios:** Leonard emphasizes that because $\theta = \frac{s}{r}$, the units of length cancel out. This makes the radian a "pure number" in math, which is why it simplifies derivatives and integrals in Calculus.
 * **Comparison to Degrees:** He notes that degrees ($360^\circ$) are historical/arbitrary (based on a year), whereas radians are based on the actual physical properties of circles.
 
 ---
-
 #### 3. Key Takeaways
 
 > [!TIP]
@@ -16498,3 +16495,4 @@ Professor Leonard builds the definition of a radian by comparing the arc length 
 > [!CAUTION]
 > **Calculator Mode:**
 > He explicitly demonstrates that calculating $\sin(90)$ in degrees gives $1$, but in radians it gives $\approx 0.89$. Always check your calculator's RAD/DEG setting before starting a problem.
+
