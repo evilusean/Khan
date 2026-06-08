@@ -16368,7 +16368,7 @@ Converting between degrees and radians is a core skill in trigonometry, relying 
 The relationship $180^\circ = \pi \text{ radians}$ provides the two primary conversion factors:
 * **Degrees to Radians:** Multiply by $\frac{\pi}{180^\circ}$
 * **Radians to Degrees:** Multiply by $\frac{180^\circ}{\pi}$
-
+Since 1 degree is equal to $\frac{\pi}{180\degree}$ simply seperate the 'degree' by multiplying/factoring it out and then replacing it with  $\frac{\pi}{180\degree}$ to get your radians
 ---
 #### 2. Examples
 **Degrees to Radians:**
@@ -16459,8 +16459,6 @@ The formula $\theta = \frac{s}{r}$ is the mathematical definition of a radian. I
 ### Introduction to Radians: The Geometric Derivation (Timestamped)
 
 Professor Leonard derives the radian by showing that it is a ratio derived from the circumference of a circle. 
-
-
 
 ---
 #### 1. The Derivation Logic (Reference: [05:00 - 15:30])
