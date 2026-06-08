@@ -16358,3 +16358,4 @@ Memorizing these key angles is essential for trigonometry:
 > Always verify your calculator mode before performing trigonometric operations. If the problem involves $\pi$ or fractions of $\pi$, ensure your calculator is set to **RAD** mode. Using **DEG** mode for radian inputs will result in incorrect answers.
 
 ## 2026June08 - Converting Radians and Degrees (Precalculus - Trigonometry 4) :
+https://www.youtube.com/watch?v=sCwcbZSZL5o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=80
