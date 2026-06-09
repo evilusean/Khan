@@ -16568,3 +16568,40 @@ $$-\frac{3\pi}{4} \cdot \frac{180^\circ}{\pi} = -3 \cdot \frac{180^\circ}{4} = -
 > **Preserve the Sign:**
 > Just as with degree-to-radian conversion, the negative sign must be carried through the entire process. A negative radian measure will always result in a negative degree measure.
 
+### Converting Radians to Degrees: Methodical Approach
+
+To convert radians to degrees, we apply the conversion factor $\left( \frac{180^\circ}{\pi} \right)$. This method effectively uses the identity that $180^\circ = \pi \text{ radians}$ to cancel out the $\pi$ and leave you with degrees.
+
+---
+#### 1. Conversion Formula
+$$\text{Degrees} = \text{Radians} \cdot \left( \frac{180^\circ}{\pi} \right)$$
+
+---
+#### 2. Step-by-Step Calculations
+
+**A. $\frac{7\pi}{3}$ radians**
+$$\frac{7\pi}{3} \cdot \left( \frac{180^\circ}{\pi} \right)$$
+* The $\pi$ values cancel out.
+* Divide $180^\circ$ by $3$ to get $60^\circ$.
+* $7 \cdot 60^\circ = \mathbf{420^\circ}$
+**B. $4$ radians**
+$$4 \cdot \left( \frac{180^\circ}{\pi} \right)$$
+* Since there is no $\pi$ in the input to cancel, you must multiply the values and divide by $\pi$.
+* $\frac{720^\circ}{\pi} \approx \mathbf{229.18^\circ}$
+
+---
+#### Key Takeaways
+
+> [!TIP]
+> **Recognizing the "Radiant" Form:**
+> Professor Leonard often notes that when $\pi$ is present in the radian measure, the conversion is straightforward because the $\pi$ will cancel out. When $\pi$ is *not* present (like in the case of $4 \text{ radians}$), you are converting to a value that involves the transcendental number $\pi$, which will result in a decimal approximation.
+
+> [!IMPORTANT]
+> **Algebraic Simplification:**
+> Always look to simplify the fractions before performing the final multiplication. Reducing the fraction $\frac{180}{3}$ to $60$ first makes the multiplication step much easier and less prone to errors than multiplying $7 \cdot 180$ first.
+
+> [!CAUTION]
+> **Calculator Precision:**
+> When converting "pure" radians like $4$, you will need to use the $\pi$ button on your calculator to get an accurate decimal. Using a truncated value like $3.14$ will introduce rounding errors into your degree measure.
+
+
