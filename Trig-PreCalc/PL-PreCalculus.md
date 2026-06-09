@@ -16605,4 +16605,4 @@ $$4 \cdot \left( \frac{180^\circ}{\pi} \right)$$
 > When converting "pure" radians like $4$, you will need to use the $\pi$ button on your calculator to get an accurate decimal. Using a truncated value like $3.14$ will introduce rounding errors into your degree measure.
 
 ## 2026June09 - Area of a Sector, Angular Velocity, Applications (Precalculus - Trigonometry 5) :
-
+https://www.youtube.com/watch?v=x6wnYbOBCic&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=80
