@@ -16712,13 +16712,9 @@ $$s = 3960 \text{ miles} \cdot 0.08872 \text{ radians} \approx 351.33 \text{ mil
 * **Formula:** $A = \frac{1}{2}r^2\theta$
 * **Crucial Rule:** The angle $\theta$ must be in radians.
 * **Unit Check:** Inputting meters for $r$ results in square meters ($m^2$) for the area, confirming the unit consistency.
-
 ### Area of a Sector Calculation: A = 8m^2, r = 6m
-
 **Question:** Find the central angle ($\theta$) in radians for a sector with an area $A = 8 \text{ m}^2$ and a radius $r = 6 \text{ m}$.
-
 **Answer:** To find the angle, we use the sector area formula $A = \frac{1}{2}r^2\theta$. We rearrange the formula to solve for $\theta$:
-
 1. **Rearrange the formula:**
    $A = \frac{1}{2}r^2\theta$
    $2A = r^2\theta$
@@ -16731,11 +16727,8 @@ $$s = 3960 \text{ miles} \cdot 0.08872 \text{ radians} \approx 351.33 \text{ mil
 3. **Simplify the result:**
    $\theta = \frac{4}{9} \text{ radians}$
 
-
-
 ---
-
-**Key Takeaways : **
+**Key Takeaways :**
 * **Formula:** $\theta = \frac{2A}{r^2}$
 * **Units:** Since area is $m^2$ and $r^2$ is $m^2$, the units cancel out, leaving the angle as a dimensionless number in **radians**.
 * **Conversion:** If you needed this in degrees, you would multiply by $\frac{180^\circ}{\pi}$, but radians is the standard unit for this formula.
