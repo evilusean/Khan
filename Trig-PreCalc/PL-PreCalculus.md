@@ -16737,7 +16737,6 @@ $$s = 3960 \text{ miles} \cdot 0.08872 \text{ radians} \approx 351.33 \text{ mil
 Professor Leonard calculates the linear velocity (speed) of an object on the Earth's surface by considering Earth's rotation around its axis.
 
 ---
-
 #### 1. Fundamental Formulas
 * **Angular Velocity ($\omega$):** The rate at which the angle changes over time.
   $$\omega = \frac{\theta}{t}$$
@@ -16746,13 +16745,11 @@ Professor Leonard calculates the linear velocity (speed) of an object on the Ear
   *(Substituting $s = r \cdot \theta$ into the velocity formula creates $v = r \cdot \frac{\theta}{t}$, which simplifies to $v = r \cdot \omega$.)*
 
 ---
-
 #### 2. Determine Angular Velocity ($\omega$)
 Every point on Earth completes one full rotation ($2\pi$ radians) in $24$ hours.
 $$\omega = \frac{2\pi \text{ radians}}{24 \text{ hours}} = \frac{\pi}{12} \text{ rad/hr}$$
 
 ---
-
 #### 3. Calculate Linear Velocity ($v$)
 The linear velocity depends on your distance ($r$) from the axis of rotation, not the center of the Earth.
 
@@ -16767,7 +16764,6 @@ The linear velocity depends on your distance ($r$) from the axis of rotation, no
 * **Calculation:**
   $$v = 3,960 \text{ miles} \cdot \frac{\pi}{12} \text{ rad/hr}$$
   $$v \approx 1,037 \text{ mph}$$
-
 ---
 
 #### Key Takeaways for Anki
@@ -16777,3 +16773,4 @@ The linear velocity depends on your distance ($r$) from the axis of rotation, no
 
 > [!CAUTION]
 > **Axis vs. Center:** Do not use the distance to the center of the Earth ($3,960 \text{ miles}$) for every calculation. You must use the distance to the axis of rotation, which varies by latitude.
+
