@@ -16653,7 +16653,6 @@ He defines the speed of an object rotating on a sphere, explaining the differenc
 **Question:** If I live at $48.685701^\circ$ Latitude and have to travel to a city at $43.602646^\circ$ Latitude (both at the same longitude), how far apart are the cities if the radius of the Earth $r = 3960 \text{ miles}$?
 
 **Answer:** To find the distance between the two cities, we use the arc length formula $s = r \cdot \theta$.
-
 1.  **Find the angle ($\theta$):**
     $\theta = 48.685701^\circ - 43.602646^\circ = 5.083055^\circ$
 2.  **Convert to radians:**
@@ -16662,9 +16661,7 @@ He defines the speed of an object rotating on a sphere, explaining the differenc
 3.  **Calculate arc length ($s$):**
     $s = 3960 \text{ miles} \cdot 0.08872 \text{ radians} \approx 351.33 \text{ miles}$
 
-
 ---
-
 **Key Takeaways:**
 * **Formula:** $s = r\theta$
 * **Constraint:** $\theta$ must be in radians.
@@ -16675,18 +16672,14 @@ To find the distance between the two cities on a sphere, we use the arc length f
 * **Angle ($\theta$):** Difference in latitude: $48.685701^\circ - 43.602646^\circ = 5.083055^\circ$
 
 ---
-
 #### 1. The Conversion Step
 Professor Leonard emphasizes that the arc length formula **only** functions when $\theta$ is in radians. To convert the degree measurement to radians, we multiply by the ratio $\frac{\pi}{180^\circ}$:
 $$5.083055^\circ \cdot \left( \frac{\pi}{180^\circ} \right) \approx 0.08872 \text{ radians}$$
 
 ---
-
 #### 2. Calculate Arc Length
 Using the converted angle, we solve for the distance ($s$):
 $$s = 3960 \text{ miles} \cdot 0.08872 \text{ radians} \approx 351.33 \text{ miles}$$
-
-
 
 ---
 
@@ -16699,3 +16692,4 @@ $$s = 3960 \text{ miles} \cdot 0.08872 \text{ radians} \approx 351.33 \text{ mil
 > [!CAUTION]
 > **Degree vs. Radian Formula:**
 > Plugging degrees directly into the arc length formula is a common error that leads to incorrect results because the formula relies on the radian-based definition of circular measure.
+
