@@ -16693,3 +16693,27 @@ $$s = 3960 \text{ miles} \cdot 0.08872 \text{ radians} \approx 351.33 \text{ mil
 > **Degree vs. Radian Formula:**
 > Plugging degrees directly into the arc length formula is a common error that leads to incorrect results because the formula relies on the radian-based definition of circular measure.
 
+### Area of a Sector Calculation: r = 3m, theta = 120 degrees
+
+**Question:** Find the area of a sector with a radius $r = 3 \text{ m}$ and a central angle $\theta = 120^\circ$.
+
+**Answer:** To find the area, we use the formula $A = \frac{1}{2}r^2\theta$, noting that Professor Leonard emphasizes this formula **only** works when $\theta$ is in radians.
+
+1. **Convert degrees to radians:**
+   Multiply the angle by $\frac{\pi}{180^\circ}$ to convert:
+   $120^\circ \cdot \left( \frac{\pi}{180^\circ} \right) = \frac{120\pi}{180} = \frac{2\pi}{3} \text{ radians}$
+
+2. **Calculate the Area ($A$):**
+   Substitute $r = 3$ and $\theta = \frac{2\pi}{3}$ into the formula:
+   $A = \frac{1}{2} \cdot (3)^2 \cdot \left( \frac{2\pi}{3} \right)$
+   $A = \frac{1}{2} \cdot 9 \cdot \left( \frac{2\pi}{3} \right)$
+   $A = 3\pi \text{ m}^2 \approx 9.425 \text{ m}^2$
+
+
+
+---
+
+**Key Takeaways for Anki:**
+* **Formula:** $A = \frac{1}{2}r^2\theta$
+* **Crucial Rule:** The angle $\theta$ must be in radians.
+* **Unit Check:** Inputting meters for $r$ results in square meters ($m^2$) for the area, confirming the unit consistency.
