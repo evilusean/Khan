@@ -16773,4 +16773,4 @@ The linear velocity depends on your distance ($r$) from the axis of rotation, no
 > [!CAUTION]
 > **Axis vs. Center:** Do not use the distance to the center of the Earth ($3,960 \text{ miles}$) for every calculation. You must use the distance to the axis of rotation, which varies by latitude.
 ## 2026June10 - Trigonometric Functions and the Unit Circle (Precalculus - Trigonometry 6) :
-
+https://www.youtube.com/watch?v=__nefjOhVks&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=80
