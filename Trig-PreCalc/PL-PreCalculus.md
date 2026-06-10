@@ -16648,3 +16648,54 @@ He defines the speed of an object rotating on a sphere, explaining the differenc
 > [!CAUTION]
 > **Degrees vs. Radians:**
 > If you are plugging degrees into $s=r\theta$ or $A=\frac{1}{2}r^2\theta$, you will get nonsensical results. Always convert your input to radians first, or verify your calculator is in **RAD** mode.
+### Arc Length Calculation: City Distance
+
+**Question:** If I live at $48.685701^\circ$ Latitude and have to travel to a city at $43.602646^\circ$ Latitude (both at the same longitude), how far apart are the cities if the radius of the Earth $r = 3960 \text{ miles}$?
+
+**Answer:** To find the distance between the two cities, we use the arc length formula $s = r \cdot \theta$.
+
+1.  **Find the angle ($\theta$):**
+    $\theta = 48.685701^\circ - 43.602646^\circ = 5.083055^\circ$
+2.  **Convert to radians:**
+    Since the formula requires radians, multiply by $\frac{\pi}{180^\circ}$:
+    $5.083055^\circ \cdot \left( \frac{\pi}{180^\circ} \right) \approx 0.08872 \text{ radians}$
+3.  **Calculate arc length ($s$):**
+    $s = 3960 \text{ miles} \cdot 0.08872 \text{ radians} \approx 351.33 \text{ miles}$
+
+
+---
+
+**Key Takeaways:**
+* **Formula:** $s = r\theta$
+* **Constraint:** $\theta$ must be in radians.
+* **Requirement:** Both points must lie on a "great circle" (same longitude) for this specific arc length formula to apply.
+
+To find the distance between the two cities on a sphere, we use the arc length formula $s = r \cdot \theta$, based on the provided values:
+* **Radius ($r$):** $3960 \text{ miles}$
+* **Angle ($\theta$):** Difference in latitude: $48.685701^\circ - 43.602646^\circ = 5.083055^\circ$
+
+---
+
+#### 1. The Conversion Step
+Professor Leonard emphasizes that the arc length formula **only** functions when $\theta$ is in radians. To convert the degree measurement to radians, we multiply by the ratio $\frac{\pi}{180^\circ}$:
+$$5.083055^\circ \cdot \left( \frac{\pi}{180^\circ} \right) \approx 0.08872 \text{ radians}$$
+
+---
+
+#### 2. Calculate Arc Length
+Using the converted angle, we solve for the distance ($s$):
+$$s = 3960 \text{ miles} \cdot 0.08872 \text{ radians} \approx 351.33 \text{ miles}$$
+
+
+
+---
+
+#### Key Takeaways
+
+> [!IMPORTANT]
+> **Great Circle Requirement:**
+> This calculation is only valid because both cities lie on the same longitude, allowing the path between them to be treated as an arc on a "great circle" (a circle that passes through the center of the sphere).
+
+> [!CAUTION]
+> **Degree vs. Radian Formula:**
+> Plugging degrees directly into the arc length formula is a common error that leads to incorrect results because the formula relies on the radian-based definition of circular measure.
