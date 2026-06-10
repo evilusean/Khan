@@ -16606,3 +16606,50 @@ $$4 \cdot \left( \frac{180^\circ}{\pi} \right)$$
 
 ## 2026June09 - Area of a Sector, Angular Velocity, Applications (Precalculus - Trigonometry 5) :
 https://www.youtube.com/watch?v=x6wnYbOBCic&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=80
+### Area of a Sector, Angular Velocity, and Applications
+
+Professor Leonard explores how trigonometric formulas—specifically arc length, sector area, and linear/angular velocity—apply to real-world physics, using the rotation of the Earth as his primary example.
+
+---
+
+#### 1. Arc Length and Longitude ([00:00:00] - [09:30])
+Arc length ($s = r\theta$) allows us to calculate distances between two points on a sphere (like Earth) provided they lie on the same "great circle" (same longitude).
+
+* **The Logic:** Because longitude lines pass through the center of the Earth, they form a great circle with a constant radius ($r \approx 3960$ miles).
+* **Calculation:** If you have two locations on the same longitude, the distance between them is the arc length of the angle $\theta$ (the difference between their latitudes).
+* **Crucial Rule:** Professor Leonard stresses that $\theta$ **must be in radians**. If provided in degrees, you must multiply by $\frac{\pi}{180^\circ}$ before plugging it into $s = r\theta$.
+
+
+---
+
+#### 2. Area of a Sector ([09:30] - [21:40])
+To find the area of a portion of a circle (a "slice" or sector), he derives the formula by comparing the sector to the full circle.
+
+* **Derivation:** He sets up a proportion: $\frac{\text{Sector Area}}{\theta} = \frac{\text{Total Area}}{\text{Full Rotation}}$. Since a full rotation is $2\pi$, he yields the formula:
+  $$\text{Area} = \frac{1}{2}r^2\theta$$
+* **Application:** When given a radius and an angle (in degrees), convert the angle to radians first. For example, $120^\circ$ becomes $\frac{2\pi}{3}$ radians, allowing for precise calculation of the area in square units (e.g., meters squared).
+
+---
+
+#### 3. Angular and Linear Velocity ([21:40] - [36:57])
+He defines the speed of an object rotating on a sphere, explaining the difference between "spinning" and "moving."
+
+* **Angular Velocity ($\omega$):** The rate at which the angle changes over time ($\omega = \frac{\theta}{t}$). For Earth, every point completes one full rotation ($2\pi$ radians) in $24$ hours, so $\omega = \frac{2\pi}{24} = \frac{\pi}{12}$ rad/hr.
+* **Linear Velocity ($v$):** The actual speed (distance/time) an object moves along its circular path ($v = r\omega$).
+* **Key Insight:** Your linear velocity ($v$) depends on your latitude. Because the Earth is a sphere, the radius ($r$)—your distance from the axis of rotation—shrinks as you move toward the poles. Consequently, people at the equator spin faster ($>1000$ mph) than people at higher latitudes ($<800$ mph).
+
+---
+
+#### Key Takeaways
+
+> [!TIP]
+> **The Unit Trap:**
+> Professor Leonard consistently warns against using degrees in these formulas. He points out a "hidden $\frac{1}{\text{radian}}$" in the derivation of these formulas that necessitates the use of radians to ensure the units (miles, meters) cancel out correctly.
+
+> [!IMPORTANT]
+> **Radius Definition:**
+> When calculating velocity on Earth, the "radius" ($r$) is not the distance to the center of the Earth, but the **perpendicular distance to the axis of rotation**. This is why your speed changes based on your latitude.
+
+> [!CAUTION]
+> **Degrees vs. Radians:**
+> If you are plugging degrees into $s=r\theta$ or $A=\frac{1}{2}r^2\theta$, you will get nonsensical results. Always convert your input to radians first, or verify your calculator is in **RAD** mode.
