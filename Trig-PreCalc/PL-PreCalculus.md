@@ -16611,7 +16611,6 @@ https://www.youtube.com/watch?v=x6wnYbOBCic&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Professor Leonard explores how trigonometric formulas—specifically arc length, sector area, and linear/angular velocity—apply to real-world physics, using the rotation of the Earth as his primary example.
 
 ---
-
 #### 1. Arc Length and Longitude ([00:00:00] - [09:30])
 Arc length ($s = r\theta$) allows us to calculate distances between two points on a sphere (like Earth) provided they lie on the same "great circle" (same longitude).
 
@@ -16619,9 +16618,7 @@ Arc length ($s = r\theta$) allows us to calculate distances between two points o
 * **Calculation:** If you have two locations on the same longitude, the distance between them is the arc length of the angle $\theta$ (the difference between their latitudes).
 * **Crucial Rule:** Professor Leonard stresses that $\theta$ **must be in radians**. If provided in degrees, you must multiply by $\frac{\pi}{180^\circ}$ before plugging it into $s = r\theta$.
 
-
 ---
-
 #### 2. Area of a Sector ([09:30] - [21:40])
 To find the area of a portion of a circle (a "slice" or sector), he derives the formula by comparing the sector to the full circle.
 
@@ -16630,7 +16627,6 @@ To find the area of a portion of a circle (a "slice" or sector), he derives the 
 * **Application:** When given a radius and an angle (in degrees), convert the angle to radians first. For example, $120^\circ$ becomes $\frac{2\pi}{3}$ radians, allowing for precise calculation of the area in square units (e.g., meters squared).
 
 ---
-
 #### 3. Angular and Linear Velocity ([21:40] - [36:57])
 He defines the speed of an object rotating on a sphere, explaining the difference between "spinning" and "moving."
 
@@ -16639,7 +16635,6 @@ He defines the speed of an object rotating on a sphere, explaining the differenc
 * **Key Insight:** Your linear velocity ($v$) depends on your latitude. Because the Earth is a sphere, the radius ($r$)—your distance from the axis of rotation—shrinks as you move toward the poles. Consequently, people at the equator spin faster ($>1000$ mph) than people at higher latitudes ($<800$ mph).
 
 ---
-
 #### Key Takeaways
 
 > [!TIP]
