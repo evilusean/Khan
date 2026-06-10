@@ -16765,7 +16765,6 @@ The linear velocity depends on your distance ($r$) from the axis of rotation, no
   $$v = 3,960 \text{ miles} \cdot \frac{\pi}{12} \text{ rad/hr}$$
   $$v \approx 1,037 \text{ mph}$$
 ---
-
 #### Key Takeaways for Anki
 
 > [!IMPORTANT]
