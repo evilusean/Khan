@@ -16732,3 +16732,48 @@ $$s = 3960 \text{ miles} \cdot 0.08872 \text{ radians} \approx 351.33 \text{ mil
 * **Formula:** $\theta = \frac{2A}{r^2}$
 * **Units:** Since area is $m^2$ and $r^2$ is $m^2$, the units cancel out, leaving the angle as a dimensionless number in **radians**.
 * **Conversion:** If you needed this in degrees, you would multiply by $\frac{180^\circ}{\pi}$, but radians is the standard unit for this formula.
+### Linear Velocity on Earth: Step-by-Step Breakdown
+
+Professor Leonard calculates the linear velocity (speed) of an object on the Earth's surface by considering Earth's rotation around its axis.
+
+---
+
+#### 1. Fundamental Formulas
+* **Angular Velocity ($\omega$):** The rate at which the angle changes over time.
+  $$\omega = \frac{\theta}{t}$$
+* **Linear Velocity ($v$):** The speed along the arc length path.
+  $$v = \frac{s}{t} = r \cdot \omega$$
+  *(Substituting $s = r \cdot \theta$ into the velocity formula creates $v = r \cdot \frac{\theta}{t}$, which simplifies to $v = r \cdot \omega$.)*
+
+---
+
+#### 2. Determine Angular Velocity ($\omega$)
+Every point on Earth completes one full rotation ($2\pi$ radians) in $24$ hours.
+$$\omega = \frac{2\pi \text{ radians}}{24 \text{ hours}} = \frac{\pi}{12} \text{ rad/hr}$$
+
+---
+
+#### 3. Calculate Linear Velocity ($v$)
+The linear velocity depends on your distance ($r$) from the axis of rotation, not the center of the Earth.
+
+**Example: Professor Leonard's Latitude ($48.6^\circ$ N)**
+* At this latitude, the radius ($r$) from the axis is approximately $3,000 \text{ miles}$.
+* **Calculation:**
+  $$v = 3,000 \text{ miles} \cdot \frac{\pi}{12} \text{ rad/hr}$$
+  $$v \approx 785 \text{ mph}$$
+
+**Example: At the Equator**
+* At the equator, the radius ($r$) from the axis is approximately $3,960 \text{ miles}$.
+* **Calculation:**
+  $$v = 3,960 \text{ miles} \cdot \frac{\pi}{12} \text{ rad/hr}$$
+  $$v \approx 1,037 \text{ mph}$$
+
+---
+
+#### Key Takeaways for Anki
+
+> [!IMPORTANT]
+> **Variable $r$:** Your speed is not constant; it depends on your distance from the axis of rotation. The closer you are to the equator, the larger your radius, and the faster you are traveling.
+
+> [!CAUTION]
+> **Axis vs. Center:** Do not use the distance to the center of the Earth ($3,960 \text{ miles}$) for every calculation. You must use the distance to the axis of rotation, which varies by latitude.
