@@ -16824,3 +16824,4 @@ Quadrant angles ($0^\circ, 90^\circ, 180^\circ, 270^\circ$) occur at the axes.
 * **Repetition:** Trig functions have a "period" and repeat their values after a full rotation ($2\pi$).
 
 ## 2026June11 - How to Use the Unit Circle in Trigonometry (Precalculus - Trigonometry 7) : 
+https://www.youtube.com/watch?v=GdRZfemxTFI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=83
