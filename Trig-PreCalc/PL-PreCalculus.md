@@ -16916,3 +16916,21 @@ Following Professor Leonard's method of using the unit circle to perform arithme
         * $\frac{\sqrt{2}}{2} + \frac{1}{2}$
     * Since they share a common denominator of $2$, combine the numerators:
         * **$\frac{1 + \sqrt{2}}{2}$**
+### Evaluating $\csc(45^\circ)\tan(60^\circ)$
+
+Following Professor Leonard's method of solving trigonometric expressions by breaking them down into their primary functions (sine, cosine, and tangent) and applying the unit circle:
+
+* **Step 1: Identify Individual Values**
+    * **$\csc(45^\circ)$:** Since $\csc$ is the reciprocal of $\sin$, first find $\sin(45^\circ)$.
+        * $\sin(45^\circ) = \frac{\sqrt{2}}{2}$
+        * Therefore, $\csc(45^\circ) = \frac{1}{\sin(45^\circ)} = \frac{2}{\sqrt{2}}$.
+        * Rationalizing the denominator: $\frac{2}{\sqrt{2}} \cdot \frac{\sqrt{2}}{\sqrt{2}} = \frac{2\sqrt{2}}{2} = \sqrt{2}$.
+    * **$\tan(60^\circ)$:** Tangent is $\frac{y}{x}$ (or $\sin/\cos$).
+        * $\sin(60^\circ) = \frac{\sqrt{3}}{2}$
+        * $\cos(60^\circ) = \frac{1}{2}$
+        * $\tan(60^\circ) = \frac{\sqrt{3}/2}{1/2} = \sqrt{3}$.
+
+* **Step 2: Multiply the Results**
+    * Substitute the values back into the expression:
+        * $\csc(45^\circ) \cdot \tan(60^\circ) = \sqrt{2} \cdot \sqrt{3}$
+    * **$= \sqrt{6}$**
