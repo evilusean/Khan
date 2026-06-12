@@ -16830,7 +16830,6 @@ https://www.youtube.com/watch?v=GdRZfemxTFI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 Professor Leonard defines trigonometric functions through two primary approaches: the **Right Triangle** approach and the **Unit Circle** approach. Understanding both is essential because they represent the same underlying relationships between angles and side ratios.
 
 ---
-
 #### 1. The Right Triangle Approach
  Trigonometric functions relate an angle ($\theta$) to the ratio of two sides of a right triangle.
 * **Key Concept:** Due to the properties of **similar triangles**, the ratio of sides remains constant regardless of the triangle's size, provided the angle is the same.
@@ -16839,10 +16838,7 @@ Professor Leonard defines trigonometric functions through two primary approaches
     * **Cosine ($\cos$):** $\frac{\text{Adjacent}}{\text{Hypotenuse}}$
     * **Tangent ($\tan$):** $\frac{\text{Opposite}}{\text{Adjacent}}$ or $\frac{\sin(\theta)}{\cos(\theta)}$
 
-
-
 ---
-
 #### 2. The Unit Circle Approach
  A unit circle has a **radius of $1$**. When superimposed on an $xy$-axis, it allows us to define trigonometric functions based on coordinates rather than arbitrary side lengths.
 * **Arc Length ($t$):** On a unit circle with radius $r=1$, the arc length $t$ is numerically equal to the central angle $\theta$ (when measured in radians).
@@ -16851,13 +16847,7 @@ Professor Leonard defines trigonometric functions through two primary approaches
     * **$\cos(t) = x$** (The $x$-coordinate)
     * **$\tan(t) = \frac{y}{x}$**
 
-
-
-[Image of unit circle showing x and y coordinates]
-
-
 ---
-
 #### 3. Reciprocal Functions
 Reciprocal functions are the multiplicative inverses of the primary trig functions.
 * **Cosecant ($\csc(t)$):** $\frac{1}{\sin(t)} = \frac{1}{y}$
@@ -16865,16 +16855,12 @@ Reciprocal functions are the multiplicative inverses of the primary trig functio
 * **Cotangent ($\cot(t)$):** $\frac{1}{\tan(t)} = \frac{x}{y}$
 
 ---
-
 #### 4. Quadrant Angles and Undefined Values
 Quadrant angles ($0^\circ, 90^\circ, 180^\circ, 270^\circ$) occur at the axes.
 * **Undefined Values:** Occur whenever you divide by zero. For example, $\tan(90^\circ)$ is undefined because the $x$-coordinate is $0$.
 * **Range:** Because $\sin$ and $\cos$ are defined as coordinates on a unit circle, their values are strictly bounded between $-1$ and $1$.
 
-
-
 ---
-
 #### 5. Example: Finding Values from a Point
  If given a point $(x, y)$ on the unit circle (e.g., $(-\frac{1}{2}, \frac{\sqrt{3}}{2})$), you can determine all six trig functions:
 1.  **Identify:** $\sin(\theta) = y$ and $\cos(\theta) = x$.
@@ -16883,7 +16869,6 @@ Quadrant angles ($0^\circ, 90^\circ, 180^\circ, 270^\circ$) occur at the axes.
     * *Note: Rationalize denominators where necessary (e.g., $\frac{1}{\sqrt{3}} \rightarrow \frac{\sqrt{3}}{3}$).*
 
 ---
-
 #### Key Takeaways for Anki
 * **The "Magic" of Radians:** The identity $s = r\theta$ is only simplified to $s = \theta$ when $r=1$ and $\theta$ is in **radians**.
 * **Coordinate Mapping:** $\cos$ is always the $x$-value, and $\sin$ is always the $y$-value.
