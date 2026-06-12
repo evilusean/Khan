@@ -16873,3 +16873,22 @@ Quadrant angles ($0^\circ, 90^\circ, 180^\circ, 270^\circ$) occur at the axes.
 * **The "Magic" of Radians:** The identity $s = r\theta$ is only simplified to $s = \theta$ when $r=1$ and $\theta$ is in **radians**.
 * **Coordinate Mapping:** $\cos$ is always the $x$-value, and $\sin$ is always the $y$-value.
 * **Repetition:** Trig functions have a "period" and repeat their values after a full rotation ($2\pi$).
+### Evaluating $\tan(6\pi)$
+
+Following Professor Leonard's method of evaluating trigonometric functions for angles that are not explicitly on the unit circle:
+
+* **Step 1: Determine Coterminal Angles**
+    * Since $6\pi$ represents multiple full rotations ($3$ full rotations of $2\pi$), we can subtract multiples of $2\pi$ to find an angle within the standard $[0, 2\pi)$ range.
+    * $6\pi - 2\pi = 4\pi$
+    * $4\pi - 2\pi = 2\pi$
+    * $2\pi$ is coterminal with $0$.
+
+* **Step 2: Identify Coordinates**
+    * At $0$ (or $2\pi$), the point on the unit circle is $(1, 0)$.
+    * $x = 1$ (which is $\cos(0)$)
+    * $y = 0$ (which is $\sin(0)$)
+
+* **Step 3: Calculate Tangent**
+    * Tangent is defined as $\frac{y}{x}$ (or $\frac{\sin(\theta)}{\cos(\theta)}$).
+    * $\tan(6\pi) = \frac{0}{1}$
+    * **$\tan(6\pi) = 0$**
