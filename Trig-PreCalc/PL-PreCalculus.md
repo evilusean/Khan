@@ -16919,7 +16919,6 @@ Following Professor Leonard's method of using the unit circle to perform arithme
 ### Evaluating $\csc(45^\circ)\tan(60^\circ)$
 
 Following Professor Leonard's method of solving trigonometric expressions by breaking them down into their primary functions (sine, cosine, and tangent) and applying the unit circle:
-
 * **Step 1: Identify Individual Values**
     * **$\csc(45^\circ)$:** Since $\csc$ is the reciprocal of $\sin$, first find $\sin(45^\circ)$.
         * $\sin(45^\circ) = \frac{\sqrt{2}}{2}$
@@ -16929,7 +16928,6 @@ Following Professor Leonard's method of solving trigonometric expressions by bre
         * $\sin(60^\circ) = \frac{\sqrt{3}}{2}$
         * $\cos(60^\circ) = \frac{1}{2}$
         * $\tan(60^\circ) = \frac{\sqrt{3}/2}{1/2} = \sqrt{3}$.
-
 * **Step 2: Multiply the Results**
     * Substitute the values back into the expression:
         * $\csc(45^\circ) \cdot \tan(60^\circ) = \sqrt{2} \cdot \sqrt{3}$
