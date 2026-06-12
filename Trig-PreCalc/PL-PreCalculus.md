@@ -16888,3 +16888,22 @@ Following Professor Leonard's method of evaluating trigonometric functions for a
     * Tangent is defined as $\frac{y}{x}$ (or $\frac{\sin(\theta)}{\cos(\theta)}$).
     * $\tan(6\pi) = \frac{0}{1}$
     * **$\tan(6\pi) = 0$**
+### Evaluating $\sec(-\pi)$
+
+Following Professor Leonard's method of evaluating trigonometric functions for angles that are not explicitly on the unit circle or that require coterminal identification:
+
+* **Step 1: Determine the Coterminal Angle**
+    * $-\pi$ represents a clockwise rotation of a half-circle.
+    * We can find the coterminal angle by adding $2\pi$ to $-\pi$.
+    * $-\pi + 2\pi = \pi$.
+    * Therefore, $\sec(-\pi)$ is coterminal with $\sec(\pi)$.
+
+* **Step 2: Identify Coordinates**
+    * At $\pi$, the point on the unit circle is $(-1, 0)$.
+    * $x = -1$ (this is $\cos(\pi)$)
+    * $y = 0$ (this is $\sin(\pi)$)
+
+* **Step 3: Calculate Secant**
+    * Secant is defined as the reciprocal of cosine: $\sec(\theta) = \frac{1}{\cos(\theta)} = \frac{1}{x}$.
+    * $\sec(-\pi) = \frac{1}{-1}$
+    * **$\sec(-\pi) = -1$**
