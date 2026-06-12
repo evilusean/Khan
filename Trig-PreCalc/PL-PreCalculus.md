@@ -16965,3 +16965,21 @@ Following Professor Leonard's method of evaluating trigonometric functions for a
     * Sine is defined as the $y$-coordinate of the point on the unit circle.
     * $\sin\left(\frac{11\pi}{2}\right) = \sin\left(\frac{3\pi}{2}\right) = -1$
     * **$\sin\left(\frac{11\pi}{2}\right) = -1$**
+### Evaluating $2\sin\left(\frac{\pi}{4}\right) + 3\tan\left(\frac{\pi}{4}\right)$
+
+Following Professor Leonard's method of solving trigonometric expressions by identifying coordinates on the unit circle:
+
+* **Step 1: Identify Individual Values**
+    * Locate $\frac{\pi}{4}$ (or $45^\circ$) on the unit circle.
+    * The coordinates at this angle are $\left(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2}\right)$.
+    * **$\sin\left(\frac{\pi}{4}\right)$:** This is the $y$-coordinate, which is $\frac{\sqrt{2}}{2}$.
+    * **$\tan\left(\frac{\pi}{4}\right)$:** This is $\frac{y}{x}$, which is $\frac{\sqrt{2}/2}{\sqrt{2}/2} = 1$.
+
+* **Step 2: Perform the Arithmetic**
+    * Substitute the values back into the expression:
+        * $2\left(\sin\left(\frac{\pi}{4}\right)\right) + 3\left(\tan\left(\frac{\pi}{4}\right)\right)$
+        * $2\left(\frac{\sqrt{2}}{2}\right) + 3(1)$
+    * Simplify the terms:
+        * The $2$s in the first term cancel out, leaving $\sqrt{2}$.
+        * The second term is $3$.
+    * **$= \sqrt{2} + 3$**
