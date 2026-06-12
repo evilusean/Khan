@@ -16950,3 +16950,21 @@ Following Professor Leonard's method of solving trigonometric expressions by bre
         * $3\left(\csc\left(\frac{\pi}{3}\right)\right) + \cot\left(\frac{\pi}{4}\right) = 3\left(\frac{2\sqrt{3}}{3}\right) + 1$
         * The $3$s cancel out: $2\sqrt{3} + 1$.
     * **$= 2\sqrt{3} + 1$**
+### Evaluating $\sin\left(\frac{11\pi}{2}\right)$
+
+Following Professor Leonard's method of evaluating trigonometric functions for angles that involve multiple revolutions:
+
+* **Step 1: Determine the Coterminal Angle**
+    * $\frac{11\pi}{2}$ is greater than one full revolution ($2\pi$ or $\frac{4\pi}{2}$). 
+    * We can simplify this by subtracting multiples of $2\pi$ until we reach an angle on the unit circle.
+    * Subtracting $2\pi$ ($\frac{4\pi}{2}$): $\frac{11\pi}{2} - \frac{4\pi}{2} = \frac{7\pi}{2}$
+    * Subtracting $2\pi$ ($\frac{4\pi}{2}$) again: $\frac{7\pi}{2} - \frac{4\pi}{2} = \frac{3\pi}{2}$
+    * Therefore, $\frac{11\pi}{2}$ is coterminal with $\frac{3\pi}{2}$ (or $270^\circ$).
+
+* **Step 2: Identify Coordinates**
+    * At $\frac{3\pi}{2}$, the point on the unit circle is $(0, -1)$.
+
+* **Step 3: Solve for Sine**
+    * Sine is defined as the $y$-coordinate of the point on the unit circle.
+    * $\sin\left(\frac{11\pi}{2}\right) = \sin\left(\frac{3\pi}{2}\right) = -1$
+    * **$\sin\left(\frac{11\pi}{2}\right) = -1$**
