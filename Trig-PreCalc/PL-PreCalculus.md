@@ -16935,7 +16935,6 @@ Following Professor Leonard's method of solving trigonometric expressions by bre
 ### Evaluating $3\csc\left(\frac{\pi}{3}\right) + \cot\left(\frac{\pi}{4}\right)$
 
 Following Professor Leonard's method of solving trigonometric expressions by breaking them down into their primary functions (sine, cosine, and tangent) and applying the unit circle:
-
 * **Step 1: Identify Individual Values**
     * **$\csc\left(\frac{\pi}{3}\right)$:** Since $\csc$ is the reciprocal of $\sin$, first find $\sin\left(\frac{\pi}{3}\right)$.
         * At $\frac{\pi}{3}$, the point on the unit circle is $\left(\frac{1}{2}, \frac{\sqrt{3}}{2}\right)$.
@@ -16946,7 +16945,6 @@ Following Professor Leonard's method of solving trigonometric expressions by bre
         * At $\frac{\pi}{4}$, the point on the unit circle is $\left(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2}\right)$.
         * $\tan\left(\frac{\pi}{4}\right) = \frac{\sqrt{2}/2}{\sqrt{2}/2} = 1$.
         * $\cot\left(\frac{\pi}{4}\right) = \frac{1}{\tan\left(\frac{\pi}{4}\right)} = \frac{1}{1} = 1$.
-
 * **Step 2: Combine the Results**
     * Substitute the values back into the expression:
         * $3\left(\csc\left(\frac{\pi}{3}\right)\right) + \cot\left(\frac{\pi}{4}\right) = 3\left(\frac{2\sqrt{3}}{3}\right) + 1$
