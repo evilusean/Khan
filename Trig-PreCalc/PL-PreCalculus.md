@@ -16905,15 +16905,12 @@ Following Professor Leonard's method of evaluating trigonometric functions for a
     * $\sec(-\pi) = \frac{1}{-1}$
     * **$\sec(-\pi) = -1$**
 ### Evaluating $\sin(45^\circ) + \cos(60^\circ)$
-
 Following Professor Leonard's method of using the unit circle to perform arithmetic with trigonometric functions:
-
 * **Step 1: Identify Individual Values**
     * Locate $45^\circ$ (or $\pi/4$) on the unit circle. Sine is the $y$-coordinate.
         * $\sin(45^\circ) = \frac{\sqrt{2}}{2}$
     * Locate $60^\circ$ (or $\pi/3$) on the unit circle. Cosine is the $x$-coordinate.
         * $\cos(60^\circ) = \frac{1}{2}$
-
 * **Step 2: Perform the Addition**
     * Substitute the identified values into the expression:
         * $\frac{\sqrt{2}}{2} + \frac{1}{2}$
