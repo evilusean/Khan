@@ -16968,13 +16968,11 @@ Following Professor Leonard's method of evaluating trigonometric functions for a
 ### Evaluating $2\sin\left(\frac{\pi}{4}\right) + 3\tan\left(\frac{\pi}{4}\right)$
 
 Following Professor Leonard's method of solving trigonometric expressions by identifying coordinates on the unit circle:
-
 * **Step 1: Identify Individual Values**
     * Locate $\frac{\pi}{4}$ (or $45^\circ$) on the unit circle.
     * The coordinates at this angle are $\left(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2}\right)$.
     * **$\sin\left(\frac{\pi}{4}\right)$:** This is the $y$-coordinate, which is $\frac{\sqrt{2}}{2}$.
     * **$\tan\left(\frac{\pi}{4}\right)$:** This is $\frac{y}{x}$, which is $\frac{\sqrt{2}/2}{\sqrt{2}/2} = 1$.
-
 * **Step 2: Perform the Arithmetic**
     * Substitute the values back into the expression:
         * $2\left(\sin\left(\frac{\pi}{4}\right)\right) + 3\left(\tan\left(\frac{\pi}{4}\right)\right)$
@@ -16983,3 +16981,31 @@ Following Professor Leonard's method of solving trigonometric expressions by ide
         * The $2$s in the first term cancel out, leaving $\sqrt{2}$.
         * The second term is $3$.
     * **$= \sqrt{2} + 3$**
+### Using a Calculator for Trigonometric Values
+
+Following Professor Leonard's method for calculating values not found on the unit circle, you must ensure your calculator is set to the correct mode (**Degrees** or **Radians**) before inputting your values.
+* **1. $\sin(28^\circ) \approx$**
+    * **Mode**: Ensure your calculator is set to **Degrees**.
+    * **Calculation**: $\sin(28) \approx 0.469$
+* **2. $\cot\left(\frac{\pi}{12}\right) \approx$**
+    * **Mode**: Ensure your calculator is set to **Radians**.
+    * **Calculation**: Since many calculators lack a `cot` button, use the reciprocal of tangent: $1 / \tan(\pi/12)$.
+    * **Result**: $\approx 3.732$
+* **3. $\sin(1^\circ) \approx$**
+    * **Mode**: Ensure your calculator is set to **Degrees**.
+    * **Calculation**: $\sin(1) \approx 0.017$
+* **4. $\sin(1) \approx$**
+    * **Mode**: Ensure your calculator is set to **Radians**. (Note the lack of a degree symbol indicates radians).
+    * **Calculation**: $\sin(1 \text{ rad}) \approx 0.841$
+
+---
+### Solving for a Point $(-3, 4)$ not on the Unit Circle
+If a point is not on the unit circle, you must find the radius ($r$) using the Pythagorean theorem before calculating trigonometric ratios.
+
+* **Step 1: Find $r$**
+    * $r = \sqrt{x^2 + y^2} = \sqrt{(-3)^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$.
+* **Step 2: Calculate Ratios**
+    * Instead of just $x$ or $y$, use the radius to normalize the values:
+    * **$\sin(\theta) = \frac{y}{r} = \frac{4}{5}$**
+    * **$\cos(\theta) = \frac{x}{r} = \frac{-3}{5}$**
+    * **$\tan(\theta) = \frac{y}{x} = \frac{4}{-3} = -\frac{4}{3}$**
