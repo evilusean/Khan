@@ -17009,4 +17009,4 @@ If a point is not on the unit circle, you must find the radius ($r$) using the P
     * **$\sin(\theta) = \frac{y}{r} = \frac{4}{5}$**
     * **$\cos(\theta) = \frac{x}{r} = \frac{-3}{5}$**
     * **$\tan(\theta) = \frac{y}{x} = \frac{4}{-3} = -\frac{4}{3}$**
-## 2026June13 - # Basic Properties of Trigonometric Functions (Precalculus - Trigonometry 8)
+## 2026June13 - # Basic Properties of Trigonometric Functions (Precalculus - Trigonometry 8) :
