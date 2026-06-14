@@ -17011,3 +17011,65 @@ If a point is not on the unit circle, you must find the radius ($r$) using the P
     * **$\tan(\theta) = \frac{y}{x} = \frac{4}{-3} = -\frac{4}{3}$**
 ## 2026June14 - Basic Properties of Trigonometric Functions (Precalculus - Trigonometry 8) :
 https://www.youtube.com/watch?v=_dTRpq_yGIc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=84
+### Summary of Basic Properties of Trigonometric Functions
+
+This summary covers the core relationships, domains, ranges, and periodicity of trigonometric functions as presented by Professor Leonard.
+
+---
+
+#### 1. Fundamental Relationships
+Trigonometric functions relate an angle ($\theta$) to specific coordinates on the unit circle:
+* **Sine ($\sin\theta$):** The $y$-coordinate.
+* **Cosine ($\cos\theta$):** The $x$-coordinate.
+* **Tangent ($\tan\theta$):** The ratio $\frac{y}{x}$.
+
+**Reciprocal Functions:**
+* **Cosecant ($\csc\theta$):** $\frac{1}{y}$
+* **Secant ($\sec\theta$):** $\frac{1}{x}$
+* **Cotangent ($\cot\theta$):** $\frac{x}{y}$
+
+---
+
+#### 2. Domain and Range
+Domain is determined by angles that yield defined outputs, excluding values where the denominator is zero.
+
+| Function | Domain | Range |
+| :--- | :--- | :--- |
+| **Sine** | All real numbers | $[-1, 1]$ |
+| **Cosine** | All real numbers | $[-1, 1]$ |
+| **Tangent** | All except $\frac{\pi}{2} + k\pi$ | $(-\infty, \infty)$ |
+| **Cosecant** | All except $k\pi$ | $(-\infty, -1] \cup [1, \infty)$ |
+| **Secant** | All except $\frac{\pi}{2} + k\pi$ | $(-\infty, -1] \cup [1, \infty)$ |
+| **Cotangent** | All except $k\pi$ | $(-\infty, \infty)$ |
+
+---
+
+#### 3. Periodicity and Identities
+The period represents the interval over which function outputs repeat.
+
+* **Period of $2\pi$:** Sine, Cosine, Cosecant, Secant.
+* **Period of $\pi$:** Tangent, Cotangent.
+
+**Key Identities:**
+* $\sin(\theta + 2\pi k) = \sin\theta$
+* $\cos(\theta + 2\pi k) = \cos\theta$
+* $\tan(\theta + \pi k) = \tan\theta$
+
+---
+
+#### 4. Simplifying Angles (Calculation Shortcut)
+To simplify large angles, one can subtract multiples of the period until the angle falls within the standard unit circle interval $[0, 2\pi)$ or $[0, \pi)$.
+
+* **Shortcut Method:**
+    1.  Multiply the angle's denominator by the function's period (e.g., $2\pi$ for sine, $\pi$ for tangent).
+    2.  Divide the numerator of your original angle by this value.
+    3.  The **remainder** becomes the new numerator for your simplified angle.
+
+---
+
+#### 5. Quadrant Signs (Mnemonic: ASTC)
+The signs of trigonometric functions depend on the quadrant of the angle:
+* **Quadrant I:** All positive.
+* **Quadrant II:** Sine/Cosecant are positive.
+* **Quadrant III:** Tangent/Cotangent are positive.
+* **Quadrant IV:** Cosine/Secant are positive.
