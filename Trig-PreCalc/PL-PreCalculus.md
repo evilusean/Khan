@@ -17016,7 +17016,6 @@ https://www.youtube.com/watch?v=_dTRpq_yGIc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This summary covers the core relationships, domains, ranges, and periodicity of trigonometric functions as presented by Professor Leonard.
 
 ---
-
 #### 1. Fundamental Relationships
 Trigonometric functions relate an angle ($\theta$) to specific coordinates on the unit circle:
 * **Sine ($\sin\theta$):** The $y$-coordinate.
@@ -17029,7 +17028,6 @@ Trigonometric functions relate an angle ($\theta$) to specific coordinates on th
 * **Cotangent ($\cot\theta$):** $\frac{x}{y}$
 
 ---
-
 #### 2. Domain and Range
 Domain is determined by angles that yield defined outputs, excluding values where the denominator is zero.
 
@@ -17043,10 +17041,8 @@ Domain is determined by angles that yield defined outputs, excluding values wher
 | **Cotangent** | All except $k\pi$ | $(-\infty, \infty)$ |
 
 ---
-
 #### 3. Periodicity and Identities
 The period represents the interval over which function outputs repeat.
-
 * **Period of $2\pi$:** Sine, Cosine, Cosecant, Secant.
 * **Period of $\pi$:** Tangent, Cotangent.
 
@@ -17056,7 +17052,6 @@ The period represents the interval over which function outputs repeat.
 * $\tan(\theta + \pi k) = \tan\theta$
 
 ---
-
 #### 4. Simplifying Angles (Calculation Shortcut)
 To simplify large angles, one can subtract multiples of the period until the angle falls within the standard unit circle interval $[0, 2\pi)$ or $[0, \pi)$.
 
@@ -17066,7 +17061,6 @@ To simplify large angles, one can subtract multiples of the period until the ang
     3.  The **remainder** becomes the new numerator for your simplified angle.
 
 ---
-
 #### 5. Quadrant Signs (Mnemonic: ASTC)
 The signs of trigonometric functions depend on the quadrant of the angle:
 * **Quadrant I:** All positive.
