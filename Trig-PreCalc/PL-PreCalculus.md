@@ -17070,3 +17070,55 @@ The signs of trigonometric functions depend on the quadrant of the angle:
 
 ## 2026June15 - Reciprocal Identities in Trigonometry (Precalculus - Trigonometry 9) :
 https://www.youtube.com/watch?v=98jDUsZ2JYA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=85
+### Summary: Reciprocal Identities in Trigonometry
+This summary details the relationships, utility, and application of reciprocal identities in trigonometry based on the instructional series by Professor Leonard.
+
+---
+
+#### 1. Fundamental Reciprocal Relationships
+Trigonometric functions are pairs of reciprocals. Understanding these is essential for simplifying expressions and solving for missing functions:
+
+* **Sine and Cosecant:** $\csc\theta = \frac{1}{\sin\theta}$ [00:01:19]
+* **Cosine and Secant:** $\sec\theta = \frac{1}{\cos\theta}$ [00:01:45]
+* **Tangent and Cotangent:** $\cot\theta = \frac{1}{\tan\theta}$ or $\frac{\cos\theta}{\sin\theta}$ [00:01:59]
+
+*Note:* Reciprocal identities simply require flipping the fraction. They do not change the sign of the value. [00:02:52]
+
+---
+
+#### 2. Unit Circle vs. Similar Triangles
+You can interpret trigonometric functions either as points on a unit circle or as sides of a right triangle. Due to properties of **similar triangles**, these interpretations yield identical ratios. [00:07:00]
+
+* **Unit Circle:** Relates angles to coordinates $(x, y)$ where the radius ($r$) is 1. [00:00:33]
+* **Arbitrary Circle/Triangle:** Relates angles to $(x, y)$ where the radius ($r$) can be any value. The ratios remain consistent (e.g., $\sin\theta = \frac{y}{r}$). [00:20:52]
+
+
+---
+
+#### 3. Solving for Missing Trigonometric Functions
+To determine the remaining trigonometric functions given limited information, follow these steps:
+
+1.  **Identify the Quadrant:** Use the signs of the given functions to locate the angle's quadrant. [00:03:53]
+    * **Q I:** All positive. [00:08:42]
+    * **Q II:** Sine/Cosecant positive. [00:08:48]
+    * **Q III:** Tangent/Cotangent positive. [00:08:58]
+    * **Q IV:** Cosine/Secant positive. [00:09:07]
+2.  **Use Pythagorean Identity:** If one function is known, use the relationship $x^2 + y^2 = r^2$ to find the missing side. [00:13:54]
+3.  **Account for Signs:** When taking square roots, ensure the chosen sign for the missing side matches the quadrant identified in step 1. [00:28:40]
+
+---
+
+#### 4. Practical Application Example
+Given $\sec\theta = 2$ and $\sin\theta < 0$:
+* **Quadrant:** Since $\sec\theta$ (and thus $\cos\theta$) is positive and $\sin\theta$ is negative, the angle is in **Quadrant IV**. [00:40:05]
+* **Find $x, y, r$:**
+    * $\sec\theta = \frac{r}{x} = \frac{2}{1} \implies r=2, x=1$. [00:41:41]
+    * $1^2 + y^2 = 2^2 \implies y^2 = 3 \implies y = -\sqrt{3}$ (negative due to Q IV). [00:42:47]
+* **Remaining Functions:**
+    * $\sin\theta = \frac{y}{r} = -\frac{\sqrt{3}}{2}$ [00:44:19]
+    * $\tan\theta = \frac{y}{x} = -\sqrt{3}$ [00:45:04]
+    * $\csc\theta = -\frac{2\sqrt{3}}{3}$, $\cot\theta = -\frac{\sqrt{3}}{3}$ [00:45:15]
+
+
+---
+**Video Reference:** [Reciprocal Identities in Trigonometry](https://www.youtube.com/watch?v=98jDUsZ2JYA)
