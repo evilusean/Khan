@@ -17114,3 +17114,38 @@ Given $\sec\theta = 2$ and $\sin\theta < 0$:
     * $\tan\theta = \frac{y}{x} = -\sqrt{3}$ [00:45:04]
     * $\csc\theta = -\frac{2\sqrt{3}}{3}$, $\cot\theta = -\frac{\sqrt{3}}{3}$ [00:45:15]
 
+### Evaluating Trigonometric Functions via Reciprocal Identities
+
+Following Professor Leonard's method, we find the remaining four trigonometric functions using the given values:
+* **$\sin\theta = \frac{4}{5}$**
+* **$\cos\theta = -\frac{3}{5}$**
+
+---
+
+#### 1. Identify the Quadrant
+* Sine ($y$) is **positive**, and Cosine ($x$) is **negative**.
+* This maps the angle $\theta$ directly to **Quadrant II**.
+* In Quadrant II, we expect $\csc\theta$ to be positive, while $\sec\theta$, $\tan\theta$, and $\cot\theta$ must be negative.
+
+
+---
+
+#### 2. Step-by-Step Calculations
+
+**A. Find $\csc\theta$**
+* Cosecant is the reciprocal function of sine.
+$$\csc\theta = \frac{1}{\sin\theta} = \mathbf{\frac{5}{4}}$$
+
+**B. Find $\sec\theta$**
+* Secant is the reciprocal function of cosine. Reciprocating a value does not alter its sign.
+$$\sec\theta = \frac{1}{\cos\theta} = \mathbf{-\frac{5}{3}}$$
+
+**C. Find $\tan\theta$**
+* Tangent compares the two given boundaries by taking the quotient of sine over cosine ($\frac{y}{x}$).
+$$\tan\theta = \frac{\sin\theta}{\cos\theta} = \frac{\frac{4}{5}}{-\frac{3}{5}}$$
+* Multiplying by the reciprocal denominator cancels out the $5$s:
+$$\tan\theta = \frac{4}{5} \cdot \left(-\frac{5}{3}\right) = \mathbf{-\frac{4}{3}}$$
+
+**D. Find $\cot\theta$**
+* Rather than setting up a complex fraction again, simply flip the value found for tangent.
+$$\cot\theta = \frac{1}{\tan\theta} = \mathbf{-\frac{3}{4}}$$
