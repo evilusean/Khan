@@ -17069,3 +17069,4 @@ The signs of trigonometric functions depend on the quadrant of the angle:
 * **Quadrant IV:** Cosine/Secant are positive.
 
 ## 2026June15 - Reciprocal Identities in Trigonometry (Precalculus - Trigonometry 9) :
+https://www.youtube.com/watch?v=98jDUsZ2JYA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=85
