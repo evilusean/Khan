@@ -17074,7 +17074,6 @@ https://www.youtube.com/watch?v=98jDUsZ2JYA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This summary details the relationships, utility, and application of reciprocal identities in trigonometry based on the instructional series by Professor Leonard.
 
 ---
-
 #### 1. Fundamental Reciprocal Relationships
 Trigonometric functions are pairs of reciprocals. Understanding these is essential for simplifying expressions and solving for missing functions:
 
@@ -17085,16 +17084,13 @@ Trigonometric functions are pairs of reciprocals. Understanding these is essenti
 *Note:* Reciprocal identities simply require flipping the fraction. They do not change the sign of the value. [00:02:52]
 
 ---
-
 #### 2. Unit Circle vs. Similar Triangles
 You can interpret trigonometric functions either as points on a unit circle or as sides of a right triangle. Due to properties of **similar triangles**, these interpretations yield identical ratios. [00:07:00]
 
 * **Unit Circle:** Relates angles to coordinates $(x, y)$ where the radius ($r$) is 1. [00:00:33]
 * **Arbitrary Circle/Triangle:** Relates angles to $(x, y)$ where the radius ($r$) can be any value. The ratios remain consistent (e.g., $\sin\theta = \frac{y}{r}$). [00:20:52]
 
-
 ---
-
 #### 3. Solving for Missing Trigonometric Functions
 To determine the remaining trigonometric functions given limited information, follow these steps:
 
@@ -17107,7 +17103,6 @@ To determine the remaining trigonometric functions given limited information, fo
 3.  **Account for Signs:** When taking square roots, ensure the chosen sign for the missing side matches the quadrant identified in step 1. [00:28:40]
 
 ---
-
 #### 4. Practical Application Example
 Given $\sec\theta = 2$ and $\sin\theta < 0$:
 * **Quadrant:** Since $\sec\theta$ (and thus $\cos\theta$) is positive and $\sin\theta$ is negative, the angle is in **Quadrant IV**. [00:40:05]
@@ -17119,6 +17114,3 @@ Given $\sec\theta = 2$ and $\sin\theta < 0$:
     * $\tan\theta = \frac{y}{x} = -\sqrt{3}$ [00:45:04]
     * $\csc\theta = -\frac{2\sqrt{3}}{3}$, $\cot\theta = -\frac{\sqrt{3}}{3}$ [00:45:15]
 
-
----
-**Video Reference:** [Reciprocal Identities in Trigonometry](https://www.youtube.com/watch?v=98jDUsZ2JYA)
