@@ -17121,7 +17121,6 @@ Following Professor Leonard's method, we find the remaining four trigonometric f
 * **$\cos\theta = -\frac{3}{5}$**
 
 ---
-
 #### 1. Identify the Quadrant
 * Sine ($y$) is **positive**, and Cosine ($x$) is **negative**.
 * This maps the angle $\theta$ directly to **Quadrant II**.
@@ -17129,7 +17128,6 @@ Following Professor Leonard's method, we find the remaining four trigonometric f
 
 
 ---
-
 #### 2. Step-by-Step Calculations
 
 **A. Find $\csc\theta$**
