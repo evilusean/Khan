@@ -17150,15 +17150,12 @@ Following Professor Leonard's method, we find the remaining four trigonometric f
 * **$\cos\theta = \frac{1}{2}$**
 
 ---
-
 #### 1. Identify the Quadrant
 * Sine ($y$) is **positive**, and Cosine ($x$) is **positive**.
 * This maps the angle $\theta$ directly to **Quadrant I**.
 * In Quadrant I, all trigonometric functions are positive.
 
-
 ---
-
 #### 2. Step-by-Step Calculations
 
 **A. Find $\csc\theta$**
@@ -17166,17 +17163,14 @@ Following Professor Leonard's method, we find the remaining four trigonometric f
 $$\csc\theta = \frac{1}{\sin\theta} = \frac{1}{\frac{\sqrt{3}}{2}} = \frac{2}{\sqrt{3}}$$
 * Rationalizing the denominator:
 $$\csc\theta = \frac{2}{\sqrt{3}} \cdot \frac{\sqrt{3}}{\sqrt{3}} = \mathbf{\frac{2\sqrt{3}}{3}}$$
-
 **B. Find $\sec\theta$**
 * Secant is the reciprocal function of cosine.
 $$\sec\theta = \frac{1}{\cos\theta} = \frac{1}{\frac{1}{2}} = \mathbf{2}$$
-
 **C. Find $\tan\theta$**
 * Tangent compares the two given values by taking the quotient of sine over cosine ($\frac{y}{x}$).
 $$\tan\theta = \frac{\sin\theta}{\cos\theta} = \frac{\frac{\sqrt{3}}{2}}{\frac{1}{2}}$$
 * Multiplying by the reciprocal denominator:
 $$\tan\theta = \frac{\sqrt{3}}{2} \cdot 2 = \mathbf{\sqrt{3}}$$
-
 **D. Find $\cot\theta$**
 * Cotangent is the reciprocal of tangent.
 $$\cot\theta = \frac{1}{\tan\theta} = \frac{1}{\sqrt{3}}$$
