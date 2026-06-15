@@ -17143,3 +17143,42 @@ $$\tan\theta = \frac{4}{5} \cdot \left(-\frac{5}{3}\right) = \mathbf{-\frac{4}{3
 **D. Find $\cot\theta$**
 * Rather than setting up a complex fraction again, simply flip the value found for tangent.
 $$\cot\theta = \frac{1}{\tan\theta} = \mathbf{-\frac{3}{4}}$$
+### Evaluating Trigonometric Functions via Reciprocal Identities
+
+Following Professor Leonard's method, we find the remaining four trigonometric functions using the given values:
+* **$\sin\theta = \frac{\sqrt{3}}{2}$**
+* **$\cos\theta = \frac{1}{2}$**
+
+---
+
+#### 1. Identify the Quadrant
+* Sine ($y$) is **positive**, and Cosine ($x$) is **positive**.
+* This maps the angle $\theta$ directly to **Quadrant I**.
+* In Quadrant I, all trigonometric functions are positive.
+
+
+---
+
+#### 2. Step-by-Step Calculations
+
+**A. Find $\csc\theta$**
+* Cosecant is the reciprocal function of sine.
+$$\csc\theta = \frac{1}{\sin\theta} = \frac{1}{\frac{\sqrt{3}}{2}} = \frac{2}{\sqrt{3}}$$
+* Rationalizing the denominator:
+$$\csc\theta = \frac{2}{\sqrt{3}} \cdot \frac{\sqrt{3}}{\sqrt{3}} = \mathbf{\frac{2\sqrt{3}}{3}}$$
+
+**B. Find $\sec\theta$**
+* Secant is the reciprocal function of cosine.
+$$\sec\theta = \frac{1}{\cos\theta} = \frac{1}{\frac{1}{2}} = \mathbf{2}$$
+
+**C. Find $\tan\theta$**
+* Tangent compares the two given values by taking the quotient of sine over cosine ($\frac{y}{x}$).
+$$\tan\theta = \frac{\sin\theta}{\cos\theta} = \frac{\frac{\sqrt{3}}{2}}{\frac{1}{2}}$$
+* Multiplying by the reciprocal denominator:
+$$\tan\theta = \frac{\sqrt{3}}{2} \cdot 2 = \mathbf{\sqrt{3}}$$
+
+**D. Find $\cot\theta$**
+* Cotangent is the reciprocal of tangent.
+$$\cot\theta = \frac{1}{\tan\theta} = \frac{1}{\sqrt{3}}$$
+* Rationalizing the denominator:
+$$\cot\theta = \frac{1}{\sqrt{3}} \cdot \frac{\sqrt{3}}{\sqrt{3}} = \mathbf{\frac{\sqrt{3}}{3}}$$
