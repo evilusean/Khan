@@ -17181,22 +17181,17 @@ $$\cot\theta = \frac{1}{\sqrt{3}} \cdot \frac{\sqrt{3}}{\sqrt{3}} = \mathbf{\fra
 Following Professor Leonard's method, we treat the given ratio as $\sin\theta = \frac{y}{r}$ to determine the missing components of the right triangle.
 
 * **Given:** $\sin\theta = \frac{12}{13}$
-
 #### 1. Identify Components
 * **$y = 12$** (the vertical side)
 * **$r = 13$** (the hypotenuse)
-
 #### 2. Solve for $x$
 Using the Pythagorean theorem ($x^2 + y^2 = r^2$):
 * $x^2 + 12^2 = 13^2$
 * $x^2 + 144 = 169$
 * $x^2 = 25$
 * **$x = \pm 5$** (We must consider $\pm$ because the quadrant is not specified).
-
-
 #### 3. Determine Final Values
 Depending on the quadrant (which would be provided to select between positive or negative $x$), the remaining values are calculated as follows:
-
 * **$\cos\theta = \frac{x}{r} = \pm \frac{5}{13}$**
 * **$\tan\theta = \frac{y}{x} = \pm \frac{12}{5}$**
 * **$\csc\theta = \frac{r}{y} = \frac{13}{12}$**
