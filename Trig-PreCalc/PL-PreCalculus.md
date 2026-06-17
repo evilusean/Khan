@@ -17226,3 +17226,4 @@ Following Professor Leonard's method, we determine the remaining trigonometric f
 * **$\csc\theta = \frac{1}{\sin\theta} = \frac{1}{-\frac{\sqrt{3}}{2}} = \mathbf{-\frac{2\sqrt{3}}{3}}$**
 * **$\tan\theta = \frac{y}{x} = \frac{-\sqrt{3}}{1} = \mathbf{-\sqrt{3}}$**
 * **$\cot\theta = \frac{1}{\tan\theta} = \frac{1}{-\sqrt{3}} = \mathbf{-\frac{\sqrt{3}}{3}}$**
+## 2026-June-17 - Pythagorean Identities for Trigonometric Functions (Precalculus - Trigonometry 10) :
