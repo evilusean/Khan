@@ -17228,3 +17228,46 @@ Following Professor Leonard's method, we determine the remaining trigonometric f
 * **$\cot\theta = \frac{1}{\tan\theta} = \frac{1}{-\sqrt{3}} = \mathbf{-\frac{\sqrt{3}}{3}}$**
 ## 2026-June-17 - Pythagorean Identities for Trigonometric Functions (Precalculus - Trigonometry 10) :
 https://www.youtube.com/watch?v=huP3v7iZuLM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=87
+### Summary: Pythagorean and Even/Odd Trigonometric Identities
+
+This lecture covers even and odd identities, the derivation of Pythagorean identities from the unit circle, and techniques for simplifying complex trigonometric expressions.
+
+---
+
+#### 1. Even and Odd Trigonometric Identities
+* **Definitions**:
+    * **Even Functions**: Symmetric about the y-axis; opposite inputs yield equal outputs ($f(-\theta) = f(\theta)$).
+    * Cosine and Secant are the only even trigonometric functions.
+    * **Odd Functions**: Symmetric about the origin; opposite inputs yield opposite outputs ($f(-\theta) = -f(\theta)$).
+    * Sine, Cosecant, Tangent, and Cotangent are odd.
+* **Application**: Knowing these identities allows for easier manipulation of negative angles.
+    * For even functions, you can change the sign of the input without altering the function's value.
+    * For odd functions, changing the input sign requires changing the function's sign.
+
+---
+
+#### 2. Derivation of Pythagorean Identities
+The Pythagorean identities are rooted in the equation of a unit circle ($x^2 + y^2 = 1$) and the definitions $\cos\theta = x$ and $\sin\theta = y$.
+
+* **Primary Identity**: $\sin^2\theta + \cos^2\theta = 1$.
+* **Other Identities**:
+    * Divide by $\sin^2\theta$ to get: $1 + \cot^2\theta = \csc^2\theta$.
+    * Divide by $\cos^2\theta$ to get: $\tan^2\theta + 1 = \sec^2\theta$.
+* **Utility**: These are essential for converting between functions and simplifying expressions, especially in calculus.
+
+---
+
+#### 3. Advanced Angle Simplification
+When dealing with angles larger than a single rotation ($2\pi$ or $360^\circ$), use the period of the function to reduce the angle.
+* **Technique**: Divide the numerator of the angle by the (denominator $\times$ period).
+* The remainder of this division, when placed over the original denominator, identifies the simplified angle on the unit circle.
+
+---
+
+#### 4. Simplifying Expressions with Identities
+Strategies for simplifying expressions include:
+* **Identify Matches**: Recognize $\sin^2\theta + \cos^2\theta$ or $\sec^2\theta - \tan^2\theta$ patterns immediately to collapse them to $1$.
+* **Unify Functions**: If an expression contains mixed functions, convert everything to sines and cosines to look for cancellations.
+* **Strategy**:
+    1.  Simplify angles using even/odd identities or period reduction.
+    2.  Rewrite terms in sines and cosines if necessary to identify potential simplifications.
