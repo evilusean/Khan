@@ -17233,7 +17233,6 @@ https://www.youtube.com/watch?v=huP3v7iZuLM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This lecture covers even and odd identities, the derivation of Pythagorean identities from the unit circle, and techniques for simplifying complex trigonometric expressions.
 
 ---
-
 #### 1. Even and Odd Trigonometric Identities
 * **Definitions**:
     * **Even Functions**: Symmetric about the y-axis; opposite inputs yield equal outputs ($f(-\theta) = f(\theta)$).
@@ -17245,7 +17244,6 @@ This lecture covers even and odd identities, the derivation of Pythagorean ident
     * For odd functions, changing the input sign requires changing the function's sign.
 
 ---
-
 #### 2. Derivation of Pythagorean Identities
 The Pythagorean identities are rooted in the equation of a unit circle ($x^2 + y^2 = 1$) and the definitions $\cos\theta = x$ and $\sin\theta = y$.
 
@@ -17256,14 +17254,12 @@ The Pythagorean identities are rooted in the equation of a unit circle ($x^2 + y
 * **Utility**: These are essential for converting between functions and simplifying expressions, especially in calculus.
 
 ---
-
 #### 3. Advanced Angle Simplification
 When dealing with angles larger than a single rotation ($2\pi$ or $360^\circ$), use the period of the function to reduce the angle.
 * **Technique**: Divide the numerator of the angle by the (denominator $\times$ period).
 * The remainder of this division, when placed over the original denominator, identifies the simplified angle on the unit circle.
 
 ---
-
 #### 4. Simplifying Expressions with Identities
 Strategies for simplifying expressions include:
 * **Identify Matches**: Recognize $\sin^2\theta + \cos^2\theta$ or $\sec^2\theta - \tan^2\theta$ patterns immediately to collapse them to $1$.
