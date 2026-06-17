@@ -15477,7 +15477,7 @@ Now, use the sum formula $S_n = \frac{n(a_1 + a_n)}{2}$:
 > **Verify the Sequence:**
 > Always quickly check that the difference is truly constant for the whole list. If the difference changed halfway through, it wouldn't be an arithmetic series, and this formula would not apply.
 
-## 2026-Jun-02 - Geometric Sequences (Precalculus - College Algebra 71) :
+## 2026-June-02 - Geometric Sequences (Precalculus - College Algebra 71) :
 https://www.youtube.com/watch?v=qyHCnYewdrQ&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=73
 ### Geometric Sequences
 
@@ -15715,7 +15715,7 @@ $$a_n = 3 \cdot \left(\frac{1}{3}\right)^{n-1}$$
 > **Check your terms:**
 > Always write the higher-indexed term on top in the division to keep your ratio power positive ($r^3$ instead of $r^{-3}$). It makes the math significantly easier to visualize.
 
-## 2026-Jun-03 - Geometric Series (Precalculus - College Algebra 72) :
+## 2026-June-03 - Geometric Series (Precalculus - College Algebra 72) :
 https://www.youtube.com/watch?v=_yDqkrbd5mk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=74
 ### Geometric Series
 
@@ -15917,7 +15917,7 @@ $$S = \frac{a_1}{1 - r}$$
 > [!CAUTION]
 > **Ratio Identification:** > Make sure you are correctly identifying the base of the exponent as $r$. If there is a constant coefficient outside the parenthesis, it is *not* part of the ratio; it is part of the first term $a_1$.
 
-## 2026-Jun-4 - Proof by Mathematical Induction (Precalculus - College Algebra 73) :
+## 2026-June-04 - Proof by Mathematical Induction (Precalculus - College Algebra 73) :
 https://www.youtube.com/watch?v=x5cWX-EyLEI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=74
 ### Proof by Mathematical Induction
 
@@ -16064,7 +16064,7 @@ Since both sides match, the statement is **proven true** by induction for all $n
 > You must clearly show where you replace the sum of the first $k$ terms with your hypothesis ($2k^2 - k$). This substitution is the heart of the inductive proof.
 
 # 2026June05-Trigonometry :
-## 2026June05 - Introduction to Angles (Precalculus - Trigonometry 1) :
+## 2026-June-05 - Introduction to Angles (Precalculus - Trigonometry 1) :
 https://www.youtube.com/watch?v=c41QejoWnb4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=76
 ### Introduction to Angles
 
@@ -16107,7 +16107,7 @@ Trigonometry begins with the formal definition of an angle. In this context, an 
 > **Calculator Settings:**
 > One of the most common mistakes in trigonometry is having your calculator in the wrong mode. Always ensure your calculator is set to **DEG** when working with degrees and **RAD** when working with radians.
 
-## 2026June06 - Converting Degrees, Minutes, and Seconds (Precalculus - Trigonometry 2) :
+## 2026-June-06 - Converting Degrees, Minutes, and Seconds (Precalculus - Trigonometry 2) :
 https://www.youtube.com/watch?v=U40Afn37QC4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=77
 ### Converting Degrees, Minutes, and Seconds (DMS)
 
@@ -16312,7 +16312,7 @@ Rounding to the nearest whole second gives:
 > **Isolating Remainders:**
 > Always make sure to drop the whole number *before* multiplying by 60 for the next step. For example, in Step 3, you must use $0.66$, not $24.66$. Multiplying the whole number again will throw off your calculation completely.
 
-## 2026June07 - Introduction to Radians (Precalculus - Trigonometry 3) :
+## 2026-June-07 - Introduction to Radians (Precalculus - Trigonometry 3) :
 https://www.youtube.com/watch?v=EWd_FtOfyPc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=79
 ### Introduction to Radians
 
@@ -16357,7 +16357,7 @@ Memorizing these key angles is essential for trigonometry:
 > **Calculator Mode:**
 > Always verify your calculator mode before performing trigonometric operations. If the problem involves $\pi$ or fractions of $\pi$, ensure your calculator is set to **RAD** mode. Using **DEG** mode for radian inputs will result in incorrect answers.
 
-## 2026June08 - Converting Radians and Degrees (Precalculus - Trigonometry 4) :
+## 2026-June-08 - Converting Radians and Degrees (Precalculus - Trigonometry 4) :
 https://www.youtube.com/watch?v=sCwcbZSZL5o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=80
 ### Converting Radians and Degrees
 
@@ -16604,7 +16604,7 @@ $$4 \cdot \left( \frac{180^\circ}{\pi} \right)$$
 > **Calculator Precision:**
 > When converting "pure" radians like $4$, you will need to use the $\pi$ button on your calculator to get an accurate decimal. Using a truncated value like $3.14$ will introduce rounding errors into your degree measure.
 
-## 2026June09 - Area of a Sector, Angular Velocity, Applications (Precalculus - Trigonometry 5) :
+## 2026-June-09 - Area of a Sector, Angular Velocity, Applications (Precalculus - Trigonometry 5) :
 https://www.youtube.com/watch?v=x6wnYbOBCic&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=80
 ### Area of a Sector, Angular Velocity, and Applications
 
@@ -16772,7 +16772,7 @@ The linear velocity depends on your distance ($r$) from the axis of rotation, no
 
 > [!CAUTION]
 > **Axis vs. Center:** Do not use the distance to the center of the Earth ($3,960 \text{ miles}$) for every calculation. You must use the distance to the axis of rotation, which varies by latitude.
-## 2026June10 - Trigonometric Functions and the Unit Circle (Precalculus - Trigonometry 6) :
+## 2026-June-10 - Trigonometric Functions and the Unit Circle (Precalculus - Trigonometry 6) :
 https://www.youtube.com/watch?v=__nefjOhVks&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=80
 ### Trigonometric Functions and the Unit Circle
 
@@ -16823,7 +16823,7 @@ Quadrant angles ($0^\circ, 90^\circ, 180^\circ, 270^\circ$) occur at the axes.
 * **Coordinate Mapping:** $\cos$ is always the $x$-value, and $\sin$ is always the $y$-value.
 * **Repetition:** Trig functions have a "period" and repeat their values after a full rotation ($2\pi$).
 
-## 2026June12 - How to Use the Unit Circle in Trigonometry (Precalculus - Trigonometry 7) : 
+## 2026-June-12 - How to Use the Unit Circle in Trigonometry (Precalculus - Trigonometry 7) : 
 https://www.youtube.com/watch?v=GdRZfemxTFI&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=83
 ### Trigonometric Functions and the Unit Circle
 
@@ -17009,7 +17009,7 @@ If a point is not on the unit circle, you must find the radius ($r$) using the P
     * **$\sin(\theta) = \frac{y}{r} = \frac{4}{5}$**
     * **$\cos(\theta) = \frac{x}{r} = \frac{-3}{5}$**
     * **$\tan(\theta) = \frac{y}{x} = \frac{4}{-3} = -\frac{4}{3}$**
-## 2026June14 - Basic Properties of Trigonometric Functions (Precalculus - Trigonometry 8) :
+## 2026-June-14 - Basic Properties of Trigonometric Functions (Precalculus - Trigonometry 8) :
 https://www.youtube.com/watch?v=_dTRpq_yGIc&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=84
 ### Summary of Basic Properties of Trigonometric Functions
 
@@ -17068,7 +17068,7 @@ The signs of trigonometric functions depend on the quadrant of the angle:
 * **Quadrant III:** Tangent/Cotangent are positive.
 * **Quadrant IV:** Cosine/Secant are positive.
 
-## 2026June15 - Reciprocal Identities in Trigonometry (Precalculus - Trigonometry 9) :
+## 2026-June-15 - Reciprocal Identities in Trigonometry (Precalculus - Trigonometry 9) :
 https://www.youtube.com/watch?v=98jDUsZ2JYA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=85
 ### Summary: Reciprocal Identities in Trigonometry
 This summary details the relationships, utility, and application of reciprocal identities in trigonometry based on the instructional series by Professor Leonard.
@@ -17199,3 +17199,30 @@ Depending on the quadrant (which would be provided to select between positive or
 * **$\cot\theta = \frac{x}{y} = \pm \frac{5}{12}$**
 
 *Note: Without a specified quadrant, all values dependent on $x$ retain the $\pm$ notation to account for all possible orientations.*
+### Evaluating Trigonometric Functions for $\sec\theta = 2$ and $\sin\theta < 0$
+
+Following Professor Leonard's method, we determine the remaining trigonometric functions by identifying the quadrant and using the Pythagorean identity.
+
+---
+#### 1. Identify the Quadrant
+* **$\sec\theta = 2$**: Since $\sec\theta$ is positive, the angle must be in a quadrant where $\cos\theta$ is positive (Quadrants I or IV).
+* **$\sin\theta < 0$**: Since $\sin\theta$ is negative, the angle must be in a quadrant where $y$ is negative (Quadrants III or IV).
+* **Conclusion**: The angle $\theta$ resides in **Quadrant IV**.
+
+---
+#### 2. Determine Components
+* Using $\sec\theta = \frac{r}{x} = \frac{2}{1}$, we identify:
+    * $r = 2$
+    * $x = 1$
+* Use the Pythagorean theorem ($x^2 + y^2 = r^2$) to solve for $y$:
+    * $1^2 + y^2 = 2^2$
+    * $1 + y^2 = 4 \implies y^2 = 3$
+    * $y = -\sqrt{3}$ (Negative sign chosen because $\theta$ is in Quadrant IV).
+
+---
+#### 3. Calculate Remaining Functions
+* **$\sin\theta = \frac{y}{r} = \mathbf{-\frac{\sqrt{3}}{2}}$**
+* **$\cos\theta = \frac{1}{\sec\theta} = \mathbf{\frac{1}{2}}$**
+* **$\csc\theta = \frac{1}{\sin\theta} = \frac{1}{-\frac{\sqrt{3}}{2}} = \mathbf{-\frac{2\sqrt{3}}{3}}$**
+* **$\tan\theta = \frac{y}{x} = \frac{-\sqrt{3}}{1} = \mathbf{-\sqrt{3}}$**
+* **$\cot\theta = \frac{1}{\tan\theta} = \frac{1}{-\sqrt{3}} = \mathbf{-\frac{\sqrt{3}}{3}}$**
