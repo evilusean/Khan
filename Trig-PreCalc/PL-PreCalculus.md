@@ -17227,3 +17227,4 @@ Following Professor Leonard's method, we determine the remaining trigonometric f
 * **$\tan\theta = \frac{y}{x} = \frac{-\sqrt{3}}{1} = \mathbf{-\sqrt{3}}$**
 * **$\cot\theta = \frac{1}{\tan\theta} = \frac{1}{-\sqrt{3}} = \mathbf{-\frac{\sqrt{3}}{3}}$**
 ## 2026-June-17 - Pythagorean Identities for Trigonometric Functions (Precalculus - Trigonometry 10) :
+https://www.youtube.com/watch?v=huP3v7iZuLM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=87
