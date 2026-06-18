@@ -17267,3 +17267,21 @@ Strategies for simplifying expressions include:
 * **Strategy**:
     1.  Simplify angles using even/odd identities or period reduction.
     2.  Rewrite terms in sines and cosines if necessary to identify potential simplifications.
+### Summary: The Pythagorean Identity
+
+The Pythagorean identity is a fundamental relationship in trigonometry, derived directly from the equation of a circle and the Pythagorean theorem. It establishes the link between the sine and cosine of an angle $\theta$.
+
+---
+
+#### 1. Derivation from the Unit Circle
+* **Circle Equation**: The equation for a unit circle (a circle with a radius of $r=1$) is given by $x^2 + y^2 = 1$. * **Trigonometric Definitions**: On the unit circle, any point $(x, y)$ can be defined by an angle $\theta$ such that $x = \cos\theta$ and $y = \sin\theta$.
+* **Substitution**: By substituting these definitions into the circle equation, we get $(\cos\theta)^2 + (\sin\theta)^2 = 1$.
+* **Identity**: Using standard notation for trigonometric powers, this simplifies to the primary Pythagorean identity:
+$$\sin^2\theta + \cos^2\theta = 1$$
+
+---
+
+#### 2. Corollaries
+From this primary identity, we can derive additional useful expressions for manipulating trigonometric equations:
+* $\sin^2\theta = 1 - \cos^2\theta$
+* $\cos^2\theta = 1 - \sin^2\theta$
