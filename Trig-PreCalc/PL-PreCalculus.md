@@ -17322,3 +17322,28 @@ $$1 + \cot^2\theta = \csc^2\theta$$
 From this identity, we can rearrange the terms to create useful forms for substitution:
 * $\cot^2\theta = \csc^2\theta - 1$
 * $\csc^2\theta - \cot^2\theta = 1$
+### Summary: The Pythagorean Identity for Tangent and Secant
+
+In addition to the primary identity, we can derive further Pythagorean identities by dividing the fundamental identity $\sin^2\theta + \cos^2\theta = 1$ by other trigonometric functions.
+
+---
+
+#### 1. Derivation of the Identity
+To derive the identity involving tangent and secant, we divide every term of the primary Pythagorean identity by $\cos^2\theta$:
+$$\frac{\sin^2\theta}{\cos^2\theta} + \frac{\cos^2\theta}{\cos^2\theta} = \frac{1}{\cos^2\theta}$$
+
+
+* **Simplification**:
+    * $\frac{\sin^2\theta}{\cos^2\theta}$ simplifies to $\tan^2\theta$.
+    * $\frac{\cos^2\theta}{\cos^2\theta}$ simplifies to $1$.
+    * $\frac{1}{\cos^2\theta}$ simplifies to $\sec^2\theta$.
+
+This yields the identity:
+$$\tan^2\theta + 1 = \sec^2\theta$$
+
+---
+
+#### 2. Corollaries
+From this identity, we can rearrange the terms to create useful forms for substitution:
+* $\tan^2\theta = \sec^2\theta - 1$
+* $\sec^2\theta - \tan^2\theta = 1$
