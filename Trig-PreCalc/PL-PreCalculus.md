@@ -17395,3 +17395,4 @@ Following the techniques for simplifying expressions using reciprocal and odd/ev
 * **Calculate**: The expression becomes $\frac{-\sin(20^\circ)}{\cos(20^\circ)} + \tan(20^\circ)$.
     * Since $\frac{\sin\theta}{\cos\theta} = \tan\theta$, this is $-\tan(20^\circ) + \tan(20^\circ) = \mathbf{0}$.
 ## 18-June-2026 - The Graphs of Sine and Cosine (Precalculus - Trigonometry 11) :
+https://www.youtube.com/watch?v=3HHgZopzL_s&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=85
