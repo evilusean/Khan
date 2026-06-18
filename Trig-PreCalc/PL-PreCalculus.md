@@ -17350,33 +17350,28 @@ From this identity, we can rearrange the terms to create useful forms for substi
 Following the methods for simplifying expressions using Pythagorean, reciprocal, and odd/even identities, here are the solutions:
 
 ---
-
 #### 1. $\tan\left(-\frac{37\pi}{4}\right)$
 * **Apply Odd Identity**: Tangent is odd, so $\tan(-\theta) = -\tan(\theta)$.
 * **Reduce Angle**: The period of tangent is $\pi$. Divide $37$ by the denominator $4$ to find the remainder: $37 \div 4 = 9$ remainder $1$. 
 * **Calculation**: $-\tan\left(\frac{\pi}{4}\right) = -(1) = \mathbf{-1}$.
 
 ---
-
 #### 2. $\sin^2(40^\circ) + \cos^2(40^\circ)$
 * **Apply Pythagorean Identity**: For any angle $\theta$, $\sin^2\theta + \cos^2\theta = 1$.
 * **Result**: Since the angles match, the expression simplifies to **$1$**.
 
 ---
-
 #### 3. $\sec^2(18^\circ) - \tan^2(18^\circ)$
 * **Apply Pythagorean Identity Corollary**: We know $\tan^2\theta + 1 = \sec^2\theta$, which rearranges to $\sec^2\theta - \tan^2\theta = 1$.
 * **Result**: Since the angles match, the expression simplifies to **$1$**.
 
 ---
-
 #### 4. $\tan\left(\frac{\pi}{4}\right) - \frac{\sin\left(\frac{\pi}{4}\right)}{\cos\left(\frac{\pi}{4}\right)}$
 * **Apply Quotient Identity**: Tangent is defined as $\frac{\sin\theta}{\cos\theta}$.
 * **Substitution**: The expression becomes $\tan\left(\frac{\pi}{4}\right) - \tan\left(\frac{\pi}{4}\right)$.
 * **Result**: Subtracting the same value from itself equals **$0$**.
 
 ---
-
 #### 5. $\sin(\pi)\csc(\pi)$
 * **Apply Reciprocal Identity**: Cosecant is the reciprocal of sine, $\csc\theta = \frac{1}{\sin\theta}$.
 * **Substitution**: $\sin(\pi) \cdot \frac{1}{\sin(\pi)}$.
