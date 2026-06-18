@@ -17305,7 +17305,6 @@ From this primary identity, we can derive additional useful expressions for mani
 In addition to the primary identity, we can derive further Pythagorean identities by dividing the fundamental identity $\sin^2\theta + \cos^2\theta = 1$ by other trigonometric functions. 
 
 ---
-
 #### 1. Derivation of the Identity
 To derive the identity involving cotangent and cosecant, we divide every term of the primary Pythagorean identity by $\sin^2\theta$:
 $$\frac{\sin^2\theta}{\sin^2\theta} + \frac{\cos^2\theta}{\sin^2\theta} = \frac{1}{\sin^2\theta}$$
@@ -17319,7 +17318,6 @@ This yields the identity:
 $$1 + \cot^2\theta = \csc^2\theta$$
 
 ---
-
 #### 2. Corollaries
 From this identity, we can rearrange the terms to create useful forms for substitution:
 * $\cot^2\theta = \csc^2\theta - 1$
