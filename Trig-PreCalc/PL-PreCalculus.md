@@ -17401,7 +17401,6 @@ https://www.youtube.com/watch?v=3HHgZopzL_s&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This summary covers the fundamental properties, origins, and graphical characteristics of sine and cosine functions as presented by Professor Leonard.
 
 ---
-
 #### 1. Fundamental Concept: Relating the Unit Circle to the Graph
 The core challenge in graphing these functions is translating the unit circle into a Cartesian coordinate system.
 * **Input (x-axis)**: The $x$ on the graph represents an angle or arc length on the unit circle (measured in radians). Because it is a unit circle, arc length equals central angle, allowing for real numbers to be mapped directly to angles.
@@ -17409,7 +17408,6 @@ The core challenge in graphing these functions is translating the unit circle in
 * **Key Distinction**: The $x$ on the graph is *not* the $x$-coordinate from the unit circle; it is the independent variable (angle/arc length).
 
 ---
-
 #### 2. The Sine Graph ($y = \sin(x)$)
 The sine function maps the angle to the $y$-coordinate on the unit circle. * **Domain & Range**: Domain is all real numbers $(-\infty, \infty)$; range is $[-1, 1]$.
 * **Symmetry**: Odd function (symmetric about the origin).
@@ -17419,7 +17417,6 @@ The sine function maps the angle to the $y$-coordinate on the unit circle. * **D
     * **Peaks**: Relative maximums and minimums occur at the quarters of the period ($\frac{\pi}{2}, \frac{3\pi}{2}$).
 
 ---
-
 #### 3. The Cosine Graph ($y = \cos(x)$)
 The cosine function maps the angle to the $x$-coordinate on the unit circle.
 * **Domain & Range**: Domain is all real numbers; range is $[-1, 1]$.
@@ -17430,7 +17427,6 @@ The cosine function maps the angle to the $x$-coordinate on the unit circle.
     * **Peaks**: Relative maximums/minimums occur at the ends and the center of the period ($0, \pi, 2\pi$).
 
 ---
-
 #### 4. Summary of Graphing Strategy
 When graphing transformations in the future, the following approach is recommended:
 1.  **Identify the Period**: Adjust the scale based on the period.
@@ -17438,3 +17434,4 @@ When graphing transformations in the future, the following approach is recommend
     * **For Sine**: Plot x-intercepts at the ends and center; use the quarters for the amplitude peaks.
     * **For Cosine**: Plot x-intercepts at the quarters; use the ends and center for the amplitude peaks.
 3.  **Apply Transformations**: Multiply key points by the amplitude to stretch, compress, or reflect the graph.
+
