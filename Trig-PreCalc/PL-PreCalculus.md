@@ -17394,3 +17394,4 @@ Following the techniques for simplifying expressions using reciprocal and odd/ev
     * For $\cos(380^\circ)$, subtract the period of $360^\circ$ to get $\cos(20^\circ)$.
 * **Calculate**: The expression becomes $\frac{-\sin(20^\circ)}{\cos(20^\circ)} + \tan(20^\circ)$.
     * Since $\frac{\sin\theta}{\cos\theta} = \tan\theta$, this is $-\tan(20^\circ) + \tan(20^\circ) = \mathbf{0}$.
+## 18-June-2026 - The Graphs of Sine and Cosine (Precalculus - Trigonometry 11) :
