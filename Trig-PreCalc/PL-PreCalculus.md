@@ -17376,3 +17376,23 @@ Following the methods for simplifying expressions using Pythagorean, reciprocal,
 * **Apply Reciprocal Identity**: Cosecant is the reciprocal of sine, $\csc\theta = \frac{1}{\sin\theta}$.
 * **Substitution**: $\sin(\pi) \cdot \frac{1}{\sin(\pi)}$.
 * **Result**: This simplifies to **$1$** (provided $\sin(\pi) \neq 0$; however, note that $\sin(\pi) = 0$, making $\csc(\pi)$ undefined).
+### Simplifying Trigonometric Expressions
+
+Following the techniques for simplifying expressions using reciprocal and odd/even identities, here are the solutions:
+
+---
+
+#### 1. $\sec\left(-\frac{\pi}{18}\right) \cos\left(\frac{37\pi}{18}\right)$
+* **Simplify Angles**: 
+    * Since secant is an even function, $\sec(-\theta) = \sec(\theta)$, so $\sec\left(-\frac{\pi}{18}\right) = \sec\left(\frac{\pi}{18}\right)$.
+    * For $\cos\left(\frac{37\pi}{18}\right)$, the period is $2\pi$ ($36\pi/18$). Dividing $37$ by $36$ gives a remainder of $1$, so $\cos\left(\frac{37\pi}{18}\right) = \cos\left(\frac{\pi}{18}\right)$.
+* **Calculate**: The expression becomes $\sec\left(\frac{\pi}{18}\right) \cdot \cos\left(\frac{\pi}{18}\right)$. Since $\sec\theta = \frac{1}{\cos\theta}$, this is $\frac{1}{\cos(\pi/18)} \cdot \cos(\pi/18) = \mathbf{1}$.
+
+---
+
+#### 2. $\frac{\sin(-20^\circ)}{\cos(380^\circ)} + \tan(20^\circ)$
+* **Simplify Angles and Functions**:
+    * Sine is an odd function, so $\sin(-20^\circ) = -\sin(20^\circ)$.
+    * For $\cos(380^\circ)$, subtract the period of $360^\circ$ to get $\cos(20^\circ)$.
+* **Calculate**: The expression becomes $\frac{-\sin(20^\circ)}{\cos(20^\circ)} + \tan(20^\circ)$.
+    * Since $\frac{\sin\theta}{\cos\theta} = \tan\theta$, this is $-\tan(20^\circ) + \tan(20^\circ) = \mathbf{0}$.
