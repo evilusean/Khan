@@ -17467,3 +17467,30 @@ To graph $y = a \cdot \sin(\omega x) + k$ or $y = a \cdot \cos(\omega x) + k$ (e
 * **Graphic Organizer Utility**: Drawing a dotted line at the vertical shift $k$ and marking the period divisions in relation to it is the most reliable way to avoid errors when plotting.
 * **Phase Shifts**: Note that this lecture excludes horizontal phase shifts ($x - h$), which will be addressed in future lessons.
 * **Graphing Multiple Cycles**: To graph more than one period, extend the horizontal axis and continue the pattern by adding the period $T$ to the existing key points.
+### y = 3sin(x)
+
+To graph $y = 3\sin(x)$, follow the structured process used by Professor Leonard.
+
+* **Step 1: Find the Period**
+    * The original period for sine is $2\pi$.
+    * You divide the standard period by the number multiplied by $x$ (the coefficient $\omega$).
+    * In this case, $\omega = 1$, so the period is $2\pi / 1 = 2\pi$.
+    * Mark this period on your x-axis.
+
+* **Step 2: Divide the Period**
+    * After marking the period ($2\pi$), cut it in half to get $\pi$.
+    * Cut each of those sections in half to create the quarters of your period: $\pi/2$ (first quarter) and $3\pi/2$ (third quarter).
+
+* **Step 3: Identify Intercepts**
+    * Sine functions have x-intercepts at the ends and the center of the period.
+    * For this graph, place points at $0$, $\pi$, and $2\pi$.
+
+* **Step 4: Determine Key Points**
+    * The key points (peaks and valleys) occur at the quarters of the period that are not x-intercepts.
+    * The original sine key points are $(\pi/2, 1)$ and $(3\pi/2, -1)$.
+    * Since $a = 3$, you multiply these outputs by $3$ to determine your new key points.
+    * The new key points are $(\pi/2, 3)$ and $(3\pi/2, -3)$.
+
+* **Step 5: Plot and Graph**
+    * Plot the intercepts and the transformed key points.
+    * The amplitude of $3$ vertically stretches the original sine graph, showing how high the peak goes above the x-axis and how low the valley goes.
