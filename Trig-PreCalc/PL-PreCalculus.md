@@ -17435,3 +17435,4 @@ When graphing transformations in the future, the following approach is recommend
     * **For Cosine**: Plot x-intercepts at the quarters; use the ends and center for the amplitude peaks.
 3.  **Apply Transformations**: Multiply key points by the amplitude to stretch, compress, or reflect the graph.
 
+## 2026-June-19 - Graphing Transformations with Sine and Cosine (Precalculus - Trigonometry 12) :
