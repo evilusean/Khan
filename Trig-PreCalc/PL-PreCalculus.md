@@ -17536,3 +17536,33 @@ To graph $y = \sin(3x)$, follow the structured process used by Professor Leonard
 * **Step 5: Plot and Graph**
     * The coefficient of $3$ inside the argument creates a horizontal compression, making the sine wave repeat more frequently than the standard sine graph.
     * Plot the intercepts and the key points to complete the cycle.
+### y = cos(-2x)
+
+To graph $y = \cos(-2x)$, we use Professor Leonard's methodology, incorporating the specific property that cosine is an even function.
+
+* **Step 1: Simplify using Even Function Property**
+    * Since cosine is an even function, $\cos(-\theta) = \cos(\theta)$.
+    * Therefore, we rewrite the function as: $y = \cos(2x)$. This avoids the issues of trying to divide by a negative number.
+
+* **Step 2: Find the Period**
+    * The standard period for cosine is $2\pi$.
+    * Divide $2\pi$ by the coefficient $\omega = 2$.
+    * The period is $2\pi / 2 = \pi$. Mark $\pi$ on your x-axis.
+
+* **Step 3: Divide the Period**
+    * Cut the period ($\pi$) in half to get $\pi/2$.
+    * Cut each section in half again to find the quarter points:
+        * First quarter: $(\pi/2) / 2 = \pi/4$
+        * Third quarter: $(\pi/4) + (\pi/2) = 3\pi/4$
+
+* **Step 4: Identify Intercepts**
+    * Cosine functions have x-intercepts at the quarter points.
+    * Place points at $\pi/4$ and $3\pi/4$.
+
+* **Step 5: Determine Key Points**
+    * Key points (peaks and valleys) occur at the ends and the center of the period ($0, \pi/2, \pi$).
+    * The original cosine pattern is peak ($1$), valley ($-1$), peak ($1$).
+    * There is no amplitude change, so the key points are $(0, 1)$, $(\pi/2, -1)$, and $(\pi, 1)$.
+
+* **Step 6: Plot and Graph**
+    * Plot the intercepts and key points. The transformation shows a horizontal compression compared to the parent cosine function.
