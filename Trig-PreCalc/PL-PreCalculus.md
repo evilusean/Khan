@@ -17489,3 +17489,32 @@ To graph $y = 3\sin(x)$, follow the structured process used by Professor Leonard
 * **Step 5: Plot and Graph**
     * Plot the intercepts and the transformed key points.
     * The amplitude of $3$ vertically stretches the original sine graph, showing how high the peak goes above the x-axis and how low the valley goes.
+### y = -4cos(x)
+
+To graph $y = -4\cos(x)$, follow this step-by-step process:
+
+* **Step 1: Find the Period**
+    * The standard period of a cosine function is $2\pi$.
+    * Divide $2\pi$ by the coefficient $\omega$ (the number in front of $x$). Since $\omega = 1$, the period is $2\pi / 1 = 2\pi$.
+    * Mark $2\pi$ on your x-axis.
+
+* **Step 2: Divide the Period**
+    * Cut the period ($2\pi$) in half to get $\pi$.
+    * Cut each section in half again to find the quarters: $\pi/2$ (first quarter) and $3\pi/2$ (third quarter).
+
+* **Step 3: Identify Intercepts**
+    * Cosine functions have x-intercepts at the quarters of the period.
+    * Mark points at $\pi/2$ and $3\pi/2$.
+
+* **Step 4: Determine Key Points**
+    * The key points (peaks and valleys) occur at the ends and the center of the period ($0, \pi, 2\pi$).
+    * Originally, cosine has peaks/valleys at $1, -1, 1$.
+    * Multiply these original outputs by your amplitude coefficient, $a = -4$.
+    * New key points:
+        * $0 \cdot (-4) \rightarrow (0, -4)$
+        * $-1 \cdot (-4) \rightarrow (\pi, 4)$
+        * $1 \cdot (-4) \rightarrow (2\pi, -4)$
+
+* **Step 5: Plot and Graph**
+    * The negative sign reflects the graph, turning what would have been a peak into a valley, and vice versa. The $4$ stretches the graph vertically by a factor of $4$.
+    * Plot the intercepts and the transformed key points to complete the cycle.
