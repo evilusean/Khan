@@ -17436,3 +17436,4 @@ When graphing transformations in the future, the following approach is recommend
 3.  **Apply Transformations**: Multiply key points by the amplitude to stretch, compress, or reflect the graph.
 
 ## 2026-June-19 - Graphing Transformations with Sine and Cosine (Precalculus - Trigonometry 12) :
+https://www.youtube.com/watch?v=dyXT5KMCrPk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=86
