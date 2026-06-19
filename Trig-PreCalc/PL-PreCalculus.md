@@ -17515,30 +17515,24 @@ To graph $y = -4\cos(x)$, follow this step-by-step process:
     * The negative sign reflects the graph, turning what would have been a peak into a valley, and vice versa. The $4$ stretches the graph vertically by a factor of $4$.
     * Plot the intercepts and the transformed key points to complete the cycle.
 ### y = sin(3x)
-
 To graph $y = \sin(3x)$, follow the structured process used by Professor Leonard.
-
 * **Step 1: Find the Period**
     * The original period for sine is $2\pi$.
     * You divide the standard period by the coefficient of $x$ ($\omega = 3$).
     * The period is $2\pi / 3$. Mark this value on your x-axis.
-
 * **Step 2: Divide the Period**
     * Take the period ($2\pi / 3$) and cut it in half to get $\pi / 3$.
     * Cut each section in half again to find the quarter points:
         * First quarter: $(\pi/3) / 2 = \pi / 6$
         * Third quarter: $(\pi/6) + (\pi/3) = 3\pi / 6 = \pi / 2$
-
 * **Step 3: Identify Intercepts**
     * Sine functions have x-intercepts at the ends ($0$ and $2\pi/3$) and the center ($\pi/3$) of the period.
     * Place these three points on your graph.
-
 * **Step 4: Determine Key Points**
     * The key points (peaks and valleys) occur at the quarters of the period that are not x-intercepts.
     * The original sine key points are $(\text{first quarter}, 1)$ and $(\text{third quarter}, -1)$.
     * These points are $(\pi/6, 1)$ and $(\pi/2, -1)$.
     * There is no vertical stretch/amplitude change (a = 1), so these points remain as identified.
-
 * **Step 5: Plot and Graph**
     * The coefficient of $3$ inside the argument creates a horizontal compression, making the sine wave repeat more frequently than the standard sine graph.
     * Plot the intercepts and the key points to complete the cycle.
