@@ -17437,3 +17437,36 @@ When graphing transformations in the future, the following approach is recommend
 
 ## 2026-June-19 - Graphing Transformations with Sine and Cosine (Precalculus - Trigonometry 12) :
 https://www.youtube.com/watch?v=dyXT5KMCrPk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=86
+### Summary: Graphing Transformations with Sine and Cosine
+
+This lecture outlines a systematic, five-step process for graphing transformations of sine and cosine functions. Professor Leonard emphasizes using a structured approach that applies the same logic to all trig functions, regardless of complexity.
+
+---
+
+#### 1. The General Graphing Steps
+To graph $y = a \cdot \sin(\omega x) + k$ or $y = a \cdot \cos(\omega x) + k$ (excluding phase shifts for now), follow this order:
+
+1.  **Find the Period ($T$):** The period is calculated by dividing the standard period ($2\pi$ for sine/cosine) by the coefficient $\omega$ in front of $x$ ($T = 2\pi / \omega$).
+2.  **Vertical Shift ($k$):** Identify any constant added or subtracted at the end. This shifts the entire function up or down.
+3.  **Graphic Organizer (The Shifted Axis):** If a vertical shift is present, draw a dotted horizontal line at $y = k$. Treat this line as your new "x-axis" for plotting.
+4.  **Mark Period & Quarters:** Plot the period on the horizontal axis. Divide it into halves and quarters. These divisions locate where key features of the graph occur.
+5.  **Plot Intercepts & Key Points:**
+    * **Sine Intercepts:** Occur at the ends and center of the period.
+    * **Cosine Intercepts:** Occur at the quarters of the period.
+    * **Key Points (Peaks/Valleys):** Use the remaining marks not used as intercepts. Multiply original peak/valley values ($\pm 1$) by the amplitude $a$ to stretch, compress, or reflect the graph.
+
+---
+
+#### 2. Key Transformations Explained
+* **Period Adjustment ($\omega$):** Multiplying the input by $\omega$ causes horizontal compression (if $\omega > 1$) or stretching (if $\omega < 1$).
+* **Amplitude ($a$):** The coefficient $a$ stretches or compresses the output. If $a$ is negative, it reflects the graph across the shifted axis.
+* **Handling Negative Arguments**: 
+    * Never divide the period by a negative $\omega$. 
+    * Use **Even/Odd identities** first: For sine (odd), pull the negative out as a coefficient; for cosine (even), the negative disappears within the function.
+
+---
+
+#### 3. Important Considerations
+* **Graphic Organizer Utility**: Drawing a dotted line at the vertical shift $k$ and marking the period divisions in relation to it is the most reliable way to avoid errors when plotting.
+* **Phase Shifts**: Note that this lecture excludes horizontal phase shifts ($x - h$), which will be addressed in future lessons.
+* **Graphing Multiple Cycles**: To graph more than one period, extend the horizontal axis and continue the pattern by adding the period $T$ to the existing key points.
