@@ -17442,7 +17442,6 @@ https://www.youtube.com/watch?v=dyXT5KMCrPk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 This lecture outlines a systematic, five-step process for graphing transformations of sine and cosine functions. Professor Leonard emphasizes using a structured approach that applies the same logic to all trig functions, regardless of complexity.
 
 ---
-
 #### 1. The General Graphing Steps
 To graph $y = a \cdot \sin(\omega x) + k$ or $y = a \cdot \cos(\omega x) + k$ (excluding phase shifts for now), follow this order:
 
@@ -17456,7 +17455,6 @@ To graph $y = a \cdot \sin(\omega x) + k$ or $y = a \cdot \cos(\omega x) + k$ (e
     * **Key Points (Peaks/Valleys):** Use the remaining marks not used as intercepts. Multiply original peak/valley values ($\pm 1$) by the amplitude $a$ to stretch, compress, or reflect the graph.
 
 ---
-
 #### 2. Key Transformations Explained
 * **Period Adjustment ($\omega$):** Multiplying the input by $\omega$ causes horizontal compression (if $\omega > 1$) or stretching (if $\omega < 1$).
 * **Amplitude ($a$):** The coefficient $a$ stretches or compresses the output. If $a$ is negative, it reflects the graph across the shifted axis.
@@ -17465,7 +17463,6 @@ To graph $y = a \cdot \sin(\omega x) + k$ or $y = a \cdot \cos(\omega x) + k$ (e
     * Use **Even/Odd identities** first: For sine (odd), pull the negative out as a coefficient; for cosine (even), the negative disappears within the function.
 
 ---
-
 #### 3. Important Considerations
 * **Graphic Organizer Utility**: Drawing a dotted line at the vertical shift $k$ and marking the period divisions in relation to it is the most reliable way to avoid errors when plotting.
 * **Phase Shifts**: Note that this lecture excludes horizontal phase shifts ($x - h$), which will be addressed in future lessons.
