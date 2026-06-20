@@ -17563,30 +17563,27 @@ To graph $y = \cos(-2x)$, we use Professor Leonard's methodology, incorporating 
 ### y = -sin(x/8)
 
 To graph $y = -\sin(x/8)$, follow the structured process used by Professor Leonard.
-
 * **Step 1: Find the Period**
     * The original period for sine is $2\pi$.
     * Divide $2\pi$ by the coefficient of $x$ ($\omega = 1/8$).
     * The period is $2\pi / (1/8) = 16\pi$. Mark $16\pi$ on your x-axis.
-
 * **Step 2: Divide the Period**
     * Take the period ($16\pi$) and cut it in half to get $8\pi$.
     * Cut each section in half again to find the quarter points:
         * First quarter: $4\pi$
         * Third quarter: $4\pi + 8\pi = 12\pi$
-
 * **Step 3: Identify Intercepts**
     * Sine functions have x-intercepts at the ends ($0$ and $16\pi$) and the center ($8\pi$) of the period.
     * Place these three points on your graph.
-
 * **Step 4: Determine Key Points**
     * The key points (peaks and valleys) occur at the quarters of the period that are not x-intercepts.
     * Originally, sine has a peak ($1$) at the first quarter and a valley ($-1$) at the third quarter.
     * Because of the coefficient $-1$ (the negative sign), the outputs are multiplied by $-1$:
         * First quarter point: $(4\pi, -1)$
         * Third quarter point: $(12\pi, 1)$
-
 * **Step 5: Plot and Graph**
     * The coefficient $1/8$ causes a horizontal stretch, making the wave appear much wider. 
     * The negative sign reflects the graph across the x-axis, turning the standard sine curve upside down.
     * Plot the intercepts and the reflected key points to complete the cycle.
+
+
