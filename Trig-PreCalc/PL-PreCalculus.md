@@ -17585,5 +17585,91 @@ To graph $y = -\sin(x/8)$, follow the structured process used by Professor Leona
     * The coefficient $1/8$ causes a horizontal stretch, making the wave appear much wider. 
     * The negative sign reflects the graph across the x-axis, turning the standard sine curve upside down.
     * Plot the intercepts and the reflected key points to complete the cycle.
+### y = 3cos(4x) + 1
 
+To graph $y = 3\cos(4x) + 1$, follow the step-by-step process used by Professor Leonard:
 
+* **Step 1: Find the Period**
+    * The original period for cosine is $2\pi$.
+    * Divide $2\pi$ by the coefficient of $x$ ($\omega = 4$).
+    * The period is $2\pi / 4 = \pi/2$. 
+* **Step 2: Account for Vertical Shift**
+    * The $+1$ at the end indicates a vertical shift up $1$ unit.
+    * Draw a dotted horizontal line at $y = 1$. This line serves as your "new x-axis" (a graphic organizer) to plot your points.
+* **Step 3: Mark Period and Quarters**
+    * Place the period ($\pi/2$) on your x-axis (and along the dotted line).
+    * Divide the period into quarters:
+        * Half of the period: $\pi/4$
+        * First quarter: $\pi/8$
+        * Third quarter: $3\pi/8$
+* **Step 4: Identify Intercepts**
+    * For cosine, the x-intercepts (relative to the shifted axis) occur at the quarters of the period.
+    * Place points on your dotted line at $\pi/8$ and $3\pi/8$.
+* **Step 5: Determine Key Points**
+    * The key points for cosine (peaks and valleys) occur at the ends ($0, \pi/2$) and the center ($\pi/4$) of the period.
+    * The original cosine values are peak ($1$), valley ($-1$), peak ($1$).
+    * Multiply these values by the amplitude ($a = 3$):
+        * At $x = 0$: $1 \cdot 3 = 3$. Add the vertical shift ($+1$), so the point is $(0, 4)$.
+        * At $x = \pi/4$: $-1 \cdot 3 = -3$. Add the vertical shift ($+1$), so the point is $(\pi/4, -2)$.
+        * At $x = \pi/2$: $1 \cdot 3 = 3$. Add the vertical shift ($+1$), so the point is $(\pi/2, 4)$.
+* **Step 6: Plot and Graph**
+    * Plot these key points relative to your shifted axis ($y=1$).
+    * The graph shows a horizontal compression due to the $4x$ and a vertical stretch/shift due to the $3\cos(x) + 1$.
+### y = 4sin((π/2)x) - 2
+To graph $y = 4\sin(\frac{\pi}{2}x) - 2$, follow the systematic process used by Professor Leonard:
+* **Step 1: Find the Period**
+    * The standard period for sine is $2\pi$. 
+    * Divide $2\pi$ by the coefficient $\omega = \pi/2$.
+    * $2\pi \div (\pi/2) = 2\pi \cdot (2/\pi) = 4$.
+    * The period is $4$.
+* **Step 2: Account for Vertical Shift**
+    * The $-2$ at the end indicates a vertical shift down $2$ units.
+    * Draw a dashed horizontal line at $y = -2$. This serves as your new "x-axis" (graphic organizer) for the graph.
+* **Step 3: Mark Period and Quarters**
+    * Plot the period ($4$) on the horizontal axis.
+    * Divide the period into quarters:
+        * Half of the period: $2$
+        * First quarter: $1$
+        * Third quarter: $3$
+* **Step 4: Identify Intercepts**
+    * Sine functions have x-intercepts at the ends ($0, 4$) and center ($2$) of the period.
+    * Relative to your shifted axis ($y = -2$), plot points at $x = 0, 2, 4$ along that line.
+* **Step 5: Determine Key Points**
+    * The key points (peaks and valleys) occur at the quarters of the period ($1, 3$).
+    * The original sine key points are $1$ and $-1$.
+    * Multiply these by the amplitude $a = 4$:
+        * First quarter: $1 \cdot 4 = 4$. Adjust for vertical shift: $4 - 2 = 2$. Point: $(1, 2)$.
+        * Third quarter: $-1 \cdot 4 = -4$. Adjust for vertical shift: $-4 - 2 = -6$. Point: $(3, -6)$.
+* **Step 6: Plot and Graph**
+    * Plot the intercepts at $(0, -2), (2, -2), (4, -2)$ and the key points at $(1, 2)$ and $(3, -6)$.
+    * The graph shows a horizontal stretch (period increased to 4), a vertical stretch (amplitude 4), and a vertical shift down 2.
+### y = -3cos((π/4)x) + 2
+
+To graph $y = -3\cos(\frac{\pi}{4}x) + 2$, follow the systematic process used by Professor Leonard:
+* **Step 1: Find the Period**
+    * The standard period for cosine is $2\pi$.
+    * Divide $2\pi$ by the coefficient $\omega = \pi/4$.
+    * $2\pi \div (\pi/4) = 2\pi \cdot (4/\pi) = 8$.
+    * The period is $8$.
+* **Step 2: Account for Vertical Shift**
+    * The $+2$ at the end indicates a vertical shift up $2$ units.
+    * Draw a dashed horizontal line at $y = 2$. This line acts as your new "x-axis" (a graphic organizer) for plotting the rest of your points.
+* **Step 3: Mark Period and Quarters**
+    * Plot the period ($8$) on the horizontal axis.
+    * Divide the period into quarters:
+        * Half of the period: $4$
+        * First quarter: $2$
+        * Third quarter: $6$
+* **Step 4: Identify Intercepts**
+    * Cosine functions have x-intercepts at the quarters of the period.
+    * Relative to your shifted axis ($y = 2$), plot points at $x = 2$ and $x = 6$ along that line.
+* **Step 5: Determine Key Points**
+    * The key points (peaks and valleys) occur at the ends ($0, 8$) and center ($4$) of the period.
+    * The original cosine values are peak ($1$), valley ($-1$), peak ($1$).
+    * Multiply these by the amplitude $a = -3$:
+        * At $x = 0$: $1 \cdot (-3) = -3$. Adjust for vertical shift: $-3 + 2 = -1$. Point: $(0, -1)$.
+        * At $x = 4$: $-1 \cdot (-3) = 3$. Adjust for vertical shift: $3 + 2 = 5$. Point: $(4, 5)$.
+        * At $x = 8$: $1 \cdot (-3) = -3$. Adjust for vertical shift: $-3 + 2 = -1$. Point: $(8, -1)$.
+* **Step 6: Plot and Graph**
+    * Plot the intercepts at $(2, 2)$ and $(6, 2)$ and the key points at $(0, -1), (4, 5),$ and $(8, -1)$.
+    * The graph shows a horizontal stretch (period increased to 8), a vertical stretch (amplitude 3), a vertical reflection (due to the negative sign), and a vertical shift up 2.
