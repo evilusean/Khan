@@ -17673,3 +17673,4 @@ To graph $y = -3\cos(\frac{\pi}{4}x) + 2$, follow the systematic process used by
 * **Step 6: Plot and Graph**
     * Plot the intercepts at $(2, 2)$ and $(6, 2)$ and the key points at $(0, -1), (4, 5),$ and $(8, -1)$.
     * The graph shows a horizontal stretch (period increased to 8), a vertical stretch (amplitude 3), a vertical reflection (due to the negative sign), and a vertical shift up 2.
+## 2026-June-20 - How to Graph Tangent and Cotangent (Precalculus - Trigonometry 13) :
