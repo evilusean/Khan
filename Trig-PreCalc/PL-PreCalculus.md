@@ -17678,7 +17678,6 @@ https://www.youtube.com/watch?v=8eMEBrPYJ0I&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 ### Graphing Tangent and Cotangent
 
 This summary covers the foundational concepts for graphing tangent and cotangent functions, emphasizing how to identify their behavior before applying transformations.
-
 * **Tangent Function ($y = \tan(x)$)**
     * **Origin:** Derived from the unit circle ratio $y/x$.
     * **Period:** The period is $\pi$. Unlike sine and cosine which repeat every $2\pi$, tangent repeats every $\pi$ because the ratio $y/x$ yields the same values in alternating quadrants (e.g., Q1 and Q3 have positive results; Q2 and Q4 have negative results).
@@ -17691,7 +17690,6 @@ This summary covers the foundational concepts for graphing tangent and cotangent
         * Center: X-intercept $(0,0)$.
         * First Quarter: $(-1)$.
         * Third Quarter: $(1)$.
-
 * **Cotangent Function ($y = \cot(x)$)**
     * **Origin:** The reciprocal ratio $x/y$.
     * **Period:** Also $\pi$.
@@ -17704,7 +17702,6 @@ This summary covers the foundational concepts for graphing tangent and cotangent
         * Center: X-intercept $(\pi/2, 0)$.
         * First Quarter: $(1)$.
         * Third Quarter: $(-1)$.
-
 * **Transformation Strategy (Preview)**
     * To graph transformed versions, identify the period first.
     * For tangent, the base cycle is typically viewed on $[-\pi/2, \pi/2]$.
