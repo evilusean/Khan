@@ -17675,3 +17675,38 @@ To graph $y = -3\cos(\frac{\pi}{4}x) + 2$, follow the systematic process used by
     * The graph shows a horizontal stretch (period increased to 8), a vertical stretch (amplitude 3), a vertical reflection (due to the negative sign), and a vertical shift up 2.
 ## 2026-June-20 - How to Graph Tangent and Cotangent (Precalculus - Trigonometry 13) :
 https://www.youtube.com/watch?v=8eMEBrPYJ0I&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=88
+### Graphing Tangent and Cotangent
+
+This summary covers the foundational concepts for graphing tangent and cotangent functions, emphasizing how to identify their behavior before applying transformations.
+
+* **Tangent Function ($y = \tan(x)$)**
+    * **Origin:** Derived from the unit circle ratio $y/x$.
+    * **Period:** The period is $\pi$. Unlike sine and cosine which repeat every $2\pi$, tangent repeats every $\pi$ because the ratio $y/x$ yields the same values in alternating quadrants (e.g., Q1 and Q3 have positive results; Q2 and Q4 have negative results).
+    * **X-Intercepts:** Occur at $0 + k\pi$. The intercept is at the origin $(0,0)$ and repeats every $\pi$.
+    * **Vertical Asymptotes:** Occur where the denominator $x=0$ on the unit circle (at $\pi/2 + k\pi$). These asymptotes create domain restrictions: all real numbers except $\pi/2 + k\pi$.
+    * **Range:** $(-\infty, \infty)$.
+    * **Shape:** An "S-curve" symmetric about the origin (an odd function).
+    * **Key Points on One Period (e.g., $-\pi/2$ to $\pi/2$):**
+        * Ends: Vertical Asymptotes.
+        * Center: X-intercept $(0,0)$.
+        * First Quarter: $(-1)$.
+        * Third Quarter: $(1)$.
+
+* **Cotangent Function ($y = \cot(x)$)**
+    * **Origin:** The reciprocal ratio $x/y$.
+    * **Period:** Also $\pi$.
+    * **X-Intercepts & Asymptotes:** These are effectively "swapped" compared to tangent because cotangent is the reciprocal.
+        * Vertical Asymptotes: Occur where $y=0$ (at $0 + k\pi$).
+        * X-Intercepts: Occur where the tangent function has asymptotes (at $\pi/2 + k\pi$).
+    * **Range:** $(-\infty, \infty)$.
+    * **Key Points on One Period (e.g., $0$ to $\pi$):**
+        * Ends: Vertical Asymptotes.
+        * Center: X-intercept $(\pi/2, 0)$.
+        * First Quarter: $(1)$.
+        * Third Quarter: $(-1)$.
+
+* **Transformation Strategy (Preview)**
+    * To graph transformed versions, identify the period first.
+    * For tangent, the base cycle is typically viewed on $[-\pi/2, \pi/2]$.
+    * For cotangent, the base cycle is typically viewed on $[0, \pi]$.
+    * Always place vertical asymptotes at the ends of the period, the intercept at the center, and use the quarter-period points to determine the vertical stretch or reflection.
