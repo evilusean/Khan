@@ -17825,25 +17825,21 @@ To graph $y = -\cot(\frac{\pi}{4}x) + 1$, follow Professor Leonard’s systemati
 * **Step 1: Identify Vertical Shift**
     * The $+1$ indicates a vertical shift up $1$ unit.
     * Draw a dashed horizontal line at $y = 1$. This acts as your "new x-axis" or baseline for plotting key points and intercepts.
-
 * **Step 2: Find the Period**
     * The standard period of a cotangent function is $\pi$.
     * Use the formula: $\text{Period} = \pi / \omega$. Here, $\omega = \pi/4$.
     * $\text{Period} = \pi \div (\pi/4) = \pi \cdot (4/\pi) = 4$.
     * Cotangent is not centered at $0$; it starts at $0$. Therefore, the period spans from $x = 0$ to $x = 4$.
-
 * **Step 3: Mark Period and Quarters**
     * **Vertical Asymptotes:** Occur at the start and end of the period ($x = 0$ and $x = 4$).
     * **Center of Period:** $x = 2$.
     * **Quarters:** The halfway points between the center and the asymptotes are $x = 1$ and $x = 3$.
-
 * **Step 4: Determine Key Points**
     * Standard cotangent key points are: First Quarter $(1)$, Third Quarter $(-1)$.
     * Apply the multiplier $a = -1$ (which reflects the graph):
         * First Quarter point: $(1) \cdot (-1) = -1$. Add vertical shift: $-1 + 1 = 0$. Point: $(1, 0)$.
         * Third Quarter point: $(-1) \cdot (-1) = 1$. Add vertical shift: $1 + 1 = 2$. Point: $(3, 2)$.
     * The x-intercept (center) is at $(2, 1)$, plotted on the dashed baseline.
-
 * **Step 5: Plot and Graph**
     * Sketch vertical asymptotes at $x = 0$ and $x = 4$.
     * Plot the center point at $(2, 1)$.
