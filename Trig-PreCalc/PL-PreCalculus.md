@@ -17707,3 +17707,4 @@ This summary covers the foundational concepts for graphing tangent and cotangent
     * For tangent, the base cycle is typically viewed on $[-\pi/2, \pi/2]$.
     * For cotangent, the base cycle is typically viewed on $[0, \pi]$.
     * Always place vertical asymptotes at the ends of the period, the intercept at the center, and use the quarter-period points to determine the vertical stretch or reflection.
+## 2026-June-16 - Graphing Transformations with Tangent and Cotangent (Precalculus - Trigonometry 14) : 
