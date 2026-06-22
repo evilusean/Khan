@@ -17765,3 +17765,34 @@ To graph $y = 3\tan(x)$, follow the structured methodology taught by Professor L
     * Plot the x-intercept at $(0, 0)$.
     * Plot the transformed key points at $(-\pi/4, -3)$ and $(\pi/4, 3)$.
     * Draw the S-curve passing through these points. The graph is vertically stretched compared to the standard tangent function.
+### y = -2tan(3x) + 1
+
+To graph $y = -2\tan(3x) + 1$, follow Professor Leonard’s systematic transformation process:
+
+* **Step 1: Identify Vertical Shift**
+    * The $+1$ indicates a vertical shift up $1$ unit.
+    * Draw a dashed horizontal line at $y = 1$. This acts as your new baseline/graphic organizer.
+
+* **Step 2: Find the Period**
+    * The period of a tangent function is $\pi / \omega$. Here, $\omega = 3$.
+    * Period = $\pi/3$.
+    * Since tangent is centered at $0$ (no phase shift), divide the period by $2$ to find the bounds:
+        * Right bound: $(\pi/3) \div 2 = \pi/6$
+        * Left bound: $-\pi/6$
+
+* **Step 3: Mark Period and Quarters**
+    * **Vertical Asymptotes:** Occur at the ends of the period ($x = -\pi/6$ and $x = \pi/6$).
+    * **X-intercept:** Occurs at the center ($x = 0$). Plot this on your dashed line at $(0, 1)$.
+    * **Quarters:** The halfway points between the center and the asymptotes ($x = -\pi/12$ and $x = \pi/12$).
+
+* **Step 4: Determine Key Points**
+    * Standard tangent key points are: First Quarter $(-1)$, Third Quarter $(1)$.
+    * Apply the multiplier $a = -2$ (which stretches and reflects):
+        * First Quarter point: $(-1) \cdot (-2) = 2$. Add vertical shift: $2 + 1 = 3$. Point: $(-\pi/12, 3)$.
+        * Third Quarter point: $(1) \cdot (-2) = -2$. Add vertical shift: $-2 + 1 = -1$. Point: $(\pi/12, -1)$.
+
+* **Step 5: Plot and Graph**
+    * Sketch vertical asymptotes at $x = -\pi/6$ and $x = \pi/6$.
+    * Plot the center point at $(0, 1)$.
+    * Plot the key points at $(-\pi/12, 3)$ and $(\pi/12, -1)$.
+    * Draw the curve. Note that the negative coefficient reflects the graph, making it decrease rather than climb.
