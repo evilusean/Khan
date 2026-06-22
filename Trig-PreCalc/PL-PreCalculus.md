@@ -17709,3 +17709,35 @@ This summary covers the foundational concepts for graphing tangent and cotangent
     * Always place vertical asymptotes at the ends of the period, the intercept at the center, and use the quarter-period points to determine the vertical stretch or reflection.
 ## 2026-June-16 - Graphing Transformations with Tangent and Cotangent (Precalculus - Trigonometry 14) : 
 https://www.youtube.com/watch?v=i4rr_J1VbkY&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=88
+### Graphing Transformations with Tangent and Cotangent
+
+To graph transformed tangent and cotangent functions, Professor Leonard recommends a systematic approach similar to sine/cosine graphing.
+
+* **Core Principles**
+    * **Vertical Shift ($b$):** The constant added/subtracted after the function ($y = a \cdot \text{trig}(...x) + b$). This moves the entire graph up or down.
+    * **Period:** * Formula: $\text{Period} = \pi / \omega$ (where $\omega$ is the coefficient of $x$).
+        * Tangent: Centered at $0$. Divide the period by $2$ and go that distance to the left and right of $0$.
+        * Cotangent: Starts at $0$. Go a full period to the right.
+    * **Vertical Stretch/Compression/Reflection:** The coefficient '$a$' multiplies the outputs of the key points. If negative, it reflects the graph.
+
+* **Step-by-Step Graphing Method**
+    1.  **Identify Vertical Shift:** If present, draw a dashed horizontal line at $y = b$. This serves as a "new x-axis" (graphic organizer).
+    2.  **Determine Period:** Calculate $\pi / \omega$. Mark the start and end of the period on the horizontal axis.
+    3.  **Find Key Features:**
+        * Divide the period into quarters to identify the First Quarter, Center, and Third Quarter.
+        * Vertical Asymptotes: Always at the ends of the period.
+        * X-Intercept: At the center of the period (plot on the dashed vertical shift line).
+    4.  **Calculate Transformed Key Points:**
+        * Tangent: First Quarter $(-1)$, Third Quarter $(1)$.
+        * Cotangent: First Quarter $(1)$, Third Quarter $(-1)$.
+        * Multiply these base values by '$a$' and adjust for the vertical shift ($+b$).
+    5.  **Plot and Repeat:** Place key points and sketch the "S-curve" (tangent) or reflected curve (cotangent). Use the calculated period to draw additional cycles.
+
+* **Summary Table**
+| Feature | Tangent ($\tan x$) | Cotangent ($\cot x$) |
+| :--- | :--- | :--- |
+| **Period** | $\pi$ | $\pi$ |
+| **Center of Period** | $0$ (Shifted if necessary) | $0$ to $\pi$ |
+| **First Quarter Key Point** | $-1 \rightarrow (-a + b)$ | $1 \rightarrow (a + b)$ |
+| **Third Quarter Key Point** | $1 \rightarrow (a + b)$ | $-1 \rightarrow (-a + b)$ |
+| **Asymptote Location** | Ends of period | Ends of period |
