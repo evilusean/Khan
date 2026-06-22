@@ -17799,24 +17799,20 @@ To graph $y = 3\cot(1/2 x) - 2$, follow Professor Leonard’s structured method 
 * **Step 1: Identify Vertical Shift**
     * The $-2$ indicates a vertical shift down $2$ units.
     * Draw a dashed horizontal line at $y = -2$. This line serves as your graphic organizer, where the x-intercept will effectively be located.
-
 * **Step 2: Find the Period**
     * The period of a cotangent function is $\pi / \omega$. Here, $\omega = 1/2$.
     * Period = $\pi \div (1/2) = 2\pi$.
     * Unlike tangent, cotangent starts at $0$. Therefore, the period spans from $x = 0$ to $x = 2\pi$.
-
 * **Step 3: Mark Period and Quarters**
     * **Vertical Asymptotes:** Occur at the ends of the period ($x = 0$ and $x = 2\pi$).
     * **Center of Period:** $x = \pi$.
     * **Quarters:** The halfway points between the center and the asymptotes ($x = \pi/2$ and $x = 3\pi/2$).
-
 * **Step 4: Determine Key Points**
     * Standard cotangent key points are: First Quarter $(1)$, Third Quarter $(-1)$.
     * Apply the multiplier $a = 3$ (vertical stretch):
         * First Quarter point: $(1) \cdot 3 = 3$. Add vertical shift: $3 - 2 = 1$. Point: $(\pi/2, 1)$.
         * Third Quarter point: $(-1) \cdot 3 = -3$. Add vertical shift: $-3 - 2 = -5$. Point: $(3\pi/2, -5)$.
     * The x-intercept (center) is at $(\pi, -2)$.
-
 * **Step 5: Plot and Graph**
     * Sketch vertical asymptotes at $x = 0$ and $x = 2\pi$.
     * Plot the center point on the dashed line at $(\pi, -2)$.
