@@ -17739,3 +17739,33 @@ To graph transformed tangent and cotangent functions, Professor Leonard recommen
 | **First Quarter Key Point** | $-1 \rightarrow (-a + b)$ | $1 \rightarrow (a + b)$ |
 | **Third Quarter Key Point** | $1 \rightarrow (a + b)$ | $-1 \rightarrow (-a + b)$ |
 | **Asymptote Location** | Ends of period | Ends of period |
+### y = 3tan(x)
+
+To graph $y = 3\tan(x)$, follow the structured methodology taught by Professor Leonard:
+
+* **Step 1: Identify Vertical Shift**
+    * There is no number added or subtracted outside the function. The vertical shift is $0$. The graph remains centered on the x-axis.
+
+* **Step 2: Find the Period**
+    * Tangent has a standard period of $\pi$.
+    * With $\omega = 1$, the period is $\pi / 1 = \pi$.
+    * Because tangent is centered at $0$, the period spans from $-\pi/2$ to $\pi/2$.
+
+* **Step 3: Mark Period and Quarters**
+    * **Vertical Asymptotes:** Occur at the ends of the period ($x = -\pi/2$ and $x = \pi/2$).
+    * **X-intercept:** Occurs at the center of the period ($x = 0$).
+    * **Quarters:** The halfway point between the center and the asymptotes are the quarter points ($x = -\pi/4$ and $x = \pi/4$).
+
+* **Step 4: Determine Key Points**
+    * Tangent's original key points are:
+        * First Quarter: $(-\pi/4, -1)$
+        * Third Quarter: $(\pi/4, 1)$
+    * Since $a = 3$, multiply the output values by $3$:
+        * First Quarter point: $(-\pi/4, -3)$
+        * Third Quarter point: $(\pi/4, 3)$
+
+* **Step 5: Plot and Graph**
+    * Sketch the vertical asymptotes at $x = -\pi/2$ and $x = \pi/2$.
+    * Plot the x-intercept at $(0, 0)$.
+    * Plot the transformed key points at $(-\pi/4, -3)$ and $(\pi/4, 3)$.
+    * Draw the S-curve passing through these points. The graph is vertically stretched compared to the standard tangent function.
