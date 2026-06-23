@@ -17846,3 +17846,4 @@ To graph $y = -\cot(\frac{\pi}{4}x) + 1$, follow Professor Leonard’s systemati
     * Plot the transformed key points at $(1, 0)$ and $(3, 2)$.
     * Draw the curve. The negative coefficient reflects the function, causing it to climb rather than decrease, resembling a tangent-like curve in orientation, but maintaining the cotangent's starting position.
 ## 2026-June-22 - How to Graph Cosecant and Secant (Precalculus - Trigonometry 15) :
+https://www.youtube.com/watch?v=kYIKNTXaf_E&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=91
