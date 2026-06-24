@@ -17905,16 +17905,13 @@ To graph $y = 4\sec(\frac{1}{2}x)$ using Professor Leonard’s methodology, you 
 ### y = -2csc((2π/3)x) - 2
 
 To graph $y = -2\csc(\frac{2\pi}{3}x) - 2$, follow Professor Leonard’s methodology by first graphing the reciprocal sine function.
-
 * **Step 1: Identify Vertical Shift**
     * The $-2$ indicates a vertical shift down $2$ units.
     * Draw a dashed horizontal line at $y = -2$. This serves as your "new x-axis" (graphic organizer) for the base sine function.
-
 * **Step 2: Find the Period**
     * The period for a sine/cosecant function is $2\pi / \omega$. Here, $\omega = \frac{2\pi}{3}$.
     * Period = $2\pi \div (\frac{2\pi}{3}) = 2\pi \cdot (\frac{3}{2\pi}) = 3$.
     * Note: The period is $3$. You can graph multiple cycles (e.g., $0$ to $3$, $3$ to $6$).
-
 * **Step 3: Sketch the Base (Sine) Function**
     * Graph $y = -2\sin(\frac{2\pi}{3}x) - 2$ as a dashed line.
     * **Key Features:**
@@ -17922,12 +17919,10 @@ To graph $y = -2\csc(\frac{2\pi}{3}x) - 2$, follow Professor Leonard’s methodo
         * Quarter Points:
             * First Quarter ($x = 0.75$): Originally at $1$. Apply multiplier $a = -2$ and shift $-2$. Point: $(0.75, 1 \cdot -2 - 2) = (0.75, -4)$.
             * Third Quarter ($x = 2.25$): Originally at $-1$. Apply multiplier $a = -2$ and shift $-2$. Point: $(2.25, -1 \cdot -2 - 2) = (2.25, 0)$.
-
 * **Step 4: Construct Cosecant Features**
     * **Vertical Asymptotes:** Draw vertical dashed lines through every "x-intercept" of your base sine function ($x = 0, 1.5, 3, \dots$).
     * **Turning Points:** Use the peaks and valleys of the sine graph:
         * From the local maximum at $(2.25, 0)$, draw a "U-shaped" branch opening upward.
         * From the local minimum at $(0.75, -4)$, draw a "U-shaped" branch opening downward.
-
 * **Step 5: Final Graph**
     * The solid cosecant curves exist between the asymptotes, bouncing off the local extrema of the sine wave.
