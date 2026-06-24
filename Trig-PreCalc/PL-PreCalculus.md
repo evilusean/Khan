@@ -17847,3 +17847,32 @@ To graph $y = -\cot(\frac{\pi}{4}x) + 1$, follow Professor Leonard’s systemati
     * Draw the curve. The negative coefficient reflects the function, causing it to climb rather than decrease, resembling a tangent-like curve in orientation, but maintaining the cotangent's starting position.
 ## 2026-June-23 - How to Graph Cosecant and Secant (Precalculus - Trigonometry 15) :
 https://www.youtube.com/watch?v=kYIKNTXaf_E&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=91
+### Graphing Cosecant and Secant Transformations
+
+Professor Leonard’s primary strategy is to graph the reciprocal function (sine for cosecant, cosine for secant) first, using a dashed line, and then use that as a guide to construct the target graph.
+
+* **Core Principles**
+    * **Reciprocal Relationship:**
+        * $\csc(x) = 1 / \sin(x)$
+        * $\sec(x) = 1 / \cos(x)$
+    * **Vertical Asymptotes:** Occur at every point where the base sine or cosine function has an x-intercept (where the function equals $0$).
+    * **Points of Intersection:** The graphs of $\csc(x)$ and $\sec(x)$ touch their base functions at their local maxima ($1$) and local minima ($-1$).
+    * **Range:** $(-\infty, -1] \cup [1, \infty)$ (for standard functions).
+
+* **Step-by-Step Graphing Method**
+    1. **Identify Base Function:** Determine if you need to graph sine (for cosecant) or cosine (for secant).
+    2. **Graph Transformations on the Base:**
+        * Apply vertical shifts, period adjustments ($2\pi / \omega$), and vertical stretches/reflections to the base sine or cosine function. 
+        * *Tip:* Always draw this base function as a dashed line.
+    3. **Construct Reciprocal Features:**
+        * **Vertical Asymptotes:** Draw vertical dashed lines through every x-intercept of the base function.
+        * **Local Max/Min:** Place points on the base function's peaks and valleys. These are the "vertex" points where the cosecant/secant curves turn.
+    4. **Sketch the Curves:** Draw "U-shaped" branches opening upward from the base function's maxima and downward from the base function's minima, approaching the vertical asymptotes.
+
+* **Summary Table**
+| Feature | Cosecant ($\csc x$) | Secant ($\sec x$) |
+| :--- | :--- | :--- |
+| **Base Function** | Sine ($\sin x$) | Cosine ($\cos x$) |
+| **Period** | $2\pi$ | $2\pi$ |
+| **Asymptotes at x-intercepts of:** | Sine ($0, \pm\pi, \pm 2\pi, \dots$) | Cosine ($\pm\pi/2, \pm 3\pi/2, \dots$) |
+| **Range** | $(-\infty, -1] \cup [1, \infty)$ | $(-\infty, -1] \cup [1, \infty)$ |
