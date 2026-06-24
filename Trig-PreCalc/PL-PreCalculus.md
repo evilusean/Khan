@@ -17875,3 +17875,34 @@ Professor Leonard’s primary strategy is to graph the reciprocal function (sine
 | **Asymptotes at x-intercepts of:** | Sine ($0, \pm\pi, \pm 2\pi, \dots$) | Cosine ($\pm\pi/2, \pm 3\pi/2, \dots$) |
 | **Range** | $(-\infty, -1] \cup [1, \infty)$ | $(-\infty, -1] \cup [1, \infty)$ |
 
+### y = 4sec(1/2 x)
+
+To graph $y = 4\sec(\frac{1}{2}x)$ using Professor Leonard’s methodology, you must first convert the function to its reciprocal base to use as a guide. Since $\sec(x) = 1/\cos(x)$, we will graph $y = 4\cos(\frac{1}{2}x)$ first.
+
+* **Step 1: Identify Vertical Shift**
+    * There is no vertical shift (no constant added/subtracted). The baseline remains the x-axis ($y = 0$).
+
+* **Step 2: Find the Period**
+    * The base period for cosine is $2\pi$.
+    * Use the formula: $\text{Period} = 2\pi / \omega$. Here, $\omega = 1/2$.
+    * $\text{Period} = 2\pi \div (1/2) = 4\pi$.
+    * *Recommendation:* Draw at least one full period ($0$ to $4\pi$) and half a period to the left ($-2\pi$ to $0$) to ensure you have a complete view of the secant branches.
+
+* **Step 3: Sketch the Base (Cosine) Function**
+    * Use a dashed line to graph $y = 4\cos(\frac{1}{2}x)$.
+    * **Key Points for Cosine:**
+        * Start (0): $(0, 4)$
+        * First Quarter: $(\pi, 0)$ [x-intercept]
+        * Middle: $(2\pi, -4)$
+        * Third Quarter: $(3\pi, 0)$ [x-intercept]
+        * End: $(4\pi, 4)$
+
+* **Step 4: Construct Secant Features**
+    * **Vertical Asymptotes:** Draw dashed vertical lines through every x-intercept of the base cosine function ($x = \pi, 3\pi, -\pi, -3\pi, \dots$).
+    * **Turning Points:** Use the peaks and valleys of the cosine function.
+        * From the peak at $(0, 4)$, draw a "U-shaped" branch opening upward.
+        * From the valley at $(2\pi, -4)$, draw a "U-shaped" branch opening downward.
+        * From the peak at $(-2\pi, 4)$, draw a branch opening upward.
+
+* **Step 5: Final Graph**
+    * The solid lines representing the secant function will exist in the regions defined by the asymptotes, approaching infinity as they near $x = \pm\pi, \pm3\pi, \dots$.
