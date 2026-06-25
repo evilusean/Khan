@@ -17928,3 +17928,33 @@ To graph $y = -2\csc(\frac{2\pi}{3}x) - 2$, follow Professor Leonard’s methodo
     * The solid cosecant curves exist between the asymptotes, bouncing off the local extrema of the sine wave.
 ## 2026-June-24 - How to Graph Phase Shifts of Trigonometric Functions (Precalculus - Trigonometry 16) :
 https://www.youtube.com/watch?v=bE5PFI-ibT8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=91
+### Graphing Trigonometric Phase Shifts
+
+Professor Leonard emphasizes a structured, step-by-step approach to graphing trigonometric functions that include horizontal (phase) shifts. The key is ensuring the function is in the "proper form" before beginning any graphing steps.
+
+* **Crucial Prerequisite: Proper Form**
+    * Before graphing, you **must** factor out the coefficient of $x$ to make its coefficient $1$.
+    * Example: $y = 3\sin(2x - \pi)$ becomes $y = 3\sin(2(x - \pi/2))$.
+    * This reveals the actual phase shift. If the coefficient of $x$ is not $1$, your identification of the phase shift and period will be incorrect.
+
+* **Step-by-Step Graphing Methodology**
+    1. **Vertical Shift:** Identify any constant added or subtracted at the very end of the function. Draw a dashed horizontal line at this $y$-value to serve as your "new x-axis."
+    2. **Phase Shift:** Identify the shift inside the parentheses.
+        * Remember: The shift is **opposite** of the sign shown (e.g., $(x - \pi/2)$ is a shift **right** by $\pi/2$).
+    3. **Find the Period:** Calculate the period using the formula $\text{Period} = (\text{original period}) / \omega$.
+        * Sine/Cosine: $2\pi / \omega$
+        * Tangent: $\pi / \omega$
+    4. **Determine Cycle Boundaries:** Add the period to the phase shift to find where the first period ends. 
+    5. **Find Key Points:** Identify the center and quarter points of the period. Use your knowledge of the base function (sine/cosine/tangent) to plot these points relative to your shifted axes. Apply any amplitude (vertical stretch) or reflection factors.
+
+* **Special Considerations**
+    * **Odd/Even Functions:** If a negative coefficient exists inside the argument (e.g., $\sin(-2x + \dots)$), use the function's property to simplify:
+        * **Sine (Odd):** $\sin(-x) = -\sin(x)$. You can pull the negative out front (reflecting the graph).
+        * **Cosine (Even):** $\cos(-x) = \cos(x)$. You can simply drop the negative inside (no reflection).
+    * **Calculations:** Don't hesitate to use a calculator for the fractions involved in finding center/quarter points, but keep $\pi$ in the expression.
+
+* **Summary of Transformation Priorities**
+    * Vertical shift first (sets the baseline).
+    * Phase shift second (sets the starting point on the x-axis).
+    * Period calculation third (sets the horizontal span).
+    * Key points last (plotting the shape based on the base function).
