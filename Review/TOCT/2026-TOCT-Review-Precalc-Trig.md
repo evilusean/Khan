@@ -1357,3 +1357,6 @@ For $e^{x+3} = \pi^x$:
 3.  $3 = x \ln \pi - x$
 4.  $3 = x(\ln \pi - 1)$
 5.  $x = \frac{3}{\ln \pi - 1}$
+
+### How to Graph Phase Shifts of Trigonometric Functions (Precalculus - Trigonometry 16) :
+https://www.youtube.com/watch?v=bE5PFI-ibT8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=91
