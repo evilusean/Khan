@@ -17989,7 +17989,6 @@ To graph $y = 3\sin(2x - \pi)$ using Professor Leonard's methodology, follow the
 ### y = 2cos(4x + 3π) + 1
 
 To graph $y = 2\cos(4x + 3\pi) + 1$ using Professor Leonard’s methodology, follow these steps:
-
 * **Step 1: Put into Proper Form**
     * Factor the coefficient of $x$ ($4$) out of the argument inside the function.
     * $y = 2\cos(4(x + \frac{3\pi}{4})) + 1$
@@ -17998,12 +17997,10 @@ To graph $y = 2\cos(4x + 3\pi) + 1$ using Professor Leonard’s methodology, fol
         * **Amplitude:** $2$
         * **$\omega$:** $4$
         * **Phase Shift:** $3\pi/4$ to the **left** (opposite of the positive sign).
-
 * **Step 2: Identify Transformations**
     * **Vertical Shift:** Up 1 unit. Draw a dashed horizontal line at $y = 1$ to serve as your graphic organizer/new x-axis.
     * **Phase Shift:** $3\pi/4$ (Left). This marks the starting $x$-coordinate of the first period.
     * **Period:** $\text{Period} = 2\pi / \omega = 2\pi / 4 = \pi/2$.
-
 * **Step 3: Graphing Setup**
     * The period is $\pi/2$. The cycle starts at the phase shift ($x = -3\pi/4$).
     * End of the first cycle: $\text{Phase Shift} + \text{Period} = -3\pi/4 + \pi/2 = -3\pi/4 + 2\pi/4 = -\pi/4$.
@@ -18013,7 +18010,6 @@ To graph $y = 2\cos(4x + 3\pi) + 1$ using Professor Leonard’s methodology, fol
         * Center: $-4\pi/8 = -\pi/2$
         * Third Quarter: $-3\pi/8$
         * End: $-\pi/4$
-
 * **Step 4: Determine Key Points**
     * Cosine starts at a maximum, goes to an x-intercept, reaches a minimum, returns to an x-intercept, and ends at a maximum. Apply the amplitude ($2$) and the vertical shift ($+1$):
         * **Start (Max):** $(-3\pi/4, 2(1) + 1) = (-3\pi/4, 3)$
@@ -18021,7 +18017,6 @@ To graph $y = 2\cos(4x + 3\pi) + 1$ using Professor Leonard’s methodology, fol
         * **Center (Min):** $(-\pi/2, 2(-1) + 1) = (-\pi/2, -1)$
         * **Third Quarter (Intercept):** $(-3\pi/8, 0(2) + 1) = (-3\pi/8, 1)$
         * **End (Max):** $(-\pi/4, 2(1) + 1) = (-\pi/4, 3)$
-
 * **Step 5: Sketching**
     * Draw a dashed horizontal line at $y=1$. 
     * Plot the points determined in Step 4 relative to this line.
