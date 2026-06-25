@@ -17926,3 +17926,4 @@ To graph $y = -2\csc(\frac{2\pi}{3}x) - 2$, follow Professor Leonard’s methodo
         * From the local minimum at $(0.75, -4)$, draw a "U-shaped" branch opening downward.
 * **Step 5: Final Graph**
     * The solid cosecant curves exist between the asymptotes, bouncing off the local extrema of the sine wave.
+## 2026-June-24 - How to Graph Phase Shifts of Trigonometric Functions (Precalculus - Trigonometry 16) :
