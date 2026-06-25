@@ -18021,3 +18021,46 @@ To graph $y = 2\cos(4x + 3\pi) + 1$ using Professor Leonard’s methodology, fol
     * Draw a dashed horizontal line at $y=1$. 
     * Plot the points determined in Step 4 relative to this line.
     * Connect the points with a smooth cosine curve.
+### y = 2cos(-2πx - 4) + 3
+
+To graph $y = 2\cos(-2\pi x - 4) + 3$ using Professor Leonard’s methodology, you must first manipulate the function into the proper form to account for the reflection and phase shift.
+
+* **Step 1: Put into Proper Form**
+    * Factor the coefficient of $x$ ($-2\pi$) out of the argument.
+    * $y = 2\cos(-2\pi(x + \frac{4}{2\pi})) + 3$
+    * Simplify the phase shift term: $y = 2\cos(-2\pi(x + \frac{2}{\pi})) + 3$
+    * **Use Even Function Property:** Cosine is an even function, meaning $\cos(-A) = \cos(A)$. We can drop the negative sign inside the argument without changing the function's output:
+    * $y = 2\cos(2\pi(x + \frac{2}{\pi})) + 3$
+    * Now the function is in proper form, revealing:
+        * **Vertical Shift:** $+3$ (Shift up 3)
+        * **Amplitude:** $2$
+        * **$\omega$:** $2\pi$
+        * **Phase Shift:** $2/\pi$ to the **left** (opposite of the positive sign).
+
+* **Step 2: Identify Transformations**
+    * **Vertical Shift:** Up 3 units. Draw a dashed horizontal line at $y = 3$ to serve as your new baseline.
+    * **Phase Shift:** $2/\pi$ (Left). This is the starting $x$-coordinate of the first period.
+    * **Period:** $\text{Period} = 2\pi / \omega = 2\pi / (2\pi) = 1$.
+
+* **Step 3: Graphing Setup**
+    * The period is $1$. The cycle starts at the phase shift ($x = -2/\pi$).
+    * End of the first cycle: $\text{Phase Shift} + \text{Period} = -2/\pi + 1$.
+    * Divide the cycle ($-2/\pi$ to $1 - 2/\pi$) into four parts to find the quarter-points:
+        * Start: $-2/\pi$
+        * First Quarter: $-2/\pi + 1/4$
+        * Center: $-2/\pi + 1/2$
+        * Third Quarter: $-2/\pi + 3/4$
+        * End: $-2/\pi + 1$
+
+* **Step 4: Determine Key Points**
+    * Cosine starts at a maximum, goes to an intercept, reaches a minimum, returns to an intercept, and ends at a maximum. Apply the amplitude ($2$) and the vertical shift ($+3$):
+        * **Start (Max):** $(-2/\pi, 2(1) + 3) = (-2/\pi, 5)$
+        * **First Quarter (Intercept):** $(-2/\pi + 1/4, 2(0) + 3) = (-2/\pi + 1/4, 3)$
+        * **Center (Min):** $(-2/\pi + 1/2, 2(-1) + 3) = (-2/\pi + 1/2, 1)$
+        * **Third Quarter (Intercept):** $(-2/\pi + 3/4, 2(0) + 3) = (-2/\pi + 3/4, 3)$
+        * **End (Max):** $(-2/\pi + 1, 2(1) + 3) = (-2/\pi + 1, 5)$
+
+* **Step 5: Sketching**
+    * Draw a dashed horizontal line at $y=3$. 
+    * Plot the points determined in Step 4 relative to this baseline.
+    * Connect the points with a smooth cosine curve.
