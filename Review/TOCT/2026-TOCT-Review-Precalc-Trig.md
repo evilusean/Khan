@@ -1396,12 +1396,10 @@ To graph $y = -3\sin(-2x + \frac{\pi}{2})$ using Professor Leonard’s methodolo
     * **Use Odd/Even Properties:** Sine is an odd function, meaning $\sin(-A) = -\sin(A)$. We can move that negative sign out to the front:
     * $y = 3\sin(2(x - \pi/4))$
     * This simplifies the graph to a **positive** sine function with a vertical stretch of $3$ and a horizontal compression, making it much easier to plot.
-
 * **Step 2: Identify Transformations**
     * **Vertical Shift:** None ($0$).
     * **Phase Shift:** $\pi/4$ to the **right**.
     * **Period:** $2\pi / \omega = 2\pi / 2 = \pi$.
-
 * **Step 3: Graphing Setup**
     * The period is $\pi$. The cycle starts at the phase shift ($x = \pi/4$).
     * End of the first cycle: $\text{Phase Shift} + \text{Period} = \pi/4 + \pi = 5\pi/4$.
@@ -1411,7 +1409,6 @@ To graph $y = -3\sin(-2x + \frac{\pi}{2})$ using Professor Leonard’s methodolo
         * Center: $3\pi/4$
         * Third Quarter: $\pi$
         * End: $5\pi/4$
-
 * **Step 4: Determine Key Points**
     * Sine starts at an intercept, reaches a maximum, returns to an intercept, reaches a minimum, and ends at an intercept. Apply the amplitude ($3$):
         * **Start (Intercept):** $(\pi/4, 0)$
@@ -1419,7 +1416,6 @@ To graph $y = -3\sin(-2x + \frac{\pi}{2})$ using Professor Leonard’s methodolo
         * **Center (Intercept):** $(3\pi/4, 0)$
         * **Third Quarter (Min):** $(\pi, -3)$
         * **End (Intercept):** $(5\pi/4, 0)$
-
 * **Step 5: Sketching**
     * Plot the intercepts on the x-axis.
     * Plot the maximum at $(\pi/2, 3)$ and the minimum at $(\pi, -3)$.
