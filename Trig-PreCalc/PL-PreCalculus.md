@@ -17931,12 +17931,10 @@ https://www.youtube.com/watch?v=bE5PFI-ibT8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 ### Graphing Trigonometric Phase Shifts
 
 Professor Leonard emphasizes a structured, step-by-step approach to graphing trigonometric functions that include horizontal (phase) shifts. The key is ensuring the function is in the "proper form" before beginning any graphing steps.
-
 * **Crucial Prerequisite: Proper Form**
     * Before graphing, you **must** factor out the coefficient of $x$ to make its coefficient $1$.
     * Example: $y = 3\sin(2x - \pi)$ becomes $y = 3\sin(2(x - \pi/2))$.
     * This reveals the actual phase shift. If the coefficient of $x$ is not $1$, your identification of the phase shift and period will be incorrect.
-
 * **Step-by-Step Graphing Methodology**
     1. **Vertical Shift:** Identify any constant added or subtracted at the very end of the function. Draw a dashed horizontal line at this $y$-value to serve as your "new x-axis."
     2. **Phase Shift:** Identify the shift inside the parentheses.
@@ -17946,13 +17944,11 @@ Professor Leonard emphasizes a structured, step-by-step approach to graphing tri
         * Tangent: $\pi / \omega$
     4. **Determine Cycle Boundaries:** Add the period to the phase shift to find where the first period ends. 
     5. **Find Key Points:** Identify the center and quarter points of the period. Use your knowledge of the base function (sine/cosine/tangent) to plot these points relative to your shifted axes. Apply any amplitude (vertical stretch) or reflection factors.
-
 * **Special Considerations**
     * **Odd/Even Functions:** If a negative coefficient exists inside the argument (e.g., $\sin(-2x + \dots)$), use the function's property to simplify:
         * **Sine (Odd):** $\sin(-x) = -\sin(x)$. You can pull the negative out front (reflecting the graph).
         * **Cosine (Even):** $\cos(-x) = \cos(x)$. You can simply drop the negative inside (no reflection).
     * **Calculations:** Don't hesitate to use a calculator for the fractions involved in finding center/quarter points, but keep $\pi$ in the expression.
-
 * **Summary of Transformation Priorities**
     * Vertical shift first (sets the baseline).
     * Phase shift second (sets the starting point on the x-axis).
