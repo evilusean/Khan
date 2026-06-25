@@ -17957,7 +17957,6 @@ Professor Leonard emphasizes a structured, step-by-step approach to graphing tri
 ### y = 3sin(2x - π)
 
 To graph $y = 3\sin(2x - \pi)$ using Professor Leonard's methodology, follow these steps to ensure the transformations are accurate:
-
 * **Step 1: Put into Proper Form**
     * Before identifying shifts, factor the coefficient of $x$ out of the argument.
     * $y = 3\sin(2(x - \pi/2))$
@@ -17965,12 +17964,10 @@ To graph $y = 3\sin(2x - \pi)$ using Professor Leonard's methodology, follow the
         * **Amplitude:** $3$ (Vertical stretch)
         * **$\omega$:** $2$
         * **Phase Shift:** $\pi/2$ to the **right** (opposite of the negative sign).
-
 * **Step 2: Identify Transformations**
     * **Vertical Shift:** None ($0$).
     * **Phase Shift:** $\pi/2$ (Right).
     * **Period:** $\text{Period} = 2\pi / \omega = 2\pi / 2 = \pi$.
-
 * **Step 3: Graphing Setup**
     * The period is $\pi$. The cycle starts at the phase shift ($\pi/2$).
     * End of the first cycle: $\text{Phase Shift} + \text{Period} = \pi/2 + \pi = 3\pi/2$.
@@ -17980,13 +17977,11 @@ To graph $y = 3\sin(2x - \pi)$ using Professor Leonard's methodology, follow the
         * Center: $\pi$
         * Third Quarter: $5\pi/4$
         * End: $3\pi/2$
-
 * **Step 4: Determine Key Points**
     * Sine starts at an intercept, reaches a maximum, returns to an intercept, reaches a minimum, and ends at an intercept.
     * **Intercepts:** $(\pi/2, 0)$, $(\pi, 0)$, and $(3\pi/2, 0)$.
     * **Maximum (First Quarter):** $(3\pi/4, 3)$ (Amplitude of $3$).
     * **Minimum (Third Quarter):** $(5\pi/4, -3)$ (Amplitude of $3$).
-
 * **Step 5: Sketching**
     * Plot the intercepts at $\pi/2, \pi,$ and $3\pi/2$ on the x-axis.
     * Plot the maximum at $(3\pi/4, 3)$ and the minimum at $(5\pi/4, -3)$.
