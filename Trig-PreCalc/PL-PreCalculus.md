@@ -18036,12 +18036,10 @@ To graph $y = 2\cos(-2\pi x - 4) + 3$ using Professor Leonard’s methodology, y
         * **Amplitude:** $2$
         * **$\omega$:** $2\pi$
         * **Phase Shift:** $2/\pi$ to the **left** (opposite of the positive sign).
-
 * **Step 2: Identify Transformations**
     * **Vertical Shift:** Up 3 units. Draw a dashed horizontal line at $y = 3$ to serve as your new baseline.
     * **Phase Shift:** $2/\pi$ (Left). This is the starting $x$-coordinate of the first period.
     * **Period:** $\text{Period} = 2\pi / \omega = 2\pi / (2\pi) = 1$.
-
 * **Step 3: Graphing Setup**
     * The period is $1$. The cycle starts at the phase shift ($x = -2/\pi$).
     * End of the first cycle: $\text{Phase Shift} + \text{Period} = -2/\pi + 1$.
@@ -18051,7 +18049,6 @@ To graph $y = 2\cos(-2\pi x - 4) + 3$ using Professor Leonard’s methodology, y
         * Center: $-2/\pi + 1/2$
         * Third Quarter: $-2/\pi + 3/4$
         * End: $-2/\pi + 1$
-
 * **Step 4: Determine Key Points**
     * Cosine starts at a maximum, goes to an intercept, reaches a minimum, returns to an intercept, and ends at a maximum. Apply the amplitude ($2$) and the vertical shift ($+3$):
         * **Start (Max):** $(-2/\pi, 2(1) + 3) = (-2/\pi, 5)$
@@ -18059,7 +18056,6 @@ To graph $y = 2\cos(-2\pi x - 4) + 3$ using Professor Leonard’s methodology, y
         * **Center (Min):** $(-2/\pi + 1/2, 2(-1) + 3) = (-2/\pi + 1/2, 1)$
         * **Third Quarter (Intercept):** $(-2/\pi + 3/4, 2(0) + 3) = (-2/\pi + 3/4, 3)$
         * **End (Max):** $(-2/\pi + 1, 2(1) + 3) = (-2/\pi + 1, 5)$
-
 * **Step 5: Sketching**
     * Draw a dashed horizontal line at $y=3$. 
     * Plot the points determined in Step 4 relative to this baseline.
