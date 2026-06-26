@@ -18065,12 +18065,10 @@ https://www.youtube.com/watch?v=ih01YszlraY&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 ### Introduction to Inverse Trigonometric Functions
 
 This summary covers the fundamental concepts of inverse trigonometric functions, focusing on why they are necessary, how they are defined, and the importance of domain restriction for invertibility.
-
 * **The Necessity of Inverse Functions**
     * Standard trigonometric functions (sine, cosine, tangent) take an angle as an input and output a ratio of triangle sides.
     * Inverse trigonometric functions perform the opposite operation: they take a ratio as an input and output the corresponding angle.
     * These tools are required to solve for unknown angles in right triangles when only side lengths are known.
-
 * **Domain Restriction and Invertibility**
     * A function must be one-to-one to have an inverse, meaning it must pass the horizontal line test.
     * Because all trigonometric functions are periodic, they repeat their outputs infinitely, failing the horizontal line test in their natural state.
@@ -18078,12 +18076,10 @@ This summary covers the fundamental concepts of inverse trigonometric functions,
         * **Sine:** Restricted to $[-\pi/2, \pi/2]$. The inverse, $\arcsin(x)$, has a range of $[-\pi/2, \pi/2]$.
         * **Cosine:** Restricted to $[0, \pi]$. The inverse, $\arccos(x)$, has a range of $[0, \pi]$.
         * **Tangent:** Restricted to $(-\pi/2, \pi/2)$. The inverse, $\arctan(x)$, has a range of $(-\pi/2, \pi/2)$.
-
 * **Notation and Terminology**
     * Inverse functions are often written with a $-1$ exponent (e.g., $\sin^{-1}(x)$).
     * It is crucial to distinguish between $\sin^{-1}(x)$ (the inverse function, also known as $\arcsin(x)$) and $(\sin(x))^{-1}$ (the multiplicative reciprocal, or $1/\sin(x) = \csc(x)$).
     * The value returned by an inverse function within the defined restricted range is referred to as the "principal value."
-
 * **Key Concepts for Evaluation**
     * **Composition:** If $x$ is within the restricted domain of a function $f$, then $f^{-1}(f(x)) = x$. If $x$ falls outside this domain, one must find an equivalent angle within the restricted range that produces the same ratio.
     * **Unit Circle:** Evaluating inverse functions often involves identifying the correct angle on the unit circle that corresponds to the given ratio, while respecting the boundaries of the restricted domain.
