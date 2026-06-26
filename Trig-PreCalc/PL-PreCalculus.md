@@ -18060,5 +18060,5 @@ To graph $y = 2\cos(-2\pi x - 4) + 3$ using Professor Leonard’s methodology, y
     * Draw a dashed horizontal line at $y=3$. 
     * Plot the points determined in Step 4 relative to this baseline.
     * Connect the points with a smooth cosine curve.
-## 2026-June-25 - Introduction to Inverse Trigonometric Functions (Precalculus - Trigonometry 17) :
+## 2026-June-26 - Introduction to Inverse Trigonometric Functions (Precalculus - Trigonometry 17) :
 https://www.youtube.com/watch?v=ih01YszlraY&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=92
