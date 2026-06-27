@@ -18125,4 +18125,21 @@ This summary details the application of inverse trigonometric functions, focusin
 | $\sin^{-1}(x)$ | $[-1, 1]$           | $[-\pi/2, \pi/2]$       |
 | $\cos^{-1}(x)$ | $[-1, 1]$           | $[0, \pi]$              |
 | $\tan^{-1}(x)$ | $(-\infty, \infty)$ | $(-\pi/2, \pi/2)$       |
+### Trigonometric Composition Identities
+
+The following identities hold true when the input $x$ is within the restricted domain of the inside function.
+* **$\sin^{-1}(\sin x) = x$**
+    * Valid for $x \in [-\pi/2, \pi/2]$.
+* **$\sin(\sin^{-1} x) = x$**
+    * Valid for $x \in [-1, 1]$.
+
+* **$\cos^{-1}(\cos x) = x$**
+    * Valid for $x \in [0, \pi]$.
+* **$\cos(\cos^{-1} x) = x$**
+    * Valid for $x \in [-1, 1]$.
+
+* **$\tan^{-1}(\tan x) = x$**
+    * Valid for $x \in (-\pi/2, \pi/2)$.
+* **$\tan(\tan^{-1} x) = x$**
+    * Valid for $x \in (-\infty, \infty)$.
 
