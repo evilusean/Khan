@@ -18084,3 +18084,4 @@ This summary covers the fundamental concepts of inverse trigonometric functions,
     * **Composition:** If $x$ is within the restricted domain of a function $f$, then $f^{-1}(f(x)) = x$. If $x$ falls outside this domain, one must find an equivalent angle within the restricted range that produces the same ratio.
     * **Unit Circle:** Evaluating inverse functions often involves identifying the correct angle on the unit circle that corresponds to the given ratio, while respecting the boundaries of the restricted domain.
     * **Calculators:** When using a calculator to evaluate an inverse trig function, it will consistently return an angle located within the defined principal range.
+## 2026-June-27 - How to Use Inverse Trigonometric Functions (Precalculus - Trigonometry 18) :
