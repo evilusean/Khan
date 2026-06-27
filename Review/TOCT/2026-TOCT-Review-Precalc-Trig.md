@@ -1420,3 +1420,6 @@ To graph $y = -3\sin(-2x + \frac{\pi}{2})$ using Professor Leonard’s methodolo
     * Plot the intercepts on the x-axis.
     * Plot the maximum at $(\pi/2, 3)$ and the minimum at $(\pi, -3)$.
     * Draw the smooth sine curve connecting these points.
+
+### How to Use Inverse Trigonometric Functions (Precalculus - Trigonometry 18) :
+https://www.youtube.com/watch?v=6PB76VMNiX0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=94
