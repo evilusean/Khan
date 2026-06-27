@@ -18085,3 +18085,4 @@ This summary covers the fundamental concepts of inverse trigonometric functions,
     * **Unit Circle:** Evaluating inverse functions often involves identifying the correct angle on the unit circle that corresponds to the given ratio, while respecting the boundaries of the restricted domain.
     * **Calculators:** When using a calculator to evaluate an inverse trig function, it will consistently return an angle located within the defined principal range.
 ## 2026-June-27 - How to Use Inverse Trigonometric Functions (Precalculus - Trigonometry 18) :
+https://www.youtube.com/watch?v=6PB76VMNiX0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=94
