@@ -18143,3 +18143,21 @@ The following identities hold true when the input $x$ is within the restricted d
 * **$\tan(\tan^{-1} x) = x$**
     * Valid for $x \in (-\infty, \infty)$.
 
+### Inverse Trigonometric Evaluation Problems
+
+Based on the unit circle definitions and restricted domains ($y = \sin^{-1}x \in [-\pi/2, \pi/2]$; $y = \cos^{-1}x \in [0, \pi]$; $y = \tan^{-1}x \in (-\pi/2, \pi/2)$):
+
+* **$\sin^{-1}(0) = 0$**
+    * Looking for the angle in $[-\pi/2, \pi/2]$ where the $y$-coordinate is $0$.
+* **$\cos^{-1}(1) = 0$**
+    * Looking for the angle in $[0, \pi]$ where the $x$-coordinate is $1$.
+* **$\tan^{-1}(-1) = -\pi/4$**
+    * Looking for the angle in $(-\pi/2, \pi/2)$ where $\frac{y}{x} = -1$.
+* **$\cos^{-1}(-1) = \pi$**
+    * Looking for the angle in $[0, \pi]$ where the $x$-coordinate is $-1$.
+* **$\tan^{-1}(0) = 0$**
+    * Looking for the angle in $(-\pi/2, \pi/2)$ where $\frac{y}{x} = 0$.
+* **$\sin^{-1}(\frac{\sqrt{2}}{2}) = \pi/4$**
+    * Looking for the angle in $[-\pi/2, \pi/2]$ where the $y$-coordinate is $\frac{\sqrt{2}}{2}$.
+* **$\cos^{-1}(-\frac{\sqrt{3}}{2}) = 5\pi/6$**
+    * Looking for the angle in $[0, \pi]$ where the $x$-coordinate is $-\frac{\sqrt{3}}{2}$.
