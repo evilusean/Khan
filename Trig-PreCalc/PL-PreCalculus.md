@@ -18086,3 +18086,46 @@ This summary covers the fundamental concepts of inverse trigonometric functions,
     * **Calculators:** When using a calculator to evaluate an inverse trig function, it will consistently return an angle located within the defined principal range.
 ## 2026-June-27 - How to Use Inverse Trigonometric Functions (Precalculus - Trigonometry 18) :
 https://www.youtube.com/watch?v=6PB76VMNiX0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=94
+### How to Use Inverse Trigonometric Functions
+
+This summary details the application of inverse trigonometric functions, focusing on domain restrictions, compositions, and evaluation strategies as taught by Professor Leonard.
+
+* **Core Principles**
+    * **Standard vs. Inverse Functions:** * Standard trig functions: Input = angle; Output = coordinate/ratio on a unit circle.
+        * Inverse trig functions: Input = coordinate/ratio on a unit circle; Output = angle.
+    * **Domain Restriction:** To make trigonometric functions one-to-one (invertible), we must restrict their domains:
+        * **Sine:** $[-\pi/2, \pi/2]$
+        * **Cosine:** $[0, \pi]$
+        * **Tangent:** $(-\pi/2, \pi/2)$
+    * **The Importance of Restrictions:** Without these specific domain cuts, the functions would fail the horizontal line test, resulting in a single input producing multiple outputs (a non-function). All inverse evaluations must fall within these restricted ranges.
+
+* **Composition of Functions and Inverses**
+    * When composing a function with its inverse, they simplify (cancel) to the argument $x$, **provided** the domain of the inside function is satisfied.
+    * **Case 1: Inverse outside the function ($f^{-1}(f(x)) = x$):**
+        * You must ensure $x$ is within the restricted domain of $f$.
+        * If $x$ is outside the restricted domain, you cannot simply cancel. Instead, you must find an equivalent angle (or ratio) within the restricted domain that yields the same coordinate/ratio.
+    * **Case 2: Function outside the inverse ($f(f^{-1}(x)) = x$):**
+        * You must ensure $x$ is within the domain of the inverse function ($f^{-1}$).
+        * For $\sin^{-1}(x)$ and $\cos^{-1}(x)$, $x$ must be in $[-1, 1]$.
+        * If $x$ is outside this range, the expression is **undefined** because no angle on the unit circle can produce a coordinate outside the range $[-1, 1]$.
+
+* **Evaluation Methodology**
+    * **Understanding the Question:** When asked for $\sin^{-1}(0)$, interpret it as: "What angle, within the restricted range, produces a y-coordinate of 0?"
+    * **Unit Circle Utilization:** Always look at the unit circle restricted to the specific quadrants applicable to the inverse function being used:
+        * **Sine/Tangent:** Quadrants IV and I ($-\pi/2$ to $\pi/2$).
+        * **Cosine:** Quadrants I and II ($0$ to $\pi$).
+    * **Calculators:** Use only when dealing with non-standard values (e.g., $\sin^{-1}(1/8)$). Always ensure the calculator is set to **radians**.
+
+* **Handling Values Outside Domain Restrictions**
+    * When faced with a composition like $\sin^{-1}(\sin(9\pi/8))$ where the input is outside the restricted domain:
+        * 1. Locate the angle on the unit circle.
+        * 2. Identify the corresponding coordinate/ratio.
+        * 3. Find the equivalent angle that produces that same coordinate/ratio *within* the restricted domain.
+        * 4. Cancel once the input is adjusted to fit the domain.
+
+* **Summary Table of Restricted Ranges**
+    | Function | Restricted Domain | Range (Principal Value) |
+    | :--- | :--- | :--- |
+    | $\sin^{-1}(x)$ | $[-1, 1]$ | $[-\pi/2, \pi/2]$ |
+    | $\cos^{-1}(x)$ | $[-1, 1]$ | $[0, \pi]$ |
+    | $\tan^{-1}(x)$ | $(-\infty, \infty)$ | $(-\pi/2, \pi/2)$ |
