@@ -18178,3 +18178,24 @@ Based on the unit circle definitions and restricted domains ($y = \sin^{-1}x \in
 * **$\sin^{-1}(\frac{1}{8}) \approx 0.125$**
 * **$\cos^{-1}(\frac{\sqrt{2}}{3}) \approx 1.08$**
 * **$\tan^{-1}(-3) \approx -1.25$**
+### Inverse Trigonometric Composition Problems
+
+To solve these compositions, we must ensure the argument of the inside function lies within the restricted domain of the trigonometric function. If it does not, we must find an equivalent angle within the restricted domain that yields the same trigonometric value.
+
+* **$\cos^{-1}(\cos \frac{4\pi}{5}) = \frac{4\pi}{5}$**
+    * Since $4\pi/5$ is within the restricted domain of cosine $[0, \pi]$, the functions cancel directly.
+
+* **$\sin^{-1}(\sin -\frac{3\pi}{7}) = -\frac{3\pi}{7}$**
+    * Since $-3\pi/7$ is within the restricted domain of sine $[-\pi/2, \pi/2]$, the functions cancel directly.
+
+* **$\cos^{-1}(\cos -\frac{\pi}{3}) = \frac{\pi}{3}$**
+    * $- \pi/3$ is outside the restricted domain $[0, \pi]$.
+    * Because cosine is an even function, $\cos(-\pi/3) = \cos(\pi/3)$.
+    * Since $\pi/3$ is within the restricted domain, the expression simplifies to $\pi/3$.
+
+* **$\cos^{-1}(\cos -\frac{5\pi}{3}) = \frac{\pi}{3}$**
+    * $-5\pi/3$ is outside the restricted domain.
+    * We find a coterminal angle within $[0, \pi]$ that has the same $x$-coordinate (cosine value).
+    * $-5\pi/3 + 2\pi = \pi/3$.
+    * Since $\pi/3$ is within the restricted domain, the expression simplifies to $\pi/3$.
+
