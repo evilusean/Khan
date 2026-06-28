@@ -18233,3 +18233,4 @@ For compositions where the inverse function is inside ($f(f^{-1}(x))$), you must
 * **$\cos(\cos^{-1} 1.3) = \text{Undefined}$**
     * The domain of $\cos^{-1}$ is $[-1, 1]$. Since $1.3$ is outside this domain, there is no angle on the unit circle that produces an $x$-coordinate of $1.3$. Therefore, it is undefined.
 ## 2026-June-28 - How to Find Inverse Trigonometric Functions (Precalculus - Trigonometry 19) :
+https://www.youtube.com/watch?v=Ru9Xbd01Jk8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=94
