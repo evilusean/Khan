@@ -18199,3 +18199,18 @@ To solve these compositions, we must ensure the argument of the inside function 
     * $-5\pi/3 + 2\pi = \pi/3$.
     * Since $\pi/3$ is within the restricted domain, the expression simplifies to $\pi/3$.
 
+### Inverse Trigonometric Composition Problems (Outside Restricted Domain)
+
+When the input angle is outside the restricted domain, you cannot simply cancel the functions. You must find an equivalent angle within the restricted domain that yields the same coordinate (for sine) or ratio (for tangent).
+
+* **$\sin^{-1}(\sin \frac{9\pi}{8}) = -\frac{\pi}{8}$**
+    * **Step 1:** The angle $9\pi/8$ is in Quadrant III, outside the restricted domain $[-\pi/2, \pi/2]$.
+    * **Step 2:** The $y$-coordinate of $\sin(9\pi/8)$ is negative.
+    * **Step 3:** Find an angle within $[-\pi/2, \pi/2]$ that has the same $y$-coordinate. Reflecting across the x-axis into Quadrant IV, we find $-\pi/8$.
+    * **Result:** Since $-\pi/8$ is in the restricted domain, the expression simplifies to $-\pi/8$.
+
+* **$\tan^{-1}(\tan \frac{4\pi}{5}) = -\frac{\pi}{5}$**
+    * **Step 1:** The angle $4\pi/5$ is in Quadrant II, outside the restricted domain $(-\pi/2, \pi/2)$.
+    * **Step 2:** The tangent ratio ($y/x$) for $4\pi/5$ is negative because $y$ is positive and $x$ is negative in Quadrant II.
+    * **Step 3:** Find an angle within $(-\pi/2, \pi/2)$ that yields the same negative tangent ratio. Quadrant IV provides these negative ratios. The corresponding angle is $-\pi/5$.
+    * **Result:** Since $-\pi/5$ is in the restricted domain, the expression simplifies to $-\pi/5$.

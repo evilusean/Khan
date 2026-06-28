@@ -1423,7 +1423,7 @@ To graph $y = -3\sin(-2x + \frac{\pi}{2})$ using Professor Leonard’s methodolo
 
 ### How to Use Inverse Trigonometric Functions (Precalculus - Trigonometry 18) :
 https://www.youtube.com/watch?v=6PB76VMNiX0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=94
-- When learning, I had already forgotten the ranges that I learned the day before, if I already forgot, I'm definitely going to need to review this in a few months for future - also struggled with finding tan inverses because it's $\frac{y}{x}$ and gives weird numbers with square roots and cancelling
+- When learning, I had already forgotten the ranges that I learned the day before, if I already forgot, I'm definitely going to need to review this in a few months for future - also struggled with finding tan inverses because it's $\frac{y}{x}$ and gives weird numbers with square roots and cancelling - also need to work on remember even and odd functions and what you can do with those : $\cos^{-1}(\cos -\frac{\pi}{3}) = \frac{\pi}{3}$ 
 #### How to Use Inverse Trigonometric Functions
 
 This summary details the application of inverse trigonometric functions, focusing on domain restrictions, compositions, and evaluation strategies as taught by Professor Leonard.
