@@ -18214,3 +18214,21 @@ When the input angle is outside the restricted domain, you cannot simply cancel 
     * **Step 2:** The tangent ratio ($y/x$) for $4\pi/5$ is negative because $y$ is positive and $x$ is negative in Quadrant II.
     * **Step 3:** Find an angle within $(-\pi/2, \pi/2)$ that yields the same negative tangent ratio. Quadrant IV provides these negative ratios. The corresponding angle is $-\pi/5$.
     * **Result:** Since $-\pi/5$ is in the restricted domain, the expression simplifies to $-\pi/5$.
+### Inverse Trigonometric Composition Problems (Function Outside Inverse)
+
+For compositions where the inverse function is inside ($f(f^{-1}(x))$), you must ensure the input $x$ lies within the domain of the inverse function. If it does, the functions cancel. If it does not, the expression is undefined.
+
+* **$\sin(\sin^{-1} \frac{1}{4}) = \frac{1}{4}$**
+    * The domain of $\sin^{-1}$ is $[-1, 1]$. Since $1/4$ is within this domain, the expression simplifies to $1/4$.
+
+* **$\cos(\cos^{-1} (-\frac{2}{3})) = -\frac{2}{3}$**
+    * The domain of $\cos^{-1}$ is $[-1, 1]$. Since $-2/3$ is within this domain, the expression simplifies to $-2/3$.
+
+* **$\tan(\tan^{-1} (-2)) = -2$**
+    * The domain of $\tan^{-1}$ is $(-\infty, \infty)$. Since $-2$ is within this domain, the expression simplifies to $-2$.
+
+* **$\sin(\sin^{-1} (-2)) = \text{Undefined}$**
+    * The domain of $\sin^{-1}$ is $[-1, 1]$. Since $-2$ is outside this domain, there is no angle on the unit circle that produces a $y$-coordinate of $-2$. Therefore, it is undefined.
+
+* **$\cos(\cos^{-1} 1.3) = \text{Undefined}$**
+    * The domain of $\cos^{-1}$ is $[-1, 1]$. Since $1.3$ is outside this domain, there is no angle on the unit circle that produces an $x$-coordinate of $1.3$. Therefore, it is undefined.
