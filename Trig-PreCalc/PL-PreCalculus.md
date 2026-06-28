@@ -18161,3 +18161,20 @@ Based on the unit circle definitions and restricted domains ($y = \sin^{-1}x \in
     * Looking for the angle in $[-\pi/2, \pi/2]$ where the $y$-coordinate is $\frac{\sqrt{2}}{2}$.
 * **$\cos^{-1}(-\frac{\sqrt{3}}{2}) = 5\pi/6$**
     * Looking for the angle in $[0, \pi]$ where the $x$-coordinate is $-\frac{\sqrt{3}}{2}$.
+### Inverse Trigonometric Evaluation Problems
+
+Based on the unit circle definitions and restricted domains ($y = \sin^{-1}x \in [-\pi/2, \pi/2]$; $y = \cos^{-1}x \in [0, \pi]$; $y = \tan^{-1}x \in (-\pi/2, \pi/2)$), here are the solutions:
+
+* **$\sin^{-1}(-\frac{\sqrt{3}}{2}) = -\frac{\pi}{3}$**
+    * Looking for the angle in $[-\pi/2, \pi/2]$ where the $y$-coordinate is $-\frac{\sqrt{3}}{2}$.
+* **$\sin^{-1}(-\frac{\sqrt{2}}{2}) = -\frac{\pi}{4}$**
+    * Looking for the angle in $[-\pi/2, \pi/2]$ where the $y$-coordinate is $-\frac{\sqrt{2}}{2}$.
+* **$\tan^{-1}(\sqrt{3}) = \frac{\pi}{3}$**
+    * Looking for the angle in $(-\pi/2, \pi/2)$ where $\frac{y}{x} = \sqrt{3}$.
+* **$\tan^{-1}(\frac{\sqrt{3}}{3}) = \frac{\pi}{6}$**
+    * Looking for the angle in $(-\pi/2, \pi/2)$ where $\frac{y}{x} = \frac{\sqrt{3}}{3}$ (rationalized form of $\frac{1}{\sqrt{3}}$).
+
+#### Approximate Values (Calculator required, set to radians)
+* **$\sin^{-1}(\frac{1}{8}) \approx 0.125$**
+* **$\cos^{-1}(\frac{\sqrt{2}}{3}) \approx 1.08$**
+* **$\tan^{-1}(-3) \approx -1.25$**
