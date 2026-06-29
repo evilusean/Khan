@@ -18338,4 +18338,4 @@ Following the step-by-step method of domain restriction, range identification, a
 * **Domain:** (Range of original) $x \in [-3, 1]$
 * **Range:** (Domain of original) $y \in [-2/3, (\pi - 2)/3]$
 ## 2026-June-29 - How to Solve Basic Inverse Trigonometric Functions (Precalculus - Trigonometry 20) :
-
+https://www.youtube.com/watch?v=PEwUFrx-vPA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=95
