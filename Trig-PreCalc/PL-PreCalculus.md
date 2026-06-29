@@ -18385,3 +18385,24 @@ To solve this equation for $x$ using Professor Leonard's methodology, we isolate
     * Evaluate $\cos(2\pi/3)$: On the unit circle, the $x$-coordinate at $2\pi/3$ is $-1/2$.
     * Set the equation: $2x = -1/2$.
     * Divide by $2$: $x = -1/4$.
+### Solving $4\cos^{-1}(x) = 2\cos^{-1}(x)$
+
+To solve this equation for $x$ using Professor Leonard's methodology, we treat the inverse trigonometric expressions as like terms, isolate them on one side, and then apply the parent function.
+
+* **Step 1: Isolate the Inverse Function**
+    * Bring all terms containing $\cos^{-1}(x)$ to one side of the equation:
+    * Subtract $2\cos^{-1}(x)$ from both sides:
+    * $4\cos^{-1}(x) - 2\cos^{-1}(x) = 0$
+    * Combine like terms:
+    * $2\cos^{-1}(x) = 0$
+    * Divide both sides by $2$ to isolate the inverse function:
+    * $\cos^{-1}(x) = 0$
+
+* **Step 2: Apply the Parent Function**
+    * Apply the cosine function to both sides to undo the inverse cosine operation:
+    * $\cos(\cos^{-1}(x)) = \cos(0)$
+
+* **Step 3: Simplify and Solve**
+    * By the identity property, $\cos(\cos^{-1}(x)) = x$.
+    * Evaluate $\cos(0)$: On the unit circle, the $x$-coordinate at $0$ radians is $1$.
+    * Therefore, $x = 1$.
