@@ -1463,3 +1463,30 @@ This summary details the application of inverse trigonometric functions, focusin
 | $\sin^{-1}(x)$ | $[-1, 1]$           | $[-\pi/2, \pi/2]$       |
 | $\cos^{-1}(x)$ | $[-1, 1]$           | $[0, \pi]$              |
 | $\tan^{-1}(x)$ | $(-\infty, \infty)$ | $(-\pi/2, \pi/2)$       |
+How to Find Inverse Trigonometric Functions (Precalculus - Trigonometry 19) :
+https://www.youtube.com/watch?v=Ru9Xbd01Jk8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=94
+### Summary: How to Find Inverse Trigonometric Functions
+
+To find the inverse of trigonometric functions, we must restrict the domain of the original function to make it "one-to-one."
+#### Restricted Domains
+* **Sine:** $[-\pi/2, \pi/2]$
+* **Cosine:** $[0, \pi]$
+* **Tangent:** $(-\pi/2, \pi/2)$
+#### Core Process
+1.  **Find Original Domain and Range:**
+    * **Domain:** Set the inner argument of the function between the restricted domain boundaries and solve for $x$.
+    * **Range:** Apply the function's transformations to the parent range (e.g., $[-1, 1]$ for sine/cosine).
+2.  **Swap:** For the inverse function, the original domain becomes the range, and the original range becomes the domain.
+3.  **Algebraic Inverse:**
+    * Replace $f(x)$ with $y$.
+    * Swap $x$ and $y$.
+    * Isolate the trig function.
+    * Apply the inverse trig function (e.g., $\sin^{-1}$) to both sides.
+    * Solve for $y$.
+#### Example Analysis
+For $f(x) = 5\sin(x) + 2$:
+* **Original Domain:** $[-\pi/2, \pi/2]$
+* **Original Range:** $[-3, 7]$
+* **Inverse:** $f^{-1}(x) = \sin^{-1}(\frac{x-2}{5})$
+* **Inverse Domain:** $[-3, 7]$
+* **Inverse Range:** $[-\pi/2, \pi/2]$
