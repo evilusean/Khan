@@ -18355,4 +18355,22 @@ To solve this equation for $x$ using Professor Leonard's methodology, we focus o
     * $x = \sin(\pi/4)$
     * Referencing the unit circle, the sine of $\pi/4$ (the $y$-coordinate) is $\frac{\sqrt{2}}{2}$.
     * $x = \frac{\sqrt{2}}{2}$
+### Solving $3\tan^{-1}(x) = \pi$
 
+To solve this equation for $x$ using Professor Leonard's methodology, we focus on isolating the inverse trigonometric function and then applying the corresponding parent function to both sides.
+
+* **Step 1: Isolate the Inverse Function**
+    * The goal is to get $\tan^{-1}(x)$ by itself.
+    * $3\tan^{-1}(x) = \pi$
+    * Divide both sides by $3$:
+    * $\tan^{-1}(x) = \pi/3$
+
+* **Step 2: Apply the Parent Function**
+    * Since we have $\tan^{-1}(x)$, we use the tangent function to undo the inverse operation on both sides of the equation.
+    * $\tan(\tan^{-1}(x)) = \tan(\pi/3)$
+
+* **Step 3: Simplify and Solve**
+    * By the identity property of inverse compositions, $\tan(\tan^{-1}(x)) = x$.
+    * $x = \tan(\pi/3)$
+    * Referencing the unit circle, the tangent of $\pi/3$ is the $y$-coordinate divided by the $x$-coordinate: $(\frac{\sqrt{3}}{2}) / (\frac{1}{2}) = \sqrt{3}$.
+    * $x = \sqrt{3}$
