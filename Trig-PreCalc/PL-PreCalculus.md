@@ -18286,11 +18286,9 @@ The domain and range of the inverse function are the swapped domain and range of
 ### Finding the Inverse of $g(x) = -\tan(x + 1) - 3$
 
 Following the process demonstrated by Professor Leonard, we first determine the restricted domain and range for the original function, then use algebra to find the inverse.
-
 #### 1. Analyze Original Function $g(x)$
 * **Domain:** As calculated previously, $x \in (-\pi/2 - 1, \pi/2 - 1)$.
 * **Range:** $y \in (-\infty, \infty)$.
-
 #### 2. Solve for the Inverse $g^{-1}(x)$
 * **Step 1: Replace $g(x)$ with $y$:**
   $y = -\tan(x + 1) - 3$
@@ -18305,7 +18303,6 @@ Following the process demonstrated by Professor Leonard, we first determine the 
 * **Step 5: Solve for $y$:**
   $y = \tan^{-1}(-x - 3) - 1$
 * **Result:** $g^{-1}(x) = \tan^{-1}(-x - 3) - 1$
-
 #### 3. Final Inverse Properties
 * **Domain:** The range of the original function $(-\infty, \infty)$ becomes the domain of the inverse.
   $x \in (-\infty, \infty)$
