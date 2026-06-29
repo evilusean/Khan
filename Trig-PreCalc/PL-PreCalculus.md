@@ -18339,3 +18339,22 @@ Following the step-by-step method of domain restriction, range identification, a
 * **Range:** (Domain of original) $y \in [-2/3, (\pi - 2)/3]$
 ## 2026-June-29 - How to Solve Basic Inverse Trigonometric Functions (Precalculus - Trigonometry 20) :
 https://www.youtube.com/watch?v=PEwUFrx-vPA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=95
+### Solving $4\sin^{-1}(x) = \pi$
+
+To solve this equation for $x$ using Professor Leonard's methodology, we focus on isolating the inverse trigonometric function and then applying the corresponding parent function to both sides.
+
+* **Step 1: Isolate the Inverse Function**
+    * The goal is to get $\sin^{-1}(x)$ by itself.
+    * $4\sin^{-1}(x) = \pi$
+    * Divide both sides by $4$:
+    * $\sin^{-1}(x) = \pi/4$
+
+* **Step 2: Apply the Parent Function**
+    * Since we have $\sin^{-1}(x)$, we use the sine function to undo the inverse operation on both sides of the equation.
+    * $\sin(\sin^{-1}(x)) = \sin(\pi/4)$
+
+* **Step 3: Simplify and Solve**
+    * By the identity property of inverse compositions, $\sin(\sin^{-1}(x)) = x$.
+    * $x = \sin(\pi/4)$
+    * Referencing the unit circle, the sine of $\pi/4$ (the $y$-coordinate) is $\frac{\sqrt{2}}{2}$.
+    * $x = \frac{\sqrt{2}}{2}$
