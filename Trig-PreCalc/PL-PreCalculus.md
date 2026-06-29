@@ -18283,3 +18283,19 @@ To find the inverse function, we first restrict the domain to make the original 
 The domain and range of the inverse function are the swapped domain and range of the original function.
 * **Domain of $f^{-1}(x)$:** $[-3, 7]$
 * **Range of $f^{-1}(x)$:** $[-\pi/2, \pi/2]$
+### Solving $g(x) = -\tan(x + 1) - 3$ for Domain and Range
+
+To find the domain and range of this transformed tangent function, we follow the restricted domain properties for tangent: $x \in (-\pi/2, \pi/2)$.
+
+#### 1. Finding the Domain (D)
+* **Step 1:** The restricted domain for the base function $\tan(x)$ is $(-\pi/2, \pi/2)$.
+* **Step 2:** For the transformed function $g(x) = -\tan(x + 1) - 3$, the input argument $(x+1)$ must fall within this interval:
+    $-\pi/2 < x + 1 < \pi/2$
+* **Step 3:** Solve the compound inequality for $x$ by subtracting 1 from all parts:
+    $-\pi/2 - 1 < x < \pi/2 - 1$
+* **Domain:** $x \in (-\pi/2 - 1, \pi/2 - 1)$
+
+#### 2. Finding the Range (R)
+* **Step 1:** The parent function $\tan(x)$ has a range of $(-\infty, \infty)$.
+* **Step 2:** A horizontal or vertical shift, or a reflection, does not restrict the output of a tangent function, as it continues to span from negative infinity to positive infinity.
+* **Range:** $y \in (-\infty, \infty)$
