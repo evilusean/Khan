@@ -18237,14 +18237,10 @@ https://www.youtube.com/watch?v=Ru9Xbd01Jk8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 ### Summary: How to Find Inverse Trigonometric Functions
 
 To find the inverse of trigonometric functions, we must restrict the domain of the original function to make it "one-to-one."
-
 #### Restricted Domains
 * **Sine:** $[-\pi/2, \pi/2]$
 * **Cosine:** $[0, \pi]$
 * **Tangent:** $(-\pi/2, \pi/2)$
-
-
-
 #### Core Process
 1.  **Find Original Domain and Range:**
     * **Domain:** Set the inner argument of the function between the restricted domain boundaries and solve for $x$.
@@ -18256,7 +18252,6 @@ To find the inverse of trigonometric functions, we must restrict the domain of t
     * Isolate the trig function.
     * Apply the inverse trig function (e.g., $\sin^{-1}$) to both sides.
     * Solve for $y$.
-
 #### Example Analysis
 For $f(x) = 5\sin(x) + 2$:
 * **Original Domain:** $[-\pi/2, \pi/2]$
