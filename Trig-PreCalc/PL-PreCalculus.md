@@ -18371,4 +18371,20 @@ To solve this equation for $x$ using Professor Leonard's methodology, we focus o
     * $x = \tan(\pi/3)$
     * Referencing the unit circle, the tangent of $\pi/3$ is the $y$-coordinate divided by the $x$-coordinate: $(\frac{\sqrt{3}}{2}) / (\frac{1}{2}) = \sqrt{3}$.
     * $x = \sqrt{3}$
+### Solving $3\cos^{-1}(2x) = 2\pi$
 
+To solve this equation for $x$ using Professor Leonard's methodology, we isolate the inverse trigonometric function and apply the parent function to both sides.
+
+* **Step 1: Isolate the Inverse Function**
+    * Divide both sides by $3$ to isolate the inverse cosine term:
+    * $\cos^{-1}(2x) = 2\pi/3$
+
+* **Step 2: Apply the Parent Function**
+    * Apply the cosine function to both sides to undo the inverse cosine operation:
+    * $\cos(\cos^{-1}(2x)) = \cos(2\pi/3)$
+
+* **Step 3: Simplify and Solve**
+    * By the identity property, $\cos(\cos^{-1}(2x)) = 2x$.
+    * Evaluate $\cos(2\pi/3)$: On the unit circle, the $x$-coordinate at $2\pi/3$ is $-1/2$.
+    * Set the equation: $2x = -1/2$.
+    * Divide by $2$: $x = -1/4$.
