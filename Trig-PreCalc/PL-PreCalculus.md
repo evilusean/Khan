@@ -18259,3 +18259,30 @@ For $f(x) = 5\sin(x) + 2$:
 * **Inverse:** $f^{-1}(x) = \sin^{-1}(\frac{x-2}{5})$
 * **Inverse Domain:** $[-3, 7]$
 * **Inverse Range:** $[-\pi/2, \pi/2]$
+### Solving $f(x) = 5\sin(x) + 2$ for the Inverse Function
+
+To find the inverse function, we first restrict the domain to make the original function one-to-one, determine the range, and then solve for $y$.
+
+#### 1. Identify Domain and Range
+* **Domain:** For $\sin(x)$, the restricted domain where it is one-to-one is $[-\pi/2, \pi/2]$.
+* **Range:** The parent function $\sin(x)$ has a range of $[-1, 1]$.
+    * Multiply by 5: $5 \cdot [-1, 1] = [-5, 5]$
+    * Add 2: $[-5+2, 5+2] = [-3, 7]$
+    * The range of $f(x)$ is $[-3, 7]$.
+
+#### 2. Solve for the Inverse ($f^{-1}(x)$)
+* Replace $f(x)$ with $y$: 
+    $y = 5\sin(x) + 2$
+* Swap $x$ and $y$:
+    $x = 5\sin(y) + 2$
+* Isolate the sine function:
+    $x - 2 = 5\sin(y)$
+    $\frac{x - 2}{5} = \sin(y)$
+* Apply inverse sine to both sides:
+    $\sin^{-1}\left(\frac{x - 2}{5}\right) = y$
+* **Result:** $f^{-1}(x) = \sin^{-1}\left(\frac{x - 2}{5}\right)$
+
+#### 3. Domain and Range of the Inverse Function
+The domain and range of the inverse function are the swapped domain and range of the original function.
+* **Domain of $f^{-1}(x)$:** $[-3, 7]$
+* **Range of $f^{-1}(x)$:** $[-\pi/2, \pi/2]$
