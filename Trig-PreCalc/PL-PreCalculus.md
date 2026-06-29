@@ -18308,3 +18308,36 @@ Following the process demonstrated by Professor Leonard, we first determine the 
   $x \in (-\infty, \infty)$
 * **Range:** The restricted domain of the original function $(-\pi/2 - 1, \pi/2 - 1)$ becomes the range of the inverse.
   $y \in (-\pi/2 - 1, \pi/2 - 1)$
+### Solving $h(x) = 2\cos(3x + 2) - 1$ for Domain, Range, and Inverse
+
+Following the step-by-step method of domain restriction, range identification, and algebraic inversion.
+
+#### 1. Analyze Original Function $h(x)$
+* **Domain:** The restricted domain for $\cos(x)$ to be one-to-one is $[0, \pi]$. We set the argument $(3x+2)$ within these bounds:
+  $0 \le 3x + 2 \le \pi$
+  $-2 \le 3x \le \pi - 2$
+  $-2/3 \le x \le (\pi - 2)/3$
+  **Domain:** $x \in [-2/3, (\pi - 2)/3]$
+
+* **Range:** The base range of $\cos(x)$ is $[-1, 1]$.
+  Transform: $2 \cdot [-1, 1] - 1 = [-2 - 1, 2 - 1] = [-3, 1]$
+  **Range:** $y \in [-3, 1]$
+
+#### 2. Solve for the Inverse $h^{-1}(x)$
+* **Step 1: Replace $h(x)$ with $y$:**
+  $y = 2\cos(3x + 2) - 1$
+* **Step 2: Swap $x$ and $y$:**
+  $x = 2\cos(3y + 2) - 1$
+* **Step 3: Isolate the cosine function:**
+  $x + 1 = 2\cos(3y + 2)$
+  $(x + 1) / 2 = \cos(3y + 2)$
+* **Step 4: Apply inverse cosine:**
+  $\cos^{-1}((x + 1) / 2) = 3y + 2$
+* **Step 5: Solve for $y$:**
+  $\cos^{-1}((x + 1) / 2) - 2 = 3y$
+  $y = \frac{1}{3}\cos^{-1}((x + 1) / 2) - 2/3$
+* **Result:** $h^{-1}(x) = \frac{1}{3}\cos^{-1}\left(\frac{x + 1}{2}\right) - \frac{2}{3}$
+
+#### 3. Final Inverse Properties
+* **Domain:** (Range of original) $x \in [-3, 1]$
+* **Range:** (Domain of original) $y \in [-2/3, (\pi - 2)/3]$
