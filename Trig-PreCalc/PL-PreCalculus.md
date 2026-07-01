@@ -18449,17 +18449,14 @@ Because $\csc^{-1}$ and $\sec^{-1}$ share ranges with $\sin^{-1}$ and $\cos^{-1}
 ### $\tan(\cos^{-1}(-\frac{\sqrt{3}}{2}))$
 
 To solve this, treat it as a composite trigonometric expression where the inverse function provides an angle that is then used by the outer function [00:09:05].
-
 1.  **Evaluate the inner function ($\cos^{-1}(-\frac{\sqrt{3}}{2})$):**
     * This expression asks for an angle $\theta$ such that $\cos(\theta) = -\frac{\sqrt{3}}{2}$ [00:09:28].
     * Recall that $\cos^{-1}$ is restricted to the interval $[0, \pi]$ (Quadrants I and II) to ensure the function is one-to-one [00:09:47].
     * On the unit circle, in the interval $[0, \pi]$, the angle with an $x$-coordinate of $-\frac{\sqrt{3}}{2}$ is $5\pi/6$ [00:10:14].
-
 2.  **Evaluate the outer function ($\tan(5\pi/6)$):**
     * Now substitute the angle found into the tangent function: $\tan(5\pi/6)$ [00:12:45].
     * Tangent is defined as the ratio of the $y$-coordinate to the $x$-coordinate ($y/x$) [00:00:34].
     * At $5\pi/6$, the $y$-coordinate is $1/2$ and the $x$-coordinate is $-\frac{\sqrt{3}}{2}$ [00:12:59].
     * $\tan(5\pi/6) = \frac{1/2}{-\sqrt{3}/2} = -\frac{1}{\sqrt{3}}$ [00:13:10].
-
 3.  **Final Result:**
     * Rationalizing the denominator gives: $-\frac{\sqrt{3}}{3}$ [00:13:32].
