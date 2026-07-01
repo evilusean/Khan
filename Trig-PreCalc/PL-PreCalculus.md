@@ -18403,5 +18403,5 @@ To solve this equation for $x$ using Professor Leonard's methodology, we treat t
     * By the identity property, $\cos(\cos^{-1}(x)) = x$.
     * Evaluate $\cos(0)$: On the unit circle, the $x$-coordinate at $0$ radians is $1$.
     * Therefore, $x = 1$.
-## 2026-June-30 - An Indepth Look at Using Inverse Trig Functions (Precalculus - Trigonometry 21) :
+## 2026-July-01 - An Indepth Look at Using Inverse Trig Functions (Precalculus - Trigonometry 21) :
 https://www.youtube.com/watch?v=1f6BhHlkgy4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=97
