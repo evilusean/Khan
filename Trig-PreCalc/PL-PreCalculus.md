@@ -18405,3 +18405,51 @@ To solve this equation for $x$ using Professor Leonard's methodology, we treat t
     * Therefore, $x = 1$.
 ## 2026-July-01 - An Indepth Look at Using Inverse Trig Functions (Precalculus - Trigonometry 21) :
 https://www.youtube.com/watch?v=1f6BhHlkgy4&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=97
+### An In-Depth Look at Using Inverse Trig Functions
+
+Inverse trigonometric functions are designed to undo the operations of regular trigonometric functions. While regular functions (sine, cosine, tangent) take an angle as an input and produce a coordinate (y, x, or y/x), inverse functions take those coordinates as input and return the angle that created them.
+
+Because trig functions are periodic, their inverses must be restricted to specific domains to remain one-to-one functions.
+
+#### Function Domain Restrictions
+| Function | Range/Interval | Quadrants |
+| :--- | :--- | :--- |
+| $\sin^{-1}(y)$ | $[-\pi/2, \pi/2]$ | IV and I |
+| $\cos^{-1}(x)$ | $[0, \pi]$ | I and II |
+| $\tan^{-1}(y/x)$ | $(-\pi/2, \pi/2)$ | IV and I |
+| $\csc^{-1}$ | $[-\pi/2, \pi/2]$ (excluding 0) | Same as $\sin^{-1}$ |
+| $\sec^{-1}$ | $[0, \pi]$ (excluding $\pi/2$) | Same as $\cos^{-1}$ |
+| $\cot^{-1}$ | $(0, \pi)$ | Different from $\tan^{-1}$ |
+
+
+
+---
+
+#### Strategy: Evaluating Composite Trig Expressions
+
+When working with expressions like $\sin(\cos^{-1}(x))$, follow this conceptual framework:
+
+1.  **Identify the Angle:** Recognize that the inner function (e.g., $\cos^{-1}(x)$) is asking for an angle.
+2.  **Use the Unit Circle:** If the input is a known coordinate (e.g., $\sqrt{2}/2$), find the angle directly using the unit circle within the allowed interval.
+3.  **Use Triangles (Non-Unit Circle):** If the input is not on the unit circle, define the inverse as $\theta$ (e.g., $\sin^{-1}(1/3) = \theta \rightarrow \sin(\theta) = 1/3$).
+    * Draw a right triangle based on the trig definition (e.g., opposite/hypotenuse for sine) in the correct quadrant.
+    * Use the Pythagorean theorem ($x^2 + y^2 = r^2$) to find the missing side.
+    * Evaluate the outer function using the sides of that triangle.
+
+#### Examples of Core Techniques
+
+* **Finding angles from coordinates:** For $\sin^{-1}(\sqrt{2}/2)$, look for the angle in the interval $[-\pi/2, \pi/2]$ where $y = \sqrt{2}/2$, which is $\pi/4$.
+* **Composite functions with unit circle values:** To evaluate $\tan(\cos^{-1}(-\sqrt{3}/2))$:
+    * Identify that $\cos^{-1}(-\sqrt{3}/2)$ is an angle $\theta$ where the $x$-coordinate is $-\sqrt{3}/2$ in the interval $[0, \pi]$. This angle is $5\pi/6$.
+    * Calculate $\tan(5\pi/6)$, which is $y/x = (1/2) / (-\sqrt{3}/2) = -1/\sqrt{3}$.
+* **Composite functions with triangles:** For $\sin(\tan^{-1}(1/2))$:
+    * Let $\tan^{-1}(1/2) = \theta$, so $\tan(\theta) = 1/2$ (y=1, x=2).
+    * Find the hypotenuse $r = \sqrt{1^2 + 2^2} = \sqrt{5}$.
+    * $\sin(\theta) = y/r = 1/\sqrt{5} = \sqrt{5}/5$.
+
+#### Working with Reciprocals ($\csc^{-1}, \sec^{-1}, \cot^{-1}$)
+
+Because $\csc^{-1}$ and $\sec^{-1}$ share ranges with $\sin^{-1}$ and $\cos^{-1}$, you can use reciprocal identities to simplify them.
+* **Example:** $\csc^{-1}(-2\sqrt{3}/3) = \theta \rightarrow \csc(\theta) = -2\sqrt{3}/3 \rightarrow \sin(\theta) = -3/(2\sqrt{3}) = -\sqrt{3}/2$. Now solve for $\sin^{-1}(-\sqrt{3}/2)$ on the same interval, which is $-\pi/3$.
+
+**Note on Cotangent:** $\cot^{-1}$ is unique because its range $(0, \pi)$ does not match $\tan^{-1}$. If the angle is in Quadrant I, you can use $\tan^{-1}$'s reciprocal. If it is in Quadrant II, you must use a triangle and relate it to $\cos^{-1}$.
