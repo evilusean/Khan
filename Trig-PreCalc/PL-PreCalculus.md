@@ -18422,9 +18422,7 @@ Because trig functions are periodic, their inverses must be restricted to specif
 | $\cot^{-1}$ | $(0, \pi)$ | Different from $\tan^{-1}$ |
 
 
-
 ---
-
 #### Strategy: Evaluating Composite Trig Expressions
 
 When working with expressions like $\sin(\cos^{-1}(x))$, follow this conceptual framework:
@@ -18435,9 +18433,7 @@ When working with expressions like $\sin(\cos^{-1}(x))$, follow this conceptual 
     * Draw a right triangle based on the trig definition (e.g., opposite/hypotenuse for sine) in the correct quadrant.
     * Use the Pythagorean theorem ($x^2 + y^2 = r^2$) to find the missing side.
     * Evaluate the outer function using the sides of that triangle.
-
 #### Examples of Core Techniques
-
 * **Finding angles from coordinates:** For $\sin^{-1}(\sqrt{2}/2)$, look for the angle in the interval $[-\pi/2, \pi/2]$ where $y = \sqrt{2}/2$, which is $\pi/4$.
 * **Composite functions with unit circle values:** To evaluate $\tan(\cos^{-1}(-\sqrt{3}/2))$:
     * Identify that $\cos^{-1}(-\sqrt{3}/2)$ is an angle $\theta$ where the $x$-coordinate is $-\sqrt{3}/2$ in the interval $[0, \pi]$. This angle is $5\pi/6$.
@@ -18446,10 +18442,8 @@ When working with expressions like $\sin(\cos^{-1}(x))$, follow this conceptual 
     * Let $\tan^{-1}(1/2) = \theta$, so $\tan(\theta) = 1/2$ (y=1, x=2).
     * Find the hypotenuse $r = \sqrt{1^2 + 2^2} = \sqrt{5}$.
     * $\sin(\theta) = y/r = 1/\sqrt{5} = \sqrt{5}/5$.
-
 #### Working with Reciprocals ($\csc^{-1}, \sec^{-1}, \cot^{-1}$)
-
 Because $\csc^{-1}$ and $\sec^{-1}$ share ranges with $\sin^{-1}$ and $\cos^{-1}$, you can use reciprocal identities to simplify them.
 * **Example:** $\csc^{-1}(-2\sqrt{3}/3) = \theta \rightarrow \csc(\theta) = -2\sqrt{3}/3 \rightarrow \sin(\theta) = -3/(2\sqrt{3}) = -\sqrt{3}/2$. Now solve for $\sin^{-1}(-\sqrt{3}/2)$ on the same interval, which is $-\pi/3$.
-
 **Note on Cotangent:** $\cot^{-1}$ is unique because its range $(0, \pi)$ does not match $\tan^{-1}$. If the angle is in Quadrant I, you can use $\tan^{-1}$'s reciprocal. If it is in Quadrant II, you must use a triangle and relate it to $\cos^{-1}$.
+
