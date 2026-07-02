@@ -18504,3 +18504,25 @@ When the value inside the inverse function is not a standard unit circle value, 
     * $\sin(\theta) = \frac{1}{\sqrt{5}}$.
 4.  **Final Result:**
     * Rationalizing the denominator gives: $\frac{\sqrt{5}}{5}$.
+### $\tan(\sin^{-1}(\frac{1}{3}))$
+
+Since the value inside the inverse function ($1/3$) is not a standard unit circle value, we use a right triangle to represent the relationship.
+
+1.  **Represent the inner function ($\sin^{-1}(\frac{1}{3})$):**
+    * Let $\theta = \sin^{-1}(\frac{1}{3})$. This is equivalent to saying $\sin(\theta) = \frac{1}{3}$.
+    * Since $\sin(\theta) = \frac{\text{opposite}}{\text{hypotenuse}}$, draw a right triangle where the opposite side is $1$ and the hypotenuse is $3$.
+    
+2.  **Find the missing side (adjacent):**
+    * Use the Pythagorean theorem ($a^2 + b^2 = c^2$) to find the adjacent side ($x$):
+    * $x^2 + 1^2 = 3^2$
+    * $x^2 + 1 = 9$
+    * $x^2 = 8$
+    * $x = \sqrt{8} = 2\sqrt{2}$.
+
+3.  **Evaluate the outer function ($\tan(\theta)$):**
+    * Using the triangle, $\tan(\theta) = \frac{\text{opposite}}{\text{adjacent}}$.
+    * $\tan(\theta) = \frac{1}{2\sqrt{2}}$.
+
+4.  **Final Result:**
+    * Rationalize the denominator by multiplying the numerator and denominator by $\sqrt{2}$:
+    * $\frac{1}{2\sqrt{2}} \cdot \frac{\sqrt{2}}{\sqrt{2}} = \frac{\sqrt{2}}{2(2)} = \frac{\sqrt{2}}{4}$.
