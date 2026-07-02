@@ -18696,3 +18696,28 @@ This video focuses on the fundamental techniques for solving trigonometric equat
 
 6. **Final Answer:**
    The solutions in the interval $[0, 2\pi)$ are $\theta = \pi/6, 5\pi/6, 7\pi/6, 11\pi/6$.
+### Solving the Equation 3\tan^2\theta = 1
+
+1. **Isolate the trigonometric term:**
+   Divide both sides by 3:
+   $\tan^2\theta = 1/3$
+
+2. **Take the square root of both sides:**
+   Remember to include both positive and negative roots:
+   $\tan\theta = \pm\sqrt{1/3}$
+   $\tan\theta = \pm 1/\sqrt{3}$
+
+3. **Determine the reference angle:**
+   Find the angle $\theta'$ where $\tan\theta' = 1/\sqrt{3}$:
+   $\theta' = \pi/6$ (or 30°)
+
+4. **Find the values of \theta in [0, 2\pi):**
+   Since we have $\pm 1/\sqrt{3}$, we look for solutions in all four quadrants (tangent is positive in Quadrants I and III, and negative in Quadrants II and IV).
+
+   * Quadrant I: $\theta = \pi/6$
+   * Quadrant II: $\theta = \pi - \pi/6 = 5\pi/6$
+   * Quadrant III: $\theta = \pi + \pi/6 = 7\pi/6$
+   * Quadrant IV: $\theta = 2\pi - \pi/6 = 11\pi/6$
+
+5. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ for the equation from "image_b0168c.png" are $\theta = \pi/6, 5\pi/6, 7\pi/6, 11\pi/6$.
