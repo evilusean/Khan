@@ -18718,23 +18718,18 @@ This video focuses on the fundamental techniques for solving trigonometric equat
 5. **Final Answer:**
    The solutions in the interval $[0, 2\pi)$ for the equation from "image_b0168c.png" are $\theta = \pi/6, 5\pi/6, 7\pi/6, 11\pi/6$.
 ### Solving the Equation $\sin(3\theta) = -1$
-
 1. **Substitution:**
    Let $\alpha = 3\theta$. The equation becomes $\sin(\alpha) = -1$.
-
 2. **Find solutions for $\alpha$:**
    On the interval $[0, 2\pi)$, $\sin(\alpha) = -1$ occurs only at:
    $\alpha = 3\pi/2$
-
    Because the original equation is $\sin(3\theta)$, the period is affected. We must find all values of $\alpha$ such that when divided by 3, they fall in $[0, 2\pi)$. The general solution for $\sin(\alpha) = -1$ is:
    $\alpha = 3\pi/2 + 2\pi k$
-
 3. **Solve for $\theta$:**
    Since $\alpha = 3\theta$, substitute back:
    $3\theta = 3\pi/2 + 2\pi k$
    $\theta = \frac{3\pi/2 + 2\pi k}{3}$
    $\theta = \pi/2 + \frac{2\pi}{3} k$
-
 4. **Find values of $\theta$ in $[0, 2\pi)$:**
    Plug in values for $k$ until $\theta \geq 2\pi$:
    * $k = 0: \theta = \pi/2$
