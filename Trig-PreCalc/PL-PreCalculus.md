@@ -18672,3 +18672,32 @@ This video focuses on the fundamental techniques for solving trigonometric equat
    * Quadrant IV: $\theta = 2\pi - \pi/6 = 11\pi/6$
 4. **Final Answer:**
    The solutions in the interval $[0, 2\pi)$ are $\theta = 7\pi/6, 11\pi/6$.
+### Solving the Equation 4\cos^2\theta - 3 = 0
+
+1. **Isolate the trigonometric term:**
+   Add 3 to both sides:
+   $4\cos^2\theta = 3$
+
+2. **Solve for \cos^2\theta:**
+   Divide both sides by 4:
+   $\cos^2\theta = 3/4$
+
+3. **Take the square root of both sides:**
+   Remember to include both positive and negative roots:
+   $\cos\theta = \pm\sqrt{3/4}$
+   $\cos\theta = \pm\sqrt{3}/2$
+
+4. **Determine the reference angle:**
+   Find the angle $\theta'$ where $\cos\theta' = \sqrt{3}/2$:
+   $\theta' = \pi/6$ (or 30°)
+
+5. **Find the values of \theta in [0, 2\pi):**
+   Since we have $\pm\sqrt{3}/2$, we look for solutions in all four quadrants.
+
+   * Quadrant I: $\theta = \pi/6$
+   * Quadrant II: $\theta = \pi - \pi/6 = 5\pi/6$
+   * Quadrant III: $\theta = \pi + \pi/6 = 7\pi/6$
+   * Quadrant IV: $\theta = 2\pi - \pi/6 = 11\pi/6$
+
+6. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ are $\theta = \pi/6, 5\pi/6, 7\pi/6, 11\pi/6$.
