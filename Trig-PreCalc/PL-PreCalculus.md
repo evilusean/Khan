@@ -18477,17 +18477,14 @@ To solve this, treat it as a composite trigonometric expression where the invers
 ### $\cot(\cos^{-1}(-\frac{1}{2}))$
 
 To solve this, treat it as a composite trigonometric expression where the inverse function provides an angle that is then used by the outer function.
-
 1.  **Evaluate the inner function ($\cos^{-1}(-\frac{1}{2})$):**
     * This expression asks for an angle $\theta$ such that $\cos(\theta) = -\frac{1}{2}$.
     * Recall that $\cos^{-1}$ is restricted to the interval $[0, \pi]$ (Quadrants I and II).
     * Since $\cos(\theta) = -\frac{1}{2}$ is negative, the angle must be in Quadrant II. On the unit circle, the angle in the interval $[0, \pi]$ with an $x$-coordinate of $-\frac{1}{2}$ is $120^\circ$, or $2\pi/3$ radians.
-
 2.  **Evaluate the outer function ($\cot(2\pi/3)$):**
     * Substitute the angle into the cotangent function: $\cot(2\pi/3)$.
     * Cotangent is defined as the ratio of the $x$-coordinate to the $y$-coordinate ($x/y$).
     * At $2\pi/3$, the $x$-coordinate is $-\frac{1}{2}$ and the $y$-coordinate is $\frac{\sqrt{3}}{2}$.
     * $\cot(2\pi/3) = \frac{-1/2}{\sqrt{3}/2} = -\frac{1}{\sqrt{3}}$.
-
 3.  **Final Result:**
     * Rationalizing the denominator gives: $-\frac{\sqrt{3}}{3}$.
