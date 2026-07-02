@@ -18718,18 +18718,29 @@ This video focuses on the fundamental techniques for solving trigonometric equat
 5. **Final Answer:**
    The solutions in the interval $[0, 2\pi)$ for the equation from "image_b0168c.png" are $\theta = \pi/6, 5\pi/6, 7\pi/6, 11\pi/6$.
 ### Solving the Equation $\sin(3\theta) = -1$
-1. **Solve for the argument (3\theta):**
-   The sine function equals -1 at $3\pi/2$. Since we want all possible solutions, we add multiples of the period $2\pi k$:
-   $3\theta = 3\pi/2 + 2\pi k$
-   (where $k$ is any integer)
-2. **Solve for \theta:**
-   Divide the entire equation by 3:
-   $\theta = (3\pi/2 + 2\pi k) / 3$
-   $\theta = \pi/2 + (2\pi/3)k$
-3. **List specific solutions (optional):**
-   * If $k = 0$: $\theta = \pi/2$
-   * If $k = 1$: $\theta = \pi/2 + 2\pi/3 = 3\pi/6 + 4\pi/6 = 7\pi/6$
-   * If $k = 2$: $\theta = \pi/2 + 4\pi/3 = 3\pi/6 + 8\pi/6 = 11\pi/6$
 
-4. **Final Answer:**
-   The general solution is $\theta = \pi/2 + (2\pi/3)k$.
+1. **Substitution:**
+   Let $\alpha = 3\theta$. The equation becomes $\sin(\alpha) = -1$.
+
+2. **Find solutions for $\alpha$:**
+   On the interval $[0, 2\pi)$, $\sin(\alpha) = -1$ occurs only at:
+   $\alpha = 3\pi/2$
+
+   Because the original equation is $\sin(3\theta)$, the period is affected. We must find all values of $\alpha$ such that when divided by 3, they fall in $[0, 2\pi)$. The general solution for $\sin(\alpha) = -1$ is:
+   $\alpha = 3\pi/2 + 2\pi k$
+
+3. **Solve for $\theta$:**
+   Since $\alpha = 3\theta$, substitute back:
+   $3\theta = 3\pi/2 + 2\pi k$
+   $\theta = \frac{3\pi/2 + 2\pi k}{3}$
+   $\theta = \pi/2 + \frac{2\pi}{3} k$
+
+4. **Find values of $\theta$ in $[0, 2\pi)$:**
+   Plug in values for $k$ until $\theta \geq 2\pi$:
+   * $k = 0: \theta = \pi/2$
+   * $k = 1: \theta = \pi/2 + 2\pi/3 = 3\pi/6 + 4\pi/6 = 7\pi/6$
+   * $k = 2: \theta = \pi/2 + 4\pi/3 = 3\pi/6 + 8\pi/6 = 11\pi/6$
+   * $k = 3: \theta = \pi/2 + 6\pi/3 = \pi/2 + 2\pi = 5\pi/2$ (Outside range)
+
+5. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ are $\theta = \pi/2, 7\pi/6, 11\pi/6$.
