@@ -18653,3 +18653,26 @@ This video focuses on the fundamental techniques for solving trigonometric equat
     4.  Solve for the reference angle: Use inverse functions to find the primary angle.
     5.  Identify all solutions: Use the unit circle to find secondary angles based on the sign of the trigonometric ratio (e.g., where sine is positive vs. negative).
     6.  State the general solution: If requested, add multiples of the period ($+ 2n\pi$).
+### Solving the Equation $2\sin\theta + 3 = 2$
+
+1. **Isolate the term with the trigonometric function:**
+   Subtract 3 from both sides of the equation:
+   $2\sin\theta = 2 - 3$
+   $2\sin\theta = -1$
+
+2. **Solve for \sin\theta:**
+   Divide both sides by 2:
+   $\sin\theta = -1/2$
+
+3. **Determine the reference angle:**
+   Ignoring the negative sign, find the angle $\theta'$ where $\sin\theta' = 1/2$.
+   $\theta' = \pi/6$ (or 30°)
+
+4. **Find the values of \theta in [0, 2\pi):**
+   Since $\sin\theta$ is negative, solutions lie in Quadrant III and Quadrant IV.
+
+   * Quadrant III: $\theta = \pi + \pi/6 = 7\pi/6$
+   * Quadrant IV: $\theta = 2\pi - \pi/6 = 11\pi/6$
+
+5. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ are $\theta = 7\pi/6, 11\pi/6$.
