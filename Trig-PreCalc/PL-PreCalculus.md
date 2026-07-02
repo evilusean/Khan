@@ -18545,21 +18545,87 @@ Since the value inside the inverse function ($-\frac{\sqrt{3}}{3}$) is not a sta
 ### $\sin(\tan^{-1}(-3))$
 
 Since the value inside the inverse function ($-3$) is not a standard unit circle value, we use a right triangle to represent the relationship.
-
 1.  **Represent the inner function ($\tan^{-1}(-3)$):**
     * Let $\theta = \tan^{-1}(-3)$. This is equivalent to $\tan(\theta) = -3$.
     * Since $\tan^{-1}$ is restricted to the interval $(-\pi/2, \pi/2)$ (Quadrants IV and I), and the tangent value is negative, $\theta$ must be in Quadrant IV.
     * Recall that $\tan(\theta) = \frac{\text{opposite}}{\text{adjacent}}$. We can write $-3$ as $\frac{-3}{1}$, so let the opposite side be $-3$ and the adjacent side be $1$.
-    
 2.  **Find the missing side (hypotenuse):**
     * Use the Pythagorean theorem ($a^2 + b^2 = c^2$) to find the hypotenuse ($r$):
     * $1^2 + (-3)^2 = r^2$
     * $1 + 9 = r^2$
     * $r^2 = 10 \rightarrow r = \sqrt{10}$.
-
 3.  **Evaluate the outer function ($\sin(\theta)$):**
     * Using the triangle, $\sin(\theta) = \frac{\text{opposite}}{\text{hypotenuse}}$.
     * $\sin(\theta) = \frac{-3}{\sqrt{10}}$.
-
 4.  **Final Result:**
     * Rationalizing the denominator gives: $-\frac{3\sqrt{10}}{10}$.
+### $\tan(\cos^{-1}(-\frac{\sqrt{3}}{2}))$
+
+1. **Evaluate the inner function ($\cos^{-1}(-\frac{\sqrt{3}}{2})$):**
+   * This asks for the angle $\theta$ in the interval $[0, \pi]$ where the cosine is $-\frac{\sqrt{3}}{2}$.
+   * Since the cosine is negative, $\theta$ is in Quadrant II. The reference angle is $\frac{\pi}{6}$ (where $\cos = \frac{\sqrt{3}}{2}$).
+   * In Quadrant II, $\theta = \pi - \frac{\pi}{6} = \frac{5\pi}{6}$.
+2. **Evaluate the outer function ($\tan(\frac{5\pi}{6})$):**
+   * $\tan(\frac{5\pi}{6}) = \frac{\sin(5\pi/6)}{\cos(5\pi/6)} = \frac{1/2}{-\sqrt{3}/2} = -\frac{1}{\sqrt{3}}$.
+1. **Result:** Rationalizing gives $-\frac{\sqrt{3}}{3}$.
+
+### $\csc(\tan^{-1}(\sqrt{3}))$
+
+1. **Evaluate the inner function ($\tan^{-1}(\sqrt{3})$):**
+   * This asks for the angle $\theta$ in the interval $(-\frac{\pi}{2}, \frac{\pi}{2})$ where the tangent is $\sqrt{3}$.
+   * Since the value is positive, $\theta$ is in Quadrant I.
+   * $\tan(\frac{\pi}{3}) = \sqrt{3}$, so $\theta = \frac{\pi}{3}$.
+2. **Evaluate the outer function ($\csc(\frac{\pi}{3})$):**
+   * $\csc(\theta) = \frac{1}{\sin(\theta)}$.
+   * $\csc(\frac{\pi}{3}) = \frac{1}{\sin(\pi/3)} = \frac{1}{\sqrt{3}/2} = \frac{2}{\sqrt{3}}$.
+3. **Result:** Rationalizing gives $\frac{2\sqrt{3}}{3}$.
+
+### $\csc^{-1}(-\frac{2\sqrt{3}}{3}) = \theta$
+
+1. **Convert to a sine expression:**
+   * $\csc(\theta) = -\frac{2\sqrt{3}}{3}$ is equivalent to $\sin(\theta) = -\frac{3}{2\sqrt{3}}$.
+   * Simplifying: $\sin(\theta) = -\frac{3}{2\sqrt{3}} \cdot \frac{\sqrt{3}}{\sqrt{3}} = -\frac{3\sqrt{3}}{2(3)} = -\frac{\sqrt{3}}{2}$.
+2. **Solve for $\theta$:**
+   * $\csc^{-1}$ shares the same range as $\sin^{-1}$, which is $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
+   * We need the angle where $\sin(\theta) = -\frac{\sqrt{3}}{2}$ within this interval.
+   * $\theta = -\frac{\pi}{3}$.
+1. **Result:** $-\frac{\pi}{3}$
+
+### $\sec^{-1}(-2) = \theta$
+
+1. **Convert to a cosine expression:**
+   * $\sec(\theta) = -2$ is equivalent to $\cos(\theta) = -\frac{1}{2}$.
+2. **Solve for $\theta$:**
+   * $\sec^{-1}$ shares the same range as $\cos^{-1}$, which is $[0, \pi]$.
+   * We need the angle where $\cos(\theta) = -\frac{1}{2}$ within this interval.
+   * Since the cosine is negative, $\theta$ is in Quadrant II.
+   * The angle is $\frac{2\pi}{3}$.
+1. **Result:** $\frac{2\pi}{3}$
+### $\sec^{-1}(-3) = \theta$
+
+1. **Conversion:** $\sec^{-1}(-3) = \theta$ is equivalent to $\sec(\theta) = -3$, or $\cos(\theta) = -\frac{1}{3}$.
+2. **Triangle Setup:** Since cosine is negative, $\theta$ must be in Quadrant II. Set up a right triangle with an adjacent side of $-1$ and a hypotenuse of $3$.
+   
+3. **Find the missing side:** Using $x^2 + y^2 = r^2$:
+   * $(-1)^2 + y^2 = 3^2$
+   * $1 + y^2 = 9$
+   * $y^2 = 8 \Rightarrow y = \sqrt{8} = 2\sqrt{2}$.
+4. **Final Angle:** $\theta = \cos^{-1}(-\frac{1}{3})$.
+
+### $\csc^{-1}(-4) = \theta$
+
+1. **Conversion:** $\csc^{-1}(-4) = \theta$ is equivalent to $\csc(\theta) = -4$, or $\sin(\theta) = -\frac{1}{4}$.
+2. **Range Constraint:** $\csc^{-1}$ is restricted to the interval $[-\frac{\pi}{2}, \frac{\pi}{2}]$. Since $\sin(\theta)$ is negative, $\theta$ must be in Quadrant IV.
+3. **Final Angle:** $\theta = \sin^{-1}(-\frac{1}{4})$, which simplifies to $-\sin^{-1}(\frac{1}{4})$.
+### $\cot^{-1}(\sqrt{3}) = \theta$
+
+1. **Conversion:** $\cot^{-1}(\sqrt{3}) = \theta$ is equivalent to $\cot(\theta) = \sqrt{3}$, or $\tan(\theta) = \frac{1}{\sqrt{3}}$.
+2. **Evaluation:** Since the value is positive, $\theta$ is in Quadrant I. We know that $\tan(\frac{\pi}{6}) = \frac{1}{\sqrt{3}}$.
+3. **Result:** $\theta = \frac{\pi}{6}$.
+
+### $\cot^{-1}(-2) = \theta$
+
+1. **Conversion:** $\cot^{-1}(-2) = \theta$ is equivalent to $\cot(\theta) = -2$, or $\tan(\theta) = -\frac{1}{2}$.
+2. **Range Constraint:** $\cot^{-1}$ is restricted to the interval $(0, \pi)$. Since the value is negative, $\theta$ must be in Quadrant II.
+3. **Triangle Setup:** In Quadrant II, set up a right triangle with an adjacent side of $-1$ and an opposite side of $2$. The hypotenuse $r$ is $\sqrt{(-1)^2 + 2^2} = \sqrt{5}$.
+   4. **Final Angle:** $\theta = \cos^{-1}(\frac{-1}{\sqrt{5}})$, which simplifies to $\theta = \cos^{-1}(-\frac{\sqrt{5}}{5})$.
