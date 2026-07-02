@@ -18460,3 +18460,20 @@ To solve this, treat it as a composite trigonometric expression where the invers
     * $\tan(5\pi/6) = \frac{1/2}{-\sqrt{3}/2} = -\frac{1}{\sqrt{3}}$ [00:13:10].
 3.  **Final Result:**
     * Rationalizing the denominator gives: $-\frac{\sqrt{3}}{3}$ [00:13:32].
+### $\csc(\tan^{-1}(\sqrt{3}))$
+
+To solve this, treat it as a composite trigonometric expression where the inverse function provides an angle that is then used by the outer function [00:09:05].
+
+1.  **Evaluate the inner function ($\tan^{-1}(\sqrt{3})$):**
+    * This expression asks for an angle $\theta$ such that $\tan(\theta) = \sqrt{3}$ [00:16:22].
+    * Recall that $\tan^{-1}$ is restricted to the interval $(-\pi/2, \pi/2)$ (Quadrants IV and I) [00:15:31].
+    * Since $\tan(\theta) = \sqrt{3}$ is positive, $\theta$ must be in Quadrant I. Using the 30-60-90 reference triangle, we know that $\tan(60^\circ) = \sqrt{3}$ [00:16:38].
+    * Therefore, $\tan^{-1}(\sqrt{3}) = 60^\circ$, or $\pi/3$ radians [00:17:17].
+
+2.  **Evaluate the outer function ($\csc(60^\circ)$):**
+    * Now, substitute the angle found into the cosecant function: $\csc(60^\circ)$ [00:00:34].
+    * The cosecant is the reciprocal of the sine function: $\csc(\theta) = 1/\sin(\theta)$ [00:18:11].
+    * Since $\sin(60^\circ) = \sqrt{3}/2$, then $\csc(60^\circ) = 1 / (\sqrt{3}/2) = 2/\sqrt{3}$ [00:18:20].
+
+3.  **Final Result:**
+    * Rationalizing the denominator gives: $\frac{2\sqrt{3}}{3}$ [00:18:43].
