@@ -18631,3 +18631,28 @@ Since the value inside the inverse function ($-3$) is not a standard unit circle
    4. **Final Angle:** $\theta = \cos^{-1}(\frac{-1}{\sqrt{5}})$, which simplifies to $\theta = \cos^{-1}(-\frac{\sqrt{5}}{5})$.
 ## 2026-July-02 - How to Solve Trigonometric Equations (Precalculus - Trigonometry 22) :
 https://www.youtube.com/watch?v=hBk7OnEYPcw&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=97
+### Summary: How to Solve Trigonometric Equations (Precalculus - Trigonometry 22)
+
+This video focuses on the fundamental techniques for solving trigonometric equations by isolating the trigonometric function and applying inverse trigonometric principles.
+*   **Core Approach to Solving Trigonometric Equations**: 
+    *   Treat trigonometric functions (like $\sin(\theta)$, $\cos(\theta)$, etc.) as if they were variables (e.g., $x$ or $y$).
+    *   The primary goal is to isolate the trigonometric function on one side of the equation.
+    *   Once isolated, use inverse trigonometric functions to find the angle(s) that satisfy the equation.
+    
+*   **Fundamental Principles and Constraints**:
+    *   When solving, you must be aware of the specific domain and range restrictions for inverse trigonometric functions (e.g., $\sin^{-1}$ range is $[-\frac{\pi}{2}, \frac{\pi}{2}]$; $\cos^{-1}$ range is $[0, \pi]$).
+    *   Equations often have multiple solutions within a given period (usually $[0, 2\pi)$) because of the periodic nature of trigonometric functions.
+    *   The general solution includes the period ($2n\pi$) to account for all possible rotations around the unit circle.
+    
+*   **Algebraic Techniques**:
+    *   If an equation is quadratic in form (e.g., $\sin^2(\theta) - \sin(\theta) - 2 = 0$), use factoring to break it into simpler linear components.
+    *   For equations involving multiple trigonometric ratios, use identities (such as the Pythagorean identity $\sin^2(\theta) + \cos^2(\theta) = 1$) to express the entire equation in terms of a single ratio.
+    *   Multiplication or division by a trigonometric function should be done with caution to avoid losing potential solutions (dividing by a variable expression like $\sin(\theta)$ is only valid if $\sin(\theta) \neq 0$).
+    
+*   **Step-by-Step Problem Solving Strategy**:
+    1.  Simplify the equation: Use identities to get common functions if necessary.
+    2.  Factor if possible: This is standard for quadratic-style trigonometric equations.
+    3.  Isolate the trig function: Get $\sin(\theta)$, $\cos(\theta)$, etc., by themselves.
+    4.  Solve for the reference angle: Use inverse functions to find the primary angle.
+    5.  Identify all solutions: Use the unit circle to find secondary angles based on the sign of the trigonometric ratio (e.g., where sine is positive vs. negative).
+    6.  State the general solution: If requested, add multiples of the period ($+ 2n\pi$).
