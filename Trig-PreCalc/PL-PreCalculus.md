@@ -18629,3 +18629,4 @@ Since the value inside the inverse function ($-3$) is not a standard unit circle
 2. **Range Constraint:** $\cot^{-1}$ is restricted to the interval $(0, \pi)$. Since the value is negative, $\theta$ must be in Quadrant II.
 3. **Triangle Setup:** In Quadrant II, set up a right triangle with an adjacent side of $-1$ and an opposite side of $2$. The hypotenuse $r$ is $\sqrt{(-1)^2 + 2^2} = \sqrt{5}$.
    4. **Final Angle:** $\theta = \cos^{-1}(\frac{-1}{\sqrt{5}})$, which simplifies to $\theta = \cos^{-1}(-\frac{\sqrt{5}}{5})$.
+## 2026-July-02 - How to Solve Trigonometric Equations (Precalculus - Trigonometry 22) :
