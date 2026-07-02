@@ -18542,3 +18542,24 @@ Since the value inside the inverse function ($-\frac{\sqrt{3}}{3}$) is not a sta
 4.  **Final Result:**
     * Simplify the fraction: $\cot(\theta) = -\sqrt{\frac{3}{6}} = -\sqrt{\frac{1}{2}} = -\frac{1}{\sqrt{2}}$.
     * Rationalizing the denominator gives: $-\frac{\sqrt{2}}{2}$.
+### $\sin(\tan^{-1}(-3))$
+
+Since the value inside the inverse function ($-3$) is not a standard unit circle value, we use a right triangle to represent the relationship.
+
+1.  **Represent the inner function ($\tan^{-1}(-3)$):**
+    * Let $\theta = \tan^{-1}(-3)$. This is equivalent to $\tan(\theta) = -3$.
+    * Since $\tan^{-1}$ is restricted to the interval $(-\pi/2, \pi/2)$ (Quadrants IV and I), and the tangent value is negative, $\theta$ must be in Quadrant IV.
+    * Recall that $\tan(\theta) = \frac{\text{opposite}}{\text{adjacent}}$. We can write $-3$ as $\frac{-3}{1}$, so let the opposite side be $-3$ and the adjacent side be $1$.
+    
+2.  **Find the missing side (hypotenuse):**
+    * Use the Pythagorean theorem ($a^2 + b^2 = c^2$) to find the hypotenuse ($r$):
+    * $1^2 + (-3)^2 = r^2$
+    * $1 + 9 = r^2$
+    * $r^2 = 10 \rightarrow r = \sqrt{10}$.
+
+3.  **Evaluate the outer function ($\sin(\theta)$):**
+    * Using the triangle, $\sin(\theta) = \frac{\text{opposite}}{\text{hypotenuse}}$.
+    * $\sin(\theta) = \frac{-3}{\sqrt{10}}$.
+
+4.  **Final Result:**
+    * Rationalizing the denominator gives: $-\frac{3\sqrt{10}}{10}$.
