@@ -18530,18 +18530,15 @@ Since the value inside the inverse function ($-\frac{\sqrt{3}}{3}$) is not a sta
     * Let $\theta = \cos^{-1}(-\frac{\sqrt{3}}{3})$. This is equivalent to $\cos(\theta) = -\frac{\sqrt{3}}{3}$.
     * Since $\cos^{-1}$ is restricted to $[0, \pi]$, and the cosine value is negative, $\theta$ must be in Quadrant II.
     * Recall that $\cos(\theta) = \frac{\text{adjacent}}{\text{hypotenuse}}$. In a right triangle, we can set the adjacent side to $-\sqrt{3}$ and the hypotenuse to $3$.
-    
 2.  **Find the missing side (opposite):**
     * Use the Pythagorean theorem ($x^2 + y^2 = r^2$):
     * $(-\sqrt{3})^2 + y^2 = 3^2$
     * $3 + y^2 = 9$
     * $y^2 = 6$
     * $y = \sqrt{6}$ (the opposite side is positive in Quadrant II).
-
 3.  **Evaluate the outer function ($\cot(\theta)$):**
     * Using the definition of cotangent, $\cot(\theta) = \frac{\text{adjacent}}{\text{opposite}}$.
     * $\cot(\theta) = \frac{-\sqrt{3}}{\sqrt{6}}$.
-
 4.  **Final Result:**
     * Simplify the fraction: $\cot(\theta) = -\sqrt{\frac{3}{6}} = -\sqrt{\frac{1}{2}} = -\frac{1}{\sqrt{2}}$.
     * Rationalizing the denominator gives: $-\frac{\sqrt{2}}{2}$.
