@@ -18488,3 +18488,23 @@ To solve this, treat it as a composite trigonometric expression where the invers
     * $\cot(2\pi/3) = \frac{-1/2}{\sqrt{3}/2} = -\frac{1}{\sqrt{3}}$.
 3.  **Final Result:**
     * Rationalizing the denominator gives: $-\frac{\sqrt{3}}{3}$.
+### $\sin(\tan^{-1}(\frac{1}{2}))$
+
+When the value inside the inverse function is not a standard unit circle value, use a right triangle to solve the expression.
+
+1.  **Represent the inner function ($\tan^{-1}(\frac{1}{2})$):**
+    * Let $\theta = \tan^{-1}(\frac{1}{2})$. This means $\tan(\theta) = \frac{1}{2}$.
+    * Since tangent is $\frac{\text{opposite}}{\text{adjacent}}$, draw a right triangle where the opposite side is $1$ and the adjacent side is $2$.
+    * 
+2.  **Find the missing side (hypotenuse):**
+    * Use the Pythagorean theorem ($a^2 + b^2 = c^2$):
+    * $1^2 + 2^2 = c^2$
+    * $1 + 4 = c^2$
+    * $c^2 = 5 \rightarrow c = \sqrt{5}$.
+
+3.  **Evaluate the outer function ($\sin(\theta)$):**
+    * Now that we have all three sides of the triangle ($opp=1, adj=2, hyp=\sqrt{5}$), use the definition of sine: $\sin(\theta) = \frac{\text{opposite}}{\text{hypotenuse}}$.
+    * $\sin(\theta) = \frac{1}{\sqrt{5}}$.
+
+4.  **Final Result:**
+    * Rationalizing the denominator gives: $\frac{\sqrt{5}}{5}$.
