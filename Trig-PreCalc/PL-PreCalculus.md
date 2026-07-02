@@ -18659,20 +18659,16 @@ This video focuses on the fundamental techniques for solving trigonometric equat
    Subtract 3 from both sides of the equation:
    $2\sin\theta = 2 - 3$
    $2\sin\theta = -1$
-
 2. **Solve for \sin\theta:**
    Divide both sides by 2:
    $\sin\theta = -1/2$
-
 3. **Determine the reference angle:**
    Ignoring the negative sign, find the angle $\theta'$ where $\sin\theta' = 1/2$.
    $\theta' = \pi/6$ (or 30°)
-
 4. **Find the values of \theta in [0, 2\pi):**
    Since $\sin\theta$ is negative, solutions lie in Quadrant III and Quadrant IV.
 
    * Quadrant III: $\theta = \pi + \pi/6 = 7\pi/6$
    * Quadrant IV: $\theta = 2\pi - \pi/6 = 11\pi/6$
-
-5. **Final Answer:**
+4. **Final Answer:**
    The solutions in the interval $[0, 2\pi)$ are $\theta = 7\pi/6, 11\pi/6$.
