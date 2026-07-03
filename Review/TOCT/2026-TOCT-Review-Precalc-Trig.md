@@ -1463,8 +1463,10 @@ This summary details the application of inverse trigonometric functions, focusin
 | $\sin^{-1}(x)$ | $[-1, 1]$           | $[-\pi/2, \pi/2]$       |
 | $\cos^{-1}(x)$ | $[-1, 1]$           | $[0, \pi]$              |
 | $\tan^{-1}(x)$ | $(-\infty, \infty)$ | $(-\pi/2, \pi/2)$       |
+
 ### How to Find Inverse Trigonometric Functions (Precalculus - Trigonometry 19) :
 https://www.youtube.com/watch?v=Ru9Xbd01Jk8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=94
+
 #### Summary: How to Find Inverse Trigonometric Functions
 
 To find the inverse of trigonometric functions, we must restrict the domain of the original function to make it "one-to-one."
@@ -1490,6 +1492,9 @@ For $f(x) = 5\sin(x) + 2$:
 * **Inverse:** $f^{-1}(x) = \sin^{-1}(\frac{x-2}{5})$
 * **Inverse Domain:** $[-3, 7]$
 * **Inverse Range:** $[-\pi/2, \pi/2]$
+### How to Solve Trigonometric Equations (Precalculus - Trigonometry 22) :
+https://www.youtube.com/watch?v=hBk7OnEYPcw&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=97
+
 #### How to Solve Trigonometric Equations (Precalculus - Trigonometry 22) :
 https://www.youtube.com/watch?v=hBk7OnEYPcw&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=97
  Trigonometric Equations**: 
