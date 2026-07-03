@@ -1490,3 +1490,5 @@ For $f(x) = 5\sin(x) + 2$:
 * **Inverse:** $f^{-1}(x) = \sin^{-1}(\frac{x-2}{5})$
 * **Inverse Domain:** $[-3, 7]$
 * **Inverse Range:** $[-\pi/2, \pi/2]$
+### How to Solve Trigonometric Equations (Precalculus - Trigonometry 22) :
+https://www.youtube.com/watch?v=hBk7OnEYPcw&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=97
