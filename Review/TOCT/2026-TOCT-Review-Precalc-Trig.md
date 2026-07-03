@@ -1495,6 +1495,7 @@ For $f(x) = 5\sin(x) + 2$:
 ### How to Solve Trigonometric Equations (Precalculus - Trigonometry 22) :
 https://www.youtube.com/watch?v=hBk7OnEYPcw&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=97
 
+-  I had trouble with the cycles and adding like finding all solutions for $\cos(2\theta) = -1/2$. You need to first, substitute for $\theta$, then find the angles, then for every n $\theta$ add 2$\pi$ to increase the amount, then, undo your substitution by multiplying the denominator by the amount of $\theta$ - It's a long process, and I've only done it a few times, garunteed to forget about this in a month, probably a week.  Also $\sec(\frac{3\theta}{2}) = -2$ Where you multiply the numerator by the denominator and the denominator by the numerator... if that makes seanse. By the time I got to $\sin(3\theta + \pi/18) = 1$ I was so confused. - Will need to review. 
 #### How to Solve Trigonometric Equations (Precalculus - Trigonometry 22) :
 https://www.youtube.com/watch?v=hBk7OnEYPcw&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=97
  Trigonometric Equations**: 
