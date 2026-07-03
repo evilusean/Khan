@@ -18739,3 +18739,246 @@ This video focuses on the fundamental techniques for solving trigonometric equat
 
 5. **Final Answer:**
    The solutions in the interval $[0, 2\pi)$ are $\theta = \pi/2, 7\pi/6, 11\pi/6$.
+### Solving the Equation $\tan(2\theta) = -1$
+
+1. **Substitution:**
+   Let $\alpha = 2\theta$. The equation becomes $\tan(\alpha) = -1$.
+2. **Find solutions for $\alpha$:**
+   The tangent function is negative in Quadrants II and IV. In one full rotation $[0, 2\pi)$, $\tan(\alpha) = -1$ occurs at:
+   $\alpha = 3\pi/4$ and $\alpha = 7\pi/4$
+   The general solution for the tangent function, which has a period of $\pi$, is:
+   $\alpha = 3\pi/4 + \pi k$
+
+3. **Solve for $\theta$:**
+   Since $\alpha = 2\theta$, substitute back:
+   $2\theta = 3\pi/4 + \pi k$
+   $\theta = \frac{3\pi/4 + \pi k}{2}$
+   $\theta = 3\pi/8 + \frac{\pi}{2} k$
+4. **Find values of $\theta$ in $[0, 2\pi)$:**
+   Plug in integer values for $k$:
+   * $k = 0: \theta = 3\pi/8$
+   * $k = 1: \theta = 3\pi/8 + 4\pi/8 = 7\pi/8$
+   * $k = 2: \theta = 3\pi/8 + 8\pi/8 = 11\pi/8$
+   * $k = 3: \theta = 3\pi/8 + 12\pi/8 = 15\pi/8$
+
+5. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ for the equation from "image_b0efa3.png" are $\theta = 3\pi/8, 7\pi/8, 11\pi/8, 15\pi/8$.
+### Solving the Equation $\cos(2\theta) = -1/2$
+1. **Substitution:**
+   Let $\alpha = 2\theta$. The equation becomes $\cos(\alpha) = -1/2$.
+2. **Find solutions for $\alpha$:**
+   Cosine is negative in Quadrants II and III. The reference angle for $\cos(\alpha) = 1/2$ is $\pi/3$.
+   In the interval $[0, 2\pi)$, solutions are:
+   $\alpha = \pi - \pi/3 = 2\pi/3$
+   $\alpha = \pi + \pi/3 = 4\pi/3$
+   The general solutions for $\alpha$ are:
+   $\alpha = 2\pi/3 + 2\pi k$ and $\alpha = 4\pi/3 + 2\pi k$
+3. **Solve for $\theta$:**
+   Since $\alpha = 2\theta$, divide by 2:
+   $\theta = \pi/3 + \pi k$ and $\theta = 2\pi/3 + \pi k$
+4. **Find values of $\theta$ in $[0, 2\pi)$:**
+   * $k=0: \theta = \pi/3, 2\pi/3$
+   * $k=1: \theta = 4\pi/3, 5\pi/3$
+
+5. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ for the equation from are $\theta = \pi/3, 2\pi/3, 4\pi/3, 5\pi/3$.
+### Solving the Equation $\tan(\theta/2) = \sqrt{3}$
+1. **Substitution:**
+   Let $\alpha = \theta/2$. The equation becomes $\tan(\alpha) = \sqrt{3}$.
+2. **Find solutions for $\alpha$:**
+   Tangent is positive in Quadrants I and III. The reference angle for $\tan(\alpha) = \sqrt{3}$ is $\pi/3$.
+   In the interval $[0, 2\pi)$, solutions are:
+   $\alpha = \pi/3$ and $\alpha = \pi + \pi/3 = 4\pi/3$
+   The general solution is $\alpha = \pi/3 + \pi k$.
+
+3. **Solve for $\theta$:**
+   Since $\alpha = \theta/2$, multiply by 2:
+   $\theta = 2(\pi/3 + \pi k) = 2\pi/3 + 2\pi k$
+4. **Find values of $\theta$ in $[0, 2\pi)$:**
+   * $k=0: \theta = 2\pi/3$
+   * (Next value for $k=1$ is $8\pi/3$, which is outside $[0, 2\pi)$).
+
+5. **Final Answer:**
+   The solution in the interval $[0, 2\pi)$ for the equation from  is $\theta = 2\pi/3$.
+### Solving the Equation $\sec(\frac{3\theta}{2}) = -2$
+1. **Rewrite in terms of cosine:**
+   $\cos(\frac{3\theta}{2}) = -1/2$
+2. **Substitution:**
+   Let $\alpha = \frac{3\theta}{2}$. The equation becomes $\cos(\alpha) = -1/2$.
+3. **Find solutions for $\alpha$:**
+   Cosine is negative in Quadrants II and III. The reference angle for $\cos(\alpha) = 1/2$ is $\pi/3$.
+   In the interval $[0, 2\pi)$, solutions for $\alpha$ are:
+   $\alpha = 2\pi/3$ and $\alpha = 4\pi/3$.
+   The general solution is $\alpha = 2\pi/3 + 2\pi k$ and $\alpha = 4\pi/3 + 2\pi k$.
+4. **Solve for $\theta$:**
+   Since $\alpha = \frac{3\theta}{2}$, multiply by $2/3$:
+   $\theta = \frac{2}{3}(\frac{2\pi}{3} + 2\pi k) = 4\pi/9 + 4\pi k/3 = 4\pi/9 + 12\pi k/9$
+   $\theta = \frac{2}{3}(\frac{4\pi}{3} + 2\pi k) = 8\pi/9 + 4\pi k/3 = 8\pi/9 + 12\pi k/9$
+5. **Find values of $\theta$ in $[0, 2\pi)$:**
+   * $k=0: \theta = 4\pi/9, 8\pi/9$
+   * $k=1: \theta = 16\pi/9, 20\pi/9$ (Note: $20\pi/9 > 2\pi$)
+   * Keep solutions $\leq 2\pi$.
+
+6. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ are $\theta = 4\pi/9, 8\pi/9, 16\pi/9$.
+### Solving the Equation $\sqrt{3} \cot \theta + 1 = 0$
+1. **Isolate the cotangent term:**
+   $\sqrt{3} \cot \theta = -1$
+   $\cot \theta = -1/\sqrt{3}$
+2. **Rewrite in terms of tangent:**
+   $\tan \theta = -\sqrt{3}$
+3. **Find the reference angle:**
+   Ignoring the sign, $\tan \theta' = \sqrt{3}$ gives $\theta' = \pi/3$.
+4. **Identify quadrants and solutions:**
+   Tangent is negative in Quadrants II and IV.
+   * Quadrant II: $\theta = \pi - \pi/3 = 2\pi/3$
+   * Quadrant IV: $\theta = 2\pi - \pi/3 = 5\pi/3$
+
+5. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ are $\theta = 2\pi/3, 5\pi/3$.
+### Solving the Equation $4\sin\theta + 3\sqrt{3} = \sqrt{3}$
+1. **Isolate the trigonometric term:**
+   Subtract $3\sqrt{3}$ from both sides:
+   $4\sin\theta = \sqrt{3} - 3\sqrt{3}$
+   $4\sin\theta = -2\sqrt{3}$
+2. **Solve for $\sin\theta$:**
+   Divide by 4:
+   $\sin\theta = -2\sqrt{3} / 4$
+   $\sin\theta = -\sqrt{3}/2$
+3. **Determine the reference angle:**
+   Find the angle $\theta'$ where $\sin\theta' = \sqrt{3}/2$:
+   $\theta' = \pi/3$ (or 60°)
+4. **Find the values of $\theta$ in $[0, 2\pi)$:**
+   Sine is negative in Quadrants III and IV.
+   * Quadrant III: $\theta = \pi + \pi/3 = 4\pi/3$
+   * Quadrant IV: $\theta = 2\pi - \pi/3 = 5\pi/3$
+
+5. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ are $\theta = 4\pi/3, 5\pi/3$.
+### Solving the Equation $\sin(3\theta + \pi/18) = 1$
+1. **Substitution:**
+   Let $\alpha = 3\theta + \pi/18$. The equation becomes $\sin(\alpha) = 1$.
+2. **Find solutions for $\alpha$:**
+   $\sin(\alpha) = 1$ occurs at $\alpha = \pi/2$.
+   The general solution is $\alpha = \pi/2 + 2\pi k$.
+3. **Solve for $\theta$:**
+   Substitute back:
+   $3\theta + \pi/18 = \pi/2 + 2\pi k$
+   $3\theta = 9\pi/18 - \pi/18 + 2\pi k$
+   $3\theta = 8\pi/18 + 2\pi k = 4\pi/9 + 2\pi k$
+   Divide by 3:
+   $\theta = 4\pi/27 + (2\pi/3)k$
+4. **Find values of $\theta$ in $[0, 2\pi)$:**
+   * $k = 0: \theta = 4\pi/27$
+   * $k = 1: \theta = 4\pi/27 + 18\pi/27 = 22\pi/27$
+   * $k = 2: \theta = 4\pi/27 + 36\pi/27 = 40\pi/27$
+   * $k = 3: \theta = 4\pi/27 + 54\pi/27 = 58\pi/27$ (Note: $58\pi/27 > 2\pi$)
+
+5. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ are $\theta = 4\pi/27, 22\pi/27, 40\pi/27$.
+### Solving the Equation $\cos\theta = 0.6$
+1. **Find the reference angle:**
+   Since $0.6$ is not a standard unit circle value, use the inverse cosine function:
+   $\theta' = \cos^{-1}(0.6) \approx 0.927$ radians (or approximately 53.13°).
+2. **Identify quadrants and solutions:**
+   Cosine is positive in Quadrants I and IV.
+   * Quadrant I: $\theta = \cos^{-1}(0.6) \approx 0.927$
+   * Quadrant IV: $\theta = 2\pi - \cos^{-1}(0.6) \approx 6.283 - 0.927 = 5.356$
+1. **General Solution:**
+   $\theta = \cos^{-1}(0.6) + 2\pi k$ and $\theta = 2\pi - \cos^{-1}(0.6) + 2\pi k$ (where $k$ is an integer).
+2. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ for the equation from "image_b25f8c.png" are $\theta \approx 0.927$ and $\theta \approx 5.356$.
+### Solving the Equation $\sin\theta = 0.4$
+1. **Find the reference angle:**
+   Since $0.4$ is not a standard unit circle value, use the inverse sine function:
+   $\theta' = \sin^{-1}(0.4) \approx 0.412$ radians (or approximately 23.58°).
+2. **Identify quadrants and solutions:**
+   Sine is positive in Quadrants I and II.
+   * Quadrant I: $\theta = \sin^{-1}(0.4) \approx 0.412$
+   * Quadrant II: $\theta = \pi - \sin^{-1}(0.4) \approx 3.142 - 0.412 = 2.730$
+1. **General Solution:**
+   $\theta = \sin^{-1}(0.4) + 2\pi k$ and $\theta = \pi - \sin^{-1}(0.4) + 2\pi k$ (where $k$ is an integer).
+2. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ for the equation from "image_b25f8c.png" are $\theta \approx 0.412$ and $\theta \approx 2.730$.
+### Solving the Equation $2\cos^2\theta + \cos\theta = 1$
+1. **Set the equation to zero:**
+   $2\cos^2\theta + \cos\theta - 1 = 0$
+2. **Factor the quadratic expression:**
+   This follows the form $2x^2 + x - 1 = 0$, which factors into $(2x - 1)(x + 1) = 0$.
+   $(2\cos\theta - 1)(\cos\theta + 1) = 0$
+3. **Solve each factor:**
+   * Case 1: $2\cos\theta - 1 = 0 \Rightarrow \cos\theta = 1/2$
+   * Case 2: $\cos\theta + 1 = 0 \Rightarrow \cos\theta = -1$
+1. **Find values of $\theta$ in $[0, 2\pi)$:**
+   * For $\cos\theta = 1/2$: $\theta = \pi/3, 5\pi/3$
+   * For $\cos\theta = -1$: $\theta = \pi$
+1. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ for the equation from "image_b2c93c.png" are $\theta = \pi/3, \pi, 5\pi/3$.
+### Solving the Equation $(\tan\theta - 1)(\sec\theta - 1) = 0$
+1. **Apply the Zero Product Property:**
+   Set each factor equal to zero:
+   * Case 1: $\tan\theta - 1 = 0 \Rightarrow \tan\theta = 1$
+   * Case 2: $\sec\theta - 1 = 0 \Rightarrow \sec\theta = 1 \Rightarrow \cos\theta = 1$
+1. **Solve for $\theta$ in $[0, 2\pi)$:**
+   * For $\tan\theta = 1$: Tangent is positive in Quadrants I and III.
+     $\theta = \pi/4, 5\pi/4$
+   * For $\cos\theta = 1$: $\theta = 0$
+     (Note: $2\pi$ is usually excluded from the $[0, 2\pi)$ interval).
+1. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ for the equation from "image_b2c93c.png" are $\theta = 0, \pi/4, 5\pi/4$.
+### Solving the Equation $\sin^2\theta - \cos^2\theta = 1 + \cos\theta$
+1. **Use the Pythagorean Identity:**
+   To solve this equation, substitute $\sin^2\theta = 1 - \cos^2\theta$ to have the equation entirely in terms of cosine:
+   $(1 - \cos^2\theta) - \cos^2\theta = 1 + \cos\theta$
+2. **Simplify the equation:**
+   $1 - 2\cos^2\theta = 1 + \cos\theta$
+3. **Set the equation to zero:**
+   Subtract 1 from both sides and move the cosine terms to one side:
+   $-2\cos^2\theta - \cos\theta = 0$
+4. **Factor the expression:**
+   Multiply by $-1$ for easier factoring:
+   $2\cos^2\theta + \cos\theta = 0$
+   Factor out $\cos\theta$:
+   $\cos\theta(2\cos\theta + 1) = 0$
+5. **Solve for \theta:**
+   * Case 1: $\cos\theta = 0 \Rightarrow \theta = \pi/2, 3\pi/2$
+   * Case 2: $2\cos\theta + 1 = 0 \Rightarrow \cos\theta = -1/2 \Rightarrow \theta = 2\pi/3, 4\pi/3$
+1. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ are $\theta = \pi/2, 2\pi/3, 4\pi/3, 3\pi/2$.
+### Solving the Equation $\cos\theta = -\sin(-\theta)$
+1. **Apply Even/Odd Identities:**
+   Recall the odd identity for sine, $\sin(-\theta) = -\sin\theta$.
+   Substitute this into the equation:
+   $\cos\theta = -(-\sin\theta)$
+   $\cos\theta = \sin\theta$
+2. **Solve the resulting equation:**
+   Divide both sides by $\cos\theta$ (assuming $\cos\theta \neq 0$):
+   $1 = \frac{\sin\theta}{\cos\theta}$
+   $1 = \tan\theta$
+3. **Find values of $\theta$ in $[0, 2\pi)$:**
+   Tangent is positive in Quadrants I and III.
+   * Quadrant I: $\theta = \pi/4$
+   * Quadrant III: $\theta = \pi + \pi/4 = 5\pi/4$
+1. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ are $\theta = \pi/4, 5\pi/4$.
+### Solving the Equation $\tan\theta = 2\sin\theta$
+1. **Rewrite using identities:**
+   Substitute $\tan\theta = \frac{\sin\theta}{\cos\theta}$:
+   $\frac{\sin\theta}{\cos\theta} = 2\sin\theta$
+2. **Set the equation to zero:**
+   Move all terms to one side to avoid dividing by $\sin\theta$ (which could lose solutions):
+   $\frac{\sin\theta}{\cos\theta} - 2\sin\theta = 0$
+3. **Factor out the common term:**
+   $\sin\theta (\frac{1}{\cos\theta} - 2) = 0$
+4. **Solve each factor:**
+   * **Case 1:** $\sin\theta = 0$
+     In the interval $[0, 2\pi)$, this occurs at:
+     $\theta = 0, \pi$
+   * **Case 2:** $\frac{1}{\cos\theta} - 2 = 0$
+     $\frac{1}{\cos\theta} = 2$
+     $\cos\theta = 1/2$
+     In the interval $[0, 2\pi)$, this occurs at:
+     $\theta = \pi/3, 5\pi/3$
+
+5. **Final Answer:**
+   The solutions in the interval $[0, 2\pi)$ for the equation from "image_b3a2b7.png" are $\theta = 0, \pi/3, \pi, 5\pi/3$.
