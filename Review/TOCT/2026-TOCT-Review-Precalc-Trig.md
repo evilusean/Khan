@@ -1463,9 +1463,9 @@ This summary details the application of inverse trigonometric functions, focusin
 | $\sin^{-1}(x)$ | $[-1, 1]$           | $[-\pi/2, \pi/2]$       |
 | $\cos^{-1}(x)$ | $[-1, 1]$           | $[0, \pi]$              |
 | $\tan^{-1}(x)$ | $(-\infty, \infty)$ | $(-\pi/2, \pi/2)$       |
-How to Find Inverse Trigonometric Functions (Precalculus - Trigonometry 19) :
+### How to Find Inverse Trigonometric Functions (Precalculus - Trigonometry 19) :
 https://www.youtube.com/watch?v=Ru9Xbd01Jk8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=94
-### Summary: How to Find Inverse Trigonometric Functions
+#### Summary: How to Find Inverse Trigonometric Functions
 
 To find the inverse of trigonometric functions, we must restrict the domain of the original function to make it "one-to-one."
 #### Restricted Domains
