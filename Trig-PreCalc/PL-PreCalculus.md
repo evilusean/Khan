@@ -19023,3 +19023,26 @@ To simplify the expression
    $$\frac{\sin(\theta)}{\cos(\theta) \cdot \sin(\theta)} = \frac{1}{\cos(\theta)}$$
 3. Apply the reciprocal identity:
    $$\frac{1}{\cos(\theta)} = \sec(\theta)$$
+### Simplifying $\frac{\sin(\theta) + \cos(\theta)}{\cos(\theta)} + \frac{\cos(\theta) - \sin(\theta)}{\sin(\theta)}$
+
+To simplify the expression from `image_588ebc.png` using the methodology demonstrated by Professor Leonard:
+
+1. **Find a common denominator:**
+   To add the fractions, use the common denominator $\cos(\theta)\sin(\theta)$.
+   $$\frac{\sin(\theta)(\sin(\theta) + \cos(\theta)) + \cos(\theta)(\cos(\theta) - \sin(\theta))}{\cos(\theta)\sin(\theta)}$$
+
+2. **Distribute and combine terms:**
+   Expand the numerators:
+   $$\frac{\sin^2(\theta) + \sin(\theta)\cos(\theta) + \cos^2(\theta) - \cos(\theta)\sin(\theta)}{\cos(\theta)\sin(\theta)}$$
+
+3. **Simplify the numerator:**
+   Notice that $+\sin(\theta)\cos(\theta)$ and $-\sin(\theta)\cos(\theta)$ cancel out. You are left with:
+   $$\frac{\sin^2(\theta) + \cos^2(\theta)}{\cos(\theta)\sin(\theta)}$$
+
+4. **Apply the Pythagorean identity:**
+   Using the identity $\sin^2(\theta) + \cos^2(\theta) = 1$, the expression becomes:
+   $$\frac{1}{\cos(\theta)\sin(\theta)}$$
+
+5. **Final form using reciprocal identities:**
+   This can be expressed using secant and cosecant:
+   $$\sec(\theta)\csc(\theta)$$
