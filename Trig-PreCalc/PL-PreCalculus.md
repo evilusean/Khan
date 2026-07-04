@@ -19014,3 +19014,14 @@ It is highly recommended to keep these on a reference card for quick access:
 - **Identities are Two-Way Streets:** They can be applied in either direction to facilitate simplification.
 - **Algebraic Integrity:** Do not attempt to cross out terms that are added or subtracted; simplification via cancellation only applies to factors linked by multiplication.
 - **Avoid Over-Complexity:** Sometimes students make problems harder by over-manipulating them. If an expression begins to grow increasingly complex, re-evaluate to see if a simpler path, such as factoring, was overlooked.
+### Simplifying $\tan(\theta) \cdot \csc(\theta)$
+
+To simplify the expression 
+1. Rewrite in terms of sine and cosine:
+   $$\tan(\theta) \cdot \csc(\theta) = \left(\frac{\sin(\theta)}{\cos(\theta)}\right) \cdot \left(\frac{1}{\sin(\theta)}\right)$$
+
+2. Simplify the expression by canceling the common $\sin(\theta)$ term:
+   $$\frac{\sin(\theta)}{\cos(\theta) \cdot \sin(\theta)} = \frac{1}{\cos(\theta)}$$
+
+3. Apply the reciprocal identity:
+   $$\frac{1}{\cos(\theta)} = \sec(\theta)$$
