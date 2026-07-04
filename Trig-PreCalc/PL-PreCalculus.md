@@ -19040,3 +19040,19 @@ To simplify the expression
 5. **Final form using reciprocal identities:**
    This can be expressed using secant and cosecant:
    $$\sec(\theta)\csc(\theta)$$
+### Simplifying $\frac{\cos^2(\theta) - 1}{\cos^2(\theta) - \cos(\theta)}$
+
+1. **Factor the expression:**
+   Because all terms are already in terms of cosine, attempt to factor the numerator and denominator instead of immediately applying identities.
+   * **Numerator:** Treat $\cos^2(\theta) - 1$ as a difference of squares ($a^2 - b^2 = (a-b)(a+b)$).
+     $$\cos^2(\theta) - 1 = (\cos(\theta) - 1)(\cos(\theta) + 1)$$
+   * **Denominator:** Use the Greatest Common Factor (GCF) to factor out $\cos(\theta)$.
+     $$\cos^2(\theta) - \cos(\theta) = \cos(\theta)(\cos(\theta) - 1)$$
+1. **Cancel common factors:**
+   Rewrite the fraction with the factored terms:
+   $$\frac{(\cos(\theta) - 1)(\cos(\theta) + 1)}{\cos(\theta)(\cos(\theta) - 1)}$$
+   Cancel the common factor $(\cos(\theta) - 1)$ from the numerator and denominator.
+   $$\frac{\cos(\theta) + 1}{\cos(\theta)}$$
+2. **Simplify further:**
+   Divide both terms in the numerator by the denominator:
+   $$\frac{\cos(\theta)}{\cos(\theta)} + \frac{1}{\cos(\theta)} = 1 + \sec(\theta)$$
