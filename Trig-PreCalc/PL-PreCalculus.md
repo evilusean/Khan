@@ -18998,26 +18998,20 @@ While these are general guidelines rather than rigid rules, they provide a struc
 
 ## Key Trigonometric Identities
 It is highly recommended to keep these on a reference card for quick access:
-
 ### Reciprocal Identities
 - $\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}$
 - $\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)} = \frac{1}{\tan(\theta)}$
 - $\csc(\theta) = \frac{1}{\sin(\theta)}$
 - $\sec(\theta) = \frac{1}{\cos(\theta)}$
-
 ### Pythagorean Identities
 - $\sin^2(\theta) + \cos^2(\theta) = 1$
 - $\tan^2(\theta) + 1 = \sec^2(\theta)$
 - $\cot^2(\theta) + 1 = \csc^2(\theta)$
 *Note: These can be manipulated (e.g., $\sin^2(\theta) = 1 - \cos^2(\theta)$) to fit specific problem structures.*
-
 ### Even/Odd Identities
 - **Even functions:** $\cos(-\theta) = \cos(\theta)$ and $\sec(-\theta) = \sec(\theta)$.
 - **Odd functions:** $\sin(-\theta) = -\sin(\theta)$, $\csc(-\theta) = -\csc(\theta)$, $\tan(-\theta) = -\tan(\theta)$, and $\cot(-\theta) = -\cot(\theta)$.
-
 ## Important Reminders
 - **Identities are Two-Way Streets:** They can be applied in either direction to facilitate simplification.
 - **Algebraic Integrity:** Do not attempt to cross out terms that are added or subtracted; simplification via cancellation only applies to factors linked by multiplication.
 - **Avoid Over-Complexity:** Sometimes students make problems harder by over-manipulating them. If an expression begins to grow increasingly complex, re-evaluate to see if a simpler path, such as factoring, was overlooked.
-
-Source: https://www.youtube.com/watch?v=yIMR-3c1wP8
