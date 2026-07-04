@@ -19019,9 +19019,7 @@ It is highly recommended to keep these on a reference card for quick access:
 To simplify the expression 
 1. Rewrite in terms of sine and cosine:
    $$\tan(\theta) \cdot \csc(\theta) = \left(\frac{\sin(\theta)}{\cos(\theta)}\right) \cdot \left(\frac{1}{\sin(\theta)}\right)$$
-
 2. Simplify the expression by canceling the common $\sin(\theta)$ term:
    $$\frac{\sin(\theta)}{\cos(\theta) \cdot \sin(\theta)} = \frac{1}{\cos(\theta)}$$
-
 3. Apply the reciprocal identity:
    $$\frac{1}{\cos(\theta)} = \sec(\theta)$$
