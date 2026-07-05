@@ -19160,3 +19160,15 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Apply the Pythagorean identity (sin²θ + cos²θ = 1): 3(1) + cos²θ
     *   Simplify: 3 + cos²θ
     *   Result: 3 + cos²θ = 3 + cos²θ. Q.E.D.
+### Prove: [sin²(-θ) - cos²(-θ)] / [sin(-θ) - cos(-θ)] = cosθ - sinθ
+
+*   **Objective:** To verify the identity by utilizing even/odd properties of trigonometric functions to simplify the left-hand side (LHS) and match the right-hand side (RHS).
+*   **Proof:**
+    *   Start with the LHS: [sin²(-θ) - cos²(-θ)] / [sin(-θ) - cos(-θ)]
+    *   Apply even/odd identities [sin(-θ) = -sinθ; cos(-θ) = cosθ]: [(-sinθ)² - (cosθ)²] / [-sinθ - cosθ]
+    *   Simplify the squares: [sin²θ - cos²θ] / [-sinθ - cosθ]
+    *   Factor the numerator as a difference of squares: [(sinθ - cosθ)(sinθ + cosθ)] / [-(sinθ + cosθ)]
+    *   Cancel the common term (sinθ + cosθ): (sinθ - cosθ) / -1
+    *   Simplify: -sinθ + cosθ
+    *   Rearrange: cosθ - sinθ
+    *   Result: cosθ - sinθ = cosθ - sinθ. Q.E.D.
