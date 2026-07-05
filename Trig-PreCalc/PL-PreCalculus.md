@@ -19151,3 +19151,12 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Use the Pythagorean identity (sec²θ = tan²θ + 1) to substitute for sec²θ: (tan²θ + 1)(tan²θ)
     *   Distribute tan²θ: tan⁴θ + tan²θ
     *   Result: tan⁴θ + tan²θ = tan⁴θ + tan²θ. Q.E.D.
+### Prove: 3sin²θ + 4cos²θ = 3 + cos²θ
+*   **Objective:** To verify the identity by manipulating the left-hand side (LHS) using the Pythagorean identity to match the right-hand side (RHS).
+*   **Proof:**
+    *   Start with the LHS: 3sin²θ + 4cos²θ
+    *   Rewrite the 4cos²θ term to isolate a portion that matches the identity: 3sin²θ + 3cos²θ + cos²θ
+    *   Factor out the 3 from the first two terms: 3(sin²θ + cos²θ) + cos²θ
+    *   Apply the Pythagorean identity (sin²θ + cos²θ = 1): 3(1) + cos²θ
+    *   Simplify: 3 + cos²θ
+    *   Result: 3 + cos²θ = 3 + cos²θ. Q.E.D.
