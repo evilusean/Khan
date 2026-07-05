@@ -19125,3 +19125,11 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Apply the Pythagorean identity (sin²θ + cos²θ = 1): 1 / sinθ
     *   Rewrite using the reciprocal identity: cscθ
     *   Result: cscθ = cscθ. Q.E.D.
+### 1. Prove: sinθ * cscθ - cos²θ = sin²θ
+*   **Objective:** To verify the identity by applying reciprocal and Pythagorean identities to the left-hand side (LHS).
+*   **Proof:**
+    *   Start with the LHS: sinθ * cscθ - cos²θ
+    *   Rewrite cscθ using the reciprocal identity: sinθ * (1 / sinθ) - cos²θ
+    *   Simplify the product: 1 - cos²θ
+    *   Apply the Pythagorean identity (sin²θ = 1 - cos²θ): sin²θ
+    *   Result: sin²θ = sin²θ. Q.E.D.
