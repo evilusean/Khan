@@ -19142,3 +19142,12 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Rewrite csc²θ using the reciprocal identity: sin²θ * (1 / sin²θ)
     *   Simplify the product: 1
     *   Result: 1 = 1. Q.E.D.
+### 3. Prove: sec⁴θ - sec²θ = tan⁴θ + tan²θ
+*   **Objective:** To verify the identity by factoring the LHS and converting secant terms to tangent terms.
+*   **Proof:**
+    *   Start with the LHS: sec⁴θ - sec²θ
+    *   Factor out a sec²θ: sec²θ(sec²θ - 1)
+    *   Use the Pythagorean identity (tan²θ = sec²θ - 1) to substitute for (sec²θ - 1): sec²θ(tan²θ)
+    *   Use the Pythagorean identity (sec²θ = tan²θ + 1) to substitute for sec²θ: (tan²θ + 1)(tan²θ)
+    *   Distribute tan²θ: tan⁴θ + tan²θ
+    *   Result: tan⁴θ + tan²θ = tan⁴θ + tan²θ. Q.E.D.
