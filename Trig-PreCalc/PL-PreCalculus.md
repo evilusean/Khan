@@ -19098,6 +19098,23 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   cot²θ + 1 = csc²θ
     *   cot²θ = csc²θ - 1
     *   csc²θ - cot²θ = 1
+### Even and Odd Trigonometric Identities
+
+*   **Understanding Even and Odd Functions:**
+    *   **Even Functions:** A function $f$ is even if $f(-x) = f(x)$. The graph is symmetric with respect to the $y$-axis.
+    *   **Odd Functions:** A function $f$ is odd if $f(-x) = -f(x)$. The graph has rotational symmetry about the origin.
+
+*   **Categorizing Trig Functions:**
+    *   **Cosine is Even:** $\cos(-\theta) = \cos\theta$. Because cosine represents the $x$-coordinate on the unit circle, reflecting the angle across the $x$-axis (moving from $\theta$ to $-\theta$) does not change the $x$-value.
+    *   **Sine is Odd:** $\sin(-\theta) = -\sin\theta$. Because sine represents the $y$-coordinate, reflecting the angle across the $x$-axis negates the $y$-value.
+    *   **Secant is Even:** $\sec(-\theta) = \sec\theta$, derived from the reciprocal of cosine.
+    *   **Tangent, Cosecant, and Cotangent are Odd:** $\tan(-\theta) = -\tan\theta$, $\csc(-\theta) = -\csc\theta$, and $\cot(-\theta) = -\cot\theta$, all derived from the behavior of sine and cosine.
+
+*   **Application to Squared Functions:**
+    *   When a function is squared, the negative sign disappears regardless of whether it is even or odd.
+    *   For sine: $\sin^2(-\theta) = (\sin(-\theta))^2 = (-\sin\theta)^2 = \sin^2\theta$.
+    *   For cosine: $\cos^2(-\theta) = (\cos(-\theta))^2 = (\cos\theta)^2 = \cos^2\theta$.
+    *   This is why, in the proof provided previously, $\sin^2(-\theta)$ became $\sin^2\theta$ and $\cos^2(-\theta)$ became $\cos^2\theta$ immediately.
 ### 1. Prove: secθ * sinθ = tanθ
 *   **Objective:** To verify the identity by converting the left-hand side (LHS) into the right-hand side (RHS) using reciprocal and quotient identities.
 *   **Proof:**
