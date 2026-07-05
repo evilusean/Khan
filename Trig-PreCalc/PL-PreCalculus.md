@@ -19098,3 +19098,15 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Expand the binomial product (difference of squares): sec²θ - 1
     *   Substitute the Pythagorean identity (sec²θ - 1 = tan²θ): tan²θ
     *   Result: tan²θ = tan²θ. Q.E.D.
+### 3. Prove: cosθ(tanθ + cotθ) = cscθ
+*   **Objective:** To verify the identity by distributing the cosθ, converting terms to sine and cosine, and simplifying to reach the RHS.
+*   **Proof:**
+    *   Start with the LHS: cosθ(tanθ + cotθ)
+    *   Distribute the cosθ: cosθ * tanθ + cosθ * cotθ
+    *   Convert to sine and cosine: cosθ(sinθ / cosθ) + cosθ(cosθ / sinθ)
+    *   Simplify the first term: sinθ + (cos²θ / sinθ)
+    *   Find a common denominator: (sin²θ / sinθ) + (cos²θ / sinθ)
+    *   Combine fractions: (sin²θ + cos²θ) / sinθ
+    *   Apply the Pythagorean identity (sin²θ + cos²θ = 1): 1 / sinθ
+    *   Rewrite using the reciprocal identity: cscθ
+    *   Result: cscθ = cscθ. Q.E.D.
