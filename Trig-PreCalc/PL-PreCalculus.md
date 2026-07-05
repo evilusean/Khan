@@ -19083,3 +19083,12 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 3.  **Algebraic Manipulation:** Combine, expand, or factor terms as needed.
 4.  **Iterative Simplification:** Continue applying identities (especially Pythagorean ones) until both sides match.
 5.  **Verify:** Ensure that every step logically follows from the previous one, maintaining the equality throughout the process.
+### Problem 1: secθ * sinθ = tanθ
+*   **Step 1:** Start with the left side: secθ * sinθ
+*   **Step 2:** Convert secθ to 1 / cosθ
+    *   (1 / cosθ) * sinθ
+*   **Step 3:** Simplify the expression:
+    *   sinθ / cosθ
+*   **Step 4:** Recognize the quotient identity:
+    *   tanθ
+*   **Conclusion:** The left side equals the right side (tanθ = tanθ).
