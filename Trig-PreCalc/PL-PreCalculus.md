@@ -19091,3 +19091,10 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Combine into a single fraction: sinθ / cosθ
     *   Apply the quotient identity: tanθ
     *   Result: tanθ = tanθ. Q.E.D.
+### 2. Prove: (secθ - 1)(secθ + 1) = tan²θ
+*   **Objective:** To verify the identity by expanding the LHS and applying Pythagorean identities to match the RHS.
+*   **Proof:**
+    *   Start with the LHS: (secθ - 1)(secθ + 1)
+    *   Expand the binomial product (difference of squares): sec²θ - 1
+    *   Substitute the Pythagorean identity (sec²θ - 1 = tan²θ): tan²θ
+    *   Result: tan²θ = tan²θ. Q.E.D.
