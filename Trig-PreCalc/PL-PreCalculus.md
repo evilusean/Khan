@@ -19059,7 +19059,6 @@ To simplify the expression
 ## 2026-July-05 - How to Prove Trigonometric Identities (Precalculus - Trigonometry 24) :
 https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=99
 ### Summary: How to Prove Trigonometric Identities (Professor Leonard)
-
 **Core Concepts & Strategies**
 *   **Definition:** An identity is an equation that is true for all values of the variable for which the expressions are defined.
 *   **Primary Objective:** The goal is to manipulate one side of an equation until it is identical to the other side.
@@ -19068,7 +19067,6 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   **Simplify Fractions:** Perform addition of fractions to find common denominators, which often reveals opportunities to use Pythagorean identities.
     *   **Use Conjugates:** When dealing with expressions like $1 \pm \text{trig function}$ in a denominator, multiplying by the conjugate can simplify the expression by creating a difference of squares (e.g., $1 - \sin^2\theta = \cos^2\theta$).
     *   **Factoring:** Look for opportunities to factor numerators and denominators to cancel terms.
-
 **Key Trigonometric Formulas Used**
 *   **Reciprocal Identities:**
     *   $\tan\theta = \frac{\sin\theta}{\cos\theta}$
@@ -19079,7 +19077,6 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   $\sin^2\theta + \cos^2\theta = 1$
     *   $1 + \tan^2\theta = \sec^2\theta$
     *   $1 + \cot^2\theta = \csc^2\theta$
-
 **Step-by-Step Methodology**
 1.  **Analyze Both Sides:** Examine both sides of the identity to determine which side looks more "complex" or offers more potential for simplification.
 2.  **Select a Starting Point:** Begin with the more complex side and apply identities to transform it.
