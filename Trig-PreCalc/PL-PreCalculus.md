@@ -19161,7 +19161,6 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Simplify: 3 + cos²θ
     *   Result: 3 + cos²θ = 3 + cos²θ. Q.E.D.
 ### Prove: [sin²(-θ) - cos²(-θ)] / [sin(-θ) - cos(-θ)] = cosθ - sinθ
-
 *   **Objective:** To verify the identity by utilizing even/odd properties of trigonometric functions to simplify the left-hand side (LHS) and match the right-hand side (RHS).
 *   **Proof:**
     *   Start with the LHS: [sin²(-θ) - cos²(-θ)] / [sin(-θ) - cos(-θ)]
