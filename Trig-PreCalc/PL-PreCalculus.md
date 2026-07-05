@@ -19058,3 +19058,31 @@ To simplify the expression
    $$\frac{\cos(\theta)}{\cos(\theta)} + \frac{1}{\cos(\theta)} = 1 + \sec(\theta)$$
 ## 2026-July-05 - How to Prove Trigonometric Identities (Precalculus - Trigonometry 24) :
 https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=99
+### Summary: How to Prove Trigonometric Identities (Professor Leonard)
+
+**Core Concepts & Strategies**
+*   **Definition:** An identity is an equation that is true for all values of the variable for which the expressions are defined.
+*   **Primary Objective:** The goal is to manipulate one side of an equation until it is identical to the other side.
+*   **General Approach:** Proving identities is considered an "art form" developed through practice. When stuck, these strategies are recommended:
+    *   **Convert to Sine and Cosine:** A reliable fallback strategy is to rewrite all tangent, cotangent, secant, and cosecant terms in terms of sine and cosine.
+    *   **Simplify Fractions:** Perform addition of fractions to find common denominators, which often reveals opportunities to use Pythagorean identities.
+    *   **Use Conjugates:** When dealing with expressions like $1 \pm \text{trig function}$ in a denominator, multiplying by the conjugate can simplify the expression by creating a difference of squares (e.g., $1 - \sin^2\theta = \cos^2\theta$).
+    *   **Factoring:** Look for opportunities to factor numerators and denominators to cancel terms.
+
+**Key Trigonometric Formulas Used**
+*   **Reciprocal Identities:**
+    *   $\tan\theta = \frac{\sin\theta}{\cos\theta}$
+    *   $\cot\theta = \frac{\cos\theta}{\sin\theta}$
+    *   $\sec\theta = \frac{1}{\cos\theta}$
+    *   $\csc\theta = \frac{1}{\sin\theta}$
+*   **Pythagorean Identities:**
+    *   $\sin^2\theta + \cos^2\theta = 1$
+    *   $1 + \tan^2\theta = \sec^2\theta$
+    *   $1 + \cot^2\theta = \csc^2\theta$
+
+**Step-by-Step Methodology**
+1.  **Analyze Both Sides:** Examine both sides of the identity to determine which side looks more "complex" or offers more potential for simplification.
+2.  **Select a Starting Point:** Begin with the more complex side and apply identities to transform it.
+3.  **Algebraic Manipulation:** Combine, expand, or factor terms as needed.
+4.  **Iterative Simplification:** Continue applying identities (especially Pythagorean ones) until both sides match.
+5.  **Verify:** Ensure that every step logically follows from the previous one, maintaining the equality throughout the process.
