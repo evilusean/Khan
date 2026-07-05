@@ -19083,6 +19083,21 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 3.  **Algebraic Manipulation:** Combine, expand, or factor terms as needed.
 4.  **Iterative Simplification:** Continue applying identities (especially Pythagorean ones) until both sides match.
 5.  **Verify:** Ensure that every step logically follows from the previous one, maintaining the equality throughout the process.
+### Pythagorean Identities
+*   **Fundamental Identity Set 1:**
+    *   sin²θ + cos²θ = 1
+    *   sin²θ = 1 - cos²θ
+    *   cos²θ = 1 - sin²θ
+
+*   **Fundamental Identity Set 2:**
+    *   tan²θ + 1 = sec²θ
+    *   tan²θ = sec²θ - 1
+    *   sec²θ - tan²θ = 1
+
+*   **Fundamental Identity Set 3:**
+    *   cot²θ + 1 = csc²θ
+    *   cot²θ = csc²θ - 1
+    *   csc²θ - cot²θ = 1
 ### 1. Prove: secθ * sinθ = tanθ
 *   **Objective:** To verify the identity by converting the left-hand side (LHS) into the right-hand side (RHS) using reciprocal and quotient identities.
 *   **Proof:**
