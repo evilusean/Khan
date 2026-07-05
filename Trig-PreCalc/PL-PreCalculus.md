@@ -19133,3 +19133,12 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Simplify the product: 1 - cos²θ
     *   Apply the Pythagorean identity (sin²θ = 1 - cos²θ): sin²θ
     *   Result: sin²θ = sin²θ. Q.E.D.
+### 2. Prove: (1 - cos²θ)(1 + cot²θ) = 1
+*   **Objective:** To verify the identity by using Pythagorean identities to simplify the factors.
+*   **Proof:**
+    *   Start with the LHS: (1 - cos²θ)(1 + cot²θ)
+    *   Apply the Pythagorean identity (sin²θ = 1 - cos²θ) to the first factor: sin²θ(1 + cot²θ)
+    *   Apply the Pythagorean identity (csc²θ = 1 + cot²θ) to the second factor: sin²θ(csc²θ)
+    *   Rewrite csc²θ using the reciprocal identity: sin²θ * (1 / sin²θ)
+    *   Simplify the product: 1
+    *   Result: 1 = 1. Q.E.D.
