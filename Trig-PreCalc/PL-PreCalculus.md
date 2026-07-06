@@ -19188,3 +19188,38 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Simplify: -sinθ + cosθ
     *   Rearrange: cosθ - sinθ
     *   Result: cosθ - sinθ = cosθ - sinθ. Q.E.D.
+### Prove: (1 - cot²θ) / (1 + cot²θ) + 2cos²θ = 1
+*   **Objective:** To verify the identity by simplifying the fraction using Pythagorean identities and combining terms to equal 1.
+*   **Proof:**
+    *   Start with the LHS: (1 - cot²θ) / (1 + cot²θ) + 2cos²θ
+    *   Apply the Pythagorean identity (1 + cot²θ = csc²θ) to the denominator: (1 - cot²θ) / csc²θ + 2cos²θ
+    *   Split the fraction: 1 / csc²θ - cot²θ / csc²θ + 2cos²θ
+    *   Rewrite terms using reciprocal and quotient identities: sin²θ - (cos²θ / sin²θ) * sin²θ + 2cos²θ
+    *   Simplify the middle term: sin²θ - cos²θ + 2cos²θ
+    *   Combine like terms (-cos²θ + 2cos²θ): sin²θ + cos²θ
+    *   Apply the Pythagorean identity (sin²θ + cos²θ = 1): 1
+    *   Result: 1 = 1. Q.E.D.
+### Prove: (1 + sinθ) / (1 - sinθ) - (1 - sinθ) / (1 + sinθ) = 4tanθsecθ
+*   **Objective:** To verify the identity by finding a common denominator to combine the fractions and then applying Pythagorean and quotient/reciprocal identities to reach the RHS.
+*   **Proof:**
+    *   Start with the LHS: (1 + sinθ) / (1 - sinθ) - (1 - sinθ) / (1 + sinθ)
+    *   Find the common denominator: (1 - sinθ)(1 + sinθ)
+    *   Combine the fractions: [(1 + sinθ)² - (1 - sinθ)²] / [(1 - sinθ)(1 + sinθ)]
+    *   Expand the numerators and denominator: [(1 + 2sinθ + sin²θ) - (1 - 2sinθ + sin²θ)] / (1 - sin²θ)
+    *   Simplify the numerator: (1 + 2sinθ + sin²θ - 1 + 2sinθ - sin²θ) / (1 - sin²θ)
+    *   Combine like terms in the numerator: 4sinθ / (1 - sin²θ)
+    *   Apply the Pythagorean identity (1 - sin²θ = cos²θ): 4sinθ / cos²θ
+    *   Split the expression into two parts to match the form 4tanθsecθ: 4 * (sinθ / cosθ) * (1 / cosθ)
+    *   Apply the quotient identity (sinθ / cosθ = tanθ) and reciprocal identity (1 / cosθ = secθ): 4tanθsecθ
+    *   Result: 4tanθsecθ = 4tanθsecθ. Q.E.D.
+### Prove: (tanθ + secθ - 1) / (tanθ - secθ + 1) = tanθ + secθ
+*   **Objective:** To verify the identity by rewriting the constant '1' in the numerator using the Pythagorean identity and factoring to simplify the expression.
+*   **Proof:**
+    *   Start with the LHS: (tanθ + secθ - 1) / (tanθ - secθ + 1)
+    *   Use the Pythagorean identity sec²θ - tan²θ = 1 to replace the '1' in the numerator: (tanθ + secθ - (sec²θ - tan²θ)) / (tanθ - secθ + 1)
+    *   Factor the difference of squares (sec²θ - tan²θ): (tanθ + secθ - (secθ - tanθ)(secθ + tanθ)) / (tanθ - secθ + 1)
+    *   Factor out (tanθ + secθ) from the numerator: (tanθ + secθ) * (1 - (secθ - tanθ)) / (tanθ - secθ + 1)
+    *   Distribute the negative sign in the numerator: (tanθ + secθ) * (1 - secθ + tanθ) / (tanθ - secθ + 1)
+    *   Notice that (1 - secθ + tanθ) is the same as the denominator (tanθ - secθ + 1): (tanθ + secθ) * (tanθ - secθ + 1) / (tanθ - secθ + 1)
+    *   Cancel the common factor (tanθ - secθ + 1): tanθ + secθ
+    *   Result: tanθ + secθ = tanθ + secθ. Q.E.D.
