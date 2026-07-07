@@ -1550,12 +1550,10 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   sin²θ + cos²θ = 1
     *   sin²θ = 1 - cos²θ
     *   cos²θ = 1 - sin²θ
-
 *   **Fundamental Identity Set 2:**
     *   tan²θ + 1 = sec²θ
     *   tan²θ = sec²θ - 1
     *   sec²θ - tan²θ = 1
-
 *   **Fundamental Identity Set 3:**
     *   cot²θ + 1 = csc²θ
     *   cot²θ = csc²θ - 1
@@ -1565,13 +1563,11 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 *   **Understanding Even and Odd Functions:**
     *   **Even Functions:** A function $f$ is even if $f(-x) = f(x)$. The graph is symmetric with respect to the $y$-axis.
     *   **Odd Functions:** A function $f$ is odd if $f(-x) = -f(x)$. The graph has rotational symmetry about the origin.
-
 *   **Categorizing Trig Functions:**
     *   **Cosine is Even:** $\cos(-\theta) = \cos\theta$. Because cosine represents the $x$-coordinate on the unit circle, reflecting the angle across the $x$-axis (moving from $\theta$ to $-\theta$) does not change the $x$-value.
     *   **Sine is Odd:** $\sin(-\theta) = -\sin\theta$. Because sine represents the $y$-coordinate, reflecting the angle across the $x$-axis negates the $y$-value.
     *   **Secant is Even:** $\sec(-\theta) = \sec\theta$, derived from the reciprocal of cosine.
     *   **Tangent, Cosecant, and Cotangent are Odd:** $\tan(-\theta) = -\tan\theta$, $\csc(-\theta) = -\csc\theta$, and $\cot(-\theta) = -\cot\theta$, all derived from the behavior of sine and cosine.
-
 *   **Application to Squared Functions:**
     *   When a function is squared, the negative sign disappears regardless of whether it is even or odd.
     *   For sine: $\sin^2(-\theta) = (\sin(-\theta))^2 = (-\sin\theta)^2 = \sin^2\theta$.
