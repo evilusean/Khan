@@ -19224,10 +19224,8 @@ https://www.youtube.com/watch?v=9R5Nz1eYddM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 **Core Concepts & Purpose**
 *   **Definition:** Sum and difference formulas are identities that allow us to evaluate trigonometric functions of angles that are not standard (e.g., 15° or 75°) by breaking them into sums or differences of angles with known trigonometric values (like 30°, 45°, 60°).
 *   **The "Myth":** A crucial warning in the video is that trigonometric functions are **not** distributive. For example, $\sin(A + B) \neq \sin A + \sin B$. These formulas provide the correct mathematical way to expand such expressions.
-
 **Sum and Difference Formulas**
 These identities are essential for advanced trigonometry and calculus applications:
-
 *   **Sine Formulas:**
     *   $\sin(A + B) = \sin A \cos B + \cos A \sin B$
     *   $\sin(A - B) = \sin A \cos B - \cos A \sin B$
@@ -19237,7 +19235,6 @@ These identities are essential for advanced trigonometry and calculus applicatio
 *   **Tangent Formulas:**
     *   $\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}$
     *   $\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}$
-
 **Methodology for Application**
 1.  **Identify Known Angles:** Determine if the target angle can be represented as a sum or difference of standard angles (e.g., 75° = 45° + 30°).
 2.  **Select the Identity:** Choose the appropriate formula based on the trigonometric function and whether it is a sum or difference.
