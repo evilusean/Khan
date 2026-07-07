@@ -1545,7 +1545,7 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 3.  **Algebraic Manipulation:** Combine, expand, or factor terms as needed.
 4.  **Iterative Simplification:** Continue applying identities (especially Pythagorean ones) until both sides match.
 5.  **Verify:** Ensure that every step logically follows from the previous one, maintaining the equality throughout the process.
-### Pythagorean Identities
+#### Pythagorean Identities
 *   **Fundamental Identity Set 1:**
     *   sin²θ + cos²θ = 1
     *   sin²θ = 1 - cos²θ
@@ -1560,7 +1560,7 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   cot²θ + 1 = csc²θ
     *   cot²θ = csc²θ - 1
     *   csc²θ - cot²θ = 1
-### Even and Odd Trigonometric Identities
+#### Even and Odd Trigonometric Identities
 
 *   **Understanding Even and Odd Functions:**
     *   **Even Functions:** A function $f$ is even if $f(-x) = f(x)$. The graph is symmetric with respect to the $y$-axis.
