@@ -19088,12 +19088,10 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   sin²θ + cos²θ = 1
     *   sin²θ = 1 - cos²θ
     *   cos²θ = 1 - sin²θ
-
 *   **Fundamental Identity Set 2:**
     *   tan²θ + 1 = sec²θ
     *   tan²θ = sec²θ - 1
     *   sec²θ - tan²θ = 1
-
 *   **Fundamental Identity Set 3:**
     *   cot²θ + 1 = csc²θ
     *   cot²θ = csc²θ - 1
