@@ -1559,7 +1559,6 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   cot²θ = csc²θ - 1
     *   csc²θ - cot²θ = 1
 #### Even and Odd Trigonometric Identities
-
 *   **Understanding Even and Odd Functions:**
     *   **Even Functions:** A function $f$ is even if $f(-x) = f(x)$. The graph is symmetric with respect to the $y$-axis.
     *   **Odd Functions:** A function $f$ is odd if $f(-x) = -f(x)$. The graph has rotational symmetry about the origin.
