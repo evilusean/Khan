@@ -19217,5 +19217,5 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Notice that (1 - secθ + tanθ) is the same as the denominator (tanθ - secθ + 1): (tanθ + secθ) * (tanθ - secθ + 1) / (tanθ - secθ + 1)
     *   Cancel the common factor (tanθ - secθ + 1): tanθ + secθ
     *   Result: tanθ + secθ = tanθ + secθ. Q.E.D.
-## 2026-July-06 - Introduction to Sum and Difference Formulas in Trigonometry (Precalculus - Trigonometry 25) :
+## 2026-July-07 - Introduction to Sum and Difference Formulas in Trigonometry (Precalculus - Trigonometry 25) :
 https://www.youtube.com/watch?v=9R5Nz1eYddM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=100
