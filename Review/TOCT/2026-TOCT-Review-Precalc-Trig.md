@@ -1517,3 +1517,64 @@ https://www.youtube.com/watch?v=hBk7OnEYPcw&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     4.  Solve for the reference angle: Use inverse functions to find the primary angle.
     5.  Identify all solutions: Use the unit circle to find secondary angles based on the sign of the trigonometric ratio (e.g., where sine is positive vs. negative).
     6.  State the general solution: If requested, add multiples of the period ($+ 2n\pi$).
+### 2026-July-05 - How to Prove Trigonometric Identities (Precalculus - Trigonometry 24) :
+https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=99
+- Already struggling on trig identities, outside of 'just know the thing, bro', I will definitely need to review this in a month, week, heck, even now. Do we get a cheatsheet? Do I really need to rote memorize like 50 trig identities and their derivatives 'just know that $tan^2\theta + 1 = sec^2\theta$, bro, it's not hard' = skill issue. Maybe I need to make a custom anki deck for these, idk, future Sean problem. I'm trying to do a lesson a day, and already feel like I'm underwater, if I was in school I'd be spending weeks/months learning these concepts instead of one a day - going to 100% need to review this before calc - Create an anki deck with - **Pythagorean Identities**: These are essential and frequently appear in system dynamics and signal processing. - **Reciprocal Identities**: These allow for the easy conversion of secant, cosecant, and cotangent functions into sine and cosine.- **Quotient Identities**: Crucial for simplifying complex expressions during derivations. - Internalize the core "parent" identities rather than every single variation. - Practice the _process_ of derivation, which is more valuable than rote memorization for long-term engineering success.
+#### Summary: How to Prove Trigonometric Identities (Professor Leonard)
+**Core Concepts & Strategies**
+*   **Definition:** An identity is an equation that is true for all values of the variable for which the expressions are defined.
+*   **Primary Objective:** The goal is to manipulate one side of an equation until it is identical to the other side.
+*   **General Approach:** Proving identities is considered an "art form" developed through practice. When stuck, these strategies are recommended:
+    *   **Convert to Sine and Cosine:** A reliable fallback strategy is to rewrite all tangent, cotangent, secant, and cosecant terms in terms of sine and cosine.
+    *   **Simplify Fractions:** Perform addition of fractions to find common denominators, which often reveals opportunities to use Pythagorean identities.
+    *   **Use Conjugates:** When dealing with expressions like $1 \pm \text{trig function}$ in a denominator, multiplying by the conjugate can simplify the expression by creating a difference of squares (e.g., $1 - \sin^2\theta = \cos^2\theta$).
+    *   **Factoring:** Look for opportunities to factor numerators and denominators to cancel terms.
+**Key Trigonometric Formulas Used**
+*   **Reciprocal Identities:**
+    *   $\tan\theta = \frac{\sin\theta}{\cos\theta}$
+    *   $\cot\theta = \frac{\cos\theta}{\sin\theta}$
+    *   $\sec\theta = \frac{1}{\cos\theta}$
+    *   $\csc\theta = \frac{1}{\sin\theta}$
+*   **Pythagorean Identities:**
+    *   $\sin^2\theta + \cos^2\theta = 1$
+    *   $1 + \tan^2\theta = \sec^2\theta$
+    *   $1 + \cot^2\theta = \csc^2\theta$
+**Step-by-Step Methodology**
+1.  **Analyze Both Sides:** Examine both sides of the identity to determine which side looks more "complex" or offers more potential for simplification.
+2.  **Select a Starting Point:** Begin with the more complex side and apply identities to transform it.
+3.  **Algebraic Manipulation:** Combine, expand, or factor terms as needed.
+4.  **Iterative Simplification:** Continue applying identities (especially Pythagorean ones) until both sides match.
+5.  **Verify:** Ensure that every step logically follows from the previous one, maintaining the equality throughout the process.
+### Pythagorean Identities
+*   **Fundamental Identity Set 1:**
+    *   sin²θ + cos²θ = 1
+    *   sin²θ = 1 - cos²θ
+    *   cos²θ = 1 - sin²θ
+
+*   **Fundamental Identity Set 2:**
+    *   tan²θ + 1 = sec²θ
+    *   tan²θ = sec²θ - 1
+    *   sec²θ - tan²θ = 1
+
+*   **Fundamental Identity Set 3:**
+    *   cot²θ + 1 = csc²θ
+    *   cot²θ = csc²θ - 1
+    *   csc²θ - cot²θ = 1
+### Even and Odd Trigonometric Identities
+
+*   **Understanding Even and Odd Functions:**
+    *   **Even Functions:** A function $f$ is even if $f(-x) = f(x)$. The graph is symmetric with respect to the $y$-axis.
+    *   **Odd Functions:** A function $f$ is odd if $f(-x) = -f(x)$. The graph has rotational symmetry about the origin.
+
+*   **Categorizing Trig Functions:**
+    *   **Cosine is Even:** $\cos(-\theta) = \cos\theta$. Because cosine represents the $x$-coordinate on the unit circle, reflecting the angle across the $x$-axis (moving from $\theta$ to $-\theta$) does not change the $x$-value.
+    *   **Sine is Odd:** $\sin(-\theta) = -\sin\theta$. Because sine represents the $y$-coordinate, reflecting the angle across the $x$-axis negates the $y$-value.
+    *   **Secant is Even:** $\sec(-\theta) = \sec\theta$, derived from the reciprocal of cosine.
+    *   **Tangent, Cosecant, and Cotangent are Odd:** $\tan(-\theta) = -\tan\theta$, $\csc(-\theta) = -\csc\theta$, and $\cot(-\theta) = -\cot\theta$, all derived from the behavior of sine and cosine.
+
+*   **Application to Squared Functions:**
+    *   When a function is squared, the negative sign disappears regardless of whether it is even or odd.
+    *   For sine: $\sin^2(-\theta) = (\sin(-\theta))^2 = (-\sin\theta)^2 = \sin^2\theta$.
+    *   For cosine: $\cos^2(-\theta) = (\cos(-\theta))^2 = (\cos\theta)^2 = \cos^2\theta$.
+    *   This is why, in the proof provided previously, $\sin^2(-\theta)$ became $\sin^2\theta$ and $\cos^2(-\theta)$ became $\cos^2\theta$ immediately.
+
