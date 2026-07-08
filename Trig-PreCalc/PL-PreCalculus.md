@@ -19484,3 +19484,16 @@ https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Multiply: (15/65) - (48/65).
     *   Subtract: (15 - 48) / 65 = -33/65.
 *   **Final Answer:** -33/65.
+### Relationship between Sine and Cosine as Phase Shifts :
+*   **Concept:** Sine and cosine are essentially the same function, just shifted by a phase of π/2. This is known as a co-function identity.
+*   **Evaluating cos(π/2 - θ):**
+    *   Using the cosine difference formula: cos(A - B) = cos(A)cos(B) + sin(A)sin(B).
+    *   Substitute A = π/2 and B = θ: cos(π/2)cos(θ) + sin(π/2)sin(θ).
+    *   Since cos(π/2) = 0 and sin(π/2) = 1: (0)cos(θ) + (1)sin(θ) = sin(θ).
+    *   Result: cos(π/2 - θ) = sin(θ).
+*   **Evaluating sin(π/2 - θ):**
+    *   Using the sine difference formula: sin(A - B) = sin(A)cos(B) - cos(A)sin(B).
+    *   Substitute A = π/2 and B = θ: sin(π/2)cos(θ) - cos(π/2)sin(θ).
+    *   Since sin(π/2) = 1 and cos(π/2) = 0: (1)cos(θ) - (0)sin(θ) = cos(θ).
+    *   Result: sin(π/2 - θ) = cos(θ).
+*   **Visual Interpretation:** If you take a sine wave and shift it to the left by π/2 units, it becomes a cosine wave. Conversely, shifting a cosine wave to the right by π/2 units results in a sine wave.
