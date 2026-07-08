@@ -19277,3 +19277,22 @@ These identities are essential for advanced trigonometry and calculus applicatio
     *   (√6 / 4) - (√2 / 4)
 *   **Step 5: Final Answer.**
     *   (√6 - √2) / 4
+### Evaluate: cos(165°)
+
+*   **Objective:** To find the exact value of cos(165°) using the sum formula.
+*   **Step 1: Decompose the angle.**
+    *   We can represent 165° as the sum of two standard angles: 120° + 45°.
+*   **Step 2: Apply the Sum Formula.**
+    *   Use the cosine sum formula: cos(A + B) = cos A cos B - sin A sin B.
+    *   Set A = 120° and B = 45°.
+    *   cos(120° + 45°) = cos(120°)cos(45°) - sin(120°)sin(45°).
+*   **Step 3: Substitute known unit circle values.**
+    *   cos(120°) = -1 / 2
+    *   cos(45°) = √2 / 2
+    *   sin(120°) = √3 / 2
+    *   sin(45°) = √2 / 2
+*   **Step 4: Calculate.**
+    *   (-1 / 2)(√2 / 2) - (√3 / 2)(√2 / 2)
+    *   (-√2 / 4) - (√6 / 4)
+*   **Step 5: Final Answer.**
+    *   (-√2 - √6) / 4
