@@ -19386,3 +19386,4 @@ These identities are essential for advanced trigonometry and calculus applicatio
     *   Simplify: sin(-6π/12) = sin(-π/2).
 *   **Result:** -sin(π/2) = -1.
 ## 2026-July-08 - Using Sum and Difference Formulas in Trigonometry (Precalculus - Trigonometry 26) :
+https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=102
