@@ -19241,3 +19241,21 @@ These identities are essential for advanced trigonometry and calculus applicatio
 3.  **Substitution:** Substitute the known angle values into the chosen formula.
 4.  **Evaluate:** Use known trigonometric values (from the unit circle) to compute the final result.
 5.  **Simplify:** Perform any necessary algebraic simplification, such as finding a common denominator or rationalizing the denominator.
+### Evaluate: sin(105°)
+
+*   **Objective:** To find the exact value of sin(105°) by decomposing 105° into the sum of two standard angles whose trigonometric values are known.
+*   **Methodology:**
+    *   **Step 1: Decompose the angle.** We can write 105° as the sum of two standard angles from the unit circle: 60° + 45°.
+    *   **Step 2: Apply the Sum Formula.** Use the sine sum formula: sin(A + B) = sin A cos B + cos A sin B.
+    *   **Step 3: Substitute values.** Let A = 60° and B = 45°:
+        *   sin(60° + 45°) = sin(60°)cos(45°) + cos(60°)sin(45°)
+    *   **Step 4: Use known values from the unit circle.**
+        *   sin(60°) = (√3 / 2)
+        *   cos(45°) = (√2 / 2)
+        *   cos(60°) = (1 / 2)
+        *   sin(45°) = (√2 / 2)
+    *   **Step 5: Calculate.**
+        *   (√3 / 2)(√2 / 2) + (1 / 2)(√2 / 2)
+        *   (√6 / 4) + (√2 / 4)
+    *   **Step 6: Final Answer.** Combine the fractions:
+        *   (√6 + √2) / 4
