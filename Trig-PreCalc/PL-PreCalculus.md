@@ -19232,7 +19232,7 @@ These identities are essential for advanced trigonometry and calculus applicatio
 *   **Cosine Formulas (Cosine are '+' = '-' and '-' = '+' Signs are Opposire for Cosine):**
     *   $\cos(A + B) = \cos A \cos B - \sin A \sin B$
     *   $\cos(A - B) = \cos A \cos B + \sin A \sin B$
-*   **Tangent Formulas:**
+*   **Tangent Formulas (same sign on top, different on second):**
     *   $\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}$
     *   $\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}$
 **Methodology for Application**
@@ -19296,26 +19296,24 @@ These identities are essential for advanced trigonometry and calculus applicatio
 *   **Step 5: Final Answer.**
     *   (-√2 - √6) / 4
 ### Evaluate: tan(19π/12)
-
-*   **Objective:** To find the exact value of tan(19π/12) using sum and difference formulas.
-*   **Step 1: Simplify the angle.**
-    *   19π/12 is equal to 285°. 
-    *   Since this is in the 4th quadrant, we can express it as the sum of standard angles: 240° + 45° (or 8π/12 + 3π/12, which simplifies to 2π/3 + π/4).
+*   **Objective:** To find the exact value of tan(19π/12) using Professor Leonard's decomposition method.
+*   **Step 1: Decompose the angle.**
+    *   Decompose 19π/12 into two standard angles: 16π/12 + 3π/12.
+    *   Simplify the fractions: 4π/3 + π/4.
 *   **Step 2: Apply the Sum Formula.**
-    *   Use the tangent sum formula: tan(A + B) = (tan A + tan B) / (1 - tan A * tan B).
-    *   Set A = 240° (or 4π/3) and B = 45° (or π/4).
-    *   tan(240° + 45°) = (tan 240° + tan 45°) / (1 - tan 240° * tan 45°).
+    *   Use the tangent sum identity: tan(A + B) = (tan A + tan B) / (1 - tan A * tan B).
+    *   Set A = 4π/3 and B = π/4:
+    *   tan(4π/3 + π/4) = (tan(4π/3) + tan(π/4)) / (1 - tan(4π/3) * tan(π/4)).
 *   **Step 3: Substitute known unit circle values.**
-    *   tan 240° = √3
-    *   tan 45° = 1
-    *   tan(240° + 45°) = (√3 + 1) / (1 - √3 * 1).
-*   **Step 4: Simplify the expression.**
-    *   Resulting expression: (√3 + 1) / (1 - √3).
-    *   To rationalize the denominator, multiply the numerator and denominator by the conjugate (1 + √3):
+    *   tan(4π/3) = √3.
+    *   tan(π/4) = 1.
+    *   Substitute: (√3 + 1) / (1 - √3 * 1).
+*   **Step 4: Simplify.**
+    *   Expression: (√3 + 1) / (1 - √3).
+    *   Rationalize the denominator by multiplying by the conjugate (1 + √3):
     *   [(√3 + 1)(1 + √3)] / [(1 - √3)(1 + √3)]
-    *   Numerator: (√3 + 3 + 1 + √3) = 4 + 2√3.
-    *   Denominator: (1 - 3) = -2.
+    *   Numerator: √3 + 3 + 1 + √3 = 4 + 2√3.
+    *   Denominator: 1 - 3 = -2.
 *   **Step 5: Final Calculation.**
     *   (4 + 2√3) / -2
     *   -2 - √3.
-*   **Final Answer:** -2 - √3.
