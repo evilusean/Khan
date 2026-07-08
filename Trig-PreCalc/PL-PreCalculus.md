@@ -19387,3 +19387,25 @@ These identities are essential for advanced trigonometry and calculus applicatio
 *   **Result:** -sin(π/2) = -1.
 ## 2026-July-08 - Using Sum and Difference Formulas in Trigonometry (Precalculus - Trigonometry 26) :
 https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=102
+### Summary: Using Sum and Difference Formulas (Advanced Applications)
+
+**Procedural Strategy for Complex Problems**
+*   **Missing Information:** When asked to evaluate expressions like sin(α + β) without knowing α or β, the priority is to solve for all necessary trigonometric functions (sin, cos, tan) for both angles first.
+*   **Quadrant Importance:** Identifying the quadrant for each angle is critical because it dictates the sign (positive or negative) of the coordinates (x, y), which in turn determines the signs of the trigonometric ratios.
+*   **Visualization:** Drawing a right triangle for each angle using the given ratio and its known quadrant is the most reliable way to determine the missing side via the Pythagorean theorem.
+*   **Formula Notation:** Formulas are often condensed (e.g., sin(α ± β)). To use them:
+    *   If using the "plus" in the angle, follow the top signs in the formula.
+    *   If using the "minus" in the angle, follow the bottom signs.
+
+**Handling Inverse Trigonometric Functions**
+*   **Definition:** Inverse functions output angles. For example, sin⁻¹(1/2) = α means sin(α) = 1/2.
+*   **Restricted Domains:**
+    *   sin⁻¹ and tan⁻¹ work within [-π/2, π/2].
+    *   cos⁻¹ works within [0, π].
+*   **Execution:** If the inverse input is a standard unit circle value, solve for the angle directly. If it is not (e.g., tan⁻¹(4/3)), treat it as an angle (α), draw the representative triangle in the appropriate quadrant, and determine the necessary sin and cos values from that triangle to use in the sum/difference formulas.
+
+**Proving Trigonometric Phase Shifts**
+*   Using sum and difference identities, it can be proven that sine and cosine are simply phase-shifted versions of each other:
+    *   **cos(π/2 - θ) = sin(θ)**
+    *   **sin(π/2 - θ) = cos(θ)**
+*   **Graphically:** These identities confirm that shifting a sine function left by π/2 results in a cosine graph, and shifting a cosine function right by π/2 results in a sine graph.
