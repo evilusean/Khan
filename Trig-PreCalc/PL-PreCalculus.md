@@ -19278,7 +19278,6 @@ These identities are essential for advanced trigonometry and calculus applicatio
 *   **Step 5: Final Answer.**
     *   (√6 - √2) / 4
 ### Evaluate: cos(165°)
-
 *   **Objective:** To find the exact value of cos(165°) using the sum formula.
 *   **Step 1: Decompose the angle.**
     *   We can represent 165° as the sum of two standard angles: 120° + 45°.
@@ -19296,3 +19295,27 @@ These identities are essential for advanced trigonometry and calculus applicatio
     *   (-√2 / 4) - (√6 / 4)
 *   **Step 5: Final Answer.**
     *   (-√2 - √6) / 4
+### Evaluate: tan(19π/12)
+
+*   **Objective:** To find the exact value of tan(19π/12) using sum and difference formulas.
+*   **Step 1: Simplify the angle.**
+    *   19π/12 is equal to 285°. 
+    *   Since this is in the 4th quadrant, we can express it as the sum of standard angles: 240° + 45° (or 8π/12 + 3π/12, which simplifies to 2π/3 + π/4).
+*   **Step 2: Apply the Sum Formula.**
+    *   Use the tangent sum formula: tan(A + B) = (tan A + tan B) / (1 - tan A * tan B).
+    *   Set A = 240° (or 4π/3) and B = 45° (or π/4).
+    *   tan(240° + 45°) = (tan 240° + tan 45°) / (1 - tan 240° * tan 45°).
+*   **Step 3: Substitute known unit circle values.**
+    *   tan 240° = √3
+    *   tan 45° = 1
+    *   tan(240° + 45°) = (√3 + 1) / (1 - √3 * 1).
+*   **Step 4: Simplify the expression.**
+    *   Resulting expression: (√3 + 1) / (1 - √3).
+    *   To rationalize the denominator, multiply the numerator and denominator by the conjugate (1 + √3):
+    *   [(√3 + 1)(1 + √3)] / [(1 - √3)(1 + √3)]
+    *   Numerator: (√3 + 3 + 1 + √3) = 4 + 2√3.
+    *   Denominator: (1 - 3) = -2.
+*   **Step 5: Final Calculation.**
+    *   (4 + 2√3) / -2
+    *   -2 - √3.
+*   **Final Answer:** -2 - √3.
