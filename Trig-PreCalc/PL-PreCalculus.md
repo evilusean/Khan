@@ -19407,3 +19407,22 @@ https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   **cos(π/2 - θ) = sin(θ)**
     *   **sin(π/2 - θ) = cos(θ)**
 *   **Graphically:** These identities confirm that shifting a sine function left by π/2 results in a cosine graph, and shifting a cosine function right by π/2 results in a sine graph.
+### Analyze Given Information and Determine Trig Functions
+
+*   **Alpha (α):**
+    *   Given: sin(α) = 3/5 and 0 < α < π/2.
+    *   Quadrant: 0 to π/2 is Quadrant I.
+    *   Triangle: In Quadrant I, y = 3 and r = 5. Using Pythagorean theorem ($x^2 + y^2 = r^2$), $x^2 + 3^2 = 5^2 \implies x^2 = 16 \implies x = 4$ (positive in Quadrant I).
+    *   Trig Functions:
+        *   sin(α) = 3/5
+        *   cos(α) = x/r = 4/5
+        *   tan(α) = y/x = 3/4
+
+*   **Beta (β):**
+    *   Given: cos(β) = (2√5)/5 and -π/2 < β < 0.
+    *   Quadrant: -π/2 to 0 is Quadrant IV.
+    *   Triangle: In Quadrant IV, x = 2√5 and r = 5. Using Pythagorean theorem ($x^2 + y^2 = r^2$), $(2√5)^2 + y^2 = 5^2 \implies 20 + y^2 = 25 \implies y^2 = 5 \implies y = -√5$ (negative in Quadrant IV).
+    *   Trig Functions:
+        *   cos(β) = (2√5)/5
+        *   sin(β) = y/r = -√5 / 5
+        *   tan(β) = y/x = -√5 / (2√5) = -1/2
