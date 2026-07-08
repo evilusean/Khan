@@ -19242,7 +19242,6 @@ These identities are essential for advanced trigonometry and calculus applicatio
 4.  **Evaluate:** Use known trigonometric values (from the unit circle) to compute the final result.
 5.  **Simplify:** Perform any necessary algebraic simplification, such as finding a common denominator or rationalizing the denominator.
 ### Evaluate: sin(105°)
-
 *   **Objective:** To find the exact value of sin(105°) by decomposing 105° into the sum of two standard angles whose trigonometric values are known.
 *   **Methodology:**
     *   **Step 1: Decompose the angle.** We can write 105° as the sum of two standard angles from the unit circle: 60° + 45°.
