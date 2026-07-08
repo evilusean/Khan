@@ -1572,4 +1572,28 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   For sine: $\sin^2(-\theta) = (\sin(-\theta))^2 = (-\sin\theta)^2 = \sin^2\theta$.
     *   For cosine: $\cos^2(-\theta) = (\cos(-\theta))^2 = (\cos\theta)^2 = \cos^2\theta$.
     *   This is why, in the proof provided previously, $\sin^2(-\theta)$ became $\sin^2\theta$ and $\cos^2(-\theta)$ became $\cos^2\theta$ immediately.
+### 2026-July-07 - Introduction to Sum and Difference Formulas in Trigonometry (Precalculus - Trigonometry 25) :
+https://www.youtube.com/watch?v=9R5Nz1eYddM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=100
+#### Summary: Introduction to Sum and Difference Formulas
+
+**Core Concepts & Purpose**
+*   **Definition:** Sum and difference formulas are identities that allow us to evaluate trigonometric functions of angles that are not standard (e.g., 15° or 75°) by breaking them into sums or differences of angles with known trigonometric values (like 30°, 45°, 60°).
+*   **The "Myth":** A crucial warning in the video is that trigonometric functions are **not** distributive. For example, $\sin(A + B) \neq \sin A + \sin B$. These formulas provide the correct mathematical way to expand such expressions.
+**Sum and Difference Formulas**
+These identities are essential for advanced trigonometry and calculus applications:
+*   **Sine Formulas (Sine are '+' = '+' and '-' = '-'. Signs are same for Sine) :**
+    *   $\sin(A + B) = \sin A \cos B + \cos A \sin B$
+    *   $\sin(A - B) = \sin A \cos B - \cos A \sin B$
+*   **Cosine Formulas (Cosine are '+' = '-' and '-' = '+' Signs are Opposire for Cosine):**
+    *   $\cos(A + B) = \cos A \cos B - \sin A \sin B$
+    *   $\cos(A - B) = \cos A \cos B + \sin A \sin B$
+*   **Tangent Formulas (same sign on top, different on second):**
+    *   $\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}$
+    *   $\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}$
+**Methodology for Application**
+1.  **Identify Known Angles:** Determine if the target angle can be represented as a sum or difference of standard angles (e.g., 75° = 45° + 30°).
+2.  **Select the Identity:** Choose the appropriate formula based on the trigonometric function and whether it is a sum or difference.
+3.  **Substitution:** Substitute the known angle values into the chosen formula.
+4.  **Evaluate:** Use known trigonometric values (from the unit circle) to compute the final result.
+5.  **Simplify:** Perform any necessary algebraic simplification, such as finding a common denominator or rationalizing the denominator.
 
