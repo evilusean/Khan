@@ -19429,3 +19429,26 @@ https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Simplify Numerator: 3/4 + 2/4 = 5/4
     *   Simplify Denominator: 1 - 3/8 = 5/8
     *   Result: (5/4) / (5/8) = (5/4) * (8/5) = 2.
+### Evaluate: sin(α + β), cos(α + β), and tan(α - β)
+*   **Step 1: Identify Quadrants and determine sides.**
+    *   For α: sin(α) = 5/13 and -3π/2 < α < -π. This interval is Quadrant II.
+        *   y = 5, r = 13.
+        *   Using x² + y² = r²: x² + 25 = 169 => x² = 144 => x = -12 (negative in Quadrant II).
+    *   For β: tan(β) = -√3 and π/2 < β < π. This interval is Quadrant II.
+        *   y = √3, x = -1 (adjusted for Quadrant II; tan = y/x = √3/-1 = -√3).
+        *   Using r² = x² + y²: r² = (-1)² + (√3)² = 1 + 3 = 4 => r = 2.
+*   **Step 2: Determine trig functions for each angle.**
+    *   For α: sin(α) = 5/13, cos(α) = -12/13, tan(α) = -5/12.
+    *   For β: sin(β) = √3/2, cos(β) = -1/2, tan(β) = -√3.
+*   **Step 3: Calculate sin(α + β).**
+    *   Formula: sin(α)cos(β) + cos(α)sin(β) = (5/13)(-1/2) + (-12/13)(√3/2)
+    *   Result: (-5/26) - (12√3/26) = (-5 - 12√3) / 26.
+*   **Step 4: Calculate cos(α + β).**
+    *   Formula: cos(α)cos(β) - sin(α)sin(β) = (-12/13)(-1/2) - (5/13)(√3/2)
+    *   Result: (12/26) - (5√3/26) = (12 - 5√3) / 26.
+*   **Step 5: Calculate tan(α - β).**
+    *   Formula: (tan(α) - tan(β)) / (1 + tan(α)tan(β))
+    *   Substitution: (-5/12 - (-√3)) / (1 + (-5/12)(-√3))
+    *   Numerator: (12√3 - 5) / 12
+    *   Denominator: 1 + (5√3 / 12) = (12 + 5√3) / 12
+    *   Result: (12√3 - 5) / (12 + 5√3). (Optional: rationalize by multiplying by conjugate 12 - 5√3).
