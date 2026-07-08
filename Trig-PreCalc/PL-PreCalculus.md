@@ -19318,7 +19318,6 @@ These identities are essential for advanced trigonometry and calculus applicatio
     *   (4 + 2√3) / -2
     *   -2 - √3.
 ### Evaluate: tan(15°)
-
 *   **Objective:** To find the exact value of tan(15°) using the tangent difference formula as demonstrated by Professor Leonard.
 *   **Step 1: Decompose the angle.**
     *   Decompose 15° into the difference of two standard angles: 45° - 30°.
@@ -19342,3 +19341,23 @@ These identities are essential for advanced trigonometry and calculus applicatio
     *   (12 - 6√3) / 6.
 *   **Step 6: Final Answer.**
     *   2 - √3.
+### Evaluate: sec(-π/12)
+*   **Objective:** To find the exact value of sec(-π/12) using the even/odd identity and the difference formula.
+*   **Step 1: Apply the Even/Odd Identity.**
+    *   Since secant is an even function, sec(-θ) = sec(θ).
+    *   Therefore, sec(-π/12) = sec(π/12).
+*   **Step 2: Convert secant to cosine.**
+    *   Since sec(θ) = 1 / cos(θ), we need to find 1 / cos(π/12).
+*   **Step 3: Evaluate cos(π/12) using the difference formula.**
+    *   Decompose π/12 into (π/4 - π/6), which is (45° - 30°).
+    *   Use the cosine difference formula: cos(A - B) = cos A cos B + sin A sin B.
+    *   cos(45° - 30°) = cos(45°)cos(30°) + sin(45°)sin(30°).
+    *   Substitute values: (√2 / 2)(√3 / 2) + (√2 / 2)(1 / 2) = (√6 + √2) / 4.
+*   **Step 4: Find the reciprocal for sec(π/12).**
+    *   sec(π/12) = 1 / [(√6 + √2) / 4] = 4 / (√6 + √2).
+*   **Step 5: Rationalize the denominator.**
+    *   Multiply by the conjugate (√6 - √2):
+    *   [4(√6 - √2)] / [(√6 + √2)(√6 - √2)]
+    *   Denominator: 6 - 2 = 4.
+    *   Result: [4(√6 - √2)] / 4 = √6 - √2.
+*   **Final Answer:** √6 - √2.
