@@ -19361,3 +19361,27 @@ These identities are essential for advanced trigonometry and calculus applicatio
     *   Denominator: 6 - 2 = 4.
     *   Result: [4(√6 - √2)] / 4 = √6 - √2.
 *   **Final Answer:** √6 - √2.
+### Simplify: sin(20°)cos(80°) - cos(20°)sin(80°)
+*   **Objective:** Simplify using the sine difference formula.
+*   **Formula:** sin(A - B) = sin A cos B - cos A sin B.
+*   **Application:**
+    *   Set A = 20° and B = 80°.
+    *   Expression becomes: sin(20° - 80°).
+    *   Simplify: sin(-60°).
+*   **Result:** -sin(60°) = -√3 / 2.
+### Simplify: (tan(40°) - tan(10°)) / (1 + tan(40°)tan(10°))
+*   **Objective:** Simplify using the tangent difference formula.
+*   **Formula:** tan(A - B) = (tan A - tan B) / (1 + tan A tan B).
+*   **Application:**
+    *   Set A = 40° and B = 10°.
+    *   Expression becomes: tan(40° - 10°).
+    *   Simplify: tan(30°).
+*   **Result:** √3 / 3.
+### Simplify: sin(π/12)cos(7π/12) - cos(π/12)sin(7π/12)
+*   **Objective:** Simplify using the sine difference formula.
+*   **Formula:** sin(A - B) = sin A cos B - cos A sin B.
+*   **Application:**
+    *   Set A = π/12 and B = 7π/12.
+    *   Expression becomes: sin(π/12 - 7π/12).
+    *   Simplify: sin(-6π/12) = sin(-π/2).
+*   **Result:** -sin(π/2) = -1.
