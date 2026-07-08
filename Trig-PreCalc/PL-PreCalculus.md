@@ -19421,3 +19421,11 @@ https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Multiply terms: (6√5/25) + (-4√5/25).
     *   Combine numerators: (6√5 - 4√5) / 25.
 *   **Final Answer:** 2√5 / 25
+*   **Calculate cos(α + β).**
+    *   Formula: cos(α)cos(β) - sin(α)sin(β) = (4/5)(2√5/5) - (3/5)(-√5/5) = 8√5/25 + 3√5/25 = 11√5/25.
+*   **Calculate tan(α - β).**
+    *   Formula: (tan(α) - tan(β)) / (1 + tan(α)tan(β))
+    *   Substitution: (3/4 - (-1/2)) / (1 + (3/4)(-1/2))
+    *   Simplify Numerator: 3/4 + 2/4 = 5/4
+    *   Simplify Denominator: 1 - 3/8 = 5/8
+    *   Result: (5/4) / (5/8) = (5/4) * (8/5) = 2.
