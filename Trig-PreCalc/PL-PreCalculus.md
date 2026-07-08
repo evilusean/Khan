@@ -19452,3 +19452,19 @@ https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Numerator: (12√3 - 5) / 12
     *   Denominator: 1 + (5√3 / 12) = (12 + 5√3) / 12
     *   Result: (12√3 - 5) / (12 + 5√3). (Optional: rationalize by multiplying by conjugate 12 - 5√3).
+### Evaluate: sin(sin⁻¹(1/2) + cos⁻¹(0))
+*   **Step 1: Evaluate the inverse trigonometric expressions.**
+    *   Let α = sin⁻¹(1/2). This implies sin(α) = 1/2 for α in [-π/2, π/2]. The angle is α = π/6.
+    *   Let β = cos⁻¹(0). This implies cos(β) = 0 for β in [0, π]. The angle is β = π/2.
+*   **Step 2: Substitute the angles into the expression.**
+    *   The original expression becomes sin(α + β) = sin(π/6 + π/2).
+*   **Step 3: Apply the sine sum formula.**
+    *   Formula: sin(α + β) = sin(α)cos(β) + cos(α)sin(β).
+    *   Substitute the specific values: sin(π/6)cos(π/2) + cos(π/6)sin(π/2).
+*   **Step 4: Calculate the final value.**
+    *   sin(π/6) = 1/2.
+    *   cos(π/2) = 0.
+    *   cos(π/6) = √3/2.
+    *   sin(π/2) = 1.
+    *   (1/2)(0) + (√3/2)(1) = 0 + √3/2.
+*   **Final Answer:** √3/2.
