@@ -19258,18 +19258,22 @@ These identities are essential for advanced trigonometry and calculus applicatio
         *   (√6 / 4) + (√2 / 4)
     *   **Step 6: Final Answer.** Combine the fractions:
         *   (√6 + √2) / 4
-### Evaluate: sin(12 / π)
-
-*   **Objective:** To evaluate the expression sin(12 / π).
-*   **Analysis:**
-    *   **Clarification:** It is important to distinguish between $\sin(12/\pi)$ (where $12/\pi$ is a value in radians) and the standard notation $\sin(\pi/12)$.
-    *   **Calculation:**
-        *   The value $12 / \pi$ is approximately $12 / 3.14159 \approx 3.8197$ radians.
-        *   This does not correspond to a standard unit circle angle (which typically involve multiples of $\pi$).
-        *   Therefore, this expression does not use the sum/difference formulas taught by Professor Leonard in the way that angles like $\pi/12$ do.
-    *   **Alternative Interpretation (If the input was $\sin(\pi/12)$):**
-        *   If you intended to evaluate $\sin(\pi/12)$, which is $15^\circ$, you would use the difference formula: $\sin(45^\circ - 30^\circ)$.
-        *   $\sin(45^\circ - 30^\circ) = \sin(45^\circ)\cos(30^\circ) - \cos(45^\circ)\sin(30^\circ)$.
-        *   $= (\sqrt{2}/2)(\sqrt{3}/2) - (\sqrt{2}/2)(1/2)$.
-        *   $= (\sqrt{6} - \sqrt{2}) / 4$.
-*   **Conclusion:** If the expression is literally $\sin(12/\pi)$, it is a transcendental value approximately equal to -0.6358 and cannot be simplified using exact trigonometric identities.
+### Evaluate: sin(π/12)
+*   **Objective:** To find the exact value of sin(π/12) using the sum and difference formulas.
+*   **Step 1: Convert to Degrees or identify standard angles.**
+    *   π/12 radians is equal to 15°.
+    *   We can represent 15° as the difference between two standard angles: 45° - 30° (or π/4 - π/6).
+*   **Step 2: Apply the Difference Formula.**
+    *   Use the sine difference formula: sin(A - B) = sin A cos B - cos A sin B.
+    *   Set A = 45° and B = 30°.
+    *   sin(45° - 30°) = sin(45°)cos(30°) - cos(45°)sin(30°).
+*   **Step 3: Substitute known unit circle values.**
+    *   sin(45°) = √2 / 2
+    *   cos(30°) = √3 / 2
+    *   cos(45°) = √2 / 2
+    *   sin(30°) = 1 / 2
+*   **Step 4: Calculate.**
+    *   (√2 / 2)(√3 / 2) - (√2 / 2)(1 / 2)
+    *   (√6 / 4) - (√2 / 4)
+*   **Step 5: Final Answer.**
+    *   (√6 - √2) / 4
