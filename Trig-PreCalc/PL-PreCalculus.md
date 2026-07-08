@@ -19396,14 +19396,12 @@ https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 *   **Formula Notation:** Formulas are often condensed (e.g., sin(α ± β)). To use them:
     *   If using the "plus" in the angle, follow the top signs in the formula.
     *   If using the "minus" in the angle, follow the bottom signs.
-
 **Handling Inverse Trigonometric Functions**
 *   **Definition:** Inverse functions output angles. For example, sin⁻¹(1/2) = α means sin(α) = 1/2.
 *   **Restricted Domains:**
     *   sin⁻¹ and tan⁻¹ work within [-π/2, π/2].
     *   cos⁻¹ works within [0, π].
 *   **Execution:** If the inverse input is a standard unit circle value, solve for the angle directly. If it is not (e.g., tan⁻¹(4/3)), treat it as an angle (α), draw the representative triangle in the appropriate quadrant, and determine the necessary sin and cos values from that triangle to use in the sum/difference formulas.
-
 **Proving Trigonometric Phase Shifts**
 *   Using sum and difference identities, it can be proven that sine and cosine are simply phase-shifted versions of each other:
     *   **cos(π/2 - θ) = sin(θ)**
