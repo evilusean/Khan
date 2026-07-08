@@ -19317,3 +19317,28 @@ These identities are essential for advanced trigonometry and calculus applicatio
 *   **Step 5: Final Calculation.**
     *   (4 + 2√3) / -2
     *   -2 - √3.
+### Evaluate: tan(15°)
+
+*   **Objective:** To find the exact value of tan(15°) using the tangent difference formula as demonstrated by Professor Leonard.
+*   **Step 1: Decompose the angle.**
+    *   Decompose 15° into the difference of two standard angles: 45° - 30°.
+*   **Step 2: Apply the Difference Formula.**
+    *   Use the tangent difference identity: tan(A - B) = (tan A - tan B) / (1 + tan A * tan B).
+    *   Set A = 45° and B = 30°:
+    *   tan(45° - 30°) = (tan 45° - tan 30°) / (1 + tan 45° * tan 30°).
+*   **Step 3: Substitute known unit circle values.**
+    *   tan 45° = 1.
+    *   tan 30° = √3 / 3.
+    *   Substitute: (1 - √3/3) / (1 + 1 * √3/3).
+*   **Step 4: Simplify the complex fraction.**
+    *   Multiply the numerator and denominator by 3 to clear the fractions:
+    *   [3(1 - √3/3)] / [3(1 + √3/3)]
+    *   Result: (3 - √3) / (3 + √3).
+*   **Step 5: Rationalize the denominator.**
+    *   Multiply by the conjugate (3 - √3):
+    *   [(3 - √3)(3 - √3)] / [(3 + √3)(3 - √3)]
+    *   Numerator: 9 - 3√3 - 3√3 + 3 = 12 - 6√3.
+    *   Denominator: 9 - 3 = 6.
+    *   (12 - 6√3) / 6.
+*   **Step 6: Final Answer.**
+    *   2 - √3.
