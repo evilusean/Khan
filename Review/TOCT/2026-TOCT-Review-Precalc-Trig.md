@@ -1574,6 +1574,7 @@ https://www.youtube.com/watch?v=az_veh1FLbo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   This is why, in the proof provided previously, $\sin^2(-\theta)$ became $\sin^2\theta$ and $\cos^2(-\theta)$ became $\cos^2\theta$ immediately.
 ### 2026-July-07 - Introduction to Sum and Difference Formulas in Trigonometry (Precalculus - Trigonometry 25) :
 https://www.youtube.com/watch?v=9R5Nz1eYddM&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=100
+- mostly just need to remember the formulas, it's mostly plug and play, but you need to know what to plug into, where the '+' signs are and where the sinA/CosB/etc are for each formula, just need to actual sit down and take the time to review and memorize
 #### Summary: Introduction to Sum and Difference Formulas
 
 **Core Concepts & Purpose**
