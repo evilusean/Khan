@@ -19468,3 +19468,20 @@ https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   sin(π/2) = 1.
     *   (1/2)(0) + (√3/2)(1) = 0 + √3/2.
 *   **Final Answer:** √3/2.
+### Evaluate: cos(tan⁻¹(4/3) + cos⁻¹(5/13))
+
+*   **Step 1: Set up the angles.**
+    *   Let α = tan⁻¹(4/3), which means tan(α) = 4/3. Since tan⁻¹ is positive in Quadrant I, we draw a triangle with y=4, x=3.
+    *   Using the Pythagorean theorem: $r = \sqrt{3^2 + 4^2} = 5$.
+    *   Therefore, sin(α) = 4/5 and cos(α) = 3/5.
+    *   Let β = cos⁻¹(5/13), which means cos(β) = 5/13. Since cos⁻¹ is positive in Quadrant I, we draw a triangle with x=5, r=13.
+    *   Using the Pythagorean theorem: $y = \sqrt{13^2 - 5^2} = \sqrt{169 - 25} = 12$.
+    *   Therefore, sin(β) = 12/13 and cos(β) = 5/13.
+*   **Step 2: Apply the cosine sum formula.**
+    *   The expression is now cos(α + β).
+    *   Formula: cos(α + β) = cos(α)cos(β) - sin(α)sin(β).
+*   **Step 3: Substitute and calculate.**
+    *   Substitute values: (3/5)(5/13) - (4/5)(12/13).
+    *   Multiply: (15/65) - (48/65).
+    *   Subtract: (15 - 48) / 65 = -33/65.
+*   **Final Answer:** -33/65.
