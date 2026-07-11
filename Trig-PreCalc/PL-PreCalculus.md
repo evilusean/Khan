@@ -19497,3 +19497,4 @@ https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   Since sin(π/2) = 1 and cos(π/2) = 0: (1)cos(θ) - (0)sin(θ) = cos(θ).
     *   Result: sin(π/2 - θ) = cos(θ).
 *   **Visual Interpretation:** If you take a sine wave and shift it to the left by π/2 units, it becomes a cosine wave. Conversely, shifting a cosine wave to the right by π/2 units results in a sine wave.
+## 2026-July-11 - Proving the Double and Half Angle Formulas for Trigonometry (Precalculus - Trigonometry 27) :
