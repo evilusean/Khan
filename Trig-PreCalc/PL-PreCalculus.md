@@ -19562,3 +19562,9 @@ Derived by substituting θ = α/2 into the double-angle formulas for sine square
 * Let α = θ and β = θ
 * tan(θ + θ) = (tan(θ) + tan(θ)) / (1 - tan(θ)tan(θ))
 * tan(2θ) = (2tan(θ)) / (1 - tan²(θ))
+### Identity for Tangent Squared
+* Start with the definition: tan²(θ) = sin²(θ) / cos²(θ)
+* Substitute power-reduction identities: sin²(θ) = (1 - cos(2θ)) / 2 and cos²(θ) = (1 + cos(2θ)) / 2
+* tan²(θ) = [(1 - cos(2θ)) / 2] / [(1 + cos(2θ)) / 2]
+* Multiply the numerator and denominator by 2/2 to simplify
+* tan²(θ) = (1 - cos(2θ)) / (1 + cos(2θ))
