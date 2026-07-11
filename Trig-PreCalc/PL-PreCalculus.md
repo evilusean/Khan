@@ -19542,3 +19542,10 @@ Derived by substituting θ = α/2 into the double-angle formulas for sine square
 * Using the Pythagorean identity: cos²(θ) = 1 - sin²(θ)
 * Substitute: cos(2θ) = (1 - sin²(θ)) - sin²(θ)
 * Simplify: cos(2θ) = 1 - 2sin²(θ)
+### Half-Angle Formula for Sine
+* Start with: cos(2θ) = 1 - 2sin²(θ)
+* Rearrange to solve for sin²(θ):
+* 2sin²(θ) = 1 - cos(2θ)
+* sin²(θ) = (1 - cos(2θ)) / 2
+* Substitute θ = α/2:
+* sin²(α/2) = (1 - cos(α)) / 2
