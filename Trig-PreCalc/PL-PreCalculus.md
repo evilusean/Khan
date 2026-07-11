@@ -19556,3 +19556,9 @@ Derived by substituting θ = α/2 into the double-angle formulas for sine square
 * cos²(θ) = (1 + cos(2θ)) / 2
 * Substitute θ = α/2:
 * cos²(α/2) = (1 + cos(α)) / 2
+### Double Angle Formula for Tangent
+* tan(2θ) = tan(θ + θ)
+* Using the sum formula tan(α + β) = (tan(α) + tan(β)) / (1 - tan(α)tan(β))
+* Let α = θ and β = θ
+* tan(θ + θ) = (tan(θ) + tan(θ)) / (1 - tan(θ)tan(θ))
+* tan(2θ) = (2tan(θ)) / (1 - tan²(θ))
