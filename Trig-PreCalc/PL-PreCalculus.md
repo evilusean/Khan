@@ -19531,3 +19531,9 @@ Derived by substituting θ = α/2 into the double-angle formulas for sine square
 * Let α = θ and β = θ
 * cos(θ + θ) = cos(θ)cos(θ) - sin(θ)sin(θ)
 * cos(2θ) = cos²(θ) - sin²(θ)
+### Double Angle Formula for Cosine (Version 2)
+* Start with: cos(2θ) = cos²(θ) - sin²(θ)
+* Using the Pythagorean identity: sin²(θ) = 1 - cos²(θ)
+* Substitute: cos(2θ) = cos²(θ) - (1 - cos²(θ))
+* Simplify: cos(2θ) = cos²(θ) - 1 + cos²(θ)
+* cos(2θ) = 2cos²(θ) - 1
