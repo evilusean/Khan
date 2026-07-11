@@ -19549,3 +19549,10 @@ Derived by substituting θ = α/2 into the double-angle formulas for sine square
 * sin²(θ) = (1 - cos(2θ)) / 2
 * Substitute θ = α/2:
 * sin²(α/2) = (1 - cos(α)) / 2
+### Half-Angle Formula for Cosine
+* Start with: cos(2θ) = 2cos²(θ) - 1
+* Rearrange to solve for cos²(θ):
+* 2cos²(θ) = 1 + cos(2θ)
+* cos²(θ) = (1 + cos(2θ)) / 2
+* Substitute θ = α/2:
+* cos²(α/2) = (1 + cos(α)) / 2
