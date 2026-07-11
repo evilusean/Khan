@@ -19501,28 +19501,21 @@ https://www.youtube.com/watch?v=xw4HLT3TmIU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 https://www.youtube.com/watch?v=Epa2mi8hzBA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=105
 ### Double Angle Formulas
 Derived by setting alpha = beta = theta in sum formulas.
-
 * **Sine:** 
   * sin(2θ) = 2sin(θ)cos(θ)
-
 * **Cosine:** 
   * cos(2θ) = cos²(θ) - sin²(θ)
   * cos(2θ) = 2cos²(θ) - 1
   * cos(2θ) = 1 - 2sin²(θ)
-
 * **Tangent:**
   * tan(2θ) = (2tan(θ)) / (1 - tan²(θ))
 
 ---
-
 ### Half-Angle Formulas
 Derived by substituting θ = α/2 into the double-angle formulas for sine squared and cosine squared. Note: The ± sign is determined by the quadrant of α/2, not α.
-
 * **Sine:**
   * sin(α/2) = ±√[(1 - cos(α)) / 2]
-
 * **Cosine:**
   * cos(α/2) = ±√[(1 + cos(α)) / 2]
-
 * **Tangent:**
   * tan(α/2) = ±√[(1 - cos(α)) / (1 + cos(α))]
