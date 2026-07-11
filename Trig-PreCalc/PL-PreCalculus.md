@@ -19525,3 +19525,9 @@ Derived by substituting θ = α/2 into the double-angle formulas for sine square
 * Let α = θ and β = θ
 * sin(θ + θ) = sin(θ)cos(θ) + cos(θ)sin(θ)
 * sin(2θ) = 2sin(θ)cos(θ)
+### Double Angle Formula for Cosine (Version 1)
+* cos(2θ) = cos(θ + θ)
+* Using the sum formula cos(α + β) = cos(α)cos(β) - sin(α)sin(β):
+* Let α = θ and β = θ
+* cos(θ + θ) = cos(θ)cos(θ) - sin(θ)sin(θ)
+* cos(2θ) = cos²(θ) - sin²(θ)
