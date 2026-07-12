@@ -19575,3 +19575,4 @@ Derived by substituting θ = α/2 into the double-angle formulas for sine square
 * Simplify: tan²(α/2) = (1 - cos(α)) / (1 + cos(α))
 * Take the square root: tan(α/2) = ±√[(1 - cos(α)) / (1 + cos(α))]
 ## 2026-July-12 - How to Use the Double and Half Angle Formulas for Trigonometry (Precalculus - Trigonometry 28) :
+https://www.youtube.com/watch?v=Pf6p6lCs5I8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=103
