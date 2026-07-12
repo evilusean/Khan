@@ -19519,52 +19519,58 @@ Derived by substituting θ = α/2 into the double-angle formulas for sine square
   * cos(α/2) = ±√[(1 + cos(α)) / 2]
 * **Tangent:**
   * tan(α/2) = ±√[(1 - cos(α)) / (1 + cos(α))]
-### Double Angle Formula for Sine
+### Double Angle Formula for Sine Proof
 * sin(2θ) = sin(θ + θ)
 * Using the sum formula sin(α + β) = sin(α)cos(β) + cos(α)sin(β):
 * Let α = θ and β = θ
 * sin(θ + θ) = sin(θ)cos(θ) + cos(θ)sin(θ)
 * sin(2θ) = 2sin(θ)cos(θ)
-### Double Angle Formula for Cosine (Version 1)
+### Double Angle Formula for Cosine (Version 1) Proof
 * cos(2θ) = cos(θ + θ)
 * Using the sum formula cos(α + β) = cos(α)cos(β) - sin(α)sin(β):
 * Let α = θ and β = θ
 * cos(θ + θ) = cos(θ)cos(θ) - sin(θ)sin(θ)
 * cos(2θ) = cos²(θ) - sin²(θ)
-### Double Angle Formula for Cosine (Version 2)
+### Double Angle Formula for Cosine (Version 2) Proof
 * Start with: cos(2θ) = cos²(θ) - sin²(θ)
 * Using the Pythagorean identity: sin²(θ) = 1 - cos²(θ)
 * Substitute: cos(2θ) = cos²(θ) - (1 - cos²(θ))
 * Simplify: cos(2θ) = cos²(θ) - 1 + cos²(θ)
 * cos(2θ) = 2cos²(θ) - 1
-### Double Angle Formula for Cosine (Version 3)
+### Double Angle Formula for Cosine (Version 3) Proof
 * Start with: cos(2θ) = cos²(θ) - sin²(θ)
 * Using the Pythagorean identity: cos²(θ) = 1 - sin²(θ)
 * Substitute: cos(2θ) = (1 - sin²(θ)) - sin²(θ)
 * Simplify: cos(2θ) = 1 - 2sin²(θ)
-### Half-Angle Formula for Sine
+### Half-Angle Formula for Sine Proof
 * Start with: cos(2θ) = 1 - 2sin²(θ)
 * Rearrange to solve for sin²(θ):
 * 2sin²(θ) = 1 - cos(2θ)
 * sin²(θ) = (1 - cos(2θ)) / 2
 * Substitute θ = α/2:
 * sin²(α/2) = (1 - cos(α)) / 2
-### Half-Angle Formula for Cosine
+### Half-Angle Formula for Cosine Proof
 * Start with: cos(2θ) = 2cos²(θ) - 1
 * Rearrange to solve for cos²(θ):
 * 2cos²(θ) = 1 + cos(2θ)
 * cos²(θ) = (1 + cos(2θ)) / 2
 * Substitute θ = α/2:
 * cos²(α/2) = (1 + cos(α)) / 2
-### Double Angle Formula for Tangent
+### Double Angle Formula for Tangent Proof
 * tan(2θ) = tan(θ + θ)
 * Using the sum formula tan(α + β) = (tan(α) + tan(β)) / (1 - tan(α)tan(β))
 * Let α = θ and β = θ
 * tan(θ + θ) = (tan(θ) + tan(θ)) / (1 - tan(θ)tan(θ))
 * tan(2θ) = (2tan(θ)) / (1 - tan²(θ))
-### Identity for Tangent Squared
+### Identity for Tangent Squared Proof
 * Start with the definition: tan²(θ) = sin²(θ) / cos²(θ)
 * Substitute power-reduction identities: sin²(θ) = (1 - cos(2θ)) / 2 and cos²(θ) = (1 + cos(2θ)) / 2
 * tan²(θ) = [(1 - cos(2θ)) / 2] / [(1 + cos(2θ)) / 2]
 * Multiply the numerator and denominator by 2/2 to simplify
 * tan²(θ) = (1 - cos(2θ)) / (1 + cos(2θ))
+### Half-Angle Formula for Tangent Proof
+* Start with the identity: tan²(θ) = (1 - cos(2θ)) / (1 + cos(2θ))
+* Let θ = α/2
+* Substitute: tan²(α/2) = (1 - cos(2 * α/2)) / (1 + cos(2 * α/2))
+* Simplify: tan²(α/2) = (1 - cos(α)) / (1 + cos(α))
+* Take the square root: tan(α/2) = ±√[(1 - cos(α)) / (1 + cos(α))]
