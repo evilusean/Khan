@@ -19576,3 +19576,37 @@ Derived by substituting θ = α/2 into the double-angle formulas for sine square
 * Take the square root: tan(α/2) = ±√[(1 - cos(α)) / (1 + cos(α))]
 ## 2026-July-12 - How to Use the Double and Half Angle Formulas for Trigonometry (Precalculus - Trigonometry 28) :
 https://www.youtube.com/watch?v=Pf6p6lCs5I8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=103
+## Overview
+This lecture provides the formal mathematical derivations for double-angle and half-angle trigonometric formulas. These identities are essential for advanced calculus and are developed using sum/difference formulas and Pythagorean identities.
+
+## Double-Angle Formulas
+These are derived by setting angles equal to each other (e.g., θ + θ) within the standard sum formulas.
+
+* **Sine:** 
+    * Starts with sin(θ + θ).
+    * Results in sin(2θ) = 2sin(θ)cos(θ).
+* **Cosine:** 
+    * Starts with cos(θ + θ), yielding cos²(θ) - sin²(θ).
+    * Utilizing the Pythagorean identity (sin²(θ) + cos²(θ) = 1), two additional versions are derived:
+        * cos(2θ) = 2cos²(θ) - 1.
+        * cos(2θ) = 1 - 2sin²(θ).
+* **Tangent:** 
+    * Derived from the sum formula for tangent, tan(α + β).
+    * Results in tan(2θ) = (2tan(θ)) / (1 - tan²(θ)).
+
+## New Identities (Power Reduction)
+By manipulating the double-angle formulas for cosine, new identities for squared trigonometric functions are created to assist with integration and simplification.
+
+* sin²(θ) = (1 - cos(2θ)) / 2.
+* cos²(θ) = (1 + cos(2θ)) / 2.
+* tan²(θ) = (1 - cos(2θ)) / (1 + cos(2θ)).
+
+## Half-Angle Formulas
+These are derived by substituting θ = α/2 into the power-reduction identities above. Because square roots are involved, the sign (±) must be determined by the quadrant of the new angle, α/2.
+
+* sin(α/2) = ±√[(1 - cos(α)) / 2].
+* cos(α/2) = ±√[(1 + cos(α)) / 2].
+* tan(α/2) = ±√[(1 - cos(α)) / (1 + cos(α))].
+
+## Conclusion
+The derivation process stems from two primary pillars: sum/difference formulas and Pythagorean identities. Understanding these proofs is foundational for manipulating trigonometric expressions into more usable forms in higher-level mathematics.
