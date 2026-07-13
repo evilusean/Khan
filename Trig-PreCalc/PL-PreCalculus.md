@@ -19650,7 +19650,6 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 * Since 9π/8 = (9π/4) / 2, we can use the half-angle formula for tangent where α = 9π/4.
 * Alternatively, observe that 9π/8 = π + π/8.
 * Since tangent has a period of π, tan(π + π/8) = tan(π/8).
-
 #### Finding tan(π/8)
 * Use the half-angle formula: tan(α/2) = ±√[(1 - cos(α)) / (1 + cos(α))].
 * Let α/2 = π/8, so α = π/4.
@@ -19661,6 +19660,5 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 * Multiply by 2/2: tan(π/8) = √[(2 - √2) / (2 + √2)].
 * Rationalize the denominator by multiplying by (2 - √2)/(2 - √2):
 * tan(π/8) = √[(2 - √2)² / (4 - 2)] = (2 - √2) / √2 = √2 - 1.
-
 #### Final Result
 * tan(9π/8) = tan(π/8) = √2 - 1.
