@@ -19631,3 +19631,17 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 * sin(θ/2) = ±√[(1 - 2/√5) / 2] = ±√[(√5 - 2) / (2√5)]
 * cos(θ/2) = ±√[(1 + 2/√5) / 2] = ±√[(√5 + 2) / (2√5)]
 * tan(θ/2) = ±√[(1 - 2/√5) / (1 + 2/√5)] = ±√[(√5 - 2) / (√5 + 2)]
+### Solving cos(22.5°) using Half-Angle Formula
+
+#### Process
+* The half-angle formula for cosine is: cos(α/2) = ±√[(1 + cos(α)) / 2]
+* To find cos(22.5°), we identify that α/2 = 22.5°, which means α = 45°
+* Since 22.5° is in Quadrant I, the cosine value must be positive
+
+#### Calculation
+* cos(22.5°) = √[(1 + cos(45°)) / 2]
+* Substitute cos(45°) = √2/2:
+* cos(22.5°) = √[(1 + √2/2) / 2]
+* Multiply numerator and denominator by 2 to simplify the inner fraction:
+* cos(22.5°) = √[(2 + √2) / 4]
+* cos(22.5°) = √(2 + √2) / 2
