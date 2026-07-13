@@ -19643,3 +19643,24 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 * Multiply numerator and denominator by 2 to simplify the inner fraction:
 * cos(22.5°) = √[(2 + √2) / 4]
 * cos(22.5°) = √(2 + √2) / 2
+### Solving tan(9π/8)
+
+#### Identifying the Half-Angle
+* We want to find tan(9π/8).
+* Since 9π/8 = (9π/4) / 2, we can use the half-angle formula for tangent where α = 9π/4.
+* Alternatively, observe that 9π/8 = π + π/8.
+* Since tangent has a period of π, tan(π + π/8) = tan(π/8).
+
+#### Finding tan(π/8)
+* Use the half-angle formula: tan(α/2) = ±√[(1 - cos(α)) / (1 + cos(α))].
+* Let α/2 = π/8, so α = π/4.
+* tan(π/8) = √[(1 - cos(π/4)) / (1 + cos(π/4))].
+* Since π/8 is in Quadrant I, we take the positive root.
+* Substitute cos(π/4) = √2/2:
+* tan(π/8) = √[(1 - √2/2) / (1 + √2/2)].
+* Multiply by 2/2: tan(π/8) = √[(2 - √2) / (2 + √2)].
+* Rationalize the denominator by multiplying by (2 - √2)/(2 - √2):
+* tan(π/8) = √[(2 - √2)² / (4 - 2)] = (2 - √2) / √2 = √2 - 1.
+
+#### Final Result
+* tan(9π/8) = tan(π/8) = √2 - 1.
