@@ -19670,3 +19670,33 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 * Using the identity cos(2A) = cos²(A) - sin²(A), let A = 2θ.
 * Substituting A gives: cos(2 * 2θ) = cos²(2θ) - sin²(2θ).
 * Therefore, cos(4θ) = cos²(2θ) - sin²(2θ).
+### Proving cos²(2θ) - sin²(2θ) = cos(4θ)
+
+#### Process
+* Start with the known double-angle identity: cos(2A) = cos²(A) - sin²(A).
+* Let A = 2θ, which allows us to rewrite the identity as cos(2 * 2θ) = cos²(2θ) - sin²(2θ).
+* Simplify the left side of the equation to arrive at the identity: cos(4θ) = cos²(2θ) - sin²(2θ).
+### 1. Solving cos(2θ) + 6sin²(θ) = 4
+* Use identity: cos(2θ) = 1 - 2sin²(θ)
+* Substitute: (1 - 2sin²(θ)) + 6sin²(θ) = 4
+* Combine terms: 1 + 4sin²(θ) = 4
+* Subtract 1: 4sin²(θ) = 3
+* Divide by 4: sin²(θ) = 3/4
+* Take square root: sin(θ) = ±√3/2
+* Find angles in [0, 2π): θ = π/3, 2π/3, 4π/3, 5π/3
+### 2. Solving cos(2θ) = cos(θ)
+* Use identity: cos(2θ) = 2cos²(θ) - 1
+* Set equation: 2cos²(θ) - 1 = cos(θ)
+* Move terms: 2cos²(θ) - cos(θ) - 1 = 0
+* Substitution (u = cos(θ)): 2u² - u - 1 = 0
+* Factor: (2u + 1)(u - 1) = 0
+* Solve for u: u = -1/2 or u = 1
+* Back-substitute: cos(θ) = -1/2 or cos(θ) = 1
+* Find angles in [0, 2π): θ = 0, 2π/3, 4π/3
+### 3. Solving sin(2θ) = cos(θ)
+* Use identity: sin(2θ) = 2sin(θ)cos(θ)
+* Set equation: 2sin(θ)cos(θ) = cos(θ)
+* Move to one side: 2sin(θ)cos(θ) - cos(θ) = 0
+* Factor out cos(θ): cos(θ)(2sin(θ) - 1) = 0
+* Zero product property: cos(θ) = 0 or sin(θ) = 1/2
+* Find angles in [0, 2π): θ = π/6, π/2, 5π/6, 3π/2
