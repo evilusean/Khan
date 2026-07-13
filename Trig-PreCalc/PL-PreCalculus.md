@@ -19662,3 +19662,10 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 * tan(π/8) = √[(2 - √2)² / (4 - 2)] = (2 - √2) / √2 = √2 - 1.
 #### Final Result
 * tan(9π/8) = tan(π/8) = √2 - 1.
+### Proving cos²(2θ) - sin²(2θ) = cos(4θ)
+
+#### Process
+* The double-angle identity for cosine states that cos(2A) = cos²(A) - sin²(A).
+* Let A = 2θ.
+* Substitute A into the identity: cos(2 * 2θ) = cos²(2θ) - sin²(2θ).
+* Simplify the left side: cos(4θ) = cos²(2θ) - sin²(2θ).
