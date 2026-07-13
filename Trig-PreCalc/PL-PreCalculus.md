@@ -19700,3 +19700,4 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 * Factor out cos(θ): cos(θ)(2sin(θ) - 1) = 0
 * Zero product property: cos(θ) = 0 or sin(θ) = 1/2
 * Find angles in [0, 2π): θ = π/6, π/2, 5π/6, 3π/2
+## 2026-July-13 - How to Use Product to Sum and Sum to Product Formulas in Trig (Precalculus - Trigonometry 29) :
