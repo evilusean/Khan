@@ -19614,23 +19614,3 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 * sin(θ/2) = √[(1 - cos(θ)) / 2] = √[(1 - 3/5) / 2] = √[(2/5) / 2] = √(1/5) = √5/5
 * cos(θ/2) = √[(1 + cos(θ)) / 2] = √[(1 + 3/5) / 2] = √[(8/5) / 2] = √(4/5) = 2√5/5
 * tan(θ/2) = √[(1 - cos(θ)) / (1 + cos(θ))] = √[(1 - 3/5) / (1 + 3/5)] = √[(2/5) / (8/5)] = √(2/8) = √(1/4) = 1/2
-### Double and Half-Angle Calculations for csc(θ) = -√5
-
-#### Given Information
-* csc(θ) = -√5
-* Since csc(θ) = r/y, we have r = √5 and y = -1
-* Using x² + y² = r²: x² + (-1)² = (√5)² => x² + 1 = 5 => x² = 4 => x = ±2
-* Assuming θ is in Quadrant IV (x = 2, y = -1):
-    * sin(θ) = -1/√5 = -√5/5
-    * cos(θ) = 2/√5 = 2√5/5
-    * tan(θ) = -1/2
-
-#### Double-Angle Calculations
-* sin(2θ) = 2sin(θ)cos(θ) = 2(-1/√5)(2/√5) = 2(-2/5) = -4/5
-* cos(2θ) = cos²(θ) - sin²(θ) = (2/√5)² - (-1/√5)² = 4/5 - 1/5 = 3/5
-* tan(2θ) = (2tan(θ)) / (1 - tan²(θ)) = (2 * -1/2) / (1 - (-1/2)²) = -1 / (1 - 1/4) = -1 / (3/4) = -4/3
-
-#### Half-Angle Calculations
-* sin(θ/2) = ±√[(1 - 2/√5) / 2] = ±√[(√5 - 2) / (2√5)]
-* cos(θ/2) = ±√[(1 + 2/√5) / 2] = ±√[(√5 + 2) / (2√5)]
-* tan(θ/2) = ±√[(1 - 2/√5) / (1 + 2/√5)] = ±√[(√5 - 2) / (√5 + 2)]
