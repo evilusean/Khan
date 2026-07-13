@@ -19603,4 +19603,16 @@ These are derived by substituting θ = α/2 into the power-reduction identities 
 * tan(α/2) = ±√[(1 - cos(α)) / (1 + cos(α))].
 ### Conclusion
 The derivation process stems from two primary pillars: sum/difference formulas and Pythagorean identities. Understanding these proofs is foundational for manipulating trigonometric expressions into more usable forms in higher-level mathematics
+### Given Information
+* cos(θ) = 3/5
+* Since θ is in Quadrant I (0 < θ < π/2), sin(θ) = 4/5 and tan(θ) = 4/3
 
+### Double-Angle Calculations
+* sin(2θ) = 2sin(θ)cos(θ) = 2(4/5)(3/5) = 24/25
+* cos(2θ) = cos²(θ) - sin²(θ) = (3/5)² - (4/5)² = 9/25 - 16/25 = -7/25
+* tan(2θ) = (2tan(θ)) / (1 - tan²(θ)) = (2 * 4/3) / (1 - (4/3)²) = (8/3) / (1 - 16/9) = (8/3) / (-7/9) = (8/3) * (-9/7) = -24/7
+
+### Half-Angle Calculations
+* sin(θ/2) = √[(1 - cos(θ)) / 2] = √[(1 - 3/5) / 2] = √[(2/5) / 2] = √(1/5) = √5/5
+* cos(θ/2) = √[(1 + cos(θ)) / 2] = √[(1 + 3/5) / 2] = √[(8/5) / 2] = √(4/5) = 2√5/5
+* tan(θ/2) = √[(1 - cos(θ)) / (1 + cos(θ))] = √[(1 - 3/5) / (1 + 3/5)] = √[(2/5) / (8/5)] = √(2/8) = √(1/4) = 1/2
