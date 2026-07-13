@@ -1599,6 +1599,7 @@ These identities are essential for advanced trigonometry and calculus applicatio
 5.  **Simplify:** Perform any necessary algebraic simplification, such as finding a common denominator or rationalizing the denominator.
 ### How to Use the Double and Half Angle Formulas for Trigonometry (Precalculus - Trigonometry 28) :
 https://www.youtube.com/watch?v=Pf6p6lCs5I8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=103
+- I mainly just need to memorize the identities. Fortunately, past Sean created this app so I can learn passively, https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz - The biggest problem I had is cosine, because it has 3 identities - will definitely need to review before doing calc
 #### Overview
 This lecture provides the formal mathematical derivations for double-angle and half-angle trigonometric formulas. These identities are essential for advanced calculus and are developed using sum/difference formulas and Pythagorean identities.
 #### Double-Angle Formulas
