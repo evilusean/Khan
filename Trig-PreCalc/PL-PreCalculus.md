@@ -19663,9 +19663,10 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 #### Final Result
 * tan(9π/8) = tan(π/8) = √2 - 1.
 ### Proving cos²(2θ) - sin²(2θ) = cos(4θ)
-
 #### Process
-* The double-angle identity for cosine states that cos(2A) = cos²(A) - sin²(A).
-* Let A = 2θ.
-* Substitute A into the identity: cos(2 * 2θ) = cos²(2θ) - sin²(2θ).
-* Simplify the left side: cos(4θ) = cos²(2θ) - sin²(2θ).
+* Recognize the expression as a difference of squares in the form a² - b² = (a - b)(a + b), where a = cos(2θ) and b = sin(2θ).
+* Factor the expression: (cos(2θ) - sin(2θ))(cos(2θ) + sin(2θ)).
+* Wait, looking at the image provided, Professor Leonard uses the double-angle identity directly for the first one.
+* Using the identity cos(2A) = cos²(A) - sin²(A), let A = 2θ.
+* Substituting A gives: cos(2 * 2θ) = cos²(2θ) - sin²(2θ).
+* Therefore, cos(4θ) = cos²(2θ) - sin²(2θ).
