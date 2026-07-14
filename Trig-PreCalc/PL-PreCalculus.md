@@ -19792,3 +19792,104 @@ Step 5: Solve the final expression
 cos(285°)cos(195°) = 1/2 [0 + (-1/2)]
 cos(285°)cos(195°) = 1/2 [-1/2]
 cos(285°)cos(195°) = -1/4
+### sin(4θ)cos(6θ)
+To express this product as a sum, use the identity:
+sin(α)cos(β) = 1/2 [sin(α + β) + sin(α - β)]
+
+Step 1: Set the angles
+α = 4θ
+β = 6θ
+
+Step 2: Apply the product-to-sum formula
+sin(4θ)cos(6θ) = 1/2 [sin(4θ + 6θ) + sin(4θ - 6θ)]
+
+Step 3: Simplify the arguments
+sin(4θ)cos(6θ) = 1/2 [sin(10θ) + sin(-2θ)]
+
+Step 4: Use the odd function identity (sin(-θ) = -sin(θ))
+sin(4θ)cos(6θ) = 1/2 [sin(10θ) - sin(2θ)]
+### cos(3θ)cos(4θ)
+
+To express this product as a sum, use the identity:
+cos(α)cos(β) = 1/2 [cos(α - β) + cos(α + β)]
+
+Step 1: Set the angles
+α = 3θ
+β = 4θ
+
+Step 2: Apply the product-to-sum formula
+cos(3θ)cos(4θ) = 1/2 [cos(3θ - 4θ) + cos(3θ + 4θ)]
+
+Step 3: Simplify the arguments
+cos(3θ)cos(4θ) = 1/2 [cos(-θ) + cos(7θ)]
+
+Step 4: Use the even function identity (cos(-θ) = cos(θ))
+cos(3θ)cos(4θ) = 1/2 [cos(θ) + cos(7θ)]
+### cos(2θ) + cos(4θ)
+To express this sum as a product, use the identity:
+cos(α) + cos(β) = 2cos((α + β)/2)cos((α - β)/2)
+
+Step 1: Set the angles
+α = 2θ
+β = 4θ
+
+Step 2: Apply the sum-to-product formula
+2cos((2θ + 4θ)/2)cos((2θ - 4θ)/2)
+
+Step 3: Simplify the arguments
+2cos(6θ/2)cos(-2θ/2) = 2cos(3θ)cos(-θ)
+
+Step 4: Use the even function identity (cos(-θ) = cos(θ))
+2cos(3θ)cos(θ)
+### cos(θ/2) - cos(3θ/2)
+To express this difference as a product, use the identity:
+cos(α) - cos(β) = -2sin((α + β)/2)sin((α - β)/2)
+
+Step 1: Set the angles
+α = θ/2
+β = 3θ/2
+
+Step 2: Apply the sum-to-product formula
+-2sin((θ/2 + 3θ/2)/2)sin((θ/2 - 3θ/2)/2)
+
+Step 3: Simplify the arguments
+-2sin((4θ/2)/2)sin((-2θ/2)/2) = -2sin(2θ/2)sin(-θ/2) = -2sin(θ)sin(-θ/2)
+
+Step 4: Use the odd function identity (sin(-θ) = -sin(θ))
+-2sin(θ)(-sin(θ/2)) = 2sin(θ)sin(θ/2)
+### sin(θ/2) - sin(3θ/2)
+To express this difference as a product, use the identity:
+sin(α) - sin(β) = 2sin((α - β)/2)cos((α + β)/2)
+
+Step 1: Set the angles
+α = θ/2
+β = 3θ/2
+
+Step 2: Apply the sum-to-product formula
+2sin((θ/2 - 3θ/2)/2)cos((θ/2 + 3θ/2)/2)
+
+Step 3: Simplify the arguments
+2sin((-2θ/2)/2)cos((4θ/2)/2) = 2sin(-θ/2)cos(2θ/2) = 2sin(-θ/2)cos(θ)
+
+Step 4: Use the odd function identity (sin(-θ) = -sin(θ))
+-2sin(θ/2)cos(θ)
+### Solving sin(2θ) + sin(4θ) = 0
+*   **Previous steps:**
+    2sin(3θ)cos(-θ) = 0
+*   **Step 1: Simplify using even/odd identities**
+    Since cosine is an even function, cos(-θ) = cos(θ).
+    2sin(3θ)cos(θ) = 0
+*   **Step 2: Apply the Zero Product Property**
+    Set each factor equal to zero:
+    sin(3θ) = 0  or  cos(θ) = 0
+*   **Step 3: Solve cos(θ) = 0**
+    On the interval [0, 2π), the angles where the x-coordinate is zero are:
+    θ = π/2, 3π/2
+*   **Step 4: Solve sin(3θ) = 0**
+    Use substitution: let α = 3θ, so sin(α) = 0.
+    The angles where the y-coordinate is zero are 0, π, 2π, 3π, 4π, 5π (continuing until we cover the period for 3θ).
+    α = 0, π, 2π, 3π, 4π, 5π
+    Since α = 3θ, divide by 3:
+    θ = 0, π/3, 2π/3, π, 4π/3, 5π/3
+*   **Final Solutions:**
+    θ = 0, π/3, π/2, 2π/3, π, 4π/3, 3π/2, 5π/3

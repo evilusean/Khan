@@ -1627,3 +1627,4 @@ These are derived by substituting θ = α/2 into the power-reduction identities 
 * tan(α/2) = ±√[(1 - cos(α)) / (1 + cos(α))].
 #### Conclusion
 The derivation process stems from two primary pillars: sum/difference formulas and Pythagorean identities. Understanding these proofs is foundational for manipulating trigonometric expressions into more usable forms in higher-level mathematics
+volving subtraction (e.g., $\sin(\alpha) - \sin(\beta)$), maintain the specific order of angles ($\alpha$ then $\beta$) as specified in the formula.
