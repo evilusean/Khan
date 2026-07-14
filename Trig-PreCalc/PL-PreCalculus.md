@@ -19710,7 +19710,6 @@ These identities convert a product of two trigonometric functions with different
 *   **sin(α)cos(β) = 1/2 [sin(α + β) + sin(α - β)]**
 #### Sum-to-Product Formulas
 These identities convert a sum or difference of two trigonometric functions into a product.
-
 *   **sin(α) + sin(β) = 2sin((α + β)/2)cos((α - β)/2)**
 *   **sin(α) - sin(β) = 2sin((α - β)/2)cos((α + β)/2)**
 *   **cos(α) + cos(β) = 2cos((α + β)/2)cos((α - β)/2)**
@@ -19721,3 +19720,23 @@ These identities convert a sum or difference of two trigonometric functions into
 *   **Solving Equations:** Converting sums to products enables the use of the **Zero Product Property** to solve trigonometric equations, which is otherwise difficult or impossible with additive terms.
 *   **Even/Odd Identities:** Remember that $\cos(-\theta) = \cos(\theta)$ (even function) and $\sin(-\theta) = -\sin(\theta)$ (odd function) when simplifying arguments after applying these formulas.
 *   **Order Matters:** For formulas involving subtraction (e.g., $\sin(\alpha) - \sin(\beta)$), maintain the specific order of angles ($\alpha$ then $\beta$) as specified in the formula.
+### Proving Product-to-Sum Formulas for Cosine and Sine
+
+#### Addition Proof (Product of Cosines)
+* Start with the sum and difference formulas for cosine:
+    * cos(α - β) = cos(α)cos(β) + sin(α)sin(β)
+    * cos(α + β) = cos(α)cos(β) - sin(α)sin(β)
+* Add the two equations together:
+    * cos(α - β) + cos(α + β) = 2cos(α)cos(β)
+* Divide by 2 to isolate the product:
+    * cos(α)cos(β) = 1/2 [cos(α - β) + cos(α + β)]
+
+#### Subtraction Proof (Product of Sines)
+* Use the same sum and difference formulas for cosine:
+    * cos(α - β) = cos(α)cos(β) + sin(α)sin(β)
+    * cos(α + β) = cos(α)cos(β) - sin(α)sin(β)
+* Subtract the second equation from the first:
+    * cos(α - β) - cos(α + β) = (cos(α)cos(β) - cos(α)cos(β)) + (sin(α)sin(β) - (-sin(α)sin(β)))
+    * cos(α - β) - cos(α + β) = 2sin(α)sin(β)
+* Divide by 2 to isolate the product:
+    * sin(α)sin(β) = 1/2 [cos(α - β) - cos(α + β)]
