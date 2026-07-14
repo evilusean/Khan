@@ -19739,7 +19739,6 @@ These identities convert a sum or difference of two trigonometric functions into
 * Divide by 2 to isolate the product:
     * sin(α)sin(β) = 1/2 [cos(α - β) - cos(α + β)]
 ### Proving Product-to-Sum Formulas for Sine and Cosine
-
 #### Addition Proof (Product of Sine and Cosine)
 * Start with the sum and difference formulas for sine:
     * sin(α + β) = sin(α)cos(β) + cos(α)sin(β)
