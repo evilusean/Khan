@@ -19748,7 +19748,6 @@ These identities convert a sum or difference of two trigonometric functions into
 * Divide by 2 to isolate the product:
     * sin(α)cos(β) = 1/2 [sin(α + β) + sin(α - β)]
 ### sin(285°)sin(75°)
-
 To solve this product of sines, we use the identity:
 sin(α)sin(β) = 1/2 [cos(α - β) - cos(α + β)]
 
@@ -19770,3 +19769,26 @@ Step 5: Solve the final expression
 sin(285°)sin(75°) = 1/2 [-√3/2 - 1]
 sin(285°)sin(75°) = -√3/4 - 1/2
 sin(285°)sin(75°) = (-√3 - 2) / 4
+
+### cos(285°)cos(195°)
+To solve this product of cosines, we use the identity:
+cos(α)cos(β) = 1/2 [cos(α - β) + cos(α + β)]
+
+Step 1: Set the angles
+α = 285°
+β = 195°
+
+Step 2: Apply the product-to-sum formula
+cos(285°)cos(195°) = 1/2 [cos(285° - 195°) + cos(285° + 195°)]
+
+Step 3: Simplify the resulting angles
+cos(285°)cos(195°) = 1/2 [cos(90°) + cos(480°)]
+
+Step 4: Use unit circle values to evaluate
+cos(90°) = 0
+cos(480°) = cos(480° - 360°) = cos(120°) = -1/2
+
+Step 5: Solve the final expression
+cos(285°)cos(195°) = 1/2 [0 + (-1/2)]
+cos(285°)cos(195°) = 1/2 [-1/2]
+cos(285°)cos(195°) = -1/4
