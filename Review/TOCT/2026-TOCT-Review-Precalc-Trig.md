@@ -1630,6 +1630,8 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 volving subtraction (e.g., $\sin(\alpha) - \sin(\beta)$), maintain the specific order of angles ($\alpha$ then $\beta$) as specified in the formula.
 ### How to Use Product to Sum and Sum to Product Formulas in Trig (Precalculus - Trigonometry 29) :
 https://www.youtube.com/watch?v=tHdcvWNNXZE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=104
+
+- I'm definitely going to need to review these before calc, I didn't know any of these,
 #### Product-to-Sum and Sum-to-Product Formulas
 #### Product-to-Sum Formulas
 These identities convert a product of two trigonometric functions with different angles into a sum or difference.
