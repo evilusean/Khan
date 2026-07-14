@@ -1628,3 +1628,23 @@ These are derived by substituting θ = α/2 into the power-reduction identities 
 #### Conclusion
 The derivation process stems from two primary pillars: sum/difference formulas and Pythagorean identities. Understanding these proofs is foundational for manipulating trigonometric expressions into more usable forms in higher-level mathematics
 volving subtraction (e.g., $\sin(\alpha) - \sin(\beta)$), maintain the specific order of angles ($\alpha$ then $\beta$) as specified in the formula.
+### How to Use Product to Sum and Sum to Product Formulas in Trig (Precalculus - Trigonometry 29) :
+https://www.youtube.com/watch?v=tHdcvWNNXZE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=104
+#### Product-to-Sum and Sum-to-Product Formulas
+#### Product-to-Sum Formulas
+These identities convert a product of two trigonometric functions with different angles into a sum or difference.
+*   **cos(α)cos(β) = 1/2 [cos(α - β) + cos(α + β)]**
+*   **sin(α)sin(β) = 1/2 [cos(α - β) - cos(α + β)]**
+*   **sin(α)cos(β) = 1/2 [sin(α + β) + sin(α - β)]**
+#### Sum-to-Product Formulas
+These identities convert a sum or difference of two trigonometric functions into a product.
+*   **sin(α) + sin(β) = 2sin((α + β)/2)cos((α - β)/2)**
+*   **sin(α) - sin(β) = 2sin((α - β)/2)cos((α + β)/2)**
+*   **cos(α) + cos(β) = 2cos((α + β)/2)cos((α - β)/2)**
+*   **cos(α) - cos(β) = -2sin((α + β)/2)sin((α - β)/2)**
+#### Usage Notes
+*   **Exact Values:** These formulas allow for the calculation of exact values for trigonometric expressions involving angles not on the standard unit circle.
+*   **Calculus/Simplification:** Converting products to sums is often required in calculus for easier integration or differentiation.
+*   **Solving Equations:** Converting sums to products enables the use of the **Zero Product Property** to solve trigonometric equations, which is otherwise difficult or impossible with additive terms.
+*   **Even/Odd Identities:** Remember that $\cos(-\theta) = \cos(\theta)$ (even function) and $\sin(-\theta) = -\sin(\theta)$ (odd function) when simplifying arguments after applying these formulas.
+*   **Order Matters:** For formulas in
