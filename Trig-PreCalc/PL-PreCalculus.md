@@ -19703,14 +19703,11 @@ The derivation process stems from two primary pillars: sum/difference formulas a
 ## 2026-July-13 - How to Use Product to Sum and Sum to Product Formulas in Trig (Precalculus - Trigonometry 29) :
 https://www.youtube.com/watch?v=tHdcvWNNXZE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=104
 ### Product-to-Sum and Sum-to-Product Formulas
-
 #### Product-to-Sum Formulas
 These identities convert a product of two trigonometric functions with different angles into a sum or difference.
-
 *   **cos(α)cos(β) = 1/2 [cos(α - β) + cos(α + β)]**
 *   **sin(α)sin(β) = 1/2 [cos(α - β) - cos(α + β)]**
 *   **sin(α)cos(β) = 1/2 [sin(α + β) + sin(α - β)]**
-
 #### Sum-to-Product Formulas
 These identities convert a sum or difference of two trigonometric functions into a product.
 
@@ -19718,7 +19715,6 @@ These identities convert a sum or difference of two trigonometric functions into
 *   **sin(α) - sin(β) = 2sin((α - β)/2)cos((α + β)/2)**
 *   **cos(α) + cos(β) = 2cos((α + β)/2)cos((α - β)/2)**
 *   **cos(α) - cos(β) = -2sin((α + β)/2)sin((α - β)/2)**
-
 #### Usage Notes
 *   **Exact Values:** These formulas allow for the calculation of exact values for trigonometric expressions involving angles not on the standard unit circle.
 *   **Calculus/Simplification:** Converting products to sums is often required in calculus for easier integration or differentiation.
