@@ -19721,7 +19721,6 @@ These identities convert a sum or difference of two trigonometric functions into
 *   **Even/Odd Identities:** Remember that $\cos(-\theta) = \cos(\theta)$ (even function) and $\sin(-\theta) = -\sin(\theta)$ (odd function) when simplifying arguments after applying these formulas.
 *   **Order Matters:** For formulas involving subtraction (e.g., $\sin(\alpha) - \sin(\beta)$), maintain the specific order of angles ($\alpha$ then $\beta$) as specified in the formula.
 ### Proving Product-to-Sum Formulas for Cosine and Sine
-
 #### Addition Proof (Product of Cosines)
 * Start with the sum and difference formulas for cosine:
     * cos(α - β) = cos(α)cos(β) + sin(α)sin(β)
@@ -19730,7 +19729,6 @@ These identities convert a sum or difference of two trigonometric functions into
     * cos(α - β) + cos(α + β) = 2cos(α)cos(β)
 * Divide by 2 to isolate the product:
     * cos(α)cos(β) = 1/2 [cos(α - β) + cos(α + β)]
-
 #### Subtraction Proof (Product of Sines)
 * Use the same sum and difference formulas for cosine:
     * cos(α - β) = cos(α)cos(β) + sin(α)sin(β)
