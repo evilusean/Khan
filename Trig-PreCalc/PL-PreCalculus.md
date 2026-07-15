@@ -19910,12 +19910,10 @@ https://www.youtube.com/watch?v=Sy_ZCtD2tWo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   **Cosecant (csc θ)** = Hypotenuse / Opposite (Reciprocal of sine)
     *   **Secant (sec θ)** = Hypotenuse / Adjacent (Reciprocal of cosine)
     *   **Cotangent (cot θ)** = Adjacent / Opposite (Reciprocal of tangent)
-
 ### Pythagorean Theorem
 *   Used to find missing sides when two are known.
 *   **Formula**: (leg)² + (leg)² = (hypotenuse)².
 *   Always keep the hypotenuse isolated on one side of the equation when calculating.
-
 ### Cofunctions and Complementary Angles
 *   **Complementary Angles**: In a right triangle, the two non-right angles always add up to 90° (complementary).
 *   **Cofunction Identity**: Cofunctions of complementary angles are equal.
