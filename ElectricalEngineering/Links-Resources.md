@@ -103,6 +103,7 @@ https://www.youtube.com/watch?v=y4JM71TeGlY
 The Scariest Chart In Electrical Engineering (Smith Chart) :
 https://www.youtube.com/watch?v=GK2pZ_oVU1o
 https://en.wikipedia.org/wiki/Smith_chart
+https://www.scribd.com/doc/120470816/Smith-Chart-from-Black-Magic-Design
 
 Engineering Degrees Ranked By Difficulty/Pay (Tier List - 'Computer Engineering' = C Tier Highest ROI/easiest - 'EE' = B Tier (harder, less pay))
 https://www.youtube.com/watch?v=DAK_UT894sc
