@@ -19895,3 +19895,30 @@ Step 4: Use the odd function identity (sin(-θ) = -sin(θ))
     θ = 0, π/3, π/2, 2π/3, π, 4π/3, 3π/2, 5π/3
 ## 2026-July-15 - Introduction to Right Triangle Trigonometry (Precalculus - Trigonometry 30) :
 https://www.youtube.com/watch?v=Sy_ZCtD2tWo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=105
+### Core Concepts
+*   **Transition from Unit Circle to Triangles**: Previously, trigonometric functions (sine, cosine, tangent) were linked to coordinates (x, y) on a unit circle. In right triangle trigonometry, we focus on the relationship between an angle and two sides of a triangle.
+*   **Side Identification**:
+    *   **Hypotenuse**: Always the longest side, opposite the 90° angle.
+    *   **Reference Angle**: The specific angle being studied.
+    *   **Opposite Side**: The side directly across from the reference angle.
+    *   **Adjacent Side**: The side next to the reference angle (that is not the hypotenuse).
+*   **SOH CAH TOA**: A mnemonic to remember the fundamental ratios:
+    *   **Sine (sin θ)** = Opposite / Hypotenuse
+    *   **Cosine (cos θ)** = Adjacent / Hypotenuse
+    *   **Tangent (tan θ)** = Opposite / Adjacent
+*   **Reciprocal Functions**:
+    *   **Cosecant (csc θ)** = Hypotenuse / Opposite (Reciprocal of sine)
+    *   **Secant (sec θ)** = Hypotenuse / Adjacent (Reciprocal of cosine)
+    *   **Cotangent (cot θ)** = Adjacent / Opposite (Reciprocal of tangent)
+
+### Pythagorean Theorem
+*   Used to find missing sides when two are known.
+*   **Formula**: (leg)² + (leg)² = (hypotenuse)².
+*   Always keep the hypotenuse isolated on one side of the equation when calculating.
+
+### Cofunctions and Complementary Angles
+*   **Complementary Angles**: In a right triangle, the two non-right angles always add up to 90° (complementary).
+*   **Cofunction Identity**: Cofunctions of complementary angles are equal.
+    *   sin(θ) = cos(90° - θ)
+    *   tan(θ) = cot(90° - θ)
+    *   sec(θ) = csc(90° - θ)
