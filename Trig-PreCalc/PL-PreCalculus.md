@@ -19922,7 +19922,6 @@ https://www.youtube.com/watch?v=Sy_ZCtD2tWo&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     *   sec(θ) = csc(90° - θ)
 ### Complementary Angles
 In a right triangle, the two non-right angles are complementary, meaning they add up to 90 degrees. Given A + B = 90 degrees, the trigonometric functions of these angles exhibit the following relationships:
-
 *   sin(B) = b/c = cos(A)
 *   cos(B) = a/c = sin(A)
 *   tan(B) = b/a = cot(A)
