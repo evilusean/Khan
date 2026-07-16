@@ -19930,11 +19930,12 @@ In a right triangle, the two non-right angles are complementary, meaning they ad
 *   sec(B) = c/a = csc(A)
 ### Cofunction Identities
 Cofunction identities relate trigonometric functions to their cofunctions for complementary angles.
-
 *   sin(30°) = cos(90° - 30°) = cos(60°)
 *   tan(50°) = cot(90° - 50°) = cot(40°)
 *   sec(5°) = csc(90° - 5°) = csc(85°)
-
 For the expression sin(38°) - cos(52°):
 *   Since 38° + 52° = 90°, cos(52°) = sin(38°).
 *   Therefore, sin(38°) - sin(38°) = 0.
+* tan 20° - (cos 70° / cos 20°) = tan 20° - (sin(90° - 70°) / cos 20°) = tan 20° - (sin 20° / cos 20°) = tan 20° - tan 20° = 0
+* Note: tan θ = sin θ / cos θ
+* 
