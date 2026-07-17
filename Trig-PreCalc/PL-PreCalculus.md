@@ -19950,3 +19950,5 @@ For the expression sin(38°) - cos(52°):
 * Using the cofunction identity csc(θ) = sec(90° - θ), we have csc(85°) = sec(90° - 85°) = sec(5°).
 * Substituting this into our expression gives: sec²(5°) - sec²(5°)
 * The final result is 0.
+## 2026-July-16 - Finding Sides and Angles with Right Triangle Trigonometry (Precalculus - Trigonometry 31) :
+
