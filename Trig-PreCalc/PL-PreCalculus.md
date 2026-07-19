@@ -20002,22 +20002,18 @@ To find the length of the hypotenuse 'c' in the right-angled triangle, we use th
     c ≈ 4 / 0.9848
     c ≈ 4.06
 ### Solving for the Hypotenuse C, Angle A, and Angle B
-
 To solve this right triangle, we start by identifying the sides relative to the unknown angle A. The side with length 5 is opposite to angle A, and the side with length 3 is adjacent to angle A.
-
 *   **Label the Hypotenuse and solve with the Pythagorean Theorem**: 
     The hypotenuse, labeled C, is opposite the right angle. Using the Pythagorean theorem $a^2 + b^2 = c^2$:
     $3^2 + 5^2 = C^2$
     $9 + 25 = C^2$
     $34 = C^2$
     $C = \sqrt{34} \approx 5.83$
-
 *   **Find Angle A using tangent and inverse tangent**:
     The tangent ratio ($\tan$) relates an angle to the ratio of its opposite and adjacent sides. With the opposite side of 5 and the adjacent side of 3:
     $\tan(A) = 5 / 3$
     $\tan(A) \approx 1.6667$
     $A = \tan^{-1}(1.6667) \approx 59\degree$
-
 *   **Find the remaining angle B**:
     Since the interior angles of a triangle sum to 180 degrees and the right angle occupies 90 degrees, the two acute angles must be complementary (summing to 90 degrees):
     $B = 90\degree - 59\degree$
