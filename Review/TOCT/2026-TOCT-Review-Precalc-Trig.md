@@ -1650,3 +1650,22 @@ These identities convert a sum or difference of two trigonometric functions into
 *   **Solving Equations:** Converting sums to products enables the use of the **Zero Product Property** to solve trigonometric equations, which is otherwise difficult or impossible with additive terms.
 *   **Even/Odd Identities:** Remember that $\cos(-\theta) = \cos(\theta)$ (even function) and $\sin(-\theta) = -\sin(\theta)$ (odd function) when simplifying arguments after applying these formulas.
 *   **Order Matters:** For formulas in
+### Cofunctions and Complementary Angles
+#### Complementary Angles
+In a right triangle, the two non-right angles are complementary, meaning they add up to 90 degrees. Given A + B = 90 degrees, the trigonometric functions of these angles exhibit the following relationships:
+*   sin(B) = b/c = cos(A)
+*   cos(B) = a/c = sin(A)
+*   tan(B) = b/a = cot(A)
+*   cot(B) = a/b = tan(A)
+*   csc(B) = c/b = sec(A)
+*   sec(B) = c/a = csc(A)
+#### Cofunction Identities
+Cofunction identities relate trigonometric functions to their cofunctions for complementary angles.
+*   sin(30°) = cos(90° - 30°) = cos(60°)
+*   tan(50°) = cot(90° - 50°) = cot(40°)
+*   sec(5°) = csc(90° - 5°) = csc(85°)
+For the expression sin(38°) - cos(52°):
+*   Since 38° + 52° = 90°, cos(52°) = sin(38°).
+*   Therefore, sin(38°) - sin(38°) = 0.
+* tan 20° - (cos 70° / cos 20°) = tan 20° - (sin(90° - 70°) / cos 20°) = tan 20° - (sin 20° / cos 20°) = tan 20° - tan 20° = 0
+* Note: tan θ = sin θ / cos θ
