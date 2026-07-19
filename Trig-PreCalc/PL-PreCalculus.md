@@ -20018,3 +20018,24 @@ To solve this right triangle, we start by identifying the sides relative to the 
     Since the interior angles of a triangle sum to 180 degrees and the right angle occupies 90 degrees, the two acute angles must be complementary (summing to 90 degrees):
     $B = 90\degree - 59\degree$
     $B = 31\degree$
+### Solving for Side b, Angle A, and Angle B
+
+In this right-angled triangle, we are given a side of 4 and a hypotenuse of 6. We need to determine the missing side length b and the measures of angles A and B.
+
+*   **Label the Hypotenuse and solve with the Pythagorean Theorem**: 
+    The hypotenuse is the side opposite the right angle, which has a length of 6. We use the Pythagorean theorem $a^2 + b^2 = c^2$ to solve for side b:
+    $4^2 + b^2 = 6^2$
+    $16 + b^2 = 36$
+    $b^2 = 20$
+    $b = \sqrt{20} = 2\sqrt{5} \approx 4.47$
+
+*   **Find Angle A using sine and inverse sine**:
+    The sine ratio ($\sin$) is opposite divided by hypotenuse. Relative to angle A, the side of 4 is the opposite side and 6 is the hypotenuse:
+    $\sin(A) = 4 / 6$
+    $\sin(A) = 2/3 \approx 0.6667$
+    $A = \sin^{-1}(0.6667) \approx 41.8\degree$
+
+*   **Find the remaining angle B**:
+    Since the interior angles of a triangle sum to 180 degrees and the right angle occupies 90 degrees, the two acute angles must sum to 90 degrees:
+    $B = 90\degree - 41.8\degree$
+    $B = 48.2\degree$
