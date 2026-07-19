@@ -20036,22 +20036,18 @@ In this right-angled triangle, we are given a side of 4 and a hypotenuse of 6. W
     $B = 90\degree - 41.8\degree$
     $B = 48.2\degree$
 ### Determining the Height of a Volcano
-
 In this real-world application, we want to calculate the height (h) of a volcano. We are given an angle of elevation of 85.4° and a horizontal distance (base) from the observer to the point directly below the peak of 80 feet.
-
 *   **Label the sides**: 
     The side adjacent to the 85.4° angle is the horizontal base of 80 feet. The side opposite the angle is the height of the volcano (h). The hypotenuse is the line of sight to the peak, which we do not need for this specific calculation.
-
 *   **Select the trigonometric ratio**:
     Since we are working with the opposite side (h) and the adjacent side (80), we use the tangent function (TOA):
     $\tan(\theta) = \text{opposite} / \text{adjacent}$
-
 *   **Set up the equation**:
     $\tan(85.4\degree) = h / 80$
-
 *   **Solve for the height (h)**:
     Multiply both sides by 80 to isolate h:
     $80 \cdot \tan(85.4\degree) = h$
     $h = 80 \cdot \tan(85.4\degree)$
     $h \approx 80 \cdot 12.339$
     $h \approx 987.12 \text{ feet}$
+## 2026-July-19 - How to Use the Law of Sines in Trigonometry (Precalculus - Trigonometry 32) :
