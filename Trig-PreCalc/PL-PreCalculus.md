@@ -19979,9 +19979,7 @@ The fundamental strategy for solving right triangles involves using trigonometry
 *   **Cosine (CAH)**: $\cos(\theta) = \frac{\text{Adjacent}}{\text{Hypotenuse}}$
 *   **Tangent (TOA)**: $\tan(\theta) = \frac{\text{Opposite}}{\text{Adjacent}}$
 ### Solving for Side 'b' with an 80-degree Angle
-
 To find the length of the adjacent side (b) in a right-angled triangle where the angle is 80 degrees and the opposite side is 4:
-
 *   **Identify the relevant trigonometric ratio**: Since we are working with the side opposite the angle and the side adjacent to the angle, we use the tangent function (TOA), which is defined as:
     tangent = opposite / adjacent.
 *   **Set up the equation**: Based on the triangle provided, the angle is 80 degrees, the opposite side is 4, and the adjacent side is b.
