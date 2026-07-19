@@ -19989,3 +19989,17 @@ To find the length of the adjacent side (b) in a right-angled triangle where the
     b = 4 / tan 80
 *   **Calculate the final value**: Using the tangent of 80 degrees, the calculation results in:
     b ≈ 0.71
+#### Solving for the Hypotenuse 'c'
+
+To find the length of the hypotenuse 'c' in the right-angled triangle, we use the sine function based on the 80-degree angle and the opposite side of 4.
+
+*   **Identify the relevant trigonometric ratio**: We are working with the side opposite the 80-degree angle and the hypotenuse, so we use the sine function (SOH), which is defined as:
+    sine = opposite / hypotenuse.
+*   **Set up the equation**: With the angle of 80 degrees and the opposite side of 4:
+    sin 80 = 4 / c
+*   **Isolate the variable 'c'**: To solve for c, multiply both sides by c and divide by sin 80:
+    c * sin 80 = 4
+    c = 4 / sin 80
+*   **Calculate the final value**: Using the sine of 80 degrees, the calculation results in:
+    c ≈ 4 / 0.9848
+    c ≈ 4.06
