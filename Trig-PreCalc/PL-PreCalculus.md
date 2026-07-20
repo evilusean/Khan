@@ -20091,20 +20091,17 @@ You can identify these cases by checking if your calculated angles are valid wit
   * Angle B = $95^\circ$
   * Side b = $5$ (the side opposite to Angle B, running along the bottom)
   * Missing: Angle C, Side a, Side c
-
 * **Step 1: Find the missing angle (Angle C)**
   * Formula: $A + B + C = 180^\circ$
   * Calculation: $45^\circ + 95^\circ + C = 180^\circ$
   * $140^\circ + C = 180^\circ$
   * **Angle C = $40^\circ$**
-
 * **Step 2: Find Side a**
   * Set up Law of Sines ratio using the complete pair (Angle B and Side b): $\frac{\sin(B)}{b} = \frac{\sin(A)}{a}$
   * Plug in values: $\frac{\sin(95^\circ)}{5} = \frac{\sin(45^\circ)}{a}$
   * Cross-multiply to solve for a: $a \cdot \sin(95^\circ) = 5 \cdot \sin(45^\circ)$
   * $a = \frac{5 \cdot \sin(45^\circ)}{\sin(95^\circ)}$
   * **Side a $\approx 3.55$**
-
 * **Step 3: Find Side c**
   * Set up Law of Sines ratio using the complete pair (Angle B and Side b): $\frac{\sin(B)}{b} = \frac{\sin(C)}{c}$
   * Plug in values: $\frac{\sin(95^\circ)}{5} = \frac{\sin(40^\circ)}{c}$
@@ -20112,27 +20109,23 @@ You can identify these cases by checking if your calculated angles are valid wit
   * $c = \frac{5 \cdot \sin(40^\circ)}{\sin(95^\circ)}$
   * **Side c $\approx 3.23$**
 ### Triangle 2: Given Two Angles and a Non-Included Side (SAA/ASA)
-
 * **Initial Conditions:**
   * Angle A (bottom-left) = unknown
   * Angle B (top) = $85^\circ$
   * Angle C (bottom-right) = $50^\circ$
   * Side a (top-right, opposite Angle A) = $3$
   * Missing: Angle A, Side b, Side c
-
 * **Step 1: Find the missing angle (Angle A)**
   * Formula: $A + B + C = 180^\circ$
   * Calculation: $A + 85^\circ + 50^\circ = 180^\circ$
   * $A + 135^\circ = 180^\circ$
   * **Angle A = $45^\circ$**
-
 * **Step 2: Find Side b (bottom side)**
   * Set up Law of Sines ratio using the complete pair (Angle A and Side a): $\frac{\sin(A)}{a} = \frac{\sin(B)}{b}$
   * Plug in values: $\frac{\sin(45^\circ)}{3} = \frac{\sin(85^\circ)}{b}$
   * Cross-multiply to solve for b: $b \cdot \sin(45^\circ) = 3 \cdot \sin(85^\circ)$
   * $b = \frac{3 \cdot \sin(85^\circ)}{\sin(45^\circ)}$
   * **Side b $\approx 4.22$**
-
 * **Step 3: Find Side c (top-left side)**
   * Set up Law of Sines ratio using the complete pair (Angle A and Side a): $\frac{\sin(A)}{a} = \frac{\sin(C)}{c}$
   * Plug in values: $\frac{\sin(45^\circ)}{3} = \frac{\sin(50^\circ)}{c}$
