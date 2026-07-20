@@ -20075,5 +20075,12 @@ When you know two sides and an angle not between them, you may encounter the "am
 - **Exactly one solution**: A right triangle is formed.
 - **Two solutions**: The side can pivot to form either an acute or an obtuse triangle.
 You can identify these cases by checking if your calculated angles are valid within the 180° interior angle sum constraint. A negative result when calculating the third angle indicates an impossible triangle.
+### Law of Sines vs. Law of Cosines
+* **Law of Sines**
+  * **Case #1 (SAA / ASA):** Use when you know **two angles and one side** (two angles & 1 side).
+  * **Case #2 (SSA):** Use when you know **two sides and an angle not between them** (two sides & angle NOT between them).
 
+* **Law of Cosines**
+  * **Case #3 (SAS):** Use when you know **two sides and the angle between them** (two sides & angle between).
+  * **Case #4 (SSS):** Use when you know **all three sides** (all 3 sides).
 ![[Pasted image 20260720201835.png]]
