@@ -20050,5 +20050,5 @@ In this real-world application, we want to calculate the height (h) of a volcano
     $h = 80 \cdot \tan(85.4\degree)$
     $h \approx 80 \cdot 12.339$
     $h \approx 987.12 \text{ feet}$
-## 2026-July-19 - How to Use the Law of Sines in Trigonometry (Precalculus - Trigonometry 32) :
+## 2026-July-20 - How to Use the Law of Sines in Trigonometry (Precalculus - Trigonometry 32) :
 https://www.youtube.com/watch?v=-izzbKILEM0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=107
