@@ -20076,3 +20076,4 @@ When you know two sides and an angle not between them, you may encounter the "am
 - **Two solutions**: The side can pivot to form either an acute or an obtuse triangle.
 You can identify these cases by checking if your calculated angles are valid within the 180° interior angle sum constraint. A negative result when calculating the third angle indicates an impossible triangle.
 
+![[Pasted image 20260720201835.png]]
