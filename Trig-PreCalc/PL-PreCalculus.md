@@ -20084,3 +20084,30 @@ You can identify these cases by checking if your calculated angles are valid wit
   * **Case #3 (SAS):** Use when you know **two sides and the angle between them** (two sides & angle between).
   * **Case #4 (SSS):** Use when you know **all three sides** (all 3 sides).
 ![[Pasted image 20260720201835.png]]
+### Triangle 1: Given Two Angles and a Included/Adjacent Side (SAA/ASA)
+
+* **Initial Conditions:**
+  * Angle A = $45^\circ$
+  * Angle B = $95^\circ$
+  * Side b = $5$ (the side opposite to Angle B, running along the bottom)
+  * Missing: Angle C, Side a, Side c
+
+* **Step 1: Find the missing angle (Angle C)**
+  * Formula: $A + B + C = 180^\circ$
+  * Calculation: $45^\circ + 95^\circ + C = 180^\circ$
+  * $140^\circ + C = 180^\circ$
+  * **Angle C = $40^\circ$**
+
+* **Step 2: Find Side a**
+  * Set up Law of Sines ratio using the complete pair (Angle B and Side b): $\frac{\sin(B)}{b} = \frac{\sin(A)}{a}$
+  * Plug in values: $\frac{\sin(95^\circ)}{5} = \frac{\sin(45^\circ)}{a}$
+  * Cross-multiply to solve for a: $a \cdot \sin(95^\circ) = 5 \cdot \sin(45^\circ)$
+  * $a = \frac{5 \cdot \sin(45^\circ)}{\sin(95^\circ)}$
+  * **Side a $\approx 3.55$**
+
+* **Step 3: Find Side c**
+  * Set up Law of Sines ratio using the complete pair (Angle B and Side b): $\frac{\sin(B)}{b} = \frac{\sin(C)}{c}$
+  * Plug in values: $\frac{\sin(95^\circ)}{5} = \frac{\sin(40^\circ)}{c}$
+  * Cross-multiply to solve for c: $c \cdot \sin(95^\circ) = 5 \cdot \sin(40^\circ)$
+  * $c = \frac{5 \cdot \sin(40^\circ)}{\sin(95^\circ)}$
+  * **Side c $\approx 3.23$**
