@@ -20052,3 +20052,45 @@ In this real-world application, we want to calculate the height (h) of a volcano
     $h \approx 987.12 \text{ feet}$
 ## 2026-July-20 - How to Use the Law of Sines in Trigonometry (Precalculus - Trigonometry 32) :
 https://www.youtube.com/watch?v=-izzbKILEM0&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=107
+### How to Use the Law of Sines in Trigonometry
+
+The Law of Sines is used to solve for missing sides and angles in **oblique triangles** (non-right triangles). In these triangles, you need to know three pieces of information to find a fourth.
+
+#### When to Use Law of Sines
+
+You use the Law of Sines when you are given:
+
+- Two angles and one side.
+    
+- Two sides and an angle that is **not** between them.
+    
+
+#### The Formula
+
+The law establishes a proportion:
+
+$$\frac{\sin(A)}{a} = \frac{\sin(B)}{b} = \frac{\sin(C)}{c}$$
+
+_(where $A, B, C$ are angles and $a, b, c$ are the sides opposite those respective angles)_.
+
+#### Key Concepts
+
+- **Interior Angle Sum**: Always use the fact that the sum of angles in a triangle is 180° to find a third angle if you already know two. This is faster and avoids compounding rounding errors.
+    
+- **Proportions**: Do not attempt to use all three parts of the formula simultaneously. Create a proportion using only two fractions at a time.
+    
+- **Avoiding Error**: Whenever possible, use given information in your proportions rather than previously calculated or rounded values to maintain accuracy.
+    
+
+#### The Ambiguous Case (Side-Side-Angle)
+
+When you know two sides and an angle not between them, you may encounter the "ambiguous case," which can result in:
+
+- **No solution**: The side is too short to reach the opposite side.
+    
+- **Exactly one solution**: A right triangle is formed.
+    
+- **Two solutions**: The side can pivot to form either an acute or an obtuse triangle.
+    
+
+You can identify these cases by checking if your calculated angles are valid within the 180° interior angle sum constraint. A negative result when calculating the third angle indicates an impossible triangle.
