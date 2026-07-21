@@ -20280,13 +20280,11 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * $133.1^\circ + B = 180^\circ$
   * **Angle B $\approx 46.9^\circ$**
 ### Triangle 2: Given Three Sides (SSS)
-
 * **Initial Conditions:**
   * Side a (bottom side) = $4$
   * Side b (right vertical side) = $5$
   * Side c (left slanted side) = $8$
   * Missing: Angle A, Angle B, Angle C
-
 * **Step 1: Find Angle C (opposite to side c = 8) using the Law of Cosines**
   * Formula: $\cos(C) = \frac{a^2 + b^2 - c^2}{2ab}$
   * Plug in values: $\cos(C) = \frac{4^2 + 5^2 - 8^2}{2(4)(5)}$
@@ -20294,7 +20292,6 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * $\cos(C) = \frac{-23}{40} = -0.575$
   * Take inverse cosine: $C = \cos^{-1}(-0.575)$
   * **Angle C $\approx 125.1^\circ$**
-
 * **Step 2: Find Angle A (opposite to side a = 4) using the Law of Cosines**
   * Formula: $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$
   * Plug in values: $\cos(A) = \frac{5^2 + 8^2 - 4^2}{2(5)(8)}$
@@ -20302,7 +20299,6 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * $\cos(A) = \frac{73}{80} = 0.9125$
   * Take inverse cosine: $A = \cos^{-1}(0.9125)$
   * **Angle A $\approx 24.1^\circ$**
-
 * **Step 3: Find Angle B (opposite to side b = 5) using the Interior Angle Sum**
   * Formula: $A + B + C = 180^\circ$
   * Calculation: $24.1^\circ + B + 125.1^\circ = 180^\circ$
