@@ -20161,3 +20161,70 @@ You can identify these cases by checking if your calculated angles are valid wit
   * Cross-multiply to solve for c: $c \cdot \sin(50^\circ) = 3 \cdot \sin(99.3^\circ)$
   * $c = \frac{3 \cdot \sin(99.3^\circ)}{\sin(50^\circ)}$
   * **Side c $\approx 3.86$**
+### Triangle 1: Given Two Sides and a Non-Included Angle (SSA - The Ambiguous Case)
+* **Initial Conditions:**
+  * Angle B (top vertex) = $40^\circ$
+  * Side c (left side, adjacent to Angle B) = $3$
+  * Side b (bottom side, opposite Angle B) = $2$
+  * Missing: Angle A, Angle C, Side a
+* **Step 1: Check for possible triangles using the Law of Sines (Find Angle C)**
+  * Set up Law of Sines ratio: $\frac{\sin(B)}{b} = \frac{\sin(C)}{c}$
+  * Plug in values: $\frac{\sin(40^\circ)}{2} = \frac{\sin(C)}{3}$
+  * Cross-multiply to solve for $\sin(C)$: $\sin(C) = \frac{3 \cdot \sin(40^\circ)}{2}$
+  * $\sin(C) \approx \frac{3 \cdot 0.6428}{2} \approx 0.9642$
+* **Step 2: Calculate Angle C (Acute and Obtuse possibilities)**
+  * Primary angle: $C_1 = \sin^{-1}(0.9642) \approx 74.6^\circ$
+  * Secondary (supplementary) angle for the ambiguous case: $C_2 = 180^\circ - 74.6^\circ = 105.4^\circ$
+  * **Test both options:**
+    * **Option 1 ($C_1 \approx 74.6^\circ$):** 
+      * $B + C_1 = 40^\circ + 74.6^\circ = 114.6^\circ$ (Valid, less than $180^\circ$)
+      * $A_1 = 180^\circ - 114.6^\circ = 65.4^\circ$ (Triangle 1 is valid)
+    * **Option 2 ($C_2 \approx 105.4^\circ$):** 
+      * $B + C_2 = 40^\circ + 105.4^\circ = 145.4^\circ$ (Valid, less than $180^\circ$)
+      * $A_2 = 180^\circ - 145.4^\circ = 34.6^\circ$ (Triangle 2 is also valid)
+  * **Conclusion:** This results in **two possible triangles** (the ambiguous case yields two valid solutions).
+* **Step 3: Solve for Triangle 1**
+  * **Angle C₁ $\approx 74.6^\circ$**
+  * **Angle A₁ $\approx 65.4^\circ$**
+  * Find Side a₁ using Law of Sines ($\frac{\sin(B)}{b} = \frac{\sin(A_1)}{a_1}$):
+    * $\frac{\sin(40^\circ)}{2} = \frac{\sin(65.4^\circ)}{a_1}$
+    * $a_1 = \frac{2 \cdot \sin(65.4^\circ)}{\sin(40^\circ)} \approx 2.84$
+* **Step 4: Solve for Triangle 2**
+  * **Angle C₂ $\approx 105.4^\circ$**
+  * **Angle A₂ $\approx 34.6^\circ$**
+  * Find Side a₂ using Law of Sines ($\frac{\sin(B)}{b} = \frac{\sin(A_2)}{a_2}$):
+    * $\frac{\sin(40^\circ)}{2} = \frac{\sin(34.6^\circ)}{a_2}$
+    * $a_2 = \frac{2 \cdot \sin(34.6^\circ)}{\sin(40^\circ)} \approx 1.78$
+### Triangle 1: Given Two Sides and a Non-Included Angle (SSA - The Ambiguous Case)
+* **Initial Conditions:**
+  * Angle A (bottom-left) = $60^\circ$
+  * Side b (bottom) = $5$ (adjacent to Angle A)
+  * Side a (top-right, opposite Angle A) = $4$
+  * Missing: Angle B, Angle C, Side c
+* **Step 1: Check for possible triangles using the Law of Sines (Find Angle B)**
+  * Set up Law of Sines ratio: $\frac{\sin(A)}{a} = \frac{\sin(B)}{b}$
+  * Plug in values: $\frac{\sin(60^\circ)}{4} = \frac{\sin(B)}{5}$
+  * Cross-multiply to solve for $\sin(B)$: $\sin(B) = \frac{5 \cdot \sin(60^\circ)}{4}$
+  * $\sin(B) \approx \frac{5 \cdot 0.8660}{4} \approx 1.0825$
+* **Step 2: Evaluate the Sine Value for Angle B**
+  * Since the sine of any real angle cannot exceed $1$ (and $1.0825 > 1$), $\sin^{-1}(1.0825)$ is undefined.
+  * **Conclusion:** **No triangle exists** with these given initial conditions because side $a$ ($4$) is too short to reach the opposite side at a $60^\circ$ angle.
+### Word Problem Application: Mountain Height Using Law of Sines
+* **Initial Conditions:**
+  * Observer height = $2\text{ m}$
+  * First angle of elevation = $35^\circ$
+  * Second angle of elevation = $47^\circ$
+  * Distance moved closer = $900\text{ m}$
+* **Step 1: Find the angles inside the top-left obtuse triangle formed by the two observation points and the mountain peak**
+  * The interior angle at the second observation point (supplement to $47^\circ$): $180^\circ - 47^\circ = 133^\circ$
+  * The top angle of this triangle: $47^\circ - 35^\circ = 12^\circ$
+* **Step 2: Use the Law of Sines to find the distance from the first observation point to the peak ($y$)**
+  * Set up Law of Sines ratio: $\frac{\sin(12^\circ)}{900} = \frac{\sin(133^\circ)}{y}$
+  * Cross-multiply to solve for $y$: $y \cdot \sin(12^\circ) = 900 \cdot \sin(133^\circ)$
+  * $y = \frac{900 \cdot \sin(133^\circ)}{\sin(12^\circ)} \approx \frac{900 \cdot 0.7314}{0.2079} \approx 3166.7\text{ m}$
+* **Step 3: Solve for the height ($h$) using the right triangle containing the $35^\circ$ angle**
+  * $\sin(35^\circ) = \frac{h}{y}$
+  * $h = y \cdot \sin(35^\circ)$
+  * $h = 3166.7 \cdot \sin(35^\circ) \approx 3166.7 \cdot 0.5736 \approx 1816.3\text{ m}$
+* **Step 4: Calculate total height from the ground**
+  * Total Height = $1816.3\text{ m} + 2\text{ m} = \mathbf{1818.3\text{ m}}$
