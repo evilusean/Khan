@@ -20243,6 +20243,19 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     - Taking the inverse cosine of this ratio yields the desired angle.
     - When utilizing the law of sines afterward, always solve for the angle opposite the _shortest_ side first to guarantee an acute angle and avoid the ambiguous case with multiple solutions.
 - **Precision and Error Mitigation**: Avoid intermediate rounding during calculations; plugging complete expressions directly into a calculator prevents compounding rounding errors.
+### Law of Cosines: Standard and Alternative Forms
+
+* **Standard Forms (Solving for Sides):**
+  * $c^2 = a^2 + b^2 - 2ab \cos(C)$
+  * $b^2 = a^2 + c^2 - 2ac \cos(B)$
+  * $a^2 = b^2 + c^2 - 2bc \cos(A)$
+  * *Explanation:* Used when you know two sides and the included angle (SAS) to find the remaining side. The side squared on the left corresponds directly to the angle used in the cosine term on the right.
+
+* **Alternative Forms (Solving for Angles):**
+  * $\cos(C) = \frac{a^2 + b^2 - c^2}{2ab}$
+  * $\cos(B) = \frac{a^2 + c^2 - b^2}{2ac}$
+  * $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$
+  * *Explanation:* Formulated by algebraically rearranging the standard equations. Used when all three sides of a triangle are known (SSS) to solve for any of the interior angles. The side subtracted in the numerator always matches the side opposite to the angle you are solving for.
 ### Triangle 1: Given Two Sides and the Included Angle (SAS)
 * **Initial Conditions:**
   * Angle C (bottom-right vertex) = $30^\circ$
