@@ -20229,3 +20229,4 @@ You can identify these cases by checking if your calculated angles are valid wit
 * **Step 4: Calculate total height from the ground**
   * Total Height = $1816.3\text{ m} + 2\text{ m} = \mathbf{1818.3\text{ m}}$
 ## 2026-July-21 - How to Use the Law of Cosines in Trigonometry (Precalculus - Trigonometry 33) :
+https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=107
