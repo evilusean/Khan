@@ -20139,26 +20139,22 @@ You can identify these cases by checking if your calculated angles are valid wit
   * Side b (bottom) = $2$ (adjacent to Angle A)
   * Side a (top-right, opposite Angle A) = $3$
   * Missing: Angle B, Angle C, Side c
-
 * **Step 1: Check for possible triangles using the Law of Sines (Find Angle B)**
   * Set up Law of Sines ratio: $\frac{\sin(A)}{a} = \frac{\sin(B)}{b}$
   * Plug in values: $\frac{\sin(50^\circ)}{3} = \frac{\sin(B)}{2}$
   * Cross-multiply to solve for $\sin(B)$: $\sin(B) = \frac{2 \cdot \sin(50^\circ)}{3}$
   * $\sin(B) \approx \frac{2 \cdot 0.7660}{3} \approx 0.5107$
-
 * **Step 2: Calculate Angle B (Acute and Obtuse possibilities)**
   * Primary angle: $B_1 = \sin^{-1}(0.5107) \approx 30.7^\circ$
   * Secondary (supplementary) angle for the ambiguous case: $B_2 = 180^\circ - 30.7^\circ = 149.3^\circ$
   * **Test the obtuse option ($B_2 = 149.3^\circ$):**
     * Add to given Angle A: $A + B_2 = 50^\circ + 149.3^\circ = 199.3^\circ$
     * Since $199.3^\circ$ exceeds $180^\circ$, a triangle cannot be formed with this obtuse angle. Therefore, **only one triangle exists** using $B_1 \approx 30.7^\circ$.
-
 * **Step 3: Find Angle C for the valid triangle**
   * Formula: $A + B_1 + C = 180^\circ$
   * Calculation: $50^\circ + 30.7^\circ + C = 180^\circ$
   * $80.7^\circ + C = 180^\circ$
   * **Angle C $\approx 99.3^\circ$**
-
 * **Step 4: Find Side c (top-left side)**
   * Set up Law of Sines ratio using the complete pair (Angle A and Side a): $\frac{\sin(A)}{a} = \frac{\sin(C)}{c}$
   * Plug in values: $\frac{\sin(50^\circ)}{3} = \frac{\sin(99.3^\circ)}{c}$
