@@ -20230,3 +20230,28 @@ You can identify these cases by checking if your calculated angles are valid wit
   * Total Height = $1816.3\text{ m} + 2\text{ m} = \mathbf{1818.3\text{ m}}$
 ## 2026-July-21 - How to Use the Law of Cosines in Trigonometry (Precalculus - Trigonometry 33) :
 https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=107
+### Law of Cosines Summary
+
+- **Core Formula**: The law of cosines relates the lengths of the sides of a triangle to the cosine of one of its angles, expressed generally as $a^2 = b^2 + c^2 - 2bc \cos(A)$.
+    
+- **Connection to Pythagorean Theorem**: If the included angle is $90^\circ$, $\cos(90^\circ) = 0$, causing the cosine term to drop out and reducing the formula to the standard Pythagorean theorem.
+    
+- **Applicable Scenarios**: It is specifically utilized for solving oblique triangles when given either **Side-Angle-Side (SAS)** or **Side-Side-Side (SSS)** configurations, where the law of sines fails due to incomplete proportions.
+    
+- **Solving SAS (Side-Angle-Side)**:
+    
+    - Use the law of cosines first to solve for the missing side opposite the known angle.
+        
+    - Avoid subtracting terms out of order; always evaluate the product and multiplication before addition or subtraction according to order of operations.
+        
+    - Once the third side is found, calculate a second angle using either the law of cosines or the law of sines, and find the final angle using the interior angle sum ($180^\circ$).
+        
+- **Solving SSS (Side-Side-Side)**:
+    
+    - Since all three sides are known, the law of cosines must be rearranged to solve for an angle: $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$.
+        
+    - Taking the inverse cosine of this ratio yields the desired angle.
+        
+    - When utilizing the law of sines afterward, always solve for the angle opposite the _shortest_ side first to guarantee an acute angle and avoid the ambiguous case with multiple solutions.
+        
+- **Precision and Error Mitigation**: Avoid intermediate rounding during calculations; plugging complete expressions directly into a calculator prevents compounding rounding errors.
