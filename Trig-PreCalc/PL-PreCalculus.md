@@ -20244,7 +20244,6 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     - When utilizing the law of sines afterward, always solve for the angle opposite the _shortest_ side first to guarantee an acute angle and avoid the ambiguous case with multiple solutions.
 - **Precision and Error Mitigation**: Avoid intermediate rounding during calculations; plugging complete expressions directly into a calculator prevents compounding rounding errors.
 ### Law of Cosines: Standard and Alternative Forms
-
 * **Standard Forms (Solving for Sides):**
   * $c^2 = a^2 + b^2 - 2ab \cos(C)$
   * $b^2 = a^2 + c^2 - 2ac \cos(B)$
