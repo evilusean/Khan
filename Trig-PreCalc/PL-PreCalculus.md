@@ -20243,3 +20243,31 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     - Taking the inverse cosine of this ratio yields the desired angle.
     - When utilizing the law of sines afterward, always solve for the angle opposite the _shortest_ side first to guarantee an acute angle and avoid the ambiguous case with multiple solutions.
 - **Precision and Error Mitigation**: Avoid intermediate rounding during calculations; plugging complete expressions directly into a calculator prevents compounding rounding errors.
+### Triangle 1: Given Two Sides and the Included Angle (SAS)
+
+* **Initial Conditions:**
+  * Angle C (bottom-right vertex) = $30^\circ$
+  * Side b (top-right side, adjacent to Angle C) = $3$
+  * Side a (bottom side, adjacent to Angle C) = $4$
+  * Missing: Side c, Angle A, Angle B
+
+* **Step 1: Find the missing side (Side c) using the Law of Cosines**
+  * Formula: $c^2 = a^2 + b^2 - 2ab \cos(C)$
+  * Plug in values: $c^2 = 4^2 + 3^2 - 2(4)(3) \cos(30^\circ)$
+  * Simplify terms: $c^2 = 16 + 9 - 24 \cos(30^\circ)$
+  * $c^2 = 25 - 24(0.8660) \approx 25 - 20.7846 = 4.2154$
+  * Take the square root of the full expression: $c = \sqrt{25 - 24 \cos(30^\circ)}$
+  * **Side c $\approx 2.05$**
+
+* **Step 2: Find Angle A using the Law of Cosines**
+  * Formula rearrangement: $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$
+  * Plug in values: $\cos(A) = \frac{3^2 + 2.05^2 - 4^2}{2(3)(2.05)}$
+  * Calculate: $\cos(A) = \frac{9 + 4.2025 - 16}{12.3} = \frac{-2.7975}{12.3} \approx -0.2274$
+  * Take inverse cosine: $A = \cos^{-1}(-0.2274)$
+  * **Angle A $\approx 103.1^\circ$**
+
+* **Step 3: Find Angle B using the Interior Angle Sum**
+  * Formula: $A + B + C = 180^\circ$
+  * Calculation: $103.1^\circ + B + 30^\circ = 180^\circ$
+  * $133.1^\circ + B = 180^\circ$
+  * **Angle B $\approx 46.9^\circ$**
