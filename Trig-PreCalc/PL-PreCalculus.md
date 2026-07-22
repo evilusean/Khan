@@ -20360,3 +20360,4 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * The actual exterior turn angle (?) required to face City B is supplemental to this interior angle:
   * $\text{Turn Angle } (?) = 180^\circ - 18.2^\circ$
   * **Turn Angle (?) $\approx 161.8^\circ$**
+## 2026-July-22 - How to Find the Area of a Triangle with Trigonometry (Precalculus - Trigonometry 34) :
