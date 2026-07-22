@@ -20328,3 +20328,35 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * Calculation: $42.8^\circ + 110^\circ + C = 180^\circ$
   * $152.8^\circ + C = 180^\circ$
   * **Angle C $\approx 27.2^\circ$**
+### Triangle 4: Navigation and Flight Path Error Application
+* **Full Question / Initial Conditions:**
+  * You are flying/traveling from City A to City B, which are $330\text{ mi}$ apart along the direct route. 
+  * Your speed is $220\text{ mph}$.
+  * A $10^\circ$ navigation error is detected after traveling for $15\text{ minutes}$ in the wrong direction, after which you turn toward City B.
+  * Missing: Distance traveled on the wrong course, remaining distance to B, correction turn angle (marked with ?).
+* **Step 1: Calculate the distance traveled during the wrong course (Side b)**
+  * Speed = $220\text{ mph}$
+  * Time = $15\text{ minutes} = 0.25\text{ hours}$
+  * Distance = $\text{Speed} \times \text{Time} = 220 \times 0.25 = 55\text{ mi}$
+* **Step 2: Find the remaining distance to City B (Side c) using the Law of Cosines**
+  * Let Angle A = $10^\circ$ (the error angle at departure)
+  * Let side a = $330\text{ mi}$ (the original direct distance from A to B)
+  * Let side b = $55\text{ mi}$ (distance traveled off-course)
+  * Formula: $a^2 = b^2 + c^2 - 2bc \cos(A)$ -> rearrange to solve for $c^2$:
+  * $330^2 = 55^2 + c^2 - 2(55)(c) \cos(10^\circ)$
+  * $108900 = 3025 + c^2 - 110c(0.9848)$
+  * $108900 = 3025 + c^2 - 108.328c$
+  * Quadratic form: $c^2 - 108.328c - 105875 = 0$
+  * Using the quadratic formula $c = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+  * $c = \frac{108.328 + \sqrt{(-108.328)^2 - 4(1)(-105875)}}{2}$
+  * $c = \frac{108.328 + \sqrt{11735 + 423500}}{2} = \frac{108.328 + \sqrt{435235}}{2} = \frac{108.328 + 659.72}{2}$
+  * **Side c (distance to B from correction point) $\approx 384.02\text{ mi}$**
+* **Step 3: Find the turn angle (?) using the Law of Cosines**
+  * Let the unknown turn angle at the correction point be Angle C, opposite to side $a = 330\text{ mi}$.
+  * Formula: $\cos(C) = \frac{a^2 + b^2 - c^2}{2ab}$
+  * Plug in values: $\cos(C) = \frac{330^2 + 55^2 - 384.02^2}{2(330)(55)}$
+  * Calculate: $\cos(C) = \frac{108900 + 3025 - 147471.36}{36300} = \frac{-35546.36}{36300} \approx -0.9792$
+  * Take inverse cosine: $C = \cos^{-1}(-0.9792) \approx 18.2^\circ$ (interior angle of the triangle)
+  * The actual exterior turn angle (?) required to face City B is supplemental to this interior angle:
+  * $\text{Turn Angle } (?) = 180^\circ - 18.2^\circ$
+  * **Turn Angle (?) $\approx 161.8^\circ$**
