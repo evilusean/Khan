@@ -1698,3 +1698,30 @@ The fundamental strategy for solving right triangles involves using trigonometry
 *   **Sine (SOH)**: $\sin(\theta) = \frac{\text{Opposite}}{\text{Hypotenuse}}$
 *   **Cosine (CAH)**: $\cos(\theta) = \frac{\text{Adjacent}}{\text{Hypotenuse}}$
 *   **Tangent (TOA)**: $\tan(\theta) = \frac{\text{Opposite}}{\text{Adjacent}}$
+### How to Use the Law of Cosines in Trigonometry (Precalculus - Trigonometry 33) :
+https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=107
+#### Law of Cosines Summary
+- **Core Formula**: The law of cosines relates the lengths of the sides of a triangle to the cosine of one of its angles, expressed generally as $a^2 = b^2 + c^2 - 2bc \cos(A)$.
+- **Connection to Pythagorean Theorem**: If the included angle is $90^\circ$, $\cos(90^\circ) = 0$, causing the cosine term to drop out and reducing the formula to the standard Pythagorean theorem.
+- **Applicable Scenarios**: It is specifically utilized for solving oblique triangles when given either **Side-Angle-Side (SAS)** or **Side-Side-Side (SSS)** configurations, where the law of sines fails due to incomplete proportions.
+- **Solving SAS (Side-Angle-Side)**:
+    - Use the law of cosines first to solve for the missing side opposite the known angle.
+    - Avoid subtracting terms out of order; always evaluate the product and multiplication before addition or subtraction according to order of operations.
+    - Once the third side is found, calculate a second angle using either the law of cosines or the law of sines, and find the final angle using the interior angle sum ($180^\circ$).
+- **Solving SSS (Side-Side-Side)**:
+    - Since all three sides are known, the law of cosines must be rearranged to solve for an angle: $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$.
+    - Taking the inverse cosine of this ratio yields the desired angle.
+    - When utilizing the law of sines afterward, always solve for the angle opposite the _shortest_ side first to guarantee an acute angle and avoid the ambiguous case with multiple solutions.
+- **Precision and Error Mitigation**: Avoid intermediate rounding during calculations; plugging complete expressions directly into a calculator prevents compounding rounding errors.
+#### Law of Cosines: Standard and Alternative Forms
+* **Standard Forms (Solving for Sides):**
+  * $c^2 = a^2 + b^2 - 2ab \cos(C)$
+  * $b^2 = a^2 + c^2 - 2ac \cos(B)$
+  * $a^2 = b^2 + c^2 - 2bc \cos(A)$
+  * *Explanation:* Used when you know two sides and the included angle (SAS) to find the remaining side. The side squared on the left corresponds directly to the angle used in the cosine term on the right.
+
+* **Alternative Forms (Solving for Angles):**
+  * $\cos(C) = \frac{a^2 + b^2 - c^2}{2ab}$
+  * $\cos(B) = \frac{a^2 + c^2 - b^2}{2ac}$
+  * $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$
+  * *Explanation:* Formulated by algebraically rearranging the standard equations. Used when all three sides of a triangle are known (SSS) to solve for any of the interior angles. The side subtracted in the numerator always matches the side opposite to the angle you are solving for.
