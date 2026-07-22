@@ -20361,3 +20361,4 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * $\text{Turn Angle } (?) = 180^\circ - 18.2^\circ$
   * **Turn Angle (?) $\approx 161.8^\circ$**
 ## 2026-July-22 - How to Find the Area of a Triangle with Trigonometry (Precalculus - Trigonometry 34) :
+https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=110
