@@ -20304,3 +20304,31 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * Calculation: $24.1^\circ + B + 125.1^\circ = 180^\circ$
   * $149.2^\circ + B = 180^\circ$
   * **Angle B $\approx 30.8^\circ$**
+### Triangle 3: Given Two Sides and the Included Angle (SAS)
+
+* **Initial Conditions:**
+  * Angle B (vertex B) = $110^\circ$
+  * Side a (side opposite vertex A, or length adjacent to B labeled $a = 3$) = $3$
+  * Side c (bottom side adjacent to vertex B labeled $c = 2$) = $2$
+  * Missing: Side b, Angle A, Angle C
+
+* **Step 1: Find the missing side (Side b) using the Law of Cosines**
+  * Formula: $b^2 = a^2 + c^2 - 2ac \cos(B)$
+  * Plug in values: $b^2 = 3^2 + 2^2 - 2(3)(2) \cos(110^\circ)$
+  * Simplify terms: $b^2 = 9 + 4 - 12 \cos(110^\circ)$
+  * $b^2 = 13 - 12(-0.3420) \approx 13 + 4.1042 = 17.1042$
+  * Take the square root of the full expression: $b = \sqrt{9 + 4 - 12 \cos(110^\circ)}$
+  * **Side b $\approx 4.14$**
+
+* **Step 2: Find Angle A using the Law of Cosines**
+  * Formula rearrangement: $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$
+  * Plug in values: $\cos(A) = \frac{4.14^2 + 2^2 - 3^2}{2(4.14)(2)}$
+  * Calculate: $\cos(A) = \frac{17.1396 + 4 - 9}{16.56} = \frac{12.1396}{16.56} \approx 0.7331$
+  * Take inverse cosine: $A = \cos^{-1}(0.7331)$
+  * **Angle A $\approx 42.8^\circ$**
+
+* **Step 3: Find Angle C using the Interior Angle Sum**
+  * Formula: $A + B + C = 180^\circ$
+  * Calculation: $42.8^\circ + 110^\circ + C = 180^\circ$
+  * $152.8^\circ + C = 180^\circ$
+  * **Angle C $\approx 27.2^\circ$**
