@@ -1700,6 +1700,7 @@ The fundamental strategy for solving right triangles involves using trigonometry
 *   **Tangent (TOA)**: $\tan(\theta) = \frac{\text{Opposite}}{\text{Adjacent}}$
 ### How to Use the Law of Cosines in Trigonometry (Precalculus - Trigonometry 33) :
 https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=107
+- The main problem I had with law of cosines, is, using the inverse to find the angles - I still don't understand inverses (a compounding(pun) proble, just use your calculator, bro,) - the formula is simple enough, they all follow the same pattern so 6 formulas is really just 2, which is really just 1 rearranged - will definitely need to review before calc
 #### Law of Cosines Summary
 - **Core Formula**: The law of cosines relates the lengths of the sides of a triangle to the cosine of one of its angles, expressed generally as $a^2 = b^2 + c^2 - 2bc \cos(A)$.
 - **Connection to Pythagorean Theorem**: If the included angle is $90^\circ$, $\cos(90^\circ) = 0$, causing the cosine term to drop out and reducing the formula to the standard Pythagorean theorem.
