@@ -20466,3 +20466,4 @@ https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     * $K = 6 \times 3.3166 \approx 19.90$
   * **Final Result:** **Area ($K$) = $6\sqrt{11}$ (or approximately $19.90$) square units**
 ## 2026-July-23 - Simple Harmonic Motion in Trig (Precalculus - Trigonometry 35) :
+https://www.youtube.com/watch?v=qTXlBIgny10&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=109
