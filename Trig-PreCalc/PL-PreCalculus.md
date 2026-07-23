@@ -20465,3 +20465,4 @@ https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     * $\sqrt{11} \approx 3.3166$
     * $K = 6 \times 3.3166 \approx 19.90$
   * **Final Result:** **Area ($K$) = $6\sqrt{11}$ (or approximately $19.90$) square units**
+## 2026-July-23 - Simple Harmonic Motion in Trig (Precalculus - Trigonometry 35) :
