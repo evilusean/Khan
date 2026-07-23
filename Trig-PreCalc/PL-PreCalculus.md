@@ -20384,3 +20384,20 @@ https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * **Part 1:** Calculate the semi-perimeter value $s$ by taking half the sum of all three sides: $s = \frac{1}{2}(a + b + c)$.
   * **Part 2:** Evaluate the area using the square root of $s$ multiplied by the difference between $s$ and each individual side: $K = \sqrt{s(s - a)(s - b)(s - c)}$.
   * This method bypasses complex multi-step trigonometric substitutions for SSS triangles.
+### Area of Triangle 1: Given Two Sides and the Included Angle (SAS)
+
+* **Initial Conditions and Context:**
+  * The triangle provides two known adjacent side lengths ($4$ and $3$) and the included angle ($30^\circ$) wedged directly between them.
+  * Because this matches a Side-Angle-Side (SAS) configuration, we can bypass the traditional, multi-step process of manually dropping a perpendicular height ($h$) and solving right-triangle ratios from scratch.
+
+* **Step-by-Step Derivation and Application:**
+  * **Concept Overview:** The standard area formula for any triangle is $K = \frac{1}{2}\text{base} \times \text{height}$.
+  * **Substituting Height:** To avoid needing an explicit height value, we use right-triangle trigonometry. Dropping an internal height creates a right triangle where $\sin(C) = \frac{\text{opposite}}{\text{hypotenuse}}$, meaning the height can be expressed as $h = a \sin(C)$.
+  * **Formulating the Area:** Substituting this expression into the base-height formula gives us the trigonometric area formula: $K = \frac{1}{2}ab \sin(C)$.
+  * **Plugging in Values:**
+    * $K = \frac{1}{2} \times 4 \times 3 \times \sin(30^\circ)$
+    * $K = 6 \times \sin(30^\circ)$
+  * **Evaluating Trigonometric Values:**
+    * $\sin(30^\circ) = 0.5$ (or $\frac{1}{2}$)
+    * $K = 6 \times 0.5 = 3$
+  * **Final Result:** **Area ($K$) = $3$ square units**
