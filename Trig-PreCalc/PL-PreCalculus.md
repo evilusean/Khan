@@ -20363,26 +20363,22 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 ## 2026-July-22 - How to Find the Area of a Triangle with Trigonometry (Precalculus - Trigonometry 34) :
 https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=110
 ### How to Find the Area of a Triangle with Trigonometry
-
 * **Introduction & Traditional Area Concept**
   * The standard formula for the area of a triangle is $K = \frac{1}{2}bh$ (where $K$ represents area).
   * Deriving this formula involves doubling a triangle to form a rectangle with an area of base times height ($bh$), then halving it.
   * Traditional area calculation requires knowing the height explicitly. If the triangle is not a right triangle, finding that height requires additional geometric steps.
-
 * **Developing the Side-Angle-Side (SAS) Area Formula**
   * By dropping a perpendicular height ($h$) inside a non-right triangle, a right triangle is formed.
   * Using right-triangle trigonometry with a known angle and hypotenuse, the sine function establishes the ratio: $\sin(C) = \frac{\text{opposite}}{\text{hypotenuse}}$.
   * Solving for the height yields $h = a \sin(C)$.
   * Substituting this expression back into the standard area formula ($K = \frac{1}{2}bh$) results in the trigonometric area formula: $K = \frac{1}{2}ab \sin(C)$.
   * This eliminates the need to manually solve for height when two sides and the included angle are known.
-
 * **The Three Variations of the SAS Area Formula**
   * Depending on which sides and angles are known, the formula can be expressed in three ways:
     * $K = \frac{1}{2}ab \sin(C)$
     * $K = \frac{1}{2}ac \sin(B)$
     * $K = \frac{1}{2}bc \sin(A)$
   * Core concept: Multiply one-half by the product of the two known sides and the sine of the angle trapped between them.
-
 * **Heron's Formula for Side-Side-Side (SSS) Triangles**
   * When all three sides of a triangle are known, Heron's formula provides a direct method to find the area without needing angles.
   * **Part 1:** Calculate the semi-perimeter value $s$ by taking half the sum of all three sides: $s = \frac{1}{2}(a + b + c)$.
