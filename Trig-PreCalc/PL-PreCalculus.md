@@ -20415,11 +20415,9 @@ https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     * $K = 2 \times \left(\frac{\sqrt{3}}{2}\right) = \sqrt{3}$
   * **Final Result:** **Area ($K$) = $\sqrt{3}$ (or approximately $1.73$) square units**
 ### Area of Triangle: Given Three Sides (SSS) Using Heron's Formula
-
 * **Initial Conditions and Context:**
   * The triangle provides three known side lengths ($9$, $6$, and $4$) with no interior angles given.
   * Because this matches a Side-Side-Side (SSS) configuration, we cannot use the standard side-angle-side trigonometric formula directly. Instead, we use Heron's formula, which calculates the area entirely from the three side lengths by first finding the semi-perimeter.
-
 * **Step 1: Calculate the Semi-Perimeter ($s$)**
   * **Concept Overview:** The semi-perimeter is exactly half of the perimeter of the triangle.
   * **Formula:** $s = \frac{1}{2}(a + b + c)$
@@ -20427,7 +20425,6 @@ https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     * $s = \frac{1}{2}(9 + 4 + 6)$
     * $s = \frac{1}{2}(19)$
     * **Semi-perimeter ($s$) = $9.5$ (or $\frac{19}{2}$)**
-
 * **Step 2: Apply Heron's Formula for Area ($K$)**
   * **Formula:** $K = \sqrt{s(s - a)(s - b)(s - c)}$
   * **Evaluating the Differences:**
