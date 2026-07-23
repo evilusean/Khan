@@ -20467,3 +20467,31 @@ https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * **Final Result:** **Area ($K$) = $6\sqrt{11}$ (or approximately $19.90$) square units**
 ## 2026-July-23 - Simple Harmonic Motion in Trig (Precalculus - Trigonometry 35) :
 https://www.youtube.com/watch?v=qTXlBIgny10&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=109
+### Simple Harmonic Motion in Trigonometry: Core Concepts and Application
+
+* **Core Definition & Overview:**
+  * Simple harmonic motion describes vibratory motion that continues indefinitely without decreasing over time, modeled entirely using pure sine or cosine functions without an exponential damping factor.
+  * The general displacement function is structured as either $d = a \sin(\omega t)$ or $d = a \cos(\omega t)$ (with optional vertical shifts).
+
+* **Key Parameters & Formulas:**
+  * **Displacement ($d$):** The distance of the object from its resting position at time $t$.
+  * **Amplitude ($|a|$):** The maximum displacement (distance) away from the resting position. The sign of $a$ indicates whether the initial displacement is pushed/pulled in a positive or negative direction.
+  * **Period ($T$):** The duration required to complete one full oscillation, calculated using the formula:
+    $$T = \frac{2\pi}{\omega}$$
+  * **Frequency ($f$):** The number of oscillations per time unit, which is always the reciprocal of the period:
+    $$f = \frac{1}{T} = \frac{\omega}{2\pi}$$
+
+* **Choosing Between Sine and Cosine:**
+  * **Use Sine ($\sin$):** When the motion starts directly **at rest** (displacement $d = 0$ at $t = 0$), because $\sin(0) = 0$.
+    * *Positive sine:* Starts at rest and moves upward initially.
+    * *Negative sine:* Starts at rest and moves downward initially.
+  * **Use Cosine ($\cos$):** When the motion starts **away from rest** (displaced at maximum amplitude $a$ at $t = 0$), because $\cos(0) = 1$.
+    * *Positive cosine:* Starts at a positive displacement and initially drops downward.
+    * *Negative cosine:* Starts at a negative displacement (pulled down) and initially climbs upward.
+
+* **Example Problem Walkthrough:**
+  * **Scenario:** An object is pulled down $7$ inches (displacement $a = -7$) and released, taking $4$ seconds to complete a full cycle.
+  * **Amplitude:** $|a| = 7$, with an initial pull of $-7$.
+  * **Finding $\omega$:** Using the period formula $T = \frac{2\pi}{\omega} \implies 4 = \frac{2\pi}{\omega}$, solving yields $\omega = \frac{\pi}{2}$.
+  * **Function Model:** Since it starts away from rest from a pulled-down position, use negative cosine:
+    $$d = -7 \cos\left(\frac{\pi}{2} t\right)$$
