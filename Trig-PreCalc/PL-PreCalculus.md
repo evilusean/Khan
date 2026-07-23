@@ -20439,3 +20439,29 @@ https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     * $\sqrt{1463} \approx 38.249$
     * $K \approx \frac{38.249}{4} \approx 9.56$
   * **Final Result:** **Area ($K$) = $\frac{\sqrt{1463}}{4}$ (or approximately $9.56$) square units**
+### Area of Triangle: Given Three Sides (SSS) Using Heron's Formula
+* **Initial Conditions and Context:**
+  * The triangle provides three known side lengths ($5$, $8$, and $9$) with no interior angles given.
+  * Because this matches a Side-Side-Side (SSS) configuration, we use Heron's formula to find the area directly from the side lengths by first calculating the semi-perimeter.
+* **Step 1: Calculate the Semi-Perimeter ($s$)**
+  * **Concept Overview:** The semi-perimeter is defined as half of the perimeter of the triangle.
+  * **Formula:** $s = \frac{1}{2}(a + b + c)$
+  * **Plugging in Values:**
+    * $s = \frac{1}{2}(5 + 8 + 9)$
+    * $s = \frac{1}{2}(22)$
+    * **Semi-perimeter ($s$) = $11$**
+
+* **Step 2: Apply Heron's Formula for Area ($K$)**
+  * **Formula:** $K = \sqrt{s(s - a)(s - b)(s - c)}$
+  * **Evaluating the Differences:**
+    * $s - a = 11 - 5 = 6$
+    * $s - b = 11 - 8 = 3$
+    * $s - c = 11 - 9 = 2$
+  * **Plugging into the Square Root:**
+    * $K = \sqrt{11 \times 6 \times 3 \times 2}$
+    * $K = \sqrt{11 \times 36}$
+    * $K = 6\sqrt{11}$
+  * **Evaluating Numerical Value:**
+    * $\sqrt{11} \approx 3.3166$
+    * $K = 6 \times 3.3166 \approx 19.90$
+  * **Final Result:** **Area ($K$) = $6\sqrt{11}$ (or approximately $19.90$) square units**
