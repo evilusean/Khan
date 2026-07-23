@@ -20400,11 +20400,9 @@ https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     * $K = 6 \times 0.5 = 3$
   * **Final Result:** **Area ($K$) = $3$ square units**
 ### Area of Triangle: Given Two Sides and the Included Angle (SAS)
-
 * **Initial Conditions and Context:**
   * The triangle provides two known adjacent side lengths ($4$ and $1$) and the included angle ($120^\circ$) wedged directly between them.
   * This matches a Side-Angle-Side (SAS) configuration, which allows us to find the area directly without needing to manually drop a perpendicular height or solve complex right-triangle ratios from scratch.
-
 * **Step-by-Step Derivation and Application:**
   * **Concept Overview:** The traditional area formula for any triangle is $K = \frac{1}{2}\text{base} \times \text{height}$.
   * **Substituting Height:** To bypass knowing an explicit height value, right-triangle trigonometry dictates that $\sin(C) = \frac{\text{opposite}}{\text{hypotenuse}}$, meaning the height can be expressed as $h = a \sin(C)$.
