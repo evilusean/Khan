@@ -20414,3 +20414,31 @@ https://www.youtube.com/watch?v=_i9t-ldjG7o&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     * $\sin(120^\circ) = \frac{\sqrt{3}}{2}$ (or approximately $0.8660$)
     * $K = 2 \times \left(\frac{\sqrt{3}}{2}\right) = \sqrt{3}$
   * **Final Result:** **Area ($K$) = $\sqrt{3}$ (or approximately $1.73$) square units**
+### Area of Triangle: Given Three Sides (SSS) Using Heron's Formula
+
+* **Initial Conditions and Context:**
+  * The triangle provides three known side lengths ($9$, $6$, and $4$) with no interior angles given.
+  * Because this matches a Side-Side-Side (SSS) configuration, we cannot use the standard side-angle-side trigonometric formula directly. Instead, we use Heron's formula, which calculates the area entirely from the three side lengths by first finding the semi-perimeter.
+
+* **Step 1: Calculate the Semi-Perimeter ($s$)**
+  * **Concept Overview:** The semi-perimeter is exactly half of the perimeter of the triangle.
+  * **Formula:** $s = \frac{1}{2}(a + b + c)$
+  * **Plugging in Values:**
+    * $s = \frac{1}{2}(9 + 4 + 6)$
+    * $s = \frac{1}{2}(19)$
+    * **Semi-perimeter ($s$) = $9.5$ (or $\frac{19}{2}$)**
+
+* **Step 2: Apply Heron's Formula for Area ($K$)**
+  * **Formula:** $K = \sqrt{s(s - a)(s - b)(s - c)}$
+  * **Evaluating the Differences:**
+    * $s - a = 9.5 - 9 = 0.5$ (or $\frac{1}{2}$)
+    * $s - b = 9.5 - 4 = 5.5$ (or $\frac{11}{2}$)
+    * $s - c = 9.5 - 6 = 3.5$ (or $\frac{7}{2}$)
+  * **Plugging into the Square Root:**
+    * $K = \sqrt{9.5 \times 0.5 \times 5.5 \times 3.5}$
+    * Using fractions for clean calculation: $\sqrt{\frac{19}{2} \times \frac{1}{2} \times \frac{11}{2} \times \frac{7}{2}} = \sqrt{\frac{19 \times 1 \times 11 \times 7}{16}} = \sqrt{\frac{1463}{16}}$
+    * $K = \frac{\sqrt{1463}}{4}$
+  * **Evaluating Numerical Value:**
+    * $\sqrt{1463} \approx 38.249$
+    * $K \approx \frac{38.249}{4} \approx 9.56$
+  * **Final Result:** **Area ($K$) = $\frac{\sqrt{1463}}{4}$ (or approximately $9.56$) square units**
