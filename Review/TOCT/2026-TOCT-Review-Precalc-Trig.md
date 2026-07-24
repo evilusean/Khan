@@ -1728,6 +1728,7 @@ https://www.youtube.com/watch?v=HOI_PnFG67Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * *Explanation:* Formulated by algebraically rearranging the standard equations. Used when all three sides of a triangle are known (SSS) to solve for any of the interior angles. The side subtracted in the numerator always matches the side opposite to the angle you are solving for.
 ### Simple Harmonic Motion in Trig (Precalculus - Trigonometry 35) :
 https://www.youtube.com/watch?v=qTXlBIgny10&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=109
+- The main problem I had with this was learning how the periods work It's $\frac{\pi}{2}$ but the $\omega$ changes it somehow, if I didn't understand it today, I won't tommorrow, will need to review before calc
 #### Simple Harmonic Motion in Trigonometry: Core Concepts and Application
 * **Core Definition & Overview:**
   * Simple harmonic motion describes vibratory motion that continues indefinitely without decreasing over time, modeled entirely using pure sine or cosine functions without an exponential damping factor.
