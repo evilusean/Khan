@@ -20645,8 +20645,6 @@ $$d = 6 + 2 \cos\left(\frac{\pi}{2}(0)\right) = 6 + 2 \cos(0) = 6 + 2(1) = 8$$
   * **Evaluation:** Because the object starts at its upper maximum position ($d = 8$), any progression of time causes the cosine value to decrease, meaning the initial motion moves **down**.
 ## 2026-July-24 - Introduction to Polar Coordinates (Precalculus - Trigonometry 36) :
 https://www.youtube.com/watch?v=Ol_a6LEdo3M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=110
-### Polar Coordinates Overview
-
 ### Introduction to Polar Coordinates
 * **Purpose and Utility**: Polar coordinates provide an alternative way to graph points without relying on the rectangular $xy$-plane, making it easier to graph certain non-functions and simplifying problems in multivariable calculus.
 * **Core Components**: 
