@@ -20643,3 +20643,5 @@ $$d = 6 + 2 \cos\left(\frac{\pi}{2}(0)\right) = 6 + 2 \cos(0) = 6 + 2(1) = 8$$
 * **Step 6: Determine Initial Motion at $t = 0$**
   * **Concept Overview:** The behavior of a positive cosine function at $t = 0$ starts at a maximum peak. As time progresses past $t = 0$, a cosine curve curves downward from its peak.
   * **Evaluation:** Because the object starts at its upper maximum position ($d = 8$), any progression of time causes the cosine value to decrease, meaning the initial motion moves **down**.
+  ## 2026-July-24 - Introduction to Polar Coordinates (Precalculus - Trigonometry 36) :
+* 
