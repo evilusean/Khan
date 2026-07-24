@@ -20491,3 +20491,31 @@ https://www.youtube.com/watch?v=qTXlBIgny10&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * **Finding $\omega$:** Using the period formula $T = \frac{2\pi}{\omega} \implies 4 = \frac{2\pi}{\omega}$, solving yields $\omega = \frac{\pi}{2}$.
   * **Function Model:** Since it starts away from rest from a pulled-down position, use negative cosine:
     $$d = -7 \cos\left(\frac{\pi}{2} t\right)$$
+### Simple Harmonic Motion Problem Setup and Solution
+
+* **Detailed Introduction and Problem Context:**
+  * **Physical Scenario:** An object (such as a weight on a spring) is pushed upward by a distance of $4$ feet from its resting position and then released from rest to oscillate indefinitely under simple harmonic motion.
+  * **Given Conditions:**
+    * Amplitude magnitude: $|a| = 4$
+    * Period: $T = \frac{\pi}{2}$ seconds
+    * Initial action: Pushed up $4$ feet and let go, meaning the initial displacement at time $t = 0$ is $d = 4$.
+
+* **Step 1: Determine Amplitude ($a$) and Choosing the Trig Function**
+  * **Amplitude Value:** Because the object is pushed up $4$ feet, the starting position is $4$ units above the resting equilibrium line. Thus, $a = +4$.
+  * **Selecting Sine vs. Cosine:** Since the motion starts away from rest ($d = 4$ at $t = 0$), a cosine function must be used (as $\cos(0) = 1$, whereas sine starts at $0$).
+  * **Sign Selection:** Because the object is pushed up and then released, it starts at a positive displacement ($+4$) and will immediately begin falling downward. This behavior matches a *positive* cosine function:
+    $$d = a \cos(\omega t)$$
+
+* **Step 2: Calculate the Angular Frequency ($\omega$)**
+  * **Concept Overview:** The period $T$ relates to the angular frequency $\omega$ through the standard harmonic formula:
+    $$T = \frac{2\pi}{\omega}$$
+  * **Rearranging for $\omega$:**
+    $$\omega = \frac{2\pi}{T}$$
+  * **Substituting the Given Period ($T = \frac{\pi}{2}$):**
+    $$\omega = \frac{2\pi}{\frac{\pi}{2}}$$
+  * **Simplifying the Fraction:**
+    $$\omega = 2\pi \times \frac{2}{\pi} = 4$$
+
+* **Step 3: Constructing the Final Model**
+  * Combining the amplitude $a = 4$, the function choice (positive cosine), and the angular frequency $\omega = 4$:
+    $$d = 4 \cos(4t)$$
