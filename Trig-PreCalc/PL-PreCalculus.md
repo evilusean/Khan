@@ -20645,3 +20645,20 @@ $$d = 6 + 2 \cos\left(\frac{\pi}{2}(0)\right) = 6 + 2 \cos(0) = 6 + 2(1) = 8$$
   * **Evaluation:** Because the object starts at its upper maximum position ($d = 8$), any progression of time causes the cosine value to decrease, meaning the initial motion moves **down**.
 ## 2026-July-24 - Introduction to Polar Coordinates (Precalculus - Trigonometry 36) :
 https://www.youtube.com/watch?v=Ol_a6LEdo3M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=110
+### Polar Coordinates Overview
+
+### Introduction to Polar Coordinates
+* **Purpose and Utility**: Polar coordinates provide an alternative way to graph points without relying on the rectangular $xy$-plane, making it easier to graph certain non-functions and simplifying problems in multivariable calculus.
+* **Core Components**: 
+  * **Pole**: Acts similarly to the origin.
+  * **Polar Axis**: A horizontal starting ray acting similarly to the positive $x$-axis.
+  * **Ordered Pair**: Written as $(r, \theta)$, where $r$ is the directed distance from the pole, and $\theta$ is the angle made with the polar axis.
+* **Angle Conventions ($\theta$)**:
+  * **Positive angles**: Measured counterclockwise from the polar axis.
+  * **Negative angles**: Measured clockwise from the polar axis.
+* **Distance Conventions ($r$)**:
+  * **Positive $r$**: Measured directly along the ray created by the angle $\theta$.
+  * **Negative $r$**: Measured in the exact opposite direction (reflected 180 degrees or $\pi$ radians across the pole) from the ray created by $\theta$.
+* **Alternative Representations of Points**:
+  * $(r, \theta) = (r, \theta \pm 2\pi)$
+  * $(r, \theta) = (-r, \theta \pm \pi)$
