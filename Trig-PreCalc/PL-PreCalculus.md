@@ -20545,3 +20545,43 @@ $$d = 4 \cos(4t)$$
 * **Step 6: Determine Initial Motion at $t = 0$**
   * **Concept Overview:** The sign of the coefficient in a sine function dictates the immediate direction of travel from the resting position. A positive sine function climbs upward initially, while a negative sine function drops downward.
   * **Evaluation:** Because the function is positive ($+5 \sin(3t)$), the initial motion moves **up** (climbing).
+### Simple Harmonic Motion Analysis: $d = -3 \sin\left(\frac{1}{2}t\right)$
+
+* **Detailed Introduction and Problem Context:**
+  * Given the displacement function $d = -3 \sin\left(\frac{1}{2}t\right)$ from Professor Leonard's lesson, our objective is to break down and explain all the characteristics of the motion step by step.
+  * This includes identifying the type of motion, maximum displacement (amplitude), period, frequency, initial position at time $t = 0$, and the initial direction of motion.
+
+* **Step 1: Identify Motion Type**
+  * **Concept Overview:** Simple harmonic motion represents vibratory motion that continues indefinitely at a constant amplitude without dying out over time, modeled completely by pure sine or cosine functions.
+  * **Analysis:** The given function uses a standard sine term with no exponential damping factor, meaning it exhibits **Simple Harmonic Motion**.
+
+* **Step 2: Find Maximum Displacement (Amplitude)**
+  * **Concept Overview:** The amplitude represents the maximum absolute distance the object moves away from its resting position.
+  * **Formula:** $|a|$
+  * **Evaluation:** Taking the absolute value of the coefficient in front of the sine function ($a = -3$):
+    * **Maximum Displacement = $3$**
+
+* **Step 3: Determine the Period (Time for One Oscillation)**
+  * **Concept Overview:** The period ($T$) is the total time required to complete one full cycle of oscillation, calculated by dividing the standard period of sine ($2\pi$) by the angular frequency coefficient ($\omega$).
+  * **Formula:** $T = \frac{2\pi}{\omega}$
+  * **Plugging in $\omega = \frac{1}{2}$:**
+    $$T = \frac{2\pi}{\frac{1}{2}}$$
+  * **Simplifying the Expression:**
+    $$T = 2\pi \times 2 = 4\pi$$
+    * **Period ($T$) = $4\pi$ seconds**
+
+* **Step 4: Calculate the Frequency**
+  * **Concept Overview:** Frequency is defined as the number of full oscillations completed per second and is always the reciprocal of the period.
+  * **Formula:** $f = \frac{1}{T}$
+  * **Plugging in $T = 4\pi$:**
+    * **Frequency = $\frac{1}{4\pi}$ oscillations per second**
+
+* **Step 5: Determine Displacement at Time Zero ($d$ at $t = 0$)**
+  * **Concept Overview:** Evaluating the function at $t = 0$ reveals the initial position relative to the resting equilibrium line.
+  * **Calculation:**
+    $$d = -3 \sin\left(\frac{1}{2}(0)\right) = -3 \sin(0) = 0$$
+  * **Conclusion:** Since the displacement evaluates to $0$, the system starts **at rest** at time $t = 0$ (which is why a sine function is used rather than cosine).
+
+* **Step 6: Determine Initial Motion at $t = 0$**
+  * **Concept Overview:** The sign of the coefficient in a sine function dictates the immediate direction of travel from the resting position. A positive sine function climbs upward, while a negative sine function drops downward.
+  * **Evaluation:** Because the function has a negative coefficient ($-3$), the initial motion moves **down** (falling).
