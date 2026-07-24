@@ -20660,3 +20660,16 @@ https://www.youtube.com/watch?v=Ol_a6LEdo3M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Alternative Representations of Points**:
   * $(r, \theta) = (r, \theta \pm 2\pi)$
   * $(r, \theta) = (-r, \theta \pm \pi)$
+### Visualizing Points in Polar Coordinates
+
+* **Point $(2, \frac{\pi}{4})$**:
+  * An angle of $\frac{\pi}{4}$ is measured counterclockwise from the polar axis.
+  * A positive distance of $r = 2$ is measured directly along that ray from the pole.
+
+* **Point $\left(-2, \frac{\pi}{4}\right)$**:
+  * Uses the same angle $\frac{\pi}{4}$ from the polar axis.
+  * A negative distance of $r = -2$ reflects the position $180^\circ$ ($\pi$ radians) in the opposite direction across the pole.
+
+* **Point $\left(2, \frac{5\pi}{4}\right)$**:
+  * Demonstrates that the exact same physical point can be reached using a different angle.
+  * An angle of $\frac{5\pi}{4}$ sweeps further counterclockwise, and a positive distance of $r = 2$ lands on the identical location.
