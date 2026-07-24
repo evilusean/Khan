@@ -20516,39 +20516,32 @@ $$\omega = 2\pi \times \frac{2}{\pi} = 4$$
   * Combining the amplitude $a = 4$, the function choice (positive cosine), and the angular frequency $\omega = 4$:
 $$d = 4 \cos(4t)$$
 ### Simple Harmonic Motion Analysis: $d = 5 \sin(3t)$
-
 * **Detailed Introduction and Problem Context:**
   * Given a mathematical displacement function $d = 5 \sin(3t)$, our goal is to break down the physical and mathematical characteristics of the motion using the analytical framework presented by Professor Leonard.
   * This involves determining the type of motion, maximum displacement (amplitude), period (time for one oscillation), frequency, initial displacement at time $t = 0$, and the initial direction of motion.
-
 * **Step 1: Identify Motion Type**
   * **Concept Overview:** Simple harmonic motion describes vibratory motion that repeats indefinitely over time without decreasing or decaying in amplitude, represented purely by sine or cosine terms.
   * **Analysis:** The function contains a standard sine term without any exponential decay or bounding factors. Therefore, the system exhibits **Simple Harmonic Motion**.
-
 * **Step 2: Find Maximum Displacement (Amplitude)**
   * **Concept Overview:** The amplitude represents the maximum absolute distance the object moves away from its resting equilibrium position.
   * **Formula:** $|a|$
   * **Evaluation:** Taking the absolute value of the coefficient in front of the sine function ($a = 5$):
     * **Maximum Displacement = $5$**
-
 * **Step 3: Determine the Period (Time for One Oscillation)**
   * **Concept Overview:** The period ($T$) is the duration required to complete one full cycle of oscillation, found by dividing the natural period of the sine function ($2\pi$) by the angular frequency coefficient ($\omega$).
   * **Formula:** $T = \frac{2\pi}{\omega}$
   * **Plugging in $\omega = 3$:**
     * **Period ($T$) = $\frac{2\pi}{3}$ seconds**
-
 * **Step 4: Calculate the Frequency**
   * **Concept Overview:** Frequency represents the number of full oscillations completed per second and is always the reciprocal of the period.
   * **Formula:** $f = \frac{1}{T}$
   * **Plugging in $T = \frac{2\pi}{3}$:**
     * **Frequency = $\frac{3}{2\pi}$ oscillations per second**
-
 * **Step 5: Determine Displacement at Time Zero ($d$ at $t = 0$)**
   * **Concept Overview:** We evaluate the function at $t = 0$ to find the initial position relative to rest.
   * **Calculation:** 
     * $d = 5 \sin(3(0)) = 5 \sin(0) = 0$
   * **Conclusion:** Since the displacement is $0$, the object starts **at rest** at time $t = 0$ (confirming why the sine function was chosen instead of cosine).
-
 * **Step 6: Determine Initial Motion at $t = 0$**
   * **Concept Overview:** The sign of the coefficient in a sine function dictates the immediate direction of travel from the resting position. A positive sine function climbs upward initially, while a negative sine function drops downward.
   * **Evaluation:** Because the function is positive ($+5 \sin(3t)$), the initial motion moves **up** (climbing).
