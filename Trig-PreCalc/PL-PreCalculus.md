@@ -20611,21 +20611,17 @@ $$d = -2 \cos(2(0)) = -2 \cos(0) = -2(1) = -2$$
   * **Concept Overview:** The derivative (velocity) of a negative cosine function at $t = 0$ determines the immediate direction of travel. Since $d = -2\cos(2t)$, the velocity is $v = d' = 4\sin(2t)$. At $t=0$, $\sin(0) = 0$, but looking at how the cosine curve leaves its minimum point at $t=0$, the object immediately heads upward.
   * **Evaluation:** Because the curve is at a bottom trough and starts rising, the initial motion moves **up**.
 ### Simple Harmonic Motion Analysis: $d = 6 + 2 \cos\left(\frac{\pi}{2}t\right)$
-
 * **Detailed Introduction and Problem Context:**
   * Given the displacement function $d = 6 + 2 \cos\left(\frac{\pi}{2}t\right)$ from Professor Leonard's lesson, our objective is to break down and explain all the characteristics of the motion step by step.
   * This function features a vertical shift (equilibrium line shifted up by $6$ units), allowing us to analyze how baseline shifts affect oscillation parameters, maximum displacement, period, frequency, initial position at time $t = 0$, and the initial direction of motion.
-
 * **Step 1: Identify Motion Type**
   * **Concept Overview:** Simple harmonic motion represents vibratory motion that continues indefinitely at a constant amplitude without dying out over time, modeled completely by pure trigonometric functions.
   * **Analysis:** The given function consists of a constant baseline combined with a standard cosine term and no damping factor, meaning it exhibits **Simple Harmonic Motion**.
-
 * **Step 2: Find Maximum Displacement (Amplitude)**
   * **Concept Overview:** The amplitude represents the maximum absolute distance the object moves away from its shifted equilibrium position ($d = 6$).
   * **Formula:** $|a|$
   * **Evaluation:** Taking the absolute value of the coefficient in front of the cosine function ($a = 2$):
     * **Maximum Displacement = $2$** (meaning it oscillates between $6 - 2 = 4$ and $6 + 2 = 8$).
-
 * **Step 3: Determine the Period (Time for One Oscillation)**
   * **Concept Overview:** The period ($T$) is the total time required to complete one full cycle of oscillation, calculated by dividing the standard period of cosine ($2\pi$) by the angular frequency coefficient ($\omega$).
   * **Formula:** $T = \frac{2\pi}{\omega}$
@@ -20634,19 +20630,16 @@ $$d = -2 \cos(2(0)) = -2 \cos(0) = -2(1) = -2$$
   * **Simplifying the Expression:**
     $$T = 2\pi \times \frac{2}{\pi} = 4$$
     * **Period ($T$) = $4$ seconds**
-
 * **Step 4: Calculate the Frequency**
   * **Concept Overview:** Frequency is defined as the number of full oscillations completed per second and is always the reciprocal of the period.
   * **Formula:** $f = \frac{1}{T}$
   * **Plugging in $T = 4$:**
     * **Frequency = $\frac{1}{4}$ oscillations per second**
-
 * **Step 5: Determine Displacement at Time Zero ($d$ at $t = 0$)**
   * **Concept Overview:** Evaluating the function at $t = 0$ reveals the exact initial position relative to the base coordinate system.
   * **Calculation:**
-    $$d = 6 + 2 \cos\left(\frac{\pi}{2}(0)\right) = 6 + 2 \cos(0) = 6 + 2(1) = 8$$
+$$d = 6 + 2 \cos\left(\frac{\pi}{2}(0)\right) = 6 + 2 \cos(0) = 6 + 2(1) = 8$$
   * **Conclusion:** At $t = 0$, the displacement is $8$ (which is $2$ units above the new equilibrium line $d=6$).
-
 * **Step 6: Determine Initial Motion at $t = 0$**
   * **Concept Overview:** The behavior of a positive cosine function at $t = 0$ starts at a maximum peak. As time progresses past $t = 0$, a cosine curve curves downward from its peak.
   * **Evaluation:** Because the object starts at its upper maximum position ($d = 8$), any progression of time causes the cosine value to decrease, meaning the initial motion moves **down**.
