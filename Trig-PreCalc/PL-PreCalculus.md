@@ -20579,41 +20579,34 @@ $$d = -3 \sin\left(\frac{1}{2}(0)\right) = -3 \sin(0) = 0$$
   * **Concept Overview:** The sign of the coefficient in a sine function dictates the immediate direction of travel from the resting position. A positive sine function climbs upward, while a negative sine function drops downward.
   * **Evaluation:** Because the function has a negative coefficient ($-3$), the initial motion moves **down** (falling).
 ### Simple Harmonic Motion Analysis: $d = -2 \cos(2t)$
-
 * **Detailed Introduction and Problem Context:**
   * Given the displacement function $d = -2 \cos(2t)$ from Professor Leonard's lesson, our objective is to break down and explain all the characteristics of the motion step by step.
   * This includes identifying the type of motion, maximum displacement (amplitude), period, frequency, initial position at time $t = 0$, and the initial direction of motion.
-
 * **Step 1: Identify Motion Type**
   * **Concept Overview:** Simple harmonic motion represents vibratory motion that continues indefinitely at a constant amplitude without dying out over time, modeled completely by pure sine or cosine functions.
   * **Analysis:** The given function uses a standard cosine term with no exponential damping factor, meaning it exhibits **Simple Harmonic Motion**.
-
 * **Step 2: Find Maximum Displacement (Amplitude)**
   * **Concept Overview:** The amplitude represents the maximum absolute distance the object moves away from its resting position.
   * **Formula:** $|a|$
   * **Evaluation:** Taking the absolute value of the coefficient in front of the cosine function ($a = -2$):
     * **Maximum Displacement = $2$**
-
 * **Step 3: Determine the Period (Time for One Oscillation)**
   * **Concept Overview:** The period ($T$) is the total time required to complete one full cycle of oscillation, calculated by dividing the standard period of cosine ($2\pi$) by the angular frequency coefficient ($\omega$).
   * **Formula:** $T = \frac{2\pi}{\omega}$
   * **Plugging in $\omega = 2$:**
-    $$T = \frac{2\pi}{2}$$
+$$T = \frac{2\pi}{2}$$
   * **Simplifying the Expression:**
     * **Period ($T$) = $\pi$ seconds**
-
 * **Step 4: Calculate the Frequency**
   * **Concept Overview:** Frequency is defined as the number of full oscillations completed per second and is always the reciprocal of the period.
   * **Formula:** $f = \frac{1}{T}$
   * **Plugging in $T = \pi$:**
     * **Frequency = $\frac{1}{\pi}$ oscillations per second**
-
 * **Step 5: Determine Displacement at Time Zero ($d$ at $t = 0$)**
   * **Concept Overview:** Evaluating the function at $t = 0$ reveals the initial position relative to the resting equilibrium line.
   * **Calculation:**
-    $$d = -2 \cos(2(0)) = -2 \cos(0) = -2(1) = -2$$
+$$d = -2 \cos(2(0)) = -2 \cos(0) = -2(1) = -2$$
   * **Conclusion:** Since the displacement evaluates to $-2$, the system starts **$2$ units below rest** at time $t = 0$ (which is why a cosine function is used rather than sine).
-
 * **Step 6: Determine Initial Motion at $t = 0$**
   * **Concept Overview:** The derivative (velocity) of a negative cosine function at $t = 0$ determines the immediate direction of travel. Since $d = -2\cos(2t)$, the velocity is $v = d' = 4\sin(2t)$. At $t=0$, $\sin(0) = 0$, but looking at how the cosine curve leaves its minimum point at $t=0$, the object immediately heads upward.
   * **Evaluation:** Because the curve is at a bottom trough and starts rising, the initial motion moves **up**.
