@@ -20670,3 +20670,21 @@ https://www.youtube.com/watch?v=Ol_a6LEdo3M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Point $\left(2, \frac{5\pi}{4}\right)$**:
   * Demonstrates that the exact same physical point can be reached using a different angle.
   * An angle of $\frac{5\pi}{4}$ sweeps further counterclockwise, and a positive distance of $r = 2$ lands on the identical location.
+### Polar Coordinate Graphical Examples
+
+### Multiple Representations for the Same Point
+
+* **Point $\left(3, -\frac{\pi}{3}\right)$**:
+  * Uses a negative (clockwise) angle of $-\frac{\pi}{3}$ from the polar axis.
+  * A positive distance of $r = 3$ is measured along that ray from the pole.
+
+* **Point $\left(3, \frac{5\pi}{3}\right)$**:
+  * Reaches the exact same location using a positive (counterclockwise) angle of $\frac{5\pi}{3}$.
+  * Moves outward by a positive distance of $r = 3$ along the corresponding ray.
+
+* **Point $\left(-3, \frac{2\pi}{3}\right)$**:
+  * Uses an angle of $\frac{2\pi}{3}$ combined with a negative distance of $r = -3$.
+  * Reflects $180^\circ$ ($\pi$ radians) in the opposite direction across the pole to arrive at the identical location.
+
+* **Conversion Relationships**:
+  * Converting $\left(-3, \frac{2\pi}{3}\right)$ by adding/subtracting $\pi$ and flipping the sign of $r$ shows it is equivalent to both $\left(3, \frac{5\pi}{3}\right)$ and $\left(3, -\frac{\pi}{3}\right)$.
