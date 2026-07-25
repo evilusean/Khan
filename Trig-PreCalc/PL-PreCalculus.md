@@ -20698,18 +20698,14 @@ https://www.youtube.com/watch?v=Ol_a6LEdo3M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Converting $\left(-3, 120^\circ\right)$ to $\left(3, 300^\circ\right)$ and $\left(3, -60^\circ\right)$**:
   * **Starting Point**: An angle of $120^\circ$ (which equals $\frac{2\pi}{3}$ radians) paired with a negative radius of $r = -3$.
   * **The Process**: An angle of $120^\circ$ points into the upper-left quadrant. Because $r = -3$ is negative, you must reflect it 180 degrees across the pole into the opposite quadrant. Adding or subtracting $180^\circ$ ($1\pi$ radians) to $120^\circ$ gives either $300^\circ$ or $-60^\circ$, and making the distance positive changes $-3$ to $3$. This yields the alternative equivalent coordinates $\left(3, 300^\circ\right)$ and $\left(3, -60^\circ\right)$.
-### Alternative Polar Coordinate Forms for a Given Point
-
 ### Finding Equivalent Coordinates Under Specific Constraints
 * **Base Point**: Starting with the polar coordinate point $\left(4, \frac{3\pi}{4}\right)$.
 * **Constraint 1 ($r > 0$, $-2\pi \le \theta < 0$)**: 
   * To keep the radius positive while restricting the angle between $-2\pi$ and $0$, subtract one full revolution ($2\pi$) from the original angle.
   * $\frac{3\pi}{4} - 2\pi = -\frac{5\pi}{4}$, resulting in the equivalent coordinate $\left(4, -\frac{5\pi}{4}\right)$.
-
 * **Constraint 2 ($r < 0$, $0 \le \theta < 2\pi$)**: 
   * To make the radius negative while keeping the angle within the standard interval $[0, 2\pi)$, flip the sign of $r$ and add $\pi$ to the angle.
   * $\frac{3\pi}{4} + \pi = \frac{7\pi}{4}$, resulting in the equivalent coordinate $\left(-4, \frac{7\pi}{4}\right)$.
-
 * **Constraint 3 ($r > 0$, $2\pi \le \theta < 4\pi$)**: 
   * To keep the radius positive while pushing the angle into the next full rotation ($[2\pi, 4\pi)$), add one full revolution ($2\pi$) to the original angle.
   * $\frac{3\pi}{4} + 2\pi = \frac{11\pi}{4}$, resulting in the equivalent coordinate $\left(4, \frac{11\pi}{4}\right)$.
