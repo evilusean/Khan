@@ -20711,3 +20711,31 @@ https://www.youtube.com/watch?v=Ol_a6LEdo3M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * $\frac{3\pi}{4} + 2\pi = \frac{11\pi}{4}$, resulting in the equivalent coordinate $\left(4, \frac{11\pi}{4}\right)$.
 ## 2026-July-25 - How to Convert From Polar Coordinates to Rectangular Coordinates (Precalculus - Trigonometry 37) :
 https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=112
+
+### Converting Polar Coordinates to Rectangular Coordinates
+
+- **Core Concept**: Polar coordinates $(r, \theta)$ represent a distance ($r$) from the pole and an angle ($\theta$) along a polar axis. Rectangular coordinates $(x, y)$ represent horizontal and vertical distances.
+    
+- **Derivation**: By superimposing a polar coordinate system onto an $x-y$ coordinate grid, a right triangle is formed where the vertical side is $y$, the horizontal side is $x$, the hypotenuse is $r$, and the angle is $\theta$. Using right triangle trigonometry:
+    
+    - $\sin(\theta) = \frac{y}{r} \implies y = r \sin(\theta)$
+        
+    - $\cos(\theta) = \frac{x}{r} \implies x = r \cos(\theta)$
+        
+- **Conversion Formulas**:
+    
+    - $x = r \cos(\theta)$
+        
+    - $y = r \sin(\theta)$
+        
+- **Step-by-Step Process**:
+    
+    1. Identify $r$ and $\theta$ from the given polar coordinate $(r, \theta)$.
+        
+    2. Determine the quadrant of the point to establish a benchmark for checking work.
+        
+    3. Calculate the $x$-coordinate using $x = r \cos(\theta)$.
+        
+    4. Calculate the $y$-coordinate using $y = r \sin(\theta)$.
+        
+    5. Assemble the final rectangular coordinate pair as $(x, y)$.
