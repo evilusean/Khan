@@ -20725,3 +20725,20 @@ https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     3. Calculate the $x$-coordinate using $x = r \cos(\theta)$.
     4. Calculate the $y$-coordinate using $y = r \sin(\theta)$.
     5. Assemble the final rectangular coordinate pair as $(x, y)$.
+### Summary of Coordinate Conversion Formulas
+
+* **Coordinate Systems**: 
+  * **Polar**: $(r, \theta)$
+  * **Rectangular**: $(x, y)$
+
+* **Sine Relationship (Polar to Rectangular Y)**:
+  * $\sin(\theta) = \frac{y}{r}$
+  * Solving for $y$ yields: $y = r \sin(\theta)$
+
+* **Cosine Relationship (Polar to Rectangular X)**:
+  * $\cos(\theta) = \frac{x}{r}$
+  * Solving for $x$ yields: $x = r \cos(\theta)$
+
+* **Tangent Relationship (Rectangular to Polar Angle)**:
+  * $\tan(\theta) = \frac{y}{x}$
+  * Solving for $\theta$ yields: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
