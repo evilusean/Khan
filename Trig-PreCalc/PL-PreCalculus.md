@@ -20710,4 +20710,4 @@ https://www.youtube.com/watch?v=Ol_a6LEdo3M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * To keep the radius positive while pushing the angle into the next full rotation ($[2\pi, 4\pi)$), add one full revolution ($2\pi$) to the original angle.
   * $\frac{3\pi}{4} + 2\pi = \frac{11\pi}{4}$, resulting in the equivalent coordinate $\left(4, \frac{11\pi}{4}\right)$.
 ## 2026-July-25 - How to Convert From Polar Coordinates to Rectangular Coordinates (Precalculus - Trigonometry 37) :
-
+https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=112
