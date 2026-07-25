@@ -20738,3 +20738,22 @@ https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Tangent Relationship (Rectangular to Polar Angle)**:
 	  * $\tan(\theta) = \frac{y}{x}$
 	  * Solving for $\theta$ yields: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
+### Converting Polar Coordinates $(4, \frac{3\pi}{2})$ to Rectangular Coordinates
+
+* **Identify $r$ and $\theta$**:
+  * $r = 4$
+  * $\theta = \frac{3\pi}{2}$
+
+* **Determine the Quadrant / Axis Position**:
+  * An angle of $\frac{3\pi}{2}$ combined with a positive radius of $4$ lies directly on the negative $y$-axis (quadrant angle, not in a specific quadrant).
+
+* **Calculate the $y$-Coordinate**:
+  * Formula: $y = r \sin(\theta)$
+  * Calculation: $y = 4 \sin\left(\frac{3\pi}{2}\right) = 4(-1) = -4$
+
+* **Calculate the $x$-Coordinate**:
+  * Formula: $x = r \cos(\theta)$
+  * Calculation: $x = 4 \cos\left(\frac{3\pi}{2}\right) = 4(0) = 0$
+
+* **Final Rectangular Coordinate**:
+  * $(x, y) = (0, -4)$
