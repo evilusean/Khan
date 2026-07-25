@@ -20682,8 +20682,6 @@ https://www.youtube.com/watch?v=Ol_a6LEdo3M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * Reflects $180^\circ$ ($\pi$ radians) in the opposite direction across the pole to arrive at the identical location.
 * **Conversion Relationships**:
   * Converting $\left(-3, \frac{2\pi}{3}\right)$ by adding/subtracting $\pi$ and flipping the sign of $r$ shows it is equivalent to both $\left(3, \frac{5\pi}{3}\right)$ and $\left(3, -\frac{\pi}{3}\right)$.
-### Detailed Breakdown of Polar Coordinate Conversions
-
 ### Comprehensive Explanation of Each Representation
 * **Converting $(-2, 0)$ to $(2, \pi)$**:
   * **Starting Point**: $(-2, 0)$ means an angle of $\theta = 0$ (lying directly on the polar axis) and a negative distance of $r = -2$.
@@ -20693,10 +20691,10 @@ https://www.youtube.com/watch?v=Ol_a6LEdo3M&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * **Starting Point**: $(-3, \pi)$ means an angle of $\theta = \pi$ and a negative distance of $r = -3$.
   * **The Process**: Going to an angle of $\pi$ points you to the left along the horizontal axis. A negative radius of $-3$ means you walk in the opposite direction (to the right, toward $\theta = 0$), turning the distance positive. This brings the final point to $(3, 0)$.
 
-* **Analyzing $\left(2, -\frac{5\pi}{4}\right)**:
+* **Analyzing $\left(2, -\frac{5\pi}{4}\right)$**:
   * **Starting Point**: A positive radius of $r = 2$ combined with a negative angle of $\theta = -\frac{5\pi}{4}$.
   * **The Process**: The negative sign on the angle means you measure clockwise from the polar axis instead of counterclockwise. Moving clockwise by $\frac{5\pi}{4}$ ($225^\circ$) places you in the upper-left quadrant, and going outward by $r = 2$ units places the point directly on that ray.
 
-* **Converting $\left(-3, 120^\circ\right)$ to $\left(3, 300^\circ\right)$ and $\left(3, -60^\circ\right)**:
+* **Converting $\left(-3, 120^\circ\right)$ to $\left(3, 300^\circ\right)$ and $\left(3, -60^\circ\right)$**:
   * **Starting Point**: An angle of $120^\circ$ (which equals $\frac{2\pi}{3}$ radians) paired with a negative radius of $r = -3$.
   * **The Process**: An angle of $120^\circ$ points into the upper-left quadrant. Because $r = -3$ is negative, you must reflect it 180 degrees across the pole into the opposite quadrant. Adding or subtracting $180^\circ$ ($1\pi$ radians) to $120^\circ$ gives either $300^\circ$ or $-60^\circ$, and making the distance positive changes $-3$ to $3$. This yields the alternative equivalent coordinates $\left(3, 300^\circ\right)$ and $\left(3, -60^\circ\right)$.
