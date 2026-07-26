@@ -20767,21 +20767,16 @@ https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Rectangular Coordinate**:
   * $(x, y) = (-2, 0)$
 ### Converting Polar Coordinates (6, 150°) to Rectangular Coordinates
-
 * **Identify $r$ and $\theta$**:
   * $r = 6$
   * $\theta = 150^\circ$
-
 * **Determine the Quadrant**:
   * An angle of $150^\circ$ with a positive radius of $r = 6$ places the point in **Quadrant 2**.
-
 * **Calculate the $x$-Coordinate**:
   * Formula: $x = r \cos(\theta)$
   * Calculation: $x = 6 \cos(150^\circ) = 6 \left(-\frac{\sqrt{3}}{2}\right) = -3\sqrt{3}$
-
 * **Calculate the $y$-Coordinate**:
   * Formula: $y = r \sin(\theta)$
   * Calculation: $y = 6 \sin(150^\circ) = 6 \left(\frac{1}{2}\right) = 3$
-
 * **Final Rectangular Coordinate**:
   * $(x, y) = (-3\sqrt{3}, 3)$ (which correctly lies in Quadrant 2)
