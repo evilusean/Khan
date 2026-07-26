@@ -20753,21 +20753,16 @@ https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Rectangular Coordinate**:
   * $(x, y) = (0, -4)$
 ### Converting Polar Coordinates (-2, 0) to Rectangular Coordinates
-
 * **Identify $r$ and $\theta$**:
-  * $r = -2$
-  * $\theta = 0$
-
+	  * $r = -2$
+	  * $\theta = 0$
 * **Determine the Quadrant / Axis Position**:
   * An angle of $0$ points along the positive polar axis, but because the radius is negative ($r = -2$), the position is reflected across the pole onto the negative $x$-axis (quadrant angle).
-
 * **Calculate the $x$-Coordinate**:
-  * Formula: $x = r \cos(\theta)$
-  * Calculation: $x = -2 \cos(0) = -2(1) = -2$
-
+	  * Formula: $x = r \cos(\theta)$
+	  * Calculation: $x = -2 \cos(0) = -2(1) = -2$
 * **Calculate the $y$-Coordinate**:
-  * Formula: $y = r \sin(\theta)$
-  * Calculation: $y = -2 \sin(0) = -2(0) = 0$
-
+	  * Formula: $y = r \sin(\theta)$
+	  * Calculation: $y = -2 \sin(0) = -2(0) = 0$
 * **Final Rectangular Coordinate**:
   * $(x, y) = (-2, 0)$
