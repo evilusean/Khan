@@ -20795,21 +20795,16 @@ https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Rectangular Coordinate**:
   * $(x, y) = (\sqrt{2}, -\sqrt{2})$ (which correctly lies in Quadrant 4)
 ### Converting Polar Coordinates (-3, -\frac{\pi}{3}) to Rectangular Coordinates
-
 * **Identify $r$ and $\theta$**:
   * $r = -3$
   * $\theta = -\frac{\pi}{3}$
-
 * **Determine the Quadrant**:
   * An angle of $-\frac{\pi}{3}$ points into Quadrant 4, but because the radius is negative ($r = -3$), the position is reflected across the pole into **Quadrant 2**.
-
 * **Calculate the $x$-Coordinate**:
   * Formula: $x = r \cos(\theta)$
   * Calculation: $x = -3 \cos\left(-\frac{\pi}{3}\right) = -3 \left(\frac{1}{2}\right) = -\frac{3}{2}$
-
 * **Calculate the $y$-Coordinate**:
   * Formula: $y = r \sin(\theta)$
   * Calculation: $y = -3 \sin\left(-\frac{\pi}{3}\right) = -3 \left(-\frac{\sqrt{3}}{2}\right) = \frac{3\sqrt{3}}{2}$
-
 * **Final Rectangular Coordinate**:
   * $(x, y) = \left(-\frac{3}{2}, \frac{3\sqrt{3}}{2}\right)$ (which correctly lies in Quadrant 2)
