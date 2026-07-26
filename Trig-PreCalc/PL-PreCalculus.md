@@ -20837,3 +20837,4 @@ https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Rectangular Coordinate**:
   * $(x, y) \approx (-4.98, -3.85)$ (which correctly lies in Quadrant 3)
 ## 2026-July-26 - How to Convert From Rectangular Coordinates to Polar Coordinates (Precalculus - Trigonometry 38) :
+https://www.youtube.com/watch?v=klxI0yvJFrg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=114
