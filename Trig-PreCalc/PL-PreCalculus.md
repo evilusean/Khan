@@ -20851,3 +20851,24 @@ https://www.youtube.com/watch?v=klxI0yvJFrg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     2. Plot the point on a coordinate grid to visually determine its correct quadrant.
     3. Calculate the radius $r = \sqrt{x^2 + y^2}$.
     4. Calculate $\theta = \tan^{-1}\left(\frac{y}{x}\right)$ and adjust the angle by adding $\pi$ or $2\pi$ depending on the quadrant rules.
+### Converting Rectangular Coordinates (3, 0) to Polar Coordinates
+
+* **Identify $x$ and $y$**:
+  * $x = 3$
+  * $y = 0$
+
+* **Plot the Point**:
+  * Plotting the point $(3, 0)$ places it directly on the positive $x$-axis, between Quadrant 4 and Quadrant 1.
+
+* **Calculate the Radius ($r$)**:
+  * Formula: $r = \sqrt{x^2 + y^2}$
+  * Calculation: $r = \sqrt{3^2 + 0^2} = \sqrt{9} = 3$
+  * The positive value is kept to represent the direct distance from the pole.
+
+* **Calculate the Angle ($\theta$)**:
+  * Formula: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
+  * Calculation: $\theta = \tan^{-1}\left(\frac{0}{3}\right) = \tan^{-1}(0) = 0$
+  * Since the point lies between Quadrants 4 and 1, tangent inverse gives the correct angle natively without needing any adjustments.
+
+* **Final Polar Coordinate**:
+  * $(r, \theta) = (3, 0)$
