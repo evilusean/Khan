@@ -20780,22 +20780,17 @@ https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * Calculation: $y = 6 \sin(150^\circ) = 6 \left(\frac{1}{2}\right) = 3$
 * **Final Rectangular Coordinate**:
   * $(x, y) = (-3\sqrt{3}, 3)$ (which correctly lies in Quadrant 2)
-### Converting Polar Coordinates (-2, 3\pi/4) to Rectangular Coordinates
-
+### Converting Polar Coordinates ($-2, 3\pi/4$) to Rectangular Coordinates
 * **Identify $r$ and $\theta$**:
   * $r = -2$
   * $\theta = \frac{3\pi}{4}$
-
 * **Determine the Quadrant**:
   * An angle of $\frac{3\pi}{4}$ points into Quadrant 2, but because the radius is negative ($r = -2$), the position is reflected across the pole into **Quadrant 4**.
-
 * **Calculate the $x$-Coordinate**:
   * Formula: $x = r \cos(\theta)$
   * Calculation: $x = -2 \cos\left(\frac{3\pi}{4}\right) = -2 \left(-\frac{\sqrt{2}}{2}\right) = \sqrt{2}$
-
 * **Calculate the $y$-Coordinate**:
   * Formula: $y = r \sin(\theta)$
   * Calculation: $y = -2 \sin\left(\frac{3\pi}{4}\right) = -2 \left(\frac{\sqrt{2}}{2}\right) = -\sqrt{2}$
-
 * **Final Rectangular Coordinate**:
   * $(x, y) = (\sqrt{2}, -\sqrt{2})$ (which correctly lies in Quadrant 4)
