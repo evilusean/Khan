@@ -20794,7 +20794,7 @@ https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * Calculation: $y = -2 \sin\left(\frac{3\pi}{4}\right) = -2 \left(\frac{\sqrt{2}}{2}\right) = -\sqrt{2}$
 * **Final Rectangular Coordinate**:
   * $(x, y) = (\sqrt{2}, -\sqrt{2})$ (which correctly lies in Quadrant 4)
-### Converting Polar Coordinates (-3, -\frac{\pi}{3}) to Rectangular Coordinates
+### Converting Polar Coordinates ($-3, -\frac{\pi}{3}$) to Rectangular Coordinates
 * **Identify $r$ and $\theta$**:
   * $r = -3$
   * $\theta = -\frac{\pi}{3}$
@@ -20808,3 +20808,31 @@ https://www.youtube.com/watch?v=nyab0CZK2BE&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * Calculation: $y = -3 \sin\left(-\frac{\pi}{3}\right) = -3 \left(-\frac{\sqrt{3}}{2}\right) = \frac{3\sqrt{3}}{2}$
 * **Final Rectangular Coordinate**:
   * $(x, y) = \left(-\frac{3}{2}, \frac{3\sqrt{3}}{2}\right)$ (which correctly lies in Quadrant 2)
+### Converting Polar Coordinates (-3.1, 182°) to Rectangular Coordinates
+* **Identify $r$ and $\theta$**:
+  * $r = -3.1$
+  * $\theta = 182^\circ$
+* **Determine the Quadrant**:
+  * An angle of $182^\circ$ points slightly past $180^\circ$ into Quadrant 3, but because the radius is negative ($r = -3.1$), the position is reflected across the pole into **Quadrant 1**.
+* **Calculate the $x$-Coordinate**:
+  * Formula: $x = r \cos(\theta)$
+  * Calculation: $x = -3.1 \cos(182^\circ) \approx 3.10$
+* **Calculate the $y$-Coordinate**:
+  * Formula: $y = r \sin(\theta)$
+  * Calculation: $y = -3.1 \sin(182^\circ) \approx 0.11$
+* **Final Rectangular Coordinate**:
+  * $(x, y) \approx (3.10, 0.11)$ (which correctly lies in Quadrant 1)
+### Converting Polar Coordinates (6, 3.8 rad) to Rectangular Coordinates
+* **Identify $r$ and $\theta$**:
+  * $r = 6$
+  * $\theta = 3.8$ radians
+* **Determine the Quadrant**:
+  * Since $\pi \approx 3.14$ radians, an angle of $3.8$ radians is slightly past $\pi$, placing the ray in Quadrant 3. Combined with a positive radius of $r = 6$, the point remains in **Quadrant 3**.
+* **Calculate the $x$-Coordinate**:
+  * Formula: $x = r \cos(\theta)$
+  * Calculation: $x = 6 \cos(3.8) \approx -4.98$
+* **Calculate the $y$-Coordinate**:
+  * Formula: $y = r \sin(\theta)$
+  * Calculation: $y = 6 \sin(3.8) \approx -3.85$
+* **Final Rectangular Coordinate**:
+  * $(x, y) \approx (-4.98, -3.85)$ (which correctly lies in Quadrant 3)
