@@ -20972,3 +20972,32 @@ https://www.youtube.com/watch?v=klxI0yvJFrg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * $(r, \theta) \approx (2.25, 4.356)$
 ## 2026-July-27 - How to Convert From Rectangular Equations to Polar Equations (Precalculus - Trigonometry 39) :
 https://www.youtube.com/watch?v=blUobGPSMCk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=114
+### Summary: How to Convert Rectangular Equations to Polar Equations
+
+* **Core Objectives of Conversion**:
+  * Converting rectangular equations (using $x$ and $y$) into polar equations (using $r$ and $\theta$).
+  * Polar equations are often simpler for graphing relations that are not functions in rectangular coordinates, such as circles, ellipses, and cardioids.
+
+* **Fundamental Substitution Rules**:
+  * **Rule 1 (The Primary Target)**: Look for $x^2 + y^2$ and replace it directly with $r^2$, derived from the Pythagorean theorem ($r^2 = x^2 + y^2$).
+  * **Rule 2 (Individual Variables)**: If $x^2 + y^2$ is not available or cannot be factored out, substitute individual variables using $x = r \cos(\theta)$ and $y = r \sin(\theta)$.
+
+* **Step-by-Step Conversion Examples**:
+  * **Example 1 (Circle with Center at the Pole)**:
+    * Given: $2x^2 + 2y^2 = 3$
+    * Factor out the coefficient: $2(x^2 + y^2) = 3$
+    * Substitute $r^2$ for $(x^2 + y^2)$: $2r^2 = 3$
+    * Solve for $r$: $r^2 = \frac{3}{2} \implies r = \sqrt{\frac{3}{2}} = \frac{\sqrt{6}}{2}$ (keeping $r$ positive).
+  * **Example 2 (Cardioid / Shifted Circle Pattern)**:
+    * Given: $x^2 + y^2 = x$
+    * Substitute $r^2$ for $x^2 + y^2$ and $r \cos(\theta)$ for $x$: $r^2 = r \cos(\theta)$
+    * Move terms to one side and factor: $r^2 - r \cos(\theta) = 0 \implies r(r - \cos(\theta)) = 0$
+    * Solutions yield $r = 0$ or $r = \cos(\theta)$. Depending on textbook conventions regarding the origin point $r = 0$, dividing by $r$ gives $r = \cos(\theta)$.
+  * **Example 3 (Parabola Conversion)**:
+    * Given: $x^2 = 4y$
+    * Substitute $x = r \cos(\theta)$ and $y = r \sin(\theta)$: $(r \cos(\theta))^2 = 4(r \sin(\theta))$
+    * Simplify: $r^2 \cos^2(\theta) = 4r \sin(\theta)$
+    * Solve explicitly for $r$ using trigonometric identities if required: $r = 4 \tan(\theta) \sec(\theta)$.
+  * **Example 4 (Lines and Angles)**:
+    * Vertical and horizontal lines convert using basic trigonometric reciprocals (e.g., $x = 3 \implies r = 3 \sec(\theta)$ and $y = 7 \implies r = 7 \csc(\theta)$).
+    * Diagonal lines through the origin simplify via $\tan(\theta) = \frac{y}{x}$, resulting in constant angle equations like $\theta = \frac{\pi}{3}$.
