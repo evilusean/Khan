@@ -20918,3 +20918,55 @@ https://www.youtube.com/watch?v=klxI0yvJFrg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 	    * $\theta = -\frac{\pi}{4} + \pi = -\frac{\pi}{4} + \frac{4\pi}{4} = \frac{3\pi}{4}$
 * **Final Polar Coordinate**:
   * $(r, \theta) = \left(3\sqrt{2}, \frac{3\pi}{4}\right)$
+### Converting Rectangular Coordinates ($-2, -2\sqrt{3}$) to Polar Coordinates
+* **Identify $x$ and $y$**:
+  * $x = -2$
+  * $y = -2\sqrt{3}$
+* **Plot the Point**:
+	  * Plotting the point $(-2, -2\sqrt{3})$ places it in Quadrant 3 because both $x$ and $y$ are negative.
+* **Calculate the Radius ($r$)**:
+	  * Formula: $r = \sqrt{x^2 + y^2}$
+	  * Calculation: $r = \sqrt{(-2)^2 + (-2\sqrt{3})^2} = \sqrt{4 + (4 \times 3)} = \sqrt{4 + 12} = \sqrt{16} = 4$
+	  * We keep the positive value $r = 4$ to represent the direct distance from the pole.
+* **Calculate the Angle ($\theta$)**:
+	  * Formula: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
+	  * Calculation: $\theta = \tan^{-1}\left(\frac{-2\sqrt{3}}{-2}\right) = \tan^{-1}(\sqrt{3}) = \frac{\pi}{3}$
+	  * Because the inverse tangent function has a restricted range of $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$, it outputs an angle in Quadrant 1 ($\frac{\pi}{3}$) when given a positive ratio.
+	  * Since our actual point is located in Quadrant 3, we must **add $\pi$** to the calculator's result to land in the correct quadrant:
+	    * $\theta = \frac{\pi}{3} + \pi = \frac{\pi}{3} + \frac{3\pi}{3} = \frac{4\pi}{3}$
+* **Final Polar Coordinate**:
+  * $(r, \theta) = \left(4, \frac{4\pi}{3}\right)$
+### Converting Rectangular Coordinates (1.3, -2.1) to Polar Coordinates
+* **Identify $x$ and $y$**:
+	  * $x = 1.3$
+	  * $y = -2.1$
+* **Plot the Point**:
+  * Plotting the point $(1.3, -2.1)$ places it in Quadrant 4 because $x$ is positive and $y$ is negative.
+* **Calculate the Radius ($r$)**:
+	  * Formula: $r = \sqrt{x^2 + y^2}$
+	  * Calculation: $r = \sqrt{(1.3)^2 + (-2.1)^2} = \sqrt{1.69 + 4.41} = \sqrt{6.1} \approx 2.47$
+	  * We keep the positive value $r \approx 2.47$ to represent the direct distance from the pole.
+* **Calculate the Angle ($\theta$)**:
+	  * Formula: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
+	  * Calculation: $\theta = \tan^{-1}\left(\frac{-2.1}{1.3}\right) \approx \tan^{-1}(-1.6154) \approx -1.015\text{ radians}$ (or $\approx -58.17^\circ$)
+	  * Since our point is in Quadrant 4 and the inverse tangent function outputs values in the interval $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$, this angle natively lands in the correct quadrant without any adjustments.
+* **Final Polar Coordinate**:
+  * $(r, \theta) \approx (2.47, -1.015)$
+### Converting Rectangular Coordinates (-0.8, -2.1) to Polar Coordinates
+* **Identify $x$ and $y$**:
+  * $x = -0.8$
+  * $y = -2.1$
+* **Plot the Point**:
+  * Plotting the point $(-0.8, -2.1)$ places it in Quadrant 3 because both $x$ and $y$ are negative.
+* **Calculate the Radius ($r$)**:
+	  * Formula: $r = \sqrt{x^2 + y^2}$
+	  * Calculation: $r = \sqrt{(-0.8)^2 + (-2.1)^2} = \sqrt{0.64 + 4.41} = \sqrt{5.05} \approx 2.25$
+	  * We keep the positive value $r \approx 2.25$ to represent the direct distance from the pole.
+* **Calculate the Angle ($\theta$)**:
+	  * Formula: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
+	  * Calculation: $\theta = \tan^{-1}\left(\frac{-2.1}{-0.8}\right) = \tan^{-1}(2.625) \approx 1.213\text{ radians}$ (or $\approx 69.44^\circ$)
+	  * Because the inverse tangent function is restricted to outputs between $-\frac{\pi}{2}$ and $\frac{\pi}{2}$, it outputs an angle in Quadrant 1 when given a positive ratio.
+	  * Since our actual point is located in Quadrant 3, we must **add $\pi$** to the calculator's result to land in the correct quadrant:
+	    * $\theta \approx 1.213 + \pi \approx 1.213 + 3.1416 = 4.355\text{ radians}$ (or $\approx 249.44^\circ$)
+* **Final Polar Coordinate**:
+  * $(r, \theta) \approx (2.25, 4.356)$
