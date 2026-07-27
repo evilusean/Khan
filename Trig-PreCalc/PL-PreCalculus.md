@@ -20971,3 +20971,4 @@ https://www.youtube.com/watch?v=klxI0yvJFrg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Polar Coordinate**:
   * $(r, \theta) \approx (2.25, 4.356)$
 ## 2026-July-27 - How to Convert From Rectangular Equations to Polar Equations (Precalculus - Trigonometry 39) :
+https://www.youtube.com/watch?v=blUobGPSMCk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=114
