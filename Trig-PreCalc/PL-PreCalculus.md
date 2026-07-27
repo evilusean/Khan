@@ -20884,23 +20884,18 @@ https://www.youtube.com/watch?v=klxI0yvJFrg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Polar Coordinate**:
   * $(r, \theta) = \left(2, \frac{\pi}{2}\right)$
 ### Converting Rectangular Coordinates (1, -1) to Polar Coordinates
-
 * **Identify $x$ and $y$**:
   * $x = 1$
   * $y = -1$
-
 * **Plot the Point**:
   * Plotting the point $(1, -1)$ places it in Quadrant 4 because $x$ is positive and $y$ is negative.
-
 * **Calculate the Radius ($r$)**:
-  * Formula: $r = \sqrt{x^2 + y^2}$
-  * Calculation: $r = \sqrt{1^2 + (-1)^2} = \sqrt{1 + 1} = \sqrt{2}$
-  * We use the positive root $r = \sqrt{2}$ to represent the direct distance from the origin.
-
+	  * Formula: $r = \sqrt{x^2 + y^2}$
+	  * Calculation: $r = \sqrt{1^2 + (-1)^2} = \sqrt{1 + 1} = \sqrt{2}$
+	  * We use the positive root $r = \sqrt{2}$ to represent the direct distance from the origin.
 * **Calculate the Reference Angle and $\theta$**:
-  * Formula: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
-  * Calculation: $\theta = \tan^{-1}\left(\frac{-1}{1}\right) = \tan^{-1}(-1) = -\frac{\pi}{4}$
-  * Since our point is in Quadrant 4 and the inverse tangent function outputs values in the interval $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$, this angle of $-\frac{\pi}{4}$ natively lands in the correct quadrant without any further adjustments. Alternatively, in the positive interval $[0, 2\pi)$, this can also be expressed as $\frac{7\pi}{4}$.
-
+	  * Formula: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
+	  * Calculation: $\theta = \tan^{-1}\left(\frac{-1}{1}\right) = \tan^{-1}(-1) = -\frac{\pi}{4}$
+	  * Since our point is in Quadrant 4 and the inverse tangent function outputs values in the interval $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$, this angle of $-\frac{\pi}{4}$ natively lands in the correct quadrant without any further adjustments. Alternatively, in the positive interval $[0, 2\pi)$, this can also be expressed as $\frac{7\pi}{4}$.
 * **Final Polar Coordinate**:
   * $(r, \theta) = \left(\sqrt{2}, -\frac{\pi}{4}\right)$ (or equivalently $\left(\sqrt{2}, \frac{7\pi}{4}\right)$)
