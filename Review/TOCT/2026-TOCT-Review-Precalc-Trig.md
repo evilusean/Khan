@@ -1753,3 +1753,16 @@ https://www.youtube.com/watch?v=qTXlBIgny10&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * **Finding $\omega$:** Using the period formula $T = \frac{2\pi}{\omega} \implies 4 = \frac{2\pi}{\omega}$, solving yields $\omega = \frac{\pi}{2}$.
   * **Function Model:** Since it starts away from rest from a pulled-down position, use negative cosine:
     $$d = -7 \cos\left(\frac{\pi}{2} t\right)$$
+### Converting Rectangular to Polar Coordinates
+- **Core Concept & Formulas**:
+    - Converting from rectangular coordinates $(x, y)$ to polar coordinates $(r, \theta)$ involves the Pythagorean theorem for the radius ($r = \sqrt{x^2 + y^2}$) and tangent inverse for the angle ($\theta = \tan^{-1}\left(\frac{y}{x}\right)$).
+    - The radius $r$ is typically kept positive to represent the direct distance from the pole/origin.
+- **The Quadrant Caveat with $\tan^{-1}$**:
+    - Because tangent inverse ($\tan^{-1}$) is restricted to outputs between $-\frac{\pi}{2}$ and $\frac{\pi}{2}$, it natively provides correct angles only for points in **Quadrants 1 and 4**.
+    - **Quadrants 2 and 3**: If a rectangular point lies in Quadrant 2 or 3, the initial $\tan^{-1}$ result will point into Quadrant 4 or 1. To correct this, **add $\pi$** to the calculated angle.
+    - **Quadrant 4 (Positive Angles)**: If a point is in Quadrant 4 and a positive angle is required, **add $2\pi$** to the negative angle returned by the calculator.
+- **Step-by-Step Procedure Demonstrated in Examples**:
+    1. Identify and write down the coordinates $x$ and $y$.
+    2. Plot the point on a coordinate grid to visually determine its correct quadrant.
+    3. Calculate the radius $r = \sqrt{x^2 + y^2}$.
+    4. Calculate $\theta = \tan^{-1}\left(\frac{y}{x}\right)$ and adjust the angle by adding $\pi$ or $2\pi$ depending on the quadrant rules.
