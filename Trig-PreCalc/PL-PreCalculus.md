@@ -20970,3 +20970,4 @@ https://www.youtube.com/watch?v=klxI0yvJFrg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 	    * $\theta \approx 1.213 + \pi \approx 1.213 + 3.1416 = 4.355\text{ radians}$ (or $\approx 249.44^\circ$)
 * **Final Polar Coordinate**:
   * $(r, \theta) \approx (2.25, 4.356)$
+## 2026-July-27 - How to Convert From Rectangular Equations to Polar Equations (Precalculus - Trigonometry 39) :
