@@ -20868,23 +20868,18 @@ https://www.youtube.com/watch?v=klxI0yvJFrg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Polar Coordinate**:
   * $(r, \theta) = (3, 0)$
 ### Converting Rectangular Coordinates (0, 2) to Polar Coordinates
-
 * **Identify $x$ and $y$**:
   * $x = 0$
   * $y = 2$
-
 * **Plot the Point**:
-  * Plotting the point $(0, 2)$ places it directly on the positive $y$-axis.
-
+	  * Plotting the point $(0, 2)$ places it directly on the positive $y$-axis.
 * **Calculate the Radius ($r$)**:
-  * Formula: $r = \sqrt{x^2 + y^2}$
-  * Calculation: $r = \sqrt{0^2 + 2^2} = \sqrt{4} = 2$
-  * Keep the positive value for $r$ to represent the direct distance from the pole.
-
+	  * Formula: $r = \sqrt{x^2 + y^2}$
+	  * Calculation: $r = \sqrt{0^2 + 2^2} = \sqrt{4} = 2$
+	  * Keep the positive value for $r$ to represent the direct distance from the pole.
 * **Calculate the Angle ($\theta$)**:
-  * Formula: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
-  * Calculation: $\theta = \tan^{-1}\left(\frac{2}{0}\right)$, which is undefined.
-  * Tangent is undefined at multiples of $\frac{\pi}{2}$ (such as $\frac{\pi}{2}$, $-\frac{\pi}{2}$, and $\frac{3\pi}{2}$). Using our plotted graph, we select the specific angle that corresponds to our point on the positive $y$-axis, which is $\theta = \frac{\pi}{2}$.
-
+	  * Formula: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
+	  * Calculation: $\theta = \tan^{-1}\left(\frac{2}{0}\right)$, which is undefined.
+	  * Tangent is undefined at multiples of $\frac{\pi}{2}$ (such as $\frac{\pi}{2}$, $-\frac{\pi}{2}$, and $\frac{3\pi}{2}$). Using our plotted graph, we select the specific angle that corresponds to our point on the positive $y$-axis, which is $\theta = \frac{\pi}{2}$.
 * **Final Polar Coordinate**:
   * $(r, \theta) = \left(2, \frac{\pi}{2}\right)$
