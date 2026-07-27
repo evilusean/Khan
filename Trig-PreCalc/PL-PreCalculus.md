@@ -20973,15 +20973,12 @@ https://www.youtube.com/watch?v=klxI0yvJFrg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 ## 2026-July-27 - How to Convert From Rectangular Equations to Polar Equations (Precalculus - Trigonometry 39) :
 https://www.youtube.com/watch?v=blUobGPSMCk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=114
 ### Summary: How to Convert Rectangular Equations to Polar Equations
-
 * **Core Objectives of Conversion**:
-  * Converting rectangular equations (using $x$ and $y$) into polar equations (using $r$ and $\theta$).
-  * Polar equations are often simpler for graphing relations that are not functions in rectangular coordinates, such as circles, ellipses, and cardioids.
-
+	  * Converting rectangular equations (using $x$ and $y$) into polar equations (using $r$ and $\theta$).
+	  * Polar equations are often simpler for graphing relations that are not functions in rectangular coordinates, such as circles, ellipses, and cardioids.
 * **Fundamental Substitution Rules**:
-  * **Rule 1 (The Primary Target)**: Look for $x^2 + y^2$ and replace it directly with $r^2$, derived from the Pythagorean theorem ($r^2 = x^2 + y^2$).
-  * **Rule 2 (Individual Variables)**: If $x^2 + y^2$ is not available or cannot be factored out, substitute individual variables using $x = r \cos(\theta)$ and $y = r \sin(\theta)$.
-
+	  * **Rule 1 (The Primary Target)**: Look for $x^2 + y^2$ and replace it directly with $r^2$, derived from the Pythagorean theorem ($r^2 = x^2 + y^2$).
+	  * **Rule 2 (Individual Variables)**: If $x^2 + y^2$ is not available or cannot be factored out, substitute individual variables using $x = r \cos(\theta)$ and $y = r \sin(\theta)$.
 * **Step-by-Step Conversion Examples**:
   * **Example 1 (Circle with Center at the Pole)**:
     * Given: $2x^2 + 2y^2 = 3$
