@@ -20900,26 +20900,21 @@ https://www.youtube.com/watch?v=klxI0yvJFrg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Polar Coordinate**:
   * $(r, \theta) = \left(\sqrt{2}, -\frac{\pi}{4}\right)$ (or equivalently $\left(\sqrt{2}, \frac{7\pi}{4}\right)$)
 ### Converting Rectangular Coordinates (-3, 3) to Polar Coordinates
-
 * **Identify $x$ and $y$**:
-  * $x = -3$
-  * $y = 3$
-
+	  * $x = -3$
+	  * $y = 3$
 * **Plot the Point**:
   * Plotting the point $(-3, 3)$ places it in Quadrant 2 because $x$ is negative and $y$ is positive.
-
 * **Calculate the Radius ($r$)**:
-  * Formula: $r = \sqrt{x^2 + y^2}$
-  * Calculation: $r = \sqrt{(-3)^2 + 3^2} = \sqrt{9 + 9} = \sqrt{18}$
-  * Simplifying the radical: $\sqrt{18} = \sqrt{9 \times 2} = 3\sqrt{2}$
-  * We keep the positive radius $r = 3\sqrt{2}$ to represent the direct distance from the pole.
-
+	  * Formula: $r = \sqrt{x^2 + y^2}$
+	  * Calculation: $r = \sqrt{(-3)^2 + 3^2} = \sqrt{9 + 9} = \sqrt{18}$
+	  * Simplifying the radical: $\sqrt{18} = \sqrt{9 \times 2} = 3\sqrt{2}$
+	  * We keep the positive radius $r = 3\sqrt{2}$ to represent the direct distance from the pole.
 * **Calculate the Angle ($\theta$)**:
-  * Formula: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
-  * Calculation: $\theta = \tan^{-1}\left(\frac{3}{-3}\right) = \tan^{-1}(-1) = -\frac{\pi}{4}$
-  * Because tangent inverse is restricted to outputs between $-\frac{\pi}{2}$ and $\frac{\pi}{2}$, it outputs an angle in Quadrant 4 ($-\frac{\pi}{4}$). 
-  * Since our actual point is in Quadrant 2, we must **add $\pi$** to the calculator's result to land in the correct quadrant:
-    * $\theta = -\frac{\pi}{4} + \pi = -\frac{\pi}{4} + \frac{4\pi}{4} = \frac{3\pi}{4}$
-
+	  * Formula: $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
+	  * Calculation: $\theta = \tan^{-1}\left(\frac{3}{-3}\right) = \tan^{-1}(-1) = -\frac{\pi}{4}$
+	  * Because tangent inverse is restricted to outputs between $-\frac{\pi}{2}$ and $\frac{\pi}{2}$, it outputs an angle in Quadrant 4 ($-\frac{\pi}{4}$). 
+	  * Since our actual point is in Quadrant 2, we must **add $\pi$** to the calculator's result to land in the correct quadrant:
+	    * $\theta = -\frac{\pi}{4} + \pi = -\frac{\pi}{4} + \frac{4\pi}{4} = \frac{3\pi}{4}$
 * **Final Polar Coordinate**:
   * $(r, \theta) = \left(3\sqrt{2}, \frac{3\pi}{4}\right)$
