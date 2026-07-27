@@ -1754,6 +1754,8 @@ https://www.youtube.com/watch?v=qTXlBIgny10&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * **Function Model:** Since it starts away from rest from a pulled-down position, use negative cosine:
     $$d = -7 \cos\left(\frac{\pi}{2} t\right)$$
 ### Converting Rectangular to Polar Coordinates
+- Again, the inverses, I don't understand, will need to review, and make anki cards / already update trig cheatsheet website - Also, knowing that tan can only be between $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$ , I got a few of them wrong, because you need to add pi if it is in quadrant 2 or 3, and adding 2pi for positive? also had trouble finding theta from tangent
+
 - **Core Concept & Formulas**:
     - Converting from rectangular coordinates $(x, y)$ to polar coordinates $(r, \theta)$ involves the Pythagorean theorem for the radius ($r = \sqrt{x^2 + y^2}$) and tangent inverse for the angle ($\theta = \tan^{-1}\left(\frac{y}{x}\right)$).
     - The radius $r$ is typically kept positive to represent the direct distance from the pole/origin.
