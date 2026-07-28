@@ -21047,3 +21047,18 @@ https://www.youtube.com/watch?v=blUobGPSMCk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 	  * Rewrite using trigonometric reciprocals ($1 / \sin(\theta) = \csc(\theta)$): $r = 7 \csc(\theta)$.
 * **Final Polar Equation**:
   * $r = 7 \csc(\theta)$
+### Converting Rectangular Equation $y = \sqrt{3}x$ to Polar Coordinates
+
+* **Identify Strategy**:
+  * Divide both sides by $x$ to form the ratio $\frac{y}{x}$, which corresponds to $\tan(\theta)$.
+
+* **Divide by $x$**:
+  * $\frac{y}{x} = \sqrt{3}$
+
+* **Substitute and Solve for $\theta$**:
+  * Replace $\frac{y}{x}$ with $\tan(\theta)$: $\tan(\theta) = \sqrt{3}$.
+  * Take the inverse tangent of both sides to find $\theta$: $\theta = \tan^{-1}(\sqrt{3})$.
+  * Evaluate the angle from the unit circle: $\theta = \frac{\pi}{3}$.
+
+* **Final Polar Equation**:
+  * $\theta = \frac{\pi}{3}$
