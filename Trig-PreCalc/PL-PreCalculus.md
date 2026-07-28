@@ -21060,4 +21060,77 @@ https://www.youtube.com/watch?v=blUobGPSMCk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * $\theta = \frac{\pi}{3}$
 ## 2026-July-28 - How to Convert From Polar Equations to Rectangular Equations (Precalculus - Trigonometry 40) :
 https://www.youtube.com/watch?v=QjU4_fO8V2I&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=115
+### Converting Polar Equations to Rectangular Equations
 
+### Introduction and Core Formulas
+* Transitioning from polar coordinates/equations to rectangular coordinates/equations relies on the foundational relationships between Cartesian coordinates $(x, y)$ and polar coordinates $(r, \theta)$:
+  * $x^2 + y^2 = r^2$ [00:00:30]
+  * $x = r \cos(\theta)$ [00:00:31]
+  * $y = r \sin(\theta)$ [00:00:32]
+* To reverse this process, replace $r^2$ with $x^2 + y^2$, $r \cos(\theta)$ with $x$, and $r \sin(\theta)$ with $y$ [00:00:52].
+* A helpful algebraic strategy is multiplying both sides of an equation by $r$ when an equation lacks an immediate $r^2$, $r \cos(\theta)$, or $r \sin(\theta)$ term [00:01:14].
+
+### Example 1: Multiplying by $r$
+* **Equation:** $r = \cos(\theta)$ [00:01:28]
+* **Steps:**
+  1. Multiply both sides by $r$ to obtain $r^2 = r \cos(\theta)$ [00:01:53].
+  2. Substitute $r^2$ with $x^2 + y^2$ and $r \cos(\theta)$ with $x$ [00:02:07].
+* **Result:** $x^2 + y^2 = x$ [00:02:29]
+
+### Example 2: Handling Remaining $r$ Terms
+* **Equation:** $r = \sin(\theta) + 1$ [00:03:26]
+* **Steps:**
+  1. Multiply both sides by $r$ to distribute: $r^2 = r \sin(\theta) + r$ [00:03:55].
+  2. Substitute $r^2$ with $x^2 + y^2$ and $r \sin(\theta)$ with $y$ [00:04:16].
+  3. Since an isolated $r$ remains, solve for $r$ using $r = \sqrt{x^2 + y^2}$ [00:04:53].
+* **Result:** $x^2 + y^2 = y + \sqrt{x^2 + y^2}$ [00:05:03]
+
+### Example 3: Powers and Exponents
+* **Equation:** $r^2 = \cos(\theta)$ [00:05:58]
+* **Steps:**
+  1. Multiply both sides by $r$ (writing it as $r^2 \cdot r$) to match terms without raising to a high power unnecessarily [00:06:23].
+  2. Substitute $r^2$ with $(x^2 + y^2)$, $r$ with $\sqrt{x^2 + y^2}$ (or $(x^2 + y^2)^{1/2}$), and $r \cos(\theta)$ with $x$ [00:07:11].
+  3. Combine exponents of common bases ($1 + \frac{1}{2} = \frac{3}{2}$) [00:07:52].
+* **Result:** $(x^2 + y^2)^{3/2} = x$ [00:08:11]
+
+### Example 4: Utilizing Trigonometric Identities First
+* **Equation:** $r = \frac{\sin(\theta)}{\cos^2(\theta)}$ [00:11:27]
+* **Steps:**
+  1. Split the fraction into $\frac{\sin(\theta)}{\cos(\theta)} \cdot \frac{1}{\cos(\theta)}$ to expose identities [00:11:42].
+  2. Rewrite using $\tan(\theta)$ and $\sec(\theta)$, or multiply both sides by $\cos(\theta)$ to clear denominators: $r \cos(\theta) = \frac{\sin(\theta)}{\cos(\theta)}$ [00:12:28].
+  3. Substitute $r \cos(\theta) = x$ and $\tan(\theta) = \frac{y}{x}$ [00:12:54].
+  4. Multiply both sides by $x$ [00:13:10].
+* **Result:** $y = x^2$ [00:13:21]
+
+### Example 5: Reciprocal Functions
+* **Equation:** $r = 3 \csc(\theta)$ [00:14:41]
+* **Steps:**
+  1. Convert cosecant to its reciprocal identity: $r = \frac{3}{\sin(\theta)}$ [00:14:51].
+  2. Multiply both sides by $\sin(\theta)$ to eliminate fractions: $r \sin(\theta) = 3$ [00:15:18].
+  3. Substitute $r \sin(\theta) = y$ [00:15:24].
+* **Result:** $y = 3$ [00:15:25]
+
+### Example 6: Higher Power Adjustments
+* **Equation:** $r = \sin(\theta) \cos^2(\theta)$ [00:15:58]
+* **Steps:**
+  1. Multiply both sides by $r^3$ to generate enough components for substitution: $r^4 = r \sin(\theta) \cdot r^2 \cos^2(\theta)$ [00:16:34].
+  2. Rewrite the left side as $(r^2)^2$ and group the right side into $(r \sin(\theta))$ and $(r \cos(\theta))^2$ [00:17:36].
+  3. Substitute rectangular equivalents [00:18:02].
+* **Result:** $(x^2 + y^2)^2 = y x^2$ [00:18:36]
+
+### Example 7: Constant Radius Circles
+* **Equation:** $r = 2$ [00:17:36]
+* **Steps:**
+  1. Square both sides: $r^2 = 4$ [00:21:02].
+  2. Substitute $r^2$ with $x^2 + y^2$ [00:21:17].
+* **Result:** $x^2 + y^2 = 4$ [00:21:27]
+
+### Example 8: Avoiding Equation "Explosions"
+* **Equation:** $r - r \cos(\theta) = 4$ (derived from $r = \frac{4}{1 - \cos(\theta)}$) [00:22:12]
+* **Steps:**
+  1. Clear the fraction first by multiplying the denominator across [00:22:24].
+  2. Avoid multiplying by an extra $r$ if it complicates terms unnecessarily; instead, replace $r \cos(\theta)$ with $x$ and $r$ with $\sqrt{x^2 + y^2}$ directly [00:23:23].
+  3. Isolate the radical and square both sides to simplify [00:24:11].
+* **Result:** $y^2 - 8x - 16 = 0$ [00:24:51]
+
+http://www.youtube.com/watch?v=QjU4_fO8V2I
