@@ -21059,3 +21059,5 @@ https://www.youtube.com/watch?v=blUobGPSMCk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Polar Equation**:
   * $\theta = \frac{\pi}{3}$
 ## 2026-July-28 - How to Convert From Polar Equations to Rectangular Equations (Precalculus - Trigonometry 40) :
+https://www.youtube.com/watch?v=QjU4_fO8V2I&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=115
+
