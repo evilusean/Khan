@@ -21038,16 +21038,12 @@ https://www.youtube.com/watch?v=blUobGPSMCk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Polar Equation**:
   * $r = 3 \sec(\theta)$
 ### Converting Rectangular Equation $y = 7$ to Polar Coordinates
-
 * **Identify Strategy**:
   * Since there is no $x^2 + y^2$ term, substitute the individual variable $y$ with $r \sin(\theta)$.
-
 * **Substitute Variables**:
   * Replace $y$ with $r \sin(\theta)$: $r \sin(\theta) = 7$.
-
 * **Solve for $r$**:
-  * Divide both sides by $\sin(\theta)$: $r = \frac{7}{\sin(\theta)}$.
-  * Rewrite using trigonometric reciprocals ($1 / \sin(\theta) = \csc(\theta)$): $r = 7 \csc(\theta)$.
-
+	  * Divide both sides by $\sin(\theta)$: $r = \frac{7}{\sin(\theta)}$.
+	  * Rewrite using trigonometric reciprocals ($1 / \sin(\theta) = \csc(\theta)$): $r = 7 \csc(\theta)$.
 * **Final Polar Equation**:
   * $r = 7 \csc(\theta)$
