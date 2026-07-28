@@ -21009,3 +21009,27 @@ https://www.youtube.com/watch?v=blUobGPSMCk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 	  * Rewrite the equation: $r^2 \sin(2\theta) = 1$.
 * **Final Polar Equation**:
   * $r^2 \sin(2\theta) = 1$
+### Converting Rectangular Equation $(x-3)^2 + y^2 = 9$ to Polar Coordinates
+
+* **Identify Strategy**:
+  * Distribute the binomial squared term first to collect and group $x^2$ and $y^2$ together before substituting.
+
+* **Distribute and Expand**:
+  * Expand $(x - 3)^2$: $x^2 - 6x + 9 + y^2 = 9$.
+
+* **Simplify Constants and Group Terms**:
+  * Subtract $9$ from both sides to cancel out the constants: $x^2 - 6x + y^2 = 0$.
+  * Group $x^2$ and $y^2$ together: $(x^2 + y^2) - 6x = 0$.
+
+* **Substitute Polar Components**:
+  * Replace $(x^2 + y^2)$ with $r^2$.
+  * Replace $x$ with $r \cos(\theta)$.
+  * Equation becomes: $r^2 - 6r \cos(\theta) = 0$.
+
+* **Factor and Solve**:
+  * Factor out $r$: $r(r - 6 \cos(\theta)) = 0$.
+  * This yields solutions $r = 0$ or $r = 6 \cos(\theta)$.
+  * Excluding the origin point according to standard textbook conventions, we arrive at the final polar form.
+
+* **Final Polar Equation**:
+  * $r = 6 \cos(\theta)$
