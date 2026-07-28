@@ -21028,16 +21028,12 @@ https://www.youtube.com/watch?v=blUobGPSMCk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Final Polar Equation**:
   * $r = 6 \cos(\theta)$
 ### Converting Rectangular Equation $x = 3$ to Polar Coordinates
-
 * **Identify Strategy**:
   * Since there is no $x^2 + y^2$ term, substitute the individual variable $x$ with $r \cos(\theta)$.
-
 * **Substitute Variables**:
   * Replace $x$ with $r \cos(\theta)$: $r \cos(\theta) = 3$.
-
 * **Solve for $r$**:
-  * Divide both sides by $\cos(\theta)$: $r = \frac{3}{\cos(\theta)}$.
-  * Rewrite using trigonometric reciprocals ($1 / \cos(\theta) = \sec(\theta)$): $r = 3 \sec(\theta)$.
-
+	  * Divide both sides by $\cos(\theta)$: $r = \frac{3}{\cos(\theta)}$.
+	  * Rewrite using trigonometric reciprocals ($1 / \cos(\theta) = \sec(\theta)$): $r = 3 \sec(\theta)$.
 * **Final Polar Equation**:
   * $r = 3 \sec(\theta)$
