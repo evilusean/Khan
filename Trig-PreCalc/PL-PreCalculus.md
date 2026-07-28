@@ -20999,17 +20999,13 @@ https://www.youtube.com/watch?v=blUobGPSMCk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     * Vertical and horizontal lines convert using basic trigonometric reciprocals (e.g., $x = 3 \implies r = 3 \sec(\theta)$ and $y = 7 \implies r = 7 \csc(\theta)$).
     * Diagonal lines through the origin simplify via $\tan(\theta) = \frac{y}{x}$, resulting in constant angle equations like $\theta = \frac{\pi}{3}$.
 ### Converting Rectangular Equation $2xy = 1$ to Polar Coordinates
-
 * **Identify Strategy**:
   * Since there is no $x^2 + y^2$ term immediately available, substitute individual variables using $x = r \cos(\theta)$ and $y = r \sin(\theta)$.
-
 * **Substitute Variables**:
   * Substitute $r \cos(\theta)$ for $x$ and $r \sin(\theta)$ for $y$: $2(r \cos(\theta))(r \sin(\theta)) = 1$.
-
 * **Multiply and Simplify**:
-  * Multiply the factors to get $r^2 \cdot 2 \sin(\theta) \cos(\theta) = 1$.
-  * Recognize the double angle identity for sine ($2 \sin(\theta) \cos(\theta) = \sin(2\theta)$).
-  * Rewrite the equation: $r^2 \sin(2\theta) = 1$.
-
+	  * Multiply the factors to get $r^2 \cdot 2 \sin(\theta) \cos(\theta) = 1$.
+	  * Recognize the double angle identity for sine ($2 \sin(\theta) \cos(\theta) = \sin(2\theta)$).
+	  * Rewrite the equation: $r^2 \sin(2\theta) = 1$.
 * **Final Polar Equation**:
   * $r^2 \sin(2\theta) = 1$
