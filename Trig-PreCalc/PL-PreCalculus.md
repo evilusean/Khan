@@ -21150,15 +21150,11 @@ https://www.youtube.com/watch?v=d-KXFtkLZVA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   3. Multiply by $x$: $y = x$ [00:06:06].
 * **Result:** $y = x$ [00:06:12]
 * **Graph Description:** A diagonal line passing through the origin at a $45^\circ$ angle, where $r$ can be any positive or negative value along that ray [00:06:31].
-
 ### Example 3: Constant $y$ (Horizontal Lines)
 * **Equation:** $r \sin(\theta) = 2$ [00:07:09]
-
 * **Steps:**
   1. Substitute $r \sin(\theta)$ with $y$ [00:07:41].
-
 * **Result:** $y = 2$ [00:07:53]
-
 * **Graph Description:** A horizontal line at $y = 2$ [00:07:56]. In polar form, both $r$ and $\theta$ must change simultaneously to plot points along this line [00:08:15].
 
 
