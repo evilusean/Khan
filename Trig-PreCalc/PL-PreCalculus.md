@@ -21137,13 +21137,10 @@ https://www.youtube.com/watch?v=d-KXFtkLZVA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   * $\tan(\theta) = \frac{y}{x}$ [00:01:31]
 ### Example 1: Constant Radius (Circles)
 * **Equation:** $r = 3$ [00:01:40]
-
 * **Steps:**
   1. Square both sides: $r^2 = 9$ [00:02:16].
   2. Substitute $r^2$ with $x^2 + y^2$ [00:02:32].
-
 * **Result:** $x^2 + y^2 = 9$ [00:02:46]
-
 * **Graph Description:** A circle centered at the origin $(0,0)$ with a radius of $3$ [00:03:13]. Since $r$ is constant for any angle $\theta$, the distance from the pole remains $3$ [00:03:52].
 
 
