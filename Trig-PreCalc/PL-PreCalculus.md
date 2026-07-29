@@ -21124,3 +21124,4 @@ https://www.youtube.com/watch?v=QjU4_fO8V2I&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   3. Isolate the radical and square both sides to simplify [00:24:11].
 * **Result:** $y^2 - 8x - 16 = 0$ [00:24:51]
 ## 2026-July-29 - How to Graph Basic Polar Equations (Precalculus - Trigonometry 41) :
+https://www.youtube.com/watch?v=d-KXFtkLZVA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=117
