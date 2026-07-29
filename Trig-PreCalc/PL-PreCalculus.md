@@ -21144,14 +21144,11 @@ https://www.youtube.com/watch?v=d-KXFtkLZVA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Graph Description:** A circle centered at the origin $(0,0)$ with a radius of $3$ [00:03:13]. Since $r$ is constant for any angle $\theta$, the distance from the pole remains $3$ [00:03:52].
 ### Example 2: Constant Angle (Diagonal Lines)
 * **Equation:** $\theta = \frac{\pi}{4}$ [00:04:43]
-
 * **Steps:**
   1. Take the tangent of both sides: $\tan(\theta) = \tan\left(\frac{\pi}{4}\right)$ [00:05:25].
   2. Substitute $\tan(\theta) = \frac{y}{x}$ and evaluate $\tan\left(\frac{\pi}{4}\right) = 1$ [00:05:50].
   3. Multiply by $x$: $y = x$ [00:06:06].
-
 * **Result:** $y = x$ [00:06:12]
-
 * **Graph Description:** A diagonal line passing through the origin at a $45^\circ$ angle, where $r$ can be any positive or negative value along that ray [00:06:31].
 
 
