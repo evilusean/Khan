@@ -21123,3 +21123,4 @@ https://www.youtube.com/watch?v=QjU4_fO8V2I&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   2. Avoid multiplying by an extra $r$ if it complicates terms unnecessarily; instead, replace $r \cos(\theta)$ with $x$ and $r$ with $\sqrt{x^2 + y^2}$ directly [00:23:23].
   3. Isolate the radical and square both sides to simplify [00:24:11].
 * **Result:** $y^2 - 8x - 16 = 0$ [00:24:51]
+## 2026-July-29 - How to Graph Basic Polar Equations (Precalculus - Trigonometry 41) :
