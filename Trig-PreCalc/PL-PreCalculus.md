@@ -21125,3 +21125,15 @@ https://www.youtube.com/watch?v=QjU4_fO8V2I&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Result:** $y^2 - 8x - 16 = 0$ [00:24:51]
 ## 2026-July-29 - How to Graph Basic Polar Equations (Precalculus - Trigonometry 41) :
 https://www.youtube.com/watch?v=d-KXFtkLZVA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=117
+### How to Graph Basic Polar Equations
+
+### Introduction and Overview
+* The lesson covers graphing basic polar equations by converting them into rectangular equations to build intuition for their shapes [00:00:18].
+* Advanced polar graphing relies on symmetry rather than rectangular conversion [00:00:38].
+* Core identities used:
+  * $x^2 + y^2 = r^2$ [00:01:12]
+  * $x = r \cos(\theta)$ [00:01:20]
+  * $y = r \sin(\theta)$ [00:01:26]
+  * $\tan(\theta) = \frac{y}{x}$ [00:01:31]
+
+
