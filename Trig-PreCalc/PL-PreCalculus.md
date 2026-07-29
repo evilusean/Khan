@@ -21163,6 +21163,20 @@ https://www.youtube.com/watch?v=d-KXFtkLZVA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 * **Result:** $x = -3$ [00:09:27]
 * **Graph Description:** A vertical line at $x = -3$ [00:10:02].
 
+### Example 5: Shifted Circles Involving Sine (Vertical Shift)
+
+* **Equation:** $r = 4 \sin(\theta)$ [00:11:33]
+
+* **Steps:**
+  1. Multiply both sides by $r$: $r^2 = 4r \sin(\theta)$ [00:12:30].
+  2. Substitute $r^2$ with $x^2 + y^2$ and $r \sin(\theta)$ with $y$: $x^2 + y^2 = 4y$ [00:13:01].
+  3. Rearrange terms: $x^2 + y^2 - 4y = 0$ [00:13:30].
+  4. Complete the square for the $y$ terms by adding $4$ to both sides [00:15:35]: 
+     $x^2 + (y - 2)^2 = 4$ [00:16:55]
+
+* **Graph Description:** A circle with a radius of $2$ (since $r^2 = 4 \implies r = 2$) [00:18:18] shifted **up** by $2$ units along the $y$-axis (due to the opposite sign inside $(y - 2)^2$) [00:17:59].
+
+
 
 
 
