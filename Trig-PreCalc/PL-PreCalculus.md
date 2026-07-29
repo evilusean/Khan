@@ -21156,6 +21156,16 @@ https://www.youtube.com/watch?v=d-KXFtkLZVA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   1. Substitute $r \sin(\theta)$ with $y$ [00:07:41].
 * **Result:** $y = 2$ [00:07:53]
 * **Graph Description:** A horizontal line at $y = 2$ [00:07:56]. In polar form, both $r$ and $\theta$ must change simultaneously to plot points along this line [00:08:15].
+### Example 4: Constant $x$ (Vertical Lines)
+
+* **Equation:** $r \cos(\theta) = -3$ [00:09:14]
+
+* **Steps:**
+  1. Substitute $r \cos(\theta)$ with $x$ [00:09:25].
+
+* **Result:** $x = -3$ [00:09:27]
+
+* **Graph Description:** A vertical line at $x = -3$ [00:10:02].
 
 
 
