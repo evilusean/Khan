@@ -21171,18 +21171,14 @@ https://www.youtube.com/watch?v=d-KXFtkLZVA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   4. Complete the square for the $y$ terms by adding $4$ to both sides [00:15:35]: 
      $x^2 + (y - 2)^2 = 4$ [00:16:55]
 * **Graph Description:** A circle with a radius of $2$ (since $r^2 = 4 \implies r = 2$) [00:18:18] shifted **up** by $2$ units along the $y$-axis (due to the opposite sign inside $(y - 2)^2$) [00:17:59].
-
 ### Example 6: Shifted Circles Involving Cosine (Horizontal Shift)
 * **Equation:** $r = -2 \cos(\theta)$ [00:19:24]
-
 * **Steps:**
   1. Multiply both sides by $r$: $r^2 = -2r \cos(\theta)$ [00:19:35].
   2. Substitute rectangular equivalents: $x^2 + y^2 = -2x$ [00:19:59].
   3. Rearrange and complete the square for $x$: $x^2 + 2x + 1 + y^2 = 1$ [00:21:28].
   4. Factor into standard form: $(x + 1)^2 + y^2 = 1$ [00:21:50].
-
 * **Result:** $(x + 1)^2 + y^2 = 1$ [00:21:50]
-
 * **Graph Description:** A circle with a radius of $1$ [00:22:22] shifted **left** by $1$ unit along the $x$-axis [00:23:06].
 
 
