@@ -21273,12 +21273,10 @@ Using the symmetry about the $\frac{\pi}{2}$ axis, Professor Leonard evaluates p
     * **Point:** $\left(-2, \frac{\pi}{2}\right)$ — Along the vertical $\frac{\pi}{2}$ ray, go $2$ units in the opposite direction.
 ### Example 4: Lemniscates ($r^2 = 4\sin(2\theta)$)
 * **Equation:** $r^2 = 4\sin(2\theta)$
-
 * **Symmetry Check:**
   * Polar axis: Fails
   * $\frac{\pi}{2}$ axis: Fails
   * Pole: Passes
-
 * **Point-by-Point Evaluation:**
   * **At $\theta = 0$:** $r^2 = 4\sin(2(0)) = 0 \implies r = 0$
     * **Point:** $(0, 0)$ — At the pole.
