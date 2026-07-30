@@ -21206,4 +21206,26 @@ When polar equations are too difficult or impossible to convert into rectangular
   * $\frac{\pi}{2}$ axis: Passes
   * Pole: Fails
 * **Plotting & Shape:** Because it is symmetric about the vertical axis ($\theta = \frac{\pi}{2}$), values only need to be calculated from $-\frac{\pi}{2}$ to $\frac{\pi}{2}$ and then mirrored. This produces a **cardioid** (heart-shaped curve).
+#### Point-by-Point Evaluation and Plotting for $r = 1 - \sin\theta$
 
+#### Overview of Evaluated Points
+Using the symmetry about the $\frac{\pi}{2}$ axis, Professor Leonard evaluates points from angle $\theta = -\frac{\pi}{2}$ to $\theta = \frac{\pi}{2}$ to plot the right half of the cardioid before mirroring it to the left side. Each coordinate pair $(r, \theta)$ dictates an angle ray and the corresponding distance $r$ from the pole:
+
+* **At $\theta = -\frac{\pi}{2}$:** $\sin\left(-\frac{\pi}{2}\right) = -1 \implies r = 1 - (-1) = 2$.
+  * **Point:** $(2, -\frac{\pi}{2})$ — Along the negative vertical ray, go out a distance of $2$ units from the pole.
+* **At $\theta = -\frac{\pi}{3}$:** $\sin\left(-\frac{\pi}{3}\right) = -\frac{\\sqrt{3}}{2} \approx -0.87 \implies r = 1 - (-0.87) \approx 1.87$.
+  * **Point:** $\left(1.87, -\frac{\pi}{3}\right)$ — Along the $-\frac{\pi}{3}$ ray, go out $1.87$ units.
+* **At $\theta = -\frac{\pi}{4}$:** $\sin\left(-\frac{\pi}{4}\right) = -\frac{\sqrt{2}}{2} \approx -0.71 \implies r = 1 - (-0.71) \approx 1.71$.
+  * **Point:** $\left(1.7, -\frac{\pi}{4}\right)$ — Along the $-\frac{\pi}{4}$ ray, go out $1.7$ units.
+* **At $\theta = -\frac{\pi}{6}$:** $\sin\left(-\frac{\pi}{6}\right) = -\frac{1}{2} = -0.5 \implies r = 1 - (-0.5) = 1.5$.
+  * **Point:** $\left(1.5, -\frac{\pi}{6}\right)$ — Along the $-\frac{\pi}{6}$ ray, go out $1.5$ units.
+* **At $\theta = 0$:** $\sin(0) = 0 \implies r = 1 - 0 = 1$.
+  * **Point:** $(1, 0)$ — Along the horizontal polar axis, go out $1$ unit.
+* **At $\theta = \frac{\pi}{6}$:** $\sin\left(\frac{\pi}{6}\right) = \frac{1}{2} = 0.5 \implies r = 1 - 0.5 = 0.5$.
+  * **Point:** $\left(\frac{1}{2}, \frac{\pi}{6}\right)$ — Along the $\frac{\pi}{6}$ ray, go out $0.5$ units (closer to the pole).
+* **At $\theta = \frac{\pi}{4}$:** $\sin\left(\frac{\pi}{4}\right) = \frac{\sqrt{2}}{2} \approx 0.71 \implies r = 1 - 0.71 \approx 0.29$.
+  * **Point:** $\left(0.29, \frac{\pi}{4}\right)$ — Along the $\frac{\pi}{4}$ ray, go out $0.29$ units.
+* **At $\theta = \frac{\pi}{3}$:** $\sin\left(\frac{\pi}{3}\right) = \frac{\sqrt{3}}{2} \approx 0.87 \implies r = 1 - 0.87 \approx 0.13$.
+  * **Point:** $\left(0.13, \frac{\pi}{3}\right)$ — Along the $\frac{\pi}{3}$ ray, go out a very short distance of $0.13$ units.
+* **At $\theta = \frac{\pi}{2}$:** $\sin\left(\frac{\pi}{2}\right) = 1 \implies r = 1 - 1 = 0$.
+  * **Point:** $(0, \frac{\pi}{2})$ — At the angle $\frac{\pi}{2}$, the radius is $0$, landing directly on the pole (origin).
