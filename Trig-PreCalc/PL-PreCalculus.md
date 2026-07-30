@@ -21201,11 +21201,9 @@ When polar equations are too difficult or impossible to convert into rectangular
 
 ### Example 1: Cardioids ($r = 1 \pm \sin\theta$)
 * **Equation:** $r = 1 - \sin\theta$
-
 * **Symmetry Check:** 
   * Polar axis: Fails
   * $\frac{\pi}{2}$ axis: Passes
   * Pole: Fails
-
 * **Plotting & Shape:** Because it is symmetric about the vertical axis ($\theta = \frac{\pi}{2}$), values only need to be calculated from $-\frac{\pi}{2}$ to $\frac{\pi}{2}$ and then mirrored. This produces a **cardioid** (heart-shaped curve).
 
