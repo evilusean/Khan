@@ -21180,6 +21180,7 @@ https://www.youtube.com/watch?v=d-KXFtkLZVA&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
   4. Factor into standard form: $(x + 1)^2 + y^2 = 1$ [00:21:50].
 * **Result:** $(x + 1)^2 + y^2 = 1$ [00:21:50]
 * **Graph Description:** A circle with a radius of $1$ [00:22:22] shifted **left** by $1$ unit along the $x$-axis [00:23:06].
+## 2026-July-30 - How to Graph Advanced Polar Equations with Symmetry (Precalculus - Trigonometry 42) :
 
 
 
