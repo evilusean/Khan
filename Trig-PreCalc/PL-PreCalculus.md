@@ -21229,3 +21229,30 @@ Using the symmetry about the $\frac{\pi}{2}$ axis, Professor Leonard evaluates p
   * **Point:** $\left(0.13, \frac{\pi}{3}\right)$ — Along the $\frac{\pi}{3}$ ray, go out a very short distance of $0.13$ units.
 * **At $\theta = \frac{\pi}{2}$:** $\sin\left(\frac{\pi}{2}\right) = 1 \implies r = 1 - 1 = 0$.
   * **Point:** $(0, \frac{\pi}{2})$ — At the angle $\frac{\pi}{2}$, the radius is $0$, landing directly on the pole (origin).
+### Example 2: Limacons with Inner Loops ($r = 1 + 2\cos\theta$)
+* **Equation:** $r = 1 + 2\cos\theta$
+
+* **Symmetry Check:**
+  * Polar axis: Passes
+  * $\frac{\pi}{2}$ axis: Fails
+  * Pole: Fails
+
+* **Point-by-Point Evaluation:**
+  * **At $\theta = 0$:** $r = 1 + 2\cos(0) = 1 + 2(1) = 3$
+    * **Point:** $(3, 0)$ — Along the positive polar axis, go out $3$ units from the pole.
+  * **At $\theta = \frac{\pi}{6}$:** $r = 1 + 2\cos\left(\frac{\pi}{6}\right) = 1 + 2\left(\frac{\sqrt{3}}{2}\right) \approx 2.73$
+    * **Point:** $\left(2.7, \frac{\pi}{6}\right)$ — Along the $\frac{\pi}{6}$ ray, go out $2.7$ units.
+  * **At $\theta = \frac{\pi}{4}$:** $r = 1 + 2\cos\left(\frac{\pi}{4}\right) = 1 + 2\left(\frac{\sqrt{2}}{2}\right) \approx 2.41$
+    * **Point:** $\left(2.4, \frac{\pi}{4}\right)$ — Along the $\frac{\pi}{4}$ ray, go out $2.4$ units.
+  * **At $\theta = \frac{\pi}{3}$:** $r = 1 + 2\cos\left(\frac{\pi}{3}\right) = 1 + 2\left(\frac{1}{2}\right) = 2$
+    * **Point:** $(2, \frac{\pi}{3})$ — Along the $\frac{\pi}{3}$ ray, go out $2$ units.
+  * **At $\theta = \frac{\pi}{2}$:** $r = 1 + 2\cos\left(\frac{\pi}{2}\right) = 1 + 2(0) = 1$
+    * **Point:** $(1, \frac{\pi}{2})$ — Along the $\frac{\pi}{2}$ ray, go out $1$ unit.
+  * **At $\theta = \frac{2\pi}{3}$:** $r = 1 + 2\cos\left(\frac{2\pi}{3}\right) = 1 + 2\left(-\frac{1}{2}\right) = 0$
+    * **Point:** $(0, \frac{2\pi}{3})$ — At angle $\frac{2\pi}{3}$, the radius is $0$, landing at the pole.
+  * **At $\theta = \frac{3\pi}{4}$:** $r = 1 + 2\cos\left(\frac{3\pi}{4}\right) = 1 + 2\left(-\frac{\sqrt{2}}{2}\right) \approx -0.41$
+    * **Point:** $\left(-0.4, \frac{3\pi}{4}\right)$ — Go to the $\frac{3\pi}{4}$ ray, then travel $0.4$ units in the opposite direction.
+  * **At $\theta = \frac{5\pi}{6}$:** $r = 1 + 2\cos\left(\frac{5\pi}{6}\right) = 1 + 2\left(-\frac{\sqrt{3}}{2}\right) \approx -0.7$
+    * **Point:** $\left(-0.7, \frac{5\pi}{6}\right)$ — Go to the $\frac{5\pi}{6}$ ray, then travel $0.7$ units in the opposite direction.
+  * **At $\theta = \pi$:** $r = 1 + 2\cos(\pi) = 1 + 2(-1) = -1$
+    * **Point:** $(-1, \pi)$ — Go to the $\pi$ ray, then travel $1$ unit in the opposite direction.
