@@ -21271,3 +21271,23 @@ Using the symmetry about the $\frac{\pi}{2}$ axis, Professor Leonard evaluates p
     * **Point:** $\left(-1, \frac{\pi}{3}\right)$ — Along the $\frac{\pi}{3}$ ray, go $1$ unit in the opposite direction.
   * **At $\theta = \frac{\pi}{2}$:** $r = 2\cos\left(2\left(\frac{\pi}{2}\right)\right) = 2\cos(\pi) = 2(-1) = -2$
     * **Point:** $\left(-2, \frac{\pi}{2}\right)$ — Along the vertical $\frac{\pi}{2}$ ray, go $2$ units in the opposite direction.
+### Example 4: Lemniscates ($r^2 = 4\sin(2\theta)$)
+* **Equation:** $r^2 = 4\sin(2\theta)$
+
+* **Symmetry Check:**
+  * Polar axis: Fails
+  * $\frac{\pi}{2}$ axis: Fails
+  * Pole: Passes
+
+* **Point-by-Point Evaluation:**
+  * **At $\theta = 0$:** $r^2 = 4\sin(2(0)) = 0 \implies r = 0$
+    * **Point:** $(0, 0)$ — At the pole.
+  * **At $\theta = \frac{\pi}{6}$:** $r^2 = 4\sin\left(2\left(\frac{\pi}{6}\right)\right) = 4\left(\frac{\sqrt{3}}{2}\right) \approx 3.46 \implies r = \pm\sqrt{3.46} \approx \pm 1.9$
+    * **Point:** $\left(\pm 1.9, \frac{\pi}{6}\right)$ — Along the $\frac{\pi}{6}$ ray, go out $1.9$ units in both positive and negative directions.
+  * **At $\theta = \frac{\pi}{4}$:** $r^2 = 4\sin\left(2\left(\frac{\pi}{4}\right)\right) = 4(1) = 4 \implies r = \pm 2$
+    * **Point:** $(\pm 2, \frac{\pi}{4})$ — Along the $\frac{\pi}{4}$ ray, go out $2$ units forward and backward.
+  * **At $\theta = \frac{\pi}{3}$:** $r^2 = 4\sin\left(2\left(\frac{\pi}{3}\right)\right) = 4\left(\frac{\sqrt{3}}{2}\right) \approx 3.46 \implies r = \pm 1.9$
+    * **Point:** $\left(\pm 1.9, \frac{\pi}{3}\right)$ — Along the $\frac{\pi}{3}$ ray, go out $1.9$ units forward and backward.
+  * **At $\theta = \frac{\pi}{2}$:** $r^2 = 4\sin\left(2\left(\frac{\pi}{2}\right)\right) = 4(0) = 0 \implies r = 0$
+    * **Point:** $(0, \frac{\pi}{2})$ — At the pole.
+  * **For $\theta$ from $\frac{\pi}{2}$ to $\pi$:** $r^2 = 4\sin(2\theta)$ yields negative values under the radical, creating imaginary numbers that cannot be plotted.
