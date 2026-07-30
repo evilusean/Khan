@@ -21231,12 +21231,10 @@ Using the symmetry about the $\frac{\pi}{2}$ axis, Professor Leonard evaluates p
   * **Point:** $(0, \frac{\pi}{2})$ — At the angle $\frac{\pi}{2}$, the radius is $0$, landing directly on the pole (origin).
 ### Example 2: Limacons with Inner Loops ($r = 1 + 2\cos\theta$)
 * **Equation:** $r = 1 + 2\cos\theta$
-
 * **Symmetry Check:**
   * Polar axis: Passes
   * $\frac{\pi}{2}$ axis: Fails
   * Pole: Fails
-
 * **Point-by-Point Evaluation:**
   * **At $\theta = 0$:** $r = 1 + 2\cos(0) = 1 + 2(1) = 3$
     * **Point:** $(3, 0)$ — Along the positive polar axis, go out $3$ units from the pole.
@@ -21256,3 +21254,4 @@ Using the symmetry about the $\frac{\pi}{2}$ axis, Professor Leonard evaluates p
     * **Point:** $\left(-0.7, \frac{5\pi}{6}\right)$ — Go to the $\frac{5\pi}{6}$ ray, then travel $0.7$ units in the opposite direction.
   * **At $\theta = \pi$:** $r = 1 + 2\cos(\pi) = 1 + 2(-1) = -1$
     * **Point:** $(-1, \pi)$ — Go to the $\pi$ ray, then travel $1$ unit in the opposite direction.
+
