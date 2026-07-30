@@ -21254,4 +21254,22 @@ Using the symmetry about the $\frac{\pi}{2}$ axis, Professor Leonard evaluates p
     * **Point:** $\left(-0.7, \frac{5\pi}{6}\right)$ — Go to the $\frac{5\pi}{6}$ ray, then travel $0.7$ units in the opposite direction.
   * **At $\theta = \pi$:** $r = 1 + 2\cos(\pi) = 1 + 2(-1) = -1$
     * **Point:** $(-1, \pi)$ — Go to the $\pi$ ray, then travel $1$ unit in the opposite direction.
+### Example 3: Roses ($r = 2\cos(2\theta)$)
+* **Equation:** $r = 2\cos(2\theta)$
 
+* **Symmetry Check:**
+  * Polar axis: Passes
+  * $\frac{\pi}{2}$ axis: Passes
+  * Pole: Automatically passes
+
+* **Point-by-Point Evaluation:**
+  * **At $\theta = 0$:** $r = 2\cos(2(0)) = 2\cos(0) = 2(1) = 2$
+    * **Point:** $(2, 0)$ — Along the polar axis, go out $2$ units.
+  * **At $\theta = \frac{\pi}{6}$:** $r = 2\cos\left(2\left(\frac{\pi}{6}\right)\right) = 2\cos\left(\frac{\pi}{3}\right) = 2\left(\frac{1}{2}\right) = 1$
+    * **Point:** $(1, \frac{\pi}{6})$ — Along the $\frac{\pi}{6}$ ray, go out $1$ unit.
+  * **At $\theta = \frac{\pi}{4}$:** $r = 2\cos\left(2\left(\frac{\pi}{4}\right)\right) = 2\cos\left(\frac{\pi}{2}\right) = 2(0) = 0$
+    * **Point:** $(0, \frac{\pi}{4})$ — At angle $\frac{\pi}{4}$, the radius is $0$, landing at the pole.
+  * **At $\theta = \frac{\pi}{3}$:** $r = 2\cos\left(2\left(\frac{\pi}{3}\right)\right) = 2\cos\left(\frac{2\pi}{3}\right) = 2\left(-\frac{1}{2}\right) = -1$
+    * **Point:** $\left(-1, \frac{\pi}{3}\right)$ — Along the $\frac{\pi}{3}$ ray, go $1$ unit in the opposite direction.
+  * **At $\theta = \frac{\pi}{2}$:** $r = 2\cos\left(2\left(\frac{\pi}{2}\right)\right) = 2\cos(\pi) = 2(-1) = -2$
+    * **Point:** $\left(-2, \frac{\pi}{2}\right)$ — Along the vertical $\frac{\pi}{2}$ ray, go $2$ units in the opposite direction.
