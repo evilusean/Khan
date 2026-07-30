@@ -21188,17 +21188,13 @@ https://www.youtube.com/watch?v=I9BKbq2MVfg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
 When polar equations are too difficult or impossible to convert into rectangular equations easily, keeping them in polar form is preferred. To avoid plotting points across the entire unit circle, symmetry is tested and utilized to map out only a fraction of the points and mirror the rest.
 
 ---
-
 ### Symmetry Tests for Polar Equations
-
 1. **Symmetry about the Polar Axis (x-axis)**
    * **Test:** Replace $\theta$ with $-\theta$.
    * **Outcome:** If the simplified equation matches the original, the graph is symmetric about the polar axis. Cosine is an even function ($\cos(-\theta) = \cos(\theta)$), while sine is an odd function ($\sin(-\theta) = -\sin(\theta)$).
-
-2. **Symmetry about the Line $\theta = \frac{\pi}{2}$ (y-axis)**
+1. **Symmetry about the Line $\theta = \frac{\pi}{2}$ (y-axis)**
    * **Test:** Replace $\theta$ with $\pi - \theta$.
    * **Outcome:** If the simplified equation matches the original (often utilizing sum/difference identities), the graph is symmetric about the vertical axis.
-
-3. **Symmetry about the Pole (Origin)**
+1. **Symmetry about the Pole (Origin)**
    * **Test:** Replace $r$ with $-r$ (or replace $\theta$ with $\pi + \theta$).
    * **Outcome:** If the equation remains equivalent, the graph is symmetric about the pole.
