@@ -21256,12 +21256,10 @@ Using the symmetry about the $\frac{\pi}{2}$ axis, Professor Leonard evaluates p
     * **Point:** $(-1, \pi)$ — Go to the $\pi$ ray, then travel $1$ unit in the opposite direction.
 ### Example 3: Roses ($r = 2\cos(2\theta)$)
 * **Equation:** $r = 2\cos(2\theta)$
-
 * **Symmetry Check:**
   * Polar axis: Passes
   * $\frac{\pi}{2}$ axis: Passes
   * Pole: Automatically passes
-
 * **Point-by-Point Evaluation:**
   * **At $\theta = 0$:** $r = 2\cos(2(0)) = 2\cos(0) = 2(1) = 2$
     * **Point:** $(2, 0)$ — Along the polar axis, go out $2$ units.
