@@ -3,6 +3,9 @@ End : 30July2026
 
 https://www.youtube.com/playlist?list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
 
+Everything you should know after completing Professor Leonards PrecaLc :
+https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=MCwxLDIsMyw0LDUsNiw3LDgsOSwxMCwxMSwxMiwxMywxNCwxNSwxNiwxNywxOSwyMCwyMSwyMiwyMywyNCwyNSwyNiwyNywyOCwyOSwzMCwzMSwzNCwzNSwzNiwzNywzOCwzOQ==
+
 ## 2026-March-06 - Intro to Precalculus :
 https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=1
 - College Algebra +  Trigonometry = PreCalculus
