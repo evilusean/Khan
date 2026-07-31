@@ -1770,6 +1770,7 @@ https://www.youtube.com/watch?v=qTXlBIgny10&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5Dj
     4. Calculate $\theta = \tan^{-1}\left(\frac{y}{x}\right)$ and adjust the angle by adding $\pi$ or $2\pi$ depending on the quadrant rules.
 ### How to Graph Advanced Polar Equations with Symmetry (Precalculus - Trigonometry 42) :
 https://www.youtube.com/watch?v=I9BKbq2MVfg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=118
+- I understand the concept of using $(-\theta) (\pi - \theta) (-r)$ as tests to find symmetry along the polar axis(x), y-axis, and origin, I will probably forget - but in practice, you can just take the negative '-' and do it more tedious way - realistically, when will I ever be graphing polar coords? - still should review, might be important
 #### How to Graph Advanced Polar Equations with Symmetry
 
 #### Overview & Purpose
