@@ -2,6 +2,8 @@
 Find All Formulas you need for trig and make a cheetsheet - any you don't know, look up
 
 Also Fundamental Identities : Reciprocal Identities (sin = $\frac{1}{csc}$, etc), Quotient Identities (tan$\theta$ = $\frac{sin\theta}{cos\theta}$), Pythagorean Identities ($sin^2\theta+cos^2\theta=1$, etc), Negative-Angle Identities ($\sin(-\theta) = -\sin(\theta)$, etc), Sum and Difference Identities - You will need to remember these before calc
+
+## Basic Trig Formulas + Concepts :
 ### Comprehensive Trigonometric Identities Reference
 
 #### Fundamental Identities
@@ -276,78 +278,6 @@ $$\text{Area} = \frac{1}{2} r^2 \theta$$
 If the angle $\theta$ is measured in **degrees**, the formula is adjusted to represent the fraction of the $360^\circ$ circle:
 
 $$\text{Area} = \frac{\theta}{360} \times \pi r^2$$
-### Area of a Sector Calculation ($r = 9\text{m}, \theta = \frac{3\pi}{2}$)
-
-This note details the calculation for a sector that covers $270^\circ$ (three-quarters) of a circle with a radius of $9$ meters.
-
----
-
-#### 1. Given Parameters
-* **Radius ($r$):** $9\text{ m}$
-* **Central Angle ($\theta$):** $\frac{3\pi}{2}$ radians
-
-
-
----
-
-#### 2. Step-by-Step Solution
-Using the area formula for radians:
-$$A = \frac{1}{2} r^2 \theta$$
-
-**Step 1: Substitute the values**
-$$A = \frac{1}{2} (9)^2 \left( \frac{3\pi}{2} \right)$$
-
-**Step 2: Square the radius**
-$$A = \frac{1}{2} (81) \left( \frac{3\pi}{2} \right)$$
-
-**Step 3: Multiply the terms**
-$$A = \frac{243\pi}{4}$$
-
----
-
-#### 3. Final Results
-* **Exact Area:** $\frac{243\pi}{4} \text{ m}^2$
-* **Decimal Approximation:** $\approx 190.85 \text{ m}^2$ (using $\pi \approx 3.14159$)
-
-> [!TIP]
-> To quickly check your work, calculate the area of the full circle: $A = \pi(9)^2 = 81\pi$. Since our sector is $\frac{3}{4}$ of the circle, $81\pi \times 0.75 = 60.75\pi$, which is exactly $\frac{243\pi}{4}$.
-### Area of a Sector Calculation ($r = 13\text{ yd}, \theta = 60^\circ$)
-
-This note calculates the area of a sector with a radius of $13\text{ yards}$ and a central angle of $60^\circ$.
-
----
-#### 1. Given Parameters
-* **Radius ($r$):** $13\text{ yd}$
-* **Central Angle ($\theta$):** $60^\circ$
-
----
-
-#### 2. Solution (Degree Formula)
-Since the angle is provided in degrees, we use the formula:
-$$A = \frac{\theta}{360} \times \pi r^2$$
-
-**Step 1: Substitute the values**
-$$A = \frac{60}{360} \times \pi (13)^2$$
-
-**Step 2: Simplify the fraction and square the radius**
-The fraction $\frac{60}{360}$ simplifies to $\frac{1}{6}$.
-$$A = \frac{1}{6} \times \pi (169)$$
-
-**Step 3: Final Calculation**
-$$A = \frac{169\pi}{6}$$
-
----
-
-#### 3. Final Results
-* **Exact Area:** $\frac{169\pi}{6} \text{ yd}^2$
-* **Decimal Approximation:** $\approx 88.49 \text{ yd}^2$
-
----
-
-#### 4. Alternative Method (Converting to Radians)
-If you prefer the radian formula ($A = \frac{1}{2}r^2\theta$):
-1.  **Convert $\theta$ to radians:** $60^\circ = \frac{\pi}{3}$ radians.
-2.  **Calculate:** $A = \frac{1}{2}(13)^2(\frac{\pi}{3}) = \frac{1}{2}(169)(\frac{\pi}{3}) = \frac{169\pi}{6} \text{ yd}^2$.
 ### Unit Circle and Circular Functions
 #### 1. The Unit Circle Equation
 The algebraic representation of the unit circle is:
