@@ -2,6 +2,30 @@
 Find All Formulas you need for trig and make a cheetsheet - any you don't know, look up
 
 Also Fundamental Identities : Reciprocal Identities (sin = $\frac{1}{csc}$, etc), Quotient Identities (tan$\theta$ = $\frac{sin\theta}{cos\theta}$), Pythagorean Identities ($sin^2\theta+cos^2\theta=1$, etc), Negative-Angle Identities ($\sin(-\theta) = -\sin(\theta)$, etc), Sum and Difference Identities - You will need to remember these before calc
+## Checklist :
+#### TOCT Review: Composite and Inverse Functions
+- [ ] Watch TOCT video on Composite Functions and Evaluating Functions
+- [ ] Watch TOCT video on Determining if a Function is Invertible and Restricting Domains
+
+#### TOCT Review: Advanced Trigonometry & The Unit Circle
+- [ ] Watch TOCT video on Unit Circle Trigonometry and Special Angles ($\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$)
+- [ ] Watch TOCT video on Solving Sinusoidal Equations and Evaluating Inverse Trigonometric Functions
+
+#### TOCT Review: Trigonometric Identities & Formulas
+- [ ] Watch TOCT video on Proving Core Trigonometric Identities
+- [ ] Watch TOCT video on Angle Addition, Subtraction, and Double-Angle Formulas
+
+#### TOCT Review: Complex Numbers and Polar Form
+- [ ] Watch TOCT video on Plotting and Operating on the Complex Plane
+- [ ] Watch TOCT video on Converting Between Rectangular and Polar Forms
+
+#### TOCT Review: Vectors
+- [ ] Watch TOCT video on Vector Fundamentals and Component Breakdown
+- [ ] Watch TOCT video on Algebraic Vector Addition, Subtraction, and Parallelogram Rule
+
+#### TOCT Review: Matrices
+- [ ] Watch TOCT video on Matrix Addition and Scalar Multiplication Properties
+- [ ] Watch TOCT video on Foundational Matrix Operations and Properties
 
 ## Basic Trig Formulas + Concepts :
 ### Comprehensive Trigonometric Identities Reference
