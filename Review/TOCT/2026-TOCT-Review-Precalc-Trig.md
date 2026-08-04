@@ -3,6 +3,10 @@ Find All Formulas you need for trig and make a cheetsheet - any you don't know, 
 
 Also Fundamental Identities : Reciprocal Identities (sin = $\frac{1}{csc}$, etc), Quotient Identities (tan$\theta$ = $\frac{sin\theta}{cos\theta}$), Pythagorean Identities ($sin^2\theta+cos^2\theta=1$, etc), Negative-Angle Identities ($\sin(-\theta) = -\sin(\theta)$, etc), Sum and Difference Identities - You will need to remember these before calc
 ## Checklist :
+
+#### Review this daily until you git gud (and actually memorize them) : 
+https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Nyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTksMjAsMjEsMjIsMjMsMjQsMjUsMjYsMjcsMjgsMjksMzAsMzEsMzQsMzUsMzYsMzcsMzgsMzk=
+
 #### TOCT Review: Composite and Inverse Functions
 - [ ] Watch TOCT video on Composite Functions and Evaluating Functions
 - [ ] Watch TOCT video on Determining if a Function is Invertible and Restricting Domains
