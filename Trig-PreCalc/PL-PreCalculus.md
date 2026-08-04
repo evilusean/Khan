@@ -17397,7 +17397,7 @@ Following the techniques for simplifying expressions using reciprocal and odd/ev
     * For $\cos(380^\circ)$, subtract the period of $360^\circ$ to get $\cos(20^\circ)$.
 * **Calculate**: The expression becomes $\frac{-\sin(20^\circ)}{\cos(20^\circ)} + \tan(20^\circ)$.
     * Since $\frac{\sin\theta}{\cos\theta} = \tan\theta$, this is $-\tan(20^\circ) + \tan(20^\circ) = \mathbf{0}$.
-## 18-June-2026 - The Graphs of Sine and Cosine (Precalculus - Trigonometry 11) :
+## 2026-June-18 - The Graphs of Sine and Cosine (Precalculus - Trigonometry 11) :
 https://www.youtube.com/watch?v=3HHgZopzL_s&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=85
 ### The Graphs of Sine and Cosine
 
@@ -17710,7 +17710,7 @@ This summary covers the foundational concepts for graphing tangent and cotangent
     * For tangent, the base cycle is typically viewed on $[-\pi/2, \pi/2]$.
     * For cotangent, the base cycle is typically viewed on $[0, \pi]$.
     * Always place vertical asymptotes at the ends of the period, the intercept at the center, and use the quarter-period points to determine the vertical stretch or reflection.
-## 2026-June-16 - Graphing Transformations with Tangent and Cotangent (Precalculus - Trigonometry 14) : 
+## 2026-June-21 - Graphing Transformations with Tangent and Cotangent (Precalculus - Trigonometry 14) : 
 https://www.youtube.com/watch?v=i4rr_J1VbkY&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=88
 ### Graphing Transformations with Tangent and Cotangent
 
