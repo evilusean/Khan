@@ -7,7 +7,7 @@ Also Fundamental Identities : Reciprocal Identities (sin = $\frac{1}{csc}$, etc)
 #### Review this daily until you git gud (and actually memorize them) : 
 https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Nyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTksMjAsMjEsMjIsMjMsMjQsMjUsMjYsMjcsMjgsMjksMzAsMzEsMzQsMzUsMzYsMzcsMzgsMzk=
 
-- [ ] Finish Anki Flashcards 
+- [x] Finish Making Anki Flashcards ✅ 2026-08-05
 
 #### TOCT Review: Composite and Inverse Functions
 - [ ] Watch TOCT video on Composite Functions and Evaluating Functions
