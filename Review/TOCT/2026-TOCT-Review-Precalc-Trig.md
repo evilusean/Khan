@@ -10,7 +10,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Ny
 - [x] Finish Making Anki Flashcards ✅ 2026-08-05
 
 #### TOCT Review: Composite and Inverse Functions
-- [ ] Watch TOCT video on Composite Functions and Evaluating Functions
+- [ ] Watch TOCT video on Composite Functions and Evaluating Functions - https://www.youtube.com/watch?v=ZFPkQkURSxk
 - [ ] Watch TOCT video on Determining if a Function is Invertible and Restricting Domains
 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
