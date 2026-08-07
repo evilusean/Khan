@@ -107,7 +107,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Ny
 | **Sector Area ($A$)** | $\frac{1}{2}r^2\theta$ | $\frac{\theta}{360} \cdot \pi r^2$ |
 - **Angular Speed** : $\omega = \frac{\Delta\theta}{\Delta t} = \frac{2\pi}{T}$ : = $\frac{angle}{time}$ = Spinning Wheel Analogy : Angle it goes through in a unit of time
 - **Linear Speed** : $v = r\omega$ : = $\frac{distance}{time}$ = The speed of a point on the rim of the wheel - The distance a point on rim of wheel travels in a unit of time
-- ### Primary Trigonometric Ratios (SOH CAH TOA)
+### Primary Trigonometric Ratios (SOH CAH TOA)
 * **Sin** ($\sin \theta$) = $\frac{\text{Opposite}}{\text{Hypotenuse}}$
 * **Cos** ($\cos \theta$) = $\frac{\text{Adjacent}}{\text{Hypotenuse}}$
 * **Tan** ($\tan \theta$) = $\frac{\text{Opposite}}{\text{Adjacent}}$
