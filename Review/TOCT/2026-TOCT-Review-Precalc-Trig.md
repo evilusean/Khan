@@ -11,7 +11,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Ny
 
 #### TOCT Review: Composite and Inverse Functions
 - [x] Watch TOCT video on Composite Functions and Evaluating Functions - https://www.youtube.com/watch?v=ZFPkQkURSxk ✅ 2026-08-06
-- [ ] TOCT : Introduction to Inverse Functions : https://www.youtube.com/watch?v=TN4ybFiuV3k
+- [x] TOCT : Introduction to Inverse Functions : https://www.youtube.com/watch?v=TN4ybFiuV3k ✅ 2026-08-06
 - [ ] Watch TOCT video on Determining if a Function is Invertible and Restricting Domains
 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
