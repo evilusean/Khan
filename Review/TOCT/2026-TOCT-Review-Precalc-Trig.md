@@ -13,7 +13,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Ny
 - [x] Watch TOCT video on Composite Functions and Evaluating Functions - https://www.youtube.com/watch?v=ZFPkQkURSxk ✅ 2026-08-06
 - [x] TOCT : Introduction to Inverse Functions : https://www.youtube.com/watch?v=TN4ybFiuV3k ✅ 2026-08-06
 - [x] TOCT - Cofunction Identities : https://www.youtube.com/watch?v=35fxto48HZY ✅ 2026-08-07
-- [ ] TOCT - Evaluating Inverse Trigonometric Functions : https://www.youtube.com/watch?v=jt7p-mCC0ng
+- [x] TOCT - Evaluating Inverse Trigonometric Functions : https://www.youtube.com/watch?v=jt7p-mCC0ng ✅ 2026-08-07
 
 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
