@@ -15,6 +15,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Ny
 - [x] TOCT - Cofunction Identities : https://www.youtube.com/watch?v=35fxto48HZY ✅ 2026-08-07
 - [x] TOCT - Evaluating Inverse Trigonometric Functions : https://www.youtube.com/watch?v=jt7p-mCC0ng ✅ 2026-08-07
 - [x] TOCT -  Double Angle Identities & Formulas of Sin, Cos & Tan - Trigonometry : https://www.youtube.com/watch?v=SE5SBTgrwH8 ✅ 2026-08-08
+- [ ] TOCT -  Right Triangle Trigonometry and Half Angle Identities & Formulas : 
 - [ ] TOCT - Inverse Trig Functions With Double Angle Formulas and Half Angle Identities - Trigonometry : https://www.youtube.com/watch?v=waDbbpib9cM
 
 
