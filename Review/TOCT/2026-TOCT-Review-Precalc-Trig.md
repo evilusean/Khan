@@ -19,7 +19,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Ny
 - [x] TOCT - Half Angle Formulas & Identities - Evaluating Trigonometric Expressions : https://www.youtube.com/watch?v=9YI69okba3c ✅ 2026-08-09
 - [x] TOCT - Inverse Trig Functions With Double Angle Formulas and Half Angle Identities - Trigonometry : https://www.youtube.com/watch?v=waDbbpib9cM ✅ 2026-08-10
 - [x] TOCT - Sum and Difference Identities & Formulas - Sine, Cosine, Tangent - Degrees & Radians, Trigonometry :  https://www.youtube.com/watch?v=sU2pyMR8GZ4 ✅ 2026-08-12
-- [ ] TOCT -  Product To Sum Identities and Sum To Product Formulas - Trigonometry : https://www.youtube.com/watch?v=8Prc7VGt40w
+- [x] TOCT -  Product To Sum Identities and Sum To Product Formulas - Trigonometry : https://www.youtube.com/watch?v=8Prc7VGt40w ✅ 2026-08-13
 
 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
