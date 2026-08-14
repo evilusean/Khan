@@ -2,6 +2,7 @@
 Find All Formulas you need for trig and make a cheetsheet - any you don't know, look up
 
 Also Fundamental Identities : Reciprocal Identities (sin = $\frac{1}{csc}$, etc), Quotient Identities (tan$\theta$ = $\frac{sin\theta}{cos\theta}$), Pythagorean Identities ($sin^2\theta+cos^2\theta=1$, etc), Negative-Angle Identities ($\sin(-\theta) = -\sin(\theta)$, etc), Sum and Difference Identities - You will need to remember these before calc
+
 ## Checklist :
 
 #### Review this daily until you git gud (and actually memorize them) : 
@@ -20,6 +21,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Ny
 - [x] TOCT - Inverse Trig Functions With Double Angle Formulas and Half Angle Identities - Trigonometry : https://www.youtube.com/watch?v=waDbbpib9cM ✅ 2026-08-10
 - [x] TOCT - Sum and Difference Identities & Formulas - Sine, Cosine, Tangent - Degrees & Radians, Trigonometry :  https://www.youtube.com/watch?v=sU2pyMR8GZ4 ✅ 2026-08-12
 - [x] TOCT -  Product To Sum Identities and Sum To Product Formulas - Trigonometry : https://www.youtube.com/watch?v=8Prc7VGt40w ✅ 2026-08-13
+- [ ] TOCT -  Sum to Product Identities and Product to Sum Formulas : 
 
 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
