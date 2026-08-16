@@ -23,7 +23,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Ny
 - [x] TOCT -  Product To Sum Identities and Sum To Product Formulas - Trigonometry : https://www.youtube.com/watch?v=8Prc7VGt40w ✅ 2026-08-13
 - [x] TOCT -  Sum to Product Identities and Product to Sum Formulas : https://www.youtube.com/watch?v=uUh2B9hnI_U ✅ 2026-08-14
 - [x] TOCT - Sum and Difference Identities & Formulas - Sine, Cosine, Tangent - Degrees & Radians, Trigonometry : https://www.youtube.com/watch?v=sU2pyMR8GZ4 ✅ 2026-08-15
-- [ ] TOCT -  Even and Odd Trigonometric Functions & Identities - Evaluating Sine, Cosine, & Tangent : https://www.youtube.com/watch?v=5p8hokJ3Cqo
+- [x] TOCT -  Even and Odd Trigonometric Functions & Identities - Evaluating Sine, Cosine, & Tangent : https://www.youtube.com/watch?v=5p8hokJ3Cqo ✅ 2026-08-16
 
 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
