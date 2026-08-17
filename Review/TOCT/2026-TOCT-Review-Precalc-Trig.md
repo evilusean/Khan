@@ -8,6 +8,9 @@ Also Fundamental Identities : Reciprocal Identities (sin = $\frac{1}{csc}$, etc)
 #### Review this daily until you git gud (and actually memorize them) : 
 https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Nyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTksMjAsMjEsMjIsMjMsMjQsMjUsMjYsMjcsMjgsMjksMzAsMzEsMzQsMzUsMzYsMzcsMzgsMzk=
 
+#### Sum To Product and Product To Sum Identities (for screensaver - these are a pain point for me, on my daily quiz reviews, I keep messing these up) :
+https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=MjIsMjMsMjQsMjUsMjYsMjcsMjgsMjk=
+
 - [x] Finish Making Anki Flashcards ✅ 2026-08-05
 
 #### TOCT Review: Composite and Inverse Functions
