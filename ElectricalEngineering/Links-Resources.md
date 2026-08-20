@@ -56,6 +56,7 @@ Antennas (just bending the same wire different ways changes the gain/frequency/H
 PVC Conduit Electrical Cable Color Codes : https://www.ledestube.com/what-are-the-color-codes-for-pvc-conduit/
 PVC Conduit (Schedule 40 Vs 80 + Others) For Electrical Use : https://championfiberglass.com/8-types-of-electrical-conduit-and-their-uses/ https://www.ledestube.com/pvc-electrical-conduit-and-building-codes-understanding-the-requirements-for-electrical-installations/
 Every Type of Antenna Explained : https://www.youtube.com/watch?v=cGloedjeltI
+Transformers Explained - How transformers work : https://www.youtube.com/watch?v=jcY4QN7awEc
 
 FCC - General Chemistry – Full University Course (34 hours - 2025) :
 https://www.youtube.com/watch?v=6OV3tmt9uhs&ab_channel=freeCodeCamp.org
