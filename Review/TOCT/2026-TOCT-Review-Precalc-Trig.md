@@ -31,7 +31,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 - [x] TOCT - Law of Sines, Basic Introduction, AAS & SSA - One Solution, Two Solutions vs No Solution, Trigonometry : https://www.youtube.com/watch?v=9fS0uA4iLxI ✅ 2026-08-18
 - [x] TOCT - Law of Cosines, Finding Angles & Sides, SSS & SAS Triangles - Trigonometry : https://www.youtube.com/watch?v=9CGY0s-uCUE ✅ 2026-08-19
 - [x] TOCT - Area of a Triangle, Given 3 Sides, Heron's Formula : https://www.youtube.com/watch?v=svWYgZs33bA ✅ 2026-08-20
-- [ ] TOCT -  Arc Length of a Circle Formula - Sector Area, Examples, Radians, In Terms of Pi, Trigonometry : 
+- [ ] TOCT -  Arc Length of a Circle Formula - Sector Area, Examples, Radians, In Terms of Pi, Trigonometry : https://www.youtube.com/watch?v=C9z3FXS7nlo
 
 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
