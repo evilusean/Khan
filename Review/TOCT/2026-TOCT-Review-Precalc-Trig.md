@@ -6,7 +6,7 @@ Also Fundamental Identities : Reciprocal Identities (sin = $\frac{1}{csc}$, etc)
 ## Checklist :
 
 #### Review this daily until you git gud (and actually memorize them) : 
-https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Nyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTksMjAsMjEsMjIsMjMsMjQsMjUsMjYsMjcsMjgsMjksMzAsMzEsMzQsMzUsMzYsMzcsMzgsMzk=
+https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=MCwxLDIsMyw0LDUsNiw3LDgsOSwxMCwxMSwxMiwxMywxNCwxNSwxNiwxNywxOCwxOSwyMCwyMSwyMiwyMywyNCwyNSwyNiwyNywyOCwyOSwzMCwzMSwzMywzNCwzNSwzNiwzNywzOCwzOSw0MCw0MSw0Miw0Myw0NA==
 
 #### Sum To Product and Product To Sum Identities (for screensaver - these are a pain point for me, on my daily quiz reviews, I keep messing these up) :
 https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=MjIsMjMsMjQsMjUsMjYsMjcsMjgsMjk=
