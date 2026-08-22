@@ -62,6 +62,8 @@ FCC - General Chemistry – Full University Course (34 hours - 2025) :
 https://www.youtube.com/watch?v=6OV3tmt9uhs&ab_channel=freeCodeCamp.org
 FCC - Math Playlist (Calc1/Calc2/Statistics/LinearAlgebra-Precalc With Python/Calculus With Python) : 
 youtube.com/playlist?list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v
+FCC -  MATLAB Crash Course for Beginners (2 hours - 2023) : 
+https://www.youtube.com/watch?v=7f50sQYjNRA
 Euclids Elements - Coloured Instead of Lettered : 
 https://archive.org/details/firstsixbooksofe00byrn
 LaRouche(RIP) Vs Euclid : Pedagogicals : 
