@@ -33,7 +33,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 - [x] TOCT - Area of a Triangle, Given 3 Sides, Heron's Formula : https://www.youtube.com/watch?v=svWYgZs33bA ✅ 2026-08-20
 - [x] TOCT -  Arc Length of a Circle Formula - Sector Area, Examples, Radians, In Terms of Pi, Trigonometry : https://www.youtube.com/watch?v=C9z3FXS7nlo ✅ 2026-08-21
 - [x] TOCT  -  Linear Speed and Angular Velocity : https://www.youtube.com/watch?v=FgTvlGm9jgE ✅ 2026-08-22
-- [ ] TOCT - Vectors - Precalculus : https://www.youtube.com/watch?v=iXdMpXMuEGI
+- [x] TOCT - Vectors - Precalculus : https://www.youtube.com/watch?v=iXdMpXMuEGI ✅ 2026-08-23
 
 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
