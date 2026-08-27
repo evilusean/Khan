@@ -34,7 +34,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 - [x] TOCT -  Arc Length of a Circle Formula - Sector Area, Examples, Radians, In Terms of Pi, Trigonometry : https://www.youtube.com/watch?v=C9z3FXS7nlo ✅ 2026-08-21
 - [x] TOCT  -  Linear Speed and Angular Velocity : https://www.youtube.com/watch?v=FgTvlGm9jgE ✅ 2026-08-22
 - [x] TOCT - Vectors - Precalculus : https://www.youtube.com/watch?v=iXdMpXMuEGI ✅ 2026-08-23
-- [ ] TOCT -  Long Division With Polynomials - The Easy Way! : https://www.youtube.com/watch?v=_FSXJmESFmQ
+- [x] TOCT -  Long Division With Polynomials - The Easy Way! : https://www.youtube.com/watch?v=_FSXJmESFmQ ✅ 2026-08-26
 
 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
