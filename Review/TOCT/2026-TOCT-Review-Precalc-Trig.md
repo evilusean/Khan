@@ -40,6 +40,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 
 #### Skipped but future Sean should review :
 - [ ] TOCT - Complex Numbers (1 hour 23 min) - https://www.youtube.com/watch?v=OQz1ydBcQSA
+- [ ] TOCT - Complex Numbers In Polar - De Moivre's Theorem - https://www.youtube.com/watch?v=J6TnZxUUzqU
 - [ ] TOCT - Descartes Rule of Signs (18 mins) - https://www.youtube.com/watch?v=YaU5JTe3cPU
 - [ ] TOCT - Trigonometry - Final Exam Review (1 hour) - https://www.youtube.com/watch?v=OAsbx4TEnL0
 - [ ] TOCT - PreCalculus Final Exam Review - https://www.youtube.com/watch?v=Tj-V6KnwM5w
