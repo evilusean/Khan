@@ -40,7 +40,8 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 
 #### Skipped but future Sean should review :
 - [ ] TOCT - Complex Numbers (1 hour 23 min) - https://www.youtube.com/watch?v=OQz1ydBcQSA
-- [ ] TOCT - Descartes Rule of Signs - https://www.youtube.com/watch?v=YaU5JTe3cPU
+- [ ] TOCT - Descartes Rule of Signs (18 mins) - https://www.youtube.com/watch?v=YaU5JTe3cPU
+- [ ] TOCT - Trigonometry - Final Exam Review (1 hour) - https://www.youtube.com/watch?v=OAsbx4TEnL0
 - [ ] 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
 - [ ] Watch TOCT video on Unit Circle Trigonometry and Special Angles ($\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$)
