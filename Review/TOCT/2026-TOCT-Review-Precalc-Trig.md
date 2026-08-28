@@ -36,7 +36,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 - [x] TOCT - Vectors - Precalculus : https://www.youtube.com/watch?v=iXdMpXMuEGI ✅ 2026-08-23
 - [x] TOCT -  Long Division With Polynomials - The Easy Way! : https://www.youtube.com/watch?v=_FSXJmESFmQ ✅ 2026-08-26
 - [x] TOCT -  Finding All Zeros of a Polynomial Function Using The Rational Zero Theorem : https://www.youtube.com/watch?v=Iaq7z7reznM ✅ 2026-08-27
-- [ ] TOCT - Trigonometry - Final Exam Review (1 hour) - https://www.youtube.com/watch?v=OAsbx4TEnL0
+- [x] TOCT - Trigonometry - Final Exam Review (1 hour) - https://www.youtube.com/watch?v=OAsbx4TEnL0 ✅ 2026-08-28
 
 #### Review TODO/Current Sean Problems :
 - [ ] TOCT - PreCalculus Final Exam Review - https://www.youtube.com/watch?v=Tj-V6KnwM5w
