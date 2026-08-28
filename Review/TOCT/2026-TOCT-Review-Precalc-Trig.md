@@ -38,6 +38,10 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 - [x] TOCT -  Finding All Zeros of a Polynomial Function Using The Rational Zero Theorem : https://www.youtube.com/watch?v=Iaq7z7reznM ✅ 2026-08-27
 
 
+#### Skipped but future Sean should review :
+- [ ] TOCT - Complex Numbers (1 hour 23 min) - https://www.youtube.com/watch?v=OQz1ydBcQSA
+- [ ] TOCT - Descartes Rule of Signs - https://www.youtube.com/watch?v=YaU5JTe3cPU
+- [ ] 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
 - [ ] Watch TOCT video on Unit Circle Trigonometry and Special Angles ($\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$)
 - [ ] Watch TOCT video on Solving Sinusoidal Equations and Evaluating Inverse Trigonometric Functions
