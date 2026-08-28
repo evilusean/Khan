@@ -13,7 +13,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 
 - [x] Finish Making Anki Flashcards ✅ 2026-08-05
 
-#### TOCT Review: Composite and Inverse Functions
+#### TOCT Reviews :
 - [x] Watch TOCT video on Composite Functions and Evaluating Functions - https://www.youtube.com/watch?v=ZFPkQkURSxk ✅ 2026-08-06
 - [x] TOCT : Introduction to Inverse Functions : https://www.youtube.com/watch?v=TN4ybFiuV3k ✅ 2026-08-06
 - [x] TOCT - Cofunction Identities : https://www.youtube.com/watch?v=35fxto48HZY ✅ 2026-08-07
@@ -36,14 +36,13 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 - [x] TOCT - Vectors - Precalculus : https://www.youtube.com/watch?v=iXdMpXMuEGI ✅ 2026-08-23
 - [x] TOCT -  Long Division With Polynomials - The Easy Way! : https://www.youtube.com/watch?v=_FSXJmESFmQ ✅ 2026-08-26
 - [x] TOCT -  Finding All Zeros of a Polynomial Function Using The Rational Zero Theorem : https://www.youtube.com/watch?v=Iaq7z7reznM ✅ 2026-08-27
+- [ ] TOCT - Trigonometry - Final Exam Review (1 hour) - https://www.youtube.com/watch?v=OAsbx4TEnL0
 
-
-#### Skipped but future Sean should review :
+#### Review TODO/Current Sean Problems :
+- [ ] TOCT - PreCalculus Final Exam Review - https://www.youtube.com/watch?v=Tj-V6KnwM5w
 - [ ] TOCT - Complex Numbers (1 hour 23 min) - https://www.youtube.com/watch?v=OQz1ydBcQSA
 - [ ] TOCT - Complex Numbers In Polar - De Moivre's Theorem - https://www.youtube.com/watch?v=J6TnZxUUzqU
 - [ ] TOCT - Descartes Rule of Signs (18 mins) - https://www.youtube.com/watch?v=YaU5JTe3cPU
-- [ ] TOCT - Trigonometry - Final Exam Review (1 hour) - https://www.youtube.com/watch?v=OAsbx4TEnL0
-- [ ] TOCT - PreCalculus Final Exam Review - https://www.youtube.com/watch?v=Tj-V6KnwM5w
 - [ ] 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
 - [ ] Watch TOCT video on Unit Circle Trigonometry and Special Angles ($\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$)
