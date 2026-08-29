@@ -41,7 +41,6 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 #### Review TODO/Current Sean Problems :
 - [ ] TOCT - PreCalculus Final Exam Review - https://www.youtube.com/watch?v=Tj-V6KnwM5w
 - [ ] TOCT - Complex Numbers In Polar - De Moivre's Theorem - https://www.youtube.com/watch?v=J6TnZxUUzqU
-- [ ] TOCT - Descartes Rule of Signs (18 mins) - https://www.youtube.com/watch?v=YaU5JTe3cPU
 - [ ] 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
 - [ ] Watch TOCT video on Unit Circle Trigonometry and Special Angles ($\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$)
