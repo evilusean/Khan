@@ -40,28 +40,6 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 - [x] TOCT - Complex Numbers (1 hour 23 min) - https://www.youtube.com/watch?v=OQz1ydBcQSA ✅ 2026-08-29
 - [x] TOCT - Polar Equations to Rectangular Equations, Precalculus, Examples and Practice Problems : https://www.youtube.com/watch?v=flTz_pSzVFI ✅ 2026-08-30
 - [ ] TOCT - PreCalculus Final Exam Review - https://www.youtube.com/watch?v=Tj-V6KnwM5w
-#### Review TODO/Current Sean Problems :
-
-- [ ] 
-#### TOCT Review: Advanced Trigonometry & The Unit Circle
-- [ ] Watch TOCT video on Unit Circle Trigonometry and Special Angles ($\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$)
-- [ ] Watch TOCT video on Solving Sinusoidal Equations and Evaluating Inverse Trigonometric Functions
-
-#### TOCT Review: Trigonometric Identities & Formulas
-- [ ] Watch TOCT video on Proving Core Trigonometric Identities
-- [ ] Watch TOCT video on Angle Addition, Subtraction, and Double-Angle Formulas
-
-#### TOCT Review: Complex Numbers and Polar Form
-- [ ] Watch TOCT video on Plotting and Operating on the Complex Plane
-- [ ] Watch TOCT video on Converting Between Rectangular and Polar Forms
-
-#### TOCT Review: Vectors
-- [ ] Watch TOCT video on Vector Fundamentals and Component Breakdown
-- [ ] Watch TOCT video on Algebraic Vector Addition, Subtraction, and Parallelogram Rule
-
-#### TOCT Review: Matrices
-- [ ] Watch TOCT video on Matrix Addition and Scalar Multiplication Properties
-- [ ] Watch TOCT video on Foundational Matrix Operations and Properties
 
 ## Basic Trig Formulas + Concepts :
 ### Comprehensive Trigonometric Identities Reference
