@@ -39,8 +39,9 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 - [x] TOCT - Trigonometry - Final Exam Review (1 hour) - https://www.youtube.com/watch?v=OAsbx4TEnL0 ✅ 2026-08-28
 - [x] TOCT - Complex Numbers (1 hour 23 min) - https://www.youtube.com/watch?v=OQz1ydBcQSA ✅ 2026-08-29
 - [x] TOCT - Polar Equations to Rectangular Equations, Precalculus, Examples and Practice Problems : https://www.youtube.com/watch?v=flTz_pSzVFI ✅ 2026-08-30
-#### Review TODO/Current Sean Problems :
 - [ ] TOCT - PreCalculus Final Exam Review - https://www.youtube.com/watch?v=Tj-V6KnwM5w
+#### Review TODO/Current Sean Problems :
+
 - [ ] 
 #### TOCT Review: Advanced Trigonometry & The Unit Circle
 - [ ] Watch TOCT video on Unit Circle Trigonometry and Special Angles ($\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$)
@@ -931,8 +932,7 @@ To move between Polar $(r, \theta)$ and Rectangular $(x, y)$ forms, use these tr
 **Rectangular to Polar:**
 * $r^2 = x^2 + y^2 \Rightarrow r = \sqrt{x^2 + y^2}$
 * $\tan \theta = \frac{y}{x} \Rightarrow \theta = \tan^{-1}(\frac{y}{x})$
-  *(Note: Always check the quadrant of $(x, y)$ to ensure the correct value of $\theta$.)
-### Summary: Converting to Polar Coordinates
+  *(Note: Always check the quadrant of $(x, y)$ to ensure the correct value of $\theta$.) Summary: Converting to Polar Coordinates
 
 This image illustrates the relationship between **Rectangular (Cartesian) Coordinates $(x, y)$** and **Polar Coordinates $(r, \theta)$**. By using right-triangle trigonometry, we can convert any point $P$ from one system to the other.
 
