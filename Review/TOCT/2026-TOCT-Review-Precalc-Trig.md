@@ -38,7 +38,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 - [x] TOCT -  Finding All Zeros of a Polynomial Function Using The Rational Zero Theorem : https://www.youtube.com/watch?v=Iaq7z7reznM ✅ 2026-08-27
 - [x] TOCT - Trigonometry - Final Exam Review (1 hour) - https://www.youtube.com/watch?v=OAsbx4TEnL0 ✅ 2026-08-28
 - [x] TOCT - Complex Numbers (1 hour 23 min) - https://www.youtube.com/watch?v=OQz1ydBcQSA ✅ 2026-08-29
-- [ ] TOCT -  Polar Coordinates Basic Introduction, Conversion to Rectangular, How to Plot Points, Negative R Value : 
+- [ ] TOCT -  Polar Coordinates Basic Introduction, Conversion to Rectangular, How to Plot Points, Negative R Value : https://www.youtube.com/watch?v=aSdaT62ndYE
 #### Review TODO/Current Sean Problems :
 - [ ] TOCT - PreCalculus Final Exam Review - https://www.youtube.com/watch?v=Tj-V6KnwM5w
 - [ ] 
