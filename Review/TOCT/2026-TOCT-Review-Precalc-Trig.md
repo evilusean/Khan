@@ -40,7 +40,7 @@ https://evilusean.github.io/Math/Trig-Identities-CheatSheet-Quiz/index.html?s=Mj
 - [x] TOCT - Complex Numbers (1 hour 23 min) - https://www.youtube.com/watch?v=OQz1ydBcQSA ✅ 2026-08-29
 - [x] TOCT - Polar Equations to Rectangular Equations, Precalculus, Examples and Practice Problems : https://www.youtube.com/watch?v=flTz_pSzVFI ✅ 2026-08-30
 - [x] TOCT - PreCalculus Final Exam Review - https://www.youtube.com/watch?v=Tj-V6KnwM5w ✅ 2026-08-31
-- [ ] TOCT - Logarithms Explained Rules & Properties, Condense, Expand, Graphing & Solving Equations Introduction :
+- [ ] TOCT - Logarithms Explained Rules & Properties, Condense, Expand, Graphing & Solving Equations Introduction : https://www.youtube.com/watch?v=LRbi_pMX1DM
 
 ## Basic Trig Formulas + Concepts :
 ### Comprehensive Trigonometric Identities Reference
