@@ -42,9 +42,7 @@ https://www.youtube.com/watch?v=fYyARMqiaag&list=PLF797E961509B4EB5
 *   **Given Points:** Let's label our points to keep things straight. We'll call the first point $(x_1, y_1)$ and the second point $(x_2, y_2)$.
     *   Point 1: $(x_1, y_1) = (-2, -3)$
     *   Point 2: $(x_2, y_2) = (8, 2)$
-
 #### Step 1: Find the Slope ($m$)
-
 To find the equation of a line, we absolutely need two things: a point and the slope. We have points, but we don't have the slope yet. We'll use our trusty slope formula:
 
 $$m = \frac{y_2 - y_1}{x_2 - x_1}$$
@@ -64,7 +62,6 @@ We can simplify this fraction. Both 5 and 10 are divisible by 5.
 $$m = \frac{1}{2}$$
 
 So, our slope, **$m = \frac{1}{2}$**.
-
 #### Step 2: Use Point-Slope Form to Find the Equation
 
 Now we have a point (actually two) and we have the slope. We are set! We'll use the point-slope form of a line, which we derived earlier:
@@ -80,26 +77,18 @@ Clean up the signs. Again, subtracting a negative is addition:
 $$y + 3 = \frac{1}{2}(x + 2)$$
 
 If the question just asks for "the equation of the line," you could leave it in this point-slope form. But usually, it's easier to work with in slope-intercept form. Let's keep going.
-
 #### Step 3: Convert to Slope-Intercept Form
-
 To get it into the familiar $y = mx + b$ form, we need to solve for $y$. First, distribute the $\frac{1}{2}$ on the right side:
 
 $$y + 3 = \frac{1}{2}x + 1$$
-
 Now, subtract 3 from both sides to isolate $y$:
 
 $$y = \frac{1}{2}x + 1 - 3$$
-
 $$y = \frac{1}{2}x - 2$$
 
 There it is! The equation of the line that passes through $(-2, -3)$ and $(8, 2)$ is **$y = \frac{1}{2}x - 2$**.
-
 #### Optional: Let's Verify with the Other Point
-
 Just to be absolutely sure, let's plug our second point, $(8, 2)$, into our newly found slope-intercept equation and see if it works. Does $2 = \frac{1}{2}(8) - 2$?
-
 $2 = 4 - 2$
 $2 = 2$
-
 Yes, it does! So the equation is correct.
