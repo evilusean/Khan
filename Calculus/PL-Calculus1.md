@@ -107,3 +107,38 @@ Let's clean that up. What are you going to get out of $-4x / 2$?
 $$y = -2x + \frac{3}{2}$$
 
 Look at that! We have it in our familiar slope-intercept form, $y = mx + b$. Our slope $m$ is $-2$, and our y-intercept $b$ is $\frac{3}{2}$. You can easily graph a line from there using the y-intercept and the slope!
+### Find Equation Through (6, 7) and Parallel to 2x + 3y = 12
+
+#### Step 1: Find the Slope of the Given Line
+Whenever your teacher taught you how to find the equation of a line, they taught you that you absolutely have to have two things: a point and the slope. Do we have a point? Yes, $(6, 7)$. Do we have a slope right now? Not yet, but we can find it from the given equation $2x + 3y = 12$. 
+
+Let's solve for $y$ to put it into slope-intercept form:
+$$3y = -2x + 12$$
+
+Divide everything by $3$:
+$$y = -\frac{2}{3}x + 4$$
+
+So, the slope of our given line is $-\frac{2}{3}$. 
+
+#### Step 2: Determine the Slope for Our New Line
+What do we know about parallel lines? They have the exact same slope! That means the slope we are supposed to use is still $-\frac{2}{3}$. 
+
+#### Step 3: Plug into Point-Slope Form
+Now we have our slope ($m = -\frac{2}{3}$) and we have our point $(x_1, y_1) = (6, 7)$. We can just plug that right into our point-slope formula:
+$$y - y_1 = m(x - x_1)$$
+
+Let's plug in the numbers:
+$$y - 7 = -\frac{2}{3}(x - 6)$$
+
+#### Step 4: Convert to Slope-Intercept Form
+Let's clean this up and make it slope-intercept form. First, distribute the $-\frac{2}{3}$ on the right side:
+$$y - 7 = -\frac{2}{3}x + \left(-\frac{2}{3} \cdot -6\right)$$
+
+What is $-\frac{2}{3}$ times $-6$? Negative times negative is positive, and $12 / 3$ is $4$. So:
+$$y - 7 = -\frac{2}{3}x + 4$$
+
+Now, last step, add $7$ to both sides to isolate $y$:
+$$y = -\frac{2}{3}x + 4 + 7$$
+$$y = -\frac{2}{3}x + 11$$
+
+And we're done! The equation of the line passing through $(6, 7)$ and parallel to $2x + 3y = 12$ is $y = -\frac{2}{3}x + 11$.
