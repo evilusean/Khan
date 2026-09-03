@@ -95,23 +95,15 @@ Yes, it does! So the equation is correct.
 ### $4x + 2y - 3 = 0$
 
 What would you do first if you're trying to solve that thing for $y$ and get it into slope-intercept form? We're trying to isolate $y$, right? 
-
 #### Step 1: Isolate the y term
-
 You could add $3$ to both sides and subtract $4x$ from both sides. Let's move the $x$ term and the constant over to the right side so we can get $2y$ by itself:
 
 $$2y = -4x + 3$$
-
 #### Step 2: Divide by the coefficient of y
-
 Now, how do we get that $y$ completely by itself? We divide everything by $2$. Just make sure if you divide, you do it everywhere and you have to be good with your signs!
-
 $$\frac{2y}{2} = \frac{-4x}{2} + \frac{3}{2}$$
-
 #### Step 3: Simplify into slope-intercept form
-
 Let's clean that up. What are you going to get out of $-4x / 2$? 
-
 $$y = -2x + \frac{3}{2}$$
 
 Look at that! We have it in our familiar slope-intercept form, $y = mx + b$. Our slope $m$ is $-2$, and our y-intercept $b$ is $\frac{3}{2}$. You can easily graph a line from there using the y-intercept and the slope!
