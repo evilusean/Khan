@@ -135,3 +135,4 @@ $$y = -\frac{2}{3}x + 11$$
 And we're done! The equation of the line passing through $(6, 7)$ and parallel to $2x + 3y = 12$ is $y = -\frac{2}{3}x + 11$.
 
 ## 2026-09-04 - Calculus 1 Lecture 0.2: Introduction to Functions. :
+https://www.youtube.com/watch?v=1EGFSefe5II&list=PLF797E961509B4EB5&index=4
