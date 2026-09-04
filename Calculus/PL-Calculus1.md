@@ -136,3 +136,30 @@ And we're done! The equation of the line passing through $(6, 7)$ and parallel t
 
 ## 2026-09-04 - Calculus 1 Lecture 0.2: Introduction to Functions. :
 https://www.youtube.com/watch?v=1EGFSefe5II&list=PLF797E961509B4EB5&index=4
+### $y = f(x)$: Introduction to Functions
+
+#### Definition of a Function
+* A function $f$ is a rule that assigns to each element $x$ in a set $D$ (the domain) exactly one element, called $f(x)$, in a set $Y$.
+* **Independent variable:** $x$, representing the input value.
+* **Dependent variable:** $y$ or $f(x)$, representing the output value.
+
+#### Domain and Range
+* **Domain:** The complete set of all possible input values ($x$-values) that can be plugged into the function without causing undefined mathematical operations.
+* **Range:** The set of all possible output values ($y$-values) that result from evaluating the function across its domain.
+* **Natural Domain Restrictions:**
+  * **Division by zero:** Denominators containing variables cannot equal zero (e.g., for $\frac{1}{x - 4}$, $x \neq 4$).
+  * **Even roots:** Expressions under an even root (like square roots) must be greater than or equal to zero (e.g., for $\sqrt{x - 5}$, $x - 5 \geq 0 \implies x \geq 5$).
+
+#### Evaluating Functions and Notation
+* Substituting numbers or algebraic expressions into a function rule. 
+* **The Difference Quotient:** 
+  $$\frac{f(x+h) - f(x)}{h}, \quad h \neq 0$$
+  An essential algebraic expression representing the average rate of change, which serves as the foundational stepping stone for the derivative in differential calculus.
+
+#### The Vertical Line Test
+* A visual test used on graphs in the Cartesian coordinate system.
+* A graph represents a function if and only if no vertical line intersects the graph at more than one point. Intersecting twice means a single input has multiple outputs, violating the definition of a function.
+
+#### Piecewise Functions
+* Functions whose definitions change depending on the value of the input $x$.
+* Evaluated by first checking which domain interval the input value belongs to, then applying only the specific sub-formula assigned to that interval.
