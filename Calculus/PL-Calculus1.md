@@ -158,3 +158,4 @@ https://www.youtube.com/watch?v=1EGFSefe5II&list=PLF797E961509B4EB5&index=4
 #### Piecewise Functions
 * Functions whose definitions change depending on the value of the input $x$.
 * Evaluated by first checking which domain interval the input value belongs to, then applying only the specific sub-formula assigned to that interval.
+## 2026-09-05 - Calculus 1 Lecture 0.3: Review of Trigonometry and Graphing Trigonometric Functions : 
