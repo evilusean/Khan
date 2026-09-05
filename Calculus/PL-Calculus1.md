@@ -160,3 +160,54 @@ https://www.youtube.com/watch?v=1EGFSefe5II&list=PLF797E961509B4EB5&index=4
 * Evaluated by first checking which domain interval the input value belongs to, then applying only the specific sub-formula assigned to that interval.
 ## 2026-09-05 - Calculus 1 Lecture 0.3: Review of Trigonometry and Graphing Trigonometric Functions : 
 https://www.youtube.com/watch?v=SzLF-wLZF_I&list=PLF797E961509B4EB5&index=5
+### Calculus 1 Lecture 0.3: Review of Trigonometry and Graphing Trigonometric Functions
+
+* **Angle Measurements and Rotations**:
+  * Angles are typically measured in reference to the $x$-axis, containing an **initial side** and a **terminal side**.
+  * **Counterclockwise rotation** yields positive angle measurements.
+  * **Clockwise rotation** yields negative angle measurements.
+
+* **Radians vs. Degrees**:
+  * The fundamental equality relating the two systems is $2\pi \text{ radians} = 360^\circ$ (or $\pi \text{ radians} = 180^\circ$).
+  * To convert from **degrees to radians**, multiply by $\frac{\pi}{180}$.
+  * To convert from **radians to degrees**, multiply by $\frac{180}{\pi}$.
+
+* **Graphing Angles on the Coordinate Plane**:
+  * Break each section of $\pi$ into parts matching the denominator of the fraction to easily count and locate the terminal side.
+  * **Co-terminal angles** share the exact same terminal side and reference point, differing only by full rotations ($2\pi$ or $360^\circ$).
+
+* **Right Triangle Trigonometry and the Unit Circle**:
+  * Trigonometric functions require an angle expression to have mathematical meaning (e.g., $\sin(\theta)$, not just $\sin$).
+  * **SOH CAH TOA Definitions**:
+    * $\sin(\theta) = \frac{\text{Opposite}}{\text{Hypotenuse}}$
+    * $\cos(\theta) = \frac{\text{Adjacent}}{\text{Hypotenuse}}$
+    * $\tan(\theta) = \frac{\text{Opposite}}{\text{Adjacent}}$
+  * **Reciprocal Functions**:
+    * Cosecant: $\csc(\theta) = \frac{1}{\nu}$
+    * Secant: $\sec(\theta) = \frac{1}{x}$
+    * Cotangent: $\cot(\theta) = \frac{x}{y}$
+  * On a **unit circle** (radius of 1), the coordinates $(x, y)$ directly correspond to $(\cos(\theta), \sin(\theta))$.
+  * **Quotient Identity**: $\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}$.
+
+* **Quadrant Signs (ASTC Rule)**:
+  * Pneumonic: **All Students Take Calculus** ("ASTC").
+  * **Quadrant I**: All trig functions are positive.
+  * **Quadrant II**: Sine (and Cosecant) are positive.
+  * **Quadrant III**: Tangent (and Cotangent) are positive.
+  * **Quadrant IV**: Cosine (and Secant) are positive.
+
+* **Reference Angles**:
+  * Defined as the acute angle formed between the terminal side and the $x$-axis.
+  * Used alongside the ASTC rule to evaluate trigonometric functions for any angle.
+
+* **Graphing Transformations of Sine and Cosine**:
+  * Standard form: $y = a \sin(Bx)$ or $y = a \cos(Bx)$.
+  * **Amplitude**: Given by $|a|$, determining the vertical stretch or compression from the $x$-axis.
+  * **Period**: Given by $\frac{2\pi}{B}$, determining how often the function completes a full cycle.
+  * Interesting points (peaks, valleys, and $x$-intercepts) occur at the midpoints of the sub-intervals.
+
+* **Phase Shifts (Translations)**:
+  * For equations of the form $y = a \sin(Bx - C)$, factor out $B$ first to get $y = a \sin\left(B\left(x - \frac{C}{B}\right)\right)$.
+  * The horizontal shift is determined by $\frac{C}{B}$:
+    * Minus sign indicates a shift to the **right**.
+    * Plus sign indicates a shift to the **left**.
