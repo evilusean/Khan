@@ -225,32 +225,27 @@ Functions can be combined using standard arithmetic operations: addition, subtra
 * **Division:** $\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)}$ *(Requires $g(x) \neq 0$)*
 
 ---
-
 #### 2. Domain of Combined Functions
 The domain of combined functions is subject to fundamental domain restrictions that cannot be simplified away.
 
 * **Rule:** The domain of an added, subtracted, multiplied, or divided function is the **intersection** ($\cap$) of the domains of the individual original functions:
 $$\text{Domain}(f \text{ op } g) = \text{Domain}(f) \cap \text{Domain}(g)$$
 * **Key Concept:** Simplifying a combined function algebraically does **not** restore lost values to the domain. You cannot fix domain issues; algebraic operations can only introduce additional restrictions.
-
 **Example:**
 For $f(x) = \sqrt{x}$ and $g(x) = \sqrt{x}$:
 * $(f \cdot g)(x) = \sqrt{x} \cdot \sqrt{x} = x$
 * Although the simplified expression $x$ appears defined for all real numbers ($\mathbb{R}$), the domain remains $[0, \infty)$ because both original functions require $x \ge 0$.
 
 ---
-
 #### 3. Composition of Functions
 Function composition involves evaluating one function inside another by substituting the inner function into every instance of $x$ in the outer function.
 
 * **Notation:** 
 $$(f \circ g)(x) = f(g(x))$$
-
 ##### Procedure:
 1. Replace $g(x)$ with its algebraic expression inside $f$.
 2. Write out the definition of $f(x)$, replacing $x$ with empty parentheses $(\quad)$.
 3. Insert the full expression of $g(x)$ into those parentheses.
-
 **Example:**
 Given $f(x) = x^3 - 4$ and $g(x) = \sqrt{x}$:
 * **Find $(f \circ g)(x)$:**
@@ -259,7 +254,6 @@ Given $f(x) = x^3 - 4$ and $g(x) = \sqrt{x}$:
   $$g(f(x)) = g(x^3 - 4) = \sqrt{x^3 - 4}$$
 
 ---
-
 #### 4. Multiple Compositions
 Compositions can be chained sequentially across three or more functions.
 
@@ -273,7 +267,6 @@ Given $f(x) = \sqrt{x}$, $g(x) = \frac{1}{x}$, and $h(x) = x^3$:
    $$(f \circ g \circ h)(8) = \frac{1}{8^{3/2}} = \frac{1}{(\sqrt{8})^3} = \frac{1}{16\sqrt{2}}$$
 
 ---
-
 #### 5. Decomposing Functions
 Decomposition is the inverse process: identifying an inner function $g(x)$ and an outer function $f(x)$ such that $h(x) = f(g(x))$.
 
