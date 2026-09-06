@@ -211,3 +211,5 @@ https://www.youtube.com/watch?v=SzLF-wLZF_I&list=PLF797E961509B4EB5&index=5
   * The horizontal shift is determined by $\frac{C}{B}$:
     * Minus sign indicates a shift to the **right**.
     * Plus sign indicates a shift to the **left**.
+
+## 2026-09-05 -  Calculus 1 Lecture 0.4: Combining and Composition of Functions :
