@@ -353,4 +353,37 @@ Assuming $\lim_{x \to c} f(x) = L$ and $\lim_{x \to c} g(x) = M$:
 *   **Product Law:** $\lim_{x \to c} [f(x) \cdot g(x)] = L \cdot M$
 *   **Quotient Law:** $\lim_{x \to c} \left[\frac{f(x)}{g(x)}\right] = \frac{L}{M}$, provided $M \neq 0$
 *   **Power Law:** $\lim_{x \to c} [f(x)]^n = L^n$
+### Problem: Find Equation of Tangent Line to $y = x^2$ at $(1,1)$
 
+#### **1. Core Concept & Formulas**
+* **Point-Slope Form:** $y - y_1 = m(x - x_1)$
+* **Equation for Tangent Line:** $y - y_1 = m_{\text{tan}}(x - x_1)$
+* **Secant Line Slope:** $m = \frac{y_2 - y_1}{x_2 - x_1}$
+
+---
+
+#### **2. Geometric Setup**
+* Given points on $y = x^2$:
+  * $P = (1, 1)$
+  * $Q = (x, x^2)$
+
+---
+
+#### **3. Calculating Secant Slope ($m_{\text{sec}}$)**
+$$m_{\text{sec}} = \frac{x^2 - 1}{x - 1}$$
+
+---
+
+#### **4. Key Insights & Simplification**
+1. **As $Q \to P$:**
+   $$m_{\text{sec}} \to m_{\text{tan}}$$
+
+2. **Domain Restriction:**
+   $$x \neq 1 \quad \text{(This is why } Q \neq P \text{)}$$
+
+3. **Algebraic Simplification:**
+   $$\begin{aligned}
+   m_{\text{sec}} &= \frac{x^2 - 1}{x - 1} \\
+   &= \frac{(x + 1)(x - 1)}{x - 1}, \quad x \neq 1 \\
+   &\to m_{\text{sec}} = x + 1
+   \end{aligned}$$
