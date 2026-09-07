@@ -278,3 +278,4 @@ Given $h(x) = (x - 7)^3$:
 * **Outer function:** $f(x) = x^3$
 * **Verification:** $f(g(x)) = f(x - 7) = (x - 7)^3$
 ## 2026-09-07 - Calculus 1 Lecture 1.1: An Introduction to Limits :
+https://www.youtube.com/watch?v=54_XRjHhZzI&list=PLF797E961509B4EB5&index=7
