@@ -279,3 +279,91 @@ Given $h(x) = (x - 7)^3$:
 * **Verification:** $f(g(x)) = f(x - 7) = (x - 7)^3$
 ## 2026-09-07 - Calculus 1 Lecture 1.1: An Introduction to Limits :
 https://www.youtube.com/watch?v=54_XRjHhZzI&list=PLF797E961509B4EB5&index=7
+### Calculus 1 Lecture 1.1: An Introduction to Limits
+
+The fundamental concept of a limit underpins all of calculus, including derivatives and integrals. A limit describes the behavior of a function $f(x)$ as the input $x$ approaches a specific value $c$, regardless of the function's actual value at $c$.
+
+---
+
+### Key Concepts & Definitions
+
+*   **Intuitive Definition of a Limit:**
+    *   We write $\lim_{x \to c} f(x) = L$
+    *   This is read as: "The limit of $f(x)$ as $x$ approaches $c$ equals $L$."
+    *   It means that as $x$ gets arbitrarily close to $c$ (from both sides), $f(x)$ gets arbitrarily close to $L$.
+
+*   **Crucial Distinction:**
+    *   $f(c)$ is the **actual value** of the function at $x = c$.
+    *   $\lim_{x \to c} f(x)$ is the **expected value** or trend as $x$ approaches $c$.
+    *   The limit $\lim_{x \to c} f(x)$ can exist even if $f(c)$ is undefined or not equal to $L$.
+
+---
+
+### Estimating Limits
+
+#### 1. Numerical Approach (Tables)
+To estimate $\lim_{x \to c} f(x)$, construct a table of values with inputs $x$ approaching $c$ from both the left ($x < c$) and right ($x > c$).
+
+*   **Example:** Estimate $\lim_{x \to 1} \frac{x^2 - 1}{x - 1}$
+    *   At $x = 1$, $f(1) = \frac{0}{0}$ (indeterminate form).
+    *   Evaluate near $x = 1$:
+
+| $x$ (Left) | $f(x)$ | $x$ (Right) | $f(x)$ |
+| :--- | :--- | :--- | :--- |
+| $0.9$ | $1.9$ | $1.1$ | $2.1$ |
+| $0.99$ | $1.99$ | $1.01$ | $2.01$ |
+| $0.999$ | $1.999$ | $1.001$ | $2.001$ |
+
+*   **Conclusion:** As $x \to 1$ from both sides, $f(x) \to 2$. Therefore, $\lim_{x \to 1} \frac{x^2 - 1}{x - 1} = 2$.
+
+#### 2. Graphical Approach
+Inspect the graph of $f(x)$ as $x$ gets closer to $c$ along the horizontal axis:
+*   Trace the curve from the left toward $x = c$.
+*   Trace the curve from the right toward $x = c$.
+*   If both paths lead to the same $y$-value $L$, then the limit is $L$.
+*   *Note:* Holes in the graph (removable discontinuities) do not prevent the limit from existing.
+
+---
+
+### One-Sided Limits
+
+*   **Left-Hand Limit:** $\lim_{x \to c^-} f(x) = L_1$
+    *   The value $f(x)$ approaches as $x$ approaches $c$ from values strictly less than $c$.
+*   **Right-Hand Limit:** $\lim_{x \to c^+} f(x) = L_2$
+    *   The value $f(x)$ approaches as $x$ approaches $c$ from values strictly greater than $c$.
+
+#### The Two-Sided Limit Existence Theorem
+$$\lim_{x \to c} f(x) = L \iff \lim_{x \to c^-} f(x) = L \quad \text{and} \quad \lim_{x \to c^+} f(x) = L$$
+
+*   If the left-hand and right-hand limits are unequal ($\lim_{x \to c^-} f(x) \neq \lim_{x \to c^+} f(x)$), the two-sided limit **does not exist (DNE)**.
+
+---
+
+### Common Cases Where Limits Fail to Exist (DNE)
+
+1.  **Jump Discontinuity (Differing One-Sided Limits):**
+    *   The left-hand limit and right-hand limit approach two different finite numbers.
+    *   *Example:* $f(x) = \frac{|x|}{x}$ as $x \to 0$.
+        *   $\lim_{x \to 0^-} \frac{|x|}{x} = -1$
+        *   $\lim_{x \to 0^+} \frac{|x|}{x} = 1$
+        *   Since $-1 \neq 1$, $\lim_{x \to 0} \frac{|x|}{x}$ DNE.
+
+2.  **Unbounded Behavior (Vertical Asymptotes):**
+    *   $f(x)$ grows infinitely positive or negative as $x \to c$.
+    *   *Example:* $f(x) = \frac{1}{x^2}$ as $x \to 0$. Here $f(x) \to \infty$.
+
+3.  **Oscillating Behavior:**
+    *   The function infinitely oscillates between values as $x$ approaches $c$.
+    *   *Example:* $f(x) = \sin\left(\frac{1}{x}\right)$ as $x \to 0$.
+
+---
+
+### Basic Limit Laws (Properties)
+
+Assuming $\lim_{x \to c} f(x) = L$ and $\lim_{x \to c} g(x) = M$:
+
+*   **Sum/Difference Law:** $\lim_{x \to c} [f(x) \pm g(x)] = L \pm M$
+*   **Constant Multiple Law:** $\lim_{x \to c} [k \cdot f(x)] = k \cdot L$
+*   **Product Law:** $\lim_{x \to c} [f(x) \cdot g(x)] = L \cdot M$
+*   **Quotient Law:** $\lim_{x \to c} \left[\frac{f(x)}{g(x)}\right] = \frac{L}{M}$, provided $M \neq 0$
+*   **Power Law:** $\lim_{x \to c} [f(x)]^n = L^n$
