@@ -373,10 +373,8 @@ $$m_{\text{sec}} = \frac{x^2 - 1}{x - 1}$$
 #### **4. Key Insights & Simplification**
 1. **As $Q \to P$:**
    $$m_{\text{sec}} \to m_{\text{tan}}$$
-
 2. **Domain Restriction:**
    $$x \neq 1 \quad \text{(This is why } Q \neq P \text{)}$$
-
 3. **Algebraic Simplification:**
    $$\begin{aligned}
    m_{\text{sec}} &= \frac{x^2 - 1}{x - 1} \\
@@ -384,3 +382,15 @@ $$m_{\text{sec}} = \frac{x^2 - 1}{x - 1}$$
    &\to m_{\text{sec}} = x + 1
    \end{aligned}$$
 
+---
+#### **5. Finding $m_{\text{tan}}$ and Final Equation**
+* **What happens to $m_{\text{sec}}$ as $x \to 1$:**
+  $$m_{\text{sec}} \to 2$$
+  $$m_{\text{tan}} = 2$$
+
+* **Substitute into Point-Slope Form at $(1,1)$:**
+  $$\begin{aligned}
+  y - 1 &= 2(x - 1) \\
+  y - 1 &= 2x - 2 \\
+  y &= 2x - 1
+  \end{aligned}$$
