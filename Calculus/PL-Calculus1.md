@@ -394,3 +394,7 @@ $$m_{\text{sec}} = \frac{x^2 - 1}{x - 1}$$
   y - 1 &= 2x - 2 \\
   y &= 2x - 1
   \end{aligned}$$
+#### **6. Summary**
+To find the tangent line to $y = x^2$ at $(1,1)$, we set up a secant line using a second point $Q(x, x^2)$. Simplifying the secant slope formula gives $m_{\text{sec}} = x + 1$ (for $x \neq 1$). Letting $x$ approach $1$ yields the tangent slope $m_{\text{tan}} = 2$. Plugging this slope and the point $(1,1)$ into point-slope form gives the final line equation $y = 2x - 1$.
+
+# Leftoff @ 48:25
