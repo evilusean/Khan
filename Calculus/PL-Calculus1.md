@@ -396,3 +396,26 @@ $$m_{\text{sec}} = \frac{x^2 - 1}{x - 1}$$
   \end{aligned}$$
 #### **6. Summary**
 To find the tangent line to $y = x^2$ at $(1,1)$, we set up a secant line using a second point $Q(x, x^2)$. Simplifying the secant slope formula gives $m_{\text{sec}} = x + 1$ (for $x \neq 1$). Letting $x$ approach $1$ yields the tangent slope $m_{\text{tan}} = 2$. Plugging this slope and the point $(1,1)$ into point-slope form gives the final line equation $y = 2x - 1$.
+### Problem: $\lim_{x \to 1} \frac{x - 1}{x^2 - 1}$
+
+#### **1. Numerical Approach (Table of Values)**
+To estimate the limit as $x \to 1$, we evaluate $f(x) = \frac{x - 1}{x^2 - 1}$ for values approaching $1$ from both the left ($x < 1$) and the right ($x > 1$). Note that at $x = 1$, $f(x)$ is undefined ($\frac{0}{0}$).
+
+| $x$ | $0.5$ | $0.99$ | $0.999$ | $1$ | $1.001$ | $1.01$ | $1.5$ |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **$f(x)$** | $0.6667$ | $0.5025$ | $0.5003$ | **Undefined** | $0.4998$ | $0.4975$ | $0.4000$ |
+
+* **Observation:** As $x \to 1^-$ and $x \to 1^+$, $f(x) \to 0.5 = \frac{1}{2}$.
+
+---
+
+#### **2. Algebraic Approach**
+Direct substitution gives $\frac{0}{0}$ (an indeterminate form), so we factor and simplify:
+
+$$\begin{aligned} \lim_{x \to 1} \frac{x - 1}{x^2 - 1} &= \lim_{x \to 1} \frac{x - 1}{(x - 1)(x + 1)} \\ &= \lim_{x \to 1} \frac{1}{x + 1} \quad (x \neq 1) \\ &= \frac{1}{1 + 1} \\ &= \frac{1}{2} \end{aligned}$$
+
+---
+
+#### **3. Summary**
+Both the numerical table approach and the algebraic factoring method confirm that:
+$$\lim_{x \to 1} \frac{x - 1}{x^2 - 1} = \frac{1}{2}$$
