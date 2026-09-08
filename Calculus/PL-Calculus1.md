@@ -450,21 +450,16 @@ As $x$ **approaches $1$**, the limit value **approaches $\frac{1}{2}$**.
 $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x)$$
 
 ---
-
 #### **2. Finding One-Sided Limits from Graph**
-
 * **Right-Hand Limit ($\lim_{x \to 2^+} g(x)$):**
   Approaching $x = 2$ from the right ($x > 2$), the graph of $g(x)$ leads to $y = 3$.
   $$\lim_{x \to 2^+} g(x) = 3$$
-
 * **Left-Hand Limit ($\lim_{x \to 2^-} g(x)$):**
   Approaching $x = 2$ from the left ($x < 2$), the graph of $g(x)$ leads to $y = 1$.
   $$\lim_{x \to 2^-} g(x) = 1$$
 
 ---
-
 #### **3. Two-Sided Limit Conclusion ($\lim_{x \to 2} g(x)$)**
-
 Since the left-hand limit does not equal the right-hand limit:
 
 $$\lim_{x \to 2^-} g(x) \neq \lim_{x \to 2^+} g(x) \quad (1 \neq 3)$$
