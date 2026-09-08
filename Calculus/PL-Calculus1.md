@@ -425,20 +425,17 @@ As $x$ **approaches $1$** from values less than $1$ ($x < 1$):
 $$\begin{aligned} \lim_{x \to 1^-} \frac{x - 1}{x^2 - 1} &= \lim_{x \to 1^-} \frac{x - 1}{(x - 1)(x + 1)} \\ &= \lim_{x \to 1^-} \frac{1}{x + 1} \\ &= \frac{1}{1 + 1} = \frac{1}{2} \end{aligned}$$
 
 ---
-
 #### **2. Right-Hand Limit ($\lim_{x \to 1^+}$)**
 As $x$ **approaches $1$** from values greater than $1$ ($x > 1$):
 
 $$\begin{aligned} \lim_{x \to 1^+} \frac{x - 1}{x^2 - 1} &= \lim_{x \to 1^+} \frac{x - 1}{(x - 1)(x + 1)} \\ &= \lim_{x \to 1^+} \frac{1}{x + 1} \\ &= \frac{1}{1 + 1} = \frac{1}{2} \end{aligned}$$
 
 ---
-
 #### **3. Distinction Between Input ($x$) and Output ($f(x)$)**
 * **Input ($x$):** Approaching **$1$** (written as $x \to 1^-$ or $x \to 1^+$).
 * **Output ($f(x)$):** Approaching **$\frac{1}{2}$** (the value the expression evaluates to).
 
 ---
-
 #### **4. Summary**
 Since the left-hand limit equals the right-hand limit:
 
