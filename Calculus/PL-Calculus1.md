@@ -442,3 +442,33 @@ Since the left-hand limit equals the right-hand limit:
 $$\lim_{x \to 1^-} \frac{x - 1}{x^2 - 1} = \lim_{x \to 1^+} \frac{x - 1}{x^2 - 1} = \frac{1}{2}$$
 
 As $x$ **approaches $1$**, the limit value **approaches $\frac{1}{2}$**.
+### Problem: $\lim_{x \to 2} g(x)$
+
+#### **1. Core Concept & Rule**
+**Note:** For a limit to exist at $a$ ($\lim_{x \to a} f(x) = L$), you must have:
+
+$$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x)$$
+
+---
+
+#### **2. Finding One-Sided Limits from Graph**
+
+* **Right-Hand Limit ($\lim_{x \to 2^+} g(x)$):**
+  Approaching $x = 2$ from the right ($x > 2$), the graph of $g(x)$ leads to $y = 3$.
+  $$\lim_{x \to 2^+} g(x) = 3$$
+
+* **Left-Hand Limit ($\lim_{x \to 2^-} g(x)$):**
+  Approaching $x = 2$ from the left ($x < 2$), the graph of $g(x)$ leads to $y = 1$.
+  $$\lim_{x \to 2^-} g(x) = 1$$
+
+---
+
+#### **3. Two-Sided Limit Conclusion ($\lim_{x \to 2} g(x)$)**
+
+Since the left-hand limit does not equal the right-hand limit:
+
+$$\lim_{x \to 2^-} g(x) \neq \lim_{x \to 2^+} g(x) \quad (1 \neq 3)$$
+
+$$\lim_{x \to 2} g(x) = \text{DNE} \quad (\text{Does Not Exist})$$
+
+*(Note: $g(2) = 2$ at the solid dot, but function value at the point does not affect the limit.)*
