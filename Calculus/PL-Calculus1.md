@@ -408,14 +408,12 @@ To estimate the limit as $x \to 1$, we evaluate $f(x) = \frac{x - 1}{x^2 - 1}$ f
 * **Observation:** As $x \to 1^-$ and $x \to 1^+$, $f(x) \to 0.5 = \frac{1}{2}$.
 
 ---
-
 #### **2. Algebraic Approach**
 Direct substitution gives $\frac{0}{0}$ (an indeterminate form), so we factor and simplify:
 
 $$\begin{aligned} \lim_{x \to 1} \frac{x - 1}{x^2 - 1} &= \lim_{x \to 1} \frac{x - 1}{(x - 1)(x + 1)} \\ &= \lim_{x \to 1} \frac{1}{x + 1} \quad (x \neq 1) \\ &= \frac{1}{1 + 1} \\ &= \frac{1}{2} \end{aligned}$$
 
 ---
-
 #### **3. Summary**
 Both the numerical table approach and the algebraic factoring method confirm that:
 $$\lim_{x \to 1} \frac{x - 1}{x^2 - 1} = \frac{1}{2}$$
