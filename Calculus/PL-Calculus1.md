@@ -467,3 +467,33 @@ $$\lim_{x \to 2^-} g(x) \neq \lim_{x \to 2^+} g(x) \quad (1 \neq 3)$$
 $$\lim_{x \to 2} g(x) = \text{DNE} \quad (\text{Does Not Exist})$$
 
 *(Note: $g(2) = 2$ at the solid dot, but function value at the point does not affect the limit.)*
+### Problem: Find Limit of $f(x) = \frac{1}{x}$ as $x \to 0$
+
+#### **1. Numerical Approach (Table of Values)**
+Evaluating $f(x) = \frac{1}{x}$ as $x$ approaches $0$ from the left ($x < 0$) and from the right ($x > 0$). Note that at $x = 0$, $f(x)$ is undefined.
+
+| $x$ | $-0.5$ | $-0.01$ | $-0.001$ | $0$ | $0.001$ | $0.01$ | $0.5$ |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **$f(x)$** | $-2$ | $-100$ | $-1000$ | **Undefined** | $1000$ | $100$ | $2$ |
+
+---
+
+#### **2. One-Sided Limits**
+
+* **Left-Hand Limit ($\lim_{x \to 0^-}$):**
+  As $x \to 0$ from the left, $f(x)$ decreases without bound toward negative infinity.
+  $$\lim_{x \to 0^-} \frac{1}{x} = -\infty$$
+
+* **Right-Hand Limit ($\lim_{x \to 0^+}$):**
+  As $x \to 0$ from the right, $f(x)$ increases without bound toward positive infinity.
+  $$\lim_{x \to 0^+} \frac{1}{x} = \infty$$
+
+---
+
+#### **3. Two-Sided Limit Conclusion ($\lim_{x \to 0}$)**
+
+Since the left-hand limit does not equal the right-hand limit ($-\infty \neq \infty$):
+
+$$\lim_{x \to 0^-} \frac{1}{x} \neq \lim_{x \to 0^+} \frac{1}{x}$$
+
+$$\lim_{x \to 0} \frac{1}{x} = \text{DNE} \quad (\text{Does Not Exist})$$
