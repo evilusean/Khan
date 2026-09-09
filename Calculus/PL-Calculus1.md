@@ -499,3 +499,121 @@ $$\lim_{x \to 0^-} \frac{1}{x} \neq \lim_{x \to 0^+} \frac{1}{x}$$
 $$\lim_{x \to 0} \frac{1}{x} = \text{DNE} \quad (\text{Does Not Exist})$$
 ## 2026-09-09 - Calculus 1 Lecture 1.2: Properties of Limits. Techniques of Limit Computation (3 hours) :
 https://www.youtube.com/watch?v=VSqOZNULRjQ&list=PLF797E961509B4EB5&index=7
+### Calculus 1 — Lecture 1.2: Properties of Limits & Techniques of Limit Computation
+
+---
+
+#### **1. Basic Limit Laws & Fundamental Properties**
+
+Let $c$ be a constant and assume the basic limits $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$ exist.
+
+1. **Limit of a Constant:**
+   $$\lim_{x \to a} c = c$$
+   *Visual:* A constant function $f(x) = c$ is a horizontal line. As $x \to a$ from either direction, $y = c$.
+
+2. **Limit of $x$ (Identity Function):**
+   $$\lim_{x \to a} x = a$$
+   *Visual:* On the line $y = x$, as $x \to a$, $y \to a$.
+
+3. **Sum / Difference Rule:**
+   $$\lim_{x \to a} [f(x) \pm g(x)] = \lim_{x \to a} f(x) \pm \lim_{x \to a} g(x) = L \pm M$$
+
+4. **Constant Multiple Rule:**
+   $$\lim_{x \to a} [c \cdot f(x)] = c \cdot \lim_{x \to a} f(x) = c L$$
+
+5. **Product Rule:**
+   $$\lim_{x \to a} [f(x) \cdot g(x)] = \left(\lim_{x \to a} f(x)\right) \left(\lim_{x \to a} g(x)\right) = L \cdot M$$
+
+6. **Quotient Rule:**
+   $$\lim_{x \to a} \left[ \frac{f(x)}{g(x)} \right] = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)} = \frac{L}{M} \quad (\text{provided } M \neq 0)$$
+
+7. **Power & Root Rules:**
+   $$\lim_{x \to a} [f(x)]^n = \left(\lim_{x \to a} f(x)\right)^n = L^n$$
+   $$\lim_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{\lim_{x \to a} f(x)} = \sqrt[n]{L} \quad (\text{if } n \text{ is even, require } L > 0)$$
+
+---
+
+#### **2. Direct Substitution & Algebraic Techniques**
+
+##### **A. Direct Substitution Method**
+If $P(x)$ is a polynomial or $R(x) = \frac{P(x)}{Q(x)}$ is a rational function with $Q(a) \neq 0$, limits can be evaluated directly by substitution:
+$$\lim_{x \to a} P(x) = P(a)$$
+
+##### **B. Factoring Technique ($\frac{0}{0}$ Indeterminate Form)**
+When direct substitution yields $\frac{0}{0}$, $(x - a)$ is a common factor in both the numerator and denominator.
+
+* **Example:**
+  $$\begin{aligned}
+  \lim_{x \to -4} \frac{x^2 - 16}{x + 4} &= \lim_{x \to -4} \frac{(x - 4)(x + 4)}{x + 4} \\[6pt]
+  &= \lim_{x \to -4} (x - 4) \quad (x \neq -4) \\[6pt]
+  &= -4 - 4 = -8
+  \end{aligned}$$
+
+##### **C. Conjugate / Rationalization Technique**
+When encountering radical expressions that produce $\frac{0}{0}$, multiply the numerator and denominator by the conjugate.
+
+* **Example:**
+  $$\begin{aligned}
+  \lim_{x \to 0} \frac{\sqrt{x + 4} - 2}{x} &= \lim_{x \to 0} \frac{(\sqrt{x + 4} - 2)(\sqrt{x + 4} + 2)}{x(\sqrt{x + 4} + 2)} \\[6pt]
+  &= \lim_{x \to 0} \frac{(x + 4) - 4}{x(\sqrt{x + 4} + 2)} \\[6pt]
+  &= \lim_{x \to 0} \frac{x}{x(\sqrt{x + 4} + 2)} \\[6pt]
+  &= \lim_{x \to 0} \frac{1}{\sqrt{x + 4} + 2} = \frac{1}{\sqrt{4} + 2} = \frac{1}{4}
+  \end{aligned}$$
+
+##### **D. Complex Fractions Method**
+Simplify nested fractions by finding a common denominator for the inner terms.
+
+---
+
+#### **3. Limits of Piecewise Functions**
+
+For piecewise-defined functions, evaluate left- and right-hand limits at the boundary points.
+
+* **Rule:** $\lim_{x \to a} f(x) = L$ if and only if:
+  $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L$$
+
+---
+
+#### **4. The Squeeze Theorem (Sandwich Theorem)**
+
+##### **Theorem Statement**
+If $g(x) \le f(x) \le h(x)$ for all $x$ near $a$ (except possibly at $a$), and:
+$$\lim_{x \to a} g(x) = \lim_{x \to a} h(x) = L$$
+Then:
+$$\lim_{x \to a} f(x) = L$$
+
+##### **Classic Example:**
+$$\lim_{x \to 0} x^2 \sin\left(\frac{1}{x}\right)$$
+Since $-1 \le \sin\left(\frac{1}{x}\right) \le 1$, multiply by $x^2$:
+$$-x^2 \le x^2 \sin\left(\frac{1}{x}\right) \le x^2$$
+Since $\lim_{x \to 0} (-x^2) = 0$ and $\lim_{x \to 0} (x^2) = 0$, by the Squeeze Theorem:
+$$\lim_{x \to 0} x^2 \sin\left(\frac{1}{x}\right) = 0$$
+
+---
+
+#### **5. Special Trigonometric Limits**
+
+1. **Fundamental Sine Limit:**
+   $$\lim_{\theta \to 0} \frac{\sin \theta}{\theta} = 1 \quad \text{and} \quad \lim_{\theta \to 0} \frac{\theta}{\sin \theta} = 1$$
+
+2. **Fundamental Cosine Limit:**
+   $$\lim_{\theta \to 0} \frac{1 - \cos \theta}{\theta} = 0$$
+
+##### **Trigonometric Proof Example:**
+$$\lim_{\theta \to 0} \frac{1 - \cos \theta}{\theta^2}$$
+Multiply numerator and denominator by $(1 + \cos \theta)$:
+$$\begin{aligned}
+\lim_{\theta \to 0} \frac{(1 - \cos \theta)(1 + \cos \theta)}{\theta^2 (1 + \cos \theta)} &= \lim_{\theta \to 0} \frac{1 - \cos^2 \theta}{\theta^2 (1 + \cos \theta)} \\[6pt]
+&= \lim_{\theta \to 0} \frac{\sin^2 \theta}{\theta^2 (1 + \cos \theta)} \\[6pt]
+&= \left(\lim_{\theta \to 0} \frac{\sin \theta}{\theta}\right)^2 \cdot \lim_{\theta \to 0} \frac{1}{1 + \cos \theta} \\[6pt]
+&= (1)^2 \cdot \frac{1}{1 + 1} = \frac{1}{2}
+\end{aligned}$$
+
+---
+
+#### **6. Summary**
+* **Direct Substitution:** Always try plugging in $x = a$ first.
+* **Indeterminate Forms ($\frac{0}{0}$):** Apply factoring, rationalization, or complex fraction simplification to cancel common factors.
+* **Piecewise Functions:** Compare $\lim_{x \to a^-} f(x)$ and $\lim_{x \to a^+} f(x)$.
+* **Oscillating Functions:** Use the Squeeze Theorem to trap $f(x)$ between two bounding functions.
+* **Trigonometric Limits:** Transform expressions using fundamental trigonometric identities to exploit $\lim_{\theta \to 0} \frac{\sin \theta}{\theta} = 1$ and $\lim_{\theta \to 0} \frac{1 - \cos \theta}{\theta} = 0$.
