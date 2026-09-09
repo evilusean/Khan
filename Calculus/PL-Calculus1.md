@@ -498,3 +498,4 @@ $$\lim_{x \to 0^-} \frac{1}{x} \neq \lim_{x \to 0^+} \frac{1}{x}$$
 
 $$\lim_{x \to 0} \frac{1}{x} = \text{DNE} \quad (\text{Does Not Exist})$$
 ## 2026-09-09 - Calculus 1 Lecture 1.2: Properties of Limits. Techniques of Limit Computation (3 hours) :
+https://www.youtube.com/watch?v=VSqOZNULRjQ&list=PLF797E961509B4EB5&index=7
