@@ -627,3 +627,40 @@ $$\lim_{x \to a} x = a$$
 #### **4. Summary**
 * For basic functions like constants ($c$) and $x$, limits can be found by direct interpretation of their graphs.
 * For $f(x) = \frac{1}{x}$ at $x = 0$, the left- and right-hand behaviors differ radically ($-\infty$ vs. $+\infty$), showing that one-sided limits capture unbounded vertical behavior near a vertical asymptote.
+### Properties of Limits
+
+Given that $\lim_{x \to a} f(x) = L_1$ and $\lim_{x \to a} g(x) = L_2$ exist:
+
+---
+
+#### **1. Sum / Difference Rule**
+
+$$\lim_{x \to a} [f(x) \pm g(x)] = \lim_{x \to a} f(x) \pm \lim_{x \to a} g(x)$$
+
+* **Explanation:** You can break up a limit across addition or subtraction. The limit of a sum (or difference) is simply the sum (or difference) of the individual limits ($L_1 \pm L_2$).
+
+---
+
+#### **2. Product Rule**
+
+$$\lim_{x \to a} [f(x) \cdot g(x)] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)$$
+
+* **Explanation:** Limits can also be split across multiplication. The limit of two functions multiplied together is equal to the limit of the first function times the limit of the second function ($L_1 \cdot L_2$).
+
+---
+
+#### **3. Quotient Rule**
+
+$$\lim_{x \to a} \left[ \frac{f(x)}{g(x)} \right] = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}, \quad \text{provided } \lim_{x \to a} g(x) \neq 0$$
+
+* **Explanation:** You can take the limit of the numerator and the denominator separately. The only big rule/catch here is that the limit of the denominator cannot equal zero, because dividing by zero is undefined.
+
+---
+
+#### **4. Power & Root Rules**
+
+$$\lim_{x \to a} [f(x)]^n = \left[ \lim_{x \to a} f(x) \right]^n$$
+
+$$\lim_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{\lim_{x \to a} f(x)}$$
+
+* **Explanation:** You can push the limit operator inside powers and roots. Evaluate the limit of the inside function first, then apply the exponent or take the $n$-th root afterward (assuming the root is real when $n$ is even).
