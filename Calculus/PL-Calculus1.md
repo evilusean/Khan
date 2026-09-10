@@ -666,7 +666,6 @@ $$\lim_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{\lim_{x \to a} f(x)}$$
 When evaluating limits, the ultimate goal is often to use **direct substitution**. However, before jumping straight to plugging in $x = 2$, Professor Leonard demonstrates *why* direct substitution is mathematically valid for polynomials by explicitly breaking down the expression using fundamental limit laws.
 
 ---
-
 #### **2. Step-by-Step Breakdown using Limit Laws**
 
 ##### **Step 1: Apply the Sum and Difference Rule**
@@ -679,7 +678,6 @@ When evaluating limits, the ultimate goal is often to use **direct substitution*
 * **Product / Constant Multiple Rule:** $\lim_{x \to a} [c \cdot f(x)] = \left(\lim_{x \to a} c\right) \cdot \left(\lim_{x \to a} f(x)\right)$
 * **Application:** Move the limit operator *inside* the exponent for $x^3$, and split $2x$ into the product of two individual limits:
   $$\longrightarrow \left[\lim_{x \to 2} x\right]^3 - \left(\lim_{x \to 2} 2\right) \cdot \left(\lim_{x \to 2} x\right) + \lim_{x \to 2} 7$$
-
 ##### **Step 3: Evaluate the Fundamental Base Limits**
 Apply the core basic limit rules:
 1. **Identity Limit:** $\lim_{x \to a} x = a \implies \lim_{x \to 2} x = 2$
@@ -689,7 +687,6 @@ Substitute these evaluated limit values directly back into the expression:
 $$\longrightarrow 2^3 - (2) \cdot (2) + 7$$
 
 ---
-
 #### **3. Arithmetic Simplification**
 
 $$\begin{aligned}
@@ -699,9 +696,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 ---
-
 #### **4. Key Takeaway & Theorem Formulation**
-
 * **The Rule for Polynomials:** 
   Because every polynomial $P(x)$ is simply a combination of sums, differences, products, and powers of $x$ and constants, applying these limit laws will *always* end up matching what you get by simply replacing $x$ with $a$.
 
