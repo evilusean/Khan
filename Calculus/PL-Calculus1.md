@@ -707,3 +707,38 @@ $$\begin{aligned}
 * **In Practice:** 
   You do not need to write out every limit law step for polynomial problems going forward. You can evaluate them directly:
   $$\lim_{x \to 2} (x^3 - 2x + 7) = (2)^3 - 2(2) + 7 = 8 - 4 + 7 = 11$$
+### Problem: $\lim_{x \to 2} (x^5 - 3x + 4)^3$
+
+#### **1. Pedagogical Setup & Core Concept**
+This example demonstrates how to apply the **Power Rule for Limits** in conjunction with the **Direct Substitution Property** for polynomials. Instead of attempting to expand a large binomial/trinomial like $(x^5 - 3x + 4)^3$ through tedious algebra, we bring the limit operator inside the composite function.
+
+---
+
+#### **2. Step-by-Step Breakdown using Limit Laws**
+
+##### **Step 1: Move the Limit Inside the Exponent**
+* **Power Rule:** $\lim_{x \to a} [f(x)]^n = \left[\lim_{x \to a} f(x)\right]^n$
+* **Application:** Move the limit inside the brackets to evaluate the inner polynomial limit first:
+  $$\lim_{x \to 2} (x^5 - 3x + 4)^3 = \left[ \lim_{x \to 2} (x^5 - 3x + 4) \right]^3$$
+
+##### **Step 2: Evaluate the Inner Polynomial Limit**
+* **Direct Substitution Property:** Since $P(x) = x^5 - 3x + 4$ is a polynomial, $\lim_{x \to a} P(x) = P(a)$.
+* **Application:** Substitute $x = 2$ into the inside expression:
+  $$\longrightarrow \left(2^5 - 3 \cdot 2 + 4\right)^3$$
+
+---
+
+#### **3. Arithmetic Simplification**
+
+##### **Step-by-Step Evaluation:**
+$$\begin{aligned} 2^5 &= 32 \\ 32 - 3(2) + 4 &= 32 - 6 + 4 \\ &= 26 + 4 \\ &= 30 \end{aligned}$$
+
+##### **Final Cube:**
+$$\longrightarrow (30)^3 = 27,000$$
+
+---
+
+#### **4. Summary & Takeaway**
+* **Efficiency:** Always pass limits inside powers, roots, or continuous functions before evaluating.
+* **Direct Result:** 
+  $$\lim_{x \to 2} (x^5 - 3x + 4)^3 = (2^5 - 3(2) + 4)^3 = (30)^3 = 27,000$$
