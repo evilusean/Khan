@@ -773,3 +773,50 @@ $$\frac{\lim_{x \to 2} (4x^2 + 1)}{\lim_{x \to 2} (x - 3)} = \frac{4 \cdot 2^2 +
 3. **What if the denominator is $0$?** 
    * If numerator $= 0$ and denominator $= 0$ ($\frac{0}{0}$): Algebraic manipulation is required (factoring, conjugate, or complex fraction simplification).
    * If numerator $\neq 0$ and denominator $= 0$ ($\frac{k}{0}$): There is a vertical asymptote, leading to continuous growth ($\pm\infty$) or a non-existent limit ($\text{DNE}$).
+### Problem: $\lim_{x \to 1} \sqrt[3]{\frac{5x + 7}{x^2 + 1}}$
+
+#### **1. Pedagogical Setup & Root Rule**
+To evaluate the limit of a radical expression containing a rational function, we utilize the **Root Rule for Limits**. This rule allows us to pass the limit operator directly inside the radical, provided that the function inside the radical has a defined limit (and is positive if taking an even root).
+
+---
+
+#### **2. Step-by-Step Breakdown using Limit Laws**
+
+##### **Step 1: Apply the Root Rule**
+* **Root Rule:** $\lim_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{\lim_{x \to a} f(x)}$
+* **Application:** Move the limit operator inside the cube root:
+  $$\lim_{x \to 1} \sqrt[3]{\frac{5x + 7}{x^2 + 1}} = \sqrt[3]{\lim_{x \to 1} \left( \frac{5x + 7}{x^2 + 1} \right)}$$
+
+##### **Step 2: Apply the Quotient Rule Inside the Radical**
+* **Quotient Rule:** $\lim_{x \to a} \left[ \frac{P(x)}{Q(x)} \right] = \frac{\lim_{x \to a} P(x)}{\lim_{x \to a} Q(x)}$
+* **Application:** Split the inner limit into the numerator and denominator:
+  $$\longrightarrow \sqrt[3]{\frac{\lim_{x \to 1} (5x + 7)}{\lim_{x \to 1} (x^2 + 1)}}$$
+
+##### **Step 3: Direct Substitution of Polynomial Terms**
+Since both $5x + 7$ and $x^2 + 1$ are continuous polynomial functions, evaluate them by direct substitution ($x = 1$):
+
+* **Numerator:** 
+  $$\lim_{x \to 1} (5x + 7) = 5(1) + 7 = 5 + 7 = 12$$
+
+* **Denominator:** 
+  $$\lim_{x \to 1} (x^2 + 1) = 1^2 + 1 = 1 + 1 = 2$$
+
+* **Check Denominator:** $2 \neq 0$, so the quotient is valid and non-zero.
+
+---
+
+#### **3. Arithmetic Simplification**
+
+Substitute the evaluated limits back inside the radical:
+
+$$\begin{aligned}
+\sqrt[3]{\frac{5(1) + 7}{1^2 + 1}} &= \sqrt[3]{\frac{12}{2}} \\[6pt]
+&= \sqrt[3]{6}
+\end{aligned}$$
+
+---
+
+#### **4. Summary & Takeaway**
+* **Passing Limits Inside Functions:** The limit operator can be moved past radicals, exponents, and quotients as long as domain restrictions (like dividing by zero or taking even roots of negative numbers) are satisfied.
+* **Direct Solution:** 
+  $$\lim_{x \to 1} \sqrt[3]{\frac{5x + 7}{x^2 + 1}} = \sqrt[3]{\frac{5(1) + 7}{1^2 + 1}} = \sqrt[3]{\frac{12}{2}} = \sqrt[3]{6}$$
