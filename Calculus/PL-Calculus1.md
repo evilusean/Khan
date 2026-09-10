@@ -596,3 +596,38 @@ $$\begin{aligned}
 * **Piecewise Functions:** Compare $\lim_{x \to a^-} f(x)$ and $\lim_{x \to a^+} f(x)$.
 * **Oscillating Functions:** Use the Squeeze Theorem to trap $f(x)$ between two bounding functions.
 * **Trigonometric Limits:** Transform expressions using fundamental trigonometric identities to exploit $\lim_{\theta \to 0} \frac{\sin \theta}{\theta} = 1$ and $\lim_{\theta \to 0} \frac{1 - \cos \theta}{\theta} = 0$.
+### 1.2 — Computing Limits (Basics)
+
+#### **1. Limit of a Constant ($c = \text{constant}$)**
+
+$$\lim_{x \to a} c = c$$
+
+* **Explanation:** 
+  The graph of $f(x) = c$ is a flat, horizontal line at height $c$. As $x$ approaches any point $a$ from either the left or the right, the $y$-value never changes—it stays at $c$. Therefore, the limit of any constant is simply the constant itself.
+
+---
+
+#### **2. Limit of $x$ (Identity Function)**
+
+$$\lim_{x \to a} x = a$$
+
+* **Explanation:** 
+  The graph of $f(x) = x$ is a straight diagonal line through the origin with a slope of $1$. Since $y$ is always equal to $x$, when $x$ approaches $a$ from both sides, the output $y$ directly approaches $a$ as well.
+
+---
+
+#### **3. One-Sided Limits of $f(x) = \frac{1}{x}$ as $x \to 0$**
+
+* **Left-Hand Limit:**
+  $$\lim_{x \to 0^-} \frac{1}{x} = -\infty$$
+  * **Explanation:** As $x$ approaches $0$ from the left (negative side, like $-0.1, -0.01, -0.001$), the values of $\frac{1}{x}$ become increasingly large negative numbers, dropping down without bound toward $-\infty$.
+
+* **Right-Hand Limit:**
+  $$\lim_{x \to 0^+} \frac{1}{x} = +\infty$$
+  * **Explanation:** As $x$ approaches $0$ from the right (positive side, like $0.1, 0.01, 0.001$), the values of $\frac{1}{x}$ become increasingly large positive numbers, shooting up without bound toward $+\infty$.
+
+---
+
+#### **4. Summary**
+* For basic functions like constants ($c$) and $x$, limits can be found by direct interpretation of their graphs.
+* For $f(x) = \frac{1}{x}$ at $x = 0$, the left- and right-hand behaviors differ radically ($-\infty$ vs. $+\infty$), showing that one-sided limits capture unbounded vertical behavior near a vertical asymptote.
