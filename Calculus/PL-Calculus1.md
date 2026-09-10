@@ -660,3 +660,55 @@ $$\lim_{x \to a} [f(x)]^n = \left[ \lim_{x \to a} f(x) \right]^n$$
 $$\lim_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{\lim_{x \to a} f(x)}$$
 
 * **Explanation:** You can push the limit operator inside powers and roots. Evaluate the limit of the inside function first, then apply the exponent or take the $n$-th root afterward (assuming the root is real when $n$ is even).
+### Problem: $\lim_{x \to 2} (x^3 - 2x + 7)$
+
+#### **1. Pedagogical Setup & Purpose**
+When evaluating limits, the ultimate goal is often to use **direct substitution**. However, before jumping straight to plugging in $x = 2$, Professor Leonard demonstrates *why* direct substitution is mathematically valid for polynomials by explicitly breaking down the expression using fundamental limit laws.
+
+---
+
+#### **2. Step-by-Step Breakdown using Limit Laws**
+
+##### **Step 1: Apply the Sum and Difference Rule**
+* **Rule:** $\lim_{x \to a} [f(x) \pm g(x) \pm h(x)] = \lim_{x \to a} f(x) \pm \lim_{x \to a} g(x) \pm \lim_{x \to a} h(x)$
+* **Application:** Break the limit across each term in the polynomial:
+  $$\lim_{x \to 2} (x^3 - 2x + 7) \longrightarrow \lim_{x \to 2} x^3 - \lim_{x \to 2} 2x + \lim_{x \to 2} 7$$
+
+##### **Step 2: Apply Power, Product, and Constant Multiple Rules**
+* **Power Rule:** $\lim_{x \to a} [f(x)]^n = \left[\lim_{x \to a} f(x)\right]^n$
+* **Product / Constant Multiple Rule:** $\lim_{x \to a} [c \cdot f(x)] = \left(\lim_{x \to a} c\right) \cdot \left(\lim_{x \to a} f(x)\right)$
+* **Application:** Move the limit operator *inside* the exponent for $x^3$, and split $2x$ into the product of two individual limits:
+  $$\longrightarrow \left[\lim_{x \to 2} x\right]^3 - \left(\lim_{x \to 2} 2\right) \cdot \left(\lim_{x \to 2} x\right) + \lim_{x \to 2} 7$$
+
+##### **Step 3: Evaluate the Fundamental Base Limits**
+Apply the core basic limit rules:
+1. **Identity Limit:** $\lim_{x \to a} x = a \implies \lim_{x \to 2} x = 2$
+2. **Constant Limit:** $\lim_{x \to a} c = c \implies \lim_{x \to 2} 2 = 2$ and $\lim_{x \to 2} 7 = 7$
+
+Substitute these evaluated limit values directly back into the expression:
+$$\longrightarrow 2^3 - (2) \cdot (2) + 7$$
+
+---
+
+#### **3. Arithmetic Simplification**
+
+$$\begin{aligned}
+&= 8 - 4 + 7 \\
+&= 4 + 7 \\
+&= 11
+\end{aligned}$$
+
+---
+
+#### **4. Key Takeaway & Theorem Formulation**
+
+* **The Rule for Polynomials:** 
+  Because every polynomial $P(x)$ is simply a combination of sums, differences, products, and powers of $x$ and constants, applying these limit laws will *always* end up matching what you get by simply replacing $x$ with $a$.
+
+* **Direct Substitution Property:**
+  For any polynomial function $P(x)$:
+  $$\lim_{x \to a} P(x) = P(a)$$
+
+* **In Practice:** 
+  You do not need to write out every limit law step for polynomial problems going forward. You can evaluate them directly:
+  $$\lim_{x \to 2} (x^3 - 2x + 7) = (2)^3 - 2(2) + 7 = 8 - 4 + 7 = 11$$
