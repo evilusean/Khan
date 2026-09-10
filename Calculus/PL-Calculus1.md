@@ -779,19 +779,16 @@ $$\frac{\lim_{x \to 2} (4x^2 + 1)}{\lim_{x \to 2} (x - 3)} = \frac{4 \cdot 2^2 +
 To evaluate the limit of a radical expression containing a rational function, we utilize the **Root Rule for Limits**. This rule allows us to pass the limit operator directly inside the radical, provided that the function inside the radical has a defined limit (and is positive if taking an even root).
 
 ---
-
 #### **2. Step-by-Step Breakdown using Limit Laws**
 
 ##### **Step 1: Apply the Root Rule**
 * **Root Rule:** $\lim_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{\lim_{x \to a} f(x)}$
 * **Application:** Move the limit operator inside the cube root:
   $$\lim_{x \to 1} \sqrt[3]{\frac{5x + 7}{x^2 + 1}} = \sqrt[3]{\lim_{x \to 1} \left( \frac{5x + 7}{x^2 + 1} \right)}$$
-
 ##### **Step 2: Apply the Quotient Rule Inside the Radical**
 * **Quotient Rule:** $\lim_{x \to a} \left[ \frac{P(x)}{Q(x)} \right] = \frac{\lim_{x \to a} P(x)}{\lim_{x \to a} Q(x)}$
 * **Application:** Split the inner limit into the numerator and denominator:
   $$\longrightarrow \sqrt[3]{\frac{\lim_{x \to 1} (5x + 7)}{\lim_{x \to 1} (x^2 + 1)}}$$
-
 ##### **Step 3: Direct Substitution of Polynomial Terms**
 Since both $5x + 7$ and $x^2 + 1$ are continuous polynomial functions, evaluate them by direct substitution ($x = 1$):
 
@@ -804,7 +801,6 @@ Since both $5x + 7$ and $x^2 + 1$ are continuous polynomial functions, evaluate 
 * **Check Denominator:** $2 \neq 0$, so the quotient is valid and non-zero.
 
 ---
-
 #### **3. Arithmetic Simplification**
 
 Substitute the evaluated limits back inside the radical:
@@ -815,7 +811,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 ---
-
 #### **4. Summary & Takeaway**
 * **Passing Limits Inside Functions:** The limit operator can be moved past radicals, exponents, and quotients as long as domain restrictions (like dividing by zero or taking even roots of negative numbers) are satisfied.
 * **Direct Solution:** 
