@@ -744,14 +744,12 @@ $$\longrightarrow (30)^3 = 27,000$$
 When evaluating the limit of a rational function $f(x) = \frac{P(x)}{Q(x)}$, we apply the **Quotient Rule for Limits**. The Quotient Rule allows us to split the limit into the numerator and the denominator separately, provided that the limit of the denominator is non-zero ($\lim_{x \to a} Q(x) \neq 0$).
 
 ---
-
 #### **2. Step-by-Step Breakdown using Limit Laws**
 
 ##### **Step 1: Apply the Quotient Rule**
 * **Quotient Rule:** $\lim_{x \to a} \left[\frac{f(x)}{g(x)}\right] = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}$
 * **Application:** Split the single limit into two separate limits:
   $$\lim_{x \to 2} \frac{4x^2 + 1}{x - 3} = \frac{\lim_{x \to 2} (4x^2 + 1)}{\lim_{x \to 2} (x - 3)}$$
-
 ##### **Step 2: Evaluate Numerator and Denominator via Direct Substitution**
 Since both $4x^2 + 1$ and $x - 3$ are polynomials, we use direct substitution ($\lim_{x \to a} P(x) = P(a)$):
 
@@ -764,13 +762,11 @@ Since both $4x^2 + 1$ and $x - 3$ are polynomials, we use direct substitution ($
 * **Check Validity:** The denominator limit is $-1 \neq 0$, so the Quotient Rule holds valid.
 
 ---
-
 #### **3. Final Calculation**
 
 $$\frac{\lim_{x \to 2} (4x^2 + 1)}{\lim_{x \to 2} (x - 3)} = \frac{4 \cdot 2^2 + 1}{2 - 3} = \frac{17}{-1} = -17$$
 
 ---
-
 #### **4. Key Takeaways & Workflow**
 1. **Quotient Rule Condition:** You are always allowed to break a rational limit into two separate limits *as long as* the denominator does not evaluate to $0$.
 2. **Direct Substitution Shortcut:** If evaluating the denominator yields a non-zero number, direct substitution yields the exact limit value immediately.
