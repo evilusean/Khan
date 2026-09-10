@@ -815,3 +815,38 @@ $$\begin{aligned}
 * **Passing Limits Inside Functions:** The limit operator can be moved past radicals, exponents, and quotients as long as domain restrictions (like dividing by zero or taking even roots of negative numbers) are satisfied.
 * **Direct Solution:** 
   $$\lim_{x \to 1} \sqrt[3]{\frac{5x + 7}{x^2 + 1}} = \sqrt[3]{\frac{5(1) + 7}{1^2 + 1}} = \sqrt[3]{\frac{12}{2}} = \sqrt[3]{6}$$
+### Problem: $\lim_{x \to 2} \frac{x^2 - 4}{x - 2}$
+
+#### **1. Pedagogical Setup & The Indeterminate Form**
+Attempting direct substitution first gives:
+
+$$\frac{2^2 - 4}{2 - 2} = \frac{0}{0}$$
+
+* **Indeterminate Form $\frac{0}{0}$:** This tells us that $x = 2$ causes a hole (removable discontinuity) rather than a vertical asymptote. When direct substitution yields $\frac{0}{0}$, it guarantees that $(x - a)$—in this case $(x - 2)$—is a common factor in both the numerator and denominator that can be factored out and canceled.
+
+---
+
+#### **2. Step-by-Step Algebraic Solution**
+
+##### **Step 1: Factor the Numerator**
+Factor $x^2 - 4$ using the difference of squares identity ($a^2 - b^2 = (a - b)(a + b)$):
+
+$$\lim_{x \to 2} \frac{x^2 - 4}{x - 2} \longrightarrow \lim_{x \to 2} \frac{(x + 2)(x - 2)}{x - 2}$$
+
+##### **Step 2: Cancel Common Factors**
+Cancel out the $(x - 2)$ term from both the numerator and denominator:
+
+$$\lim_{x \to 2} \frac{(x + 2)\cancel{(x - 2)}}{\cancel{x - 2}}$$
+
+* **Mathematical Justification ($x \neq 2$):** Canceling factors is valid because a limit considers values of $x$ as $x$ *approaches* $2$, but **never equal to $2$** ($x \neq 2$). Since $x \neq 2$, the term $(x - 2) \neq 0$, making division by $(x - 2)$ completely legal.
+
+##### **Step 3: Direct Substitution on Simplified Function**
+Now that the problematic term creating $\frac{0}{0}$ has been removed, evaluate the simplified limit using direct substitution:
+
+$$\longrightarrow \lim_{x \to 2} (x + 2) = 2 + 2 = 4$$
+
+---
+
+#### **3. Summary & Takeaway**
+* **The $\frac{0}{0}$ Rule:** Getting $\frac{0}{0}$ never means "undefined" or "DNE"—it means **do more work**.
+* **Removable Discontinuity:** The original function $f(x) = \frac{x^2 - 4}{x - 2}$ is identical to the line $y = x + 2$ everywhere except at $x = 2$, where it has a hole at $(2, 4)$.
