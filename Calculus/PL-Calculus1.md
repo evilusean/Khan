@@ -975,8 +975,7 @@ $$\longrightarrow \frac{1}{\sqrt{1 + 0} + 1} = \frac{1}{\sqrt{1} + 1} = \frac{1}
 
 * **Radical Rationalization Protocol:** Always multiply by the conjugate when seeing a square root producing $\frac{0}{0}$.
 * **Keep Non-Conjugate Factored:** Never distribute the non-conjugate side (here, the denominator $x(\sqrt{1+x}+1)$). Leaving it factored ensures the $x$ term that causes $\frac{0}{0}$ is ready to be canceled cleanly.
-### Piecewise Limits in Calculus 1
-
+### Piecewise Limits
 #### **1. Core Concept & Pedagogical Setup**
 A **piecewise function** is defined by different formulas over different sub-domains (intervals of $x$). When taking a limit of a piecewise function as $x$ approaches a **boundary point** (the split point where the definition changes), you cannot rely on a single formula. 
 
@@ -985,7 +984,6 @@ Instead, you must analyze the **left-hand limit** and the **right-hand limit** s
 $$\lim_{x \to a} f(x) = L \iff \lim_{x \to a^-} f(x) = L \quad \text{and} \quad \lim_{x \to a^+} f(x) = L$$
 
 ---
-
 #### **2. The Step-by-Step Method for Boundary Limits**
 
 For a piecewise function split at $x = c$:
@@ -993,7 +991,6 @@ For a piecewise function split at $x = c$:
 $$f(x) = \begin{cases} g(x) & \text{if } x < c \\ h(x) & \text{if } x > c \end{cases}$$
 
 To evaluate $\lim_{x \to c} f(x)$:
-
 ##### **Step 1: Evaluate the Left-Hand Limit ($\lim_{x \to c^-} f(x)$)**
 * **Which piece?** Use the rule defined for values less than $c$ ($x < c$, which is $g(x)$).
 * **Action:** Evaluate $\lim_{x \to c^-} g(x)$ (typically using direct substitution).
@@ -1009,7 +1006,6 @@ To evaluate $\lim_{x \to c} f(x)$:
   $$\lim_{x \to c} f(x) = \text{DNE} \quad (\text{Does Not Exist})$$
 
 ---
-
 #### **3. Worked Example**
 
 Evaluate $\lim_{x \to 3} f(x)$ for:
@@ -1029,8 +1025,7 @@ Since $\lim_{x \to 3^-} f(x) = 7$ and $\lim_{x \to 3^+} f(x) = 7$:
 $$\lim_{x \to 3} f(x) = 7$$
 
 ---
-
 #### **4. Crucial Distinctions & Pitfalls**
-
 * **Boundary vs. Non-Boundary Limits:** If the limit approaches a value *inside* one of the intervals (e.g., $\lim_{x \to 1} f(x)$ in the example above), you do **not** need two-sided checks. Simply use the single formula active at $x = 1$ ($2x + 1$).
 * **Function Value $f(c)$ vs. Limit $\lim_{x \to c} f(x)$:** The value of $f(c)$ (defined by $\le$ or $\ge$) has **no bearing** on the value of the limit. Limits only describe what the function approaches as $x$ gets close to $c$, not what happens at $x = c$.
+
