@@ -975,4 +975,62 @@ $$\longrightarrow \frac{1}{\sqrt{1 + 0} + 1} = \frac{1}{\sqrt{1} + 1} = \frac{1}
 
 * **Radical Rationalization Protocol:** Always multiply by the conjugate when seeing a square root producing $\frac{0}{0}$.
 * **Keep Non-Conjugate Factored:** Never distribute the non-conjugate side (here, the denominator $x(\sqrt{1+x}+1)$). Leaving it factored ensures the $x$ term that causes $\frac{0}{0}$ is ready to be canceled cleanly.
+### Piecewise Limits in Calculus 1
 
+#### **1. Core Concept & Pedagogical Setup**
+A **piecewise function** is defined by different formulas over different sub-domains (intervals of $x$). When taking a limit of a piecewise function as $x$ approaches a **boundary point** (the split point where the definition changes), you cannot rely on a single formula. 
+
+Instead, you must analyze the **left-hand limit** and the **right-hand limit** separately using the specific formula corresponding to each side of the boundary.
+
+$$\lim_{x \to a} f(x) = L \iff \lim_{x \to a^-} f(x) = L \quad \text{and} \quad \lim_{x \to a^+} f(x) = L$$
+
+---
+
+#### **2. The Step-by-Step Method for Boundary Limits**
+
+For a piecewise function split at $x = c$:
+
+$$f(x) = \begin{cases} g(x) & \text{if } x < c \\ h(x) & \text{if } x > c \end{cases}$$
+
+To evaluate $\lim_{x \to c} f(x)$:
+
+##### **Step 1: Evaluate the Left-Hand Limit ($\lim_{x \to c^-} f(x)$)**
+* **Which piece?** Use the rule defined for values less than $c$ ($x < c$, which is $g(x)$).
+* **Action:** Evaluate $\lim_{x \to c^-} g(x)$ (typically using direct substitution).
+
+##### **Step 2: Evaluate the Right-Hand Limit ($\lim_{x \to c^+} f(x)$)**
+* **Which piece?** Use the rule defined for values greater than $c$ ($x > c$, which is $h(x)$).
+* **Action:** Evaluate $\lim_{x \to c^+} h(x)$ (typically using direct substitution).
+
+##### **Step 3: Compare the One-Sided Limits**
+* **Case A (Limits Match):** If $\lim_{x \to c^-} f(x) = L$ and $\lim_{x \to c^+} f(x) = L$, then:
+  $$\lim_{x \to c} f(x) = L$$
+* **Case B (Limits Differ):** If $\lim_{x \to c^-} f(x) \neq \lim_{x \to c^+} f(x)$, then:
+  $$\lim_{x \to c} f(x) = \text{DNE} \quad (\text{Does Not Exist})$$
+
+---
+
+#### **3. Worked Example**
+
+Evaluate $\lim_{x \to 3} f(x)$ for:
+
+$$f(x) = \begin{cases} 2x + 1 & \text{if } x < 3 \\ x^2 - 2 & \text{if } x \ge 3 \end{cases}$$
+
+##### **Left-Hand Limit ($x \to 3^-$):**
+Since $x < 3$, use $f(x) = 2x + 1$:
+$$\lim_{x \to 3^-} f(x) = \lim_{x \to 3^-} (2x + 1) = 2(3) + 1 = 7$$
+
+##### **Right-Hand Limit ($x \to 3^+$):**
+Since $x > 3$, use $f(x) = x^2 - 2$:
+$$\lim_{x \to 3^+} f(x) = \lim_{x \to 3^+} (x^2 - 2) = (3)^2 - 2 = 7$$
+
+##### **Conclusion:**
+Since $\lim_{x \to 3^-} f(x) = 7$ and $\lim_{x \to 3^+} f(x) = 7$:
+$$\lim_{x \to 3} f(x) = 7$$
+
+---
+
+#### **4. Crucial Distinctions & Pitfalls**
+
+* **Boundary vs. Non-Boundary Limits:** If the limit approaches a value *inside* one of the intervals (e.g., $\lim_{x \to 1} f(x)$ in the example above), you do **not** need two-sided checks. Simply use the single formula active at $x = 1$ ($2x + 1$).
+* **Function Value $f(c)$ vs. Limit $\lim_{x \to c} f(x)$:** The value of $f(c)$ (defined by $\le$ or $\ge$) has **no bearing** on the value of the limit. Limits only describe what the function approaches as $x$ gets close to $c$, not what happens at $x = c$.
