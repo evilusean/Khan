@@ -1227,3 +1227,34 @@ $$\lim_{x \to 1} \cos\left(\frac{x^2 - 1}{x - 1}\right) = \cos(2)$$
 * **Composition Rule:** Whenever the outer function is continuous (like sine, cosine, roots, or polynomials), move the limit inside to resolve the algebra first.
 * **Indeterminate Form Inside:** Treat the inner expression with standard limit rules (factoring out $\frac{0}{0}$) before applying the outer function.
 * **Exact vs. Decimal:** Leave the answer as $\cos(2)$ (radians) rather than approximating with a decimal unless explicitly instructed.
+### Problem: $\lim_{x \to \frac{\pi}{2}} [3x^2 + \cos x]$
+
+#### **1. Pedagogical Setup & Justification**
+Both $3x^2$ (a polynomial) and $\cos x$ (a basic trigonometric function) are continuous everywhere on their domains. By the **Sum Rule for Limits**, we can split the limit across the addition and evaluate both terms directly via substitution:
+
+$$\lim_{x \to a} [f(x) + g(x)] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x)$$
+
+---
+
+#### **2. Step-by-Step Execution**
+
+##### **Step 1: Direct Substitution**
+Substitute $x = \frac{\pi}{2}$ directly into the function:
+
+$$\lim_{x \to \frac{\pi}{2}} [3x^2 + \cos x] \longrightarrow 3\left(\frac{\pi}{2}\right)^2 + \cos\left(\frac{\pi}{2}\right)$$
+
+##### **Step 2: Simplify Term-by-Term**
+* **First Term ($3x^2$):** 
+  $$3\left(\frac{\pi}{2}\right)^2 = 3\left(\frac{\pi^2}{4}\right) = \frac{3\pi^2}{4}$$
+
+* **Second Term ($\cos x$):**
+  $$\cos\left(\frac{\pi}{2}\right) = 0$$
+
+##### **Step 3: Combine Results**
+$$\longrightarrow \frac{3\pi^2}{4} + 0 = \frac{3\pi^2}{4}$$
+
+---
+
+#### **3. Summary & Takeaway**
+* **Direct Substitution Rules:** When combining polynomials with continuous trig functions like $\cos(x)$, always try direct substitution first. 
+* **Exact Expressions:** Keep $\pi$ in exact symbolic form rather than converting to decimal approximations.
