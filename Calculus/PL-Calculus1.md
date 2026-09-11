@@ -1028,4 +1028,63 @@ $$\lim_{x \to 3} f(x) = 7$$
 #### **4. Crucial Distinctions & Pitfalls**
 * **Boundary vs. Non-Boundary Limits:** If the limit approaches a value *inside* one of the intervals (e.g., $\lim_{x \to 1} f(x)$ in the example above), you do **not** need two-sided checks. Simply use the single formula active at $x = 1$ ($2x + 1$).
 * **Function Value $f(c)$ vs. Limit $\lim_{x \to c} f(x)$:** The value of $f(c)$ (defined by $\le$ or $\ge$) has **no bearing** on the value of the limit. Limits only describe what the function approaches as $x$ gets close to $c$, not what happens at $x = c$.
+### Problem: Piecewise Limits
 
+Given the piecewise function:
+
+$$f(x) = \begin{cases} \frac{1}{x+2} & \text{if } x < -2 \quad (f_1) \\[6pt] x^2 - 5 & \text{if } -2 < x \le 3 \quad (f_2) \\[6pt] \sqrt{x+13} & \text{if } x > 3 \quad (f_3) \end{cases}$$
+
+#### **1. Core Concept & Rule**
+For piecewise functions, to find the two-sided limit at a split boundary point: **Find the 1-sided limits and see if they're equal.**
+
+* **Number Line Setup:**
+  * Region $f_1 = \frac{1}{x+2}$ for $x < -2$
+  * Region $f_2 = x^2 - 5$ for $-2 < x \le 3$
+  * Region $f_3 = \sqrt{x+13}$ for $x > 3$
+
+---
+
+#### **2. Analysis at Boundary $x = -2$**
+
+##### **Left-Hand Limit ($\lim_{x \to -2^-} f(x)$):**
+* Use $f_1(x) = \frac{1}{x+2}$ because $x < -2$:
+  $$\lim_{x \to -2^-} \frac{1}{x + 2}$$
+* **Sign/Behavior Analysis:** As $x \to -2$ from the left (e.g., $x = -2.1$), the denominator becomes a tiny negative number ($-2.1 + 2 = -0.1$). 
+* A positive numerator ($1$) divided by a tiny negative denominator yields:
+  $$\lim_{x \to -2^-} \frac{1}{x + 2} = -\infty$$
+
+##### **Right-Hand Limit ($\lim_{x \to -2^+} f(x)$):**
+* Use $f_2(x) = x^2 - 5$ because $x > -2$:
+  $$\lim_{x \to -2^+} (x^2 - 5) = (-2)^2 - 5 = 4 - 5 = -1$$
+
+##### **Two-Sided Limit Conclusion at $x = -2$:**
+Since the left-hand limit ($-\infty$) and right-hand limit ($-1$) do not match:
+
+$$\lim_{x \to -2^-} f(x) \neq \lim_{x \to -2^+} f(x)$$
+
+$$\lim_{x \to -2} f(x) = \text{D.N.E.}$$
+
+---
+
+#### **3. Analysis at Boundary $x = 3$**
+
+##### **Left-Hand Limit ($\lim_{x \to 3^-} f(x)$):**
+* Use $f_2(x) = x^2 - 5$ because $x \le 3$:
+  $$\lim_{x \to 3^-} (x^2 - 5) = (3)^2 - 5 = 9 - 5 = 4$$
+
+##### **Right-Hand Limit ($\lim_{x \to 3^+} f(x)$):**
+* Use $f_3(x) = \sqrt{x+13}$ because $x > 3$:
+  $$\lim_{x \to 3^+} \sqrt{x + 13} = \sqrt{3 + 13} = \sqrt{16} = 4$$
+
+##### **Two-Sided Limit Conclusion at $x = 3$:**
+Since the left-hand limit ($4$) and right-hand limit ($4$) are equal:
+
+$$\lim_{x \to 3^-} f(x) = \lim_{x \to 3^+} f(x) = 4$$
+
+$$\lim_{x \to 3} f(x) = 4$$
+
+---
+
+#### **4. Takeaways**
+1. **Always check boundaries from both sides:** Identify which sub-function governs the left ($x \to a^-$) versus the right ($x \to a^+$).
+2. **Limits only care about the approach:** The inequality sign ($\le$ vs $<$) determines which branch to pick for the approach, but the limit value depends solely on the limit calculation from each direction.
