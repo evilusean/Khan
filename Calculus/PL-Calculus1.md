@@ -938,4 +938,3 @@ $$\longrightarrow \lim_{x \to 1} (\sqrt{x} + 1) = \sqrt{1} + 1 = 1 + 1 = 2$$
 * **Radicals + $\frac{0}{0}$:** When you see square roots producing $\frac{0}{0}$, multiply numerator and denominator by the conjugate of the radical term.
 * **Leave Non-Conjugates Factored:** Only multiply out the conjugate pair (where $(a-b)(a+b) = a^2 - b^2$ applies). Keep the other side factored so the common factor can be canceled out easily.
 
-# Leftoff @ 55
