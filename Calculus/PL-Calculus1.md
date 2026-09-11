@@ -1235,26 +1235,21 @@ Both $3x^2$ (a polynomial) and $\cos x$ (a basic trigonometric function) are con
 $$\lim_{x \to a} [f(x) + g(x)] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x)$$
 
 ---
-
 #### **2. Step-by-Step Execution**
 
 ##### **Step 1: Direct Substitution**
 Substitute $x = \frac{\pi}{2}$ directly into the function:
 
 $$\lim_{x \to \frac{\pi}{2}} [3x^2 + \cos x] \longrightarrow 3\left(\frac{\pi}{2}\right)^2 + \cos\left(\frac{\pi}{2}\right)$$
-
 ##### **Step 2: Simplify Term-by-Term**
 * **First Term ($3x^2$):** 
   $$3\left(\frac{\pi}{2}\right)^2 = 3\left(\frac{\pi^2}{4}\right) = \frac{3\pi^2}{4}$$
-
 * **Second Term ($\cos x$):**
   $$\cos\left(\frac{\pi}{2}\right) = 0$$
-
 ##### **Step 3: Combine Results**
 $$\longrightarrow \frac{3\pi^2}{4} + 0 = \frac{3\pi^2}{4}$$
 
 ---
-
 #### **3. Summary & Takeaway**
 * **Direct Substitution Rules:** When combining polynomials with continuous trig functions like $\cos(x)$, always try direct substitution first. 
 * **Exact Expressions:** Keep $\pi$ in exact symbolic form rather than converting to decimal approximations.
