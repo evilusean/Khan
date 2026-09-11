@@ -1157,7 +1157,6 @@ $$\lim_{x \to a} \sin(x) = \sin(a)$$
 $$\lim_{x \to a} \cos(x) = \cos(a)$$
 
 ---
-
 #### **2. What About $\tan(x)$?**
 To evaluate $\lim_{x \to a} \tan(x)$, rewrite tangent in terms of sine and cosine using the quotient identity:
 
@@ -1173,7 +1172,6 @@ Using direct substitution for the numerator and denominator:
 $$\longrightarrow \frac{\sin(a)}{\cos(a)} = \tan(a)$$
 
 ---
-
 #### **3. Domain Restrictions & Vertical Asymptotes**
 The Quotient Rule is only valid as long as the denominator is non-zero ($\cos(a) \neq 0$). 
 
@@ -1186,7 +1184,6 @@ $\cos(x) = 0$ at odd multiples of $\frac{\pi}{2}$. Therefore, direct substitutio
 $$x \neq \pm \frac{\pi}{2}, \pm \frac{3\pi}{2}, \dots$$
 
 ---
-
 #### **4. Core Takeaways**
 * **Direct Substitution First:** For any trigonometric function, attempt direct substitution first.
 * **Continuous Domains:** $\sin(x)$ and $\cos(x)$ have no domain restrictions.
