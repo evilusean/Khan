@@ -937,4 +937,46 @@ $$\longrightarrow \lim_{x \to 1} (\sqrt{x} + 1) = \sqrt{1} + 1 = 1 + 1 = 2$$
 
 * **Radicals + $\frac{0}{0}$:** When you see square roots producing $\frac{0}{0}$, multiply numerator and denominator by the conjugate of the radical term.
 * **Leave Non-Conjugates Factored:** Only multiply out the conjugate pair (where $(a-b)(a+b) = a^2 - b^2$ applies). Keep the other side factored so the common factor can be canceled out easily.
+### Problem: $\lim_{x \to 0} \frac{\sqrt{1 + x} - 1}{x}$
 
+#### **1. Pedagogical Setup & Identifying the Indeterminate Form**
+Attempting direct substitution first:
+
+$$\frac{\sqrt{1 + 0} - 1}{0} = \frac{1 - 1}{0} = \frac{0}{0}$$
+
+* **Indeterminate Form $\frac{0}{0}$:** Because substitution yields $\frac{0}{0}$ and contains a radical term in the numerator ($\sqrt{1+x} - 1$), we use the **conjugate method** to rationalize the numerator and expose the common factor of $x$ causing the zero denominator.
+
+---
+
+#### **2. Step-by-Step Algebraic Solution**
+
+##### **Step 1: Multiply by the Conjugate**
+* **Conjugate Pair:** The conjugate of $(\sqrt{1 + x} - 1)$ is $(\sqrt{1 + x} + 1)$.
+* **Application:** Multiply both numerator and denominator by $\frac{\sqrt{1 + x} + 1}{\sqrt{1 + x} + 1}$:
+  $$\lim_{x \to 0} \frac{\sqrt{1 + x} - 1}{x} \cdot \frac{\sqrt{1 + x} + 1}{\sqrt{1 + x} + 1}$$
+
+##### **Step 2: Expand the Numerator Conjugate Pair**
+* **Difference of Squares Identity:** $(a - b)(a + b) = a^2 - b^2$
+* **Numerator Expansion:**
+  $$(\sqrt{1 + x} - 1)(\sqrt{1 + x} + 1) = (\sqrt{1 + x})^2 - (1)^2 = (1 + x) - 1$$
+* **Key Strategy:** Do **not** distribute/expand the denominator; keep it in factored form:
+  $$\lim_{x \to 0} \frac{1 + x - 1}{x(\sqrt{1 + x} + 1)} \longrightarrow \lim_{x \to 0} \frac{x}{x(\sqrt{1 + x} + 1)}$$
+
+##### **Step 3: Cancel Common Factors**
+Cancel out the $x$ term in the numerator with the $x$ in the denominator:
+
+$$\lim_{x \to 0} \frac{\cancel{x}}{\cancel{x}(\sqrt{1 + x} + 1)} = \lim_{x \to 0} \frac{1}{\sqrt{1 + x} + 1}$$
+
+* **Justification ($x \neq 0$):** Since $x$ approaches $0$ but $x \neq 0$, division by $x$ is fully valid.
+
+##### **Step 4: Direct Substitution on Simplified Expression**
+Now that the problematic $x$ term creating $\frac{0}{0}$ is eliminated, evaluate by direct substitution ($x = 0$):
+
+$$\longrightarrow \frac{1}{\sqrt{1 + 0} + 1} = \frac{1}{\sqrt{1} + 1} = \frac{1}{1 + 1} = \frac{1}{2}$$
+
+---
+
+#### **3. Summary & Strategic Rule**
+
+* **Radical Rationalization Protocol:** Always multiply by the conjugate when seeing a square root producing $\frac{0}{0}$.
+* **Keep Non-Conjugate Factored:** Never distribute the non-conjugate side (here, the denominator $x(\sqrt{1+x}+1)$). Leaving it factored ensures the $x$ term that causes $\frac{0}{0}$ is ready to be canceled cleanly.
