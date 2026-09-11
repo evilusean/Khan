@@ -1093,22 +1093,18 @@ Sign analysis is required when direct substitution or initial simplification yie
 * **The Goal:** Because division by zero is undefined, sign analysis determines whether the function approaches $+\infty$ or $-\infty$ from the left ($x \to a^-$) and right ($x \to a^+$), ultimately telling you if the two-sided limit exists or is $\text{D.N.E.}$
 
 ---
-
 #### **2. How to Perform Sign Analysis (Step-by-Step)**
 
 Consider evaluating a limit at $x = a$ that results in $\frac{k}{0}$:
-
 ##### **Step 1: Isolate the Left-Hand Limit ($x \to a^-$)**
 * Pick a test value slightly **smaller** than $a$ (e.g., if $a = 3$, pick $x = 2.9$).
 * Evaluate the **sign** (positive or negative) of each factor in the numerator and denominator.
 * Apply the sign quotient rule:
   $$\frac{\text{Positive}}{\text{Positive}} = + \infty, \quad \frac{\text{Positive}}{\text{Negative}} = - \infty, \quad \frac{\text{Negative}}{\text{Negative}} = + \infty$$
-
 ##### **Step 2: Isolate the Right-Hand Limit ($x \to a^+$)**
 * Pick a test value slightly **larger** than $a$ (e.g., if $a = 3$, pick $x = 3.1$).
 * Evaluate the **sign** of each factor in the numerator and denominator.
 * Determine if the quotient yields $+\infty$ or $-\infty$.
-
 ##### **Step 3: Compare One-Sided Limits**
 * **If Both Sides Match ($+\infty$ and $+\infty$, or $-\infty$ and $-\infty$):** 
   $$\lim_{x \to a} f(x) = \infty \quad \text{or} \quad \lim_{x \to a} f(x) = -\infty$$
@@ -1117,35 +1113,30 @@ Consider evaluating a limit at $x = a$ that results in $\frac{k}{0}$:
   $$\lim_{x \to a} f(x) = \text{D.N.E.}$$
 
 ---
-
 #### **3. Worked Example**
 
 Evaluate $\lim_{x \to 2} \frac{x + 1}{x - 2}$
 
 ##### **Direct Substitution Test:**
 $$\frac{2 + 1}{2 - 2} = \frac{3}{0} \implies \text{Vertical Asymptote } (\text{Use Sign Analysis})$$
-
 ##### **Left-Hand Limit ($\lim_{x \to 2^-}$):**
 * Pick $x = 1.9$:
   * **Numerator ($1.9 + 1$):** $+2.9 \implies \mathbf{(+)}$
   * **Denominator ($1.9 - 2$):** $-0.1 \implies \mathbf{(-)}$
 * **Sign Ratio:** $\frac{(+)}{(-)} \implies -\infty$
 $$\lim_{x \to 2^-} \frac{x + 1}{x - 2} = -\infty$$
-
 ##### **Right-Hand Limit ($\lim_{x \to 2^+}$):**
 * Pick $x = 2.1$:
   * **Numerator ($2.1 + 1$):** $+3.1 \implies \mathbf{(+)}$
   * **Denominator ($2.1 - 2$):** $+0.1 \implies \mathbf{(+)}$
 * **Sign Ratio:** $\frac{(+)}{(+)} \implies +\infty$
 $$\lim_{x \to 2^+} \frac{x + 1}{x - 2} = +\infty$$
-
 ##### **Conclusion:**
 Since $\lim_{x \to 2^-} f(x) = -\infty$ and $\lim_{x \to 2^+} f(x) = +\infty$:
 
 $$\lim_{x \to 2} \frac{x + 1}{x - 2} = \text{D.N.E.}$$
 
 ---
-
 #### **4. Summary Checklist**
 
 | Form Result | Algebraic Meaning | Next Action |
@@ -1153,3 +1144,4 @@ $$\lim_{x \to 2} \frac{x + 1}{x - 2} = \text{D.N.E.}$$
 | **$\frac{0}{0}$** | Removable Discontinuity (Hole) | Factor, conjugate, or simplify to cancel common terms. |
 | **$\frac{k}{0}$** | Vertical Asymptote | Perform **Sign Analysis** on test values to check for $\pm\infty$. |
 | **$\frac{k}{d}$** | Continuous Point | Direct substitution gives the final limit value. |
+
