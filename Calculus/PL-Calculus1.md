@@ -1145,3 +1145,49 @@ $$\lim_{x \to 2} \frac{x + 1}{x - 2} = \text{D.N.E.}$$
 | **$\frac{k}{0}$** | Vertical Asymptote | Perform **Sign Analysis** on test values to check for $\pm\infty$. |
 | **$\frac{k}{d}$** | Continuous Point | Direct substitution gives the final limit value. |
 
+### Limits of Trigonometric Functions
+
+#### **1. Sine and Cosine (Continuous Everywhere)**
+The primary trigonometric functions, $\sin(x)$ and $\cos(x)$, are **continuous everywhere** across their entire real domain $(-\infty, \infty)$. 
+
+Because they are continuous, evaluating limits for sine and cosine always defaults to **direct substitution**:
+
+$$\lim_{x \to a} \sin(x) = \sin(a)$$
+
+$$\lim_{x \to a} \cos(x) = \cos(a)$$
+
+---
+
+#### **2. What About $\tan(x)$?**
+To evaluate $\lim_{x \to a} \tan(x)$, rewrite tangent in terms of sine and cosine using the quotient identity:
+
+$$\tan(x) = \frac{\sin(x)}{\cos(x)}$$
+
+##### **Applying Limit Laws:**
+Apply the **Quotient Rule for Limits**:
+
+$$\lim_{x \to a} \tan(x) = \lim_{x \to a} \frac{\sin(x)}{\cos(x)} \longrightarrow \frac{\lim_{x \to a} \sin(x)}{\lim_{x \to a} \cos(x)}$$
+
+Using direct substitution for the numerator and denominator:
+
+$$\longrightarrow \frac{\sin(a)}{\cos(a)} = \tan(a)$$
+
+---
+
+#### **3. Domain Restrictions & Vertical Asymptotes**
+The Quotient Rule is only valid as long as the denominator is non-zero ($\cos(a) \neq 0$). 
+
+##### **Condition:**
+$$\lim_{x \to a} \tan(x) = \tan(a) \quad \text{for } \cos(a) \neq 0$$
+
+##### **Excluded Values:**
+$\cos(x) = 0$ at odd multiples of $\frac{\pi}{2}$. Therefore, direct substitution works for $\tan(x)$ everywhere **except** at its vertical asymptotes:
+
+$$x \neq \pm \frac{\pi}{2}, \pm \frac{3\pi}{2}, \dots$$
+
+---
+
+#### **4. Core Takeaways**
+* **Direct Substitution First:** For any trigonometric function, attempt direct substitution first.
+* **Continuous Domains:** $\sin(x)$ and $\cos(x)$ have no domain restrictions.
+* **Other Trig Functions:** $\tan(x)$, $\sec(x)$, $\csc(x)$, and $\cot(x)$ allow direct substitution everywhere within their defined domains (where their denominators are non-zero).
