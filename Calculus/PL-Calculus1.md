@@ -846,4 +846,96 @@ $$\longrightarrow \lim_{x \to 2} (x + 2) = 2 + 2 = 4$$
 #### **3. Summary & Takeaway**
 * **The $\frac{0}{0}$ Rule:** Getting $\frac{0}{0}$ never means "undefined" or "DNE"—it means **do more work**.
 * **Removable Discontinuity:** The original function $f(x) = \frac{x^2 - 4}{x - 2}$ is identical to the line $y = x + 2$ everywhere except at $x = 2$, where it has a hole at $(2, 4)$.
+### Problem: $\lim_{x \to 5} \frac{x^2 - 3x - 10}{x^2 - 10x + 25}$
+#### **1. Initial Assessment & Factoring**
+Attempting direct substitution yields:
 
+$$\frac{5^2 - 3(5) - 10}{5^2 - 10(5) + 25} = \frac{25 - 15 - 10}{25 - 50 + 25} = \frac{0}{0}$$
+
+Because we get the indeterminate form $\frac{0}{0}$, we must factor and simplify the expression to try removing the factor causing zero in the denominator:
+
+$$\lim_{x \to 5} \frac{x^2 - 3x - 10}{x^2 - 10x + 25} \longrightarrow \lim_{x \to 5} \frac{(x - 5)(x + 2)}{(x - 5)(x - 5)}$$
+
+Canceling one factor of $(x - 5)$ from numerator and denominator gives:
+
+$$\longrightarrow \lim_{x \to 5} \frac{x + 2}{x - 5}$$
+
+---
+#### **2. Re-evaluating the Simplified Limit & Sign Analysis**
+Attempting direct substitution on the simplified expression:
+
+$$\frac{5 + 2}{5 - 5} = \frac{7}{0}$$
+
+A non-zero numerator divided by zero indicates a **vertical asymptote** at $x = 5$. Since we still have a factor of $(x - 5)$ in the denominator that couldn't be canceled out, we perform a **Sign Analysis** around $x = 5$ to determine one-sided behavior:
+
+* **Left-Hand Limit ($\lim_{x \to 5^-}$):**
+  * Pick $x = 4.9$ (slightly less than $5$):
+    * Numerator: $4.9 + 2 = 6.9 > 0$ (Positive)
+    * Denominator: $4.9 - 5 = -0.1 < 0$ (Negative)
+    * Ratio: $\frac{\text{Positive}}{\text{Negative}} = \text{Negative}$
+  * As $x \to 5^-$, $y \to -\infty$.
+
+* **Right-Hand Limit ($\lim_{x \to 5^+}$):**
+  * Pick $x = 5.1$ (slightly greater than $5$):
+    * Numerator: $5.1 + 2 = 7.1 > 0$ (Positive)
+    * Denominator: $5.1 - 5 = 0.1 > 0$ (Positive)
+    * Ratio: $\frac{\text{Positive}}{\text{Positive}} = \text{Positive}$
+  * As $x \to 5^+$, $y \to +\infty$.
+
+---
+#### **3. Two-Sided Limit Conclusion**
+
+Since the left-hand limit ($-\infty$) and right-hand limit ($+\infty$) do not match:
+
+$$\lim_{x \to 5^-} \frac{x + 2}{x - 5} \neq \lim_{x \to 5^+} \frac{x + 2}{x - 5}$$
+
+$$\lim_{x \to 5} \frac{x^2 - 3x - 10}{x^2 - 10x + 25} = \text{D.N.E.}$$
+
+---
+#### **4. Takeaway Notes**
+
+1. **If $\frac{0}{0}$:** Factor and simplify first.
+2. **If you can't cancel the "problem":** Check with **"Sign Analysis"** because the limit might not exist ($\text{D.N.E.}$) due to a vertical asymptote where sides approach opposite infinities ($-\infty$ vs $+\infty$).
+
+### Problem: $\lim_{x \to 1} \frac{x - 1}{\sqrt{x} - 1}$
+#### **1. Pedagogical Setup & Identifying the Indeterminate Form**
+Attempting direct substitution first:
+
+$$\frac{1 - 1}{\sqrt{1} - 1} = \frac{0}{0}$$
+
+* **Indeterminate Form $\frac{0}{0}$:** Because substitution yields $\frac{0}{0}$ and there is a radical expression ($\sqrt{x} - 1$), we use the **conjugate method** to rationalize the expression and reveal the common factor causing zero.
+
+---
+#### **2. Step-by-Step Algebraic Solution**
+
+##### **Step 1: Multiply by the Conjugate**
+* **Conjugate Pair:** The conjugate of $(\sqrt{x} - 1)$ is $(\sqrt{x} + 1)$.
+* **Application:** Multiply both numerator and denominator by $\frac{\sqrt{x} + 1}{\sqrt{x} + 1}$:
+  $$\lim_{x \to 1} \frac{x - 1}{\sqrt{x} - 1} \cdot \frac{(\sqrt{x} + 1)}{(\sqrt{x} + 1)}$$
+
+##### **Step 2: Multiply Out the Conjugate Pair (Denominator)**
+* **Difference of Squares Identity:** $(a - b)(a + b) = a^2 - b^2$
+* **Denominator Expansion:**
+  $$(\sqrt{x} - 1)(\sqrt{x} + 1) = (\sqrt{x})^2 - (1)^2 = x - 1$$
+* **Key Strategy:** Leave the numerator in factored form—do **not** expand it:
+  $$\longrightarrow \lim_{x \to 1} \frac{(x - 1)(\sqrt{x} + 1)}{x - 1}$$
+
+##### **Step 3: Cancel Common Factors**
+Cancel out the $(x - 1)$ factor from both the numerator and denominator:
+
+$$\lim_{x \to 1} \frac{\cancel{(x - 1)}(\sqrt{x} + 1)}{\cancel{x - 1}}$$
+
+* **Justification ($x \neq 1$):** Since $x$ approaches $1$ but $x \neq 1$, $x - 1 \neq 0$, allowing us to divide out the common factor.
+
+##### **Step 4: Direct Substitution on Simplified Expression**
+Now that the zero-yielding denominator has been eliminated, evaluate the remaining expression:
+
+$$\longrightarrow \lim_{x \to 1} (\sqrt{x} + 1) = \sqrt{1} + 1 = 1 + 1 = 2$$
+
+---
+#### **3. Summary & Strategic Rule**
+
+* **Radicals + $\frac{0}{0}$:** When you see square roots producing $\frac{0}{0}$, multiply numerator and denominator by the conjugate of the radical term.
+* **Leave Non-Conjugates Factored:** Only multiply out the conjugate pair (where $(a-b)(a+b) = a^2 - b^2$ applies). Keep the other side factored so the common factor can be canceled out easily.
+
+# Leftoff @ 55
