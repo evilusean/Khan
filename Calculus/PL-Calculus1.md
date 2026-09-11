@@ -1188,3 +1188,49 @@ $$x \neq \pm \frac{\pi}{2}, \pm \frac{3\pi}{2}, \dots$$
 * **Direct Substitution First:** For any trigonometric function, attempt direct substitution first.
 * **Continuous Domains:** $\sin(x)$ and $\cos(x)$ have no domain restrictions.
 * **Other Trig Functions:** $\tan(x)$, $\sec(x)$, $\csc(x)$, and $\cot(x)$ allow direct substitution everywhere within their defined domains (where their denominators are non-zero).
+### Problem: $\lim_{x \to 1} \cos\left(\frac{x^2 - 1}{x - 1}\right)$
+
+#### **1. Pedagogical Setup & Composite Limit Rule**
+This problem involves the **composition of functions**, where an algebraic function is nested inside a trigonometric function. 
+
+Because the outer function $\cos(u)$ is **continuous everywhere**, we are allowed by the **Composite Limit Theorem** to pass the limit operator past the outer function and evaluate it on the inner function directly:
+
+$$\lim_{x \to a} f(g(x)) = f\left(\lim_{x \to a} g(x)\right)$$
+
+---
+
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Move the Limit Inside the Cosine Function**
+* **Justification:** $\cos(x)$ is continuous everywhere, so by composition:
+  $$\lim_{x \to 1} \cos\left(\frac{x^2 - 1}{x - 1}\right) \longrightarrow \cos\left[\lim_{x \to 1} \frac{x^2 - 1}{x - 1}\right]$$
+
+##### **Step 2: Factor the Inner Rational Function**
+Attempting direct substitution inside the brackets yields the indeterminate form $\frac{1^2 - 1}{1 - 1} = \frac{0}{0}$. Factor the difference of squares in the numerator ($x^2 - 1 = (x + 1)(x - 1)$):
+
+$$\longrightarrow \cos\left[\lim_{x \to 1} \frac{(x + 1)(x - 1)}{x - 1}\right]$$
+
+##### **Step 3: Cancel Common Factors**
+Cancel out the $(x - 1)$ term from both numerator and denominator:
+
+$$\longrightarrow \cos\left[\lim_{x \to 1} \frac{(x + 1)\cancel{(x - 1)}}{\cancel{x - 1}}\right] \longrightarrow \cos\left[\lim_{x \to 1} (x + 1)\right]$$
+
+* **Justification ($x \neq 1$):** Since $x$ approaches $1$ but never equals $1$, $(x - 1) \neq 0$, making division valid.
+
+##### **Step 4: Evaluate the Inner Limit via Direct Substitution**
+Now that the denominator issue is resolved, evaluate the remaining linear function by direct substitution ($x = 1$):
+
+$$\longrightarrow \cos(1 + 1) \longrightarrow \cos(2)$$
+
+---
+
+#### **3. Final Result**
+
+$$\lim_{x \to 1} \cos\left(\frac{x^2 - 1}{x - 1}\right) = \cos(2)$$
+
+---
+
+#### **4. Summary & Takeaways**
+* **Composition Rule:** Whenever the outer function is continuous (like sine, cosine, roots, or polynomials), move the limit inside to resolve the algebra first.
+* **Indeterminate Form Inside:** Treat the inner expression with standard limit rules (factoring out $\frac{0}{0}$) before applying the outer function.
+* **Exact vs. Decimal:** Leave the answer as $\cos(2)$ (radians) rather than approximating with a decimal unless explicitly instructed.
