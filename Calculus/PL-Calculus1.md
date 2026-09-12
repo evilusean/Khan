@@ -1324,39 +1324,32 @@ The **Squeeze Theorem** is used to evaluate limits that cannot be solved through
 If a function $f(x)$ is trapped ("squeezed") between two other functions, $g(x)$ and $h(x)$, and those two outer functions approach the same target limit $L$ at $x = a$, then $f(x)$ is forced to approach $L$ as well.
 
 ---
-
 #### **2. Formal Definition**
 
 If for all $x$ near $a$ (except possibly at $a$ itself):
 
 $$g(x) \le f(x) \le h(x)$$
-
 And if the outer limits are equal:
 
 $$\lim_{x \to a} g(x) = L \quad \text{and} \quad \lim_{x \to a} h(x) = L$$
 
 Then:
-
 $$\lim_{x \to a} f(x) = L$$
 
 ---
-
 #### **3. Step-by-Step Procedure**
 
 ##### **Step 1: Set Up the Inequality**
 Construct or identify lower and upper bounding functions $g(x)$ and $h(x)$ such that $g(x) \le f(x) \le h(x)$.
 * *Common Strategy for Oscillating Functions:* Use bounded functions like sine or cosine:
   $$-1 \le \sin(\theta) \le 1 \quad \text{or} \quad -1 \le \cos(\theta) \le 1$$
-
 ##### **Step 2: Evaluate Outer Limits**
 Calculate the limit of both bounding functions as $x \to a$:
 $$\lim_{x \to a} g(x) \quad \text{and} \quad \lim_{x \to a} h(x)$$
-
 ##### **Step 3: Conclude via Squeeze Theorem**
 If $\lim_{x \to a} g(x) = \lim_{x \to a} h(x) = L$, state that by the Squeeze Theorem, $\lim_{x \to a} f(x) = L$.
 
 ---
-
 #### **4. Classic Example**
 
 Evaluate $\lim_{x \to 0} x^2 \sin\left(\frac{1}{x}\right)$
