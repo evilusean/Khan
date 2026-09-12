@@ -1371,34 +1371,28 @@ Evaluate $\lim_{x \to 0} x^2 \sin\left(\frac{1}{x}\right)$
 Attempting direct substitution yields:
 
 $$\frac{1 - \cos(0)}{0} = \frac{1 - 1}{0} = \frac{0}{0}$$
-
 To resolve this indeterminate form $\frac{0}{0}$, we use the fundamental trigonometric limit identity previously established:
 
 $$\lim_{x \to 0} \frac{\sin(x)}{x} = 1$$
 
 ---
-
 #### **2. Step-by-Step Proof Execution**
 
 ##### **Step 1: Multiply by the Conjugate**
 Multiply numerator and denominator by the conjugate of $(1 - \cos(x))$, which is $(1 + \cos(x))$:
 
 $$\lim_{x \to 0} \frac{1 - \cos(x)}{x} \cdot \frac{1 + \cos(x)}{1 + \cos(x)}$$
-
 ##### **Step 2: Apply Difference of Squares and Pythagorean Identity**
 Multiply out the numerator using $(a - b)(a + b) = a^2 - b^2$:
 
 $$(1 - \cos(x))(1 + \cos(x)) = 1 - \cos^2(x)$$
 
 Using the Pythagorean Identity $\sin^2(x) + \cos^2(x) = 1 \implies 1 - \cos^2(x) = \sin^2(x)$:
-
 $$\longrightarrow \lim_{x \to 0} \frac{\sin^2(x)}{x(1 + \cos(x))}$$
-
 ##### **Step 3: Separate Terms to Match Known Limit**
 Break $\sin^2(x)$ into $\sin(x) \cdot \sin(x)$ and isolate the known limit ratio $\frac{\sin(x)}{x}$:
 
 $$\longrightarrow \lim_{x \to 0} \left( \frac{\sin(x)}{x} \cdot \frac{\sin(x)}{1 + \cos(x)} \right)$$
-
 ##### **Step 4: Apply Product Rule for Limits**
 Split into two distinct limits using the Product Law:
 
@@ -1411,7 +1405,6 @@ $$\longrightarrow \left[ \lim_{x \to 0} \frac{\sin(x)}{x} \right] \cdot \left[ \
 $$1 \cdot \frac{0}{2} \longrightarrow 1 \cdot 0 \longrightarrow 0$$
 
 ---
-
 #### **3. Summary & Fundamental Formula**
 
 $$\lim_{x \to 0} \frac{1 - \cos(x)}{x} = 0$$
