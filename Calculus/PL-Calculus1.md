@@ -1316,4 +1316,3 @@ $$\lim_{x \to 0} \frac{\sin(x)}{x} = 1$$
 * **Essential Limit Identity:** $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$ is a foundational limit in calculus used to evaluate more complex trigonometric limits.
 * **Squeeze Theorem Rule:** When direct substitution yields $\frac{0}{0}$ and algebra fails, sandwiching the function between two known functions that approach the same limit proves the target limit.
 
-# Leftoff @ 1:52:40
