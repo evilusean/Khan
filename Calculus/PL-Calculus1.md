@@ -1365,3 +1365,55 @@ Evaluate $\lim_{x \to 0} x^2 \sin\left(\frac{1}{x}\right)$
 3. **Conclusion:**
    Since $0 \le \lim_{x \to 0} x^2 \sin\left(\frac{1}{x}\right) \le 0$, by the Squeeze Theorem:
    $$\lim_{x \to 0} x^2 \sin\left(\frac{1}{x}\right) = 0$$
+### Problem: Prove $\lim_{x \to 0} \frac{1 - \cos(x)}{x} = 0$
+
+#### **1. Pedagogical Setup & Known Identity**
+Attempting direct substitution yields:
+
+$$\frac{1 - \cos(0)}{0} = \frac{1 - 1}{0} = \frac{0}{0}$$
+
+To resolve this indeterminate form $\frac{0}{0}$, we use the fundamental trigonometric limit identity previously established:
+
+$$\lim_{x \to 0} \frac{\sin(x)}{x} = 1$$
+
+---
+
+#### **2. Step-by-Step Proof Execution**
+
+##### **Step 1: Multiply by the Conjugate**
+Multiply numerator and denominator by the conjugate of $(1 - \cos(x))$, which is $(1 + \cos(x))$:
+
+$$\lim_{x \to 0} \frac{1 - \cos(x)}{x} \cdot \frac{1 + \cos(x)}{1 + \cos(x)}$$
+
+##### **Step 2: Apply Difference of Squares and Pythagorean Identity**
+Multiply out the numerator using $(a - b)(a + b) = a^2 - b^2$:
+
+$$(1 - \cos(x))(1 + \cos(x)) = 1 - \cos^2(x)$$
+
+Using the Pythagorean Identity $\sin^2(x) + \cos^2(x) = 1 \implies 1 - \cos^2(x) = \sin^2(x)$:
+
+$$\longrightarrow \lim_{x \to 0} \frac{\sin^2(x)}{x(1 + \cos(x))}$$
+
+##### **Step 3: Separate Terms to Match Known Limit**
+Break $\sin^2(x)$ into $\sin(x) \cdot \sin(x)$ and isolate the known limit ratio $\frac{\sin(x)}{x}$:
+
+$$\longrightarrow \lim_{x \to 0} \left( \frac{\sin(x)}{x} \cdot \frac{\sin(x)}{1 + \cos(x)} \right)$$
+
+##### **Step 4: Apply Product Rule for Limits**
+Split into two distinct limits using the Product Law:
+
+$$\longrightarrow \left[ \lim_{x \to 0} \frac{\sin(x)}{x} \right] \cdot \left[ \lim_{x \to 0} \frac{\sin(x)}{1 + \cos(x)} \right]$$
+
+##### **Step 5: Direct Substitution on Both Limits**
+* **First Limit:** $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$
+* **Second Limit:** Direct substitution gives $\frac{\sin(0)}{1 + \cos(0)} = \frac{0}{1 + 1} = \frac{0}{2} = 0$
+
+$$1 \cdot \frac{0}{2} \longrightarrow 1 \cdot 0 \longrightarrow 0$$
+
+---
+
+#### **3. Summary & Fundamental Formula**
+
+$$\lim_{x \to 0} \frac{1 - \cos(x)}{x} = 0$$
+
+* **Core Strategy:** When trigonometric expressions involving $(1 - \cos(x))$ produce $\frac{0}{0}$, multiply by the conjugate $(1 + \cos(x))$ to convert $1 - \cos^2(x)$ into $\sin^2(x)$, allowing you to extract $\frac{\sin(x)}{x} = 1$.
