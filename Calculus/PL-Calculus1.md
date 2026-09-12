@@ -1480,7 +1480,6 @@ Assuming $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$:
 
 ---
 #### **3. Direct Substitution Property**
-
 * **Polynomial Direct Substitution:**
   If $P(x)$ is a polynomial:
   $$\lim_{x \to a} P(x) = P(a)$$
@@ -1508,3 +1507,45 @@ Assuming $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$:
   $$\sin^2(x) + \cos^2(x) = 1 \implies 1 - \cos^2(x) = \sin^2(x)$$
 * **Conjugate Multiplication for Trigonometric Expressions:**
   $$(1 - \cos(x))(1 + \cos(x)) = 1 - \cos^2(x) = \sin^2(x)$$
+### Problem: Evaluate $\lim_{x \to 0} \frac{\sin(2x)}{x}$
+
+#### **1. Pedagogical Setup & Core Strategy**
+Direct substitution yields the indeterminate form $\frac{\sin(0)}{0} = \frac{0}{0}$.
+
+To use the fundamental trigonometric identity $\lim_{\theta \to 0} \frac{\sin(\theta)}{\theta} = 1$, the expression inside the sine function must **match the denominator exactly**. 
+
+Since the angle is $2x$ and the denominator is only $x$, we cannot change the inside of the sine function. Instead, we algebraically "force" the denominator to become $2x$ by multiplying by a form of $1$ (specifically $\frac{2}{2}$).
+
+---
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Multiply Numerator and Denominator by 2**
+Multiply the fraction by $\frac{2}{2}$:
+
+$$\lim_{x \to 0} \left( \frac{\sin(2x)}{x} \cdot \frac{2}{2} \right) \longrightarrow \lim_{x \to 0} \frac{2 \cdot \sin(2x)}{2x}$$
+##### **Step 2: Factor Out the Constant Multiplier**
+Apply the **Constant Multiple Rule** for limits ($\lim c \cdot f(x) = c \cdot \lim f(x)$) to pull the $2$ in the numerator out in front of the limit:
+
+$$\longrightarrow 2 \cdot \lim_{x \to 0} \frac{\sin(2x)}{2x}$$
+##### **Step 3: Justify via Substitution ($u$-Substitution)**
+Let $u = 2x$. 
+* As $x \to 0$, $u \to 0$.
+* The expression becomes:
+
+$$\lim_{u \to 0} \frac{\sin(u)}{u}$$
+##### **Step 4: Evaluate the Limit**
+By the fundamental trigonometric identity, $\lim_{u \to 0} \frac{\sin(u)}{u} = 1$:
+
+$$\longrightarrow 2 \cdot \left[ \lim_{u \to 0} \frac{\sin(u)}{u} \right] \longrightarrow 2 \cdot 1 \longrightarrow 2$$
+
+---
+#### **3. Final Result**
+
+$$\lim_{x \to 0} \frac{\sin(2x)}{x} = 2$$
+
+---
+#### **4. Summary & General Rule**
+* **Matching Principle:** Never try to alter the expression trapped inside a trig function. Always multiply by $\frac{k}{k}$ to make the denominator match the inner angle.
+* **General Formula:** For any non-zero constant $k$:
+
+$$\lim_{x \to 0} \frac{\sin(kx)}{x} = k$$
