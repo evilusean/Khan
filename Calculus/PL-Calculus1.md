@@ -1254,7 +1254,6 @@ $$\longrightarrow \frac{3\pi^2}{4} + 0 = \frac{3\pi^2}{4}$$
 * **Direct Substitution Rules:** When combining polynomials with continuous trig functions like $\cos(x)$, always try direct substitution first. 
 * **Exact Expressions:** Keep $\pi$ in exact symbolic form rather than converting to decimal approximations.
 ### Problem: Prove $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$
-
 #### **1. Pedagogical Setup & Geometric Construction**
 Direct substitution gives:
 
@@ -1269,7 +1268,6 @@ Because algebraic manipulation cannot isolate $x$ from $\sin(x)$, we must establ
   * **Small Triangle:** Base $1$, height $\sin(x) \implies \text{Area} = \frac{1 \cdot \sin(x)}{2}$
 
 ---
-
 #### **2. Step-by-Step Proof Execution**
 
 ##### **Step 1: Set Up Area Inequalities**
@@ -1278,7 +1276,6 @@ Comparing the geometric areas on the unit circle:
 $$\text{Area of Small Triangle} \le \text{Area of Sector} \le \text{Area of Big Triangle}$$
 
 $$\frac{1 \cdot \sin(x)}{2} \le \frac{x}{2} \le \frac{1 \cdot \tan(x)}{2}$$
-
 ##### **Step 2: Simplify and Divide by $\sin(x)$**
 Multiply the entire inequality by $2$:
 
@@ -1289,14 +1286,12 @@ Divide all parts by $\sin(x)$ (since $0 < x < \frac{\pi}{2}$, $\sin(x) > 0$):
 $$\frac{\sin(x)}{\sin(x)} \le \frac{x}{\sin(x)} \le \frac{\tan(x)}{\sin(x)}$$
 
 $$1 \le \frac{x}{\sin(x)} \le \frac{1}{\cos(x)}$$
-
 ##### **Step 3: Take Reciprocals**
 Taking the reciprocal of all terms reverses the inequality signs:
 
 $$1 \ge \frac{\sin(x)}{x} \ge \cos(x)$$
 
 *(Or equivalently: $\cos(x) \le \frac{\sin(x)}{x} \le 1$)*
-
 ##### **Step 4: Apply the Squeeze Theorem**
 Take the limit as $x \to 0$ for both bounding functions:
 
@@ -1310,7 +1305,6 @@ $$\lim_{x \to 0} 1 \ge \lim_{x \to 0} \frac{\sin(x)}{x} \ge \lim_{x \to 0} \cos(
 $$1 \ge \lim_{x \to 0} \frac{\sin(x)}{x} \ge 1$$
 
 ---
-
 #### **3. Conclusion**
 
 By the **Squeeze Theorem**:
@@ -1318,7 +1312,8 @@ By the **Squeeze Theorem**:
 $$\lim_{x \to 0} \frac{\sin(x)}{x} = 1$$
 
 ---
-
 #### **4. Takeaways & Fundamental Formula**
 * **Essential Limit Identity:** $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$ is a foundational limit in calculus used to evaluate more complex trigonometric limits.
 * **Squeeze Theorem Rule:** When direct substitution yields $\frac{0}{0}$ and algebra fails, sandwiching the function between two known functions that approach the same limit proves the target limit.
+
+# Leftoff @ 1:52:40
