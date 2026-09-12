@@ -1413,7 +1413,6 @@ $$\lim_{x \to 0} \frac{1 - \cos(x)}{x} = 0$$
 ### Core Limit Identities & Laws (Prof. Leonard - Calc 1, Lect 1.2)
 
 #### **1. Basic Elementary Limits**
-
 * **Limit of a Constant:**
   $$\lim_{x \to a} c = c$$
   * *Reasoning:* A constant function $y = c$ is a horizontal line. As $x \to a$ from left or right, $y$ remains $c$.
@@ -1423,27 +1422,20 @@ $$\lim_{x \to 0} \frac{1 - \cos(x)}{x} = 0$$
   * *Reasoning:* For $y = x$, direct evaluation at $x = a$ yields $a$.
 
 ---
-
 #### **2. Limit Algebraic Laws**
 Assuming $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$:
-
 * **Sum/Difference Rule:**
   $$\lim_{x \to a} [f(x) \pm g(x)] = \lim_{x \to a} f(x) \pm \lim_{x \to a} g(x) = L \pm M$$
-
 * **Constant Multiple Rule:**
   $$\lim_{x \to a} [c \cdot f(x)] = c \cdot \lim_{x \to a} f(x) = c \cdot L$$
-
 * **Product Rule:**
   $$\lim_{x \to a} [f(x) \cdot g(x)] = \left[\lim_{x \to a} f(x)\right] \cdot \left[\lim_{x \to a} g(x)\right] = L \cdot M$$
-
 * **Quotient Rule:**
   $$\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)} = \frac{L}{M} \quad (\text{provided } M \neq 0)$$
-
 * **Power Rule:**
   $$\lim_{x \to a} [f(x)]^n = \left[\lim_{x \to a} f(x)\right]^n = L^n$$
 
 ---
-
 #### **3. Direct Substitution Property**
 
 * **Polynomial Direct Substitution:**
@@ -1455,7 +1447,6 @@ Assuming $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$:
   $$\lim_{x \to a} R(x) = R(a) = \frac{P(a)}{Q(a)}$$
 
 ---
-
 #### **4. Fundamental Trigonometric Limit Identities**
 
 * **Sine Fundamental Limit:**
@@ -1468,11 +1459,9 @@ Assuming $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$:
   $$\lim_{\text{stuff} \to 0} \frac{\sin(\text{stuff})}{\text{stuff}} = 1$$
 
 ---
-
 #### **5. Key Algebraic Identities Used for Limit Indeterminacies ($\frac{0}{0}$)**
 
 * **Pythagorean Identity:**
   $$\sin^2(x) + \cos^2(x) = 1 \implies 1 - \cos^2(x) = \sin^2(x)$$
-
 * **Conjugate Multiplication for Trigonometric Expressions:**
   $$(1 - \cos(x))(1 + \cos(x)) = 1 - \cos^2(x) = \sin^2(x)$$
