@@ -1410,6 +1410,58 @@ $$1 \cdot \frac{0}{2} \longrightarrow 1 \cdot 0 \longrightarrow 0$$
 $$\lim_{x \to 0} \frac{1 - \cos(x)}{x} = 0$$
 
 * **Core Strategy:** When trigonometric expressions involving $(1 - \cos(x))$ produce $\frac{0}{0}$, multiply by the conjugate $(1 + \cos(x))$ to convert $1 - \cos^2(x)$ into $\sin^2(x)$, allowing you to extract $\frac{\sin(x)}{x} = 1$.
+### Problem: Evaluate $\lim_{x \to 0} \frac{\tan(x)}{x}$
+
+#### **1. Pedagogical Setup & Known Identity**
+Attempting direct substitution yields:
+
+$$\frac{\tan(0)}{0} = \frac{0}{0}$$
+
+Because direct substitution results in the indeterminate form $\frac{0}{0}$, we rewrite $\tan(x)$ in terms of $\sin(x)$ and $\cos(x)$ to isolate the known limit identity:
+
+$$\lim_{x \to 0} \frac{\sin(x)}{x} = 1$$
+
+---
+
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Rewrite $\tan(x)$ using Quotient Identity**
+Replace $\tan(x)$ with $\frac{\sin(x)}{\cos(x)}$:
+
+$$\lim_{x \to 0} \frac{\tan(x)}{x} \longrightarrow \lim_{x \to 0} \frac{\frac{\sin(x)}{\cos(x)}}{\frac{x}{1}}$$
+
+##### **Step 2: Simplify Complex Fraction**
+Multiply the numerator by the reciprocal of the denominator ($\frac{1}{x}$):
+
+$$\lim_{x \to 0} \left( \frac{\sin(x)}{\cos(x)} \cdot \frac{1}{x} \right)$$
+
+##### **Step 3: Rearrange Factors to Isolate Fundamental Limit**
+Swap the denominators to pair $\sin(x)$ with $x$:
+
+$$\longrightarrow \lim_{x \to 0} \left( \frac{\sin(x)}{x} \cdot \frac{1}{\cos(x)} \right)$$
+
+##### **Step 4: Apply Product Rule for Limits**
+Split into two distinct limits using the Product Law:
+
+$$\longrightarrow \left[ \lim_{x \to 0} \frac{\sin(x)}{x} \right] \cdot \left[ \lim_{x \to 0} \frac{1}{\cos(x)} \right]$$
+
+##### **Step 5: Evaluate Both Limits**
+* **First Limit:** Using the fundamental trigonometric identity: $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$
+* **Second Limit:** Direct substitution gives $\frac{1}{\cos(0)} = \frac{1}{1} = 1$
+
+$$\longrightarrow 1 \cdot 1 \longrightarrow 1$$
+
+---
+
+#### **3. Final Result & Derived Identity**
+
+$$\lim_{x \to 0} \frac{\tan(x)}{x} = 1$$
+
+---
+
+#### **4. Summary & Takeaways**
+* **Useful Derived Identity:** $\lim_{x \to 0} \frac{\tan(x)}{x} = 1$ can be treated as another standard limit shortcut once proven.
+* **General Tangent Strategy:** Whenever $\tan(x)$ causes an indeterminate form, break it down into $\frac{\sin(x)}{\cos(x)}$ and group $\frac{\sin(x)}{x}$ together.
 ### Core Limit Identities & Laws (Prof. Leonard - Calc 1, Lect 1.2)
 
 #### **1. Basic Elementary Limits**
