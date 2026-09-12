@@ -1549,3 +1549,49 @@ $$\lim_{x \to 0} \frac{\sin(2x)}{x} = 2$$
 * **General Formula:** For any non-zero constant $k$:
 
 $$\lim_{x \to 0} \frac{\sin(kx)}{x} = k$$
+### Problem: Evaluate $\lim_{x \to 0} \frac{\sin(5x)}{\sin(6x)}$
+
+#### **1. Pedagogical Setup & Core Strategy**
+Direct substitution gives the indeterminate form $\frac{\sin(0)}{\sin(0)} = \frac{0}{0}$.
+
+Both the numerator and denominator contain sine functions whose internal arguments ($5x$ and $6x$) do not have matching denominators. To apply the fundamental limit identity $\lim_{\theta \to 0} \frac{\sin(\theta)}{\theta} = 1$, we must:
+1. Divide both the numerator and denominator by $x$ to create fraction structures.
+2. Multiply each resulting fraction by a form of $1$ ($\frac{5}{5}$ and $\frac{6}{6}$) to algebraically "force" the denominators to match their respective sine arguments.
+
+---
+
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Divide Numerator and Denominator by $x$**
+Multiply the top and bottom of the complex fraction by $\frac{1/x}{1/x}$:
+
+$$\lim_{x \to 0} \frac{\sin(5x)}{\sin(6x)} \cdot \frac{\frac{1}{x}}{\frac{1}{x}} \longrightarrow \lim_{x \to 0} \frac{\frac{\sin(5x)}{x}}{\frac{\sin(6x)}{x}}$$
+
+##### **Step 2: Force Matching Arguments in Top and Bottom**
+Multiply the numerator by $\frac{5}{5}$ and the denominator by $\frac{6}{6}$ so that each sine function gets a matching denominator:
+
+$$\longrightarrow \lim_{x \to 0} \frac{\frac{\sin(5x)}{x} \cdot \frac{5}{5}}{\frac{\sin(6x)}{x} \cdot \frac{6}{6}} \longrightarrow \lim_{x \to 0} \frac{\frac{5\sin(5x)}{5x}}{\frac{6\sin(6x)}{6x}}$$
+
+##### **Step 3: Apply Quotient and Constant Multiple Rules**
+Distribute the limit operator across the division (Quotient Rule) and factor out the constant coefficients $5$ and $6$ (Constant Multiple Rule):
+
+$$\longrightarrow \frac{\lim_{x \to 0} \frac{5\sin(5x)}{5x}}{\lim_{x \to 0} \frac{6\sin(6x)}{6x}} \longrightarrow \frac{5 \cdot \lim_{x \to 0} \frac{\sin(5x)}{5x}}{6 \cdot \lim_{x \to 0} \frac{\sin(6x)}{6x}}$$
+
+##### **Step 4: Evaluate Both Fundamental Limits**
+Since $\lim_{x \to 0} \frac{\sin(5x)}{5x} = 1$ and $\lim_{x \to 0} \frac{\sin(6x)}{6x} = 1$:
+
+$$\longrightarrow \frac{5 \cdot 1}{6 \cdot 1} \longrightarrow \frac{5}{6}$$
+
+---
+
+#### **3. Final Result**
+
+$$\lim_{x \to 0} \frac{\sin(5x)}{\sin(6x)} = \frac{5}{6}$$
+
+---
+
+#### **4. Summary & General Formula**
+* **Double Matching Strategy:** When faced with $\frac{\sin(ax)}{\sin(bx)}$, introduce $\frac{1}{x}$ to both terms, then multiply each term by its respective missing constant ($\frac{a}{a}$ and $\frac{b}{b}$).
+* **General Shortcut Rule:**
+
+$$\lim_{x \to 0} \frac{\sin(ax)}{\sin(bx)} = \frac{a}{b}$$
