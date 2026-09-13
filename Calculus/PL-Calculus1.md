@@ -1660,3 +1660,310 @@ $$\lim_{x \to 0} \frac{\sin^2(x)}{x} = 0$$
 #### **4. Summary & Takeaways**
 * **Factoring Powers of Sine:** When the power of sine in the numerator is higher than the power of $x$ in the denominator, isolate $\frac{\sin(x)}{x}$ and evaluate remaining factors separately.
 * **Zero Factor:** The single factor of $\frac{\sin(x)}{x} \to 1$ resolves the indeterminate form $\frac{0}{0}$, but the leftover $\sin(x) \to 0$ causes the overall limit to evaluate to $0$.
+### Problem: Evaluate $\lim_{x \to 0} \sin\left(\frac{1}{x}\right)$
+
+#### **1. Pedagogical Setup & Core Concept**
+Attempting direct substitution inside the sine argument yields:
+
+$$\sin\left(\frac{1}{0}\right)$$
+
+Since division by zero is undefined, as $x \to 0$, the internal argument $\frac{1}{x}$ goes to $\pm\infty$. 
+
+Unlike previous limits where algebraic tricks or identities could resolve an indeterminate form like $\frac{0}{0}$, this problem tests our understanding of **oscillatory behavior**.
+
+---
+#### **2. Step-by-Step Analysis**
+##### **Step 1: Analyze the Behavior of the Inner Argument**
+As $x$ approaches $0$ from either the positive or negative side:
+
+$$\frac{1}{x} \longrightarrow \pm\infty$$
+##### **Step 2: Observe the Sine Function's Response**
+The sine function is periodic and oscillates infinitely between $-1$ and $1$:
+$$-1 \le \sin(\theta) \le 1$$
+
+As $x \to 0$, the input angle $\theta = \frac{1}{x}$ spins to infinity infinitely fast. This forces the function values $y = \sin\left(\frac{1}{x}\right)$ to oscillate wildly between $-1$ and $1$ without ever settling on or approaching a single, fixed single-number $L$.
+##### **Step 3: Conclusion on Limit Existence**
+For a limit to exist, the function must approach **one specific real number** from both sides as $x \to a$. Because $\sin\left(\frac{1}{x}\right)$ continuously bounces between $-1$ and $1$ as $x \to 0$, it fails to settle on any single value.
+
+$$\lim_{x \to 0} \sin\left(\frac{1}{x}\right) = \text{DNE} \quad (\text{Does Not Exist due to infinite oscillation})$$
+
+---
+#### **3. Final Result**
+
+$$\lim_{x \to 0} \sin\left(\frac{1}{x}\right) = \text{DNE}$$
+
+---
+#### **4. Crucial Comparison & Takeaways**
+* **Infinite Oscillation vs. Squeeze Theorem:** 
+  * $\lim_{x \to 0} \sin\left(\frac{1}{x}\right) = \text{DNE}$ because the wild oscillations are unconstrained.
+  * $\lim_{x \to 0} x^2 \sin\left(\frac{1}{x}\right) = 0$ because the factor $x^2$ acts as an decaying envelope, squeezing the oscillations down to $0$.
+* **Lesson:** Always check if an argument is blowing up inside an unbounded trigonometric function before trying algebraic identities.
+### Problem: Evaluate $\lim_{x \to 0} x \sin\left(\frac{1}{x}\right)$
+
+#### **1. Pedagogical Setup & Core Concept**
+Attempting direct substitution gives:
+
+$$0 \cdot \sin\left(\frac{1}{0}\right) \longrightarrow 0 \cdot (\text{undefined/oscillating value})$$
+
+Because $\sin\left(\frac{1}{x}\right)$ oscillates wildly between $-1$ and $1$ without approaching a single number as $x \to 0$, standard algebraic manipulation fails. 
+
+However, since sine is a bounded function (its output is trapped between $-1$ and $1$), we can use the **Squeeze Theorem** to clamp the entire expression between two simpler functions that both approach $0$.
+
+---
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Set Up the Bounding Inequality for Sine**
+Regardless of how wild the inner argument $\frac{1}{x}$ gets, the output of the sine function is strictly bounded:
+
+$$-1 \le \sin\left(\frac{1}{x}\right) \le 1$$
+##### **Step 2: Multiply Through by $x$ using Absolute Values**
+Since $x$ can be positive or negative as $x \to 0$, multiplying inequalities by $x$ directly would flip the inequality signs when $x < 0$. 
+
+To handle both positive and negative values seamlessly, use the absolute value $\vert{}x\vert{}$ to build the tightest bounds:
+
+$$-\vert{}x\vert{} \le x \sin\left(\frac{1}{x}\right) \le \vert{}x\vert{}$$
+##### **Step 3: Evaluate the Limits of the Outer Functions**
+Calculate the limit as $x \to 0$ for both the lower and upper bounding functions:
+* **Lower Bound:**
+  $$\lim_{x \to 0} (-\vert{}x\vert{}) = 0$$
+
+* **Upper Bound:**
+  $$\lim_{x \to 0} \vert{}x\vert{} = 0$$
+##### **Step 4: Apply the Squeeze Theorem**
+Since the lower and upper bounds both evaluate to $0$:
+
+$$0 \le \lim_{x \to 0} x \sin\left(\frac{1}{x}\right) \le 0$$
+Therefore, by the **Squeeze Theorem**:
+
+$$\lim_{x \to 0} x \sin\left(\frac{1}{x}\right) = 0$$
+
+---
+#### **3. Final Result**
+
+$$\lim_{x \to 0} x \sin\left(\frac{1}{x}\right) = 0$$
+
+---
+#### **4. Summary & Takeaways**
+* **Dampening Effect:** While $\sin\left(\frac{1}{x}\right)$ alone diverges by oscillation ($\text{DNE}$), multiplying it by a factor of $x$ (or $x^2$) dampens the amplitude of the oscillations down to $0$ as $x \to 0$.
+* **Absolute Value Trick for Inequalities:** Using $-\vert{}x\vert{} \le x \sin(\theta) \le \vert{}x\vert{}$ is the standard technique to ensure the bounding inequality remains valid for both positive ($x > 0$) and negative ($x < 0$) approaches.
+### Problem: Evaluate $\lim_{x \to 0} \frac{2 - \cos(3x) - \cos(4x)}{x}$
+#### **1. Pedagogical Setup & Core Strategy**
+Direct substitution gives:
+
+$$\frac{2 - \cos(0) - \cos(0)}{0} = \frac{2 - 1 - 1}{0} = \frac{0}{0}$$
+
+To resolve this indeterminate form using the fundamental cosine limit identity $\lim_{\theta \to 0} \frac{1 - \cos(\theta)}{\theta} = 0$, we need terms of the form $(1 - \cos(\theta))$. 
+
+Notice that the constant $2$ in the numerator can be strategically split into $1 + 1$. This allows us to pair a $1$ with $-\cos(3x)$ and the second $1$ with $-\cos(4x)$, turning the single fraction into a sum of two standard trigonometric limits.
+
+---
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Split the Constant $2$ into $1 + 1$**
+Rewrite the numerator by decomposing $2$ into $1 + 1$:
+
+$$\lim_{x \to 0} \frac{2 - \cos(3x) - \cos(4x)}{x} \longrightarrow \lim_{x \to 0} \frac{1 - \cos(3x) + 1 - \cos(4x)}{x}$$
+##### **Step 2: Split into Two Separate Fractions**
+Separate the combined fraction over the common denominator $x$:
+
+$$\longrightarrow \lim_{x \to 0} \left( \frac{1 - \cos(3x)}{x} + \frac{1 - \cos(4x)}{x} \right)$$
+
+##### **Step 3: Force Matching Arguments in Each Fraction**
+Apply the **Sum Rule** for limits to split into two separate limit evaluations, then multiply each term by a form of $1$ ($\frac{3}{3}$ and $\frac{4}{4}$) to force matching denominators:
+
+$$\longrightarrow \lim_{x \to 0} \left( \frac{1 - \cos(3x)}{x} \cdot \frac{3}{3} \right) + \lim_{x \to 0} \left( \frac{1 - \cos(4x)}{x} \cdot \frac{4}{4} \right)$$
+
+##### **Step 4: Factor Out Constants & Evaluate Identities**
+Factor out the constant multipliers $3$ and $4$ using the **Constant Multiple Rule**:
+
+$$\longrightarrow 3 \cdot \lim_{x \to 0} \frac{1 - \cos(3x)}{3x} + 4 \cdot \lim_{x \to 0} \frac{1 - \cos(4x)}{4x}$$
+
+Since $\lim_{x \to 0} \frac{1 - \cos(3x)}{3x} = 0$ and $\lim_{x \to 0} \frac{1 - \cos(4x)}{4x} = 0$:
+
+$$\longrightarrow 3 \cdot 0 + 4 \cdot 0 = 0$$
+
+---
+#### **3. Final Result**
+
+$$\lim_{x \to 0} \frac{2 - \cos(3x) - \cos(4x)}{x} = 0$$
+
+---
+#### **4. Summary & Takeaways**
+* **Decomposition Technique:** Splitting integer constants in the numerator (e.g., $2 \to 1 + 1$ or $3 \to 1 + 1 + 1$) is a standard algebraic trick to build multiple $(1 - \cos(kx))$ terms.
+* **Building Block Continuity:** Once a complex expression is rewritten into known identity forms, evaluating the limit becomes a straightforward application of the fundamental limit rules.
+### Problem: Evaluate $\lim_{x \to 0} \frac{x^2 - 3\sin(x)}{x}$
+#### **1. Pedagogical Setup & Core Strategy**
+Direct substitution yields:
+
+$$\frac{0^2 - 3\sin(0)}{0} = \frac{0 - 0}{0} = \frac{0}{0}$$
+
+To break up this indeterminate form, we split the fraction across the subtraction in the numerator. This creates two simpler terms: an algebraic term that simplifies via cancellation ($\frac{x^2}{x} = x$) and a trigonometric term containing the fundamental identity $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$.
+
+---
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Split the Numerator over the Common Denominator**
+Separate the combined fraction into two distinct fractions:
+
+$$\lim_{x \to 0} \frac{x^2 - 3\sin(x)}{x} \longrightarrow \lim_{x \to 0} \left( \frac{x^2}{x} - \frac{3\sin(x)}{x} \right)$$
+##### **Step 2: Simplify the Algebraic Term**
+Cancel $x$ from the first fraction:
+
+$$\longrightarrow \lim_{x \to 0} \left( x - 3 \cdot \frac{\sin(x)}{x} \right)$$
+##### **Step 3: Apply Limit Laws (Difference and Constant Multiple Rules)**
+Distribute the limit operator across the subtraction and pull the constant factor $3$ outside the trigonometric limit:
+
+$$\longrightarrow \left[ \lim_{x \to 0} x \right] - 3 \cdot \left[ \lim_{x \to 0} \frac{\sin(x)}{x} \right]$$
+##### **Step 4: Evaluate Each Limit Individually**
+* **First Limit:** Direct substitution gives $\lim_{x \to 0} x = 0$.
+* **Second Limit:** By the fundamental trigonometric identity, $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$.
+
+$$\longrightarrow 0 - 3 \cdot 1$$
+##### **Step 5: Simplify Final Arithmetic**
+$$\longrightarrow 0 - 3 = -3$$
+
+---
+#### **3. Final Result**
+
+$$\lim_{x \to 0} \frac{x^2 - 3\sin(x)}{x} = -3$$
+
+---
+#### **4. Summary & Takeaways**
+* **Fraction Splitting:** When faced with a multi-term numerator over a single monomial denominator (e.g., $\frac{A \pm B}{C}$), split it into $\frac{A}{C} \pm \frac{B}{C}$ to isolate known identity components.
+* **Algebraic Simplification First:** Simplifying polynomial terms like $\frac{x^2}{x} \to x$ eliminates indeterminate behavior for that specific term prior to limit evaluation.
+### Problem: Evaluate $\lim_{t \to 0} \frac{t^2}{1 - \cos^2(t)}$
+#### **1. Pedagogical Setup & Core Strategy**
+Direct substitution gives:
+
+$$\frac{0^2}{1 - \cos^2(0)} = \frac{0}{1 - 1} = \frac{0}{0}$$
+
+To resolve this indeterminate form, we use the Pythagorean Identity $\sin^2(t) + \cos^2(t) = 1$ to replace $1 - \cos^2(t)$ with $\sin^2(t)$. 
+
+This transforms the denominator into a squared sine function, allowing us to rewrite the expression as the reciprocal of our standard fundamental limit identity:
+
+$$\lim_{t \to 0} \frac{t}{\sin(t)} = 1$$
+
+---
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Apply Pythagorean Identity to the Denominator**
+Substitute $1 - \cos^2(t) = \sin^2(t)$:
+
+$$\lim_{t \to 0} \frac{t^2}{1 - \cos^2(t)} \longrightarrow \lim_{t \to 0} \frac{t^2}{\sin^2(t)}$$
+##### **Step 2: Factor Power Out of the Expression**
+Group the squared terms together using power rules $\frac{a^2}{b^2} = \left(\frac{a}{b}\right)^2$:
+
+$$\longrightarrow \lim_{t \to 0} \left( \frac{t}{\sin(t)} \right)^2$$
+##### **Step 3: Move Limit Inside the Power (Power Rule for Limits)**
+Apply the Power Law for Limits ($\lim [f(t)]^n = [\lim f(t)]^n$):
+
+$$\longrightarrow \left[ \lim_{t \to 0} \frac{t}{\sin(t)} \right]^2$$
+##### **Step 4: Justify Reciprocal Limit Identity**
+Note that $\frac{t}{\sin(t)}$ is the reciprocal of $\frac{\sin(t)}{t}$:
+
+$$\lim_{t \to 0} \frac{t}{\sin(t)} = \lim_{t \to 0} \left[ \frac{\sin(t)}{t} \right]^{-1} = [1]^{-1} = 1$$
+##### **Step 5: Complete Evaluation**
+Substitute $1$ into the squared expression:
+
+$$\longrightarrow (1)^2 = 1$$
+
+---
+#### **3. Final Result**
+
+$$\lim_{t \to 0} \frac{t^2}{1 - \cos^2(t)} = 1$$
+
+---
+#### **4. Summary & Takeaways**
+* **Pythagorean Identity Substitution:** Whenever you see $1 - \cos^2(\theta)$ or $1 - \sin^2(\theta)$, convert it to a single squared trig term ($\sin^2(\theta)$ or $\cos^2(\theta)$) to simplify the denominator.
+* **Reciprocal Sine Limit Identity:** $\lim_{x \to 0} \frac{x}{\sin(x)} = 1$ is just as valid as $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$, since taking the limit of the inverse gives $1^{-1} = 1$.
+### Problem: Evaluate $\lim_{x \to 0} \frac{x}{\cos\left(\frac{1}{2}\pi - x\right)}$
+#### **1. Pedagogical Setup & Core Strategy**
+Direct substitution gives:
+
+$$\frac{0}{\cos\left(\frac{\pi}{2} - 0\right)} = \frac{0}{\cos\left(\frac{\pi}{2}\right)} = \frac{0}{0}$$
+
+To resolve this indeterminate form, we use the precalculus **Cofunction Identity**:
+
+$$\cos\left(\frac{\pi}{2} - x\right) = \sin(x)$$
+
+By transforming the denominator using this trigonometric identity, the expression converts directly into the reciprocal of our fundamental sine limit identity, which evaluates immediately to $1$.
+
+---
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Apply the Cofunction Identity**
+Substitute $\cos\left(\frac{1}{2}\pi - x\right) = \sin(x)$ into the denominator:
+
+$$\lim_{x \to 0} \frac{x}{\cos\left(\frac{1}{2}\pi - x\right)} \longrightarrow \lim_{x \to 0} \frac{x}{\sin(x)}$$
+##### **Step 2: Rewrite as Reciprocal of Known Identity**
+Recognize $\frac{x}{\sin(x)}$ as the inverse of $\frac{\sin(x)}{x}$:
+
+$$\longrightarrow \lim_{x \to 0} \left[ \frac{\sin(x)}{x} \right]^{-1}$$
+##### **Step 3: Evaluate the Limit**
+Apply the fundamental limit identity $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$:
+
+$$\longrightarrow [1]^{-1} = 1$$
+
+---
+#### **4. Final Result**
+
+$$\lim_{x \to 0} \frac{x}{\cos\left(\frac{1}{2}\pi - x\right)} = 1$$
+
+---
+#### **5. Summary & Takeaways**
+* **Cofunction Identities in Limits:** Don't hesitate to use precalculus angle-shift identities (like $\cos(\frac{\pi}{2} - x) = \sin(x)$ or $\sin(\frac{\pi}{2} - x) = \cos(x)$) to convert phase-shifted cosine terms into simple sine functions.
+* **Reciprocal Limit Equivalence:** Just like $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$, its reciprocal form $\lim_{x \to 0} \frac{x}{\sin(x)} = 1$ is a standard fundamental limit identity ready for direct substitution.
+### Problem: Evaluate $\lim_{\theta \to 0} \frac{\theta^2}{1 - \cos(\theta)}$
+
+#### **1. Pedagogical Setup & Core Strategy**
+Direct substitution gives the indeterminate form $\frac{0^2}{1 - \cos(0)} = \frac{0}{0}$.
+
+To resolve this, we multiply the numerator and denominator by the **conjugate** of the denominator, $(1 + \cos(\theta))$. This creates $1 - \cos^2(\theta)$ in the denominator, which converts to $\sin^2(\theta)$ via the Pythagorean Identity. 
+
+We can then pair $\theta^2$ with $\sin^2(\theta)$ to form the reciprocal squared limit identity $\left(\frac{\theta}{\sin(\theta)}\right)^2 \to 1$, while evaluating the non-zero conjugate term by direct substitution.
+
+---
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Multiply by the Conjugate over Itself**
+Multiply the expression by $\frac{1 + \cos(\theta)}{1 + \cos(\theta)}$:
+
+$$\lim_{\theta \to 0} \frac{\theta^2}{1 - \cos(\theta)} \cdot \frac{1 + \cos(\theta)}{1 + \cos(\theta)}$$
+##### **Step 2: Expand the Denominator and Apply Pythagorean Identity**
+Expand the difference of squares in the denominator:
+
+$$\longrightarrow \lim_{\theta \to 0} \frac{\theta^2 (1 + \cos(\theta))}{1 - \cos^2(\theta)}$$
+
+Substitute $1 - \cos^2(\theta) = \sin^2(\theta)$:
+
+$$\longrightarrow \lim_{\theta \to 0} \frac{\theta^2 (1 + \cos(\theta))}{\sin^2(\theta)}$$
+
+##### **Step 3: Separate the Known Limit Identity**
+Group $\frac{\theta^2}{\sin^2(\theta)}$ together, isolating the non-zero conjugate factor:
+
+$$\longrightarrow \lim_{\theta \to 0} \left( \frac{\theta^2}{\sin^2(\theta)} \cdot (1 + \cos(\theta)) \right)$$
+
+##### **Step 4: Apply the Product Rule for Limits**
+Split into two distinct limit evaluations:
+
+$$\longrightarrow \left[ \lim_{\theta \to 0} \frac{\theta^2}{\sin^2(\theta)} \right] \cdot \left[ \lim_{\theta \to 0} (1 + \cos(\theta)) \right]$$
+##### **Step 5: Evaluate Each Limit Individually**
+* **First Limit:** Rewrite as $\left[ \lim_{\theta \to 0} \frac{\theta}{\sin(\theta)} \right]^2 = (1)^2 = 1$.
+* **Second Limit:** Direct substitution gives $1 + \cos(0) = 1 + 1 = 2$.
+
+$$\longrightarrow 1 \cdot (1 + \cos(0))$$
+
+$$\longrightarrow 1 \cdot (1 + 1) = 2$$
+
+---
+#### **3. Final Result**
+
+$$\lim_{\theta \to 0} \frac{\theta^2}{1 - \cos(\theta)} = 2$$
+
+---
+#### **4. Summary & Takeaways**
+* **Conjugate Trick for $1 - \cos(\theta)$:** Multiplying by $1 + \cos(\theta)$ converts linear cosine terms into quadratic $\sin^2(\theta)$ terms via the Pythagorean identity $1 - \cos^2(\theta) = \sin^2(\theta)$.
+* **Standard Reciprocal Identity Variant:** 
+
+$$\lim_{\theta \to 0} \frac{1 - \cos(\theta)}{\theta^2} = \frac{1}{2} \quad \implies \quad \lim_{\theta \to 0} \frac{\theta^2}{1 - \cos(\theta)} = 2$$
+
