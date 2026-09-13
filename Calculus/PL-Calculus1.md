@@ -1626,3 +1626,37 @@ $$\lim_{x \to 0} \frac{\sin(x^2)}{x} = 0$$
 #### **4. Summary & Takeaways**
 * **Forcing Higher Powers:** If the angle has a higher power than the denominator (e.g., $x^2$ vs $x$), multiply by $\frac{x}{x}$ to create the matching power in the denominator.
 * **Product Law Separation:** Isolating the matching identity $\frac{\sin(x^2)}{x^2} \to 1$ leaves an extra factor of $x$, which drives the entire product to $0$.
+### Problem: Evaluate $\lim_{x \to 0} \frac{\sin^2(x)}{x}$
+#### **1. Pedagogical Setup & Core Strategy**
+Direct substitution gives the indeterminate form $\frac{\sin^2(0)}{0} = \frac{0}{0}$.
+
+Notice that $\sin^2(x) = \sin(x) \cdot \sin(x)$, while the denominator has only a single factor of $x$. We can split $\sin^2(x)$ to pair one $\sin(x)$ factor with $x$ to form our standard identity $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$, leaving the second $\sin(x)$ factor to be evaluated by direct substitution.
+
+---
+#### **2. Step-by-Step Solution**
+
+##### **Step 1: Expand $\sin^2(x)$ and Group Terms**
+Rewrite $\sin^2(x)$ as $\sin(x) \cdot \sin(x)$ and associate $x$ with the first factor:
+
+$$\lim_{x \to 0} \frac{\sin^2(x)}{x} \longrightarrow \lim_{x \to 0} \left( \frac{\sin(x)}{x} \cdot \sin(x) \right)$$
+##### **Step 2: Apply the Product Rule for Limits**
+Split the product into two separate limit evaluations:
+
+$$\longrightarrow \left[ \lim_{x \to 0} \frac{\sin(x)}{x} \right] \cdot \left[ \lim_{x \to 0} \sin(x) \right]$$
+
+##### **Step 3: Evaluate Each Limit Individually**
+* **First Limit:** By the fundamental trigonometric identity, $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$.
+* **Second Limit:** Direct substitution yields $\lim_{x \to 0} \sin(x) = \sin(0) = 0$.
+##### **Step 4: Combine Results**
+$$\longrightarrow 1 \cdot 0 = 0$$
+
+---
+#### **3. Final Result**
+
+$$\lim_{x \to 0} \frac{\sin^2(x)}{x} = 0$$
+
+---
+
+#### **4. Summary & Takeaways**
+* **Factoring Powers of Sine:** When the power of sine in the numerator is higher than the power of $x$ in the denominator, isolate $\frac{\sin(x)}{x}$ and evaluate remaining factors separately.
+* **Zero Factor:** The single factor of $\frac{\sin(x)}{x} \to 1$ resolves the indeterminate form $\frac{0}{0}$, but the leftover $\sin(x) \to 0$ causes the overall limit to evaluate to $0$.
