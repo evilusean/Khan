@@ -1598,30 +1598,25 @@ To utilize the fundamental trigonometric identity $\lim_{\theta \to 0} \frac{\si
 Because the angle is $x^2$ and the current denominator is only $x$, we multiply top and bottom by $x$ to force the denominator into $x^2$.
 
 ---
-
 #### **2. Step-by-Step Solution**
 
 ##### **Step 1: Multiply Numerator and Denominator by $x$**
 Multiply the fraction by $\frac{x}{x}$ to build the required $x^2$ denominator:
 
 $$\lim_{x \to 0} \left( \frac{\sin(x^2)}{x} \cdot \frac{x}{x} \right) \longrightarrow \lim_{x \to 0} \frac{x \cdot \sin(x^2)}{x^2}$$
-
 ##### **Step 2: Separate Factors Using the Product Rule**
 Split the expression into a product of two distinct limits using the **Product Law for Limits**:
 
 $$\longrightarrow \lim_{x \to 0} x \cdot \lim_{x \to 0} \frac{\sin(x^2)}{x^2}$$
-
 ##### **Step 3: Evaluate Each Limit Individually**
 * **First Limit:** Direct substitution yields $\lim_{x \to 0} x = 0$.
 * **Second Limit:** Since the argument $x^2$ matches the denominator $x^2$ and $x^2 \to 0$ as $x \to 0$, apply the fundamental limit identity:
 
 $$\lim_{x \to 0} \frac{\sin(x^2)}{x^2} = 1$$
-
 ##### **Step 4: Combine Results**
 $$\longrightarrow 0 \cdot 1 = 0$$
 
 ---
-
 #### **3. Final Result**
 
 $$\lim_{x \to 0} \frac{\sin(x^2)}{x} = 0$$
