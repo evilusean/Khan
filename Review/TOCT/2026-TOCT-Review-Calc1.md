@@ -1,4 +1,5 @@
 - [ ] Create an App similar to Trig-Identities-CheatSheet with a screensaver and quiz mode of all the new calc 1 identities I need for engineering
+- [ ] Create a new xournal template for practice/review of calc identities - still haven't fully remembered the ~30ish trig identities
 ### Core Limit Identities & Laws - **Evaluating Trigonometric Limits** (Prof. Leonard - Calc 1, Lect 1.2)
 https://www.youtube.com/watch?v=VSqOZNULRjQ&list=PLF797E961509B4EB5&index=11
 - I was confused doing these yesterday, 3 hour lesson, definitely will need to review, saving for Future Sean, look up / review **Evaluating Trigonometric Limits** - also, will need to remember a bunch of new identities on top of the trig ones
