@@ -1967,5 +1967,5 @@ $$\lim_{\theta \to 0} \frac{\theta^2}{1 - \cos(\theta)} = 2$$
 
 $$\lim_{\theta \to 0} \frac{1 - \cos(\theta)}{\theta^2} = \frac{1}{2} \quad \implies \quad \lim_{\theta \to 0} \frac{\theta^2}{1 - \cos(\theta)} = 2$$
 
-## 2026-09-13 - Calculus 1 Lecture 1.4: Continuity of Functions : 
+## 2026-09-14 - Calculus 1 Lecture 1.4: Continuity of Functions : 
 https://www.youtube.com/watch?v=OEE5-M4aY4k&list=PLF797E961509B4EB5&index=8
