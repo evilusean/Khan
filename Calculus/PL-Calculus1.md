@@ -2121,7 +2121,6 @@ To prove continuity on a closed interval $[a, b]$, we must show:
 3. $f(x)$ is continuous from the left at the right endpoint $x = b$: $\lim_{x \to b^-} f(x) = f(b)$.
 
 ---
-
 #### 1. Check the Open Interval $(-4, 4)$
 
 Let $c$ be any value in the open interval $(-4, 4)$, so $-4 < c < 4$.
@@ -2133,7 +2132,6 @@ $$\lim_{x \to c} f(x) = \lim_{x \to c} \sqrt{16 - x^2} = \sqrt{16 - c^2} = f(c) 
 Since $16 - c^2 > 0$ for all $c \in (-4, 4)$, the limit equals the function value by direct substitution. Therefore, $f(x)$ is continuous on $(-4, 4)$.
 
 ---
-
 #### 2. Check the Endpoints
 
 * **Left Endpoint ($x = -4$):** Continuous from the right?
@@ -2145,7 +2143,7 @@ Since $16 - c^2 > 0$ for all $c \in (-4, 4)$, the limit equals the function valu
   $$\lim_{x \to 4^-} \sqrt{16 - x^2} = \sqrt{16 - 4^2} = 0 = f(4) \quad \checkmark$$
 
 ---
-
 #### Conclusion
 
 Since $f(x)$ is continuous on the open interval $(-4, 4)$ and continuous at both endpoints, $f(x) = \sqrt{16 - x^2}$ is **continuous on $[-4, 4]$**.
+
