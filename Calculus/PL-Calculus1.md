@@ -2069,3 +2069,53 @@ $$f(c) = K$$
 If $f(x)$ is continuous on $[a, b]$ and $f(a)$ and $f(b)$ have **opposite signs** (i.e., $f(a) \cdot f(b) < 0$), then there exists at least one value $c \in (a, b)$ such that $f(c) = 0$ (a zero/root of the function).
 
 * **Bisection / Numerical Approximation Technique:** Successively narrowing sub-intervals where sign changes occur allows for evaluating real roots to arbitrary decimal precision.
+### $\text{Are These Continuous at } x = 2?$
+
+To determine if a function is continuous at $x = c$, we must verify all three conditions of the Definition of Continuity:
+1. $f(c)$ is defined.
+2. $\lim_{x \to c} f(x)$ exists.
+3. $\lim_{x \to c} f(x) = f(c)$.
+
+---
+
+#### 1. Function $f(x) = \frac{x^2 - 4}{x - 2}$
+
+* **Check Condition 1:** Is $f(2)$ defined?
+  $$f(2) = \frac{2^2 - 4}{2 - 2} = \frac{0}{0} \quad \text{(Undefined)}$$
+  Since $f(2)$ does not exist, Condition 1 fails immediately.
+
+* **Conclusion:** **No**, $f(x)$ is **not continuous** at $x = 2$ (it has a removable discontinuity/hole at $x = 2$).
+
+---
+
+#### 2. Function $g(x) = \begin{cases} \frac{x^2 - 4}{x - 2}, & x \neq 2 \\ 3, & x = 2 \end{cases}$
+
+* **Check Condition 1:** Is $g(2)$ defined?
+  $$g(2) = 3 \quad \checkmark$$
+
+* **Check Condition 2:** Does $\lim_{x \to 2} g(x)$ exist?
+  $$\lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x - 2)(x + 2)}{x - 2} = \lim_{x \to 2} (x + 2) = 2 + 2 = 4$$
+  The limit exists and equals $4$. $\checkmark$
+
+* **Check Condition 3:** Does $\lim_{x \to 2} g(x) = g(2)$?
+  $$\lim_{x \to 2} g(x) = 4 \quad \text{and} \quad g(2) = 3$$
+  $$4 \neq 3$$
+  Condition 3 fails because the limit value does not match the function value.
+
+* **Conclusion:** **No**, $g(x)$ is **not continuous** at $x = 2$.
+
+---
+
+#### 3. Function $h(x) = \begin{cases} \frac{x^2 - 4}{x - 2}, & x \neq 2 \\ 4, & x = 2 \end{cases}$
+
+* **Check Condition 1:** Is $h(2)$ defined?
+  $$h(2) = 4 \quad \checkmark$$
+
+* **Check Condition 2:** Does $\lim_{x \to 2} h(x)$ exist?
+  $$\lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} (x + 2) = 4 \quad \checkmark$$
+
+* **Check Condition 3:** Does $\lim_{x \to 2} h(x) = h(2)$?
+  $$\lim_{x \to 2} h(x) = 4 = h(2) \quad \checkmark$$
+  All three conditions are satisfied!
+
+* **Conclusion:** **Yes**, $h(x)$ is **continuous** at $x = 2$.
