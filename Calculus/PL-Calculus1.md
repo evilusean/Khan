@@ -1974,7 +1974,6 @@ https://www.youtube.com/watch?v=OEE5-M4aY4k&list=PLF797E961509B4EB5&index=8
 A detailed summary and reference notes covering the key mathematical definitions, types of discontinuities, continuity rules, theorems, and proofs presented in the video lesson.
 
 ---
-
 ### 1. Definition of Continuity
 
 #### Layman's Terms
@@ -1990,7 +1989,6 @@ A function $f(x)$ is **continuous at a point** $x = c$ if and only if all three 
    $$\lim_{x \to c} f(x) = f(c)$$
 
 ---
-
 ### 2. Classifying Discontinuities
 
 When a function fails to meet one or more of the continuity conditions at $x = c$, it exhibits a discontinuity:
@@ -2006,7 +2004,6 @@ When a function fails to meet one or more of the continuity conditions at $x = c
   * Occurs when one or both of the one-sided limits approach $\pm\infty$ as $x \to c$.
 
 ---
-
 ### 3. Continuity on Intervals & One-Sided Continuity
 
 #### Open Intervals
@@ -2022,7 +2019,6 @@ To extend continuity to closed intervals $[a, b]$, one-sided limits are checked 
 A function is **continuous on the closed interval** $[a, b]$ if it is continuous on $(a, b)$, continuous from the right at $a$, and continuous from the left at $b$.
 
 ---
-
 ### 4. Properties and Rules of Continuous Functions
 
 #### Algebraic Combination Rules
@@ -2039,7 +2035,6 @@ If $f(x)$ and $g(x)$ are continuous at $x = c$, then the following combinations 
 * **Inverse Functions:** If $f(x)$ is continuous and one-to-one on its domain, its inverse $f^{-1}(x)$ is continuous on its domain (which corresponds to the range of $f$).
 
 ---
-
 ### 5. Proof Examples & Techniques
 
 #### Example 1: Proving Continuity on a Closed Interval $[ -4, 4 ]$
@@ -2064,7 +2059,6 @@ Define $f(x)$ using piece-wise definitions:
 Since $\lim_{x \to 0} |x| = f(0) = 0$, $f(x) = |x|$ is continuous everywhere on $(-\infty, \infty)$.
 
 ---
-
 ### 6. The Intermediate Value Theorem (IVT)
 
 #### Statement of Theorem
