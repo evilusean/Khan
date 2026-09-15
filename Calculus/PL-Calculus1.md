@@ -1969,3 +1969,109 @@ $$\lim_{\theta \to 0} \frac{1 - \cos(\theta)}{\theta^2} = \frac{1}{2} \quad \imp
 
 ## 2026-09-15 - Calculus 1 Lecture 1.4: Continuity of Functions : 
 https://www.youtube.com/watch?v=OEE5-M4aY4k&list=PLF797E961509B4EB5&index=8
+### Problem/Equation: Calculus 1 Lecture 1.4 — Continuity of Functions
+
+A detailed summary and reference notes covering the key mathematical definitions, types of discontinuities, continuity rules, theorems, and proofs presented in the video lesson.
+
+---
+
+### 1. Definition of Continuity
+
+#### Layman's Terms
+A function $f(x)$ is continuous if its graph has **no holes, breaks, or vertical asymptotes**—meaning it can be drawn without lifting the pencil from the paper.
+
+#### Formal Mathematical Definition
+A function $f(x)$ is **continuous at a point** $x = c$ if and only if all three of the following conditions are met:
+
+1. **Existence of $f(c)$:** The function is defined at $x = c$ (i.e., $f(c)$ exists).
+2. **Existence of the Limit:** The two-sided limit exists at $x = c$:
+   $$\lim_{x \to c} f(x) \text{ exists}$$
+3. **Equivalence:** The limit as $x$ approaches $c$ equals the function value at $c$:
+   $$\lim_{x \to c} f(x) = f(c)$$
+
+---
+
+### 2. Classifying Discontinuities
+
+When a function fails to meet one or more of the continuity conditions at $x = c$, it exhibits a discontinuity:
+
+* **Removable Discontinuity (Hole):** 
+  * Occurs when $\lim_{x \to c} f(x)$ exists, but either $f(c)$ is undefined or $\lim_{x \to c} f(x) \neq f(c)$.
+  * *Property:* Can be "filled in" or redefined by assigning a single point.
+* **Jump Discontinuity:** 
+  * Occurs when the left-sided limit and right-sided limit both exist but are not equal:
+    $$\lim_{x \to c^-} f(x) \neq \lim_{x \to c^+} f(x)$$
+  * The graph "jumps" from one value to another (frequently seen in piecewise functions).
+* **Infinite Discontinuity (Vertical Asymptote):** 
+  * Occurs when one or both of the one-sided limits approach $\pm\infty$ as $x \to c$.
+
+---
+
+### 3. Continuity on Intervals & One-Sided Continuity
+
+#### Open Intervals
+A function $f(x)$ is **continuous on an open interval** $(a, b)$ if it is continuous at every individual point within that interval.
+
+#### One-Sided Continuity (At Endpoints)
+To extend continuity to closed intervals $[a, b]$, one-sided limits are checked at the boundary endpoints:
+* **Continuous from the Right at $a$:** 
+  $$\lim_{x \to a^+} f(x) = f(a)$$
+* **Continuous from the Left at $b$:** 
+  $$\lim_{x \to b^-} f(x) = f(b)$$
+
+A function is **continuous on the closed interval** $[a, b]$ if it is continuous on $(a, b)$, continuous from the right at $a$, and continuous from the left at $b$.
+
+---
+
+### 4. Properties and Rules of Continuous Functions
+
+#### Algebraic Combination Rules
+If $f(x)$ and $g(x)$ are continuous at $x = c$, then the following combinations are also continuous at $x = c$:
+1. **Sum & Difference:** $f(x) \pm g(x)$
+2. **Product:** $f(x) \cdot g(x)$
+3. **Quotient:** $\frac{f(x)}{g(x)}$, provided $g(c) \neq 0$
+
+#### Continuous Function Types
+* **Polynomial Functions:** Continuous everywhere on $(-\infty, \infty)$.
+* **Rational Functions:** Continuous at every point in their domain (everywhere except where the denominator $g(x) = 0$).
+* **Composite Functions:** If $g(x)$ is continuous at $c$ and $f(x)$ is continuous at $g(c)$, then the composite function $(f \circ g)(x) = f(g(x))$ is continuous at $c$:
+  $$\lim_{x \to c} f(g(x)) = f\left(\lim_{x \to c} g(x)\right)$$
+* **Inverse Functions:** If $f(x)$ is continuous and one-to-one on its domain, its inverse $f^{-1}(x)$ is continuous on its domain (which corresponds to the range of $f$).
+
+---
+
+### 5. Proof Examples & Techniques
+
+#### Example 1: Proving Continuity on a Closed Interval $[ -4, 4 ]$
+**Function:** $f(x) = \sqrt{16 - x^2}$
+
+1. **Open Interval $(-4, 4)$:** 
+   For any $c \in (-4, 4)$, direct substitution yields $\lim_{x \to c} \sqrt{16 - x^2} = \sqrt{16 - c^2} = f(c)$.
+2. **Left Endpoint ($x = -4$):**
+   $$\lim_{x \to -4^+} \sqrt{16 - x^2} = \sqrt{16 - (-4)^2} = 0 = f(-4)$$
+3. **Right Endpoint ($x = 4$):**
+   $$\lim_{x \to 4^-} \sqrt{16 - x^2} = \sqrt{16 - 4^2} = 0 = f(4)$$
+*Conclusion:* $f(x)$ is continuous on the closed interval $[-4, 4]$.
+
+#### Example 2: Proving $f(x) = |x|$ is Continuous Everywhere
+Define $f(x)$ using piece-wise definitions:
+* For $x > 0$: $f(x) = x$ (Polynomial $\rightarrow$ Continuous).
+* For $x < 0$: $f(x) = -x$ (Polynomial $\rightarrow$ Continuous).
+* At $x = 0$:
+  * Right-hand limit: $\lim_{x \to 0^+} x = 0$
+  * Left-hand limit: $\lim_{x \to 0^-} (-x) = 0$
+  * Value at origin: $f(0) = 0$
+Since $\lim_{x \to 0} |x| = f(0) = 0$, $f(x) = |x|$ is continuous everywhere on $(-\infty, \infty)$.
+
+---
+
+### 6. The Intermediate Value Theorem (IVT)
+
+#### Statement of Theorem
+Let $f(x)$ be a function that is continuous on the closed interval $[a, b]$. If $K$ is any real number strictly between $f(a)$ and $f(b)$, then there exists at least one number $c \in (a, b)$ such that:
+$$f(c) = K$$
+
+#### Application: Root Finding / Bolzano's Location of Roots Theorem
+If $f(x)$ is continuous on $[a, b]$ and $f(a)$ and $f(b)$ have **opposite signs** (i.e., $f(a) \cdot f(b) < 0$), then there exists at least one value $c \in (a, b)$ such that $f(c) = 0$ (a zero/root of the function).
+
+* **Bisection / Numerical Approximation Technique:** Successively narrowing sub-intervals where sign changes occur allows for evaluating real roots to arbitrary decimal precision.
