@@ -2077,17 +2077,14 @@ To determine if a function is continuous at $x = c$, we must verify all three co
 3. $\lim_{x \to c} f(x) = f(c)$.
 
 ---
-
 #### 1. Function $f(x) = \frac{x^2 - 4}{x - 2}$
 
 * **Check Condition 1:** Is $f(2)$ defined?
   $$f(2) = \frac{2^2 - 4}{2 - 2} = \frac{0}{0} \quad \text{(Undefined)}$$
   Since $f(2)$ does not exist, Condition 1 fails immediately.
-
 * **Conclusion:** **No**, $f(x)$ is **not continuous** at $x = 2$ (it has a removable discontinuity/hole at $x = 2$).
 
 ---
-
 #### 2. Function $g(x) = \begin{cases} \frac{x^2 - 4}{x - 2}, & x \neq 2 \\ 3, & x = 2 \end{cases}$
 
 * **Check Condition 1:** Is $g(2)$ defined?
@@ -2101,11 +2098,9 @@ To determine if a function is continuous at $x = c$, we must verify all three co
   $$\lim_{x \to 2} g(x) = 4 \quad \text{and} \quad g(2) = 3$$
   $$4 \neq 3$$
   Condition 3 fails because the limit value does not match the function value.
-
 * **Conclusion:** **No**, $g(x)$ is **not continuous** at $x = 2$.
 
 ---
-
 #### 3. Function $h(x) = \begin{cases} \frac{x^2 - 4}{x - 2}, & x \neq 2 \\ 4, & x = 2 \end{cases}$
 
 * **Check Condition 1:** Is $h(2)$ defined?
@@ -2117,5 +2112,4 @@ To determine if a function is continuous at $x = c$, we must verify all three co
 * **Check Condition 3:** Does $\lim_{x \to 2} h(x) = h(2)$?
   $$\lim_{x \to 2} h(x) = 4 = h(2) \quad \checkmark$$
   All three conditions are satisfied!
-
 * **Conclusion:** **Yes**, $h(x)$ is **continuous** at $x = 2$.
