@@ -2255,3 +2255,48 @@ To find the inverse function algebraically:
 * **Theorem:** If $f(x)$ is continuous and one-to-one on an interval, then its inverse function $f^{-1}(x)$ is continuous over its entire domain.
 * The domain of $f^{-1}(x)$ is equivalent to the range of $f(x)$, which is $(-\infty, \infty)$.
 * Therefore, $f^{-1}(x) = \sqrt[3]{x}$ is **continuous on $(-\infty, \infty)$**.
+### Intermediate Value Theorem (IVT)
+
+#### **1. Formal Definition & Statement**
+If a function $f(x)$ is **continuous** on the closed interval $[a, b]$, and $N$ is any number between $f(a)$ and $f(b)$ (where $f(a) \neq f(b)$), then there exists **at least one** number $c$ in the open interval $(a, b)$ such that:
+
+$$f(c) = N$$
+
+---
+
+#### **2. Key Hypotheses (The Requirements)**
+To apply the IVT, two critical conditions must be met:
+1. **Continuity:** $f(x)$ must be continuous on every point of the **closed interval** $[a, b]$ (no holes, jumps, or vertical asymptotes).
+2. **Intermediate Value Choice:** $N$ must strictly lie between the endpoint outputs $f(a)$ and $f(b)$.
+
+> **Warning:** If $f(x)$ is discontinuous at even a single point in $[a, b]$, the Intermediate Value Theorem **cannot** be applied.
+
+---
+
+#### **3. Geometric & Intuitive Interpretation**
+* **The "Pencil" Analogy:** If you draw a continuous curve from $(a, f(a))$ to $(b, f(b))$ without lifting your pencil, your line *must* cross every horizontal line $y = N$ between $f(a)$ and $f(b)$ at least once.
+* **Existence, Not Uniqueness:** IVT guarantees that at least one such $c$ exists, but there could be multiple values of $c$ where $f(c) = N$.
+
+---
+
+#### **4. Primary Application: Finding Roots / Zeros**
+The most common use of IVT in Calculus 1 is proving that an equation has a solution or root ($f(c) = 0$) within a given interval $(a, b)$.
+
+##### **The Sign Change Test:**
+1. Evaluate $f(a)$ and $f(b)$.
+2. If $f(a)$ and $f(b)$ have **opposite signs** (one is positive, one is negative), then $0$ lies between $f(a)$ and $f(b)$.
+3. By IVT, there must exist at least one $c \in (a, b)$ such that $f(c) = 0$.
+
+---
+
+#### **5. Example Walkthrough**
+
+**Problem:** Show that $f(x) = x^3 - x - 1$ has a real root in the interval $[1, 2]$.
+
+1. **Check Continuity:** $f(x)$ is a polynomial, so it is continuous everywhere, including $[1, 2]$.
+2. **Evaluate Endpoints:**
+   * $f(1) = (1)^3 - (1) - 1 = -1 \quad (< 0)$
+   * $f(2) = (2)^3 - (2) - 1 = 5 \quad (> 0)$
+3. **Apply IVT:**
+   * Since $f(1) = -1 < 0$ and $f(2) = 5 > 0$, $N = 0$ lies between $f(1)$ and $f(2)$.
+   * Since $f(x)$ is continuous on $[1, 2]$, by the **Intermediate Value Theorem**, there exists at least one number $c \in (1, 2)$ such that $f(c) = 0$.
