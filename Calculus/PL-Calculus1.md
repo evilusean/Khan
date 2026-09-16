@@ -2147,3 +2147,42 @@ Since $16 - c^2 > 0$ for all $c \in (-4, 4)$, the limit equals the function valu
 
 Since $f(x)$ is continuous on the open interval $(-4, 4)$ and continuous at both endpoints, $f(x) = \sqrt{16 - x^2}$ is **continuous on $[-4, 4]$**.
 
+### $f(x) = \frac{x^2 - 4}{x^2 + x - 6} \quad \text{Find Discontinuities}$
+
+To find where a rational function is discontinuous, set the denominator equal to zero to locate where the function is undefined.
+
+---
+
+#### 1. Set the Denominator Equal to Zero
+
+$$x^2 + x - 6 = 0$$
+
+Factor the quadratic equation:
+$$(x + 3)(x - 2) = 0$$
+
+Solving for $x$:
+$$x = -3 \quad \text{and} \quad x = 2$$
+
+These are the values where $f(x)$ is undefined and discontinuous.
+
+---
+
+#### 2. Classify the Discontinuities
+
+Factor both the numerator and denominator to simplify:
+
+$$f(x) = \frac{(x + 2)(x - 2)}{(x + 3)(x - 2)}$$
+
+Cancel out common factors:
+$$f(x) = \frac{(x + 2)\cancel{(x - 2)}}{(x + 3)\cancel{(x - 2)}} = \frac{x + 2}{x + 3} \quad (x \neq 2)$$
+
+* **At $x = 2$:** The factor $(x - 2)$ cancels out, meaning the limit exists at $x = 2$. This gives us a **Hole** (Removable Discontinuity).
+* **At $x = -3$:** The factor $(x + 3)$ remains in the denominator, causing the limit to approach $\pm\infty$. This gives us a **Vertical Asymptote** (Infinite/Non-removable Discontinuity).
+
+---
+
+#### Conclusion
+
+Discontinuities occur at:
+* **$x = -3$** $\rightarrow$ **Asymptote**
+* **$x = 2$** $\rightarrow$ **Hole**
