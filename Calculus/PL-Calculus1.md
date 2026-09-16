@@ -2263,7 +2263,6 @@ If a function $f(x)$ is **continuous** on the closed interval $[a, b]$, and $N$ 
 $$f(c) = N$$
 
 ---
-
 #### **2. Key Hypotheses (The Requirements)**
 To apply the IVT, two critical conditions must be met:
 1. **Continuity:** $f(x)$ must be continuous on every point of the **closed interval** $[a, b]$ (no holes, jumps, or vertical asymptotes).
@@ -2272,13 +2271,11 @@ To apply the IVT, two critical conditions must be met:
 > **Warning:** If $f(x)$ is discontinuous at even a single point in $[a, b]$, the Intermediate Value Theorem **cannot** be applied.
 
 ---
-
 #### **3. Geometric & Intuitive Interpretation**
 * **The "Pencil" Analogy:** If you draw a continuous curve from $(a, f(a))$ to $(b, f(b))$ without lifting your pencil, your line *must* cross every horizontal line $y = N$ between $f(a)$ and $f(b)$ at least once.
 * **Existence, Not Uniqueness:** IVT guarantees that at least one such $c$ exists, but there could be multiple values of $c$ where $f(c) = N$.
 
 ---
-
 #### **4. Primary Application: Finding Roots / Zeros**
 The most common use of IVT in Calculus 1 is proving that an equation has a solution or root ($f(c) = 0$) within a given interval $(a, b)$.
 
@@ -2288,11 +2285,9 @@ The most common use of IVT in Calculus 1 is proving that an equation has a solut
 3. By IVT, there must exist at least one $c \in (a, b)$ such that $f(c) = 0$.
 
 ---
-
 #### **5. Example Walkthrough**
 
 **Problem:** Show that $f(x) = x^3 - x - 1$ has a real root in the interval $[1, 2]$.
-
 1. **Check Continuity:** $f(x)$ is a polynomial, so it is continuous everywhere, including $[1, 2]$.
 2. **Evaluate Endpoints:**
    * $f(1) = (1)^3 - (1) - 1 = -1 \quad (< 0)$
