@@ -2233,3 +2233,28 @@ $$|-38| = 38$$
 ---
 #### **3. Final Answer**
 $$\lim_{x \to 4} |10 - 3x^2| = 38$$
+### Problem: Continuity of Inverse Functions ($f(x) = x^3$ and $f^{-1}(x) = \sqrt[3]{x}$)
+
+#### **1. Analysis of $f(x) = x^3$**
+* **Function Type:** Polynomial
+* **Continuity:** Continuous on $(-\infty, \infty)$
+* **Range:** $(-\infty, \infty)$
+
+---
+
+#### **2. Deriving the Inverse Function $f^{-1}(x)$**
+To find the inverse function algebraically:
+
+1. Express as $y = f(x)$:
+   $$y = x^3$$
+2. Swap $x$ and $y$:
+   $$x = y^3$$
+3. Solve for $y$:
+   $$\sqrt[3]{x} = y \implies f^{-1}(x) = \sqrt[3]{x}$$
+
+---
+
+#### **3. Determining Continuity of $f^{-1}(x)$**
+* **Theorem:** If $f(x)$ is continuous and one-to-one on an interval, then its inverse function $f^{-1}(x)$ is continuous over its entire domain.
+* The domain of $f^{-1}(x)$ is equivalent to the range of $f(x)$, which is $(-\infty, \infty)$.
+* Therefore, $f^{-1}(x) = \sqrt[3]{x}$ is **continuous on $(-\infty, \infty)$**.
