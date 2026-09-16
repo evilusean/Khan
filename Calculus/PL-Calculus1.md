@@ -2214,28 +2214,22 @@ Since the one-sided limits match and equal $f(0) = 0$, $f(x) = |x|$ is continuou
 $$\lim_{x \to c} f(g(x)) = f(L) = f\left(\lim_{x \to c} g(x)\right)$$
 * **Key Takeaway:** We can push limits inside continuous functions by composition.
 ### Problem: $\lim_{x \to 4} |10 - 3x^2|$
-
 #### **1. Application of the Limit Composition Theorem**
 Because the absolute value function $f(x) = |x|$ is continuous everywhere, we can push the limit operator *inside* the absolute value bars:
 
 $$\lim_{x \to 4} |10 - 3x^2| \longrightarrow \left| \lim_{x \to 4} (10 - 3x^2) \right|$$
 
 ---
-
 #### **2. Step-by-Step Evaluation**
-
 ##### **Step 1: Evaluate the Inner Polynomial Limit**
 Evaluate the limit inside using direct substitution since $10 - 3x^2$ is a continuous polynomial:
 
 $$\lim_{x \to 4} (10 - 3x^2) = 10 - 3(4)^2 = 10 - 3(16) = 10 - 48 = -38$$
-
 ##### **Step 2: Apply the Outer Absolute Value Function**
 Now take the absolute value of the inner limit result:
 
 $$|-38| = 38$$
 
 ---
-
 #### **3. Final Answer**
-
 $$\lim_{x \to 4} |10 - 3x^2| = 38$$
