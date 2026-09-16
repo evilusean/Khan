@@ -2147,4 +2147,3 @@ Since $16 - c^2 > 0$ for all $c \in (-4, 4)$, the limit equals the function valu
 
 Since $f(x)$ is continuous on the open interval $(-4, 4)$ and continuous at both endpoints, $f(x) = \sqrt{16 - x^2}$ is **continuous on $[-4, 4]$**.
 
-# Leftoff @ 47mins
