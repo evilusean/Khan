@@ -2189,14 +2189,12 @@ To analyze $f(x) = |x|$, rewrite it as a piecewise function:
 $$f(x) = |x| = \begin{cases} x, & x > 0 \\ 0, & x = 0 \\ -x, & x < 0 \end{cases}$$
 
 ---
-
 #### 1. Analyze Each Piece
 
 * For $x > 0$: $f(x) = x$, which is a polynomial $\rightarrow$ **Continuous**
 * For $x < 0$: $f(x) = -x$, which is a polynomial $\rightarrow$ **Continuous**
 
 ---
-
 #### 2. Check the Boundary Point ($x = 0$)
 
 We test the left-hand limit and right-hand limit as $x \to 0$:
@@ -2210,11 +2208,8 @@ Since the one-sided limits match and equal $f(0) = 0$, $f(x) = |x|$ is continuou
 * **Conclusion:** **Yes**, $f(x) = |x|$ is **continuous everywhere**.
 
 ---
-
 ### $\text{Limit of Compositions}$
-
 **Theorem:** If $\lim_{x \to c} g(x) = L$ and $f$ is **continuous at $L$**, then:
 
 $$\lim_{x \to c} f(g(x)) = f(L) = f\left(\lim_{x \to c} g(x)\right)$$
-
 * **Key Takeaway:** We can push limits inside continuous functions by composition.
