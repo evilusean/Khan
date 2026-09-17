@@ -2295,3 +2295,4 @@ The most common use of IVT in Calculus 1 is proving that an equation has a solut
 3. **Apply IVT:**
    * Since $f(1) = -1 < 0$ and $f(2) = 5 > 0$, $N = 0$ lies between $f(1)$ and $f(2)$.
    * Since $f(x)$ is continuous on $[1, 2]$, by the **Intermediate Value Theorem**, there exists at least one number $c \in (1, 2)$ such that $f(c) = 0$.
+## 2026-09-17 - Calculus 1 Lecture 1.5: Slope of a Curve, Velocity, and Rates of Change :
