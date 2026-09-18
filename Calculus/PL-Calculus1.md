@@ -2374,7 +2374,6 @@ $$y - 1 = 2x - 2$$
 
 $$y = 2x - 1$$
 ### Tangent Line to $y = \frac{3}{x}$ at $(3, 1)$
-
 **Given Information:**
 * $f(3+h) = \frac{3}{3+h}$
 * $f(3) = 1$
@@ -2383,33 +2382,24 @@ $$y = 2x - 1$$
 $$\lim_{h \to 0} \frac{f(3+h) - f(3)}{h}$$
 
 ---
-
 **Step-by-step Solution:**
 
 1. **Substitute $f(3+h)$ and $f(3)$ into the limit formula:**
 $$\lim_{h \to 0} \frac{\frac{3}{3+h} - 1}{h}$$
-
 2. **Find a common denominator for the numerator to combine the terms:**
 $$\to \lim_{h \to 0} \frac{\frac{3}{3+h} - \frac{3+h}{3+h}}{h}$$
-
 3. **Subtract the fractions in the numerator (watch the negative sign):**
 $$\to \lim_{h \to 0} \frac{\frac{3 - (3+h)}{3+h}}{h} = \lim_{h \to 0} \frac{\frac{3 - 3 - h}{3+h}}{h}$$
-
 4. **Simplify the numerator and write the main denominator as $\frac{h}{1}$:**
 $$\to \lim_{h \to 0} \frac{\frac{-h}{3+h}}{\frac{h}{1}}$$
-
 5. **Multiply by the reciprocal of the denominator and cancel out $h$:**
 $$\to \lim_{h \to 0} \left( \frac{-h}{3+h} \cdot \frac{1}{h} \right) = \lim_{h \to 0} \left( \frac{-1}{3+h} \right)$$
-
 6. **Evaluate the limit by direct substitution of $h = 0$:**
 $$\to \lim_{h \to 0} \frac{-1}{3+h} = \frac{-1}{3+0} = -\frac{1}{3}$$
-
 So, the slope is **$m = -\frac{1}{3}$**.
 
 ---
-
 **Step 7: Find the Equation of the Tangent Line**
-
 Use point-slope form $y - y_1 = m(x - x_1)$ with point $(3, 1)$ and slope $m = -\frac{1}{3}$:
 
 $$y - 1 = -\frac{1}{3}(x - 3)$$
