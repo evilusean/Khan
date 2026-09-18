@@ -2407,3 +2407,43 @@ $$y - 1 = -\frac{1}{3}(x - 3)$$
 $$y - 1 = -\frac{1}{3}x + 1$$
 
 $$y = -\frac{1}{3}x + 2$$
+### Slope of Tangent Lines to $y = \sqrt{x}$ at Any Point
+
+**Problem Statement:**
+Find slope of tangent lines to $y = \sqrt{x}$ at any point.
+
+---
+
+**Given Information:**
+* $f(x) = \sqrt{x}$
+* $f(x+h) = \sqrt{x+h}$
+
+**Limit Definition of Slope:**
+$$m = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+
+---
+
+**Step-by-step Solution:**
+
+1. **Substitute $f(x+h)$ and $f(x)$ into the limit formula:**
+$$= \lim_{h \to 0} \frac{\sqrt{x+h} - \sqrt{x}}{h}$$
+
+2. **Rationalize the numerator by multiplying by the conjugate $\frac{\sqrt{x+h} + \sqrt{x}}{\sqrt{x+h} + \sqrt{x}}$:**
+$$= \lim_{h \to 0} \frac{(\sqrt{x+h} - \sqrt{x})}{h} \cdot \frac{(\sqrt{x+h} + \sqrt{x})}{(\sqrt{x+h} + \sqrt{x})}$$
+
+3. **Expand the numerator using $(a-b)(a+b) = a^2 - b^2$:**
+$$= \lim_{h \to 0} \frac{x + h - x}{h(\sqrt{x+h} + \sqrt{x})}$$
+
+4. **Simplify the numerator ($x - x = 0$):**
+$$= \lim_{h \to 0} \frac{h^1}{h(\sqrt{x+h} + \sqrt{x})}$$
+
+5. **Cancel out $h$ from numerator and denominator:**
+$$= \lim_{h \to 0} \frac{1}{\sqrt{x+h} + \sqrt{x}}$$
+
+6. **Evaluate the limit as $h \to 0$:**
+$$\to \frac{1}{\sqrt{x+0} + \sqrt{x}} = \frac{1}{\sqrt{x} + \sqrt{x}}$$
+
+---
+
+**Final Result:**
+$$m = \frac{1}{2\sqrt{x}}$$
