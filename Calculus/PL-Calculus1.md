@@ -2311,7 +2311,6 @@ https://www.youtube.com/watch?v=PqQ5v94_NGM&list=PLF797E961509B4EB5&index=10
 - **Alternative Formulation (Using $h = x - a$):**
   - Letting $h$ represent the change in $x$ ($\Delta x$), as $x \to a$, $h \to 0$:
     $$m_{\text{tan}} = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$$
-
 #### 2. Position, Velocity, and Rates of Change
 - **Average Velocity:**
   - For a position function $s(t)$, the average velocity over a time interval $[a, b]$ or $[a, a + h]$ is the slope of the secant line:
@@ -2322,7 +2321,6 @@ https://www.youtube.com/watch?v=PqQ5v94_NGM&list=PLF797E961509B4EB5&index=10
 - **Speed:**
   - Speed is the magnitude of velocity (a non-negative scalar value):
     $$\text{Speed} = |v(t)|$$
-
 #### 3. Generalizing Rates of Change
 - **Average Rate of Change:**
   - Given a function $y = f(x)$, the average rate of change over $[x_1, x_2]$:
