@@ -2338,3 +2338,55 @@ https://www.youtube.com/watch?v=PqQ5v94_NGM&list=PLF797E961509B4EB5&index=10
   - $v(t) > 0$: Object is moving in the positive direction (right/up).
   - $v(t) < 0$: Object is moving in the negative direction (left/down).
   - $v(t) = 0$: Object is momentarily at rest (often turning around).
+### Equation of the Tangent Line to $y = x^2$ at $(1, 1)$
+
+**Problem Statement:**
+Find the equation of the tangent line to $y = x^2$ at $(1, 1)$.
+
+---
+
+**Step 1: Identify Given Information**
+* $f(x) = x^2$
+* $x_0 = 1$
+* $f(1 + h) = (1 + h)^2$
+* $f(1) = 1$
+
+---
+
+**Step 2: Find the Slope ($m$) Using the Limit Definition**
+
+$$m = \lim_{h \to 0} \frac{(1 + h)^2 - 1}{h}$$
+
+Expand $(1 + h)^2$:
+
+$$= \lim_{h \to 0} \frac{1 + 2h + h^2 - 1}{h}$$
+
+Cancel out the $1$ and $-1$:
+
+$$= \lim_{h \to 0} \frac{2h + h^2}{h}$$
+
+Factor out $h$ from the numerator:
+
+$$= \lim_{h \to 0} \frac{h(2 + h)}{h}$$
+
+Cancel out $h$ from the numerator and denominator:
+
+$$= \lim_{h \to 0} (2 + h)$$
+
+Evaluate the limit as $h \to 0$:
+
+$$= 2 + 0 = 2$$
+
+Thus, the slope of the tangent line is **$m = 2$**.
+
+---
+
+**Step 3: Find the Equation of the Tangent Line**
+
+Using point-slope form $y - y_1 = m(x - x_1)$ with point $(1, 1)$ and slope $m = 2$:
+
+$$y - 1 = 2(x - 1)$$
+
+$$y - 1 = 2x - 2$$
+
+$$y = 2x - 1$$
