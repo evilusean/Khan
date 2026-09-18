@@ -2297,3 +2297,48 @@ The most common use of IVT in Calculus 1 is proving that an equation has a solut
    * Since $f(x)$ is continuous on $[1, 2]$, by the **Intermediate Value Theorem**, there exists at least one number $c \in (1, 2)$ such that $f(c) = 0$.
 ## 2026-09-18 - Calculus 1 Lecture 1.5: Slope of a Curve, Velocity, and Rates of Change (2 hours) :
 https://www.youtube.com/watch?v=PqQ5v94_NGM&list=PLF797E961509B4EB5&index=10
+### Calculus 1 Lecture 1.5: Slope of a Curve, Velocity, and Rates of Change
+
+#### 1. The Tangent Line Problem & Slope of a Curve
+- **Secant Line vs. Tangent Line:**
+  - A **secant line** connects two points $P(a, f(a))$ and $Q(x, f(x))$ on a curve.
+  - The slope of the secant line ($m_{\text{sec}}$) represents the **average rate of change**:
+    $$m_{\text{sec}} = \frac{f(x) - f(a)}{x - a}$$
+  - A **tangent line** touches the curve at a single point $P(a, f(a))$ and represents the direction of the curve at that exact point.
+- **Limit Definition of the Tangent Line Slope:**
+  - As point $Q$ approaches point $P$ (i.e., as $x \to a$), the secant line approaches the tangent line.
+  - The slope of the tangent line ($m_{\text{tan}}$) at $x = a$ is the **instantaneous rate of change**:
+    $$m_{\text{tan}} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$$
+- **Alternative Formulation (Using $h = x - a$):**
+  - Letting $h$ represent the change in $x$ ($\Delta x$), as $x \to a$, $h \to 0$:
+    $$m_{\text{tan}} = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$$
+
+#### 2. Position, Velocity, and Rates of Change
+- **Average Velocity:**
+  - For a position function $s(t)$, the average velocity over a time interval $[a, b]$ or $[a, a + h]$ is the slope of the secant line:
+    $$v_{\text{avg}} = \frac{\Delta s}{\Delta t} = \frac{s(b) - s(a)}{b - a} = \frac{s(a+h) - s(a)}{h}$$
+- **Instantaneous Velocity:**
+  - The velocity at a precise instant $t = a$ is the limit of the average velocity as the time interval approaches 0:
+    $$v(a) = \lim_{h \to 0} \frac{s(a + h) - s(a)}{h}$$
+- **Speed:**
+  - Speed is the magnitude of velocity (a non-negative scalar value):
+    $$\text{Speed} = |v(t)|$$
+
+#### 3. Generalizing Rates of Change
+- **Average Rate of Change:**
+  - Given a function $y = f(x)$, the average rate of change over $[x_1, x_2]$:
+    $$\text{Average Rate of Change} = \frac{\Delta y}{\Delta x} = \frac{f(x_2) - f(x_1)}{x_2 - x_1}$$
+- **Instantaneous Rate of Change:**
+  - The rate of change of $y$ with respect to $x$ at $x = x_1$:
+    $$\text{Instantaneous Rate of Change} = \lim_{\Delta x \to 0} \frac{\Delta y}{\Delta x} = \lim_{x_2 \to x_1} \frac{f(x_2) - f(x_1)}{x_2 - x_1}$$
+
+#### 4. Worked Conceptual Framework / Examples
+- **Finding the Equation of a Tangent Line:**
+  1. Calculate the slope $m = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$.
+  2. Find the point of tangency $(a, f(a))$.
+  3. Use point-slope form to write the equation:
+     $$y - f(a) = m(x - a)$$
+- **Physical Interpretation of Signs:**
+  - $v(t) > 0$: Object is moving in the positive direction (right/up).
+  - $v(t) < 0$: Object is moving in the negative direction (left/down).
+  - $v(t) = 0$: Object is momentarily at rest (often turning around).
