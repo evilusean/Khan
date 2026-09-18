@@ -2298,7 +2298,6 @@ The most common use of IVT in Calculus 1 is proving that an equation has a solut
 ## 2026-09-18 - Calculus 1 Lecture 1.5: Slope of a Curve, Velocity, and Rates of Change (2 hours) :
 https://www.youtube.com/watch?v=PqQ5v94_NGM&list=PLF797E961509B4EB5&index=10
 ### Calculus 1 Lecture 1.5: Slope of a Curve, Velocity, and Rates of Change
-
 #### 1. The Tangent Line Problem & Slope of a Curve
 - **Secant Line vs. Tangent Line:**
   - A **secant line** connects two points $P(a, f(a))$ and $Q(x, f(x))$ on a curve.
@@ -2331,7 +2330,6 @@ https://www.youtube.com/watch?v=PqQ5v94_NGM&list=PLF797E961509B4EB5&index=10
 - **Instantaneous Rate of Change:**
   - The rate of change of $y$ with respect to $x$ at $x = x_1$:
     $$\text{Instantaneous Rate of Change} = \lim_{\Delta x \to 0} \frac{\Delta y}{\Delta x} = \lim_{x_2 \to x_1} \frac{f(x_2) - f(x_1)}{x_2 - x_1}$$
-
 #### 4. Worked Conceptual Framework / Examples
 - **Finding the Equation of a Tangent Line:**
   1. Calculate the slope $m = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$.
