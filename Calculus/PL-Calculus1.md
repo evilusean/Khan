@@ -2437,3 +2437,18 @@ $$\to \frac{1}{\sqrt{x+0} + \sqrt{x}} = \frac{1}{\sqrt{x} + \sqrt{x}}$$
 ---
 **Final Result:**
 $$m = \frac{1}{2\sqrt{x}}$$
+### Average Velocity: $V_{AVE} = \frac{\text{DISPLACEMENT}}{\text{TIME}} = \frac{f(T_0 + h) - f(T_0)}{h}$
+
+**Formula breakdown:**
+
+$$V_{AVE} = \frac{\text{DISPLACEMENT}}{\text{TIME}} = \frac{f(T_0 + h) - f(T_0)}{h}$$
+[cite: 4]
+
+---
+
+#### **Key Concepts & Conceptual Breakdown**
+
+* **Displacement ($f(T_0 + h) - f(T_0)$):** Represents the net change in position over the time interval. $f(T_0)$ is your initial position at starting time $T_0$, and $f(T_0 + h)$ is your ending position after a time duration $h$ has passed[cite: 4].
+* **Time ($h$):** Represents the change in time or elapsed time interval between the initial and final moments[cite: 4].
+* **Connection to Difference Quotient / Secant Line:** This formula is structurally identical to the difference quotient $\frac{f(x + h) - f(x)}{h}$. Graphically, the average velocity represents the **slope of the secant line** passing through the points $(T_0, f(T_0))$ and $(T_0 + h, f(T_0 + h))$[cite: 4].
+* **Transition to Instantaneous Velocity:** As the time interval $h$ shrinks toward $0$ ($\lim_{h \to 0}$), the average velocity approaches the **instantaneous velocity** at $T_0$, which corresponds to the slope of the tangent line (the derivative)[cite: 4].
