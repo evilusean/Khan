@@ -2505,24 +2505,27 @@ $$V_{\text{INST}} = \lim_{h \to 0} \frac{f(T_0 + h) - f(T_0)}{h}$$
 * Instantaneous Velocity is defined as the limit of Average Velocity as the time interval $h$ shrinks to 0.
 * Structurally, $V_{\text{INST}}$ is identical to the definition of slope ($m = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$).
 * While average velocity gives the slope of a **secant line** across a time interval, instantaneous velocity gives the slope of the **tangent line** at the exact instant $T_0$.
-### Instantaneous Velocity Example: $s(t) = 500 - 16t^2$ at $t = 5\text{ seconds}$
+### Problem: $s(t) = 500 - 16t^2$, Instantaneous Velocity at $t = 5\text{ seconds}$
 
 **Problem Statement:**
 Find the INST VELOCITY at 5 SECONDS for $s(t) = 500 - 16t^2$.
 
 ---
+
 **Given Information:**
 * Position function: $s(t) = 500 - 16t^2$
 * Target time ($T_0$): $T_0 = 5$
 
 ---
+
 **Step-by-step Solution:**
 
 1. **Set up the Instantaneous Velocity formula:**
 $$V_{\text{INST}} = \lim_{h \to 0} \frac{s(5 + h) - s(5)}{h}$$
+
 2. **Calculate individual function values off to the side:**
-* $s(5 + h) = 500 - 16(5 + h)^2$[cite: 6]
-* $s(5) = 500 - 16(5)^2 = 500 - 16(25) = 500 - 400 = 100$[cite: 6]
+* $s(5 + h) = 500 - 16(5 + h)^2$
+* $s(5) = 500 - 16(5)^2 = 500 - 16(25) = 500 - 400 = 100$
 
 3. **Substitute these values back into the limit:**
 $$= \lim_{h \to 0} \frac{500 - 16(5 + h)^2 - 100}{h}$$
@@ -2532,3 +2535,18 @@ $$= \lim_{h \to 0} \frac{500 - 16(25 + 10h + h^2) - 100}{h}$$
 
 5. **Distribute the $-16$ across the trinomial:**
 $$= \lim_{h \to 0} \frac{500 - 400 - 160h - 16h^2 - 100}{h}$$
+
+6. **Combine like constants in the numerator ($500 - 400 - 100 = 0$):**
+$$= \lim_{h \to 0} \frac{-160h - 16h^2}{h}$$
+
+7. **Factor out $h$ from the numerator and cancel with the denominator:**
+$$= \lim_{h \to 0} \frac{\cancel{h}(-160 - 16h)}{\cancel{h}}$$
+
+8. **Evaluate the limit by direct substitution ($h = 0$):**
+$$= -160 - 16(0)$$
+$$= -160\text{ ft/sec}$$
+
+---
+
+**Final Result:**
+$$V_{\text{INST}} = -160\text{ ft/sec}$$
