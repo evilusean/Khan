@@ -2451,14 +2451,14 @@ $$V_{AVE} = \frac{\text{DISPLACEMENT}}{\text{TIME}} = \frac{f(T_0 + h) - f(T_0)}
 ### Find Ave. Velocity of $s(t) = 1 + 3t - 2t^2$ on $[1,3]$
 
 **Problem Statement:**
-Find Ave. Velocity of $s(t) = 1 + 3t - 2t^2$ on $[1,3]$[cite: 5].
+Find Ave. Velocity of $s(t) = 1 + 3t - 2t^2$ on $[1,3]$
 
 ---
 **Given Information:**
-* Position function: $s(t) = 1 + 3t - 2t^2$[cite: 5]
-* Interval: $[1,3]$[cite: 5]
-* Starting time: $T_0 = 1$[cite: 5]
-* Elapsed time: $h = 3 - 1 = 2$[cite: 5]
+* Position function: $s(t) = 1 + 3t - 2t^2$
+* Interval: $[1,3]$
+* Starting time: $T_0 = 1$
+* Elapsed time: $h = 3 - 1 = 2$
 
 ---
 **Step-by-step Solution:**
@@ -2468,8 +2468,8 @@ $$V_{\text{AVE}} = \frac{s(1 + 2) - s(1)}{2}$$
 2. **Simplify the inputs in the numerator:**
 $$= \frac{s(3) - s(1)}{2}$$
 3. **Calculate the function values $s(3)$ and $s(1)$:**
-* $s(3) = 1 + 3(3) - 2(3)^2 = 1 + 9 - 18 = -8$[cite: 5]
-* $s(1) = 1 + 3(1) - 2(1)^2 = 1 + 3 - 2 = 2$[cite: 5]
+* $s(3) = 1 + 3(3) - 2(3)^2 = 1 + 9 - 18 = -8$
+* $s(1) = 1 + 3(1) - 2(1)^2 = 1 + 3 - 2 = 2$
 
 4. **Substitute the calculated values into the formula:**
 $$= \frac{-8 - 2}{2}$$

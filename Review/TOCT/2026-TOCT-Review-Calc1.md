@@ -56,3 +56,4 @@ Assuming $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$:
   $$\sin^2(x) + \cos^2(x) = 1 \implies 1 - \cos^2(x) = \sin^2(x)$$
 * **Conjugate Multiplication for Trigonometric Expressions:**
   $$(1 - \cos(x))(1 + \cos(x)) = 1 - \cos^2(x) = \sin^2(x)$$
+### 
