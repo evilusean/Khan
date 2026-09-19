@@ -2512,8 +2512,8 @@ Find the INST VELOCITY at 5 SECONDS for $s(t) = 500 - 16t^2$.
 
 ---
 **Given Information:**
-* Position function: $s(t) = 500 - 16t^2$[cite: 6]
-* Target time ($T_0$): $T_0 = 5$[cite: 6]
+* Position function: $s(t) = 500 - 16t^2$
+* Target time ($T_0$): $T_0 = 5$
 
 ---
 **Step-by-step Solution:**
