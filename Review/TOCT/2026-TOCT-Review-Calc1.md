@@ -56,4 +56,21 @@ Assuming $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$:
   $$\sin^2(x) + \cos^2(x) = 1 \implies 1 - \cos^2(x) = \sin^2(x)$$
 * **Conjugate Multiplication for Trigonometric Expressions:**
   $$(1 - \cos(x))(1 + \cos(x)) = 1 - \cos^2(x) = \sin^2(x)$$
-### 
+### Instantaneous Velocity
+
+**From Average Velocity to Instantaneous Velocity:**
+
+Recall that Average Velocity over a time interval $h$ is given by:
+$$V_{\text{AVE}} = \frac{f(T_0 + h) - f(T_0)}{h} \quad (h = \text{TIME})$$
+
+**Core Conceptual Question:**
+> *How much time elapses in an instant?*
+
+An "instant" means the elapsed time $h$ approaches zero ($h \to 0$).
+
+---
+**Formula for Instantaneous Velocity:**
+
+Taking the limit as the elapsed time $h$ approaches $0$:
+
+$$V_{\text{INST}} = \lim_{h \to 0} \frac{f(T_0 + h) - f(T_0)}{h}$$
