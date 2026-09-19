@@ -2494,7 +2494,6 @@ $$V_{\text{AVE}} = \frac{f(T_0 + h) - f(T_0)}{h} \quad (h = \text{TIME})$$
 An "instant" means the elapsed time $h$ approaches zero ($h \to 0$).
 
 ---
-
 **Formula for Instantaneous Velocity:**
 
 Taking the limit as the elapsed time $h$ approaches $0$:
@@ -2502,7 +2501,6 @@ Taking the limit as the elapsed time $h$ approaches $0$:
 $$V_{\text{INST}} = \lim_{h \to 0} \frac{f(T_0 + h) - f(T_0)}{h}$$
 
 ---
-
 **Key Takeaways:**
 * Instantaneous Velocity is defined as the limit of Average Velocity as the time interval $h$ shrinks to 0.
 * Structurally, $V_{\text{INST}}$ is identical to the definition of slope ($m = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$).
