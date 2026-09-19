@@ -2511,33 +2511,24 @@ $$V_{\text{INST}} = \lim_{h \to 0} \frac{f(T_0 + h) - f(T_0)}{h}$$
 Find the INST VELOCITY at 5 SECONDS for $s(t) = 500 - 16t^2$.
 
 ---
-
 **Given Information:**
 * Position function: $s(t) = 500 - 16t^2$[cite: 6]
 * Target time ($T_0$): $T_0 = 5$[cite: 6]
 
 ---
-
 **Step-by-step Solution:**
 
 1. **Set up the Instantaneous Velocity formula:**
 $$V_{\text{INST}} = \lim_{h \to 0} \frac{s(5 + h) - s(5)}{h}$$
-[cite: 6]
-
 2. **Calculate individual function values off to the side:**
 * $s(5 + h) = 500 - 16(5 + h)^2$[cite: 6]
 * $s(5) = 500 - 16(5)^2 = 500 - 16(25) = 500 - 400 = 100$[cite: 6]
 
 3. **Substitute these values back into the limit:**
 $$= \lim_{h \to 0} \frac{500 - 16(5 + h)^2 - 100}{h}$$
-[cite: 6]
 
 4. **Expand the binomial $(5 + h)^2$:**
 $$= \lim_{h \to 0} \frac{500 - 16(25 + 10h + h^2) - 100}{h}$$
-[cite: 6]
 
 5. **Distribute the $-16$ across the trinomial:**
 $$= \lim_{h \to 0} \frac{500 - 400 - 160h - 16h^2 - 100}{h}$$
-[cite: 6]
-
-6
