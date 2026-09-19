@@ -2506,23 +2506,19 @@ $$V_{\text{INST}} = \lim_{h \to 0} \frac{f(T_0 + h) - f(T_0)}{h}$$
 * Structurally, $V_{\text{INST}}$ is identical to the definition of slope ($m = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$).
 * While average velocity gives the slope of a **secant line** across a time interval, instantaneous velocity gives the slope of the **tangent line** at the exact instant $T_0$.
 ### Problem: $s(t) = 500 - 16t^2$, Instantaneous Velocity at $t = 5\text{ seconds}$
-
 **Problem Statement:**
 Find the INST VELOCITY at 5 SECONDS for $s(t) = 500 - 16t^2$.
 
 ---
-
 **Given Information:**
 * Position function: $s(t) = 500 - 16t^2$
 * Target time ($T_0$): $T_0 = 5$
 
 ---
-
 **Step-by-step Solution:**
 
 1. **Set up the Instantaneous Velocity formula:**
 $$V_{\text{INST}} = \lim_{h \to 0} \frac{s(5 + h) - s(5)}{h}$$
-
 2. **Calculate individual function values off to the side:**
 * $s(5 + h) = 500 - 16(5 + h)^2$
 * $s(5) = 500 - 16(5)^2 = 500 - 16(25) = 500 - 400 = 100$
@@ -2547,6 +2543,5 @@ $$= -160 - 16(0)$$
 $$= -160\text{ ft/sec}$$
 
 ---
-
 **Final Result:**
 $$V_{\text{INST}} = -160\text{ ft/sec}$$
