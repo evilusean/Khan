@@ -2481,3 +2481,29 @@ $$= \frac{-10}{2} = -5$$
 
 **Final Result:**
 $$V_{\text{AVE}} = -5$$
+### Instantaneous Velocity
+
+**From Average Velocity to Instantaneous Velocity:**
+
+Recall that Average Velocity over a time interval $h$ is given by:
+$$V_{\text{AVE}} = \frac{f(T_0 + h) - f(T_0)}{h} \quad (h = \text{TIME})$$
+
+**Core Conceptual Question:**
+> *How much time elapses in an instant?*
+
+An "instant" means the elapsed time $h$ approaches zero ($h \to 0$).
+
+---
+
+**Formula for Instantaneous Velocity:**
+
+Taking the limit as the elapsed time $h$ approaches $0$:
+
+$$V_{\text{INST}} = \lim_{h \to 0} \frac{f(T_0 + h) - f(T_0)}{h}$$
+
+---
+
+**Key Takeaways:**
+* Instantaneous Velocity is defined as the limit of Average Velocity as the time interval $h$ shrinks to 0.
+* Structurally, $V_{\text{INST}}$ is identical to the definition of slope ($m = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$).
+* While average velocity gives the slope of a **secant line** across a time interval, instantaneous velocity gives the slope of the **tangent line** at the exact instant $T_0$.
