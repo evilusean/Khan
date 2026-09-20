@@ -2633,3 +2633,87 @@ $$= -12 + 3(0) = -12$$
 * **Instantaneous Rate of Change at $x = -2$:** $-12$
 ## 2026-09-20 - Calculus 1 Lecture 2.1: Introduction to the Derivative of a Function :
 https://www.youtube.com/watch?v=962lLfW-8Jo&list=PLF797E961509B4EB5&index=10
+### Calculus 1 Lecture 2.1: Introduction to the Derivative of a Function
+
+**Overview & Core Definition**
+* The derivative represents the slope of a curve at a single point (or the slope of the tangent line at that point).
+* It unifies the concepts of instantaneous rate of change and instantaneous velocity.
+* **Definition of the Derivative Function:**
+$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+* Read as **"$f\text{ prime of }x$"**, which denotes the derivative of $f$ with respect to $x$.
+
+---
+
+**Example 1: Quadratic Function & Tangent Line**
+* **Problem:** Find $f'(x)$ for $f(x) = 2x^2 - 3$, then find the equation of the tangent line at $(2, 5)$.
+* **Setup & Limit:**
+  * $f(x) = 2x^2 - 3$
+  * $f(x+h) = 2(x+h)^2 - 3 = 2(x^2 + 2xh + h^2) - 3 = 2x^2 + 4xh + 2h^2 - 3$
+  $$f'(x) = \lim_{h \to 0} \frac{(2x^2 + 4xh + 2h^2 - 3) - (2x^2 - 3)}{h}$$
+* **Simplification:**
+  $$= \lim_{h \to 0} \frac{4xh + 2h^2}{h} = \lim_{h \to 0} (4x + 2h) = 4x$$
+* **Derivative Result:** $f'(x) = 4x$
+* **Tangent Line at $(2, 5)$:**
+  * Slope $m = f'(2) = 4(2) = 8$
+  * Point-slope equation: $y - 5 = 8(x - 2) \implies y = 8x - 11$
+
+---
+
+**Example 2: Cubic Function Derivative**
+* **Problem:** Find $f'(x)$ for $f(x) = 2x^3 - x$.
+* **Setup & Binomial Expansion:**
+  * $f(x+h) = 2(x+h)^3 - (x+h) = 2(x^3 + 3x^2h + 3xh^2 + h^3) - x - h$
+  $$f'(x) = \lim_{h \to 0} \frac{(2x^3 + 6x^2h + 6xh^2 + 2h^3 - x - h) - (2x^3 - x)}{h}$$
+* **Simplification:**
+  $$= \lim_{h \to 0} \frac{6x^2h + 6xh^2 + 2h^3 - h}{h} = \lim_{h \to 0} (6x^2 + 6xh + 2h^2 - 1)$$
+* **Derivative Result:** $f'(x) = 6x^2 - 1$
+
+---
+
+**Example 3: Linear & Radical Functions**
+* **Linear Shortcut:**
+  * For $y = mx + b$, the slope is constant everywhere.
+  * $f'(x) = m$ without needing the limit definition.
+* **Radical Function:** Find $f'(x)$ for $f(x) = \sqrt{x}$ and the tangent line at $x = 4$.
+  $$f'(x) = \lim_{h \to 0} \frac{\sqrt{x+h} - \sqrt{x}}{h} \cdot \frac{\sqrt{x+h} + \sqrt{x}}{\sqrt{x+h} + \sqrt{x}}$$
+  $$= \lim_{h \to 0} \frac{(x+h) - x}{h(\sqrt{x+h} + \sqrt{x})} = \lim_{h \to 0} \frac{1}{\sqrt{x+h} + \sqrt{x}} = \frac{1}{2\sqrt{x}}$$
+* **Tangent Line at $x = 4$:**
+  * Point: $(4, \sqrt{4}) = (4, 2)$
+  * Slope: $m = f'(4) = \frac{1}{2\sqrt{4}} = \frac{1}{4}$
+  * Equation: $y - 2 = \frac{1}{4}(x - 4) \implies y = \frac{1}{4}x + 1$
+
+---
+
+**Application: Instantaneous Velocity**
+* Position function: $s(t)$
+* Instantaneous velocity is the derivative of position: $v(t) = s'(t) = \lim_{h \to 0} \frac{s(t+h) - s(t)}{h}$
+* **Example Problem:** Dropping an object from $1250\text{ ft}$, $s(t) = 1250 - 16t^2$.
+  1. **Velocity Function:** $v(t) = s'(t) = -32t\text{ ft/s}$
+  2. **Time to hit ground ($s(t) = 0$):** 
+     $$1250 - 16t^2 = 0 \implies t^2 = 78.125 \implies t \approx 8.84\text{ seconds}$$
+  3. **Impact Velocity ($v(8.84)$):** 
+     $$v(8.84) = -32(8.84) \approx -282.88\text{ ft/s}$$
+
+---
+
+**Differentiability & Continuity**
+* **Definition:** A function is differentiable at $x = a$ if $f'(a)$ exists (meaning the two-sided limit of the difference quotient exists).
+* **Non-Differentiable Cases:**
+  1. **Sharp Points / Corners:** Left-hand slope does not equal right-hand slope (e.g., $f(x) = |x|$ at $x = 0$).
+  2. **Vertical Tangents:** Slope approaches $\pm\infty$ (undefined slope).
+  3. **Discontinuities:** Jumps, holes, or infinite discontinuities.
+* **Key Relationship:**
+  * Differentiability $\implies$ Continuity (If $f$ is differentiable, it **must** be continuous).
+  * Continuity $\nRightarrow$ Differentiability (Continuous functions can have corners or vertical tangents).
+  * Not Continuous $\implies$ Not Differentiable.
+
+---
+
+**Alternative Derivative Notations**
+* **Leibniz / Operator Notation:**
+  * $f'(x)$ or $y'$
+  * $\frac{dy}{dx}$ (Derivative of $y$ with respect to $x$)
+  * $\frac{d}{dx}[f(x)]$ (Differentiate $f(x)$ with respect to $x$)
+* **Evaluation at a specific point $x = a$:**
+  * $f'(a)$ or $\left.\frac{dy}{dx}\right|_{x=a}$
+```
