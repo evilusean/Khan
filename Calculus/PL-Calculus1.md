@@ -2849,3 +2849,100 @@ $$y = 8x - 11$$
 * **Equation of Tangent Line:** $y = 8x - 11$
 
 * **Key Algebraic Check:** When using the difference quotient, every term in the numerator that does *not* contain an $h$ must cancel out. If you are left with non-$h$ terms in the numerator, check for distribution or sign errors!
+### Problem: Find the derivative of $f(x) = 2x^3 - x$, then find the slope at $x = 3$.
+
+#### **1. Conceptual Strategy & Game Plan**
+
+To solve this problem, we follow a clear step-by-step approach:
+
+1. **Find the General Derivative Function $f'(x)$:**
+   * Use the limit definition of the derivative:
+     $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+   * Evaluate $f(x+h)$ by substituting $(x+h)$ into every instance of $x$ in $f(x)$.
+   * Expand the terms, distribute carefully, and subtract $f(x)$ so that all non-$h$ terms cancel out.
+   * Factor out $h$ from the numerator to cancel the $h$ in the denominator, allowing direct substitution of $h = 0$.
+
+2. **Evaluate the Slope at a Specific Point:**
+   * Plug $x = 3$ into our resulting derivative function $f'(x)$ to find the instantaneous slope $m = f'(3)$ at the point $(3, 51)$.
+
+---
+
+#### **2. Step-by-Step Solution**
+
+##### **Part A: Finding the Derivative Function $f'(x)$**
+
+**Step 1: Define the components for the difference quotient.**
+Given:
+$$f(x) = 2x^3 - x$$
+
+Substitute $(x+h)$ into $f(x)$:
+$$f(x+h) = 2(x+h)^3 - (x+h)$$
+
+Write down the limit definition:
+$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+
+---
+
+**Step 2: Substitute $f(x+h)$ and $f(x)$ into the limit formula.**
+Be sure to place parentheses around $f(x)$ so the subtraction applies to every term inside:
+$$f'(x) = \lim_{h \to 0} \frac{\left[2(x+h)^3 - (x+h)\right] - (2x^3 - x)}{h}$$
+
+---
+
+**Step 3: Expand the cubic binomial $(x+h)^3$ and distribute signs.**
+Using the binomial expansion $(x+h)^3 = x^3 + 3x^2h + 3xh^2 + h^3$:
+$$= \lim_{h \to 0} \frac{2\left(x^3 + 3x^2h + 3xh^2 + h^3\right) - x - h - 2x^3 + x}{h}$$
+
+---
+
+**Step 4: Distribute the leading $2$ across the expanded binomial.**
+$$= \lim_{h \to 0} \frac{2x^3 + 6x^2h + 6xh^2 + 2h^3 - x - h - 2x^3 + x}{h}$$
+
+---
+
+**Step 5: Cancel opposing terms in the numerator.**
+Notice that terms without an $h$ cancel out completely:
+* $2x^3 - 2x^3 = 0$
+* $-x + x = 0$
+
+This simplifies the numerator to:
+$$= \lim_{h \to 0} \frac{6x^2h + 6xh^2 + 2h^3 - h}{h}$$
+
+---
+
+**Step 6: Factor out $h$ from the numerator to divide out the denominator.**
+Factoring $h$ out:
+$$= \lim_{h \to 0} \frac{h\left(6x^2 + 6xh + 2h^2 - 1\right)}{h}$$
+
+Cancel $h$ from the top and bottom:
+$$= \lim_{h \to 0} \left(6x^2 + 6xh + 2h^2 - 1\right)$$
+
+---
+
+**Step 7: Evaluate the limit as $h \to 0$.**
+Directly substitute $h = 0$ into the remaining terms:
+$$= 6x^2 + 6x(0) + 2(0)^2 - 1$$
+$$= 6x^2 - 1$$
+
+Thus, the general derivative function is:
+$$f'(x) = 6x^2 - 1$$
+
+---
+
+##### **Part B: Evaluating the Slope at $x = 3$**
+
+**Step 1: Plug $x = 3$ into $f'(x)$.**
+$$m = f'(3) = 6(3)^2 - 1$$
+$$m = 6(9) - 1$$
+$$m = 54 - 1 = 53$$
+
+*(Note: At $x = 3$, $f(3) = 2(3)^3 - 3 = 2(27) - 3 = 51$, giving the coordinate point $(3, 51)$ with a tangent slope of $m = 53$.)*
+
+---
+
+#### **3. Summary & Takeaways**
+
+* **Derivative Function:** $f'(x) = 6x^2 - 1$
+* **Slope at $x = 3$:** $m = 53$ at point $(3, 51)$
+
+* **Algebraic Checkpoint:** When evaluating polynomial difference quotients, every single term that lacks an $h$ in the numerator **must** cancel out. If you have leftover terms without an $h$, re-check your binomial expansion or negative sign distributions!
