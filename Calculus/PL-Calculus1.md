@@ -2711,13 +2711,11 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 * **Evaluation at a specific point $x = a$:**
   * $f'(a)$ or $\left.\frac{dy}{dx}\right|_{x=a}$
 ### What is a Derivative? (Comprehensive Overview)
-
 **1. Intuitive & Geometric Meaning**
 * **Slope of a Curve at a Single Point:** In algebra, slope ($\frac{\Delta y}{\Delta x}$) is calculated across two distinct points on a straight line. For non-linear curves, the slope constantly changes. The derivative finds the exact slope of a curve at one specific, instantaneous point.
 * **Tangent Line:** Geometrically, the derivative $f'(x)$ gives the slope of the line that touches the function $f(x)$ at exactly one point without crossing through it locally—known as the **tangent line**.
 
 ---
-
 **2. Physical & Rate-of-Change Meaning**
 * **Instantaneous Rate of Change:** While average rate of change measures progress over a time interval $[a, b]$, the derivative shrinks that interval to zero to measure how fast a quantity is changing at an exact instant.
 * **Position and Velocity:** If $s(t)$ represents the position of an object at time $t$, its first derivative $s'(t)$ or $v(t)$ represents its **instantaneous velocity**.
@@ -2725,7 +2723,6 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
   * Velocity Function: $v(t) = s'(t)$
 
 ---
-
 **3. Formal Mathematical Definition (Difference Quotient)**
 * The derivative of a function $f(x)$ with respect to $x$ is defined as the limit of the difference quotient as the distance between two points ($h$) approaches zero:
 $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
@@ -2734,7 +2731,6 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
   2. Taking $\lim_{h \to 0}$ forces the gap $h$ to collapse to zero, turning the secant line into a tangent line at $x$.
 
 ---
-
 **4. Differentiability vs. Continuity**
 * **Differentiability:** A function is differentiable at $x = a$ if the limit definition yields a finite, single-value result from both the left and right sides.
 * **When a Derivative Fails to Exist:**
@@ -2746,7 +2742,6 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
   * Continuous $\nRightarrow$ Differentiable (Continuous functions can have sharp corners or vertical tangents).
 
 ---
-
 **5. Notation Systems**
 * **Lagrange (Prime) Notation:**
   * $f'(x)$ (read: "$f$ prime of $x$")
