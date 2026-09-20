@@ -2937,3 +2937,80 @@ $$m = 54 - 1 = 53$$
 * **Slope at $x = 3$:** $m = 53$ at point $(3, 51)$
 
 * **Algebraic Checkpoint:** When evaluating polynomial difference quotients, every single term that lacks an $h$ in the numerator **must** cancel out. If you have leftover terms without an $h$, re-check your binomial expansion or negative sign distributions!
+### Problem: Find $f'(x)$ for $f(x) = 3x + 2$
+
+#### **1. Conceptual Strategy & Game Plan**
+
+To solve this problem, we look at it from two complementary perspectives:
+
+1. **Intuitive / Geometric Intuition (The Linear Shortcut):**
+   * A linear equation in slope-intercept form is written as $y = mx + b$, where $m$ represents the constant slope of the line[cite: 5].
+   * Since the derivative $f'(x)$ calculates the slope of the function at any point, the derivative of any straight line must simply be its constant slope $m$[cite: 5].
+
+2. **Formal Limit Definition (Difference Quotient Verification):**
+   * To rigorously prove this result, we apply the difference quotient limit definition:
+     $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+   * Evaluating this limit algebraically confirms that the rate of change is constant across all values of $x$.
+
+---
+
+#### **2. Step-by-Step Solution**
+
+##### **Method 1: Geometric Reasoning (Slope-Intercept Form)**
+
+**Step 1: Identify the form of the function.**
+Given $f(x) = 3x + 2$, notice this matches the standard slope-intercept form $y = mx + b$[cite: 5]:
+* Slope ($m$) = $3$[cite: 5]
+* $y$-intercept ($b$) = $2$
+
+**Step 2: Apply the slope property of linear functions.**
+Because a straight line has a constant steepness/slope everywhere along its path, its rate of change does not depend on $x$[cite: 5]. 
+
+Therefore:
+$$f'(x) = m = 3$$
+
+---
+
+##### **Method 2: Formal Proof via Limit Definition**
+
+**Step 1: Set up the components.**
+Given:
+$$f(x) = 3x + 2$$
+
+Evaluate $f(x+h)$ by replacing $x$ with $(x+h)$:
+$$f(x+h) = 3(x+h) + 2$$
+
+---
+
+**Step 2: Substitute $f(x+h)$ and $f(x)$ into the limit definition.**
+$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+$$f'(x) = \lim_{h \to 0} \frac{[3(x+h) + 2] - (3x + 2)}{h}$$
+
+---
+
+**Step 3: Distribute the terms in the numerator.**
+Distribute the $3$ across $(x+h)$ and distribute the negative sign across $(3x + 2)$:
+$$= \lim_{h \to 0} \frac{3x + 3h + 2 - 3x - 2}{h}$$
+
+---
+
+**Step 4: Cancel opposing terms in the numerator.**
+Notice that $3x - 3x = 0$ and $2 - 2 = 0$:
+$$= \lim_{h \to 0} \frac{3h}{h}$$
+
+---
+
+**Step 5: Simplify and evaluate the limit.**
+Divide out $h$ from the numerator and denominator:
+$$= \lim_{h \to 0} 3$$
+
+Since the expression inside the limit is now a constant ($3$), taking $h \to 0$ leaves the value unchanged:
+$$f'(x) = 3$$
+
+---
+
+#### **3. Summary & Takeaways**
+
+* **Final Result:** $f'(x) = 3$[cite: 5]
+* **General Rule for Linear Functions:** For any linear equation $y = mx + b$, the derivative is always the constant $m$ (a constant slope)[cite: 5]:
+  $$\frac{d}{dx}[mx + b] = m$$
