@@ -2770,7 +2770,6 @@ To solve this problem, we need to break it down into two main phases:
      $$y - y_1 = m(x - x_1)$$
 
 ---
-
 #### **2. Step-by-Step Solution**
 
 ##### **Part A: Finding the Derivative Function $f'(x)$**
@@ -2785,13 +2784,11 @@ The limit definition is:
 $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
 ---
-
 **Step 2: Substitute $f(x+h)$ and $f(x)$ into the limit definition.**
 Be sure to wrap $f(x)$ in parentheses so the negative sign distributes properly across every term:
 $$f'(x) = \lim_{h \to 0} \frac{\left[2(x+h)^2 - 3\right] - (2x^2 - 3)}{h}$$
 
 ---
-
 **Step 3: Expand the binomial term $(x+h)^2$ and distribute the negative sign.**
 Expanding $(x+h)^2 = x^2 + 2xh + h^2$:
 $$= \lim_{h \to 0} \frac{2\left(x^2 + 2xh + h^2\right) - 3 - 2x^2 + 3}{h}$$
@@ -2800,13 +2797,11 @@ Now distribute the $2$ through the expanded binomial:
 $$= \lim_{h \to 0} \frac{2x^2 + 4xh + 2h^2 - 3 - 2x^2 + 3}{h}$$
 
 ---
-
 **Step 4: Combine like terms in the numerator.**
 Notice how terms without an $h$ cancel out ($2x^2 - 2x^2 = 0$ and $-3 + 3 = 0$):
 $$= \lim_{h \to 0} \frac{4xh + 2h^2}{h}$$
 
 ---
-
 **Step 5: Factor out $h$ from the numerator to cancel the $h$ in the denominator.**
 Factoring $h$ out:
 $$= \lim_{h \to 0} \frac{h(4x + 2h)}{h}$$
@@ -2815,7 +2810,6 @@ Cancel the $h$ in the numerator and denominator:
 $$= \lim_{h \to 0} (4x + 2h)$$
 
 ---
-
 **Step 6: Evaluate the limit as $h \to 0$.**
 Directly substitute $h = 0$:
 $$4x + 2(0) = 4x$$
@@ -2824,7 +2818,6 @@ Thus, our general derivative function is:
 $$f'(x) = 4x$$
 
 ---
-
 ##### **Part B: Finding the Equation of the Tangent Line at $(2, 5)$**
 
 **Step 1: Calculate the slope $m$ at $x = 2$.**
@@ -2841,7 +2834,6 @@ $$y - y_1 = m(x - x_1)$$
 $$y - 5 = 8(x - 2)$$
 
 ---
-
 **Step 3: Solve for $y$ (slope-intercept form $y = mx + b$).**
 Distribute the $8$:
 $$y - 5 = 8x - 16$$
@@ -2850,7 +2842,6 @@ Add $5$ to both sides:
 $$y = 8x - 11$$
 
 ---
-
 #### **3. Summary & Takeaways**
 
 * **Derivative Formula:** $f'(x) = 4x$
