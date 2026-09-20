@@ -2866,7 +2866,6 @@ To solve this problem, we follow a clear step-by-step approach:
    * Plug $x = 3$ into our resulting derivative function $f'(x)$ to find the instantaneous slope $m = f'(3)$ at the point $(3, 51)$.
 
 ---
-
 #### **2. Step-by-Step Solution**
 
 ##### **Part A: Finding the Derivative Function $f'(x)$**
@@ -2882,24 +2881,20 @@ Write down the limit definition:
 $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
 ---
-
 **Step 2: Substitute $f(x+h)$ and $f(x)$ into the limit formula.**
 Be sure to place parentheses around $f(x)$ so the subtraction applies to every term inside:
 $$f'(x) = \lim_{h \to 0} \frac{\left[2(x+h)^3 - (x+h)\right] - (2x^3 - x)}{h}$$
 
 ---
-
 **Step 3: Expand the cubic binomial $(x+h)^3$ and distribute signs.**
 Using the binomial expansion $(x+h)^3 = x^3 + 3x^2h + 3xh^2 + h^3$:
 $$= \lim_{h \to 0} \frac{2\left(x^3 + 3x^2h + 3xh^2 + h^3\right) - x - h - 2x^3 + x}{h}$$
 
 ---
-
 **Step 4: Distribute the leading $2$ across the expanded binomial.**
 $$= \lim_{h \to 0} \frac{2x^3 + 6x^2h + 6xh^2 + 2h^3 - x - h - 2x^3 + x}{h}$$
 
 ---
-
 **Step 5: Cancel opposing terms in the numerator.**
 Notice that terms without an $h$ cancel out completely:
 * $2x^3 - 2x^3 = 0$
@@ -2909,7 +2904,6 @@ This simplifies the numerator to:
 $$= \lim_{h \to 0} \frac{6x^2h + 6xh^2 + 2h^3 - h}{h}$$
 
 ---
-
 **Step 6: Factor out $h$ from the numerator to divide out the denominator.**
 Factoring $h$ out:
 $$= \lim_{h \to 0} \frac{h\left(6x^2 + 6xh + 2h^2 - 1\right)}{h}$$
@@ -2918,7 +2912,6 @@ Cancel $h$ from the top and bottom:
 $$= \lim_{h \to 0} \left(6x^2 + 6xh + 2h^2 - 1\right)$$
 
 ---
-
 **Step 7: Evaluate the limit as $h \to 0$.**
 Directly substitute $h = 0$ into the remaining terms:
 $$= 6x^2 + 6x(0) + 2(0)^2 - 1$$
@@ -2928,7 +2921,6 @@ Thus, the general derivative function is:
 $$f'(x) = 6x^2 - 1$$
 
 ---
-
 ##### **Part B: Evaluating the Slope at $x = 3$**
 
 **Step 1: Plug $x = 3$ into $f'(x)$.**
@@ -2939,7 +2931,6 @@ $$m = 54 - 1 = 53$$
 *(Note: At $x = 3$, $f(3) = 2(3)^3 - 3 = 2(27) - 3 = 51$, giving the coordinate point $(3, 51)$ with a tangent slope of $m = 53$.)*
 
 ---
-
 #### **3. Summary & Takeaways**
 
 * **Derivative Function:** $f'(x) = 6x^2 - 1$
