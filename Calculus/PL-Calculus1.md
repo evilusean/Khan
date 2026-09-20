@@ -2545,3 +2545,89 @@ $$= -160\text{ ft/sec}$$
 ---
 **Final Result:**
 $$V_{\text{INST}} = -160\text{ ft/sec}$$
+### Instantaneous Velocity (General Formula Approach): $s(T) = 500 - 16T^2$ at $5\text{ seconds}$
+
+**Problem Statement:**
+Find INST VELOCITY AT $5\text{ SECONDS}$ for $s(T) = 500 - 16T^2$.
+
+---
+
+**Step-by-step Solution:**
+
+1. **Set up the general Instantaneous Velocity formula in terms of $T$:**
+$$V_{\text{INST}} = \lim_{h \to 0} \frac{s(T+h) - s(T)}{h}$$
+
+2. **Define the terms off to the side:**
+* $s(T+h) = 500 - 16(T+h)^2$
+* $s(T) = 500 - 16T^2$
+
+3. **Substitute into the limit:**
+$$= \lim_{h \to 0} \frac{500 - 16(T+h)^2 - (500 - 16T^2)}{h}$$
+
+4. **Expand $(T+h)^2$ and distribute the negative sign to $(500 - 16T^2)$:**
+$$= \lim_{h \to 0} \frac{500 - 16(T^2 + 2Th + h^2) - 500 + 16T^2}{h}$$
+
+5. **Distribute $-16$ across the trinomial:**
+$$= \lim_{h \to 0} \frac{500 - 16T^2 - 32Th - 16h^2 - 500 + 16T^2}{h}$$
+
+6. **Cancel out like terms ($500 - 500 = 0$ and $-16T^2 + 16T^2 = 0$):**
+$$= \lim_{h \to 0} \frac{-32Th - 16h^2}{h}$$
+
+7. **Factor out $h$ and cancel with the denominator:**
+$$= \lim_{h \to 0} \frac{\cancel{h}(-32T - 16h)}{\cancel{h}}$$
+
+8. **Evaluate the limit as $h \to 0$:**
+$$V_{\text{INST}} = -32T$$
+
+9. **Evaluate @ $5\text{ SEC.}$:**
+$$V_{\text{INST}} = -32(5)$$
+$$= -160$$
+### Average & Instantaneous Rates of Change: $f(x) = 3x^2 - 4$
+
+**Problem Statement:**
+Find AVE. & INST. RATES OF CHANGE OF $f(x) = 3x^2 - 4$
+* AVE: $[2, 5]$
+* INST: $-2$
+
+---
+
+**Part 1: Average Rate of Change on $[2, 5]$**
+
+1. **Formula:**
+$$\text{Average Rate of Change} = \frac{f(b) - f(a)}{b - a}$$
+
+2. **Evaluate $f(a)$ and $f(b)$ for $a = 2$ and $b = 5$:**
+* $f(2) = 3(2)^2 - 4 = 3(4) - 4 = 12 - 4 = 8$
+* $f(5) = 3(5)^2 - 4 = 3(25) - 4 = 75 - 4 = 71$
+
+3. **Substitute into the formula:**
+$$\text{Average Rate} = \frac{f(5) - f(2)}{5 - 2} = \frac{71 - 8}{3} = \frac{63}{3} = 21$$
+
+---
+
+**Part 2: Instantaneous Rate of Change at $x = -2$**
+
+1. **Formula (Limit Definition at $x = -2$):**
+$$\text{Instantaneous Rate} = \lim_{h \to 0} \frac{f(-2 + h) - f(-2)}{h}$$
+
+2. **Evaluate individual terms:**
+* $f(-2) = 3(-2)^2 - 4 = 3(4) - 4 = 8$
+* $f(-2 + h) = 3(-2 + h)^2 - 4 = 3(4 - 4h + h^2) - 4 = 12 - 12h + 3h^2 - 4 = 8 - 12h + 3h^2$
+
+3. **Substitute into the limit:**
+$$= \lim_{h \to 0} \frac{(8 - 12h + 3h^2) - 8}{h}$$
+
+4. **Combine like terms in the numerator:**
+$$= \lim_{h \to 0} \frac{-12h + 3h^2}{h}$$
+
+5. **Factor out $h$ and cancel with the denominator:**
+$$= \lim_{h \to 0} \frac{\cancel{h}(-12 + 3h)}{\cancel{h}}$$
+
+6. **Evaluate the limit as $h \to 0$:**
+$$= -12 + 3(0) = -12$$
+
+---
+
+**Final Results:**
+* **Average Rate of Change on $[2, 5]$:** $21$
+* **Instantaneous Rate of Change at $x = -2$:** $-12$
