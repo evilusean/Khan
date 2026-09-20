@@ -2710,3 +2710,48 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
   * $\frac{d}{dx}[f(x)]$ (Differentiate $f(x)$ with respect to $x$)
 * **Evaluation at a specific point $x = a$:**
   * $f'(a)$ or $\left.\frac{dy}{dx}\right|_{x=a}$
+### What is a Derivative? (Comprehensive Overview)
+
+**1. Intuitive & Geometric Meaning**
+* **Slope of a Curve at a Single Point:** In algebra, slope ($\frac{\Delta y}{\Delta x}$) is calculated across two distinct points on a straight line. For non-linear curves, the slope constantly changes. The derivative finds the exact slope of a curve at one specific, instantaneous point.
+* **Tangent Line:** Geometrically, the derivative $f'(x)$ gives the slope of the line that touches the function $f(x)$ at exactly one point without crossing through it locally—known as the **tangent line**.
+
+---
+
+**2. Physical & Rate-of-Change Meaning**
+* **Instantaneous Rate of Change:** While average rate of change measures progress over a time interval $[a, b]$, the derivative shrinks that interval to zero to measure how fast a quantity is changing at an exact instant.
+* **Position and Velocity:** If $s(t)$ represents the position of an object at time $t$, its first derivative $s'(t)$ or $v(t)$ represents its **instantaneous velocity**.
+  * Position Function: $s(t)$
+  * Velocity Function: $v(t) = s'(t)$
+
+---
+
+**3. Formal Mathematical Definition (Difference Quotient)**
+* The derivative of a function $f(x)$ with respect to $x$ is defined as the limit of the difference quotient as the distance between two points ($h$) approaches zero:
+$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+* **Step-by-Step Construction:**
+  1. $\frac{f(x+h) - f(x)}{h}$ calculates the slope of a secant line between $(x, f(x))$ and $(x+h, f(x+h))$.
+  2. Taking $\lim_{h \to 0}$ forces the gap $h$ to collapse to zero, turning the secant line into a tangent line at $x$.
+
+---
+
+**4. Differentiability vs. Continuity**
+* **Differentiability:** A function is differentiable at $x = a$ if the limit definition yields a finite, single-value result from both the left and right sides.
+* **When a Derivative Fails to Exist:**
+  1. **Corners / Sharp Points:** The slope coming from the left does not match the slope coming from the right (e.g., $f(x) = |x|$ at $x = 0$).
+  2. **Vertical Tangents:** The slope approaches $\pm\infty$ (a vertical line has an undefined slope).
+  3. **Discontinuities:** If a graph has a gap, hole, or jump, it cannot have a tangent line or derivative at that point.
+* **The Core Rule:**
+  * Differentiable $\implies$ Continuous (Every differentiable function is continuous).
+  * Continuous $\nRightarrow$ Differentiable (Continuous functions can have sharp corners or vertical tangents).
+
+---
+
+**5. Notation Systems**
+* **Lagrange (Prime) Notation:**
+  * $f'(x)$ (read: "$f$ prime of $x$")
+  * Evaluated at a point $a$: $f'(a)$
+* **Leibniz Notation:**
+  * $\frac{dy}{dx}$ (read: "the derivative of $y$ with respect to $x$")
+  * $\frac{d}{dx}[f(x)]$ (operator form: differentiate $f(x)$ with respect to $x$)
+  * Evaluated at a point $a$: $\left.\frac{dy}{dx}\right|_{x=a}$
