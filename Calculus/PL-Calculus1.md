@@ -2643,7 +2643,6 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 * Read as **"$f\text{ prime of }x$"**, which denotes the derivative of $f$ with respect to $x$.
 
 ---
-
 **Example 1: Quadratic Function & Tangent Line**
 * **Problem:** Find $f'(x)$ for $f(x) = 2x^2 - 3$, then find the equation of the tangent line at $(2, 5)$.
 * **Setup & Limit:**
@@ -2658,7 +2657,6 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
   * Point-slope equation: $y - 5 = 8(x - 2) \implies y = 8x - 11$
 
 ---
-
 **Example 2: Cubic Function Derivative**
 * **Problem:** Find $f'(x)$ for $f(x) = 2x^3 - x$.
 * **Setup & Binomial Expansion:**
@@ -2669,7 +2667,6 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 * **Derivative Result:** $f'(x) = 6x^2 - 1$
 
 ---
-
 **Example 3: Linear & Radical Functions**
 * **Linear Shortcut:**
   * For $y = mx + b$, the slope is constant everywhere.
@@ -2683,7 +2680,6 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
   * Equation: $y - 2 = \frac{1}{4}(x - 4) \implies y = \frac{1}{4}x + 1$
 
 ---
-
 **Application: Instantaneous Velocity**
 * Position function: $s(t)$
 * Instantaneous velocity is the derivative of position: $v(t) = s'(t) = \lim_{h \to 0} \frac{s(t+h) - s(t)}{h}$
@@ -2695,7 +2691,6 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
      $$v(8.84) = -32(8.84) \approx -282.88\text{ ft/s}$$
 
 ---
-
 **Differentiability & Continuity**
 * **Definition:** A function is differentiable at $x = a$ if $f'(a)$ exists (meaning the two-sided limit of the difference quotient exists).
 * **Non-Differentiable Cases:**
@@ -2708,7 +2703,6 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
   * Not Continuous $\implies$ Not Differentiable.
 
 ---
-
 **Alternative Derivative Notations**
 * **Leibniz / Operator Notation:**
   * $f'(x)$ or $y'$
@@ -2716,4 +2710,3 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
   * $\frac{d}{dx}[f(x)]$ (Differentiate $f(x)$ with respect to $x$)
 * **Evaluation at a specific point $x = a$:**
   * $f'(a)$ or $\left.\frac{dy}{dx}\right|_{x=a}$
-```
