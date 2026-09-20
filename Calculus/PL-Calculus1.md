@@ -2631,3 +2631,4 @@ $$= -12 + 3(0) = -12$$
 **Final Results:**
 * **Average Rate of Change on $[2, 5]$:** $21$
 * **Instantaneous Rate of Change at $x = -2$:** $-12$
+## 2026-09-20 - Calculus 1 Lecture 2.1: Introduction to the Derivative of a Function :
