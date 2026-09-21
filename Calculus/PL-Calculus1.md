@@ -2944,8 +2944,8 @@ $$m = 54 - 1 = 53$$
 To solve this problem, we look at it from two complementary perspectives:
 
 1. **Intuitive / Geometric Intuition (The Linear Shortcut):**
-   * A linear equation in slope-intercept form is written as $y = mx + b$, where $m$ represents the constant slope of the line[cite: 5].
-   * Since the derivative $f'(x)$ calculates the slope of the function at any point, the derivative of any straight line must simply be its constant slope $m$[cite: 5].
+   * A linear equation in slope-intercept form is written as $y = mx + b$, where $m$ represents the constant slope of the line
+   * Since the derivative $f'(x)$ calculates the slope of the function at any point, the derivative of any straight line must simply be its constant slope $m$
 
 2. **Formal Limit Definition (Difference Quotient Verification):**
    * To rigorously prove this result, we apply the difference quotient limit definition:
@@ -2953,7 +2953,6 @@ To solve this problem, we look at it from two complementary perspectives:
    * Evaluating this limit algebraically confirms that the rate of change is constant across all values of $x$.
 
 ---
-
 #### **2. Step-by-Step Solution**
 
 ##### **Method 1: Geometric Reasoning (Slope-Intercept Form)**
@@ -2970,7 +2969,6 @@ Therefore:
 $$f'(x) = m = 3$$
 
 ---
-
 ##### **Method 2: Formal Proof via Limit Definition**
 
 **Step 1: Set up the components.**
@@ -2993,13 +2991,11 @@ Distribute the $3$ across $(x+h)$ and distribute the negative sign across $(3x +
 $$= \lim_{h \to 0} \frac{3x + 3h + 2 - 3x - 2}{h}$$
 
 ---
-
 **Step 4: Cancel opposing terms in the numerator.**
 Notice that $3x - 3x = 0$ and $2 - 2 = 0$:
 $$= \lim_{h \to 0} \frac{3h}{h}$$
 
 ---
-
 **Step 5: Simplify and evaluate the limit.**
 Divide out $h$ from the numerator and denominator:
 $$= \lim_{h \to 0} 3$$
@@ -3008,9 +3004,9 @@ Since the expression inside the limit is now a constant ($3$), taking $h \to 0$ 
 $$f'(x) = 3$$
 
 ---
-
 #### **3. Summary & Takeaways**
 
-* **Final Result:** $f'(x) = 3$[cite: 5]
-* **General Rule for Linear Functions:** For any linear equation $y = mx + b$, the derivative is always the constant $m$ (a constant slope)[cite: 5]:
+* **Final Result:** $f'(x) = 3$
+* **General Rule for Linear Functions:** For any linear equation $y = mx + b$, the derivative is always the constant $m$ (a constant slope)
   $$\frac{d}{dx}[mx + b] = m$$
+# Leftoff @ 30
