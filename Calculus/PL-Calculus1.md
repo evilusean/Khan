@@ -3009,4 +3009,112 @@ $$f'(x) = 3$$
 * **Final Result:** $f'(x) = 3$
 * **General Rule for Linear Functions:** For any linear equation $y = mx + b$, the derivative is always the constant $m$ (a constant slope)
   $$\frac{d}{dx}[mx + b] = m$$
+### Problem: Given $f(x) = \sqrt{x}$, find $f'(x)$ and the equation of the tangent line at $x = 4$.
 
+#### **1. Conceptual Strategy & Game Plan**
+
+To tackle this radical function, we follow two clear phases:
+
+1. **Find the Derivative Function $f'(x)$:**
+   * Use the limit definition of the derivative:
+     $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+   * Directly substituting $h = 0$ gives the indeterminate form $\frac{0}{0}$[cite: 5].
+   * **The Rationalization Trick:** To eliminate radical terms in the numerator, multiply the top and bottom by the **conjugate** $(\sqrt{x+h} + \sqrt{x})$[cite: 5].
+   * This uses the difference of squares identity $(a - b)(a + b) = a^2 - b^2$ to cancel out the square roots in the numerator, leaving an $h$ term that cancels with the $h$ in the denominator[cite: 5].
+
+2. **Find the Equation of the Tangent Line at $x = 4$:**
+   * **Find the $y$-value:** Evaluate $f(4)$ to get the point $(x_1, y_1) = (4, f(4))$[cite: 5].
+   * **Find the slope $m$:** Evaluate the derivative $f'(4)$[cite: 5].
+   * **Construct line equation:** Use point-slope form $y - y_1 = m(x - x_1)$[cite: 5].
+
+---
+
+#### **2. Step-by-Step Solution**
+
+##### **Part A: Finding the Derivative Function $f'(x)$**
+
+**Step 1: Define the function components and set up the limit.**
+Given[cite: 5]:
+$$\begin{aligned}
+f(x) &= \sqrt{x} \\
+f(x+h) &= \sqrt{x+h}
+\end{aligned}$$
+
+Write the limit definition[cite: 5]:
+$$f'(x) = \lim_{h \to 0} \frac{\sqrt{x+h} - \sqrt{x}}{h}$$
+
+---
+
+**Step 2: Multiply by the conjugate over itself.**
+Multiply the numerator and denominator by $(\sqrt{x+h} + \sqrt{x})$[cite: 5]:
+$$f'(x) = \lim_{h \to 0} \frac{(\sqrt{x+h} - \sqrt{x})}{h} \cdot \frac{(\sqrt{x+h} + \sqrt{x})}{(\sqrt{x+h} + \sqrt{x})}$$
+
+---
+
+**Step 3: Expand the numerator using the difference of squares.**
+Using $(a-b)(a+b) = a^2 - b^2$[cite: 5]:
+$$(\sqrt{x+h} - \sqrt{x})(\sqrt{x+h} + \sqrt{x}) = (\sqrt{x+h})^2 - (\sqrt{x})^2 = (x+h) - x$$
+
+Keep the denominator in factored form (do NOT distribute $h$)[cite: 5]:
+$$= \lim_{h \to 0} \frac{x + h - x}{h(\sqrt{x+h} + \sqrt{x})}$$
+
+---
+
+**Step 4: Cancel opposing terms in the numerator.**
+Notice that $x - x = 0$[cite: 5]:
+$$= \lim_{h \to 0} \frac{h}{h(\sqrt{x+h} + \sqrt{x})}$$
+
+---
+
+**Step 5: Divide out $h$ from top and bottom.**
+Canceling $h$ leaves a $1$ in the numerator[cite: 5]:
+$$= \lim_{h \to 0} \frac{1}{\sqrt{x+h} + \sqrt{x}}$$
+
+---
+
+**Step 6: Evaluate the limit as $h \to 0$.**
+Directly substitute $h = 0$ into the expression[cite: 5]:
+$$= \frac{1}{\sqrt{x+0} + \sqrt{x}}$$
+$$= \frac{1}{\sqrt{x} + \sqrt{x}} = \frac{1}{2\sqrt{x}}$$
+
+Thus, the derivative function is[cite: 5]:
+$$f'(x) = \frac{1}{2\sqrt{x}}$$
+
+---
+
+##### **Part B: Finding the Equation of the Tangent Line at $x = 4$**
+
+**Step 1: Find the point $(x_1, y_1)$.**
+Given $x = 4$, compute the corresponding $y$-value using $f(x)$[cite: 5]:
+$$f(4) = \sqrt{4} = 2$$
+
+So our point on the curve is $(4, 2)$[cite: 5].
+
+---
+
+**Step 2: Calculate the slope $m$ using the derivative.**
+Plug $x = 4$ into $f'(x)$[cite: 5]:
+$$m = f'(4) = \frac{1}{2\sqrt{4}} = \frac{1}{2(2)} = \frac{1}{4}$$
+
+---
+
+**Step 3: Set up and solve the point-slope formula.**
+Substitute $m = \frac{1}{4}$ and $(x_1, y_1) = (4, 2)$ into $y - y_1 = m(x - x_1)$[cite: 5]:
+$$y - 2 = \frac{1}{4}(x - 4)$$
+
+Distribute $\frac{1}{4}$[cite: 5]:
+$$y - 2 = \frac{1}{4}x - 1$$
+
+Add $2$ to both sides[cite: 5]:
+$$y = \frac{1}{4}x + 1$$
+
+---
+
+#### **3. Summary & Takeaways**
+
+* **Derivative Function:** $f'(x) = \frac{1}{2\sqrt{x}}$[cite: 5]
+* **Point on Curve:** $(4, 2)$[cite: 5]
+* **Slope at $x = 4$:** $m = \frac{1}{4}$[cite: 5]
+* **Tangent Line Equation:** $y = \frac{1}{4}x + 1$[cite: 5]
+
+* **Algebraic Technique:** Whenever you see radical expressions in a difference quotient, **conjugate multiplication** is the go-to algebraic technique to convert root subtractions into clean polynomial terms that allow $h$ to cancel out[cite: 5]!
