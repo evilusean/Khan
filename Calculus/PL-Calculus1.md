@@ -3109,3 +3109,52 @@ $$y = \frac{1}{4}x + 1$$
 * **Tangent Line Equation:** $y = \frac{1}{4}x + 1$
 
 * **Algebraic Technique:** Whenever you see radical expressions in a difference quotient, **conjugate multiplication** is the go-to algebraic technique to convert root subtractions into clean polynomial terms that allow $h$ to cancel out[cite: 5]!
+### Instantaneous Velocity: $v(t) = s'(t) = \lim_{\Delta t \to 0} \frac{\Delta s}{\Delta t}$
+
+#### **1. Conceptual Strategy & Game Plan**
+
+To truly grasp what instantaneous velocity is, we have to contrast it with something we already know intuitively: **average velocity**.
+
+1. **Average Velocity vs. Instantaneous Velocity:**
+   * Average velocity tells you the overall rate of change over a time interval $[t_1, t_2]$:
+     $$v_{\text{avg}} = \frac{\Delta s}{\Delta t} = \frac{s(t_2) - s(t_1)}{t_2 - t_1}$$
+   * Graphically, average velocity is the slope of a **secant line** connecting two distinct points on a position-time graph $s(t)$.
+   * However, average velocity hides all the details during the journey. If you drive $60\text{ miles}$ in $1\text{ hour}$, your average velocity is $60\text{ mph}$, but at any single moment, you might have been going $0\text{ mph}$ at a red light or $75\text{ mph}$ on the highway.
+
+2. **Shrinking the Interval to Zero (The Limit):**
+   * To find how fast you are moving at *one exact instant* $t$, we let the change in time $\Delta t$ (or $h$) shrink down closer and closer to $0$.
+   * As $\Delta t \to 0$, the two points on the position graph merge into one, and the secant line becomes the **tangent line** at $t$.
+   * Thus, instantaneous velocity $v(t)$ is simply the **first derivative of the position function $s(t)$**.
+
+---
+#### **2. Mathematical Formulation**
+
+##### **Step 1: Define Position and the Difference Quotient**
+Let $s(t)$ be a position function that models the displacement of an object at time $t$.
+
+The average velocity over a small interval $[t, t + h]$ is given by:
+$$v_{\text{avg}} = \frac{s(t + h) - s(t)}{h}$$
+
+---
+
+##### **Step 2: Take the Limit as $h \to 0$**
+To get the velocity at the exact moment $t$, take the limit as the time step $h$ approaches zero:
+$$v(t) = \lim_{h \to 0} \frac{s(t + h) - s(t)}{h}$$
+
+---
+
+##### **Step 3: Recognize the Derivative**
+By definition, this limit is the derivative of position with respect to time:
+$$v(t) = s'(t) = \frac{ds}{dt}$$
+
+---
+
+#### **Summary & Takeaways**
+
+* **Position Function:** $s(t)$
+* **Instantaneous Velocity:** $v(t) = s'(t) = \frac{ds}{dt}$
+* **Speed vs. Velocity:** Velocity includes direction (can be positive or negative), whereas **speed** is the magnitude of velocity: $\text{Speed} = |v(t)|$.
+
+* **Geometric Intuition:** 
+  * Secant Line Slope $\longrightarrow$ Average Velocity over an interval $\Delta t$.
+  * Tangent Line Slope $\longrightarrow$ Instantaneous Velocity at a single moment $t$ (as $\Delta t \to 0$).
