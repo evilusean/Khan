@@ -3260,7 +3260,6 @@ $$v(t) = -8 \cdot 25\sqrt{2} = -200\sqrt{2} \approx -282.84\text{ ft/s}$$
 ### Differentiability: $f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$
 
 #### **1. Core Definition & Foundational Rule**
-
 * **Definition of Differentiability:** A function $f(x)$ is **differentiable at a point $x = c$** if and only if the derivative $f'(c)$ exists at that point.
 * **The Limit Requirement:** In order for a derivative to exist at a point $x = c$, the limit of the difference quotient MUST exist:
   $$f'(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}$$
@@ -3268,20 +3267,17 @@ $$v(t) = -8 \cdot 25\sqrt{2} = -200\sqrt{2} \approx -282.84\text{ ft/s}$$
   $$\lim_{h \to 0^-} \frac{f(c+h) - f(c)}{h} = \lim_{h \to 0^+} \frac{f(c+h) - f(c)}{h}$$
 
 ---
-
 #### **2. Two Major Implications of Differentiability**
 
 ##### **Implication 1: Continuity is Required (Differentiability $\implies$ Continuity)**
 * In order for a function to be differentiable at $x = c$, it **must be continuous** at $x = c$.
 * If a function has a hole, jump, or vertical asymptote (discontinuity), it is automatically **not differentiable** at that point.
 * *Note:* Continuity is a necessary condition, but not a sufficient condition—being continuous does not automatically guarantee differentiability!
-
 ##### **Implication 2: Smoothness (No Sharp Turns or Vertical Tangents)**
 * The graph of $f(x)$ must be "smooth" at $x = c$.
 * If the curve makes a sudden direction change, the slopes from the left and right will not match, causing the limit to fail.
 
 ---
-
 #### **3. The Three Ways Differentiability Fails**
 
 A continuous or discontinuous graph will fail to be differentiable at $x = c$ under three distinct conditions:
@@ -3301,7 +3297,6 @@ A continuous or discontinuous graph will fail to be differentiable at $x = c$ un
    * *Visual:* The graph turns completely vertical for a single instant.
 
 ---
-
 #### **4. Summary & Takeaways**
 
 * **Core Takeaway:** "Differentiable" simply means **you can take the derivative** (the limit exists and yields a real number).
@@ -3309,3 +3304,4 @@ A continuous or discontinuous graph will fail to be differentiable at $x = c$ un
   $$\text{Differentiable} \implies \text{Continuous}$$
   $$\text{Not Continuous} \implies \text{Not Differentiable}$$
 * **Visual Test:** A function is differentiable wherever its graph is **both continuous and smooth** (no holes, jumps, asymptotes, sharp corners, cusps, or vertical drop-offs).
+
