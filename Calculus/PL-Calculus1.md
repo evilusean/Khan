@@ -3136,19 +3136,16 @@ The average velocity over a small interval $[t, t + h]$ is given by:
 $$v_{\text{avg}} = \frac{s(t + h) - s(t)}{h}$$
 
 ---
-
 ##### **Step 2: Take the Limit as $h \to 0$**
 To get the velocity at the exact moment $t$, take the limit as the time step $h$ approaches zero:
 $$v(t) = \lim_{h \to 0} \frac{s(t + h) - s(t)}{h}$$
 
 ---
-
 ##### **Step 3: Recognize the Derivative**
 By definition, this limit is the derivative of position with respect to time:
 $$v(t) = s'(t) = \frac{ds}{dt}$$
 
 ---
-
 #### **Summary & Takeaways**
 
 * **Position Function:** $s(t)$
