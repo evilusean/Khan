@@ -3257,3 +3257,55 @@ $$v(t) = -8 \cdot 25\sqrt{2} = -200\sqrt{2} \approx -282.84\text{ ft/s}$$
 * **Impact Velocity:** $v \approx -282.84\text{ ft/s}$ (Speed = $282.84\text{ ft/s}$ downward)
 
 * **Key Concept:** Position gives location $s(t)$, the first derivative gives velocity $v(t) = s'(t)$, and setting $s(t) = 0$ identifies key ground-level boundary events!
+### Differentiability: $f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$
+
+#### **1. Core Definition & Foundational Rule**
+
+* **Definition of Differentiability:** A function $f(x)$ is **differentiable at a point $x = c$** if and only if the derivative $f'(c)$ exists at that point.
+* **The Limit Requirement:** In order for a derivative to exist at a point $x = c$, the limit of the difference quotient MUST exist:
+  $$f'(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}$$
+* **Two-Sided Limit Condition:** Because the derivative is defined by a limit, the left-hand derivative and right-hand derivative must be equal:
+  $$\lim_{h \to 0^-} \frac{f(c+h) - f(c)}{h} = \lim_{h \to 0^+} \frac{f(c+h) - f(c)}{h}$$
+
+---
+
+#### **2. Two Major Implications of Differentiability**
+
+##### **Implication 1: Continuity is Required (Differentiability $\implies$ Continuity)**
+* In order for a function to be differentiable at $x = c$, it **must be continuous** at $x = c$.
+* If a function has a hole, jump, or vertical asymptote (discontinuity), it is automatically **not differentiable** at that point.
+* *Note:* Continuity is a necessary condition, but not a sufficient condition—being continuous does not automatically guarantee differentiability!
+
+##### **Implication 2: Smoothness (No Sharp Turns or Vertical Tangents)**
+* The graph of $f(x)$ must be "smooth" at $x = c$.
+* If the curve makes a sudden direction change, the slopes from the left and right will not match, causing the limit to fail.
+
+---
+
+#### **3. The Three Ways Differentiability Fails**
+
+A continuous or discontinuous graph will fail to be differentiable at $x = c$ under three distinct conditions:
+
+1. **Corner / Cusp (Sharp Turning Point):**
+   * **Example:** $f(x) = |x|$ at $x = 0$, or $f(x) = x^{2/3}$ at $x = 0$.
+   * **Reason:** The slope approaching from the left ($\lim_{h \to 0^-}$) does not equal the slope approaching from the right ($\lim_{h \to 0^+}$).
+   * *Visual:* A sharp "V" or continuous peak where tangent lines from both sides point in completely different directions.
+
+2. **Discontinuity:**
+   * **Example:** Any function with a hole, jump, or vertical asymptote at $x = c$.
+   * **Reason:** If $f(c)$ is undefined or the graph breaks, the difference quotient $\frac{f(c+h) - f(c)}{h}$ cannot evaluate to a finite limit.
+
+3. **Vertical Tangent Line:**
+   * **Example:** $f(x) = \sqrt[3]{x} = x^{1/3}$ at $x = 0$.
+   * **Reason:** As $x \to c$, the slope of the secant line approaches infinity ($\pm \infty$). Since infinity is not a real number, the limit does not exist.
+   * *Visual:* The graph turns completely vertical for a single instant.
+
+---
+
+#### **4. Summary & Takeaways**
+
+* **Core Takeaway:** "Differentiable" simply means **you can take the derivative** (the limit exists and yields a real number).
+* **Relationship:** 
+  $$\text{Differentiable} \implies \text{Continuous}$$
+  $$\text{Not Continuous} \implies \text{Not Differentiable}$$
+* **Visual Test:** A function is differentiable wherever its graph is **both continuous and smooth** (no holes, jumps, asymptotes, sharp corners, cusps, or vertical drop-offs).
