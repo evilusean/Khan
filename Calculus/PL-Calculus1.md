@@ -3155,3 +3155,111 @@ $$v(t) = s'(t) = \frac{ds}{dt}$$
 * **Geometric Intuition:** 
   * Secant Line Slope $\longrightarrow$ Average Velocity over an interval $\Delta t$.
   * Tangent Line Slope $\longrightarrow$ Instantaneous Velocity at a single moment $t$ (as $\Delta t \to 0$).
+### Problem: Given the position function $s(t) = 1250 - 16t^2$, find:
+1. $v(t)$ (The instantaneous velocity function)
+2. When does the object hit the ground?
+3. How fast is the object going when it hits the ground?
+
+---
+
+#### **1. Conceptual Strategy & Game Plan**
+
+We approach this classic free-fall physics problem in three logical steps:
+
+1. **Find the Instantaneous Velocity Function $v(t)$:**
+   * Instantaneous velocity is the derivative of the position function: $v(t) = s'(t) = \lim_{h \to 0} \frac{s(t+h) - s(t)}{h}$.
+   * We evaluate $s(t+h)$ and $s(t)$, expand the binomial $(t+h)^2$, distribute the constants, cancel common terms in the numerator, divide out $h$, and take the limit as $h \to 0$.
+
+2. **Determine Time of Impact ("When hit ground?"):**
+   * "Hitting the ground" means the position (height) is zero: $s(t) = 0$.
+   * We set $1250 - 16t^2 = 0$ and solve algebraically for $t$. Since time cannot be negative in this physical context, we only keep the positive root.
+
+3. **Determine Impact Velocity ("How fast hit ground?"):**
+   * Take the time of impact found in Step 2 and substitute it directly into the velocity function $v(t)$ found in Step 1.
+
+---
+
+#### **2. Step-by-Step Solution**
+
+##### **Part 1: Find $v(t)$ using the Limit Definition of the Derivative**
+
+**Step 1: Set up the limit definition.**
+Given $s(t) = 1250 - 16t^2$, we calculate $s(t+h)$:
+$$s(t+h) = 1250 - 16(t+h)^2$$
+
+Write out the definition for velocity $v(t)$:
+$$v(t) = s'(t) = \lim_{h \to 0} \frac{s(t+h) - s(t)}{h}$$
+$$v(t) = \lim_{h \to 0} \frac{\left[1250 - 16(t+h)^2\right] - \left(1250 - 16t^2\right)}{h}$$
+
+---
+
+**Step 2: Expand the binomial $(t+h)^2$ in the numerator.**
+$$(t+h)^2 = t^2 + 2th + h^2$$
+
+Substitute back into the expression:
+$$= \lim_{h \to 0} \frac{1250 - 16(t^2 + 2th + h^2) - 1250 + 16t^2}{h}$$
+
+---
+
+**Step 3: Distribute $-16$ across the expanded terms.**
+$$= \lim_{h \to 0} \frac{1250 - 16t^2 - 32th - 16h^2 - 1250 + 16t^2}{h}$$
+
+---
+
+**Step 4: Cancel opposing terms in the numerator.**
+Notice that $1250 - 1250 = 0$ and $-16t^2 + 16t^2 = 0$:
+$$= \lim_{h \to 0} \frac{-32th - 16h^2}{h}$$
+
+---
+
+**Step 5: Factor out $h$ and divide out from the denominator.**
+Factor $h$ from the numerator:
+$$= \lim_{h \to 0} \frac{h(-32t - 16h)}{h}$$
+
+Cancel $h$ in top and bottom:
+$$= \lim_{h \to 0} (-32t - 16h)$$
+
+---
+
+**Step 6: Evaluate the limit as $h \to 0$.**
+Directly substitute $h = 0$:
+$$v(t) = -32t - 16(0)$$
+$$v(t) = -32t$$
+
+---
+
+##### **Part 2: When does the object hit the ground?**
+
+**Step 1: Set position equal to zero.**
+The object hits the ground when its height $s(t) = 0$:
+$$1250 - 16t^2 = 0$$
+
+---
+
+**Step 2: Solve for $t$.**
+$$16t^2 = 1250$$
+$$t^2 = \frac{1250}{16} = \frac{625}{8} = 78.125$$
+
+Take the square root of both sides:
+$$t = \sqrt{\frac{625}{8}} = \frac{25}{2\sqrt{2}} = \frac{25\sqrt{2}}{4} \approx 8.84\text{ seconds}$$
+
+---
+
+##### **Part 3: How fast is it going when it hits the ground?**
+
+**Step 1: Evaluate velocity at the impact time $t \approx 8.84$.**
+Substitute $t = \frac{25\sqrt{2}}{4}$ (or $8.84$) into $v(t) = -32t$:
+$$v\left(\frac{25\sqrt{2}}{4}\right) = -32 \left(\frac{25\sqrt{2}}{4}\right)$$
+$$v(t) = -8 \cdot 25\sqrt{2} = -200\sqrt{2} \approx -282.84\text{ ft/s}$$
+
+*(Note: The negative sign indicates that the object is traveling downward at the moment of impact.)*
+
+---
+
+#### **3. Summary & Takeaways**
+
+* **Velocity Function:** $v(t) = -32t$
+* **Time to Hit Ground:** $t \approx 8.84\text{ seconds}$ (specifically $\frac{25\sqrt{2}}{4}\text{ s}$)
+* **Impact Velocity:** $v \approx -282.84\text{ ft/s}$ (Speed = $282.84\text{ ft/s}$ downward)
+
+* **Key Concept:** Position gives location $s(t)$, the first derivative gives velocity $v(t) = s'(t)$, and setting $s(t) = 0$ identifies key ground-level boundary events!
