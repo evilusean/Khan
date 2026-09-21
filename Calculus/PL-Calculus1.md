@@ -3009,4 +3009,4 @@ $$f'(x) = 3$$
 * **Final Result:** $f'(x) = 3$
 * **General Rule for Linear Functions:** For any linear equation $y = mx + b$, the derivative is always the constant $m$ (a constant slope)
   $$\frac{d}{dx}[mx + b] = m$$
-# Leftoff @ 30
+
