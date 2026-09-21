@@ -74,3 +74,13 @@ An "instant" means the elapsed time $h$ approaches zero ($h \to 0$).
 Taking the limit as the elapsed time $h$ approaches $0$:
 
 $$V_{\text{INST}} = \lim_{h \to 0} \frac{f(T_0 + h) - f(T_0)}{h}$$
+### 2026-09-20 - Calculus 1 Lecture 2.1: Introduction to the Derivative of a Function :
+https://www.youtube.com/watch?v=962lLfW-8Jo&list=PLF797E961509B4EB5&index=10
+#### Calculus 1 Lecture 2.1: Introduction to the Derivative of a Function
+
+**Overview & Core Definition**
+* The derivative represents the slope of a curve at a single point (or the slope of the tangent line at that point).
+* It unifies the concepts of instantaneous rate of change and instantaneous velocity.
+* **Definition of the Derivative Function:**
+$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+* Read as **"$f\text{ prime of }x$"**, which denotes the derivative of $f$ with respect to $x$.
