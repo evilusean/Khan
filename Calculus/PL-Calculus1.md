@@ -3108,7 +3108,7 @@ $$y = \frac{1}{4}x + 1$$
 * **Slope at $x = 4$:** $m = \frac{1}{4}$[cite: 5]
 * **Tangent Line Equation:** $y = \frac{1}{4}x + 1$
 
-* **Algebraic Technique:** Whenever you see radical expressions in a difference quotient, **conjugate multiplication** is the go-to algebraic technique to convert root subtractions into clean polynomial terms that allow $h$ to cancel out[cite: 5]!
+* **Algebraic Technique:** Whenever you see radical expressions in a difference quotient, **conjugate multiplication** is the go-to algebraic technique to convert root subtractions into clean polynomial terms that allow $h$ to cancel out
 ### Instantaneous Velocity: $v(t) = s'(t) = \lim_{\Delta t \to 0} \frac{\Delta s}{\Delta t}$
 
 #### **1. Conceptual Strategy & Game Plan**
