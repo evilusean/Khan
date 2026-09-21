@@ -3161,9 +3161,7 @@ $$v(t) = s'(t) = \frac{ds}{dt}$$
 3. How fast is the object going when it hits the ground?
 
 ---
-
 #### **1. Conceptual Strategy & Game Plan**
-
 We approach this classic free-fall physics problem in three logical steps:
 
 1. **Find the Instantaneous Velocity Function $v(t)$:**
@@ -3178,7 +3176,6 @@ We approach this classic free-fall physics problem in three logical steps:
    * Take the time of impact found in Step 2 and substitute it directly into the velocity function $v(t)$ found in Step 1.
 
 ---
-
 #### **2. Step-by-Step Solution**
 
 ##### **Part 1: Find $v(t)$ using the Limit Definition of the Derivative**
@@ -3227,7 +3224,6 @@ $$v(t) = -32t - 16(0)$$
 $$v(t) = -32t$$
 
 ---
-
 ##### **Part 2: When does the object hit the ground?**
 
 **Step 1: Set position equal to zero.**
@@ -3244,7 +3240,6 @@ Take the square root of both sides:
 $$t = \sqrt{\frac{625}{8}} = \frac{25}{2\sqrt{2}} = \frac{25\sqrt{2}}{4} \approx 8.84\text{ seconds}$$
 
 ---
-
 ##### **Part 3: How fast is it going when it hits the ground?**
 
 **Step 1: Evaluate velocity at the impact time $t \approx 8.84$.**
@@ -3255,7 +3250,6 @@ $$v(t) = -8 \cdot 25\sqrt{2} = -200\sqrt{2} \approx -282.84\text{ ft/s}$$
 *(Note: The negative sign indicates that the object is traveling downward at the moment of impact.)*
 
 ---
-
 #### **3. Summary & Takeaways**
 
 * **Velocity Function:** $v(t) = -32t$
