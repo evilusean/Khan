@@ -3350,7 +3350,6 @@ https://www.youtube.com/watch?v=EY6FHX6asU0&list=PLF797E961509B4EB5&index=12
 ### Calculus 1 — Techniques of Differentiation
 
 #### **1. Conceptual Strategy & Game Plan**
-
 Up to this point, derivatives have been computed using the limit definition:
 $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
@@ -3363,7 +3362,6 @@ Our game plan:
 4. Master rewriting expressions with rational and negative exponents to fit the power rule standard form.
 
 ---
-
 #### **2. Core Differentiation Rules**
 
 ##### **Rule 1: The Constant Rule**
@@ -3378,7 +3376,6 @@ $$\frac{d}{dx}[c] = 0$$
   * $\frac{d}{dx}[\pi] = 0$
 
 ---
-
 ##### **Rule 2: The Power Rule**
 To differentiate a variable raised to a constant power $n$, bring the power to the front as a multiplier and subtract $1$ from the exponent.
 
@@ -3391,7 +3388,6 @@ $$\frac{d}{dx}[x^n] = n \cdot x^{n-1}$$
   * $\frac{d}{dx}[x^{100}] = 100x^{99}$
 
 ---
-
 ##### **Rule 3: The Constant Multiple Rule**
 When a function is multiplied by a constant $c$, keep the constant out in front and take the derivative of the function.
 
@@ -3403,14 +3399,12 @@ $$\frac{d}{dx}[c \cdot f(x)] = c \cdot \frac{d}{dx}[f(x)]$$
   * $\frac{d}{dx}\left[\frac{1}{2}x^6\right] = \frac{1}{2} \cdot (6x^5) = 3x^5$
 
 ---
-
 ##### **Rule 4: The Sum and Difference Rules**
 The derivative of a sum or difference of two functions is the sum or difference of their individual derivatives. Differentiation can be applied term by term.
 
 $$\frac{d}{dx}[f(x) \pm g(x)] = \frac{d}{dx}[f(x)] \pm \frac{d}{dx}[g(x)]$$
 
 ---
-
 #### **3. Step-by-Step Worked Examples**
 
 ##### **Example 1: Polynomial Function**
@@ -3425,7 +3419,6 @@ $$f(x) = 4x^3 - 5x^2 + 7x - 9$$
 $$f'(x) = 12x^2 - 10x + 7$$
 
 ---
-
 ##### **Example 2: Functions Requiring Exponent Rewrites**
 Before applying the Power Rule, convert roots to rational exponents ($\sqrt[n]{x^m} = x^{m/n}$) and bring variables out of the denominator using negative exponents ($\frac{1}{x^n} = x^{-n}$).
 
@@ -3442,7 +3435,6 @@ Before applying the Power Rule, convert roots to rational exponents ($\sqrt[n]{x
    $$\frac{dy}{dx} = -\frac{6}{x^3} + \frac{1}{\sqrt{x}}$$
 
 ---
-
 #### **4. Higher-Order Derivatives**
 
 Taking the derivative of a derivative yields higher-order derivatives.
@@ -3460,7 +3452,6 @@ Taking the derivative of a derivative yields higher-order derivatives.
 * $f^{(5)}(x) = 0$
 
 ---
-
 #### **5. Summary & Key Takeaways**
 
 * **Algebraic Preparation First:** Always rewrite radicals as rational exponents ($x^{a/b}$) and fractions with variable denominators as negative exponents ($x^{-n}$) before differentiating.
