@@ -3305,3 +3305,43 @@ A continuous or discontinuous graph will fail to be differentiable at $x = c$ un
   $$\text{Not Continuous} \implies \text{Not Differentiable}$$
 * **Visual Test:** A function is differentiable wherever its graph is **both continuous and smooth** (no holes, jumps, asymptotes, sharp corners, cusps, or vertical drop-offs).
 
+### Representations for Derivatives
+
+#### **1. General Derivative Functions (Derivative at any $x$)**
+
+These notations represent the **derivative function** $f'(x)$, which yields the slope of the tangent line at any general input $x$:
+* **Lagrange's Notation (Prime Notation):**
+  $$f'(x)$$
+  * Read as: *"f prime of x"*
+  * Very common in calculus; emphasizes that the derivative is itself a new function of $x$.
+
+* **Operator Notation (Differential Operator):**
+  $$\frac{d}{dx}\left[f(x)\right]$$
+  * Read as: *"the derivative with respect to x of f of x"*
+  * Treats $\frac{d}{dx}$ as an action or operator being applied to the function $f(x)$.
+
+* **Lagrange's Notation with $y$:**
+  $$y'$$
+  * Read as: *"y prime"*
+  * Used when the function is defined in terms of $y = f(x)$. Quick and concise, though it does not explicitly specify the independent variable.
+
+* **Leibniz's Notation:**
+  $$\frac{dy}{dx}$$
+  * Read as: *"dy dx"* or *"the derivative of y with respect to x"*
+  * Represents the ratio of an infinitesimal change in $y$ ($dy$) to an infinitesimal change in $x$ ($dx$). Ideal for differential equations and chain rule.
+
+---
+#### **2. Derivative Evaluated at a Specific Point ($x = a$)**
+
+When you want to calculate the derivative at a **specific numerical value** $x = a$, each of the general notations adapts as follows:
+
+* **Prime Notation at a Point:**
+  $$f'(a)$$
+  * Simply substitute $a$ into the derivative function $f'(x)$.
+
+* **Operator Notation Evaluated at a Point:**
+  $$\left.\frac{d}{dx}\left[f(x)\right]\right\vert{}_{x=a}$$
+  * Uses the evaluation bar $\big\vert{}_{x=a}$ to denote that after finding the derivative, you evaluate it at $x = a$.
+
+* **$y'$ Notation at a Point:**
+  $$y'(a)$$
