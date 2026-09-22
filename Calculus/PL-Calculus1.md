@@ -3515,3 +3515,53 @@ $$\frac{d}{dx}\left[5x^4\right] = 5 \cdot \frac{d}{dx}\left[x^4\right] = 5 \cdot
 * **Subtracting Negative Powers:** Be careful when subtracting $1$ from a negative exponent (e.g., $-3 - 1 = -4$).
 * **Match Variables:** Ensure the operator matches the input variable ($\frac{d}{dx}$ for $x$, $\frac{d}{ds}$ for $s$, $\frac{d}{dp}$ for $p$).
 * **Constant Coefficients:** Constants tagged onto variables tag along for the ride; differentiate the variable term and multiply the result by the constant.
+
+### Sum/Difference Rule & Constant Multiple Examples
+
+#### **1. Constant Multiple & Negative Exponent Examples**
+
+* **Example 1 (Negative Sign as a Constant Multiple):**
+  $$\frac{d}{dx}\left[-x^7\right] = -7x^6$$
+  * *Pedagogical Breakdown:* Think of $-x^7$ as $(-1) \cdot x^7$. Keep the constant multiplier $-1$ out front, bring down the power $7$, and subtract $1$ from the exponent: $(-1) \cdot 7x^{7-1} = -7x^6$.
+
+* **Example 2 (Constant Numerator with Denominator Power):**
+  $$\begin{aligned}
+  \frac{d}{dx}\left[\frac{\pi}{x^2}\right] &= \frac{d}{dx}\left[\pi x^{-2}\right] \\
+  &= \pi \cdot \frac{d}{dx}\left[x^{-2}\right] \\
+  &= \pi \cdot \left(-2x^{-3}\right) \\
+  &= \frac{-2\pi}{x^3}
+  \end{aligned}$$
+  * *Pedagogical Breakdown:* $\pi$ is just a constant number, not a variable! First, rewrite $\frac{1}{x^2}$ as $x^{-2}$. Pull the constant $\pi$ out in front, differentiate $x^{-2}$ using the power rule to get $-2x^{-3}$, and simplify back to a positive exponent denominator.
+
+---
+
+#### **2. General Formula: The Sum and Difference Rule**
+
+When taking the derivative of two or more functions added or subtracted together, you can differentiate each function term by term individually:
+
+$$\frac{d}{dx}\left[f(x) \pm g(x)\right] = \frac{d}{dx}\left[f(x)\right] \pm \frac{d}{dx}\left[g(x)\right]$$
+
+* *Pedagogical Breakdown:* Differentiation splits across addition and subtraction! You do not need a special formula to join added terms—simply take the derivative of the first term, keep the plus or minus sign, and take the derivative of the second term.
+
+---
+
+#### **3. Summary of Rules on the Right Board**
+
+* **Reciprocal Power Rule:**
+  $$\frac{d}{dx}\left[\frac{1}{x}\right] = \frac{d}{dx}\left[x^{-1}\right] = -1x^{-2} = \frac{-1}{x^2}$$
+
+* **Derivative of $x$:**
+  $$\frac{d}{dx}[x] = 1x^{1-1} = 1 \cdot x^0 = 1 \cdot 1 = 1$$
+
+* **The Constant Multiple Rule:**
+  $$\frac{d}{dx}\left[c \cdot f(x)\right] = c \cdot \frac{d}{dx}\left[f(x)\right]$$
+  * **Example:**
+    $$\frac{d}{dx}\left[5x^4\right] = 5 \cdot \frac{d}{dx}\left[x^4\right] = 5 \cdot 4x^3 = 20x^3$$
+
+---
+
+#### **4. Key Takeaways**
+
+* **Treat Constants as Constants:** Never confuse constant numbers like $\pi$, $e$, or $5$ with variables. They factor straight out of the derivative.
+* **Rewrite First:** Always shift variable denominators to negative powers ($x^{-n}$) before applying the power rule.
+* **Term-by-Term Differentiation:** Addition and subtraction allow you to break long polynomials down into simple, independent power rule steps.
