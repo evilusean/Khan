@@ -3347,3 +3347,125 @@ When you want to calculate the derivative at a **specific numerical value** $x =
   $$y'(a)$$
 ## 2026-09-22 - Calculus 1 Lecture 2.2: Techniques of Differentiation (Finding Derivatives of Functions Easily) :
 https://www.youtube.com/watch?v=EY6FHX6asU0&list=PLF797E961509B4EB5&index=12
+### Calculus 1 — Techniques of Differentiation
+
+#### **1. Conceptual Strategy & Game Plan**
+
+Up to this point, derivatives have been computed using the limit definition:
+$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+
+While the limit definition provides the foundational theory, using it for every function is slow and algebraically tedious. **Differentiation rules (techniques of differentiation)** provide shortcuts to find derivatives quickly and efficiently without evaluating limits directly.
+
+Our game plan:
+1. Establish basic rules for simple functions (constant functions, power functions, constant multiples).
+2. Learn how to combine terms using addition and subtraction (sum and difference rules).
+3. Apply higher-order derivatives to analyze rates of change of derivatives.
+4. Master rewriting expressions with rational and negative exponents to fit the power rule standard form.
+
+---
+
+#### **2. Core Differentiation Rules**
+
+##### **Rule 1: The Constant Rule**
+The derivative of any constant function is always zero.
+
+$$\frac{d}{dx}[c] = 0$$
+
+* **Intuition:** A constant function $y = c$ is a horizontal line. Its slope (rate of change) is zero everywhere.
+* **Examples:**
+  * $\frac{d}{dx}[5] = 0$
+  * $\frac{d}{dx}[-12] = 0$
+  * $\frac{d}{dx}[\pi] = 0$
+
+---
+
+##### **Rule 2: The Power Rule**
+To differentiate a variable raised to a constant power $n$, bring the power to the front as a multiplier and subtract $1$ from the exponent.
+
+$$\frac{d}{dx}[x^n] = n \cdot x^{n-1}$$
+
+* **Examples:**
+  * $\frac{d}{dx}[x^2] = 2x^{2-1} = 2x$
+  * $\frac{d}{dx}[x^5] = 5x^4$
+  * $\frac{d}{dx}[x^1] = 1x^0 = 1$
+  * $\frac{d}{dx}[x^{100}] = 100x^{99}$
+
+---
+
+##### **Rule 3: The Constant Multiple Rule**
+When a function is multiplied by a constant $c$, keep the constant out in front and take the derivative of the function.
+
+$$\frac{d}{dx}[c \cdot f(x)] = c \cdot \frac{d}{dx}[f(x)]$$
+
+* **Examples:**
+  * $\frac{d}{dx}[3x^4] = 3 \cdot (4x^3) = 12x^3$
+  * $\frac{d}{dx}[-5x^2] = -5 \cdot (2x) = -10x$
+  * $\frac{d}{dx}\left[\frac{1}{2}x^6\right] = \frac{1}{2} \cdot (6x^5) = 3x^5$
+
+---
+
+##### **Rule 4: The Sum and Difference Rules**
+The derivative of a sum or difference of two functions is the sum or difference of their individual derivatives. Differentiation can be applied term by term.
+
+$$\frac{d}{dx}[f(x) \pm g(x)] = \frac{d}{dx}[f(x)] \pm \frac{d}{dx}[g(x)]$$
+
+---
+
+#### **3. Step-by-Step Worked Examples**
+
+##### **Example 1: Polynomial Function**
+Find $f'(x)$ for:
+$$f(x) = 4x^3 - 5x^2 + 7x - 9$$
+
+1. Differentiate $4x^3$: $4 \cdot (3x^2) = 12x^2$
+2. Differentiate $-5x^2$: $-5 \cdot (2x) = -10x$
+3. Differentiate $7x$: $7 \cdot (1) = 7$
+4. Differentiate $-9$: $0$
+
+$$f'(x) = 12x^2 - 10x + 7$$
+
+---
+
+##### **Example 2: Functions Requiring Exponent Rewrites**
+Before applying the Power Rule, convert roots to rational exponents ($\sqrt[n]{x^m} = x^{m/n}$) and bring variables out of the denominator using negative exponents ($\frac{1}{x^n} = x^{-n}$).
+
+**Problem:** Find $\frac{dy}{dx}$ for $y = \frac{3}{x^2} + 2\sqrt{x}$
+
+1. **Rewrite in Power Form:**
+   $$y = 3x^{-2} + 2x^{1/2}$$
+
+2. **Apply Power Rule:**
+   $$\frac{dy}{dx} = 3(-2x^{-3}) + 2\left(\frac{1}{2}x^{-1/2}\right)$$
+   $$\frac{dy}{dx} = -6x^{-3} + x^{-1/2}$$
+
+3. **Rewrite in Simplified Radical/Positive Exponent Form:**
+   $$\frac{dy}{dx} = -\frac{6}{x^3} + \frac{1}{\sqrt{x}}$$
+
+---
+
+#### **4. Higher-Order Derivatives**
+
+Taking the derivative of a derivative yields higher-order derivatives.
+
+* **First Derivative:** $f'(x) = \frac{dy}{dx}$ (Velocity)
+* **Second Derivative:** $f''(x) = \frac{d^2y}{dx^2}$ (Acceleration)
+* **Third Derivative:** $f'''(x) = \frac{d^3y}{dx^3}$ (Jerk)
+* **$n$-th Derivative:** $f^{(n)}(x) = \frac{d^ny}{dx^n}$
+
+##### **Example:** Find the first three derivatives of $f(x) = x^4 - 3x^3 + 2x - 5$.
+* $f'(x) = 4x^3 - 9x^2 + 2$
+* $f''(x) = 12x^2 - 18x$
+* $f'''(x) = 24x - 18$
+* $f^{(4)}(x) = 24$
+* $f^{(5)}(x) = 0$
+
+---
+
+#### **5. Summary & Key Takeaways**
+
+* **Algebraic Preparation First:** Always rewrite radicals as rational exponents ($x^{a/b}$) and fractions with variable denominators as negative exponents ($x^{-n}$) before differentiating.
+* **Basic Rules Summary:**
+  * $\frac{d}{dx}[c] = 0$
+  * $\frac{d}{dx}[x^n] = n x^{n-1}$
+  * $\frac{d}{dx}[c \cdot f(x)] = c \cdot f'(x)$
+  * $\frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)$
