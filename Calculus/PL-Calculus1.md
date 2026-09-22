@@ -3463,7 +3463,6 @@ Taking the derivative of a derivative yields higher-order derivatives.
 ### Power Rule & Constant Multiple Rule for Differentiation
 
 #### **1. General Formula: The Power Rule**
-
 The foundational rule for differentiating any term of the form $x^n$ (where $n$ is a real number):
 
 $$\frac{d}{dx}\left[x^n\right] = n x^{n-1}$$
@@ -3471,45 +3470,35 @@ $$\frac{d}{dx}\left[x^n\right] = n x^{n-1}$$
 * **Pedagogical Breakdown:** Bring the exponent $n$ out front as a constant multiplier, then decrease the original power by $1$.
 
 ---
-
 #### **2. Worked Examples from the Board**
-
 ##### **Standard Positive Integer Exponents**
-
 * **Example 1:**
   $$\frac{d}{dx}\left[x^2\right] = 2x^{2-1} = 2x$$
 
 * **Example 2:**
-  $$\frac{d}{dx}\left[x^5\right] = 5x^4$$
+$$\frac{d}{dx}\left[x^5\right] = 5x^4$$
 
 * **Example 3 (Different Variable):**
   $$\frac{d}{ds}\left[s^{15}\right] = 15s^{14}$$
   * *Note:* The variable in the derivative operator ($ds$) must match the base variable being differentiated ($s$).
 
 ---
-
 ##### **Negative Exponents & Rational Forms**
-
 * **Example 4 (Reciprocal Form):**
   $$\frac{d}{dx}\left[\frac{1}{x}\right] = \frac{d}{dx}\left[x^{-1}\right] = -1x^{-2} = \frac{-1}{x^2}$$
   * *Key Strategy:* Always rewrite denominators as negative powers ($x^{-1}$) before applying the power rule!
-
 * **Example 5:**
   $$\frac{d}{dx}\left[x^{-3}\right] = -3x^{-3-1} = -3x^{-4}$$
-
 * **Example 6:**
   $$\frac{d}{dp}\left[p^{-2}\right] = -2p^{-3}$$
 
 ---
-
 ##### **Linear/Identity Function**
-
 * **Example 7:**
   $$\frac{d}{dx}[x] = 1x^{1-1} = 1 \cdot x^0 = 1 \cdot 1 = 1$$
   * *Intuition:* The slope of the line $y = x$ is constantly $1$ everywhere.
 
 ---
-
 #### **3. The Constant Multiple Rule**
 
 When a differentiable function is multiplied by a constant coefficient $c$, you "pull out" the constant and take the derivative of the remaining function:
@@ -3521,9 +3510,7 @@ $$\frac{d}{dx}\left[c \cdot f(x)\right] = c \cdot \frac{d}{dx}\left[f(x)\right]$
 $$\frac{d}{dx}\left[5x^4\right] = 5 \cdot \frac{d}{dx}\left[x^4\right] = 5 \cdot 4x^3 = 20x^3$$
 
 ---
-
 #### **4. Summary & Takeaways**
-
 * **Rewrite First:** Express fractions as negative exponents ($\frac{1}{x^n} \to x^{-n}$) before applying the power rule.
 * **Subtracting Negative Powers:** Be careful when subtracting $1$ from a negative exponent (e.g., $-3 - 1 = -4$).
 * **Match Variables:** Ensure the operator matches the input variable ($\frac{d}{dx}$ for $x$, $\frac{d}{ds}$ for $s$, $\frac{d}{dp}$ for $p$).
