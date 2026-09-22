@@ -3345,3 +3345,4 @@ When you want to calculate the derivative at a **specific numerical value** $x =
 
 * **$y'$ Notation at a Point:**
   $$y'(a)$$
+## 2026-09-22 - Calculus 1 Lecture 2.2: Techniques of Differentiation (Finding Derivatives of Functions Easily) :
