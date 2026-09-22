@@ -3515,7 +3515,6 @@ $$\frac{d}{dx}\left[5x^4\right] = 5 \cdot \frac{d}{dx}\left[x^4\right] = 5 \cdot
 * **Subtracting Negative Powers:** Be careful when subtracting $1$ from a negative exponent (e.g., $-3 - 1 = -4$).
 * **Match Variables:** Ensure the operator matches the input variable ($\frac{d}{dx}$ for $x$, $\frac{d}{ds}$ for $s$, $\frac{d}{dp}$ for $p$).
 * **Constant Coefficients:** Constants tagged onto variables tag along for the ride; differentiate the variable term and multiply the result by the constant.
-
 ### Sum/Difference Rule & Constant Multiple Examples
 
 #### **1. Constant Multiple & Negative Exponent Examples**
@@ -3534,7 +3533,6 @@ $$\frac{d}{dx}\left[5x^4\right] = 5 \cdot \frac{d}{dx}\left[x^4\right] = 5 \cdot
   * *Pedagogical Breakdown:* $\pi$ is just a constant number, not a variable! First, rewrite $\frac{1}{x^2}$ as $x^{-2}$. Pull the constant $\pi$ out in front, differentiate $x^{-2}$ using the power rule to get $-2x^{-3}$, and simplify back to a positive exponent denominator.
 
 ---
-
 #### **2. General Formula: The Sum and Difference Rule**
 
 When taking the derivative of two or more functions added or subtracted together, you can differentiate each function term by term individually:
@@ -3544,7 +3542,6 @@ $$\frac{d}{dx}\left[f(x) \pm g(x)\right] = \frac{d}{dx}\left[f(x)\right] \pm \fr
 * *Pedagogical Breakdown:* Differentiation splits across addition and subtraction! You do not need a special formula to join added terms—simply take the derivative of the first term, keep the plus or minus sign, and take the derivative of the second term.
 
 ---
-
 #### **3. Summary of Rules on the Right Board**
 
 * **Reciprocal Power Rule:**
@@ -3559,7 +3556,6 @@ $$\frac{d}{dx}\left[f(x) \pm g(x)\right] = \frac{d}{dx}\left[f(x)\right] \pm \fr
     $$\frac{d}{dx}\left[5x^4\right] = 5 \cdot \frac{d}{dx}\left[x^4\right] = 5 \cdot 4x^3 = 20x^3$$
 
 ---
-
 #### **4. Key Takeaways**
 
 * **Treat Constants as Constants:** Never confuse constant numbers like $\pi$, $e$, or $5$ with variables. They factor straight out of the derivative.
