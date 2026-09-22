@@ -3560,4 +3560,47 @@ $$\frac{d}{dx}\left[f(x) \pm g(x)\right] = \frac{d}{dx}\left[f(x)\right] \pm \fr
 
 * **Treat Constants as Constants:** Never confuse constant numbers like $\pi$, $e$, or $5$ with variables. They factor straight out of the derivative.
 * **Rewrite First:** Always shift variable denominators to negative powers ($x^{-n}$) before applying the power rule.
-* **Term-by-Term Differentiation:** Addition and subtraction allow you to break long polynomials down into simple, independent power rule steps.
+* **Term-by-Term Differentiation:** Addition and subtraction allow you to break long polynomials down into simple, independent power rule steps
+### Example: Combining Difference and Power Rules
+
+#### **1. Problem Statement**
+
+$$\frac{d}{dx}\left[3x^9 - x^{-3}\right]$$
+
+---
+
+#### **2. Step-by-Step Breakdown**
+
+##### **Step 1: Apply the Difference Rule**
+Split the derivative across the subtraction operator into two separate derivative problems:
+
+$$\longrightarrow \frac{d}{dx}\left[3x^9\right] - \frac{d}{dx}\left[x^{-3}\right]$$
+
+* **Pedagogical Breakdown:** Because we have two terms separated by a minus sign, we can take the derivative of each term individually.
+
+##### **Step 2: Differentiate Term-by-Term**
+* **First Term ($\frac{d}{dx}[3x^9]$):**
+  Apply the Constant Multiple and Power Rules: bring $9$ down to multiply by $3$, and reduce the exponent by $1$.
+  $$3 \cdot 9x^{9-1} = 27x^8$$
+
+* **Second Term ($\frac{d}{dx}[x^{-3}]$):**
+  Apply the Power Rule: bring down $-3$, and reduce the exponent by $1$ (remember that $-3 - 1 = -4$).
+  $$-3x^{-3-1} = -3x^{-4}$$
+
+Substitute these back into the expression, making sure to keep parentheses around the second term to avoid sign errors:
+
+$$\longrightarrow 27x^8 - \left(-3x^{-4}\right)$$
+
+##### **Step 3: Simplify the Double Negative**
+Distribute the minus sign into the parentheses:
+
+$$\longrightarrow 27x^8 + 3x^{-4}$$
+
+*(Alternatively written with a positive exponent denominator: $27x^8 + \frac{3}{x^4}$)*
+
+---
+
+#### **3. Key Takeaways & Pitfalls to Avoid**
+
+* **Watch the Double Negatives:** The minus sign comes from the original subtraction rule, while the inner negative sign comes from bringing down the negative exponent ($-3$). Subtracting a negative yields a positive $+3x^{-4}$.
+* **Subtracting Negative Exponents:** Always be careful when reducing negative powers: $-3 - 1 = -4$, not $-2$.
