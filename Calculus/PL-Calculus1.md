@@ -3599,4 +3599,51 @@ $$\longrightarrow 27x^8 + 3x^{-4}$$
 
 * **Watch the Double Negatives:** The minus sign comes from the original subtraction rule, while the inner negative sign comes from bringing down the negative exponent ($-3$). Subtracting a negative yields a positive $+3x^{-4}$.
 * **Subtracting Negative Exponents:** Always be careful when reducing negative powers: $-3 - 1 = -4$, not $-2$.
+### Example: Radical Conversion, Constant Rule, & Power Rule
 
+#### **1. Problem Statement**
+
+$$\frac{d}{dx}\left[4 - 3\sqrt{x}\right]$$
+
+---
+
+#### **2. Step-by-Step Breakdown**
+
+##### **Step 1: Rewrite Radicals in Power Form**
+Before doing any calculus, rewrite the radical expression using a rational exponent ($\sqrt{x} = x^{\frac{1}{2}}$):
+
+$$\longrightarrow \frac{d}{dx}\left[4 - 3x^{\frac{1}{2}}\right]$$
+
+* **Pedagogical Breakdown:** The Power Rule requires terms to be in the form $x^n$. You cannot apply the rule directly to a radical symbol, so rewriting $\sqrt{x}$ as $x^{\frac{1}{2}}$ is a crucial first step.
+
+##### **Step 2: Apply the Difference & Constant Multiple Rules**
+Break the derivative across the minus sign and factor out the constant coefficients from each derivative term:
+
+$$\rightarrow 4 \cdot \frac{d}{dx}[1] - 3 \cdot \frac{d}{dx}\left[x^{\frac{1}{2}}\right]$$
+
+* **Pedagogical Breakdown:** 
+  * The constant $4$ can be viewed as $4 \cdot 1$, where the derivative of the constant $1$ (or $4$) goes to $0$.
+  * The constant coefficient $3$ in front of $x^{\frac{1}{2}}$ tags along out in front.
+
+##### **Step 3: Differentiate Term-by-Term**
+* **First Term ($4 \cdot \frac{d}{dx}[1]$):** The derivative of any constant is $0$.
+* **Second Term ($-3 \cdot \frac{d}{dx}\left[x^{\frac{1}{2}}\right]$):** Apply the Power Rule to $x^{\frac{1}{2}}$. Bring down the power $\frac{1}{2}$ and subtract $1$ from the exponent ($\frac{1}{2} - 1 = -\frac{1}{2}$):
+
+$$\rightarrow 0 - 3 \cdot \frac{1}{2}x^{\frac{1}{2} - 1}$$
+
+$$\rightarrow -3 \cdot \frac{1}{2}x^{-\frac{1}{2}}$$
+
+##### **Step 4: Multiply Coefficients**
+Combine the constants $-3$ and $\frac{1}{2}$:
+
+$$\rightarrow -\frac{3}{2}x^{-\frac{1}{2}}$$
+
+*(Alternatively simplified to radical denominator form: $-\frac{3}{2\sqrt{x}}$)*
+
+---
+
+#### **3. Key Takeaways & Pitfalls to Avoid**
+
+* **Algebraic Prep First:** Always convert radical symbols into fractional exponents ($\sqrt[n]{x^m} = x^{m/n}$) before differentiating.
+* **Fraction Arithmetic with Exponents:** When subtracting $1$ from a fractional exponent, convert $1$ to a common denominator (e.g., $\frac{1}{2} - \frac{2}{2} = -\frac{1}{2}$).
+* **Derivative of a Standalone Constant:** A standalone constant like $4$ becomes $0$ when differentiated, whereas a coefficient multiplied by a variable function (like $-3$ in $-3\sqrt{x}$) stays as a multiplier.
