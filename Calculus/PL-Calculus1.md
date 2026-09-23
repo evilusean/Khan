@@ -3688,62 +3688,43 @@ $$\text{Find } \frac{dy}{dx} = 35x^6 - 12x^3 + 6x^2 + 1$$
 * **Linear Term Rule:** Any single variable term like $+x$ or $-x$ differentiates directly to its coefficient ($1$ or $-1$).
 * **Standalone Constants Dropping Off:** Standalone constants always vanish because their rate of change is zero.
 ### Example: Finding Horizontal Tangent Lines
-
 #### **1. Problem Statement**
 
 At what points does $y = x^3 - 3x + 4$ have a **horizontal tangent**?[cite: 9]
 
 ---
-
 #### **2. Conceptual Setup & Pedagogical Goal**
 
-* **What is a Horizontal Tangent?** A horizontal line has a slope of zero ($m = 0$).[cite: 9]
-* **Role of the Derivative:** Since the derivative $\frac{dy}{dx}$ gives the formula for the slope of the tangent line at any point $x$, finding horizontal tangents means finding where:[cite: 9]
+* **What is a Horizontal Tangent?** A horizontal line has a slope of zero ($m = 0$)
+* **Role of the Derivative:** Since the derivative $\frac{dy}{dx}$ gives the formula for the slope of the tangent line at any point $x$, finding horizontal tangents means finding where
   $$\frac{dy}{dx} = 0$$
 [cite: 9]
 
 ---
-
 #### **3. Step-by-Step Breakdown**
-
 ##### **Step 1: Find the Derivative (Slope Function)**
-Differentiate $y = x^3 - 3x + 4$ term-by-term using the Power Rule:[cite: 9]
+Differentiate $y = x^3 - 3x + 4$ term-by-term using the Power Rule
 
 $$\frac{dy}{dx} = 3x^2 - 3 \quad \longleftarrow \text{SLOPE}$$
-[cite: 9]
-
 ##### **Step 2: Set the Derivative Equal to Zero and Solve for $x$**
-Set $\frac{dy}{dx} = 0$ to find the $x$-values where the slope is zero:[cite: 9]
+Set $\frac{dy}{dx} = 0$ to find the $x$-values where the slope is zero:
 
 $$3x^2 - 3 = 0$$
-[cite: 9]
-
-Factor out the common factor of $3$:[cite: 9]
+Factor out the common factor of $3$:
 
 $$3(x^2 - 1) = 0$$
-[cite: 9]
-
-Factor the difference of squares $(x^2 - 1) = (x + 1)(x - 1)$:[cite: 9]
 
 $$3(x + 1)(x - 1) = 0$$
-[cite: 9]
-
-Set each factor containing $x$ equal to zero:[cite: 9]
-
+Set each factor containing $x$ equal to zero:[
 $$x + 1 = 0 \quad \text{or} \quad x - 1 = 0$$
-[cite: 9]
 
 $$x = -1 \quad \text{and} \quad x = 1$$
-[cite: 9]
-
 ##### **Step 3: Find the Corresponding $y$-Coordinates (Points on the Graph)**
 The question asks for the **points** $(x, y)$, so we plug the $x$-values back into the **original equation** $y = x^3 - 3x + 4$:[cite: 9]
 
 * **For $x = -1$:**
   $$y = (-1)^3 - 3(-1) + 4 = -1 + 3 + 4 = 6$$
-[cite: 9]
   $$\longrightarrow (-1, 6)$$
-[cite: 9]
 
 * **For $x = 1$:**
   $$y = (1)^3 - 3(1) + 4 = 1 - 3 + 4 = 2$$
