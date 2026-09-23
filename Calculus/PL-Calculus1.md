@@ -3642,5 +3642,58 @@ $$\rightarrow -\frac{3}{2}x^{-\frac{1}{2}}$$
 * **Algebraic Prep First:** Always convert radical symbols into fractional exponents ($\sqrt[n]{x^m} = x^{m/n}$) before differentiating.
 * **Fraction Arithmetic with Exponents:** When subtracting $1$ from a fractional exponent, convert $1$ to a common denominator (e.g., $\frac{1}{2} - \frac{2}{2} = -\frac{1}{2}$).
 * **Derivative of a Standalone Constant:** A standalone constant like $4$ becomes $0$ when differentiated, whereas a coefficient multiplied by a variable function (like $-3$ in $-3\sqrt{x}$) stays as a multiplier.
+### Example: Differentiating a Polynomial Term-by-Term
 
+#### **1. Problem Statement**
+
+Given the polynomial function:
+$$y = 5x^7 - 3x^4 + 2x^3 + x - 1$$
+
+Find $\frac{dy}{dx}$.
+
+---
+
+#### **2. Step-by-Step Breakdown**
+
+To find $\frac{dy}{dx}$, apply the Sum/Difference Rule along with the Constant Multiple and Power Rules across each term individually:
+
+$$\frac{dy}{dx} = \frac{d}{dx}\left[5x^7\right] - \frac{d}{dx}\left[3x^4\right] + \frac{d}{dx}\left[2x^3\right] + \frac{d}{dx}[x] - \frac{d}{dx}[1]$$
+
+##### **Term-by-Term Differentiation:**
+
+1. **First Term ($5x^7$):**
+   * Bring down the power $7$ to multiply by $5$, and subtract $1$ from the exponent:
+   $$5 \cdot 7x^{7-1} = 35x^6$$
+
+2. **Second Term ($-3x^4$):**
+   * Bring down the power $4$ to multiply by $-3$, and subtract $1$ from the exponent:
+   $$-3 \cdot 4x^{4-1} = -12x^3$$
+
+3. **Third Term ($+2x^3$):**
+   * Bring down the power $3$ to multiply by $2$, and subtract $1$ from the exponent:
+   $$2 \cdot 3x^{3-1} = 6x^2$$
+
+4. **Fourth Term ($+x$):**
+   * The derivative of $x$ (or $1x^1$) with respect to $x$ is simply $1$:
+   $$1 \cdot x^{1-1} = 1 \cdot x^0 = 1$$
+
+5. **Fifth Term ($-1$):**
+   * The derivative of any standalone constant term is $0$:
+   $$\frac{d}{dx}[1] = 0$$
+
+---
+
+#### **3. Final Result**
+
+Putting all terms together:
+
+$$\text{Find } \frac{dy}{dx} = 35x^6 - 12x^3 + 6x^2 + 1$$
+
+---
+
+#### **4. Key Takeaways**
+
+* **Term-by-Term Speed:** Addition and subtraction allow you to differentiate long polynomials efficiently without extra setups.
+* **Linear Term Rule:** Any single variable term like $+x$ or $-x$ differentiates directly to its coefficient ($1$ or $-1$).
+* **Standalone Constants Dropping Off:** Standalone constants always vanish because their rate of change is zero.
 
