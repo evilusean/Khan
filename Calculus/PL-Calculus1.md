@@ -3739,7 +3739,6 @@ Higher derivatives represent the process of taking the derivative of a function 
 * Differentiating the 2nd derivative yields the **3rd derivative**, and so on.
 
 ---
-
 #### **2. Notation Summary**
 
 | Order | Prime Notation (Function) | Prime Notation (Variable) | Leibniz Notation |
@@ -3749,7 +3748,6 @@ Higher derivatives represent the process of taking the derivative of a function 
 | **3rd Derivative** | $f'''(x)$ | $y'''$ | $\frac{d^3y}{dx^3}$ |
 
 ---
-
 #### **3. Key Insights & Explanations**
 
 ##### **Understanding Leibniz Notation ($\frac{d^n y}{dx^n}$)**
@@ -3761,4 +3759,4 @@ Higher derivatives represent the process of taking the derivative of a function 
 ##### **Higher Order Derivatives ($n \ge 4$)**
 * Prime notation becomes impractical for very high orders. Instead of writing four or more ticks, parenthesized superscripts are used to prevent confusion with exponents:
   $$f^{(4)}(x) \quad \text{or} \quad y^{(n)}$$
-```
+
