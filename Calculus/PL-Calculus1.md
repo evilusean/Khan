@@ -3759,4 +3759,67 @@ Higher derivatives represent the process of taking the derivative of a function 
 ##### **Higher Order Derivatives ($n \ge 4$)**
 * Prime notation becomes impractical for very high orders. Instead of writing four or more ticks, parenthesized superscripts are used to prevent confusion with exponents:
   $$f^{(4)}(x) \quad \text{or} \quad y^{(n)}$$
+### Example: Differentiating a Fractional Expression Using Algebraic Rewrite
+#### **1. Common Pitfall Warning**
 
+$$\frac{d}{dx}\left[\frac{1}{x^2}\right] \neq \frac{1}{2x}$$
+* **Why?** You **cannot** simply take the derivative of the denominator in place.
+* **Fix:** Rewrite terms with variables in the denominator using negative exponents before differentiating:
+  $$\frac{d}{dx}\left[\frac{1}{x^2}\right] = \frac{d}{dx}\left[x^{-2}\right]$$
+  Now apply the Power Rule $\frac{d}{dx}[x^n] = n x^{n-1}$.
+
+---
+#### **2. Problem Statement**
+Find $\frac{dy}{dx}$ for the function:
+
+$$y = \frac{x^5 - 2x - 3}{3\sqrt{x}}$$
+
+---
+
+#### **3. Step-by-Step Breakdown**
+
+##### **Step 1: Rewrite Radical Expressions as Fractional Exponents**
+Convert $\sqrt{x}$ into $x^{1/2}$:
+
+$$y = \frac{x^5 - 2x - 3}{3x^{1/2}}$$[cite: 7]
+
+##### **Step 2: Split the Fraction Across the Single Denominator**
+Since there is a single term in the denominator, divide each term in the numerator individually:
+
+$$y = \frac{x^5}{3x^{1/2}} - \frac{2x}{3x^{1/2}} - \frac{3}{3x^{1/2}}$$[cite: 7]
+
+##### **Step 3: Simplify Exponents using Exponent Rules ($x^a / x^b = x^{a-b}$)**
+
+* **First Term:**
+  $$\frac{x^5}{3x^{1/2}} = \frac{1}{3} x^{5 - 1/2} = \frac{1}{3} x^{9/2}$$[cite: 7]
+
+* **Second Term:**
+  $$\frac{2x}{3x^{1/2}} = \frac{2}{3} x^{1 - 1/2} = \frac{2}{3} x^{1/2}$$[cite: 7]
+
+* **Third Term:**
+  $$\frac{3}{3x^{1/2}} = 1 \cdot x^{-1/2} = x^{-1/2}$$[cite: 7]
+
+Rewritten equation prior to differentiating:
+
+$$y = \frac{1}{3} x^{9/2} - \frac{2}{3} x^{1/2} - x^{-1/2}$$[cite: 7]
+
+##### **Step 4: Take the Derivative Term-by-Term (Power Rule)**
+
+$$\frac{dy}{dx} = \frac{1}{3} \cdot \left(\frac{9}{2}\right) x^{9/2 - 1} - \frac{2}{3} \cdot \left(\frac{1}{2}\right) x^{1/2 - 1} - \left(-\frac{1}{2}\right) x^{-1/2 - 1}$$[cite: 7]
+
+Simplify coefficients and subtract $1$ (or $\frac{2}{2}$) from each power:
+
+$$\frac{dy}{dx} = \frac{3}{2} x^{7/2} - \frac{1}{3} x^{-1/2} + \frac{1}{2} x^{-3/2}$$[cite: 7]
+
+---
+
+#### **4. Final Answer**
+
+$$\frac{dy}{dx} = \frac{3}{2} x^{7/2} - \frac{1}{3} x^{-1/2} + \frac{1}{2} x^{-3/2}$$[cite: 7]
+
+---
+
+#### **5. Key Takeaways**
+
+* **Algebra First, Calculus Second:** Always simplify and rewrite quotient expressions into standard power-rule form ($c \cdot x^n$) before applying any derivative formulas.
+* **Exponent Subtraction:** Double-check fraction arithmetic when subtracting $1$ from powers ($9/2 - 1 = 7/2$, $1/2 - 1 = -1/2$, $-1/2 - 1 = -3/2$).
