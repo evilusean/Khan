@@ -3713,6 +3713,7 @@ $$3x^2 - 3 = 0$$
 Factor out the common factor of $3$:
 
 $$3(x^2 - 1) = 0$$
+Factor the difference of squares $(x^2 - 1) = (x + 1)(x - 1)$:
 
 $$3(x + 1)(x - 1) = 0$$
 Set each factor containing $x$ equal to zero:[
