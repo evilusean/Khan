@@ -3642,5 +3642,5 @@ $$\rightarrow -\frac{3}{2}x^{-\frac{1}{2}}$$
 * **Algebraic Prep First:** Always convert radical symbols into fractional exponents ($\sqrt[n]{x^m} = x^{m/n}$) before differentiating.
 * **Fraction Arithmetic with Exponents:** When subtracting $1$ from a fractional exponent, convert $1$ to a common denominator (e.g., $\frac{1}{2} - \frac{2}{2} = -\frac{1}{2}$).
 * **Derivative of a Standalone Constant:** A standalone constant like $4$ becomes $0$ when differentiated, whereas a coefficient multiplied by a variable function (like $-3$ in $-3\sqrt{x}$) stays as a multiplier.
-# Leftoff @ 35:30
+
 
