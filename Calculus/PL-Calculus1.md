@@ -3690,7 +3690,7 @@ $$\text{Find } \frac{dy}{dx} = 35x^6 - 12x^3 + 6x^2 + 1$$
 ### Example: Finding Horizontal Tangent Lines
 #### **1. Problem Statement**
 
-At what points does $y = x^3 - 3x + 4$ have a **horizontal tangent**?[cite: 9]
+At what points does $y = x^3 - 3x + 4$ have a **horizontal tangent**?
 
 ---
 #### **2. Conceptual Setup & Pedagogical Goal**
@@ -3729,4 +3729,36 @@ The question asks for the **points** $(x, y)$, so we plug the $x$-values back in
 
 * **For $x = 1$:**
   $$y = (1)^3 - 3(1) + 4 = 1 - 3 + 4 = 2$$
+### Higher Derivatives
 
+#### **1. Concept Overview**
+
+Higher derivatives represent the process of taking the derivative of a function multiple times sequentially. 
+* Taking the derivative of $f(x)$ yields the **1st derivative** (rate of change).
+* Differentiating the 1st derivative yields the **2nd derivative** (rate of change of the rate of change).
+* Differentiating the 2nd derivative yields the **3rd derivative**, and so on.
+
+---
+
+#### **2. Notation Summary**
+
+| Order | Prime Notation (Function) | Prime Notation (Variable) | Leibniz Notation |
+| :--- | :--- | :--- | :--- |
+| **1st Derivative** | $f'(x)$ | $y'$ | $\frac{dy}{dx}$ |
+| **2nd Derivative** | $f''(x)$ | $y''$ | $\frac{d^2y}{dx^2}$ |
+| **3rd Derivative** | $f'''(x)$ | $y'''$ | $\frac{d^3y}{dx^3}$ |
+
+---
+
+#### **3. Key Insights & Explanations**
+
+##### **Understanding Leibniz Notation ($\frac{d^n y}{dx^n}$)**
+* The notation comes from applying the differential operator $\frac{d}{dx}$ multiple times:
+  $$\frac{d}{dx}\left(\frac{dy}{dx}\right) = \frac{d^2 y}{dx^2}$$
+* **Numerator ($d^n y$):** Represents taking the derivative operator $d$ $n$ times on $y$.
+* **Denominator ($dx^n$):** Represents taking the derivative with respect to $x$ $n$ times (interpreted as $(dx)^n$).
+
+##### **Higher Order Derivatives ($n \ge 4$)**
+* Prime notation becomes impractical for very high orders. Instead of writing four or more ticks, parenthesized superscripts are used to prevent confusion with exponents:
+  $$f^{(4)}(x) \quad \text{or} \quad y^{(n)}$$
+```
