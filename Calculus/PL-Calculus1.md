@@ -3775,50 +3775,35 @@ Find $\frac{dy}{dx}$ for the function:
 $$y = \frac{x^5 - 2x - 3}{3\sqrt{x}}$$
 
 ---
-
 #### **3. Step-by-Step Breakdown**
 
 ##### **Step 1: Rewrite Radical Expressions as Fractional Exponents**
 Convert $\sqrt{x}$ into $x^{1/2}$:
 
-$$y = \frac{x^5 - 2x - 3}{3x^{1/2}}$$[cite: 7]
-
+$$y = \frac{x^5 - 2x - 3}{3x^{1/2}}$$
 ##### **Step 2: Split the Fraction Across the Single Denominator**
 Since there is a single term in the denominator, divide each term in the numerator individually:
-
-$$y = \frac{x^5}{3x^{1/2}} - \frac{2x}{3x^{1/2}} - \frac{3}{3x^{1/2}}$$[cite: 7]
-
+$$y = \frac{x^5}{3x^{1/2}} - \frac{2x}{3x^{1/2}} - \frac{3}{3x^{1/2}}$$
 ##### **Step 3: Simplify Exponents using Exponent Rules ($x^a / x^b = x^{a-b}$)**
-
 * **First Term:**
-  $$\frac{x^5}{3x^{1/2}} = \frac{1}{3} x^{5 - 1/2} = \frac{1}{3} x^{9/2}$$[cite: 7]
-
+  $$\frac{x^5}{3x^{1/2}} = \frac{1}{3} x^{5 - 1/2} = \frac{1}{3} x^{9/2}$$
 * **Second Term:**
-  $$\frac{2x}{3x^{1/2}} = \frac{2}{3} x^{1 - 1/2} = \frac{2}{3} x^{1/2}$$[cite: 7]
-
+  $$\frac{2x}{3x^{1/2}} = \frac{2}{3} x^{1 - 1/2} = \frac{2}{3} x^{1/2}$$
 * **Third Term:**
-  $$\frac{3}{3x^{1/2}} = 1 \cdot x^{-1/2} = x^{-1/2}$$[cite: 7]
-
+  $$\frac{3}{3x^{1/2}} = 1 \cdot x^{-1/2} = x^{-1/2}$$
 Rewritten equation prior to differentiating:
-
-$$y = \frac{1}{3} x^{9/2} - \frac{2}{3} x^{1/2} - x^{-1/2}$$[cite: 7]
-
+$$y = \frac{1}{3} x^{9/2} - \frac{2}{3} x^{1/2} - x^{-1/2}$$
 ##### **Step 4: Take the Derivative Term-by-Term (Power Rule)**
 
-$$\frac{dy}{dx} = \frac{1}{3} \cdot \left(\frac{9}{2}\right) x^{9/2 - 1} - \frac{2}{3} \cdot \left(\frac{1}{2}\right) x^{1/2 - 1} - \left(-\frac{1}{2}\right) x^{-1/2 - 1}$$[cite: 7]
-
+$$\frac{dy}{dx} = \frac{1}{3} \cdot \left(\frac{9}{2}\right) x^{9/2 - 1} - \frac{2}{3} \cdot \left(\frac{1}{2}\right) x^{1/2 - 1} - \left(-\frac{1}{2}\right) x^{-1/2 - 1}$$
 Simplify coefficients and subtract $1$ (or $\frac{2}{2}$) from each power:
 
-$$\frac{dy}{dx} = \frac{3}{2} x^{7/2} - \frac{1}{3} x^{-1/2} + \frac{1}{2} x^{-3/2}$$[cite: 7]
-
+$$\frac{dy}{dx} = \frac{3}{2} x^{7/2} - \frac{1}{3} x^{-1/2} + \frac{1}{2} x^{-3/2}$$
 ---
-
 #### **4. Final Answer**
 
-$$\frac{dy}{dx} = \frac{3}{2} x^{7/2} - \frac{1}{3} x^{-1/2} + \frac{1}{2} x^{-3/2}$$[cite: 7]
-
+$$\frac{dy}{dx} = \frac{3}{2} x^{7/2} - \frac{1}{3} x^{-1/2} + \frac{1}{2} x^{-3/2}$$
 ---
-
 #### **5. Key Takeaways**
 
 * **Algebra First, Calculus Second:** Always simplify and rewrite quotient expressions into standard power-rule form ($c \cdot x^n$) before applying any derivative formulas.
