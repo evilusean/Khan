@@ -3808,3 +3808,4 @@ $$\frac{dy}{dx} = \frac{3}{2} x^{7/2} - \frac{1}{3} x^{-1/2} + \frac{1}{2} x^{-3
 
 * **Algebra First, Calculus Second:** Always simplify and rewrite quotient expressions into standard power-rule form ($c \cdot x^n$) before applying any derivative formulas.
 * **Exponent Subtraction:** Double-check fraction arithmetic when subtracting $1$ from powers ($9/2 - 1 = 7/2$, $1/2 - 1 = -1/2$, $-1/2 - 1 = -3/2$).
+## 2026-09-25 - Calculus 1 Lecture 2.3: The Product and Quotient Rules for Derivatives of Functions :
