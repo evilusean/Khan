@@ -3810,3 +3810,68 @@ $$\frac{dy}{dx} = \frac{3}{2} x^{7/2} - \frac{1}{3} x^{-1/2} + \frac{1}{2} x^{-3
 * **Exponent Subtraction:** Double-check fraction arithmetic when subtracting $1$ from powers ($9/2 - 1 = 7/2$, $1/2 - 1 = -1/2$, $-1/2 - 1 = -3/2$).
 ## 2026-09-27 - Calculus 1 Lecture 2.3: The Product and Quotient Rules for Derivatives of Functions :
 https://www.youtube.com/watch?v=AvCQQ3X4Nuc&list=PLF797E961509B4EB5&index=13
+### Calculus 1 Lecture 2.3: The Product and Quotient Rules for Derivatives of Functions
+
+#### Overview
+This lecture covers essential rules for finding derivatives of products and quotients of functions without relying on the limit definition of the derivative.
+
+---
+
+#### 1. The Product Rule
+When differentiating the product of two differentiable functions $f(x)$ and $g(x)$, you do **not** simply multiply their derivatives.
+
+##### Formal Definition
+$$\frac{d}{dx}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x)$$
+
+In words: *"The derivative of the first times the second, plus the first times the derivative of the second."*
+
+##### Notation Alternatives
+* **Leibniz Notation:** $\frac{d}{dx}(u \cdot v) = \frac{du}{dx}v + u\frac{dv}{dx}$
+* **Prime Notation:** $(uv)' = u'v + uv'$
+
+##### Common Misconception
+$$\frac{d}{dx}[f(x) \cdot g(x)] \neq f'(x) \cdot g'(x)$$
+
+##### Example
+Find $\frac{d}{dx}[(3x^2 + 1)(2x - 5)]$:
+* Let $u = 3x^2 + 1 \implies u' = 6x$
+* Let $v = 2x - 5 \implies v' = 2$
+
+Applying the product rule:
+$$\frac{d}{dx}[(3x^2 + 1)(2x - 5)] = (6x)(2x - 5) + (3x^2 + 1)(2)$$
+$$= 12x^2 - 30x + 6x^2 + 2$$
+$$= 18x^2 - 30x + 2$$
+
+---
+
+#### 2. The Quotient Rule
+When differentiating a quotient of two differentiable functions $\frac{f(x)}{g(x)}$ where $g(x) \neq 0$:
+
+##### Formal Definition
+$$\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$$
+
+##### Mnemonic Device
+Using $Low = g(x)$ and $High = f(x)$:
+$$\text{"Low d-High minus High d-Low, over Low squared"}$$
+
+$$\frac{d}{dx}\left[\frac{High}{Low}\right] = \frac{Low \cdot d(High) - High \cdot d(Low)}{(Low)^2}$$
+
+##### Example
+Find $\frac{d}{dx}\left[\frac{x^2 + 3}{x - 1}\right]$:
+* $High = x^2 + 3 \implies d(High) = 2x$
+* $Low = x - 1 \implies d(Low) = 1$
+
+Applying the quotient rule:
+$$\frac{d}{dx}\left[\frac{x^2 + 3}{x - 1}\right] = \frac{(x - 1)(2x) - (x^2 + 3)(1)}{(x - 1)^2}$$
+$$= \frac{2x^2 - 2x - x^2 - 3}{(x - 1)^2}$$
+$$= \frac{x^2 - 2x - 3}{(x - 1)^2}$$
+
+---
+
+#### 3. Summary of Differentiation Rules (to date)
+* **Constant Rule:** $\frac{d}{dx}[c] = 0$
+* **Power Rule:** $\frac{d}{dx}[x^n] = n x^{n-1}$
+* **Constant Multiple Rule:** $\frac{d}{dx}[c \cdot f(x)] = c \cdot f'(x)$
+* **Sum/Difference Rule:** $\frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)$
+* **Product Rule:** $\frac{d}{dx}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x)$
+* **Quotient Rule:** $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$
