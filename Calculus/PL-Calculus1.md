@@ -3974,3 +3974,5 @@ Find $\frac{d}{dx}\left[\sqrt{3x^2 + 5}\right]$.
 * **Always rewrite radicals as rational powers first** ($\sqrt[n]{x^m} = x^{\frac{m}{n}}$).
 * **Apply the Power Rule** by bringing the exponent out front and subtracting 1.
 * **Simplify negative fractional exponents** back into positive radical denominators.
+
+# Leftoff @ 31
