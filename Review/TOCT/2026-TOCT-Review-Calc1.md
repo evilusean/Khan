@@ -113,3 +113,44 @@ $$v_{\text{avg}} = \frac{s(t + h) - s(t)}{h}$$
 ##### **Step 2: Take the Limit as $h \to 0$**
 To get the velocity at the exact moment $t$, take the limit as the time step $h$ approaches zero:
 $$v(t) = \lim_{h \to 0} \frac{s(t + h) - s(t)}{h}$$
+### Problem: $f(x) = (1 + x^2) \cdot \sqrt{x}$ — Find $f'(x)$
+
+In this example, Professor Leonard applies the **Product Rule** to differentiate a product involving a polynomial term and a square root term.
+
+---
+
+#### The Product Rule Formula
+
+$$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \cdot S(x) + F(x) \cdot \left(\frac{d}{dx}[S(x)]\right)$$
+
+*(Derivative of the first times the second, plus the first times derivative of the second)*
+
+---
+
+#### Step-by-Step Solution
+
+1. **Set up the Product Rule structure:**
+   $$f'(x) = \frac{d}{dx}\left[1 + x^2\right] \cdot \sqrt{x} + (1 + x^2) \cdot \frac{d}{dx}\left[\sqrt{x}\right]$$
+
+2. **Differentiate the first piece and rewrite the square root as an exponent:**
+   * $\frac{d}{dx}[1 + x^2] = 2x$
+   * Rewrite $\sqrt{x}$ as $x^{\frac{1}{2}}$ to prepare it for the Power Rule:
+
+   $$f'(x) = 2x \cdot \sqrt{x} + (1 + x^2) \cdot \frac{d}{dx}\left[x^{\frac{1}{2}}\right]$$
+
+3. **Apply the Power Rule to $x^{\frac{1}{2}}$:**
+   * $\frac{d}{dx}\left[x^{\frac{1}{2}}\right] = \frac{1}{2}x^{-\frac{1}{2}}$
+
+   $$f'(x) = 2x\sqrt{x} + (1 + x^2) \cdot \frac{1}{2}x^{-\frac{1}{2}}$$
+
+4. **Algebraically simplify and rewrite negative exponents as fractions:**
+   * Note that $x^{-\frac{1}{2}} = \frac{1}{x^{1/2}} = \frac{1}{\sqrt{x}}$
+   * Therefore, $\frac{1}{2}x^{-\frac{1}{2}} = \frac{1}{2\sqrt{x}}$
+
+   $$f'(x) = 2x\sqrt{x} + \frac{1 + x^2}{2\sqrt{x}}$$
+
+---
+
+#### Final Answer
+
+$$f'(x) = 2x\sqrt{x} + \frac{1 + x^2}{2\sqrt{x}}$$
