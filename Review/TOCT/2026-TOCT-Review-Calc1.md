@@ -167,4 +167,3 @@ $$\frac{d}{dx}[\sqrt{x}] = \frac{d}{dx}\left[x^{\frac{1}{2}}\right]$$
 $$= \frac{1}{2} x^{\left(\frac{1}{2} - 1\right)}$$
 
 $$= \frac{1}{2} x^{-\frac{1}{2}}$$
-# Leftoff @ 31
