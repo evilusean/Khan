@@ -118,7 +118,6 @@ $$v(t) = \lim_{h \to 0} \frac{s(t + h) - s(t)}{h}$$
 In this example, Professor Leonard applies the **Product Rule** to differentiate a product involving a polynomial term and a square root term.
 
 ---
-
 #### The Product Rule Formula
 
 $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \cdot S(x) + F(x) \cdot \left(\frac{d}{dx}[S(x)]\right)$$
@@ -126,7 +125,6 @@ $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \
 *(Derivative of the first times the second, plus the first times derivative of the second)*
 
 ---
-
 #### Step-by-Step Solution
 
 1. **Set up the Product Rule structure:**
@@ -142,7 +140,6 @@ $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \
    * $\frac{d}{dx}\left[x^{\frac{1}{2}}\right] = \frac{1}{2}x^{-\frac{1}{2}}$
 
    $$f'(x) = 2x\sqrt{x} + (1 + x^2) \cdot \frac{1}{2}x^{-\frac{1}{2}}$$
-
 4. **Algebraically simplify and rewrite negative exponents as fractions:**
    * Note that $x^{-\frac{1}{2}} = \frac{1}{x^{1/2}} = \frac{1}{\sqrt{x}}$
    * Therefore, $\frac{1}{2}x^{-\frac{1}{2}} = \frac{1}{2\sqrt{x}}$
@@ -150,7 +147,6 @@ $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \
    $$f'(x) = 2x\sqrt{x} + \frac{1 + x^2}{2\sqrt{x}}$$
 
 ---
-
 #### Final Answer
 
 $$f'(x) = 2x\sqrt{x} + \frac{1 + x^2}{2\sqrt{x}}$$
