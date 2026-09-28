@@ -4060,65 +4060,52 @@ $$\frac{\text{Low} \cdot d(\text{High}) - \text{High} \cdot d(\text{Low})}{\text
 * **Watch the Minus Sign:** When subtracting the second term $f(x) \cdot g'(x)$, distribute the negative sign carefully across all parts of the expanded product.
 * **Simplify First when Possible:** If the denominator is just a single monomial (e.g., $\frac{x^3 + 2x}{x}$), split the fraction into individual terms and use the Power Rule instead of the Quotient Rule to save time.
 ### Problem: Find the derivative of $y = \frac{x^3 - 3x^2 - 5}{2x + 5}$
-
 In this example, Professor Leonard demonstrates how to apply the **Quotient Rule** to find $\frac{dy}{dx}$ and step through the algebraic simplification[cite: 11].
 
 ---
-
 #### 1. Given Function
 
 $$y = \frac{x^3 - 3x^2 - 5}{2x + 5}$$
-[cite: 11]
-
 ---
-
 #### 2. The Quotient Rule Recall
 
 $$\frac{d}{dx}\left[\frac{\text{High}}{\text{Low}}\right] = \frac{\text{Low} \cdot d(\text{High}) - \text{High} \cdot d(\text{Low})}{[\text{Low}]^2}$$
 
 ---
-
 #### 3. Step-by-Step Solution
 
 ##### **Step 1: Set up the Quotient Rule**
-Identify $\text{High} = x^3 - 3x^2 - 5$ and $\text{Low} = 2x + 5$[cite: 11]:
+Identify $\text{High} = x^3 - 3x^2 - 5$ and $\text{Low} = 2x + 5$
 
 $$\frac{dy}{dx} = \frac{(2x + 5) \frac{d}{dx}\left[x^3 - 3x^2 - 5\right] - (x^3 - 3x^2 - 5) \frac{d}{dx}\left[2x + 5\right]}{[2x + 5]^2}$$
-[cite: 11]
 
 ---
-
 ##### **Step 2: Differentiate the components**
-* $\frac{d}{dx}\left[x^3 - 3x^2 - 5\right] = 3x^2 - 6x$[cite: 11]
-* $\frac{d}{dx}\left[2x + 5\right] = 2$[cite: 11]
+* $\frac{d}{dx}\left[x^3 - 3x^2 - 5\right] = 3x^2 - 6x$
+* $\frac{d}{dx}\left[2x + 5\right] = 2$
 
-Substitute these back into the expression[cite: 11]:
+Substitute these back into the expression
 
 $$= \frac{(2x + 5)(3x^2 - 6x) - (x^3 - 3x^2 - 5) \cdot 2}{[2x + 5]^2}$$
-[cite: 11]
 
 ---
-
 ##### **Step 3: Expand the numerator**
-Multiply out the first binomial pair $(2x + 5)(3x^2 - 6x)$ using FOIL[cite: 11]:
-* $2x \cdot 3x^2 = 6x^3$[cite: 11]
-* $2x \cdot (-6x) = -12x^2$[cite: 11]
-* $5 \cdot 3x^2 = +15x^2$[cite: 11]
-* $5 \cdot (-6x) = -30x$[cite: 11]
+Multiply out the first binomial pair $(2x + 5)(3x^2 - 6x)$ using FOIL
+* $2x \cdot 3x^2 = 6x^3$
+* $2x \cdot (-6x) = -12x^2$
+* $5 \cdot 3x^2 = +15x^2$
+* $5 \cdot (-6x) = -30x
 
-Distribute $-2$ into the second term $-(x^3 - 3x^2 - 5) \cdot 2$[cite: 11]:
-* $-2 \cdot x^3 = -2x^3$[cite: 11]
-* $-2 \cdot (-3x^2) = +6x^2$[cite: 11]
-* $-2 \cdot (-5) = +10$[cite: 11]
+Distribute $-2$ into the second term $-(x^3 - 3x^2 - 5) \cdot 2
+* $-2 \cdot x^3 = -2x^3$
+* $-2 \cdot (-3x^2) = +6x^2$
+* $-2 \cdot (-5) = +10$
 
-Combine into the numerator[cite: 11]:
+Combine into the numerator
 
 $$= \frac{6x^3 - 12x^2 + 15x^2 - 30x - 2x^3 + 6x^2 + 10}{(2x + 5)^2}$$
-[cite: 11]
-
 ---
-
 ##### **Step 4: Combine like terms in the numerator**
-* **$x^3$ terms:** $6x^3 - 2x^3 = 4x^3$[cite: 11]
-* **$x^2$ terms:** $-12x^2 + 15x^2 + 6x^2 = 9x^2$[cite: 11]
+* **$x^3$ terms:** $6x^3 - 2x^3 = 4x^3$
+* **$x^2$ terms:** $-12x^2 + 15x^2 + 6x^2 = 9x^2$
 * **$x$ terms:** $-30x$
