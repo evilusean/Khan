@@ -3979,7 +3979,6 @@ Find $\frac{d}{dx}\left[\sqrt{3x^2 + 5}\right]$.
 In this conceptual example, Professor Leonard demonstrates how to apply the **Product Rule** when one of the functions is written abstractly as $f(x)$ with given point values.
 
 ---
-
 #### Given Information
 
 * **Function:** $g(x) = (x^2 + 1)f(x)$
@@ -3987,15 +3986,12 @@ In this conceptual example, Professor Leonard demonstrates how to apply the **Pr
 * **Goal:** Find $g'(2)$
 
 ---
-
 #### The Product Rule Formula
 
 $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \cdot S(x) + F(x) \cdot \left(\frac{d}{dx}[S(x)]\right)$$
 
 ---
-
 #### Step-by-Step Solution
-
 1. **Set up the Product Rule for $g(x)$:**
    $$g'(x) = \frac{d}{dx}\left[x^2 + 1\right] \cdot f(x) + (x^2 + 1) \cdot \frac{d}{dx}\left[f(x)\right]$$
 
@@ -4014,7 +4010,6 @@ $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \
    $$g'(2) = 12 - 5$$
 
 ---
-
 #### Final Answer
-
 $$g'(2) = 7$$
+
