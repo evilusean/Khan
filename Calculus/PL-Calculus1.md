@@ -3974,4 +3974,47 @@ Find $\frac{d}{dx}\left[\sqrt{3x^2 + 5}\right]$.
 * **Always rewrite radicals as rational powers first** ($\sqrt[n]{x^m} = x^{\frac{m}{n}}$).
 * **Apply the Power Rule** by bringing the exponent out front and subtracting 1.
 * **Simplify negative fractional exponents** back into positive radical denominators.
+### Problem: $g(x) = (x^2 + 1)f(x)$ — Find $g'(2)$ given $f(2) = 3$ and $f'(2) = -1$
 
+In this conceptual example, Professor Leonard demonstrates how to apply the **Product Rule** when one of the functions is written abstractly as $f(x)$ with given point values.
+
+---
+
+#### Given Information
+
+* **Function:** $g(x) = (x^2 + 1)f(x)$
+* **Known Values:** $f(2) = 3$ and $f'(2) = -1$
+* **Goal:** Find $g'(2)$
+
+---
+
+#### The Product Rule Formula
+
+$$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \cdot S(x) + F(x) \cdot \left(\frac{d}{dx}[S(x)]\right)$$
+
+---
+
+#### Step-by-Step Solution
+
+1. **Set up the Product Rule for $g(x)$:**
+   $$g'(x) = \frac{d}{dx}\left[x^2 + 1\right] \cdot f(x) + (x^2 + 1) \cdot \frac{d}{dx}\left[f(x)\right]$$
+
+2. **Differentiate each component symbolically:**
+   * $\frac{d}{dx}[x^2 + 1] = 2x$
+   * $\frac{d}{dx}[f(x)] = f'(x)$
+
+   $$g'(x) = 2x \cdot f(x) + (x^2 + 1) \cdot f'(x)$$
+
+3. **Evaluate at $x = 2$ by substituting $2$ into the general derivative:**
+   $$g'(2) = 2(2) \cdot f(2) + (2^2 + 1) \cdot f'(2)$$
+
+4. **Substitute the given values ($f(2) = 3$ and $f'(2) = -1$):**
+   $$g'(2) = 4(3) + (4 + 1)(-1)$$
+   $$g'(2) = 12 + (5)(-1)$$
+   $$g'(2) = 12 - 5$$
+
+---
+
+#### Final Answer
+
+$$g'(2) = 7$$
