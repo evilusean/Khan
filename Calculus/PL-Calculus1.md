@@ -3866,13 +3866,11 @@ $$= \frac{x^2 - 2x - 3}{(x - 1)^2}$$
 * **Product Rule:** $\frac{d}{dx}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x)$
 * **Quotient Rule:** $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$
 ### Problem: $y = (x^2 - 1)(3x^4 + 2x)$ — Find $\frac{dy}{dx}$
-
 In this problem, Professor Leonard demonstrates two different methods to find the derivative: 
 1. **Method 1: Algebra First, then Power Rule** (expanding the polynomial first)
 2. **Method 2: Product Rule** (deriving directly using $d/dx [f \cdot g] = f'g + fg'$)
 
 ---
-
 #### Method 1: Expanding First (Algebra $\rightarrow$ Power Rule)
 
 Before taking any derivative, multiply out the terms using the FOIL/ distributive method.
@@ -3892,9 +3890,7 @@ Before taking any derivative, multiply out the terms using the FOIL/ distributiv
    $$\frac{dy}{dx} = 18x^5 - 12x^3 + 6x^2 - 2$$
 
 ---
-
 #### Method 2: The Product Rule
-
 The Product Rule states:
 $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = F'(x)S(x) + F(x)S'(x)$$
 *(or "Derivative of the First times Second, plus First times Derivative of the Second")*
@@ -3910,19 +3906,15 @@ $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = F'(x)S(x) + F(x)S'(x)$$
 
 3. **Expand the terms:**
    $$\frac{dy}{dx} = (6x^5 + 4x^2) + (12x^5 + 2x^2 - 12x^3 - 2)$$
-
 4. **Combine like terms:**
    * $6x^5 + 12x^5 = 18x^5$
    * $-12x^3$
    * $4x^2 + 2x^2 = 6x^2$
    * $-2$
-
-   $$\frac{dy}{dx} = 18x^5 - 12x^3 + 6x^2 - 2$$
+$$\frac{dy}{dx} = 18x^5 - 12x^3 + 6x^2 - 2$$
 
 ---
-
 #### Summary
-
 Both methods yield the exact same derivative:
 $$\frac{dy}{dx} = 18x^5 - 12x^3 + 6x^2 - 2$$
 
