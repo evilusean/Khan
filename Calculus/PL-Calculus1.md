@@ -4111,13 +4111,13 @@ $$= \frac{6x^3 - 12x^2 + 15x^2 - 30x - 2x^3 + 6x^2 + 10}{(2x + 5)^2}$$
 * **$x$ terms:** $-30x$
 ### Problem: Find $f'(x)$ for $f(x) = \frac{(3x - 1)(x^2 + 4)}{x^2 + 2}$
 
-In this problem, Professor Leonard demonstrates how to apply the **Quotient Rule** when the numerator itself requires the **Product Rule**[cite: 11].
+In this problem, Professor Leonard demonstrates how to apply the **Quotient Rule** when the numerator itself requires the **Product Rule**.
 
 ---
 
 #### 1. Given Function
 
-$$f(x) = \frac{(3x - 1)(x^2 + 4)}{x^2 + 2}$$[cite: 11]
+$$f(x) = \frac{(3x - 1)(x^2 + 4)}{x^2 + 2}$$
 
 ---
 
@@ -4133,28 +4133,28 @@ $$f(x) = \frac{(3x - 1)(x^2 + 4)}{x^2 + 2}$$[cite: 11]
 #### 3. Step-by-Step Solution
 
 ##### **Step 1: Set Up the Quotient Rule**
-Identify $\text{High} = (3x - 1)(x^2 + 4)$ and $\text{Low} = x^2 + 2$[cite: 11]:
+Identify $\text{High} = (3x - 1)(x^2 + 4)$ and $\text{Low} = x^2 + 2$:
 
-$$f'(x) = \frac{(x^2 + 2) \cdot \frac{d}{dx}\left[ (3x - 1)(x^2 + 4) \right] - (3x - 1)(x^2 + 4) \cdot \frac{d}{dx}\left[ x^2 + 2 \right]}{[x^2 + 2]^2}$$[cite: 11]
+$$f'(x) = \frac{(x^2 + 2) \cdot \frac{d}{dx}\left[ (3x - 1)(x^2 + 4) \right] - (3x - 1)(x^2 + 4) \cdot \frac{d}{dx}\left[ x^2 + 2 \right]}{[x^2 + 2]^2}$$
 
 ---
 
 ##### **Step 2: Differentiate the Individual Components**
 
 1. **Derivative of the Denominator $d(\text{Low})$:**
-   $$\frac{d}{dx}[x^2 + 2] = 2x$$[cite: 11]
+   $$\frac{d}{dx}[x^2 + 2] = 2x$$
 
 2. **Derivative of the Numerator $d(\text{High})$ using the Product Rule:**
    $$\frac{d}{dx}\left[ (3x - 1)(x^2 + 4) \right] = \frac{d}{dx}[3x - 1] \cdot (x^2 + 4) + (3x - 1) \cdot \frac{d}{dx}[x^2 + 4]$$
-   $$= 3(x^2 + 4) + (3x - 1)(2x)$$[cite: 11]
+   $$= 3(x^2 + 4) + (3x - 1)(2x)$$
 
 ---
 
 ##### **Step 3: Substitute the Derivatives Back Into the Quotient Rule**
 
-Substitute $d(\text{High}) = \left[ 3(x^2 + 4) + 2x(3x - 1) \right]$ and $d(\text{Low}) = 2x$[cite: 11]:
+Substitute $d(\text{High}) = \left[ 3(x^2 + 4) + 2x(3x - 1) \right]$ and $d(\text{Low}) = 2x$:
 
-$$f'(x) = \frac{(x^2 + 2)\left[ 3(x^2 + 4) + 2x(3x - 1) \right] - (3x - 1)(x^2 + 4) \cdot 2x}{[x^2 + 2]^2}$$[cite: 11]
+$$f'(x) = \frac{(x^2 + 2)\left[ 3(x^2 + 4) + 2x(3x - 1) \right] - (3x - 1)(x^2 + 4) \cdot 2x}{[x^2 + 2]^2}$$
 
 ---
 
@@ -4187,5 +4187,4 @@ $$f'(x) = \frac{3x^4 + 6x^2 + 4x + 24}{(x^2 + 2)^2}$$
 
 #### 5. Key Takeaways
 
-* **Nested Rules:** When a function contains a combination of products and quotients, keep your outer structure organized before working inward on individual derivatives[cite: 11].
-* **Pre-Simplification Alternative:** Alternatively, you could expand the numerator first ($(3x - 1)(x^2 + 4) = 3x^3 - x^2 + 12x - 4$)[cite: 11] before taking the derivative to avoid nesting the Product Rule inside the Quotient Rule.
+* **Nested Rules:** When a function contains a combination of products and quotients, keep your outer structure
