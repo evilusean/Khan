@@ -4014,19 +4014,16 @@ $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \
 $$g'(2) = 7$$
 
 ### Concept: The Quotient Rule
-
 The **Quotient Rule** is used in calculus to find the derivative of a function expressed as the division (quotient) of two differentiable functions:
 
 $$y = \frac{f(x)}{g(x)} \quad \text{where } g(x) \neq 0$$
 
 ---
-
 #### 1. The Quotient Rule Formula
 
 $$\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{[g(x)]^2}$$
 
 #### Verbal Mnemonic (Professor Leonard Style)
-
 A popular and reliable way to memorize the structure without getting terms mixed up:
 
 $$\frac{\text{Low} \cdot d(\text{High}) - \text{High} \cdot d(\text{Low})}{\text{Low}^2}$$
@@ -4040,7 +4037,6 @@ $$\frac{\text{Low} \cdot d(\text{High}) - \text{High} \cdot d(\text{Low})}{\text
 > **Crucial Warning:** Order matters in the numerator! Because of the minus sign, reversing the terms will make your answer negative. Always start with **Low $d(\text{High})$**.
 
 ---
-
 #### 2. Step-by-Step Worked Example
 
 **Problem:** Find $y'$ for $y = \frac{3x^2 + 1}{2x - 5}$.
@@ -4058,7 +4054,6 @@ $$\frac{\text{Low} \cdot d(\text{High}) - \text{High} \cdot d(\text{Low})}{\text
    $$y' = \frac{6x^2 - 30x - 2}{(2x - 5)^2}$$
 
 ---
-
 #### 3. Key Takeaways & Common Pitfalls
 
 * **Leave the Denominator Factored:** Generally, do not expand $[g(x)]^2$ in the denominator unless it simplifies or cancels terms in the numerator.
