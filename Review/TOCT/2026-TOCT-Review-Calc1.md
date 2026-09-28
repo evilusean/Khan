@@ -167,3 +167,10 @@ $$\frac{d}{dx}[\sqrt{x}] = \frac{d}{dx}\left[x^{\frac{1}{2}}\right]$$
 $$= \frac{1}{2} x^{\left(\frac{1}{2} - 1\right)}$$
 
 $$= \frac{1}{2} x^{-\frac{1}{2}}$$
+### Summary of Core Calculus Rules & Formulas :
+* **Power Rule:** $\frac{d}{dx}[x^n] = n x^{n-1}$ | **Constant Rule:** $\frac{d}{dx}[c] = 0$ | **Constant Multiple Rule:** $\frac{d}{dx}[c \cdot f(x)] = c \cdot f'(x)$ | **Sum/Difference Rule:** $\frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)$ | **Product Rule:** $\frac{d}{dx}[f(x) g(x)] = f'(x)g(x) + f(x)g'(x)$ | **Quotient Rule:** $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$ | **Chain Rule:** $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$ | **Square Root Shortcut:** $\frac{d}{dx}[\sqrt{x}] = \frac{1}{2\sqrt{x}}$ | **Exponential Rules:** $\frac{d}{dx}[e^x] = e^x$, $\frac{d}{dx}[a^x] = a^x \ln(a)$ | **Logarithmic Rules:** $\frac{d}{dx}[\ln(x)] = \frac{1}{x}$, $\frac{d}{dx}[\log_a(x)] = \frac{1}{x \ln(a)}$ | **Trig Rules:** $\frac{d}{dx}[\sin x] = \cos x$, $\frac{d}{dx}[\cos x] = -\sin x$, $\frac{d}{dx}[\tan x] = \sec^2 x$, $\frac{d}{dx}[\csc x] = -\csc x \cot x$, $\frac{d}{dx}[\sec x] = \sec x \tan x$, $\frac{d}{dx}[\cot x] = -\csc^2 x$ | **Inverse Trig Rules:** $\frac{d}{dx}[\arcsin x] = \frac{1}{\sqrt{1-x^2}}$, $\frac{d}{dx}[\arccos x] = -\frac{1}{\sqrt{1-x^2}}$, $\frac{d}{dx}[\arctan x] = \frac{1}{1+x^2}$
+#### Verbal Mnemonic For Quotient Rule : 
+A popular and reliable way to memorize the structure without getting terms mixed up:
+Product Rule = 'P' = Positive, Quotient Rule = negative :
+
+$$\frac{\text{Low} \cdot d(\text{High}) - \text{High} \cdot d(\text{Low})}{\text{Low}^2}$$
