@@ -174,3 +174,4 @@ A popular and reliable way to memorize the structure without getting terms mixed
 Product Rule = 'P' = Positive, Quotient Rule = negative :
 
 $$\frac{\text{Low} \cdot d(\text{High}) - \text{High} \cdot d(\text{Low})}{\text{Low}^2}$$
+## Future Sean Project : Either create a 'Calc Cheatsheet' App or Create a review template for xournal++ review, or both, still need to make Anki Cards as well
