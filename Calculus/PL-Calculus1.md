@@ -3865,5 +3865,67 @@ $$= \frac{x^2 - 2x - 3}{(x - 1)^2}$$
 * **Sum/Difference Rule:** $\frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)$
 * **Product Rule:** $\frac{d}{dx}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x)$
 * **Quotient Rule:** $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$
+### Problem: $y = (x^2 - 1)(3x^4 + 2x)$ — Find $\frac{dy}{dx}$
 
+In this problem, Professor Leonard demonstrates two different methods to find the derivative: 
+1. **Method 1: Algebra First, then Power Rule** (expanding the polynomial first)
+2. **Method 2: Product Rule** (deriving directly using $d/dx [f \cdot g] = f'g + fg'$)
+
+---
+
+#### Method 1: Expanding First (Algebra $\rightarrow$ Power Rule)
+
+Before taking any derivative, multiply out the terms using the FOIL/ distributive method.
+
+1. **Original Function:**
+   $$y = (x^2 - 1)(3x^4 + 2x)$$
+
+2. **Multiply terms out:**
+   $$y = x^2(3x^4) + x^2(2x) - 1(3x^4) - 1(2x)$$
+   $$y = 3x^6 + 2x^3 - 3x^4 - 2x$$
+
+3. **Rearrange in descending power order (standard form):**
+   $$y = 3x^6 - 3x^4 + 2x^3 - 2x$$
+
+4. **Take the derivative term-by-term using the Power Rule ($\frac{d}{dx}[x^n] = n x^{n-1}$):**
+   $$\frac{dy}{dx} = 3(6x^5) - 3(4x^3) + 2(3x^2) - 2(1)$$
+   $$\frac{dy}{dx} = 18x^5 - 12x^3 + 6x^2 - 2$$
+
+---
+
+#### Method 2: The Product Rule
+
+The Product Rule states:
+$$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = F'(x)S(x) + F(x)S'(x)$$
+*(or "Derivative of the First times Second, plus First times Derivative of the Second")*
+
+1. **Set up the Product Rule:**
+   $$\frac{dy}{dx} = \frac{d}{dx}\left[x^2 - 1\right]\cdot(3x^4 + 2x) + (x^2 - 1)\cdot\frac{d}{dx}\left[3x^4 + 2x\right]$$
+
+2. **Differentiate each piece:**
+   * $\frac{d}{dx}[x^2 - 1] = 2x$
+   * $\frac{d}{dx}[3x^4 + 2x] = 12x^3 + 2$
+
+   $$\frac{dy}{dx} = 2x(3x^4 + 2x) + (x^2 - 1)(12x^3 + 2)$$
+
+3. **Expand the terms:**
+   $$\frac{dy}{dx} = (6x^5 + 4x^2) + (12x^5 + 2x^2 - 12x^3 - 2)$$
+
+4. **Combine like terms:**
+   * $6x^5 + 12x^5 = 18x^5$
+   * $-12x^3$
+   * $4x^2 + 2x^2 = 6x^2$
+   * $-2$
+
+   $$\frac{dy}{dx} = 18x^5 - 12x^3 + 6x^2 - 2$$
+
+---
+
+#### Summary
+
+Both methods yield the exact same derivative:
+$$\frac{dy}{dx} = 18x^5 - 12x^3 + 6x^2 - 2$$
+
+* **Method 1** is often easier when functions can be quickly multiplied out into polynomials.
+* **Method 2** shows that the Product Rule holds true and works when terms cannot easily be multiplied together (e.g., polynomials mixed with trigonometric or exponential functions).
 
