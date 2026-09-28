@@ -4013,3 +4013,54 @@ $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \
 #### Final Answer
 $$g'(2) = 7$$
 
+### Concept: The Quotient Rule
+
+The **Quotient Rule** is used in calculus to find the derivative of a function expressed as the division (quotient) of two differentiable functions:
+
+$$y = \frac{f(x)}{g(x)} \quad \text{where } g(x) \neq 0$$
+
+---
+
+#### 1. The Quotient Rule Formula
+
+$$\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{[g(x)]^2}$$
+
+#### Verbal Mnemonic (Professor Leonard Style)
+
+A popular and reliable way to memorize the structure without getting terms mixed up:
+
+$$\frac{\text{Low} \cdot d(\text{High}) - \text{High} \cdot d(\text{Low})}{\text{Low}^2}$$
+
+* **Low:** The denominator function $g(x)$
+* $d(\text{High})$: The derivative of the numerator $f'(x)$
+* **High:** The numerator function $f(x)$
+* $d(\text{Low})$: The derivative of the denominator $g'(x)$
+* **Low$^2$:** The denominator squared $[g(x)]^2$
+
+> **Crucial Warning:** Order matters in the numerator! Because of the minus sign, reversing the terms will make your answer negative. Always start with **Low $d(\text{High})$**.
+
+---
+
+#### 2. Step-by-Step Worked Example
+
+**Problem:** Find $y'$ for $y = \frac{3x^2 + 1}{2x - 5}$.
+
+1. **Identify the components:**
+   * $\text{High} = 3x^2 + 1 \implies d(\text{High}) = 6x$
+   * $\text{Low} = 2x - 5 \implies d(\text{Low}) = 2$
+
+2. **Apply the formula:**
+   $$y' = \frac{(2x - 5)(6x) - (3x^2 + 1)(2)}{(2x - 5)^2}$$
+
+3. **Expand and simplify the numerator:**
+   $$y' = \frac{12x^2 - 30x - (6x^2 + 2)}{(2x - 5)^2}$$
+   $$y' = \frac{12x^2 - 30x - 6x^2 - 2}{(2x - 5)^2}$$
+   $$y' = \frac{6x^2 - 30x - 2}{(2x - 5)^2}$$
+
+---
+
+#### 3. Key Takeaways & Common Pitfalls
+
+* **Leave the Denominator Factored:** Generally, do not expand $[g(x)]^2$ in the denominator unless it simplifies or cancels terms in the numerator.
+* **Watch the Minus Sign:** When subtracting the second term $f(x) \cdot g'(x)$, distribute the negative sign carefully across all parts of the expanded product.
+* **Simplify First when Possible:** If the denominator is just a single monomial (e.g., $\frac{x^3 + 2x}{x}$), split the fraction into individual terms and use the Power Rule instead of the Quotient Rule to save time.
