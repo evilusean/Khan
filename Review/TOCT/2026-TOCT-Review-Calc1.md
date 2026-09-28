@@ -150,3 +150,63 @@ $$\frac{d}{dx}\left[ F(x) \cdot S(x) \right] = \left(\frac{d}{dx}[F(x)]\right) \
 #### Final Answer
 
 $$f'(x) = 2x\sqrt{x} + \frac{1 + x^2}{2\sqrt{x}}$$
+### Concept: Taking the Derivative of a Square Root — $\frac{d}{dx}[\sqrt{x}]$
+
+In calculus, differentiating square root functions (and radicals in general) relies on converting the radical expression into fractional exponent form before applying the **Power Rule**.
+
+---
+
+#### 1. Core Rule & Rewrite Method
+
+To take the derivative of $\sqrt{x}$, first rewrite the square root using an exponent:
+
+$$\sqrt{x} = x^{\frac{1}{2}}$$
+
+Now, apply the standard **Power Rule** ($\frac{d}{dx}[x^n] = n x^{n-1}$):
+
+$$\frac{d}{dx}[\sqrt{x}] = \frac{d}{dx}\left[x^{\frac{1}{2}}\right]$$
+
+$$= \frac{1}{2} x^{\left(\frac{1}{2} - 1\right)}$$
+
+$$= \frac{1}{2} x^{-\frac{1}{2}}$$
+
+---
+
+#### 2. Simplifying the Output
+
+To express the final answer in clean, non-negative radical form:
+
+1. **Move negative exponents to the denominator:**
+   $$x^{-\frac{1}{2}} = \frac{1}{x^{\frac{1}{2}}}$$
+
+2. **Convert back to a radical:**
+   $$\frac{1}{2} \cdot \frac{1}{x^{\frac{1}{2}}} = \frac{1}{2\sqrt{x}}$$
+
+#### Standard Formula (Worth Memorizing)
+
+$$\frac{d}{dx}[\sqrt{x}] = \frac{1}{2\sqrt{x}}$$
+
+*Memorizing this shortcut speeds up work when combined with the Product, Quotient, or Chain rules.*
+
+---
+
+#### 3. Generalizing with the Chain Rule: $\frac{d}{dx}[\sqrt{g(x)}]$
+
+When the inside of the square root is a composite function $g(x)$ rather than a simple $x$, combine the standard shortcut with the **Chain Rule**:
+
+$$\frac{d}{dx}\left[\sqrt{g(x)}\right] = \frac{1}{2\sqrt{g(x)}} \cdot g'(x) = \frac{g'(x)}{2\sqrt{g(x)}}$$
+
+#### Worked Example:
+Find $\frac{d}{dx}\left[\sqrt{3x^2 + 5}\right]$.
+
+1. Let $g(x) = 3x^2 + 5$.
+2. Take the derivative of the inside: $g'(x) = 6x$.
+3. Apply the general formula:
+   $$\frac{d}{dx}\left[\sqrt{3x^2 + 5}\right] = \frac{6x}{2\sqrt{3x^2 + 5}} = \frac{3x}{\sqrt{3x^2 + 5}}$$
+
+---
+
+#### Summary Checklist
+* **Always rewrite radicals as rational powers first** ($\sqrt[n]{x^m} = x^{\frac{m}{n}}$).
+* **Apply the Power Rule** by bringing the exponent out front and subtracting 1.
+* **Simplify negative fractional exponents** back into positive radical denominators.
