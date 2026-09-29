@@ -4175,3 +4175,4 @@ $$f'(x) = \frac{3x^4 + 6x^2 + 4x + 24}{(x^2 + 2)^2}$$
 ---
 #### 5. Key Takeaways
 * **Nested Rules:** When a function contains a combination of products and quotients, keep your outer structure
+## 2026-09-29 - Calculus 1 Lecture 2.4: Applications of the Derivative :
