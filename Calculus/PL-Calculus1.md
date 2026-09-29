@@ -4277,4 +4277,72 @@ $$C(x) = 9000 + 200x - 0.2x^2$$
    * **150th item:** $C'(150) = 200 - 0.4(150) = \$140.00$
 
 * **Interpretation:** The negative linear slope of the marginal cost curve indicates economies of scale in this range, where each subsequent item costs slightly less to produce than the previous one.
+### Problem: $S(T) = \frac{7T}{T^2 + 1}, \quad T = \text{years}, \quad T \ge 0$
 
+In this problem, we apply calculus to model real-world DVD sales over time. When a major movie is released on DVD or Blu-ray, consumers buy it up very rapidly at first. Over time, however, enthusiasm drops off because most people who wanted the movie already own it, leaving only a small trickling demand (or budget buyers waiting years down the road). 
+
+---
+
+#### 1. Real-World Context & Function Breakdown
+
+$$S(T) = \frac{7T}{T^2 + 1}$$
+
+* **What the Variables Mean:** $S(T)$ represents total DVD sales (measured in millions of units), and $T$ represents the number of years since the movie was officially released.
+* **Why $T \ge 0$:** Time cannot be negative because we cannot go backward in time to before the product existed.
+* **The Starting Point ($T = 0$):** If you plug $T = 0$ into $S(T)$, you get $S(0) = \frac{7(0)}{0^2 + 1} = 0$. This makes physical sense: at the exact moment the movie is placed on store shelves, zero sales have occurred yet.
+* **How the Model Behaves Over Time:**
+  * In early years, $T$ is small, so $7T$ in the numerator causes $S(T)$ to climb rapidly.
+  * As years pass ($T$ becomes large), $T^2$ in the denominator grows much faster than $7T$ in the numerator. This causes total ongoing sales rate to slow down drastically—reflecting how DVD sales drop off as the market becomes saturated.
+
+---
+
+#### 2. Strategy & Questions
+
+1. **Find the Rate of Change for Sales:** Compute the derivative $S'(T) = \frac{d}{dT}[S(T)]$. While $S(T)$ tells us total accumulated sales at time $T$, its derivative $S'(T)$ acts like a "velocity" or speed for sales—telling us how fast sales are climbing or dropping at any specific year.
+2. **Determine When Sales Peak:** During release, sales climb higher and higher until they hit an absolute maximum (the peak). At the peak, the sales curve stops increasing and begins to fall off. The slope of the line tangent to the curve at this exact highest point is flat—meaning the slope of the tangent line is zero ($S'(T) = 0$).
+3. **Determine How Fast Sales Increase at Release ($T = 0$):** Calculate $S'(0)$ to see the initial trajectory and momentum of sales the moment the movie hits shelves.
+
+---
+
+#### 3. Step-by-Step Solution
+
+##### **Question 1: Find the Rate of Change for Sales**
+
+To differentiate $S(T) = \frac{7T}{T^2 + 1}$, we use the **Quotient Rule** because $S(T)$ is a ratio of two functions:
+
+$$\frac{d}{dT}\left[\frac{\text{High}}{\text{Low}}\right] = \frac{\text{Low} \cdot \frac{d}{dT}[\text{High}] - \text{High} \cdot \frac{d}{dT}[\text{Low}]}{[\text{Low}]^2}$$
+
+* $\text{High} = 7T \implies \frac{d}{dT}[7T] = 7$
+* $\text{Low} = T^2 + 1 \implies \frac{d}{dT}[T^2 + 1] = 2T$
+
+Substitute these expressions into the Quotient Rule:
+
+$$S'(T) = \frac{(T^2 + 1)\frac{d}{dT}[7T] - 7T\frac{d}{dT}[T^2 + 1]}{(T^2 + 1)^2}$$
+
+$$S'(T) = \frac{7(T^2 + 1) - 7T(2T)}{(T^2 + 1)^2}$$
+
+Distribute and expand the numerator:
+
+$$S'(T) = \frac{7T^2 + 7 - 14T^2}{(T^2 + 1)^2}$$
+
+Combine like terms ($7T^2 - 14T^2 = -7T^2$):
+
+$$S'(T) = \frac{7 - 7T^2}{(T^2 + 1)^2}$$
+
+*This resulting equation $S'(T)$ gives the instantaneous rate of sales growth (or decline) for any given year $T$.*
+
+---
+
+##### **Question 2: When Will Sales Peak?**
+
+Sales reach their peak at the precise transition point where sales stop growing and begin falling. At this maximum peak point, the tangent line is perfectly horizontal, which means the rate of change (slope) must equal zero:
+
+$$\text{Tangent has a slope of } 0 \implies S'(T) = 0$$
+
+$$\frac{7 - 7T^2}{(T^2 + 1)^2} = 0$$
+
+For a fraction to equal zero, only its numerator needs to equal zero (since the denominator $(T^2 + 1)^2$ is strictly positive for all real values of $T$ and can never equal zero):
+
+$$7 - 7T^2 = 0$$
+
+Solve for
