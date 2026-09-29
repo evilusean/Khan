@@ -4282,7 +4282,6 @@ $$C(x) = 9000 + 200x - 0.2x^2$$
 In this problem, we apply calculus to model real-world DVD sales over time. When a major movie is released on DVD or Blu-ray, consumers buy it up very rapidly at first. Over time, however, enthusiasm drops off because most people who wanted the movie already own it, leaving only a small trickling demand (or budget buyers waiting years down the road). 
 
 ---
-
 #### 1. Real-World Context & Function Breakdown
 
 $$S(T) = \frac{7T}{T^2 + 1}$$
@@ -4295,17 +4294,13 @@ $$S(T) = \frac{7T}{T^2 + 1}$$
   * As years pass ($T$ becomes large), $T^2$ in the denominator grows much faster than $7T$ in the numerator. This causes total ongoing sales rate to slow down drastically—reflecting how DVD sales drop off as the market becomes saturated.
 
 ---
-
 #### 2. Strategy & Questions
-
 1. **Find the Rate of Change for Sales:** Compute the derivative $S'(T) = \frac{d}{dT}[S(T)]$. While $S(T)$ tells us total accumulated sales at time $T$, its derivative $S'(T)$ acts like a "velocity" or speed for sales—telling us how fast sales are climbing or dropping at any specific year.
 2. **Determine When Sales Peak:** During release, sales climb higher and higher until they hit an absolute maximum (the peak). At the peak, the sales curve stops increasing and begins to fall off. The slope of the line tangent to the curve at this exact highest point is flat—meaning the slope of the tangent line is zero ($S'(T) = 0$).
 3. **Determine How Fast Sales Increase at Release ($T = 0$):** Calculate $S'(0)$ to see the initial trajectory and momentum of sales the moment the movie hits shelves.
 
 ---
-
 #### 3. Step-by-Step Solution
-
 ##### **Question 1: Find the Rate of Change for Sales**
 
 To differentiate $S(T) = \frac{7T}{T^2 + 1}$, we use the **Quotient Rule** because $S(T)$ is a ratio of two functions:
@@ -4332,7 +4327,6 @@ $$S'(T) = \frac{7 - 7T^2}{(T^2 + 1)^2}$$
 *This resulting equation $S'(T)$ gives the instantaneous rate of sales growth (or decline) for any given year $T$.*
 
 ---
-
 ##### **Question 2: When Will Sales Peak?**
 
 Sales reach their peak at the precise transition point where sales stop growing and begin falling. At this maximum peak point, the tangent line is perfectly horizontal, which means the rate of change (slope) must equal zero:
@@ -4362,7 +4356,6 @@ $$T = \pm 1$$
 **Conclusion:** DVD sales will reach their peak demand exactly **$1$ year** after release ($T = 1$). A retail business would use this calculation to ensure they have maximum stock on hand at the 1-year mark before customer interest starts fading.
 
 ---
-
 ##### **Question 3: How Fast Will Sales Increase When the Movie is Released? ($T = 0$)**
 
 To measure how rapidly customer demand explodes right at release day ($T = 0$), plug $T = 0$ into our rate-of-change function $S'(T)$:
@@ -4376,7 +4369,6 @@ $$S'(0) = \frac{7}{1^2} = 7$$
 **Conclusion:** Right when the movie is released ($T = 0$), sales are increasing at an initial rate of **$7$ million DVDs per year**.
 
 ---
-
 #### 4. Summary of Results
 
 * **Rate of Change Function:** $S'(T) = \frac{7 - 7T^2}{(T^2 + 1)^2}$
