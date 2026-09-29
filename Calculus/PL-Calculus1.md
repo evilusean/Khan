@@ -4182,7 +4182,6 @@ https://www.youtube.com/watch?v=qr1WXiq3S3k&list=PLF797E961509B4EB5&index=13
 * **Source Video:** [Calculus 1 Lecture 2.4: Applications of the Derivative](https://www.youtube.com/watch?v=qr1WXiq3S3k) (Professor Leonard)
 
 ---
-
 #### Core Concepts Covered
 1. **Rate of Change in Business Models**
 2. **Kinematics:** Position, Velocity, Acceleration, and Jerk
@@ -4190,7 +4189,6 @@ https://www.youtube.com/watch?v=qr1WXiq3S3k&list=PLF797E961509B4EB5&index=13
 4. **Marginal Analysis:** Marginal Cost in Economics
 
 ---
-
 #### 1. Rates of Change & Optimization (DVD Sales Model)
 
 ##### Problem Setup
@@ -4205,7 +4203,6 @@ $$s(t) = \frac{7t}{t^2 + 1}$$
   $$s'(t) = \frac{(t^2 + 1) \cdot \frac{d}{dt}[7t] - 7t \cdot \frac{d}{dt}[t^2 + 1]}{(t^2 + 1)^2}$$
   $$s'(t) = \frac{(t^2 + 1)(7) - 7t(2t)}{(t^2 + 1)^2} = \frac{7t^2 + 7 - 14t^2}{(t^2 + 1)^2}$$
   $$s'(t) = \frac{7 - 7t^2}{(t^2 + 1)^2}$$
-
 ###### B. When Will Sales Peak?
 * **Concept:** A local maximum occurs where the derivative (slope of tangent line) equals zero ($s'(t) = 0$).
 * **Calculation:**
@@ -4218,7 +4215,6 @@ $$s(t) = \frac{7t}{t^2 + 1}$$
   $$s'(0) = \frac{7 - 7(0)^2}{(0^2 + 1)^2} = 7 \text{ million sales/year}$$
 
 ---
-
 #### 2. Kinematics: Position, Velocity, Acceleration, and Jerk
 
 Derivatives describe motion over time where $s(t)$ represents position:
@@ -4248,7 +4244,6 @@ $$s(t) = 2t^3 - 15t^2 + 24t$$
   $$12t - 30 = 0 \implies t = \frac{30}{12} = 2.5 \text{ seconds}$$
 
 ---
-
 #### 3. Projectile Motion (Maximum Height)
 
 ##### Problem Setup
@@ -4265,12 +4260,10 @@ An object reaches its peak height when its instantaneous velocity equals zero ($
 * **Conclusion:** The firework reaches its maximum height at $t = 8$ seconds.
 
 ---
-
 #### 4. Economics: Marginal Cost Analysis
 
 ##### Definition
 * **Marginal Cost ($C'(x)$):** The rate of change of total cost with respect to the number of items produced ($x$). It represents the approximate cost of producing the *next* additional unit.
-
 ##### Example Problem
 Given cost function:
 $$C(x) = 9000 + 200x - 0.2x^2$$
@@ -4284,3 +4277,4 @@ $$C(x) = 9000 + 200x - 0.2x^2$$
    * **150th item:** $C'(150) = 200 - 0.4(150) = \$140.00$
 
 * **Interpretation:** The negative linear slope of the marginal cost curve indicates economies of scale in this range, where each subsequent item costs slightly less to produce than the previous one.
+
