@@ -4470,7 +4470,6 @@ $$T = \frac{5}{2} = 2.5 \text{ seconds} \quad \left(2\frac{1}{2} \text{ sec}\rig
 In this lecture segment, Professor Leonard explores two crucial real-world applications of derivatives: **Marginal Cost** in business/economics and **Maximum Height** in projectile kinematics.
 
 ---
-
 #### 1. Marginal Cost Analysis
 
 ##### **Concept & Definition**
@@ -4507,7 +4506,6 @@ $$C'(x) = -0.4x + 200$$
 As production volume $x$ increases, the marginal cost per additional unit decreases. This illustrates **economies of scale**, where bulk manufacturing and fixed overhead distribution make each subsequent item cheaper to manufacture than the previous one.
 
 ---
-
 #### 2. Projectile Motion: Maximum Height
 
 ##### **Given Position Function**
@@ -4539,7 +4537,6 @@ $$V(T) = 0$$
 The object reaches its maximum height at **$T = 8\text{ seconds}$** after launch.
 
 ---
-
 #### 3. Summary of Board Work
 
 * **Marginal Cost Equation:** $C'(x) = -0.4x + 200$
