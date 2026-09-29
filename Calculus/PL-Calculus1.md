@@ -4375,11 +4375,9 @@ $$S'(0) = \frac{7}{1^2} = 7$$
 * **Peak Sales Time:** $T = 1$ year after release
 * **Initial Release Growth Rate:** $S'(0) = 7$ million DVDs/year
 ### Problem: $S(T) = 2T^3 - 15T^2 + 24T$
-
 In this section, we build on the idea of rates of change by connecting derivatives to physical motion (kinematics). Derivatives describe how a quantity changes over time, and taking successive derivatives of a position function reveals how velocity, acceleration, and jerk interact dynamically.
 
 ---
-
 #### 1. Core Kinematic Relationships
 
 When an object moves along a line, its motion is described by taking higher-order derivatives of its position function $S = f(T)$:
@@ -4394,7 +4392,6 @@ When an object moves along a line, its motion is described by taking higher-orde
   * The third derivative of position (or first derivative of acceleration). It measures the rate of change of acceleration—that sudden "snapping" or "jerking" motion felt when acceleration changes abruptly (such as stepping hard on the gas pedal in a powerful car).
 
 ---
-
 #### 2. Problem Setup & Objectives
 
 Given the position function:
@@ -4406,7 +4403,6 @@ We need to:
 3. Determine **When Acceleration equals $0$**.
 
 ---
-
 #### 3. Step-by-Step Solution
 
 ##### **Step 1: Finding Velocity, Acceleration, and Jerk Functions**
@@ -4432,7 +4428,6 @@ To find acceleration and jerk, we differentiate step-by-step using the **Power R
 * **Physical Meaning of Jerk = 12:** Because $S'''(T) = 12$ is a constant value with no $T$ variable remaining, the rate of change of acceleration is constant at all times.
 
 ---
-
 ##### **Step 2: Find Acceleration at $T = 3$ Seconds**
 
 To evaluate acceleration at a specific time ($T = 3$), plug $T = 3$ into the second derivative function $S''(T)$:
@@ -4444,7 +4439,6 @@ $$S''(3) = 6$$
 **Conclusion:** At $T = 3$ seconds, the acceleration of the object is **$6$ units/sec²** (meaning its velocity is increasing by $6$ units/sec every second at that exact moment).
 
 ---
-
 ##### **Step 3: When is Acceleration Equal to 0?**
 
 To find the time $T$ when acceleration momentarily drops to zero (the point where velocity stops increasing or decreasing and transition occurs), set the acceleration equation equal to zero:
@@ -4464,7 +4458,6 @@ $$T = \frac{5}{2} = 2.5 \text{ seconds} \quad \left(2\frac{1}{2} \text{ sec}\rig
 **Conclusion:** The acceleration of the object is zero at **$T = 2\frac{1}{2}$ seconds** ($2.5$ seconds).
 
 ---
-
 #### 4. Summary of Results
 
 * **Velocity Function:** $S'(T) = 6T^2 - 30T + 24$
