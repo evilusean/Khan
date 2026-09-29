@@ -4411,4 +4411,64 @@ We need to:
 
 ##### **Step 1: Finding Velocity, Acceleration, and Jerk Functions**
 
-To find acceleration and jerk, we differentiate step
+To find acceleration and jerk, we differentiate step-by-step using the **Power Rule** ($\frac{d}{dT}[T^n] = n T^{n-1}$):
+
+1. **Velocity ($V(T) = S'(T)$):**
+   $$S'(T) = \frac{d}{dT}[2T^3 - 15T^2 + 24T]$$
+   $$S'(T) = 2(3T^2) - 15(2T) + 24(1)$$
+   $$S'(T) = 6T^2 - 30T + 24$$
+
+2. **Acceleration ($a(T) = S''(T)$):**
+   Take the derivative of the velocity function $S'(T)$:
+   $$S''(T) = \frac{d}{dT}[6T^2 - 30T + 24]$$
+   $$S''(T) = 6(2T) - 30(1) + 0$$
+   $$S''(T) = 12T - 30 \quad \text{(Acceleration Function)}$$
+
+3. **Jerk ($j(T) = S'''(T)$):**
+   Take the derivative of the acceleration function $S''(T)$:
+   $$S'''(T) = \frac{d}{dT}[12T - 30]$$
+   $$S'''(T) = 12 \quad \text{(Jerk Function)}$$
+
+* **Physical Meaning of Jerk = 12:** Because $S'''(T) = 12$ is a constant value with no $T$ variable remaining, the rate of change of acceleration is constant at all times.
+
+---
+
+##### **Step 2: Find Acceleration at $T = 3$ Seconds**
+
+To evaluate acceleration at a specific time ($T = 3$), plug $T = 3$ into the second derivative function $S''(T)$:
+
+$$S''(3) = 12(3) - 30$$
+$$S''(3) = 36 - 30$$
+$$S''(3) = 6$$
+
+**Conclusion:** At $T = 3$ seconds, the acceleration of the object is **$6$ units/sec²** (meaning its velocity is increasing by $6$ units/sec every second at that exact moment).
+
+---
+
+##### **Step 3: When is Acceleration Equal to 0?**
+
+To find the time $T$ when acceleration momentarily drops to zero (the point where velocity stops increasing or decreasing and transition occurs), set the acceleration equation equal to zero:
+
+$$S''(T) = 0$$
+$$12T - 30 = 0$$
+
+Solve for $T$:
+
+$$12T = 30$$
+$$T = \frac{30}{12}$$
+
+Simplify the fraction by dividing numerator and denominator by $6$:
+
+$$T = \frac{5}{2} = 2.5 \text{ seconds} \quad \left(2\frac{1}{2} \text{ sec}\right)$$
+
+**Conclusion:** The acceleration of the object is zero at **$T = 2\frac{1}{2}$ seconds** ($2.5$ seconds).
+
+---
+
+#### 4. Summary of Results
+
+* **Velocity Function:** $S'(T) = 6T^2 - 30T + 24$
+* **Acceleration Function:** $S''(T) = 12T - 30$
+* **Jerk Function:** $S'''(T) = 12$
+* **Acceleration at $T = 3$:** $S''(3) = 6$ units/sec²
+* **Time when Acceleration is Zero:** $T = 2\frac{1}{2}$ seconds
