@@ -4465,3 +4465,85 @@ $$T = \frac{5}{2} = 2.5 \text{ seconds} \quad \left(2\frac{1}{2} \text{ sec}\rig
 * **Jerk Function:** $S'''(T) = 12$
 * **Acceleration at $T = 3$:** $S''(3) = 6$ units/sec²
 * **Time when Acceleration is Zero:** $T = 2\frac{1}{2}$ seconds
+### Problem: Applications of Derivatives — Marginal Cost & Projectile Motion
+
+In this lecture segment, Professor Leonard explores two crucial real-world applications of derivatives: **Marginal Cost** in business/economics and **Maximum Height** in projectile kinematics.
+
+---
+
+#### 1. Marginal Cost Analysis
+
+##### **Concept & Definition**
+* **Total Cost Function ($C(x)$):** Represents the total dollar cost incurred to produce $x$ units of a product.
+* **Marginal Cost ($C'(x)$):** The derivative of the total cost function. In economics, **marginal cost is $C'(x)$ and is the approximate cost of producing one additional item** beyond the current production level $x$.
+
+##### **Given Cost Function**
+$$C(x) = -0.2x^2 + 200x + 9000$$
+
+##### **Step 1: Find the Marginal Cost Function ($C'(x)$)**
+Take the derivative of $C(x)$ using the Power Rule:
+$$C'(x) = \frac{d}{dx}[-0.2x^2 + 200x + 9000]$$
+$$C'(x) = -0.2(2x) + 200(1) + 0$$
+$$C'(x) = -0.4x + 200$$
+
+##### **Step 2: Evaluate Marginal Cost at Various Production Levels**
+
+* **At $x = 100$ items:**
+  $$C'(100) = -0.4(100) + 200$$
+  $$C'(100) = -40 + 200 = 160$$
+  * **Meaning:** When producing $100$ items, the estimated cost to produce the **$101\text{st}$ item** is **$\$160$**.
+
+* **At $x = 101$ items:**
+  $$C'(101) = -0.4(101) + 200$$
+  $$C'(101) = -40.4 + 200 = 159.6$$
+  * **Meaning:** When producing $101$ items, the estimated cost to produce the **$102\text{nd}$ item** is **$\$159.60$**.
+
+* **At $x = 150$ items:**
+  $$C'(150) = -0.4(150) + 200$$
+  $$C'(150) = -60 + 200 = 140$$
+  * **Meaning:** When producing $150$ items, the estimated cost to produce the **$151\text{st}$ item** drops to **$\$140$**.
+
+##### **Economic Interpretation**
+As production volume $x$ increases, the marginal cost per additional unit decreases. This illustrates **economies of scale**, where bulk manufacturing and fixed overhead distribution make each subsequent item cheaper to manufacture than the previous one.
+
+---
+
+#### 2. Projectile Motion: Maximum Height
+
+##### **Given Position Function**
+$$S(T) = -16T^2 + 256T$$
+*(where $S(T)$ is vertical position/height in feet, and $T$ is time in seconds)*
+
+##### **Goal**
+Find the time $T$ when the object reaches its **Maximum Height**.
+
+##### **Key Physical Concept**
+When a projectile is launched into the air, it climbs upward, slows down due to gravity, momentarily stops at its peak height, and then falls back down. At the exact instant it reaches peak height, its instantaneous velocity is zero:
+$$V(T) = 0$$
+
+##### **Step-by-Step Solution**
+
+1. **Find Velocity Function ($V(T) = S'(T)$):**
+   $$V(T) = S'(T) = \frac{d}{dT}[-16T^2 + 256T]$$
+   $$V(T) = -32T + 256$$
+
+2. **Set Velocity equal to 0:**
+   $$-32T + 256 = 0$$
+
+3. **Solve for Time $T$:**
+   $$256 = 32T$$
+   $$\frac{256}{32} = \frac{32T}{32}$$
+   $$T = 8\text{ sec}$$
+
+##### **Conclusion**
+The object reaches its maximum height at **$T = 8\text{ seconds}$** after launch.
+
+---
+
+#### 3. Summary of Board Work
+
+* **Marginal Cost Equation:** $C'(x) = -0.4x + 200$
+* **Cost of $101\text{st}$ Item:** $C'(100) = \$160$
+* **Cost of $102\text{nd}$ Item:** $C'(101) = \$159.60$
+* **Cost of $151\text{st}$ Item:** $C'(150) = \$140$
+* **Time to Reach Max Height:** $T = 8\text{ seconds}$
