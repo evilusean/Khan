@@ -4374,3 +4374,41 @@ $$S'(0) = \frac{7}{1^2} = 7$$
 * **Rate of Change Function:** $S'(T) = \frac{7 - 7T^2}{(T^2 + 1)^2}$
 * **Peak Sales Time:** $T = 1$ year after release
 * **Initial Release Growth Rate:** $S'(0) = 7$ million DVDs/year
+### Problem: $S(T) = 2T^3 - 15T^2 + 24T$
+
+In this section, we build on the idea of rates of change by connecting derivatives to physical motion (kinematics). Derivatives describe how a quantity changes over time, and taking successive derivatives of a position function reveals how velocity, acceleration, and jerk interact dynamically.
+
+---
+
+#### 1. Core Kinematic Relationships
+
+When an object moves along a line, its motion is described by taking higher-order derivatives of its position function $S = f(T)$:
+
+* **Position Function:** $S(T) = f(T)$
+  * Represents the location of an object at any given time $T$.
+* **Velocity Function:** $V(T) = S'(T)$
+  * The first derivative of position with respect to time. It represents the rate of change of position—how fast and in what direction the object is moving.
+* **Acceleration Function:** $a(T) = V'(T) = S''(T)$
+  * The second derivative of position (or first derivative of velocity). It represents the rate of change of velocity—how quickly speed or direction is changing (like pressing down on a car's gas pedal).
+* **Jerk Function:** $j(T) = a'(T) = S'''(T)$
+  * The third derivative of position (or first derivative of acceleration). It measures the rate of change of acceleration—that sudden "snapping" or "jerking" motion felt when acceleration changes abruptly (such as stepping hard on the gas pedal in a powerful car).
+
+---
+
+#### 2. Problem Setup & Objectives
+
+Given the position function:
+$$S(T) = 2T^3 - 15T^2 + 24T$$
+
+We need to:
+1. Find the general **Acceleration** and **Jerk** functions by calculating successive derivatives.
+2. Find the exact **Acceleration at $T = 3$ seconds**.
+3. Determine **When Acceleration equals $0$**.
+
+---
+
+#### 3. Step-by-Step Solution
+
+##### **Step 1: Finding Velocity, Acceleration, and Jerk Functions**
+
+To find acceleration and jerk, we differentiate step
