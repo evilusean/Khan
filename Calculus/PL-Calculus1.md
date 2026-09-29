@@ -4177,3 +4177,110 @@ $$f'(x) = \frac{3x^4 + 6x^2 + 4x + 24}{(x^2 + 2)^2}$$
 * **Nested Rules:** When a function contains a combination of products and quotients, keep your outer structure
 ## 2026-09-29 - Calculus 1 Lecture 2.4: Applications of the Derivative :
 https://www.youtube.com/watch?v=qr1WXiq3S3k&list=PLF797E961509B4EB5&index=13
+### Calculus 1 Lecture 2.4: Applications of the Derivative
+
+* **Source Video:** [Calculus 1 Lecture 2.4: Applications of the Derivative](https://www.youtube.com/watch?v=qr1WXiq3S3k) (Professor Leonard)
+
+---
+
+#### Core Concepts Covered
+1. **Rate of Change in Business Models**
+2. **Kinematics:** Position, Velocity, Acceleration, and Jerk
+3. **Projectile Motion:** Peak Height / Optimization
+4. **Marginal Analysis:** Marginal Cost in Economics
+
+---
+
+#### 1. Rates of Change & Optimization (DVD Sales Model)
+
+##### Problem Setup
+A function models DVD sales $s(t)$ over time in years $t$ ($t \ge 0$):
+$$s(t) = \frac{7t}{t^2 + 1}$$
+
+##### Key Questions & Solutions
+
+###### A. Find the Rate of Change of Sales
+* **Concept:** Rate of change corresponds to the first derivative $\frac{ds}{dt}$ or $s'(t)$.
+* **Method:** Apply the Quotient Rule:
+  $$s'(t) = \frac{(t^2 + 1) \cdot \frac{d}{dt}[7t] - 7t \cdot \frac{d}{dt}[t^2 + 1]}{(t^2 + 1)^2}$$
+  $$s'(t) = \frac{(t^2 + 1)(7) - 7t(2t)}{(t^2 + 1)^2} = \frac{7t^2 + 7 - 14t^2}{(t^2 + 1)^2}$$
+  $$s'(t) = \frac{7 - 7t^2}{(t^2 + 1)^2}$$
+
+###### B. When Will Sales Peak?
+* **Concept:** A local maximum occurs where the derivative (slope of tangent line) equals zero ($s'(t) = 0$).
+* **Calculation:**
+  $$\frac{7 - 7t^2}{(t^2 + 1)^2} = 0 \implies 7 - 7t^2 = 0 \implies t^2 = 1 \implies t = \pm 1$$
+* **Domain Check:** Since $t \ge 0$, reject $t = -1$.
+* **Result:** Sales peak at $t = 1$ year.
+
+###### C. How Fast Are Sales Increasing At Release ($t = 0$)?
+* **Calculation:** Evaluate $s'(0)$:
+  $$s'(0) = \frac{7 - 7(0)^2}{(0^2 + 1)^2} = 7 \text{ million sales/year}$$
+
+---
+
+#### 2. Kinematics: Position, Velocity, Acceleration, and Jerk
+
+Derivatives describe motion over time where $s(t)$ represents position:
+
+| Concept | Notation | Definition |
+| :--- | :--- | :--- |
+| **Position** | $s(t)$ | Location at time $t$ |
+| **Velocity** | $v(t) = s'(t) = \frac{ds}{dt}$ | Rate of change of position |
+| **Acceleration** | $a(t) = v'(t) = s''(t) = \frac{d^2s}{dt^2}$ | Rate of change of velocity |
+| **Jerk** | $j(t) = a'(t) = s'''(t) = \frac{d^3s}{dt^3}$ | Rate of change of acceleration |
+
+##### Example Problem
+Given position function:
+$$s(t) = 2t^3 - 15t^2 + 24t$$
+
+1. **Velocity:**
+   $$v(t) = s'(t) = 6t^2 - 30t + 24$$
+2. **Acceleration:**
+   $$a(t) = v'(t) = 12t - 30$$
+3. **Jerk:**
+   $$j(t) = a'(t) = 12 \quad \text{(Constant jerk)}$$
+
+##### Finding Specific Kinematic Values:
+* **Acceleration at $t = 3$ seconds:**
+  $$a(3) = 12(3) - 30 = 6 \text{ ft/s}^2$$
+* **Time when Acceleration is Zero ($a(t) = 0$):**
+  $$12t - 30 = 0 \implies t = \frac{30}{12} = 2.5 \text{ seconds}$$
+
+---
+
+#### 3. Projectile Motion (Maximum Height)
+
+##### Problem Setup
+A firework's height function is given by:
+$$s(t) = -16t^2 + 256t$$
+
+##### Maximum Height Strategy
+An object reaches its peak height when its instantaneous velocity equals zero ($v(t) = 0$).
+
+1. **Find Velocity:**
+   $$v(t) = s'(t) = -32t + 256$$
+2. **Set Velocity to Zero:**
+   $$-32t + 256 = 0 \implies 32t = 256 \implies t = 8 \text{ seconds}$$
+* **Conclusion:** The firework reaches its maximum height at $t = 8$ seconds.
+
+---
+
+#### 4. Economics: Marginal Cost Analysis
+
+##### Definition
+* **Marginal Cost ($C'(x)$):** The rate of change of total cost with respect to the number of items produced ($x$). It represents the approximate cost of producing the *next* additional unit.
+
+##### Example Problem
+Given cost function:
+$$C(x) = 9000 + 200x - 0.2x^2$$
+
+1. **Marginal Cost Function:**
+   $$C'(x) = 200 - 0.4x$$
+
+2. **Evaluating Marginal Cost at Specific Production Levels:**
+   * **100th item:** $C'(100) = 200 - 0.4(100) = \$160$
+   * **101st item:** $C'(101) = 200 - 0.4(101) = \$159.60$
+   * **150th item:** $C'(150) = 200 - 0.4(150) = \$140.00$
+
+* **Interpretation:** The negative linear slope of the marginal cost curve indicates economies of scale in this range, where each subsequent item costs slightly less to produce than the previous one.
