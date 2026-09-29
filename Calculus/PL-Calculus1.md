@@ -4345,4 +4345,40 @@ For a fraction to equal zero, only its numerator needs to equal zero (since the 
 
 $$7 - 7T^2 = 0$$
 
-Solve for
+Solve for $T$:
+
+$$7 = 7T^2$$
+
+$$\frac{7}{7} = \frac{7T^2}{7}$$
+
+$$T^2 = 1$$
+
+$$T = \pm 1$$
+
+**Domain Check & Physical Interpretation:**
+* $T = 1$: Represents $1$ year after release.
+* $T = -1$: Represents $1$ year *before* release, which is outside our domain of $T \ge 0$. We discard $-1$.
+
+**Conclusion:** DVD sales will reach their peak demand exactly **$1$ year** after release ($T = 1$). A retail business would use this calculation to ensure they have maximum stock on hand at the 1-year mark before customer interest starts fading.
+
+---
+
+##### **Question 3: How Fast Will Sales Increase When the Movie is Released? ($T = 0$)**
+
+To measure how rapidly customer demand explodes right at release day ($T = 0$), plug $T = 0$ into our rate-of-change function $S'(T)$:
+
+$$S'(0) = \frac{7 - 7(0)^2}{(0^2 + 1)^2}$$
+
+$$S'(0) = \frac{7 - 0}{(0 + 1)^2}$$
+
+$$S'(0) = \frac{7}{1^2} = 7$$
+
+**Conclusion:** Right when the movie is released ($T = 0$), sales are increasing at an initial rate of **$7$ million DVDs per year**.
+
+---
+
+#### 4. Summary of Results
+
+* **Rate of Change Function:** $S'(T) = \frac{7 - 7T^2}{(T^2 + 1)^2}$
+* **Peak Sales Time:** $T = 1$ year after release
+* **Initial Release Growth Rate:** $S'(0) = 7$ million DVDs/year
