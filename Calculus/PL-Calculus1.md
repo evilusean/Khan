@@ -4549,18 +4549,15 @@ https://www.youtube.com/watch?v=RJJSiNz5oto&list=PLF797E961509B4EB5&index=15
 ### Problem: Derivatives of Trigonometric Functions & Applications
 
 ---
-
 #### 1. Fundamental Limit Identities & Proof of $\frac{d}{dx}[\sin x]$
 
 ##### **Prerequisite Limits**
 To find the derivative of trigonometric functions using the definition of a derivative, we rely on two core limit identities:
 $$\lim_{H \to 0} \frac{\sin H}{H} = 1$$
 $$\lim_{H \to 0} \frac{1 - \cos H}{H} = 0$$
-
 ##### **Limit Definition Setup**
 Given $f(x) = \sin x$, find $f'(x)$:
 $$f'(x) = \lim_{H \to 0} \frac{f(x+H) - f(x)}{H} = \lim_{H \to 0} \frac{\sin(x + H) - \sin x}{H}$$
-
 ##### **Step-by-Step Proof**
 1. **Apply the Angle Sum Formula:** $\sin(x + H) = \sin x \cos H + \cos x \sin H$
    $$f'(x) = \lim_{H \to 0} \frac{\sin x \cos H + \cos x \sin H - \sin x}{H}$$
@@ -4579,7 +4576,6 @@ $$f'(x) = \lim_{H \to 0} \frac{f(x+H) - f(x)}{H} = \lim_{H \to 0} \frac{\sin(x +
 $$\frac{d}{dx}[\sin x] = \cos x$$
 
 ---
-
 #### 2. Summary Table of Trigonometric Derivatives
 
 The six standard trigonometric derivatives must be memorized:
@@ -4591,7 +4587,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 ---
-
 #### 3. Worked Examples
 
 ##### **Example 1: Tangent Line Equation Using the Product Rule**
@@ -4614,7 +4609,6 @@ $$\begin{aligned}
    $$y = x$$
 
 ---
-
 ##### **Example 2: Derivative of Quotient Function**
 * **Problem:** Find $\frac{dy}{dx}$ for $y = \frac{\sin x}{1 + \cos x}$.
 
@@ -4632,7 +4626,6 @@ $$\begin{aligned}
    $$y' = \frac{1}{1 + \cos x}$$
 
 ---
-
 ##### **Example 3: Higher-Order Derivatives & Cyclical Behavior**
 * **Problem:** Find successive derivatives of $y = \sin x$.
 
@@ -4646,7 +4639,6 @@ y^{(4)} &= \sin x \quad \text{(returns to original function)}
 * **Takeaway:** Derivatives of simple sine and cosine functions repeat in a cycle of 4.
 
 ---
-
 ##### **Example 4: Harmonic Motion (Spring Physics Application)**
 * **Problem:** A spring with a mass is stretched $3\text{ cm}$ below its resting position and released at $T = 0$. Its position function is given by $S(T) = -3 \cos T$. Find the velocity function $V(T)$.
 
@@ -4657,8 +4649,8 @@ y^{(4)} &= \sin x \quad \text{(returns to original function)}
    $$V(T) = -3 (-\sin T) = 3 \sin T$$
 
 ---
-
 #### 4. Preview of Next Concept: Need for the Chain Rule
 When functions are composed rather than simply multiplied or divided, existing rules are insufficient. For example:
 $$y = (3x^2 - 4)^{100} \quad \text{or} \quad y = \sin(3x)$$
 Expanding these algebraically is impractical. This motivates the **Chain Rule** for taking derivatives of composite functions $f(g(x))$.
+
