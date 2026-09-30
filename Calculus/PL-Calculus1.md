@@ -4546,3 +4546,119 @@ The object reaches its maximum height at **$T = 8\text{ seconds}$** after launch
 * **Time to Reach Max Height:** $T = 8\text{ seconds}$
 ## 2029-09-30 - Calculus 1 Lecture 2.5: Finding Derivatives of Trigonometric Functions :
 https://www.youtube.com/watch?v=RJJSiNz5oto&list=PLF797E961509B4EB5&index=15
+### Problem: Derivatives of Trigonometric Functions & Applications
+
+---
+
+#### 1. Fundamental Limit Identities & Proof of $\frac{d}{dx}[\sin x]$
+
+##### **Prerequisite Limits**
+To find the derivative of trigonometric functions using the definition of a derivative, we rely on two core limit identities:
+$$\lim_{H \to 0} \frac{\sin H}{H} = 1$$
+$$\lim_{H \to 0} \frac{1 - \cos H}{H} = 0$$
+
+##### **Limit Definition Setup**
+Given $f(x) = \sin x$, find $f'(x)$:
+$$f'(x) = \lim_{H \to 0} \frac{f(x+H) - f(x)}{H} = \lim_{H \to 0} \frac{\sin(x + H) - \sin x}{H}$$
+
+##### **Step-by-Step Proof**
+1. **Apply the Angle Sum Formula:** $\sin(x + H) = \sin x \cos H + \cos x \sin H$
+   $$f'(x) = \lim_{H \to 0} \frac{\sin x \cos H + \cos x \sin H - \sin x}{H}$$
+
+2. **Rearrange Terms & Factor Out $\sin x$:**
+   $$f'(x) = \lim_{H \to 0} \left( \frac{\sin x \cos H - \sin x}{H} + \frac{\cos x \sin H}{H} \right)$$
+   $$f'(x) = \lim_{H \to 0} \left( \frac{\sin x (\cos H - 1)}{H} + \cos x \cdot \frac{\sin H}{H} \right)$$
+
+3. **Factor Out $-1$ to Match the Standard Limit:**
+   $$f'(x) = \lim_{H \to 0} \left( -\sin x \cdot \frac{1 - \cos H}{H} + \cos x \cdot \frac{\sin H}{H} \right)$$
+
+4. **Evaluate the Limits as $H \to 0$:**
+   * Since $H$ goes to zero (and $x$ remains constant with respect to $H$):
+   $$f'(x) = -\sin x (0) + \cos x (1) = 0 + \cos x = \cos x$$
+
+$$\frac{d}{dx}[\sin x] = \cos x$$
+
+---
+
+#### 2. Summary Table of Trigonometric Derivatives
+
+The six standard trigonometric derivatives must be memorized:
+
+$$\begin{aligned}
+1.\quad \frac{d}{dx}[\sin x] &= \cos x & 4.\quad \frac{d}{dx}[\csc x] &= -\csc x \cot x \\
+2.\quad \frac{d}{dx}[\cos x] &= -\sin x & 5.\quad \frac{d}{dx}[\sec x] &= \sec x \tan x \\
+3.\quad \frac{d}{dx}[\tan x] &= \sec^2 x & 6.\quad \frac{d}{dx}[\cot x] &= -\csc^2 x
+\end{aligned}$$
+
+---
+
+#### 3. Worked Examples
+
+##### **Example 1: Tangent Line Equation Using the Product Rule**
+* **Problem:** Find the equation of the tangent line to $y = x \sin x$ at $x = \frac{\pi}{2}$.
+
+1. **Find the Derivative $y'$ (Product Rule):**
+   $$y' = \frac{d}{dx}[x] \cdot \sin x + x \cdot \frac{d}{dx}[\sin x]$$
+   $$y' = 1 \cdot \sin x + x \cos x = \sin x + x \cos x$$
+
+2. **Find the Slope ($m$) at $x = \frac{\pi}{2}$:**
+   $$m = y'\left(\frac{\pi}{2}\right) = \sin\left(\frac{\pi}{2}\right) + \frac{\pi}{2} \cos\left(\frac{\pi}{2}\right)$$
+   $$m = 1 + \frac{\pi}{2}(0) = 1$$
+
+3. **Find the Point $(x_1, y_1)$:**
+   * $x_1 = \frac{\pi}{2}$
+   * $y_1 = y\left(\frac{\pi}{2}\right) = \frac{\pi}{2} \sin\left(\frac{\pi}{2}\right) = \frac{\pi}{2}(1) = \frac{\pi}{2}$
+
+4. **Write the Tangent Line Equation:**
+   $$y - y_1 = m(x - x_1) \implies y - \frac{\pi}{2} = 1 \left(x - \frac{\pi}{2}\right)$$
+   $$y = x$$
+
+---
+
+##### **Example 2: Derivative of Quotient Function**
+* **Problem:** Find $\frac{dy}{dx}$ for $y = \frac{\sin x}{1 + \cos x}$.
+
+1. **Apply the Quotient Rule:**
+   $$y' = \frac{(1 + \cos x) \cdot \frac{d}{dx}[\sin x] - \sin x \cdot \frac{d}{dx}[1 + \cos x]}{(1 + \cos x)^2}$$
+   $$y' = \frac{(1 + \cos x)(\cos x) - \sin x(-\sin x)}{(1 + \cos x)^2}$$
+
+2. **Distribute & Simplify Numerator:**
+   $$y' = \frac{\cos x + \cos^2 x + \sin^2 x}{(1 + \cos x)^2}$$
+
+3. **Apply Pythagorean Identity ($\cos^2 x + \sin^2 x = 1$):**
+   $$y' = \frac{\cos x + 1}{(1 + \cos x)^2}$$
+
+4. **Cancel Common Factor:**
+   $$y' = \frac{1}{1 + \cos x}$$
+
+---
+
+##### **Example 3: Higher-Order Derivatives & Cyclical Behavior**
+* **Problem:** Find successive derivatives of $y = \sin x$.
+
+$$\begin{aligned}
+y^{(1)} &= \cos x \\
+y^{(2)} &= -\sin x \\
+y^{(3)} &= -\cos x \\
+y^{(4)} &= \sin x \quad \text{(returns to original function)}
+\end{aligned}$$
+
+* **Takeaway:** Derivatives of simple sine and cosine functions repeat in a cycle of 4.
+
+---
+
+##### **Example 4: Harmonic Motion (Spring Physics Application)**
+* **Problem:** A spring with a mass is stretched $3\text{ cm}$ below its resting position and released at $T = 0$. Its position function is given by $S(T) = -3 \cos T$. Find the velocity function $V(T)$.
+
+1. **Relate Position and Velocity:**
+   $$V(T) = S'(T) = \frac{d}{dT}[-3 \cos T]$$
+
+2. **Differentiate (Constant Multiple Rule):**
+   $$V(T) = -3 (-\sin T) = 3 \sin T$$
+
+---
+
+#### 4. Preview of Next Concept: Need for the Chain Rule
+When functions are composed rather than simply multiplied or divided, existing rules are insufficient. For example:
+$$y = (3x^2 - 4)^{100} \quad \text{or} \quad y = \sin(3x)$$
+Expanding these algebraically is impractical. This motivates the **Chain Rule** for taking derivatives of composite functions $f(g(x))$.
