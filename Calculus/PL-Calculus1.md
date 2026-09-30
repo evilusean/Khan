@@ -4545,3 +4545,4 @@ The object reaches its maximum height at **$T = 8\text{ seconds}$** after launch
 * **Cost of $151\text{st}$ Item:** $C'(150) = \$140$
 * **Time to Reach Max Height:** $T = 8\text{ seconds}$
 ## 2029-09-30 - Calculus 1 Lecture 2.5: Finding Derivatives of Trigonometric Functions :
+https://www.youtube.com/watch?v=RJJSiNz5oto&list=PLF797E961509B4EB5&index=15
