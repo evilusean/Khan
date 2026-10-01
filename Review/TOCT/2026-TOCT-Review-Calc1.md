@@ -168,10 +168,21 @@ $$= \frac{1}{2} x^{\left(\frac{1}{2} - 1\right)}$$
 
 $$= \frac{1}{2} x^{-\frac{1}{2}}$$
 ### Summary of Core Calculus Rules & Formulas :
-* **Power Rule:** $\frac{d}{dx}[x^n] = n x^{n-1}$ | **Constant Rule:** $\frac{d}{dx}[c] = 0$ | **Constant Multiple Rule:** $\frac{d}{dx}[c \cdot f(x)] = c \cdot f'(x)$ | **Sum/Difference Rule:** $\frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)$ | **Product Rule:** $\frac{d}{dx}[f(x) g(x)] = f'(x)g(x) + f(x)g'(x)$ | **Quotient Rule:** $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$ | **Chain Rule:** $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$ | **Square Root Shortcut:** $\frac{d}{dx}[\sqrt{x}] = \frac{1}{2\sqrt{x}}$ | **Exponential Rules:** $\frac{d}{dx}[e^x] = e^x$, $\frac{d}{dx}[a^x] = a^x \ln(a)$ | **Logarithmic Rules:** $\frac{d}{dx}[\ln(x)] = \frac{1}{x}$, $\frac{d}{dx}[\log_a(x)] = \frac{1}{x \ln(a)}$ | **Trig Rules:** $\frac{d}{dx}[\sin x] = \cos x$, $\frac{d}{dx}[\cos x] = -\sin x$, $\frac{d}{dx}[\tan x] = \sec^2 x$, $\frac{d}{dx}[\csc x] = -\csc x \cot x$, $\frac{d}{dx}[\sec x] = \sec x \tan x$, $\frac{d}{dx}[\cot x] = -\csc^2 x$ | **Inverse Trig Rules:** $\frac{d}{dx}[\arcsin x] = \frac{1}{\sqrt{1-x^2}}$, $\frac{d}{dx}[\arccos x] = -\frac{1}{\sqrt{1-x^2}}$, $\frac{d}{dx}[\arctan x] = \frac{1}{1+x^2}$
+* **Power Rule:** $\frac{d}{dx}[x^n] = n x^{n-1}$ | **Constant Rule:** $\frac{d}{dx}[c] = 0$ | **Constant Multiple Rule:** $\frac{d}{dx}[c \cdot f(x)] = c \cdot f'(x)$ | **Sum/Difference Rule:** $\frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)$ | **Product Rule:** $\frac{d}{dx}[f(x) g(x)] = f'(x)g(x) + f(x)g'(x)$ | **Quotient Rule:** $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$ | **Chain Rule:** $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$ | **Square Root Shortcut:** $\frac{d}{dx}[\sqrt{x}] = \frac{1}{2\sqrt{x}}$ | **Exponential Rules:** $\frac{d}{dx}[e^x] = e^x$, $\frac{d}{dx}[a^x] = a^x \ln(a)$ | **Logarithmic Rules:** $\frac{d}{dx}[\ln(x)] = \frac{1}{x}$, $\frac{d}{dx}[\log_a(x)] = \frac{1}{x \ln(a)}$ | **Trig Rules:** $\frac{d}{dx}[\sin x] = \cos x$, $\frac{d}{dx}[\cos x] = -\sin x$, $\frac{d}{dx}[\tan x] = \sec^2 x$, $\frac{d}{dx}[\csc x] = -\csc x \cot x$, $\frac{d}{dx}[\sec x] = \sec x \tan x$, $\frac{d}{dx}[\cot x] = -\csc^2 x$ | **Inverse Trig Rules:** $\frac{d}{dx}[\arcsin x] = \frac{1}{\sqrt{1-x^2}}$, $\frac{d}{dx}[\arccos x] = -\frac{1}{\sqrt{1-x^2}}$, $\frac{d}{dx}[\arctan x] = \frac{1}{1+x^2}$ 
 #### Verbal Mnemonic For Quotient Rule : 
 A popular and reliable way to memorize the structure without getting terms mixed up:
 Product Rule = 'P' = Positive, Quotient Rule = negative :
 
 $$\frac{\text{Low} \cdot d(\text{High}) - \text{High} \cdot d(\text{Low})}{\text{Low}^2}$$
-## Future Sean Project : Either create a 'Calc Cheatsheet' App or Create a review template for xournal++ review, or both, still need to make Anki Cards as well
+## Future Sean Project : Either create a 'Calc Cheatsheet' App or Create a review template for xournal++ review, or both, still need to make Anki Cards as well - Will need both the Core Calc Rules and Formulas + the Trigonometric Derivatives for the app - Basically, create the 'CheatSheet Apps' to grade my own work/passive learning via the screensaver, and create the 'Xournal++ Templates' to review, do these reviews every weeks/month until it's in my head like 'SOHCAHTOA' was
+### Trigonometric Derivatives 
+* **Trigonometric Derivatives**: The primary derivative formulas to memorize are $\frac{d}{dx}[\sin x] = \cos x$, $\frac{d}{dx}[\cos x] = -\sin x$, $\frac{d}{dx}[\tan x] = \sec^2 x$, $\frac{d}{dx}[\csc x] = -\csc x \cot x$, $\frac{d}{dx}[\sec x] = \sec x \tan x$, and $\frac{d}{dx}[\cot x] = -\csc^2 x$.
+#### Summary Table of Trigonometric Derivatives
+The six standard trigonometric derivatives must be memorized:
+
+$$\begin{aligned}
+1.\quad \frac{d}{dx}[\sin x] &= \cos x & 4.\quad \frac{d}{dx}[\csc x] &= -\csc x \cot x \\
+2.\quad \frac{d}{dx}[\cos x] &= -\sin x & 5.\quad \frac{d}{dx}[\sec x] &= \sec x \tan x \\
+3.\quad \frac{d}{dx}[\tan x] &= \sec^2 x & 6.\quad \frac{d}{dx}[\cot x] &= -\csc^2 x
+\end{aligned}$$
+

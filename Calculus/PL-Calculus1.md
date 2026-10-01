@@ -4577,7 +4577,6 @@ $$\frac{d}{dx}[\sin x] = \cos x$$
 
 ---
 #### 2. Summary Table of Trigonometric Derivatives
-
 The six standard trigonometric derivatives must be memorized:
 
 $$\begin{aligned}
