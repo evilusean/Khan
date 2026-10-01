@@ -158,7 +158,7 @@ https://www.youtube.com/watch?v=1EGFSefe5II&list=PLF797E961509B4EB5&index=4
 #### Piecewise Functions
 * Functions whose definitions change depending on the value of the input $x$.
 * Evaluated by first checking which domain interval the input value belongs to, then applying only the specific sub-formula assigned to that interval
-# Above Added To Anki Deck
+
 ## 2026-09-05 - Calculus 1 Lecture 0.3: Review of Trigonometry and Graphing Trigonometric Functions : 
 https://www.youtube.com/watch?v=SzLF-wLZF_I&list=PLF797E961509B4EB5&index=5
 ### Calculus 1 Lecture 0.3: Review of Trigonometry and Graphing Trigonometric Functions
@@ -212,7 +212,7 @@ https://www.youtube.com/watch?v=SzLF-wLZF_I&list=PLF797E961509B4EB5&index=5
   * The horizontal shift is determined by $\frac{C}{B}$:
     * Minus sign indicates a shift to the **right**.
     * Plus sign indicates a shift to the **left**.
-
+# Above Added To Anki Deck
 ## 2026-09-05 -  Calculus 1 Lecture 0.4: Combining and Composition of Functions :
 https://www.youtube.com/watch?v=f-_UsIP5jyA&list=PLF797E961509B4EB5&index=5
 ### Calculus 1 Lecture 0.4: Combining and Composition of Functions
