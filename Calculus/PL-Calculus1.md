@@ -4711,4 +4711,26 @@ Use Point-Slope Form ($y - y_1 = m(x - x_1)$):
 $$y - \frac{\pi}{2} = 1\left(x - \frac{\pi}{2}\right)$$
 $$y - \frac{\pi}{2} = x - \frac{\pi}{2}$$
 $$y = x$$
+### Example: Derivative of $y = \frac{\sin(x)}{1 + \cos(x)}$
 
+#### Problem
+Find $\frac{dy}{dx}$ for $y = \frac{\sin(x)}{1 + \cos(x)}$.
+
+---
+
+#### Step-by-Step Solution
+
+1. **Apply the Quotient Rule:**
+   $$\frac{dy}{dx} = \frac{(1 + \cos(x)) \cdot \frac{d}{dx}[\sin(x)] - \sin(x) \cdot \frac{d}{dx}[1 + \cos(x)]}{(1 + \cos(x))^2}$$
+
+2. **Evaluate the Derivatives:**
+   $$\frac{dy}{dx} = \frac{(1 + \cos(x))\cos(x) - \sin(x) \cdot (-\sin(x))}{(1 + \cos(x))^2}$$
+
+3. **Distribute and Simplify Numerator:**
+   $$\frac{dy}{dx} = \frac{\cos(x) + \cos^2(x) + \sin^2(x)}{(1 + \cos(x))^2}$$
+
+4. **Use Pythagorean Identity ($\cos^2(x) + \sin^2(x) = 1$):**
+   $$\frac{dy}{dx} = \frac{\cos(x) + 1}{(1 + \cos(x))^2}$$
+
+5. **Cancel Common Factors:**
+   $$\frac{dy}{dx} = \frac{1}{1 + \cos(x)}$$
