@@ -4652,7 +4652,6 @@ y^{(4)} &= \sin x \quad \text{(returns to original function)}
 When functions are composed rather than simply multiplied or divided, existing rules are insufficient. For example:
 $$y = (3x^2 - 4)^{100} \quad \text{or} \quad y = \sin(3x)$$
 Expanding these algebraically is impractical. This motivates the **Chain Rule** for taking derivatives of composite functions $f(g(x))$.
-
 ### Proof of the Derivative of Sin(x)
 #### Proof: $\frac{d}{dx}[\sin(x)] = \cos(x)$
 
@@ -4672,12 +4671,11 @@ Expanding these algebraically is impractical. This motivates the **Chain Rule** 
 
 3. **Rearrange Terms & Split the Fraction:**
    $$f'(x) = \lim_{h \to 0} \left( \frac{\sin(x)\cos(h) - \sin(x)}{h} + \frac{\cos(x)\sin(h)}{h} \right)$$
-
 4. **Factor and Isolate Special Limits:**
    $$f'(x) = \lim_{h \to 0} \left( -\sin(x) \cdot \frac{1 - \cos(h)}{h} + \cos(x) \cdot \frac{\sin(h)}{h} \right)$$
-
 5. **Evaluate the Limits:**
    $$f'(x) = -\sin(x) \cdot (0) + \cos(x) \cdot (1)$$
    $$f'(x) = 0 + \cos(x)$$
 #### Final Result
 $$\frac{d}{dx}[\sin(x)] = \cos(x)$$
+
