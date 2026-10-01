@@ -4678,4 +4678,40 @@ Expanding these algebraically is impractical. This motivates the **Chain Rule** 
    $$f'(x) = 0 + \cos(x)$$
 #### Final Result
 $$\frac{d}{dx}[\sin(x)] = \cos(x)$$
+### Example: Derivative and Tangent Line for $y = x \sin(x)$
 
+#### Problem
+Find $\frac{dy}{dx}$ for $y = x \sin(x)$, then find the equation of the tangent line at $x = \frac{\pi}{2}$.
+
+---
+
+#### Step 1: Find the Derivative $\frac{dy}{dx}$
+Apply the Product Rule:
+$$\frac{dy}{dx} = \frac{d}{dx}[x] \cdot \sin(x) + x \cdot \frac{d}{dx}[\sin(x)]$$
+$$\frac{dy}{dx} = \sin(x) + x \cos(x)$$
+
+---
+
+#### Step 2: Find the Slope ($m$) at $x = \frac{\pi}{2}$
+Evaluate $\frac{dy}{dx}$ at $x = \frac{\pi}{2}$:
+$$m = \sin\left(\frac{\pi}{2}\right) + \frac{\pi}{2} \cdot \cos\left(\frac{\pi}{2}\right)$$
+$$m = 1 + \frac{\pi}{2} \cdot 0$$
+$$m = 1$$
+
+---
+
+#### Step 3: Find the Point $\left(\frac{\pi}{2}, y\right)$
+Evaluate $y$ at $x = \frac{\pi}{2}$:
+$$y = x \sin(x)$$
+$$y = \frac{\pi}{2} \cdot \sin\left(\frac{\pi}{2}\right)$$
+$$y = \frac{\pi}{2} \cdot 1 = \frac{\pi}{2}$$
+
+Point: $\left(\frac{\pi}{2}, \frac{\pi}{2}\right)$
+
+---
+
+#### Step 4: Find the Equation of the Tangent Line
+Use Point-Slope Form ($y - y_1 = m(x - x_1)$):
+$$y - \frac{\pi}{2} = 1\left(x - \frac{\pi}{2}\right)$$
+$$y - \frac{\pi}{2} = x - \frac{\pi}{2}$$
+$$y = x$$
