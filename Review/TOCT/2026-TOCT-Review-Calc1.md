@@ -7,18 +7,15 @@
 * Power Rule: $\frac{d}{dx}[x^n] = n x^{n-1}$
 * Constant Multiple Rule: $\frac{d}{dx}[c \cdot f(x)] = c \cdot f'(x)$
 * Sum & Difference Rule: $\frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)$
-
 #### Operations & Combinations
 * Product Rule: $\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)$
 * Quotient Rule: $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$
 * Chain Rule: $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$
-
 #### Exponential & Logarithmic Functions
 * Exponential ($e^x$): $\frac{d}{dx}[e^x] = e^x$
 * General Exponential ($a^x$): $\frac{d}{dx}[a^x] = a^x \ln(a)$
 * Natural Logarithm ($\ln x$): $\frac{d}{dx}[\ln(x)] = \frac{1}{x}$
 * General Logarithm ($\log_a x$): $\frac{d}{dx}[\log_a(x)] = \frac{1}{x \ln(a)}$
-
 #### Trigonometric Functions
 * $\frac{d}{dx}[\sin(x)] = \cos(x)$
 * $\frac{d}{dx}[\cos(x)] = -\sin(x)$
@@ -26,7 +23,6 @@
 * $\frac{d}{dx}[\csc(x)] = -\csc(x)\cot(x)$
 * $\frac{d}{dx}[\sec(x)] = \sec(x)\tan(x)$
 * $\frac{d}{dx}[\cot(x)] = -\csc^2(x)$
-
 #### Inverse Trigonometric Functions
 * $\frac{d}{dx}[\arcsin(x)] = \frac{1}{\sqrt{1 - x^2}}$
 * $\frac{d}{dx}[\arccos(x)] = -\frac{1}{\sqrt{1 - x^2}}$
