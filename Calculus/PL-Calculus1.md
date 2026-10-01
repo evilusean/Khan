@@ -133,7 +133,7 @@ Now, last step, add $7$ to both sides to isolate $y$:
 $$y = -\frac{2}{3}x + 4 + 7$$
 $$y = -\frac{2}{3}x + 11$$
 And we're done! The equation of the line passing through $(6, 7)$ and parallel to $2x + 3y = 12$ is $y = -\frac{2}{3}x + 11$.
-# Above Added To Anki Deck
+
 ## 2026-09-04 - Calculus 1 Lecture 0.2: Introduction to Functions. :
 https://www.youtube.com/watch?v=1EGFSefe5II&list=PLF797E961509B4EB5&index=4
 ### $y = f(x)$: Introduction to Functions
@@ -157,7 +157,8 @@ https://www.youtube.com/watch?v=1EGFSefe5II&list=PLF797E961509B4EB5&index=4
 * A graph represents a function if and only if no vertical line intersects the graph at more than one point. Intersecting twice means a single input has multiple outputs, violating the definition of a function.
 #### Piecewise Functions
 * Functions whose definitions change depending on the value of the input $x$.
-* Evaluated by first checking which domain interval the input value belongs to, then applying only the specific sub-formula assigned to that interval.
+* Evaluated by first checking which domain interval the input value belongs to, then applying only the specific sub-formula assigned to that interval
+# Above Added To Anki Deck
 ## 2026-09-05 - Calculus 1 Lecture 0.3: Review of Trigonometry and Graphing Trigonometric Functions : 
 https://www.youtube.com/watch?v=SzLF-wLZF_I&list=PLF797E961509B4EB5&index=5
 ### Calculus 1 Lecture 0.3: Review of Trigonometry and Graphing Trigonometric Functions
