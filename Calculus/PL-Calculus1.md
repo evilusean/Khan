@@ -212,7 +212,7 @@ https://www.youtube.com/watch?v=SzLF-wLZF_I&list=PLF797E961509B4EB5&index=5
   * The horizontal shift is determined by $\frac{C}{B}$:
     * Minus sign indicates a shift to the **right**.
     * Plus sign indicates a shift to the **left**.
-# Above Added To Anki Deck
+
 ## 2026-09-05 -  Calculus 1 Lecture 0.4: Combining and Composition of Functions :
 https://www.youtube.com/watch?v=f-_UsIP5jyA&list=PLF797E961509B4EB5&index=5
 ### Calculus 1 Lecture 0.4: Combining and Composition of Functions
@@ -278,6 +278,7 @@ Given $h(x) = (x - 7)^3$:
 * **Inner function:** $g(x) = x - 7$
 * **Outer function:** $f(x) = x^3$
 * **Verification:** $f(g(x)) = f(x - 7) = (x - 7)^3$
+# Above Added To Anki Deck
 ## 2026-09-07 - Calculus 1 Lecture 1.1: An Introduction to Limits :
 https://www.youtube.com/watch?v=54_XRjHhZzI&list=PLF797E961509B4EB5&index=7
 ### Calculus 1 Lecture 1.1: An Introduction to Limits
