@@ -4729,3 +4729,4 @@ Find $\frac{dy}{dx}$ for $y = \frac{\sin(x)}{1 + \cos(x)}$.
    $$\frac{dy}{dx} = \frac{\cos(x) + 1}{(1 + \cos(x))^2}$$
 5. **Cancel Common Factors:**
    $$\frac{dy}{dx} = \frac{1}{1 + \cos(x)}$$
+## 2026-10-02 - Calculus 1 Lecture 2.6: Discussion of the Chain Rule for Derivatives of Functions :
