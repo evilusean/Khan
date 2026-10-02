@@ -2636,7 +2636,7 @@ $$= -12 + 3(0) = -12$$
 **Final Results:**
 * **Average Rate of Change on $[2, 5]$:** $21$
 * **Instantaneous Rate of Change at $x = -2$:** $-12$
-# Above Added To Anki Deck
+
 ## 2026-09-20 - Calculus 1 Lecture 2.1: Introduction to the Derivative of a Function :
 https://www.youtube.com/watch?v=962lLfW-8Jo&list=PLF797E961509B4EB5&index=10
 ### Calculus 1 Lecture 2.1: Introduction to the Derivative of a Function
@@ -3351,6 +3351,7 @@ When you want to calculate the derivative at a **specific numerical value** $x =
 
 * **$y'$ Notation at a Point:**
   $$y'(a)$$
+# Above Added To Anki Deck
 ## 2026-09-22 - Calculus 1 Lecture 2.2: Techniques of Differentiation (Finding Derivatives of Functions Easily) :
 https://www.youtube.com/watch?v=EY6FHX6asU0&list=PLF797E961509B4EB5&index=12
 ### Calculus 1 — Techniques of Differentiation
