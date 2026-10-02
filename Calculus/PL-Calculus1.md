@@ -3815,10 +3815,10 @@ $$\frac{dy}{dx} = \frac{3}{2} x^{7/2} - \frac{1}{3} x^{-1/2} + \frac{1}{2} x^{-3
 
 * **Algebra First, Calculus Second:** Always simplify and rewrite quotient expressions into standard power-rule form ($c \cdot x^n$) before applying any derivative formulas.
 * **Exponent Subtraction:** Double-check fraction arithmetic when subtracting $1$ from powers ($9/2 - 1 = 7/2$, $1/2 - 1 = -1/2$, $-1/2 - 1 = -3/2$).
-# Above Added To Anki Deck
+
 ## 2026-09-27 - Calculus 1 Lecture 2.3: The Product and Quotient Rules for Derivatives of Functions :
 https://www.youtube.com/watch?v=AvCQQ3X4Nuc&list=PLF797E961509B4EB5&index=13
-### Calculus 1 Lecture 2.3: The Product and Quotient Rules for Derivatives of Functions
+#### Calculus 1 Lecture 2.3: The Product and Quotient Rules for Derivatives of Functions
 
 #### Overview
 This lecture covers essential rules for finding derivatives of products and quotients of functions without relying on the limit definition of the derivative.
@@ -4183,6 +4183,7 @@ $$f'(x) = \frac{3x^4 + 6x^2 + 4x + 24}{(x^2 + 2)^2}$$
 ---
 #### 5. Key Takeaways
 * **Nested Rules:** When a function contains a combination of products and quotients, keep your outer structure
+# Above Added To Anki Deck
 ## 2026-09-29 - Calculus 1 Lecture 2.4: Applications of the Derivative :
 https://www.youtube.com/watch?v=qr1WXiq3S3k&list=PLF797E961509B4EB5&index=13
 ### Calculus 1 Lecture 2.4: Applications of the Derivative
