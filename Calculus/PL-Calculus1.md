@@ -4553,7 +4553,7 @@ The object reaches its maximum height at **$T = 8\text{ seconds}$** after launch
 * **Cost of $102\text{nd}$ Item:** $C'(101) = \$159.60$
 * **Cost of $151\text{st}$ Item:** $C'(150) = \$140$
 * **Time to Reach Max Height:** $T = 8\text{ seconds}$
-# Above Added To Anki Deck
+
 ## 2029-09-30 - Calculus 1 Lecture 2.5: Finding Derivatives of Trigonometric Functions :
 https://www.youtube.com/watch?v=RJJSiNz5oto&list=PLF797E961509B4EB5&index=15
 ### Problem: Derivatives of Trigonometric Functions & Applications
@@ -4737,5 +4737,6 @@ Find $\frac{dy}{dx}$ for $y = \frac{\sin(x)}{1 + \cos(x)}$.
    $$\frac{dy}{dx} = \frac{\cos(x) + 1}{(1 + \cos(x))^2}$$
 5. **Cancel Common Factors:**
    $$\frac{dy}{dx} = \frac{1}{1 + \cos(x)}$$
+# Above Added To Anki Deck
 ## 2026-10-02 - Calculus 1 Lecture 2.6: Discussion of the Chain Rule for Derivatives of Functions :
 https://www.youtube.com/watch?v=8dr1dZjfhmc&list=PLF797E961509B4EB5&index=16
