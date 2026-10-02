@@ -4730,3 +4730,4 @@ Find $\frac{dy}{dx}$ for $y = \frac{\sin(x)}{1 + \cos(x)}$.
 5. **Cancel Common Factors:**
    $$\frac{dy}{dx} = \frac{1}{1 + \cos(x)}$$
 ## 2026-10-02 - Calculus 1 Lecture 2.6: Discussion of the Chain Rule for Derivatives of Functions :
+https://www.youtube.com/watch?v=8dr1dZjfhmc&list=PLF797E961509B4EB5&index=16
