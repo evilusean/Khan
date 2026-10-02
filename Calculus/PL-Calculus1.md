@@ -4183,7 +4183,7 @@ $$f'(x) = \frac{3x^4 + 6x^2 + 4x + 24}{(x^2 + 2)^2}$$
 ---
 #### 5. Key Takeaways
 * **Nested Rules:** When a function contains a combination of products and quotients, keep your outer structure
-# Above Added To Anki Deck
+
 ## 2026-09-29 - Calculus 1 Lecture 2.4: Applications of the Derivative :
 https://www.youtube.com/watch?v=qr1WXiq3S3k&list=PLF797E961509B4EB5&index=13
 ### Calculus 1 Lecture 2.4: Applications of the Derivative
@@ -4553,6 +4553,7 @@ The object reaches its maximum height at **$T = 8\text{ seconds}$** after launch
 * **Cost of $102\text{nd}$ Item:** $C'(101) = \$159.60$
 * **Cost of $151\text{st}$ Item:** $C'(150) = \$140$
 * **Time to Reach Max Height:** $T = 8\text{ seconds}$
+# Above Added To Anki Deck
 ## 2029-09-30 - Calculus 1 Lecture 2.5: Finding Derivatives of Trigonometric Functions :
 https://www.youtube.com/watch?v=RJJSiNz5oto&list=PLF797E961509B4EB5&index=15
 ### Problem: Derivatives of Trigonometric Functions & Applications
