@@ -3351,7 +3351,7 @@ When you want to calculate the derivative at a **specific numerical value** $x =
 
 * **$y'$ Notation at a Point:**
   $$y'(a)$$
-# Above Added To Anki Deck
+
 ## 2026-09-22 - Calculus 1 Lecture 2.2: Techniques of Differentiation (Finding Derivatives of Functions Easily) :
 https://www.youtube.com/watch?v=EY6FHX6asU0&list=PLF797E961509B4EB5&index=12
 ### Calculus 1 — Techniques of Differentiation
@@ -3815,6 +3815,7 @@ $$\frac{dy}{dx} = \frac{3}{2} x^{7/2} - \frac{1}{3} x^{-1/2} + \frac{1}{2} x^{-3
 
 * **Algebra First, Calculus Second:** Always simplify and rewrite quotient expressions into standard power-rule form ($c \cdot x^n$) before applying any derivative formulas.
 * **Exponent Subtraction:** Double-check fraction arithmetic when subtracting $1$ from powers ($9/2 - 1 = 7/2$, $1/2 - 1 = -1/2$, $-1/2 - 1 = -3/2$).
+# Above Added To Anki Deck
 ## 2026-09-27 - Calculus 1 Lecture 2.3: The Product and Quotient Rules for Derivatives of Functions :
 https://www.youtube.com/watch?v=AvCQQ3X4Nuc&list=PLF797E961509B4EB5&index=13
 ### Calculus 1 Lecture 2.3: The Product and Quotient Rules for Derivatives of Functions
