@@ -499,7 +499,7 @@ Since the left-hand limit does not equal the right-hand limit ($-\infty \neq \in
 $$\lim_{x \to 0^-} \frac{1}{x} \neq \lim_{x \to 0^+} \frac{1}{x}$$
 
 $$\lim_{x \to 0} \frac{1}{x} = \text{DNE} \quad (\text{Does Not Exist})$$
-# Above Added To Anki Deck
+
 ## 2026-09-09 - Calculus 1 Lecture 1.2: Properties of Limits. Techniques of Limit Computation (3 hours) :
 https://www.youtube.com/watch?v=VSqOZNULRjQ&list=PLF797E961509B4EB5&index=7
 ### Calculus 1 — Lecture 1.2: Properties of Limits & Techniques of Limit Computation
@@ -1970,6 +1970,7 @@ $$\lim_{\theta \to 0} \frac{\theta^2}{1 - \cos(\theta)} = 2$$
 
 $$\lim_{\theta \to 0} \frac{1 - \cos(\theta)}{\theta^2} = \frac{1}{2} \quad \implies \quad \lim_{\theta \to 0} \frac{\theta^2}{1 - \cos(\theta)} = 2$$
 
+# Above Added To Anki Deck
 ## 2026-09-15 - Calculus 1 Lecture 1.4: Continuity of Functions : 
 https://www.youtube.com/watch?v=OEE5-M4aY4k&list=PLF797E961509B4EB5&index=8
 ### Problem/Equation: Calculus 1 Lecture 1.4 — Continuity of Functions
