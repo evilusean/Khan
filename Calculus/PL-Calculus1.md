@@ -278,7 +278,7 @@ Given $h(x) = (x - 7)^3$:
 * **Inner function:** $g(x) = x - 7$
 * **Outer function:** $f(x) = x^3$
 * **Verification:** $f(g(x)) = f(x - 7) = (x - 7)^3$
-# Above Added To Anki Deck
+
 ## 2026-09-07 - Calculus 1 Lecture 1.1: An Introduction to Limits :
 https://www.youtube.com/watch?v=54_XRjHhZzI&list=PLF797E961509B4EB5&index=7
 ### Calculus 1 Lecture 1.1: An Introduction to Limits
@@ -499,6 +499,7 @@ Since the left-hand limit does not equal the right-hand limit ($-\infty \neq \in
 $$\lim_{x \to 0^-} \frac{1}{x} \neq \lim_{x \to 0^+} \frac{1}{x}$$
 
 $$\lim_{x \to 0} \frac{1}{x} = \text{DNE} \quad (\text{Does Not Exist})$$
+# Above Added To Anki Deck
 ## 2026-09-09 - Calculus 1 Lecture 1.2: Properties of Limits. Techniques of Limit Computation (3 hours) :
 https://www.youtube.com/watch?v=VSqOZNULRjQ&list=PLF797E961509B4EB5&index=7
 ### Calculus 1 — Lecture 1.2: Properties of Limits & Techniques of Limit Computation
