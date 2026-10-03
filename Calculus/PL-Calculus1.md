@@ -4740,3 +4740,91 @@ Find $\frac{dy}{dx}$ for $y = \frac{\sin(x)}{1 + \cos(x)}$.
 # Above Added To Anki Deck
 ## 2026-10-03 - Calculus 1 Lecture 2.6: Discussion of the Chain Rule for Derivatives of Functions :
 https://www.youtube.com/watch?v=8dr1dZjfhmc&list=PLF797E961509B4EB5&index=16
+### Calculus 1 Lecture 2.6: Discussion of the Chain Rule for Derivatives of Functions
+
+#### Overview and Purpose
+The Chain Rule is a fundamental differentiation technique used to compute the derivative of a **composite function** $f(g(x))$, often described as a function inside another function. It allows us to break down complex algebraic, trigonometric, and exponential expressions into manageable outer and inner parts.
+
+---
+
+#### Mathematical Formulation
+
+#### Standard Function Notation
+If $y = f(u)$ is a differentiable function of $u$, and $u = g(x)$ is a differentiable function of $x$, then the composite function $y = f(g(x))$ is differentiable with respect to $x$:
+
+$$\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$$
+
+In words: **Derivative of the outer function (evaluated at the inner function) multiplied by the derivative of the inner function.**
+
+#### Leibniz Notation
+Using Leibniz notation, the rule is expressed as:
+
+$$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$$
+
+Where:
+* $y = f(u)$ (outer function)
+* $u = g(x)$ (inner function)
+
+---
+
+#### Key Conceptual Steps
+
+1. **Identify the Structure**: Break the given function into its outer layer $f(u)$ and inner layer $g(x)$.
+2. **Differentiate the Outer Function**: Take the derivative of $f(u)$ with respect to $u$, leaving $g(x)$ untouched inside.
+3. **Differentiate the Inner Function**: Find $g'(x)$.
+4. **Multiply**: Compute $f'(g(x)) \cdot g'(x)$.
+5. **Simplify**: Perform algebraic or trigonometric simplification where appropriate.
+
+---
+
+#### Generalized Power Rule (Special Case)
+A common application of the Chain Rule is differentiating a function raised to a power $[g(x)]^n$:
+
+$$\frac{d}{dx}\left[ (g(x))^n \right] = n(g(x))^{n-1} \cdot g'(x)$$
+
+#### Example 1: Generalized Power Rule
+Find the derivative of $h(x) = (3x^2 - 5x + 2)^4$.
+
+* **Inner function $u$**: $g(x) = 3x^2 - 5x + 2$
+* **Outer function**: $f(u) = u^4$
+
+**Steps:**
+1. Outer derivative: $4u^3 = 4(3x^2 - 5x + 2)^3$
+2. Inner derivative: $\frac{d}{dx}(3x^2 - 5x + 2) = 6x - 5$
+3. Combine:
+$$h'(x) = 4(3x^2 - 5x + 2)^3 \cdot (6x - 5)$$
+
+---
+
+#### Combining the Chain Rule with Other Rules
+
+#### Example 2: Trigonometric Function with Inner Polynomial
+Find the derivative of $y = \sin(4x^3 + 1)$.
+
+* **Outer function**: $\sin(u) \implies \frac{d}{du}\sin(u) = \cos(u)$
+* **Inner function**: $u = 4x^3 + 1 \implies \frac{du}{dx} = 12x^2$
+
+$$y' = \cos(4x^3 + 1) \cdot (12x^2) = 12x^2 \cos(4x^3 + 1)$$
+
+#### Example 3: Multiple Layers (Nested Chain Rule)
+Find the derivative of $y = \cos^3(2x) = [\cos(2x)]^3$.
+
+* Layer 1 (Power): $u^3$ where $u = \cos(2x)$
+* Layer 2 (Trig): $\cos(v)$ where $v = 2x$
+* Layer 3 (Linear): $2x$
+
+**Steps:**
+1. Differentiate power: $3[\cos(2x)]^2$
+2. Differentiate cosine: $-\sin(2x)$
+3. Differentiate inner linear: $2$
+
+$$y' = 3\cos^2(2x) \cdot (-\sin(2x)) \cdot 2 = -6\cos^2(2x)\sin(2x)$$
+
+---
+
+#### Summary Checklist for Problem Solving
+
+* Check if the expression is a product, quotient, or composite function before starting.
+* Always keep the inner function $g(x)$ intact when differentiating the outer function $f(u)$.
+* Don't forget to multiply by $g'(x)$ at the very end.
+* Watch out for subtle notation differences (e.g., $\sin(x^2)$ vs $\sin^2(x)$).
