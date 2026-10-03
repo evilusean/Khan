@@ -4901,3 +4901,4 @@ Find the derivative $\frac{dy}{dx}$ using the General Power Rule / Chain Rule.
    $$= 4(3x^2 - 2)(x^3 - 2x + 38)^3$$
 4. **Distribute the constant factor and simplify**:
    $$= (12x^2 - 8)(x^3 - 2x + 38)^3$$
+# Leftoff At 26
