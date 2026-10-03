@@ -4889,7 +4889,6 @@ To evaluate $\frac{d}{dx}[(5x^3 - 2x)^4]$:
    $$\frac{d}{dx}[(5x^3 - 2x)^4] = 4(5x^3 - 2x)^{4-1} \cdot \frac{d}{dx}[5x^3 - 2x]$$
    $$= 4(5x^3 - 2x)^3 \cdot (15x^2 - 2)$$
 ### $y = (x^3 - 2x + 38)^4$
-
 #### Problem
 Find the derivative $\frac{dy}{dx}$ using the General Power Rule / Chain Rule.
 #### Step-by-Step Solution
@@ -4902,29 +4901,20 @@ Find the derivative $\frac{dy}{dx}$ using the General Power Rule / Chain Rule.
 4. **Distribute the constant factor and simplify**:
    $$= (12x^2 - 8)(x^3 - 2x + 38)^3$$
 ### $y = (2x - 3)(x^2 - 5)^3$
-
 #### Problem
 Find the derivative $\frac{dy}{dx}$ using the Product Rule combined with the Chain Rule.
-
 #### Step-by-Step Solution
-
 1. **Apply the Product Rule**:
    $$\frac{dy}{dx} = \frac{d}{dx}[2x - 3] \cdot (x^2 - 5)^3 + (2x - 3) \cdot \frac{d}{dx}[(x^2 - 5)^3]$$
-
 2. **Differentiate the first piece and apply the Chain Rule to the second piece**:
    $$= 2(x^2 - 5)^3 + (2x - 3) \cdot 3(x^2 - 5)^2 \cdot \frac{d}{dx}[x^2 - 5]$$
-
 3. **Complete the inner derivative**:
    $$= 2(x^2 - 5)^3 + (2x - 3) \cdot 3(x^2 - 5)^2 \cdot 2x$$
-
 4. **Simplify terms prior to factoring**:
    $$= 2(x^2 - 5)^3 + 6x(2x - 3)(x^2 - 5)^2$$
-
 5. **Factor out the common term $(x^2 - 5)^2$**:
    $$= (x^2 - 5)^2 \left[ 2(x^2 - 5) + 6x(2x - 3) \right]$$
-
 6. **Expand inside the brackets**:
    $$= (x^2 - 5)^2 (2x^2 - 10 + 12x^2 - 18x)$$
-
 7. **Combine like terms for the final factored form**:
    $$= (x^2 - 5)^2 (14x^2 - 18x - 10)$$
