@@ -4843,7 +4843,6 @@ To evaluate $\frac{d}{dx}[(3x^2 - 4)^{100}]$:
    $$= 100(3x^2 - 4)^{99} \cdot 6x$$
    $$= 600x(3x^2 - 4)^{99}$$
 ### Chain Rule: $\frac{d}{dx}[f(g(x))]$
-
 #### Core Concept
 * **Definition**: The Chain Rule is used to differentiate composite functions by taking the derivative of the outer function with respect to the inner function, multiplied by the derivative of the inner function.
 * **Formulas**:
@@ -4851,27 +4850,22 @@ To evaluate $\frac{d}{dx}[(3x^2 - 4)^{100}]$:
     $$\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$$
   * **Leibniz Notation**: 
     $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx} \quad \text{where } y = f(u) \text{ and } u = g(x)$$
-
 #### Step-by-Step Procedure
 1. **Identify the inner and outer functions**: Set $u = g(x)$ (inner) and $y = f(u)$ (outer).
 2. **Differentiate both parts**: Find $\frac{dy}{du}$ and $\frac{du}{dx}$.
 3. **Multiply the derivatives**: Multiply $\frac{dy}{du}$ by $\frac{du}{dx}$.
 4. **Substitute back**: Replace $u$ with the original expression $g(x)$ so the final derivative is in terms of $x$.
-
 #### Step-by-Step Example
 To evaluate $\frac{d}{dx}[\sin(x^2 + 1)]$:
-
 1. **Decompose into $y$ and $u$**:
    * Outer function: $y = \sin(u)$
    * Inner function: $u = x^2 + 1$
-
-2. **Differentiate each piece**:
+1. **Differentiate each piece**:
    * $\frac{dy}{du} = \cos(u)$
    * $\frac{du}{dx} = 2x$
-
-3. **Apply the Chain Rule**:
+1. **Apply the Chain Rule**:
    $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$$
    $$= \cos(u) \cdot 2x$$
 
-4. **Substitute $u$ back**:
+2. **Substitute $u$ back**:
    $$= 2x \cos(x^2 + 1)$$
