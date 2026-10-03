@@ -4870,27 +4870,21 @@ To evaluate $\frac{d}{dx}[\sin(x^2 + 1)]$:
 2. **Substitute $u$ back**:
    $$= 2x \cos(x^2 + 1)$$
 ### General Power Rule: $\frac{d}{dx}[g(x)]^n$
-
 #### Core Concept
 * **Definition**: The General Power Rule is a special case of the Chain Rule used specifically for finding the derivative of a function raised to a constant power $n$.
 * **Formula**:
   $$\frac{d}{dx}[g(x)]^n = n \cdot [g(x)]^{n-1} \cdot g'(x)$$
-
 #### Step-by-Step Procedure
 1. **Identify the inner function** $g(x)$ and the exponent $n$.
 2. **Apply the power rule** to the outer structure by bringing $n$ to the front and subtracting $1$ from the exponent, keeping $g(x)$ intact.
 3. **Multiply by the derivative of the inner function**, $g'(x)$.
-
 #### Step-by-Step Example
 To evaluate $\frac{d}{dx}[(5x^3 - 2x)^4]$:
-
 1. **Identify components**:
    * Inner function: $g(x) = 5x^3 - 2x$
    * Exponent: $n = 4$
-
-2. **Differentiate the inner function**:
+1. **Differentiate the inner function**:
    * $g'(x) = 15x^2 - 2$
-
-3. **Apply the General Power Rule**:
+1. **Apply the General Power Rule**:
    $$\frac{d}{dx}[(5x^3 - 2x)^4] = 4(5x^3 - 2x)^{4-1} \cdot \frac{d}{dx}[5x^3 - 2x]$$
    $$= 4(5x^3 - 2x)^3 \cdot (15x^2 - 2)$$
