@@ -4888,3 +4888,16 @@ To evaluate $\frac{d}{dx}[(5x^3 - 2x)^4]$:
 1. **Apply the General Power Rule**:
    $$\frac{d}{dx}[(5x^3 - 2x)^4] = 4(5x^3 - 2x)^{4-1} \cdot \frac{d}{dx}[5x^3 - 2x]$$
    $$= 4(5x^3 - 2x)^3 \cdot (15x^2 - 2)$$
+### $y = (x^3 - 2x + 38)^4$
+
+#### Problem
+Find the derivative $\frac{dy}{dx}$ using the General Power Rule / Chain Rule.
+#### Step-by-Step Solution
+1. **Identify the outer and inner functions and apply the Power Rule to the outside**:
+   $$\frac{dy}{dx} = 4(x^3 - 2x + 38)^3 \cdot \frac{d}{dx}[x^3 - 2x + 38]$$
+2. **Differentiate the inside function**:
+   $$= 4(x^3 - 2x + 38)^3 (3x^2 - 2)$$
+3. **Rearrange terms**:
+   $$= 4(3x^2 - 2)(x^3 - 2x + 38)^3$$
+4. **Distribute the constant factor and simplify**:
+   $$= (12x^2 - 8)(x^3 - 2x + 38)^3$$
