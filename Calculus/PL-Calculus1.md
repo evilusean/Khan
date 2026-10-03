@@ -4821,3 +4821,29 @@ $$y' = 3\cos^2(2x) \cdot (-\sin(2x)) \cdot 2 = -6\cos^2(2x)\sin(2x)$$
 * Always keep the inner function $g(x)$ intact when differentiating the outer function $f(u)$.
 * Don't forget to multiply by $g'(x)$ at the very end.
 * Watch out for subtle notation differences (e.g., $\sin(x^2)$ vs $\sin^2(x)$).
+### $\frac{d}{dx}[(3x^2 - 4)^{100}]$
+
+#### Core Concept
+* **Definition**: The Chain Rule allows you to find derivatives by using composite functions.
+* **Formula (Leibniz Notation)**: 
+  $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$$
+
+#### Step-by-Step Example
+
+To evaluate $\frac{d}{dx}[(3x^2 - 4)^{100}]$:
+
+1. **Decompose into a composite function ($y$ and $u$)**:
+   * Outer function: $y = u^{100}$
+   * Inner function: $u = 3x^2 - 4$
+
+2. **Differentiate each piece independently**:
+   * $\frac{dy}{du} = 100u^{99}$
+   * $\frac{du}{dx} = 6x$
+
+3. **Apply the Chain Rule**:
+   $$\frac{d}{dx}[(3x^2 - 4)^{100}] = \frac{d}{du}[u^{100}] \cdot \frac{d}{dx}[3x^2 - 4]$$
+   $$= 100u^{99} \cdot 6x$$
+
+4. **Substitute $u$ back in and simplify**:
+   $$= 100(3x^2 - 4)^{99} \cdot 6x$$
+   $$= 600x(3x^2 - 4)^{99}$$
