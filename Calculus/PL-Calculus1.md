@@ -4746,7 +4746,6 @@ https://www.youtube.com/watch?v=8dr1dZjfhmc&list=PLF797E961509B4EB5&index=16
 The Chain Rule is a fundamental differentiation technique used to compute the derivative of a **composite function** $f(g(x))$, often described as a function inside another function. It allows us to break down complex algebraic, trigonometric, and exponential expressions into manageable outer and inner parts.
 
 ---
-
 #### Mathematical Formulation
 
 #### Standard Function Notation
@@ -4766,7 +4765,6 @@ Where:
 * $u = g(x)$ (inner function)
 
 ---
-
 #### Key Conceptual Steps
 
 1. **Identify the Structure**: Break the given function into its outer layer $f(u)$ and inner layer $g(x)$.
@@ -4776,12 +4774,10 @@ Where:
 5. **Simplify**: Perform algebraic or trigonometric simplification where appropriate.
 
 ---
-
 #### Generalized Power Rule (Special Case)
 A common application of the Chain Rule is differentiating a function raised to a power $[g(x)]^n$:
 
 $$\frac{d}{dx}\left[ (g(x))^n \right] = n(g(x))^{n-1} \cdot g'(x)$$
-
 #### Example 1: Generalized Power Rule
 Find the derivative of $h(x) = (3x^2 - 5x + 2)^4$.
 
@@ -4795,7 +4791,6 @@ Find the derivative of $h(x) = (3x^2 - 5x + 2)^4$.
 $$h'(x) = 4(3x^2 - 5x + 2)^3 \cdot (6x - 5)$$
 
 ---
-
 #### Combining the Chain Rule with Other Rules
 
 #### Example 2: Trigonometric Function with Inner Polynomial
@@ -4805,7 +4800,6 @@ Find the derivative of $y = \sin(4x^3 + 1)$.
 * **Inner function**: $u = 4x^3 + 1 \implies \frac{du}{dx} = 12x^2$
 
 $$y' = \cos(4x^3 + 1) \cdot (12x^2) = 12x^2 \cos(4x^3 + 1)$$
-
 #### Example 3: Multiple Layers (Nested Chain Rule)
 Find the derivative of $y = \cos^3(2x) = [\cos(2x)]^3$.
 
@@ -4821,7 +4815,6 @@ Find the derivative of $y = \cos^3(2x) = [\cos(2x)]^3$.
 $$y' = 3\cos^2(2x) \cdot (-\sin(2x)) \cdot 2 = -6\cos^2(2x)\sin(2x)$$
 
 ---
-
 #### Summary Checklist for Problem Solving
 
 * Check if the expression is a product, quotient, or composite function before starting.
