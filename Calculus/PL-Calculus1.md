@@ -4960,3 +4960,24 @@ $$\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$$
    $$\frac{dy}{dx} = \cos(4x^5) \cdot \frac{d}{dx}[4x^5]$$
 2. **Differentiate the inner function and simplify**:
    $$= 20x^4 \cos(4x^5)$$
+### $\frac{d}{dx}[\cos^2(x^4)]$
+
+#### Problem
+Find the derivative $\frac{d}{dx}[\cos^2(x^4)]$ using the Chain Rule / General Power Rule.
+
+#### Step-by-Step Solution
+
+1. **Rewrite trigonometric power notation**:
+   $$\frac{d}{dx}[\cos^2(x^4)] = \frac{d}{dx}\left[\left(\cos(x^4)\right)^2\right]$$
+
+2. **Apply the Power Rule to the outermost layer**:
+   $$= 2\cos(x^4) \cdot \frac{d}{dx}[\cos(x^4)]$$
+
+3. **Differentiate the cosine layer using the Chain Rule**:
+   $$= 2\cos(x^4) \cdot \left(-\sin(x^4) \cdot \frac{d}{dx}[x^4]\right)$$
+
+4. **Differentiate the innermost power term**:
+   $$= 2\cos(x^4) \cdot \left(-\sin(x^4) \cdot 4x^3\right)$$
+
+5. **Simplify and rearrange terms**:
+   $$= -8x^3 \cos(x^4) \sin(x^4)$$
