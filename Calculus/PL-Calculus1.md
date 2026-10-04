@@ -4990,22 +4990,18 @@ Find the derivative $\frac{d}{dx}[\tan(3x^2 - 2x)]$ using the Chain Rule.
 
 #### Problem
 Find the derivative $\frac{d}{dx}\left[\sqrt{x^3 + \csc(x^3)}\right]$ using the General Power Rule and Chain Rule.
-
 #### Step-by-Step Solution
-
 1. **Rewrite the radical expression with a fractional exponent**:
    $$\frac{d}{dx}\left[\sqrt{x^3 + \csc(x^3)}\right] = \frac{d}{dx}\left[\left(x^3 + \csc(x^3)\right)^{\frac{1}{2}}\right]$$
 
 2. **Apply the Power Rule to the outer function, leaving the inner expression untouched**:
    $$= \frac{1}{2}\left(x^3 + \csc(x^3)\right)^{-\frac{1}{2}} \cdot \frac{d}{dx}\left[x^3 + \csc(x^3)\right]$$
-
 3. **Differentiate the terms inside the brackets (applying the Chain Rule to $\csc(x^3)$)**:
    $$= \frac{1}{2}\left(x^3 + \csc(x^3)\right)^{-\frac{1}{2}} \cdot \left[3x^2 + \left(-\csc(x^3)\cot(x^3) \cdot \frac{d}{dx}[x^3]\right)\right]$$
-
 4. **Complete the derivative of the innermost term**:
    $$= \frac{1}{2}\left(x^3 + \csc(x^3)\right)^{-\frac{1}{2}} \cdot \left[3x^2 - \csc(x^3)\cot(x^3) \cdot (3x^2)\right]$$
-
 5. **Factor out $3x^2$ and simplify into radical fraction form**:
    $$= \frac{3x^2\left(1 - \csc(x^3)\cot(x^3)\right)}{2\sqrt{x^3 + \csc(x^3)}}$$
+
 
 
