@@ -4935,23 +4935,18 @@ Find the derivative $\frac{dy}{dx}$ using the General Power Rule / Chain Rule.
 
 #### Problem
 Find the derivative $\frac{dy}{dx}$ using the Chain Rule.
-
 #### Step-by-Step Solution
-
 1. **Decompose into $y$ and $u$**:
    * Outer function: $y = \cos(u)$
    * Inner function: $u = x^4$
-
-2. **Differentiate each piece**:
+1. **Differentiate each piece**:
    * $\frac{dy}{du} = -\sin(u)$
    * $\frac{du}{dx} = 4x^3$
-
-3. **Apply the Chain Rule formula**:
+1. **Apply the Chain Rule formula**:
    $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$$
    $$= -\sin(u) \cdot 4x^3$$
-
-4. **Substitute $u$ back in**:
+2. **Substitute $u$ back in**:
    $$= -\sin(x^4) \cdot 4x^3$$
-
-5. **Rearrange terms to simplify**:
+3. **Rearrange terms to simplify**:
    $$= -4x^3 \sin(x^4)$$
+
