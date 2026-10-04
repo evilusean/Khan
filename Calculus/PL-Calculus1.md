@@ -4931,4 +4931,4 @@ Find the derivative $\frac{dy}{dx}$ using the General Power Rule / Chain Rule.
    $$= \frac{1}{2}(5x^2 - 1)^{-\frac{1}{2}} \cdot 10x$$
 4. **Simplify and rewrite with radical notation in the denominator**:
    $$= \frac{5x}{\sqrt{5x^2 - 1}}$$
-# Leftoff @ 42:30
+
