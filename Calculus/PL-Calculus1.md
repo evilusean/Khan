@@ -4931,4 +4931,27 @@ Find the derivative $\frac{dy}{dx}$ using the General Power Rule / Chain Rule.
    $$= \frac{1}{2}(5x^2 - 1)^{-\frac{1}{2}} \cdot 10x$$
 4. **Simplify and rewrite with radical notation in the denominator**:
    $$= \frac{5x}{\sqrt{5x^2 - 1}}$$
+### $y = \cos(x^4)$
 
+#### Problem
+Find the derivative $\frac{dy}{dx}$ using the Chain Rule.
+
+#### Step-by-Step Solution
+
+1. **Decompose into $y$ and $u$**:
+   * Outer function: $y = \cos(u)$
+   * Inner function: $u = x^4$
+
+2. **Differentiate each piece**:
+   * $\frac{dy}{du} = -\sin(u)$
+   * $\frac{du}{dx} = 4x^3$
+
+3. **Apply the Chain Rule formula**:
+   $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$$
+   $$= -\sin(u) \cdot 4x^3$$
+
+4. **Substitute $u$ back in**:
+   $$= -\sin(x^4) \cdot 4x^3$$
+
+5. **Rearrange terms to simplify**:
+   $$= -4x^3 \sin(x^4)$$
