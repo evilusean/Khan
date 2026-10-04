@@ -5006,24 +5006,17 @@ Find the derivative $\frac{d}{dx}\left[\sqrt{x^3 + \csc(x^3)}\right]$ using the 
 
 #### Problem
 Find the derivative $\frac{d}{dx}\left[\left(3 + x^2\cot(x^2)\right)^{-3}\right]$ using the General Power Rule, Product Rule, and Chain Rule.
-
 #### Step-by-Step Solution
-
 1. **Apply the Power Rule to the outer function**:
    $$\frac{d}{dx}\left[\left(3 + x^2\cot(x^2)\right)^{-3}\right] = -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \frac{d}{dx}\left[3 + x^2\cot(x^2)\right]$$
-
 2. **Differentiate the inside expression (the derivative of the constant $3$ is $0$, apply Product Rule to $x^2\cot(x^2)$)**:
    $$= -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \left[\frac{d}{dx}[x^2]\cot(x^2) + x^2 \cdot \frac{d}{dx}[\cot(x^2)]\right]$$
-
 3. **Differentiate $x^2$ and apply the Chain Rule to $\cot(x^2)$**:
    $$= -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \left[2x\cot(x^2) + x^2\left(-\csc^2(x^2) \cdot \frac{d}{dx}[x^2]\right)\right]$$
-
 4. **Complete the derivative of the innermost term**:
    $$= -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \left[2x\cot(x^2) + x^2\left(-\csc^2(x^2) \cdot 2x\right)\right]$$
-
 5. **Simplify terms inside the bracket**:
    $$= -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \left[2x\cot(x^2) - 2x^3\csc^2(x^2)\right]$$
-
 6. **Factor out $2x$ and write with a positive exponent in the denominator**:
    $$= \frac{-6x\left(\cot(x^2) - x^2\csc^2(x^2)\right)}{\left(3 + x^2\cot(x^2)\right)^4}$$
 
