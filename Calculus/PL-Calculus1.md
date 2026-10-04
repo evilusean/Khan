@@ -4956,9 +4956,7 @@ Find the derivative $\frac{dy}{dx}$ using the Chain Rule.
 $$\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$$
 
 #### Step-by-Step Solution
-
 1. **Take the derivative of the outer function while keeping the inner function unchanged, then multiply by the derivative of the inner function**:
    $$\frac{dy}{dx} = \cos(4x^5) \cdot \frac{d}{dx}[4x^5]$$
-
 2. **Differentiate the inner function and simplify**:
    $$= 20x^4 \cos(4x^5)$$
