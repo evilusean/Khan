@@ -4918,3 +4918,17 @@ Find the derivative $\frac{dy}{dx}$ using the Product Rule combined with the Cha
    $$= (x^2 - 5)^2 (2x^2 - 10 + 12x^2 - 18x)$$
 7. **Combine like terms for the final factored form**:
    $$= (x^2 - 5)^2 (14x^2 - 18x - 10)$$
+### $y = \sqrt{5x^2 - 1}$
+
+#### Problem
+Find the derivative $\frac{dy}{dx}$ using the General Power Rule / Chain Rule.
+#### Step-by-Step Solution
+1. **Rewrite radical using a rational exponent**:
+   $$y = (5x^2 - 1)^{1/2}$$
+2. **Apply the General Power Rule to the outer function**:
+   $$\frac{dy}{dx} = \frac{1}{2}(5x^2 - 1)^{-\frac{1}{2}} \cdot \frac{d}{dx}[5x^2 - 1]$$
+3. **Differentiate the inner function**:
+   $$= \frac{1}{2}(5x^2 - 1)^{-\frac{1}{2}} \cdot 10x$$
+4. **Simplify and rewrite with radical notation in the denominator**:
+   $$= \frac{5x}{\sqrt{5x^2 - 1}}$$
+# Leftoff @ 42:30
