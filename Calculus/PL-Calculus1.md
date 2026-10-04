@@ -4979,15 +4979,13 @@ Find the derivative $\frac{d}{dx}[\cos^2(x^4)]$ using the Chain Rule / General P
 
 #### Problem
 Find the derivative $\frac{d}{dx}[\tan(3x^2 - 2x)]$ using the Chain Rule.
-
 #### Step-by-Step Solution
-
 1. **Differentiate the outer tangent function, leaving the inside untouched, then multiply by the derivative of the inside**:
    $$\frac{d}{dx}[\tan(3x^2 - 2x)] = \sec^2(3x^2 - 2x) \cdot \frac{d}{dx}[3x^2 - 2x]$$
-
 2. **Differentiate the inner polynomial function**:
    $$= \sec^2(3x^2 - 2x) \cdot (6x - 2)$$
-
 3. **Rearrange terms**:
    $$= (6x - 2)\sec^2(3x^2 - 2x)$$
+
+
 
