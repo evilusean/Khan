@@ -256,3 +256,50 @@ Where:
 A common application of the Chain Rule is differentiating a function raised to a power $[g(x)]^n$:
 
 $$\frac{d}{dx}\left[ (g(x))^n \right] = n(g(x))^{n-1} \cdot g'(x)$$
+#### $y = \sqrt{5x^2 - 1}$
+
+#### Problem
+Find the derivative $\frac{dy}{dx}$ using the General Power Rule / Chain Rule.
+#### Step-by-Step Solution
+1. **Rewrite radical using a rational exponent**:
+   $$y = (5x^2 - 1)^{1/2}$$
+2. **Apply the General Power Rule to the outer function**:
+   $$\frac{dy}{dx} = \frac{1}{2}(5x^2 - 1)^{-\frac{1}{2}} \cdot \frac{d}{dx}[5x^2 - 1]$$
+3. **Differentiate the inner function**:
+   $$= \frac{1}{2}(5x^2 - 1)^{-\frac{1}{2}} \cdot 10x$$
+4. **Simplify and rewrite with radical notation in the denominator**:
+   $$= \frac{5x}{\sqrt{5x^2 - 1}}$$
+#### $\frac{d}{dx}\left[\sqrt{x^3 + \csc(x^3)}\right]$
+
+#### Problem
+Find the derivative $\frac{d}{dx}\left[\sqrt{x^3 + \csc(x^3)}\right]$ using the General Power Rule and Chain Rule.
+#### Step-by-Step Solution
+1. **Rewrite the radical expression with a fractional exponent**:
+   $$\frac{d}{dx}\left[\sqrt{x^3 + \csc(x^3)}\right] = \frac{d}{dx}\left[\left(x^3 + \csc(x^3)\right)^{\frac{1}{2}}\right]$$
+
+2. **Apply the Power Rule to the outer function, leaving the inner expression untouched**:
+   $$= \frac{1}{2}\left(x^3 + \csc(x^3)\right)^{-\frac{1}{2}} \cdot \frac{d}{dx}\left[x^3 + \csc(x^3)\right]$$
+3. **Differentiate the terms inside the brackets (applying the Chain Rule to $\csc(x^3)$)**:
+   $$= \frac{1}{2}\left(x^3 + \csc(x^3)\right)^{-\frac{1}{2}} \cdot \left[3x^2 + \left(-\csc(x^3)\cot(x^3) \cdot \frac{d}{dx}[x^3]\right)\right]$$
+4. **Complete the derivative of the innermost term**:
+   $$= \frac{1}{2}\left(x^3 + \csc(x^3)\right)^{-\frac{1}{2}} \cdot \left[3x^2 - \csc(x^3)\cot(x^3) \cdot (3x^2)\right]$$
+5. **Factor out $3x^2$ and simplify into radical fraction form**:
+   $$= \frac{3x^2\left(1 - \csc(x^3)\cot(x^3)\right)}{2\sqrt{x^3 + \csc(x^3)}}$$
+#### $\frac{d}{dx}\left[\left(3 + x^2\cot(x^2)\right)^{-3}\right]$
+
+#### Problem
+Find the derivative $\frac{d}{dx}\left[\left(3 + x^2\cot(x^2)\right)^{-3}\right]$ using the General Power Rule, Product Rule, and Chain Rule.
+#### Step-by-Step Solution
+1. **Apply the Power Rule to the outer function**:
+   $$\frac{d}{dx}\left[\left(3 + x^2\cot(x^2)\right)^{-3}\right] = -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \frac{d}{dx}\left[3 + x^2\cot(x^2)\right]$$
+2. **Differentiate the inside expression (the derivative of the constant $3$ is $0$, apply Product Rule to $x^2\cot(x^2)$)**:
+   $$= -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \left[\frac{d}{dx}[x^2]\cot(x^2) + x^2 \cdot \frac{d}{dx}[\cot(x^2)]\right]$$
+3. **Differentiate $x^2$ and apply the Chain Rule to $\cot(x^2)$**:
+   $$= -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \left[2x\cot(x^2) + x^2\left(-\csc^2(x^2) \cdot \frac{d}{dx}[x^2]\right)\right]$$
+4. **Complete the derivative of the innermost term**:
+   $$= -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \left[2x\cot(x^2) + x^2\left(-\csc^2(x^2) \cdot 2x\right)\right]$$
+5. **Simplify terms inside the bracket**:
+   $$= -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \left[2x\cot(x^2) - 2x^3\csc^2(x^2)\right]$$
+6. **Factor out $2x$ and write with a positive exponent in the denominator**:
+   $$= \frac{-6x\left(\cot(x^2) - x^2\csc^2(x^2)\right)}{\left(3 + x^2\cot(x^2)\right)^4}$$
+
