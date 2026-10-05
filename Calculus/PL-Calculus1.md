@@ -5055,4 +5055,5 @@ Find the derivative $\frac{dy}{dx}$ using the Product Rule and Chain Rule.
 4. **Rearrange terms and factor out $x$**:
    $$= 2x\sin(3x) + 3x^2\cos(3x)$$
    $$= x\left(2\sin(3x) + 3x\cos(3x)\right)$$
+## 2026-10-05 - Calculus 1 Lecture 2.7: Implicit Differentiation :
 
