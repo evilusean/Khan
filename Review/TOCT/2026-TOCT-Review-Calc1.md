@@ -215,4 +215,44 @@ $$\begin{aligned}
 2.\quad \frac{d}{dx}[\cos x] &= -\sin x & 5.\quad \frac{d}{dx}[\sec x] &= \sec x \tan x \\
 3.\quad \frac{d}{dx}[\tan x] &= \sec^2 x & 6.\quad \frac{d}{dx}[\cot x] &= -\csc^2 x
 \end{aligned}$$
+### 2026-10-03 - Calculus 1 Lecture 2.6: Discussion of the Chain Rule for Derivatives of Functions :
+https://www.youtube.com/watch?v=8dr1dZjfhmc&list=PLF797E961509B4EB5&index=16
+- Struggled with the square roots expressions, where the exponents would flip to negative, will need to review, still haven't memorized all the identities either
+#### Calculus 1 Lecture 2.6: Discussion of the Chain Rule for Derivatives of Functions
 
+#### Overview and Purpose
+The Chain Rule is a fundamental differentiation technique used to compute the derivative of a **composite function** $f(g(x))$, often described as a function inside another function. It allows us to break down complex algebraic, trigonometric, and exponential expressions into manageable outer and inner parts.
+
+---
+#### Mathematical Formulation
+
+#### Standard Function Notation
+If $y = f(u)$ is a differentiable function of $u$, and $u = g(x)$ is a differentiable function of $x$, then the composite function $y = f(g(x))$ is differentiable with respect to $x$:
+
+$$\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$$
+
+In words: **Derivative of the outer function (evaluated at the inner function) multiplied by the derivative of the inner function.**
+
+#### Leibniz Notation
+Using Leibniz notation, the rule is expressed as:
+
+$$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$$
+
+Where:
+* $y = f(u)$ (outer function)
+* $u = g(x)$ (inner function)
+
+---
+#### Key Conceptual Steps
+
+1. **Identify the Structure**: Break the given function into its outer layer $f(u)$ and inner layer $g(x)$.
+2. **Differentiate the Outer Function**: Take the derivative of $f(u)$ with respect to $u$, leaving $g(x)$ untouched inside.
+3. **Differentiate the Inner Function**: Find $g'(x)$.
+4. **Multiply**: Compute $f'(g(x)) \cdot g'(x)$.
+5. **Simplify**: Perform algebraic or trigonometric simplification where appropriate.
+
+---
+#### Generalized Power Rule (Special Case)
+A common application of the Chain Rule is differentiating a function raised to a power $[g(x)]^n$:
+
+$$\frac{d}{dx}\left[ (g(x))^n \right] = n(g(x))^{n-1} \cdot g'(x)$$
