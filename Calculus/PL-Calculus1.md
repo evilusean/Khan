@@ -5019,5 +5019,40 @@ Find the derivative $\frac{d}{dx}\left[\left(3 + x^2\cot(x^2)\right)^{-3}\right]
    $$= -3\left(3 + x^2\cot(x^2)\right)^{-4} \cdot \left[2x\cot(x^2) - 2x^3\csc^2(x^2)\right]$$
 6. **Factor out $2x$ and write with a positive exponent in the denominator**:
    $$= \frac{-6x\left(\cot(x^2) - x^2\csc^2(x^2)\right)}{\left(3 + x^2\cot(x^2)\right)^4}$$
+### $\frac{d}{dx}\left[\frac{1 + \cos(x^2)}{1 - \sin(x^2)}\right]$
+#### Problem 1
+Find the derivative $\frac{d}{dx}\left[\frac{1 + \cos(x^2)}{1 - \sin(x^2)}\right]$ using the Quotient Rule and Chain Rule.
+#### Step-by-Step Solution
+1. **Apply the Quotient Rule ("low d-high minus high d-low over low squared")**:
+   $$\frac{d}{dx}\left[\frac{1 + \cos(x^2)}{1 - \sin(x^2)}\right] = \frac{(1 - \sin(x^2)) \cdot \frac{d}{dx}[1 + \cos(x^2)] - (1 + \cos(x^2)) \cdot \frac{d}{dx}[1 - \sin(x^2)]}{(1 - \sin(x^2))^2}$$
+2. **Differentiate the numerator and denominator using the Chain Rule**:
+   * $\frac{d}{dx}[1 + \cos(x^2)] = -\sin(x^2) \cdot 2x = -2x\sin(x^2)$
+   * $\frac{d}{dx}[1 - \sin(x^2)] = -\cos(x^2) \cdot 2x = -2x\cos(x^2)$
 
+3. **Substitute derivatives back into the expression**:
+   $$= \frac{(1 - \sin(x^2))(-2x\sin(x^2)) - (1 + \cos(x^2))(-2x\cos(x^2))}{(1 - \sin(x^2))^2}$$
+
+4. **Expand the numerator**:
+   $$= \frac{-2x\sin(x^2) + 2x\sin^2(x^2) + 2x\cos(x^2) + 2x\cos^2(x^2)}{(1 - \sin(x^2))^2}$$
+
+5. **Factor out $2x$ from the Pythagorean identity terms ($\sin^2(x^2) + \cos^2(x^2) = 1$)**:
+   $$= \frac{-2x\sin(x^2) + 2x\cos(x^2) + 2x\left(\sin^2(x^2) + \cos^2(x^2)\right)}{(1 - \sin(x^2))^2}$$
+   $$= \frac{-2x\sin(x^2) + 2x\cos(x^2) + 2x}{(1 - \sin(x^2))^2}$$
+
+6. **Factor out $2x$ for the final simplified numerator**:
+   $$= \frac{2x\left(1 + \cos(x^2) - \sin(x^2)\right)}{(1 - \sin(x^2))^2}$$
+### $y = x^2 \sin(3x)$
+#### Problem 2
+Find the derivative $\frac{dy}{dx}$ using the Product Rule and Chain Rule.
+#### Step-by-Step Solution
+
+1. **Apply the Product Rule**:
+   $$\frac{dy}{dx} = \frac{d}{dx}[x^2] \cdot \sin(3x) + x^2 \cdot \frac{d}{dx}[\sin(3x)]$$
+2. **Differentiate $x^2$ and apply the Chain Rule to $\sin(3x)$**:
+   $$= 2x \cdot \sin(3x) + x^2 \cdot \left(\cos(3x) \cdot \frac{d}{dx}[3x]\right)$$
+3. **Complete the derivative of the inner function**:
+   $$= 2x\sin(3x) + x^2 \cdot \cos(3x) \cdot 3$$
+4. **Rearrange terms and factor out $x$**:
+   $$= 2x\sin(3x) + 3x^2\cos(3x)$$
+   $$= x\left(2\sin(3x) + 3x\cos(3x)\right)$$
 
