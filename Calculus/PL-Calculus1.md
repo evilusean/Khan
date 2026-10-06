@@ -5328,4 +5328,56 @@ $$\frac{dy}{dx} = \frac{1}{2y}$$
 * **At $(2, 1)$:**
 
   $$\left.\frac{dy}{dx}\right|_{(2, 1)} = \frac{1}{2(1)} = \frac{1}{2}$$
+### Find Equation of Tangent Line for $4x^4 + 8x^2y^2 - 25x^2y + 4y^4 = 0$ at $(2, 1)$
 
+#### Step 1: Differentiate both sides with respect to $x$
+
+$$\frac{d}{dx}\left[4x^4 + 8x^2y^2 - 25x^2y + 4y^4\right] = \frac{d}{dx}\left[0\right]$$
+
+Apply product rules to the middle terms:
+
+$$16x^3 + \left[\frac{d}{dx}[8x^2] \cdot y^2 + 8x^2 \cdot \frac{d}{dx}[y^2]\right] - \left[\frac{d}{dx}[25x^2] \cdot y + 25x^2 \cdot \frac{d}{dx}[y]\right] + 16y^3 \cdot \frac{dy}{dx} = 0$$
+
+$$16x^3 + 16xy^2 + 8x^2 \cdot 2y \cdot \frac{dy}{dx} - 50xy - 25x^2 \cdot \frac{dy}{dx} + 16y^3 \cdot \frac{dy}{dx} = 0$$
+
+$$16x^3 + 16xy^2 + 16x^2y \frac{dy}{dx} - 50xy - 25x^2 \frac{dy}{dx} + 16y^3 \frac{dy}{dx} = 0$$
+
+---
+
+#### Step 2: Isolate terms with $\frac{dy}{dx}$
+
+$$16x^2y \frac{dy}{dx} - 25x^2 \frac{dy}{dx} + 16y^3 \frac{dy}{dx} = 50xy - 16x^3 - 16xy^2$$
+
+---
+
+#### Step 3: Factor out $\frac{dy}{dx}$ and solve
+
+$$\frac{dy}{dx} \left[16x^2y - 25x^2 + 16y^3\right] = 50xy - 16x^3 - 16xy^2$$
+
+$$\frac{dy}{dx} = \frac{50xy - 16x^3 - 16xy^2}{16x^2y - 25x^2 + 16y^3} = m$$
+
+---
+
+#### Step 4: Find the slope $m$ at $(2, 1)$
+
+Substitute $x = 2$ and $y = 1$:
+
+$$m = \frac{50(2)(1) - 16(2)^3 - 16(2)(1)^2}{16(2)^2(1) - 25(2)^2 + 16(1)^3}$$
+
+$$m = \frac{100 - 16(8) - 32}{16(4) - 25(4) + 16}$$
+
+$$m = \frac{100 - 128 - 32}{64 - 100 + 16}$$
+
+$$m = \frac{-60}{-20} = 3$$
+
+---
+
+#### Step 5: Write the equation of the tangent line
+
+Using point-slope form $y - y_1 = m(x - x_1)$ with $(2, 1)$ and $m = 3$:
+
+$$y - 1 = 3(x - 2)$$
+
+$$y - 1 = 3x - 6$$
+
+$$y = 3x - 5$$
