@@ -5060,7 +5060,6 @@ https://www.youtube.com/watch?v=RUS4mKo9tBk&list=PLF797E961509B4EB5&index=15
 ### Lecture Notes: Calculus 1 – Lecture 2.7: Implicit Differentiation (Professor Leonard)
 
 #### Key Concepts & Definitions
-
 - **Explicit Functions**: An equation where $y$ is isolated on one side and explicitly defined strictly in terms of $x$ (e.g., $y = 3x^2 + 4$).
 - **Implicit Equations**: An equation where $y$ and $x$ are mixed together and $y$ is not isolated (e.g., $x y + y = x$).
 - **Implicit Equations & Multiple Functions**: An implicit equation can implicitly define more than one function of $x$. 
@@ -5068,9 +5067,7 @@ https://www.youtube.com/watch?v=RUS4mKo9tBk&list=PLF797E961509B4EB5&index=15
 - **Core Principle of Implicit Differentiation**: Treat $y$ as an unknown function of $x$ (i.e., $y = f(x)$). Every time you differentiate a term containing $y$ with respect to $x$, you **must** apply the Chain Rule, multiplying by $\frac{dy}{dx}$.
 
 ---
-
 #### General Steps for Implicit Differentiation
-
 1. **Differentiate Both Sides**: Take $\frac{d}{dx}$ of both sides of the equation with respect to $x$.
    * Differentiating an $x$ term yields standard derivatives (since $\frac{dx}{dx} = 1$).
    * Differentiating a $y$ term yields its standard derivative multiplied by $\frac{dy}{dx}$ (due to the Chain Rule).
@@ -5079,76 +5076,53 @@ https://www.youtube.com/watch?v=RUS4mKo9tBk&list=PLF797E961509B4EB5&index=15
 4. **Solve for $\frac{dy}{dx}$**: Divide both sides by the remaining algebraic expression to solve for $\frac{dy}{dx}$.
 
 ---
-
 #### Example 1: Basic Implicit Differentiation
-
 ##### Problem
 Find $\frac{dy}{dx}$ for $x^3 + y^3 = 5$.
-
 ##### Step-by-Step Solution
-
 1. **Take the derivative of both sides with respect to $x$**:
    $$\frac{d}{dx}\left[x^3 + y^3\right] = \frac{d}{dx}[5]$$
-
 2. **Differentiate term-by-term using the Power Rule and Chain Rule**:
    $$\frac{d}{dx}[x^3] + \frac{d}{dx}[y^3] = 0$$
    $$3x^2 + 3y^2 \cdot \frac{dy}{dx} = 0$$
-
 3. **Move non-$\frac{dy}{dx}$ terms to the right side**:
    $$3y^2 \cdot \frac{dy}{dx} = -3x^2$$
-
 4. **Isolate $\frac{dy}{dx}$**:
    $$\frac{dy}{dx} = \frac{-3x^2}{3y^2} = -\frac{x^2}{y^2}$$
 
 ---
-
 #### Example 2: Trigonometric & Chain Rule Terms
-
 ##### Problem
 Find $\frac{dy}{dx}$ for $3y^2 + \sin(y) = 4x^5$.
-
 ##### Step-by-Step Solution
-
 1. **Differentiate both sides with respect to $x$**:
    $$\frac{d}{dx}\left[3y^2 + \sin(y)\right] = \frac{d}{dx}\left[4x^5\right]$$
-
 2. **Apply the Chain Rule to each $y$-term**:
    $$6y \cdot \frac{dy}{dx} + \cos(y) \cdot \frac{dy}{dx} = 20x^4$$
-
 3. **Factor out $\frac{dy}{dx}$**:
    $$\frac{dy}{dx} \left(6y + \cos(y)\right) = 20x^4$$
-
 4. **Solve for $\frac{dy}{dx}$**:
    $$\frac{dy}{dx} = \frac{20x^4}{6y + \cos(y)}$$
 
 ---
-
 #### Example 3: Product Rule in Implicit Differentiation
-
 ##### Problem
 Find $\frac{dy}{dx}$ for $xy = 1$.
-
 ##### Step-by-Step Solution
-
 1. **Apply the Product Rule to the left side**:
    $$\frac{d}{dx}[xy] = \frac{d}{dx}[1]$$
    $$\frac{d}{dx}[x] \cdot y + x \cdot \frac{d}{dx}[y] = 0$$
-
 2. **Evaluate derivatives**:
    $$1 \cdot y + x \cdot \frac{dy}{dx} = 0$$
    $$y + x \cdot \frac{dy}{dx} = 0$$
-
 3. **Isolate $\frac{dy}{dx}$**:
    $$x \cdot \frac{dy}{dx} = -y$$
    $$\frac{dy}{dx} = -\frac{y}{x}$$
 
 ---
-
 #### Example 4: Finding Higher-Order Implicit Derivatives ($\frac{d^2y}{dx^2}$)
-
 ##### Problem
 Find $\frac{d^2y}{dx^2}$ for $3x^2 - y^2 = 4$.
-
 ##### Step-by-Step Solution
 
 1. **Find the first derivative ($\frac{dy}{dx}$)**:
@@ -5167,14 +5141,10 @@ Find $\frac{d^2y}{dx^2}$ for $3x^2 - y^2 = 4$.
    $$\frac{d^2y}{dx^2} = \frac{3y^2 - 9x^2}{y^3}$$
 
 ---
-
 #### Example 5: Finding the Slope at Specific Points
-
 ##### Problem
 Find the slope of the curve $y^2 - x + 1 = 0$ at the points $(2, -1)$ and $(2, 1)$.
-
 ##### Step-by-Step Solution
-
 1. **Find $\frac{dy}{dx}$ implicitly**:
    $$\frac{d}{dx}\left[y^2 - x + 1\right] = \frac{d}{dx}[0]$$
    $$2y \cdot \frac{dy}{dx} - 1 = 0 \implies 2y \cdot \frac{dy}{dx} = 1 \implies \frac{dy}{dx} = \frac{1}{2y}$$
@@ -5186,14 +5156,10 @@ Find the slope of the curve $y^2 - x + 1 = 0$ at the points $(2, -1)$ and $(2, 1
    $$m_2 = \left.\frac{dy}{dx}\right|_{(2, 1)} = \frac{1}{2(1)} = \frac{1}{2}$$
 
 ---
-
 #### Example 6: Equation of the Tangent Line (Comprehensive Example)
-
 ##### Problem
 Find the equation of the tangent line to the curve $4x^4 + 8x^2y^2 - 25x^2y + 4y^4 = 0$ at the point $(2, 1)$.
-
 ##### Step-by-Step Solution
-
 1. **Differentiate term-by-term with respect to $x$**:
    * $\frac{d}{dx}[4x^4] = 16x^3$
    * Product Rule on $8x^2y^2$:
@@ -5201,17 +5167,15 @@ Find the equation of the tangent line to the curve $4x^4 + 8x^2y^2 - 25x^2y + 4y
    * Product Rule with minus sign on $-25x^2y$:
      $$\frac{d}{dx}\left[-25x^2y\right] = -\left(50xy + 25x^2 \cdot \frac{dy}{dx}\right) = -50xy - 25x^2 \cdot \frac{dy}{dx}$$
    * $\frac{d}{dx}[4y^4] = 16y^3 \cdot \frac{dy}{dx}$
-
-2. **Assemble the full differentiated equation**:
+1. **Assemble the full differentiated equation**:
    $$16x^3 + 16xy^2 + 16x^2y \cdot \frac{dy}{dx} - 50xy - 25x^2 \cdot \frac{dy}{dx} + 16y^3 \cdot \frac{dy}{dx} = 0$$
-
-3. **Group $\frac{dy}{dx}$ terms on the left and move all other terms to the right**:
+2. **Group $\frac{dy}{dx}$ terms on the left and move all other terms to the right**:
    $$\left(16x^2y - 25x^2 + 16y^3\right) \frac{dy}{dx} = 50xy - 16x^3 - 16xy^2$$
 
-4. **Solve for $\frac{dy}{dx}$**:
+3. **Solve for $\frac{dy}{dx}$**:
    $$\frac{dy}{dx} = \frac{50xy - 16x^3 - 16xy^2}{16x^2y - 25x^2 + 16y^3}$$
 
-5. **Calculate the slope $m$ by substituting $x = 2$ and $y = 1$**:
+4. **Calculate the slope $m$ by substituting $x = 2$ and $y = 1$**:
    * **Numerator**: $50(2)(1) - 16(2)^3 - 16(2)(1)^2 = 100 - 128 - 32 = -60$
    * **Denominator**: $16(2)^2(1) - 25(2)^2 + 16(1)^3 = 64 - 100 + 16 = -20$
    * **Slope**:
