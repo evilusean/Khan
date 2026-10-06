@@ -5232,13 +5232,11 @@ $$\frac{dy}{dx} = \frac{3(3y - 2x^2)}{3(3y^2 - 3x)}$$
 
 $$\frac{dy}{dx} = \frac{3y - 2x^2}{3y^2 - 3x}$$
 ### Find $\frac{dy}{dx}$ for $3y^2 + \sin(y) = 4x^5$
-
 #### Step 1: Differentiate both sides with respect to $x$
 
 $$\frac{d}{dx}\left[3y^2 + \sin(y)\right] = \frac{d}{dx}\left[4x^5\right]$$
 
 ---
-
 #### Step 2: Differentiate term-by-term using the Chain Rule
 
 * **First term ($3y^2$):** Differentiate using the general power rule, multiplying by $\frac{dy}{dx}$ because $y$ is a function of $x$:
@@ -5255,15 +5253,14 @@ Putting it together:
 $$6y \cdot \frac{dy}{dx} + \cos(y) \cdot \frac{dy}{dx} = 20x^4$$
 
 ---
-
 #### Step 3: Factor out $\frac{dy}{dx}$
 
 $$\frac{dy}{dx} (6y + \cos(y)) = 20x^4$$
 
 ---
-
 #### Step 4: Solve for $\frac{dy}{dx}$
 
 Divide both sides by $(6y + \cos(y))$:
 
 $$\frac{dy}{dx} = \frac{20x^4}{6y + \cos(y)}$$
+
