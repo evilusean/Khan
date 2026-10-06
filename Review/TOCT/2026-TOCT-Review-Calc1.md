@@ -303,3 +303,37 @@ Find the derivative $\frac{d}{dx}\left[\left(3 + x^2\cot(x^2)\right)^{-3}\right]
 6. **Factor out $2x$ and write with a positive exponent in the denominator**:
    $$= \frac{-6x\left(\cot(x^2) - x^2\csc^2(x^2)\right)}{\left(3 + x^2\cot(x^2)\right)^4}$$
 
+### 2026-10-06 - Calculus 1 Lecture 2.7: Implicit Differentiation :
+https://www.youtube.com/watch?v=RUS4mKo9tBk&list=PLF797E961509B4EB5&index=15
+#### Lecture Notes: Calculus 1 – Lecture 2.7: Implicit Differentiation (Professor Leonard)
+
+#### Key Concepts & Definitions
+- **Explicit Functions**: An equation where $y$ is isolated on one side and explicitly defined strictly in terms of $x$ (e.g., $y = 3x^2 + 4$).
+- **Implicit Equations**: An equation where $y$ and $x$ are mixed together and $y$ is not isolated (e.g., $x y + y = x$).
+- **Implicit Equations & Multiple Functions**: An implicit equation can implicitly define more than one function of $x$. 
+  * *Example*: $x^2 + y^2 = 4 \implies y = \pm\sqrt{4 - x^2}$ (represents both an upper and lower semicircle).
+- **Core Principle of Implicit Differentiation**: Treat $y$ as an unknown function of $x$ (i.e., $y = f(x)$). Every time you differentiate a term containing $y$ with respect to $x$, you **must** apply the Chain Rule, multiplying by $\frac{dy}{dx}$.
+
+---
+#### General Steps for Implicit Differentiation
+1. **Differentiate Both Sides**: Take $\frac{d}{dx}$ of both sides of the equation with respect to $x$.
+   * Differentiating an $x$ term yields standard derivatives (since $\frac{dx}{dx} = 1$).
+   * Differentiating a $y$ term yields its standard derivative multiplied by $\frac{dy}{dx}$ (due to the Chain Rule).
+2. **Isolate $\frac{dy}{dx}$ Terms**: Group all terms containing $\frac{dy}{dx}$ on one side of the equation and move all other terms to the opposite side.
+3. **Factor Out $\frac{dy}{dx}$**: Factor $\frac{dy}{dx}$ out of the terms on the isolated side.
+4. **Solve for $\frac{dy}{dx}$**: Divide both sides by the remaining algebraic expression to solve for $\frac{dy}{dx}$.
+
+---
+#### Example 1: Basic Implicit Differentiation
+##### Problem
+Find $\frac{dy}{dx}$ for $x^3 + y^3 = 5$.
+##### Step-by-Step Solution
+1. **Take the derivative of both sides with respect to $x$**:
+   $$\frac{d}{dx}\left[x^3 + y^3\right] = \frac{d}{dx}[5]$$
+2. **Differentiate term-by-term using the Power Rule and Chain Rule**:
+   $$\frac{d}{dx}[x^3] + \frac{d}{dx}[y^3] = 0$$
+   $$3x^2 + 3y^2 \cdot \frac{dy}{dx} = 0$$
+3. **Move non-$\frac{dy}{dx}$ terms to the right side**:
+   $$3y^2 \cdot \frac{dy}{dx} = -3x^2$$
+4. **Isolate $\frac{dy}{dx}$**:
+   $$\frac{dy}{dx} = \frac{-3x^2}{3y^2} = -\frac{x^2}{y^2}$$
