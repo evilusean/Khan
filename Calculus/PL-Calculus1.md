@@ -5264,3 +5264,44 @@ Divide both sides by $(6y + \cos(y))$:
 
 $$\frac{dy}{dx} = \frac{20x^4}{6y + \cos(y)}$$
 
+### Find $\frac{dy}{dx}$ for $x \cdot y = 1$
+
+#### Step 1: Differentiate both sides with respect to $x$
+
+$$\frac{d}{dx}[x \cdot y] = \frac{d}{dx}[1]$$
+
+---
+
+#### Step 2: Apply the product rule on the left side
+
+Using the product rule $\frac{d}{dx}[u \cdot v] = \frac{d}{dx}[u] \cdot v + u \cdot \frac{d}{dx}[v]$:
+
+$$\frac{d}{dx}[x] \cdot y + x \cdot \frac{d}{dx}[y] = 0$$
+
+Since $\frac{d}{dx}[x] = 1$ and $\frac{d}{dx}[y] = \frac{dy}{dx}$:
+
+$$1 \cdot y + x \cdot \frac{dy}{dx} = 0$$
+
+$$y + x \cdot \frac{dy}{dx} = 0$$
+
+---
+
+#### Step 3: Isolate $\frac{dy}{dx}$
+
+Subtract $y$ from both sides:
+
+$$x \cdot \frac{dy}{dx} = -y$$
+
+Divide both sides by $x$:
+
+$$\frac{dy}{dx} = -\frac{y}{x}$$
+
+---
+
+#### Step 4: Substitute $y$ to get the final answer in terms of $x$
+
+From the original equation, $x \cdot y = 1 \implies y = \frac{1}{x}$. Substitute this into $\frac{dy}{dx}$:
+
+$$\frac{dy}{dx} = \frac{-\frac{1}{x}}{x}$$
+
+$$\frac{dy}{dx} = -\frac{1}{x^2}$$
