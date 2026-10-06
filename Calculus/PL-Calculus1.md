@@ -5195,25 +5195,19 @@ Split the left-hand side term-by-term:
 $$\frac{d}{dx}\left[2x^3\right] + \frac{d}{dx}\left[3y^3\right] = \frac{d}{dx}\left[9xy\right]$$
 
 ---
-
 #### Step 2: Evaluate the derivatives
-
 * **First term ($2x^3$):** Standard power rule with respect to $x$:
   $$\frac{d}{dx}\left[2x^3\right] = 6x^2$$
-
 * **Second term ($3y^3$):** Apply the chain rule because $y$ is a function of $x$:
   $$\frac{d}{dx}\left[3y^3\right] = 9y^2 \cdot \frac{d}{dx}[y] = 9y^2 \frac{dy}{dx}$$
-
 * **Right side ($9xy$):** Apply the product rule where $u = 9x$ and $v = y$:
   $$\frac{d}{dx}\left[9xy\right] = \frac{d}{dx}[9x] \cdot y + 9x \cdot \frac{d}{dx}[y]$$
   $$\frac{d}{dx}\left[9xy\right] = 9y + 9x \frac{dy}{dx}$$
-
 Putting all the terms together:
 
 $$6x^2 + 9y^2 \frac{dy}{dx} = 9y + 9x \frac{dy}{dx}$$
 
 ---
-
 #### Step 3: Isolate terms containing $\frac{dy}{dx}$
 
 Move all terms with $\frac{dy}{dx}$ to the left side and all other terms to the right side:
@@ -5221,13 +5215,11 @@ Move all terms with $\frac{dy}{dx}$ to the left side and all other terms to the 
 $$9y^2 \frac{dy}{dx} - 9x \frac{dy}{dx} = 9y - 6x^2$$
 
 ---
-
 #### Step 4: Factor out $\frac{dy}{dx}$
 
 $$\frac{dy}{dx} \left(9y^2 - 9x\right) = 9y - 6x^2$$
 
 ---
-
 #### Step 5: Solve for $\frac{dy}{dx}$ and simplify
 
 Divide both sides by $(9y^2 - 9x)$:
@@ -5239,3 +5231,4 @@ Factor out $3$ from both the numerator and denominator to simplify:
 $$\frac{dy}{dx} = \frac{3(3y - 2x^2)}{3(3y^2 - 3x)}$$
 
 $$\frac{dy}{dx} = \frac{3y - 2x^2}{3y^2 - 3x}$$
+
