@@ -5271,7 +5271,6 @@ $$\frac{dy}{dx} = \frac{20x^4}{6y + \cos(y)}$$
 $$\frac{d}{dx}[x \cdot y] = \frac{d}{dx}[1]$$
 
 ---
-
 #### Step 2: Apply the product rule on the left side
 
 Using the product rule $\frac{d}{dx}[u \cdot v] = \frac{d}{dx}[u] \cdot v + u \cdot \frac{d}{dx}[v]$:
@@ -5285,7 +5284,6 @@ $$1 \cdot y + x \cdot \frac{dy}{dx} = 0$$
 $$y + x \cdot \frac{dy}{dx} = 0$$
 
 ---
-
 #### Step 3: Isolate $\frac{dy}{dx}$
 
 Subtract $y$ from both sides:
@@ -5297,7 +5295,6 @@ Divide both sides by $x$:
 $$\frac{dy}{dx} = -\frac{y}{x}$$
 
 ---
-
 #### Step 4: Substitute $y$ to get the final answer in terms of $x$
 
 From the original equation, $x \cdot y = 1 \implies y = \frac{1}{x}$. Substitute this into $\frac{dy}{dx}$:
@@ -5305,3 +5302,4 @@ From the original equation, $x \cdot y = 1 \implies y = \frac{1}{x}$. Substitute
 $$\frac{dy}{dx} = \frac{-\frac{1}{x}}{x}$$
 
 $$\frac{dy}{dx} = -\frac{1}{x^2}$$
+
