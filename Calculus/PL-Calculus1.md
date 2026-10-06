@@ -5303,7 +5303,6 @@ $$\frac{dy}{dx} = \frac{-\frac{1}{x}}{x}$$
 
 $$\frac{dy}{dx} = -\frac{1}{x^2}$$
 ### Find slopes of $y^2 - x + 1 = 0$ at $(2, -1)$ and $(2, 1)$
-
 #### Step 1: Differentiate both sides with respect to $x$
 
 $$\frac{d}{dx}\left[y^2 - x + 1\right] = \frac{d}{dx}\left[0\right]$$
@@ -5311,7 +5310,6 @@ $$\frac{d}{dx}\left[y^2 - x + 1\right] = \frac{d}{dx}\left[0\right]$$
 $$2y \frac{dy}{dx} - 1 = 0$$
 
 ---
-
 #### Step 2: Isolate $\frac{dy}{dx}$
 
 Add $1$ to both sides:
@@ -5323,13 +5321,11 @@ Divide both sides by $2y$:
 $$\frac{dy}{dx} = \frac{1}{2y}$$
 
 ---
-
 #### Step 3: Evaluate the slope at each given point
-
 * **At $(2, -1)$:**
 
   $$\left.\frac{dy}{dx}\right|_{(2, -1)} = \frac{1}{2(-1)} = -\frac{1}{2}$$
-
 * **At $(2, 1)$:**
 
   $$\left.\frac{dy}{dx}\right|_{(2, 1)} = \frac{1}{2(1)} = \frac{1}{2}$$
+
