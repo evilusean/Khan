@@ -5375,5 +5375,5 @@ $$y - 1 = 3x - 6$$
 
 $$y = 3x - 5$$
 ## 2026-10-07 - Calculus 1 Lecture 2.8: Related Rates :
-
+https://www.youtube.com/watch?v=43Qt6wc44To&list=PLF797E961509B4EB5&index=18
 
