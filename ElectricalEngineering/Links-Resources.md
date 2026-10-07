@@ -128,4 +128,6 @@ https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
 https://en.wikipedia.org/wiki/Dirac_equation
 https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat
 
+SAM (Structured Atom Model) - Why is He4 noble and stable despite being negative? Tetrahedron. It's Structure. There are no negative valence spots to bind. :
+https://structuredatom.org/atomizer/pte
 
