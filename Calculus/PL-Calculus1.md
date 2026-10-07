@@ -5376,4 +5376,115 @@ $$y - 1 = 3x - 6$$
 $$y = 3x - 5$$
 ## 2026-10-07 - Calculus 1 Lecture 2.8: Related Rates :
 https://www.youtube.com/watch?v=43Qt6wc44To&list=PLF797E961509B4EB5&index=18
+### Lecture Notes: Calculus 1 – Lecture 2.8: Related Rates (Professor Leonard)
+
+#### Key Concepts & Strategy
+
+- **Related Rates Definition**: Related rates problems involve finding the rate of change of one quantity with respect to time ($\frac{d[\text{variable}]}{dt}$) by relating that quantity to other quantities whose rates of change are known.
+- **Implicit Differentiation with Respect to Time ($t$)**: All geometric/physical parameters (such as volume $V$, radius $r$, height $h$, angle $\theta$, area $A$) are treated as implicit functions of time $t$. 
+- **The Golden Rule**: Every time you differentiate a variable with respect to time $t$, you **must** attach its derivative term (e.g., $\frac{dV}{dt}$, $\frac{dr}{dt}$, $\frac{dh}{dt}$, $\frac{d\theta}{dt}$) due to the Chain Rule.
+
+---
+
+#### General 4-Step Method for Related Rates
+
+1. **Assign Variables & Sketch**: Identify given quantities and quantities to be found. Draw a diagram and assign variables to quantities that change over time.
+2. **Write a Primary Equation**: Formulate an equation connecting the variables (e.g., area, volume, Pythagorean theorem, trigonometric functions).
+3. **Implicitly Differentiate with Respect to Time ($t$)**: Apply $\frac{d}{dt}$ to both sides using the Chain Rule, Product Rule, or Quotient Rule as needed.
+4. **Substitute Known Values & Solve**: Substitute all given values and rates of change at the specific instant in time, then solve for the target unknown rate.
+
+---
+
+#### Conceptual Intro Example: Volume of a Water Cone
+
+##### Problem Setup
+Water drains from a conical tank. Find the formula for the rate of change of volume with respect to time.
+
+##### Step-by-Step Breakdown
+
+1. **Primary Formula**:
+   $$V = \frac{1}{3}\pi r^2 h$$
+
+2. **Differentiate both sides with respect to time $t$**:
+   $$\frac{d}{dt}[V] = \frac{d}{dt}\left[\frac{\pi}{3} r^2 h\right]$$
+
+3. **Apply the Product Rule to $r^2 h$ (since both $r$ and $h$ are functions of $t$)**:
+   $$\frac{dV}{dt} = \frac{\pi}{3} \left( \frac{d}{dt}[r^2] \cdot h + r^2 \cdot \frac{d}{dt}[h] \right)$$
+   $$\frac{dV}{dt} = \frac{\pi}{3} \left( 2r \frac{dr}{dt} \cdot h + r^2 \frac{dh}{dt} \right)$$
+   $$\frac{dV}{dt} = \frac{\pi}{3} \left( 2rh \frac{dr}{dt} + r^2 \frac{dh}{dt} \right)$$
+
+---
+
+#### Example 1: Basic Algebraic Rate Problem
+
+##### Problem
+Given $y = x^3$, find $\frac{dy}{dt}$ at $t = 1$ if $x = 2$ and $\frac{dx}{dt} = 4$.
+
+##### Step-by-Step Solution
+
+1. **Differentiate both sides with respect to $t$**:
+   $$\frac{d}{dt}[y] = \frac{d}{dt}[x^3]$$
+   $$\frac{dy}{dt} = 3x^2 \frac{dx}{dt}$$
+
+2. **Substitute given instant values ($x = 2, \frac{dx}{dt} = 4$)**:
+   $$\frac{dy}{dt} = 3(2)^2 \cdot (4)$$
+   $$\frac{dy}{dt} = 3(4)(4) = 48$$
+
+---
+
+#### Example 2: Spreading Oil Spill (Circular Expansion)
+
+##### Problem
+An oil spill spreads in a circular pattern. The radius increases at a constant rate of $3\text{ ft/sec}$. How fast is the area of the spill increasing when the radius is $30\text{ ft}$?
+
+##### Step-by-Step Solution
+
+1. **Identify Given Data & Target Rate**:
+   * Given rate: $\frac{dr}{dt} = 3\text{ ft/sec}$
+   * Given instant: $r = 30\text{ ft}$
+   * Find: $\frac{dA}{dt}$
+
+2. **Primary Equation**:
+   $$A = \pi r^2$$
+
+3. **Differentiate with respect to $t$**:
+   $$\frac{dA}{dt} = 2\pi r \frac{dr}{dt}$$
+
+4. **Substitute known values**:
+   $$\frac{dA}{dt} = 2\pi (30\text{ ft}) \left(3\frac{\text{ft}}{\text{sec}}\right)$$
+   $$\frac{dA}{dt} = 180\pi \frac{\text{ft}^2}{\text{sec}} \approx 565.49 \frac{\text{ft}^2}{\text{sec}}$$
+
+---
+
+#### Example 3: Tracking Camera & Rocket Launch (Trigonometric Rates)
+
+##### Problem
+A television camera on the ground is located $3000\text{ ft}$ away from a rocket launch pad. The rocket rises vertically. When the rocket is at an altitude of $4000\text{ ft}$, its velocity is $600\text{ ft/sec}$. How fast must the camera's angle of elevation change at that instant to keep the rocket in frame?
+
+##### Step-by-Step Solution
+
+1. **Identify Given Data & Diagram Variables**:
+   * Horizontal distance (constant): $x = 3000\text{ ft}$
+   * Vertical height (variable): $h = 4000\text{ ft}$
+   * Rate of height change: $\frac{dh}{dt} = 600\text{ ft/sec}$
+   * Target rate: $\frac{d\theta}{dt}$
+
+2. **Primary Equation linking $h$ and $\theta$**:
+   $$\tan(\theta) = \frac{\text{Opposite}}{\text{Adjacent}} = \frac{h}{3000} = \frac{1}{3000}h$$
+
+3. **Differentiate implicitly with respect to $t$**:
+   $$\sec^2(\theta) \frac{d\theta}{dt} = \frac{1}{3000} \frac{dh}{dt}$$
+
+4. **Determine geometry for the instant when $h = 4000\text{ ft}$**:
+   * Right triangle sides: adjacent $= 3000$, opposite $= 4000$, hypotenuse $= \sqrt{3000^2 + 4000^2} = 5000\text{ ft}$
+   * Evaluate $\sec(\theta)$:
+     $$\cos(\theta) = \frac{3000}{5000} = \frac{3}{5} \implies \sec(\theta) = \frac{5}{3}$$
+
+5. **Substitute known values and solve for $\frac{d\theta}{dt}$**:
+   $$\left(\frac{5}{3}\right)^2 \frac{d\theta}{dt} = \frac{1}{3000} (600)$$
+   $$\frac{25}{9} \frac{d\theta}{dt} = \frac{1}{5}$$
+   $$\frac{d\theta}{dt} = \frac{1}{5} \cdot \frac{9}{25} = \frac{9}{125} = 0.072\text{ rad/sec}$$
+
+6. **Convert to Degrees for Physical Interpretation**:
+   $$\frac{d\theta}{dt} = 0.072 \cdot \frac{180^\circ}{\pi} \approx 4.13^\circ/\text{sec}$$
 
