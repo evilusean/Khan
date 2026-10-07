@@ -5394,15 +5394,11 @@ https://www.youtube.com/watch?v=43Qt6wc44To&list=PLF797E961509B4EB5&index=18
 #### Conceptual Intro Example: Volume of a Water Cone
 ##### Problem Setup
 Water drains from a conical tank. Find the formula for the rate of change of volume with respect to time.
-
 ##### Step-by-Step Breakdown
-
 1. **Primary Formula**:
    $$V = \frac{1}{3}\pi r^2 h$$
-
 2. **Differentiate both sides with respect to time $t$**:
    $$\frac{d}{dt}[V] = \frac{d}{dt}\left[\frac{\pi}{3} r^2 h\right]$$
-
 3. **Apply the Product Rule to $r^2 h$ (since both $r$ and $h$ are functions of $t$)**:
    $$\frac{dV}{dt} = \frac{\pi}{3} \left( \frac{d}{dt}[r^2] \cdot h + r^2 \cdot \frac{d}{dt}[h] \right)$$
    $$\frac{dV}{dt} = \frac{\pi}{3} \left( 2r \frac{dr}{dt} \cdot h + r^2 \frac{dh}{dt} \right)$$
@@ -5427,21 +5423,16 @@ Given $y = x^3$, find $\frac{dy}{dt}$ at $t = 1$ if $x = 2$ and $\frac{dx}{dt} =
 #### Example 2: Spreading Oil Spill (Circular Expansion)
 ##### Problem
 An oil spill spreads in a circular pattern. The radius increases at a constant rate of $3\text{ ft/sec}$. How fast is the area of the spill increasing when the radius is $30\text{ ft}$?
-
 ##### Step-by-Step Solution
-
 1. **Identify Given Data & Target Rate**:
    * Given rate: $\frac{dr}{dt} = 3\text{ ft/sec}$
    * Given instant: $r = 30\text{ ft}$
    * Find: $\frac{dA}{dt}$
-
-2. **Primary Equation**:
+1. **Primary Equation**:
    $$A = \pi r^2$$
-
-3. **Differentiate with respect to $t$**:
+2. **Differentiate with respect to $t$**:
    $$\frac{dA}{dt} = 2\pi r \frac{dr}{dt}$$
-
-4. **Substitute known values**:
+3. **Substitute known values**:
    $$\frac{dA}{dt} = 2\pi (30\text{ ft}) \left(3\frac{\text{ft}}{\text{sec}}\right)$$
    $$\frac{dA}{dt} = 180\pi \frac{\text{ft}^2}{\text{sec}} \approx 565.49 \frac{\text{ft}^2}{\text{sec}}$$
 
@@ -5472,4 +5463,5 @@ A television camera on the ground is located $3000\text{ ft}$ away from a rocket
 
 6. **Convert to Degrees for Physical Interpretation**:
    $$\frac{d\theta}{dt} = 0.072 \cdot \frac{180^\circ}{\pi} \approx 4.13^\circ/\text{sec}$$
+
 
