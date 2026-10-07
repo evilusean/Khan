@@ -5379,24 +5379,19 @@ https://www.youtube.com/watch?v=43Qt6wc44To&list=PLF797E961509B4EB5&index=18
 ### Lecture Notes: Calculus 1 – Lecture 2.8: Related Rates (Professor Leonard)
 
 #### Key Concepts & Strategy
-
 - **Related Rates Definition**: Related rates problems involve finding the rate of change of one quantity with respect to time ($\frac{d[\text{variable}]}{dt}$) by relating that quantity to other quantities whose rates of change are known.
 - **Implicit Differentiation with Respect to Time ($t$)**: All geometric/physical parameters (such as volume $V$, radius $r$, height $h$, angle $\theta$, area $A$) are treated as implicit functions of time $t$. 
 - **The Golden Rule**: Every time you differentiate a variable with respect to time $t$, you **must** attach its derivative term (e.g., $\frac{dV}{dt}$, $\frac{dr}{dt}$, $\frac{dh}{dt}$, $\frac{d\theta}{dt}$) due to the Chain Rule.
 
 ---
-
 #### General 4-Step Method for Related Rates
-
 1. **Assign Variables & Sketch**: Identify given quantities and quantities to be found. Draw a diagram and assign variables to quantities that change over time.
 2. **Write a Primary Equation**: Formulate an equation connecting the variables (e.g., area, volume, Pythagorean theorem, trigonometric functions).
 3. **Implicitly Differentiate with Respect to Time ($t$)**: Apply $\frac{d}{dt}$ to both sides using the Chain Rule, Product Rule, or Quotient Rule as needed.
 4. **Substitute Known Values & Solve**: Substitute all given values and rates of change at the specific instant in time, then solve for the target unknown rate.
 
 ---
-
 #### Conceptual Intro Example: Volume of a Water Cone
-
 ##### Problem Setup
 Water drains from a conical tank. Find the formula for the rate of change of volume with respect to time.
 
@@ -5414,9 +5409,7 @@ Water drains from a conical tank. Find the formula for the rate of change of vol
    $$\frac{dV}{dt} = \frac{\pi}{3} \left( 2rh \frac{dr}{dt} + r^2 \frac{dh}{dt} \right)$$
 
 ---
-
 #### Example 1: Basic Algebraic Rate Problem
-
 ##### Problem
 Given $y = x^3$, find $\frac{dy}{dt}$ at $t = 1$ if $x = 2$ and $\frac{dx}{dt} = 4$.
 
@@ -5431,9 +5424,7 @@ Given $y = x^3$, find $\frac{dy}{dt}$ at $t = 1$ if $x = 2$ and $\frac{dx}{dt} =
    $$\frac{dy}{dt} = 3(4)(4) = 48$$
 
 ---
-
 #### Example 2: Spreading Oil Spill (Circular Expansion)
-
 ##### Problem
 An oil spill spreads in a circular pattern. The radius increases at a constant rate of $3\text{ ft/sec}$. How fast is the area of the spill increasing when the radius is $30\text{ ft}$?
 
@@ -5455,27 +5446,21 @@ An oil spill spreads in a circular pattern. The radius increases at a constant r
    $$\frac{dA}{dt} = 180\pi \frac{\text{ft}^2}{\text{sec}} \approx 565.49 \frac{\text{ft}^2}{\text{sec}}$$
 
 ---
-
 #### Example 3: Tracking Camera & Rocket Launch (Trigonometric Rates)
-
 ##### Problem
 A television camera on the ground is located $3000\text{ ft}$ away from a rocket launch pad. The rocket rises vertically. When the rocket is at an altitude of $4000\text{ ft}$, its velocity is $600\text{ ft/sec}$. How fast must the camera's angle of elevation change at that instant to keep the rocket in frame?
-
 ##### Step-by-Step Solution
-
 1. **Identify Given Data & Diagram Variables**:
    * Horizontal distance (constant): $x = 3000\text{ ft}$
    * Vertical height (variable): $h = 4000\text{ ft}$
    * Rate of height change: $\frac{dh}{dt} = 600\text{ ft/sec}$
    * Target rate: $\frac{d\theta}{dt}$
-
-2. **Primary Equation linking $h$ and $\theta$**:
+1. **Primary Equation linking $h$ and $\theta$**:
    $$\tan(\theta) = \frac{\text{Opposite}}{\text{Adjacent}} = \frac{h}{3000} = \frac{1}{3000}h$$
-
-3. **Differentiate implicitly with respect to $t$**:
+2. **Differentiate implicitly with respect to $t$**:
    $$\sec^2(\theta) \frac{d\theta}{dt} = \frac{1}{3000} \frac{dh}{dt}$$
 
-4. **Determine geometry for the instant when $h = 4000\text{ ft}$**:
+3. **Determine geometry for the instant when $h = 4000\text{ ft}$**:
    * Right triangle sides: adjacent $= 3000$, opposite $= 4000$, hypotenuse $= \sqrt{3000^2 + 4000^2} = 5000\text{ ft}$
    * Evaluate $\sec(\theta)$:
      $$\cos(\theta) = \frac{3000}{5000} = \frac{3}{5} \implies \sec(\theta) = \frac{5}{3}$$
