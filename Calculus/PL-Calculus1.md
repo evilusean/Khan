@@ -5374,6 +5374,6 @@ $$y - 1 = 3(x - 2)$$
 $$y - 1 = 3x - 6$$
 
 $$y = 3x - 5$$
-## 2026-10-07 - # Calculus 1 Lecture 2.8: Related Rates :
+## 2026-10-07 - Calculus 1 Lecture 2.8: Related Rates :
 
 
