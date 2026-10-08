@@ -5463,5 +5463,6 @@ A television camera on the ground is located $3000\text{ ft}$ away from a rocket
 
 6. **Convert to Degrees for Physical Interpretation**:
    $$\frac{d\theta}{dt} = 0.072 \cdot \frac{180^\circ}{\pi} \approx 4.13^\circ/\text{sec}$$
+# Leftoff @ 15
 
 
