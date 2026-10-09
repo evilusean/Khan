@@ -5632,12 +5632,10 @@ Multiply the numerical values together and multiply the unit terms ($\text{ft} \
 
 $$\frac{dA}{dt} = 180\pi\text{ ft}^2/\text{s}$$
 ### Rocket Launch: Rate of Change of Angle of Elevation
-
 #### Problem Statement
 A rocket is climbing vertically at $600\text{ ft/s}$. A camera positioned on the ground $3000\text{ ft}$ away from the launchpad tracks the rocket. When the rocket is at a height of $4000\text{ ft}$, how fast will the camera's angle of elevation have to change to keep up with the rocket?
 
 ---
-
 #### Step 1: Define Variables and State What Is Given/Needed
 
 Set up all quantities as functions of time $t$:
@@ -5646,7 +5644,6 @@ Set up all quantities as functions of time $t$:
 * $h$ = height of the rocket (vertical leg of the right triangle)
 * $\theta$ = angle of elevation of the camera
 * Distance from camera to launchpad = $3000\text{ ft}$ (constant base)
-
 **Given Rates and Snapshot Values:**
 * $\frac{dh}{dt}\Big\vert{}_{h=4000\text{ ft}} = 600\text{ ft/s}$ (vertical speed of the rocket)
 * Snapshot height: $h = 4000\text{ ft}$
@@ -5655,18 +5652,14 @@ Set up all quantities as functions of time $t$:
 * $\frac{d\theta}{dt}\Big\vert{}_{h=4000\text{ ft}} = ?$ (rate of change of the angle of elevation)
 
 ---
-
 #### Step 2: Establish the Static Right Triangle Geometry
-
 At the snapshot moment when $h = 4000\text{ ft}$, the camera, launchpad, and rocket form a right triangle:
 * **Adjacent side** = $3000\text{ ft}$ (constant ground distance)
 * **Opposite side** = $4000\text{ ft}$ (vertical height $h$)
 * **Hypotenuse** = $\sqrt{3000^2 + 4000^2} = 5000\text{ ft}$ (distance from camera to rocket)
 
 ---
-
 #### Step 3: Choose the Relating Equation
-
 Relate the variable angle $\theta$ and variable height $h$ using the tangent trigonometric function ($\tan\theta = \frac{\text{opposite}}{\text{adjacent}}$):
 
 $$\tan\theta = \frac{h}{3000}$$
@@ -5676,9 +5669,7 @@ Rewrite this with a constant scalar coefficient to make differentiation easier:
 $$\tan\theta = \frac{1}{3000} h$$
 
 ---
-
 #### Step 4: Differentiate Implicitly with Respect to Time ($t$)
-
 Apply the derivative operator $\frac{d}{dt}$ to both sides of the equation:
 
 $$\frac{d}{dt}[\tan\theta] = \frac{d}{dt}\left[\frac{1}{3000} h\right]$$
@@ -5694,7 +5685,6 @@ Rewrite $\sec^2\theta$ as $(\sec\theta)^2$:
 $$[\sec\theta]^2 \cdot \frac{d\theta}{dt} = \frac{1}{3000} \cdot \frac{dh}{dt}$$
 
 ---
-
 #### Step 5: Evaluate $\sec\theta$ from the Right Triangle
 
 Since secant is the reciprocal of cosine ($\sec\theta = \frac{\text{hypotenuse}}{\text{adjacent}}$):
@@ -5702,7 +5692,6 @@ Since secant is the reciprocal of cosine ($\sec\theta = \frac{\text{hypotenuse}}
 $$\sec\theta = \frac{5000}{3000} = \frac{5}{3}$$
 
 ---
-
 #### Step 6: Substitute Snapshot Values into the Rate Equation
 
 Substitute $\sec\theta = \frac{5}{3}$ and $\frac{dh}{dt} = 600\text{ ft/s}$ into the differentiated equation:
@@ -5716,7 +5705,6 @@ Square the fraction on the left side:
 $$\frac{25}{9} \cdot \frac{d\theta}{dt} = \frac{1}{5}$$
 
 ---
-
 #### Step 7: Solve Algebraically for $\frac{d\theta}{dt}$
 
 Multiply both sides by the reciprocal fraction $\frac{9}{25}$ to isolate $\frac{d\theta}{dt}$:
@@ -5726,7 +5714,6 @@ $$\frac{d\theta}{dt} = \frac{1}{5} \cdot \frac{9}{25}$$
 $$\frac{d\theta}{dt} = \frac{9}{125}\text{ rad/s}$$
 
 ---
-
 #### Step 8: Convert to Decimal and Degrees (Optional Forms)
 
 * **Exact fraction form**:
