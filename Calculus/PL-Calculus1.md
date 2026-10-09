@@ -5469,9 +5469,7 @@ A television camera on the ground is located $3000\text{ ft}$ away from a rocket
 A conical water tank with radius $r$ and height $h$ is being filled with water. Water enters at the top and drains out through a small hole at the bottom vertex. Since the water volume, radius, and height all change as time progresses, find a general expression for the rate of change of the volume of water with respect to time ($\frac{dV}{dt}$).
 
 ---
-
 #### Geometry Foundation: What is the Formula for a Conic Shape?
-
 To understand where the volume formula comes from:
 1. **Area of a Base Circle**: 
    $$A = \pi r^2$$
@@ -5481,9 +5479,7 @@ To understand where the volume formula comes from:
    $$V = \frac{1}{3}\pi r^2 h = \frac{\pi}{3} r^2 h$$
 
 ---
-
 #### Step 1: Set Up the Differentiating Statement
-
 Because volume ($V$), radius ($r$), and height ($h$) are all changing as time moves forward, every variable is an implicit function of time ($t$).
 
 Take the derivative with respect to time ($t$) on both sides:
@@ -5491,26 +5487,19 @@ Take the derivative with respect to time ($t$) on both sides:
 $$\frac{d}{dt}[V] = \frac{d}{dt}\left[\frac{\pi}{3} r^2 h\right]$$
 
 ---
-
 #### Step 2: Factor Out the Constant
-
 Since $\frac{\pi}{3}$ is a constant scalar multiple, pull it out front of the derivative operator:
-
 $$\frac{dV}{dt} = \frac{\pi}{3} \cdot \frac{d}{dt}\left[r^2 \cdot h\right]$$
 
 ---
-
 #### Step 3: Apply the Product Rule
-
 Since both $r^2$ and $h$ depend on time $t$, differentiate $r^2 \cdot h$ using the product rule:
 $$\frac{d}{dt}[u \cdot v] = \frac{d}{dt}[u] \cdot v + u \cdot \frac{d}{dt}[v]$$
 
 $$\frac{dV}{dt} = \frac{\pi}{3} \left[ \frac{d}{dt}[r^2] \cdot h + r^2 \cdot \frac{d}{dt}[h] \right]$$
 
 ---
-
 #### Step 4: Apply the Chain Rule Implicitly to Each Variable
-
 Differentiate each term with respect to $t$, attaching a $\frac{d(\text{variable})}{dt}$ factor for every variable derivative:
 
 * For $\frac{d}{dt}[r^2]$: apply the power rule to get $2r$, then attach the chain rule factor $\frac{dr}{dt} \implies 2r \frac{dr}{dt}$
@@ -5521,7 +5510,6 @@ Substitute these back into the bracketed expression:
 $$\frac{dV}{dt} = \frac{\pi}{3} \left[ \left(2r \cdot \frac{dr}{dt}\right) \cdot h + r^2 \cdot \frac{dh}{dt} \right]$$
 
 ---
-
 #### Step 5: Clean Up and Simplify the Final Formula
 
 Rearrange the terms inside the bracket so the geometric factors precede the derivative rates:
