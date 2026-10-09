@@ -5729,4 +5729,11 @@ $$\frac{d\theta}{dt} = \frac{9}{125}\text{ rad/s}$$
 
 #### Step 8: Convert to Decimal and Degrees (Optional Forms)
 
-* **Exact
+* **Exact fraction form**:
+  $$\frac{d\theta}{dt} = \frac{9}{125}\text{ rad/s}$$
+
+* **Decimal form**:
+  $$\frac{d\theta}{dt} = 0.072\text{ rad/s}$$
+
+* **Degree conversion** (multiplying by $\frac{180^\circ}{\pi}$):
+  $$\frac{d\theta}{dt} = 0.072 \cdot \left(\frac{180}{\pi}\right) \approx 4.13^\circ/\text{s}$$
