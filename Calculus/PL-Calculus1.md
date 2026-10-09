@@ -5515,5 +5515,50 @@ $$\frac{dV}{dt} = \frac{\pi}{3} \left[ \left(2r \cdot \frac{dr}{dt}\right) \cdot
 Rearrange the terms inside the bracket so the geometric factors precede the derivative rates:
 
 $$\frac{dV}{dt} = \frac{\pi}{3} \left[ 2rh \frac{dr}{dt} + r^2 \frac{dh}{dt} \right]$$
+### Demystifying $\frac{d}{dt}$ and Rate Variables in Related Rates
 
+#### 1. What Do the $\frac{d}{dt}$ Terms Actually Mean?
+
+When you take the derivative of an equation with respect to time ($t$), you are converting static quantities into **rates of change over time**:
+
+* **$\frac{d}{dt}$ (The Operator)**: This is an action telling you to *"take the derivative with respect to time $t$."*
+* **$\frac{dV}{dt}, \frac{dr}{dt}, \frac{dh}{dt}$ (The Variables)**: These are **single, unified rate variables** (not fractions you multiply or divide by $d$ or $t$).
+  * $\frac{dV}{dt}$ = How fast the **Volume** is changing per unit of time (e.g., $\text{cm}^3/\text{sec}$).
+  * $\frac{dr}{dt}$ = How fast the **Radius** is changing per unit of time (e.g., $\text{cm}/\text{sec}$).
+  * $\frac{dh}{dt}$ = How fast the **Height** is changing per unit of time (e.g., $\text{cm}/\text{sec}$).
+
+---
+
+#### 2. Why Is There No $t$ Variable to Plug Into?
+
+In related rates problems, **time ($t$) is almost always implicit**. You do not plug a number directly into $t$ because the derivative equation directly connects **instantaneous values** ($r$, $h$) with their **instantaneous rates** ($\frac{dr}{dt}$, $\frac{dh}{dt}$).
+
+Instead of giving you "$t = 5\text{ seconds}$", the problem gives you a **snapshot in time** defined by physical conditions (e.g., *"at the moment when $r = 30\text{ ft}$ and the radius is growing at $3\text{ ft/sec}$"*).
+
+---
+
+#### 3. How to "Plug In" Numbers Step-by-Step
+
+Consider the cone volume derivative derived previously:
+
+$$\frac{dV}{dt} = \frac{\pi}{3} \left[ 2rh \frac{dr}{dt} + r^2 \frac{dh}{dt} \right]$$
+
+Every single piece of this equation gets replaced by a specific number given in the problem statement at that snapshot moment:
+
+* **$r$**: Plug in the **current radius** at that instant (e.g., $30\text{ ft}$).
+* **$h$**: Plug in the **current height** at that instant (e.g., $10\text{ ft}$).
+* **$\frac{dr}{dt}$**: Plug in the **speed the radius is growing/shrinking** (e.g., $+3\text{ ft/sec}$ if expanding, $-3\text{ ft/sec}$ if shrinking).
+* **$\frac{dh}{dt}$**: Plug in the **speed the height is changing** (e.g., $-2\text{ ft/sec}$).
+* **$\frac{dV}{dt}$**: This is usually the **unknown rate** you are solving for!
+
+---
+
+#### 4. Summary Checklist for Evaluating Related Rates Equations
+
+1. **Differentiate first**: Do all calculus ($\frac{d}{dt}$) to get your derivative equation.
+2. **Freeze time**: Identify the exact instant mentioned in the word problem.
+3. **Match values to variables**:
+   * Distance / measurement values $\longrightarrow$ plug into standard variables ($r, h, x, y$).
+   * Speeds / rates of change $\longrightarrow$ plug into rate variables ($\frac{dr}{dt}, \frac{dh}{dt}, \frac{dx}{dt}$).
+4. **Solve algebraically**: Calculate the remaining single unknown rate (such as $\frac{dV}{dt}$).
 
