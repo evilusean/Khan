@@ -5559,13 +5559,11 @@ Every single piece of this equation gets replaced by a specific number given in 
 ### Find $\frac{dy}{dt}$ at $t = 1$ for $y = x^3$ given $x = 2$ and $\frac{dx}{dt} = 4$ at $t = 1$
 
 #### Step 1: Differentiate both sides implicitly with respect to $t$
-
 Apply the derivative operator $\frac{d}{dt}$ to both sides of the equation:
 
 $$\frac{d}{dt}[y] = \frac{d}{dt}[x^3]$$
 
 ---
-
 #### Step 2: Apply the Chain Rule
 
 Since $y$ and $x$ are both implicit functions of time $t$, taking the derivative of $x^3$ with respect to $t$ requires multiplying by $\frac{dx}{dt}$:
@@ -5573,7 +5571,6 @@ Since $y$ and $x$ are both implicit functions of time $t$, taking the derivative
 $$\frac{dy}{dt} = 3x^2 \cdot \frac{dx}{dt}$$
 
 ---
-
 #### Step 3: Substitute the known values at $t = 1$
 
 Substitute $x = 2$ and $\frac{dx}{dt} = 4$ into the derivative expression:
@@ -5581,9 +5578,9 @@ Substitute $x = 2$ and $\frac{dx}{dt} = 4$ into the derivative expression:
 $$\frac{dy}{dt} = 3(2)^2 \cdot 4$$
 
 ---
-
 #### Step 4: Simplify to find the final rate of change
 
 $$\frac{dy}{dt} = 3(4) \cdot 4$$
 
 $$\frac{dy}{dt} = 48$$
+
