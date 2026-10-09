@@ -5555,5 +5555,35 @@ Every single piece of this equation gets replaced by a specific number given in 
 3. **Match values to variables**:
    * Distance / measurement values $\longrightarrow$ plug into standard variables ($r, h, x, y$).
    * Speeds / rates of change $\longrightarrow$ plug into rate variables ($\frac{dr}{dt}, \frac{dh}{dt}, \frac{dx}{dt}$).
-4. **Solve algebraically**: Calculate the remaining single unknown rate (such as $\frac{dV}{dt}$).
+1. **Solve algebraically**: Calculate the remaining single unknown rate (such as $\frac{dV}{dt}$).
+### Find $\frac{dy}{dt}$ at $t = 1$ for $y = x^3$ given $x = 2$ and $\frac{dx}{dt} = 4$ at $t = 1$
 
+#### Step 1: Differentiate both sides implicitly with respect to $t$
+
+Apply the derivative operator $\frac{d}{dt}$ to both sides of the equation:
+
+$$\frac{d}{dt}[y] = \frac{d}{dt}[x^3]$$
+
+---
+
+#### Step 2: Apply the Chain Rule
+
+Since $y$ and $x$ are both implicit functions of time $t$, taking the derivative of $x^3$ with respect to $t$ requires multiplying by $\frac{dx}{dt}$:
+
+$$\frac{dy}{dt} = 3x^2 \cdot \frac{dx}{dt}$$
+
+---
+
+#### Step 3: Substitute the known values at $t = 1$
+
+Substitute $x = 2$ and $\frac{dx}{dt} = 4$ into the derivative expression:
+
+$$\frac{dy}{dt} = 3(2)^2 \cdot 4$$
+
+---
+
+#### Step 4: Simplify to find the final rate of change
+
+$$\frac{dy}{dt} = 3(4) \cdot 4$$
+
+$$\frac{dy}{dt} = 48$$
