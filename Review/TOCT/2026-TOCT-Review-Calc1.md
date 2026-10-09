@@ -337,3 +337,4 @@ Find $\frac{dy}{dx}$ for $x^3 + y^3 = 5$.
    $$3y^2 \cdot \frac{dy}{dx} = -3x^2$$
 4. **Isolate $\frac{dy}{dx}$**:
    $$\frac{dy}{dx} = \frac{-3x^2}{3y^2} = -\frac{x^2}{y^2}$$
+
