@@ -5589,7 +5589,6 @@ $$\frac{dy}{dt} = 48$$
 An oil spill forms a circular slick on water. The radius is spreading at a constant rate of $3\text{ ft/s}$. How fast is the area increasing when the radius is $r = 30\text{ ft}$?
 
 ---
-
 #### Step 1: Define Variables and Identify Given Information
 
 Identify all quantities that depend on time $t$:
@@ -5602,7 +5601,6 @@ Identify all quantities that depend on time $t$:
 * Snapshot condition: $r = 30\text{ ft}$
 
 ---
-
 #### Step 2: Relate the Variables with a Geometric Formula
 
 The oil spill forms a circle, so use the formula for the area of a circle:
@@ -5610,7 +5608,6 @@ The oil spill forms a circle, so use the formula for the area of a circle:
 $$A = \pi r^2$$
 
 ---
-
 #### Step 3: Differentiate Implicitly with Respect to Time ($t$)
 
 Apply the derivative operator $\frac{d}{dt}$ to both sides of the equation:
@@ -5622,7 +5619,6 @@ Pull the constant factor $\pi$ out front and apply the power rule with the chain
 $$\frac{dA}{dt} = 2\pi r \cdot \frac{dr}{dt}$$
 
 ---
-
 #### Step 4: Substitute Known Snapshot Values and Units
 
 Plug in $r = 30\text{ ft}$ and $\frac{dr}{dt} = 3\text{ ft/s}$ into the derivative rate equation:
@@ -5630,7 +5626,6 @@ Plug in $r = 30\text{ ft}$ and $\frac{dr}{dt} = 3\text{ ft/s}$ into the derivati
 $$\frac{dA}{dt} = 2\pi \cdot (30\text{ ft}) \cdot (3\text{ ft/s})$$
 
 ---
-
 #### Step 5: Multiply to Find the Final Rate
 
 Multiply the numerical values together and multiply the unit terms ($\text{ft} \cdot \text{ft/s} = \text{ft}^2/\text{s}$):
