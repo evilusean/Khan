@@ -337,4 +337,18 @@ Find $\frac{dy}{dx}$ for $x^3 + y^3 = 5$.
    $$3y^2 \cdot \frac{dy}{dx} = -3x^2$$
 4. **Isolate $\frac{dy}{dx}$**:
    $$\frac{dy}{dx} = \frac{-3x^2}{3y^2} = -\frac{x^2}{y^2}$$
+### 2026-10-07 - Calculus 1 Lecture 2.8: Related Rates :
+https://www.youtube.com/watch?v=43Qt6wc44To&list=PLF797E961509B4EB5&index=18
+#### Lecture Notes: Calculus 1 – Lecture 2.8: Related Rates (Professor Leonard)
 
+#### Key Concepts & Strategy
+- **Related Rates Definition**: Related rates problems involve finding the rate of change of one quantity with respect to time ($\frac{d[\text{variable}]}{dt}$) by relating that quantity to other quantities whose rates of change are known.
+- **Implicit Differentiation with Respect to Time ($t$)**: All geometric/physical parameters (such as volume $V$, radius $r$, height $h$, angle $\theta$, area $A$) are treated as implicit functions of time $t$. 
+- **The Golden Rule**: Every time you differentiate a variable with respect to time $t$, you **must** attach its derivative term (e.g., $\frac{dV}{dt}$, $\frac{dr}{dt}$, $\frac{dh}{dt}$, $\frac{d\theta}{dt}$) due to the Chain Rule.
+
+---
+#### General 4-Step Method for Related Rates
+1. **Assign Variables & Sketch**: Identify given quantities and quantities to be found. Draw a diagram and assign variables to quantities that change over time.
+2. **Write a Primary Equation**: Formulate an equation connecting the variables (e.g., area, volume, Pythagorean theorem, trigonometric functions).
+3. **Implicitly Differentiate with Respect to Time ($t$)**: Apply $\frac{d}{dt}$ to both sides using the Chain Rule, Product Rule, or Quotient Rule as needed.
+4. **Substitute Known Values & Solve**: Substitute all given values and rates of change at the specific instant in time, then solve for the target unknown rate.
