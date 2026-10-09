@@ -5583,4 +5583,56 @@ $$\frac{dy}{dt} = 3(2)^2 \cdot 4$$
 $$\frac{dy}{dt} = 3(4) \cdot 4$$
 
 $$\frac{dy}{dt} = 48$$
+### Oil Spill: Finding the Rate of Change of Area
 
+#### Problem Statement
+An oil spill forms a circular slick on water. The radius is spreading at a constant rate of $3\text{ ft/s}$. How fast is the area increasing when the radius is $r = 30\text{ ft}$?
+
+---
+
+#### Step 1: Define Variables and Identify Given Information
+
+Identify all quantities that depend on time $t$:
+
+* $t$ = time
+* $r$ = radius of the circular spill
+* $A$ = area of the circular spill
+* $\frac{dr}{dt}$ = rate of change of radius $= 3\text{ ft/s}$
+* $\frac{dA}{dt}$ = rate of change of area (the unknown rate we want to find)
+* Snapshot condition: $r = 30\text{ ft}$
+
+---
+
+#### Step 2: Relate the Variables with a Geometric Formula
+
+The oil spill forms a circle, so use the formula for the area of a circle:
+
+$$A = \pi r^2$$
+
+---
+
+#### Step 3: Differentiate Implicitly with Respect to Time ($t$)
+
+Apply the derivative operator $\frac{d}{dt}$ to both sides of the equation:
+
+$$\frac{d}{dt}[A] = \frac{d}{dt}[\pi r^2]$$
+
+Pull the constant factor $\pi$ out front and apply the power rule with the chain rule to $r^2$:
+
+$$\frac{dA}{dt} = 2\pi r \cdot \frac{dr}{dt}$$
+
+---
+
+#### Step 4: Substitute Known Snapshot Values and Units
+
+Plug in $r = 30\text{ ft}$ and $\frac{dr}{dt} = 3\text{ ft/s}$ into the derivative rate equation:
+
+$$\frac{dA}{dt} = 2\pi \cdot (30\text{ ft}) \cdot (3\text{ ft/s})$$
+
+---
+
+#### Step 5: Multiply to Find the Final Rate
+
+Multiply the numerical values together and multiply the unit terms ($\text{ft} \cdot \text{ft/s} = \text{ft}^2/\text{s}$):
+
+$$\frac{dA}{dt} = 180\pi\text{ ft}^2/\text{s}$$
