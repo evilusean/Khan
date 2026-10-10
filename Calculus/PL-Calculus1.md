@@ -5725,3 +5725,4 @@ $$\frac{d\theta}{dt} = \frac{9}{125}\text{ rad/s}$$
 * **Degree conversion** (multiplying by $\frac{180^\circ}{\pi}$):
   $$\frac{d\theta}{dt} = 0.072 \cdot \left(\frac{180}{\pi}\right) \approx 4.13^\circ/\text{s}$$
 ## 2026-10-10 - # Calculus 1 Lecture 3.1: Increasing/Decreasing and Concavity of Functions :
+https://www.youtube.com/watch?v=Mx39JbbzEAo&list=PLF797E961509B4EB5&index=18
