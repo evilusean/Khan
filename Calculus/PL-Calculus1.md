@@ -5805,21 +5805,18 @@ While the *first derivative* ($f'(x))$ tells you whether a function is increasin
 * **Definition**: An **inflection point** (or point of inflection) is a specific location on the curve where the concavity changes—transitioning either from concave up to concave down, or from concave down to concave up.
 * **Condition**: At an inflection point, the second derivative is typically zero or undefined ($f''(x) = 0$), marking the exact pivot where the slope switches from increasing to decreasing (or vice versa
 ### Relative Extrema and Critical Numbers: Professor Leonard’s Explanation
-
 #### 1. What Are Relative Extrema?
 Relative extrema refer to local peaks (**Relative Maximum**) and local valleys (**Relative Minimum**) on an interval of a graph.
 * **Relative Maximum**: A high point on a local interval, defined specifically as the location where a function changes from **increasing to decreasing** (going from a positive slope to a negative slope).
 * **Relative Minimum**: A low point on a local interval, defined specifically as the location where a function changes from **decreasing to increasing** (going from a negative slope to a positive slope).
 
 ---
-
 #### 2. The Behavior of the Slope at Extrema
 As a function transitions from increasing to decreasing (at a peak) or from decreasing to increasing (at a valley), the slope must pass through zero. 
 * Moving toward a peak or valley, the slope goes from positive, hits zero, and turns negative (or vice versa).
 * Therefore, at every smooth relative maximum or minimum, **the slope is zero**.
 
 ---
-
 #### 3. Critical Numbers (Critical Points)
 * **Definition**: The point or $x$-value at which a curve has a horizontal tangent line ($\text{slope} = 0$) is called a **critical number** (or critical point).
 * **Important Distinction**: 
@@ -5827,9 +5824,9 @@ As a function transitions from increasing to decreasing (at a peak) or from decr
   * *However*, not every critical number is automatically a relative max or min. A critical number is simply a *candidate* (a potential place) where a peak, valley, or inflection point with a horizontal tangent might occur.
 
 ---
-
 #### 4. How to Find Critical Numbers Algebraically
 To find the critical numbers of a function:
 1. **Take the first derivative** ($f'(x)$), which represents the slope function.
 2. **Set the derivative equal to zero** ($f'(x) = 0$) to solve for all $x$-values where the slope is horizontal.
 3. **Check for undefined points** (such as where the denominator equals zero in rational functions), as critical numbers also include points in the domain where the derivative does not exist.
+
