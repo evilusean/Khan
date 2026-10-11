@@ -5735,7 +5735,6 @@ This lecture covers the fundamental calculus concepts for analyzing the shape of
 
 ---
 #### 1. Increasing and Decreasing Functions (First Derivative)
-
 * **Increasing**: As you read a graph from left to right, the function climbs. This happens wherever the slope is positive ($f'(x) > 0$).
 * **Decreasing**: As you read from left to right, the function falls. This happens wherever the slope is negative ($f'(x) < 0$).
 * **Constant / Horizontal Tangent**: Where the slope is zero ($f'(x) = 0$).
@@ -5746,7 +5745,6 @@ This lecture covers the fundamental calculus concepts for analyzing the shape of
 
 ---
 #### 2. Concavity and Points of Inflection (Second Derivative)
-
 * **Concavity**: Describes the direction of the curvature of a graph, which corresponds to *how* the slope is changing (the rate of change of the slope).
   * **Concave Up ($f''(x) > 0$)**: The slope is increasing. The curve opens upward and resembles a shape that would "hold water" (or a smile face).
   * **Concave Down ($f''(x) < 0$)**: The slope is decreasing. The curve opens downward and resembles an umbrella that sheds water (or a frown face).
@@ -5777,3 +5775,38 @@ This lecture covers the fundamental calculus concepts for analyzing the shape of
   3. Evaluate the original function $f(x)$ at both endpoints ($a$ and $b$).
   4. Compare all resulting height values: the largest is the absolute maximum, and the smallest is the absolute minimum.
 * **Open Intervals / Infinite Intervals**: If an interval is open or has vertical asymptotes (endpoints not included), evaluate limits as $x$ approaches the boundaries to determine if values spike to $\infty$ or $-\infty$, ruling out the existence of absolute extrema where appropriate.
+### Concavity and Direction of Curvature: Professor Leonard’s Explanation
+
+#### Definition of Concavity
+Concavity describes the **direction of curvature** of a function's graph, or more fundamentally, **how the slope of the function is changing** as you move from left to right. 
+
+While the *first derivative* ($f'(x))$ tells you whether a function is increasing or decreasing (going up or down), the *second derivative* ($f''(x))$ tells you how that slope is behaving—specifically, whether the slope itself is increasing or decreasing.
+
+---
+
+#### 1. Concave Up
+
+* **Visual Description**: The curve opens upward, resembling a bowl or cup that would **"hold water"** (or a smiling face).
+* **Mathematical Meaning**: The **slope is increasing** across the interval. 
+  * As you move from left to right, tangent line slopes go from very negative, to less negative, to zero, and then to increasingly positive values. 
+* **Second Derivative Test**: 
+  $$f''(x) > 0$$
+  When the second derivative is positive, the slope is increasing, yielding a concave up shape.
+
+---
+
+#### 2. Concave Down
+
+* **Visual Description**: The curve opens downward, resembling an umbrella that would **shed water** (or a frowning face).
+* **Mathematical Meaning**: The **slope is decreasing** across the interval. 
+  * As you move from left to right, tangent line slopes go from very positive, to less positive, to zero, and then to increasingly negative values.
+* **Second Derivative Test**: 
+  $$f''(x) < 0$$
+  When the second derivative is negative, the slope is decreasing, yielding a concave down shape.
+
+---
+
+#### 3. Points of Inflection
+
+* **Definition**: An **inflection point** (or point of inflection) is a specific location on the curve where the concavity changes—transitioning either from concave up to concave down, or from concave down to concave up.
+* **Condition**: At an inflection point, the second derivative is typically zero or undefined ($f''(x) = 0$), marking the exact pivot where the slope switches from increasing to decreasing (or vice versa).
