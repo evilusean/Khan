@@ -5783,9 +5783,7 @@ Concavity describes the **direction of curvature** of a function's graph, or mor
 While the *first derivative* ($f'(x))$ tells you whether a function is increasing or decreasing (going up or down), the *second derivative* ($f''(x))$ tells you how that slope is behaving—specifically, whether the slope itself is increasing or decreasing.
 
 ---
-
 #### 1. Concave Up
-
 * **Visual Description**: The curve opens upward, resembling a bowl or cup that would **"hold water"** (or a smiling face).
 * **Mathematical Meaning**: The **slope is increasing** across the interval. 
   * As you move from left to right, tangent line slopes go from very negative, to less negative, to zero, and then to increasingly positive values. 
@@ -5794,9 +5792,7 @@ While the *first derivative* ($f'(x))$ tells you whether a function is increasin
   When the second derivative is positive, the slope is increasing, yielding a concave up shape.
 
 ---
-
 #### 2. Concave Down
-
 * **Visual Description**: The curve opens downward, resembling an umbrella that would **shed water** (or a frowning face).
 * **Mathematical Meaning**: The **slope is decreasing** across the interval. 
   * As you move from left to right, tangent line slopes go from very positive, to less positive, to zero, and then to increasingly negative values.
@@ -5805,8 +5801,7 @@ While the *first derivative* ($f'(x))$ tells you whether a function is increasin
   When the second derivative is negative, the slope is decreasing, yielding a concave down shape.
 
 ---
-
 #### 3. Points of Inflection
-
 * **Definition**: An **inflection point** (or point of inflection) is a specific location on the curve where the concavity changes—transitioning either from concave up to concave down, or from concave down to concave up.
-* **Condition**: At an inflection point, the second derivative is typically zero or undefined ($f''(x) = 0$), marking the exact pivot where the slope switches from increasing to decreasing (or vice versa).
+* **Condition**: At an inflection point, the second derivative is typically zero or undefined ($f''(x) = 0$), marking the exact pivot where the slope switches from increasing to decreasing (or vice versa
+
