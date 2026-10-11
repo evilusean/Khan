@@ -5727,7 +5727,6 @@ $$\frac{d\theta}{dt} = \frac{9}{125}\text{ rad/s}$$
 ## 2026-10-11 - Calculus 1 Lecture 3.1: Increasing/Decreasing and Concavity of Functions :
 https://www.youtube.com/watch?v=Mx39JbbzEAo&list=PLF797E961509B4EB5&index=18
 ### Increasing/Decreasing and Concavity of Functions
-
 #### Problem / Core Concept Overview
 This lecture covers the fundamental calculus concepts for analyzing the shape of a function using derivatives:
 1. **First Derivative Test**: Determines where a function is **increasing** ($f'(x) > 0$), **decreasing** ($f'(x) < 0$), or **constant** ($f'(x) = 0$), and identifies **critical numbers** and **relative extrema** (local maximums and minimums).
@@ -5735,20 +5734,17 @@ This lecture covers the fundamental calculus concepts for analyzing the shape of
 3. **Absolute Extrema**: Methods for finding absolute maximums and minimums on closed intervals versus open intervals (using endpoints and critical numbers).
 
 ---
-
 #### 1. Increasing and Decreasing Functions (First Derivative)
 
 * **Increasing**: As you read a graph from left to right, the function climbs. This happens wherever the slope is positive ($f'(x) > 0$).
 * **Decreasing**: As you read from left to right, the function falls. This happens wherever the slope is negative ($f'(x) < 0$).
 * **Constant / Horizontal Tangent**: Where the slope is zero ($f'(x) = 0$).
-
 **Summary Rule:**
 * If $f'(x) > 0$ on an interval, $f(x)$ is **increasing**.
 * If $f'(x) < 0$ on an interval, $f(x)$ is **decreasing**.
 * If $f'(x) = 0$, the function has a horizontal tangent line (often marking a transition point).
 
 ---
-
 #### 2. Concavity and Points of Inflection (Second Derivative)
 
 * **Concavity**: Describes the direction of the curvature of a graph, which corresponds to *how* the slope is changing (the rate of change of the slope).
@@ -5757,9 +5753,7 @@ This lecture covers the fundamental calculus concepts for analyzing the shape of
 * **Inflection Point (Point of Inflection)**: A point on the graph where the concavity changes from concave up to concave down (or vice versa). At an inflection point, typically $f''(x) = 0$ or is undefined.
 
 ---
-
 #### 3. Relative Extrema and Critical Numbers
-
 * **Relative Extrema**: Local peaks (**Relative Max**) and local valleys (**Relative Min**) on an interval.
   * **Relative Max**: Occurs where the function changes from **increasing to decreasing** (positive slope to negative slope).
   * **Relative Min**: Occurs where the function changes from **decreasing to increasing** (negative slope to positive slope).
@@ -5772,9 +5766,7 @@ This lecture covers the fundamental calculus concepts for analyzing the shape of
 3. Identify any points where the derivative is undefined (including setting the denominator of $f'(x)$ or original function equal to zero).
 
 ---
-
 #### 4. Absolute Extrema on Closed vs. Open Intervals
-
 * **Absolute Maximum / Minimum**: The highest or lowest overall value a function attains on a given interval.
 * **Closed Interval Method**: By the Extreme Value Theorem, any continuous function on a closed interval $[a, b]$ is guaranteed to have both an absolute maximum and absolute minimum. These must occur at one of two places:
   1. **Critical numbers** inside the interval.
