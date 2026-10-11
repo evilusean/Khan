@@ -5726,3 +5726,62 @@ $$\frac{d\theta}{dt} = \frac{9}{125}\text{ rad/s}$$
   $$\frac{d\theta}{dt} = 0.072 \cdot \left(\frac{180}{\pi}\right) \approx 4.13^\circ/\text{s}$$
 ## 2026-10-11 - Calculus 1 Lecture 3.1: Increasing/Decreasing and Concavity of Functions :
 https://www.youtube.com/watch?v=Mx39JbbzEAo&list=PLF797E961509B4EB5&index=18
+### Increasing/Decreasing and Concavity of Functions
+
+#### Problem / Core Concept Overview
+This lecture covers the fundamental calculus concepts for analyzing the shape of a function using derivatives:
+1. **First Derivative Test**: Determines where a function is **increasing** ($f'(x) > 0$), **decreasing** ($f'(x) < 0$), or **constant** ($f'(x) = 0$), and identifies **critical numbers** and **relative extrema** (local maximums and minimums).
+2. **Second Derivative Test**: Determines the **concavity** of a function (**concave up** when $f''(x) > 0$ and **concave down** when $f''(x) < 0$) and locates **points of inflection**.
+3. **Absolute Extrema**: Methods for finding absolute maximums and minimums on closed intervals versus open intervals (using endpoints and critical numbers).
+
+---
+
+#### 1. Increasing and Decreasing Functions (First Derivative)
+
+* **Increasing**: As you read a graph from left to right, the function climbs. This happens wherever the slope is positive ($f'(x) > 0$).
+* **Decreasing**: As you read from left to right, the function falls. This happens wherever the slope is negative ($f'(x) < 0$).
+* **Constant / Horizontal Tangent**: Where the slope is zero ($f'(x) = 0$).
+
+**Summary Rule:**
+* If $f'(x) > 0$ on an interval, $f(x)$ is **increasing**.
+* If $f'(x) < 0$ on an interval, $f(x)$ is **decreasing**.
+* If $f'(x) = 0$, the function has a horizontal tangent line (often marking a transition point).
+
+---
+
+#### 2. Concavity and Points of Inflection (Second Derivative)
+
+* **Concavity**: Describes the direction of the curvature of a graph, which corresponds to *how* the slope is changing (the rate of change of the slope).
+  * **Concave Up ($f''(x) > 0$)**: The slope is increasing. The curve opens upward and resembles a shape that would "hold water" (or a smile face).
+  * **Concave Down ($f''(x) < 0$)**: The slope is decreasing. The curve opens downward and resembles an umbrella that sheds water (or a frown face).
+* **Inflection Point (Point of Inflection)**: A point on the graph where the concavity changes from concave up to concave down (or vice versa). At an inflection point, typically $f''(x) = 0$ or is undefined.
+
+---
+
+#### 3. Relative Extrema and Critical Numbers
+
+* **Relative Extrema**: Local peaks (**Relative Max**) and local valleys (**Relative Min**) on an interval.
+  * **Relative Max**: Occurs where the function changes from **increasing to decreasing** (positive slope to negative slope).
+  * **Relative Min**: Occurs where the function changes from **decreasing to increasing** (negative slope to positive slope).
+* **Critical Numbers**: Values of $x$ in the domain where $f'(x) = 0$ or where $f'(x)$ is undefined. 
+  * *Note*: Critical numbers are candidate locations for relative extrema, but not every critical number guarantees a max or min (e.g., inflection points with a horizontal tangent).
+
+**Procedure for Finding Critical Numbers:**
+1. Take the first derivative $f'(x)$.
+2. Set $f'(x) = 0$ and solve for $x$ (for rational functions, set the numerator equal to zero).
+3. Identify any points where the derivative is undefined (including setting the denominator of $f'(x)$ or original function equal to zero).
+
+---
+
+#### 4. Absolute Extrema on Closed vs. Open Intervals
+
+* **Absolute Maximum / Minimum**: The highest or lowest overall value a function attains on a given interval.
+* **Closed Interval Method**: By the Extreme Value Theorem, any continuous function on a closed interval $[a, b]$ is guaranteed to have both an absolute maximum and absolute minimum. These must occur at one of two places:
+  1. **Critical numbers** inside the interval.
+  2. **Endpoints** of the interval ($x = a$ and $x = b$).
+* **Procedure**:
+  1. Find all critical numbers within the interval.
+  2. Evaluate the original function $f(x)$ at each critical number.
+  3. Evaluate the original function $f(x)$ at both endpoints ($a$ and $b$).
+  4. Compare all resulting height values: the largest is the absolute maximum, and the smallest is the absolute minimum.
+* **Open Intervals / Infinite Intervals**: If an interval is open or has vertical asymptotes (endpoints not included), evaluate limits as $x$ approaches the boundaries to determine if values spike to $\infty$ or $-\infty$, ruling out the existence of absolute extrema where appropriate.
