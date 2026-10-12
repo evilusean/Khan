@@ -5829,4 +5829,4 @@ To find the critical numbers of a function:
 1. **Take the first derivative** ($f'(x)$), which represents the slope function.
 2. **Set the derivative equal to zero** ($f'(x) = 0$) to solve for all $x$-values where the slope is horizontal.
 3. **Check for undefined points** (such as where the denominator equals zero in rational functions), as critical numbers also include points in the domain where the derivative does not exist.
-
+# Leftoff @ 45
