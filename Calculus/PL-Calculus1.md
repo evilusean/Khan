@@ -5830,14 +5830,11 @@ To find the critical numbers of a function:
 2. **Set the derivative equal to zero** ($f'(x) = 0$) to solve for all $x$-values where the slope is horizontal.
 3. **Check for undefined points** (such as where the denominator equals zero in rational functions), as critical numbers also include points in the domain where the derivative does not exist.
 ### Find the Critical Numbers of $f(x) = x^3 - 3x + 1$
-
 #### Problem Description
 Find all critical numbers for the polynomial function $f(x) = x^3 - 3x + 1$. Critical numbers are the $x$-values where the slope of the function is zero ($f'(x) = 0$) or where the derivative is undefined.
 
 ---
-
 #### Step 1: Take the First Derivative (Find the Slope Function)
-
 To find where the slope is zero, first find the derivative $f'(x)$ using the power rule:
 
 $$f(x) = x^3 - 3x + 1$$
@@ -5845,37 +5842,28 @@ $$f(x) = x^3 - 3x + 1$$
 $$f'(x) = 3x^2 - 3$$
 
 ---
-
 #### Step 2: Set the Derivative Equal to Zero
-
 Critical numbers occur where the slope is equal to zero. Set $f'(x) = 0$:
 
 $$3x^2 - 3 = 0$$
 
 ---
-
 #### Step 3: Solve Algebraically for $x$
-
 Factor out the common constant $3$:
 
 $$3(x^2 - 1) = 0$$
-
 Divide both sides by $3$:
 
 $$x^2 - 1 = 0$$
-
 Solve for $x^2$:
 
 $$x^2 = 1$$
-
 Take the square root of both sides (remembering both the positive and negative roots):
 
 $$x = \pm 1$$
 
 ---
-
 #### Conclusion
-
 The critical numbers for the function are:
 
 $$x = 1 \quad \text{and} \quad x = -1$$
