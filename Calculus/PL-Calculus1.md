@@ -6004,4 +6004,49 @@ Test the two critical numbers ($0$ and $\frac{1}{8}$) and the two interval endpo
 #### Conclusion
 * **Absolute Maximum**: $9$, occurring at $x = -1$.
 * **Absolute Minimum**: $-\frac{9}{8}$, occurring at $x = \frac{1}{8}$.
+### Deep Dive: Factoring Rational and Negative Exponents
 
+#### The Core Confusion: How Does Factoring $x^{-\frac{2}{3}}$ Work?
+
+When factoring an expression with fractional and negative exponents like:
+$$8x^{\frac{1}{3}} - x^{-\frac{2}{3}} = 0$$
+
+Professor Leonard teaches a vital rule: **Always factor out the variable term with the smallest (most negative) exponent.**
+
+Here, we compare $\frac{1}{3}$ and $-\frac{2}{3}$. Since $-\frac{2}{3}$ is smaller than $\frac{1}{3}$, we factor out $x^{-\frac{2}{3}}$.
+
+---
+
+#### Step-by-Step Breakdown of Division (Factoring)
+
+Factoring is the opposite of distributing—it means **dividing** every term inside the original expression by what you pulled out:
+
+$$\frac{8x^{\frac{1}{3}} - x^{-\frac{2}{3}}}{x^{-\frac{2}{3}}} = \frac{8x^{\frac{1}{3}}}{x^{-\frac{2}{3}}} - \frac{x^{-\frac{2}{3}}}{x^{-\frac{2}{3}}}$$
+
+---
+
+#### Rule of Exponents: Dividing Powers
+
+When dividing two terms with the same base, you **subtract the exponent of the denominator from the exponent of the numerator**:
+$$\frac{x^a}{x^b} = x^{a - b}$$
+
+Let's apply this rule to our first term:
+$$\frac{8x^{\frac{1}{3}}}{x^{-\frac{2}{3}}} = 8x^{\frac{1}{3} - \left(-\frac{2}{3}\right)}$$
+
+Simplify the subtraction of a negative:
+$$\frac{1}{3} - \left(-\frac{2}{3}\right) = \frac{1}{3} + \frac{2}{3} = \frac{3}{3} = 1$$
+
+Therefore, the first term becomes:
+$$8x^1 = 8x$$
+
+Now let's apply it to the second term:
+$$\frac{x^{-\frac{2}{3}}}{x^{-\frac{2}{3}}} = x^{-\frac{2}{3} - \left(-\frac{2}{3}\right)} = x^0 = 1$$
+
+---
+
+#### Putting It Back Together
+
+When you put the factored pieces back together outside and inside the parentheses, you get:
+$$x^{-\frac{2}{3}}(8x - 1) = 0$$
+
+This clean factored form makes it easy to find both critical numbers: setting $x^{-\frac{2}{3}} = 0$ (undefined at $x=0$) and $8x - 1 = 0$ ($x = \frac{1}{8}$).
