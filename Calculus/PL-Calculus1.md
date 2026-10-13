@@ -5898,3 +5898,73 @@ To find the absolute maximum and minimum of a continuous function on a closed in
 * **How to analyze open intervals**:
   * Check critical numbers as candidates for relative peaks/valleys.
   * Take **limits** as $x$ approaches the open boundaries or infinities to see if the function shoots up to $\infty$ or down to $-\infty$. If a graph goes to infinity, an absolute maximum does not exist.
+### Find Absolute Extrema for $f(x) = 2x^3 - 15x^2 + 36x$ on the Closed Interval $[1, 5]$
+
+#### Problem Description
+Find the absolute maximum and absolute minimum values of the polynomial function $f(x) = 2x^3 - 15x^2 + 36x$ on the closed interval $[1, 5]$ by testing critical numbers and interval endpoints.
+
+---
+
+#### Step 1: Find the Critical Numbers
+
+Take the first derivative of $f(x)$ using the power rule to find the slope function:
+
+$$f'(x) = 6x^2 - 30x + 36$$
+
+Set the derivative equal to zero ($f'(x) = 0$) to find where the slope is horizontal:
+
+$$6x^2 - 30x + 36 = 0$$
+
+Factor out the greatest common factor, $6$:
+
+$$6(x^2 - 5x + 6) = 0$$
+
+Divide both sides by $6$:
+
+$$x^2 - 5x + 6 = 0$$
+
+Factor the quadratic expression (finding two numbers that multiply to $6$ and add up to $-5$):
+
+$$(x - 3)(x - 2) = 0$$
+
+Set each factor equal to zero to solve for $x$:
+
+$$x = 3 \quad \text{and} \quad x = 2$$
+
+Both critical numbers ($x = 3$ and $x = 2$) lie inside the given closed interval $[1, 5]$, so we keep both.
+
+---
+
+#### Step 2: Evaluate the Original Function at Critical Numbers and Endpoints
+
+Test four $x$-values in total: the two critical numbers ($2$ and $3$) and the two interval endpoints ($1$ and $5$). Plug each into the **original function** $f(x) = 2x^3 - 15x^2 + 36x$:
+
+* **Left Endpoint ($x = 1$)**:
+  $$f(1) = 2(1)^3 - 15(1)^2 + 36(1) = 2 - 15 + 36 = 23$$
+
+* **Critical Number ($x = 2$)**:
+  $$f(2) = 2(2)^3 - 15(2)^2 + 36(2) = 2(8) - 15(4) + 72 = 16 - 60 + 72 = 28$$
+
+* **Critical Number ($x = 3$)**:
+  $$f(3) = 2(3)^3 - 15(3)^2 + 36(3) = 2(27) - 15(9) + 108 = 54 - 135 + 108 = 27$$
+
+* **Right Endpoint ($x = 5$)**:
+  $$f(5) = 2(5)^3 - 15(5)^2 + 36(5) = 2(125) - 15(25) + 180 = 250 - 375 + 180 = 55$$
+
+---
+
+#### Step 3: Summary Table of Values
+
+| $x$-Value | Type | $f(x)$ Height |
+| :--- | :--- | :--- |
+| $x = 1$ | Left Endpoint | $23$ |
+| $x = 2$ | Critical Number | $28$ |
+| $x = 3$ | Critical Number | $27$ |
+| $x = 5$ | Right Endpoint | $55$ |
+
+---
+
+#### Conclusion
+
+* **Absolute Maximum**: The highest height attained is **$55$**, which occurs at the right endpoint $x = 5$.
+* **Absolute Minimum**: The lowest height attained is **$23$**, which occurs at the left endpoint $x = 1$.
