@@ -5948,14 +5948,11 @@ $$f(5) = 2(5)^3 - 15(5)^2 + 36(5) = 2(125) - 15(25) + 180 = 250 - 375 + 180 = 55
 * **Absolute Maximum**: The highest height attained is **$55$**, which occurs at the right endpoint $x = 5$.
 * **Absolute Minimum**: The lowest height attained is **$23$**, which occurs at the left endpoint $x = 1$.
 ### Find Absolute Extrema for $y = 6x^{\frac{4}{3}} - 3x^{\frac{1}{3}}$ on $[-1, 1]$
-
 #### Problem Description
 Find the absolute maximum and absolute minimum values of the function $y = 6x^{\frac{4}{3}} - 3x^{\frac{1}{3}}$ on the closed interval $[-1, 1]$.
 
 ---
-
 #### Step 1: Find the First Derivative
-
 Differentiate $y$ with respect to $x$ using the power rule:
 * For $6x^{\frac{4}{3}}$: Bring down $\frac{4}{3}$, multiply by $6$ to get $8$, and subtract $1$ ($-\frac{3}{3}$) from the exponent to get $\frac{1}{3}$.
 * For $-3x^{\frac{1}{3}}$: Bring down $\frac{1}{3}$, multiply by $-3$ to get $-1$, and subtract $1$ from the exponent to get $-\frac{2}{3}$.
@@ -5963,9 +5960,7 @@ Differentiate $y$ with respect to $x$ using the power rule:
 $$\frac{dy}{dx} = 8x^{\frac{1}{3}} - x^{-\frac{2}{3}}$$
 
 ---
-
 #### Step 2: Find Critical Numbers (Set Derivative to Zero and Check Where Undefined)
-
 Set the derivative equal to zero:
 $$8x^{\frac{1}{3}} - x^{-\frac{2}{3}} = 0$$
 
@@ -5979,7 +5974,6 @@ Set each factor equal to zero:
 Both critical numbers ($x = 0$ and $x = \frac{1}{8}$) lie within the closed interval $[-1, 1]$.
 
 ---
-
 #### Step 3: Evaluate the Original Function at Critical Numbers and Endpoints
 
 Test the two critical numbers ($0$ and $\frac{1}{8}$) and the two interval endpoints ($-1$ and $1$) in the original function $y = 6x^{\frac{4}{3}} - 3x^{\frac{1}{3}}$:
@@ -5997,7 +5991,6 @@ Test the two critical numbers ($0$ and $\frac{1}{8}$) and the two interval endpo
   $$y = 6(1)^{\frac{4}{3}} - 3(1)^{\frac{1}{3}} = 6(1) - 3(1) = 6 - 3 = 3$$
 
 ---
-
 #### Step 4: Summary Table of Values
 
 | $x$-Value | Type | $y$-Height |
@@ -6008,7 +6001,7 @@ Test the two critical numbers ($0$ and $\frac{1}{8}$) and the two interval endpo
 | $x = 1$ | Right Endpoint | $3$ |
 
 ---
-
 #### Conclusion
 * **Absolute Maximum**: $9$, occurring at $x = -1$.
 * **Absolute Minimum**: $-\frac{9}{8}$, occurring at $x = \frac{1}{8}$.
+
