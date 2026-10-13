@@ -6037,3 +6037,73 @@ $$\frac{x^{-\frac{2}{3}}}{x^{-\frac{2}{3}}} = x^{-\frac{2}{3} - \left(-\frac{2}{
 When you put the factored pieces back together outside and inside the parentheses, you get:
 $$x^{-\frac{2}{3}}(8x - 1) = 0$$
 This clean factored form makes it easy to find both critical numbers: setting $x^{-\frac{2}{3}} = 0$ (undefined at $x=0$) and $8x - 1 = 0$ ($x = \frac{1}{8}$).
+### Find Absolute Extrema for $f(x) = \frac{1}{x^2 - x}$ on the Open Interval $(0, 1)$
+
+#### Problem Description
+Analyze the function $f(x) = \frac{1}{x^2 - x}$ on the open interval $(0, 1)$ to find any absolute maximum or absolute minimum values.
+
+---
+
+#### Step 1: Check the Boundaries (Limits at Interval Ends)
+
+Because the interval is **open** ($[0, 1]$ cannot be checked because the function is undefined at the endpoints $x = 0$ and $x = 1$), we must evaluate one-sided limits as $x$ approaches the boundaries to see where the graph goes:
+
+* **Limit as $x$ approaches $0$ from the right ($x \to 0^+$):**
+  Factor the denominator: $x^2 - x = x(x - 1)$. 
+  As $x$ gets very close to $0$ from the right (e.g., $0.1$):
+  $$\frac{1}{(0.1)(0.1 - 1)} = \frac{1}{(+)(-)} = \text{negative}$$
+  Thus, $\lim_{x \to 0^+} \frac{1}{x^2 - x} = -\infty$.
+
+* **Limit as $x$ approaches $1$ from the left ($x \to 1^-$):**
+  As $x$ gets very close to $1$ from the left (e.g., $0.9$):
+  $$\frac{1}{(0.9)(0.9 - 1)} = \frac{1}{(+)(-)} = \text{negative}$$
+  Thus, $\lim_{x \to 1^-} \frac{1}{x^2 - x} = -\infty$.
+
+Both boundaries go down to $-\infty$. This guarantees there is **no absolute minimum** (since the function drops infinitely downward), but it leaves open the possibility of an **absolute maximum** at a peak between $0$ and $1$.
+
+---
+
+#### Step 2: Find the First Derivative
+
+Rewrite $f(x)$ using a negative exponent to prepare for the Chain Rule:
+$$f(x) = (x^2 - x)^{-1}$$
+
+Take the derivative $f'(x)$:
+$$f'(x) = -1(x^2 - x)^{-2} \cdot \frac{d}{dx}[x^2 - x]$$
+
+$$\frac{d}{dx}[x^2 - x] = 2x - 1$$
+
+Combine the terms:
+$$f'(x) = -1(x^2 - x)^{-2}(2x - 1)$$
+
+Rewrite back as a fraction:
+$$f'(x) = -\frac{2x - 1}{(x^2 - x)^2} = \frac{-2x + 1}{(x^2 - x)^2}$$
+
+---
+
+#### Step 3: Find Critical Numbers
+
+Set the derivative equal to zero ($f'(x) = 0$). For a rational function, this means setting the numerator equal to zero:
+$$-2x + 1 = 0$$
+
+Solve for $x$:
+$$-2x = -1 \implies x = \frac{1}{2}$$
+
+The critical number $x = \frac{1}{2}$ lies inside our open interval $(0, 1)$.
+
+---
+
+#### Step 4: Evaluate the Original Function at the Critical Number
+
+Substitute $x = \frac{1}{2}$ into the original function $f(x)$:
+
+$$f\left(\frac{1}{2}\right) = \frac{1}{\left(\frac{1}{2}\right)^2 - \left(\frac{1}{2}\right)}$$
+
+$$f\left(\frac{1}{2}\right) = \frac{1}{\frac{1}{4} - \frac{1}{2}} = \frac{1}{\frac{1}{4} - \frac{2}{4}} = \frac{1}{-\frac{1}{4}} = -4$$
+
+---
+
+#### Conclusion
+
+* **Absolute Maximum**: $-4$, occurring at $x = \frac{1}{2}$.
+* **Absolute Minimum**: Does not exist (because the function decreases toward $-\infty$ near the boundaries $0$ and $1$).
