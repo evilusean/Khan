@@ -5947,3 +5947,68 @@ $$f(5) = 2(5)^3 - 15(5)^2 + 36(5) = 2(125) - 15(25) + 180 = 250 - 375 + 180 = 55
 #### Conclusion
 * **Absolute Maximum**: The highest height attained is **$55$**, which occurs at the right endpoint $x = 5$.
 * **Absolute Minimum**: The lowest height attained is **$23$**, which occurs at the left endpoint $x = 1$.
+### Find Absolute Extrema for $y = 6x^{\frac{4}{3}} - 3x^{\frac{1}{3}}$ on $[-1, 1]$
+
+#### Problem Description
+Find the absolute maximum and absolute minimum values of the function $y = 6x^{\frac{4}{3}} - 3x^{\frac{1}{3}}$ on the closed interval $[-1, 1]$.
+
+---
+
+#### Step 1: Find the First Derivative
+
+Differentiate $y$ with respect to $x$ using the power rule:
+* For $6x^{\frac{4}{3}}$: Bring down $\frac{4}{3}$, multiply by $6$ to get $8$, and subtract $1$ ($-\frac{3}{3}$) from the exponent to get $\frac{1}{3}$.
+* For $-3x^{\frac{1}{3}}$: Bring down $\frac{1}{3}$, multiply by $-3$ to get $-1$, and subtract $1$ from the exponent to get $-\frac{2}{3}$.
+
+$$\frac{dy}{dx} = 8x^{\frac{1}{3}} - x^{-\frac{2}{3}}$$
+
+---
+
+#### Step 2: Find Critical Numbers (Set Derivative to Zero and Check Where Undefined)
+
+Set the derivative equal to zero:
+$$8x^{\frac{1}{3}} - x^{-\frac{2}{3}} = 0$$
+
+Factor out the greatest common factor with the smallest (most negative) exponent, which is $x^{-\frac{2}{3}}$:
+$$x^{-\frac{2}{3}}(8x - 1) = 0$$
+
+Set each factor equal to zero:
+1. $x^{-\frac{2}{3}} = 0 \implies \frac{1}{x^{\frac{2}{3}}} = 0$ (No solution for zero, but the derivative is **undefined** at $x = 0$, so $x = 0$ is a critical number).
+2. $8x - 1 = 0 \implies x = \frac{1}{8}$ (A critical number where the derivative equals zero).
+
+Both critical numbers ($x = 0$ and $x = \frac{1}{8}$) lie within the closed interval $[-1, 1]$.
+
+---
+
+#### Step 3: Evaluate the Original Function at Critical Numbers and Endpoints
+
+Test the two critical numbers ($0$ and $\frac{1}{8}$) and the two interval endpoints ($-1$ and $1$) in the original function $y = 6x^{\frac{4}{3}} - 3x^{\frac{1}{3}}$:
+
+* **Endpoint ($x = -1$):**
+  $$y = 6(-1)^{\frac{4}{3}} - 3(-1)^{\frac{1}{3}} = 6(1) - 3(-1) = 6 + 3 = 9$$
+
+* **Critical Number ($x = 0$):**
+  $$y = 6(0)^{\frac{4}{3}} - 3(0)^{\frac{1}{3}} = 0 - 0 = 0$$
+
+* **Critical Number ($x = \frac{1}{8}$):**
+  $$y = 6\left(\frac{1}{8}\right)^{\frac{4}{3}} - 3\left(\frac{1}{8}\right)^{\frac{1}{3}} = 6\left(\frac{1}{16}\right) - 3\left(\frac{1}{2}\right) = \frac{3}{8} - \frac{12}{8} = -\frac{9}{8}$$
+
+* **Endpoint ($x = 1$):**
+  $$y = 6(1)^{\frac{4}{3}} - 3(1)^{\frac{1}{3}} = 6(1) - 3(1) = 6 - 3 = 3$$
+
+---
+
+#### Step 4: Summary Table of Values
+
+| $x$-Value | Type | $y$-Height |
+| :--- | :--- | :--- |
+| $x = -1$ | Left Endpoint | $9$ (Absolute Maximum) |
+| $x = 0$ | Critical Number (Undefined Derivative) | $0$ |
+| $x = \frac{1}{8}$ | Critical Number (Derivative = 0) | $-\frac{9}{8}$ (Absolute Minimum) |
+| $x = 1$ | Right Endpoint | $3$ |
+
+---
+
+#### Conclusion
+* **Absolute Maximum**: $9$, occurring at $x = -1$.
+* **Absolute Minimum**: $-\frac{9}{8}$, occurring at $x = \frac{1}{8}$.
