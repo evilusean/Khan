@@ -5868,14 +5868,12 @@ The critical numbers for the function are:
 
 $$x = 1 \quad \text{and} \quad x = -1$$
 ### Absolute Maximum and Minimum
-
 #### 1. What Are Absolute Extrema?
 * **Absolute Maximum**: The highest overall value (height) a function attains on a given interval.
 * **Absolute Minimum**: The lowest overall value (height) a function attains on a given interval.
 * **Difference from Relative Extrema**: While relative extrema are just local peaks or valleys on a small neighborhood, absolute extrema represent the *absolute highest* or *absolute lowest* point across the entire specified domain or interval.
 
 ---
-
 #### 2. The Extreme Value Theorem (Closed Intervals)
 * Every continuous function on a **closed interval** $[a, b]$ is guaranteed to have both an absolute maximum and an absolute minimum.
 * **Where do they occur?** On a closed interval, absolute extrema can *only* happen in two possible places:
@@ -5883,7 +5881,6 @@ $$x = 1 \quad \text{and} \quad x = -1$$
   2. **At the endpoints** of the interval ($x = a$ and $x = b$).
 
 ---
-
 #### 3. Procedure for Finding Absolute Extrema on a Closed Interval
 To find the absolute maximum and minimum of a continuous function on a closed interval $[a, b]$:
 1. **Find the first derivative** $f'(x)$ and solve for all critical numbers where $f'(x) = 0$.
@@ -5896,7 +5893,6 @@ To find the absolute maximum and minimum of a continuous function on a closed in
    * The **smallest** height is the absolute minimum.
 
 ---
-
 #### 4. Open Intervals and Infinite Intervals
 * If an interval is **open** (e.g., $(a, b)$) or involves infinity (e.g., $(-\infty, \infty)$), absolute extrema are **not guaranteed** to exist.
 * **How to analyze open intervals**:
