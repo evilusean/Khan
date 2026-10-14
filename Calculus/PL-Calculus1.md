@@ -6103,7 +6103,6 @@ $$f\left(\frac{1}{2}\right) = \frac{1}{\frac{1}{4} - \frac{1}{2}} = \frac{1}{\fr
 ## 2026-10-14 - Calculus 1 Lecture 3.2: A BRIEF Discussion of Rolle's Theorem and Mean-Value Theorem. :
 https://www.youtube.com/watch?v=qW89xdGfSzw&list=PLF797E961509B4EB5&index=19
 ### Rolle’s Theorem and the Mean-Value Theorem (MVT)
-
 #### 1. Rolle’s Theorem: The Core Concept
 Rolle's theorem is a foundational guarantee about functions and their slopes. 
 
@@ -6116,10 +6115,8 @@ Rolle's theorem is a foundational guarantee about functions and their slopes.
 * **Plain English Translation**: If a smooth curve goes up and eventually comes back down to the exact same height, it *must* flatten out into a horizontal tangent line at least once somewhere in between. Rolle's Theorem is simply a special case of the Mean-Value Theorem where the secant slope is zero.
 
 ---
-
 #### 2. The Mean-Value Theorem (MVT): Expanding the Concept
 The Mean-Value Theorem generalizes Rolle's theorem so that the two endpoints don't have to be at the same height.
-
 * **The Setup**: Suppose $f(x)$ is:
   1. **Continuous** on the closed interval $[a, b]$.
   2. **Differentiable** on the open interval $(a, b)$.
@@ -6128,7 +6125,6 @@ The Mean-Value Theorem generalizes Rolle's theorem so that the two endpoints don
 * **Plain English Translation**: If you connect two points on a smooth curve with a straight secant line, somewhere between those two points, the tangent line of the curve will be perfectly **parallel** to that secant line (sharing the exact same slope).
 
 ---
-
 #### 3. How to Solve MVT and Rolle's Theorem Problems
 
 When homework requires you to verify or find the value of $c$ for these theorems:
@@ -6145,3 +6141,4 @@ When homework requires you to verify or find the value of $c$ for these theorems
   3. Set your derivative **equal to that secant slope** ($f'(x) = \text{slope}$) rather than zero.
   4. Solve for $x$ (or $c$).
   5. Verify that the resulting value falls within the interval $(a, b)$.
+
