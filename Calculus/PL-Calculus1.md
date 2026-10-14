@@ -6100,3 +6100,4 @@ $$f\left(\frac{1}{2}\right) = \frac{1}{\frac{1}{4} - \frac{1}{2}} = \frac{1}{\fr
 #### Conclusion
 * **Absolute Maximum**: $-4$, occurring at $x = \frac{1}{2}$.
 * **Absolute Minimum**: Does not exist (because the function decreases toward $-\infty$ near the boundaries $0$ and $1$).
+## 2026-10-14 - Calculus 1 Lecture 3.2: A BRIEF Discussion of Rolle's Theorem and Mean-Value Theorem. :
