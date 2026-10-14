@@ -6102,3 +6102,46 @@ $$f\left(\frac{1}{2}\right) = \frac{1}{\frac{1}{4} - \frac{1}{2}} = \frac{1}{\fr
 * **Absolute Minimum**: Does not exist (because the function decreases toward $-\infty$ near the boundaries $0$ and $1$).
 ## 2026-10-14 - Calculus 1 Lecture 3.2: A BRIEF Discussion of Rolle's Theorem and Mean-Value Theorem. :
 https://www.youtube.com/watch?v=qW89xdGfSzw&list=PLF797E961509B4EB5&index=19
+### Rolle’s Theorem and the Mean-Value Theorem (MVT)
+
+#### 1. Rolle’s Theorem: The Core Concept
+Rolle's theorem is a foundational guarantee about functions and their slopes. 
+
+* **The Setup**: Suppose you have a function $f(x)$ on a closed interval $[a, b]$ such that:
+  1. The function is **continuous** on $[a, b]$.
+  2. The function is **differentiable** on $(a, b)$ (no sharp corners).
+  3. The function values at the endpoints are equal: $f(a) = f(b)$ (meaning it starts and ends at the exact same height, such as crossing the $x$-axis at both points).
+* **The Guarantee**: If these conditions are met, there must be at least one number $c$ in the open interval $(a, b)$ where the derivative (slope) equals zero:
+  $$f'(c) = 0$$
+* **Plain English Translation**: If a smooth curve goes up and eventually comes back down to the exact same height, it *must* flatten out into a horizontal tangent line at least once somewhere in between. Rolle's Theorem is simply a special case of the Mean-Value Theorem where the secant slope is zero.
+
+---
+
+#### 2. The Mean-Value Theorem (MVT): Expanding the Concept
+The Mean-Value Theorem generalizes Rolle's theorem so that the two endpoints don't have to be at the same height.
+
+* **The Setup**: Suppose $f(x)$ is:
+  1. **Continuous** on the closed interval $[a, b]$.
+  2. **Differentiable** on the open interval $(a, b)$.
+* **The Guarantee**: There is at least one number $c$ in $(a, b)$ such that the instantaneous slope at $c$ equals the average slope (secant slope) between the endpoints $(a, f(a))$ and $(b, f(b))$:
+  $$f'(c) = \frac{f(b) - f(a)}{b - a}$$
+* **Plain English Translation**: If you connect two points on a smooth curve with a straight secant line, somewhere between those two points, the tangent line of the curve will be perfectly **parallel** to that secant line (sharing the exact same slope).
+
+---
+
+#### 3. How to Solve MVT and Rolle's Theorem Problems
+
+When homework requires you to verify or find the value of $c$ for these theorems:
+
+* **For Rolle’s Theorem**:
+  1. Check that $f(a) = f(b)$ and that the function is continuous and differentiable.
+  2. Take the first derivative $f'(x)$.
+  3. Set $f'(x) = 0$ and solve for $x$ (or $c$).
+  4. Verify that the resulting $x$-value lies strictly inside the open interval $(a, b)$.
+
+* **For the Mean-Value Theorem (MVT)**:
+  1. Calculate the average slope (secant slope) between the endpoints using $\frac{f(b) - f(a)}{b - a}$.
+  2. Take the first derivative $f'(x)$.
+  3. Set your derivative **equal to that secant slope** ($f'(x) = \text{slope}$) rather than zero.
+  4. Solve for $x$ (or $c$).
+  5. Verify that the resulting value falls within the interval $(a, b)$.
