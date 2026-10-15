@@ -6142,3 +6142,4 @@ When homework requires you to verify or find the value of $c$ for these theorems
   4. Solve for $x$ (or $c$).
   5. Verify that the resulting value falls within the interval $(a, b)$.
 ## 2026-10-15 - Calculus 1 Lecture 3.3: The First Derivative Test for Increasing and Decreasing :
+https://www.youtube.com/watch?v=nQ6tOORDQ3I&list=PLF797E961509B4EB5&index=19
