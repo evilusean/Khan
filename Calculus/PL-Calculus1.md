@@ -6237,12 +6237,10 @@ To find the exact $y$-coordinates (heights), substitute the $x$-values back into
   $$f(1) = (1)^3 - 3(1) + 1 = 1 - 3 + 1 = -1$$
   * **Point:** $(1, -1)$
 ### Using the First Derivative Test for $f(x) = 3x^{\frac{5}{3}} - 15x^{\frac{2}{3}}$
-
 #### Problem Statement
 Find the critical numbers, set up the First Derivative Test table, determine intervals of increasing/decreasing, and locate relative extrema for the function $f(x) = 3x^{\frac{5}{3}} - 15x^{\frac{2}{3}}$.
 
 ---
-
 #### Step 1: Find the First Derivative
 Differentiate $f(x)$ using the power rule:
 * For $3x^{\frac{5}{3}}$: Bring down $\frac{5}{3}$, multiply by $3$ to get $5$, and subtract $1$ ($\frac{3}{3}$) from the exponent to get $\frac{2}{3}$.
@@ -6251,7 +6249,6 @@ Differentiate $f(x)$ using the power rule:
 $$f'(x) = 5x^{\frac{2}{3}} - 10x^{-\frac{1}{3}}$$
 
 ---
-
 #### Step 2: Factor Out the Greatest Common Factor (GCF) with Fractional Exponents
 Set the derivative equal to zero:
 $$5x^{\frac{2}{3}} - 10x^{-\frac{1}{3}} = 0$$
@@ -6263,7 +6260,6 @@ Factor out $5x^{-\frac{1}{3}}$ from the expression:
 $$5x^{-\frac{1}{3}}(x - 2) = 0$$
 
 ---
-
 #### Step 3: Deep Dive Into the Exponent Algebra (Why does this work?)
 
 Factoring out $5x^{-\frac{1}{3}}$ means **dividing** every term in the original derivative by $5x^{-\frac{1}{3}}$:
@@ -6288,7 +6284,6 @@ Combining these gives the inner factor: **$(x - 2)$**. Put the GCF back in front
 $$5x^{-\frac{1}{3}}(x - 2) = 0$$
 
 ---
-
 #### Step 4: Rewrite as a Fraction and Find Critical Numbers
 
 Convert the negative exponent into a denominator:
@@ -6301,7 +6296,6 @@ Critical numbers occur where the derivative is **zero** (numerator equals $0$) o
 Both $x = 0$ and $x = 2$ are our critical numbers.
 
 ---
-
 #### Step 5: First Derivative Table and Interval Testing
 
 Place $x = 0$ and $x = 2$ in order on a number line, creating three test intervals: $(-\infty, 0)$, $(0, 2)$, and $(2, \infty)$.
@@ -6321,6 +6315,5 @@ Choose a test value in each interval and plug it into $f'(x)$:
   *(Increasing)*
 
 ---
-
 #### Step 6: Summary of Extrema
 * At $x = 0$, the slope changes from **$(+)$
