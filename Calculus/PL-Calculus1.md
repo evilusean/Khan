@@ -6143,3 +6143,42 @@ When homework requires you to verify or find the value of $c$ for these theorems
   5. Verify that the resulting value falls within the interval $(a, b)$.
 ## 2026-10-15 - Calculus 1 Lecture 3.3: The First Derivative Test for Increasing and Decreasing :
 https://www.youtube.com/watch?v=nQ6tOORDQ3I&list=PLF797E961509B4EB5&index=19
+### The First Derivative Test for Increasing and Decreasing
+
+#### Core Purpose of the First Derivative Test
+The First Derivative Test is a systematic method for organizing information about a function's slope to determine where the function is **increasing** or **decreasing**, and to classify its **relative extrema** (local maximums and minimums). It serves as the foundational step for curve sketching.
+
+---
+
+#### The Rules of the First Derivative
+Based on the relationship between a function and its derivative:
+* If $f'(x) > 0$ on an interval, the slope is positive, meaning the function is **increasing** (going up from left to right).
+* If $f'(x) < 0$ on an interval, the slope is negative, meaning the function is **decreasing** (going down from left to right).
+* If $f'(x) = 0$, you have a horizontal tangent line, which identifies a **critical number**.
+
+---
+
+#### Step-by-Step Procedure for the First Derivative Test
+
+1. **Take the First Derivative**: Compute $f'(x)$ to find the slope function.
+2. **Find Critical Numbers & Undefined Points**: 
+   * Set $f'(x) = 0$ and solve for $x$ (for rational functions, set the numerator equal to zero).
+   * Include any values where the derivative is undefined (such as where the denominator of $f'(x)$ equals zero), as these can also mark boundaries where the function switches between increasing and decreasing.
+3. **Build the First Derivative Table (Number Line)**:
+   * Draw a number line representing the domain.
+   * Place all critical numbers and undefined boundary points in numerical order.
+   * This divides the number line into distinct intervals.
+4. **Test the Intervals**:
+   * Pick a test value $x$ inside each interval and plug it into the **first derivative** $f'(x)$ (not the original function).
+   * Determine only the **sign** (positive or negative) of the resulting slope.
+   * Mark the intervals with **$(+)$** for increasing or **$(-)$** for decreasing.
+5. **Classify Relative Extrema**:
+   * **Relative Maximum**: Occurs where the sign changes from **$(+)$ to $(-)$** (climbing up then turning down to form a peak).
+   * **Relative Minimum**: Occurs where the sign changes from **$(-)$ to $(+)$** (falling down then turning up to form a valley).
+   * **No Extremum**: If the sign does not change across a critical number (e.g., $(+)$ to $(+)$), it is neither a max nor a min.
+
+---
+
+#### Finding Coordinates of Extrema
+* Once the $x$-values of the relative extrema are identified by the sign changes in the first derivative table, plug those $x$-values back into the **original function** $f(x)$ to find their corresponding $y$-coordinates (heights).
+http://googleusercontent.com/youtube_content/1
