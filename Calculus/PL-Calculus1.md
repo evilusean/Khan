@@ -6183,14 +6183,12 @@ Based on the relationship between a function and its derivative:
 Find all critical numbers, determine intervals of increasing/decreasing, and locate any relative maximums or minimums for the function $f(x) = x^3 - 3x + 1$ using the First Derivative Test.
 
 ---
-
 #### Step 1: Find the First Derivative
 Take the derivative of $f(x)$ using the power rule to create the slope function $f'(x)$:
 $$f(x) = x^3 - 3x + 1$$
 $$f'(x) = 3x^2 - 3$$
 
 ---
-
 #### Step 2: Find the Critical Numbers
 Set the first derivative equal to zero ($f'(x) = 0$) to locate horizontal tangent lines where the slope is zero:
 $$3x^2 - 3 = 0$$
@@ -6204,7 +6202,6 @@ $$x^2 - 1 = 0 \implies x^2 = 1 \implies x = \pm 1$$
 Our critical numbers are $x = -1$ and $x = 1$.
 
 ---
-
 #### Step 3: Create the First Derivative Table and Test Intervals
 
 Draw a number line representing $f'(x)$ and place the critical numbers in order ($x = -1$ and $x = 1$). This creates three test intervals: $(-\infty, -1)$, $(-1, 1)$, and $(1, \infty)$.
@@ -6224,7 +6221,6 @@ Pick a test value in each interval and plug it into the **first derivative** $f'
   *(The function is **increasing**).*
 
 ---
-
 #### Step 4: Classify Relative Extrema and Find Coordinates
 
 Analyze the sign changes across the critical numbers:
@@ -6240,3 +6236,4 @@ To find the exact $y$-coordinates (heights), substitute the $x$-values back into
 * **Relative Minimum at $x = 1$:**
   $$f(1) = (1)^3 - 3(1) + 1 = 1 - 3 + 1 = -1$$
   * **Point:** $(1, -1)$
+
