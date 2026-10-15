@@ -6177,4 +6177,66 @@ Based on the relationship between a function and its derivative:
 ---
 #### Finding Coordinates of Extrema
 * Once the $x$-values of the relative extrema are identified by the sign changes in the first derivative table, plug those $x$-values back into the **original function** $f(x)$ to find their corresponding $y$-coordinates (heights).
+### Using the First Derivative Test to Find Relative Extrema for $f(x) = x^3 - 3x + 1$
 
+#### Problem Statement
+Find all critical numbers, determine intervals of increasing/decreasing, and locate any relative maximums or minimums for the function $f(x) = x^3 - 3x + 1$ using the First Derivative Test.
+
+---
+
+#### Step 1: Find the First Derivative
+Take the derivative of $f(x)$ using the power rule to create the slope function $f'(x)$:
+$$f(x) = x^3 - 3x + 1$$
+$$f'(x) = 3x^2 - 3$$
+
+---
+
+#### Step 2: Find the Critical Numbers
+Set the first derivative equal to zero ($f'(x) = 0$) to locate horizontal tangent lines where the slope is zero:
+$$3x^2 - 3 = 0$$
+
+Factor out the constant $3$:
+$$3(x^2 - 1) = 0$$
+
+Divide by $3$ and solve for $x$:
+$$x^2 - 1 = 0 \implies x^2 = 1 \implies x = \pm 1$$
+
+Our critical numbers are $x = -1$ and $x = 1$.
+
+---
+
+#### Step 3: Create the First Derivative Table and Test Intervals
+
+Draw a number line representing $f'(x)$ and place the critical numbers in order ($x = -1$ and $x = 1$). This creates three test intervals: $(-\infty, -1)$, $(-1, 1)$, and $(1, \infty)$.
+
+Pick a test value in each interval and plug it into the **first derivative** $f'(x) = 3x^2 - 3$ to find the sign of the slope:
+
+* **Left Interval ($x < -1$):** Choose test value $x = -2$.
+  $$f'(-2) = 3(-2)^2 - 3 = 3(4) - 3 = 12 - 3 = +9 \quad \rightarrow \quad \mathbf{(+)}$$
+  *(The function is **increasing**).*
+
+* **Middle Interval ($-1 < x < 1$):** Choose test value $x = 0$.
+  $$f'(0) = 3(0)^2 - 3 = 0 - 3 = -3 \quad \rightarrow \quad \mathbf{(-)}$$
+  *(The function is **decreasing**).*
+
+* **Right Interval ($x > 1$):** Choose test value $x = 2$.
+  $$f'(2) = 3(2)^2 - 3 = 3(4) - 3 = 12 - 3 = +9 \quad \rightarrow \quad \mathbf{(+)}$$
+  *(The function is **increasing**).*
+
+---
+
+#### Step 4: Classify Relative Extrema and Find Coordinates
+
+Analyze the sign changes across the critical numbers:
+* At $x = -1$, the slope changes from **positive to negative** ($+$ to $-$), forming a peak. This is a **Relative Maximum**.
+* At $x = 1$, the slope changes from **negative to positive** ($-$ to $+$), forming a valley. This is a **Relative Minimum**.
+
+To find the exact $y$-coordinates (heights), substitute the $x$-values back into the **original function** $f(x) = x^3 - 3x + 1$:
+
+* **Relative Maximum at $x = -1$:**
+  $$f(-1) = (-1)^3 - 3(-1) + 1 = -1 + 3 + 1 = 3$$
+  * **Point:** $(-1, 3)$
+
+* **Relative Minimum at $x = 1$:**
+  $$f(1) = (1)^3 - 3(1) + 1 = 1 - 3 + 1 = -1$$
+  * **Point:** $(1, -1)$
