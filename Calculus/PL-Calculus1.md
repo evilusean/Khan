@@ -6141,4 +6141,4 @@ When homework requires you to verify or find the value of $c$ for these theorems
   3. Set your derivative **equal to that secant slope** ($f'(x) = \text{slope}$) rather than zero.
   4. Solve for $x$ (or $c$).
   5. Verify that the resulting value falls within the interval $(a, b)$.
-
+## 2026-10-15 - Calculus 1 Lecture 3.3: The First Derivative Test for Increasing and Decreasing :
