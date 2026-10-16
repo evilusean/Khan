@@ -6318,3 +6318,4 @@ Choose a test value in each interval and plug it into $f'(x)$:
 #### Step 6: Summary of Extrema
 * At $x = 0$, the slope changes from **$(+)$ to $(-)$**, forming a peak (**Relative Maximum**).
 * At $x = 2$, the slope changes from **$(-)$ to $(+)$**, forming a valley (**Relative Minimum**).
+## 2026-10-16 - Calculus 1 Lecture 3.4: The Second Derivative Test for Concavity of Functions :
