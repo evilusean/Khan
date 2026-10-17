@@ -6351,3 +6351,84 @@ When preparing to sketch curves, you can combine both tests on a single, scaled 
 * **Top Test (First Derivative $f'(x)$)**: Determines increasing $(+)$ and decreasing $(-)$ intervals, and spots relative extrema (peaks and valleys).
 * **Bottom Test (Second Derivative $f''(x)$)**: Determines concave up $(+)$ and concave down $(-)$ intervals, and spots inflection points.
 * **Finding Coordinates**: Once $x$-values for extrema or inflection points are found, substitute those $x$-values back into the **original function** $f(x)$ to find their exact $y$-coordinates (heights).
+### Finding Inflection Points for $f(x) = x^4 - 4x^3 + 12$
+
+#### Problem Statement
+Find all inflection points and determine the intervals of concavity for the function $f(x) = x^4 - 4x^3 + 12$ using the Second Derivative Test.
+
+---
+
+#### Step 1: Find the First and Second Derivatives
+To analyze concavity, differentiate $f(x)$ twice using the power rule:
+
+* **Original Function**:
+  $$f(x) = x^4 - 4x^3 + 12$$
+
+* **First Derivative**:
+  $$f'(x) = 4x^3 - 12x^2$$
+
+* **Second Derivative**:
+  $$f''(x) = 12x^2 - 24x$$
+
+---
+
+#### Step 2: Find Possible Inflection Points (PIPs)
+Set the second derivative equal to zero ($f''(x) = 0$) to find candidates where concavity might switch:
+
+$$12x^2 - 24x = 0$$
+
+Factor out the greatest common factor, $12x$:
+$$12x(x - 2) = 0$$
+
+Set each factor equal to zero:
+$$12x = 0 \implies x = 0$$
+$$x - 2 = 0 \implies x = 2$$
+
+Our possible inflection points (PIPs) are $x = 0$ and $x = 2$.
+
+---
+
+#### Step 3: Second Derivative Table and Interval Testing
+
+Draw a number line representing $f''(x)$ and place the possible inflection points in order ($x = 0$ and $x = 2$). This divides the line into three test intervals: $(-\infty, 0)$, $(0, 2)$, and $(2, \infty)$.
+
+Choose a test value in each interval and substitute it into the **second derivative** $f''(x) = 12x(x - 2)$ to test the sign:
+
+* **Left Interval ($x < 0$):** Choose test value $x = -1$.
+  $$f''(-1) = 12(-1)(-1 - 2) = (-12)(-3) = +36 \quad \rightarrow \quad \mathbf{(+)}$$
+  *(Concave Up)*
+
+* **Middle Interval ($0 < x < 2$):** Choose test value $x = 1$.
+  $$f''(1) = 12(1)(1 - 2) = (12)(-1) = -12 \quad \rightarrow \quad \mathbf{(-)}$$
+  *(Concave Down)*
+
+* **Right Interval ($x > 2$):** Choose test value $x = 3$.
+  $$f''(3) = 12(3)(3 - 2) = (36)(1) = +36 \quad \rightarrow \quad \mathbf{(+)}$$
+  *(Concave Up)*
+
+---
+
+#### Step 4: Verify Inflection Points and Calculate Coordinates
+
+Analyze concavity changes across each candidate $x$-value:
+* At $x = 0$, the concavity changes from **concave up to concave down** ($+$ to $-$).
+* At $x = 2$, the concavity changes from **concave down to concave up** ($-$ to $+$).
+
+Since concavity changes at both $x = 0$ and $x = 2$, both are confirmed inflection points. 
+
+To find their exact $y$-coordinates (heights), substitute the $x$-values into the **original function** $f(x) = x^4 - 4x^3 + 12$:
+
+* **For $x = 0$:**
+  $$f(0) = (0)^4 - 4(0)^3 + 12 = 12$$
+  * **Point:** $(0, 12)$
+
+* **For $x = 2$:**
+  $$f(2) = (2)^4 - 4(2)^3 + 12 = 16 - 4(8) + 12 = 16 - 32 + 12 = -4$$
+  * **Point:** $(2, -4)$
+
+---
+
+#### Final Result
+* **Concave Up Intervals**: $(-\infty, 0)$ and $(2, \infty)$
+* **Concave Down Interval**: $(0, 2)$
+* **Inflection Points**: $(0, 12)$ and $(2, -4)$
