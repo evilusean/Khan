@@ -6352,12 +6352,10 @@ When preparing to sketch curves, you can combine both tests on a single, scaled 
 * **Bottom Test (Second Derivative $f''(x)$)**: Determines concave up $(+)$ and concave down $(-)$ intervals, and spots inflection points.
 * **Finding Coordinates**: Once $x$-values for extrema or inflection points are found, substitute those $x$-values back into the **original function** $f(x)$ to find their exact $y$-coordinates (heights).
 ### Finding Inflection Points for $f(x) = x^4 - 4x^3 + 12$
-
 #### Problem Statement
 Find all inflection points and determine the intervals of concavity for the function $f(x) = x^4 - 4x^3 + 12$ using the Second Derivative Test.
 
 ---
-
 #### Step 1: Find the First and Second Derivatives
 To analyze concavity, differentiate $f(x)$ twice using the power rule:
 
@@ -6371,7 +6369,6 @@ To analyze concavity, differentiate $f(x)$ twice using the power rule:
   $$f''(x) = 12x^2 - 24x$$
 
 ---
-
 #### Step 2: Find Possible Inflection Points (PIPs)
 Set the second derivative equal to zero ($f''(x) = 0$) to find candidates where concavity might switch:
 
@@ -6387,9 +6384,7 @@ $$x - 2 = 0 \implies x = 2$$
 Our possible inflection points (PIPs) are $x = 0$ and $x = 2$.
 
 ---
-
 #### Step 3: Second Derivative Table and Interval Testing
-
 Draw a number line representing $f''(x)$ and place the possible inflection points in order ($x = 0$ and $x = 2$). This divides the line into three test intervals: $(-\infty, 0)$, $(0, 2)$, and $(2, \infty)$.
 
 Choose a test value in each interval and substitute it into the **second derivative** $f''(x) = 12x(x - 2)$ to test the sign:
@@ -6407,7 +6402,6 @@ Choose a test value in each interval and substitute it into the **second derivat
   *(Concave Up)*
 
 ---
-
 #### Step 4: Verify Inflection Points and Calculate Coordinates
 
 Analyze concavity changes across each candidate $x$-value:
@@ -6427,7 +6421,6 @@ To find their exact $y$-coordinates (heights), substitute the $x$-values into th
   * **Point:** $(2, -4)$
 
 ---
-
 #### Final Result
 * **Concave Up Intervals**: $(-\infty, 0)$ and $(2, \infty)$
 * **Concave Down Interval**: $(0, 2)$
