@@ -6425,3 +6425,59 @@ To find their exact $y$-coordinates (heights), substitute the $x$-values into th
 * **Concave Up Intervals**: $(-\infty, 0)$ and $(2, \infty)$
 * **Concave Down Interval**: $(0, 2)$
 * **Inflection Points**: $(0, 12)$ and $(2, -4)$
+### Finding Inflection Points and Concavity for $g(x) = (x-1)^{\frac{1}{3}}$
+
+#### Problem Statement
+Find all inflection points and determine the intervals of concavity for the function $g(x) = (x-1)^{\frac{1}{3}}$ using the second derivative test.
+
+---
+
+#### Step 1: Find the First and Second Derivatives
+Use the chain rule (general power rule) to find the first and second derivatives:
+
+* **Original Function**: 
+  $$g(x) = (x-1)^{\frac{1}{3}}$$
+
+* **First Derivative**:
+  $$g'(x) = \frac{1}{3}(x-1)^{\frac{1}{3} - 1} \cdot \frac{d}{dx}[x-1] = \frac{1}{3}(x-1)^{-\frac{2}{3}}$$
+
+* **Second Derivative**:
+  $$g''(x) = \frac{1}{3} \left(-\frac{2}{3}\right)(x-1)^{-\frac{2}{3} - 1} \cdot (1) = -\frac{2}{9}(x-1)^{-\frac{5}{3}}$$
+
+Rewrite with a positive exponent in the denominator:
+$$g''(x) = \frac{-2}{9(x-1)^{\frac{5}{3}}} = \frac{-2}{9\sqrt[3]{(x-1)^5}}$$
+
+---
+
+#### Step 2: Find Possible Inflection Points (PIPs)
+Set the second derivative equal to zero or check where it is undefined:
+* **Numerator equals zero**: $-2 = 0$ (No solution; the numerator is a constant).
+* **Denominator equals zero**: 
+  $$9\sqrt[3]{(x-1)^5} = 0 \implies x - 1 = 0 \implies x = 1$$
+
+The second derivative is undefined at $x = 1$, making $x = 1$ our possible inflection point (PIP).
+
+---
+
+#### Step 3: Second Derivative Table and Interval Testing
+Place $x = 1$ on a number line, creating two test intervals: $(-\infty, 1)$ and $(1, \infty)$.
+
+Pick a test value in each interval and substitute it into the **second derivative** $g''(x)$ to determine the sign:
+
+* **Left Interval ($x < 1$):** Choose test value $x = 0$.
+  $$g''(0) = \frac{-2}{9\sqrt[3]{(0-1)^5}} = \frac{-2}{9\sqrt[3]{-1}} = \frac{-2}{9(-1)} = \frac{-2}{-9} = +\frac{2}{9} \quad \rightarrow \quad \mathbf{(+)}$$
+  *(Concave Up)*
+
+* **Right Interval ($x > 1$):** Choose test value $x = 2$.
+  $$g''(2) = \frac{-2}{9\sqrt[3]{(2-1)^5}} = \frac{-2}{9\sqrt[3]{1^5}} = \frac{-2}{9(1)} = -\frac{2}{9} \quad \rightarrow \quad \mathbf{(-)}$$
+  *(Concave Down)*
+
+---
+
+#### Step 4: Verify Inflection Point and Coordinates
+Since the concavity changes from **concave up to concave down** ($+$ to $-$) across $x = 1$, $x = 1$ is a confirmed inflection point.
+
+Substitute $x = 1$ back into the **original function** $g(x)$ to find the $y$-coordinate:
+$$g(1) = (1-1)^{\frac{1}{3}} = 0^{\frac{1}{3}} = 0$$
+
+* **Inflection Point:** $(1, 0)$
