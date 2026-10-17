@@ -6323,7 +6323,6 @@ https://www.youtube.com/watch?v=29GbRaQxtzY&list=PLF797E961509B4EB5&index=21
 ### The Second Derivative Test for Concavity of Functions
 #### 1. Core Purpose of the Second Derivative
 While the *first derivative* tells you about slope (increasing vs. decreasing) and locates critical numbers, the **second derivative** ($f''(x)$) tells you about **concavity**—how the slope itself is changing, which determines the curvature of the graph.
-
 * **Concave Up ($f''(x) > 0$):** The slope is increasing. The curve opens upward and resembles a bowl that holds water.
 * **Concave Down ($f''(x) < 0$):** The slope is decreasing. The curve opens downward and resembles an umbrella.
 * **Possible Inflection Point ($f''(x) = 0$):** A candidate location where the concavity might change.
@@ -6335,7 +6334,6 @@ While the *first derivative* tells you about slope (increasing vs. decreasing) a
 
 ---
 #### 3. Step-by-Step Procedure for the Second Derivative Test
-
 1. **Find the Second Derivative**: Take the derivative of the function twice ($f''(x)$).
 2. **Find Possible Inflection Points**: Set $f''(x) = 0$ (and check where $f''(x)$ is undefined) and solve for $x$.
 3. **Build the Second Derivative Table**:
