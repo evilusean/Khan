@@ -6321,7 +6321,6 @@ Choose a test value in each interval and plug it into $f'(x)$:
 ## 2026-10-16 - Calculus 1 Lecture 3.4: The Second Derivative Test for Concavity of Functions :
 https://www.youtube.com/watch?v=29GbRaQxtzY&list=PLF797E961509B4EB5&index=21
 ### The Second Derivative Test for Concavity of Functions
-
 #### 1. Core Purpose of the Second Derivative
 While the *first derivative* tells you about slope (increasing vs. decreasing) and locates critical numbers, the **second derivative** ($f''(x)$) tells you about **concavity**—how the slope itself is changing, which determines the curvature of the graph.
 
@@ -6330,13 +6329,11 @@ While the *first derivative* tells you about slope (increasing vs. decreasing) a
 * **Possible Inflection Point ($f''(x) = 0$):** A candidate location where the concavity might change.
 
 ---
-
 #### 2. Definition of an Inflection Point (Pip)
 * An **inflection point** (or possible inflection point / PIP) is a point on a curve where the concavity actually switches (e.g., changing from concave up to concave down, or vice versa).
 * At an inflection point, the second derivative is typically zero or undefined ($f''(x) = 0$).
 
 ---
-
 #### 3. Step-by-Step Procedure for the Second Derivative Test
 
 1. **Find the Second Derivative**: Take the derivative of the function twice ($f''(x)$).
@@ -6351,7 +6348,6 @@ While the *first derivative* tells you about slope (increasing vs. decreasing) a
 5. **Confirm Inflection Points**: If the concavity changes sign across a candidate point, it is an official inflection point.
 
 ---
-
 #### 4. Combining the First and Second Derivative Tests (Unified Number Line)
 When preparing to sketch curves, you can combine both tests on a single, scaled number line:
 * **Top Test (First Derivative $f'(x)$)**: Determines increasing $(+)$ and decreasing $(-)$ intervals, and spots relative extrema (peaks and valleys).
