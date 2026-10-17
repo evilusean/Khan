@@ -6477,18 +6477,14 @@ $$g(1) = (1-1)^{\frac{1}{3}} = 0^{\frac{1}{3}} = 0$$
 
 * **Inflection Point:** $(1, 0)$
 ### Complete Curve Analysis using First and Second Derivatives for $f(x) = x^3 - 3x^2 - 24x + 32$
-
 #### Problem Statement
 Perform both the First Derivative Test and Second Derivative Test on $f(x) = x^3 - 3x^2 - 24x + 32$ to determine intervals of increasing/decreasing, relative extrema, concavity intervals, and inflection points.
 
 ---
-
 #### Step 1: First Derivative Test (Increasing/Decreasing & Extrema)
-
 1. **Find the First Derivative**:
    $$f(x) = x^3 - 3x^2 - 24x + 32$$
    $$f'(x) = 3x^2 - 6x - 24$$
-
 2. **Find Critical Numbers**: Set $f'(x) = 0$ to locate horizontal tangents:
    $$3x^2 - 6x - 24 = 0$$
    Factor out the constant $3$:
@@ -6496,7 +6492,6 @@ Perform both the First Derivative Test and Second Derivative Test on $f(x) = x^3
    Factor the quadratic expression:
    $$3(x - 4)(x + 2) = 0$$
    $$x = 4 \quad \text{and} \quad x = -2$$
-
 3. **Test First Derivative Intervals**:
    * **Left Interval ($x < -2$):** Choose $x = -3$:
      $$f'(-3) = 3(-3 - 4)(-3 + 2) = 3(-7)(-1) = +21 \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Increasing)}$$
@@ -6506,7 +6501,6 @@ Perform both the First Derivative Test and Second Derivative Test on $f(x) = x^3
      $$f'(5) = 3(5 - 4)(5 + 2) = 3(1)(7) = +21 \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Increasing)}$$
 
 ---
-
 #### Step 2: Second Derivative Test (Concavity & Inflection Points)
 
 1. **Find the Second Derivative**:
@@ -6522,7 +6516,6 @@ Perform both the First Derivative Test and Second Derivative Test on $f(x) = x^3
      $$f''(2) = 6(2) - 6 = +6 \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Concave Up)}$$
 
 ---
-
 #### Step 3: Combined Number Line Analysis
 
 Combine $f'(x)$ (top) and $f''(x)$ (bottom) onto a single, properly scaled number line to visualize the curve shape:
@@ -6534,3 +6527,5 @@ f'(x) ---- (+) ----- | ------ (-) ---- | ------ (-) --- | ---- (+) ----
                      |                 |                |
 f''(x) -------------- (-) ------------ | ------------ (+) -------------
                    CONCAVE DOWN        |         CONCAVE UP
+```
+
