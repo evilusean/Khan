@@ -6532,3 +6532,4 @@ f''(x) -------------- (-) ------------ | ------------ (+) -------------
 * **Relative Maximum:** $(-2, 60)$
 * **Relative Minimum:** $(4, -48)$
 * **Inflection Point:** $(1, 6)$
+## 2026-10-18 - Calculus 1 Lecture 3.5: Limits of Functions at Infinity :
