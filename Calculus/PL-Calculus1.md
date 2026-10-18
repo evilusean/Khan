@@ -6528,4 +6528,7 @@ f'(x) ---- (+) ----- | ------ (-) ---- | ------ (-) --- | ---- (+) ----
 f''(x) -------------- (-) ------------ | ------------ (+) -------------
                    CONCAVE DOWN        |         CONCAVE UP
 ```
-
+#### Summary of Extrema and Inflection Points
+* **Relative Maximum:** $(-2, 60)$
+* **Relative Minimum:** $(4, -48)$
+* **Inflection Point:** $(1, 6)$
