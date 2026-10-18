@@ -6533,3 +6533,4 @@ f''(x) -------------- (-) ------------ | ------------ (+) -------------
 * **Relative Minimum:** $(4, -48)$
 * **Inflection Point:** $(1, 6)$
 ## 2026-10-18 - Calculus 1 Lecture 3.5: Limits of Functions at Infinity :
+https://www.youtube.com/watch?v=-PYebK8DKPc&list=PLF797E961509B4EB5&index=22
