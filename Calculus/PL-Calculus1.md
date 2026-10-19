@@ -6535,7 +6535,6 @@ f''(x) -------------- (-) ------------ | ------------ (+) -------------
 ## 2026-10-18 - Calculus 1 Lecture 3.5: Limits of Functions at Infinity :
 https://www.youtube.com/watch?v=-PYebK8DKPc&list=PLF797E961509B4EB5&index=22
 ### Limits of Functions at Infinity
-
 #### 1. Review of Discontinuities and Vertical Asymptotes
 Before studying limits at infinity, we recap behavior near specific values of $x$:
 * **Removable Discontinuity (Holes):** Occurs when the numerator and denominator equal zero at the same $x$-value, allowing the matching factor to be canceled out.
@@ -6543,33 +6542,27 @@ Before studying limits at infinity, we recap behavior near specific values of $x
 * **Sign Analysis:** Used around vertical asymptotes to determine whether the function heads toward positive infinity $(\infty)$ or negative infinity $(-\infty)$ from the left and right.
 
 ---
-
 #### 2. Limits at Infinity and Horizontal Asymptotes
 Instead of letting $x$ approach a specific number $a$, we evaluate what happens to a function $f(x)$ as $x$ increases or decreases without bound ($x \to \infty$ or $x \to -\infty$).
-
 * **Definition:** If $f(x)$ gets arbitrarily close to a finite real number $L$ as $x \to \pm\infty$, then the limit exists and equals $L$:
   $$\lim_{x \to \infty} f(x) = L \quad \text{or} \quad \lim_{x \to -\infty} f(x) = L$$
 * **Horizontal Asymptote:** The line $y = L$ forms a horizontal asymptote of the graph whenever a limit at infinity yields a finite number $L$. Note that a function can have *different* horizontal asymptotes in opposite directions ($x \to \infty$ vs. $x \to -\infty$).
 
 ---
-
 #### 3. Core Rule for Limits at Infinity
 For any positive real number constant $c$ and any positive integer power $n$:
 $$\lim_{x \to \infty} \frac{c}{x^n} = 0 \quad \text{and} \quad \lim_{x \to -\infty} \frac{c}{x^n} = 0$$
 Dividing any finite constant by an ever-increasing denominator yields a value approaching zero.
 
 ---
-
 #### 4. Limits of Polynomials at Infinity
 * **Behavior:** Polynomials do not level off; they grow without bound toward $\pm\infty$.
 * **Leading Term Rule:** The limit of any polynomial as $x \to \pm\infty$ is entirely determined by its **leading term** (the term with the highest power of $x$). All lower-order terms become insignificant for large inputs.
   $$\lim_{x \to \infty} (a_n x^n + a_{n-1} x^{n-1} + \dots + a_0) = \lim_{x \to \infty} a_n x^n$$
 
 ---
-
 #### 5. Rational Functions (Polynomial Quotients)
 When evaluating limits of rational functions where direct substitution yields an indeterminate form like $\frac{\infty}{\infty}$:
-
 1. **Algebraic Strategy:** Divide every term in both the numerator and the denominator by the **highest power of $x$ found in the denominator**.
 2. **Apply Limits:** Use the core rule ($\frac{c}{x^n} \to 0$) to evaluate remaining terms.
 3. **Degree Shortcuts for Rational Functions:**
@@ -6578,10 +6571,8 @@ When evaluating limits of rational functions where direct substitution yields an
    * **Degree of Numerator > Degree of Denominator:** The limit diverges to $\pm\infty$ (does not exist as a finite number).
 
 ---
-
 #### 6. Rationalization and Radical Limits
 When evaluating limits involving radicals (square roots or cube roots) subtracted from one another (which can produce indeterminate forms like $\infty - \infty$):
-
 * **Conjugate Multiplication:** Convert expressions into fractions (put over $1$) and multiply both numerator and denominator by the conjugate expression to eliminate square roots.
 * **Radical Scaling Rules:** 
   * Remember that $\sqrt{x^4} = x^2$, so when dividing terms inside a square root by $x^4$, you divide terms outside by $x^2$.
