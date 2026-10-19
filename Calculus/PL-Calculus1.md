@@ -6577,3 +6577,47 @@ When evaluating limits involving radicals (square roots or cube roots) subtracte
 * **Radical Scaling Rules:** 
   * Remember that $\sqrt{x^4} = x^2$, so when dividing terms inside a square root by $x^4$, you divide terms outside by $x^2$.
   * **Absolute Value Caution:** When taking $\sqrt{x^2}$, recognize that $\sqrt{x^2} = |x|$. For limits as $x \to \infty$, $|x| = x$. For limits as $x \to -\infty$, $|x| = -x$, which can alter signs and result in different horizontal asymptotes in opposing directions.
+### Problem: Discontinuities and Sign Analysis for $f(x) = \frac{x}{(x+3)(x-1)}$
+
+#### 1. Finding Discontinuities
+Set the denominator equal to zero to find where discontinuities occur:
+$$(x + 3)(x - 1) = 0 \implies x = -3 \quad \text{and} \quad x = 1$$
+
+* Can these factors be cancelled out by the numerator ($x$)? No. 
+* Therefore, both $x = -3$ and $x = 1$ are **non-removable discontinuities (vertical asymptotes)**.
+* Note: The numerator equals zero at $x = 0$. While $x = 0$ is not a discontinuity, it is a zero of the function and acts as a critical separating marker on our sign analysis number line.
+
+---
+
+#### 2. Sign Analysis Table and Interval Testing
+We place our vertical asymptotes ($x = -3, x = 1$) and our numerator zero ($x = 0$) on a number line to divide the domain into four test intervals: $(-\infty, -3)$, $(-3, 0)$, $(0, 1)$, and $(1, \infty)$.
+
+* **Interval 1 ($x < -3$):** Test $x = -4$
+  $$f(-4) = \frac{-4}{(-4+3)(-4-1)} = \frac{-4}{(-1)(-5)} = \frac{-4}{+5} = -\frac{4}{5} \quad \rightarrow \quad \mathbf{(-)}$$
+
+* **Interval 2 ($-3 < x < 0$):** Test $x = -2$
+  $$f(-2) = \frac{-2}{(-2+3)(-2-1)} = \frac{-2}{(1)(-3)} = \frac{-2}{-3} = +\frac{2}{3} \quad \rightarrow \quad \mathbf{(+)}$$
+
+* **Interval 3 ($0 < x < 1$):** Test $x = 0.5$
+  $$f(0.5) = \frac{0.5}{(0.5+3)(0.5-1)} = \frac{0.5}{(3.5)(-0.5)} = \frac{0.5}{-1.75} \quad \rightarrow \quad \mathbf{(-)}$$
+
+* **Interval 4 ($x > 1$):** Test $x = 2$
+  $$f(2) = \frac{2}{(2+3)(2-1)} = \frac{2}{(5)(1)} = \frac{2}{5} \quad \rightarrow \quad \mathbf{(+)}$$
+
+---
+
+#### 3. Graphical Behavior and Asymptotic Sketch
+Using the sign analysis table, we can describe how the function behaves near the vertical asymptotes and the intercept:
+
+* **At $x = -3$ (Vertical Asymptote):**
+  * From the left ($x < -3$), the function values are negative, so the curve drops downward toward $-\infty$.
+  * From the right ($x > -3$), the function values are positive, so the curve rises upward toward $+\infty$.
+  * *Graphical appearance:* One side points down, the other points up.
+
+* **At $x = 0$:**
+  * The graph passes cleanly through the origin $(0,0)$.
+
+* **At $x = 1$ (Vertical Asymptote):**
+  * From the left ($x < 1$), the function values are negative, so the curve drops downward toward $-\infty$.
+  * From the right ($x > 1$), the function values are positive, so the curve rises upward toward $+\infty$.
+  * *Graphical appearance:* One side points down, the other points up.
