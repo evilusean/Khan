@@ -6618,3 +6618,42 @@ Using the sign analysis table, we can describe how the function behaves near the
   * From the left ($x < 1$), the function values are negative, so the curve drops downward toward $-\infty$.
   * From the right ($x > 1$), the function values are positive, so the curve rises upward toward $+\infty$.
   * *Graphical appearance:* One side points down, the other points up.
+### Evaluating $\lim_{T \to 1} \frac{T^3}{(T^2-1)^2}$
+#### Step 1: Find Discontinuities
+Set the denominator equal to zero to find where discontinuities occur:
+$$(T^2 - 1)^2 = 0 \implies T^2 - 1 = 0 \implies (T + 1)(T - 1) = 0$$
+Solving for $T$ gives:
+$$T = 1 \quad \text{and} \quad T = -1$$
+
+* Can these factors be canceled out by the numerator ($T^3$)? No.
+* Therefore, both $T = 1$ and $T = -1$ are **non-removable discontinuities (vertical asymptotes)**.
+* Note: The numerator equals zero at $T = 0$, which acts as our critical separating marker for sign analysis.
+
+---
+#### Step 2: Sign Analysis Table and Interval Testing
+Because the denominator $(T^2 - 1)^2$ is squared, it is **always positive** for any $T \neq \pm 1$. Therefore, the sign of the function depends entirely on the sign of the numerator ($T^3$).
+
+We place our asymptotes ($T = -1, T = 1$) and our numerator zero ($T = 0$) on a number line to test the intervals: $(-\infty, -1)$, $(-1, 0)$, $(0, 1)$, and $(1, \infty)$.
+
+* **Interval 1 ($T < -1$):** Test $T = -2$
+  $$f(-2) = \frac{(-2)^3}{((-2)^2 - 1)^2} = \frac{-8}{(3)^2} = \frac{-8}{9} \quad \rightarrow \quad \mathbf{(-)}$$
+
+* **Interval 2 ($-1 < T < 0$):** Test $T = -0.5$
+  $$f(-0.5) = \frac{(-0.5)^3}{((-0.5)^2 - 1)^2} = \frac{-0.125}{(-0.75)^2} = \frac{-0.125}{0.5625} \quad \rightarrow \quad \mathbf{(-)}$$
+
+* **Interval 3 ($0 < T < 1$):** Test $T = 0.5$
+  $$f(0.5) = \frac{(0.5)^3}{((0.5)^2 - 1)^2} = \frac{0.125}{0.5625} \quad \rightarrow \quad \mathbf{(+)}$$
+
+* **Interval 4 ($T > 1$):** Test $T = 2$
+  $$f(2) = \frac{(2)^3}{((2)^2 - 1)^2} = \frac{8}{(3)^2} = \frac{8}{9} \quad \rightarrow \quad \mathbf{(+)}$$
+
+---
+#### Step 3: Graphical Behavior and Evaluating the Limit
+* **At $T = -1$ (Vertical Asymptote):** 
+  * From the left, the function values are negative (points down toward $-\infty$).
+  * From the right, the function values are negative (points down toward $-\infty$).
+* **At $T = 1$ (Vertical Asymptote):** 
+  * From both the left ($0 < T < 1$) and the right ($T > 1$), the function values are positive. 
+  * *Graphical appearance:* Both sides shoot straight up toward positive infinity side-by-side, forming a matching upward opening.
+* **Final Limit Evaluation:**
+  $$\lim_{T \to 1} \frac{T^3}{(T^2-1)^2} = +\infty$$
