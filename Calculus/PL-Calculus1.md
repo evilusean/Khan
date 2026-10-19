@@ -6686,15 +6686,12 @@ $$\lim_{x \to \pm\infty} \frac{1}{x^n} = \left[ \lim_{x \to \pm\infty} \frac{1}{
 
 * **Key Takeaway:** Any constant divided by a variable raised to any power ($x^n$) as $x \to \pm\infty$ will always evaluate to **$0$**. This foundational rule serves as the basis for evaluating rational functions at infinity.
 ### Limits of Polynomials at Infinity
-
 #### 1. Core Behavior of Polynomials
 * Unlike rational functions with variables in the denominator (which level off toward a horizontal asymptote), polynomials **never approach a finite number** as $x$ increases or decreases without bound.
 * As $x \to \pm\infty$, the value of any polynomial function itself will always go to either positive infinity ($+\infty$) or negative infinity ($-\infty$).
 
 ---
-
 #### 2. Examples with Monomial Powers ($x^3$ and $x^2$)
-
 * **Odd Power ($x^3$):**
   * **As $x \to +\infty$:** Plugging in larger and larger positive numbers keeps yielding larger positive outputs.
     $$\lim_{x \to +\infty} x^3 = +\infty$$
