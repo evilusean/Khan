@@ -6658,12 +6658,10 @@ We place our asymptotes ($T = -1, T = 1$) and our numerator zero ($T = 0$) on a 
 * **Final Limit Evaluation:**
   $$\lim_{T \to 1} \frac{T^3}{(T^2-1)^2} = +\infty$$
 ### Horizontal Asymptotes and Limits at Infinity
-
 #### 1. What Happens as $x \to \pm\infty$?
 Instead of letting $x$ approach a specific real number, we look at what happens when $x$ increases or decreases without bound (traveling forever to the right or left along the x-axis).
 
 ---
-
 #### 2. Investigating $\lim_{x \to \pm\infty} \frac{1}{x}$
 Let's build a numerical table as $x$ becomes increasingly negative:
 
@@ -6677,13 +6675,11 @@ Let's build a numerical table as $x$ becomes increasingly negative:
   $$\lim_{x \to \infty} \frac{1}{x} = 0 \quad \text{and} \quad \lim_{x \to -\infty} \frac{1}{x} = 0$$
 
 ---
-
 #### 3. Core Definition of Horizontal Asymptotes
 * **The Rule:** If $f(x)$ gets "really close" to a certain real number as $x \to \pm\infty$, then the limit exists.
 * **Connection to Asymptotes:** This behavior defines a **horizontal asymptote**. Just as vertical asymptotes occur when a limit goes to infinity at a point, horizontal asymptotes occur when a limit approaches a finite number as $x$ goes to infinity.
 
 ---
-
 #### 4. Extension to Powers: $\lim_{x \to \pm\infty} \frac{1}{x^n}$
 Using limit properties, we can pull the exponent outside of the limit:
 $$\lim_{x \to \pm\infty} \frac{1}{x^n} = \left[ \lim_{x \to \pm\infty} \frac{1}{x} \right]^n = [0]^n = 0$$
