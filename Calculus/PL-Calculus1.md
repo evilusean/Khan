@@ -6686,13 +6686,11 @@ $$\lim_{x \to \pm\infty} \frac{1}{x^n} = \left[ \lim_{x \to \pm\infty} \frac{1}{
 
 * **Key Takeaway:** Any constant divided by a variable raised to any power ($x^n$) as $x \to \pm\infty$ will always evaluate to **$0$**. This foundational rule serves as the basis for evaluating rational functions at infinity.
 ### Limits of Polynomials at Infinity
-
 #### 1. Core Behavior of Polynomials
 * Unlike rational functions with variables in the denominator (which level off toward a horizontal asymptote), polynomials **never approach a finite number** as $x$ increases or decreases without bound.
 * As $x \to \pm\infty$, the value of any polynomial function itself will always go to either positive infinity ($+\infty$) or negative infinity ($-\infty$).
 
 ---
-
 #### 2. Examples with Monomial Powers ($x^3$ and $x^2$)
 
 * **Odd Power ($x^3$):**
@@ -6708,7 +6706,6 @@ $$\lim_{x \to \pm\infty} \frac{1}{x^n} = \left[ \lim_{x \to \pm\infty} \frac{1}{
     $$\lim_{x \to -\infty} x^2 = +\infty$$
 
 ---
-
 #### 3. Leading Term Rule for Polynomial Limits
 * **The Rule:** The limit of any polynomial as $x \to \pm\infty$ will always follow the behavior of the term with the **highest power** (the leading term). All lower-order terms become insignificant for large inputs.
 * **Example:** Evaluate $\lim_{x \to -\infty} (-3x^3 - 2x^2 - x + 9)$
@@ -6716,4 +6713,5 @@ $$\lim_{x \to \pm\infty} \frac{1}{x^n} = \left[ \lim_{x \to \pm\infty} \frac{1}{
      $$\lim_{x \to -\infty} (-3x^3 - 2x^2 - x + 9) = \lim_{x \to -\infty} (-3x^3)$$
   2. Substitute a negative infinity value into the leading term: plugging a negative number into $x^3$ gives a negative result, which is then multiplied by $-3$, turning it positive.
      $$\lim_{x \to -\infty} (-3x^3) = +\infty$$
+
 
