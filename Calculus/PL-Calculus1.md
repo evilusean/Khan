@@ -6867,4 +6867,48 @@ $$= \frac{\sqrt{1 + 0}}{-3 + 0} = \frac{1}{-3} = -\frac{1}{3}$$
 ---
 #### Final Result
 $$\lim_{x \to -\infty} \frac{\sqrt{x^2 + 2}}{3x - 6} = -\frac{1}{3}$$
+### Evaluating Limits Involving Radicals and Conjugates at Infinity
 
+#### Problem Statement
+Evaluate the limit as $x$ approaches positive infinity:
+$$\lim_{x \to +\infty} \left(\sqrt{x^4 + 2} - x^2\right)$$
+
+---
+
+#### Step 1: Multiply by the Conjugate
+Direct substitution gives the indeterminate form $\infty - \infty$. Place the expression over $1$ and multiply the numerator and denominator by its conjugate, $\sqrt{x^4 + 2} + x^2$:
+
+$$\lim_{x \to +\infty} \frac{\sqrt{x^4 + 2} - x^2}{1} \cdot \frac{\sqrt{x^4 + 2} + x^2}{\sqrt{x^4 + 2} + x^2}$$
+
+Expand the numerator using difference of squares $(a-b)(a+b) = a^2 - b^2$:
+$$\lim_{x \to +\infty} \frac{(x^4 + 2) - x^4}{\sqrt{x^4 + 2} + x^2}$$
+
+Simplify the numerator by canceling $x^4$:
+$$\lim_{x \to +\infty} \frac{2}{\sqrt{x^4 + 2} + x^2}$$
+
+---
+
+#### Step 2: Divide by the Highest Power of $x$ in the Denominator
+Determine the effective highest power of $x$ in the denominator: $\sqrt{x^4} = x^2$. 
+
+Divide every term in the numerator and denominator by $x^2$ (or $\sqrt{x^4}$ inside the radical):
+
+$$\lim_{x \to +\infty} \frac{\frac{2}{x^2}}{\frac{\sqrt{x^4 + 2}}{\sqrt{x^4}} + \frac{x^2}{x^2}}$$
+
+Bring $\sqrt{x^4}$ under the square root in the denominator:
+$$\lim_{x \to +\infty} \frac{\frac{2}{x^2}}{\sqrt{1 + \frac{2}{x^4}} + 1}$$
+
+---
+
+#### Step 3: Apply Limits at Infinity
+As $x \to +\infty$, terms with $x$ in the denominator approach zero ($\frac{c}{x^n} \to 0$):
+* Numerator: $\frac{2}{x^2} \to 0$
+* Denominator: $\frac{2}{x^4} \to 0$
+
+Substitute these values into the expression:
+$$= \frac{0}{\sqrt{1 + 0} + 1} = \frac{0}{1 + 1} = \frac{0}{2} = 0$$
+
+---
+
+#### Final Result
+$$\lim_{x \to +\infty} \left(\sqrt{x^4 + 2} - x^2\right) = 0$$
