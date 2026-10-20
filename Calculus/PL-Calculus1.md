@@ -6713,6 +6713,5 @@ $$\lim_{x \to \pm\infty} \frac{1}{x^n} = \left[ \lim_{x \to \pm\infty} \frac{1}{
      $$\lim_{x \to -\infty} (-3x^3 - 2x^2 - x + 9) = \lim_{x \to -\infty} (-3x^3)$$
   2. Substitute a negative infinity value into the leading term: plugging a negative number into $x^3$ gives a negative result, which is then multiplied by $-3$, turning it positive.
      $$\lim_{x \to -\infty} (-3x^3) = +\infty$$
-# Leftoff @ 37
 
 
