@@ -6714,13 +6714,11 @@ $$\lim_{x \to \pm\infty} \frac{1}{x^n} = \left[ \lim_{x \to \pm\infty} \frac{1}{
   2. Substitute a negative infinity value into the leading term: plugging a negative number into $x^3$ gives a negative result, which is then multiplied by $-3$, turning it positive.
      $$\lim_{x \to -\infty} (-3x^3) = +\infty$$
 ### Evaluating Rational Function Limits at Infinity
-
 #### Problem Statement
 Evaluate the limit of a rational function as $x$ approaches positive infinity:
 $$\lim_{x \to +\infty} \frac{5x - 2}{3x + 9}$$
 
 ---
-
 #### Step 1: Identify the Strategy for Rational Functions at Infinity
 When direct substitution yields an indeterminate form like $\frac{\infty}{\infty}$, we apply the standard algebraic technique:
 > **Divide every term by the largest power of $x$ in the denominator.**
@@ -6728,21 +6726,18 @@ When direct substitution yields an indeterminate form like $\frac{\infty}{\infty
 In this function, the denominator is $3x + 9$, so the largest power of $x$ in the denominator is $x^1$ (or simply $x$).
 
 ---
-
 #### Step 2: Divide Every Term by $x$
 Divide each term in both the numerator and the denominator by $x$:
 
 $$\lim_{x \to +\infty} \frac{\frac{5x}{x} - \frac{2}{x}}{\frac{3x}{x} + \frac{9}{x}}$$
 
 ---
-
 #### Step 3: Simplify the Expression
 Simplify the terms where $x$ cancels out:
 
 $$\lim_{x \to +\infty} \frac{5 - \frac{2}{x}}{3 + \frac{9}{x}}$$
 
 ---
-
 #### Step 4: Apply Limits at Infinity
 As $x \to +\infty$, any constant divided by a power of $x$ approaches zero ($\frac{c}{x^n} \to 0$):
 * $\frac{2}{x} \to 0$
@@ -6752,7 +6747,7 @@ Substitute these values into the expression:
 $$= \frac{5 - 0}{3 + 0} = \frac{5}{3}$$
 
 ---
-
 #### Final Result
 $$\lim_{x \to +\infty} \frac{5x - 2}{3x + 9} = \frac{5}{3}$$
+
 
