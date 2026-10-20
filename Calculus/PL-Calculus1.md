@@ -6826,13 +6826,11 @@ $$\to \frac{-(+\infty)}{2} = \frac{-\infty}{2} = -\infty$$
 #### Final Result
 $$\lim_{x \to -\infty} \frac{7x^3 - 2x^2 + 1}{9 - 2x} = -\infty$$
 ### Evaluating Limits Involving Radicals at Negative Infinity
-
 #### Problem Statement
 Evaluate the limit as $x$ approaches negative infinity:
 $$\lim_{x \to -\infty} \frac{\sqrt{x^2 + 2}}{3x - 6}$$
 
 ---
-
 #### Step 1: Identify the Highest Power in the Denominator
 The highest power of $x$ in the denominator $3x - 6$ is $x^1$. We need to divide the numerator and denominator by $x$.
 
@@ -6842,7 +6840,6 @@ The highest power of $x$ in the denominator $3x - 6$ is $x^1$. We need to divide
 $$\lim_{x \to -\infty} \frac{\frac{\sqrt{x^2 + 2}}{\sqrt{x^2}}}{\frac{3x}{|x|} - \frac{6}{|x|}}$$
 
 ---
-
 #### Step 2: Apply the Piecewise Definition of Absolute Value
 Recall the definition of absolute value:
 $$|x| = \begin{cases} x, & x \ge 0 \\ -x, & x < 0 \end{cases}$$
@@ -6853,14 +6850,12 @@ Substitute $|x| = -x$ into the denominator:
 $$\lim_{x \to -\infty} \frac{\sqrt{\frac{x^2}{x^2} + \frac{2}{x^2}}}{\frac{3x}{-x} - \frac{6}{-x}}$$
 
 ---
-
 #### Step 3: Simplify the Expression
 Simplify the terms in the numerator and denominator:
 
 $$\lim_{x \to -\infty} \frac{\sqrt{1 + \frac{2}{x^2}}}{-3 + \frac{6}{x}}$$
 
 ---
-
 #### Step 4: Apply Limits at Infinity
 As $x \to -\infty$, the terms with $x$ in the denominator approach zero ($\frac{c}{x^n} \to 0$):
 * $\frac{2}{x^2} \to 0$
@@ -6870,6 +6865,6 @@ Substitute these into the simplified expression:
 $$= \frac{\sqrt{1 + 0}}{-3 + 0} = \frac{1}{-3} = -\frac{1}{3}$$
 
 ---
-
 #### Final Result
 $$\lim_{x \to -\infty} \frac{\sqrt{x^2 + 2}}{3x - 6} = -\frac{1}{3}$$
+
