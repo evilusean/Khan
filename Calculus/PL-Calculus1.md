@@ -6787,13 +6787,11 @@ $$= \frac{0 - 0}{15 - 0} = \frac{0}{15} = 0$$
 #### Final Result
 $$\lim_{x \to -\infty} \frac{5x^2 - 4x}{15x^3 - 3} = 0$$
 ### Evaluating Rational Function Limits at Negative Infinity (Numerator Degree > Denominator Degree)
-
 #### Problem Statement
 Evaluate the limit of the rational function as $x$ approaches negative infinity:
 $$\lim_{x \to -\infty} \frac{7x^3 - 2x^2 + 1}{9 - 2x}$$
 
 ---
-
 #### Step 1: Identify the Strategy
 Apply the standard algebraic strategy for evaluating rational functions at infinity:
 > **Divide every term by the largest power of $x$ in the denominator.**
@@ -6801,14 +6799,12 @@ Apply the standard algebraic strategy for evaluating rational functions at infin
 In this function, the denominator is $9 - 2x$, so the largest power of $x$ in the denominator is $x^1$ (or simply $x$).
 
 ---
-
 #### Step 2: Divide Every Term by $x$
 Divide each term in both the numerator and the denominator by $x$:
 
 $$\lim_{x \to -\infty} \frac{\frac{7x^3}{x} - \frac{2x^2}{x} + \frac{1}{x}}{\frac{9}{x} - \frac{2x}{x}}$$
 
 ---
-
 #### Step 3: Simplify the Expression
 Simplify the terms where $x$ cancels out:
 
@@ -6818,7 +6814,6 @@ To make evaluating the signs clearer, factor out a negative sign from the denomi
 $$\lim_{x \to -\infty} \frac{-\left(7x^2 - 2x + \frac{1}{x}\right)}{2 - \frac{9}{x}}$$
 
 ---
-
 #### Step 4: Apply Limits at Infinity and Evaluate Signs
 As $x \to -\infty$:
 * **Numerator:** The term $7x^2$ dominates. Substituting negative infinity into $7x^2$ gives a positive infinity ($+\infty$), while $\frac{1}{x} \to 0$.
@@ -6828,7 +6823,6 @@ Evaluate the resulting infinity expression:
 $$\to \frac{-(+\infty)}{2} = \frac{-\infty}{2} = -\infty$$
 
 ---
-
 #### Final Result
 $$\lim_{x \to -\infty} \frac{7x^3 - 2x^2 + 1}{9 - 2x} = -\infty$$
 
