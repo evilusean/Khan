@@ -6909,4 +6909,4 @@ $$= \frac{0}{\sqrt{1 + 0} + 1} = \frac{0}{1 + 1} = \frac{0}{2} = 0$$
 $$\lim_{x \to +\infty} \left(\sqrt{x^4 + 2} - x^2\right) = 0$$
 
 ## 2026-10-20 - # Calculus 1 Lecture 3.6: How to Sketch Graphs of Functions :
-
+https://www.youtube.com/watch?v=8u6woY05aL0&list=PLF797E961509B4EB5&index=22
