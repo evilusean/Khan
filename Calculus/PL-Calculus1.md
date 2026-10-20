@@ -6749,5 +6749,47 @@ $$= \frac{5 - 0}{3 + 0} = \frac{5}{3}$$
 ---
 #### Final Result
 $$\lim_{x \to +\infty} \frac{5x - 2}{3x + 9} = \frac{5}{3}$$
+### Evaluating Rational Function Limits at Negative Infinity
 
+#### Problem Statement
+Evaluate the limit of the rational function as $x$ approaches negative infinity:
+$$\lim_{x \to -\infty} \frac{5x^2 - 4x}{15x^3 - 3}$$
+
+---
+
+#### Step 1: Identify the Strategy
+Apply the standard algebraic strategy for evaluating rational functions at infinity:
+> **Divide every term by the largest power of $x$ in the denominator.**
+
+In this function, the denominator is $15x^3 - 3$, so the largest power of $x$ in the denominator is $x^3$.
+
+---
+
+#### Step 2: Divide Every Term by $x^3$
+Divide each term in both the numerator and the denominator by $x^3$:
+
+$$\lim_{x \to -\infty} \frac{\frac{5x^2}{x^3} - \frac{4x}{x^3}}{\frac{15x^3}{x^3} - \frac{3}{x^3}}$$
+
+---
+
+#### Step 3: Simplify the Expression
+Simplify each individual fraction:
+
+$$\lim_{x \to -\infty} \frac{\frac{5}{x} - \frac{4}{x^2}}{15 - \frac{3}{x^3}}$$
+
+---
+
+#### Step 4: Apply Limits at Infinity
+As $x \to -\infty$, any term with a constant divided by a power of $x$ approaches zero ($\frac{c}{x^n} \to 0$):
+* $\frac{5}{x} \to 0$
+* $\frac{4}{x^2} \to 0$
+* $\frac{3}{x^3} \to 0$
+
+Substitute these values into the expression:
+$$= \frac{0 - 0}{15 - 0} = \frac{0}{15} = 0$$
+
+---
+
+#### Final Result
+$$\lim_{x \to -\infty} \frac{5x^2 - 4x}{15x^3 - 3} = 0$$
 
