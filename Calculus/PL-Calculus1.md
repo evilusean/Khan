@@ -6968,19 +6968,19 @@ STEPS:
 1. FIND INTERCEPTS:
    * X: Set y = 0 & solve for x (if "easy")
    * Y: Plug in x = 0
-1. FIND ALL ASYMPTOTES:
+2. FIND ALL ASYMPTOTES:
    * VERTICAL: Denom = 0 (non-removable)
    * HOLE: Denom = 0 (removable)
    * HORIZONTAL: Limit as x -> +/- infinity
-1. 1ST DERIVATIVE TEST:
+3. 1ST DERIVATIVE TEST:
    * Critical #'s
    * Increase/Decrease
-1. 2ND DERIVATIVE TEST:
+4. 2ND DERIVATIVE TEST:
    * Concavity
    * Inflection Pts.
-1. MAKE TABLE
-2. FIND POINTS (From Original Function)
-3. GRAPH
+5. MAKE TABLE
+6. FIND POINTS (From Original Function)
+7. GRAPH
 ### Complete Curve Analysis using Professor Leonard's Method for $y = (x+2)(x-1)^2$
 
 #### Problem Statement
