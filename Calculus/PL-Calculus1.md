@@ -6936,17 +6936,13 @@ To sketch any continuous or rational function accurately without relying on a gr
    * Plot asymptotes as dashed boundary lines, mark key points, draw local maximum/minimum boundary guides, and connect using designated concave arcs.
 
 ---
-
 ### Lecture Example 1: Polynomial Curve Sketching
 $$f(x) = (x+2)(x-1)^2 = x^3 - 3x + 2$$
-
 #### Step 1: Intercepts
 * **$x$-intercepts ($y = 0$):** $(x+2)(x-1)^2 = 0 \implies x = -2, x = 1 \implies (-2, 0) \text{ and } (1, 0)$
 * **$y$-intercept ($x = 0$):** $f(0) = (0+2)(0-1)^2 = 2 \implies (0, 2)$
-
 #### Step 2: Asymptotes
 Polynomial functions are continuous everywhere; there are **no vertical or horizontal asymptotes**.
-
 #### Step 3: First Derivative Test ($f'$)
 * **Derivative:** $f'(x) = 3x^2 - 3$
 * **Critical Numbers:** $3x^2 - 3 = 0 \implies x^2 = 1 \implies x = -1, x = 1$
@@ -6954,14 +6950,12 @@ Polynomial functions are continuous everywhere; there are **no vertical or horiz
   * $(-\infty, -1)$: $f'(-2) = +9 > 0 \implies \mathbf{\text{Increasing (+)}}$
   * $(-1, 1)$: $f'(0) = -3 < 0 \implies \mathbf{\text{Decreasing (-)}}$
   * $(1, \infty)$: $f'(2) = +9 > 0 \implies \mathbf{\text{Increasing (+)}}$
-
 #### Step 4: Second Derivative Test ($f''$)
 * **Second Derivative:** $f''(x) = 6x$
 * **Possible Inflection Points (PIPs):** $6x = 0 \implies x = 0$
 * **Interval Test:**
   * $(-\infty, 0)$: $f''(-1) = -6 < 0 \implies \mathbf{\text{Concave Down (-)}}$
   * $(0, \infty)$: $f''(1) = +6 > 0 \implies \mathbf{\text{Concave Up (+)}}$
-
 #### Step 5: Combined Calculus Table
 ```text
                   x = -1            x = 0            x = 1
