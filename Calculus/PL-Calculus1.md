@@ -6910,4 +6910,63 @@ $$\lim_{x \to +\infty} \left(\sqrt{x^4 + 2} - x^2\right) = 0$$
 
 ## 2026-10-20 - Calculus 1 Lecture 3.6: How to Sketch Graphs of Functions :
 https://www.youtube.com/watch?v=8u6woY05aL0&list=PLF797E961509B4EB5&index=22
+### Summary of Curve Sketching ($f(x) \to \text{Graph}$)
 
+#### Standard 7-Step Curve-Sketching Algorithm
+To sketch any continuous or rational function accurately without relying on a graphing calculator, follow this standardized step-by-step framework:
+
+1. **Find Intercepts:**
+   * **$x$-intercepts:** Set $y = 0$ (or numerator $= 0$ for rational functions) and solve for $x$.
+   * **$y$-intercept:** Set $x = 0$ to find $f(0)$.
+2. **Find Asymptotes & Discontinuities (Rational Functions Only):**
+   * **Vertical Asymptotes (VA):** Non-removable factor where denominator $= 0$.
+   * **Holes (Removable Discontinuities):** Points where numerator and denominator equal zero simultaneously and factors cancel out.
+   * **Horizontal Asymptotes (HA):** Evaluate limits at infinity ($\lim_{x \to \pm\infty} f(x)$).
+3. **First Derivative Test ($f'(x)$):**
+   * Compute $f'(x)$, set $f'(x) = 0$ or undefined to find **critical numbers**.
+   * Perform sign analysis on $f'(x)$ to identify intervals of **increasing** ($f' > 0$) or **decreasing** ($f' < 0$) behavior.
+4. **Second Derivative Test ($f''(x)$):**
+   * Compute $f''(x)$, set $f''(x) = 0$ or undefined to find **possible inflection points (PIPs)**.
+   * Perform sign analysis on $f''(x)$ to identify intervals of **concave up** ($f'' > 0$) or **concave down** ($f'' < 0$).
+5. **Combined Sign Analysis Table:**
+   * Overlay $f'(x)$ (top) and $f''(x)$ (bottom) onto a single ordered number line to determine precise geometric shapes for every interval.
+6. **Calculate Exact Points $(x, y)$:**
+   * Substitute critical $x$-values (relative max/min) and inflection points back into the **original function $f(x)$** to acquire exact coordinate pairs.
+7. **Plot and Connect Curve:**
+   * Plot asymptotes as dashed boundary lines, mark key points, draw local maximum/minimum boundary guides, and connect using designated concave arcs.
+
+---
+
+### Lecture Example 1: Polynomial Curve Sketching
+$$f(x) = (x+2)(x-1)^2 = x^3 - 3x + 2$$
+
+#### Step 1: Intercepts
+* **$x$-intercepts ($y = 0$):** $(x+2)(x-1)^2 = 0 \implies x = -2, x = 1 \implies (-2, 0) \text{ and } (1, 0)$
+* **$y$-intercept ($x = 0$):** $f(0) = (0+2)(0-1)^2 = 2 \implies (0, 2)$
+
+#### Step 2: Asymptotes
+Polynomial functions are continuous everywhere; there are **no vertical or horizontal asymptotes**.
+
+#### Step 3: First Derivative Test ($f'$)
+* **Derivative:** $f'(x) = 3x^2 - 3$
+* **Critical Numbers:** $3x^2 - 3 = 0 \implies x^2 = 1 \implies x = -1, x = 1$
+* **Interval Test:**
+  * $(-\infty, -1)$: $f'(-2) = +9 > 0 \implies \mathbf{\text{Increasing (+)}}$
+  * $(-1, 1)$: $f'(0) = -3 < 0 \implies \mathbf{\text{Decreasing (-)}}$
+  * $(1, \infty)$: $f'(2) = +9 > 0 \implies \mathbf{\text{Increasing (+)}}$
+
+#### Step 4: Second Derivative Test ($f''$)
+* **Second Derivative:** $f''(x) = 6x$
+* **Possible Inflection Points (PIPs):** $6x = 0 \implies x = 0$
+* **Interval Test:**
+  * $(-\infty, 0)$: $f''(-1) = -6 < 0 \implies \mathbf{\text{Concave Down (-)}}$
+  * $(0, \infty)$: $f''(1) = +6 > 0 \implies \mathbf{\text{Concave Up (+)}}$
+
+#### Step 5: Combined Calculus Table
+```text
+                  x = -1            x = 0            x = 1
+f'(x) ---- (+) ----- | ------ (-) ---- | ------ (-) --- | ---- (+) ----
+        INCREASING   |    DECREASING   |   DECREASING   |  INCREASING
+                     |                 |                |
+f''(x) -------------- (-) ------------ | ------------ (+) -------------
+                   CONCAVE DOWN        |         CONCAVE UP
