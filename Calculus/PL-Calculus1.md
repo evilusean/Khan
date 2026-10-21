@@ -6981,3 +6981,55 @@ STEPS:
 1. MAKE TABLE
 2. FIND POINTS (From Original Function)
 3. GRAPH
+### Complete Curve Analysis using Professor Leonard's Method for $y = (x+2)(x-1)^2$
+
+#### Problem Statement
+Perform full curve analysis and sketch $y = (x+2)(x-1)^2$ following Professor Leonard's standard 7-step process[cite: 12].
+
+---
+
+#### Step 1: Find Intercepts[cite: 12]
+* **$x$-intercepts ($y = 0$):**[cite: 12]
+  $$(x+2)(x-1)^2 = 0 \implies x + 2 = 0 \quad \text{and} \quad x - 1 = 0 \implies x = -2 \quad \text{and} \quad x = 1 \quad \text{[cite: 12]}$$
+* **$y$-intercept ($x = 0$):**[cite: 12]
+  $$y = (0+2)(0-1)^2 = (2)(1) = 2 \quad \text{[cite: 12]}$$
+
+---
+
+#### Step 2: Find All Asymptotes[cite: 12]
+* Since $y = (x+2)(x-1)^2 = x^3 - 3x + 2$ is a polynomial function, it has **no vertical asymptotes, no holes, and no horizontal asymptotes**[cite: 12].
+
+---
+
+#### Step 3: $1^{\text{st}}$ Derivative Test (Critical Numbers & Increasing/Decreasing)[cite: 12]
+1. **Find $y'$:** Expand $y = x^3 - 3x + 2$ to easily differentiate:
+   $$y' = 3x^2 - 3$$
+2. **Find Critical Numbers:** Set $y' = 0$:
+   $$3x^2 - 3 = 0 \implies 3(x^2 - 1) = 0 \implies x = 1 \quad \text{and} \quad x = -1$$
+3. **Test Intervals:**
+   * $(-\infty, -1)$: Test $x = -2 \implies y'(-2) = 3(-2)^2 - 3 = +9 \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Increasing)}$
+   * $(-1, 1)$: Test $x = 0 \implies y'(0) = -3 \quad \rightarrow \quad \mathbf{(-)} \quad \text{(Decreasing)}$
+   * $(1, \infty)$: Test $x = 2 \implies y'(2) = 3(2)^2 - 3 = +9 \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Increasing)}$
+
+---
+
+#### Step 4: $2^{\text{nd}}$ Derivative Test (Concavity & Inflection Points)[cite: 12]
+1. **Find $y''$:**
+   $$y'' = \frac{d}{dx}[3x^2 - 3] = 6x$$
+2. **Find Possible Inflection Points (PIPs):** Set $y'' = 0$:
+   $$6x = 0 \implies x = 0$$
+3. **Test Intervals:**
+   * $(-\infty, 0)$: Test $x = -1 \implies y''(-1) = 6(-1) = -6 \quad \rightarrow \quad \mathbf{(-)} \quad \text{(Concave Down)}$
+   * $(0, \infty)$: Test $x = 1 \implies y''(1) = 6(1) = +6 \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Concave Up)}$
+
+---
+
+#### Step 5: Make Table (Sign Analysis)[cite: 12]
+
+```text
+                  x = -1            x = 0            x = 1
+y'   ------- (+) --- | ------ (-) ---- | ------ (-) --- | ---- (+) ----
+        INCREASING   |    DECREASING   |   DECREASING   |  INCREASING
+                     |                 |                |
+y''  --------------- (-) ------------ | ------------ (+) -------------
+                   CONCAVE DOWN        |         CONCAVE UP
