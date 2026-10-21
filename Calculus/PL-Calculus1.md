@@ -6984,24 +6984,21 @@ STEPS:
 ### Complete Curve Analysis using Professor Leonard's Method for $y = (x+2)(x-1)^2$
 
 #### Problem Statement
-Perform full curve analysis and sketch $y = (x+2)(x-1)^2$ following Professor Leonard's standard 7-step process[cite: 12].
+Perform full curve analysis and sketch $y = (x+2)(x-1)^2$ following Professor Leonard's standard 7-step process
 
 ---
-
-#### Step 1: Find Intercepts[cite: 12]
-* **$x$-intercepts ($y = 0$):**[cite: 12]
-  $$(x+2)(x-1)^2 = 0 \implies x + 2 = 0 \quad \text{and} \quad x - 1 = 0 \implies x = -2 \quad \text{and} \quad x = 1 \quad \text{[cite: 12]}$$
-* **$y$-intercept ($x = 0$):**[cite: 12]
-  $$y = (0+2)(0-1)^2 = (2)(1) = 2 \quad \text{[cite: 12]}$$
-
----
-
-#### Step 2: Find All Asymptotes[cite: 12]
-* Since $y = (x+2)(x-1)^2 = x^3 - 3x + 2$ is a polynomial function, it has **no vertical asymptotes, no holes, and no horizontal asymptotes**[cite: 12].
+#### Step 1: Find Intercepts
+* **$x$-intercepts ($y = 0$):**
+  $$(x+2)(x-1)^2 = 0 \implies x + 2 = 0 \quad \text{and} \quad x - 1 = 0 \implies x = -2 \quad \text{and} \quad x = 1$$
+* **$y$-intercept ($x = 0$):**
+  $$y = (0+2)(0-1)^2 = (2)(1) = 2 \quad$$
 
 ---
+#### Step 2: Find All Asymptotes
+* Since $y = (x+2)(x-1)^2 = x^3 - 3x + 2$ is a polynomial function, it has **no vertical asymptotes, no holes, and no horizontal asymptotes**
 
-#### Step 3: $1^{\text{st}}$ Derivative Test (Critical Numbers & Increasing/Decreasing)[cite: 12]
+---
+#### Step 3: $1^{\text{st}}$ Derivative Test (Critical Numbers & Increasing/Decreasing)
 1. **Find $y'$:** Expand $y = x^3 - 3x + 2$ to easily differentiate:
    $$y' = 3x^2 - 3$$
 2. **Find Critical Numbers:** Set $y' = 0$:
@@ -7012,8 +7009,7 @@ Perform full curve analysis and sketch $y = (x+2)(x-1)^2$ following Professor Le
    * $(1, \infty)$: Test $x = 2 \implies y'(2) = 3(2)^2 - 3 = +9 \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Increasing)}$
 
 ---
-
-#### Step 4: $2^{\text{nd}}$ Derivative Test (Concavity & Inflection Points)[cite: 12]
+#### Step 4: $2^{\text{nd}}$ Derivative Test (Concavity & Inflection Points)
 1. **Find $y''$:**
    $$y'' = \frac{d}{dx}[3x^2 - 3] = 6x$$
 2. **Find Possible Inflection Points (PIPs):** Set $y'' = 0$:
@@ -7023,8 +7019,7 @@ Perform full curve analysis and sketch $y = (x+2)(x-1)^2$ following Professor Le
    * $(0, \infty)$: Test $x = 1 \implies y''(1) = 6(1) = +6 \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Concave Up)}$
 
 ---
-
-#### Step 5: Make Table (Sign Analysis)[cite: 12]
+#### Step 5: Make Table (Sign Analysis)
 
 ```text
                   x = -1            x = 0            x = 1
@@ -7033,3 +7028,4 @@ y'   ------- (+) --- | ------ (-) ---- | ------ (-) --- | ---- (+) ----
                      |                 |                |
 y''  --------------- (-) ------------ | ------------ (+) -------------
                    CONCAVE DOWN        |         CONCAVE UP
+```
