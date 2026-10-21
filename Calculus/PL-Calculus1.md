@@ -6963,3 +6963,28 @@ f'(x) ---- (+) ----- | ------ (-) ---- | ------ (-) --- | ---- (+) ----
 f''(x) -------------- (-) ------------ | ------------ (+) -------------
                    CONCAVE DOWN        |         CONCAVE UP
 ```
+### Curve Sketching Steps
+
+STEPS:
+1. FIND INTERCEPTS:
+   * X: Set y = 0 & solve for x (if "easy")
+   * Y: Plug in x = 0
+
+2. FIND ALL ASYMPTOTES:
+   * VERTICAL: Denom = 0 (non-removable)
+   * HOLE: Denom = 0 (removable)
+   * HORIZONTAL: Limit as x -> +/- infinity
+
+3. 1ST DERIVATIVE TEST:
+   * Critical #'s
+   * Increase/Decrease
+
+4. 2ND DERIVATIVE TEST:
+   * Concavity
+   * Inflection Pts.
+
+5. MAKE TABLE
+
+6. FIND POINTS (From Original Function)
+
+7. GRAPH
