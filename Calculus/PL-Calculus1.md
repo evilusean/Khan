@@ -7029,3 +7029,98 @@ y'   ------- (+) --- | ------ (-) ---- | ------ (-) --- | ---- (+) ----
 y''  --------------- (-) ------------ | ------------ (+) -------------
                    CONCAVE DOWN        |         CONCAVE UP
 ```
+### Problem/Equation: Curve Analysis and Sketching of $y = \frac{x^2 - 1}{x^3}$
+
+#### Step 1: Find Intercepts
+* **$x$-intercepts ($y = 0$):** Set the numerator equal to zero:
+  $$x^2 - 1 = 0 \implies x = 1 \quad \text{and} \quad x = -1 \implies (1, 0) \quad \text{and} \quad (-1, 0)$$
+* **$y$-intercept ($x = 0$):** Substitute $x = 0$ into the original function:
+  $$y = \frac{0^2 - 1}{0^3} \implies \text{Undefined} \implies \mathbf{\text{DNE (Does Not Exist)}}$$
+
+---
+
+#### Step 2: Find All Asymptotes
+* **Vertical Asymptote:** Set the denominator equal to zero:
+  $$x^3 = 0 \implies \mathbf{x = 0}$$
+  *(Since $x^3$ cannot be canceled with the numerator $x^2 - 1$, $x = 0$ is a non-removable vertical asymptote.)*
+* **Holes:** None.
+* **Horizontal Asymptotes:** Evaluate the limits as $x \to \pm\infty$:
+  $$\lim_{x \to +\infty} \frac{x^2 - 1}{x^3} = 0 \quad \text{and} \quad \lim_{x \to -\infty} \frac{x^2 - 1}{x^3} = 0 \implies \mathbf{y = 0}$$
+
+---
+
+#### Step 3: $1^{\text{st}}$ Derivative Test (Critical Numbers & Increasing/Decreasing)
+1. **Find $y'$ (Quotient Rule):**
+   $$y' = \frac{x^3 \frac{d}{dx}[x^2 - 1] - (x^2 - 1) \frac{d}{dx}[x^3]}{(x^3)^2}$$
+   $$y' = \frac{x^3 (2x) - (x^2 - 1)(3x^2)}{x^6} = \frac{2x^4 - 3x^4 + 3x^2}{x^6} = \frac{-x^4 + 3x^2}{x^6}$$
+   Factor out $x^2$ and simplify:
+   $$y' = \frac{x^2(-x^2 + 3)}{x^6} = \frac{-x^2 + 3}{x^4}$$
+
+2. **Find Critical Numbers:** Set $y' = 0$ or find where $y'$ is undefined:
+   * **Denominator $= 0$:** $x^4 = 0 \implies x = 0$ (Undefined slope / Vertical Asymptote)
+   * **Numerator $= 0$:** $-x^2 + 3 = 0 \implies x^2 = 3 \implies x = \pm\sqrt{3}$
+   $$\text{Critical Numbers: } \mathbf{x = 0, \quad x = \sqrt{3}, \quad x = -\sqrt{3}}$$
+
+3. **Test Intervals for $y'$:**
+   * $(-\infty, -\sqrt{3})$: Test $x = -2 \implies y'(-2) = \frac{-(-2)^2 + 3}{(-2)^4} = \frac{-1}{16} \quad \rightarrow \quad \mathbf{(-)} \quad \text{(Decreasing)}$
+   * $(-\sqrt{3}, 0)$: Test $x = -1 \implies y'(-1) = \frac{-(-1)^2 + 3}{(-1)^4} = \frac{2}{1} \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Increasing)}$
+   * $(0, \sqrt{3})$: Test $x = 1 \implies y'(1) = \frac{-(1)^2 + 3}{(1)^4} = \frac{2}{1} \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Increasing)}$
+   * $(\sqrt{3}, \infty)$: Test $x = 2 \implies y'(2) = \frac{-(2)^2 + 3}{(2)^4} = \frac{-1}{16} \quad \rightarrow \quad \mathbf{(-)} \quad \text{(Decreasing)}$
+
+---
+
+#### Step 4: $2^{\text{nd}}$ Derivative Test (Concavity & Inflection Points)
+1. **Find $y''$ (Quotient Rule):**
+   $$y'' = \frac{x^4 \frac{d}{dx}[-x^2 + 3] - (-x^2 + 3) \frac{d}{dx}[x^4]}{(x^4)^2}$$
+   $$y'' = \frac{x^4(-2x) - (-x^2 + 3)(4x^3)}{x^8} = \frac{-2x^5 + 4x^5 - 12x^3}{x^8} = \frac{2x^5 - 12x^3}{x^8}$$
+   Factor out $2x^3$ and simplify:
+   $$y'' = \frac{2x^3(x^2 - 6)}{x^8} = \frac{2(x^2 - 6)}{x^5}$$
+
+2. **Find Possible Inflection Points (PIPs):** Set $y'' = 0$ or find where $y''$ is undefined:
+   * **Denominator $= 0$:** $x^5 = 0 \implies x = 0$ (Undefined concavity)
+   * **Numerator $= 0$:** $2(x^2 - 6) = 0 \implies x^2 = 6 \implies x = \pm\sqrt{6}$
+   $$\text{Possible Inflection Points: } \mathbf{x = 0, \quad x = \sqrt{6}, \quad x = -\sqrt{6}}$$
+
+3. **Test Intervals for $y''$:**
+   * $(-\infty, -\sqrt{6})$: Test $x = -3 \implies y''(-3) = \frac{2((-3)^2 - 6)}{(-3)^5} = \frac{6}{-243} \quad \rightarrow \quad \mathbf{(-)} \quad \text{(Concave Down)}$
+   * $(-\sqrt{6}, 0)$: Test $x = -1 \implies y''(-1) = \frac{2((-1)^2 - 6)}{(-1)^5} = \frac{-10}{-1} \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Concave Up)}$
+   * $(0, \sqrt{6})$: Test $x = 1 \implies y''(1) = \frac{2((1)^2 - 6)}{(1)^5} = \frac{-10}{1} \quad \rightarrow \quad \mathbf{(-)} \quad \text{(Concave Down)}$
+   * $(\sqrt{6}, \infty)$: Test $x = 3 \implies y''(3) = \frac{2((3)^2 - 6)}{(3)^5} = \frac{6}{243} \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Concave Up)}$
+
+---
+
+#### Step 5: Make Table (Sign Analysis)
+
+                  x = -√6           x = -√3            x = 0            x = √3           x = √6
+f'(x)  --- (-) --- | --- (-) ------- | ----- (+) ---- || ----- (+) ---- | --- (-) ------ | --- (-) ---
+       DECREASING  |   DECREASING    |   INCREASING   ||   INCREASING   |   DECREASING   |  DECREASING
+                   |                 |                ||                |                |
+f''(x) --- (-) --- | --- (+) ------- | ----- (+) ---- || ----- (-) ---- | --- (-) ------ | --- (+) ---
+      C. DOWN      |     C. UP       |     C. UP      ||    C. DOWN     |    C. DOWN     |    C. UP
+
+---
+
+#### Step 6: Find Points (Original Function $y = \frac{x^2 - 1}{x^3}$)
+* **$x$-intercepts:** $(1, 0)$ and $(-1, 0)$
+* **Relative Minimum at $x = -\sqrt{3}$:**
+  $$y(-\sqrt{3}) = \frac{(-\sqrt{3})^2 - 1}{(-\sqrt{3})^3} = \frac{3 - 1}{-3\sqrt{3}} = \frac{2}{-3\sqrt{3}} \approx -0.38 \implies \mathbf{(-\sqrt{3}, -0.4)}$$
+* **Relative Maximum at $x = \sqrt{3}$:**
+  $$y(\sqrt{3}) = \frac{(\sqrt{3})^2 - 1}{(\sqrt{3})^3} = \frac{3 - 1}{3\sqrt{3}} = \frac{2}{3\sqrt{3}} \approx 0.38 \implies \mathbf{(\sqrt{3}, 0.4)}$$
+* **Inflection Point at $x = -\sqrt{6}$:**
+  $$y(-\sqrt{6}) = \frac{(-\sqrt{6})^2 - 1}{(-\sqrt{6})^3} = \frac{6 - 1}{-6\sqrt{6}} = \frac{5}{-6\sqrt{6}} \approx -0.34 \implies \mathbf{(-\sqrt{6}, -0.3)}$$
+* **Inflection Point at $x = \sqrt{6}$:**
+  $$y(\sqrt{6}) = \frac{(\sqrt{6})^2 - 1}{(\sqrt{6})^3} = \frac{6 - 1}{6\sqrt{6}} = \frac{5}{6\sqrt{6}} \approx 0.34 \implies \mathbf{(\sqrt{6}, 0.3)}$$
+
+---
+
+#### Step 7: Sketch & Graph Description
+* **Left Branch ($x < 0$):**
+  * Starts at $x \to -\infty$ riding the horizontal asymptote $y = 0$, decreasing concave down.
+  * Passes through Inflection Point $(-\sqrt{6}, -0.3)$, switching to concave up while continuing to decrease.
+  * Reaches Relative Minimum valley at $(-\sqrt{3}, -0.4)$ and turns upward.
+  * Rises concave up through $x$-intercept $(-1, 0)$ and shoots upward toward $+\infty$ along vertical asymptote $x = 0$.
+* **Right Branch ($x > 0$):**
+  * Enters from $-\infty$ along vertical asymptote $x = 0$, rising concave down.
+  * Passes through $x$-intercept $(1, 0)$ up to Relative Maximum peak at $(\sqrt{3}, 0.4)$.
+  * Turns downward concave down, passing through Inflection Point $(\sqrt{6}, 0.3)$.
+  * Switches concavity to concave up as it levels off toward the horizontal asymptote $y = 0$ as $x \to \infty$.
