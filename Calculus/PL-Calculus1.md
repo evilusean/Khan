@@ -7118,7 +7118,6 @@ f''(x) --- (-) --- | --- (+) ------- | ----- (+) ---- || ----- (-) ---- | --- (-
   * Turns downward concave down, passing through Inflection Point $(\sqrt{6}, 0.3)$.
   * Switches concavity to concave up as it levels off toward the horizontal asymptote $y = 0$ as $x \to \infty$.
 ### Problem/Equation: Curve Analysis and Sketching of $f(x) = \frac{2x^2 - 8}{x^2 - 16}$
-
 #### Step 1: Find Intercepts
 * **$x$-intercepts ($y = 0$):** Set the numerator equal to zero:
   $$2x^2 - 8 = 0 \implies 2x^2 = 8 \implies x^2 = 4 \implies x = 2, -2 \implies \mathbf{(2, 0) \text{ and } (-2, 0)}$$
@@ -7126,7 +7125,6 @@ f''(x) --- (-) --- | --- (+) ------- | ----- (+) ---- || ----- (-) ---- | --- (-
   $$f(0) = \frac{2(0)^2 - 8}{(0)^2 - 16} = \frac{-8}{-16} = \frac{1}{2} \implies \mathbf{\left(0, \frac{1}{2}\right)}$$
 
 ---
-
 #### Step 2: Find All Asymptotes
 * **Vertical Asymptotes:** Set the denominator equal to zero:
   $$x^2 - 16 = 0 \implies x^2 = 16 \implies \mathbf{x = 4, -4}$$
@@ -7135,7 +7133,6 @@ f''(x) --- (-) --- | --- (+) ------- | ----- (+) ---- || ----- (-) ---- | --- (-
   $$\lim_{x \to \pm\infty} \frac{2x^2 - 8}{x^2 - 16} = \frac{2}{1} = 2 \implies \mathbf{y = 2}$$
 
 ---
-
 #### Step 3: $1^{\text{st}}$ Derivative Test (Critical Numbers & Increasing/Decreasing)
 1. **Find $f'(x)$ (Quotient Rule):**
    $$f'(x) = \frac{(x^2 - 16)\frac{d}{dx}[2x^2 - 8] - (2x^2 - 8)\frac{d}{dx}[x^2 - 16]}{(x^2 - 16)^2}$$
@@ -7153,7 +7150,6 @@ f''(x) --- (-) --- | --- (+) ------- | ----- (+) ---- || ----- (-) ---- | --- (-
    * $(4, \infty)$: Test $x = 5 \implies f'(5) = \frac{-48(5)}{((5)^2 - 16)^2} = \frac{-240}{81} \quad \rightarrow \quad \mathbf{(-)} \quad \text{(Decreasing)}$
 
 ---
-
 #### Step 4: $2^{\text{nd}}$ Derivative Test (Concavity & Inflection Points)
 1. **Find $f''(x)$:**
    $$f''(x) = \frac{48(3x^2 + 16)}{(x^2 - 16)^3}$$
@@ -7169,7 +7165,6 @@ f''(x) --- (-) --- | --- (+) ------- | ----- (+) ---- || ----- (-) ---- | --- (-
    * $(4, \infty)$: Test $x = 5 \implies f''(5) = \frac{48(3(5)^2 + 16)}{((5)^2 - 16)^3} = \frac{+}{+} \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Concave Up)}$
 
 ---
-
 #### Step 5: Make Table (Sign Analysis)
 
                        x = -4              x = 0              x = 4
@@ -7188,7 +7183,6 @@ f''(x)  f''(-5)  (+)    ||          f''(0)  (-)                ||    f''(5)  (+)
 * **Vertical Asymptotes at $x = -4$ and $x = 4$:** No points exist at $x = \pm 4$.
 
 ---
-
 #### Step 7: Sketch & Graph Description
 * **Left Branch ($x < -4$):** Enters along the horizontal asymptote $y = 2$ from the left, increasing and curving upward (concave up) toward $+\infty$ as it approaches the vertical asymptote $x = -4$.
 * **Middle Branch ($-4 < x < 4$):** Enters from $-\infty$ along the vertical asymptote $x = -4$, increasing and curving downward (concave down). Passes through the $x$-intercept $(-2, 0)$ up to the relative maximum peak at $\left(0, \frac{1}{2}\right)$, then turns downward (concave down) through $x$-intercept $(2, 0)$ toward $-\infty$ along the vertical asymptote $x = 4$.
