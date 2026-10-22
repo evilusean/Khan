@@ -7030,7 +7030,6 @@ y''  --------------- (-) ------------ | ------------ (+) -------------
                    CONCAVE DOWN        |         CONCAVE UP
 ```
 ### Problem/Equation: Curve Analysis and Sketching of $y = \frac{x^2 - 1}{x^3}$
-
 #### Step 1: Find Intercepts
 * **$x$-intercepts ($y = 0$):** Set the numerator equal to zero:
   $$x^2 - 1 = 0 \implies x = 1 \quad \text{and} \quad x = -1 \implies (1, 0) \quad \text{and} \quad (-1, 0)$$
@@ -7038,7 +7037,6 @@ y''  --------------- (-) ------------ | ------------ (+) -------------
   $$y = \frac{0^2 - 1}{0^3} \implies \text{Undefined} \implies \mathbf{\text{DNE (Does Not Exist)}}$$
 
 ---
-
 #### Step 2: Find All Asymptotes
 * **Vertical Asymptote:** Set the denominator equal to zero:
   $$x^3 = 0 \implies \mathbf{x = 0}$$
@@ -7048,7 +7046,6 @@ y''  --------------- (-) ------------ | ------------ (+) -------------
   $$\lim_{x \to +\infty} \frac{x^2 - 1}{x^3} = 0 \quad \text{and} \quad \lim_{x \to -\infty} \frac{x^2 - 1}{x^3} = 0 \implies \mathbf{y = 0}$$
 
 ---
-
 #### Step 3: $1^{\text{st}}$ Derivative Test (Critical Numbers & Increasing/Decreasing)
 1. **Find $y'$ (Quotient Rule):**
    $$y' = \frac{x^3 \frac{d}{dx}[x^2 - 1] - (x^2 - 1) \frac{d}{dx}[x^3]}{(x^3)^2}$$
@@ -7068,7 +7065,6 @@ y''  --------------- (-) ------------ | ------------ (+) -------------
    * $(\sqrt{3}, \infty)$: Test $x = 2 \implies y'(2) = \frac{-(2)^2 + 3}{(2)^4} = \frac{-1}{16} \quad \rightarrow \quad \mathbf{(-)} \quad \text{(Decreasing)}$
 
 ---
-
 #### Step 4: $2^{\text{nd}}$ Derivative Test (Concavity & Inflection Points)
 1. **Find $y''$ (Quotient Rule):**
    $$y'' = \frac{x^4 \frac{d}{dx}[-x^2 + 3] - (-x^2 + 3) \frac{d}{dx}[x^4]}{(x^4)^2}$$
@@ -7088,7 +7084,6 @@ y''  --------------- (-) ------------ | ------------ (+) -------------
    * $(\sqrt{6}, \infty)$: Test $x = 3 \implies y''(3) = \frac{2((3)^2 - 6)}{(3)^5} = \frac{6}{243} \quad \rightarrow \quad \mathbf{(+)} \quad \text{(Concave Up)}$
 
 ---
-
 #### Step 5: Make Table (Sign Analysis)
 
                   x = -√6           x = -√3            x = 0            x = √3           x = √6
@@ -7099,7 +7094,6 @@ f''(x) --- (-) --- | --- (+) ------- | ----- (+) ---- || ----- (-) ---- | --- (-
       C. DOWN      |     C. UP       |     C. UP      ||    C. DOWN     |    C. DOWN     |    C. UP
 
 ---
-
 #### Step 6: Find Points (Original Function $y = \frac{x^2 - 1}{x^3}$)
 * **$x$-intercepts:** $(1, 0)$ and $(-1, 0)$
 * **Relative Minimum at $x = -\sqrt{3}$:**
@@ -7112,7 +7106,6 @@ f''(x) --- (-) --- | --- (+) ------- | ----- (+) ---- || ----- (-) ---- | --- (-
   $$y(\sqrt{6}) = \frac{(\sqrt{6})^2 - 1}{(\sqrt{6})^3} = \frac{6 - 1}{6\sqrt{6}} = \frac{5}{6\sqrt{6}} \approx 0.34 \implies \mathbf{(\sqrt{6}, 0.3)}$$
 
 ---
-
 #### Step 7: Sketch & Graph Description
 * **Left Branch ($x < 0$):**
   * Starts at $x \to -\infty$ riding the horizontal asymptote $y = 0$, decreasing concave down.
