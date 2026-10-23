@@ -5375,7 +5375,7 @@ $$y - 1 = 3(x - 2)$$
 $$y - 1 = 3x - 6$$
 
 $$y = 3x - 5$$
-# Above Added To Anki Deck
+
 ## 2026-10-07 - Calculus 1 Lecture 2.8: Related Rates :
 https://www.youtube.com/watch?v=43Qt6wc44To&list=PLF797E961509B4EB5&index=18
 ### Lecture Notes: Calculus 1 – Lecture 2.8: Related Rates (Professor Leonard)
@@ -5726,6 +5726,7 @@ $$\frac{d\theta}{dt} = \frac{9}{125}\text{ rad/s}$$
 
 * **Degree conversion** (multiplying by $\frac{180^\circ}{\pi}$):
   $$\frac{d\theta}{dt} = 0.072 \cdot \left(\frac{180}{\pi}\right) \approx 4.13^\circ/\text{s}$$
+# Above Added To Anki Deck
 ## 2026-10-11 - Calculus 1 Lecture 3.1: Increasing/Decreasing and Concavity of Functions :
 https://www.youtube.com/watch?v=Mx39JbbzEAo&list=PLF797E961509B4EB5&index=18
 ### Increasing/Decreasing and Concavity of Functions
