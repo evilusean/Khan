@@ -6323,7 +6323,7 @@ Choose a test value in each interval and plug it into $f'(x)$:
 #### Step 6: Summary of Extrema
 * At $x = 0$, the slope changes from **$(+)$ to $(-)$**, forming a peak (**Relative Maximum**).
 * At $x = 2$, the slope changes from **$(-)$ to $(+)$**, forming a valley (**Relative Minimum**).
-# Above Added To Anki Deck
+
 ## 2026-10-16 - Calculus 1 Lecture 3.4: The Second Derivative Test for Concavity of Functions :
 https://www.youtube.com/watch?v=29GbRaQxtzY&list=PLF797E961509B4EB5&index=21
 ### The Second Derivative Test for Concavity of Functions
@@ -6538,6 +6538,7 @@ f''(x) -------------- (-) ------------ | ------------ (+) -------------
 * **Relative Maximum:** $(-2, 60)$
 * **Relative Minimum:** $(4, -48)$
 * **Inflection Point:** $(1, 6)$
+# Above Added To Anki Deck
 ## 2026-10-18 - Calculus 1 Lecture 3.5: Limits of Functions at Infinity :
 https://www.youtube.com/watch?v=-PYebK8DKPc&list=PLF797E961509B4EB5&index=22
 ### Limits of Functions at Infinity
