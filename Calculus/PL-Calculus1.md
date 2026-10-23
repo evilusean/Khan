@@ -4737,7 +4737,7 @@ Find $\frac{dy}{dx}$ for $y = \frac{\sin(x)}{1 + \cos(x)}$.
    $$\frac{dy}{dx} = \frac{\cos(x) + 1}{(1 + \cos(x))^2}$$
 5. **Cancel Common Factors:**
    $$\frac{dy}{dx} = \frac{1}{1 + \cos(x)}$$
-# Above Added To Anki Deck
+
 ## 2026-10-03 - Calculus 1 Lecture 2.6: Discussion of the Chain Rule for Derivatives of Functions :
 https://www.youtube.com/watch?v=8dr1dZjfhmc&list=PLF797E961509B4EB5&index=16
 ### Calculus 1 Lecture 2.6: Discussion of the Chain Rule for Derivatives of Functions
@@ -5055,6 +5055,7 @@ Find the derivative $\frac{dy}{dx}$ using the Product Rule and Chain Rule.
 4. **Rearrange terms and factor out $x$**:
    $$= 2x\sin(3x) + 3x^2\cos(3x)$$
    $$= x\left(2\sin(3x) + 3x\cos(3x)\right)$$
+# Above Added To Anki Deck
 ## 2026-10-06 - Calculus 1 Lecture 2.7: Implicit Differentiation :
 https://www.youtube.com/watch?v=RUS4mKo9tBk&list=PLF797E961509B4EB5&index=15
 ### Lecture Notes: Calculus 1 – Lecture 2.7: Implicit Differentiation (Professor Leonard)
