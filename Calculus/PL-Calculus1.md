@@ -7336,7 +7336,6 @@ $$h = 2(5.42) = 10.84\text{ cm}$$
 $$S''(r) = \frac{d}{dr}\left[4\pi r - 2000r^{-2}\right] = 4\pi + \frac{4000}{r^3}$$
 At $r = 5.42\text{ cm}$:
 $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up (Guarantees Absolute Minimum)}}$$
-
 #### Final Dimensions
 * **Optimal Radius:** $\mathbf{r = \sqrt[3]{\frac{500}{\pi}} \approx 5.42\text{ cm}}$
 * **Optimal Height:** $\mathbf{h = 2\sqrt[3]{\frac{500}{\pi}} \approx 10.84\text{ cm}}$
