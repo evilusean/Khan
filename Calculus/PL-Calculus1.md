@@ -7189,3 +7189,172 @@ f''(x)  f''(-5)  (+)    ||          f''(0)  (-)                ||    f''(5)  (+)
 * **Right Branch ($x > 4$):** Enters from $+\infty$ along the vertical asymptote $x = 4$, decreasing and curving upward (concave up) to level off toward the horizontal asymptote $y = 2$ as $x \to \infty$.
 ## 2026-10-22 - Calculus 1 Lecture 3.7: Optimization; Max/Min Application Problems :
 https://www.youtube.com/watch?v=SWZcq_biZLw&list=PLF797E961509B4EB5&index=24
+### Optimization; Max/Min Application Problems
+
+#### Core Concepts & Analytical Framework
+Optimization applies derivative analysis ($f'(x) = 0$ or undefined) to locate absolute extrema (maximum profit, volume, or area; minimum cost or material usage) in real-world scenarios.
+
+1. **Extreme Value Behavior by Interval Type:**
+   * **Closed Finite Intervals $[a, b]$:** By the Extreme Value Theorem, continuous functions **guarantee** absolute maximums and minimums. These must occur at **critical numbers** inside $(a, b)$ or at **boundary end points** $a$ and $b$.
+   * **Open / Infinite Intervals $(a, b)$ or $(-\infty, \infty)$:** Solutions are not guaranteed. Absolute extrema occur solely at **relative extrema** if they exist.
+
+2. **Standardized 5-Step Optimization Algorithm:**
+   * **Step 1: Visual Representation & Variables:** Draw a clear schematic diagram and assign variable names.
+   * **Step 2: Primary Equation (Target):** Construct the formula representing the quantity to be maximized or minimized (e.g., $A = xy$, $V = lwh$, $C = \text{cost}$).
+   * **Step 3: Secondary Equation (Constraint):** Identify fixed restrictions (e.g., perimeter, total material, volume constraint) and use algebra to express the primary equation in terms of a **single independent variable**.
+   * **Step 4: Feasible Domain / Endpoints:** Determine realistic physical domain bounds for the independent variable (e.g., non-negative dimensions).
+   * **Step 5: Derivative Analysis & Justification:**
+     * Compute the first derivative, set $f'(x) = 0$, and solve for critical numbers.
+     * **Justify Extrema:** Verify whether the critical value represents a maximum or minimum via:
+       * **Closed Interval Test:** Evaluate candidate values in the original primary function alongside domain endpoints.
+       * **Second Derivative Test ($f''$):** If $f''(c) > 0$, the curve is concave up ($\mathbf{\text{Local Min}}$); if $f''(c) < 0$, the curve is concave down ($\mathbf{\text{Local Max}}$).
+
+---
+
+### Lecture Example 1: Maximizing Enclosed Area (Fencing Constraint)
+
+#### Problem Statement
+A farmer has $100\text{ ft}$ of fencing available to construct a rectangular enclosure. Determine the dimensions that maximize the enclosed area, and calculate the maximum area.
+
+#### 1. Variables & Primary Equation
+* Let $x = \text{length}$, $y = \text{width}$.
+* **Primary (Target Area):** $A = xy$
+
+#### 2. Constraint & Variable Reduction
+* **Constraint (Perimeter):** $2x + 2y = 100 \implies x + y = 50 \implies y = 50 - x$
+* **Substitute into Area Function:** 
+  $$A(x) = x(50 - x) = 50x - x^2$$
+
+#### 3. Feasible Domain
+* $x \ge 0$ and $y = 50 - x \ge 0 \implies x \le 50$.
+* Domain: $x \in [0, 50]$.
+
+#### 4. Derivative Analysis & Critical Numbers
+$$A'(x) = \frac{d}{dx}[50x - x^2] = 50 - 2x$$
+Set $A'(x) = 0$:
+$$50 - 2x = 0 \implies 2x = 50 \implies x = 25\text{ ft}$$
+
+#### 5. Verification & Final Results
+* **Closed Interval Test:**
+  * $A(0) = 50(0) - (0)^2 = 0\text{ ft}^2$ (Absolute Min)
+  * $A(50) = 50(50) - (50)^2 = 0\text{ ft}^2$ (Absolute Min)
+  * $A(25) = 50(25) - (25)^2 = 625\text{ ft}^2$ (Absolute Max)
+* **Dimensions:** $x = 25\text{ ft}$, $y = 50 - 25 = 25\text{ ft}$ (Square configuration).
+* **Maximum Area:** $\mathbf{625\text{ ft}^2}$.
+
+---
+
+### Lecture Example 2: Maximizing Volume (Open-Top Box)
+
+#### Problem Statement
+An open-top box is constructed from a flat rectangular sheet of cardboard measuring $16\text{ in}$ by $30\text{ in}$ by cutting equal squares of side length $x$ from each corner and folding up the sides. Find the value of $x$ that maximizes the interior volume.
+
+#### 1. Dimensions & Primary Equation
+* $\text{Length} = 30 - 2x$
+* $\text{Width} = 16 - 2x$
+* $\text{Height} = x$
+* **Primary (Target Volume):**
+  $$V(x) = x(30 - 2x)(16 - 2x) = x(480 - 92x + 4x^2) = 4x^3 - 92x^2 + 480x$$
+
+#### 2. Feasible Domain
+* All dimensions must be strictly positive:
+  * $x \ge 0$
+  * $16 - 2x \ge 0 \implies x \le 8$
+* Domain: $x \in [0, 8]$.
+
+#### 3. Derivative Analysis & Critical Numbers
+$$V'(x) = 12x^2 - 184x + 480$$
+Set $V'(x) = 0$ and factor out $4$:
+$$4(3x^2 - 46x + 120) = 0$$
+Apply the Quadratic Formula ($a = 3, b = -46, c = 120$):
+$$x = \frac{-(-46) \pm \sqrt{(-46)^2 - 4(3)(120)}}{2(3)} = \frac{46 \pm \sqrt{2116 - 1440}}{6} = \frac{46 \pm \sqrt{676}}{6} = \frac{46 \pm 26}{6}$$
+* $x_1 = \frac{72}{6} = 12$
+* $x_2 = \frac{20}{6} = \frac{10}{3} = 3.33\text{ in}$
+
+#### 4. Domain Check & Extrema Verification
+* $x = 12$ falls **outside** the feasible domain $[0, 8]$ (it yields negative width).
+* Candidate Critical Value: $x = \frac{10}{3}\text{ in}$.
+* **Closed Interval Test:**
+  * $V(0) = 0\text{ in}^3$
+  * $V(8) = 8(30 - 16)(16 - 16) = 0\text{ in}^3$
+  * $V\left(\frac{10}{3}\right) = \left(\frac{10}{3}\right)\left(30 - \frac{20}{3}\right)\left(16 - \frac{20}{3}\right) = \left(\frac{10}{3}\right)\left(\frac{70}{3}\right)\left(\frac{28}{3}\right) = \frac{19600}{27} \approx 725.93\text{ in}^3$
+* **Optimal Cut Size:** $\mathbf{x = \frac{10}{3}\text{ in} \approx 3.33\text{ in}}$.
+* **Maximum Volume:** $\mathbf{\frac{19600}{27}\text{ in}^3 \approx 725.93\text{ in}^3}$.
+
+---
+
+### Lecture Example 3: Minimizing Cost (Offshore Pipeline Routing)
+
+#### Problem Statement
+An offshore oil rig is located $5\text{ km}$ out at sea from point $A$ on a straight coastline. An oil refinery is located at point $B$, which is $8\text{ km}$ down the coast from point $A$. Pipe laid underwater costs $\$1.00\text{ per km}$ (relative unit), while pipe laid on land costs $\$0.50\text{ per km}$. Determine where the pipeline should reach the shore at point $P$ (located $x\text{ km}$ from $A$ toward $B$) to minimize total installation cost.
+
+#### 1. Geometry & Primary Equation
+* Let $x =$ distance from $A$ to coastal landing point $P$.
+* Distance from $P$ to refinery $B = 8 - x$.
+* Distance from oil rig to landing point $P$ (Pythagorean Theorem): $\sqrt{x^2 + 5^2} = \sqrt{x^2 + 25}$.
+* **Primary (Total Cost Function $C(x)$):**
+  $$C(x) = 1 \cdot \sqrt{x^2 + 25} + 0.5 \cdot (8 - x) = (x^2 + 25)^{1/2} + 4 - \frac{1}{2}x$$
+
+#### 2. Feasible Domain
+* $x$ must lie between point $A$ ($x = 0$) and point $B$ ($x = 8$).
+* Domain: $x \in [0, 8]$.
+
+#### 3. Derivative Analysis & Critical Numbers
+$$C'(x) = \frac{d}{dx}\left[(x^2 + 25)^{1/2} + 4 - \frac{1}{2}x\right] = \frac{1}{2}(x^2 + 25)^{-1/2}(2x) - \frac{1}{2} = \frac{x}{\sqrt{x^2 + 25}} - \frac{1}{2}$$
+Set $C'(x) = 0$:
+$$\frac{x}{\sqrt{x^2 + 25}} = \frac{1}{2}$$
+Cross-multiply and square both sides:
+$$2x = \sqrt{x^2 + 25} \implies 4x^2 = x^2 + 25 \implies 3x^2 = 25 \implies x^2 = \frac{25}{3}$$
+$$x = +\frac{5}{\sqrt{3}} = \frac{5\sqrt{3}}{3} \approx 2.89\text{ km}$$
+*(Discard negative root as it lies outside $[0, 8]$).*
+
+#### 4. Extrema Verification
+* **Closed Interval Test:**
+  * **$x = 0$ (Directly to A, then along shore):** $C(0) = \sqrt{0 + 25} + 4 - 0 = 5 + 4 = \$9.00$
+  * **$x = 8$ (Direct underwater line to B):** $C(8) = \sqrt{64 + 25} + 4 - 4 = \sqrt{89} \approx \$9.43$
+  * **$x = \frac{5\sqrt{3}}{3} \approx 2.89$ (Optimal landing point):**
+    $$C\left(\frac{5\sqrt{3}}{3}\right) = \sqrt{\frac{25}{3} + 25} + 4 - \frac{5\sqrt{3}}{6} = \sqrt{\frac{100}{3}} + 4 - \frac{5\sqrt{3}}{6} = \frac{10}{\sqrt{3}} + 4 - \frac{5\sqrt{3}}{6} = \frac{10\sqrt{3}}{3} + 4 - \frac{5\sqrt{3}}{6} = \frac{5\sqrt{3}}{2} + 4 \approx 4.33 + 4 = \$8.33$$
+* **Optimal Landing Distance:** Pipeline should hit the shore at $\mathbf{x = \frac{5\sqrt{3}}{3}\text{ km} \approx 2.89\text{ km}}$ down coast from point $A$.
+* **Minimum Total Cost:** $\mathbf{\$8.33}$ (relative cost units).
+
+---
+
+### Lecture Example 4: Minimizing Material Surface Area (Cylindrical Can)
+
+#### Problem Statement
+Design a closed cylindrical can with a fixed interior volume of $1000\text{ cm}^3$ ($1\text{ liter}$) such that the surface area (amount of aluminum used) is minimized. Find the optimal radius $r$ and height $h$.
+
+#### 1. Primary & Secondary Equations
+* **Primary (Surface Area to Minimize):**
+  $$S = 2\pi r^2 + 2\pi r h \quad (\text{2 circular lids } + \text{ rolled rectangular body})$$
+* **Secondary (Constraint Volume):**
+  $$V = \pi r^2 h = 1000 \implies h = \frac{1000}{\pi r^2}$$
+
+#### 2. Variable Reduction
+Substitute $h$ into the Surface Area function:
+$$S(r) = 2\pi r^2 + 2\pi r \left(\frac{1000}{\pi r^2}\right) = 2\pi r^2 + \frac{2000}{r} = 2\pi r^2 + 2000r^{-1}$$
+
+#### 3. Domain
+* $r > 0$ (Open interval $(0, \infty)$).
+
+#### 4. Derivative Analysis & Critical Numbers
+$$S'(r) = \frac{d}{dr}[2\pi r^2 + 2000r^{-1}] = 4\pi r - \frac{2000}{r^2}$$
+Set $S'(r) = 0$:
+$$4\pi r = \frac{2000}{r^2} \implies 4\pi r^3 = 2000 \implies r^3 = \frac{500}{\pi}$$
+$$r = \sqrt[3]{\frac{500}{\pi}} \approx 5.42\text{ cm}$$
+
+#### 5. Height Calculation & Geometric Property
+Substitute $r = \sqrt[3]{\frac{500}{\pi}}$ back into constraint $h = \frac{1000}{\pi r^2}$:
+$$h = \frac{1000}{\pi \left(\frac{500}{\pi}\right)^{2/3}} = \frac{2 \cdot 500}{\pi^{1/3} \cdot 500^{2/3}} = 2 \cdot \left(\frac{500}{\pi}\right)^{1/3} = 2r$$
+$$h = 2(5.42) = 10.84\text{ cm}$$
+*(Key Theorem: Surface area of a closed cylinder with fixed volume is minimized when its height equals its diameter, $h = 2r$).*
+
+#### 6. Second Derivative Test Justification
+$$S''(r) = \frac{d}{dr}\left[4\pi r - 2000r^{-2}\right] = 4\pi + \frac{4000}{r^3}$$
+At $r = 5.42\text{ cm}$:
+$$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up (Guarantees Absolute Minimum)}}$$
+
+#### Final Dimensions
+* **Optimal Radius:** $\mathbf{r = \sqrt[3]{\frac{500}{\pi}} \approx 5.42\text{ cm}}$
+* **Optimal Height:** $\mathbf{h = 2\sqrt[3]{\frac{500}{\pi}} \approx 10.84\text{ cm}}$
+* **Minimum Surface Area:** $S(5.42) = 2\pi(5.42)^2 + \frac{2000}{5.42} \approx 553.58\text{ cm}^2$
