@@ -6103,7 +6103,7 @@ $$f\left(\frac{1}{2}\right) = \frac{1}{\frac{1}{4} - \frac{1}{2}} = \frac{1}{\fr
 #### Conclusion
 * **Absolute Maximum**: $-4$, occurring at $x = \frac{1}{2}$.
 * **Absolute Minimum**: Does not exist (because the function decreases toward $-\infty$ near the boundaries $0$ and $1$).
-# Above Added To Anki Deck
+
 ## 2026-10-14 - Calculus 1 Lecture 3.2: A BRIEF Discussion of Rolle's Theorem and Mean-Value Theorem. :
 https://www.youtube.com/watch?v=qW89xdGfSzw&list=PLF797E961509B4EB5&index=19
 ### Rolle’s Theorem and the Mean-Value Theorem (MVT)
@@ -6145,6 +6145,7 @@ When homework requires you to verify or find the value of $c$ for these theorems
   3. Set your derivative **equal to that secant slope** ($f'(x) = \text{slope}$) rather than zero.
   4. Solve for $x$ (or $c$).
   5. Verify that the resulting value falls within the interval $(a, b)$.
+# Above Added To Anki Deck
 ## 2026-10-15 - Calculus 1 Lecture 3.3: The First Derivative Test for Increasing and Decreasing :
 https://www.youtube.com/watch?v=nQ6tOORDQ3I&list=PLF797E961509B4EB5&index=19
 ### The First Derivative Test for Increasing and Decreasing
