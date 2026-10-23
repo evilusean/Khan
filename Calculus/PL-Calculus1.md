@@ -5726,7 +5726,7 @@ $$\frac{d\theta}{dt} = \frac{9}{125}\text{ rad/s}$$
 
 * **Degree conversion** (multiplying by $\frac{180^\circ}{\pi}$):
   $$\frac{d\theta}{dt} = 0.072 \cdot \left(\frac{180}{\pi}\right) \approx 4.13^\circ/\text{s}$$
-# Above Added To Anki Deck
+
 ## 2026-10-11 - Calculus 1 Lecture 3.1: Increasing/Decreasing and Concavity of Functions :
 https://www.youtube.com/watch?v=Mx39JbbzEAo&list=PLF797E961509B4EB5&index=18
 ### Increasing/Decreasing and Concavity of Functions
@@ -6103,6 +6103,7 @@ $$f\left(\frac{1}{2}\right) = \frac{1}{\frac{1}{4} - \frac{1}{2}} = \frac{1}{\fr
 #### Conclusion
 * **Absolute Maximum**: $-4$, occurring at $x = \frac{1}{2}$.
 * **Absolute Minimum**: Does not exist (because the function decreases toward $-\infty$ near the boundaries $0$ and $1$).
+# Above Added To Anki Deck
 ## 2026-10-14 - Calculus 1 Lecture 3.2: A BRIEF Discussion of Rolle's Theorem and Mean-Value Theorem. :
 https://www.youtube.com/watch?v=qW89xdGfSzw&list=PLF797E961509B4EB5&index=19
 ### Rolle’s Theorem and the Mean-Value Theorem (MVT)
