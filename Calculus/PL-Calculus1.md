@@ -6914,7 +6914,7 @@ $$= \frac{0}{\sqrt{1 + 0} + 1} = \frac{0}{1 + 1} = \frac{0}{2} = 0$$
 ---
 #### Final Result
 $$\lim_{x \to +\infty} \left(\sqrt{x^4 + 2} - x^2\right) = 0$$
-# Above Added To Anki Deck
+
 ## 2026-10-20 - Calculus 1 Lecture 3.6: How to Sketch Graphs of Functions :
 https://www.youtube.com/watch?v=8u6woY05aL0&list=PLF797E961509B4EB5&index=22
 ### Summary of Curve Sketching ($f(x) \to \text{Graph}$)
@@ -7194,6 +7194,7 @@ f''(x)  f''(-5)  (+)    ||          f''(0)  (-)                ||    f''(5)  (+)
 * **Left Branch ($x < -4$):** Enters along the horizontal asymptote $y = 2$ from the left, increasing and curving upward (concave up) toward $+\infty$ as it approaches the vertical asymptote $x = -4$.
 * **Middle Branch ($-4 < x < 4$):** Enters from $-\infty$ along the vertical asymptote $x = -4$, increasing and curving downward (concave down). Passes through the $x$-intercept $(-2, 0)$ up to the relative maximum peak at $\left(0, \frac{1}{2}\right)$, then turns downward (concave down) through $x$-intercept $(2, 0)$ toward $-\infty$ along the vertical asymptote $x = 4$.
 * **Right Branch ($x > 4$):** Enters from $+\infty$ along the vertical asymptote $x = 4$, decreasing and curving upward (concave up) to level off toward the horizontal asymptote $y = 2$ as $x \to \infty$.
+# Above Added To Anki Deck
 ## 2026-10-22 - Calculus 1 Lecture 3.7: Optimization; Max/Min Application Problems :
 https://www.youtube.com/watch?v=SWZcq_biZLw&list=PLF797E961509B4EB5&index=24
 ### Optimization; Max/Min Application Problems
