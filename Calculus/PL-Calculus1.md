@@ -7190,10 +7190,8 @@ f''(x)  f''(-5)  (+)    ||          f''(0)  (-)                ||    f''(5)  (+)
 ## 2026-10-22 - Calculus 1 Lecture 3.7: Optimization; Max/Min Application Problems :
 https://www.youtube.com/watch?v=SWZcq_biZLw&list=PLF797E961509B4EB5&index=24
 ### Optimization; Max/Min Application Problems
-
 #### Core Concepts & Analytical Framework
 Optimization applies derivative analysis ($f'(x) = 0$ or undefined) to locate absolute extrema (maximum profit, volume, or area; minimum cost or material usage) in real-world scenarios.
-
 1. **Extreme Value Behavior by Interval Type:**
    * **Closed Finite Intervals $[a, b]$:** By the Extreme Value Theorem, continuous functions **guarantee** absolute maximums and minimums. These must occur at **critical numbers** inside $(a, b)$ or at **boundary end points** $a$ and $b$.
    * **Open / Infinite Intervals $(a, b)$ or $(-\infty, \infty)$:** Solutions are not guaranteed. Absolute extrema occur solely at **relative extrema** if they exist.
@@ -7210,12 +7208,9 @@ Optimization applies derivative analysis ($f'(x) = 0$ or undefined) to locate ab
        * **Second Derivative Test ($f''$):** If $f''(c) > 0$, the curve is concave up ($\mathbf{\text{Local Min}}$); if $f''(c) < 0$, the curve is concave down ($\mathbf{\text{Local Max}}$).
 
 ---
-
 ### Lecture Example 1: Maximizing Enclosed Area (Fencing Constraint)
-
 #### Problem Statement
 A farmer has $100\text{ ft}$ of fencing available to construct a rectangular enclosure. Determine the dimensions that maximize the enclosed area, and calculate the maximum area.
-
 #### 1. Variables & Primary Equation
 * Let $x = \text{length}$, $y = \text{width}$.
 * **Primary (Target Area):** $A = xy$
@@ -7233,7 +7228,6 @@ A farmer has $100\text{ ft}$ of fencing available to construct a rectangular enc
 $$A'(x) = \frac{d}{dx}[50x - x^2] = 50 - 2x$$
 Set $A'(x) = 0$:
 $$50 - 2x = 0 \implies 2x = 50 \implies x = 25\text{ ft}$$
-
 #### 5. Verification & Final Results
 * **Closed Interval Test:**
   * $A(0) = 50(0) - (0)^2 = 0\text{ ft}^2$ (Absolute Min)
@@ -7243,25 +7237,21 @@ $$50 - 2x = 0 \implies 2x = 50 \implies x = 25\text{ ft}$$
 * **Maximum Area:** $\mathbf{625\text{ ft}^2}$.
 
 ---
-
 ### Lecture Example 2: Maximizing Volume (Open-Top Box)
 
 #### Problem Statement
 An open-top box is constructed from a flat rectangular sheet of cardboard measuring $16\text{ in}$ by $30\text{ in}$ by cutting equal squares of side length $x$ from each corner and folding up the sides. Find the value of $x$ that maximizes the interior volume.
-
 #### 1. Dimensions & Primary Equation
 * $\text{Length} = 30 - 2x$
 * $\text{Width} = 16 - 2x$
 * $\text{Height} = x$
 * **Primary (Target Volume):**
   $$V(x) = x(30 - 2x)(16 - 2x) = x(480 - 92x + 4x^2) = 4x^3 - 92x^2 + 480x$$
-
 #### 2. Feasible Domain
 * All dimensions must be strictly positive:
   * $x \ge 0$
   * $16 - 2x \ge 0 \implies x \le 8$
 * Domain: $x \in [0, 8]$.
-
 #### 3. Derivative Analysis & Critical Numbers
 $$V'(x) = 12x^2 - 184x + 480$$
 Set $V'(x) = 0$ and factor out $4$:
@@ -7270,7 +7260,6 @@ Apply the Quadratic Formula ($a = 3, b = -46, c = 120$):
 $$x = \frac{-(-46) \pm \sqrt{(-46)^2 - 4(3)(120)}}{2(3)} = \frac{46 \pm \sqrt{2116 - 1440}}{6} = \frac{46 \pm \sqrt{676}}{6} = \frac{46 \pm 26}{6}$$
 * $x_1 = \frac{72}{6} = 12$
 * $x_2 = \frac{20}{6} = \frac{10}{3} = 3.33\text{ in}$
-
 #### 4. Domain Check & Extrema Verification
 * $x = 12$ falls **outside** the feasible domain $[0, 8]$ (it yields negative width).
 * Candidate Critical Value: $x = \frac{10}{3}\text{ in}$.
@@ -7282,19 +7271,15 @@ $$x = \frac{-(-46) \pm \sqrt{(-46)^2 - 4(3)(120)}}{2(3)} = \frac{46 \pm \sqrt{21
 * **Maximum Volume:** $\mathbf{\frac{19600}{27}\text{ in}^3 \approx 725.93\text{ in}^3}$.
 
 ---
-
 ### Lecture Example 3: Minimizing Cost (Offshore Pipeline Routing)
-
 #### Problem Statement
 An offshore oil rig is located $5\text{ km}$ out at sea from point $A$ on a straight coastline. An oil refinery is located at point $B$, which is $8\text{ km}$ down the coast from point $A$. Pipe laid underwater costs $\$1.00\text{ per km}$ (relative unit), while pipe laid on land costs $\$0.50\text{ per km}$. Determine where the pipeline should reach the shore at point $P$ (located $x\text{ km}$ from $A$ toward $B$) to minimize total installation cost.
-
 #### 1. Geometry & Primary Equation
 * Let $x =$ distance from $A$ to coastal landing point $P$.
 * Distance from $P$ to refinery $B = 8 - x$.
 * Distance from oil rig to landing point $P$ (Pythagorean Theorem): $\sqrt{x^2 + 5^2} = \sqrt{x^2 + 25}$.
 * **Primary (Total Cost Function $C(x)$):**
   $$C(x) = 1 \cdot \sqrt{x^2 + 25} + 0.5 \cdot (8 - x) = (x^2 + 25)^{1/2} + 4 - \frac{1}{2}x$$
-
 #### 2. Feasible Domain
 * $x$ must lie between point $A$ ($x = 0$) and point $B$ ($x = 8$).
 * Domain: $x \in [0, 8]$.
@@ -7318,7 +7303,6 @@ $$x = +\frac{5}{\sqrt{3}} = \frac{5\sqrt{3}}{3} \approx 2.89\text{ km}$$
 * **Minimum Total Cost:** $\mathbf{\$8.33}$ (relative cost units).
 
 ---
-
 ### Lecture Example 4: Minimizing Material Surface Area (Cylindrical Can)
 
 #### Problem Statement
@@ -7348,7 +7332,6 @@ Substitute $r = \sqrt[3]{\frac{500}{\pi}}$ back into constraint $h = \frac{1000}
 $$h = \frac{1000}{\pi \left(\frac{500}{\pi}\right)^{2/3}} = \frac{2 \cdot 500}{\pi^{1/3} \cdot 500^{2/3}} = 2 \cdot \left(\frac{500}{\pi}\right)^{1/3} = 2r$$
 $$h = 2(5.42) = 10.84\text{ cm}$$
 *(Key Theorem: Surface area of a closed cylinder with fixed volume is minimized when its height equals its diameter, $h = 2r$).*
-
 #### 6. Second Derivative Test Justification
 $$S''(r) = \frac{d}{dr}\left[4\pi r - 2000r^{-2}\right] = 4\pi + \frac{4000}{r^3}$$
 At $r = 5.42\text{ cm}$:
@@ -7358,3 +7341,4 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
 * **Optimal Radius:** $\mathbf{r = \sqrt[3]{\frac{500}{\pi}} \approx 5.42\text{ cm}}$
 * **Optimal Height:** $\mathbf{h = 2\sqrt[3]{\frac{500}{\pi}} \approx 10.84\text{ cm}}$
 * **Minimum Surface Area:** $S(5.42) = 2\pi(5.42)^2 + \frac{2000}{5.42} \approx 553.58\text{ cm}^2$
+
