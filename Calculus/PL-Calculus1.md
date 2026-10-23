@@ -5055,7 +5055,7 @@ Find the derivative $\frac{dy}{dx}$ using the Product Rule and Chain Rule.
 4. **Rearrange terms and factor out $x$**:
    $$= 2x\sin(3x) + 3x^2\cos(3x)$$
    $$= x\left(2\sin(3x) + 3x\cos(3x)\right)$$
-# Above Added To Anki Deck
+
 ## 2026-10-06 - Calculus 1 Lecture 2.7: Implicit Differentiation :
 https://www.youtube.com/watch?v=RUS4mKo9tBk&list=PLF797E961509B4EB5&index=15
 ### Lecture Notes: Calculus 1 – Lecture 2.7: Implicit Differentiation (Professor Leonard)
@@ -5375,6 +5375,7 @@ $$y - 1 = 3(x - 2)$$
 $$y - 1 = 3x - 6$$
 
 $$y = 3x - 5$$
+# Above Added To Anki Deck
 ## 2026-10-07 - Calculus 1 Lecture 2.8: Related Rates :
 https://www.youtube.com/watch?v=43Qt6wc44To&list=PLF797E961509B4EB5&index=18
 ### Lecture Notes: Calculus 1 – Lecture 2.8: Related Rates (Professor Leonard)
