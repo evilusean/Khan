@@ -6145,7 +6145,7 @@ When homework requires you to verify or find the value of $c$ for these theorems
   3. Set your derivative **equal to that secant slope** ($f'(x) = \text{slope}$) rather than zero.
   4. Solve for $x$ (or $c$).
   5. Verify that the resulting value falls within the interval $(a, b)$.
-# Above Added To Anki Deck
+
 ## 2026-10-15 - Calculus 1 Lecture 3.3: The First Derivative Test for Increasing and Decreasing :
 https://www.youtube.com/watch?v=nQ6tOORDQ3I&list=PLF797E961509B4EB5&index=19
 ### The First Derivative Test for Increasing and Decreasing
@@ -6323,6 +6323,7 @@ Choose a test value in each interval and plug it into $f'(x)$:
 #### Step 6: Summary of Extrema
 * At $x = 0$, the slope changes from **$(+)$ to $(-)$**, forming a peak (**Relative Maximum**).
 * At $x = 2$, the slope changes from **$(-)$ to $(+)$**, forming a valley (**Relative Minimum**).
+# Above Added To Anki Deck
 ## 2026-10-16 - Calculus 1 Lecture 3.4: The Second Derivative Test for Concavity of Functions :
 https://www.youtube.com/watch?v=29GbRaQxtzY&list=PLF797E961509B4EB5&index=21
 ### The Second Derivative Test for Concavity of Functions
