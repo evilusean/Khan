@@ -7380,7 +7380,6 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   - At $x = 25$: $A = 25(50 - 25) = 625\text{ ft}^2$
 - **Conclusion:** The maximum area is $625\text{ ft}^2$ when $x = 25\text{ ft}$ and $y = 25\text{ ft}$.
 ### Maximize Volume of an Open Box Constructed from a Rectangular Sheet
-
 #### Step 1: Diagram & Variables
 - **Schematic Layout:** A $16 \times 30$ rectangular sheet with $x \times x$ square corners cut out, folded up into an open-top box.
 - **Variable Definitions:**
@@ -7388,14 +7387,12 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   - $30 - 2x$ = base length of the box
   - $16 - 2x$ = base width of the box
   - $V$ = volume of the open-top box
-
 #### Step 2: Primary & Secondary Equations
 - **Primary Equation (Volume):**
   $$V = \text{height} \cdot \text{length} \cdot \text{width}$$
   $$V = x(30 - 2x)(16 - 2x)$$
 - **Secondary Equation (Constraint / Domain Boundary):**
   $$0 \le x \le 8$$
-
 #### Step 3: Variable Reduction & Derivation
 - **Expand Primary Equation:**
   $$V(x) = x(480 - 92x + 4x^2)$$
@@ -7418,10 +7415,10 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   - $x = \frac{46 - 26}{6} = \frac{20}{6} = \frac{10}{3} \quad (\text{Valid critical value})$
 - **Explicit Physical Domain:**
   $$x \in [0, 8]$$
-
 #### Step 5: Verification & Conclusion
 - **Evaluate Endpoints and Critical Value:**
   - At $x = 0$: $V(0) = 0$
   - At $x = 8$: $V(8) = 8(30 - 16)(16 - 16) = 0$
   - At $x = \frac{10}{3}$: $V\left(\frac{10}{3}\right) = \frac{10}{3} \cdot \left(30 - \frac{20}{3}\right) \cdot \left(16 - \frac{20}{3}\right) = \frac{10}{3} \cdot \frac{70}{3} \cdot \frac{28}{3} = \frac{19600}{27} \approx 725.93 \quad (\mathbf{MAX})$
 - **Conclusion:** The maximum volume occurs when $x = \frac{10}{3}$.
+
