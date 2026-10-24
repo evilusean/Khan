@@ -7348,4 +7348,39 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
 * **Optimal Radius:** $\mathbf{r = \sqrt[3]{\frac{500}{\pi}} \approx 5.42\text{ cm}}$
 * **Optimal Height:** $\mathbf{h = 2\sqrt[3]{\frac{500}{\pi}} \approx 10.84\text{ cm}}$
 * **Minimum Surface Area:** $S(5.42) = 2\pi(5.42)^2 + \frac{2000}{5.42} \approx 553.58\text{ cm}^2$
+### Maximize Area of a Rectangular Region with 100 ft of Fencing
 
+#### Step 1: Diagram & Variables
+- **Schematic Layout:** A rectangle with two side lengths labeled $x$ and two side lengths labeled $y$.
+- **Variable Definitions:**
+  - $x$ = width of the rectangular region (in feet)
+  - $y$ = length of the rectangular region (in feet)
+
+#### Step 2: Primary & Secondary Equations
+- **Primary Equation (Target Area):**
+  $$A = x \cdot y$$
+- **Secondary Equation (Constraint):**
+  $$2x + 2y = 100$$
+
+#### Step 3: Variable Reduction & Derivation
+- **Solve Constraint for a Variable:**
+  $$2y = 100 - 2x \implies y = 50 - x$$
+- **Substitute into Primary Equation:**
+  $$A = x(50 - x) = 50x - x^2$$
+- **Compute First Derivative:**
+  $$\frac{dA}{dx} = 50 - 2x$$
+
+#### Step 4: Critical Value & Domain
+- **Find Critical Number:** Set $\frac{dA}{dx} = 0$:
+  $$50 - 2x = 0 \implies 2x = 50 \implies x = 25$$
+- **Find Corresponding Variable:**
+  $$y = 50 - 25 = 25$$
+- **Explicit Physical Domain:**
+  $$x \in [0, 50]$$
+
+#### Step 5: Verification & Conclusion
+- **Evaluate Endpoints and Critical Value:**
+  - At $x = 0$: $A = 0(50 - 0) = 0\text{ ft}^2$
+  - At $x = 50$: $A = 50(50 - 50) = 0\text{ ft}^2$
+  - At $x = 25$: $A = 25(50 - 25) = 625\text{ ft}^2$
+- **Conclusion:** The maximum area is $625\text{ ft}^2$ when $x = 25\text{ ft}$ and $y = 25\text{ ft}$.
