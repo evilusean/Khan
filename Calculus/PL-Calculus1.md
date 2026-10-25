@@ -7552,4 +7552,5 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   Since $S''(r) > 0$, the graph is concave up at this critical point, confirming a local minimum.
 - **Conclusion:** The total material used is minimized when the radius is $r = \sqrt[3]{\frac{500}{\pi}} \approx 5.42\text{ cm}$ and the height is $h \approx 10.84\text{ cm}$.
 ## 2026-10-25 - Calculus 1 Lecture 4.1: An Introduction to the Indefinite Integral (2 Hours 45 Mins) :
+https://www.youtube.com/watch?v=b2ZFpE_yrLg&list=PLF797E961509B4EB5&index=25
 
