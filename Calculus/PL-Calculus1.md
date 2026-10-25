@@ -7421,4 +7421,18 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   - At $x = 8$: $V(8) = 8(30 - 16)(16 - 16) = 0$
   - At $x = \frac{10}{3}$: $V\left(\frac{10}{3}\right) = \frac{10}{3} \cdot \left(30 - \frac{20}{3}\right) \cdot \left(16 - \frac{20}{3}\right) = \frac{10}{3} \cdot \frac{70}{3} \cdot \frac{28}{3} = \frac{19600}{27} \approx 725.93 \quad (\mathbf{MAX})$
 - **Conclusion:** The maximum volume occurs when $x = \frac{10}{3}$.
+### Minimize Cost of Laying Pipe from Sea to Land
 
+#### Step 1: Diagram & Variables
+- **Text Diagram:**
+  ```text
+  [OIL RIG]
+      |  \
+      |   \  Diagonal pipe underwater
+  5km |    \ = √(x² + 25)
+      |     \
+      |      \
+      A------ P ----------------- B [OIL STORAGE / STOP]
+      |<-- x ->|<----- 8 - x ---->|
+      |<----------- 8 km -------->|
+```
