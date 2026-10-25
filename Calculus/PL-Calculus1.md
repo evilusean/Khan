@@ -7483,3 +7483,76 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   - **At $x = 8$ (Direct diagonal pipe underwater straight to B):**
     $$C(8) = \sqrt{8^2 + 25} + 4 - \frac{1}{2}(8) = \sqrt{64 + 25} + 4 - 4 = \sqrt{89} \approx \$9.43$$
 - **Conclusion:** Point $P$ should be located $x = \frac{5\sqrt{3}}{3}\text{ km}$ (approximately $2.89\text{ km}$) from Point $A$ to minimize total cost.
+### Minimize Material (Surface Area) for a $1000\text{ cm}^3$ Cola Can
+
+#### Step 1: Diagram & Variables
+- **Visual Schematic:**
+  
+         Top Circle (Radius r)
+               (   )
+               /   \
+              /  r  \
+             +-------+
+             |       |
+             |       |  Height
+             | COLA  |    h
+             |       |
+             +-------+
+              \     /
+               (   )
+        Bottom Circle (Radius r)
+
+      Net View:
+          ( r )   <-- Top Circular Lid
+        +-------+
+        | 2πr   | h <-- Unrolled Rectangular Body
+        +-------+
+          ( r )   <-- Bottom Circular Base
+
+- **Problem Context:**
+  A cola can needs to hold a fixed volume of $1000\text{ cm}^3$. Find the dimensions (radius $r$ and height $h$) of the cylindrical can that will minimize the total surface area of the material needed to construct it.
+- **Variable Definitions:**
+  - $r$ = radius of the circular top and bottom (in cm)
+  - $h$ = height of the cylinder (in cm)
+  - $S$ = total surface area of the can (in $\text{cm}^2$)
+  - $V$ = volume of the can ($1000\text{ cm}^3$)
+
+#### Step 2: Primary & Secondary Equations
+- **Primary Equation (Total Surface Area to Minimize):**
+  $$S = 2 \cdot \text{Top Area} + \text{Body Area}$$
+  $$S = 2\pi r^2 + 2\pi r h$$
+- **Secondary Equation (Volume Constraint):**
+  $$V = \pi r^2 h$$
+  $$1000 = \pi r^2 h$$
+
+#### Step 3: Variable Reduction & Derivation
+- **Solve Constraint for $h$:**
+  $$h = \frac{1000}{\pi r^2}$$
+- **Substitute into Primary Equation:**
+  $$S(r) = 2\pi r^2 + 2\pi r \left(\frac{1000}{\pi r^2}\right)$$
+  $$S(r) = 2\pi r^2 + \frac{2000}{r}$$
+  $$S(r) = 2\pi r^2 + 2000r^{-1}$$
+- **Compute First Derivative:**
+  $$S'(r) = 4\pi r - 2000r^{-2}$$
+  $$S'(r) = 4\pi r - \frac{2000}{r^2}$$
+
+#### Step 4: Critical Value & Domain
+- **Set Derivative Equal to Zero:**
+  $$4\pi r - \frac{2000}{r^2} = 0$$
+  $$4\pi r = \frac{2000}{r^2}$$
+  $$4\pi r^3 = 2000$$
+  $$r^3 = \frac{2000}{4\pi} = \frac{500}{\pi}$$
+  $$r = \sqrt[3]{\frac{500}{\pi}} \approx 5.42\text{ cm}$$
+- **Find Corresponding Height $h$:**
+  $$h = \frac{1000}{\pi (5.42)^2} \approx 10.84\text{ cm}$$
+  *(Note that $h = 2r$, so height equals diameter for optimal surface area).*
+- **Explicit Physical Domain:**
+  $$r \in (0, \infty)$$
+
+#### Step 5: Verification & Conclusion
+- **Second Derivative Test for Verification:**
+  $$S''(r) = \frac{d}{dr}\left[4\pi r - 2000r^{-2}\right] = 4\pi + \frac{4000}{r^3}$$
+  At $r = \sqrt[3]{\frac{500}{\pi}} \approx 5.42$:
+  $$S''(5.42) = 4\pi + \frac{4000}{\frac{500}{\pi}} = 4\pi + 8\pi = 12\pi > 0$$
+  Since $S''(r) > 0$, the graph is concave up at this critical point, confirming a local minimum.
+- **Conclusion:** The total material used is minimized when the radius is $r = \sqrt[3]{\frac{500}{\pi}} \approx 5.42\text{ cm}$ and the height is $h \approx 10.84\text{ cm}$.
