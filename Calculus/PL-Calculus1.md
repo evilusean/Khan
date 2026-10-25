@@ -7422,4 +7422,3 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   - At $x = \frac{10}{3}$: $V\left(\frac{10}{3}\right) = \frac{10}{3} \cdot \left(30 - \frac{20}{3}\right) \cdot \left(16 - \frac{20}{3}\right) = \frac{10}{3} \cdot \frac{70}{3} \cdot \frac{28}{3} = \frac{19600}{27} \approx 725.93 \quad (\mathbf{MAX})$
 - **Conclusion:** The maximum volume occurs when $x = \frac{10}{3}$.
 
-# Leftoff @ 37:30
