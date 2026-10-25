@@ -7424,15 +7424,67 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
 ### Minimize Cost of Laying Pipe from Sea to Land
 
 #### Step 1: Diagram & Variables
-- **Text Diagram:**
-  ```text
-  [OIL RIG]
-      |  \
-      |   \  Diagonal pipe underwater
-  5km |    \ = √(x² + 25)
-      |     \
-      |      \
-      A------ P ----------------- B [OIL STORAGE / STOP]
-      |<-- x ->|<----- 8 - x ---->|
-      |<----------- 8 km -------->|
-```
+- **Visual Schematic:**
+  
+       [OIL RIG]
+           |  \
+           |   \  Diagonal pipe underwater
+       5km |    \ = √(x² + 25)
+           |     \
+           |      \
+           A------ P ----------------- B [OIL STORAGE / STOP]
+           |<-- x ->|<----- 8 - x ---->|
+           |<----------- 8 km -------->|
+
+- **Problem Context:**
+  An offshore oil rig is located $5\text{ km}$ at sea directly across from point $A$ on the shoreline. An oil storage facility (point $B$) is located along the shoreline $8\text{ km}$ down from point $A$. Pipe is to be laid underwater from the oil rig to a point $P$ on the shoreline between $A$ and $B$, and then along the shoreline from $P$ to $B$. The cost of laying pipe underwater at sea is $\$1$ per kilometer, while the cost of laying pipe on land is $\$ \frac{1}{2}$ per kilometer.
+- **Variable Definitions:**
+  - $x$ = distance from point $A$ to point $P$ along the shoreline (in km)
+  - $8 - x$ = distance from point $P$ to point $B$ on land (in km)
+  - $\sqrt{x^2 + 25}$ = diagonal distance from the oil rig to point $P$ underwater (in km)
+  - $C$ = total cost of laying the pipeline
+
+#### Step 2: Primary & Secondary Equations
+- **Primary Equation (Total Cost):**
+  $$C = (\text{Cost of Pipe at Sea}) + (\text{Cost of Pipe on Land})$$
+  $$C = (\$1) \cdot \sqrt{x^2 + 25} + \left(\$\frac{1}{2}\right) \cdot (8 - x)$$
+  $$C = \sqrt{x^2 + 25} + 4 - \frac{1}{2}x$$
+- **Secondary Equation (Physical Constraint / Domain):**
+  $$0 \le x \le 8$$
+
+#### Step 3: Variable Reduction & Derivation
+- **Rewrite Function for Differentiation:**
+  $$C(x) = (x^2 + 25)^{\frac{1}{2}} + 4 - \frac{1}{2}x$$
+- **Compute First Derivative:**
+  $$C'(x) = \frac{1}{2}(x^2 + 25)^{-\frac{1}{2}} \cdot \frac{d}{dx}[x^2 + 25] - \frac{1}{2}$$
+  $$C'(x) = \frac{1}{2}(x^2 + 25)^{-\frac{1}{2}} \cdot 2x - \frac{1}{2}$$
+  $$C'(x) = \frac{2x}{2\sqrt{x^2 + 25}} - \frac{1}{2}$$
+  $$C'(x) = \frac{x}{\sqrt{x^2 + 25}} - \frac{1}{2}$$
+
+#### Step 4: Critical Value & Domain
+- **Set Derivative Equal to Zero:**
+  $$\frac{x}{\sqrt{x^2 + 25}} - \frac{1}{2} = 0 \implies \frac{x}{\sqrt{x^2 + 25}} = \frac{1}{2}$$
+- **Solve for $x$:**
+  $$2x = \sqrt{x^2 + 25}$$
+  $$(2x)^2 = \left(\sqrt{x^2 + 25}\right)^2$$
+  $$4x^2 = x^2 + 25$$
+  $$3x^2 = 25$$
+  $$x^2 = \frac{25}{3}$$
+  $$x = \pm \sqrt{\frac{25}{3}} = \pm \frac{5}{\sqrt{3}} = \pm \frac{5\sqrt{3}}{3}$$
+- **Select Valid Critical Number:**
+  Since $x$ represents distance on the shoreline $[0, 8]$, reject the negative value:
+  $$x = \frac{5\sqrt{3}}{3} \approx 2.89\text{ km}$$
+- **Explicit Physical Domain:**
+  $$x \in [0, 8]$$
+
+#### Step 5: Verification & Conclusion
+- **Evaluate Endpoints and Critical Value:**
+  - **At $x = 0$ (Pipe straight to shore at A, then land to B):**
+    $$C(0) = \sqrt{0^2 + 25} + 4 - \frac{1}{2}(0) = 5 + 4 = \$9$$
+  - **At $x = \frac{5\sqrt{3}}{3} \approx 2.89$ (Critical Value):**
+    $$C\left(\frac{5\sqrt{3}}{3}\right) = \sqrt{\left(\frac{5\sqrt{3}}{3}\right)^2 + 25} + 4 - \frac{1}{2}\left(\frac{5\sqrt{3}}{3}\right)$$
+    $$C\left(\frac{5\sqrt{3}}{3}\right) = \sqrt{\frac{25}{3} + 25} + 4 - \frac{5\sqrt{3}}{6} = \sqrt{\frac{100}{3}} + 4 - \frac{5\sqrt{3}}{6}$$
+    $$C\left(\frac{5\sqrt{3}}{3}\right) = \frac{10}{\sqrt{3}} + 4 - \frac{5\sqrt{3}}{6} = \frac{10\sqrt{3}}{3} + 4 - \frac{5\sqrt{3}}{6} = \frac{5\sqrt{3}}{2} + 4 \approx 4.33 + 4 = \$8.33$$
+  - **At $x = 8$ (Direct diagonal pipe underwater straight to B):**
+    $$C(8) = \sqrt{8^2 + 25} + 4 - \frac{1}{2}(8) = \sqrt{64 + 25} + 4 - 4 = \sqrt{89} \approx \$9.43$$
+- **Conclusion:** Point $P$ should be located $x = \frac{5\sqrt{3}}{3}\text{ km}$ (approximately $2.89\text{ km}$) from Point $A$ to minimize total cost.
