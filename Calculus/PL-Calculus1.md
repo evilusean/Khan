@@ -7422,7 +7422,6 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   - At $x = \frac{10}{3}$: $V\left(\frac{10}{3}\right) = \frac{10}{3} \cdot \left(30 - \frac{20}{3}\right) \cdot \left(16 - \frac{20}{3}\right) = \frac{10}{3} \cdot \frac{70}{3} \cdot \frac{28}{3} = \frac{19600}{27} \approx 725.93 \quad (\mathbf{MAX})$
 - **Conclusion:** The maximum volume occurs when $x = \frac{10}{3}$.
 ### Minimize Cost of Laying Pipe from Sea to Land
-
 #### Step 1: Diagram & Variables
 - **Visual Schematic:**
   
@@ -7435,7 +7434,6 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
            A------ P ----------------- B [OIL STORAGE / STOP]
            |<-- x ->|<----- 8 - x ---->|
            |<----------- 8 km -------->|
-
 - **Problem Context:**
   An offshore oil rig is located $5\text{ km}$ at sea directly across from point $A$ on the shoreline. An oil storage facility (point $B$) is located along the shoreline $8\text{ km}$ down from point $A$. Pipe is to be laid underwater from the oil rig to a point $P$ on the shoreline between $A$ and $B$, and then along the shoreline from $P$ to $B$. The cost of laying pipe underwater at sea is $\$1$ per kilometer, while the cost of laying pipe on land is $\$ \frac{1}{2}$ per kilometer.
 - **Variable Definitions:**
@@ -7443,7 +7441,6 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   - $8 - x$ = distance from point $P$ to point $B$ on land (in km)
   - $\sqrt{x^2 + 25}$ = diagonal distance from the oil rig to point $P$ underwater (in km)
   - $C$ = total cost of laying the pipeline
-
 #### Step 2: Primary & Secondary Equations
 - **Primary Equation (Total Cost):**
   $$C = (\text{Cost of Pipe at Sea}) + (\text{Cost of Pipe on Land})$$
@@ -7451,7 +7448,6 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   $$C = \sqrt{x^2 + 25} + 4 - \frac{1}{2}x$$
 - **Secondary Equation (Physical Constraint / Domain):**
   $$0 \le x \le 8$$
-
 #### Step 3: Variable Reduction & Derivation
 - **Rewrite Function for Differentiation:**
   $$C(x) = (x^2 + 25)^{\frac{1}{2}} + 4 - \frac{1}{2}x$$
@@ -7460,7 +7456,6 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
   $$C'(x) = \frac{1}{2}(x^2 + 25)^{-\frac{1}{2}} \cdot 2x - \frac{1}{2}$$
   $$C'(x) = \frac{2x}{2\sqrt{x^2 + 25}} - \frac{1}{2}$$
   $$C'(x) = \frac{x}{\sqrt{x^2 + 25}} - \frac{1}{2}$$
-
 #### Step 4: Critical Value & Domain
 - **Set Derivative Equal to Zero:**
   $$\frac{x}{\sqrt{x^2 + 25}} - \frac{1}{2} = 0 \implies \frac{x}{\sqrt{x^2 + 25}} = \frac{1}{2}$$
