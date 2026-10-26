@@ -7554,7 +7554,6 @@ $$S''(5.42) = 4\pi + \frac{4000}{(5.42)^3} > 0 \implies \mathbf{\text{Concave Up
 ## 2026-10-25 - Calculus 1 Lecture 4.1: An Introduction to the Indefinite Integral (2 Hours 45 Mins) :
 https://www.youtube.com/watch?v=b2ZFpE_yrLg&list=PLF797E961509B4EB5&index=25
 ### Calculus 1 Lecture 4.1: An Introduction to the Indefinite Integral
-
 #### Lecture Overview & Core Concepts
 - **The Two Fundamental Problems of Calculus:**
   1. **Differential Calculus:** Finding the slope of a tangent line / rate of change at a specific point ($\frac{dy}{dx}$).
@@ -7563,7 +7562,6 @@ https://www.youtube.com/watch?v=b2ZFpE_yrLg&list=PLF797E961509B4EB5&index=25
   - Area approximation via the **Rectangular Method** (Riemann sums using left endpoints, right endpoints, or midpoints).
   - As the number of subintervals $n \to \infty$ (and subinterval width $\Delta x \to 0$), the rectangular sum approaches the exact continuous area under the curve.
   - The fundamental relationship linking area to antiderivatives: $A'(x) = f(x)$. To find the area function $A(x)$, we must "undo" differentiation by finding the antiderivative of $f(x)$.
-
 #### Key Antiderivative Rules & Formulas
 - **Definition of an Indefinite Integral:**
   $$\int f(x) \, dx = F(x) + C \quad \text{where } F'(x) = f(x)$$
@@ -7571,7 +7569,6 @@ https://www.youtube.com/watch?v=b2ZFpE_yrLg&list=PLF797E961509B4EB5&index=25
   - $f(x)$: Integrand
   - $dx$: Differential indicating the variable of integration
   - $C$: Arbitrary constant of integration (representing a family of curves)
-
 - **Standard Integration Formulas:**
   - **Constant Rule:**
     $$\int k \, dx = kx + C$$
@@ -7588,7 +7585,6 @@ https://www.youtube.com/watch?v=b2ZFpE_yrLg&list=PLF797E961509B4EB5&index=25
     $$\int \csc^2 x \, dx = -\cot x + C$$
     $$\int \sec x \tan x \, dx = \sec x + C$$
     $$\int \csc x \cot x \, dx = -\csc x + C$$
-
 #### Step-by-Step Algebraic & Trigonometric Worked Examples
 
 ##### Example 1: Basic Power Rule
@@ -7601,7 +7597,6 @@ Evaluate $\int \left(\sqrt{x} - \frac{1}{x^2}\right) \, dx$:
    $$\int \left(x^{1/2} - x^{-2}\right) \, dx$$
 2. Apply the power rule:
    $$=\frac{x^{3/2}}{3/2} - \frac{x^{-1}}{-1} + C = \frac{2}{3}x^{3/2} + \frac{1}{x} + C$$
-
 ##### Example 3: Algebraic Rewrite (Quotient Expansion)
 Evaluate $\int \frac{x^3 - 2\sqrt{x}}{x} \, dx$:
 1. Split into individual terms before integrating:
@@ -7617,24 +7612,20 @@ Given $f'(x) = 4x^3 - 6x$ and $f(1) = 5$, find $f(x)$:
    $$5 = (1)^4 - 3(1)^2 + C \implies 5 = 1 - 3 + C \implies C = 7$$
 3. State particular solution:
    $$f(x) = x^4 - 3x^2 + 7$$
-
 #### Rectilinear Motion Applications (Position, Velocity, Acceleration)
 - **Derivative Chain:** $\text{Position } s(t) \xrightarrow{\frac{d}{dt}} \text{Velocity } v(t) \xrightarrow{\frac{d}{dt}} \text{Acceleration } a(t)$
 - **Integration Chain:** $a(t) \xrightarrow{\int dt} v(t) + C_1 \xrightarrow{\int dt} s(t) + C_2$
 
 ##### Projectile Motion Example
 A projectile is launched vertically upward from an initial height of $16\text{ ft}$ with an initial velocity of $128\text{ ft/s}$. Assuming constant acceleration due to gravity $a(t) = -32\text{ ft/s}^2$:
-
 1. **Velocity Function $v(t)$:**
    $$v(t) = \int -32 \, dt = -32t + C_1$$
    Using initial velocity $v(0) = 128$:
    $$v(t) = -32t + 128$$
-
 2. **Position Function $s(t)$:**
    $$s(t) = \int (-32t + 128) \, dt = -16t^2 + 128t + C_2$$
    Using initial height $s(0) = 16$:
    $$s(t) = -16t^2 + 128t + 16$$
-
 3. **Maximum Height Calculation:**
    - Set velocity $v(t) = 0$ to find time at maximum height:
      $$-32t + 128 = 0 \implies t = 4\text{ seconds}$$
