@@ -7696,3 +7696,46 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
   To find the specific area accumulated under $f(x)$ from $x = a$ to $x = b$:
   $$\text{Area} = A(b) - A(a) = \int_{a}^{b} f(x) \, dx = [F(x)]_{a}^{b} = F(b) - F(a)$$
   *(This sets up the intuition for the Fundamental Theorem of Calculus).*
+### Find Area Function for f(x) = x + 1 on [-1, x]
+
+#### Step 1: Geometric Diagram & Problem Setup
+- **Visual Schematic:**
+  
+       y ^
+         |              / f(x) = x + 1
+         |             / |
+         |            /  |
+         |           /   | Height = x + 1
+         |          /    |
+         |         /     |
+  -------+--------+------+-------> x
+        -1        0      x
+         |<---- Base ---->|
+            x - (-1) = x + 1
+
+- **Problem Context:**
+  Find the accumulated area function $A(x)$ under the linear function $f(x) = x + 1$ starting from the lower limit $x = -1$ up to a variable upper limit $x$.
+
+#### Step 2: Formulating the Area Function via Geometry
+- **Geometric Shape:** 
+  The region bounded by the line $f(x) = x + 1$, the $x$-axis, and the interval $[-1, x]$ forms a right triangle.
+- **Base and Height Dimensions:**
+  - $\text{Base} = x - (-1) = x + 1$
+  - $\text{Height} = f(x) = x + 1$
+- **Area Formula for a Triangle:**
+  $$A(x) = \frac{1}{2} \cdot \text{base} \cdot \text{height}$$
+  $$A(x) = \frac{1}{2}(x + 1)(x + 1)$$
+
+#### Step 3: Expanding and Simplifying the Area Function
+- **Multiply Out Factors:**
+  $$A(x) = \frac{1}{2}(x^2 + 2x + 1)$$
+- **Distribute the Scalar:**
+  $$A(x) = \frac{x^2}{2} + x + \frac{1}{2}$$
+
+#### Step 4: Differentiating the Area Function
+- **Compute the First Derivative $A'(x)$:**
+  $$A'(x) = \frac{d}{dx}\left[\frac{1}{2}x^2 + x + \frac{1}{2}\right]$$
+  $$A'(x) = \frac{1}{2}(2x) + 1 + 0 = x + 1$$
+- **Conclusion:**
+  $$A'(x) = f(x)$$
+  This demonstrates that the derivative of the area function with respect to $x$ recovers the original function $f(x)$, illustrating the core principle linking area accumulation to antidifferentiation.
