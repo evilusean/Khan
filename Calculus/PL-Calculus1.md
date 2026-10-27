@@ -7722,3 +7722,4 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
 - **Conclusion:**
   $$A'(x) = f(x)$$
   This demonstrates that the derivative of the area function with respect to $x$ recovers the original function $f(x)$, illustrating the core principle linking area accumulation to antidifferentiation.
+# Leftoff @ 26
