@@ -7632,14 +7632,11 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
    - Substitute $t = 4$ into position function $s(t)$:
      $$s(4) = -16(4)^2 + 128(4) + 16 = -16(16) + 512 + 16 = -256 + 512 + 16 = 272\text{ ft}$$
 ### 4.1 — Area Problem & The Rectangle Method
-
 #### Step 1: Conceptual Overview & Board Notes
 - **The Area Problem:** Finding the exact area under a continuous curve $y = f(x)$ bounded by the interval $[a, b]$ and the $x$-axis.
 - **Board Definition of Rectangle Method:** "Divide $[a, b]$ into '$n$' equal sub-sections & create a rectangle in each one."
 - **Limiting Principle for Accuracy:** "For a better approximation, make the space between each interval (the width of the rectangles) approach zero."
-
 #### Step 2: Visual Schematics
-
   Initial Area Problem Setup:
 
       y ^
@@ -7650,9 +7647,8 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
         |  /  |/////////|  \
         +-----+---------+----+---> x
         0     a         b
-
   Rectangle Method Subdivision (n rectangles over [a, b]):
-
+  
       y ^
         |     .--+---+---+--.
         |    /|  |   |   |  |\
@@ -7672,7 +7668,6 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
   - Left Endpoints: $x_i^* = x_{i-1}$
   - Right Endpoints: $x_i^* = x_i$
   - Midpoints: $x_i^* = \frac{x_{i-1} + x_i}{2}$
-
 #### Step 4: Summation & Limit Definition of Area
 - **Approximation via Finite Sum:**
   $$\text{Area} \approx \sum_{i=1}^{n} f(x_i^*) \Delta x = \Delta x \left[ f(x_1^*) + f(x_2^*) + \dots + f(x_n^*) \right]$$
