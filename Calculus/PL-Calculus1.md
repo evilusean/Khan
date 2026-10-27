@@ -7674,7 +7674,6 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
 - **Exact Area via Limit as Width Approaches Zero ($\Delta x \to 0 \iff n \to \infty$):**
   $$\text{Area} = \lim_{\Delta x \to 0} \sum_{i=1}^{n} f(x_i^*) \Delta x = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x = \int_{a}^{b} f(x) \, dx$$
 ### Antiderivative Method
-
 #### Step 1: Conceptual Overview & Board Notes
 - **Core Concept:**
   Connecting the rate of change of an area accumulating under a curve back to the original function itself.
@@ -7682,13 +7681,11 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
   "If $A(x)$ is the **Area** function for some $f(x)$, on $[a, b]$, then:
   $$A'(x) = f(x)$$
   $\longrightarrow$ This implies to find the area under $f(x)$ we must 'undo' $A'(x)$ to find $A(x)$."
-
 #### Step 2: Conceptual Explanation
 - **The Derivative of Area:**
   The derivative $A'(x)$ represents the rate at which area accumulates under the curve $f(x)$ as $x$ moves from left to right. That rate of growth at any point $x$ is given precisely by the height of the curve, $f(x)$.
 - **Reversing Differentiation:**
   Since the rate of change of the area function is the original function $f(x)$, finding the actual area function $A(x)$ requires reversing the process of differentiation—finding the **antiderivative** (or indefinite integral) of $f(x)$.
-
 #### Step 3: Mathematical Formulation & Connection to Integration
 - **Fundamental Identity:**
   $$\frac{d}{dx}[A(x)] = A'(x) = f(x)$$
