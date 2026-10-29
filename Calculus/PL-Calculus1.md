@@ -7722,15 +7722,13 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
 - **Conclusion:**
   $$A'(x) = f(x)$$
   This demonstrates that the derivative of the area function with respect to $x$ recovers the original function $f(x)$, illustrating the core principle linking area accumulation to antidifferentiation.
-### Find Area Under f(x) = x^2 on [0, 1]
-
+### Find Area Under $f(x) = x^2$ on [0, 1]
 #### Step 1: Conceptual Setup & Initial Idea
 - **Problem Statement:**
   Find the area under $f(x) = x^2$ on the interval $[0, 1]$.
 - **Core Principle:**
   Since $f(x) = A'(x)$, we need to find an area function $A(x)$ whose derivative is $x^2$:
   $$A'(x) = x^2$$
-
 #### Step 2: Finding the General Antiderivative Function
 - **Trial 1:**
   $$A(x) = x^3 \implies A'(x) = 3x^2 \quad (\text{Incorrect: off by factor of } 3)$$
@@ -7740,7 +7738,6 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
   $$A(x) = \frac{x^3}{3} + 7 \implies A'(x) = x^2 \quad (\text{Correct})$$
 - **General Form:**
   $$A(x) = \frac{x^3}{3} + C \implies A'(x) = x^2 \quad (\text{Correct})$$
-
 #### Step 3: Solving for the Constant C
 - **Interval Context:**
   Our interval is $[0, x]$. When $x = 0$, the interval becomes $[0, 0]$, which represents the area under a single point:
@@ -7757,3 +7754,4 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
   $$A(1) = \frac{1^3}{3} = \frac{1}{3}$$
 - **Conclusion:**
   The area under $f(x) = x^2$ on $[0, 1]$ is $\frac{1}{3}$.
+
