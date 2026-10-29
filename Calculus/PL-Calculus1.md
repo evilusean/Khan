@@ -7755,3 +7755,4 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
 - **Conclusion:**
   The area under $f(x) = x^2$ on $[0, 1]$ is $\frac{1}{3}$.
 
+# Leftoff @ 42
