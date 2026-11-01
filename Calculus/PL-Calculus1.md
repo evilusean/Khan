@@ -7822,7 +7822,6 @@ Finding the exact area function $A(x)$ under $f(x) = x^2$ on $[0, x]$:
   Since $\frac{d}{dx}[F(x)] = f(x)$, $F(x) = \frac{x^3}{3}$ is a valid antiderivative of $f(x) = x^2$.
 
 ### The Indefinite Integral Notation & The Necessity of "+ C"
-
 #### Step 1: Integral Notation & The Role of dx
 - **Anatomy of an Indefinite Integral:**
   $$\int f(x) \, dx = F(x) + C$$
@@ -7832,15 +7831,14 @@ Finding the exact area function $A(x)$ under $f(x) = x^2$ on $[0, x]$:
 - **Fundamental Inverse Property:**
   Differentiation and integration are inverse operations:
   $$\frac{d}{dx}\left[ \int f(x) \, dx \right] = f(x)$$
-
 #### Step 2: Why We Always Need "+ C" (The Constant of Integration)
 - **Derivative of a Constant is Zero:**
   When taking the derivative of any constant value, the result is always zero ($\frac{d}{dx}[C] = 0$). 
 - **The Family of Antiderivatives:**
   Consider multiple functions that differ only by a constant:
-  - $\frac{d}{dx}\left[\frac{x^3}{3}\right] = x^2$[cite: 11, 12]
+  - $\frac{d}{dx}\left[\frac{x^3}{3}\right] = x^2$
   - $\frac{d}{dx}\left[\frac{x^3}{3} + 5\right] = x^2$
   - $\frac{d}{dx}\left[\frac{x^3}{3} - 12\right] = x^2$
   Every single one of these functions shares the exact same derivative ($x^2$). Therefore, when going in reverse (integrating $x^2$), there are infinitely many valid antiderivatives.
 - **Accounting for All Possibilities:**
-  Omitting $+ C$ implies a single rigid function, ignoring the vertical shifts (the constant $C$) that vanish during differentiation[cite: 12]. Writing $+ C$ ensures the mathematical notation correctly represents the entire family of antiderivatives[cite: 12].
+  Omitting $+ C$ implies a single rigid function, ignoring the vertical shifts (the constant $C$) that vanish during differentiation. Writing $+ C$ ensures the mathematical notation correctly represents the entire family of antiderivatives
