@@ -7755,7 +7755,6 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
 - **Conclusion:**
   The area under $f(x) = x^2$ on $[0, 1]$ is $\frac{1}{3}$.
 ### 4.1 — The Antiderivative & The Antiderivative Method
-
 #### Step 1: Conceptual Foundation & Core Intuition
 - **Reversing Differentiation:** 
   In differential calculus, given a function $F(x)$, we find its derivative $f(x) = F'(x)$ to determine rates of change. Antidifferentiation reverses this process: given a rate function $f(x)$, we seek the original function $F(x)$ whose derivative is equal to $f(x)$.
@@ -7763,7 +7762,6 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
   If $A(x)$ represents the accumulating area under a continuous curve $f(x)$ on an interval $[a, b]$, the rate at which area accumulates at any point $x$ equals the height of the curve itself:
   $$A'(x) = f(x)$$
   To find the actual area function $A(x)$ under $f(x)$, we must "undo" differentiation by finding the antiderivative of $f(x)$.
-
 #### Step 2: Formal Definitions & Notation
 - **Definition of an Antiderivative:**
   A function $F(x)$ is called an **antiderivative** of $f(x)$ on an interval $I$ if:
@@ -7775,7 +7773,6 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
   - $dx$: Differential indicating $x$ is the variable of integration.
   - $F(x)$: Specific antiderivative such that $F'(x) = f(x)$.
   - $C$: Arbitrary constant of integration.
-
 #### Step 3: The Constant of Integration ($C$)
 - **Family of Curves:**
   Since the derivative of any constant is zero ($\frac{d}{dx}[C] = 0$), two functions that differ only by a constant have identical derivatives:
@@ -7783,7 +7780,6 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
   The indefinite integral $\int f(x) \, dx$ yields an entire **family of functions**, shifted vertically by $C$.
 - **Determining $C$ (Initial Value Problems):**
   A specific value for $C$ can be determined when given a boundary condition, initial condition, or specific coordinate point $(x_0, y_0)$.
-
 #### Step 4: Fundamental Antiderivative Rules
 - **Constant Rule:**
   $$\int k \, dx = kx + C$$
@@ -7797,7 +7793,6 @@ A projectile is launched vertically upward from an initial height of $16\text{ f
   $$\int \cos x \, dx = \sin x + C, \quad \int \sin x \, dx = -\cos x + C$$
   $$\int \sec^2 x \, dx = \tan x + C, \quad \int \csc^2 x \, dx = -\cot x + C$$
   $$\int \sec x \tan x \, dx = \sec x + C, \quad \int \csc x \cot x \, dx = -\csc x + C$$
-
 #### Step 5: Worked Proof Example (Area via Antiderivative)
 Finding the exact area function $A(x)$ under $f(x) = x^2$ on $[0, x]$:
 
@@ -7809,3 +7804,4 @@ Finding the exact area function $A(x)$ under $f(x) = x^2$ on $[0, x]$:
    $$A(0) = \frac{0^3}{3} + C = 0 \implies C = 0$$
 4. **State Particular Area Function & Evaluate on $[0, 1]$:**
    $$A(x) = \frac{x^3}{3} \implies A(1) = \frac{1^3}{3} = \frac{1}{3}$$
+
