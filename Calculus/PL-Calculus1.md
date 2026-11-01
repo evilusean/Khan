@@ -7804,7 +7804,7 @@ Finding the exact area function $A(x)$ under $f(x) = x^2$ on $[0, x]$:
    $$A(0) = \frac{0^3}{3} + C = 0 \implies C = 0$$
 4. **State Particular Area Function & Evaluate on $[0, 1]$:**
    $$A(x) = \frac{x^3}{3} \implies A(1) = \frac{1^3}{3} = \frac{1}{3}$$
-### Finding an Antiderivative: f(x) = x^2
+### Finding an Antiderivative: $f(x) = x^2$
 
 #### Step 1: Problem Statement & Objective
 - **Given Function:**
@@ -7820,3 +7820,4 @@ Finding the exact area function $A(x)$ under $f(x) = x^2$ on $[0, x]$:
   $$\frac{d}{dx}\left[\frac{x^3}{3}\right] = \frac{1}{3} \cdot (3x^2) = x^2$$
 - **Conclusion:**
   Since $\frac{d}{dx}[F(x)] = f(x)$, $F(x) = \frac{x^3}{3}$ is a valid antiderivative of $f(x) = x^2$.
+
