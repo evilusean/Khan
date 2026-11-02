@@ -7842,4 +7842,3 @@ Finding the exact area function $A(x)$ under $f(x) = x^2$ on $[0, x]$:
   Every single one of these functions shares the exact same derivative ($x^2$). Therefore, when going in reverse (integrating $x^2$), there are infinitely many valid antiderivatives.
 - **Accounting for All Possibilities:**
   Omitting $+ C$ implies a single rigid function, ignoring the vertical shifts (the constant $C$) that vanish during differentiation. Writing $+ C$ ensures the mathematical notation correctly represents the entire family of antiderivatives
-# Leftoff @ 58
