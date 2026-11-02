@@ -1,4 +1,5 @@
-- [ ] Create an App similar to Trig-Identities-CheatSheet with a screensaver and quiz mode of all the new calc 1 identities I need for engineering
+- [x] Create an App similar to Trig-Identities-CheatSheet with a screensaver and quiz mode of all the new calc 1 identities I need for engineering ✅ 2026-11-02
+- [ ] Add basic integration table to the Calculus App
 - [ ] Create a new xournal template for practice/review of calc identities - still haven't fully remembered the ~30ish trig identities
 ### Calc 1 Derivative Rules
 
