@@ -7906,15 +7906,13 @@ Every integration formula is derived directly by reversing a known differentiati
 - **Check Answer:**
   $$\frac{d}{dx}\left[ -\frac{1}{2}x^{-2} + C \right] = -\frac{1}{2}(-2x^{-3}) + 0 = x^{-3} = \frac{1}{x^3}$$
   Since differentiation recovers the original integrand $\frac{1}{x^3}$, the answer is verified.
-### Evaluate Integral: sqrt(x) dx
-
+### Evaluate Integral: $\sqrt(x) dx$
 #### Problem Setup & Rewrite
 - **Given Integral:**
   $$\int \sqrt{x} \, dx$$
 - **Algebraic Rewrite:**
   Convert the radical expression to a fractional exponent to apply the Power Rule:
   $$\int x^{\frac{1}{2}} \, dx$$
-
 #### Solution & Derivation
 - **Apply Power Rule ($r = \frac{1}{2}$):**
   Increase the exponent by 1 ($\frac{1}{2} + 1 = \frac{3}{2}$) and divide by the new exponent ($\frac{3}{2}$):
@@ -7922,8 +7920,8 @@ Every integration formula is derived directly by reversing a known differentiati
 - **Simplify Complex Fraction:**
   Rewrite as a complex fraction and multiply by the reciprocal of the denominator:
   $$\longrightarrow \frac{\frac{x^{\frac{3}{2}}}{1}}{\frac{3}{2}} \longrightarrow \frac{2x^{\frac{3}{2}}}{3} + C$$
-
 #### Verification via Differentiation
 - **Check Answer:**
   $$\frac{d}{dx}\left[ \frac{2}{3}x^{\frac{3}{2}} + C \right] = \frac{2}{3}\left(\frac{3}{2}x^{\frac{1}{2}}\right) + 0 = x^{\frac{1}{2}} = \sqrt{x}$$
   Since differentiation recovers the original integrand $\sqrt{x}$, the solution is verified.
+
