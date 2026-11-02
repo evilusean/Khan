@@ -7195,7 +7195,7 @@ f''(x)  f''(-5)  (+)    ||          f''(0)  (-)                ||    f''(5)  (+)
 * **Middle Branch ($-4 < x < 4$):** Enters from $-\infty$ along the vertical asymptote $x = -4$, increasing and curving downward (concave down). Passes through the $x$-intercept $(-2, 0)$ up to the relative maximum peak at $\left(0, \frac{1}{2}\right)$, then turns downward (concave down) through $x$-intercept $(2, 0)$ toward $-\infty$ along the vertical asymptote $x = 4$.
 * **Right Branch ($x > 4$):** Enters from $+\infty$ along the vertical asymptote $x = 4$, decreasing and curving upward (concave up) to level off toward the horizontal asymptote $y = 2$ as $x \to \infty$.
 # Above Added To Anki Deck
-## 2026-10-22 - Calculus 1 Lecture 3.7: Optimization; Max/Min Application Problems :
+## 2026-10-22 - Calculus 1 Lecture 3.7: Optimization; Max/Min Application Problems (1 Hour 34 mins):
 https://www.youtube.com/watch?v=SWZcq_biZLw&list=PLF797E961509B4EB5&index=24
 ### Optimization; Max/Min Application Problems
 #### Core Concepts & Analytical Framework

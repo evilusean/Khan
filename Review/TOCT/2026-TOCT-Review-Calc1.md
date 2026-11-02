@@ -446,3 +446,34 @@ Every single piece of this equation gets replaced by a specific number given in 
    * Distance / measurement values $\longrightarrow$ plug into standard variables ($r, h, x, y$).
    * Speeds / rates of change $\longrightarrow$ plug into rate variables ($\frac{dr}{dt}, \frac{dh}{dt}, \frac{dx}{dt}$).
 4. **Solve algebraically**: Calculate the remaining single unknown rate (such as $\frac{dV}{dt}$).
+
+### Basic Integration Tables & Fundamental Formulas
+Every integration formula is derived directly by reversing a known differentiation formula. Because antidifferentiation undoes differentiation, each derivative rule corresponds directly to a standard integral rule plus the constant of integration ($+ C$).
+#### Constant and Power Rules
+- **Constant / Unity Integration Rule:** Integrates a constant rate of change back into a linear function.
+  - Derivative Form: $\frac{d}{dx}[x] = 1$
+  - Integral Form: $\int 1 \, dx = x + C$
+- **Power Rule for Integration:** Reverses the differentiation power rule by increasing the exponent by 1 and dividing by the new exponent (valid for all powers except $r = -1$).
+  - Derivative Form: $\frac{d}{dx}[x^r] = r x^{r-1}$
+  - Integral Form: $\int x^r \, dx = \frac{x^{r+1}}{r+1} + C \quad (r \neq -1)$
+#### Basic Sine & Cosine Rules
+- **Integral of Cosine:** Since the derivative of sine is positive cosine, integrating cosine yields positive sine.
+  - Derivative Form: $\frac{d}{dx}[\sin x] = \cos x$
+  - Integral Form: $\int \cos x \, dx = \sin x + C$
+- **Integral of Sine:** Since the derivative of cosine is negative sine, integrating positive sine yields negative cosine.
+  - Derivative Form: $\frac{d}{dx}[-\cos x] = \sin x$
+  - Integral Form: $\int \sin x \, dx = -\cos x + C$
+#### Squared Trigonometric Rules
+- **Integral of Secant Squared:** Directly undoes the derivative of tangent.
+  - Derivative Form: $\frac{d}{dx}[\tan x] = \sec^2 x$
+  - Integral Form: $\int \sec^2 x \, dx = \tan x + C$
+- **Integral of Cosecant Squared:** Directly undoes the derivative of negative cotangent.
+  - Derivative Form: $\frac{d}{dx}[-\cot x] = \csc^2 x$
+  - Integral Form: $\int \csc^2 x \, dx = -\cot x + C$
+#### Product Trigonometric Rules
+- **Integral of Secant-Tangent Product:** Reverses the derivative of secant.
+  - Derivative Form: $\frac{d}{dx}[\sec x] = \sec x \tan x$
+  - Integral Form: $\int \sec x \tan x \, dx = \sec x + C$
+- **Integral of Cosecant-Cotangent Product:** Reverses the derivative of negative cosecant.
+  - Derivative Form: $\frac{d}{dx}[-\csc x] = \csc x \cot x$
+  - Integral Form: $\int \csc x \cot x \, dx = -\csc x + C$
