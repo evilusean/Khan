@@ -7888,3 +7888,24 @@ Every integration formula is derived directly by reversing a known differentiati
   $$\frac{d}{dx}\left[ \frac{x^5}{5} + C \right] = \frac{1}{5} \cdot (5x^4) + 0 = x^4$$
   Since the derivative yields the original integrand $x^4$, the result is verified.
 
+### Evaluate Integral: (1 / x^3) dx
+
+#### Problem Setup & Rewrite
+- **Given Integral:**
+  $$\int \frac{1}{x^3} \, dx$$
+- **Algebraic Rewrite:**
+  Rewrite the quotient using a negative exponent so the Power Rule can be applied:
+  $$\int x^{-3} \, dx$$
+
+#### Solution & Derivation
+- **Apply Power Rule ($r = -3$):**
+  Increase the exponent by 1 ($-3 + 1 = -2$) and divide by the new exponent ($-2$):
+  $$\int x^{-3} \, dx = \frac{x^{-2}}{-2} + C$$
+- **Simplify (Rewrite with Positive Exponents):**
+  Move the negative power back to the denominator:
+  $$\longrightarrow \frac{-1}{2x^2} + C$$
+
+#### Verification via Differentiation
+- **Check Answer:**
+  $$\frac{d}{dx}\left[ -\frac{1}{2}x^{-2} + C \right] = -\frac{1}{2}(-2x^{-3}) + 0 = x^{-3} = \frac{1}{x^3}$$
+  Since differentiation recovers the original integrand $\frac{1}{x^3}$, the answer is verified.
