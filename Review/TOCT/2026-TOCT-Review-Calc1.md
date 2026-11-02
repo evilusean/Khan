@@ -477,3 +477,37 @@ Every integration formula is derived directly by reversing a known differentiati
 - **Integral of Cosecant-Cotangent Product:** Reverses the derivative of negative cosecant.
   - Derivative Form: $\frac{d}{dx}[-\csc x] = \csc x \cot x$
   - Integral Form: $\int \csc x \cot x \, dx = -\csc x + C$
+### 2026-10-25 - Calculus 1 Lecture 4.1: An Introduction to the Indefinite Integral (2 Hours 45 Mins) :
+https://www.youtube.com/watch?v=b2ZFpE_yrLg&list=PLF797E961509B4EB5&index=25
+#### Calculus 1 Lecture 4.1: An Introduction to the Indefinite Integral
+#### Lecture Overview & Core Concepts
+- **The Two Fundamental Problems of Calculus:**
+  1. **Differential Calculus:** Finding the slope of a tangent line / rate of change at a specific point ($\frac{dy}{dx}$).
+  2. **Integral Calculus:** Finding the net area under a continuous curve $f(x)$ on an interval $[a, b]$.
+- **The Core Intuition:**
+  - Area approximation via the **Rectangular Method** (Riemann sums using left endpoints, right endpoints, or midpoints).
+  - As the number of subintervals $n \to \infty$ (and subinterval width $\Delta x \to 0$), the rectangular sum approaches the exact continuous area under the curve.
+  - The fundamental relationship linking area to antiderivatives: $A'(x) = f(x)$. To find the area function $A(x)$, we must "undo" differentiation by finding the antiderivative of $f(x)$.
+#### Key Antiderivative Rules & Formulas
+- **Definition of an Indefinite Integral:**
+  $$\int f(x) \, dx = F(x) + C \quad \text{where } F'(x) = f(x)$$
+  - $\int$: Integral symbol
+  - $f(x)$: Integrand
+  - $dx$: Differential indicating the variable of integration
+  - $C$: Arbitrary constant of integration (representing a family of curves)
+- **Standard Integration Formulas:**
+  - **Constant Rule:**
+    $$\int k \, dx = kx + C$$
+  - **Power Rule for Integration:**
+    $$\int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$$
+  - **Logarithmic Rule ($n = -1$):**
+    $$\int \frac{1}{x} \, dx = \ln|x| + C$$
+  - **Exponential Rules:**
+    $$\int e^x \, dx = e^x + C, \quad \int a^x \, dx = \frac{a^x}{\ln a} + C$$
+  - **Trigonometric Antiderivatives:**
+    $$\int \sin x \, dx = -\cos x + C$$
+    $$\int \cos x \, dx = \sin x + C$$
+    $$\int \sec^2 x \, dx = \tan x + C$$
+    $$\int \csc^2 x \, dx = -\cot x + C$$
+    $$\int \sec x \tan x \, dx = \sec x + C$$
+    $$\int \csc x \cot x \, dx = -\csc x + C$$
