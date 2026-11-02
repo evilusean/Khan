@@ -7872,21 +7872,19 @@ Every integration formula is derived directly by reversing a known differentiati
 - **Integral of Cosecant-Cotangent Product:** Reverses the derivative of negative cosecant.
   - Derivative Form: $\frac{d}{dx}[-\csc x] = \csc x \cot x$
   - Integral Form: $\int \csc x \cot x \, dx = -\csc x + C$
-### Evaluate Integral: x^4 dx
-
+### Evaluate Integral: $x^4 dx$
 #### Problem & Rule Setup
 - **Given Integral:**
   $$\int x^4 \, dx$$
 - **Integration Rule Applied (Power Rule):**
   $$\int x^r \, dx = \frac{x^{r+1}}{r+1} + C \quad (r \neq -1)$$
-
 #### Solution & Derivation
 - **Apply the Power Rule with $r = 4$:**
   Increase the exponent by 1 ($4 + 1 = 5$) and divide by the new exponent ($5$):
   $$\int x^4 \, dx = \frac{x^{4+1}}{4+1} + C$$
   $$\int x^4 \, dx = \frac{x^5}{5} + C$$
-
 #### Verification via Differentiation
 - **Check Answer:**
   $$\frac{d}{dx}\left[ \frac{x^5}{5} + C \right] = \frac{1}{5} \cdot (5x^4) + 0 = x^4$$
   Since the derivative yields the original integrand $x^4$, the result is verified.
+
