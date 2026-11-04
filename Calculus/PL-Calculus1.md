@@ -7925,3 +7925,4 @@ Every integration formula is derived directly by reversing a known differentiati
   $$\frac{d}{dx}\left[ \frac{2}{3}x^{\frac{3}{2}} + C \right] = \frac{2}{3}\left(\frac{3}{2}x^{\frac{1}{2}}\right) + 0 = x^{\frac{1}{2}} = \sqrt{x}$$
   Since differentiation recovers the original integrand $\sqrt{x}$, the solution is verified.
 
+# Leftoff @ 1:22
